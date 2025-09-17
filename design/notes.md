@@ -164,7 +164,7 @@ Expedition 41
 Expedition 69:
  - Color Identity: Green
  - Chapter 1: Search your library for a basic land card and put it into play tapped
- - Chapter 2: Search your library for a non-basic land card and put it into play tapped
+ - Chapter 2: You may play an additional land thus turn
  - Chapter 3: Search your library for a basic land card and a non-basic land card and put them into play
     - Journal is a story of exploring everywhere and installing grapple points for those who come after.
  
@@ -719,6 +719,7 @@ Gestral Tribal
 Nevron Tribal
 Expeditioners
 Painter Control
+Lands
 
 - Having Gestrals, Nevrons and Expeditioners as their own creature types may be too parasitic and prevents synergies with other sets, maybe we just piggy-back off of an existing creature type instead?
 - If we were to use existing creature types then probably:

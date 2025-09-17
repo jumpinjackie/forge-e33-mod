@@ -1,0 +1,10 @@
+Name:Expedition 69
+ManaCost:2 G
+Types:Enchantment Saga
+K:Chapter:3:DBChapter1,DBChapter2,DBChapter3
+SVar:DBChapter1:DB$ ChangeZone | Origin$ Library | Destination$ Battlefield | Tapped$ True | ChangeType$ Land.Basic | ChangeNum$ 1 | SpellDescription$ Search your library for a basic land card, put it onto the battlefield tapped, then shuffle.
+SVar:DBChapter2:DB$ Effect | StaticAbilities$ Exploration | SpellDescription$ You may play an additional land this turn.
+SVar:Exploration:Mode$ Continuous | Affected$ You | AdjustLandPlays$ 1 | Description$ You may play an additional land this turn.
+SVar:DBChapter3:DB$ ChangeZone | Origin$ Library | Destination$ Battlefield | ChangeType$ Land | ChangeNum$ 1 | SpellDescription$ Search your library for a land card, put it onto the battlefield tapped, then shuffle.
+DeckHas:Ability$Counters
+Oracle:(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)\nI — Search your library for a basic land card, put it onto the battlefield tapped, then shuffle..\nII — You may play an additional land thus turn.\nIII — Search your library for a land card, put it onto the battlefield tapped, then shuffle.
