@@ -1,0 +1,6 @@
+Name:Crushing Cavern
+ManaCost:no cost
+Types:Land
+A:AB$ Mana | Cost$ T | Produced$ C | SpellDescription$ Add {C}.
+A:AB$ Destroy | Cost$ 1 T Sac<1/CARDNAME> | ValidTgts$ Creature.attacking+withoutFlying | TgtPrompt$ Select target attacking creature without flying | SpellDescription$ Destroy target attacking creature without flying.
+Oracle:{T}: Add {C}.\n{1},{T}, Sacrifice Crushing Cavern: Destroy target attacking creature without flying

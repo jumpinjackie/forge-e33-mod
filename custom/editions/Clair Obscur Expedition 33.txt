@@ -1,0 +1,70 @@
+[metadata]
+Code=E33
+Name=Clair Obscur: Expedition 33
+Date=2025-09-17
+Type=Custom
+
+[cards]
+C Abbest
+U Abberation
+C Abrade
+R Archmage's Charm
+C Ballet
+U Benisseur
+U Boucheclier
+U Braseleur
+C Catapault Sakapatate
+U Consign to Memory
+C Counterspell
+C Cruler
+U Crushing Cavern
+R Dark Shores
+U Drown in the Loch
+C Duress
+R Earthquake
+M Endless Tower
+C Expedition Envoy
+C Expedition Healer
+C Expedition Raptor
+C Expedition Diviner
+C Expedition Map
+R Exploration
+C Explore
+C Explorer's Scope
+C Explorer's Cache
+R Fiery Confluence
+C Fire // Ice
+U Flying Waters
+R Forgotten Battlefield
+R Gestral Arena
+C Gestral Beach
+R Gestral Village
+C Lightning Bolt
+R Lumiere
+C Luster
+R Monoco's Station
+R Mystic Confluence
+C Naturalize
+U Noire
+C Oblivion Ring
+U Path to Exile
+C Painted Bluffs
+R Painter's Servant
+U Painter's Studio // Defaced Gallery
+U Pyrotechnics
+U Pyrokinesis
+U Reaper Cultist
+C Saw it Coming
+U Scour
+U Swords to Plowshares
+C Sudden Death
+C Sudden Edict
+R Wasteland
+
+[tokens]
+w_1_1_human_expeditioner
+
+[CreatureTypes]
+Nevron:Nevrons
+Expeditioner:Expeditioners
+Gestral:Gestrals

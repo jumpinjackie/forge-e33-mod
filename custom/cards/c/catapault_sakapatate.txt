@@ -1,0 +1,10 @@
+Name:Catapault Sakapatate
+ManaCost:2 R
+Types:Creature Nevron
+PT:2/2
+K:Devoid
+T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Card.Self | Execute$ TrigDeath | TriggerDescription$ When this creature dies, you may have this creature deal 2 damage to any target.
+SVar:TrigDeath:DB$ DealDamage | ValidTgts$ Any | NumDmg$ 2
+T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Card.Self | Execute$ TrigToken | TriggerDescription$ When this creature dies, target opponent creates a Lumina token.
+SVar:TrigToken:DB$ Token | TokenAmount$ 1 | ValidTgts$ Opponent | TokenOwner$ Targeted | TokenScript$ c_a_lumina
+Oracle:Devoid (This card has no color.)\nWhen this creature dies, you may have this creature deal 2 damage to any target.\nWhen this creature dies, target opponent creates a Lumina token.

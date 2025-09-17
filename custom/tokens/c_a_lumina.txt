@@ -1,0 +1,5 @@
+Name:Lumina Token
+ManaCost:no cost
+Types:Artifact Lumina
+A:AB$ Scry | Cost$ T Sac<1/CARDNAME/this token> | ScryNum$ 1 | SpellDescription$ Scry 1
+Oracle:{T}, Sacrifice this token: Scry 1
