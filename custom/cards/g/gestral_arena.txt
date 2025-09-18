@@ -2,6 +2,6 @@ Name:Gestral Arena
 ManaCost:no cost
 Types:Land
 A:AB$ Mana | Cost$ T | Produced$ C | SpellDescription$ Add {C}.
-A:AB$ Pump | Cost$ R G T | ValidTgts$ Creature.Gestral+YouCtrl | TgtPrompt$ Choose target Gestral creature you control | SubAbility$ FightForTheCliffs | StackDescription$ None | SpellDescription$ Target Gestral creature you control fights another target creature. (Each deals damage equal to its power to the other.)
+A:AB$ Pump | Cost$ 1 R/G T | ValidTgts$ Creature.Gestral+YouCtrl | TgtPrompt$ Choose target Gestral creature you control | SubAbility$ FightForTheCliffs | StackDescription$ None | SpellDescription$ Target Gestral creature you control fights another target creature. (Each deals damage equal to its power to the other.)
 SVar:FightForTheCliffs:DB$ Fight | Defined$ ParentTarget | ValidTgts$ Creature | TargetUnique$ True | TgtPrompt$ Choose another target creature
 Oracle:{T}: Add {C}.\n{1},{R/G},{T}: Target Gestral creature you control fights another target creature

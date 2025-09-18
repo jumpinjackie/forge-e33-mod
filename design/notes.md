@@ -2,8 +2,23 @@
 
 E33 or EXP
 
-# Lands
+# Creature Type Design Constraints
 
+Unfortunately the world of Expedition 33 is not very diverse in terms of creature types (blame the painter's lack of originality!).
+
+Practically speaking there are only 3 tribes we have to work with:
+
+ * Humans
+ * Nevrons
+ * Gestrals
+
+Humans at least allows us to bring in "backup" in the form of reprints of human creatures from other sets. We don't have that luxury with Nevrons or Gestrals.
+
+We could use an existing creature type as a proxy for Nevrons and Gestrals, but that would be a flavor/thematic fail in my opinion. So as a result, we will proceed with what is essentially a new "parasitic" creature type (as there is very little external set synergy/interaction beyond Changelings) so we must ensure that this set provides sufficient quantity of Nevron and Gestral creature cards to build a tribal deck around.
+
+This is doubly compounded by the fact that creatures are the backbone of any magic set, so we need these creatures to perform double-duty of not only providing a sufficiently deep pool to build a deck around in constructed, but deep enough to build a deck around in limited/draft environments as well.
+
+# Lands
 
 ## Lumiere, The Last Bastion
 
@@ -102,7 +117,7 @@ Cycling: {2}
 
 ### Design Notes
 
-- I originally wanted a cheaper cycling: 1 ability that you can only activate if you control a Gestral permanent, but I couldn't find an exist example of a card with multiple cycling abilities which suggests to me that this isn't quite doable.
+- I originally wanted a cheaper cycling: 1 ability that you can only activate if you control a Gestral permanent, but I couldn't find an existing example of a card with multiple cycling abilities which suggests to me that this isn't quite doable.
 
 ## Gestral Arena
 
@@ -112,6 +127,10 @@ Land
 {T}: Add {C}
 {1}{R/G},T: Target Gestral you control fights another target creature
 ```
+
+### Design Notes
+
+ * Basically Constested Cliffs but for Gestrals. Since Gestrals love fighting, this is 100% on the mark flavor-wise.
 
 ## The Reacher
 
@@ -137,7 +156,8 @@ At the beginning of your upkeep, you may put a challenge counter on this land.
 ### Design Notes
 
  - In the game, the Endless Tower was a 33-battle gauntlet against Nevrons of increasing difficulty
- - Figured the best way to mechanically model this gauntlet is to have something between Aether Vial and Mercadian Lift that grows and can put out Nevrons of increasing size.
+ - Figured the best way to mechanically model this gauntlet is to have something between Aether Vial and Mercadian Lift that grows counters and can put out Nevrons of increasing size based on the number of counters. 
+ - We take the automatic growing counters effect of Aether Vial with the "removing counters as part of activation" part of Mercadian Lift. It would be hideously broken if we kept the Aether Vial activation as then this would be a strictly better and uncounterable Aether Vial, even if it had a Nevron-only restriction.
 
 ## Monoco's Station
 
@@ -262,34 +282,77 @@ Journals can are modeled as Sagas. Doesn't have to cover every expedition, just 
 
 ## Expedition 41
 
- - Color Identity: Rakdos
- - Chapter 1, 2: Destroy target Nevron
- - Chapter 3: Destroy all Nevrons
-    - Journal is a story of expeditioners engaged in a competition to see who can kill the most Nevrons.
+```
+1BR
+Enchantment - Saga
+(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
+I, II — Destroy target Nevron.
+III — Destroy all Nevrons. Create a Lumina token for each Nevron destroyed this way.
+```
+
+### Design Notes
+
+ - Journal is a story of expeditioners engaged in a competition to see who can kill the most Nevrons.
  
+## Expedition 59
+
+```
+GB
+Enchantment - Saga
+(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
+I — Destroy target Nevron. Create a Food token.
+II — Create 2 Food tokens.
+III — Until end of turn, Food tokens you control gain "Sacrifice this artifact: Target creature deals 3 damage to itself"
+```
+
+### Design Notes
+
+ - Journal is a story of Expeditioners making the fatal mistake of eating dead nevrons
+ - "Food poisoning" mechanic adapted from Asmoranomardicadaistinaculdacar's ability
+
 ## Expedition 69
 
- - Color Identity: Green
- - Chapter 1: Search your library for a basic land card and put it into play tapped
- - Chapter 2: You may play an additional land thus turn
- - Chapter 3: Search your library for a basic land card and a non-basic land card and put them into play
-    - Journal is a story of exploring everywhere and installing grapple points for those who come after.
+```
+2G
+Enchantment - Saga
+(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
+I — Search your library for a basic land card, put it onto the battlefield tapped, then shuffle.
+II — You may play an additional land thus turn.
+III — Search your library for a land card, put it onto the battlefield tapped, then shuffle.
+```
+### Design Notes
+
+ - Journal is a story of exploring everywhere and installing grapple points for those who come after.
  
 ## Expedition 48
 
- - Color Identity: Red
- - Chapter 1: Target creature an opponent controls deals damage equal to its power to another create target creature that player controls.
- - Chapter 2: Gain control of up to one target creature an opponent controls until end of turn and untap it. That creature gains haste until end of turn.
- - Chapter 3: Gain control of up to two target creatures an opponent controls and untap them. Those creatures gains haste until end of turn. Sacrifice those creatures at end of turn.
-    - Journal is basically a story of mutiny, so all chapters are variations on mutiny/disloyalty
+```
+2RR
+Enchantment - Saga
+(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
+I — Target creature an opponent controls deals damage equal to its power to another create target creature that player controls.
+II — Gain control of up to one target creature an opponent controls until end of turn and untap it. That creature gains haste until end of turn.
+III — Gain control of up to two target creatures an opponent controls and untap them. Those creatures gains haste until end of turn. Sacrifice those creatures at end of turn.
+```
+
+### Design Notes
+
+ - Journal is basically a story of mutiny, so all chapters are variations on mutiny/disloyalty
     
 ## Expedition 49
 
- - Color Identity: White
- - Chapter 1: Gain 2 life for each creature you control
- - Chapter 2: Put a shield counter on each creature you control
- - Chapter 3: Until the end of your opponent's turn, if you control a creature, damage that would reduce your life total to less than 1 reduces it to 1 instead.
-    - Journal is about expeditioners who carried out their mission through strong defense/healing tactics, which proves to be their downfall as their weak offensive capabilities prove to be ineffective against the Nevrons.
+```
+3W
+Enchantment - Saga
+(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
+I — Gain 2 life for each creature you control.
+II — Put a shield counter on each creature you control.
+III — Until the end of your opponent's turn, if you control a creature, damage that would reduce your life total to less than 1 reduces it to 1 instead.
+```
+
+### Design Notes
+
+ - Journal is about expeditioners who carried out their mission through strong defense/healing tactics, which proves to be their downfall as their weak offensive capabilities prove to be ineffective against the Nevrons.
 
 # The Manor
 
@@ -341,6 +404,137 @@ Artifact creatures with some squee-style immortality mechanic
  - If in graveyard at beginning of upkeep, may return to hand
  
 Or the immortality mechanic can be an ability of the Sacred River, which should obviously be a legendary land.
+
+## Gestral Fighter
+
+```
+2
+Artifact Creature - Gestral
+Whenever this creature attacks, it gets +2/+0 until end of turn for each other attacking Gestral.
+
+1/2
+```
+
+### Design Notes
+
+ * Gestral version of Goblin Piledriver
+ * Might bump cost to 3 because we have a Gestral sol land
+
+## Gestral Lackey
+
+```
+1
+Artifact Creature - Gestral
+Whenever Gestral Lackey deals damage to a player, you may put a Gestral permanent card from your hand onto the battlefield.
+
+1/1
+```
+
+### Design Notes
+
+ * Gestral version of Goblin Lackey
+
+## Gestral Merchant
+
+```
+3
+Artifact Creature - Gestral
+Whenever Gestral Merchant is dealt damage, create that many Chroma tokens
+
+2/3
+```
+
+### Design Notes
+
+ * In the game, you could fight Gestral Merchants to get better set of wares for sale if you beat them.
+ * The best I could think of mechanically was to have this creature reward you with Chroma tokens if it takes damage.
+
+## Gestral Musician
+
+```
+2
+Artifact Creature - Gestral
+At the beginning of your upkeep, you may put a verse counter on this creature
+{2},{T}: Search your library for a Gestral card with mana value X or less and put it into your hand, where X is the number of verse counters on this creature.
+
+1/2
+```
+
+### Design Notes
+
+ * This is the Gestral's Goblin Matron / Gestral Tutor. Adapted from Yisan, the Wanderer Bard
+
+## Gestral Ringleader
+
+```
+5
+Artifact Creature - Gestral
+Haste (This creature can attack and {T} as soon as it comes under your control.)
+When this enters, reveal the top four cards of your library. Put all Gestral cards revealed this way into your hand and the rest on the bottom of your library in any order.
+
+3/2
+```
+
+### Design Notes
+
+ * This is the Gestral's Goblin Ringleader, the one that provides raw card advantage
+
+## Gestral Villager
+
+```
+2
+Artifact Creature - Gestral
+
+2/1
+```
+
+## Golgra, Gestral Chief
+
+```
+Gestral creatures you control get +2/+2
+{2}: Put a shield counter on target Gestral you control.
+Enrage - Whenver Golgra is dealt damage, choose one:
+ - Put a Double strike counter on Golgra.
+ - Put a Vigilance counter on Golgra.
+ - Put a Trample counter on Golgra.
+ - Draw a card.
+```
+
+### Design Notes
+
+ * This is obviously our Gestral lord
+ * In the game, when you get Golgra to below 50% health, she goes "Super Saiyan" and has buffed up attacks. I think Enrage best mechanically represents going "Super Saiyan" when attacked.
+
+## Lost Gestral
+
+```
+1
+Artifact Creature - Gestral
+When this creature enters, if you control a card named Sastro, the Concerned, create 2 Chroma tokens.
+Whenever this creature becomes the target of a spell or ability an opponent controls, put this creature on the bottom of its owner's library.
+
+1/1
+```
+
+### Design Notes
+
+ * In the game, there is a side-quest where you have to find a bunch of Lost Gestrals and return them to Sastro. Every Lost Gestral you find and return to Sastro gives you rewards. For the first ability I went with rewarding the player with Chroma tokens if Sastro is in play when a Lost Gestral enters as a mechanical analogy to this side quest.
+ * The second ability was taken from Fblthp, the Lost to mechanically explain why these Gestrals keep getting lost.
+
+## Sastro, the Concerned
+
+```
+4
+Legendary Artifact Creature - Gestral
+When Sastro enters, put 2 1/1 Gestral artifact creature tokens into play.
+
+2/2
+```
+
+### Design Notes
+
+ * This is the Gestral version of "Siege-Gang Commander"/"Deranged Hermit"
+ * Definitely needs a second ability. Yet to figure out what. Don't think I want something that requires sacrificing Gestrals (the game's lore doesn't explicitly state or dispel the notion that Gestrals have wilful disregard for each other)
 
 # Legendary Creatures
 

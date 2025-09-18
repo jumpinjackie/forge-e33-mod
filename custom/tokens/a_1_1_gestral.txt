@@ -1,0 +1,4 @@
+Name:Gestral Token
+ManaCost:no cost
+Types:Artifact Creature Gestral
+PT:1/1

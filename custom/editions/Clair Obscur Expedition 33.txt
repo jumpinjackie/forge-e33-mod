@@ -32,6 +32,7 @@ U Gestral Fighter
 U Gestral Lackey
 R Gestral Merchant
 U Gestral Musician
+U Gestral Ringleader
 R Gestral Village
 C Gestral Villager
 U Get Out Of My Way!
