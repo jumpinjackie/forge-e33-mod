@@ -7,55 +7,165 @@ Type=Custom
 [cards]
 C Abbest
 U Abberation
+R Alicia Dessendre
+M Aline Dessendre
+C All Set
 C An Advantage!
+U Ancient Sanctuary
 C Ballet
+R Barrier Breaker
 U Benisseur
+R Berrami, Collector of Journals
+R Bertrand Big Hands
+U Blade's Graveyard
 U Boucheclier
+R Bourgeon
+U Boat Graveyard
 U Braseleur
+C Bruler
+R Burning Canvas
 C Catapault Sakapatate
+R Chroma Catalyst
+U Clair
+R Clair Obscur
+M Clea Dessendre
 C Cruler
 U Crushing Cavern
+U Crustal Crush
 R Dark Shores
+U Danseuse
+R Danseuse Teacher
+C Degagement
+R Dominique Giant Feet
+C Earth Rising
+C Egide
 M Endless Tower
 U Energy Tint
 M Esquie, Friend of Verso
 R Esquie's Nest
+C Esquie's Magic Mushrooms
+R Eveque
+U Expedition 41
+U Expedition 48
+U Expedition 49
+U Expedition 59
+R Expedition 60
+U Expedition 63
+R Expedition 68
 U Expedition 69
+U Expedition Flotilla
+U Falling Leaves
+C Fender's Flurry
+U Fleuret Fury
 U Florrie
+R Floating Cemetery
+R Flying Casino
 U Flying Waters
 M Forgotten Battlefield
 U For Those Who Come After
+C Fortune's Fury
+U Francois, Waiting for Clea
+U Frozen Hearts
+R Gargant
+U Gestral Ascension
 R Gestral Arena
 C Gestral Beach
+C Gestral Chef
 U Gestral Bodyguard
 U Gestral Fighter
 U Gestral Lackey
 R Gestral Merchant
 U Gestral Musician
 U Gestral Ringleader
+C Gestral Statue
 R Gestral Village
 C Gestral Villager
 U Get Out Of My Way!
+R Gustave, Lumiere Engineer
+R Gustave's Homage
+R Goblu
 M Golgra, Gestral Chief
 M Gommage
+U Greatsword Cultist
+R Grosse Tete
+C Healing Light
 U Health Tint
+U Heart of the Paintress
+U Hexga
+C Ice Lance
+U Intervention
+R Julien Tiny Head
+R Lampmaster
 U Leave this Canvas!
+U Lightning Dance
+U Limonsol, Matchmaker
 C Lost Gestral
+C Lumiere Assault
 R Lumiere, The Last Bastion
+U Lumina Converter
 C Luster
+R Maelle, Child of Lumiere
+M Maelle, The Reawakened Paintress
+R Matthieu the Colossus
+C Mezzo Forte
+C Lancelier
+U Lumiere Mime
+R Lune, Charting a Path
 R Monoco's Station
 U Noire
+U Obscur
+C Offensive Switch
+U Ono-Puncho
+R Painted Alicia, Eternally Suffering
+R Painted Clea, the Mistress
+R Painted Renoir, Aline's Enforcer
+R Payback
+U Percee
+U Petank
+U Phantom Strike
+U Pyrolyse
 U Reaper Cultist
+C Recoat
+R Renoir Dessendre
+U Repaint
+U Revitalization
+U Ranger Sakapatate
+U Rip Apart Reality
+U Robust Sakapatate
 R Sastro, the Concerned
+R Sciel, Who Welcomes Death
+R Serpenphare
+R Sky Break
+R Simon, Consort of Clea
+R Simon, The Divergent Star
+R Sirene's Coliseum
 U Soarrie
+R Stendhal
+U Strikestorm
+U Sword Ballet
+U Terraquake
+R The Curator
+R The Greatest Expedition in History
 U The Search for Esquie's Rocks
+R The Paintress
+R The Fracture
+R The Monolith
+R The Monolith Interior
+M The World Canvas
+U Thermal Transfer
+U Twilight Quarry
 U Urrie
+R Ultimate Sakapatate
 U When One Falls // We Continue
 U Whee // Whoo
 U Void Meteors
+U Yellow Harvest
 
 [tokens]
+a_1_1_gestral
 w_1_1_human_expeditioner
+c_a_chroma
+c_a_lumina
 
 [CreatureTypes]
 Nevron:Nevrons
