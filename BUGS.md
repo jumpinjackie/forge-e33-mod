@@ -11,3 +11,7 @@ Can generate excess tokens on overkill. The intent was only to generate tokens u
 # Golgra, Gestral Chief
 
 I am being prompted for the mode before the enrage trigger goes on the stack, I kind of expected the prompt to happen on trigger resolution. And the trigger description on the stack is the full modal prompt and not the choice made. Not sure if it ultimately matters.
+
+# Esquie, Friend of Verso
+
+Getting the same ordering issue on the Uro modal trigger as Golgra.
