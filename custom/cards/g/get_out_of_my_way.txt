@@ -1,0 +1,6 @@
+Name:Get Out Of My Way!
+ManaCost:X R
+Types:Sorcery
+A:SP$ Pump | KW$ HIDDEN CARDNAME can't block. | TargetMin$ X | TargetMax$ X | ValidTgts$ Creature.Gestral | TgtPrompt$ Select X target Gestral creatures | StackDescription$ X target Gestral creatures [{c:Targeted}] can't block this turn. | SpellDescription$ X target Gestral creatures can't block this turn.
+SVar:X:Count$xPaid
+Oracle:X target Gestral creatures can't block this turn.

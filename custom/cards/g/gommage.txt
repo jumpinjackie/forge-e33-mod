@@ -1,0 +1,5 @@
+Name:Gommage
+ManaCost:3 W B
+Types:Sorcery
+A:SP$ ChangeZoneAll | UseAllOriginZones$ True | Origin$ Battlefield | Destination$ Exile | ChangeType$ Permanent.nonLand+nonLegendary+nonNevron | SpellDescription$ Exile all nonland permanents that aren't legendary or Nevrons.
+Oracle:Exile all nonland permanents that aren't legendary or Nevrons.
