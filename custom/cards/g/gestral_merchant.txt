@@ -1,0 +1,5 @@
+Name:Gestral Merchant
+ManaCost:3
+Types:Artifact Creature Gestral
+PT:2/3
+Oracle:Whenever Gestral Merchant is dealt damage, create that many Chroma tokens

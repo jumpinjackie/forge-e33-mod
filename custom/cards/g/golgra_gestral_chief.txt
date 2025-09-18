@@ -1,0 +1,5 @@
+Name:Golgra, Gestral Chief
+ManaCost:5
+Types:Legendary Artifact Creature Gestral
+PT:5/6
+Oracle:Gestral creatures you control get +2/+2\n{2}: Put a shield counter on target Gestral you control.\nEnrage - Whenver Golgra is dealt damage, choose one:\n - Put a Double strike counter on Golgra.\n - Put a Vigilance counter on Golgra.\n - Put a Trample counter on Golgra.\n - Draw a card.

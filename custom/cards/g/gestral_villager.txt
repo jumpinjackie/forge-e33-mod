@@ -1,0 +1,4 @@
+Name:Gestral Villager
+ManaCost:2
+Types:Artifact Creature Gestral
+PT:2/1

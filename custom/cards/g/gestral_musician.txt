@@ -1,0 +1,5 @@
+Name:Gestral Musician
+ManaCost:2
+Types:Artifact Creature Gestral Bard
+PT:1/2
+Oracle:At the beginning of your upkeep, put a verse counter on this creature.\n{2},{T}: Search your library for a Gestral card with mana value X or less and put it into your hand, where X is the number of verse counters on this creature.

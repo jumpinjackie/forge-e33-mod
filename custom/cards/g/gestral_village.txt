@@ -1,0 +1,6 @@
+Name:Gestral Village
+ManaCost:no cost
+Types:Land Town
+A:AB$ Mana | Cost$ T | Produced$ C | SpellDescription$ Add {C}.
+A:AB$ Mana | Cost$ T | Produced$ C | Amount$ 2 | RestrictValid$ Spell.Gestral,Activated.Gestral+inZoneBattlefield | SpellDescription$ Add {C}{C}. Spend this mana only to cast Gestral spells or activate abilities of Gestrals.
+Oracle:{T}: Add {C}.\n{T}: Add {C}{C}. Spend this mana only to cast Gestral spells or activate abilities of Gestrals.
