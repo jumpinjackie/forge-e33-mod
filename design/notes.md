@@ -4,138 +4,241 @@ E33 or EXP
 
 # Lands
 
-Lumiere
+
+## Lumiere, The Last Bastion
+
+```
 Legendary Land - Town
 
- T: Add {W}
- {1}{W},T: Create a 1/1 White Human Expeditioner token with "When this creature dies or is exiled, create a Chroma token"
- {1}{W},T: Create a Map token
+{T}: Add {W}
+{1}{W},{T}: Create a 1/1 White Human Expeditioner token with "When this creature dies or is exiled, create a Chroma token"
+{1}{W},{T}: Create a Map token
+```
 
-Lumiere Opera House
+## Lumiere Opera House
+
+```
 Legendary Land
+TBD
+```
 
-Old Lumiere
+## Old Lumiere
+
+```
 Legendary Land
+TBD
+```
 
-Flying Manor
+## Flying Manor
+
+```
 Legendary Land
+TBD
+```
 
-Flying Waters
+## Flying Waters
+
+```
 Land
 
- T: Add {U}
- {U},T: Target creature you control gains flying until end of turn
+{T}: Add {U}
+{U},T: Target creature you control gains flying until end of turn
+```
 
-Stone Wave Cliffs
+## Stone Wave Cliffs
+
+```
+Land
+```
+
+## Dark Shores
+
+```
 Land
 
- 
+As this land enters, you may reveal a Nevron card in your hand. If you don't it enters tapped.
+{T}: Add {B}. 
+{T}: Add {B}{B}. This land doesn't untap during your next untap step. Activate this ability only if you control a Nevron.
+```
 
-Dark Shores
-Land
+### Design Notes
 
- This card enters tapped unless you control a Nevron
- T: Add {B}. If you control a Nevron, add {B}{B} instead and put a stun counter on this card.
+- I wanted to use stun counters as they are a nice physical/visual aid to indicate that something will not untap on your next untap step, but unfortunately I simply could not get Forge to cooperate with me (I suspect that Forge doesn't support putting stun counters on lands, even though it should be mechanically possible), so I had to revert to the old "does not untap during your next untap step" wording. Not a big deal in Forge where this is automatically enforced.
 
-Forgotten Battlefield
+## Forgotten Battlefield
+
+```
 Legendary Land
 
- T: Add {C}
- {1}{B},T: Put target Nevron card from your graveyard on top of your library
- 
+{T}: Add {C}
+{1}{B},T: Put target Nevron card from your graveyard on top of your library
+```
+
+### Design Notes
+
 - Basically Volrath's Stronghold for Nevrons
 
-Gestral Village
+## Gestral Village
+
+```
 Land - Town
 
- T: Add {C}
- T: Add {C}{C}. Spend this mana only to play a Gestral spell
+{T}: Add {C}
+{T}: Add {C}{C}. Spend this mana only to cast Gestral spells or activate abilities of Gestrals.
+```
+
+### Design Notes
 
 - Basically Eldrazi Temple for Gestrals
 
-Gestral Beach
+## Gestral Beach
+
+```
 Land
 
- T: Add {C}
- Cycling: {2}
- Cycling: {1}. Activate this ability only if you control a Gestral creature.
+{T}: Add {C}
+Cycling: {2}
+```
 
-Gestral Arena
+### Design Notes
+
+- I originally wanted a cheaper cycling: 1 ability that you can only activate if you control a Gestral permanent, but I couldn't find an exist example of a card with multiple cycling abilities which suggests to me that this isn't quite doable.
+
+## Gestral Arena
+
+```
 Land
 
- T: Add {C}
- {1}{R/G},T: Target Gestral you control fights another target creature
+{T}: Add {C}
+{1}{R/G},T: Target Gestral you control fights another target creature
+```
 
-The Reacher
+## The Reacher
+
+```
+Land
+TBD
+```
+
+### Design Notes
+
  - The Reacher is all about verticality (reaching for the skies). How do we mechanically represent that?
 
-Endless Tower
+## Endless Tower
+
+```
 Legendary Land
 
- At the beginning of your upkeep, you may put a challenge counter on this card.
- T: Add {C}
- T, Remove X challenge counters from this card: Put a Nevron creature with mana value X or less from your hand into play.
+At the beginning of your upkeep, you may put a challenge counter on this land.
+{T}: Add {C}
+{T}, Remove X challenge counters from this land: Put a Nevron creature with mana value X or less from your hand into play.
+```
 
-Monoco's Station
+### Design Notes
+
+ - In the game, the Endless Tower was a 33-battle gauntlet against Nevrons of increasing difficulty
+ - Figured the best way to mechanically model this gauntlet is to have something between Aether Vial and Mercadian Lift that grows and can put out Nevrons of increasing size.
+
+## Monoco's Station
+
+```
 Land
 
- T: Add {C}
- T: Add {U} or {R}. Activate this ability only if you control a Gestral.
- T: Add {U} or {R}. Put a stun counter on this card.
+{T}: Add {C}
+{T}: Add {U} or {R}. Activate this ability only if you control a Gestral.
+{T}: Add {U} or {R}. Put a stun counter on this land.
+```
 
-The Monolith Interior
+## The Monolith Interior
+
+```
 Land
 
- You may have this land enter as a copy of any non-basic land on the battlefield, except it has “At the beginning of your upkeep, you may have this land become a copy of target non-basic land, except it has this ability.”
+You may have this land enter as a copy of any non-basic land on the battlefield, except it has "At the beginning of your upkeep, you may have this land become a copy of target non-basic land, except it has this ability."
+```
+
+### Design Notes
 
 - Basically a Vesuvan Doppelganger for lands. Meant to mechanically capture the Paintress' memories of places visited by Expedition 33
+- I am hoping I can copy Vesuvan Doppelganger for the most part and change the targeting parameters from creatures to non-basic lands.
+- In the event that the Forge rules engine won't cooperate, I think we can fallback to this being a variant of Vesuva
 
-The Monolith
+## The Monolith
+
+```
 Legendary Land
 
- When this card enters. Exile all Aline Planeswalkers until this card leaves the battlefield.
- While this card is in play, plays cannot cast Aline Planeswalker spells.
- This card enters with 10 gommage counters.
- At the beginnning of your upkeep, remove a gommage counter from this card, then exile all nonland, non-legendary permanents with mana value greater than or equal to the number of gommage counters on this card.
- When this card has no gommage counters, sacrifice it.
- T: Add {C}
+When The Monolith enters, exile all Aline Planeswalkers until The Monolith leaves the battlefield.
+
+While The Monolith is in play, player cannot cast Aline Planeswalker spells.
+
+The Monolith enters with 10 gommage counters.
+
+At the beginnning of your upkeep, remove a gommage counter from The Monolith, then exile all nonland, non-legendary permanents with mana value greater than or equal to the number of gommage counters on The Monolith.
+
+When The Monolith has no gommage counters, sacrifice it.
+
+{T}: Add {C}
+```
+
+### Design Notes
  
- - For lore accuracy, this would've been 100 counters instead of 10, but that would take way too long in MTG "game time". Reducing it to 10 sacrifices lore accuracy, but retains mechanical accuracy.
+ - For lore accuracy, this would've been 100 counters instead of 10, but that would take way too long in MTG "game time". Reducing it to 10 sacrifices lore accuracy, but retains mechanical accuracy of something that's constantly counting down and wiping out everything older than that number.
  - Exile/blocking effect meant to symbolize Aline being trapped in the Monolith.
 
-Renoir's Drafts
+## Renoir's Drafts
+
+```
 Land
 
- When this card enters. Exile all Renoir Planeswalkers until this card leaves the battlefield.
- While this card is in play, players cannot cast Renoir Planeswalker spells.
- T: Add {U} or {B}
- {2}, Sacrifice this land: Draw a card
+When this land enters. Exile all Renoir Planeswalkers until this land leaves the battlefield.
+
+While this land is in play, players cannot cast Renoir Planeswalker spells.
+
+{T}: Add {U} or {B}
+{2}, Sacrifice this land: Draw a card
+```
+
+### Design Notes
  
  - Exile/blocking effect meant to symbolize Renoir being trapped underneath the Monolith.
 
-Crushing Cavern
+## Crushing Cavern
+
+```
 Land
 
 This land enters tapped
 
- T: Add {C}
- T, Sacrifice this card: Destroy target attacking creature without flying
- 
+{T}: Add {C}
+{T}, Sacrifice this land: Destroy target attacking creature without flying
+```
+
+### Design Notes
+
 - Having this enter tapped so any creature can at least get one shot in before this land could kill it
 
-Sacred River
+## Sacred River
+
+```
 Legendary Land
 
- T: Add {C}
- {X},T: Put target Gestral card from your graveyard or exile with mana value X into play tapped. This ability costs {3} less if you control a card named Golgra
+{T}: Add {C}
+{X},T: Put target Gestral card from your graveyard or exile with mana value X into play tapped. This ability costs {3} less if you control a card named Golgra, Gestral Chief
+```
 
-- Per lore, you need to be "in a queue" to get a Gestral resurrection, but if you're in favor with Golgra you could get a discount and "jump the queue"
+### Design Notes
 
-# Expedition Journals
+- Per game lore, you need to be "in a queue" to get a Gestral resurrection, but if you're in favor with Golgra you could get a discount and "jump the queue"
 
-Journals can be Sagas. Doesn't have to cover every expedition, just the most notable ones or ones whose synopsis or overarching theme is translatable to MTG mechanics.
+# Enchantments
 
-Expedition 60
+## Expedition Journals
+
+Journals can are modeled as Sagas. Doesn't have to cover every expedition, just the most notable ones or ones whose synopsis or overarching theme is translatable to MTG mechanics.
+
+## Expedition 60
+
  - Color Identity: Gruul
  - Chapter 1: Un-modified creatures you control gain haste and double strike until end of turn (something that emphasises power of raw human strength)
  - Chapter 2: Un-modified creatures you control gain hexproof until end of turn (closest analogue I could find to gommage barrier immunity)
@@ -143,39 +246,45 @@ Expedition 60
  - May need to tweak definition. Modern MTG templating would grant such abilities through ability counters which is a nonbo with un-modified creatures. Making buffs temporary would sidestep this issue.
     - Journal is a story of expeditioners who almost succeeded in their mission through raw human strength
 
-Expedition 63
+## Expedition 63
+
  - Color Identity: Izzet
  - Chapter 1,2: You may crew a vehicle by tapping a creature with power 1 instead of its regular crew cost
  - Chapter 3: Sacrifice all vehicles you control. For each vehicle sacrificed, you may have it deal damage to target creature or planeswalker equal to the sacrified vehicle's mana value
     - Journal is a story of expeditioners using cars to traverse the continent only for their mission to end when they fatally crashed into some Nevrons
  
-Expedition 68
+## Expedition 68
+
  - Color Identity: Blue
  - Chapter 1, 2: Create a 5/5 Airship Vehicle Token with Haste, Flying and Crew: 3
  - Chapter 3: Sacrifice all Airships you control
     - Journal is a story of expeditioners stealing a bunch of Airships to escape Lumiere.
 
-Expedition 41
+## Expedition 41
+
  - Color Identity: Rakdos
  - Chapter 1, 2: Destroy target Nevron
  - Chapter 3: Destroy all Nevrons
     - Journal is a story of expeditioners engaged in a competition to see who can kill the most Nevrons.
  
-Expedition 69:
+## Expedition 69
+
  - Color Identity: Green
  - Chapter 1: Search your library for a basic land card and put it into play tapped
  - Chapter 2: You may play an additional land thus turn
  - Chapter 3: Search your library for a basic land card and a non-basic land card and put them into play
     - Journal is a story of exploring everywhere and installing grapple points for those who come after.
  
-Expedition 48
+## Expedition 48
+
  - Color Identity: Red
  - Chapter 1: Target creature an opponent controls deals damage equal to its power to another create target creature that player controls.
  - Chapter 2: Gain control of up to one target creature an opponent controls until end of turn and untap it. That creature gains haste until end of turn.
  - Chapter 3: Gain control of up to two target creatures an opponent controls and untap them. Those creatures gains haste until end of turn. Sacrifice those creatures at end of turn.
     - Journal is basically a story of mutiny, so all chapters are variations on mutiny/disloyalty
     
-Expedition 49:
+## Expedition 49
+
  - Color Identity: White
  - Chapter 1: Gain 2 life for each creature you control
  - Chapter 2: Put a shield counter on each creature you control
@@ -207,13 +316,21 @@ Conceptually ties to mana. Could be something that grants you mana when you a Ne
 
 # Tokens
 
-Chroma
+
+## Chroma
+
+```
 Token Artifact - Chroma
 
-T, Sacrifice this artifact: Add one mana of any color, spend this mana only to cast a Nevron, Gestral or Expeditioner spell
+{T},Sacrifice this artifact: Add one mana of any color, spend this mana only to cast a Nevron, Gestral or Expeditioner spell
+```
 
-Lumina
+## Lumina
+
+```
 Token Artifact - Lumina
+{T},Sacrifice this artifact: Scry 1
+```
 
 (Lumina Tokens by themselves do nothing)
 
@@ -404,19 +521,19 @@ Florrie - {1}
 Legendary Artifact - Rock
 
 T: Target creature gains Islandwalk until end of turn
-1, Sacrifice this card: Draw a card
+1, Sacrifice this land: Draw a card
 
 Soarrie - {1}
 Legendary Artifact - Rock
 
 T: Target creature gains flying until end of turn
-1, Sacrifice this card: Draw a card
+1, Sacrifice this land: Draw a card
 
 Urrie - {1}
 Legendary Artifact - Rock
 
 T: Surveil 2
-1, Sacrifice this card: Draw a card
+1, Sacrifice this land: Draw a card
 
 Lumina Converter - {2}
 Arifact
@@ -437,13 +554,13 @@ Heart of the Paintress - {3}
 Legendary Artifact
 
 T: Add {C}
-T, Sacrifice this card: Search your library for a card named Barrier Breaker and put it into play. Activate this ability only if you control a card named The Curator
+T, Sacrifice this land: Search your library for a card named Barrier Breaker and put it into play. Activate this ability only if you control a card named The Curator
  
 Barrier Breaker - {5}
 Legendary Artifact - Equpiment
 
 Equipped creature gets +4/+4 and has Shadow
-When this card enters, if you control a card named Maelle, you may attach this card to it
+When this land enters, if you control a card named Maelle, you may attach this land to it
 Equip: {2}
 
 - Need to think more about what MTG mechanic best represents "void damage"
