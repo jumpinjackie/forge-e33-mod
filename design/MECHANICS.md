@@ -8,6 +8,8 @@ Chroma is the life-force of the canvas. The closest MTG analogue is obviously ma
 
 Unlike Treasure tokens, to keep with the theme and flavor of this set, the mana from sacrified Chroma tokens has spending restrictions, only allowing you to spend such mana on Nevrons, Gestrals or Expeditioners
 
+Chroma tokens may be an additional cost on some spells
+
 ### Expeditoners
 
 All Expeditioners are humans and have an ability that gives you a Chroma Token when they die.

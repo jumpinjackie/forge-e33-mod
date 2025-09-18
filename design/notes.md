@@ -6,15 +6,18 @@ E33 or EXP
 
 Unfortunately the world of Expedition 33 is not very diverse in terms of creature types (blame the painter's lack of originality!).
 
-Practically speaking there are only 3 tribes we have to work with:
+Practically speaking there are only 4 tribes we have to work with:
 
  * Humans
  * Nevrons
  * Gestrals
+ * Grandis
 
 Humans at least allows us to bring in "backup" in the form of reprints of human creatures from other sets. We don't have that luxury with Nevrons or Gestrals.
 
 We could use an existing creature type as a proxy for Nevrons and Gestrals, but that would be a flavor/thematic fail in my opinion. So as a result, we will proceed with what is essentially a new "parasitic" creature type (as there is very little external set synergy/interaction beyond Changelings) so we must ensure that this set provides sufficient quantity of Nevron and Gestral creature cards to build a tribal deck around.
+
+Grandis is on this list just for completeness, but in practical terms there isn't enough Grandis creatures to be able to build a dedicated tribal deck, so these creatures will need some compelling abilities to be playable.
 
 This is doubly compounded by the fact that creatures are the backbone of any magic set, so we need these creatures to perform double-duty of not only providing a sufficiently deep pool to build a deck around in constructed, but deep enough to build a deck around in limited/draft environments as well.
 
@@ -687,7 +690,44 @@ Dodge (blinking effect?), Parry (Damage redirection?), Gradient Parry (A souped 
 Gradient attacks (Some charge counter based ability)
 
 A Nevron tutor
-A rock tutor
+
+## Get Out Of My Way!
+
+```
+XR
+Sorcery
+X target Gestral creatures can't block this turn.
+```
+
+### Design notes
+
+ * Golgra's secret password to get past any Gestral bouncers.
+
+
+## Leave this Canvas!
+
+```
+1WB
+Sorcery
+Exile target nonland permanent.
+```
+
+### Design notes
+
+ - I want to add extra bonuses based on the kind of permanent exiled. Get a Lumina token if it was a Nevron. Get a Chroma token if it was an Expeditioner.
+    - Have to figure out if Forge lets me describe this kind of conditional bonus
+
+## Gommage
+
+```
+3WW
+Sorcery
+Exile all nonland permanents that are not legendary or Nevrons
+```
+
+### Design notes
+
+ - May "downgrade" to destroy if playtesting reveals we have too many exile effects, despite being more flavorful
 
 # Artifacts
 
