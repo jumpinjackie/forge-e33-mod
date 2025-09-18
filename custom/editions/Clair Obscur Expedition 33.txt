@@ -7,79 +7,50 @@ Type=Custom
 [cards]
 C Abbest
 U Abberation
-C Abrade
-R Archmage's Charm
+C An Advantage!
 C Ballet
 U Benisseur
 U Boucheclier
 U Braseleur
 C Catapault Sakapatate
-R Cavern of Souls
-C Chart a Course
-U Consign to Memory
-C Counterspell
 C Cruler
 U Crushing Cavern
-C Crushing Canopy
 R Dark Shores
-R Dragonskull Summit
-U Drown in the Loch
-R Drowned Catacomb
-C Duress
-R Earthquake
 M Endless Tower
+U Energy Tint
+M Esquie, Friend of Verso
+R Esquie's Nest
 U Expedition 69
-C Expedition Envoy
-C Expedition Healer
-C Expedition Raptor
-C Expedition Diviner
-C Expedition Map
-R Exploration
-C Explore
-C Explorer's Scope
-C Explorer's Cache
-R Fiery Confluence
-C Fire // Ice
+U Florrie
 U Flying Waters
-R Forgotten Battlefield
+M Forgotten Battlefield
+U For Those Who Come After
 R Gestral Arena
 C Gestral Beach
+U Gestral Bodyguard
+U Gestral Fighter
+U Gestral Lackey
+R Gestral Merchant
+U Gestral Musician
 R Gestral Village
-R Get Lost
-R Glacial Fortress
-C Legion's Judgment
-C Lightning Bolt
-R Lumiere
+C Gestral Villager
+U Get Out Of My Way!
+M Golgra, Gestral Chief
+M Gommage
+U Health Tint
+U Leave this Canvas!
+C Lost Gestral
+R Lumiere, The Last Bastion
 C Luster
-R Molten Collapse
 R Monoco's Station
-R Mystic Confluence
-C Naturalize
-C New Horizons
 U Noire
-C Oblivion Ring
-U Path to Exile
-C Painted Bluffs
-R Painter's Servant
-U Painter's Studio // Defaced Gallery
-U Perilous Voyage
-U Pyrotechnics
-U Pyrokinesis
 U Reaper Cultist
-C Rumbling Rockslide
-C Run Aground
-R Rootbound Crag
-C Saw it Coming
-U Scour
-U Sentinel Totem
-U Sorcerous Spyglass
-C Spell Pierce
-C Sudden Death
-C Sudden Edict
-R Sunpetal Grove
-U Unclaimed Territory
-C Verdant Rebirth
-R Wasteland
+R Sastro, the Concerned
+U Soarrie
+U Urrie
+U When One Falls // We Continue
+U Whee // Whoo
+U Void Meteors
 
 [tokens]
 w_1_1_human_expeditioner
@@ -88,3 +59,6 @@ w_1_1_human_expeditioner
 Nevron:Nevrons
 Expeditioner:Expeditioners
 Gestral:Gestrals
+
+[ArtifactTypes]
+Rock:Rocks
