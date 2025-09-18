@@ -26,6 +26,7 @@ C Bruler
 R Burning Canvas
 C Catapault Sakapatate
 R Chroma Catalyst
+R Chroma Barrier
 U Clair
 R Clair Obscur
 M Clea Dessendre
