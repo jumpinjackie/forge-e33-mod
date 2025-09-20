@@ -1,0 +1,6 @@
+Name:Danseuse Clone Token
+ManaCost:no cost
+Colors:blue red
+Types:Creature Nevron
+PT:2/2
+Oracle:

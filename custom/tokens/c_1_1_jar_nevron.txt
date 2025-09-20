@@ -1,0 +1,5 @@
+Name:Jar Nevron Token
+ManaCost:no cost
+Types:Creature Nevron
+PT:1/1
+Oracle:

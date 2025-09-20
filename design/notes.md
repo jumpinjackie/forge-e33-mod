@@ -2,7 +2,7 @@
 
 E33 or EXP
 
-# Creature Type Design Constraints
+# Creature Type and Mechanical Design Constraints
 
 Unfortunately the world of Expedition 33 is not very diverse in terms of creature types (blame the painter's lack of originality!).
 
@@ -19,7 +19,9 @@ We could use an existing creature type as a proxy for Nevrons and Gestrals, but 
 
 Grandis is on this list just for completeness, but in practical terms there isn't enough Grandis creatures to be able to build a dedicated tribal deck, so these creatures will need some compelling abilities to be playable.
 
-This is doubly compounded by the fact that creatures are the backbone of any magic set, so we need these creatures to perform double-duty of not only providing a sufficiently deep pool to build a deck around in constructed, but deep enough to build a deck around in limited/draft environments as well.
+This is doubly compounded by the fact that creatures are the strategic backbone of any magic set, so we need these creatures to perform double-duty of not only providing a sufficiently deep pool to build a deck around in constructed, but deep enough to build a deck around in limited/draft environments as well.
+
+On a similar tangent, the lore/flavor of the game overrides whatever default color pie mechanical assumptions you may have. This may mean that creatures may end up with mechanics that are outside of its usual color.
 
 # Lands
 
@@ -168,9 +170,14 @@ At the beginning of your upkeep, you may put a challenge counter on this land.
 Land
 
 {T}: Add {C}
-{T}: Add {U} or {R}. Activate this ability only if you control a Gestral.
+{T}: Add {U} or {R}. Activate this ability only if you control a Gestral or Grandis.
 {T}: Add {U} or {R}. Put a stun counter on this land.
 ```
+
+### Design Notes
+
+ - Monoco's station is located in an icy mountainous region of the continent. Thus it clearly a land that should tap for {U} or {R}
+ - Monoco's station is the home of Monoco (a Gestral) and Grandis. So it goes that tapping for {U} or {R} should have no drawbacks if you have either one in play
 
 ## The Monolith Interior
 
@@ -218,28 +225,30 @@ When this land enters. Exile all Renoir Planeswalkers until this land leaves the
 
 While this land is in play, players cannot cast Renoir Planeswalker spells.
 
-{T}: Add {U} or {B}
+{T}: Add {C}
+{T}: Add {U} or {B}. Activate this ability only if you control a Nevron.
 {2}, Sacrifice this land: Draw a card
 ```
 
 ### Design Notes
  
- - Exile/blocking effect meant to symbolize Renoir being trapped underneath the Monolith.
+ - Exile/blocking effect meant to symbolize Renoir being trapped underneath the Monolith
+ - 20/09/2025: Nevron restriction added to prevent this from being a strictly better dual land. Added a {C} mana ability to at least make it do something if you don't have a Nevron
 
 ## Crushing Cavern
 
 ```
 Land
 
-This land enters tapped
-
+This land enters tapped.
 {T}: Add {C}
-{T}, Sacrifice this land: Destroy target attacking creature without flying
+{1},{T},Sacrifice this land: Destroy target attacking creature without flying
 ```
 
 ### Design Notes
 
-- Having this enter tapped so any creature can at least get one shot in before this land could kill it
+ - Having this enter tapped so any creature can at least get one shot in before this land could kill it
+ - 20/09/2025: Added ETB tapped and extra {1} to the kill ability
 
 ## Sacred River
 
@@ -247,12 +256,13 @@ This land enters tapped
 Legendary Land
 
 {T}: Add {C}
-{X},T: Put target Gestral card from your graveyard or exile with mana value X into play tapped. This ability costs {3} less if you control a card named Golgra, Gestral Chief
+{X},{T}: Put target Gestral card from your graveyard or exile with mana value X into play tapped. This ability costs {3} less if you control a card named Golgra, Gestral Chief
 ```
 
 ### Design Notes
 
-- Per game lore, you need to be "in a queue" to get a Gestral resurrection, but if you're in favor with Golgra you could get a discount and "jump the queue"
+ - In the game, the Sacred River is a place where Gestrals can be resurrected.
+ - Per game lore and rules established by Golgra, you need to be "in a queue" to get a Gestral resurrection, but if you're in favor with Golgra you could get a discount and "jump the queue"
 
 # Enchantments
 
@@ -357,6 +367,21 @@ III — Until the end of your opponent's turn, if you control a creature, damage
 
  - Journal is about expeditioners who carried out their mission through strong defense/healing tactics, which proves to be their downfall as their weak offensive capabilities prove to be ineffective against the Nevrons.
 
+## Chroma Prison
+
+```
+2W
+Kindred Enchantment - Nevron
+If you control a Nevron or Painter, you may cast this spell as though it had flash.
+When this enchantment enters, exile another target nonland permanent.
+When this enchantment leaves the battlefield, return the exiled card to the battlefield under its owner's control.
+```
+
+### Design Notes
+
+ - Oblivion Ring variant #29835534892
+ - To make it unique (flavor-wise), give it extra benefits if you are playing Nevrons
+
 # The Manor
 
 Could be a new "dungeon" that can be ventured into
@@ -364,6 +389,8 @@ Could be a new "dungeon" that can be ventured into
 Or we could re-use the room mechanic introduced in Duskmourn
 
 New dungeon would require enabler/support cards. Room mechanic reuse does not
+
+20/09/2025: Decided to go with Duskmorn room mechanic
 
 # Nevrons
 
@@ -381,7 +408,6 @@ All Nevrons have a triggered ability on death to give an opponent a Lumina token
 Conceptually ties to mana. Could be something that grants you mana when you a Nevron or Expeditioner dies or a token that can be cashed in for mana at a later point in time (A chroma token, similar to a treasure token?).
 
 # Tokens
-
 
 ## Chroma
 
@@ -407,6 +433,8 @@ Artifact creatures with some squee-style immortality mechanic
  - If in graveyard at beginning of upkeep, may return to hand
  
 Or the immortality mechanic can be an ability of the Sacred River, which should obviously be a legendary land.
+
+20/09/2025: Immorality mechanic relegated to Sacred River. Gestrals are now a specific sub-type of Artifact Creatures.
 
 ## Gestral Fighter
 
@@ -452,20 +480,21 @@ Whenever Gestral Merchant is dealt damage, create that many Chroma tokens
  * In the game, you could fight Gestral Merchants to get better set of wares for sale if you beat them.
  * The best I could think of mechanically was to have this creature reward you with Chroma tokens if it takes damage.
 
-## Gestral Musician
+## Lorieniso, Gestral Musician
 
 ```
 2
 Artifact Creature - Gestral
-At the beginning of your upkeep, you may put a verse counter on this creature
+At the beginning of your upkeep, you may put a verse counter on Lorieniso
 {2},{T}: Search your library for a Gestral card with mana value X or less and put it into your hand, where X is the number of verse counters on this creature.
 
-1/2
+1/3
 ```
 
 ### Design Notes
 
  * This is the Gestral's Goblin Matron / Gestral Tutor. Adapted from Yisan, the Wanderer Bard
+ * 20/09/2025: Initial playtested shows this is quite broken in multiples. Made into a legendary creature and changed P/T to 1/3
 
 ## Gestral Ringleader
 

@@ -4,13 +4,15 @@ Always comes into play tapped, won't let me reveal a Nevron card to offset this 
 
 I templated this off of Auntie's Hovel which does the same thing but with Goblin cards!
 
+The UB mana ability seems to be used for auto-payment even if you don't meet the activation condition.
+
 # Gestral Merchant
 
 Can generate excess tokens on overkill. The intent was only to generate tokens up to the creature's toughness
 
 # Golgra, Gestral Chief
 
-I am being prompted for the mode before the enrage trigger goes on the stack, I kind of expected the prompt to happen on trigger resolution. And the trigger description on the stack is the full modal prompt and not the choice made. Not sure if it ultimately matters.
+I am being prompted for the mode before the enrage trigger goes on the stack, I kind of expected the prompt to happen on trigger resolution. And the trigger description on the stack is the full modal prompt and not the choice made. Not sure if it ultimately matters because it behaviourally works as expected.
 
 # Esquie, Friend of Verso
 

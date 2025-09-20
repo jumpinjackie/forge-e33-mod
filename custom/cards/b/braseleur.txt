@@ -1,5 +1,5 @@
 Name:Braseleur
-ManaCost:2 R
+ManaCost:1 R U
 Types:Creature Nevron
 PT:3/2
 K:Devoid

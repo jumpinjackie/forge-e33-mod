@@ -1,0 +1,5 @@
+Name: An Advantage!
+ManaCost:U
+Types:Sorcery
+A:SP$ Token | TokenAmount$ 3 | TokenOwner$ You | TokenScript$ c_a_lumina
+Oracle:Create 3 Lumina Tokens

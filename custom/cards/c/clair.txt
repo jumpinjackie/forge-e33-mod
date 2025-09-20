@@ -1,0 +1,10 @@
+Name:Clair
+ManaCost:2 W
+Types:Creature Nevron
+PT:2/2
+K:Devoid
+T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Card.Self | Execute$ TrigToken | TriggerDescription$ When this creature dies, target opponent creates a Lumina token.
+SVar:TrigToken:DB$ Token | TokenAmount$ 1 | ValidTgts$ Opponent | TokenOwner$ Targeted | TokenScript$ c_a_lumina
+A:AB$ Animate | Cost$ 2 W T | ValidTgts$ Creature.OppCtrl | TgtPrompt$ Select target creature an opponent controls| RemoveAllAbilities$ True | SpellDescription$ Target creature an opponent controls loses all abilities until end of turn.
+A:AB$ PutCounter | Cost$ 1 W T | ValidTgts$ Creature.YouCtrl | TgtPrompt$ Select target creature you control | CounterType$ SHIELD | SpellDescription$ Put a shield counter on target creature you control.
+Oracle:Devoid (This card has no color.)\nWhen this creature dies, target opponent creates a Lumina token.\n{2}{W},{T}: Target creature an opponent controls loses all abilities until end of turn.\n{1}{W},{T}: Put a shield counter on target creature you control.

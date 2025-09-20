@@ -7,7 +7,8 @@ Type=Custom
 [cards]
 C Abbest
 U Abberation
-R Alicia Dessendre
+U Alicia's Birthday Party
+R Alicia Dessendre, Slienced by Fire
 M Aline Dessendre
 C All Set
 C An Advantage!
@@ -25,8 +26,12 @@ U Braseleur
 C Bruler
 R Burning Canvas
 C Catapault Sakapatate
+C Chalier
+U Chapelier
+C Chorale
 R Chroma Catalyst
 R Chroma Barrier
+C Chroma Prison
 U Clair
 R Clair Obscur
 M Clea Dessendre
@@ -37,6 +42,7 @@ R Dark Shores
 U Danseuse
 R Danseuse Teacher
 C Degagement
+C Demineur
 U Dessendre Family Canvas
 R Dominique Giant Feet
 C Earth Rising
@@ -79,7 +85,6 @@ U Gestral Bodyguard
 U Gestral Fighter
 U Gestral Lackey
 R Gestral Merchant
-U Gestral Musician
 U Gestral Ringleader
 C Gestral Statue
 R Gestral Village
@@ -105,14 +110,14 @@ R Lampmaster
 U Leave this Canvas!
 U Lightning Dance
 U Limonsol, Matchmaker
+R Lorieniso, Gestral Musician
 C Lost Gestral
 C Lumiere Assault
 R Lumiere, The Last Bastion
 U Lumiere Opera House
 U Lumina Converter
 C Luster
-R Maelle, Child of Lumiere
-M Maelle, The Reawakened Paintress
+M Maelle, Child of Lumiere
 R Matthieu the Colossus
 C Mezzo Forte
 C Manor Gardens
@@ -137,6 +142,7 @@ R Painted Renoir, Aline's Enforcer
 R Payback
 U Percee
 U Petank
+C Petrification
 U Phantom Strike
 C Piercing Strike
 U Pyrolyse
@@ -180,6 +186,7 @@ U Yellow Harvest
 
 [tokens]
 a_1_1_gestral
+c_1_1_jar_nevron
 w_1_1_human_expeditioner
 c_a_chroma
 c_a_lumina
@@ -188,6 +195,7 @@ c_a_lumina
 Nevron:Nevrons
 Expeditioner:Expeditioners
 Gestral:Gestrals
+Grandis:Grandises
 
 [ArtifactTypes]
 Rock:Rocks

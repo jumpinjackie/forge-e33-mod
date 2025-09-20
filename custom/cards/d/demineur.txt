@@ -1,9 +1,9 @@
-Name:Boucheclier
-ManaCost:3 U
+Name:Demineur
+ManaCost:U
 Types:Creature Nevron
-PT:3/3
+PT:1/1
+K:Flying
 K:Devoid
 T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Card.Self | Execute$ TrigToken | TriggerDescription$ When this creature dies, target opponent creates a Lumina token.
 SVar:TrigToken:DB$ Token | TokenAmount$ 1 | ValidTgts$ Opponent | TokenOwner$ Targeted | TokenScript$ c_a_lumina
-K:etbCounter:SHIELD:1
-Oracle:Devoid (This card has no color.)\nWhen this creature dies, target opponent creates a Lumina token.\nThis creature enters with a shield counter on it. (If it would be dealt damage or destroyed, remove a shield counter from it instead.)
+Oracle:Flying.\nDevoid (This card has no color.)\nWhen this creature dies, target opponent creates a Lumina token.
