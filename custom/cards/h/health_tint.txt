@@ -1,0 +1,6 @@
+Name:Health Tint
+ManaCost:2
+Types:Artifact
+A:AB$ GainLife | Cost$ T Sac<1/CARDNAME> | LifeAmount$ 5 | SpellDescription$ You gain 5 life.
+A:AB$ GainLife | Cost$ T Sac<1/CARDNAME> | LifeAmount$ 10 | IsPresent$ Lumina.YouCtrl | PresentCompare$ GE3 | SpellDescription$ You gain 10 life. Activate this ability only if you control at least 3 Lumina tokens.
+Oracle:Sacrifice this artifact: You gain 5 life.\nSacrifice this artifact: You gain 10 life. Activate this ability only if you control at least 3 Lumina tokens.

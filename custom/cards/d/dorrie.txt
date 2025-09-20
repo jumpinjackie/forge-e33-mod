@@ -1,0 +1,6 @@
+Name:Dorrie
+ManaCost:1
+Types:Legendary Artifact Rock
+A:AB$ Animate | Cost$ T | ValidTgts$ Creature.YouCtrl | TgtPrompt$ Select target creature you control | Keywords$ Trample | SpellDescription$ Target creature you control gains Trample until end of turn.
+A:AB$ Draw | Cost$ 1 Sac<1/CARDNAME> | NumCards$ 1 | SpellDescription$ Draw a card.
+Oracle:{T}: Target creature you control gains Trample until end of turn.\n{1},Sacrifice Dorrie: Draw a card.

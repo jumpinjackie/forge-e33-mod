@@ -1,0 +1,14 @@
+Name:Esquie's Nest
+ManaCost:no cost
+Types:Legendary Land Cave
+A:AB$ ManaReflected | Cost$ T | ColorOrType$ Type | Valid$ Land.YouCtrl | ReflectProperty$ Produce | SpellDescription$ Add one mana of any type that a land you control could produce.
+A:AB$ Mana | Cost$ T | Produced$ W U B R G | ConditionCheckSVar$ AllFour | ConditionSVarCompare$ EQ4 | SpellDescription$ Add {W}{U}{B}{R}{G}. Activate this ability only if you control a card named Soarrie, a card named Florrie, a card named Dorrie and a card named Urrie.
+SVar:AllFour:SVar$AllThree/Plus.Soarrie
+SVar:AllThree:SVar$Sum/Plus.Dorrie
+SVar:Sum:SVar$Florrie/Plus.Urrie
+SVar:Soarrie:Count$Valid Artifact.YouCtrl+namedSoarrie/LimitMax.1
+SVar:Florrie:Count$Valid Artifact.YouCtrl+namedFlorrie/LimitMax.1
+SVar:Urrie:Count$Valid Artifact.YouCtrl+namedUrrie/LimitMax.1
+SVar:Dorrie:Count$Valid Artifact.YouCtrl+namedDorrie/LimitMax.1
+DeckNeeds:Name$Soarrie|Florrie|Urrie|Dorrie
+Oracle:{T}: Add one mana of any type that a land you control could produce.\n{T}: Add {W}{U}{B}{R}{G}. Activate this ability only if you control a card named Soarrie, a card named Florrie, a card named Dorrie and a card named Urrie.

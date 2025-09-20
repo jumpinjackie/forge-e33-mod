@@ -45,6 +45,7 @@ C Degagement
 C Demineur
 U Dessendre Family Canvas
 R Dominique Giant Feet
+U Dorrie
 C Earth Rising
 C Egide
 M Endless Tower
@@ -62,6 +63,7 @@ R Expedition 60
 U Expedition 63
 R Expedition 68
 U Expedition 69
+C Expedition Cache
 U Expedition Flotilla
 U Falling Leaves
 C Fender's Flurry
