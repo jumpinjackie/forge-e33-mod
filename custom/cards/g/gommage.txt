@@ -1,5 +1,6 @@
 Name:Gommage
 ManaCost:3 W B
 Types:Sorcery
+S:Mode$ ReduceCost | ValidCard$ Card.Self | Type$ Spell | Amount$ 1 | EffectZone$ All | IsPresent$ Painter.YouCtrl | Description$ This spell costs {1} less to cast if you control a painter.
 A:SP$ ChangeZoneAll | UseAllOriginZones$ True | Origin$ Battlefield | Destination$ Exile | ChangeType$ Permanent.nonLand+nonLegendary+nonNevron | SpellDescription$ Exile all nonland permanents that aren't legendary or Nevrons.
-Oracle:Exile all nonland permanents that aren't legendary or Nevrons.
+Oracle:This spell costs {1} less to cast if you control a painter.\nExile all nonland permanents that aren't legendary or Nevrons.

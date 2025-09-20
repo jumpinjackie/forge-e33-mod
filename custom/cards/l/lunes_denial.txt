@@ -1,0 +1,6 @@
+Name:Lune's Denial
+ManaCost:1 U
+Types:Kindred Instant Expeditioner
+A:SP$ Counter | TargetType$ Spell | TgtPrompt$ Select target spell | ValidTgts$ Card | UnlessCost$ 2 | SubAbility$ DBToken | SpellDescription$ Counter target spell unless its controller pays {2}.
+SVar:DBToken:DB$ Token | TokenAmount$ 1 | TokenOwner$ You | TokenScript$ c_a_lumina
+Oracle:Counter target spell unless its controller pays {2}.\nCreate a Lumina token.

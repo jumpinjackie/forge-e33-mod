@@ -1,5 +1,6 @@
 Name:Leave this Canvas!
 ManaCost:1 W B
 Types:Sorcery
+S:Mode$ ReduceCost | ValidCard$ Card.Self | Type$ Spell | Amount$ 1 | EffectZone$ All | IsPresent$ Painter.YouCtrl | Description$ This spell costs {1} less to cast if you control a painter.
 A:SP$ ChangeZone | ValidTgts$ Permanent.nonLand | TgtPrompt$ Select target nonland permanent | Origin$ Battlefield | Destination$ Exile | SpellDescription$ Exile target nonland permanent.
-Oracle:Exile target nonland permanent.
+Oracle:This spell costs {1} less to cast if you control a painter.\nExile target nonland permanent.
