@@ -1,0 +1,15 @@
+Name:When One Falls
+ManaCost:3 W
+Types:Sorcery
+K:Fuse
+A:SP$ ChangeZone | Origin$ Graveyard | Destination$ Battlefield | Defined$ ValidGraveyard Expeditioner.YouOwn+ThisTurnEnteredFrom_Battlefield | SpellDescription$ Return to the battlefield, all Expeditioners that were put there from the battlefield this turn
+AlternateMode:Split
+Oracle:Return to the battlefield, all Expeditioners that were put there from the battlefield this turn.\nFuse (You may cast one or both halves of this card from your hand.)
+
+ALTERNATE
+
+Name:We Continue
+ManaCost:4 U
+Types:Sorcery
+A:SP$ AddTurn | NumTurns$ 1 | SpellDescription$ Take an extra turn after this one.
+Oracle:Take an extra turn after this one.

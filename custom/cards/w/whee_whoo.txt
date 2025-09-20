@@ -1,0 +1,16 @@
+Name:Whee
+ManaCost:1 W U
+Types:Instant
+K:Fuse
+AlternateMode:Split
+A:SP$ UntapAll | ValidCards$ Creature.YouCtrl | SpellDescription$ Untap all creatures you control.
+Oracle:Untap all creatures you control.\nFuse (You may cast one or both halves of this card from your hand.)
+
+ALTERNATE
+
+Name:Whoo
+ManaCost:1 U B
+Types:Instant
+A:SP$ TapAll | ValidCards$ Creature.OppCtrl | SubAbility$ DBPumpAll | SpellDescription$ Tap all creatures your opponents control.
+SVar:DBPump:DB$ PumpAll | Defined$ Targeted | KW$ HIDDEN This card doesn't untap during your next untap step. | Duration$ Permanent | StackDescription$ SpellDescription | SpellDescription$ They don't untap during their controllers' next untap steps.
+Oracle:Tap all creatures your opponents control. They don't untap during their controllers' next untap steps.

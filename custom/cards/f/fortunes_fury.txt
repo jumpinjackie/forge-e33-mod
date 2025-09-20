@@ -1,0 +1,5 @@
+Name:Fortune's Fury
+ManaCost:1 R
+Types:Kindred Instant Expeditioner
+A:SP$ Pump | ValidTgts$ Creature | TgtPrompt$ Select target creature | KW$ Double Strike | SpellDescription$ Target creature gains double strike until end of turn.
+Oracle:Target creature gains double strike until end of turn. (It deals both first-strike and regular combat damage.)

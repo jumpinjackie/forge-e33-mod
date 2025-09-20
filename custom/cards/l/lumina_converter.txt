@@ -1,0 +1,7 @@
+Name:Lumina Converter
+ManaCost:2
+Types:Artifact
+A:AB$ Token | Cost$ T RemoveAnyCounter<1/Any/Permanent.YouCtrl/a permanent you control> | TokenAmount$ 1 | TokenOwner$ You | TokenScript$ c_a_lumina | SpellDescription$ Create a Lumina token.
+A:AB$ Token | Cost$ T Sac<1/Chroma.YouCtrl/a Chroma token you control> | TokenAmount$ 1 | TokenOwner$ You | TokenScript$ c_a_lumina | SpellDescription$ Create a Lumina token.
+A:AB$ Token | Cost$ T Sac<1/Nevron.YouCtrl/a Nevron you control> | TokenAmount$ 1 | TokenOwner$ You | TokenScript$ c_a_lumina | SpellDescription$ Create a Lumina token.
+Oracle:{T}, Remove a counter from a permanent you control: Create a Lumina token.\n{T}, Sacrifice a Chroma token: Create a Lumina token.\n{T}, Sacrifice a Nevron: Create a Lumina token.
