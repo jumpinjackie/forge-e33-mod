@@ -1,0 +1,12 @@
+Name:Serpenphare
+ManaCost:5 U R
+Types:Legendary Creature Nevron Serpent
+PT:7/7
+K:Flying
+K:Ward:3
+A:AB$ Tap | Cost$ 1 U | ValidTgts$ Creature | TgtPrompt$ Select target creature | SubAbility$ DBPutCounter | SpellDescription$ Tap target creature. Put a stun counter on it.
+SVar:DBPutCounter:DB$ PutCounter | Defined$ Targeted | CounterType$ Stun | CounterNum$ 1 | SubAbility$ DBPutChargeCounter
+SVar:DBPutChargeCounter:DB$ PutCounter | Defined$ Self | CounterType$ CHARGE | CounterNum$ 1
+A:AB$ DamageAll | Cost$ 4 R SubCounter<X/CHARGE> | NumDmg$ X | ValidCards$ Creature | ValidDescription$ each creature. | SpellDescription$ CARDNAME deals X damage to each creature.
+SVar:X:Count$xPaid
+Oracle:{1}{U}: Tap target creature and put a stun counter on it. Put a charge counter on this creature.\n{4}{R}, Remove X charge counters from Serpenphare: Serpenphare deals X damage to each creature.

@@ -5,6 +5,7 @@ Date=2025-09-17
 Type=Custom
 
 [cards]
+C A storm is coming
 C Abbest
 U Abberation
 U Alicia's Birthday Party
@@ -31,7 +32,9 @@ U Chapelier
 C Chorale
 R Chroma Catalyst
 R Chroma Barrier
+C Chroma Filter
 C Chroma Prison
+C Chromatic Petrification
 U Clair
 R Clair Obscur
 M Clea Dessendre
@@ -95,6 +98,7 @@ U Grandis Merchant
 R Grandis Fashionist
 U Get Out Of My Way!
 R Gustave, Lumiere Engineer
+U Gustave's Journal
 R Gustave's Homage
 R Goblu
 M Golgra, Gestral Chief
@@ -131,6 +135,7 @@ U Manor: Kitchen // Manor: Cellar
 C Lancelier
 U Lumiere Mime
 R Lune, Charting a Path
+C Lune's Denial
 R Monoco's Station
 U Noire
 U Obscur
@@ -144,7 +149,6 @@ R Painted Renoir, Aline's Enforcer
 R Payback
 U Percee
 U Petank
-C Petrification
 U Phantom Strike
 C Piercing Strike
 U Pyrolyse
@@ -188,6 +192,7 @@ U Yellow Harvest
 
 [tokens]
 a_1_1_gestral
+c_1_1_nevron
 c_1_1_jar_nevron
 w_1_1_human_expeditioner
 c_a_chroma
@@ -195,9 +200,12 @@ c_a_lumina
 
 [CreatureTypes]
 Nevron:Nevrons
+Painter:Painters
 Expeditioner:Expeditioners
 Gestral:Gestrals
 Grandis:Grandises
 
 [ArtifactTypes]
 Rock:Rocks
+Lumina:Luminas
+Chroma:Chromas
