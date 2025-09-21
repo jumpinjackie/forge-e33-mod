@@ -323,6 +323,21 @@ III — Until end of turn, Food tokens you control gain "Sacrifice this artifact
  - Journal is a story of Expeditioners making the fatal mistake of eating dead nevrons
  - "Food poisoning" mechanic adapted from Asmoranomardicadaistinaculdacar's ability
 
+## Expedition 70
+
+```
+2WU
+Enchantment - Saga
+(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
+I, II — Search your library for an Expeditoner card, reveal it and put it into your hand, then shuffle.
+III — Search your library for an Expeditioner permanent, put it onto the battlefield, then shuffle.
+```
+
+### Design Notes
+
+ - Journal is a story of an Expedition that made it inside the Monolith in the final few days of their lifetimes and installing grapple points for those who come after.
+ - 21/09/2025: This is an enabler engine for Expeditioner tribal strategies
+
 ## Expedition 69
 
 ```
@@ -331,11 +346,12 @@ Enchantment - Saga
 (As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
 I — Search your library for a basic land card, put it onto the battlefield tapped, then shuffle.
 II — You may play an additional land thus turn.
-III — Search your library for a land card, put it onto the battlefield tapped, then shuffle.
+III — Search your library for a land card, put it onto the battlefield, then shuffle.
 ```
 ### Design Notes
 
- - Journal is a story of exploring everywhere and installing grapple points for those who come after.
+ - Journal is thematically the same as Expedition 69: a story of exploring everywhere and installing grapple points for those who come after.
+ - The one puts more emphasis on the exploration (ie. Land ramp)
  
 ## Expedition 48
 
