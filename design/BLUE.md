@@ -88,7 +88,7 @@ Enchanted permanent doesn't untap during its controller's untap step.
 
 ### Design Notes
 
- - Standard "filler" for limited/draft
+ - Standard blue pin-down effect for limited/draft
 
 ## Francois, Waiting for Clea
 
@@ -102,7 +102,7 @@ The strongest ice attack ever - At the beginning of your upkeep, Francois deals 
 
 ### Design Notes
 
- - In the game Francois is Esquie's "neighbor" and is in possession of one of the rocks that Esquie desires. Francois was created by Clea and is forever longing for her return.
+ - In the game Francois is Esquie's "neighbor" and is in possession of one of the rocks that Esquie desires. Francois was created by Clea and is forever longing for her return into the canvas.
  - Mechanically speaking:
     - Affinity for Clea Planeswalkers is simply added for flavor purposes. There is only one Clea Planeswalker in this set.
     - It has defender as the game portrayal has him in a stationary position that never moves.

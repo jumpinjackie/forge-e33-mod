@@ -153,7 +153,7 @@ When Esquie attacks, if it is saddled, choose one:
     - Because I want to enable an "Urzatron" strategy with the 4 legendary rocks, I am deviating from lore by having these 4 rocks grant extra abilities to Esquie when on the battlefield instead of sacrificing them to Esquie to give them these abilities
     - Mechanically I've interpreted Esquies abilities as:
        - Swimming - Islandwalk
-       - Smashing through coral barries - Trample
+       - Smashing through coral barriers - Trample
        - Flying - Flying
        - Diving - Surveil on attack
  - Because this is a Mount creature with Saddle, I've given it the Uro (draw a card or put a land) triggered ability as the saddle attacking bonus.
@@ -233,12 +233,14 @@ Exile target nonland permanent.
 ## Maelle, Child of Lumiere // Maelle, The Reawakend Paintress
 
 ```
+Legendary Creature - Human Expeditioner
 {2}: If you both own and control Maelle, Child of Lumiere and a creature named Alicia Dessendre, Silenced by Fire, exile them, then meld them into Maelle, The Reawakened Paintress.
 ```
 
 Melds into ...
 
 ```
+Legendary Planeswalker - Maelle
 Human spells you cast cost {1} less to cast.
 [+2]: Create a Chroma Token.
 [+1]: Return target Human from your graveyard or in exile and put it onto the battlefield tapped.

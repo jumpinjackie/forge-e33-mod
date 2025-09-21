@@ -133,7 +133,7 @@ When this creature enters, reveal the top four cards of your library. Put all Ge
 Artifact
 This card enters tapped.
 {T}: Add {C}.
-{2}: This card becomes a 2/2 Golem artifact creature until end of turn.
+{2}: This card becomes a 2/2 Gestral artifact creature until end of turn.
 ```
 
 ### Design Notes
@@ -164,7 +164,7 @@ Whenever a Nevron dies, put a study counter on Gustave's Journal.
 
 ### Design Notes
 
- - In the game, whenever at camp Gustave writes down his experiences in his expedition thus far. It has been said (and lamented by many gamers) that this should have been represented as an in-game bestiary of all the Nevrons you have encountered.
+ - In the game, whenever at camp Gustave (and later Maelle) writes down his experiences in his expedition thus far. It has been said (and lamented by many gamers) that this should have been represented as an in-game bestiary of all the Nevrons you have encountered.
  - Mechanically, I went with an artifact that charges up with every Nevron kill, that can be cashed in later down the road for extra cards.
 
 ## Health Tint
@@ -258,6 +258,7 @@ Tap 3 creatures you control: Untap Matthieu.
 
  - Has the word "Colossus" in its name, so therefore it's the big fatty Gestral of the set.
  - Modeled mostly on Phyrexian Colossus, but with Trample, downgraded Super-Menace to Menace and changed the untap cost to tapping 3 other creatures instead of life payment.
+ - Yes, it can be Lackey'd out, but I can accept the variance on that line and also needing 3 other creatures to untap it will keep this strategy grounded.
 
 ## Sastro, the Concerned
 
@@ -292,6 +293,8 @@ Legendary Artifact - Rock
 ## The World Canvas
 
 ```
+4
+Legendary Artifact
 {T}: Add 3 mana of any one color. Spend this mana only to cast a Nevron, Gestral, Painter, Expeditioner or Picto spell.
 When The World Canvas leaves the battlefield, exile all permanents with a name originally printed in this expansion.
 ```
