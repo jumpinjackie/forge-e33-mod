@@ -35,6 +35,7 @@ R Chroma Barrier
 C Chroma Filter
 C Chroma Prison
 C Chromatic Petrification
+U Chromatic Reclamation
 U Clair
 R Clair Obscur
 M Clea Dessendre
@@ -108,9 +109,9 @@ R Grosse Tete
 C Healing Light
 U Health Tint
 U Heart of the Paintress
+C Here's Your Card
 U Hexga
 C Ice Lance
-U Intervention
 R Julien Tiny Head
 R Lampmaster
 U Leave this Canvas!
@@ -162,6 +163,7 @@ U Rip Apart Reality
 U Robust Sakapatate
 R Sastro, the Concerned
 R Sciel, Who Welcomes Death
+U Sciel's Intervention
 R Serpenphare
 R Sky Break
 R Simon, Consort of Clea
@@ -175,6 +177,8 @@ U Sword Ballet
 U Terraquake
 R The Curator
 R The Greatest Expedition in History
+U The Massacre at Dark Shores 
+M The Sacred River
 U The Search for Esquie's Rocks
 R The Paintress
 R The Fracture
@@ -182,11 +186,14 @@ R The Monolith
 R The Monolith Interior
 M The World Canvas
 U Thermal Transfer
+U Troubador
+U Tomorrow Comes
 U Twilight Quarry
 U Urrie
 R Ultimate Sakapatate
 U When One Falls // We Continue
 U Whee // Whoo
+R Verso, Who Guards Truth With Lies
 U Void Meteors
 U Yellow Harvest
 
@@ -209,3 +216,4 @@ Grandis:Grandises
 Rock:Rocks
 Lumina:Luminas
 Chroma:Chromas
+Picto:Pictos

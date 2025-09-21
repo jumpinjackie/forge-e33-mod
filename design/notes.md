@@ -424,7 +424,9 @@ Token Artifact - Lumina
 {T},Sacrifice this artifact: Scry 1
 ```
 
-(Lumina Tokens by themselves do nothing)
+### Design Notes
+
+ - The real purpose of Lumina tokens is to serve as an alternate currency for certain costs or as a condition to unlock extra capabilities in certain permanents. Scry 1 was the most benign ability I could give without making Lumina tokens completely useless on their own.
 
 # Gestrals
 

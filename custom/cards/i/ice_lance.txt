@@ -1,0 +1,6 @@
+Name:Ice Lance
+ManaCost:2 U
+Types:Kindred Instant Expeditioner
+A:SP$ Tap | TargetMin$ 0 | TargetMax$ 2 | TgtPrompt$ Choose target creature | ValidTgts$ Creature | SubAbility$ TrigStun | SpellDescription$ Tap up to two target creatures.
+SVar:TrigStun:DB$ PutCounter | Defined$ Targeted | CounterType$ STUN | CounterNum$ 1
+Oracle:Tap up to two target creatures. Put a stun counter on them.
