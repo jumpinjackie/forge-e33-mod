@@ -4,4 +4,4 @@ Types:Legendary Land Town
 A:AB$ Mana | Cost$ T | Produced$ W | SpellDescription$ Add {W}.
 A:AB$ Token | Cost$ 1 W T | TokenAmount$ 1 | TokenScript$ w_1_1_human_expeditioner | TokenOwner$ You | SpellDescription$ Create a 1/1 White Human Expeditioner token with "When this creature dies, create a Chroma token".
 A:AB$ Token | Cost$ 1 W T | TokenAmount$ 1 | TokenScript$ c_a_map_sac_explore | TokenOwner$ You | SpellDescription$ Create a Map token
-Oracle:{T}: Add {W}\n{1}{W}, {T}: Create a 1/1 White Human Expeditioner token with "When this creature dies, create a Chroma token"\n{1}{W},{T}: Create a Map token
+Oracle:{T}: Add {W}\n{1}{W},{T}: Create a 1/1 White Human Expeditioner token with "When this creature dies, create a Chroma token"\n{1}{W},{T}: Create a Map token

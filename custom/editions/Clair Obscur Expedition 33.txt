@@ -38,7 +38,7 @@ C Chromatic Petrification
 U Chromatic Reclamation
 U Clair
 R Clair Obscur
-M Clea Dessendre
+M Clea Dessendre, Seeking Vengeance
 C Cruler
 U Crushing Cavern
 U Crustal Crush
@@ -54,6 +54,7 @@ C Earth Rising
 C Egide
 M Endless Tower
 U Energy Tint
+R Entering the Canvas
 M Esquie, Friend of Verso
 R Esquie's Nest
 C Esquie's Magic Mushrooms
@@ -67,6 +68,7 @@ R Expedition 60
 U Expedition 63
 R Expedition 68
 U Expedition 69
+U Expedition 70
 C Expedition Cache
 U Expedition Flotilla
 U Falling Leaves
@@ -93,6 +95,7 @@ U Gestral Lackey
 R Gestral Merchant
 U Gestral Ringleader
 C Gestral Statue
+C Gestral Volleyball Strike
 R Gestral Village
 C Gestral Villager
 U Grandis Merchant
@@ -159,10 +162,10 @@ R Renoir Dessendre
 U Repaint
 U Revitalization
 U Ranger Sakapatate
-U Rip Apart Reality
+C Rip Apart Reality
 U Robust Sakapatate
 R Sastro, the Concerned
-R Sciel, Who Welcomes Death
+R Sciel, Grieving for Many
 U Sciel's Intervention
 R Serpenphare
 R Sky Break

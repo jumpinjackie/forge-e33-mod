@@ -9,4 +9,4 @@ SVar:DBPutCounter:DB$ PutCounter | Defined$ Targeted | CounterType$ Stun | Count
 SVar:DBPutChargeCounter:DB$ PutCounter | Defined$ Self | CounterType$ CHARGE | CounterNum$ 1
 A:AB$ DamageAll | Cost$ 4 R SubCounter<X/CHARGE> | NumDmg$ X | ValidCards$ Creature | ValidDescription$ each creature. | SpellDescription$ CARDNAME deals X damage to each creature.
 SVar:X:Count$xPaid
-Oracle:{1}{U}: Tap target creature and put a stun counter on it. Put a charge counter on this creature.\n{4}{R}, Remove X charge counters from Serpenphare: Serpenphare deals X damage to each creature.
+Oracle:Flying. Ward 3.\n{1}{U}: Tap target creature and put a stun counter on it. Put a charge counter on this creature.\n{4}{R}, Remove X charge counters from Serpenphare: Serpenphare deals X damage to each creature.

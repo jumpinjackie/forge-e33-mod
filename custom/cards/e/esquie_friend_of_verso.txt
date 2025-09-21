@@ -1,5 +1,5 @@
 Name:Esquie, Friend of Verso
-ManaCost:3 G U
+ManaCost:3 U G
 Types:Legendary Artifact Creature Mount
 PT: 6/6
 S:Mode$ Continuous | Affected$ Card.Self | AddKeyword$ Islandwalk | IsPresent$ Card.YouCtrl+namedFlorrie | Description$ CARDNAME has Islandwalk as long as you control a card named Florrie.

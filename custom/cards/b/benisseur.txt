@@ -1,5 +1,5 @@
 Name:Benisseur
-ManaCost:2 R W
+ManaCost:2 W R
 Types:Creature Nevron
 PT:4/4
 K:Devoid
