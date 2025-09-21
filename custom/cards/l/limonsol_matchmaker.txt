@@ -1,0 +1,7 @@
+Name:Limonsol, Matchmaker
+ManaCost: 3
+Types:Legendary Artifact Creature Gestral
+PT: 2/2
+A:AB$ Pump | Cost$ 2 T | ValidTgts$ Creature.Gestral+YouCtrl | TgtPrompt$ Choose target Gestral creature you control | SubAbility$ ArenaFight | StackDescription$ None | SpellDescription$ Target Gestral creature you control fights another target creature. (Each deals damage equal to its power to the other.)
+SVar:ArenaFight:DB$ Fight | Defined$ ParentTarget | ValidTgts$ Creature | TargetUnique$ True | TgtPrompt$ Choose another target creature
+Oracle:{2},{T}: Target Gestral you control fights another target creature. (Each deals damage equal to its power to the other.)
