@@ -21,3 +21,7 @@ The WUBRG mana ability is not preventatively disabled if you don't meet the acti
 # Esquie, Friend of Verso
 
 Getting the same ordering issue on the Uro modal trigger as Golgra.
+
+# Lost Gestral
+
+Chroma gift trigger not triggering
