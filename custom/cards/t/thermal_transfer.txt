@@ -1,6 +1,6 @@
 Name:Thermal Transfer
 ManaCost:1 U
-Types:Instant
+Types:Kindred Instant Expeditioner
 K:Kicker:R
 A:SP$ Tap | ValidTgts$ Creature | TgtPrompt$ Select target creature | SubAbility$ DBPutCounter | SpellDescription$ Tap target creature. Put a stun counter on it.
 SVar:DBPutCounter:DB$ PutCounter | Defined$ Targeted | CounterType$ Stun | CounterNum$ 1 | SubAbility$ DBDamage
