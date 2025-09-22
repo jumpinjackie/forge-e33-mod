@@ -1,0 +1,6 @@
+Name:Sciel's Intervention
+ManaCost:1 W
+Types:Kindred Instant Expeditioner
+A:SP$ Untap | ValidTgts$ Creature.YouCtrl | TgtPrompt$ Select target creature you control | SubAbility$ DBGrantHexproof | SpellDescription$ Untap target creature you control. It gains hexproof until end of turn.
+SVar:DBGrantHexproof:DB$ Pump | Defined$ Targeted | KW$ Hexproof | SpellDescription$ Untap target creature you control. It gains hexproof until end of turn.
+Oracle:Untap target creature you control. It gains hexproof until end of turn.

@@ -1,0 +1,4 @@
+Name:Revitalization
+ManaCost:2 G
+Types:Sorcery
+Oracle:Choose up to one target creature and up to one target non-creature card in your graveyard. Return them to your hand.

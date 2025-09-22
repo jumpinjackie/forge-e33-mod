@@ -1,0 +1,24 @@
+Name:Maelle, Child of Lumiere
+ManaCost:1 R W
+Types:Legend Creature Human Expeditioner
+PT:2/2
+A:AB$ Meld | Cost$ 2 | ConditionPresent$ Card.Self+YouCtrl+YouOwn | ConditionCheckSVar$ X | Name$ Maelle, The Reawakened Paintress | Primary$ Maelle, Child of Lumiere | Secondary$ Alicia Dessendre, Silenced by Fire | SecondaryType$ Creature | SorcerySpeed$ True | SpellDescription$ If you both own and control Maelle, Child of Lumiere and a creature named Alicia Dessendre, Silenced by Fire, exile them, then meld them into Maelle, The Reawakened Paintress. Activate only as a sorcery.
+SVar:X:Count$Valid Creature.YouCtrl+YouOwn+namedMaelle, Child of Lumiere
+MeldPair:Alicia Dessendre, Silenced by Fire
+AlternateMode: Meld
+Oracle:{2}: If you both own and control Maelle, Child of Lumiere and a creature named Alicia Dessendre, Silenced by Fire, exile them, then meld them into Maelle, The Reawakened Paintress.
+
+ALTERNATE
+
+Name: Maelle, The Reawakened Paintress
+ManaCost:no cost
+Colors:white
+Types:Legendary Planeswalker Maelle
+Loyalty: 4
+S:Mode$ ReduceCost | ValidCard$ Human | Type$ Spell | Activator$ You | Amount$ 1 | Description$ Human spells you cast cost {1} less to cast.
+A:AB$ Token | Cost$ AddCounter<2/LOYALTY> | Planeswalker$ True | TokenAmount$ 1 | TokenScript$ c_a_chroma | TokenOwner$ You | SpellDescription$ Create a Chroma Token.
+A:AB$ ChangeZone | Cost$ AddCounter<1/LOYALTY> | Planeswalker$ True | Origin$ Exile,Graveyard | Destination$ Battlefield | TgtPrompt$ Select target card in exile or graveyard | ValidTgts$ Human.YouCtrl | SpellDescription$ Return target Human from your graveyard or in exile and put it onto the battlefield tapped.
+A:AB$ Token | Cost$ AddCounter<0/LOYALTY> | Planeswalker$ True | TokenScript$ w_1_1_human_expeditioner | TokenAmount$ 2 | SpellDescription$ Create two 1/1 White Human Expeditioner tokens with "When this creature dies, create a Chroma token".
+A:AB$ ChangeZone | Cost$ SubCounter<3/LOYALTY> | Planeswalker$ True | ValidTgts$ Permanent.nonLand+Permanent.nonHuman | TgtPrompt$ Select target nonland, non-Human permanent | Origin$ Battlefield | Destination$ Exile | SpellDescription$ Exile target nonland, non-Human permanent.
+A:AB$ ChangeZoneAll | Cost$ SubCounter<-8/LOYALTY> | Planeswalker$ True | ChangeType$ Human+YouCtrl | Origin$ Graveyard | Destination$ Battlefield | SpellDescription$ Return all Humans from your graveyard onto the battlefield.
+Oracle:Human spells you cast cost {1} less to cast.\n[+2]: Create a Chroma Token.\n[+1]: Return target Human from your graveyard or in exile and put it onto the battlefield tapped.\n[0]: Create two 1/1 White Human Expeditioner tokens with "When this creature dies, create a Chroma token".\n[-3]: Exile target nonland, non-Human permanent.\n[-8]: Return all Humans from your graveyard onto the battlefield.

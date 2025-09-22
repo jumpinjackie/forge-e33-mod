@@ -1,0 +1,8 @@
+Name:Alicia Dessendre, Slienced by Fire
+ManaCost:R W
+Types:Legendary Creature Human Painter
+PT:2/2
+S:Mode$ CantBeActivated | AffectedZone$ Battlefield | ValidCard$ Nevron,Pictos | ValidSA$ Activated | Description$ Activated abilities of Nevrons and Pictos cannot be activated.
+MeldPair:Maelle, Child of Lumiere
+AlternateMode:Meld
+Oracle:Activated abilities of Nevrons and Pictos cannot be activated.\n(Melds with Maelle, Child of Lumiere.)

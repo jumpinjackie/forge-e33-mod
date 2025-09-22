@@ -1,0 +1,5 @@
+Name:Tomorrow Comes
+ManaCost:2 UW
+Types:Kindred Sorcery Expeditioner
+A:SP$ ChangeZone | Origin$ Library | Destination$ Hand | ChangeType$ Expeditioner | ChangeNum$ 1 | SpellDescription$ Search your library for an Expeditioner card, reveal it and put it into your hand, then shuffle.
+Oracle:Search your library for an Expeditioner card, reveal it and put it into your hand, then shuffle.

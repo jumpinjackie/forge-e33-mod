@@ -1,0 +1,7 @@
+Name:Rip Apart Reality
+ManaCost:3 U
+Types:Instant
+K:Devoid
+S:Mode$ ReduceCost | ValidCard$ Card.Self | Type$ Spell | Amount$ 2 | EffectZone$ All | IsPresent$ Painter.YouCtrl | Description$ This spell costs {2} less to cast if you control a painter.
+A:AB$ ChangeZone | ValidTgts$ Permanent | TgtPrompt$ Select target permanent | AlternativeDecider$ TargetedOwner | Origin$ Battlefield | Destination$ Library | DestinationAlternative$ Library | LibraryPositionAlternative$ -1 | StackDescription$ {p:TargetedOwner} puts {c:Targeted} on the top or bottom of their library. | SpellDescription$ Put target permanent to the top or bottom of its owner's library.
+Oracle:Devoid\nThis spell costs {2} less to cast if you control a painter.\nPut target permanent to the top or bottom of its owner's library.
