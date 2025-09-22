@@ -1,0 +1,15 @@
+Name:Sciel, Grieving for Many
+ManaCost:2 W B
+Types:Legendary Creature Human Expeditioner
+PT:3/3
+S:Mode$ Continuous | Affected$ Card.nonLand+YouOwn+withoutForetell | AffectedZone$ Hand | AddKeyword$ Foretell | Description$ Each nonland card in your hand without foretell has foretell. Its foretell cost is equal to its mana cost reduced by {2}. (During your turn, you may pay {2} and exile it from your hand face down. Cast it on a later turn for its foretell cost.)
+T:Mode$ Foretell | ValidPlayer$ You | Execute$ DBGainLife | TriggerZones$ Battlefield | TriggerDescription$ Whenever you foretell a card, you gain 2 life.
+A:AB$ DealDamage | Cost$ B T | ValidTgts$ Creature | NumDmg$ 1 | SubAbility$ DBMark | SpellDescription$ CARDNAME deals 1 damage to target creature. Put a marked counter on it.
+A:AB$ DealDamage | Cost$ W B T | ValidTgts$ Creature | NumDmg$ 2 | SubAbility$ DBGainLife | SpellDescription$ CARDNAME deals 2 damage to target creature, you gain 2 life.
+A:AB$ Untap | Cost$ W W T | ValidTgts$ Creature | TgtPrompt$ Select target creature | SubAbility$ DBCreateChroma | SpellDescription$ Untap target creature. Create a Chroma token.
+A:AB$ PumpAll | Cost$ B B T PayLife<X> | ValidTgts$ Opponent | ValidCards$ Creature | NumAtt$ -X | NumDef$ -X | SpellDescription$ Creatures target opponent controls get -X/-X until end of turn.
+SVar:DBMark:DB$ PutCounter | Defined$ Targeted | CounterType$ MARKED | CounterNum$ 1
+SVar:DBGainLife:DB$ GainLife | LifeAmount$ 2
+SVar:DBCreateChroma:DB$ Token | TokenScript$ c_a_chroma | TokenOwner$ You | TokenAmount$ 1
+SVar:X:Count$xPaid
+Oracle:Each nonland card in your hand without foretell has foretell. Its foretell cost is equal to its mana cost reduced by {2}. (During your turn, you may pay {2} and exile it from your hand face down. Cast it on a later turn for its foretell cost.)\nWhenever you fortell a card, you gain 2 life.\nMarking Card - {B},{T}: Sciel deals 1 damage to target creature, put a marked counter on it.\nTwilight Slash - {W}{B},{T}: Sciel deals 2 damage to target creature, you gain 2 life.\nIntervention - {W}{W},{T}: Untap target creature. Create a Chroma token.\nOur Sacrifice - {B}{B}, {T}, Pay X life: Creatures target opponent controls get -X/-X until end of turn.

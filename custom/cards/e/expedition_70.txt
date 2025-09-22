@@ -4,6 +4,6 @@ Types:Enchantment Saga
 K:Chapter:3:DBChapter1,DBChapter2,DBChapter3
 SVar:DBChapter1:DB$ ChangeZone | Origin$ Library | Destination$ Hand | ChangeType$ Expeditioner | ChangeNum$ 1 | SpellDescription$ Search your library for an Expeditioner card, reveal it and put it into your hand, then shuffle.
 SVar:DBChapter2:DB$ ChangeZone | Origin$ Library | Destination$ Hand | ChangeType$ Expeditioner | ChangeNum$ 1 | SpellDescription$ Search your library for an Expeditioner card, reveal it and put it into your hand, then shuffle.
-SVar:DBChapter3:DB$ ChangeZone | Origin$ Library | Destination$ Battlefield | ChangeType$ Expeditioner | ChangeNum$ 1 | SpellDescription$ Search your library for a land card, put it onto the battlefield, then shuffle.
+SVar:DBChapter3:DB$ ChangeZone | Origin$ Library | Destination$ Battlefield | ChangeType$ Permanent.Expeditioner | ChangeNum$ 1 | SpellDescription$ Search your library for an Expeditioner permanent, put it onto the battlefield, then shuffle.
 DeckHas:Ability$Counters
 Oracle:(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)\nI, II — Search your library for an Expeditoner card, reveal it and put it into your hand, then shuffle.\nIII — Search your library for an Expeditioner permanent, put it onto the battlefield, then shuffle.

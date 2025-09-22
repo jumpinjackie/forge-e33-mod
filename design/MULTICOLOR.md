@@ -240,6 +240,30 @@ Exile all nonland permanents that aren't legendary or Nevrons.
  - Mechanically, this is easily a mass exile effect. It spares legendaries and Nevrons as this event only affects the humans of the continent.
  - Has painter's discount as this is clearly a power wielded by the painters.
 
+## Gustave, Lumiere Engineer
+
+```
+1W(U/R)
+Legendary Creature - Human Expedition Engineer
+Whenever Gustave becomes untapped, attacks or blocks, put a charge counter on him.
+Marking Shot - {R},{T}: Gustave deals 1 damage to target creature. Put a marked counter on it.
+From Fire = {W}{R},{T}: Gustave deals 3 damage to target creature, you gain 3 life.
+Strike Storm - {W}{R}: Gustave gains double-strike until ene of turn, put two charge counters on him. Activate only once per turn.
+Overcharge - {T}, Remove X charge counters from Gustave: Gustave deals X damage to target creature and that creature's controller.
+
+3/2
+```
+
+[card implementation](/custom/cards/g/gustave_lumiere_engineer.txt)
+
+### Design Notes
+
+ - Key mechanical gimmick we want to replicate from the game is his overcharge ability, which obviously requires charge build up. We had a choice between energy counters or charge counters. We settled on charge counters as energy counters are a global resource, whereas charage counters would be a resource localized to Gustave himself.
+ - Marking shot is just a creature ping that puts a marked counter on it. A creature with a marked counter will be a magnet for more damage.
+ - From fire in the game is an ability that heals Gustave a bit if the target is burning. Translated this to a creature bolt + life gain.
+ - Strike storm in the game is just a flurry of strikes. Translated this to temporary double strike.
+ - Finally, overcharge (the ability we're all building towards) in the game deals high lightning damage based on the number of charges. Translated this to an X damage ability to a creature and its controller (where X is the number of charge counters removed).
+
 ## Lancelier
 
 ```
@@ -351,6 +375,32 @@ When this creature dies, target opponent creates a Lumina token.
 ### Design Notes
 
  - Vanilla placeholder Nevron
+
+## Sciel, Grieving for Many
+
+```
+2WB
+Legendary Creature - Human Expeditioner
+Lifelink.
+Each nonland card in your hand without foretell has foretell. Its foretell cost is equal to its mana cost reduced by {2}. (During your turn, you may pay {2} and exile it from your hand face down. Cast it on a later turn for its foretell cost.)
+Marking Card - {B},{T}: Sciel deals 1 damage to target creature, put a marked counter on it.
+Grim Harvest - {W}{B},{T}: Sciel deals 3 damage to target creature. You gain 3 life.
+Intervention - {W}{W},{T}: Untap target creature. Create a Chroma token.
+Our Sacrifice - {1}{B}{B},{T}, Pay X life: All creatures target opponent controls get -X/-X until end of turn.
+
+3/3
+```
+
+[card implementation](/custom/cards/s/sciel_grieving_for_many.txt)
+
+### Design Notes
+
+ - Sciel is a kind, emphatheic, nurturing character that specializes in weapons and attacks that deal dark damage. Clearly an Orzhov color identity.
+ - Sciel's has many attacks in the game that heal herself or her allies. Thus she has lifelink.
+ - Marking Card is just a creature ping that puts a marked counter on it. A creature with a marked counter will be a magnet for more damage.
+ - Grim Harvest deals dark damage heals allies. Translated to a creature bolt that also gives you life.
+ - Intervention in the game lets an ally play immediately and gain 4 AP. Translated to untapping a creature and giving you a Chroma token.
+ - Our Sacrifice in the game deals extreme dark damage to all enemies, absorbing allies' health to deal more damage. Translated to paying X life to -X/-X an opponent's board.
 
 ## Serpenphare
 
