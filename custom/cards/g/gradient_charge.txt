@@ -1,0 +1,8 @@
+Name:Gradient Charge
+ManaCost:2 WB
+Types:Sorcery Gradient
+S:Mode$ ReduceCost | ValidCard$ Card.Self | Type$ Spell | Amount$ 1 | EffectZone$ All | IsPresent$ Painter.YouCtrl | Description$ This spell costs {1} less to cast if you control a painter.
+A:SP$ ChangeZone | Origin$ Library | Destination$ Hand | ChangeType$ Gradient | ChangeNum$ 1 | SpellDescription$ Search your library for a Gradient card, reveal that card, put it into your hand, then shuffle.
+AI:RemoveDeck:Random
+DeckHints:Type$Gradient
+Oracle:This spell costs {1} less to cast if you control a Painter.\nSearch your library for a Gradient card, reveal that card, put it into your hand, then shuffle.

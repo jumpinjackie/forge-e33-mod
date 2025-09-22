@@ -1,6 +1,6 @@
 Name:The Greatest Expedition in History
 ManaCost:W U B R G
-Types:Sorcery
+Types:Kindred Sorcery Expeditioner
 A:SP$ WinsGame | Defined$ You | ConditionCheckSVar$ X | ConditionSVarCompare$ GE33 | SpellDescription$ You win the game if you control a total of 33 or more Expeditioners, Chroma, Lumina or Pictos permanents.
 SVar:ExpTotal:Count$Valid Expeditioner.YouCtrl
 SVar:ChrTotal:Count$Valid Chroma.YouCtrl

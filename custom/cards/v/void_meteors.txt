@@ -1,6 +1,6 @@
 Name:Void Meteors
 ManaCost:2 B R
-Types: Sorcery
+Types:Sorcery Gradient
 K:Devoid
 S:Mode$ ReduceCost | ValidCard$ Card.Self | Type$ Spell | Amount$ 2 | EffectZone$ All | IsPresent$ Painter.YouCtrl | Description$ This spell costs {2} less to cast if you control a painter.
 A:SP$ DealDamage | ValidTgts$ Any | TgtPrompt$ Select any number of target creatures to distribute damage to | NumDmg$ 4 | TargetMin$ 0 | TargetMax$ 4 | DividedAsYouChoose$ 4 | SpellDescription$ CARDNAME deals 4 damage divided as you choose among any number of targets.

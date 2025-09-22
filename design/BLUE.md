@@ -122,6 +122,21 @@ The strongest ice attack ever - At the beginning of your upkeep, Francois deals 
     - It has defender as the game portrayal has him in a stationary position that never moves.
     - The strongest ice attack ever is just a triggered ability on each of your upkeeps to deal 4 damage to a creature and if that doesn't finish it off then it taps and stuns it for a turn in line with how an ice attack would generally be represented mechanically.
 
+## Gradient Counter
+
+```
+U
+Kindred Instant - Expeditioner
+Counter target Gradient spell
+```
+
+[card implementation](/custom/cards/zDevelopment/gradient_counter.txt)
+
+### Design Notes
+
+ - In the game, a Gradient attack is a super-charged attack. Such attacks can only be parried with a Gradient counter.
+ - Mechanically, since we have Gradient instants/sorceries. This is obviously a thematically-relevant counter.
+
 ## Ice Lance
 
 ```
@@ -172,7 +187,7 @@ When this creature dies, target opponent creates a Lumina token.
 
 ```
 3U
-Instant
+Instant - Gradient
 Devoid
 This spell costs {2} less to cast if you control a painter.
 Put target permanent to the top or bottom of its owner's library.
@@ -184,6 +199,22 @@ Put target permanent to the top or bottom of its owner's library.
 
  - This is one of the Paintress' moves in the boss fight with her.
  - May or may not have any mechanical relation. I needed a soft-removal spell for blue in this slot and the name was a good enough match for such an effect.
+
+## Swift Counter
+
+```
+1UU
+Kindred Instant - Expeditioner
+This spell costs {1} less to cast if you control an Expeditioner.
+Counter target spell.
+Create a Lumina token.
+```
+
+[card implementation](/custom/cards/zDevelopment/swift_counter.txt)
+
+### Design Notes
+
+ - This set needs a hard counter. Give it the standard Expeditioner bonuses.
 
 ## The Search for Esquie's Rocks
 

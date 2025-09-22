@@ -1,6 +1,6 @@
 # Cards
 
-## A storm is coming
+## A Storm is Coming
 
 ```
 Kindred Sorcery - Expeditioner
@@ -207,11 +207,27 @@ Create 3 Lumina tokens if {U} was spent to cast this spell. Create 2 Chroma toke
 
  - Just another Chroma/Lumina token strategy enabler
 
+## Gradient Charge
+
+```
+2(W/B)
+Sorcery - Gradient
+This spell costs {1} less to cast if you control a Painter.
+Search your library for a Gradient card, reveal that card, put it into your hand, then shuffle.
+```
+
+[card implementation](/custom/cards/zDevelopment/gradient_charge.txt)
+
+### Design Notes
+
+ - In the game, Gradient attacks are "Epic" tier attacks. To use such attacks you need to fill up a Gradient gauge. The Gradient gauge holds up to 3 charges. Gradient attacks cost anywhere between 1 to 3 charges.
+ - Mechanically, this is just a Gradient spell tutor to assist in Painter-based strategies.
+
 ## Gommage
 
 ```
 3WB
-Sorcery
+Sorcery - Gradient
 This spell costs {1} less to cast if you control a painter.
 Exile all nonland permanents that aren't legendary or Nevrons.
 ```
@@ -246,7 +262,7 @@ When this creature dies, target opponent creates a Lumina token.
 
 ```
 1WB
-Sorcery
+Sorcery - Gradient
 This spell costs {1} less to cast if you control a painter.
 Exile target nonland permanent.
 ```
@@ -359,7 +375,7 @@ Flying. Ward 3.
 
 ```
 WUBRG
-Sorcery
+Kindred Sorcery - Expeditioner
 You win the game if you control a total of 33 or more Expeditioners, Chroma, Lumina or Pictos permanents.
 ```
 
@@ -388,7 +404,7 @@ Search your library for an Expeditioner card, reveal it and put it into your han
 
 ```
 2BR
-Sorcery
+Sorcery - Gradient
 Devoid
 This spell costs {2} less to cast if you control a painter.
 This spell deals 4 damage divided as you choose among any number of targets
