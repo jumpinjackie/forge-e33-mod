@@ -10,6 +10,8 @@ When this artifact enters, draw a card.
 {T}, Sacrifice a Chroma token: Add two mana of any one color.
 ```
 
+[card implementation](/custom/cards/c/chroma_filter.txt)
+
 ### Design Notes
 
  - Just an artifact to provide color fixing and some minor ramp if you hava Chroma tokens to spare.
@@ -22,6 +24,8 @@ Legendary Artifact - Rock
 {T}: Target creature you control gains Trample until end of turn.
 {1},Sacrifice Dorrie: Draw a card.
 ```
+
+[card implementation](/custom/cards/d/dorrie.txt)
 
 ### Design Notes
 
@@ -38,6 +42,8 @@ Artifact
 {T}: Add {C}{C}{C}. Activate this ability only if you control at least 3 Lumina tokens
 ```
 
+[card implementation](/custom/cards/e/energy_tint.txt)
+
 ### Design Notes
 
  - Just a mana rock for this set
@@ -52,6 +58,8 @@ Artifact
 {T},Sacrifice this artifact: Create 2 Chroma tokens.
 ```
 
+[card implementation](/custom/cards/e/expedition_cache.txt)
+
 ### Design Notes
 
  - Just an enabler for Lumina/Chroma token strategies
@@ -64,6 +72,8 @@ Legendary Artifact - Rock
 {T}: Target creature you control gains Islandwalk until end of turn.
 {1},Sacrifice Florrie: Draw a card.
 ```
+
+[card implementation](/custom/cards/f/florrie.txt)
 
 ### Design Notes
 
@@ -80,6 +90,8 @@ Whenever this creature attacks, it gets +2/+0 until end of turn for each other a
 1/2
 ```
 
+[card implementation](/custom/cards/g/gestral_fighter.txt)
+
 ### Design Notes
 
  - The Gestral version of Goblin Piledriver. If we want a viable Gestral tribal deck, it needs a "heavy hitter". This is the heavy hitter.
@@ -92,6 +104,8 @@ Whenever this creature attacks, it gets +2/+0 until end of turn for each other a
 Artifact Creature - Gestral
 Whenever Gestral Lackey deals damage to a player, you may put a Gestral permanent card from your hand onto the battlefield.
 ```
+
+[card implementation](/custom/cards/g/gestral_lackey.txt)
 
 ### Design Notes
 
@@ -106,6 +120,8 @@ Whenever this creature is dealt damage, create that many Chroma tokens
 
 2/3
 ```
+
+[card implementation](/custom/cards/g/gestral_merchant.txt)
 
 ### Design Notes
 
@@ -122,6 +138,8 @@ Haste (This creature can attack and {T} as soon as it comes under your control.)
 When this creature enters, reveal the top four cards of your library. Put all Gestral cards revealed this way into your hand and the rest on the bottom of your library in any order.
 ```
 
+[card implementation](/custom/cards/g/gestral_ringleader.txt)
+
 ### Design Notes
 
  - Gestral version of Goblin Ringleader. A Gestral tribal deck needs at least one card that can provide raw card advantage. This is that card.
@@ -136,6 +154,8 @@ This card enters tapped.
 {2}: This card becomes a 2/2 Gestral artifact creature until end of turn.
 ```
 
+[card implementation](/custom/cards/g/gestral_statue.txt)
+
 ### Design Notes
 
  - Gestral version of Guardian Idol.
@@ -149,6 +169,8 @@ Artifact Creature - Gestral
 2/1
 ```
 
+[card implementation](/custom/cards/g/gestral_villager.txt)
+
 ### Design Notes
 
  - Just a vanilla Gestral to round out a Gestral tribal deck and to round out the creature roster for draft/limited
@@ -161,6 +183,8 @@ Legendary Artifact
 Whenever a Nevron dies, put a study counter on Gustave's Journal.
 {2},{T},Remove X study counters from Gustave's Journal: Draw X cards
 ```
+
+[card implementation](/custom/cards/g/gustaves_journal.txt)
 
 ### Design Notes
 
@@ -176,6 +200,8 @@ Sacrifice this artifact: You gain 5 life.
 Sacrifice this artifact: You gain 10 life. Activate this ability only if you control at least 3 Lumina tokens.
 ```
 
+[card implementation](/custom/cards/h/health_tint.txt)
+
 ### Design Notes
 
  - Another enabler for Lumina token strategies
@@ -189,6 +215,8 @@ Legendary Artifact Creature - Gestral
 
 2/2
 ```
+
+[card implementation](/custom/cards/l/limonsol_matchmaker.txt)
 
 ### Design Notes
 
@@ -206,6 +234,8 @@ At the beginning of your upkeep, you may put a verse counter on Lorieniso.
 1/3
 ```
 
+[card implementation](/custom/cards/l/lorieniso_gestral_musician.txt)
+
 ### Design Notes
 
  - This is the Gestral's Goblin Matron / Gestral Tutor. Adapted from Yisan, the Wanderer Bard
@@ -221,6 +251,8 @@ Whenever this creature becomes the target of a spell or ability an opponent cont
 
 1/1
 ```
+
+[card implementation](/custom/cards/l/lost_gestral.txt)
 
 ### Design Notes
 
@@ -238,6 +270,8 @@ Artifact
 {T}, Sacrifice a Nevron: Create a Lumina token.
 ```
 
+[card implementation](/custom/cards/l/lumina_converter.txt)
+
 ### Design Notes
 
  - Utility artifact to support a Lumina token strategy. Inspired by Power Conduit.
@@ -253,6 +287,8 @@ Tap 3 creatures you control: Untap Matthieu.
 
 8/8
 ```
+
+[card implementation](/custom/cards/m/matthieu_the_colossus.txt)
 
 ### Design Notes
 
@@ -270,6 +306,8 @@ When Sastro enters, put 2 1/1 Gestral artifact creature tokens into play.
 2/2
 ```
 
+[card implementation](/custom/cards/s/sastro_the_concerned.txt)
+
 ### Design Notes
 
  - This is the Gestral (Siege-Gang Commander / Deranged Hermit)
@@ -283,6 +321,8 @@ Legendary Artifact - Rock
 {T}: Target creature you control gains flying until end of turn.
 {1},Sacrifice Soarrie: Draw a card.
 ```
+
+[card implementation](/custom/cards/s/soarrie.txt)
 
 ### Design Notes
 
@@ -299,6 +339,8 @@ Legendary Artifact
 When The World Canvas leaves the battlefield, exile all permanents with a name originally printed in this expansion.
 ```
 
+[card implementation](/custom/cards/t/the_world_canvas.txt)
+
 ### Design Mode
 
  - In the game, the continent is discovered to be inside a living canvas. The final part of the game is about deciding the fate of this canvas.
@@ -314,6 +356,8 @@ Legendary Artifact - Rock
 {1},{T}: Surveil 2.
 {1},Sacrifice Urrie: Draw a card.
 ```
+
+[card implementation](/custom/cards/u/urrie.txt)
 
 ### Design Notes
 

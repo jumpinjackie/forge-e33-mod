@@ -10,6 +10,8 @@ When this creature dies, target opponent creates a Lumina token.
 3/3
 ```
 
+[card implementation](/custom/cards/a/aberration.txt)
+
 ### Design Notes
 
  - Just a vanilla placeholder for now until I have figured out some suitable abilities for it
@@ -25,6 +27,8 @@ When this creature dies, target opponent creates a Lumina token.
 {1}{B},{T}: Create a 1/1 colorless Jar creature token.
 Exhaust on death - When this creature dies, tap target creature an opponent controls, put a stun counter on it. (If a permanent with a stun counter would become untapped, remove one from it instead.)
 ```
+
+[card implementation](/custom/cards/c/chapelier.txt)
 
 ### Design Notes
 
@@ -42,6 +46,8 @@ When this creature dies, target opponent creates a Lumina token.
 5/5
 ```
 
+[card implementation](/custom/cards/n/noire.txt)
+
 ### Design Notes
 
  - In the game, Noires are high-tier Nevrons found on the Dark Shores and are an excellence source of XP farming in the late game.
@@ -57,6 +63,8 @@ When this creature dies, target opponent creates a Lumina token.
 {1}{B},{T}: Target creature an opponent controls gets -1/-1 until end of turn.
 {1}{B},{T}: Untap target creature you control.
 ```
+
+[card implementation](/custom/cards/o/obscur.txt)
 
 ### Design Notes
 

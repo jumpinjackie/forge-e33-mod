@@ -12,6 +12,8 @@ When this creature dies, you may have this creature deal 2 damage to target crea
 2/2
 ```
 
+[card implementation](/custom/cards/c/catapault_sakapatate.txt)
+
 ### Design Note
 
  - In the game, when you defeat a Catapault Sakapatate, it will try to do a last minute suicide move to do some damage before it goes.
@@ -24,6 +26,8 @@ When this creature dies, you may have this creature deal 2 damage to target crea
 Kindred Sorcery - Expeditioner
 This spell deals 2 damage to each creature without flying and each player.
 ```
+
+[card implementation](/custom/cards/e/earth_rising.txt)
 
 ### Design Notes
 
@@ -38,6 +42,8 @@ Kindred Instant - Expeditioner
 Target creature gains double strike until end of turn. (It deals both first-strike and regular combat damage.)
 ```
 
+[card implementation](/custom/cards/f/fortunes_fury.txt)
+
 ### Design Notes
 
  - In the game, this is Sciel's ability that grants double-damage to one of her allies.
@@ -50,6 +56,8 @@ XR
 Kindred Sorcery - Expeditioner
 X target Gestral creatures can't block this turn.
 ```
+
+[card implementation](/custom/cards/g/get_out_of_my_way.txt)
 
 ### Design Notes
 
@@ -72,20 +80,24 @@ Enrage - Whenever Golgra is dealt damage, choose one:
 5/6
 ```
 
+[card implementation](/custom/cards/g/golgra_gestral_chief.txt)
+
 ### Design Notes
 
  - Obviously the Gestral lord of this set.
  - In the game, when Golgra gets below 50% health, she goes "Super Saiyan" and her attacks increase in power.
  - Mechanically, I've gone with Enrage as a way to approximate this "Super Saiyan" state and went with an assortment of combat-boosting abilities that could be granted from being enraged.
 
- ## Lightning Dance
+## Lightning Dance
 
- ```
- 2RR
- Kindred Sorcery - Expeditioner
- This spell deals 1 damage to any target, 2 damage to another target, and 3 damage to a third target.
- ```
+```
+2RR
+Kindred Sorcery - Expeditioner
+This spell deals 1 damage to any target, 2 damage to another target, and 3 damage to a third target.
+```
 
- ### Design Notes
+[card implementation](/custom/cards/l/lightning_dance.txt)
 
-  - Just Cone of Flame made {1} cheaper and Expeditioner aligned
+### Design Notes
+
+ - Just Cone of Flame made {1} cheaper and Expeditioner aligned

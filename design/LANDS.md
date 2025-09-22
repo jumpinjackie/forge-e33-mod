@@ -10,6 +10,8 @@ This land enters tapped.
 {1},{T},Sacrifice Crushing Cavern: Destroy target attacking creature without flying
 ```
 
+[card implementation](/custom/cards/c/crushing_cavern.txt)
+
 ### Design Notes
 
  - In the game the Crushing Cavern is a location where the player engages in a time-limited battle with the Giant Sapling. Failing to defeat the Giant Sapling results in a crushing defeat. The journal in this area recalls a previous failed attempt at defeating the Giant Sapling.
@@ -23,6 +25,8 @@ As this land enters, you may reveal a Nevron card from your hand. If you don't t
 {T}: Add {U} or {B}.
 {T}: Add {U}{B}. This land doesn't untap during your next untap step. Activate this ability only if you control a Nevron.
 ```
+
+[card implementation](/custom/cards/d/dark_shores.txt)
 
 ### Design Notes
 
@@ -39,6 +43,8 @@ At the beginning of your upkeep, you may put a challenge counter on this card.
 {T}, Remove X challenge counters from this card: You may put a Nevron permanent card with mana value X from your hand onto the battlefield.
 ```
 
+[card implementation](/custom/cards/zDevelopment/endless_tower.txt)
+
 ### Design Notes
 
  - In the game, the Endless Tower was a 33-battle gauntlet against Nevrons of increasing difficulty
@@ -54,6 +60,8 @@ Legendary Land - Cave
 {T}: Add {W}{U}{B}{R}{G}. Activate this ability only if you control a card named Soarrie, a card named Florrie, a card named Dorrie and a card named Urrie.
 ```
 
+[card implementation](/custom/cards/e/esquies_nest.txt)
+
 ### Design Notes
 
  - In the game, this is the place where Esquie dwells.
@@ -66,6 +74,8 @@ This land enters tapped.
 {T}: Add {C}.
 {1}{R},{T},Sacrifice this land: Search your library for a card and put it into your hand. Discard a card at random. Activate only as a sorcery.
 ```
+
+[card implementation](/custom/cards/f/flying_casino.txt)
 
 ### Design Notes
 
@@ -81,6 +91,8 @@ This land enters tapped
 {U},{T}: Target creature you control gains flying until end of turn.
 ```
 
+[card implementation](/custom/cards/f/flying_waters.txt)
+
 ### Design Notes
 
  - In the game, Flying Waters is one of the early dungeons with a heavy water/nautical theme
@@ -94,6 +106,8 @@ Legendary Land
 {1}{B}, {T}: Put target Nevron card from your graveyard on top of your library.
 ```
 
+[card implementation](/custom/cards/f/forgotten_battlefield.txt)
+
 ### Design Notes
 
  - Volrath's Stronghold for Nevrons
@@ -105,6 +119,8 @@ Land
 {T}: Add {C}.
 {1},{R/G},{T}: Target Gestral creature you control fights another target creature
 ```
+
+[card implementation](/custom/cards/g/gestral_arena.txt)
 
 ### Design Notes
 
@@ -118,6 +134,8 @@ Land
 Cycling {2} ({2}, Discard this card: Draw a card.)
 ```
 
+[card implementation](/custom/cards/g/gestral_beach.txt)
+
 ### Design Notes
 
  - Origially I wanted a cheaper cycling 1 ability if you control a Gestral, but I don't think Forge supports multiple cycling abilities as it is keyworded, so I can't attach conditions to a keyworded ability.
@@ -129,6 +147,8 @@ Land - Town
 {T}: Add {C}.
 {T}: Add {C}{C}. Spend this mana only to cast Gestral spells or activate abilities of Gestrals.
 ```
+
+[card implementation](/custom/cards/g/gestral_village.txt)
 
 ### Design Notes
 
@@ -142,6 +162,8 @@ Legendary Land - Town
 {1}{W},{T}: Create a 1/1 White Human Expeditioner token with "When this creature dies, create a Chroma token"
 {1}{W},{T}: Create a Map token
 ```
+
+[card implementation](/custom/cards/l/lumiere_the_last_bastion.txt)
 
 ### Design Notes
 
@@ -157,6 +179,8 @@ Land
 {T}: Add {U} or {R}. Activate this ability only if you control a Gestral or Grandis.
 {T}: Add {U} or {R}. This land doesn't untap during your next untap step
 ```
+
+[card implementation](/custom/cards/m/monocos_station.txt)
 
 ### Design Notes
 
@@ -174,6 +198,8 @@ When The Monolith has no gommage counters on it, sacrifice it.
 {T}: Add {C}
 ```
 
+[card implementation](/custom/cards/t/the_monolith.txt)
+
 ### Design Notes
 
  - For lore accuracy, this would've been 100 counters instead of 10, but that would take way too long in MTG "game time". Reducing it to 10 sacrifices lore accuracy, but retains mechanical accuracy of something that's constantly counting down and wiping out everything older than that number.
@@ -185,6 +211,8 @@ Land
 This land enters tapped. As it enters, choose a color.
 {T}: Add one mana of the chosen color.
 ```
+
+[card implementation](/custom/cards/t/twilight_quarry.txt)
 
 ### Design Notes
 

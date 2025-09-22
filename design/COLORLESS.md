@@ -10,6 +10,8 @@ When this creature dies, target opponent creates a Lumina token.
 2/2
 ```
 
+[card implementation](/custom/cards/c/chalier.txt)
+
 ### Design Notes
 
  - Vanilla Nevron. Could not determine approporiate color/elemental affinity so it's colorless.
@@ -22,6 +24,8 @@ Creature - Nevron
 Other nevrons you control get +1/+1.
 When this creature dies, target opponent creates a Lumina token.
 ```
+
+[card implementation](/custom/cards/t/troubador.txt)
 
 ### Design Notes
 

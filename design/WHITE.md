@@ -10,6 +10,8 @@ When this enchantment enters, exile another target nonland permanent.
 When this enchantment leaves the battlefield, return the exiled card to the battlefield under its owner's control.
 ```
 
+[card implementation](/custom/cards/c/chroma_prison.txt)
+
 ### Design Notes
 
  - Oblivion Ring variant #234898572343
@@ -29,6 +31,8 @@ When this creature dies, target opponent creates a Lumina token.
 2/2
 ```
 
+[card implementation](/custom/cards/c/clair.txt)
+
 ### Design Notes
 
  - In the game, it has abilities to shield its party and cause silence to player characters.
@@ -45,6 +49,8 @@ Sorcery
 As an additional cost to cast this spell, sacrifice X Chromas. Return target card from exile with mana value X to your hand, where X is the number of sacrificed Chromas.
 ```
 
+[card implementation](/custom/cards/zDevelopment/repaint.txt)
+
 ### Design Notes
 
  - This is meant to represent (paintress) Maelle's new-found ability to resurrect the citizens of Lumiere provided she has some of their Chroma, as demonstrated by being able to bring back Lune and Sciel after their gommage.
@@ -58,6 +64,8 @@ As an additional cost to cast this spell, sacrifice X Chromas. Return target car
 Kindred Instant - Expeditioner
 Untap target creature you control. It gains hexproof until end of turn.
 ```
+
+[card implementation](/custom/cards/zDevelopment/sciels_intervention.txt)
 
 ### Design Notes
 
@@ -74,9 +82,10 @@ Legendary Sorcery
 Destroy all non-basic lands. Search your library for a card named The Monolith, put it onto the battlefield and shuffle.
 ```
 
+[card implementation](/custom/cards/t/the_fracture.txt)
+
 ### Design Notes
 
  - In the game, The Fracture is a cataclysmic event which marks the appearance of The Monolith and sets in motion the annual yearly gommage.
  - Mechanically, this event itself is only catalclysmic in terms of the continent landscape, while there may have been human casualties in this event, this event was more about the altered landscape of the continent, thus it is clear that this event should be a non-basic land mass destruction effect like Ruination (non-basic so it doesn't become a strictly better Armageddon and to reward players who play basic lands).
      - The tutoring effect for The Monolith thematically maps to the appearance of The Monolith in the game.
-

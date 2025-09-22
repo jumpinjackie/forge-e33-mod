@@ -10,6 +10,8 @@ When this creature dies, target opponent creates a Lumina token.
 2/2
 ```
 
+[card implementation](/custom/cards/a/abbest.txt)
+
 ### Design Notes
 
  - Just a "vanilla" bear with stock Nevron card text.
@@ -26,6 +28,8 @@ II — You may play an additional land thus turn.
 III — Search your library for a land card, put it onto the battlefield, then shuffle.
 ```
 
+[card implementation](/custom/cards/e/expedition_69.txt)
+
 ### Design Notes
 
  - Journal is thematically the same as Expedition 69: a story of exploring everywhere and installing grapple points for those who come after.
@@ -38,6 +42,8 @@ III — Search your library for a land card, put it onto the battlefield, then s
 Sorcery
 Choose up to one target creature and up to one target non-creature card in your graveyard. Return them to your hand.
 ```
+
+[card implementation](/custom/cards/r/revitalization.txt)
 
 ### Design Notes
 

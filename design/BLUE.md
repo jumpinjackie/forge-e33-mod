@@ -8,6 +8,8 @@ Kindred Sorcery - Expeditioner
 Create 3 Lumina tokens
 ```
 
+[card implementation](/custom/cards/a/an_advantage.txt)
+
 ### Design Notes
 
  - A basic enabler of Lumina token ramping strategies
@@ -23,6 +25,8 @@ This creature enters with a shield counter on it. (If it would be dealt damage o
 
 3/3
 ```
+
+[card implementation](/custom/cards/boucheclier.txt)
 
 ### Design Notes
 
@@ -40,6 +44,8 @@ This creature gets +2/+2 and Ward 2 if you control a creature named Cruler.
 3/2
 ```
 
+[card implementation](/custom/cards/b/bruler.txt)
+
 ### Design Notes
 
  - In the game, Bruler is generally in a party with Cruler. Thus I've gone with giving Bruler a buff if you also control Cruler
@@ -55,6 +61,8 @@ This creature gets +2/+2 and Ward 2 if you control a creature named Bruler.
 
 2/3
 ```
+
+[card implementation](/custom/cards/c/cruler.txt)
 
 ### Design Notes
 
@@ -72,6 +80,8 @@ When this creature dies, target opponent creates a Lumina token.
 1/1
 ```
 
+[card implementation](/custom/cards/d/demineur.txt)
+
 ### Design Notes
 
  - In the game, this is one of the weakest enemies in the game.
@@ -86,6 +96,8 @@ Enchant permanent
 Enchanted permanent doesn't untap during its controller's untap step.
 ```
 
+[card implementation](/custom/cards/e/eternal_ice.txt)
+
 ### Design Notes
 
  - Standard blue pin-down effect for limited/draft
@@ -99,6 +111,8 @@ Affinity for Clea Planeswalkers.
 Defender.
 The strongest ice attack ever - At the beginning of your upkeep, Francois deals 4 damage to target creature an opponent controls. Tap that creature and put a stun counter on it.
 ```
+
+[card implementation](/custom/cards/f/francois_waiting_for_clea.txt)
 
 ### Design Notes
 
@@ -116,6 +130,8 @@ Kindred Instant - Expeditioner
 Tap up to two target permanents. Put a stun counter on them.
 ```
 
+[card implementation](/custom/cards/i/ice_lance.txt)
+
 ### Design Notes
 
  - Generic useful ice-themed tempo play in limited/draft environments.
@@ -128,6 +144,8 @@ Kindred Instant - Expeditioner
 Counter target spell unless its controller pays {2}.
 Create a Lumina token.
 ```
+
+[card implementation](/custom/cards/l/lunes_denial.txt)
 
 ### Design Notes
 
@@ -144,6 +162,8 @@ When this creature dies, target opponent creates a Lumina token.
 3/2
 ```
 
+[card implementation](/custom/cards/l/luster.txt)
+
 ### Design Notes
 
  - Currently a vanilla placeholder Nevron. Abilities TBD
@@ -157,6 +177,8 @@ Devoid
 This spell costs {2} less to cast if you control a painter.
 Put target permanent to the top or bottom of its owner's library.
 ```
+
+[card implementation](/custom/cards/r/rip_apart_reality.txt)
 
 ### Design Notes
 
@@ -174,6 +196,8 @@ II - Scry 3.
 III — Draw cards equal to the number of rock permanents you control.
 ```
 
+[card implementation](/custom/cards/t/the_search_for_esquies_rocks.txt)
+
 ### Design Notes
 
  - In the game, you need to find a series of rocks for Esquie to unlock extra abilities to be able to traverse various parts of the overworld.
@@ -187,6 +211,8 @@ Kindred Instant - Expeditioner
 Kicker {R} (You may pay an additional {R} as you cast this spell.)
 Tap target creature and put a stun counter on it. If this spell was kicked, this spell deals 3 damage to another target creature.
 ```
+
+[card implementation](/custom/cards/t/thermal_transfer.txt)
 
 ### Design Notes
 

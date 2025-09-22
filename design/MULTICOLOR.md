@@ -10,6 +10,8 @@ This spell deals 3 damage to any target.
 Create a Lumina token.
 ```
 
+[card implementation](/custom/cards/a/a_storm_is_coming.txt)
+
 ### Design Notes
 
  - Lighting bolt with suspend to convey the "storm is coming". Lumina reward as standard with any Expeditioner spell
@@ -24,6 +26,8 @@ Activated abilities of Nevrons and Pictos cannot be activated.
 
 2/2
 ```
+
+[card implementation](/custom/cards/zDevelopment/alicia_dessendre_slienced_by_fire.txt)
 
 ### Design Notes
 
@@ -42,6 +46,8 @@ When this creature dies, target opponent creates a Lumina token.
 2/2
 ```
 
+[card implementation](/custom/cards/b/ballet.txt)
+
 ### Design Notes
 
  - Another vanila Nevron. Flying because these things are hard to hit with melee attacks in the actual game.
@@ -57,6 +63,8 @@ When this creature dies, target opponent creates a Lumina token.
 4/4
 ```
 
+[card implementation](/custom/cards/b/benisseur.txt)
+
 ### Design Notes
 
  - Currently a placeholder vanilla Nevron. Abilities TBD.
@@ -70,6 +78,8 @@ When this creature dies, target opponent creates a Lumina token.
 
 3/2
 ```
+
+[card implementation](/custom/cards/b/braseleur.txt)
 
 ### Design Notes
 
@@ -87,6 +97,8 @@ When this creature dies, target opponent creates a Lumina token.
 1/2
 ```
 
+[card implementation](/custom/cards/c/chorale.txt)
+
 ### Design Notes
 
  - Another vanilla Nevron
@@ -99,6 +111,8 @@ Enchantment - Aura
 Enchant creature.
 Enchanted creature becomes an artifact creature with base power and toughness 0/1 and loses all abilities.
 ```
+
+[card implementation](/custom/cards/c/chromatic_petrification.txt)
 
 ### Design Notes
 
@@ -119,6 +133,8 @@ When this creature dies, if you control no creatures, put two 2/2 Red and Blue D
 
 2/2
 ```
+
+[card implementation](/custom/cards/d/danseuse.txt)
 
 ### Design Notes
 
@@ -145,6 +161,8 @@ When Esquie attacks, if it is saddled, choose one:
 6/6
 ```
 
+[card implementation](/custom/cards/e/esquie_friend_of_verso.txt)
+
 ### Design Notes
 
  - In the game, Esquie is the character the rest of the party rides on to travel across the Continent overworld.
@@ -168,6 +186,8 @@ I, II — Search your library for an Expeditoner card, reveal it and put it into
 III — Search your library for an Expeditioner permanent, put it onto the battlefield, then shuffle.
 ```
 
+[card implementation](/custom/cards/zDevelopment/expedition_70.txt)
+
 ### Design Notes
 
  - Journal is a story of an Expedition that made it inside the Monolith in the final few days of their lifetimes and installing grapple points for those who come after.
@@ -181,6 +201,8 @@ Kindred Sorcery - Expeditioner
 Create 3 Lumina tokens if {U} was spent to cast this spell. Create 2 Chroma tokens if {W} was spent to cast this spell.
 ```
 
+[card implementation](/custom/cards/f/for_those_who_come_after.txt)
+
 ### Design Notes
 
  - Just another Chroma/Lumina token strategy enabler
@@ -193,6 +215,8 @@ Sorcery
 This spell costs {1} less to cast if you control a painter.
 Exile all nonland permanents that aren't legendary or Nevrons.
 ```
+
+[card implementation](/custom/cards/g/gommage.txt)
 
 ### Design Notes
 
@@ -211,6 +235,8 @@ When this creature dies, target opponent creates a Lumina token.
 2/2
 ```
 
+[card implementation](/custom/cards/l/lancelier.txt)
+
 ### Design Notes
 
  - Another generic vanilla Nevron to round out the creature roster for limited/draft.
@@ -224,6 +250,8 @@ Sorcery
 This spell costs {1} less to cast if you control a painter.
 Exile target nonland permanent.
 ```
+
+[card implementation](/custom/cards/l/leave_this_canvas.txt)
 
 ### Design Notes
 
@@ -248,6 +276,8 @@ Human spells you cast cost {1} less to cast.
 [-3]: Exile target nonland, non-Human permanent.
 [-8]: Return all Humans from your graveyard onto the battlefield.
 ```
+
+[card implementation](/custom/cards/zDevelopment/maelle_child_of_lumiere_maelle_the_reawakened_paintress.txt)
 
 ### Design Notes
 
@@ -276,6 +306,8 @@ At the beginning of your upkeep, create a 1/1 colorless Nevron creature token.
 3/4
 ```
 
+[card implementation](/custom/cards/p/painted_clea_the_mistress.txt)
+
 ### Design Notes
 
  - In the game, Painted Clea was painted by Aline, but was then repainted over by the real Clea and re-purposed to be what amounts to an endless "Nevron factory"
@@ -298,6 +330,8 @@ When this creature dies, target opponent creates a Lumina token.
 1/4
 ```
 
+[card implementation](/custom/cards/r/reaper_cultist.txt)
+
 ### Design Notes
 
  - Vanilla placeholder Nevron
@@ -314,6 +348,8 @@ Flying. Ward 3.
 7/7
 ```
 
+[card implementation](/custom/cards/s/serpenphare.txt)
+
 ### Design Notes
 
  - In the game, Serpenphare is an optional end-game boss. Its most prominent attack is an AP draining ability, if it consumes too much AP with this move, it will explode.
@@ -326,6 +362,8 @@ WUBRG
 Sorcery
 You win the game if you control a total of 33 or more Expeditioners, Chroma, Lumina or Pictos permanents.
 ```
+
+[card implementation](/custom/cards/t/the_greatest_expedition_in_history.txt)
 
 ### Design Notes
 
@@ -340,6 +378,8 @@ Kindred Sorcery - Expeditioner
 Search your library for an Expeditioner card, reveal it and put it into your hand, then shuffle.
 ```
 
+[card implementation](/custom/cards/zDevelopment/tomorrow_comes.txt)
+
 ### Design Notes
 
  - Another tutor to enable the Expeditioner tribal strategy / Expeditoner spell toolbox.
@@ -353,6 +393,8 @@ Devoid
 This spell costs {2} less to cast if you control a painter.
 This spell deals 4 damage divided as you choose among any number of targets
 ```
+
+[card implementation](/custom/cards/v/void_meteors.txt)
 
 ### Design Notes
 
@@ -375,6 +417,8 @@ Tap all creatures your opponents control. They don't untap during their controll
 Fuse (You may cast one or both halves of this card from your hand.)
 ```
 
+[card implementation](/custom/cards/w/whee_whoo.txt)
+
 ### Design Notes
 
  - In the game, Esquie describes his moods as sometimes being Whee (happy) and sometimes being Whoo (sad)
@@ -395,6 +439,8 @@ Take an extra turn after this one.
 
 Fuse (You may cast one or both halves of this card from your hand.)
 ```
+
+[card implementation](/custom/cards/w/when_one_falls_we_continue.txt)
 
 ### Design Notes
 
