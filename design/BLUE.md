@@ -130,7 +130,7 @@ Kindred Instant - Expeditioner
 Counter target Gradient spell
 ```
 
-[card implementation](/custom/cards/zDevelopment/gradient_counter.txt)
+[card implementation](/custom/cards/g/gradient_counter.txt)
 
 ### Design Notes
 
@@ -210,7 +210,7 @@ Counter target spell.
 Create a Lumina token.
 ```
 
-[card implementation](/custom/cards/zDevelopment/swift_counter.txt)
+[card implementation](/custom/cards/s/swift_counter.txt)
 
 ### Design Notes
 

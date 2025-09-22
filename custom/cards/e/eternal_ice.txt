@@ -1,6 +1,6 @@
 Name:Eternal Ice
 ManaCost:2 U
 Types:Enchantment Aura
-K:Enchant Permanent
+K:Enchant:Permanent
 R:Event$ Untap | ActiveZones$ Battlefield | ValidCard$ Permanent.EnchantedBy | ValidStepTurnToController$ You | Layer$ CantHappen | Description$ Enchanted permanent doesn't untap during its controller's untap step.
 Oracle:Enchant permanent\nEnchanted permanent doesn't untap during its controller's untap step.

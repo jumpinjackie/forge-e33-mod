@@ -394,7 +394,7 @@ Kindred Sorcery - Expeditioner
 Search your library for an Expeditioner card, reveal it and put it into your hand, then shuffle.
 ```
 
-[card implementation](/custom/cards/zDevelopment/tomorrow_comes.txt)
+[card implementation](/custom/cards/t/tomorrow_comes.txt)
 
 ### Design Notes
 
