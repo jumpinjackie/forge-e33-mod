@@ -1,4 +1,4 @@
-Name:A storm is coming
+Name:A Storm is Coming
 ManaCost:no cost
 Colors:blue red
 Types:Kindred Sorcery Expeditioner

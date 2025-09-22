@@ -5,7 +5,7 @@ Date=2025-09-17
 Type=Custom
 
 [cards]
-C A storm is coming
+C A Storm is Coming
 C Abbest
 U Abberation
 U Alicia's Birthday Party
@@ -107,6 +107,8 @@ R Gustave's Homage
 R Goblu
 M Golgra, Gestral Chief
 M Gommage
+U Gradient Charge
+C Gradient Counter
 U Greatsword Cultist
 R Grosse Tete
 C Healing Light
@@ -176,6 +178,7 @@ U Soarrie
 U Stalact
 R Stendhal
 U Strikestorm
+C Swift Counter
 U Sword Ballet
 U Terraquake
 R The Curator
@@ -219,4 +222,7 @@ Grandis:Grandises
 Rock:Rocks
 Lumina:Luminas
 Chroma:Chromas
-Picto:Pictos
+Pictos
+
+[SpellTypes]
+Gradient
