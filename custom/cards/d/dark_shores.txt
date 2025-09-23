@@ -1,10 +1,10 @@
 Name:Dark Shores
 ManaCost:no cost
 Types:Land
-A:AB$ Mana | Cost$ T | Produced$ U B | SpellDescription$ Add {U} or {B}.
-A:AB$ Mana | Cost$ T | Produced$ U B | IsPresent$ Nevron.YouCtrl | PresentCompare$ GE1 | SpellDescription$ Add {U}{B}. Activate this ability only if you control a Nevron. | SubAbility$ DBStayTapped
+A:AB$ Mana | Cost$ T | Produced$ Combo U B | SpellDescription$ Add {U} or {B}.
+A:AB$ Mana | Cost$ T | Produced$ U B | RestrictValid$ Spell.Nevron,Activated.Nevron+inZoneBattlefield| SpellDescription$ Add {U}{B}. Spend this mana only to cast Nevron spells or activate abilities of Nevrons. | SubAbility$ DBStayTapped
 R:Event$ Moved | ValidCard$ Card.Self | Destination$ Battlefield | ReplaceWith$ DBTap | ReplacementResult$ Updated | Description$ As CARDNAME enters, you may reveal a Nevron card from your hand. If you don't, CARDNAME enters tapped.
-SVar:DBTap:DB$ Tap | ETB$ True | Defined$ Self | UnlessCost$ Reveal<1/Nevron> | UnlessPlayer$ You | StackDescription$ enters tapped
+SVar:DBTap:DB$ Tap | ETB$ True | Defined$ Self | UnlessCost$ Reveal<1/Nevron> | UnlessPayer$ You | StackDescription$ enters tapped.
 SVar:DBStayTapped:DB$ Effect | ReplacementEffects$ DontUntap | RememberObjects$ Self | ExileOnMoved$ Battlefield | Duration$ UntilTheEndOfYourNextUntap
 SVar:DontUntap:Event$ Untap | ValidCard$ Card.IsRemembered | ValidStepTurnToController$ Player.Activator | Layer$ CantHappen | Description$ EFFECTSOURCE doesn't untap during your next untap step.
-Oracle:As this land enters, you may reveal a Nevron card from your hand. If you don't this land enters tapped.\n{T}: Add {U} or {B}.\n{T}: Add {U}{B}. This land doesn't untap during your next untap step. Activate this ability only if you control a Nevron.
+Oracle:As this land enters, you may reveal a Nevron card from your hand. If you don't this land enters tapped.\n{T}: Add {U} or {B}.\n{T}: Add {U}{B}. Spend this mana only to cast Nevron spells or activate abilities of Nevrons. This land doesn't untap during your next untap step. 
