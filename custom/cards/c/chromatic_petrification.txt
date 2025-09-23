@@ -1,6 +1,6 @@
 Name:Chromatic Petrification
 ManaCost:W B
 Types:Enchantment Aura
-K:Enchant:Creature
-S:Mode$ Continuous | Affected$ Creature.EnchantedBy | SetPower$ 0 | SetToughness$ 1 | AddType$ Artifact | RemoveAllAbilities$ True | Description$ Enchanted creature becomes an artifact creature with base power and toughness 0/1 and loses all abilities.
-Oracle:Enchant creature.\nEnchanted creature becomes an artifact creature with base power and toughness 0/1 and loses all abilities.
+K:Enchant:Permanent
+S:Mode$ Continuous | Affected$ Creature.EnchantedBy | AddType$ Artifact | RemoveType$ Creature | RemoveAllAbilities$ True | Description$ Enchanted permanent becomes an artifact and loses all abilities.
+Oracle:Enchant permanent.\nEnchanted permanent becomes an artifact and loses all abilities.

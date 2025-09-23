@@ -1,0 +1,8 @@
+Name:Cache Discovery
+ManaCost:U
+Types:Kindred Sorcery Expeditioner
+K:Splice:Instant.Expeditioner,Sorcery.Expeditioner:U
+A:SP$ Token | TokenAmount$ 1 | TokenOwner$ You | TokenScript$ c_a_lumina | SubAbility$ DBChroma | SpellDescription$ Create a Chroma token and a Lumina token.
+SVar:DBChroma:DB$ Token | TokenAmount$ 1 | TokenOwner$ You | TokenScript$ c_a_chroma
+DeckHints:Type$Expeditioner
+Oracle:Create a Chroma token and a Lumina token.\nSplice onto Expeditioner Instant or Sorcery {U} (As you cast an Expeditioner Instant or Sorcery, you may reveal this card from your hand and pay its splice cost. If you do, add this card's effects to that spell.)
