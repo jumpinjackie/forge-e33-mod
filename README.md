@@ -28,6 +28,8 @@ This mod is multi-faceted and consists of:
 
 To see what cards are in this set, check out the various design docs which detail every card and the design motivation behind them.
 
+> SPOILER ALERT: Plot and character spoilers galore when discussing design motivations for most cards. If you don't want to be spoiled, perhaps play through and finishe the video game first and come back later :-)
+
  * [Artifacts](/design/ARTIFACTS.md)
  * [Black](/design/BLACK.md)
  * [Blue](/design/BLUE.md)
