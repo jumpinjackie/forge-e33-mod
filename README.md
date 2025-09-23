@@ -11,15 +11,16 @@ This mod is multi-faceted and consists of:
 
 # Installing
 
-1. Git clone this repo
-2. Copy the `custom` folder into your Forge application data directory. Based on your OS, this will be:
+1. Install forge (latest stable or snapshot release)
+2. Git clone this repo
+3. Copy the `custom` folder into your Forge application data directory. Based on your OS, this will be:
    - Windows: `%APPDATA%\Forge`
    - Linux: TBD
    - OSX: TBD
-3. Start Forge
-4. In the Deck Editor, to see the cards in this set, change the set filter (the magnifying glass) to only include custom sets, or search for `Set:E33`
+4. Start Forge
+5. In the Deck Editor, to see the cards in this set, change the set filter (the magnifying glass) to only include custom sets, or search for `Set:E33`
 ![screenshot](screenshot.png)
-5. Start building decks with these new cards and have fun!
+6. Start building decks with these new cards and have fun!
 
 # Set overview
 
