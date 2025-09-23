@@ -20,9 +20,11 @@ This mod is multi-faceted and consists of:
 4. Start Forge
 5. In the Deck Editor, to see the cards in this set, change the set filter (the magnifying glass) to only include custom sets, or search for `Set:E33`
 ![screenshot](screenshot.png)
-6. Start building decks with these new cards and have fun!
+6. Start building decks with these new cards and have fun with some AI opponents!
 
 # Set overview
+
+> IMPORTANT: This set is in the process of development. It has not received any stringent playtesting, expect broken stuff, expect underpowered stuff, expect unintended interactions and everything in between!
 
 To see what cards are in this set, check out the various design docs which detail every card and the design motivation behind them.
 
