@@ -288,24 +288,6 @@ Sword of Light - {2}{W}{B},{T}: Separate creatures target opponent controls into
  - Sword of Light: In the game, The Lampmaster creates a large blade from light and swings it four times, dealing massive damage to the whole party and inflicting Blight.
     - Translated to a Fact or Fiction style "split into 2 piles" effect where opponent choose the pile to be destroyed and the other pile will all have toughness of 1 until end of turn (which is how I interpret the blight effect).
 
-## Lancelier
-
-```
-1(W/G)
-Creature - Nevron
-First Strike.
-When this creature dies, target opponent creates a Lumina token.
-
-2/2
-```
-
-[card implementation](/custom/cards/l/lancelier.txt)
-
-### Design Notes
-
- - Another generic vanilla Nevron to round out the creature roster for limited/draft.
- - In game, Lancelier's wield a lance. So clearly this should have First Strike.
-
 ## Leave this Canvas!
 
 ```

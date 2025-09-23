@@ -3,11 +3,11 @@
 ## Abbest
 
 ```
-1G
+G
 Creature - Nevron
 Devoid (This card has no color.)
 When this creature dies, target opponent creates a Lumina token.
-2/2
+1/2
 ```
 
 [card implementation](/custom/cards/a/abbest.txt)
@@ -15,7 +15,7 @@ When this creature dies, target opponent creates a Lumina token.
 ### Design Notes
 
  - Just a "vanilla" bear with stock Nevron card text.
-
+ - 23/09/2025: Changed casting cost from 1G to G and PT from 2/2 to 1/2 to make it unique from the (now fully green) Lancelier
 
 ## Expedition 69
 
@@ -34,6 +34,25 @@ III — Search your library for a land card, put it onto the battlefield, then s
 
  - Journal is thematically the same as Expedition 69: a story of exploring everywhere and installing grapple points for those who come after.
  - The one puts more emphasis on the exploration (ie. Land/mana ramp)
+
+## Lancelier
+
+```
+1G
+Creature - Nevron
+First Strike.
+When this creature dies, target opponent creates a Lumina token.
+
+2/2
+```
+
+[card implementation](/custom/cards/l/lancelier.txt)
+
+### Design Notes
+
+ - Another generic vanilla Nevron to round out the creature roster for limited/draft.
+ - In game, Lancelier's wield a lance. So clearly this should have First Strike.
+ - 23/09/2025: Now green instead of white/green. White Nevrons will be their own unique sub-race that we don't want regular Nevrons to bleed into.
 
 ## Revitalization
 

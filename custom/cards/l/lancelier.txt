@@ -1,5 +1,5 @@
 Name:Lancelier
-ManaCost:1 W/G
+ManaCost:1 G
 Types:Creature Nevron
 PT:2/2
 K:First Strike
