@@ -10,7 +10,7 @@ C Abbest
 U Abberation
 U Alicia's Birthday Party
 R Alicia Dessendre, Slienced by Fire
-M Aline Dessendre
+M Aline Dessendre, Stricken by Grief
 C All Set
 C An Advantage!
 U Ancient Sanctuary
@@ -26,6 +26,7 @@ U Boat Graveyard
 U Braseleur
 C Bruler
 R Burning Canvas
+C Cache Discovery
 C Catapault Sakapatate
 C Chalier
 U Chapelier
@@ -34,6 +35,7 @@ R Chroma Catalyst
 R Chroma Barrier
 C Chroma Filter
 C Chroma Prison
+U Chromatic Inversion
 C Chromatic Petrification
 U Chromatic Reclamation
 U Clair
@@ -47,7 +49,7 @@ U Danseuse
 R Danseuse Teacher
 C Degagement
 C Demineur
-U Dessendre Family Canvas
+U Dessendre Family Portrait
 R Dominique Giant Feet
 U Dorrie
 C Earth Rising
@@ -60,15 +62,34 @@ R Esquie's Nest
 C Esquie's Magic Mushrooms
 U Eternal Ice
 R Eveque
+U Expedition 34 Mage
 U Expedition 41
+U Expedition 41 Hunter
 U Expedition 48
+C Mutinous Expedition 48 Soldier
 U Expedition 49
+C Expedition 49 Healer
+C Expedition 53 Herbalist
+C Expedition 54 Dissident
+U Expedition 55 Drummer
+U Expedition 57 Siege Engineer
 U Expedition 59
+U Expedition 59 Chef
 R Expedition 60
+C Expedition 60 Messenger
 U Expedition 63
-R Expedition 68
+C Expedition 63 Driver
+C Expedition 68 Navigator
+C Expedition 67 Demolitons Expert
 U Expedition 69
+C Expedition 69 Surveyor
+C Expedition 69 Explorer
+C Expedition 69 Mountaineer
 U Expedition 70
+R Expedition 78
+C Expedition 78 Aircrew
+C Expedition 81 Interpeter
+U Expedition 84 Tracker
 C Expedition Cache
 U Expedition Flotilla
 U Falling Leaves
@@ -82,6 +103,7 @@ U Flying Waters
 M Forgotten Battlefield
 U For Those Who Come After
 C Fortune's Fury
+C Fracture Survivor
 U Francois, Waiting for Clea
 U Frozen Hearts
 R Gargant
@@ -101,9 +123,6 @@ C Gestral Villager
 U Grandis Merchant
 R Grandis Fashionist
 U Get Out Of My Way!
-R Gustave, Lumiere Engineer
-U Gustave's Journal
-R Gustave's Homage
 R Goblu
 M Golgra, Gestral Chief
 M Gommage
@@ -111,6 +130,11 @@ U Gradient Charge
 C Gradient Counter
 U Greatsword Cultist
 R Grosse Tete
+R Gustave, Lumiere Engineer
+C Gustave's Insight
+U Gustave's Ingenuity
+U Gustave's Journal
+R Gustave's Homage
 C Healing Light
 U Health Tint
 U Heart of the Paintress
@@ -124,12 +148,14 @@ U Lightning Dance
 U Limonsol, Matchmaker
 R Lorieniso, Gestral Musician
 C Lost Gestral
+U Lumiere Aquafarm
 C Lumiere Assault
 R Lumiere, The Last Bastion
 U Lumiere Opera House
 U Lumina Converter
 C Luster
 M Maelle, Child of Lumiere
+U Maelle's Nightmare
 R Matthieu the Colossus
 C Mezzo Forte
 C Manor Gardens
@@ -143,6 +169,7 @@ U Lumiere Mime
 R Lune, Charting a Path
 C Lune's Denial
 R Monoco's Station
+C Nevron Disguise
 U Noire
 U Obscur
 C Offensive Switch
@@ -174,6 +201,7 @@ R Sky Break
 R Simon, Consort of Clea
 R Simon, The Divergent Star
 R Sirene's Coliseum
+R Sprong
 U Soarrie
 U Stalact
 R Stendhal
