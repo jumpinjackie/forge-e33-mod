@@ -38,7 +38,7 @@ Activated abilities of Nevrons and Pictos cannot be activated.
 ## Ballet
 
 ```
-1GW
+1(R/G)(R/G)
 Creature - Nevron
 Devoid (This card has no color.)
 Flying.
@@ -52,6 +52,7 @@ When this creature dies, target opponent creates a Lumina token.
 ### Design Notes
 
  - Another vanila Nevron. Flying because these things are hard to hit with melee attacks in the actual game.
+ - 23/09/2025: Move color identity from white/green to red/green to make way for White Nevrons.
 
 ## Benisseur
 
@@ -69,6 +70,7 @@ When this creature dies, target opponent creates a Lumina token.
 ### Design Notes
 
  - Currently a placeholder vanilla Nevron. Abilities TBD.
+ - 23/09/2025: TODO: Replace white with a different color if intending to stay mulit-color to make way for White Nevrons.
 
 ## Braseleur
 
@@ -265,6 +267,7 @@ Overcharge - {T}, Remove X charge counters from Gustave: Gustave deals X damage 
  - From fire in the game is an ability that heals Gustave a bit if the target is burning. Translated this to a creature bolt + life gain.
  - Strike storm in the game is just a flurry of strikes. Translated this to temporary double strike.
  - Finally, overcharge (the ability we're all building towards) in the game deals high lightning damage based on the number of charges. Translated this to an X damage ability to a creature and its controller (where X is the number of charge counters removed).
+ - 23/09/2025: It may look a bit odd to have blue color identity but no actual abilities that cost blue mana. I added the blue color identity strictly for flavor purposes because he's an engineer.
 
 ## Lampmaster
 
@@ -410,7 +413,7 @@ Our Sacrifice - {1}{B}{B},{T}, Pay X life: All creatures target opponent control
 ### Design Notes
 
  - Sciel is a kind, emphatheic, nurturing character that specializes in weapons and attacks that deal dark damage. Clearly an Orzhov color identity.
- - In the game, Sciel's attacks build up foretell, which can then be consumed later on for even more powerful attacks. We are using Foretell in the *literal* sense by re-using the existing Foretell mechnanic by having Sciel granting all nonland cards in your hand to be foretelled.
+ - In the game, Sciel's attacks build up foretell, which can then be consumed later on for even more powerful attacks. We are using Foretell in the *literal* sense by re-using the existing Foretell mechanic by having Sciel granting all nonland cards in your hand to be foretelled.
  - Marking Card is just a creature ping that puts a marked counter on it. A creature with a marked counter will be a magnet for more damage.
  - Grim Harvest deals dark damage heals allies. Translated to a creature bolt that also gives you life.
  - Intervention in the game lets an ally play immediately and gain 4 AP. Translated to untapping a creature and giving you a Chroma token.
@@ -462,7 +465,7 @@ Search your library for an Expeditioner card, reveal it and put it into your han
 
 ### Design Notes
 
- - Another tutor to enable the Expeditioner tribal strategy / Expeditoner spell toolbox.
+ - Another tutor to enable the Expeditioner tribal strategy / Expeditioner spell toolbox.
 
 ## Void Meteors
 
@@ -528,3 +531,4 @@ Fuse (You may cast one or both halves of this card from your hand.)
  - Mechanically:
     - "When one falls" evokes in my mind an effect akin to Second Sunrise, so I've based it on that but scoped to Expeditioners
     - "We continues" evokes in my mind a Time Walk effect.
+ - 23/09/2025: I will most likely change the "When One Falls" side to be a straight mass Expeditioner reanimation effect instead of one that only reanimates those that died this turn, which would make it more of a game-swinging bomb when cast fused, because if you are able to resolve this fused, you deserve to win the game at that point.

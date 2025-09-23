@@ -133,11 +133,12 @@ The strongest ice attack ever - At the beginning of your upkeep, Francois deals 
 
 ### Design Notes
 
- - In the game Francois is Esquie's "neighbor" and is in possession of one of the rocks that Esquie desires. Francois was created by Clea and is forever longing for her return into the canvas.
+ - In the game Francois is Esquie's neighbor and "archnemesis" and is in possession of one of the rocks that Esquie desires. Francois was created by Clea and is forever longing for her return into the canvas.
  - Mechanically speaking:
-    - Affinity for Clea Planeswalkers is simply added for flavor purposes. There is only one Clea Planeswalker in this set.
+    - Affinity for Clea Planeswalkers is simply added for flavor purposes. There is only (going to be) one Clea Planeswalker in this set.
     - It has defender as the game portrayal has him in a stationary position that never moves.
     - The strongest ice attack ever is just a triggered ability on each of your upkeeps to deal 4 damage to a creature and if that doesn't finish it off then it taps and stuns it for a turn in line with how an ice attack would generally be represented mechanically.
+ - 23/09/2025: We could've given him shield counters to match his video game counterpart, but a sufficiently big butt is just as useful. Also we can't give *every* creature shield counters for the sake of lore accuracy.
 
 ## Gradient Counter
 

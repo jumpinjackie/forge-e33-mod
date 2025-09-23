@@ -23,7 +23,7 @@ This land enters tapped.
 Land
 As this land enters, you may reveal a Nevron card from your hand. If you don't this land enters tapped.
 {T}: Add {U} or {B}.
-{T}: Add {U}{B}. This land doesn't untap during your next untap step. Activate this ability only if you control a Nevron.
+{T}: Add {U}{B}. Spend this mana only to cast Nevron spells or activate abilities of Nevrons. This land doesn't untap during your next untap step. 
 ```
 
 [card implementation](/custom/cards/d/dark_shores.txt)
@@ -32,7 +32,6 @@ As this land enters, you may reveal a Nevron card from your hand. If you don't t
 
  - In the game this is the place where most of Expedition 33 got massacred and later in the game is a place where high-tier Nevrons are and is a great XP farming location in the late game.
  - Mechanically I went with a dimir dual with extra benefits for Nevrons.
- - Currently has some bugs, see BUGS.md
 
 ## Endless Tower
 
@@ -50,7 +49,6 @@ At the beginning of your upkeep, you may put a challenge counter on this card.
  - In the game, the Endless Tower was a 33-battle gauntlet against Nevrons of increasing difficulty
  - Figured the best way to mechanically model this gauntlet is to have something between Aether Vial and Mercadian Lift that grows counters and can put out Nevrons of increasing size based on the number of counters. 
  - We take the automatic growing counters effect of Aether Vial with the "removing counters as part of activation" part of Mercadian Lift. It would be hideously broken if we kept the Aether Vial activation as then this would be a strictly better and uncounterable Aether Vial, even if it had a Nevron-only restriction and legendary.
- - Currently not working as intended. See BUGS.md
 
 ## Esquie's Nest
 
@@ -79,7 +77,7 @@ This land enters tapped.
 
 ### Design Notes
 
- - In the game, the Flying Casino is a location where one can acquire an outfit for Monoco. It looks like cut content that was going to me more than what was in the final game (maybe a place to play various gambling mini-games?)
+ - In the game, the Flying Casino is a location where one can acquire an outfit for Monoco. It looks like cut content that was going to be more than what was in the final game (maybe a place to play various gambling mini-games?)
  - Mechanically, I've gone with replicating Gamble
 
 ## Flying Waters
@@ -167,7 +165,7 @@ Legendary Land - Town
 
 ### Design Notes
 
- - In the game, Lumiere is the city where the humans live. It is the last bastion of human civilization that is slowly dying each year with the yearly Gommages.
+ - In the game, Lumiere is the city where the humans live. It is also the last bastion of human civilization that is slowly dying each year with the yearly Gommages, hence the sub-title.
  - Mechanically, modeled on Kjeldoran Outpost but produces Human Expeditioner tokens instead of Soldiers
  - To go with the Expedition/Exploration theme, this land also makes map tokens.
 
