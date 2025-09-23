@@ -1,0 +1,9 @@
+Name:Piercing Strike
+ManaCost:3 B
+Types:Instant Gradient
+K:Devoid
+K:Split second
+S:Mode$ ReduceCost | ValidCard$ Card.Self | Type$ Spell | Amount$ 1 | EffectZone$ All | IsPresent$ Painter.YouCtrl | Description$ This spell costs {1} less to cast if you control a painter.
+S:Mode$ ReduceCost | ValidCard$ Card.Self | Type$ Spell | Amount$ 1 | EffectZone$ All | ValidTarget$ Creature.Expeditioner | Description$ This spell costs {1} less to cast if it targets an Expeditioner.
+A:SP$ Destroy | ValidTgts$ Creature | TgtPrompt$ Select target creature | SpellDescription$ Destroy target creature.
+Oracle:Devoid. Split Second.\nThis spell costs {1} less to cast if you control a painter.\nThis spell costs {1} less to cast if it targets an Expeditioner.\nDestroy target creature.

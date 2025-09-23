@@ -1,0 +1,6 @@
+Name:Gustave's Ingenuity
+ManaCost:3 U U
+Types:Kindred Instant Expeditioner
+S:Mode$ ReduceCost | ValidCard$ Card.Self | Type$ Spell | Amount$ 1 | EffectZone$ All | IsPresent$ Expeditioner.YouCtrl | Description$ This spell costs {1} less to cast if you control an expeditioner.
+A:SP$ Draw | NumCards$ 3 | SpellDescription$ Draw three cards.
+Oracle:This spell costs {1} less to cast if you control an Expeditoner.\nDraw three cards.
