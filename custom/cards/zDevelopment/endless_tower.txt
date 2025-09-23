@@ -1,8 +1,9 @@
 Name:Endless Tower
 ManaCost:no cost
 Types:Legendary Land
-T:Mode$ Phase | Phase$ Upkeep | ValidPlayer$ You | TriggerZones$ Battlefield | OptionalDecider$ You | Execute$ TrigPutCounter | TriggerDescription$ At the beginning of your upkeep, you may put a challenge counter on CARDNAME.
-SVar:TrigPutCounter:DB$ PutCounter | Defined$ Self | CounterType$ CHALLENGE | CounterNum$ 1 | AILogic$ ChargeToBestCMC
 A:AB$ Mana | Cost$ T | Produced$ C | SpellDescription$ Add {C}.
-A:AB$ ChangeZone | Cost$ T SubCounter<X/CHALLENGE> | ChangeNum$ 1 | ChangeType$ Permanent.Nevron+cmcEQX | Origin$ Hand | Destination$ Battlefield | Optional$ True | SpellDescription$ You may put a Nevron permanent card with mana value X from your hand onto the battlefield.
-Oracle:At the beginning of your upkeep, you may put a challenge counter on this card.\n{T}: Add {C}.\n{T}, Remove X challenge counters from this card: You may put a Nevron permanent card with mana value X from your hand onto the battlefield.
+A:AB$ ChangeZone | Cost$ T SubCounter<X/CHALLENGE> | ChangeNum$ 1 | ChangeType$ Creature.Nevron+cmcEQX | Origin$ Hand | Destination$ Battlefield | Optional$ True | SpellDescription$ You may put a Nevron creature card with mana value X from your hand onto the battlefield.
+T:Mode$ Phase | Phase$ Upkeep | ValidPlayer$ You | TriggerZones$ Battlefield | OptionalDecider$ You | Execute$ TrigPutCounter | TriggerDescription$ At the beginning of your upkeep, you may put a charge counter on CARDNAME.
+SVar:TrigPutCounter:DB$ PutCounter | Defined$ Self | CounterType$ CHALLENGE | CounterNum$ 1 | AILogic$ ChargeToBestCMC
+SVar:X:Count$xPaid
+Oracle:At the beginning of your upkeep, you may put a challenge counter on Endless Tower.\n{T}: Add {C}\n{T}, Remove X challenge counters from Endless Tower: You may put a Nevron creature card with mana value X from your hand onto the battlefield.
