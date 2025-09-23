@@ -33,6 +33,7 @@ Activated abilities of Nevrons and Pictos cannot be activated.
 
  - Gone with a targeted (Null Rod / Cursed Totem) effect to mechanically emphasize the "silence"
  - The real gimmick is melding with Maelle, Child of Lumiere. Meld is 100% the mechanic to sell the transformation
+    - 23/09/2025: Getting meld to work has been nothing but failure. I give up. Alicia will now be standalone.
 
 ## Ballet
 
@@ -108,8 +109,8 @@ When this creature dies, target opponent creates a Lumina token.
 ```
 WB
 Enchantment - Aura
-Enchant creature.
-Enchanted creature becomes an artifact creature with base power and toughness 0/1 and loses all abilities.
+Enchant permanent.
+Enchanted permanent becomes an artifact and loses all abilities.
 ```
 
 [card implementation](/custom/cards/c/chromatic_petrification.txt)
@@ -119,6 +120,7 @@ Enchanted creature becomes an artifact creature with base power and toughness 0/
  - Represents the effect inflicted on a good bunch of previous Expeditioners that turned them into statues with their Chroma trapped within.
  - I orignally wanted this to turn into a "do nothing" artifact, but I think the "Enchant creature" restriction means this is a nonbo and the aura immediately "falls off". Will revisit later with "Enchant permanent" to see if this gives my desired result.
     - Until then, I've gone with a 0/1 artifact creature.
+    - 23/09/2025: Now enchanting permanents so we can achieve the "inert artifact" effect. A slight flavor loss since this can now target more than just creatures, but I am more after the petrification effect than it needing to only target creatures
 
 ## Danseuse
 
@@ -264,6 +266,28 @@ Overcharge - {T}, Remove X charge counters from Gustave: Gustave deals X damage 
  - Strike storm in the game is just a flurry of strikes. Translated this to temporary double strike.
  - Finally, overcharge (the ability we're all building towards) in the game deals high lightning damage based on the number of charges. Translated this to an X damage ability to a creature and its controller (where X is the number of charge counters removed).
 
+## Lampmaster
+
+```
+4WB
+Legendary Creature - Nevron Horror
+Flying. Ward 3.
+Ball of Light - {2}{W},{T}: Tap up to three target creatures. They lose all abilities until end of turn.
+Sword of Light - {2}{W}{B},{T}: Separate creatures target opponent controls into two separate piles. That opponent chooses a pile. Destroy all creatures in that pile. Creatures in the other pile have base toughess 1 until end of turn.
+
+4/4
+```
+
+[card implementation](/custom/cards/l/lampmaster.txt)
+
+### Design Notes
+
+ - In the game, this is the final boss of Act 1.
+ - Ball of Light: In the game The Lampmaster gathers light energy in a sphere and then releases it as a horizontal wave, inflicting Silence upon contact.
+    - Translated to an effect that taps multiple creatures and giving them temporarily humility.
+ - Sword of Light: In the game, The Lampmaster creates a large blade from light and swings it four times, dealing massive damage to the whole party and inflicting Blight.
+    - Translated to a Fact or Fiction style "split into 2 piles" effect where opponent choose the pile to be destroyed and the other pile will all have toughness of 1 until end of turn (which is how I interpret the blight effect).
+
 ## Lancelier
 
 ```
@@ -298,23 +322,13 @@ Exile target nonland permanent.
  - One of Maelle's quotes as she's about to gommage some sorry Nevron out of existence.
  - Painter bonus because this is a painter's power.
 
-## Maelle, Child of Lumiere // Maelle, The Reawakend Paintress
+## Maelle, Child of Lumiere
 
 ```
+1WR
 Legendary Creature - Human Expeditioner
-{2}: If you both own and control Maelle, Child of Lumiere and a creature named Alicia Dessendre, Silenced by Fire, exile them, then meld them into Maelle, The Reawakened Paintress.
-```
 
-Melds into ...
-
-```
-Legendary Planeswalker - Maelle
-Human spells you cast cost {1} less to cast.
-[+2]: Create a Chroma Token.
-[+1]: Return target Human from your graveyard or in exile and put it onto the battlefield tapped.
-[0]: Create two 1/1 White Human Expeditioner tokens with "When this creature dies, create a Chroma token".
-[-3]: Exile target nonland, non-Human permanent.
-[-8]: Return all Humans from your graveyard onto the battlefield.
+3/3
 ```
 
 [card implementation](/custom/cards/zDevelopment/maelle_child_of_lumiere_maelle_the_reawakened_paintress.txt)
@@ -325,12 +339,30 @@ Human spells you cast cost {1} less to cast.
  - Mechanically, it's no-brainer we have to represent (Act 3) Maelle as a planeswalker and that we use the Meld mechanic to combine Alicia and (pre-Act 3) Maelle into this planeswalker.
     - Human Maelle's abilities TBD. I've mainly been focusing on nailing down the meld interaction first. Having limited success so far, thus this card currently does not work. I have been using The Mightstone and Weakstone + Urza, Lord Protector as the initial template.
     - If I can get the meld interaction to finally work and if Forge's rule engine will allow for it, I'd like to try to get the meld to trigger off of Maelle being exiled (for maximum flavor). If this is not feasible, then we'll stick with the existing activation cost.
-    - Planeswalker Maelle's abilities for the most part map to her in-game abilities:
-       - +2: She now has greater mastery of Chroma in the canvas
-       - +1: She now has the power of reanimating dead expeditioners to fight for her
-       - 0: Same theme of reanimating/rallying dead expeditioners to her cause
-       - -3: She now has the power to erase enemies from the canvas
-       - -8: Same theme of reanimating/rallying dead expeditioners to her cause
+ - 23/09/2025: I give up trying to get meld to work. Human Maelle will remain a standalone card. Abilities TBD. 
+
+## Maelle, The Reawakend Paintress
+
+```
+3WB
+Legendary Planeswalker - Maelle
+Human spells you cast cost {1} less to cast.
+[+2]: Create a Chroma Token.
+[+1]: Return target Human from your graveyard or in exile and put it onto the battlefield tapped.
+[0]: Create two 1/1 White Human Expeditioner tokens with "When this creature dies, create a Chroma token".
+[-3]: Exile target nonland, non-Human permanent.
+[-8]: Return all Humans from your graveyard onto the battlefield.
+```
+
+### Design Notes
+
+ - 23/09/2025: Splitting this off to its own card. I *really* wanted this to be the meld target of Maelle and Alicia for maximum flavor, but Forge simply would not cooperate with me.
+ - Planeswalker Maelle's abilities for the most part map to her in-game abilities:
+   - +2: She now has greater mastery of Chroma in the canvas
+   - +1: She now has the power of reanimating dead expeditioners to fight for her
+   - 0: Same theme of reanimating/rallying dead expeditioners to her cause
+   - -3: She now has the power to erase enemies from the canvas
+   - -8: Same theme of reanimating/rallying dead expeditioners to her cause
 
 ## Painted Clea, the Mistress
 
@@ -381,8 +413,8 @@ When this creature dies, target opponent creates a Lumina token.
 ```
 2WB
 Legendary Creature - Human Expeditioner
-Lifelink.
 Each nonland card in your hand without foretell has foretell. Its foretell cost is equal to its mana cost reduced by {2}. (During your turn, you may pay {2} and exile it from your hand face down. Cast it on a later turn for its foretell cost.)
+Whenever you fortell a card, you gain 2 life.
 Marking Card - {B},{T}: Sciel deals 1 damage to target creature, put a marked counter on it.
 Grim Harvest - {W}{B},{T}: Sciel deals 3 damage to target creature. You gain 3 life.
 Intervention - {W}{W},{T}: Untap target creature. Create a Chroma token.
@@ -396,7 +428,7 @@ Our Sacrifice - {1}{B}{B},{T}, Pay X life: All creatures target opponent control
 ### Design Notes
 
  - Sciel is a kind, emphatheic, nurturing character that specializes in weapons and attacks that deal dark damage. Clearly an Orzhov color identity.
- - Sciel's has many attacks in the game that heal herself or her allies. Thus she has lifelink.
+ - In the game, Sciel's attacks build up foretell, which can then be consumed later on for even more powerful attacks. We are using Foretell in the *literal* sense by re-using the existing Foretell mechnanic by having Sciel granting all nonland cards in your hand to be foretelled.
  - Marking Card is just a creature ping that puts a marked counter on it. A creature with a marked counter will be a magnet for more damage.
  - Grim Harvest deals dark damage heals allies. Translated to a creature bolt that also gives you life.
  - Intervention in the game lets an ally play immediately and gain 4 AP. Translated to untapping a creature and giving you a Chroma token.

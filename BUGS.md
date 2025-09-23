@@ -1,11 +1,3 @@
-# Dark Shores
-
-Always comes into play tapped, won't let me reveal a Nevron card to offset this effect.
-
-I templated this off of Auntie's Hovel which does the same thing but with Goblin cards!
-
-The UB mana ability seems to be used for auto-payment even if you don't meet the activation condition.
-
 # Gestral Merchant
 
 Can generate excess tokens on overkill. The intent was only to generate tokens up to the creature's toughness

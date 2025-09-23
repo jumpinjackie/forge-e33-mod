@@ -64,6 +64,20 @@ X target Gestral creatures can't block this turn.
  - In the game, this is the "password" Golgra passed down to the Expeditioners to get past the Gestral guards at Esquie's Nest
  - Mechanically, it make sense (and is hilarious) to make Gestrals unable to block.
 
+## Gestral Volleyball Strike
+
+```
+2R
+Kindred Sorcery - Gestral
+As an additional cost to cast this spell, sacrifice a Gestral. This spell deals 5 damage to any target.
+```
+
+### Design Notes
+
+ - In the game, there is a mini game where you have to win a game of gestral volleyball against a Sakapatate who flings little gestrals at you.
+ - Gestral version of Goblin Grenade / Reckless Abandon
+ - Made it a bit more expensive to offset the ease of casting gestral creatures in general and the fact that a Gestral sol land is in this set.
+
 ## Golgra, Gestral Chief
 
 ```

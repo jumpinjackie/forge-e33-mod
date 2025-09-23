@@ -35,6 +35,18 @@ Exhaust on death - When this creature dies, tap target creature an opponent cont
  - In the game, Chapelier summons jars to attack the party of not shot down and causes party exhaustion on defeat.
  - Gave it a token generation ability and mechanically represent exhaustion with tap + stun counter.
 
+## Maelle's Nightmare
+
+```
+B
+Sorcery - Gradient
+Target opponent reveals their hand. You choose either an Expeditioner card or a noncreature, nonland card from it. That player discards that card.
+```
+
+### Design Notes
+
+ - Duress with an ability to hit Expeditioner cards of any kind
+
 ## Noire
 
 ```
@@ -71,3 +83,18 @@ When this creature dies, target opponent creates a Lumina token.
  - In the game, Obscur is the other half of Clair.
  - Mechanically, it's main ability is to give its allies the ability to act twice, which I've mapped to untapping creatures.
  - And to round out its abilities I've given it a generic -1/-1 affliction ability.
+
+## Piercing Strike
+
+```
+3B
+Instant - Gradient
+Devoid. Split Second.
+This spell costs {1} less to cast if you control a painter.
+This spell costs {1} less to cast if it targets an Expeditioner.
+Destroy target creature.
+```
+
+### Design Notes
+
+ - This is meant to flavorfully and mechanically represent Painted Renoir's killing blow to Gustave.

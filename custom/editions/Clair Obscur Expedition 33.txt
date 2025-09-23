@@ -9,7 +9,7 @@ C A Storm is Coming
 C Abbest
 U Abberation
 U Alicia's Birthday Party
-R Alicia Dessendre, Slienced by Fire
+R Alicia Dessendre
 M Aline Dessendre, Stricken by Grief
 C All Set
 C An Advantage!
@@ -154,7 +154,8 @@ R Lumiere, The Last Bastion
 U Lumiere Opera House
 U Lumina Converter
 C Luster
-M Maelle, Child of Lumiere
+R Maelle, Child of Lumiere
+M Maelle, The Reawakened Paintress
 U Maelle's Nightmare
 R Matthieu the Colossus
 C Mezzo Forte

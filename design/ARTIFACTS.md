@@ -16,6 +16,23 @@ When this artifact enters, draw a card.
 
  - Just an artifact to provide color fixing and some minor ramp if you hava Chroma tokens to spare.
 
+## Dessendre Family Portrait
+
+```
+3
+Artifact
+Painter and Gradient spells you cast cost {1} less to cast.
+{T}: Add one mana of any color. Spend this mana only to cast a Painter or Gradient spell.
+{3},{T}: Search your library for a Painter card, reveal it and put it into your hand, then shuffle.
+```
+
+[card implementation](/custom/cards/d/dessendre_family_portrait.txt)
+
+### Design Notes
+
+ - In the game, this is an optional quest item which if collected and installed at the Manor, will unlock a room.
+ - Mechanically, this is just another enabler for Painter/Gradient magic strategies.
+
 ## Dorrie
 
 ```

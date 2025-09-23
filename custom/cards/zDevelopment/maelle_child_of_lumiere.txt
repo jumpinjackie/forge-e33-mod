@@ -1,0 +1,5 @@
+Name:Maelle, Child of Lumiere
+ManaCost:1 W R
+Types:Legendary Creature Human Expeditioner
+PT:3/3
+Oracle:

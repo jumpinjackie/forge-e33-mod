@@ -50,6 +50,23 @@ This creature gets +2/+2 and Ward 2 if you control a creature named Cruler.
 
  - In the game, Bruler is generally in a party with Cruler. Thus I've gone with giving Bruler a buff if you also control Cruler
 
+## Cache Discovery
+
+```
+U
+Kindred Sorcery - Expeditioner
+Create a Chroma token and a Lumina token.
+Splice onto Expeditioner Instant or Sorcery {U} (As you cast an Expeditioner Instant or Sorcery, you may reveal this card from your hand and pay its splice cost. If you do, add this card's effects to that spell.)
+```
+
+[card implementation](/custom/cards/c/cache_discovery.txt)
+
+### Design Notes
+
+ - A card specifically designed to rapidly build up to the 33 permanent win condition of The Greatest Expedition In History
+ - I am hoping that Forge's rule handling around splice is flexible enough to allow for this to work. Otherwise it's back to the drawing board.
+    - 23/09/2025: It seems to work!
+
 ## Cruler
 
 ```
@@ -136,6 +153,36 @@ Counter target Gradient spell
 
  - In the game, a Gradient attack is a super-charged attack. Such attacks can only be parried with a Gradient counter.
  - Mechanically, since we have Gradient instants/sorceries. This is obviously a thematically-relevant counter.
+
+## Gustave's Ingenuity
+
+```
+3UU
+Kindred Instant - Expeditioner
+This spell costs {1} less to cast if you control an Expeditoner.
+Draw three cards.
+```
+
+[card implementation](/custom/cards/g/gustaves_ingenuity.txt)
+
+### Design Notes
+
+ - Raw card draw with an expeditioner bonus
+
+## Gustave's Insight
+
+```
+2U
+Kindred Sorcery - Expeditioner
+This spell has flash as long as you control an Expeditioner.
+Look at the top five cards of your library. Put two of them into your hand and the rest on the bottom of your library in any order.
+```
+
+[card implementation](/custom/cards/g/gustaves_insight.txt)
+
+### Design Notes
+
+ - Stock Up with expeditioner benefits
 
 ## Ice Lance
 

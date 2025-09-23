@@ -286,7 +286,7 @@ Journals can are modeled as Sagas. Doesn't have to cover every expedition, just 
  - Chapter 3: Sacrifice all vehicles you control. For each vehicle sacrificed, you may have it deal damage to target creature or planeswalker equal to the sacrified vehicle's mana value
     - Journal is a story of expeditioners using cars to traverse the continent only for their mission to end when they fatally crashed into some Nevrons
  
-## Expedition 68
+## Expedition 78
 
  - Color Identity: Blue
  - Chapter 1, 2: Create a 5/5 Airship Vehicle Token with Haste, Flying and Crew: 3
