@@ -1,0 +1,7 @@
+Name:Healing Light
+ManaCost:X W
+Types:Kindred Sorcery Expeditioner
+A:SP$ GainLife | Defined$ Player | LifeAmount$ X | SubAbility$ GainMoreLife | StackDescription$ Each player gains twice X life. | SpellDescription$ Each player gains twice X life.
+SVar:GainMoreLife:DB$ GainLife | Defined$ Player | LifeAmount$ X
+SVar:X:Count$xPaid
+Oracle:Each player gains twice X life.

@@ -40,6 +40,19 @@ When this creature dies, target opponent creates a Lumina token.
     - Granting shield counters
     - A temporary "humility" effect to represent silencing.
 
+## Healing Light
+
+```
+XW
+Kindred Sorcery - Expeditioner
+Each player gains twice X life.
+```
+
+### Design Notes
+
+ - In the game, Healing Light is one of Lune's abilities that heals an ally.
+ - Easy mechanical translation to life gain, but with a twist. It's symmetrical for a reason: As an enabler for The 67th Gommage.
+    - Thus a card like this will not only help buy extra turns to get you to 6 mana to cast The 67th gommage, but also to get your opponent to 33 life or above.
 
 ## Repaint
 
