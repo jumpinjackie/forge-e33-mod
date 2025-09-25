@@ -211,6 +211,7 @@ U Strikestorm
 C Swift Counter
 U Sword Ballet
 U Terraquake
+M The 67th Gommage
 R The Curator
 R The Greatest Expedition in History
 M The Sacred River

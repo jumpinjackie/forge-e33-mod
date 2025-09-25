@@ -98,3 +98,18 @@ Destroy target creature.
 ### Design Notes
 
  - This is meant to flavorfully and mechanically represent Painted Renoir's killing blow to Gustave.
+
+## The 67th Gommage
+
+```
+4BB
+Legendary Sorcery
+(You may cast a legendary sorcery only if you control a legendary creature or planeswalker.)
+Each player with 33 or more life loses the game.
+```
+
+### Design Notes
+
+ - This is meant to flavorfully and mechanically represent the moment Renoir triggers the 67th gommage, erasing every human 33 years and older.
+ - Except in our case, instead of humans, it's players and instead of age its life total. Basically this card is just another excuse to weave in a thematic and flavorful use of the number 33.
+ - Further playtesting may reveal the truth, but I don't believe the win condition is *that easy* to achieve. It goes against the general plan of victory for most decks, which is to get your opponent to 0 or less life. So having to get your opponent to above a certain life total to enable the victory condition is at least a unique angle.

@@ -1,0 +1,5 @@
+Name:The 67th Gommage
+ManaCost:4 B B
+Types:Legendary Sorcery
+A:SP$ LosesGame | Defined$ Player.lifeGE33 | SpellDescription$ Each player with 33 or more life loses the game.
+Oracle:(You may cast a legendary sorcery only if you control a legendary creature or planeswalker.)\nEach player with 33 or more life loses the game.
