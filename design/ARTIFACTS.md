@@ -1,5 +1,20 @@
 # Cards
 
+## Berrami, Collector of Journals
+
+```
+3
+Legendary Artifact Creature - Gestral
+At the beginning of your upkeep, you may mill a card. If you do, create 2 Lumina tokens.
+
+2/2
+```
+
+### Design Notes
+
+ - In the game, Berrami is an NPC you can turn in journals for colors of lumina.
+ - Mechanically, I've translated this to milling cards from your library for lumina tokens.
+
 ## Chroma Filter
 
 ```
@@ -32,6 +47,26 @@ Painter and Gradient spells you cast cost {1} less to cast.
 
  - In the game, this is an optional quest item which if collected and installed at the Manor, will unlock a room.
  - Mechanically, this is just another enabler for Painter/Gradient magic strategies.
+
+## Dominique Giant Feet
+
+```
+4
+Legendary Artifact Creature - Gestral
+Trample
+{2}: Put a flying counter on Dominique.
+Two-handed slam: {2},{T},Remove a flying counter from Dominique: Dominique deals 4 damage to target creature.
+At the beginning of each end step, remove all flying counters on Dominique.
+
+4/4
+```
+
+### Design Notes
+
+ - In the game, Dominique is a fighter in the Hidden Gestral Arena
+ - With the two-handed slam ability Dominique leaps into the air and slams the opponent. I've mechanically translated this to giving Dominique an ability to add a flying counter (the jump) and another ability to deal the damage at the cost of some mana and removing a flying counter (the slam).
+ - The end step removing all flying counters trigger is insurance against "banking" excess flying counters.
+ - We use flying counters as opposed to temporarily granting the flying keyword as flying counters are logistically simpler to manage.
 
 ## Dorrie
 
@@ -104,6 +139,7 @@ Legendary Artifact - Rock
 2
 Artifact Creature - Gestral
 Whenever this creature attacks, it gets +2/+0 until end of turn for each other attacking Gestral.
+
 1/2
 ```
 
@@ -120,6 +156,8 @@ Whenever this creature attacks, it gets +2/+0 until end of turn for each other a
 1
 Artifact Creature - Gestral
 Whenever Gestral Lackey deals damage to a player, you may put a Gestral permanent card from your hand onto the battlefield.
+
+1/1
 ```
 
 [card implementation](/custom/cards/g/gestral_lackey.txt)
@@ -153,6 +191,8 @@ Whenever this creature is dealt damage, create that many Chroma tokens
 Artifact Creature - Gestral
 Haste (This creature can attack and {T} as soon as it comes under your control.)
 When this creature enters, reveal the top four cards of your library. Put all Gestral cards revealed this way into your hand and the rest on the bottom of your library in any order.
+
+3/2
 ```
 
 [card implementation](/custom/cards/g/gestral_ringleader.txt)
@@ -183,6 +223,7 @@ This card enters tapped.
 ```
 2
 Artifact Creature - Gestral
+
 2/1
 ```
 
@@ -222,6 +263,26 @@ Sacrifice this artifact: You gain 10 life. Activate this ability only if you con
 ### Design Notes
 
  - Another enabler for Lumina token strategies
+
+## Julien Tiny Head
+
+```
+5
+Legendary Artifact Creature - Gestral
+Combo Jab - {2}: Julien gains double strike until end of turn.
+Uppercut - {2}, {T}: Julien deals 2 damage to target creature, that creature gains flying until end of turn.
+Haymaker - {2}: Julien gains trample until end of turn.
+
+3/3
+```
+
+### Design Notes
+
+ - In the game, Julien is a boxing-style fighter in the Hidden Gestral Arena
+ - Julien has several moves which we've mechanically translated:
+    - Combo Jab: Easy. A flurry of strikes. Ergo. Double Strike
+    - Uppercut: Julien's punches are so strong that an uppercut would launch his opponent into the air. Hence, the momentary flying after being dealt 2 damage (if it survives that punch!)
+    - Haymaker: Interpreted as a really heavy punch and trample is a suitable way to convey such heaviness
 
 ## Limonsol, Matchmaker
 

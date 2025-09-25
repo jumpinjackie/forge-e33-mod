@@ -66,7 +66,6 @@ U Expedition 34 Mage
 U Expedition 41
 U Expedition 41 Hunter
 U Expedition 48
-C Mutinous Expedition 48 Soldier
 U Expedition 49
 C Expedition 49 Healer
 C Expedition 53 Herbalist
@@ -165,6 +164,7 @@ U Manor: Library // Manor: Fireplace
 U Manor: Greenhouse // Manor: Atelier
 U Manor: Entrance // Manor: Hidden Room
 U Manor: Kitchen // Manor: Cellar
+C Mutinous Expedition 48 Soldier
 C Lancelier
 U Lumiere Mime
 R Lune, Charting a Path
@@ -192,6 +192,7 @@ R Renoir Dessendre
 U Repaint
 U Revitalization
 U Ranger Sakapatate
+R Renoir's Will
 C Rip Apart Reality
 U Robust Sakapatate
 R Sastro, the Concerned
@@ -212,7 +213,6 @@ U Sword Ballet
 U Terraquake
 R The Curator
 R The Greatest Expedition in History
-U The Massacre at Dark Shores 
 M The Sacred River
 U The Search for Esquie's Rocks
 R The Paintress

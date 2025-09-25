@@ -1,0 +1,9 @@
+Name:Julien Tiny Head
+ManaCost:5
+Types:Legendary Artifact Creature Gestral
+PT:3/3
+A:AB$ Pump | Cost$ 2 | Defined$ Self | KW$ Double Strike | SpellDescription$ CARDNAME gains double strike until end of turn.
+A:AB$ Pump | Cost$ 2 | Defined$ Self | KW$ Trample | SpellDescription$ CARDNAME gains trample until end of turn.
+A:AB$ DealDamage | Cost$ 2 T | ValidTgts$ Creature | TgtPrompt$ Select target creature | NumDmg$ 2 | SubAbility$ DBFly | SpellDescription$ CARDNAME deals 2 damage to target creature.
+SVar:DBFly:DB$ Pump | Defined $Targeted | KW$ Flying
+Oracle:Combo Jab - {2}: Julien gains double strike until end of turn.\nUppercut - {2}, {T}: Julien deals 2 damage to target creature, that creature gains flying until end of turn.\nHaymaker - {2}: Julien gains trample until end of turn.

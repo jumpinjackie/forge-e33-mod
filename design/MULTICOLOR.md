@@ -348,6 +348,7 @@ Human spells you cast cost {1} less to cast.
    - 0: Same theme of reanimating/rallying dead expeditioners to her cause
    - -3: She now has the power to erase enemies from the canvas
    - -8: Same theme of reanimating/rallying dead expeditioners to her cause
+ - 25/09/2025: I'd thought about maybe an alternative cost of saccing Alicia and Human Maelle as an alternative way to "meld". But I don't think Forge supports saccing 2 cards with different qualities (name)
 
 ## Painted Clea, the Mistress
 

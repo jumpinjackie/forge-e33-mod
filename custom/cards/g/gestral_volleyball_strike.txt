@@ -1,7 +1,7 @@
 Name:Gestral Volleyball Strike
 ManaCost:2 R
 Types:Kindred Sorcery Gestral
-A:SP$ DealDamage | Cost$ 2 R Sac<1/Gestral> | ValidTgts$ Any | NumDmg$ 5 | SpellDescription$ CARDNAME deals 4 damage to any target.
+A:SP$ DealDamage | Cost$ 2 R Sac<1/Gestral> | ValidTgts$ Any | NumDmg$ 5 | SpellDescription$ CARDNAME deals 5 damage to any target.
 SVar:AIPreference:SacCost$Creature.Gestral+cmcLE1
 DeckNeeds:Type$Gestral
 Oracle:As an additional cost to cast this spell, sacrifice a Gestral. This spell deals 5 damage to any target.
