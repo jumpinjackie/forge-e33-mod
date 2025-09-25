@@ -3,6 +3,6 @@ ManaCost:3
 Types:Artifact Creature Gestral
 PT:2/3
 T:Mode$ DamageDoneOnce | Execute$ TrigDamage | ValidTarget$ Card.Self | TriggerZones$ Battlefield | TriggerDescription$ Whenever CARDNAME is dealt damage, create that many Chroma tokens.
-SVar:TrigDamage:DB$ Token | TokenScript$ c_a_chroma | TokenOwner$ You | TokenAmount$ X
+SVar:TrigDamage:DB$ Token | TokenScript$ c_a_chroma | TokenOwner$ You
 SVar:X:TriggerCount$DamageAmount
-Oracle:Whenever this creature is dealt damage, create that many Chroma tokens
+Oracle:Whenever this creature is dealt damage, create a Chroma tokens

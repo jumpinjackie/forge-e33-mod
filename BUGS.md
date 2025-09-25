@@ -1,7 +1,3 @@
-# Gestral Merchant
-
-Can generate excess tokens on overkill. The intent was only to generate tokens up to the creature's toughness
-
 # Golgra, Gestral Chief
 
 I am being prompted for the mode before the enrage trigger goes on the stack, I kind of expected the prompt to happen on trigger resolution. And the trigger description on the stack is the full modal prompt and not the choice made. Not sure if it ultimately matters because it behaviourally works as expected.

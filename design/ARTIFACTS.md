@@ -171,7 +171,7 @@ Whenever Gestral Lackey deals damage to a player, you may put a Gestral permanen
 ```
 3
 Artifact Creature - Gestral
-Whenever this creature is dealt damage, create that many Chroma tokens
+Whenever this creature is dealt damage, create a Chroma token
 
 2/3
 ```
@@ -182,7 +182,7 @@ Whenever this creature is dealt damage, create that many Chroma tokens
 
  - In the game, Gestral Merchants sell you various items. You can fight them to unlock additional items upon defeat
  - Mechanically, I went with rewarding you with Chroma tokens when it is dealt damage
- - Currently has a bug where it can be overkilled. See BUGS.md
+ - 26/09/2025: Reduced reward to a single Chroma token, simply because Forge has no way to let me describe "up to this creature's toughness" in terms of the amount of Chroma tokens generated. Can still do fight tricks with weaklings to repeatedly generate tokens.
 
 ## Gestral Ringleader
 
