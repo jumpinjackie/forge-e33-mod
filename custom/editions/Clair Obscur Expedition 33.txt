@@ -41,6 +41,7 @@ U Chromatic Reclamation
 U Clair
 R Clair Obscur
 M Clea Dessendre, Seeking Vengeance
+U Clea's Chromatic Mastery
 C Cruler
 U Crushing Cavern
 U Crustal Crush
@@ -166,7 +167,7 @@ C Manor Gardens
 C Manor Door
 U Manor Library // Manor Fireplace
 U Manor Greenhouse // Manor Gallery
-U Manor Entrance // Manor Hidden Room
+R Manor Entrance // Manor Hidden Room
 U Manor Kitchen // Manor Cellar
 C Mutinous Expedition 48 Soldier
 R Monoco's Station
