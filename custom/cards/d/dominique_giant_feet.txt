@@ -7,4 +7,4 @@ T:Mode$ Phase | Phase$ End of Turn | TriggerZones$ Battlefield | Execute$ DBRemo
 A:AB$ PutCounter | Cost$ 2 | CounterType$ Flying | CounterNum$ 1 | SpellDescription$ Put a flying counter on Dominique.
 A:AB$ DealDamage | Cost$ 2 T SubCounter<1/Flying> | ValidTgts$ Creature | TgtPrompt$ Select target creature | NumDmg$ 4 | SpellDescription$ CARDNAME deals 4 damage to target creature.
 SVar:DBRemoveAllFlying:DB$ RemoveCounter | Defined$ Self | CounterType$ Flying | CounterNum$ All
-Oracle:Trample\n{2}: Put a flying counter on Dominique.\nTwo-handed slam: {2},{T},Remove a flying counter from Dominique: Dominique deals 4 damage to target creature.\nAt the beginning of each end step, remove all flying counters on Dominique.
+Oracle:Trample\n{2}: Put a flying counter on Dominique.\nTwo-handed slam - {2},{T},Remove a flying counter from Dominique: Dominique deals 4 damage to target creature.\nAt the beginning of each end step, remove all flying counters on Dominique.

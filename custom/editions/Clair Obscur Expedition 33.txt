@@ -9,7 +9,7 @@ C A Storm is Coming
 C Abbest
 U Abberation
 U Alicia's Birthday Party
-R Alicia Dessendre
+R Alicia Dessendre, Silenced by Fire
 M Aline Dessendre, Stricken by Grief
 C All Set
 C An Advantage!
@@ -142,6 +142,7 @@ U Hexga
 C Ice Lance
 R Julien Tiny Head
 R Lampmaster
+C Lancelier
 U Leave this Canvas!
 U Lightning Dance
 U Limonsol, Matchmaker
@@ -151,7 +152,10 @@ U Lumiere Aquafarm
 C Lumiere Assault
 R Lumiere, The Last Bastion
 U Lumiere Opera House
+U Lumiere Mime
 U Lumina Converter
+R Lune, Charting a Path
+C Lune's Denial
 C Luster
 R Maelle, Child of Lumiere
 M Maelle, The Reawakened Paintress
@@ -160,15 +164,11 @@ R Matthieu the Colossus
 C Mezzo Forte
 C Manor Gardens
 C Manor Door
-U Manor: Library // Manor: Fireplace
-U Manor: Greenhouse // Manor: Atelier
-U Manor: Entrance // Manor: Hidden Room
-U Manor: Kitchen // Manor: Cellar
+U Manor Library // Manor Fireplace
+U Manor Greenhouse // Manor Gallery
+U Manor Entrance // Manor Hidden Room
+U Manor Kitchen // Manor Cellar
 C Mutinous Expedition 48 Soldier
-C Lancelier
-U Lumiere Mime
-R Lune, Charting a Path
-C Lune's Denial
 R Monoco's Station
 C Nevron Disguise
 U Noire
@@ -256,3 +256,9 @@ Pictos
 
 [SpellTypes]
 Gradient
+
+[WalkerTypes]
+Renoir
+Aline
+Clea
+Maelle
