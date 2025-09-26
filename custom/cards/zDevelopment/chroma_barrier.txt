@@ -1,0 +1,5 @@
+Name:Chroma Barrier
+ManaCost:2 W W
+Types:Legendary Enchantment
+S:Mode$ CantAttackUnless | ValidCard$ Creature | Target$ You | Cost$ Sac<1/Chroma> | Description$ Creatures cannot attack you unless their controller sacrifices a Chroma token for each creature they control that's attacking you.
+Oracle:Creatures cannot attack you unless their controller sacrifices a Chroma token for each creature they control that's attacking you.

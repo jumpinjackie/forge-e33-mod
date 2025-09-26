@@ -1,0 +1,6 @@
+Name:Lumiere Aquafarm
+ManaCost:no cost
+Types:Land Forest Island
+R:Event$ Moved | ValidCard$ Card.Self | Destination$ Battlefield | ReplaceWith$ LandTapped | ReplacementResult$ Updated | Description$ CARDNAME enters tapped unless you control an Expeditioner.
+SVar:LandTapped:DB$ Tap | Defined$ Self | ETB$ True | ConditionPresent$ Expeditioner.YouCtrl | ConditionCompare$ EQ0
+Oracle:({T}: Add {G} or {U}.)\nThis land enters tapped unless you control an Expeditioner

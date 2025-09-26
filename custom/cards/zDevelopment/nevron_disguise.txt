@@ -1,0 +1,5 @@
+Name:Nevron Disguise
+ManaCost:G
+Types:Kindred Instant - Expeditioner
+A:SP$ Animate | ValidTgts$ Creature.nonNevron | TgtPrompt$ Select target creature | Types$ Nevron | RemoveCreatureTypes$ True | SpellDescription$ Target creature becomes a Warrior until end of turn.
+Oracle:Target non-Nevron creature becomes a Nevron until end of turn.

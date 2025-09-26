@@ -172,6 +172,7 @@ U Manor Kitchen // Manor Cellar
 C Mutinous Expedition 48 Soldier
 R Monoco's Station
 C Nevron Disguise
+R Nevron Pecking Order
 U Noire
 U Obscur
 C Offensive Switch

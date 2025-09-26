@@ -1,0 +1,7 @@
+Name:Sky Break
+ManaCost:3UU
+Types:Kindred Sorcery Expeditioner Gradient
+Oracle:Tap all creatures and put a stun counter on them.
+If {R} was spent on this spell, it deals 6 damage to each tapped creature at the beginning of your next end step.
+If {W} was spent on this spell, exile each tapped creature at the beginning of your next end step.
+If {G} was spent on this spell, you gain 2 life for each creature on the battlefield.
