@@ -35,6 +35,18 @@ Exhaust on death - When this creature dies, tap target creature an opponent cont
  - In the game, Chapelier summons jars to attack the party of not shot down and causes party exhaustion on defeat.
  - Gave it a token generation ability and mechanically represent exhaustion with tap + stun counter.
 
+## Clea's Chromatic Mastery
+
+```
+2B
+Sorcery
+Search your library for a Nevron card, reveal it, put it into your hand, then shuffle.
+```
+
+### Design Notes
+
+ - A Nevron tutor to support Nevron tribal strategies
+
 ## Maelle's Nightmare
 
 ```
@@ -98,6 +110,20 @@ Destroy target creature.
 ### Design Notes
 
  - This is meant to flavorfully and mechanically represent Painted Renoir's killing blow to Gustave.
+
+## Renoir's Will
+
+```
+2B
+Sorcery - Gradient
+Until end of turn, you may play lands and cast Nevron or Gradient spells from your graveyard.
+If a card would be put into your graveyard from anywhere this turn, exile that card instead.
+```
+
+### Design Notes
+
+ - The card symbolizes the moment that Renoir was finally free from the bottom of the Monolith upon the defeat of The Paintress and Aline was expelled from the canvas and now had free reign to carry out his will: To destroy the canvas.
+ - So mechanically, we've gone with a variation of Yawgmoth's Will, but with extra restrictions on the type of cards that can be replayed, allowing us to keep the same mana cost.
 
 ## The 67th Gommage
 

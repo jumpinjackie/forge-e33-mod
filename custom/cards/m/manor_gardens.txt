@@ -1,0 +1,8 @@
+Name:Manor Gardens
+ManaCost:no cost
+Types:Land
+R:Event$ Moved | ValidCard$ Card.Self | Destination$ Battlefield | ReplacementResult$ Updated | ReplaceWith$ ETBTapped | Description$ CARDNAME enters tapped.
+SVar:ETBTapped:DB$ Tap | Defined$ Self | ETB$ True
+A:AB$ Mana | Cost$ T | Produced$ G | SpellDescription$ Add {G}.
+A:AB$ ChangeZone | Cost$ T Sac<1/CARDNAME> | Origin$ Library | Destination$ Hand | ChangeType$ Room | SpellDescription$ Search your library for a Room card, reveal it, put it into your hand, then shuffle.
+Oracle:This land enters tapped.\n{T}: Add {G}.\n{T}, Sacrifice this land: Search your library for a Room card, reveal it, put it into your hand, then shuffle.

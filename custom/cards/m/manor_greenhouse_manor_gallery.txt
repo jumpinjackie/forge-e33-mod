@@ -1,0 +1,16 @@
+Name:Manor Greenhouse
+ManaCost:2 G 
+Types:Enchantment Room
+T:Mode$ UnlockDoor | ValidPlayer$ You | ValidCard$ Card.Self | ThisDoor$ True | Execute$ TrigLand | TriggerDescription$ When you unlock this door, search your library for a land card, put it onto the battlefield, then shuffle.
+SVar:TrigLand:DB$ ChangeZone | Origin$ Library | Destination$ Battlefield | ChangeType$ Land | ChangeNum$ 1
+AlternateMode:Split
+Oracle:(You may cast either half. That door unlocks on the battlefield. As a sorcery, you may pay the mana cost of a locked door to unlock it.)\nWhen you unlock this door, search your library for a land card, put it onto the battlefield, then shuffle.
+
+ALTERNATE
+
+Name:Manor Gallery
+ManaCost:2 U
+Types:Enchantment Room
+S:Mode$ ReduceCost | ValidCard$ Painter,Gradient,Nevron | Type$ Spell | Activator$ You | Amount$ 1 | Description$ nPainter and Gradient spells you cast cost {1} less to cast.
+SVar:TrigBolt:DB$ DealDamage | ValidTgts$ Any | NumDmg$ 3
+Oracle:(You may cast either half. That door unlocks on the battlefield. As a sorcery, you may pay the mana cost of a locked door to unlock it.)\nPainter and Gradient spells you cast cost {1} less to cast.

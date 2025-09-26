@@ -354,6 +354,21 @@ Artifact
 
  - Utility artifact to support a Lumina token strategy. Inspired by Power Conduit.
 
+## Manor Door
+
+```
+2
+Artifact
+{T}: Add {C}.
+{2},{T}: Lock or unlock a door of target Room you control. Activate only as a sorcery.
+```
+
+### Design Notes
+
+ - In the game, there are various doors scattered throughout the continent that warps you to various rooms in the Manor, unlocking some in the process.
+ - This clearly mechanically maps to an artifact that can lock/unlock rooms ala. Keys to the House
+ - Added a mana ability so it can at least function as a mana rock if there's no rooms to interact with
+
 ## Matthieu, The Colossus
 
 ```

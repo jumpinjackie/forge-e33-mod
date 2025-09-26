@@ -4,8 +4,8 @@
 
 ```
 2W
-Kindred Enchantment - Nevron
-If you control a Nevron or Painter, you may cast this spell as though it had flash.
+Enchantment
+If you control a Painter, you may cast this spell as though it had flash.
 When this enchantment enters, exile another target nonland permanent.
 When this enchantment leaves the battlefield, return the exiled card to the battlefield under its owner's control.
 ```
@@ -17,6 +17,7 @@ When this enchantment leaves the battlefield, return the exiled card to the batt
  - Oblivion Ring variant #234898572343
  - This represents the barrier that Painted Renoir traps Maelle in at the Stone Wave Cliffs.
  - Gave it Nevron/Painter affiliated bonuses
+ - 26/09/2025 Converted from Kindred Enchantment - Nevron to a regular Enchantment and give the flash bonus only for painters.
 
 ## Clair
 

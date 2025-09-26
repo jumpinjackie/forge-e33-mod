@@ -350,6 +350,87 @@ Human spells you cast cost {1} less to cast.
    - -8: Same theme of reanimating/rallying dead expeditioners to her cause
  - 25/09/2025: I'd thought about maybe an alternative cost of saccing Alicia and Human Maelle as an alternative way to "meld". But I don't think Forge supports saccing 2 cards with different qualities (name)
 
+## Manor Entrance // Manor Hidden Room
+
+```
+Manor Entrance
+3G
+Enchantment - Room
+When you unlock this door, you may put a creature card from your hand onto the battlefield.
+
+Manor Hidden Room
+3B
+Enchantment - Room
+When you unlock this door, return target creature card from your graveyard to the battlefield.
+```
+
+### Design Notes
+
+ - In the game, the Manor entrance is there the expedition flag is to save. There is room that is hidden behind a painting that is accessible by jumping through the painting.
+ - Gone with an effect to cheat a creature into play with each side represent a different way to cheat said creature into play.
+
+## Manor Greenhouse // Manor Gallery
+
+```
+Manor Greenhouse
+2G
+Enchantment - Room
+When you unlock this door, search your library for a land card, put it onto the battlefield, then shuffle.
+
+Manor Gallery
+2U
+Enchantment - Room
+Painter and Gradient spells you cast cost {1} less to cast.
+```
+
+### Design Notes
+
+ - In the game, the Greenhouse is at the top of the Manor. The gallery is the room with Verso's canvas (that the world of the continent is in)
+ - Greenhouse is a land tutor
+ - Gallery is another cost reducer to enable painter strategies
+
+## Manor Kitchen // Manor Cellar
+
+```
+Manor Kitchen
+1G
+Enchantment - Room
+When you unlock this door, create two Food tokens.
+
+Manor Cellar
+1W
+Enchantment - Room
+When you unlock this door, choose one:
+ - Create two Chroma tokens.
+ - Create two Lumina tokens.
+```
+
+### Design Notes
+
+ - In the game, the Kitchen connects to the entrance. The cellar is accessible after solving a puzzle in the kitchen.
+ - Kitchen is an easy mechanical map to food tokens.
+ - Cellar I've decided to mechanically map to Chroma/Lumina tokens as that is some of the loot that's available in the game.
+
+## Manor Library // Manor Fireplace
+
+```
+Manor Library
+2U
+Enchantment - Room
+When you unlock this door, draw two cards.
+
+Manor Fireplace
+1R
+Enchantment - Room
+When you unlock this door, it deals 3 damage to any target.
+```
+
+### Design Notes
+
+ - In the game, the library connects the entrance on the side. The fireplace connects to the main dining hall.
+ - Library is an easy mechanical map to card draw.
+ - Fireplace is an easy mechanical map to a bolt effect because ... fireplace > fire > burn spell.
+
 ## Painted Clea, the Mistress
 
 ```
