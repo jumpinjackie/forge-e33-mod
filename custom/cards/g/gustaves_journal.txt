@@ -1,5 +1,5 @@
 Name:Gustave's Journal
-ManaCost:4
+ManaCost:3
 Types:Legendary Artifact
 T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Nevron | TriggerZones$ Battlefield | Execute$ TrigPutStudyCounter | TriggerDescription$ Whenever a Nevron dies, put a study counter on CARDNAME.
 SVar:TrigPutStudyCounter:DB$ PutCounter | Defined$ Self | CounterType$ STUDY
