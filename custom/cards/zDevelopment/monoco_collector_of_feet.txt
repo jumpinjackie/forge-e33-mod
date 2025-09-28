@@ -1,0 +1,13 @@
+Name:Monoco, Collector of Feet
+ManaCost:2 WG WG
+Types:Legendary Artifact Creature Gestral
+PT:4/4
+T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Nevron.!token | Execute$ TrigExile | TriggerZones$ Battlefield | TriggerDescription$ Whenever a nontoken Nevron creature dies, exile it with a Foot counter.
+SVar:TrigExile:DB$ ChangeZone |  Defined$ TriggeredNewCardLKICopy | Origin$ Graveyard | Destination$ Exile | SubAbility$ DBPutCounter | RememberChanged$ True
+SVar:DBPutCounter:DB$ PutCounter | Defined$ Remembered | CounterType$ FOOT | CounterNum$ 1 | SubAbility$ DBCleanup
+A:AB$ Fight | Cost$ 1 G T | Defined$ Self | ValidTgts$ Creature | TgtPrompt$ Select target creature. | SpellDescription$ CARDNAME fights target creature.
+A:AB$ Untap | Cost$ 2 W | SpellDescription$ Untap CARDNAME.
+S:Mode$ Continuous | Affected$ Card.Self | EffectZone$ Battlefield | GainsAbilitiesOf$ Creature.Nevron+counters_GE1_FOOT | GainsAbilitiesOfZones$ Exile | Description$ CARDNAME has activated abilities of all Nevrons in exile with a Foot counter on them.
+S:Mode$ Continuous | EffectZone$ Battlefield | Affected$ Card.Self | SharedKeywordsZone$ Exile | SharedRestrictions$ Creature.Nevron+counters_GE1_FOOT | AddKeyword$ Flying & First Strike & Double Strike & Deathtouch & Haste & Hexproof & Indestructible & Lifelink & Menace & Reach & Trample & Vigilance | Description$ CARDNAME has flying as long an exiled Nevron creature with a Foot counter has flying. The same is true for first strike, double strike, deathtouch, haste, hexproof, indestructible, lifelink, meance, reach, trample and vigilance.
+SVar:DBCleanup:DB$ Cleanup | ClearRemembered$ True
+Oracle:Whenever a nontoken Nevron creature dies, exile it with a Foot counter.\nMy, what lovely feet! - Monoco has activated abilities of all Nevrons in exile with a Foot counter on them. Monoco has flying as long an exiled Nevron creature with a Foot counter has flying. The same is true for first strike, double strike, deathtouch, haste, hexproof, indestructible, lifelink, meance, reach, trample and vigilance.\n{1}{G},{T}: Monoco fights target creature.\n{2}{W}: Untap Monoco.
