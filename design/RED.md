@@ -74,7 +74,7 @@ As an additional cost to cast this spell, sacrifice a Gestral. This spell deals 
 
 ### Design Notes
 
- - In the game, there is a mini game where you have to win a game of gestral volleyball against a Sakapatate who flings little gestrals at you.
+ - In the game, there is a mini game where you have to win a game of gestral volleyball against a Sakapatate who flings little gestrals at you. You win the mini game by parrying the flung gestrals back at the Sakapatate a certain number of times. Failure to parry will damage the raft you are standing on an after a certain number of hits, the raft explodes and you will lose the mini game.
  - Gestral version of Goblin Grenade / Reckless Abandon
  - Made it a bit more expensive to offset the ease of casting gestral creatures in general and the fact that a Gestral sol land is in this set.
 

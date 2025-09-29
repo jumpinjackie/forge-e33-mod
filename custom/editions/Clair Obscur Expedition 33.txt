@@ -64,14 +64,18 @@ C Esquie's Magic Mushrooms
 U Eternal Ice
 R Eveque
 U Expedition 34 Mage
+U Expedition 40 Glider
 U Expedition 41
-U Expedition 41 Hunter
+U Expedition 62 Hunter
+U Expedition 47 Drunkard
 U Expedition 48
 U Expedition 49
 C Expedition 49 Healer
+R Expedition 50 Ferris Wheel
 C Expedition 53 Herbalist
 C Expedition 54 Dissident
 U Expedition 55 Drummer
+U Expedition 57 Siege Engine
 U Expedition 57 Siege Engineer
 U Expedition 59
 U Expedition 59 Chef
@@ -79,6 +83,7 @@ R Expedition 60
 C Expedition 60 Messenger
 U Expedition 63
 C Expedition 63 Driver
+U Expedition 64 Radio
 C Expedition 68 Navigator
 C Expedition 67 Demolitons Expert
 U Expedition 69
@@ -94,7 +99,7 @@ C Expedition Cache
 U Expedition Flotilla
 U Falling Leaves
 C Fender's Flurry
-R Ferris Wheel
+U Finesse // Grace
 U Fleuret Fury
 U Florrie
 R Floating Cemetery
@@ -107,19 +112,23 @@ C Fracture Survivor
 U Francois, Waiting for Clea
 U Frozen Hearts
 R Gargant
-U Gestral Ascension
+U Gestral Ascension Challenge
 R Gestral Arena
 C Gestral Beach
 C Gestral Chef
+U Gestral Climbing Challenge
 U Gestral Bodyguard
 U Gestral Fighter
 U Gestral Lackey
-R Gestral Merchant
+U Gestral Merchant
+U Gestral Parkour Challenge
+U Gestral Raft Volleyball Challenge
 U Gestral Ringleader
 C Gestral Statue
 C Gestral Volleyball Strike
 R Gestral Village
 C Gestral Villager
+R Giant Sapling
 U Grandis Merchant
 R Grandis Fashionist
 U Get Out Of My Way!
@@ -138,7 +147,7 @@ R Gustave's Homage
 C Healing Light
 U Health Tint
 U Heart of the Paintress
-C Here's Your Card
+C Here's Your Card!
 U Hexga
 C Ice Lance
 R Julien Tiny Head
@@ -154,6 +163,7 @@ C Lumiere Assault
 R Lumiere, The Last Bastion
 U Lumiere Opera House
 U Lumiere Mime
+U Lumierian Apprentice
 U Lumina Converter
 R Lune, Charting a Path
 C Lune's Denial
@@ -169,7 +179,9 @@ U Manor Library // Manor Fireplace
 U Manor Greenhouse // Manor Gallery
 R Manor Entrance // Manor Hidden Room
 U Manor Kitchen // Manor Cellar
+C Mercy Kill
 C Mutinous Expedition 48 Soldier
+R Monoco, Collector of Feet
 R Monoco's Station
 C Nevron Disguise
 R Nevron Pecking Order
@@ -200,23 +212,29 @@ U Robust Sakapatate
 R Sastro, the Concerned
 R Sciel, Grieving for Many
 U Sciel's Intervention
+U Search // Rescue
 R Serpenphare
 R Sky Break
 R Simon, Consort of Clea
 R Simon, The Divergent Star
+U Sinister Cave
 R Sirene's Coliseum
 R Sprong
 U Soarrie
 U Stalact
 R Stendhal
+U Stone Quarry
 U Strikestorm
 C Swift Counter
 U Sword Ballet
+R Sunless Cliffs
 U Terraquake
 M The 67th Gommage
 R The Curator
 R The Greatest Expedition in History
+R The Hauler
 M The Sacred River
+M The Scavenger
 U The Search for Esquie's Rocks
 R The Paintress
 R The Fracture
@@ -249,6 +267,7 @@ Painter:Painters
 Expeditioner:Expeditioners
 Gestral:Gestrals
 Grandis:Grandises
+Axon:Axons
 
 [ArtifactTypes]
 Rock:Rocks

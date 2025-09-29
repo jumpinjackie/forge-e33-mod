@@ -32,7 +32,7 @@ III — Search your library for a land card, put it onto the battlefield, then s
 
 ### Design Notes
 
- - Journal is thematically the same as Expedition 69: a story of exploring everywhere and installing grapple points for those who come after.
+ - Journal is thematically the same as Expedition 70: a story of exploring everywhere and installing grapple points for those who come after.
  - The one puts more emphasis on the exploration (ie. Land/mana ramp)
 
 ## Lancelier
@@ -53,6 +53,32 @@ When this creature dies, target opponent creates a Lumina token.
  - Another generic vanilla Nevron to round out the creature roster for limited/draft.
  - In game, Lancelier's wield a lance. So clearly this should have First Strike.
  - 23/09/2025: Now green instead of white/green. White Nevrons will be their own unique sub-race that we don't want regular Nevrons to bleed into.
+
+## Nevron Disguise
+
+```
+G
+Kindred Instant - Expeditioner
+Target non-Nevron creature becomes a Nevron until end of turn.
+```
+
+### Design Notes
+
+ - In the game, the journal of Expedition 39 tells of an attempt by Expeditioners to disguise themselves as Nevrons in order to try and gain an advantage. It didn't work.
+ - Simple creature type changing effect. Probably absolute dreck in draft/limited with fringe utility in constructed, but this one is all about flavor.
+
+## Nevron Pecking Order
+
+```
+3G
+Kindred Enchantment - Nevron
+{1}{G}: Sacrifice a Nevron: Search your library for a Nevron permanent with mana value X and put it into the battlefield where X is the sacrificed Nevron's mana value plus one. Activate this ability only once each turn.
+```
+
+### Design Notes
+
+ - Painters have tutors, Expeditioners have tutors, Gestrals have tutors. This was a bone thrown to Nevrons so they at least had a tutor as well.
+ - Modeled on Birthing Pod.
 
 ## Revitalization
 

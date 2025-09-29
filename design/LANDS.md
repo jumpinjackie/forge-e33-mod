@@ -63,6 +63,7 @@ Legendary Land - Cave
 ### Design Notes
 
  - In the game, this is the place where Esquie dwells.
+ - Esquie's Nest visually resembles Reflecting Pool, so I gave it the same mana ability.
  - I've gone with making this card one of the beneficiaries of the "Urzatron" rock strategy.
 
 ## Flying Casino
@@ -108,6 +109,7 @@ Legendary Land
 
 ### Design Notes
 
+ - In the game, the Forgotten Battlefield is one of the areas the Expedition 33 crew must traverse to reach Monoco's Station.
  - Volrath's Stronghold for Nevrons
 
 ## Gestral Arena
@@ -152,6 +154,22 @@ Land - Town
 
  - A sol land for Gestral tribal decks. Due to their artifact nature, Gestrals are significantly easier to cast (unlike Eldrazi which require explicit coloress-pip producing lands), so where applicable, costs have increased, but this card is a bone thrown to to this deck to allow for some acceleration.
 
+## Lumiere Aquafarm
+
+```
+Land
+This land enters tapped unless you control an Expeditioner.
+{T}: Add {W} or {U}.
+{4},{T}: Create a Food token.
+```
+
+### Design Notes
+
+ - In the game, Gustave lead the Aquafarm project which ensured the food supply for the city of Lumiere.
+ - This gives us an opportunity to add another dual land to this set.
+ - Obviously expeditioner aligned so they get a ETB tapped sidestep.
+ - It's a farm so obviously needs a Food token generating ability.
+
 ## Lumiere, The Last Bastion
 
 ```
@@ -182,9 +200,23 @@ Land
 
 ### Design Notes
 
- - In the game, Monoco's Station is situated in an Icy Mountainous region of the continent.
+ - In the game, Monoco's Station is situated in an icy and mountainous region of the continent.
  - Therefore this should clearly be a blue/red dual land.
  - Since it's occupied by Monoco (a Gestral) and various Grandis creatures. They get the no-strings-attached dual land experience.
+
+## The Hauler
+
+```
+Legendary Land
+{T}: Add {C}.
+{T}: Add one mana of any color. The Hauler does not untap during your next untap step.
+{7}: The Hauler becomes an 8/8 Axon colorless creature with Trample until end of turn. It's still a land.
+```
+
+### Design Notes
+
+ - In the game, The Hauler is one of the four Axons created by Renoir. The Hauler represents Clea and has an entire city on its back, symbolizing the burden of family affairs being carried by Clea. The Hauler was killed by Simon.
+ - Obviously mechanically maps to being a man-land.
 
 ## The Monolith
 
@@ -200,6 +232,7 @@ When The Monolith has no gommage counters on it, sacrifice it.
 
 ### Design Notes
 
+ - In the game, The Monolith is where The Paintress resides and is an everlasting reminder to the humans of Lumiere that time is running out.
  - For lore accuracy, this would've been 100 counters instead of 10, but that would take way too long in MTG "game time". Reducing it to 10 sacrifices lore accuracy, but retains mechanical accuracy of something that's constantly counting down and wiping out everything older than that number.
 
 ## Twilight Quarry
@@ -214,4 +247,5 @@ This land enters tapped. As it enters, choose a color.
 
 ### Design Notes
 
+ - In the game, the Twilight Quarry is an area where a collectible record can be found
  - Another land to provide mana fixing

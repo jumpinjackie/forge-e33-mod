@@ -16,9 +16,9 @@ A deck that attempts to rapidly assemble the "Urzatron" of the 4 legendary rocks
 
 A combo deck that chains many Lumina and Token generation spells to quickly assemble the 33 permanents needed to win the game with The Greatest Expedition In History
 
-## Lands
+## Room Control
 
-A control deck with emphasis on land/mana ramp
+A control deck with emphasis on land/mana ramp and using Manor Rooms for utility.
 
 ## Expeditioners
 

@@ -32,7 +32,7 @@ Exhaust on death - When this creature dies, tap target creature an opponent cont
 
 ### Design Notes
 
- - In the game, Chapelier summons jars to attack the party of not shot down and causes party exhaustion on defeat.
+ - In the game, Chapelier summons jars to attack the party if not shot down and causes party exhaustion on defeat.
  - Gave it a token generation ability and mechanically represent exhaustion with tap + stun counter.
 
 ## Clea's Chromatic Mastery
@@ -46,6 +46,20 @@ Search your library for a Nevron card, reveal it, put it into your hand, then sh
 ### Design Notes
 
  - A Nevron tutor to support Nevron tribal strategies
+
+## Here's Your Card!
+
+```
+B
+Kindred Instant - Expeditioner
+Target creature gets -2/-2 until end of turn.
+Foretell {0} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)
+```
+
+### Design Notes
+
+ - In the game, this is one of Sciel's quotes when performing a regular attack.
+ - Simple targeted creature kill with Foretell to name-tie (not mechanically-tie) it to Sciel's skillset. The keyword ability is already there, so let's just use it!
 
 ## Maelle's Nightmare
 
@@ -74,7 +88,7 @@ When this creature dies, target opponent creates a Lumina token.
 
 ### Design Notes
 
- - In the game, Noires are high-tier Nevrons found on the Dark Shores and are an excellence source of XP farming in the late game.
+ - In the game, Noires are high-tier Nevrons found on the Dark Shores and are an excellent source of XP farming in the late game.
  - Placeholder vanilla Nevron. Abilities TBD.
 
 ## Obscur

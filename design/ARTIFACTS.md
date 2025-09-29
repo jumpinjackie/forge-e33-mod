@@ -236,7 +236,7 @@ Artifact Creature - Gestral
 ## Gustave's Journal
 
 ```
-4
+3
 Legendary Artifact
 Whenever a Nevron dies, put a study counter on Gustave's Journal.
 {2},{T},Remove X study counters from Gustave's Journal: Draw X cards
@@ -246,8 +246,9 @@ Whenever a Nevron dies, put a study counter on Gustave's Journal.
 
 ### Design Notes
 
- - In the game, whenever at camp Gustave (and later Maelle) writes down his experiences in his expedition thus far. It has been said (and lamented by many gamers) that this should have been represented as an in-game bestiary of all the Nevrons you have encountered.
+ - In the game, whenever at camp Gustave (and later Maelle) writes down their experiences in the expedition thus far. It has been said (and lamented by many gamers) that this should have been represented as an in-game bestiary of all the Nevrons you have encountered.
  - Mechanically, I went with an artifact that charges up with every Nevron kill, that can be cashed in later down the road for extra cards.
+ - 28/09/2025: Reduced cost from 4 to 3
 
 ## Health Tint
 
@@ -352,6 +353,7 @@ Artifact
 
 ### Design Notes
 
+ - In the game, the Lumina Converter is a device invented by Gustave that gives Expedition 33 the edge over previous expeditions.
  - Utility artifact to support a Lumina token strategy. Inspired by Power Conduit.
 
 ## Manor Door
@@ -365,7 +367,7 @@ Artifact
 
 ### Design Notes
 
- - In the game, there are various doors scattered throughout the continent that warps you to various rooms in the Manor, unlocking some in the process.
+ - In the game, there are various doors scattered throughout the continent that warps you to various rooms in the Manor, unlocking some previously inaccessible rooms in the process.
  - This clearly mechanically maps to an artifact that can lock/unlock rooms ala. Keys to the House
  - Added a mana ability so it can at least function as a mana rock if there's no rooms to interact with
 
@@ -385,9 +387,10 @@ Tap 3 creatures you control: Untap Matthieu.
 
 ### Design Notes
 
+ - In the game, Matthieu is one of the gestral fighters in the Gestral Village Arena.
  - Has the word "Colossus" in its name, so therefore it's the big fatty Gestral of the set.
  - Modeled mostly on Phyrexian Colossus, but with Trample, downgraded Super-Menace to Menace and changed the untap cost to tapping 3 other creatures instead of life payment.
- - Yes, it can be Lackey'd out, but I can accept the variance on that line and also needing 3 other creatures to untap it will keep this strategy grounded.
+ - Yes, it can be Lackey'd out, but I can accept the variance on that line and also needing 3 other creatures to untap it will keep this line grounded.
 
 ## Sastro, the Concerned
 
@@ -439,7 +442,7 @@ When The World Canvas leaves the battlefield, exile all permanents with a name o
  - In the game, the continent is discovered to be inside a living canvas. The final part of the game is about deciding the fate of this canvas.
  - Mechanically:
     - The "black lotus" mana ability has spending restrictions to keep in flavor. You can only spend this mana on things that actually live in this canvas.
-    - The destruction of this canvas signals the destruction of everything inside it. Mass exiling everything by expansion filter nicely symbolizes the finality of such an act.
+    - The destruction of this canvas signals the erasure of everything inside it. Mass exiling everything by expansion filter nicely symbolizes the finality of such an act.
 
 ## Urrie
 

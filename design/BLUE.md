@@ -12,6 +12,7 @@ Create 3 Lumina tokens
 
 ### Design Notes
 
+ - In the game, a quote often said by Lune when loot is discovered.
  - A basic enabler of Lumina token ramping strategies
 
 ## Boucheclier
@@ -138,7 +139,7 @@ The strongest ice attack ever - At the beginning of your upkeep, Francois deals 
     - Affinity for Clea Planeswalkers is simply added for flavor purposes. There is only (going to be) one Clea Planeswalker in this set.
     - It has defender as the game portrayal has him in a stationary position that never moves.
     - The strongest ice attack ever is just a triggered ability on each of your upkeeps to deal 4 damage to a creature and if that doesn't finish it off then it taps and stuns it for a turn in line with how an ice attack would generally be represented mechanically.
- - 23/09/2025: We could've given him shield counters to match his video game counterpart, but a sufficiently big butt is just as useful. Also we can't give *every* creature shield counters for the sake of lore accuracy.
+ - 23/09/2025: We could've given him shield counters to match his video game counterpart, but a sufficiently big butt conveys the same message. Also we can't give *every* creature shield counters for the sake of lore accuracy. Game balance is also a factor.
 
 ## Gradient Counter
 
@@ -247,6 +248,28 @@ Put target permanent to the top or bottom of its owner's library.
 
  - This is one of the Paintress' moves in the boss fight with her.
  - May or may not have any mechanical relation. I needed a soft-removal spell for blue in this slot and the name was a good enough match for such an effect.
+
+## Sky Break
+
+```
+3UU
+Kindred Sorcery - Expeditioner Gradient
+Tap all creatures your opponents control, then put a stun counter on each of those creatures.
+If {R} was spent on this spell, it deals 6 damage to each creature with a stun counter at the beginning of your next end step.
+If {W} was spent on this spell, exile each creature with a stun counter at the beginning of your next end step.
+If {G} was spent on this spell, you gain 2 life for each creature on the battlefield.
+```
+
+### Design Notes
+
+ - In the game, Sky Break is a level 3 gradient attack for Lune. It deals extreme damage to all enemies in a single hit with elemental damage type determined by the most prominent Stain that Lune currently has. Can also break enemmies, stunning them.
+ - Mechanically, we've gone with the tap and stun as the base effect, with extra effects based on what colors of mana (stains) you spent on the spell.
+    - Red is damage
+    - White is exile
+    - Green is life gain
+ - The damage or exiled is delayed as it was originally a symmetrical effect and only affected tapped creatures, giving you an opportunity to untap your creatures before the delayed effect kicks in. The delay is kept in for strategic purposes, giving the opponent an out until end of turn to try and save some of their creatures from an impending 6 damage or exile.
+ - No black bonus because Lune does not have dark/black magic alignment.
+ - Because this is a top tier gradient attack performed by an Expeditioner, this is one of the rare spells that has both Gradient and Expeditioner sub-types.
 
 ## Swift Counter
 

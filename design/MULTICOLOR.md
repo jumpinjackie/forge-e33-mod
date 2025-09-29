@@ -70,7 +70,7 @@ When this creature dies, target opponent creates a Lumina token.
 ### Design Notes
 
  - Currently a placeholder vanilla Nevron. Abilities TBD.
- - 23/09/2025: TODO: Replace white with a different color if intending to stay mulit-color to make way for White Nevrons.
+ - 23/09/2025: TODO: Replace white with a different color if intending to stay multi-color to make way for White Nevrons.
 
 ## Braseleur
 
@@ -146,7 +146,7 @@ When this creature dies, if you control no creatures, put two 2/2 Red and Blue D
  - Mechanically I went with:
     - A creature shock ability for the fire/red ability
     - Tap and stun for the ice/blue ability
-    - For the clone ability, I preserved the original triggering condition
+    - For the clone ability, I preserved the original triggering condition but went against making token copies as that seemed really degenerate as the cloning trigger would also pass on to the tokens.
 
 ## Esquie, Friend of Verso
 
@@ -180,13 +180,61 @@ When Esquie attacks, if it is saddled, choose one:
        - Diving - Surveil on attack
  - Because this is a Mount creature with Saddle, I've given it the Uro (draw a card or put a land) triggered ability as the saddle attacking bonus.
 
+## Expedition 41
+
+```
+1BR
+Enchantment - Saga
+(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
+I, II - Destroy target Nevron.
+III — Destroy all Nevrons. Create a Lumina token for each Nevron destroyed this way.
+```
+
+### Design Notes
+
+ - Journal is a story of expeditioners engaged in a competition to see who can kill the most Nevrons.
+ - Obvious mechanical map to just killing Nevrons, and more Nevrons.
+
+## Expedition 59
+
+```
+BG
+Enchantment - Saga
+(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
+I — Destroy target Nevron. Create a Food token.
+II — Create 2 Food tokens.
+III — Until end of turn, Food tokens you control gain "Sacrifice this artifact: Target creature deals 3 damage to itself"
+```
+
+### Design Notes
+
+ - Journal is a story of Expeditioners making the fatal mistake of eating dead nevrons for sustenance
+ - "Food poisoning" ability adapted from Asmoranomardicadaistinaculdacar's ability
+
+## Expedition 60
+
+```
+2WG
+Enchantment - Saga
+(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
+I — Un-modified creatures you control gain vigilance until end of turn.
+II — Un-modified creatures you control gain vigilance and menace until end of turn.
+III — Un-modified creatures you control gain vigilance, menace, trample and +3/+3 until end of turn.
+```
+
+### Design Notes
+
+ - Journal is a story of expeditioners who almost succeeded in their mission through raw human strength and discovered the true enemy is not The Paintress, but someone underneath the Monolith, but this realization came too late as they were claimed by the Gommage before this discovery could be relayed back the citizens of Lumiere.
+ - Mechanically mapped to giving various offensive buffs to un-modified creatures with an overrun with extras on the final chapter. Only buffs un-modified creatures because these giga-chads don't have use for pithy things like clothing and armor.
+ - 30/09/2025: Changed from 1RG to 2WG, double strike -> vigilance, hexproof -> menance. Original card was too powerful wtih "go wide" strategies
+
 ## Expedition 70
 
 ```
 2WU
 Enchantment - Saga
 (As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
-I, II — Search your library for an Expeditoner card, reveal it and put it into your hand, then shuffle.
+I, II — Search your library for an Expeditioner card, reveal it and put it into your hand, then shuffle.
 III — Search your library for an Expeditioner permanent, put it onto the battlefield, then shuffle.
 ```
 
@@ -267,7 +315,7 @@ Overcharge - {T}, Remove X charge counters from Gustave: Gustave deals X damage 
  - From fire in the game is an ability that heals Gustave a bit if the target is burning. Translated this to a creature bolt + life gain.
  - Strike storm in the game is just a flurry of strikes. Translated this to temporary double strike.
  - Finally, overcharge (the ability we're all building towards) in the game deals high lightning damage based on the number of charges. Translated this to an X damage ability to a creature and its controller (where X is the number of charge counters removed).
- - 23/09/2025: It may look a bit odd to have blue color identity but no actual abilities that cost blue mana. I added the blue color identity strictly for flavor purposes because he's an engineer.
+ - 23/09/2025: It may look a bit odd to have blue color identity but no actual abilities that cost blue mana. I added the blue color identity strictly for flavor purposes because he's an engineer and engineers are almost always a blue color identity.
 
 ## Lampmaster
 
@@ -386,7 +434,7 @@ Painter and Gradient spells you cast cost {1} less to cast.
 ### Design Notes
 
  - In the game, the Greenhouse is at the top of the Manor. The gallery is the room with Verso's canvas (that the world of the continent is in)
- - Greenhouse is a land tutor
+ - Greenhouse is a land tutor, because it's ... green!
  - Gallery is another cost reducer to enable painter strategies
 
 ## Manor Kitchen // Manor Cellar
@@ -430,6 +478,27 @@ When you unlock this door, it deals 3 damage to any target.
  - In the game, the library connects the entrance on the side. The fireplace connects to the main dining hall.
  - Library is an easy mechanical map to card draw.
  - Fireplace is an easy mechanical map to a bolt effect because ... fireplace > fire > burn spell.
+
+## Monoco, Collector of Feet
+
+```
+2(W/G)(W/G)
+Legendary Artifact Creature - Gestral
+Whenever a nontoken Nevron creature dies, exile it with a Foot counter.
+My, what lovely feet! - Monoco has activated abilities of all Nevrons in exile with a Foot counter on them. Monoco has flying as long an exiled Nevron creature with a Foot counter has flying. The same is true for first strike, double strike, deathtouch, haste, hexproof, indestructible, lifelink, meance, reach, trample and vigilance.
+{1}{G},{T}: Monoco fights target creature.
+{2}{W}: Untap Monoco.
+
+4/4
+```
+
+### Design Notes
+
+ - In the game, Monoco is a Gestral that joins your party in Act 2. Every Nevron you defeat with Monoco in the party will add a foot to Monoco's collection. Monoco's skills are based on the Nevron feet that Monoco has equipped. Each Nevron foot grants some ability of the defeated Nevron.
+ - Mechanically and flavorfully, this easily maps to one of the many existing "ability stealing" cards already in the card game. So it is a matter of choosing which ability stealing variant we want to copy from. We've gone with a combination of stealing activated abilities of slain Nevron along with a bunch of keyword abilities.
+ - Exile with a Foot counter is a book-keeping mechanism to easily track which creatures Monoco will be stealing abilities from.
+ - Fight ability provided because Monoco is a Gestral, and Gestrals love to fight, and also serves as an enabler for ability stealing.
+ - The untap ability is provided for synergy with any tap activated abilities that Monoco may steal.
 
 ## Painted Clea, the Mistress
 
