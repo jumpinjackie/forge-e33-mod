@@ -1,0 +1,12 @@
+Name:Expedition 41
+ManaCost:1 B R
+Types:Enchantment Saga
+K:Chapter:3:DBChapter1,DBChapter2,DBChapter3
+SVar:DBChapter1:DB$ Destroy | ValidTgts$ Nevron | TgtPrompt$ Select target Nevron | SpellDescription$ Destroy target Nevron.
+SVar:DBChapter2:DB$ Destroy | ValidTgts$ Nevron | TgtPrompt$ Select target Nevron | SpellDescription$ Destroy target Nevron.
+SVar:DBChapter3:DB$ DestroyAll | ValidCards$ Nevron | RememberDestroyed$ True | SubAbility$ DBLumina | SpellDescription$ Destroy all Nevrons. Create a Lumina token for each Nevron destroyed this way.
+SVar:DBDraw:DB$ Token | TokenAmount$ NevronX | TokenOwner$ You | TokenScript$ c_a_lumina | SubAbility$ DBCleanup
+SVar:DBCleanup:DB$ Cleanup | ClearRemembered$ True
+SVar:NevronX:Remembered$Amount
+DeckHas:Ability$Counters
+Oracle:(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)\nI, II - Destroy target Nevron.\nIII — Destroy all Nevrons. Create a Lumina token for each Nevron destroyed this way.
