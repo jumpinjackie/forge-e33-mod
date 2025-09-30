@@ -1,0 +1,8 @@
+Name:Gestral Parkour Challenge
+ManaCost:WR
+Types:Enchantment
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Creature.Human+YouCtrl | TriggerZones$ Battlefield | Execute$ TrigQuestCounter | OptionalDecider$ You | TriggerDescription$ Whenever a creature you control enters, you may put a quest counter on CARDNAME.
+S:Mode$ Continuous | Affected$ Creature.YouCtrl | AddKeyword$ Haste | IsPresent$ Card.Self+counters_GE2_QUEST | Description$ As long as this enchantment as two or more counters, creatures you control gain vigilance.
+S:Mode$ Continuous | Affected$ Creature.YouCtrl | AddKeyword$ Prowess | IsPresent$ Card.Self+counters_GE3_QUEST | Description$ As long as this enchantment as two or more counters, creatures you control gain vigilance.
+SVar:TrigQuestCounter:DB$ PutCounter | Defined$ Self | CounterType$ QUEST | CounterNum$ 1
+Oracle:Whenever a Human you control enters, you may put a quest counter on this enchantment.\nAs long as this enchantment as two or more counters, creatures you control gain vigilance.\nAs long as this enchantment as three or more counters, creatures you control gain prowess.

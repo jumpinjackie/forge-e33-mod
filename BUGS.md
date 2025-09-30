@@ -17,3 +17,11 @@ Chroma gift trigger not triggering
 # Expedition 41
 
 Chapter 3: Not getting lumina tokens for destroyed Nevron tokens
+
+# Revitalization
+
+Can target any two cards in graveyard (the creature and non-creature restrictions are being ignored)
+
+# Petank
+
+Reward is not triggering

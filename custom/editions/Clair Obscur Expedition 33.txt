@@ -31,8 +31,9 @@ C Catapault Sakapatate
 C Chalier
 U Chapelier
 C Chorale
-R Chroma Catalyst
 R Chroma Barrier
+R Chroma Catalyst
+C Chroma Is Flowing
 C Chroma Filter
 C Chroma Prison
 U Chromatic Inversion
@@ -119,6 +120,7 @@ C Gestral Chef
 U Gestral Climbing Challenge
 U Gestral Bodyguard
 U Gestral Fighter
+U Gestral Foot Race Challenge
 U Gestral Lackey
 U Gestral Merchant
 U Gestral Parkour Challenge
@@ -251,6 +253,7 @@ U When One Falls // We Continue
 U Whee // Whoo
 R Verso, Who Guards Truth With Lies
 U Void Meteors
+C Volester
 U Yellow Harvest
 
 [tokens]

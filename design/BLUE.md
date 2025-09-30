@@ -93,6 +93,7 @@ U
 Creature - Nevron
 Flying.
 Devoid (This card has no color.)
+When this creature becomes the target of a spell or ability, sacrifice it.
 When this creature dies, target opponent creates a Lumina token.
 
 1/1
@@ -104,6 +105,7 @@ When this creature dies, target opponent creates a Lumina token.
 
  - In the game, this is one of the weakest enemies in the game.
  - Went with a Nevron variation of Flying Men
+ - 30/09/2025: Gave it a Skulking Ghost sac trigger to emphasize its weakness to targeted attacks (shots)
 
 ## Eternal Ice
 
@@ -119,6 +121,24 @@ Enchanted permanent doesn't untap during its controller's untap step.
 ### Design Notes
 
  - Standard blue pin-down effect for limited/draft
+
+## Expedition 40 Glider
+
+```
+2U
+Creature - Human Expeditioner
+Flying
+This creature can block only creatures with flying.
+When this creature dies, create a Chroma token.
+
+3/1
+```
+
+### Design Notes
+
+ - In the game, the journal of Expedition 40 details the story of trying to enter The Monolith by flying through the barrier. Those who tried got gommaged.
+ - This card represents the poor bastards who tried.
+ - I basically copied Rishadan Airship and stapled the Chroma death bonus to it.
 
 ## Francois, Waiting for Clea
 
@@ -140,6 +160,22 @@ The strongest ice attack ever - At the beginning of your upkeep, Francois deals 
     - It has defender as the game portrayal has him in a stationary position that never moves.
     - The strongest ice attack ever is just a triggered ability on each of your upkeeps to deal 4 damage to a creature and if that doesn't finish it off then it taps and stuns it for a turn in line with how an ice attack would generally be represented mechanically.
  - 23/09/2025: We could've given him shield counters to match his video game counterpart, but a sufficiently big butt conveys the same message. Also we can't give *every* creature shield counters for the sake of lore accuracy. Game balance is also a factor.
+
+## Gestral Ascension Challenge
+
+```
+U
+Enchantment
+Whenever a creature you control with flying enters or a creature you control with flying attacks, put a quest counter on this enchantment.
+Remove four counters from this enchantment and sacrifice it: Draw three cards.
+```
+
+### Design Notes
+
+ - In the game, the Gestral Ascension Challenge is 1 of 5 challenge minigames. This minigame in particular requires ascending upwards navigating various obstacles and jumps without falling down and starting over.
+ - All minigames are modeled as "quest" enchantments originating from Zendikar block and use the same terminology (charging with quest counters based on certain conditions with some payoff at the end once you reach a certain number of quest counters).
+ - In the case of this card, the condition involves flying creatures (we are trying to ascend to the top after all!) and the payoff is card draw.
+ - Ancestral Recall in enchantment form may look broken at face value, but you really need to be all-in on an all-flyers strategy to reliably pop this off. If further playtesting shows we are popping this off *too* reliably, we can always bump up the quest counter requirement.
 
 ## Gradient Counter
 
@@ -252,7 +288,7 @@ Put target permanent to the top or bottom of its owner's library.
 ## Sky Break
 
 ```
-3UU
+2UU
 Kindred Sorcery - Expeditioner Gradient
 Tap all creatures your opponents control, then put a stun counter on each of those creatures.
 If {R} was spent on this spell, it deals 6 damage to each creature with a stun counter at the beginning of your next end step.
@@ -270,6 +306,7 @@ If {G} was spent on this spell, you gain 2 life for each creature on the battlef
  - The damage or exiled is delayed as it was originally a symmetrical effect and only affected tapped creatures, giving you an opportunity to untap your creatures before the delayed effect kicks in. The delay is kept in for strategic purposes, giving the opponent an out until end of turn to try and save some of their creatures from an impending 6 damage or exile.
  - No black bonus because Lune does not have dark/black magic alignment.
  - Because this is a top tier gradient attack performed by an Expeditioner, this is one of the rare spells that has both Gradient and Expeditioner sub-types.
+ - 30/09/2025: Cost adjusted from 3UU to 2UU so that you can't pick all 3 bonuses since the R bonus and W bonus kind of achieve the same goal.
 
 ## Swift Counter
 

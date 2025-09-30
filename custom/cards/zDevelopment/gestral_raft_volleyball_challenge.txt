@@ -1,0 +1,9 @@
+Name:Gestral Raft Volleyball Challenge
+ManaCost:UR UR
+Types:Enchantment
+T:Mode$ BecomesTarget | ValidSource$ SpellAbility.OppCtrl | ValidTarget$ Creature.YouCtrl+inZoneBattlefield | TriggerZones$ Battlefield | Execute$ TrigQuestCounter | OptionalDecider$ You | TriggerDescription$ Whenever a creature you control becomes the target of a spell or ability, you may put a quest counter on CARDNAME.
+T:Mode$ BecomesTarget | ValidSource$ SpellAbility.OppCtrl | ValidTarget$ Creature.YouCtrl+inZoneBattlefield | TriggerZones$ Battlefield | IsPresent$ Card.Self+counters_GE3_QUEST | Execute$ TrigDraw | TriggerDescription$ Whenever a creature you control becomes the target of a spell or ability, draw a card.
+A:AB$ ChangeTargets | Cost$ U/R U/R | TargetType$ Spell,Activated,Triggered | Optional$ True | ValidTgts$ Card,Emblem | TgtPrompt$ Select target spell or ability | IsPresent$ Card.Self+counters_GE4_QUEST | SpellDescription$ You may choose new targets for target spell or ability.
+SVar:TrigQuestCounter:DB$ PutCounter | Defined$ Self | CounterType$ QUEST | CounterNum$ 1
+SVar:TrigDraw:DB$ Draw | Defined$ You | NumCards$ 1
+Oracle:Whenever a creature you control becomes the target of a spell or ability, you may put a quest counter on this enchantment.\nNormal Difficulty - As long as this enchantment has three or more quest counters on it, whenever a creature you control becomes the target of a spell or ability, draw a card.\nHard Difficulty - {U/R}{U/R}: You may choose new targets for target spell or ability. Activate this ability only if this enchantment has five or more quest counters on it.

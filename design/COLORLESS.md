@@ -36,6 +36,7 @@ When this creature dies, target opponent creates two Chroma tokens and two Lumin
  - Shield counters to represent the tankiness.
  - Bounce back to hand to symbolize it running away.
  - Giving opponent Chroma/Lumina tokens on death symbolizes the loot reward for defeating it.
+ - Reward is not triggering. See BUGS.md
 
 ## Troubador
 

@@ -259,6 +259,56 @@ Create 3 Lumina tokens if {U} was spent to cast this spell. Create 2 Chroma toke
 
  - Just another Chroma/Lumina token strategy enabler
 
+## Gestral Foot Race Challenge
+
+```
+(R/G)
+Enchantment
+Whenever a creature enters, you may put a quest counter on this enchantment.
+Bronze Rank - As long as there are three or more quest counters on this enchantment, creatures you control have haste.
+Silver Rank - As long as there are four or more quest counters on this enchantment, creatures you control have Ward 1.
+Gold Rank - As long as there are five or more quest counters on this enchantment, creatures you control have trample.
+```
+
+### Design Notes
+
+ - In the game, the Gestral Foot Race Challenge is 1 of 5 challenge minigames. This minigame in particular requires clearing an obstacle course in under a certain amount of time. There are 3 ranks the player can achieve based on how fast they cleared the course.
+ - All minigames are modeled as "quest" enchantments originating from Zendikar block and use the same terminology (charging with quest counters based on certain conditions with some payoff at the end once you reach a certain number of quest counters).
+ - Went with a simple creature entering as the trigger condition, with 3 different "ranks" of various buffs as payoffs.
+
+## Gestral Parkour Challenge
+
+```
+(W/R)
+Enchantment
+Whenever a Human you control enters, you may put a quest counter on this enchantment.
+As long as this enchantment as two or more counters, creatures you control gain vigilance.
+As long as this enchantment as three or more counters, creatures you control gain prowess.
+```
+
+### Design Notes
+
+ - In the game, the Gestral Foot Race Challenge is 1 of 5 challenge minigames. This minigame in particular requires clearing an obstacle course and answering a riddle at the end.
+ - All minigames are modeled as "quest" enchantments originating from Zendikar block and use the same terminology (charging with quest counters based on certain conditions with some payoff at the end once you reach a certain number of quest counters).
+ - Made the enter trigger human only to make this more Expeditioner-aligned.
+
+## Gestral Raft Volleyball Challenge
+
+```
+(U/R)(U/R)
+Enchantment
+Whenever a creature you control becomes the target of a spell or ability, you may put a quest counter on this enchantment.
+Normal Difficulty - As long as this enchantment has three or more quest counters on it, whenever a creature you control becomes the target of a spell or ability, draw a card.
+Hard Difficulty - {U/R}{U/R}: You may choose new targets for target spell or ability. Activate this ability only if this enchantment has five or more quest counters on it.
+```
+
+### Design Notes
+
+ - In the game, the Gestral Foot Race Challenge is 1 of 5 challenge minigames. This minigame in particular requires playing a game of volleyball on a raft against a Sakapatate. Failure to parry a flung gestral back at the Sakapatate will damage your raft. After a certain amount of hits, the raft will explode and you'll lose the minigame, unless you do it to the Sakapatate first.
+ - All minigames are modeled as "quest" enchantments originating from Zendikar block and use the same terminology (charging with quest counters based on certain conditions with some payoff at the end once you reach a certain number of quest counters).
+ - Went with any of your creatures being targeted as the triggering condition as that best describes gestrals being flung at you.
+ - First payoff is card draw. Second (and more flavorful) payoff is to be able to redirect opponent's spells and abilities to signify the mastery of parrying flung gestrals back at the opponent.
+
 ## Gradient Charge
 
 ```

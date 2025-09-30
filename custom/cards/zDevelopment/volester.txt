@@ -1,7 +1,7 @@
-Name:Demineur
-ManaCost:U
+Name:Volester
+ManaCost:G
 Types:Creature Nevron
-PT:1/1
+PT:2/1
 K:Flying
 K:Devoid
 T:Mode$ BecomesTarget | ValidTarget$ Card.Self | TriggerZones$ Battlefield | Execute$ TrigSac | TriggerDescription$ When CARDNAME becomes the target of a spell or ability, sacrifice it.
