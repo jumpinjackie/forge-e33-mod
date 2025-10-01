@@ -9,6 +9,8 @@ Creatures cannot attack you unless their controller sacrifices a Chroma token fo
 {3}: Create a Chroma token. Any player may activate this ability.
 ```
 
+[card implementation](/custom/cards/c/chroma_barrier.txt)
+
 ### Design Notes
 
  - In the game, the Chroma Barrier protects The Monolith from external intrusion. Only Expedition 70, 60 and 33 have successfully breached this barrier.
@@ -67,6 +69,8 @@ II — Put a shield counter on each creature you control.
 III — Creatures you control gain indestructible until end of turn.
 ```
 
+[card implementation](/custom/cards/e/expedition_49.txt)
+
 ### Design Notes
 
  - Journal is about expeditioners who carried out their mission through strong defense/healing tactics, which proves to be their downfall as their weak offensive capabilities prove to be ineffective against the Nevrons.
@@ -79,6 +83,8 @@ XW
 Kindred Sorcery - Expeditioner
 Each player gains twice X life.
 ```
+
+[card implementation](/custom/cards/h/healing_light.txt)
 
 ### Design Notes
 

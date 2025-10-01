@@ -45,6 +45,8 @@ As long as there are two or more counters on this enchantment. Creatures you con
 As long as there are four or more counters on this enchantment. You may play an additional land on each of your turns.
 ```
 
+[card implementation](/custom/cards/g/gestral_climbing_challenge.txt)
+
 ### Design Notes
 
  - In the game, the Gestral Climbing Challenge is 1 of 5 challenge minigames. This minigame in particular requires climbing a tower-like structure to the top, while dodging falling projectiles.
@@ -91,6 +93,8 @@ Kindred Enchantment - Nevron
 {1}{G}: Sacrifice a Nevron: Search your library for a Nevron permanent with mana value X and put it into the battlefield where X is the sacrificed Nevron's mana value plus one. Activate this ability only once each turn.
 ```
 
+[card implementation](/custom/cards/n/nevron_pecking_order.txt)
+
 ### Design Notes
 
  - Painters have tutors, Expeditioners have tutors, Gestrals have tutors. This was a bone thrown to Nevrons so they at least had a tutor as well.
@@ -124,6 +128,8 @@ When this creature dies, target opponent creates a Lumina token.
 
 2/1
 ```
+
+[card implementation](/custom/cards/v/volester.txt)
 
 ### Design Notes
 

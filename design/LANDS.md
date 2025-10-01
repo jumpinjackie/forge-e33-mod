@@ -163,6 +163,8 @@ This land enters tapped unless you control an Expeditioner.
 {4},{T}: Create a Food token.
 ```
 
+[card implementation](/custom/cards/l/lumiere_aquafarm.txt)
+
 ### Design Notes
 
  - In the game, Gustave lead the Aquafarm project which ensured the food supply for the city of Lumiere.
@@ -212,6 +214,8 @@ Legendary Land
 {T}: Add one mana of any color. The Hauler does not untap during your next untap step.
 {7}: The Hauler becomes an 8/8 Axon colorless creature with Trample until end of turn. It's still a land.
 ```
+
+[card implementation](/custom/cards/t/the_hauler.txt)
 
 ### Design Notes
 

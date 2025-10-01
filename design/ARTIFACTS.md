@@ -10,6 +10,8 @@ At the beginning of your upkeep, you may mill a card. If you do, create 2 Lumina
 2/2
 ```
 
+[card implementation](/custom/cards/b/berrami_collector_of_journals.txt)
+
 ### Design Notes
 
  - In the game, Berrami is an NPC you can turn in journals for colors of lumina.
@@ -60,6 +62,8 @@ At the beginning of each end step, remove all flying counters on Dominique.
 
 4/4
 ```
+
+[card implementation](/custom/cards/d/dominique_giant_feet.txt)
 
 ### Design Notes
 
@@ -277,6 +281,8 @@ Haymaker - {2}: Julien gains trample until end of turn.
 3/3
 ```
 
+[card implementation](/custom/cards/j/julien_tiny_head.txt)
+
 ### Design Notes
 
  - In the game, Julien is a boxing-style fighter in the Hidden Gestral Arena
@@ -364,6 +370,8 @@ Artifact
 {T}: Add {C}.
 {2},{T}: Lock or unlock a door of target Room you control. Activate only as a sorcery.
 ```
+
+[card implementation](/custom/cards/m/manor_door.txt)
 
 ### Design Notes
 

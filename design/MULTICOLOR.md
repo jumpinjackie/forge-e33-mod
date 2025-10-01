@@ -190,6 +190,8 @@ I, II - Destroy target Nevron.
 III — Destroy all Nevrons. Create a Lumina token for each Nevron destroyed this way.
 ```
 
+[card implementation](/custom/cards/e/expedition_41.txt)
+
 ### Design Notes
 
  - Journal is a story of expeditioners engaged in a competition to see who can kill the most Nevrons.
@@ -206,6 +208,8 @@ II — Create 2 Food tokens.
 III — Until end of turn, Food tokens you control gain "Sacrifice this artifact: Target creature deals 3 damage to itself"
 ```
 
+[card implementation](/custom/cards/e/expedition_59.txt)
+
 ### Design Notes
 
  - Journal is a story of Expeditioners making the fatal mistake of eating dead nevrons for sustenance
@@ -221,6 +225,8 @@ I — Un-modified creatures you control gain vigilance until end of turn.
 II — Un-modified creatures you control gain vigilance and menace until end of turn.
 III — Un-modified creatures you control gain vigilance, menace, trample and +3/+3 until end of turn.
 ```
+
+[card implementation](/custom/cards/e/expedition_60.txt)
 
 ### Design Notes
 
@@ -270,6 +276,8 @@ Silver Rank - As long as there are four or more quest counters on this enchantme
 Gold Rank - As long as there are five or more quest counters on this enchantment, creatures you control have trample.
 ```
 
+[card implementation](/custom/cards/g/gestral_foot_race_challenge.txt)
+
 ### Design Notes
 
  - In the game, the Gestral Foot Race Challenge is 1 of 5 challenge minigames. This minigame in particular requires clearing an obstacle course in under a certain amount of time. There are 3 ranks the player can achieve based on how fast they cleared the course.
@@ -286,6 +294,8 @@ As long as this enchantment as two or more counters, creatures you control gain 
 As long as this enchantment as three or more counters, creatures you control gain prowess.
 ```
 
+[card implementation](/custom/cards/g/gestral_parkour_challenge.txt)
+
 ### Design Notes
 
  - In the game, the Gestral Foot Race Challenge is 1 of 5 challenge minigames. This minigame in particular requires clearing an obstacle course and answering a riddle at the end.
@@ -301,6 +311,8 @@ Whenever a creature you control becomes the target of a spell or ability, you ma
 Normal Difficulty - As long as this enchantment has three or more quest counters on it, whenever a creature you control becomes the target of a spell or ability, draw a card.
 Hard Difficulty - {U/R}{U/R}: You may choose new targets for target spell or ability. Activate this ability only if this enchantment has five or more quest counters on it.
 ```
+
+[card implementation](/custom/cards/g/gestral_raft_volleyball_challenge.txt)
 
 ### Design Notes
 
@@ -462,6 +474,8 @@ Enchantment - Room
 When you unlock this door, return target creature card from your graveyard to the battlefield.
 ```
 
+[card implementation](/custom/cards/m/manor_entrance_manor_hidden_room.txt)
+
 ### Design Notes
 
  - In the game, the Manor entrance is there the expedition flag is to save. There is room that is hidden behind a painting that is accessible by jumping through the painting.
@@ -480,6 +494,8 @@ Manor Gallery
 Enchantment - Room
 Painter and Gradient spells you cast cost {1} less to cast.
 ```
+
+[card implementation](/custom/cards/m/manor_greenhouse_manor_gallery.txt)
 
 ### Design Notes
 
@@ -503,6 +519,8 @@ When you unlock this door, choose one:
  - Create two Lumina tokens.
 ```
 
+[card implementation](/custom/cards/m/manor_kitchen_manor_cellar.txt)
+
 ### Design Notes
 
  - In the game, the Kitchen connects to the entrance. The cellar is accessible after solving a puzzle in the kitchen.
@@ -523,6 +541,8 @@ Enchantment - Room
 When you unlock this door, it deals 3 damage to any target.
 ```
 
+[card implementation](/custom/cards/m/manor_library_manor_fireplace.txt)
+
 ### Design Notes
 
  - In the game, the library connects the entrance on the side. The fireplace connects to the main dining hall.
@@ -541,6 +561,8 @@ My, what lovely feet! - Monoco has activated abilities of all Nevrons in exile w
 
 4/4
 ```
+
+[card implementation](/custom/cards/m/monoco_collector_of_feet.txt)
 
 ### Design Notes
 

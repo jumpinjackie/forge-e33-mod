@@ -43,6 +43,8 @@ Sorcery
 Search your library for a Nevron card, reveal it, put it into your hand, then shuffle.
 ```
 
+[card implementation](/custom/cards/c/cleas_chromatic_mastery.txt)
+
 ### Design Notes
 
  - A Nevron tutor to support Nevron tribal strategies
@@ -56,6 +58,8 @@ Target creature gets -2/-2 until end of turn.
 Foretell {0} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)
 ```
 
+[card implementation](/custom/cards/h/heres_your_card.txt)
+
 ### Design Notes
 
  - In the game, this is one of Sciel's quotes when performing a regular attack.
@@ -68,6 +72,8 @@ B
 Sorcery - Gradient
 Target opponent reveals their hand. You choose either an Expeditioner card or a noncreature, nonland card from it. That player discards that card.
 ```
+
+[card implementation](/custom/cards/m/maelles_nightmare.txt)
 
 ### Design Notes
 
@@ -121,6 +127,8 @@ This spell costs {1} less to cast if it targets an Expeditioner.
 Destroy target creature.
 ```
 
+[card implementation](/custom/cards/p/piercing_strike.txt)
+
 ### Design Notes
 
  - This is meant to flavorfully and mechanically represent Painted Renoir's killing blow to Gustave.
@@ -147,6 +155,8 @@ Legendary Sorcery
 (You may cast a legendary sorcery only if you control a legendary creature or planeswalker.)
 Each player with 33 or more life loses the game.
 ```
+
+[card implementation](/custom/cards/t/the_67th_gommage.txt)
 
 ### Design Notes
 

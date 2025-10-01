@@ -134,6 +134,8 @@ When this creature dies, create a Chroma token.
 3/1
 ```
 
+[card implementation](/custom/cards/e/expedition_40_glider.txt)
+
 ### Design Notes
 
  - In the game, the journal of Expedition 40 details the story of trying to enter The Monolith by flying through the barrier. Those who tried got gommaged.
@@ -169,6 +171,8 @@ Enchantment
 Whenever a creature you control with flying enters or a creature you control with flying attacks, put a quest counter on this enchantment.
 Remove four counters from this enchantment and sacrifice it: Draw three cards.
 ```
+
+[card implementation](/custom/cards/g/gestral_ascension_challenge.txt)
 
 ### Design Notes
 
@@ -295,6 +299,8 @@ If {R} was spent on this spell, it deals 6 damage to each creature with a stun c
 If {W} was spent on this spell, exile each creature with a stun counter at the beginning of your next end step.
 If {G} was spent on this spell, you gain 2 life for each creature on the battlefield.
 ```
+
+[card implementation](/custom/cards/s/sky_break.txt)
 
 ### Design Notes
 
