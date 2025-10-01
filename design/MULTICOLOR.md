@@ -22,7 +22,6 @@ Create a Lumina token.
 WR
 Legendary Creature - Human Painter
 Activated abilities of Nevrons and Pictos cannot be activated.
-(Melds with Maelle, Child of Lumiere.)
 
 2/2
 ```
