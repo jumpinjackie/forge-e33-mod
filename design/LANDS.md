@@ -63,7 +63,7 @@ Legendary Land - Cave
 ### Design Notes
 
  - In the game, this is the place where Esquie dwells.
- - Esquie's Nest visually resembles Reflecting Pool, so I gave it the same mana ability.
+ - Esquie's Nest visually resembles most artistic depictions of the card Reflecting Pool, so I gave it the same mana ability.
  - I've gone with making this card one of the beneficiaries of the "Urzatron" rock strategy.
 
 ## Flying Casino
