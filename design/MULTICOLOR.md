@@ -16,7 +16,7 @@ Create a Lumina token.
 
  - Lighting bolt with suspend to convey the "storm is coming". Lumina reward as standard with any Expeditioner spell
 
-## Alicia Dessendre, Slienced by Fire
+## Alicia Dessendre, Silenced by Fire
 
 ```
 WR
