@@ -3,4 +3,4 @@ ManaCost:W R
 Types:Legendary Creature Human Painter
 PT:2/2
 S:Mode$ CantBeActivated | AffectedZone$ Battlefield | ValidCard$ Nevron,Pictos | ValidSA$ Activated | Description$ Activated abilities of Nevrons and Pictos cannot be activated.
-Oracle:Activated abilities of Nevrons and Pictos cannot be activated.\n(Melds with Maelle, Child of Lumiere.)
+Oracle:Activated abilities of Nevrons and Pictos cannot be activated.
