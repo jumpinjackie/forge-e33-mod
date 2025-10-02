@@ -1,0 +1,6 @@
+Name:Chroma Catalyst
+ManaCost:3
+Types:Artifact
+R:Event$ CreateToken | ActiveZones$ Battlefield | ValidPlayer$ You | ValidToken$ Chroma,Lumina | ReplaceWith$ TokenReplace | Description$ If you would create a Chroma or Lumina token, instead create one of each.
+SVar:TokenReplace:DB$ ReplaceToken | Type$ ReplaceToken | TokenScript$ c_a_lumina,c_a_chroma
+Oracle:If you would create a Chroma or Lumina token, instead create one of each.

@@ -1,0 +1,10 @@
+Name:Expedition Recruiter
+ManaCost:2 W
+Types:Creature Human Expeditioner
+PT:1/1
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigChange | OptionalDecider$ You | TriggerDescription$ When CARDNAME enters, you may search your library for an Expeditioner card, reveal that card, put it into your hand, then shuffle.
+SVar:TrigChange:DB$ ChangeZone | Origin$ Library | Destination$ Hand | ChangeType$ Card.Expeditioner | ChangeNum$ 1 | ShuffleNonMandatory$ True
+T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Card.Self | Execute$ TrigToken | TriggerDescription$ When CARDNAME dies, create a Chroma token
+SVar:TrigToken:DB$ Token | TokenScript$ c_a_chroma | TokenOwner$ You | TokenAmount$ 1
+DeckHints:Type$Expeditioner
+Oracle:When this creature enters, you may search your library for an Expeditioner card, reveal it, put it into your hand, then shuffle.\nWhen this creature dies, create a Chroma token.

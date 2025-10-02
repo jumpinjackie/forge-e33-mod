@@ -1,0 +1,10 @@
+Name:Expedition 34 Mage
+Types:Creature Human Expeditioner Wizard
+ManaCost:W U R
+PT:2/2
+A:AB$ Tap | Cost$ 2 W | ValidTgts$ Creature | TgtPrompt$ Select target creature | SpellDescription$ Tap target creature.
+A:AB$ PutCounter | Cost$ 2 U | ValidTgts$ Creature | CounterType$ Stun | CounterNum$ 1 | SpellDescription$ Put a stun counter on target creature.
+A:AB$ DealDamage | Cost$ 2 R | ValidTgts$ Any | NumDmg$ 1 | SpellDescription$ Tap target creature. | SpellDescription$ CARDNAME deals 1 damage to any target.
+T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Card.Self | Execute$ TrigToken | TriggerDescription$ When CARDNAME dies, create a Chroma token
+SVar:TrigToken:DB$ Token | TokenScript$ c_a_chroma | TokenOwner$ You | TokenAmount$ 1
+Oracle:{2}{W}: Tap target creature.\n{2}{U}: Put a stun counter on target creature.\n{2}{R}: This creature deals 1 damage to any target.\nWhen this creature dies, create a Chroma token.

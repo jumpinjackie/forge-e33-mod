@@ -17,6 +17,22 @@ At the beginning of your upkeep, you may mill a card. If you do, create 2 Lumina
  - In the game, Berrami is an NPC you can turn in journals for colors of lumina.
  - Mechanically, I've translated this to milling cards from your library for lumina tokens.
 
+## Chroma Catalyst
+
+```
+3
+Artifact
+If you would create a Chroma or Lumina token, instead create one of each.
+```
+
+[card implementation](/custom/cards/c/chroma_catalyst.txt)
+
+### Design Notes
+
+ - In the game, Chroma Catalysts are used to upgrade the levels of your weapons
+ - For the card, we've decided to lean heavily on the word "Catalyst" and made this into a variant of Academy Manufactor, but covers our new token types.
+ - We might revisit the design of this card if this assembles the 33+ token requirement for The Greatest Expedition In History too quickly.
+
 ## Chroma Filter
 
 ```
@@ -104,6 +120,22 @@ Artifact
 
  - Just a mana rock for this set
  - Yes it may look dangerous to have a Grim Monolith with no downside, but you need some Lumina token investment first to take advantage, so there is some setup involved. The ideal turn 1 An Advantage!, turn 2 Energy Tint line is something I can accept as variance.
+
+## Expedition 64 Radio
+
+```
+4
+Artifact - Expeditioner
+Send Backup! - When this artifact enters, reveal the top four cards of your library. Put all Expeditioner cards revealed this way into your hand and the rest on the bottom of your library in any order.
+{2}, Sacrifice this artifact: Draw a card.
+```
+
+[card implementation](/custom/cards/e/expedition_64_radio.txt)
+
+### Design Notes
+
+ - In the game, Expedition 64 used radio communications to keep in touch. The expedition started to collapse and eventually fail when their radio communications broke down.
+ - I've interpreted the radio device as an artifact that has a ringleader effect when it ETBs to represent "calling for backup"
 
 ## Expedition Cache
 
@@ -399,6 +431,21 @@ Tap 3 creatures you control: Untap Matthieu.
  - Has the word "Colossus" in its name, so therefore it's the big fatty Gestral of the set.
  - Modeled mostly on Phyrexian Colossus, but with Trample, downgraded Super-Menace to Menace and changed the untap cost to tapping 3 other creatures instead of life payment.
  - Yes, it can be Lackey'd out, but I can accept the variance on that line and also needing 3 other creatures to untap it will keep this line grounded.
+
+## Recoat
+
+```
+1
+Artifact
+{1},{T},Sacrifice this artifact and any number of token permanents you control: Choose one:
+ - Create X Chroma tokens, where X is the number of sacrificed permanents.
+ - Create X Lumina tokens, where X is the number of sacrificed permanents.
+```
+
+### Design Notes
+
+ - In the game, recoats are tints that let you respec your character attributes.
+ - I've interpreted this as an artifact that let's you convert/respect tokens into Chroma or Lumina tokens.
 
 ## Sastro, the Concerned
 

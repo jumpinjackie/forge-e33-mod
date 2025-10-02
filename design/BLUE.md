@@ -142,6 +142,25 @@ When this creature dies, create a Chroma token.
  - This card represents the poor bastards who tried.
  - I basically copied Rishadan Airship and stapled the Chroma death bonus to it.
 
+## Expedition 43 Submersible
+
+```
+2U
+Artifact - Expeditioner Vehicle
+Islandwalk.
+Whenever this deals combat damage to a player or planeswalker, draw a card.
+Crew 2 (Tap any number of creatures you control with total power 2 or more: This Vehicle becomes an artifact creature until end of turn.)
+
+2/3
+```
+
+[card implementation](/custom/cards/e/expedition_43_submersible.txt)
+
+### Design Notes
+
+ - In the game, Expedition 43 tried using Submarines to traverse the continent without encountering Nevrons. This ended in failure when they were wiped out by Serpenphare.
+ - Easy mechanical map to a vehicle. Mostly adapted from Silent Submersible.
+
 ## Francois, Waiting for Clea
 
 ```

@@ -1,0 +1,9 @@
+Name:Expedition 69 Explorer
+ManaCost:G
+Types:Creature Human Expeditioner
+PT:1/1
+A:AB$ ChangeZone | Cost$ Sac<1/Chroma> | Origin$ Library | Destination$ Hand | ChangeType$ Land.Basic | ChangeNum$ 1 | SpellDescription$ Search your library for a basic land card, reveal it, put it into your hand, then shuffle.
+A:AB$ ChangeZone | Cost$ Sac<2/Chroma> | ChangeType$ Land.Basic+YouCtrl | ChangeNum$ 1 | Hidden$ True | Origin$ Hand | Destination$ Battlefield | Tapped$ True | SpellDescription$ You may put a basic land card from your hand onto the battlefield tapped.
+T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Card.Self | Execute$ TrigToken | TriggerDescription$ When CARDNAME dies, create a Chroma token
+SVar:TrigToken:DB$ Token | TokenScript$ c_a_chroma | TokenOwner$ You | TokenAmount$ 1
+Oracle:Sacrifice a Chroma token: Search your library for a basic land card, reveal it, put it into your hand, then shuffle.\nSacrifice two Chroma tokens: You may put a basic land from your hand onto the battlefield tapped.\nWhen this creature dies, create a Chroma token.

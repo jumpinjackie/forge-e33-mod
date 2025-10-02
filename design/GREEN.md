@@ -17,6 +17,57 @@ When this creature dies, target opponent creates a Lumina token.
  - Just a "vanilla" bear with stock Nevron card text.
  - 23/09/2025: Changed casting cost from 1G to G and PT from 2/2 to 1/2 to make it unique from the (now fully green) Lancelier
 
+## Expedition 35 Bridge
+
+```
+2G
+Kindred Enchantment - Expeditioner
+Sacrifice an Expeditioner: Draw a card
+```
+
+[card implementation](/custom/cards/e/expedition_35_bridge.txt)
+
+### Design Notes
+
+ - In the game, Expedition 35 perished to Nevrons in Falling Leaves. In their final moments, they threw themselves on top of each other to form a bridge for future expeditions to cross.
+ - I've symbolized this as an enchantment where Expeditioners can be sacrificed for card draw, since each Expeditioner creature has a Chroma token death bonus, this can potentially be a combo engine to rip through your deck for some game winning payoff.
+
+## Expedition 55 Drummer
+
+```
+1G
+Creature - Human Expeditioner
+Other Expeditioner creatures you control get +1/+1.
+When this creature dies, create a Chroma token.
+
+2/2
+```
+
+[card implementation](/custom/cards/e/expedition_55_drummer.txt)
+
+### Design Notes
+
+ - In the game, Expedition 55 tried using musically-augmented pictos. This was mostly effective until they encountered Sirene whose minions and herself were immune to these pictos.
+ - Since the main theme of this Expedition was music, it can be safely assumed that most of the crew were musicians or were proficient in one kind of music. In this case, I've gone with a drummer and a lord effect.
+
+## Expedition 55 Trumpeter
+
+```
+2(W/G)
+Creature - Human Expeditioner
+Expeditioner spells you cast cost {1} less to cast.
+When this creature dies, create a Chroma token.
+
+2/2
+```
+
+[card implementation](/custom/cards/e/expedition_55_trumpeter.txt)
+
+### Design Notes
+
+ - In the game, Expedition 55 tried using musically-augmented pictos. This was mostly effective until they encountered Sirene whose minions and herself were immune to these pictos.
+ - Since the main theme of this Expedition was music, it can be safely assumed that most of the crew were musicians or were proficient in one kind of music. In this case, I've gone with a trumpeter and a cost-reduction effect.
+
 ## Expedition 69
 
 ```
@@ -34,6 +85,68 @@ III — Search your library for a land card, put it onto the battlefield, then s
 
  - Journal is thematically the same as Expedition 70: a story of exploring everywhere and installing grapple points for those who come after.
  - The one puts more emphasis on the exploration (ie. Land/mana ramp)
+
+## Expedition 69 Explorer
+
+```
+G
+Creature - Human Expeditioner
+Sacrifice a Chroma token: Search your library for a basic land card, reveal it, put it into your hand, then shuffle.
+Sacrifice two Chroma tokens: You may put a basic land from your hand onto the battlefield tapped.
+When this creature dies, create a Chroma token.
+
+1/1
+```
+
+[card implementation](/custom/cards/e/expedition_69_explorer.txt)
+
+### Design Notes
+
+## Expedition 69 Mountaineer
+
+```
+2G
+Creature - Human Expeditioner
+This creature can't be blocked except by creatures with flying.
+When this creature dies, create a Chroma token.
+
+3/2
+```
+
+[card implementation](/custom/cards/e/expedition_69_mountaineer.txt)
+
+### Design Notes
+
+## Expedition 69 Surveyor
+
+```
+3G
+Creature - Human Expeditioner
+When this creature enters, you may search your library for a basic land card, put that card onto the battlefield tapped, then shuffle.
+Whenever this creature attacks, surveil 1.
+When this creature dies, create a Chroma token.
+
+2/2
+```
+
+[card implementation](/custom/cards/e/expedition_69_surveyor.txt)
+
+### Design Notes
+
+## Expedition 84 Tracker
+
+```
+2G
+Creature - Human Expeditioner Scout
+{4}{G},{T}: Look at the top four cards of your library. You may reveal an Expeditioner card from among them and put it into your hand. Put the rest on the bottom of your library in a random order.
+When this creature dies, create a Chroma token.
+
+2/3
+```
+
+[card implementation](/custom/cards/e/expedition_84_tracker.txt)
+
+### Design Notes
 
 ## Gestral Climbing Challenge
 

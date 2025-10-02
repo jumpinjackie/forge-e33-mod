@@ -1,0 +1,10 @@
+Name:Expedition 53 Herbalist
+ManaCost:1 WG
+Types:Creature Human Expeditioner Cleric
+PT:1/2
+A:AB$ GainLife | Cost$ Sac<1/Creature.Expeditioner> | LifeAmount$ X | SubAbility$ DBScry
+SVar:DBScry:DB$ Scry | ScryNum$ X
+SVar:X:Sacrificed$CardPower
+T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Card.Self | Execute$ TrigToken | TriggerDescription$ When CARDNAME dies, create a Chroma token
+SVar:TrigToken:DB$ Token | TokenScript$ c_a_chroma | TokenOwner$ You | TokenAmount$ 1
+Oracle:Mercy Kill - Sacrifice an Expeditioner creature: You gain X life and scry X, where X is the sacrified creature's power.\nWhen this creature dies, create a Chroma token.

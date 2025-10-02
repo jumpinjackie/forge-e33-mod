@@ -1,0 +1,11 @@
+Name:Expedition 69 Surveyor
+ManaCost:3 G
+Types:Creature Human Expeditioner
+PT:2/2
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigChange | OptionalDecider$ You | TriggerDescription$ When CARDNAME enters, you may search your library for a basic land card, put that card onto the battlefield tapped, then shuffle.
+SVar:TrigChange:DB$ ChangeZone | Origin$ Library | Destination$ Battlefield | Tapped$ True | ChangeType$ Land.Basic | ChangeNum$ 1 | ShuffleNonMandatory$ True
+T:Mode$ Attacks | ValidCard$ Card.Self | Execute$ TrigSurveil | TriggerZones$ Battlefield | TriggerDescription$ Whenever this creature attacks, surveil 1. (Look at the top card of your library. You may put it into your graveyard.)
+SVar:TrigSurveil:DB$ Surveil | Amount$ 1
+T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Card.Self | Execute$ TrigToken | TriggerDescription$ When CARDNAME dies, create a Chroma token
+SVar:TrigToken:DB$ Token | TokenScript$ c_a_chroma | TokenOwner$ You | TokenAmount$ 1
+Oracle:When this creature enters, you may search your library for a basic land card, put that card onto the battlefield tapped, then shuffle.\nWhenever this creature attacks, surveil 1.\nWhen this creature dies, create a Chroma token.

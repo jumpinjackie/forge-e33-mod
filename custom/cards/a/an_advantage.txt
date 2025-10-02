@@ -1,5 +1,5 @@
 Name: An Advantage!
 ManaCost:U
 Types:Kindred Sorcery Expeditioner
-A:SP$ Token | TokenAmount$ 3 | TokenOwner$ You | TokenScript$ c_a_lumina | SpellDescription$ Create 3 Lumina tokens.
-Oracle:Create 3 Lumina tokens.
+A:SP$ Token | TokenAmount$ 3 | TokenOwner$ You | TokenScript$ c_a_lumina | SpellDescription$ Create three Lumina tokens.
+Oracle:Create three Lumina tokens.

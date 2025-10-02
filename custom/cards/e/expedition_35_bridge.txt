@@ -1,0 +1,5 @@
+Name:Expedition 35 Bridge
+ManaCost:2 G
+Types:Kindred Enchantment Expeditioner
+A:AB$ Draw | Cost$ Sac<1/Expeditioner> | SpellDescription$ Draw a card.
+Oracle:Sacrifice an Expeditioner: Draw a card

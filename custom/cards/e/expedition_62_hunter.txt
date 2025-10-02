@@ -1,0 +1,9 @@
+Name:Expedition 62 Hunter
+ManaCost:1 B B
+Types:Creature - Human Expeditioner
+PT:2/2
+A:AB$ Pump | Cost$ 2 B T | ValidTgts$ Creature | TgtPrompt$ Select target creature | NumAtt$ -2 | NumDef$ -2 | SpellDescription$ Target creature gets -2/-2 until end of turn.
+A:AB$ Destroy | Cost$ Sac<3/Lumina> | ValidTgts$ Creature.Nevron | TgtPrompt$ Select target Nevron | SpellDescription$ Destroy target Nevron creature.
+T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Card.Self | Execute$ TrigToken | TriggerDescription$ When CARDNAME dies, create a Chroma token
+SVar:TrigToken:DB$ Token | TokenScript$ c_a_chroma | TokenOwner$ You | TokenAmount$ 1
+Oracle:{2}{B},{T}: Target creature gets -2/-2 until end of turn.\nSacrifice three Lumina tokens: Destroy target Nevron creature.\nWhen this creature dies, create a Chroma token.

@@ -1,0 +1,5 @@
+Name:Chroma is Flowing
+ManaCost:WG
+Types:Kindred Sorcery Expeditioner
+A:SP$ Token | TokenAmount$ 2 | TokenOwner$ You | TokenScript$ c_a_chroma | SpellDescription$ Create two Chroma tokens.
+Oracle:Create two Chroma tokens.

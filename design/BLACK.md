@@ -49,6 +49,25 @@ Search your library for a Nevron card, reveal it, put it into your hand, then sh
 
  - A Nevron tutor to support Nevron tribal strategies
 
+## Expedition 62 Hunter
+
+```
+1BB
+Creature - Human Expeditioner
+{2}{B},{T}: Target creature gets -2/-2 until end of turn.
+Sacrifice three Lumina tokens: Destroy target Nevron creature.
+When this creature dies, create a Chroma token.
+
+2/2
+```
+
+[card implementation](/custom/cards/e/expedition_62_hunter.txt)
+
+### Design Notes
+
+ - In the game, Expedition 62 made Nevron hunting into a game, with members constantly trying to outscore each other in Nevron kills.
+ - Mechanically translated to a creature with creature killing abilities and standard Expeditioner death bonus.
+
 ## Here's Your Card!
 
 ```
@@ -78,6 +97,21 @@ Target opponent reveals their hand. You choose either an Expeditioner card or a 
 ### Design Notes
 
  - Duress with an ability to hit Expeditioner cards of any kind
+
+## Massacre at Dark Shores
+
+```
+1BB
+Sorcery
+All non-Nevron creatures get -2/-2 until end of turn.
+```
+
+[card implementation](/custom/cards/m/massacre_at_dark_shores.txt)
+
+### Design Notes
+
+ - This symbolizes the moment after the prologue when Expedition 33 lands at Dark Shores, encounter Painted Renoir and proceed to have all but 5 members be wiped out by P.Renoir and his cohort of Nevrons.
+ - Another mini-sweeper to give Nevron tribal decks some fight against "go wide" strategies.
 
 ## Noire
 

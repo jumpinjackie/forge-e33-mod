@@ -1,0 +1,7 @@
+Name:Expedition 64 Radio
+ManaCost:4
+Types:Artifact Expeditioner
+T:Mode$ ChangesZone | ValidCard$ Card.Self | Origin$ Any | Destination$ Battlefield | Execute$ TrigDig | TriggerDescription$ When CARDNAME enters, reveal the top four cards of your library. Put all Expeditioner cards revealed this way into your hand and the rest on the bottom of your library in any order.
+SVar:TrigDig:DB$ Dig | DigNum$ 4 | Reveal$ True | ChangeNum$ All | ChangeValid$ Expeditioner
+DeckHints:Type$Expeditioner
+Oracle:Send Backup! - When this artifact enters, reveal the top four cards of your library. Put all Expeditioner cards revealed this way into your hand and the rest on the bottom of your library in any order.\n{2}, Sacrifice this artifact: Draw a card.

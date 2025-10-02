@@ -76,6 +76,39 @@ III — Creatures you control gain indestructible until end of turn.
  - Journal is about expeditioners who carried out their mission through strong defense/healing tactics, which proves to be their downfall as their weak offensive capabilities prove to be ineffective against the Nevrons.
  - Easy mechanical map to life gain and defensive buffs.
 
+## Expedition 49 Healer
+
+```
+2W
+Creature - Human Expeditioner Cleric
+Whenever you create a Chroma or Lumina token, you gain 1 life.
+{2},{T}: Prevent the next X damage that would be dealt to any target this turn, where X is the number of Chroma and Lumina tokens you control.
+When this creature dies, create a Chroma token.
+```
+
+[card implementation](/custom/cards/e/expedition_49_healer.txt)
+
+### Design Notes
+
+ - In the game, Expedition 49 employed strong defensive and healing tactics against Nevrons which proved ineffective as their offensive capabilities were really weak.
+ - Easy mechanical map to a creature with life gain and damage prevention abilities.
+
+## Expedition Recruiter
+
+```
+2W
+Creature - Human Expeditioner
+When this creature enters, you may search your library for an Expeditioner card, reveal it, put it into your hand, then shuffle.
+When this creature dies, create a Chroma token.
+```
+
+[card implementation](/custom/cards/e/expedition_recruiter.txt)
+
+### Design Notes
+
+ - No direct representation in the video game, but I can easily imagine there are some people in Lumiere whose job is to be trying to recruit citizens who are soon to be gommaged, persuading them to embark on the next Expedition, to make use of the limited time they have left in this world.
+ - Goblin Matron, but for Expeditioners with standard death bonus.
+
 ## Healing Light
 
 ```
@@ -91,6 +124,22 @@ Each player gains twice X life.
  - In the game, Healing Light is one of Lune's abilities that heals an ally.
  - Easy mechanical translation to life gain, but with a twist. It's symmetrical for a reason: As an enabler for The 67th Gommage.
     - Thus a card like this will not only help buy extra turns to get you to 6 mana to cast The 67th gommage, but also to get your opponent to 33 life or above.
+
+## Lumierian Apprentice
+
+```
+1W
+Creature - Human Citizen
+Whenever another non-Expeditioner creature enters, investigate.
+```
+
+[card implementation](/custom/cards/l/lumierian_apprentice.txt)
+
+### Design Notes
+
+ - In the game, some of the children/teenagers of Lumiere are apprentices of Expeditioners, absorbing as much knowledge passed down to them should they fail and they will eventually become Expeditioners themselves and need to take up the mantle.
+ - Modeled their "curiosity" as giving you clues whenever a "foreign" creature type enters the battlefield.
+ - One of the rare humans in this set that are not Expeditioners.
 
 ## Repaint
 

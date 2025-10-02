@@ -105,6 +105,21 @@ When this creature dies, target opponent creates a Lumina token.
 
  - Another vanilla Nevron
 
+## Chroma is Flowing
+
+```
+(W/G)
+Kindred Sorcery - Expeditioner
+Create two Chroma tokens.
+```
+
+[card implementation](/custom/cards/c/chroma_is_flowing.txt)
+
+### Design Notes
+
+ - In the game, this is one of Lune's quotes during battle.
+ - Went with 2 Chroma tokens, so it still ramps for strategies that can take advantage, but not to Dark Ritual levels.
+
 ## Chromatic Petrification
 
 ```
@@ -179,6 +194,26 @@ When Esquie attacks, if it is saddled, choose one:
        - Diving - Surveil on attack
  - Because this is a Mount creature with Saddle, I've given it the Uro (draw a card or put a land) triggered ability as the saddle attacking bonus.
 
+## Expedition 34 Mage
+
+```
+WUR
+Creature - Human Expeditioner Wizard
+{2}{W}: Tap target creature.
+{2}{U}: Put a stun counter on target creature.
+{2}{R}: This creature deals 1 damage to any target.
+When this creature dies, create a Chroma token.
+
+2/2
+```
+
+[card implementation](/custom/cards/e/expedition_34_mage.txt)
+
+### Design Notes
+
+ - In the game, Expedition 34 was focused on an elemental strategy to exploit weaknesses in Nevrons. This strategy worked until they encountered Nevrons with no elemental weaknesses, at which point this expedition promptly failed.
+ - Mechanically gone with a multi-color wizard with an appropriate on-color activated ability with standard Expeditioner death bonus.
+
 ## Expedition 41
 
 ```
@@ -195,6 +230,24 @@ III — Destroy all Nevrons. Create a Lumina token for each Nevron destroyed thi
 
  - Journal is a story of expeditioners engaged in a competition to see who can kill the most Nevrons.
  - Obvious mechanical map to just killing Nevrons, and more Nevrons.
+
+## Expedition 53 Herbalist
+
+```
+1(W/G)
+Creature - Human Expeditioner Cleric
+Mercy Kill - Sacrifice an Expeditioner creature: You gain X life and scry X, where X is the sacrified creature's power.
+When this creature dies, create a Chroma token.
+
+1/2
+```
+
+[card implementation](/custom/cards/e/expedition_53_herbalist.txt)
+
+### Design Notes
+
+ - In the game, members of Expedition 53 mercy-killed a fellow expeditioner whose injuries had left them in a coma.
+ - Mechanically mapped to an Expeditioner sac ability for lifegain + scry
 
 ## Expedition 59
 
@@ -213,6 +266,26 @@ III — Until end of turn, Food tokens you control gain "Sacrifice this artifact
 
  - Journal is a story of Expeditioners making the fatal mistake of eating dead nevrons for sustenance
  - "Food poisoning" ability adapted from Asmoranomardicadaistinaculdacar's ability
+
+## Expedition 59 Chef
+
+```
+2(B/G)
+Creature - Human Expeditioner
+Whenever a Nevron creature dies, create a Food token.
+Sacrifice a Food token: Target creature deals 3 damage to itself.
+When this creature dies, create a Chroma token.
+
+2/2
+```
+
+[card implementation](/custom/cards/e/expedition_59_chef.txt)
+
+### Design Notes
+
+ - In the game, Expedition 59 attempted to eat dead Nevrons for sustenance.
+ - This card represents the genius who suggested such an idea.
+ - Has strong mechanical similarity to Asmoranomardicadaistinaculdacar so has the same "food poisoning" ability.
 
 ## Expedition 60
 
@@ -233,6 +306,41 @@ III — Un-modified creatures you control gain vigilance, menace, trample and +3
  - Mechanically mapped to giving various offensive buffs to un-modified creatures with an overrun with extras on the final chapter. Only buffs un-modified creatures because these giga-chads don't have use for pithy things like clothing and armor.
  - 30/09/2025: Changed from 1RG to 2WG, double strike -> vigilance, hexproof -> menance. Original card was too powerful wtih "go wide" strategies
 
+## Expedition 63 Driver
+
+```
+1(W/R)
+Creature - Human Expeditioner Pilot
+This creature saddles Mounts and crews Vehicles as though its power were 2 greater.
+When this creature dies, create a Chroma token.
+
+2/2
+```
+
+### Design Notes
+
+ - In the game, Expedition 63 employed the use of automobiles to traverse the continent. This expedition failed when their vehicles crashed into a Nevron for driving too fast.
+ - This card models such a driver.
+
+## Expedition 67 Demolitions Expert
+
+```
+2BR
+Creature - Human Expeditioner
+Flash.
+When this creature enters, destroy target creature or artifact.
+When this creature dies, create a Chroma token.
+
+2/2
+```
+
+[card implementation](/custom/cards/e/expedition_67_demolitions_expert.txt)
+
+### Design Notes
+
+ - In the game, Expedition 67 employed the use of explosives to tear down walls in Sirene's coliseum. They succumbed to Sirene's musical wiles.
+ - This card models one such crew member.
+
 ## Expedition 70
 
 ```
@@ -249,6 +357,33 @@ III — Search your library for an Expeditioner permanent, put it onto the battl
 
  - Journal is a story of an Expedition that made it inside the Monolith in the final few days of their lifetimes and installing grapple points for those who come after.
  - 21/09/2025: This is an enabler engine for Expeditioner tribal strategies
+
+## Expedition 78 Aircrew
+
+```
+2(W/U)(W/U)
+Flying.
+This creature can block only creatures with Flying.
+When this creature dies, create a Chroma token.
+
+4/4
+```
+
+### Design Notes
+
+## Expedition 81 Interpreter
+
+```
+2(W/U)
+Creature - Human Expeditioner Wizard
+You may choose not to untap this creature during your untap step.
+Nevron Whisperer - {2},{T}: Gain control of target Nevron creature for as long as this creature remains tapped.
+When this creature dies, create a Chroma token.
+
+1/2
+```
+
+### Design Notes
 
 ## For Those Who Come After
 
@@ -733,9 +868,9 @@ Fuse (You may cast one or both halves of this card from your hand.)
 
 ```
 when One Falls
-3W
+4W
 Sorcery
-Return to the battlefield, all Expeditioners that were put there from the battlefield this turn.
+Return all Expeditioner permanent cards from your graveyard to the battlefield.
 
 We Continue
 4U
@@ -754,3 +889,4 @@ Fuse (You may cast one or both halves of this card from your hand.)
     - "When one falls" evokes in my mind an effect akin to Second Sunrise, so I've based it on that but scoped to Expeditioners
     - "We continues" evokes in my mind a Time Walk effect.
  - 23/09/2025: I will most likely change the "When One Falls" side to be a straight mass Expeditioner reanimation effect instead of one that only reanimates those that died this turn, which would make it more of a game-swinging bomb when cast fused, because if you are able to resolve this fused, you deserve to win the game at that point.
+ - 3/10/2025: Changed "When one Falls" side to a straight mass Expeditoner reanimation effect and bumped cost from 3W to 4W

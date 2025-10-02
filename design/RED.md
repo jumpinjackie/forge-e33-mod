@@ -34,6 +34,21 @@ This spell deals 2 damage to each creature without flying and each player.
  - Just a mini-earthquake
  - Needed a sweeper to give control strategies something to stymie go-wide strategies
 
+## Entering the Canvas
+
+```
+4R
+Instant
+You may put a creature card from your hand onto the battlefield. That creature gains haste. Sacrifice that creature at the beginning of the next end step.
+```
+
+[card implementation](/custom/cards/e/entering_the_canvas.txt)
+
+### Design Notes
+
+ - This symbolizes the moment in the game where real Alicia enters Verso's canvas to try and help real Renoir in expelling Aline out of the canvas, but ends up being consumed by Aline's chroma and is "reborn" as Maelle.
+ - Mechanically/thematically translated to near carbon copy of Through the Breach.
+
 ## Fortune's Fury
 
 ```

@@ -1,0 +1,7 @@
+Name:Lumierian Apprentice
+ManaCost:1 W
+PT:1/3
+Types:Creature Human Citizen
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Creature.Other+nonExpeditioner | TriggerZones$ Battlefield | Execute$ TrigInvestigate | TriggerDescription$ Whenever another non-Expeditioner creature enters, investigate.
+SVar:TrigInvestigate:DB$ Investigate
+Oracle:Whenever another non-Expeditioner creature enters, investigate.
