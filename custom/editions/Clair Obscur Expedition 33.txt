@@ -65,9 +65,10 @@ C Esquie's Magic Mushrooms
 U Eternal Ice
 R Eveque
 U Expedition 34 Mage
+U Expedition 35 Bridge
 U Expedition 40 Glider
 U Expedition 41
-U Expedition 62 Hunter
+R Expedition 43 Submersible
 U Expedition 47 Drunkard
 U Expedition 48
 U Expedition 49
@@ -76,17 +77,19 @@ R Expedition 50 Ferris Wheel
 C Expedition 53 Herbalist
 C Expedition 54 Dissident
 U Expedition 55 Drummer
+U Expedition 55 Trumpeter
 U Expedition 57 Siege Engine
 U Expedition 57 Siege Engineer
 U Expedition 59
 U Expedition 59 Chef
 R Expedition 60
 C Expedition 60 Messenger
+U Expedition 62 Hunter
 U Expedition 63
 C Expedition 63 Driver
 U Expedition 64 Radio
+C Expedition 67 Demolitions Expert
 C Expedition 68 Navigator
-C Expedition 67 Demolitons Expert
 U Expedition 69
 C Expedition 69 Surveyor
 C Expedition 69 Explorer
@@ -94,10 +97,12 @@ C Expedition 69 Mountaineer
 U Expedition 70
 R Expedition 78
 C Expedition 78 Aircrew
-C Expedition 81 Interpeter
+C Expedition 81 Interpreter
 U Expedition 84 Tracker
 C Expedition Cache
+U Expedition Flag
 U Expedition Flotilla
+U Expedition Recruiter
 U Falling Leaves
 C Fender's Flurry
 U Finesse // Grace
@@ -110,7 +115,7 @@ M Forgotten Battlefield
 U For Those Who Come After
 C Fortune's Fury
 C Fracture Survivor
-U Francois, Waiting for Clea
+R Francois, Waiting for Clea
 U Frozen Hearts
 R Gargant
 U Gestral Ascension Challenge
@@ -174,6 +179,7 @@ R Maelle, Child of Lumiere
 M Maelle, The Reawakened Paintress
 U Maelle's Nightmare
 R Matthieu the Colossus
+U Massacre at Dark Shores
 C Mezzo Forte
 C Manor Gardens
 C Manor Door
@@ -181,7 +187,6 @@ U Manor Library // Manor Fireplace
 U Manor Greenhouse // Manor Gallery
 R Manor Entrance // Manor Hidden Room
 U Manor Kitchen // Manor Cellar
-C Mercy Kill
 C Mutinous Expedition 48 Soldier
 R Monoco, Collector of Feet
 R Monoco's Station
@@ -252,6 +257,7 @@ R Ultimate Sakapatate
 U When One Falls // We Continue
 U Whee // Whoo
 R Verso, Who Guards Truth With Lies
+U Verisimilitude
 U Void Meteors
 C Volester
 U Yellow Harvest
@@ -273,6 +279,7 @@ Grandis:Grandises
 Axon:Axons
 
 [ArtifactTypes]
+Expeditioner:Expeditioners
 Rock:Rocks
 Lumina:Luminas
 Chroma:Chromas
