@@ -6,19 +6,19 @@
 
 Chroma is the life-force of the canvas. The closest MTG analogue is obviously mana, thus Chroma tokens is a variant of a Treasure token
 
-Unlike Treasure tokens, to keep with the theme and flavor of this set, the mana from sacrified Chroma tokens has spending restrictions, only allowing you to spend such mana on Nevrons, Gestrals or Expeditioners
+Unlike Treasure tokens, to keep with the theme and flavor of this set, the mana from sacrified Chroma tokens has spending restrictions, only allowing you to spend such mana on Nevrons, Gestrals or Expeditioners, which makes sense as Chroma is the "paint" that Aline and others use to create life in the canvas.
 
 Chroma tokens may be an additional cost on some spells
 
 ### Expeditoners
 
-All Expeditioners are humans and have an ability that gives you a Chroma Token when they die.
+All Expeditioners are humans and have an ability that gives you a Chroma Token when they die. Expeditioner is also a spell sub-type and will generally have Expeditioner-aligned benefits.
 
 ### Gradient Spells
 
-Certain instants and sorceries carry the "Gradient" sub-type. These are spells that are cheaper if you control a painter.
+Certain instants and sorceries carry the "Gradient" sub-type. These are spells that have painter-aligned benefits.
 
-> DESIGN NOTE: We are somewhat deviating slightly from the video game in that Gradient attacks in the game are always "Epic" in nature. We are re-appropriating the term to be a classifier of instants/sorceries at any rarity. What we lose in lore/thematic correctness, we gain in mechanical flexibility.
+> DESIGN NOTE: We are somewhat deviating slightly from the video game in that Gradient attacks in the game are always "Epic"-tier attacks in nature. We are re-appropriating the term to be a classifier of instants/sorceries at any rarity. What we lose in lore/thematic correctness, we gain in mechanical flexibility.
 
 ### Nevrons
 
