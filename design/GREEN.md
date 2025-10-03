@@ -48,7 +48,7 @@ When this creature dies, create a Chroma token.
 ### Design Notes
 
  - In the game, Expedition 55 tried using musically-augmented pictos. This was mostly effective until they encountered Sirene whose minions and herself were immune to these pictos.
- - Since the main theme of this Expedition was music, it can be safely assumed that most of the crew were musicians or were proficient in one kind of music. In this case, I've gone with a drummer and a lord effect.
+ - Since the main theme of this Expedition was music, it can be safely assumed that most of the crew were musicians or were proficient in one kind of music, giving us ample design space to fill out the Expeditioner creature roster with various creatures of various utility. In this case, I've gone with a drummer and a lord effect.
 
 ## Expedition 55 Trumpeter
 
@@ -66,7 +66,7 @@ When this creature dies, create a Chroma token.
 ### Design Notes
 
  - In the game, Expedition 55 tried using musically-augmented pictos. This was mostly effective until they encountered Sirene whose minions and herself were immune to these pictos.
- - Since the main theme of this Expedition was music, it can be safely assumed that most of the crew were musicians or were proficient in one kind of music. In this case, I've gone with a trumpeter and a cost-reduction effect.
+ - Since the main theme of this Expedition was music, it can be safely assumed that most of the crew were musicians or were proficient in one kind of music,  giving us ample design space to fill out the Expeditioner creature roster with various creatures of various utility. In this case, I've gone with a trumpeter and a cost-reduction effect.
 
 ## Expedition 69
 

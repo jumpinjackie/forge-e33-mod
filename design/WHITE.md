@@ -108,6 +108,7 @@ When this creature dies, create a Chroma token.
 
  - No direct representation in the video game, but I can easily imagine there are some people in Lumiere whose job is to be trying to recruit citizens who are soon to be gommaged, persuading them to embark on the next Expedition, to make use of the limited time they have left in this world.
  - Goblin Matron, but for Expeditioners with standard death bonus.
+ - 3/10/2025: This + Tomorrow Comes + Expedition 70 gives us effectively 12 Expeditioner tutors. This may be overkill and the Expedittioner strategy too consistent and we may have to rework one or more of these cards. Further playtesting will tell us.
 
 ## Healing Light
 
@@ -131,6 +132,8 @@ Each player gains twice X life.
 1W
 Creature - Human Citizen
 Whenever another non-Expeditioner creature enters, investigate.
+
+1/3
 ```
 
 [card implementation](/custom/cards/l/lumierian_apprentice.txt)
@@ -171,7 +174,7 @@ Untap target creature you control. It gains hexproof until end of turn.
 
  - In the game, Intervention is Sciel's ability that lets an ally take their turn immediately along with an AP boost
  - Mechanically, we've mapped "granting extra turns" to untapping creatures. Nothing approximates an "AP boost" for creatures, so we've given it a granting of hexproof.
- - This has the name of "Sciel's Intervention" as "Intervention" on its own has a risk of being "name-squatted" by an actual card from Wizards in the future.
+ - This has the name of "Sciel's Intervention" as "Intervention" on its own is too generic has a risk of being "name-squatted" by an actual card from Wizards in the future.
 
 ## The Fracture
 

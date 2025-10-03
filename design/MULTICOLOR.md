@@ -247,6 +247,7 @@ When this creature dies, create a Chroma token.
 ### Design Notes
 
  - In the game, members of Expedition 53 mercy-killed a fellow expeditioner whose injuries had left them in a coma.
+ - This card represents one such member.
  - Mechanically mapped to an Expeditioner sac ability for lifegain + scry
 
 ## Expedition 59
@@ -432,7 +433,7 @@ As long as this enchantment as three or more counters, creatures you control gai
 
 ### Design Notes
 
- - In the game, the Gestral Foot Race Challenge is 1 of 5 challenge minigames. This minigame in particular requires clearing an obstacle course and answering a riddle at the end.
+ - In the game, the Gestral Parkour Challenge is 1 of 5 challenge minigames. This minigame in particular requires clearing an obstacle course and answering a riddle at the end.
  - All minigames are modeled as "quest" enchantments originating from Zendikar block and use the same terminology (charging with quest counters based on certain conditions with some payoff at the end once you reach a certain number of quest counters).
  - Made the enter trigger human only to make this more Expeditioner-aligned.
 
@@ -450,7 +451,7 @@ Hard Difficulty - {U/R}{U/R}: You may choose new targets for target spell or abi
 
 ### Design Notes
 
- - In the game, the Gestral Foot Race Challenge is 1 of 5 challenge minigames. This minigame in particular requires playing a game of volleyball on a raft against a Sakapatate. Failure to parry a flung gestral back at the Sakapatate will damage your raft. After a certain amount of hits, the raft will explode and you'll lose the minigame, unless you do it to the Sakapatate first.
+ - In the game, the Gestral Raft Volleyball Challenge is 1 of 5 challenge minigames. This minigame in particular requires playing a game of volleyball on a raft against a Sakapatate. Failure to parry a flung gestral back at the Sakapatate will damage your raft. After a certain amount of hits, the raft will explode and you'll lose the minigame, unless you do it to the Sakapatate first.
  - All minigames are modeled as "quest" enchantments originating from Zendikar block and use the same terminology (charging with quest counters based on certain conditions with some payoff at the end once you reach a certain number of quest counters).
  - Went with any of your creatures being targeted as the triggering condition as that best describes gestrals being flung at you.
  - First payoff is card draw. Second (and more flavorful) payoff is to be able to redirect opponent's spells and abilities to signify the mastery of parrying flung gestrals back at the opponent.
@@ -592,7 +593,7 @@ Human spells you cast cost {1} less to cast.
    - 0: Same theme of reanimating/rallying dead expeditioners to her cause
    - -3: She now has the power to erase enemies from the canvas
    - -8: Same theme of reanimating/rallying dead expeditioners to her cause
- - 25/09/2025: I'd thought about maybe an alternative cost of saccing Alicia and Human Maelle as an alternative way to "meld". But I don't think Forge supports saccing 2 cards with different qualities (name)
+ - 25/09/2025: I'd thought about maybe an alternative cost of saccing Alicia and Human Maelle as an alternative way to "meld". But I don't think Forge supports saccing 2 cards with different qualities (name) as there is no pre-existing card with such an alternate cost and the #1 way to determine the feasibility of implementing a card a certain way is if there is a pre-existing card that does something similar.
 
 ## Manor Entrance // Manor Hidden Room
 
@@ -636,6 +637,7 @@ Painter and Gradient spells you cast cost {1} less to cast.
  - In the game, the Greenhouse is at the top of the Manor. The gallery is the room with Verso's canvas (that the world of the continent is in)
  - Greenhouse is a land tutor, because it's ... green!
  - Gallery is another cost reducer to enable painter strategies
+ - 3/10/2025: Might rename Manor Gallery to Manor Atelier. I haven't played the video game in months, so I forget if the Atelier is where Verso's canvas resides so Gallery is a placeholder name. Either way this is supposed to be "Manor $ROOM_THAT_HAS_VERSOS_CANVAS"
 
 ## Manor Kitchen // Manor Cellar
 
@@ -887,6 +889,6 @@ Fuse (You may cast one or both halves of this card from your hand.)
  - In the game. "When one falls, we continue" is the expeditioner's motto. To strive onwards and continue, no matter what setbacks.
  - Mechanically:
     - "When one falls" evokes in my mind an effect akin to Second Sunrise, so I've based it on that but scoped to Expeditioners
-    - "We continues" evokes in my mind a Time Walk effect.
+    - "We continue" evokes in my mind a Time Walk effect.
  - 23/09/2025: I will most likely change the "When One Falls" side to be a straight mass Expeditioner reanimation effect instead of one that only reanimates those that died this turn, which would make it more of a game-swinging bomb when cast fused, because if you are able to resolve this fused, you deserve to win the game at that point.
  - 3/10/2025: Changed "When one Falls" side to a straight mass Expeditoner reanimation effect and bumped cost from 3W to 4W

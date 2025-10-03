@@ -8,7 +8,9 @@ Chroma is the life-force of the canvas. The closest MTG analogue is obviously ma
 
 Unlike Treasure tokens, to keep with the theme and flavor of this set, the mana from sacrified Chroma tokens has spending restrictions, only allowing you to spend such mana on Nevrons, Gestrals or Expeditioners, which makes sense as Chroma is the "paint" that Aline and others use to create life in the canvas.
 
-Chroma tokens may be an additional cost on some spells
+Chroma tokens may be an additional cost on some spells.
+
+Chroma tokens have no relation to the Chroma ability word (aka. proto-devotion) introduced in the Eventide set. No cards in this set use the Chroma ability word.
 
 ### Expeditoners
 

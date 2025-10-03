@@ -142,8 +142,8 @@ Send Backup! - When this artifact enters, reveal the top four cards of your libr
 ```
 2
 Artifact
-{T},Sacrifice this artifact: Create 2 Lumina tokens.
-{T},Sacrifice this artifact: Create 2 Chroma tokens.
+{T},Sacrifice this artifact: Create two Lumina tokens.
+{T},Sacrifice this artifact: Create two Chroma tokens.
 ```
 
 [card implementation](/custom/cards/e/expedition_cache.txt)
@@ -445,7 +445,7 @@ Artifact
 ### Design Notes
 
  - In the game, recoats are tints that let you respec your character attributes.
- - I've interpreted this as an artifact that let's you convert/respect tokens into Chroma or Lumina tokens.
+ - I've interpreted this as an artifact that let's you convert/respec tokens into Chroma or Lumina tokens.
 
 ## Sastro, the Concerned
 
