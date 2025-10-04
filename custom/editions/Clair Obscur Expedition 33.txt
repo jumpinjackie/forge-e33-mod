@@ -230,7 +230,6 @@ R Sprong
 U Soarrie
 U Stalact
 R Stendhal
-U Stone Quarry
 U Strikestorm
 C Swift Counter
 U Sword Ballet
