@@ -206,6 +206,21 @@ Land
  - Therefore this should clearly be a blue/red dual land.
  - Since it's occupied by Monoco (a Gestral) and various Grandis creatures. They get the no-strings-attached dual land experience.
 
+## The Sacred River
+
+```
+Legendary Land
+{T}: Add {C}.
+{5},{T}: Return target Gestral card from your graveyard and put it into your hand. This ability costs {2} less to activate if you control a creature named Golgra, Gestral Chief
+```
+
+[card implementation](/custom/cards/t/the_sacred_river.txt)
+
+### Design Notes
+
+ - In the game, the Sacred River is a place where Gestrals can be resurrected.
+ - Per game lore and rules established by Golgra, you need to be "in a queue" to get a Gestral resurrection, but if you're in favor with Golgra you could get a discount and "jump the queue". So I've gone with a regrowth ability with a discount if you have Golgra on the battlefield.
+
 ## The Hauler
 
 ```

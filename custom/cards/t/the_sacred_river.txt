@@ -1,0 +1,8 @@
+Name:The Sacred River
+ManaCost:no cost
+Types:Legendary Land
+A:AB$ Mana | Cost$ T | Produced$ C | SpellDescription$ Add {C}.
+A:AB$ ChangeZone | Cost$ 5 T | ReduceCost$ X | Origin$ Graveyard | Destination$ Hand | TgtPrompt$ Select target Gestral card in your graveyard | ValidTgts$ Gestral.YouCtrl | SpellDescription$ Return target Gestral card from your graveyard and put it into your hand. This ability costs {2} less to activate if you control a creature named Golgra, Gestral Chief
+SVar:X:Count$Compare Y GE1.2.0
+SVar:Y:Count$Valid Creature.YouCtrl+namedGolgra; Gestral Chief
+Oracle:{T}: Add {C}.\n{5},{T}: Return target Gestral card from your graveyard and put it into your hand. This ability costs {2} less to activate if you control a creature named Golgra, Gestral Chief
