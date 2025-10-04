@@ -15,7 +15,7 @@ This mod is multi-faceted and consists of:
 2. Git clone this repo
 3. Copy the `custom` folder into your Forge application data directory. Based on your OS, this will be:
    - Windows: `%APPDATA%\Forge`
-   - Linux: TBD
+   - Linux: `~/.forge`
    - OSX: TBD
 4. Start Forge
 5. In the Deck Editor, to see the cards in this set, change the set filter (the magnifying glass) to only include custom sets, or search for `Set:E33`
