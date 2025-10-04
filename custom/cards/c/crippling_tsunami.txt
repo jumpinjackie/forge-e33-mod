@@ -1,6 +1,6 @@
 Name:Crippling Tsunami
 ManaCost:2 U U
-Types:Kindred Enchantment - Expeditioner
+Types:Kindred Enchantment Expeditioner
 A:AB$ Tap | Cost$ tapXType<1/Creature> | ValidTgts$ Artifact,Creature | TgtPrompt$ Select target artifact or creature | SpellDescription$ Tap target artifact or creature.
 A:AB$ Tap | Cost$ tapXType<1/Expeditioner> | ValidTgts$ Land | TgtPrompt$ Select target land | SpellDescription$ Tap target land.
 Oracle:Tap an untapped creature you control: Tap target artifact or creature.\nTap an untapped Expeditioner you control: Tap target land.
