@@ -1,4 +1,4 @@
-Name:Expedition 84 Tracker
+Name:Expedition 00 Tracker
 ManaCost:2 G
 Types:Creature Human Expeditioner Scout
 PT:2/3

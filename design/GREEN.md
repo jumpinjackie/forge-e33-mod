@@ -17,6 +17,24 @@ When this creature dies, target opponent creates a Lumina token.
  - Just a "vanilla" bear with stock Nevron card text.
  - 23/09/2025: Changed casting cost from 1G to G and PT from 2/2 to 1/2 to make it unique from the (now fully green) Lancelier
 
+## Expedition 00 Tracker
+
+```
+2G
+Creature - Human Expeditioner Scout
+{4}{G},{T}: Look at the top four cards of your library. You may reveal an Expeditioner card from among them and put it into your hand. Put the rest on the bottom of your library in a random order.
+When this creature dies, create a Chroma token.
+
+2/3
+```
+
+[card implementation](/custom/cards/e/expedition_00_tracker.txt)
+
+### Design Notes
+
+ - In the game, Expedition 00 was the first "search and rescue" team to find any survivors of The Fracture.
+ - Gone with a variant of Brightwood Tracker
+
 ## Expedition 35 Bridge
 
 ```
@@ -29,7 +47,7 @@ Sacrifice an Expeditioner: Draw a card
 
 ### Design Notes
 
- - In the game, Expedition 35 perished to Nevrons in Falling Leaves. In their final moments, they threw themselves on top of each other to form a bridge for future expeditions to cross.
+ - In the game, Expedition 35 perished to Nevrons in Falling Leaves. In their final moments, as they were becoming petrified, they threw themselves on top of each other to form a bridge for future expeditions to cross.
  - I've symbolized this as an enchantment where Expeditioners can be sacrificed for card draw, since each Expeditioner creature has a Chroma token death bonus, this can potentially be a combo engine to rip through your deck for some game winning payoff.
 
 ## Expedition 55 Drummer
@@ -48,7 +66,7 @@ When this creature dies, create a Chroma token.
 ### Design Notes
 
  - In the game, Expedition 55 tried using musically-augmented pictos. This was mostly effective until they encountered Sirene whose minions and herself were immune to these pictos.
- - Since the main theme of this Expedition was music, it can be safely assumed that most of the crew were musicians or were proficient in one kind of music, giving us ample design space to fill out the Expeditioner creature roster with various creatures of various utility. In this case, I've gone with a drummer and a lord effect.
+ - Since the main theme of this Expedition was music, it can be safely assumed that most of the crew were musicians or were proficient in one kind of music, giving us ample design space to fill out the Expeditioner creature roster with various creatures of various utility. In this case, I've gone with a drummer and a lord buff effect.
 
 ## Expedition 55 Trumpeter
 
@@ -102,6 +120,9 @@ When this creature dies, create a Chroma token.
 
 ### Design Notes
 
+ - In the game, Expedition 69 were responsible for most of the grappling points installed throughout the continent. Obviously then, members of this expeditions have a strong exploration theme.
+ - For this card, gone with a one drop that can ramp out extra land drops if they have surplus chroma tokens.
+
 ## Expedition 69 Mountaineer
 
 ```
@@ -116,6 +137,9 @@ When this creature dies, create a Chroma token.
 [card implementation](/custom/cards/e/expedition_69_mountaineer.txt)
 
 ### Design Notes
+
+ - In the game, Expedition 69 were responsible for most of the grappling points installed throughout the continent. Obviously then, members of this expeditions have a strong exploration theme.
+ - For this card, instead of a mana/land ramp theme I've gone with a variant of Treetop Rangers / Silhana Ledgewalker. With such experience in climbing, this creature clearly isn't grounded and thus can only be engaged with in combat by flyers.
 
 ## Expedition 69 Surveyor
 
@@ -133,20 +157,8 @@ When this creature dies, create a Chroma token.
 
 ### Design Notes
 
-## Expedition 84 Tracker
-
-```
-2G
-Creature - Human Expeditioner Scout
-{4}{G},{T}: Look at the top four cards of your library. You may reveal an Expeditioner card from among them and put it into your hand. Put the rest on the bottom of your library in a random order.
-When this creature dies, create a Chroma token.
-
-2/3
-```
-
-[card implementation](/custom/cards/e/expedition_84_tracker.txt)
-
-### Design Notes
+ - In the game, Expedition 69 were responsible for most of the grappling points installed throughout the continent. Obviously then, members of this expeditions have a strong exploration theme.
+ - For this card, I've gone with a land ramp effect with a surveil attack trigger to sell the Surveyor > Surveiling.
 
 ## Gestral Climbing Challenge
 

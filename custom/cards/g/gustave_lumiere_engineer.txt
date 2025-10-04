@@ -2,9 +2,9 @@ Name:Gustave, Lumiere Engineer
 ManaCost:1 W UR
 Types:Legendary Creature Human Expeditioner
 PT:3/3
-T:Mode$ Attacks | ValidCard$ Card.Self | TriggerZones$ Battlefield | Execute$ DBCharge | TriggerDescription$ Whenever CARDNAME becomes untapped, attacks or blocks, put a charge counter on him.
-T:Mode$ Blocks | ValidCard$ Card.Self | TriggerZones$ Battlefield | Execute$ DBCharge | TriggerDescription$ Whenever CARDNAME becomes untapped, attacks or blocks, put a charge counter on him.
-T:Mode$ Untaps | ValidCard$ Card.Self | TriggerZones$ Battlefield | Execute$ DBCharge | TriggerDescription$ Whenever CARDNAME becomes untapped, attacks or blocks, put a charge counter on him.
+T:Mode$ Attacks | ValidCard$ Card.Self | TriggerZones$ Battlefield | Execute$ DBCharge | TriggerDescription$ Whenever CARDNAME attacks, put a charge counter on him.
+T:Mode$ Blocks | ValidCard$ Card.Self | TriggerZones$ Battlefield | Execute$ DBCharge | TriggerDescription$ Whenever CARDNAME blocks, put a charge counter on him.
+T:Mode$ Untaps | ValidCard$ Card.Self | TriggerZones$ Battlefield | Execute$ DBCharge | TriggerDescription$ Whenever CARDNAME becomes untapped, put a charge counter on him.
 A:AB$ DealDamage | Cost$ R T | ValidTgts$ Creature | NumDmg$ 1 | SubAbility$ DBMark | SpellDescription$ CARDNAME deals 1 damage to target creature. Put a marked counter on it.
 A:AB$ DealDamage | Cost$ W R T | ValidTgts$ Creature | NumDmg$ 3 | SubAbility$ DBGainLife | SpellDescription$ CARDNAME deals 3 damage to target creature, you gain 3 life.
 A:AB$ Pump | Cost$ W R | KW$ Double Strike | SubAbility$ DBChargeTwice | ActivationLimit$ 1 | SpellDescription$ CARDNAME gains double-strike until ene of turn, put two charge counters on him. Activate this ability only once per turn.

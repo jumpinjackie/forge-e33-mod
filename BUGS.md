@@ -6,6 +6,10 @@ This is intentional because the card list is still not yet fixed, so until that 
 
 # Card-specific
 
+## Manor Door
+
+AI seems to have issues unlocking its own doors. Check if Keys to the House has the same issues.
+
 ## Golgra, Gestral Chief
 
 I am being prompted for the mode before the enrage trigger goes on the stack, I kind of expected the prompt to happen on trigger resolution. And the trigger description on the stack is the full modal prompt and not the choice made. Not sure if it ultimately matters because it behaviourally works as expected.

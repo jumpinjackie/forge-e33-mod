@@ -68,6 +68,23 @@ Splice onto Expeditioner Instant or Sorcery {U} (As you cast an Expeditioner Ins
  - I am hoping that Forge's rule handling around splice is flexible enough to allow for this to work. Otherwise it's back to the drawing board.
     - 23/09/2025: It seems to work!
 
+## Crippling Tsunami
+
+```
+2UU
+Kindred Enchantment - Expeditioner
+Tap an untapped creature you control: Tap target artifact or creature.
+Tap an untapped Expeditioner you control: Tap target land.
+```
+
+[card implementation](/custom/cards/c/crippling_tsunami.txt)
+
+### Design Notes
+
+ - In the game, Crippling Tsunami is one of Lune's skills. It's basically an AOE variant of Ice Lance.
+ - Made this a hybrid of Glare of Subdual and Opposition. Base effect is Glare, but Expeditioners can have the full Opposition experience.
+ - Intentionally worded so that any Expeditioner permanent can be used to tap down. May change this to Expeditioner creatures only if proven to be too powerful.
+
 ## Cruler
 
 ```

@@ -16,6 +16,14 @@ A deck that attempts to rapidly assemble the "Urzatron" of the 4 legendary rocks
 
 A combo deck that chains many Lumina and Token generation spells to quickly assemble the 33 permanents needed to win the game with The Greatest Expedition In History
 
+## Blue Skies
+
+An all-flyers tempo deck.
+
+## Crippling Tsunami Prison
+
+A prison deck utilising Crippling Tsunami and token generation strategies for board lockdown.
+
 ## Room Control
 
 A control deck with emphasis on land/mana ramp and using Manor Rooms for utility.

@@ -87,6 +87,23 @@ When this creature dies, target opponent creates a Lumina token.
 
  - Currently a placeholder vanilla Nevron. Abilities TBD.
 
+## Breaking Rules
+
+```
+(W/G)
+Kindred Instant - Expeditioner
+Kicker {2}.
+Destroy target artifact or enchantment with mana value 2 lor less.
+If this spell was kicked, destroy that artifact or enchantment if its mana value is 5 or less instaed.
+```
+
+[card implementation](/custom/cards/b/breaking_rules.txt)
+
+### Design Notes
+
+ - In the game, Breaking Rules is one of Maelle's abiliites.
+ - For the card, I've disregarded all thematic/mechanical associations and designed the card only based on the name. We need cheap artifact/enchantment hate in this set, so I've turned this to a variant of Overload that can also hit enchantments.
+
 ## Chorale
 
 ```
@@ -734,6 +751,24 @@ At the beginning of your upkeep, create a 1/1 colorless Nevron creature token.
     - A Nevron tutoring ability
  - NOTE: This is not the Clea Planeswalker so Francois does not have affinity towards it. Nothing in the actual game suggests Francois has any affection towards Clea's painted counterpart.
 
+## Rally the Expeditioners
+
+```
+3(W/B)
+Kindred Instant - Expeditioner
+This spell costs {1} less to cast if you control an Expeditioner.
+Choose one:
+ - Create two 1/1 white Human Expeditioner tokens with "When this creature dies, create a Chroma token".
+ - Up to two target creatures you control each get +2/+2 until end of turn.
+ - Destroy target non-Expeditioner creature.
+```
+
+[card implementation](/custom/cards/r/rally_the_expeditioners.txt)
+
+### Design Notes
+
+ - In the game, this symbolizes the moment where re-awakened Maelle arrives in Lumiere with party and resurrected Expeditioners to commence the final assault.
+ - Made this a variant of Rally the Monastery with Expeditioner-aligned benefits.
 
 ## Reaper Cultist
 

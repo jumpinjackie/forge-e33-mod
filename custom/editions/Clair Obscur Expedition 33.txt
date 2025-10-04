@@ -24,6 +24,7 @@ U Boucheclier
 R Bourgeon
 U Boat Graveyard
 U Braseleur
+C Breaking Rules
 C Bruler
 R Burning Canvas
 C Cache Discovery
@@ -43,6 +44,7 @@ U Clair
 R Clair Obscur
 M Clea Dessendre, Seeking Vengeance
 U Clea's Chromatic Mastery
+R Crippling Tsunami
 C Cruler
 U Crushing Cavern
 U Crustal Crush
@@ -64,6 +66,7 @@ R Esquie's Nest
 C Esquie's Magic Mushrooms
 U Eternal Ice
 R Eveque
+U Expedition 00 Tracker
 U Expedition 34 Mage
 U Expedition 35 Bridge
 U Expedition 40 Glider
@@ -98,7 +101,6 @@ U Expedition 70
 R Expedition 78
 C Expedition 78 Aircrew
 C Expedition 81 Interpreter
-U Expedition 84 Tracker
 C Expedition Cache
 U Expedition Flag
 U Expedition Flotilla
@@ -207,6 +209,7 @@ U Petank
 U Phantom Strike
 C Piercing Strike
 U Pyrolyse
+U Rally the Expeditioners
 U Reaper Cultist
 C Recoat
 R Renoir Dessendre
