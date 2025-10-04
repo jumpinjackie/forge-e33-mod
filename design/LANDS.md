@@ -254,6 +254,24 @@ When The Monolith has no gommage counters on it, sacrifice it.
  - In the game, The Monolith is where The Paintress resides and is an everlasting reminder to the humans of Lumiere that time is running out.
  - For lore accuracy, this would've been 100 counters instead of 10, but that would take way too long in MTG "game time". Reducing it to 10 sacrifices lore accuracy, but retains mechanical accuracy of something that's constantly counting down and wiping out everything older than that number.
 
+## The Monolith Interior
+
+```
+Land
+You may have this land enter tapped as a copy of any land on the battlefield, except it has "At the beginning of your upkeep, you may have this land become a copy of target land, and it has this ability."
+```
+
+[card implementation](/custom/cards/t/the_monolith_interior.txt)
+
+### Design Notes
+
+ - In the game, the interior of The Monolith contains twisted variations of locations visited by Expedition 33
+ - Basically a Vesuvan Doppelganger for lands. Meant to mechanically capture the memories of places visited by Expedition 33
+ - I am hoping I can copy Vesuvan Doppelganger for the most part and change the targeting parameters from creatures to lands.
+ - 5/10/2025: It works!
+ - May change targeting to only non-basic lands to curb power level if required.
+
+
 ## Twilight Quarry
 
 ```
