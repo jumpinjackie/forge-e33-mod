@@ -1,5 +1,5 @@
 Name:Expedition 59 Chef
-ManaCost:2 BG
+ManaCost:1 BG
 Types:Creature Human Expeditioner
 PT:2/2
 T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Creature.Nevron | TriggerZones$ Battlefield | Execute$ TrigFood | TriggerDescription$ Whenever a Nevron creature dies, create a Food token.
