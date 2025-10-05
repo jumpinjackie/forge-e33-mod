@@ -5,7 +5,8 @@
 ```
 U
 Kindred Sorcery - Expeditioner
-Create 3 Lumina tokens
+Create 3 Lumina tokens.
+Draw a card at the beginnning of the next turn's upkeep.
 ```
 
 [card implementation](/custom/cards/a/an_advantage.txt)
@@ -14,6 +15,7 @@ Create 3 Lumina tokens
 
  - In the game, a quote often said by Lune when loot is discovered.
  - A basic enabler of Lumina token ramping strategies
+ - 5/10/2025: Promoted to a slow-trip so it can stand in the pantheon of Brainstorm/Ponder/Preordain/Portent
 
 ## Boucheclier
 
@@ -186,6 +188,8 @@ Legendary Artifact Creature - Turtle
 Affinity for Clea Planeswalkers.
 Defender.
 The strongest ice attack ever - At the beginning of your upkeep, Francois deals 4 damage to target creature an opponent controls. Tap that creature and put a stun counter on it.
+
+1/6
 ```
 
 [card implementation](/custom/cards/f/francois_waiting_for_clea.txt)

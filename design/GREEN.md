@@ -184,6 +184,7 @@ As long as there are four or more counters on this enchantment. You may play an 
 1G
 Creature - Nevron
 First Strike.
+Devoid.
 When this creature dies, target opponent creates a Lumina token.
 
 2/2
@@ -196,6 +197,7 @@ When this creature dies, target opponent creates a Lumina token.
  - Another generic vanilla Nevron to round out the creature roster for limited/draft.
  - In game, Lancelier's wield a lance. So clearly this should have First Strike.
  - 23/09/2025: Now green instead of white/green. White Nevrons will be their own unique sub-race that we don't want regular Nevrons to bleed into.
+ - 5/10/2025: Added missing Devoid.
 
 ## Nevron Disguise
 

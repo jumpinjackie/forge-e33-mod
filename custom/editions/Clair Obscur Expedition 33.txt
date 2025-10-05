@@ -37,6 +37,7 @@ R Chroma Catalyst
 C Chroma Is Flowing
 C Chroma Filter
 C Chroma Prison
+U Chroma Trap
 U Chromatic Inversion
 C Chromatic Petrification
 U Chromatic Reclamation

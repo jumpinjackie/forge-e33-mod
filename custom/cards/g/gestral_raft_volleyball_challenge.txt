@@ -1,5 +1,5 @@
 Name:Gestral Raft Volleyball Challenge
-ManaCost:UR UR
+ManaCost:UR
 Types:Enchantment
 T:Mode$ BecomesTarget | ValidSource$ SpellAbility.OppCtrl | ValidTarget$ Creature.YouCtrl+inZoneBattlefield | TriggerZones$ Battlefield | Execute$ TrigQuestCounter | OptionalDecider$ You | TriggerDescription$ Whenever a creature you control becomes the target of a spell or ability, you may put a quest counter on CARDNAME.
 T:Mode$ BecomesTarget | ValidSource$ SpellAbility.OppCtrl | ValidTarget$ Creature.YouCtrl+inZoneBattlefield | TriggerZones$ Battlefield | IsPresent$ Card.Self+counters_GE3_QUEST | Execute$ TrigDraw | TriggerDescription$ Whenever a creature you control becomes the target of a spell or ability, draw a card.

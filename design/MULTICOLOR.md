@@ -113,7 +113,7 @@ Flying.
 Devoid (This card has no color.)
 When this creature dies, target opponent creates a Lumina token.
 
-1/2
+2/1
 ```
 
 [card implementation](/custom/cards/c/chorale.txt)
@@ -121,6 +121,7 @@ When this creature dies, target opponent creates a Lumina token.
 ### Design Notes
 
  - Another vanilla Nevron
+ - 5/10/2025: Switched PT from 1/2 to 2/1 for more offensive punch.
 
 ## Chroma is Flowing
 
@@ -288,7 +289,7 @@ III — Until end of turn, Food tokens you control gain "Sacrifice this artifact
 ## Expedition 59 Chef
 
 ```
-2(B/G)
+1(B/G)
 Creature - Human Expeditioner
 Whenever a Nevron creature dies, create a Food token.
 Sacrifice a Food token: Target creature deals 3 damage to itself.
@@ -304,6 +305,7 @@ When this creature dies, create a Chroma token.
  - In the game, Expedition 59 attempted to eat dead Nevrons for sustenance.
  - This card represents the genius who suggested such an idea.
  - Has strong mechanical similarity to Asmoranomardicadaistinaculdacar so has the same "food poisoning" ability.
+ - 5/10/2025: Reduced cost from 2(B/G) to 1(B/G)
 
 ## Expedition 60
 
@@ -457,7 +459,7 @@ As long as this enchantment as three or more counters, creatures you control gai
 ## Gestral Raft Volleyball Challenge
 
 ```
-(U/R)(U/R)
+(U/R)
 Enchantment
 Whenever a creature you control becomes the target of a spell or ability, you may put a quest counter on this enchantment.
 Normal Difficulty - As long as this enchantment has three or more quest counters on it, whenever a creature you control becomes the target of a spell or ability, draw a card.
@@ -472,6 +474,7 @@ Hard Difficulty - {U/R}{U/R}: You may choose new targets for target spell or abi
  - All minigames are modeled as "quest" enchantments originating from Zendikar block and use the same terminology (charging with quest counters based on certain conditions with some payoff at the end once you reach a certain number of quest counters).
  - Went with any of your creatures being targeted as the triggering condition as that best describes gestrals being flung at you.
  - First payoff is card draw. Second (and more flavorful) payoff is to be able to redirect opponent's spells and abilities to signify the mastery of parrying flung gestrals back at the opponent.
+ - 5/10/2025: Cost reduced from (U/R)(U/R) to (U/R) in line the other challenge enchantments
 
 ## Gradient Charge
 
