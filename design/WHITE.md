@@ -168,7 +168,7 @@ Kindred Instant - Expeditioner
 Untap target creature you control. It gains hexproof until end of turn.
 ```
 
-[card implementation](/custom/cards/zDevelopment/sciels_intervention.txt)
+[card implementation](/custom/cards/s/sciels_intervention.txt)
 
 ### Design Notes
 

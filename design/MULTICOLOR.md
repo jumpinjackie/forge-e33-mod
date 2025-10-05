@@ -26,7 +26,7 @@ Activated abilities of Nevrons and Pictos cannot be activated.
 2/2
 ```
 
-[card implementation](/custom/cards/zDevelopment/alicia_dessendre_slienced_by_fire.txt)
+[card implementation](/custom/cards/a/alicia_dessendre_slienced_by_fire.txt)
 
 ### Design Notes
 
@@ -371,7 +371,7 @@ I, II — Search your library for an Expeditioner card, reveal it and put it int
 III — Search your library for an Expeditioner permanent, put it onto the battlefield, then shuffle.
 ```
 
-[card implementation](/custom/cards/zDevelopment/expedition_70.txt)
+[card implementation](/custom/cards/e/expedition_70.txt)
 
 ### Design Notes
 
@@ -389,7 +389,13 @@ When this creature dies, create a Chroma token.
 4/4
 ```
 
+[card implementation](/custom/cards/e/expedition_78_aircrew.txt)
+
 ### Design Notes
+
+ - In the game, Expedition 78 stole hundreds of airships from the Lumiere Council and departed to take on the Paintress. The Expedition failed, but the fate of the expeditioners is unknown.
+ - Card represents some of the Airship crew.
+ - This is our heavy-hitter for an all-flyers strategy.
 
 ## Expedition 81 Interpreter
 
@@ -403,7 +409,13 @@ When this creature dies, create a Chroma token.
 1/2
 ```
 
+[card implementation](/custom/cards/e/expedition_81_interpreter.txt)
+
 ### Design Notes
+
+ - In the game, Expedition 81 was the first expedition to ever commnicate with a Nevron.
+ - This card represents someone who has mastered the ability to communicate with Nevron.
+ - Mechanically translated to taking control of Nevrons with a Vedalken Shackles style effect.
 
 ## For Those Who Come After
 
@@ -485,7 +497,7 @@ This spell costs {1} less to cast if you control a Painter.
 Search your library for a Gradient card, reveal that card, put it into your hand, then shuffle.
 ```
 
-[card implementation](/custom/cards/zDevelopment/gradient_charge.txt)
+[card implementation](/custom/cards/g/gradient_charge.txt)
 
 ### Design Notes
 
@@ -581,7 +593,7 @@ Legendary Creature - Human Expeditioner
 3/3
 ```
 
-[card implementation](/custom/cards/zDevelopment/maelle_child_of_lumiere_maelle_the_reawakened_paintress.txt)
+[card implementation](/custom/cards/zDevelopment/maelle_child_of_lumiere.txt)
 
 ### Design Notes
 
@@ -604,6 +616,8 @@ Human spells you cast cost {1} less to cast.
 [-8]: Return all Humans from your graveyard onto the battlefield.
 ```
 
+[card implementation](/custom/cards/zDevelopment/maelle_the_reawakened_paintress.txt)
+
 ### Design Notes
 
  - 23/09/2025: Splitting this off to its own card. I *really* wanted this to be the meld target of Maelle and Alicia for maximum flavor, but Forge simply would not cooperate with me.
@@ -614,6 +628,7 @@ Human spells you cast cost {1} less to cast.
    - -3: She now has the power to erase enemies from the canvas
    - -8: Same theme of reanimating/rallying dead expeditioners to her cause
  - 25/09/2025: I'd thought about maybe an alternative cost of saccing Alicia and Human Maelle as an alternative way to "meld". But I don't think Forge supports saccing 2 cards with different qualities (name) as there is no pre-existing card with such an alternate cost and the #1 way to determine the feasibility of implementing a card a certain way is if there is a pre-existing card that does something similar.
+   - 5/10/2025: Probably because there is no pre-existing Planeswalker with an alternate cost, so the alternate cost intrinsic doesn't work with Planeswalkers.
 
 ## Manor Entrance // Manor Hidden Room
 

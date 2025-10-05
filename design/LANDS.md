@@ -42,7 +42,7 @@ At the beginning of your upkeep, you may put a challenge counter on this card.
 {T}, Remove X challenge counters from this card: You may put a Nevron permanent card with mana value X from your hand onto the battlefield.
 ```
 
-[card implementation](/custom/cards/zDevelopment/endless_tower.txt)
+[card implementation](/custom/cards/e/endless_tower.txt)
 
 ### Design Notes
 
