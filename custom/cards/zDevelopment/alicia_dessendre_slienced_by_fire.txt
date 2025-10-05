@@ -1,6 +1,12 @@
 Name:Alicia Dessendre, Silenced by Fire
-ManaCost:W R
-Types:Legendary Creature Human Painter
-PT:2/2
-S:Mode$ CantBeActivated | AffectedZone$ Battlefield | ValidCard$ Nevron,Pictos | ValidSA$ Activated | Description$ Activated abilities of Nevrons and Pictos cannot be activated.
-Oracle:Activated abilities of Nevrons and Pictos cannot be activated.
+ManaCost:5 W W
+Types:Legendary Creature Angel Horror
+PT:5/7
+K:Flying
+K:Vigilance
+T:Mode$ SpellCast | ValidCard$ Card.Self | Execute$ TrigChange | OptionalDecider$ You | TriggerDescription$ When you cast CARDNAME, you may return target Angel or Human creature card from your graveyard to the battlefield.
+SVar:TrigChange:DB$ ChangeZone | Origin$ Graveyard | Destination$ Battlefield | ValidTgts$ Creature.Angel+YouCtrl,Creature.Human+YouCtrl
+DeckHints:Name$Gisela the Broken Blade & Type$Human|Angel
+MeldPair:Maelle, Child of Lumiere
+AlternateMode:Meld
+Oracle:When you cast this spell, you may return target Angel or Human creature card from your graveyard to the battlefield.\nFlying, vigilance\n(Melds with Maelle, Child of Lumiere.)

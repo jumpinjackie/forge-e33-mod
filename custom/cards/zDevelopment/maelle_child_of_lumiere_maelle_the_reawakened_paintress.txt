@@ -1,0 +1,26 @@
+Name:Maelle, Child of Lumiere
+ManaCost:2 W W
+Types:Legendary Creature Angel Horror
+PT:4/3
+K:Flying
+K:First Strike
+K:Lifelink
+T:Mode$ Phase | Phase$ End of Turn | IsPresent$ Card.Self+YouCtrl+YouOwn | IsPresent2$ Creature.YouCtrl+YouOwn+namedAlicia Dessendre; Silenced by Fire | ValidPlayer$ You | Execute$ Meld | TriggerZones$ Battlefield | TriggerDescription$ At the beginning of your end step, if you both own and control CARDNAME and a creature named Alicia Dessendre, Silenced by Fire, exile them, then meld them into Maelle, The Reawakened Paintress.
+SVar:Meld:DB$ Meld | Name$ Maelle, The Reawakened Paintress | Primary$ Maelle, Child of Lumiere | Secondary$ Alicia Dessendre, Silenced by Fire
+DeckHints:Name$Alicia Dessendre, Silenced by Fire
+MeldPair:Alicia Dessendre, Silenced by Fire
+AlternateMode:Meld
+Oracle:Flying, first strike, lifelink\nAt the beginning of your end step, if you both own and control Maelle, Child of Lumiere and a creature named Alicia Dessendre, Silenced by Fire, exile them, then meld them into Maelle, The Reawakened Paintress.
+
+ALTERNATE
+
+Name:Maelle, The Reawakened Paintress
+ManaCost:no cost
+Types:Legendary Creature Eldrazi Angel
+PT:9/10
+K:Flying
+K:First Strike
+K:Vigilance
+K:Lifelink
+S:Mode$ CantBeCast | ValidCard$ Card.cmcLE3 | Caster$ Opponent | Description$ Your opponents can't cast spells with mana value 3 or less.
+Oracle:Flying, first strike, vigilance, lifelink\nYour opponents can't cast spells with mana value 3 or less.
