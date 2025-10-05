@@ -1,0 +1,6 @@
+Name:Nevron Disguise
+ManaCost:G
+Types:Kindred Enchantment Expeditioner
+A:AB$ Animate | Cost$ G | ValidTgts$ Creature.nonNevron | TgtPrompt$ Select target creature | Types$ Nevron | RemoveCreatureTypes$ True | SpellDescription$ Target creature becomes a Warrior until end of turn.
+A:AB$ Draw | Cost$ 1 Sac<1/CARDNAME> | NumCards$ 1 | SpellDescription$ Draw a card.
+Oracle:{G}: Target non-Nevron creature becomes a Nevron until end of turn.\n{1}, Sacrifice this enchantment: Draw a card.

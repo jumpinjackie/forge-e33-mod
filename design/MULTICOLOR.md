@@ -922,7 +922,7 @@ Fuse (You may cast one or both halves of this card from your hand.)
 ## When One Falls // We Continue
 
 ```
-when One Falls
+When One Falls
 4W
 Sorcery
 Return all Expeditioner permanent cards from your graveyard to the battlefield.

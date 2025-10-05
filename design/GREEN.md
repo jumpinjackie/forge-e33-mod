@@ -203,14 +203,18 @@ When this creature dies, target opponent creates a Lumina token.
 
 ```
 G
-Kindred Instant - Expeditioner
-Target non-Nevron creature becomes a Nevron until end of turn.
+Kindred Enchantment - Expeditioner
+{G}: Target non-Nevron creature becomes a Nevron until end of turn.
+{1}, Sacrifice this enchantment: Draw a card.
 ```
+
+[card implementation](/custom/cards/n/nevron_disguise.txt)
 
 ### Design Notes
 
  - In the game, the journal of Expedition 39 tells of an attempt by Expeditioners to disguise themselves as Nevrons in order to try and gain an advantage. It didn't work.
  - Simple creature type changing effect. Probably absolute dreck in draft/limited with fringe utility in constructed, but this one is all about flavor.
+ - 6/10/2025: Changed to an enchantment with the type changing an activated ability. Also added a sac cantrip for utility.
 
 ## Nevron Pecking Order
 
