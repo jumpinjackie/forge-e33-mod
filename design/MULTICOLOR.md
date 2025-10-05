@@ -383,6 +383,7 @@ III — Search your library for an Expeditioner permanent, put it onto the battl
 
 ```
 2(W/U)(W/U)
+Creature - Human Expeditioner
 Flying.
 This creature can block only creatures with Flying.
 When this creature dies, create a Chroma token.
