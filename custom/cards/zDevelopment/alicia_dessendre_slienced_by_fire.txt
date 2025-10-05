@@ -2,11 +2,8 @@ Name:Alicia Dessendre, Silenced by Fire
 ManaCost:W R
 Types:Legendary Creature Angel Horror
 PT:2/2
-K:Flying
-K:Vigilance
-T:Mode$ SpellCast | ValidCard$ Card.Self | Execute$ TrigChange | OptionalDecider$ You | TriggerDescription$ When you cast CARDNAME, you may return target Angel or Human creature card from your graveyard to the battlefield.
-SVar:TrigChange:DB$ ChangeZone | Origin$ Graveyard | Destination$ Battlefield | ValidTgts$ Creature.Angel+YouCtrl,Creature.Human+YouCtrl
-DeckHints:Name$Maelle, Child of Lumiere & Type$Human|Angel
+S:Mode$ CantBeActivated | AffectedZone$ Battlefield | ValidCard$ Chroma,Lumina,Nevron,Pictos | ValidSA$ Activated | Description$ Activated abilities of Chroma, Lumina, Nevrons and Pictos cannot be activated.
+DeckHints:Name$Maelle, Child of Lumiere
 MeldPair:Maelle, Child of Lumiere
 AlternateMode:Meld
-Oracle:When you cast this spell, you may return target Angel or Human creature card from your graveyard to the battlefield.\nFlying, vigilance\n(Melds with Maelle, Child of Lumiere.)
+Oracle:Activated abilities of Chroma, Lumina, Nevrons and Pictos cannot be activated.\n(Melds with Maelle, Child of Lumiere.)
