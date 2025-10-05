@@ -21,8 +21,8 @@ Create a Lumina token.
 ```
 WR
 Legendary Creature - Human Painter
-Activated abilities of Nevrons and Pictos cannot be activated.
-
+Activated abilities of Chroma, Lumina, Nevrons and Pictos cannot be activated.
+(Melds with Maelle, Child of Lumiere.)
 2/2
 ```
 
@@ -33,6 +33,7 @@ Activated abilities of Nevrons and Pictos cannot be activated.
  - Gone with a targeted (Null Rod / Cursed Totem) effect to mechanically emphasize the "silence"
  - The real gimmick is melding with Maelle, Child of Lumiere. Meld is 100% the mechanic to sell the transformation
     - 23/09/2025: Getting meld to work has been nothing but failure. I give up. Alicia will now be standalone.
+ - 6/10/2025: Meld is back on the menu! Got it to work finally! Also extended null rod effect to Chroma and Lumina tokens.
 
 ## Ballet
 
@@ -589,11 +590,25 @@ Exile target nonland permanent.
 ```
 1WR
 Legendary Creature - Human Expeditioner
-
+At the beginning of your end step, if you both own and control Maelle, Child of Lumiere and a creature named Alicia Dessendre, Silenced by Fire, exile them, then meld them into Maelle, The Reawakened Paintress.
 3/3
 ```
 
-[card implementation](/custom/cards/zDevelopment/maelle_child_of_lumiere.txt)
+Melds into:
+
+```
+Legendary Planeswalker - Maelle
+Human spells you cast cost {1} less to cast.
+[+2]: Create a Chroma Token.
+[+1]: Return target Human from your graveyard or in exile and put it onto the battlefield tapped.
+[0]: Create two 1/1 White Human Expeditioner tokens with "When this creature dies, create a Chroma token".
+[-3]: Exile target nonland, non-Human permanent.
+[-8]: Return all Humans from your graveyard onto the battlefield.
+
+Loyalty: 4
+```
+
+[card implementation](/custom/cards/zDevelopment/maelle_child_of_lumiere_maelle_the_reawakened_paintress.txt)
 
 ### Design Notes
 
@@ -602,33 +617,13 @@ Legendary Creature - Human Expeditioner
     - Human Maelle's abilities TBD. I've mainly been focusing on nailing down the meld interaction first. Having limited success so far, thus this card currently does not work. I have been using The Mightstone and Weakstone + Urza, Lord Protector as the initial template.
     - If I can get the meld interaction to finally work and if Forge's rule engine will allow for it, I'd like to try to get the meld to trigger off of Maelle being exiled (for maximum flavor). If this is not feasible, then we'll stick with the existing activation cost.
  - 23/09/2025: I give up trying to get meld to work. Human Maelle will remain a standalone card. Abilities TBD. 
-
-## Maelle, The Reawakend Paintress
-
-```
-3WB
-Legendary Planeswalker - Maelle
-Human spells you cast cost {1} less to cast.
-[+2]: Create a Chroma Token.
-[+1]: Return target Human from your graveyard or in exile and put it onto the battlefield tapped.
-[0]: Create two 1/1 White Human Expeditioner tokens with "When this creature dies, create a Chroma token".
-[-3]: Exile target nonland, non-Human permanent.
-[-8]: Return all Humans from your graveyard onto the battlefield.
-```
-
-[card implementation](/custom/cards/zDevelopment/maelle_the_reawakened_paintress.txt)
-
-### Design Notes
-
- - 23/09/2025: Splitting this off to its own card. I *really* wanted this to be the meld target of Maelle and Alicia for maximum flavor, but Forge simply would not cooperate with me.
+ - 6/10/2025: Gave meld another try. I finally got it to work! Human Maelle's regular abilities still TBD.
  - Planeswalker Maelle's abilities for the most part map to her in-game abilities:
    - +2: She now has greater mastery of Chroma in the canvas
    - +1: She now has the power of reanimating dead expeditioners to fight for her
    - 0: Same theme of reanimating/rallying dead expeditioners to her cause
    - -3: She now has the power to erase enemies from the canvas
    - -8: Same theme of reanimating/rallying dead expeditioners to her cause
- - 25/09/2025: I'd thought about maybe an alternative cost of saccing Alicia and Human Maelle as an alternative way to "meld". But I don't think Forge supports saccing 2 cards with different qualities (name) as there is no pre-existing card with such an alternate cost and the #1 way to determine the feasibility of implementing a card a certain way is if there is a pre-existing card that does something similar.
-   - 5/10/2025: Probably because there is no pre-existing Planeswalker with an alternate cost, so the alternate cost intrinsic doesn't work with Planeswalkers.
 
 ## Manor Entrance // Manor Hidden Room
 
