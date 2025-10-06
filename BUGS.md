@@ -34,10 +34,6 @@ Chapter 3: Not getting lumina tokens for destroyed Nevron tokens
 
 Can target any two cards in graveyard (the creature and non-creature restrictions are being ignored)
 
-## Petank
-
-Reward is not triggering
-
 ## Thermal Transfer
 
 AI seems to be able to tap+stun two targets instead of tap+stun (0...1) target creature and bolt another (0...1) target creature
