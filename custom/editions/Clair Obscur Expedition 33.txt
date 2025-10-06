@@ -34,7 +34,7 @@ U Chapelier
 C Chorale
 R Chroma Barrier
 R Chroma Catalyst
-C Chroma Is Flowing
+C Chroma is Flowing
 C Chroma Filter
 C Chroma Prison
 U Chroma Trap
@@ -185,10 +185,11 @@ U Massacre at Dark Shores
 C Mezzo Forte
 C Manor Gardens
 C Manor Door
-U Manor Library // Manor Fireplace
-U Manor Greenhouse // Manor Gallery
 R Manor Entrance // Manor Hidden Room
+U Manor Greenhouse // Manor Gallery
+U Manor Fire
 U Manor Kitchen // Manor Cellar
+U Manor Library // Manor Fireplace
 C Mutinous Expedition 48 Soldier
 R Monoco, Collector of Feet
 R Monoco's Station
@@ -212,7 +213,7 @@ U Pyrolyse
 U Rally the Expeditioners
 U Reaper Cultist
 C Recoat
-R Renoir Dessendre
+R Renoir, Dessendre Patriarch
 U Repaint
 U Revitalization
 U Ranger Sakapatate
@@ -237,6 +238,7 @@ U Strikestorm
 C Swift Counter
 U Sword Ballet
 R Sunless Cliffs
+U Sunniso, Gestral Bouncer
 U Terraquake
 M The 67th Gommage
 R The Curator
