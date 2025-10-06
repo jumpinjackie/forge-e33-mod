@@ -1,6 +1,0 @@
-Name:Repaint
-ManaCost:1 W
-Types:Sorcery
-A:SP$ ChangeZone | Cost$ 1 W Sac<X/Chroma> | Origin$ Exile | Destination$ Hand | TgtPrompt$ Select target card in exile | ValidTgts$ Card.YouCtrl+cmcLEX | SpellDescription$ Return target card from exile with mana value X to your hand, where X is the number of sacrificed Chroma tokens.
-SVar:X:Count$xPaid
-Oracle:As an additional cost to cast this spell, sacrifice X Chromas. Return target card from exile with mana value X to your hand, where X is the number of sacrificed Chromas.

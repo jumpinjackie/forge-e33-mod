@@ -149,7 +149,7 @@ Whenever another non-Expeditioner creature enters, investigate.
 ```
 1W
 Sorcery
-As an additional cost to cast this spell, sacrifice X Chromas. Return target card from exile with mana value X to your hand, where X is the number of sacrificed Chromas.
+As an additional cost to cast this spell, sacrifice 3 Chroma tokens. Return target card from exile to your hand.
 ```
 
 [card implementation](/custom/cards/zDevelopment/repaint.txt)
@@ -158,7 +158,8 @@ As an additional cost to cast this spell, sacrifice X Chromas. Return target car
 
  - This is meant to represent (paintress) Maelle's new-found ability to resurrect the citizens of Lumiere provided she has some of their Chroma, as demonstrated by being able to bring back Lune and Sciel after their gommage.
  - Mechanically this means we can also bring back cards from exile.
- - Currently not working (the sacrifice X chromas condition). See BUGS.md
+ - Currently not working (the sacrifice X chromas condition).
+ - 7/10/2025: Change Chroma token sac requirement to 3 tokens instead of a variable amount and make the card in exile targeting have no restrictions instead of variable based on the amount of Chroma tokens sacced. This made it work.
 
 ## Sciel's Intervention
 
