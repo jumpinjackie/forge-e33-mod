@@ -20,7 +20,7 @@ All Expeditioners are humans and have an ability that gives you a Chroma Token w
 
 Certain instants and sorceries carry the "Gradient" sub-type. These are spells that have painter-aligned benefits.
 
-> DESIGN NOTE: We are somewhat deviating slightly from the video game in that Gradient attacks in the game are always "Epic"-tier attacks in nature. We are re-appropriating the term to be a classifier of instants/sorceries at any rarity. What we lose in lore/thematic correctness, we gain in mechanical flexibility.
+> DESIGN NOTE: We are somewhat deviating from the video game in that Gradient attacks in the game are always "Epic"-tier attacks in nature. We are re-appropriating the term to be a classifier of instants/sorceries at any rarity. What we lose in lore/thematic correctness, we gain in mechanical flexibility.
 
 ### Nevrons
 

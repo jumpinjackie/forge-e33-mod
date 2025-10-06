@@ -124,6 +124,7 @@ Land
 
 ### Design Notes
 
+ - In the game, the Gestral Village has an arena where Gestrals fight. Sciel was discovered to be competing here.
  - Gestral loves to fight. So naturally a Gestral Arena should have an ability that lets a Gestral fight someone else.
 
 ## Gestral Beach
@@ -138,6 +139,7 @@ Cycling {2} ({2}, Discard this card: Draw a card.)
 
 ### Design Notes
 
+ - In the game, various Gestral beaches in the continent are home to various challenge mini-games.
  - Origially I wanted a cheaper cycling 1 ability if you control a Gestral, but I don't think Forge supports multiple cycling abilities as it is keyworded, so I can't attach conditions to a keyworded ability.
 
 ## Gestral Village
@@ -152,6 +154,7 @@ Land - Town
 
 ### Design Notes
 
+ - in the game, this is the home of the Gestrals.
  - A sol land for Gestral tribal decks. Due to their artifact nature, Gestrals are significantly easier to cast (unlike Eldrazi which require explicit coloress-pip producing lands), so where applicable, costs have increased, but this card is a bone thrown to to this deck to allow for some acceleration.
 
 ## Lumiere Aquafarm
@@ -235,7 +238,7 @@ Legendary Land
 ### Design Notes
 
  - In the game, The Hauler is one of the four Axons created by Renoir. The Hauler represents Clea and has an entire city on its back, symbolizing the burden of family affairs being carried by Clea. The Hauler was killed by Simon.
- - Obviously mechanically maps to being a man-land.
+ - Obviously mechanically maps to being a man-land. Given the legendary and epic nature of Axons, it clearly must animate into something big and monstrous.
 
 ## The Monolith
 
@@ -252,7 +255,7 @@ When The Monolith has no gommage counters on it, sacrifice it.
 ### Design Notes
 
  - In the game, The Monolith is where The Paintress resides and is an everlasting reminder to the humans of Lumiere that time is running out.
- - For lore accuracy, this would've been 100 counters instead of 10, but that would take way too long in MTG "game time". Reducing it to 10 sacrifices lore accuracy, but retains mechanical accuracy of something that's constantly counting down and wiping out everything older than that number.
+ - For lore accuracy, this would've been 100 counters instead of 10, but that simply takes way too long in MTG "game time". A game is lucky to reach 50 turns, let alone 100! Reducing it to 10 sacrifices lore accuracy, but retains mechanical accuracy of something that's constantly counting down and wiping out everything older than that number.
 
 ## The Monolith Interior
 

@@ -139,7 +139,8 @@ Enchanted permanent doesn't untap during its controller's untap step.
 
 ### Design Notes
 
- - Standard blue pin-down effect for limited/draft
+ - In the game, this is one of Lune's skills.
+ - Went with standard blue pin-down effect for limited/draft
 
 ## Expedition 40 Glider
 

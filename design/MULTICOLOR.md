@@ -103,7 +103,7 @@ If this spell was kicked, destroy that artifact or enchantment if its mana value
 ### Design Notes
 
  - In the game, Breaking Rules is one of Maelle's abiliites.
- - For the card, I've disregarded all thematic/mechanical associations and designed the card only based on the name. We need cheap artifact/enchantment hate in this set, so I've turned this to a variant of Overload that can also hit enchantments.
+ - For the card, I've disregarded all thematic/mechanical associations and designed the card only based on the name. We need cheap artifact/enchantment hate in this set, and the name fits the bill for what I'm after, so I've turned this to a variant of Overload that can also hit enchantments.
 
 ## Chorale
 
@@ -338,6 +338,8 @@ When this creature dies, create a Chroma token.
 2/2
 ```
 
+[card implementation](/custom/cards/e/expedition_63_driver.txt)
+
 ### Design Notes
 
  - In the game, Expedition 63 employed the use of automobiles to traverse the continent. This expedition failed when their vehicles crashed into a Nevron for driving too fast.
@@ -415,7 +417,7 @@ When this creature dies, create a Chroma token.
 
 ### Design Notes
 
- - In the game, Expedition 81 was the first expedition to ever commnicate with a Nevron.
+ - In the game, Expedition 81 was the first expedition to ever communicate with a Nevron.
  - This card represents someone who has mastered the ability to communicate with Nevron.
  - Mechanically translated to taking control of Nevrons with a Vedalken Shackles style effect.
 
@@ -488,7 +490,7 @@ Hard Difficulty - {U/R}{U/R}: You may choose new targets for target spell or abi
  - All minigames are modeled as "quest" enchantments originating from Zendikar block and use the same terminology (charging with quest counters based on certain conditions with some payoff at the end once you reach a certain number of quest counters).
  - Went with any of your creatures being targeted as the triggering condition as that best describes gestrals being flung at you.
  - First payoff is card draw. Second (and more flavorful) payoff is to be able to redirect opponent's spells and abilities to signify the mastery of parrying flung gestrals back at the opponent.
- - 5/10/2025: Cost reduced from (U/R)(U/R) to (U/R) in line the other challenge enchantments
+ - 5/10/2025: Cost reduced from (U/R)(U/R) to (U/R) in line with the other challenge enchantments
 
 ## Gradient Charge
 
