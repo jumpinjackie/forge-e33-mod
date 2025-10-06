@@ -26,10 +26,6 @@ The WUBRG mana ability is not preventatively disabled if you don't meet the acti
 
 Getting the same ordering issue on the Uro modal trigger as Golgra.
 
-## Lost Gestral
-
-Chroma gift trigger not triggering
-
 ## Expedition 41
 
 Chapter 3: Not getting lumina tokens for destroyed Nevron tokens
