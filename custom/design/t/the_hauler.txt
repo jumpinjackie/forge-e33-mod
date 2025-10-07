@@ -1,0 +1,11 @@
+[Name]
+The Hauler
+[ManaCost]
+no cost
+[Types]
+Legendary
+Land
+[Oracle]
+{T}: Add {C}.
+{T}: Add one mana of any color. The Hauler does not untap during your next untap step.
+{7}: The Hauler becomes an 8/8 Axon colorless creature with Trample until end of turn. It's still a land.

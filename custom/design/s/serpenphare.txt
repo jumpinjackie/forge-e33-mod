@@ -1,0 +1,17 @@
+[Name]
+Serpenphare
+[ManaCost]
+5
+U
+R
+[Types]
+Legendary
+Creature
+Nevron
+Serpent
+[PT]
+7/7
+[Oracle]
+Flying. Ward 3.
+{1}{U}: Tap target creature and put a stun counter on it. Put a charge counter on this creature.
+{4}{R}, Remove X charge counters from Serpenphare: Serpenphare deals X damage to each creature.

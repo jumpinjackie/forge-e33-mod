@@ -1,0 +1,9 @@
+[Name]
+Manor Door
+[ManaCost]
+2
+[Types]
+Artifact
+[Oracle]
+{T}: Add {C}.
+{2}, {T}: Lock or unlock a door of target Room you control. Activate only as a sorcery.

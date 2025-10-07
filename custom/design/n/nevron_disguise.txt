@@ -1,0 +1,13 @@
+[Name]
+Nevron Disguise
+[ManaCost]
+G
+[Types]
+Kindred
+Enchantment
+Expeditioner
+[Oracle]
+{G}: Target non-Nevron creature becomes a Nevron until end of turn.
+{1}, Sacrifice this enchantment: Draw a card.
+[FlavorText]
+The idea was we'd only have to fool the first one. Then Jules can wear its carcass to trap the next, and so on, until we all have proper cover. But disguising ourselves as Nevrons has proven to be extremely ineffective, to say the least. Maybe they recognize each other by their chroma?

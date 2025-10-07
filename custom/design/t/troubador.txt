@@ -1,0 +1,13 @@
+[Name]
+Troubador
+[ManaCost]
+2
+C
+[Types]
+Creature
+Nevron
+[PT]
+2/2
+[Oracle]
+Other nevrons you control get +1/+1.
+When this creature dies, target opponent creates a Lumina token.

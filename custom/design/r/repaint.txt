@@ -1,0 +1,10 @@
+[Name]
+Repaint
+[ManaCost]
+1
+W
+[Types]
+Sorcery
+[Oracle]
+As an additional cost to cast this spell, sacrifice three Chroma tokens.
+Return target card you own from exile to your hand.

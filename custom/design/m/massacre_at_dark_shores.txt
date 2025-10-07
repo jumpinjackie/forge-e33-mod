@@ -1,0 +1,14 @@
+[Name]
+Massacre at Dark Shores
+[ManaCost]
+1
+B
+B
+[Types]
+Sorcery
+[Oracle]
+All non-Nevron, non-Painter creatures get -2/-2 until end of turn.
+[FlavorText]
+You- You're old. How did you-
+How did you survive the Gommage?
+Which expedition are you fr-

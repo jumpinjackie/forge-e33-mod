@@ -1,0 +1,14 @@
+[Name]
+The Greatest Expedition in History
+[ManaCost]
+W
+U
+B
+R
+G
+[Types]
+Kindred
+Sorcery
+Expeditioner
+[Oracle]
+You win the game if you control a total of 33 or more Expeditioners, Chroma, Lumina or Pictos permanents.

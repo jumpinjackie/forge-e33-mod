@@ -1,0 +1,19 @@
+[Name]
+Painted Clea, the Mistress
+[ManaCost]
+2
+U
+B
+[Types]
+Legendary
+Creature
+Painter
+God
+[PT]
+3/4
+[Oracle]
+Devoid.
+Nevron spells you cast cost {2} less to cast.
+Nevron creatures you control get +2/+2
+At the beginning of your upkeep, create a 1/1 colorless Nevron creature token.
+{5},{T}: Search your library for a Nevron card, reveal that card and put it into your hand.

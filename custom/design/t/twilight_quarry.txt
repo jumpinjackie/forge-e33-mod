@@ -1,0 +1,9 @@
+[Name]
+Twilight Quarry
+[ManaCost]
+no cost
+[Types]
+Land
+[Oracle]
+This land enters tapped. As it enters, choose a color.
+{T}: Add one mana of the chosen color.

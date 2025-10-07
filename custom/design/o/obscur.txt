@@ -1,0 +1,15 @@
+[Name]
+Obscur
+[ManaCost]
+2
+B
+[Types]
+Creature
+Nevron
+[PT]
+2/2
+[Oracle]
+Devoid $DEVOID_REMINDER_TEXT
+When this creature dies, target opponent creates a Lumina token.
+{1}{B}, {T}: Target creature an opponent controls gets -1/-1 until end of turn.
+{1}{B}, {T}: Untap target creature you control.

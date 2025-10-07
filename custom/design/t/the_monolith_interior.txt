@@ -1,0 +1,8 @@
+[Name]
+The Monolith Interior
+[ManaCost]
+no cost
+[Types]
+Land
+[Oracle]
+You may have this land enter tapped as a copy of any land on the battlefield, except it has "At the beginning of your upkeep, you may have this land become a copy of target land, and it has this ability."

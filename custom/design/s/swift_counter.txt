@@ -1,0 +1,14 @@
+[Name]
+Swift Counter
+[ManaCost]
+1
+U
+U
+[Types]
+Kindred
+Instant
+Expeditioner
+[Oracle]
+This spell costs {1} less to cast if you control an Expeditioner.
+Counter target spell.
+Create a Lumina token.

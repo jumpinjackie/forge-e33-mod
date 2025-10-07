@@ -1,0 +1,11 @@
+[Name]
+Tomorrow Comes
+[ManaCost]
+2
+UW
+[Types]
+Kindred
+Sorcery
+Expeditioner
+[Oracle]
+Search your library for an Expeditioner card, reveal it and put it into your hand, then shuffle.

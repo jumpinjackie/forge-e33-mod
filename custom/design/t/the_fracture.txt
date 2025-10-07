@@ -1,0 +1,12 @@
+[Name]
+The Fracture
+[ManaCost]
+3
+W
+[Types]
+Legendary
+Sorcery
+[Oracle]
+(You may cast a legendary sorcery only if you control a legendary creature or planeswalker.)
+Destroy all non-basic lands.
+Search your library for a card named The Monolith, put it onto the battlefield and shuffle.

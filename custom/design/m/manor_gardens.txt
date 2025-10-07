@@ -1,0 +1,10 @@
+[Name]
+Manor Gardens
+[ManaCost]
+no cost
+[Types]
+Land
+[Oracle]
+This land enters tapped.
+{T}: Add {G}.
+{T}, Sacrifice this land: Search your library for a Room card, reveal it, put it into your hand, then shuffle.

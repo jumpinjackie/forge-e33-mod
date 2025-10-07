@@ -1,0 +1,9 @@
+[Name]
+The World Canvas
+[ManaCost]
+4
+[Types]
+Legendary Artifact
+[Oracle]
+{T}: Add 3 mana of any one color. Spend this mana only to cast a Nevron, Gestral, Painter, Expeditioner or Picto spell.
+When The World Canvas leaves the battlefield, exile all permanents with a name originally printed in this expansion.

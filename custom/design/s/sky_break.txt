@@ -1,0 +1,16 @@
+[Name]
+Sky Break
+[ManaCost]
+2
+U
+U
+[Types]
+Kindred
+Sorcery
+Expeditioner
+Gradient
+[Oracle]
+Tap all creatures your opponents control, then put a stun counter on each of those creatures.
+If {R} was spent on this spell, it deals 6 damage to each creature with a stun counter at the beginning of your next end step.
+If {W} was spent on this spell, exile each creature with a stun counter at the beginning of your next end step.
+If {G} was spent on this spell, you gain 2 life for each creature on the battlefield.

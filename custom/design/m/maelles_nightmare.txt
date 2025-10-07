@@ -1,0 +1,9 @@
+[Name]
+Maelle's Nightmare
+[ManaCost]
+B
+[Types]
+Sorcery
+Gradient
+[Oracle]
+Target opponent reveals their hand. You choose either an Expeditioner card or a noncreature, nonland card from it. That player discards that card.

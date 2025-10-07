@@ -1,0 +1,15 @@
+[Name]
+Piercing Strike
+[ManaCost]
+3
+B
+[Types]
+Instant
+Gradient
+[Oracle]
+Devoid. Split Second.
+This spell costs {1} less to cast if you control a painter.
+This spell costs {1} less to cast if it targets an Expeditioner.
+Destroy target creature.
+[FlavorText]
+"Like I always say, it’s not about the rock, it’s more about th-"

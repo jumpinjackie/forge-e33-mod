@@ -1,0 +1,15 @@
+[Name]
+Alicia Dessendre, Silenced by Fire
+[ManaCost]
+W
+R
+[Types]
+Legendary
+Creature
+Human
+Expeditioner
+[PT]
+2/2
+[Oracle]
+Activated abilities of Chroma, Lumina, Nevrons and Pictos cannot be activated.
+(Melds with Maelle, Child of Lumiere.)

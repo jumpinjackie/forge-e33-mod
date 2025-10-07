@@ -1,0 +1,13 @@
+[Name]
+Thermal Transfer
+[ManaCost]
+1
+U
+[Types]
+Kindred
+Instant
+Expeditioner
+[Oracle]
+Kicker {R} (You may pay an additional {R} as you cast this spell.)
+Tap target creature and put a stun counter on it.
+If this spell was kicked, this spell deals 3 damage to another target creature.

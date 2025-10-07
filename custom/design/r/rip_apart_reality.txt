@@ -1,0 +1,12 @@
+[Name]
+Rip Apart Reality
+[ManaCost]
+3
+U
+[Types]
+Instant
+Gradient
+[Oracle]
+Devoid.
+This spell costs {2} less to cast if you control a painter.
+The owner of target permanent puts it on the top or bottom of their library.

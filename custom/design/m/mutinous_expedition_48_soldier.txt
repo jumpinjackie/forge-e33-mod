@@ -1,0 +1,17 @@
+[Name]
+Mutinous Expedition 48 Soldier
+[ManaCost]
+1
+R
+[Types]
+Creature
+Human
+Expeditioner
+Soldier
+[PT]
+3/3
+[Oracle]
+Mutiny! - Whenever an Expeditioner creature you control dies, target opponent gains control of this creature.
+When this creature dies, create a Chroma token.
+[AbilityWords]
+Mutiny!

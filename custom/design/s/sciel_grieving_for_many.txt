@@ -1,0 +1,21 @@
+[Name]
+Sciel, Grieving for Many
+[ManaCost]
+2
+W
+B
+[Types]
+Legendary
+Creature
+Human
+Expeditioner
+[PT]
+3/3
+[Oracle]
+Each nonland card in your hand without foretell has foretell. Its foretell cost is equal to its mana cost reduced by {2}.
+Marking Card - {B},{T}: Sciel deals 1 damage to target creature, put a marked counter on it.
+Twilight Slash - {W}{B},{T}: Sciel deals 2 damage to target creature, you gain 2 life.
+Intervention - {W}{W},{T}: Untap target creature. Create a Chroma token.
+Our Sacrifice - {1}{B}{B}, {T}, Pay X life: Creatures target opponent controls get -X/-X until end of turn.
+[FlavorText]
+Death is a friend who will welcome me home

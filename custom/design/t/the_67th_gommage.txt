@@ -1,0 +1,15 @@
+[Name]
+The 67th Gommage
+[ManaCost]
+4
+B
+B
+[Types]
+Legendary
+Sorcery
+[Oracle]
+(You may cast a legendary sorcery only if you control a legendary creature or planeswalker.)
+Each player with 33 or more life loses the game.
+[FlavorText]
+I'm here.
+I know. I know.

@@ -1,0 +1,14 @@
+[Name]
+Sastro, the Concerned
+[ManaCost]
+4
+[Types]
+Legendary
+Artifact
+Creature
+Gestral
+[PT]
+2/2
+[Oracle]
+When Sastro enters, put two 1/1 Gestral artifact creature tokens into play.
+Whenever another nontoken Gestral creature you control enters, create a Chroma token.

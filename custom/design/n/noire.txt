@@ -1,0 +1,14 @@
+[Name]
+Noire
+[ManaCost]
+3
+B
+B
+[Types]
+Creature
+Nevron
+[PT]
+5/5
+[Oracle]
+Devoid $DEVOID_REMINDER_TEXT
+When this creature dies, target opponent creates a Lumina token.

@@ -1,0 +1,11 @@
+[Name]
+Revitalization
+[ManaCost]
+2
+G
+[Types]
+Kindred
+Sorcery
+Expeditioner
+[Oracle]
+Choose up to one target creature card and up to one target non-creature card in your graveyard. Return those cards to your hand.

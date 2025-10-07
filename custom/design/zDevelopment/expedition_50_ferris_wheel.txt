@@ -1,0 +1,14 @@
+[Name]
+Expedition 50 Ferris Wheel
+[ManaCost]
+5
+[Types]
+Artifact
+Expeditioner
+Vehicle
+[PT]
+6/6
+[Oracle]
+Trample.
+Whenever this vehicle blocks or becomes blocked by a blue creature, destroy this vehicle at end of combat.
+Crew 4

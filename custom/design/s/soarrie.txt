@@ -1,0 +1,11 @@
+[Name]
+Soarrie
+[ManaCost]
+1
+[Types]
+Legendary
+Artifact
+Rock
+[Oracle]
+{T}: Target creature you control gains flying until end of turn.
+{1}, Sacrifice Soarrie: Draw a card.

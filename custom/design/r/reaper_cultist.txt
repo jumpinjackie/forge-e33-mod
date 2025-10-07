@@ -1,0 +1,14 @@
+[Name]
+Reaper Cultist
+[ManaCost]
+2
+W
+B
+[Types]
+Creature
+Nevron
+[PT]
+1/4
+[Oracle]
+Devoid $DEVOID_REMINDER_TEXT
+When this creature dies, target opponent creates a Lumina token.

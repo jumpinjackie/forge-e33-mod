@@ -1,0 +1,10 @@
+[Name]
+Urrie
+[ManaCost]
+1
+[Types]
+Legendary
+Artifact
+Rock
+[Oracle]
+{1}, {T}: Surveil 2.\n{1},Sacrifice Urrie: Draw a card.

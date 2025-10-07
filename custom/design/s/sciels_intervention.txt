@@ -1,0 +1,11 @@
+[Name]
+Sciel's Intervention
+[ManaCost]
+1
+W
+[Types]
+Kindred
+Instant
+Expeditioner
+[Oracle]
+Untap target creature you control. It gains hexproof until end of turn.

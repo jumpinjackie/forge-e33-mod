@@ -1,0 +1,10 @@
+[Name]
+Monoco's Station
+[ManaCost]
+no cost
+[Types]
+Land
+[Oracle]
+{T}: Add {C}.
+{T}: Add {U} or {R}. Activate this ability only if you control a Gestral or Grandis.
+{T}: Add {U} or {R}. This land doesn't untap during your next untap step

@@ -1,0 +1,15 @@
+[Name]
+Rally the Expeditioners
+[ManaCost]
+3
+WB
+[Types]
+Kindred
+Instant
+Expeditioner
+[Oracle]
+This spell costs {1} less to cast if you control an Expeditioner.
+Choose one -
+ - Create two 1/1 white Human Expeditioner tokens with "When this creature dies, create a Chroma token".
+ - Up to two target creatures you control each get +2/+2 until end of turn.
+ - Destroy target non-Expeditioner creature.
