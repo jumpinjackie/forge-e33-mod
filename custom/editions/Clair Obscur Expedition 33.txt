@@ -123,10 +123,12 @@ U Frozen Hearts
 R Gargant
 U Gestral Ascension Challenge
 R Gestral Arena
+R Gestral Bazaar
 C Gestral Beach
+U Gestral Bodyguard
 C Gestral Chef
 U Gestral Climbing Challenge
-U Gestral Bodyguard
+U Gestral Doctor
 U Gestral Fighter
 U Gestral Foot Race Challenge
 U Gestral Lackey
@@ -138,6 +140,8 @@ C Gestral Statue
 C Gestral Volleyball Strike
 R Gestral Village
 C Gestral Villager
+C Gestral Warrior
+C Gestral Worker
 R Giant Sapling
 U Grandis Merchant
 R Grandis Fashionist
