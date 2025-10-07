@@ -1,0 +1,14 @@
+[Name]
+Gestral
+Parkour
+Challenge
+[ManaCost]
+WR
+[Types]
+Enchantment
+[Oracle]
+Whenever a Human you control enters, you may put a quest counter on this enchantment.
+As long as this enchantment as two or more counters, creatures you control gain vigilance.
+As long as this enchantment as three or more counters, creatures you control gain prowess.
+[FlavorText]
+If I were a 2-year-old human, at what age would I gommage? ... You're probably right, I can't count anyway.

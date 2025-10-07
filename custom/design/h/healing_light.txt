@@ -1,0 +1,13 @@
+[Name]
+Healing Light
+[ManaCost]
+X
+W
+[Types]
+Kindred
+Sorcery
+Expeditioner
+[Oracle]
+Each player gains twice X life.
+[FlavorText]
+Please survive!

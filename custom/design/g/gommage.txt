@@ -1,0 +1,14 @@
+[Name]
+Gommage
+[ManaCost]
+3
+W
+B
+[Types]
+Sorcery
+Gradient
+[Oracle]
+This spell costs {1} less to cast if you control a painter.
+Exile all nonland permanents that aren't legendary or Nevrons.
+[FlavorText]
+Your mother paints life. Whilst your father, death. What will you paint?

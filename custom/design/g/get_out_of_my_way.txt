@@ -1,0 +1,15 @@
+[Name]
+Get Out Of My Way!
+[ManaCost]
+X
+R
+[Types]
+Kindred
+Sorcery
+Expeditioner
+[Oracle]
+X target Gestral creatures can't block this turn.
+[FlavorText]
+Sunniso: Geez, you don't need to be so rude.
+Gustave: Nononono, uh ... it's just, um ... it's the password ...
+Sunniso: Well, I don't know! Golgra never told me the password. But whatever, just go in.

@@ -1,0 +1,12 @@
+[Name]
+Lightning Dance
+[ManaCost]
+2
+R
+R
+[Types]
+Kindred
+Sorcery
+Expeditioner
+[Oracle]
+This spell deals 1 damage to any target, 2 damage to another target, and 3 damage to a third target.

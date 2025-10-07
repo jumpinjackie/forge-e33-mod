@@ -1,0 +1,14 @@
+[Name]
+Lune's Denial
+[ManaCost]
+1
+U
+[Types]
+Kindred
+Instant
+Expeditioner
+[Oracle]
+Counter target spell unless its controller pays {2}.
+Create a Lumina token.
+[FlavorText]
+Not today!

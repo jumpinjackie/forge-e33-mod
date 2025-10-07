@@ -1,0 +1,11 @@
+[Name]
+Gestral Arena
+[ManaCost]
+no cost
+[Types]
+Land
+[Oracle]
+{T}: Add {C}.
+{1},{R/G},{T}: Target Gestral creature you control fights another target creature
+[FlavorText]
+The tournament's starting soon. Please wait. - Gestral Warrior

@@ -1,0 +1,14 @@
+[Name]
+Gestral Fighter
+[ManaCost]
+2
+[Types]
+Artifact
+Creature
+Gestral
+[PT]
+1/2
+[Oracle]
+Whenever this creature attacks, it gets +2/+0 until end of turn for each other attacking Gestral.
+[FlavorText]
+See, this here's where we come when we wanna go full brush-mode, you got me?

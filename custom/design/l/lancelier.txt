@@ -1,0 +1,14 @@
+[Name]
+Lancelier
+[ManaCost]
+1
+G
+[Types]
+Creature
+Nevron
+[PT]
+2/2
+[Oracle]
+First Strike.
+Devoid.
+When this creature dies, target opponent creates a Lumina token.

@@ -1,0 +1,13 @@
+[Name]
+Limonsol, Matchmaker
+[ManaCost]
+3
+[Types]
+Legendary
+Artifact
+Creature
+Gestral
+[PT]
+2/2
+[Oracle]
+{2}, {T}: Target Gestral you control fights another target creature. (Each deals damage equal to its power to the other.)

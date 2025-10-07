@@ -1,0 +1,11 @@
+[Name]
+Ice Lance
+[ManaCost]
+2
+U
+[Types]
+Kindred
+Instant
+Expeditioner
+[Oracle]
+Tap up to two target permanents. Put a stun counter on them.

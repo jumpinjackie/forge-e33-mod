@@ -1,0 +1,10 @@
+[Name]
+Gestral Statue
+[ManaCost]
+2
+[Types]
+Artifact
+[Oracle]
+This card enters tapped.
+{T}: Add {C}.
+{2}: This card becomes a 2/2 Gestral artifact creature until end of turn.

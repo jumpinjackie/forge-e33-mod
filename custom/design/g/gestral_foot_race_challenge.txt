@@ -1,0 +1,13 @@
+[Name]
+Gestral Foot Race Challenge
+[ManaCost]
+RG
+[Types]
+Enchantment
+[Oracle]
+Whenever a creature enters, you may put a quest counter on this enchantment.
+Bronze Rank - As long as there are three or more quest counters on this enchantment, creatures you control have haste.
+Silver Rank - As long as there are four or more quest counters on this enchantment, creatures you control have Ward 1.
+Gold Rank - As long as there are five or more quest counters on this enchantment, creatures you control have trample.
+[FlavorText]
+00:36:500? Not a bad time, human.

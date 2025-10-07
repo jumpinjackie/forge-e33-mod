@@ -1,0 +1,10 @@
+[Name]
+Lumina Converter
+[ManaCost]
+2
+[Types]
+Artifact
+[Oracle]
+{T}, Remove a counter from a permanent you control: Create a Lumina token.
+{T}, Sacrifice a Chroma token: Create a Lumina token.
+{T}, Sacrifice a Nevron: Create a Lumina token.

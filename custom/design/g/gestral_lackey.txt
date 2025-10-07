@@ -1,0 +1,12 @@
+[Name]
+Gestral Lackey
+[ManaCost]
+1
+[Types]
+Artifact
+Creature
+Gestral
+[PT]
+1/1
+[Oracle]
+Whenever Gestral Lackey deals damage to a player, you may put a Gestral permanent card from your hand onto the battlefield.

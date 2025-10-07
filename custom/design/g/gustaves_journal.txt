@@ -1,0 +1,12 @@
+[Name]
+Gustave's Journal
+[ManaCost]
+3
+[Types]
+Legendary
+Artifact
+[Oracle]
+Whenever a Nevron dies, put a study counter on Gustave's Journal.
+{2}, {T}, Remove X study counters from Gustave's Journal: Draw X cards.
+[FlavorText]
+He spends some time writing in his journal. He writes about how dangerous the Nevrons are, but how beautiful the continent is. He hopes that one day, his apperntices will read everything he wrote.

@@ -1,0 +1,12 @@
+[Name]
+Gestral Climbing Challenge
+[ManaCost]
+G
+[Types]
+Enchantment
+[Oracle]
+Whenever a creature you control becomes tapped, you may put a quest counter on this Enchantment.
+As long as there are two or more counters on this enchantment. Creatures you control have reach.
+As long as there are four or more counters on this enchantment. You may play an additional land on each of your turns.
+[FlavorText]
+I've been trying to overcome this gestral's challenge for months now but it seems even more of a challenge than defeating the Paintress. I guess I'll neer see the Gestral's grand prize. That's my only regret in life. - Laure

@@ -1,0 +1,9 @@
+[Name]
+Gestral Beach
+[ManaCost]
+no cost
+[Types]
+Land
+[Oracle]
+{T}: Add {C}.
+Cycling {2} ({2}, Discard this card: Draw a card.)

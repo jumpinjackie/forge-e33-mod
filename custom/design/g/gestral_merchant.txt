@@ -1,0 +1,14 @@
+[Name]
+Gestral Merchant
+[ManaCost]
+3
+[Types]
+Artifact
+Creature
+Gestral
+[PT]
+2/3
+[Oracle]
+Whenever this creature is dealt damage, create a Chroma token.
+[FlavorText]
+I have some useful items for you!

@@ -1,0 +1,12 @@
+[Name]
+Leave this Canvas!
+[ManaCost]
+1
+W
+B
+[Types]
+Sorcery
+Gradient
+[Oracle]
+This spell costs {1} less to cast if you control a painter.
+Exile target nonland permanent.

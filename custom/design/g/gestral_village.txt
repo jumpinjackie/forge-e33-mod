@@ -1,0 +1,13 @@
+[Name]
+Gestral Village
+[ManaCost]
+no cost
+[Types]
+Land
+Town
+[Oracle]
+{T}: Add {C}.
+{T}: Add {C}{C}. Spend this mana only to cast Gestral spells or activate abilities of Gestrals.
+[FlavorText]
+Lune: It's ... it's really a village of Gestrals!
+Gustave: They seem better at surviving than humans.

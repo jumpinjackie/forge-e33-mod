@@ -1,0 +1,11 @@
+[Name]
+Gradient Charge
+[ManaCost]
+2
+WB
+[Types]
+Sorcery
+Gradient
+[Oracle]
+This spell costs {1} less to cast if you control a Painter.
+Search your library for a Gradient card, reveal that card, put it into your hand, then shuffle.

@@ -1,0 +1,16 @@
+[Name]
+Gustave's Ingenuity
+[ManaCost]
+3
+U
+U
+[Types]
+Kindred
+Instant
+Expeditioner
+[Oracle]
+This spell costs {1} less to cast if you control an Expeditioner.
+Draw three cards.
+[FlavorText]
+Maybe Gustave's idea to convert chroma from Pictos to... What did he call it? Lumina? Maybe that's not so crazy after all.
+- Corinne

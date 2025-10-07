@@ -1,0 +1,12 @@
+[Name]
+Gestral Volleyball Strike
+[ManaCost]
+2
+R
+[Types]
+Kindred
+Sorcery
+Gestral
+[Oracle]
+As an additional cost to cast this spell, sacrifice a Gestral.
+This spell deals 5 damage to any target.

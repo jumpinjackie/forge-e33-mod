@@ -1,0 +1,12 @@
+[Name]
+Gradient Counter
+[ManaCost]
+U
+[Types]
+Kindred
+Instant
+Expeditioner
+[Oracle]
+Counter target Gradient spell
+[FlavorText]
+Parry it!

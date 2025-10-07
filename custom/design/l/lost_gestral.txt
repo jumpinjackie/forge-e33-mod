@@ -1,0 +1,13 @@
+[Name]
+Lost Gestral
+[ManaCost]
+1
+[Types]
+Artifact
+Creature
+Gestral
+[PT]
+1/1
+[Oracle]
+When this creature enters, if you control a card named Sastro, the Concerned, create 2 Chroma tokens.
+Whenever this creature becomes the target of a spell or ability an opponent controls, put this creature on the bottom of its owner's library.

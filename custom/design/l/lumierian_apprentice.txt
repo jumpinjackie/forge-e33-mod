@@ -1,0 +1,15 @@
+[Name]
+Lumierian Apprentice
+[ManaCost]
+1
+W
+[PT]
+1/3
+[Types]
+Creature
+Human
+Citizen
+[Oracle]
+Whenever another non-Expeditioner creature enters, investigate. $INVESTIGATE_REMINDER_TEXT
+[FlavorText]
+He eagerly absorbs the knowledge given to him, for he knows when his time comes, it will be a valuable resource.

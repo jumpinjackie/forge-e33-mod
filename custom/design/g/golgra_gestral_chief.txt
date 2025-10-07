@@ -1,0 +1,23 @@
+[Name]
+Golgra, Gestral Chief
+[ManaCost]
+5
+[Types]
+Legendary
+Artifact
+Creature
+Gestral
+[PT]
+5/6
+[Oracle]
+Other Gestral creatures you control get +2/+2
+{2}: Put a shield counter on target Gestral you control.
+Enrage - Whenever Golgra is dealt damage, choose one:
+ - Put a Double strike counter on Golgra.
+ - Put a Vigilance counter on Golgra.
+ - Put a Trample counter on Golgra.
+ - Draw a card.
+[AbilityWords]
+Enrage
+[FlavorText]
+Really? A duel? Do you have a death wish?

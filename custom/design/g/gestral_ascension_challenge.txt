@@ -1,0 +1,11 @@
+[Name]
+Gestral Ascension Challenge
+[ManaCost]
+U
+[Types]
+Enchantment
+[Oracle]
+Whenever a creature you control with flying enters or a creature you control with flying attacks, you may put a quest counter on this enchantment.
+Remove four quest counters from this enchantment and sacrifice it: Draw three cards.
+[FlavorText]
+Oh really? An Expedition? I certainly wasn't expecting that. But your presence here is proof that you climbed the tower, like all of us here. You can live here with us now, forever.
