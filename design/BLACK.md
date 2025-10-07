@@ -103,7 +103,7 @@ Target opponent reveals their hand. You choose either an Expeditioner card or a 
 ```
 1BB
 Sorcery
-All non-Nevron creatures get -2/-2 until end of turn.
+All non-Nevron, non-Painter creatures get -2/-2 until end of turn.
 ```
 
 [card implementation](/custom/cards/m/massacre_at_dark_shores.txt)
@@ -112,6 +112,7 @@ All non-Nevron creatures get -2/-2 until end of turn.
 
  - This symbolizes the moment after the prologue when Expedition 33 lands at Dark Shores, encounter Painted Renoir and proceed to have all but 5 members be wiped out by P.Renoir and his cohort of Nevrons.
  - Another mini-sweeper to give Nevron tribal decks some fight against "go wide" strategies.
+ - 7/10/2025: Added non-Painter clause because this event was a joint Nevon/Painter production.
 
 ## Noire
 

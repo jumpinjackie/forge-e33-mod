@@ -47,7 +47,7 @@ When this artifact enters, draw a card.
 
 ### Design Notes
 
- - Just an artifact to provide color fixing and some minor ramp if you hava Chroma tokens to spare.
+ - This card has no in-game basis. Just an artifact to provide color fixing and some minor ramp if you hava Chroma tokens to spare.
 
 ## Dessendre Family Portrait
 
@@ -118,7 +118,8 @@ Artifact
 
 ### Design Notes
 
- - Just a mana rock for this set
+ - In the game, Energy Tints help refill your party's AP during a battle or outside of battle when you're not near an Expedition flag.
+ - Just a mana rock for this set.
  - Yes it may look dangerous to have a Grim Monolith with no downside, but you need some Lumina token investment first to take advantage, so there is some setup involved. The ideal turn 1 An Advantage!, turn 2 Energy Tint line is something I can accept as variance.
 
 ## Expedition 64 Radio
@@ -150,6 +151,7 @@ Artifact
 
 ### Design Notes
 
+ - In the game, these caches are scattered throughout the continent, left by previous Expeditions "for those who come after"
  - Just an enabler for Lumina/Chroma token strategies
 
 ## Florrie
@@ -299,6 +301,7 @@ Sacrifice this artifact: You gain 10 life. Activate this ability only if you con
 
 ### Design Notes
 
+ - In the game, health tints restore party member HP during a battle or outside of battle when not near an Expedition flag.
  - Another enabler for Lumina token strategies
 
 ## Julien Tiny Head
@@ -355,6 +358,7 @@ At the beginning of your upkeep, you may put a verse counter on Lorieniso.
 
 ### Design Notes
 
+ - In the game, Lorieniso is one of the NPCs found in the Gestral Village. Clearly named after Lorien Testard, the composer of the OST for this game.
  - This is the Gestral's Goblin Matron / Gestral Tutor. Adapted from Yisan, the Wanderer Bard
  - 20/09/2025: Initial playtesting shows this is quite broken in multiples. Made into a legendary creature and changed P/T to 1/3
 
@@ -442,6 +446,8 @@ Artifact
  - Create X Lumina tokens, where X is the number of sacrificed permanents.
 ```
 
+[card implementation](/custom/cards/r/recoat.txt)
+
 ### Design Notes
 
  - In the game, recoats are tints that let you respec your character attributes.
@@ -453,6 +459,7 @@ Artifact
 4
 Legendary Artifact Creature - Gestral
 When Sastro enters, put 2 1/1 Gestral artifact creature tokens into play.
+Whenever another nontoken Gestral creature enters, create a Chroma token.
 
 2/2
 ```
@@ -463,6 +470,7 @@ When Sastro enters, put 2 1/1 Gestral artifact creature tokens into play.
 
  - This is the Gestral (Siege-Gang Commander / Deranged Hermit)
  - Should have one more ability at least. Further abilities TBD.
+ - 6/10/2025: Gone with a Chroma rewarding ability.
 
 ## Soarrie
 

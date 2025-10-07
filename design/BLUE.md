@@ -210,7 +210,7 @@ The strongest ice attack ever - At the beginning of your upkeep, Francois deals 
 U
 Enchantment
 Whenever a creature you control with flying enters or a creature you control with flying attacks, put a quest counter on this enchantment.
-Remove four counters from this enchantment and sacrifice it: Draw three cards.
+Remove four quest counters from this enchantment and sacrifice it: Draw three cards.
 ```
 
 [card implementation](/custom/cards/g/gestral_ascension_challenge.txt)

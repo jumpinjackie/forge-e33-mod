@@ -132,3 +132,21 @@ This spell deals 1 damage to any target, 2 damage to another target, and 3 damag
 ### Design Notes
 
  - Just Cone of Flame made {1} cheaper and Expeditioner aligned
+
+## Mutinous Expedition 48 Soldier
+
+```
+1R
+Creature - Human Expeditioner Soldier
+Mutiny! - Whenever an Expeditioner creature you control dies, target opponent gains control of this creature.
+When this creature dies, create a Chroma token.
+
+3/3
+```
+
+[card implementation](/custom/cards/m/mutinous_expedition_48_soldier.txt)
+
+### Design Notes
+
+ - In the game, Expedition 48 was an expedition fraught with Mutiny and Treachery.
+ - The mutinous nature has been captured with this creature joining the other side when one of your Expeditioner compatriots dies.

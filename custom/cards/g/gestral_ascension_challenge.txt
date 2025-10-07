@@ -5,4 +5,4 @@ T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Creatu
 T:Mode$ Attacks | ValidCard$ Creature.YouCtrl+withFlying | Execute$ TrigQuestCounter | TriggerZones$ Battlefield | TriggerDescription$ Whenever a creature you control with flying enters, put a quest counter on CARDNAME.
 SVar:TrigQuestCounter:DB$ PutCounter | Defined$ Self | CounterType$ QUEST | CounterNum$ 1
 A:AB$ Draw | Cost$ SubCounter<4/QUEST> Sac<1/CARDNAME> | Defined$ You | NumCards$ 3 | SpellDescription$ Draw three cards
-Oracle:Whenever a creature you control with flying enters or a creature you control with flying attacks, you may put a quest counter on this enchantment.\nRemove four counters from this enchantment and sacrifice it: Draw three cards.
+Oracle:Whenever a creature you control with flying enters or a creature you control with flying attacks, you may put a quest counter on this enchantment.\nRemove four quest counters from this enchantment and sacrifice it: Draw three cards.

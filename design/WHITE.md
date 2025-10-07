@@ -108,7 +108,7 @@ When this creature dies, create a Chroma token.
 
  - No direct representation in the video game, but I can easily imagine there are some people in Lumiere whose job is to be trying to recruit citizens who are soon to be gommaged, persuading them to embark on the next Expedition, to make use of the limited time they have left in this world.
  - Goblin Matron, but for Expeditioners with standard death bonus.
- - 3/10/2025: This + Tomorrow Comes + Expedition 70 gives us effectively 12 Expeditioner tutors. This may be overkill and the Expedittioner strategy too consistent and we may have to rework one or more of these cards. Further playtesting will tell us.
+ - 3/10/2025: This + Tomorrow Comes + Expedition 70 gives us effectively 12 Expeditioner tutors. This may be overkill and the Expeditioner strategy too consistent and we may have to rework one or more of these cards. Further playtesting will tell us.
 
 ## Healing Light
 
