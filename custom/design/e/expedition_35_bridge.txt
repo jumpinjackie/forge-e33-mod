@@ -1,0 +1,13 @@
+[Name]
+Expedition 35 Bridge
+[ManaCost]
+2
+G
+[Types]
+Kindred
+Enchantment
+Expeditioner
+[Oracle]
+Sacrifice an Expeditioner: Draw a card
+[FlavorText]
+Yet in their final moments, they used their bodies to create a bridge for those who come after. Expedition 35 is over but tomorrow comes.

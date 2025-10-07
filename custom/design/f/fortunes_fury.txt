@@ -1,0 +1,11 @@
+[Name]
+Fortune's Fury
+[ManaCost]
+1
+R
+[Types]
+Kindred
+Instant
+Expeditioner
+[Oracle]
+Target creature gains double strike until end of turn. (It deals both first-strike and regular combat damage.)

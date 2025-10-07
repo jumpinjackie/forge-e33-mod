@@ -1,0 +1,13 @@
+[Name]
+Florrie
+[ManaCost]
+1
+[Types]
+Legendary
+Artifact
+Rock
+[Oracle]
+{T}: Target creature you control gains Islandwalk until end of turn.
+{1},Sacrifice Florrie: Draw a card.
+[FlavorText]
+See, Florrie helps me swim. But Florrie was stolen by my archnemesis! - Esquie

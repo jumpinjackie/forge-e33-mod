@@ -1,0 +1,19 @@
+[Name]
+Expedition 53 Herbalist
+[ManaCost]
+1
+WG
+[Types]
+Creature
+Human
+Expeditioner
+Cleric
+[PT]
+1/2
+[Oracle]
+Mercy Kill - Sacrifice an Expeditioner creature: You gain X life and scry X, where X is the sacrified creature's power.
+When this creature dies, create a Chroma token.
+[AbilityWords]
+Mercy Kill
+[FlavorText]
+It's the right choice. It is. Even if it doesn't feel like it. Right? Right. - Lilou

@@ -1,0 +1,22 @@
+[Name]
+Esquie, Friend of Verso
+[ManaCost]
+3
+U
+G
+[Types]
+Legendary
+Artifact
+Creature
+Mount
+[PT]
+6/6
+[Oracle]
+Saddle 2.
+Esquie has Islandwalk as long as you control a card named Florrie.
+Esquie has Flying as long as you control a card named Soarrie.
+Esquie has Trample as long as you control a card named Dorrie.
+When Esquie attacks, if you control a card named Urrie, Surveil 2.
+When Esquie attacks, if it is saddled, choose one:
+ - Draw a card.
+ - Put a land card from your hand onto the battlefield.

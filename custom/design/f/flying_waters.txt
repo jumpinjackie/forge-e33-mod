@@ -1,0 +1,10 @@
+[Name]
+Flying Waters
+[ManaCost]
+no cost
+[Types]
+Land
+[Oracle]
+This land enters tapped
+{T}: Add {U}.
+{U},{T}: Target creature you control gains flying until end of turn.

@@ -1,0 +1,18 @@
+[Name]
+Expedition 78 Aircrew
+[ManaCost]
+2
+WU
+WU
+[Types]
+Creature
+Human
+Expeditioner
+[PT]
+4/4
+[Oracle]
+Flying.
+This creature can block only creatures with Flying.
+When this creature dies, create a Chroma token.
+[FlavorText]
+Our only choice is to take matters into our own hands. Fortune favors the bold. We must forge ahead with CONVICTION.

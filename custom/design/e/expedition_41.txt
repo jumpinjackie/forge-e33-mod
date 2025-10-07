@@ -1,0 +1,12 @@
+[Name]
+Expedition 41
+[ManaCost]
+1
+B
+R
+[Types]
+Enchantment Saga
+[Oracle]
+(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
+I, II - Destroy target Nevron.
+III — Destroy all Nevrons. Create a Lumina token for each Nevron destroyed this way.

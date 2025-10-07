@@ -1,0 +1,18 @@
+[Name]
+Expedition 62 Hunter
+[ManaCost]
+1
+B
+B
+[Types]
+Creature
+Human
+Expeditioner
+[PT]
+2/2
+[Oracle]
+{2}{B},{T}: Target creature gets -2/-2 until end of turn.
+Sacrifice three Lumina tokens: Destroy target Nevron creature.
+When this creature dies, create a Chroma token.
+[FlavorText]
+Oh, I hear a big Nev coming, they count for double. If I kill it quick I can boost my score. - Virgile

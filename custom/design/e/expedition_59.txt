@@ -1,0 +1,13 @@
+[Name]
+Expedition 59
+[ManaCost]
+B
+G
+[Types]
+Enchantment
+Saga
+[Oracle]
+(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
+I — Destroy target Nevron. Create a Food token.
+II — Create 2 Food tokens.
+III — Until end of turn, Food tokens you control gain "Sacrifice this artifact: Target creature deals 3 damage to itself"

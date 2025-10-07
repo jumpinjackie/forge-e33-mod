@@ -1,0 +1,14 @@
+[Name]
+Expedition Recruiter
+[ManaCost]
+2
+W
+[Types]
+Creature
+Human
+Expeditioner
+[PT]
+1/1
+[Oracle]
+When this creature enters, you may search your library for an Expeditioner card, reveal it, put it into your hand, then shuffle.
+When this creature dies, create a Chroma token.

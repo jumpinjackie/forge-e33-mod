@@ -1,0 +1,11 @@
+[Name]
+Entering the Canvas
+[ManaCost]
+4
+R
+[Types]
+Instant
+[Oracle]
+You may put a creature card from your hand onto the battlefield. That creature gains haste. Sacrifice that creature at the beginning of the next end step.
+[FlavorText]
+This only truly ends if you destroy the canvas, and that means stopping the final sliver of Verso's soul from painting. - Clea

@@ -1,0 +1,17 @@
+[Name]
+Expedition 69 Surveyor
+[ManaCost]
+3
+G
+[Types]
+Creature
+Human
+Expeditioner
+[PT]
+2/2
+[Oracle]
+When this creature enters, you may search your library for a basic land card, put that card onto the battlefield tapped, then shuffle.
+Whenever this creature attacks, surveil 1.
+When this creature dies, create a Chroma token.
+[FlavorText]
+I get it's not very satisfying making maps and prepping trails while people are dying, but this prep work will pay off in the long run. - Fleur

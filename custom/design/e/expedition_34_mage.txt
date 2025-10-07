@@ -1,0 +1,18 @@
+[Name]
+Expedition 34 Mage
+[Types]
+Creature
+Human
+Expeditioner
+Wizard
+[ManaCost]
+W
+U
+R
+[PT]
+2/2
+[Oracle]
+{2}{W}: Tap target creature.
+{2}{U}: Put a stun counter on target creature.
+{2}{R}: This creature deals 1 damage to any target.
+When this creature dies, create a Chroma token.

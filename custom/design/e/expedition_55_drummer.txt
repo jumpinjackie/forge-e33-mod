@@ -1,0 +1,14 @@
+[Name]
+Expedition 55 Drummer
+[ManaCost]
+1
+G
+[Types]
+Creature
+Human
+Expeditioner
+[PT]
+2/2
+[Oracle]
+Other Expeditioner creatures you control get +1/+1.
+When this creature dies, create a Chroma token.

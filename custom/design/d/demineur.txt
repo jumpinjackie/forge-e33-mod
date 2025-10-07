@@ -1,0 +1,13 @@
+[Name]
+Demineur
+[ManaCost]
+U
+[Types]
+Creature Nevron
+[PT]
+1/1
+[Oracle]
+Flying.
+Devoid (This card has no color.)
+When this creature becomes the target of a spell or ability, sacrifice it.
+When this creature dies, target opponent creates a Lumina token.

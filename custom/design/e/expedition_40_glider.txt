@@ -1,0 +1,15 @@
+[Name]
+Expedition 40 Glider
+[ManaCost]
+2
+U
+[Types]
+Creature
+Human
+Expeditioner
+[PT]
+3/1
+[Oracle]
+Flying.
+This creature can block only creatures with flying.
+When this creature dies, create a Chroma token.

@@ -1,0 +1,13 @@
+[Name]
+Expedition 70
+[ManaCost]
+2
+W
+U
+[Types]
+Enchantment
+Saga
+[Oracle]
+(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
+I, II — Search your library for an Expeditioner card, reveal it and put it into your hand, then shuffle.
+III — Search your library for an Expeditioner permanent, put it onto the battlefield, then shuffle.

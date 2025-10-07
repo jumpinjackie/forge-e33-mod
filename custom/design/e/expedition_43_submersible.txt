@@ -1,0 +1,15 @@
+[Name]
+Expedition 43 Submersible
+[ManaCost]
+2
+U
+[Types]
+Artifact
+Expeditioner
+Vehicle
+[PT]
+2/3
+[Oracle]
+Islandwalk.
+Whenever this deals combat damage to a player or planeswalker, draw a card.
+Crew 2 (Tap any number of creatures you control with total power 2 or more: This Vehicle becomes an artifact creature until end of turn.)

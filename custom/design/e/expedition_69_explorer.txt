@@ -1,0 +1,14 @@
+[Name]
+Expedition 69 Explorer
+[ManaCost]
+G
+[Types]
+Creature
+Human
+Expeditioner
+[PT]
+1/1
+[Oracle]
+Sacrifice a Chroma token: Search your library for a basic land card, reveal it, put it into your hand, then shuffle.
+Sacrifice two Chroma tokens: You may put a basic land from your hand onto the battlefield tapped.
+When this creature dies, create a Chroma token.

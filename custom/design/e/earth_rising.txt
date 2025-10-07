@@ -1,0 +1,11 @@
+[Name]
+Earth Rising
+[ManaCost]
+2
+R
+[Types]
+Kindred
+Sorcery
+Expeditioner
+[Oracle]
+This spell deals 2 damage to each creature without flying and each player.

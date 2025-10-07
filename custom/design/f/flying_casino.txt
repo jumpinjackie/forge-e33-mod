@@ -1,0 +1,12 @@
+[Name]
+Flying Casino
+[ManaCost]
+no cost
+[Types]
+Land
+[Oracle]
+This land enters tapped.
+{T}: Add {C}.
+{1}{R},{T},Sacrifice this land: Search your library for a card and put it into your hand. Discard a card at random. Activate only as a sorcery.
+[FlavorText]
+I maintain this place even after its fall so its history is never forgotten. - Unknown Gestral

@@ -1,0 +1,10 @@
+[Name]
+Dessendre Family Portrait
+[ManaCost]
+3
+[Types]
+Artifact
+[Oracle]
+Painter and Gradient spells you cast cost {1} less to cast.
+{T}: Add one mana of any color. Spend this mana only to cast a Painter or Gradient spell.
+{3},{T}: Search your library for a Painter card, reveal it and put it into your hand, then shuffle.

@@ -1,0 +1,15 @@
+[Name]
+Expedition 00 Tracker
+[ManaCost]
+2
+G
+[Types]
+Creature
+Human
+Expeditioner
+Scout
+[PT]
+2/3
+[Oracle]
+{4}{G},{T}: Look at the top four cards of your library. You may reveal an Expeditioner card from among them and put it into your hand. Put the rest on the bottom of your library in a random order.
+When this creature dies, create a Chroma token.

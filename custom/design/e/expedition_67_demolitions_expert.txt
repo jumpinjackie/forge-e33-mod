@@ -1,0 +1,18 @@
+[Name]
+Expedition 67 Demolitions Expert
+[ManaCost]
+2
+B
+R
+[Types]
+Creature
+Human
+Expeditioner
+[PT]
+2/2
+[Oracle]
+Flash.
+When this creature enters, destroy target creature or artifact.
+When this creature dies, create a Chroma token.
+[FlavorText]
+We're out of explosives, but we've made enough holes in this place to reach that giant woman in the centre. - Luc

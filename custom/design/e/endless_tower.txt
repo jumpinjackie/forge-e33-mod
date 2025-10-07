@@ -1,0 +1,10 @@
+[Name]
+Endless Tower
+[ManaCost]
+no cost
+[Types]
+Legendary Land
+[Oracle]
+At the beginning of your upkeep, you may put a challenge counter on Endless Tower.
+{T}: Add {C}
+{T}, Remove X challenge counters from Endless Tower: You may put a Nevron creature card with mana value X from your hand onto the battlefield.

@@ -1,0 +1,17 @@
+[Name]
+Expedition 59 Chef
+[ManaCost]
+1
+BG
+[Types]
+Creature
+Human
+Expeditioner
+[PT]
+2/2
+[Oracle]
+Whenever a Nevron creature dies, create a Food token.
+Sacrifice a Food token: Target creature deals 3 damage to itself.
+When this creature dies, create a Chroma token.
+[FlavorText]
+I can't believe she convinced everyone to eat the Nevron. They've been puking for the past few hours. Great. - Julien

@@ -1,0 +1,14 @@
+[Name]
+Expedition 60
+[ManaCost]
+2
+W
+G
+[Types]
+Enchantment
+Saga
+[Oracle]
+(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
+I — Un-modified creatures you control gain vigilance until end of turn.
+II — Un-modified creatures you control gain vigilance and menace until end of turn.
+III — Un-modified creatures you control gain vigilance, menace, trample and +3/+3 until end of turn.

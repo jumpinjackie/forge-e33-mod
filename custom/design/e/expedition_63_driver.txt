@@ -1,0 +1,17 @@
+[Name]
+Expedition 63 Driver
+[ManaCost]
+1
+WR
+[Types]
+Creature
+Human
+Expeditioner
+Pilot
+[PT]
+2/2
+[Oracle]
+This creature saddles Mounts and crews Vehicles as though its power were 2 greater.
+When this creature dies, create a Chroma token.
+[FlavorText]
+Damnit Hector, I told you to SLOW DOWN - Damien

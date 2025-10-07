@@ -1,0 +1,11 @@
+[Name]
+Dorrie
+[ManaCost]
+1
+[Types]
+Legendary
+Artifact
+Rock
+[Oracle]
+{T}: Target creature you control gains Trample until end of turn.
+{1},Sacrifice Dorrie: Draw a card.

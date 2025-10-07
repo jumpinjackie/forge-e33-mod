@@ -1,0 +1,21 @@
+[Name]
+Francois, Waiting for Clea
+[ManaCost]
+2
+U
+U
+[Types]
+Legendary
+Artifact
+Creature
+Turtle
+[PT]
+1/6
+[Oracle]
+Affinity for Clea Planeswalkers.
+Defender.
+The strongest ice attack ever - At the beginning of your upkeep, Francois deals 4 damage to target creature an opponent controls. Tap that creature and put a stun counter on it.
+[AbilityWords]
+The strongest ice attack ever
+[FlavorText]
+Who dares enter my lair?!

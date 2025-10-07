@@ -1,0 +1,14 @@
+[Name]
+Expedition 55 Trumpeter
+[ManaCost]
+2
+WG
+[Types]
+Creature
+Human
+Expeditioner
+[PT]
+2/2
+[Oracle]
+Expeditioner spells you cast cost {1} less to cast.
+When this creature dies, create a Chroma token.

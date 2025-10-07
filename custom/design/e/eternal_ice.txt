@@ -1,0 +1,11 @@
+[Name]
+Eternal Ice
+[ManaCost]
+2
+U
+[Types]
+Enchantment
+Aura
+[Oracle]
+Enchant permanent
+Enchanted permanent doesn't untap during its controller's untap step.

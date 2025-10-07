@@ -1,0 +1,16 @@
+[Name]
+Expedition 69 Mountaineer
+[ManaCost]
+2
+G
+[Types]
+Creature
+Human
+Expeditioner
+[PT]
+3/2
+[Oracle]
+This creature can't be blocked except by creatures with flying.
+When this creature dies, create a Chroma token.
+[FlavorText]
+I still remember the first mountain we scaled. Watching the sun rise above the clouds was magical. But rappelling down as we set the handholds was pure exhilaration. - Fleur

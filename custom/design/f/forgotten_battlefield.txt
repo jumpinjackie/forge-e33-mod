@@ -1,0 +1,10 @@
+[Name]
+Forgotten Battlefield
+[ManaCost]
+no cost
+[Types]
+Legendary
+Land
+[Oracle]
+{T}: Add {C}.
+{1}{B}, {T}: Put target Nevron card from your graveyard on top of your library.
