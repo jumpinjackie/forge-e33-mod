@@ -1,0 +1,22 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug CardProcess",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceFolder}/tools/CardProcess/bin/Debug/net9.0/CardProcess.dll",
+            "args": [
+                "gendocs",
+                "--base-directory",
+                "${workspaceFolder}/custom",
+                "--output-dir",
+                "${workspaceFolder}/docs"
+            ],
+            "cwd": "${workspaceFolder}/tools/CardProcess",
+            "console": "internalConsole",
+            "stopAtEntry": false
+        }
+    ]
+}
