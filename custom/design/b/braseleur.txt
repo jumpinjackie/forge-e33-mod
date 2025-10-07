@@ -1,0 +1,14 @@
+[Name]
+Braseleur
+[ManaCost]
+1
+U
+R
+[Types]
+Creature
+Nevron
+[PT]
+3/2
+[Oracle]
+Devoid (This card has no color.)
+When this creature dies, target opponent creates a Lumina token.

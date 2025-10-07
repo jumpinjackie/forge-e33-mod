@@ -1,0 +1,11 @@
+[Name]
+Chroma Prison
+[ManaCost]
+2
+W
+[Types]
+Enchantment
+[Oracle]
+If you control a Painter, you may cast this spell as though it had flash.
+When this enchantment enters, exile another target nonland permanent.
+When this enchantment leaves the battlefield, return the exiled card to the battlefield under its owner's control.

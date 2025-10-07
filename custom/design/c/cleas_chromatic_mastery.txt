@@ -1,0 +1,9 @@
+[Name]
+Clea's Chromatic Mastery
+[ManaCost]
+2
+B
+[Types]
+Sorcery
+[Oracle]
+Search your library for a Nevron card, reveal it, put it into your hand, then shuffle.

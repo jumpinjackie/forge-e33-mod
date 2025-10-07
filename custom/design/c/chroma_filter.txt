@@ -1,0 +1,10 @@
+[Name]
+Chroma Filter
+[ManaCost]
+2
+[Types]
+Artifact
+[Oracle]
+When this artifact enters, draw a card.
+{1}, {T}: Add one mana of any color.
+{T}, Sacrifice a Chroma token: Add two mana of any one color.

@@ -1,0 +1,11 @@
+[Name]
+Abbest
+[ManaCost]
+G
+[Types]
+Creature Nevron
+[PT]
+1/2
+[Oracle]
+Devoid (This card has no color.)
+When this creature dies, target opponent creates a Lumina token.

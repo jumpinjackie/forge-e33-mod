@@ -1,0 +1,11 @@
+[Name]
+Cache Discovery
+[ManaCost]
+U
+[Types]
+Kindred
+Sorcery
+Expeditioner
+[Oracle]
+Create a Chroma token and a Lumina token.
+Splice onto Expeditioner Instant or Sorcery {U} (As you cast an Expeditioner Instant or Sorcery, you may reveal this card from your hand and pay its splice cost. If you do, add this card's effects to that spell.)

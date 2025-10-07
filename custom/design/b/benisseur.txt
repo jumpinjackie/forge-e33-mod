@@ -1,0 +1,14 @@
+[Name]
+Benisseur
+[ManaCost]
+2
+W
+R
+[Types]
+Creature
+Nevron
+[PT]
+4/4
+[Oracle]
+Devoid (This card has no color.)
+When this creature dies, target opponent creates a Lumina token.

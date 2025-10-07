@@ -1,0 +1,9 @@
+[Name]
+An Advantage!
+[ManaCost]
+U
+[Types]
+Kindred Sorcery Expeditioner
+[Oracle]
+Create three Lumina tokens.
+Draw a card at the beginning of the next turn's upkeep.

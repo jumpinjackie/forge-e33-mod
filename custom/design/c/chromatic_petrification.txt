@@ -1,0 +1,11 @@
+[Name]
+Chromatic Petrification
+[ManaCost]
+W
+B
+[Types]
+Enchantment
+Aura
+[Oracle]
+Enchant permanent.
+Enchanted permanent becomes an artifact and loses all abilities.

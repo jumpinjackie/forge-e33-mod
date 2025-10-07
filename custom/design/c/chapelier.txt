@@ -1,0 +1,18 @@
+[Name]
+Chapelier
+[ManaCost]
+2
+B
+B
+[Types]
+Creature Nevron
+[PT]
+2/2
+[Oracle]
+Flying.
+Devoid (This card has no color.)
+When this creature dies, target opponent creates a Lumina token.
+{1}{B},{T}: Create a 1/1 colorless Jar Nevron creature token.
+Exhaust on death - When this creature dies, tap target creature an opponent controls, put a stun counter on it. (If a permanent with a stun counter would become untapped, remove one from it instead.)
+[AbilityWords]
+Exhaust on death

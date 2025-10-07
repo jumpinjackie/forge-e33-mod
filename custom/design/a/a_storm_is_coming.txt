@@ -1,0 +1,18 @@
+[Name]
+A Storm is Coming
+[ManaCost]
+no cost
+[ColorIdentity]
+blue
+red
+[Types]
+Kindred
+Sorcery
+Expeditioner
+[Oracle]
+Suspend 1 - {U}{R} (Rather than cast this card from your hand, pay {U}{R} and exile it with one time counter on it. At the beginning of your upkeep, remove a time counter. When the last is removed, you may cast it without paying its mana cost.)
+This spell deals 3 damage to any target.
+Create a Lumina token.
+[DesignNotes]
+ - In the game, this is one of Lune's quotes during battle
+ - Lighting bolt with suspend to convey the "storm is coming". Lumina reward as standard with any Expeditioner spell

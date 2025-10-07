@@ -1,0 +1,12 @@
+[Name]
+Chalier
+[ManaCost]
+1
+C
+[Types]
+Creature
+Nevron
+[PT]
+2/2
+[Oracle]
+When this creature dies, target opponent creates a Lumina token.

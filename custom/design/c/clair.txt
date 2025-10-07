@@ -1,0 +1,15 @@
+[Name]
+Clair
+[ManaCost]
+2
+W
+[Types]
+Creature
+Nevron
+[PT]
+2/2
+[Oracle]
+Devoid (This card has no color.)
+When this creature dies, target opponent creates a Lumina token.
+{2}{W},{T}: Target creature an opponent controls loses all abilities until end of turn.
+{1}{W},{T}: Put a shield counter on target creature you control.

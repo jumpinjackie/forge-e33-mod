@@ -1,0 +1,15 @@
+[Name]
+Ballet
+[ManaCost]
+1
+RG
+RG
+[Types]
+Creature
+Nevron
+[PT]
+2/2
+[Oracle]
+Devoid (This card has no color.)
+Flying.
+When this creature dies, target opponent creates a Lumina token.

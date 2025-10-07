@@ -1,0 +1,12 @@
+[Name]
+Abberation
+[ManaCost]
+4
+B
+[Types]
+Creature Nevron
+[PT]
+3/3
+[Oracle]
+Devoid (This card has no color.)
+When this creature dies, target opponent creates a Lumina token.

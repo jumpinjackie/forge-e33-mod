@@ -1,0 +1,10 @@
+[Name]
+Crushing Cavern
+[ManaCost]
+no cost
+[Types]
+Land
+[Oracle]
+This land enters tapped.
+{T}: Add {C}.
+{1},{T},Sacrifice Crushing Cavern: Destroy target attacking creature without flying

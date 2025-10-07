@@ -1,0 +1,14 @@
+[Name]
+Chorale
+[ManaCost]
+1
+RG
+[Types]
+Creature
+Nevron
+[PT]
+2/1
+[Oracle]
+Flying.
+Devoid (This card has no color.)
+When this creature dies, target opponent creates a Lumina token.

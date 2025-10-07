@@ -1,0 +1,10 @@
+[Name]
+Chroma is Flowing
+[ManaCost]
+WG
+[Types]
+Kindred
+Sorcery
+Expeditioner
+[Oracle]
+Create two Chroma tokens.

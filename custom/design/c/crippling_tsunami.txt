@@ -1,0 +1,13 @@
+[Name]
+Crippling Tsunami
+[ManaCost]
+2
+U
+U
+[Types]
+Kindred
+Enchantment
+Expeditioner
+[Oracle]
+Tap an untapped creature you control: Tap target artifact or creature.
+Tap an untapped Expeditioner you control: Tap target land.

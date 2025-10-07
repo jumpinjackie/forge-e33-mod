@@ -1,0 +1,12 @@
+[Name]
+Chroma Barrier
+[ManaCost]
+2
+W
+W
+[Types]
+Legendary
+Enchantment
+[Oracle]
+Creatures cannot attack you unless their controller sacrifices a Chroma token for each creature they control that's attacking you.
+{3}: Create a Chroma token. Any player may activate this ability.

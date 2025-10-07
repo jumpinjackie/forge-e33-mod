@@ -1,0 +1,8 @@
+[Name]
+Chroma Catalyst
+[ManaCost]
+3
+[Types]
+Artifact
+[Oracle]
+If you would create a Chroma or Lumina token, instead create one of each.
