@@ -12,3 +12,6 @@ Nevron
 [Oracle]
 Devoid $DEVOID_REMINDER_TEXT
 When this creature dies, target opponent creates a Lumina token.
+[DesignNotes]
+ - In the game, Noires are high-tier Nevrons found on the Dark Shores and are an excellent source of XP farming in the late game.
+ - Placeholder vanilla Nevron. Abilities TBD.

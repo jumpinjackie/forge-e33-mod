@@ -12,3 +12,7 @@ As long as this enchantment as two or more counters, creatures you control gain 
 As long as this enchantment as three or more counters, creatures you control gain prowess.
 [FlavorText]
 If I were a 2-year-old human, at what age would I gommage? ... You're probably right, I can't count anyway.
+[DesignNotes]
+ - In the game, the Gestral Parkour Challenge is 1 of 5 challenge minigames. This minigame in particular requires clearing an obstacle course and answering a riddle at the end.
+ - All minigames are modeled as "quest" enchantments originating from Zendikar block and use the same terminology (charging with quest counters based on certain conditions with some payoff at the end once you reach a certain number of quest counters).
+ - Made the enter trigger human only to make this more Expeditioner-aligned.

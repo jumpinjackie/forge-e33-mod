@@ -12,3 +12,5 @@ Nevron
 Devoid (This card has no color.)
 When this creature dies, target opponent creates a Lumina token.
 This creature enters with a shield counter on it. (If it would be dealt damage or destroyed, remove a shield counter from it instead.)
+[DesignNotes]
+ - Just a vanilla hill giant. Has shield counters because its game counterpart always has one and Shield counters are near 1:1 mechanically.

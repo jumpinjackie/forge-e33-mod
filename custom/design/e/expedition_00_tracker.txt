@@ -13,3 +13,6 @@ Scout
 [Oracle]
 {4}{G},{T}: Look at the top four cards of your library. You may reveal an Expeditioner card from among them and put it into your hand. Put the rest on the bottom of your library in a random order.
 When this creature dies, create a Chroma token.
+[DesignNotes]
+ - In the game, Expedition 00 was the first "search and rescue" team to find any survivors of The Fracture.
+ - Gone with a variant of Brightwood Tracker

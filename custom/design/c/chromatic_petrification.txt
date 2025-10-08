@@ -9,3 +9,8 @@ Aura
 [Oracle]
 Enchant permanent.
 Enchanted permanent becomes an artifact and loses all abilities.
+[DesignNotes]
+ - Represents the effect inflicted on a good bunch of previous Expeditioners that turned them into statues with their Chroma trapped within.
+ - I orignally wanted this to turn into a "do nothing" artifact, but I think the "Enchant creature" restriction means this is a nonbo and the aura immediately "falls off". Will revisit later with "Enchant permanent" to see if this gives my desired result.
+     - Until then, I've gone with a 0/1 artifact creature.
+     - 23/09/2025: Now enchanting permanents so we can achieve the "inert artifact" effect. A slight flavor loss since this can now target more than just creatures, but I am more after the petrification effect than it needing to only target creatures

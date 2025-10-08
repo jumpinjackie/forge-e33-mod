@@ -7,3 +7,6 @@ Land
 [Oracle]
 {T}: Add {C}.
 Cycling {2} ({2}, Discard this card: Draw a card.)
+[DesignNotes]
+ - In the game, various Gestral beaches in the continent are home to various challenge mini-games.
+ - Origially I wanted a cheaper cycling 1 ability if you control a Gestral, but I don't think Forge supports multiple cycling abilities as it is keyworded, so I can't attach conditions to a keyworded ability.

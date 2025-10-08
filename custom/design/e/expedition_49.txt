@@ -11,3 +11,6 @@ Saga
 I — You gain 2 life for each creature you control.
 II — Put a shield counter on each creature you control.
 III — Creatures you control gain indestructible until end of turn.
+[DesignNotes]
+ - Journal is about expeditioners who carried out their mission through strong defense/healing tactics, which proves to be their downfall as their weak offensive capabilities prove to be ineffective against the Nevrons.
+ - Easy mechanical map to life gain and defensive buffs.

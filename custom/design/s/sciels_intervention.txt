@@ -9,3 +9,7 @@ Instant
 Expeditioner
 [Oracle]
 Untap target creature you control. It gains hexproof until end of turn.
+[DesignNotes]
+ - In the game, Intervention is Sciel's ability that lets an ally take their turn immediately along with an AP boost
+ - Mechanically, we've mapped "granting extra turns" to untapping creatures. Nothing approximates an "AP boost" for creatures, so we've given it a granting of hexproof.
+ - This has the name of "Sciel's Intervention" as "Intervention" on its own is too generic has a risk of being "name-squatted" by an actual card from Wizards in the future.

@@ -9,3 +9,8 @@ Whenever a creature you control with flying enters or a creature you control wit
 Remove four quest counters from this enchantment and sacrifice it: Draw three cards.
 [FlavorText]
 Oh really? An Expedition? I certainly wasn't expecting that. But your presence here is proof that you climbed the tower, like all of us here. You can live here with us now, forever.
+[DesignNotes]
+ - In the game, the Gestral Ascension Challenge is 1 of 5 challenge minigames. This minigame in particular requires ascending upwards navigating various obstacles and jumps without falling down and starting over.
+ - All minigames are modeled as "quest" enchantments originating from Zendikar block and use the same terminology (charging with quest counters based on certain conditions with some payoff at the end once you reach a certain number of quest counters).
+ - In the case of this card, the condition involves flying creatures (we are trying to ascend to the top after all!) and the payoff is card draw.
+ - Ancestral Recall in enchantment form may look broken at face value, but you really need to be all-in on an all-flyers strategy to reliably pop this off. If further playtesting shows we are popping this off too reliably, we can always bump up the quest counter requirement.

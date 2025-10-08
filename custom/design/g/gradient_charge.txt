@@ -9,3 +9,6 @@ Gradient
 [Oracle]
 This spell costs {1} less to cast if you control a Painter.
 Search your library for a Gradient card, reveal that card, put it into your hand, then shuffle.
+[DesignNotes]
+ - In the game, Gradient attacks are "Epic" tier attacks. To use such attacks you need to fill up a Gradient gauge. The Gradient gauge holds up to 3 charges. Gradient attacks cost anywhere between 1 to 3 charges.
+ - Mechanically, this is just a Gradient spell tutor to assist in Painter-based strategies.

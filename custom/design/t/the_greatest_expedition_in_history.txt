@@ -12,3 +12,6 @@ Sorcery
 Expeditioner
 [Oracle]
 You win the game if you control a total of 33 or more Expeditioners, Chroma, Lumina or Pictos permanents.
+[DesignNotes]
+ - If you're doing nothing with these Chroma and Lumina tokens being generated then this spell is a goal to reach towards.
+ - This card also let's us do something with the number 33, which has great symbolic significance in the game.

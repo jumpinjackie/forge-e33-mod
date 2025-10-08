@@ -16,3 +16,6 @@ Sacrifice three Lumina tokens: Destroy target Nevron creature.
 When this creature dies, create a Chroma token.
 [FlavorText]
 Oh, I hear a big Nev coming, they count for double. If I kill it quick I can boost my score. - Virgile
+[DesignNotes]
+ - In the game, Expedition 62 made Nevron hunting into a game, with members constantly trying to outscore each other in Nevron kills.
+ - Mechanically translated to a creature with creature killing abilities and standard Expeditioner death bonus.

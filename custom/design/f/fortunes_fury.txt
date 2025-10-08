@@ -9,3 +9,6 @@ Instant
 Expeditioner
 [Oracle]
 Target creature gains double strike until end of turn. (It deals both first-strike and regular combat damage.)
+[DesignNotes]
+ - In the game, this is Sciel's ability that grants double-damage to one of her allies.
+ - Easy mechanical map to double-strike

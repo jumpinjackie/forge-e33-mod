@@ -10,3 +10,6 @@ Gradient
 [Oracle]
 This spell costs {1} less to cast if you control a painter.
 Exile target nonland permanent.
+[DesignNotes]
+ - One of Maelle's quotes as she's about to gommage some sorry Nevron out of existence.
+ - Painter bonus because this is a painter's power.

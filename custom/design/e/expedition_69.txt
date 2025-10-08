@@ -11,3 +11,6 @@ Saga
 I — Search your library for a basic land card, put it onto the battlefield tapped, then shuffle.
 II — You may play an additional land this turn.
 III — Search your library for a land card, put it onto the battlefield, then shuffle.
+[DesignNotes]
+ - Journal is thematically the same as Expedition 70: a story of exploring everywhere and installing grapple points for those who come after.
+ - The one puts more emphasis on the exploration (ie. Land/mana ramp)

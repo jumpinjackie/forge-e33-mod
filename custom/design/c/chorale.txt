@@ -12,3 +12,6 @@ Nevron
 Flying.
 Devoid (This card has no color.)
 When this creature dies, target opponent creates a Lumina token.
+[DesignNotes]
+ - Another vanilla Nevron
+ - 5/10/2025: Switched PT from 1/2 to 2/1 for more offensive punch.

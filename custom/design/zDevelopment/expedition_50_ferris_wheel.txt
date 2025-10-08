@@ -12,3 +12,6 @@ Vehicle
 Trample.
 Whenever this vehicle blocks or becomes blocked by a blue creature, destroy this vehicle at end of combat.
 Crew 4
+[DesignNotes]
+ - In the game, Expedition 50 built a giant ferris wheel to traverse the waters of the continent, but Serpenphare stopped their progression.
+ - This card depicts this contraption. Clearly a vehicle with fatty stats. The weakness to blue creatures in combat is a nod to Serpenphare being the wheel's achillies' heel.

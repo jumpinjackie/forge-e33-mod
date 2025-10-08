@@ -12,3 +12,5 @@ Expeditioner
 This spell costs {1} less to cast if you control an Expeditioner.
 Counter target spell.
 Create a Lumina token.
+[DesignNotes]
+ - This set needs a hard counter. Give it the standard Expeditioner bonuses.

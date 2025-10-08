@@ -14,3 +14,6 @@ Cleric
 Whenever you create a Chroma or Lumina token, you gain 1 life.
 {2},{T}: Prevent the next X damage that would be dealt to any target this turn, where X is the number of Chroma and Lumina tokens you control.
 When this creature dies, create a Chroma token.
+[DesignNotes]
+ - In the game, Expedition 49 employed strong defensive and healing tactics against Nevrons which proved ineffective as their offensive capabilities were really weak.
+ - Easy mechanical map to a creature with life gain and damage prevention abilities.

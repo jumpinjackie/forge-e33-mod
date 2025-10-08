@@ -8,3 +8,7 @@ Land
 This land enters tapped.
 {T}: Add {G}.
 {T}, Sacrifice this land: Search your library for a Room card, reveal it, put it into your hand, then shuffle.
+[DesignNotes]
+ - In the game, the Manor Gardens is outside of the Manor entrance.
+ - Gardens > Green mana
+ - Since everything Manor-related has a room sub-theme, this land also acts as a room tutor.

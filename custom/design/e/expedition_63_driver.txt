@@ -15,3 +15,6 @@ This creature saddles Mounts and crews Vehicles as though its power were 2 great
 When this creature dies, create a Chroma token.
 [FlavorText]
 Damnit Hector, I told you to SLOW DOWN - Damien
+[DesignNotes]
+ - In the game, Expedition 63 employed the use of automobiles to traverse the continent. This expedition failed when their vehicles crashed into a Nevron for driving too fast.
+ - This card models such a driver.

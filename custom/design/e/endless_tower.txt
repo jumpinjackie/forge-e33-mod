@@ -8,3 +8,10 @@ Legendary Land
 At the beginning of your upkeep, you may put a challenge counter on Endless Tower.
 {T}: Add {C}
 {T}, Remove X challenge counters from Endless Tower: You may put a Nevron creature card with mana value X from your hand onto the battlefield.
+[FlavorText]
+It's not selfish to make your own choices, sister.
+- Fading Woman
+[DesignNotes]
+ - In the game, the Endless Tower was a 33-battle gauntlet against Nevrons of increasing difficulty
+ - Figured the best way to mechanically model this gauntlet is to have something between Aether Vial and Mercadian Lift that grows counters and can put out Nevrons of increasing size based on the number of counters.
+ - We take the automatic growing counters effect of Aether Vial with the "removing counters as part of activation" part of Mercadian Lift. It would be hideously broken if we kept the Aether Vial activation as then this would be a strictly better and uncounterable Aether Vial, even if it had a Nevron-only restriction and legendary.

@@ -8,3 +8,6 @@ Artifact
 {1}, {T}, Sacrifice this artifact and any number of token permanents you control: Choose one -
  - Create X Chroma tokens, where X is the number of sacrificed permanents.
  - Create X Lumina tokens, where X is the number of sacrificed permanents.
+[DesignNotes]
+ - In the game, recoats are tints that let you respec your character attributes.
+ - I've interpreted this as an artifact that let's you convert/respec tokens into Chroma or Lumina tokens.

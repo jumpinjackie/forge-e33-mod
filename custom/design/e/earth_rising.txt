@@ -9,3 +9,7 @@ Sorcery
 Expeditioner
 [Oracle]
 This spell deals 2 damage to each creature without flying and each player.
+[DesignNotes]
+ - In the game, this is one of Lune's skills
+ - Just a mini-earthquake
+ - Needed a sweeper to give control strategies something to stymie go-wide strategies

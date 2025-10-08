@@ -20,3 +20,14 @@ When Esquie attacks, if you control a card named Urrie, Surveil 2.
 When Esquie attacks, if it is saddled, choose one:
  - Draw a card.
  - Put a land card from your hand onto the battlefield.
+[DesignNotes]
+ - In the game, Esquie is the character the rest of the party rides on to travel across the Continent overworld.
+ - In the game, Esquie gains additional powers through consuming the rocks, Florrie (swimming), Dorrie (smash thorugh coral barriers), Soarrie (flying) and Urrie (diving)
+ - Mechanically, it makes 100% sense this should be a Mount artifact creature with Saddle
+     - Because I want to enable an "Urzatron" strategy with the 4 legendary rocks, I am deviating from lore by having these 4 rocks grant extra abilities to Esquie when on the battlefield instead of sacrificing them to Esquie to give them these abilities
+     - Mechanically I've interpreted Esquies abilities as:
+         - Swimming - Islandwalk
+         - Smashing through coral barriers - Trample
+         - Flying - Flying
+         - Diving - Surveil on attack
+ - Because this is a Mount creature with Saddle, I've given it the Uro (draw a card or put a land) triggered ability as the saddle attacking bonus.

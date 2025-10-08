@@ -8,3 +8,6 @@ Land
 This land enters tapped
 {T}: Add {U}.
 {U},{T}: Target creature you control gains flying until end of turn.
+[DesignNotes]
+ - In the game, Flying Waters is one of the early dungeons with a heavy water/nautical theme
+ - Mechanically this clearly is a land that should tap for blue mana. Gave it a flying granting ability just because of the name.

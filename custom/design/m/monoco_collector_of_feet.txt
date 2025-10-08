@@ -16,3 +16,9 @@ Whenever a nontoken Nevron creature dies, exile it with a Foot counter.
 My, what lovely feet! - Monoco has activated abilities of all Nevrons in exile with a Foot counter on them. Monoco has flying as long as an exiled Nevron creature with a Foot counter has flying. The same is true for first strike, double strike, deathtouch, haste, hexproof, indestructible, lifelink, meance, reach, trample and vigilance.
 {1}{G}, {T}: Monoco fights target creature.
 {2}{W}: Untap Monoco.
+[DesignNotes]
+ - In the game, Monoco is a Gestral that joins your party in Act 2. Every Nevron you defeat with Monoco in the party will add a foot to Monoco's collection. Monoco's skills are based on the Nevron feet that Monoco has equipped. Each Nevron foot grants some ability of the defeated Nevron.
+ - Mechanically and flavorfully, this easily maps to one of the many existing "ability stealing" cards already in the card game. So it is a matter of choosing which ability stealing variant we want to copy from. We've gone with a combination of stealing activated abilities of slain Nevron along with a bunch of keyword abilities.
+ - Exile with a Foot counter is a book-keeping mechanism to easily track which creatures Monoco will be stealing abilities from.
+ - Fight ability provided because Monoco is a Gestral, and Gestrals love to fight, and also serves as an enabler for ability stealing.
+ - The untap ability is provided for synergy with any tap activated abilities that Monoco may steal.

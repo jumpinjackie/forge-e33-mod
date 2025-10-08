@@ -22,3 +22,10 @@ Marking Shot
 From Fire
 Strike Storm
 Overcharge
+[DesignNotes]
+ - Key mechanical gimmick we want to replicate from the game is his overcharge ability, which obviously requires charge build up. We had a choice between energy counters or charge counters. We settled on charge counters as energy counters are a global resource, whereas charage counters would be a resource localized to Gustave himself.
+ - Marking shot is just a creature ping that puts a marked counter on it. A creature with a marked counter will be a magnet for more damage.
+ - From fire in the game is an ability that heals Gustave a bit if the target is burning. Translated this to a creature bolt + life gain.
+ - Strike storm in the game is just a flurry of strikes. Translated this to temporary double strike.
+ - Finally, overcharge (the ability we're all building towards) in the game deals high lightning damage based on the number of charges. Translated this to an X damage ability to a creature and its controller (where X is the number of charge counters removed).
+ - 23/09/2025: It may look a bit odd to have blue color identity but no actual abilities that cost blue mana. I added the blue color identity strictly for flavor purposes because he's an engineer and engineers are almost always a blue color identity.

@@ -11,3 +11,6 @@ Gestral
 2/2
 [Oracle]
 {2}, {T}: Target Gestral you control fights another target creature. (Each deals damage equal to its power to the other.)
+[DesignNotes]
+ - In the game, Limonsol sets up fights in the Gestral Arena
+ - Mechanically, I just repeated Gestral Arena and gave him a fight ability

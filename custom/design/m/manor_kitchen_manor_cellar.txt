@@ -23,3 +23,7 @@ Room
 When you unlock this door, choose one:
  - Create two Chroma tokens.
  - Create two Lumina tokens.
+[DesignNotes]
+ - In the game, the Kitchen connects to the entrance. The cellar is accessible after solving a puzzle in the kitchen.
+ - Kitchen is an easy mechanical map to food tokens.
+ - Cellar I've decided to mechanically map to Chroma/Lumina tokens as that is some of the loot that's available in the game.

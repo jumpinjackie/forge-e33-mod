@@ -13,3 +13,7 @@ Devoid $DEVOID_REMINDER_TEXT
 When this creature dies, target opponent creates a Lumina token.
 {1}{B}, {T}: Target creature an opponent controls gets -1/-1 until end of turn.
 {1}{B}, {T}: Untap target creature you control.
+[DesignNotes]
+ - In the game, Obscur is the other half of Clair.
+ - Mechanically, it's main ability is to give its allies the ability to act twice, which I've mapped to untapping creatures.
+ - And to round out its abilities I've given it a generic -1/-1 affliction ability.

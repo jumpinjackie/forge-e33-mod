@@ -13,3 +13,7 @@ Bard
 [Oracle]
 At the beginning of your upkeep, you may put a verse counter on Lorieniso.
 {2}, {T}: Search your library for a Gestral card with mana value X or less and put it into your hand, where X is the number of verse counters on this creature.
+[DesignNotes]
+ - In the game, Lorieniso is one of the NPCs found in the Gestral Village. Clearly named after Lorien Testard, the composer of the OST for this game.
+ - This is the Gestral's Goblin Matron / Gestral Tutor. Adapted from Yisan, the Wanderer Bard
+ - 20/09/2025: Initial playtesting shows this is quite broken in multiples. Made into a legendary creature and changed P/T to 1/3

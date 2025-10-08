@@ -16,3 +16,6 @@ When this creature dies, target opponent creates a Lumina token.
 Exhaust on death - When this creature dies, tap target creature an opponent controls, put a stun counter on it. (If a permanent with a stun counter would become untapped, remove one from it instead.)
 [AbilityWords]
 Exhaust on death
+[DesignNotes]
+ - In the game, Chapelier summons jars to attack the party if not shot down and causes party exhaustion on defeat.
+ - Gave it a token generation ability and mechanically represent exhaustion with tap + stun counter.

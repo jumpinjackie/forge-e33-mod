@@ -7,3 +7,5 @@ B
 Sorcery
 [Oracle]
 Search your library for a Nevron card, reveal it, put it into your hand, then shuffle.
+[DesignNotes]
+ - A Nevron tutor to support Nevron tribal strategies

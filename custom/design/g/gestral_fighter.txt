@@ -12,3 +12,6 @@ Gestral
 Whenever this creature attacks, it gets +2/+0 until end of turn for each other attacking Gestral.
 [FlavorText]
 See, this here's where we come when we wanna go full brush-mode, you got me?
+[DesignNotes]
+ - The Gestral version of Goblin Piledriver. If we want a viable Gestral tribal deck, it needs a "heavy hitter". This is the heavy hitter.
+ - May increase cost to 3 in the future.

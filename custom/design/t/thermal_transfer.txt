@@ -11,3 +11,6 @@ Expeditioner
 Kicker {R} (You may pay an additional {R} as you cast this spell.)
 Tap target creature and put a stun counter on it.
 If this spell was kicked, this spell deals 3 damage to another target creature.
+[DesignNotes]
+ - In the game this is one of Lune's abilities.
+ - As the ability from the game has fire/ice elements, it naturally mechanically maps to a tap and stun on the ice side. For the fire side, I've decided to add a creature bolt ability behind a kicker cost.

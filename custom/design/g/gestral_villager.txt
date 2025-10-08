@@ -10,3 +10,5 @@ Gestral
 2/1
 [FlavorText]
 Expeditioners, eh? You're a fun looking bunch. Unless you try to cause problems. Then we'll beat you up. Which will be fun for me, but not for you.
+[DesignNotes]
+ - Just a vanilla Gestral to round out a Gestral tribal deck and to round out the creature roster for draft/limited

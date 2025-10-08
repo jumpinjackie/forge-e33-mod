@@ -21,3 +21,6 @@ Enchantment
 Room
 [Oracle]
 When you unlock this door, return target creature card from your graveyard to the battlefield.
+[DesignNotes]
+ - In the game, the Manor entrance is there the expedition flag is to save. There is room that is hidden behind a painting that is accessible by jumping through the painting.
+ - Gone with an effect to cheat a creature into play with each side represent a different way to cheat said creature into play.

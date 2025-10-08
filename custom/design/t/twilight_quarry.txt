@@ -7,3 +7,6 @@ Land
 [Oracle]
 This land enters tapped. As it enters, choose a color.
 {T}: Add one mana of the chosen color.
+[DesignNotes]
+ - In the game, the Twilight Quarry is an area where a collectible record can be found
+ - Another land to provide mana fixing

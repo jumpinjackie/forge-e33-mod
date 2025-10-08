@@ -13,3 +13,6 @@ Vehicle
 Islandwalk.
 Whenever this deals combat damage to a player or planeswalker, draw a card.
 Crew 2 (Tap any number of creatures you control with total power 2 or more: This Vehicle becomes an artifact creature until end of turn.)
+[DesignNotes]
+ - In the game, Expedition 43 tried using Submarines to traverse the continent without encountering Nevrons. This ended in failure when they were wiped out by Serpenphare.
+ - Easy mechanical map to a vehicle. Mostly adapted from Silent Submersible.

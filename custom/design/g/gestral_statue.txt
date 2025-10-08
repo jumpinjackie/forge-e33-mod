@@ -8,3 +8,6 @@ Artifact
 This card enters tapped.
 {T}: Add {C}.
 {2}: This card becomes a 2/2 Gestral artifact creature until end of turn.
+[DesignNotes]
+ - Gestral version of Guardian Idol.
+ - A mana rock to support the Gestral tribal strategy, while providing some extra offensive punch if required.

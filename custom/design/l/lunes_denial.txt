@@ -12,3 +12,5 @@ Counter target spell unless its controller pays {2}.
 Create a Lumina token.
 [FlavorText]
 Not today!
+[DesignNotes]
+ - Mandatory soft-counter with thematic uniqueness

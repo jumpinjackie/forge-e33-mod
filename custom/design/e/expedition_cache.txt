@@ -9,3 +9,6 @@ Artifact
 {T},Sacrifice this artifact: Create two Chroma tokens.
 [FlavorText]
 This could be useful! - Gustave
+[DesignNotes]
+ - In the game, these caches are scattered throughout the continent, left by previous Expeditions "for those who come after"
+ - Just an enabler for Lumina/Chroma token strategies

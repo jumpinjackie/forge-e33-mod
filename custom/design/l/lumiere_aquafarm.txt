@@ -10,3 +10,8 @@ This land enters tapped unless you control an Expeditioner.
 {4},{T}: Create a Food token.
 [FlavorText]
 The Aquafarm project ensured that Lumiere would have a plentiful supply of food for years to come.
+[DesignNotes]
+ - In the game, Gustave lead the Aquafarm project which ensured the food supply for the city of Lumiere.
+ - This gives us an opportunity to add another dual land to this set.
+ - Obviously expeditioner aligned so they get a ETB tapped sidestep.
+ - It's a farm so obviously needs a Food token generating ability.

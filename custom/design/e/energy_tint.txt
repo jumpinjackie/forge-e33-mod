@@ -7,3 +7,7 @@ Artifact
 [Oracle]
 {T}: Add {C}.
 {T}: Add {C}{C}{C}. Activate this ability only if you control at least 3 Lumina tokens.
+[DesignNotes]
+ - In the game, Energy Tints help refill your party's AP during a battle or outside of battle when you're not near an Expedition flag.
+ - Just a mana rock for this set.
+ - Yes it may look dangerous to have a Grim Monolith with no downside, but you need some Lumina token investment first to take advantage, so there is some setup involved. The ideal turn 1 An Advantage!, turn 2 Energy Tint line is something I can accept as variance.

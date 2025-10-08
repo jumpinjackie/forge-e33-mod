@@ -13,3 +13,7 @@ Citizen
 Whenever another non-Expeditioner creature enters, investigate. $INVESTIGATE_REMINDER_TEXT
 [FlavorText]
 He eagerly absorbs the knowledge given to him, for he knows when his time comes, it will be a valuable resource.
+[DesignNotes]
+ - In the game, some of the children/teenagers of Lumiere are apprentices of Expeditioners, absorbing as much knowledge passed down to them should they fail and they will eventually become Expeditioners themselves and need to take up the mantle.
+ - Modeled their "curiosity" as giving you clues whenever a "foreign" creature type enters the battlefield.
+ - One of the rare humans in this set that are not Expeditioners.

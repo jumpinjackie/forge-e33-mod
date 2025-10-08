@@ -8,3 +8,7 @@ Land
 {T}: Add {C}.
 {T}: Add {U} or {R}. Activate this ability only if you control a Gestral or Grandis.
 {T}: Add {U} or {R}. This land doesn't untap during your next untap step
+[DesignNotes]
+ - In the game, Monoco's Station is situated in an icy and mountainous region of the continent.
+ - Therefore this should clearly be a blue/red dual land.
+ - Since it's occupied by Monoco (a Gestral) and various Grandis creatures. They get the no-strings-attached dual land experience.

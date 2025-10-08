@@ -8,3 +8,6 @@ Sorcery
 Expeditioner
 [Oracle]
 Create two Chroma tokens.
+[DesignNotes]
+ - In the game, this is one of Lune's quotes during battle.
+ - Went with 2 Chroma tokens, so it still ramps for strategies that can take advantage, but not to Dark Ritual levels.

@@ -16,3 +16,7 @@ This creature can block only creatures with Flying.
 When this creature dies, create a Chroma token.
 [FlavorText]
 Our only choice is to take matters into our own hands. Fortune favors the bold. We must forge ahead with CONVICTION.
+[DesignNotes]
+ - In the game, Expedition 78 stole hundreds of airships from the Lumiere Council and departed to take on the Paintress. The Expedition failed, but the fate of the expeditioners is unknown.
+ - Card represents some of the Airship crew.
+ - This is our heavy-hitter for an all-flyers strategy.

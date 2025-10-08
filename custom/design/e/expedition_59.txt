@@ -11,3 +11,6 @@ Saga
 I — Destroy target Nevron. Create a Food token.
 II — Create 2 Food tokens.
 III — Until end of turn, Food tokens you control gain "Sacrifice this artifact: Target creature deals 3 damage to itself"
+[DesignNotes]
+ - Journal is a story of Expeditioners making the fatal mistake of eating dead nevrons for sustenance
+ - "Food poisoning" ability adapted from Asmoranomardicadaistinaculdacar's ability

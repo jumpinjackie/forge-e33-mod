@@ -9,3 +9,6 @@ Sorcery
 Expeditioner
 [Oracle]
 Choose up to one target creature card and up to one target non-creature card in your graveyard. Return those cards to your hand.
+[DesignNotes]
+ - In the game, this is Lune's healing ability.
+ - No mechanical relation. We've just re-approriated the name for a green regrowth-style spell.

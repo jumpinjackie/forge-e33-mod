@@ -10,3 +10,5 @@ Sorcery
 Expeditioner
 [Oracle]
 This spell deals 1 damage to any target, 2 damage to another target, and 3 damage to a third target.
+[DesignNotes]
+ - Just Cone of Flame made {1} cheaper and Expeditioner aligned

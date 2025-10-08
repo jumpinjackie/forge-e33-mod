@@ -9,3 +9,7 @@ Cave
 [Oracle]
 {T}: Add one mana of any type that a land you control could produce.
 {T}: Add {W}{U}{B}{R}{G}. Activate this ability only if you control a card named Soarrie, a card named Florrie, a card named Dorrie and a card named Urrie.
+[DesignNotes]
+ - In the game, this is the place where Esquie dwells.
+ - Esquie's Nest visually resembles most artistic depictions of the card Reflecting Pool, so I gave it the same mana ability.
+ - I've gone with making this card one of the beneficiaries of the "Urzatron" rock strategy.

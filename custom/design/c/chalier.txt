@@ -10,3 +10,5 @@ Nevron
 2/2
 [Oracle]
 When this creature dies, target opponent creates a Lumina token.
+[DesignNotes]
+ - Vanilla Nevron. Could not determine approporiate color/elemental affinity so it's colorless.

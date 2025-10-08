@@ -14,3 +14,5 @@ Draw three cards.
 [FlavorText]
 Maybe Gustave's idea to convert chroma from Pictos to... What did he call it? Lumina? Maybe that's not so crazy after all.
 - Corinne
+[DesignNotes]
+ - Raw card draw with an expeditioner bonus

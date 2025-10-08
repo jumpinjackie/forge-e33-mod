@@ -21,3 +21,8 @@ Enchantment
 Room
 [Oracle]
 Painter and Gradient spells you cast cost {1} less to cast.
+[DesignNotes]
+ - In the game, the Greenhouse is at the top of the Manor. The gallery is the room with Verso's canvas (that the world of the continent is in)
+ - Greenhouse is a land tutor, because it's ... green!
+ - Gallery is another cost reducer to enable painter strategies
+ - 3/10/2025: Might rename Manor Gallery to Manor Atelier. I haven't played the video game in months, so I forget if the Atelier is where Verso's canvas resides so Gallery is a placeholder name. Either way this is supposed to be "Manor $ROOM_THAT_HAS_VERSOS_CANVAS"

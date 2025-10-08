@@ -13,3 +13,8 @@ Gestral
 Trample. Menace.
 Matthieu does not untap during your untap step.
 Tap three creatures you control: Untap Matthieu.
+[DesignNotes]
+ - In the game, Matthieu is one of the gestral fighters in the Gestral Village Arena.
+ - Has the word "Colossus" in its name, so therefore it's the big fatty Gestral of the set.
+ - Modeled mostly on Phyrexian Colossus, but with Trample, downgraded Super-Menace to Menace and changed the untap cost to tapping 3 other creatures instead of life payment.
+ - Yes, it can be Lackey'd out, but I can accept the variance on that line and also needing 3 other creatures to untap it will keep this line grounded.

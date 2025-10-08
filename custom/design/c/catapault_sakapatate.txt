@@ -12,3 +12,6 @@ Nevron
 Devoid (This card has no color.)
 When this creature dies, target opponent creates a Lumina token.
 When this creature dies, you may have this creature deal 2 damage to target creature.
+[DesignNotes]
+ - In the game, when you defeat a Catapault Sakapatate, it will try to do a last minute suicide move to do some damage before it goes.
+ - Represented mechanically here as a simple shock-creature-on-death trigger.

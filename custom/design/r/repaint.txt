@@ -11,3 +11,8 @@ Return target card you own from exile to your hand.
 [FlavorText]
 Painting isn't about verisimilitude, it's about essence. The truth of who they are.
 - Verso
+[DesignNotes]
+ - This is meant to represent (paintress) Maelle's new-found ability to resurrect the citizens of Lumiere provided she has some of their Chroma, as demonstrated by being able to bring back Lune and Sciel after their gommage.
+ - Mechanically this means we can also bring back cards from exile.
+ - Currently not working (the sacrifice X chromas condition).
+ - 7/10/2025: Change Chroma token sac requirement to 3 tokens instead of a variable amount and make the card in exile targeting have no restrictions instead of variable based on the amount of Chroma tokens sacced. This made it work.

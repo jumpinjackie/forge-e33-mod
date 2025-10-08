@@ -10,3 +10,7 @@ Enchantment
 [Oracle]
 Creatures cannot attack you unless their controller sacrifices a Chroma token for each creature they control that's attacking you.
 {3}: Create a Chroma token. Any player may activate this ability.
+[DesignNotes]
+ - In the game, the Chroma Barrier protects The Monolith from external intrusion. Only Expedition 70, 60 and 33 have successfully breached this barrier.
+ - I've mechanically mapped this to a Ghostly Prison style effect, but the attacking tax is Chroma counters.
+ - To make it fair for players without a Chroma token generation strategy, I've added a symmetrical Chroma token generation ability. Thus the real attacking tax is {3} or saccing a Chroma token.

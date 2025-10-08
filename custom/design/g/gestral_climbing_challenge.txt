@@ -10,3 +10,7 @@ As long as there are two or more counters on this enchantment. Creatures you con
 As long as there are four or more counters on this enchantment. You may play an additional land on each of your turns.
 [FlavorText]
 I've been trying to overcome this gestral's challenge for months now but it seems even more of a challenge than defeating the Paintress. I guess I'll neer see the Gestral's grand prize. That's my only regret in life. - Laure
+[DesignNotes]
+ - In the game, the Gestral Climbing Challenge is 1 of 5 challenge minigames. This minigame in particular requires climbing a tower-like structure to the top, while dodging falling projectiles.
+ - All minigames are modeled as "quest" enchantments originating from Zendikar block and use the same terminology (charging with quest counters based on certain conditions with some payoff at the end once you reach a certain number of quest counters).
+ - In the case of this card, the condition is creatures being tapped (to indicate exertion of effort in climbing up) and the payoffs are your creatures having reach (most flavorful ability imo) and a bigger payoff being an Exploration effect (that's how Expedition 69 was able to explore, climb and install all those grapple points)

@@ -11,3 +11,6 @@ Nevron
 [Oracle]
 Other nevrons you control get +1/+1.
 When this creature dies, target opponent creates a Lumina token.
+[DesignNotes]
+ - In the game, a Troubador uses its horn to buff the enemy party.
+ - Mechanically, I've mapped this to a basic nevron lord buff effect.

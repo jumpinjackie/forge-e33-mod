@@ -13,3 +13,6 @@ Choose one -
  - Create two 1/1 white Human Expeditioner tokens with "When this creature dies, create a Chroma token".
  - Up to two target creatures you control each get +2/+2 until end of turn.
  - Destroy target non-Expeditioner creature.
+[DesignNotes]
+ - In the game, this symbolizes the moment where re-awakened Maelle arrives in Lumiere with party and resurrected Expeditioners to commence the final assault.
+ - Made this a variant of Rally the Monastery with Expeditioner-aligned benefits.

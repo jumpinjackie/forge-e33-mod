@@ -15,3 +15,8 @@ Sacrifice a Food token: Target creature deals 3 damage to itself.
 When this creature dies, create a Chroma token.
 [FlavorText]
 I can't believe she convinced everyone to eat the Nevron. They've been puking for the past few hours. Great. - Julien
+[DesignNotes]
+ - In the game, Expedition 59 attempted to eat dead Nevrons for sustenance.
+ - This card represents the genius who suggested such an idea.
+ - Has strong mechanical similarity to Asmoranomardicadaistinaculdacar so has the same "food poisoning" ability.
+ - 5/10/2025: Reduced cost from 2(B/G) to 1(B/G)

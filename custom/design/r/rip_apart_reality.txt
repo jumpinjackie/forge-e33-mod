@@ -10,3 +10,6 @@ Gradient
 Devoid.
 This spell costs {2} less to cast if you control a painter.
 The owner of target permanent puts it on the top or bottom of their library.
+[DesignNotes]
+ - This is one of the Paintress' moves in the boss fight with her.
+ - May or may not have any mechanical relation. I needed a soft-removal spell for blue in this slot and the name was a good enough match for such an effect.

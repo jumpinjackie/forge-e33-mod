@@ -8,3 +8,5 @@ Artifact
 When this artifact enters, draw a card.
 {1}, {T}: Add one mana of any color.
 {T}, Sacrifice a Chroma token: Add two mana of any one color.
+[DesignNotes]
+ - This card has no in-game basis. Just an artifact to provide color fixing and some minor ramp if you hava Chroma tokens to spare.

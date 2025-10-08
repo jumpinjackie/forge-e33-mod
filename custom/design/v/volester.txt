@@ -11,3 +11,6 @@ Flying.
 Devoid $DEVOID_REMINDER_TEXT
 When this creature becomes the target of a spell or ability, sacrifice it.
 When this creature dies, target opponent creates a Lumina token.
+[DesignNotes]
+ - In the game, Volester is one of the lower-tier enemies with flying that has a weak point in its chest.
+ - Like Demineur, gave this one a Skulking Ghost sac effect to emphasize its weakness to targeted attacks.

@@ -6,3 +6,7 @@ Chroma Catalyst
 Artifact
 [Oracle]
 If you would create a Chroma or Lumina token, instead create one of each.
+[DesignNotes]
+ - In the game, Chroma Catalysts are used to upgrade the levels of your weapons
+ - For the card, we've decided to lean heavily on the word "Catalyst" and made this into a variant of Academy Manufactor, but covers our new token types.
+ - We might revisit the design of this card if this assembles the 33+ token requirement for The Greatest Expedition In History too quickly.

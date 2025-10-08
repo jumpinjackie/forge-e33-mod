@@ -10,3 +10,5 @@ Creature Nevron
 [Oracle]
 Devoid (This card has no color.)
 When this creature dies, target opponent creates a Lumina token.
+[DesignNotes]
+ - Just a vanilla placeholder for now until I have figured out some suitable abilities for it

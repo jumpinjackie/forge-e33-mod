@@ -13,3 +13,5 @@ This spell costs {1} less to cast if it targets an Expeditioner.
 Destroy target creature.
 [FlavorText]
 "Like I always say, it’s not about the rock, it’s more about th-"
+[DesignNotes]
+ - This is meant to flavorfully and mechanically represent Painted Renoir's killing blow to Gustave.

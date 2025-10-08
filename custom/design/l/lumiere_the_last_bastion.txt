@@ -12,3 +12,7 @@ Town
 {1}{W},{T}: Create a Map token
 [FlavorText]
 Every year, the population dwindles, yet the citizens persist in their determination to take down the Paintress once and for all.
+[DesignNotes]
+ - In the game, Lumiere is the city where the humans live. It is also the last bastion of human civilization that is slowly dying each year with the yearly Gommages, hence the sub-title.
+ - Mechanically, modeled on Kjeldoran Outpost but produces Human Expeditioner tokens instead of Soldiers
+ - To go with the Expedition/Exploration theme, this land also makes map tokens.

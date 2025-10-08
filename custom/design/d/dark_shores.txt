@@ -8,3 +8,6 @@ Land
 As this land enters, you may reveal a Nevron card from your hand. If you don't this land enters tapped.
 {T}: Add {U} or {B}.
 {T}: Add {U}{B}. Spend this mana only to cast Nevron spells or activate abilities of Nevrons. This land doesn't untap during your next untap step.
+[DesignNotes]
+ - In the game this is the place where most of Expedition 33 got massacred and later in the game is a place where high-tier Nevrons are and is a great XP farming location in the late game.
+ - Mechanically I went with a dimir dual with extra benefits for Nevrons.

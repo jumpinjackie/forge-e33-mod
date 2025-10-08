@@ -19,3 +19,10 @@ U
 Sorcery
 [Oracle]
 Take an extra turn after this one.
+[DesignNotes]
+ - In the game. "When one falls, we continue" is the expeditioner's motto. To strive onwards and continue, no matter what setbacks.
+ - Mechanically:
+     - "When one falls" evokes in my mind an effect akin to Second Sunrise, so I've based it on that but scoped to Expeditioners
+     - "We continue" evokes in my mind a Time Walk effect.
+ - 23/09/2025: I will most likely change the "When One Falls" side to be a straight mass Expeditioner reanimation effect instead of one that only reanimates those that died this turn, which would make it more of a game-swinging bomb when cast fused, because if you are able to resolve this fused, you deserve to win the game at that point.
+ - 3/10/2025: Changed "When one Falls" side to a straight mass Expeditoner reanimation effect and bumped cost from 3W to 4W

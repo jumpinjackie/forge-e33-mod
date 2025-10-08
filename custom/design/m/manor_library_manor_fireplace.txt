@@ -21,3 +21,7 @@ Enchantment
 Room
 [Oracle]
 When you unlock this door, it deals 3 damage to any target.
+[DesignNotes]
+ - In the game, the library connects the entrance on the side. The fireplace connects to the main dining hall.
+ - Library is an easy mechanical map to card draw.
+ - Fireplace is an easy mechanical map to a bolt effect because ... fireplace > fire > burn spell.

@@ -16,3 +16,6 @@ When this creature enters, destroy target creature or artifact.
 When this creature dies, create a Chroma token.
 [FlavorText]
 We're out of explosives, but we've made enough holes in this place to reach that giant woman in the centre. - Luc
+[DesignNotes]
+ - In the game, Expedition 67 employed the use of explosives to tear down walls in Sirene's coliseum. They succumbed to Sirene's musical wiles.
+ - This card models one such crew member.

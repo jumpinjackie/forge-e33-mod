@@ -9,3 +9,6 @@ Land
 {1},{R/G},{T}: Target Gestral creature you control fights another target creature
 [FlavorText]
 The tournament's starting soon. Please wait. - Gestral Warrior
+[DesignNotes]
+ - In the game, the Gestral Village has an arena where Gestrals fight. Sciel was discovered to be competing here.
+ - Gestral loves to fight. So naturally a Gestral Arena should have an ability that lets a Gestral fight someone else.

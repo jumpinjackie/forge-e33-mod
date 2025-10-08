@@ -11,3 +11,7 @@ Silver Rank - As long as there are four or more quest counters on this enchantme
 Gold Rank - As long as there are five or more quest counters on this enchantment, creatures you control have trample.
 [FlavorText]
 00:36:500? Not a bad time, human.
+[DesignNotes]
+ - In the game, the Gestral Foot Race Challenge is 1 of 5 challenge minigames. This minigame in particular requires clearing an obstacle course in under a certain amount of time. There are 3 ranks the player can achieve based on how fast they cleared the course.
+ - All minigames are modeled as "quest" enchantments originating from Zendikar block and use the same terminology (charging with quest counters based on certain conditions with some payoff at the end once you reach a certain number of quest counters).
+ - Went with a simple creature entering as the trigger condition, with 3 different "ranks" of various buffs as payoffs.

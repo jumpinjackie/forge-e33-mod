@@ -8,3 +8,6 @@ Land
 [Oracle]
 {T}: Add {C}.
 {1}{B}, {T}: Put target Nevron card from your graveyard on top of your library.
+[DesignNotes]
+ - In the game, the Forgotten Battlefield is one of the areas the Expedition 33 crew must traverse to reach Monoco's Station.
+ - Volrath's Stronghold for Nevrons

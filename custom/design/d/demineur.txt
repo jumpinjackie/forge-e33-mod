@@ -11,3 +11,7 @@ Flying.
 Devoid (This card has no color.)
 When this creature becomes the target of a spell or ability, sacrifice it.
 When this creature dies, target opponent creates a Lumina token.
+[DesignNotes]
+ - In the game, this is one of the weakest enemies in the game.
+ - Went with a Nevron variation of Flying Men
+ - 30/09/2025: Gave it a Skulking Ghost sac trigger to emphasize its weakness to targeted attacks (shots)

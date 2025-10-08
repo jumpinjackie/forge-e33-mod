@@ -12,3 +12,5 @@ Create three Lumina tokens if {U} was spent to cast this spell.
 Create two Chroma tokens if {W} was spent to cast this spell.
 [FlavorText]
 This is our gift, for all the Expeditions to come. - Charlotte
+[DesignNotes]
+ - Just another Chroma/Lumina token strategy enabler

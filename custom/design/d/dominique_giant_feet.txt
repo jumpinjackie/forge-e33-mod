@@ -14,3 +14,8 @@ Trample
 {2}: Put a flying counter on Dominique.
 Two-handed slam - {2},{T},Remove a flying counter from Dominique: Dominique deals 4 damage to target creature.
 At the beginning of each end step, remove all flying counters on Dominique.
+[DesignNotes]
+ - In the game, Dominique is a fighter in the Hidden Gestral Arena
+ - With the two-handed slam ability Dominique leaps into the air and slams the opponent. I've mechanically translated this to giving Dominique an ability to add a flying counter (the jump) and another ability to deal the damage at the cost of some mana and removing a flying counter (the slam).
+ - The end step removing all flying counters trigger is insurance against "banking" excess flying counters.
+ - We use flying counters as opposed to temporarily granting the flying keyword as flying counters are logistically simpler to manage.

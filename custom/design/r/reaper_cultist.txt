@@ -12,3 +12,5 @@ Nevron
 [Oracle]
 Devoid $DEVOID_REMINDER_TEXT
 When this creature dies, target opponent creates a Lumina token.
+[DesignNotes]
+ - Vanilla placeholder Nevron

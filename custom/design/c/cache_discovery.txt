@@ -9,3 +9,7 @@ Expeditioner
 [Oracle]
 Create a Chroma token and a Lumina token.
 Splice onto Expeditioner Instant or Sorcery {U} (As you cast an Expeditioner Instant or Sorcery, you may reveal this card from your hand and pay its splice cost. If you do, add this card's effects to that spell.)
+[DesignNotes]
+ - A card specifically designed to rapidly build up to the 33 permanent win condition of The Greatest Expedition In History
+ - I am hoping that Forge's rule handling around splice is flexible enough to allow for this to work. Otherwise it's back to the drawing board.
+     - 23/09/2025: It seems to work!

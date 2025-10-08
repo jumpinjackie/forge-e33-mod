@@ -14,3 +14,9 @@ Devoid (This card has no color.)
 When this creature dies, target opponent creates a Lumina token.
 {R},{T}: This creature deals 2 damage to target creature.
 {U},{T}: Tap target creature. Put a stun counter on it.\nWhen this creature dies, if you control no creatures, put two 2/2 Red and Blue Danseuse Clone creature tokens into play.
+[DesignNotes]
+ - In the game, a Danseuse attacks with fire and ice magic. If it is the only enemy left in battle, it can summon up to 2 clones.
+ - Mechanically I went with:
+     - A creature shock ability for the fire/red ability
+     - Tap and stun for the ice/blue ability
+     - For the clone ability, I preserved the original triggering condition but went against making token copies as that seemed really degenerate as the cloning trigger would also pass on to the tokens.

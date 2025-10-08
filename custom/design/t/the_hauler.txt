@@ -9,3 +9,6 @@ Land
 {T}: Add {C}.
 {T}: Add one mana of any color. The Hauler does not untap during your next untap step.
 {7}: The Hauler becomes an 8/8 Axon colorless creature with Trample until end of turn. It's still a land.
+[DesignNotes]
+ - In the game, The Hauler is one of the four Axons created by Renoir. The Hauler represents Clea and has an entire city on its back, symbolizing the burden of family affairs being carried by Clea. The Hauler was killed by Simon.
+ - Obviously mechanically maps to being a man-land. Given the legendary and epic nature of Axons, it clearly must animate into something big and monstrous.

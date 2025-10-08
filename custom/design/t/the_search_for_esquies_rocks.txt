@@ -11,3 +11,6 @@ Saga
 I — Search your library for a rock card, put it onto the battlefield, then shuffle.
 II - Scry 3.
 III — Draw cards equal to the number of rock permanents you control.
+[DesignNotes]
+ - In the game, you need to find a series of rocks for Esquie to unlock extra abilities to be able to traverse various parts of the overworld.
+ - This is basically our "rock tutor" to enable our rock "Urzatron" strategy.

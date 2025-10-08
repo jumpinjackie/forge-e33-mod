@@ -7,3 +7,5 @@ Sorcery
 Gradient
 [Oracle]
 Target opponent reveals their hand. You choose either an Expeditioner card or a noncreature, nonland card from it. That player discards that card.
+[DesignNotes]
+ - Duress with an ability to hit Expeditioner cards of any kind

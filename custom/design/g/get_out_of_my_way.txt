@@ -13,3 +13,6 @@ X target Gestral creatures can't block this turn.
 Sunniso: Geez, you don't need to be so rude.
 Gustave: Nononono, uh ... it's just, um ... it's the password ...
 Sunniso: Well, I don't know! Golgra never told me the password. But whatever, just go in.
+[DesignNotes]
+ - In the game, this is the "password" Golgra passed down to the Expeditioners to get past the Gestral guards at Esquie's Nest
+ - Mechanically, it make sense (and is hilarious) to make Gestrals unable to block.

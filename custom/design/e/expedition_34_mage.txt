@@ -16,3 +16,6 @@ R
 {2}{U}: Put a stun counter on target creature.
 {2}{R}: This creature deals 1 damage to any target.
 When this creature dies, create a Chroma token.
+[DesignNotes]
+ - In the game, Expedition 34 was focused on an elemental strategy to exploit weaknesses in Nevrons. This strategy worked until they encountered Nevrons with no elemental weaknesses, at which point this expedition promptly failed.
+ - Mechanically gone with a multi-color wizard with an appropriate on-color activated ability with standard Expeditioner death bonus.

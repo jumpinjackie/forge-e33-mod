@@ -11,3 +11,5 @@ Gestral
 [Oracle]
 Haste (This creature can attack and {T} as soon as it comes under your control.)
 When this creature enters, reveal the top four cards of your library. Put all Gestral cards revealed this way into your hand and the rest on the bottom of your library in any order.
+[DesignNotes]
+ - Gestral version of Goblin Ringleader. A Gestral tribal deck needs at least one card that can provide raw card advantage. This is that card.

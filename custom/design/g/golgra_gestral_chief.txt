@@ -21,3 +21,7 @@ Enrage - Whenever Golgra is dealt damage, choose one:
 Enrage
 [FlavorText]
 Really? A duel? Do you have a death wish?
+[DesignNotes]
+ - Obviously the Gestral lord of this set.
+ - In the game, when Golgra gets below 50% health, she goes "Super Saiyan" and her attacks increase in power.
+ - Mechanically, I've gone with Enrage as a way to approximate this "Super Saiyan" state and went with an assortment of combat-boosting abilities that could be granted from being enraged.

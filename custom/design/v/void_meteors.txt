@@ -11,3 +11,6 @@ Gradient
 Devoid.
 This spell costs {2} less to cast if you control a painter.
 This spell deals 4 damage divided as you choose among any number of targets
+[DesignNotes]
+ - In the game, this is one of the Paintress' moves in the boss fight with her.
+ - Mechanically, I based this on Pyrotechnics, but moved to Rakdos colors and with a Painter's discount.

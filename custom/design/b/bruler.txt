@@ -12,3 +12,5 @@ Nevron
 Devoid (This card has no color.)
 When this creature dies, target opponent creates a Lumina token.
 This creature gets +2/+2 and Ward 2 if you control a creature named Cruler.
+[DesignNotes]
+ - In the game, Bruler is generally in a party with Cruler. Thus I've gone with giving Bruler a buff if you also control Cruler

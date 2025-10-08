@@ -13,3 +13,7 @@ Expeditioner
 Flying.
 This creature can block only creatures with flying.
 When this creature dies, create a Chroma token.
+[DesignNotes]
+ - In the game, the journal of Expedition 40 details the story of trying to enter The Monolith by flying through the barrier. Those who tried got gommaged.
+ - This card represents the poor bastards who tried.
+ - I basically copied Rishadan Airship and stapled the Chroma death bonus to it.

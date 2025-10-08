@@ -13,3 +13,7 @@ When this creature dies, create a Chroma token.
 Nevron Whisperer
 [FlavorText]
 Gregoire is, as usual, deeply suspicious, but this could change our entire understanding of Nevrons and the Paintre- - Renee
+[DesignNotes]
+ - In the game, Expedition 81 was the first expedition to ever communicate with a Nevron.
+ - This card represents someone who has mastered the ability to communicate with Nevron.
+ - Mechanically translated to taking control of Nevrons with a Vedalken Shackles style effect.

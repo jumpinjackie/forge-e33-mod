@@ -17,3 +17,7 @@ When this creature dies, create a Chroma token.
 Mercy Kill
 [FlavorText]
 It's the right choice. It is. Even if it doesn't feel like it. Right? Right. - Lilou
+[DesignNotes]
+ - In the game, members of Expedition 53 mercy-killed a fellow expeditioner whose injuries had left them in a coma.
+ - This card represents one such member.
+ - Mechanically mapped to an Expeditioner sac ability for lifegain + scry

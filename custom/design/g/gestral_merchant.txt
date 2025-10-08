@@ -12,3 +12,7 @@ Gestral
 Whenever this creature is dealt damage, create a Chroma token.
 [FlavorText]
 I have some useful items for you!
+[DesignNotes]
+ - In the game, Gestral Merchants sell you various items. You can fight them to unlock additional items upon defeat
+ - Mechanically, I went with rewarding you with Chroma tokens when it is dealt damage
+ - 26/09/2025: Reduced reward to a single Chroma token, simply because Forge has no way to let me describe "up to this creature's toughness" in terms of the amount of Chroma tokens generated. Can still do fight tricks with weaklings to repeatedly generate tokens.

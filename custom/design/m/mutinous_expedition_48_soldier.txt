@@ -15,3 +15,6 @@ Mutiny! - Whenever an Expeditioner creature you control dies, target opponent ga
 When this creature dies, create a Chroma token.
 [AbilityWords]
 Mutiny!
+[DesignNotes]
+ - In the game, Expedition 48 was an expedition fraught with Mutiny and Treachery.
+ - The mutinous nature has been captured with this creature joining the other side when one of your Expeditioner compatriots dies.

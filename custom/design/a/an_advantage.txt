@@ -7,3 +7,7 @@ Kindred Sorcery Expeditioner
 [Oracle]
 Create three Lumina tokens. (It’s an artifact with "{T}, Sacrifice this token: Scry 1.")
 Draw a card at the beginning of the next turn's upkeep.
+[DesignNotes]
+ - In the game, a quote often said by Lune when loot is discovered.
+ - A basic enabler of Lumina token ramping strategies
+ - 5/10/2025: Promoted to a slow-trip so it can stand in the pantheon of Brainstorm/Ponder/Preordain/Portent

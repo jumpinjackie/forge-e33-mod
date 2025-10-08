@@ -9,3 +9,5 @@ Instant
 Expeditioner
 [Oracle]
 Tap up to two target permanents. Put a stun counter on them.
+[DesignNotes]
+ - Generic useful ice-themed tempo play in limited/draft environments.

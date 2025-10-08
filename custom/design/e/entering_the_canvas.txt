@@ -9,3 +9,6 @@ Instant
 You may put a creature card from your hand onto the battlefield. That creature gains haste. Sacrifice that creature at the beginning of the next end step.
 [FlavorText]
 This only truly ends if you destroy the canvas, and that means stopping the final sliver of Verso's soul from painting. - Clea
+[DesignNotes]
+ - This symbolizes the moment in the game where real Alicia enters Verso's canvas to try and help real Renoir in expelling Aline out of the canvas, but ends up being consumed by Aline's chroma and is "reborn" as Maelle.
+ - Mechanically/thematically translated to near carbon copy of Through the Breach.

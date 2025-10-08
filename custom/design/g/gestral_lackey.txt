@@ -10,3 +10,5 @@ Gestral
 1/1
 [Oracle]
 Whenever Gestral Lackey deals damage to a player, you may put a Gestral permanent card from your hand onto the battlefield.
+[DesignNotes]
+ - The Gestral version of Goblin Lackey

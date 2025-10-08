@@ -10,3 +10,6 @@ Expeditioner
 Kicker {2}.
 Destroy target artifact or enchantment with mana value 2 lor less.
 If this spell was kicked, destroy that artifact or enchantment if its mana value is 5 or less instaed.
+[DesignNotes]
+ - In the game, Breaking Rules is one of Maelle's abiliites.
+ - For the card, I've disregarded all thematic/mechanical associations and designed the card only based on the name. We need cheap artifact/enchantment hate in this set, and the name fits the bill for what I'm after, so I've turned this to a variant of Overload that can also hit enchantments.

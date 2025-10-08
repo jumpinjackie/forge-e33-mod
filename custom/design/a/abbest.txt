@@ -9,3 +9,6 @@ Creature Nevron
 [Oracle]
 Devoid (This card has no color.)
 When this creature dies, target opponent creates a Lumina token.
+[DesignNotes]
+ - Just a "vanilla" bear with stock Nevron card text.
+ - 23/09/2025: Changed casting cost from 1G to G and PT from 2/2 to 1/2 to make it unique from the (now fully green) Lancelier
