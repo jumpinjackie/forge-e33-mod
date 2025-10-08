@@ -1,0 +1,38 @@
+[Name]
+Maelle, Child of Lumiere
+[ManaCost]
+1
+W
+R
+[Types]
+Legendary
+Creature
+Human
+Expeditioner
+[PT]
+3/3
+[Oracle]
+At the beginning of your end step, if you both own and control Maelle, Child of Lumiere and a creature named Alicia Dessendre, Silenced by Fire, exile them, then meld them into Maelle, The Reawakened Paintress.
+
+ALTERNATE:MELD
+
+[Name]
+Maelle, The Reawakened Paintress
+[ManaCost]
+no cost
+[Colors]
+white
+black
+[Types]
+Legendary
+Planeswalker
+Maelle
+[Loyalty]
+4
+[Oracle]
+Human spells you cast cost {1} less to cast.
+[+2]: Create a Chroma Token.
+[+1]: Return target Human from your graveyard or in exile and put it onto the battlefield tapped.
+[0]: Create two 1/1 White Human Expeditioner tokens with "When this creature dies, create a Chroma token".
+[-3]: Exile target nonland, non-Human permanent.
+[-8]: Return all Humans from your graveyard onto the battlefield.

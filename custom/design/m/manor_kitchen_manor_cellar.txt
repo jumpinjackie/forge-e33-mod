@@ -1,0 +1,25 @@
+[Name]
+Manor Kitchen
+[ManaCost]
+1
+G
+[Types]
+Enchantment
+Room
+[Oracle]
+When you unlock this door, create two Food tokens.
+
+ALTERNATE
+
+[Name]
+Manor Cellar
+[ManaCost]
+1
+W
+[Types]
+Enchantment
+Room
+[Oracle]
+When you unlock this door, choose one:
+ - Create two Chroma tokens.
+ - Create two Lumina tokens.

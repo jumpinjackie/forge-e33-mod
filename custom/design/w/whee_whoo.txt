@@ -1,0 +1,23 @@
+[Name]
+Whee
+[ManaCost]
+1
+W
+U
+[Types]
+Instant
+[Oracle]
+Untap all creatures you control.
+
+ALTERNATE:FUSE
+
+[Name]
+Whoo
+[ManaCost]
+1
+U
+B
+[Types]
+Instant
+[Oracle]
+Tap all creatures your opponents control. They don't untap during their controllers' next untap steps.

@@ -1,0 +1,23 @@
+[Name]
+Manor Library
+[ManaCost]
+2
+U
+[Types]
+Enchantment
+Room
+[Oracle]
+When you unlock this door, draw two cards.
+
+ALTERNATE:ROOM
+
+[Name]
+Manor Fireplace
+[ManaCost]
+1
+R
+[Types]
+Enchantment
+Room
+[Oracle]
+When you unlock this door, it deals 3 damage to any target.

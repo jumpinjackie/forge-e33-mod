@@ -1,0 +1,23 @@
+[Name]
+Manor Entrance
+[ManaCost]
+3
+G
+[Types]
+Enchantment
+Room
+[Oracle]
+When you unlock this door, you may put a creature card from your hand onto the battlefield.
+
+ALTERNATE:ROOM
+
+[Name]
+Manor Hidden Room
+[ManaCost]
+3
+B
+[Types]
+Enchantment
+Room
+[Oracle]
+When you unlock this door, return target creature card from your graveyard to the battlefield.

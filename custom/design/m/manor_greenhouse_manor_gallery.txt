@@ -1,0 +1,23 @@
+[Name]
+Manor Greenhouse
+[ManaCost]
+2
+G 
+[Types]
+Enchantment
+Room
+[Oracle]
+When you unlock this door, search your library for a land card, put it onto the battlefield, then shuffle.
+
+ALTERNATE:ROOM
+
+[Name]
+Manor Gallery
+[ManaCost]
+2
+U
+[Types]
+Enchantment
+Room
+[Oracle]
+Painter and Gradient spells you cast cost {1} less to cast.

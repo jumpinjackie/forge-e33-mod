@@ -1,0 +1,21 @@
+[Name]
+When One Falls
+[ManaCost]
+4
+W
+[Types]
+Sorcery
+[Oracle]
+Return all Expeditioner permanent cards from your graveyard to the battlefield.
+
+ALTERNATE:FUSE
+
+[Name]
+We Continue
+[ManaCost]
+4
+U
+[Types]
+Sorcery
+[Oracle]
+Take an extra turn after this one.

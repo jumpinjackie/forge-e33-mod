@@ -7,7 +7,7 @@ R
 Legendary
 Creature
 Human
-Expeditioner
+Painter
 [PT]
 2/2
 [Oracle]

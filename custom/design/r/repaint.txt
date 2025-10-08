@@ -8,3 +8,6 @@ Sorcery
 [Oracle]
 As an additional cost to cast this spell, sacrifice three Chroma tokens.
 Return target card you own from exile to your hand.
+[FlavorText]
+Painting isn't about verisimilitude, it's about essence. The truth of who they are.
+- Verso
