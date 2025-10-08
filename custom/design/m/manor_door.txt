@@ -11,3 +11,5 @@ Artifact
  - In the game, there are various doors scattered throughout the continent that warps you to various rooms in the Manor, unlocking some previously inaccessible rooms in the process.
  - This clearly mechanically maps to an artifact that can lock/unlock rooms ala. Keys to the House
  - Added a mana ability so it can at least function as a mana rock if there's no rooms to interact with
+[Bugs]
+AI seems to have issues unlocking its own doors. Check if Keys to the House has the same issues.

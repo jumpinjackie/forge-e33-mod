@@ -12,3 +12,5 @@ Choose up to one target creature card and up to one target non-creature card in 
 [DesignNotes]
  - In the game, this is Lune's healing ability.
  - No mechanical relation. We've just re-approriated the name for a green regrowth-style spell.
+[Bugs]
+Can target any two cards in graveyard (the creature and non-creature restrictions are being ignored)

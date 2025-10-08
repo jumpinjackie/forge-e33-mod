@@ -25,3 +25,5 @@ Really? A duel? Do you have a death wish?
  - Obviously the Gestral lord of this set.
  - In the game, when Golgra gets below 50% health, she goes "Super Saiyan" and her attacks increase in power.
  - Mechanically, I've gone with Enrage as a way to approximate this "Super Saiyan" state and went with an assortment of combat-boosting abilities that could be granted from being enraged.
+[Bugs]
+I am being prompted for the mode before the enrage trigger goes on the stack, I kind of expected the prompt to happen on trigger resolution. And the trigger description on the stack is the full modal prompt and not the choice made. Not sure if it ultimately matters because it behaviourally works as expected.

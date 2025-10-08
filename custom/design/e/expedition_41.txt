@@ -13,3 +13,5 @@ III — Destroy all Nevrons. Create a Lumina token for each Nevron destroyed thi
 [DesignNotes]
  - Journal is a story of expeditioners engaged in a competition to see who can kill the most Nevrons.
  - Obvious mechanical map to just killing Nevrons, and more Nevrons.
+[Bugs]
+Chapter 3: Not getting lumina tokens for destroyed Nevron tokens

@@ -13,3 +13,5 @@ Cave
  - In the game, this is the place where Esquie dwells.
  - Esquie's Nest visually resembles most artistic depictions of the card Reflecting Pool, so I gave it the same mana ability.
  - I've gone with making this card one of the beneficiaries of the "Urzatron" rock strategy.
+[Bugs]
+The WUBRG mana ability is not preventatively disabled if you don't meet the activation condition. The ability however will (correctly) not add WUBRG if you don't meet the activation condition.
