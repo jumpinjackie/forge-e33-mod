@@ -10,5 +10,8 @@ Creature Nevron
 [Oracle]
 Devoid $DEVOID_REMINDER_TEXT
 When this creature dies, target opponent creates a Lumina token.
+[ForgeScript]
+T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Card.Self | Execute$ TrigToken | TriggerDescription$ When this creature dies, target opponent creates a Lumina token.
+SVar:TrigToken:DB$ Token | TokenAmount$ 1 | ValidTgts$ Opponent | TokenOwner$ Targeted | TokenScript$ c_a_lumina
 [DesignNotes]
  - Just a vanilla placeholder for now until I have figured out some suitable abilities for it

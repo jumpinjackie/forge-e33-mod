@@ -13,6 +13,10 @@ Expeditioner
 Suspend 1 - {U}{R} (Rather than cast this card from your hand, pay {U}{R} and exile it with one time counter on it. At the beginning of your upkeep, remove a time counter. When the last is removed, you may cast it without paying its mana cost.)
 This spell deals 3 damage to any target.
 Create a Lumina token.
+[ForgeScript]
+K:Suspend:1:U R
+A:SP$ DealDamage | ValidTgts$ Any | NumDmg$ 3 | SubAbility$ DBToken | SpellDescription$ CARDNAME deals 3 damage to any target.
+SVar:DBToken:DB$ Token | TokenAmount$ 1 | TokenOwner$ You | TokenScript$ c_a_lumina
 [DesignNotes]
  - In the game, this is one of Lune's quotes during battle
  - Lighting bolt with suspend to convey the "storm is coming". Lumina reward as standard with any Expeditioner spell

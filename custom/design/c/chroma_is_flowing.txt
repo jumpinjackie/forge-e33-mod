@@ -8,6 +8,8 @@ Sorcery
 Expeditioner
 [Oracle]
 Create two Chroma tokens.
+[ForgeScript]
+A:SP$ Token | TokenAmount$ 2 | TokenOwner$ You | TokenScript$ c_a_chroma | SpellDescription$ Create two Chroma tokens.
 [DesignNotes]
  - In the game, this is one of Lune's quotes during battle.
  - Went with 2 Chroma tokens, so it still ramps for strategies that can take advantage, but not to Dark Ritual levels.

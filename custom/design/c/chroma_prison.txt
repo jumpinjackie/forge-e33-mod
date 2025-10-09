@@ -9,6 +9,14 @@ Enchantment
 If you control a Painter, you may cast this spell as though it had flash.
 When this enchantment enters, exile another target nonland permanent.
 When this enchantment leaves the battlefield, return the exiled card to the battlefield under its owner's control.
+[ForgeScript]
+S:Mode$ CastWithFlash | ValidCard$ Card.Self | ValidSA$ Spell | EffectZone$ All | Caster$ You | IsPresent$ Painter.YouCtrl | PresentZone$ Battlefield | PresentCompare$ GE1 | Description$ If you control a Painter, you may cast this spell as though it had flash.
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigExile | TriggerDescription$ When CARDNAME enters, exile another target nonland permanent.
+T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Any | ValidCard$ Card.Self | Execute$ TrigReturn | TriggerDescription$ When CARDNAME leaves the battlefield, return the exiled card to the battlefield under its owner's control.
+SVar:TrigExile:DB$ ChangeZone | IsCurse$ True | ValidTgts$ Permanent.nonLand+Other | TgtPrompt$ Choose another target nonland permanent | Origin$ Battlefield | Destination$ Exile
+SVar:TrigReturn:DB$ ChangeZone | Defined$ ExiledWith | Origin$ Exile | Destination$ Battlefield
+SVar:PlayMain1:TRUE
+SVar:OblivionRing:TRUE
 [DesignNotes]
  - Oblivion Ring variant #234898572343
  - This represents the barrier that Painted Renoir traps Maelle in at the Stone Wave Cliffs.

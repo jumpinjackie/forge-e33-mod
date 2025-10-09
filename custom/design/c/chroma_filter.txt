@@ -8,5 +8,10 @@ Artifact
 When this artifact enters, draw a card.
 {1}, {T}: Add one mana of any color.
 {T}, Sacrifice a Chroma token: Add two mana of any one color.
+[ForgeScript]
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigDraw | TriggerDescription$ When CARDNAME enters, draw a card.
+SVar:TrigDraw:DB$ Draw | Defined$ You | NumCards$ 1
+A:AB$ Mana | Cost$ 1 T | Produced$ Any | SpellDescription$ Add one mana of any color.
+A:AB$ Mana | Cost$ T Sac<1/Chroma> | Produced$ Any | Amount$ 2 | SpellDescription$ Add two mana of any color.
 [DesignNotes]
  - This card has no in-game basis. Just an artifact to provide color fixing and some minor ramp if you hava Chroma tokens to spare.

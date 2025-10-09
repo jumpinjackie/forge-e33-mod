@@ -12,6 +12,10 @@ Nevron
 [Oracle]
 Devoid $DEVOID_REMINDER_TEXT
 When this creature dies, target opponent creates a Lumina token.
+[ForgeScript]
+K:Devoid
+T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Card.Self | Execute$ TrigToken | TriggerDescription$ When this creature dies, target opponent creates a Lumina token.
+SVar:TrigToken:DB$ Token | TokenAmount$ 1 | ValidTgts$ Opponent | TokenOwner$ Targeted | TokenScript$ c_a_lumina
 [DesignNotes]
  - Currently a placeholder vanilla Nevron. Abilities TBD.
  - 23/09/2025: TODO: Replace white with a different color if intending to stay multi-color to make way for White Nevrons.

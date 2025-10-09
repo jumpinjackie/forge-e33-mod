@@ -9,6 +9,9 @@ Aura
 [Oracle]
 Enchant permanent.
 Enchanted permanent becomes an artifact and loses all abilities.
+[ForgeScript]
+K:Enchant:Permanent
+S:Mode$ Continuous | Affected$ Creature.EnchantedBy | AddType$ Artifact | RemoveType$ Creature | RemoveAllAbilities$ True | Description$ Enchanted permanent becomes an artifact and loses all abilities.
 [DesignNotes]
  - Represents the effect inflicted on a good bunch of previous Expeditioners that turned them into statues with their Chroma trapped within.
  - I orignally wanted this to turn into a "do nothing" artifact, but I think the "Enchant creature" restriction means this is a nonbo and the aura immediately "falls off". Will revisit later with "Enchant permanent" to see if this gives my desired result.

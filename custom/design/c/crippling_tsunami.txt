@@ -11,6 +11,9 @@ Expeditioner
 [Oracle]
 Tap an untapped creature you control: Tap target artifact or creature.
 Tap an untapped Expeditioner you control: Tap target land.
+[ForgeScript]
+A:AB$ Tap | Cost$ tapXType<1/Creature> | ValidTgts$ Artifact,Creature | TgtPrompt$ Select target artifact or creature | SpellDescription$ Tap target artifact or creature.
+A:AB$ Tap | Cost$ tapXType<1/Expeditioner> | ValidTgts$ Land | TgtPrompt$ Select target land | SpellDescription$ Tap target land.
 [DesignNotes]
  - In the game, Crippling Tsunami is one of Lune's skills. It's basically an AOE variant of Ice Lance.
  - Made this a hybrid of Glare of Subdual and Opposition. Base effect is Glare, but Expeditioners can have the full Opposition experience.

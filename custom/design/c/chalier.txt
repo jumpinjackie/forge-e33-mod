@@ -10,5 +10,8 @@ Nevron
 2/2
 [Oracle]
 When this creature dies, target opponent creates a Lumina token.
+[ForgeScript]
+T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Card.Self | Execute$ TrigToken | TriggerDescription$ When this creature dies, target opponent creates a Lumina token.
+SVar:TrigToken:DB$ Token | TokenAmount$ 1 | ValidTgts$ Opponent | TokenOwner$ Targeted | TokenScript$ c_a_lumina
 [DesignNotes]
  - Vanilla Nevron. Could not determine approporiate color/elemental affinity so it's colorless.

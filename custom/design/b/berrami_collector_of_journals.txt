@@ -11,6 +11,9 @@ Gestral
 2/2
 [Oracle]
 At the beginning of your upkeep, you may mill a card. If you do, create 2 Lumina tokens.
+[ForgeScript]
+T:Mode$ Phase | Phase$ Upkeep | ValidPlayer$ You | Execute$ TrigToken | TriggerZones$ Battlefield | TriggerDescription$ At the beginning of your upkeep, you may mill a card. If you do, create 2 Lumina tokens.
+SVar:TrigToken:AB$ Token | Cost$ Mill<1> | TokenAmount$ 2 | TokenScript$ c_a_lumina
 [DesignNotes]
  - In the game, Berrami is an NPC you can turn in journals for colors of lumina.
  - Mechanically, I've translated this to milling cards from your library for lumina tokens.
