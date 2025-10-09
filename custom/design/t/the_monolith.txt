@@ -9,6 +9,15 @@ The Monolith enters with 10 gommage counters.
 At the beginning of your upkeep, remove a gommage counter, then exile all non-land, non-legendary permanents with mana value greater than or equal to the number of gommage counters on The Monolith.
 When The Monolith has no gommage counters on it, sacrifice it.
 {T}: Add {C}
+[ForgeScript]
+K:etbCounter:GOMMAGE:10
+A:AB$ Mana | Cost$ T | Produced$ C | SpellDescription$ Add {C}.
+T:Mode$ Phase | Phase$ Upkeep | ValidPlayer$ You | TriggerZones$ Battlefield | Execute$ TrigRemoveCounter | TriggerDescription$ At the beginning of your upkeep, remove a gommage counter, then exile all non-land, non-legendary permanents with mana value greater than the number of gommage counters on The Monolith.
+SVar:TrigRemoveCounter:DB$ RemoveCounter | CounterType$ GOMMAGE | CounterNum$ 1 | SubAbility$ TrigGommage
+SVar:TrigGommage:DB$ ChangeZoneAll | ChangeType$ Permanent.nonLand+nonLegendary+cmcGEX | Origin$ Battlefield | Destination$ Exile | SpellDescription$ Exile all non-land, non-legendary permanents with mana value greater than or equal to the number of gommage counters on CARDNAME.
+SVar:X:Count$CardCounters.GOMMAGE
+T:Mode$ Always | TriggerZones$ Battlefield | IsPresent$ Card.Self+counters_EQ0_GOMMAGE | Execute$ TrigSac | TriggerDescription$ When CARDNAME has no gommage counters on it, sacrifice it.
+SVar:TrigSac:DB$ Sacrifice
 [DesignNotes]
  - In the game, The Monolith is where The Paintress resides and is an everlasting reminder to the humans of Lumiere that time is running out.
  - For lore accuracy, this would've been 100 counters instead of 10, but that simply takes way too long in MTG "game time". A game is lucky to reach 50 turns, let alone 100! Reducing it to 10 sacrifices lore accuracy, but retains mechanical accuracy of something that's constantly counting down and wiping out everything older than that number.

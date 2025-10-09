@@ -9,6 +9,11 @@ Instant
 Expeditioner
 [Oracle]
 Untap target creature you control. It gains hexproof until end of turn.
+[FlavorText]
+I got you covered!
+[ForgeScript]
+A:SP$ Untap | ValidTgts$ Creature.YouCtrl | TgtPrompt$ Select target creature you control | SubAbility$ DBGrantHexproof | SpellDescription$ Untap target creature you control. It gains hexproof until end of turn.
+SVar:DBGrantHexproof:DB$ Pump | Defined$ Targeted | KW$ Hexproof | SpellDescription$ Untap target creature you control. It gains hexproof until end of turn.
 [DesignNotes]
  - In the game, Intervention is Sciel's ability that lets an ally take their turn immediately along with an AP boost
  - Mechanically, we've mapped "granting extra turns" to untapping creatures. Nothing approximates an "AP boost" for creatures, so we've given it a granting of hexproof.

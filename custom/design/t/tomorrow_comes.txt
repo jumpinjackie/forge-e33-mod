@@ -9,5 +9,7 @@ Sorcery
 Expeditioner
 [Oracle]
 Search your library for an Expeditioner card, reveal it and put it into your hand, then shuffle.
+[ForgeScript]
+A:SP$ ChangeZone | Origin$ Library | Destination$ Hand | ChangeType$ Expeditioner | ChangeNum$ 1 | SpellDescription$ Search your library for an Expeditioner card, reveal it and put it into your hand, then shuffle.
 [DesignNotes]
  - Another tutor to enable the Expeditioner tribal strategy / Expeditioner spell toolbox.

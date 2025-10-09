@@ -8,5 +8,5 @@ SVar:LumTotal:Count$Valid Lumina.YouCtrl
 SVar:PicTotal:Count$Valid Picto.YouCtrl
 SVar:A:SVar$ExpTotal/Plus.ChrTotal
 SVar:B:SVar$A/Plus.LumTotal
-SVar:X:SVar$B/Plus.PicTotal 
+SVar:X:SVar$B/Plus.PicTotal
 Oracle:You win the game if you control a total of 33 or more Expeditioners, Chroma, Lumina or Pictos permanents.

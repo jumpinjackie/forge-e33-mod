@@ -11,6 +11,12 @@ Saga
 I — Search your library for a rock card, put it onto the battlefield, then shuffle.
 II - Scry 3.
 III — Draw cards equal to the number of rock permanents you control.
+[ForgeScript]
+K:Chapter:3:DBChapter1,DBChapter2,DBChapter3
+SVar:DBChapter1:DB$ ChangeZone | Origin$ Library | Destination$ Battlefield | ChangeType$ Rock | ChangeNum$ 1 | SpellDescription$ Search your library for a rock card, put it onto the battlefield, then shuffle.
+SVar:DBChapter2:DB$ Scry | ScryNum$ 3 | SpellDescription$ Scry 3.
+SVar:DBChapter3:DB$ Draw | Defined$ You | NumCards$ X | SpellDescription$ Draw cards equal to the number of rock permanents you control.
+SVar:X:Count$Valid Rock.YouCtrl
 [DesignNotes]
  - In the game, you need to find a series of rocks for Esquie to unlock extra abilities to be able to traverse various parts of the overworld.
  - This is basically our "rock tutor" to enable our rock "Urzatron" strategy.

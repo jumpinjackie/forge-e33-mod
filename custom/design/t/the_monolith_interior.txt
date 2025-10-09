@@ -6,6 +6,13 @@ no cost
 Land
 [Oracle]
 You may have this land enter tapped as a copy of any land on the battlefield, except it has "At the beginning of your upkeep, you may have this land become a copy of target land, and it has this ability."
+[ForgeScript]
+# Carbon-copy of Vesuvan Doppelganger except it targets lands and removes color preservation and ETB tapped
+# Make Svars for granting abilities and triggers on clones distinct to avoid SVars getting overwritten when cloning a clone
+K:ETBReplacement:Copy:DBCopy:Optional
+SVar:DBCopy:DB$ Clone | Choices$ Land.Other | IntoPlayTapped$ True | AddTriggers$ VesDopUpkeepTrig | AddSVars$ VesDopCopy,VesDopUpkeepTrig | SpellDescription$ You may have this land enter as a copy of any land on the battlefield, except it has "At the beginning of your upkeep, you may have this land become a copy of target land, and it has this ability."
+SVar:VesDopUpkeepTrig:Mode$ Phase | Phase$ Upkeep | ValidPlayer$ You | TriggerZones$ Battlefield | Execute$ VesDopCopy | TriggerDescription$ At the beginning of your upkeep, you may have this land become a copy of target land, and it has this ability.
+SVar:VesDopCopy:DB$ Clone | ValidTgts$ Land | TgtPrompt$ Select land to copy. | Optional$ True | GainThisAbility$ True | AddSVars$ VesDopCopy
 [DesignNotes]
  - In the game, the interior of The Monolith contains twisted variations of locations visited by Expedition 33
  - Basically a Vesuvan Doppelganger for lands. Meant to mechanically capture the memories of places visited by Expedition 33

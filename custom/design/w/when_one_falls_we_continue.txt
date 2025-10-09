@@ -7,9 +7,9 @@ W
 Sorcery
 [Oracle]
 Return all Expeditioner permanent cards from your graveyard to the battlefield.
-
+[ForgeScript]
+A:SP$ ChangeZoneAll | ChangeType$ Expeditioner.YouOwn | Origin$ Graveyard | Destination$ Battlefield | SpellDescription$ Return all Expeditioner permanent cards from your graveyard to the battlefield
 ALTERNATE:FUSE
-
 [Name]
 We Continue
 [ManaCost]
@@ -19,6 +19,8 @@ U
 Sorcery
 [Oracle]
 Take an extra turn after this one.
+[ForgeScript]
+A:SP$ AddTurn | NumTurns$ 1 | SpellDescription$ Take an extra turn after this one.
 [DesignNotes]
  - In the game. "When one falls, we continue" is the expeditioner's motto. To strive onwards and continue, no matter what setbacks.
  - Mechanically:

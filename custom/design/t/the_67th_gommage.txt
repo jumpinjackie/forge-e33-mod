@@ -13,6 +13,8 @@ Each player with 33 or more life loses the game.
 [FlavorText]
 I'm here.
 I know. I know.
+[ForgeScript]
+A:SP$ LosesGame | Defined$ Player.lifeGE33 | SpellDescription$ Each player with 33 or more life loses the game.
 [DesignNotes]
  - This is meant to flavorfully and mechanically represent the moment Renoir triggers the 67th gommage, erasing every human 33 years and older.
  - Except in our case, instead of humans, it's players and instead of age its life total. Basically this card is just another excuse to weave in a thematic and flavorful use of the number 33.
