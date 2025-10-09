@@ -136,6 +136,8 @@ The flavor text of the card. Each line is interpreted as-is. Used only for the C
 
 You can "nudge" the flavor text up a bit from the bottom of the card frame without having to mess with custom override bounds for the text box, by putting some empty lines as the end of the flavor text.
 
+> NOTE: For reasons of consistency (and not cultural reasons) flavor text should use American English, even if the source material is not. This is so that it matches up with card oracle text that is always defined in American English.
+
 ### Ability Words (`[AbilityWords]`)
 
 This indicates words that should be italicized when generating the CardConjurer JSON. One line per ability words to italicize.
