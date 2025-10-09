@@ -17,6 +17,13 @@ Nevron spells you cast cost {2} less to cast.
 Nevron creatures you control get +2/+2
 At the beginning of your upkeep, create a 1/1 colorless Nevron creature token.
 {5},{T}: Search your library for a Nevron card, reveal that card and put it into your hand.
+[ForgeScript]
+S:Mode$ ReduceCost | ValidCard$ Nevron | Type$ Spell | Activator$ You | Amount$ 2 | Description$ Nevron spells you cast cost {2} less to cast.
+S:Mode$ Continuous | Affected$ Creature.Nevron+YouCtrl | AddPower$ 2 | AddToughness$ 2 | Description$ Nevron creatures you control get +2/+2.
+T:Mode$ Phase | Phase$ Upkeep | ValidPlayer$ You | TriggerZones$ Battlefield | Execute$ TrigToken | TriggerDescription$ At the beginning of your upkeep, create a 1/1 colorless Nevron creature token.
+SVar:TrigToken:DB$ Token | TokenAmount$ 1 | TokenScript$ c_1_1_nevron | TokenOwner$ You
+A:AB$ ChangeZone | Cost$ 5 T | Origin$ Library | Destination$ Hand | ChangeType$ Card.Nevron | ChangeNum$ 1 | ShuffleNonMandatory$ True
+DeckHints:Type$Nevron
 [DesignNotes]
  - In the game, Painted Clea was painted by Aline, but was then repainted over by the real Clea and re-purposed to be what amounts to an endless "Nevron factory"
  - Mechanically, Painted Clea is our Nevorn lord, so I've gone with an assortment of "build around" abilities.

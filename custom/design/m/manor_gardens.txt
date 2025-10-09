@@ -8,6 +8,11 @@ Land
 This land enters tapped.
 {T}: Add {G}.
 {T}, Sacrifice this land: Search your library for a Room card, reveal it, put it into your hand, then shuffle.
+[ForgeScript]
+R:Event$ Moved | ValidCard$ Card.Self | Destination$ Battlefield | ReplacementResult$ Updated | ReplaceWith$ ETBTapped | Description$ CARDNAME enters tapped.
+SVar:ETBTapped:DB$ Tap | Defined$ Self | ETB$ True
+A:AB$ Mana | Cost$ T | Produced$ G | SpellDescription$ Add {G}.
+A:AB$ ChangeZone | Cost$ T Sac<1/CARDNAME> | Origin$ Library | Destination$ Hand | ChangeType$ Room | SpellDescription$ Search your library for a Room card, reveal it, put it into your hand, then shuffle.
 [DesignNotes]
  - In the game, the Manor Gardens is outside of the Manor entrance.
  - Gardens > Green mana

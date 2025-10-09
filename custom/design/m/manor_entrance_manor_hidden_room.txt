@@ -8,9 +8,10 @@ Enchantment
 Room
 [Oracle]
 When you unlock this door, you may put a creature card from your hand onto the battlefield.
-
+[ForgeScript]
+T:Mode$ UnlockDoor | ValidPlayer$ You | ValidCard$ Card.Self | ThisDoor$ True | Execute$ TrigPut | TriggerDescription$ When you unlock this door, you may put a creature card from your hand onto the battlefield.
+SVar:TrigPut:DB$ ChangeZone | ChangeType$ Creature | ChangeNum$ 1 | Origin$ Hand | Destination$ Battlefield
 ALTERNATE:ROOM
-
 [Name]
 Manor Hidden Room
 [ManaCost]
@@ -21,6 +22,9 @@ Enchantment
 Room
 [Oracle]
 When you unlock this door, return target creature card from your graveyard to the battlefield.
+[ForgeScript]
+T:Mode$ UnlockDoor | ValidPlayer$ You | ValidCard$ Card.Self | ThisDoor$ True | Execute$ TrigReanimate | TriggerDescription$ When you unlock this door, return target creature card from your graveyard to the battlefield.
+SVar:TrigReanimate:DB$ ChangeZone | Origin$ Graveyard | Destination$ Battlefield | TgtPrompt$ Choose target creature card in your graveyard | ValidTgts$ Creature.YouCtrl
 [DesignNotes]
  - In the game, the Manor entrance is there the expedition flag is to save. There is room that is hidden behind a painting that is accessible by jumping through the painting.
  - Gone with an effect to cheat a creature into play with each side represent a different way to cheat said creature into play.

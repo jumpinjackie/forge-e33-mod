@@ -7,6 +7,9 @@ Artifact
 [Oracle]
 {T}: Add {C}.
 {2}, {T}: Lock or unlock a door of target Room you control. Activate only as a sorcery.
+[ForgeScript]
+A:AB$ Mana | Cost$ T | Produced$ C | SpellDescription$ Add {C}.
+A:AB$ UnlockDoor | Cost$ 2 T | Mode$ LockOrUnlock | ValidTgts$ Room.YouCtrl | TgtPrompt$ Choose target Room you control | SorcerySpeed$ True | SpellDescription$ Lock or unlock a door of target Room you control. Activate only as a sorcery.
 [DesignNotes]
  - In the game, there are various doors scattered throughout the continent that warps you to various rooms in the Manor, unlocking some previously inaccessible rooms in the process.
  - This clearly mechanically maps to an artifact that can lock/unlock rooms ala. Keys to the House
