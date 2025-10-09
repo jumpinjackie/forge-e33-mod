@@ -127,6 +127,8 @@ Empty lines are discarded.
  - `$CHROMA_REMINDER_TEXT`: Reminder text for the Chroma token.
  - `$LUMINA_REMINDER_TEXT`: Reminder text for the Lumina token.
  - `$EXPEDITIONER_TOKEN_TEXT`: Token text for the Human Expeditioner token.
+ - `$NEVRON_DEATH_ABILITY_TEXT`: Text for the Nevron death triggered ability.
+ - `$EXPEDITIONER_DEATH_ABILITY_TEXT`: Text for the Expeditioner death triggered ability.
 
 ### Flavor Text (`[FlavorText]`)
 
@@ -159,3 +161,35 @@ Use this to define the card script in forge. The following elements do not need 
  - `Colors` (from `[ColorIdentity]`)
  - `Types` (from `[Types]`)
  - `Oracle` (from `[Oracle]`)
+
+### Supported variables / macros
+
+#### `$NEVRON_DEATH_ABILITY`
+
+Standard Nevron death ability. Currently defined as:
+
+```
+T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Card.Self | Execute$ TrigToken | TriggerDescription$ When this creature dies, target opponent creates a Lumina token.
+SVar:TrigToken:DB$ Token | TokenAmount$ 1 | ValidTgts$ Opponent | TokenOwner$ Targeted | TokenScript$ c_a_lumina
+```
+
+#### `$EXPEDITIONER_DEATH_ABILITY`
+
+Standard Expeditioner death ability. Currently defined as:
+
+```
+T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Card.Self | Execute$ TrigToken | TriggerDescription$ When CARDNAME dies, create a Chroma token
+SVar:TrigToken:DB$ Token | TokenScript$ c_a_chroma | TokenOwner$ You | TokenAmount$ 1
+```
+
+#### Other
+
+ - `~`: A reference to the name of this card. Will be converted to `CARDNAME`
+ - `$DEVOID_REMINDER_TEXT`: Reminder text for the Devoid keyword.
+ - `$LEGENDARY_SORCERY_REMINDER_TEXT`: Reminder text for Legendary Sorceries.
+ - `$INVESTIGATE_REMINDER_TEXT`: Reminder text for the investigate keyword.
+ - `$CHROMA_REMINDER_TEXT`: Reminder text for the Chroma token.
+ - `$LUMINA_REMINDER_TEXT`: Reminder text for the Lumina token.
+ - `$EXPEDITIONER_TOKEN_TEXT`: Token text for the Human Expeditioner token.
+ - `$NEVRON_DEATH_ABILITY_TEXT`: Text for the Nevron death triggered ability.
+ - `$EXPEDITIONER_DEATH_ABILITY_TEXT`: Text for the Expeditioner death triggered ability.
