@@ -1,7 +1,204 @@
-﻿using System.Diagnostics.CodeAnalysis;
+﻿using System.Diagnostics;
+using System.Diagnostics.CodeAnalysis;
 using DotMake.CommandLine;
 
 await Cli.RunAsync<RootCommand>(args);
+
+public class CardFaceDesign
+{
+    public string? Name { get; set; }
+
+    public string[]? ManaCost { get; set; }
+
+    public string[]? ColorIdentity { get; set; }
+
+    public string[]? Types { get; set; }
+
+    public string[]? Oracle { get; set; }
+
+    public string[]? FlavorText { get; set; }
+
+    public string[]? DesignNotes { get; set; }
+
+    public string[]? Bugs { get; set; }
+
+    public string? PT { get; set; }
+
+    internal void Apply(string propertyName, IEnumerable<string> buffer)
+    {
+        switch (propertyName)
+        {
+            case nameof(Name):
+                Name = string.Join(" ", buffer);
+                break;
+            case nameof(ManaCost):
+                ManaCost = buffer.ToArray();
+                break;
+            case nameof(ColorIdentity):
+                ColorIdentity = buffer.ToArray();
+                break;
+            case nameof(Types):
+                Types = buffer.ToArray();
+                break;
+            case nameof(Oracle):
+                Oracle = buffer.ToArray();
+                break;
+            case nameof(FlavorText):
+                FlavorText = buffer.ToArray();
+                break;
+            case nameof(DesignNotes):
+                DesignNotes = buffer.ToArray();
+                break;
+            case nameof(Bugs):
+                Bugs = buffer.ToArray();
+                break;
+            case nameof(PT):
+                PT = string.Join(" ", buffer);
+                break;
+        }
+    }
+}
+
+/// <summary>
+/// The type of this card design
+/// </summary>
+public enum CardFaceType
+{
+    Regular,
+    SplitRoom,
+    SplitFuse,
+    Meld
+}
+
+/// <summary>
+/// The type of split card we're dealing with
+/// </summary>
+public enum SplitKind
+{
+    Room,
+    Fuse
+}
+
+public class CardMasterDesign(string designFile)
+{
+    private CardFaceDesign _activeFace = new();
+
+    public CardFaceDesign? FrontFull { get; set; }
+
+    public CardFaceDesign? SplitLeft { get; set; }
+
+    public CardFaceDesign? SplitRight { get; set; }
+
+    public CardFaceDesign? MeldTarget { get; set; }
+
+    private SplitKind? _splitKind;
+    
+    public CardFaceType? FaceType { get; set; }
+
+    internal CardMasterDesign Finalize()
+    {
+        if (!_splitKind.HasValue)
+        {
+            if (MeldTarget is not null)
+            {
+                FaceType = CardFaceType.Meld;
+            }
+            else
+            {
+                FrontFull = _activeFace;
+                FaceType = CardFaceType.Regular;
+            }
+        }
+        else
+        {
+            FaceType = _splitKind.Value switch
+            {
+                SplitKind.Fuse when SplitLeft is not null && SplitRight is not null => CardFaceType.SplitFuse,
+                SplitKind.Room when SplitLeft is not null && SplitRight is not null => CardFaceType.SplitRoom,
+                _ => throw new UnreachableException()
+            };
+        }
+        return this;
+    }
+
+    public void MarkRoom()
+    {
+        this.SplitLeft = _activeFace;
+        _activeFace = new();
+        this.SplitRight = _activeFace;
+        _splitKind = SplitKind.Room;
+    }
+
+    public void MarkFused()
+    {
+        this.SplitLeft = _activeFace;
+        _activeFace = new();
+        this.SplitRight = _activeFace;
+        _splitKind = SplitKind.Fuse;
+    }
+
+    public void MarkMeld()
+    {
+        this.FrontFull = _activeFace;
+        _activeFace = new();
+        this.MeldTarget = _activeFace;
+    }
+
+    public void Apply(string propertyName, IEnumerable<string> buffer)
+    {
+        _activeFace.Apply(propertyName, buffer);
+    }
+
+    public static async Task<CardMasterDesign> ReadAsync(DirectoryInfo baseDir, string path)
+    {
+        var card = new CardMasterDesign(Path.GetRelativePath(baseDir.FullName, path));
+        using var sr = new StreamReader(path);
+        var line = await sr.ReadLineAsync();
+        var buffer = new List<string>();
+        string? activePropertyName = null;
+        while (line is not null)
+        {
+            switch (line)
+            {
+                case "[Name]":
+                case "[ManaCost]":
+                case "[Types]":
+                case "[Oracle]":
+                case "[FlavorText]":
+                case "[DesignNotes]":
+                case "[Bugs]":
+                case "[Loyalty]":
+                case "[Colors]":
+                    // Apply the collected buffer for the previous property name
+                    if (activePropertyName != null)
+                    {
+                        card.Apply(activePropertyName, buffer);
+                    }
+                    buffer.Clear();
+                    activePropertyName = line.Substring(1, line.Length - 2);
+                    break;
+                case "ALTERNATIVE:FUSE": // Signal start of new active face
+                    card.MarkFused();
+                    break;
+                case "ALTERNATIVE:MELD": // Signal start of new active face
+                    card.MarkMeld();
+                    break;
+                default:
+                    buffer.Add(line);
+                    break;
+            }
+            line = await sr.ReadLineAsync();
+        }
+
+        // Apply remaining buffer
+        if (buffer.Count > 0 && activePropertyName != null)
+        {
+            card.Apply(activePropertyName, buffer);
+        }
+
+        return card.Finalize();
+    }
+}
 
 public class CardScript(string scriptRelPath)
 {
