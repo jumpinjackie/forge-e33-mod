@@ -4,12 +4,13 @@ Crushing Cavern
 no cost
 [Types]
 Land
+Cave
 [Oracle]
 This land enters tapped.
 {T}: Add {C}.
-{1},{T},Sacrifice Crushing Cavern: Destroy target attacking creature without flying
+{1}, {T}, Sacrifice Crushing Cavern: Destroy target attacking creature without flying
 [FlavorText]
-... But both my legs are crushed as well and I don't know how much longer I have. I wish I could have avenged you all. If anyone finds this journal, do not enter this cave, the Nevron inside will crush you.
+If anyone finds this journal, do not enter this cave, the Nevron inside will crush you.
 - Cassandra, Expedition 45
 [ForgeScript]
 R:Event$ Moved | ValidCard$ Card.Self | Destination$ Battlefield | ReplacementResult$ Updated | ReplaceWith$ ETBTapped | Description$ This land enters tapped.
