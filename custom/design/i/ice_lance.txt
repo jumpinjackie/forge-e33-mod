@@ -9,5 +9,8 @@ Instant
 Expeditioner
 [Oracle]
 Tap up to two target permanents. Put a stun counter on them.
+[ForgeScript]
+A:SP$ Tap | TargetMin$ 0 | TargetMax$ 2 | TgtPrompt$ Choose target permanent | ValidTgts$ Permanent | SubAbility$ TrigStun | SpellDescription$ Tap up to two target permanents.
+SVar:TrigStun:DB$ PutCounter | Defined$ Targeted | CounterType$ STUN | CounterNum$ 1
 [DesignNotes]
  - Generic useful ice-themed tempo play in limited/draft environments.

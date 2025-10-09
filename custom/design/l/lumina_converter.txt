@@ -8,6 +8,10 @@ Artifact
 {T}, Remove a counter from a permanent you control: Create a Lumina token.
 {T}, Sacrifice a Chroma token: Create a Lumina token.
 {T}, Sacrifice a Nevron: Create a Lumina token.
+[ForgeScript]
+A:AB$ Token | Cost$ T RemoveAnyCounter<1/Any/Permanent.YouCtrl/a permanent you control> | TokenAmount$ 1 | TokenOwner$ You | TokenScript$ c_a_lumina | SpellDescription$ Create a Lumina token.
+A:AB$ Token | Cost$ T Sac<1/Chroma.YouCtrl/a Chroma token you control> | TokenAmount$ 1 | TokenOwner$ You | TokenScript$ c_a_lumina | SpellDescription$ Create a Lumina token.
+A:AB$ Token | Cost$ T Sac<1/Nevron.YouCtrl/a Nevron you control> | TokenAmount$ 1 | TokenOwner$ You | TokenScript$ c_a_lumina | SpellDescription$ Create a Lumina token.
 [DesignNotes]
  - In the game, the Lumina Converter is a device invented by Gustave that gives Expedition 33 the edge over previous expeditions.
  - Utility artifact to support a Lumina token strategy. Inspired by Power Conduit.

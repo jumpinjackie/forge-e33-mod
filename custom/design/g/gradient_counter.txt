@@ -10,6 +10,8 @@ Expeditioner
 Counter target Gradient spell
 [FlavorText]
 Parry it!
+[ForgeScript]
+A:SP$ Counter | TargetType$ Spell | ValidTgts$ Gradient | SpellDescription$ Counter target Gradient spell.
 [DesignNotes]
  - In the game, a Gradient attack is a super-charged attack. Such attacks can only be parried with a Gradient counter.
  - Mechanically, since we have Gradient instants/sorceries. This is obviously a thematically-relevant counter.

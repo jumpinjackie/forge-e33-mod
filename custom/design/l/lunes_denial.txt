@@ -12,5 +12,8 @@ Counter target spell unless its controller pays {2}.
 Create a Lumina token.
 [FlavorText]
 Not today!
+[ForgeScript]
+A:SP$ Counter | TargetType$ Spell | TgtPrompt$ Select target spell | ValidTgts$ Card | UnlessCost$ 2 | SubAbility$ DBToken | SpellDescription$ Counter target spell unless its controller pays {2}.
+SVar:DBToken:DB$ Token | TokenAmount$ 1 | TokenOwner$ You | TokenScript$ c_a_lumina
 [DesignNotes]
  - Mandatory soft-counter with thematic uniqueness

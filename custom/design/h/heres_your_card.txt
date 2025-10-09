@@ -7,6 +7,9 @@ Kindred Instant - Expeditioner
 [Oracle]
 Target creature gets -2/-2 until end of turn.
 Foretell {0} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)
+[ForgeScript]
+K:Foretell:0
+A:SP$ Pump | ValidTgts$ Creature | TgtPrompt$ Select target creature | NumAtt$ -2 | NumDef$ -2 | SpellDescription$ Target creature gets -2/-2 until end of turn.
 [DesignNotes]
  - In the game, this is one of Sciel's quotes when performing a regular attack.
  - Simple targeted creature kill with Foretell to name-tie (not mechanically-tie) it to Sciel's skillset. The keyword ability is already there, so let's just use it!

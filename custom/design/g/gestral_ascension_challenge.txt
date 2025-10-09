@@ -9,6 +9,11 @@ Whenever a creature you control with flying enters or a creature you control wit
 Remove four quest counters from this enchantment and sacrifice it: Draw three cards.
 [FlavorText]
 Oh really? An Expedition? I certainly wasn't expecting that. But your presence here is proof that you climbed the tower, like all of us here. You can live here with us now, forever.
+[ForgeScript]
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Creature.YouCtrl+withFlying | TriggerZones$ Battlefield | Execute$ TrigQuestCounter | OptionalDecider$ You | TriggerDescription$ Whenever a creature you control with flying enters, you may put a quest counter on CARDNAME.
+T:Mode$ Attacks | ValidCard$ Creature.YouCtrl+withFlying | Execute$ TrigQuestCounter | TriggerZones$ Battlefield | TriggerDescription$ Whenever a creature you control with flying enters, put a quest counter on CARDNAME.
+SVar:TrigQuestCounter:DB$ PutCounter | Defined$ Self | CounterType$ QUEST | CounterNum$ 1
+A:AB$ Draw | Cost$ SubCounter<4/QUEST> Sac<1/CARDNAME> | Defined$ You | NumCards$ 3 | SpellDescription$ Draw three cards
 [DesignNotes]
  - In the game, the Gestral Ascension Challenge is 1 of 5 challenge minigames. This minigame in particular requires ascending upwards navigating various obstacles and jumps without falling down and starting over.
  - All minigames are modeled as "quest" enchantments originating from Zendikar block and use the same terminology (charging with quest counters based on certain conditions with some payoff at the end once you reach a certain number of quest counters).

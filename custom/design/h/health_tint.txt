@@ -7,6 +7,9 @@ Artifact
 [Oracle]
 Sacrifice this artifact: You gain 5 life.
 Sacrifice this artifact: You gain 10 life. Activate this ability only if you control at least 3 Lumina tokens.
+[ForgeScript]
+A:AB$ GainLife | Cost$ T Sac<1/CARDNAME> | LifeAmount$ 5 | SpellDescription$ You gain 5 life.
+A:AB$ GainLife | Cost$ T Sac<1/CARDNAME> | LifeAmount$ 10 | IsPresent$ Lumina.YouCtrl | PresentCompare$ GE3 | SpellDescription$ You gain 10 life. Activate this ability only if you control at least 3 Lumina tokens.
 [DesignNotes]
  - In the game, health tints restore party member HP during a battle or outside of battle when not near an Expedition flag.
  - Another enabler for Lumina token strategies

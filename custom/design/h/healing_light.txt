@@ -11,6 +11,10 @@ Expeditioner
 Each player gains twice X life.
 [FlavorText]
 Please survive!
+[ForgeScript]
+A:SP$ GainLife | Defined$ Player | LifeAmount$ X | SubAbility$ GainMoreLife | StackDescription$ Each player gains twice X life. | SpellDescription$ Each player gains twice X life.
+SVar:GainMoreLife:DB$ GainLife | Defined$ Player | LifeAmount$ X
+SVar:X:Count$xPaid
 [DesignNotes]
  - In the game, Healing Light is one of Lune's abilities that heals an ally.
  - Easy mechanical translation to life gain, but with a twist. It's symmetrical for a reason: As an enabler for The 67th Gommage.

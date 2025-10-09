@@ -10,6 +10,11 @@ This land enters tapped unless you control an Expeditioner.
 {4},{T}: Create a Food token.
 [FlavorText]
 The Aquafarm project ensured that Lumiere would have a plentiful supply of food for years to come.
+[ForgeScript]
+A:AB$ Mana | Cost$ T | Produced$ Combo W U | SpellDescription$ Add {W} or {U}.
+A:AB$ Token | Cost$ 4 T | TokenAmount$ 1 | TokenScript$ c_a_food_sac | TokenOwner$ You | SpellDescription$ Create a Food token.
+R:Event$ Moved | ValidCard$ Card.Self | Destination$ Battlefield | ReplaceWith$ LandTapped | ReplacementResult$ Updated | Description$ CARDNAME enters tapped unless you control an Expeditioner.
+SVar:LandTapped:DB$ Tap | Defined$ Self | ETB$ True | ConditionPresent$ Expeditioner.YouCtrl | ConditionCompare$ EQ0
 [DesignNotes]
  - In the game, Gustave lead the Aquafarm project which ensured the food supply for the city of Lumiere.
  - This gives us an opportunity to add another dual land to this set.

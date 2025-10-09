@@ -13,6 +13,9 @@ This spell costs {1} less to cast if you control an Expeditioner.
 Draw three cards.
 [FlavorText]
 Maybe Gustave's idea to convert chroma from Pictos to... What did he call it? Lumina? Maybe that's not so crazy after all.
-- Corinne
+- Corinne, Expedition 34
+[ForgeScript]
+S:Mode$ ReduceCost | ValidCard$ Card.Self | Type$ Spell | Amount$ 1 | EffectZone$ All | IsPresent$ Expeditioner.YouCtrl | Description$ This spell costs {1} less to cast if you control an Expeditioner.
+A:SP$ Draw | NumCards$ 3 | SpellDescription$ Draw three cards.
 [DesignNotes]
  - Raw card draw with an expeditioner bonus

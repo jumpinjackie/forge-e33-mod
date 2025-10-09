@@ -9,6 +9,10 @@ Land
 {1},{R/G},{T}: Target Gestral creature you control fights another target creature
 [FlavorText]
 The tournament's starting soon. Please wait. - Gestral Warrior
+[ForgeScript]
+A:AB$ Mana | Cost$ T | Produced$ C | SpellDescription$ Add {C}.
+A:AB$ Pump | Cost$ 1 R/G T | ValidTgts$ Creature.Gestral+YouCtrl | TgtPrompt$ Choose target Gestral creature you control | SubAbility$ ArenaFight | StackDescription$ None | SpellDescription$ Target Gestral creature you control fights another target creature. (Each deals damage equal to its power to the other.)
+SVar:ArenaFight:DB$ Fight | Defined$ ParentTarget | ValidTgts$ Creature | TargetUnique$ True | TgtPrompt$ Choose another target creature
 [DesignNotes]
  - In the game, the Gestral Village has an arena where Gestrals fight. Sciel was discovered to be competing here.
  - Gestral loves to fight. So naturally a Gestral Arena should have an ability that lets a Gestral fight someone else.
