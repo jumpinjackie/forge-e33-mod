@@ -9,7 +9,7 @@ Room
 [Oracle]
 When you unlock this door, create two Food tokens.
 
-ALTERNATE
+ALTERNATE:ROOM
 
 [Name]
 Manor Cellar

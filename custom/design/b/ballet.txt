@@ -10,7 +10,7 @@ Nevron
 [PT]
 2/2
 [Oracle]
-Devoid (This card has no color.)
+Devoid $DEVOID_REMINDER_TEXT
 Flying.
 When this creature dies, target opponent creates a Lumina token.
 [DesignNotes]

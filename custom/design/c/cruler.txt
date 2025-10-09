@@ -9,7 +9,7 @@ Nevron
 [PT]
 2/3
 [Oracle]
-Devoid (This card has no color.)
+Devoid $DEVOID_REMINDER_TEXT
 When this creature dies, target opponent creates a Lumina token.
 This creature gets +2/+2 and Ward 2 if you control a creature named Bruler.
 [DesignNotes]

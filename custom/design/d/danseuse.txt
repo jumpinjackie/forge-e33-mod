@@ -10,7 +10,7 @@ Nevron
 [PT]
 2/2
 [Oracle]
-Devoid (This card has no color.)
+Devoid $DEVOID_REMINDER_TEXT
 When this creature dies, target opponent creates a Lumina token.
 {R},{T}: This creature deals 2 damage to target creature.
 {U},{T}: Tap target creature. Put a stun counter on it.\nWhen this creature dies, if you control no creatures, put two 2/2 Red and Blue Danseuse Clone creature tokens into play.

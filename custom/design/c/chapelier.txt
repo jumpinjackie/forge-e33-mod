@@ -10,7 +10,7 @@ Creature Nevron
 2/2
 [Oracle]
 Flying.
-Devoid (This card has no color.)
+Devoid $DEVOID_REMINDER_TEXT
 When this creature dies, target opponent creates a Lumina token.
 {1}{B},{T}: Create a 1/1 colorless Jar Nevron creature token.
 Exhaust on death - When this creature dies, tap target creature an opponent controls, put a stun counter on it. (If a permanent with a stun counter would become untapped, remove one from it instead.)
