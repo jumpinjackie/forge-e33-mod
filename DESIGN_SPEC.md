@@ -8,6 +8,7 @@ This repo originally started out as a series of custom set card scripts for Forg
  2. The CardConjurer JSON to generate an image of this card
  3. The respective design notes md doc for this card
  4. BUGS.md if there are any new issues that need to be documented.
+ 5. The final set edition file
 
 If I want to tweak the name, mana cost, type, PT or oracle text of any given card, that's up to 4 different places that need to be updated. This situation is un-tenable.
 
@@ -34,7 +35,7 @@ From this master design file, we can use the provided `CardProcess` tool to sync
 
 ## Design File Properties
 
-A master design file specifies properties in a psuedo .ini style file format for ease of parsing by `CardProcess`
+A master design file specifies properties in a pseudo .ini style file format for ease of parsing by `CardProcess`
 
 All valid properties in a design file is specified here.
 
@@ -44,7 +45,7 @@ All valid properties in a design file is specified here.
 
 The name of the card. Cannot span multiple lines.
 
-### ManaCost (`[ManaCost]`)
+### Mana Cost (`[ManaCost]`)
 
 The mana cost of the card. Must be one line for each symbol/pip in the mana cost. For example a mana cost of 3UU would be specified as
 
@@ -126,6 +127,8 @@ You can "nudge" the flavor text up a bit from the bottom of the card frame witho
 ### Ability Words (`[AbilityWords]`)
 
 This indicates words that should be italicized when generating the CardConjurer JSON. One line per ability words to italicize.
+
+Not used in any other context.
 
 ### Design Notes (`[DesignNotes]`)
 
