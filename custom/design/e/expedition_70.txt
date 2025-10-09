@@ -11,6 +11,12 @@ Saga
 (As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
 I, II — Search your library for an Expeditioner card, reveal it and put it into your hand, then shuffle.
 III — Search your library for an Expeditioner permanent, put it onto the battlefield, then shuffle.
+[ForgeScript]
+K:Chapter:3:DBChapter1,DBChapter2,DBChapter3
+SVar:DBChapter1:DB$ ChangeZone | Origin$ Library | Destination$ Hand | ChangeType$ Expeditioner | ChangeNum$ 1 | SpellDescription$ Search your library for an Expeditioner card, reveal it and put it into your hand, then shuffle.
+SVar:DBChapter2:DB$ ChangeZone | Origin$ Library | Destination$ Hand | ChangeType$ Expeditioner | ChangeNum$ 1 | SpellDescription$ Search your library for an Expeditioner card, reveal it and put it into your hand, then shuffle.
+SVar:DBChapter3:DB$ ChangeZone | Origin$ Library | Destination$ Battlefield | ChangeType$ Permanent.Expeditioner | ChangeNum$ 1 | SpellDescription$ Search your library for an Expeditioner permanent, put it onto the battlefield, then shuffle.
+DeckHas:Ability$Counters
 [DesignNotes]
  - Journal is a story of an Expedition that made it inside the Monolith in the final few days of their lifetimes and installing grapple points for those who come after.
  - 21/09/2025: This is an enabler engine for Expeditioner tribal strategies

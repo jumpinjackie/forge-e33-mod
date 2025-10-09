@@ -11,6 +11,12 @@ At the beginning of your upkeep, you may put a challenge counter on Endless Towe
 [FlavorText]
 It's not selfish to make your own choices, sister.
 - Fading Woman
+[ForgeScript]
+A:AB$ Mana | Cost$ T | Produced$ C | SpellDescription$ Add {C}.
+A:AB$ ChangeZone | Cost$ T SubCounter<X/CHALLENGE> | ChangeNum$ 1 | ChangeType$ Creature.Nevron+cmcEQX | Origin$ Hand | Destination$ Battlefield | Optional$ True | SpellDescription$ You may put a Nevron creature card with mana value X from your hand onto the battlefield.
+T:Mode$ Phase | Phase$ Upkeep | ValidPlayer$ You | TriggerZones$ Battlefield | OptionalDecider$ You | Execute$ TrigPutCounter | TriggerDescription$ At the beginning of your upkeep, you may put a charge counter on CARDNAME.
+SVar:TrigPutCounter:DB$ PutCounter | Defined$ Self | CounterType$ CHALLENGE | CounterNum$ 1 | AILogic$ ChargeToBestCMC
+SVar:X:Count$xPaid
 [DesignNotes]
  - In the game, the Endless Tower was a 33-battle gauntlet against Nevrons of increasing difficulty
  - Figured the best way to mechanically model this gauntlet is to have something between Aether Vial and Mercadian Lift that grows counters and can put out Nevrons of increasing size based on the number of counters.

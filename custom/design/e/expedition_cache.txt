@@ -8,7 +8,11 @@ Artifact
 {T},Sacrifice this artifact: Create two Lumina tokens.
 {T},Sacrifice this artifact: Create two Chroma tokens.
 [FlavorText]
-This could be useful! - Gustave
+This could be useful!
+- Gustave
+[ForgeScript]
+A:AB$ Token | Cost$ T Sac<1/CARDNAME> | TokenAmount$ 2 | TokenOwner$ You | TokenScript$ c_a_lumina | SpellDescription$ Create two Lumina tokens.
+A:AB$ Token | Cost$ T Sac<1/CARDNAME> | TokenAmount$ 2 | TokenOwner$ You | TokenScript$ c_a_chroma | SpellDescription$ Create two Chroma tokens.
 [DesignNotes]
  - In the game, these caches are scattered throughout the continent, left by previous Expeditions "for those who come after"
  - Just an enabler for Lumina/Chroma token strategies

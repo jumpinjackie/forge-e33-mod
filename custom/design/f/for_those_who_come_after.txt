@@ -11,6 +11,10 @@ Expeditioner
 Create three Lumina tokens if {U} was spent to cast this spell.
 Create two Chroma tokens if {W} was spent to cast this spell.
 [FlavorText]
-This is our gift, for all the Expeditions to come. - Charlotte
+This is our gift, for all the Expeditions to come.
+- Charlotte, Expedition 70
+[ForgeScript]
+A:SP$ Token | TokenAmount$ 3 | TokenOwner$ You | TokenScript$ c_a_lumina | ConditionManaSpent$ U | SubAbility$ DBChroma
+SVar:DBChroma:DB$ Token | TokenAmount$ 2 | TokenOwner$ You | TokenScript$ c_a_chroma | ConditionManaSpent$ W
 [DesignNotes]
  - Just another Chroma/Lumina token strategy enabler

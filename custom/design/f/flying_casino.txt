@@ -9,7 +9,15 @@ This land enters tapped.
 {T}: Add {C}.
 {1}{R},{T},Sacrifice this land: Search your library for a card and put it into your hand. Discard a card at random. Activate only as a sorcery.
 [FlavorText]
-I maintain this place even after its fall so its history is never forgotten. - Unknown Gestral
+I maintain this place even after its fall so its history is never forgotten.
+- Unknown Gestral
+[ForgeScript]
+R:Event$ Moved | ValidCard$ Card.Self | Destination$ Battlefield | ReplacementResult$ Updated | ReplaceWith$ ETBTapped | Description$ CARDNAME enters tapped.
+SVar:ETBTapped:DB$ Tap | Defined$ Self | ETB$ True
+A:AB$ Mana | Cost$ T | Produced$ C | SpellDescription$ Add {C}.
+A:AB$ ChangeZone | Cost$ 1 R T Sac<1/CARDNAME> | Origin$ Library | NoShuffle$ True | Destination$ Hand | ChangeType$ Card | ChangeNum$ 1 | SubAbility$ DBDiscard | Mandatory$ True | SpellDescription$ Search your library for a card, put that card into your hand, discard a card at random, then shuffle.
+SVar:DBDiscard:DB$ Discard | Defined$ You | NumCards$ 1 | Mode$ Random | SubAbility$ DBShuffle
+SVar:DBShuffle:DB$ Shuffle | Defined$ You
 [DesignNotes]
  - In the game, the Flying Casino is a location where one can acquire an outfit for Monoco. It looks like cut content that was going to be more than what was in the final game (maybe a place to play various gambling mini-games?)
  - Mechanically, I've gone with replicating Gamble

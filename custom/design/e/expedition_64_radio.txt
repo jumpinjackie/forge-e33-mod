@@ -10,6 +10,11 @@ Send Backup! - When this artifact enters, reveal the top four cards of your libr
 {2}, Sacrifice this artifact: Draw a card.
 [AbilityWords]
 Send Backup!
+[ForgeScript]
+T:Mode$ ChangesZone | ValidCard$ Card.Self | Origin$ Any | Destination$ Battlefield | Execute$ TrigDig | TriggerDescription$ When CARDNAME enters, reveal the top four cards of your library. Put all Expeditioner cards revealed this way into your hand and the rest on the bottom of your library in any order.
+SVar:TrigDig:DB$ Dig | DigNum$ 4 | Reveal$ True | ChangeNum$ All | ChangeValid$ Expeditioner
+A:AB$ Draw | Cost$ 2 Sac<1/CARDNAME> | NumCards$ 1 | SpellDescription$ Draw a card.
+DeckHints:Type$Expeditioner
 [DesignNotes]
  - In the game, Expedition 64 used radio communications to keep in touch. The expedition started to collapse and eventually fail when their radio communications broke down.
  - I've interpreted the radio device as an artifact that has a ringleader effect when it ETBs to represent "calling for backup"

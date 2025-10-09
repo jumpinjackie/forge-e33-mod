@@ -15,7 +15,13 @@ Expeditioner
 Sacrifice three Lumina tokens: Destroy target Nevron creature.
 When this creature dies, create a Chroma token.
 [FlavorText]
-Oh, I hear a big Nev coming, they count for double. If I kill it quick I can boost my score. - Virgile
+Oh, I hear a big Nev coming, they count for double. If I kill it quick I can boost my score.
+- Virgile, Expedition 62
+[ForgeScript]
+A:AB$ Pump | Cost$ 2 B T | ValidTgts$ Creature | TgtPrompt$ Select target creature | NumAtt$ -2 | NumDef$ -2 | SpellDescription$ Target creature gets -2/-2 until end of turn.
+A:AB$ Destroy | Cost$ Sac<3/Lumina> | ValidTgts$ Creature.Nevron | TgtPrompt$ Select target Nevron | SpellDescription$ Destroy target Nevron creature.
+T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Card.Self | Execute$ TrigToken | TriggerDescription$ When CARDNAME dies, create a Chroma token
+SVar:TrigToken:DB$ Token | TokenScript$ c_a_chroma | TokenOwner$ You | TokenAmount$ 1
 [DesignNotes]
  - In the game, Expedition 62 made Nevron hunting into a game, with members constantly trying to outscore each other in Nevron kills.
  - Mechanically translated to a creature with creature killing abilities and standard Expeditioner death bonus.

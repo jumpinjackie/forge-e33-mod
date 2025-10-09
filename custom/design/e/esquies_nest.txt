@@ -13,5 +13,16 @@ Cave
  - In the game, this is the place where Esquie dwells.
  - Esquie's Nest visually resembles most artistic depictions of the card Reflecting Pool, so I gave it the same mana ability.
  - I've gone with making this card one of the beneficiaries of the "Urzatron" rock strategy.
+[ForgeScript]
+A:AB$ ManaReflected | Cost$ T | ColorOrType$ Type | Valid$ Land.YouCtrl | ReflectProperty$ Produce | SpellDescription$ Add one mana of any type that a land you control could produce.
+A:AB$ Mana | Cost$ T | Produced$ W U B R G | ConditionCheckSVar$ AllFour | ConditionSVarCompare$ EQ4 | SpellDescription$ Add {W}{U}{B}{R}{G}. Activate this ability only if you control a card named Soarrie, a card named Florrie, a card named Dorrie and a card named Urrie.
+SVar:AllFour:SVar$AllThree/Plus.Soarrie
+SVar:AllThree:SVar$Sum/Plus.Dorrie
+SVar:Sum:SVar$Florrie/Plus.Urrie
+SVar:Soarrie:Count$Valid Artifact.YouCtrl+namedSoarrie/LimitMax.1
+SVar:Florrie:Count$Valid Artifact.YouCtrl+namedFlorrie/LimitMax.1
+SVar:Urrie:Count$Valid Artifact.YouCtrl+namedUrrie/LimitMax.1
+SVar:Dorrie:Count$Valid Artifact.YouCtrl+namedDorrie/LimitMax.1
+DeckNeeds:Name$Soarrie|Florrie|Urrie|Dorrie
 [Bugs]
 The WUBRG mana ability is not preventatively disabled if you don't meet the activation condition. The ability however will (correctly) not add WUBRG if you don't meet the activation condition.

@@ -9,6 +9,9 @@ Aura
 [Oracle]
 Enchant permanent
 Enchanted permanent doesn't untap during its controller's untap step.
+[ForgeScript]
+K:Enchant:Permanent
+R:Event$ Untap | ActiveZones$ Battlefield | ValidCard$ Permanent.EnchantedBy | ValidStepTurnToController$ You | Layer$ CantHappen | Description$ Enchanted permanent doesn't untap during its controller's untap step.
 [DesignNotes]
  - In the game, this is one of Lune's skills.
  - Went with standard blue pin-down effect for limited/draft

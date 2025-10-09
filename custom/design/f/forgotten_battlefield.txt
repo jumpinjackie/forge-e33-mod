@@ -8,6 +8,12 @@ Land
 [Oracle]
 {T}: Add {C}.
 {1}{B}, {T}: Put target Nevron card from your graveyard on top of your library.
+[ForgeScript]
+A:AB$ Mana | Cost$ T | Produced$ C | SpellDescription$ Add {C}.
+A:AB$ ChangeZone | Cost$ 1 B T | TgtPrompt$ Choose target Nevron card in your graveyard | ValidTgts$ Nevron.YouCtrl | Origin$ Graveyard | Destination$ Library | SpellDescription$ Put target Nevron card from your graveyard on top of your library.
+[FlavorText]
+These siege engines seemed much more powerful in Lumiere. But on this battlefield, next to all these broken bodies, staring at the true size of the monolith, I feel despair.
+- Carla, Expedition 57
 [DesignNotes]
  - In the game, the Forgotten Battlefield is one of the areas the Expedition 33 crew must traverse to reach Monoco's Station.
  - Volrath's Stronghold for Nevrons

@@ -16,7 +16,14 @@ When this creature dies, create a Chroma token.
 [AbilityWords]
 Mercy Kill
 [FlavorText]
-It's the right choice. It is. Even if it doesn't feel like it. Right? Right. - Lilou
+It's the right choice. It is. Even if it doesn't feel like it. Right? Right.
+- Lilou, Expedition 53
+[ForgeScript]
+A:AB$ GainLife | Cost$ Sac<1/Creature.Expeditioner> | LifeAmount$ X | SubAbility$ DBScry
+SVar:DBScry:DB$ Scry | ScryNum$ X
+SVar:X:Sacrificed$CardPower
+T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Card.Self | Execute$ TrigToken | TriggerDescription$ When CARDNAME dies, create a Chroma token
+SVar:TrigToken:DB$ Token | TokenScript$ c_a_chroma | TokenOwner$ You | TokenAmount$ 1
 [DesignNotes]
  - In the game, members of Expedition 53 mercy-killed a fellow expeditioner whose injuries had left them in a coma.
  - This card represents one such member.

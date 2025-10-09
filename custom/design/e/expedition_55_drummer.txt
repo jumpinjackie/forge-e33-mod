@@ -12,6 +12,10 @@ Expeditioner
 [Oracle]
 Other Expeditioner creatures you control get +1/+1.
 When this creature dies, create a Chroma token.
+[ForgeScript]
+S:Mode$ Continuous | Affected$ Creature.Expeditioner+Other+YouCtrl | AddPower$ 1 | AddToughness$ 1 | Description$ Other Expeditioner creatures you control get +1/+1.
+T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Card.Self | Execute$ TrigToken | TriggerDescription$ When CARDNAME dies, create a Chroma token
+SVar:TrigToken:DB$ Token | TokenScript$ c_a_chroma | TokenOwner$ You | TokenAmount$ 1
 [DesignNotes]
  - In the game, Expedition 55 tried using musically-augmented pictos. This was mostly effective until they encountered Sirene whose minions and herself were immune to these pictos.
  - Since the main theme of this Expedition was music, it can be safely assumed that most of the crew were musicians or were proficient in one kind of music, giving us ample design space to fill out the Expeditioner creature roster with various creatures of various utility. In this case, I've gone with a drummer and a lord buff effect.

@@ -13,6 +13,11 @@ Expeditioner
 Flying.
 This creature can block only creatures with flying.
 When this creature dies, create a Chroma token.
+[ForgeScript]
+K:Flying
+S:Mode$ CantBlockBy | ValidAttacker$ Creature.withoutFlying | ValidBlocker$ Creature.Self | Description$ CARDNAME can block only creatures with flying.
+T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Card.Self | Execute$ TrigToken | TriggerDescription$ When CARDNAME dies, create a Chroma token
+SVar:TrigToken:DB$ Token | TokenScript$ c_a_chroma | TokenOwner$ You | TokenAmount$ 1
 [DesignNotes]
  - In the game, the journal of Expedition 40 details the story of trying to enter The Monolith by flying through the barrier. Those who tried got gommaged.
  - This card represents the poor bastards who tried.

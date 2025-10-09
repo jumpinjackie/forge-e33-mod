@@ -10,7 +10,11 @@ Rock
 {T}: Target creature you control gains Islandwalk until end of turn.
 {1},Sacrifice Florrie: Draw a card.
 [FlavorText]
-See, Florrie helps me swim. But Florrie was stolen by my archnemesis! - Esquie
+See, Florrie helps me swim. But Florrie was stolen by my archnemesis!
+- Esquie
+[ForgeScript]
+A:AB$ Animate | Cost$ T | ValidTgts$ Creature.YouCtrl | TgtPrompt$ Select target creature you control | Keywords$ Islandwalk | SpellDescription$ Target creature you control gains Islandwalk until end of turn.
+A:AB$ Draw | Cost$ 1 Sac<1/CARDNAME> | NumCards$ 1 | SpellDescription$ Draw a card.
 [DesignNotes]
  - In the game Florrie is a quest item which will grant Esquie the ability to swim in the Continent overworld
  - In this set, Florrie is 1 of 4 legendary "Rock" artifacts which will grant benefits to other cards if this or other members of the quartet are in play, just like Urza's Tower, Mine and Power Plant become more powerful when all of them are in play, I am trying to go for a similar outcome with this quartet.

@@ -11,6 +11,13 @@ Saga
 I — You gain 2 life for each creature you control.
 II — Put a shield counter on each creature you control.
 III — Creatures you control gain indestructible until end of turn.
+[ForgeScript]
+K:Chapter:3:DBChapter1,DBChapter2,DBChapter3
+SVar:DBChapter1:DB$ GainLife | LifeAmount$ X | SpellDescription$ You gain 2 life for each creature you control.
+SVar:DBChapter2:DB$ PutCounterAll | ValidCards$ Creature.YouCtrl | CounterType$ SHIELD | CounterNum$ 1 | SpellDescription$ Put a shield counter on each creature you control.
+SVar:DBChapter3:DB$ PumpAll | ValidCards$ Creature.YouCtrl | KW$ Indestructible | SpellDescription$ Creatures you control gain indestructible until end of turn.
+SVar:X:Count$Valid Creature/Times.2
+DeckHas:Ability$Counters
 [DesignNotes]
  - Journal is about expeditioners who carried out their mission through strong defense/healing tactics, which proves to be their downfall as their weak offensive capabilities prove to be ineffective against the Nevrons.
  - Easy mechanical map to life gain and defensive buffs.
