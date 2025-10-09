@@ -89,6 +89,15 @@ Human
 Solider
 ```
 
+### Rarity (`[Rarity]`)
+
+The rarity of the card.
+
+ - C: Common
+ - U: Uncommon
+ - R: Rare
+ - M: Mythic Rare
+
 ### Oracle Text (`[Oracle]`)
 
 The oracle text of the card. Can span multiple lines.
@@ -113,6 +122,7 @@ Empty lines are discarded.
 
  - `~`: A reference to the name of this card. For non-legendary cards it will be `This [spell/creature/land/artifact/etc]`, for legendary cards it will be the name of the card (up to the first comma, if present).
  - `$DEVOID_REMINDER_TEXT`: Reminder text for the Devoid keyword.
+ - `$LEGENDARY_SORCERY_REMINDER_TEXT`: Reminder text for Legendary Sorceries.
  - `$INVESTIGATE_REMINDER_TEXT`: Reminder text for the investigate keyword.
  - `$CHROMA_REMINDER_TEXT`: Reminder text for the Chroma token.
  - `$LUMINA_REMINDER_TEXT`: Reminder text for the Lumina token.
