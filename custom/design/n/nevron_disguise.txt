@@ -11,6 +11,7 @@ Expeditioner
 {1}, Sacrifice this enchantment: Draw a card.
 [FlavorText]
 The idea was we'd only have to fool the first one. Then Jules can wear its carcass to trap the next, and so on, until we all have proper cover. But disguising ourselves as Nevrons has proven to be extremely ineffective, to say the least. Maybe they recognize each other by their chroma?
+- Nicolas, Expedition 44
 [ForgeScript]
 A:AB$ Animate | Cost$ G | ValidTgts$ Creature.nonNevron | TgtPrompt$ Select target creature | Types$ Nevron | RemoveCreatureTypes$ True | SpellDescription$ Target creature becomes a Warrior until end of turn.
 A:AB$ Draw | Cost$ 1 Sac<1/CARDNAME> | NumCards$ 1 | SpellDescription$ Draw a card.

@@ -7,6 +7,9 @@ Legendary Land
 [Oracle]
 {T}: Add {C}.
 {5}, {T}: Return target Gestral card from your graveyard and put it into your hand. This ability costs {2} less to activate if you control a creature named Golgra, Gestral Chief
+[FlavorText]
+MONOCO! You're trying to skip the queue again you old... uh... old... lazy... retired warrior!
+- Golgra
 [ForgeScript]
 A:AB$ Mana | Cost$ T | Produced$ C | SpellDescription$ Add {C}.
 A:AB$ ChangeZone | Cost$ 5 T | ReduceCost$ X | Origin$ Graveyard | Destination$ Hand | TgtPrompt$ Select target Gestral card in your graveyard | ValidTgts$ Gestral.YouCtrl | SpellDescription$ Return target Gestral card from your graveyard and put it into your hand. This ability costs {2} less to activate if you control a creature named Golgra, Gestral Chief

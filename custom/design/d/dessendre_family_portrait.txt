@@ -9,7 +9,7 @@ Painter and Gradient spells you cast cost {1} less to cast.
 {T}: Add one mana of any color. Spend this mana only to cast a Painter or Gradient spell.
 {3},{T}: Search your library for a Painter card, reveal it and put it into your hand, then shuffle.
 [FlavorText]
-One family, divided by grief.
+One family, united by art, divided by grief.
 [ForgeScript]
 S:Mode$ ReduceCost | ValidCard$ Painter,Gradient | Type$ Spell | Activator$ You | Amount$ 1 | Description$ Painter and Gradient spells you cast cost {1} less to cast.
 A:AB$ Mana | Cost$ T | Produced$ Any | RestrictValid$ Spell.Painter,Spell.Gradient | SpellDescription$ Add one mana of any color.

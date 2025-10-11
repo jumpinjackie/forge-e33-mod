@@ -10,6 +10,9 @@ Enchantment
 [Oracle]
 Creatures cannot attack you unless their controller sacrifices a Chroma token for each creature they control that's attacking you.
 {3}: Create a Chroma token. Any player may activate this ability.
+[FlavorText]
+This looks similar to Lumiere's shield dome. Maybe we can just cross it.
+- Lune
 [ForgeScript]
 S:Mode$ CantAttackUnless | ValidCard$ Creature | Target$ You | Cost$ Sac<1/Chroma> | Description$ Creatures cannot attack you unless their controller sacrifices a Chroma token for each creature they control that's attacking you.
 A:AB$ Token | Cost$ 3 | Activator$ Player | TokenAmount$ 1 | TokenScript$ c_a_chroma | TokenOwner$ You | SpellDescription$ Create a Chroma tokens.

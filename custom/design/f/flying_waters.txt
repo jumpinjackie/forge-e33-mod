@@ -7,7 +7,7 @@ Land
 [Oracle]
 This land enters tapped
 {T}: Add {U}.
-{U},{T}: Target creature you control gains flying until end of turn.
+{U}, {T}: Target creature you control gains flying until end of turn.
 [ForgeScript]
 R:Event$ Moved | ValidCard$ Card.Self | Destination$ Battlefield | ReplacementResult$ Updated | ReplaceWith$ ETBTapped | Description$ CARDNAME enters tapped.
 SVar:ETBTapped:DB$ Tap | Defined$ Self | ETB$ True

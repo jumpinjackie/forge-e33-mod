@@ -15,6 +15,8 @@ Serpent
 Flying. Ward 3.
 {1}{U}: Tap target creature and put a stun counter on it. Put a charge counter on this creature.
 {4}{R}, Remove X charge counters from Serpenphare: Serpenphare deals X damage to each creature.
+[FlavorText]
+An omnipresent feature of the continent skies. A reminder that before one can even reach The Monolith, one must get past Serpenphare.
 [ForgeScript]
 K:Flying
 K:Ward:3

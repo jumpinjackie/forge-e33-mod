@@ -10,6 +10,8 @@ Sorcery
 (You may cast a legendary sorcery only if you control a legendary creature or planeswalker.)
 Destroy all non-basic lands.
 Search your library for a card named The Monolith, put it onto the battlefield and shuffle.
+[FlavorText]
+The city of Lumiere was uprooted and flung into the ocean. Soon after, The Monolith appeared, bearing the number “100“. Nobody knew what this number meant.
 [ForgeScript]
 A:SP$ DestroyAll | ValidCards$ Land.nonBasic | SubAbility$ TutorMonolith | SpellDescription$ Destroy all nonbasic lands.
 SVar:TutorMonolith:DB$ ChangeZone | Origin$ Library | Destination$ Battlefield | ChangeType$ Card.YouOwn+namedThe Monolith | SpellDescription$ Search your library for a card named The Monolith, put it onto the battlefield and shuffle.
