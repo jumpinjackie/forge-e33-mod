@@ -38,8 +38,6 @@ public class CardFaceDesign
 
     public string? OracleTextFull => this.Oracle is not null ? string.Join("\n", this.Oracle) : null;
 
-    public string? ForgeOracleText => this.Oracle is not null ? string.Join("\\n", this.Oracle) : null;
-
     public string[]? FlavorText { get; set; }
 
     public string? FlavorTextFull => this.FlavorText is not null ? string.Join("\n", this.FlavorText) : null;
@@ -49,6 +47,8 @@ public class CardFaceDesign
     public string[]? Bugs { get; set; }
 
     public string? PT { get; set; }
+
+    public string? Loyalty { get; set; }
 
     internal void Apply(string propertyName, IEnumerable<string> buffer)
     {
@@ -118,10 +118,13 @@ public class CardFaceDesign
             case nameof(PT):
                 PT = string.Join(" ", buffer);
                 break;
+            case nameof(Loyalty):
+                Loyalty = string.Join(" ", buffer);
+                break;
         }
     }
 
-    internal async Task WriteScriptAsync(StreamWriter sw, TextWriter stdout, TextWriter stderr)
+    internal async Task WriteScriptAsync(StreamWriter sw, TextWriter stdout, TextWriter stderr, CardFaceType faceType)
     {
         await sw.WriteLineAsync($"Name:{this.Name}");
         if (this.ManaCost is not null)
@@ -131,14 +134,27 @@ public class CardFaceDesign
         if (this.ColorIdentity is not null)
             await sw.WriteLineAsync($"Colors:{string.Join(" ", this.ColorIdentity)}");
         await sw.WriteLineAsync($"Types:{string.Join(" ", this.Types ?? [])}");
+        if (this.Loyalty is not null)
+            await sw.WriteLineAsync($"Loyalty:{this.Loyalty}");
+        if (this.PT is not null)
+            await sw.WriteLineAsync($"PT:{this.PT}");
         if (this.ForgeScript is not null)
         {
-            foreach (var scriptLine in this.ForgeScript)
+            foreach (var scriptLine in this.GetForgeScript().Split("\n"))
             {
                 await sw.WriteLineAsync(scriptLine);
             }
         }
-        await sw.WriteLineAsync(this.ForgeOracleText);
+        var oracle = this.GetOracleText()?.Trim()?.Split('\n');
+        if (oracle is not null)
+        {
+            if (faceType == CardFaceType.SplitRoom)
+                await sw.WriteAsync($"Oracle:(You may cast either half. That door unlocks on the battlefield. As a sorcery, you may pay the mana cost of a locked door to unlock it.)\\n{string.Join("\\n", oracle)}");
+            else if (faceType == CardFaceType.SplitFuse)
+                await sw.WriteAsync($"Oracle:{string.Join("\\n", oracle)}\\nFuse (You may cast one or both halves of this card from your hand.)");
+            else
+                await sw.WriteAsync($"Oracle:{string.Join("\\n", oracle)}");
+        }
     }
 
     internal string GetForgeScript()
@@ -152,6 +168,15 @@ public class CardFaceDesign
         T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Card.Self | Execute$ TrigToken | TriggerDescription$ When CARDNAME dies, create a Chroma token
         SVar:TrigToken:DB$ Token | TokenScript$ c_a_chroma | TokenOwner$ You | TokenAmount$ 1
         """);
+        sb.Replace("~", "CARDNAME");
+        sb.Replace("$DEVOID_REMINDER_TEXT", "(This card has no color.)");
+        sb.Replace("$LEGENDARY_SORCERY_REMINDER_TEXT", "(You may cast a legendary sorcery only if you control a legendary creature or planeswalker.)");
+        sb.Replace("$INVESTIGATE_REMINDER_TEXT", "(Create a Clue token. It's an artifact with \"{2}, Sacrifice this token: Draw a card.\")");
+        sb.Replace("$CHROMA_REMINDER_TEXT", "(It's an artifact with \"{T}, Sacrifice this token: Add one mana of any color. Spend this mana only to cast a Nevron, Gestral or Expeditioner spell.\")");
+        sb.Replace("$LUMINA_REMINDER_TEXT", "(It's an artifact with \"{T}, Sacrifice this token: Sacrifice this token: Scry 1.\")");
+        sb.Replace("$EXPEDITIONER_TOKEN_TEXT", "\"When this creature dies, create a Chroma token.\"");
+        sb.Replace("$NEVRON_DEATH_ABILITY_TEXT", "When this creature dies, target opponent creates a Lumina token.");
+        sb.Replace("$EXPEDITIONER_DEATH_ABILITY_TEXT", "When this creature dies, create a Chroma token.");
         return sb.ToString();
     }
 
@@ -447,30 +472,43 @@ public class CardMasterDesign(string designFile)
         var scriptName = this.ScriptName;
         var firstLetter = scriptName.First();
 
-        var fileName = Path.Combine(cardsDir.FullName, $"{firstLetter}", scriptName, ".txt");
-        using var sw = new StreamWriter(fileName);
+        var fileName = Path.Combine(cardsDir.FullName, $"{firstLetter}", $"{scriptName}.txt");
+        var fi = new FileInfo(fileName);
+        if (fi.Directory is not null && !fi.Directory.Exists)
+            fi.Directory.Create();
+        using var fw = fi.OpenWrite();
+        fw.Position = 0L;
+        using var sw = new StreamWriter(fw);
 
         switch (FaceType)
         {
             case CardFaceType.Regular:
                 {
-                    await FrontFull.WriteScriptAsync(sw, stdout, stderr);
+                    await FrontFull.WriteScriptAsync(sw, stdout, stderr, FaceType.Value);
                 }
                 break;
             case CardFaceType.SplitFuse:
             case CardFaceType.SplitRoom:
                 {
-                    await SplitLeft.WriteScriptAsync(sw, stdout, stderr);
+                    await SplitLeft.WriteScriptAsync(sw, stdout, stderr, FaceType.Value);
+                    await sw.WriteLineAsync();
                     await sw.WriteLineAsync();
                     await sw.WriteLineAsync("ALTERNATE");
                     await sw.WriteLineAsync();
-                    await SplitLeft.WriteScriptAsync(sw, stdout, stderr);
+                    if (FaceType == CardFaceType.SplitFuse)
+                        await SplitRight.WriteScriptAsync(sw, stdout, stderr, CardFaceType.Regular); // Fuse reminder text only needs to be on one side
+                    else
+                        await SplitRight.WriteScriptAsync(sw, stdout, stderr, FaceType.Value);
                 }
                 break;
             case CardFaceType.Meld:
                 {
-                    await FrontFull.WriteScriptAsync(sw, stdout, stderr);
-                    await MeldTarget.WriteScriptAsync(sw, stdout, stderr);
+                    await FrontFull.WriteScriptAsync(sw, stdout, stderr, FaceType.Value);
+                    await sw.WriteLineAsync();
+                    await sw.WriteLineAsync();
+                    await sw.WriteLineAsync("ALTERNATE");
+                    await sw.WriteLineAsync();
+                    await MeldTarget.WriteScriptAsync(sw, stdout, stderr, FaceType.Value);
                 }
                 break;
         }
@@ -482,7 +520,7 @@ public class CardMasterDesign(string designFile)
     {
         get
         {
-            return this.Name.ToLower().Replace(" // ", "_").Replace(":", "").Replace("!", "").Replace(",", "").Replace(" ", "_");
+            return this.Name.ToLower().Replace(" // ", "_").Replace(":", "").Replace("'", "").Replace("!", "").Replace(",", "").Replace(" ", "_");
         }
     }
 
@@ -628,7 +666,7 @@ public abstract class BaseCommand
         var cards = new SortedDictionary<string, CardMasterDesign>();
         foreach (var scriptFile in Directory.EnumerateFiles(designDir.FullName, "*.txt", SearchOption.AllDirectories))
         {
-            //if (!scriptFile.EndsWith("maelle_child_of_lumiere_maelle_the_reawakened_paintress.txt"))
+            //if (!scriptFile.EndsWith("when_one_falls_we_continue.txt"))
             //    continue;
 
             await stdout.WriteLineAsync($"Processing: {scriptFile}");
