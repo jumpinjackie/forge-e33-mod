@@ -1,19 +1,22 @@
 # Cards
 
+> Last generated: 12/10/2025 3:02:39 PM
+
 ## A Storm is Coming
 
 ```
-Kindred Sorcery - Expeditioner
-Suspend 1—{U}{R} (Rather than cast this card from your hand, pay {U}{R} and exile it with one time counter on it. At the beginning of your upkeep, remove a time counter. When the last is removed, you may cast it without paying its mana cost.)
 
+Kindred Sorcery - Expeditioner
+Suspend 1 - {U}{R} (Rather than cast this card from your hand, pay {U}{R} and exile it with one time counter on it. At the beginning of your upkeep, remove a time counter. When the last is removed, you may cast it without paying its mana cost.)
 This spell deals 3 damage to any target.
 Create a Lumina token.
 ```
 
-[card implementation](/custom/cards/a/a_storm_is_coming.txt)
+[card implementation](../custom/cards/a/a_storm_is_coming.txt)
 
 ### Design Notes
 
+ - In the game, this is one of Lune's quotes during battle
  - Lighting bolt with suspend to convey the "storm is coming". Lumina reward as standard with any Expeditioner spell
 
 ## Alicia Dessendre, Silenced by Fire
@@ -23,10 +26,11 @@ WR
 Legendary Creature - Human Painter
 Activated abilities of Chroma, Lumina, Nevrons and Pictos cannot be activated.
 (Melds with Maelle, Child of Lumiere.)
+
 2/2
 ```
 
-[card implementation](/custom/cards/a/alicia_dessendre_slienced_by_fire.txt)
+[card implementation](../custom/cards/a/alicia_dessendre_silenced_by_fire.txt)
 
 ### Design Notes
 
@@ -47,7 +51,7 @@ When this creature dies, target opponent creates a Lumina token.
 2/2
 ```
 
-[card implementation](/custom/cards/b/ballet.txt)
+[card implementation](../custom/cards/b/ballet.txt)
 
 ### Design Notes
 
@@ -65,7 +69,7 @@ When this creature dies, target opponent creates a Lumina token.
 4/4
 ```
 
-[card implementation](/custom/cards/b/benisseur.txt)
+[card implementation](../custom/cards/b/benisseur.txt)
 
 ### Design Notes
 
@@ -76,13 +80,14 @@ When this creature dies, target opponent creates a Lumina token.
 
 ```
 1UR
+Creature - Nevron
 Devoid (This card has no color.)
 When this creature dies, target opponent creates a Lumina token.
 
 3/2
 ```
 
-[card implementation](/custom/cards/b/braseleur.txt)
+[card implementation](../custom/cards/b/braseleur.txt)
 
 ### Design Notes
 
@@ -98,7 +103,7 @@ Destroy target artifact or enchantment with mana value 2 lor less.
 If this spell was kicked, destroy that artifact or enchantment if its mana value is 5 or less instaed.
 ```
 
-[card implementation](/custom/cards/b/breaking_rules.txt)
+[card implementation](../custom/cards/b/breaking_rules.txt)
 
 ### Design Notes
 
@@ -117,7 +122,7 @@ When this creature dies, target opponent creates a Lumina token.
 2/1
 ```
 
-[card implementation](/custom/cards/c/chorale.txt)
+[card implementation](../custom/cards/c/chorale.txt)
 
 ### Design Notes
 
@@ -132,7 +137,7 @@ Kindred Sorcery - Expeditioner
 Create two Chroma tokens.
 ```
 
-[card implementation](/custom/cards/c/chroma_is_flowing.txt)
+[card implementation](../custom/cards/c/chroma_is_flowing.txt)
 
 ### Design Notes
 
@@ -148,7 +153,7 @@ Enchant permanent.
 Enchanted permanent becomes an artifact and loses all abilities.
 ```
 
-[card implementation](/custom/cards/c/chromatic_petrification.txt)
+[card implementation](../custom/cards/c/chromatic_petrification.txt)
 
 ### Design Notes
 
@@ -165,13 +170,12 @@ Creature - Nevron
 Devoid (This card has no color.)
 When this creature dies, target opponent creates a Lumina token.
 {R},{T}: This creature deals 2 damage to target creature.
-{U},{T}: Tap target creature. Put a stun counter on it.
-When this creature dies, if you control no creatures, put two 2/2 Red and Blue Danseuse Clone creature tokens into play.
+{U},{T}: Tap target creature. Put a stun counter on it.\nWhen this creature dies, if you control no creatures, put two 2/2 Red and Blue Danseuse Clone creature tokens into play.
 
 2/2
 ```
 
-[card implementation](/custom/cards/d/danseuse.txt)
+[card implementation](../custom/cards/d/danseuse.txt)
 
 ### Design Notes
 
@@ -198,7 +202,7 @@ When Esquie attacks, if it is saddled, choose one:
 6/6
 ```
 
-[card implementation](/custom/cards/e/esquie_friend_of_verso.txt)
+[card implementation](../custom/cards/e/esquie_friend_of_verso.txt)
 
 ### Design Notes
 
@@ -207,10 +211,10 @@ When Esquie attacks, if it is saddled, choose one:
  - Mechanically, it makes 100% sense this should be a Mount artifact creature with Saddle
     - Because I want to enable an "Urzatron" strategy with the 4 legendary rocks, I am deviating from lore by having these 4 rocks grant extra abilities to Esquie when on the battlefield instead of sacrificing them to Esquie to give them these abilities
     - Mechanically I've interpreted Esquies abilities as:
-       - Swimming - Islandwalk
-       - Smashing through coral barriers - Trample
-       - Flying - Flying
-       - Diving - Surveil on attack
+        - Swimming - Islandwalk
+        - Smashing through coral barriers - Trample
+        - Flying - Flying
+        - Diving - Surveil on attack
  - Because this is a Mount creature with Saddle, I've given it the Uro (draw a card or put a land) triggered ability as the saddle attacking bonus.
 
 ## Expedition 34 Mage
@@ -226,7 +230,7 @@ When this creature dies, create a Chroma token.
 2/2
 ```
 
-[card implementation](/custom/cards/e/expedition_34_mage.txt)
+[card implementation](../custom/cards/e/expedition_34_mage.txt)
 
 ### Design Notes
 
@@ -243,7 +247,7 @@ I, II - Destroy target Nevron.
 III — Destroy all Nevrons. Create a Lumina token for each Nevron destroyed this way.
 ```
 
-[card implementation](/custom/cards/e/expedition_41.txt)
+[card implementation](../custom/cards/e/expedition_41.txt)
 
 ### Design Notes
 
@@ -261,13 +265,31 @@ When this creature dies, create a Chroma token.
 1/2
 ```
 
-[card implementation](/custom/cards/e/expedition_53_herbalist.txt)
+[card implementation](../custom/cards/e/expedition_53_herbalist.txt)
 
 ### Design Notes
 
  - In the game, members of Expedition 53 mercy-killed a fellow expeditioner whose injuries had left them in a coma.
  - This card represents one such member.
  - Mechanically mapped to an Expeditioner sac ability for lifegain + scry
+
+## Expedition 55 Trumpeter
+
+```
+2(W/G)
+Creature - Human Expeditioner
+Expeditioner spells you cast cost {1} less to cast.
+When this creature dies, create a Chroma token.
+
+2/2
+```
+
+[card implementation](../custom/cards/e/expedition_55_trumpeter.txt)
+
+### Design Notes
+
+ - In the game, Expedition 55 tried using musically-augmented pictos. This was mostly effective until they encountered Sirene whose minions and herself were immune to these pictos.
+ - Since the main theme of this Expedition was music, it can be safely assumed that most of the crew were musicians or were proficient in one kind of music, giving us ample design space to fill out the Expeditioner creature roster with various creatures of various utility. In this case, I've gone with a trumpeter and a cost-reduction effect.
 
 ## Expedition 59
 
@@ -280,7 +302,7 @@ II — Create 2 Food tokens.
 III — Until end of turn, Food tokens you control gain "Sacrifice this artifact: Target creature deals 3 damage to itself"
 ```
 
-[card implementation](/custom/cards/e/expedition_59.txt)
+[card implementation](../custom/cards/e/expedition_59.txt)
 
 ### Design Notes
 
@@ -299,7 +321,7 @@ When this creature dies, create a Chroma token.
 2/2
 ```
 
-[card implementation](/custom/cards/e/expedition_59_chef.txt)
+[card implementation](../custom/cards/e/expedition_59_chef.txt)
 
 ### Design Notes
 
@@ -319,7 +341,7 @@ II — Un-modified creatures you control gain vigilance and menace until end of 
 III — Un-modified creatures you control gain vigilance, menace, trample and +3/+3 until end of turn.
 ```
 
-[card implementation](/custom/cards/e/expedition_60.txt)
+[card implementation](../custom/cards/e/expedition_60.txt)
 
 ### Design Notes
 
@@ -338,7 +360,7 @@ When this creature dies, create a Chroma token.
 2/2
 ```
 
-[card implementation](/custom/cards/e/expedition_63_driver.txt)
+[card implementation](../custom/cards/e/expedition_63_driver.txt)
 
 ### Design Notes
 
@@ -357,7 +379,7 @@ When this creature dies, create a Chroma token.
 2/2
 ```
 
-[card implementation](/custom/cards/e/expedition_67_demolitions_expert.txt)
+[card implementation](../custom/cards/e/expedition_67_demolitions_expert.txt)
 
 ### Design Notes
 
@@ -374,7 +396,7 @@ I, II — Search your library for an Expeditioner card, reveal it and put it int
 III — Search your library for an Expeditioner permanent, put it onto the battlefield, then shuffle.
 ```
 
-[card implementation](/custom/cards/e/expedition_70.txt)
+[card implementation](../custom/cards/e/expedition_70.txt)
 
 ### Design Notes
 
@@ -393,7 +415,7 @@ When this creature dies, create a Chroma token.
 4/4
 ```
 
-[card implementation](/custom/cards/e/expedition_78_aircrew.txt)
+[card implementation](../custom/cards/e/expedition_78_aircrew.txt)
 
 ### Design Notes
 
@@ -409,11 +431,9 @@ Creature - Human Expeditioner Wizard
 You may choose not to untap this creature during your untap step.
 Nevron Whisperer - {2},{T}: Gain control of target Nevron creature for as long as this creature remains tapped.
 When this creature dies, create a Chroma token.
-
-1/2
 ```
 
-[card implementation](/custom/cards/e/expedition_81_interpreter.txt)
+[card implementation](../custom/cards/e/expedition_81_interpreter.txt)
 
 ### Design Notes
 
@@ -426,10 +446,11 @@ When this creature dies, create a Chroma token.
 ```
 (W/U)(W/U)
 Kindred Sorcery - Expeditioner
-Create 3 Lumina tokens if {U} was spent to cast this spell. Create 2 Chroma tokens if {W} was spent to cast this spell.
+Create three Lumina tokens if {U} was spent to cast this spell.
+Create two Chroma tokens if {W} was spent to cast this spell.
 ```
 
-[card implementation](/custom/cards/f/for_those_who_come_after.txt)
+[card implementation](../custom/cards/f/for_those_who_come_after.txt)
 
 ### Design Notes
 
@@ -446,7 +467,7 @@ Silver Rank - As long as there are four or more quest counters on this enchantme
 Gold Rank - As long as there are five or more quest counters on this enchantment, creatures you control have trample.
 ```
 
-[card implementation](/custom/cards/g/gestral_foot_race_challenge.txt)
+[card implementation](../custom/cards/g/gestral_foot_race_challenge.txt)
 
 ### Design Notes
 
@@ -464,7 +485,7 @@ As long as this enchantment as two or more counters, creatures you control gain 
 As long as this enchantment as three or more counters, creatures you control gain prowess.
 ```
 
-[card implementation](/custom/cards/g/gestral_parkour_challenge.txt)
+[card implementation](../custom/cards/g/gestral_parkour_challenge.txt)
 
 ### Design Notes
 
@@ -482,7 +503,7 @@ Normal Difficulty - As long as this enchantment has three or more quest counters
 Hard Difficulty - {U/R}{U/R}: You may choose new targets for target spell or ability. Activate this ability only if this enchantment has five or more quest counters on it.
 ```
 
-[card implementation](/custom/cards/g/gestral_raft_volleyball_challenge.txt)
+[card implementation](../custom/cards/g/gestral_raft_volleyball_challenge.txt)
 
 ### Design Notes
 
@@ -491,22 +512,6 @@ Hard Difficulty - {U/R}{U/R}: You may choose new targets for target spell or abi
  - Went with any of your creatures being targeted as the triggering condition as that best describes gestrals being flung at you.
  - First payoff is card draw. Second (and more flavorful) payoff is to be able to redirect opponent's spells and abilities to signify the mastery of parrying flung gestrals back at the opponent.
  - 5/10/2025: Cost reduced from (U/R)(U/R) to (U/R) in line with the other challenge enchantments
-
-## Gradient Charge
-
-```
-2(W/B)
-Sorcery - Gradient
-This spell costs {1} less to cast if you control a Painter.
-Search your library for a Gradient card, reveal that card, put it into your hand, then shuffle.
-```
-
-[card implementation](/custom/cards/g/gradient_charge.txt)
-
-### Design Notes
-
- - In the game, Gradient attacks are "Epic" tier attacks. To use such attacks you need to fill up a Gradient gauge. The Gradient gauge holds up to 3 charges. Gradient attacks cost anywhere between 1 to 3 charges.
- - Mechanically, this is just a Gradient spell tutor to assist in Painter-based strategies.
 
 ## Gommage
 
@@ -517,7 +522,7 @@ This spell costs {1} less to cast if you control a painter.
 Exile all nonland permanents that aren't legendary or Nevrons.
 ```
 
-[card implementation](/custom/cards/g/gommage.txt)
+[card implementation](../custom/cards/g/gommage.txt)
 
 ### Design Notes
 
@@ -525,21 +530,36 @@ Exile all nonland permanents that aren't legendary or Nevrons.
  - Mechanically, this is easily a mass exile effect. It spares legendaries and Nevrons as this event only affects the humans of the continent.
  - Has painter's discount as this is clearly a power wielded by the painters.
 
+## Gradient Charge
+
+```
+2(W/B)
+Sorcery - Gradient
+This spell costs {1} less to cast if you control a Painter.
+Search your library for a Gradient card, reveal that card, put it into your hand, then shuffle.
+```
+
+[card implementation](../custom/cards/g/gradient_charge.txt)
+
+### Design Notes
+
+ - In the game, Gradient attacks are "Epic" tier attacks. To use such attacks you need to fill up a Gradient gauge. The Gradient gauge holds up to 3 charges. Gradient attacks cost anywhere between 1 to 3 charges.
+ - Mechanically, this is just a Gradient spell tutor to assist in Painter-based strategies.
+
 ## Gustave, Lumiere Engineer
 
 ```
 1W(U/R)
-Legendary Creature - Human Expedition Engineer
+Legendary Creature - Human Expeditioner
 Whenever Gustave becomes untapped, attacks or blocks, put a charge counter on him.
-Marking Shot - {R},{T}: Gustave deals 1 damage to target creature. Put a marked counter on it.
-From Fire = {W}{R},{T}: Gustave deals 3 damage to target creature, you gain 3 life.
+From Fire - {W}{R},{T}: Gustave deals 3 damage to target creature, you gain 3 life.
 Strike Storm - {W}{R}: Gustave gains double-strike until ene of turn, put two charge counters on him. Activate only once per turn.
 Overcharge - {T}, Remove X charge counters from Gustave: Gustave deals X damage to target creature and that creature's controller.
 
-3/2
+3/3
 ```
 
-[card implementation](/custom/cards/g/gustave_lumiere_engineer.txt)
+[card implementation](../custom/cards/g/gustave_lumiere_engineer.txt)
 
 ### Design Notes
 
@@ -549,6 +569,7 @@ Overcharge - {T}, Remove X charge counters from Gustave: Gustave deals X damage 
  - Strike storm in the game is just a flurry of strikes. Translated this to temporary double strike.
  - Finally, overcharge (the ability we're all building towards) in the game deals high lightning damage based on the number of charges. Translated this to an X damage ability to a creature and its controller (where X is the number of charge counters removed).
  - 23/09/2025: It may look a bit odd to have blue color identity but no actual abilities that cost blue mana. I added the blue color identity strictly for flavor purposes because he's an engineer and engineers are almost always a blue color identity.
+ - 13/10/2025: Dropped the marking shot ability due to text box budget constraints having seen this card for the first time in CardConjurer.
 
 ## Lampmaster
 
@@ -556,13 +577,13 @@ Overcharge - {T}, Remove X charge counters from Gustave: Gustave deals X damage 
 4WB
 Legendary Creature - Nevron Horror
 Flying. Ward 3.
-Ball of Light - {2}{W},{T}: Tap up to three target creatures. They lose all abilities until end of turn.
-Sword of Light - {2}{W}{B},{T}: Separate creatures target opponent controls into two separate piles. That opponent chooses a pile. Destroy all creatures in that pile. Creatures in the other pile have base toughess 1 until end of turn.
+Ball of Light - {2}{W}, {T}: Tap up to three target creatures. They lose all abilities until end of turn.
+Sword of Light - {2}{W}{B}, {T}: Separate creatures target opponent controls into two separate piles. That opponent chooses a pile. Destroy all creatures in that pile. Creatures in the other pile have base toughess 1 until end of turn.
 
 4/4
 ```
 
-[card implementation](/custom/cards/l/lampmaster.txt)
+[card implementation](../custom/cards/l/lampmaster.txt)
 
 ### Design Notes
 
@@ -581,37 +602,37 @@ This spell costs {1} less to cast if you control a painter.
 Exile target nonland permanent.
 ```
 
-[card implementation](/custom/cards/l/leave_this_canvas.txt)
+[card implementation](../custom/cards/l/leave_this_canvas.txt)
 
 ### Design Notes
 
  - One of Maelle's quotes as she's about to gommage some sorry Nevron out of existence.
  - Painter bonus because this is a painter's power.
 
-## Maelle, Child of Lumiere
+## Maelle, Child of Lumiere // Maelle, The Reawakened Paintress
 
 ```
 1WR
 Legendary Creature - Human Expeditioner
 At the beginning of your end step, if you both own and control Maelle, Child of Lumiere and a creature named Alicia Dessendre, Silenced by Fire, exile them, then meld them into Maelle, The Reawakened Paintress.
+
 3/3
 ```
 
 Melds into:
 
 ```
+
 Legendary Planeswalker - Maelle
 Human spells you cast cost {1} less to cast.
 [+2]: Create a Chroma Token.
 [+1]: Return target Human from your graveyard or in exile and put it onto the battlefield tapped.
-[0]: Create two 1/1 White Human Expeditioner tokens with "When this creature dies, create a Chroma token".
+[0]: Create two 1/1 White Human Expeditioner tokens with "When this creature dies, create a Chroma token.".
 [-3]: Exile target nonland, non-Human permanent.
 [-8]: Return all Humans from your graveyard onto the battlefield.
-
-Loyalty: 4
 ```
 
-[card implementation](/custom/cards/zDevelopment/maelle_child_of_lumiere_maelle_the_reawakened_paintress.txt)
+[card implementation](../custom/cards/m/maelle_child_of_lumiere_maelle_the_reawakened_paintress.txt)
 
 ### Design Notes
 
@@ -619,14 +640,14 @@ Loyalty: 4
  - Mechanically, it's no-brainer we have to represent (Act 3) Maelle as a planeswalker and that we use the Meld mechanic to combine Alicia and (pre-Act 3) Maelle into this planeswalker.
     - Human Maelle's abilities TBD. I've mainly been focusing on nailing down the meld interaction first. Having limited success so far, thus this card currently does not work. I have been using The Mightstone and Weakstone + Urza, Lord Protector as the initial template.
     - If I can get the meld interaction to finally work and if Forge's rule engine will allow for it, I'd like to try to get the meld to trigger off of Maelle being exiled (for maximum flavor). If this is not feasible, then we'll stick with the existing activation cost.
- - 23/09/2025: I give up trying to get meld to work. Human Maelle will remain a standalone card. Abilities TBD. 
+ - 23/09/2025: I give up trying to get meld to work. Human Maelle will remain a standalone card. Abilities TBD.
  - 6/10/2025: Gave meld another try. I finally got it to work! Human Maelle's regular abilities still TBD.
  - Planeswalker Maelle's abilities for the most part map to her in-game abilities:
-   - +2: She now has greater mastery of Chroma in the canvas
-   - +1: She now has the power of reanimating dead expeditioners to fight for her
-   - 0: Same theme of reanimating/rallying dead expeditioners to her cause
-   - -3: She now has the power to erase enemies from the canvas
-   - -8: Same theme of reanimating/rallying dead expeditioners to her cause
+    - +2: She now has greater mastery of Chroma in the canvas
+    - +1: She now has the power of reanimating dead expeditioners to fight for her
+    - 0: Same theme of reanimating/rallying dead expeditioners to her cause
+    - -3: She now has the power to erase enemies from the canvas
+    - -8: Same theme of reanimating/rallying dead expeditioners to her cause
 
 ## Manor Entrance // Manor Hidden Room
 
@@ -635,14 +656,13 @@ Manor Entrance
 3G
 Enchantment - Room
 When you unlock this door, you may put a creature card from your hand onto the battlefield.
-
 Manor Hidden Room
 3B
 Enchantment - Room
 When you unlock this door, return target creature card from your graveyard to the battlefield.
 ```
 
-[card implementation](/custom/cards/m/manor_entrance_manor_hidden_room.txt)
+[card implementation](../custom/cards/m/manor_entrance_manor_hidden_room.txt)
 
 ### Design Notes
 
@@ -656,14 +676,13 @@ Manor Greenhouse
 2G
 Enchantment - Room
 When you unlock this door, search your library for a land card, put it onto the battlefield, then shuffle.
-
 Manor Gallery
 2U
 Enchantment - Room
 Painter and Gradient spells you cast cost {1} less to cast.
 ```
 
-[card implementation](/custom/cards/m/manor_greenhouse_manor_gallery.txt)
+[card implementation](../custom/cards/m/manor_greenhouse_manor_gallery.txt)
 
 ### Design Notes
 
@@ -679,7 +698,6 @@ Manor Kitchen
 1G
 Enchantment - Room
 When you unlock this door, create two Food tokens.
-
 Manor Cellar
 1W
 Enchantment - Room
@@ -688,7 +706,7 @@ When you unlock this door, choose one:
  - Create two Lumina tokens.
 ```
 
-[card implementation](/custom/cards/m/manor_kitchen_manor_cellar.txt)
+[card implementation](../custom/cards/m/manor_kitchen_manor_cellar.txt)
 
 ### Design Notes
 
@@ -703,14 +721,13 @@ Manor Library
 2U
 Enchantment - Room
 When you unlock this door, draw two cards.
-
 Manor Fireplace
 1R
 Enchantment - Room
 When you unlock this door, it deals 3 damage to any target.
 ```
 
-[card implementation](/custom/cards/m/manor_library_manor_fireplace.txt)
+[card implementation](../custom/cards/m/manor_library_manor_fireplace.txt)
 
 ### Design Notes
 
@@ -724,14 +741,14 @@ When you unlock this door, it deals 3 damage to any target.
 2(W/G)(W/G)
 Legendary Artifact Creature - Gestral
 Whenever a nontoken Nevron creature dies, exile it with a Foot counter.
-My, what lovely feet! - Monoco has activated abilities of all Nevrons in exile with a Foot counter on them. Monoco has flying as long an exiled Nevron creature with a Foot counter has flying. The same is true for first strike, double strike, deathtouch, haste, hexproof, indestructible, lifelink, meance, reach, trample and vigilance.
-{1}{G},{T}: Monoco fights target creature.
+My, what lovely feet! - Monoco has activated abilities of all Nevrons in exile with a Foot counter on them. Monoco has flying as long as an exiled Nevron creature with a Foot counter has flying. The same is true for first strike, double strike, deathtouch, haste, hexproof, indestructible, lifelink, meance, reach, trample and vigilance.
+{1}{G}, {T}: Monoco fights target creature.
 {2}{W}: Untap Monoco.
 
 4/4
 ```
 
-[card implementation](/custom/cards/m/monoco_collector_of_feet.txt)
+[card implementation](../custom/cards/m/monoco_collector_of_feet.txt)
 
 ### Design Notes
 
@@ -746,7 +763,7 @@ My, what lovely feet! - Monoco has activated abilities of all Nevrons in exile w
 ```
 2UB
 Legendary Creature - Painter God
-Devoid
+Devoid.
 Nevron spells you cast cost {2} less to cast.
 Nevron creatures you control get +2/+2
 At the beginning of your upkeep, create a 1/1 colorless Nevron creature token.
@@ -755,7 +772,7 @@ At the beginning of your upkeep, create a 1/1 colorless Nevron creature token.
 3/4
 ```
 
-[card implementation](/custom/cards/p/painted_clea_the_mistress.txt)
+[card implementation](../custom/cards/p/painted_clea_the_mistress.txt)
 
 ### Design Notes
 
@@ -773,13 +790,13 @@ At the beginning of your upkeep, create a 1/1 colorless Nevron creature token.
 3(W/B)
 Kindred Instant - Expeditioner
 This spell costs {1} less to cast if you control an Expeditioner.
-Choose one:
- - Create two 1/1 white Human Expeditioner tokens with "When this creature dies, create a Chroma token".
+Choose one -
+ - Create two 1/1 white Human Expeditioner tokens with "When this creature dies, create a Chroma token.".
  - Up to two target creatures you control each get +2/+2 until end of turn.
  - Destroy target non-Expeditioner creature.
 ```
 
-[card implementation](/custom/cards/r/rally_the_expeditioners.txt)
+[card implementation](../custom/cards/r/rally_the_expeditioners.txt)
 
 ### Design Notes
 
@@ -797,7 +814,7 @@ When this creature dies, target opponent creates a Lumina token.
 1/4
 ```
 
-[card implementation](/custom/cards/r/reaper_cultist.txt)
+[card implementation](../custom/cards/r/reaper_cultist.txt)
 
 ### Design Notes
 
@@ -808,26 +825,25 @@ When this creature dies, target opponent creates a Lumina token.
 ```
 2WB
 Legendary Creature - Human Expeditioner
-Each nonland card in your hand without foretell has foretell. Its foretell cost is equal to its mana cost reduced by {2}. (During your turn, you may pay {2} and exile it from your hand face down. Cast it on a later turn for its foretell cost.)
-Whenever you fortell a card, you gain 2 life.
-Marking Card - {B},{T}: Sciel deals 1 damage to target creature, put a marked counter on it.
-Grim Harvest - {W}{B},{T}: Sciel deals 3 damage to target creature. You gain 3 life.
+Each nonland card in your hand without foretell has foretell. Its foretell cost is equal to its mana cost reduced by {2}.
+Twilight Slash - {W}{B},{T}: Sciel deals 2 damage to target creature, you gain 2 life.
 Intervention - {W}{W},{T}: Untap target creature. Create a Chroma token.
-Our Sacrifice - {1}{B}{B},{T}, Pay X life: All creatures target opponent controls get -X/-X until end of turn.
+Our Sacrifice - {1}{B}{B}, {T}, Pay X life: Creatures target opponent controls get -X/-X until end of turn.
 
 3/3
 ```
 
-[card implementation](/custom/cards/s/sciel_grieving_for_many.txt)
+[card implementation](../custom/cards/s/sciel_grieving_for_many.txt)
 
 ### Design Notes
 
  - Sciel is a kind, emphatheic, nurturing character that specializes in weapons and attacks that deal dark damage. Clearly an Orzhov color identity.
- - In the game, Sciel's attacks build up foretell, which can then be consumed later on for even more powerful attacks. We are using Foretell in the *literal* sense by re-using the existing Foretell mechanic by having Sciel granting all nonland cards in your hand to be foretelled.
+ - In the game, Sciel's attacks build up foretell, which can then be consumed later on for even more powerful attacks. We are using Foretell in the literal sense by re-using the existing Foretell mechanic by having Sciel granting all nonland cards in your hand to be foretelled.
  - Marking Card is just a creature ping that puts a marked counter on it. A creature with a marked counter will be a magnet for more damage.
  - Grim Harvest deals dark damage heals allies. Translated to a creature bolt that also gives you life.
  - Intervention in the game lets an ally play immediately and gain 4 AP. Translated to untapping a creature and giving you a Chroma token.
  - Our Sacrifice in the game deals extreme dark damage to all enemies, absorbing allies' health to deal more damage. Translated to paying X life to -X/-X an opponent's board.
+ - 13/10/2025: Dropped the marking card ability due to text box budget constraints having seen this card for the first time in CardConjurer.
 
 ## Serpenphare
 
@@ -841,14 +857,14 @@ Flying. Ward 3.
 7/7
 ```
 
-[card implementation](/custom/cards/s/serpenphare.txt)
+[card implementation](../custom/cards/s/serpenphare.txt)
 
 ### Design Notes
 
  - In the game, Serpenphare is an optional end-game boss. Its most prominent attack is an AP draining ability, if it consumes too much AP with this move, it will explode.
  - Mechanically, we modeled the AP draining ability as a tap and stun with a charge counter being given. The "explode" ability is modeled as removing X charge counters to X damage to every creature (including itself)
 
-## The Greatest Expedition In History
+## The Greatest Expedition in History
 
 ```
 WUBRG
@@ -856,7 +872,7 @@ Kindred Sorcery - Expeditioner
 You win the game if you control a total of 33 or more Expeditioners, Chroma, Lumina or Pictos permanents.
 ```
 
-[card implementation](/custom/cards/t/the_greatest_expedition_in_history.txt)
+[card implementation](../custom/cards/t/the_greatest_expedition_in_history.txt)
 
 ### Design Notes
 
@@ -871,7 +887,7 @@ Kindred Sorcery - Expeditioner
 Search your library for an Expeditioner card, reveal it and put it into your hand, then shuffle.
 ```
 
-[card implementation](/custom/cards/t/tomorrow_comes.txt)
+[card implementation](../custom/cards/t/tomorrow_comes.txt)
 
 ### Design Notes
 
@@ -882,12 +898,12 @@ Search your library for an Expeditioner card, reveal it and put it into your han
 ```
 2BR
 Sorcery - Gradient
-Devoid
+Devoid.
 This spell costs {2} less to cast if you control a painter.
 This spell deals 4 damage divided as you choose among any number of targets
 ```
 
-[card implementation](/custom/cards/v/void_meteors.txt)
+[card implementation](../custom/cards/v/void_meteors.txt)
 
 ### Design Notes
 
@@ -901,16 +917,14 @@ Whee
 1WU
 Instant
 Untap all creatures you control.
-
 Whoo
 1UB
 Instant
 Tap all creatures your opponents control. They don't untap during their controllers' next untap steps.
-
 Fuse (You may cast one or both halves of this card from your hand.)
 ```
 
-[card implementation](/custom/cards/w/whee_whoo.txt)
+[card implementation](../custom/cards/w/whee_whoo.txt)
 
 ### Design Notes
 
@@ -924,16 +938,14 @@ When One Falls
 4W
 Sorcery
 Return all Expeditioner permanent cards from your graveyard to the battlefield.
-
 We Continue
 4U
-Sorery
+Sorcery
 Take an extra turn after this one.
-
 Fuse (You may cast one or both halves of this card from your hand.)
 ```
 
-[card implementation](/custom/cards/w/when_one_falls_we_continue.txt)
+[card implementation](../custom/cards/w/when_one_falls_we_continue.txt)
 
 ### Design Notes
 
@@ -943,3 +955,4 @@ Fuse (You may cast one or both halves of this card from your hand.)
     - "We continue" evokes in my mind a Time Walk effect.
  - 23/09/2025: I will most likely change the "When One Falls" side to be a straight mass Expeditioner reanimation effect instead of one that only reanimates those that died this turn, which would make it more of a game-swinging bomb when cast fused, because if you are able to resolve this fused, you deserve to win the game at that point.
  - 3/10/2025: Changed "When one Falls" side to a straight mass Expeditoner reanimation effect and bumped cost from 3W to 4W
+

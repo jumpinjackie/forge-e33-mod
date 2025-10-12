@@ -1,5 +1,7 @@
 # Cards
 
+> Last generated: 12/10/2025 3:02:39 PM
+
 ## Berrami, Collector of Journals
 
 ```
@@ -10,7 +12,7 @@ At the beginning of your upkeep, you may mill a card. If you do, create 2 Lumina
 2/2
 ```
 
-[card implementation](/custom/cards/b/berrami_collector_of_journals.txt)
+[card implementation](../custom/cards/b/berrami_collector_of_journals.txt)
 
 ### Design Notes
 
@@ -25,7 +27,7 @@ Artifact
 If you would create a Chroma or Lumina token, instead create one of each.
 ```
 
-[card implementation](/custom/cards/c/chroma_catalyst.txt)
+[card implementation](../custom/cards/c/chroma_catalyst.txt)
 
 ### Design Notes
 
@@ -43,7 +45,7 @@ When this artifact enters, draw a card.
 {T}, Sacrifice a Chroma token: Add two mana of any one color.
 ```
 
-[card implementation](/custom/cards/c/chroma_filter.txt)
+[card implementation](../custom/cards/c/chroma_filter.txt)
 
 ### Design Notes
 
@@ -59,7 +61,7 @@ Painter and Gradient spells you cast cost {1} less to cast.
 {3},{T}: Search your library for a Painter card, reveal it and put it into your hand, then shuffle.
 ```
 
-[card implementation](/custom/cards/d/dessendre_family_portrait.txt)
+[card implementation](../custom/cards/d/dessendre_family_portrait.txt)
 
 ### Design Notes
 
@@ -73,13 +75,13 @@ Painter and Gradient spells you cast cost {1} less to cast.
 Legendary Artifact Creature - Gestral
 Trample
 {2}: Put a flying counter on Dominique.
-Two-handed slam: {2},{T},Remove a flying counter from Dominique: Dominique deals 4 damage to target creature.
+Two-handed slam - {2},{T},Remove a flying counter from Dominique: Dominique deals 4 damage to target creature.
 At the beginning of each end step, remove all flying counters on Dominique.
 
 4/4
 ```
 
-[card implementation](/custom/cards/d/dominique_giant_feet.txt)
+[card implementation](../custom/cards/d/dominique_giant_feet.txt)
 
 ### Design Notes
 
@@ -97,7 +99,7 @@ Legendary Artifact - Rock
 {1},Sacrifice Dorrie: Draw a card.
 ```
 
-[card implementation](/custom/cards/d/dorrie.txt)
+[card implementation](../custom/cards/d/dorrie.txt)
 
 ### Design Notes
 
@@ -110,17 +112,36 @@ Legendary Artifact - Rock
 ```
 2
 Artifact
-{T}: Add {C}
-{T}: Add {C}{C}{C}. Activate this ability only if you control at least 3 Lumina tokens
+{T}: Add {C}.
+{T}: Add {C}{C}{C}. Activate this ability only if you control at least 3 Lumina tokens.
 ```
 
-[card implementation](/custom/cards/e/energy_tint.txt)
+[card implementation](../custom/cards/e/energy_tint.txt)
 
 ### Design Notes
 
  - In the game, Energy Tints help refill your party's AP during a battle or outside of battle when you're not near an Expedition flag.
  - Just a mana rock for this set.
  - Yes it may look dangerous to have a Grim Monolith with no downside, but you need some Lumina token investment first to take advantage, so there is some setup involved. The ideal turn 1 An Advantage!, turn 2 Energy Tint line is something I can accept as variance.
+
+## Expedition 50 Ferris Wheel
+
+```
+5
+Artifact - Expeditioner Vehicle
+Trample.
+Whenever this vehicle blocks or becomes blocked by a blue creature, destroy this vehicle at end of combat.
+Crew 4
+
+6/6
+```
+
+[card implementation](../custom/cards/e/expedition_50_ferris_wheel.txt)
+
+### Design Notes
+
+ - In the game, Expedition 50 built a giant ferris wheel to traverse the waters of the continent, but Serpenphare stopped their progression.
+ - This card depicts this contraption. Clearly a vehicle with fatty stats. The weakness to blue creatures in combat is a nod to Serpenphare being the wheel's achillies' heel.
 
 ## Expedition 64 Radio
 
@@ -131,7 +152,7 @@ Send Backup! - When this artifact enters, reveal the top four cards of your libr
 {2}, Sacrifice this artifact: Draw a card.
 ```
 
-[card implementation](/custom/cards/e/expedition_64_radio.txt)
+[card implementation](../custom/cards/e/expedition_64_radio.txt)
 
 ### Design Notes
 
@@ -147,7 +168,7 @@ Artifact
 {T},Sacrifice this artifact: Create two Chroma tokens.
 ```
 
-[card implementation](/custom/cards/e/expedition_cache.txt)
+[card implementation](../custom/cards/e/expedition_cache.txt)
 
 ### Design Notes
 
@@ -163,7 +184,7 @@ Legendary Artifact - Rock
 {1},Sacrifice Florrie: Draw a card.
 ```
 
-[card implementation](/custom/cards/f/florrie.txt)
+[card implementation](../custom/cards/f/florrie.txt)
 
 ### Design Notes
 
@@ -181,7 +202,7 @@ Whenever this creature attacks, it gets +2/+0 until end of turn for each other a
 1/2
 ```
 
-[card implementation](/custom/cards/g/gestral_fighter.txt)
+[card implementation](../custom/cards/g/gestral_fighter.txt)
 
 ### Design Notes
 
@@ -198,7 +219,7 @@ Whenever Gestral Lackey deals damage to a player, you may put a Gestral permanen
 1/1
 ```
 
-[card implementation](/custom/cards/g/gestral_lackey.txt)
+[card implementation](../custom/cards/g/gestral_lackey.txt)
 
 ### Design Notes
 
@@ -209,12 +230,12 @@ Whenever Gestral Lackey deals damage to a player, you may put a Gestral permanen
 ```
 3
 Artifact Creature - Gestral
-Whenever this creature is dealt damage, create a Chroma token
+Whenever this creature is dealt damage, create a Chroma token.
 
 2/3
 ```
 
-[card implementation](/custom/cards/g/gestral_merchant.txt)
+[card implementation](../custom/cards/g/gestral_merchant.txt)
 
 ### Design Notes
 
@@ -233,7 +254,7 @@ When this creature enters, reveal the top four cards of your library. Put all Ge
 3/2
 ```
 
-[card implementation](/custom/cards/g/gestral_ringleader.txt)
+[card implementation](../custom/cards/g/gestral_ringleader.txt)
 
 ### Design Notes
 
@@ -249,7 +270,7 @@ This card enters tapped.
 {2}: This card becomes a 2/2 Gestral artifact creature until end of turn.
 ```
 
-[card implementation](/custom/cards/g/gestral_statue.txt)
+[card implementation](../custom/cards/g/gestral_statue.txt)
 
 ### Design Notes
 
@@ -262,14 +283,39 @@ This card enters tapped.
 2
 Artifact Creature - Gestral
 
+
 2/1
 ```
 
-[card implementation](/custom/cards/g/gestral_villager.txt)
+> This card is not yet implemented in Forge
 
 ### Design Notes
 
  - Just a vanilla Gestral to round out a Gestral tribal deck and to round out the creature roster for draft/limited
+
+## Golgra, Gestral Chief
+
+```
+5
+Legendary Artifact Creature - Gestral
+Other Gestral creatures you control get +2/+2
+{2}: Put a shield counter on target Gestral you control.
+Enrage - Whenever Golgra is dealt damage, choose one:
+ - Put a Double strike counter on Golgra.
+ - Put a Vigilance counter on Golgra.
+ - Put a Trample counter on Golgra.
+ - Draw a card.
+
+5/6
+```
+
+[card implementation](../custom/cards/g/golgra_gestral_chief.txt)
+
+### Design Notes
+
+ - Obviously the Gestral lord of this set.
+ - In the game, when Golgra gets below 50% health, she goes "Super Saiyan" and her attacks increase in power.
+ - Mechanically, I've gone with Enrage as a way to approximate this "Super Saiyan" state and went with an assortment of combat-boosting abilities that could be granted from being enraged.
 
 ## Gustave's Journal
 
@@ -277,10 +323,10 @@ Artifact Creature - Gestral
 3
 Legendary Artifact
 Whenever a Nevron dies, put a study counter on Gustave's Journal.
-{2},{T},Remove X study counters from Gustave's Journal: Draw X cards
+{2}, {T}, Remove X study counters from Gustave's Journal: Draw X cards.
 ```
 
-[card implementation](/custom/cards/g/gustaves_journal.txt)
+[card implementation](../custom/cards/g/gustave's_journal.txt)
 
 ### Design Notes
 
@@ -297,7 +343,7 @@ Sacrifice this artifact: You gain 5 life.
 Sacrifice this artifact: You gain 10 life. Activate this ability only if you control at least 3 Lumina tokens.
 ```
 
-[card implementation](/custom/cards/h/health_tint.txt)
+[card implementation](../custom/cards/h/health_tint.txt)
 
 ### Design Notes
 
@@ -316,7 +362,7 @@ Haymaker - {2}: Julien gains trample until end of turn.
 3/3
 ```
 
-[card implementation](/custom/cards/j/julien_tiny_head.txt)
+[card implementation](../custom/cards/j/julien_tiny_head.txt)
 
 ### Design Notes
 
@@ -331,12 +377,12 @@ Haymaker - {2}: Julien gains trample until end of turn.
 ```
 3
 Legendary Artifact Creature - Gestral
-{2},{T}: Target Gestral you control fights another target creature. (Each deals damage equal to its power to the other.)
+{2}, {T}: Target Gestral you control fights another target creature. (Each deals damage equal to its power to the other.)
 
 2/2
 ```
 
-[card implementation](/custom/cards/l/limonsol_matchmaker.txt)
+[card implementation](../custom/cards/l/limonsol_matchmaker.txt)
 
 ### Design Notes
 
@@ -346,15 +392,15 @@ Legendary Artifact Creature - Gestral
 ## Lorieniso, Gestral Musician
 
 ```
-3
+2
 Legendary Artifact Creature - Gestral Bard
 At the beginning of your upkeep, you may put a verse counter on Lorieniso.
-{2},{T}: Search your library for a Gestral card with mana value X or less and put it into your hand, where X is the number of verse counters on this creature.
+{2}, {T}: Search your library for a Gestral card with mana value X or less and put it into your hand, where X is the number of verse counters on this creature.
 
 1/3
 ```
 
-[card implementation](/custom/cards/l/lorieniso_gestral_musician.txt)
+[card implementation](../custom/cards/l/lorieniso_gestral_musician.txt)
 
 ### Design Notes
 
@@ -373,13 +419,12 @@ Whenever this creature becomes the target of a spell or ability an opponent cont
 1/1
 ```
 
-[card implementation](/custom/cards/l/lost_gestral.txt)
+[card implementation](../custom/cards/l/lost_gestral.txt)
 
 ### Design Notes
 
  - In the game, there is a side-quest where you have to find a bunch of Lost Gestrals and return them to Sastro. Every Lost Gestral you find and return to Sastro gives you rewards. For the first ability I went with rewarding the player with Chroma tokens if Sastro is in play when a Lost Gestral enters as a mechanical analogy to this side quest.
  - The second ability was taken from Fblthp, the Lost to mechanically explain why these Gestrals keep getting lost.
- - The chroma granting ability seems bugged atm. See BUGS.md
 
 ## Lumina Converter
 
@@ -391,7 +436,7 @@ Artifact
 {T}, Sacrifice a Nevron: Create a Lumina token.
 ```
 
-[card implementation](/custom/cards/l/lumina_converter.txt)
+[card implementation](../custom/cards/l/lumina_converter.txt)
 
 ### Design Notes
 
@@ -404,10 +449,10 @@ Artifact
 2
 Artifact
 {T}: Add {C}.
-{2},{T}: Lock or unlock a door of target Room you control. Activate only as a sorcery.
+{2}, {T}: Lock or unlock a door of target Room you control. Activate only as a sorcery.
 ```
 
-[card implementation](/custom/cards/m/manor_door.txt)
+[card implementation](../custom/cards/m/manor_door.txt)
 
 ### Design Notes
 
@@ -415,19 +460,19 @@ Artifact
  - This clearly mechanically maps to an artifact that can lock/unlock rooms ala. Keys to the House
  - Added a mana ability so it can at least function as a mana rock if there's no rooms to interact with
 
-## Matthieu, The Colossus
+## Matthieu the Colossus
 
 ```
 7
 Legendary Artifact Creature - Gestral
 Trample. Menace.
 Matthieu does not untap during your untap step.
-Tap 3 creatures you control: Untap Matthieu.
+Tap three creatures you control: Untap Matthieu.
 
 8/8
 ```
 
-[card implementation](/custom/cards/m/matthieu_the_colossus.txt)
+[card implementation](../custom/cards/m/matthieu_the_colossus.txt)
 
 ### Design Notes
 
@@ -441,12 +486,12 @@ Tap 3 creatures you control: Untap Matthieu.
 ```
 1
 Artifact
-{1},{T},Sacrifice this artifact and any number of token permanents you control: Choose one:
+{1}, {T}, Sacrifice this artifact and any number of token permanents you control: Choose one -
  - Create X Chroma tokens, where X is the number of sacrificed permanents.
  - Create X Lumina tokens, where X is the number of sacrificed permanents.
 ```
 
-[card implementation](/custom/cards/r/recoat.txt)
+[card implementation](../custom/cards/r/recoat.txt)
 
 ### Design Notes
 
@@ -458,13 +503,13 @@ Artifact
 ```
 4
 Legendary Artifact Creature - Gestral
-When Sastro enters, put 2 1/1 Gestral artifact creature tokens into play.
-Whenever another nontoken Gestral creature enters, create a Chroma token.
+When Sastro enters, put two 1/1 Gestral artifact creature tokens into play.
+Whenever another nontoken Gestral creature you control enters, create a Chroma token.
 
 2/2
 ```
 
-[card implementation](/custom/cards/s/sastro_the_concerned.txt)
+[card implementation](../custom/cards/s/sastro_the_concerned.txt)
 
 ### Design Notes
 
@@ -478,10 +523,10 @@ Whenever another nontoken Gestral creature enters, create a Chroma token.
 1
 Legendary Artifact - Rock
 {T}: Target creature you control gains flying until end of turn.
-{1},Sacrifice Soarrie: Draw a card.
+{1}, Sacrifice Soarrie: Draw a card.
 ```
 
-[card implementation](/custom/cards/s/soarrie.txt)
+[card implementation](../custom/cards/s/soarrie.txt)
 
 ### Design Notes
 
@@ -494,13 +539,13 @@ Legendary Artifact - Rock
 ```
 4
 Legendary Artifact
-{T}: Add 3 mana of any one color. Spend this mana only to cast a Nevron, Gestral, Painter, Expeditioner or Picto spell.
+{T}: Add three mana of any one color. Spend this mana only to cast a Nevron, Gestral, Painter, Expeditioner or Picto spell.
 When The World Canvas leaves the battlefield, exile all permanents with a name originally printed in this expansion.
 ```
 
-[card implementation](/custom/cards/t/the_world_canvas.txt)
+[card implementation](../custom/cards/t/the_world_canvas.txt)
 
-### Design Mode
+### Design Notes
 
  - In the game, the continent is discovered to be inside a living canvas. The final part of the game is about deciding the fate of this canvas.
  - Mechanically:
@@ -512,14 +557,15 @@ When The World Canvas leaves the battlefield, exile all permanents with a name o
 ```
 1
 Legendary Artifact - Rock
-{1},{T}: Surveil 2.
+{1}, {T}: Surveil 2.
 {1},Sacrifice Urrie: Draw a card.
 ```
 
-[card implementation](/custom/cards/u/urrie.txt)
+[card implementation](../custom/cards/u/urrie.txt)
 
 ### Design Notes
 
  - In the game Urrie is a quest item which will grant Esquie the ability to dive when swimming in the Continent overworld
  - In this set, Urrie is 1 of 4 legendary "Rock" artifacts which will grant benefits to other cards if this or other members of the quartet are in play, just like Urza's Tower, Mine and Power Plant become more powerful when all of them are in play, I am trying to go for a similar outcome with this quartet.
     - Mechanically, my line of thought is diving > digging > Surveiling.
+

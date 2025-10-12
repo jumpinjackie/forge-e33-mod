@@ -1,5 +1,7 @@
 # Cards
 
+> Last generated: 12/10/2025 3:02:39 PM
+
 ## Chalier
 
 ```
@@ -10,7 +12,7 @@ When this creature dies, target opponent creates a Lumina token.
 2/2
 ```
 
-[card implementation](/custom/cards/c/chalier.txt)
+[card implementation](../custom/cards/c/chalier.txt)
 
 ### Design Notes
 
@@ -29,6 +31,8 @@ When this creature dies, target opponent creates two Chroma tokens and two Lumin
 1/3
 ```
 
+[card implementation](../custom/cards/p/petank.txt)
+
 ### Design Notes
 
  - In the game, a Petank is a special type of Nevron that can be defeated for special loot, but you have a limited time window to defeat it before it runs away. Petanks are generally tanky enemies or has some defensive gimmick to add extra challenge to defeating it before it runs away.
@@ -45,11 +49,14 @@ When this creature dies, target opponent creates two Chroma tokens and two Lumin
 Creature - Nevron
 Other nevrons you control get +1/+1.
 When this creature dies, target opponent creates a Lumina token.
+
+2/2
 ```
 
-[card implementation](/custom/cards/t/troubador.txt)
+[card implementation](../custom/cards/t/troubador.txt)
 
 ### Design Notes
 
  - In the game, a Troubador uses its horn to buff the enemy party.
  - Mechanically, I've mapped this to a basic nevron lord buff effect.
+

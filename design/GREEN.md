@@ -1,5 +1,7 @@
 # Cards
 
+> Last generated: 12/10/2025 3:02:39 PM
+
 ## Abbest
 
 ```
@@ -7,10 +9,11 @@ G
 Creature - Nevron
 Devoid (This card has no color.)
 When this creature dies, target opponent creates a Lumina token.
+
 1/2
 ```
 
-[card implementation](/custom/cards/a/abbest.txt)
+[card implementation](../custom/cards/a/abbest.txt)
 
 ### Design Notes
 
@@ -28,7 +31,7 @@ When this creature dies, create a Chroma token.
 2/3
 ```
 
-[card implementation](/custom/cards/e/expedition_00_tracker.txt)
+[card implementation](../custom/cards/e/expedition_00_tracker.txt)
 
 ### Design Notes
 
@@ -43,7 +46,7 @@ Kindred Enchantment - Expeditioner
 Sacrifice an Expeditioner: Draw a card
 ```
 
-[card implementation](/custom/cards/e/expedition_35_bridge.txt)
+[card implementation](../custom/cards/e/expedition_35_bridge.txt)
 
 ### Design Notes
 
@@ -61,30 +64,12 @@ When this creature dies, create a Chroma token.
 2/2
 ```
 
-[card implementation](/custom/cards/e/expedition_55_drummer.txt)
+[card implementation](../custom/cards/e/expedition_55_drummer.txt)
 
 ### Design Notes
 
  - In the game, Expedition 55 tried using musically-augmented pictos. This was mostly effective until they encountered Sirene whose minions and herself were immune to these pictos.
  - Since the main theme of this Expedition was music, it can be safely assumed that most of the crew were musicians or were proficient in one kind of music, giving us ample design space to fill out the Expeditioner creature roster with various creatures of various utility. In this case, I've gone with a drummer and a lord buff effect.
-
-## Expedition 55 Trumpeter
-
-```
-2(W/G)
-Creature - Human Expeditioner
-Expeditioner spells you cast cost {1} less to cast.
-When this creature dies, create a Chroma token.
-
-2/2
-```
-
-[card implementation](/custom/cards/e/expedition_55_trumpeter.txt)
-
-### Design Notes
-
- - In the game, Expedition 55 tried using musically-augmented pictos. This was mostly effective until they encountered Sirene whose minions and herself were immune to these pictos.
- - Since the main theme of this Expedition was music, it can be safely assumed that most of the crew were musicians or were proficient in one kind of music,  giving us ample design space to fill out the Expeditioner creature roster with various creatures of various utility. In this case, I've gone with a trumpeter and a cost-reduction effect.
 
 ## Expedition 69
 
@@ -93,11 +78,11 @@ When this creature dies, create a Chroma token.
 Enchantment - Saga
 (As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
 I — Search your library for a basic land card, put it onto the battlefield tapped, then shuffle.
-II — You may play an additional land thus turn.
+II — You may play an additional land this turn.
 III — Search your library for a land card, put it onto the battlefield, then shuffle.
 ```
 
-[card implementation](/custom/cards/e/expedition_69.txt)
+[card implementation](../custom/cards/e/expedition_69.txt)
 
 ### Design Notes
 
@@ -116,7 +101,7 @@ When this creature dies, create a Chroma token.
 1/1
 ```
 
-[card implementation](/custom/cards/e/expedition_69_explorer.txt)
+[card implementation](../custom/cards/e/expedition_69_explorer.txt)
 
 ### Design Notes
 
@@ -134,7 +119,7 @@ When this creature dies, create a Chroma token.
 3/2
 ```
 
-[card implementation](/custom/cards/e/expedition_69_mountaineer.txt)
+[card implementation](../custom/cards/e/expedition_69_mountaineer.txt)
 
 ### Design Notes
 
@@ -153,7 +138,7 @@ When this creature dies, create a Chroma token.
 2/2
 ```
 
-[card implementation](/custom/cards/e/expedition_69_surveyor.txt)
+[card implementation](../custom/cards/e/expedition_69_surveyor.txt)
 
 ### Design Notes
 
@@ -170,7 +155,7 @@ As long as there are two or more counters on this enchantment. Creatures you con
 As long as there are four or more counters on this enchantment. You may play an additional land on each of your turns.
 ```
 
-[card implementation](/custom/cards/g/gestral_climbing_challenge.txt)
+[card implementation](../custom/cards/g/gestral_climbing_challenge.txt)
 
 ### Design Notes
 
@@ -184,13 +169,13 @@ As long as there are four or more counters on this enchantment. You may play an 
 1G
 Creature - Nevron
 First Strike.
-Devoid.
+Devoid. (This card has no color.)
 When this creature dies, target opponent creates a Lumina token.
 
 2/2
 ```
 
-[card implementation](/custom/cards/l/lancelier.txt)
+[card implementation](../custom/cards/l/lancelier.txt)
 
 ### Design Notes
 
@@ -208,7 +193,7 @@ Kindred Enchantment - Expeditioner
 {1}, Sacrifice this enchantment: Draw a card.
 ```
 
-[card implementation](/custom/cards/n/nevron_disguise.txt)
+[card implementation](../custom/cards/n/nevron_disguise.txt)
 
 ### Design Notes
 
@@ -221,31 +206,30 @@ Kindred Enchantment - Expeditioner
 ```
 3G
 Kindred Enchantment - Nevron
-{1}{G}: Sacrifice a Nevron: Search your library for a Nevron permanent with mana value X and put it into the battlefield where X is the sacrificed Nevron's mana value plus one. Activate this ability only once each turn.
+{1}{G}, Sacrifice a Nevron: Search your library for a Nevron permanent with mana value X and put it into the battlefield where X is the sacrificed Nevron's mana value plus one. Activate this ability only once each turn.
 ```
 
-[card implementation](/custom/cards/n/nevron_pecking_order.txt)
+[card implementation](../custom/cards/n/nevron_pecking_order.txt)
 
 ### Design Notes
 
- - Painters have tutors, Expeditioners have tutors, Gestrals have tutors. This was a bone thrown to Nevrons so they at least had a tutor as well.
+ - This is a bone thrown to Nevrons to solidify that archetype.
  - Modeled on Birthing Pod.
 
 ## Revitalization
 
 ```
 2G
-Sorcery
-Choose up to one target creature and up to one target non-creature card in your graveyard. Return them to your hand.
+Kindred Sorcery - Expeditioner
+Choose up to one target creature card and up to one target non-creature card in your graveyard. Return those cards to your hand.
 ```
 
-[card implementation](/custom/cards/r/revitalization.txt)
+[card implementation](../custom/cards/r/revitalization.txt)
 
 ### Design Notes
 
  - In the game, this is Lune's healing ability.
  - No mechanical relation. We've just re-approriated the name for a green regrowth-style spell.
- - The targeting restrictions don't seem to be working, meaning any two cards can be targeted. See BUGS.md
 
 ## Volester
 
@@ -260,9 +244,10 @@ When this creature dies, target opponent creates a Lumina token.
 2/1
 ```
 
-[card implementation](/custom/cards/v/volester.txt)
+[card implementation](../custom/cards/v/volester.txt)
 
 ### Design Notes
 
  - In the game, Volester is one of the lower-tier enemies with flying that has a weak point in its chest.
  - Like Demineur, gave this one a Skulking Ghost sac effect to emphasize its weakness to targeted attacks.
+

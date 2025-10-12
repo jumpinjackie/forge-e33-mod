@@ -1,5 +1,7 @@
 # Cards
 
+> Last generated: 12/10/2025 3:02:39 PM
+
 ## Chroma Barrier
 
 ```
@@ -9,7 +11,7 @@ Creatures cannot attack you unless their controller sacrifices a Chroma token fo
 {3}: Create a Chroma token. Any player may activate this ability.
 ```
 
-[card implementation](/custom/cards/c/chroma_barrier.txt)
+[card implementation](../custom/cards/c/chroma_barrier.txt)
 
 ### Design Notes
 
@@ -27,7 +29,7 @@ When this enchantment enters, exile another target nonland permanent.
 When this enchantment leaves the battlefield, return the exiled card to the battlefield under its owner's control.
 ```
 
-[card implementation](/custom/cards/c/chroma_prison.txt)
+[card implementation](../custom/cards/c/chroma_prison.txt)
 
 ### Design Notes
 
@@ -49,7 +51,7 @@ When this creature dies, target opponent creates a Lumina token.
 2/2
 ```
 
-[card implementation](/custom/cards/c/clair.txt)
+[card implementation](../custom/cards/c/clair.txt)
 
 ### Design Notes
 
@@ -69,7 +71,7 @@ II — Put a shield counter on each creature you control.
 III — Creatures you control gain indestructible until end of turn.
 ```
 
-[card implementation](/custom/cards/e/expedition_49.txt)
+[card implementation](../custom/cards/e/expedition_49.txt)
 
 ### Design Notes
 
@@ -84,9 +86,11 @@ Creature - Human Expeditioner Cleric
 Whenever you create a Chroma or Lumina token, you gain 1 life.
 {2},{T}: Prevent the next X damage that would be dealt to any target this turn, where X is the number of Chroma and Lumina tokens you control.
 When this creature dies, create a Chroma token.
+
+2/2
 ```
 
-[card implementation](/custom/cards/e/expedition_49_healer.txt)
+[card implementation](../custom/cards/e/expedition_49_healer.txt)
 
 ### Design Notes
 
@@ -100,9 +104,11 @@ When this creature dies, create a Chroma token.
 Creature - Human Expeditioner
 When this creature enters, you may search your library for an Expeditioner card, reveal it, put it into your hand, then shuffle.
 When this creature dies, create a Chroma token.
+
+1/1
 ```
 
-[card implementation](/custom/cards/e/expedition_recruiter.txt)
+[card implementation](../custom/cards/e/expedition_recruiter.txt)
 
 ### Design Notes
 
@@ -118,7 +124,7 @@ Kindred Sorcery - Expeditioner
 Each player gains twice X life.
 ```
 
-[card implementation](/custom/cards/h/healing_light.txt)
+[card implementation](../custom/cards/h/healing_light.txt)
 
 ### Design Notes
 
@@ -131,12 +137,12 @@ Each player gains twice X life.
 ```
 1W
 Creature - Human Citizen
-Whenever another non-Expeditioner creature enters, investigate.
+Whenever another non-Expeditioner creature enters, investigate. (Create a Clue token. It's an artifact with "{2}, Sacrifice this token: Draw a card.")
 
 1/3
 ```
 
-[card implementation](/custom/cards/l/lumierian_apprentice.txt)
+[card implementation](../custom/cards/l/lumierian_apprentice.txt)
 
 ### Design Notes
 
@@ -149,10 +155,11 @@ Whenever another non-Expeditioner creature enters, investigate.
 ```
 1W
 Sorcery
-As an additional cost to cast this spell, sacrifice 3 Chroma tokens. Return target card from exile to your hand.
+As an additional cost to cast this spell, sacrifice three Chroma tokens.
+Return target card you own from exile to your hand.
 ```
 
-[card implementation](/custom/cards/zDevelopment/repaint.txt)
+[card implementation](../custom/cards/r/repaint.txt)
 
 ### Design Notes
 
@@ -169,7 +176,7 @@ Kindred Instant - Expeditioner
 Untap target creature you control. It gains hexproof until end of turn.
 ```
 
-[card implementation](/custom/cards/s/sciels_intervention.txt)
+[card implementation](../custom/cards/s/sciel's_intervention.txt)
 
 ### Design Notes
 
@@ -183,13 +190,15 @@ Untap target creature you control. It gains hexproof until end of turn.
 3W
 Legendary Sorcery
 (You may cast a legendary sorcery only if you control a legendary creature or planeswalker.)
-Destroy all non-basic lands. Search your library for a card named The Monolith, put it onto the battlefield and shuffle.
+Destroy all non-basic lands.
+Search your library for a card named The Monolith, put it onto the battlefield and shuffle.
 ```
 
-[card implementation](/custom/cards/t/the_fracture.txt)
+[card implementation](../custom/cards/t/the_fracture.txt)
 
 ### Design Notes
 
  - In the game, The Fracture is a cataclysmic event which marks the appearance of The Monolith and sets in motion the annual yearly gommage.
  - Mechanically, this event itself is only catalclysmic in terms of the continent landscape, while there may have been human casualties in this event, this event was more about the altered landscape of the continent, thus it is clear that this event should be a non-basic land mass destruction effect like Ruination (non-basic so it doesn't become a strictly better Armageddon and to reward players who play basic lands).
      - The tutoring effect for The Monolith thematically maps to the appearance of The Monolith in the game.
+

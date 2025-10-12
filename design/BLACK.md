@@ -1,5 +1,7 @@
 # Cards
 
+> Last generated: 12/10/2025 3:02:39 PM
+
 ## Aberration
 
 ```
@@ -7,10 +9,11 @@
 Creature - Nevron
 Devoid (This card has no color.)
 When this creature dies, target opponent creates a Lumina token.
+
 3/3
 ```
 
-[card implementation](/custom/cards/a/aberration.txt)
+[card implementation](../custom/cards/a/aberration.txt)
 
 ### Design Notes
 
@@ -24,11 +27,13 @@ Creature - Nevron
 Flying.
 Devoid (This card has no color.)
 When this creature dies, target opponent creates a Lumina token.
-{1}{B},{T}: Create a 1/1 colorless Jar creature token.
+{1}{B},{T}: Create a 1/1 colorless Jar Nevron creature token.
 Exhaust on death - When this creature dies, tap target creature an opponent controls, put a stun counter on it. (If a permanent with a stun counter would become untapped, remove one from it instead.)
+
+2/2
 ```
 
-[card implementation](/custom/cards/c/chapelier.txt)
+[card implementation](../custom/cards/c/chapelier.txt)
 
 ### Design Notes
 
@@ -43,7 +48,7 @@ Sorcery
 Search your library for a Nevron card, reveal it, put it into your hand, then shuffle.
 ```
 
-[card implementation](/custom/cards/c/cleas_chromatic_mastery.txt)
+[card implementation](../custom/cards/c/clea's_chromatic_mastery.txt)
 
 ### Design Notes
 
@@ -61,7 +66,7 @@ When this creature dies, create a Chroma token.
 2/2
 ```
 
-[card implementation](/custom/cards/e/expedition_62_hunter.txt)
+[card implementation](../custom/cards/e/expedition_62_hunter.txt)
 
 ### Design Notes
 
@@ -77,7 +82,7 @@ Target creature gets -2/-2 until end of turn.
 Foretell {0} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)
 ```
 
-[card implementation](/custom/cards/h/heres_your_card.txt)
+[card implementation](../custom/cards/h/here's_your_card.txt)
 
 ### Design Notes
 
@@ -92,7 +97,7 @@ Sorcery - Gradient
 Target opponent reveals their hand. You choose either an Expeditioner card or a noncreature, nonland card from it. That player discards that card.
 ```
 
-[card implementation](/custom/cards/m/maelles_nightmare.txt)
+[card implementation](../custom/cards/m/maelle's_nightmare.txt)
 
 ### Design Notes
 
@@ -106,7 +111,7 @@ Sorcery
 All non-Nevron, non-Painter creatures get -2/-2 until end of turn.
 ```
 
-[card implementation](/custom/cards/m/massacre_at_dark_shores.txt)
+[card implementation](../custom/cards/m/massacre_at_dark_shores.txt)
 
 ### Design Notes
 
@@ -125,7 +130,7 @@ When this creature dies, target opponent creates a Lumina token.
 5/5
 ```
 
-[card implementation](/custom/cards/n/noire.txt)
+[card implementation](../custom/cards/n/noire.txt)
 
 ### Design Notes
 
@@ -139,11 +144,13 @@ When this creature dies, target opponent creates a Lumina token.
 Creature - Nevron
 Devoid (This card has no color.)
 When this creature dies, target opponent creates a Lumina token.
-{1}{B},{T}: Target creature an opponent controls gets -1/-1 until end of turn.
-{1}{B},{T}: Untap target creature you control.
+{1}{B}, {T}: Target creature an opponent controls gets -1/-1 until end of turn.
+{1}{B}, {T}: Untap target creature you control.
+
+2/2
 ```
 
-[card implementation](/custom/cards/o/obscur.txt)
+[card implementation](../custom/cards/o/obscur.txt)
 
 ### Design Notes
 
@@ -162,7 +169,7 @@ This spell costs {1} less to cast if it targets an Expeditioner.
 Destroy target creature.
 ```
 
-[card implementation](/custom/cards/p/piercing_strike.txt)
+[card implementation](../custom/cards/p/piercing_strike.txt)
 
 ### Design Notes
 
@@ -176,6 +183,8 @@ Sorcery - Gradient
 Until end of turn, you may play lands and cast Nevron or Gradient spells from your graveyard.
 If a card would be put into your graveyard from anywhere this turn, exile that card instead.
 ```
+
+[card implementation](../custom/cards/r/renoir's_will.txt)
 
 ### Design Notes
 
@@ -191,10 +200,11 @@ Legendary Sorcery
 Each player with 33 or more life loses the game.
 ```
 
-[card implementation](/custom/cards/t/the_67th_gommage.txt)
+[card implementation](../custom/cards/t/the_67th_gommage.txt)
 
 ### Design Notes
 
  - This is meant to flavorfully and mechanically represent the moment Renoir triggers the 67th gommage, erasing every human 33 years and older.
  - Except in our case, instead of humans, it's players and instead of age its life total. Basically this card is just another excuse to weave in a thematic and flavorful use of the number 33.
  - Further playtesting may reveal the truth, but I don't believe the win condition is *that easy* to achieve. It goes against the general plan of victory for most decks, which is to get your opponent to 0 or less life. So having to get your opponent to above a certain life total to enable the victory condition is at least a unique angle.
+

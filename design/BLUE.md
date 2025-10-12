@@ -1,15 +1,17 @@
 # Cards
 
+> Last generated: 12/10/2025 3:02:39 PM
+
 ## An Advantage!
 
 ```
 U
 Kindred Sorcery - Expeditioner
-Create 3 Lumina tokens.
-Draw a card at the beginnning of the next turn's upkeep.
+Create three Lumina tokens. (It's an artifact with "{T}, Sacrifice this token: Scry 1.")
+Draw a card at the beginning of the next turn's upkeep.
 ```
 
-[card implementation](/custom/cards/a/an_advantage.txt)
+[card implementation](../custom/cards/a/an_advantage.txt)
 
 ### Design Notes
 
@@ -29,7 +31,7 @@ This creature enters with a shield counter on it. (If it would be dealt damage o
 3/3
 ```
 
-[card implementation](/custom/cards/boucheclier.txt)
+[card implementation](../custom/cards/b/boucheclier.txt)
 
 ### Design Notes
 
@@ -47,7 +49,7 @@ This creature gets +2/+2 and Ward 2 if you control a creature named Cruler.
 3/2
 ```
 
-[card implementation](/custom/cards/b/bruler.txt)
+[card implementation](../custom/cards/b/bruler.txt)
 
 ### Design Notes
 
@@ -62,7 +64,7 @@ Create a Chroma token and a Lumina token.
 Splice onto Expeditioner Instant or Sorcery {U} (As you cast an Expeditioner Instant or Sorcery, you may reveal this card from your hand and pay its splice cost. If you do, add this card's effects to that spell.)
 ```
 
-[card implementation](/custom/cards/c/cache_discovery.txt)
+[card implementation](../custom/cards/c/cache_discovery.txt)
 
 ### Design Notes
 
@@ -79,7 +81,7 @@ Tap an untapped creature you control: Tap target artifact or creature.
 Tap an untapped Expeditioner you control: Tap target land.
 ```
 
-[card implementation](/custom/cards/c/crippling_tsunami.txt)
+[card implementation](../custom/cards/c/crippling_tsunami.txt)
 
 ### Design Notes
 
@@ -99,7 +101,7 @@ This creature gets +2/+2 and Ward 2 if you control a creature named Bruler.
 2/3
 ```
 
-[card implementation](/custom/cards/c/cruler.txt)
+[card implementation](../custom/cards/c/cruler.txt)
 
 ### Design Notes
 
@@ -109,7 +111,7 @@ This creature gets +2/+2 and Ward 2 if you control a creature named Bruler.
 
 ```
 U
-Creature - Nevron
+Creature Nevron
 Flying.
 Devoid (This card has no color.)
 When this creature becomes the target of a spell or ability, sacrifice it.
@@ -118,7 +120,7 @@ When this creature dies, target opponent creates a Lumina token.
 1/1
 ```
 
-[card implementation](/custom/cards/d/demineur.txt)
+[card implementation](../custom/cards/d/demineur.txt)
 
 ### Design Notes
 
@@ -135,7 +137,7 @@ Enchant permanent
 Enchanted permanent doesn't untap during its controller's untap step.
 ```
 
-[card implementation](/custom/cards/e/eternal_ice.txt)
+[card implementation](../custom/cards/e/eternal_ice.txt)
 
 ### Design Notes
 
@@ -147,14 +149,14 @@ Enchanted permanent doesn't untap during its controller's untap step.
 ```
 2U
 Creature - Human Expeditioner
-Flying
+Flying.
 This creature can block only creatures with flying.
 When this creature dies, create a Chroma token.
 
 3/1
 ```
 
-[card implementation](/custom/cards/e/expedition_40_glider.txt)
+[card implementation](../custom/cards/e/expedition_40_glider.txt)
 
 ### Design Notes
 
@@ -174,7 +176,7 @@ Crew 2 (Tap any number of creatures you control with total power 2 or more: This
 2/3
 ```
 
-[card implementation](/custom/cards/e/expedition_43_submersible.txt)
+[card implementation](../custom/cards/e/expedition_43_submersible.txt)
 
 ### Design Notes
 
@@ -193,7 +195,7 @@ The strongest ice attack ever - At the beginning of your upkeep, Francois deals 
 1/6
 ```
 
-[card implementation](/custom/cards/f/francois_waiting_for_clea.txt)
+[card implementation](../custom/cards/f/francois_waiting_for_clea.txt)
 
 ### Design Notes
 
@@ -209,11 +211,11 @@ The strongest ice attack ever - At the beginning of your upkeep, Francois deals 
 ```
 U
 Enchantment
-Whenever a creature you control with flying enters or a creature you control with flying attacks, put a quest counter on this enchantment.
+Whenever a creature you control with flying enters or a creature you control with flying attacks, you may put a quest counter on this enchantment.
 Remove four quest counters from this enchantment and sacrifice it: Draw three cards.
 ```
 
-[card implementation](/custom/cards/g/gestral_ascension_challenge.txt)
+[card implementation](../custom/cards/g/gestral_ascension_challenge.txt)
 
 ### Design Notes
 
@@ -230,7 +232,7 @@ Kindred Instant - Expeditioner
 Counter target Gradient spell
 ```
 
-[card implementation](/custom/cards/g/gradient_counter.txt)
+[card implementation](../custom/cards/g/gradient_counter.txt)
 
 ### Design Notes
 
@@ -242,11 +244,11 @@ Counter target Gradient spell
 ```
 3UU
 Kindred Instant - Expeditioner
-This spell costs {1} less to cast if you control an Expeditoner.
+This spell costs {1} less to cast if you control an Expeditioner.
 Draw three cards.
 ```
 
-[card implementation](/custom/cards/g/gustaves_ingenuity.txt)
+[card implementation](../custom/cards/g/gustave's_ingenuity.txt)
 
 ### Design Notes
 
@@ -261,7 +263,7 @@ This spell has flash as long as you control an Expeditioner.
 Look at the top five cards of your library. Put two of them into your hand and the rest on the bottom of your library in any order.
 ```
 
-[card implementation](/custom/cards/g/gustaves_insight.txt)
+[card implementation](../custom/cards/g/gustave's_insight.txt)
 
 ### Design Notes
 
@@ -275,7 +277,7 @@ Kindred Instant - Expeditioner
 Tap up to two target permanents. Put a stun counter on them.
 ```
 
-[card implementation](/custom/cards/i/ice_lance.txt)
+[card implementation](../custom/cards/i/ice_lance.txt)
 
 ### Design Notes
 
@@ -290,7 +292,7 @@ Counter target spell unless its controller pays {2}.
 Create a Lumina token.
 ```
 
-[card implementation](/custom/cards/l/lunes_denial.txt)
+[card implementation](../custom/cards/l/lune's_denial.txt)
 
 ### Design Notes
 
@@ -307,7 +309,7 @@ When this creature dies, target opponent creates a Lumina token.
 3/2
 ```
 
-[card implementation](/custom/cards/l/luster.txt)
+[card implementation](../custom/cards/l/luster.txt)
 
 ### Design Notes
 
@@ -318,12 +320,12 @@ When this creature dies, target opponent creates a Lumina token.
 ```
 3U
 Instant - Gradient
-Devoid
+Devoid.
 This spell costs {2} less to cast if you control a painter.
-Put target permanent to the top or bottom of its owner's library.
+The owner of target permanent puts it on the top or bottom of their library.
 ```
 
-[card implementation](/custom/cards/r/rip_apart_reality.txt)
+[card implementation](../custom/cards/r/rip_apart_reality.txt)
 
 ### Design Notes
 
@@ -341,7 +343,7 @@ If {W} was spent on this spell, exile each creature with a stun counter at the b
 If {G} was spent on this spell, you gain 2 life for each creature on the battlefield.
 ```
 
-[card implementation](/custom/cards/s/sky_break.txt)
+[card implementation](../custom/cards/s/sky_break.txt)
 
 ### Design Notes
 
@@ -365,7 +367,7 @@ Counter target spell.
 Create a Lumina token.
 ```
 
-[card implementation](/custom/cards/s/swift_counter.txt)
+[card implementation](../custom/cards/s/swift_counter.txt)
 
 ### Design Notes
 
@@ -382,7 +384,7 @@ II - Scry 3.
 III — Draw cards equal to the number of rock permanents you control.
 ```
 
-[card implementation](/custom/cards/t/the_search_for_esquies_rocks.txt)
+[card implementation](../custom/cards/t/the_search_for_esquie's_rocks.txt)
 
 ### Design Notes
 
@@ -395,12 +397,14 @@ III — Draw cards equal to the number of rock permanents you control.
 1U
 Kindred Instant - Expeditioner
 Kicker {R} (You may pay an additional {R} as you cast this spell.)
-Tap target creature and put a stun counter on it. If this spell was kicked, this spell deals 3 damage to another target creature.
+Tap target creature and put a stun counter on it.
+If this spell was kicked, this spell deals 3 damage to another target creature.
 ```
 
-[card implementation](/custom/cards/t/thermal_transfer.txt)
+[card implementation](../custom/cards/t/thermal_transfer.txt)
 
 ### Design Notes
 
  - In the game this is one of Lune's abilities.
  - As the ability from the game has fire/ice elements, it naturally mechanically maps to a tap and stun on the ice side. For the fire side, I've decided to add a creature bolt ability behind a kicker cost.
+
