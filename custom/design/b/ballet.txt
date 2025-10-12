@@ -10,14 +10,13 @@ Nevron
 [PT]
 2/2
 [Oracle]
-Devoid $DEVOID_REMINDER_TEXT
 Flying.
 When this creature dies, target opponent creates a Lumina token.
 [ForgeScript]
-K:Devoid
 K:Flying
 T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Card.Self | Execute$ TrigToken | TriggerDescription$ When this creature dies, target opponent creates a Lumina token.
 SVar:TrigToken:DB$ Token | TokenAmount$ 1 | ValidTgts$ Opponent | TokenOwner$ Targeted | TokenScript$ c_a_lumina
 [DesignNotes]
  - Another vanila Nevron. Flying because these things are hard to hit with melee attacks in the actual game.
  - 23/09/2025: Move color identity from white/green to red/green to make way for White Nevrons.
+ - 13/10/2025: Removed Devoid.

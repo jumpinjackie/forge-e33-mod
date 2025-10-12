@@ -10,11 +10,9 @@ Nevron
 2/2
 [Oracle]
 First Strike.
-Devoid. $DEVOID_REMINDER_TEXT
 When this creature dies, target opponent creates a Lumina token.
 [ForgeScript]
 K:First Strike
-K:Devoid
 T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Card.Self | Execute$ TrigToken | TriggerDescription$ When this creature dies, target opponent creates a Lumina token.
 SVar:TrigToken:DB$ Token | TokenAmount$ 1 | ValidTgts$ Opponent | TokenOwner$ Targeted | TokenScript$ c_a_lumina
 [DesignNotes]
@@ -22,3 +20,4 @@ SVar:TrigToken:DB$ Token | TokenAmount$ 1 | ValidTgts$ Opponent | TokenOwner$ Ta
  - In game, Lancelier's wield a lance. So clearly this should have First Strike.
  - 23/09/2025: Now green instead of white/green. White Nevrons will be their own unique sub-race that we don't want regular Nevrons to bleed into.
  - 5/10/2025: Added missing Devoid.
+ - 13/10/2025: Removed Devoid.

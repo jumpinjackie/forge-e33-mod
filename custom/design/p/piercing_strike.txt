@@ -7,17 +7,17 @@ B
 Instant
 Gradient
 [Oracle]
-Devoid. Split Second.
+Split Second.
 This spell costs {1} less to cast if you control a painter.
 This spell costs {1} less to cast if it targets an Expeditioner.
 Destroy target creature.
 [FlavorText]
 "Like I always say, it’s not about the rock, it’s more about th-"
 [ForgeScript]
-K:Devoid
 K:Split second
 S:Mode$ ReduceCost | ValidCard$ Card.Self | Type$ Spell | Amount$ 1 | EffectZone$ All | IsPresent$ Painter.YouCtrl | Description$ This spell costs {1} less to cast if you control a painter.
 S:Mode$ ReduceCost | ValidCard$ Card.Self | Type$ Spell | Amount$ 1 | EffectZone$ All | ValidTarget$ Creature.Expeditioner | Description$ This spell costs {1} less to cast if it targets an Expeditioner.
 A:SP$ Destroy | ValidTgts$ Creature | TgtPrompt$ Select target creature | SpellDescription$ Destroy target creature.
 [DesignNotes]
  - This is meant to flavorfully and mechanically represent Painted Renoir's killing blow to Gustave.
+ - 13/10/2025: Removed Devoid.

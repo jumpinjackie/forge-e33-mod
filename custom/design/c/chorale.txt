@@ -10,13 +10,12 @@ Nevron
 2/1
 [Oracle]
 Flying.
-Devoid $DEVOID_REMINDER_TEXT
 When this creature dies, target opponent creates a Lumina token.
 [ForgeScript]
 K:Flying
-K:Devoid
 T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Card.Self | Execute$ TrigToken | TriggerDescription$ When this creature dies, target opponent creates a Lumina token.
 SVar:TrigToken:DB$ Token | TokenAmount$ 1 | ValidTgts$ Opponent | TokenOwner$ Targeted | TokenScript$ c_a_lumina
 [DesignNotes]
  - Another vanilla Nevron
  - 5/10/2025: Switched PT from 1/2 to 2/1 for more offensive punch.
+ - 13/10/2025: Removed Devoid.

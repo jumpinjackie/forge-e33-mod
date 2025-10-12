@@ -9,13 +9,12 @@ Nevron
 [PT]
 3/3
 [Oracle]
-Devoid $DEVOID_REMINDER_TEXT
 When this creature dies, target opponent creates a Lumina token.
 This creature enters with a shield counter on it. (If it would be dealt damage or destroyed, remove a shield counter from it instead.)
 [ForgeScript]
-K:Devoid
 T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Card.Self | Execute$ TrigToken | TriggerDescription$ When this creature dies, target opponent creates a Lumina token.
 SVar:TrigToken:DB$ Token | TokenAmount$ 1 | ValidTgts$ Opponent | TokenOwner$ Targeted | TokenScript$ c_a_lumina
 K:etbCounter:SHIELD:1
 [DesignNotes]
  - Just a vanilla hill giant. Has shield counters because its game counterpart always has one and Shield counters are near 1:1 mechanically.
+ - 13/10/2025: Removed Devoid.

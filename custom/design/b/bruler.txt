@@ -9,13 +9,12 @@ Nevron
 [PT]
 3/2
 [Oracle]
-Devoid $DEVOID_REMINDER_TEXT
 When this creature dies, target opponent creates a Lumina token.
 This creature gets +2/+2 and Ward 2 if you control a creature named Cruler.
 [ForgeScript]
-K:Devoid
 T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Card.Self | Execute$ TrigToken | TriggerDescription$ When this creature dies, target opponent creates a Lumina token.
 SVar:TrigToken:DB$ Token | TokenAmount$ 1 | ValidTgts$ Opponent | TokenOwner$ Targeted | TokenScript$ c_a_lumina
 S:Mode$ Continuous | Affected$ Card.Self | AddPower$ 2 | AddToughness$ 2 | AddKeyword$ Ward:2 | IsPresent$ Creature.YouCtrl+namedCruler | Description$ This creature gets +2/+2 and Ward 2 if you control a creature named Cruler.
 [DesignNotes]
  - In the game, Bruler is generally in a party with Cruler. Thus I've gone with giving Bruler a buff if you also control Cruler
+ - 13/10/2025: Removed Devoid.
