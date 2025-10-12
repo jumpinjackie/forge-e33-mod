@@ -2,7 +2,22 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Debug CardProcess",
+            "name": "Debug CardProcess genscripts",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceFolder}/tools/CardProcess/bin/Debug/net9.0/CardProcess.dll",
+            "args": [
+                "genscripts",
+                "--base-directory",
+                "${workspaceFolder}/custom"
+            ],
+            "cwd": "${workspaceFolder}/tools/CardProcess",
+            "console": "internalConsole",
+            "stopAtEntry": false
+        },
+        {
+            "name": "Debug CardProcess gendocs",
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build",
@@ -12,7 +27,7 @@
                 "--base-directory",
                 "${workspaceFolder}/custom",
                 "--output-dir",
-                "${workspaceFolder}/docs"
+                "${workspaceFolder}/design"
             ],
             "cwd": "${workspaceFolder}/tools/CardProcess",
             "console": "internalConsole",
