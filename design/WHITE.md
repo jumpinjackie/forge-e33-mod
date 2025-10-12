@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 12/10/2025 4:02:02 PM
+> Last generated: 12/10/2025 4:16:27 PM
 
 ## Chroma Barrier
 
@@ -43,7 +43,6 @@ When this enchantment leaves the battlefield, return the exiled card to the batt
 ```
 2W
 Creature - Nevron
-Devoid (This card has no color.)
 When this creature dies, target opponent creates a Lumina token.
 {2}{W},{T}: Target creature an opponent controls loses all abilities until end of turn.
 {1}{W},{T}: Put a shield counter on target creature you control.
@@ -59,6 +58,7 @@ When this creature dies, target opponent creates a Lumina token.
  - Mechanically represented here as:
     - Granting shield counters
     - A temporary "humility" effect to represent silencing.
+ - 13/10/2025: Removed Devoid.
 
 ## Expedition 49
 

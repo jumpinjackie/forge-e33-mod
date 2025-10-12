@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 12/10/2025 4:02:02 PM
+> Last generated: 12/10/2025 4:16:27 PM
 
 ## An Advantage!
 
@@ -24,7 +24,6 @@ Draw a card at the beginning of the next turn's upkeep.
 ```
 3U
 Creature - Nevron
-Devoid (This card has no color.)
 When this creature dies, target opponent creates a Lumina token.
 This creature enters with a shield counter on it. (If it would be dealt damage or destroyed, remove a shield counter from it instead.)
 
@@ -36,13 +35,13 @@ This creature enters with a shield counter on it. (If it would be dealt damage o
 ### Design Notes
 
  - Just a vanilla hill giant. Has shield counters because its game counterpart always has one and Shield counters are near 1:1 mechanically.
+ - 13/10/2025: Removed Devoid.
 
 ## Bruler
 
 ```
 2U
 Creature - Nevron
-Devoid (This card has no color.)
 When this creature dies, target opponent creates a Lumina token.
 This creature gets +2/+2 and Ward 2 if you control a creature named Cruler.
 
@@ -54,6 +53,7 @@ This creature gets +2/+2 and Ward 2 if you control a creature named Cruler.
 ### Design Notes
 
  - In the game, Bruler is generally in a party with Cruler. Thus I've gone with giving Bruler a buff if you also control Cruler
+ - 13/10/2025: Removed Devoid.
 
 ## Cache Discovery
 
@@ -94,7 +94,6 @@ Tap an untapped Expeditioner you control: Tap target land.
 ```
 2U
 Creature - Nevron
-Devoid (This card has no color.)
 When this creature dies, target opponent creates a Lumina token.
 This creature gets +2/+2 and Ward 2 if you control a creature named Bruler.
 
@@ -106,6 +105,7 @@ This creature gets +2/+2 and Ward 2 if you control a creature named Bruler.
 ### Design Notes
 
  - The other half of Bruler. Thus like Cruler, decided to give the same buff if the other half is present.
+ - 13/10/2025: Removed Devoid.
 
 ## Demineur
 
@@ -113,7 +113,6 @@ This creature gets +2/+2 and Ward 2 if you control a creature named Bruler.
 U
 Creature Nevron
 Flying.
-Devoid (This card has no color.)
 When this creature becomes the target of a spell or ability, sacrifice it.
 When this creature dies, target opponent creates a Lumina token.
 
@@ -127,6 +126,7 @@ When this creature dies, target opponent creates a Lumina token.
  - In the game, this is one of the weakest enemies in the game.
  - Went with a Nevron variation of Flying Men
  - 30/09/2025: Gave it a Skulking Ghost sac trigger to emphasize its weakness to targeted attacks (shots)
+ - 13/10/2025: Removed Devoid.
 
 ## Eternal Ice
 
@@ -303,7 +303,6 @@ Create a Lumina token.
 ```
 2U
 Creature - Nevron
-Devoid (This card has no color.)
 When this creature dies, target opponent creates a Lumina token.
 
 3/2
@@ -314,13 +313,13 @@ When this creature dies, target opponent creates a Lumina token.
 ### Design Notes
 
  - Currently a vanilla placeholder Nevron. Abilities TBD
+ - 13/10/2025: Removed Devoid.
 
 ## Rip Apart Reality
 
 ```
 3U
 Instant - Gradient
-Devoid.
 This spell costs {2} less to cast if you control a painter.
 The owner of target permanent puts it on the top or bottom of their library.
 ```
@@ -331,6 +330,7 @@ The owner of target permanent puts it on the top or bottom of their library.
 
  - This is one of the Paintress' moves in the boss fight with her.
  - May or may not have any mechanical relation. I needed a soft-removal spell for blue in this slot and the name was a good enough match for such an effect.
+ - 13/10/2025: Removed Devoid.
 
 ## Sky Break
 

@@ -2,9 +2,8 @@ Name:Obscur
 ManaCost:2 B
 Types:Creature Nevron
 PT:2/2
-K:Devoid
 T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Card.Self | Execute$ TrigToken | TriggerDescription$ When this creature dies, target opponent creates a Lumina token.
 SVar:TrigToken:DB$ Token | TokenAmount$ 1 | ValidTgts$ Opponent | TokenOwner$ Targeted | TokenScript$ c_a_lumina
 A:AB$ Pump | Cost$ 1 B T | ValidTgts$ Creature.OppCtrl | TgtPrompt$ Select target creature an opponent controls | NumAtt$ -1 | NumDef$ -1 | SpellDescription$ Target creature an opponent controls gets -1/-1 until end of turn.
 A:AB$ Untap | Cost$ 1 B T | ValidTgts$ Creature.YouCtrl | TgtPrompt$ Select target creature you control | SpellDescription$ Untap target creature you control.
-Oracle:Devoid (This card has no color.)\nWhen this creature dies, target opponent creates a Lumina token.\n{1}{B}, {T}: Target creature an opponent controls gets -1/-1 until end of turn.\n{1}{B}, {T}: Untap target creature you control.
+Oracle:When this creature dies, target opponent creates a Lumina token.\n{1}{B}, {T}: Target creature an opponent controls gets -1/-1 until end of turn.\n{1}{B}, {T}: Untap target creature you control.{B}, {T}: Untap target creature you control.

@@ -1,13 +1,12 @@
 # Cards
 
-> Last generated: 12/10/2025 4:02:02 PM
+> Last generated: 12/10/2025 4:16:27 PM
 
 ## Abbest
 
 ```
 G
 Creature - Nevron
-Devoid (This card has no color.)
 When this creature dies, target opponent creates a Lumina token.
 
 1/2
@@ -19,6 +18,7 @@ When this creature dies, target opponent creates a Lumina token.
 
  - Just a "vanilla" bear with stock Nevron card text.
  - 23/09/2025: Changed casting cost from 1G to G and PT from 2/2 to 1/2 to make it unique from the (now fully green) Lancelier
+ - 13/10/2025: Removed Devoid.
 
 ## Expedition 00 Tracker
 
@@ -169,7 +169,6 @@ As long as there are four or more counters on this enchantment. You may play an 
 1G
 Creature - Nevron
 First Strike.
-Devoid. (This card has no color.)
 When this creature dies, target opponent creates a Lumina token.
 
 2/2
@@ -183,6 +182,7 @@ When this creature dies, target opponent creates a Lumina token.
  - In game, Lancelier's wield a lance. So clearly this should have First Strike.
  - 23/09/2025: Now green instead of white/green. White Nevrons will be their own unique sub-race that we don't want regular Nevrons to bleed into.
  - 5/10/2025: Added missing Devoid.
+ - 13/10/2025: Removed Devoid.
 
 ## Nevron Disguise
 
@@ -237,7 +237,6 @@ Choose up to one target creature card and up to one target non-creature card in 
 G
 Creature - Nevron
 Flying.
-Devoid (This card has no color.)
 When this creature becomes the target of a spell or ability, sacrifice it.
 When this creature dies, target opponent creates a Lumina token.
 
@@ -250,4 +249,5 @@ When this creature dies, target opponent creates a Lumina token.
 
  - In the game, Volester is one of the lower-tier enemies with flying that has a weak point in its chest.
  - Like Demineur, gave this one a Skulking Ghost sac effect to emphasize its weakness to targeted attacks.
+ - 13/10/2025: Removed Devoid.
 

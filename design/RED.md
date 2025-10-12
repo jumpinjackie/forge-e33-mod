@@ -1,13 +1,12 @@
 # Cards
 
-> Last generated: 12/10/2025 4:02:02 PM
+> Last generated: 12/10/2025 4:16:27 PM
 
 ## Catapault Sakapatate
 
 ```
 1R
 Creature - Nevron
-Devoid (This card has no color.)
 When this creature dies, target opponent creates a Lumina token.
 When this creature dies, you may have this creature deal 2 damage to target creature.
 
@@ -20,6 +19,7 @@ When this creature dies, you may have this creature deal 2 damage to target crea
 
  - In the game, when you defeat a Catapault Sakapatate, it will try to do a last minute suicide move to do some damage before it goes.
  - Represented mechanically here as a simple shock-creature-on-death trigger.
+ - 13/10/2025: Removed Devoid.
 
 ## Earth Rising
 

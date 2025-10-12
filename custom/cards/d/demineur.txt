@@ -3,10 +3,9 @@ ManaCost:U
 Types:Creature Nevron
 PT:1/1
 K:Flying
-K:Devoid
 T:Mode$ BecomesTarget | ValidTarget$ Card.Self | TriggerZones$ Battlefield | Execute$ TrigSac | TriggerDescription$ When CARDNAME becomes the target of a spell or ability, sacrifice it.
 SVar:TrigSac:DB$ Sacrifice
 SVar:Targeting:Dies
 T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Card.Self | Execute$ TrigToken | TriggerDescription$ When this creature dies, target opponent creates a Lumina token.
 SVar:TrigToken:DB$ Token | TokenAmount$ 1 | ValidTgts$ Opponent | TokenOwner$ Targeted | TokenScript$ c_a_lumina
-Oracle:Flying.\nDevoid (This card has no color.)\nWhen this creature becomes the target of a spell or ability, sacrifice it.\nWhen this creature dies, target opponent creates a Lumina token.
+Oracle:Flying.\nWhen this creature becomes the target of a spell or ability, sacrifice it.\nWhen this creature dies, target opponent creates a Lumina token.ies, target opponent creates a Lumina token.

@@ -1,13 +1,12 @@
 # Cards
 
-> Last generated: 12/10/2025 4:02:02 PM
+> Last generated: 12/10/2025 4:16:27 PM
 
 ## Aberration
 
 ```
 4B
 Creature - Nevron
-Devoid (This card has no color.)
 When this creature dies, target opponent creates a Lumina token.
 
 3/3
@@ -18,6 +17,7 @@ When this creature dies, target opponent creates a Lumina token.
 ### Design Notes
 
  - Just a vanilla placeholder for now until I have figured out some suitable abilities for it
+ - 13/10/2025: Removed Devoid.
 
 ## Chapelier
 
@@ -25,7 +25,6 @@ When this creature dies, target opponent creates a Lumina token.
 2BB
 Creature - Nevron
 Flying.
-Devoid (This card has no color.)
 When this creature dies, target opponent creates a Lumina token.
 {1}{B},{T}: Create a 1/1 colorless Jar Nevron creature token.
 Exhaust on death - When this creature dies, tap target creature an opponent controls, put a stun counter on it. (If a permanent with a stun counter would become untapped, remove one from it instead.)
@@ -39,6 +38,7 @@ Exhaust on death - When this creature dies, tap target creature an opponent cont
 
  - In the game, Chapelier summons jars to attack the party if not shot down and causes party exhaustion on defeat.
  - Gave it a token generation ability and mechanically represent exhaustion with tap + stun counter.
+ - 13/10/2025: Removed Devoid.
 
 ## Clea's Chromatic Mastery
 
@@ -124,7 +124,6 @@ All non-Nevron, non-Painter creatures get -2/-2 until end of turn.
 ```
 3BB
 Creature - Nevron
-Devoid (This card has no color.)
 When this creature dies, target opponent creates a Lumina token.
 
 5/5
@@ -136,13 +135,13 @@ When this creature dies, target opponent creates a Lumina token.
 
  - In the game, Noires are high-tier Nevrons found on the Dark Shores and are an excellent source of XP farming in the late game.
  - Placeholder vanilla Nevron. Abilities TBD.
+ - 13/10/2025: Removed Devoid.
 
 ## Obscur
 
 ```
 2B
 Creature - Nevron
-Devoid (This card has no color.)
 When this creature dies, target opponent creates a Lumina token.
 {1}{B}, {T}: Target creature an opponent controls gets -1/-1 until end of turn.
 {1}{B}, {T}: Untap target creature you control.
@@ -157,13 +156,14 @@ When this creature dies, target opponent creates a Lumina token.
  - In the game, Obscur is the other half of Clair.
  - Mechanically, it's main ability is to give its allies the ability to act twice, which I've mapped to untapping creatures.
  - And to round out its abilities I've given it a generic -1/-1 affliction ability.
+ - 13/10/2025: Removed Devoid.
 
 ## Piercing Strike
 
 ```
 3B
 Instant - Gradient
-Devoid. Split Second.
+Split Second.
 This spell costs {1} less to cast if you control a painter.
 This spell costs {1} less to cast if it targets an Expeditioner.
 Destroy target creature.
@@ -174,6 +174,7 @@ Destroy target creature.
 ### Design Notes
 
  - This is meant to flavorfully and mechanically represent Painted Renoir's killing blow to Gustave.
+ - 13/10/2025: Removed Devoid.
 
 ## Renoir's Will
 

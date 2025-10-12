@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 12/10/2025 4:02:02 PM
+> Last generated: 12/10/2025 4:16:27 PM
 
 ## A Storm is Coming
 
@@ -44,7 +44,6 @@ Activated abilities of Chroma, Lumina, Nevrons and Pictos cannot be activated.
 ```
 1(R/G)(R/G)
 Creature - Nevron
-Devoid (This card has no color.)
 Flying.
 When this creature dies, target opponent creates a Lumina token.
 
@@ -57,13 +56,13 @@ When this creature dies, target opponent creates a Lumina token.
 
  - Another vanila Nevron. Flying because these things are hard to hit with melee attacks in the actual game.
  - 23/09/2025: Move color identity from white/green to red/green to make way for White Nevrons.
+ - 13/10/2025: Removed Devoid.
 
 ## Benisseur
 
 ```
-2WR
+2WG
 Creature - Nevron
-Devoid (This card has no color.)
 When this creature dies, target opponent creates a Lumina token.
 
 4/4
@@ -75,13 +74,13 @@ When this creature dies, target opponent creates a Lumina token.
 
  - Currently a placeholder vanilla Nevron. Abilities TBD.
  - 23/09/2025: TODO: Replace white with a different color if intending to stay multi-color to make way for White Nevrons.
+ - 13/10/2025: Removed Devoid and pivoted to WG instead of WR
 
 ## Braseleur
 
 ```
 1UR
 Creature - Nevron
-Devoid (This card has no color.)
 When this creature dies, target opponent creates a Lumina token.
 
 3/2
@@ -92,6 +91,7 @@ When this creature dies, target opponent creates a Lumina token.
 ### Design Notes
 
  - Currently a placeholder vanilla Nevron. Abilities TBD.
+ - 13/10/2025: Removed Devoid.
 
 ## Breaking Rules
 
@@ -116,7 +116,6 @@ If this spell was kicked, destroy that artifact or enchantment if its mana value
 1(R/G)
 Creature - Nevron
 Flying.
-Devoid (This card has no color.)
 When this creature dies, target opponent creates a Lumina token.
 
 2/1
@@ -128,6 +127,7 @@ When this creature dies, target opponent creates a Lumina token.
 
  - Another vanilla Nevron
  - 5/10/2025: Switched PT from 1/2 to 2/1 for more offensive punch.
+ - 13/10/2025: Removed Devoid.
 
 ## Chroma is Flowing
 
@@ -167,7 +167,6 @@ Enchanted permanent becomes an artifact and loses all abilities.
 ```
 2UR
 Creature - Nevron
-Devoid (This card has no color.)
 When this creature dies, target opponent creates a Lumina token.
 {R},{T}: This creature deals 2 damage to target creature.
 {U},{T}: Tap target creature. Put a stun counter on it.\nWhen this creature dies, if you control no creatures, put two 2/2 Red and Blue Danseuse Clone creature tokens into play.
@@ -184,6 +183,7 @@ When this creature dies, target opponent creates a Lumina token.
     - A creature shock ability for the fire/red ability
     - Tap and stun for the ice/blue ability
     - For the clone ability, I preserved the original triggering condition but went against making token copies as that seemed really degenerate as the cloning trigger would also pass on to the tokens.
+ - 13/10/2025: Removed Devoid.
 
 ## Esquie, Friend of Verso
 
@@ -765,7 +765,6 @@ My, what lovely feet! - Monoco has activated abilities of all Nevrons in exile w
 ```
 2UB
 Legendary Creature - Painter God
-Devoid.
 Nevron spells you cast cost {2} less to cast.
 Nevron creatures you control get +2/+2
 At the beginning of your upkeep, create a 1/1 colorless Nevron creature token.
@@ -785,6 +784,7 @@ At the beginning of your upkeep, create a 1/1 colorless Nevron creature token.
     - Ability to put out Nevron tokens automatically every upkeep
     - A Nevron tutoring ability
  - NOTE: This is not the Clea Planeswalker so Francois does not have affinity towards it. Nothing in the actual game suggests Francois has any affection towards Clea's painted counterpart.
+ - 13/10/2025: Removed Devoid.
 
 ## Rally the Expeditioners
 
@@ -810,7 +810,6 @@ Choose one -
 ```
 2WB
 Creature - Nevron
-Devoid (This card has no color.)
 When this creature dies, target opponent creates a Lumina token.
 
 1/4
@@ -821,6 +820,7 @@ When this creature dies, target opponent creates a Lumina token.
 ### Design Notes
 
  - Vanilla placeholder Nevron
+ - 13/10/2025: Removed Devoid.
 
 ## Sciel, Grieving for Many
 
@@ -900,7 +900,6 @@ Search your library for an Expeditioner card, reveal it and put it into your han
 ```
 2BR
 Sorcery - Gradient
-Devoid.
 This spell costs {2} less to cast if you control a painter.
 This spell deals 4 damage divided as you choose among any number of targets
 ```
@@ -911,6 +910,7 @@ This spell deals 4 damage divided as you choose among any number of targets
 
  - In the game, this is one of the Paintress' moves in the boss fight with her.
  - Mechanically, I based this on Pyrotechnics, but moved to Rakdos colors and with a Painter's discount.
+ - 13/10/2025: Removed Devoid.
 
 ## Whee // Whoo
 
