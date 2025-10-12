@@ -6,4 +6,4 @@ T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.S
 SVar:TrigCreateTokens:DB$ Token | TokenScript$ a_1_1_gestral | TokenOwner$ You | TokenAmount$ 2
 T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Creature.YouCtrl+Other+!token | TriggerZones$ Battlefield | Execute$ TrigChroma | TriggerDescription$ Whenever another nontoken Gestral creature you control enters, create a Chroma token.
 SVar:TrigChroma:DB$ Token | TokenScript$ c_a_chroma | TokenOwner$ You | TokenAmount$ 1
-Oracle:When Sastro enters, put 2 1/1 Gestral artifact creature tokens into play.\nWhenever another nontoken Gestral creature you control enters, create a Chroma token.
+Oracle:When Sastro enters, put two 1/1 Gestral artifact creature tokens into play.\nWhenever another nontoken Gestral creature you control enters, create a Chroma token.

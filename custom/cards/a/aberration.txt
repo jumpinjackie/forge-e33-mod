@@ -1,4 +1,4 @@
-Name:Abberation
+Name:Aberration
 ManaCost:4 B
 Types:Creature Nevron
 PT:3/3

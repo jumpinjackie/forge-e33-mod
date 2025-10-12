@@ -1,7 +1,7 @@
 Name:Esquie, Friend of Verso
 ManaCost:3 U G
 Types:Legendary Artifact Creature Mount
-PT: 6/6
+PT:6/6
 S:Mode$ Continuous | Affected$ Card.Self | AddKeyword$ Islandwalk | IsPresent$ Card.YouCtrl+namedFlorrie | Description$ CARDNAME has Islandwalk as long as you control a card named Florrie.
 S:Mode$ Continuous | Affected$ Card.Self | AddKeyword$ Flying | IsPresent$ Card.YouCtrl+namedSoarrie | Description$ CARDNAME has Flying as long as you control a card named Soarrie.
 S:Mode$ Continuous | Affected$ Card.Self | AddKeyword$ Trample | IsPresent$ Card.YouCtrl+namedDorrie | Description$ CARDNAME has Trample as long as you control a card named Dorrie.

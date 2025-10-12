@@ -9,4 +9,4 @@ SVar:TrigGommage:DB$ ChangeZoneAll | ChangeType$ Permanent.nonLand+nonLegendary+
 SVar:X:Count$CardCounters.GOMMAGE
 T:Mode$ Always | TriggerZones$ Battlefield | IsPresent$ Card.Self+counters_EQ0_GOMMAGE | Execute$ TrigSac | TriggerDescription$ When CARDNAME has no gommage counters on it, sacrifice it.
 SVar:TrigSac:DB$ Sacrifice
-Oracle:The Monolith enters with 10 gommage counters.\nAt the beginning of your upkeep, remove a gommage counter, then exile all non-land, non-legendary permanents with mana value greater than or equal to the number of gommage counters on The Monolith.\nWhen The Monolith has no gommage counters on it, sacrifice it.\n{T}: Add {C}
+Oracle:The Monolith enters with ten gommage counters.\nAt the beginning of your upkeep, remove a gommage counter, then exile all non-land, non-legendary permanents with mana value greater than or equal to the number of gommage counters on The Monolith.\nWhen The Monolith has no gommage counters on it, sacrifice it.\n{T}: Add {C}

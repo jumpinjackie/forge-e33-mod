@@ -8,4 +8,4 @@ SVar:DBChapter3:DB$ AnimateAll | ValidCards$ Food.YouCtrl+token | Abilities$ AbF
 SVar:DBFood:DB$ Token | TokenAmount$ 1 | TokenScript$ c_a_food_sac | TokenOwner$ You
 SVar:AbFoodPoison:AB$ DealDamage | Cost$ Sac<1/CARDNAME> | ValidTgts$ Creature | TgtPrompt$ Select target creature | DamageSource$ Targeted | NumDmg$ 3 | SpellDescription$ Target creature deals 3 damage to itself.
 DeckHas:Ability$Counters
-Oracle:(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)\nI — Destroy target Nevron. Create a Food token.\nII — Create 2 Food tokens.\nIII — Until end of turn, Food tokens you control gain "Sacrifice this artifact: Target creature deals 3 damage to itself"\n
+Oracle:(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)\nI — Destroy target Nevron. Create a Food token.\nII — Create 2 Food tokens.\nIII — Until end of turn, Food tokens you control gain "Sacrifice this artifact: Target creature deals 3 damage to itself"

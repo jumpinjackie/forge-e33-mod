@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 12/10/2025 3:02:39 PM
+> Last generated: 12/10/2025 4:02:02 PM
 
 ## A Storm is Coming
 
@@ -431,6 +431,8 @@ Creature - Human Expeditioner Wizard
 You may choose not to untap this creature during your untap step.
 Nevron Whisperer - {2},{T}: Gain control of target Nevron creature for as long as this creature remains tapped.
 When this creature dies, create a Chroma token.
+
+1/2
 ```
 
 [card implementation](../custom/cards/e/expedition_81_interpreter.txt)

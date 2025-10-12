@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 12/10/2025 3:02:39 PM
+> Last generated: 12/10/2025 4:02:02 PM
 
 ## Crushing Cavern
 
@@ -63,7 +63,7 @@ Legendary Land - Cave
 {T}: Add {W}{U}{B}{R}{G}. Activate this ability only if you control a card named Soarrie, a card named Florrie, a card named Dorrie and a card named Urrie.
 ```
 
-[card implementation](../custom/cards/e/esquie's_nest.txt)
+[card implementation](../custom/cards/e/esquies_nest.txt)
 
 ### Design Notes
 
@@ -234,7 +234,7 @@ Land
 {T}: Add {U} or {R}. This land doesn't untap during your next untap step
 ```
 
-[card implementation](../custom/cards/m/monoco's_station.txt)
+[card implementation](../custom/cards/m/monocos_station.txt)
 
 ### Design Notes
 

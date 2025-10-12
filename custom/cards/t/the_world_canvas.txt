@@ -1,7 +1,7 @@
 Name:The World Canvas
 ManaCost:4
 Types:Legendary Artifact
-A:AB$ Mana | Cost$ T | Produced$ Any | Amount$ 3 | RestrictValid$ Spell.Nevron,Spell.Gestral,Spell.Painter,Spell.Expeditioner,Spell.Picto | SpellDescription$ Add 3 mana of any one color. Spend this mana only to cast a Nevron, Gestral, Painter, Expeditioner or Picto spell.
+A:AB$ Mana | Cost$ T | Produced$ Any | Amount$ 3 | RestrictValid$ Spell.Nevron,Spell.Gestral,Spell.Painter,Spell.Expeditioner,Spell.Picto | SpellDescription$ Add three mana of any one color. Spend this mana only to cast a Nevron, Gestral, Painter, Expeditioner or Picto spell.
 T:Mode$ ChangesZone | ValidCard$ Card.Self | Origin$ Battlefield | Destination$ Any | Execute$ TrigNuke | TriggerDescription$ When CARDNAME leaves the battlefield, exile all permanents with a name originally printed in this expansion.
 SVar:TrigNuke:DB$ ChangeZoneAll | UseAllOriginZones$ True | Origin$ Battlefield | Destination$ Exile | ChangeType$ Permanent.setE33 | SpellDescription$ Exile all permanents with a name originally printed in this expansion.
-Oracle:{T}: Add 3 mana of any one color. Spend this mana only to cast a Nevron, Gestral, Painter, Expeditioner or Picto spell.\nWhen The World Canvas leaves the battlefield, exile all permanents with a name originally printed in this expansion.
+Oracle:{T}: Add three mana of any one color. Spend this mana only to cast a Nevron, Gestral, Painter, Expeditioner or Picto spell.\nWhen The World Canvas leaves the battlefield, exile all permanents with a name originally printed in this expansion.

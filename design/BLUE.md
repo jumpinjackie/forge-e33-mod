@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 12/10/2025 3:02:39 PM
+> Last generated: 12/10/2025 4:02:02 PM
 
 ## An Advantage!
 
@@ -248,7 +248,7 @@ This spell costs {1} less to cast if you control an Expeditioner.
 Draw three cards.
 ```
 
-[card implementation](../custom/cards/g/gustave's_ingenuity.txt)
+[card implementation](../custom/cards/g/gustaves_ingenuity.txt)
 
 ### Design Notes
 
@@ -263,7 +263,7 @@ This spell has flash as long as you control an Expeditioner.
 Look at the top five cards of your library. Put two of them into your hand and the rest on the bottom of your library in any order.
 ```
 
-[card implementation](../custom/cards/g/gustave's_insight.txt)
+[card implementation](../custom/cards/g/gustaves_insight.txt)
 
 ### Design Notes
 
@@ -292,7 +292,7 @@ Counter target spell unless its controller pays {2}.
 Create a Lumina token.
 ```
 
-[card implementation](../custom/cards/l/lune's_denial.txt)
+[card implementation](../custom/cards/l/lunes_denial.txt)
 
 ### Design Notes
 
@@ -384,7 +384,7 @@ II - Scry 3.
 III — Draw cards equal to the number of rock permanents you control.
 ```
 
-[card implementation](../custom/cards/t/the_search_for_esquie's_rocks.txt)
+[card implementation](../custom/cards/t/the_search_for_esquies_rocks.txt)
 
 ### Design Notes
 

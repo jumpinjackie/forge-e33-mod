@@ -24,7 +24,7 @@ ALTERNATE:MELD
 Maelle, The Reawakened Paintress
 [ManaCost]
 no cost
-[Colors]
+[ColorIdentity]
 white
 black
 [Types]

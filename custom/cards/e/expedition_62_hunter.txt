@@ -1,6 +1,6 @@
 Name:Expedition 62 Hunter
 ManaCost:1 B B
-Types:Creature - Human Expeditioner
+Types:Creature Human Expeditioner
 PT:2/2
 A:AB$ Pump | Cost$ 2 B T | ValidTgts$ Creature | TgtPrompt$ Select target creature | NumAtt$ -2 | NumDef$ -2 | SpellDescription$ Target creature gets -2/-2 until end of turn.
 A:AB$ Destroy | Cost$ Sac<3/Lumina> | ValidTgts$ Creature.Nevron | TgtPrompt$ Select target Nevron | SpellDescription$ Destroy target Nevron creature.

@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 12/10/2025 3:02:39 PM
+> Last generated: 12/10/2025 4:02:02 PM
 
 ## Berrami, Collector of Journals
 
@@ -326,7 +326,7 @@ Whenever a Nevron dies, put a study counter on Gustave's Journal.
 {2}, {T}, Remove X study counters from Gustave's Journal: Draw X cards.
 ```
 
-[card implementation](../custom/cards/g/gustave's_journal.txt)
+[card implementation](../custom/cards/g/gustaves_journal.txt)
 
 ### Design Notes
 

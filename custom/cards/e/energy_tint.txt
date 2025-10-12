@@ -3,4 +3,4 @@ ManaCost:2
 Types:Artifact
 A:AB$ Mana | Cost$ T | Produced$ C | SpellDescription$ Add {C}.
 A:AB$ Mana | Cost$ T | Produced$ C | Amount$ 3 | IsPresent$ Lumina.YouCtrl | PresentCompare$ GE3 | SpellDescription$ Add {C}{C}{C}. Activate this ability only if you control at least 3 Lumina tokens
-Oracle:{T}: Add {C}\n{T}: Add {C}{C}{C}. Activate this ability only if you control at least 3 Lumina tokens
+Oracle:{T}: Add {C}.\n{T}: Add {C}{C}{C}. Activate this ability only if you control at least 3 Lumina tokens.

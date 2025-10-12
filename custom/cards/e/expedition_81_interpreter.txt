@@ -1,8 +1,8 @@
 Name:Expedition 81 Interpreter
 ManaCost:2 WU
 Types:Creature Human Expeditioner Wizard
-K:You may choose not to untap CARDNAME during your untap step.
 PT:1/2
+K:You may choose not to untap CARDNAME during your untap step.
 A:AB$ GainControl | Cost$ 2 T | ValidTgts$ Creature.Nevron | TgtPrompt$ Select target Nevron creature | LoseControl$ Untap,LeavesPlay | SpellDescription$ Gain control of target Nevron creature for as long as CARDNAME remains tapped.
 T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Card.Self | Execute$ TrigToken | TriggerDescription$ When CARDNAME dies, create a Chroma token
 SVar:TrigToken:DB$ Token | TokenScript$ c_a_chroma | TokenOwner$ You | TokenAmount$ 1

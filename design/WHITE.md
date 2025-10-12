@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 12/10/2025 3:02:39 PM
+> Last generated: 12/10/2025 4:02:02 PM
 
 ## Chroma Barrier
 
@@ -176,7 +176,7 @@ Kindred Instant - Expeditioner
 Untap target creature you control. It gains hexproof until end of turn.
 ```
 
-[card implementation](../custom/cards/s/sciel's_intervention.txt)
+[card implementation](../custom/cards/s/sciels_intervention.txt)
 
 ### Design Notes
 

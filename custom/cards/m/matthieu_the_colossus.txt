@@ -6,4 +6,4 @@ K:Trample
 K:Menace
 R:Event$ Untap | ValidCard$ Card.Self | ValidStepTurnToController$ You | Layer$ CantHappen | Description$ CARDNAME doesn't untap during your untap step.
 A:AB$ Untap | Cost$ tapXType<3/Creature.YouCtrl> | SpellDescription$ Untap CARDNAME.
-Oracle:Trample. Menace.\nMatthieu does not untap during your untap step.\nTap 3 creatures you control: Untap Matthieu.
+Oracle:Trample. Menace.\nMatthieu does not untap during your untap step.\nTap three creatures you control: Untap Matthieu.

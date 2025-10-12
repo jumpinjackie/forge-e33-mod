@@ -5,4 +5,4 @@ T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ 
 SVar:TrigPutStudyCounter:DB$ PutCounter | Defined$ Self | CounterType$ STUDY
 A:AB$ Draw | Cost$ 2 T SubCounter<X/STUDY> | NumCards$ X | SpellDescription$ Draw X cards.
 SVar:X:Count$xPaid
-Oracle:Whenever a Nevron dies, put a study counter on Gustave's Journal.\n{2},{T},Remove X study counters from Gustave's Journal: Draw X cards
+Oracle:Whenever a Nevron dies, put a study counter on Gustave's Journal.\n{2}, {T}, Remove X study counters from Gustave's Journal: Draw X cards.

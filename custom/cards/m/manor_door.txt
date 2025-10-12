@@ -3,4 +3,4 @@ ManaCost:2
 Types:Artifact
 A:AB$ Mana | Cost$ T | Produced$ C | SpellDescription$ Add {C}.
 A:AB$ UnlockDoor | Cost$ 2 T | Mode$ LockOrUnlock | ValidTgts$ Room.YouCtrl | TgtPrompt$ Choose target Room you control | SorcerySpeed$ True | SpellDescription$ Lock or unlock a door of target Room you control. Activate only as a sorcery.
-Oracle:{T}: Add {C}.\n{2},{T}: Lock or unlock a door of target Room you control. Activate only as a sorcery.
+Oracle:{T}: Add {C}.\n{2}, {T}: Lock or unlock a door of target Room you control. Activate only as a sorcery.

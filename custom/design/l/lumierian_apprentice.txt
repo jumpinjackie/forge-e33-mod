@@ -14,7 +14,6 @@ Whenever another non-Expeditioner creature enters, investigate. $INVESTIGATE_REM
 [FlavorText]
 He eagerly absorbs the knowledge given to him, for he knows when his time comes, it will be a valuable resource.
 [ForgeScript]
-Types:Creature Human Citizen
 T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Creature.Other+nonExpeditioner | TriggerZones$ Battlefield | Execute$ TrigInvestigate | TriggerDescription$ Whenever another non-Expeditioner creature enters, investigate.
 SVar:TrigInvestigate:DB$ Investigate
 [DesignNotes]

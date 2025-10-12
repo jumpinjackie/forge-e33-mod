@@ -8,6 +8,8 @@ Sorcery
 [Oracle]
 Return all Expeditioner permanent cards from your graveyard to the battlefield.
 [ForgeScript]
+K:Fuse
+AlternateMode:Split
 A:SP$ ChangeZoneAll | ChangeType$ Expeditioner.YouOwn | Origin$ Graveyard | Destination$ Battlefield | SpellDescription$ Return all Expeditioner permanent cards from your graveyard to the battlefield
 ALTERNATE:FUSE
 [Name]

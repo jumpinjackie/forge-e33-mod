@@ -5,4 +5,4 @@ R:Event$ Moved | ValidCard$ Card.Self | Destination$ Battlefield | ReplacementRe
 SVar:ETBTapped:DB$ Tap | Defined$ Self | ETB$ True
 A:AB$ Mana | Cost$ T | Produced$ U | SpellDescription$ Add {U}.
 A:AB$ Animate | Cost$ U T | ValidTgts$ Creature.YouCtrl | TgtPrompt$ Select target creature you control | Keywords$ Flying | SpellDescription$ Target creature you control gains flying until end of turn.
-Oracle:This land enters tapped\n{T}: Add {U}.\n{U},{T}: Target creature you control gains flying until end of turn.
+Oracle:This land enters tapped\n{T}: Add {U}.\n{U}, {T}: Target creature you control gains flying until end of turn.

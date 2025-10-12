@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 12/10/2025 3:02:39 PM
+> Last generated: 12/10/2025 4:02:02 PM
 
 ## Aberration
 
@@ -48,7 +48,7 @@ Sorcery
 Search your library for a Nevron card, reveal it, put it into your hand, then shuffle.
 ```
 
-[card implementation](../custom/cards/c/clea's_chromatic_mastery.txt)
+[card implementation](../custom/cards/c/cleas_chromatic_mastery.txt)
 
 ### Design Notes
 
@@ -82,7 +82,7 @@ Target creature gets -2/-2 until end of turn.
 Foretell {0} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)
 ```
 
-[card implementation](../custom/cards/h/here's_your_card.txt)
+[card implementation](../custom/cards/h/heres_your_card.txt)
 
 ### Design Notes
 
@@ -97,7 +97,7 @@ Sorcery - Gradient
 Target opponent reveals their hand. You choose either an Expeditioner card or a noncreature, nonland card from it. That player discards that card.
 ```
 
-[card implementation](../custom/cards/m/maelle's_nightmare.txt)
+[card implementation](../custom/cards/m/maelles_nightmare.txt)
 
 ### Design Notes
 
@@ -184,7 +184,7 @@ Until end of turn, you may play lands and cast Nevron or Gradient spells from yo
 If a card would be put into your graveyard from anywhere this turn, exile that card instead.
 ```
 
-[card implementation](../custom/cards/r/renoir's_will.txt)
+[card implementation](../custom/cards/r/renoirs_will.txt)
 
 ### Design Notes
 

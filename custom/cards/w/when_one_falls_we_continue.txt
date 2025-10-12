@@ -2,8 +2,8 @@ Name:When One Falls
 ManaCost:4 W
 Types:Sorcery
 K:Fuse
-A:SP$ ChangeZoneAll | ChangeType$ Expeditioner.YouOwn | Origin$ Graveyard | Destination$ Battlefield | SpellDescription$ Return all Expeditioner permanent cards from your graveyard to the battlefield
 AlternateMode:Split
+A:SP$ ChangeZoneAll | ChangeType$ Expeditioner.YouOwn | Origin$ Graveyard | Destination$ Battlefield | SpellDescription$ Return all Expeditioner permanent cards from your graveyard to the battlefield
 Oracle:Return all Expeditioner permanent cards from your graveyard to the battlefield.\nFuse (You may cast one or both halves of this card from your hand.)
 
 ALTERNATE

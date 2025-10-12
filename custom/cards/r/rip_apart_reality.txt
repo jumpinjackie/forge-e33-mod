@@ -4,4 +4,4 @@ Types:Instant Gradient
 K:Devoid
 S:Mode$ ReduceCost | ValidCard$ Card.Self | Type$ Spell | Amount$ 2 | EffectZone$ All | IsPresent$ Painter.YouCtrl | Description$ This spell costs {2} less to cast if you control a painter.
 A:SP$ ChangeZone | ValidTgts$ Permanent | TgtPrompt$ Select target permanent | AlternativeDecider$ TargetedOwner | Origin$ Battlefield | Destination$ Library | DestinationAlternative$ Library | LibraryPositionAlternative$ -1 | StackDescription$ {p:TargetedOwner} puts {c:Targeted} on the top or bottom of their library. | SpellDescription$ The owner of target permanent puts it on the top or bottom of their library.
-Oracle:Devoid\nThis spell costs {2} less to cast if you control a painter.\nThe owner of target permanent puts it on the top or bottom of their library.
+Oracle:Devoid.\nThis spell costs {2} less to cast if you control a painter.\nThe owner of target permanent puts it on the top or bottom of their library.

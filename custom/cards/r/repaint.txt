@@ -2,4 +2,4 @@ Name:Repaint
 ManaCost:1 W
 Types:Sorcery
 A:SP$ ChangeZone | Cost$ 1 W Sac<3/Chroma.token/chroma token(s)> | Origin$ Exile | Destination$ Hand | TgtPrompt$ Select target card in exile | ValidTgts$ Card.YouCtrl | SpellDescription$ Return target card from exile to your hand.
-Oracle:As an additional cost to cast this spell, sacrifice 3 Chroma tokens. Return target card from exile to your hand.
+Oracle:As an additional cost to cast this spell, sacrifice three Chroma tokens.\nReturn target card you own from exile to your hand.

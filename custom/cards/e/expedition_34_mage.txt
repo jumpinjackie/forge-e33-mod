@@ -1,6 +1,6 @@
 Name:Expedition 34 Mage
-Types:Creature Human Expeditioner Wizard
 ManaCost:W U R
+Types:Creature Human Expeditioner Wizard
 PT:2/2
 A:AB$ Tap | Cost$ 2 W | ValidTgts$ Creature | TgtPrompt$ Select target creature | SpellDescription$ Tap target creature.
 A:AB$ PutCounter | Cost$ 2 U | ValidTgts$ Creature | CounterType$ Stun | CounterNum$ 1 | SpellDescription$ Put a stun counter on target creature.

@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 12/10/2025 3:02:39 PM
+> Last generated: 12/10/2025 4:02:02 PM
 
 ## Catapault Sakapatate
 
@@ -60,7 +60,7 @@ Kindred Instant - Expeditioner
 Target creature gains double strike until end of turn. (It deals both first-strike and regular combat damage.)
 ```
 
-[card implementation](../custom/cards/f/fortune's_fury.txt)
+[card implementation](../custom/cards/f/fortunes_fury.txt)
 
 ### Design Notes
 
