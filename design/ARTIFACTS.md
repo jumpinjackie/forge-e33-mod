@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 12/10/2025 4:23:00 PM
+> Last generated: 12/10/2025 4:32:14 PM
 
 ## Berrami, Collector of Journals
 

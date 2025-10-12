@@ -8,7 +8,8 @@ Land
 {T}: Add {C}.
 {1},{R/G},{T}: Target Gestral creature you control fights another target creature
 [FlavorText]
-The tournament's starting soon. Please wait. - Gestral Warrior
+The tournament's starting soon. Please wait.
+- Gestral Warrior
 [ForgeScript]
 A:AB$ Mana | Cost$ T | Produced$ C | SpellDescription$ Add {C}.
 A:AB$ Pump | Cost$ 1 R/G T | ValidTgts$ Creature.Gestral+YouCtrl | TgtPrompt$ Choose target Gestral creature you control | SubAbility$ ArenaFight | StackDescription$ None | SpellDescription$ Target Gestral creature you control fights another target creature. (Each deals damage equal to its power to the other.)

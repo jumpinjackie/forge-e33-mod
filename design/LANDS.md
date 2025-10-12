@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 12/10/2025 4:23:00 PM
+> Last generated: 12/10/2025 4:32:14 PM
 
 ## Crushing Cavern
 
@@ -146,7 +146,8 @@ Land
 {T}: Add {C}.
 {1},{R/G},{T}: Target Gestral creature you control fights another target creature
 ---
-The tournament's starting soon. Please wait. - Gestral Warrior
+The tournament's starting soon. Please wait.
+- Gestral Warrior
 ```
 
 [card implementation](../custom/cards/g/gestral_arena.txt)
@@ -312,6 +313,8 @@ When The Monolith has no gommage counters on it, sacrifice it.
 
 Land
 You may have this land enter tapped as a copy of any land on the battlefield, except it has "At the beginning of your upkeep, you may have this land become a copy of target land, and it has this ability."
+---
+It bears the twisted memories of lands previously visited.
 ```
 
 [card implementation](../custom/cards/t/the_monolith_interior.txt)

@@ -6,6 +6,8 @@ no cost
 Land
 [Oracle]
 You may have this land enter tapped as a copy of any land on the battlefield, except it has "At the beginning of your upkeep, you may have this land become a copy of target land, and it has this ability."
+[FlavorText]
+It bears the twisted memories of lands previously visited.
 [ForgeScript]
 # Carbon-copy of Vesuvan Doppelganger except it targets lands and removes color preservation and ETB tapped
 # Make Svars for granting abilities and triggers on clones distinct to avoid SVars getting overwritten when cloning a clone
