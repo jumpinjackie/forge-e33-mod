@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 12/10/2025 4:32:14 PM
+> Last generated: 12/10/2025 5:01:06 PM
 
 ## A Storm is Coming
 
@@ -550,6 +550,7 @@ This spell costs {1} less to cast if you control a painter.
 Exile all nonland permanents that aren't legendary or Nevrons.
 ---
 Your mother paints life. Whilst your father, death. What will you paint?
+- Alicia
 ```
 
 [card implementation](../custom/cards/g/gommage.txt)

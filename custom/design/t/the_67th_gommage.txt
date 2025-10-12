@@ -11,8 +11,8 @@ Sorcery
 (You may cast a legendary sorcery only if you control a legendary creature or planeswalker.)
 Each player with 33 or more life loses the game.
 [FlavorText]
-I'm here.
-I know. I know.
+Gustave: I'm here.
+Sophie: I know. I know.
 [ForgeScript]
 A:SP$ LosesGame | Defined$ Player.lifeGE33 | SpellDescription$ Each player with 33 or more life loses the game.
 [DesignNotes]

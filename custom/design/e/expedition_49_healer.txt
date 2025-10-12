@@ -14,6 +14,9 @@ Cleric
 Whenever you create a Chroma or Lumina token, you gain 1 life.
 {2},{T}: Prevent the next X damage that would be dealt to any target this turn, where X is the number of Chroma and Lumina tokens you control.
 When this creature dies, create a Chroma token.
+[FlavorText]
+For our allies who come after, sadly our lives may have proven that defense is both absolutely necessary and wholly insufficient.
+- Christophe, Expedition 49
 [ForgeScript]
 T:Mode$ TokenCreated | ValidPlayer$ You | ValidToken$ Chroma,Lumina | Execute$ TrigGainLife | TriggerZones$ Battlefield | TriggerDescription$ Whenever you create a Chroma or Lumina token, you gain 1 life.
 SVar:TrigGainLife:DB$ GainLife | Defined$ You | LifeAmount$ 1

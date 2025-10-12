@@ -16,6 +16,10 @@ Each nonland card in your hand without foretell has foretell. Its foretell cost 
 Twilight Slash - {W}{B},{T}: Sciel deals 2 damage to target creature, you gain 2 life.
 Intervention - {W}{W},{T}: Untap target creature. Create a Chroma token.
 Our Sacrifice - {1}{B}{B}, {T}, Pay X life: Creatures target opponent controls get -X/-X until end of turn.
+[AbilityWords]
+Twilight Slash
+Intervention
+Our Sacrifice
 [FlavorText]
 Death is a friend who will welcome me home
 [ForgeScript]

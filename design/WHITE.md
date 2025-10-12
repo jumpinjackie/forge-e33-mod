@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 12/10/2025 4:32:14 PM
+> Last generated: 12/10/2025 5:01:06 PM
 
 ## Chroma Barrier
 
@@ -92,6 +92,9 @@ Creature - Human Expeditioner Cleric
 Whenever you create a Chroma or Lumina token, you gain 1 life.
 {2},{T}: Prevent the next X damage that would be dealt to any target this turn, where X is the number of Chroma and Lumina tokens you control.
 When this creature dies, create a Chroma token.
+---
+For our allies who come after, sadly our lives may have proven that defense is both absolutely necessary and wholly insufficient.
+- Christophe, Expedition 49
 
 2/2
 ```
@@ -111,7 +114,7 @@ Creature - Human Expeditioner
 When this creature enters, you may search your library for an Expeditioner card, reveal it, put it into your hand, then shuffle.
 When this creature dies, create a Chroma token.
 ---
-Your time left is limited, why not make it count for something?
+Your time left in this life is limited, why not make it count for something?
 
 1/1
 ```
@@ -210,7 +213,7 @@ Legendary Sorcery
 Destroy all non-basic lands.
 Search your library for a card named The Monolith, put it onto the battlefield and shuffle.
 ---
-The city of Lumiere was uprooted and flung into the ocean. Soon after, The Monolith appeared, bearing the number “100“. Nobody knew what this number meant.
+The city of Lumiere was uprooted and flung into the ocean. Soon after, The Monolith appeared, bearing the number “100“. Nobody at the time knew what this number meant.
 ```
 
 [card implementation](../custom/cards/t/the_fracture.txt)

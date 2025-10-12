@@ -9,6 +9,9 @@ Gradient
 [Oracle]
 Until end of turn, you may play lands and cast Nevron or Gradient spells from your graveyard.
 If a card would be put into your graveyard from anywhere this turn, exile that card instead.
+[FlavorText]
+I know it seems absurd to offer oblivion as recompense, but perhaps that's the outcome we both desire.
+- Renoir
 [ForgeScript]
 A:SP$ Effect | ReplacementEffects$ GraveToExile | StaticAbilities$ STPlay | AILogic$ YawgmothsWill | AINoRecursiveCheck$ True | SpellDescription$ Until end of turn, you may play lands and cast Nevron or Gradient spells from your graveyard.\nIf a card would be put into your graveyard from anywhere this turn, exile that card instead.
 SVar:STPlay:Mode$ Continuous | Affected$ Land.YouCtrl,Nevron.YouCtrl,Gradient.YouCtrl | AffectedZone$ Graveyard | MayPlay$ True | Description$ You may play lands and cast Nevron or Gradient spells from your graveyard.

@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 12/10/2025 4:32:14 PM
+> Last generated: 12/10/2025 5:01:06 PM
 
 ## Berrami, Collector of Journals
 
@@ -543,6 +543,10 @@ Whenever another nontoken Gestral creature you control enters, create a Chroma t
 Legendary Artifact - Rock
 {T}: Target creature you control gains flying until end of turn.
 {1}, Sacrifice Soarrie: Draw a card.
+---
+Esquie: Why'd you hide Soarrie from me?
+Verso: Oh, I didn't... I... I was afraid the others would want to return to Lumiere if you could fly them back.
+Esquie: That's mean. Sometimes you're really mean. Mmm. But being mean is not necessarily a mean thing.
 ```
 
 [card implementation](../custom/cards/s/soarrie.txt)
@@ -581,6 +585,9 @@ Clea: Well-reasoned. And such a... clever hiding spot you've chosen.
 Legendary Artifact - Rock
 {1}, {T}: Surveil 2.
 {1},Sacrifice Urrie: Draw a card.
+---
+FINE, FINE, FINE, Here. Pah! Take your rock and SCRAM!
+- Francois
 ```
 
 [card implementation](../custom/cards/u/urrie.txt)

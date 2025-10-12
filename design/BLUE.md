@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 12/10/2025 4:32:14 PM
+> Last generated: 12/10/2025 5:01:06 PM
 
 ## An Advantage!
 
@@ -152,6 +152,9 @@ Creature - Human Expeditioner
 Flying.
 This creature can block only creatures with flying.
 When this creature dies, create a Chroma token.
+---
+They were on a clean glide to the Monolith when they flew into the some sort of barrier and just ... gommaged away.
+- Avril, Expedition 40
 
 3/1
 ```

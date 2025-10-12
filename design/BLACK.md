@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 12/10/2025 4:32:14 PM
+> Last generated: 12/10/2025 5:01:06 PM
 
 ## Aberration
 
@@ -192,6 +192,9 @@ Destroy target creature.
 Sorcery - Gradient
 Until end of turn, you may play lands and cast Nevron or Gradient spells from your graveyard.
 If a card would be put into your graveyard from anywhere this turn, exile that card instead.
+---
+I know it seems absurd to offer oblivion as recompense, but perhaps that's the outcome we both desire.
+- Renoir
 ```
 
 [card implementation](../custom/cards/r/renoirs_will.txt)
@@ -209,8 +212,8 @@ Legendary Sorcery
 (You may cast a legendary sorcery only if you control a legendary creature or planeswalker.)
 Each player with 33 or more life loses the game.
 ---
-I'm here.
-I know. I know.
+Gustave: I'm here.
+Sophie: I know. I know.
 ```
 
 [card implementation](../custom/cards/t/the_67th_gommage.txt)
