@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 12/10/2025 4:20:14 PM
+> Last generated: 12/10/2025 4:23:00 PM
 
 ## Crushing Cavern
 

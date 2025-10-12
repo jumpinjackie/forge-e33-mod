@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 12/10/2025 4:20:14 PM
+> Last generated: 12/10/2025 4:23:00 PM
 
 ## Berrami, Collector of Journals
 
@@ -301,7 +301,7 @@ Expeditioners, eh? You're a fun looking bunch. Unless you try to cause problems.
 2/1
 ```
 
-> This card is not yet implemented in Forge
+[card implementation](../custom/cards/g/gestral_villager.txt)
 
 ### Design Notes
 
