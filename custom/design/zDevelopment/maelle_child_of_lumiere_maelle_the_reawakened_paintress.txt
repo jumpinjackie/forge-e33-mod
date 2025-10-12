@@ -50,13 +50,13 @@ A:AB$ ChangeZoneAll | Cost$ SubCounter<-8/LOYALTY> | Planeswalker$ True | Change
 [DesignNotes]
  - In the game, Maelle is Alicia painted over and reborn when she enters the canvas. After the ending of Act 2, Maelle is gommaged and returns with the memories of Alicia coming back and her paintress origins and powers re-discovered.
  - Mechanically, it's no-brainer we have to represent (Act 3) Maelle as a planeswalker and that we use the Meld mechanic to combine Alicia and (pre-Act 3) Maelle into this planeswalker.
-     - Human Maelle's abilities TBD. I've mainly been focusing on nailing down the meld interaction first. Having limited success so far, thus this card currently does not work. I have been using The Mightstone and Weakstone + Urza, Lord Protector as the initial template.
-     - If I can get the meld interaction to finally work and if Forge's rule engine will allow for it, I'd like to try to get the meld to trigger off of Maelle being exiled (for maximum flavor). If this is not feasible, then we'll stick with the existing activation cost.
+    - Human Maelle's abilities TBD. I've mainly been focusing on nailing down the meld interaction first. Having limited success so far, thus this card currently does not work. I have been using The Mightstone and Weakstone + Urza, Lord Protector as the initial template.
+    - If I can get the meld interaction to finally work and if Forge's rule engine will allow for it, I'd like to try to get the meld to trigger off of Maelle being exiled (for maximum flavor). If this is not feasible, then we'll stick with the existing activation cost.
  - 23/09/2025: I give up trying to get meld to work. Human Maelle will remain a standalone card. Abilities TBD.
  - 6/10/2025: Gave meld another try. I finally got it to work! Human Maelle's regular abilities still TBD.
  - Planeswalker Maelle's abilities for the most part map to her in-game abilities:
-     - +2: She now has greater mastery of Chroma in the canvas
-     - +1: She now has the power of reanimating dead expeditioners to fight for her
-     - 0: Same theme of reanimating/rallying dead expeditioners to her cause
-     - -3: She now has the power to erase enemies from the canvas
-     - -8: Same theme of reanimating/rallying dead expeditioners to her cause
+    - +2: She now has greater mastery of Chroma in the canvas
+    - +1: She now has the power of reanimating dead expeditioners to fight for her
+    - 0: Same theme of reanimating/rallying dead expeditioners to her cause
+    - -3: She now has the power to erase enemies from the canvas
+    - -8: Same theme of reanimating/rallying dead expeditioners to her cause

@@ -15,4 +15,4 @@ A:AB$ Draw | Cost$ 1 Sac<1/CARDNAME> | NumCards$ 1 | SpellDescription$ Draw a ca
 [DesignNotes]
  - In the game Urrie is a quest item which will grant Esquie the ability to dive when swimming in the Continent overworld
  - In this set, Urrie is 1 of 4 legendary "Rock" artifacts which will grant benefits to other cards if this or other members of the quartet are in play, just like Urza's Tower, Mine and Power Plant become more powerful when all of them are in play, I am trying to go for a similar outcome with this quartet.
- - Mechanically, my line of thought is diving > digging > Surveiling.
+    - Mechanically, my line of thought is diving > digging > Surveiling.

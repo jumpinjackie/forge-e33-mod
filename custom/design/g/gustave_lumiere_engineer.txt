@@ -13,7 +13,6 @@ Expeditioner
 3/3
 [Oracle]
 Whenever Gustave becomes untapped, attacks or blocks, put a charge counter on him.
-Marking Shot - {R},{T}: Gustave deals 1 damage to target creature. Put a marked counter on it.
 From Fire - {W}{R},{T}: Gustave deals 3 damage to target creature, you gain 3 life.
 Strike Storm - {W}{R}: Gustave gains double-strike until ene of turn, put two charge counters on him. Activate only once per turn.
 Overcharge - {T}, Remove X charge counters from Gustave: Gustave deals X damage to target creature and that creature's controller.
@@ -26,13 +25,11 @@ Overcharge
 T:Mode$ Attacks | ValidCard$ Card.Self | TriggerZones$ Battlefield | Execute$ DBCharge | TriggerDescription$ Whenever CARDNAME attacks, put a charge counter on him.
 T:Mode$ Blocks | ValidCard$ Card.Self | TriggerZones$ Battlefield | Execute$ DBCharge | TriggerDescription$ Whenever CARDNAME blocks, put a charge counter on him.
 T:Mode$ Untaps | ValidCard$ Card.Self | TriggerZones$ Battlefield | Execute$ DBCharge | TriggerDescription$ Whenever CARDNAME becomes untapped, put a charge counter on him.
-A:AB$ DealDamage | Cost$ R T | ValidTgts$ Creature | NumDmg$ 1 | SubAbility$ DBMark | SpellDescription$ CARDNAME deals 1 damage to target creature. Put a marked counter on it.
 A:AB$ DealDamage | Cost$ W R T | ValidTgts$ Creature | NumDmg$ 3 | SubAbility$ DBGainLife | SpellDescription$ CARDNAME deals 3 damage to target creature, you gain 3 life.
 A:AB$ Pump | Cost$ W R | KW$ Double Strike | SubAbility$ DBChargeTwice | ActivationLimit$ 1 | SpellDescription$ CARDNAME gains double-strike until ene of turn, put two charge counters on him. Activate this ability only once per turn.
 A:AB$ DealDamage | Cost$ T SubCounter<X/CHARGE> | ValidTgts$ Creature | NumDmg$ X | SubAbility$ DBDamageController | SpellDescription$ CARDNAME deals X damage to target creature and that creature's controller.
 SVar:DBCharge:DB$ PutCounter | Defined$ Self | CounterType$ CHARGE | CounterNum$ 1
 SVar:DBChargeTwice:DB$ PutCounter | Defined$ Self | CounterType$ CHARGE | CounterNum$ 2
-SVar:DBMark:DB$ PutCounter | Defined$ Targeted | CounterType$ MARKED | CounterNum$ 1
 SVar:DBGainLife:DB$ GainLife | LifeAmount$ 3
 SVar:DBDamageController:DB$ DealDamage | Defined$ TargetedController | NumDmg$ X
 SVar:X:Count$xPaid
@@ -43,3 +40,4 @@ SVar:X:Count$xPaid
  - Strike storm in the game is just a flurry of strikes. Translated this to temporary double strike.
  - Finally, overcharge (the ability we're all building towards) in the game deals high lightning damage based on the number of charges. Translated this to an X damage ability to a creature and its controller (where X is the number of charge counters removed).
  - 23/09/2025: It may look a bit odd to have blue color identity but no actual abilities that cost blue mana. I added the blue color identity strictly for flavor purposes because he's an engineer and engineers are almost always a blue color identity.
+ - 13/10/2025: Dropped the marking shot ability due to text box budget constraints having seen this card for the first time in CardConjurer.

@@ -3,7 +3,8 @@ Endless Tower
 [ManaCost]
 no cost
 [Types]
-Legendary Land
+Legendary
+Land
 [Oracle]
 At the beginning of your upkeep, you may put a challenge counter on Endless Tower.
 {T}: Add {C}

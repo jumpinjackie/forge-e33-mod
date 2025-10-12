@@ -26,6 +26,6 @@ SVar:TrigClone:DB$ Token | TokenAmount$ 2 | TokenScript$ ur_2_2_danseuse_clone |
 [DesignNotes]
  - In the game, a Danseuse attacks with fire and ice magic. If it is the only enemy left in battle, it can summon up to 2 clones.
  - Mechanically I went with:
-     - A creature shock ability for the fire/red ability
-     - Tap and stun for the ice/blue ability
-     - For the clone ability, I preserved the original triggering condition but went against making token copies as that seemed really degenerate as the cloning trigger would also pass on to the tokens.
+    - A creature shock ability for the fire/red ability
+    - Tap and stun for the ice/blue ability
+    - For the clone ability, I preserved the original triggering condition but went against making token copies as that seemed really degenerate as the cloning trigger would also pass on to the tokens.

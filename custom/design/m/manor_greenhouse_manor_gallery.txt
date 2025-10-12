@@ -2,7 +2,7 @@
 Manor Greenhouse
 [ManaCost]
 2
-G 
+G
 [Types]
 Enchantment
 Room

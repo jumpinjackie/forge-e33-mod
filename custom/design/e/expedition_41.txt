@@ -5,7 +5,8 @@ Expedition 41
 B
 R
 [Types]
-Enchantment Saga
+Enchantment
+Saga
 [Oracle]
 (As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
 I, II - Destroy target Nevron.

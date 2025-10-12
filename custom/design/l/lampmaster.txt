@@ -26,6 +26,6 @@ SVar:DBBlight:DB$ AnimateAll | ValidCards$ Creature.IsRemembered | Toughness$ 1
 [DesignNotes]
  - In the game, this is the final boss of Act 1.
  - Ball of Light: In the game The Lampmaster gathers light energy in a sphere and then releases it as a horizontal wave, inflicting Silence upon contact.
-     - Translated to an effect that taps multiple creatures and giving them temporarily humility.
+    - Translated to an effect that taps multiple creatures and giving them temporarily humility.
  - Sword of Light: In the game, The Lampmaster creates a large blade from light and swings it four times, dealing massive damage to the whole party and inflicting Blight.
-     - Translated to a Fact or Fiction style "split into 2 piles" effect where opponent choose the pile to be destroyed and the other pile will all have toughness of 1 until end of turn (which is how I interpret the blight effect).
+    - Translated to a Fact or Fiction style "split into 2 piles" effect where opponent choose the pile to be destroyed and the other pile will all have toughness of 1 until end of turn (which is how I interpret the blight effect).

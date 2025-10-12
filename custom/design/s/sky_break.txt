@@ -27,9 +27,9 @@ SVar:X:Count$Valid Creature/Times.2
 [DesignNotes]
  - In the game, Sky Break is a level 3 gradient attack for Lune. It deals extreme damage to all enemies in a single hit with elemental damage type determined by the most prominent Stain that Lune currently has. Can also break enemmies, stunning them.
  - Mechanically, we've gone with the tap and stun as the base effect, with extra effects based on what colors of mana (stains) you spent on the spell.
-     - Red is damage
-     - White is exile
-     - Green is life gain
+    - Red is damage
+    - White is exile
+    - Green is life gain
  - The damage or exiled is delayed as it was originally a symmetrical effect and only affected tapped creatures, giving you an opportunity to untap your creatures before the delayed effect kicks in. The delay is kept in for strategic purposes, giving the opponent an out until end of turn to try and save some of their creatures from an impending 6 damage or exile.
  - No black bonus because Lune does not have dark/black magic alignment.
  - Because this is a top tier gradient attack performed by an Expeditioner, this is one of the rare spells that has both Gradient and Expeditioner sub-types.

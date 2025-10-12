@@ -8,6 +8,7 @@ Creature
 Gestral
 [PT]
 2/1
+[Oracle]
 [FlavorText]
 Expeditioners, eh? You're a fun looking bunch. Unless you try to cause problems. Then we'll beat you up. Which will be fun for me, but not for you.
 [DesignNotes]

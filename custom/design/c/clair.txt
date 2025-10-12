@@ -22,5 +22,5 @@ A:AB$ PutCounter | Cost$ 1 W T | ValidTgts$ Creature.YouCtrl | TgtPrompt$ Select
 [DesignNotes]
  - In the game, it has abilities to shield its party and cause silence to player characters.
  - Mechanically represented here as:
-     - Granting shield counters
-     - A temporary "humility" effect to represent silencing.
+    - Granting shield counters
+    - A temporary "humility" effect to represent silencing.

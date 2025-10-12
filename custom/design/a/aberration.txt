@@ -1,10 +1,11 @@
 [Name]
-Abberation
+Aberration
 [ManaCost]
 4
 B
 [Types]
-Creature Nevron
+Creature
+Nevron
 [PT]
 3/3
 [Oracle]

@@ -3,7 +3,8 @@ Abbest
 [ManaCost]
 G
 [Types]
-Creature Nevron
+Creature
+Nevron
 [PT]
 1/2
 [Oracle]

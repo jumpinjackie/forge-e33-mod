@@ -3,7 +3,8 @@ The World Canvas
 [ManaCost]
 4
 [Types]
-Legendary Artifact
+Legendary
+Artifact
 [Oracle]
 {T}: Add three mana of any one color. Spend this mana only to cast a Nevron, Gestral, Painter, Expeditioner or Picto spell.
 When The World Canvas leaves the battlefield, exile all permanents with a name originally printed in this expansion.
@@ -17,5 +18,5 @@ SVar:TrigNuke:DB$ ChangeZoneAll | UseAllOriginZones$ True | Origin$ Battlefield 
 [DesignNotes]
  - In the game, the continent is discovered to be inside a living canvas. The final part of the game is about deciding the fate of this canvas.
  - Mechanically:
-     - The "black lotus" mana ability has spending restrictions to keep in flavor. You can only spend this mana on things that actually live in this canvas.
-     - The destruction of this canvas signals the erasure of everything inside it. Mass exiling everything by expansion filter nicely symbolizes the finality of such an act.
+    - The "black lotus" mana ability has spending restrictions to keep in flavor. You can only spend this mana on things that actually live in this canvas.
+    - The destruction of this canvas signals the erasure of everything inside it. Mass exiling everything by expansion filter nicely symbolizes the finality of such an act.

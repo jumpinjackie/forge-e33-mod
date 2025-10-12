@@ -25,6 +25,6 @@ SVar:DBFly:DB$ Pump | Defined $Targeted | KW$ Flying
 [DesignNotes]
  - In the game, Julien is a boxing-style fighter in the Hidden Gestral Arena
  - Julien has several moves which we've mechanically translated:
-     - Combo Jab: Easy. A flurry of strikes. Ergo. Double Strike
-     - Uppercut: Julien's punches are so strong that an uppercut would launch his opponent into the air (in my mind). Hence, the momentary flying after being dealt 2 damage (if it survives that punch!)
-     - Haymaker: Interpreted as a really heavy punch and trample is a suitable way to convey such heaviness
+    - Combo Jab: Easy. A flurry of strikes. Ergo. Double Strike
+    - Uppercut: Julien's punches are so strong that an uppercut would launch his opponent into the air (in my mind). Hence, the momentary flying after being dealt 2 damage (if it survives that punch!)
+    - Haymaker: Interpreted as a really heavy punch and trample is a suitable way to convey such heaviness

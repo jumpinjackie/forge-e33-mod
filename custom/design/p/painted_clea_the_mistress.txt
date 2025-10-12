@@ -27,8 +27,8 @@ DeckHints:Type$Nevron
 [DesignNotes]
  - In the game, Painted Clea was painted by Aline, but was then repainted over by the real Clea and re-purposed to be what amounts to an endless "Nevron factory"
  - Mechanically, Painted Clea is our Nevorn lord, so I've gone with an assortment of "build around" abilities.
-     - Nevron cost reduction
-     - Nevron P/T buffs
-     - Ability to put out Nevron tokens automatically every upkeep
-     - A Nevron tutoring ability
+    - Nevron cost reduction
+    - Nevron P/T buffs
+    - Ability to put out Nevron tokens automatically every upkeep
+    - A Nevron tutoring ability
  - NOTE: This is not the Clea Planeswalker so Francois does not have affinity towards it. Nothing in the actual game suggests Francois has any affection towards Clea's painted counterpart.

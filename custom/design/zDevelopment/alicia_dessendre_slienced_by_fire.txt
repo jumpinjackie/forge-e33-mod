@@ -21,5 +21,5 @@ AlternateMode:Meld
 [DesignNotes]
  - Gone with a targeted (Null Rod / Cursed Totem) effect to mechanically emphasize the "silence"
  - The real gimmick is melding with Maelle, Child of Lumiere. Meld is 100% the mechanic to sell the transformation
-     - 23/09/2025: Getting meld to work has been nothing but failure. I give up. Alicia will now be standalone.
+    - 23/09/2025: Getting meld to work has been nothing but failure. I give up. Alicia will now be standalone.
  - 6/10/2025: Meld is back on the menu! Got it to work finally! Also extended null rod effect to Chroma and Lumina tokens.

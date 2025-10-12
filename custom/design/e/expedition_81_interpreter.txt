@@ -4,7 +4,10 @@ Expedition 81 Interpreter
 2
 WU
 [Types]
-Creature Human Expeditioner Wizard
+Creature
+Human
+Expeditioner
+Wizard
 [Oracle]
 You may choose not to untap this creature during your untap step.
 Nevron Whisperer - {2},{T}: Gain control of target Nevron creature for as long as this creature remains tapped.

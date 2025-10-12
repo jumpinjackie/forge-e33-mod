@@ -3,7 +3,8 @@ Volester
 [ManaCost]
 G
 [Types]
-Creature Nevron
+Creature
+Nevron
 [PT]
 2/1
 [Oracle]
