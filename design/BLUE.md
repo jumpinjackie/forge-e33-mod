@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 12/10/2025 4:16:27 PM
+> Last generated: 12/10/2025 4:20:14 PM
 
 ## An Advantage!
 
@@ -191,6 +191,8 @@ Legendary Artifact Creature - Turtle
 Affinity for Clea Planeswalkers.
 Defender.
 The strongest ice attack ever - At the beginning of your upkeep, Francois deals 4 damage to target creature an opponent controls. Tap that creature and put a stun counter on it.
+---
+Who dares enter my lair?!
 
 1/6
 ```
@@ -213,6 +215,8 @@ U
 Enchantment
 Whenever a creature you control with flying enters or a creature you control with flying attacks, you may put a quest counter on this enchantment.
 Remove four quest counters from this enchantment and sacrifice it: Draw three cards.
+---
+Oh really? An Expedition? I certainly wasn't expecting that. But your presence here is proof that you climbed the tower, like all of us here. You can live here with us now, forever.
 ```
 
 [card implementation](../custom/cards/g/gestral_ascension_challenge.txt)
@@ -230,6 +234,8 @@ Remove four quest counters from this enchantment and sacrifice it: Draw three ca
 U
 Kindred Instant - Expeditioner
 Counter target Gradient spell
+---
+Parry it!
 ```
 
 [card implementation](../custom/cards/g/gradient_counter.txt)
@@ -246,6 +252,9 @@ Counter target Gradient spell
 Kindred Instant - Expeditioner
 This spell costs {1} less to cast if you control an Expeditioner.
 Draw three cards.
+---
+Maybe Gustave's idea to convert chroma from Pictos to... What did he call it? Lumina? Maybe that's not so crazy after all.
+- Corinne, Expedition 34
 ```
 
 [card implementation](../custom/cards/g/gustaves_ingenuity.txt)
@@ -261,6 +270,8 @@ Draw three cards.
 Kindred Sorcery - Expeditioner
 This spell has flash as long as you control an Expeditioner.
 Look at the top five cards of your library. Put two of them into your hand and the rest on the bottom of your library in any order.
+---
+Enjoying my uselessness of today and readying my usefulness for tomorrow.
 ```
 
 [card implementation](../custom/cards/g/gustaves_insight.txt)
@@ -290,6 +301,8 @@ Tap up to two target permanents. Put a stun counter on them.
 Kindred Instant - Expeditioner
 Counter target spell unless its controller pays {2}.
 Create a Lumina token.
+---
+Not today!
 ```
 
 [card implementation](../custom/cards/l/lunes_denial.txt)

@@ -542,6 +542,11 @@ public class CardMasterDesign(string designFile)
                         await writer.WriteLineAsync(FrontFull.FormatManaCost());
                     await writer.WriteLineAsync(FrontFull.TypeLine);
                     await writer.WriteLineAsync(FrontFull.GetOracleText());
+                    if (FrontFull.FlavorText is not null)
+                    {
+                        await writer.WriteLineAsync("---");
+                        await writer.WriteLineAsync(FrontFull.FlavorTextFull);
+                    }
                     if (FrontFull.PT is not null)
                     {
                         await writer.WriteLineAsync();

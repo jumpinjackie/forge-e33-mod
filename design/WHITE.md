@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 12/10/2025 4:16:27 PM
+> Last generated: 12/10/2025 4:20:14 PM
 
 ## Chroma Barrier
 
@@ -9,6 +9,9 @@
 Legendary Enchantment
 Creatures cannot attack you unless their controller sacrifices a Chroma token for each creature they control that's attacking you.
 {3}: Create a Chroma token. Any player may activate this ability.
+---
+This looks similar to Lumiere's shield dome. Maybe we can just cross it.
+- Lune
 ```
 
 [card implementation](../custom/cards/c/chroma_barrier.txt)
@@ -27,6 +30,9 @@ Enchantment
 If you control a Painter, you may cast this spell as though it had flash.
 When this enchantment enters, exile another target nonland permanent.
 When this enchantment leaves the battlefield, return the exiled card to the battlefield under its owner's control.
+---
+Gustave: For those who come after, right?
+Maelle: No no no no... You promised...
 ```
 
 [card implementation](../custom/cards/c/chroma_prison.txt)
@@ -104,6 +110,8 @@ When this creature dies, create a Chroma token.
 Creature - Human Expeditioner
 When this creature enters, you may search your library for an Expeditioner card, reveal it, put it into your hand, then shuffle.
 When this creature dies, create a Chroma token.
+---
+Your time left is limited, why not make it count for something?
 
 1/1
 ```
@@ -122,6 +130,8 @@ When this creature dies, create a Chroma token.
 XW
 Kindred Sorcery - Expeditioner
 Each player gains twice X life.
+---
+Please survive!
 ```
 
 [card implementation](../custom/cards/h/healing_light.txt)
@@ -138,6 +148,8 @@ Each player gains twice X life.
 1W
 Creature - Human Citizen
 Whenever another non-Expeditioner creature enters, investigate. (Create a Clue token. It's an artifact with "{2}, Sacrifice this token: Draw a card.")
+---
+He eagerly absorbs the knowledge given to him, for he knows when his time comes, it will be a valuable resource.
 
 1/3
 ```
@@ -157,6 +169,9 @@ Whenever another non-Expeditioner creature enters, investigate. (Create a Clue t
 Sorcery
 As an additional cost to cast this spell, sacrifice three Chroma tokens.
 Return target card you own from exile to your hand.
+---
+Painting isn't about verisimilitude, it's about essence. The truth of who they are.
+- Verso
 ```
 
 [card implementation](../custom/cards/r/repaint.txt)
@@ -174,6 +189,8 @@ Return target card you own from exile to your hand.
 1W
 Kindred Instant - Expeditioner
 Untap target creature you control. It gains hexproof until end of turn.
+---
+I got you covered!
 ```
 
 [card implementation](../custom/cards/s/sciels_intervention.txt)
@@ -192,6 +209,8 @@ Legendary Sorcery
 (You may cast a legendary sorcery only if you control a legendary creature or planeswalker.)
 Destroy all non-basic lands.
 Search your library for a card named The Monolith, put it onto the battlefield and shuffle.
+---
+The city of Lumiere was uprooted and flung into the ocean. Soon after, The Monolith appeared, bearing the number “100“. Nobody knew what this number meant.
 ```
 
 [card implementation](../custom/cards/t/the_fracture.txt)

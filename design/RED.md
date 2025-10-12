@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 12/10/2025 4:16:27 PM
+> Last generated: 12/10/2025 4:20:14 PM
 
 ## Catapault Sakapatate
 
@@ -43,6 +43,9 @@ This spell deals 2 damage to each creature without flying and each player.
 4R
 Instant
 You may put a creature card from your hand onto the battlefield. That creature gains haste. Sacrifice that creature at the beginning of the next end step.
+---
+This only truly ends if you destroy the canvas, and that means stopping the final sliver of Verso's soul from painting.
+- Clea
 ```
 
 [card implementation](../custom/cards/e/entering_the_canvas.txt)
@@ -90,6 +93,10 @@ This spell deals 5 damage to any target.
 XR
 Kindred Sorcery - Expeditioner
 X target Gestral creatures can't block this turn.
+---
+Sunniso: Geez, you don't need to be so rude.
+Gustave: Nononono, uh ... it's just, um ... it's the password ...
+Sunniso: Well, I don't know! Golgra never told me the password. But whatever, just go in.
 ```
 
 [card implementation](../custom/cards/g/get_out_of_my_way.txt)
@@ -120,6 +127,9 @@ This spell deals 1 damage to any target, 2 damage to another target, and 3 damag
 Creature - Human Expeditioner Soldier
 Mutiny! - Whenever an Expeditioner creature you control dies, target opponent gains control of this creature.
 When this creature dies, create a Chroma token.
+---
+It's a gutting realization, what has to be done. The mission is too important. The team is too important. We can't just throw our lives away for nothing. I hate that it came to this, but he broke our trust.
+- Vincent, Expedition 48
 
 3/3
 ```

@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 12/10/2025 4:16:27 PM
+> Last generated: 12/10/2025 4:20:14 PM
 
 ## Crushing Cavern
 
@@ -10,6 +10,9 @@ Land - Cave
 This land enters tapped.
 {T}: Add {C}.
 {1}, {T}, Sacrifice Crushing Cavern: Destroy target attacking creature without flying
+---
+If anyone finds this journal, do not enter this cave, the Nevron inside will crush you.
+- Cassandra, Expedition 45
 ```
 
 [card implementation](../custom/cards/c/crushing_cavern.txt)
@@ -27,6 +30,8 @@ Land
 As this land enters, you may reveal a Nevron card from your hand. If you don't this land enters tapped.
 {T}: Add {U} or {B}.
 {T}: Add {U}{B}. Spend this mana only to cast Nevron spells or activate abilities of Nevrons. This land doesn't untap during your next untap step.
+---
+The starting point of Expedition 33, the ending point for most of them.
 ```
 
 [card implementation](../custom/cards/d/dark_shores.txt)
@@ -44,6 +49,9 @@ Legendary Land
 At the beginning of your upkeep, you may put a challenge counter on Endless Tower.
 {T}: Add {C}
 {T}, Remove X challenge counters from Endless Tower: You may put a Nevron creature card with mana value X from your hand onto the battlefield.
+---
+It's not selfish to make your own choices, sister.
+- Fading Woman
 ```
 
 [card implementation](../custom/cards/e/endless_tower.txt)
@@ -61,6 +69,9 @@ At the beginning of your upkeep, you may put a challenge counter on Endless Towe
 Legendary Land - Cave
 {T}: Add one mana of any type that a land you control could produce.
 {T}: Add {W}{U}{B}{R}{G}. Activate this ability only if you control a card named Soarrie, a card named Florrie, a card named Dorrie and a card named Urrie.
+---
+WOOOOOOOOOOOH! Bonjour, mes amis!
+- Esquie
 ```
 
 [card implementation](../custom/cards/e/esquies_nest.txt)
@@ -79,6 +90,9 @@ Land
 This land enters tapped.
 {T}: Add {C}.
 {1}{R}, {T}, Sacrifice this land: Search your library for a card and put it into your hand. Discard a card at random. Activate only as a sorcery.
+---
+I maintain this place even after its fall so its history is never forgotten.
+- Unknown Gestral
 ```
 
 [card implementation](../custom/cards/f/flying_casino.txt)
@@ -112,6 +126,9 @@ This land enters tapped
 Legendary Land
 {T}: Add {C}.
 {1}{B}, {T}: Put target Nevron card from your graveyard on top of your library.
+---
+These siege engines seemed much more powerful in Lumiere. But on this battlefield, next to all these broken bodies, staring at the true size of the monolith, I feel despair.
+- Carla, Expedition 57
 ```
 
 [card implementation](../custom/cards/f/forgotten_battlefield.txt)
@@ -128,6 +145,8 @@ Legendary Land
 Land
 {T}: Add {C}.
 {1},{R/G},{T}: Target Gestral creature you control fights another target creature
+---
+The tournament's starting soon. Please wait. - Gestral Warrior
 ```
 
 [card implementation](../custom/cards/g/gestral_arena.txt)
@@ -160,6 +179,9 @@ Cycling {2} ({2}, Discard this card: Draw a card.)
 Land - Town
 {T}: Add {C}.
 {T}: Add {C}{C}. Spend this mana only to cast Gestral spells or activate abilities of Gestrals.
+---
+Lune: It's ... it's really a village of Gestrals!
+Gustave: They seem better at surviving than humans.
 ```
 
 [card implementation](../custom/cards/g/gestral_village.txt)
@@ -177,6 +199,8 @@ Land
 This land enters tapped unless you control an Expeditioner.
 {T}: Add {W} or {U}.
 {4},{T}: Create a Food token.
+---
+The Aquafarm project ensured that Lumiere would have a plentiful supply of food for years to come.
 ```
 
 [card implementation](../custom/cards/l/lumiere_aquafarm.txt)
@@ -196,6 +220,8 @@ Legendary Land - Town
 {T}: Add {W}.
 {1}{W}, {T}: Create a 1/1 white Human Expeditioner token with "When this creature dies, create a Chroma token."
 {1}{W},{T}: Create a Map token
+---
+Every year, the population dwindles, yet the citizens persist in their determination to take down the Paintress once and for all.
 ```
 
 [card implementation](../custom/cards/l/lumiere_the_last_bastion.txt)
@@ -232,6 +258,9 @@ Land
 {T}: Add {C}.
 {T}: Add {U} or {R}. Activate this ability only if you control a Gestral or Grandis.
 {T}: Add {U} or {R}. This land doesn't untap during your next untap step
+---
+The Grandis have embraced us with such warmth and hope. What a balm for the soul to know that other beings survived, that we in Lumiere are not alone! It truly is a miracle.
+- Aurelien, Expedition 65
 ```
 
 [card implementation](../custom/cards/m/monocos_station.txt)
@@ -302,6 +331,9 @@ You may have this land enter tapped as a copy of any land on the battlefield, ex
 Legendary Land
 {T}: Add {C}.
 {5}, {T}: Return target Gestral card from your graveyard and put it into your hand. This ability costs {2} less to activate if you control a creature named Golgra, Gestral Chief
+---
+MONOCO! You're trying to skip the queue again you old... uh... old... lazy... retired warrior!
+- Golgra
 ```
 
 [card implementation](../custom/cards/t/the_sacred_river.txt)

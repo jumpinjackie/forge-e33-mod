@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 12/10/2025 4:16:27 PM
+> Last generated: 12/10/2025 4:20:14 PM
 
 ## Aberration
 
@@ -62,6 +62,9 @@ Creature - Human Expeditioner
 {2}{B},{T}: Target creature gets -2/-2 until end of turn.
 Sacrifice three Lumina tokens: Destroy target Nevron creature.
 When this creature dies, create a Chroma token.
+---
+Oh, I hear a big Nev coming, they count for double. If I kill it quick I can boost my score.
+- Virgile, Expedition 62
 
 2/2
 ```
@@ -109,6 +112,10 @@ Target opponent reveals their hand. You choose either an Expeditioner card or a 
 1BB
 Sorcery
 All non-Nevron, non-Painter creatures get -2/-2 until end of turn.
+---
+You- You're old. How did you-
+How did you survive the Gommage?
+Which expedition are you fr-
 ```
 
 [card implementation](../custom/cards/m/massacre_at_dark_shores.txt)
@@ -167,6 +174,8 @@ Split Second.
 This spell costs {1} less to cast if you control a painter.
 This spell costs {1} less to cast if it targets an Expeditioner.
 Destroy target creature.
+---
+"Like I always say, it’s not about the rock, it’s more about th-"
 ```
 
 [card implementation](../custom/cards/p/piercing_strike.txt)
@@ -199,6 +208,9 @@ If a card would be put into your graveyard from anywhere this turn, exile that c
 Legendary Sorcery
 (You may cast a legendary sorcery only if you control a legendary creature or planeswalker.)
 Each player with 33 or more life loses the game.
+---
+I'm here.
+I know. I know.
 ```
 
 [card implementation](../custom/cards/t/the_67th_gommage.txt)

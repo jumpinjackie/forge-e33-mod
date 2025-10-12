@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 12/10/2025 4:16:27 PM
+> Last generated: 12/10/2025 4:20:14 PM
 
 ## Abbest
 
@@ -44,6 +44,8 @@ When this creature dies, create a Chroma token.
 2G
 Kindred Enchantment - Expeditioner
 Sacrifice an Expeditioner: Draw a card
+---
+Yet in their final moments, they used their bodies to create a bridge for those who come after. Expedition 35 is over but tomorrow comes.
 ```
 
 [card implementation](../custom/cards/e/expedition_35_bridge.txt)
@@ -115,6 +117,8 @@ When this creature dies, create a Chroma token.
 Creature - Human Expeditioner
 This creature can't be blocked except by creatures with flying.
 When this creature dies, create a Chroma token.
+---
+I still remember the first mountain we scaled. Watching the sun rise above the clouds was magical. But rappelling down as we set the handholds was pure exhilaration. - Fleur
 
 3/2
 ```
@@ -134,6 +138,9 @@ Creature - Human Expeditioner
 When this creature enters, you may search your library for a basic land card, put that card onto the battlefield tapped, then shuffle.
 Whenever this creature attacks, surveil 1.
 When this creature dies, create a Chroma token.
+---
+I get it's not very satisfying making maps and prepping trails while people are dying, but this prep work will pay off in the long run.
+- Fleur, Expedition 69
 
 2/2
 ```
@@ -153,6 +160,9 @@ Enchantment
 Whenever a creature you control becomes tapped, you may put a quest counter on this Enchantment.
 As long as there are two or more counters on this enchantment. Creatures you control have reach.
 As long as there are four or more counters on this enchantment. You may play an additional land on each of your turns.
+---
+I've been trying to overcome this gestral's challenge for months now but it seems even more of a challenge than defeating the Paintress. I guess I'll never see the Gestral's grand prize. That's my only regret in life.
+- Laure, Expedition 37
 ```
 
 [card implementation](../custom/cards/g/gestral_climbing_challenge.txt)
@@ -191,6 +201,9 @@ G
 Kindred Enchantment - Expeditioner
 {G}: Target non-Nevron creature becomes a Nevron until end of turn.
 {1}, Sacrifice this enchantment: Draw a card.
+---
+The idea was we'd only have to fool the first one. Then Jules can wear its carcass to trap the next, and so on, until we all have proper cover. But disguising ourselves as Nevrons has proven to be extremely ineffective, to say the least. Maybe they recognize each other by their chroma?
+- Nicolas, Expedition 44
 ```
 
 [card implementation](../custom/cards/n/nevron_disguise.txt)
@@ -207,6 +220,8 @@ Kindred Enchantment - Expeditioner
 3G
 Kindred Enchantment - Nevron
 {1}{G}, Sacrifice a Nevron: Search your library for a Nevron permanent with mana value X and put it into the battlefield where X is the sacrificed Nevron's mana value plus one. Activate this ability only once each turn.
+---
+Even in an artificial painted world, there is a natural order.
 ```
 
 [card implementation](../custom/cards/n/nevron_pecking_order.txt)

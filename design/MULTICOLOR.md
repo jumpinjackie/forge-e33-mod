@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 12/10/2025 4:16:27 PM
+> Last generated: 12/10/2025 4:20:14 PM
 
 ## A Storm is Coming
 
@@ -261,6 +261,9 @@ III — Destroy all Nevrons. Create a Lumina token for each Nevron destroyed thi
 Creature - Human Expeditioner Cleric
 Mercy Kill - Sacrifice an Expeditioner creature: You gain X life and scry X, where X is the sacrified creature's power.
 When this creature dies, create a Chroma token.
+---
+It's the right choice. It is. Even if it doesn't feel like it. Right? Right.
+- Lilou, Expedition 53
 
 1/2
 ```
@@ -317,6 +320,9 @@ Creature - Human Expeditioner
 Whenever a Nevron creature dies, create a Food token.
 Sacrifice a Food token: Target creature deals 3 damage to itself.
 When this creature dies, create a Chroma token.
+---
+I can't believe she convinced everyone to eat the Nevron. They've been puking for the past few hours. Great.
+- Julien, Expedition 59
 
 2/2
 ```
@@ -356,6 +362,9 @@ III — Un-modified creatures you control gain vigilance, menace, trample and +3
 Creature - Human Expeditioner Pilot
 This creature saddles Mounts and crews Vehicles as though its power were 2 greater.
 When this creature dies, create a Chroma token.
+---
+Damnit Hector, I told you to SLOW DOWN
+- Damien, Expedition 63
 
 2/2
 ```
@@ -375,6 +384,9 @@ Creature - Human Expeditioner
 Flash.
 When this creature enters, destroy target creature or artifact.
 When this creature dies, create a Chroma token.
+---
+We're out of explosives, but we've made enough holes in this place to reach that giant woman in the centre.
+- Luc, Expedition 67
 
 2/2
 ```
@@ -411,6 +423,8 @@ Creature - Human Expeditioner
 Flying.
 This creature can block only creatures with Flying.
 When this creature dies, create a Chroma token.
+---
+Our only choice is to take matters into our own hands. Fortune favors the bold. We must forge ahead with CONVICTION.
 
 4/4
 ```
@@ -431,6 +445,9 @@ Creature - Human Expeditioner Wizard
 You may choose not to untap this creature during your untap step.
 Nevron Whisperer - {2},{T}: Gain control of target Nevron creature for as long as this creature remains tapped.
 When this creature dies, create a Chroma token.
+---
+Gregoire is, as usual, deeply suspicious, but this could change our entire understanding of Nevrons and the Paintre-
+- Renee, Expedition 81
 
 1/2
 ```
@@ -450,6 +467,9 @@ When this creature dies, create a Chroma token.
 Kindred Sorcery - Expeditioner
 Create three Lumina tokens if {U} was spent to cast this spell.
 Create two Chroma tokens if {W} was spent to cast this spell.
+---
+This is our gift, for all the Expeditions to come.
+- Charlotte, Expedition 70
 ```
 
 [card implementation](../custom/cards/f/for_those_who_come_after.txt)
@@ -467,6 +487,8 @@ Whenever a creature enters, you may put a quest counter on this enchantment.
 Bronze Rank - As long as there are three or more quest counters on this enchantment, creatures you control have haste.
 Silver Rank - As long as there are four or more quest counters on this enchantment, creatures you control have Ward 1.
 Gold Rank - As long as there are five or more quest counters on this enchantment, creatures you control have trample.
+---
+00:36:500? Not a bad time, human.
 ```
 
 [card implementation](../custom/cards/g/gestral_foot_race_challenge.txt)
@@ -485,6 +507,8 @@ Enchantment
 Whenever a Human you control enters, you may put a quest counter on this enchantment.
 As long as this enchantment as two or more counters, creatures you control gain vigilance.
 As long as this enchantment as three or more counters, creatures you control gain prowess.
+---
+If I were a 2-year-old human, at what age would I gommage? ... You're probably right, I can't count anyway.
 ```
 
 [card implementation](../custom/cards/g/gestral_parkour_challenge.txt)
@@ -503,6 +527,8 @@ Enchantment
 Whenever a creature you control becomes the target of a spell or ability, you may put a quest counter on this enchantment.
 Normal Difficulty - As long as this enchantment has three or more quest counters on it, whenever a creature you control becomes the target of a spell or ability, draw a card.
 Hard Difficulty - {U/R}{U/R}: You may choose new targets for target spell or ability. Activate this ability only if this enchantment has five or more quest counters on it.
+---
+Oh, you won. You deserve this reward. Have fun with it!
 ```
 
 [card implementation](../custom/cards/g/gestral_raft_volleyball_challenge.txt)
@@ -522,6 +548,8 @@ Hard Difficulty - {U/R}{U/R}: You may choose new targets for target spell or abi
 Sorcery - Gradient
 This spell costs {1} less to cast if you control a painter.
 Exile all nonland permanents that aren't legendary or Nevrons.
+---
+Your mother paints life. Whilst your father, death. What will you paint?
 ```
 
 [card implementation](../custom/cards/g/gommage.txt)
@@ -831,6 +859,8 @@ Each nonland card in your hand without foretell has foretell. Its foretell cost 
 Twilight Slash - {W}{B},{T}: Sciel deals 2 damage to target creature, you gain 2 life.
 Intervention - {W}{W},{T}: Untap target creature. Create a Chroma token.
 Our Sacrifice - {1}{B}{B}, {T}, Pay X life: Creatures target opponent controls get -X/-X until end of turn.
+---
+Death is a friend who will welcome me home
 
 3/3
 ```
@@ -855,6 +885,8 @@ Legendary Creature - Nevron Serpent
 Flying. Ward 3.
 {1}{U}: Tap target creature and put a stun counter on it. Put a charge counter on this creature.
 {4}{R}, Remove X charge counters from Serpenphare: Serpenphare deals X damage to each creature.
+---
+An omnipresent feature of the continent skies. A reminder that before one can even reach The Monolith, one must get past Serpenphare.
 
 7/7
 ```

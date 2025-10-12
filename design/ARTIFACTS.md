@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 12/10/2025 4:16:27 PM
+> Last generated: 12/10/2025 4:20:14 PM
 
 ## Berrami, Collector of Journals
 
@@ -59,6 +59,8 @@ Artifact
 Painter and Gradient spells you cast cost {1} less to cast.
 {T}: Add one mana of any color. Spend this mana only to cast a Painter or Gradient spell.
 {3},{T}: Search your library for a Painter card, reveal it and put it into your hand, then shuffle.
+---
+One family, united by art, divided by grief.
 ```
 
 [card implementation](../custom/cards/d/dessendre_family_portrait.txt)
@@ -166,6 +168,9 @@ Send Backup! - When this artifact enters, reveal the top four cards of your libr
 Artifact
 {T},Sacrifice this artifact: Create two Lumina tokens.
 {T},Sacrifice this artifact: Create two Chroma tokens.
+---
+This could be useful!
+- Gustave
 ```
 
 [card implementation](../custom/cards/e/expedition_cache.txt)
@@ -182,6 +187,9 @@ Artifact
 Legendary Artifact - Rock
 {T}: Target creature you control gains Islandwalk until end of turn.
 {1},Sacrifice Florrie: Draw a card.
+---
+See, Florrie helps me swim. But Florrie was stolen by my archnemesis!
+- Esquie
 ```
 
 [card implementation](../custom/cards/f/florrie.txt)
@@ -198,6 +206,8 @@ Legendary Artifact - Rock
 2
 Artifact Creature - Gestral
 Whenever this creature attacks, it gets +2/+0 until end of turn for each other attacking Gestral.
+---
+See, this here's where we come when we wanna go full brush-mode, you got me?
 
 1/2
 ```
@@ -231,6 +241,8 @@ Whenever Gestral Lackey deals damage to a player, you may put a Gestral permanen
 3
 Artifact Creature - Gestral
 Whenever this creature is dealt damage, create a Chroma token.
+---
+I have some useful items for you!
 
 2/3
 ```
@@ -283,6 +295,8 @@ This card enters tapped.
 2
 Artifact Creature - Gestral
 
+---
+Expeditioners, eh? You're a fun looking bunch. Unless you try to cause problems. Then we'll beat you up. Which will be fun for me, but not for you.
 
 2/1
 ```
@@ -305,6 +319,8 @@ Enrage - Whenever Golgra is dealt damage, choose one:
  - Put a Vigilance counter on Golgra.
  - Put a Trample counter on Golgra.
  - Draw a card.
+---
+Really? A duel? Do you have a death wish?
 
 5/6
 ```
@@ -324,6 +340,9 @@ Enrage - Whenever Golgra is dealt damage, choose one:
 Legendary Artifact
 Whenever a Nevron dies, put a study counter on Gustave's Journal.
 {2}, {T}, Remove X study counters from Gustave's Journal: Draw X cards.
+---
+He spends some time writing in his journal. He writes about how dangerous the Nevrons are, but how beautiful the continent is. He hopes that one day, his apprentices will read everything he wrote.
+
 ```
 
 [card implementation](../custom/cards/g/gustaves_journal.txt)
@@ -541,6 +560,9 @@ Legendary Artifact - Rock
 Legendary Artifact
 {T}: Add three mana of any one color. Spend this mana only to cast a Nevron, Gestral, Painter, Expeditioner or Picto spell.
 When The World Canvas leaves the battlefield, exile all permanents with a name originally printed in this expansion.
+---
+Alicia: We must hide the canvas.
+Clea: Well-reasoned. And such a... clever hiding spot you've chosen.
 ```
 
 [card implementation](../custom/cards/t/the_world_canvas.txt)
