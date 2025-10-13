@@ -32,6 +32,23 @@
             "stopAtEntry": false
         },
         {
+            "name": "Debug CardProcess genbugs",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceFolder}/tools/CardProcess/bin/Debug/net9.0/CardProcess.dll",
+            "args": [
+                "genbugs",
+                "--base-directory",
+                "${workspaceFolder}/custom",
+                "--output-dir",
+                "${workspaceFolder}"
+            ],
+            "cwd": "${workspaceFolder}/tools/CardProcess",
+            "console": "internalConsole",
+            "stopAtEntry": false
+        },
+        {
             "name": "Debug CardProcess gendocs",
             "type": "coreclr",
             "request": "launch",

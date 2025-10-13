@@ -712,6 +712,21 @@ public class CardMasterDesign(string designFile)
 #pragma warning restore CS8602 // Dereference of a possibly null reference.
 #pragma warning restore CS8603 // Possible null reference return.
     }
+
+    internal async Task WriteBugsAsync(StreamWriter sw)
+    {
+        List<string> bugs = [.. FrontFull?.Bugs ?? [], .. SplitLeft?.Bugs ?? [], .. SplitRight?.Bugs ?? [], .. MeldTarget?.Bugs ?? []];
+        if (bugs.Count > 0)
+        {
+            await sw.WriteLineAsync($"## {this.Name}");
+            await sw.WriteLineAsync();
+            foreach (var line in bugs)
+            {
+                await sw.WriteLineAsync(line);
+            }
+            await sw.WriteLineAsync();
+        }
+    }
 }
 
 public abstract class BaseCommand
@@ -867,7 +882,40 @@ public class GenEditionCommand : BaseCommand
     }
 }
 
-[CliCommand(Children = [typeof(GenDocsCommand), typeof(GenCardScriptsCommand), typeof(GenEditionCommand)])]
+[CliCommand(Name = "genbugs", Description = "Generate bug list")]
+public class GenBugsCommand : BaseCommand
+{
+    // HACK: Source generator won't generate if attribute placed on base property, so that has been made
+    // abstract and we're decorating here
+    [CliOption(Required = true, Description = "The base content directory")]
+    public override required DirectoryInfo BaseDirectory { get; set; }
+    
+    [CliOption(Required = true, Description = "The output directory")]
+    public required DirectoryInfo OutputDir { get; set; }
+
+    protected override async Task<int> ExecuteAsync(CliContext context, TextWriter stdout, TextWriter stderr)
+    {
+        var bugsFile = Path.Combine(this.OutputDir.FullName, "BUGS.md");
+        using var sw = new StreamWriter(bugsFile);
+
+        await sw.WriteLineAsync("# General");
+        await sw.WriteLineAsync();
+        await sw.WriteLineAsync("# Card-specific");
+        await sw.WriteLineAsync();
+
+        var cards = await ReadCardDesignsAsync(stdout, stderr);
+        foreach (var (name, card) in cards)
+        {
+            await card.WriteBugsAsync(sw);
+        }
+
+        await stdout.WriteLineAsync("Updated bugs file");
+
+        return 0;
+    }
+}
+
+[CliCommand(Children = [typeof(GenDocsCommand), typeof(GenCardScriptsCommand), typeof(GenEditionCommand), typeof(GenBugsCommand)])]
 public class RootCommand
 {
 }
