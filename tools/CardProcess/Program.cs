@@ -255,9 +255,28 @@ public class CardMasterDesign(string designFile)
 
     public bool IsToken { get; set; }
 
+    public string Rarity
+    {
+        get
+        {
+#pragma warning disable CS8603 // Possible null reference return.
+#pragma warning disable CS8602 // Dereference of a possibly null reference.
+            return FaceType switch
+            {
+                CardFaceType.Regular => FrontFull.Rarity,
+                CardFaceType.SplitRoom => SplitLeft.Rarity, // Rarity is always specified on the left face
+                CardFaceType.SplitFuse => SplitLeft.Rarity, // Rarity is always specified on the left face
+                CardFaceType.Meld => FrontFull.Rarity, // Rarity is always specified on the front face
+                _ => throw new UnreachableException()
+            };
+#pragma warning restore CS8602 // Dereference of a possibly null reference.
+#pragma warning restore CS8603 // Possible null reference return.
+        }
+    }
+
     public bool IsValid()
     {
-        return this.FaceType.HasValue && this.Bucket is not null;
+        return this.FaceType.HasValue && this.Bucket is not null && this.Rarity is not null;
     }
 
     public string Name

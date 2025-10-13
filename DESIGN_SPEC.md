@@ -98,6 +98,9 @@ The rarity of the card.
  - R: Rare
  - M: Mythic Rare
 
+For split cards, the rarity only needs to be specified on the left face.
+For cards that meld, the rarity only needs to be specified on the "front" face.
+
 ### Artist (`[Artist]`)
 
 The credited artist.
