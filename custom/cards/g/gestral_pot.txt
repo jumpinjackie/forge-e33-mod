@@ -1,4 +1,4 @@
-Name:Gestral Statue
+Name:Gestral Pot
 ManaCost:2
 Types:Artifact
 R:Event$ Moved | ValidCard$ Card.Self | Destination$ Battlefield | ReplacementResult$ Updated | ReplaceWith$ ETBTapped | Description$ CARDNAME enters tapped.

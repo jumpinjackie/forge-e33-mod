@@ -1,5 +1,5 @@
 [Name]
-Gestral Statue
+Gestral Pot
 [ManaCost]
 2
 [Types]
@@ -8,6 +8,8 @@ Artifact
 C
 [Artist]
 Sandfall Interactive
+[ArtNotes]
+This is the pots outside the Dark Gestral Arena
 [Oracle]
 This card enters tapped.
 {T}: Add {C}.

@@ -1,27 +1,9 @@
-[Name]
-Sastro, the Concerned
-[ManaCost]
-4
-[Types]
-Legendary
-Artifact
-Creature
-Gestral
-[Rarity]
-R
-[Artist]
-Sandfall Interactive
-[PT]
-2/2
-[Oracle]
-When Sastro enters, put two 1/1 Gestral artifact creature tokens into play.
-Whenever another nontoken Gestral creature you control enters, create a Chroma token.
-[ForgeScript]
+Name:Sastro, Gestral Guardian
+ManaCost:4
+Types:Legendary Artifact Creature Gestral
+PT:2/2
 T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigCreateTokens | TriggerDescription$ When CARDNAME enters, put 2 1/1 Gestral artifact creature tokens into play.
 SVar:TrigCreateTokens:DB$ Token | TokenScript$ a_1_1_gestral | TokenOwner$ You | TokenAmount$ 2
 T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Creature.YouCtrl+Other+!token | TriggerZones$ Battlefield | Execute$ TrigChroma | TriggerDescription$ Whenever another nontoken Gestral creature you control enters, create a Chroma token.
 SVar:TrigChroma:DB$ Token | TokenScript$ c_a_chroma | TokenOwner$ You | TokenAmount$ 1
-[DesignNotes]
- - This is the Gestral (Siege-Gang Commander / Deranged Hermit)
- - Should have one more ability at least. Further abilities TBD.
- - 6/10/2025: Gone with a Chroma rewarding ability.
+Oracle:When Sastro enters, put two 1/1 Gestral artifact creature tokens into play.\nWhenever another nontoken Gestral creature you control enters, create a Chroma token.
