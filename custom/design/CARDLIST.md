@@ -6,6 +6,7 @@ From this list, card designs are spawned from it, which will eventually form the
 
 ## Card Name List
 
+```
 A Storm is Coming
 Abberation
 Abbest
@@ -277,3 +278,4 @@ Volester
 Whee // Whoo
 When One Falls // We Continue
 Yellow Harvest
+```
