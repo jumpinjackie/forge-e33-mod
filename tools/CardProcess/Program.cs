@@ -50,6 +50,14 @@ public class CardFaceDesign
 
     public string? Loyalty { get; set; }
 
+    public string? Rarity { get; set; }
+
+    public string? Artist { get; set; }
+
+    public string? ArtImage { get; set; }
+
+    public string? ArtNotes { get; set; }
+
     internal void Apply(string propertyName, IEnumerable<string> buffer)
     {
         switch (propertyName)
@@ -62,6 +70,18 @@ public class CardFaceDesign
                 break;
             case nameof(ColorIdentity):
                 ColorIdentity = buffer.ToArray();
+                break;
+            case nameof(Rarity):
+                Rarity = string.Join(" ", buffer);
+                break;
+            case nameof(Artist):
+                Artist = string.Join(" ", buffer);
+                break;
+            case nameof(ArtImage):
+                ArtImage = string.Join(" ", buffer);
+                break;
+            case nameof(ArtNotes):
+                ArtNotes = string.Join("\n", buffer);
                 break;
             case nameof(Types):
                 {
@@ -411,6 +431,10 @@ public class CardMasterDesign(string designFile)
             switch (line)
             {
                 case "[Name]":
+                case "[Rarity]":
+                case "[Artist]":
+                case "[ArtImage]":
+                case "[ArtNotes]":
                 case "[ManaCost]":
                 case "[ColorIdentity]":
                 case "[Types]":

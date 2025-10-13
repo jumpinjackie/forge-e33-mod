@@ -98,6 +98,28 @@ The rarity of the card.
  - R: Rare
  - M: Mythic Rare
 
+### Artist (`[Artist]`)
+
+The credited artist.
+
+Used as part of edition card list in Forge context and in the CardConjurer context.
+
+### ArtImage (`[ArtImage]`)
+
+The path to the source artwork for this card. Must be a relative path to the custom set root.
+
+Used only in the CardConjurer context.
+
+### ArtNotes (`[ArtNotes]`)
+
+Free-form text describing the desired art for this card.
+
+Could be used as a guide to source appropriate photos/screenshots from in-game.
+
+Could be used as a prompt for AI art generation.
+
+Currently not used in any context.
+
 ### Oracle Text (`[Oracle]`)
 
 The oracle text of the card. Can span multiple lines.
