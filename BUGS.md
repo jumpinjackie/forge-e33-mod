@@ -1,9 +1,5 @@
 # General
 
-## All cards have common rarity and no collector numbers
-
-This is intentional because the card list is still not yet fixed, so until that happens there is no point in assigning collector numbers. Without collector numbers, Forge will interpret such cards at common rarity.
-
 # Card-specific
 
 ## Manor Door

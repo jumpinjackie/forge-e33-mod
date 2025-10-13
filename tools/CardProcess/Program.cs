@@ -694,6 +694,24 @@ public class CardMasterDesign(string designFile)
                 break;
         }
     }
+
+    internal string GetArtist()
+    {
+#pragma warning disable CS8603 // Possible null reference return.
+#pragma warning disable CS8602 // Dereference of a possibly null reference.
+#pragma warning disable CS8601 // Possible null reference assignment.
+        return FaceType switch
+        {
+            CardFaceType.Regular => FrontFull.Artist,
+            CardFaceType.SplitRoom => string.Join(" & ", new string[] { SplitLeft.Artist, SplitRight.Artist }.Where(s => !string.IsNullOrWhiteSpace(s)).Distinct()),
+            CardFaceType.SplitFuse => string.Join(" & ", new string[] { SplitLeft.Artist, SplitRight.Artist }.Where(s => !string.IsNullOrWhiteSpace(s)).Distinct()),
+            CardFaceType.Meld => string.Join(" & ", new string[] { FrontFull.Artist, MeldTarget.Artist }.Where(s => !string.IsNullOrWhiteSpace(s)).Distinct()),
+            _ => throw new UnreachableException()
+        };
+#pragma warning restore CS8601 // Possible null reference assignment.
+#pragma warning restore CS8602 // Dereference of a possibly null reference.
+#pragma warning restore CS8603 // Possible null reference return.
+    }
 }
 
 public abstract class BaseCommand
@@ -806,7 +824,50 @@ public class GenDocsCommand : BaseCommand
     }
 }
 
-[CliCommand(Children = [typeof(GenDocsCommand), typeof(GenCardScriptsCommand)])]
+[CliCommand(Name = "genedition", Description = "Generate set edition file")]
+public class GenEditionCommand : BaseCommand
+{
+    // HACK: Source generator won't generate if attribute placed on base property, so that has been made
+    // abstract and we're decorating here
+    [CliOption(Required = true, Description = "The base content directory")]
+    public override required DirectoryInfo BaseDirectory { get; set; }
+
+    protected override async Task<int> ExecuteAsync(CliContext context, TextWriter stdout, TextWriter stderr)
+    {
+        var subDirs = this.BaseDirectory.GetDirectories();
+        var editionsDir = subDirs.FirstOrDefault(d => d.Name == "editions");
+        var designDir = subDirs.FirstOrDefault(d => d.Name == "design");
+        if (editionsDir is null)
+            throw new InvalidOperationException("editions dir not found");
+        if (designDir is null)
+            throw new InvalidOperationException("design dir not found");
+        var templateFile = Path.Combine(designDir.FullName, "edition.tpl");
+        if (!File.Exists(templateFile))
+            throw new InvalidOperationException("Could not find edition.tpl");
+
+        int collectorNum = 1;
+        var cardList = new StringBuilder();
+        var cards = await ReadCardDesignsAsync(stdout, stderr);
+        foreach (var (name, card) in cards)
+        {
+            if (card.FaceType == CardFaceType.Meld) // Meld cards only care about the front face name
+                cardList.AppendLine($"{collectorNum} {card.Rarity} {card.FrontFull.Name} @{card.GetArtist()}");
+            else
+                cardList.AppendLine($"{collectorNum} {card.Rarity} {name} @{card.GetArtist()}");
+            collectorNum++;
+        }
+
+        var sbEdition = new StringBuilder(File.ReadAllText(templateFile));
+        sbEdition.Replace("$CARD_LIST$", cardList.ToString());
+        File.WriteAllText(Path.Combine(editionsDir.FullName, "Clair Obscur Expedition 33.txt"), sbEdition.ToString());
+
+        await stdout.WriteLineAsync("Updated edition file");
+
+        return 0;
+    }
+}
+
+[CliCommand(Children = [typeof(GenDocsCommand), typeof(GenCardScriptsCommand), typeof(GenEditionCommand)])]
 public class RootCommand
 {
 }
