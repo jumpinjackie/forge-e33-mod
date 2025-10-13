@@ -4,6 +4,10 @@ Gestral Ascension Challenge
 U
 [Types]
 Enchantment
+[Rarity]
+U
+[Artist]
+Sandfall Interactive
 [Oracle]
 Whenever a creature you control with flying enters or a creature you control with flying attacks, you may put a quest counter on this enchantment.
 Remove four quest counters from this enchantment and sacrifice it: Draw three cards.

@@ -6,6 +6,10 @@ RG
 [Types]
 Creature
 Nevron
+[Rarity]
+C
+[Artist]
+Sandfall Interactive
 [PT]
 2/1
 [Oracle]

@@ -4,6 +4,10 @@ The Monolith Interior
 no cost
 [Types]
 Land
+[Rarity]
+R
+[Artist]
+Sandfall Interactive
 [Oracle]
 You may have this land enter tapped as a copy of any land on the battlefield, except it has "At the beginning of your upkeep, you may have this land become a copy of target land, and it has this ability."
 [FlavorText]

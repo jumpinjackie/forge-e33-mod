@@ -5,6 +5,10 @@ Gustave's Journal
 [Types]
 Legendary
 Artifact
+[Rarity]
+R
+[Artist]
+Sandfall Interactive
 [Oracle]
 Whenever a Nevron dies, put a study counter on Gustave's Journal.
 {2}, {T}, Remove X study counters from Gustave's Journal: Draw X cards.

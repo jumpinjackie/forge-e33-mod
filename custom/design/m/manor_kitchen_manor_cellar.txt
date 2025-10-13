@@ -6,6 +6,10 @@ G
 [Types]
 Enchantment
 Room
+[Rarity]
+U
+[Artist]
+Sandfall Interactive
 [Oracle]
 When you unlock this door, create two Food tokens.
 [ForgeScript]

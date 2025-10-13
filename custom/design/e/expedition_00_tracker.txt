@@ -8,6 +8,10 @@ Creature
 Human
 Expeditioner
 Scout
+[Rarity]
+U
+[Artist]
+Sandfall Interactive
 [PT]
 2/3
 [Oracle]

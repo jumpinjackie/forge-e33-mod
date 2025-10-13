@@ -6,6 +6,10 @@ G
 Creature
 Human
 Expeditioner
+[Rarity]
+C
+[Artist]
+Sandfall Interactive
 [PT]
 1/1
 [Oracle]

@@ -6,6 +6,10 @@ Expedition 50 Ferris Wheel
 Artifact
 Expeditioner
 Vehicle
+[Rarity]
+R
+[Artist]
+Sandfall Interactive
 [PT]
 6/6
 [Oracle]

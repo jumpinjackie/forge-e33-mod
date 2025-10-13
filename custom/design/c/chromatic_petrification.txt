@@ -6,6 +6,10 @@ B
 [Types]
 Enchantment
 Aura
+[Rarity]
+C
+[Artist]
+Sandfall Interactive
 [Oracle]
 Enchant permanent.
 Enchanted permanent becomes an artifact and loses all abilities.

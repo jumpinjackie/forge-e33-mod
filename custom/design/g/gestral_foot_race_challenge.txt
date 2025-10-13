@@ -4,6 +4,10 @@ Gestral Foot Race Challenge
 RG
 [Types]
 Enchantment
+[Rarity]
+U
+[Artist]
+Sandfall Interactive
 [Oracle]
 Whenever a creature enters, you may put a quest counter on this enchantment.
 Bronze Rank - As long as there are three or more quest counters on this enchantment, creatures you control have haste.

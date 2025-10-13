@@ -4,6 +4,10 @@ Dark Shores
 no cost
 [Types]
 Land
+[Rarity]
+R
+[Artist]
+Sandfall Interactive
 [Oracle]
 As this land enters, you may reveal a Nevron card from your hand. If you don't this land enters tapped.
 {T}: Add {U} or {B}.

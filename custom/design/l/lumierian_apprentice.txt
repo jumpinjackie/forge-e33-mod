@@ -9,6 +9,10 @@ W
 Creature
 Human
 Citizen
+[Rarity]
+U
+[Artist]
+Sandfall Interactive
 [Oracle]
 Whenever another non-Expeditioner creature enters, investigate. $INVESTIGATE_REMINDER_TEXT
 [FlavorText]

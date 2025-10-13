@@ -7,6 +7,10 @@ R
 Kindred
 Instant
 Expeditioner
+[Rarity]
+C
+[Artist]
+Sandfall Interactive
 [Oracle]
 Target creature gains double strike until end of turn. (It deals both first-strike and regular combat damage.)
 [ForgeScript]

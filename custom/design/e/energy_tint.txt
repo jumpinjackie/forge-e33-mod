@@ -4,6 +4,10 @@ Energy Tint
 2
 [Types]
 Artifact
+[Rarity]
+U
+[Artist]
+Sandfall Interactive
 [Oracle]
 {T}: Add {C}.
 {T}: Add {C}{C}{C}. Activate this ability only if you control at least 3 Lumina tokens.

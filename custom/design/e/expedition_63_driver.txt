@@ -8,6 +8,10 @@ Creature
 Human
 Expeditioner
 Pilot
+[Rarity]
+C
+[Artist]
+Sandfall Interactive
 [PT]
 2/2
 [Oracle]

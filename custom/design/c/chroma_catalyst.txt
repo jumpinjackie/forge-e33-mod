@@ -4,6 +4,10 @@ Chroma Catalyst
 3
 [Types]
 Artifact
+[Rarity]
+R
+[Artist]
+Sandfall Interactive
 [Oracle]
 If you would create a Chroma or Lumina token, instead create one of each.
 [ForgeScript]

@@ -7,6 +7,10 @@ W
 Kindred
 Instant
 Expeditioner
+[Rarity]
+U
+[Artist]
+Sandfall Interactive
 [Oracle]
 Untap target creature you control. It gains hexproof until end of turn.
 [FlavorText]

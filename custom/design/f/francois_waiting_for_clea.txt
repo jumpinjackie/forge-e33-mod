@@ -9,6 +9,10 @@ Legendary
 Artifact
 Creature
 Turtle
+[Rarity]
+R
+[Artist]
+Sandfall Interactive
 [PT]
 1/6
 [Oracle]

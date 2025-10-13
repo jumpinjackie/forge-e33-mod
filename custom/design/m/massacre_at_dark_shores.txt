@@ -6,6 +6,10 @@ B
 B
 [Types]
 Sorcery
+[Rarity]
+U
+[Artist]
+Sandfall Interactive
 [Oracle]
 All non-Nevron, non-Painter creatures get -2/-2 until end of turn.
 [FlavorText]

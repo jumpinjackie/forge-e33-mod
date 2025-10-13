@@ -6,6 +6,10 @@ C
 [Types]
 Creature
 Nevron
+[Rarity]
+U
+[Artist]
+Sandfall Interactive
 [PT]
 1/3
 [Oracle]

@@ -5,6 +5,10 @@ no cost
 [Types]
 Land
 Town
+[Rarity]
+R
+[Artist]
+Sandfall Interactive
 [Oracle]
 {T}: Add {C}.
 {T}: Add {C}{C}. Spend this mana only to cast Gestral spells or activate abilities of Gestrals.

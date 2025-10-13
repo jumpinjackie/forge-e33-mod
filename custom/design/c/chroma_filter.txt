@@ -4,6 +4,10 @@ Chroma Filter
 2
 [Types]
 Artifact
+[Rarity]
+C
+[Artist]
+Sandfall Interactive
 [Oracle]
 When this artifact enters, draw a card.
 {1}, {T}: Add one mana of any color.

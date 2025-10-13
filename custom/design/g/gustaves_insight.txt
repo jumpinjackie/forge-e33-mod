@@ -7,6 +7,10 @@ U
 Kindred
 Sorcery
 Expeditioner
+[Rarity]
+U
+[Artist]
+Sandfall Interactive
 [Oracle]
 This spell has flash as long as you control an Expeditioner.
 Look at the top five cards of your library. Put two of them into your hand and the rest on the bottom of your library in any order.

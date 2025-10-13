@@ -6,6 +6,10 @@ G
 Kindred
 Enchantment
 Expeditioner
+[Rarity]
+C
+[Artist]
+Sandfall Interactive
 [Oracle]
 {G}: Target non-Nevron creature becomes a Nevron until end of turn.
 {1}, Sacrifice this enchantment: Draw a card.

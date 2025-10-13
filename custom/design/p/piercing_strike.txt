@@ -6,6 +6,10 @@ B
 [Types]
 Instant
 Gradient
+[Rarity]
+C
+[Artist]
+Sandfall Interactive
 [Oracle]
 Split Second.
 This spell costs {1} less to cast if you control a painter.

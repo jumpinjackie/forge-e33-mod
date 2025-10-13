@@ -4,6 +4,10 @@ Gestral Climbing Challenge
 G
 [Types]
 Enchantment
+[Rarity]
+U
+[Artist]
+Sandfall Interactive
 [Oracle]
 Whenever a creature you control becomes tapped, you may put a quest counter on this Enchantment.
 As long as there are two or more counters on this enchantment. Creatures you control have reach.

@@ -7,6 +7,10 @@ R
 [Types]
 Sorcery
 Gradient
+[Rarity]
+U
+[Artist]
+Sandfall Interactive
 [Oracle]
 This spell costs {2} less to cast if you control a painter.
 This spell deals 4 damage divided as you choose among any number of targets

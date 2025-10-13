@@ -8,6 +8,10 @@ U
 Kindred
 Instant
 Expeditioner
+[Rarity]
+C
+[Artist]
+Sandfall Interactive
 [Oracle]
 This spell costs {1} less to cast if you control an Expeditioner.
 Counter target spell.

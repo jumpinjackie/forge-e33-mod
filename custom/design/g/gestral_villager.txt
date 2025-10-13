@@ -6,6 +6,10 @@ Gestral Villager
 Artifact
 Creature
 Gestral
+[Rarity]
+C
+[Artist]
+Sandfall Interactive
 [PT]
 2/1
 [Oracle]

@@ -4,6 +4,10 @@ Monoco's Station
 no cost
 [Types]
 Land
+[Rarity]
+R
+[Artist]
+Sandfall Interactive
 [Oracle]
 {T}: Add {C}.
 {T}: Add {U} or {R}. Activate this ability only if you control a Gestral or Grandis.

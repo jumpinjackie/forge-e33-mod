@@ -5,6 +5,10 @@ no cost
 [Types]
 Legendary
 Land
+[Rarity]
+M
+[Artist]
+Sandfall Interactive
 [Oracle]
 {T}: Add {C}.
 {5}, {T}: Return target Gestral card from your graveyard and put it into your hand. This ability costs {2} less to activate if you control a creature named Golgra, Gestral Chief

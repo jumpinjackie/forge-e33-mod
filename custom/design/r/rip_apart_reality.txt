@@ -6,6 +6,10 @@ U
 [Types]
 Instant
 Gradient
+[Rarity]
+C
+[Artist]
+Sandfall Interactive
 [Oracle]
 This spell costs {2} less to cast if you control a painter.
 The owner of target permanent puts it on the top or bottom of their library.

@@ -9,6 +9,10 @@ Legendary
 Creature
 Human
 Expeditioner
+[Rarity]
+M
+[Artist]
+Sandfall Interactive
 [PT]
 3/3
 [Oracle]

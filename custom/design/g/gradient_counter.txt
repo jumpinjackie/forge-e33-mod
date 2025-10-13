@@ -6,6 +6,10 @@ U
 Kindred
 Instant
 Expeditioner
+[Rarity]
+C
+[Artist]
+Sandfall Interactive
 [Oracle]
 Counter target Gradient spell
 [FlavorText]

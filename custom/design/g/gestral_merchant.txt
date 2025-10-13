@@ -6,6 +6,10 @@ Gestral Merchant
 Artifact
 Creature
 Gestral
+[Rarity]
+U
+[Artist]
+Sandfall Interactive
 [PT]
 2/3
 [Oracle]

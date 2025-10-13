@@ -7,6 +7,10 @@ G
 Kindred
 Enchantment
 Expeditioner
+[Rarity]
+U
+[Artist]
+Sandfall Interactive
 [Oracle]
 Sacrifice an Expeditioner: Draw a card
 [FlavorText]

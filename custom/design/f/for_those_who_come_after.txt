@@ -7,6 +7,10 @@ WU
 Kindred
 Sorcery
 Expeditioner
+[Rarity]
+U
+[Artist]
+Sandfall Interactive
 [Oracle]
 Create three Lumina tokens if {U} was spent to cast this spell.
 Create two Chroma tokens if {W} was spent to cast this spell.

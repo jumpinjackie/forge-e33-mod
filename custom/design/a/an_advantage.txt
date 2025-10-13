@@ -6,6 +6,10 @@ U
 Kindred
 Sorcery
 Expeditioner
+[Rarity]
+C
+[Artist]
+Sandfall Interactive
 [Oracle]
 Create three Lumina tokens. (It's an artifact with "{T}, Sacrifice this token: Scry 1.")
 Draw a card at the beginning of the next turn's upkeep.

@@ -4,6 +4,10 @@ Lumiere Aquafarm
 no cost
 [Types]
 Land
+[Rarity]
+R
+[Artist]
+Sandfall Interactive
 [Oracle]
 This land enters tapped unless you control an Expeditioner.
 {T}: Add {W} or {U}.

@@ -6,6 +6,10 @@ G
 [Types]
 Enchantment
 Saga
+[Rarity]
+U
+[Artist]
+Sandfall Interactive
 [Oracle]
 (As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
 I — Search your library for a basic land card, put it onto the battlefield tapped, then shuffle.

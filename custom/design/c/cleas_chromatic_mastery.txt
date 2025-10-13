@@ -5,6 +5,10 @@ Clea's Chromatic Mastery
 B
 [Types]
 Sorcery
+[Rarity]
+U
+[Artist]
+Sandfall Interactive
 [Oracle]
 Search your library for a Nevron card, reveal it, put it into your hand, then shuffle.
 [ForgeScript]

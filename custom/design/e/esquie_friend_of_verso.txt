@@ -9,6 +9,10 @@ Legendary
 Artifact
 Creature
 Mount
+[Rarity]
+M
+[Artist]
+Sandfall Interactive
 [PT]
 6/6
 [Oracle]

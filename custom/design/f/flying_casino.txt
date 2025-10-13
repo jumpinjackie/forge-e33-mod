@@ -4,6 +4,10 @@ Flying Casino
 no cost
 [Types]
 Land
+[Rarity]
+R
+[Artist]
+Sandfall Interactive
 [Oracle]
 This land enters tapped.
 {T}: Add {C}.

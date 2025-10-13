@@ -8,6 +8,10 @@ WU
 Creature
 Human
 Expeditioner
+[Rarity]
+C
+[Artist]
+Sandfall Interactive
 [PT]
 4/4
 [Oracle]

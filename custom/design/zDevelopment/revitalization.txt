@@ -7,6 +7,10 @@ G
 Kindred
 Sorcery
 Expeditioner
+[Rarity]
+U
+[Artist]
+Sandfall Interactive
 [Oracle]
 Choose up to one target creature card and up to one target non-creature card in your graveyard. Return those cards to your hand.
 [ForgeScript]

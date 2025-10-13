@@ -9,6 +9,10 @@ Legendary
 Creature
 Painter
 God
+[Rarity]
+R
+[Artist]
+Sandfall Interactive
 [PT]
 3/4
 [Oracle]

@@ -9,6 +9,10 @@ Kindred
 Sorcery
 Expeditioner
 Gradient
+[Rarity]
+R
+[Artist]
+Sandfall Interactive
 [Oracle]
 Tap all creatures your opponents control, then put a stun counter on each of those creatures.
 If {R} was spent on this spell, it deals 6 damage to each creature with a stun counter at the beginning of your next end step.

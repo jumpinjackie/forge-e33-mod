@@ -6,6 +6,10 @@ Gestral Ringleader
 Artifact
 Creature
 Gestral
+[Rarity]
+U
+[Artist]
+Sandfall Interactive
 [PT]
 3/2
 [Oracle]

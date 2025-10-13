@@ -6,6 +6,10 @@ no cost
 Legendary
 Land
 Town
+[Rarity]
+R
+[Artist]
+Sandfall Interactive
 [Oracle]
 {T}: Add {W}.
 {1}{W}, {T}: Create a 1/1 white Human Expeditioner token with $EXPEDITIONER_TOKEN_TEXT

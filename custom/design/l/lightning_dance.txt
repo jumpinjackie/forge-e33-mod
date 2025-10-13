@@ -8,6 +8,10 @@ R
 Kindred
 Sorcery
 Expeditioner
+[Rarity]
+U
+[Artist]
+Sandfall Interactive
 [Oracle]
 This spell deals 1 damage to any target, 2 damage to another target, and 3 damage to a third target.
 [ForgeScript]

@@ -7,6 +7,10 @@ B
 [Types]
 Sorcery
 Gradient
+[Rarity]
+R
+[Artist]
+Sandfall Interactive
 [Oracle]
 This spell costs {1} less to cast if you control a painter.
 Exile target nonland permanent.

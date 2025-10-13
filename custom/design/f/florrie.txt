@@ -6,6 +6,10 @@ Florrie
 Legendary
 Artifact
 Rock
+[Rarity]
+U
+[Artist]
+Sandfall Interactive
 [Oracle]
 {T}: Target creature you control gains Islandwalk until end of turn.
 {1},Sacrifice Florrie: Draw a card.

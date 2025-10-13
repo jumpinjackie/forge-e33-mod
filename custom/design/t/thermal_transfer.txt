@@ -7,6 +7,10 @@ U
 Kindred
 Instant
 Expeditioner
+[Rarity]
+U
+[Artist]
+Sandfall Interactive
 [Oracle]
 Kicker {R} (You may pay an additional {R} as you cast this spell.)
 Tap target creature and put a stun counter on it.

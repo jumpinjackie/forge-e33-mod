@@ -8,6 +8,10 @@ Creature
 Human
 Expeditioner
 Wizard
+[Rarity]
+U
+[Artist]
+Sandfall Interactive
 [PT]
 1/2
 [Oracle]

@@ -7,6 +7,10 @@ B
 [Types]
 Legendary
 Sorcery
+[Rarity]
+M
+[Artist]
+Sandfall Interactive
 [Oracle]
 (You may cast a legendary sorcery only if you control a legendary creature or planeswalker.)
 Each player with 33 or more life loses the game.

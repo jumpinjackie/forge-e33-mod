@@ -5,6 +5,10 @@ no cost
 [Types]
 Legendary
 Land
+[Rarity]
+R
+[Artist]
+Sandfall Interactive
 [Oracle]
 {T}: Add {C}.
 {1}{B}, {T}: Put target Nevron card from your graveyard on top of your library.

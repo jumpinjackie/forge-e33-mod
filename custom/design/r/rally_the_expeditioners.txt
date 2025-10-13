@@ -7,6 +7,10 @@ WB
 Kindred
 Instant
 Expeditioner
+[Rarity]
+U
+[Artist]
+Sandfall Interactive
 [Oracle]
 This spell costs {1} less to cast if you control an Expeditioner.
 Choose one -

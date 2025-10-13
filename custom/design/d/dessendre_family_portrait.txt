@@ -4,6 +4,10 @@ Dessendre Family Portrait
 3
 [Types]
 Artifact
+[Rarity]
+U
+[Artist]
+Sandfall Interactive
 [Oracle]
 Painter and Gradient spells you cast cost {1} less to cast.
 {T}: Add one mana of any color. Spend this mana only to cast a Painter or Gradient spell.

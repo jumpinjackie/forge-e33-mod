@@ -6,6 +6,10 @@ Urrie
 Legendary
 Artifact
 Rock
+[Rarity]
+U
+[Artist]
+Sandfall Interactive
 [Oracle]
 {1}, {T}: Surveil 2.
 {1},Sacrifice Urrie: Draw a card.

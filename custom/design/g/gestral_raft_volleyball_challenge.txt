@@ -4,6 +4,10 @@ Gestral Raft Volleyball Challenge
 UR
 [Types]
 Enchantment
+[Rarity]
+U
+[Artist]
+Sandfall Interactive
 [Oracle]
 Whenever a creature you control becomes the target of a spell or ability, you may put a quest counter on this enchantment.
 Normal Difficulty - As long as this enchantment has three or more quest counters on it, whenever a creature you control becomes the target of a spell or ability, draw a card.

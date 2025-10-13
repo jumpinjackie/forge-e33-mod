@@ -8,6 +8,10 @@ Legendary
 Creature
 Human
 Painter
+[Rarity]
+R
+[Artist]
+Sandfall Interactive
 [PT]
 2/2
 [Oracle]

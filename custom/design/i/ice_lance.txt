@@ -7,6 +7,10 @@ U
 Kindred
 Instant
 Expeditioner
+[Rarity]
+C
+[Artist]
+Sandfall Interactive
 [Oracle]
 Tap up to two target permanents. Put a stun counter on them.
 [ForgeScript]

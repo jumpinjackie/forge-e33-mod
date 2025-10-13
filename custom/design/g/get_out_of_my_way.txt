@@ -7,6 +7,10 @@ R
 Kindred
 Sorcery
 Expeditioner
+[Rarity]
+U
+[Artist]
+Sandfall Interactive
 [Oracle]
 X target Gestral creatures can't block this turn.
 [FlavorText]

@@ -5,6 +5,10 @@ no cost
 [Types]
 Legendary
 Land
+[Rarity]
+M
+[Artist]
+Sandfall Interactive
 [Oracle]
 The Monolith enters with ten gommage counters.
 At the beginning of your upkeep, remove a gommage counter, then exile all non-land, non-legendary permanents with mana value greater than or equal to the number of gommage counters on The Monolith.

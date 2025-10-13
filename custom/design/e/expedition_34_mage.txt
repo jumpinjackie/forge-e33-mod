@@ -9,6 +9,10 @@ Wizard
 W
 U
 R
+[Rarity]
+U
+[Artist]
+Sandfall Interactive
 [PT]
 2/2
 [Oracle]

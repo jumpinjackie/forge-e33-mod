@@ -5,6 +5,10 @@ no cost
 [Types]
 Land
 Cave
+[Rarity]
+U
+[Artist]
+Sandfall Interactive
 [Oracle]
 This land enters tapped.
 {T}: Add {C}.

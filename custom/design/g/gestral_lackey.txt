@@ -6,6 +6,10 @@ Gestral Lackey
 Artifact
 Creature
 Gestral
+[Rarity]
+U
+[Artist]
+Sandfall Interactive
 [PT]
 1/1
 [Oracle]

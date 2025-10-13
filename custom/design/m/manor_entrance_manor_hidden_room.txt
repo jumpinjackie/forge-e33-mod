@@ -6,6 +6,10 @@ G
 [Types]
 Enchantment
 Room
+[Rarity]
+R
+[Artist]
+Sandfall Interactive
 [Oracle]
 When you unlock this door, you may put a creature card from your hand onto the battlefield.
 [ForgeScript]

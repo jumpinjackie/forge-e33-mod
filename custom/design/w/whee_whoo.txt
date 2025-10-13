@@ -6,6 +6,10 @@ W
 U
 [Types]
 Instant
+[Rarity]
+U
+[Artist]
+Sandfall Interactive
 [Oracle]
 Untap all creatures you control.
 [ForgeScript]

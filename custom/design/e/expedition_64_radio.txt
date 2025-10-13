@@ -5,6 +5,10 @@ Expedition 64 Radio
 [Types]
 Artifact
 Expeditioner
+[Rarity]
+U
+[Artist]
+Sandfall Interactive
 [Oracle]
 Send Backup! - When this artifact enters, reveal the top four cards of your library. Put all Expeditioner cards revealed this way into your hand and the rest on the bottom of your library in any order.
 {2}, Sacrifice this artifact: Draw a card.

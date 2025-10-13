@@ -4,6 +4,10 @@ Gestral Beach
 no cost
 [Types]
 Land
+[Rarity]
+C
+[Artist]
+Sandfall Interactive
 [Oracle]
 {T}: Add {C}.
 Cycling {2} ({2}, Discard this card: Draw a card.)

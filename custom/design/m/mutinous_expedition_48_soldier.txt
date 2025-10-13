@@ -8,6 +8,10 @@ Creature
 Human
 Expeditioner
 Soldier
+[Rarity]
+C
+[Artist]
+Sandfall Interactive
 [PT]
 3/3
 [Oracle]

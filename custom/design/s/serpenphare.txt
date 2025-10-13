@@ -9,6 +9,10 @@ Legendary
 Creature
 Nevron
 Serpent
+[Rarity]
+R
+[Artist]
+Sandfall Interactive
 [PT]
 7/7
 [Oracle]

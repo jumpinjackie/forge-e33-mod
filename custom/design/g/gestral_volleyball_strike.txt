@@ -7,6 +7,10 @@ R
 Kindred
 Sorcery
 Gestral
+[Rarity]
+U
+[Artist]
+Sandfall Interactive
 [Oracle]
 As an additional cost to cast this spell, sacrifice a Gestral.
 This spell deals 5 damage to any target.

@@ -5,6 +5,10 @@ Entering the Canvas
 R
 [Types]
 Instant
+[Rarity]
+R
+[Artist]
+Sandfall Interactive
 [Oracle]
 You may put a creature card from your hand onto the battlefield. That creature gains haste. Sacrifice that creature at the beginning of the next end step.
 [FlavorText]

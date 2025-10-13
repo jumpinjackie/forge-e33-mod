@@ -4,6 +4,10 @@ Recoat
 1
 [Types]
 Artifact
+[Rarity]
+C
+[Artist]
+Sandfall Interactive
 [Oracle]
 {1}, {T}, Sacrifice this artifact and any number of token permanents you control: Choose one -
  - Create X Chroma tokens, where X is the number of sacrificed permanents.

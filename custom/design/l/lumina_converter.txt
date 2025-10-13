@@ -4,6 +4,10 @@ Lumina Converter
 2
 [Types]
 Artifact
+[Rarity]
+U
+[Artist]
+Sandfall Interactive
 [Oracle]
 {T}, Remove a counter from a permanent you control: Create a Lumina token.
 {T}, Sacrifice a Chroma token: Create a Lumina token.

@@ -9,6 +9,10 @@ Legendary
 Creature
 Nevron
 Horror
+[Rarity]
+R
+[Artist]
+Sandfall Interactive
 [PT]
 4/4
 [Oracle]

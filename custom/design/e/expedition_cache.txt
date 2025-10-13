@@ -7,6 +7,10 @@ Artifact
 [Oracle]
 {T},Sacrifice this artifact: Create two Lumina tokens.
 {T},Sacrifice this artifact: Create two Chroma tokens.
+[Rarity]
+C
+[Artist]
+Sandfall Interactive
 [FlavorText]
 This could be useful!
 - Gustave

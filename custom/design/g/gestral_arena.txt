@@ -7,6 +7,10 @@ Land
 [Oracle]
 {T}: Add {C}.
 {1},{R/G},{T}: Target Gestral creature you control fights another target creature
+[Rarity]
+R
+[Artist]
+Sandfall Interactive
 [FlavorText]
 The tournament's starting soon. Please wait.
 - Gestral Warrior

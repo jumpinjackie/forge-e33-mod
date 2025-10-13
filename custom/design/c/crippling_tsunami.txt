@@ -8,6 +8,10 @@ U
 Kindred
 Enchantment
 Expeditioner
+[Rarity]
+R
+[Artist]
+Sandfall Interactive
 [Oracle]
 Tap an untapped creature you control: Tap target artifact or creature.
 Tap an untapped Expeditioner you control: Tap target land.

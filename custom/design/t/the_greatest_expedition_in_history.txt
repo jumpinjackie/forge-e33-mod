@@ -10,6 +10,10 @@ G
 Kindred
 Sorcery
 Expeditioner
+[Rarity]
+R
+[Artist]
+Sandfall Interactive
 [Oracle]
 You win the game if you control a total of 33 or more Expeditioners, Chroma, Lumina or Pictos permanents.
 [ForgeScript]

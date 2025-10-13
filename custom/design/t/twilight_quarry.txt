@@ -4,6 +4,10 @@ Twilight Quarry
 no cost
 [Types]
 Land
+[Rarity]
+U
+[Artist]
+Sandfall Interactive
 [Oracle]
 This land enters tapped. As it enters, choose a color.
 {T}: Add one mana of the chosen color.

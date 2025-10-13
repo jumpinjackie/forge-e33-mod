@@ -5,6 +5,10 @@ Chroma Prison
 W
 [Types]
 Enchantment
+[Rarity]
+C
+[Artist]
+Sandfall Interactive
 [Oracle]
 If you control a Painter, you may cast this spell as though it had flash.
 When this enchantment enters, exile another target nonland permanent.

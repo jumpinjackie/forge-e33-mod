@@ -7,6 +7,10 @@ W
 Kindred
 Sorcery
 Expeditioner
+[Rarity]
+C
+[Artist]
+Sandfall Interactive
 [Oracle]
 Each player gains twice X life.
 [FlavorText]

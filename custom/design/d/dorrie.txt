@@ -6,6 +6,10 @@ Dorrie
 Legendary
 Artifact
 Rock
+[Rarity]
+U
+[Artist]
+Sandfall Interactive
 [Oracle]
 {T}: Target creature you control gains Trample until end of turn.
 {1},Sacrifice Dorrie: Draw a card.

@@ -7,6 +7,10 @@ U
 Artifact
 Expeditioner
 Vehicle
+[Rarity]
+R
+[Artist]
+Sandfall Interactive
 [PT]
 2/3
 [Oracle]

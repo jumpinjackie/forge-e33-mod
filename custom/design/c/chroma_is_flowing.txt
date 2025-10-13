@@ -6,6 +6,10 @@ WG
 Kindred
 Sorcery
 Expeditioner
+[Rarity]
+C
+[Artist]
+Sandfall Interactive
 [Oracle]
 Create two Chroma tokens.
 [ForgeScript]

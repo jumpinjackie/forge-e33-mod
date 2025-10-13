@@ -7,6 +7,10 @@ Legendary
 Artifact
 Creature
 Gestral
+[Rarity]
+M
+[Artist]
+Sandfall Interactive
 [PT]
 5/6
 [Oracle]

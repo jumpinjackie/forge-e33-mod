@@ -6,6 +6,10 @@ U
 [Types]
 Enchantment
 Room
+[Rarity]
+U
+[Artist]
+Sandfall Interactive
 [Oracle]
 When you unlock this door, draw two cards.
 [ForgeScript]

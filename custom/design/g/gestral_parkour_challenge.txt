@@ -6,6 +6,10 @@ Challenge
 WR
 [Types]
 Enchantment
+[Rarity]
+U
+[Artist]
+Sandfall Interactive
 [Oracle]
 Whenever a Human you control enters, you may put a quest counter on this enchantment.
 As long as this enchantment as two or more counters, creatures you control gain vigilance.

@@ -5,6 +5,10 @@ Repaint
 W
 [Types]
 Sorcery
+[Rarity]
+U
+[Artist]
+Sandfall Interactive
 [Oracle]
 As an additional cost to cast this spell, sacrifice three Chroma tokens.
 Return target card you own from exile to your hand.

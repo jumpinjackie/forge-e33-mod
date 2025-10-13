@@ -8,6 +8,10 @@ Creature
 Human
 Expeditioner
 Cleric
+[Rarity]
+C
+[Artist]
+Sandfall Interactive
 [PT]
 1/2
 [Oracle]

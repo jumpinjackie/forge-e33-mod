@@ -6,6 +6,10 @@ WG
 Kindred
 Instant
 Expeditioner
+[Rarity]
+C
+[Artist]
+Sandfall Interactive
 [Oracle]
 Kicker {2}.
 Destroy target artifact or enchantment with mana value 2 lor less.

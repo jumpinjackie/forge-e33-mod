@@ -7,6 +7,10 @@ U
 Creature
 Human
 Expeditioner
+[Rarity]
+C
+[Artist]
+Sandfall Interactive
 [PT]
 3/1
 [Oracle]

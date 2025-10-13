@@ -7,6 +7,10 @@ B
 [Types]
 Sorcery
 Gradient
+[Rarity]
+M
+[Artist]
+Sandfall Interactive
 [Oracle]
 This spell costs {1} less to cast if you control a painter.
 Exile all nonland permanents that aren't legendary or Nevrons.

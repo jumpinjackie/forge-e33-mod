@@ -5,6 +5,10 @@ When One Falls
 W
 [Types]
 Sorcery
+[Rarity]
+R
+[Artist]
+Sandfall Interactive
 [Oracle]
 Return all Expeditioner permanent cards from your graveyard to the battlefield.
 [ForgeScript]

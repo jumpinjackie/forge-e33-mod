@@ -6,6 +6,10 @@ Gestral Fighter
 Artifact
 Creature
 Gestral
+[Rarity]
+R
+[Artist]
+Sandfall Interactive
 [PT]
 1/2
 [Oracle]

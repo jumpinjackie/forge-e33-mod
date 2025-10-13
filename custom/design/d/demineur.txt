@@ -3,7 +3,12 @@ Demineur
 [ManaCost]
 U
 [Types]
-Creature Nevron
+Creature
+Nevron
+[Rarity]
+C
+[Artist]
+Sandfall Interactive
 [PT]
 1/1
 [Oracle]

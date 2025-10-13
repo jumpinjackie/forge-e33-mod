@@ -6,6 +6,10 @@ W
 [Types]
 Legendary
 Sorcery
+[Rarity]
+R
+[Artist]
+Sandfall Interactive
 [Oracle]
 (You may cast a legendary sorcery only if you control a legendary creature or planeswalker.)
 Destroy all non-basic lands.

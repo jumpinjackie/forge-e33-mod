@@ -8,6 +8,10 @@ B
 Creature
 Human
 Expeditioner
+[Rarity]
+U
+[Artist]
+Sandfall Interactive
 [PT]
 2/2
 [Oracle]

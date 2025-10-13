@@ -4,6 +4,10 @@ Manor Gardens
 no cost
 [Types]
 Land
+[Rarity]
+C
+[Artist]
+Sandfall Interactive
 [Oracle]
 This land enters tapped.
 {T}: Add {G}.
