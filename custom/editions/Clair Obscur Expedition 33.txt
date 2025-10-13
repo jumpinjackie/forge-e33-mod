@@ -90,9 +90,9 @@ Type=Custom
 83 U Gestral Lackey @Sandfall Interactive
 84 U Gestral Merchant @Sandfall Interactive
 85 U Gestral Parkour Challenge @Sandfall Interactive
-86 U Gestral Raft Volleyball Challenge @Sandfall Interactive
-87 U Gestral Ringleader @Sandfall Interactive
-88 C Gestral Statue @Sandfall Interactive
+86 C Gestral Pot @Sandfall Interactive
+87 U Gestral Raft Volleyball Challenge @Sandfall Interactive
+88 U Gestral Ringleader @Sandfall Interactive
 89 R Gestral Village @Sandfall Interactive
 90 C Gestral Villager @Sandfall Interactive
 91 U Gestral Volleyball Strike @Sandfall Interactive
@@ -150,7 +150,7 @@ Type=Custom
 143 U Repaint @Sandfall Interactive
 144 U Revitalization @Sandfall Interactive
 145 C Rip Apart Reality @Sandfall Interactive
-146 R Sastro, the Concerned @Sandfall Interactive
+146 R Sastro, Gestral Guardian @Sandfall Interactive
 147 R Sciel, Grieving for Many @Sandfall Interactive
 148 U Sciel's Intervention @Sandfall Interactive
 149 R Serpenphare @Sandfall Interactive
