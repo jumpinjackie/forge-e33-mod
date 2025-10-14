@@ -59,6 +59,7 @@ Demineur
 Dessendre Family Portrait
 Dominique Giant Feet
 Dorrie
+Dualliste
 Earth Rising
 Egide
 Endless Tower
@@ -204,6 +205,7 @@ Monoco's Station
 Mutinous Expedition 48 Soldier
 Nevron Disguise
 Nevron Pecking Order
+Noco, The Greatest Merchant
 Noire
 Obscur
 Offensive Switch
@@ -224,6 +226,8 @@ Ranger Sakapatate
 Reaper Cultist
 Recoat
 Renoir, Dessendre Patriarch
+Renoir's Creation
+Renoir's Drafts
 Renoir's Will
 Repaint
 Revitalization
@@ -266,6 +270,7 @@ The Search for Esquie's Rocks
 The World Canvas
 Thermal Transfer
 Tomorrow Comes
+Torture // Nurture
 Troubador
 Twilight Quarry
 Ultimate Sakapatate
