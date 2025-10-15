@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 15/10/2025 10:21:33 AM
+> Last generated: 15/10/2025 11:35:27 AM
 
 ## Catapault Sakapatate
 
@@ -163,7 +163,6 @@ It's a gutting realization, what has to be done. The mission is too important. T
 3RR
 Kindred Sorcery - Expeditioner
 This spell deals X damage to each creature without flying and each player, where X is twice the number of non-basic lands in play.
-Storm.
 ```
 
 [card implementation](../custom/cards/t/terraquake.txt)

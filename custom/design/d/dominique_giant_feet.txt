@@ -15,9 +15,9 @@ Sandfall Interactive
 4/4
 [Oracle]
 Trample
-{2}: Put a flying counter on Dominique.
-Two-handed slam - {2},{T},Remove a flying counter from Dominique: Dominique deals 4 damage to target creature.
-At the beginning of each end step, remove all flying counters on Dominique.
+{2}: Put a flying counter on ~.
+Two-handed slam - {2}, {T}, Remove a flying counter from ~: ~ deals 4 damage to target creature.
+At the beginning of each end step, remove all flying counters on ~.
 [ForgeScript]
 K:Trample
 T:Mode$ Phase | Phase$ End of Turn | TriggerZones$ Battlefield | Execute$ DBRemoveAllFlying | TriggerDescription$ At the beginning of each end step, remove all flying counters on CARDNAME.

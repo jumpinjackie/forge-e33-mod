@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 15/10/2025 10:21:33 AM
+> Last generated: 15/10/2025 11:35:27 AM
 
 ## An Advantage!
 
@@ -305,7 +305,7 @@ Enchantment - Aura
 Enchant Creature.
 Whenever enchanted creature deals damage to an opponent, choose one:
  - Draw a card
- - Create a Lumina token (It's an artifact with "{T}, Sacrifice this token: Sacrifice this token: Scry 1.")
+ - Create a Lumina token (It's an artifact with "{T}, Sacrifice this token: Scry 1.")
 ---
 Do you heal from the top or the bottom? Or do you have to bring the halves together? Hey, can you control the process?
 ```

@@ -9,9 +9,12 @@ U
 [Artist]
 Sandfall Interactive
 [Oracle]
-This land enters tapped
+~ enters tapped
 {T}: Add {U}.
 {U}, {T}: Target creature you control gains flying until end of turn.
+[FlavorText]
+Gustave: Expedition 68. Their boat was blown into the air by a storm. Lumiere lost sight of it but assumed they crashed on the continent.
+Lune: And they survived. The storm, at least.
 [ForgeScript]
 R:Event$ Moved | ValidCard$ Card.Self | Destination$ Battlefield | ReplacementResult$ Updated | ReplaceWith$ ETBTapped | Description$ CARDNAME enters tapped.
 SVar:ETBTapped:DB$ Tap | Defined$ Self | ETB$ True

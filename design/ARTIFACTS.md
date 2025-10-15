@@ -1,13 +1,15 @@
 # Cards
 
-> Last generated: 15/10/2025 10:21:33 AM
+> Last generated: 15/10/2025 11:35:27 AM
 
 ## Berrami, Collector of Journals
 
 ```
 3
 Legendary Artifact Creature - Gestral
-At the beginning of your upkeep, you may mill a card. If you do, create 2 Lumina tokens.
+At the beginning of your upkeep, you may mill a card. If you do, create two Lumina tokens. (It's an artifact with "{T}, Sacrifice this token: Scry 1.")
+---
+You found all the journals? Moshi will be so happy.
 
 2/2
 ```
@@ -76,9 +78,9 @@ One family, united by art, divided by grief.
 4
 Legendary Artifact Creature - Gestral
 Trample
-{2}: Put a flying counter on Dominique.
-Two-handed slam - {2},{T},Remove a flying counter from Dominique: Dominique deals 4 damage to target creature.
-At the beginning of each end step, remove all flying counters on Dominique.
+{2}: Put a flying counter on Dominique Giant Feet.
+Two-handed slam - {2}, {T}, Remove a flying counter from Dominique Giant Feet: Dominique Giant Feet deals 4 damage to target creature.
+At the beginning of each end step, remove all flying counters on Dominique Giant Feet.
 
 4/4
 ```
@@ -240,7 +242,7 @@ Whenever Gestral Lackey deals damage to a player, you may put a Gestral permanen
 ```
 3
 Artifact Creature - Gestral
-Whenever this creature is dealt damage, create a Chroma token.
+Whenever this creature is dealt damage, create a Chroma token (It's an artifact with "{T}, Sacrifice this token: Add one mana of any color. Spend this mana only to cast a Nevron, Gestral or Expeditioner spell.")
 ---
 I have some useful items for you!
 

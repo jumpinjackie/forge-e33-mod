@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 15/10/2025 10:21:33 AM
+> Last generated: 15/10/2025 11:35:27 AM
 
 ## Crushing Cavern
 
@@ -130,6 +130,9 @@ Land
 This land enters tapped
 {T}: Add {U}.
 {U}, {T}: Target creature you control gains flying until end of turn.
+---
+Gustave: Expedition 68. Their boat was blown into the air by a storm. Lumiere lost sight of it but assumed they crashed on the continent.
+Lune: And they survived. The storm, at least.
 ```
 
 [card implementation](../custom/cards/f/flying_waters.txt)

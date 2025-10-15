@@ -13,7 +13,7 @@ Sandfall Interactive
 [PT]
 2/3
 [Oracle]
-Whenever this creature is dealt damage, create a Chroma token.
+Whenever ~ is dealt damage, create a Chroma token $CHROMA_REMINDER_TEXT
 [FlavorText]
 I have some useful items for you!
 [ForgeScript]

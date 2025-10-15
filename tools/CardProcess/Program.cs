@@ -194,7 +194,7 @@ public class CardFaceDesign
         sb.Replace("$LEGENDARY_SORCERY_REMINDER_TEXT", "(You may cast a legendary sorcery only if you control a legendary creature or planeswalker.)");
         sb.Replace("$INVESTIGATE_REMINDER_TEXT", "(Create a Clue token. It's an artifact with \"{2}, Sacrifice this token: Draw a card.\")");
         sb.Replace("$CHROMA_REMINDER_TEXT", "(It's an artifact with \"{T}, Sacrifice this token: Add one mana of any color. Spend this mana only to cast a Nevron, Gestral or Expeditioner spell.\")");
-        sb.Replace("$LUMINA_REMINDER_TEXT", "(It's an artifact with \"{T}, Sacrifice this token: Sacrifice this token: Scry 1.\")");
+        sb.Replace("$LUMINA_REMINDER_TEXT", "(It's an artifact with \"{T}, Sacrifice this token: Scry 1.\")");
         sb.Replace("$EXPEDITIONER_TOKEN_TEXT", "\"When this creature dies, create a Chroma token.\"");
         sb.Replace("$NEVRON_DEATH_ABILITY_TEXT", "When this creature dies, target opponent creates a Lumina token.");
         sb.Replace("$EXPEDITIONER_DEATH_ABILITY_TEXT", "When this creature dies, create a Chroma token.");
@@ -225,9 +225,15 @@ public class CardFaceDesign
         if (ht.Contains("Land"))
             thisName = "this land";
 
-        if (ht.Contains("Legendary") && ht.Contains("Creature") && origCardName?.Contains(",") == true)
-            thisName = origCardName.Substring(origCardName.IndexOf(","));
+        if (ht.Contains("Legendary") && ht.Contains("Creature"))
+        {
+            if (origCardName?.Contains(",") == true)
+                thisName = origCardName.Substring(origCardName.IndexOf(","));
+            else
+                thisName = origCardName;
+        }
 
+        sb.Replace(": ~", ": " + (string.IsNullOrEmpty(thisName) ? thisName : char.ToUpper(thisName[0]) + thisName.Substring(1)));
         sb.Replace(". ~", ". " + (string.IsNullOrEmpty(thisName) ? thisName : char.ToUpper(thisName[0]) + thisName.Substring(1)));
         sb.Replace("\n~", "\n" + (string.IsNullOrEmpty(thisName) ? thisName : char.ToUpper(thisName[0]) + thisName.Substring(1)));
         sb.Replace("~", thisName);
@@ -235,7 +241,7 @@ public class CardFaceDesign
         sb.Replace("$LEGENDARY_SORCERY_REMINDER_TEXT", "(You may cast a legendary sorcery only if you control a legendary creature or planeswalker.)");
         sb.Replace("$INVESTIGATE_REMINDER_TEXT", "(Create a Clue token. It's an artifact with \"{2}, Sacrifice this token: Draw a card.\")");
         sb.Replace("$CHROMA_REMINDER_TEXT", "(It's an artifact with \"{T}, Sacrifice this token: Add one mana of any color. Spend this mana only to cast a Nevron, Gestral or Expeditioner spell.\")");
-        sb.Replace("$LUMINA_REMINDER_TEXT", "(It's an artifact with \"{T}, Sacrifice this token: Sacrifice this token: Scry 1.\")");
+        sb.Replace("$LUMINA_REMINDER_TEXT", "(It's an artifact with \"{T}, Sacrifice this token: Scry 1.\")");
         sb.Replace("$EXPEDITIONER_TOKEN_TEXT", "\"When this creature dies, create a Chroma token.\"");
         sb.Replace("$NEVRON_DEATH_ABILITY_TEXT", "When this creature dies, target opponent creates a Lumina token.");
         sb.Replace("$EXPEDITIONER_DEATH_ABILITY_TEXT", "When this creature dies, create a Chroma token.");

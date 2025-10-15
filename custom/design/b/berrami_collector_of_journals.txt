@@ -14,7 +14,9 @@ Sandfall Interactive
 [PT]
 2/2
 [Oracle]
-At the beginning of your upkeep, you may mill a card. If you do, create 2 Lumina tokens.
+At the beginning of your upkeep, you may mill a card. If you do, create two Lumina tokens. $LUMINA_REMINDER_TEXT
+[FlavorText]
+You found all the journals? Moshi will be so happy.
 [ForgeScript]
 T:Mode$ Phase | Phase$ Upkeep | ValidPlayer$ You | Execute$ TrigToken | TriggerZones$ Battlefield | TriggerDescription$ At the beginning of your upkeep, you may mill a card. If you do, create 2 Lumina tokens.
 SVar:TrigToken:AB$ Token | Cost$ Mill<1> | TokenAmount$ 2 | TokenScript$ c_a_lumina

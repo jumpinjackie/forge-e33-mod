@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 15/10/2025 10:21:33 AM
+> Last generated: 15/10/2025 11:35:27 AM
 
 ## A Storm is Coming
 
@@ -168,8 +168,9 @@ Enchanted permanent becomes an artifact and loses all abilities.
 2UR
 Creature - Nevron
 When this creature dies, target opponent creates a Lumina token.
-{R},{T}: This creature deals 2 damage to target creature.
-{U},{T}: Tap target creature. Put a stun counter on it.\nWhen this creature dies, if you control no creatures, put two 2/2 Red and Blue Danseuse Clone creature tokens into play.
+{R}, {T}: This creature deals 2 damage to target creature.
+{U}, {T}: Tap target creature. Put a stun counter on it.
+When this creature dies, if you control no creatures, put two 2/2 Red and Blue Danseuse Clone creature tokens into play.
 
 2/2
 ```
