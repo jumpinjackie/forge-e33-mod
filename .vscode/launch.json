@@ -42,7 +42,7 @@
                 "--base-directory",
                 "${workspaceFolder}/custom",
                 "--output-dir",
-                "${workspaceFolder}"
+                "${workspaceFolder}/design"
             ],
             "cwd": "${workspaceFolder}/tools/CardProcess",
             "console": "internalConsole",

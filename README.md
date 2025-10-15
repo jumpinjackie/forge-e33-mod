@@ -47,4 +47,4 @@ To see what cards are in this set, check out the various design docs which detai
 
 # Known issues
 
- * [Current List](/BUGS.md)
+ * [Current List](/design/BUGS.md)
