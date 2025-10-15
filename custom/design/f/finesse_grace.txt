@@ -1,0 +1,28 @@
+[Name]
+Finesse
+[ManaCost]
+1R
+[Types]
+Instant
+[Rarity]
+C
+[Artist]
+Sandfall Interactive
+[Oracle]
+Target creature gains vigilance, haste and +2/+0 until end of turn.
+[ForgeScript]
+A:SP$ Pump | ValidTgts$ Creature | TgtPrompt$ Select target creature | NumAtt$ +2 | KW$ Vigilance & Haste | SpellDescription$ Target creature gains vigilance, haste and +2/+0 until end of turn.
+ALTERNATE:FUSE
+[Name]
+Grace
+[ManaCost]
+1W
+[Types]
+Instant
+[Oracle]
+Target creature gains first strike, lifelink and +1/+1 until end of turn.
+[ForgeScript]
+A:SP$ Pump | ValidTgts$ Creature | TgtPrompt$ Select target creature | NumAtt$ +1 | NumDef$ +1 | KW$ First Strike & Lifelink | SpellDescription$ Target creature gains first strike, lifelink and +1/+1 until end of turn.
+[DesignNotes]
+ - One of Maelle's quotes during battle.
+ - Thematically sounds like a combat trick. Designed as such.

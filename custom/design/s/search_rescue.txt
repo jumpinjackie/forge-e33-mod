@@ -1,0 +1,31 @@
+[Name]
+Search
+[ManaCost]
+G
+[Types]
+Instant
+[Rarity]
+C
+[Artist]
+Sandfall Interactive
+[ArtNotes]
+Search half: The Expedition 00 team conducting searches for any survivors.
+Rescue half: An Expedition 00 member is trying to pull a surivior out of a hole.
+[Oracle]
+Search your library for a basic land card, reveal it, put it into your hand, then shuffle.
+[ForgeScript]
+A:SP$ ChangeZone | Origin$ Library | Destination$ Hand | ChangeType$ Land.Basic | ChangeTypeDesc$ basic land | SpellDescription$ Search your library for a basic land card, reveal it, put it into your hand, then shuffle.
+ALTERNATE:FUSE
+[Name]
+Rescue
+[ManaCost]
+U
+[Types]
+Instant
+[Oracle]
+Return target creature to its owner's hand.
+[ForgeScript]
+A:SP$ ChangeZone | ValidTgts$ Creature | TgtPrompt$ Select target creature | Origin$ Battlefield | Destination$ Hand | SpellDescription$ Return target creature to its owner's hand.
+[DesignNotes]
+ - Represents the search and rescue mission conducted by Expedition 00.
+ - Stapled Lay of the Land and Unsummon together.

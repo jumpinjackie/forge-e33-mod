@@ -22,3 +22,4 @@ A:AB$ Animate | Cost$ 2 | Defined$ Self | Power$ 2 | Toughness$ 2 | Types$ Artif
 [DesignNotes]
  - Gestral version of Guardian Idol.
  - A mana rock to support the Gestral tribal strategy, while providing some extra offensive punch if required.
+ - 13/10/2025: Formerly known as Gestral Statue. Renamed because Gestral Pots have an actual in-game basis. They are in front of the Dark Gestral Arena and a living Gestral is inside it.

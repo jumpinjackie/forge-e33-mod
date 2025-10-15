@@ -1,0 +1,23 @@
+[Name]
+Verisimilitude
+[ManaCost]
+3
+U
+[Types]
+Enchantment
+[Rarity]
+R
+[Artist]
+Sandfall Interactive
+[Oracle]
+You may have ~ enter as a copy of any permanent on the battlefield, except it is an enchantment in addition to its other types and has "When ~ leaves the battlefield, create a Chroma token $CHROMA_REMINDER_TEXT"
+[ForgeScript]
+K:ETBReplacement:Copy:DBCopy:Optional
+SVar:DBCopy:DB$ Clone | Choices$ Permanent | AddTypes$ Enchantment | AddTriggers$ LuminaRewardTrigger | AddSVars$ TrigToken | SpellDescription$ You may have ~ enter as a copy of any permanent on the battlefield, except it is an enchantment in addition to its other types and has "When ~ leaves the battlefield, create a Chroma token $CHROMA_REMINDER_TEXT"
+SVar:LuminaRewardTrigger:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Any | ValidCard$ Card.Self | Execute$ TrigToken | TriggerDescription$ When CARDNAME leaves the battlefield, create a Chroma token
+SVar:TrigToken:DB$ Token | TokenScript$ c_a_chroma | TokenOwner$ You | TokenAmount$ 1
+[DesignNotes]
+ - "Painting isn't about verisimilitude, it's about essence. The truth of who they are." -Verso
+ - Such a perfectly cromulent word needs its own card.
+ - Dictionary definition: The quality of appearing to be true or real.
+ - Therefore, must be a clone/copy effect.

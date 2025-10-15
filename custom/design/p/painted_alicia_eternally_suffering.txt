@@ -1,0 +1,28 @@
+[Name]
+Painted Alicia, Eternally Suffering
+[ManaCost]
+W
+B
+[Types]
+Legendary
+Creature
+Painter
+God
+[Rarity]
+R
+[Artist]
+Sandfall Interactive
+[PT]
+2/2
+[Oracle]
+Each player who has cast a non-Nevron, non-Gradient spell this turn can’t cast additional non-Nevron, non-Gradient spells.
+Sacrifice three Chroma tokens: Your opponents can't cast spells this turn.
+[ForgeScript]
+S:Mode$ CantBeCast | ValidCard$ Card.nonNevron+nonGradient | Caster$ Player | NumLimitEachTurn$ 1 | Description$ Each player who has cast a non-Nevron, non-Gradient spell this turn can’t cast additional non-Nevron, non-Gradient spells.
+A:AB$ Effect | Cost$ Sac<3/Chroma> | StaticAbilities$ STCantBeCast | AILogic$ BeginningOfOppTurn | SpellDescription$ Your opponents can't cast spells this turn.
+SVar:STCantBeCast:Mode$ CantBeCast | ValidCard$ Card | Caster$ Opponent | Description$ Your opponents can't cast spells.
+[DesignNotes]
+ - In the game, Painted Alicia is the painted counterpart of Alicia
+ - Thematically gone with another variant of silence effects to mirror her human counterpart.
+    - In this case, an Ethersworn Canonist with Nevron/Painter bias.
+    - And a Silence effect for the cost of 3 chroma tokens.

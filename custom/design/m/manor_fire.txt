@@ -1,0 +1,20 @@
+[Name]
+Manor Fire
+[ManaCost]
+2
+RG
+[Types]
+Sorcery
+[Rarity]
+U
+[Artist]
+Sandfall Interactive
+[Oracle]
+Destroy all Rooms.
+Draw a card.
+[ForgeScript]
+A:SP$ DestroyAll | ValidCards$ Room | SubAbility$ DBDraw | SpellDescription$ Destroy all Rooms.
+SVar:DBDraw:DB$ Draw | NumCards$ 1
+[DesignNotes]
+ - In the game, this is the event that took Verso's life and started Aline's cycle of grief and Renoir's attempts to get her out of the canvas, tearing the Dessendre family apart.
+ - A basic foil for room strategies with a cantrip so it's not entirely useless when not facing against room strategies.

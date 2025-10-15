@@ -1,0 +1,23 @@
+[Name]
+Gestral Warrior
+[ManaCost]
+3
+[Types]
+Artifact
+Creature
+Gestral
+[Rarity]
+C
+[Artist]
+Sandfall Interactive
+[PT]
+4/3
+[Oracle]
+~ cannot attack or block alone.
+[ForgeScript]
+K:CARDNAME can't attack or block alone.
+[FlavorText]
+
+[DesignNotes]
+ - In the game, Gestral Warriors reside in the Gestral Village.
+ - Gestral version of Mogg Flunkies.

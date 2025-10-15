@@ -1,0 +1,20 @@
+[Name]
+Sinister Cave
+[ManaCost]
+no cost
+[Types]
+Land
+Cave
+[Rarity]
+U
+[Artist]
+Sandfall Interactive
+[Oracle]
+~ enters tapped.
+{T}: Add {B} or {R}
+[ForgeScript]
+R:Event$ Moved | ValidCard$ Card.Self | Destination$ Battlefield | ReplacementResult$ Updated | ReplaceWith$ ETBTapped | Description$ CARDNAME enters tapped.
+SVar:ETBTapped:DB$ Tap | Defined$ Self | ETB$ True
+A:AB$ Mana | Cost$ T | Produced$ Combo B R | SpellDescription$ Add {B} or {R}.
+[DesignNotes]
+ - In the game, the Sinister Cave is located east of Sirene's Coliseum.

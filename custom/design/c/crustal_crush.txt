@@ -1,0 +1,22 @@
+[Name]
+Crustal Crush
+[ManaCost]
+3
+R
+[Types]
+Kindred
+Instant
+Expeditioner
+[Rarity]
+C
+[Artist]
+Sandfall Interactive
+[Oracle]
+You may sacrifice a Mountain rather than pay this spell's mana cost.
+~ deals 5 damage to target creature or planeswalker.
+[ForgeScript]
+S:Mode$ AlternativeCost | ValidSA$ Spell.Self | EffectZone$ All | Cost$ Sac<1/Mountain> | Description$ You may sacrifice a Mountain rather than pay this spell's mana cost.
+A:SP$ DealDamage | ValidTgts$ Creature,Planeswalker | TgtPrompt$ Select target creature or planeswalker | NumDmg$ 5 | SpellDescription$ CARDNAME deals 5 damage to target creature or planeswalker.
+[DesignNotes]
+ - In the game, this is one of Lune's skills.
+ - Obviously a mountain/rock based attack so gone with Mine Collapse but with Expeditioner alignment and relaxed timing restrictions for the alt cost.
