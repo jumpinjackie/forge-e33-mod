@@ -207,8 +207,8 @@ public class CardFaceDesign
         var thisName = origCardName;
         var ht = (this.Types ?? []).ToHashSet();
         var sb = new StringBuilder(this.OracleTextFull);
-        if (ht.Contains("Instant") || ht.Contains("Sorcery"))
-            thisName = "this spell";
+        //if (ht.Contains("Instant") || ht.Contains("Sorcery"))
+        //    thisName = "this spell";
         if (ht.Contains("Creature"))
             thisName = "this creature";
         if (ht.Contains("Enchantment"))
