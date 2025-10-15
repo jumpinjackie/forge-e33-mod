@@ -1,0 +1,5 @@
+Name:Lumiere Opera House
+ManaCost:no cost
+Types:Land
+
+Oracle:At the beginning of your upkeep, put a verse counter on this land.\nRemove two verse counters from this land: Expeditioners you control get +1/+1 until end of turn.\n{T}: Add {C}.

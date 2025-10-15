@@ -1,0 +1,9 @@
+Name:Strikestorm
+ManaCost:2 WR WR
+Types:Kindred Instant Expeditioner
+A:SP$ Pump | ValidTgts$ Creature.YouCtrl | TgtPrompt$ Select target creature you control | SubAbility$ DBDamage | AILogic$ PowerDmg | StackDescription$ {c:ThisTargetedCard} | SpellDescription$ Target creature you control
+SVar:DBDamage:DB$ DealDamage | ValidTgts$ Creature | TgtPrompt$ Select another target creature | TargetUnique$ True | AILogic$ PowerDmg | NumDmg$ X | DamageSource$ ParentTarget | ExcessSVar$ Excess | SubAbility$ DBGainLife | StackDescription$ REP another target creature_{c:ThisTargetedCard} | SpellDescription$ deals damage equal to its power to another target creature.
+SVar:DBGainLife:DB$ GainLife | Defined$ You | LifeAmount$ X
+SVar:X:TriggerCount$DamageAmount
+K:Storm
+Oracle:Target creature you control deals damage equal to its power to another target creature. You gain that much life.\nStorm. (When you cast this spell, copy it for each spell cast before it this turn. You may choose new targets for the copies.)

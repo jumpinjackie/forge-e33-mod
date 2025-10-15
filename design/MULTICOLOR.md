@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 12/10/2025 5:01:06 PM
+> Last generated: 15/10/2025 10:21:33 AM
 
 ## A Storm is Coming
 
@@ -460,6 +460,27 @@ Gregoire is, as usual, deeply suspicious, but this could change our entire under
  - This card represents someone who has mastered the ability to communicate with Nevron.
  - Mechanically translated to taking control of Nevrons with a Vedalken Shackles style effect.
 
+## Finesse // Grace
+
+```
+Finesse
+(1/R)
+Instant
+Target creature gains vigilance, haste and +2/+0 until end of turn.
+Grace
+(1/W)
+Instant
+Target creature gains first strike, lifelink and +1/+1 until end of turn.
+Fuse (You may cast one or both halves of this card from your hand.)
+```
+
+[card implementation](../custom/cards/f/finesse_grace.txt)
+
+### Design Notes
+
+ - One of Maelle's quotes during battle.
+ - Thematically sounds like a combat trick. Designed as such.
+
 ## For Those Who Come After
 
 ```
@@ -700,6 +721,22 @@ When you unlock this door, return target creature card from your graveyard to th
  - In the game, the Manor entrance is there the expedition flag is to save. There is room that is hidden behind a painting that is accessible by jumping through the painting.
  - Gone with an effect to cheat a creature into play with each side represent a different way to cheat said creature into play.
 
+## Manor Fire
+
+```
+2(R/G)
+Sorcery
+Destroy all Rooms.
+Draw a card.
+```
+
+[card implementation](../custom/cards/m/manor_fire.txt)
+
+### Design Notes
+
+ - In the game, this is the event that took Verso's life and started Aline's cycle of grief and Renoir's attempts to get her out of the canvas, tearing the Dessendre family apart.
+ - A basic foil for room strategies with a cantrip so it's not entirely useless when not facing against room strategies.
+
 ## Manor Greenhouse // Manor Gallery
 
 ```
@@ -788,6 +825,26 @@ My, what lovely feet! - Monoco has activated abilities of all Nevrons in exile w
  - Exile with a Foot counter is a book-keeping mechanism to easily track which creatures Monoco will be stealing abilities from.
  - Fight ability provided because Monoco is a Gestral, and Gestrals love to fight, and also serves as an enabler for ability stealing.
  - The untap ability is provided for synergy with any tap activated abilities that Monoco may steal.
+
+## Painted Alicia, Eternally Suffering
+
+```
+WB
+Legendary Creature - Painter God
+Each player who has cast a non-Nevron, non-Gradient spell this turn can’t cast additional non-Nevron, non-Gradient spells.
+Sacrifice three Chroma tokens: Your opponents can't cast spells this turn.
+
+2/2
+```
+
+[card implementation](../custom/cards/p/painted_alicia_eternally_suffering.txt)
+
+### Design Notes
+
+ - In the game, Painted Alicia is the painted counterpart of Alicia
+ - Thematically gone with another variant of silence effects to mirror her human counterpart.
+    - In this case, an Ethersworn Canonist with Nevron/Painter bias.
+    - And a Silence effect for the cost of 3 chroma tokens.
 
 ## Painted Clea, the Mistress
 
@@ -878,6 +935,27 @@ Death is a friend who will welcome me home
  - Our Sacrifice in the game deals extreme dark damage to all enemies, absorbing allies' health to deal more damage. Translated to paying X life to -X/-X an opponent's board.
  - 13/10/2025: Dropped the marking card ability due to text box budget constraints having seen this card for the first time in CardConjurer.
 
+## Search // Rescue
+
+```
+Search
+G
+Instant
+Search your library for a basic land card, reveal it, put it into your hand, then shuffle.
+Rescue
+U
+Instant
+Return target creature to its owner's hand.
+Fuse (You may cast one or both halves of this card from your hand.)
+```
+
+[card implementation](../custom/cards/s/search_rescue.txt)
+
+### Design Notes
+
+ - Represents the search and rescue mission conducted by Expedition 00.
+ - Stapled Lay of the Land and Unsummon together.
+
 ## Serpenphare
 
 ```
@@ -898,6 +976,22 @@ An omnipresent feature of the continent skies. A reminder that before one can ev
 
  - In the game, Serpenphare is an optional end-game boss. Its most prominent attack is an AP draining ability, if it consumes too much AP with this move, it will explode.
  - Mechanically, we modeled the AP draining ability as a tap and stun with a charge counter being given. The "explode" ability is modeled as removing X charge counters to X damage to every creature (including itself)
+
+## Strikestorm
+
+```
+2(W/R)(W/R)
+Kindred Instant - Expeditioner
+Target creature you control deals damage equal to its power to another target creature. You gain that much life.
+Storm. (When you cast this spell, copy it for each spell cast before it this turn. You may choose new targets for the copies.)
+```
+
+[card implementation](../custom/cards/s/strikestorm.txt)
+
+### Design Notes
+
+ - In the game, this is one of Gustave's abilities.
+ - Mechanically translated to a storm-powered combat trick (it has storm in it's name!).
 
 ## The Greatest Expedition in History
 
@@ -927,6 +1021,26 @@ Search your library for an Expeditioner card, reveal it and put it into your han
 ### Design Notes
 
  - Another tutor to enable the Expeditioner tribal strategy / Expeditioner spell toolbox.
+
+## Torture // Nurture
+
+```
+Torture
+(1/B)
+Instant
+Target creature gets -2/-2 until end of turn. It's controller loses 2 life.
+Nurture
+(1/W)
+Instant
+Target creature gets +2/+2 until end of turn. It's controller gains 2 life.
+Fuse (You may cast one or both halves of this card from your hand.)
+```
+
+[card implementation](../custom/cards/t/torture_nurture.txt)
+
+### Design Notes
+
+ - Just wanted a card that's a wordplay on one of Sciel's character traits (nurturing) and its polar opposite.
 
 ## Void Meteors
 

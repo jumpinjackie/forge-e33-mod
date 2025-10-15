@@ -1,0 +1,13 @@
+Name:Search
+ManaCost:G
+Types:Instant
+A:SP$ ChangeZone | Origin$ Library | Destination$ Hand | ChangeType$ Land.Basic | ChangeTypeDesc$ basic land | SpellDescription$ Search your library for a basic land card, reveal it, put it into your hand, then shuffle.
+Oracle:Search your library for a basic land card, reveal it, put it into your hand, then shuffle.\nFuse (You may cast one or both halves of this card from your hand.)
+
+ALTERNATE
+
+Name:Rescue
+ManaCost:U
+Types:Instant
+A:SP$ ChangeZone | ValidTgts$ Creature | TgtPrompt$ Select target creature | Origin$ Battlefield | Destination$ Hand | SpellDescription$ Return target creature to its owner's hand.
+Oracle:Return target creature to its owner's hand.

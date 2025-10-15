@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 12/10/2025 5:01:06 PM
+> Last generated: 15/10/2025 10:21:33 AM
 
 ## An Advantage!
 
@@ -111,7 +111,7 @@ This creature gets +2/+2 and Ward 2 if you control a creature named Bruler.
 
 ```
 U
-Creature Nevron
+Creature - Nevron
 Flying.
 When this creature becomes the target of a spell or ability, sacrifice it.
 When this creature dies, target opponent creates a Lumina token.
@@ -297,6 +297,26 @@ Tap up to two target permanents. Put a stun counter on them.
 
  - Generic useful ice-themed tempo play in limited/draft environments.
 
+## Lune's Curiosity
+
+```
+U
+Enchantment - Aura
+Enchant Creature.
+Whenever enchanted creature deals damage to an opponent, choose one:
+ - Draw a card
+ - Create a Lumina token (It's an artifact with "{T}, Sacrifice this token: Sacrifice this token: Scry 1.")
+---
+Do you heal from the top or the bottom? Or do you have to bring the halves together? Hey, can you control the process?
+```
+
+[card implementation](../custom/cards/l/lunes_curiosity.txt)
+
+### Design Notes
+
+ - In the game, Lune is a naturally inquisitive character, always looking at things with scientific curiosity.
+ - Went with a more flavorful variant of Curiosity.
+
 ## Lune's Denial
 
 ```
@@ -423,4 +443,21 @@ If this spell was kicked, this spell deals 3 damage to another target creature.
 
  - In the game this is one of Lune's abilities.
  - As the ability from the game has fire/ice elements, it naturally mechanically maps to a tap and stun on the ice side. For the fire side, I've decided to add a creature bolt ability behind a kicker cost.
+
+## Verisimilitude
+
+```
+3U
+Enchantment
+You may have this enchantment enter as a copy of any permanent on the battlefield, except it is an enchantment in addition to its other types and has "When this enchantment leaves the battlefield, create a Chroma token (It's an artifact with "{T}, Sacrifice this token: Add one mana of any color. Spend this mana only to cast a Nevron, Gestral or Expeditioner spell.")"
+```
+
+[card implementation](../custom/cards/v/verisimilitude.txt)
+
+### Design Notes
+
+ - "Painting isn't about verisimilitude, it's about essence. The truth of who they are." -Verso
+ - Such a perfectly cromulent word needs its own card.
+ - Dictionary definition: The quality of appearing to be true or real.
+ - Therefore, must be a clone/copy effect.
 

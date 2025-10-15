@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 12/10/2025 5:01:06 PM
+> Last generated: 15/10/2025 10:21:33 AM
 
 ## Crushing Cavern
 
@@ -81,6 +81,26 @@ WOOOOOOOOOOOH! Bonjour, mes amis!
  - In the game, this is the place where Esquie dwells.
  - Esquie's Nest visually resembles most artistic depictions of the card Reflecting Pool, so I gave it the same mana ability.
  - I've gone with making this card one of the beneficiaries of the "Urzatron" rock strategy.
+
+## Expedition Camp
+
+```
+
+Land
+{T}: Add {C}.
+{3}, {T}: Exile target Expeditioner you control. At the beginning of the next end step, return that card to the battlefield under its owner's control. If it entered under your control and is a creature, put a +1/+1 counter on it.
+---
+So uh... We can rest a bit, but the moon is bright, I want to keep moving.
+- Gustave
+```
+
+[card implementation](../custom/cards/e/expedition_camp.txt)
+
+### Design Notes
+
+ - In the game, the party can set up camp in the overworld to upgrade their equipment and replenish party health.
+ - I envision this card as a "refuge" for Expeditioners ala. Safe Haven, so I've gone with a blink effect to signify the Expeditioner taking refuge and it coming back with a +1/+1 counter to signify it having ugpraded some of their equipment.
+ - Intentionally worded to allow blinking of any Expeditioner *permanent*
 
 ## Flying Casino
 
@@ -213,6 +233,26 @@ The Aquafarm project ensured that Lumiere would have a plentiful supply of food 
  - Obviously expeditioner aligned so they get a ETB tapped sidestep.
  - It's a farm so obviously needs a Food token generating ability.
 
+## Lumiere Opera House
+
+```
+
+Land
+At the beginning of your upkeep, put a verse counter on this land.
+Remove two verse counters from this land: Expeditioners you control get +1/+1 until end of turn.
+{T}: Add {C}.
+---
+Maybe when this is over, we can fix up the opera house and you can perform for us. I want my first concert to be yours. And don't worry, I'll make sure the room is packed. I'll put up posters everywhere in town.
+- Maelle
+```
+
+[card implementation](../custom/cards/l/lumiere_opera_house.txt)
+
+### Design Notes
+
+ - In the game, in Maelle's ending. Verso plays piano at the Lumiere Opera House (forever and ever?)
+ - Mechanically speaking, music generally translates to creature buffs (see almost any "Anthem" card printed), so I went with a land that grows verse counters that can be spent to momentarily buff your force.
+
 ## Lumiere, The Last Bastion
 
 ```
@@ -271,6 +311,41 @@ The Grandis have embraced us with such warmth and hope. What a balm for the soul
  - In the game, Monoco's Station is situated in an icy and mountainous region of the continent.
  - Therefore this should clearly be a blue/red dual land.
  - Since it's occupied by Monoco (a Gestral) and various Grandis creatures. They get the no-strings-attached dual land experience.
+
+## Sinister Cave
+
+```
+
+Land - Cave
+This land enters tapped.
+{T}: Add {B} or {R}
+```
+
+[card implementation](../custom/cards/s/sinister_cave.txt)
+
+### Design Notes
+
+ - In the game, the Sinister Cave is located east of Sirene's Coliseum.
+
+## Sirene's Coliseum
+
+```
+
+Land
+This land enters tapped unless you control a Nevron or Painter.
+{T}: Add {C}
+{T}: Add one mana of any color. This land deals 1 damage to you.
+---
+Maybe. Maybe we'll just stay here and... enjoy the melody.
+- Luc, Expedition 67
+```
+
+[card implementation](../custom/cards/s/sirenes_coliseum.txt)
+
+### Design Notes
+
+ - In the game, this is the home of Sirene, one of the Axons.
+ - Modelled on Grand Coliseum with drawbacks removed if you are Nevron/Painter aligned.
 
 ## The Hauler
 

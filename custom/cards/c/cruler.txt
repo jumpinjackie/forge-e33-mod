@@ -5,4 +5,4 @@ PT:2/3
 T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Card.Self | Execute$ TrigToken | TriggerDescription$ When this creature dies, target opponent creates a Lumina token.
 SVar:TrigToken:DB$ Token | TokenAmount$ 1 | ValidTgts$ Opponent | TokenOwner$ Targeted | TokenScript$ c_a_lumina
 S:Mode$ Continuous | Affected$ Card.Self | AddPower$ 2 | AddToughness$ 2 | AddKeyword$ Ward:2 | IsPresent$ Creature.YouCtrl+namedBruler | Description$ This creature gets +2/+2 and Ward 2 if you control a creature named Bruler.
-Oracle:When this creature dies, target opponent creates a Lumina token.\nThis creature gets +2/+2 and Ward 2 if you control a creature named Bruler.rd 2 if you control a creature named Bruler.
+Oracle:When this creature dies, target opponent creates a Lumina token.\nThis creature gets +2/+2 and Ward 2 if you control a creature named Bruler.

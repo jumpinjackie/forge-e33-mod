@@ -1,0 +1,6 @@
+Name:Manor Fire
+ManaCost:2 RG
+Types:Sorcery
+A:SP$ DestroyAll | ValidCards$ Room | SubAbility$ DBDraw | SpellDescription$ Destroy all Rooms.
+SVar:DBDraw:DB$ Draw | NumCards$ 1
+Oracle:Destroy all Rooms.\nDraw a card.

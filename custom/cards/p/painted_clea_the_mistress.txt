@@ -8,4 +8,4 @@ T:Mode$ Phase | Phase$ Upkeep | ValidPlayer$ You | TriggerZones$ Battlefield | E
 SVar:TrigToken:DB$ Token | TokenAmount$ 1 | TokenScript$ c_1_1_nevron | TokenOwner$ You
 A:AB$ ChangeZone | Cost$ 5 T | Origin$ Library | Destination$ Hand | ChangeType$ Card.Nevron | ChangeNum$ 1 | ShuffleNonMandatory$ True
 DeckHints:Type$Nevron
-Oracle:Nevron spells you cast cost {2} less to cast.\nNevron creatures you control get +2/+2\nAt the beginning of your upkeep, create a 1/1 colorless Nevron creature token.\n{5},{T}: Search your library for a Nevron card, reveal that card and put it into your hand. it into your hand.
+Oracle:Nevron spells you cast cost {2} less to cast.\nNevron creatures you control get +2/+2\nAt the beginning of your upkeep, create a 1/1 colorless Nevron creature token.\n{5},{T}: Search your library for a Nevron card, reveal that card and put it into your hand.

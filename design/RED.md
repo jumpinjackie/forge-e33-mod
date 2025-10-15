@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 12/10/2025 5:01:06 PM
+> Last generated: 15/10/2025 10:21:33 AM
 
 ## Catapault Sakapatate
 
@@ -20,6 +20,22 @@ When this creature dies, you may have this creature deal 2 damage to target crea
  - In the game, when you defeat a Catapault Sakapatate, it will try to do a last minute suicide move to do some damage before it goes.
  - Represented mechanically here as a simple shock-creature-on-death trigger.
  - 13/10/2025: Removed Devoid.
+
+## Crustal Crush
+
+```
+3R
+Kindred Instant - Expeditioner
+You may sacrifice a Mountain rather than pay this spell's mana cost.
+This spell deals 5 damage to target creature or planeswalker.
+```
+
+[card implementation](../custom/cards/c/crustal_crush.txt)
+
+### Design Notes
+
+ - In the game, this is one of Lune's skills.
+ - Obviously a mountain/rock based attack so gone with Mine Collapse but with Expeditioner alignment and relaxed timing restrictions for the alt cost.
 
 ## Earth Rising
 
@@ -140,4 +156,20 @@ It's a gutting realization, what has to be done. The mission is too important. T
 
  - In the game, Expedition 48 was an expedition fraught with Mutiny and Treachery.
  - The mutinous nature has been captured with this creature joining the other side when one of your Expeditioner compatriots dies.
+
+## Terraquake
+
+```
+3RR
+Kindred Sorcery - Expeditioner
+This spell deals X damage to each creature without flying and each player, where X is twice the number of non-basic lands in play.
+Storm.
+```
+
+[card implementation](../custom/cards/t/terraquake.txt)
+
+### Design Notes
+
+ - In the game, this is one of Lune's abilities.
+ - This is Earthquake and Price of Progress smushed together and is meant to check greedy non-basic mana bases.
 

@@ -1,0 +1,11 @@
+Name:Lune's Curiosity
+ManaCost:U
+Types:Enchantment Aura
+K:Enchant:Creature
+SVar:AttachAILogic:Curiosity
+T:Mode$ DamageDone | ValidSource$ Card.AttachedBy | ValidTarget$ Opponent | Execute$ TrigChoose | TriggerZones$ Battlefield | OptionalDecider$ You | TriggerDescription$ Whenever enchanted creature deals damage to an opponent, choose one:\n - Draw a card\n - Create a Lumina token
+SVar:TrigChoose:DB$ Charm | Choices$ DBDraw,DBLumina | CharmNum$ 1
+SVar:DBDraw:DB$ Draw | Defined$ You | NumCards$ 1
+SVar:DBLumina:DB$ Token | TokenAmount$ 1 | TokenOwner$ You | TokenScript$ c_a_lumina
+SVar:PlayMain1:TRUE
+Oracle:Enchant Creature.\nWhenever enchanted creature deals damage to an opponent, choose one:\n - Draw a card\n - Create a Lumina token (It's an artifact with "{T}, Sacrifice this token: Sacrifice this token: Scry 1.")

@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 12/10/2025 5:01:06 PM
+> Last generated: 15/10/2025 10:21:33 AM
 
 ## Berrami, Collector of Journals
 
@@ -255,6 +255,24 @@ I have some useful items for you!
  - Mechanically, I went with rewarding you with Chroma tokens when it is dealt damage
  - 26/09/2025: Reduced reward to a single Chroma token, simply because Forge has no way to let me describe "up to this creature's toughness" in terms of the amount of Chroma tokens generated. Can still do fight tricks with weaklings to repeatedly generate tokens.
 
+## Gestral Pot
+
+```
+2
+Artifact
+This card enters tapped.
+{T}: Add {C}.
+{2}: This card becomes a 2/2 Gestral artifact creature until end of turn.
+```
+
+[card implementation](../custom/cards/g/gestral_pot.txt)
+
+### Design Notes
+
+ - Gestral version of Guardian Idol.
+ - A mana rock to support the Gestral tribal strategy, while providing some extra offensive punch if required.
+ - 13/10/2025: Formerly known as Gestral Statue. Renamed because Gestral Pots have an actual in-game basis. They are in front of the Dark Gestral Arena and a living Gestral is inside it.
+
 ## Gestral Ringleader
 
 ```
@@ -271,23 +289,6 @@ When this creature enters, reveal the top four cards of your library. Put all Ge
 ### Design Notes
 
  - Gestral version of Goblin Ringleader. A Gestral tribal deck needs at least one card that can provide raw card advantage. This is that card.
-
-## Gestral Statue
-
-```
-2
-Artifact
-This card enters tapped.
-{T}: Add {C}.
-{2}: This card becomes a 2/2 Gestral artifact creature until end of turn.
-```
-
-[card implementation](../custom/cards/g/gestral_statue.txt)
-
-### Design Notes
-
- - Gestral version of Guardian Idol.
- - A mana rock to support the Gestral tribal strategy, while providing some extra offensive punch if required.
 
 ## Gestral Villager
 
@@ -306,6 +307,45 @@ Expeditioners, eh? You're a fun looking bunch. Unless you try to cause problems.
 ### Design Notes
 
  - Just a vanilla Gestral to round out a Gestral tribal deck and to round out the creature roster for draft/limited
+
+## Gestral Warrior
+
+```
+3
+Artifact Creature - Gestral
+This creature cannot attack or block alone.
+---
+
+
+4/3
+```
+
+[card implementation](../custom/cards/g/gestral_warrior.txt)
+
+### Design Notes
+
+ - In the game, Gestral Warriors reside in the Gestral Village.
+ - Gestral version of Mogg Flunkies.
+
+## Gestral Worker
+
+```
+3
+Artifact Creature - Gestral
+This creature enters with a charge counter on it.
+Sacrifice a Chroma token: Put a charge counter on this creature. Activate this ability only as a sorcery and only if this creature has less than 3 charge counters.
+{1}, {T}: Target creature gets +1/+1 until end of turn for each charge counter on this creature
+
+1/2
+```
+
+[card implementation](../custom/cards/g/gestral_worker.txt)
+
+### Design Notes
+
+ - In the game, Gestral Workers reside in the Gestral Village.
+ - Generally, any card with "worker" in its name either generates mana or buffs other creatures. Gone with buffing other creatures for this one.
+ - Charging up is a way to spend any excess Chroma tokens you may have, but capped at 3 max so you can't overdo the buffing and is sorcery speed so you can't stack > 3 activations to bypass the limit.
 
 ## Golgra, Gestral Chief
 
@@ -517,7 +557,7 @@ Artifact
  - In the game, recoats are tints that let you respec your character attributes.
  - I've interpreted this as an artifact that let's you convert/respec tokens into Chroma or Lumina tokens.
 
-## Sastro, the Concerned
+## Sastro, Gestral Guardian
 
 ```
 4
@@ -528,13 +568,14 @@ Whenever another nontoken Gestral creature you control enters, create a Chroma t
 2/2
 ```
 
-[card implementation](../custom/cards/s/sastro_the_concerned.txt)
+[card implementation](../custom/cards/s/sastro_gestral_guardian.txt)
 
 ### Design Notes
 
  - This is the Gestral (Siege-Gang Commander / Deranged Hermit)
  - Should have one more ability at least. Further abilities TBD.
  - 6/10/2025: Gone with a Chroma rewarding ability.
+ - 13/10/2025: Formerly known as Sastro, the Concerned
 
 ## Soarrie
 

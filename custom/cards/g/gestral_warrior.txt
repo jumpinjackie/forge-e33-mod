@@ -1,0 +1,6 @@
+Name:Gestral Warrior
+ManaCost:3
+Types:Artifact Creature Gestral
+PT:4/3
+K:CARDNAME can't attack or block alone.
+Oracle:This creature cannot attack or block alone.

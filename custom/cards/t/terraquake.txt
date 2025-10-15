@@ -1,0 +1,7 @@
+Name:Terraquake
+ManaCost:3 R R
+Types:Kindred Sorcery Expeditioner
+A:SP$ DamageAll | ValidCards$ Creature.withoutFlying | ValidPlayers$ Player | NumDmg$ X | AILogic$ PriceOfProgress | SpellDescription$ CARDNAME deals X damage to each creature without flying and each player, where X is twice the number of non-basic lands in play.
+SVar:DBDamage:DB$ DealDamage | Defined$ Remembered | NumDmg$ X
+SVar:X:Count$Valid Land.nonBasic+RememberedPlayerCtrl/Times.2
+Oracle:This spell deals X damage to each creature without flying and each player, where X is twice the number of non-basic lands in play.\nStorm.
