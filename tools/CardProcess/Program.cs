@@ -202,8 +202,33 @@ public class CardFaceDesign
 
     internal string GetOracleText()
     {
-        var thisName = this.Name;
+        var origCardName = this.Name;
+        var thisName = origCardName;
+        var ht = (this.Types ?? []).ToHashSet();
         var sb = new StringBuilder(this.OracleTextFull);
+        if (ht.Contains("Instant") || ht.Contains("Sorcery"))
+            thisName = "this spell";
+        if (ht.Contains("Creature"))
+            thisName = "this creature";
+        if (ht.Contains("Enchantment"))
+            thisName = "this enchantment";
+        if (ht.Contains("Artifact"))
+        {
+            if (ht.Contains("Vehicle"))
+                thisName = "this vehicle";
+            else if (ht.Contains("Creature"))
+                thisName = "this creature";
+            else
+                thisName = "this artifact";
+        }
+        if (ht.Contains("Land"))
+            thisName = "this land";
+
+        if (ht.Contains("Legendary") && ht.Contains("Creature") && origCardName?.Contains(",") == true)
+            thisName = origCardName.Substring(origCardName.IndexOf(","));
+
+        sb.Replace(". ~", ". " + (string.IsNullOrEmpty(thisName) ? thisName : char.ToUpper(thisName[0]) + thisName.Substring(1)));
+        sb.Replace("\n~", "\n" + (string.IsNullOrEmpty(thisName) ? thisName : char.ToUpper(thisName[0]) + thisName.Substring(1)));
         sb.Replace("~", thisName);
         sb.Replace("$DEVOID_REMINDER_TEXT", "(This card has no color.)");
         sb.Replace("$LEGENDARY_SORCERY_REMINDER_TEXT", "(You may cast a legendary sorcery only if you control a legendary creature or planeswalker.)");
@@ -213,6 +238,12 @@ public class CardFaceDesign
         sb.Replace("$EXPEDITIONER_TOKEN_TEXT", "\"When this creature dies, create a Chroma token.\"");
         sb.Replace("$NEVRON_DEATH_ABILITY_TEXT", "When this creature dies, target opponent creates a Lumina token.");
         sb.Replace("$EXPEDITIONER_DEATH_ABILITY_TEXT", "When this creature dies, create a Chroma token.");
+        sb.Replace("$STORM_REMINDER_TEXT", "(When you cast this spell, copy it for each spell cast before it this turn. You may choose new targets for the copies.)");
+
+        if (sb.Length > 0)
+        {
+            sb[0] = char.ToUpper(sb[0]);
+        }
         return sb.ToString();
     }
 }
@@ -500,7 +531,7 @@ public class CardMasterDesign(string designFile)
         FlushRemainingBuffer();
 
         return card.Finalize();
-        
+
         void FlushRemainingBuffer()
         {
             if (buffer.Count > 0 && activePropertyName != null)
@@ -889,7 +920,7 @@ public class GenBugsCommand : BaseCommand
     // abstract and we're decorating here
     [CliOption(Required = true, Description = "The base content directory")]
     public override required DirectoryInfo BaseDirectory { get; set; }
-    
+
     [CliOption(Required = true, Description = "The output directory")]
     public required DirectoryInfo OutputDir { get; set; }
 
