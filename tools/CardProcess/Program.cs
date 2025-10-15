@@ -169,11 +169,11 @@ public class CardFaceDesign
         if (oracle is not null)
         {
             if (faceType == CardFaceType.SplitRoom)
-                await sw.WriteLineAsync($"Oracle:(You may cast either half. That door unlocks on the battlefield. As a sorcery, you may pay the mana cost of a locked door to unlock it.)\\n{string.Join("\\n", oracle)}");
+                sw.Write($"Oracle:(You may cast either half. That door unlocks on the battlefield. As a sorcery, you may pay the mana cost of a locked door to unlock it.)\\n{string.Join("\\n", oracle)}");
             else if (faceType == CardFaceType.SplitFuse)
-                await sw.WriteLineAsync($"Oracle:{string.Join("\\n", oracle)}\\nFuse (You may cast one or both halves of this card from your hand.)");
+                sw.Write($"Oracle:{string.Join("\\n", oracle)}\\nFuse (You may cast one or both halves of this card from your hand.)");
             else
-                await sw.WriteLineAsync($"Oracle:{string.Join("\\n", oracle)}");
+                sw.Write($"Oracle:{string.Join("\\n", oracle)}");
         }
     }
 
