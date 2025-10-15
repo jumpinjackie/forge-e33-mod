@@ -169,11 +169,11 @@ public class CardFaceDesign
         if (oracle is not null)
         {
             if (faceType == CardFaceType.SplitRoom)
-                await sw.WriteAsync($"Oracle:(You may cast either half. That door unlocks on the battlefield. As a sorcery, you may pay the mana cost of a locked door to unlock it.)\\n{string.Join("\\n", oracle)}");
+                await sw.WriteLineAsync($"Oracle:(You may cast either half. That door unlocks on the battlefield. As a sorcery, you may pay the mana cost of a locked door to unlock it.)\\n{string.Join("\\n", oracle)}");
             else if (faceType == CardFaceType.SplitFuse)
-                await sw.WriteAsync($"Oracle:{string.Join("\\n", oracle)}\\nFuse (You may cast one or both halves of this card from your hand.)");
+                await sw.WriteLineAsync($"Oracle:{string.Join("\\n", oracle)}\\nFuse (You may cast one or both halves of this card from your hand.)");
             else
-                await sw.WriteAsync($"Oracle:{string.Join("\\n", oracle)}");
+                await sw.WriteLineAsync($"Oracle:{string.Join("\\n", oracle)}");
         }
     }
 
@@ -946,7 +946,136 @@ public class GenBugsCommand : BaseCommand
     }
 }
 
-[CliCommand(Children = [typeof(GenDocsCommand), typeof(GenCardScriptsCommand), typeof(GenEditionCommand), typeof(GenBugsCommand)])]
-public class RootCommand
+[CliCommand(Name = "genall", Description = "Generate all outputs (scripts, docs, edition, bugs)")]
+public class GenAllCommand : BaseCommand
 {
+    [CliOption(Required = true, Description = "The base content directory")]
+    public override required DirectoryInfo BaseDirectory { get; set; }
+
+    [CliOption(Required = true, Description = "The output directory")]
+    public required DirectoryInfo OutputDir { get; set; }
+
+    protected override async Task<int> ExecuteAsync(
+        CliContext context,
+        TextWriter stdout,
+        TextWriter stderr
+    )
+    {
+        // Read cards once for all operations
+        var cards = await ReadCardDesignsAsync(stdout, stderr);
+
+        // 1. Generate card scripts (from GenCardScriptsCommand)
+        await stdout.WriteLineAsync("Generating card scripts...");
+        var subDirs = this.BaseDirectory.GetDirectories();
+        var cardsDir = subDirs.FirstOrDefault(d => d.Name == "cards");
+        var tokensDir = subDirs.FirstOrDefault(d => d.Name == "tokens");
+        if (cardsDir is null)
+            throw new InvalidOperationException("cards dir not found");
+        if (tokensDir is null)
+            throw new InvalidOperationException("tokens dir not found");
+
+        foreach (var (name, card) in cards)
+        {
+            await card.WriteScriptAsync(cardsDir, tokensDir, stdout, stderr);
+        }
+
+        // 2. Generate docs (from GenDocsCommand)
+        await stdout.WriteLineAsync("Generating documentation...");
+        var writers = new Dictionary<string, StreamWriter>();
+        var scriptBaseDir = Path.GetRelativePath(
+            OutputDir.FullName,
+            Path.Combine(BaseDirectory.FullName, "cards")
+        );
+
+        foreach (var (name, card) in cards)
+        {
+            if (card.IsToken)
+                continue;
+
+            if (!writers.TryGetValue(card.Bucket!, out var writer))
+            {
+                writer = new StreamWriter(
+                    Path.Combine(this.OutputDir.FullName, card.Bucket + ".md")
+                );
+                await writer.WriteLineAsync("# Cards");
+                await writer.WriteLineAsync();
+                await writer.WriteLineAsync($"> Last generated: {DateTime.UtcNow}");
+                await writer.WriteLineAsync();
+                writers[card.Bucket!] = writer;
+            }
+            await card.WriteDocAsync(scriptBaseDir, writer, stdout, stderr);
+        }
+
+        foreach (var kvp in writers)
+        {
+            kvp.Value.Close();
+            kvp.Value.Dispose();
+        }
+
+        // 3. Generate edition (from GenEditionCommand)
+        await stdout.WriteLineAsync("Generating edition file...");
+        var editionsDir = subDirs.FirstOrDefault(d => d.Name == "editions");
+        var designDir = subDirs.FirstOrDefault(d => d.Name == "design");
+        if (editionsDir is null)
+            throw new InvalidOperationException("editions dir not found");
+        if (designDir is null)
+            throw new InvalidOperationException("design dir not found");
+        var templateFile = Path.Combine(designDir.FullName, "edition.tpl");
+        if (!File.Exists(templateFile))
+            throw new InvalidOperationException("Could not find edition.tpl");
+
+        int collectorNum = 1;
+        var cardList = new StringBuilder();
+        foreach (var (name, card) in cards)
+        {
+            if (card.FaceType == CardFaceType.Meld)
+                cardList.AppendLine(
+                    $"{collectorNum} {card.Rarity} {card.FrontFull.Name} @{card.GetArtist()}"
+                );
+            else
+                cardList.AppendLine($"{collectorNum} {card.Rarity} {name} @{card.GetArtist()}");
+            collectorNum++;
+        }
+
+        var sbEdition = new StringBuilder(File.ReadAllText(templateFile));
+        sbEdition.Replace("$CARD_LIST$", cardList.ToString());
+        File.WriteAllText(
+            Path.Combine(editionsDir.FullName, "Clair Obscur Expedition 33.txt"),
+            sbEdition.ToString()
+        );
+
+        await stdout.WriteLineAsync("Updated edition file");
+
+        // 4. Generate bugs (from GenBugsCommand)
+        await stdout.WriteLineAsync("Generating bugs file...");
+        var bugsFile = Path.Combine(this.OutputDir.FullName, "BUGS.md");
+        using var sw = new StreamWriter(bugsFile);
+
+        await sw.WriteLineAsync("# General");
+        await sw.WriteLineAsync();
+        await sw.WriteLineAsync("# Card-specific");
+        await sw.WriteLineAsync();
+
+        foreach (var (name, card) in cards)
+        {
+            await card.WriteBugsAsync(sw);
+        }
+
+        await stdout.WriteLineAsync("Updated bugs file");
+
+        await stdout.WriteLineAsync("All generation tasks completed successfully!");
+
+        return 0;
+    }
 }
+
+[CliCommand(
+    Children = [
+        typeof(GenDocsCommand),
+        typeof(GenCardScriptsCommand),
+        typeof(GenEditionCommand),
+        typeof(GenBugsCommand),
+        typeof(GenAllCommand),
+    ]
+)]
+public class RootCommand { }

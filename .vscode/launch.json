@@ -64,6 +64,23 @@
             "cwd": "${workspaceFolder}/tools/CardProcess",
             "console": "internalConsole",
             "stopAtEntry": false
+        },
+        {
+            "name": "Debug CardProcess genall",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceFolder}/tools/CardProcess/bin/Debug/net9.0/CardProcess.dll",
+            "args": [
+                "genall",
+                "--base-directory",
+                "${workspaceFolder}/custom",
+                "--output-dir",
+                "${workspaceFolder}/design"
+            ],
+            "cwd": "${workspaceFolder}/tools/CardProcess",
+            "console": "internalConsole",
+            "stopAtEntry": false
         }
     ]
 }
