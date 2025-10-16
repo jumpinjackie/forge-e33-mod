@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 15/10/2025 11:35:27 AM
+> Last generated: 16/10/2025 11:24:43 AM
 
 ## Catapault Sakapatate
 
@@ -27,7 +27,7 @@ When this creature dies, you may have this creature deal 2 damage to target crea
 3R
 Kindred Instant - Expeditioner
 You may sacrifice a Mountain rather than pay this spell's mana cost.
-This spell deals 5 damage to target creature or planeswalker.
+Crustal Crush deals 5 damage to target creature or planeswalker.
 ```
 
 [card implementation](../custom/cards/c/crustal_crush.txt)
@@ -162,7 +162,7 @@ It's a gutting realization, what has to be done. The mission is too important. T
 ```
 3RR
 Kindred Sorcery - Expeditioner
-This spell deals X damage to each creature without flying and each player, where X is twice the number of non-basic lands in play.
+Terraquake deals X damage to each creature without flying and each player, where X is twice the number of non-basic lands in play.
 ```
 
 [card implementation](../custom/cards/t/terraquake.txt)

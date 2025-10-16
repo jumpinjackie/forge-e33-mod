@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 15/10/2025 11:35:27 AM
+> Last generated: 16/10/2025 11:24:43 AM
 
 ## An Advantage!
 
@@ -271,7 +271,7 @@ Maybe Gustave's idea to convert chroma from Pictos to... What did he call it? Lu
 ```
 2U
 Kindred Sorcery - Expeditioner
-This spell has flash as long as you control an Expeditioner.
+Gustave's Insight has flash as long as you control an Expeditioner.
 Look at the top five cards of your library. Put two of them into your hand and the rest on the bottom of your library in any order.
 ---
 Enjoying my uselessness of today and readying my usefulness for tomorrow.

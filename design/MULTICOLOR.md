@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 15/10/2025 11:35:27 AM
+> Last generated: 16/10/2025 11:24:43 AM
 
 ## A Storm is Coming
 
@@ -735,7 +735,7 @@ Draw a card.
 
 ### Design Notes
 
- - In the game, this is the event that took Verso's life and started Aline's cycle of grief and Renoir's attempts to get her out of the canvas, tearing the Dessendre family apart.
+ - In the game, this is the event that took Verso's life and started Aline's cycle of grief, made Alicia a pariah, started Clea's war against the writers and Renoir's attempts to get Aline out of the canvas, tearing the Dessendre family apart.
  - A basic foil for room strategies with a cantrip so it's not entirely useless when not facing against room strategies.
 
 ## Manor Greenhouse // Manor Gallery

@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 15/10/2025 11:35:27 AM
+> Last generated: 16/10/2025 11:24:43 AM
 
 ## Berrami, Collector of Journals
 
@@ -558,6 +558,25 @@ Artifact
 
  - In the game, recoats are tints that let you respec your character attributes.
  - I've interpreted this as an artifact that let's you convert/respec tokens into Chroma or Lumina tokens.
+
+## Revive Tint
+
+```
+2
+Artifact
+{1}, {T}, Sacrifice this artifact: Return target creature card from your graveyard to your hand.
+{3}, {T}, Sacrifice this artifact: Return target creature card from your graveyard to the battlefield tapped. Activate this ability only if you control at least 3 Lumina tokens.
+---
+You don't get to die yet.
+- Lune
+```
+
+[card implementation](../custom/cards/r/revive_tint.txt)
+
+### Design Notes
+
+ - In the game, a Revive Tint resurrects a fallen party member in battle.
+ - Mechanically, gone with a Raise Dead effect that also has reanimation if you meet the Lumina token requirement.
 
 ## Sastro, Gestral Guardian
 
