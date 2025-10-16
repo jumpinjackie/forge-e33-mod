@@ -12,6 +12,8 @@ Expeditioner
 R
 [Artist]
 Sandfall Interactive
+[ArtNotes]
+Lune is floating in the air, arms raised as if summoning something from the ground. In this case, it's several rock columns shooting out from the ground.
 [Oracle]
 ~ deals X damage to each creature without flying and each player, where X is twice the number of non-basic lands in play.
 [ForgeScript]

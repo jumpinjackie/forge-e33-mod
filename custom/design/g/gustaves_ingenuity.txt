@@ -12,6 +12,8 @@ Expeditioner
 U
 [Artist]
 Sandfall Interactive
+[ArtNotes]
+Gustave having a stroke of genius moment.
 [Oracle]
 This spell costs {1} less to cast if you control an Expeditioner.
 Draw three cards.

@@ -11,6 +11,8 @@ Gradient
 R
 [Artist]
 Sandfall Interactive
+[ArtNotes]
+Maelle reaching out and touching a Nevron with her left hand. The Nevron dissipates into a bloom of flower petals on contact.
 [Oracle]
 This spell costs {1} less to cast if you control a painter.
 Exile target nonland permanent.

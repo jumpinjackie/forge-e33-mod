@@ -12,6 +12,8 @@ Expeditioner
 U
 [Artist]
 Sandfall Interactive
+[ArtNotes]
+Lune floating in the air with arms raised, summoning several columns of Lightning.
 [Oracle]
 This spell deals 1 damage to any target, 2 damage to another target, and 3 damage to a third target.
 [ForgeScript]

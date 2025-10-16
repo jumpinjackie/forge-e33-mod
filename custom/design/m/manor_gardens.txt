@@ -8,6 +8,8 @@ Land
 C
 [Artist]
 Sandfall Interactive
+[ArtNotes]
+A hedge maze in front of the Manor.
 [Oracle]
 This land enters tapped.
 {T}: Add {G}.

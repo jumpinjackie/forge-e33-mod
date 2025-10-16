@@ -11,6 +11,8 @@ Expeditioner
 U
 [Artist]
 Sandfall Interactive
+[ArtNotes]
+Sciel summons a protective barrier on Maelle, that deflects an energy blast that was directed at her.
 [Oracle]
 Untap target creature you control. It gains hexproof until end of turn.
 [FlavorText]

@@ -10,6 +10,8 @@ Sorcery
 U
 [Artist]
 Sandfall Interactive
+[ArtNotes]
+Dark shores. Explosions and Pandemonium abound as the Expedition 33 party is ambushed by Noir Nevorns, while Painted Renoir looks on.
 [Oracle]
 All non-Nevron, non-Painter creatures get -2/-2 until end of turn.
 [FlavorText]

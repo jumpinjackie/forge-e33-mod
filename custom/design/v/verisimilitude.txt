@@ -9,6 +9,8 @@ Enchantment
 R
 [Artist]
 Sandfall Interactive
+[ArtNotes]
+A clone of a creature appearing out of a canvas, with a pose that mirrors another identical creature in the same pose.
 [Oracle]
 You may have ~ enter as a copy of any permanent on the battlefield, except it is an enchantment in addition to its other types and has "When ~ leaves the battlefield, create a Chroma token $CHROMA_REMINDER_TEXT"
 [ForgeScript]

@@ -11,6 +11,8 @@ Expeditioner
 U
 [Artist]
 Sandfall Interactive
+[ArtNotes]
+A person in an expeditioner uniform on a raised platform in the Lumiere town square speaking to a crowd of onlookers
 [PT]
 1/1
 [Oracle]

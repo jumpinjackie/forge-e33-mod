@@ -11,6 +11,8 @@ Expeditioner
 C
 [Artist]
 Sandfall Interactive
+[ArtNotes]
+Lune with an extended open hand, dissipates some magical attack.
 [Oracle]
 Counter target spell unless its controller pays {2}.
 Create a Lumina token.

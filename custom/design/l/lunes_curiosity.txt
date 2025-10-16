@@ -10,7 +10,7 @@ U
 [Artist]
 Sandfall Interactive
 [ArtNotes]
-Lune's astonishment at two halves of Verso alive and talking to her.
+At camp, Lune's astonishment at two halves of Verso alive and talking to her.
 [Oracle]
 Enchant Creature.
 Whenever enchanted creature deals damage to an opponent, choose one:

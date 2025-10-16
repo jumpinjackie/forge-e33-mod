@@ -11,6 +11,8 @@ Expeditioner
 C
 [Artist]
 Sandfall Interactive
+[ArtNotes]
+A beam of light strikes Gustave and Maelle from above, they both have the look of being refreshed or revitalized.
 [Oracle]
 Each player gains twice X life.
 [FlavorText]

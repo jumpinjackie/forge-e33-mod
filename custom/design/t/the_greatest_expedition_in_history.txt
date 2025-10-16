@@ -14,6 +14,8 @@ Expeditioner
 R
 [Artist]
 Sandfall Interactive
+[ArtNotes]
+Maelle and friends in profile view staring at their final destination of Lumiere.
 [Oracle]
 You win the game if you control a total of 33 or more Expeditioners, Chroma, Lumina or Pictos permanents.
 [ForgeScript]

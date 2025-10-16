@@ -11,6 +11,8 @@ Expeditioner
 U
 [Artist]
 Sandfall Interactive
+[ArtNotes]
+Maelle stands at the docks of Lumiere, with party and reanimated Expeditioners behind her. She points her sword towards the camera, as if to signal the final assault.
 [Oracle]
 This spell costs {1} less to cast if you control an Expeditioner.
 Choose one -

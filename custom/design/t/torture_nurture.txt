@@ -8,6 +8,8 @@ Instant
 C
 [Artist]
 Sandfall Interactive
+[ArtNotes]
+Maelle ending scene where she has paint streaming down her eyes, signalling that the canvas has now taken hold of her.
 [Oracle]
 Target creature gets -2/-2 until end of turn. It's controller loses 2 life.
 [ForgeScript]
@@ -25,5 +27,7 @@ Target creature gets +2/+2 until end of turn. It's controller gains 2 life.
 [ForgeScript]
 A:SP$ Pump | ValidTgts$ Creature | TgtPrompt$ Select target creature | NumAtt$ +2 | NumDef$ +2 | SubAbility$ DBGainLife | SpellDescription$ Target creature gets +2/+2 until end of turn. It's controller gains 2 life.
 SVar:DBGainLife:DB$ GainLife | Defined$ TargetedController | LifeAmount$ 2
+[ArtNotes]
+Sciel offering comfort to one of the party members.
 [DesignNotes]
  - Just wanted a card that's a wordplay on one of Sciel's character traits (nurturing) and its polar opposite.

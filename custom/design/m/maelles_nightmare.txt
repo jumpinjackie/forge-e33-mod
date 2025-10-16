@@ -9,6 +9,8 @@ Gradient
 U
 [Artist]
 Sandfall Interactive
+[ArtNotes]
+Maelle with a bloodied face, on her knees, clutching some trinket, screaming in anguish at some unseen entity. The piece is in black & white.
 [Oracle]
 Target opponent reveals their hand. You choose either an Expeditioner card or a noncreature, nonland card from it. That player discards that card.
 [ForgeScript]

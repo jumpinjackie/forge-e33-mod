@@ -8,6 +8,8 @@ Land
 R
 [Artist]
 Sandfall Interactive
+[ArtNotes]
+An aquatic farm. The city of Lumiere is in the background.
 [Oracle]
 This land enters tapped unless you control an Expeditioner.
 {T}: Add {W} or {U}.

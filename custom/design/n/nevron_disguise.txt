@@ -10,6 +10,8 @@ Expeditioner
 C
 [Artist]
 Sandfall Interactive
+[ArtNotes]
+An Expeditioner wearing the skin of a slain Nevron trying to blend in with other Nevrons.
 [Oracle]
 {G}: Target non-Nevron creature becomes a Nevron until end of turn.
 {1}, Sacrifice this enchantment: Draw a card.

@@ -8,6 +8,8 @@ Instant
 C
 [Artist]
 Sandfall Interactive
+[ArtNotes]
+Maelle with fencing-style sword in hand, in a battle stance.
 [Oracle]
 Target creature gains vigilance, haste and +2/+0 until end of turn.
 [ForgeScript]
@@ -19,6 +21,8 @@ Grace
 1W
 [Types]
 Instant
+[ArtNotes]
+Maelle with fencing-style sword in hand, in another battle stance.
 [Oracle]
 Target creature gains first strike, lifelink and +1/+1 until end of turn.
 [ForgeScript]
