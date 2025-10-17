@@ -1,7 +1,8 @@
 [Name]
 Torture
 [ManaCost]
-1B
+1
+B
 [Types]
 Instant
 [Rarity]
@@ -19,7 +20,8 @@ ALTERNATE:FUSE
 [Name]
 Nurture
 [ManaCost]
-1W
+1
+W
 [Types]
 Instant
 [Oracle]

@@ -1,5 +1,5 @@
 Name:Torture
-ManaCost:1B
+ManaCost:1 B
 Types:Instant
 A:SP$ Pump | ValidTgts$ Creature | TgtPrompt$ Select target creature | NumAtt$ -2 | NumDef$ -2 | IsCurse$ True | SubAbility$ DBLoseLife | SpellDescription$ Target creature gets -2/-2 until end of turn. It's controller loses 2 life.
 SVar:DBLoseLife:DB$ LoseLife | Defined$ TargetedController | LifeAmount$ 2
@@ -8,7 +8,7 @@ Oracle:Target creature gets -2/-2 until end of turn. It's controller loses 2 lif
 ALTERNATE
 
 Name:Nurture
-ManaCost:1W
+ManaCost:1 W
 Types:Instant
 A:SP$ Pump | ValidTgts$ Creature | TgtPrompt$ Select target creature | NumAtt$ +2 | NumDef$ +2 | SubAbility$ DBGainLife | SpellDescription$ Target creature gets +2/+2 until end of turn. It's controller gains 2 life.
 SVar:DBGainLife:DB$ GainLife | Defined$ TargetedController | LifeAmount$ 2

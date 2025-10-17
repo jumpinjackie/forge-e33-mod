@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 16/10/2025 11:24:43 AM
+> Last generated: 17/10/2025 10:21:05 AM
 
 ## A Storm is Coming
 
@@ -1027,11 +1027,11 @@ Search your library for an Expeditioner card, reveal it and put it into your han
 
 ```
 Torture
-(1/B)
+1B
 Instant
 Target creature gets -2/-2 until end of turn. It's controller loses 2 life.
 Nurture
-(1/W)
+1W
 Instant
 Target creature gets +2/+2 until end of turn. It's controller gains 2 life.
 Fuse (You may cast one or both halves of this card from your hand.)
