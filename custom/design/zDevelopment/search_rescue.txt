@@ -14,6 +14,8 @@ Rescue half: An Expedition 00 member is trying to pull a surivior out of a hole.
 [Oracle]
 Search your library for a basic land card, reveal it, put it into your hand, then shuffle.
 [ForgeScript]
+K:Fuse
+AlternateMode:Split
 A:SP$ ChangeZone | Origin$ Library | Destination$ Hand | ChangeType$ Land.Basic | ChangeTypeDesc$ basic land | SpellDescription$ Search your library for a basic land card, reveal it, put it into your hand, then shuffle.
 ALTERNATE:FUSE
 [Name]

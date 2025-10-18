@@ -1,6 +1,8 @@
 Name:Search
 ManaCost:G
 Types:Instant
+K:Fuse
+AlternateMode:Split
 A:SP$ ChangeZone | Origin$ Library | Destination$ Hand | ChangeType$ Land.Basic | ChangeTypeDesc$ basic land | SpellDescription$ Search your library for a basic land card, reveal it, put it into your hand, then shuffle.
 Oracle:Search your library for a basic land card, reveal it, put it into your hand, then shuffle.\nFuse (You may cast one or both halves of this card from your hand.)
 

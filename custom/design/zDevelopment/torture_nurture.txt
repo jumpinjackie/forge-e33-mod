@@ -14,6 +14,8 @@ Maelle ending scene where she has paint streaming down her eyes, signalling that
 [Oracle]
 Target creature gets -2/-2 until end of turn. It's controller loses 2 life.
 [ForgeScript]
+K:Fuse
+AlternateMode:Split
 A:SP$ Pump | ValidTgts$ Creature | TgtPrompt$ Select target creature | NumAtt$ -2 | NumDef$ -2 | IsCurse$ True | SubAbility$ DBLoseLife | SpellDescription$ Target creature gets -2/-2 until end of turn. It's controller loses 2 life.
 SVar:DBLoseLife:DB$ LoseLife | Defined$ TargetedController | LifeAmount$ 2
 ALTERNATE:FUSE

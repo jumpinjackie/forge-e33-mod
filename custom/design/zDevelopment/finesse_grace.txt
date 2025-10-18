@@ -14,6 +14,8 @@ Maelle with fencing-style sword in hand, in a battle stance.
 [Oracle]
 Target creature gains vigilance, haste and +2/+0 until end of turn.
 [ForgeScript]
+K:Fuse
+AlternateMode:Split
 A:SP$ Pump | ValidTgts$ Creature | TgtPrompt$ Select target creature | NumAtt$ +2 | KW$ Vigilance & Haste | SpellDescription$ Target creature gains vigilance, haste and +2/+0 until end of turn.
 ALTERNATE:FUSE
 [Name]

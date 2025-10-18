@@ -1,6 +1,8 @@
 Name:Finesse
 ManaCost:1 R
 Types:Instant
+K:Fuse
+AlternateMode:Split
 A:SP$ Pump | ValidTgts$ Creature | TgtPrompt$ Select target creature | NumAtt$ +2 | KW$ Vigilance & Haste | SpellDescription$ Target creature gains vigilance, haste and +2/+0 until end of turn.
 Oracle:Target creature gains vigilance, haste and +2/+0 until end of turn.\nFuse (You may cast one or both halves of this card from your hand.)
 
