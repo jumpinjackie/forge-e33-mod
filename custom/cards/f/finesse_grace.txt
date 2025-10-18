@@ -1,5 +1,5 @@
 Name:Finesse
-ManaCost:1R
+ManaCost:1 R
 Types:Instant
 A:SP$ Pump | ValidTgts$ Creature | TgtPrompt$ Select target creature | NumAtt$ +2 | KW$ Vigilance & Haste | SpellDescription$ Target creature gains vigilance, haste and +2/+0 until end of turn.
 Oracle:Target creature gains vigilance, haste and +2/+0 until end of turn.\nFuse (You may cast one or both halves of this card from your hand.)
@@ -7,7 +7,7 @@ Oracle:Target creature gains vigilance, haste and +2/+0 until end of turn.\nFuse
 ALTERNATE
 
 Name:Grace
-ManaCost:1W
+ManaCost:1 W
 Types:Instant
 A:SP$ Pump | ValidTgts$ Creature | TgtPrompt$ Select target creature | NumAtt$ +1 | NumDef$ +1 | KW$ First Strike & Lifelink | SpellDescription$ Target creature gains first strike, lifelink and +1/+1 until end of turn.
 Oracle:Target creature gains first strike, lifelink and +1/+1 until end of turn.

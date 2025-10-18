@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 17/10/2025 10:21:05 AM
+> Last generated: 18/10/2025 6:03:06 AM
 
 ## A Storm is Coming
 
@@ -465,11 +465,11 @@ Gregoire is, as usual, deeply suspicious, but this could change our entire under
 
 ```
 Finesse
-(1/R)
+1R
 Instant
 Target creature gains vigilance, haste and +2/+0 until end of turn.
 Grace
-(1/W)
+1W
 Instant
 Target creature gains first strike, lifelink and +1/+1 until end of turn.
 Fuse (You may cast one or both halves of this card from your hand.)

@@ -1,7 +1,8 @@
 [Name]
 Finesse
 [ManaCost]
-1R
+1
+R
 [Types]
 Instant
 [Rarity]
@@ -18,7 +19,8 @@ ALTERNATE:FUSE
 [Name]
 Grace
 [ManaCost]
-1W
+1
+W
 [Types]
 Instant
 [ArtNotes]
