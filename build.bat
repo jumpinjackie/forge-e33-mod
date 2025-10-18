@@ -1,3 +1,9 @@
+SET ROOT=%CD%
+
+pushd %CD%\tools\CardProcess
+dotnet run -- genall --base-directory %ROOT%\custom --output-dir %ROOT%\design
+popd
+
 if not exist "%APPDATA%\Forge" mkdir "%APPDATA%\Forge"
 if not exist "%APPDATA%\Forge\custom" mkdir "%APPDATA%\Forge\custom"
 
