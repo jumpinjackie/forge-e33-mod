@@ -1,5 +1,6 @@
 Name:Fortune's Fury
 ManaCost:1 R
 Types:Kindred Instant Expeditioner
-A:SP$ Pump | ValidTgts$ Creature | TgtPrompt$ Select target creature | KW$ Double Strike | SpellDescription$ Target creature gains double strike until end of turn.
-Oracle:Target creature gains double strike until end of turn. (It deals both first-strike and regular combat damage.)
+A:SP$ Pump | ValidTgts$ Creature | TgtPrompt$ Select target creature | KW$ Double Strike | SubAbility$ DBToken | SpellDescription$ Target creature gains double strike until end of turn.
+SVar:DBToken:DB$ Token | TokenAmount$ 1 | TokenOwner$ You | TokenScript$ c_a_lumina
+Oracle:Target creature gains double strike until end of turn. (It deals both first-strike and regular combat damage.)\nCreate a Lumina token. (It's an artifact with "{T}, Sacrifice this token: Scry 1.")

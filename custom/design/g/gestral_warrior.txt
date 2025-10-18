@@ -11,7 +11,7 @@ C
 [Artist]
 Sandfall Interactive
 [PT]
-4/3
+3/3
 [Oracle]
 ~ cannot attack or block alone.
 [ForgeScript]
@@ -21,3 +21,4 @@ K:CARDNAME can't attack or block alone.
 [DesignNotes]
  - In the game, Gestral Warriors reside in the Gestral Village.
  - Gestral version of Mogg Flunkies.
+ - 18/10/2025: Downgraded PT from 4/3 to 3/3

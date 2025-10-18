@@ -15,13 +15,14 @@ Sandfall Interactive
 [Oracle]
 ~ enters with a charge counter on it.
 Sacrifice a Chroma token: Put a charge counter on ~. Activate this ability only as a sorcery and only if ~ has less than 3 charge counters.
-{1}, {T}: Target creature gets +1/+1 until end of turn for each charge counter on ~
+{2}, {T}: Target creature gets +1/+1 until end of turn for each charge counter on ~
 [ForgeScript]
 K:etbCounter:CHARGE:1
 A:AB$ PutCounter | Cost$ Sac<1/Chroma> | CounterType$ CHARGE | CounterNum$ 1 | SorcerySpeed$ True | IsPresent$ Card.Self+counters_LT3_CHARGE | SpellDescription$ Put a charge counter on ~. Activate this ability only as a sorcery and only if ~ has less than three charge counters.
-A:AB$ Pump | Cost$ 1 T | ValidTgts$ Creature | NumAtt$ +X | NumDef$ +X
+A:AB$ Pump | Cost$ 2 T | ValidTgts$ Creature | NumAtt$ +X | NumDef$ +X | SpellDescription$ Target creature gets +1/+1 until end of turn for each charge counter on ~
 SVar:X:Count$CardCounters.CHARGE
 [DesignNotes]
  - In the game, Gestral Workers reside in the Gestral Village.
  - Generally, any card with "worker" in its name either generates mana or buffs other creatures. Gone with buffing other creatures for this one.
  - Charging up is a way to spend any excess Chroma tokens you may have, but capped at 3 max so you can't overdo the buffing and is sorcery speed so you can't stack > 3 activations to bypass the limit.
+ - 18/10/2025: Bumped pump activation cost from {1} to {2}

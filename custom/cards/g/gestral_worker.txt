@@ -4,6 +4,6 @@ Types:Artifact Creature Gestral
 PT:1/2
 K:etbCounter:CHARGE:1
 A:AB$ PutCounter | Cost$ Sac<1/Chroma> | CounterType$ CHARGE | CounterNum$ 1 | SorcerySpeed$ True | IsPresent$ Card.Self+counters_LT3_CHARGE | SpellDescription$ Put a charge counter on CARDNAME. Activate this ability only as a sorcery and only if CARDNAME has less than three charge counters.
-A:AB$ Pump | Cost$ 1 T | ValidTgts$ Creature | NumAtt$ +X | NumDef$ +X
+A:AB$ Pump | Cost$ 2 T | ValidTgts$ Creature | NumAtt$ +X | NumDef$ +X | SpellDescription$ Target creature gets +1/+1 until end of turn for each charge counter on CARDNAME
 SVar:X:Count$CardCounters.CHARGE
-Oracle:This creature enters with a charge counter on it.\nSacrifice a Chroma token: Put a charge counter on this creature. Activate this ability only as a sorcery and only if this creature has less than 3 charge counters.\n{1}, {T}: Target creature gets +1/+1 until end of turn for each charge counter on this creature
+Oracle:This creature enters with a charge counter on it.\nSacrifice a Chroma token: Put a charge counter on this creature. Activate this ability only as a sorcery and only if this creature has less than 3 charge counters.\n{2}, {T}: Target creature gets +1/+1 until end of turn for each charge counter on this creature

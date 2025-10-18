@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 18/10/2025 8:06:22 AM
+> Last generated: 18/10/2025 9:29:36 AM
 
 ## Berrami, Collector of Journals
 
@@ -319,7 +319,7 @@ This creature cannot attack or block alone.
 ---
 
 
-4/3
+3/3
 ```
 
 [card implementation](../custom/cards/g/gestral_warrior.txt)
@@ -328,6 +328,7 @@ This creature cannot attack or block alone.
 
  - In the game, Gestral Warriors reside in the Gestral Village.
  - Gestral version of Mogg Flunkies.
+ - 18/10/2025: Downgraded PT from 4/3 to 3/3
 
 ## Gestral Worker
 
@@ -336,7 +337,7 @@ This creature cannot attack or block alone.
 Artifact Creature - Gestral
 This creature enters with a charge counter on it.
 Sacrifice a Chroma token: Put a charge counter on this creature. Activate this ability only as a sorcery and only if this creature has less than 3 charge counters.
-{1}, {T}: Target creature gets +1/+1 until end of turn for each charge counter on this creature
+{2}, {T}: Target creature gets +1/+1 until end of turn for each charge counter on this creature
 
 1/2
 ```
@@ -348,6 +349,7 @@ Sacrifice a Chroma token: Put a charge counter on this creature. Activate this a
  - In the game, Gestral Workers reside in the Gestral Village.
  - Generally, any card with "worker" in its name either generates mana or buffs other creatures. Gone with buffing other creatures for this one.
  - Charging up is a way to spend any excess Chroma tokens you may have, but capped at 3 max so you can't overdo the buffing and is sorcery speed so you can't stack > 3 activations to bypass the limit.
+ - 18/10/2025: Bumped pump activation cost from {1} to {2}
 
 ## Golgra, Gestral Chief
 

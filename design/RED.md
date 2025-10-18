@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 18/10/2025 8:06:22 AM
+> Last generated: 18/10/2025 9:29:36 AM
 
 ## Catapault Sakapatate
 
@@ -77,6 +77,7 @@ This only truly ends if you destroy the canvas, and that means stopping the fina
 1R
 Kindred Instant - Expeditioner
 Target creature gains double strike until end of turn. (It deals both first-strike and regular combat damage.)
+Create a Lumina token. (It's an artifact with "{T}, Sacrifice this token: Scry 1.")
 ```
 
 [card implementation](../custom/cards/f/fortunes_fury.txt)
