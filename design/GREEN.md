@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 15/10/2025 11:35:27 AM
+> Last generated: 18/10/2025 8:06:22 AM
 
 ## Abbest
 
@@ -252,7 +252,7 @@ Choose up to one target creature card and up to one target non-creature card in 
 G
 Creature - Nevron
 Flying.
-When this creature becomes the target of a spell or ability, sacrifice it.
+When this creature becomes the target of a spell or ability an opponent controls, sacrifice it.
 When this creature dies, target opponent creates a Lumina token.
 
 2/1
@@ -265,4 +265,5 @@ When this creature dies, target opponent creates a Lumina token.
  - In the game, Volester is one of the lower-tier enemies with flying that has a weak point in its chest.
  - Like Demineur, gave this one a Skulking Ghost sac effect to emphasize its weakness to targeted attacks.
  - 13/10/2025: Removed Devoid.
+ - 18/10/2025: Made the skulking ghost effect triggered by opponents
 

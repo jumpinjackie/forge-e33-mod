@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 16/10/2025 11:24:43 AM
+> Last generated: 18/10/2025 8:06:22 AM
 
 ## An Advantage!
 
@@ -113,7 +113,7 @@ This creature gets +2/+2 and Ward 2 if you control a creature named Bruler.
 U
 Creature - Nevron
 Flying.
-When this creature becomes the target of a spell or ability, sacrifice it.
+When this creature becomes the target of a spell or ability an opponent controls, sacrifice it.
 When this creature dies, target opponent creates a Lumina token.
 
 1/1
@@ -127,6 +127,7 @@ When this creature dies, target opponent creates a Lumina token.
  - Went with a Nevron variation of Flying Men
  - 30/09/2025: Gave it a Skulking Ghost sac trigger to emphasize its weakness to targeted attacks (shots)
  - 13/10/2025: Removed Devoid.
+ - 18/10/2025: Made the skulking ghost effect triggered by opponents
 
 ## Eternal Ice
 
@@ -322,8 +323,8 @@ Do you heal from the top or the bottom? Or do you have to bring the halves toget
 ```
 1U
 Kindred Instant - Expeditioner
+You may sacrifice two Lumina tokens rather than pay this spell's mana cost.
 Counter target spell unless its controller pays {2}.
-Create a Lumina token.
 ---
 Not today!
 ```
@@ -333,6 +334,7 @@ Not today!
 ### Design Notes
 
  - Mandatory soft-counter with thematic uniqueness
+ - 18/10/2025: Replaced Lumina bonus with a Lumina sac alternate cost for extra surprise factor.
 
 ## Luster
 

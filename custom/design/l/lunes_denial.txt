@@ -14,12 +14,13 @@ Sandfall Interactive
 [ArtNotes]
 Lune with an extended open hand, dissipates some magical attack.
 [Oracle]
+You may sacrifice two Lumina tokens rather than pay this spell's mana cost.
 Counter target spell unless its controller pays {2}.
-Create a Lumina token.
 [FlavorText]
 Not today!
 [ForgeScript]
+S:Mode$ AlternativeCost | ValidSA$ Spell.Self | EffectZone$ All | Cost$ Sac<2/Lumina> | Description$ You may sacrifice two Lumina tokens rather than pay this spell's mana cost.
 A:SP$ Counter | TargetType$ Spell | TgtPrompt$ Select target spell | ValidTgts$ Card | UnlessCost$ 2 | SubAbility$ DBToken | SpellDescription$ Counter target spell unless its controller pays {2}.
-SVar:DBToken:DB$ Token | TokenAmount$ 1 | TokenOwner$ You | TokenScript$ c_a_lumina
 [DesignNotes]
  - Mandatory soft-counter with thematic uniqueness
+ - 18/10/2025: Replaced Lumina bonus with a Lumina sac alternate cost for extra surprise factor.

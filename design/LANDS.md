@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 15/10/2025 11:35:27 AM
+> Last generated: 18/10/2025 8:06:22 AM
 
 ## Crushing Cavern
 
@@ -241,9 +241,9 @@ The Aquafarm project ensured that Lumiere would have a plentiful supply of food 
 ```
 
 Land
-At the beginning of your upkeep, put a verse counter on this land.
-Remove two verse counters from this land: Expeditioners you control get +1/+1 until end of turn.
+At the beginning of your upkeep, you may put a verse counter on this land.
 {T}: Add {C}.
+{T}, Remove two verse counters from this land: Expeditioner creatures you control get +1/+1 until end of turn.
 ---
 Maybe when this is over, we can fix up the opera house and you can perform for us. I want my first concert to be yours. And don't worry, I'll make sure the room is packed. I'll put up posters everywhere in town.
 - Maelle

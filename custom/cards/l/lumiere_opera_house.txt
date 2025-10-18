@@ -1,5 +1,8 @@
 Name:Lumiere Opera House
 ManaCost:no cost
 Types:Land
-
-Oracle:At the beginning of your upkeep, put a verse counter on this land.\nRemove two verse counters from this land: Expeditioners you control get +1/+1 until end of turn.\n{T}: Add {C}.
+T:Mode$ Phase | Phase$ Upkeep | ValidPlayer$ You | TriggerZones$ Battlefield | OptionalDecider$ You | Execute$ TrigPutCounter | TriggerDescription$ At the beginning of your upkeep, you may put a verse counter on CARDNAME.
+SVar:TrigPutCounter:DB$ PutCounter | Defined$ Self | CounterType$ VERSE | CounterNum$ 1
+A:AB$ Mana | Cost$ T | Produced$ C | SpellDescription$ Add {C}.
+A:AB$ PumpAll | Cost$ T SubCounter<2/VERSE> | ValidCards$ Creature.Expeditioner+YouCtrl | NumAtt$ +1 | NumDef$ +1 | SpellDescription$ Expeditioner creatures you control get +1/+1 until end of turn.
+Oracle:At the beginning of your upkeep, you may put a verse counter on this land.\n{T}: Add {C}.\n{T}, Remove two verse counters from this land: Expeditioner creatures you control get +1/+1 until end of turn.

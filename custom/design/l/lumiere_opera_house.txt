@@ -1,0 +1,25 @@
+[Name]
+Lumiere Opera House
+[ManaCost]
+no cost
+[Types]
+Land
+[Rarity]
+R
+[Artist]
+Sandfall Interactive
+[Oracle]
+At the beginning of your upkeep, you may put a verse counter on ~.
+{T}: Add {C}.
+{T}, Remove two verse counters from ~: Expeditioner creatures you control get +1/+1 until end of turn.
+[FlavorText]
+Maybe when this is over, we can fix up the opera house and you can perform for us. I want my first concert to be yours. And don't worry, I'll make sure the room is packed. I'll put up posters everywhere in town.
+- Maelle
+[ForgeScript]
+T:Mode$ Phase | Phase$ Upkeep | ValidPlayer$ You | TriggerZones$ Battlefield | OptionalDecider$ You | Execute$ TrigPutCounter | TriggerDescription$ At the beginning of your upkeep, you may put a verse counter on CARDNAME.
+SVar:TrigPutCounter:DB$ PutCounter | Defined$ Self | CounterType$ VERSE | CounterNum$ 1
+A:AB$ Mana | Cost$ T | Produced$ C | SpellDescription$ Add {C}.
+A:AB$ PumpAll | Cost$ T SubCounter<2/VERSE> | ValidCards$ Creature.Expeditioner+YouCtrl | NumAtt$ +1 | NumDef$ +1 | SpellDescription$ Expeditioner creatures you control get +1/+1 until end of turn.
+[DesignNotes]
+ - In the game, in Maelle's ending. Verso plays piano at the Lumiere Opera House (forever and ever?)
+ - Mechanically speaking, music generally translates to creature buffs (see almost any "Anthem" card printed), so I went with a land that grows verse counters that can be spent to momentarily buff your force.

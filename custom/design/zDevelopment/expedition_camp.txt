@@ -16,7 +16,7 @@ So uh... We can rest a bit, but the moon is bright, I want to keep moving.
 - Gustave
 [ForgeScript]
 A:AB$ Mana | Cost$ T | Produced$ C | SpellDescription$ Add {C}.
-A:AB$ ChangeZone | Cost$ 3 T | ValidTgts$ Expeditioner.YouCtrl | TgtPrompt$ Select up to one other target nonland permanent | Origin$ Battlefield | Destination$ Exile | RememberChanged$ True | SubAbility$ DelTrig
+A:AB$ ChangeZone | Cost$ 3 T | ValidTgts$ Expeditioner.YouCtrl | TgtPrompt$ Select up to one other target nonland permanent | Origin$ Battlefield | Destination$ Exile | RememberChanged$ True | SubAbility$ DelTrig | SpellDescription$ Exile target Expeditioner you control. At the beginning of the next end step, return that card to the battlefield under its owner's control. If it entered under your control and is a creature, put a +1/+1 counter on it.
 SVar:DelTrig:DB$ DelayedTrigger | Mode$ Phase | Phase$ End of Turn | Execute$ TrigBounce | TriggerDescription$ Return exiled permanent to the battlefield. | RememberObjects$ RememberedLKI | SubAbility$ DBCleanup
 SVar:TrigBounce:DB$ ChangeZone | Origin$ Exile | Destination$ Battlefield | Defined$ DelayTriggerRememberedLKI | Imprint$ True | SubAbility$ DBPutCounter
 SVar:DBPutCounter:DB$ PutCounter | Defined$ Remembered | CounterType$ P1P1 | CounterNum$ 1 | ConditionDefined$ Imprinted | ConditionPresent$ Card.YouCtrl+ThisTurnEntered | SubAbility$ DBCleanup
@@ -25,3 +25,5 @@ SVar:DBCleanup:DB$ Cleanup | ClearRemembered$ True | ClearImprinted$ True
  - In the game, the party can set up camp in the overworld to upgrade their equipment and replenish party health.
  - I envision this card as a "refuge" for Expeditioners ala. Safe Haven, so I've gone with a blink effect to signify the Expeditioner taking refuge and it coming back with a +1/+1 counter to signify it having ugpraded some of their equipment.
  - Intentionally worded to allow blinking of any Expeditioner *permanent*
+[Bugs]
+ - The +1/+1 bonus is not being applied.

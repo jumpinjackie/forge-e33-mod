@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 15/10/2025 11:35:27 AM
+> Last generated: 18/10/2025 8:06:22 AM
 
 ## Aberration
 

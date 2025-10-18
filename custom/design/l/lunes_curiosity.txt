@@ -23,8 +23,8 @@ K:Enchant:Creature
 SVar:AttachAILogic:Curiosity
 T:Mode$ DamageDone | ValidSource$ Card.AttachedBy | ValidTarget$ Opponent | Execute$ TrigChoose | TriggerZones$ Battlefield | OptionalDecider$ You | TriggerDescription$ Whenever enchanted creature deals damage to an opponent, choose one:\n - Draw a card\n - Create a Lumina token
 SVar:TrigChoose:DB$ Charm | Choices$ DBDraw,DBLumina | CharmNum$ 1
-SVar:DBDraw:DB$ Draw | Defined$ You | NumCards$ 1
-SVar:DBLumina:DB$ Token | TokenAmount$ 1 | TokenOwner$ You | TokenScript$ c_a_lumina
+SVar:DBDraw:DB$ Draw | Defined$ You | NumCards$ 1 | SpellDescription$ Draw a card.
+SVar:DBLumina:DB$ Token | TokenAmount$ 1 | TokenOwner$ You | TokenScript$ c_a_lumina | SpellDescription$ Create a Lumina token.
 SVar:PlayMain1:TRUE
 [DesignNotes]
  - In the game, Lune is a naturally inquisitive character, always looking at things with scientific curiosity.

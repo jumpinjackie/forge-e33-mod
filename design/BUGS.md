@@ -14,6 +14,10 @@ The WUBRG mana ability is not preventatively disabled if you don't meet the acti
 
 Chapter 3: Not getting lumina tokens for destroyed Nevron tokens
 
+## Expedition Camp
+
+ - The +1/+1 bonus is not being applied.
+
 ## Golgra, Gestral Chief
 
 I am being prompted for the mode before the enrage trigger goes on the stack, I kind of expected the prompt to happen on trigger resolution. And the trigger description on the stack is the full modal prompt and not the choice made. Not sure if it ultimately matters because it behaviourally works as expected.

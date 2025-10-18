@@ -3,7 +3,7 @@ ManaCost:1 R
 Types:Instant
 K:Fuse
 AlternateMode:Split
-A:SP$ Pump | ValidTgts$ Creature | TgtPrompt$ Select target creature | NumAtt$ +2 | KW$ Vigilance & Haste | SpellDescription$ Target creature gains vigilance, haste and +2/+0 until end of turn.
+A:SP$ Pump | ValidTgts$ Creature | TgtPrompt$ Select target creature to give vigilance, haste and +2/+0 | NumAtt$ +2 | KW$ Vigilance & Haste | SpellDescription$ Target creature gains vigilance, haste and +2/+0 until end of turn.
 Oracle:Target creature gains vigilance, haste and +2/+0 until end of turn.\nFuse (You may cast one or both halves of this card from your hand.)
 
 ALTERNATE
@@ -11,5 +11,5 @@ ALTERNATE
 Name:Grace
 ManaCost:1 W
 Types:Instant
-A:SP$ Pump | ValidTgts$ Creature | TgtPrompt$ Select target creature | NumAtt$ +1 | NumDef$ +1 | KW$ First Strike & Lifelink | SpellDescription$ Target creature gains first strike, lifelink and +1/+1 until end of turn.
+A:SP$ Pump | ValidTgts$ Creature | TgtPrompt$ Select target creature to give first strike, lifelink and +1/+1 | NumAtt$ +1 | NumDef$ +1 | KW$ First Strike & Lifelink | SpellDescription$ Target creature gains first strike, lifelink and +1/+1 until end of turn.
 Oracle:Target creature gains first strike, lifelink and +1/+1 until end of turn.

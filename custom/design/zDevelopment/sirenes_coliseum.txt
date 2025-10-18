@@ -17,7 +17,7 @@ Maybe. Maybe we'll just stay here and... enjoy the melody.
 - Luc, Expedition 67
 [ForgeScript]
 R:Event$ Moved | ValidCard$ Card.Self | Destination$ Battlefield | ReplaceWith$ LandTapped | ReplacementResult$ Updated | Description$ CARDNAME enters tapped unless you control a Nevron or Painter.
-SVar:LandTapped:DB$ Tap | Defined$ Self | ETB$ True | ConditionPresent$ Nevron.YouCtrl,Painter.YouCtrl | ConditionCompare$ GT2
+SVar:LandTapped:DB$ Tap | Defined$ Self | ETB$ True | ConditionPresent$ Nevron.YouCtrl,Painter.YouCtrl | ConditionCompare$ EQ0
 A:AB$ Mana | Cost$ T | Produced$ C | SpellDescription$ Add {C}.
 A:AB$ Mana | Cost$ T | Produced$ Any | SubAbility$ DBPain | SpellDescription$ Add one mana of any color. CARDNAME deals 1 damage to you.
 SVar:DBPain:DB$ DealDamage | NumDmg$ 1 | Defined$ You

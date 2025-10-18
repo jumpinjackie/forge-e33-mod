@@ -13,11 +13,11 @@ Sandfall Interactive
 1/1
 [Oracle]
 Flying.
-When this creature becomes the target of a spell or ability, sacrifice it.
+When this creature becomes the target of a spell or ability an opponent controls, sacrifice it.
 When this creature dies, target opponent creates a Lumina token.
 [ForgeScript]
 K:Flying
-T:Mode$ BecomesTarget | ValidTarget$ Card.Self | TriggerZones$ Battlefield | Execute$ TrigSac | TriggerDescription$ When CARDNAME becomes the target of a spell or ability, sacrifice it.
+T:Mode$ BecomesTarget | ValidTarget$ Card.Self | ValidSource$ SpellAbility.OppCtrl | TriggerZones$ Battlefield | Execute$ TrigSac | TriggerDescription$ When CARDNAME becomes the target of a spell or ability an opponent controls, sacrifice it.
 SVar:TrigSac:DB$ Sacrifice
 SVar:Targeting:Dies
 T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Card.Self | Execute$ TrigToken | TriggerDescription$ When this creature dies, target opponent creates a Lumina token.
@@ -27,3 +27,4 @@ SVar:TrigToken:DB$ Token | TokenAmount$ 1 | ValidTgts$ Opponent | TokenOwner$ Ta
  - Went with a Nevron variation of Flying Men
  - 30/09/2025: Gave it a Skulking Ghost sac trigger to emphasize its weakness to targeted attacks (shots)
  - 13/10/2025: Removed Devoid.
+ - 18/10/2025: Made the skulking ghost effect triggered by opponents

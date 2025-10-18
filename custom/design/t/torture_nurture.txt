@@ -16,7 +16,7 @@ Target creature gets -2/-2 until end of turn. It's controller loses 2 life.
 [ForgeScript]
 K:Fuse
 AlternateMode:Split
-A:SP$ Pump | ValidTgts$ Creature | TgtPrompt$ Select target creature | NumAtt$ -2 | NumDef$ -2 | IsCurse$ True | SubAbility$ DBLoseLife | SpellDescription$ Target creature gets -2/-2 until end of turn. It's controller loses 2 life.
+A:SP$ Pump | ValidTgts$ Creature | TgtPrompt$ Select target creature to give -2/-2 | NumAtt$ -2 | NumDef$ -2 | IsCurse$ True | SubAbility$ DBLoseLife | SpellDescription$ Target creature gets -2/-2 until end of turn. It's controller loses 2 life.
 SVar:DBLoseLife:DB$ LoseLife | Defined$ TargetedController | LifeAmount$ 2
 ALTERNATE:FUSE
 [Name]
@@ -29,7 +29,7 @@ Instant
 [Oracle]
 Target creature gets +2/+2 until end of turn. It's controller gains 2 life.
 [ForgeScript]
-A:SP$ Pump | ValidTgts$ Creature | TgtPrompt$ Select target creature | NumAtt$ +2 | NumDef$ +2 | SubAbility$ DBGainLife | SpellDescription$ Target creature gets +2/+2 until end of turn. It's controller gains 2 life.
+A:SP$ Pump | ValidTgts$ Creature | TgtPrompt$ Select target creature to give +2/+2 | NumAtt$ +2 | NumDef$ +2 | SubAbility$ DBGainLife | SpellDescription$ Target creature gets +2/+2 until end of turn. It's controller gains 2 life.
 SVar:DBGainLife:DB$ GainLife | Defined$ TargetedController | LifeAmount$ 2
 [ArtNotes]
 Sciel offering comfort to one of the party members.
