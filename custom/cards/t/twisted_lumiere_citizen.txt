@@ -1,0 +1,7 @@
+Name:Twisted Lumiere Citizen
+ManaCost:2 B
+Types:Creature Human Nevron Citizen
+PT:0/0
+K:ETBReplacement:Copy:DBCopy:Optional
+SVar:DBCopy:DB$ Clone | Choices$ Creature.Expeditioner+nonLegendary | AddTypes$ Human & Nevron & Citizen | SetColor$ Black | AddSVars$ TrigToken | SpellDescription$ You may have CARDNAME enter as a copy of any nonlegendary Expeditioner creature on the battlefield, except it is black and is a Human Nevron Citizen in addition to its other types
+Oracle:You may have this creature enter as a copy of any nonlegendary Expeditioner creature on the battlefield, except it is black and is a Human Nevron Citizen in addition to its other types

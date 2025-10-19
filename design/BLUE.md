@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 18/10/2025 10:04:09 AM
+> Last generated: 19/10/2025 5:32:50 AM
 
 ## An Advantage!
 
@@ -36,6 +36,43 @@ This creature enters with a shield counter on it. (If it would be dealt damage o
 
  - Just a vanilla hill giant. Has shield counters because its game counterpart always has one and Shield counters are near 1:1 mechanically.
  - 13/10/2025: Removed Devoid.
+
+## Bound by Chains
+
+```
+3U
+Kindred Enchantment - Nevron
+Lands don't untap during their controllers' untap steps.
+At the beginning of each player's upkeep, that player untaps a land they control.
+---
+The chains of Grief can be hard to break for some.
+```
+
+[card implementation](../custom/cards/b/bound_by_chains.txt)
+
+### Design Notes
+
+ - In the game, various Nevrons have an attack, which if not parried or dodged will apply a bound status on the attack recipient. A bound party member visually looks like someone tethered to the ground with chains.
+ - I've gone with a 1:1 copy of Rising Waters to solidify the Crippling Tsunami Prison archetype and to boost the Blue Skies archetype as something that can captialize on tempo gains.
+    - I would've gone with a nickname reprint, but to my knowledge Forge only lets you nickname cards in the source card script (the card from Nemesis) which is too invasive.
+
+## Breaking Moment
+
+```
+U
+Enchantment - Aura
+Enchant Creature.
+Whenever enchanted creature deals damage to an opponent, choose one —
+• Return target creature to its owner's hand
+• Tap target creature and put a stun counter on it
+```
+
+[card implementation](../custom/cards/b/breaking_moment.txt)
+
+### Design Notes
+
+ - In the game, breaking an enemy puts them in a stunned state and will cause them to skip their next turn.
+ - Went with a variant of Sigil of Sleep, but with an additional tap-and-stun mode if the enchanted creature connects.
 
 ## Bruler
 
@@ -187,6 +224,24 @@ Crew 2 (Tap any number of creatures you control with total power 2 or more: This
  - In the game, Expedition 43 tried using Submarines to traverse the continent without encountering Nevrons. This ended in failure when they were wiped out by Serpenphare.
  - Easy mechanical map to a vehicle. Mostly adapted from Silent Submersible.
 
+## Expedition 78
+
+```
+2UU
+Enchantment - Saga
+(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
+I — Create a 5/5 blue Airship creature token with flying.
+II — Until end of turn, creatures you control with flying gain "Whenever this creature deals damage to an opponent, draw a card"
+III — Sacrifice all Airships you control. Create a Chroma token for each Airship sacrificed this way.
+```
+
+[card implementation](../custom/cards/e/expedition_78.txt)
+
+### Design Notes
+
+ - Journal is a story of expeditioners stealing a bunch of Airships to escape Lumiere.
+ - 21/09/2025: This is an enabler engine for Expeditioner tribal strategies
+
 ## Francois, Waiting for Clea
 
 ```
@@ -304,9 +359,10 @@ Tap up to two target permanents. Put a stun counter on them.
 U
 Enchantment - Aura
 Enchant Creature.
-Whenever enchanted creature deals damage to an opponent, choose one:
- - Draw a card
- - Create a Lumina token (It's an artifact with "{T}, Sacrifice this token: Scry 1.")
+Whenever enchanted creature deals damage to an opponent, choose one —
+• Draw a card
+• Create a Lumina token
+• Create a Chroma token
 ---
 Do you heal from the top or the bottom? Or do you have to bring the halves together? Hey, can you control the process?
 ```

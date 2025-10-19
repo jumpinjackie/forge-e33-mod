@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 18/10/2025 10:04:09 AM
+> Last generated: 19/10/2025 5:32:50 AM
 
 ## A Storm is Coming
 
@@ -196,9 +196,9 @@ Esquie has Islandwalk as long as you control a card named Florrie.
 Esquie has Flying as long as you control a card named Soarrie.
 Esquie has Trample as long as you control a card named Dorrie.
 When Esquie attacks, if you control a card named Urrie, Surveil 2.
-When Esquie attacks, if it is saddled, choose one:
- - Draw a card.
- - Put a land card from your hand onto the battlefield.
+When Esquie attacks, if it is saddled, choose one —
+• Draw a card.
+• Put a land card from your hand onto the battlefield.
 
 6/6
 ```
@@ -770,9 +770,9 @@ When you unlock this door, create two Food tokens.
 Manor Cellar
 1W
 Enchantment - Room
-When you unlock this door, choose one:
- - Create two Chroma tokens.
- - Create two Lumina tokens.
+When you unlock this door, choose one —
+• Create two Chroma tokens.
+• Create two Lumina tokens.
 ```
 
 [card implementation](../custom/cards/m/manor_kitchen_manor_cellar.txt)
@@ -879,10 +879,10 @@ At the beginning of your upkeep, create a 1/1 colorless Nevron creature token.
 3(W/B)
 Kindred Instant - Expeditioner
 This spell costs {1} less to cast if you control an Expeditioner.
-Choose one -
- - Create two 1/1 white Human Expeditioner tokens with "When this creature dies, create a Chroma token.".
- - Up to two target creatures you control each get +2/+2 until end of turn.
- - Destroy target non-Expeditioner creature.
+Choose one —
+• Create two 1/1 white Human Expeditioner tokens with "When this creature dies, create a Chroma token.".
+• Up to two target creatures you control each get +2/+2 until end of turn.
+• Destroy target non-Expeditioner creature.
 ```
 
 [card implementation](../custom/cards/r/rally_the_expeditioners.txt)

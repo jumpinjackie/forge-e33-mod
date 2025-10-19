@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 18/10/2025 10:04:09 AM
+> Last generated: 19/10/2025 5:32:50 AM
 
 ## Aberration
 
@@ -223,4 +223,21 @@ Sophie: I know. I know.
  - This is meant to flavorfully and mechanically represent the moment Renoir triggers the 67th gommage, erasing every human 33 years and older.
  - Except in our case, instead of humans, it's players and instead of age its life total. Basically this card is just another excuse to weave in a thematic and flavorful use of the number 33.
  - Further playtesting may reveal the truth, but I don't believe the win condition is *that easy* to achieve. It goes against the general plan of victory for most decks, which is to get your opponent to 0 or less life. So having to get your opponent to above a certain life total to enable the victory condition is at least a unique angle.
+
+## Twisted Lumiere Citizen
+
+```
+2B
+Creature - Human Nevron Citizen
+You may have this creature enter as a copy of any nonlegendary Expeditioner creature on the battlefield, except it is black and is a Human Nevron Citizen in addition to its other types
+
+0/0
+```
+
+[card implementation](../custom/cards/t/twisted_lumiere_citizen.txt)
+
+### Design Notes
+
+ - In Act 3 of the game, Renoir (now free) summons an assortment of Nevrons, including twisted copies of the citizens of Lumiere to carry out his mission of destroying the canvas.
+ - Easy mechanical map to a clone/copy effect, but for flavor purposes, will only clone a nonlegendary Expeditioner.
 

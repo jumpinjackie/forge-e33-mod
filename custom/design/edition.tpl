@@ -21,6 +21,7 @@ Painter:Painters
 Expeditioner:Expeditioners
 Gestral:Gestrals
 Grandis:Grandises
+Airship:Airships
 Axon:Axons
 
 [ArtifactTypes]

@@ -24,8 +24,10 @@ Bertrand Big Hands
 Blade's Graveyard
 Boat Graveyard
 Boucheclier
+Bound by Chains
 Bourgeon
 Braseleur
+Breaking Aura
 Breaking Rules
 Bruler
 Burning Canvas
@@ -273,6 +275,7 @@ Tomorrow Comes
 Torture // Nurture
 Troubador
 Twilight Quarry
+Twisted Lumiere Citizen
 Ultimate Sakapatate
 Urrie
 Verisimilitude

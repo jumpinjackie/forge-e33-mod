@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 18/10/2025 10:04:09 AM
+> Last generated: 19/10/2025 5:32:50 AM
 
 ## Berrami, Collector of Journals
 
@@ -358,11 +358,11 @@ Sacrifice a Chroma token: Put a charge counter on this creature. Activate this a
 Legendary Artifact Creature - Gestral
 Other Gestral creatures you control get +2/+2
 {2}: Put a shield counter on target Gestral you control.
-Enrage - Whenever Golgra is dealt damage, choose one:
- - Put a Double strike counter on Golgra.
- - Put a Vigilance counter on Golgra.
- - Put a Trample counter on Golgra.
- - Draw a card.
+Enrage — Whenever Golgra is dealt damage, choose one —
+• Put a Double strike counter on Golgra.
+• Put a Vigilance counter on Golgra.
+• Put a Trample counter on Golgra.
+• Draw a card.
 ---
 Really? A duel? Do you have a death wish?
 
@@ -549,9 +549,9 @@ Tap three creatures you control: Untap Matthieu.
 ```
 1
 Artifact
-{1}, {T}, Sacrifice this artifact and any number of token permanents you control: Choose one -
- - Create X Chroma tokens, where X is the number of sacrificed permanents.
- - Create X Lumina tokens, where X is the number of sacrificed permanents.
+{1}, {T}, Sacrifice this artifact and any number of token permanents you control: Choose one —
+• Create X Chroma tokens, where X is the number of sacrificed permanents.
+• Create X Lumina tokens, where X is the number of sacrificed permanents.
 ```
 
 [card implementation](../custom/cards/r/recoat.txt)

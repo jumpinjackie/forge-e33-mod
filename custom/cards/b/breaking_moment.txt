@@ -1,0 +1,12 @@
+Name:Breaking Moment
+ManaCost:U
+Types:Enchantment Aura
+K:Enchant:Creature
+SVar:AttachAILogic:Curiosity
+T:Mode$ DamageDone | ValidSource$ Card.AttachedBy | ValidTarget$ Opponent | Execute$ TrigChoose | TriggerZones$ Battlefield | OptionalDecider$ You | TriggerDescription$ Whenever enchanted creature deals damage to an opponent, ABILITY
+SVar:TrigChoose:DB$ Charm | Choices$ DBBounce,DBTap | CharmNum$ 1
+SVar:DBBounce:DB$ ChangeZone | ValidTgts$ Creature | TargetsWithDefinedController$ TriggeredTarget | TgtPrompt$ Select target creature your opponent controls | IsCurse$ True | Origin$ Battlefield | Destination$ Hand | SpellDescription$ Return target creature to its owner's hand.
+SVar:DBTap:DB$ Tap | ValidTgts$ Creature | TgtPrompt$ Select target creature | SubAbility$ DBPutCounter | SpellDescription$ Tap target creature and put a stun counter on it.
+SVar:DBPutCounter:DB$ PutCounter | Defined$ Targeted | CounterType$ STUN | CounterNum$ 1
+SVar:PlayMain1:TRUE
+Oracle:Enchant Creature.\nWhenever enchanted creature deals damage to an opponent, choose one —\n• Return target creature to its owner's hand\n• Tap target creature and put a stun counter on it

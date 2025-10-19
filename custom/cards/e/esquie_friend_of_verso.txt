@@ -6,10 +6,10 @@ S:Mode$ Continuous | Affected$ Card.Self | AddKeyword$ Islandwalk | IsPresent$ C
 S:Mode$ Continuous | Affected$ Card.Self | AddKeyword$ Flying | IsPresent$ Card.YouCtrl+namedSoarrie | Description$ CARDNAME has Flying as long as you control a card named Soarrie.
 S:Mode$ Continuous | Affected$ Card.Self | AddKeyword$ Trample | IsPresent$ Card.YouCtrl+namedDorrie | Description$ CARDNAME has Trample as long as you control a card named Dorrie.
 T:Mode$ Attacks | ValidCard$ Card.Self | IsPresent$ Card.YouCtrl+namedUrrie | Execute$ TrigSurveil | TriggerZones$ Battlefield | OptionalDecider$ You | TriggerDescription$ When CARDNAME attacks, if you control a card named Urrie, Surveil 2.
-T:Mode$ Attacks | ValidCard$ Card.Self+IsSaddled | Execute$ TrigChoose | TriggerZones$ Battlefield | OptionalDecider$ You | TriggerDescription$ When CARDNAME attacks, if it is saddled, choose one:\n - Draw a card.\n - Put a land card from your hand onto the battlefield.
+T:Mode$ Attacks | ValidCard$ Card.Self+IsSaddled | Execute$ TrigChoose | TriggerZones$ Battlefield | OptionalDecider$ You | TriggerDescription$ When CARDNAME attacks, if it is saddled, ABILITY
 SVar:TrigSurveil:DB$ Surveil | Amount$ 2 | SpellDescription$ Surveil 2.
 SVar:TrigChoose:DB$ Charm | Choices$ DBDraw,DBLand | CharmNum$ 1
 SVar:DBDraw:DB$ Draw | Defined$ You | SpellDescription$ Draw a card.
 SVar:DBLand:DB$ ChangeZone | Origin$ Hand | Destination$ Battlefield | ChangeType$ Land | ChangeNum$ 1 | SpellDescription$ Put a land card from your hand onto the battlefield.
 K:Saddle:2
-Oracle:Saddle 2.\nEsquie has Islandwalk as long as you control a card named Florrie.\nEsquie has Flying as long as you control a card named Soarrie.\nEsquie has Trample as long as you control a card named Dorrie.\nWhen Esquie attacks, if you control a card named Urrie, Surveil 2.\nWhen Esquie attacks, if it is saddled, choose one:\n - Draw a card.\n - Put a land card from your hand onto the battlefield.
+Oracle:Saddle 2.\nEsquie has Islandwalk as long as you control a card named Florrie.\nEsquie has Flying as long as you control a card named Soarrie.\nEsquie has Trample as long as you control a card named Dorrie.\nWhen Esquie attacks, if you control a card named Urrie, Surveil 2.\nWhen Esquie attacks, if it is saddled, choose one —\n• Draw a card.\n• Put a land card from your hand onto the battlefield.

@@ -3,9 +3,10 @@ ManaCost:U
 Types:Enchantment Aura
 K:Enchant:Creature
 SVar:AttachAILogic:Curiosity
-T:Mode$ DamageDone | ValidSource$ Card.AttachedBy | ValidTarget$ Opponent | Execute$ TrigChoose | TriggerZones$ Battlefield | OptionalDecider$ You | TriggerDescription$ Whenever enchanted creature deals damage to an opponent, choose one:\n - Draw a card\n - Create a Lumina token
-SVar:TrigChoose:DB$ Charm | Choices$ DBDraw,DBLumina | CharmNum$ 1
+T:Mode$ DamageDone | ValidSource$ Card.AttachedBy | ValidTarget$ Opponent | Execute$ TrigChoose | TriggerZones$ Battlefield | OptionalDecider$ You | TriggerDescription$ Whenever enchanted creature deals damage to an opponent, ABILITY
+SVar:TrigChoose:DB$ Charm | Choices$ DBDraw,DBLumina,DBChroma | CharmNum$ 1
 SVar:DBDraw:DB$ Draw | Defined$ You | NumCards$ 1 | SpellDescription$ Draw a card.
 SVar:DBLumina:DB$ Token | TokenAmount$ 1 | TokenOwner$ You | TokenScript$ c_a_lumina | SpellDescription$ Create a Lumina token.
+SVar:DBChroma:DB$ Token | TokenAmount$ 1 | TokenOwner$ You | TokenScript$ c_a_chroma | SpellDescription$ Create a Chroma token.
 SVar:PlayMain1:TRUE
-Oracle:Enchant Creature.\nWhenever enchanted creature deals damage to an opponent, choose one:\n - Draw a card\n - Create a Lumina token (It's an artifact with "{T}, Sacrifice this token: Scry 1.")
+Oracle:Enchant Creature.\nWhenever enchanted creature deals damage to an opponent, choose one —\n• Draw a card\n• Create a Lumina token\n• Create a Chroma token

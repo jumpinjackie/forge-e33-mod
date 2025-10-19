@@ -15,10 +15,10 @@ Sandfall Interactive
 Maelle stands at the docks of Lumiere, with party and reanimated Expeditioners behind her. She points her sword towards the camera, as if to signal the final assault.
 [Oracle]
 This spell costs {1} less to cast if you control an Expeditioner.
-Choose one -
- - Create two 1/1 white Human Expeditioner tokens with $EXPEDITIONER_TOKEN_TEXT.
- - Up to two target creatures you control each get +2/+2 until end of turn.
- - Destroy target non-Expeditioner creature.
+Choose one —
+• Create two 1/1 white Human Expeditioner tokens with $EXPEDITIONER_TOKEN_TEXT.
+• Up to two target creatures you control each get +2/+2 until end of turn.
+• Destroy target non-Expeditioner creature.
 [ForgeScript]
 S:Mode$ ReduceCost | ValidCard$ Card.Self | Type$ Spell | Amount$ 1 | EffectZone$ All | IsPresent$ Expeditioner.YouCtrl | Description$ This spell costs {1} less to cast if you control an Expeditioner.
 A:SP$ Charm | Choices$ DBToken,DBPump,DBDestroy | Defined$ You | CharmNum$ 1

@@ -1,0 +1,14 @@
+Name:Expedition 78
+ManaCost:2 U U
+Types:Enchantment Saga
+K:Chapter:3:DBChapter1,DBChapter2,DBChapter3
+SVar:DBChapter1:DB$ Token | TokenAmount$ 1 | TokenOwner$ You | TokenScript$ u_5_5_airship | SpellDescription$ Create a 5/5 blue Airship creature token with flying.
+SVar:DBChapter2:DB$ AnimateAll | ValidCards$ Creature.YouCtrl | Triggers$ TrigConnect | SpellDescription$ Until end of turn, creatures you control with flying gain "Whenever this creature deals damage to an opponent, draw a card"
+SVar:TrigConnect:Mode$ DamageDone | ValidSource$ Card.Self | ValidTarget$ Opponent | OptionalDecider$ You | Execute$ TrigDraw | TriggerDescription$ Whenever this creature deals damage to an opponent, draw a card.
+SVar:TrigDraw:DB$ Draw | Defined$ You | NumCards$ 1 | SpellDescription$ Draw a card.
+SVar:DBChapter3:DB$ SacrificeAll | ValidCards$ Airship.YouCtrl | RememberSacrificed$ True | Optional$ True | SubAbility$ DBChroma | SpellDescription$ Sacrifice all Airships you control. Create a Chroma token for each Airship sacrificed.
+SVar:DBChroma:DB$ Token | TokenAmount$ MakeX | TokenOwner$ You | TokenScript$ c_a_lumina | SubAbility$ DBCleanup
+SVar:DBCleanup:DB$ Cleanup | ClearRemembered$ True
+SVar:MakeX:Remembered$Amount
+DeckHas:Ability$Counters
+Oracle:(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)\nI — Create a 5/5 blue Airship creature token with flying.\nII — Until end of turn, creatures you control with flying gain "Whenever this creature deals damage to an opponent, draw a card"\nIII — Sacrifice all Airships you control. Create a Chroma token for each Airship sacrificed this way.each Airship sacrificed this way.

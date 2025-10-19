@@ -1,0 +1,7 @@
+Name:Airship Token
+ManaCost:no cost
+Colors:blue
+Types:Creature Airship
+PT:5/5
+K:Flying
+Oracle:Flying

@@ -1,0 +1,30 @@
+[Name]
+Bound by Chains
+[ManaCost]
+3
+U
+[Types]
+Kindred
+Enchantment
+Nevron
+[Rarity]
+R
+[Artist]
+Sandfall Interactive
+[ArtNotes]
+One of the Expeditioners tied to the ground with energy tethers that have the appearance of chains.
+[Oracle]
+Lands don't untap during their controllers' untap steps.
+At the beginning of each player's upkeep, that player untaps a land they control.
+[FlavorText]
+The chains of Grief can be hard to break for some.
+[ForgeScript]
+R:Event$ Untap | ActiveZones$ Battlefield | ValidCard$ Land | ValidStepTurnToController$ You | Layer$ CantHappen | Description$ Lands don't untap during their controller's untap steps.
+T:Mode$ Phase | Phase$ Upkeep | ValidPlayer$ Player | TriggerZones$ Battlefield | Execute$ TrigUntap | TriggerDescription$ At the beginning of each player's upkeep, that player untaps a land they control.
+SVar:TrigUntap:DB$ Untap | UntapUpTo$ True | UntapType$ Land.ActivePlayerCtrl | Amount$ 1 | Defined$ TriggeredPlayer
+AI:RemoveDeck:Random
+SVar:NonStackingEffect:True
+[DesignNotes]
+ - In the game, various Nevrons have an attack, which if not parried or dodged will apply a bound status on the attack recipient. A bound party member visually looks like someone tethered to the ground with chains.
+ - I've gone with a 1:1 copy of Rising Waters to solidify the Crippling Tsunami Prison archetype and to boost the Blue Skies archetype as something that can captialize on tempo gains.
+    - I would've gone with a nickname reprint, but to my knowledge Forge only lets you nickname cards in the source card script (the card from Nemesis) which is too invasive.

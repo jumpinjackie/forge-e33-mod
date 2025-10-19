@@ -9,9 +9,9 @@ C
 [Artist]
 Sandfall Interactive
 [Oracle]
-{1}, {T}, Sacrifice this artifact and any number of token permanents you control: Choose one -
- - Create X Chroma tokens, where X is the number of sacrificed permanents.
- - Create X Lumina tokens, where X is the number of sacrificed permanents.
+{1}, {T}, Sacrifice this artifact and any number of token permanents you control: Choose one —
+• Create X Chroma tokens, where X is the number of sacrificed permanents.
+• Create X Lumina tokens, where X is the number of sacrificed permanents.
 [ForgeScript]
 A:AB$ Charm | Cost$ 1 T Sac<1/CARDNAME> Sac<X/Permanent.token> | Choices$ DBChroma,DBLumina
 SVar:DBChroma:DB$ Token | TokenAmount$ X | TokenOwner$ You | TokenScript$ c_a_chroma | SpellDescription$ Create X Chroma tokens, where X is the number of sacrificed permanents.
