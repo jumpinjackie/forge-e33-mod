@@ -1,0 +1,28 @@
+[Name]
+Potier
+[ManaCost]
+3
+R
+[Types]
+Creature
+Nevron
+[Rarity]
+U
+[Artist]
+Sandfall Interactive
+[PT]
+2/2
+[Oracle]
+Flying
+Spawns pots — When ~ enters, create two colorless 1/1 Nevron Pot creature tokens with "This creature attacks each combat if able".
+Buffs its allies — Nevrons you control have haste.
+[AbilityWords]
+Spawns pots
+Buffs its allies
+[ForgeScript]
+K:Flying
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigCreateTokens | TriggerDescription$ When ~ enters, create two colorless 1/1 Nevron Pot creature tokens with "This creature attacks each combat if able".
+SVar:TrigCreateTokens:DB$ Token | TokenScript$ c_1_1_pot_nevron | TokenOwner$ You | TokenAmount$ 2
+S:Mode$ Continuous | Affected$ Nevron.YouCtrl | AddKeyword$ Haste | Description$ Nevrons you control have haste.
+[DesignNotes]
+ - Nevron version of Deranged Hermit / Siege-Gang Commander

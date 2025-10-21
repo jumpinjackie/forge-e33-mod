@@ -1,0 +1,13 @@
+Name:The Scavenger
+ManaCost:2 B G
+Types:Legendary Creature Nevron
+PT:4/4
+K:Ward:2
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigReanimate | TriggerDescription$ When CARDNAME enters, return target permanent card with mana value 3 or less from your graveyard to tbe battlefield.
+SVar:TrigReanimate:DB$ ChangeZone | Origin$ Graveyard | Destination$ Battlefield | TgtPrompt$ Choose target permanent card with mana value 3 or less from your graveyard | ValidTgts$ Permanent.cmcLE3+YouCtrl
+R:Event$ CreateToken | ActiveZones$ Battlefield | ValidPlayer$ Opponent | ValidToken$ Lumina | ReplaceWith$ TokenReplace | Description$ If an opponent would create a Lumina token, you create a Lumina token instead.
+SVar:TokenReplace:DB$ Token | TokenAmount$ 1 | TokenOwner$ You | TokenScript$ c_a_lumina | SpellDescription$ Create a Lumina token.
+A:AB$ Mana | Cost$ Sac<1/Lumina> | Produced$ Any | SpellDescription$ Add one mana of any color.
+A:AB$ Mana | Cost$ Sac<1/Nevron> | Produced$ Any | Amount$ 2 | SpellDescription$ Add two mana of any color.
+A:AB$ ChangeZone | Cost$ 2 BG T | Origin$ Graveyard | Destination$ Hand | ValidTgts$ Permanent.YouOwn | TgtPrompt$ Select target permanent card in your graveyard | SpellDescription$ Return target permanent card from your graveyard to your hand.
+Oracle:Ward 2.\nWhen The Scavenger enters, return target permanent card with mana value 3 or less from your graveyard to tbe battlefield.\nIf an opponent would create a Lumina token, you create a Lumina token instead.\nSacrifice a Lumina token: Add one mana of any color.\nSacrifice a Nevron: Add two mana of any one color.\n{2}{B/G}, {T}: Return target permanent card from your graveyard to your hand.

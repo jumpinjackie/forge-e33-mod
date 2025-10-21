@@ -1,0 +1,13 @@
+Name:Contortionniste
+ManaCost:1 U B
+Types:Creature Nevron
+PT:3/3
+K:Lifelink
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigCharm | TriggerDescription$ When CARDNAME enters, ABILITY
+SVar:TrigCharm:DB$ Charm | Choices$ DBDestroy,DBTapAndStun
+SVar:DBDestroy:DB$ Destroy | ValidTgts$ Creature.cmcLE3 | TgtPrompt$ Select target creature with mana value 3 or less | SpellDescription$ Destroy target creature with mana value 3 or less.
+SVar:DBTapAndStun:DB$ Tap | TgtPrompt$ Choose target creature | ValidTgts$ Creature | SubAbility$ DBCounter | SpellDescription$ Tap target creature and put a stun counter on it.
+SVar:DBCounter:DB$ PutCounter | Defined$ Targeted | CounterType$ Stun | CounterNum$ 1
+T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Card.Self | Execute$ TrigToken | TriggerDescription$ When this creature dies, target opponent creates a Lumina token.
+SVar:TrigToken:DB$ Token | TokenAmount$ 1 | ValidTgts$ Opponent | TokenOwner$ Targeted | TokenScript$ c_a_lumina
+Oracle:Lifelink\nImpales its target — When this creature enters, choose one —\n• Destroy target creature with mana value 3 or less.\n• Tap target creature and put a stun counter on it.\nWhen this creature dies, target opponent creates a Lumina token.

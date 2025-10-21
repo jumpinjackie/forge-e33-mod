@@ -1,0 +1,31 @@
+[Name]
+Echassier
+[ManaCost]
+2
+B
+[Types]
+Creature
+Nevron
+[Rarity]
+U
+[Artist]
+Sandfall Interactive
+[PT]
+3/3
+[Oracle]
+Double the blight — {T}: Up to two target creatures your opponent controls have base toughness 1 until end of turn.
+Heals allies — {1}{B}, {T}: Gain 1 life for each creature you control.
+When this creature dies, target opponent creates a Lumina token.
+[AbilityWords]
+Double the blight
+Heals allies
+[ForgeScript]
+A:AB$ Animate | Cost$ T | TargetMin$ 0 | TargetMax$ 2 | Toughness$ 1 | ValidTgts$ Creature | TgtPrompt$ Select up to two target creatures | SpellDescription$ Up to two target creatures your opponent controls have base toughness 1 until end of turn.
+A:AB$ GainLife | Cost$ 1 B T | Defined$ You | LifeAmount$ X | SpellDescription$ Gain 1 life for each creature you control.
+SVar:X:Count$Valid Creature.YouCtrl
+T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Card.Self | Execute$ TrigToken | TriggerDescription$ When this creature dies, target opponent creates a Lumina token.
+SVar:TrigToken:DB$ Token | TokenAmount$ 1 | ValidTgts$ Opponent | TokenOwner$ Targeted | TokenScript$ c_a_lumina
+[DesignNotes]
+ - In the game, Scavenger is a boss in the Falling Leaves.
+ - We are 100% leaning in solely on the name to provide an all-round value engine for Nevrons.
+ - 21/10/2025: Bumped PT from 2/2 to 3/3 and added missing nevron death trigger.

@@ -2,6 +2,11 @@ Name:Braseleur
 ManaCost:1 U R
 Types:Creature Nevron
 PT:3/2
+K:etbCounter:ORB:2
+T:Mode$ Phase | Phase$ Upkeep | ValidPlayer$ You | TriggerZones$ Battlefield | OptionalDecider$ You | Execute$ TrigPutCounter | TriggerDescription$ At the beginning of your upkeep, you may put an orb counter on CARDNAME.
+SVar:TrigPutCounter:DB$ PutCounter | Defined$ Self | CounterType$ ORB | CounterNum$ 1
+A:AB$ DealDamage | Cost$ R SubCounter<1/ORB> | ValidTgts$ Creature | TgtPrompt$ Select target creature | NumDmg$ 1 | SpellDescription$ CARDNAME deals 1 damage to target creature.
+A:AB$ Tap | Cost$ U SubCounter<1/ORB> | ValidTgts$ Creature | TgtPrompt$ Select target creature | SpellDescription$ Tap target creature.
 T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Card.Self | Execute$ TrigToken | TriggerDescription$ When this creature dies, target opponent creates a Lumina token.
 SVar:TrigToken:DB$ Token | TokenAmount$ 1 | ValidTgts$ Opponent | TokenOwner$ Targeted | TokenScript$ c_a_lumina
-Oracle:When this creature dies, target opponent creates a Lumina token.
+Oracle:This creature enters with two orb counters.\nAt the beginning of your upkeep, you may put an orb counter on this creature.\n{R}, Remove an orb counter from this creature: This creature deals 1 damage to target creature.\n{U}, Remove an orb counter from this creature: Tap target creature.\nWhen this creature dies, target opponent creates a Lumina token.

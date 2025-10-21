@@ -1,0 +1,9 @@
+Name:Potier
+ManaCost:3 R
+Types:Creature Nevron
+PT:2/2
+K:Flying
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigCreateTokens | TriggerDescription$ When CARDNAME enters, create two colorless 1/1 Nevron Pot creature tokens with "This creature attacks each combat if able".
+SVar:TrigCreateTokens:DB$ Token | TokenScript$ c_1_1_pot_nevron | TokenOwner$ You | TokenAmount$ 2
+S:Mode$ Continuous | Affected$ Nevron.YouCtrl | AddKeyword$ Haste | Description$ Nevrons you control have haste.
+Oracle:Flying\nSpawns pots — When this creature enters, create two colorless 1/1 Nevron Pot creature tokens with "This creature attacks each combat if able".\nBuffs its allies — Nevrons you control have haste.

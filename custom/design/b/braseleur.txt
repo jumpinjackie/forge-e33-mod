@@ -14,10 +14,20 @@ Sandfall Interactive
 [PT]
 3/2
 [Oracle]
+~ enters with two orb counters.
+At the beginning of your upkeep, you may put an orb counter on ~.
+{R}, Remove an orb counter from ~: ~ deals 1 damage to target creature.
+{U}, Remove an orb counter from ~: Tap target creature.
 When this creature dies, target opponent creates a Lumina token.
 [ForgeScript]
+K:etbCounter:ORB:2
+T:Mode$ Phase | Phase$ Upkeep | ValidPlayer$ You | TriggerZones$ Battlefield | OptionalDecider$ You | Execute$ TrigPutCounter | TriggerDescription$ At the beginning of your upkeep, you may put an orb counter on ~.
+SVar:TrigPutCounter:DB$ PutCounter | Defined$ Self | CounterType$ ORB | CounterNum$ 1
+A:AB$ DealDamage | Cost$ R SubCounter<1/ORB> | ValidTgts$ Creature | TgtPrompt$ Select target creature | NumDmg$ 1 | SpellDescription$ ~ deals 1 damage to target creature.
+A:AB$ Tap | Cost$ U SubCounter<1/ORB> | ValidTgts$ Creature | TgtPrompt$ Select target creature | SpellDescription$ Tap target creature.
 T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Card.Self | Execute$ TrigToken | TriggerDescription$ When this creature dies, target opponent creates a Lumina token.
 SVar:TrigToken:DB$ Token | TokenAmount$ 1 | ValidTgts$ Opponent | TokenOwner$ Targeted | TokenScript$ c_a_lumina
 [DesignNotes]
  - Currently a placeholder vanilla Nevron. Abilities TBD.
  - 13/10/2025: Removed Devoid.
+ - 21/10/2025: Gone with the orb summoning gimmick as the basis for most abilities.

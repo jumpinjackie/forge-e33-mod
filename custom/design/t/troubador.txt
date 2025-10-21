@@ -13,12 +13,18 @@ Sandfall Interactive
 [PT]
 2/2
 [Oracle]
-Other nevrons you control get +1/+1.
+Applies powerful to allies — Other nevrons you control get +1/+1.
+Applies rush to allies — Nevrons you control have haste.
 When this creature dies, target opponent creates a Lumina token.
+[AbilityWords]
+Applies powerful to allies
+Applies rush to allies
 [ForgeScript]
 S:Mode$ Continuous | Affected$ Creature.Nevron+Other+YouCtrl | AddPower$ 1 | AddToughness$ 1 | Description$ Other Nevron creatures you control get +1/+1.
+S:Mode$ Continuous | Affected$ Nevron.YouCtrl | AddKeyword$ Haste | Description$ Nevrons you control have haste.
 T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Card.Self | Execute$ TrigToken | TriggerDescription$ When this creature dies, target opponent creates a Lumina token.
 SVar:TrigToken:DB$ Token | TokenAmount$ 1 | ValidTgts$ Opponent | TokenOwner$ Targeted | TokenScript$ c_a_lumina
 [DesignNotes]
  - In the game, a Troubador uses its horn to buff the enemy party.
  - Mechanically, I've mapped this to a basic nevron lord buff effect.
+ - 21/10/2025: Added lord haste effect to match its character sheet.

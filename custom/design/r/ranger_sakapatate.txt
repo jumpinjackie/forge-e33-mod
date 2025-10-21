@@ -1,0 +1,34 @@
+[Name]
+Ranger Sakapatate
+[ManaCost]
+2
+R
+[Types]
+Creature
+Nevron
+[Rarity]
+U
+[Artist]
+Sandfall Interactive
+[PT]
+3/2
+[Oracle]
+This spell costs {1} less to cast if you control a Gestral.
+Attacks with its mighty sword — {R}, {T}: ~ deals 1 damage to target creature, put a stun counter on it.
+Gestral Volleyball — {1}{R}, Sacrifice a Gestral: ~ deals 2 damage to any target.
+When ~ dies, target opponent creates a Lumina token.
+When ~ dies, you may have ~ deal 3 damage divided as you choose among one, two or three target creatures.
+[AbilityWords]
+Attacks with its mighty sword
+[ForgeScript]
+S:Mode$ ReduceCost | ValidCard$ Card.Self | Type$ Spell | Amount$ 1 | EffectZone$ All | IsPresent$ Gestral.YouCtrl | Description$ This spell costs {1} less to cast if you control a Gestral.
+A:AB$ DealDamage | Cost$ R T | ValidTgts$ Creature | TgtPrompt$ Select target creature | NumDmg$ 1 | SubAbility$ TrigStun | SpellDescription$ CARDNAME deals 1 damage to target creature.
+SVar:TrigStun:DB$ PutCounter | Defined$ Targeted | CounterType$ Stun | CounterNum$ 1
+A:AB$ DealDamage | Cost$ 1 R Sac<1/Gestral> | ValidTgts$ Any | NumDmg$ 2 | SpellDescription$ CARDNAME deals 2 damage to any target.
+T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Card.Self | Execute$ TrigDeath | TriggerDescription$ When ~ dies, you may have ~ deal 3 damage divided as you choose among one, two or three target creatures.
+SVar:TrigDeath:DB$ DealDamage | ValidTgts$ Creature | TgtPrompt$ Select any target to distribute damage to | NumDmg$ 3 | TargetMin$ 1 | TargetMax$ 3 | DividedAsYouChoose$ 3 | Optional$ True | SpellDescription$ CARDNAME deals 3 damage divided as you choose among one, two, or three targets creatures.
+T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Card.Self | Execute$ TrigToken | TriggerDescription$ When this creature dies, target opponent creates a Lumina token.
+SVar:TrigToken:DB$ Token | TokenAmount$ 1 | ValidTgts$ Opponent | TokenOwner$ Targeted | TokenScript$ c_a_lumina
+[DesignNotes]
+ - Like other Sakapatates, it will try to do a last minute suicide move to do some damage before it goes.
+ - 21/10/2025: Added Gestral alliance cost reduction and Gestral volleyball fling ability since this is the one participating in the Gestral volleyball minigame.
