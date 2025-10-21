@@ -11,4 +11,4 @@ SVar:DBChroma:DB$ Token | TokenAmount$ MakeX | TokenOwner$ You | TokenScript$ c_
 SVar:DBCleanup:DB$ Cleanup | ClearRemembered$ True
 SVar:MakeX:Remembered$Amount
 DeckHas:Ability$Counters
-Oracle:(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)\nI — Create a 5/5 blue Airship creature token with flying.\nII — Until end of turn, creatures you control with flying gain "Whenever this creature deals damage to an opponent, draw a card"\nIII — Sacrifice all Airships you control. Create a Chroma token for each Airship sacrificed this way.each Airship sacrificed this way.
+Oracle:(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)\nI — Create a 5/5 blue Airship creature token with flying.\nII — Until end of turn, creatures you control with flying gain "Whenever this creature deals damage to an opponent, draw a card"\nIII — Sacrifice all Airships you control. Create a Chroma token for each Airship sacrificed this way.

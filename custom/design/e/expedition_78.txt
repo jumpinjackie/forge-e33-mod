@@ -31,4 +31,4 @@ SVar:MakeX:Remembered$Amount
 DeckHas:Ability$Counters
 [DesignNotes]
  - Journal is a story of expeditioners stealing a bunch of Airships to escape Lumiere.
- - 21/09/2025: This is an enabler engine for Expeditioner tribal strategies
+ - This is a top-end payoff for an all-flyers strategy
