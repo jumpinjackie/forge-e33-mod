@@ -13,14 +13,17 @@ Sandfall Interactive
 [PT]
 2/2
 [Oracle]
+This spell costs {1} less to cast if you control a Gestral.
 When this creature dies, target opponent creates a Lumina token.
 When this creature dies, you may have this creature deal 2 damage to target creature.
 [ForgeScript]
+S:Mode$ ReduceCost | ValidCard$ Card.Self | Type$ Spell | Amount$ 1 | EffectZone$ All | IsPresent$ Gestral.YouCtrl | Description$ This spell costs {1} less to cast if you control a Gestral.
 T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Card.Self | Execute$ TrigDeath | TriggerDescription$ When this creature dies, you may have this creature deal 2 damage to target creature.
-SVar:TrigDeath:DB$ DealDamage | ValidTgts$ Creature | NumDmg$ 2
+SVar:TrigDeath:DB$ DealDamage | ValidTgts$ Creature | NumDmg$ 2 | Optional$ True 
 T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Card.Self | Execute$ TrigToken | TriggerDescription$ When this creature dies, target opponent creates a Lumina token.
 SVar:TrigToken:DB$ Token | TokenAmount$ 1 | ValidTgts$ Opponent | TokenOwner$ Targeted | TokenScript$ c_a_lumina
 [DesignNotes]
  - In the game, when you defeat a Catapault Sakapatate, it will try to do a last minute suicide move to do some damage before it goes.
  - Represented mechanically here as a simple shock-creature-on-death trigger.
  - 13/10/2025: Removed Devoid.
+ - 21/10/2025: Added Gestral alliance cost reduction

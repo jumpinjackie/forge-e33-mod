@@ -1,0 +1,35 @@
+[Name]
+Robust Sakapatate
+[ManaCost]
+3
+R
+[Types]
+Creature
+Nevron
+[Rarity]
+U
+[Artist]
+Sandfall Interactive
+[PT]
+3/3
+[Oracle]
+This spell costs {1} less to cast if you control a Gestral.
+~ enters with a shield counter.
+Strikes with its dead partner — {2}, Sacrifice a Nevron: ~ deals damage equal to the sacrificed Nevron's mana value to target creature.
+When ~ dies, target opponent creates a Lumina token.
+When ~ dies, you may have ~ deal 2 damage to each non-Nevron creature.
+[AbilityWords]
+Strikes with its dead partner
+[ForgeScript]
+K:etbCounter:SHIELD:1
+S:Mode$ ReduceCost | ValidCard$ Card.Self | Type$ Spell | Amount$ 1 | EffectZone$ All | IsPresent$ Gestral.YouCtrl | Description$ This spell costs {1} less to cast if you control a Gestral.
+A:AB$ DealDamage | Cost$ 2 Sac<1/Nevron> | ValidTgts$ Creature | TgtPrompt$ Select target creature | NumDmg$ X | SubAbility$ TrigStun | SpellDescription$ CARDNAME deals 1 damage to target creature.
+SVar:TrigStun:DB$ PutCounter | Defined$ Targeted | CounterType$ Stun | CounterNum$ 1
+T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Card.Self | Execute$ TrigDeath | TriggerDescription$ When ~ dies, you may have ~ deal 2 damage to each non-Nevron creature.
+SVar:TrigDeath:DB$ DamageAll | ValidCards$ Creature.nonNevron | NumDmg$ 2 | Optional$ True | SpellDescription$ ~ deals 2 damage to each non-Nevron creature.
+T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Card.Self | Execute$ TrigToken | TriggerDescription$ When this creature dies, target opponent creates a Lumina token.
+SVar:TrigToken:DB$ Token | TokenAmount$ 1 | ValidTgts$ Opponent | TokenOwner$ Targeted | TokenScript$ c_a_lumina
+SVar:X:Sacrificed$CardManaCost
+[DesignNotes]
+ - Like other Sakapatates, it will try to do a last minute suicide move to do some damage before it goes.
+ - 21/10/2025: Added Gestral alliance cost reduction

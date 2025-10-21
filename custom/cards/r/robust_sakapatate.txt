@@ -1,0 +1,14 @@
+Name:Robust Sakapatate
+ManaCost:3 R
+Types:Creature Nevron
+PT:3/3
+K:etbCounter:SHIELD:1
+S:Mode$ ReduceCost | ValidCard$ Card.Self | Type$ Spell | Amount$ 1 | EffectZone$ All | IsPresent$ Gestral.YouCtrl | Description$ This spell costs {1} less to cast if you control a Gestral.
+A:AB$ DealDamage | Cost$ 2 Sac<1/Nevron> | ValidTgts$ Creature | TgtPrompt$ Select target creature | NumDmg$ X | SubAbility$ TrigStun | SpellDescription$ CARDNAME deals 1 damage to target creature.
+SVar:TrigStun:DB$ PutCounter | Defined$ Targeted | CounterType$ Stun | CounterNum$ 1
+T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Card.Self | Execute$ TrigDeath | TriggerDescription$ When CARDNAME dies, you may have CARDNAME deal 2 damage to each non-Nevron creature.
+SVar:TrigDeath:DB$ DamageAll | ValidCards$ Creature.nonNevron | NumDmg$ 2 | Optional$ True | SpellDescription$ CARDNAME deals 2 damage to each non-Nevron creature.
+T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Card.Self | Execute$ TrigToken | TriggerDescription$ When this creature dies, target opponent creates a Lumina token.
+SVar:TrigToken:DB$ Token | TokenAmount$ 1 | ValidTgts$ Opponent | TokenOwner$ Targeted | TokenScript$ c_a_lumina
+SVar:X:Sacrificed$CardManaCost
+Oracle:This spell costs {1} less to cast if you control a Gestral.\nThis creature enters with a shield counter.\nStrikes with its dead partner — {2}, Sacrifice a Nevron: This creature deals damage equal to the sacrificed Nevron's mana value to target creature.\nWhen this creature dies, target opponent creates a Lumina token.\nWhen this creature dies, you may have this creature deal 2 damage to each non-Nevron creature.
