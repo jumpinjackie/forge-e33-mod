@@ -1,6 +1,6 @@
 Name:Nevron Pecking Order
 ManaCost:3 G
 Types:Kindred Enchantment Nevron
-A:AB$ ChangeZone | Cost$ 1 G Sac<1/Creature> | ActivationLimit$ 1 | Origin$ Library | Destination$ Battlefield | ChangeType$ Nevron.cmcEQX | ChangeNum$ 1 | AILogic$ SacAndUpgrade | StackDescription$ Search your library for a Nevron permanent with mana value X and put it into the battlefield where X is the sacrificed Nevron's mana value plus one. Activate this ability only once each turn.
+A:AB$ ChangeZone | Cost$ 1 G Sac<1/Nevron> | ActivationLimit$ 1 | Origin$ Library | Destination$ Battlefield | ChangeType$ Nevron.cmcLEX | ChangeNum$ 1 | AILogic$ SacAndUpgrade | StackDescription$ Search your library for a Nevron permanent with mana value X and put it into the battlefield where X is the sacrificed Nevron's mana value plus one. Activate this ability only once each turn.
 SVar:X:Sacrificed$CardManaCost/Plus.1
-Oracle:{1}{G}, Sacrifice a Nevron: Search your library for a Nevron permanent with mana value X and put it into the battlefield where X is the sacrificed Nevron's mana value plus one. Activate this ability only once each turn.
+Oracle:{1}{G}, Sacrifice a Nevron: Search your library for a Nevron permanent with mana value X or less and put it into the battlefield where X is the sacrificed Nevron's mana value plus one. Activate this ability only once each turn.

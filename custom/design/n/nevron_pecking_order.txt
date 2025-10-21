@@ -14,12 +14,13 @@ Sandfall Interactive
 [ArtNotes]
 A Nevron variant of the "Evolution of Man"
 [Oracle]
-{1}{G}, Sacrifice a Nevron: Search your library for a Nevron permanent with mana value X and put it into the battlefield where X is the sacrificed Nevron's mana value plus one. Activate this ability only once each turn.
+{1}{G}, Sacrifice a Nevron: Search your library for a Nevron permanent with mana value X or less and put it into the battlefield where X is the sacrificed Nevron's mana value plus one. Activate this ability only once each turn.
 [FlavorText]
 Even in an artificial painted world, there is a natural order.
 [ForgeScript]
-A:AB$ ChangeZone | Cost$ 1 G Sac<1/Creature> | ActivationLimit$ 1 | Origin$ Library | Destination$ Battlefield | ChangeType$ Nevron.cmcEQX | ChangeNum$ 1 | AILogic$ SacAndUpgrade | StackDescription$ Search your library for a Nevron permanent with mana value X and put it into the battlefield where X is the sacrificed Nevron's mana value plus one. Activate this ability only once each turn.
+A:AB$ ChangeZone | Cost$ 1 G Sac<1/Nevron> | ActivationLimit$ 1 | Origin$ Library | Destination$ Battlefield | ChangeType$ Nevron.cmcLEX | ChangeNum$ 1 | AILogic$ SacAndUpgrade | StackDescription$ Search your library for a Nevron permanent with mana value X and put it into the battlefield where X is the sacrificed Nevron's mana value plus one. Activate this ability only once each turn.
 SVar:X:Sacrificed$CardManaCost/Plus.1
 [DesignNotes]
  - This is a bone thrown to Nevrons to solidify that archetype.
  - Modeled on Birthing Pod.
+ - 21/10/2025: Made search criteria X or less. Fixed incorrect sac cost.
