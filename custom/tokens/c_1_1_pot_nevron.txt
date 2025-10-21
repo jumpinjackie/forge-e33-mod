@@ -1,0 +1,6 @@
+Name:Pot Nevron Token
+ManaCost:no cost
+Types:Creature Nevron
+PT:1/1
+Oracle:This creature attacks each combat if able.
+S:Mode$ MustAttack | ValidCreature$ Card.Self | Description$ CARDNAME attacks each combat if able.
