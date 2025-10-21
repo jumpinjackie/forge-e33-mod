@@ -20,3 +20,4 @@ SVar:DBToken:DB$ Token | TokenAmount$ 1 | TokenOwner$ You | TokenScript$ c_a_lum
 [DesignNotes]
  - In the game, this is Sciel's ability that grants double-damage to one of her allies.
  - Easy mechanical map to double-strike
+ - 18/10/2025: Added lumina bonus
