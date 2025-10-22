@@ -2,7 +2,10 @@ Name:Boucheclier
 ManaCost:3 U
 Types:Creature Nevron
 PT:3/3
+K:etbCounter:SHIELD:1
+T:Mode$ DamageDoneOnce | CombatDamage$ True | ValidTarget$ Card.Self | Execute$ TrigReflectDamage | TriggerDescription$ When CARDNAME is dealt combat damage, it deals that amount of damage to target creature an opponent controls.
+SVar:TrigReflectDamage:DB$ DealDamage | ValidTgts$ Creature.OppCtrl | TgtPrompt$ Select target creature an opponent controls | NumDmg$ X
+SVar:X:TriggerCount$DamageAmount
 T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Card.Self | Execute$ TrigToken | TriggerDescription$ When this creature dies, target opponent creates a Lumina token.
 SVar:TrigToken:DB$ Token | TokenAmount$ 1 | ValidTgts$ Opponent | TokenOwner$ Targeted | TokenScript$ c_a_lumina
-K:etbCounter:SHIELD:1
-Oracle:When this creature dies, target opponent creates a Lumina token.\nThis creature enters with a shield counter on it. (If it would be dealt damage or destroyed, remove a shield counter from it instead.)
+Oracle:This creature enters with a shield counter on it. (If it would be dealt damage or destroyed, remove a shield counter from it instead.)\nGets ready to counterattack — When this creature is dealt combat damage, it deals that amount of damage to target creature an opponent controls.\nWhen this creature dies, target opponent creates a Lumina token.
