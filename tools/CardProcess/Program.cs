@@ -317,6 +317,19 @@ public class CardMasterDesign(string designFile)
         return this.FaceType.HasValue && this.Bucket is not null && this.Rarity is not null;
     }
 
+    public IEnumerable<string> InvalidReasons
+    {
+        get
+        {
+            if (!this.FaceType.HasValue)
+                yield return "Unknown FaceType";
+            if (this.Bucket is null)
+                yield return "Null Bucket";
+            if (this.Rarity is null)
+                yield return "No Rarity";
+        }
+    }
+
     public string Name
     {
         get
@@ -793,7 +806,7 @@ public abstract class BaseCommand
             if (card.IsValid())
                 cards.Add(card.Name, card);
             else
-                await stderr.WriteLineAsync($"Card script not valid!");
+                await stderr.WriteLineAsync($"Card script ({card.Name}) not valid! ({string.Join(", ", card.InvalidReasons)})");
         }
 
         await stdout.WriteLineAsync($"Read: {cards.Count} cards");
