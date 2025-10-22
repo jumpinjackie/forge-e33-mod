@@ -1,0 +1,11 @@
+Name:Noir
+ManaCost:4 B B
+Types:Creature Nevron
+PT:4/4
+K:Ward:2
+K:etbCounter:SHIELD:1
+A:AB$ Tap | Cost$ 4 B T | ValidTgts$ Creature | TgtPrompt$ Select up to two target creatures | TargetMin$ 0 | TargetMax$ 2 | SpellDescription$ Tap up to two target creatures.
+A:AB$ DealDamage | Cost$ 2 B T | ValidTgts$ Creature | TgtPrompt$ Select target creature | NumDmg$ 2 | SubAbility$ DBGainLife | SpellDescription$ CARDNAME deals 2 damage to target creature. You gain 2 life.
+T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Card.Self | Execute$ TrigToken | TriggerDescription$ When this creature dies, target opponent creates a Lumina token.
+SVar:TrigToken:DB$ Token | TokenAmount$ 1 | ValidTgts$ Opponent | TokenOwner$ Targeted | TokenScript$ c_a_lumina
+Oracle:Ward 2.\nThis creature enters with a shield counter.\nGathers dark chroma — {4}{B}, {T}: Tap up to two target creatures.\nSummons dark spear — {2}{B}, {T}: This creature deals 2 damage to target creature. You gain 2 life.\nWhen this creature dies, target opponent creates a Lumina token.token.

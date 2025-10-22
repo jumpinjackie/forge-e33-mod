@@ -1,0 +1,39 @@
+[Name]
+Noir
+[ManaCost]
+4
+B
+B
+[Types]
+Creature
+Nevron
+[Rarity]
+U
+[Artist]
+Sandfall Interactive
+[PT]
+4/4
+[Oracle]
+Ward 2.
+~ enters with a shield counter.
+Gathers dark chroma — {4}{B}, {T}: Tap up to two target creatures.
+Summons dark spear — {2}{B}, {T}: ~ deals 2 damage to target creature. You gain 2 life.
+When this creature dies, target opponent creates a Lumina token.
+[ForgeScript]
+K:Ward:2
+K:etbCounter:SHIELD:1
+A:AB$ Tap | Cost$ 4 B T | ValidTgts$ Creature | TgtPrompt$ Select up to two target creatures | TargetMin$ 0 | TargetMax$ 2 | SpellDescription$ Tap up to two target creatures.
+A:AB$ DealDamage | Cost$ 2 B T | ValidTgts$ Creature | TgtPrompt$ Select target creature | NumDmg$ 2 | SubAbility$ DBGainLife | SpellDescription$ ~ deals 2 damage to target creature. You gain 2 life.
+T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Card.Self | Execute$ TrigToken | TriggerDescription$ When this creature dies, target opponent creates a Lumina token.
+SVar:TrigToken:DB$ Token | TokenAmount$ 1 | ValidTgts$ Opponent | TokenOwner$ Targeted | TokenScript$ c_a_lumina
+[DesignNotes]
+ - In the game, Noirs are high-tier tanky Nevrons found on the Dark Shores and are an excellent source of XP farming in the late game.
+ - Placeholder vanilla Nevron. Abilities TBD.
+ - 13/10/2025: Removed Devoid.
+ - 21/10/2025: Made the following changes
+    - ManaCost: 3BB to 4BB
+    - PT: 5/5 to 4/4
+    - Added Ward 2
+    - Added shield counter ETB to convey its tankiness.
+    - Added "Gathers dark chroma" ability that we've mechanically mapped to a tap effect.
+    - Added "Summons dark spear" ability that we've mechanically mapped to a mini creature syphon.
