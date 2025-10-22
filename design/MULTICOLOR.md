@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 19/10/2025 5:32:50 AM
+> Last generated: 22/10/2025 10:02:59 AM
 
 ## A Storm is Coming
 
@@ -18,6 +18,26 @@ Create a Lumina token.
 
  - In the game, this is one of Lune's quotes during battle
  - Lighting bolt with suspend to convey the "storm is coming". Lumina reward as standard with any Expeditioner spell
+
+## Aberration
+
+```
+3BR
+Creature - Nevron
+Performs light strikes — When this creature enters, it deals 3 damage divided as you choose among any number of target creatures and/or planeswalkers.
+Performs dark combo — {2}{B}, {T}: Target creature has base toughness 1 until end of turn.
+Creates earthquakes — {3}{R}, {T}: This creature deals 1 damage to each creature without flying and each player.
+When this creature dies, target opponent creates a Lumina token.
+
+3/3
+```
+
+[card implementation](../custom/cards/a/aberration.txt)
+
+### Design Notes
+
+ - Just a vanilla placeholder for now until I have figured out some suitable abilities for it
+ - 13/10/2025: Removed Devoid.
 
 ## Alicia Dessendre, Silenced by Fire
 
@@ -63,6 +83,10 @@ When this creature dies, target opponent creates a Lumina token.
 ```
 2WG
 Creature - Nevron
+Vigilance.
+Summons protective bubbles — this creature enters with a shield counter on it.
+Bubbles are shielding enemies — {2}{G}, {T}: Put a shield counter on target creature you control.
+Launches projectiles from its hat — {2}{W}, {T}: This creature deals 2 damage to target attacking creature. Put a stun counter on it.
 When this creature dies, target opponent creates a Lumina token.
 
 4/4
@@ -75,12 +99,17 @@ When this creature dies, target opponent creates a Lumina token.
  - Currently a placeholder vanilla Nevron. Abilities TBD.
  - 23/09/2025: TODO: Replace white with a different color if intending to stay multi-color to make way for White Nevrons.
  - 13/10/2025: Removed Devoid and pivoted to WG instead of WR
+ - 21/10/2025: Granted a series of defensive abilities
 
 ## Braseleur
 
 ```
 1UR
 Creature - Nevron
+This creature enters with two orb counters.
+At the beginning of your upkeep, you may put an orb counter on this creature.
+{R}, Remove an orb counter from this creature: This creature deals 1 damage to target creature.
+{U}, Remove an orb counter from this creature: Tap target creature.
 When this creature dies, target opponent creates a Lumina token.
 
 3/2
@@ -92,6 +121,7 @@ When this creature dies, target opponent creates a Lumina token.
 
  - Currently a placeholder vanilla Nevron. Abilities TBD.
  - 13/10/2025: Removed Devoid.
+ - 21/10/2025: Gone with the orb summoning gimmick as the basis for most abilities.
 
 ## Breaking Rules
 
@@ -161,6 +191,45 @@ Enchanted permanent becomes an artifact and loses all abilities.
  - I orignally wanted this to turn into a "do nothing" artifact, but I think the "Enchant creature" restriction means this is a nonbo and the aura immediately "falls off". Will revisit later with "Enchant permanent" to see if this gives my desired result.
     - Until then, I've gone with a 0/1 artifact creature.
     - 23/09/2025: Now enchanting permanents so we can achieve the "inert artifact" effect. A slight flavor loss since this can now target more than just creatures, but I am more after the petrification effect than it needing to only target creatures
+
+## Clea Dessendre, Seeking Vengeance
+
+```
+2UB
+Legendary Planeswalker - Clea
+Nevron spells you cast cost {1} less to cast.
+[+2]: Create a 1/1 colorless Nevron creature token.
+[-4]: Exile target nonland permanent. Create a token that's a copy of that permanent, except it is a Nevron in addition to its other types.
+[-8]: Gain control of all creatures target opponent controls.
+```
+
+[card implementation](../custom/cards/c/clea_dessendre_seeking_vengeance.txt)
+
+### Design Notes
+
+ - Planeswalker Clea's abilities map to her purported abilities in-game:
+    - +2: She is a prolific Nevron creating machine
+    - -4: She is known to have the unique ability of "painting over" other's creations. Modeled as exile with Nevron clone copy.
+    - -8: She is a shrewd manipulator
+
+## Contortionniste
+
+```
+1UB
+Creature - Nevron
+Lifelink
+Impales its target — When this creature enters, choose one —
+• Destroy target creature with mana value 3 or less.
+• Tap target creature and put a stun counter on it.
+When this creature dies, target opponent creates a Lumina token.
+
+3/3
+```
+
+[card implementation](../custom/cards/c/contortionniste.txt)
+
+### Design Notes
+
 
 ## Danseuse
 
@@ -1008,6 +1077,28 @@ You win the game if you control a total of 33 or more Expeditioners, Chroma, Lum
 
  - If you're doing nothing with these Chroma and Lumina tokens being generated then this spell is a goal to reach towards.
  - This card also let's us do something with the number 33, which has great symbolic significance in the game.
+
+## The Scavenger
+
+```
+2BG
+Legendary Creature - Nevron
+Ward 2.
+When The Scavenger enters, return target permanent card with mana value 3 or less from your graveyard to tbe battlefield.
+If an opponent would create a Lumina token, you create a Lumina token instead.
+Sacrifice a Lumina token: Add one mana of any color.
+Sacrifice a Nevron: Add two mana of any one color.
+{2}{B/G}, {T}: Return target permanent card from your graveyard to your hand.
+
+4/4
+```
+
+[card implementation](../custom/cards/t/the_scavenger.txt)
+
+### Design Notes
+
+ - In the game, Scavenger is a boss in the Falling Leaves.
+ - We are deviating from any thematic mapping and 100% leaning in solely on the name to provide an all-round value engine for Nevrons.
 
 ## Tomorrow Comes
 

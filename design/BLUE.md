@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 19/10/2025 5:32:50 AM
+> Last generated: 22/10/2025 10:02:59 AM
 
 ## An Advantage!
 
@@ -24,8 +24,9 @@ Draw a card at the beginning of the next turn's upkeep.
 ```
 3U
 Creature - Nevron
-When this creature dies, target opponent creates a Lumina token.
 This creature enters with a shield counter on it. (If it would be dealt damage or destroyed, remove a shield counter from it instead.)
+Gets ready to counterattack — When this creature is dealt combat damage, it deals that amount of damage to target creature an opponent controls.
+When this creature dies, target opponent creates a Lumina token.
 
 3/3
 ```
@@ -34,8 +35,9 @@ This creature enters with a shield counter on it. (If it would be dealt damage o
 
 ### Design Notes
 
- - Just a vanilla hill giant. Has shield counters because its game counterpart always has one and Shield counters are near 1:1 mechanically.
+ - Just a vanilla hill giant for now. Has shield counters because its game counterpart always has one and Shield counters are near 1:1 mechanically.
  - 13/10/2025: Removed Devoid.
+ - 21/10/2025: Added damage reflection ability.
 
 ## Bound by Chains
 
@@ -131,8 +133,9 @@ Tap an untapped Expeditioner you control: Tap target land.
 ```
 2U
 Creature - Nevron
-When this creature dies, target opponent creates a Lumina token.
+This creature enters with a shield counter on it. (If it would be dealt damage or destroyed, remove a shield counter from it instead.)
 This creature gets +2/+2 and Ward 2 if you control a creature named Bruler.
+When this creature dies, target opponent creates a Lumina token.
 
 2/3
 ```
@@ -143,6 +146,7 @@ This creature gets +2/+2 and Ward 2 if you control a creature named Bruler.
 
  - The other half of Bruler. Thus like Cruler, decided to give the same buff if the other half is present.
  - 13/10/2025: Removed Devoid.
+ - 21/10/2025: Added ETB with shield counter to match its character sheet.
 
 ## Demineur
 
@@ -240,7 +244,7 @@ III — Sacrifice all Airships you control. Create a Chroma token for each Airsh
 ### Design Notes
 
  - Journal is a story of expeditioners stealing a bunch of Airships to escape Lumiere.
- - 21/09/2025: This is an enabler engine for Expeditioner tribal strategies
+ - This is a top-end payoff for an all-flyers strategy
 
 ## Francois, Waiting for Clea
 

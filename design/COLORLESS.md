@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 19/10/2025 5:32:50 AM
+> Last generated: 22/10/2025 10:02:59 AM
 
 ## Chalier
 
@@ -47,7 +47,8 @@ When this creature dies, target opponent creates two Chroma tokens and two Lumin
 ```
 2C
 Creature - Nevron
-Other nevrons you control get +1/+1.
+Applies powerful to allies — Other nevrons you control get +1/+1.
+Applies rush to allies — Nevrons you control have haste.
 When this creature dies, target opponent creates a Lumina token.
 
 2/2
@@ -59,4 +60,5 @@ When this creature dies, target opponent creates a Lumina token.
 
  - In the game, a Troubador uses its horn to buff the enemy party.
  - Mechanically, I've mapped this to a basic nevron lord buff effect.
+ - 21/10/2025: Added lord haste effect to match its character sheet.
 

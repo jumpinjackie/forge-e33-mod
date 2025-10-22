@@ -1,8 +1,12 @@
 # Deck Archetypes
 
-## Nevron Tribal
+## Nevron Midrange
 
-A midrange deck akin to Eldrazi. Clea (real and painted forms) serve as the nevron "lords"
+A midrange deck akin to Eldrazi.
+
+## Nevron Pecking Order Toolbox
+
+A deck centered around the value engine of Nevron Pecking Order + Revive Tint and a toolbox suite of Nevron utility creatures to address specific matchups.
 
 ## Gestral Tribal
 

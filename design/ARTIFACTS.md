@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 19/10/2025 5:32:50 AM
+> Last generated: 22/10/2025 10:02:59 AM
 
 ## Berrami, Collector of Journals
 
@@ -599,6 +599,7 @@ Whenever another nontoken Gestral creature you control enters, create a Chroma t
  - Should have one more ability at least. Further abilities TBD.
  - 6/10/2025: Gone with a Chroma rewarding ability.
  - 13/10/2025: Formerly known as Sastro, the Concerned
+ - 22/10/2025: Fixed chroma bonus triggering on any nontoken creature
 
 ## Soarrie
 

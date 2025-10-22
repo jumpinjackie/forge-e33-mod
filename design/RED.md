@@ -1,12 +1,13 @@
 # Cards
 
-> Last generated: 19/10/2025 5:32:50 AM
+> Last generated: 22/10/2025 10:02:59 AM
 
 ## Catapault Sakapatate
 
 ```
 1R
 Creature - Nevron
+This spell costs {1} less to cast if you control a Gestral.
 When this creature dies, target opponent creates a Lumina token.
 When this creature dies, you may have this creature deal 2 damage to target creature.
 
@@ -20,6 +21,7 @@ When this creature dies, you may have this creature deal 2 damage to target crea
  - In the game, when you defeat a Catapault Sakapatate, it will try to do a last minute suicide move to do some damage before it goes.
  - Represented mechanically here as a simple shock-creature-on-death trigger.
  - 13/10/2025: Removed Devoid.
+ - 21/10/2025: Added Gestral alliance cost reduction
 
 ## Crustal Crush
 
@@ -86,6 +88,7 @@ Create a Lumina token. (It's an artifact with "{T}, Sacrifice this token: Scry 1
 
  - In the game, this is Sciel's ability that grants double-damage to one of her allies.
  - Easy mechanical map to double-strike
+ - 18/10/2025: Added lumina bonus
 
 ## Gestral Volleyball Strike
 
@@ -157,6 +160,66 @@ It's a gutting realization, what has to be done. The mission is too important. T
 
  - In the game, Expedition 48 was an expedition fraught with Mutiny and Treachery.
  - The mutinous nature has been captured with this creature joining the other side when one of your Expeditioner compatriots dies.
+
+## Potier
+
+```
+3R
+Creature - Nevron
+Flying
+Spawns pots — When this creature enters, create two colorless 1/1 Nevron Pot creature tokens with "This creature attacks each combat if able".
+Buffs its allies — Nevrons you control have haste.
+
+2/2
+```
+
+[card implementation](../custom/cards/p/potier.txt)
+
+### Design Notes
+
+ - Nevron version of Deranged Hermit / Siege-Gang Commander
+
+## Ranger Sakapatate
+
+```
+2R
+Creature - Nevron
+This spell costs {1} less to cast if you control a Gestral.
+Attacks with its mighty sword — {R}, {T}: This creature deals 1 damage to target creature, put a stun counter on it.
+Gestral Volleyball — {1}{R}, Sacrifice a Gestral: This creature deals 2 damage to any target.
+When this creature dies, target opponent creates a Lumina token.
+When this creature dies, you may have this creature deal 3 damage divided as you choose among one, two or three target creatures.
+
+3/2
+```
+
+[card implementation](../custom/cards/r/ranger_sakapatate.txt)
+
+### Design Notes
+
+ - Like other Sakapatates, it will try to do a last minute suicide move to do some damage before it goes.
+ - 21/10/2025: Added Gestral alliance cost reduction and Gestral volleyball fling ability since this is the one participating in the Gestral volleyball minigame.
+
+## Robust Sakapatate
+
+```
+3R
+Creature - Nevron
+This spell costs {1} less to cast if you control a Gestral.
+This creature enters with a shield counter.
+Strikes with its dead partner — {2}, Sacrifice a Nevron: This creature deals damage equal to the sacrificed Nevron's mana value to target creature.
+When this creature dies, target opponent creates a Lumina token.
+When this creature dies, you may have this creature deal 2 damage to each non-Nevron creature.
+
+3/3
+```
+
+[card implementation](../custom/cards/r/robust_sakapatate.txt)
+
+### Design Notes
+
+ - Like other Sakapatates, it will try to do a last minute suicide move to do some damage before it goes.
+ - 21/10/2025: Added Gestral alliance cost reduction
 
 ## Terraquake
 

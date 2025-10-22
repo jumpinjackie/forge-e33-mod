@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 19/10/2025 5:32:50 AM
+> Last generated: 22/10/2025 10:02:59 AM
 
 ## Abbest
 
@@ -219,7 +219,7 @@ The idea was we'd only have to fool the first one. Then Jules can wear its carca
 ```
 3G
 Kindred Enchantment - Nevron
-{1}{G}, Sacrifice a Nevron: Search your library for a Nevron permanent with mana value X and put it into the battlefield where X is the sacrificed Nevron's mana value plus one. Activate this ability only once each turn.
+{1}{G}, Sacrifice a Nevron: Search your library for a Nevron permanent with mana value X or less and put it into the battlefield where X is the sacrificed Nevron's mana value plus one. Activate this ability only once each turn.
 ---
 Even in an artificial painted world, there is a natural order.
 ```
@@ -230,6 +230,7 @@ Even in an artificial painted world, there is a natural order.
 
  - This is a bone thrown to Nevrons to solidify that archetype.
  - Modeled on Birthing Pod.
+ - 21/10/2025: Made search criteria X or less. Fixed incorrect sac cost.
 
 ## Revitalization
 

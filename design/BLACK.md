@@ -1,23 +1,6 @@
 # Cards
 
-> Last generated: 19/10/2025 5:32:50 AM
-
-## Aberration
-
-```
-4B
-Creature - Nevron
-When this creature dies, target opponent creates a Lumina token.
-
-3/3
-```
-
-[card implementation](../custom/cards/a/aberration.txt)
-
-### Design Notes
-
- - Just a vanilla placeholder for now until I have figured out some suitable abilities for it
- - 13/10/2025: Removed Devoid.
+> Last generated: 22/10/2025 10:02:59 AM
 
 ## Chapelier
 
@@ -53,6 +36,26 @@ Search your library for a Nevron card, reveal it, put it into your hand, then sh
 ### Design Notes
 
  - A Nevron tutor to support Nevron tribal strategies
+
+## Echassier
+
+```
+2B
+Creature - Nevron
+Double the blight — {T}: Up to two target creatures your opponent controls have base toughness 1 until end of turn.
+Heals allies — {1}{B}, {T}: Gain 1 life for each creature you control.
+When this creature dies, target opponent creates a Lumina token.
+
+3/3
+```
+
+[card implementation](../custom/cards/e/echassier.txt)
+
+### Design Notes
+
+ - In the game, Scavenger is a boss in the Falling Leaves.
+ - We are 100% leaning in solely on the name to provide an all-round value engine for Nevrons.
+ - 21/10/2025: Bumped PT from 2/2 to 3/3 and added missing nevron death trigger.
 
 ## Expedition 62 Hunter
 
@@ -126,23 +129,34 @@ Which expedition are you fr-
  - Another mini-sweeper to give Nevron tribal decks some fight against "go wide" strategies.
  - 7/10/2025: Added non-Painter clause because this event was a joint Nevon/Painter production.
 
-## Noire
+## Noir
 
 ```
-3BB
+4BB
 Creature - Nevron
+Ward 2.
+This creature enters with a shield counter.
+Gathers dark chroma — {4}{B}, {T}: Tap up to two target creatures.
+Summons dark spear — {2}{B}, {T}: This creature deals 2 damage to target creature. You gain 2 life.
 When this creature dies, target opponent creates a Lumina token.
 
-5/5
+4/4
 ```
 
-[card implementation](../custom/cards/n/noire.txt)
+[card implementation](../custom/cards/n/noir.txt)
 
 ### Design Notes
 
- - In the game, Noires are high-tier Nevrons found on the Dark Shores and are an excellent source of XP farming in the late game.
+ - In the game, Noirs are high-tier tanky Nevrons found on the Dark Shores and are an excellent source of XP farming in the late game.
  - Placeholder vanilla Nevron. Abilities TBD.
  - 13/10/2025: Removed Devoid.
+ - 21/10/2025: Made the following changes
+    - ManaCost: 3BB to 4BB
+    - PT: 5/5 to 4/4
+    - Added Ward 2
+    - Added shield counter ETB to convey its tankiness.
+    - Added "Gathers dark chroma" ability that we've mechanically mapped to a tap effect.
+    - Added "Summons dark spear" ability that we've mechanically mapped to a mini creature syphon.
 
 ## Obscur
 
