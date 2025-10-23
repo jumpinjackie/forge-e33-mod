@@ -26,6 +26,5 @@ SVar:X:Count$Valid Creature.YouCtrl
 T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Card.Self | Execute$ TrigToken | TriggerDescription$ When this creature dies, target opponent creates a Lumina token.
 SVar:TrigToken:DB$ Token | TokenAmount$ 1 | ValidTgts$ Opponent | TokenOwner$ Targeted | TokenScript$ c_a_lumina
 [DesignNotes]
- - In the game, Scavenger is a boss in the Falling Leaves.
- - We are 100% leaning in solely on the name to provide an all-round value engine for Nevrons.
- - 21/10/2025: Bumped PT from 2/2 to 3/3 and added missing nevron death trigger.
+ - In the game, Echassiers are found in The Reacher and Renoir's Drafts.
+ - Mapped the "Double the blgiht & Heals allies" ability to 1 toughness setting and life gain.
