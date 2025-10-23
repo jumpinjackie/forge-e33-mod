@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 22/10/2025 10:02:59 AM
+> Last generated: 23/10/2025 8:22:01 AM
 
 ## Chapelier
 
@@ -53,9 +53,8 @@ When this creature dies, target opponent creates a Lumina token.
 
 ### Design Notes
 
- - In the game, Scavenger is a boss in the Falling Leaves.
- - We are 100% leaning in solely on the name to provide an all-round value engine for Nevrons.
- - 21/10/2025: Bumped PT from 2/2 to 3/3 and added missing nevron death trigger.
+ - In the game, Echassiers are found in The Reacher and Renoir's Drafts.
+ - Mapped the "Double the blgiht & Heals allies" ability to 1 toughness setting and life gain.
 
 ## Expedition 62 Hunter
 

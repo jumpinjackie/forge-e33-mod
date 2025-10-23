@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 22/10/2025 10:02:59 AM
+> Last generated: 23/10/2025 8:22:01 AM
 
 ## A Storm is Coming
 
@@ -537,10 +537,12 @@ Finesse
 1R
 Instant
 Target creature gains vigilance, haste and +2/+0 until end of turn.
+
 Grace
 1W
 Instant
 Target creature gains first strike, lifelink and +1/+1 until end of turn.
+
 Fuse (You may cast one or both halves of this card from your hand.)
 ```
 
@@ -778,10 +780,12 @@ Manor Entrance
 3G
 Enchantment - Room
 When you unlock this door, you may put a creature card from your hand onto the battlefield.
+
 Manor Hidden Room
 3B
 Enchantment - Room
 When you unlock this door, return target creature card from your graveyard to the battlefield.
+
 ```
 
 [card implementation](../custom/cards/m/manor_entrance_manor_hidden_room.txt)
@@ -814,10 +818,12 @@ Manor Greenhouse
 2G
 Enchantment - Room
 When you unlock this door, search your library for a land card, put it onto the battlefield, then shuffle.
+
 Manor Gallery
 2U
 Enchantment - Room
 Painter and Gradient spells you cast cost {1} less to cast.
+
 ```
 
 [card implementation](../custom/cards/m/manor_greenhouse_manor_gallery.txt)
@@ -836,12 +842,14 @@ Manor Kitchen
 1G
 Enchantment - Room
 When you unlock this door, create two Food tokens.
+
 Manor Cellar
 1W
 Enchantment - Room
 When you unlock this door, choose one —
 • Create two Chroma tokens.
 • Create two Lumina tokens.
+
 ```
 
 [card implementation](../custom/cards/m/manor_kitchen_manor_cellar.txt)
@@ -859,10 +867,12 @@ Manor Library
 2U
 Enchantment - Room
 When you unlock this door, draw two cards.
+
 Manor Fireplace
 1R
 Enchantment - Room
 When you unlock this door, it deals 3 damage to any target.
+
 ```
 
 [card implementation](../custom/cards/m/manor_library_manor_fireplace.txt)
@@ -1012,10 +1022,12 @@ Search
 G
 Instant
 Search your library for a basic land card, reveal it, put it into your hand, then shuffle.
+
 Rescue
 U
 Instant
 Return target creature to its owner's hand.
+
 Fuse (You may cast one or both halves of this card from your hand.)
 ```
 
@@ -1121,10 +1133,12 @@ Torture
 1B
 Instant
 Target creature gets -2/-2 until end of turn. It's controller loses 2 life.
+
 Nurture
 1W
 Instant
 Target creature gets +2/+2 until end of turn. It's controller gains 2 life.
+
 Fuse (You may cast one or both halves of this card from your hand.)
 ```
 
@@ -1158,10 +1172,12 @@ Whee
 1WU
 Instant
 Untap all creatures you control.
+
 Whoo
 1UB
 Instant
 Tap all creatures your opponents control. They don't untap during their controllers' next untap steps.
+
 Fuse (You may cast one or both halves of this card from your hand.)
 ```
 
@@ -1179,10 +1195,12 @@ When One Falls
 4W
 Sorcery
 Return all Expeditioner permanent cards from your graveyard to the battlefield.
+
 We Continue
 4U
 Sorcery
 Take an extra turn after this one.
+
 Fuse (You may cast one or both halves of this card from your hand.)
 ```
 
