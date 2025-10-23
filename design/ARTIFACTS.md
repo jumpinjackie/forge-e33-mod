@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 23/10/2025 8:40:34 AM
+> Last generated: 23/10/2025 8:45:40 AM
 
 ## Berrami, Collector of Journals
 
@@ -488,6 +488,7 @@ Whenever this creature becomes the target of a spell or ability an opponent cont
 
  - In the game, there is a side-quest where you have to find a bunch of Lost Gestrals and return them to Sastro. Every Lost Gestral you find and return to Sastro gives you rewards. For the first ability I went with rewarding the player with Chroma tokens if Sastro is in play when a Lost Gestral enters as a mechanical analogy to this side quest.
  - The second ability was taken from Fblthp, the Lost to mechanically explain why these Gestrals keep getting lost.
+ - 23/10/2025: Fixed Sastro card name reference.
 
 ## Lumina Converter
 
@@ -550,8 +551,8 @@ Tap three creatures you control: Untap Matthieu.
 1
 Artifact
 {1}, {T}, Sacrifice this artifact and any number of token permanents you control: Choose one —
-• Create X Chroma tokens, where X is the number of sacrificed permanents.
-• Create X Lumina tokens, where X is the number of sacrificed permanents.
+• Create X Chroma tokens, where X is the number of sacrificed token permanents.
+• Create X Lumina tokens, where X is the number of sacrificed token permanents.
 ```
 
 [card implementation](../custom/cards/r/recoat.txt)
@@ -560,6 +561,7 @@ Artifact
 
  - In the game, recoats are tints that let you respec your character attributes.
  - I've interpreted this as an artifact that let's you convert/respec tokens into Chroma or Lumina tokens.
+ - 23/10/2025: Clarified what the X value represents (ie. Only counts the sacced tokens, and does not include Recoat itself)
 
 ## Revive Tint
 

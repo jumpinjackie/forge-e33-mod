@@ -23,3 +23,4 @@ SVar:TrigLost:DB$ ChangeZone | Origin$ Battlefield | Destination$ Library | Libr
 [DesignNotes]
  - In the game, there is a side-quest where you have to find a bunch of Lost Gestrals and return them to Sastro. Every Lost Gestral you find and return to Sastro gives you rewards. For the first ability I went with rewarding the player with Chroma tokens if Sastro is in play when a Lost Gestral enters as a mechanical analogy to this side quest.
  - The second ability was taken from Fblthp, the Lost to mechanically explain why these Gestrals keep getting lost.
+ - 23/10/2025: Fixed Sastro card name reference.

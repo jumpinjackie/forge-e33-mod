@@ -10,8 +10,8 @@ C
 Sandfall Interactive
 [Oracle]
 {1}, {T}, Sacrifice this artifact and any number of token permanents you control: Choose one —
-• Create X Chroma tokens, where X is the number of sacrificed permanents.
-• Create X Lumina tokens, where X is the number of sacrificed permanents.
+• Create X Chroma tokens, where X is the number of sacrificed token permanents.
+• Create X Lumina tokens, where X is the number of sacrificed token permanents.
 [ForgeScript]
 A:AB$ Charm | Cost$ 1 T Sac<1/CARDNAME> Sac<X/Permanent.token> | Choices$ DBChroma,DBLumina
 SVar:DBChroma:DB$ Token | TokenAmount$ X | TokenOwner$ You | TokenScript$ c_a_chroma | SpellDescription$ Create X Chroma tokens, where X is the number of sacrificed permanents.
@@ -20,3 +20,4 @@ SVar:X:Count$xPaid
 [DesignNotes]
  - In the game, recoats are tints that let you respec your character attributes.
  - I've interpreted this as an artifact that let's you convert/respec tokens into Chroma or Lumina tokens.
+ - 23/10/2025: Clarified what the X value represents (ie. Only counts the sacced tokens, and does not include Recoat itself)

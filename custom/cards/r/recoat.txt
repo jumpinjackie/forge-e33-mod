@@ -5,4 +5,4 @@ A:AB$ Charm | Cost$ 1 T Sac<1/CARDNAME> Sac<X/Permanent.token> | Choices$ DBChro
 SVar:DBChroma:DB$ Token | TokenAmount$ X | TokenOwner$ You | TokenScript$ c_a_chroma | SpellDescription$ Create X Chroma tokens, where X is the number of sacrificed permanents.
 SVar:DBLumina:DB$ Token | TokenAmount$ X | TokenOwner$ You | TokenScript$ c_a_lumina | SpellDescription$ Create X Lumina tokens, where X is the number of sacrificed permanents.
 SVar:X:Count$xPaid
-Oracle:{1}, {T}, Sacrifice this artifact and any number of token permanents you control: Choose one —\n• Create X Chroma tokens, where X is the number of sacrificed permanents.\n• Create X Lumina tokens, where X is the number of sacrificed permanents.
+Oracle:{1}, {T}, Sacrifice this artifact and any number of token permanents you control: Choose one —\n• Create X Chroma tokens, where X is the number of sacrificed token permanents.\n• Create X Lumina tokens, where X is the number of sacrificed token permanents.
