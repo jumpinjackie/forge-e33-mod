@@ -679,6 +679,7 @@ public class CardMasterDesign(string designFile)
                             await writer.WriteLineAsync();
                             await writer.WriteLineAsync(face.PT);
                         }
+                        await writer.WriteLineAsync();
                     }
                     if (this.FaceType == CardFaceType.SplitFuse)
                     {
