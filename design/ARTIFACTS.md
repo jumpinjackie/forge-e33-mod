@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 23/10/2025 8:22:01 AM
+> Last generated: 23/10/2025 8:40:34 AM
 
 ## Berrami, Collector of Journals
 
@@ -476,7 +476,7 @@ At the beginning of your upkeep, you may put a verse counter on Lorieniso.
 ```
 1
 Artifact Creature - Gestral
-When this creature enters, if you control a card named Sastro, the Concerned, create 2 Chroma tokens.
+When this creature enters, if you control a card named Sastro, Gestral Guardian, create 2 Chroma tokens.
 Whenever this creature becomes the target of a spell or ability an opponent controls, put this creature on the bottom of its owner's library.
 
 1/1

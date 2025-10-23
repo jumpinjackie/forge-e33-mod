@@ -2,8 +2,8 @@ Name:Lost Gestral
 ManaCost:1
 Types:Artifact Creature Gestral
 PT:1/1
-T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | IsPresent$ Creature.YouCtrl+namedSastro; the Concerned | PresentCompare$ EQ1 | Execute$ TrigRewardChroma | TriggerDescription$ When CARDNAME enters, if you control a card named Sastro, the Concerned, create 2 Chroma tokens.
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | IsPresent$ Creature.YouCtrl+namedSastro; Gestral Guardian | PresentCompare$ EQ1 | Execute$ TrigRewardChroma | TriggerDescription$ When CARDNAME enters, if you control a card named Sastro, Gestral Guardian, create 2 Chroma tokens.
 T:Mode$ BecomesTarget | ValidSource$ SpellAbility.OppCtrl | ValidTarget$ Card.Self | TriggerZones$ Battlefield | Execute$ TrigLost | TriggerDescription$ Whenever CARDNAME becomes the target of a spell or ability an opponent controls, put CARDNAME on the bottom of its owner's library.
 SVar:TrigRewardChroma:DB$ Token | TokenScript$ c_a_chroma | TokenOwner$ You | TokenAmount$ 2
 SVar:TrigLost:DB$ ChangeZone | Origin$ Battlefield | Destination$ Library | LibraryPosition$ -1
-Oracle:When this creature enters, if you control a card named Sastro, the Concerned, create 2 Chroma tokens.\nWhenever this creature becomes the target of a spell or ability an opponent controls, put this creature on the bottom of its owner's library.
+Oracle:When this creature enters, if you control a card named Sastro, Gestral Guardian, create 2 Chroma tokens.\nWhenever this creature becomes the target of a spell or ability an opponent controls, put this creature on the bottom of its owner's library.
