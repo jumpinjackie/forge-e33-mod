@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 23/10/2025 8:45:40 AM
+> Last generated: 24/10/2025 11:31:40 PM
 
 ## Berrami, Collector of Journals
 
@@ -418,9 +418,9 @@ Sacrifice this artifact: You gain 10 life. Activate this ability only if you con
 ```
 5
 Legendary Artifact Creature - Gestral
-Combo Jab - {2}: Julien gains double strike until end of turn.
-Uppercut - {2}, {T}: Julien deals 2 damage to target creature, that creature gains flying until end of turn.
-Haymaker - {2}: Julien gains trample until end of turn.
+Combo Jab — {2}: Julien gains double strike until end of turn.
+Uppercut — {2}, {T}: Julien deals 2 damage to target creature, that creature gains flying until end of turn.
+Haymaker — {2}: Julien gains trample until end of turn.
 
 3/3
 ```

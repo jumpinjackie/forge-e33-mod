@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 23/10/2025 8:22:01 AM
+> Last generated: 24/10/2025 11:31:40 PM
 
 ## Crushing Cavern
 
@@ -167,7 +167,7 @@ These siege engines seemed much more powerful in Lumiere. But on this battlefiel
 
 Land
 {T}: Add {C}.
-{1},{R/G},{T}: Target Gestral creature you control fights another target creature
+{1}{R/G}, {T}: Target Gestral creature you control fights another target creature
 ---
 The tournament's starting soon. Please wait.
 - Gestral Warrior
@@ -222,7 +222,7 @@ Gustave: They seem better at surviving than humans.
 Land
 This land enters tapped unless you control an Expeditioner.
 {T}: Add {W} or {U}.
-{4},{T}: Create a Food token.
+{4}, {T}: Create a Food token.
 ---
 The Aquafarm project ensured that Lumiere would have a plentiful supply of food for years to come.
 ```
@@ -263,7 +263,7 @@ Maybe when this is over, we can fix up the opera house and you can perform for u
 Legendary Land - Town
 {T}: Add {W}.
 {1}{W}, {T}: Create a 1/1 white Human Expeditioner token with "When this creature dies, create a Chroma token."
-{1}{W},{T}: Create a Map token
+{1}{W}, {T}: Create a Map token
 ---
 Every year, the population dwindles, yet the citizens persist in their determination to take down the Paintress once and for all.
 ```

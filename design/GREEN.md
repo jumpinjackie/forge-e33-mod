@@ -1,12 +1,13 @@
 # Cards
 
-> Last generated: 23/10/2025 8:22:01 AM
+> Last generated: 24/10/2025 11:31:40 PM
 
 ## Abbest
 
 ```
 G
 Creature - Nevron
+{T}: Add {G}.
 When this creature dies, target opponent creates a Lumina token.
 
 1/2
@@ -19,6 +20,7 @@ When this creature dies, target opponent creates a Lumina token.
  - Just a "vanilla" bear with stock Nevron card text.
  - 23/09/2025: Changed casting cost from 1G to G and PT from 2/2 to 1/2 to make it unique from the (now fully green) Lancelier
  - 13/10/2025: Removed Devoid.
+ - 23/10/2025: Promoted to mana dork.
 
 ## Expedition 00 Tracker
 
@@ -210,7 +212,7 @@ The idea was we'd only have to fool the first one. Then Jules can wear its carca
 
 ### Design Notes
 
- - In the game, the journal of Expedition 39 tells of an attempt by Expeditioners to disguise themselves as Nevrons in order to try and gain an advantage. It didn't work.
+ - In the game, the journal of Expedition 44 tells of an attempt by Expeditioners to disguise themselves as Nevrons in order to try and gain an advantage. It didn't work.
  - Simple creature type changing effect. Probably absolute dreck in draft/limited with fringe utility in constructed, but this one is all about flavor.
  - 6/10/2025: Changed to an enchantment with the type changing an activated ability. Also added a sac cantrip for utility.
 

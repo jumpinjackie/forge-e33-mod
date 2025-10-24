@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 23/10/2025 8:22:01 AM
+> Last generated: 24/10/2025 11:31:40 PM
 
 ## Chapelier
 
@@ -100,6 +100,10 @@ Foretell {0} (During your turn, you may pay {2} and exile this card from your ha
 B
 Sorcery - Gradient
 Target opponent reveals their hand. You choose either an Expeditioner card or a noncreature, nonland card from it. That player discards that card.
+---
+What are you talking about?
+What's my fault?!
+What is this?!
 ```
 
 [card implementation](../custom/cards/m/maelles_nightmare.txt)

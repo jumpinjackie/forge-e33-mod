@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 23/10/2025 8:22:01 AM
+> Last generated: 24/10/2025 11:31:40 PM
 
 ## Chroma Barrier
 
@@ -50,8 +50,8 @@ Maelle: No no no no... You promised...
 2W
 Creature - Nevron
 When this creature dies, target opponent creates a Lumina token.
-{2}{W},{T}: Target creature an opponent controls loses all abilities until end of turn.
-{1}{W},{T}: Put a shield counter on target creature you control.
+{2}{W}, {T}: Target creature an opponent controls loses all abilities until end of turn.
+{1}{W}, {T}: Put a shield counter on target creature you control.
 
 2/2
 ```
@@ -90,7 +90,7 @@ III — Creatures you control gain indestructible until end of turn.
 2W
 Creature - Human Expeditioner Cleric
 Whenever you create a Chroma or Lumina token, you gain 1 life.
-{2},{T}: Prevent the next X damage that would be dealt to any target this turn, where X is the number of Chroma and Lumina tokens you control.
+{2}, {T}: Prevent the next X damage that would be dealt to any target this turn, where X is the number of Chroma and Lumina tokens you control.
 When this creature dies, create a Chroma token.
 ---
 For our allies who come after, sadly our lives may have proven that defense is both absolutely necessary and wholly insufficient.

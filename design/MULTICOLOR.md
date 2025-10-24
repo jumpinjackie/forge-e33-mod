@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 23/10/2025 8:22:01 AM
+> Last generated: 24/10/2025 11:31:40 PM
 
 ## A Storm is Coming
 
@@ -634,6 +634,39 @@ Oh, you won. You deserve this reward. Have fun with it!
  - First payoff is card draw. Second (and more flavorful) payoff is to be able to redirect opponent's spells and abilities to signify the mastery of parrying flung gestrals back at the opponent.
  - 5/10/2025: Cost reduced from (U/R)(U/R) to (U/R) in line with the other challenge enchantments
 
+## Goblu
+
+```
+URG
+Legendary Creature - Nevron
+Flash. Ward 2. Reach.
+Grows Flowers — At the beginning of your upkeep, create a Flower token (It's a Flower artifact with "{T}, Sacrifice this artifact: Add {U}, {R} or {G}.")
+Absorbs Flowers - Whenever a Flower token leaves the battlefield, choose one —
+• Goblu deals 1 damage to any target.
+• Put a +1/+1 counter on target creature.
+• Put a shield counter on target creature.
+• Draw a card.
+---
+Gustave, wait! It seems peaceful, as long as we don't touch the flowers.
+- Lune
+
+3/4
+```
+
+[card implementation](../custom/cards/g/goblu.txt)
+
+### Design Notes
+
+ - In the game, Goblu is the boss of Flying Waters.
+ - Main gimmick we want to mechanically translate is Goblu's flower growing and consuming ability.
+    - Represented Red and Blue flowers as separate artifact tokens.
+    - Flower consumption is represented as abilities that trigger on Red/Blue Flower sacrifice (independent of the sac ability)
+ - 25/10/2025: 
+    - Added reach. 
+    - Removed Red/Blue Flower tokens and gone with just a Flower token to which is a temur mana rock. There's not enough text box budget to mention two different tokens and the triggering off of both of them. 
+    - Changed Flower leave triggers to a (mandatory) modal choice off of any flower token leaving. This was because Forge does not seem to acknowledge token leave triggers of a specific token name.
+       - The shield and +1/+1 counter abiliies from the blue/red flower tokens have been moved here.
+
 ## Gommage
 
 ```
@@ -701,8 +734,8 @@ Overcharge - {T}, Remove X charge counters from Gustave: Gustave deals X damage 
 4WB
 Legendary Creature - Nevron Horror
 Flying. Ward 3.
-Ball of Light - {2}{W}, {T}: Tap up to three target creatures. They lose all abilities until end of turn.
-Sword of Light - {2}{W}{B}, {T}: Separate creatures target opponent controls into two separate piles. That opponent chooses a pile. Destroy all creatures in that pile. Creatures in the other pile have base toughess 1 until end of turn.
+Ball of Light — {2}{W}, {T}: Tap up to three target creatures. They lose all abilities until end of turn.
+Sword of Light — {2}{W}{B}, {T}: Separate creatures target opponent controls into two separate piles. That opponent chooses a pile. Destroy all creatures in that pile. Creatures in the other pile have base toughess 1 until end of turn.
 
 4/4
 ```
