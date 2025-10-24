@@ -12,11 +12,14 @@ Sandfall Interactive
 [PT]
 1/2
 [Oracle]
+{T}: Add {G}.
 When this creature dies, target opponent creates a Lumina token.
 [ForgeScript]
+A:AB$ Mana | Cost$ T | Produced$ G | SpellDescription$ Add {G}.
 T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Card.Self | Execute$ TrigToken | TriggerDescription$ When this creature dies, target opponent creates a Lumina token.
 SVar:TrigToken:DB$ Token | TokenAmount$ 1 | ValidTgts$ Opponent | TokenOwner$ Targeted | TokenScript$ c_a_lumina
 [DesignNotes]
  - Just a "vanilla" bear with stock Nevron card text.
  - 23/09/2025: Changed casting cost from 1G to G and PT from 2/2 to 1/2 to make it unique from the (now fully green) Lancelier
  - 13/10/2025: Removed Devoid.
+ - 23/10/2025: Promoted to mana dork.
