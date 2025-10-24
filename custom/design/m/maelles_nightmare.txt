@@ -13,6 +13,10 @@ Sandfall Interactive
 Maelle with a bloodied face, on her knees, clutching some trinket, screaming in anguish at some unseen entity. The piece is in black & white.
 [Oracle]
 Target opponent reveals their hand. You choose either an Expeditioner card or a noncreature, nonland card from it. That player discards that card.
+[FlavorText]
+What are you talking about?
+What's my fault?!
+What is this?!
 [ForgeScript]
 A:SP$ Discard | ValidTgts$ Opponent | Mode$ RevealYouChoose | DiscardValid$ Card.Expeditioner,Card.nonCreature+nonLand | NumCards$ 1 | SpellDescription$ Target opponent reveals their hand. You choose either an Expeditioner card or a noncreature, nonland card from it. That player discards that card.
 [DesignNotes]
