@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 24/10/2025 11:31:40 PM
+> Last generated: 24/10/2025 11:38:56 PM
 
 ## A Storm is Coming
 
@@ -640,7 +640,7 @@ Oh, you won. You deserve this reward. Have fun with it!
 URG
 Legendary Creature - Nevron
 Flash. Ward 2. Reach.
-Grows Flowers — At the beginning of your upkeep, create a Flower token (It's a Flower artifact with "{T}, Sacrifice this artifact: Add {U}, {R} or {G}.")
+Grows Flowers — At the beginning of your upkeep, create a Flower token (It's an artifact with "{T}, Sacrifice this artifact: Add {U}, {R} or {G}.")
 Absorbs Flowers - Whenever a Flower token leaves the battlefield, choose one —
 • Goblu deals 1 damage to any target.
 • Put a +1/+1 counter on target creature.
