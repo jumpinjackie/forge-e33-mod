@@ -29,6 +29,7 @@ Expeditioner:Expeditioners
 Rock:Rocks
 Lumina:Luminas
 Chroma:Chromas
+Flower:Flowers
 Pictos
 
 [SpellTypes]

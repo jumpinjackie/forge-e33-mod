@@ -1,0 +1,5 @@
+Name:Flower Token
+ManaCost:no cost
+Types:Artifact Flower
+A:AB$ Mana | Cost$ T Sac<1/CARDNAME/this token> | Produced$ Combo U R G | SpellDescription$ Add {U}, {R} or {G}.
+Oracle:{T}, Sacrifice this token: Add {U}, {R} or {G}

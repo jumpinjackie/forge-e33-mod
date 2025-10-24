@@ -1,0 +1,52 @@
+[Name]
+Goblu
+[ManaCost]
+U
+R
+G
+[Types]
+Legendary
+Creature
+Nevron
+[Rarity]
+R
+[Artist]
+Sandfall Interactive
+[PT]
+3/4
+[Oracle]
+Flash. Ward 2. Reach.
+Grows Flowers — At the beginning of your upkeep, create a Flower token (It's a Flower artifact with "{T}, Sacrifice this artifact: Add {U}, {R} or {G}.")
+Absorbs Flowers - Whenever a Flower token leaves the battlefield, choose one —
+• ~ deals 1 damage to any target.
+• Put a +1/+1 counter on target creature.
+• Put a shield counter on target creature.
+• Draw a card.
+[AbilityWords]
+Grows Flowers
+Absorbs Flowers
+[ForgeScript]
+K:Flash
+K:Ward:2
+K:Reach
+T:Mode$ Phase | Phase$ Upkeep | ValidPlayer$ You | Execute$ TrigFlower | TriggerZones$ Battlefield | TriggerDescription$ At the beginning of your upkeep, Create a Flower token.
+SVar:TrigFlower:DB$ Token | TokenAmount$ 1 | TokenOwner$ You | TokenScript$ c_a_flower
+T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Flower.token | TriggerZones$ Battlefield | Execute$ TrigFlowerCharm | TriggerDescription$ Whenever a Flower token leaves the battlefield, ABILITY
+SVar:TrigFlowerCharm:DB$ Charm | Choices$ TrigPing,TrigPump,TrigShield,TrigDraw | CharmNum$ 1
+SVar:TrigPing:DB$ DealDamage | ValidTgts$ Any | NumDmg$ 1 | SpellDescription$ ~ deals 1 damage to any target.
+SVar:TrigPump:DB$ PutCounter | ValidTgts$ Creature | TgtPrompt$ Select target creature | CounterType$ P1P1 | CounterNum$ 1 | SpellDescription$ Put a +1/+1 counter on target creature.
+SVar:TrigShield:DB$ PutCounter | ValidTgts$ Creature | TgtPrompt$ Select target creature | CounterType$ SHIELD | CounterNum$ 1 | SpellDescription$ Put a shield counter on target creature.
+SVar:TrigDraw:DB$ Draw | Defined$ You | NumCards$ 1 | SpellDescription$ Draw a card.
+[FlavorText]
+Gustave, wait! It seems peaceful, as long as we don't touch the flowers.
+- Lune
+[DesignNotes]
+ - In the game, Goblu is the boss of Flying Waters.
+ - Main gimmick we want to mechanically translate is Goblu's flower growing and consuming ability.
+    - Represented Red and Blue flowers as separate artifact tokens.
+    - Flower consumption is represented as abilities that trigger on Red/Blue Flower sacrifice (independent of the sac ability)
+ - 25/10/2025: 
+    - Added reach. 
+    - Removed Red/Blue Flower tokens and gone with just a Flower token to which is a temur mana rock. There's not enough text box budget to mention two different tokens and the triggering off of both of them. 
+    - Changed Flower leave triggers to a (mandatory) modal choice off of any flower token leaving. This was because Forge does not seem to acknowledge token leave triggers of a specific token name.
+       - The shield and +1/+1 counter abiliies from the blue/red flower tokens have been moved here.
