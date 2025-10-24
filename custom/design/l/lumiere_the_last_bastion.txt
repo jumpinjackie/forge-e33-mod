@@ -13,7 +13,7 @@ Sandfall Interactive
 [Oracle]
 {T}: Add {W}.
 {1}{W}, {T}: Create a 1/1 white Human Expeditioner token with $EXPEDITIONER_TOKEN_TEXT
-{1}{W},{T}: Create a Map token
+{1}{W}, {T}: Create a Map token
 [FlavorText]
 Every year, the population dwindles, yet the citizens persist in their determination to take down the Paintress once and for all.
 [ForgeScript]

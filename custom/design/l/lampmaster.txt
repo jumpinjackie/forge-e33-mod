@@ -17,8 +17,8 @@ Sandfall Interactive
 4/4
 [Oracle]
 Flying. Ward 3.
-Ball of Light - {2}{W}, {T}: Tap up to three target creatures. They lose all abilities until end of turn.
-Sword of Light - {2}{W}{B}, {T}: Separate creatures target opponent controls into two separate piles. That opponent chooses a pile. Destroy all creatures in that pile. Creatures in the other pile have base toughess 1 until end of turn.
+Ball of Light — {2}{W}, {T}: Tap up to three target creatures. They lose all abilities until end of turn.
+Sword of Light — {2}{W}{B}, {T}: Separate creatures target opponent controls into two separate piles. That opponent chooses a pile. Destroy all creatures in that pile. Creatures in the other pile have base toughess 1 until end of turn.
 [ForgeScript]
 K:Flying
 K:Ward:3

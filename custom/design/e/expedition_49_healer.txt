@@ -16,7 +16,7 @@ Sandfall Interactive
 2/2
 [Oracle]
 Whenever you create a Chroma or Lumina token, you gain 1 life.
-{2},{T}: Prevent the next X damage that would be dealt to any target this turn, where X is the number of Chroma and Lumina tokens you control.
+{2}, {T}: Prevent the next X damage that would be dealt to any target this turn, where X is the number of Chroma and Lumina tokens you control.
 When this creature dies, create a Chroma token.
 [FlavorText]
 For our allies who come after, sadly our lives may have proven that defense is both absolutely necessary and wholly insufficient.

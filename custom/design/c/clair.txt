@@ -14,8 +14,8 @@ Sandfall Interactive
 2/2
 [Oracle]
 When this creature dies, target opponent creates a Lumina token.
-{2}{W},{T}: Target creature an opponent controls loses all abilities until end of turn.
-{1}{W},{T}: Put a shield counter on target creature you control.
+{2}{W}, {T}: Target creature an opponent controls loses all abilities until end of turn.
+{1}{W}, {T}: Put a shield counter on target creature you control.
 [ForgeScript]
 T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Card.Self | Execute$ TrigToken | TriggerDescription$ When this creature dies, target opponent creates a Lumina token.
 SVar:TrigToken:DB$ Token | TokenAmount$ 1 | ValidTgts$ Opponent | TokenOwner$ Targeted | TokenScript$ c_a_lumina

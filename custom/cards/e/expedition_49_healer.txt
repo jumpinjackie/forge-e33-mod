@@ -10,4 +10,4 @@ SVar:LumTotal:Count$Valid Lumina.YouCtrl
 SVar:X:SVar$ChrTotal/Plus.LumCtrl
 T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Card.Self | Execute$ TrigToken | TriggerDescription$ When CARDNAME dies, create a Chroma token
 SVar:TrigToken:DB$ Token | TokenScript$ c_a_chroma | TokenOwner$ You | TokenAmount$ 1
-Oracle:Whenever you create a Chroma or Lumina token, you gain 1 life.\n{2},{T}: Prevent the next X damage that would be dealt to any target this turn, where X is the number of Chroma and Lumina tokens you control.\nWhen this creature dies, create a Chroma token.
+Oracle:Whenever you create a Chroma or Lumina token, you gain 1 life.\n{2}, {T}: Prevent the next X damage that would be dealt to any target this turn, where X is the number of Chroma and Lumina tokens you control.\nWhen this creature dies, create a Chroma token.

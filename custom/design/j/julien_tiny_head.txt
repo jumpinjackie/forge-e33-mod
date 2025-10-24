@@ -14,9 +14,9 @@ Sandfall Interactive
 [PT]
 3/3
 [Oracle]
-Combo Jab - {2}: Julien gains double strike until end of turn.
-Uppercut - {2}, {T}: Julien deals 2 damage to target creature, that creature gains flying until end of turn.
-Haymaker - {2}: Julien gains trample until end of turn.
+Combo Jab — {2}: Julien gains double strike until end of turn.
+Uppercut — {2}, {T}: Julien deals 2 damage to target creature, that creature gains flying until end of turn.
+Haymaker — {2}: Julien gains trample until end of turn.
 [AbilityWords]
 Combo Jab
 Uppercut

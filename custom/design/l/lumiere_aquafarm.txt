@@ -13,7 +13,7 @@ An aquatic farm. The city of Lumiere is in the background.
 [Oracle]
 This land enters tapped unless you control an Expeditioner.
 {T}: Add {W} or {U}.
-{4},{T}: Create a Food token.
+{4}, {T}: Create a Food token.
 [FlavorText]
 The Aquafarm project ensured that Lumiere would have a plentiful supply of food for years to come.
 [ForgeScript]
