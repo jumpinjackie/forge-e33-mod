@@ -30,7 +30,7 @@ SVar:TrigSac:DB$ Sacrifice
  - It starts off with 2 consecutive strikes and repeats, adding 2 consecutive strikes each time.
  - At 24 consecutive strikes, it self-destructs.
  - 2,4,6,8,10,12,14,16,18,20,22,24 = 12 times.
- - This is mechanically translated to a mini-earthquake every upkeep, adding a counter each time. Sac at 4 counters is its "self-destruct" sequence.
+ - This is mechanically translated to a mini-earthquake every upkeep, adding a counter each time. Sac at 3 counters is its "self-destruct" sequence.
  - Like The Monolith, we are saccing at 3 instead of 12 counters for purposes of practicality. 12 counters means 12 turns and that is too long to wait it out in "MTG game time"
  - Big butt conveys the general tankiness.
     - 5 toughness was chosen so it can be taken out with a Gestral Volleyball Strike, so that a Gestral strategy does not completely fold to this card being in play and can take this out immediately if waiting it out is not an option.
