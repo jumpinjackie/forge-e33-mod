@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 24/10/2025 11:31:40 PM
+> Last generated: 25/10/2025 8:17:16 AM
 
 ## Catapault Sakapatate
 
@@ -125,6 +125,30 @@ Sunniso: Well, I don't know! Golgra never told me the password. But whatever, ju
 
  - In the game, this is the "password" Golgra passed down to the Expeditioners to get past the Gestral guards at Esquie's Nest
  - Mechanically, it make sense (and is hilarious) to make Gestrals unable to block.
+
+## Grosse Tete
+
+```
+3R
+Legendary Creature - Nevron Elemental
+Attacks by bouncing — At the beginning of your upkeep, Grosse Tete deals 2 damage to each creature without flying, then put a quake counter on Grosse Tete.
+When Grosse Tete has three or more quake counters, sacrifice it.
+
+1/5
+```
+
+[card implementation](../custom/cards/g/grosse_tete.txt)
+
+### Design Notes
+
+ - In the game, Grosse Tete is a boss whose gimmick is repeatedly bouncing and slamming the ground.
+ - It starts off with 2 consecutive strikes and repeats, adding 2 consecutive strikes each time.
+ - At 24 consecutive strikes, it self-destructs.
+ - 2,4,6,8,10,12,14,16,18,20,22,24 = 12 times.
+ - This is mechanically translated to a mini-earthquake every upkeep, adding a counter each time. Sac at 4 counters is its "self-destruct" sequence.
+ - Like The Monolith, we are saccing at 3 instead of 12 counters for purposes of practicality. 12 counters means 12 turns and that is too long to wait it out in "MTG game time"
+ - Big butt conveys the general tankiness.
+    - 5 toughness was chosen so it can be taken out with a Gestral Volleyball Strike, so that a Gestral strategy does not completely fold to this card being in play and can take this out immediately if waiting it out is not an option.
 
 ## Lightning Dance
 
