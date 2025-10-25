@@ -168,13 +168,12 @@ public class CardFaceDesign
         var oracle = this.GetOracleText()?.Trim()?.Split('\n');
         if (oracle is not null)
         {
-            // HACK: WriteAsync seems to be interleave the line content, whereas sync Write does not
             if (faceType == CardFaceType.SplitRoom)
-                sw.Write($"Oracle:(You may cast either half. That door unlocks on the battlefield. As a sorcery, you may pay the mana cost of a locked door to unlock it.)\\n{string.Join("\\n", oracle)}");
+                await sw.WriteAsync($"Oracle:(You may cast either half. That door unlocks on the battlefield. As a sorcery, you may pay the mana cost of a locked door to unlock it.)\\n{string.Join("\\n", oracle)}");
             else if (faceType == CardFaceType.SplitFuse)
-                sw.Write($"Oracle:{string.Join("\\n", oracle)}\\nFuse (You may cast one or both halves of this card from your hand.)");
+                await sw.WriteAsync($"Oracle:{string.Join("\\n", oracle)}\\nFuse (You may cast one or both halves of this card from your hand.)");
             else
-                sw.Write($"Oracle:{string.Join("\\n", oracle)}");
+                await sw.WriteAsync($"Oracle:{string.Join("\\n", oracle)}");
         }
     }
 
@@ -570,8 +569,7 @@ public class CardMasterDesign(string designFile)
         var fi = new FileInfo(fileName);
         if (fi.Directory is not null && !fi.Directory.Exists)
             fi.Directory.Create();
-        using var fw = fi.OpenWrite();
-        fw.Position = 0L;
+        using var fw = new FileStream(fileName, FileMode.Create, FileAccess.Write, FileShare.None);
         using var sw = new StreamWriter(fw);
 
         switch (FaceType)

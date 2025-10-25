@@ -1,6 +1,27 @@
 # About
 
-This is our master card name list. All ideas start from a card name. As new ideas come to fruition, this list will be updated.
+This is our master card name list. All ideas and card designs start from a card name. Card names can come from any source in Expedition 33:
+
+ * It could refer to a character in the game
+    * eg. Gustave, Lumiere Engineer
+ * It could refer to an ability/skill of one of the party characters or enemies
+    * eg. Earth Rising
+ * It could refer to an item in the game or an item possessed by one of the party characters
+    * eg. Gustave's Journal, Energy Tint.
+ * It could refer to landmark/location in the game
+    * eg. The Monolith, Gestral Village
+ * It could refer to a quote said by a character
+    * eg. An Advantage!
+ * It could refer to an event took place in the game
+    * eg. The Fracture
+ * It could refer to something mentioned in the game, but not actually depicted in game
+    * eg. Expedition 60
+ * Where none of the above applies, and we need a specific card to fill out a particular slot or role in the set, a card name could be something that could *plausibly* exist or happen in the world depicted by the game
+    * eg. Lune's Denial, Nevron Pecking Order, Expedition Recruiter
+ * When all else fails and a reprint slot cannot fill the gap, we can fall back some set-agnostic name.
+    * No examples yet as we haven't needed to dip to this level yet
+
+As new card name ideas come to fruition, this list will be updated.
 
 From this list, card designs are spawned from it, which will eventually form the final card script and CardConjurer config.
 
@@ -199,6 +220,7 @@ Manor Gardens
 Manor Greenhouse // Manor Gallery
 Manor Kitchen // Manor Cellar
 Manor Library // Manor Fireplace
+Marked for Targeting
 Massacre at Dark Shores
 Matthieu the Colossus
 Mezzo Forte
@@ -219,6 +241,7 @@ Painted Love
 Painted Renoir, Aline's Enforcer
 Payback
 Percee
+Perfect Dodge
 Petank
 Phantom Strike
 Piercing Strike

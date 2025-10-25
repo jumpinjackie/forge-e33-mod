@@ -129,9 +129,10 @@ The oracle text of the card. Can span multiple lines.
 
 #### General Notes / Tips
 
-- Where possible, try to provide reminder text around keyword and token references, unless it is clear that you are exhausting your "text box budget" by doing so.
-   - You can use any of the existing variables/macros below to avoid having to specify the reminder text verbatim.
-- Use Gatherer/Scryfall as reference for looking up similar cards and try to follow their text templating.
+* Where possible, try to provide reminder text around keyword and token references, unless it is clear that you are exhausting your "text box budget" by doing so.
+   * You can use any of the existing variables/macros below to avoid having to specify the reminder text verbatim.
+* Use Gatherer/Scryfall as reference for looking up similar cards and try to follow their text templating.
+* Use emdashes `—` and unicode bullet points `•` where needed (ability words, modal options, etc). This allows for easy transfer to CardConjurer without needing special markup directives
 
 #### CardConjurer specific notes
 
