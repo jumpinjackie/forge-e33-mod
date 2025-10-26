@@ -12,7 +12,7 @@ This is our master card name list. All ideas and card designs start from a card 
     * eg. The Monolith, Gestral Village
  * It could refer to a quote said by a character
     * eg. An Advantage!
- * It could refer to an event took place in the game
+ * It could refer to an event that took place in the game
     * eg. The Fracture
  * It could refer to something mentioned in the game, but not actually depicted in game
     * eg. Expedition 60
