@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 25/10/2025 8:17:16 AM
+> Last generated: 26/10/2025 8:11:28 AM
 
 ## Chalier
 
@@ -41,24 +41,4 @@ When this creature dies, target opponent creates two Chroma tokens and two Lumin
  - Bounce back to hand to symbolize it running away.
  - Giving opponent Chroma/Lumina tokens on death symbolizes the loot reward for defeating it.
  - Reward is not triggering. See BUGS.md
-
-## Troubador
-
-```
-2C
-Creature - Nevron
-Applies powerful to allies — Other nevrons you control get +1/+1.
-Applies rush to allies — Nevrons you control have haste.
-When this creature dies, target opponent creates a Lumina token.
-
-2/2
-```
-
-[card implementation](../custom/cards/t/troubador.txt)
-
-### Design Notes
-
- - In the game, a Troubador uses its horn to buff the enemy party.
- - Mechanically, I've mapped this to a basic nevron lord buff effect.
- - 21/10/2025: Added lord haste effect to match its character sheet.
 

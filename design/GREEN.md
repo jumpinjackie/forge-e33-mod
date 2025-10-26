@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 25/10/2025 8:17:16 AM
+> Last generated: 26/10/2025 8:11:28 AM
 
 ## Abbest
 
@@ -45,7 +45,8 @@ When this creature dies, create a Chroma token.
 ```
 2G
 Kindred Enchantment - Expeditioner
-Sacrifice an Expeditioner: Draw a card
+Sacrifice a creature: Scry 1.
+Sacrifice an Expeditioner: Draw a card.
 ---
 Yet in their final moments, they used their bodies to create a bridge for those who come after. Expedition 35 is over but tomorrow comes.
 ```
@@ -56,6 +57,7 @@ Yet in their final moments, they used their bodies to create a bridge for those 
 
  - In the game, Expedition 35 perished to Nevrons in Falling Leaves. In their final moments, as they were becoming petrified, they threw themselves on top of each other to form a bridge for future expeditions to cross.
  - I've symbolized this as an enchantment where Expeditioners can be sacrificed for card draw, since each Expeditioner creature has a Chroma token death bonus, this can potentially be a combo engine to rip through your deck for some game winning payoff.
+ - 26/10/2025: Added creature sac for scry ability to avoid parasitism.
 
 ## Expedition 55 Drummer
 

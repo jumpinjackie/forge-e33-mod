@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 25/10/2025 8:17:16 AM
+> Last generated: 26/10/2025 8:11:28 AM
 
 ## Berrami, Collector of Journals
 
@@ -402,8 +402,8 @@ He spends some time writing in his journal. He writes about how dangerous the Ne
 ```
 2
 Artifact
-Sacrifice this artifact: You gain 5 life.
-Sacrifice this artifact: You gain 10 life. Activate this ability only if you control at least 3 Lumina tokens.
+Sacrifice this artifact: Target player gains 5 life.
+Sacrifice this artifact: Target player gains 10 life. Activate this ability only if you control at least 3 Lumina tokens.
 ```
 
 [card implementation](../custom/cards/h/health_tint.txt)
@@ -412,6 +412,7 @@ Sacrifice this artifact: You gain 10 life. Activate this ability only if you con
 
  - In the game, health tints restore party member HP during a battle or outside of battle when not near an Expedition flag.
  - Another enabler for Lumina token strategies
+ - 26/10/2025: Made lifegain targeted to support The 67th Gommage strategy
 
 ## Julien Tiny Head
 

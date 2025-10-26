@@ -1,5 +1,6 @@
 Name:Expedition 35 Bridge
 ManaCost:2 G
 Types:Kindred Enchantment Expeditioner
+A:AB$ Scry | Cost$ Sac<1/Creature> | ScryNum$ 1 | SpellDescription$ Scry 1.
 A:AB$ Draw | Cost$ Sac<1/Expeditioner> | SpellDescription$ Draw a card.
-Oracle:Sacrifice an Expeditioner: Draw a card
+Oracle:Sacrifice a creature: Scry 1.\nSacrifice an Expeditioner: Draw a card.

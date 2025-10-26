@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 25/10/2025 8:17:16 AM
+> Last generated: 26/10/2025 8:11:28 AM
 
 ## A Storm is Coming
 
@@ -199,8 +199,9 @@ Enchanted permanent becomes an artifact and loses all abilities.
 Legendary Planeswalker - Clea
 Nevron spells you cast cost {1} less to cast.
 [+2]: Create a 1/1 colorless Nevron creature token.
+[-2]: Search your library for a Nevron card, reveal that card and put it into your hand.
 [-4]: Exile target nonland permanent. Create a token that's a copy of that permanent, except it is a Nevron in addition to its other types.
-[-8]: Gain control of all creatures target opponent controls.
+[-10]: Gain control of all creatures target opponent controls.
 ```
 
 [card implementation](../custom/cards/c/clea_dessendre_seeking_vengeance.txt)
@@ -209,8 +210,9 @@ Nevron spells you cast cost {1} less to cast.
 
  - Planeswalker Clea's abilities map to her purported abilities in-game:
     - +2: She is a prolific Nevron creating machine
+    - -2: She can conjure up any Nevron
     - -4: She is known to have the unique ability of "painting over" other's creations. Modeled as exile with Nevron clone copy.
-    - -8: She is a shrewd manipulator
+    - -10: She is a shrewd manipulator
 
 ## Contortionniste
 
@@ -967,7 +969,7 @@ Legendary Creature - Painter God
 Nevron spells you cast cost {2} less to cast.
 Nevron creatures you control get +2/+2
 At the beginning of your upkeep, create a 1/1 colorless Nevron creature token.
-{5},{T}: Search your library for a Nevron card, reveal that card and put it into your hand.
+Sacrifice a Nevron: Draw a card.
 
 3/4
 ```
@@ -984,6 +986,7 @@ At the beginning of your upkeep, create a 1/1 colorless Nevron creature token.
     - A Nevron tutoring ability
  - NOTE: This is not the Clea Planeswalker so Francois does not have affinity towards it. Nothing in the actual game suggests Francois has any affection towards Clea's painted counterpart.
  - 13/10/2025: Removed Devoid.
+ - 26/10/2025: Replaced tutoring with a Nevron sac to draw a card.
 
 ## Rally the Expeditioners
 
@@ -1180,6 +1183,27 @@ Fuse (You may cast one or both halves of this card from your hand.)
 ### Design Notes
 
  - Just wanted a card that's a wordplay on one of Sciel's character traits (nurturing) and its polar opposite.
+
+## Troubador
+
+```
+2(R/G)
+Creature - Nevron
+Applies powerful to allies — Other nevrons you control get +1/+1.
+Applies rush to allies — Nevrons you control have haste.
+When this creature dies, target opponent creates a Lumina token.
+
+2/2
+```
+
+[card implementation](../custom/cards/t/troubador.txt)
+
+### Design Notes
+
+ - In the game, a Troubador uses its horn to buff the enemy party.
+ - Mechanically, I've mapped this to a basic nevron lord buff effect.
+ - 21/10/2025: Added lord haste effect to match its character sheet.
+ - 26/10/2025: Made it red/green in line with the buffs it gives out.
 
 ## Void Meteors
 

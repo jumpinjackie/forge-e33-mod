@@ -9,11 +9,12 @@ U
 [Artist]
 Sandfall Interactive
 [Oracle]
-Sacrifice this artifact: You gain 5 life.
-Sacrifice this artifact: You gain 10 life. Activate this ability only if you control at least 3 Lumina tokens.
+Sacrifice this artifact: Target player gains 5 life.
+Sacrifice this artifact: Target player gains 10 life. Activate this ability only if you control at least 3 Lumina tokens.
 [ForgeScript]
-A:AB$ GainLife | Cost$ T Sac<1/CARDNAME> | LifeAmount$ 5 | SpellDescription$ You gain 5 life.
-A:AB$ GainLife | Cost$ T Sac<1/CARDNAME> | LifeAmount$ 10 | IsPresent$ Lumina.YouCtrl | PresentCompare$ GE3 | SpellDescription$ You gain 10 life. Activate this ability only if you control at least 3 Lumina tokens.
+A:AB$ GainLife | Cost$ T Sac<1/CARDNAME> | ValidTgts$ Player | TgtPrompt$ Select target player | LifeAmount$ 5 | SpellDescription$ Target player gains 5 life.
+A:AB$ GainLife | Cost$ T Sac<1/CARDNAME> | ValidTgts$ Player | TgtPrompt$ Select target player | LifeAmount$ 10 | IsPresent$ Lumina.YouCtrl | PresentCompare$ GE3 | SpellDescription$ Target player gains 10 life. Activate this ability only if you control at least 3 Lumina tokens.
 [DesignNotes]
  - In the game, health tints restore party member HP during a battle or outside of battle when not near an Expedition flag.
  - Another enabler for Lumina token strategies
+ - 26/10/2025: Made lifegain targeted to support The 67th Gommage strategy

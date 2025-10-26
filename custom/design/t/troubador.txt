@@ -2,7 +2,7 @@
 Troubador
 [ManaCost]
 2
-C
+RG
 [Types]
 Creature
 Nevron
@@ -28,3 +28,4 @@ SVar:TrigToken:DB$ Token | TokenAmount$ 1 | ValidTgts$ Opponent | TokenOwner$ Ta
  - In the game, a Troubador uses its horn to buff the enemy party.
  - Mechanically, I've mapped this to a basic nevron lord buff effect.
  - 21/10/2025: Added lord haste effect to match its character sheet.
+ - 26/10/2025: Made it red/green in line with the buffs it gives out.
