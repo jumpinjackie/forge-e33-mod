@@ -1082,6 +1082,51 @@ public class GenAllCommand : BaseCommand
 
         await stdout.WriteLineAsync("Updated bugs file");
 
+        // 5. Generate card name list
+        var cardListFile = Path.Combine(designDir.FullName, "CARDLIST.md");
+        if (!File.Exists(cardListFile))
+            throw new InvalidOperationException("Could not find CARDLIST.md");
+
+        using var srCardList = new StreamReader(cardListFile);
+        await stdout.WriteLineAsync("Generating bugs file...");
+        var cardListOutFile = Path.Combine(this.OutputDir.FullName, "CARDLIST.md");
+        var sbCardList = new StringBuilder();
+
+        bool bInsideCardList = false;
+        var line = await srCardList.ReadLineAsync();
+        int cardNameTotal = 0;
+        while (line is not null)
+        {
+            if (line == "```")
+            {
+                bInsideCardList = !bInsideCardList;
+            }
+            else
+            {
+                if (bInsideCardList) // Means line is a card name
+                {
+                    if (cards.TryGetValue(line, out var design))
+                    {
+                        line = $"[x] {line}";
+                    }
+                    else
+                    {
+                        line = $"[ ] {line}";
+                    }
+                    cardNameTotal++;
+                }
+            }
+
+            sbCardList.AppendLine(line);
+            line = await srCardList.ReadLineAsync();
+        }
+
+        sbCardList.Replace("%_IMPL_STATUS_%", $"Cards implemented: {cards.Count}/{cardNameTotal}");
+        sbCardList.Replace("%_IMPL_LEGEND_%", "[x] - Card is implementned or in development, [ ] - Card is not implemented");
+
+        await File.WriteAllTextAsync(cardListOutFile, sbCardList.ToString());
+        await stdout.WriteLineAsync("Updated CARDLIST.md");
+
         await stdout.WriteLineAsync("All generation tasks completed successfully!");
 
         return 0;

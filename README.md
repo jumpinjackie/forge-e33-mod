@@ -40,6 +40,8 @@ To see what cards are in this set, check out the various design docs which detai
  * [Red](/design/RED.md)
  * [White](/design/WHITE.md)
 
+ * [Card Nmae List](/design/CARDLIST.md)
+
 # Other design notes
 
  * [Set Mechanics](/design/MECHANICS.md)

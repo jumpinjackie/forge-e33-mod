@@ -27,6 +27,10 @@ From this list, card designs are spawned from it, which will eventually form the
 
 ## Card Name List
 
+%_IMPL_STATUS_%
+
+%_IMPL_LEGEND_%
+
 ```
 A Storm is Coming
 Abberation
