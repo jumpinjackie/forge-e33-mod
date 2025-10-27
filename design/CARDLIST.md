@@ -165,9 +165,9 @@ Cards implemented: 200/281
 [x] Gestral Lackey
 [x] Gestral Merchant
 [x] Gestral Parkour Challenge
+[x] Gestral Pot
 [x] Gestral Raft Volleyball Challenge
 [x] Gestral Ringleader
-[ ] Gestral Statue
 [x] Gestral Village
 [x] Gestral Villager
 [x] Gestral Volleyball Strike
@@ -262,7 +262,7 @@ Cards implemented: 200/281
 [x] Revitalization
 [x] Rip Apart Reality
 [x] Robust Sakapatate
-[ ] Sastro, the Concerned
+[x] Sastro, Gestral Guardian
 [x] Sciel, Grieving for Many
 [x] Sciel's Intervention
 [x] Search // Rescue

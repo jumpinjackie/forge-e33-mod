@@ -165,9 +165,9 @@ Gestral Foot Race Challenge
 Gestral Lackey
 Gestral Merchant
 Gestral Parkour Challenge
+Gestral Pot
 Gestral Raft Volleyball Challenge
 Gestral Ringleader
-Gestral Statue
 Gestral Village
 Gestral Villager
 Gestral Volleyball Strike
@@ -262,7 +262,7 @@ Repaint
 Revitalization
 Rip Apart Reality
 Robust Sakapatate
-Sastro, the Concerned
+Sastro, Gestral Guardian
 Sciel, Grieving for Many
 Sciel's Intervention
 Search // Rescue
