@@ -34,4 +34,10 @@ Lumina Tokens are artifacts that can be sacrified to Scry 1. But that is not jus
 
 ### Pictos
 
-Pictos is a sub-type of Artifact that applies to Equipment. Any Pictos can create a token copy of itself by paying an amount of Lumina tokens (this is our mechanical interpretation of spending lumina points on a levelled up pictos to grant the same passive effects to another character without having to equip it)
+A Picto is a sub-type of Artifact that applies to Equipment. Any Picto can create a token copy of itself by paying an amount of Lumina tokens (this is our mechanical interpretation of spending lumina points on a levelled up picto to grant the same passive effects to another character without having to equip it).
+
+An equipment that self-replicates without restrictions would be hideously broken, so the self-replication only happens if you control no existing token copies of any given Picto.
+
+Thus for any given Picto, you can have at most one extra token copy of it.
+
+This restriction is a minor flavor/thematic fail (as the video game has no such restrictions), but game balance trumps flavor/thematic accuracy in this case.
