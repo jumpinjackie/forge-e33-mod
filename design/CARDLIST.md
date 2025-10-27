@@ -34,7 +34,7 @@ Cards implemented: 200/281
 ```
 [x] A Storm is Coming
 [x] Abbest
-[ ] Aberation
+[x] Aberration
 [x] Alicia Dessendre, Silenced by Fire
 [ ] Alicia's Birthday Party
 [ ] Aline Dessendre, Stricken by Grief
