@@ -1,0 +1,24 @@
+[Name]
+Anti-Burn
+[ManaCost]
+1
+[Types]
+Artifact
+Equipment
+Picto
+[Rarity]
+C
+[Artist]
+Sandfall Interactive
+[Oracle]
+Equipped creature has protection from red.
+Equip {2}
+Sacrifice two Lumina tokens: Create a token copy of ~ attached to target creature you control. Activate this ability only if you control no token copies of ~.
+[ForgeScript]
+K:Equip:2
+S:Mode$ Continuous | Affected$ Creature.EquippedBy | AddKeyword$ Protection from red | Description$ Equipped has protection from red.
+A:AB$ CopyPermanent | Cost$ Sac<2/Lumina> | CheckSVar$ TokenCopies | SVarCompare$ EQ0 | ValidTgts$ Creature.YouCtrl | Defined$ Self | NumCopies$ 1 | AttachedTo$ Targeted | SpellDescription$ Create a token copy of ~ attached to target creature you control. Activate this ability only if you control no token copies of ~.
+SVar:TokenCopies:Count$Valid Artifact.YouCtrl+token+namedAnti-Burn
+[DesignNotes]
+ - In the game, Anti-Burn grants immunity to Burn.
+ - Easy mechanical map to protection from red.

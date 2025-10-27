@@ -43,6 +43,10 @@ Aline Dessendre, Stricken by Grief
 All Set
 An Advantage!
 Ancient Sanctuary
+Anti-Burn
+Anti-Freeze
+Attack Lifesteal
+Augmented Attack
 Ballet
 Barrier Breaker
 Benisseur

@@ -1,0 +1,8 @@
+Name:Anti-Burn
+ManaCost:1
+Types:Artifact Equipment Picto
+K:Equip:2
+S:Mode$ Continuous | Affected$ Creature.EquippedBy | AddKeyword$ Protection from red | Description$ Equipped has protection from red.
+A:AB$ CopyPermanent | Cost$ Sac<2/Lumina> | CheckSVar$ TokenCopies | SVarCompare$ EQ0 | ValidTgts$ Creature.YouCtrl | Defined$ Self | NumCopies$ 1 | AttachedTo$ Targeted | SpellDescription$ Create a token copy of CARDNAME attached to target creature you control, except it doesn't have this ability.
+SVar:TokenCopies:Count$Valid Artifact.YouCtrl+token+namedAnti-Burn
+Oracle:Equipped creature has protection from red.\nEquip {2}\nSacrifice two Lumina tokens: Create a token copy of this artifact attached to target creature you control. Activate this ability only if you control no token copies of this artifact.
