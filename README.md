@@ -39,8 +39,7 @@ To see what cards are in this set, check out the various design docs which detai
  * [Multi-color](/design/MULTICOLOR.md)
  * [Red](/design/RED.md)
  * [White](/design/WHITE.md)
-
- * [Card Nmae List](/design/CARDLIST.md)
+ * [Card Name List](/design/CARDLIST.md)
 
 # Other design notes
 
