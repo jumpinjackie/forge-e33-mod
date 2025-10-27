@@ -38,6 +38,6 @@ A Picto is a sub-type of Artifact that applies to Equipment. Any Picto can creat
 
 An equipment that self-replicates without restrictions would be hideously broken, so the self-replication only happens if you control no existing token copies of any given Picto.
 
-Thus for any given Picto, you can have at most one extra token copy of it.
+Thus for any given Picto, you can have at most one extra token copy of it. If you lose the non-token copy, you cannot self-replicate with the token copy.
 
 This restriction is a minor flavor/thematic fail (as the video game has no such restrictions), but game balance trumps flavor/thematic accuracy in this case.
