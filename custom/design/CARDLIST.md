@@ -33,8 +33,8 @@ From this list, card designs are spawned from it, which will eventually form the
 
 ```
 A Storm is Coming
-Abberation
 Abbest
+Aberation
 Alicia Dessendre, Silenced by Fire
 Alicia's Birthday Party
 Aline Dessendre, Stricken by Grief
