@@ -23,6 +23,8 @@ This is our master card name list. All ideas and card designs start from a card 
 
 As new card name ideas come to fruition, this list will be updated.
 
+Un-implemented card names may be removed at any time if it is deemed that we cannot make a card design from that name.
+
 From this list, card designs are spawned from it, which will eventually form the final card script and CardConjurer config.
 
 ## Card Name List
@@ -215,7 +217,7 @@ Cards implemented: 200/281
 [x] Lune's Curiosity
 [x] Lune's Denial
 [x] Luster
-[ ] Maelle, Child of Lumiere
+[x] Maelle, Child of Lumiere // Maelle, The Reawakened Paintress
 [x] Maelle's Nightmare
 [x] Manor Door
 [x] Manor Entrance // Manor Hidden Room
@@ -224,7 +226,7 @@ Cards implemented: 200/281
 [x] Manor Greenhouse // Manor Gallery
 [x] Manor Kitchen // Manor Cellar
 [x] Manor Library // Manor Fireplace
-[ ] Marked for Targeting
+[ ] Marked!
 [x] Massacre at Dark Shores
 [x] Matthieu the Colossus
 [ ] Mezzo Forte
@@ -234,7 +236,7 @@ Cards implemented: 200/281
 [x] Nevron Disguise
 [x] Nevron Pecking Order
 [ ] Noco, The Greatest Merchant
-[ ] Noire
+[x] Noir
 [x] Obscur
 [ ] Offensive Switch
 [ ] Ono-Puncho
