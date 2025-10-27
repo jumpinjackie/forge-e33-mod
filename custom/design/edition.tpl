@@ -30,7 +30,7 @@ Rock:Rocks
 Lumina:Luminas
 Chroma:Chromas
 Flower:Flowers
-Pictos
+Picto:Pictos
 
 [SpellTypes]
 Gradient
