@@ -1,0 +1,8 @@
+Name:Grandis Fashionist
+ManaCost:1 U
+Types:Creature Grandis
+PT:1/2
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigChange | OptionalDecider$ You | TriggerDescription$ When CARDNAME enters, you may search your library for a Picto card, reveal it, put it into your hand, then shuffle.
+SVar:TrigChange:DB$ ChangeZone | Origin$ Library | Destination$ Hand | ChangeType$ Card.Picto | ChangeNum$ 1 | ShuffleNonMandatory$ True
+A:AB$ ChangeZone | Cost$ 1 U T | Origin$ Hand | Destination$ Battlefield | ChangeType$ Picto | ChangeNum$ 1 | AILogic$ Main1 | SpellDescription$ You may put a Picto card from your hand onto the battlefield.
+Oracle:When this creature enters, you may search your library for a Picto card, reveal it, put it into your hand, then shuffle.\n{1}{U}, {T}: You may put a Picto card from your hand onto the battlefield.

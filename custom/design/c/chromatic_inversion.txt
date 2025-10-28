@@ -1,0 +1,20 @@
+[Name]
+Chromatic Inversion
+[ManaCost]
+1
+R
+[Types]
+Instant
+[Rarity]
+C
+[ArtNotes]
+Expedition 33 members have an "inverted" status, which has the appearance of white hair and black face and outfit.
+[Oracle]
+Switch target creature's power and toughness until end of turn.
+Draw a card.
+[ForgeScript]
+A:SP$ Pump | ValidTgts$ Creature | TgtPrompt$ Select target creature | KW$ HIDDEN CARDNAME's power and toughness are switched | SubAbility$ DBDraw | SpellDescription$ Switch target creature's power and toughness until end of turn.
+SVar:DBDraw:DB$ Draw | NumCards$ 1
+[DesignNotes]
+ - In the game, a party member can have an inverted status in battle. A member with inverted status cannot heal. Any attempt to heal the member results in damage being taken instead.
+ - We've mechanically translated this to a P/T switch. ie. About Face, but with a cantrip bonus.

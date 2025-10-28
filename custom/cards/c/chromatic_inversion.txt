@@ -1,0 +1,6 @@
+Name:Chromatic Inversion
+ManaCost:1 R
+Types:Instant
+A:SP$ Pump | ValidTgts$ Creature | TgtPrompt$ Select target creature | KW$ HIDDEN CARDNAME's power and toughness are switched | SubAbility$ DBDraw | SpellDescription$ Switch target creature's power and toughness until end of turn.
+SVar:DBDraw:DB$ Draw | NumCards$ 1
+Oracle:Switch target creature's power and toughness until end of turn.\nDraw a card.

@@ -1,0 +1,20 @@
+[Name]
+Chromatic Reclamation
+[ManaCost]
+2
+B
+G
+[Types]
+Enchantment
+[Rarity]
+R
+[Oracle]
+Sacrifice a nontoken permanent you control: Create a Chroma token.
+Exile a nontoken permanent you control: Create two Chroma tokens.
+[FlavorText]
+The body may be gone, but its essence can be repurposed for other means.
+[ForgeScript]
+A:AB$ Token | Cost$ Sac<1/Permanent.YouCtrl+!token/nontoken permanent you control> | TokenAmount$ 1 | TokenOwner$ You | TokenScript$ c_a_chroma | SpellDescription$ Create a Chroma token.
+A:AB$ Token | Cost$ Exile<1/Permanent.YouCtrl+!token/nontoken permanent you control> | TokenAmount$ 2 | TokenOwner$ You | TokenScript$ c_a_chroma | SpellDescription$ Create two Chroma tokens.
+[DesignNotes]
+ - Intended to be a combo engine, just like Expedition 35 Bridge converts permanents to extra cards. This converts permanents to extra Chroma tokens.
