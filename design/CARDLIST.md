@@ -29,7 +29,7 @@ From this list, card designs are spawned from it, which will eventually form the
 
 ## Card Name List
 
-Cards implemented: 200/281
+Cards implemented: 205/285
 
 [x] - Card is implementned or in development, [ ] - Card is not implemented
 
@@ -43,6 +43,10 @@ Cards implemented: 200/281
 [ ] All Set
 [x] An Advantage!
 [ ] Ancient Sanctuary
+[x] Anti-Burn
+[ ] Anti-Freeze
+[ ] Attack Lifesteal
+[ ] Augmented Attack
 [x] Ballet
 [ ] Barrier Breaker
 [x] Benisseur
@@ -69,9 +73,9 @@ Cards implemented: 200/281
 [x] Chroma is Flowing
 [x] Chroma Prison
 [ ] Chroma Trap
-[ ] Chromatic Inversion
+[x] Chromatic Inversion
 [x] Chromatic Petrification
-[ ] Chromatic Reclamation
+[x] Chromatic Reclamation
 [x] Clair
 [ ] Clair Obscur
 [x] Clea Dessendre, Seeking Vengeance
@@ -182,7 +186,7 @@ Cards implemented: 200/281
 [x] Gommage
 [x] Gradient Charge
 [x] Gradient Counter
-[ ] Grandis Fashionist
+[x] Grandis Fashionist
 [ ] Grandis Merchant
 [ ] Greatsword Cultist
 [x] Grosse Tete
@@ -247,7 +251,7 @@ Cards implemented: 200/281
 [ ] Painted Renoir, Aline's Enforcer
 [ ] Payback
 [ ] Percee
-[ ] Perfect Dodge
+[x] Perfect Dodge
 [x] Petank
 [ ] Phantom Strike
 [x] Piercing Strike

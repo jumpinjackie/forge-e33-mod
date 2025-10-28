@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 26/10/2025 8:11:28 AM
+> Last generated: 28/10/2025 10:51:17 AM
 
 ## A Storm is Coming
 
@@ -191,6 +191,23 @@ Enchanted permanent becomes an artifact and loses all abilities.
  - I orignally wanted this to turn into a "do nothing" artifact, but I think the "Enchant creature" restriction means this is a nonbo and the aura immediately "falls off". Will revisit later with "Enchant permanent" to see if this gives my desired result.
     - Until then, I've gone with a 0/1 artifact creature.
     - 23/09/2025: Now enchanting permanents so we can achieve the "inert artifact" effect. A slight flavor loss since this can now target more than just creatures, but I am more after the petrification effect than it needing to only target creatures
+
+## Chromatic Reclamation
+
+```
+2BG
+Enchantment
+Sacrifice a nontoken permanent you control: Create a Chroma token.
+Exile a nontoken permanent you control: Create two Chroma tokens.
+---
+The body may be gone, but its essence can be repurposed for other means.
+```
+
+[card implementation](../custom/cards/c/chromatic_reclamation.txt)
+
+### Design Notes
+
+ - Intended to be a combo engine, just like Expedition 35 Bridge converts permanents to extra cards. This converts permanents to extra Chroma tokens.
 
 ## Clea Dessendre, Seeking Vengeance
 

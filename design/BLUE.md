@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 26/10/2025 8:11:28 AM
+> Last generated: 28/10/2025 10:51:17 AM
 
 ## An Advantage!
 
@@ -307,6 +307,26 @@ Parry it!
 
  - In the game, a Gradient attack is a super-charged attack. Such attacks can only be parried with a Gradient counter.
  - Mechanically, since we have Gradient instants/sorceries. This is obviously a thematically-relevant counter.
+
+## Grandis Fashionist
+
+```
+1U
+Creature - Grandis
+When this creature enters, you may search your library for a Picto card, reveal it, put it into your hand, then shuffle.
+{1}{U}, {T}: You may put a Picto card from your hand onto the battlefield.
+---
+Finish my sentence in a wonderfully poetic way: Life blooms like a rose, with petals soft and frail...
+
+1/2
+```
+
+[card implementation](../custom/cards/g/grandis_fashionist.txt)
+
+### Design Notes
+
+ - In the game, you can play word games with the Grandis Fashionist to unlock extra outfits.
+ - Loose mechanical tie outfits > equipment > pictos. Thus made this basically a Stoneforge Mystic for Pictos.
 
 ## Gustave's Ingenuity
 

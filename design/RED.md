@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 26/10/2025 8:11:28 AM
+> Last generated: 28/10/2025 10:51:17 AM
 
 ## Catapault Sakapatate
 
@@ -22,6 +22,22 @@ When this creature dies, you may have this creature deal 2 damage to target crea
  - Represented mechanically here as a simple shock-creature-on-death trigger.
  - 13/10/2025: Removed Devoid.
  - 21/10/2025: Added Gestral alliance cost reduction
+
+## Chromatic Inversion
+
+```
+1R
+Instant
+Switch target creature's power and toughness until end of turn.
+Draw a card.
+```
+
+[card implementation](../custom/cards/c/chromatic_inversion.txt)
+
+### Design Notes
+
+ - In the game, a party member can have an inverted status in battle. A member with inverted status cannot heal. Any attempt to heal the member results in damage being taken instead.
+ - We've mechanically translated this to a P/T switch. ie. About Face, but with a cantrip bonus.
 
 ## Crustal Crush
 

@@ -1,6 +1,23 @@
 # Cards
 
-> Last generated: 26/10/2025 8:11:28 AM
+> Last generated: 28/10/2025 10:51:17 AM
+
+## Anti-Burn
+
+```
+1
+Artifact - Equipment Picto
+Equipped creature has protection from red.
+Equip {2}
+Sacrifice two Lumina tokens: Create a token copy of this artifact attached to target creature you control. Activate this ability only if you control no token copies of this artifact.
+```
+
+[card implementation](../custom/cards/a/anti-burn.txt)
+
+### Design Notes
+
+ - In the game, Anti-Burn grants immunity to Burn.
+ - Easy mechanical map to protection from red.
 
 ## Berrami, Collector of Journals
 

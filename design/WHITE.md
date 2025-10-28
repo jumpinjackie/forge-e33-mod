@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 26/10/2025 8:11:28 AM
+> Last generated: 28/10/2025 10:51:17 AM
 
 ## Chroma Barrier
 
@@ -164,6 +164,21 @@ He eagerly absorbs the knowledge given to him, for he knows when his time comes,
  - In the game, some of the children/teenagers of Lumiere are apprentices of Expeditioners, absorbing as much knowledge passed down to them should they fail and they will eventually become Expeditioners themselves and need to take up the mantle.
  - Modeled their "curiosity" as giving you clues whenever a "foreign" creature type enters the battlefield.
  - One of the rare humans in this set that are not Expeditioners.
+
+## Perfect Dodge
+
+```
+XW
+Kindred Instant - Expeditioner
+Exile X target creatures you control. Return them to the battlefield under its owner's control at the the beginning of the next end step.
+```
+
+[card implementation](../custom/cards/p/perfect_dodge.txt)
+
+### Design Notes
+
+ - In the game, enemy attacks can be dodged or parried. A dodge performed at the right time is a perfect dodge.
+ - Mechanically translated to a basic blink effect. Can be used as a defensive combat trick or to milk extra ETB triggers on your creatures.
 
 ## Repaint
 
