@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 28/10/2025 10:51:17 AM
+> Last generated: 28/10/2025 12:32:11 PM
 
 ## A Storm is Coming
 
@@ -790,6 +790,10 @@ Exile target nonland permanent.
 ```
 1WR
 Legendary Creature - Human Expeditioner
+Stance Switch — At the beginning of combat, roll a six-sided die.
+1-2 | Offensive Stance — Maelle gains Vigilance and +2/+0 until your next turn
+3-4 | Defensive Stance — Maelle gains Hexproof, First Strike and +0/+2 until your next turn.
+5-6 | Virtuose Stance — Maelle gains Double Strike and +1/-1 until your next turn.
 At the beginning of your end step, if you both own and control Maelle, Child of Lumiere and a creature named Alicia Dessendre, Silenced by Fire, exile them, then meld them into Maelle, The Reawakened Paintress.
 
 3/3
@@ -824,6 +828,12 @@ Human spells you cast cost {1} less to cast.
     - 0: Same theme of reanimating/rallying dead expeditioners to her cause
     - -3: She now has the power to erase enemies from the canvas
     - -8: Same theme of reanimating/rallying dead expeditioners to her cause
+ - 28/10/2025: Fleshed out Human Maelle's abilities. Her main gimmick is stances, which confers certain attack/defense characteristics depending on stance.
+   - Mechanically I've gone with mapping each stance to a set of buffs that last until your next turn.
+      - Offensive Stance: Vigilance and +2/+0
+      - Defensive Stance: Hexproof, First Strike and +0/+2
+      - Virtuose Stance: Double Strike and +1/-1
+   - How the stance is chosen is determined by something that's on flavor for any red card: Randomness by a six-sided die roll.
 
 ## Manor Entrance // Manor Hidden Room
 
