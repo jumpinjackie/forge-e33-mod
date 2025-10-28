@@ -16,8 +16,22 @@ Sandfall Interactive
 [PT]
 3/3
 [Oracle]
+Stance Switch — At the beginning of combat, roll a six-sided die.
+1-2 | Offensive Stance — Maelle gains Vigilance and +2/+0 until your next turn
+3-4 | Defensive Stance — Maelle gains Hexproof, First Strike and +0/+2 until your next turn.
+5-6 | Virtuose Stance — Maelle gains Double Strike and +1/-1 until your next turn.
 At the beginning of your end step, if you both own and control Maelle, Child of Lumiere and a creature named Alicia Dessendre, Silenced by Fire, exile them, then meld them into Maelle, The Reawakened Paintress.
+[AbilityWords]
+Stance Switch
+Offensive Stance
+Defensive Stance
+Virtuose Stance
 [ForgeScript]
+T:Mode$ Phase | Phase$ BeginCombat | ValidPlayer$ You | TriggerZones$ Battlefield | Execute$ DBRoll | TriggerDescription$ At the beginning of combat, roll a six-sided die.
+SVar:DBRoll:DB$ RollDice | Sides$ 6 | ResultSubAbilities$ 1-2:DBOffensive,3-4:DBDefensive,5-6:DBVirtuose | SpellDescription$ Roll a six-sided die.
+SVar:DBOffensive:DB$ Pump | Defined$ Self | KW$ Vigilance | NumAtt$ +2 | Duration$ UntilYourNextTurn | SpellDescription$ 1-2 ~ gains Vigilance and +2/+0 until your next turn
+SVar:DBDefensive:DB$ Pump | Defined$ Self | KW$ Hexproof & First Strike | NumDef$ +2 | Duration$ UntilYourNextTurn | SpellDescription$ 3-4 ~ gains Hexproof, First Strike and +0/+2 until your next turn.
+SVar:DBVirtuose:DB$ Pump | Defined$ Self | KW$ Double Strike | NumAtt$ +1 | NumDef$ -1 | Duration$ UntilYourNextTurn | SpellDescription$ 5-6 ~ gains Double Strike and +1/-1 until your next turn.
 T:Mode$ Phase | Phase$ End of Turn | IsPresent$ Card.Self+YouCtrl+YouOwn | IsPresent2$ Creature.YouCtrl+YouOwn+namedAlicia Dessendre; Silenced by Fire | ValidPlayer$ You | Execute$ Meld | TriggerZones$ Battlefield | TriggerDescription$ At the beginning of your end step, if you both own and control CARDNAME and a creature named Alicia Dessendre, Silenced by Fire, exile them, then meld them into Maelle, The Reawakened Paintress.
 SVar:Meld:DB$ Meld | Name$ Maelle, The Reawakened Paintress | Primary$ Maelle, Child of Lumiere | Secondary$ Alicia Dessendre, Silenced by Fire
 DeckHints:Name$Alicia Dessendre, Silenced by Fire
@@ -64,3 +78,9 @@ A:AB$ ChangeZoneAll | Cost$ SubCounter<-8/LOYALTY> | Planeswalker$ True | Change
     - 0: Same theme of reanimating/rallying dead expeditioners to her cause
     - -3: She now has the power to erase enemies from the canvas
     - -8: Same theme of reanimating/rallying dead expeditioners to her cause
+ - 28/10/2025: Fleshed out Human Maelle's abilities. Her main gimmick is stances, which confers certain attack/defense characteristics depending on stance.
+   - Mechanically I've gone with mapping each stance to a set of buffs that last until your next turn.
+      - Offensive Stance: Vigilance and +2/+0
+      - Defensive Stance: Hexproof, First Strike and +0/+2
+      - Virtuose Stance: Double Strike and +1/-1
+   - How the stance is chosen is determined by something that's on flavor for any red card: Randomness by a six-sided die roll.
