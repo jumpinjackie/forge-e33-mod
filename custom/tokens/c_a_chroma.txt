@@ -1,5 +1,5 @@
 Name:Chroma Token
 ManaCost:no cost
 Types:Artifact Chroma
-A:AB$ Mana | Cost$ T Sac<1/CARDNAME/this token> | Produced$ Any | Amount$ 1 | RestrictValid$ Spell.Nevron,Spell.Gestral,Spell.Expeditioner | SpellDescription$ Add one mana of any color. Spend this mana only to cast a Nevron, Gestral or Expeditioner spell.
-Oracle:{T}, Sacrifice this token: Add one mana of any color. Spend this mana only to cast a Nevron, Gestral or Expeditioner spell.
+A:AB$ Mana | Cost$ T Sac<1/CARDNAME/this artifact> | Produced$ Any | Amount$ 1 | RestrictValid$ Spell.Nevron,Spell.Gestral,Spell.Expeditioner | SpellDescription$ Add one mana of any color. Spend this mana only to cast a Nevron, Gestral or Expeditioner spell.
+Oracle:{T}, Sacrifice this artifact: Add one mana of any color. Spend this mana only to cast a Nevron, Gestral or Expeditioner spell.
