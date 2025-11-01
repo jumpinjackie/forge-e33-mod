@@ -12,7 +12,7 @@ R
 Sacrifice a nontoken permanent you control: Create a Chroma token.
 Exile a nontoken permanent you control: Create two Chroma tokens.
 [FlavorText]
-The body may be gone, but its essence can be repurposed for other means.
+The body may be gone but in this world, its chroma can be repurposed for other means.
 [ForgeScript]
 A:AB$ Token | Cost$ Sac<1/Permanent.YouCtrl+!token/nontoken permanent you control> | TokenAmount$ 1 | TokenOwner$ You | TokenScript$ c_a_chroma | SpellDescription$ Create a Chroma token.
 A:AB$ Token | Cost$ Exile<1/Permanent.YouCtrl+!token/nontoken permanent you control> | TokenAmount$ 2 | TokenOwner$ You | TokenScript$ c_a_chroma | SpellDescription$ Create two Chroma tokens.

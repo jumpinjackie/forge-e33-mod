@@ -17,7 +17,7 @@ Sandfall Interactive
 3/4
 [Oracle]
 Nevron spells you cast cost {2} less to cast.
-Nevron creatures you control get +2/+2
+Nevron creatures you control get +2/+2.
 At the beginning of your upkeep, create a 1/1 colorless Nevron creature token.
 Sacrifice a Nevron: Draw a card.
 [ForgeScript]

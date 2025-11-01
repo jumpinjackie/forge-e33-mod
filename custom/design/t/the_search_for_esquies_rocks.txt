@@ -13,7 +13,7 @@ Sandfall Interactive
 [Oracle]
 (As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
 I — Search your library for a rock card, put it onto the battlefield, then shuffle.
-II - Scry 3.
+II — Scry 3.
 III — Draw cards equal to the number of rock permanents you control.
 [ForgeScript]
 K:Chapter:3:DBChapter1,DBChapter2,DBChapter3
