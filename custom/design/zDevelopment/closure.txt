@@ -1,0 +1,18 @@
+[Name]
+Closure
+[ManaCost]
+1
+WB
+[Types]
+Instant
+[Rarity]
+U
+[Oracle]
+Exile all graveyards.
+Draw a card.
+[ForgeScript]
+A:SP$ ChangeZoneAll | ChangeType$ Card | Origin$ Graveyard | Destination$ Exile | AILogic$ ExileGraveyards | SubAbility$ DBDraw | SpellDescription$ Exile all graveyards.
+SVar:DBDraw:DB$ Draw
+[DesignNotes]
+ - Describes the moment in Verso's ending where he is truly laid to rest and the canvas is destroyed.
+ - Obvious graveyard exile effect to indicate the finality of this moment. What's dead is dead and should be laid to rest.

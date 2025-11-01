@@ -1,0 +1,33 @@
+[Name]
+Verso, Who Guards Truth With Lies
+[ManaCost]
+1
+U
+WB
+[Types]
+Legendary
+Creature
+Human
+Expeditioner
+[PT]
+3/3
+[Rarity]
+R
+[Oracle]
+Whenever ~ untaps or deals damage, put a rank counter on him.
+Whenever ~ is dealt damage, remove all rank counters from him.
+When ~ dies, return him to its owner's hand.
+Strike Storm — ~ has Double Strike if he has 3 or more rank counters.
+Marking Shot — {U/B}, {T}: ~ deals 1 damage to any target. If you have 3 or more rank counters, it deals 2 damage to any target instead.
+Phantom Stars — {3}{W}, {T}: ~ deals X damage to each creature target opponent controls, where X is the number of rank counters on him.
+[AbilityWords]
+Marking Shot
+Strike Storm
+Phantom Stars
+[FlavorText]
+Here we go
+[ForgeScript]
+[DesignNotes]
+ - The main gimmick we want to mechanically capture is his rank. Rank is gained from dealing damage and is lost on taking damage.
+ - Easy map to gain/loss of rank counters on dealing damage/taking damage. For game balance, Verso will lose all rank counters on a single hit.
+ - Added an assortment of buffs and abilities that are conditional on the number of rank counters.

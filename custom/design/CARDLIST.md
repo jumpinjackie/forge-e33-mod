@@ -80,6 +80,7 @@ Clair
 Clair Obscur
 Clea Dessendre, Seeking Vengeance
 Clea's Chromatic Mastery
+Closure
 Crippling Tsunami
 Cruler
 Crushing Cavern
