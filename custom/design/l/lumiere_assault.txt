@@ -1,0 +1,21 @@
+[Name]
+Lumiere Assault
+[ManaCost]
+2
+W
+W
+[Rarity]
+U
+[Types]
+Kindred
+Instant
+Expeditioner
+[Oracle]
+Create two 1/1 white Human Expeditioner tokens with $EXPEDITIONER_TOKEN_TEXT
+Flashback — Sacrifice two Chroma tokens.
+[ForgeScript]
+K:Flashback:Sac<2/Chroma>
+A:SP$ Token | TokenOwner$ You | TokenAmount$ 2 | TokenScript$ w_1_1_human_expeditioner | SpellDescription$ Create two 1/1 white Human Expeditioner tokens with $EXPEDITIONER_TOKEN_TEXT
+DeckHas:Ability$Token
+[DesignNotes]
+ - Primarily designed to support the Crippling Tsunami Prison strategy
