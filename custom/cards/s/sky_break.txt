@@ -1,13 +1,14 @@
 Name:Sky Break
-ManaCost:2 U U
+ManaCost:3 U U
 Types:Kindred Sorcery Expeditioner Gradient
 A:SP$ TapAll | ValidCards$ Creature.OppCtrl | RememberTapped$ True | SubAbility$ DBStun
-SVar:DBStun:DB$ PutCounter | CounterType$ STUN | CounterNum$ 1 | Defined$ Remembered | SubAbility$ DBDelayedFire
-SVar:DBDelayedFire:DB$ DelayedTrigger | Mode$ Phase | Phase$ End of Turn | ValidPlayer$ You | Execute$ TrigFire | RememberObjects$ RememberedLKI | TriggerDescription$ CARDNAME deals 6 damage to each creature with a stun counter. | ConditionManaSpent$ R | SubAbility$ DBDelayedExile
+SVar:DBStun:DB$ PutCounter | CounterType$ STUN | CounterNum$ 1 | Defined$ Remembered | SubAbility$ DBFire
+SVar:DBFire:DB$ DealDamage | ValidTgts$ Any | NumDmg$ Y | SpellDescription$ If {R} was spent on this spell, CARDNAME deals X damage to any target, where X is the number of creatures on the battlefield. | ConditionManaSpent$ R | SubAbility$ DBDelayedExile
 SVar:DBDelayedExile:DB$ DelayedTrigger | Mode$ Phase | Phase$ End of Turn | ValidPlayer$ You | Execute$ TrigExile | RememberObjects$ RememberedLKI | TriggerDescription$ Exile each creature with a stun counter | ConditionManaSpent$ W | SubAbility$ DBLifeGain
-SVar:DBLifeGain:DB$ GainLife | LifeAmount$ X | TriggerDescription$ You gain 2 life for each creature on the battlefield. | ConditionManaSpent$ G | SubAbility$ DBCleanup
+SVar:DBLifeGain:DB$ GainLife | LifeAmount$ X | SpellDescription$ If {G} was spent on this spell, You gain 2 life for each creature on the battlefield. | ConditionManaSpent$ G | SubAbility$ DBCleanup
 SVar:DBCleanup:DB$ Cleanup | ClearRemembered$ True
 SVar:TrigFire:DB$ DamageAll | ValidCards$ Creature.counters_GE1_STUN | NumDmg$ 6
 SVar:TrigExile:DB$ ChangeZoneAll | Origin$ Battlefield | Destination$ Exile | ChangeType$ Creature.counters_GE1_STUN
 SVar:X:Count$Valid Creature/Times.2
-Oracle:Tap all creatures your opponents control, then put a stun counter on each of those creatures.\nIf {R} was spent on this spell, it deals 6 damage to each creature with a stun counter at the beginning of your next end step.\nIf {W} was spent on this spell, exile each creature with a stun counter at the beginning of your next end step.\nIf {G} was spent on this spell, you gain 2 life for each creature on the battlefield.
+SVar:Y:Count$Valid Creature
+Oracle:Tap all creatures your opponents control, then put a stun counter on each of those creatures.\nIf {R} was spent on this spell, it deals X damage to any target, where X is the number of creatures on the battlefield.\nIf {W} was spent on this spell, exile each creature with a stun counter at the beginning of your next end step.\nIf {G} was spent on this spell, you gain 2 life for each creature on the battlefield.
