@@ -29,7 +29,7 @@ From this list, card designs are spawned from it, which will eventually form the
 
 ## Card Name List
 
-Cards implemented: 205/285
+Cards implemented: 207/286
 
 [x] - Card is implementned or in development, [ ] - Card is not implemented
 
@@ -80,6 +80,7 @@ Cards implemented: 205/285
 [ ] Clair Obscur
 [x] Clea Dessendre, Seeking Vengeance
 [x] Clea's Chromatic Mastery
+[x] Closure
 [x] Crippling Tsunami
 [x] Cruler
 [x] Crushing Cavern
@@ -312,7 +313,7 @@ Cards implemented: 205/285
 [ ] Ultimate Sakapatate
 [x] Urrie
 [x] Verisimilitude
-[ ] Verso, Who Guards Truth With Lies
+[x] Verso, Who Guards Truth With Lies
 [ ] Visages
 [x] Void Meteors
 [x] Volester

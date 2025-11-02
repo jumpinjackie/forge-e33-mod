@@ -1,0 +1,6 @@
+Name:Closure
+ManaCost:1 WB
+Types:Instant
+A:SP$ ChangeZoneAll | ChangeType$ Card | Origin$ Graveyard | Destination$ Exile | AILogic$ ExileGraveyards | SubAbility$ DBDraw | SpellDescription$ Exile all graveyards.
+SVar:DBDraw:DB$ Draw
+Oracle:Exile all graveyards.\nDraw a card.

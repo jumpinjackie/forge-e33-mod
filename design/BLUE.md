@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 28/10/2025 12:32:11 PM
+> Last generated: 2/11/2025 1:49:25 pm
 
 ## An Advantage!
 
@@ -498,7 +498,7 @@ Create a Lumina token.
 Enchantment - Saga
 (As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
 I — Search your library for a rock card, put it onto the battlefield, then shuffle.
-II - Scry 3.
+II — Scry 3.
 III — Draw cards equal to the number of rock permanents you control.
 ```
 

@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 28/10/2025 12:32:11 PM
+> Last generated: 2/11/2025 1:49:25 pm
 
 ## A Storm is Coming
 
@@ -200,7 +200,7 @@ Enchantment
 Sacrifice a nontoken permanent you control: Create a Chroma token.
 Exile a nontoken permanent you control: Create two Chroma tokens.
 ---
-The body may be gone, but its essence can be repurposed for other means.
+The body may be gone but in this world, its chroma can be repurposed for other means.
 ```
 
 [card implementation](../custom/cards/c/chromatic_reclamation.txt)
@@ -230,6 +230,22 @@ Nevron spells you cast cost {1} less to cast.
     - -2: She can conjure up any Nevron
     - -4: She is known to have the unique ability of "painting over" other's creations. Modeled as exile with Nevron clone copy.
     - -10: She is a shrewd manipulator
+
+## Closure
+
+```
+1(W/B)
+Instant
+Exile all graveyards.
+Draw a card.
+```
+
+[card implementation](../custom/cards/c/closure.txt)
+
+### Design Notes
+
+ - Describes the moment in Verso's ending where he is truly laid to rest and the canvas is destroyed.
+ - Obvious graveyard exile effect to indicate the finality of this moment. What's dead is dead and should be laid to rest.
 
 ## Contortionniste
 
@@ -994,7 +1010,7 @@ Sacrifice three Chroma tokens: Your opponents can't cast spells this turn.
 2UB
 Legendary Creature - Painter God
 Nevron spells you cast cost {2} less to cast.
-Nevron creatures you control get +2/+2
+Nevron creatures you control get +1/+1.
 At the beginning of your upkeep, create a 1/1 colorless Nevron creature token.
 Sacrifice a Nevron: Draw a card.
 
@@ -1014,6 +1030,7 @@ Sacrifice a Nevron: Draw a card.
  - NOTE: This is not the Clea Planeswalker so Francois does not have affinity towards it. Nothing in the actual game suggests Francois has any affection towards Clea's painted counterpart.
  - 13/10/2025: Removed Devoid.
  - 26/10/2025: Replaced tutoring with a Nevron sac to draw a card.
+ - 2/11/2025: Reduced Nevron buff from +2/+2 to +1/+1
 
 ## Rally the Expeditioners
 
@@ -1231,6 +1248,31 @@ When this creature dies, target opponent creates a Lumina token.
  - Mechanically, I've mapped this to a basic nevron lord buff effect.
  - 21/10/2025: Added lord haste effect to match its character sheet.
  - 26/10/2025: Made it red/green in line with the buffs it gives out.
+
+## Verso, Who Guards Truth With Lies
+
+```
+1U(W/B)
+Legendary Creature - Human Expeditioner
+Whenever , Who Guards Truth With Lies untaps or deals damage, put a rank counter on him.
+Whenever , Who Guards Truth With Lies is dealt damage, remove all rank counters from him.
+Immortality — {1}{U}{B}: Return , Who Guards Truth With Lies from your graveyard to the battlefield tapped with a stun counter.
+Strike Storm — , Who Guards Truth With Lies has Double Strike as long has he has 3 or more rank counters.
+Marking Shot — {U/B}, {T}: , Who Guards Truth With Lies deals 1 damage to any target. If you have 3 or more rank counters, it deals 2 damage to any target instead.
+Phantom Stars — {4}{W}, {T}, remove X rank counters from , Who Guards Truth With Lies: , Who Guards Truth With Lies deals X damage to each creature your opponents controls.
+---
+Here we go
+
+3/3
+```
+
+[card implementation](../custom/cards/v/verso_who_guards_truth_with_lies.txt)
+
+### Design Notes
+
+ - The main gimmick we want to mechanically capture is his rank. Rank is gained from dealing damage and is lost on taking damage.
+ - Easy map to gain/loss of rank counters on dealing damage/taking damage. For game balance, Verso will lose all rank counters on a single hit.
+ - Added an assortment of buffs and abilities that are conditional on the number of rank counters.
 
 ## Void Meteors
 

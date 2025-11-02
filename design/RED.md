@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 28/10/2025 12:32:11 PM
+> Last generated: 2/11/2025 1:49:25 pm
 
 ## Catapault Sakapatate
 
