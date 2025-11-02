@@ -6,4 +6,4 @@ SVar:DBChapter1:DB$ ChangeZone | Origin$ Library | Destination$ Battlefield | Ch
 SVar:DBChapter2:DB$ Scry | ScryNum$ 3 | SpellDescription$ Scry 3.
 SVar:DBChapter3:DB$ Draw | Defined$ You | NumCards$ X | SpellDescription$ Draw cards equal to the number of rock permanents you control.
 SVar:X:Count$Valid Rock.YouCtrl
-Oracle:(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)\nI — Search your library for a rock card, put it onto the battlefield, then shuffle.\nII - Scry 3.\nIII — Draw cards equal to the number of rock permanents you control.
+Oracle:(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)\nI — Search your library for a rock card, put it onto the battlefield, then shuffle.\nII — Scry 3.\nIII — Draw cards equal to the number of rock permanents you control.
