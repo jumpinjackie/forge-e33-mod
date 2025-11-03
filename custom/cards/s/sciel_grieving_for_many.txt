@@ -10,4 +10,4 @@ A:AB$ PumpAll | Cost$ 1 B B T PayLife<X> | ValidTgts$ Opponent | ValidCards$ Cre
 SVar:DBGainLife:DB$ GainLife | LifeAmount$ 2
 SVar:DBCreateChroma:DB$ Token | TokenScript$ c_a_chroma | TokenOwner$ You | TokenAmount$ 1
 SVar:X:Count$xPaid
-Oracle:Each nonland card in your hand without foretell has foretell. Its foretell cost is equal to its mana cost reduced by {2}.\nTwilight Slash - {W}{B},{T}: Sciel deals 2 damage to target creature, you gain 2 life.\nIntervention - {W}{W},{T}: Untap target creature. Create a Chroma token.\nOur Sacrifice - {1}{B}{B}, {T}, Pay X life: Creatures target opponent controls get -X/-X until end of turn.
+Oracle:Each nonland card in your hand without foretell has foretell. Its foretell cost is equal to its mana cost reduced by {2}.\nWhenever you foretell a card, you gain 2 life.\nTwilight Slash - {W}{B},{T}: Sciel deals 2 damage to target creature, you gain 2 life.\nIntervention - {W}{W},{T}: Untap target creature. Create a Chroma token.\nOur Sacrifice - {1}{B}{B}, {T}, Pay X life: Creatures target opponent controls get -X/-X until end of turn.
