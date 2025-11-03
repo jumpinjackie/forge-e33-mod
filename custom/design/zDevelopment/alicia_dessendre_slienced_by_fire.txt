@@ -15,10 +15,13 @@ Sandfall Interactive
 [PT]
 2/2
 [Oracle]
-Activated abilities of Chroma, Lumina, Nevrons and Pictos cannot be activated.
+Each player who has cast a non-Painter, non-Gradient spell this turn can’t cast additional non-Painter, non-Gradient spells.
+Sacrifice two Chroma tokens: Your opponents can't cast spells this turn.
 (Melds with Maelle, Child of Lumiere.)
 [ForgeScript]
-S:Mode$ CantBeActivated | AffectedZone$ Battlefield | ValidCard$ Chroma,Lumina,Nevron,Pictos | ValidSA$ Activated | Description$ Activated abilities of Chroma, Lumina, Nevrons and Pictos cannot be activated.
+S:Mode$ CantBeCast | ValidCard$ Card.nonPainter+nonGradient | Caster$ Player | NumLimitEachTurn$ 1 | Description$ Each player who has cast a non-Painter, non-Gradient spell this turn can’t cast additional non-Painter, non-Gradient spells.
+A:AB$ Effect | Cost$ Sac<2/Chroma> | StaticAbilities$ STCantBeCast | AILogic$ BeginningOfOppTurn | SpellDescription$ Your opponents can't cast spells this turn.
+SVar:STCantBeCast:Mode$ CantBeCast | ValidCard$ Card | Caster$ Opponent | Description$ Your opponents can't cast spells.
 DeckHints:Name$Maelle, Child of Lumiere
 MeldPair:Maelle, Child of Lumiere
 AlternateMode:Meld
@@ -27,3 +30,4 @@ AlternateMode:Meld
  - The real gimmick is melding with Maelle, Child of Lumiere. Meld is 100% the mechanic to sell the transformation
     - 23/09/2025: Getting meld to work has been nothing but failure. I give up. Alicia will now be standalone.
  - 6/10/2025: Meld is back on the menu! Got it to work finally! Also extended null rod effect to Chroma and Lumina tokens.
+ - 3/11/2025: Exchanged abilities with human Alicia. Canonist exemption changed from Nevrons/Gradient to Painters/Gradient. Reduce Chroma sac activation cost from 3 to 2 tokens.
