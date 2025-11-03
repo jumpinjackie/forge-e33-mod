@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 3/11/2025 1:41:44 pm
+> Last generated: 3/11/2025 3:34:13 pm
 
 ## A Storm is Coming
 
@@ -1076,6 +1076,7 @@ When this creature dies, target opponent creates a Lumina token.
 2WB
 Legendary Creature - Human Expeditioner
 Each nonland card in your hand without foretell has foretell. Its foretell cost is equal to its mana cost reduced by {2}.
+Whenever you foretell a card, you gain 2 life.
 Twilight Slash - {W}{B},{T}: Sciel deals 2 damage to target creature, you gain 2 life.
 Intervention - {W}{W},{T}: Untap target creature. Create a Chroma token.
 Our Sacrifice - {1}{B}{B}, {T}, Pay X life: Creatures target opponent controls get -X/-X until end of turn.
