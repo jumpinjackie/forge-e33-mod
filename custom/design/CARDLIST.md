@@ -246,6 +246,8 @@ Obscur
 Offensive Switch
 Ono-Puncho
 Orphelin
+Paint Cage
+Paint Spike
 Painted Alicia, Eternally Suffering
 Painted Clea, the Mistress
 Painted Love
