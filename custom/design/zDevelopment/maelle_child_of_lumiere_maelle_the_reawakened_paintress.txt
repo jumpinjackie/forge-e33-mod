@@ -63,6 +63,8 @@ A:AB$ Token | Cost$ AddCounter<2/LOYALTY> | Planeswalker$ True | TokenAmount$ 1 
 A:AB$ Token | Cost$ AddCounter<1/LOYALTY> | Planeswalker$ True | TokenScript$ w_1_1_human_expeditioner | TokenAmount$ 2 | SpellDescription$ Create two 1/1 White Human Expeditioner tokens with "When this creature dies, create a Chroma token".
 A:AB$ ChangeZone | Cost$ SubCounter<3/LOYALTY> | Planeswalker$ True | ValidTgts$ Permanent.nonLand+nonHuman | TgtPrompt$ Select target nonland, non-Human permanent | Origin$ Battlefield | Destination$ Exile | SpellDescription$ Exile target nonland, non-Human permanent.
 A:AB$ ChangeZoneAll | Cost$ SubCounter<-8/LOYALTY> | Planeswalker$ True | ChangeType$ Human+YouCtrl | Origin$ Graveyard | Destination$ Battlefield | SpellDescription$ Return all Humans from your graveyard onto the battlefield.
+[Bugs]
+ - Planeswalker Maelle's ultimate does not work and spends all loyalty counters even if above the 8 counte requirement.
 [DesignNotes]
  - In the game, Maelle is Alicia painted over and reborn when she enters the canvas. After the ending of Act 2, Maelle is gommaged and returns with the memories of Alicia coming back and her paintress origins and powers re-discovered.
  - Mechanically, it's no-brainer we have to represent (Act 3) Maelle as a planeswalker and that we use the Meld mechanic to combine Alicia and (pre-Act 3) Maelle into this planeswalker.

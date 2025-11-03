@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 2/11/2025 1:49:25 pm
+> Last generated: 3/11/2025 12:48:21 pm
 
 ## Chroma Barrier
 
@@ -144,6 +144,21 @@ Please survive!
  - In the game, Healing Light is one of Lune's abilities that heals an ally.
  - Easy mechanical translation to life gain, but with a twist. It's symmetrical for a reason: As an enabler for The 67th Gommage.
     - Thus a card like this will not only help buy extra turns to get you to 6 mana to cast The 67th gommage, but also to get your opponent to 33 life or above.
+
+## Lumiere Assault
+
+```
+2WW
+Kindred Instant - Expeditioner
+Create two 1/1 white Human Expeditioner tokens with "When this creature dies, create a Chroma token."
+Flashback — Sacrifice two Chroma tokens.
+```
+
+[card implementation](../custom/cards/l/lumiere_assault.txt)
+
+### Design Notes
+
+ - Primarily designed to support the Crippling Tsunami Prison strategy
 
 ## Lumierian Apprentice
 

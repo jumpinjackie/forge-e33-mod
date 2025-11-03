@@ -29,7 +29,7 @@ From this list, card designs are spawned from it, which will eventually form the
 
 ## Card Name List
 
-Cards implemented: 207/286
+Cards implemented: 208/288
 
 [x] - Card is implementned or in development, [ ] - Card is not implemented
 
@@ -212,7 +212,7 @@ Cards implemented: 207/286
 [x] Lorieniso, Gestral Musician
 [x] Lost Gestral
 [x] Lumiere Aquafarm
-[ ] Lumiere Assault
+[x] Lumiere Assault
 [ ] Lumiere Mime
 [x] Lumiere Opera House
 [x] Lumiere, The Last Bastion
@@ -246,6 +246,8 @@ Cards implemented: 207/286
 [ ] Offensive Switch
 [ ] Ono-Puncho
 [ ] Orphelin
+[ ] Paint Cage
+[ ] Paint Spike
 [x] Painted Alicia, Eternally Suffering
 [x] Painted Clea, the Mistress
 [ ] Painted Love

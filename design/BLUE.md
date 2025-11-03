@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 2/11/2025 1:49:25 pm
+> Last generated: 3/11/2025 12:48:21 pm
 
 ## An Advantage!
 
@@ -453,10 +453,10 @@ The owner of target permanent puts it on the top or bottom of their library.
 ## Sky Break
 
 ```
-2UU
+3UU
 Kindred Sorcery - Expeditioner Gradient
 Tap all creatures your opponents control, then put a stun counter on each of those creatures.
-If {R} was spent on this spell, it deals 6 damage to each creature with a stun counter at the beginning of your next end step.
+If {R} was spent on this spell, it deals X damage to any target, where X is the number of creatures on the battlefield.
 If {W} was spent on this spell, exile each creature with a stun counter at the beginning of your next end step.
 If {G} was spent on this spell, you gain 2 life for each creature on the battlefield.
 ```
