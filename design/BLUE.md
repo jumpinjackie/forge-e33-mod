@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 3/11/2025 1:34:24 pm
+> Last generated: 3/11/2025 1:41:44 pm
 
 ## An Advantage!
 
@@ -525,6 +525,11 @@ If {G} was spent on this spell, you gain 3 life.
 
  - In the game this is one of Lune's abilities.
  - As the ability from the game has fire/ice elements, it naturally mechanically maps to a tap and stun on the ice side. For the fire side, I've decided to add a creature bolt ability behind a kicker cost.
+ - 4/11/2025: Rework the card:
+    - Remove kicker
+    - Increase cost to 2U with R and G spending bonuses
+    - R: Bolt an extra target
+    - G: Gain 3 life
 
 ## Verisimilitude
 

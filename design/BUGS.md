@@ -34,7 +34,3 @@ AI seems to have issues unlocking its own doors. Check if Keys to the House has 
 
 Can target any two cards in graveyard (the creature and non-creature restrictions are being ignored)
 
-## Thermal Transfer
-
-AI seems to be able to tap+stun two targets instead of tap+stun (0...1) target creature and bolt another (0...1) target creature
-

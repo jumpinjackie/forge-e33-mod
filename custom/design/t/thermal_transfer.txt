@@ -23,5 +23,8 @@ SVar:DBLifeGain:DB$ GainLife | LifeAmount$ 3 | SpellDescription$ If {G} was spen
 [DesignNotes]
  - In the game this is one of Lune's abilities.
  - As the ability from the game has fire/ice elements, it naturally mechanically maps to a tap and stun on the ice side. For the fire side, I've decided to add a creature bolt ability behind a kicker cost.
-[Bugs]
-AI seems to be able to tap+stun two targets instead of tap+stun (0...1) target creature and bolt another (0...1) target creature
+ - 4/11/2025: Rework the card:
+    - Remove kicker
+    - Increase cost to 2U with R and G spending bonuses
+    - R: Bolt an extra target
+    - G: Gain 3 life
