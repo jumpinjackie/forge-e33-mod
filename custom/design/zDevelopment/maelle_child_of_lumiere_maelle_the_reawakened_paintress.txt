@@ -52,19 +52,19 @@ Maelle
 [Loyalty]
 4
 [Oracle]
-Human spells you cast cost {1} less to cast.
+Human and Gradient spells you cast cost {1} less to cast.
 [+2]: Create a Chroma Token.
-[+1]: Return target Human from your graveyard or in exile and put it onto the battlefield tapped.
-[0]: Create two 1/1 White Human Expeditioner tokens with $EXPEDITIONER_TOKEN_TEXT.
+[+1]: Create two 1/1 White Human Expeditioner tokens with $EXPEDITIONER_TOKEN_TEXT.
 [-3]: Exile target nonland, non-Human permanent.
 [-8]: Return all Humans from your graveyard onto the battlefield.
 [ForgeScript]
-S:Mode$ ReduceCost | ValidCard$ Human | Type$ Spell | Activator$ You | Amount$ 1 | Description$ Human spells you cast cost {1} less to cast.
+S:Mode$ ReduceCost | ValidCard$ Human,Gradient | Type$ Spell | Activator$ You | Amount$ 1 | Description$ Human and Gradient spells you cast cost {1} less to cast.
 A:AB$ Token | Cost$ AddCounter<2/LOYALTY> | Planeswalker$ True | TokenAmount$ 1 | TokenScript$ c_a_chroma | TokenOwner$ You | SpellDescription$ Create a Chroma Token.
-A:AB$ ChangeZone | Cost$ AddCounter<1/LOYALTY> | Planeswalker$ True | Origin$ Exile,Graveyard | Destination$ Battlefield | TgtPrompt$ Select target card in exile or graveyard | ValidTgts$ Human.YouCtrl | Tapped$ True | SpellDescription$ Return target Human from your graveyard or in exile and put it onto the battlefield tapped.
-A:AB$ Token | Cost$ AddCounter<0/LOYALTY> | Planeswalker$ True | TokenScript$ w_1_1_human_expeditioner | TokenAmount$ 2 | SpellDescription$ Create two 1/1 White Human Expeditioner tokens with "When this creature dies, create a Chroma token".
+A:AB$ Token | Cost$ AddCounter<1/LOYALTY> | Planeswalker$ True | TokenScript$ w_1_1_human_expeditioner | TokenAmount$ 2 | SpellDescription$ Create two 1/1 White Human Expeditioner tokens with "When this creature dies, create a Chroma token".
 A:AB$ ChangeZone | Cost$ SubCounter<3/LOYALTY> | Planeswalker$ True | ValidTgts$ Permanent.nonLand+nonHuman | TgtPrompt$ Select target nonland, non-Human permanent | Origin$ Battlefield | Destination$ Exile | SpellDescription$ Exile target nonland, non-Human permanent.
 A:AB$ ChangeZoneAll | Cost$ SubCounter<-8/LOYALTY> | Planeswalker$ True | ChangeType$ Human+YouCtrl | Origin$ Graveyard | Destination$ Battlefield | SpellDescription$ Return all Humans from your graveyard onto the battlefield.
+[Bugs]
+ - Planeswalker Maelle's ultimate does not work and spends all loyalty counters even if above the 8 counte requirement.
 [DesignNotes]
  - In the game, Maelle is Alicia painted over and reborn when she enters the canvas. After the ending of Act 2, Maelle is gommaged and returns with the memories of Alicia coming back and her paintress origins and powers re-discovered.
  - Mechanically, it's no-brainer we have to represent (Act 3) Maelle as a planeswalker and that we use the Meld mechanic to combine Alicia and (pre-Act 3) Maelle into this planeswalker.
@@ -84,3 +84,4 @@ A:AB$ ChangeZoneAll | Cost$ SubCounter<-8/LOYALTY> | Planeswalker$ True | Change
       - Defensive Stance: Hexproof, First Strike and +0/+2
       - Virtuose Stance: Double Strike and +1/-1
    - How the stance is chosen is determined by something that's on flavor for any red card: Randomness by a six-sided die roll.
+ - 3/11/2025: Abilities changed due to CardConjurer constraints. Removed single human reanimation ability. The 2 expeditioner generation ability moved to +1 loyalty. Cost discount expanded to cover Gradient spells too.

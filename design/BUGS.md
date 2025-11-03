@@ -22,6 +22,10 @@ Chapter 3: Not getting lumina tokens for destroyed Nevron tokens
 
 I am being prompted for the mode before the enrage trigger goes on the stack, I kind of expected the prompt to happen on trigger resolution. And the trigger description on the stack is the full modal prompt and not the choice made. Not sure if it ultimately matters because it behaviourally works as expected.
 
+## Maelle, Child of Lumiere // Maelle, The Reawakened Paintress
+
+ - Planeswalker Maelle's ultimate does not work and spends all loyalty counters even if above the 8 counte requirement.
+
 ## Manor Door
 
 AI seems to have issues unlocking its own doors. Check if Keys to the House has the same issues.
@@ -29,8 +33,4 @@ AI seems to have issues unlocking its own doors. Check if Keys to the House has 
 ## Revitalization
 
 Can target any two cards in graveyard (the creature and non-creature restrictions are being ignored)
-
-## Thermal Transfer
-
-AI seems to be able to tap+stun two targets instead of tap+stun (0...1) target creature and bolt another (0...1) target creature
 

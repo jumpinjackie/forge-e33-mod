@@ -1,6 +1,6 @@
 Name:Monoco, Collector of Feet
 ManaCost:2 WG WG
-Types:Legendary Artifact Creature Gestral
+Types:Legendary Artifact Creature Gestral Expeditioner
 PT:4/4
 T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Nevron.!token | Execute$ TrigExile | TriggerZones$ Battlefield | TriggerDescription$ Whenever a nontoken Nevron creature dies, exile it with a Foot counter.
 SVar:TrigExile:DB$ ChangeZone |  Defined$ TriggeredNewCardLKICopy | Origin$ Graveyard | Destination$ Exile | SubAbility$ DBPutCounter | RememberChanged$ True

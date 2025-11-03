@@ -1,7 +1,7 @@
 [Name]
 Sky Break
 [ManaCost]
-2
+3
 U
 U
 [Types]
@@ -15,19 +15,20 @@ R
 Sandfall Interactive
 [Oracle]
 Tap all creatures your opponents control, then put a stun counter on each of those creatures.
-If {R} was spent on this spell, it deals 6 damage to each creature with a stun counter at the beginning of your next end step.
+If {R} was spent on this spell, it deals X damage to any target, where X is the number of creatures on the battlefield.
 If {W} was spent on this spell, exile each creature with a stun counter at the beginning of your next end step.
 If {G} was spent on this spell, you gain 2 life for each creature on the battlefield.
 [ForgeScript]
 A:SP$ TapAll | ValidCards$ Creature.OppCtrl | RememberTapped$ True | SubAbility$ DBStun
-SVar:DBStun:DB$ PutCounter | CounterType$ STUN | CounterNum$ 1 | Defined$ Remembered | SubAbility$ DBDelayedFire
-SVar:DBDelayedFire:DB$ DelayedTrigger | Mode$ Phase | Phase$ End of Turn | ValidPlayer$ You | Execute$ TrigFire | RememberObjects$ RememberedLKI | TriggerDescription$ CARDNAME deals 6 damage to each creature with a stun counter. | ConditionManaSpent$ R | SubAbility$ DBDelayedExile
+SVar:DBStun:DB$ PutCounter | CounterType$ STUN | CounterNum$ 1 | Defined$ Remembered | SubAbility$ DBFire
+SVar:DBFire:DB$ DealDamage | ValidTgts$ Any | TgtPrompt$ Select target to deal damage to. | NumDmg$ Y | SpellDescription$ If {R} was spent on this spell, ~ deals X damage to any target, where X is the number of creatures on the battlefield. | ConditionManaSpent$ R | SubAbility$ DBDelayedExile
 SVar:DBDelayedExile:DB$ DelayedTrigger | Mode$ Phase | Phase$ End of Turn | ValidPlayer$ You | Execute$ TrigExile | RememberObjects$ RememberedLKI | TriggerDescription$ Exile each creature with a stun counter | ConditionManaSpent$ W | SubAbility$ DBLifeGain
-SVar:DBLifeGain:DB$ GainLife | LifeAmount$ X | TriggerDescription$ You gain 2 life for each creature on the battlefield. | ConditionManaSpent$ G | SubAbility$ DBCleanup
+SVar:DBLifeGain:DB$ GainLife | LifeAmount$ X | SpellDescription$ If {G} was spent on this spell, You gain 2 life for each creature on the battlefield. | ConditionManaSpent$ G | SubAbility$ DBCleanup
 SVar:DBCleanup:DB$ Cleanup | ClearRemembered$ True
 SVar:TrigFire:DB$ DamageAll | ValidCards$ Creature.counters_GE1_STUN | NumDmg$ 6
 SVar:TrigExile:DB$ ChangeZoneAll | Origin$ Battlefield | Destination$ Exile | ChangeType$ Creature.counters_GE1_STUN
 SVar:X:Count$Valid Creature/Times.2
+SVar:Y:Count$Valid Creature
 [DesignNotes]
  - In the game, Sky Break is a level 3 gradient attack for Lune. It deals extreme damage to all enemies in a single hit with elemental damage type determined by the most prominent Stain that Lune currently has. Can also break enemmies, stunning them.
  - Mechanically, we've gone with the tap and stun as the base effect, with extra effects based on what colors of mana (stains) you spent on the spell.

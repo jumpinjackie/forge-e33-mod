@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 28/10/2025 12:32:11 PM
+> Last generated: 3/11/2025 1:41:44 pm
 
 ## A Storm is Coming
 
@@ -44,7 +44,8 @@ When this creature dies, target opponent creates a Lumina token.
 ```
 WR
 Legendary Creature - Human Painter
-Activated abilities of Chroma, Lumina, Nevrons and Pictos cannot be activated.
+Each player who has cast a non-Painter, non-Gradient spell this turn can’t cast additional non-Painter, non-Gradient spells.
+Sacrifice two Chroma tokens: Your opponents can't cast spells this turn.
 (Melds with Maelle, Child of Lumiere.)
 
 2/2
@@ -58,6 +59,7 @@ Activated abilities of Chroma, Lumina, Nevrons and Pictos cannot be activated.
  - The real gimmick is melding with Maelle, Child of Lumiere. Meld is 100% the mechanic to sell the transformation
     - 23/09/2025: Getting meld to work has been nothing but failure. I give up. Alicia will now be standalone.
  - 6/10/2025: Meld is back on the menu! Got it to work finally! Also extended null rod effect to Chroma and Lumina tokens.
+ - 3/11/2025: Exchanged abilities with human Alicia. Canonist exemption changed from Nevrons/Gradient to Painters/Gradient. Reduce Chroma sac activation cost from 3 to 2 tokens.
 
 ## Ballet
 
@@ -200,7 +202,7 @@ Enchantment
 Sacrifice a nontoken permanent you control: Create a Chroma token.
 Exile a nontoken permanent you control: Create two Chroma tokens.
 ---
-The body may be gone, but its essence can be repurposed for other means.
+The body may be gone but in this world, its chroma can be repurposed for other means.
 ```
 
 [card implementation](../custom/cards/c/chromatic_reclamation.txt)
@@ -230,6 +232,22 @@ Nevron spells you cast cost {1} less to cast.
     - -2: She can conjure up any Nevron
     - -4: She is known to have the unique ability of "painting over" other's creations. Modeled as exile with Nevron clone copy.
     - -10: She is a shrewd manipulator
+
+## Closure
+
+```
+1(W/B)
+Instant
+Exile all graveyards.
+Draw a card.
+```
+
+[card implementation](../custom/cards/c/closure.txt)
+
+### Design Notes
+
+ - Describes the moment in Verso's ending where he is truly laid to rest and the canvas is destroyed.
+ - Obvious graveyard exile effect to indicate the finality of this moment. What's dead is dead and should be laid to rest.
 
 ## Contortionniste
 
@@ -804,10 +822,9 @@ Melds into:
 ```
 
 Legendary Planeswalker - Maelle
-Human spells you cast cost {1} less to cast.
+Human and Gradient spells you cast cost {1} less to cast.
 [+2]: Create a Chroma Token.
-[+1]: Return target Human from your graveyard or in exile and put it onto the battlefield tapped.
-[0]: Create two 1/1 White Human Expeditioner tokens with "When this creature dies, create a Chroma token.".
+[+1]: Create two 1/1 White Human Expeditioner tokens with "When this creature dies, create a Chroma token.".
 [-3]: Exile target nonland, non-Human permanent.
 [-8]: Return all Humans from your graveyard onto the battlefield.
 ```
@@ -834,6 +851,7 @@ Human spells you cast cost {1} less to cast.
       - Defensive Stance: Hexproof, First Strike and +0/+2
       - Virtuose Stance: Double Strike and +1/-1
    - How the stance is chosen is determined by something that's on flavor for any red card: Randomness by a six-sided die roll.
+ - 3/11/2025: Abilities changed due to CardConjurer constraints. Removed single human reanimation ability. The 2 expeditioner generation ability moved to +1 loyalty. Cost discount expanded to cover Gradient spells too.
 
 ## Manor Entrance // Manor Hidden Room
 
@@ -949,7 +967,7 @@ When you unlock this door, it deals 3 damage to any target.
 
 ```
 2(W/G)(W/G)
-Legendary Artifact Creature - Gestral
+Legendary Artifact Creature - Gestral Expeditioner
 Whenever a nontoken Nevron creature dies, exile it with a Foot counter.
 My, what lovely feet! - Monoco has activated abilities of all Nevrons in exile with a Foot counter on them. Monoco has flying as long as an exiled Nevron creature with a Foot counter has flying. The same is true for first strike, double strike, deathtouch, haste, hexproof, indestructible, lifelink, meance, reach, trample and vigilance.
 {1}{G}, {T}: Monoco fights target creature.
@@ -994,7 +1012,7 @@ Sacrifice three Chroma tokens: Your opponents can't cast spells this turn.
 2UB
 Legendary Creature - Painter God
 Nevron spells you cast cost {2} less to cast.
-Nevron creatures you control get +2/+2
+Nevron creatures you control get +1/+1.
 At the beginning of your upkeep, create a 1/1 colorless Nevron creature token.
 Sacrifice a Nevron: Draw a card.
 
@@ -1014,6 +1032,7 @@ Sacrifice a Nevron: Draw a card.
  - NOTE: This is not the Clea Planeswalker so Francois does not have affinity towards it. Nothing in the actual game suggests Francois has any affection towards Clea's painted counterpart.
  - 13/10/2025: Removed Devoid.
  - 26/10/2025: Replaced tutoring with a Nevron sac to draw a card.
+ - 2/11/2025: Reduced Nevron buff from +2/+2 to +1/+1
 
 ## Rally the Expeditioners
 
@@ -1232,6 +1251,33 @@ When this creature dies, target opponent creates a Lumina token.
  - 21/10/2025: Added lord haste effect to match its character sheet.
  - 26/10/2025: Made it red/green in line with the buffs it gives out.
 
+## Verso, Who Guards Truth With Lies
+
+```
+1U(W/B)
+Legendary Creature - Human Expeditioner
+Whenever , Who Guards Truth With Lies untaps or deals damage, put a rank counter on him.
+Whenever , Who Guards Truth With Lies is dealt damage, remove all rank counters from him.
+Immortality — {1}{W}{B}: Return , Who Guards Truth With Lies from your graveyard to the battlefield tapped with a stun counter.
+Strike Storm — , Who Guards Truth With Lies has Double Strike as long has he has 3 or more rank counters.
+Marking Shot — {U/B}, {T}: , Who Guards Truth With Lies deals 1 damage to any target. If you have 3 or more rank counters, it deals 2 damage to any target instead.
+Phantom Stars — {4}{W}, {T}, remove X rank counters from , Who Guards Truth With Lies: , Who Guards Truth With Lies deals X damage to each creature your opponents controls.
+---
+Here we go
+
+3/3
+```
+
+[card implementation](../custom/cards/v/verso_who_guards_truth_with_lies.txt)
+
+### Design Notes
+
+ - The main gimmick we want to mechanically capture is his rank. Rank is gained from dealing damage and is lost on taking damage.
+ - Easy map to gain/loss of rank counters on dealing damage/taking damage. For game balance, Verso will lose all rank counters on a single hit.
+ - Resurrection ability because he's immortal.
+ - Added an assortment of buffs and abilities that are conditional on the number of rank counters.
+ - "Phantom Stars" ultimate is paid in rank counters for game balance purposes. In game, none of Verso's abilities cost him is rank.
+
 ## Void Meteors
 
 ```
@@ -1260,7 +1306,7 @@ Untap all creatures you control.
 Whoo
 1UB
 Instant
-Tap all creatures your opponents control. They don't untap during their controllers' next untap steps.
+Tap all creatures your opponents control, then put a stun counter on each of those creatures.
 
 Fuse (You may cast one or both halves of this card from your hand.)
 ```

@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 28/10/2025 12:32:11 PM
+> Last generated: 3/11/2025 1:41:44 pm
 
 ## Anti-Burn
 
@@ -374,7 +374,6 @@ Sacrifice a Chroma token: Put a charge counter on this creature. Activate this a
 5
 Legendary Artifact Creature - Gestral
 Other Gestral creatures you control get +2/+2
-{2}: Put a shield counter on target Gestral you control.
 Enrage — Whenever Golgra is dealt damage, choose one —
 • Put a Double strike counter on Golgra.
 • Put a Vigilance counter on Golgra.
@@ -606,6 +605,7 @@ You don't get to die yet.
 4
 Legendary Artifact Creature - Gestral
 When Sastro enters, put two 1/1 Gestral artifact creature tokens into play.
+{2}: Put a shield counter on target Gestral you control.
 Whenever another nontoken Gestral creature you control enters, create a Chroma token.
 
 2/2

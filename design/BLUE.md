@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 28/10/2025 12:32:11 PM
+> Last generated: 3/11/2025 1:41:44 pm
 
 ## An Advantage!
 
@@ -453,10 +453,10 @@ The owner of target permanent puts it on the top or bottom of their library.
 ## Sky Break
 
 ```
-2UU
+3UU
 Kindred Sorcery - Expeditioner Gradient
 Tap all creatures your opponents control, then put a stun counter on each of those creatures.
-If {R} was spent on this spell, it deals 6 damage to each creature with a stun counter at the beginning of your next end step.
+If {R} was spent on this spell, it deals X damage to any target, where X is the number of creatures on the battlefield.
 If {W} was spent on this spell, exile each creature with a stun counter at the beginning of your next end step.
 If {G} was spent on this spell, you gain 2 life for each creature on the battlefield.
 ```
@@ -498,7 +498,7 @@ Create a Lumina token.
 Enchantment - Saga
 (As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
 I — Search your library for a rock card, put it onto the battlefield, then shuffle.
-II - Scry 3.
+II — Scry 3.
 III — Draw cards equal to the number of rock permanents you control.
 ```
 
@@ -512,11 +512,11 @@ III — Draw cards equal to the number of rock permanents you control.
 ## Thermal Transfer
 
 ```
-1U
+2U
 Kindred Instant - Expeditioner
-Kicker {R} (You may pay an additional {R} as you cast this spell.)
 Tap target creature and put a stun counter on it.
-If this spell was kicked, this spell deals 3 damage to another target creature.
+If {R} was spent on this spell, it deals 3 damage to any target.
+If {G} was spent on this spell, you gain 3 life.
 ```
 
 [card implementation](../custom/cards/t/thermal_transfer.txt)
@@ -525,6 +525,11 @@ If this spell was kicked, this spell deals 3 damage to another target creature.
 
  - In the game this is one of Lune's abilities.
  - As the ability from the game has fire/ice elements, it naturally mechanically maps to a tap and stun on the ice side. For the fire side, I've decided to add a creature bolt ability behind a kicker cost.
+ - 4/11/2025: Rework the card:
+    - Remove kicker
+    - Increase cost to 2U with R and G spending bonuses
+    - R: Bolt an extra target
+    - G: Gain 3 life
 
 ## Verisimilitude
 

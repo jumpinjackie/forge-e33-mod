@@ -1,5 +1,6 @@
 Name:Massacre at Dark Shores
 ManaCost:1 B B
 Types:Sorcery
+K:Cycling:2
 A:SP$ PumpAll | ValidCards$ Creature.nonNevron+nonPainter | NumAtt$ -2 | NumDef$ -2 | IsCurse$ True | SpellDescription$ All non-Nevron, non-Painter creatures get -2/-2 until end of turn.
-Oracle:All non-Nevron, non-Painter creatures get -2/-2 until end of turn.
+Oracle:All non-Nevron, non-Painter creatures get -2/-2 until end of turn.\nCycling {2} ({2}, Discard this card: Draw a card.)

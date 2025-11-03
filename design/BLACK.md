@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 28/10/2025 12:32:11 PM
+> Last generated: 3/11/2025 1:41:44 pm
 
 ## Chapelier
 
@@ -118,6 +118,7 @@ What is this?!
 1BB
 Sorcery
 All non-Nevron, non-Painter creatures get -2/-2 until end of turn.
+Cycling {2} ({2}, Discard this card: Draw a card.)
 ---
 You- You're old. How did you-
 How did you survive the Gommage?
@@ -131,6 +132,7 @@ Which expedition are you fr-
  - This symbolizes the moment after the prologue when Expedition 33 lands at Dark Shores, encounter Painted Renoir and proceed to have all but 5 members be wiped out by P.Renoir and his cohort of Nevrons.
  - Another mini-sweeper to give Nevron tribal decks some fight against "go wide" strategies.
  - 7/10/2025: Added non-Painter clause because this event was a joint Nevon/Painter production.
+ - 3/11/2025: Added cycling 2 so it at least has some marginal value in draft/limited if you have this but no supporting strategy.
 
 ## Noir
 

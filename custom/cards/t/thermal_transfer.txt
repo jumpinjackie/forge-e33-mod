@@ -1,8 +1,8 @@
 Name:Thermal Transfer
-ManaCost:1 U
+ManaCost:2 U
 Types:Kindred Instant Expeditioner
-K:Kicker:R
-A:SP$ Tap | ValidTgts$ Creature | TgtPrompt$ Select target creature | SubAbility$ DBPutCounter | SpellDescription$ Tap target creature. Put a stun counter on it.
-SVar:DBPutCounter:DB$ PutCounter | Defined$ Targeted | CounterType$ Stun | CounterNum$ 1 | SubAbility$ DBDamage
-SVar:DBDamage:DB$ DealDamage | ValidTgts$ Creature.Other | TgtPrompt$ Select another target creature | NumDmg$ 3 | Condition$ Kicked | ConditionDescription$ If this spell was kicked, this spell deals 3 damage to another target creature.
-Oracle:Kicker {R} (You may pay an additional {R} as you cast this spell.)\nTap target creature and put a stun counter on it.\nIf this spell was kicked, this spell deals 3 damage to another target creature.
+A:SP$ Tap | ValidTgts$ Creature | TgtPrompt$ Select target creature to tap | SubAbility$ DBPutCounter | SpellDescription$ Tap target creature. Put a stun counter on it.
+SVar:DBPutCounter:DB$ PutCounter | Defined$ Targeted | CounterType$ Stun | CounterNum$ 1 | SubAbility$ DBFire
+SVar:DBFire:DB$ DealDamage | ValidTgts$ Any | TgtPrompt$ Select target to deal 3 damage to. | NumDmg$ 3 | ConditionManaSpent$ R | SubAbility$ DBLifeGain | SpellDescription$ If {R} was spent on this spell, CARDNAME deals 3 damage to any target.
+SVar:DBLifeGain:DB$ GainLife | LifeAmount$ 3 | SpellDescription$ If {G} was spent on this spell, you gain 3 life. | ConditionManaSpent$ G
+Oracle:Tap target creature and put a stun counter on it.\nIf {R} was spent on this spell, it deals 3 damage to any target.\nIf {G} was spent on this spell, you gain 3 life.

@@ -80,6 +80,7 @@ Clair
 Clair Obscur
 Clea Dessendre, Seeking Vengeance
 Clea's Chromatic Mastery
+Closure
 Crippling Tsunami
 Cruler
 Crushing Cavern
@@ -245,6 +246,8 @@ Obscur
 Offensive Switch
 Ono-Puncho
 Orphelin
+Paint Cage
+Paint Spike
 Painted Alicia, Eternally Suffering
 Painted Clea, the Mistress
 Painted Love

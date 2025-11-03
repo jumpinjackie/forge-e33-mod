@@ -9,6 +9,7 @@ Legendary
 Artifact
 Creature
 Gestral
+Expeditioner
 [Rarity]
 R
 [Artist]

@@ -1,0 +1,47 @@
+[Name]
+Verso, Who Guards Truth With Lies
+[ManaCost]
+1
+U
+WB
+[Types]
+Legendary
+Creature
+Human
+Expeditioner
+[PT]
+3/3
+[Rarity]
+R
+[Oracle]
+Whenever ~ untaps or deals damage, put a rank counter on him.
+Whenever ~ is dealt damage, remove all rank counters from him.
+Immortality — {1}{W}{B}: Return ~ from your graveyard to the battlefield tapped with a stun counter.
+Strike Storm — ~ has Double Strike as long has he has 3 or more rank counters.
+Marking Shot — {U/B}, {T}: ~ deals 1 damage to any target. If you have 3 or more rank counters, it deals 2 damage to any target instead.
+Phantom Stars — {4}{W}, {T}, remove X rank counters from ~: ~ deals X damage to each creature your opponents controls.
+[AbilityWords]
+Immortality
+Marking Shot
+Strike Storm
+Phantom Stars
+[FlavorText]
+Here we go
+[ForgeScript]
+T:Mode$ Untaps | ValidCard$ Card.Self | TriggerZones$ Battlefield | Execute$ DBRank | TriggerDescription$ Whenever ~ becomes untapped, put a rank counter on him.
+T:Mode$ DamageDealtOnce | ValidSource$ Card.Self | Execute$ DBRank | TriggerZones$ Battlefield | TriggerDescription$ Whenever ~ deals damage, put a rank counter on him..
+T:Mode$ DamageDoneOnce | Execute$ DBUnrank | ValidTarget$ Card.Self | TriggerZones$ Battlefield | TriggerDescription$ Whenever ~ is dealt damage, remove all rank counters from him.
+SVar:DBRank:DB$ PutCounter | Defined$ Self | CounterType$ RANK | CounterNum$ 1 | SpellDescription$ Put a rank counter on ~.
+SVar:DBUnrank:DB$ RemoveCounter | CounterType$ RANK | CounterNum$ All | Defined$ Self | SpellDescription$ Remove all rank counters from ~.
+A:AB$ ChangeZone | Cost$ 1 W B | Origin$ Graveyard | Destination$ Battlefield | Tapped$ True | WithCountersType$ STUN | ActivationZone$ Graveyard | SpellDescription$ Return ~ from your graveyard to the battlefield tapped with a stun counter.
+S:Mode$ Continuous | Affected$ Card.Self | AddKeyword$ Double Strike | IsPresent$ Card.Self+counters_GE3_RANK  | Description$ ~ has Double Strike as long has he has 3 or more rank counters.
+A:AB$ DealDamage | Cost$ UB T | ValidTgts$ Any | NumDmg$ 1 | SpellDescription$ ~ deals 1 damage to any target.
+A:AB$ DealDamage | Cost$ UB T | ValidTgts$ Any | NumDmg$ 2 | IsPresent$ Card.Self+counters_GE3_RANK | SpellDescription$ ~ deals 2 damage to any target.
+A:AB$ DamageAll | Cost$ 4 W T SubCounter<X/RANK> | NumDmg$ X | ValidCards$ Creature.OppCtrl | ValidDescription$ each creature your opponents control. | SpellDescription$ ~ deals X damage to each creature your opponents controls, where X is the number of rank counters on him.
+SVar:X:Count$xPaid
+[DesignNotes]
+ - The main gimmick we want to mechanically capture is his rank. Rank is gained from dealing damage and is lost on taking damage.
+ - Easy map to gain/loss of rank counters on dealing damage/taking damage. For game balance, Verso will lose all rank counters on a single hit.
+ - Resurrection ability because he's immortal.
+ - Added an assortment of buffs and abilities that are conditional on the number of rank counters.
+ - "Phantom Stars" ultimate is paid in rank counters for game balance purposes. In game, none of Verso's abilities cost him is rank.

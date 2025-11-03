@@ -1,7 +1,7 @@
 [Name]
 Thermal Transfer
 [ManaCost]
-1
+2
 U
 [Types]
 Kindred
@@ -12,16 +12,19 @@ U
 [Artist]
 Sandfall Interactive
 [Oracle]
-Kicker {R} (You may pay an additional {R} as you cast this spell.)
 Tap target creature and put a stun counter on it.
-If this spell was kicked, this spell deals 3 damage to another target creature.
+If {R} was spent on this spell, it deals 3 damage to any target.
+If {G} was spent on this spell, you gain 3 life.
 [ForgeScript]
-K:Kicker:R
-A:SP$ Tap | ValidTgts$ Creature | TgtPrompt$ Select target creature | SubAbility$ DBPutCounter | SpellDescription$ Tap target creature. Put a stun counter on it.
-SVar:DBPutCounter:DB$ PutCounter | Defined$ Targeted | CounterType$ Stun | CounterNum$ 1 | SubAbility$ DBDamage
-SVar:DBDamage:DB$ DealDamage | ValidTgts$ Creature.Other | TgtPrompt$ Select another target creature | NumDmg$ 3 | Condition$ Kicked | ConditionDescription$ If this spell was kicked, this spell deals 3 damage to another target creature.
+A:SP$ Tap | ValidTgts$ Creature | TgtPrompt$ Select target creature to tap | SubAbility$ DBPutCounter | SpellDescription$ Tap target creature. Put a stun counter on it.
+SVar:DBPutCounter:DB$ PutCounter | Defined$ Targeted | CounterType$ Stun | CounterNum$ 1 | SubAbility$ DBFire
+SVar:DBFire:DB$ DealDamage | ValidTgts$ Any | TgtPrompt$ Select target to deal 3 damage to. | NumDmg$ 3 | ConditionManaSpent$ R | SubAbility$ DBLifeGain | SpellDescription$ If {R} was spent on this spell, ~ deals 3 damage to any target.
+SVar:DBLifeGain:DB$ GainLife | LifeAmount$ 3 | SpellDescription$ If {G} was spent on this spell, you gain 3 life. | ConditionManaSpent$ G
 [DesignNotes]
  - In the game this is one of Lune's abilities.
  - As the ability from the game has fire/ice elements, it naturally mechanically maps to a tap and stun on the ice side. For the fire side, I've decided to add a creature bolt ability behind a kicker cost.
-[Bugs]
-AI seems to be able to tap+stun two targets instead of tap+stun (0...1) target creature and bolt another (0...1) target creature
+ - 4/11/2025: Rework the card:
+    - Remove kicker
+    - Increase cost to 2U with R and G spending bonuses
+    - R: Bolt an extra target
+    - G: Gain 3 life
