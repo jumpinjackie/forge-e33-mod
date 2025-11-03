@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 3/11/2025 12:48:21 pm
+> Last generated: 3/11/2025 1:34:24 pm
 
 ## An Advantage!
 
@@ -512,11 +512,11 @@ III — Draw cards equal to the number of rock permanents you control.
 ## Thermal Transfer
 
 ```
-1U
+2U
 Kindred Instant - Expeditioner
-Kicker {R} (You may pay an additional {R} as you cast this spell.)
 Tap target creature and put a stun counter on it.
-If this spell was kicked, this spell deals 3 damage to another target creature.
+If {R} was spent on this spell, it deals 3 damage to any target.
+If {G} was spent on this spell, you gain 3 life.
 ```
 
 [card implementation](../custom/cards/t/thermal_transfer.txt)

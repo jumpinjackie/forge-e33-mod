@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 3/11/2025 12:48:21 pm
+> Last generated: 3/11/2025 1:34:24 pm
 
 ## A Storm is Coming
 
@@ -1306,7 +1306,7 @@ Untap all creatures you control.
 Whoo
 1UB
 Instant
-Tap all creatures your opponents control. They don't untap during their controllers' next untap steps.
+Tap all creatures your opponents control, then put a stun counter on each of those creatures.
 
 Fuse (You may cast one or both halves of this card from your hand.)
 ```
