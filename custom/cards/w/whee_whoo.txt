@@ -11,6 +11,7 @@ ALTERNATE
 Name:Whoo
 ManaCost:1 U B
 Types:Instant
-A:SP$ TapAll | ValidCards$ Creature.OppCtrl | SubAbility$ DBPumpAll | SpellDescription$ Tap all creatures your opponents control.
-SVar:DBPump:DB$ PumpAll | Defined$ Targeted | KW$ HIDDEN This card doesn't untap during your next untap step. | Duration$ Permanent | StackDescription$ SpellDescription | SpellDescription$ They don't untap during their controllers' next untap steps.
-Oracle:Tap all creatures your opponents control. They don't untap during their controllers' next untap steps.
+A:SP$ TapAll | ValidCards$ Creature.OppCtrl | RememberTapped$ True | SubAbility$ DBStun | SpellDescription$ Tap all creatures your opponents control, then put a stun counter on each of those creatures.
+SVar:DBStun:DB$ PutCounter | CounterType$ STUN | CounterNum$ 1 | Defined$ Remembered | SubAbility$ DBCleanup
+SVar:DBCleanup:DB$ Cleanup | ClearRemembered$ True
+Oracle:Tap all creatures your opponents control, then put a stun counter on each of those creatures.
