@@ -3,7 +3,7 @@ ManaCost:3 U U
 Types:Kindred Sorcery Expeditioner Gradient
 A:SP$ TapAll | ValidCards$ Creature.OppCtrl | RememberTapped$ True | SubAbility$ DBStun
 SVar:DBStun:DB$ PutCounter | CounterType$ STUN | CounterNum$ 1 | Defined$ Remembered | SubAbility$ DBFire
-SVar:DBFire:DB$ DealDamage | ValidTgts$ Any | NumDmg$ Y | SpellDescription$ If {R} was spent on this spell, CARDNAME deals X damage to any target, where X is the number of creatures on the battlefield. | ConditionManaSpent$ R | SubAbility$ DBDelayedExile
+SVar:DBFire:DB$ DealDamage | ValidTgts$ Any | TgtPrompt$ Select target to deal damage to. | NumDmg$ Y | SpellDescription$ If {R} was spent on this spell, CARDNAME deals X damage to any target, where X is the number of creatures on the battlefield. | ConditionManaSpent$ R | SubAbility$ DBDelayedExile
 SVar:DBDelayedExile:DB$ DelayedTrigger | Mode$ Phase | Phase$ End of Turn | ValidPlayer$ You | Execute$ TrigExile | RememberObjects$ RememberedLKI | TriggerDescription$ Exile each creature with a stun counter | ConditionManaSpent$ W | SubAbility$ DBLifeGain
 SVar:DBLifeGain:DB$ GainLife | LifeAmount$ X | SpellDescription$ If {G} was spent on this spell, You gain 2 life for each creature on the battlefield. | ConditionManaSpent$ G | SubAbility$ DBCleanup
 SVar:DBCleanup:DB$ Cleanup | ClearRemembered$ True
