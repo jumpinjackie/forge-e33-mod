@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 4/11/2025 1:34:23 pm
+> Last generated: 4/11/2025 2:03:01 pm
 
 ## Anti-Burn
 
@@ -154,6 +154,9 @@ Artifact - Expeditioner Vehicle
 Trample.
 Whenever this vehicle blocks or becomes blocked by a blue creature, destroy this vehicle at end of combat.
 Crew 4
+---
+Apparently that was where people went on dates, you know.
+- Sciel
 
 6/6
 ```
