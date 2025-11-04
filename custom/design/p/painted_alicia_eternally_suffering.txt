@@ -15,14 +15,14 @@ Sandfall Interactive
 [PT]
 2/2
 [Oracle]
-Activated abilities of Chroma, Lumina, Nevrons and Pictos cannot be activated.
+Activated abilities of Expeditioners, Chroma, Lumina and Pictos cannot be activated.
 [FlavorText]
 Her silence is deafening.
 [ForgeScript]
-S:Mode$ CantBeActivated | AffectedZone$ Battlefield | ValidCard$ Chroma,Lumina,Nevron,Pictos | ValidSA$ Activated | Description$ Activated abilities of Chroma, Lumina, Nevrons and Pictos cannot be activated.
+S:Mode$ CantBeActivated | AffectedZone$ Battlefield | ValidCard$ Expeditioner,Chroma,Lumina,Pictos | ValidSA$ Activated | Description$ Activated abilities of Chroma, Lumina, Nevrons and Pictos cannot be activated.
 [DesignNotes]
  - In the game, Painted Alicia is the painted counterpart of Alicia
  - Thematically gone with another variant of silence effects to mirror her human counterpart.
     - In this case, an Ethersworn Canonist with Nevron/Painter bias.
     - And a Silence effect for the cost of 3 chroma tokens.
- - 4/11/2025: Exchanged abiltiies with human Alicia.
+ - 4/11/2025: Exchanged abiltiies with human Alicia. Replaced Nevrons with Expeditioners for the null rod effect.
