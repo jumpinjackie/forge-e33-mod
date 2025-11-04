@@ -15,17 +15,16 @@ Sandfall Interactive
 4/4
 [Oracle]
 Ward 2.
-~ enters with a shield counter.
+~ enters with a shield counter. $SHIELD_REMINDER_TEXT
 Gathers dark chroma — {4}{B}, {T}: Tap up to two target creatures.
 Summons dark spear — {2}{B}, {T}: ~ deals 2 damage to target creature. You gain 2 life.
-When this creature dies, target opponent creates a Lumina token.
+$NEVRON_DEATH_ABILITY_TEXT
 [ForgeScript]
 K:Ward:2
 K:etbCounter:SHIELD:1
 A:AB$ Tap | Cost$ 4 B T | ValidTgts$ Creature | TgtPrompt$ Select up to two target creatures | TargetMin$ 0 | TargetMax$ 2 | SpellDescription$ Tap up to two target creatures.
 A:AB$ DealDamage | Cost$ 2 B T | ValidTgts$ Creature | TgtPrompt$ Select target creature | NumDmg$ 2 | SubAbility$ DBGainLife | SpellDescription$ ~ deals 2 damage to target creature. You gain 2 life.
-T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Card.Self | Execute$ TrigToken | TriggerDescription$ When this creature dies, target opponent creates a Lumina token.
-SVar:TrigToken:DB$ Token | TokenAmount$ 1 | ValidTgts$ Opponent | TokenOwner$ Targeted | TokenScript$ c_a_lumina
+$NEVRON_DEATH_ABILITY
 [DesignNotes]
  - In the game, Noirs are high-tier tanky Nevrons found on the Dark Shores and are an excellent source of XP farming in the late game.
  - Placeholder vanilla Nevron. Abilities TBD.
