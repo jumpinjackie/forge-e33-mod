@@ -56,6 +56,8 @@ public class CardFaceDesign
 
     public string? ArtNotes { get; set; }
 
+    public string[]? AbilityWords { get; set; }
+
     internal void Apply(string propertyName, IEnumerable<string> buffer)
     {
         switch (propertyName)
@@ -136,6 +138,9 @@ public class CardFaceDesign
             case nameof(Loyalty):
                 Loyalty = string.Join(" ", buffer);
                 break;
+            case nameof(AbilityWords):
+                AbilityWords = buffer.ToArray();
+                break;
         }
     }
 
@@ -194,6 +199,28 @@ public class CardFaceDesign
         sb.Replace("$NEVRON_DEATH_ABILITY_TEXT", "When this creature dies, target opponent creates a Lumina token.");
         sb.Replace("$EXPEDITIONER_DEATH_ABILITY_TEXT", "When this creature dies, create a Chroma token.");
         return sb.ToString();
+    }
+
+    internal string GetCardConjurerOracleText()
+    {
+        var text = new StringBuilder(this.GetOracleText());
+        
+        // Italicize all ability words
+        if (this.AbilityWords is not null)
+        {
+            foreach (var aw in this.AbilityWords)
+            {
+                text.Replace(aw, "{i}" + aw + "{/i}");
+            }
+        }
+        
+        // Append flavor text afterwards only if present
+        if (this.FlavorTextFull is not null)
+        {
+            text.Append("{flavor}" + this.FlavorTextFull);
+        }
+
+        return text.ToString();
     }
 
     internal string GetOracleText()
@@ -1129,6 +1156,280 @@ public class GenAllCommand : BaseCommand
     }
 }
 
+[CliCommand(Name = "cardconjurer", Description = "Validate CardConjurer config against current design")]
+public class CardConjurerValidateCommand : BaseCommand
+{
+    [CliOption(Required = true, Description = "The base content directory")]
+    public override required DirectoryInfo BaseDirectory { get; set; }
+
+    protected override async Task<int> ExecuteAsync(
+        CliContext context,
+        TextWriter stdout,
+        TextWriter stderr
+    )
+    {
+        var subDirs = this.BaseDirectory.GetDirectories();
+        var designDir = subDirs.FirstOrDefault(d => d.Name == "design");
+        if (designDir is null)
+            throw new InvalidOperationException("Design dir not found");
+
+        var ccConfigPath = Path.Combine(designDir.FullName, "saved-cards.cardconjurer");
+        if (!File.Exists(ccConfigPath))
+            throw new InvalidOperationException("Could not find saved-cards.cardconjurer");
+
+        // Read cards once for all operations
+        var cards = await ReadCardDesignsAsync(stdout, stderr);
+
+        // Read current cardconjurer config
+        var conf = System.Text.Json.JsonDocument.Parse(File.ReadAllText(ccConfigPath));
+        int totalCcCards = conf.RootElement.EnumerateArray().Count();
+        
+        int totalCards = 0;
+        int matchingCards = 0;
+        int mismatchedCards = 0;
+        int missingCards = 0;
+        int invalidCards = 0;
+        int splitCards = 0;
+
+        foreach (var (cardName, design) in cards)
+        {
+            totalCards++;
+            
+            // Skip split/fuse cards as they have different validation requirements
+            if (design.FaceType == CardFaceType.SplitRoom || design.FaceType == CardFaceType.SplitFuse)
+            {
+                await stdout.WriteLineAsync($"INFO: Skipping split/fuse card: {cardName}");
+                splitCards++;
+                continue;
+            }
+
+            // Find matching CardConjurer design
+            var ccDesign = conf.RootElement.EnumerateArray()
+                .FirstOrDefault(el => el.GetProperty("key").GetString() == cardName);
+
+            if (ccDesign.ValueKind == System.Text.Json.JsonValueKind.Undefined)
+            {
+                await stdout.WriteLineAsync($"WARNING: No CardConjurer design found for {cardName}");
+                missingCards++;
+                continue;
+            }
+
+            bool hasWarnings = false;
+
+            // Try to get data and text properties
+            if (!ccDesign.TryGetProperty("data", out var data) || !data.TryGetProperty("text", out var text))
+            {
+                await stdout.WriteLineAsync($"WARNING: {cardName} - Missing data or text properties in CardConjurer design");
+                invalidCards++;
+                continue;
+            }
+
+            // Check mana cost
+            if (design.FrontFull?.ManaCost != null && 
+                text.TryGetProperty("mana", out var manaObj) && 
+                manaObj.TryGetProperty("text", out var manaText))
+            {
+                var ccManaCost = manaText.GetString();
+                var designManaCost = string.Join(" ", design.FrontFull.ManaCost);
+                if (designManaCost == "no cost")
+                    designManaCost = "";
+                if (ccManaCost != designManaCost)
+                {
+                    await stdout.WriteLineAsync($"WARNING: Mismatches found in card: {cardName}");
+                    await stdout.WriteLineAsync($"  Mana cost:");
+                    await stdout.WriteLineAsync($"    CC: {ccManaCost}");
+                    await stdout.WriteLineAsync($"    DF: {designManaCost}");
+                    await stdout.WriteLineAsync(GetDifferenceMarker(ccManaCost, designManaCost));
+                    hasWarnings = true;
+                }
+            }
+
+            // Check title
+            if (text.TryGetProperty("title", out var titleObj) && 
+                titleObj.TryGetProperty("text", out var titleText))
+            {
+                var ccTitle = titleText.GetString();
+                if (ccTitle != cardName)
+                {
+                    if (!hasWarnings)
+                        await stdout.WriteLineAsync($"WARNING: Mismatches found in card: {cardName}");
+                    await stdout.WriteLineAsync($"  Title:");
+                    await stdout.WriteLineAsync($"    CC: {ccTitle}");
+                    await stdout.WriteLineAsync($"    DF: {cardName}");
+                    await stdout.WriteLineAsync(GetDifferenceMarker(ccTitle, cardName));
+                    hasWarnings = true;
+                }
+            }
+
+            // Check type line
+            if (design.FrontFull?.TypeLine != null && 
+                text.TryGetProperty("type", out var typeObj) && 
+                typeObj.TryGetProperty("text", out var typeText))
+            {
+                var ccType = typeText.GetString();
+                if (ccType != design.FrontFull.TypeLine)
+                {
+                    if (!hasWarnings)
+                        await stdout.WriteLineAsync($"WARNING: Mismatches found in card: {cardName}");
+                    await stdout.WriteLineAsync($"  Type line:");
+                    await stdout.WriteLineAsync($"    CC: {ccType}");
+                    await stdout.WriteLineAsync($"    DF: {design.FrontFull.TypeLine}");
+                    await stdout.WriteLineAsync(GetDifferenceMarker(ccType, design.FrontFull.TypeLine));
+                    hasWarnings = true;
+                }
+            }
+
+            // Check rules text
+            if (design.FrontFull?.Oracle != null && 
+                text.TryGetProperty("rules", out var rulesObj) && 
+                rulesObj.TryGetProperty("text", out var rulesText))
+            {
+                // Normalize both sides to ASCII, preserving em dashes
+                static string NormalizeToAscii(string text) => text
+                    .Replace("\u2018", "'") // LEFT SINGLE QUOTATION MARK
+                    .Replace("\u2019", "'") // RIGHT SINGLE QUOTATION MARK
+                    .Replace("\u201C", "\"") // LEFT DOUBLE QUOTATION MARK
+                    .Replace("\u201D", "\"") // RIGHT DOUBLE QUOTATION MARK
+                    .Replace("\u2013", "-") // EN DASH
+                    ; // Keep em dashes (\u2014) in source
+
+                var ccRules = NormalizeToAscii(rulesText.GetString() ?? "");
+                var designRules = NormalizeToAscii(design.FrontFull.GetCardConjurerOracleText());
+                
+                if (ccRules != designRules)
+                {
+                    if (!hasWarnings)
+                        await stdout.WriteLineAsync($"WARNING: Mismatches found in card: {cardName}");
+                    await stdout.WriteLineAsync($"  Rules text:");
+                    await stdout.WriteLineAsync($"    CC: {ccRules}");
+                    await stdout.WriteLineAsync($"    DF: {designRules}");
+                    await stdout.WriteLineAsync(GetDifferenceMarker(ccRules, designRules));
+                    hasWarnings = true;
+                }
+            }
+
+            // Check P/T
+            if (design.FrontFull?.PT != null && 
+                text.TryGetProperty("pt", out var ptObj) && 
+                ptObj.TryGetProperty("text", out var ptText))
+            {
+                var ccPT = ptText.GetString() ?? "";
+                var designPT = design.FrontFull.PT ?? "";
+                if (ccPT != designPT)
+                {
+                    if (!hasWarnings)
+                        await stdout.WriteLineAsync($"WARNING: Mismatches found in card: {cardName}");
+                    await stdout.WriteLineAsync($"  Power/Toughness:");
+                    await stdout.WriteLineAsync($"    CC: {ccPT}");
+                    await stdout.WriteLineAsync($"    DF: {designPT}");
+                    await stdout.WriteLineAsync(GetDifferenceMarker(ccPT, designPT));
+                    hasWarnings = true;
+                }
+            }
+
+            // Helper method to show where strings differ
+            static string GetDifferenceMarker(string str1, string str2)
+            {
+                var marker = new StringBuilder();
+                var diffDetails = new StringBuilder();
+                
+                // Normalize line endings to \n and handle escaped characters
+                string NormalizeString(string s) => s
+                    .Replace("\r\n", "\n")
+                    .Replace("\r", "\n");
+                
+                str1 = NormalizeString(str1);
+                str2 = NormalizeString(str2);
+                
+                // Helper to get unicode info for a character
+                static string GetUnicodeInfo(char c) => c > 127 ? $"U+{(int)c:X4}" : c.ToString();
+                
+                // Split into lines
+                var lines1 = str1.Split('\n');
+                var lines2 = str2.Split('\n');
+                
+                if (lines1.Length == 1 && lines2.Length == 1)
+                {
+                    int minLength = Math.Min(str1.Length, str2.Length);
+                    var specialChars = new List<(int pos, char c1, char c2)>();
+                    
+                    // Find special character differences
+                    for (int i = 0; i < minLength; i++)
+                    {
+                        if (str1[i] != str2[i] && (str1[i] > 127 || str2[i] > 127))
+                            specialChars.Add((i, str1[i], str2[i]));
+                    }
+                    
+                    if (specialChars.Count > 0)
+                    {
+                        diffDetails.Append("              Special chars: ");
+                        diffDetails.AppendJoin(", ", specialChars.Select(x => 
+                            $"pos {x.pos}: '{x.c1}' ({GetUnicodeInfo(x.c1)}) vs '{x.c2}' ({GetUnicodeInfo(x.c2)})"));
+                    }
+                }
+                else
+                {
+                    var specialChars = new List<(int line, int pos, char c1, char c2)>();
+                    
+                    // Compare each line
+                    for (int i = 0; i < Math.Min(lines1.Length, lines2.Length); i++)
+                    {
+                        var line1 = lines1[i];
+                        var line2 = lines2[i];
+                        
+                        for (int j = 0; j < Math.Min(line1.Length, line2.Length); j++)
+                        {
+                            if (line1[j] != line2[j] && (line1[j] > 127 || line2[j] > 127))
+                                specialChars.Add((i + 1, j, line1[j], line2[j]));
+                        }
+                    }
+                    
+                    if (specialChars.Count > 0)
+                    {
+                        diffDetails.Append("              Special chars: ");
+                        diffDetails.AppendJoin(", ", specialChars.Select(x => 
+                            $"line {x.line} pos {x.pos}: '{x.c1}' ({GetUnicodeInfo(x.c1)}) vs '{x.c2}' ({GetUnicodeInfo(x.c2)})"));
+                    }
+                }
+                
+                // Only show details if we found special character differences
+                if (diffDetails.Length > 0)
+                {
+                    marker.AppendLine(diffDetails.ToString());
+                }
+                
+                return marker.ToString();
+            }
+
+            if (!hasWarnings)
+            {
+                await stdout.WriteLineAsync($"INFO: {cardName} - All elements match");
+                matchingCards++;
+            }
+            else
+            {
+                mismatchedCards++;
+            }
+        }
+
+        // Print summary
+        await stdout.WriteLineAsync();
+        await stdout.WriteLineAsync("=== Validation Summary ===");
+        await stdout.WriteLineAsync($"Design files total: {totalCards}");
+        await stdout.WriteLineAsync($"CardConjurer total: {totalCcCards}");
+        await stdout.WriteLineAsync("---");
+        await stdout.WriteLineAsync($"Perfectly matching cards: {matchingCards}");
+        await stdout.WriteLineAsync($"Cards with differences: {mismatchedCards}");
+        await stdout.WriteLineAsync($"Split/fuse cards skipped: {splitCards}");
+        await stdout.WriteLineAsync($"Cards missing from CardConjurer: {missingCards}");
+        await stdout.WriteLineAsync($"Cards with invalid CardConjurer data: {invalidCards}");
+        await stdout.WriteLineAsync("=====================");
+
+        return 0;
+
+    }
+}
+
 [CliCommand(
     Children = [
         typeof(GenDocsCommand),
@@ -1136,6 +1437,7 @@ public class GenAllCommand : BaseCommand
         typeof(GenEditionCommand),
         typeof(GenBugsCommand),
         typeof(GenAllCommand),
+        typeof(CardConjurerValidateCommand)
     ]
 )]
 public class RootCommand { }
