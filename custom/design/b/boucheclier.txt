@@ -13,7 +13,7 @@ Sandfall Interactive
 [PT]
 3/3
 [Oracle]
-~ enters with a shield counter on it. (If it would be dealt damage or destroyed, remove a shield counter from it instead.)
+~ enters with a shield counter on it. $SHIELD_REMINDER_TEXT
 Gets ready to counterattack — When ~ is dealt combat damage, it deals that amount of damage to target creature an opponent controls.
 $NEVRON_DEATH_ABILITY_TEXT
 [AbilityWords]
