@@ -15,11 +15,10 @@ Sandfall Interactive
 2/2
 [Oracle]
 Flying.
-When this creature dies, target opponent creates a Lumina token.
+$NEVRON_DEATH_ABILITY_TEXT
 [ForgeScript]
 K:Flying
-T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Card.Self | Execute$ TrigToken | TriggerDescription$ When this creature dies, target opponent creates a Lumina token.
-SVar:TrigToken:DB$ Token | TokenAmount$ 1 | ValidTgts$ Opponent | TokenOwner$ Targeted | TokenScript$ c_a_lumina
+$NEVRON_DEATH_ABILITY
 [DesignNotes]
  - Another vanila Nevron. Flying because these things are hard to hit with melee attacks in the actual game.
  - 23/09/2025: Move color identity from white/green to red/green to make way for White Nevrons.

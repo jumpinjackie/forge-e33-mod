@@ -14,11 +14,10 @@ Sandfall Interactive
 2/2
 [Oracle]
 First Strike.
-When this creature dies, target opponent creates a Lumina token.
+$NEVRON_DEATH_ABILITY_TEXT
 [ForgeScript]
 K:First Strike
-T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Card.Self | Execute$ TrigToken | TriggerDescription$ When this creature dies, target opponent creates a Lumina token.
-SVar:TrigToken:DB$ Token | TokenAmount$ 1 | ValidTgts$ Opponent | TokenOwner$ Targeted | TokenScript$ c_a_lumina
+$NEVRON_DEATH_ABILITY
 [DesignNotes]
  - Another generic vanilla Nevron to round out the creature roster for limited/draft.
  - In game, Lancelier's wield a lance. So clearly this should have First Strike.

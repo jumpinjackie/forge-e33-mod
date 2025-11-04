@@ -15,7 +15,7 @@ Sandfall Interactive
 [Oracle]
 Double the blight — {T}: Up to two target creatures your opponent controls have base toughness 1 until end of turn.
 Heals allies — {1}{B}, {T}: Gain 1 life for each creature you control.
-When this creature dies, target opponent creates a Lumina token.
+$NEVRON_DEATH_ABILITY_TEXT
 [AbilityWords]
 Double the blight
 Heals allies
@@ -23,8 +23,7 @@ Heals allies
 A:AB$ Animate | Cost$ T | TargetMin$ 0 | TargetMax$ 2 | Toughness$ 1 | ValidTgts$ Creature | TgtPrompt$ Select up to two target creatures | SpellDescription$ Up to two target creatures your opponent controls have base toughness 1 until end of turn.
 A:AB$ GainLife | Cost$ 1 B T | Defined$ You | LifeAmount$ X | SpellDescription$ Gain 1 life for each creature you control.
 SVar:X:Count$Valid Creature.YouCtrl
-T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Card.Self | Execute$ TrigToken | TriggerDescription$ When this creature dies, target opponent creates a Lumina token.
-SVar:TrigToken:DB$ Token | TokenAmount$ 1 | ValidTgts$ Opponent | TokenOwner$ Targeted | TokenScript$ c_a_lumina
+$NEVRON_DEATH_ABILITY
 [DesignNotes]
  - In the game, Echassiers are found in The Reacher and Renoir's Drafts.
  - Mapped the "Double the blgiht & Heals allies" ability to 1 toughness setting and life gain.

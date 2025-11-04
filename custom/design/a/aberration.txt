@@ -17,7 +17,7 @@ Sandfall Interactive
 Performs light strikes — When ~ enters, it deals 3 damage divided as you choose among any number of target creatures and/or planeswalkers.
 Performs dark combo — {2}{B}, {T}: Target creature has base toughness 1 until end of turn.
 Creates earthquakes — {3}{R}, {T}: ~ deals 1 damage to each creature without flying and each player.
-When this creature dies, target opponent creates a Lumina token.
+$NEVRON_DEATH_ABILITY_TEXT
 [AbilityWords]
 Performs light strikes
 [ForgeScript]
@@ -25,8 +25,7 @@ T:Mode$ ChangesZone | Destination$ Battlefield | ValidCard$ Card.Self | Execute$
 SVar:TrigDamage:DB$ DealDamage | ValidTgts$ Creature,Planeswalker | TgtPrompt$ Select target creature or planeswalker to distribute damage to | NumDmg$ 3 | TargetMin$ 0 | TargetMax$ 3 | DividedAsYouChoose$ 3
 A:AB$ Animate | Cost$ 2 B T | ValidTgts$ Creature | TgtPrompt$ Select target creature | Toughness$ 1 | SpellDescription$ Target creature has base toughness 1 until end of turn.
 A:AB$ DamageAll | Cost$ 3 R T | ValidCards$ Creature.withoutFlying | ValidPlayers$ Player | NumDmg$ 1 | SpellDescription$ ~ deals 1 damage to each creature without flying and each player.
-T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Card.Self | Execute$ TrigToken | TriggerDescription$ When this creature dies, target opponent creates a Lumina token.
-SVar:TrigToken:DB$ Token | TokenAmount$ 1 | ValidTgts$ Opponent | TokenOwner$ Targeted | TokenScript$ c_a_lumina
+$NEVRON_DEATH_ABILITY
 [DesignNotes]
  - Just a vanilla placeholder for now until I have figured out some suitable abilities for it
  - 13/10/2025: Removed Devoid.

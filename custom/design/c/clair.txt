@@ -13,12 +13,11 @@ Sandfall Interactive
 [PT]
 2/2
 [Oracle]
-When this creature dies, target opponent creates a Lumina token.
+$NEVRON_DEATH_ABILITY_TEXT
 {2}{W}, {T}: Target creature an opponent controls loses all abilities until end of turn.
 {1}{W}, {T}: Put a shield counter on target creature you control.
 [ForgeScript]
-T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Card.Self | Execute$ TrigToken | TriggerDescription$ When this creature dies, target opponent creates a Lumina token.
-SVar:TrigToken:DB$ Token | TokenAmount$ 1 | ValidTgts$ Opponent | TokenOwner$ Targeted | TokenScript$ c_a_lumina
+$NEVRON_DEATH_ABILITY
 A:AB$ Animate | Cost$ 2 W T | ValidTgts$ Creature.OppCtrl | TgtPrompt$ Select target creature an opponent controls| RemoveAllAbilities$ True | SpellDescription$ Target creature an opponent controls loses all abilities until end of turn.
 A:AB$ PutCounter | Cost$ 1 W T | ValidTgts$ Creature.YouCtrl | TgtPrompt$ Select target creature you control | CounterType$ SHIELD | SpellDescription$ Put a shield counter on target creature you control.
 [DesignNotes]

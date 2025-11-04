@@ -18,7 +18,7 @@ Lifelink
 Impales its target — When ~ enters, choose one —
 • Destroy target creature with mana value 3 or less.
 • Tap target creature and put a stun counter on it.
-When this creature dies, target opponent creates a Lumina token.
+$NEVRON_DEATH_ABILITY_TEXT
 [AbilityWords]
 Impales its target
 [ForgeScript]
@@ -28,6 +28,5 @@ SVar:TrigCharm:DB$ Charm | Choices$ DBDestroy,DBTapAndStun
 SVar:DBDestroy:DB$ Destroy | ValidTgts$ Creature.cmcLE3 | TgtPrompt$ Select target creature with mana value 3 or less | SpellDescription$ Destroy target creature with mana value 3 or less.
 SVar:DBTapAndStun:DB$ Tap | TgtPrompt$ Choose target creature | ValidTgts$ Creature | SubAbility$ DBCounter | SpellDescription$ Tap target creature and put a stun counter on it.
 SVar:DBCounter:DB$ PutCounter | Defined$ Targeted | CounterType$ Stun | CounterNum$ 1
-T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Card.Self | Execute$ TrigToken | TriggerDescription$ When this creature dies, target opponent creates a Lumina token.
-SVar:TrigToken:DB$ Token | TokenAmount$ 1 | ValidTgts$ Opponent | TokenOwner$ Targeted | TokenScript$ c_a_lumina
+$NEVRON_DEATH_ABILITY
 [DesignNotes]

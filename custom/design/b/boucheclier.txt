@@ -15,7 +15,7 @@ Sandfall Interactive
 [Oracle]
 ~ enters with a shield counter on it. (If it would be dealt damage or destroyed, remove a shield counter from it instead.)
 Gets ready to counterattack — When ~ is dealt combat damage, it deals that amount of damage to target creature an opponent controls.
-When this creature dies, target opponent creates a Lumina token.
+$NEVRON_DEATH_ABILITY_TEXT
 [AbilityWords]
 Gets ready to counterattack
 [ForgeScript]
@@ -23,8 +23,7 @@ K:etbCounter:SHIELD:1
 T:Mode$ DamageDoneOnce | CombatDamage$ True | ValidTarget$ Card.Self | Execute$ TrigReflectDamage | TriggerDescription$ When ~ is dealt combat damage, it deals that amount of damage to target creature an opponent controls.
 SVar:TrigReflectDamage:DB$ DealDamage | ValidTgts$ Creature.OppCtrl | TgtPrompt$ Select target creature an opponent controls | NumDmg$ X
 SVar:X:TriggerCount$DamageAmount
-T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Card.Self | Execute$ TrigToken | TriggerDescription$ When this creature dies, target opponent creates a Lumina token.
-SVar:TrigToken:DB$ Token | TokenAmount$ 1 | ValidTgts$ Opponent | TokenOwner$ Targeted | TokenScript$ c_a_lumina
+$NEVRON_DEATH_ABILITY
 [DesignNotes]
  - Just a vanilla hill giant for now. Has shield counters because its game counterpart always has one and Shield counters are near 1:1 mechanically.
  - 13/10/2025: Removed Devoid.

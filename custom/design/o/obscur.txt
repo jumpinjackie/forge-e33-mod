@@ -13,12 +13,11 @@ Sandfall Interactive
 [PT]
 2/2
 [Oracle]
-When this creature dies, target opponent creates a Lumina token.
+$NEVRON_DEATH_ABILITY_TEXT
 {1}{B}, {T}: Target creature an opponent controls gets -1/-1 until end of turn.
 {1}{B}, {T}: Untap target creature you control.
 [ForgeScript]
-T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Card.Self | Execute$ TrigToken | TriggerDescription$ When this creature dies, target opponent creates a Lumina token.
-SVar:TrigToken:DB$ Token | TokenAmount$ 1 | ValidTgts$ Opponent | TokenOwner$ Targeted | TokenScript$ c_a_lumina
+$NEVRON_DEATH_ABILITY
 A:AB$ Pump | Cost$ 1 B T | ValidTgts$ Creature.OppCtrl | TgtPrompt$ Select target creature an opponent controls | NumAtt$ -1 | NumDef$ -1 | SpellDescription$ Target creature an opponent controls gets -1/-1 until end of turn.
 A:AB$ Untap | Cost$ 1 B T | ValidTgts$ Creature.YouCtrl | TgtPrompt$ Select target creature you control | SpellDescription$ Untap target creature you control.
 [DesignNotes]
