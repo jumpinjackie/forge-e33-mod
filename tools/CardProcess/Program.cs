@@ -54,8 +54,6 @@ public class CardFaceDesign
 
     public string? Artist { get; set; }
 
-    public string? ArtImage { get; set; }
-
     public string? ArtNotes { get; set; }
 
     internal void Apply(string propertyName, IEnumerable<string> buffer)
@@ -76,9 +74,6 @@ public class CardFaceDesign
                 break;
             case nameof(Artist):
                 Artist = string.Join(" ", buffer);
-                break;
-            case nameof(ArtImage):
-                ArtImage = string.Join(" ", buffer);
                 break;
             case nameof(ArtNotes):
                 ArtNotes = string.Join("\n", buffer);
@@ -504,7 +499,6 @@ public class CardMasterDesign(string designFile)
                 case "[Name]":
                 case "[Rarity]":
                 case "[Artist]":
-                case "[ArtImage]":
                 case "[ArtNotes]":
                 case "[ManaCost]":
                 case "[ColorIdentity]":

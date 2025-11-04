@@ -107,12 +107,6 @@ The credited artist.
 
 Used as part of edition card list in Forge context and in the CardConjurer context.
 
-### ArtImage (`[ArtImage]`)
-
-The path to the source artwork for this card. Must be a relative path to the custom set root.
-
-Used only in the CardConjurer context.
-
 ### ArtNotes (`[ArtNotes]`)
 
 Free-form text describing the desired art for this card.
