@@ -16,9 +16,9 @@ Dark shores. Explosions and Pandemonium abound as the Expedition 33 party is amb
 All non-Nevron, non-Painter creatures get -2/-2 until end of turn.
 Cycling {2} ({2}, Discard this card: Draw a card.)
 [FlavorText]
-You- You're old. How did you-
+"You- You're old. How did you-
 How did you survive the Gommage?
-Which expedition are you fr-
+Which expedition are you fr-"
 [ForgeScript]
 K:Cycling:2
 A:SP$ PumpAll | ValidCards$ Creature.nonNevron+nonPainter | NumAtt$ -2 | NumDef$ -2 | IsCurse$ True | SpellDescription$ All non-Nevron, non-Painter creatures get -2/-2 until end of turn.

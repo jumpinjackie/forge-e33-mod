@@ -2,4 +2,4 @@ Name:Gradient Counter
 ManaCost:U
 Types:Kindred Instant Expeditioner
 A:SP$ Counter | TargetType$ Spell | ValidTgts$ Gradient | SpellDescription$ Counter target Gradient spell.
-Oracle:Counter target Gradient spell
+Oracle:Counter target Gradient spell.

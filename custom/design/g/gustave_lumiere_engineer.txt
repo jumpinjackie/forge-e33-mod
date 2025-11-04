@@ -17,13 +17,15 @@ Sandfall Interactive
 3/3
 [Oracle]
 Whenever Gustave becomes untapped, attacks or blocks, put a charge counter on him.
-From Fire - {W}{R},{T}: Gustave deals 3 damage to target creature, you gain 3 life.
-Strike Storm - {W}{R}: Gustave gains double-strike until ene of turn, put two charge counters on him. Activate only once per turn.
-Overcharge - {T}, Remove X charge counters from Gustave: Gustave deals X damage to target creature and that creature's controller.
+From Fire — {W}{R},{T}: Gustave deals 3 damage to target creature, you gain 3 life.
+Strike Storm — {W}{R}: Gustave gains double-strike until ene of turn, put two charge counters on him. Activate only once per turn.
+Overcharge — {T}, Remove X charge counters from Gustave: Gustave deals X damage to target creature and that creature's controller.
 [AbilityWords]
 From Fire
 Strike Storm
 Overcharge
+[FlavorText]
+For those who come after.
 [ForgeScript]
 T:Mode$ Attacks | ValidCard$ Card.Self | TriggerZones$ Battlefield | Execute$ DBCharge | TriggerDescription$ Whenever CARDNAME attacks, put a charge counter on him.
 T:Mode$ Blocks | ValidCard$ Card.Self | TriggerZones$ Battlefield | Execute$ DBCharge | TriggerDescription$ Whenever CARDNAME blocks, put a charge counter on him.

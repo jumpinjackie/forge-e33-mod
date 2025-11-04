@@ -24,6 +24,7 @@ When Esquie attacks, if you control a card named Urrie, Surveil 2.
 When Esquie attacks, if it is saddled, choose one —
 • Draw a card.
 • Put a land card from your hand onto the battlefield.
+
 [ForgeScript]
 S:Mode$ Continuous | Affected$ Card.Self | AddKeyword$ Islandwalk | IsPresent$ Card.YouCtrl+namedFlorrie | Description$ CARDNAME has Islandwalk as long as you control a card named Florrie.
 S:Mode$ Continuous | Affected$ Card.Self | AddKeyword$ Flying | IsPresent$ Card.YouCtrl+namedSoarrie | Description$ CARDNAME has Flying as long as you control a card named Soarrie.

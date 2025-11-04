@@ -10,8 +10,11 @@ U
 Sandfall Interactive
 [Oracle]
 Whenever a creature you control becomes the target of a spell or ability, you may put a quest counter on this enchantment.
-Normal Difficulty - As long as this enchantment has three or more quest counters on it, whenever a creature you control becomes the target of a spell or ability, draw a card.
-Hard Difficulty - {U/R}{U/R}: You may choose new targets for target spell or ability. Activate this ability only if this enchantment has five or more quest counters on it.
+Normal Difficulty — As long as this enchantment has three or more quest counters on it, whenever a creature you control becomes the target of a spell or ability, draw a card.
+Hard Difficulty — {U/R}{U/R}: You may choose new targets for target spell or ability. Activate this ability only if this enchantment has five or more quest counters on it.
+[AbilityWords]
+Normal Difficulty
+Hard Difficulty
 [FlavorText]
 Oh, you won. You deserve this reward. Have fun with it!
 [ForgeScript]

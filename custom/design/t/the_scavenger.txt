@@ -21,6 +21,7 @@ If an opponent would create a Lumina token, you create a Lumina token instead.
 Sacrifice a Lumina token: Add one mana of any color.
 Sacrifice a Nevron: Add two mana of any one color.
 {2}{B/G}, {T}: Return target permanent card from your graveyard to your hand.
+
 [ForgeScript]
 K:Ward:2
 T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigReanimate | TriggerDescription$ When ~ enters, return target permanent card with mana value 3 or less from your graveyard to tbe battlefield.

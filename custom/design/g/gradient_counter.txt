@@ -11,7 +11,7 @@ C
 [Artist]
 Sandfall Interactive
 [Oracle]
-Counter target Gradient spell
+Counter target Gradient spell.
 [FlavorText]
 Parry it!
 [ForgeScript]

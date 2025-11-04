@@ -1240,10 +1240,10 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "At the beginning of your upkeep, you may mill a card. If you do, create two Lumina tokens. (It’s an artifact with  “{T}, Sacrifice this token: Scry 1.”){flavor}You found all the journals? Moshi will be so happy.",
+                    "text": "At the beginning of your upkeep, you may mill a card. If you do, create two Lumina tokens. (It’s an artifact with “{T}, Sacrifice this token: Scry 1.”){flavor}You found all the journals? Moshi will be so happy.",
                     "x": 0.086,
                     "y": 0.6325515280739161,
-                    "width": 0.828,
+                    "width": 0.8263681592039801,
                     "height": 0.2875,
                     "size": 0.0362
                 },
@@ -3455,7 +3455,7 @@
                 },
                 "type": {
                     "name": "Type",
-                    "text": "Legendary Planeswalker — Clea",
+                    "text": "Legendary Planeswalker - Clea",
                     "x": 0.0867,
                     "y": 0.4967,
                     "width": 0.8267,
@@ -4721,7 +4721,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "When this creature dies, target opponent creates a Lumina token.\n{R}, {T}. This creature deals 2 damage to target creature.\n{U}, {T}: Tap target creature. Put a stun counter on it.\nWhen this creature dies, if you control no creatures, put two 2/2 Red and Blue Danseuse Clone creature tokens into play.",
+                    "text": "When this creature dies, target opponent creates a Lumina token.\n{R}, {T}: This creature deals 2 damage to target creature.\n{U}, {T}: Tap target creature. Put a stun counter on it.\nWhen this creature dies, if you control no creatures, put two 2/2 Red and Blue Danseuse Clone creature tokens into play.",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
@@ -5606,7 +5606,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Trample\n{2}: Put a flying counter on Dominique Giant Feet.\n{i}Two-handed slam{/i} - {2}, {T}, Remove a flying counter from Dominique Giant Feet: Dominique Giant Feet deals 4 damage to target creature.\nAt the beginning of each end step, remove all flying counters on Dominique Giant Feet.\n",
+                    "text": "Trample\n{2}: Put a flying counter on Dominique Giant Feet.\n{i}Two-handed slam{/i} — {2}, {T}, Remove a flying counter from Dominique Giant Feet: Dominique Giant Feet deals 4 damage to target creature.\nAt the beginning of each end step, remove all flying counters on Dominique Giant Feet.\n",
                     "x": 0.086,
                     "y": 0.6325515280739161,
                     "width": 0.828,
@@ -7719,7 +7719,7 @@
             "text": {
                 "mana": {
                     "name": "Mana Cost",
-                    "text": "B G",
+                    "text": "1 BG",
                     "y": 0.06254442075337598,
                     "width": 0.9273631840796019,
                     "height": 0.03380952380952381,
@@ -8050,7 +8050,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "{2}{B},{T}: Target creature gets -2/-2 until end of turn.\nSacrifice three Lumina tokens: Destroy target Nevron creature.\nWhen this creature dies, create a Chroma token.{flavor}Oh, I hear a big Nev coming, they count for double. If I kill it quick I can boost my score.\n- Virgile, Expedition 62\n",
+                    "text": "{2}{B}, {T}: Target creature gets -2/-2 until end of turn.\nSacrifice three Lumina tokens: Destroy target Nevron creature.\nWhen this creature dies, create a Chroma token.{flavor}Oh, I hear a big Nev coming, they count for double. If I kill it quick I can boost my score.\n- Virgile, Expedition 62",
                     "x": 0.086,
                     "y": 0.6325515280739161,
                     "width": 0.828,
@@ -8629,7 +8629,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "When this creature enters, you may search your library for an Expeditioner card, reveal it, put it into your hand, then shuffle.\nWhen this creature dies, create a Chroma token.{flavor}Your time left is limited, why not make it count for something?",
+                    "text": "When this creature enters, you may search your library for an Expeditioner card, reveal it, put it into your hand, then shuffle.\nWhen this creature dies, create a Chroma token.{flavor}Your time left in this life is limited, why not make it count for something?",
                     "x": 0.086,
                     "y": 0.6325515280739161,
                     "width": 0.828,
@@ -11826,7 +11826,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Whenever a creature you control becomes the target of a spell or ability, you may put a quest counter on this enchantment.\n{i}Normal Difficulty{/i} - As long as this enchantment has three or more quest counters on it, whenever a creature you control becomes the target of a spell or ability, draw a card.\n{i}Hard Difficulty{/i} - {U/R}{U/R}: You may choose new targets for target spell or ability. Activate this ability only if this enchantment has five or more quest counters on it.{flavor}Oh, you won. You deserve this reward. Have fun with it!",
+                    "text": "Whenever a creature you control becomes the target of a spell or ability, you may put a quest counter on this enchantment.\n{i}Normal Difficulty{/i} — As long as this enchantment has three or more quest counters on it, whenever a creature you control becomes the target of a spell or ability, draw a card.\n{i}Hard Difficulty{/i} — {U/R}{U/R}: You may choose new targets for target spell or ability. Activate this ability only if this enchantment has five or more quest counters on it.{flavor}Oh, you won. You deserve this reward. Have fun with it!",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
@@ -12099,7 +12099,7 @@
                 },
                 "type": {
                     "name": "Type",
-                    "text": "Land",
+                    "text": "Land - Town",
                     "x": 0.08358208955223881,
                     "y": 0.5643212508884151,
                     "width": 0.8292,
@@ -12711,7 +12711,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Flash. Ward 2. Reach.\n{i}Grows Flowers{/i} — At the beginning of your upkeep, create a Flower token (It’s an artifact with “{T}, Sacrifice this artifact: Add {U}, {R} or {G}.”)\n{i}Absorbs Flowers{/i} - Whenever a Flower token leaves the battlefield, choose one —\n• ~ deals 1 damage to any target.\n• Put a +1/+1 counter on target creature.\n• Put a shield counter on target creature.\n• Draw a card.",
+                    "text": "Flash. Ward 2. Reach.\n{i}Grows Flowers{/i} — At the beginning of your upkeep, create a Flower token (It’s an artifact with “{T}, Sacrifice this artifact: Add {U}, {R} or {G}.”)\n{i}Absorbs Flowers{/i} — Whenever a Flower token leaves the battlefield, choose one —\n• Goblu deals 1 damage to any target.\n• Put a +1/+1 counter on target creature.\n• Put a shield counter on target creature.\n• Draw a card.{flavor}Gustave, wait! It seems peaceful, as long as we don’t touch the flowers.\n- Lune",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
@@ -13028,7 +13028,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Other Gestral creatures you control get +2/+2\n{i}Enrage{/i} - Whenever Golgra is dealt damage, choose one:\n {bullet} Put a Double strike counter on Golgra.\n {bullet} Put a Vigilance counter on Golgra.\n {bullet} Put a Trample counter on Golgra.\n {bullet} Draw a card.{flavor}Really? A duel? Do you have a death wish?",
+                    "text": "Other Gestral creatures you control get +2/+2\n{i}Enrage{/i} — Whenever Golgra is dealt damage, choose one —\n• Put a Double strike counter on Golgra.\n• Put a Vigilance counter on Golgra.\n• Put a Trample counter on Golgra.\n• Draw a card.{flavor}Really? A duel? Do you have a death wish?",
                     "x": 0.086,
                     "y": 0.6325515280739161,
                     "width": 0.828,
@@ -13919,7 +13919,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "When ~ enters, you may search your library for a Picto card, reveal it, put it into your hand, then shuffle.\n{1}{U}, {T}: You may put a Picto card from your hand onto the battlefield.{flavor}Finish my sentence in a wonderfully poetic way: Life blooms like a rose, with petals soft and frail...",
+                    "text": "When this creature enters, you may search your library for a Picto card, reveal it, put it into your hand, then shuffle.\n{1}{U}, {T}: You may put a Picto card from your hand onto the battlefield.{flavor}Finish my sentence in a wonderfully poetic way: Life blooms like a rose, with petals soft and frail...",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
@@ -14225,14 +14225,15 @@
                 },
                 "type": {
                     "name": "Type",
-                    "text": "Legendary Creature - Nevron",
+                    "text": "Legendary Creature - Nevron Elemental",
                     "x": 0.08358208955223881,
                     "y": 0.5643212508884151,
                     "width": 0.8292,
                     "height": 0.0543,
                     "oneLine": true,
                     "font": "belerenb",
-                    "size": 0.0324
+                    "size": 0.0324,
+                    "fontSize": "-6"
                 },
                 "rules": {
                     "name": "Rules Text",
@@ -14554,7 +14555,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Whenever Gustave becomes untapped, attacks or blocks, put a charge counter on him.\n{i}From Fire{/i} - {W}{R},{T}: Gustave deals 3 damage to target creature, you gain 3 life.\n{i}Strike Storm{/i} - {W}{R}: Gustave gains double-strike until ene of turn, put two charge counters on him. Activate only once per turn.\n{i}Overcharge{/i} - {T}, Remove X charge counters from Gustave: Gustave deals X damage to target creature and that creature’s controller.{flavor}For those who come after",
+                    "text": "Whenever Gustave becomes untapped, attacks or blocks, put a charge counter on him.\n{i}From Fire{/i} — {W}{R},{T}: Gustave deals 3 damage to target creature, you gain 3 life.\n{i}Strike Storm{/i} — {W}{R}: Gustave gains double-strike until ene of turn, put two charge counters on him. Activate only once per turn.\n{i}Overcharge{/i} — {T}, Remove X charge counters from Gustave: Gustave deals X damage to target creature and that creature’s controller.{flavor}For those who come after.",
                     "x": 0.086,
                     "y": 0.6325515280739161,
                     "width": 0.828,
@@ -16040,7 +16041,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "{i}Combo Jab{/i} - {2}: Julien gains double strike until end of turn.\n{i}Uppercut{/i} - {2}, {T}: Julien deals 2 damage to target creature, that creature gains flying until end of turn.\n{i}Haymaker{/i} - {2}: Julien gains trample until end of turn.",
+                    "text": "{i}Combo Jab{/i} — {2}: Julien gains double strike until end of turn.\n{i}Uppercut{/i} — {2}, {T}: Julien deals 2 damage to target creature, that creature gains flying until end of turn.\n{i}Haymaker{/i} — {2}: Julien gains trample until end of turn.",
                     "x": 0.086,
                     "y": 0.6325515280739161,
                     "width": 0.828,
@@ -16401,7 +16402,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Flying. Ward 3.\n{i}Ball of Light{/i} - {2}{W}, {T}: Tap up to three target creatures. They lose all abilities until end of turn.\n{i}Sword of Light{/i} - {2}{W}{B}, {T}: Separate creatures target opponent controls into two separate piles. That opponent chooses a pile. Destroy all creatures in that pile. Creatures in the other pile have base toughess 1 until end of turn.",
+                    "text": "Flying. Ward 3.\n{i}Ball of Light{/i} — {2}{W}, {T}: Tap up to three target creatures. They lose all abilities until end of turn.\n{i}Sword of Light{/i} — {2}{W}{B}, {T}: Separate creatures target opponent controls into two separate piles. That opponent chooses a pile. Destroy all creatures in that pile. Creatures in the other pile have base toughess 1 until end of turn.",
                     "x": 0.086,
                     "y": 0.6325515280739161,
                     "width": 0.828,
@@ -17025,7 +17026,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "This land enters tapped unless you control an Expeditioner.\n{T}: Add {W} or {U}.\n{4},{T}: Create a Food token.{flavor}The Aquafarm project ensured that Lumiere would have a plentiful supply of food for years to come.",
+                    "text": "This land enters tapped unless you control an Expeditioner.\n{T}: Add {W} or {U}.\n{4}, {T}: Create a Food token.{flavor}The Aquafarm project ensured that Lumiere would have a plentiful supply of food for years to come.",
                     "x": 0.086,
                     "y": 0.6325515280739161,
                     "width": 0.828,
@@ -17593,7 +17594,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "At the beginning of your upkeep, put a verse counter on this land.\nRemove two verse counters from this land: Expeditioners you control get +1/+1 until end of turn.\n{T}: Add {C}.{flavor}Maybe when this is over, we can fix up the opera house and you can perform for us. I want my first concert to be yours. And don’t worry, I’ll make sure the room is packed. I’ll put up posters everywhere in town.\n- Maelle",
+                    "text": "At the beginning of your upkeep, you may put a verse counter on this land.\n{T}: Add {C}.\n{T}, Remove two verse counters from this land: Expeditioner creatures you control get +1/+1 until end of turn.{flavor}Maybe when this is over, we can fix up the opera house and you can perform for us. I want my first concert to be yours. And don’t worry, I’ll make sure the room is packed. I’ll put up posters everywhere in town.\n- Maelle",
                     "x": 0.086,
                     "y": 0.6325515280739161,
                     "width": 0.828,
@@ -17899,7 +17900,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "{T}: Add {W}.\n{1}{W}, {T}: Create a 1/1 white Human Expeditioner token with “When this creature dies, create a Chroma token“\n{1}{W}, {T}: Create a Map token{flavor}Every year, the population dwindles, yet the citizens persist in their determination to take down the Paintress once and for all.",
+                    "text": "{T}: Add {W}.\n{1}{W}, {T}: Create a 1/1 white Human Expeditioner token with “When this creature dies, create a Chroma token.“\n{1}{W}, {T}: Create a Map token{flavor}Every year, the population dwindles, yet the citizens persist in their determination to take down the Paintress once and for all.",
                     "x": 0.086,
                     "y": 0.6325515280739161,
                     "width": 0.828,
@@ -18194,7 +18195,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Whenever another non-Expeditioner creature enters, investigate. {i}(Create a Clue token. It’s an artifact with “{2}, Sacrifice this token: Draw a card.”){/i}{flavor}He eagerly absorbs the knowledge given to him, for he knows when his time comes, it will be a valuable resource.",
+                    "text": "Whenever another non-Expeditioner creature enters, investigate. (Create a Clue token. It’s an artifact with “{2}, Sacrifice this token: Draw a card.”){flavor}He eagerly absorbs the knowledge given to him, for he knows when his time comes, it will be a valuable resource.",
                     "x": 0.086,
                     "y": 0.6325515280739161,
                     "width": 0.828,
@@ -21451,7 +21452,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Whenever a nontoken Nevron creature dies, exile it with a Foot counter.\n{i}My, what lovely feet!{/i} - Monoco has activated abilities of all Nevrons in exile with a Foot counter on them. Monoco has flying as long as an exiled Nevron creature with a Foot counter has flying. The same is true for first strike, double strike, deathtouch, haste, hexproof, indestructible, lifelink, meance, reach, trample and vigilance.\n{1}{G}, {T}: Monoco fights target creature.\n{2}{W}: Untap Monoco.",
+                    "text": "Whenever a nontoken Nevron creature dies, exile it with a Foot counter.\n{i}My, what lovely feet!{/i} — Monoco has activated abilities of all Nevrons in exile with a Foot counter on them. Monoco has flying as long as an exiled Nevron creature with a Foot counter has flying. The same is true for first strike, double strike, deathtouch, haste, hexproof, indestructible, lifelink, meance, reach, trample and vigilance.\n{1}{G}, {T}: Monoco fights target creature.\n{2}{W}: Untap Monoco.",
                     "x": 0.086,
                     "y": 0.6325515280739161,
                     "width": 0.828,
@@ -22292,7 +22293,7 @@
                 },
                 "type": {
                     "name": "Type",
-                    "text": "Enchantment",
+                    "text": "Kindred Enchantment - Nevron",
                     "x": 0.0854,
                     "y": 0.5664,
                     "width": 0.8292,
@@ -22303,7 +22304,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "{1}{G}, Sacrifice a Nevron: Search your library for a Nevron permanent with mana value X and put it into the battlefield where X is the sacrificed Nevron’s mana value plus one. Activate this ability only once each turn.{flavor}Even in an artificial painted world, there is a natural order.",
+                    "text": "{1}{G}, Sacrifice a Nevron: Search your library for a Nevron permanent with mana value X or less and put it into the battlefield where X is the sacrificed Nevron’s mana value plus one. Activate this ability only once each turn.{flavor}Even in an artificial painted world, there is a natural order.",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
@@ -22598,7 +22599,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "This creature enters with a shield counter. (If it would be dealt damage or destroyed, remove a shield counter from it instead.)\n{i}Gathers dark chroma{/i} — {4}{B}, {T}: Tap up to two target creatures.\n{i}Summons dark spear{/i} — {2}{B}, {T}: ~ deals 2 damage to target creature. You gain 2 life.\nWhen this creature dies, target opponent creates a Lumina token.",
+                    "text": "Ward 2.\nThis creature enters with a shield counter. (If it would be dealt damage or destroyed, remove a shield counter from it instead.)\n{i}Gathers dark chroma{/i} — {4}{B}, {T}: Tap up to two target creatures.\n{i}Summons dark spear{/i} — {2}{B}, {T}: This creature deals 2 damage to target creature. You gain 2 life.\nWhen this creature dies, target opponent creates a Lumina token.",
                     "x": 0.086,
                     "y": 0.6325515280739161,
                     "width": 0.828,
@@ -23605,7 +23606,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Devoid. Split Second.\nThis spell costs {1} less to cast if you control a painter.\nThis spell costs {1} less to cast if it targets an Expeditioner.\nDestroy target creature.{flavor}“Like I always say, it’s not about the rock, it’s more about th-”",
+                    "text": "Split Second.\nThis spell costs {1} less to cast if you control a painter.\nThis spell costs {1} less to cast if it targets an Expeditioner.\nDestroy target creature.{flavor}“Like I always say, it’s not about the rock, it’s more about th-”",
                     "x": 0.086,
                     "y": 0.6325515280739161,
                     "width": 0.828,
@@ -23917,7 +23918,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "This spell costs {1} less to cast if you control an Expeditioner.\nChoose one -\n {bullet} Create two 1/1 white Human Expeditioner tokens with “When this creature dies, create a Chroma token“.\n {bullet} Up to two target creatures you control each get +2/+2 until end of turn.\n {bullet} Destroy target non-Expeditioner creature.",
+                    "text": "This spell costs {1} less to cast if you control an Expeditioner.\nChoose one —\n• Create two 1/1 white Human Expeditioner tokens with “When this creature dies, create a Chroma token.”\n• Up to two target creatures you control each get +2/+2 until end of turn.\n• Destroy target non-Expeditioner creature.",
                     "x": 0.086,
                     "y": 0.6325515280739161,
                     "width": 0.828,
@@ -26705,7 +26706,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "(You may cast a legendary sorcery only if you control a legendary creature or planeswalker.)\nDestroy all non-basic lands.\nSearch your library for a card named The Monolith, put it onto the battlefield and shuffle.{flavor}The city of Lumiere was uprooted and flung into the ocean and soon after, The Monolith appeared, bearing the number “100“. Nobody at the time knew what this number meant.",
+                    "text": "(You may cast a legendary sorcery only if you control a legendary creature or planeswalker.)\nDestroy all non-basic lands.\nSearch your library for a card named The Monolith, put it onto the battlefield and shuffle.{flavor}The city of Lumiere was uprooted and flung into the ocean. Soon after, The Monolith appeared, bearing the number “100“. Nobody at the time knew what this number meant.",
                     "x": 0.086,
                     "y": 0.6325515280739161,
                     "width": 0.828,
@@ -28238,7 +28239,7 @@
             "frames": [
                 {
                     "name": "Green Legend Crown",
-                    "src": "/img/frames/m15/ub/crowns/m15CrownG.png",
+                    "src": "/img/frames/m15/crowns/m15CrownG.png",
                     "masks": [
                         {
                             "src": "/img/frames/maskRightHalf.png",
@@ -28254,7 +28255,7 @@
                 },
                 {
                     "name": "Black Legend Crown",
-                    "src": "/img/frames/m15/ub/crowns/m15CrownB.png",
+                    "src": "/img/frames/m15/crowns/m15CrownB.png",
                     "masks": [],
                     "bounds": {
                         "height": 0.1667,
@@ -28275,35 +28276,8 @@
                     }
                 },
                 {
-                    "name": "Green Holo Stamp",
-                    "src": "/img/frames/m15/ub/regular/stamp/g.png",
-                    "masks": [
-                        {
-                            "src": "/img/frames/maskRightHalf.png",
-                            "name": "Right Half"
-                        }
-                    ],
-                    "bounds": {
-                        "height": 0.0486,
-                        "width": 0.1494,
-                        "x": 0.4254,
-                        "y": 0.9005
-                    }
-                },
-                {
-                    "name": "Black Holo Stamp",
-                    "src": "/img/frames/m15/ub/regular/stamp/b.png",
-                    "masks": [],
-                    "bounds": {
-                        "height": 0.0486,
-                        "width": 0.1494,
-                        "x": 0.4254,
-                        "y": 0.9005
-                    }
-                },
-                {
                     "name": "Multicolored Power/Toughness",
-                    "src": "/img/frames/m15/ub/pt/m.png",
+                    "src": "/img/frames/m15/regular/m15PTM.png",
                     "masks": [],
                     "bounds": {
                         "height": 0.0733,
@@ -28314,7 +28288,7 @@
                 },
                 {
                     "name": "Green Frame",
-                    "src": "/img/frames/m15/ub/regular/g.png",
+                    "src": "/img/frames/m15/regular/m15FrameG.png",
                     "masks": [
                         {
                             "src": "/img/frames/m15/regular/m15MaskPinline.png",
@@ -28328,7 +28302,7 @@
                 },
                 {
                     "name": "Black Frame",
-                    "src": "/img/frames/m15/ub/regular/b.png",
+                    "src": "/img/frames/m15/regular/m15FrameB.png",
                     "masks": [
                         {
                             "src": "/img/frames/m15/regular/m15MaskPinline.png",
@@ -28338,7 +28312,7 @@
                 },
                 {
                     "name": "Multicolored Frame",
-                    "src": "/img/frames/m15/ub/regular/m.png",
+                    "src": "/img/frames/m15/regular/m15FrameM.png",
                     "masks": [
                         {
                             "src": "/img/frames/m15/regular/m15MaskType.png",
@@ -28348,7 +28322,7 @@
                 },
                 {
                     "name": "Multicolored Frame",
-                    "src": "/img/frames/m15/ub/regular/m.png",
+                    "src": "/img/frames/m15/regular/m15FrameM.png",
                     "masks": [
                         {
                             "src": "/img/frames/m15/regular/m15MaskTitle.png",
@@ -28358,7 +28332,7 @@
                 },
                 {
                     "name": "Green Frame",
-                    "src": "/img/frames/m15/ub/regular/g.png",
+                    "src": "/img/frames/m15/regular/m15FrameG.png",
                     "masks": [
                         {
                             "src": "/img/frames/m15/regular/m15MaskRules.png",
@@ -28372,7 +28346,7 @@
                 },
                 {
                     "name": "Black Frame",
-                    "src": "/img/frames/m15/ub/regular/b.png",
+                    "src": "/img/frames/m15/regular/m15FrameB.png",
                     "masks": [
                         {
                             "src": "/img/frames/m15/regular/m15MaskRules.png",
@@ -28382,7 +28356,7 @@
                 },
                 {
                     "name": "Multicolored Frame",
-                    "src": "/img/frames/m15/ub/regular/m.png",
+                    "src": "/img/frames/m15/regular/m15FrameM.png",
                     "masks": [
                         {
                             "src": "/img/frames/m15/regular/m15MaskFrame.png",
@@ -28392,7 +28366,7 @@
                 },
                 {
                     "name": "Multicolored Frame",
-                    "src": "/img/frames/m15/ub/regular/m.png",
+                    "src": "/img/frames/m15/regular/m15FrameM.png",
                     "masks": [
                         {
                             "src": "/img/frames/m15/regular/m15MaskBorder.png",
@@ -28583,7 +28557,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Ward 2.\nWhen ~ enters, return target permanent card with mana value 3 or less from your graveyard to tbe battlefield.\nIf an opponent would create a Lumina token, you create a Lumina token instead.\nSacrifice a Lumina token: Add one mana of any color.\nSacrifice a Nevron: Add two mana of any one color.\n{2}{B/G}, {T}: Return target permanent card from your graveyard to your hand.\n",
+                    "text": "Ward 2.\nWhen The Scavenger enters, return target permanent card with mana value 3 or less from your graveyard to tbe battlefield.\nIf an opponent would create a Lumina token, you create a Lumina token instead.\nSacrifice a Lumina token: Add one mana of any color.\nSacrifice a Nevron: Add two mana of any one color.\n{2}{B/G}, {T}: Return target permanent card from your graveyard to your hand.\n",
                     "x": 0.086,
                     "y": 0.6325515280739161,
                     "width": 0.828,

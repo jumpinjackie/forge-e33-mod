@@ -18,9 +18,11 @@ Sandfall Interactive
 4/4
 [Oracle]
 Whenever a nontoken Nevron creature dies, exile it with a Foot counter.
-My, what lovely feet! - Monoco has activated abilities of all Nevrons in exile with a Foot counter on them. Monoco has flying as long as an exiled Nevron creature with a Foot counter has flying. The same is true for first strike, double strike, deathtouch, haste, hexproof, indestructible, lifelink, meance, reach, trample and vigilance.
+My, what lovely feet! — Monoco has activated abilities of all Nevrons in exile with a Foot counter on them. Monoco has flying as long as an exiled Nevron creature with a Foot counter has flying. The same is true for first strike, double strike, deathtouch, haste, hexproof, indestructible, lifelink, meance, reach, trample and vigilance.
 {1}{G}, {T}: Monoco fights target creature.
 {2}{W}: Untap Monoco.
+[AbilityWords]
+My, what lovely feet!
 [ForgeScript]
 T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Nevron.!token | Execute$ TrigExile | TriggerZones$ Battlefield | TriggerDescription$ Whenever a nontoken Nevron creature dies, exile it with a Foot counter.
 SVar:TrigExile:DB$ ChangeZone |  Defined$ TriggeredNewCardLKICopy | Origin$ Graveyard | Destination$ Exile | SubAbility$ DBPutCounter | RememberChanged$ True
