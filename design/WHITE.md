@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 4/11/2025 1:34:23 pm
+> Last generated: 4/11/2025 1:53:13 pm
 
 ## Chroma Barrier
 
@@ -243,7 +243,7 @@ Legendary Sorcery
 Destroy all non-basic lands.
 Search your library for a card named The Monolith, put it onto the battlefield and shuffle.
 ---
-The city of Lumiere was uprooted and flung into the ocean. Soon after, The Monolith appeared, bearing the number “100“. Nobody at the time knew what this number meant.
+The city of Lumiere was uprooted and flung into the ocean. Soon after, The Monolith appeared, bearing the number “100”. Nobody at the time knew what this number meant.
 ```
 
 [card implementation](../custom/cards/t/the_fracture.txt)
@@ -253,4 +253,5 @@ The city of Lumiere was uprooted and flung into the ocean. Soon after, The Monol
  - In the game, The Fracture is a cataclysmic event which marks the appearance of The Monolith and sets in motion the annual yearly gommage.
  - Mechanically, this event itself is only catalclysmic in terms of the continent landscape, while there may have been human casualties in this event, this event was more about the altered landscape of the continent, thus it is clear that this event should be a non-basic land mass destruction effect like Ruination (non-basic so it doesn't become a strictly better Armageddon and to reward players who play basic lands).
      - The tutoring effect for The Monolith thematically maps to the appearance of The Monolith in the game.
+ - 5/11/2025: NOTE the explicit unicode left and right double-quotes around the number 100 in the flavor text. This is intentional as it is to workaround a CardConjurer bug that improperly surrounds 100 with a pair of left unicode double quotes if you use regular ascii double quotes. DO NOT EDIT THIS unless you are going to rewrite the entire flavor text.
 
