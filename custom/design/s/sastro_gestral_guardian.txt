@@ -17,6 +17,8 @@ Sandfall Interactive
 When Sastro enters, put two 1/1 Gestral artifact creature tokens into play.
 {2}: Put a shield counter on target Gestral you control.
 Whenever another nontoken Gestral creature you control enters, create a Chroma token.
+[FlavorText]
+I sure love being irresponsible!
 [ForgeScript]
 T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigCreateTokens | TriggerDescription$ When CARDNAME enters, put 2 1/1 Gestral artifact creature tokens into play.
 SVar:TrigCreateTokens:DB$ Token | TokenScript$ a_1_1_gestral | TokenOwner$ You | TokenAmount$ 2
