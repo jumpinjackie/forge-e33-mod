@@ -148,6 +148,7 @@ Empty lines are discarded.
 
  - `~`: A reference to the name of this card. For non-legendary cards it will be `This [spell/creature/land/artifact/etc]`, for legendary cards it will be the name of the card (up to the first comma, if present).
  - `$DEVOID_REMINDER_TEXT`: Reminder text for the Devoid keyword.
+ - `$SHIELD_REMINDER_TEXT`: Reminder text for shield counters.
  - `$LEGENDARY_SORCERY_REMINDER_TEXT`: Reminder text for Legendary Sorceries.
  - `$INVESTIGATE_REMINDER_TEXT`: Reminder text for the investigate keyword.
  - `$CHROMA_REMINDER_TEXT`: Reminder text for the Chroma token.
@@ -214,6 +215,7 @@ SVar:TrigToken:DB$ Token | TokenScript$ c_a_chroma | TokenOwner$ You | TokenAmou
 
  - `~`: A reference to the name of this card. Will be converted to `CARDNAME`
  - `$DEVOID_REMINDER_TEXT`: Reminder text for the Devoid keyword.
+ - `$SHIELD_REMINDER_TEXT`: Reminder text for shield counters.
  - `$LEGENDARY_SORCERY_REMINDER_TEXT`: Reminder text for Legendary Sorceries.
  - `$INVESTIGATE_REMINDER_TEXT`: Reminder text for the investigate keyword.
  - `$CHROMA_REMINDER_TEXT`: Reminder text for the Chroma token.

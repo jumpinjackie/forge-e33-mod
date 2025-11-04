@@ -190,6 +190,7 @@ public class CardFaceDesign
         """);
         sb.Replace("~", "CARDNAME");
         sb.Replace("$DEVOID_REMINDER_TEXT", "(This card has no color.)");
+        sb.Replace("$SHIELD_REMINDER_TEXT", "(If it would be dealt damage or destroyed, remove a shield counter from it instead.)");
         sb.Replace("$LEGENDARY_SORCERY_REMINDER_TEXT", "(You may cast a legendary sorcery only if you control a legendary creature or planeswalker.)");
         sb.Replace("$INVESTIGATE_REMINDER_TEXT", "(Create a Clue token. It's an artifact with \"{2}, Sacrifice this token: Draw a card.\")");
         sb.Replace("$CHROMA_REMINDER_TEXT", "(It's an artifact with \"{T}, Sacrifice this token: Add one mana of any color. Spend this mana only to cast a Nevron, Gestral or Expeditioner spell.\")");
@@ -237,6 +238,7 @@ public class CardFaceDesign
         sb.Replace("\n~", "\n" + (string.IsNullOrEmpty(thisName) ? thisName : char.ToUpper(thisName[0]) + thisName.Substring(1)));
         sb.Replace("~", thisName);
         sb.Replace("$DEVOID_REMINDER_TEXT", "(This card has no color.)");
+        sb.Replace("$SHIELD_REMINDER_TEXT", "(If it would be dealt damage or destroyed, remove a shield counter from it instead.)");
         sb.Replace("$LEGENDARY_SORCERY_REMINDER_TEXT", "(You may cast a legendary sorcery only if you control a legendary creature or planeswalker.)");
         sb.Replace("$INVESTIGATE_REMINDER_TEXT", "(Create a Clue token. It's an artifact with \"{2}, Sacrifice this token: Draw a card.\")");
         sb.Replace("$CHROMA_REMINDER_TEXT", "(It's an artifact with \"{T}, Sacrifice this token: Add one mana of any color. Spend this mana only to cast a Nevron, Gestral or Expeditioner spell.\")");
