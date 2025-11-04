@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 3/11/2025 3:34:13 pm
+> Last generated: 4/11/2025 1:34:23 pm
 
 ## Catapault Sakapatate
 
@@ -209,6 +209,7 @@ Creature - Nevron
 Flying
 Spawns pots — When this creature enters, create two colorless 1/1 Nevron Pot creature tokens with "This creature attacks each combat if able".
 Buffs its allies — Nevrons you control have haste.
+When this creature dies, target opponent creates a Lumina token.
 
 2/2
 ```
@@ -218,6 +219,7 @@ Buffs its allies — Nevrons you control have haste.
 ### Design Notes
 
  - Nevron version of Deranged Hermit / Siege-Gang Commander
+ - 4/11/2025: Added missing death trigger for standard Nevrons
 
 ## Ranger Sakapatate
 

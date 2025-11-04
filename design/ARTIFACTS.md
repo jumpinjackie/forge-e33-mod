@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 3/11/2025 3:34:13 pm
+> Last generated: 4/11/2025 1:34:23 pm
 
 ## Anti-Burn
 
@@ -96,8 +96,9 @@ One family, united by art, divided by grief.
 Legendary Artifact Creature - Gestral
 Trample
 {2}: Put a flying counter on Dominique Giant Feet.
-Two-handed slam - {2}, {T}, Remove a flying counter from Dominique Giant Feet: Dominique Giant Feet deals 4 damage to target creature.
+Two-handed slam — {2}, {T}, Remove a flying counter from Dominique Giant Feet: Dominique Giant Feet deals 4 damage to target creature.
 At the beginning of each end step, remove all flying counters on Dominique Giant Feet.
+
 
 4/4
 ```
@@ -607,6 +608,8 @@ Legendary Artifact Creature - Gestral
 When Sastro enters, put two 1/1 Gestral artifact creature tokens into play.
 {2}: Put a shield counter on target Gestral you control.
 Whenever another nontoken Gestral creature you control enters, create a Chroma token.
+---
+I sure love being irresponsible!
 
 2/2
 ```

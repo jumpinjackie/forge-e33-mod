@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 3/11/2025 3:34:13 pm
+> Last generated: 4/11/2025 1:34:23 pm
 
 ## An Advantage!
 
@@ -296,7 +296,7 @@ Oh really? An Expedition? I certainly wasn't expecting that. But your presence h
 ```
 U
 Kindred Instant - Expeditioner
-Counter target Gradient spell
+Counter target Gradient spell.
 ---
 Parry it!
 ```

@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 3/11/2025 3:34:13 pm
+> Last generated: 4/11/2025 1:34:23 pm
 
 ## Chapelier
 
@@ -61,7 +61,7 @@ When this creature dies, target opponent creates a Lumina token.
 ```
 1BB
 Creature - Human Expeditioner
-{2}{B},{T}: Target creature gets -2/-2 until end of turn.
+{2}{B}, {T}: Target creature gets -2/-2 until end of turn.
 Sacrifice three Lumina tokens: Destroy target Nevron creature.
 When this creature dies, create a Chroma token.
 ---
@@ -120,9 +120,9 @@ Sorcery
 All non-Nevron, non-Painter creatures get -2/-2 until end of turn.
 Cycling {2} ({2}, Discard this card: Draw a card.)
 ---
-You- You're old. How did you-
+"You- You're old. How did you-
 How did you survive the Gommage?
-Which expedition are you fr-
+Which expedition are you fr-"
 ```
 
 [card implementation](../custom/cards/m/massacre_at_dark_shores.txt)
@@ -140,7 +140,7 @@ Which expedition are you fr-
 4BB
 Creature - Nevron
 Ward 2.
-This creature enters with a shield counter.
+This creature enters with a shield counter. (If it would be dealt damage or destroyed, remove a shield counter from it instead.)
 Gathers dark chroma — {4}{B}, {T}: Tap up to two target creatures.
 Summons dark spear — {2}{B}, {T}: This creature deals 2 damage to target creature. You gain 2 life.
 When this creature dies, target opponent creates a Lumina token.

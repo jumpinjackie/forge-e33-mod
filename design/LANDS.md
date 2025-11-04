@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 3/11/2025 3:34:13 pm
+> Last generated: 4/11/2025 1:34:23 pm
 
 ## Crushing Cavern
 
@@ -27,7 +27,7 @@ If anyone finds this journal, do not enter this cave, the Nevron inside will cru
 ```
 
 Land
-As this land enters, you may reveal a Nevron card from your hand. If you don't this land enters tapped.
+As this land enters, you may reveal a Nevron card from your hand. If you don't, this land enters tapped.
 {T}: Add {U} or {B}.
 {T}: Add {U}{B}. Spend this mana only to cast Nevron spells or activate abilities of Nevrons. This land doesn't untap during your next untap step.
 ---

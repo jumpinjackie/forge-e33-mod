@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 3/11/2025 3:34:13 pm
+> Last generated: 4/11/2025 1:34:23 pm
 
 ## A Storm is Coming
 
@@ -83,12 +83,12 @@ When this creature dies, target opponent creates a Lumina token.
 ## Benisseur
 
 ```
-2WG
+2RG
 Creature - Nevron
 Vigilance.
 Summons protective bubbles — this creature enters with a shield counter on it.
 Bubbles are shielding enemies — {2}{G}, {T}: Put a shield counter on target creature you control.
-Launches projectiles from its hat — {2}{W}, {T}: This creature deals 2 damage to target attacking creature. Put a stun counter on it.
+Launches projectiles from its hat — {2}{R}, {T}: This creature deals 2 damage to target attacking creature. Put a stun counter on it.
 When this creature dies, target opponent creates a Lumina token.
 
 4/4
@@ -100,8 +100,9 @@ When this creature dies, target opponent creates a Lumina token.
 
  - Currently a placeholder vanilla Nevron. Abilities TBD.
  - 23/09/2025: TODO: Replace white with a different color if intending to stay multi-color to make way for White Nevrons.
- - 13/10/2025: Removed Devoid and pivoted to WG instead of WR
+ - 13/10/2025: Removed Devoid and pivoted to WG instead of WR.
  - 21/10/2025: Granted a series of defensive abilities
+ - 4/11/2025: Change color identity from WG to GR. All abilities costing white mana now cost red.
 
 ## Braseleur
 
@@ -305,6 +306,7 @@ When Esquie attacks, if you control a card named Urrie, Surveil 2.
 When Esquie attacks, if it is saddled, choose one —
 • Draw a card.
 • Put a land card from your hand onto the battlefield.
+
 
 6/6
 ```
@@ -655,8 +657,8 @@ If I were a 2-year-old human, at what age would I gommage? ... You're probably r
 (U/R)
 Enchantment
 Whenever a creature you control becomes the target of a spell or ability, you may put a quest counter on this enchantment.
-Normal Difficulty - As long as this enchantment has three or more quest counters on it, whenever a creature you control becomes the target of a spell or ability, draw a card.
-Hard Difficulty - {U/R}{U/R}: You may choose new targets for target spell or ability. Activate this ability only if this enchantment has five or more quest counters on it.
+Normal Difficulty — As long as this enchantment has three or more quest counters on it, whenever a creature you control becomes the target of a spell or ability, draw a card.
+Hard Difficulty — {U/R}{U/R}: You may choose new targets for target spell or ability. Activate this ability only if this enchantment has five or more quest counters on it.
 ---
 Oh, you won. You deserve this reward. Have fun with it!
 ```
@@ -746,9 +748,11 @@ Search your library for a Gradient card, reveal that card, put it into your hand
 1W(U/R)
 Legendary Creature - Human Expeditioner
 Whenever Gustave becomes untapped, attacks or blocks, put a charge counter on him.
-From Fire - {W}{R},{T}: Gustave deals 3 damage to target creature, you gain 3 life.
-Strike Storm - {W}{R}: Gustave gains double-strike until ene of turn, put two charge counters on him. Activate only once per turn.
-Overcharge - {T}, Remove X charge counters from Gustave: Gustave deals X damage to target creature and that creature's controller.
+From Fire — {W}{R},{T}: Gustave deals 3 damage to target creature, you gain 3 life.
+Strike Storm — {W}{R}: Gustave gains double-strike until ene of turn, put two charge counters on him. Activate only once per turn.
+Overcharge — {T}, Remove X charge counters from Gustave: Gustave deals X damage to target creature and that creature's controller.
+---
+For those who come after.
 
 3/3
 ```
@@ -969,7 +973,7 @@ When you unlock this door, it deals 3 damage to any target.
 2(W/G)(W/G)
 Legendary Artifact Creature - Gestral Expeditioner
 Whenever a nontoken Nevron creature dies, exile it with a Foot counter.
-My, what lovely feet! - Monoco has activated abilities of all Nevrons in exile with a Foot counter on them. Monoco has flying as long as an exiled Nevron creature with a Foot counter has flying. The same is true for first strike, double strike, deathtouch, haste, hexproof, indestructible, lifelink, meance, reach, trample and vigilance.
+My, what lovely feet! — Monoco has activated abilities of all Nevrons in exile with a Foot counter on them. Monoco has flying as long as an exiled Nevron creature with a Foot counter has flying. The same is true for first strike, double strike, deathtouch, haste, hexproof, indestructible, lifelink, meance, reach, trample and vigilance.
 {1}{G}, {T}: Monoco fights target creature.
 {2}{W}: Untap Monoco.
 
@@ -991,8 +995,9 @@ My, what lovely feet! - Monoco has activated abilities of all Nevrons in exile w
 ```
 WB
 Legendary Creature - Painter God
-Each player who has cast a non-Nevron, non-Gradient spell this turn can’t cast additional non-Nevron, non-Gradient spells.
-Sacrifice three Chroma tokens: Your opponents can't cast spells this turn.
+Activated abilities of Expeditioners, Chroma, Lumina and Pictos cannot be activated.
+---
+Her silence is deafening.
 
 2/2
 ```
@@ -1005,6 +1010,7 @@ Sacrifice three Chroma tokens: Your opponents can't cast spells this turn.
  - Thematically gone with another variant of silence effects to mirror her human counterpart.
     - In this case, an Ethersworn Canonist with Nevron/Painter bias.
     - And a Silence effect for the cost of 3 chroma tokens.
+ - 4/11/2025: Exchanged abiltiies with human Alicia. Replaced Nevrons with Expeditioners for the null rod effect.
 
 ## Painted Clea, the Mistress
 
@@ -1041,7 +1047,7 @@ Sacrifice a Nevron: Draw a card.
 Kindred Instant - Expeditioner
 This spell costs {1} less to cast if you control an Expeditioner.
 Choose one —
-• Create two 1/1 white Human Expeditioner tokens with "When this creature dies, create a Chroma token.".
+• Create two 1/1 white Human Expeditioner tokens with "When this creature dies, create a Chroma token."
 • Up to two target creatures you control each get +2/+2 until end of turn.
 • Destroy target non-Expeditioner creature.
 ```
@@ -1184,6 +1190,7 @@ If an opponent would create a Lumina token, you create a Lumina token instead.
 Sacrifice a Lumina token: Add one mana of any color.
 Sacrifice a Nevron: Add two mana of any one color.
 {2}{B/G}, {T}: Return target permanent card from your graveyard to your hand.
+
 
 4/4
 ```
