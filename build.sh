@@ -4,8 +4,8 @@
 
 set -eu
 
-# Root of the repo (current working directory when script is run)
-ROOT="$(pwd)"
+# Root of the repo (directory containing this script)
+ROOT="$(cd "$(dirname "$0")" && pwd)"
 
 # Directory to use instead of %APPDATA%\Forge on Windows
 FORGE_DIR="${HOME}/.forge"
