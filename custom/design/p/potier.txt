@@ -16,6 +16,7 @@ Sandfall Interactive
 Flying
 Spawns pots — When ~ enters, create two colorless 1/1 Nevron Pot creature tokens with "This creature attacks each combat if able".
 Buffs its allies — Nevrons you control have haste.
+$NEVRON_DEATH_ABILITY_TEXT
 [AbilityWords]
 Spawns pots
 Buffs its allies
@@ -24,5 +25,7 @@ K:Flying
 T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigCreateTokens | TriggerDescription$ When ~ enters, create two colorless 1/1 Nevron Pot creature tokens with "This creature attacks each combat if able".
 SVar:TrigCreateTokens:DB$ Token | TokenScript$ c_1_1_pot_nevron | TokenOwner$ You | TokenAmount$ 2
 S:Mode$ Continuous | Affected$ Nevron.YouCtrl | AddKeyword$ Haste | Description$ Nevrons you control have haste.
+$NEVRON_DEATH_ABILITY
 [DesignNotes]
  - Nevron version of Deranged Hermit / Siege-Gang Commander
+ - 4/11/2025: Added missing death trigger for standard Nevrons
