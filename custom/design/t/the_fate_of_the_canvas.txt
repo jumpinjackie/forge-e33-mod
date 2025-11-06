@@ -16,7 +16,7 @@ Choose one —
 Fight as Verso
 Fight as Maelle
 [FlavorText]
-Decide the fate ...
+Life keeps forcing cruel choices ...
 [ForgeScript]
 A:SP$ Charm | Choices$ DBVerso,DBMaelle
 SVar:DBVerso:DB$ ChangeZoneAll | ChangeType$ Card | Origin$ Battlefield | Destination$ Exile | SubAbility$ ExileAllGraveyards | SpellDescription$ Exile all permanents. Exile all graveyards. Each player exiles their hand.
