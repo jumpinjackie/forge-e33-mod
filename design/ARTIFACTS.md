@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 6/11/2025 12:57:52 pm
+> Last generated: 6/11/2025 1:03:48 pm
 
 ## Anti-Burn
 

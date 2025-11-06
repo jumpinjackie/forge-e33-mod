@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 6/11/2025 12:57:52 pm
+> Last generated: 6/11/2025 1:03:48 pm
 
 ## Chroma Barrier
 
@@ -151,7 +151,7 @@ Please survive!
 2WW
 Kindred Instant - Expeditioner
 Create two 1/1 white Human Expeditioner tokens with "When this creature dies, create a Chroma token."
-Flashback — Sacrifice two Chroma tokens.
+Flashback — Sacrifice two Lumina tokens.
 ```
 
 [card implementation](../custom/cards/l/lumiere_assault.txt)
@@ -159,6 +159,7 @@ Flashback — Sacrifice two Chroma tokens.
 ### Design Notes
 
  - Primarily designed to support the Crippling Tsunami Prison strategy
+ - 7/11/2025: Changed flashback cost from saccing 2 Chroma tokens to 2 Lumina tokens.
 
 ## Lumierian Apprentice
 
