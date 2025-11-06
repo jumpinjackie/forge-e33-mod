@@ -14,6 +14,11 @@ This is the pots outside the Dark Gestral Arena
 This card enters tapped.
 {T}: Add {C}.
 {2}: This card becomes a 2/2 Gestral artifact creature until end of turn.
+[FlavorText]
+"Someone's here."
+"Is it Golgra?"
+"Impossible! Golgra could never find us."
+"Aww jeez, I just got reborn, I don't want to die again."
 [ForgeScript]
 R:Event$ Moved | ValidCard$ Card.Self | Destination$ Battlefield | ReplacementResult$ Updated | ReplaceWith$ ETBTapped | Description$ CARDNAME enters tapped.
 SVar:ETBTapped:DB$ Tap | Defined$ Self | ETB$ True

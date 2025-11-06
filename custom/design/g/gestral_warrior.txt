@@ -14,10 +14,10 @@ Sandfall Interactive
 3/3
 [Oracle]
 ~ cannot attack or block alone.
+[FlavorText]
+You may come in.
 [ForgeScript]
 K:CARDNAME can't attack or block alone.
-[FlavorText]
-
 [DesignNotes]
  - In the game, Gestral Warriors reside in the Gestral Village.
  - Gestral version of Mogg Flunkies.
