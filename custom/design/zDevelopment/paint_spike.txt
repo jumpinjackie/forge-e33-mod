@@ -1,0 +1,31 @@
+[Name]
+Paint Spike
+[ManaCost]
+2
+[Types]
+Artifact
+Creature
+Wall
+[Rarity]
+U
+[PT]
+0/4
+[Oracle]
+Defender.
+When ~ enters, draw a card.
+When ~ dies, choose one —
+• Create a Chroma token.
+• Create a Lumina token.
+[FlavorText]
+There must be some good loot behind there!
+[ForgeScript]
+K:Defender
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigDraw | TriggerDescription$ When CARDNAME enters, draw a card.
+SVar:TrigDraw:DB$ Draw | Defined$ You | NumCards$ 1
+T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Card.Self | Execute$ TrigChoose | TriggerDescription$ When CARDNAME dies, ABILITY
+SVar:TrigChoose:DB$ Charm | Choices$ DBChroma,DBLumina | CharmNum$ 1
+SVar:DBChroma:DB$ Token | TokenAmount$ 1 | TokenOwner$ You | TokenScript$ c_a_chroma | SpellDescription$ Create a Chroma token.
+SVar:DBLumina:DB$ Token | TokenAmount$ 1 | TokenOwner$ You | TokenScript$ c_a_lumina | SpellDescription$ Create a Lumina token.
+[DesignNotes]
+ - In the game, Paint Spikes are obstacles that block a secret/hidden area that normally has extra loot. The ability to break these barriers is unlocked when you rescue all the lost gestrals.
+ - Mechanically represented as a wall. Gone with an artifact version of Wall of Blossoms with a chroma/lumina reward on death to symbolize the loot available now that this is no longer obstructing.

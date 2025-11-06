@@ -1,0 +1,12 @@
+Name:Paint Spike
+ManaCost:2
+Types:Artifact Creature Wall
+PT:0/4
+K:Defender
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigDraw | TriggerDescription$ When CARDNAME enters, draw a card.
+SVar:TrigDraw:DB$ Draw | Defined$ You | NumCards$ 1
+T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Card.Self | Execute$ TrigChoose | TriggerDescription$ When CARDNAME dies, ABILITY
+SVar:TrigChoose:DB$ Charm | Choices$ DBChroma,DBLumina | CharmNum$ 1
+SVar:DBChroma:DB$ Token | TokenAmount$ 1 | TokenOwner$ You | TokenScript$ c_a_chroma | SpellDescription$ Create a Chroma token.
+SVar:DBLumina:DB$ Token | TokenAmount$ 1 | TokenOwner$ You | TokenScript$ c_a_lumina | SpellDescription$ Create a Lumina token.
+Oracle:Defender.\nWhen this creature enters, draw a card.\nWhen this creature dies, choose one —\n• Create a Chroma token.\n• Create a Lumina token.
