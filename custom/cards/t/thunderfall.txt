@@ -1,0 +1,7 @@
+Name:Thunderfall
+ManaCost:R
+Types:Kindred Instant Expeditioner
+A:SP$ DealDamage | ValidTgts$ Any | NumDmg$ X | SpellDescription$ CARDNAME deals 2 damage to any target. Metalcraft — CARDNAME deals 4 damage instead if you control 3 or more artifacts.
+SVar:LuminaTotal:Count$Valid Lumina.YouCtrl
+SVar:X:Count$Compare LuminaTotal GE3.4.2
+Oracle:Thunderfall deals 2 damage to any target.\nLuminous — Thunderfall deals 4 damage instead if you control at least three Lumina tokens.

@@ -1,0 +1,22 @@
+[Name]
+Thunderfall
+[ManaCost]
+R
+[Types]
+Kindred
+Instant
+Expeditioner
+[Rarity]
+C
+[Oracle]
+~ deals 2 damage to any target.
+Luminous — ~ deals 4 damage instead if you control at least three Lumina tokens.
+[AbilityWords]
+Luminous
+[ForgeScript]
+A:SP$ DealDamage | ValidTgts$ Any | NumDmg$ X | SpellDescription$ CARDNAME deals 2 damage to any target. Metalcraft — CARDNAME deals 4 damage instead if you control 3 or more artifacts.
+SVar:LuminaTotal:Count$Valid Lumina.YouCtrl
+SVar:X:Count$Compare LuminaTotal GE3.4.2
+[DesignNotes]
+ - In the game, Thunderfall is one of Lune's skills that deals lightning damage.
+ - As part of making Lumina tokens matter, this card has been modeled on Galvanic Blast, but with Luminous instead of Metalcraft.
