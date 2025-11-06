@@ -1,0 +1,23 @@
+[Name]
+Healing Tint
+[ManaCost]
+2
+[Types]
+Artifact
+[Rarity]
+U
+[Artist]
+Sandfall Interactive
+[Oracle]
+Sacrifice ~: Target player gains 5 life.
+Luminous — Sacrifice ~: Target player gains 10 life. Activate this ability only if you control at least three Lumina tokens.
+[AbilityWords]
+Luminous
+[ForgeScript]
+A:AB$ GainLife | Cost$ T Sac<1/CARDNAME> | ValidTgts$ Player | TgtPrompt$ Select target player | LifeAmount$ 5 | SpellDescription$ Target player gains 5 life.
+A:AB$ GainLife | Cost$ T Sac<1/CARDNAME> | ValidTgts$ Player | TgtPrompt$ Select target player | LifeAmount$ 10 | IsPresent$ Lumina.YouCtrl | PresentCompare$ GE3 | SpellDescription$ Target player gains 10 life. Activate this ability only if you control at least three Lumina tokens.
+[DesignNotes]
+ - In the game, health tints restore party member HP during a battle or outside of battle when not near an Expedition flag.
+ - Another enabler for Lumina token strategies
+ - 26/10/2025: Made lifegain targeted to support The 67th Gommage strategy
+ - 6/11/2025: Renamed from "Health Tint"

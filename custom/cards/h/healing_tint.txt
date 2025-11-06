@@ -1,0 +1,6 @@
+Name:Healing Tint
+ManaCost:2
+Types:Artifact
+A:AB$ GainLife | Cost$ T Sac<1/CARDNAME> | ValidTgts$ Player | TgtPrompt$ Select target player | LifeAmount$ 5 | SpellDescription$ Target player gains 5 life.
+A:AB$ GainLife | Cost$ T Sac<1/CARDNAME> | ValidTgts$ Player | TgtPrompt$ Select target player | LifeAmount$ 10 | IsPresent$ Lumina.YouCtrl | PresentCompare$ GE3 | SpellDescription$ Target player gains 10 life. Activate this ability only if you control at least three Lumina tokens.
+Oracle:Sacrifice this artifact: Target player gains 5 life.\nLuminous — Sacrifice this artifact: Target player gains 10 life. Activate this ability only if you control at least three Lumina tokens.
