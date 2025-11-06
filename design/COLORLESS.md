@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 4/11/2025 1:34:23 pm
+> Last generated: 6/11/2025 12:21:32 pm
 
 ## Chalier
 
@@ -40,5 +40,4 @@ When this creature dies, target opponent creates two Chroma tokens and two Lumin
  - Shield counters to represent the tankiness.
  - Bounce back to hand to symbolize it running away.
  - Giving opponent Chroma/Lumina tokens on death symbolizes the loot reward for defeating it.
- - Reward is not triggering. See BUGS.md
 

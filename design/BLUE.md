@@ -1,13 +1,13 @@
 # Cards
 
-> Last generated: 4/11/2025 1:34:23 pm
+> Last generated: 6/11/2025 12:21:32 pm
 
 ## An Advantage!
 
 ```
 U
 Kindred Sorcery - Expeditioner
-Create three Lumina tokens. (It's an artifact with "{T}, Sacrifice this token: Scry 1.")
+Create three Lumina tokens. (It's an artifact with "{T}, Sacrifice this artifact: Scry 1.")
 Draw a card at the beginning of the next turn's upkeep.
 ```
 
@@ -474,6 +474,7 @@ If {G} was spent on this spell, you gain 2 life for each creature on the battlef
  - No black bonus because Lune does not have dark/black magic alignment.
  - Because this is a top tier gradient attack performed by an Expeditioner, this is one of the rare spells that has both Gradient and Expeditioner sub-types.
  - 30/09/2025: Cost adjusted from 3UU to 2UU so that you can't pick all 3 bonuses since the R bonus and W bonus kind of achieve the same goal.
+ - 3/11/2025: Cost bumped back up to 3UU and the R bonus changed to direct damage on any target.
 
 ## Swift Counter
 
@@ -536,7 +537,7 @@ If {G} was spent on this spell, you gain 3 life.
 ```
 3U
 Enchantment
-You may have this enchantment enter as a copy of any permanent on the battlefield, except it is an enchantment in addition to its other types and has "When this enchantment leaves the battlefield, create a Chroma token (It's an artifact with "{T}, Sacrifice this token: Add one mana of any color. Spend this mana only to cast a Nevron, Gestral or Expeditioner spell.")"
+You may have this enchantment enter as a copy of any permanent on the battlefield, except it is an enchantment in addition to its other types and has "When this enchantment leaves the battlefield, create a Chroma token (It's an artifact with "{T}, Sacrifice this artifact: Add one mana of any color. Spend this mana only to cast a Nevron, Gestral or Expeditioner spell.")"
 ```
 
 [card implementation](../custom/cards/v/verisimilitude.txt)

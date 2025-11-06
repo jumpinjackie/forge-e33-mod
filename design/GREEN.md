@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 4/11/2025 1:34:23 pm
+> Last generated: 6/11/2025 12:21:32 pm
 
 ## Abbest
 
@@ -122,7 +122,8 @@ Creature - Human Expeditioner
 This creature can't be blocked except by creatures with flying.
 When this creature dies, create a Chroma token.
 ---
-I still remember the first mountain we scaled. Watching the sun rise above the clouds was magical. But rappelling down as we set the handholds was pure exhilaration. - Fleur
+I still remember the first mountain we scaled. Watching the sun rise above the clouds was magical. But rappelling down as we set the handholds was pure exhilaration.
+- Fleur, Expedition 69
 
 3/2
 ```

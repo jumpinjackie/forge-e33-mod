@@ -2,7 +2,7 @@
 
 ## Nevron Midrange
 
-A midrange deck akin to Eldrazi.
+A midrange deck akin to Eldrazi. Planeswalker and Painted Clea provide the value engine.
 
 ## Nevron Pecking Order Toolbox
 
@@ -10,27 +10,31 @@ A deck centered around the value engine of Nevron Pecking Order + Revive Tint an
 
 ## Gestral Tribal
 
-A "go wide" aggro deck that heavily emphasizes the fight mechanic (Gestrals love to fight after all). Golgra serves as the "lord"
+A "go wide" aggro deck that utilizes the fight mechanic for addressing certain creatures (Gestrals love to fight after all). Golgra serves as the "lord".
 
 ## Esquie Rock Tron
 
 A deck that attempts to rapidly assemble the "Urzatron" of the 4 legendary rocks (Soarrie, Florrie, Dorrie and Urrie), which unlocks a whole suite of extra abilities in various cards and superpowers Esquie (the namesake)
 
+## The 67th Gommage Combo
+
+A combo deck that aims to get an opponent to 33 or higher life so that resolving The 67th Gommage automatically wins the game.
+
 ## The Greatest Expedition In History Combo
 
-A combo deck that chains many Lumina and Token generation spells to quickly assemble the 33 permanents needed to win the game with The Greatest Expedition In History
+A combo deck that chains many Lumina and Token generation spells to quickly assemble the 33 permanents needed to win the game with The Greatest Expedition In History.
 
-## Blue Skies
+## Skies
 
 An all-flyers tempo deck.
 
 ## Crippling Tsunami Prison
 
-A prison deck utilising Crippling Tsunami and token generation strategies for board lockdown.
+A prison deck utilising Crippling Tsunami / Bound by Chains and token generation strategies for board lockdown.
 
 ## Room Control
 
-A control deck with emphasis on land/mana ramp and using Manor Rooms for utility.
+A control deck with emphasis on land/mana ramp and using Manor Rooms for utility and Manor Door to extract extra uses for Manor Rooms already in play.
 
 ## Expeditioners
 

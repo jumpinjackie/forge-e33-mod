@@ -29,7 +29,7 @@ From this list, card designs are spawned from it, which will eventually form the
 
 ## Card Name List
 
-Cards implemented: 208/288
+Cards implemented: 210/289
 
 [x] - Card is implementned or in development, [ ] - Card is not implemented
 
@@ -247,7 +247,7 @@ Cards implemented: 208/288
 [ ] Ono-Puncho
 [ ] Orphelin
 [ ] Paint Cage
-[ ] Paint Spike
+[x] Paint Spike
 [x] Painted Alicia, Eternally Suffering
 [x] Painted Clea, the Mistress
 [ ] Painted Love
@@ -295,6 +295,7 @@ Cards implemented: 208/288
 [x] Terraquake
 [x] The 67th Gommage
 [ ] The Curator
+[x] The Fate of the Canvas
 [x] The Fracture
 [x] The Greatest Expedition in History
 [x] The Hauler

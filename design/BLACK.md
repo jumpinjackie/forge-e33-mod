@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 4/11/2025 1:34:23 pm
+> Last generated: 6/11/2025 12:21:32 pm
 
 ## Chapelier
 
@@ -54,7 +54,7 @@ When this creature dies, target opponent creates a Lumina token.
 ### Design Notes
 
  - In the game, Echassiers are found in The Reacher and Renoir's Drafts.
- - Mapped the "Double the blgiht & Heals allies" ability to 1 toughness setting and life gain.
+ - Mapped the "Double the blight & Heals allies" ability to 1 toughness setting and life gain.
 
 ## Expedition 62 Hunter
 
@@ -131,7 +131,7 @@ Which expedition are you fr-"
 
  - This symbolizes the moment after the prologue when Expedition 33 lands at Dark Shores, encounter Painted Renoir and proceed to have all but 5 members be wiped out by P.Renoir and his cohort of Nevrons.
  - Another mini-sweeper to give Nevron tribal decks some fight against "go wide" strategies.
- - 7/10/2025: Added non-Painter clause because this event was a joint Nevon/Painter production.
+ - 7/10/2025: Added non-Painter clause because this event was a joint Nevron/Painter production.
  - 3/11/2025: Added cycling 2 so it at least has some marginal value in draft/limited if you have this but no supporting strategy.
 
 ## Noir

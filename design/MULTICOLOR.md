@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 4/11/2025 1:34:23 pm
+> Last generated: 6/11/2025 12:21:32 pm
 
 ## A Storm is Coming
 
@@ -989,6 +989,7 @@ My, what lovely feet! — Monoco has activated abilities of all Nevrons in exile
  - Exile with a Foot counter is a book-keeping mechanism to easily track which creatures Monoco will be stealing abilities from.
  - Fight ability provided because Monoco is a Gestral, and Gestrals love to fight, and also serves as an enabler for ability stealing.
  - The untap ability is provided for synergy with any tap activated abilities that Monoco may steal.
+ - 3/11/2025: Added Expeditioner sub-type
 
 ## Painted Alicia, Eternally Suffering
 
@@ -1021,6 +1022,9 @@ Nevron spells you cast cost {2} less to cast.
 Nevron creatures you control get +1/+1.
 At the beginning of your upkeep, create a 1/1 colorless Nevron creature token.
 Sacrifice a Nevron: Draw a card.
+---
+Verso: What happened to her?
+Maelle: I bet Clea hated Maman's portrait of her. So she painted over her.
 
 3/4
 ```
@@ -1164,6 +1168,25 @@ Storm. (When you cast this spell, copy it for each spell cast before it this tur
  - In the game, this is one of Gustave's abilities.
  - Mechanically translated to a storm-powered combat trick (it has storm in it's name!).
 
+## The Fate of the Canvas
+
+```
+4WB
+Sorcery
+Choose one —
+• Fight as Verso — Exile all permanents. Exile all graveyards. Each player exiles their hand.
+• Fight as Maelle — Return to the battlefield all Humans and Expeditioners you own from your graveyard and in exile.
+---
+Decide the fate ...
+```
+
+[card implementation](../custom/cards/t/the_fate_of_the_canvas.txt)
+
+### Design Notes
+
+ - In the game, this is the final point of no return that culminates in one of the two possible endings of the game.
+ - Simply mechanically translated to a mass reset or mass resurrection.
+
 ## The Greatest Expedition in History
 
 ```
@@ -1264,12 +1287,12 @@ When this creature dies, target opponent creates a Lumina token.
 ```
 1U(W/B)
 Legendary Creature - Human Expeditioner
-Whenever , Who Guards Truth With Lies untaps or deals damage, put a rank counter on him.
-Whenever , Who Guards Truth With Lies is dealt damage, remove all rank counters from him.
-Immortality — {1}{W}{B}: Return , Who Guards Truth With Lies from your graveyard to the battlefield tapped with a stun counter.
-Strike Storm — , Who Guards Truth With Lies has Double Strike as long has he has 3 or more rank counters.
-Marking Shot — {U/B}, {T}: , Who Guards Truth With Lies deals 1 damage to any target. If you have 3 or more rank counters, it deals 2 damage to any target instead.
-Phantom Stars — {4}{W}, {T}, remove X rank counters from , Who Guards Truth With Lies: , Who Guards Truth With Lies deals X damage to each creature your opponents controls.
+Whenever Verso untaps or deals damage, put a rank counter on him.
+Whenever Verso is dealt damage, remove all rank counters from him.
+Immortality — {1}{W}{B}: Return Verso from your graveyard to the battlefield tapped with a stun counter.
+Strike Storm — Verso has Double Strike as long has he has 3 or more rank counters.
+Marking Shot — {U/B}, {T}: Verso deals 1 damage to any target. If you have 3 or more rank counters, it deals 2 damage to any target instead.
+Phantom Stars — {4}{W}, {T}, remove X rank counters from Verso: Verso deals X damage to each creature your opponents controls.
 ---
 Here we go
 
@@ -1325,6 +1348,7 @@ Fuse (You may cast one or both halves of this card from your hand.)
 
  - In the game, Esquie describes his moods as sometimes being Whee (happy) and sometimes being Whoo (sad)
  - Mechanically, I based Whoo on Melancholy, but for all creatures. Once I got the Whoo part down, the Whee part is obviously the opposite effect. And since sometimes one can feel a little bit of Whee and a little bit of Whoo, I've added the Fuse ability so that both halves can be cast at once.
+ - 4/11/2025: Went with stun counters for Whoo which gives the same effect but simplifies book-keeping as physical counters are involved.
 
 ## When One Falls // We Continue
 

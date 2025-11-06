@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 4/11/2025 1:34:23 pm
+> Last generated: 6/11/2025 12:21:32 pm
 
 ## Catapault Sakapatate
 
@@ -95,7 +95,7 @@ This only truly ends if you destroy the canvas, and that means stopping the fina
 1R
 Kindred Instant - Expeditioner
 Target creature gains double strike until end of turn. (It deals both first-strike and regular combat damage.)
-Create a Lumina token. (It's an artifact with "{T}, Sacrifice this token: Scry 1.")
+Create a Lumina token. (It's an artifact with "{T}, Sacrifice this artifact: Scry 1.")
 ```
 
 [card implementation](../custom/cards/f/fortunes_fury.txt)
@@ -112,7 +112,7 @@ Create a Lumina token. (It's an artifact with "{T}, Sacrifice this token: Scry 1
 2R
 Kindred Sorcery - Gestral
 As an additional cost to cast this spell, sacrifice a Gestral.
-This spell deals 5 damage to any target.
+Gestral Volleyball Strike deals 5 damage to any target.
 ```
 
 [card implementation](../custom/cards/g/gestral_volleyball_strike.txt)

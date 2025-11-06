@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 4/11/2025 2:03:01 pm
+> Last generated: 6/11/2025 12:21:32 pm
 
 ## Anti-Burn
 
@@ -24,7 +24,7 @@ Sacrifice two Lumina tokens: Create a token copy of this artifact attached to ta
 ```
 3
 Legendary Artifact Creature - Gestral
-At the beginning of your upkeep, you may mill a card. If you do, create two Lumina tokens. (It's an artifact with "{T}, Sacrifice this token: Scry 1.")
+At the beginning of your upkeep, you may mill a card. If you do, create two Lumina tokens. (It's an artifact with "{T}, Sacrifice this artifact: Scry 1.")
 ---
 You found all the journals? Moshi will be so happy.
 
@@ -263,7 +263,7 @@ Whenever Gestral Lackey deals damage to a player, you may put a Gestral permanen
 ```
 3
 Artifact Creature - Gestral
-Whenever this creature is dealt damage, create a Chroma token (It's an artifact with "{T}, Sacrifice this token: Add one mana of any color. Spend this mana only to cast a Nevron, Gestral or Expeditioner spell.")
+Whenever this creature is dealt damage, create a Chroma token (It's an artifact with "{T}, Sacrifice this artifact: Add one mana of any color. Spend this mana only to cast a Nevron, Gestral or Expeditioner spell.")
 ---
 I have some useful items for you!
 
@@ -286,6 +286,11 @@ Artifact
 This card enters tapped.
 {T}: Add {C}.
 {2}: This card becomes a 2/2 Gestral artifact creature until end of turn.
+---
+"Someone's here."
+"Is it Golgra?"
+"Impossible! Golgra could never find us."
+"Aww jeez, I just got reborn, I don't want to die again."
 ```
 
 [card implementation](../custom/cards/g/gestral_pot.txt)
@@ -338,7 +343,7 @@ Expeditioners, eh? You're a fun looking bunch. Unless you try to cause problems.
 Artifact Creature - Gestral
 This creature cannot attack or block alone.
 ---
-
+You may come in.
 
 3/3
 ```
@@ -462,6 +467,8 @@ Haymaker — {2}: Julien gains trample until end of turn.
 3
 Legendary Artifact Creature - Gestral
 {2}, {T}: Target Gestral you control fights another target creature. (Each deals damage equal to its power to the other.)
+---
+Did I mention the prize is a powerful weapon? So, how about it?
 
 2/2
 ```
@@ -519,6 +526,9 @@ Artifact
 {T}, Remove a counter from a permanent you control: Create a Lumina token.
 {T}, Sacrifice a Chroma token: Create a Lumina token.
 {T}, Sacrifice a Nevron: Create a Lumina token.
+---
+It's about time you test it in real conditions.
+- Lune
 ```
 
 [card implementation](../custom/cards/l/lumina_converter.txt)
@@ -565,6 +575,29 @@ Tap three creatures you control: Untap Matthieu.
  - Has the word "Colossus" in its name, so therefore it's the big fatty Gestral of the set.
  - Modeled mostly on Phyrexian Colossus, but with Trample, downgraded Super-Menace to Menace and changed the untap cost to tapping 3 other creatures instead of life payment.
  - Yes, it can be Lackey'd out, but I can accept the variance on that line and also needing 3 other creatures to untap it will keep this line grounded.
+
+## Paint Spike
+
+```
+2
+Artifact Creature - Wall
+Defender.
+When this creature enters, draw a card.
+When this creature dies, choose one —
+• Create a Chroma token.
+• Create a Lumina token.
+---
+There must be some good loot behind there!
+
+0/4
+```
+
+[card implementation](../custom/cards/p/paint_spike.txt)
+
+### Design Notes
+
+ - In the game, Paint Spikes are obstacles that block a secret/hidden area that normally has extra loot. The ability to break these barriers is unlocked when you rescue all the lost gestrals.
+ - Mechanically represented as a wall. Gone with an artifact version of Wall of Blossoms with a chroma/lumina reward on death to symbolize the loot available now that this is no longer obstructing.
 
 ## Recoat
 

@@ -295,6 +295,7 @@ Sword Ballet
 Terraquake
 The 67th Gommage
 The Curator
+The Fate of the Canvas
 The Fracture
 The Greatest Expedition in History
 The Hauler

@@ -30,7 +30,9 @@ Giving potential resources to opponents isn't necessarily a bad thing as this se
 
 ### Lumina Tokens
 
-Lumina Tokens are artifacts that can be sacrified to Scry 1. But that is not just their only purpose, for in this set Lumina tokens may serve as an alternate source of payment for certain spells, abilities and effects. Such as ...
+Lumina Tokens are artifacts that can be sacrified to Scry 1. But that is not just their only purpose, for in this set there are cards that unlock extra abilities if you have three or more Lumina tokens on the board.
+
+Lumina tokens may serve as an alternate source of payment for certain spells, abilities and effects. Such as ...
 
 ### Pictos
 

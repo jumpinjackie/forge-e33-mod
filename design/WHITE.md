@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 4/11/2025 1:53:13 pm
+> Last generated: 6/11/2025 12:21:32 pm
 
 ## Chroma Barrier
 
@@ -165,7 +165,7 @@ Flashback — Sacrifice two Chroma tokens.
 ```
 1W
 Creature - Human Citizen
-Whenever another non-Expeditioner creature enters, investigate. (Create a Clue token. It's an artifact with "{2}, Sacrifice this token: Draw a card.")
+Whenever another non-Expeditioner creature enters, investigate. (Create a Clue token. It's an artifact with "{2}, Sacrifice this artifact: Draw a card.")
 ---
 He eagerly absorbs the knowledge given to him, for he knows when his time comes, it will be a valuable resource.
 
