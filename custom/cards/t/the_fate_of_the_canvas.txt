@@ -1,0 +1,10 @@
+Name:The Fate of the Canvas
+ManaCost:4 W B
+Types:Sorcery
+A:SP$ Charm | Choices$ DBVerso,DBMaelle
+SVar:DBVerso:DB$ ChangeZoneAll | ChangeType$ Card | Origin$ Battlefield | Destination$ Exile | SubAbility$ ExileAllGraveyards | SpellDescription$ Exile all permanents. Exile all graveyards. Each player exiles their hand.
+SVar:ExileAllGraveyards:DB$ ChangeZoneAll | ChangeType$ Card | Origin$ Graveyard | Destination$ Exile | SubAbility$ ExileAllHands
+SVar:ExileAllHands:DB$ ChangeZoneAll | ChangeType$ Card | Origin$ Hand | Destination$ Exile
+SVar:DBMaelle:DB$ ChangeZoneAll | ChangeType$ Human,Expeditioner | Origin$ Graveyard | Destination$ Battlefield | SubAbility$ DBResurrectFromExile | SpellDescription$ Return to the battlefield all Humans and Expeditioners you own from your graveyard and in exile.
+SVar:DBResurrectFromExile:DB$ ChangeZoneAll | ChangeType$ Human,Expeditioner | Origin$ Exile | Destination$ Battlefield
+Oracle:Choose one —\n• Fight as Verso — Exile all permanents. Exile all graveyards. Each player exiles their hand.\n• Fight as Maelle — Return to the battlefield all Humans and Expeditioners you own from your graveyard and in exile.

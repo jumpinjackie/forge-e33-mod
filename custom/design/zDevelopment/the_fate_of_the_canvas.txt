@@ -1,0 +1,29 @@
+[Name]
+The Fate of the Canvas
+[ManaCost]
+4
+W
+B
+[Types]
+Sorcery
+[Rarity]
+M
+[Oracle]
+Choose one —
+• Fight as Verso — Exile all permanents. Exile all graveyards. Each player exiles their hand.
+• Fight as Maelle — Return to the battlefield all Humans and Expeditioners you own from your graveyard and in exile.
+[AbilityWords]
+Fight as Verso
+Fight as Maelle
+[FlavorText]
+Decide the fate ...
+[ForgeScript]
+A:SP$ Charm | Choices$ DBVerso,DBMaelle
+SVar:DBVerso:DB$ ChangeZoneAll | ChangeType$ Card | Origin$ Battlefield | Destination$ Exile | SubAbility$ ExileAllGraveyards | SpellDescription$ Exile all permanents. Exile all graveyards. Each player exiles their hand.
+SVar:ExileAllGraveyards:DB$ ChangeZoneAll | ChangeType$ Card | Origin$ Graveyard | Destination$ Exile | SubAbility$ ExileAllHands
+SVar:ExileAllHands:DB$ ChangeZoneAll | ChangeType$ Card | Origin$ Hand | Destination$ Exile
+SVar:DBMaelle:DB$ ChangeZoneAll | ChangeType$ Human,Expeditioner | Origin$ Graveyard | Destination$ Battlefield | SubAbility$ DBResurrectFromExile | SpellDescription$ Return to the battlefield all Humans and Expeditioners you own from your graveyard and in exile.
+SVar:DBResurrectFromExile:DB$ ChangeZoneAll | ChangeType$ Human,Expeditioner | Origin$ Exile | Destination$ Battlefield
+[DesignNotes]
+ - In the game, this is the final point of no return that culminates in one of the two possible endings of the game.
+ - Simply mechanically translated to a mass reset or mass resurrection.
