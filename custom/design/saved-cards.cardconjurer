@@ -19987,7 +19987,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Create two 1/1 white Human Expeditioner tokens with “When this creature dies, create a Chroma token.”\nFlashback — Sacrifice two Chroma tokens.",
+                    "text": "Create two 1/1 white Human Expeditioner tokens with “When this creature dies, create a Chroma token.”\nFlashback — Sacrifice two Lumina tokens.",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
