@@ -124,7 +124,7 @@ Type=Custom
 117 U Gustave's Insight @Sandfall Interactive
 118 R Gustave's Journal @Sandfall Interactive
 119 C Healing Light @Sandfall Interactive
-120 U Health Tint @Sandfall Interactive
+120 U Healing Tint @Sandfall Interactive
 121 C Here's Your Card! @Sandfall Interactive
 122 C Ice Lance @Sandfall Interactive
 123 R Julien Tiny Head @Sandfall Interactive

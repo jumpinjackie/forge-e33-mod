@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 6/11/2025 12:21:32 pm
+> Last generated: 6/11/2025 12:57:52 pm
 
 ## Anti-Burn
 
@@ -135,7 +135,7 @@ Legendary Artifact - Rock
 2
 Artifact
 {T}: Add {C}.
-{T}: Add {C}{C}{C}. Activate this ability only if you control at least 3 Lumina tokens.
+Luminous — {T}: Add {C}{C}{C}. Activate this ability only if you control at least three Lumina tokens.
 ```
 
 [card implementation](../custom/cards/e/energy_tint.txt)
@@ -422,22 +422,23 @@ He spends some time writing in his journal. He writes about how dangerous the Ne
  - Mechanically, I went with an artifact that charges up with every Nevron kill, that can be cashed in later down the road for extra cards.
  - 28/09/2025: Reduced cost from 4 to 3
 
-## Health Tint
+## Healing Tint
 
 ```
 2
 Artifact
 Sacrifice this artifact: Target player gains 5 life.
-Sacrifice this artifact: Target player gains 10 life. Activate this ability only if you control at least 3 Lumina tokens.
+Luminous — Sacrifice this artifact: Target player gains 10 life. Activate this ability only if you control at least three Lumina tokens.
 ```
 
-[card implementation](../custom/cards/h/health_tint.txt)
+[card implementation](../custom/cards/h/healing_tint.txt)
 
 ### Design Notes
 
  - In the game, health tints restore party member HP during a battle or outside of battle when not near an Expedition flag.
  - Another enabler for Lumina token strategies
  - 26/10/2025: Made lifegain targeted to support The 67th Gommage strategy
+ - 6/11/2025: Renamed from "Health Tint"
 
 ## Julien Tiny Head
 
@@ -504,7 +505,7 @@ At the beginning of your upkeep, you may put a verse counter on Lorieniso.
 ```
 1
 Artifact Creature - Gestral
-When this creature enters, if you control a card named Sastro, Gestral Guardian, create 2 Chroma tokens.
+When this creature enters, if you control a card named Sastro, Gestral Guardian, create two Chroma tokens.
 Whenever this creature becomes the target of a spell or ability an opponent controls, put this creature on the bottom of its owner's library.
 
 1/1
@@ -623,7 +624,7 @@ Artifact
 2
 Artifact
 {1}, {T}, Sacrifice this artifact: Return target creature card from your graveyard to your hand.
-{3}, {T}, Sacrifice this artifact: Return target creature card from your graveyard to the battlefield tapped. Activate this ability only if you control at least 3 Lumina tokens.
+Luminous — {3}, {T}, Sacrifice this artifact: Return target creature card from your graveyard to the battlefield tapped. Activate this ability only if you control at least three Lumina tokens.
 ---
 You don't get to die yet.
 - Lune

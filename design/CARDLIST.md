@@ -197,7 +197,7 @@ Cards implemented: 210/289
 [x] Gustave's Insight
 [x] Gustave's Journal
 [x] Healing Light
-[x] Health Tint
+[ ] Health Tint
 [ ] Heart of the Paintress
 [x] Here's Your Card!
 [ ] Hexga
