@@ -26,4 +26,4 @@ SVar:X:Count$Valid Creature.YouCtrl
 $NEVRON_DEATH_ABILITY
 [DesignNotes]
  - In the game, Echassiers are found in The Reacher and Renoir's Drafts.
- - Mapped the "Double the blgiht & Heals allies" ability to 1 toughness setting and life gain.
+ - Mapped the "Double the blight & Heals allies" ability to 1 toughness setting and life gain.

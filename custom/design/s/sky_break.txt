@@ -39,3 +39,4 @@ SVar:Y:Count$Valid Creature
  - No black bonus because Lune does not have dark/black magic alignment.
  - Because this is a top tier gradient attack performed by an Expeditioner, this is one of the rare spells that has both Gradient and Expeditioner sub-types.
  - 30/09/2025: Cost adjusted from 3UU to 2UU so that you can't pick all 3 bonuses since the R bonus and W bonus kind of achieve the same goal.
+ - 3/11/2025: Cost bumped back up to 3UU and the R bonus changed to direct damage on any target.

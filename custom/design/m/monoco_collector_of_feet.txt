@@ -38,3 +38,4 @@ SVar:DBCleanup:DB$ Cleanup | ClearRemembered$ True
  - Exile with a Foot counter is a book-keeping mechanism to easily track which creatures Monoco will be stealing abilities from.
  - Fight ability provided because Monoco is a Gestral, and Gestrals love to fight, and also serves as an enabler for ability stealing.
  - The untap ability is provided for synergy with any tap activated abilities that Monoco may steal.
+ - 3/11/2025: Added Expeditioner sub-type

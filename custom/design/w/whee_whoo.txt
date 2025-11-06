@@ -34,3 +34,4 @@ SVar:DBCleanup:DB$ Cleanup | ClearRemembered$ True
 [DesignNotes]
  - In the game, Esquie describes his moods as sometimes being Whee (happy) and sometimes being Whoo (sad)
  - Mechanically, I based Whoo on Melancholy, but for all creatures. Once I got the Whoo part down, the Whee part is obviously the opposite effect. And since sometimes one can feel a little bit of Whee and a little bit of Whoo, I've added the Fuse ability so that both halves can be cast at once.
+ - 4/11/2025: Went with stun counters for Whoo which gives the same effect but simplifies book-keeping as physical counters are involved.

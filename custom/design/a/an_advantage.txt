@@ -11,7 +11,7 @@ C
 [Artist]
 Sandfall Interactive
 [Oracle]
-Create three Lumina tokens. (It's an artifact with "{T}, Sacrifice this token: Scry 1.")
+Create three Lumina tokens. $LUMINA_REMINDER_TEXT
 Draw a card at the beginning of the next turn's upkeep.
 [ForgeScript]
 A:SP$ Token | TokenAmount$ 3 | TokenOwner$ You | TokenScript$ c_a_lumina | SubAbility$ DelTrigSlowtrip | SpellDescription$ Create three Lumina tokens.

@@ -20,6 +20,9 @@ Nevron spells you cast cost {2} less to cast.
 Nevron creatures you control get +1/+1.
 At the beginning of your upkeep, create a 1/1 colorless Nevron creature token.
 Sacrifice a Nevron: Draw a card.
+[FlavorText]
+Verso: What happened to her?
+Maelle: I bet Clea hated Maman's portrait of her. So she painted over her.
 [ForgeScript]
 S:Mode$ ReduceCost | ValidCard$ Nevron | Type$ Spell | Activator$ You | Amount$ 2 | Description$ Nevron spells you cast cost {2} less to cast.
 S:Mode$ Continuous | Affected$ Creature.Nevron+YouCtrl | AddPower$ 1 | AddToughness$ 1 | Description$ Nevron creatures you control get +2/+2.

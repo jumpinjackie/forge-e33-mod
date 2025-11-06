@@ -17,7 +17,8 @@ Sandfall Interactive
 This creature can't be blocked except by creatures with flying.
 When this creature dies, create a Chroma token.
 [FlavorText]
-I still remember the first mountain we scaled. Watching the sun rise above the clouds was magical. But rappelling down as we set the handholds was pure exhilaration. - Fleur
+I still remember the first mountain we scaled. Watching the sun rise above the clouds was magical. But rappelling down as we set the handholds was pure exhilaration.
+- Fleur, Expedition 69
 [ForgeScript]
 S:Mode$ CantBlockBy | ValidAttacker$ Creature.Self | ValidBlocker$ Creature.withoutFlying | Description$ CARDNAME can't be blocked except by creatures with flying.
 T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Card.Self | Execute$ TrigToken | TriggerDescription$ When CARDNAME dies, create a Chroma token

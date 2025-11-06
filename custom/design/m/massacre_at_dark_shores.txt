@@ -25,5 +25,5 @@ A:SP$ PumpAll | ValidCards$ Creature.nonNevron+nonPainter | NumAtt$ -2 | NumDef$
 [DesignNotes]
  - This symbolizes the moment after the prologue when Expedition 33 lands at Dark Shores, encounter Painted Renoir and proceed to have all but 5 members be wiped out by P.Renoir and his cohort of Nevrons.
  - Another mini-sweeper to give Nevron tribal decks some fight against "go wide" strategies.
- - 7/10/2025: Added non-Painter clause because this event was a joint Nevon/Painter production.
+ - 7/10/2025: Added non-Painter clause because this event was a joint Nevron/Painter production.
  - 3/11/2025: Added cycling 2 so it at least has some marginal value in draft/limited if you have this but no supporting strategy.

@@ -4,4 +4,4 @@ Types:Legendary Artifact Creature Gestral
 PT:2/2
 T:Mode$ Phase | Phase$ Upkeep | ValidPlayer$ You | Execute$ TrigToken | TriggerZones$ Battlefield | TriggerDescription$ At the beginning of your upkeep, you may mill a card. If you do, create 2 Lumina tokens.
 SVar:TrigToken:AB$ Token | Cost$ Mill<1> | TokenAmount$ 2 | TokenScript$ c_a_lumina
-Oracle:At the beginning of your upkeep, you may mill a card. If you do, create two Lumina tokens. (It's an artifact with "{T}, Sacrifice this token: Scry 1.")
+Oracle:At the beginning of your upkeep, you may mill a card. If you do, create two Lumina tokens. (It's an artifact with "{T}, Sacrifice this artifact: Scry 1.")
