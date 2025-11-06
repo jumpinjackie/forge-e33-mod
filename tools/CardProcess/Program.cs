@@ -250,7 +250,7 @@ public class CardFaceDesign
         if (ht.Contains("Legendary") && ht.Contains("Creature"))
         {
             if (origCardName?.Contains(",") == true)
-                thisName = origCardName.Substring(origCardName.IndexOf(","));
+                thisName = origCardName.Substring(0, origCardName.IndexOf(",")); // Take the part before the comma
             else
                 thisName = origCardName;
         }
