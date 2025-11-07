@@ -1279,6 +1279,65 @@ public class CardConjurerValidateCommand : BaseCommand
                 }
             }
 
+            // Check rarity / set symbol source
+            // .data.setSymbolSource in CardConjurer should correspond to the filename
+            // https://cardconjurer.app/img/setSymbols/official/pz1-$RARITY.svg
+            if (data.TryGetProperty("setSymbolSource", out var setSymbolSourceObj) && setSymbolSourceObj.ValueKind == System.Text.Json.JsonValueKind.String)
+            {
+                var setSymbolSource = setSymbolSourceObj.GetString() ?? "";
+
+                // Prefer reading the rarity code from the design (`CardMasterDesign.Rarity`)
+                // design.Rarity MUST be a single-letter code if specified; otherwise emit an error, increment invalidCards, and skip rarity validation
+                string? rarityCode = null;
+                bool skipRarityValidation = false;
+                if (!string.IsNullOrWhiteSpace(design.Rarity))
+                {
+                    var dr = design.Rarity.Trim();
+                    if (dr.Length == 1)
+                    {
+                        rarityCode = dr;
+                    }
+                    else
+                    {
+                        await stdout.WriteLineAsync($"ERROR: {cardName} - design.Rarity must be a single-letter code if specified; value: '{dr}'");
+                        invalidCards++;
+                        skipRarityValidation = true;
+                    }
+                }
+
+                if (skipRarityValidation)
+                {
+                    // Don't validate set symbol for this card when the design rarity is malformed.
+                }
+                else
+                {
+                    if (!string.IsNullOrWhiteSpace(rarityCode))
+                    {
+                        var filename = $"pz1-{rarityCode}.svg";
+                        var constructedUrl = $"https://cardconjurer.app/img/setSymbols/official/{filename}";
+
+                        var src = (setSymbolSource ?? "").Trim();
+                        bool match = string.Equals(src, filename, StringComparison.OrdinalIgnoreCase)
+                                     || src.EndsWith('/' + filename, StringComparison.OrdinalIgnoreCase)
+                                     || string.Equals(src, constructedUrl, StringComparison.OrdinalIgnoreCase);
+
+                        if (!match)
+                        {
+                            if (!hasWarnings)
+                                await stdout.WriteLineAsync($"WARNING: Mismatches found in card: {cardName}");
+                            await stdout.WriteLineAsync($"  Set symbol source / rarity:");
+                            await stdout.WriteLineAsync($"    CC .data.setSymbolSource: {setSymbolSource}");
+                            await stdout.WriteLineAsync($"    Constructed from design rarity code: {constructedUrl}");
+                            hasWarnings = true;
+                        }
+                    }
+                    else
+                    {
+                        await stdout.WriteLineAsync($"INFO: {cardName} - Could not determine rarity code from design or CardConjurer data to validate set symbol.");
+                    }
+                }
+            }
+
             // Check rules text
             if (design.FrontFull?.Oracle != null && 
                 text.TryGetProperty("rules", out var rulesObj) && 
