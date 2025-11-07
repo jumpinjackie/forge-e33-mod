@@ -5,4 +5,4 @@ R:Event$ Moved | ValidCard$ Card.Self | Destination$ Battlefield | ReplacementRe
 SVar:ETBTapped:DB$ Tap | Defined$ Self | ETB$ True
 A:AB$ Mana | Cost$ T | Produced$ C | SpellDescription$ Add {C}.
 A:AB$ Animate | Cost$ 2 | Defined$ Self | Power$ 2 | Toughness$ 2 | Types$ Artifact,Creature,Gestral | RemoveCreatureTypes$ True | SpellDescription$ CARDNAME becomes a 2/2 Gestral artifact creature until end of turn.
-Oracle:This card enters tapped.\n{T}: Add {C}.\n{2}: This card becomes a 2/2 Gestral artifact creature until end of turn.
+Oracle:This artifact enters tapped.\n{T}: Add {C}.\n{2}: This artifact becomes a 2/2 Gestral artifact creature until end of turn.
