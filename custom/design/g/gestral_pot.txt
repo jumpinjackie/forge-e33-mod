@@ -11,9 +11,9 @@ Sandfall Interactive
 [ArtNotes]
 This is the pots outside the Dark Gestral Arena
 [Oracle]
-This card enters tapped.
+This artifact enters tapped.
 {T}: Add {C}.
-{2}: This card becomes a 2/2 Gestral artifact creature until end of turn.
+{2}: This artifact becomes a 2/2 Gestral artifact creature until end of turn.
 [FlavorText]
 "Someone's here."
 "Is it Golgra?"

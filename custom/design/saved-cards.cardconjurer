@@ -660,7 +660,7 @@
                 }
             },
             "infoNumber": "2025",
-            "infoRarity": "P",
+            "infoRarity": "R",
             "infoSet": "E33",
             "infoLanguage": "EN",
             "infoArtist": "Sandfall Interactive",
@@ -3519,7 +3519,7 @@
                 }
             },
             "infoNumber": "2025",
-            "infoRarity": "R",
+            "infoRarity": "M",
             "infoSet": "E33",
             "infoLanguage": "EN",
             "infoArtist": "Sandfall Interactive",
@@ -3653,10 +3653,10 @@
             "artY": 0.11300639658848614,
             "artZoom": 1.1540000000000001,
             "artRotate": "0",
-            "setSymbolSource": "https://cardconjurer.app/img/setSymbols/official/pz1-c.svg",
-            "setSymbolX": 0.8751243781094528,
-            "setSymbolY": 0.570362473347548,
-            "setSymbolZoom": 0.261,
+            "setSymbolSource": "https://cardconjurer.app/img/setSymbols/official/pz1-u.svg",
+            "setSymbolX": 0.8756218905472637,
+            "setSymbolY": 0.5707178393745558,
+            "setSymbolZoom": 0.34700000000000003,
             "watermarkSource": "https://cardconjurer.app/img/blank.png",
             "watermarkX": 0.33880597014925373,
             "watermarkY": 0.6609808102345416,
@@ -3851,7 +3851,7 @@
                 }
             },
             "infoNumber": "2025",
-            "infoRarity": "C",
+            "infoRarity": "U",
             "infoSet": "E33",
             "infoLanguage": "EN",
             "infoArtist": "Sandfall Interactive",
@@ -4828,7 +4828,7 @@
             "artY": 0.11300639658848614,
             "artZoom": 8.593,
             "artRotate": "0",
-            "setSymbolSource": "https://cardconjurer.app/img/setSymbols/official/pz1-u.svg",
+            "setSymbolSource": "https://cardconjurer.app/img/setSymbols/official/pz1-r.svg",
             "setSymbolX": 0.8756218905472637,
             "setSymbolY": 0.5707178393745558,
             "setSymbolZoom": 0.34700000000000003,
@@ -8747,7 +8747,7 @@
             "artY": 0.11300639658848614,
             "artZoom": 1.51,
             "artRotate": "0",
-            "setSymbolSource": "https://cardconjurer.app/img/setSymbols/official/pz1-r.svg",
+            "setSymbolSource": "https://cardconjurer.app/img/setSymbols/official/pz1-u.svg",
             "setSymbolX": 0.8756218905472637,
             "setSymbolY": 0.5707178393745558,
             "setSymbolZoom": 0.34700000000000003,
@@ -8945,7 +8945,7 @@
                 }
             },
             "infoNumber": "2025",
-            "infoRarity": "R",
+            "infoRarity": "U",
             "infoSet": "E33",
             "infoLanguage": "EN",
             "infoArtist": "Sandfall Interactive",
@@ -9277,9 +9277,9 @@
                 }
             ],
             "artSource": "https://corsproxy.io/?url=https%3A%2F%2Fi.ytimg.com%2Fvi%2FymHn29ur8jk%2Fmaxresdefault.jpg",
-            "artX": -0.6144278606965174,
-            "artY": 0.028429282160625444,
-            "artZoom": 3.4989999999999997,
+            "artX": -0.7766169154228856,
+            "artY": -0.0007107320540156361,
+            "artZoom": 4.024,
             "artRotate": "0",
             "setSymbolSource": "https://cardconjurer.app/img/setSymbols/official/pz1-c.svg",
             "setSymbolX": 0.8701492537313433,
@@ -10956,7 +10956,7 @@
                 }
             },
             "infoNumber": "2025",
-            "infoRarity": "C",
+            "infoRarity": "R",
             "infoSet": "E33",
             "infoLanguage": "EN",
             "infoArtist": "Sandfall Interactive",
@@ -12136,7 +12136,7 @@
                 }
             },
             "infoNumber": "2025",
-            "infoRarity": "R",
+            "infoRarity": "U",
             "infoSet": "E33",
             "infoLanguage": "EN",
             "infoArtist": "Sandfall Interactive",
@@ -12156,28 +12156,6 @@
             "marginX": 0,
             "marginY": 0,
             "frames": [
-                {
-                    "name": "Artifact Legend Crown",
-                    "src": "/img/frames/m15/crowns/m15CrownA.png",
-                    "masks": [],
-                    "bounds": {
-                        "height": 0.1667,
-                        "width": 0.9454,
-                        "x": 0.0274,
-                        "y": 0.0191
-                    }
-                },
-                {
-                    "name": "Legend Crown Border Cover",
-                    "src": "/img/black.png",
-                    "masks": [],
-                    "bounds": {
-                        "height": 0.0177,
-                        "width": 0.9214,
-                        "x": 0.0394,
-                        "y": 0.0277
-                    }
-                },
                 {
                     "name": "Artifact Frame",
                     "src": "/img/frames/m15/regular/m15FrameA.png",
@@ -12240,12 +12218,12 @@
                 }
             ],
             "artSource": "https://corsproxy.io/?url=https%3A%2F%2Fwww.supersoluce.com%2Fsites%2Fdefault%2Ffiles%2Fnode%2F2873676%2Fclair-obscur-expedition-33-arene-clandestine-gestral-003.jpg",
-            "artX": -0.4736318407960199,
-            "artY": 0.05046197583511016,
-            "artZoom": 2.26,
+            "artX": -0.3880597014925373,
+            "artY": 0.08315565031982942,
+            "artZoom": 2.115,
             "artRotate": "0",
             "setSymbolSource": "https://cardconjurer.app/img/setSymbols/official/pz1-c.svg",
-            "setSymbolX": 0.8751243781094528,
+            "setSymbolX": 0.8701492537313433,
             "setSymbolY": 0.570362473347548,
             "setSymbolZoom": 0.261,
             "watermarkSource": "https://cardconjurer.app/img/blank.png",
@@ -12255,7 +12233,7 @@
             "watermarkLeft": "#b79d58",
             "watermarkRight": "none",
             "watermarkOpacity": 0.4,
-            "version": "ubRegular",
+            "version": "m15Regular",
             "manaSymbols": [],
             "infoYear": "2025",
             "margins": false,
@@ -12369,7 +12347,7 @@
                 "height": 0.4429
             },
             "setSymbolBounds": {
-                "x": 0.9263681592039801,
+                "x": 0.9213,
                 "y": 0.591,
                 "width": 0.12,
                 "height": 0.041,
@@ -12386,11 +12364,11 @@
                 "mana": {
                     "name": "Mana Cost",
                     "text": "2",
-                    "y": 0.06254442075337598,
-                    "width": 0.9273631840796019,
+                    "y": 0.0613,
+                    "width": 0.9292,
                     "height": 0.03380952380952381,
                     "oneLine": true,
-                    "size": 0.04304029304029304,
+                    "size": 0.043345543345543344,
                     "align": "right",
                     "shadowX": -0.001,
                     "shadowY": 0.0029,
@@ -12400,8 +12378,8 @@
                 "title": {
                     "name": "Title",
                     "text": "Gestral Pot",
-                    "x": 0.08358208955223881,
-                    "y": 0.05152807391613362,
+                    "x": 0.0854,
+                    "y": 0.0522,
                     "width": 0.8292,
                     "height": 0.0543,
                     "oneLine": true,
@@ -12411,8 +12389,8 @@
                 "type": {
                     "name": "Type",
                     "text": "Artifact",
-                    "x": 0.08358208955223881,
-                    "y": 0.5643212508884151,
+                    "x": 0.0854,
+                    "y": 0.5664,
                     "width": 0.8292,
                     "height": 0.0543,
                     "oneLine": true,
@@ -12421,10 +12399,10 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "This card enters tapped.\n{T}: Add {C}.\n{2}: This card becomes a 2/2 Gestral artifact creature until end of turn.{flavor}“Someone’s here.”\n“Is it Golgra?“\n“Impossible! Golgra could never find us.“\n“Aww jeez, I just got reborn, I don’t want to die again.”",
+                    "text": "This artifact enters tapped.\n{T}: Add {C}.\n{2}: This artifact becomes a 2/2 Gestral artifact creature until end of turn.{flavor}“Someone’s here.”\n“Is it Golgra?“\n“Impossible! Golgra could never find us.“\n“Aww jeez, I just got reborn, I don’t want to die again.”",
                     "x": 0.086,
-                    "y": 0.6325515280739161,
-                    "width": 0.818407960199005,
+                    "y": 0.6303,
+                    "width": 0.828,
                     "height": 0.2875,
                     "size": 0.0362
                 },
@@ -12442,7 +12420,7 @@
                 }
             },
             "infoNumber": "2025",
-            "infoRarity": "R",
+            "infoRarity": "C",
             "infoSet": "E33",
             "infoLanguage": "EN",
             "infoArtist": "Sandfall Interactive",
@@ -13594,7 +13572,7 @@
                 }
             },
             "infoNumber": "2025",
-            "infoRarity": "R",
+            "infoRarity": "C",
             "infoSet": "E33",
             "infoLanguage": "EN",
             "infoArtist": "Sandfall Interactive",
@@ -15200,10 +15178,10 @@
                     ]
                 }
             ],
-            "artSource": "https://corsproxy.io/?url=https%3A%2F%2Fimgs.search.brave.com%2FWPfJFeEhJghf21TQRdTPVQjMrF3wWGtqc1YdAVDCeq8%2Frs%3Afit%3A860%3A0%3A0%3A0%2Fg%3Ace%2FaHR0cHM6Ly93d3cu%2FZGVzdHJ1Y3RvaWQu%2FY29tL3dwLWNvbnRl%2FbnQvdXBsb2Fkcy8y%2FMDI1LzA0L2FsbC1n%2FcmFuZGlzLWZhc2hp%2Fb25pc3QtYW5zd2Vy%2Fcy1leHBlZGl0aW9u%2FLTMzLmpwZz9maXQ9%2FMTIwMCw2NzU",
-            "artX": -0.050248756218905476,
+            "artSource": "https://corsproxy.io/?url=https%3A%2F%2Fwww.destructoid.com%2Fwp-content%2Fuploads%2F2025%2F04%2Fall-grandis-fashionist-answers-expedition-33.jpg",
+            "artX": -0.050746268656716415,
             "artY": 0.11300639658848614,
-            "artZoom": 2.574,
+            "artZoom": 1.8459999999999999,
             "artRotate": "0",
             "setSymbolSource": "https://cardconjurer.app/img/setSymbols/official/pz1-r.svg",
             "setSymbolX": 0.8706467661691543,
@@ -15403,7 +15381,7 @@
                 }
             },
             "infoNumber": "2025",
-            "infoRarity": "C",
+            "infoRarity": "R",
             "infoSet": "E33",
             "infoLanguage": "EN",
             "infoArtist": "Sandfall Interactive",
@@ -18799,7 +18777,7 @@
                 }
             },
             "infoNumber": "2025",
-            "infoRarity": "R",
+            "infoRarity": "U",
             "infoSet": "E33",
             "infoLanguage": "EN",
             "infoArtist": "Sandfall Interactive",
@@ -19412,7 +19390,7 @@
                 }
             },
             "infoNumber": "2025",
-            "infoRarity": "U",
+            "infoRarity": "C",
             "infoSet": "E33",
             "infoLanguage": "EN",
             "infoArtist": "Sandfall Interactive",
@@ -20008,7 +19986,7 @@
                 }
             },
             "infoNumber": "2025",
-            "infoRarity": "R",
+            "infoRarity": "U",
             "infoSet": "E33",
             "infoLanguage": "EN",
             "infoArtist": "Sandfall Interactive",
@@ -21177,7 +21155,7 @@
                 }
             },
             "infoNumber": "2025",
-            "infoRarity": "R",
+            "infoRarity": "U",
             "infoSet": "E33",
             "infoLanguage": "EN",
             "infoArtist": "Sandfall Interactive",
@@ -23274,10 +23252,10 @@
             "artY": 0.11300639658848614,
             "artZoom": 1.1540000000000001,
             "artRotate": "0",
-            "setSymbolSource": "https://cardconjurer.app/img/setSymbols/official/pz1-u.svg",
-            "setSymbolX": 0.8756218905472637,
-            "setSymbolY": 0.5707178393745558,
-            "setSymbolZoom": 0.34700000000000003,
+            "setSymbolSource": "https://cardconjurer.app/img/setSymbols/official/pz1-c.svg",
+            "setSymbolX": 0.8751243781094528,
+            "setSymbolY": 0.570362473347548,
+            "setSymbolZoom": 0.261,
             "watermarkSource": "https://cardconjurer.app/img/blank.png",
             "watermarkX": 0.33880597014925373,
             "watermarkY": 0.6609808102345416,
@@ -23472,7 +23450,7 @@
                 }
             },
             "infoNumber": "2025",
-            "infoRarity": "U",
+            "infoRarity": "C",
             "infoSet": "E33",
             "infoLanguage": "EN",
             "infoArtist": "Sandfall Interactive",
@@ -25865,7 +25843,7 @@
                 }
             },
             "infoNumber": "2025",
-            "infoRarity": "M",
+            "infoRarity": "U",
             "infoSet": "E33",
             "infoLanguage": "EN",
             "infoArtist": "Sandfall Interactive",
@@ -26160,7 +26138,7 @@
                 }
             },
             "infoNumber": "2025",
-            "infoRarity": "R",
+            "infoRarity": "U",
             "infoSet": "E33",
             "infoLanguage": "EN",
             "infoArtist": "Sandfall Interactive",
@@ -27763,7 +27741,7 @@
                 }
             },
             "infoNumber": "2025",
-            "infoRarity": "U",
+            "infoRarity": "C",
             "infoSet": "E33",
             "infoLanguage": "EN",
             "infoArtist": "Sandfall Interactive",
