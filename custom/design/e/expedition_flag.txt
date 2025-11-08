@@ -10,7 +10,7 @@ U
 Expeditioner creatures you control get +1/+1.
 {T}: Add one mana of any color.
 [FlavorText]
-Wanna plant it? 
+Wanna plant it?
 - Sciel, to Maelle
 [ForgeScript]
 S:Mode$ Continuous | Affected$ Creature.Expeditioner | AddPower$ 1 | AddToughness$ 1 | Description$ Expeditioner creatures you control get +1/+1.
