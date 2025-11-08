@@ -1180,14 +1180,16 @@ public class GenAllCommand : BaseCommand
                 spoilerWriter.WriteLine("> This currently only shows cards/tokens we have full CardConjurer designs for and does not fully represent the whole set\n");
                 spoilerWriter.WriteLine("Images listed are cards first, then tokens.\n");
 
-                // Table header (4 columns)
+                const int COLUMNS = 3;
+
+                // Table header (3 columns)
                 spoilerWriter.WriteLine("| | | | |");
                 spoilerWriter.WriteLine("|---|---|---|---|");
 
-                for (int i = 0; i < images.Count; i += 4)
+                for (int i = 0; i < images.Count; i += COLUMNS)
                 {
-                    var row = new string[4];
-                    for (int c = 0; c < 4; c++)
+                    var row = new string[COLUMNS];
+                    for (int c = 0; c < COLUMNS; c++)
                     {
                         var idx = i + c;
                         if (idx < images.Count)
@@ -1204,7 +1206,7 @@ public class GenAllCommand : BaseCommand
                             row[c] = " ";
                         }
                     }
-                    spoilerWriter.WriteLine($"| {row[0]} | {row[1]} | {row[2]} | {row[3]} |");
+                    spoilerWriter.WriteLine($"| {string.Join(" | ", row)} |");
                 }
             }
 
