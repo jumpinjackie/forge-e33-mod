@@ -15,7 +15,10 @@ Sandfall Interactive
 The Paintress launching a volley of projectiles with the appearance of a black hole or an eclipsed star.
 [Oracle]
 This spell costs {2} less to cast if you control a painter.
-This spell deals 4 damage divided as you choose among any number of targets
+This spell deals 4 damage divided as you choose among any number of targets.
+[FlavorText]
+How cruel of your father to use you like this.
+- The Paintress
 [ForgeScript]
 S:Mode$ ReduceCost | ValidCard$ Card.Self | Type$ Spell | Amount$ 2 | EffectZone$ All | IsPresent$ Painter.YouCtrl | Description$ This spell costs {2} less to cast if you control a painter.
 A:SP$ DealDamage | ValidTgts$ Any | TgtPrompt$ Select any number of target creatures to distribute damage to | NumDmg$ 4 | TargetMin$ 0 | TargetMax$ 4 | DividedAsYouChoose$ 4 | SpellDescription$ CARDNAME deals 4 damage divided as you choose among any number of targets.

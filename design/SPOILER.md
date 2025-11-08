@@ -36,5 +36,6 @@ Images listed are cards first, then tokens.
 | ![](../custom/pics/cards/E33/The%20Fracture.full.jpg) | ![](../custom/pics/cards/E33/The%20Greatest%20Expedition%20in%20History.full.jpg) | ![](../custom/pics/cards/E33/The%20Hauler.full.jpg) |
 | ![](../custom/pics/cards/E33/The%20Monolith%20Interior.full.jpg) | ![](../custom/pics/cards/E33/The%20Monolith.full.jpg) | ![](../custom/pics/cards/E33/The%20Sacred%20River.full.jpg) |
 | ![](../custom/pics/cards/E33/The%20Scavenger.full.jpg) | ![](../custom/pics/cards/E33/The%20World%20Canvas.full.jpg) | ![](../custom/pics/cards/E33/Twilight%20Quarry.full.jpg) |
-| ![](../custom/pics/cards/E33/Verso%2C%20Who%20Guards%20Truth%20With%20Lies.full.jpg) | ![](../custom/pics/tokens/E33/a_1_1_gestral.jpg) | ![](../custom/pics/tokens/E33/c_a_chroma.jpg) |
-| ![](../custom/pics/tokens/E33/c_a_flower.jpg) | ![](../custom/pics/tokens/E33/c_a_lumina.jpg) | ![](../custom/pics/tokens/E33/w_1_1_human_expeditioner.jpg) |
+| ![](../custom/pics/cards/E33/Verso%2C%20Who%20Guards%20Truth%20With%20Lies.full.jpg) | ![](../custom/pics/cards/E33/Void%20Meteors.full.jpg) | ![](../custom/pics/tokens/E33/a_1_1_gestral.jpg) |
+| ![](../custom/pics/tokens/E33/c_a_chroma.jpg) | ![](../custom/pics/tokens/E33/c_a_flower.jpg) | ![](../custom/pics/tokens/E33/c_a_lumina.jpg) |
+| ![](../custom/pics/tokens/E33/w_1_1_human_expeditioner.jpg) |   |   |
