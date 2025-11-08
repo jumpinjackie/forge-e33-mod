@@ -1258,6 +1258,24 @@ public class CardConjurerValidateCommand : BaseCommand
         int invalidCards = 0;
         int splitCards = 0;
 
+        // Normalize text to ASCII for comparison (strip markup and normalize common punctuation)
+        static string NormalizeToAscii(string text)
+        {
+            if (string.IsNullOrEmpty(text))
+                return string.Empty;
+
+            // Remove any {markup} tags
+            var stripped = System.Text.RegularExpressions.Regex.Replace(text, "{[^}]*}", "");
+
+            return stripped
+                .Replace("\u2018", "'") // LEFT SINGLE QUOTATION MARK
+                .Replace("\u2019", "'") // RIGHT SINGLE QUOTATION MARK
+                .Replace("\u201C", "\"") // LEFT DOUBLE QUOTATION MARK
+                .Replace("\u201D", "\"") // RIGHT DOUBLE QUOTATION MARK
+                .Replace("\u2013", "-") // EN DASH
+                ; // Keep em dashes (\u2014) in source
+        }
+
         foreach (var (cardName, design) in cards)
         {
             totalCards++;
@@ -1300,7 +1318,7 @@ public class CardConjurerValidateCommand : BaseCommand
                 var designManaCost = string.Join(" ", design.FrontFull.ManaCost);
                 if (designManaCost == "no cost")
                     designManaCost = "";
-                if (ccManaCost != designManaCost)
+                if (NormalizeToAscii(ccManaCost ?? "") != NormalizeToAscii(designManaCost))
                 {
                     await stdout.WriteLineAsync($"WARNING: Mismatches found in card: {cardName}");
                     await stdout.WriteLineAsync($"  Mana cost:");
@@ -1316,7 +1334,7 @@ public class CardConjurerValidateCommand : BaseCommand
                 titleObj.TryGetProperty("text", out var titleText))
             {
                 var ccTitle = titleText.GetString();
-                if (ccTitle != cardName)
+                if (NormalizeToAscii(ccTitle ?? "") != NormalizeToAscii(cardName ?? ""))
                 {
                     if (!hasWarnings)
                         await stdout.WriteLineAsync($"WARNING: Mismatches found in card: {cardName}");
@@ -1334,7 +1352,7 @@ public class CardConjurerValidateCommand : BaseCommand
                 typeObj.TryGetProperty("text", out var typeText))
             {
                 var ccType = typeText.GetString();
-                if (ccType != design.FrontFull.TypeLine)
+                if (NormalizeToAscii(ccType ?? "") != NormalizeToAscii(design.FrontFull.TypeLine ?? ""))
                 {
                     if (!hasWarnings)
                         await stdout.WriteLineAsync($"WARNING: Mismatches found in card: {cardName}");
@@ -1425,15 +1443,6 @@ public class CardConjurerValidateCommand : BaseCommand
                 text.TryGetProperty("rules", out var rulesObj) && 
                 rulesObj.TryGetProperty("text", out var rulesText))
             {
-                // Normalize both sides to ASCII, preserving em dashes
-                static string NormalizeToAscii(string text) => text
-                    .Replace("\u2018", "'") // LEFT SINGLE QUOTATION MARK
-                    .Replace("\u2019", "'") // RIGHT SINGLE QUOTATION MARK
-                    .Replace("\u201C", "\"") // LEFT DOUBLE QUOTATION MARK
-                    .Replace("\u201D", "\"") // RIGHT DOUBLE QUOTATION MARK
-                    .Replace("\u2013", "-") // EN DASH
-                    ; // Keep em dashes (\u2014) in source
-
                 var ccRules = NormalizeToAscii(rulesText.GetString() ?? "");
                 var designRules = NormalizeToAscii(design.FrontFull.GetCardConjurerOracleText());
                 
@@ -1456,7 +1465,7 @@ public class CardConjurerValidateCommand : BaseCommand
             {
                 var ccPT = System.Text.RegularExpressions.Regex.Replace(ptText.GetString() ?? "", "{[^}]*}", "");
                 var designPT = design.FrontFull.PT ?? "";
-                if (ccPT != designPT)
+                if (NormalizeToAscii(ccPT) != NormalizeToAscii(designPT))
                 {
                     if (!hasWarnings)
                         await stdout.WriteLineAsync($"WARNING: Mismatches found in card: {cardName}");
