@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 8/11/2025 11:37:46 am
+> Last generated: 8/11/2025 6:24:33 pm
 
 ## A Storm is Coming
 
@@ -184,6 +184,9 @@ WB
 Enchantment - Aura
 Enchant permanent.
 Enchanted permanent becomes an artifact and loses all abilities.
+---
+The expeditioners, the ones killed by Nevrons. Gustave noticed their Chroma remains in their bodies. They never disspiated, like the Gommage.
+- Lune
 ```
 
 [card implementation](../custom/cards/c/chromatic_petrification.txt)

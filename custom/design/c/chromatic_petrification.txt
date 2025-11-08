@@ -13,6 +13,9 @@ Sandfall Interactive
 [Oracle]
 Enchant permanent.
 Enchanted permanent becomes an artifact and loses all abilities.
+[FlavorText]
+The expeditioners, the ones killed by Nevrons. Gustave noticed their Chroma remains in their bodies. They never disspiated, like the Gommage.
+- Lune
 [ForgeScript]
 K:Enchant:Permanent
 S:Mode$ Continuous | Affected$ Creature.EnchantedBy | AddType$ Artifact | RemoveType$ Creature | RemoveAllAbilities$ True | Description$ Enchanted permanent becomes an artifact and loses all abilities.
