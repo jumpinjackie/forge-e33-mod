@@ -1183,8 +1183,8 @@ public class GenAllCommand : BaseCommand
                 const int COLUMNS = 3;
 
                 // Table header (3 columns)
-                spoilerWriter.WriteLine("| | | | |");
-                spoilerWriter.WriteLine("|---|---|---|---|");
+                spoilerWriter.WriteLine("| | | |");
+                spoilerWriter.WriteLine("|---|---|---|");
 
                 for (int i = 0; i < images.Count; i += COLUMNS)
                 {
