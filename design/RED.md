@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 8/11/2025 6:42:49 am
+> Last generated: 8/11/2025 7:13:36 am
 
 ## Catapault Sakapatate
 
@@ -184,11 +184,11 @@ This spell deals 1 damage to any target, 2 damage to another target, and 3 damag
 
 ```
 R
-Enchantment - Aura
+Kindred Enchantment - Expeditioner Aura
 Enchant Creature
 Flash
 If a source would deal damage to enchanted creature, it deals double that damage to that creature instead.
-When this enchantment is put into a graveyard from the battlefield, return this enchantment to its owner's hand.
+When this aura is put into a graveyard from the battlefield, return it to its owner's hand.
 ```
 
 [card implementation](../custom/cards/m/marked.txt)
@@ -197,6 +197,7 @@ When this enchantment is put into a graveyard from the battlefield, return this 
 
  - In the game, marked is a status effect that causes the recipient to receive 50% more damage on the next hit.
  - Mechanically mapped to an aura that doubles any damage dealt to enchanted creature.
+ - Basically copied the damage doubling template from Curse of Bloodletting, and swapped player for creature.
  - Added Flash for extra combat trickiness.
  - To have some utility, added Rancor's recurring effect.
 
