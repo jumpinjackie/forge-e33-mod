@@ -234,7 +234,12 @@ public class CardFaceDesign
         if (ht.Contains("Creature"))
             thisName = "this creature";
         if (ht.Contains("Enchantment"))
-            thisName = "this enchantment";
+        {
+            if (ht.Contains("Aura"))
+                thisName = "this aura";
+            else
+                thisName = "this enchantment";
+        }
         if (ht.Contains("Artifact"))
         {
             if (ht.Contains("Vehicle"))
