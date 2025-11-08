@@ -5289,7 +5289,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Painter and Gradient spells you cast cost {1} less to cast.\n{T}: Add one mana of any color. Spend this mana only to cast a Painter or Gradient spell.\n{3},{T}: Search your library for a Painter card, reveal it and put it into your hand, then shuffle.{flavor}One family, united by art, divided by grief.",
+                    "text": "Painter and Gradient spells you cast cost {1} less to cast.\n{T}: Add one mana of any color. Spend this mana only to cast a Painter or Gradient spell.\n{3},{T}: Search your library for a Painter card, reveal it and put it into your hand, then shuffle.{flavor}One family, united by passion for art, divided by grief.",
                     "x": 0.086,
                     "y": 0.6325515280739161,
                     "width": 0.828,
@@ -6299,9 +6299,9 @@
                 }
             ],
             "artSource": "https://corsproxy.io/?url=https%3A%2F%2Fi.ytimg.com%2Fvi%2FNYTgunbAjwU%2Fmaxresdefault.jpg",
-            "artX": -0.12139303482587065,
-            "artY": 0.10021321961620469,
-            "artZoom": 2.039,
+            "artX": -0.25970149253731345,
+            "artY": 0.02771855010660981,
+            "artZoom": 2.362,
             "artRotate": "0",
             "setSymbolSource": "https://cardconjurer.app/img/setSymbols/official/pz1-r.svg",
             "setSymbolX": 0.8756218905472637,
@@ -8913,7 +8913,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Expeditioner creatures you control get +1/+1.\n{T}: Add one mana of any color.{flavor}Wanna plant it?\n- Sciel, to Maelle ",
+                    "text": "Expeditioner creatures you control get +1/+1.\n{T}: Add one mana of any color.{flavor}Wanna plant it?\n- Sciel, to Maelle",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
@@ -9270,7 +9270,7 @@
             "artY": 0.9303482587064676,
             "artZoom": 2.45,
             "artRotate": "-90",
-            "setSymbolSource": "https://cardconjurer.app/img/setSymbols/official/pz1-u.svg",
+            "setSymbolSource": "https://cardconjurer.app/img/blank.png",
             "setSymbolX": 0.8756218905472637,
             "setSymbolY": 0.5707178393745558,
             "setSymbolZoom": 0.34700000000000003,
@@ -16280,7 +16280,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Whenever Gustave becomes untapped, attacks or blocks, put a charge counter on him.\n{i}From Fire{/i} — {W}{R},{T}: Gustave deals 3 damage to target creature, you gain 3 life.\n{i}Strike Storm{/i} — {W}{R}: Gustave gains double-strike until ene of turn, put two charge counters on him. Activate only once per turn.\n{i}Overcharge{/i} — {T}, Remove X charge counters from Gustave: Gustave deals X damage to target creature and that creature’s controller.{flavor}For those who come after.",
+                    "text": "Whenever Gustave becomes untapped, attacks or blocks, put a charge counter on him.\n{i}From Fire{/i} — {W}{R},{T}: Gustave deals 3 damage to target creature, you gain 3 life.\n{i}Strike Storm{/i} — {W}{R}: Gustave gains double-strike until end of turn, put two charge counters on him. Activate only once per turn.\n{i}Overcharge{/i} — {T}, Remove X charge counters from Gustave: Gustave deals X damage to target creature and that creature’s controller.{flavor}For those who come after.",
                     "x": 0.086,
                     "y": 0.6325515280739161,
                     "width": 0.828,
@@ -28038,7 +28038,7 @@
         }
     },
     {
-        "key": "Renoir's Will",
+        "key": "Renoir’s Will",
         "data": {
             "width": 2010,
             "height": 2814,
@@ -28111,7 +28111,7 @@
             "artY": 0.11300639658848614,
             "artZoom": 2.29,
             "artRotate": "0",
-            "setSymbolSource": "https://cardconjurer.app/img/setSymbols/official/pz1-r.svg",
+            "setSymbolSource": "https://cardconjurer.app/img/setSymbols/official/pz1-m.svg",
             "setSymbolX": 0.8756218905472637,
             "setSymbolY": 0.5707178393745558,
             "setSymbolZoom": 0.34700000000000003,
@@ -28309,7 +28309,7 @@
                 }
             },
             "infoNumber": "2025",
-            "infoRarity": "R",
+            "infoRarity": "M",
             "infoSet": "E33",
             "infoLanguage": "EN",
             "infoArtist": "Sandfall Interactive",
@@ -31673,7 +31673,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "You win the game if you control a total of 33 or more Expeditioners, Chroma, Lumina or Pictos permanents.",
+                    "text": "You win the game if you control a total of 33 or more Expeditioner, Chroma, Lumina or Picto permanents.{flavor}When one falls, we continue.",
                     "x": 0.086,
                     "y": 0.6325515280739161,
                     "width": 0.828,

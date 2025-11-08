@@ -13,4 +13,4 @@ SVar:DBChargeTwice:DB$ PutCounter | Defined$ Self | CounterType$ CHARGE | Counte
 SVar:DBGainLife:DB$ GainLife | LifeAmount$ 3
 SVar:DBDamageController:DB$ DealDamage | Defined$ TargetedController | NumDmg$ X
 SVar:X:Count$xPaid
-Oracle:Whenever Gustave becomes untapped, attacks or blocks, put a charge counter on him.\nFrom Fire — {W}{R},{T}: Gustave deals 3 damage to target creature, you gain 3 life.\nStrike Storm — {W}{R}: Gustave gains double-strike until ene of turn, put two charge counters on him. Activate only once per turn.\nOvercharge — {T}, Remove X charge counters from Gustave: Gustave deals X damage to target creature and that creature's controller.
+Oracle:Whenever Gustave becomes untapped, attacks or blocks, put a charge counter on him.\nFrom Fire — {W}{R},{T}: Gustave deals 3 damage to target creature, you gain 3 life.\nStrike Storm — {W}{R}: Gustave gains double-strike until end of turn, put two charge counters on him. Activate only once per turn.\nOvercharge — {T}, Remove X charge counters from Gustave: Gustave deals X damage to target creature and that creature's controller.
