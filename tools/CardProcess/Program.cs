@@ -1150,10 +1150,70 @@ public class GenAllCommand : BaseCommand
         }
 
         sbCardList.Replace("%_IMPL_STATUS_%", $"Cards implemented: {cards.Count}/{cardNameTotal}");
-        sbCardList.Replace("%_IMPL_LEGEND_%", "[x] - Card is implementned or in development, [ ] - Card is not implemented");
+        sbCardList.Replace("%_IMPL_LEGEND_%", "[x] - Card is implemented or in development, [ ] - Card is not implemented");
 
         await File.WriteAllTextAsync(cardListOutFile, sbCardList.ToString());
         await stdout.WriteLineAsync("Updated CARDLIST.md");
+
+        // Generate SPOILER.md containing a 4-column table of card and token images
+        try
+        {
+            var picsBase = Path.Combine(this.BaseDirectory.FullName, "pics");
+            var cardsPicsDir = Path.Combine(picsBase, "cards", "E33");
+            var tokensPicsDir = Path.Combine(picsBase, "tokens", "E33");
+
+            var images = new List<string>();
+            if (Directory.Exists(cardsPicsDir))
+            {
+                images.AddRange(Directory.EnumerateFiles(cardsPicsDir, "*.jpg", SearchOption.AllDirectories).OrderBy(p => p));
+            }
+            if (Directory.Exists(tokensPicsDir))
+            {
+                images.AddRange(Directory.EnumerateFiles(tokensPicsDir, "*.jpg", SearchOption.AllDirectories).OrderBy(p => p));
+            }
+
+            var spoilerPath = Path.Combine(this.OutputDir.FullName, "SPOILER.md");
+            using (var spoilerWriter = new StreamWriter(spoilerPath, false, Encoding.UTF8))
+            {
+                spoilerWriter.WriteLine("# Spoiler Images");
+                spoilerWriter.WriteLine();
+                spoilerWriter.WriteLine("> This currently only shows cards/tokens we have full CardConjurer designs for and does not fully represent the whole set\n");
+                spoilerWriter.WriteLine("Images listed are cards first, then tokens.\n");
+
+                // Table header (4 columns)
+                spoilerWriter.WriteLine("| | | | |");
+                spoilerWriter.WriteLine("|---|---|---|---|");
+
+                for (int i = 0; i < images.Count; i += 4)
+                {
+                    var row = new string[4];
+                    for (int c = 0; c < 4; c++)
+                    {
+                        var idx = i + c;
+                        if (idx < images.Count)
+                        {
+                            var abs = images[idx];
+                            var rel = Path.GetRelativePath(this.OutputDir.FullName, abs).Replace("\\", "/");
+                            // Percent-encode each path segment so spaces and special chars work in Markdown image URLs
+                            var encodedRel = string.Join("/", rel.Split('/').Select(seg => System.Uri.EscapeDataString(seg)));
+                            // Only embed the image (no filename under the image)
+                            row[c] = $"![]({encodedRel})";
+                        }
+                        else
+                        {
+                            row[c] = " ";
+                        }
+                    }
+                    spoilerWriter.WriteLine($"| {row[0]} | {row[1]} | {row[2]} | {row[3]} |");
+                }
+            }
+
+            await stdout.WriteLineAsync($"Wrote SPOILER: {spoilerPath}");
+        }
+        catch (Exception ex)
+        {
+            await stderr.WriteLineAsync($"Failed to write SPOILER.md: {ex.Message}");
+        }
 
         await stdout.WriteLineAsync("All generation tasks completed successfully!");
 
