@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 6/11/2025 1:03:48 pm
+> Last generated: 8/11/2025 6:42:49 am
 
 ## Anti-Burn
 
@@ -283,9 +283,9 @@ I have some useful items for you!
 ```
 2
 Artifact
-This card enters tapped.
+This artifact enters tapped.
 {T}: Add {C}.
-{2}: This card becomes a 2/2 Gestral artifact creature until end of turn.
+{2}: This artifact becomes a 2/2 Gestral artifact creature until end of turn.
 ---
 "Someone's here."
 "Is it Golgra?"

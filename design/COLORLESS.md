@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 6/11/2025 1:03:48 pm
+> Last generated: 8/11/2025 6:42:49 am
 
 ## Chalier
 

@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 6/11/2025 1:03:47 pm
+> Last generated: 8/11/2025 6:42:49 am
 
 ## A Storm is Coming
 
@@ -1177,7 +1177,7 @@ Choose one —
 • Fight as Verso — Exile all permanents. Exile all graveyards. Each player exiles their hand.
 • Fight as Maelle — Return to the battlefield all Humans and Expeditioners you own from your graveyard and in exile.
 ---
-Decide the fate ...
+Life keeps forcing cruel choices ...
 ```
 
 [card implementation](../custom/cards/t/the_fate_of_the_canvas.txt)

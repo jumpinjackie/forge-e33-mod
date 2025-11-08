@@ -29,7 +29,7 @@ From this list, card designs are spawned from it, which will eventually form the
 
 ## Card Name List
 
-Cards implemented: 210/289
+Cards implemented: 212/290
 
 [x] - Card is implementned or in development, [ ] - Card is not implemented
 
@@ -231,7 +231,7 @@ Cards implemented: 210/289
 [x] Manor Greenhouse // Manor Gallery
 [x] Manor Kitchen // Manor Cellar
 [x] Manor Library // Manor Fireplace
-[ ] Marked!
+[x] Marked!
 [x] Massacre at Dark Shores
 [x] Matthieu the Colossus
 [ ] Mezzo Forte
@@ -308,6 +308,7 @@ Cards implemented: 210/289
 [x] The Search for Esquie's Rocks
 [x] The World Canvas
 [x] Thermal Transfer
+[x] Thunderfall
 [x] Tomorrow Comes
 [x] Torture // Nurture
 [x] Troubador

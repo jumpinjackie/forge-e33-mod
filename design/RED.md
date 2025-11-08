@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 6/11/2025 1:03:48 pm
+> Last generated: 8/11/2025 6:42:49 am
 
 ## Catapault Sakapatate
 
@@ -180,6 +180,26 @@ This spell deals 1 damage to any target, 2 damage to another target, and 3 damag
 
  - Just Cone of Flame made {1} cheaper and Expeditioner aligned
 
+## Marked!
+
+```
+R
+Enchantment - Aura
+Enchant Creature
+Flash
+If a source would deal damage to enchanted creature, it deals double that damage to that creature instead.
+When this enchantment is put into a graveyard from the battlefield, return this enchantment to its owner's hand.
+```
+
+[card implementation](../custom/cards/m/marked.txt)
+
+### Design Notes
+
+ - In the game, marked is a status effect that causes the recipient to receive 50% more damage on the next hit.
+ - Mechanically mapped to an aura that doubles any damage dealt to enchanted creature.
+ - Added Flash for extra combat trickiness.
+ - To have some utility, added Rancor's recurring effect.
+
 ## Mutinous Expedition 48 Soldier
 
 ```
@@ -277,4 +297,20 @@ Terraquake deals X damage to each creature without flying and each player, where
 
  - In the game, this is one of Lune's abilities.
  - This is Earthquake and Price of Progress smushed together and is meant to check greedy non-basic mana bases.
+
+## Thunderfall
+
+```
+R
+Kindred Instant - Expeditioner
+Thunderfall deals 2 damage to any target.
+Luminous — Thunderfall deals 4 damage instead if you control at least three Lumina tokens.
+```
+
+[card implementation](../custom/cards/t/thunderfall.txt)
+
+### Design Notes
+
+ - In the game, Thunderfall is one of Lune's skills that deals lightning damage.
+ - As part of making Lumina tokens matter, this card has been modeled on Galvanic Blast, but with Luminous instead of Metalcraft.
 
