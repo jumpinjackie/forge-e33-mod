@@ -4,8 +4,8 @@
 
 Images listed are cards first, then tokens.
 
-| | | | |
-|---|---|---|---|
+| | | |
+|---|---|---|
 | ![](../custom/pics/cards/E33/Alicia%20Dessendre%2C%20Silenced%20by%20Fire.full.jpg) | ![](../custom/pics/cards/E33/An%20Advantage%21.full.jpg) | ![](../custom/pics/cards/E33/Berrami%2C%20Collector%20of%20Journals.full.jpg) |
 | ![](../custom/pics/cards/E33/Cache%20Discovery.full.jpg) | ![](../custom/pics/cards/E33/Chroma%20Barrier.full.jpg) | ![](../custom/pics/cards/E33/Clea%20Dessendre%2C%20Seeking%20Vengeance.full.jpg) |
 | ![](../custom/pics/cards/E33/Closure.full.jpg) | ![](../custom/pics/cards/E33/Danseuse.full.jpg) | ![](../custom/pics/cards/E33/Dark%20Shores.full.jpg) |
