@@ -1,0 +1,20 @@
+[Name]
+Expedition Flag
+[ManaCost]
+3
+[Types]
+Artifact
+[Rarity]
+U
+[Oracle]
+Expeditioner creatures you control get +1/+1.
+{T}: Add one mana of any color.
+[FlavorText]
+Wanna plant it? 
+- Sciel, to Maelle
+[ForgeScript]
+S:Mode$ Continuous | Affected$ Creature.Expeditioner | AddPower$ 1 | AddToughness$ 1 | Description$ Expeditioner creatures you control get +1/+1.
+A:AB$ Mana | Cost$ T | Produced$ Any | SpellDescription$ Add one mana of any color.
+[DesignNotes]
+ - In the game, Expedition flags are save points scattered throughout the continent laid down by previous Expeditions.
+ - Gone with an Expeditioner-focused variant of Patchwork Banner.
