@@ -13054,15 +13054,15 @@
                     }
                 },
                 {
-                    "name": "Black Frame",
-                    "src": "/img/frames/token/textless/tokenFrameBTextless.png",
+                    "name": "Artifact Frame",
+                    "src": "/img/frames/token/textless/tokenFrameATextless.png",
                     "masks": []
                 }
             ],
             "artSource": "https://corsproxy.io/?url=https%3A%2F%2Fwww.dexerto.fr%2Fcdn-image%2Fwp-content%2Fuploads%2Fsites%2F2%2F2025%2F05%2F05%2Fgestral-perdu-clair-obscur-expedition-33.jpg",
-            "artX": -0.9497512437810945,
-            "artY": 0.029850746268656716,
-            "artZoom": 2.9389999999999996,
+            "artX": -0.6144278606965174,
+            "artY": 0.028429282160625444,
+            "artZoom": 2.799,
             "artRotate": "0",
             "setSymbolSource": "https://cardconjurer.app/img/setSymbols/official/pz1-c.svg",
             "setSymbolX": 0.8701492537313433,
