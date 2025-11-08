@@ -3,7 +3,9 @@ Marked!
 [ManaCost]
 R
 [Types]
+Kindred
 Enchantment
+Expeditioner
 Aura
 [Rarity]
 U
@@ -11,14 +13,14 @@ U
 Enchant Creature
 Flash
 If a source would deal damage to enchanted creature, it deals double that damage to that creature instead.
-When ~ is put into a graveyard from the battlefield, return ~ to its owner's hand.
+When ~ is put into a graveyard from the battlefield, return it to its owner's hand.
 [ForgeScript]
 K:Enchant:Creature
 K:Flash
 R:Event$ DamageDone | ActiveZones$ Battlefield | ValidTarget$ Creature.EnchantedBy | ReplaceWith$ DmgTwice | Description$ If a source would deal damage to enchanted creature, it deals double that damage to that creature instead.
 SVar:DmgTwice:DB$ ReplaceEffect | VarName$ DamageAmount | VarValue$ X
 SVar:X:ReplaceCount$DamageAmount/Twice
-T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Card.Self | Execute$ TrigChangeZone | TriggerDescription$ When CARDNAME is put into a graveyard from the battlefield, return CARDNAME to its owner's hand.
+T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Card.Self | Execute$ TrigChangeZone | TriggerDescription$ When CARDNAME is put into a graveyard from the battlefield, return it to its owner's hand.
 SVar:TrigChangeZone:DB$ ChangeZone | Origin$ Graveyard | Destination$ Hand | Defined$ TriggeredNewCardLKICopy
 [DesignNotes]
  - In the game, marked is a status effect that causes the recipient to receive 50% more damage on the next hit.
