@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 8/11/2025 7:13:36 am
+> Last generated: 8/11/2025 8:39:40 am
 
 ## A Storm is Coming
 
@@ -761,7 +761,7 @@ For those who come after.
 
 ### Design Notes
 
- - Key mechanical gimmick we want to replicate from the game is his overcharge ability, which obviously requires charge build up. We had a choice between energy counters or charge counters. We settled on charge counters as energy counters are a global resource, whereas charage counters would be a resource localized to Gustave himself.
+ - Key mechanical gimmick we want to replicate from the game is his overcharge ability, which obviously requires charge build up. We had a choice between energy counters or charge counters. We settled on charge counters as energy counters are a global resource, whereas charge counters would be a resource localized to Gustave himself.
  - Marking shot is just a creature ping that puts a marked counter on it. A creature with a marked counter will be a magnet for more damage.
  - From fire in the game is an ability that heals Gustave a bit if the target is burning. Translated this to a creature bolt + life gain.
  - Strike storm in the game is just a flurry of strikes. Translated this to temporary double strike.

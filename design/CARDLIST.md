@@ -29,7 +29,7 @@ From this list, card designs are spawned from it, which will eventually form the
 
 ## Card Name List
 
-Cards implemented: 212/290
+Cards implemented: 213/290
 
 [x] - Card is implementned or in development, [ ] - Card is not implemented
 
@@ -141,7 +141,7 @@ Cards implemented: 212/290
 [x] Expedition 81 Interpreter
 [x] Expedition Cache
 [x] Expedition Camp
-[ ] Expedition Flag
+[x] Expedition Flag
 [ ] Expedition Flotilla
 [x] Expedition Recruiter
 [ ] Falling Leaves

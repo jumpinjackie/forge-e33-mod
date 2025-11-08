@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 8/11/2025 7:13:36 am
+> Last generated: 8/11/2025 8:39:40 am
 
 ## Anti-Burn
 
@@ -202,6 +202,25 @@ This could be useful!
 
  - In the game, these caches are scattered throughout the continent, left by previous Expeditions "for those who come after"
  - Just an enabler for Lumina/Chroma token strategies
+
+## Expedition Flag
+
+```
+3
+Artifact
+Expeditioner creatures you control get +1/+1.
+{T}: Add one mana of any color.
+---
+Wanna plant it? 
+- Sciel, to Maelle
+```
+
+[card implementation](../custom/cards/e/expedition_flag.txt)
+
+### Design Notes
+
+ - In the game, Expedition flags are save points scattered throughout the continent laid down by previous Expeditions.
+ - Gone with an Expeditioner-focused variant of Patchwork Banner.
 
 ## Florrie
 
