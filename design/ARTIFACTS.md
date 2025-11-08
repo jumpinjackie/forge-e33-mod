@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 8/11/2025 10:48:43 am
+> Last generated: 8/11/2025 11:37:46 am
 
 ## Anti-Burn
 
@@ -79,7 +79,7 @@ Painter and Gradient spells you cast cost {1} less to cast.
 {T}: Add one mana of any color. Spend this mana only to cast a Painter or Gradient spell.
 {3},{T}: Search your library for a Painter card, reveal it and put it into your hand, then shuffle.
 ---
-One family, united by art, divided by grief.
+One family, united by passion for art, divided by grief.
 ```
 
 [card implementation](../custom/cards/d/dessendre_family_portrait.txt)

@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 8/11/2025 10:48:43 am
+> Last generated: 8/11/2025 11:37:46 am
 
 ## A Storm is Coming
 
@@ -749,7 +749,7 @@ Search your library for a Gradient card, reveal that card, put it into your hand
 Legendary Creature - Human Expeditioner
 Whenever Gustave becomes untapped, attacks or blocks, put a charge counter on him.
 From Fire — {W}{R},{T}: Gustave deals 3 damage to target creature, you gain 3 life.
-Strike Storm — {W}{R}: Gustave gains double-strike until ene of turn, put two charge counters on him. Activate only once per turn.
+Strike Storm — {W}{R}: Gustave gains double-strike until end of turn, put two charge counters on him. Activate only once per turn.
 Overcharge — {T}, Remove X charge counters from Gustave: Gustave deals X damage to target creature and that creature's controller.
 ---
 For those who come after.
@@ -1192,7 +1192,9 @@ Life keeps forcing cruel choices ...
 ```
 WUBRG
 Kindred Sorcery - Expeditioner
-You win the game if you control a total of 33 or more Expeditioners, Chroma, Lumina or Pictos permanents.
+You win the game if you control a total of 33 or more Expeditioner, Chroma, Lumina or Picto permanents.
+---
+When one falls, we continue.
 ```
 
 [card implementation](../custom/cards/t/the_greatest_expedition_in_history.txt)
