@@ -28,11 +28,11 @@ To signify the reward (loot) for taking down Nevrons in battle, all Nevrons have
 
 Giving potential resources to opponents isn't necessarily a bad thing as this set includes various cards that punish opponents or reward you based on how many Lumina tokens they have.
 
-### Lumina Tokens
+### Lumina Tokens / Luminous
 
-Lumina Tokens are artifacts that can be sacrified to Scry 1. But that is not just their only purpose, for in this set there are cards that unlock extra abilities if you have three or more Lumina tokens on the board.
+Lumina Tokens are artifacts that can be sacrified to Scry 1. But that is not just their only purpose, for in this set there are cards that unlock extra abilities if you have three or more Lumina tokens on the board. This state is ability-worded as *Luminous* (think Metalcraft, but counts Lumina tokens instead).
 
-Lumina tokens may serve as an alternate source of payment for certain spells, abilities and effects. Such as ...
+Lumina tokens may also serve as an alternate source of payment for certain spells, abilities and effects. Such as ...
 
 ### Pictos
 
