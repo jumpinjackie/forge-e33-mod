@@ -31,7 +31,7 @@ From this list, card designs are spawned from it, which will eventually form the
 
 Cards implemented: 213/290
 
-[x] - Card is implementned or in development, [ ] - Card is not implemented
+[x] - Card is implemented or in development, [ ] - Card is not implemented
 
 ```
 [x] A Storm is Coming

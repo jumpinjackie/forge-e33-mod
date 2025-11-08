@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 8/11/2025 8:39:40 am
+> Last generated: 8/11/2025 10:48:43 am
 
 ## Chapelier
 
