@@ -40,6 +40,7 @@ To see what cards are in this set, check out the various design docs which detai
  * [Red](/design/RED.md)
  * [White](/design/WHITE.md)
  * [Card Name List](/design/CARDLIST.md)
+ * [Visual Spoiler](/design/SPOILER.md)
 
 # Other design notes
 
