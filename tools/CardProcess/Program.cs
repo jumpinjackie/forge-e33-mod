@@ -696,7 +696,7 @@ public class CardMasterDesign(string designFile)
     {
         get
         {
-            return this.Name.ToLower().Replace(" // ", "_").Replace(":", "").Replace("'", "").Replace("!", "").Replace(",", "").Replace(" ", "_");
+            return this.Name.ToLower().Replace(" // ", "_").Replace("-", "_").Replace(":", "").Replace("'", "").Replace("!", "").Replace(",", "").Replace(" ", "_");
         }
     }
 
