@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 10/11/2025 2:48:15 pm
+> Last generated: 10/11/2025 4:27:45 pm
 
 ## Anti-Burn Picto
 
@@ -72,8 +72,15 @@ Sacrifice two Lumina tokens: Create a token copy of this equipment attached to t
 
 ### Design Notes
 
- - In the game, Energising Attack grants AP to the character on its base attack.
- - Mapped its AP granting to awarding Chroma tokens.
+ - In the game, Attack pictos come in many prefixed variants, that all grant some kind of bonus to the character when they perform a base attack.
+ - This is the first of 4 "epic" tier pictos that are modeled on one of these pictos that have many prefixed variants.
+ - This picto has an ETB trigger that lets you pick 2 out of 3 types of counters (variants) to put on this equipment. We're not modeling every variant/prefix from the video game because of text box budget constraints.
+ - The picto then will grant various buffs and abilities based on the type of counter chosen, in this case:
+     - Augmented: Gives +3/+3
+     - Combo: Gives double strike
+     - Energizing: Gives Chroma token when equipped creature attacks
+ - The station mechanic from Edge of Eternities has given us the ideal template to base this card implementation from as the buffs and abilities granted based on counter type follow the same pattern as buffs and abilities based on the number of charge counters in the station mechanic, only we're more finicky about the specific type of counter.
+ - This is a slight deviation from the video game lore as we're effectively smushing 3 (in-game depicted) Pictos into one. But we are doing this for a good reason. Pictos indvidually are somewhat dull when translated to MTG mechanics. The replication gimmick is unique, but it ultimately still is just provides some basic buff or combat-related ability. This modal design allows us to strategically choose the best buffs/abilities for any given situation, with the replication ability allowing one to cover all bases ability-wise.
 
 ## Berrami, Collector of Journals
 
