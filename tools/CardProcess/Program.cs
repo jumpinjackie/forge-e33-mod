@@ -1,4 +1,5 @@
 ﻿using System.Diagnostics;
+using System.Globalization;
 using System.Text;
 using DotMake.CommandLine;
 
@@ -198,13 +199,35 @@ public class CardFaceDesign
         sb.Replace("$EXPEDITIONER_TOKEN_TEXT", "\"When this creature dies, create a Chroma token.\"");
         sb.Replace("$NEVRON_DEATH_ABILITY_TEXT", "When this creature dies, target opponent creates a Lumina token.");
         sb.Replace("$EXPEDITIONER_DEATH_ABILITY_TEXT", "When this creature dies, create a Chroma token.");
-        return sb.ToString();
+
+        // Handle parameterized PICTO_REPLICATE_ABILITY at the end after all other replacements
+        var text = sb.ToString();
+        int startIdx;
+        while ((startIdx = text.IndexOf("$PICTO_REPLICATE_ABILITY(")) != -1)
+        {
+            var endIdx = text.IndexOf(')', startIdx);
+            if (endIdx == -1) break;
+
+            var costValue = text.Substring(startIdx + 25, endIdx - (startIdx + 25));
+            var replacement = $"""
+        A:AB$ CopyPermanent | Cost$ Sac<{costValue}/Lumina> | CheckSVar$ TokenCopies | SVarCompare$ EQ0 | ValidTgts$ Creature.YouCtrl | Defined$ Self | NumCopies$ 1 | AttachedTo$ Targeted | SpellDescription$ Create a token copy of CARDNAME attached to target creature you control. Activate this ability only if you control no token copies of CARDNAME.
+        SVar:TokenCopies:Count$Valid Artifact.YouCtrl+token+named{this.Name}
+        """;
+            text = text.Remove(startIdx, endIdx - startIdx + 1).Insert(startIdx, replacement);
+        }
+
+        // Convert first character to uppercase
+        if (text.Length > 0)
+        {
+            text = char.ToUpper(text[0]) + text.Substring(1);
+        }
+        return text;
     }
 
     internal string GetCardConjurerOracleText()
     {
         var text = new StringBuilder(this.GetOracleText());
-        
+
         // Italicize all ability words
         if (this.AbilityWords is not null)
         {
@@ -213,7 +236,7 @@ public class CardFaceDesign
                 text.Replace(aw, "{i}" + aw + "{/i}");
             }
         }
-        
+
         // Append flavor text afterwards only if present
         if (this.FlavorTextFull is not null)
         {
@@ -246,6 +269,8 @@ public class CardFaceDesign
                 thisName = "this vehicle";
             else if (ht.Contains("Creature"))
                 thisName = "this creature";
+            else if (ht.Contains("Equipment"))
+                thisName = "this equipment";
             else
                 thisName = "this artifact";
         }
@@ -275,12 +300,43 @@ public class CardFaceDesign
         sb.Replace("$EXPEDITIONER_DEATH_ABILITY_TEXT", "When this creature dies, create a Chroma token.");
         sb.Replace("$STORM_REMINDER_TEXT", "(When you cast this spell, copy it for each spell cast before it this turn. You may choose new targets for the copies.)");
 
-        if (sb.Length > 0)
+        // Handle parameterized PICTO_REPLICATE_ABILITY at the end after all other replacements
+        var text = sb.ToString();
+        int startIdx;
+        while ((startIdx = text.IndexOf("$PICTO_REPLICATE_ABILITY(")) != -1)
         {
-            sb[0] = char.ToUpper(sb[0]);
+            var endIdx = text.IndexOf(')', startIdx);
+            if (endIdx == -1) break;
+
+            var costValue = text.Substring(startIdx + 25, endIdx - (startIdx + 25));
+            var replacement = $"""
+        Sacrifice {WordifyNumber(costValue)} Lumina tokens: Create a token copy of {thisName} attached to target creature you control. Activate this ability only if you control no token copies of {thisName}.
+        """;
+            text = text.Remove(startIdx, endIdx - startIdx + 1).Insert(startIdx, replacement);
         }
-        return sb.ToString();
+
+        // Convert first character to uppercase
+        if (text.Length > 0)
+        {
+            text = char.ToUpper(text[0]) + text.Substring(1);
+        }
+        return text;
     }
+
+    static string WordifyNumber(string value) => value switch
+    {
+        "1" => "one",
+        "2" => "two",
+        "3" => "three",
+        "4" => "four",
+        "5" => "five",
+        "6" => "six",
+        "7" => "seven",
+        "8" => "eight",
+        "9" => "nine",
+        "10" => "ten",
+        _ => value.ToString(CultureInfo.InvariantCulture)
+    };
 }
 
 /// <summary>
@@ -1250,7 +1306,7 @@ public class CardConjurerValidateCommand : BaseCommand
         // Read current cardconjurer config
         var conf = System.Text.Json.JsonDocument.Parse(File.ReadAllText(ccConfigPath));
         int totalCcCards = conf.RootElement.EnumerateArray().Count();
-        
+
         int totalCards = 0;
         int matchingCards = 0;
         int mismatchedCards = 0;
@@ -1279,7 +1335,7 @@ public class CardConjurerValidateCommand : BaseCommand
         foreach (var (cardName, design) in cards)
         {
             totalCards++;
-            
+
             // Skip split/fuse cards as they have different validation requirements
             if (design.FaceType == CardFaceType.SplitRoom || design.FaceType == CardFaceType.SplitFuse)
             {
@@ -1310,8 +1366,8 @@ public class CardConjurerValidateCommand : BaseCommand
             }
 
             // Check mana cost
-            if (design.FrontFull?.ManaCost != null && 
-                text.TryGetProperty("mana", out var manaObj) && 
+            if (design.FrontFull?.ManaCost != null &&
+                text.TryGetProperty("mana", out var manaObj) &&
                 manaObj.TryGetProperty("text", out var manaText))
             {
                 var ccManaCost = manaText.GetString();
@@ -1330,7 +1386,7 @@ public class CardConjurerValidateCommand : BaseCommand
             }
 
             // Check title
-            if (text.TryGetProperty("title", out var titleObj) && 
+            if (text.TryGetProperty("title", out var titleObj) &&
                 titleObj.TryGetProperty("text", out var titleText))
             {
                 var ccTitle = titleText.GetString();
@@ -1347,8 +1403,8 @@ public class CardConjurerValidateCommand : BaseCommand
             }
 
             // Check type line
-            if (design.FrontFull?.TypeLine != null && 
-                text.TryGetProperty("type", out var typeObj) && 
+            if (design.FrontFull?.TypeLine != null &&
+                text.TryGetProperty("type", out var typeObj) &&
                 typeObj.TryGetProperty("text", out var typeText))
             {
                 var ccType = typeText.GetString();
@@ -1439,13 +1495,13 @@ public class CardConjurerValidateCommand : BaseCommand
             }
 
             // Check rules text
-            if (design.FrontFull?.Oracle != null && 
-                text.TryGetProperty("rules", out var rulesObj) && 
+            if (design.FrontFull?.Oracle != null &&
+                text.TryGetProperty("rules", out var rulesObj) &&
                 rulesObj.TryGetProperty("text", out var rulesText))
             {
                 var ccRules = NormalizeToAscii(rulesText.GetString() ?? "");
                 var designRules = NormalizeToAscii(design.FrontFull.GetCardConjurerOracleText());
-                
+
                 if (ccRules != designRules)
                 {
                     if (!hasWarnings)
@@ -1459,8 +1515,8 @@ public class CardConjurerValidateCommand : BaseCommand
             }
 
             // Check P/T
-            if (design.FrontFull?.PT != null && 
-                text.TryGetProperty("pt", out var ptObj) && 
+            if (design.FrontFull?.PT != null &&
+                text.TryGetProperty("pt", out var ptObj) &&
                 ptObj.TryGetProperty("text", out var ptText))
             {
                 var ccPT = System.Text.RegularExpressions.Regex.Replace(ptText.GetString() ?? "", "{[^}]*}", "");
@@ -1482,72 +1538,72 @@ public class CardConjurerValidateCommand : BaseCommand
             {
                 var marker = new StringBuilder();
                 var diffDetails = new StringBuilder();
-                
+
                 // Normalize line endings to \n and handle escaped characters
                 string NormalizeString(string s) => s
                     .Replace("\r\n", "\n")
                     .Replace("\r", "\n");
-                
+
                 str1 = NormalizeString(str1);
                 str2 = NormalizeString(str2);
-                
+
                 // Helper to get unicode info for a character
                 static string GetUnicodeInfo(char c) => c > 127 ? $"U+{(int)c:X4}" : c.ToString();
-                
+
                 // Split into lines
                 var lines1 = str1.Split('\n');
                 var lines2 = str2.Split('\n');
-                
+
                 if (lines1.Length == 1 && lines2.Length == 1)
                 {
                     int minLength = Math.Min(str1.Length, str2.Length);
                     var specialChars = new List<(int pos, char c1, char c2)>();
-                    
+
                     // Find special character differences
                     for (int i = 0; i < minLength; i++)
                     {
                         if (str1[i] != str2[i] && (str1[i] > 127 || str2[i] > 127))
                             specialChars.Add((i, str1[i], str2[i]));
                     }
-                    
+
                     if (specialChars.Count > 0)
                     {
                         diffDetails.Append("              Special chars: ");
-                        diffDetails.AppendJoin(", ", specialChars.Select(x => 
+                        diffDetails.AppendJoin(", ", specialChars.Select(x =>
                             $"pos {x.pos}: '{x.c1}' ({GetUnicodeInfo(x.c1)}) vs '{x.c2}' ({GetUnicodeInfo(x.c2)})"));
                     }
                 }
                 else
                 {
                     var specialChars = new List<(int line, int pos, char c1, char c2)>();
-                    
+
                     // Compare each line
                     for (int i = 0; i < Math.Min(lines1.Length, lines2.Length); i++)
                     {
                         var line1 = lines1[i];
                         var line2 = lines2[i];
-                        
+
                         for (int j = 0; j < Math.Min(line1.Length, line2.Length); j++)
                         {
                             if (line1[j] != line2[j] && (line1[j] > 127 || line2[j] > 127))
                                 specialChars.Add((i + 1, j, line1[j], line2[j]));
                         }
                     }
-                    
+
                     if (specialChars.Count > 0)
                     {
                         diffDetails.Append("              Special chars: ");
-                        diffDetails.AppendJoin(", ", specialChars.Select(x => 
+                        diffDetails.AppendJoin(", ", specialChars.Select(x =>
                             $"line {x.line} pos {x.pos}: '{x.c1}' ({GetUnicodeInfo(x.c1)}) vs '{x.c2}' ({GetUnicodeInfo(x.c2)})"));
                     }
                 }
-                
+
                 // Only show details if we found special character differences
                 if (diffDetails.Length > 0)
                 {
                     marker.AppendLine(diffDetails.ToString());
                 }
-                
+
                 return marker.ToString();
             }
 
