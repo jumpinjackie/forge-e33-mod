@@ -15,7 +15,7 @@ Sandfall Interactive
 The Paintress launching a volley of projectiles with the appearance of a black hole or an eclipsed star.
 [Oracle]
 This spell costs {2} less to cast if you control a painter.
-This spell deals 4 damage divided as you choose among any number of targets.
+~ deals 4 damage divided as you choose among any number of targets.
 [FlavorText]
 How cruel of your father to use you like this.
 - The Paintress

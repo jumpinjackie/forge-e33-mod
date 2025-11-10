@@ -18288,11 +18288,11 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "When this creature dies, create a Chroma token",
+                    "text": "When this creature dies, create a Chroma token (It’s an artifact with “{T}, Sacrifice this artifact: Add one mana of any color. Spend this mana only to cast a Nevron, Gestral or Expeditioner spell.”)",
                     "x": 0.086,
                     "y": 0.7143,
                     "width": 0.828,
-                    "height": 0.2048,
+                    "height": 0.1670220326936745,
                     "size": 0.0362
                 },
                 "pt": {
@@ -35848,7 +35848,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "This spell costs {2} less to cast if you control a painter.\nThis spell deals 4 damage divided as you choose among any number of targets.{flavor}How cruel of your father to use you like this.\n- The Paintress",
+                    "text": "This spell costs {2} less to cast if you control a painter.\nVoid Meteors deals 4 damage divided as you choose among any number of targets.{flavor}How cruel of your father to use you like this.\n- The Paintress",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
