@@ -1,0 +1,8 @@
+Name:Attack Lifesteal Picto
+ManaCost:2
+Types:Artifact Picto Equipment
+K:Equip:2
+S:Mode$ Continuous | Affected$ Creature.EquippedBy | AddPower$ 1 | AddToughness$ 1 | AddKeyword$ Lifelink | Equipped creature has +1/+1 and lifelink.
+A:AB$ CopyPermanent | Cost$ Sac<2/Lumina> | CheckSVar$ TokenCopies | SVarCompare$ EQ0 | ValidTgts$ Creature.YouCtrl | Defined$ Self | NumCopies$ 1 | AttachedTo$ Targeted | SpellDescription$ Create a token copy of CARDNAME attached to target creature you control. Activate this ability only if you control no token copies of CARDNAME.
+SVar:TokenCopies:Count$Valid Artifact.YouCtrl+token+namedAttack Lifesteal Picto
+Oracle:Equipped creature has +1/+1 and lifelink.\nEquip {2}\nSacrifice two Lumina tokens: Create a token copy of this equipment attached to target creature you control. Activate this ability only if you control no token copies of this equipment.

@@ -1,0 +1,12 @@
+Name:Death Picto
+ManaCost:3
+Types:Artifact Picto Equipment
+K:Equip:2
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigCharm | TriggerDescription$ When CARDNAME enters, ABILITY
+SVar:TrigCharm:DB$ Charm | Choices$ BurningCounter,EnergizingCounter,ShieldingCounter | CharmNum$ 2
+SVar:BurningCounter:DB$ PutCounter | CounterNum$ 1 | CounterType$ BURNING | SpellDescription$ Put a burning counter on CARDNAME.
+SVar:EnergizingCounter:DB$ PutCounter | CounterNum$ 1 | CounterType$ ENERGIZING | SpellDescription$ Put an energizing counter on CARDNAME.
+SVar:ShieldingCounter:DB$ PutCounter | CounterNum$ 1 | CounterType$ SHIELDING | SpellDescription$ Put a shielding counter on CARDNAME.
+A:AB$ CopyPermanent | Cost$ Sac<2/Lumina> | CheckSVar$ TokenCopies | SVarCompare$ EQ0 | ValidTgts$ Creature.YouCtrl | Defined$ Self | NumCopies$ 1 | AttachedTo$ Targeted | SpellDescription$ Create a token copy of CARDNAME attached to target creature you control. Activate this ability only if you control no token copies of CARDNAME.
+SVar:TokenCopies:Count$Valid Artifact.YouCtrl+token+namedDeath Picto
+Oracle:When this equipment enters, choose two —\n• Put a burning counter on this equipment\n• Put a energizing counter on this equipment\n• Put a shielding counter on this equipment\nWhen equipped creature dies, it deals 4 damage to any target if this equipment has a burning counter, create a Chroma token if this equipment has an energizing counter and put a shield counter on each creature you control if this equipment has a shielding counter.\nEquip {2}\nSacrifice two Lumina tokens: Create a token copy of this equipment attached to target creature you control. Activate this ability only if you control no token copies of this equipment.

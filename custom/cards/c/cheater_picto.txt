@@ -1,0 +1,8 @@
+Name:Cheater Picto
+ManaCost:3
+Types:Artifact Picto Equipment
+K:Equip:2
+S:Mode$ Continuous | Affected$ Creature.EquippedBy | AddHiddenKeyword$ CARDNAME untaps during each other player's untap step. | Description$ Untap equipped creature during each other player's untap step.
+A:AB$ CopyPermanent | Cost$ Sac<3/Lumina> | CheckSVar$ TokenCopies | SVarCompare$ EQ0 | ValidTgts$ Creature.YouCtrl | Defined$ Self | NumCopies$ 1 | AttachedTo$ Targeted | SpellDescription$ Create a token copy of CARDNAME attached to target creature you control. Activate this ability only if you control no token copies of CARDNAME.
+SVar:TokenCopies:Count$Valid Artifact.YouCtrl+token+namedCheater Picto
+Oracle:Untap equipped creature during each other player's untap step.\nEquip {2}\nSacrifice three Lumina tokens: Create a token copy of this equipment attached to target creature you control. Activate this ability only if you control no token copies of this equipment.

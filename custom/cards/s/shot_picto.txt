@@ -1,0 +1,12 @@
+Name:Shot Picto
+ManaCost:3
+Types:Artifact Picto Equipment
+K:Equip:2
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigCharm | TriggerDescription$ When CARDNAME enters, ABILITY
+SVar:TrigCharm:DB$ Charm | Choices$ BreakingCounter,EnergizingCounter,PiercingCounter | CharmNum$ 2
+SVar:BreakingCounter:DB$ PutCounter | CounterNum$ 1 | CounterType$ BREAKING | SpellDescription$ Put a breaking counter on CARDNAME.
+SVar:EnergizingCounter:DB$ PutCounter | CounterNum$ 1 | CounterType$ ENERGIZING | SpellDescription$ Put an energizing counter on CARDNAME.
+SVar:PiercingCounter:DB$ PutCounter | CounterNum$ 1 | CounterType$ PIERCING | SpellDescription$ Put a piercing counter on CARDNAME.
+A:AB$ CopyPermanent | Cost$ Sac<2/Lumina> | CheckSVar$ TokenCopies | SVarCompare$ EQ0 | ValidTgts$ Creature.YouCtrl | Defined$ Self | NumCopies$ 1 | AttachedTo$ Targeted | SpellDescription$ Create a token copy of CARDNAME attached to target creature you control. Activate this ability only if you control no token copies of CARDNAME.
+SVar:TokenCopies:Count$Valid Artifact.YouCtrl+token+namedShot Picto
+Oracle:When this equipment enters, choose two —\n• Put a breaking counter on this equipment\n• Put an energizing counter on this equipment\n• Put a piercing counter on this equipment\nEquipped creature gains "{X}{X}, {T}: This creature deals X damage to target creature"\nWhenever equipped creature deals damage to a creature, create a Chroma token if this equipment has an energizing counter, tap that creature and put a stun counter on it if this equipment has a breaking counter, and it deals that amount of damage to its controller if this equipment has a piercing counter.\nEquip {2}\nSacrifice two Lumina tokens: Create a token copy of this equipment attached to target creature you control. Activate this ability only if you control no token copies of this equipment.

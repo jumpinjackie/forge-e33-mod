@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 8/11/2025 6:59:55 pm
+> Last generated: 10/11/2025 2:48:15 pm
 
 ## A Storm is Coming
 
@@ -1320,7 +1320,7 @@ Here we go
 2BR
 Sorcery - Gradient
 This spell costs {2} less to cast if you control a painter.
-This spell deals 4 damage divided as you choose among any number of targets.
+Void Meteors deals 4 damage divided as you choose among any number of targets.
 ---
 How cruel of your father to use you like this.
 - The Paintress

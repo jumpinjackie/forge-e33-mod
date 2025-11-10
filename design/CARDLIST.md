@@ -29,7 +29,7 @@ From this list, card designs are spawned from it, which will eventually form the
 
 ## Card Name List
 
-Cards implemented: 213/290
+Cards implemented: 222/294
 
 [x] - Card is implemented or in development, [ ] - Card is not implemented
 
@@ -43,10 +43,10 @@ Cards implemented: 213/290
 [ ] All Set
 [x] An Advantage!
 [ ] Ancient Sanctuary
-[x] Anti-Burn
-[ ] Anti-Freeze
-[ ] Attack Lifesteal
-[ ] Augmented Attack
+[x] Anti-Burn Picto
+[x] Anti-Freeze Picto
+[x] Attack Lifesteal Picto
+[x] Attack Picto
 [x] Ballet
 [ ] Barrier Breaker
 [x] Benisseur
@@ -66,6 +66,7 @@ Cards implemented: 213/290
 [x] Catapault Sakapatate
 [x] Chalier
 [x] Chapelier
+[x] Cheater Picto
 [x] Chorale
 [x] Chroma Barrier
 [x] Chroma Catalyst
@@ -88,6 +89,7 @@ Cards implemented: 213/290
 [x] Danseuse
 [ ] Danseuse Teacher
 [x] Dark Shores
+[x] Death Picto
 [ ] Degagement
 [x] Demineur
 [x] Dessendre Family Portrait
@@ -197,7 +199,7 @@ Cards implemented: 213/290
 [x] Gustave's Insight
 [x] Gustave's Journal
 [x] Healing Light
-[ ] Health Tint
+[x] Healing Tint
 [ ] Heart of the Paintress
 [x] Here's Your Card!
 [ ] Hexga
@@ -206,6 +208,7 @@ Cards implemented: 213/290
 [x] Julien Tiny Head
 [x] Lampmaster
 [x] Lancelier
+[x] Last Stand Picto
 [x] Leave this Canvas!
 [x] Lightning Dance
 [x] Limonsol, Matchmaker
@@ -277,6 +280,7 @@ Cards implemented: 213/290
 [x] Search // Rescue
 [ ] Seething Boucheclier
 [x] Serpenphare
+[x] Shot Picto
 [ ] Simon, Consort of Clea
 [ ] Simon, The Divergent Star
 [x] Sinister Cave

@@ -1,23 +1,79 @@
 # Cards
 
-> Last generated: 8/11/2025 11:37:46 am
+> Last generated: 10/11/2025 2:48:15 pm
 
-## Anti-Burn
+## Anti-Burn Picto
 
 ```
 1
-Artifact - Equipment Picto
+Artifact - Picto Equipment
 Equipped creature has protection from red.
 Equip {2}
-Sacrifice two Lumina tokens: Create a token copy of this artifact attached to target creature you control. Activate this ability only if you control no token copies of this artifact.
+Sacrifice two Lumina tokens: Create a token copy of this equipment attached to target creature you control. Activate this ability only if you control no token copies of this equipment.
 ```
 
-[card implementation](../custom/cards/a/anti-burn.txt)
+[card implementation](../custom/cards/a/anti_burn_picto.txt)
 
 ### Design Notes
 
  - In the game, Anti-Burn grants immunity to Burn.
  - Easy mechanical map to protection from red.
+
+## Anti-Freeze Picto
+
+```
+1
+Artifact - Picto Equipment
+Equipped creature has protection from blue.
+Equip {2}
+Sacrifice two Lumina tokens: Create a token copy of this equipment attached to target creature you control. Activate this ability only if you control no token copies of this equipment.
+```
+
+[card implementation](../custom/cards/a/anti_freeze_picto.txt)
+
+### Design Notes
+
+ - In the game, Anti-Freeze grants immunity to freeze
+ - Easy mechanical map to protection from blue.
+
+## Attack Lifesteal Picto
+
+```
+2
+Artifact - Picto Equipment
+Equipped creature has +1/+1 and lifelink.
+Equip {2}
+Sacrifice two Lumina tokens: Create a token copy of this equipment attached to target creature you control. Activate this ability only if you control no token copies of this equipment.
+```
+
+[card implementation](../custom/cards/a/attack_lifesteal_picto.txt)
+
+### Design Notes
+
+ - In the game, Attack Lifesteal allows a character to recover 15% health on base attack.
+ - Easy mechanical map to lifelink.
+
+## Attack Picto
+
+```
+4
+Artifact - Picto Equipment
+When this equipment enters, choose two —
+• Put an augmented counter on this equipment
+• Put a combo counter on this equipment
+• Put a energizing counter on this equipment
+Equipped creature gets +3/+3 if this equipment has an augmented counter on it and has double strike if this equipment has a combo counter on it.
+Whenever equipped creature attacks, if this equipment has a energizing counter on it, create a Chroma token.
+Equip {2}
+Sacrifice two Lumina tokens: Create a token copy of this equipment attached to target creature you control. Activate this ability only if you control no token copies of this equipment.
+```
+
+[card implementation](../custom/cards/a/attack_picto.txt)
+
+### Design Notes
+
+ - In the game, Energising Attack grants AP to the character on its base attack.
+ - Mapped its AP granting to awarding Chroma tokens.
 
 ## Berrami, Collector of Journals
 
@@ -37,6 +93,23 @@ You found all the journals? Moshi will be so happy.
 
  - In the game, Berrami is an NPC you can turn in journals for colors of lumina.
  - Mechanically, I've translated this to milling cards from your library for lumina tokens.
+
+## Cheater Picto
+
+```
+3
+Artifact - Picto Equipment
+Untap equipped creature during each other player's untap step.
+Equip {2}
+Sacrifice three Lumina tokens: Create a token copy of this equipment attached to target creature you control. Activate this ability only if you control no token copies of this equipment.
+```
+
+[card implementation](../custom/cards/c/cheater_picto.txt)
+
+### Design Notes
+
+ - In the game, Cheater allows a character to play (take turns) twice.
+ - Easy mechanical map to untapping equipped creature on other's turns.
 
 ## Chroma Catalyst
 
@@ -69,6 +142,27 @@ When this artifact enters, draw a card.
 ### Design Notes
 
  - This card has no in-game basis. Just an artifact to provide color fixing and some minor ramp if you hava Chroma tokens to spare.
+
+## Death Picto
+
+```
+3
+Artifact - Picto Equipment
+When this equipment enters, choose two —
+• Put a burning counter on this equipment
+• Put a energizing counter on this equipment
+• Put a shielding counter on this equipment
+When equipped creature dies, it deals 4 damage to any target if this equipment has a burning counter, create a Chroma token if this equipment has an energizing counter and put a shield counter on each creature you control if this equipment has a shielding counter.
+Equip {2}
+Sacrifice two Lumina tokens: Create a token copy of this equipment attached to target creature you control. Activate this ability only if you control no token copies of this equipment.
+```
+
+[card implementation](../custom/cards/d/death_picto.txt)
+
+### Design Notes
+
+ - In the game, Attack Lifesteal allows a character to recover 15% health on base attack.
+ - Easy mechanical map to lifelink.
 
 ## Dessendre Family Portrait
 
@@ -396,6 +490,24 @@ Sacrifice a Chroma token: Put a charge counter on this creature. Activate this a
  - Charging up is a way to spend any excess Chroma tokens you may have, but capped at 3 max so you can't overdo the buffing and is sorcery speed so you can't stack > 3 activations to bypass the limit.
  - 18/10/2025: Bumped pump activation cost from {1} to {2}
 
+## Glass Cannon Picto
+
+```
+2
+Artifact - Picto Equipment
+Equipped creature can attack as though it didn't have defender and gets +X/-X where X is its toughness minus 1.
+Equip {2}
+Sacrifice two Lumina tokens: Create a token copy of this equipment attached to target creature you control. Activate this ability only if you control no token copies of this equipment.
+```
+
+[card implementation](../custom/cards/g/glass_cannon_picto.txt)
+
+### Design Notes
+
+ - In the game, Glass Cannon lets a chacter deal 25% more damage, but take 25% more damage as well.
+ - Mapped to creature power pump at the expense of its toughness.
+ - Granted defender exemption to incentivize equipping to Walls and other high toughness creatures that likely have defender.
+
 ## Golgra, Gestral Chief
 
 ```
@@ -480,6 +592,27 @@ Haymaker — {2}: Julien gains trample until end of turn.
     - Combo Jab: Easy. A flurry of strikes. Ergo. Double Strike
     - Uppercut: Julien's punches are so strong that an uppercut would launch his opponent into the air (in my mind). Hence, the momentary flying after being dealt 2 damage (if it survives that punch!)
     - Haymaker: Interpreted as a really heavy punch and trample is a suitable way to convey such heaviness
+
+## Last Stand Picto
+
+```
+3
+Artifact - Picto Equipment
+When this equipment enters, choose two —
+• Put an empowering counter on this equipment
+• Put a protecting counter on this equipment
+• Put an accelerating counter on this equipment
+Equipped creature gets +3/+3 if it attacks or blocks alone and this equipment has an empowering counter on it, has hexproof if it attacks or blocks alone and this equipment has a protecting counter on it, and has first strike if it attacks or blocks alone and this equipment has an accelerating counter on it.
+Equip {2}
+Sacrifice two Lumina tokens: Create a token copy of this equipment attached to target creature you control. Activate this ability only if you control no token copies of this equipment.
+```
+
+[card implementation](../custom/cards/l/last_stand_picto.txt)
+
+### Design Notes
+
+ - In the game, Attack Lifesteal allows a character to recover 15% health on base attack.
+ - Easy mechanical map to lifelink.
 
 ## Limonsol, Matchmaker
 
@@ -656,6 +789,23 @@ You don't get to die yet.
  - In the game, a Revive Tint resurrects a fallen party member in battle.
  - Mechanically, gone with a Raise Dead effect that also has reanimation if you meet the Lumina token requirement.
 
+## Rush Picto
+
+```
+1
+Artifact - Picto Equipment
+Equipped creature gets +1/+0 and has haste.
+Equip {1}
+Sacrifice two Lumina tokens: Create a token copy of this equipment attached to target creature you control. Activate this ability only if you control no token copies of this equipment.
+```
+
+[card implementation](../custom/cards/r/rush_picto.txt)
+
+### Design Notes
+
+ - In the game, Greater Rush grants 25% to a character's Rush Speed.
+ - Easy mechanical map to granting haste.
+
 ## Sastro, Gestral Guardian
 
 ```
@@ -679,6 +829,28 @@ I sure love being irresponsible!
  - 6/10/2025: Gone with a Chroma rewarding ability.
  - 13/10/2025: Formerly known as Sastro, the Concerned
  - 22/10/2025: Fixed chroma bonus triggering on any nontoken creature
+
+## Shot Picto
+
+```
+3
+Artifact - Picto Equipment
+When this equipment enters, choose two —
+• Put a breaking counter on this equipment
+• Put an energizing counter on this equipment
+• Put a piercing counter on this equipment
+Equipped creature gains "{X}{X}, {T}: This creature deals X damage to target creature"
+Whenever equipped creature deals damage to a creature, create a Chroma token if this equipment has an energizing counter, tap that creature and put a stun counter on it if this equipment has a breaking counter, and it deals that amount of damage to its controller if this equipment has a piercing counter.
+Equip {2}
+Sacrifice two Lumina tokens: Create a token copy of this equipment attached to target creature you control. Activate this ability only if you control no token copies of this equipment.
+```
+
+[card implementation](../custom/cards/s/shot_picto.txt)
+
+### Design Notes
+
+ - In the game, Attack Lifesteal allows a character to recover 15% health on base attack.
+ - Easy mechanical map to lifelink.
 
 ## Soarrie
 

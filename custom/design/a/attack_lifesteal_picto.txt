@@ -1,0 +1,23 @@
+[Name]
+Attack Lifesteal Picto
+[ManaCost]
+2
+[Types]
+Artifact
+Picto
+Equipment
+[Rarity]
+U
+[Artist]
+Sandfall Interactive
+[Oracle]
+Equipped creature has +1/+1 and lifelink.
+Equip {2}
+$PICTO_REPLICATE_ABILITY(2)
+[ForgeScript]
+K:Equip:2
+S:Mode$ Continuous | Affected$ Creature.EquippedBy | AddPower$ 1 | AddToughness$ 1 | AddKeyword$ Lifelink | Equipped creature has +1/+1 and lifelink.
+$PICTO_REPLICATE_ABILITY(2)
+[DesignNotes]
+ - In the game, Attack Lifesteal allows a character to recover 15% health on base attack.
+ - Easy mechanical map to lifelink.

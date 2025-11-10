@@ -1,0 +1,31 @@
+[Name]
+Death Picto
+[ManaCost]
+3
+[Types]
+Artifact
+Picto
+Equipment
+[Rarity]
+R
+[Artist]
+Sandfall Interactive
+[Oracle]
+When ~ enters, choose two —
+• Put a burning counter on ~
+• Put a energizing counter on ~
+• Put a shielding counter on ~
+When equipped creature dies, it deals 4 damage to any target if ~ has a burning counter, create a Chroma token if ~ has an energizing counter and put a shield counter on each creature you control if ~ has a shielding counter.
+Equip {2}
+$PICTO_REPLICATE_ABILITY(2)
+[ForgeScript]
+K:Equip:2
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigCharm | TriggerDescription$ When CARDNAME enters, ABILITY
+SVar:TrigCharm:DB$ Charm | Choices$ BurningCounter,EnergizingCounter,ShieldingCounter | CharmNum$ 2
+SVar:BurningCounter:DB$ PutCounter | CounterNum$ 1 | CounterType$ BURNING | SpellDescription$ Put a burning counter on CARDNAME.
+SVar:EnergizingCounter:DB$ PutCounter | CounterNum$ 1 | CounterType$ ENERGIZING | SpellDescription$ Put an energizing counter on CARDNAME.
+SVar:ShieldingCounter:DB$ PutCounter | CounterNum$ 1 | CounterType$ SHIELDING | SpellDescription$ Put a shielding counter on CARDNAME.
+$PICTO_REPLICATE_ABILITY(2)
+[DesignNotes]
+ - In the game, Attack Lifesteal allows a character to recover 15% health on base attack.
+ - Easy mechanical map to lifelink.
