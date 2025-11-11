@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 10/11/2025 4:27:45 pm
+> Last generated: 11/11/2025 10:54:21 am
 
 ## Anti-Burn Picto
 
@@ -63,7 +63,7 @@ When this equipment enters, choose two —
 • Put a combo counter on this equipment
 • Put a energizing counter on this equipment
 Equipped creature gets +3/+3 if this equipment has an augmented counter on it and has double strike if this equipment has a combo counter on it.
-Whenever equipped creature attacks, if this equipment has a energizing counter on it, create a Chroma token.
+Whenever equipped creature attacks, if this equipment has a energizing counter on it, create a Chroma token and a Lumina token.
 Equip {2}
 Sacrifice two Lumina tokens: Create a token copy of this equipment attached to target creature you control. Activate this ability only if you control no token copies of this equipment.
 ```
@@ -81,6 +81,7 @@ Sacrifice two Lumina tokens: Create a token copy of this equipment attached to t
      - Energizing: Gives Chroma token when equipped creature attacks
  - The station mechanic from Edge of Eternities has given us the ideal template to base this card implementation from as the buffs and abilities granted based on counter type follow the same pattern as buffs and abilities based on the number of charge counters in the station mechanic, only we're more finicky about the specific type of counter.
  - This is a slight deviation from the video game lore as we're effectively smushing 3 (in-game depicted) Pictos into one. But we are doing this for a good reason. Pictos indvidually are somewhat dull when translated to MTG mechanics. The replication gimmick is unique, but it ultimately still is just provides some basic buff or combat-related ability. This modal design allows us to strategically choose the best buffs/abilities for any given situation, with the replication ability allowing one to cover all bases ability-wise.
+ - 11/11/2025: Made energizing counter mode also reward a Lumina token.
 
 ## Berrami, Collector of Journals
 
@@ -159,7 +160,7 @@ When this equipment enters, choose two —
 • Put a burning counter on this equipment
 • Put a energizing counter on this equipment
 • Put a shielding counter on this equipment
-When equipped creature dies, it deals 4 damage to any target if this equipment has a burning counter, create a Chroma token if this equipment has an energizing counter and put a shield counter on each creature you control if this equipment has a shielding counter.
+When equipped creature dies, it deals 4 damage to any target if this equipment has a burning counter, create a Chroma token and a Lumina token if this equipment has an energizing counter and put a shield counter on each creature you control if this equipment has a shielding counter.
 Equip {2}
 Sacrifice two Lumina tokens: Create a token copy of this equipment attached to target creature you control. Activate this ability only if you control no token copies of this equipment.
 ```
@@ -168,8 +169,13 @@ Sacrifice two Lumina tokens: Create a token copy of this equipment attached to t
 
 ### Design Notes
 
- - In the game, Attack Lifesteal allows a character to recover 15% health on base attack.
- - Easy mechanical map to lifelink.
+ - In the game, Death pictos come in many prefixed variants, that all do something when the equipped character dies.
+ - This is the second of 4 "epic" tier pictos that are modeled on one of these pictos that have many prefixed variants.
+ - See Attack Picto for original design motivation for these "epic" tier pictos.
+ - The picto will trigger on equipped creature's death and will do the following based on the type of counters chosen, in this case:
+    - Burning: Shoot any target for 4 damage
+    - Energizing: Reward a Chroma + Lumina token
+    - Shielding: Gives a shield counter to each creature you control
 
 ## Dessendre Family Portrait
 

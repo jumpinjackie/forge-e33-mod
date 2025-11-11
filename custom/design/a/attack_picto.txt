@@ -16,7 +16,7 @@ When ~ enters, choose two —
 • Put a combo counter on ~
 • Put a energizing counter on ~
 Equipped creature gets +3/+3 if ~ has an augmented counter on it and has double strike if ~ has a combo counter on it.
-Whenever equipped creature attacks, if ~ has a energizing counter on it, create a Chroma token.
+Whenever equipped creature attacks, if ~ has a energizing counter on it, create a Chroma token and a Lumina token.
 Equip {2}
 $PICTO_REPLICATE_ABILITY(2)
 [ForgeScript]
@@ -32,7 +32,8 @@ S:Mode$ Continuous | Affected$ Card.Self+counters_GE1_COMBO | AddStaticAbility$ 
 SVar:ComboStatic:Mode$ Continuous | Affected$ Card.EquippedBy | AddKeyword$ Double Strike
 S:Mode$ Continuous | Affected$ Card.Self+counters_GE1_ENERGIZING | AddTrigger$ EnergizingTrig
 SVar:EnergizingTrig:Mode$ Attacks | ValidCard$ Card.EquippedBy | Execute$ TrigChroma | TriggerDescription$ Whenever equipped creature attacks, if ~ has a energizing counter on it, create a Chroma token.
-SVar:TrigChroma:DB$ Token | TokenAmount$ 1 | TokenOwner$ You | TokenScript$ c_a_chroma
+SVar:TrigChroma:DB$ Token | TokenAmount$ 1 | TokenOwner$ You | TokenScript$ c_a_chroma | SubAbility$ DBLumina
+SVar:DBLumina:DB$ Token | TokenAmount$ 1 | TokenOwner$ You | TokenScript$ c_a_lumina
 $PICTO_REPLICATE_ABILITY(2)
 [DesignNotes]
  - In the game, Attack pictos come in many prefixed variants, that all grant some kind of bonus to the character when they perform a base attack.
@@ -44,3 +45,4 @@ $PICTO_REPLICATE_ABILITY(2)
      - Energizing: Gives Chroma token when equipped creature attacks
  - The station mechanic from Edge of Eternities has given us the ideal template to base this card implementation from as the buffs and abilities granted based on counter type follow the same pattern as buffs and abilities based on the number of charge counters in the station mechanic, only we're more finicky about the specific type of counter.
  - This is a slight deviation from the video game lore as we're effectively smushing 3 (in-game depicted) Pictos into one. But we are doing this for a good reason. Pictos indvidually are somewhat dull when translated to MTG mechanics. The replication gimmick is unique, but it ultimately still is just provides some basic buff or combat-related ability. This modal design allows us to strategically choose the best buffs/abilities for any given situation, with the replication ability allowing one to cover all bases ability-wise.
+ - 11/11/2025: Made energizing counter mode also reward a Lumina token.
