@@ -1,0 +1,46 @@
+[Name]
+Death Picto
+[ManaCost]
+3
+[Types]
+Artifact
+Picto
+Equipment
+[Rarity]
+R
+[Artist]
+Sandfall Interactive
+[Oracle]
+When ~ enters, choose two —
+• Put a burning counter on ~
+• Put a energizing counter on ~
+• Put a shielding counter on ~
+When equipped creature dies, it deals 4 damage to any target if ~ has a burning counter, create a Chroma token and a Lumina token if ~ has an energizing counter and put a shield counter on each creature you control if ~ has a shielding counter.
+Equip {2}
+$PICTO_REPLICATE_ABILITY(2)
+[ForgeScript]
+K:Equip:2
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigCharm | TriggerDescription$ When CARDNAME enters, ABILITY
+SVar:TrigCharm:DB$ Charm | Choices$ BurningCounter,EnergizingCounter,ShieldingCounter | CharmNum$ 2
+SVar:BurningCounter:DB$ PutCounter | CounterNum$ 1 | CounterType$ BURNING | SpellDescription$ Put a burning counter on CARDNAME.
+SVar:EnergizingCounter:DB$ PutCounter | CounterNum$ 1 | CounterType$ ENERGIZING | SpellDescription$ Put an energizing counter on CARDNAME.
+SVar:ShieldingCounter:DB$ PutCounter | CounterNum$ 1 | CounterType$ SHIELDING | SpellDescription$ Put a shielding counter on CARDNAME.
+S:Mode$ Continuous | Affected$ Card.Self+counters_GE1_BURNING | AddTrigger$ BurningTrig
+SVar:BurningTrig:Mode$ ChangesZone | ValidCard$ Card.AttachedBy | Origin$ Battlefield | Destination$ Graveyard | Execute$ TrigShoot | TriggerDescription$ When equipped creature dies, it deals 4 damage to any target if ~ has a burning counter.
+SVar:TrigShoot:DB$ DealDamage | ValidTgts$ Any | NumDmg$ 4
+S:Mode$ Continuous | Affected$ Card.Self+counters_GE1_ENERGIZING | AddTrigger$ EnergizingTrig
+SVar:EnergizingTrig:Mode$ ChangesZone | ValidCard$ Card.AttachedBy | Origin$ Battlefield | Destination$ Graveyard | Execute$ TrigChroma | TriggerDescription$ When equipped creature dies, create a Chroma token and a Lumina token if ~ has an energizing counter.
+SVar:TrigChroma:DB$ Token | TokenAmount$ 1 | TokenOwner$ You | TokenScript$ c_a_chroma | SubAbility$ DBLumina
+SVar:DBLumina:DB$ Token | TokenAmount$ 1 | TokenOwner$ You | TokenScript$ c_a_lumina
+S:Mode$ Continuous | Affected$ Card.Self+counters_GE1_SHIELDING | AddTrigger$ ShieldingTrig
+SVar:ShieldingTrig:Mode$ ChangesZone | ValidCard$ Card.AttachedBy | Origin$ Battlefield | Destination$ Graveyard | Execute$ TrigShield | TriggerDescription$ When equipped creature dies, put a shield counter on each creature you control if ~ has a shielding counter.
+SVar:TrigShield:DB$ PutCounterAll | ValidCards$ Creature.YouCtrl | CounterType$ SHIELD | CounterNum$ 1
+$PICTO_REPLICATE_ABILITY(2)
+[DesignNotes]
+ - In the game, Death pictos come in many prefixed variants, that all do something when the equipped character dies.
+ - This is the second of 3 "epic" tier pictos that are modeled on one of these pictos that have many prefixed variants.
+ - See Attack Picto for original design motivation for these "epic" tier pictos.
+ - The picto will trigger on equipped creature's death and will do the following based on the type of counters chosen, in this case:
+    - Burning: Shoot any target for 4 damage
+    - Energizing: Reward a Chroma + Lumina token
+    - Shielding: Gives a shield counter to each creature you control

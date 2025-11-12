@@ -1,0 +1,48 @@
+[Name]
+Attack Picto
+[ManaCost]
+4
+[Types]
+Artifact
+Picto
+Equipment
+[Rarity]
+R
+[Artist]
+Sandfall Interactive
+[Oracle]
+When ~ enters, choose two —
+• Put an augmented counter on ~
+• Put a combo counter on ~
+• Put a energizing counter on ~
+Equipped creature gets +3/+3 if ~ has an augmented counter on it and has double strike if ~ has a combo counter on it.
+Whenever equipped creature attacks, if ~ has a energizing counter on it, create a Chroma token and a Lumina token.
+Equip {2}
+$PICTO_REPLICATE_ABILITY(2)
+[ForgeScript]
+K:Equip:2
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigCharm | TriggerDescription$ When CARDNAME enters, ABILITY
+SVar:TrigCharm:DB$ Charm | Choices$ AugmentedCounter,ComboCounter,EnergizingCounter | CharmNum$ 2
+SVar:AugmentedCounter:DB$ PutCounter | CounterNum$ 1 | CounterType$ AUGMENTED | SpellDescription$ Put an augmented counter on CARDNAME.
+SVar:ComboCounter:DB$ PutCounter | CounterNum$ 1 | CounterType$ COMBO | SpellDescription$ Put a combo counter on CARDNAME.
+SVar:EnergizingCounter:DB$ PutCounter | CounterNum$ 1 | CounterType$ ENERGIZING | SpellDescription$ Put an energizing counter on CARDNAME.
+S:Mode$ Continuous | Affected$ Card.Self+counters_GE1_AUGMENTED | AddStaticAbility$ AugmentedStatic | Description$ Equipped creature gets +3/+3 if ~ has an augmented counter.
+SVar:AugmentedStatic:Mode$ Continuous | Affected$ Card.EquippedBy | AddPower$ 3 | AddToughness$ 3
+S:Mode$ Continuous | Affected$ Card.Self+counters_GE1_COMBO | AddStaticAbility$ ComboStatic | Description$ Equipped creature has double strike if ~ has a combo counter on it
+SVar:ComboStatic:Mode$ Continuous | Affected$ Card.EquippedBy | AddKeyword$ Double Strike
+S:Mode$ Continuous | Affected$ Card.Self+counters_GE1_ENERGIZING | AddTrigger$ EnergizingTrig
+SVar:EnergizingTrig:Mode$ Attacks | ValidCard$ Card.EquippedBy | Execute$ TrigChroma | TriggerDescription$ Whenever equipped creature attacks, if ~ has a energizing counter on it, create a Chroma token.
+SVar:TrigChroma:DB$ Token | TokenAmount$ 1 | TokenOwner$ You | TokenScript$ c_a_chroma | SubAbility$ DBLumina
+SVar:DBLumina:DB$ Token | TokenAmount$ 1 | TokenOwner$ You | TokenScript$ c_a_lumina
+$PICTO_REPLICATE_ABILITY(2)
+[DesignNotes]
+ - In the game, Attack pictos come in many prefixed variants, that all grant some kind of bonus to the character when they perform a base attack.
+ - This is the first of 3 "epic" tier pictos that are modeled on one of these pictos that have many prefixed variants.
+ - This picto has an ETB trigger that lets you pick 2 out of 3 types of counters (variants) to put on this equipment. We're not modeling every variant/prefix from the video game because of text box budget constraints.
+ - The picto then will grant various buffs and abilities based on the type of counter chosen, in this case:
+     - Augmented: Gives +3/+3
+     - Combo: Gives double strike
+     - Energizing: Gives Chroma token when equipped creature attacks
+ - The station mechanic from Edge of Eternities has given us the ideal template to base this card implementation from as the buffs and abilities granted based on counter type follow the same pattern as buffs and abilities based on the number of charge counters in the station mechanic, only we're more finicky about the specific type of counter.
+ - This is a slight deviation from the video game lore as we're effectively smushing 3 (in-game depicted) Pictos into one. But we are doing this for a good reason. Pictos indvidually are somewhat dull when translated to MTG mechanics. The replication gimmick is unique, but it ultimately still is just provides some basic buff or combat-related ability. This modal design allows us to strategically choose the best buffs/abilities for any given situation, with the replication ability allowing one to cover all bases ability-wise.
+ - 11/11/2025: Made energizing counter mode also reward a Lumina token.

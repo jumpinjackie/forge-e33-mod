@@ -1,0 +1,23 @@
+[Name]
+Cheater Picto
+[ManaCost]
+3
+[Types]
+Artifact
+Picto
+Equipment
+[Rarity]
+R
+[Artist]
+Sandfall Interactive
+[Oracle]
+Untap equipped creature during each other player's untap step.
+Equip {2}
+$PICTO_REPLICATE_ABILITY(3)
+[ForgeScript]
+K:Equip:2
+S:Mode$ Continuous | Affected$ Creature.EquippedBy | AddHiddenKeyword$ CARDNAME untaps during each other player's untap step. | Description$ Untap equipped creature during each other player's untap step.
+$PICTO_REPLICATE_ABILITY(3)
+[DesignNotes]
+ - In the game, Cheater allows a character to play (take turns) twice.
+ - Easy mechanical map to untapping equipped creature on other's turns.

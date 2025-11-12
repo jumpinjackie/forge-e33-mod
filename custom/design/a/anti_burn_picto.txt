@@ -1,0 +1,23 @@
+[Name]
+Anti-Burn Picto
+[ManaCost]
+1
+[Types]
+Artifact
+Picto
+Equipment
+[Rarity]
+C
+[Artist]
+Sandfall Interactive
+[Oracle]
+Equipped creature has protection from red.
+Equip {2}
+$PICTO_REPLICATE_ABILITY(2)
+[ForgeScript]
+K:Equip:2
+S:Mode$ Continuous | Affected$ Creature.EquippedBy | AddKeyword$ Protection from red | Description$ Equipped creature has protection from red.
+$PICTO_REPLICATE_ABILITY(2)
+[DesignNotes]
+ - In the game, Anti-Burn grants immunity to Burn.
+ - Easy mechanical map to protection from red.

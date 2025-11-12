@@ -43,10 +43,10 @@ Aline Dessendre, Stricken by Grief
 All Set
 An Advantage!
 Ancient Sanctuary
-Anti-Burn
-Anti-Freeze
-Attack Lifesteal
-Augmented Attack
+Anti-Burn Picto
+Anti-Freeze Picto
+Attack Lifesteal Picto
+Attack Picto
 Ballet
 Barrier Breaker
 Benisseur
@@ -66,6 +66,7 @@ Cache Discovery
 Catapault Sakapatate
 Chalier
 Chapelier
+Cheater Picto
 Chorale
 Chroma Barrier
 Chroma Catalyst
@@ -88,6 +89,7 @@ Crustal Crush
 Danseuse
 Danseuse Teacher
 Dark Shores
+Death Picto
 Degagement
 Demineur
 Dessendre Family Portrait
@@ -197,7 +199,7 @@ Gustave's Ingenuity
 Gustave's Insight
 Gustave's Journal
 Healing Light
-Health Tint
+Healing Tint
 Heart of the Paintress
 Here's Your Card!
 Hexga
@@ -206,6 +208,7 @@ Jovial Moissoneneuse
 Julien Tiny Head
 Lampmaster
 Lancelier
+Last Stand Picto
 Leave this Canvas!
 Lightning Dance
 Limonsol, Matchmaker
@@ -277,6 +280,7 @@ Sciel's Intervention
 Search // Rescue
 Seething Boucheclier
 Serpenphare
+Shot Picto
 Simon, Consort of Clea
 Simon, The Divergent Star
 Sinister Cave

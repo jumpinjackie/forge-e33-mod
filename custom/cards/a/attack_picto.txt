@@ -1,0 +1,20 @@
+Name:Attack Picto
+ManaCost:4
+Types:Artifact Picto Equipment
+K:Equip:2
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigCharm | TriggerDescription$ When CARDNAME enters, ABILITY
+SVar:TrigCharm:DB$ Charm | Choices$ AugmentedCounter,ComboCounter,EnergizingCounter | CharmNum$ 2
+SVar:AugmentedCounter:DB$ PutCounter | CounterNum$ 1 | CounterType$ AUGMENTED | SpellDescription$ Put an augmented counter on CARDNAME.
+SVar:ComboCounter:DB$ PutCounter | CounterNum$ 1 | CounterType$ COMBO | SpellDescription$ Put a combo counter on CARDNAME.
+SVar:EnergizingCounter:DB$ PutCounter | CounterNum$ 1 | CounterType$ ENERGIZING | SpellDescription$ Put an energizing counter on CARDNAME.
+S:Mode$ Continuous | Affected$ Card.Self+counters_GE1_AUGMENTED | AddStaticAbility$ AugmentedStatic | Description$ Equipped creature gets +3/+3 if CARDNAME has an augmented counter.
+SVar:AugmentedStatic:Mode$ Continuous | Affected$ Card.EquippedBy | AddPower$ 3 | AddToughness$ 3
+S:Mode$ Continuous | Affected$ Card.Self+counters_GE1_COMBO | AddStaticAbility$ ComboStatic | Description$ Equipped creature has double strike if CARDNAME has a combo counter on it
+SVar:ComboStatic:Mode$ Continuous | Affected$ Card.EquippedBy | AddKeyword$ Double Strike
+S:Mode$ Continuous | Affected$ Card.Self+counters_GE1_ENERGIZING | AddTrigger$ EnergizingTrig
+SVar:EnergizingTrig:Mode$ Attacks | ValidCard$ Card.EquippedBy | Execute$ TrigChroma | TriggerDescription$ Whenever equipped creature attacks, if CARDNAME has a energizing counter on it, create a Chroma token.
+SVar:TrigChroma:DB$ Token | TokenAmount$ 1 | TokenOwner$ You | TokenScript$ c_a_chroma | SubAbility$ DBLumina
+SVar:DBLumina:DB$ Token | TokenAmount$ 1 | TokenOwner$ You | TokenScript$ c_a_lumina
+A:AB$ CopyPermanent | Cost$ Sac<2/Lumina> | CheckSVar$ TokenCopies | SVarCompare$ EQ0 | ValidTgts$ Creature.YouCtrl | Defined$ Self | NumCopies$ 1 | AttachedTo$ Targeted | SpellDescription$ Create a token copy of CARDNAME attached to target creature you control. Activate this ability only if you control no token copies of CARDNAME.
+SVar:TokenCopies:Count$Valid Artifact.YouCtrl+token+namedAttack Picto
+Oracle:When this equipment enters, choose two —\n• Put an augmented counter on this equipment\n• Put a combo counter on this equipment\n• Put a energizing counter on this equipment\nEquipped creature gets +3/+3 if this equipment has an augmented counter on it and has double strike if this equipment has a combo counter on it.\nWhenever equipped creature attacks, if this equipment has a energizing counter on it, create a Chroma token and a Lumina token.\nEquip {2}\nSacrifice two Lumina tokens: Create a token copy of this equipment attached to target creature you control. Activate this ability only if you control no token copies of this equipment.

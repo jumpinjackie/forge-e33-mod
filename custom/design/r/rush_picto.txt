@@ -1,0 +1,23 @@
+[Name]
+Rush Picto
+[ManaCost]
+1
+[Types]
+Artifact
+Picto
+Equipment
+[Rarity]
+U
+[Artist]
+Sandfall Interactive
+[Oracle]
+Equipped creature gets +1/+0 and has haste.
+Equip {1}
+$PICTO_REPLICATE_ABILITY(2)
+[ForgeScript]
+K:Equip:1
+S:Mode$ Continuous | Affected$ Card.EquippedBy | AddKeyword$ Haste | AddPower$ 1 | Description$ Equipped creature gets +1/+0 and has haste.
+$PICTO_REPLICATE_ABILITY(2)
+[DesignNotes]
+ - In the game, Greater Rush grants 25% to a character's Rush Speed.
+ - Easy mechanical map to granting haste.
