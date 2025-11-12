@@ -11,6 +11,8 @@ U
 Sandfall Interactive
 [Oracle]
 Search your library for a Nevron card, reveal it, put it into your hand, then shuffle.
+[FlavorText]
+I have my pets in place "She who controls chroma, controls the Canvas." I can't take her chroma, but I can keep it from returning to her.
 [ForgeScript]
 A:SP$ ChangeZone | Origin$ Library | Destination$ Hand | ChangeType$ Nevron | SpellDescription$ Search your library for a Nevron card, reveal it, put it into your hand, then shuffle.
 [DesignNotes]
