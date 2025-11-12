@@ -20,7 +20,8 @@ Luminous
 [ForgeScript]
 A:SP$ Dig | DigNum$ 3 | ChangeNum$ 1 | NoReveal$ True | SubAbility$ DBGainLife | SpellDescription$ Look at the top four cards of your library. Put one of them into your hand and the rest on the bottom of your library in any order.
 SVar:DBGainLife:DB$ GainLife | LifeAmount$ 3 | SubAbility$ DBToken | SpellDescription$ You gain 3 life.
-SVar:DBToken:DB$ Token | TokenAmount$ 2 | TokenScript$ w_1_1_human_expeditioner | TokenOwner$ You | IsPresent$ Lumina.YouCtrl | PresentCompare$ GE3 | SpellDescription$ If you control three or more Lumina tokens, create two 1/1 Human Expeditioner token with $EXPEDITIONER_TOKEN_TEXT
+SVar:DBToken:DB$ Token | TokenAmount$ 2 | TokenScript$ w_1_1_human_expeditioner | TokenOwner$ You | ConditionCheckSVar$ X | ConditionSVarCompare$ GE3 | SpellDescription$ If you control three or more Lumina tokens, create two 1/1 Human Expeditioner token with $EXPEDITIONER_TOKEN_TEXT
+SVar:X:Count$Valid Lumina.YouCtrl
 [DesignNotes]
  - Another tutor to enable the Expeditioner tribal strategy / Expeditioner spell toolbox.
  - 12/11/2025: Rework as a life-gaining impulse with a token generating Luminous bonus.

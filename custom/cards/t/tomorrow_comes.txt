@@ -3,5 +3,6 @@ ManaCost:U W
 Types:Kindred Instant Expeditioner
 A:SP$ Dig | DigNum$ 3 | ChangeNum$ 1 | NoReveal$ True | SubAbility$ DBGainLife | SpellDescription$ Look at the top four cards of your library. Put one of them into your hand and the rest on the bottom of your library in any order.
 SVar:DBGainLife:DB$ GainLife | LifeAmount$ 3 | SubAbility$ DBToken | SpellDescription$ You gain 3 life.
-SVar:DBToken:DB$ Token | TokenAmount$ 2 | TokenScript$ w_1_1_human_expeditioner | TokenOwner$ You | IsPresent$ Lumina.YouCtrl | PresentCompare$ GE3 | SpellDescription$ If you control three or more Lumina tokens, create two 1/1 Human Expeditioner token with "When this creature dies, create a Chroma token."
+SVar:DBToken:DB$ Token | TokenAmount$ 2 | TokenScript$ w_1_1_human_expeditioner | TokenOwner$ You | ConditionCheckSVar$ X | ConditionSVarCompare$ GE3 | SpellDescription$ If you control three or more Lumina tokens, create two 1/1 Human Expeditioner token with "When this creature dies, create a Chroma token."
+SVar:X:Count$Valid Lumina.YouCtrl
 Oracle:Look at the top three cards of your library. Put one of them into your hand and the rest on the bottom of your library in any order.\nYou gain 3 life.\nLuminous - If you control three or more Lumina tokens, create two 1/1 Human Expeditioner token with "When this creature dies, create a Chroma token."
