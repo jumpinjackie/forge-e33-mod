@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 12/11/2025 10:55:04 am
+> Last generated: 12/11/2025 11:08:10 am
 
 ## A Storm is Coming
 
@@ -45,7 +45,6 @@ When this creature dies, target opponent creates a Lumina token.
 WR
 Legendary Creature - Human Painter
 Each player who has cast a non-Painter, non-Gradient spell this turn can’t cast additional non-Painter, non-Gradient spells.
-Sacrifice two Chroma tokens: Your opponents can't cast spells this turn.
 (Melds with Maelle, Child of Lumiere.)
 
 2/2
@@ -60,6 +59,7 @@ Sacrifice two Chroma tokens: Your opponents can't cast spells this turn.
     - 23/09/2025: Getting meld to work has been nothing but failure. I give up. Alicia will now be standalone.
  - 6/10/2025: Meld is back on the menu! Got it to work finally! Also extended null rod effect to Chroma and Lumina tokens.
  - 3/11/2025: Exchanged abilities with human Alicia. Canonist exemption changed from Nevrons/Gradient to Painters/Gradient. Reduce Chroma sac activation cost from 3 to 2 tokens.
+ - 12/11/2025: Dropped the silencing activated ability as it makes no thematic sense to pay in tokens that don't exist in the "real world" that Alicia is in. Using straight mana payment then raises game balancing concerns around what is the appropriate cost. Better to just drop the ability.
 
 ## Ballet
 

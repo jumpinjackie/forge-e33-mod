@@ -3,9 +3,7 @@ ManaCost:W R
 Types:Legendary Creature Human Painter
 PT:2/2
 S:Mode$ CantBeCast | ValidCard$ Card.nonPainter+nonGradient | Caster$ Player | NumLimitEachTurn$ 1 | Description$ Each player who has cast a non-Painter, non-Gradient spell this turn can’t cast additional non-Painter, non-Gradient spells.
-A:AB$ Effect | Cost$ Sac<2/Chroma> | StaticAbilities$ STCantBeCast | AILogic$ BeginningOfOppTurn | SpellDescription$ Your opponents can't cast spells this turn.
-SVar:STCantBeCast:Mode$ CantBeCast | ValidCard$ Card | Caster$ Opponent | Description$ Your opponents can't cast spells.
 DeckHints:Name$Maelle, Child of Lumiere
 MeldPair:Maelle, Child of Lumiere
 AlternateMode:Meld
-Oracle:Each player who has cast a non-Painter, non-Gradient spell this turn can’t cast additional non-Painter, non-Gradient spells.\nSacrifice two Chroma tokens: Your opponents can't cast spells this turn.\n(Melds with Maelle, Child of Lumiere.)
+Oracle:Each player who has cast a non-Painter, non-Gradient spell this turn can’t cast additional non-Painter, non-Gradient spells.\n(Melds with Maelle, Child of Lumiere.)
