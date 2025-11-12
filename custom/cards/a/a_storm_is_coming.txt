@@ -5,4 +5,4 @@ Types:Kindred Sorcery Expeditioner
 K:Suspend:1:U R
 A:SP$ DealDamage | ValidTgts$ Any | NumDmg$ 3 | SubAbility$ DBToken | SpellDescription$ CARDNAME deals 3 damage to any target.
 SVar:DBToken:DB$ Token | TokenAmount$ 1 | TokenOwner$ You | TokenScript$ c_a_lumina
-Oracle:Suspend 1 - {U}{R} (Rather than cast this card from your hand, pay {U}{R} and exile it with one time counter on it. At the beginning of your upkeep, remove a time counter. When the last is removed, you may cast it without paying its mana cost.)\nThis spell deals 3 damage to any target.\nCreate a Lumina token.
+Oracle:Suspend 1 - {U}{R} (Rather than cast this card from your hand, pay {U}{R} and exile it with one time counter on it. At the beginning of your upkeep, remove a time counter. When the last is removed, you may cast it without paying its mana cost.)\nA Storm is Coming deals 3 damage to any target.\nCreate a Lumina token.

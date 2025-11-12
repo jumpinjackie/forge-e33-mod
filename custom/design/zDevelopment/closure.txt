@@ -10,6 +10,9 @@ U
 [Oracle]
 Exile all graveyards.
 Draw a card.
+[FlavorText]
+For the sake of the living, we must part with the dead.
+- Renoir
 [ForgeScript]
 A:SP$ ChangeZoneAll | ChangeType$ Card | Origin$ Graveyard | Destination$ Exile | AILogic$ ExileGraveyards | SubAbility$ DBDraw | SpellDescription$ Exile all graveyards.
 SVar:DBDraw:DB$ Draw

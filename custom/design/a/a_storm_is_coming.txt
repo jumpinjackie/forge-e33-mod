@@ -15,7 +15,7 @@ C
 Sandfall Interactive
 [Oracle]
 Suspend 1 - {U}{R} (Rather than cast this card from your hand, pay {U}{R} and exile it with one time counter on it. At the beginning of your upkeep, remove a time counter. When the last is removed, you may cast it without paying its mana cost.)
-This spell deals 3 damage to any target.
+~ deals 3 damage to any target.
 Create a Lumina token.
 [ForgeScript]
 K:Suspend:1:U R
