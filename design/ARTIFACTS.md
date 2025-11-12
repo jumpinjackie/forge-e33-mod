@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 11/11/2025 10:54:21 am
+> Last generated: 12/11/2025 10:40:52 am
 
 ## Anti-Burn Picto
 
@@ -73,7 +73,7 @@ Sacrifice two Lumina tokens: Create a token copy of this equipment attached to t
 ### Design Notes
 
  - In the game, Attack pictos come in many prefixed variants, that all grant some kind of bonus to the character when they perform a base attack.
- - This is the first of 4 "epic" tier pictos that are modeled on one of these pictos that have many prefixed variants.
+ - This is the first of 3 "epic" tier pictos that are modeled on one of these pictos that have many prefixed variants.
  - This picto has an ETB trigger that lets you pick 2 out of 3 types of counters (variants) to put on this equipment. We're not modeling every variant/prefix from the video game because of text box budget constraints.
  - The picto then will grant various buffs and abilities based on the type of counter chosen, in this case:
      - Augmented: Gives +3/+3
@@ -170,7 +170,7 @@ Sacrifice two Lumina tokens: Create a token copy of this equipment attached to t
 ### Design Notes
 
  - In the game, Death pictos come in many prefixed variants, that all do something when the equipped character dies.
- - This is the second of 4 "epic" tier pictos that are modeled on one of these pictos that have many prefixed variants.
+ - This is the second of 3 "epic" tier pictos that are modeled on one of these pictos that have many prefixed variants.
  - See Attack Picto for original design motivation for these "epic" tier pictos.
  - The picto will trigger on equipped creature's death and will do the following based on the type of counters chosen, in this case:
     - Burning: Shoot any target for 4 damage
@@ -508,7 +508,7 @@ Sacrifice a Chroma token: Put a charge counter on this creature. Activate this a
 ```
 2
 Artifact - Picto Equipment
-Equipped creature can attack as though it didn't have defender and gets +X/-X where X is its toughness minus 1.
+Equipped creature can attack as though it didn't have defender and has base power and toughness 6/1
 Equip {2}
 Sacrifice two Lumina tokens: Create a token copy of this equipment attached to target creature you control. Activate this ability only if you control no token copies of this equipment.
 ```
@@ -520,6 +520,7 @@ Sacrifice two Lumina tokens: Create a token copy of this equipment attached to t
  - In the game, Glass Cannon lets a chacter deal 25% more damage, but take 25% more damage as well.
  - Mapped to creature power pump at the expense of its toughness.
  - Granted defender exemption to incentivize equipping to Walls and other high toughness creatures that likely have defender.
+ - 12/11/2025: Could not get the variable P/T pump to work, so gone with a flat 6/1 base P/T that conveys the same intent.
 
 ## Golgra, Gestral Chief
 
@@ -605,27 +606,6 @@ Haymaker — {2}: Julien gains trample until end of turn.
     - Combo Jab: Easy. A flurry of strikes. Ergo. Double Strike
     - Uppercut: Julien's punches are so strong that an uppercut would launch his opponent into the air (in my mind). Hence, the momentary flying after being dealt 2 damage (if it survives that punch!)
     - Haymaker: Interpreted as a really heavy punch and trample is a suitable way to convey such heaviness
-
-## Last Stand Picto
-
-```
-3
-Artifact - Picto Equipment
-When this equipment enters, choose two —
-• Put an empowering counter on this equipment
-• Put a protecting counter on this equipment
-• Put an accelerating counter on this equipment
-Equipped creature gets +3/+3 if it attacks or blocks alone and this equipment has an empowering counter on it, has hexproof if it attacks or blocks alone and this equipment has a protecting counter on it, and has first strike if it attacks or blocks alone and this equipment has an accelerating counter on it.
-Equip {2}
-Sacrifice two Lumina tokens: Create a token copy of this equipment attached to target creature you control. Activate this ability only if you control no token copies of this equipment.
-```
-
-[card implementation](../custom/cards/l/last_stand_picto.txt)
-
-### Design Notes
-
- - In the game, Attack Lifesteal allows a character to recover 15% health on base attack.
- - Easy mechanical map to lifelink.
 
 ## Limonsol, Matchmaker
 
@@ -852,8 +832,8 @@ When this equipment enters, choose two —
 • Put a breaking counter on this equipment
 • Put an energizing counter on this equipment
 • Put a piercing counter on this equipment
-Equipped creature gains "{X}{X}, {T}: This creature deals X damage to target creature"
-Whenever equipped creature deals damage to a creature, create a Chroma token if this equipment has an energizing counter, tap that creature and put a stun counter on it if this equipment has a breaking counter, and it deals that amount of damage to its controller if this equipment has a piercing counter.
+Equipped creature has "{X}{X}, {T}: This creature deals X damage to target creature"
+Whenever equipped creature deals damage to a creature, create a Chroma token and a Lumina token if this equipment has an energizing counter, tap that creature and put a stun counter on it if this equipment has a breaking counter, and it deals that amount of damage to its controller if this equipment has a piercing counter.
 Equip {2}
 Sacrifice two Lumina tokens: Create a token copy of this equipment attached to target creature you control. Activate this ability only if you control no token copies of this equipment.
 ```
@@ -862,8 +842,13 @@ Sacrifice two Lumina tokens: Create a token copy of this equipment attached to t
 
 ### Design Notes
 
- - In the game, Attack Lifesteal allows a character to recover 15% health on base attack.
- - Easy mechanical map to lifelink.
+ - In the game, Shot pictos come in many prefixed variants, that all do something when the equipped character dies.
+ - This is the last of 3 "epic" tier pictos that are modeled on one of these pictos that have many prefixed variants.
+ - See Attack Picto for original design motivation for these "epic" tier pictos.
+ - The picto grant the equipped creature a shooting ability and will do the following on damage dealt based on the type of counters chosen, in this case:
+    - Breaking: Tap and stun targeted creature (if it didn't die from the shot)
+    - Energizing: Reward a Chroma + Lumina token
+    - Piercing: Shoot targeted creature's controller for the same amount of damage
 
 ## Soarrie
 
