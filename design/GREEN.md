@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 12/11/2025 10:44:32 am
+> Last generated: 12/11/2025 1:48:02 pm
 
 ## Abbest
 
@@ -8,7 +8,7 @@
 G
 Creature - Nevron
 {T}: Add {G}.
-When this creature dies, target opponent creates a Lumina token.
+When this creature dies, target opponent creates a Lumina token. (It's an artifact with "{T}, Sacrifice this artifact: Scry 1.")
 
 1/2
 ```
@@ -21,6 +21,24 @@ When this creature dies, target opponent creates a Lumina token.
  - 23/09/2025: Changed casting cost from 1G to G and PT from 2/2 to 1/2 to make it unique from the (now fully green) Lancelier
  - 13/10/2025: Removed Devoid.
  - 23/10/2025: Promoted to mana dork.
+
+## Chalier
+
+```
+1G
+Creature - Nevron
+This creature enters with a shield counter on it. (If it would be dealt damage or destroyed, remove a shield counter from it instead.)
+When this creature dies, target opponent creates a Lumina token. (It's an artifact with "{T}, Sacrifice this artifact: Scry 1.")
+
+2/2
+```
+
+[card implementation](../custom/cards/c/chalier.txt)
+
+### Design Notes
+
+ - Vanilla Nevron. Could not determine approporiate color/elemental affinity so it's colorless.
+ - 12/11/2025: Made it green and gave it a shield counter to emphasize its tough armored exterior.
 
 ## Expedition 00 Tracker
 
@@ -184,7 +202,7 @@ I've been trying to overcome this gestral's challenge for months now but it seem
 1G
 Creature - Nevron
 First Strike.
-When this creature dies, target opponent creates a Lumina token.
+When this creature dies, target opponent creates a Lumina token. (It's an artifact with "{T}, Sacrifice this artifact: Scry 1.")
 
 2/2
 ```
@@ -259,7 +277,7 @@ G
 Creature - Nevron
 Flying.
 When this creature becomes the target of a spell or ability an opponent controls, sacrifice it.
-When this creature dies, target opponent creates a Lumina token.
+When this creature dies, target opponent creates a Lumina token. (It's an artifact with "{T}, Sacrifice this artifact: Scry 1.")
 
 2/1
 ```

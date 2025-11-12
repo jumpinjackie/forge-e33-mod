@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 12/11/2025 11:34:07 am
+> Last generated: 12/11/2025 1:48:02 pm
 
 ## A Storm is Coming
 
@@ -67,7 +67,7 @@ Each player who has cast a non-Painter, non-Gradient spell this turn can’t cas
 1(R/G)(R/G)
 Creature - Nevron
 Flying.
-When this creature dies, target opponent creates a Lumina token.
+When this creature dies, target opponent creates a Lumina token. (It's an artifact with "{T}, Sacrifice this artifact: Scry 1.")
 
 2/2
 ```
@@ -86,7 +86,7 @@ When this creature dies, target opponent creates a Lumina token.
 2RG
 Creature - Nevron
 Vigilance.
-Summons protective bubbles — this creature enters with a shield counter on it.
+Summons protective bubbles — This creature enters with a shield counter on it.
 Bubbles are shielding enemies — {2}{G}, {T}: Put a shield counter on target creature you control.
 Launches projectiles from its hat — {2}{R}, {T}: This creature deals 2 damage to target attacking creature. Put a stun counter on it.
 When this creature dies, target opponent creates a Lumina token.
@@ -133,7 +133,7 @@ When this creature dies, target opponent creates a Lumina token.
 Kindred Instant - Expeditioner
 Kicker {2}.
 Destroy target artifact or enchantment with mana value 2 lor less.
-If this spell was kicked, destroy that artifact or enchantment if its mana value is 5 or less instaed.
+If this spell was kicked, destroy that artifact or enchantment if its mana value is 5 or less instead.
 ```
 
 [card implementation](../custom/cards/b/breaking_rules.txt)
@@ -149,7 +149,7 @@ If this spell was kicked, destroy that artifact or enchantment if its mana value
 1(R/G)
 Creature - Nevron
 Flying.
-When this creature dies, target opponent creates a Lumina token.
+When this creature dies, target opponent creates a Lumina token. (It's an artifact with "{T}, Sacrifice this artifact: Scry 1.")
 
 2/1
 ```
@@ -167,7 +167,8 @@ When this creature dies, target opponent creates a Lumina token.
 ```
 (W/G)
 Kindred Sorcery - Expeditioner
-Create two Chroma tokens.
+Create two Chroma tokens. (It's an artifact with "{T}, Sacrifice this artifact: Add one mana of any color. Spend this mana only to cast a Nevron, Gestral or Expeditioner spell.")
+Luminous — Create three Chroma tokens instead if you control at least three Lumina tokens.
 ```
 
 [card implementation](../custom/cards/c/chroma_is_flowing.txt)
@@ -176,6 +177,7 @@ Create two Chroma tokens.
 
  - In the game, this is one of Lune's quotes during battle.
  - Went with 2 Chroma tokens, so it still ramps for strategies that can take advantage, but not to Dark Ritual levels.
+ - 13/11/2025: Added Luminous bonus of rewarding one extra Chroma token.
 
 ## Chromatic Petrification
 
@@ -261,11 +263,11 @@ For the sake of the living, we must part with the dead.
 ```
 1UB
 Creature - Nevron
-Lifelink
+Lifelink.
 Impales its target — When this creature enters, choose one —
 • Destroy target creature with mana value 3 or less.
 • Tap target creature and put a stun counter on it.
-When this creature dies, target opponent creates a Lumina token.
+When this creature dies, target opponent creates a Lumina token. (It's an artifact with "{T}, Sacrifice this artifact: Scry 1.")
 
 3/3
 ```
@@ -280,10 +282,10 @@ When this creature dies, target opponent creates a Lumina token.
 ```
 2UR
 Creature - Nevron
-When this creature dies, target opponent creates a Lumina token.
 {R}, {T}: This creature deals 2 damage to target creature.
 {U}, {T}: Tap target creature. Put a stun counter on it.
 When this creature dies, if you control no creatures, put two 2/2 Red and Blue Danseuse Clone creature tokens into play.
+When this creature dies, target opponent creates a Lumina token.
 
 2/2
 ```
@@ -1249,6 +1251,7 @@ Luminous - If you control three or more Lumina tokens, create two 1/1 Human Expe
 ### Design Notes
 
  - Another tutor to enable the Expeditioner tribal strategy / Expeditioner spell toolbox.
+ - 12/11/2025: Rework as a life-gaining impulse with a token generating Luminous bonus.
 
 ## Torture // Nurture
 
@@ -1279,7 +1282,7 @@ Fuse (You may cast one or both halves of this card from your hand.)
 Creature - Nevron
 Applies powerful to allies — Other nevrons you control get +1/+1.
 Applies rush to allies — Nevrons you control have haste.
-When this creature dies, target opponent creates a Lumina token.
+When this creature dies, target opponent creates a Lumina token. (It's an artifact with "{T}, Sacrifice this artifact: Scry 1.")
 
 2/2
 ```

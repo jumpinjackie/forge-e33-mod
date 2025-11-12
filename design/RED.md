@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 12/11/2025 10:44:32 am
+> Last generated: 12/11/2025 1:48:02 pm
 
 ## Catapault Sakapatate
 
@@ -230,7 +230,7 @@ Creature - Nevron
 Flying
 Spawns pots — When this creature enters, create two colorless 1/1 Nevron Pot creature tokens with "This creature attacks each combat if able".
 Buffs its allies — Nevrons you control have haste.
-When this creature dies, target opponent creates a Lumina token.
+When this creature dies, target opponent creates a Lumina token. (It's an artifact with "{T}, Sacrifice this artifact: Scry 1.")
 
 2/2
 ```

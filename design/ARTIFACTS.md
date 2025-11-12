@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 12/11/2025 10:44:32 am
+> Last generated: 12/11/2025 1:48:02 pm
 
 ## Anti-Burn Picto
 
@@ -125,6 +125,8 @@ Sacrifice three Lumina tokens: Create a token copy of this equipment attached to
 3
 Artifact
 If you would create a Chroma or Lumina token, instead create one of each.
+---
+Exponentially useful.
 ```
 
 [card implementation](../custom/cards/c/chroma_catalyst.txt)
@@ -143,6 +145,7 @@ Artifact
 When this artifact enters, draw a card.
 {1}, {T}: Add one mana of any color.
 {T}, Sacrifice a Chroma token: Add two mana of any one color.
+Luminous — {T}: Add one mana of any color. Activate this ability only if you control at least three Lumina tokens.
 ```
 
 [card implementation](../custom/cards/c/chroma_filter.txt)
@@ -150,6 +153,7 @@ When this artifact enters, draw a card.
 ### Design Notes
 
  - This card has no in-game basis. Just an artifact to provide color fixing and some minor ramp if you hava Chroma tokens to spare.
+ - 13/11/2025: Added Luminous bonus.
 
 ## Death Picto
 
@@ -879,8 +883,7 @@ Legendary Artifact
 {T}: Add three mana of any one color. Spend this mana only to cast a Nevron, Gestral, Painter, Expeditioner or Picto spell.
 When The World Canvas leaves the battlefield, exile all permanents with a name originally printed in this expansion.
 ---
-Alicia: We must hide the canvas.
-Clea: Well-reasoned. And such a... clever hiding spot you've chosen.
+Verso's childhood canvas. Where we used to play ... Where he painted Esquie and Monoco. And where Maman and Papa now fight...
 ```
 
 [card implementation](../custom/cards/t/the_world_canvas.txt)
@@ -891,6 +894,7 @@ Clea: Well-reasoned. And such a... clever hiding spot you've chosen.
  - Mechanically:
     - The "black lotus" mana ability has spending restrictions to keep in flavor. You can only spend this mana on things that actually live in this canvas.
     - The destruction of this canvas signals the erasure of everything inside it. Mass exiling everything by expansion filter nicely symbolizes the finality of such an act.
+ - 13/11/2025: Replaced flavor text with a better descriptive one.
 
 ## Urrie
 

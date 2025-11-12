@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 12/11/2025 10:44:32 am
+> Last generated: 12/11/2025 1:48:02 pm
 
 ## An Advantage!
 
@@ -26,7 +26,7 @@ Draw a card at the beginning of the next turn's upkeep.
 Creature - Nevron
 This creature enters with a shield counter on it. (If it would be dealt damage or destroyed, remove a shield counter from it instead.)
 Gets ready to counterattack — When this creature is dealt combat damage, it deals that amount of damage to target creature an opponent controls.
-When this creature dies, target opponent creates a Lumina token.
+When this creature dies, target opponent creates a Lumina token. (It's an artifact with "{T}, Sacrifice this artifact: Scry 1.")
 
 3/3
 ```
@@ -81,8 +81,8 @@ Whenever enchanted creature deals damage to an opponent, choose one —
 ```
 2U
 Creature - Nevron
-When this creature dies, target opponent creates a Lumina token.
 This creature gets +2/+2 and Ward 2 if you control a creature named Cruler.
+When this creature dies, target opponent creates a Lumina token. (It's an artifact with "{T}, Sacrifice this artifact: Scry 1.")
 
 3/2
 ```
@@ -135,7 +135,7 @@ Tap an untapped Expeditioner you control: Tap target land.
 Creature - Nevron
 This creature enters with a shield counter on it. (If it would be dealt damage or destroyed, remove a shield counter from it instead.)
 This creature gets +2/+2 and Ward 2 if you control a creature named Bruler.
-When this creature dies, target opponent creates a Lumina token.
+When this creature dies, target opponent creates a Lumina token. (It's an artifact with "{T}, Sacrifice this artifact: Scry 1.")
 
 2/3
 ```
@@ -155,7 +155,7 @@ U
 Creature - Nevron
 Flying.
 When this creature becomes the target of a spell or ability an opponent controls, sacrifice it.
-When this creature dies, target opponent creates a Lumina token.
+When this creature dies, target opponent creates a Lumina token. (It's an artifact with "{T}, Sacrifice this artifact: Scry 1.")
 
 1/1
 ```
@@ -421,7 +421,7 @@ Not today!
 ```
 2U
 Creature - Nevron
-When this creature dies, target opponent creates a Lumina token.
+When this creature dies, target opponent creates a Lumina token. (It's an artifact with "{T}, Sacrifice this artifact: Scry 1.")
 
 3/2
 ```

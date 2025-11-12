@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 12/11/2025 10:44:32 am
+> Last generated: 12/11/2025 1:48:02 pm
 
 ## Chroma Barrier
 
@@ -49,9 +49,9 @@ Maelle: No no no no... You promised...
 ```
 2W
 Creature - Nevron
-When this creature dies, target opponent creates a Lumina token.
-{2}{W}, {T}: Target creature an opponent controls loses all abilities until end of turn.
-{1}{W}, {T}: Put a shield counter on target creature you control.
+Performs a silencing combo — {2}{W}, {T}: Target creature an opponent controls loses all abilities until end of turn.
+Protects its allies — {1}{W}, {T}: Put a shield counter on target creature you control.
+When this creature dies, target opponent creates a Lumina token. (It's an artifact with "{T}, Sacrifice this artifact: Scry 1.")
 
 2/2
 ```

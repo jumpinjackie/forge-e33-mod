@@ -1,22 +1,6 @@
 # Cards
 
-> Last generated: 12/11/2025 10:44:32 am
-
-## Chalier
-
-```
-1C
-Creature - Nevron
-When this creature dies, target opponent creates a Lumina token.
-
-2/2
-```
-
-[card implementation](../custom/cards/c/chalier.txt)
-
-### Design Notes
-
- - Vanilla Nevron. Could not determine approporiate color/elemental affinity so it's colorless.
+> Last generated: 12/11/2025 1:48:02 pm
 
 ## Petank
 

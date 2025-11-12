@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 12/11/2025 10:44:32 am
+> Last generated: 12/11/2025 1:48:02 pm
 
 ## Chapelier
 
@@ -8,9 +8,9 @@
 2BB
 Creature - Nevron
 Flying.
-When this creature dies, target opponent creates a Lumina token.
-{1}{B},{T}: Create a 1/1 colorless Jar Nevron creature token.
+{1}{B}, {T}: Create a 1/1 colorless Jar Nevron creature token.
 Exhaust on death - When this creature dies, tap target creature an opponent controls, put a stun counter on it. (If a permanent with a stun counter would become untapped, remove one from it instead.)
+When this creature dies, target opponent creates a Lumina token.
 
 2/2
 ```
@@ -29,6 +29,8 @@ Exhaust on death - When this creature dies, tap target creature an opponent cont
 2B
 Sorcery
 Search your library for a Nevron card, reveal it, put it into your hand, then shuffle.
+---
+I have my pets in place "She who controls chroma, controls the Canvas." I can't take her chroma, but I can keep it from returning to her.
 ```
 
 [card implementation](../custom/cards/c/cleas_chromatic_mastery.txt)
@@ -44,7 +46,7 @@ Search your library for a Nevron card, reveal it, put it into your hand, then sh
 Creature - Nevron
 Double the blight — {T}: Up to two target creatures your opponent controls have base toughness 1 until end of turn.
 Heals allies — {1}{B}, {T}: Gain 1 life for each creature you control.
-When this creature dies, target opponent creates a Lumina token.
+When this creature dies, target opponent creates a Lumina token. (It's an artifact with "{T}, Sacrifice this artifact: Scry 1.")
 
 3/3
 ```
@@ -168,7 +170,7 @@ When this creature dies, target opponent creates a Lumina token.
 ```
 2B
 Creature - Nevron
-When this creature dies, target opponent creates a Lumina token.
+When this creature dies, target opponent creates a Lumina token. (It's an artifact with "{T}, Sacrifice this artifact: Scry 1.")
 {1}{B}, {T}: Target creature an opponent controls gets -1/-1 until end of turn.
 {1}{B}, {T}: Untap target creature you control.
 
