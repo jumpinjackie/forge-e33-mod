@@ -37,7 +37,7 @@ SVar:DBLumina:DB$ Token | TokenAmount$ 1 | TokenOwner$ You | TokenScript$ c_a_lu
 $PICTO_REPLICATE_ABILITY(2)
 [DesignNotes]
  - In the game, Attack pictos come in many prefixed variants, that all grant some kind of bonus to the character when they perform a base attack.
- - This is the first of 4 "epic" tier pictos that are modeled on one of these pictos that have many prefixed variants.
+ - This is the first of 3 "epic" tier pictos that are modeled on one of these pictos that have many prefixed variants.
  - This picto has an ETB trigger that lets you pick 2 out of 3 types of counters (variants) to put on this equipment. We're not modeling every variant/prefix from the video game because of text box budget constraints.
  - The picto then will grant various buffs and abilities based on the type of counter chosen, in this case:
      - Augmented: Gives +3/+3

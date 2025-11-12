@@ -44,7 +44,7 @@ SVar:Y:TriggerCount$DamageAmount
 $PICTO_REPLICATE_ABILITY(2)
 [DesignNotes]
  - In the game, Shot pictos come in many prefixed variants, that all do something when the equipped character dies.
- - This is the last of 4 "epic" tier pictos that are modeled on one of these pictos that have many prefixed variants.
+ - This is the last of 3 "epic" tier pictos that are modeled on one of these pictos that have many prefixed variants.
  - See Attack Picto for original design motivation for these "epic" tier pictos.
  - The picto grant the equipped creature a shooting ability and will do the following on damage dealt based on the type of counters chosen, in this case:
     - Breaking: Tap and stun targeted creature (if it didn't die from the shot)
