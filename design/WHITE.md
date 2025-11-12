@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 10/11/2025 2:48:15 pm
+> Last generated: 12/11/2025 10:44:32 am
 
 ## Chroma Barrier
 

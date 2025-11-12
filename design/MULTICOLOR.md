@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 10/11/2025 2:48:15 pm
+> Last generated: 12/11/2025 10:44:32 am
 
 ## A Storm is Coming
 
@@ -8,7 +8,7 @@
 
 Kindred Sorcery - Expeditioner
 Suspend 1 - {U}{R} (Rather than cast this card from your hand, pay {U}{R} and exile it with one time counter on it. At the beginning of your upkeep, remove a time counter. When the last is removed, you may cast it without paying its mana cost.)
-This spell deals 3 damage to any target.
+A Storm is Coming deals 3 damage to any target.
 Create a Lumina token.
 ```
 
@@ -244,6 +244,9 @@ Nevron spells you cast cost {1} less to cast.
 Instant
 Exile all graveyards.
 Draw a card.
+---
+For the sake of the living, we must part with the dead.
+- Renoir
 ```
 
 [card implementation](../custom/cards/c/closure.txt)
