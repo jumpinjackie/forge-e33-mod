@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 12/11/2025 11:08:10 am
+> Last generated: 12/11/2025 11:34:07 am
 
 ## A Storm is Coming
 
@@ -1237,9 +1237,11 @@ Sacrifice a Nevron: Add two mana of any one color.
 ## Tomorrow Comes
 
 ```
-2(U/W)
-Kindred Sorcery - Expeditioner
-Search your library for an Expeditioner card, reveal it and put it into your hand, then shuffle.
+UW
+Kindred Instant - Expeditioner
+Look at the top three cards of your library. Put one of them into your hand and the rest on the bottom of your library in any order.
+You gain 3 life.
+Luminous - If you control three or more Lumina tokens, create two 1/1 Human Expeditioner token with "When this creature dies, create a Chroma token."
 ```
 
 [card implementation](../custom/cards/t/tomorrow_comes.txt)

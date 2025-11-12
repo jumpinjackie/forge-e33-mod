@@ -1,19 +1,26 @@
 [Name]
 Tomorrow Comes
 [ManaCost]
-2
-UW
+U
+W
 [Types]
 Kindred
-Sorcery
+Instant
 Expeditioner
 [Rarity]
 U
 [Artist]
 Sandfall Interactive
 [Oracle]
-Search your library for an Expeditioner card, reveal it and put it into your hand, then shuffle.
+Look at the top three cards of your library. Put one of them into your hand and the rest on the bottom of your library in any order.
+You gain 3 life.
+Luminous - If you control three or more Lumina tokens, create two 1/1 Human Expeditioner token with $EXPEDITIONER_TOKEN_TEXT
+[AbilityWords]
+Luminous
 [ForgeScript]
-A:SP$ ChangeZone | Origin$ Library | Destination$ Hand | ChangeType$ Expeditioner | ChangeNum$ 1 | SpellDescription$ Search your library for an Expeditioner card, reveal it and put it into your hand, then shuffle.
+A:SP$ Dig | DigNum$ 3 | ChangeNum$ 1 | NoReveal$ True | SubAbility$ DBGainLife | SpellDescription$ Look at the top four cards of your library. Put one of them into your hand and the rest on the bottom of your library in any order.
+SVar:DBGainLife:DB$ GainLife | LifeAmount$ 3 | SubAbility$ DBToken | SpellDescription$ You gain 3 life.
+SVar:DBToken:DB$ Token | TokenAmount$ 2 | TokenScript$ w_1_1_human_expeditioner | TokenOwner$ You | IsPresent$ Lumina.YouCtrl | PresentCompare$ GE3 | SpellDescription$ If you control three or more Lumina tokens, create two 1/1 Human Expeditioner token with $EXPEDITIONER_TOKEN_TEXT
 [DesignNotes]
  - Another tutor to enable the Expeditioner tribal strategy / Expeditioner spell toolbox.
+ - 12/11/2025: Rework as a life-gaining impulse with a token generating Luminous bonus.
