@@ -1,5 +1,7 @@
 Name:Chroma is Flowing
 ManaCost:WG
 Types:Kindred Sorcery Expeditioner
-A:SP$ Token | TokenAmount$ 2 | TokenOwner$ You | TokenScript$ c_a_chroma | SpellDescription$ Create two Chroma tokens.
-Oracle:Create two Chroma tokens.
+A:SP$ Token | TokenAmount$ X | TokenOwner$ You | TokenScript$ c_a_chroma | SpellDescription$ Create two Chroma tokens.
+SVar:LuminaTotal:Count$Valid Lumina.YouCtrl
+SVar:X:Count$Compare LuminaTotal GE3.3.2
+Oracle:Create two Chroma tokens. (It's an artifact with "{T}, Sacrifice this artifact: Add one mana of any color. Spend this mana only to cast a Nevron, Gestral or Expeditioner spell.")\nLuminous — Create three Chroma tokens instead if you control at least three Lumina tokens.
