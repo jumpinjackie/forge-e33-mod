@@ -215,6 +215,7 @@ Lorieniso, Gestral Musician
 Lost Gestral
 Lumiere Aquafarm
 Lumiere Assault
+Lumiere Flower Stand
 Lumiere Mime
 Lumiere Opera House
 Lumiere, The Last Bastion
@@ -302,6 +303,7 @@ The Fate of the Canvas
 The Fracture
 The Greatest Expedition in History
 The Hauler
+The Indigo Tree
 The Mask Keeper
 The Monolith
 The Monolith Interior
@@ -328,3 +330,85 @@ Whee // Whoo
 When One Falls // We Continue
 Yellow Harvest
 ```
+
+## Quotes deserving of a card name + design
+
+So far, we've been compiling a list of tentative card names to make designs from, but this is the opposite approach where we have quotes that are so good or relevant, that they are begging for a card with it as its flavor text. Here's a bunch of quotes deserving of a card name + design.
+
+> Prologue
+> Maelle: Have you tried throwing with your other arm instead?
+
+Possible Name: Rock throw?
+Some kind of ping/shock/bolt spell.
+
+> Prologue
+> Gustave: We'll break the cycle. So she can't steal anyone else's future.
+
+No ideas yet.
+
+> Prologue
+> Sophie: Looks like you still have a lot of flowers left.
+> Tiffanie: Well, there are less and less people to buy them. I just wish you didn't have to wear one.
+
+Possible Name: Lumiere Flower Stand
+Some artifact or land that can create Goblu's flower tokens (just to get double-duty out of this token)
+
+> Prologue
+> Sophie: I'm FINE. I've lived 33 good years. Look around. We've had our whole lives to prepare. We'll be fine.
+
+No ideas yet.
+
+> Prologue
+> Sophie: Sometimes I feel sorry for her.
+> Gustave: Who, the- the Paintress??
+> Sophie: Look at her. She looks... sad. Maybe she's a prisoner too. Stuck in the same cycle with us.
+
+No ideas yet.
+
+> Prologue
+> Sophie: See you.
+> Maelle: In the next life.
+
+No ideas yet.
+
+> Act 1
+> Lune: You do that and we both die
+
+No ideas yet.
+
+> Act 2 - 3 Intermission in the real world
+> Alicia: If we bring Maman out of the Canvas, she'll try to return. We must hide the Canvas...
+> Clea: Well-reasoned. And such a... clever hiding spot you've chosen.
+
+Sounds like a some blue instant that phases out a nonland permanent. 
+
+> Act 3: Before final boss battle with Renoir
+> Renoir: As your father, I must look out for you. Especially when you can't look out for yourself.
+
+Sounds like an instant that grants protection until end of turn.
+
+> Act 3: Before final boss battle with Renoir
+> Maelle: You treat me as if I'm still five...
+> Renoir: I treat you as if the shadow from the worst day of our lives is going to suffocate you and take you from us too.
+
+Something to do with the "suffocation". 
+
+> Act 3: During final boss battle with Renoir
+> Renoir: Stop this insanity. It's time to go home.
+
+No ideas yet.
+
+> Act 3: Renoir final boss battle post-script
+> Renoir: We painted hundreds of Canvas worlds, pushing the very boundaries of creation. And she never let me forget that every day we spend here has a price.
+
+Sounds like some black enchantment that trades life for resources
+
+> Act 3: Renoir final boss battle post-script
+> Renoir: 67 years. 67 years I spent trapped within the Monolith. But I persisted. I persisted. Do you know why? Do you know why I CANNOT leave her or you behind? This is what I see every day. I cannot spend another day with living corpses.
+
+Some kind of portal enchantment. What that portal represents in MTG terms? Don't know yet.
+
+> Act 3: Renoir final boss battle post-script
+> Renoir: I'll keep the light on for you. I hope you find peace. Hold on to each other.
+
+Something that signifies departure.
