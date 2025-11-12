@@ -11,16 +11,16 @@ U
 [Artist]
 Sandfall Interactive
 [Oracle]
-Equipped creature can attack as though it didn't have defender and gets +X/-X where X is its toughness minus 1.
+Equipped creature can attack as though it didn't have defender and has base power and toughness 6/1
 Equip {2}
 $PICTO_REPLICATE_ABILITY(2)
 [ForgeScript]
 K:Equip:2
 S:Mode$ CanAttackDefender | ValidCard$ Card.EquippedBy  | Description$ Equipped creature can attack as though it didn't have defender.
-S:Mode$ Continuous | Affected$ Card.EquippedBy | AddPower$ X | AddToughness$ -X | Description$ Equipped creature gets +X/-X where X is its toughness minus 1.
-SVar:X:Count$CardToughness/Minus.1
+S:Mode$ Continuous | Affected$ Card.EquippedBy | SetPower$ 6 | SetToughness$ 1 | Description$ Equipped creature gets has base power and toughness 6/1
 $PICTO_REPLICATE_ABILITY(2)
 [DesignNotes]
  - In the game, Glass Cannon lets a chacter deal 25% more damage, but take 25% more damage as well.
  - Mapped to creature power pump at the expense of its toughness.
  - Granted defender exemption to incentivize equipping to Walls and other high toughness creatures that likely have defender.
+ - 12/11/2025: Could not get the variable P/T pump to work, so gone with a flat 6/1 base P/T that conveys the same intent.
