@@ -7,6 +7,21 @@ SVar:TrigCharm:DB$ Charm | Choices$ BreakingCounter,EnergizingCounter,PiercingCo
 SVar:BreakingCounter:DB$ PutCounter | CounterNum$ 1 | CounterType$ BREAKING | SpellDescription$ Put a breaking counter on CARDNAME.
 SVar:EnergizingCounter:DB$ PutCounter | CounterNum$ 1 | CounterType$ ENERGIZING | SpellDescription$ Put an energizing counter on CARDNAME.
 SVar:PiercingCounter:DB$ PutCounter | CounterNum$ 1 | CounterType$ PIERCING | SpellDescription$ Put a piercing counter on CARDNAME.
+S:Mode$ Continuous | Affected$ Creature.EquippedBy | AddAbility$ Shoot | Description$ Equipped creature has "{X}{X}, {T}: This creature deals X damage to target creature"
+SVar:Shoot:AB$ DealDamage | Cost$ X X T | ValidTgts$ Creature | NumDmg$ X | SpellDescription$ This creature deals X damage to target creature.
+SVar:X:Count$xPaid
+S:Mode$ Continuous | Affected$ Card.Self+counters_GE1_BREAKING | AddTrigger$ BreakingTrig
+SVar:BreakingTrig:Mode$ DamageDone | ValidSource$ Card.EquippedBy | ValidTarget$ Creature | Execute$ TrigTap | TriggerDescription$ Whenever equipped creature deals damage to a creature, tap that creature and put a stun counter on it if CARDNAME has a breaking counter.
+SVar:TrigTap:DB$ Tap | Defined$ TriggeredTargetLKICopy | SubAbility$ TrigStun | SpellDescription$ Tap up to two target permanents.
+SVar:TrigStun:DB$ PutCounter | Defined$ TriggeredTargetLKICopy | CounterType$ STUN | CounterNum$ 1
+S:Mode$ Continuous | Affected$ Card.Self+counters_GE1_ENERGIZING | AddTrigger$ EnergizingTrig
+SVar:EnergizingTrig:Mode$ DamageDone | ValidSource$ Card.EquippedBy | ValidTarget$ Creature | Execute$ TrigChroma | TriggerDescription$ Whenever equipped creature deals damage to a creature, create a Chroma token and a Lumina token if CARDNAME has an energizing counter.
+SVar:TrigChroma:DB$ Token | TokenAmount$ 1 | TokenOwner$ You | TokenScript$ c_a_chroma | SubAbility$ DBLumina
+SVar:DBLumina:DB$ Token | TokenAmount$ 1 | TokenOwner$ You | TokenScript$ c_a_lumina
+S:Mode$ Continuous | Affected$ Card.Self+counters_GE1_PIERCING | AddTrigger$ PiercingTrig
+SVar:PiercingTrig:Mode$ DamageDone | ValidSource$ Card.EquippedBy | ValidTarget$ Creature | Execute$ TrigShootPlayer | TriggerDescription$ Whenever equipped creature deals damage to a creature, it deals that amount of damage to its controller if CARDNAME has a piercing counter.
+SVar:TrigShootPlayer:DB$ DealDamage | Defined$ TriggeredTargetController | NumDmg$ Y
+SVar:Y:TriggerCount$DamageAmount
 A:AB$ CopyPermanent | Cost$ Sac<2/Lumina> | CheckSVar$ TokenCopies | SVarCompare$ EQ0 | ValidTgts$ Creature.YouCtrl | Defined$ Self | NumCopies$ 1 | AttachedTo$ Targeted | SpellDescription$ Create a token copy of CARDNAME attached to target creature you control. Activate this ability only if you control no token copies of CARDNAME.
 SVar:TokenCopies:Count$Valid Artifact.YouCtrl+token+namedShot Picto
-Oracle:When this equipment enters, choose two —\n• Put a breaking counter on this equipment\n• Put an energizing counter on this equipment\n• Put a piercing counter on this equipment\nEquipped creature gains "{X}{X}, {T}: This creature deals X damage to target creature"\nWhenever equipped creature deals damage to a creature, create a Chroma token if this equipment has an energizing counter, tap that creature and put a stun counter on it if this equipment has a breaking counter, and it deals that amount of damage to its controller if this equipment has a piercing counter.\nEquip {2}\nSacrifice two Lumina tokens: Create a token copy of this equipment attached to target creature you control. Activate this ability only if you control no token copies of this equipment.
+Oracle:When this equipment enters, choose two —\n• Put a breaking counter on this equipment\n• Put an energizing counter on this equipment\n• Put a piercing counter on this equipment\nEquipped creature has "{X}{X}, {T}: This creature deals X damage to target creature"\nWhenever equipped creature deals damage to a creature, create a Chroma token and a Lumina token if this equipment has an energizing counter, tap that creature and put a stun counter on it if this equipment has a breaking counter, and it deals that amount of damage to its controller if this equipment has a piercing counter.\nEquip {2}\nSacrifice two Lumina tokens: Create a token copy of this equipment attached to target creature you control. Activate this ability only if you control no token copies of this equipment.
