@@ -13,8 +13,7 @@ Sandfall Interactive
 {T}: Add three mana of any one color. Spend this mana only to cast a Nevron, Gestral, Painter, Expeditioner or Picto spell.
 When The World Canvas leaves the battlefield, exile all permanents with a name originally printed in this expansion.
 [FlavorText]
-Alicia: We must hide the canvas.
-Clea: Well-reasoned. And such a... clever hiding spot you've chosen.
+Verso's childhood canvas. Where we used to play ... Where he painted Esquie and Monoco. And where Maman and Papa now fight...
 [ForgeScript]
 A:AB$ Mana | Cost$ T | Produced$ Any | Amount$ 3 | RestrictValid$ Spell.Nevron,Spell.Gestral,Spell.Painter,Spell.Expeditioner,Spell.Picto | SpellDescription$ Add three mana of any one color. Spend this mana only to cast a Nevron, Gestral, Painter, Expeditioner or Picto spell.
 T:Mode$ ChangesZone | ValidCard$ Card.Self | Origin$ Battlefield | Destination$ Any | Execute$ TrigNuke | TriggerDescription$ When CARDNAME leaves the battlefield, exile all permanents with a name originally printed in this expansion.
@@ -24,3 +23,4 @@ SVar:TrigNuke:DB$ ChangeZoneAll | UseAllOriginZones$ True | Origin$ Battlefield 
  - Mechanically:
     - The "black lotus" mana ability has spending restrictions to keep in flavor. You can only spend this mana on things that actually live in this canvas.
     - The destruction of this canvas signals the erasure of everything inside it. Mass exiling everything by expansion filter nicely symbolizes the finality of such an act.
+ - 13/11/2025: Replaced flavor text with a better descriptive one.
