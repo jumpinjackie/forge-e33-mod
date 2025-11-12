@@ -1,5 +1,5 @@
 [Name]
-Expedition 78 Aircrew
+Expedition 78 Airship
 [ManaCost]
 2
 WU
@@ -29,3 +29,4 @@ SVar:TrigToken:DB$ Token | TokenScript$ c_a_chroma | TokenOwner$ You | TokenAmou
  - In the game, Expedition 78 stole hundreds of airships from the Lumiere Council and departed to take on the Paintress. The Expedition failed, but the fate of the expeditioners is unknown.
  - Card represents some of the Airship crew.
  - This is our heavy-hitter for an all-flyers strategy.
+ - 12/11/2025: Renamed from Expedition 78 Aircrew to Expedition 78 Airship

@@ -139,7 +139,7 @@ Expedition 69 Mountaineer
 Expedition 69 Surveyor
 Expedition 70
 Expedition 78
-Expedition 78 Aircrew
+Expedition 78 Airship
 Expedition 81 Interpreter
 Expedition Cache
 Expedition Camp
@@ -208,7 +208,6 @@ Jovial Moissoneneuse
 Julien Tiny Head
 Lampmaster
 Lancelier
-Last Stand Picto
 Leave this Canvas!
 Lightning Dance
 Limonsol, Matchmaker

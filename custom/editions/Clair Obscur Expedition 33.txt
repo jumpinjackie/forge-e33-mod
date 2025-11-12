@@ -86,7 +86,7 @@ Type=Custom
 79 C Expedition 69 Surveyor @Sandfall Interactive
 80 C Expedition 70 @Sandfall Interactive
 81 R Expedition 78 @Sandfall Interactive
-82 C Expedition 78 Aircrew @Sandfall Interactive
+82 C Expedition 78 Airship @Sandfall Interactive
 83 U Expedition 81 Interpreter @Sandfall Interactive
 84 C Expedition Cache @Sandfall Interactive
 85 R Expedition Camp @Sandfall Interactive

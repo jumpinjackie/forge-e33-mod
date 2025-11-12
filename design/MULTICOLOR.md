@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 12/11/2025 10:44:32 am
+> Last generated: 12/11/2025 10:55:04 am
 
 ## A Storm is Coming
 
@@ -530,7 +530,7 @@ III — Search your library for an Expeditioner permanent, put it onto the battl
  - Journal is a story of an Expedition that made it inside the Monolith in the final few days of their lifetimes and installing grapple points for those who come after.
  - 21/09/2025: This is an enabler engine for Expeditioner tribal strategies
 
-## Expedition 78 Aircrew
+## Expedition 78 Airship
 
 ```
 2(W/U)(W/U)
@@ -544,13 +544,14 @@ Our only choice is to take matters into our own hands. Fortune favors the bold. 
 4/4
 ```
 
-[card implementation](../custom/cards/e/expedition_78_aircrew.txt)
+[card implementation](../custom/cards/e/expedition_78_airship.txt)
 
 ### Design Notes
 
  - In the game, Expedition 78 stole hundreds of airships from the Lumiere Council and departed to take on the Paintress. The Expedition failed, but the fate of the expeditioners is unknown.
  - Card represents some of the Airship crew.
  - This is our heavy-hitter for an all-flyers strategy.
+ - 12/11/2025: Renamed from Expedition 78 Aircrew to Expedition 78 Airship
 
 ## Expedition 81 Interpreter
 

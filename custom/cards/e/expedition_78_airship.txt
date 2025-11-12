@@ -1,4 +1,4 @@
-Name:Expedition 78 Aircrew
+Name:Expedition 78 Airship
 ManaCost:2 WU WU
 Types:Creature Human Expeditioner
 PT:4/4

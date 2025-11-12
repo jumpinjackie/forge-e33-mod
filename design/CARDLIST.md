@@ -29,7 +29,7 @@ From this list, card designs are spawned from it, which will eventually form the
 
 ## Card Name List
 
-Cards implemented: 221/294
+Cards implemented: 221/293
 
 [x] - Card is implemented or in development, [ ] - Card is not implemented
 
@@ -139,7 +139,7 @@ Cards implemented: 221/294
 [x] Expedition 69 Surveyor
 [x] Expedition 70
 [x] Expedition 78
-[x] Expedition 78 Aircrew
+[x] Expedition 78 Airship
 [x] Expedition 81 Interpreter
 [x] Expedition Cache
 [x] Expedition Camp
@@ -208,7 +208,6 @@ Cards implemented: 221/294
 [x] Julien Tiny Head
 [x] Lampmaster
 [x] Lancelier
-[ ] Last Stand Picto
 [x] Leave this Canvas!
 [x] Lightning Dance
 [x] Limonsol, Matchmaker
