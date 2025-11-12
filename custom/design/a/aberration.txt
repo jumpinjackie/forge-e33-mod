@@ -17,7 +17,7 @@ Sandfall Interactive
 Performs light strikes — When ~ enters, it deals 3 damage divided as you choose among any number of target creatures and/or planeswalkers.
 Performs dark combo — {2}{B}, {T}: Target creature has base toughness 1 until end of turn.
 Creates earthquakes — {3}{R}, {T}: ~ deals 1 damage to each creature without flying and each player.
-$NEVRON_DEATH_ABILITY_TEXT
+$NEVRON_DEATH_ABILITY_TEXT_SHORT
 [AbilityWords]
 Performs light strikes
 [ForgeScript]

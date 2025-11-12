@@ -18,7 +18,7 @@ Sandfall Interactive
 At the beginning of your upkeep, you may put an orb counter on ~.
 {R}, Remove an orb counter from ~: ~ deals 1 damage to target creature.
 {U}, Remove an orb counter from ~: Tap target creature.
-$NEVRON_DEATH_ABILITY_TEXT
+$NEVRON_DEATH_ABILITY_TEXT_SHORT
 [ForgeScript]
 K:etbCounter:ORB:2
 T:Mode$ Phase | Phase$ Upkeep | ValidPlayer$ You | TriggerZones$ Battlefield | OptionalDecider$ You | Execute$ TrigPutCounter | TriggerDescription$ At the beginning of your upkeep, you may put an orb counter on ~.

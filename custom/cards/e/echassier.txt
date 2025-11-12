@@ -7,4 +7,4 @@ A:AB$ GainLife | Cost$ 1 B T | Defined$ You | LifeAmount$ X | SpellDescription$ 
 SVar:X:Count$Valid Creature.YouCtrl
 T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Card.Self | Execute$ TrigToken | TriggerDescription$ When this creature dies, target opponent creates a Lumina token.
 SVar:TrigToken:DB$ Token | TokenAmount$ 1 | ValidTgts$ Opponent | TokenOwner$ Targeted | TokenScript$ c_a_lumina
-Oracle:Double the blight — {T}: Up to two target creatures your opponent controls have base toughness 1 until end of turn.\nHeals allies — {1}{B}, {T}: Gain 1 life for each creature you control.\nWhen this creature dies, target opponent creates a Lumina token.
+Oracle:Double the blight — {T}: Up to two target creatures your opponent controls have base toughness 1 until end of turn.\nHeals allies — {1}{B}, {T}: Gain 1 life for each creature you control.\nWhen this creature dies, target opponent creates a Lumina token. (It's an artifact with "{T}, Sacrifice this artifact: Scry 1.")

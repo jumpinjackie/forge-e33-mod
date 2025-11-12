@@ -14,7 +14,7 @@ Sandfall Interactive
 [PT]
 3/3
 [Oracle]
-Lifelink
+Lifelink.
 Impales its target — When ~ enters, choose one —
 • Destroy target creature with mana value 3 or less.
 • Tap target creature and put a stun counter on it.

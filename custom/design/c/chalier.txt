@@ -2,7 +2,7 @@
 Chalier
 [ManaCost]
 1
-C
+G
 [Types]
 Creature
 Nevron
@@ -13,8 +13,11 @@ Sandfall Interactive
 [PT]
 2/2
 [Oracle]
+~ enters with a shield counter on it. $SHIELD_REMINDER_TEXT
 $NEVRON_DEATH_ABILITY_TEXT
 [ForgeScript]
+K:etbCounter:SHIELD:1
 $NEVRON_DEATH_ABILITY
 [DesignNotes]
  - Vanilla Nevron. Could not determine approporiate color/elemental affinity so it's colorless.
+ - 12/11/2025: Made it green and gave it a shield counter to emphasize its tough armored exterior.

@@ -13,9 +13,12 @@ Sandfall Interactive
 [PT]
 2/2
 [Oracle]
+Performs a silencing combo — {2}{W}, {T}: Target creature an opponent controls loses all abilities until end of turn.
+Protects its allies — {1}{W}, {T}: Put a shield counter on target creature you control.
 $NEVRON_DEATH_ABILITY_TEXT
-{2}{W}, {T}: Target creature an opponent controls loses all abilities until end of turn.
-{1}{W}, {T}: Put a shield counter on target creature you control.
+[AbilityWords]
+Performs a silencing combo
+Protects its allies
 [ForgeScript]
 $NEVRON_DEATH_ABILITY
 A:AB$ Animate | Cost$ 2 W T | ValidTgts$ Creature.OppCtrl | TgtPrompt$ Select target creature an opponent controls| RemoveAllAbilities$ True | SpellDescription$ Target creature an opponent controls loses all abilities until end of turn.

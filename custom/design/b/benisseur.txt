@@ -18,7 +18,7 @@ Vigilance.
 Summons protective bubbles — ~ enters with a shield counter on it.
 Bubbles are shielding enemies — {2}{G}, {T}: Put a shield counter on target creature you control.
 Launches projectiles from its hat — {2}{R}, {T}: ~ deals 2 damage to target attacking creature. Put a stun counter on it.
-$NEVRON_DEATH_ABILITY_TEXT
+$NEVRON_DEATH_ABILITY_TEXT_SHORT
 [AbilityWords]
 Summons protective bubbles
 Bubbles are shielding enemies

@@ -15,9 +15,9 @@ Sandfall Interactive
 2/2
 [Oracle]
 Flying.
-$NEVRON_DEATH_ABILITY_TEXT
-{1}{B},{T}: Create a 1/1 colorless Jar Nevron creature token.
+{1}{B}, {T}: Create a 1/1 colorless Jar Nevron creature token.
 Exhaust on death - When this creature dies, tap target creature an opponent controls, put a stun counter on it. (If a permanent with a stun counter would become untapped, remove one from it instead.)
+$NEVRON_DEATH_ABILITY_TEXT_SHORT
 [AbilityWords]
 Exhaust on death
 [ForgeScript]
