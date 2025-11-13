@@ -29,7 +29,7 @@ From this list, card designs are spawned from it, which will eventually form the
 
 ## Card Name List
 
-Cards implemented: 223/296
+Cards implemented: 223/297
 
 [x] - Card is implemented or in development, [ ] - Card is not implemented
 
@@ -296,6 +296,7 @@ Cards implemented: 223/296
 [ ] Sunniso, Gestral Bouncer
 [x] Swift Counter
 [ ] Sword Ballet
+[ ] Surcease
 [x] Terraquake
 [x] The 67th Gommage
 [ ] The Curator
@@ -332,6 +333,26 @@ Cards implemented: 223/296
 [ ] Yellow Harvest
 ```
 
+## Concepts deserving of a card name + design
+
+### The five stages of Grief
+
+Denial, Anger, Bargaining, Depression, Acceptance
+
+Since Grief is such a central theme in Expedition 33, having a card or cycle of cards to model the 5 stages would be a 100% thermonuclear flavor bomb.
+
+ * This would totally be a Saga, if we only had the textbox budget for it! Most sagas are 3 chapters. Although there are cards with more than 3 chapters, several of them repeat the same action, so it's hard to fit 5 unique chapters!
+ * An Elemental Incarnations cycle could work. Anger's already there. The other 4 could be other Elemental Incarnations to complete the cycle. However the names are so generic that they risk being name-squatted by wizards for a future set!
+    * It can be part of the supplemental reprint/commander sheet as a way to excuse lore-mismatch.
+    * Denial: Blue
+    * Anger: Red
+    * Bargaining: Green (this would be the most tonally-mismatched just by name, but there's no other color!)
+    * Depression: Black
+    * Acceptance: White
+    * Flavor text is easy too, because there is 99% certainty that there will already be a relevant quote in the game that pertains to each stage.
+ * A fringe idea that would only work if Forge was flexible enough is a variant of The Initiative, but except of venturing into the Undercity, you venture through a new linear dungeon called the "Five Stages of Grief". Thus you would have a whole bunch of cards that either venture into the dungeon or take control of the dungeon venturing emblem.
+ * Or another idea (again dependent on if Forge was flexble enough) is a variant of The Ring Tempts You. Each stage of grief is part of a stack of 5 abilities. Every time you grieve you gain an extra ability. For this to work, you would need someone designated as Grieving (ie. The ringbearer under this analogy).
+
 ## Quotes deserving of a card name + design
 
 So far, we've been compiling a list of tentative card names to make designs from, but this is the opposite approach where we have quotes that are so good or relevant, that they are begging for a card with it as its flavor text. Here's a bunch of quotes deserving of a card name + design.
@@ -350,7 +371,7 @@ No ideas yet.
 > Prologue
 > Sophie: I'm FINE. I've lived 33 good years. Look around. We've had our whole lives to prepare. We'll be fine.
 
-No ideas yet.
+No ideas yet. Though if we do pull off the 5 stages of grief idea, this is certainly the flavor text for "Acceptance"
 
 > Prologue
 > Sophie: Sometimes I feel sorry for her.
@@ -367,6 +388,52 @@ No ideas yet.
 
 > Act 1
 > Lune: You do that and we both die
+
+No ideas yet.
+
+> Act 2: Visages
+> Sciel: I know they're Nevrons, but... witnessing the sorrow of others... I can't help but feel for them.
+> Monoco: A noble but tremendously fatal impulse
+
+No ideas yet.
+
+> Act 2: Visages
+> Monoco: Normally I enjoy a little destruction, but this doesn't feel right
+
+No ideas yet.
+
+> Act 2: Mask-Keeper battle
+> Sciel: This mask can't hurt me. Because it is me.
+
+No ideas yet.
+
+> Act 2: Camp
+> Verso: My beautiful sister doesn't need this ugly mask.
+
+No ideas yet.
+
+> Act 2: Camp
+> Renoir: You embrace her, yet you are condeming her to die.
+
+No ideas yet.
+
+> Act 2: Camp
+> Renoir: Sometimes, we paint the bars of our own prison. Your despair blinds you. You think you're ready to pay the price. But are you willing to let THEM pay the price for YOU?
+
+No ideas yet.
+
+> The Manor
+> Unknown: Art can be a Window and art can be a Mirror. And great art. Great art is both. Son, you'll never be a true artist if there's always a mask between you and the viewer, especiall when the viewer is you...
+
+No ideas yet.
+
+> Act 2: Monolith Interior
+> Renoir: If saving you means losing you then so be it.
+
+No ideas yet.
+
+> Act 2: Renoir boss battle
+> Renoir: WE are your family. You would condemn us all to die, for what? Who do you really save with your sacrifice?
 
 No ideas yet.
 

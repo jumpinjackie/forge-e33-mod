@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 13/11/2025 11:36:11 am
+> Last generated: 13/11/2025 3:22:16 pm
 
 ## An Advantage!
 
@@ -175,7 +175,7 @@ When this creature dies, target opponent creates a Lumina token. (It's an artifa
 ```
 2U
 Enchantment - Aura
-Enchant permanent
+Enchant permanent.
 Enchanted permanent doesn't untap during its controller's untap step.
 ```
 

@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 13/11/2025 11:36:11 am
+> Last generated: 13/11/2025 3:22:16 pm
 
 ## Abbest
 
@@ -45,7 +45,7 @@ When this creature dies, target opponent creates a Lumina token. (It's an artifa
 ```
 2G
 Creature - Human Expeditioner Scout
-{4}{G},{T}: Look at the top four cards of your library. You may reveal an Expeditioner card from among them and put it into your hand. Put the rest on the bottom of your library in a random order.
+{4}{G}, {T}: Look at the top four cards of your library. You may reveal an Expeditioner card from among them and put it into your hand. Put the rest on the bottom of your library in a random order.
 When this creature dies, create a Chroma token.
 
 2/3

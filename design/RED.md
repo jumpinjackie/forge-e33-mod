@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 13/11/2025 11:36:11 am
+> Last generated: 13/11/2025 3:22:16 pm
 
 ## Catapault Sakapatate
 
@@ -60,7 +60,7 @@ Crustal Crush deals 5 damage to target creature or planeswalker.
 ```
 2R
 Kindred Sorcery - Expeditioner
-This spell deals 2 damage to each creature without flying and each player.
+Earth Rising deals 2 damage to each creature without flying and each player.
 ```
 
 [card implementation](../custom/cards/e/earth_rising.txt)

@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 13/11/2025 11:36:11 am
+> Last generated: 13/11/2025 3:22:16 pm
 
 ## Anti-Burn Picto
 
@@ -161,9 +161,9 @@ Luminous — {T}: Add one mana of any color. Activate this ability only if you c
 3
 Artifact - Picto Equipment
 When this equipment enters, choose two —
-• Put a burning counter on this equipment
-• Put a energizing counter on this equipment
-• Put a shielding counter on this equipment
+• Put a burning counter on this equipment.
+• Put a energizing counter on this equipment.
+• Put a shielding counter on this equipment.
 When equipped creature dies, it deals 4 damage to any target if this equipment has a burning counter, create a Chroma token and a Lumina token if this equipment has an energizing counter and put a shield counter on each creature you control if this equipment has a shielding counter.
 Equip {2}
 Sacrifice two Lumina tokens: Create a token copy of this equipment attached to target creature you control. Activate this ability only if you control no token copies of this equipment.
@@ -229,7 +229,10 @@ At the beginning of each end step, remove all flying counters on Dominique Giant
 1
 Legendary Artifact - Rock
 {T}: Target creature you control gains Trample until end of turn.
-{1},Sacrifice Dorrie: Draw a card.
+{1}, Sacrifice Dorrie: Draw a card.
+---
+Doesn't that look like one of Esquie's stones?
+- Sciel
 ```
 
 [card implementation](../custom/cards/d/dorrie.txt)
@@ -300,8 +303,8 @@ Send Backup! - When this artifact enters, reveal the top four cards of your libr
 ```
 2
 Artifact
-{T},Sacrifice this artifact: Create two Lumina tokens.
-{T},Sacrifice this artifact: Create two Chroma tokens.
+{T}, Sacrifice this artifact: Create two Lumina tokens.
+{T}, Sacrifice this artifact: Create two Chroma tokens.
 ---
 This could be useful!
 - Gustave
@@ -339,7 +342,7 @@ Wanna plant it?
 1
 Legendary Artifact - Rock
 {T}: Target creature you control gains Islandwalk until end of turn.
-{1},Sacrifice Florrie: Draw a card.
+{1}, Sacrifice Florrie: Draw a card.
 ---
 See, Florrie helps me swim. But Florrie was stolen by my archnemesis!
 - Esquie
@@ -882,9 +885,8 @@ Legendary Artifact - Rock
 {T}: Target creature you control gains flying until end of turn.
 {1}, Sacrifice Soarrie: Draw a card.
 ---
-Esquie: Why'd you hide Soarrie from me?
-Verso: Oh, I didn't... I... I was afraid the others would want to return to Lumiere if you could fly them back.
-Esquie: That's mean. Sometimes you're really mean. Mmm. But being mean is not necessarily a mean thing.
+Esquie! Look what I found.
+- Verso
 ```
 
 [card implementation](../custom/cards/s/soarrie.txt)
