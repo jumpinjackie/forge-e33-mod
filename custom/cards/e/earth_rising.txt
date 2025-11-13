@@ -2,4 +2,4 @@ Name:Earth Rising
 ManaCost:2 R
 Types:Kindred Sorcery Expeditioner
 A:SP$ DamageAll | ValidCards$ Creature.withoutFlying | ValidPlayers$ Player | NumDmg$ 2 | SpellDescription$ CARDNAME deals 2 damage to each creature without flying and each player.
-Oracle:This spell deals 2 damage to each creature without flying and each player.
+Oracle:Earth Rising deals 2 damage to each creature without flying and each player.

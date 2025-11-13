@@ -12,7 +12,7 @@ U
 [Artist]
 Sandfall Interactive
 [Oracle]
-This spell deals 2 damage to each creature without flying and each player.
+~ deals 2 damage to each creature without flying and each player.
 [ForgeScript]
 A:SP$ DamageAll | ValidCards$ Creature.withoutFlying | ValidPlayers$ Player | NumDmg$ 2 | SpellDescription$ CARDNAME deals 2 damage to each creature without flying and each player.
 [DesignNotes]
