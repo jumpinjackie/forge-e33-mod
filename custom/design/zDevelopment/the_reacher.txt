@@ -1,0 +1,37 @@
+[Name]
+The Reacher
+[ManaCost]
+no cost
+[Types]
+Legendary
+Land
+Creature
+Axon
+[Rarity]
+R
+[PT]
+8/8
+[Oracle]
+Trample. Reach.
+~ enters with seven sky counters.
+~ cannot attack or block while it has one or more sky counters.
+Whenever a creature with flying enters or attacks, remove a sky counter from ~.
+{T}: Add {G} or {U}.
+{2/U}: Remove a sky counter from ~.
+[FlavorText]
+Little one, there's more to life, if you can just see how big the sky truly is. Reach out your hand, and it's yours...
+[ForgeScript]
+K:Trample
+K:Reach
+K:etbCounter:SKY:7
+S:Mode$ CantAttack,CantBlock | ValidCard$ Card.Self | IsPresent$ Card.Self+counters_GE1_SKY | PresentCompare$ EQ1 | Description$ ~ cannot attack or block while it has one or more sky counters.
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Creature.withFlying | TriggerZones$ Battlefield | Execute$ TrigRemoveCounter | TriggerDescription$ Whenever a creature with flying enters, remove a sky counter from ~.
+T:Mode$ Attacks | ValidCard$ Creature.withFlying | Execute$ TrigRemoveCounter | TriggerZones$ Battlefield | TriggerDescription$ Whenever a creature with flying attacks, remove a sky counter from ~.
+SVar:TrigRemoveCounter:DB$ RemoveCounter | Defined$ Self | CounterType$ SKY | CounterNum$ 1
+A:AB$ Mana | Cost$ T | Produced$ Combo G U | SpellDescription$ Add {G} or {U}.
+A:AB$ RemoveCounter | Cost$ 2U | CounterType$ SKY | CounterNum$ 1 | SpellDescription$ Remove a sky counter from ~.
+[DesignNotes]
+ - In the game, The Reacher is an Act 3 dungeon. It is also one of the four Axons created by Renoir and represents Alicia.
+ - The Reacher is a landmark, but also an Axon. So in MTG terms, it's both a land and a creature.
+ - To make something uniquely different from The Hauler (which is a man-land). I've gone with a legendary land creature, following the pattern of Dryad Arbor.
+ - Now how do we balance out an 8/8 trampling uncounterable Axon that could drop on turn 1? We take a page out of Dark Depths and have this ETB with 7 sky counters. While it has sky counters, it cannot attack or block and is effectively dormant as a creature. You can still use it as a regular U/G dual land until you've remove the last sky counter.

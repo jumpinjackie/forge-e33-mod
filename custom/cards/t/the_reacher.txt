@@ -1,0 +1,14 @@
+Name:The Reacher
+ManaCost:no cost
+Types:Legendary Land Creature Axon
+PT:8/8
+K:Trample
+K:Reach
+K:etbCounter:SKY:7
+S:Mode$ CantAttack,CantBlock | ValidCard$ Card.Self | IsPresent$ Card.Self+counters_GE1_SKY | PresentCompare$ EQ1 | Description$ CARDNAME cannot attack or block while it has one or more sky counters.
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Creature.withFlying | TriggerZones$ Battlefield | Execute$ TrigRemoveCounter | TriggerDescription$ Whenever a creature with flying enters, remove a sky counter from CARDNAME.
+T:Mode$ Attacks | ValidCard$ Creature.withFlying | Execute$ TrigRemoveCounter | TriggerZones$ Battlefield | TriggerDescription$ Whenever a creature with flying attacks, remove a sky counter from CARDNAME.
+SVar:TrigRemoveCounter:DB$ RemoveCounter | Defined$ Self | CounterType$ SKY | CounterNum$ 1
+A:AB$ Mana | Cost$ T | Produced$ Combo G U | SpellDescription$ Add {G} or {U}.
+A:AB$ RemoveCounter | Cost$ 2U | CounterType$ SKY | CounterNum$ 1 | SpellDescription$ Remove a sky counter from CARDNAME.
+Oracle:Trample. Reach.\nThe Reacher enters with seven sky counters.\nThe Reacher cannot attack or block while it has one or more sky counters.\nWhenever a creature with flying enters or attacks, remove a sky counter from The Reacher.\n{T}: Add {G} or {U}.\n{2/U}: Remove a sky counter from The Reacher.
