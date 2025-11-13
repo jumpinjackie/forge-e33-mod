@@ -1537,6 +1537,13 @@ public class CardConjurerValidateCommand : BaseCommand
                 }
             }
 
+            // Check 1/8 margin
+            if (!data.TryGetProperty("margins", out var m))
+            {
+                await stdout.WriteLineAsync($"WARNING: No 1/8 margin set for {cardName}");
+                hasWarnings = true;
+            }
+
             // Helper method to show where strings differ
             static string GetDifferenceMarker(string str1, string str2)
             {
