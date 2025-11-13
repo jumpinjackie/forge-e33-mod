@@ -14,9 +14,8 @@ Sandfall Interactive
 {T}: Target creature you control gains flying until end of turn.
 {1}, Sacrifice Soarrie: Draw a card.
 [FlavorText]
-Esquie: Why'd you hide Soarrie from me?
-Verso: Oh, I didn't... I... I was afraid the others would want to return to Lumiere if you could fly them back.
-Esquie: That's mean. Sometimes you're really mean. Mmm. But being mean is not necessarily a mean thing.
+Esquie! Look what I found.
+- Verso
 [ForgeScript]
 A:AB$ Animate | Cost$ T | ValidTgts$ Creature.YouCtrl | TgtPrompt$ Select target creature you control | Keywords$ Flying | SpellDescription$ Target creature you control gains flying until end of turn.
 A:AB$ Draw | Cost$ 1 Sac<1/CARDNAME> | NumCards$ 1 | SpellDescription$ Draw a card.
