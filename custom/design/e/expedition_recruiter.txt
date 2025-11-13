@@ -17,14 +17,13 @@ A person in an expeditioner uniform on a raised platform in the Lumiere town squ
 1/1
 [Oracle]
 When this creature enters, you may search your library for an Expeditioner card, reveal it, put it into your hand, then shuffle.
-When this creature dies, create a Chroma token.
+$EXPEDITIONER_DEATH_ABILITY_TEXT
 [FlavorText]
 Your time left in this life is limited, why not make it count for something?
 [ForgeScript]
 T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigChange | OptionalDecider$ You | TriggerDescription$ When CARDNAME enters, you may search your library for an Expeditioner card, reveal that card, put it into your hand, then shuffle.
 SVar:TrigChange:DB$ ChangeZone | Origin$ Library | Destination$ Hand | ChangeType$ Card.Expeditioner | ChangeNum$ 1 | ShuffleNonMandatory$ True
-T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Card.Self | Execute$ TrigToken | TriggerDescription$ When CARDNAME dies, create a Chroma token
-SVar:TrigToken:DB$ Token | TokenScript$ c_a_chroma | TokenOwner$ You | TokenAmount$ 1
+$EXPEDITIONER_DEATH_ABILITY
 DeckHints:Type$Expeditioner
 [DesignNotes]
  - No direct representation in the video game, but I can easily imagine there are some people in Lumiere whose job is to be trying to recruit citizens who are soon to be gommaged, persuading them to embark on the next Expedition, to make use of the limited time they have left in this world.

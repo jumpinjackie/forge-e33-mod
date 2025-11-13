@@ -15,12 +15,11 @@ Sandfall Interactive
 [Oracle]
 Sacrifice a Chroma token: Search your library for a basic land card, reveal it, put it into your hand, then shuffle.
 Sacrifice two Chroma tokens: You may put a basic land from your hand onto the battlefield tapped.
-When this creature dies, create a Chroma token.
+$EXPEDITIONER_DEATH_ABILITY_TEXT
 [ForgeScript]
 A:AB$ ChangeZone | Cost$ Sac<1/Chroma> | Origin$ Library | Destination$ Hand | ChangeType$ Land.Basic | ChangeNum$ 1 | SpellDescription$ Search your library for a basic land card, reveal it, put it into your hand, then shuffle.
 A:AB$ ChangeZone | Cost$ Sac<2/Chroma> | ChangeType$ Land.Basic+YouCtrl | ChangeNum$ 1 | Hidden$ True | Origin$ Hand | Destination$ Battlefield | Tapped$ True | SpellDescription$ You may put a basic land card from your hand onto the battlefield tapped.
-T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Card.Self | Execute$ TrigToken | TriggerDescription$ When CARDNAME dies, create a Chroma token
-SVar:TrigToken:DB$ Token | TokenScript$ c_a_chroma | TokenOwner$ You | TokenAmount$ 1
+$EXPEDITIONER_DEATH_ABILITY
 [DesignNotes]
  - In the game, Expedition 69 were responsible for most of the grappling points installed throughout the continent. Obviously then, members of this expeditions have a strong exploration theme.
  - For this card, gone with a one drop that can ramp out extra land drops if they have surplus chroma tokens.

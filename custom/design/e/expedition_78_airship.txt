@@ -9,7 +9,7 @@ Creature
 Human
 Expeditioner
 [Rarity]
-C
+U
 [Artist]
 Sandfall Interactive
 [PT]
@@ -17,14 +17,13 @@ Sandfall Interactive
 [Oracle]
 Flying.
 This creature can block only creatures with Flying.
-When this creature dies, create a Chroma token.
+$EXPEDITIONER_DEATH_ABILITY_TEXT
 [FlavorText]
 Our only choice is to take matters into our own hands. Fortune favors the bold. We must forge ahead with CONVICTION.
 [ForgeScript]
 K:Flying
 S:Mode$ CantBlockBy | ValidAttacker$ Creature.withoutFlying | ValidBlocker$ Creature.Self | Description$ CARDNAME can block only creatures with flying.
-T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Card.Self | Execute$ TrigToken | TriggerDescription$ When CARDNAME dies, create a Chroma token
-SVar:TrigToken:DB$ Token | TokenScript$ c_a_chroma | TokenOwner$ You | TokenAmount$ 1
+$EXPEDITIONER_DEATH_ABILITY
 [DesignNotes]
  - In the game, Expedition 78 stole hundreds of airships from the Lumiere Council and departed to take on the Paintress. The Expedition failed, but the fate of the expeditioners is unknown.
  - Card represents some of the Airship crew.

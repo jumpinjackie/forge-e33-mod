@@ -19,13 +19,12 @@ Sandfall Interactive
 {2}{W}: Tap target creature.
 {2}{U}: Put a stun counter on target creature.
 {2}{R}: This creature deals 1 damage to any target.
-When this creature dies, create a Chroma token.
+$EXPEDITIONER_DEATH_ABILITY_TEXT
 [ForgeScript]
 A:AB$ Tap | Cost$ 2 W | ValidTgts$ Creature | TgtPrompt$ Select target creature | SpellDescription$ Tap target creature.
 A:AB$ PutCounter | Cost$ 2 U | ValidTgts$ Creature | CounterType$ Stun | CounterNum$ 1 | SpellDescription$ Put a stun counter on target creature.
 A:AB$ DealDamage | Cost$ 2 R | ValidTgts$ Any | NumDmg$ 1 | SpellDescription$ Tap target creature. | SpellDescription$ CARDNAME deals 1 damage to any target.
-T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Card.Self | Execute$ TrigToken | TriggerDescription$ When CARDNAME dies, create a Chroma token
-SVar:TrigToken:DB$ Token | TokenScript$ c_a_chroma | TokenOwner$ You | TokenAmount$ 1
+$EXPEDITIONER_DEATH_ABILITY
 [DesignNotes]
  - In the game, Expedition 34 was focused on an elemental strategy to exploit weaknesses in Nevrons. This strategy worked until they encountered Nevrons with no elemental weaknesses, at which point this expedition promptly failed.
  - Mechanically gone with a multi-color wizard with an appropriate on-color activated ability with standard Expeditioner death bonus.

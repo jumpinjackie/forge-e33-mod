@@ -17,7 +17,7 @@ Sandfall Interactive
 [Oracle]
 You may choose not to untap this creature during your untap step.
 Nevron Whisperer - {2},{T}: Gain control of target Nevron creature for as long as this creature remains tapped.
-When this creature dies, create a Chroma token.
+$EXPEDITIONER_DEATH_ABILITY_TEXT
 [AbilityWords]
 Nevron Whisperer
 [FlavorText]
@@ -26,8 +26,7 @@ Gregoire is, as usual, deeply suspicious, but this could change our entire under
 [ForgeScript]
 K:You may choose not to untap CARDNAME during your untap step.
 A:AB$ GainControl | Cost$ 2 T | ValidTgts$ Creature.Nevron | TgtPrompt$ Select target Nevron creature | LoseControl$ Untap,LeavesPlay | SpellDescription$ Gain control of target Nevron creature for as long as CARDNAME remains tapped.
-T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Card.Self | Execute$ TrigToken | TriggerDescription$ When CARDNAME dies, create a Chroma token
-SVar:TrigToken:DB$ Token | TokenScript$ c_a_chroma | TokenOwner$ You | TokenAmount$ 1
+$EXPEDITIONER_DEATH_ABILITY
 [DesignNotes]
  - In the game, Expedition 81 was the first expedition to ever communicate with a Nevron.
  - This card represents someone who has mastered the ability to communicate with Nevron.

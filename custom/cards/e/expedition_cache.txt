@@ -3,4 +3,4 @@ ManaCost:2
 Types:Artifact
 A:AB$ Token | Cost$ T Sac<1/CARDNAME> | TokenAmount$ 2 | TokenOwner$ You | TokenScript$ c_a_lumina | SpellDescription$ Create two Lumina tokens.
 A:AB$ Token | Cost$ T Sac<1/CARDNAME> | TokenAmount$ 2 | TokenOwner$ You | TokenScript$ c_a_chroma | SpellDescription$ Create two Chroma tokens.
-Oracle:{T},Sacrifice this artifact: Create two Lumina tokens.\n{T},Sacrifice this artifact: Create two Chroma tokens.
+Oracle:{T}, Sacrifice this artifact: Create two Lumina tokens.\n{T}, Sacrifice this artifact: Create two Chroma tokens.

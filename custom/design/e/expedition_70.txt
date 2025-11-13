@@ -8,7 +8,7 @@ U
 Enchantment
 Saga
 [Rarity]
-C
+R
 [Artist]
 Sandfall Interactive
 [Oracle]

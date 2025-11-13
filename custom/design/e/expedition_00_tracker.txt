@@ -15,12 +15,11 @@ Sandfall Interactive
 [PT]
 2/3
 [Oracle]
-{4}{G},{T}: Look at the top four cards of your library. You may reveal an Expeditioner card from among them and put it into your hand. Put the rest on the bottom of your library in a random order.
-When this creature dies, create a Chroma token.
+{4}{G}, {T}: Look at the top four cards of your library. You may reveal an Expeditioner card from among them and put it into your hand. Put the rest on the bottom of your library in a random order.
+$EXPEDITIONER_DEATH_ABILITY_TEXT
 [ForgeScript]
 A:AB$ Dig | Cost$ 4 G T | DigNum$ 4 | ChangeNum$ 1 | Optional$ True | ChangeValid$ Expeditioner | RestRandomOrder$ True | SpellDescription$ Look at the top four cards of your library. You may reveal an Expeditioner card from among them and put it into your hand. Put the rest on the bottom of your library in a random order.
-T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Card.Self | Execute$ TrigToken | TriggerDescription$ When CARDNAME dies, create a Chroma token
-SVar:TrigToken:DB$ Token | TokenScript$ c_a_chroma | TokenOwner$ You | TokenAmount$ 1
+$EXPEDITIONER_DEATH_ABILITY
 [DesignNotes]
  - In the game, Expedition 00 was the first "search and rescue" team to find any survivors of The Fracture.
  - Gone with a variant of Brightwood Tracker

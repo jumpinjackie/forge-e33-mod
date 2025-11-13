@@ -15,14 +15,13 @@ Sandfall Interactive
 3/2
 [Oracle]
 This creature can't be blocked except by creatures with flying.
-When this creature dies, create a Chroma token.
+$EXPEDITIONER_DEATH_ABILITY_TEXT
 [FlavorText]
 I still remember the first mountain we scaled. Watching the sun rise above the clouds was magical. But rappelling down as we set the handholds was pure exhilaration.
 - Fleur, Expedition 69
 [ForgeScript]
 S:Mode$ CantBlockBy | ValidAttacker$ Creature.Self | ValidBlocker$ Creature.withoutFlying | Description$ CARDNAME can't be blocked except by creatures with flying.
-T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Card.Self | Execute$ TrigToken | TriggerDescription$ When CARDNAME dies, create a Chroma token
-SVar:TrigToken:DB$ Token | TokenScript$ c_a_chroma | TokenOwner$ You | TokenAmount$ 1
+$EXPEDITIONER_DEATH_ABILITY
 [DesignNotes]
  - In the game, Expedition 69 were responsible for most of the grappling points installed throughout the continent. Obviously then, members of this expeditions have a strong exploration theme.
  - For this card, instead of a mana/land ramp theme I've gone with a variant of Treetop Rangers / Silhana Ledgewalker. With such experience in climbing, this creature clearly isn't grounded and thus can only be engaged with in combat by flyers.
