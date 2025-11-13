@@ -12,7 +12,10 @@ U
 Sandfall Interactive
 [Oracle]
 {T}: Target creature you control gains Trample until end of turn.
-{1},Sacrifice Dorrie: Draw a card.
+{1}, Sacrifice Dorrie: Draw a card.
+[FlavorText]
+Doesn't that look like one of Esquie's stones?
+- Sciel
 [ForgeScript]
 A:AB$ Animate | Cost$ T | ValidTgts$ Creature.YouCtrl | TgtPrompt$ Select target creature you control | Keywords$ Trample | SpellDescription$ Target creature you control gains Trample until end of turn.
 A:AB$ Draw | Cost$ 1 Sac<1/CARDNAME> | NumCards$ 1 | SpellDescription$ Draw a card.

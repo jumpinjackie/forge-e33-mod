@@ -11,7 +11,7 @@ C
 [Artist]
 Sandfall Interactive
 [Oracle]
-Enchant permanent
+Enchant permanent.
 Enchanted permanent doesn't untap during its controller's untap step.
 [ForgeScript]
 K:Enchant:Permanent

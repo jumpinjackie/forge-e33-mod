@@ -12,9 +12,9 @@ R
 Sandfall Interactive
 [Oracle]
 When ~ enters, choose two —
-• Put a burning counter on ~
-• Put a energizing counter on ~
-• Put a shielding counter on ~
+• Put a burning counter on ~.
+• Put a energizing counter on ~.
+• Put a shielding counter on ~.
 When equipped creature dies, it deals 4 damage to any target if ~ has a burning counter, create a Chroma token and a Lumina token if ~ has an energizing counter and put a shield counter on each creature you control if ~ has a shielding counter.
 Equip {2}
 $PICTO_REPLICATE_ABILITY(2)
