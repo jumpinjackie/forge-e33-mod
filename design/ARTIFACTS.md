@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 12/11/2025 1:48:02 pm
+> Last generated: 13/11/2025 11:36:11 am
 
 ## Anti-Burn Picto
 
@@ -667,6 +667,26 @@ Whenever this creature becomes the target of a spell or ability an opponent cont
  - In the game, there is a side-quest where you have to find a bunch of Lost Gestrals and return them to Sastro. Every Lost Gestral you find and return to Sastro gives you rewards. For the first ability I went with rewarding the player with Chroma tokens if Sastro is in play when a Lost Gestral enters as a mechanical analogy to this side quest.
  - The second ability was taken from Fblthp, the Lost to mechanically explain why these Gestrals keep getting lost.
  - 23/10/2025: Fixed Sastro card name reference.
+
+## Lumiere Flower Stand
+
+```
+2
+Artifact
+This artifact enters with three stock counters.
+{1}, Remove a stock counter from this artifact, {T}: Create a Flower token (It's an artifact with "{T}, Sacrifice this artifact: Add {U}, {R} or {G}.")
+{3}, {T}: Put a stock counter on this artifact
+---
+Sophie: Looks like you still have a lot of flowers left.
+Tiffanie: Well, there are less and less people to buy them. I just wish you didn't have to wear one.
+```
+
+[card implementation](../custom/cards/l/lumiere_flower_stand.txt)
+
+### Design Notes
+
+ - In the game, the town of Lumiere has several market stands in the town square. Tiffanie operates one of these stands and sells flowers.
+ - Just wanted another card to get extra usage out of Flower tokens (besides Goblu)
 
 ## Lumina Converter
 

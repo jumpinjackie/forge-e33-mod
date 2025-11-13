@@ -308,6 +308,7 @@ The Mask Keeper
 The Monolith
 The Monolith Interior
 The Paintress
+The Reacher
 The Sacred River
 The Scavenger
 The Search for Esquie's Rocks
@@ -345,13 +346,6 @@ Some kind of ping/shock/bolt spell.
 > Gustave: We'll break the cycle. So she can't steal anyone else's future.
 
 No ideas yet.
-
-> Prologue
-> Sophie: Looks like you still have a lot of flowers left.
-> Tiffanie: Well, there are less and less people to buy them. I just wish you didn't have to wear one.
-
-Possible Name: Lumiere Flower Stand
-Some artifact or land that can create Goblu's flower tokens (just to get double-duty out of this token)
 
 > Prologue
 > Sophie: I'm FINE. I've lived 33 good years. Look around. We've had our whole lives to prepare. We'll be fine.

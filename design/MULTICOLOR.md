@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 12/11/2025 1:48:02 pm
+> Last generated: 13/11/2025 11:36:11 am
 
 ## A Storm is Coming
 
@@ -208,7 +208,8 @@ Enchantment
 Sacrifice a nontoken permanent you control: Create a Chroma token.
 Exile a nontoken permanent you control: Create two Chroma tokens.
 ---
-The body may be gone but in this world, its chroma can be repurposed for other means.
+Hmm. It's old chroma, not pure. It won't be like bringing the two of you back, but... we could use it in other ways.
+- Maelle
 ```
 
 [card implementation](../custom/cards/c/chromatic_reclamation.txt)

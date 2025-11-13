@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 12/11/2025 1:48:02 pm
+> Last generated: 13/11/2025 11:36:11 am
 
 ## Crushing Cavern
 
@@ -404,6 +404,32 @@ It bears the twisted memories of lands previously visited.
  - I am hoping I can copy Vesuvan Doppelganger for the most part and change the targeting parameters from creatures to lands.
  - 5/10/2025: It works!
  - May change targeting to only non-basic lands to curb power level if required.
+
+## The Reacher
+
+```
+
+Legendary Land Creature - Axon
+Trample. Reach.
+The Reacher enters with seven sky counters.
+The Reacher cannot attack or block while it has one or more sky counters.
+Whenever a creature with flying enters or attacks, remove a sky counter from The Reacher.
+{T}: Add {G} or {U}.
+{2/U}: Remove a sky counter from The Reacher.
+---
+Little one, there's more to life, if you can just see how big the sky truly is. Reach out your hand, and it's yours...
+
+8/8
+```
+
+[card implementation](../custom/cards/t/the_reacher.txt)
+
+### Design Notes
+
+ - In the game, The Reacher is an Act 3 dungeon. It is also one of the four Axons created by Renoir and represents Alicia.
+ - The Reacher is a landmark, but also an Axon. So in MTG terms, it's both a land and a creature.
+ - To make something uniquely different from The Hauler (which is a man-land). I've gone with a legendary land creature, following the pattern of Dryad Arbor.
+ - Now how do we balance out an 8/8 trampling uncounterable Axon that could drop on turn 1? We take a page out of Dark Depths and have this ETB with 7 sky counters. While it has sky counters, it cannot attack or block and is effectively dormant as a creature. You can still use it as a regular U/G dual land until you've remove the last sky counter.
 
 ## The Sacred River
 
