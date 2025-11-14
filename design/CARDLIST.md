@@ -29,7 +29,7 @@ From this list, card designs are spawned from it, which will eventually form the
 
 ## Card Name List
 
-Cards implemented: 223/297
+Cards implemented: 225/298
 
 [x] - Card is implemented or in development, [ ] - Card is not implemented
 
@@ -290,7 +290,7 @@ Cards implemented: 223/297
 [ ] Sorrowful Chapelier
 [ ] Sprong
 [ ] Stalact
-[ ] Stendhal
+[x] Stendhal
 [x] Strikestorm
 [ ] Sunless Cliffs
 [ ] Sunniso, Gestral Bouncer
@@ -325,6 +325,7 @@ Cards implemented: 223/297
 [x] Urrie
 [x] Verisimilitude
 [x] Verso, Who Guards Truth With Lies
+[x] Verso's Burden
 [ ] Visages
 [x] Void Meteors
 [x] Volester

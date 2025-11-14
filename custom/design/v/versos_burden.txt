@@ -1,0 +1,24 @@
+[Name]
+Verso's Burden
+[ManaCost]
+1
+B
+[Types]
+Enchantment
+Aura
+[Rarity]
+U
+[Oracle]
+Enchant creature
+All damage that would be dealt to enchanted creature is dealt to its controller instead.
+[FlavorText]
+Sometimes, we paint the bars of our own prison. Your despair blinds you. You think you're ready to pay the price. But are you willing to let them pay the price for you?
+- Renoir, to Verso
+[ForgeScript]
+K:Enchant:Creature
+SVar:AttachAILogic:Curse
+R:Event$ DamageDone | ActiveZones$ Battlefield | ValidTarget$ Card.EnchantedBy | ReplaceWith$ DmgEnchanted | DamageTarget$ ReplacedTargetController | Description$ All damage that would be dealt to enchanted creature is dealt to its controller instead.
+SVar:DmgEnchanted:DB$ ReplaceEffect | VarName$ Affected | VarValue$ ReplacedTargetController | VarType$ Player
+[DesignNotes]
+ - In the game, Burden is one of Verso's skills. It transfers all status effects on various members of your party onto Verso himself.
+ - Gone with 1:1 reprint of Treacherous Link.

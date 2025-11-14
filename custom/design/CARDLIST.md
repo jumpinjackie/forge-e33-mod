@@ -325,6 +325,7 @@ Ultimate Sakapatate
 Urrie
 Verisimilitude
 Verso, Who Guards Truth With Lies
+Verso's Burden
 Visages
 Void Meteors
 Volester

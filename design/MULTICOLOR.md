@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 14/11/2025 9:32:00 am
+> Last generated: 14/11/2025 4:57:52 pm
 
 ## A Storm is Coming
 
@@ -1162,6 +1162,26 @@ An omnipresent feature of the continent skies. A reminder that before one can ev
  - In the game, Serpenphare is an optional end-game boss. Its most prominent attack is an AP draining ability, if it consumes too much AP with this move, it will explode.
  - Mechanically, we modeled the AP draining ability as a tap and stun with a charge counter being given. The "explode" ability is modeled as removing X charge counters to X damage to every creature (including itself)
 
+## Stendhal
+
+```
+10BR
+Sorcery
+Devoid (This card has no color.)
+Affinity for Lumina (This spell costs {1} less to cast for each Lumina you control.)
+Stendhal deals 33 damage to target creature or planeswalker.
+```
+
+[card implementation](../custom/cards/s/stendhal.txt)
+
+### Design Notes
+
+ - In the game, Stendhal is one of Maelle's skills. It is unlocked in Act 3 and it notable for being hideously overpowered with the right combination of pictos/luminas and buffs and forms the basis of many "one shot" character builds.
+ - Taken another chance to weave in a use of the number 33 by dealing that much to a creature or planeswalker. When you absolutely need to kill something, accept no substitute.
+ - Has devoid because it deals extreme void damage in-game.
+ - Has Affinity for Lumina (tokens) to not only make casting this easier, but also as a nod to the pictos/lumina investment required in-game to make Stendhal deal damage in the millions.
+ - I orignally had thoughts about making it targeting players as well, but with some side-mission you must take to unlock the ability to target players (whether by suspend or mana payment requirements), but decided against that as this set already has 2 "you win the game if certain conditions are met" cards. That's enough, we don't need another one.
+
 ## Strikestorm
 
 ```
@@ -1329,6 +1349,7 @@ Here we go
 ```
 2BR
 Sorcery - Gradient
+Devoid (This card has no color.)
 This spell costs {2} less to cast if you control a painter.
 Void Meteors deals 4 damage divided as you choose among any number of targets.
 ---
@@ -1343,6 +1364,7 @@ How cruel of your father to use you like this.
  - In the game, this is one of the Paintress' moves in the boss fight with her.
  - Mechanically, I based this on Pyrotechnics, but moved to Rakdos colors and with a Painter's discount.
  - 13/10/2025: Removed Devoid.
+ - 15/11/2025: Devoid is back on the menu. I figured out how to add colorless frame layer to CardConjurer.
 
 ## Whee // Whoo
 

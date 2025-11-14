@@ -14,15 +14,18 @@ Sandfall Interactive
 [ArtNotes]
 The Paintress launching a volley of projectiles with the appearance of a black hole or an eclipsed star.
 [Oracle]
+Devoid $DEVOID_REMINDER_TEXT
 This spell costs {2} less to cast if you control a painter.
 ~ deals 4 damage divided as you choose among any number of targets.
 [FlavorText]
 How cruel of your father to use you like this.
 - The Paintress
 [ForgeScript]
+K:Devoid
 S:Mode$ ReduceCost | ValidCard$ Card.Self | Type$ Spell | Amount$ 2 | EffectZone$ All | IsPresent$ Painter.YouCtrl | Description$ This spell costs {2} less to cast if you control a painter.
 A:SP$ DealDamage | ValidTgts$ Any | TgtPrompt$ Select any number of target creatures to distribute damage to | NumDmg$ 4 | TargetMin$ 0 | TargetMax$ 4 | DividedAsYouChoose$ 4 | SpellDescription$ CARDNAME deals 4 damage divided as you choose among any number of targets.
 [DesignNotes]
  - In the game, this is one of the Paintress' moves in the boss fight with her.
  - Mechanically, I based this on Pyrotechnics, but moved to Rakdos colors and with a Painter's discount.
  - 13/10/2025: Removed Devoid.
+ - 15/11/2025: Devoid is back on the menu. I figured out how to add colorless frame layer to CardConjurer.
