@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 14/11/2025 6:18:35 pm
+> Last generated: 14/11/2025 7:30:12 pm
 
 ## Anti-Burn Picto
 
@@ -496,7 +496,7 @@ You may come in.
 Artifact Creature - Gestral
 This creature enters with a charge counter on it.
 Sacrifice a Chroma token: Put a charge counter on this creature. Activate this ability only as a sorcery and only if this creature has less than three charge counters.
-{2}, {T}: Target creature gets +1/+1 until end of turn for each charge counter on this creature
+{2}, {T}: Target creature gets +1/+1 until end of turn for each charge counter on this creature.
 
 1/2
 ```
@@ -925,7 +925,7 @@ Verso's childhood canvas. Where we used to play ... Where he painted Esquie and 
 1
 Legendary Artifact - Rock
 {1}, {T}: Surveil 2.
-{1},Sacrifice Urrie: Draw a card.
+{1}, Sacrifice Urrie: Draw a card.
 ---
 FINE, FINE, FINE, Here. Pah! Take your rock and SCRAM!
 - Francois

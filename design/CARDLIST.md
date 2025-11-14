@@ -29,7 +29,7 @@ From this list, card designs are spawned from it, which will eventually form the
 
 ## Card Name List
 
-Cards implemented: 225/298
+Cards implemented: 226/298
 
 [x] - Card is implemented or in development, [ ] - Card is not implemented
 
@@ -296,7 +296,7 @@ Cards implemented: 225/298
 [ ] Sunniso, Gestral Bouncer
 [x] Swift Counter
 [ ] Sword Ballet
-[ ] Surcease
+[x] Surcease
 [x] Terraquake
 [x] The 67th Gommage
 [ ] The Curator
@@ -391,6 +391,14 @@ No ideas yet.
 > Lune: You do that and we both die
 
 No ideas yet.
+
+> Act 1: Stone Wave Cliffs
+> Gustave: The Paintress destroyed our world. And someone built her a shrine?
+> Lune: The weak-minded turn to whatever they can to explain the unknown.
+> Sciel: When you're at the mercy of a power you don't understand, you might try anything.
+
+Name: Shrine to The Paintress
+Some artifact or Shrine Enchantment?
 
 > Act 2: Visages
 > Sciel: I know they're Nevrons, but... witnessing the sorrow of others... I can't help but feel for them.

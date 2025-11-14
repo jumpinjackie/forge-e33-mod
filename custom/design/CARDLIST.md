@@ -392,6 +392,14 @@ No ideas yet.
 
 No ideas yet.
 
+> Act 1: Stone Wave Cliffs
+> Gustave: The Paintress destroyed our world. And someone built her a shrine?
+> Lune: The weak-minded turn to whatever they can to explain the unknown.
+> Sciel: When you're at the mercy of a power you don't understand, you might try anything.
+
+Name: Shrine to The Paintress
+Some artifact or Shrine Enchantment?
+
 > Act 2: Visages
 > Sciel: I know they're Nevrons, but... witnessing the sorrow of others... I can't help but feel for them.
 > Monoco: A noble but tremendously fatal impulse

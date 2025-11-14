@@ -199,37 +199,38 @@ Type=Custom
 192 R Sirene's Coliseum @Sandfall Interactive
 193 R Sky Break @Sandfall Interactive
 194 U Soarrie @Sandfall Interactive
-195 U Stendhal @
+195 R Stendhal @
 196 R Strikestorm @Sandfall Interactive
-197 C Swift Counter @Sandfall Interactive
-198 R Terraquake @Sandfall Interactive
-199 M The 67th Gommage @Sandfall Interactive
-200 M The Fate of the Canvas @
-201 R The Fracture @Sandfall Interactive
-202 R The Greatest Expedition in History @Sandfall Interactive
-203 R The Hauler @Sandfall Interactive
-204 M The Monolith @Sandfall Interactive
-205 R The Monolith Interior @Sandfall Interactive
-206 R The Reacher @
-207 M The Sacred River @Sandfall Interactive
-208 R The Scavenger @Sandfall Interactive
-209 U The Search for Esquie's Rocks @Sandfall Interactive
-210 M The World Canvas @Sandfall Interactive
-211 U Thermal Transfer @Sandfall Interactive
-212 C Thunderfall @
-213 U Tomorrow Comes @Sandfall Interactive
-214 C Torture // Nurture @Sandfall Interactive
-215 U Troubador @Sandfall Interactive
-216 U Twilight Quarry @Sandfall Interactive
-217 U Twisted Lumiere Citizen @Sandfall Interactive
-218 U Urrie @Sandfall Interactive
-219 R Verisimilitude @Sandfall Interactive
-220 R Verso, Who Guards Truth With Lies @
-221 U Verso's Burden @
-222 U Void Meteors @Sandfall Interactive
-223 C Volester @Sandfall Interactive
-224 U Whee // Whoo @Sandfall Interactive
-225 R When One Falls // We Continue @Sandfall Interactive
+197 U Surcease @
+198 C Swift Counter @Sandfall Interactive
+199 R Terraquake @Sandfall Interactive
+200 M The 67th Gommage @Sandfall Interactive
+201 M The Fate of the Canvas @
+202 R The Fracture @Sandfall Interactive
+203 R The Greatest Expedition in History @Sandfall Interactive
+204 R The Hauler @Sandfall Interactive
+205 M The Monolith @Sandfall Interactive
+206 R The Monolith Interior @Sandfall Interactive
+207 R The Reacher @
+208 M The Sacred River @Sandfall Interactive
+209 R The Scavenger @Sandfall Interactive
+210 U The Search for Esquie's Rocks @Sandfall Interactive
+211 M The World Canvas @Sandfall Interactive
+212 U Thermal Transfer @Sandfall Interactive
+213 C Thunderfall @
+214 U Tomorrow Comes @Sandfall Interactive
+215 C Torture // Nurture @Sandfall Interactive
+216 U Troubador @Sandfall Interactive
+217 U Twilight Quarry @Sandfall Interactive
+218 U Twisted Lumiere Citizen @Sandfall Interactive
+219 U Urrie @Sandfall Interactive
+220 R Verisimilitude @Sandfall Interactive
+221 R Verso, Who Guards Truth With Lies @
+222 U Verso's Burden @
+223 U Void Meteors @Sandfall Interactive
+224 C Volester @Sandfall Interactive
+225 U Whee // Whoo @Sandfall Interactive
+226 R When One Falls // We Continue @Sandfall Interactive
 
 
 [tokens]

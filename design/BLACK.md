@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 14/11/2025 6:18:35 pm
+> Last generated: 14/11/2025 7:30:12 pm
 
 ## Chapelier
 
@@ -224,6 +224,24 @@ I know it seems absurd to offer oblivion as recompense, but perhaps that's the o
 
  - The card symbolizes the moment that Renoir was finally free from the bottom of the Monolith upon the defeat of The Paintress and Aline was expelled from the canvas and now had free reign to carry out his will: To destroy the canvas.
  - So mechanically, we've gone with a variation of Yawgmoth's Will, but with extra restrictions on the type of cards that can be replayed, allowing us to keep the same mana cost.
+
+## Surcease
+
+```
+B
+Instant
+Destroy target creature if it has mana value 2 or less.
+If you control a painter, Destroy target creature if it has mana value 4 or less instead.
+```
+
+[card implementation](../custom/cards/s/surcease.txt)
+
+### Design Notes
+
+ - "I know what he'll say, but this is the first time I've felt any surcease" - Aline's journal.
+ - Another excuse to put a perfectly cromulent word into card form.
+ - Dictionary defn: To put to an end.
+ - Easy map to creature kill. Go with Fatal Push, but the higher targeting bonus comes from controlling a painter.
 
 ## The 67th Gommage
 
