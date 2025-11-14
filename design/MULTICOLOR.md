@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 13/11/2025 3:22:16 pm
+> Last generated: 14/11/2025 9:32:00 am
 
 ## A Storm is Coming
 
@@ -983,7 +983,7 @@ When you unlock this door, it deals 3 damage to any target.
 2(W/G)(W/G)
 Legendary Artifact Creature - Gestral Expeditioner
 Whenever a nontoken Nevron creature dies, exile it with a Foot counter.
-My, what lovely feet! — Monoco has activated abilities of all Nevrons in exile with a Foot counter on them. Monoco has flying as long as an exiled Nevron creature with a Foot counter has flying. The same is true for first strike, double strike, deathtouch, haste, hexproof, indestructible, lifelink, meance, reach, trample and vigilance.
+My, what lovely feet! — Monoco has activated abilities of all Nevrons in exile with a Foot counter on them. Monoco has flying as long as an exiled Nevron creature with a Foot counter has flying. The same is true for first strike, double strike, deathtouch, haste, hexproof, indestructible, lifelink, menace, reach, trample and vigilance.
 {1}{G}, {T}: Monoco fights target creature.
 {2}{W}: Untap Monoco.
 
