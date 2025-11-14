@@ -14,7 +14,7 @@ Sandfall Interactive
 1/2
 [Oracle]
 ~ enters with a charge counter on it.
-Sacrifice a Chroma token: Put a charge counter on ~. Activate this ability only as a sorcery and only if ~ has less than 3 charge counters.
+Sacrifice a Chroma token: Put a charge counter on ~. Activate this ability only as a sorcery and only if ~ has less than three charge counters.
 {2}, {T}: Target creature gets +1/+1 until end of turn for each charge counter on ~
 [ForgeScript]
 K:etbCounter:CHARGE:1
