@@ -3,7 +3,7 @@ ManaCost:2
 Types:Artifact Picto Equipment
 K:Equip:2
 S:Mode$ CanAttackDefender | ValidCard$ Card.EquippedBy  | Description$ Equipped creature can attack as though it didn't have defender.
-S:Mode$ Continuous | Affected$ Card.EquippedBy | SetPower$ 6 | SetToughness$ 1 | Description$ Equipped creature gets has base power and toughness 6/1
+S:Mode$ Continuous | Affected$ Card.EquippedBy | SetPower$ 5 | SetToughness$ 1 | Description$ Equipped creature gets has base power and toughness 5/1
 A:AB$ CopyPermanent | Cost$ Sac<2/Lumina> | CheckSVar$ TokenCopies | SVarCompare$ EQ0 | ValidTgts$ Creature.YouCtrl | Defined$ Self | NumCopies$ 1 | AttachedTo$ Targeted | SpellDescription$ Create a token copy of CARDNAME attached to target creature you control. Activate this ability only if you control no token copies of CARDNAME.
 SVar:TokenCopies:Count$Valid Artifact.YouCtrl+token+namedGlass Cannon Picto
-Oracle:Equipped creature can attack as though it didn't have defender and has base power and toughness 6/1\nEquip {2}\nSacrifice two Lumina tokens: Create a token copy of this equipment attached to target creature you control. Activate this ability only if you control no token copies of this equipment.
+Oracle:Equipped creature can attack as though it didn't have defender and has base power and toughness 5/1\nEquip {2}\nSacrifice two Lumina tokens: Create a token copy of this equipment attached to target creature you control. Activate this ability only if you control no token copies of this equipment.
