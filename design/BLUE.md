@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 13/11/2025 3:22:16 pm
+> Last generated: 14/11/2025 6:18:35 pm
 
 ## An Advantage!
 
@@ -421,6 +421,7 @@ Not today!
 ```
 2U
 Creature - Nevron
+Flash
 When this creature dies, target opponent creates a Lumina token. (It's an artifact with "{T}, Sacrifice this artifact: Scry 1.")
 
 3/2
@@ -432,6 +433,7 @@ When this creature dies, target opponent creates a Lumina token. (It's an artifa
 
  - Currently a vanilla placeholder Nevron. Abilities TBD
  - 13/10/2025: Removed Devoid.
+ - 15/11/2025: Added Flash to emphasize its speed.
 
 ## Rip Apart Reality
 

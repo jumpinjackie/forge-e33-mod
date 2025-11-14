@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 14/11/2025 4:57:52 pm
+> Last generated: 14/11/2025 6:18:35 pm
 
 ## A Storm is Coming
 
@@ -896,6 +896,8 @@ When you unlock this door, return target creature card from your graveyard to th
 Sorcery
 Destroy all Rooms.
 Draw a card.
+---
+You're ok.
 ```
 
 [card implementation](../custom/cards/m/manor_fire.txt)

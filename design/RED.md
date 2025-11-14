@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 13/11/2025 3:22:16 pm
+> Last generated: 14/11/2025 6:18:35 pm
 
 ## Catapault Sakapatate
 
@@ -171,7 +171,7 @@ When Grosse Tete has three or more quake counters, sacrifice it.
 ```
 2RR
 Kindred Sorcery - Expeditioner
-This spell deals 1 damage to any target, 2 damage to another target, and 3 damage to a third target.
+Lightning Dance deals 1 damage to any target, 2 damage to another target, and 3 damage to a third target.
 ```
 
 [card implementation](../custom/cards/l/lightning_dance.txt)

@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 13/11/2025 3:22:16 pm
+> Last generated: 14/11/2025 6:18:35 pm
 
 ## Anti-Burn Picto
 
@@ -495,7 +495,7 @@ You may come in.
 3
 Artifact Creature - Gestral
 This creature enters with a charge counter on it.
-Sacrifice a Chroma token: Put a charge counter on this creature. Activate this ability only as a sorcery and only if this creature has less than 3 charge counters.
+Sacrifice a Chroma token: Put a charge counter on this creature. Activate this ability only as a sorcery and only if this creature has less than three charge counters.
 {2}, {T}: Target creature gets +1/+1 until end of turn for each charge counter on this creature
 
 1/2
@@ -515,7 +515,7 @@ Sacrifice a Chroma token: Put a charge counter on this creature. Activate this a
 ```
 2
 Artifact - Picto Equipment
-Equipped creature can attack as though it didn't have defender and has base power and toughness 6/1
+Equipped creature can attack as though it didn't have defender and has base power and toughness 5/1
 Equip {2}
 Sacrifice two Lumina tokens: Create a token copy of this equipment attached to target creature you control. Activate this ability only if you control no token copies of this equipment.
 ```
@@ -528,6 +528,7 @@ Sacrifice two Lumina tokens: Create a token copy of this equipment attached to t
  - Mapped to creature power pump at the expense of its toughness.
  - Granted defender exemption to incentivize equipping to Walls and other high toughness creatures that likely have defender.
  - 12/11/2025: Could not get the variable P/T pump to work, so gone with a flat 6/1 base P/T that conveys the same intent.
+ - 15/11/2025: Changed base P/T from 6/1 to 5/1
 
 ## Golgra, Gestral Chief
 
