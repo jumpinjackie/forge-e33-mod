@@ -15,7 +15,7 @@ Sandfall Interactive
 [ArtNotes]
 Lune floating in the air with arms raised, summoning several columns of Lightning.
 [Oracle]
-This spell deals 1 damage to any target, 2 damage to another target, and 3 damage to a third target.
+~ deals 1 damage to any target, 2 damage to another target, and 3 damage to a third target.
 [ForgeScript]
 A:SP$ DealDamage | ValidTgts$ Any | TgtPrompt$ Select any target to deal 1 damage to | NumDmg$ 1 | DamageMap$ True | SubAbility$ DBDamageTwo | SpellDescription$ CARDNAME deals 1 damage to any target, 2 damage to another target, and 3 damage to a third target.
 SVar:DBDamageTwo:DB$ DealDamage | ValidTgts$ Any | TgtPrompt$ Select another target to deal 2 damage to | NumDmg$ 2 | TargetUnique$ True | SubAbility$ DBDamageThree

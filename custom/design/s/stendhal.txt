@@ -7,7 +7,7 @@ Sorcery
 B
 R
 [Rarity]
-U
+R
 [Oracle]
 Devoid $DEVOID_REMINDER_TEXT
 Affinity for Lumina (This spell costs {1} less to cast for each Lumina you control.)

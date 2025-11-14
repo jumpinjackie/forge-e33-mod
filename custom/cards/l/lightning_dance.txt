@@ -5,4 +5,4 @@ A:SP$ DealDamage | ValidTgts$ Any | TgtPrompt$ Select any target to deal 1 damag
 SVar:DBDamageTwo:DB$ DealDamage | ValidTgts$ Any | TgtPrompt$ Select another target to deal 2 damage to | NumDmg$ 2 | TargetUnique$ True | SubAbility$ DBDamageThree
 SVar:DBDamageThree:DB$ DealDamage | ValidTgts$ Any | TgtPrompt$ Select another target to deal 3 damage to | NumDmg$ 3 | TargetUnique$ True | SubAbility$ DBDamageResolve
 SVar:DBDamageResolve:DB$ DamageResolve
-Oracle:This spell deals 1 damage to any target, 2 damage to another target, and 3 damage to a third target.
+Oracle:Lightning Dance deals 1 damage to any target, 2 damage to another target, and 3 damage to a third target.

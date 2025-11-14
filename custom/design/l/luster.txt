@@ -13,9 +13,12 @@ Sandfall Interactive
 [PT]
 3/2
 [Oracle]
+Flash
 $NEVRON_DEATH_ABILITY_TEXT
 [ForgeScript]
+K:Flash
 $NEVRON_DEATH_ABILITY
 [DesignNotes]
  - Currently a vanilla placeholder Nevron. Abilities TBD
  - 13/10/2025: Removed Devoid.
+ - 15/11/2025: Added Flash to emphasize its speed.
