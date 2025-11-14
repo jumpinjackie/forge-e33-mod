@@ -1,0 +1,20 @@
+[Name]
+Surcease
+[ManaCost]
+B
+[Types]
+Instant
+[Rarity]
+U
+[Oracle]
+Destroy target creature if it has mana value 2 or less.
+If you control a painter, Destroy target creature if it has mana value 4 or less instead.
+[ForgeScript]
+A:SP$ Destroy | ValidTgts$ Creature | AITgts$ Creature.cmcLEX | ConditionDefined$ Targeted | ConditionPresent$ Creature.cmcLEX | ConditionCompare$ EQ1 | SpellDescription$ Destroy target creature if it has mana value 2 or less. If you control a painter, Destroy target creature if it has mana value 4 or less instead.
+SVar:Y:Count$Valid Painter.YouCtrl
+SVar:X:Count$Compare Y GE1.4.2
+[DesignNotes]
+ - "I know what he'll say, but this is the first time I've felt any surcease" - Aline's journal.
+ - Another excuse to put a perfectly cromulent word into card form.
+ - Dictionary defn: To put to an end.
+ - Easy map to creature kill. Go with Fatal Push, but the higher targeting bonus comes from controlling a painter.
