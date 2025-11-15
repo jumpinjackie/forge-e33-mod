@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 15/11/2025 9:15:18 pm
+> Last generated: 15/11/2025 9:47:39 pm
 
 ## A Storm is Coming
 
@@ -134,6 +134,8 @@ Kindred Instant - Expeditioner
 Kicker {2}.
 Destroy target artifact or enchantment with mana value 2 lor less.
 If this spell was kicked, destroy that artifact or enchantment if its mana value is 5 or less instead.
+---
+Some rules can be bent, some can be broken.
 ```
 
 [card implementation](../custom/cards/b/breaking_rules.txt)

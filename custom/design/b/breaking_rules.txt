@@ -14,6 +14,8 @@ Sandfall Interactive
 Kicker {2}.
 Destroy target artifact or enchantment with mana value 2 lor less.
 If this spell was kicked, destroy that artifact or enchantment if its mana value is 5 or less instead.
+[FlavorText]
+Some rules can be bent, some can be broken.
 [ForgeScript]
 K:Kicker:2
 A:SP$ Destroy | ValidTgts$ Artifact,Enchantment | AITgts$ Artifact.cmcLEX,Enchantment.cmcLEX | TgtPrompt$ Select target artifact or enchantment with mana value 2 or less (5 or less if kicked) | ConditionCheckSVar$ Y | ConditionSVarCompare$ LEX | SpellDescription$ Destroy target artifact or enchantment with mana value 2 lor less. If this spell was kicked, destroy that artifact or enchantment if its mana value is 5 or less instaed.
