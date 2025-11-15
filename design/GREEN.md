@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 14/11/2025 7:30:12 pm
+> Last generated: 15/11/2025 6:19:11 am
 
 ## Abbest
 
@@ -269,6 +269,25 @@ Choose up to one target creature card and up to one target non-creature card in 
 
  - In the game, this is Lune's healing ability.
  - No mechanical relation. We've just re-approriated the name for a green regrowth-style spell.
+
+## Rock Throw
+
+```
+G
+Instant
+Kicker — {2}, Exert a creature you control.
+Rock Throw deals 2 damage to target creature. If this spell was kicked, Rock Throw deals 4 damage instead.
+---
+Have you tried throwing with your other arm instead? If you could hit the Paintress directly that would be useful.
+- Maelle
+```
+
+[card implementation](../custom/cards/r/rock_throw.txt)
+
+### Design Notes
+
+ - In the game, Gustave has a penchant for throwing rocks.
+ - To give green some bones in spot removal for draft/limited, this is a shock for creatures that can be upgraded in damage.
 
 ## Volester
 
