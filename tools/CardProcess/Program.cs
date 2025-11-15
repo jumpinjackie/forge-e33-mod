@@ -59,6 +59,8 @@ public class CardFaceDesign
 
     public string[]? AbilityWords { get; set; }
 
+    public bool IsReprint { get; set; } = false;
+
     internal void Apply(string propertyName, IEnumerable<string> buffer)
     {
         switch (propertyName)
@@ -141,6 +143,9 @@ public class CardFaceDesign
                 break;
             case nameof(AbilityWords):
                 AbilityWords = buffer.ToArray();
+                break;
+            case nameof(IsReprint):
+                IsReprint = string.Join(" ", buffer) == "true";
                 break;
         }
     }
@@ -381,6 +386,8 @@ public class CardMasterDesign(string designFile)
 
     public bool IsToken { get; set; }
 
+    public bool IsReprint => FrontFull?.IsReprint ?? false; // Only considering regular cards for reprints
+
     public string Rarity
     {
         get
@@ -402,19 +409,23 @@ public class CardMasterDesign(string designFile)
 
     public bool IsValid()
     {
-        return this.FaceType.HasValue && this.Bucket is not null && this.Rarity is not null;
+        return (this.FaceType.HasValue && this.Bucket is not null && this.Rarity is not null)
+            || (this.IsReprint);
     }
 
     public IEnumerable<string> InvalidReasons
     {
         get
         {
-            if (!this.FaceType.HasValue)
-                yield return "Unknown FaceType";
-            if (this.Bucket is null)
-                yield return "Null Bucket";
-            if (this.Rarity is null)
-                yield return "No Rarity";
+            if (!this.IsReprint)
+            {
+                if (!this.FaceType.HasValue)
+                    yield return "Unknown FaceType";
+                if (this.Bucket is null)
+                    yield return "Null Bucket";
+                if (this.Rarity is null)
+                    yield return "No Rarity";
+            }
         }
     }
 
@@ -604,6 +615,7 @@ public class CardMasterDesign(string designFile)
                 case "[Bugs]":
                 case "[Loyalty]":
                 case "[Colors]":
+                case "[IsReprint]":
                     // Apply the collected buffer for the previous property name
                     if (activePropertyName != null)
                     {
@@ -901,158 +913,6 @@ public abstract class BaseCommand
     }
 }
 
-[CliCommand(Name = "genscripts", Description = "Generate card scripts")]
-public class GenCardScriptsCommand : BaseCommand
-{
-    // HACK: Source generator won't generate if attribute placed on base property, so that has been made
-    // abstract and we're decorating here
-    [CliOption(Required = true, Description = "The base content directory")]
-    public override required DirectoryInfo BaseDirectory { get; set; }
-
-    protected override async Task<int> ExecuteAsync(CliContext context, TextWriter stdout, TextWriter stderr)
-    {
-        var subDirs = this.BaseDirectory.GetDirectories();
-        var cardsDir = subDirs.FirstOrDefault(d => d.Name == "cards");
-        var tokensDir = subDirs.FirstOrDefault(d => d.Name == "tokens");
-        if (cardsDir is null)
-            throw new InvalidOperationException("cards dir not found");
-        if (tokensDir is null)
-            throw new InvalidOperationException("tokens dir not found");
-
-        var cards = await ReadCardDesignsAsync(stdout, stderr);
-        foreach (var (name, card) in cards)
-        {
-            await card.WriteScriptAsync(cardsDir, tokensDir, stdout, stderr);
-        }
-
-        return 0;
-    }
-}
-
-[CliCommand(Name = "gendocs", Description = "Generate design docs")]
-public class GenDocsCommand : BaseCommand
-{
-    // HACK: Source generator won't generate if attribute placed on base property, so that has been made
-    // abstract and we're decorating here
-    [CliOption(Required = true, Description = "The base content directory")]
-    public override required DirectoryInfo BaseDirectory { get; set; }
-
-    [CliOption(Required = true, Description = "The output directory")]
-    public required DirectoryInfo OutputDir { get; set; }
-
-    protected override async Task<int> ExecuteAsync(CliContext context, TextWriter stdout, TextWriter stderr)
-    {
-        var cards = await ReadCardDesignsAsync(stdout, stderr);
-        var writers = new Dictionary<string, StreamWriter>();
-        var scriptBaseDir = Path.GetRelativePath(
-            OutputDir.FullName,
-            Path.Combine(BaseDirectory.FullName, "cards")
-        );
-        // Now write docs
-        foreach (var (name, card) in cards)
-        {
-            if (card.IsToken)
-                continue;
-
-            if (!writers.TryGetValue(card.Bucket!, out var writer))
-            {
-                writer = new StreamWriter(Path.Combine(this.OutputDir.FullName, card.Bucket + ".md"));
-                await writer.WriteLineAsync("# Cards");
-                await writer.WriteLineAsync();
-                await writer.WriteLineAsync($"> Last generated: {DateTime.UtcNow}");
-                await writer.WriteLineAsync();
-                writers[card.Bucket!] = writer;
-            }
-            await card.WriteDocAsync(scriptBaseDir, writer, stdout, stderr);
-        }
-
-        // Close all writers
-        foreach (var kvp in writers)
-        {
-            kvp.Value.Close();
-            kvp.Value.Dispose();
-        }
-
-        return 0;
-    }
-}
-
-[CliCommand(Name = "genedition", Description = "Generate set edition file")]
-public class GenEditionCommand : BaseCommand
-{
-    // HACK: Source generator won't generate if attribute placed on base property, so that has been made
-    // abstract and we're decorating here
-    [CliOption(Required = true, Description = "The base content directory")]
-    public override required DirectoryInfo BaseDirectory { get; set; }
-
-    protected override async Task<int> ExecuteAsync(CliContext context, TextWriter stdout, TextWriter stderr)
-    {
-        var subDirs = this.BaseDirectory.GetDirectories();
-        var editionsDir = subDirs.FirstOrDefault(d => d.Name == "editions");
-        var designDir = subDirs.FirstOrDefault(d => d.Name == "design");
-        if (editionsDir is null)
-            throw new InvalidOperationException("editions dir not found");
-        if (designDir is null)
-            throw new InvalidOperationException("design dir not found");
-        var templateFile = Path.Combine(designDir.FullName, "edition.tpl");
-        if (!File.Exists(templateFile))
-            throw new InvalidOperationException("Could not find edition.tpl");
-
-        int collectorNum = 1;
-        var cardList = new StringBuilder();
-        var cards = await ReadCardDesignsAsync(stdout, stderr);
-        foreach (var (name, card) in cards)
-        {
-            if (card.FaceType == CardFaceType.Meld) // Meld cards only care about the front face name
-                cardList.AppendLine($"{collectorNum} {card.Rarity} {card.FrontFull.Name} @{card.GetArtist()}");
-            else
-                cardList.AppendLine($"{collectorNum} {card.Rarity} {name} @{card.GetArtist()}");
-            collectorNum++;
-        }
-
-        var sbEdition = new StringBuilder(File.ReadAllText(templateFile));
-        sbEdition.Replace("$CARD_LIST$", cardList.ToString());
-        File.WriteAllText(Path.Combine(editionsDir.FullName, "Clair Obscur Expedition 33.txt"), sbEdition.ToString());
-
-        await stdout.WriteLineAsync("Updated edition file");
-
-        return 0;
-    }
-}
-
-[CliCommand(Name = "genbugs", Description = "Generate bug list")]
-public class GenBugsCommand : BaseCommand
-{
-    // HACK: Source generator won't generate if attribute placed on base property, so that has been made
-    // abstract and we're decorating here
-    [CliOption(Required = true, Description = "The base content directory")]
-    public override required DirectoryInfo BaseDirectory { get; set; }
-
-    [CliOption(Required = true, Description = "The output directory")]
-    public required DirectoryInfo OutputDir { get; set; }
-
-    protected override async Task<int> ExecuteAsync(CliContext context, TextWriter stdout, TextWriter stderr)
-    {
-        var bugsFile = Path.Combine(this.OutputDir.FullName, "BUGS.md");
-        using var sw = new StreamWriter(bugsFile);
-
-        await sw.WriteLineAsync("# General");
-        await sw.WriteLineAsync();
-        await sw.WriteLineAsync("# Card-specific");
-        await sw.WriteLineAsync();
-
-        var cards = await ReadCardDesignsAsync(stdout, stderr);
-        foreach (var (name, card) in cards)
-        {
-            await card.WriteBugsAsync(sw);
-        }
-
-        await stdout.WriteLineAsync("Updated bugs file");
-
-        return 0;
-    }
-}
-
 [CliCommand(Name = "genall", Description = "Generate all outputs (scripts, docs, edition, bugs)")]
 public class GenAllCommand : BaseCommand
 {
@@ -1083,6 +943,9 @@ public class GenAllCommand : BaseCommand
 
         foreach (var (name, card) in cards)
         {
+            if (card.IsReprint) // Reprints already have card scripts
+                continue;
+
             await card.WriteScriptAsync(cardsDir, tokensDir, stdout, stderr);
         }
 
@@ -1133,19 +996,28 @@ public class GenAllCommand : BaseCommand
 
         int collectorNum = 1;
         var cardList = new StringBuilder();
+        var reprintList = new StringBuilder();
         foreach (var (name, card) in cards)
         {
-            if (card.FaceType == CardFaceType.Meld)
-                cardList.AppendLine(
-                    $"{collectorNum} {card.Rarity} {card.FrontFull.Name} @{card.GetArtist()}"
-                );
+            if (card.IsReprint)
+            {
+                reprintList.AppendLine($"{collectorNum} {card.Rarity} {name} @{card.GetArtist()}");
+            }
             else
-                cardList.AppendLine($"{collectorNum} {card.Rarity} {name} @{card.GetArtist()}");
+            {
+                if (card.FaceType == CardFaceType.Meld) // Meld cards only care about the front face name
+                    cardList.AppendLine(
+                        $"{collectorNum} {card.Rarity} {card.FrontFull.Name} @{card.GetArtist()}"
+                    );
+                else
+                    cardList.AppendLine($"{collectorNum} {card.Rarity} {name} @{card.GetArtist()}");
+            }
             collectorNum++;
         }
 
         var sbEdition = new StringBuilder(File.ReadAllText(templateFile));
         sbEdition.Replace("$CARD_LIST$", cardList.ToString());
+        sbEdition.Replace("$REPRINT_LIST$", reprintList.ToString());
         File.WriteAllText(
             Path.Combine(editionsDir.FullName, "Clair Obscur Expedition 33.txt"),
             sbEdition.ToString()
@@ -1649,10 +1521,6 @@ public class CardConjurerValidateCommand : BaseCommand
 
 [CliCommand(
     Children = [
-        typeof(GenDocsCommand),
-        typeof(GenCardScriptsCommand),
-        typeof(GenEditionCommand),
-        typeof(GenBugsCommand),
         typeof(GenAllCommand),
         typeof(CardConjurerValidateCommand)
     ]
