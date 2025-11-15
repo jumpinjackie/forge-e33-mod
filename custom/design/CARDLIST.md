@@ -274,6 +274,7 @@ Repaint
 Revitalization
 Rip Apart Reality
 Robust Sakapatate
+Rock Throw
 Sastro, Gestral Guardian
 Sciel, Grieving for Many
 Sciel's Intervention
@@ -357,12 +358,6 @@ Since Grief is such a central theme in Expedition 33, having a card or cycle of 
 ## Quotes deserving of a card name + design
 
 So far, we've been compiling a list of tentative card names to make designs from, but this is the opposite approach where we have quotes that are so good or relevant, that they are begging for a card with it as its flavor text. Here's a bunch of quotes deserving of a card name + design.
-
-> Prologue
-> Maelle: Have you tried throwing with your other arm instead?
-
-Possible Name: Rock throw?
-Some kind of ping/shock/bolt spell.
 
 > Prologue
 > Gustave: We'll break the cycle. So she can't steal anyone else's future.
