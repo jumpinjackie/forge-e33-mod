@@ -1,6 +1,24 @@
 # Cards
 
-> Last generated: 14/11/2025 7:30:12 pm
+> Last generated: 15/11/2025 9:15:18 pm
+
+## Anger
+
+```
+3R
+
+
+---
+Verso: We only need to incapacitate him.
+Maelle: We'll find a way to kill him.
+```
+
+> This card is not yet implemented in Forge
+
+### Design Notes
+
+ - No in-game basis, but Grief is such a central theme of Expedition 33 that having a cycle dedicated to the 5 stages is a total flavor nuke.
+ - Since we've gone with a cycle of 5 stages and Anger's already taken, let's just reuse that reprint.
 
 ## Catapault Sakapatate
 

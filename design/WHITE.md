@@ -1,6 +1,28 @@
 # Cards
 
-> Last generated: 14/11/2025 7:30:12 pm
+> Last generated: 15/11/2025 9:15:18 pm
+
+## Acceptance
+
+```
+2WW
+Creature - Incarnation
+This creature enters with a shield counter on it.
+Any damage dealt to you is dealt to this creature instead.
+{2}{W}: Put a shield counter on this creature.
+---
+I'm FINE. I've lived 33 good years. Look around. We've had our whole lives to prepare. We'll be fine.
+- Sophie
+
+2/2
+```
+
+[card implementation](../custom/cards/a/acceptance.txt)
+
+### Design Notes
+
+ - No in-game basis, but Grief is such a central theme of Expedition 33 that having a cycle dedicated to the 5 stages is a total flavor nuke.
+ - I'm taking the word Acceptance literally (or is it figuratively?) and gone with a creature that "accepts" all damage that would've gone your way.
 
 ## Chroma Barrier
 

@@ -2,8 +2,8 @@
 
 The design of this set has several goals:
 
- 1. To mechanically and flavorfully capture and represent the lore, setting, characters and bestiary from the Expedition 33 video game.
- 2. All rules are enforceable through Forge to rapidly faciliate design/prototyping/playtesting.
+ 1. To mechanically and flavorfully capture and represent the lore, setting, events, characters and bestiary from the Expedition 33 video game.
+ 2. All rules are enforceable through Forge to rapidly faciliate design/prototyping/playtesting and helps keep us grounded in our card ideas.
  3. To be a self-contained draftable cube for up to 4 players. Additional players would require bringing in extra real basic lands and having to sleeve up the cards so that proxy cards and real basic lands can be safely mixed in.
  4. To be a self-contained card pool that can compose into at least 2 100-card commander decks.
  5. The cards can be played as-is without sleeves (as Richard Garfield intended), so the set will include enough basic lands and supporting cards in the "reprint sheet" to round out the set.
@@ -15,6 +15,8 @@ The design of this set has several goals:
 It is hoped that this entire set is printable through [makeplayingcards](https://www.makeplayingcards.com/), so as a result the design of the set is such that the required cards for the set, its tokens and "basic land" selection for supporting cube drafts and/or commander decks is enough to fit at or under the maximum 612 card deck size supported by MPC.
 
 All card images will be produced with CardConjurer.
+
+This also means we have to be grounded in the type of cards we want to make. We could conceivably make a double-sided saga enchantment creature, but it would be an absolute PITA to design in CardConjurer.
 
 It is envisioned that we have around 300 cards unique to this set with around 100-150 reprints to support the commander and limited scenarios along with 20-30 supporting tokens and the rest being basic lands.
 

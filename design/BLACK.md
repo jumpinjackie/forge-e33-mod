@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 14/11/2025 7:30:12 pm
+> Last generated: 15/11/2025 9:15:18 pm
 
 ## Chapelier
 
@@ -38,6 +38,26 @@ I have my pets in place "She who controls chroma, controls the Canvas." I can't 
 ### Design Notes
 
  - A Nevron tutor to support Nevron tribal strategies
+
+## Depression
+
+```
+2BB
+Creature - Incarnation
+Fear (This creature can’t be blocked except by artifact creatures and/or black creatures.)
+Whenever another creature becomes tapped, put a stun counter on it.
+---
+If you could grow old... Would you... find a reason to smile?
+
+2/2
+```
+
+[card implementation](../custom/cards/d/depression.txt)
+
+### Design Notes
+
+ - No in-game basis, but Grief is such a central theme of Expedition 33 that having a cycle dedicated to the 5 stages is a total flavor nuke.
+ - Depression is the fourth stage. I've gone with a souped up version of Melancholy.
 
 ## Echassier
 

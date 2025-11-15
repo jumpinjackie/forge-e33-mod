@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 14/11/2025 7:30:12 pm
+> Last generated: 15/11/2025 9:15:18 pm
 
 ## An Advantage!
 
@@ -169,6 +169,28 @@ When this creature dies, target opponent creates a Lumina token. (It's an artifa
  - 30/09/2025: Gave it a Skulking Ghost sac trigger to emphasize its weakness to targeted attacks (shots)
  - 13/10/2025: Removed Devoid.
  - 18/10/2025: Made the skulking ghost effect triggered by opponents
+
+## Denial
+
+```
+2UU
+Creature - Incarnation
+Flash
+Flying
+When this creature enters, counter target spell and draw a card.
+---
+No, no, you are HIS creations, not mine. You will not take this Canvas from me!
+- The Paintress
+
+2/2
+```
+
+[card implementation](../custom/cards/d/denial.txt)
+
+### Design Notes
+
+ - No in-game basis, but Grief is such a central theme of Expedition 33 that having a cycle dedicated to the 5 stages is a total flavor nuke.
+ - Denial is the first stage. Just on name-basis alone this is clearly a Mystic Snake like creature.
 
 ## Eternal Ice
 

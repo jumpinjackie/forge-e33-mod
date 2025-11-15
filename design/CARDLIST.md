@@ -29,7 +29,7 @@ From this list, card designs are spawned from it, which will eventually form the
 
 ## Card Name List
 
-Cards implemented: 227/299
+Cards implemented: 232/299
 
 [x] - Card is implemented or in development, [ ] - Card is not implemented
 
@@ -344,6 +344,7 @@ Denial, Anger, Bargaining, Depression, Acceptance
 Since Grief is such a central theme in Expedition 33, having a card or cycle of cards to model the 5 stages would be a 100% thermonuclear flavor bomb.
 
  * This would totally be a Saga, if we only had the textbox budget for it! Most sagas are 3 chapters. Although there are cards with more than 3 chapters, several of them repeat the same action, so it's hard to fit 5 unique chapters!
+ * A double-faced saga with 2/3 stages on one side and the rest on the other, with the other side being able to transform back (thus repeating the cycle) would also be a flavor win, but this looks to be an extreme PITA to design in CardConjurer.
  * An Elemental Incarnations cycle could work. Anger's already there. The other 4 could be other Elemental Incarnations to complete the cycle. However the names are so generic that they risk being name-squatted by wizards for a future set!
     * It can be part of the supplemental reprint/commander sheet as a way to excuse lore-mismatch.
     * Denial: Blue
@@ -363,11 +364,6 @@ So far, we've been compiling a list of tentative card names to make designs from
 > Gustave: We'll break the cycle. So she can't steal anyone else's future.
 
 No ideas yet.
-
-> Prologue
-> Sophie: I'm FINE. I've lived 33 good years. Look around. We've had our whole lives to prepare. We'll be fine.
-
-No ideas yet. Though if we do pull off the 5 stages of grief idea, this is certainly the flavor text for "Acceptance"
 
 > Prologue
 > Sophie: Sometimes I feel sorry for her.
@@ -421,13 +417,8 @@ No ideas yet.
 
 No ideas yet.
 
-> Act 2: Camp
-> Renoir: Sometimes, we paint the bars of our own prison. Your despair blinds you. You think you're ready to pay the price. But are you willing to let THEM pay the price for YOU?
-
-No ideas yet.
-
 > The Manor
-> Unknown: Art can be a Window and art can be a Mirror. And great art. Great art is both. Son, you'll never be a true artist if there's always a mask between you and the viewer, especiall when the viewer is you...
+> Unknown: Art can be a Window and art can be a Mirror. And great art. Great art is both. Son, you'll never be a true artist if there's always a mask between you and the viewer, especially when the viewer is you...
 
 No ideas yet.
 
