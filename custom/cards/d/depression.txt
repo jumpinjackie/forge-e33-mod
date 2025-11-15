@@ -1,0 +1,8 @@
+Name:Depression
+ManaCost:2 B B
+Types:Creature Incarnation
+PT:2/2
+K:Fear
+T:Mode$ Taps | ValidCard$ Creature.Other | Execute$ TrigStun | TriggerDescription$ Whenever another creature becomes tapped, put a stun counter on it.
+SVar:TrigStun:DB$ PutCounter | Defined$ TriggeredCard | CounterType$ Stun | CounterNum$ 1
+Oracle:Fear (This creature can’t be blocked except by artifact creatures and/or black creatures.)\nWhenever another creature becomes tapped, put a stun counter on it.

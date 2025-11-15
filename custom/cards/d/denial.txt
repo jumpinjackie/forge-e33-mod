@@ -1,0 +1,10 @@
+Name:Denial
+ManaCost:2 U U
+Types:Creature Incarnation
+PT:2/2
+K:Flash
+K:Flying
+T:Mode$ ChangesZone | ValidCard$ Card.Self | Origin$ Any | Destination$ Battlefield | Execute$ TrigCounter | TriggerDescription$ When CARDNAME enters, counter target spell and draw a card.
+SVar:TrigCounter:DB$ Counter | TargetType$ Spell | ValidTgts$ Card | TgtPrompt$ Select target spell | SubAbility$ TrigDraw
+SVar:TrigDraw:DB$ Draw | NumCards$ 1
+Oracle:Flash\nFlying\nWhen this creature enters, counter target spell and draw a card.

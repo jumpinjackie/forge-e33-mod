@@ -1,0 +1,9 @@
+Name:Acceptance
+ManaCost:2 W W
+Types:Creature Incarnation
+PT:2/2
+K:etbCounter:SHIELD:1
+R:Event$ DamageDone | ActiveZones$ Battlefield | ValidSource$ Any | ValidTarget$ You | ReplaceWith$ DmgSelf | DamageTarget$ Self | Description$ Any damage dealt to you is dealt to CARDNAME instead.
+SVar:DmgSelf:DB$ ReplaceEffect | VarName$ Affected | VarValue$ Self | VarType$ Card
+A:AB$ PutCounter | Cost$ 2 W | CounterType$ SHIELD | CounterNum$ 1 | SpellDescription$ Put a shield counter on CARDNAME.
+Oracle:This creature enters with a shield counter on it.\nAny damage dealt to you is dealt to this creature instead.\n{2}{W}: Put a shield counter on this creature.

@@ -6,6 +6,7 @@ Type=Custom
 
 [cards]
 $CARD_LIST$
+$REPRINT_LIST$
 
 [tokens]
 a_1_1_gestral

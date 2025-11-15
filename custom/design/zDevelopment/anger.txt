@@ -1,0 +1,17 @@
+[Name]
+Anger
+[ManaCost]
+3
+R
+[IsReprint]
+true
+[Rarity]
+U
+[Artist]
+Svetlin Velinov
+[FlavorText]
+Verso: We only need to incapacitate him.
+Maelle: We'll find a way to kill him.
+[DesignNotes]
+ - No in-game basis, but Grief is such a central theme of Expedition 33 that having a cycle dedicated to the 5 stages is a total flavor nuke.
+ - Since we've gone with a cycle of 5 stages and Anger's already taken, let's just reuse that reprint.

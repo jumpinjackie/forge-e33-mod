@@ -7,6 +7,8 @@ WB
 Instant
 [Rarity]
 U
+[Artist]
+Sandfall Interactive
 [Oracle]
 Exile all graveyards.
 Draw a card.
