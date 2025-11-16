@@ -19,6 +19,8 @@ K:ETBReplacement:Copy:DBCopy:Optional
 SVar:DBCopy:DB$ Clone | Choices$ Land.Other | IntoPlayTapped$ True | AddTriggers$ VesDopUpkeepTrig | AddSVars$ VesDopCopy,VesDopUpkeepTrig | SpellDescription$ You may have this land enter as a copy of any land on the battlefield, except it has "At the beginning of your upkeep, you may have this land become a copy of target land, and it has this ability."
 SVar:VesDopUpkeepTrig:Mode$ Phase | Phase$ Upkeep | ValidPlayer$ You | TriggerZones$ Battlefield | Execute$ VesDopCopy | TriggerDescription$ At the beginning of your upkeep, you may have this land become a copy of target land, and it has this ability.
 SVar:VesDopCopy:DB$ Clone | ValidTgts$ Land | TgtPrompt$ Select land to copy. | Optional$ True | GainThisAbility$ True | AddSVars$ VesDopCopy
+[Bugs]
+ - The copy trigger doubles up if you happen to target itself with the copy ability. I copied this implementation from Vesuvan Doppelganger. Does it have the same problem?
 [DesignNotes]
  - In the game, the interior of The Monolith contains twisted variations of locations visited by Expedition 33
  - Basically a Vesuvan Doppelganger for lands. Meant to mechanically capture the memories of places visited by Expedition 33
