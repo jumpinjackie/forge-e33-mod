@@ -37,17 +37,20 @@ From this list, card designs are spawned from it, which will eventually form the
 A Storm is Coming
 Abbest
 Aberration
+Acceptance
 Alicia Dessendre, Silenced by Fire
 Alicia's Birthday Party
 Aline Dessendre, Stricken by Grief
 All Set
 An Advantage!
 Ancient Sanctuary
+Anger
 Anti-Burn Picto
 Anti-Freeze Picto
 Attack Lifesteal Picto
 Attack Picto
 Ballet
+Bargaining
 Barrier Breaker
 Benisseur
 Berrami, Collector of Journals
@@ -92,6 +95,8 @@ Dark Shores
 Death Picto
 Degagement
 Demineur
+Denial
+Depression
 Dessendre Family Portrait
 Dominique Giant Feet
 Dorrie
@@ -334,27 +339,6 @@ Whee // Whoo
 When One Falls // We Continue
 Yellow Harvest
 ```
-
-## Concepts deserving of a card name + design
-
-### The five stages of Grief
-
-Denial, Anger, Bargaining, Depression, Acceptance
-
-Since Grief is such a central theme in Expedition 33, having a card or cycle of cards to model the 5 stages would be a 100% thermonuclear flavor bomb.
-
- * This would totally be a Saga, if we only had the textbox budget for it! Most sagas are 3 chapters. Although there are cards with more than 3 chapters, several of them repeat the same action, so it's hard to fit 5 unique chapters!
- * A double-faced saga with 2/3 stages on one side and the rest on the other, with the other side being able to transform back (thus repeating the cycle) would also be a flavor win, but this looks to be an extreme PITA to design in CardConjurer.
- * An Elemental Incarnations cycle could work. Anger's already there. The other 4 could be other Elemental Incarnations to complete the cycle. However the names are so generic that they risk being name-squatted by wizards for a future set!
-    * It can be part of the supplemental reprint/commander sheet as a way to excuse lore-mismatch.
-    * Denial: Blue
-    * Anger: Red
-    * Bargaining: Green (this would be the most tonally-mismatched just by name, but there's no other color!)
-    * Depression: Black
-    * Acceptance: White
-    * Flavor text is easy too, because there is 99% certainty that there will already be a relevant quote in the game that pertains to each stage.
- * A fringe idea that would only work if Forge was flexible enough is a variant of The Initiative, but except of venturing into the Undercity, you venture through a new linear dungeon called the "Five Stages of Grief". Thus you would have a whole bunch of cards that either venture into the dungeon or take control of the dungeon venturing emblem.
- * Or another idea (again dependent on if Forge was flexble enough) is a variant of The Ring Tempts You. Each stage of grief is part of a stack of 5 abilities. Every time you grieve you gain an extra ability. For this to work, you would need someone designated as Grieving (ie. The ringbearer under this analogy).
 
 ## Quotes deserving of a card name + design
 
