@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 15/11/2025 9:47:39 pm
+> Last generated: 16/11/2025 2:29:38 pm
 
 ## A Storm is Coming
 
@@ -868,6 +868,7 @@ Human and Gradient spells you cast cost {1} less to cast.
       - Virtuose Stance: Double Strike and +1/-1
    - How the stance is chosen is determined by something that's on flavor for any red card: Randomness by a six-sided die roll.
  - 3/11/2025: Abilities changed due to CardConjurer constraints. Removed single human reanimation ability. The 2 expeditioner generation ability moved to +1 loyalty. Cost discount expanded to cover Gradient spells too.
+ - Hybrid mana pip is used where the color identity pip is because this particular planeswalker frame does not support color identity pips for some reason.
 
 ## Manor Entrance // Manor Hidden Room
 
