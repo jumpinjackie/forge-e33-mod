@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 16/11/2025 2:29:38 pm
+> Last generated: 16/11/2025 3:13:26 pm
 
 ## A Storm is Coming
 
@@ -1304,7 +1304,7 @@ Fuse (You may cast one or both halves of this card from your hand.)
 ## Troubador
 
 ```
-2(R/G)
+1RG
 Creature - Nevron
 Applies powerful to allies — Other nevrons you control get +1/+1.
 Applies rush to allies — Nevrons you control have haste.
@@ -1321,6 +1321,7 @@ When this creature dies, target opponent creates a Lumina token. (It's an artifa
  - Mechanically, I've mapped this to a basic nevron lord buff effect.
  - 21/10/2025: Added lord haste effect to match its character sheet.
  - 26/10/2025: Made it red/green in line with the buffs it gives out.
+ - 17/11/2025: Changed mana cost from 2(R/G) to 1RG
 
 ## Verso, Who Guards Truth With Lies
 

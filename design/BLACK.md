@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 16/11/2025 2:29:38 pm
+> Last generated: 16/11/2025 3:13:26 pm
 
 ## Chapelier
 
@@ -288,7 +288,7 @@ Sophie: I know. I know.
 ```
 2B
 Creature - Human Nevron Citizen
-You may have this creature enter as a copy of any nonlegendary Expeditioner creature on the battlefield, except it is black and is a Human Nevron Citizen in addition to its other types
+You may have this creature enter as a copy of any nonlegendary Expeditioner creature on the battlefield, except it is black and is a Human Nevron Citizen in addition to its other types.
 
 0/0
 ```

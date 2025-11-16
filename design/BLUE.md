@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 16/11/2025 2:29:38 pm
+> Last generated: 16/11/2025 3:13:26 pm
 
 ## An Advantage!
 
@@ -507,7 +507,7 @@ If {G} was spent on this spell, you gain 2 life for each creature on the battlef
 Kindred Instant - Expeditioner
 This spell costs {1} less to cast if you control an Expeditioner.
 Counter target spell.
-Create a Lumina token.
+Create a Lumina token. (It's an artifact with "{T}, Sacrifice this artifact: Scry 1.")
 ```
 
 [card implementation](../custom/cards/s/swift_counter.txt)

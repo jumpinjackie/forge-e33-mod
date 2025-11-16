@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 16/11/2025 2:29:38 pm
+> Last generated: 16/11/2025 3:13:26 pm
 
 ## Anti-Burn Picto
 

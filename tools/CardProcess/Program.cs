@@ -1222,7 +1222,7 @@ public class CardConjurerValidateCommand : BaseCommand
 
             // Find matching CardConjurer design
             var ccDesign = conf.RootElement.EnumerateArray()
-                .FirstOrDefault(el => el.GetProperty("key").GetString() == cardName);
+                .FirstOrDefault(el => NormalizeToAscii(el.GetProperty("key").GetString()) == cardName);
 
             if (ccDesign.ValueKind == System.Text.Json.JsonValueKind.Undefined)
             {

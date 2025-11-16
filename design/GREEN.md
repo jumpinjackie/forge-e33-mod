@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 16/11/2025 2:29:38 pm
+> Last generated: 16/11/2025 3:13:26 pm
 
 ## Abbest
 
@@ -316,7 +316,7 @@ Have you tried throwing with your other arm instead? If you could hit the Paintr
 ```
 G
 Creature - Nevron
-Flying.
+Flying
 When this creature becomes the target of a spell or ability an opponent controls, sacrifice it.
 When this creature dies, target opponent creates a Lumina token. (It's an artifact with "{T}, Sacrifice this artifact: Scry 1.")
 
