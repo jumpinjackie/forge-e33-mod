@@ -1,5 +1,5 @@
 Name:Troubador
-ManaCost:2 RG
+ManaCost:1 R G
 Types:Creature Nevron
 PT:2/2
 S:Mode$ Continuous | Affected$ Creature.Nevron+Other+YouCtrl | AddPower$ 1 | AddToughness$ 1 | Description$ Other Nevron creatures you control get +1/+1.

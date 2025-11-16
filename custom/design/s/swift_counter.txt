@@ -15,7 +15,7 @@ Sandfall Interactive
 [Oracle]
 This spell costs {1} less to cast if you control an Expeditioner.
 Counter target spell.
-Create a Lumina token.
+Create a Lumina token. $LUMINA_REMINDER_TEXT
 [ForgeScript]
 S:Mode$ ReduceCost | ValidCard$ Card.Self | Type$ Spell | Amount$ 1 | EffectZone$ All | IsPresent$ Expeditioner.YouCtrl | Description$ This spell costs {1} less to cast if you control an Expeditioner.
 A:SP$ Counter | TargetType$ Spell | ValidTgts$ Card | SubAbility$ DBToken | SpellDescription$ Counter target spell.

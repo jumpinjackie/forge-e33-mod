@@ -17,7 +17,7 @@ Sandfall Interactive
 [ArtNotes]
 A twisted version of a citizen of Lumiere
 [Oracle]
-You may have ~ enter as a copy of any nonlegendary Expeditioner creature on the battlefield, except it is black and is a Human Nevron Citizen in addition to its other types
+You may have ~ enter as a copy of any nonlegendary Expeditioner creature on the battlefield, except it is black and is a Human Nevron Citizen in addition to its other types.
 [ForgeScript]
 K:ETBReplacement:Copy:DBCopy:Optional
 SVar:DBCopy:DB$ Clone | Choices$ Creature.Expeditioner+nonLegendary | AddTypes$ Human & Nevron & Citizen | SetColor$ Black | AddSVars$ TrigToken | SpellDescription$ You may have ~ enter as a copy of any nonlegendary Expeditioner creature on the battlefield, except it is black and is a Human Nevron Citizen in addition to its other types

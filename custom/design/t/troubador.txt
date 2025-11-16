@@ -1,8 +1,9 @@
 [Name]
 Troubador
 [ManaCost]
-2
-RG
+1
+R
+G
 [Types]
 Creature
 Nevron
@@ -28,3 +29,4 @@ $NEVRON_DEATH_ABILITY
  - Mechanically, I've mapped this to a basic nevron lord buff effect.
  - 21/10/2025: Added lord haste effect to match its character sheet.
  - 26/10/2025: Made it red/green in line with the buffs it gives out.
+ - 17/11/2025: Changed mana cost from 2(R/G) to 1RG
