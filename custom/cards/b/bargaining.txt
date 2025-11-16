@@ -1,7 +1,7 @@
 Name:Bargaining
 ManaCost:3 G G
 Types:Creature Incarnation
-PT:4/4
+PT:4/5
 K:Trample
 A:AB$ Draw | Cost$ Sac<1/Creature> | NumCards$ X | SubAbility$ DBDiscard | SpellDescription$ Draw cards equal to the sacrificed creature's power, then discard three cards.
 SVar:DBDiscard:DB$ Discard | NumCards$ 3 | Mode$ TgtChoose

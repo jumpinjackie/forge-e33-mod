@@ -12,7 +12,7 @@ R
 [Artist]
 Sandfall Interactive
 [PT]
-4/4
+4/5
 [Oracle]
 Trample
 Sacrifice a creature: Draw cards equal to the sacrificed creature’s power, then discard three cards.
@@ -28,3 +28,4 @@ SVar:NonStackingEffect:True
 [DesignNotes]
  - No in-game basis, but Grief is such a central theme of Expedition 33 that having a cycle dedicated to the 5 stages is a total flavor nuke.
  - Bargaining is the third stage. On name-basis alone you would think this is easily a black creature with "life for cards" motif, but it is actually green because this is the color that has the hardest time thematically associating to any of the 5 stages. Bargaining has some thematic leeway with green if you try to view it through a "Greater Good" kind of lens and thus I went with a creature variation of Greater Good.
+ - 17/11/2025: Changed PT from 4/4 to 4/5
