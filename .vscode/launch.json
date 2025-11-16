@@ -17,6 +17,21 @@
             "cwd": "${workspaceFolder}/tools/CardProcess",
             "console": "internalConsole",
             "stopAtEntry": false
+        },
+        {
+            "name": "Debug CardProcess cardconjurer",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceFolder}/tools/CardProcess/bin/Debug/net9.0/CardProcess.dll",
+            "args": [
+                "cardconjurer",
+                "--base-directory",
+                "${workspaceFolder}/custom"
+            ],
+            "cwd": "${workspaceFolder}/tools/CardProcess",
+            "console": "internalConsole",
+            "stopAtEntry": false
         }
     ]
 }
