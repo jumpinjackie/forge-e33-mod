@@ -6261,7 +6261,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Kicker {2}.\nDestroy target artifact or enchantment with mana value 2 lor less.\nIf this spell was kicked, destroy that artifact or enchantment if its mana value is 5 or less instead.",
+                    "text": "Kicker {2}.\nDestroy target artifact or enchantment with mana value 2 lor less.\nIf this spell was kicked, destroy that artifact or enchantment if its mana value is 5 or less instead.{flavor}Some rules can be bent, some can be broken.",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
@@ -14805,7 +14805,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Fear (This creature can’t be blocked except by artifact creatures and/or black creatures.)\nAs long as this card is in your graveyard, whenever a creature your opponent controls becomes tapped, put a stun counter on it.{flavor}If you could grow old... Would you... find a reason to smile?",
+                    "text": "Fear (This creature can’t be blocked except by artifact creatures and/or black creatures.)\nWhenever another creature becomes tapped, put a stun counter on it.{flavor}If you could grow old... Would you... find a reason to smile?",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
@@ -32451,7 +32451,7 @@
                     ]
                 }
             ],
-            "artSource": "https://corsproxy.io/?url=https%3A%2F%2Fjumpinjackie.github.io%2Fe33-reference-art%2Fimages%2Fnoart.png%",
+            "artSource": "https://corsproxy.io/?url=https%3A%2F%2Fjumpinjackie.github.io%2Fe33-reference-art%2Fimages%2Fnoart.png",
             "artX": 0.07711442786069651,
             "artY": 0.1023454157782516,
             "artZoom": 3.492,
@@ -34004,13 +34004,13 @@
                     ]
                 }
             ],
-            "artSource": "https://corsproxy.io/?url=https%3A%2F%2Fjumpinjackie.github.io%2Fe33-reference-art%2Fimages%2Fnoart.png%",
+            "artSource": "https://corsproxy.io/?url=https%3A%2F%2Fjumpinjackie.github.io%2Fe33-reference-art%2Fimages%2Fnoart.png",
             "artX": 0.07711442786069651,
             "artY": 0.1023454157782516,
             "artZoom": 3.492,
             "artRotate": "0",
             "setSymbolSource": "https://cardconjurer.app/img/setSymbols/official/pz1-u.svg",
-            "setSymbolX": 0.8756218905472637,
+            "setSymbolX": 0.8706467661691543,
             "setSymbolY": 0.5707178393745558,
             "setSymbolZoom": 0.34700000000000003,
             "watermarkSource": "https://cardconjurer.app/img/blank.png",
@@ -34020,7 +34020,7 @@
             "watermarkLeft": "#b79d58",
             "watermarkRight": "none",
             "watermarkOpacity": 0.4,
-            "version": "ubRegular",
+            "version": "m15Regular",
             "manaSymbols": [],
             "infoYear": "2025",
             "margins": true,
@@ -34134,7 +34134,7 @@
                 "height": 0.4429
             },
             "setSymbolBounds": {
-                "x": 0.9263681592039801,
+                "x": 0.9213,
                 "y": 0.591,
                 "width": 0.12,
                 "height": 0.041,
@@ -34151,11 +34151,11 @@
                 "mana": {
                     "name": "Mana Cost",
                     "text": "5",
-                    "y": 0.06254442075337598,
-                    "width": 0.9273631840796019,
+                    "y": 0.0613,
+                    "width": 0.9292,
                     "height": 0.03380952380952381,
                     "oneLine": true,
-                    "size": 0.04304029304029304,
+                    "size": 0.043345543345543344,
                     "align": "right",
                     "shadowX": -0.001,
                     "shadowY": 0.0029,
@@ -34165,8 +34165,8 @@
                 "title": {
                     "name": "Title",
                     "text": "Gestral Ringleader",
-                    "x": 0.08358208955223881,
-                    "y": 0.05152807391613362,
+                    "x": 0.0854,
+                    "y": 0.0522,
                     "width": 0.8292,
                     "height": 0.0543,
                     "oneLine": true,
@@ -34176,8 +34176,8 @@
                 "type": {
                     "name": "Type",
                     "text": "Artifact Creature - Gestral",
-                    "x": 0.08358208955223881,
-                    "y": 0.5643212508884151,
+                    "x": 0.0854,
+                    "y": 0.5664,
                     "width": 0.8292,
                     "height": 0.0543,
                     "oneLine": true,
@@ -34188,9 +34188,9 @@
                     "name": "Rules Text",
                     "text": "Haste (This creature can attack and {T} as soon as it comes under your control.)\nWhen this creature enters, reveal the top four cards of your library. Put all Gestral cards revealed this way into your hand and the rest on the bottom of your library in any order.",
                     "x": 0.086,
-                    "y": 0.6325515280739161,
+                    "y": 0.6303,
                     "width": 0.828,
-                    "height": 0.26474769012082444,
+                    "height": 0.26616915422885573,
                     "size": 0.0362
                 },
                 "pt": {
@@ -34855,7 +34855,7 @@
                     ]
                 }
             ],
-            "artSource": "https://corsproxy.io/?url=https%3A%2F%2Fjumpinjackie.github.io%2Fe33-reference-art%2Fimages%2Fnoart.png%",
+            "artSource": "https://corsproxy.io/?url=https%3A%2F%2Fjumpinjackie.github.io%2Fe33-reference-art%2Fimages%2Fnoart.png",
             "artX": 0.07711442786069651,
             "artY": 0.1023454157782516,
             "artZoom": 3.492,
@@ -35762,7 +35762,7 @@
                     ]
                 }
             ],
-            "artSource": "https://corsproxy.io/?url=https%3A%2F%2Fjumpinjackie.github.io%2Fe33-reference-art%2Fimages%2Fnoart.png%",
+            "artSource": "https://corsproxy.io/?url=https%3A%2F%2Fjumpinjackie.github.io%2Fe33-reference-art%2Fimages%2Fnoart.png",
             "artX": 0.07711442786069651,
             "artY": 0.1023454157782516,
             "artZoom": 3.492,
@@ -37654,7 +37654,7 @@
                     ]
                 }
             ],
-            "artSource": "https://corsproxy.io/?url=https%3A%2F%2Fjumpinjackie.github.io%2Fe33-reference-art%2Fimages%2Fnoart.png%d",
+            "artSource": "https://corsproxy.io/?url=https%3A%2F%2Fjumpinjackie.github.io%2Fe33-reference-art%2Fimages%2Fnoart.png",
             "artX": 0.07711442786069651,
             "artY": 0.1023454157782516,
             "artZoom": 3.492,
@@ -39503,10 +39503,10 @@
                     ]
                 }
             ],
-            "artSource": "https://corsproxy.io/?url=https%3A%2F%2Fjumpinjackie.github.io%2Fe33-reference-art%2Fimages%2Fnoart.png",
-            "artX": 0.07661691542288557,
-            "artY": 0.1023454157782516,
-            "artZoom": 3.492,
+            "artSource": "https://corsproxy.io/?url=https%3A%2F%2Fjumpinjackie.github.io%2Fe33-reference-art%2Fimages%2Fcards%2Fgustaves_insight.png%3Fab",
+            "artX": -0.03134328358208955,
+            "artY": 0.11300639658848614,
+            "artZoom": 2.674,
             "artRotate": "0",
             "setSymbolSource": "https://cardconjurer.app/img/setSymbols/official/pz1-u.svg",
             "setSymbolX": 0.8756218905472637,
