@@ -49,6 +49,7 @@ Renoir
 [DesignNotes]
  - In the game, The Curator is an ally to Expedition 33, until Act 3 where he is revealed to be the real Renoir.
  - Abilities drawn from various abilities he offers at camp.
-    - Latent skill activation is a nod to him "helping" Maelle gommage painted Renoir at the conclusion of his boss battle near the end of Act 2. Destory instead of exile because her full painter powers are not yet fully unlocked.
+   - Latent skill activation is a nod to him "helping" Maelle gommage painted Renoir at the conclusion of his boss battle near the end of Act 2. Destroy instead of exile because her full painter powers are not yet fully unlocked.
  - As much as I personally despise double-faced cards (because of logistics around limited and sleeves, requiring paper hacks like checklist cards), flavorfully this has to be a creature that transforms to his Planeswalker half.
+   - If we ever print this, it will be printed over 2 cards and not as a double-faced one.
  - Is a Painter Spirit instead of Painter God because The Curator is Renoir's *ethereal* form that allows him to escape his prison at the bottom of the Monolith.

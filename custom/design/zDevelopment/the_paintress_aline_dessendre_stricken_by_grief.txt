@@ -51,6 +51,7 @@ Aline
 [DesignNotes]
  - In the game, The Paintress is the main antagonist, until the conclusion of Act 2, when you discover she is not.
  - Abilities drawn from the various moves she has in her boss battle. Because 2 of these 3 abilities already exist as separate cards, we've gone with slight tweaks/variations for the abilities here.
-    - Void Meteors: Only deals 3 damage and can only target creatures.
-    - Rips apart reality: Phases out permanents instead of putting it on top/bottom of owner's library.
+   - Void Meteors: Only deals 3 damage and can only target creatures.
+   - Rips apart reality: Phases out permanents instead of putting it on top/bottom of owner's library.
  - As much as I personally despise double-faced cards (because of logistics around limited and sleeves, requiring paper hacks like checklist cards), flavorfully this has to be a creature that transforms to her Planeswalker half.
+   - If we ever print this, it will be printed over 2 cards and not as a double-faced one.
