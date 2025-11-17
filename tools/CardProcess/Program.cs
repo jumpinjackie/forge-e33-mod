@@ -746,7 +746,7 @@ public class CardMasterDesign(string designFile)
         }
     }
 
-    public IEnumerable<string> AllDesignNotes => [.. FrontFull?.DesignNotes ?? [], .. SplitLeft?.DesignNotes ?? [], .. SplitRight?.DesignNotes ?? [], .. MeldTarget?.DesignNotes ?? []];
+    public IEnumerable<string> AllDesignNotes => [.. FrontFull?.DesignNotes ?? [], .. SplitLeft?.DesignNotes ?? [], .. SplitRight?.DesignNotes ?? [], .. MeldTarget?.DesignNotes ?? [], .. BackFull?.DesignNotes ?? []];
 
     internal async Task WriteDocAsync(string baseDir, StreamWriter writer, TextWriter stdout, TextWriter stderr)
     {
@@ -830,6 +830,7 @@ public class CardMasterDesign(string designFile)
                 }
                 break;
             case CardFaceType.Meld:
+            case CardFaceType.DoubleFaced:
                 {
                     await writer.WriteLineAsync("```");
                     if (FrontFull?.ManaCost is not null)
@@ -843,22 +844,40 @@ public class CardMasterDesign(string designFile)
                     }
                     await writer.WriteLineAsync("```");
                     await writer.WriteLineAsync();
-                    await writer.WriteLineAsync("Melds into:");
+                    if (this.FaceType == CardFaceType.Meld)
+                        await writer.WriteLineAsync("Melds into:");
+                    else if (this.FaceType == CardFaceType.DoubleFaced)
+                        await writer.WriteLineAsync("Transforms into:");
                     await writer.WriteLineAsync();
                     await writer.WriteLineAsync("```");
-                    if (MeldTarget?.ManaCost is not null)
-                        await writer.WriteLineAsync(MeldTarget.FormatManaCost());
-                    await writer.WriteLineAsync(MeldTarget.TypeLine);
-                    await writer.WriteLineAsync(MeldTarget.GetOracleText());
-                    if (MeldTarget.PT is not null)
+                    if (this.FaceType == CardFaceType.Meld)
+                    {
+                        if (MeldTarget?.ManaCost is not null)
+                            await writer.WriteLineAsync(MeldTarget.FormatManaCost());
+                        await writer.WriteLineAsync(MeldTarget.TypeLine);
+                        await writer.WriteLineAsync(MeldTarget.GetOracleText());
+                    }
+                    else if (this.FaceType == CardFaceType.DoubleFaced)
+                    {
+                        if (BackFull?.ManaCost is not null)
+                            await writer.WriteLineAsync(BackFull.FormatManaCost());
+                        await writer.WriteLineAsync(BackFull.TypeLine);
+                        await writer.WriteLineAsync(BackFull.GetOracleText());
+                    }
+                    if (this.FaceType == CardFaceType.Meld && MeldTarget.PT is not null)
                     {
                         await writer.WriteLineAsync();
                         await writer.WriteLineAsync(MeldTarget.PT);
                     }
+                    else if (this.FaceType == CardFaceType.DoubleFaced && BackFull?.PT is not null)
+                    {
+                        await writer.WriteLineAsync();
+                        await writer.WriteLineAsync(BackFull.PT);
+                    }
                     await writer.WriteLineAsync("```");
 
                     await writer.WriteLineAsync();
-                    if (FrontFull?.ForgeScript is null || MeldTarget?.ForgeScript is null)
+                    if (FrontFull?.ForgeScript is null || (this.FaceType == CardFaceType.Meld && MeldTarget?.ForgeScript is null) || (this.FaceType == CardFaceType.DoubleFaced && BackFull?.ForgeScript is null))
                         await writer.WriteLineAsync("> This card is not yet implemented in Forge");
                     else
                         await writer.WriteLineAsync($"[card implementation]({normBaseDir}/{firstLetter}/{scriptName})");
