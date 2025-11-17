@@ -1,0 +1,18 @@
+Name:The Paintress
+ManaCost:W U R G
+Types:Legendary Creature Painter God
+PT:6/6
+T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Card.Self | Execute$ TrigReturn | TriggerDescription$ When CARDNAME dies, return it to the battlefield transformed under its owner's control.
+SVar:TrigReturn:DB$ ChangeZone | Origin$ Graveyard | Defined$ TriggeredNewCardLKICopy | Destination$ Battlefield | Transformed$ True
+AlternateMode:DoubleFaced
+Oracle:Void Meteors — {2}{R}, {T}: The Paintress deals 3 damage divided as you choose among any number of target creatures.\nRips apart reality — {2}{U}, {T}: Up to two target nonland permanents phase out.\nHeals an Expeditioner — {W}{G}, {T}: You gain 1 life for each Expeditioner you control.\nWhen The Paintress dies, return it to the battlefield transformed under it's owner's control.
+
+ALTERNATE
+
+Name:Aline Dessendre, Stricken by Grief
+ManaCost:no cost
+Colors:white black
+Types:Legendary Planeswalker Aline
+Loyalty:5
+
+Oracle:[+2]: TBD\n[-4]: TBD\n[-10]: TBD

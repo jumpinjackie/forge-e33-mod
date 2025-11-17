@@ -1,0 +1,20 @@
+Name:The Curator
+ManaCost:2 W U B
+Types:Legendary Creature Painter Spirit
+PT:4/5
+T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Card.Self | Execute$ TrigReturn | TriggerDescription$ When CARDNAME dies, return it to the battlefield transformed under its owner's control.
+SVar:TrigReturn:DB$ ChangeZone | Origin$ Graveyard | Defined$ TriggeredNewCardLKICopy | Destination$ Battlefield | Transformed$ True
+AlternateMode:DoubleFaced
+Oracle:Picto Reinforcement — {2}{U}, {T}: Create two Lumina tokens.\nUpgrades your weapons — {2}{W}, {T}: Distribute two +1/+1 counters among one or two target creatures.\nLatent skill activation — {3}{B}, {T}, Exert an Expeditioner: Destroy target creature.\nWhen The Curator dies, return it to the battlefield transformed under it’s owner’s control.
+
+ALTERNATE
+
+Name:Renoir, Dessendre Patriarch
+ManaCost:no cost
+Colors:black
+Types:Legendary Planeswalker Renoir
+Loyalty:5
+T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Card.Self | Execute$ TrigReturn | TriggerDescription$ When CARDNAME dies, return it to the battlefield transformed under its owner's control.
+SVar:TrigReturn:DB$ ChangeZone | Origin$ Graveyard | Defined$ TriggeredNewCardLKICopy | Destination$ Battlefield | Transformed$ True
+AlternateMode:DoubleFaced
+Oracle:[+2]: TBD\n[-4]: TBD\n[-10]: TBD

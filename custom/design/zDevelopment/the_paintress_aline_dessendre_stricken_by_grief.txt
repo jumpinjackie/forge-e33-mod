@@ -1,0 +1,56 @@
+[Name]
+The Paintress
+[ManaCost]
+W
+U
+R
+G
+[Types]
+Legendary
+Creature
+Painter
+God
+[Rarity]
+M
+[PT]
+6/6
+[Oracle]
+Void Meteors — {2}{R}, {T}: ~ deals 3 damage divided as you choose among any number of target creatures.
+Rips apart reality — {2}{U}, {T}: Up to two target nonland permanents phase out.
+Heals an Expeditioner — {W}{G}, {T}: You gain 1 life for each Expeditioner you control.
+When ~ dies, return it to the battlefield transformed under it's owner's control.
+[AbilityWords]
+Void Meteors
+Rips apart reality
+Heals an Expeditioner
+[Artist]
+Sandfall Interactive
+[ForgeScript]
+T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Card.Self | Execute$ TrigReturn | TriggerDescription$ When CARDNAME dies, return it to the battlefield transformed under its owner's control.
+SVar:TrigReturn:DB$ ChangeZone | Origin$ Graveyard | Defined$ TriggeredNewCardLKICopy | Destination$ Battlefield | Transformed$ True
+AlternateMode:DoubleFaced
+ALTERNATE:DFC
+[Name]
+Aline Dessendre, Stricken by Grief
+[ManaCost]
+no cost
+[ColorIdentity]
+white
+black
+[Types]
+Legendary
+Planeswalker
+Aline
+[Loyalty]
+5
+[Oracle]
+[+2]: TBD
+[-4]: TBD
+[-10]: TBD
+[ForgeScript]
+[DesignNotes]
+ - In the game, The Paintress is the main antagonist, until the conclusion of Act 2, when you discover she is not.
+ - Abilities drawn from the various moves she has in her boss battle. Because 2 of these 3 abilities already exist as separate cards, we've gone with slight tweaks/variations for the abilities here.
+    - Void Meteors: Only deals 3 damage and can only target creatures.
+    - Rips apart reality: Phases out permanents instead of putting it on top/bottom of owner's library.
+ - As much as I personally despise double-faced cards (because of logistics around limited and sleeves, requiring paper hacks like checklist cards), flavorfully this has to be a creature that transforms to her Planeswalker half.
