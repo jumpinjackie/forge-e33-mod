@@ -1,0 +1,24 @@
+[Name]
+Chromatic Rebirth
+[ManaCost]
+2
+W
+B
+[Types]
+Sorcery
+Gradient
+[Rarity]
+R
+[Oracle]
+This spell costs {1} less to cast if you control a painter.
+As an additional cost to cast this spell, sacrifice a creature.
+Put target creature card from a graveyard onto the battlefield under your control.
+[FlavorText]
+Well. You're about to be reborn in this world as one of Aline's creations. Have fun.
+- Clea
+[ForgeScript]
+S:Mode$ ReduceCost | ValidCard$ Card.Self | Type$ Spell | Amount$ 1 | EffectZone$ All | IsPresent$ Painter.YouCtrl | Description$ This spell costs {1} less to cast if you control a painter.
+A:SP$ ChangeZone | Cost$ 2 W B Sac<1/Creature> | Origin$ Graveyard | Destination$ Battlefield | GainControl$ True | TgtPrompt$ Choose target creature card in a graveyard | ValidTgts$ Creature | ChangeNum$ 1 | SpellDescription$ Put target creature card from a graveyard onto the battlefield under your control.
+[DesignNotes]
+ - In the game, Alicia enters the Canvas to help Renoir only to be trapped by Aline's chroma and is "reborn" as Maelle.
+ - Card depicts this moment. 
