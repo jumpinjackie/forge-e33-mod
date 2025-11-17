@@ -84,3 +84,4 @@ A:AB$ ChangeZoneAll | Cost$ SubCounter<8/LOYALTY> | Planeswalker$ True | ChangeT
    - How the stance is chosen is determined by something that's on flavor for any red card: Randomness by a six-sided die roll.
  - 3/11/2025: Abilities changed due to CardConjurer constraints. Removed single human reanimation ability. The 2 expeditioner generation ability moved to +1 loyalty. Cost discount expanded to cover Gradient spells too.
  - Hybrid mana pip is used where the color identity pip is because this particular planeswalker frame does not support color identity pips for some reason.
+ - 17/11/2025: Remove hybrid mana pip and replaced with color identity pip as I figured out how to place it in CardConjurer

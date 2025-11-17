@@ -4,6 +4,7 @@ Surcease
 B
 [Types]
 Instant
+Gradient
 [Rarity]
 U
 [Oracle]

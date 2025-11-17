@@ -1,6 +1,6 @@
 Name:Surcease
 ManaCost:B
-Types:Instant
+Types:Instant Gradient
 A:SP$ Destroy | ValidTgts$ Creature | AITgts$ Creature.cmcLEX | ConditionDefined$ Targeted | ConditionPresent$ Creature.cmcLEX | ConditionCompare$ EQ1 | SpellDescription$ Destroy target creature if it has mana value 2 or less. If you control a painter, Destroy target creature if it has mana value 4 or less instead.
 SVar:Y:Count$Valid Painter.YouCtrl
 SVar:X:Count$Compare Y GE1.4.2
