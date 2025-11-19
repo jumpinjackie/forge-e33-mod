@@ -29,7 +29,7 @@ From this list, card designs are spawned from it, which will eventually form the
 
 ## Card Name List
 
-Cards implemented: 232/304
+Cards implemented: 236/304
 
 [x] - Card is implemented or in development, [ ] - Card is not implemented
 
@@ -259,7 +259,7 @@ Cards implemented: 232/304
 [x] Painted Alicia, Eternally Suffering
 [x] Painted Clea, the Mistress
 [ ] Painted Love
-[ ] Painted Renoir, Aline's Enforcer
+[x] Painted Renoir, Aline's Enforcer
 [ ] Payback
 [ ] Percee
 [x] Perfect Dodge

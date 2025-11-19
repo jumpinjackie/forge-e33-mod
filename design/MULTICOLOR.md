@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 16/11/2025 3:13:26 pm
+> Last generated: 19/11/2025 8:49:55 am
 
 ## A Storm is Coming
 
@@ -201,6 +201,26 @@ The expeditioners, the ones killed by Nevrons. Gustave noticed their Chroma rema
  - I orignally wanted this to turn into a "do nothing" artifact, but I think the "Enchant creature" restriction means this is a nonbo and the aura immediately "falls off". Will revisit later with "Enchant permanent" to see if this gives my desired result.
     - Until then, I've gone with a 0/1 artifact creature.
     - 23/09/2025: Now enchanting permanents so we can achieve the "inert artifact" effect. A slight flavor loss since this can now target more than just creatures, but I am more after the petrification effect than it needing to only target creatures
+
+## Chromatic Rebirth
+
+```
+2WB
+Sorcery - Gradient
+This spell costs {1} less to cast if you control a painter.
+As an additional cost to cast this spell, sacrifice a creature.
+Put target creature card from a graveyard onto the battlefield under your control.
+---
+Well. You're about to be reborn in this world as one of Aline's creations. Have fun.
+- Clea
+```
+
+[card implementation](../custom/cards/c/chromatic_rebirth.txt)
+
+### Design Notes
+
+ - In the game, Alicia enters the Canvas to help Renoir only to be trapped by Aline's chroma and is "reborn" as Maelle.
+ - Card depicts this moment. 
 
 ## Chromatic Reclamation
 
@@ -869,6 +889,7 @@ Human and Gradient spells you cast cost {1} less to cast.
    - How the stance is chosen is determined by something that's on flavor for any red card: Randomness by a six-sided die roll.
  - 3/11/2025: Abilities changed due to CardConjurer constraints. Removed single human reanimation ability. The 2 expeditioner generation ability moved to +1 loyalty. Cost discount expanded to cover Gradient spells too.
  - Hybrid mana pip is used where the color identity pip is because this particular planeswalker frame does not support color identity pips for some reason.
+ - 17/11/2025: Remove hybrid mana pip and replaced with color identity pip as I figured out how to place it in CardConjurer
 
 ## Manor Entrance // Manor Hidden Room
 
@@ -1152,8 +1173,8 @@ Fuse (You may cast one or both halves of this card from your hand.)
 5UR
 Legendary Creature - Nevron Serpent
 Flying. Ward 3.
-{1}{U}: Tap target creature and put a stun counter on it. Put a charge counter on this creature.
-{4}{R}, Remove X charge counters from Serpenphare: Serpenphare deals X damage to each creature.
+Absorbs all APs — {2}{U}: Tap target creature and put a stun counter on it. Put a charge counter on Serpenphare.
+Absorbed too many APs, explodes — {4}{R}, Remove X charge counters from Serpenphare: Serpenphare deals X damage to each creature.
 ---
 An omnipresent feature of the continent skies. A reminder that before one can even reach The Monolith, one must get past Serpenphare.
 
@@ -1166,6 +1187,7 @@ An omnipresent feature of the continent skies. A reminder that before one can ev
 
  - In the game, Serpenphare is an optional end-game boss. Its most prominent attack is an AP draining ability, if it consumes too much AP with this move, it will explode.
  - Mechanically, we modeled the AP draining ability as a tap and stun with a charge counter being given. The "explode" ability is modeled as removing X charge counters to X damage to every creature (including itself)
+ - 19/11/2025: Increased tap-and-stun cost from 1U to 2U. Also added ability words.
 
 ## Stendhal
 
@@ -1203,6 +1225,42 @@ Storm. (When you cast this spell, copy it for each spell cast before it this tur
  - In the game, this is one of Gustave's abilities.
  - Mechanically translated to a storm-powered combat trick (it has storm in it's name!).
 
+## The Curator // Renoir, Dessendre Patriarch
+
+```
+2WUB
+Legendary Creature - Painter Spirit
+Picto Reinforcement — {2}{U}, {T}: Create two Lumina tokens.
+Upgrades your weapons — {2}{W}, {T}: Distribute two +1/+1 counters among one or two target creatures.
+Latent skill activation — {3}{B}, {T}, Exert an Expeditioner creature: Destroy target creature.
+When The Curator dies, return it to the battlefield transformed under it’s owner’s control.
+
+4/5
+```
+
+Transforms into:
+
+```
+
+Legendary Planeswalker - Renoir
+Whenever a Nevron you control dies, draw a card and each opponent discards a card.
+[+2]: Reveal the top card of your library. If it is a Nevron, Painter or Gradient card, put it into your hand.
+[-4]: Return target Nevron card from your graveyard to the battlefield.
+[-10]: Exile all non-Nevron, non-Painter creatures.
+```
+
+[card implementation](../custom/cards/t/the_curator_renoir_dessendre_patriarch.txt)
+
+### Design Notes
+
+ - In the game, The Curator is an ally to Expedition 33, until Act 3 where he is revealed to be the real Renoir.
+ - Abilities drawn from various abilities he offers at camp.
+   - Latent skill activation is a nod to him "helping" Maelle gommage painted Renoir at the conclusion of his boss battle near the end of Act 2. Destroy instead of exile because her full painter powers are not yet fully unlocked.
+ - As much as I personally despise double-faced cards (because of logistics around limited and sleeves, requiring paper hacks like checklist cards), flavorfully this has to be a creature that transforms to his Planeswalker half.
+   - If we ever print this, it will be printed over 2 cards and not as a double-faced one.
+ - Is a Painter Spirit instead of Painter God because The Curator is Renoir's *ethereal* form that allows him to escape his prison at the bottom of the Monolith.
+ - In terms of Planeswalker design it revolves around the Nevron/Painter alliance and abilities that benefit them both.
+
 ## The Fate of the Canvas
 
 ```
@@ -1238,6 +1296,42 @@ When one falls, we continue.
 
  - If you're doing nothing with these Chroma and Lumina tokens being generated then this spell is a goal to reach towards.
  - This card also let's us do something with the number 33, which has great symbolic significance in the game.
+
+## The Paintress // Aline Dessendre, Stricken by Grief
+
+```
+WURG
+Legendary Creature - Painter God
+Void Meteors — {2}{R}, {T}: The Paintress deals 3 damage divided as you choose among any number of target creatures and/or planeswalkers.
+Rips apart reality — {2}{U}, {T}: Up to two target nonland permanents phase out.
+Heals an Expeditioner — {W}{G}, {T}: You gain 1 life for each Expeditioner you control.
+When The Paintress dies, return it to the battlefield transformed under it's owner's control.
+
+6/6
+```
+
+Transforms into:
+
+```
+
+Legendary Planeswalker - Aline
+At the beginning of your upkeep, create a Chroma token.
+[+2]: Aline Dessendre, Stricken by Grief deals X damage to up to one target creature or planeswalker and you gain X life, where X is the number of Chromas you control.
+[-3]: Exile target nonland permanent.
+[-8]: Creatures you control gain +X/+X until end of turn, where X is the number of Chromas you control.
+```
+
+[card implementation](../custom/cards/t/the_paintress_aline_dessendre_stricken_by_grief.txt)
+
+### Design Notes
+
+ - In the game, The Paintress is the main antagonist, until the conclusion of Act 2, when you discover she is not.
+ - Abilities drawn from the various moves she has in her boss battle. Because 2 of these 3 abilities already exist as separate cards, we've gone with slight tweaks/variations for the abilities here.
+   - Void Meteors: Only deals 3 damage and can only target creatures.
+   - Rips apart reality: Phases out permanents instead of putting it on top/bottom of owner's library.
+ - As much as I personally despise double-faced cards (because of logistics around limited and sleeves, requiring paper hacks like checklist cards), flavorfully this has to be a creature that transforms to her Planeswalker half.
+   - If we ever print this, it will be printed over 2 cards and not as a double-faced one.
+ - In terms of planeswalker design, the primary theme is around Chroma and her mastery of it.
 
 ## The Scavenger
 
