@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 19/11/2025 8:49:55 am
+> Last generated: 19/11/2025 9:19:29 am
 
 ## An Advantage!
 
@@ -384,6 +384,24 @@ Enjoying my uselessness of today and readying my usefulness for tomorrow.
 ### Design Notes
 
  - Stock Up with expeditioner benefits
+
+## Hiding the Canvas
+
+```
+1U
+Instant
+Exile target nonland permanent and put three time counters on it. If it doesn't have suspend, it gains suspend. (At the beginning of its owner’s upkeep, they remove a time counter. When the last is removed, they may play it without paying its mana cost. If it’s a creature, it has haste.)
+---
+Alicia: If we bring Maman out of the Canvas, she'll try to return. We must hide the Canvas...
+Clea: Well-reasoned. And such a... clever hiding spot you've chosen.
+```
+
+[card implementation](../custom/cards/h/hiding_the_canvas.txt)
+
+### Design Notes
+
+ - In the game, Alicia concots a plan to hide Verso's canvas first before entering and attempting to help expel Aline out of the canvas. Clea approves of her clever idea.
+ - Gone with a card similar to Suspend (from MH2) but bumped up the cost to 1U and allow targeting any nonland permanent and suspending them for 3 time counters.
 
 ## Ice Lance
 
