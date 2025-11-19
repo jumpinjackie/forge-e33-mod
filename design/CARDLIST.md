@@ -29,7 +29,7 @@ From this list, card designs are spawned from it, which will eventually form the
 
 ## Card Name List
 
-Cards implemented: 236/304
+Cards implemented: 238/304
 
 [x] - Card is implemented or in development, [ ] - Card is not implemented
 
@@ -394,7 +394,7 @@ No ideas yet.
 > Act 2: Camp
 > Verso: My beautiful sister doesn't need this ugly mask.
 
-No ideas yet.
+Reprint of Unmask?
 
 > Act 2: Camp
 > Renoir: You embrace her, yet you are condeming her to die.
@@ -404,7 +404,7 @@ No ideas yet.
 > The Manor
 > Unknown: Art can be a Window and art can be a Mirror. And great art. Great art is both. Son, you'll never be a true artist if there's always a mask between you and the viewer, especially when the viewer is you...
 
-No ideas yet.
+Reprint of Mirror Gallery?
 
 > Act 2: Monolith Interior
 > Renoir: If saving you means losing you then so be it.
@@ -415,12 +415,6 @@ No ideas yet.
 > Renoir: WE are your family. You would condemn us all to die, for what? Who do you really save with your sacrifice?
 
 No ideas yet.
-
-> Act 2 - 3 Intermission in the real world
-> Alicia: If we bring Maman out of the Canvas, she'll try to return. We must hide the Canvas...
-> Clea: Well-reasoned. And such a... clever hiding spot you've chosen.
-
-Sounds like a some blue instant that phases out a nonland permanent. 
 
 > Act 3: Before final boss battle with Renoir
 > Renoir: As your father, I must look out for you. Especially when you can't look out for yourself.
