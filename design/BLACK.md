@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 19/11/2025 8:49:55 am
+> Last generated: 19/11/2025 8:59:30 am
 
 ## Chapelier
 
@@ -226,6 +226,7 @@ Your sister deserves more.
 
  - In the game, Painted Renoir is the primary antagnoist until his boss battle near the end of Act 2.
  - Vanish ability is an edict instead of exile just to balance things out. Not everything can be an exile ability even though it makes the most thematic sense.
+ - 19/11/2025: Removed edict triggered ability and replaced it with Fear.
 
 ## Piercing Strike
 
