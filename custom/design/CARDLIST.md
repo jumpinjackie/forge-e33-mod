@@ -367,14 +367,6 @@ No ideas yet.
 
 No ideas yet.
 
-> Act 1: Stone Wave Cliffs
-> Gustave: The Paintress destroyed our world. And someone built her a shrine?
-> Lune: The weak-minded turn to whatever they can to explain the unknown.
-> Sciel: When you're at the mercy of a power you don't understand, you might try anything.
-
-Name: Shrine to The Paintress
-Some artifact or Shrine Enchantment?
-
 > Act 2: Visages
 > Sciel: I know they're Nevrons, but... witnessing the sorrow of others... I can't help but feel for them.
 > Monoco: A noble but tremendously fatal impulse
@@ -394,7 +386,7 @@ No ideas yet.
 > Act 2: Camp
 > Verso: My beautiful sister doesn't need this ugly mask.
 
-No ideas yet.
+Reprint of Unmask?
 
 > Act 2: Camp
 > Renoir: You embrace her, yet you are condeming her to die.
@@ -404,7 +396,7 @@ No ideas yet.
 > The Manor
 > Unknown: Art can be a Window and art can be a Mirror. And great art. Great art is both. Son, you'll never be a true artist if there's always a mask between you and the viewer, especially when the viewer is you...
 
-No ideas yet.
+Reprint of Mirror Gallery?
 
 > Act 2: Monolith Interior
 > Renoir: If saving you means losing you then so be it.
@@ -415,12 +407,6 @@ No ideas yet.
 > Renoir: WE are your family. You would condemn us all to die, for what? Who do you really save with your sacrifice?
 
 No ideas yet.
-
-> Act 2 - 3 Intermission in the real world
-> Alicia: If we bring Maman out of the Canvas, she'll try to return. We must hide the Canvas...
-> Clea: Well-reasoned. And such a... clever hiding spot you've chosen.
-
-Sounds like a some blue instant that phases out a nonland permanent. 
 
 > Act 3: Before final boss battle with Renoir
 > Renoir: As your father, I must look out for you. Especially when you can't look out for yourself.

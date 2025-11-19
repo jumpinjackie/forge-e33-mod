@@ -1,0 +1,24 @@
+[Name]
+Shrine to the Paintress
+[ManaCost]
+4
+G
+[Types]
+Legendary
+Enchantment
+Shrine
+[Rarity]
+U
+[Oracle]
+At the beginning of your upkeep, create a 1/1 colorless Nevron creature token for each Shrine you control.
+[FlavorText]
+Gustave: The Paintress destroyed our world. And someone built her a shrine?
+Lune: The weak-minded turn to whatever they can to explain the unknown.
+Sciel: When you're at the mercy of a power you don't understand, you might try anything.
+[ForgeScript]
+T:Mode$ Phase | Phase$ Upkeep | ValidPlayer$ You | TriggerZones$ Battlefield | Execute$ TrigToken | TriggerDescription$ At the beginning of your upkeep, create a 1/1 colorless Nevron creature token for each Shrine you control.
+SVar:TrigToken:DB$ Token | TokenAmount$ X | TokenScript$ c_1_1_nevron | TokenOwner$ You
+SVar:X:Count$Valid Shrine.YouCtrl
+[DesignNotes]
+ - In the game, the Shrine can be found at Stone Wave Cliffs, prompting the discussion referenced in the flavor text.
+ - Nevron variant of Honden of Life's Web.

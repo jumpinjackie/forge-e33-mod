@@ -1,0 +1,7 @@
+Name:Shrine to the Paintress
+ManaCost:4 G
+Types:Legendary Enchantment Shrine
+T:Mode$ Phase | Phase$ Upkeep | ValidPlayer$ You | TriggerZones$ Battlefield | Execute$ TrigToken | TriggerDescription$ At the beginning of your upkeep, create a 1/1 colorless Nevron creature token for each Shrine you control.
+SVar:TrigToken:DB$ Token | TokenAmount$ X | TokenScript$ c_1_1_nevron | TokenOwner$ You
+SVar:X:Count$Valid Shrine.YouCtrl
+Oracle:At the beginning of your upkeep, create a 1/1 colorless Nevron creature token for each Shrine you control.

@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 19/11/2025 8:49:55 am
+> Last generated: 19/11/2025 9:53:33 am
 
 ## Abbest
 
@@ -310,6 +310,25 @@ Have you tried throwing with your other arm instead? If you could hit the Paintr
 
  - In the game, Gustave has a penchant for throwing rocks.
  - To give green some bones in spot removal for draft/limited, this is a shock for creatures that can be upgraded in damage.
+
+## Shrine to the Paintress
+
+```
+4G
+Legendary Enchantment - Shrine
+At the beginning of your upkeep, create a 1/1 colorless Nevron creature token for each Shrine you control.
+---
+Gustave: The Paintress destroyed our world. And someone built her a shrine?
+Lune: The weak-minded turn to whatever they can to explain the unknown.
+Sciel: When you're at the mercy of a power you don't understand, you might try anything.
+```
+
+[card implementation](../custom/cards/s/shrine_to_the_paintress.txt)
+
+### Design Notes
+
+ - In the game, the Shrine can be found at Stone Wave Cliffs, prompting the discussion referenced in the flavor text.
+ - Nevron variant of Honden of Life's Web.
 
 ## Volester
 
