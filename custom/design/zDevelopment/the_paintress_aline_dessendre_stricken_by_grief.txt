@@ -1,0 +1,70 @@
+[Name]
+The Paintress
+[ManaCost]
+W
+U
+R
+G
+[Types]
+Legendary
+Creature
+Painter
+God
+[Rarity]
+M
+[PT]
+6/6
+[Oracle]
+Void Meteors — {2}{R}, {T}: ~ deals 3 damage divided as you choose among any number of target creatures and/or planeswalkers.
+Rips apart reality — {2}{U}, {T}: Up to two target nonland permanents phase out.
+Heals an Expeditioner — {W}{G}, {T}: You gain 1 life for each Expeditioner you control.
+When ~ dies, return it to the battlefield transformed under it's owner's control.
+[AbilityWords]
+Void Meteors
+Rips apart reality
+Heals an Expeditioner
+[Artist]
+Sandfall Interactive
+[ForgeScript]
+A:AB$ DealDamage | Cost$ 2 R T | ValidTgts$ Creature,Planeswalker | TgtPrompt$ Select target creature or planeswalker to distribute damage to | NumDmg$ 3 | TargetMin$ 0 | TargetMax$ 3 | DividedAsYouChoose$ 3 | SpellDescription$ ~ deals 3 damage divided as you choose among any number of target creatures and/or planeswalkers.
+A:AB$ Phases | Cost$ 2 U T | ValidTgts$ Permanent.nonLand | TgtPrompt$ Select up to two target nonland permanents | TargetMin$ 0 | TargetMax$ 2 | SpellDescription$ Up to two target nonland permanents phase out.
+A:AB$ GainLife | Cost$ W G T | Defined$ You | LifeAmount$ Y | SpellDescription$ You gain 1 life for each Expeditioner you control.
+SVar:Y:Count$Valid Expeditioner.YouCtrl
+T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Card.Self | Execute$ TrigReturn | TriggerDescription$ When CARDNAME dies, return it to the battlefield transformed under its owner's control.
+SVar:TrigReturn:DB$ ChangeZone | Origin$ Graveyard | Defined$ TriggeredNewCardLKICopy | Destination$ Battlefield | Transformed$ True
+AlternateMode:DoubleFaced
+ALTERNATE:DFC
+[Name]
+Aline Dessendre, Stricken by Grief
+[ManaCost]
+no cost
+[ColorIdentity]
+white
+black
+[Types]
+Legendary
+Planeswalker
+Aline
+[Loyalty]
+5
+[Oracle]
+At the beginning of your upkeep, create a Chroma token.
+[+2]: ~ deals X damage to up to one target creature or planeswalker and you gain X life, where X is the number of Chromas you control.
+[-3]: Exile target nonland permanent.
+[-8]: Creatures you control gain +X/+X until end of turn, where X is the number of Chromas you control.
+[ForgeScript]
+T:Mode$ Phase | Phase$ Upkeep | ValidPlayer$ You | TriggerZones$ Battlefield | Execute$ DBToken | TriggerDescription$ At the beginning of your upkeep, create a Chroma token.
+SVar:DBToken:DB$ Token | TokenAmount$ 1 | TokenScript$ c_a_chroma | TokenOwner$ You
+A:AB$ DealDamage | Cost$ AddCounter<2/LOYALTY> | Planeswalker$ True | ValidTgts$ Creature,Planeswalker | TgtPrompt$ Select target creature or planeswalker | TargetMin$ 0 | TargetMax$ 1 | NumDmg$ X | SubAbility$ DBGainLife | SpellDescription$ ~ deals X damage to target creature or planeswalker and you gain X life, where X is the number of Chromas you control.
+SVar:DBGainLife:DB$ GainLife | LifeAmount$ X
+A:AB$ ChangeZone | Cost$ SubCounter<3/LOYALTY> | Planeswalker$ True | ValidTgts$ Permanent.nonLand | TgtPrompt$ Select target nonland permanent | Origin$ Battlefield | Destination$ Exile | SpellDescription$ Exile target nonland permanent.
+A:AB$ PumpAll | Cost$ SubCounter<8/LOYALTY> | Planeswalker$ True | Ultimate$ True | ValidCards$ Creature.YouCtrl | NumAtt$ +X | NumDef$ +X | SpellDescription$ Creatures you control gain +X/+X until end of turn, where X is the number of Chromas you control.
+SVar:X:Count$Valid Chroma.YouCtrl
+[DesignNotes]
+ - In the game, The Paintress is the main antagonist, until the conclusion of Act 2, when you discover she is not.
+ - Abilities drawn from the various moves she has in her boss battle. Because 2 of these 3 abilities already exist as separate cards, we've gone with slight tweaks/variations for the abilities here.
+   - Void Meteors: Only deals 3 damage and can only target creatures.
+   - Rips apart reality: Phases out permanents instead of putting it on top/bottom of owner's library.
+ - As much as I personally despise double-faced cards (because of logistics around limited and sleeves, requiring paper hacks like checklist cards), flavorfully this has to be a creature that transforms to her Planeswalker half.
+   - If we ever print this, it will be printed over 2 cards and not as a double-faced one.
+ - In terms of planeswalker design, the primary theme is around Chroma and her mastery of it.

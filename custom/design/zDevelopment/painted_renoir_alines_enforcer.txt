@@ -1,0 +1,31 @@
+[Name]
+Painted Renoir, Aline's Enforcer
+[ManaCost]
+3
+B
+B
+[Types]
+Legendary
+Creature
+Painter
+God
+[Rarity]
+R
+[PT]
+4/4
+[Oracle]
+Fear
+Summons Dark Beast — When Painted Renoir enters and at the beginning of your upkeep, you may create Dark Chromatic Beast, a legendary 5/5 black Beast creature with Trample and Lifelink.
+Sends waves of Chroma — {B}{B}, {T}, Sacrifice X Chromas: Creatures target opponent controls get -X/-X until end of turn.
+[FlavorText]
+Your sister deserves more.
+[ForgeScript]
+K:Fear
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigToken | OptionalDecider$ You | TriggerDescription$ When ~ enters and at the beginning of your upkeep, you may create Dark Chromatic Beast, a legendary 5/5 black Beast creature with Trample and Lifelink.
+T:Mode$ Phase | Phase$ Upkeep | ValidPlayer$ You | Execute$ TrigToken | TriggerZones$ Battlefield | Secondary$ True | OptionalDecider$ You | TriggerDescription$ At the beginning of your upkeep, you may create Dark Chromatic Beast, a legendary 5/5 black Beast creature with Trample and Lifelink.
+SVar:TrigToken:DB$ Token | TokenScript$ b_5_5_dark_chromatic_beast
+A:SP$ PumpAll | Cost$ B B T Sac<X/Chroma> | ValidTgts$ Opponent | TgtPrompt$ Select target player | ValidCards$ Creature | NumAtt$ -X | NumDef$ -X | SpellDescription$ Creatures target opponent controls get -X/-X until end of turn.
+SVar:X:Count$xPaid
+[DesignNotes]
+ - In the game, Painted Renoir is the primary antagnoist until his boss battle near the end of Act 2.
+ - Vanish ability is an edict instead of exile just to balance things out. Not everything can be an exile ability even though it makes the most thematic sense.

@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 16/11/2025 3:13:26 pm
+> Last generated: 19/11/2025 8:49:55 am
 
 ## Chapelier
 
@@ -206,6 +206,27 @@ When this creature dies, target opponent creates a Lumina token. (It's an artifa
  - And to round out its abilities I've given it a generic -1/-1 affliction ability.
  - 13/10/2025: Removed Devoid.
 
+## Painted Renoir, Aline's Enforcer
+
+```
+3BB
+Legendary Creature - Painter God
+Fear
+Summons Dark Beast — When Painted Renoir enters and at the beginning of your upkeep, you may create Dark Chromatic Beast, a legendary 5/5 black Beast creature with Trample and Lifelink.
+Sends waves of Chroma — {B}{B}, {T}, Sacrifice X Chromas: Creatures target opponent controls get -X/-X until end of turn.
+---
+Your sister deserves more.
+
+4/4
+```
+
+[card implementation](../custom/cards/p/painted_renoir_alines_enforcer.txt)
+
+### Design Notes
+
+ - In the game, Painted Renoir is the primary antagnoist until his boss battle near the end of Act 2.
+ - Vanish ability is an edict instead of exile just to balance things out. Not everything can be an exile ability even though it makes the most thematic sense.
+
 ## Piercing Strike
 
 ```
@@ -249,7 +270,7 @@ I know it seems absurd to offer oblivion as recompense, but perhaps that's the o
 
 ```
 B
-Instant
+Instant - Gradient
 Destroy target creature if it has mana value 2 or less.
 If you control a painter, Destroy target creature if it has mana value 4 or less instead.
 ```

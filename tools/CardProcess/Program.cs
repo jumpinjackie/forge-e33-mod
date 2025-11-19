@@ -356,7 +356,8 @@ public enum CardFaceType
     Regular,
     SplitRoom,
     SplitFuse,
-    Meld
+    Meld,
+    DoubleFaced
 }
 
 /// <summary>
@@ -373,6 +374,8 @@ public class CardMasterDesign(string designFile)
     private CardFaceDesign _activeFace = new();
 
     public CardFaceDesign? FrontFull { get; set; }
+
+    public CardFaceDesign? BackFull { get; set; }
 
     public CardFaceDesign? SplitLeft { get; set; }
 
@@ -400,6 +403,7 @@ public class CardMasterDesign(string designFile)
                 CardFaceType.SplitRoom => SplitLeft.Rarity, // Rarity is always specified on the left face
                 CardFaceType.SplitFuse => SplitLeft.Rarity, // Rarity is always specified on the left face
                 CardFaceType.Meld => FrontFull.Rarity, // Rarity is always specified on the front face
+                CardFaceType.DoubleFaced => FrontFull.Rarity, // Rarity is always specified on the front face
                 _ => throw new UnreachableException()
             };
 #pragma warning restore CS8602 // Dereference of a possibly null reference.
@@ -441,6 +445,7 @@ public class CardMasterDesign(string designFile)
                 CardFaceType.SplitRoom => SplitLeft.Name + " // " + SplitRight.Name,
                 CardFaceType.SplitFuse => SplitLeft.Name + " // " + SplitRight.Name,
                 CardFaceType.Meld => FrontFull.Name + " // " + MeldTarget.Name,
+                CardFaceType.DoubleFaced => FrontFull.Name + " // " + BackFull.Name,
                 _ => throw new UnreachableException()
             };
 #pragma warning restore CS8602 // Dereference of a possibly null reference.
@@ -471,6 +476,10 @@ public class CardMasterDesign(string designFile)
             if (MeldTarget is not null)
             {
                 FaceType = CardFaceType.Meld;
+            }
+            else if (BackFull is not null)
+            {
+                FaceType = CardFaceType.DoubleFaced;
             }
             else
             {
@@ -583,6 +592,13 @@ public class CardMasterDesign(string designFile)
         this.MeldTarget = _activeFace;
     }
 
+    public void MarkDfc()
+    {
+        this.FrontFull = _activeFace;
+        _activeFace = new();
+        this.BackFull = _activeFace;
+    }
+
     public void Apply(string propertyName, IEnumerable<string> buffer)
     {
         _activeFace.Apply(propertyName, buffer);
@@ -639,6 +655,10 @@ public class CardMasterDesign(string designFile)
                     FlushRemainingBuffer();
                     card.MarkMeld();
                     break;
+                case "ALTERNATE:DFC": // Signal start of DFC
+                    FlushRemainingBuffer();
+                    card.MarkDfc();
+                    break;
                 default:
                     buffer.Add(line);
                     break;
@@ -693,6 +713,16 @@ public class CardMasterDesign(string designFile)
                         await SplitRight.WriteScriptAsync(sw, stdout, stderr, FaceType.Value);
                 }
                 break;
+            case CardFaceType.DoubleFaced:
+                {
+                    await FrontFull.WriteScriptAsync(sw, stdout, stderr, FaceType.Value);
+                    await sw.WriteLineAsync();
+                    await sw.WriteLineAsync();
+                    await sw.WriteLineAsync("ALTERNATE");
+                    await sw.WriteLineAsync();
+                    await BackFull.WriteScriptAsync(sw, stdout, stderr, FaceType.Value);
+                }
+                break;
             case CardFaceType.Meld:
                 {
                     await FrontFull.WriteScriptAsync(sw, stdout, stderr, FaceType.Value);
@@ -716,7 +746,7 @@ public class CardMasterDesign(string designFile)
         }
     }
 
-    public IEnumerable<string> AllDesignNotes => [.. FrontFull?.DesignNotes ?? [], .. SplitLeft?.DesignNotes ?? [], .. SplitRight?.DesignNotes ?? [], .. MeldTarget?.DesignNotes ?? []];
+    public IEnumerable<string> AllDesignNotes => [.. FrontFull?.DesignNotes ?? [], .. SplitLeft?.DesignNotes ?? [], .. SplitRight?.DesignNotes ?? [], .. MeldTarget?.DesignNotes ?? [], .. BackFull?.DesignNotes ?? []];
 
     internal async Task WriteDocAsync(string baseDir, StreamWriter writer, TextWriter stdout, TextWriter stderr)
     {
@@ -800,6 +830,7 @@ public class CardMasterDesign(string designFile)
                 }
                 break;
             case CardFaceType.Meld:
+            case CardFaceType.DoubleFaced:
                 {
                     await writer.WriteLineAsync("```");
                     if (FrontFull?.ManaCost is not null)
@@ -813,22 +844,40 @@ public class CardMasterDesign(string designFile)
                     }
                     await writer.WriteLineAsync("```");
                     await writer.WriteLineAsync();
-                    await writer.WriteLineAsync("Melds into:");
+                    if (this.FaceType == CardFaceType.Meld)
+                        await writer.WriteLineAsync("Melds into:");
+                    else if (this.FaceType == CardFaceType.DoubleFaced)
+                        await writer.WriteLineAsync("Transforms into:");
                     await writer.WriteLineAsync();
                     await writer.WriteLineAsync("```");
-                    if (MeldTarget?.ManaCost is not null)
-                        await writer.WriteLineAsync(MeldTarget.FormatManaCost());
-                    await writer.WriteLineAsync(MeldTarget.TypeLine);
-                    await writer.WriteLineAsync(MeldTarget.GetOracleText());
-                    if (MeldTarget.PT is not null)
+                    if (this.FaceType == CardFaceType.Meld)
+                    {
+                        if (MeldTarget?.ManaCost is not null)
+                            await writer.WriteLineAsync(MeldTarget.FormatManaCost());
+                        await writer.WriteLineAsync(MeldTarget.TypeLine);
+                        await writer.WriteLineAsync(MeldTarget.GetOracleText());
+                    }
+                    else if (this.FaceType == CardFaceType.DoubleFaced)
+                    {
+                        if (BackFull?.ManaCost is not null)
+                            await writer.WriteLineAsync(BackFull.FormatManaCost());
+                        await writer.WriteLineAsync(BackFull.TypeLine);
+                        await writer.WriteLineAsync(BackFull.GetOracleText());
+                    }
+                    if (this.FaceType == CardFaceType.Meld && MeldTarget.PT is not null)
                     {
                         await writer.WriteLineAsync();
                         await writer.WriteLineAsync(MeldTarget.PT);
                     }
+                    else if (this.FaceType == CardFaceType.DoubleFaced && BackFull?.PT is not null)
+                    {
+                        await writer.WriteLineAsync();
+                        await writer.WriteLineAsync(BackFull.PT);
+                    }
                     await writer.WriteLineAsync("```");
 
                     await writer.WriteLineAsync();
-                    if (FrontFull?.ForgeScript is null || MeldTarget?.ForgeScript is null)
+                    if (FrontFull?.ForgeScript is null || (this.FaceType == CardFaceType.Meld && MeldTarget?.ForgeScript is null) || (this.FaceType == CardFaceType.DoubleFaced && BackFull?.ForgeScript is null))
                         await writer.WriteLineAsync("> This card is not yet implemented in Forge");
                     else
                         await writer.WriteLineAsync($"[card implementation]({normBaseDir}/{firstLetter}/{scriptName})");
@@ -856,6 +905,7 @@ public class CardMasterDesign(string designFile)
             CardFaceType.SplitRoom => string.Join(" & ", new string[] { SplitLeft.Artist, SplitRight.Artist }.Where(s => !string.IsNullOrWhiteSpace(s)).Distinct()),
             CardFaceType.SplitFuse => string.Join(" & ", new string[] { SplitLeft.Artist, SplitRight.Artist }.Where(s => !string.IsNullOrWhiteSpace(s)).Distinct()),
             CardFaceType.Meld => string.Join(" & ", new string[] { FrontFull.Artist, MeldTarget.Artist }.Where(s => !string.IsNullOrWhiteSpace(s)).Distinct()),
+            CardFaceType.DoubleFaced => string.Join(" & ", new string[] { FrontFull.Artist, BackFull.Artist }.Where(s => !string.IsNullOrWhiteSpace(s)).Distinct()),
             _ => throw new UnreachableException()
         };
 #pragma warning restore CS8601 // Possible null reference assignment.
@@ -1005,7 +1055,7 @@ public class GenAllCommand : BaseCommand
             }
             else
             {
-                if (card.FaceType == CardFaceType.Meld) // Meld cards only care about the front face name
+                if (card.FaceType == CardFaceType.Meld || card.FaceType == CardFaceType.DoubleFaced) // Meld/DFC cards only care about the front face name
                     cardList.AppendLine(
                         $"{collectorNum} {card.Rarity} {card.FrontFull.Name} @{card.GetArtist()}"
                     );

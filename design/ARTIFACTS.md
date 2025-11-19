@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 16/11/2025 3:13:26 pm
+> Last generated: 19/11/2025 8:49:55 am
 
 ## Anti-Burn Picto
 
@@ -564,7 +564,6 @@ Whenever a Nevron dies, put a study counter on Gustave's Journal.
 {2}, {T}, Remove X study counters from Gustave's Journal: Draw X cards.
 ---
 He spends some time writing in his journal. He writes about how dangerous the Nevrons are, but how beautiful the continent is. He hopes that one day, his apprentices will read everything he wrote.
-
 ```
 
 [card implementation](../custom/cards/g/gustaves_journal.txt)

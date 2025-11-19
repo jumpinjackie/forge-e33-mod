@@ -1,0 +1,11 @@
+Name:Painted Renoir, Aline's Enforcer
+ManaCost:3 B B
+Types:Legendary Creature Painter God
+PT:4/4
+K:Fear
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigToken | OptionalDecider$ You | TriggerDescription$ When CARDNAME enters and at the beginning of your upkeep, you may create Dark Chromatic Beast, a legendary 5/5 black Beast creature with Trample and Lifelink.
+T:Mode$ Phase | Phase$ Upkeep | ValidPlayer$ You | Execute$ TrigToken | TriggerZones$ Battlefield | Secondary$ True | OptionalDecider$ You | TriggerDescription$ At the beginning of your upkeep, you may create Dark Chromatic Beast, a legendary 5/5 black Beast creature with Trample and Lifelink.
+SVar:TrigToken:DB$ Token | TokenScript$ b_5_5_dark_chromatic_beast
+A:SP$ PumpAll | Cost$ B B T Sac<X/Chroma> | ValidTgts$ Opponent | TgtPrompt$ Select target player | ValidCards$ Creature | NumAtt$ -X | NumDef$ -X | SpellDescription$ Creatures target opponent controls get -X/-X until end of turn.
+SVar:X:Count$xPaid
+Oracle:Fear\nSummons Dark Beast — When Painted Renoir enters and at the beginning of your upkeep, you may create Dark Chromatic Beast, a legendary 5/5 black Beast creature with Trample and Lifelink.\nSends waves of Chroma — {B}{B}, {T}, Sacrifice X Chromas: Creatures target opponent controls get -X/-X until end of turn.

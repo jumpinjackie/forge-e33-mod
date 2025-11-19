@@ -1,0 +1,27 @@
+Name:The Curator
+ManaCost:2 W U B
+Types:Legendary Creature Painter Spirit
+PT:4/5
+A:AB$ Token | Cost$ 2 U T | TokenAmount$ 2 | TokenOwner$ You | TokenScript$ c_a_lumina | SpellDescription$ Create two Lumina tokens.
+A:AB$ PutCounter | Cost$ 2 W T | ValidTgts$ Creature | CounterType$ P1P1 | CounterNum$ 2 | TargetMin$ 1 | TargetMax$ 2 | DividedAsYouChoose$ 2 | SpellDescription$ Distribute two +1/+1 counters among one or two target creatures.
+A:AB$ Destroy | Cost$ 3 B T Exert<1/Creature.YouCtrl+Expeditioner/Expeditioner creature> | ValidTgts$ Creature | TgtPrompt$ Select target creature | SpellDescription$ Destroy target creature.
+T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Card.Self | Execute$ TrigReturn | TriggerDescription$ When CARDNAME dies, return it to the battlefield transformed under its owner's control.
+SVar:TrigReturn:DB$ ChangeZone | Origin$ Graveyard | Defined$ TriggeredNewCardLKICopy | Destination$ Battlefield | Transformed$ True
+AlternateMode:DoubleFaced
+Oracle:Picto Reinforcement — {2}{U}, {T}: Create two Lumina tokens.\nUpgrades your weapons — {2}{W}, {T}: Distribute two +1/+1 counters among one or two target creatures.\nLatent skill activation — {3}{B}, {T}, Exert an Expeditioner creature: Destroy target creature.\nWhen The Curator dies, return it to the battlefield transformed under it’s owner’s control.
+
+ALTERNATE
+
+Name:Renoir, Dessendre Patriarch
+ManaCost:no cost
+Colors:black
+Types:Legendary Planeswalker Renoir
+Loyalty:5
+T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Nevron.YouCtrl | TriggerZones$ Battlefield | Execute$ TrigDraw | TriggerDescription$ Whenever a Nevron you control dies, draw a card and each opponent discards a card.
+SVar:TrigDraw:DB$ Draw | Defined$ You | NumCards$ 1 | SubAbility$ OppDiscard
+SVar:OppDiscard:DB$ Discard | Defined$ Opponent | Mode$ TgtChoose
+A:AB$ Dig | Cost$ AddCounter<2/LOYALTY> | Planeswalker$ True | DigNum$ 1 | RevealOptional$ True | RememberRevealed$ True | ChangeNum$ All | ChangeValid$ Nevron.IsRemembered,Painter.IsRemembered,Gradient.IsRemembered | LibraryPosition2$ 0 | SubAbility$ DBCleanup | SpellDescription$ Reveal the top card of your library. If it is a Nevron, Painter or Gradient card, put it into your hand.
+SVar:DBCleanup:DB$ Cleanup | ClearRemembered$ True
+A:AB$ ChangeZone | Cost$ SubCounter<4/LOYALTY> | Planeswalker$ True | Origin$ Graveyard | Destination$ Battlefield | TgtPrompt$ Choose target Nevron card in your graveyard | ValidTgts$ Nevron.YouCtrl | SpellDescription$ Return target Nevron card from your graveyard to the battlefield.
+A:AB$ ChangeZoneAll | Cost$ SubCounter<10/LOYALTY> | Planeswalker$ True | Ultimate$ True | UseAllOriginZones$ True | Origin$ Battlefield | Destination$ Exile | ChangeType$ Creature.nonNevron+nonPainter | SpellDescription$ Exile all non-Nevron, non-Painter creatures.
+Oracle:Whenever a Nevron you control dies, draw a card and each opponent discards a card.\n[+2]: Reveal the top card of your library. If it is a Nevron, Painter or Gradient card, put it into your hand.\n[-4]: Return target Nevron card from your graveyard to the battlefield.\n[-10]: Exile all non-Nevron, non-Painter creatures.
