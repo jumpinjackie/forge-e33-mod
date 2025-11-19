@@ -1277,6 +1277,17 @@
             "marginY": 0.02857142857142857,
             "frames": [
                 {
+                    "name": "Meld",
+                    "src": "/img/frames/m15/transform/icons/hammer.png",
+                    "bounds": {
+                        "x": 0.0594,
+                        "y": 0.0505,
+                        "width": 0.0734,
+                        "height": 0.0524
+                    },
+                    "masks": []
+                },
+                {
                     "name": "Black Extension",
                     "src": "/img/frames/margins/blackBorderExtension.png",
                     "bounds": {
@@ -1328,20 +1339,20 @@
                 {
                     "name": "Multicolored Power/Toughness",
                     "src": "/img/frames/m15/regular/m15PTM.png",
-                    "masks": [],
                     "bounds": {
-                        "height": 0.0733,
-                        "width": 0.188,
                         "x": 0.7573,
-                        "y": 0.8848
-                    }
+                        "y": 0.8848,
+                        "width": 0.188,
+                        "height": 0.0733
+                    },
+                    "masks": []
                 },
                 {
                     "name": "White Frame",
-                    "src": "/img/frames/m15/regular/m15FrameW.png",
+                    "src": "/img/frames/m15/transform/regular/frontW.png",
                     "masks": [
                         {
-                            "src": "/img/frames/m15/regular/m15MaskPinline.png",
+                            "src": "/img/frames/m15/transform/regular/maskPinlineFront.png",
                             "name": "Pinline"
                         },
                         {
@@ -1352,77 +1363,18 @@
                 },
                 {
                     "name": "Red Frame",
-                    "src": "/img/frames/m15/regular/m15FrameR.png",
+                    "src": "/img/frames/m15/transform/regular/frontR.png",
                     "masks": [
                         {
-                            "src": "/img/frames/m15/regular/m15MaskPinline.png",
+                            "src": "/img/frames/m15/transform/regular/maskPinlineFront.png",
                             "name": "Pinline"
                         }
                     ]
                 },
                 {
                     "name": "Multicolored Frame",
-                    "src": "/img/frames/m15/regular/m15FrameM.png",
-                    "masks": [
-                        {
-                            "src": "/img/frames/m15/regular/m15MaskType.png",
-                            "name": "Type"
-                        }
-                    ]
-                },
-                {
-                    "name": "Multicolored Frame",
-                    "src": "/img/frames/m15/regular/m15FrameM.png",
-                    "masks": [
-                        {
-                            "src": "/img/frames/m15/regular/m15MaskTitle.png",
-                            "name": "Title"
-                        }
-                    ]
-                },
-                {
-                    "name": "White Frame",
-                    "src": "/img/frames/m15/regular/m15FrameW.png",
-                    "masks": [
-                        {
-                            "src": "/img/frames/m15/regular/m15MaskRules.png",
-                            "name": "Rules"
-                        },
-                        {
-                            "src": "/img/frames/maskRightHalf.png",
-                            "name": "Right Half"
-                        }
-                    ]
-                },
-                {
-                    "name": "Red Frame",
-                    "src": "/img/frames/m15/regular/m15FrameR.png",
-                    "masks": [
-                        {
-                            "src": "/img/frames/m15/regular/m15MaskRules.png",
-                            "name": "Rules"
-                        }
-                    ]
-                },
-                {
-                    "name": "Multicolored Frame",
-                    "src": "/img/frames/m15/regular/m15FrameM.png",
-                    "masks": [
-                        {
-                            "src": "/img/frames/m15/regular/m15MaskFrame.png",
-                            "name": "Frame"
-                        }
-                    ]
-                },
-                {
-                    "name": "Multicolored Frame",
-                    "src": "/img/frames/m15/regular/m15FrameM.png",
-                    "masks": [
-                        {
-                            "src": "/img/frames/m15/regular/m15MaskBorder.png",
-                            "name": "Border"
-                        }
-                    ]
+                    "src": "/img/frames/m15/transform/regular/frontM.png",
+                    "masks": []
                 }
             ],
             "artSource": "https://corsproxy.io/?url=https%3A%2F%2Fstatic0.dualshockersimages.com%2Fwordpress%2Fwp-content%2Fuploads%2F2025%2F06%2Fclair-obscur-expedition-33-005.jpg%3Fq%3D49%26fit%3Dcrop%26w%3D825%26dpr%3D2",
@@ -1441,7 +1393,7 @@
             "watermarkLeft": "#b79d58",
             "watermarkRight": "none",
             "watermarkOpacity": 0.4,
-            "version": "m15Regular",
+            "version": "m15TransformFront",
             "manaSymbols": [],
             "infoYear": "2025",
             "margins": true,
@@ -1586,14 +1538,14 @@
                 "title": {
                     "name": "Title",
                     "text": "Alicia Dessendre, Silenced by Fire",
-                    "x": 0.0854,
+                    "x": 0.16,
                     "y": 0.0522,
-                    "width": 0.8292,
+                    "width": 0.7547,
                     "height": 0.0543,
                     "oneLine": true,
                     "font": "belerenb",
                     "size": 0.0381,
-                    "fontSize": "-9"
+                    "fontSize": "-20"
                 },
                 "type": {
                     "name": "Type",
@@ -1612,8 +1564,21 @@
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
-                    "height": 0.2572850035536603,
+                    "height": 0.2875,
                     "size": 0.0362
+                },
+                "reminder": {
+                    "name": "Reverse PT",
+                    "text": "",
+                    "x": 0.086,
+                    "y": 0.842,
+                    "width": 0.838,
+                    "height": 0.0362,
+                    "size": 0.0291,
+                    "oneLine": true,
+                    "color": "#666",
+                    "align": "right",
+                    "font": "belerenbsc"
                 },
                 "pt": {
                     "name": "Power/Toughness",
@@ -1639,6 +1604,381 @@
             "serialX": "",
             "serialY": "",
             "serialScale": ""
+        }
+    },
+    {
+        "key": "Aline Dessendre, Stricken by Grief",
+        "data": {
+            "width": 2010,
+            "height": 2814,
+            "marginX": 0.044,
+            "marginY": 0.02857142857142857,
+            "frames": [
+                {
+                    "name": "Down Arrow",
+                    "src": "/img/frames/m15/transform/icons/downArrow.png",
+                    "bounds": {
+                        "x": 0.06616915422885572,
+                        "y": 0.04477611940298507,
+                        "width": 0.05970149253731343,
+                        "height": 0.042643923240938165
+                    },
+                    "masks": [],
+                    "ogBounds": {
+                        "x": 0.0594,
+                        "y": 0.0505,
+                        "width": 0.0734,
+                        "height": 0.0524
+                    }
+                },
+                {
+                    "name": "Black Pip",
+                    "src": "/img/frames/m15/ciPips/b.svg",
+                    "masks": [
+                        {
+                            "src": "/img/frames/m15/ciPips/secondHalf.svg",
+                            "name": "Second Half"
+                        }
+                    ],
+                    "complementary": 5
+                },
+                {
+                    "name": "White Pip",
+                    "src": "/img/frames/m15/ciPips/w.svg",
+                    "masks": [],
+                    "complementary": [
+                        5
+                    ]
+                },
+                {
+                    "name": "Color Identity Pip Base",
+                    "src": "/img/frames/m15/ciPips/base.png",
+                    "bounds": {
+                        "x": 0.0767,
+                        "y": 0.5748,
+                        "width": 0.0467,
+                        "height": 0.0334
+                    },
+                    "masks": []
+                },
+                {
+                    "name": "Black Extension",
+                    "src": "/img/frames/margins/blackBorderExtension.png",
+                    "bounds": {
+                        "x": -0.044,
+                        "y": -0.02857142857142857,
+                        "width": 1.088,
+                        "height": 1.0571428571428572
+                    },
+                    "masks": []
+                },
+                {
+                    "name": "Loyalty Box",
+                    "src": "/img/frames/planeswalker/transform/loyalty.png",
+                    "bounds": {
+                        "x": 0.8,
+                        "y": 0.8796,
+                        "width": 0.152,
+                        "height": 0.0677
+                    },
+                    "masks": []
+                },
+                {
+                    "name": "Black Frame (Back)",
+                    "src": "/img/frames/planeswalker/transform/bb.png",
+                    "masks": [
+                        {
+                            "src": "/img/frames/planeswalker/transform/pinline.svg",
+                            "name": "Pinline"
+                        },
+                        {
+                            "src": "/img/frames/maskRightHalf.png",
+                            "name": "Right Half"
+                        }
+                    ]
+                },
+                {
+                    "name": "White Frame (Back)",
+                    "src": "/img/frames/planeswalker/transform/wb.png",
+                    "masks": [
+                        {
+                            "src": "/img/frames/planeswalker/transform/pinline.svg",
+                            "name": "Pinline"
+                        }
+                    ]
+                },
+                {
+                    "name": "Multicolored Frame (Back)",
+                    "src": "/img/frames/planeswalker/transform/mb.png",
+                    "masks": []
+                }
+            ],
+            "artSource": "https://corsproxy.io/?url=https%3A%2F%2Fstatic.wikia.nocookie.net%2Fvillains%2Fimages%2Ff%2Ffa%2FReynaud-alan-portfolio-render-w-background-char-aline.jpg",
+            "artX": -0.9656716417910448,
+            "artY": -0.01847903340440654,
+            "artZoom": 3.252,
+            "artRotate": "0",
+            "setSymbolSource": "https://cardconjurer.app/img/setSymbols/official/pz1-m.svg",
+            "setSymbolX": 0.8756218905472637,
+            "setSymbolY": 0.570362473347548,
+            "setSymbolZoom": 0.32299999999999995,
+            "watermarkSource": "https://cardconjurer.app/img/blank.png",
+            "watermarkX": 0.33880597014925373,
+            "watermarkY": 0.6609808102345416,
+            "watermarkZoom": 649,
+            "watermarkLeft": "#b79d58",
+            "watermarkRight": "none",
+            "watermarkOpacity": 0.4,
+            "version": "planeswalkerTransformBack",
+            "manaSymbols": [],
+            "infoYear": "2025",
+            "margins": true,
+            "bottomInfoTranslate": {
+                "x": 0,
+                "y": 0
+            },
+            "bottomInfoRotate": 0,
+            "bottomInfoZoom": 1,
+            "bottomInfoColor": "white",
+            "onload": "/js/frames/versionPlaneswalker.js",
+            "hideBottomInfoBorder": false,
+            "showsFlavorBar": true,
+            "bottomInfo": {
+                "midLeft": {
+                    "text": "{elemidinfo-set} • {elemidinfo-language}  {savex}{fontbelerenbsc}{fontsize3}{upinline1}￮{savex2}{elemidinfo-artist}",
+                    "x": 0.0647,
+                    "y": 0.9548,
+                    "width": 0.8707,
+                    "height": 0.0171,
+                    "oneLine": true,
+                    "font": "gothammedium",
+                    "size": 0.0171,
+                    "color": "white",
+                    "outlineWidth": 0.003,
+                    "name": "midLeft"
+                },
+                "topLeft": {
+                    "text": "{elemidinfo-number}",
+                    "x": 0.0647,
+                    "y": 0.9377,
+                    "width": 0.8707,
+                    "height": 0.0171,
+                    "oneLine": true,
+                    "font": "gothammedium",
+                    "size": 0.0171,
+                    "color": "white",
+                    "outlineWidth": 0.003,
+                    "name": "topLeft"
+                },
+                "note": {
+                    "text": "{loadx2}{elemidinfo-note}",
+                    "x": 0.0647,
+                    "y": 0.9377,
+                    "width": 0.8707,
+                    "height": 0.0171,
+                    "oneLine": true,
+                    "font": "gothammedium",
+                    "size": 0.0171,
+                    "color": "white",
+                    "outlineWidth": 0.003,
+                    "name": "note"
+                },
+                "rarity": {
+                    "text": "{loadx}{elemidinfo-rarity}",
+                    "x": 0.0647,
+                    "y": 0.9377,
+                    "width": 0.8707,
+                    "height": 0.0171,
+                    "oneLine": true,
+                    "font": "gothammedium",
+                    "size": 0.0171,
+                    "color": "white",
+                    "outlineWidth": 0.003,
+                    "name": "rarity"
+                },
+                "bottomLeft": {
+                    "text": "NOT FOR SALE",
+                    "x": 0.0647,
+                    "y": 0.9719,
+                    "width": 0.8707,
+                    "height": 0.0143,
+                    "oneLine": true,
+                    "font": "gothammedium",
+                    "size": 0.0143,
+                    "color": "white",
+                    "outlineWidth": 0.003
+                },
+                "wizards": {
+                    "name": "wizards",
+                    "text": "{ptshift0,0.0172}™ & © {elemidinfo-year} Wizards of the Coast",
+                    "x": 0.0647,
+                    "y": 0.9377,
+                    "width": 0.8707,
+                    "height": 0.0167,
+                    "oneLine": true,
+                    "font": "mplantin",
+                    "size": 0.0162,
+                    "color": "white",
+                    "align": "right",
+                    "outlineWidth": 0.003
+                },
+                "bottomRight": {
+                    "text": "{ptshift0,0.0172}CardConjurer.com",
+                    "x": 0.0647,
+                    "y": 0.9548,
+                    "width": 0.8707,
+                    "height": 0.0143,
+                    "oneLine": true,
+                    "font": "mplantin",
+                    "size": 0.0143,
+                    "color": "white",
+                    "align": "right",
+                    "outlineWidth": 0.003
+                }
+            },
+            "artBounds": {
+                "x": 0.068,
+                "y": 0.101,
+                "width": 0.864,
+                "height": 0.8143
+            },
+            "setSymbolBounds": {
+                "x": 0.9227,
+                "y": 0.5891,
+                "width": 0.12,
+                "height": 0.0381,
+                "vertical": "center",
+                "horizontal": "right"
+            },
+            "watermarkBounds": {
+                "x": 0.5,
+                "y": 0.7762,
+                "width": 0.75,
+                "height": 0.2305
+            },
+            "text": {
+                "mana": {
+                    "name": "Mana Cost",
+                    "text": "",
+                    "y": 0.0481,
+                    "width": 0.9292,
+                    "height": 0.03380952380952381,
+                    "oneLine": true,
+                    "size": 0.043345543345543344,
+                    "align": "right",
+                    "shadowX": -0.001,
+                    "shadowY": 0.0029,
+                    "manaCost": true,
+                    "manaSpacing": 0
+                },
+                "title": {
+                    "name": "Title",
+                    "text": "Aline Dessendre, Stricken by Grief",
+                    "x": 0.16,
+                    "y": 0.0372,
+                    "width": 0.8292,
+                    "height": 0.0548,
+                    "oneLine": true,
+                    "font": "belerenb",
+                    "size": 0.0381,
+                    "color": "white",
+                    "fontSize": "-10"
+                },
+                "type": {
+                    "name": "Type",
+                    "text": "Legendary Planeswalker - Aline",
+                    "x": 0.1307,
+                    "y": 0.5625,
+                    "width": 0.7827,
+                    "height": 0.0548,
+                    "oneLine": true,
+                    "font": "belerenb",
+                    "size": 0.0324,
+                    "color": "white"
+                },
+                "ability0": {
+                    "name": "Ability 1",
+                    "text": "At the beginning of your upkeep, create a Chroma token.\nAline Dessendre, Stricken by Grief deals X damage to target creature or planeswalker and you gain X life, where X is the number of Chromas you control.",
+                    "x": 0.18,
+                    "y": 0.6239,
+                    "width": 0.7467,
+                    "height": 0.1421,
+                    "size": 0.0353
+                },
+                "ability1": {
+                    "name": "Ability 2",
+                    "text": "Exile target nonland permanent.",
+                    "x": 0.18,
+                    "y": 0.766,
+                    "width": 0.7467,
+                    "height": 0.0569,
+                    "size": 0.0353,
+                    "fontSize": "-28"
+                },
+                "ability2": {
+                    "name": "Ability 3",
+                    "text": "Creatures you control gain +X/+X until end of turn, where X is the number of Chromas you control.",
+                    "x": 0.18,
+                    "y": 0.8229,
+                    "width": 0.7467,
+                    "height": 0.0924,
+                    "size": 0.0353,
+                    "fontSize": "-32"
+                },
+                "ability3": {
+                    "name": "Ability 4",
+                    "text": "",
+                    "x": 0.136,
+                    "y": 0.9153,
+                    "width": 0.7907000000000001,
+                    "height": 0,
+                    "size": 0.0353
+                },
+                "loyalty": {
+                    "name": "Loyalty",
+                    "text": "5",
+                    "x": 0.806,
+                    "y": 0.902,
+                    "width": 0.14,
+                    "height": 0.0372,
+                    "size": 0.0372,
+                    "font": "belerenbsc",
+                    "oneLine": true,
+                    "align": "center",
+                    "color": "white"
+                }
+            },
+            "infoNumber": "2025",
+            "infoRarity": "M",
+            "infoSet": "E33",
+            "infoLanguage": "EN",
+            "infoArtist": "Sandfall Interactive",
+            "infoNote": "Proxy, Not for Sale",
+            "serialNumber": "",
+            "serialTotal": "",
+            "serialX": "",
+            "serialY": "",
+            "serialScale": "",
+            "planeswalker": {
+                "abilities": [
+                    "+2",
+                    "-3",
+                    "-8",
+                    ""
+                ],
+                "abilityAdjust": [
+                    0.0472636815920398,
+                    0.04015636105188344,
+                    0.013148542999289269,
+                    0.006041222459132907
+                ],
+                "count": 3,
+                "x": 0.1167,
+                "width": 0.8094,
+                "orig_ability_textbox_x": 0.18,
+                "orig_ability_textbox_width": 0.7467,
+                "invert": false
+            }
         }
     },
     {
@@ -9932,6 +10272,329 @@
         }
     },
     {
+        "key": "Chromatic Rebirth",
+        "data": {
+            "width": 2010,
+            "height": 2814,
+            "marginX": 0.044,
+            "marginY": 0.02857142857142857,
+            "frames": [
+                {
+                    "name": "Black Extension",
+                    "src": "/img/frames/margins/blackBorderExtension.png",
+                    "bounds": {
+                        "x": -0.044,
+                        "y": -0.02857142857142857,
+                        "width": 1.088,
+                        "height": 1.0571428571428572
+                    },
+                    "masks": []
+                },
+                {
+                    "name": "Black Frame",
+                    "src": "/img/frames/m15/regular/m15FrameB.png",
+                    "masks": [
+                        {
+                            "src": "/img/frames/m15/regular/m15MaskPinline.png",
+                            "name": "Pinline"
+                        },
+                        {
+                            "src": "/img/frames/maskRightHalf.png",
+                            "name": "Right Half"
+                        }
+                    ]
+                },
+                {
+                    "name": "White Frame",
+                    "src": "/img/frames/m15/regular/m15FrameW.png",
+                    "masks": [
+                        {
+                            "src": "/img/frames/m15/regular/m15MaskPinline.png",
+                            "name": "Pinline"
+                        }
+                    ]
+                },
+                {
+                    "name": "Multicolored Frame",
+                    "src": "/img/frames/m15/regular/m15FrameM.png",
+                    "masks": [
+                        {
+                            "src": "/img/frames/m15/regular/m15MaskType.png",
+                            "name": "Type"
+                        }
+                    ]
+                },
+                {
+                    "name": "Multicolored Frame",
+                    "src": "/img/frames/m15/regular/m15FrameM.png",
+                    "masks": [
+                        {
+                            "src": "/img/frames/m15/regular/m15MaskTitle.png",
+                            "name": "Title"
+                        }
+                    ]
+                },
+                {
+                    "name": "Black Frame",
+                    "src": "/img/frames/m15/regular/m15FrameB.png",
+                    "masks": [
+                        {
+                            "src": "/img/frames/m15/regular/m15MaskRules.png",
+                            "name": "Rules"
+                        },
+                        {
+                            "src": "/img/frames/maskRightHalf.png",
+                            "name": "Right Half"
+                        }
+                    ]
+                },
+                {
+                    "name": "White Frame",
+                    "src": "/img/frames/m15/regular/m15FrameW.png",
+                    "masks": [
+                        {
+                            "src": "/img/frames/m15/regular/m15MaskRules.png",
+                            "name": "Rules"
+                        }
+                    ]
+                },
+                {
+                    "name": "Multicolored Frame",
+                    "src": "/img/frames/m15/regular/m15FrameM.png",
+                    "masks": [
+                        {
+                            "src": "/img/frames/m15/regular/m15MaskFrame.png",
+                            "name": "Frame"
+                        }
+                    ]
+                },
+                {
+                    "name": "Multicolored Frame",
+                    "src": "/img/frames/m15/regular/m15FrameM.png",
+                    "masks": [
+                        {
+                            "src": "/img/frames/m15/regular/m15MaskBorder.png",
+                            "name": "Border"
+                        }
+                    ]
+                }
+            ],
+            "artSource": "https://corsproxy.io/?url=https%3A%2F%2Fstatic.wikia.nocookie.net%2Fclair-obscur%2Fimages%2Fc%2Fc9%2FCoe33_Maelles_Two_Lives.jpg",
+            "artX": -0.5681592039800994,
+            "artY": 0.046908315565031986,
+            "artZoom": 1.676,
+            "artRotate": "0",
+            "setSymbolSource": "https://cardconjurer.app/img/setSymbols/official/pz1-r.svg",
+            "setSymbolX": 0.8756218905472637,
+            "setSymbolY": 0.5707178393745558,
+            "setSymbolZoom": 0.34700000000000003,
+            "watermarkSource": "https://cardconjurer.app/img/blank.png",
+            "watermarkX": 0.33880597014925373,
+            "watermarkY": 0.6609808102345416,
+            "watermarkZoom": 649,
+            "watermarkLeft": "#b79d58",
+            "watermarkRight": "none",
+            "watermarkOpacity": 0.4,
+            "version": "ubRegular",
+            "manaSymbols": [],
+            "infoYear": "2025",
+            "margins": true,
+            "bottomInfoTranslate": {
+                "x": 0,
+                "y": 0
+            },
+            "bottomInfoRotate": 0,
+            "bottomInfoZoom": 1,
+            "bottomInfoColor": "white",
+            "onload": null,
+            "hideBottomInfoBorder": false,
+            "showsFlavorBar": true,
+            "bottomInfo": {
+                "midLeft": {
+                    "text": "{elemidinfo-set} • {elemidinfo-language}  {savex}{fontbelerenbsc}{fontsize3}{upinline1}￮{savex2}{elemidinfo-artist}",
+                    "x": 0.0647,
+                    "y": 0.9548,
+                    "width": 0.8707,
+                    "height": 0.0171,
+                    "oneLine": true,
+                    "font": "gothammedium",
+                    "size": 0.0171,
+                    "color": "white",
+                    "outlineWidth": 0.003,
+                    "name": "midLeft"
+                },
+                "topLeft": {
+                    "text": "{elemidinfo-number}",
+                    "x": 0.0647,
+                    "y": 0.9377,
+                    "width": 0.8707,
+                    "height": 0.0171,
+                    "oneLine": true,
+                    "font": "gothammedium",
+                    "size": 0.0171,
+                    "color": "white",
+                    "outlineWidth": 0.003,
+                    "name": "topLeft"
+                },
+                "note": {
+                    "text": "{loadx2}{elemidinfo-note}",
+                    "x": 0.0647,
+                    "y": 0.9377,
+                    "width": 0.8707,
+                    "height": 0.0171,
+                    "oneLine": true,
+                    "font": "gothammedium",
+                    "size": 0.0171,
+                    "color": "white",
+                    "outlineWidth": 0.003,
+                    "name": "note"
+                },
+                "rarity": {
+                    "text": "{loadx}{elemidinfo-rarity}",
+                    "x": 0.0647,
+                    "y": 0.9377,
+                    "width": 0.8707,
+                    "height": 0.0171,
+                    "oneLine": true,
+                    "font": "gothammedium",
+                    "size": 0.0171,
+                    "color": "white",
+                    "outlineWidth": 0.003,
+                    "name": "rarity"
+                },
+                "bottomLeft": {
+                    "text": "NOT FOR SALE",
+                    "x": 0.0647,
+                    "y": 0.9719,
+                    "width": 0.8707,
+                    "height": 0.0143,
+                    "oneLine": true,
+                    "font": "gothammedium",
+                    "size": 0.0143,
+                    "color": "white",
+                    "outlineWidth": 0.003
+                },
+                "wizards": {
+                    "name": "wizards",
+                    "text": "{ptshift0,0.0172}™ & © {elemidinfo-year} Wizards of the Coast",
+                    "x": 0.0647,
+                    "y": 0.9377,
+                    "width": 0.8707,
+                    "height": 0.0167,
+                    "oneLine": true,
+                    "font": "mplantin",
+                    "size": 0.0162,
+                    "color": "white",
+                    "align": "right",
+                    "outlineWidth": 0.003
+                },
+                "bottomRight": {
+                    "text": "{ptshift0,0.0172}CardConjurer.com",
+                    "x": 0.0647,
+                    "y": 0.9548,
+                    "width": 0.8707,
+                    "height": 0.0143,
+                    "oneLine": true,
+                    "font": "mplantin",
+                    "size": 0.0143,
+                    "color": "white",
+                    "align": "right",
+                    "outlineWidth": 0.003
+                }
+            },
+            "artBounds": {
+                "x": 0.0767,
+                "y": 0.1129,
+                "width": 0.8476,
+                "height": 0.4429
+            },
+            "setSymbolBounds": {
+                "x": 0.9263681592039801,
+                "y": 0.591,
+                "width": 0.12,
+                "height": 0.041,
+                "vertical": "center",
+                "horizontal": "right"
+            },
+            "watermarkBounds": {
+                "x": 0.5,
+                "y": 0.7762,
+                "width": 0.75,
+                "height": 0.2305
+            },
+            "text": {
+                "mana": {
+                    "name": "Mana Cost",
+                    "text": "2 W B",
+                    "y": 0.06254442075337598,
+                    "width": 0.9273631840796019,
+                    "height": 0.03380952380952381,
+                    "oneLine": true,
+                    "size": 0.04304029304029304,
+                    "align": "right",
+                    "shadowX": -0.001,
+                    "shadowY": 0.0029,
+                    "manaCost": true,
+                    "manaSpacing": 0
+                },
+                "title": {
+                    "name": "Title",
+                    "text": "Chromatic Rebirth",
+                    "x": 0.08358208955223881,
+                    "y": 0.05152807391613362,
+                    "width": 0.8292,
+                    "height": 0.0543,
+                    "oneLine": true,
+                    "font": "belerenb",
+                    "size": 0.0381
+                },
+                "type": {
+                    "name": "Type",
+                    "text": "Sorcery - Gradient",
+                    "x": 0.08358208955223881,
+                    "y": 0.5643212508884151,
+                    "width": 0.8292,
+                    "height": 0.0543,
+                    "oneLine": true,
+                    "font": "belerenb",
+                    "size": 0.0324
+                },
+                "rules": {
+                    "name": "Rules Text",
+                    "text": "This spell costs {1} less to cast if you control a painter.\nAs an additional cost to cast this spell, sacrifice a creature.\nPut target creature card from a graveyard onto the battlefield under your control.{flavor}Well. You’re about to be reborn in this world as one of Aline’s creations. Have fun.\n- Clea",
+                    "x": 0.086,
+                    "y": 0.6325515280739161,
+                    "width": 0.828,
+                    "height": 0.28429282160625446,
+                    "size": 0.0362
+                },
+                "pt": {
+                    "name": "Power/Toughness",
+                    "text": "",
+                    "x": 0.7928,
+                    "y": 0.902,
+                    "width": 0.1367,
+                    "height": 0.03624733475479744,
+                    "size": 0.0372,
+                    "font": "belerenbsc",
+                    "oneLine": true,
+                    "align": "center"
+                }
+            },
+            "infoNumber": "2025",
+            "infoRarity": "R",
+            "infoSet": "E33",
+            "infoLanguage": "EN",
+            "infoArtist": "Sandfall Interactive",
+            "infoNote": "Proxy, Not for Sale",
+            "serialNumber": "",
+            "serialTotal": "",
+            "serialX": "",
+            "serialY": "",
+            "serialScale": ""
+        }
+    },
+    {
         "key": "Chromatic Reclamation",
         "data": {
             "width": 2010,
@@ -13319,6 +13982,284 @@
             },
             "infoNumber": "2025",
             "infoRarity": "U",
+            "infoSet": "E33",
+            "infoLanguage": "EN",
+            "infoArtist": "Sandfall Interactive",
+            "infoNote": "Proxy, Not for Sale",
+            "serialNumber": "",
+            "serialTotal": "",
+            "serialX": "",
+            "serialY": "",
+            "serialScale": ""
+        }
+    },
+    {
+        "key": "Dark Chromatic Beast Token",
+        "data": {
+            "width": 2010,
+            "height": 2814,
+            "marginX": 0.044,
+            "marginY": 0.02857142857142857,
+            "frames": [
+                {
+                    "name": "Black Extension",
+                    "src": "/img/frames/margins/blackBorderExtension.png",
+                    "bounds": {
+                        "x": -0.044,
+                        "y": -0.02857142857142857,
+                        "width": 1.088,
+                        "height": 1.0571428571428572
+                    },
+                    "masks": []
+                },
+                {
+                    "name": "Black Legend Crown",
+                    "src": "/img/frames/m15/crowns/m15CrownBFloating.png",
+                    "bounds": {
+                        "x": 0.0307,
+                        "y": 0.0191,
+                        "width": 0.9387,
+                        "height": 0.1024
+                    },
+                    "complementary": [
+                        10
+                    ],
+                    "masks": []
+                },
+                {
+                    "name": "Legend Crown Border Cover",
+                    "src": "/img/black.png",
+                    "bounds": {
+                        "x": 0.0394,
+                        "y": 0.0277,
+                        "width": 0.9214,
+                        "height": 0.0177
+                    },
+                    "masks": []
+                },
+                {
+                    "name": "Black Power/Toughness",
+                    "src": "/img/frames/m15/regular/m15PTB.png",
+                    "bounds": {
+                        "x": 0.7573,
+                        "y": 0.8848,
+                        "width": 0.188,
+                        "height": 0.0733
+                    },
+                    "masks": []
+                },
+                {
+                    "name": "Black Frame",
+                    "src": "/img/frames/token/regular/tokenFrameBRegular.png",
+                    "masks": []
+                }
+            ],
+            "artSource": "https://corsproxy.io/?url=https%3A%2F%2Fjumpinjackie.github.io%2Fe33-reference-art%2Fimages%2Ftokens%2Fb_5_5_dark_chromatic_beast.png%3Fabc",
+            "artX": -0.17064676616915422,
+            "artY": 0.028784648187633263,
+            "artZoom": 4.798,
+            "artRotate": "0",
+            "setSymbolSource": "https://cardconjurer.app/img/setSymbols/official/pz1-c.svg",
+            "setSymbolX": 0.8701492537313433,
+            "setSymbolY": 0.6535181236673774,
+            "setSymbolZoom": 0.261,
+            "watermarkSource": "https://cardconjurer.app/img/blank.png",
+            "watermarkX": 0.3970149253731343,
+            "watermarkY": 0.744136460554371,
+            "watermarkZoom": 414,
+            "watermarkLeft": "#b79d58",
+            "watermarkRight": "none",
+            "watermarkOpacity": 0.4,
+            "version": "tokenRegular",
+            "manaSymbols": [],
+            "infoYear": "2025",
+            "margins": true,
+            "bottomInfoTranslate": {
+                "x": 0,
+                "y": 0
+            },
+            "bottomInfoRotate": 0,
+            "bottomInfoZoom": 1,
+            "bottomInfoColor": "white",
+            "onload": null,
+            "hideBottomInfoBorder": false,
+            "showsFlavorBar": true,
+            "bottomInfo": {
+                "midLeft": {
+                    "text": "{elemidinfo-set} • {elemidinfo-language}  {savex}{fontbelerenbsc}{fontsize3}{upinline1}￮{savex2}{elemidinfo-artist}",
+                    "x": 0.0647,
+                    "y": 0.9548,
+                    "width": 0.8707,
+                    "height": 0.0171,
+                    "oneLine": true,
+                    "font": "gothammedium",
+                    "size": 0.0171,
+                    "color": "white",
+                    "outlineWidth": 0.003,
+                    "name": "midLeft"
+                },
+                "topLeft": {
+                    "text": "{elemidinfo-number}",
+                    "x": 0.0647,
+                    "y": 0.9377,
+                    "width": 0.8707,
+                    "height": 0.0171,
+                    "oneLine": true,
+                    "font": "gothammedium",
+                    "size": 0.0171,
+                    "color": "white",
+                    "outlineWidth": 0.003,
+                    "name": "topLeft"
+                },
+                "note": {
+                    "text": "{loadx2}{elemidinfo-note}",
+                    "x": 0.0647,
+                    "y": 0.9377,
+                    "width": 0.8707,
+                    "height": 0.0171,
+                    "oneLine": true,
+                    "font": "gothammedium",
+                    "size": 0.0171,
+                    "color": "white",
+                    "outlineWidth": 0.003,
+                    "name": "note"
+                },
+                "rarity": {
+                    "text": "{loadx}{elemidinfo-rarity}",
+                    "x": 0.0647,
+                    "y": 0.9377,
+                    "width": 0.8707,
+                    "height": 0.0171,
+                    "oneLine": true,
+                    "font": "gothammedium",
+                    "size": 0.0171,
+                    "color": "white",
+                    "outlineWidth": 0.003,
+                    "name": "rarity"
+                },
+                "bottomLeft": {
+                    "text": "NOT FOR SALE",
+                    "x": 0.0647,
+                    "y": 0.9719,
+                    "width": 0.8707,
+                    "height": 0.0143,
+                    "oneLine": true,
+                    "font": "gothammedium",
+                    "size": 0.0143,
+                    "color": "white",
+                    "outlineWidth": 0.003
+                },
+                "wizards": {
+                    "name": "wizards",
+                    "text": "{ptshift0,0.0172}™ & © {elemidinfo-year} Wizards of the Coast",
+                    "x": 0.0647,
+                    "y": 0.9377,
+                    "width": 0.8707,
+                    "height": 0.0167,
+                    "oneLine": true,
+                    "font": "mplantin",
+                    "size": 0.0162,
+                    "color": "white",
+                    "align": "right",
+                    "outlineWidth": 0.003
+                },
+                "bottomRight": {
+                    "text": "{ptshift0,0.0172}CardConjurer.com",
+                    "x": 0.0647,
+                    "y": 0.9548,
+                    "width": 0.8707,
+                    "height": 0.0143,
+                    "oneLine": true,
+                    "font": "mplantin",
+                    "size": 0.0143,
+                    "color": "white",
+                    "align": "right",
+                    "outlineWidth": 0.003
+                }
+            },
+            "artBounds": {
+                "x": 0.04,
+                "y": 0.0286,
+                "width": 0.92,
+                "height": 0.8953
+            },
+            "setSymbolBounds": {
+                "x": 0.9213,
+                "y": 0.6743,
+                "width": 0.12,
+                "height": 0.041,
+                "vertical": "center",
+                "horizontal": "right"
+            },
+            "watermarkBounds": {
+                "x": 0.5,
+                "y": 0.8177,
+                "width": 0.75,
+                "height": 0.1472
+            },
+            "text": {
+                "mana": {
+                    "name": "Mana Cost",
+                    "text": "",
+                    "y": 0.0613,
+                    "width": 0.9292,
+                    "height": 0.03380952380952381,
+                    "oneLine": true,
+                    "size": 0.043345543345543344,
+                    "align": "right",
+                    "shadowX": -0.001,
+                    "shadowY": 0.0029,
+                    "manaCost": true,
+                    "manaSpacing": 0
+                },
+                "title": {
+                    "name": "Title",
+                    "text": "Dark Chromatic Beast",
+                    "x": 0.0854,
+                    "y": 0.0522,
+                    "width": 0.8292,
+                    "height": 0.0543,
+                    "oneLine": true,
+                    "font": "belerenbsc",
+                    "size": 0.0381,
+                    "color": "white",
+                    "align": "center"
+                },
+                "type": {
+                    "name": "Type",
+                    "text": "Token Legendary Creature - Beast",
+                    "x": 0.0854,
+                    "y": 0.65,
+                    "width": 0.8292,
+                    "height": 0.0543,
+                    "oneLine": true,
+                    "font": "belerenb",
+                    "size": 0.0324
+                },
+                "rules": {
+                    "name": "Rules Text",
+                    "text": "Trample\nLifelink",
+                    "x": 0.086,
+                    "y": 0.7143,
+                    "width": 0.828,
+                    "height": 0.2048,
+                    "size": 0.0362
+                },
+                "pt": {
+                    "name": "Power/Toughness",
+                    "text": "5/5",
+                    "x": 0.7928,
+                    "y": 0.902,
+                    "width": 0.1367,
+                    "height": 0.0372,
+                    "size": 0.0372,
+                    "font": "belerenbsc",
+                    "oneLine": true,
+                    "align": "center"
+                }
+            },
+            "infoNumber": "2025",
+            "infoRarity": "C",
             "infoSet": "E33",
             "infoLanguage": "EN",
             "infoArtist": "Sandfall Interactive",
@@ -47329,6 +48270,23 @@
             "marginY": 0.02857142857142857,
             "frames": [
                 {
+                    "name": "Meld",
+                    "src": "/img/frames/m15/transform/icons/hammer.png",
+                    "bounds": {
+                        "x": 0.06019900497512438,
+                        "y": 0.0505,
+                        "width": 0.06965174129353234,
+                        "height": 0.04975124378109453
+                    },
+                    "masks": [],
+                    "ogBounds": {
+                        "x": 0.0594,
+                        "y": 0.0505,
+                        "width": 0.0734,
+                        "height": 0.0524
+                    }
+                },
+                {
                     "name": "Black Extension",
                     "src": "/img/frames/margins/blackBorderExtension.png",
                     "bounds": {
@@ -47380,20 +48338,20 @@
                 {
                     "name": "Multicolored Power/Toughness",
                     "src": "/img/frames/m15/regular/m15PTM.png",
-                    "masks": [],
                     "bounds": {
-                        "height": 0.0733,
-                        "width": 0.188,
                         "x": 0.7573,
-                        "y": 0.8848
-                    }
+                        "y": 0.8848,
+                        "width": 0.188,
+                        "height": 0.0733
+                    },
+                    "masks": []
                 },
                 {
                     "name": "White Frame",
-                    "src": "/img/frames/m15/regular/m15FrameW.png",
+                    "src": "/img/frames/m15/transform/regular/frontW.png",
                     "masks": [
                         {
-                            "src": "/img/frames/m15/regular/m15MaskPinline.png",
+                            "src": "/img/frames/m15/transform/regular/maskPinlineFront.png",
                             "name": "Pinline"
                         },
                         {
@@ -47404,77 +48362,18 @@
                 },
                 {
                     "name": "Red Frame",
-                    "src": "/img/frames/m15/regular/m15FrameR.png",
+                    "src": "/img/frames/m15/transform/regular/frontR.png",
                     "masks": [
                         {
-                            "src": "/img/frames/m15/regular/m15MaskPinline.png",
+                            "src": "/img/frames/m15/transform/regular/maskPinlineFront.png",
                             "name": "Pinline"
                         }
                     ]
                 },
                 {
                     "name": "Multicolored Frame",
-                    "src": "/img/frames/m15/regular/m15FrameM.png",
-                    "masks": [
-                        {
-                            "src": "/img/frames/m15/regular/m15MaskType.png",
-                            "name": "Type"
-                        }
-                    ]
-                },
-                {
-                    "name": "Multicolored Frame",
-                    "src": "/img/frames/m15/regular/m15FrameM.png",
-                    "masks": [
-                        {
-                            "src": "/img/frames/m15/regular/m15MaskTitle.png",
-                            "name": "Title"
-                        }
-                    ]
-                },
-                {
-                    "name": "White Frame",
-                    "src": "/img/frames/m15/regular/m15FrameW.png",
-                    "masks": [
-                        {
-                            "src": "/img/frames/m15/regular/m15MaskRules.png",
-                            "name": "Rules"
-                        },
-                        {
-                            "src": "/img/frames/maskRightHalf.png",
-                            "name": "Right Half"
-                        }
-                    ]
-                },
-                {
-                    "name": "Red Frame",
-                    "src": "/img/frames/m15/regular/m15FrameR.png",
-                    "masks": [
-                        {
-                            "src": "/img/frames/m15/regular/m15MaskRules.png",
-                            "name": "Rules"
-                        }
-                    ]
-                },
-                {
-                    "name": "Multicolored Frame",
-                    "src": "/img/frames/m15/regular/m15FrameM.png",
-                    "masks": [
-                        {
-                            "src": "/img/frames/m15/regular/m15MaskFrame.png",
-                            "name": "Frame"
-                        }
-                    ]
-                },
-                {
-                    "name": "Multicolored Frame",
-                    "src": "/img/frames/m15/regular/m15FrameM.png",
-                    "masks": [
-                        {
-                            "src": "/img/frames/m15/regular/m15MaskBorder.png",
-                            "name": "Border"
-                        }
-                    ]
+                    "src": "/img/frames/m15/transform/regular/frontM.png",
+                    "masks": []
                 }
             ],
             "artSource": "https://corsproxy.io/?url=https%3A%2F%2Fimgs.search.brave.com%2FamCOpTi19aBpVlv6Bv6Mihabl5lvYqX28g-lwMeoM4o%2Frs%3Afit%3A860%3A0%3A0%3A0%2Fg%3Ace%2FaHR0cHM6Ly9zdG9y%2FZS5pZ24uY29tL2Nk%2Fbi9zaG9wL2ZpbGVz%2FL0V4cGVkaXRpb24t%2FMzMtTWFlbGxlLVBy%2FaW50LTEyeDE2LTIu%2FanBnP3Y9MTc0NTUy%2FMDIwOSZ3aWR0aD0x%2FNDQ1",
@@ -47493,7 +48392,7 @@
             "watermarkLeft": "#b79d58",
             "watermarkRight": "none",
             "watermarkOpacity": 0.4,
-            "version": "m15Regular",
+            "version": "m15TransformFront",
             "manaSymbols": [],
             "infoYear": "2025",
             "margins": true,
@@ -47638,9 +48537,9 @@
                 "title": {
                     "name": "Title",
                     "text": "Maelle, Child of Lumiere",
-                    "x": 0.0854,
+                    "x": 0.16,
                     "y": 0.0522,
-                    "width": 0.8292,
+                    "width": 0.7547,
                     "height": 0.0543,
                     "oneLine": true,
                     "font": "belerenb",
@@ -47666,6 +48565,19 @@
                     "width": 0.828,
                     "height": 0.2875,
                     "size": 0.0362
+                },
+                "reminder": {
+                    "name": "Reverse PT",
+                    "text": "",
+                    "x": 0.086,
+                    "y": 0.842,
+                    "width": 0.838,
+                    "height": 0.0362,
+                    "size": 0.0291,
+                    "oneLine": true,
+                    "color": "#666",
+                    "align": "right",
+                    "font": "belerenbsc"
                 },
                 "pt": {
                     "name": "Power/Toughness",
@@ -47701,6 +48613,52 @@
             "marginX": 0.044,
             "marginY": 0.02857142857142857,
             "frames": [
+                {
+                    "name": "Black Pip",
+                    "src": "/img/frames/m15/ciPips/b.svg",
+                    "masks": [
+                        {
+                            "src": "/img/frames/m15/ciPips/secondHalf.svg",
+                            "name": "Second Half"
+                        }
+                    ],
+                    "complementary": 5,
+                    "bounds": {
+                        "y": -0.07036247334754797,
+                        "x": 0.0024875621890547263
+                    },
+                    "ogBounds": {}
+                },
+                {
+                    "name": "White Pip",
+                    "src": "/img/frames/m15/ciPips/w.svg",
+                    "masks": [],
+                    "complementary": [
+                        5
+                    ],
+                    "bounds": {
+                        "y": -0.07036247334754797,
+                        "x": 0.0024875621890547263
+                    },
+                    "ogBounds": {}
+                },
+                {
+                    "name": "Color Identity Pip Base",
+                    "src": "/img/frames/m15/ciPips/base.png",
+                    "bounds": {
+                        "x": 0.0767,
+                        "y": 0.5046197583511016,
+                        "width": 0.0467,
+                        "height": 0.0334
+                    },
+                    "masks": [],
+                    "ogBounds": {
+                        "x": 0.0767,
+                        "y": 0.5748,
+                        "width": 0.0467,
+                        "height": 0.0334
+                    }
+                },
                 {
                     "name": "Borderless Extension",
                     "src": "/img/frames/margins/borderlessBorderExtension.png",
@@ -47889,8 +48847,8 @@
                 },
                 "type": {
                     "name": "Type",
-                    "text": "{W/B} Legendary Planeswalker — Maelle",
-                    "x": 0.0867,
+                    "text": "Legendary Planeswalker — Maelle",
+                    "x": 0.13432835820895522,
                     "y": 0.4967,
                     "width": 0.8267,
                     "height": 0.0548,
@@ -52869,322 +53827,6 @@
         }
     },
     {
-        "key": "Nurture",
-        "data": {
-            "width": 2010,
-            "height": 2814,
-            "marginX": 0.044,
-            "marginY": 0.02857142857142857,
-            "frames": [
-                {
-                    "name": "Black Extension",
-                    "src": "/img/frames/margins/blackBorderExtension.png",
-                    "bounds": {
-                        "x": -0.044,
-                        "y": -0.02857142857142857,
-                        "width": 1.088,
-                        "height": 1.0571428571428572
-                    },
-                    "masks": []
-                },
-                {
-                    "name": "White Frame",
-                    "src": "/img/frames/m15/split/fuse/w.png",
-                    "masks": [
-                        {
-                            "src": "/img/frames/m15/split/fuse/top.png",
-                            "name": "Top Half"
-                        }
-                    ]
-                },
-                {
-                    "name": "Black Frame",
-                    "src": "/img/frames/m15/split/fuse/b.png",
-                    "masks": []
-                }
-            ],
-            "artSource": "https://corsproxy.io/?url=https%3A%2F%2Fjumpinjackie.github.io%2Fe33-reference-art%2Fimages%2Fnoart_split.png",
-            "artX": 0.1572139303482587,
-            "artY": 0.9303482587064676,
-            "artZoom": 2.45,
-            "artRotate": "-90",
-            "setSymbolSource": "https://cardconjurer.app/img/blank.png",
-            "setSymbolX": 0.8756218905472637,
-            "setSymbolY": 0.5707178393745558,
-            "setSymbolZoom": 0.34700000000000003,
-            "watermarkSource": "https://cardconjurer.app/img/blank.png",
-            "watermarkX": 0.33880597014925373,
-            "watermarkY": 0.6609808102345416,
-            "watermarkZoom": 649,
-            "watermarkLeft": "#b79d58",
-            "watermarkRight": "none",
-            "watermarkOpacity": 0.4,
-            "version": "fuse",
-            "manaSymbols": [],
-            "infoYear": "2025",
-            "margins": true,
-            "bottomInfoTranslate": {
-                "x": 0,
-                "y": 0
-            },
-            "bottomInfoRotate": 0,
-            "bottomInfoZoom": 1,
-            "bottomInfoColor": "white",
-            "onload": null,
-            "hideBottomInfoBorder": false,
-            "showsFlavorBar": true,
-            "bottomInfo": {
-                "midLeft": {
-                    "text": "{elemidinfo-set} • {elemidinfo-language}  {savex}{fontbelerenbsc}{fontsize3}{upinline1}￮{savex2}{elemidinfo-artist}",
-                    "x": 0.0647,
-                    "y": 0.9548,
-                    "width": 0.8707,
-                    "height": 0.0171,
-                    "oneLine": true,
-                    "font": "gothammedium",
-                    "size": 0.0171,
-                    "color": "white",
-                    "outlineWidth": 0.003,
-                    "name": "midLeft"
-                },
-                "topLeft": {
-                    "text": "{elemidinfo-number}",
-                    "x": 0.0647,
-                    "y": 0.9377,
-                    "width": 0.8707,
-                    "height": 0.0171,
-                    "oneLine": true,
-                    "font": "gothammedium",
-                    "size": 0.0171,
-                    "color": "white",
-                    "outlineWidth": 0.003,
-                    "name": "topLeft"
-                },
-                "note": {
-                    "text": "{loadx2}{elemidinfo-note}",
-                    "x": 0.0647,
-                    "y": 0.9377,
-                    "width": 0.8707,
-                    "height": 0.0171,
-                    "oneLine": true,
-                    "font": "gothammedium",
-                    "size": 0.0171,
-                    "color": "white",
-                    "outlineWidth": 0.003,
-                    "name": "note"
-                },
-                "rarity": {
-                    "text": "{loadx}{elemidinfo-rarity}",
-                    "x": 0.0647,
-                    "y": 0.9377,
-                    "width": 0.8707,
-                    "height": 0.0171,
-                    "oneLine": true,
-                    "font": "gothammedium",
-                    "size": 0.0171,
-                    "color": "white",
-                    "outlineWidth": 0.003,
-                    "name": "rarity"
-                },
-                "bottomLeft": {
-                    "text": "NOT FOR SALE",
-                    "x": 0.0647,
-                    "y": 0.9719,
-                    "width": 0.8707,
-                    "height": 0.0143,
-                    "oneLine": true,
-                    "font": "gothammedium",
-                    "size": 0.0143,
-                    "color": "white",
-                    "outlineWidth": 0.003
-                },
-                "wizards": {
-                    "name": "wizards",
-                    "text": "{ptshift0,0.0172}™ & © {elemidinfo-year} Wizards of the Coast",
-                    "x": 0.0647,
-                    "y": 0.9377,
-                    "width": 0.8707,
-                    "height": 0.0167,
-                    "oneLine": true,
-                    "font": "mplantin",
-                    "size": 0.0162,
-                    "color": "white",
-                    "align": "right",
-                    "outlineWidth": 0.003
-                },
-                "bottomRight": {
-                    "text": "{ptshift0,0.0172}CardConjurer.com",
-                    "x": 0.0647,
-                    "y": 0.9548,
-                    "width": 0.8707,
-                    "height": 0.0143,
-                    "oneLine": true,
-                    "font": "mplantin",
-                    "size": 0.0143,
-                    "color": "white",
-                    "align": "right",
-                    "outlineWidth": 0.003
-                }
-            },
-            "artBounds": {
-                "x": 0.158,
-                "y": 0.0534,
-                "width": 0.3734,
-                "height": 0.3886
-            },
-            "setSymbolBounds": {
-                "x": 2,
-                "y": 2,
-                "width": 0.12,
-                "height": 0.041,
-                "vertical": "center",
-                "horizontal": "right"
-            },
-            "watermarkBounds": {
-                "x": 0.5,
-                "y": 0.7762,
-                "width": 0.75,
-                "height": 0.2305
-            },
-            "text": {
-                "mana": {
-                    "name": "Mana Cost (Right)",
-                    "text": "1 W",
-                    "x": 0.0847,
-                    "y": 0.4381,
-                    "width": 0.5367,
-                    "height": 0.03380952380952381,
-                    "oneLine": true,
-                    "size": 0.043345543345543344,
-                    "align": "right",
-                    "shadowX": -0.001,
-                    "shadowY": 0.0029,
-                    "manaCost": true,
-                    "manaSpacing": 0,
-                    "rotation": -90
-                },
-                "title": {
-                    "name": "Title (Right)",
-                    "text": "Nurture",
-                    "x": 0.072,
-                    "y": 0.4381,
-                    "width": 0.5367,
-                    "height": 0.0543,
-                    "oneLine": true,
-                    "font": "belerenb",
-                    "size": 0.0381,
-                    "rotation": -90
-                },
-                "type": {
-                    "name": "Type (Right)",
-                    "text": "Instant",
-                    "x": 0.55,
-                    "y": 0.4381,
-                    "width": 0.5367,
-                    "height": 0.0286,
-                    "oneLine": true,
-                    "font": "belerenb",
-                    "size": 0.0286,
-                    "rotation": -90
-                },
-                "rules": {
-                    "name": "Rules Text (Right)",
-                    "text": "Target creature gets +2/+2 until end of turn. It’s controller gains 2 life.",
-                    "x": 0.6087,
-                    "y": 0.4334,
-                    "width": 0.5174,
-                    "height": 0.1986,
-                    "size": 0.0362,
-                    "rotation": -90
-                },
-                "mana2": {
-                    "name": "Mana Cost (Left)",
-                    "text": "1 B",
-                    "x": 0.0847,
-                    "y": 0.8943,
-                    "width": 0.5367,
-                    "height": 0.03380952380952381,
-                    "oneLine": true,
-                    "size": 0.043345543345543344,
-                    "align": "right",
-                    "shadowX": -0.001,
-                    "shadowY": 0.0029,
-                    "manaCost": true,
-                    "manaSpacing": 0,
-                    "rotation": -90
-                },
-                "title2": {
-                    "name": "Title (Left)",
-                    "text": "Torture",
-                    "x": 0.072,
-                    "y": 0.8943,
-                    "width": 0.5367,
-                    "height": 0.0543,
-                    "oneLine": true,
-                    "font": "belerenb",
-                    "size": 0.0381,
-                    "rotation": -90
-                },
-                "type2": {
-                    "name": "Type (Left)",
-                    "text": "Instant",
-                    "x": 0.55,
-                    "y": 0.8943,
-                    "width": 0.5367,
-                    "height": 0.0286,
-                    "oneLine": true,
-                    "font": "belerenb",
-                    "size": 0.0286,
-                    "rotation": -90
-                },
-                "rules2": {
-                    "name": "Rules Text (Left)",
-                    "text": "Target creature gets -2/-2 until end of turn. It’s controller loses 2 life.",
-                    "x": 0.6087,
-                    "y": 0.8896,
-                    "width": 0.5174,
-                    "height": 0.1986,
-                    "size": 0.0362,
-                    "rotation": -90
-                },
-                "reminder": {
-                    "name": "Reminder",
-                    "text": "Fuse (You may cast one or both halves of this card from your hand.)",
-                    "x": 0.9067,
-                    "y": 0.8943,
-                    "width": 1.1754,
-                    "height": 0.0286,
-                    "oneLine": true,
-                    "size": 0.0286,
-                    "rotation": -90,
-                    "align": "center"
-                }
-            },
-            "infoNumber": "2025",
-            "infoRarity": "C",
-            "infoSet": "E33",
-            "infoLanguage": "EN",
-            "infoArtist": "Sandfall Interactive",
-            "infoNote": "Proxy, Not for Sale",
-            "serialNumber": "",
-            "serialTotal": "",
-            "serialX": "",
-            "serialY": "",
-            "serialScale": "",
-            "saga": {
-                "abilities": [
-                    "1",
-                    "1",
-                    "1",
-                    "0"
-                ],
-                "count": 3,
-                "x": 0.1,
-                "width": 0.3947
-            }
-        }
-    },
-    {
         "key": "Obscur",
         "data": {
             "width": 2010,
@@ -54542,6 +55184,335 @@
         }
     },
     {
+        "key": "Painted Renoir, Aline’s Enforcer",
+        "data": {
+            "width": 2010,
+            "height": 2814,
+            "marginX": 0.044,
+            "marginY": 0.02857142857142857,
+            "frames": [
+                {
+                    "name": "Black Extension",
+                    "src": "/img/frames/margins/blackBorderExtension.png",
+                    "bounds": {
+                        "x": -0.044,
+                        "y": -0.02857142857142857,
+                        "width": 1.088,
+                        "height": 1.0571428571428572
+                    },
+                    "masks": []
+                },
+                {
+                    "name": "Black Legend Crown",
+                    "src": "/img/frames/m15/crowns/m15CrownB.png",
+                    "masks": [],
+                    "bounds": {
+                        "height": 0.1667,
+                        "width": 0.9454,
+                        "x": 0.0274,
+                        "y": 0.0191
+                    }
+                },
+                {
+                    "name": "Legend Crown Border Cover",
+                    "src": "/img/black.png",
+                    "masks": [],
+                    "bounds": {
+                        "height": 0.0177,
+                        "width": 0.9214,
+                        "x": 0.0394,
+                        "y": 0.0277
+                    }
+                },
+                {
+                    "name": "Black Power/Toughness",
+                    "src": "/img/frames/m15/regular/m15PTB.png",
+                    "masks": [],
+                    "bounds": {
+                        "height": 0.0733,
+                        "width": 0.188,
+                        "x": 0.7573,
+                        "y": 0.8848
+                    }
+                },
+                {
+                    "name": "Black Frame",
+                    "src": "/img/frames/m15/regular/m15FrameB.png",
+                    "masks": [
+                        {
+                            "src": "/img/frames/m15/regular/m15MaskPinline.png",
+                            "name": "Pinline"
+                        }
+                    ]
+                },
+                {
+                    "name": "Black Frame",
+                    "src": "/img/frames/m15/regular/m15FrameB.png",
+                    "masks": [
+                        {
+                            "src": "/img/frames/m15/regular/m15MaskType.png",
+                            "name": "Type"
+                        }
+                    ]
+                },
+                {
+                    "name": "Black Frame",
+                    "src": "/img/frames/m15/regular/m15FrameB.png",
+                    "masks": [
+                        {
+                            "src": "/img/frames/m15/regular/m15MaskTitle.png",
+                            "name": "Title"
+                        }
+                    ]
+                },
+                {
+                    "name": "Black Frame",
+                    "src": "/img/frames/m15/regular/m15FrameB.png",
+                    "masks": [
+                        {
+                            "src": "/img/frames/m15/regular/m15MaskRules.png",
+                            "name": "Rules"
+                        }
+                    ]
+                },
+                {
+                    "name": "Black Frame",
+                    "src": "/img/frames/m15/regular/m15FrameB.png",
+                    "masks": [
+                        {
+                            "src": "/img/frames/m15/regular/m15MaskFrame.png",
+                            "name": "Frame"
+                        }
+                    ]
+                },
+                {
+                    "name": "Black Frame",
+                    "src": "/img/frames/m15/regular/m15FrameB.png",
+                    "masks": [
+                        {
+                            "src": "/img/frames/m15/regular/m15MaskBorder.png",
+                            "name": "Border"
+                        }
+                    ]
+                }
+            ],
+            "artSource": "https://corsproxy.io/?url=https%3A%2F%2Fstatic.wikia.nocookie.net%2Fvillains%2Fimages%2Fc%2Fc9%2FPaintedRenoir.png",
+            "artX": 0.07462686567164178,
+            "artY": 0.08884150675195451,
+            "artZoom": 1.6640000000000001,
+            "artRotate": "0",
+            "setSymbolSource": "https://cardconjurer.app/img/setSymbols/official/pz1-r.svg",
+            "setSymbolX": 0.8706467661691543,
+            "setSymbolY": 0.5707178393745558,
+            "setSymbolZoom": 0.34700000000000003,
+            "watermarkSource": "https://cardconjurer.app/img/blank.png",
+            "watermarkX": 0.33880597014925373,
+            "watermarkY": 0.6609808102345416,
+            "watermarkZoom": 649,
+            "watermarkLeft": "#b79d58",
+            "watermarkRight": "none",
+            "watermarkOpacity": 0.4,
+            "version": "m15Regular",
+            "manaSymbols": [],
+            "infoYear": "2025",
+            "margins": true,
+            "bottomInfoTranslate": {
+                "x": 0,
+                "y": 0
+            },
+            "bottomInfoRotate": 0,
+            "bottomInfoZoom": 1,
+            "bottomInfoColor": "white",
+            "onload": null,
+            "hideBottomInfoBorder": false,
+            "showsFlavorBar": true,
+            "bottomInfo": {
+                "midLeft": {
+                    "text": "{elemidinfo-set} • {elemidinfo-language}  {savex}{fontbelerenbsc}{fontsize3}{upinline1}￮{savex2}{elemidinfo-artist}",
+                    "x": 0.0647,
+                    "y": 0.9548,
+                    "width": 0.8707,
+                    "height": 0.0171,
+                    "oneLine": true,
+                    "font": "gothammedium",
+                    "size": 0.0171,
+                    "color": "white",
+                    "outlineWidth": 0.003,
+                    "name": "midLeft"
+                },
+                "topLeft": {
+                    "text": "{elemidinfo-number}",
+                    "x": 0.0647,
+                    "y": 0.9377,
+                    "width": 0.8707,
+                    "height": 0.0171,
+                    "oneLine": true,
+                    "font": "gothammedium",
+                    "size": 0.0171,
+                    "color": "white",
+                    "outlineWidth": 0.003,
+                    "name": "topLeft"
+                },
+                "note": {
+                    "text": "{loadx2}{elemidinfo-note}",
+                    "x": 0.0647,
+                    "y": 0.9377,
+                    "width": 0.8707,
+                    "height": 0.0171,
+                    "oneLine": true,
+                    "font": "gothammedium",
+                    "size": 0.0171,
+                    "color": "white",
+                    "outlineWidth": 0.003,
+                    "name": "note"
+                },
+                "rarity": {
+                    "text": "{loadx}{elemidinfo-rarity}",
+                    "x": 0.0647,
+                    "y": 0.9377,
+                    "width": 0.8707,
+                    "height": 0.0171,
+                    "oneLine": true,
+                    "font": "gothammedium",
+                    "size": 0.0171,
+                    "color": "white",
+                    "outlineWidth": 0.003,
+                    "name": "rarity"
+                },
+                "bottomLeft": {
+                    "text": "NOT FOR SALE",
+                    "x": 0.0647,
+                    "y": 0.9719,
+                    "width": 0.8707,
+                    "height": 0.0143,
+                    "oneLine": true,
+                    "font": "gothammedium",
+                    "size": 0.0143,
+                    "color": "white",
+                    "outlineWidth": 0.003
+                },
+                "wizards": {
+                    "name": "wizards",
+                    "text": "{ptshift0,0.0172}™ & © {elemidinfo-year} Wizards of the Coast",
+                    "x": 0.0647,
+                    "y": 0.9377,
+                    "width": 0.8707,
+                    "height": 0.0167,
+                    "oneLine": true,
+                    "font": "mplantin",
+                    "size": 0.0162,
+                    "color": "white",
+                    "align": "right",
+                    "outlineWidth": 0.003
+                },
+                "bottomRight": {
+                    "text": "{ptshift0,0.0172}CardConjurer.com",
+                    "x": 0.0647,
+                    "y": 0.9548,
+                    "width": 0.8707,
+                    "height": 0.0143,
+                    "oneLine": true,
+                    "font": "mplantin",
+                    "size": 0.0143,
+                    "color": "white",
+                    "align": "right",
+                    "outlineWidth": 0.003
+                }
+            },
+            "artBounds": {
+                "x": 0.0767,
+                "y": 0.1129,
+                "width": 0.8476,
+                "height": 0.4429
+            },
+            "setSymbolBounds": {
+                "x": 0.9213,
+                "y": 0.591,
+                "width": 0.12,
+                "height": 0.041,
+                "vertical": "center",
+                "horizontal": "right"
+            },
+            "watermarkBounds": {
+                "x": 0.5,
+                "y": 0.7762,
+                "width": 0.75,
+                "height": 0.2305
+            },
+            "text": {
+                "mana": {
+                    "name": "Mana Cost",
+                    "text": "3 B B",
+                    "y": 0.0613,
+                    "width": 0.9292,
+                    "height": 0.03380952380952381,
+                    "oneLine": true,
+                    "size": 0.043345543345543344,
+                    "align": "right",
+                    "shadowX": -0.001,
+                    "shadowY": 0.0029,
+                    "manaCost": true,
+                    "manaSpacing": 0
+                },
+                "title": {
+                    "name": "Title",
+                    "text": "Painted Renoir, Aline’s Enforcer",
+                    "x": 0.0854,
+                    "y": 0.0522,
+                    "width": 0.8292,
+                    "height": 0.0543,
+                    "oneLine": true,
+                    "font": "belerenb",
+                    "size": 0.0381,
+                    "fontSize": "-10"
+                },
+                "type": {
+                    "name": "Type",
+                    "text": "Legendary Creature - Painter God",
+                    "x": 0.0854,
+                    "y": 0.5664,
+                    "width": 0.8292,
+                    "height": 0.0543,
+                    "oneLine": true,
+                    "font": "belerenb",
+                    "size": 0.0324
+                },
+                "rules": {
+                    "name": "Rules Text",
+                    "text": "Fear\n{i}Summons Dark Beast{/i} — When Painted Renoir enters and at the beginning of your upkeep, you may create Dark Chromatic Beast, a legendary 5/5 black Beast creature with Trample and Lifelink.\n{i}Sends waves of Chroma{/i} — {B}{B}, {T}, Sacrifice X Chromas: Creatures target opponent controls get -X/-X until end of turn.{flavor}Your sister deserves more.",
+                    "x": 0.086,
+                    "y": 0.6303,
+                    "width": 0.828,
+                    "height": 0.2875,
+                    "size": 0.0362
+                },
+                "pt": {
+                    "name": "Power/Toughness",
+                    "text": "4/4",
+                    "x": 0.7928,
+                    "y": 0.902,
+                    "width": 0.1367,
+                    "height": 0.0372,
+                    "size": 0.0372,
+                    "font": "belerenbsc",
+                    "oneLine": true,
+                    "align": "center"
+                }
+            },
+            "infoNumber": "2025",
+            "infoRarity": "R",
+            "infoSet": "E33",
+            "infoLanguage": "EN",
+            "infoArtist": "Sandfall Interactive",
+            "infoNote": "Proxy, Not for Sale",
+            "serialNumber": "",
+            "serialTotal": "",
+            "serialX": "",
+            "serialY": "",
+            "serialScale": ""
+        }
+    },
+    {
         "key": "Piercing Strike",
         "data": {
             "width": 2010,
@@ -55452,6 +56423,346 @@
             "serialX": "",
             "serialY": "",
             "serialScale": ""
+        }
+    },
+    {
+        "key": "Renoir, Dessendre Patriarch",
+        "data": {
+            "width": 2010,
+            "height": 2814,
+            "marginX": 0.044,
+            "marginY": 0.02857142857142857,
+            "frames": [
+                {
+                    "name": "Down Arrow",
+                    "src": "/img/frames/m15/transform/icons/downArrow.png",
+                    "bounds": {
+                        "x": 0.06616915422885572,
+                        "y": 0.04477611940298507,
+                        "width": 0.05970149253731343,
+                        "height": 0.042643923240938165
+                    },
+                    "masks": [],
+                    "ogBounds": {
+                        "x": 0.0594,
+                        "y": 0.0505,
+                        "width": 0.0734,
+                        "height": 0.0524
+                    }
+                },
+                {
+                    "name": "Black Pip",
+                    "src": "/img/frames/m15/ciPips/b.svg",
+                    "masks": [],
+                    "complementary": [
+                        5
+                    ]
+                },
+                {
+                    "name": "Color Identity Pip Base",
+                    "src": "/img/frames/m15/ciPips/base.png",
+                    "bounds": {
+                        "x": 0.0767,
+                        "y": 0.5748,
+                        "width": 0.0467,
+                        "height": 0.0334
+                    },
+                    "masks": []
+                },
+                {
+                    "name": "Black Extension",
+                    "src": "/img/frames/margins/blackBorderExtension.png",
+                    "bounds": {
+                        "x": -0.044,
+                        "y": -0.02857142857142857,
+                        "width": 1.088,
+                        "height": 1.0571428571428572
+                    },
+                    "masks": []
+                },
+                {
+                    "name": "Loyalty Box",
+                    "src": "/img/frames/planeswalker/transform/loyalty.png",
+                    "bounds": {
+                        "x": 0.8,
+                        "y": 0.8796,
+                        "width": 0.152,
+                        "height": 0.0677
+                    },
+                    "masks": []
+                },
+                {
+                    "name": "Black Frame (Back)",
+                    "src": "/img/frames/planeswalker/transform/bb.png",
+                    "masks": []
+                }
+            ],
+            "artSource": "https://corsproxy.io/?url=https%3A%2F%2Fstatic.wikia.nocookie.net%2Fvillains%2Fimages%2F2%2F29%2FReynaud-alan-portfolio-render-w-background-char-real-renoir.jpg",
+            "artX": -0.7199004975124378,
+            "artY": 0.09168443496801706,
+            "artZoom": 2.597,
+            "artRotate": "0",
+            "setSymbolSource": "https://cardconjurer.app/img/setSymbols/official/pz1-m.svg",
+            "setSymbolX": 0.8756218905472637,
+            "setSymbolY": 0.570362473347548,
+            "setSymbolZoom": 0.32299999999999995,
+            "watermarkSource": "https://cardconjurer.app/img/blank.png",
+            "watermarkX": 0.33880597014925373,
+            "watermarkY": 0.6609808102345416,
+            "watermarkZoom": 649,
+            "watermarkLeft": "#b79d58",
+            "watermarkRight": "none",
+            "watermarkOpacity": 0.4,
+            "version": "planeswalkerTransformBack",
+            "manaSymbols": [],
+            "infoYear": "2025",
+            "margins": true,
+            "bottomInfoTranslate": {
+                "x": 0,
+                "y": 0
+            },
+            "bottomInfoRotate": 0,
+            "bottomInfoZoom": 1,
+            "bottomInfoColor": "white",
+            "onload": "/js/frames/versionPlaneswalker.js",
+            "hideBottomInfoBorder": false,
+            "showsFlavorBar": true,
+            "bottomInfo": {
+                "midLeft": {
+                    "text": "{elemidinfo-set} • {elemidinfo-language}  {savex}{fontbelerenbsc}{fontsize3}{upinline1}￮{savex2}{elemidinfo-artist}",
+                    "x": 0.0647,
+                    "y": 0.9548,
+                    "width": 0.8707,
+                    "height": 0.0171,
+                    "oneLine": true,
+                    "font": "gothammedium",
+                    "size": 0.0171,
+                    "color": "white",
+                    "outlineWidth": 0.003,
+                    "name": "midLeft"
+                },
+                "topLeft": {
+                    "text": "{elemidinfo-number}",
+                    "x": 0.0647,
+                    "y": 0.9377,
+                    "width": 0.8707,
+                    "height": 0.0171,
+                    "oneLine": true,
+                    "font": "gothammedium",
+                    "size": 0.0171,
+                    "color": "white",
+                    "outlineWidth": 0.003,
+                    "name": "topLeft"
+                },
+                "note": {
+                    "text": "{loadx2}{elemidinfo-note}",
+                    "x": 0.0647,
+                    "y": 0.9377,
+                    "width": 0.8707,
+                    "height": 0.0171,
+                    "oneLine": true,
+                    "font": "gothammedium",
+                    "size": 0.0171,
+                    "color": "white",
+                    "outlineWidth": 0.003,
+                    "name": "note"
+                },
+                "rarity": {
+                    "text": "{loadx}{elemidinfo-rarity}",
+                    "x": 0.0647,
+                    "y": 0.9377,
+                    "width": 0.8707,
+                    "height": 0.0171,
+                    "oneLine": true,
+                    "font": "gothammedium",
+                    "size": 0.0171,
+                    "color": "white",
+                    "outlineWidth": 0.003,
+                    "name": "rarity"
+                },
+                "bottomLeft": {
+                    "text": "NOT FOR SALE",
+                    "x": 0.0647,
+                    "y": 0.9719,
+                    "width": 0.8707,
+                    "height": 0.0143,
+                    "oneLine": true,
+                    "font": "gothammedium",
+                    "size": 0.0143,
+                    "color": "white",
+                    "outlineWidth": 0.003
+                },
+                "wizards": {
+                    "name": "wizards",
+                    "text": "{ptshift0,0.0172}™ & © {elemidinfo-year} Wizards of the Coast",
+                    "x": 0.0647,
+                    "y": 0.9377,
+                    "width": 0.8707,
+                    "height": 0.0167,
+                    "oneLine": true,
+                    "font": "mplantin",
+                    "size": 0.0162,
+                    "color": "white",
+                    "align": "right",
+                    "outlineWidth": 0.003
+                },
+                "bottomRight": {
+                    "text": "{ptshift0,0.0172}CardConjurer.com",
+                    "x": 0.0647,
+                    "y": 0.9548,
+                    "width": 0.8707,
+                    "height": 0.0143,
+                    "oneLine": true,
+                    "font": "mplantin",
+                    "size": 0.0143,
+                    "color": "white",
+                    "align": "right",
+                    "outlineWidth": 0.003
+                }
+            },
+            "artBounds": {
+                "x": 0.068,
+                "y": 0.101,
+                "width": 0.864,
+                "height": 0.8143
+            },
+            "setSymbolBounds": {
+                "x": 0.9227,
+                "y": 0.5891,
+                "width": 0.12,
+                "height": 0.0381,
+                "vertical": "center",
+                "horizontal": "right"
+            },
+            "watermarkBounds": {
+                "x": 0.5,
+                "y": 0.7762,
+                "width": 0.75,
+                "height": 0.2305
+            },
+            "text": {
+                "mana": {
+                    "name": "Mana Cost",
+                    "text": "",
+                    "y": 0.0481,
+                    "width": 0.9292,
+                    "height": 0.03380952380952381,
+                    "oneLine": true,
+                    "size": 0.043345543345543344,
+                    "align": "right",
+                    "shadowX": -0.001,
+                    "shadowY": 0.0029,
+                    "manaCost": true,
+                    "manaSpacing": 0
+                },
+                "title": {
+                    "name": "Title",
+                    "text": "Renoir, Dessendre Patriarch",
+                    "x": 0.16,
+                    "y": 0.0372,
+                    "width": 0.8292,
+                    "height": 0.0548,
+                    "oneLine": true,
+                    "font": "belerenb",
+                    "size": 0.0381,
+                    "color": "white"
+                },
+                "type": {
+                    "name": "Type",
+                    "text": "Legendary Planeswalker - Renoir",
+                    "x": 0.1307,
+                    "y": 0.5625,
+                    "width": 0.7827,
+                    "height": 0.0548,
+                    "oneLine": true,
+                    "font": "belerenb",
+                    "size": 0.0324,
+                    "color": "white"
+                },
+                "ability0": {
+                    "name": "Ability 1",
+                    "text": "Whenever a Nevron you control dies, draw a card and each opponent discards a card.\nReveal the top card of your library. If it is a Nevron, Painter or Gradient card, put it into your hand.",
+                    "x": 0.18,
+                    "y": 0.6239,
+                    "width": 0.7467,
+                    "height": 0.1493,
+                    "size": 0.0353,
+                    "fontSize": "-32"
+                },
+                "ability1": {
+                    "name": "Ability 2",
+                    "text": "Return target Nevron card from your graveyard to the battlefield.",
+                    "x": 0.18,
+                    "y": 0.7732,
+                    "width": 0.7467,
+                    "height": 0.064,
+                    "size": 0.0353,
+                    "fontSize": "-32"
+                },
+                "ability2": {
+                    "name": "Ability 3",
+                    "text": "Exile all non-Nevron, non-Painter creatures.",
+                    "x": 0.18,
+                    "y": 0.8371999999999999,
+                    "width": 0.7467,
+                    "height": 0.0569,
+                    "size": 0.0353,
+                    "fontSize": "-32"
+                },
+                "ability3": {
+                    "name": "Ability 4",
+                    "text": "",
+                    "x": 0.136,
+                    "y": 0.8940999999999999,
+                    "width": 0.7907000000000001,
+                    "height": 0,
+                    "size": 0.0353
+                },
+                "loyalty": {
+                    "name": "Loyalty",
+                    "text": "5",
+                    "x": 0.806,
+                    "y": 0.902,
+                    "width": 0.14,
+                    "height": 0.0372,
+                    "size": 0.0372,
+                    "font": "belerenbsc",
+                    "oneLine": true,
+                    "align": "center",
+                    "color": "white"
+                }
+            },
+            "infoNumber": "2025",
+            "infoRarity": "M",
+            "infoSet": "E33",
+            "infoLanguage": "EN",
+            "infoArtist": "Sandfall Interactive",
+            "infoNote": "Proxy, Not for Sale",
+            "serialNumber": "",
+            "serialTotal": "",
+            "serialX": "",
+            "serialY": "",
+            "serialScale": "",
+            "planeswalker": {
+                "abilities": [
+                    "+2",
+                    "-4",
+                    "-10",
+                    ""
+                ],
+                "abilityAdjust": [
+                    0.051883439943141436,
+                    0.04797441364605544,
+                    0.021321961620469083,
+                    0.006041222459132907
+                ],
+                "count": 3,
+                "x": 0.1167,
+                "width": 0.8094,
+                "orig_ability_textbox_x": 0.18,
+                "orig_ability_textbox_width": 0.7467,
+                "invert": false
+            }
         }
     },
     {
@@ -57969,7 +59280,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Flying. Ward 3.\n{1}{U}: Tap target creature and put a stun counter on it. Put a charge counter on this creature.\n{4}{R}, Remove X charge counters from Serpenphare: Serpenphare deals X damage to each creature.{flavor}An omnipresent feature of the continent skies. A reminder that before one can even reach The Monolith, one must get past Serpenphare.",
+                    "text": "Flying. Ward 3.\n{i}Absorbs all APs{/i} — {2}{U}: Tap target creature and put a stun counter on it. Put a charge counter on Serpenphare.\n{i}Absorbed too many APs, explodes{/i} — {4}{R}, Remove X charge counters from Serpenphare: Serpenphare deals X damage to each creature.{flavor}An omnipresent feature of the continent skies. A reminder that before one can even reach The Monolith, one must get past Serpenphare.",
                     "x": 0.086,
                     "y": 0.6325515280739161,
                     "width": 0.828,
@@ -59488,7 +60799,7 @@
                 },
                 "type": {
                     "name": "Type",
-                    "text": "Instant",
+                    "text": "Instant - Gradient",
                     "x": 0.0854,
                     "y": 0.5664,
                     "width": 0.8292,
@@ -60420,6 +61731,270 @@
                     "y": 0.902,
                     "width": 0.1367,
                     "height": 0.03624733475479744,
+                    "size": 0.0372,
+                    "font": "belerenbsc",
+                    "oneLine": true,
+                    "align": "center"
+                }
+            },
+            "infoNumber": "2025",
+            "infoRarity": "M",
+            "infoSet": "E33",
+            "infoLanguage": "EN",
+            "infoArtist": "Sandfall Interactive",
+            "infoNote": "Proxy, Not for Sale",
+            "serialNumber": "",
+            "serialTotal": "",
+            "serialX": "",
+            "serialY": "",
+            "serialScale": ""
+        }
+    },
+    {
+        "key": "The Curator",
+        "data": {
+            "width": 2010,
+            "height": 2814,
+            "marginX": 0.044,
+            "marginY": 0.02857142857142857,
+            "frames": [
+                {
+                    "name": "Black Extension",
+                    "src": "/img/frames/margins/blackBorderExtension.png",
+                    "bounds": {
+                        "x": -0.044,
+                        "y": -0.02857142857142857,
+                        "width": 1.088,
+                        "height": 1.0571428571428572
+                    },
+                    "masks": []
+                },
+                {
+                    "name": "Multicolored Power/Toughness",
+                    "src": "/img/frames/m15/regular/m15PTM.png",
+                    "bounds": {
+                        "x": 0.7573,
+                        "y": 0.8848,
+                        "width": 0.188,
+                        "height": 0.0733
+                    },
+                    "masks": []
+                },
+                {
+                    "name": "Multicolored Frame",
+                    "src": "/img/frames/m15/transform/regular/frontM.png",
+                    "masks": []
+                }
+            ],
+            "artSource": "https://corsproxy.io/?url=https%3A%2F%2Fstatic.wikia.nocookie.net%2Fvillains%2Fimages%2F7%2F7c%2FHow-to-upgrade-weapons-in-Clair-Obscur-Expedition-33.png",
+            "artX": -0.050248756218905476,
+            "artY": 0.11300639658848614,
+            "artZoom": 1.6059999999999999,
+            "artRotate": "0",
+            "setSymbolSource": "https://cardconjurer.app/img/setSymbols/official/pz1-m.svg",
+            "setSymbolX": 0.8706467661691543,
+            "setSymbolY": 0.5707178393745558,
+            "setSymbolZoom": 0.34700000000000003,
+            "watermarkSource": "https://cardconjurer.app/img/blank.png",
+            "watermarkX": 0.33880597014925373,
+            "watermarkY": 0.6609808102345416,
+            "watermarkZoom": 649,
+            "watermarkLeft": "#b79d58",
+            "watermarkRight": "none",
+            "watermarkOpacity": 0.4,
+            "version": "m15TransformFront",
+            "manaSymbols": [],
+            "infoYear": "2025",
+            "margins": true,
+            "bottomInfoTranslate": {
+                "x": 0,
+                "y": 0
+            },
+            "bottomInfoRotate": 0,
+            "bottomInfoZoom": 1,
+            "bottomInfoColor": "white",
+            "onload": null,
+            "hideBottomInfoBorder": false,
+            "showsFlavorBar": true,
+            "bottomInfo": {
+                "midLeft": {
+                    "text": "{elemidinfo-set} • {elemidinfo-language}  {savex}{fontbelerenbsc}{fontsize3}{upinline1}￮{savex2}{elemidinfo-artist}",
+                    "x": 0.0647,
+                    "y": 0.9548,
+                    "width": 0.8707,
+                    "height": 0.0171,
+                    "oneLine": true,
+                    "font": "gothammedium",
+                    "size": 0.0171,
+                    "color": "white",
+                    "outlineWidth": 0.003,
+                    "name": "midLeft"
+                },
+                "topLeft": {
+                    "text": "{elemidinfo-number}",
+                    "x": 0.0647,
+                    "y": 0.9377,
+                    "width": 0.8707,
+                    "height": 0.0171,
+                    "oneLine": true,
+                    "font": "gothammedium",
+                    "size": 0.0171,
+                    "color": "white",
+                    "outlineWidth": 0.003,
+                    "name": "topLeft"
+                },
+                "note": {
+                    "text": "{loadx2}{elemidinfo-note}",
+                    "x": 0.0647,
+                    "y": 0.9377,
+                    "width": 0.8707,
+                    "height": 0.0171,
+                    "oneLine": true,
+                    "font": "gothammedium",
+                    "size": 0.0171,
+                    "color": "white",
+                    "outlineWidth": 0.003,
+                    "name": "note"
+                },
+                "rarity": {
+                    "text": "{loadx}{elemidinfo-rarity}",
+                    "x": 0.0647,
+                    "y": 0.9377,
+                    "width": 0.8707,
+                    "height": 0.0171,
+                    "oneLine": true,
+                    "font": "gothammedium",
+                    "size": 0.0171,
+                    "color": "white",
+                    "outlineWidth": 0.003,
+                    "name": "rarity"
+                },
+                "bottomLeft": {
+                    "text": "NOT FOR SALE",
+                    "x": 0.0647,
+                    "y": 0.9719,
+                    "width": 0.8707,
+                    "height": 0.0143,
+                    "oneLine": true,
+                    "font": "gothammedium",
+                    "size": 0.0143,
+                    "color": "white",
+                    "outlineWidth": 0.003
+                },
+                "wizards": {
+                    "name": "wizards",
+                    "text": "{ptshift0,0.0172}™ & © {elemidinfo-year} Wizards of the Coast",
+                    "x": 0.0647,
+                    "y": 0.9377,
+                    "width": 0.8707,
+                    "height": 0.0167,
+                    "oneLine": true,
+                    "font": "mplantin",
+                    "size": 0.0162,
+                    "color": "white",
+                    "align": "right",
+                    "outlineWidth": 0.003
+                },
+                "bottomRight": {
+                    "text": "{ptshift0,0.0172}CardConjurer.com",
+                    "x": 0.0647,
+                    "y": 0.9548,
+                    "width": 0.8707,
+                    "height": 0.0143,
+                    "oneLine": true,
+                    "font": "mplantin",
+                    "size": 0.0143,
+                    "color": "white",
+                    "align": "right",
+                    "outlineWidth": 0.003
+                }
+            },
+            "artBounds": {
+                "x": 0.0767,
+                "y": 0.1129,
+                "width": 0.8476,
+                "height": 0.4429
+            },
+            "setSymbolBounds": {
+                "x": 0.9213,
+                "y": 0.591,
+                "width": 0.12,
+                "height": 0.041,
+                "vertical": "center",
+                "horizontal": "right"
+            },
+            "watermarkBounds": {
+                "x": 0.5,
+                "y": 0.7762,
+                "width": 0.75,
+                "height": 0.2305
+            },
+            "text": {
+                "mana": {
+                    "name": "Mana Cost",
+                    "text": "2 W U B",
+                    "y": 0.0613,
+                    "width": 0.9292,
+                    "height": 0.03380952380952381,
+                    "oneLine": true,
+                    "size": 0.043345543345543344,
+                    "align": "right",
+                    "shadowX": -0.001,
+                    "shadowY": 0.0029,
+                    "manaCost": true,
+                    "manaSpacing": 0
+                },
+                "title": {
+                    "name": "Title",
+                    "text": "The Curator",
+                    "x": 0.16,
+                    "y": 0.0522,
+                    "width": 0.7547,
+                    "height": 0.0543,
+                    "oneLine": true,
+                    "font": "belerenb",
+                    "size": 0.0381
+                },
+                "type": {
+                    "name": "Type",
+                    "text": "Legendary Creature - Painter Spirit",
+                    "x": 0.0854,
+                    "y": 0.5664,
+                    "width": 0.8292,
+                    "height": 0.0543,
+                    "oneLine": true,
+                    "font": "belerenb",
+                    "size": 0.0324
+                },
+                "rules": {
+                    "name": "Rules Text",
+                    "text": "{i}Picto Reinforcement{/i} — {2}{U}, {T}: Create two Lumina tokens.\n{i}Upgrades your weapons{/i} — {2}{W}, {T}: Distribute two +1/+1 counters among one or two target creatures.\n{i}Latent skill activation{/i} — {3}{B}, {T}, Exert an Expeditioner: Destroy target creature.\nWhen The Curator dies, return it to the battlefield transformed under it’s owner’s control.",
+                    "x": 0.086,
+                    "y": 0.6303,
+                    "width": 0.828,
+                    "height": 0.26652452025586354,
+                    "size": 0.0362
+                },
+                "reminder": {
+                    "name": "Reverse PT",
+                    "text": "",
+                    "x": 0.086,
+                    "y": 0.842,
+                    "width": 0.838,
+                    "height": 0.0362,
+                    "size": 0.0291,
+                    "oneLine": true,
+                    "color": "#666",
+                    "align": "right",
+                    "font": "belerenbsc"
+                },
+                "pt": {
+                    "name": "Power/Toughness",
+                    "text": "4/5",
+                    "x": 0.7928,
+                    "y": 0.902,
+                    "width": 0.1367,
+                    "height": 0.0372,
                     "size": 0.0372,
                     "font": "belerenbsc",
                     "oneLine": true,
@@ -62296,6 +63871,270 @@
             },
             "infoNumber": "2025",
             "infoRarity": "R",
+            "infoSet": "E33",
+            "infoLanguage": "EN",
+            "infoArtist": "Sandfall Interactive",
+            "infoNote": "Proxy, Not for Sale",
+            "serialNumber": "",
+            "serialTotal": "",
+            "serialX": "",
+            "serialY": "",
+            "serialScale": ""
+        }
+    },
+    {
+        "key": "The Paintress",
+        "data": {
+            "width": 2010,
+            "height": 2814,
+            "marginX": 0.044,
+            "marginY": 0.02857142857142857,
+            "frames": [
+                {
+                    "name": "Black Extension",
+                    "src": "/img/frames/margins/blackBorderExtension.png",
+                    "bounds": {
+                        "x": -0.044,
+                        "y": -0.02857142857142857,
+                        "width": 1.088,
+                        "height": 1.0571428571428572
+                    },
+                    "masks": []
+                },
+                {
+                    "name": "Multicolored Power/Toughness",
+                    "src": "/img/frames/m15/regular/m15PTM.png",
+                    "bounds": {
+                        "x": 0.7573,
+                        "y": 0.8848,
+                        "width": 0.188,
+                        "height": 0.0733
+                    },
+                    "masks": []
+                },
+                {
+                    "name": "Multicolored Frame",
+                    "src": "/img/frames/m15/transform/regular/frontM.png",
+                    "masks": []
+                }
+            ],
+            "artSource": "https://corsproxy.io/?url=https%3A%2F%2Fstatic.wikia.nocookie.net%2Fvillains%2Fimages%2F8%2F8b%2FE33_The_Paintress.PNG",
+            "artX": 0.06069651741293532,
+            "artY": -0.02025586353944563,
+            "artZoom": 1.48,
+            "artRotate": "0",
+            "setSymbolSource": "https://cardconjurer.app/img/setSymbols/official/pz1-m.svg",
+            "setSymbolX": 0.8706467661691543,
+            "setSymbolY": 0.5707178393745558,
+            "setSymbolZoom": 0.34700000000000003,
+            "watermarkSource": "https://cardconjurer.app/img/blank.png",
+            "watermarkX": 0.33880597014925373,
+            "watermarkY": 0.6609808102345416,
+            "watermarkZoom": 649,
+            "watermarkLeft": "#b79d58",
+            "watermarkRight": "none",
+            "watermarkOpacity": 0.4,
+            "version": "m15TransformFront",
+            "manaSymbols": [],
+            "infoYear": "2025",
+            "margins": true,
+            "bottomInfoTranslate": {
+                "x": 0,
+                "y": 0
+            },
+            "bottomInfoRotate": 0,
+            "bottomInfoZoom": 1,
+            "bottomInfoColor": "white",
+            "onload": null,
+            "hideBottomInfoBorder": false,
+            "showsFlavorBar": true,
+            "bottomInfo": {
+                "midLeft": {
+                    "text": "{elemidinfo-set} • {elemidinfo-language}  {savex}{fontbelerenbsc}{fontsize3}{upinline1}￮{savex2}{elemidinfo-artist}",
+                    "x": 0.0647,
+                    "y": 0.9548,
+                    "width": 0.8707,
+                    "height": 0.0171,
+                    "oneLine": true,
+                    "font": "gothammedium",
+                    "size": 0.0171,
+                    "color": "white",
+                    "outlineWidth": 0.003,
+                    "name": "midLeft"
+                },
+                "topLeft": {
+                    "text": "{elemidinfo-number}",
+                    "x": 0.0647,
+                    "y": 0.9377,
+                    "width": 0.8707,
+                    "height": 0.0171,
+                    "oneLine": true,
+                    "font": "gothammedium",
+                    "size": 0.0171,
+                    "color": "white",
+                    "outlineWidth": 0.003,
+                    "name": "topLeft"
+                },
+                "note": {
+                    "text": "{loadx2}{elemidinfo-note}",
+                    "x": 0.0647,
+                    "y": 0.9377,
+                    "width": 0.8707,
+                    "height": 0.0171,
+                    "oneLine": true,
+                    "font": "gothammedium",
+                    "size": 0.0171,
+                    "color": "white",
+                    "outlineWidth": 0.003,
+                    "name": "note"
+                },
+                "rarity": {
+                    "text": "{loadx}{elemidinfo-rarity}",
+                    "x": 0.0647,
+                    "y": 0.9377,
+                    "width": 0.8707,
+                    "height": 0.0171,
+                    "oneLine": true,
+                    "font": "gothammedium",
+                    "size": 0.0171,
+                    "color": "white",
+                    "outlineWidth": 0.003,
+                    "name": "rarity"
+                },
+                "bottomLeft": {
+                    "text": "NOT FOR SALE",
+                    "x": 0.0647,
+                    "y": 0.9719,
+                    "width": 0.8707,
+                    "height": 0.0143,
+                    "oneLine": true,
+                    "font": "gothammedium",
+                    "size": 0.0143,
+                    "color": "white",
+                    "outlineWidth": 0.003
+                },
+                "wizards": {
+                    "name": "wizards",
+                    "text": "{ptshift0,0.0172}™ & © {elemidinfo-year} Wizards of the Coast",
+                    "x": 0.0647,
+                    "y": 0.9377,
+                    "width": 0.8707,
+                    "height": 0.0167,
+                    "oneLine": true,
+                    "font": "mplantin",
+                    "size": 0.0162,
+                    "color": "white",
+                    "align": "right",
+                    "outlineWidth": 0.003
+                },
+                "bottomRight": {
+                    "text": "{ptshift0,0.0172}CardConjurer.com",
+                    "x": 0.0647,
+                    "y": 0.9548,
+                    "width": 0.8707,
+                    "height": 0.0143,
+                    "oneLine": true,
+                    "font": "mplantin",
+                    "size": 0.0143,
+                    "color": "white",
+                    "align": "right",
+                    "outlineWidth": 0.003
+                }
+            },
+            "artBounds": {
+                "x": 0.0767,
+                "y": 0.1129,
+                "width": 0.8476,
+                "height": 0.4429
+            },
+            "setSymbolBounds": {
+                "x": 0.9213,
+                "y": 0.591,
+                "width": 0.12,
+                "height": 0.041,
+                "vertical": "center",
+                "horizontal": "right"
+            },
+            "watermarkBounds": {
+                "x": 0.5,
+                "y": 0.7762,
+                "width": 0.75,
+                "height": 0.2305
+            },
+            "text": {
+                "mana": {
+                    "name": "Mana Cost",
+                    "text": "W U R G",
+                    "y": 0.0613,
+                    "width": 0.9292,
+                    "height": 0.03380952380952381,
+                    "oneLine": true,
+                    "size": 0.043345543345543344,
+                    "align": "right",
+                    "shadowX": -0.001,
+                    "shadowY": 0.0029,
+                    "manaCost": true,
+                    "manaSpacing": 0
+                },
+                "title": {
+                    "name": "Title",
+                    "text": "The Paintress",
+                    "x": 0.16,
+                    "y": 0.0522,
+                    "width": 0.7547,
+                    "height": 0.0543,
+                    "oneLine": true,
+                    "font": "belerenb",
+                    "size": 0.0381
+                },
+                "type": {
+                    "name": "Type",
+                    "text": "Legendary Creature - Painter God",
+                    "x": 0.0854,
+                    "y": 0.5664,
+                    "width": 0.8292,
+                    "height": 0.0543,
+                    "oneLine": true,
+                    "font": "belerenb",
+                    "size": 0.0324
+                },
+                "rules": {
+                    "name": "Rules Text",
+                    "text": "{i}Void Meteors{/i} — {2}{R}, {T}: The Paintress deals 3 damage divided as you choose among any number of target creatures.\n{i}Rips apart reality{/i} — {2}{U}, {T}: Up to two target nonland permanents phase out.\n{i}Heals an Expeditioner{/i} — {W}{G}, {T}: You gain 1 life for each Expeditioner you control.\nWhen The Paintress dies, return it to the battlefield transformed under it’s owner’s control.",
+                    "x": 0.086,
+                    "y": 0.6303,
+                    "width": 0.828,
+                    "height": 0.26652452025586354,
+                    "size": 0.0362
+                },
+                "reminder": {
+                    "name": "Reverse PT",
+                    "text": "",
+                    "x": 0.086,
+                    "y": 0.842,
+                    "width": 0.838,
+                    "height": 0.0362,
+                    "size": 0.0291,
+                    "oneLine": true,
+                    "color": "#666",
+                    "align": "right",
+                    "font": "belerenbsc"
+                },
+                "pt": {
+                    "name": "Power/Toughness",
+                    "text": "6/6",
+                    "x": 0.7928,
+                    "y": 0.902,
+                    "width": 0.1367,
+                    "height": 0.0372,
+                    "size": 0.0372,
+                    "font": "belerenbsc",
+                    "oneLine": true,
+                    "align": "center"
+                }
+            },
+            "infoNumber": "2025",
+            "infoRarity": "M",
             "infoSet": "E33",
             "infoLanguage": "EN",
             "infoArtist": "Sandfall Interactive",
@@ -66522,10 +68361,10 @@
                     ]
                 }
             ],
-            "artSource": "https://corsproxy.io/?url=https%3A%2F%2Fjumpinjackie.github.io%2Fe33-reference-art%2Fimages%2Fnoart.png",
-            "artX": 0.07661691542288557,
-            "artY": 0.1023454157782516,
-            "artZoom": 3.492,
+            "artSource": "https://corsproxy.io/?url=https%3A%2F%2Fstatic.wikia.nocookie.net%2Fclair-obscur%2Fimages%2F0%2F09%2FCoe33_Gommaging_Painted_Alicia.jpg",
+            "artX": -0.4248756218905473,
+            "artY": 0.048329779673063254,
+            "artZoom": 1.61,
             "artRotate": "0",
             "setSymbolSource": "https://cardconjurer.app/img/setSymbols/official/pz1-r.svg",
             "setSymbolX": 0.8756218905472637,
@@ -68010,11 +69849,11 @@
                     "masks": []
                 }
             ],
-            "artSource": "https://corsproxy.io/?url=https%3A%2F%2Fjumpinjackie.github.io%2Fe33-reference-art%2Fimages%2Fnoart_split.png",
-            "artX": 0.1572139303482587,
-            "artY": 0.9303482587064676,
-            "artZoom": 2.45,
-            "artRotate": "-90",
+            "artSource": "https://corsproxy.io/?url=https%3A%2F%2Fjumpinjackie.github.io%2Fe33-reference-art%2Fimages%2Fcards%2Fwhee_whoo.png",
+            "artX": 0.15522388059701492,
+            "artY": 0.054371002132196165,
+            "artZoom": 0.9990000000000001,
+            "artRotate": "0",
             "setSymbolSource": "https://cardconjurer.app/img/setSymbols/official/pz1-u.svg",
             "setSymbolX": 1.9492537313432836,
             "setSymbolY": 1.9797441364605544,
