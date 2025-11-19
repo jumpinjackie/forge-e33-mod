@@ -1,0 +1,8 @@
+Name:Dark Chromatic Beast
+ManaCost:no cost
+Colors:black
+Types:Legendary Creature Beast
+PT:5/5
+K:Trample
+K:Lifelink
+Oracle:Trample. Lifelink.
