@@ -23,6 +23,9 @@ When The Curator dies, return it to the battlefield transformed under it’s own
 Picto Reinforcement
 Upgrades your weapons
 Latent skill activation
+[FlavorText]
+Lune: What is he?
+Maelle: I'm not sure, he doesn't really talk.
 [Artist]
 Sandfall Interactive
 [ForgeScript]
@@ -63,6 +66,6 @@ A:AB$ ChangeZoneAll | Cost$ SubCounter<10/LOYALTY> | Planeswalker$ True | Ultima
  - Abilities drawn from various abilities he offers at camp.
    - Latent skill activation is a nod to him "helping" Maelle gommage painted Renoir at the conclusion of his boss battle near the end of Act 2. Destroy instead of exile because her full painter powers are not yet fully unlocked.
  - As much as I personally despise double-faced cards (because of logistics around limited and sleeves, requiring paper hacks like checklist cards), flavorfully this has to be a creature that transforms to his Planeswalker half.
-   - If we ever print this, it will be printed over 2 cards and not as a double-faced one.
+   - If we ever print this, it will be printed over 2 cards and not as a double-faced one, because I want a printed version of this set to be playable as-is without sleeves (as Richard Garfield intended).
  - Is a Painter Spirit instead of Painter God because The Curator is Renoir's *ethereal* form that allows him to escape his prison at the bottom of the Monolith.
  - In terms of Planeswalker design it revolves around the Nevron/Painter alliance and abilities that benefit them both.

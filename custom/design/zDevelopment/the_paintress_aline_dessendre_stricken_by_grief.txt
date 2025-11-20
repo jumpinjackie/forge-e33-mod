@@ -23,6 +23,8 @@ When ~ dies, return it to the battlefield transformed under it's owner's control
 Void Meteors
 Rips apart reality
 Heals an Expeditioner
+[FlavorText]
+Arrogant Man. I taught him to Paint. And he seeks to use my creations against me?
 [Artist]
 Sandfall Interactive
 [ForgeScript]
@@ -61,10 +63,10 @@ A:AB$ ChangeZone | Cost$ SubCounter<3/LOYALTY> | Planeswalker$ True | ValidTgts$
 A:AB$ PumpAll | Cost$ SubCounter<8/LOYALTY> | Planeswalker$ True | Ultimate$ True | ValidCards$ Creature.YouCtrl | NumAtt$ +X | NumDef$ +X | SpellDescription$ Creatures you control gain +X/+X until end of turn, where X is the number of Chromas you control.
 SVar:X:Count$Valid Chroma.YouCtrl
 [DesignNotes]
- - In the game, The Paintress is the main antagonist, until the conclusion of Act 2, when you discover she is not.
+ - In the game, The Paintress is the main antagonist, until the conclusion of Act 2, when you discover she is not. She is in fact, trying to *protect* the people of Lumiere from the true instigator of the yearly Gommages (Renoir) and her yearly countdown on The Monolith is a signal of her waning powers in fighting against this tide.
  - Abilities drawn from the various moves she has in her boss battle. Because 2 of these 3 abilities already exist as separate cards, we've gone with slight tweaks/variations for the abilities here.
    - Void Meteors: Only deals 3 damage and can only target creatures.
    - Rips apart reality: Phases out permanents instead of putting it on top/bottom of owner's library.
  - As much as I personally despise double-faced cards (because of logistics around limited and sleeves, requiring paper hacks like checklist cards), flavorfully this has to be a creature that transforms to her Planeswalker half.
-   - If we ever print this, it will be printed over 2 cards and not as a double-faced one.
+   - If we ever print this, it will be printed over 2 cards and not as a double-faced one, because I want a printed version of this set to be playable as-is without sleeves (as Richard Garfield intended).
  - In terms of planeswalker design, the primary theme is around Chroma and her mastery of it.

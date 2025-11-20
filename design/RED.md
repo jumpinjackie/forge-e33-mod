@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 19/11/2025 8:49:55 am
+> Last generated: 20/11/2025 1:11:48 pm
 
 ## Anger
 
@@ -239,6 +239,30 @@ It's a gutting realization, what has to be done. The mission is too important. T
 
  - In the game, Expedition 48 was an expedition fraught with Mutiny and Treachery.
  - The mutinous nature has been captured with this creature joining the other side when one of your Expeditioner compatriots dies.
+
+## Persuasive Argument
+
+```
+2R
+Kindred Instant - Expeditioner
+Gain control of target creature until end of turn. Untap that creature. It gains haste until end of turn.
+Create a Lumina token.
+---
+Monoco: I will never join you again.
+Verso: There will be a lot of fighting though.
+Monoco: Oh yeah, that's true.
+Verso: Yeah, it's true.
+Monoco: There will be a lot of fighting.
+Verso: Exactly.
+Monoco: Count me in then.
+```
+
+[card implementation](../custom/cards/p/persuasive_argument.txt)
+
+### Design Notes
+
+ - In the game, Verso makes a persuasive argument that convinces Monoco to join the party.
+ - The card design is completely based on this conversation, and the easiest thing that comes to mind is a standard red temp creature spell.
 
 ## Potier
 

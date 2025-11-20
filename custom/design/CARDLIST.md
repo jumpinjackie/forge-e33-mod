@@ -165,6 +165,7 @@ Fortune's Fury
 Fracture Survivor
 Francois, Waiting for Clea
 Frozen Hearts
+Full Deck
 Gargant
 Gestral Arena
 Gestral Ascension Challenge
@@ -263,6 +264,7 @@ Painted Renoir, Aline's Enforcer
 Payback
 Percee
 Perfect Dodge
+Persuasive Argument
 Petank
 Phantom Strike
 Piercing Strike

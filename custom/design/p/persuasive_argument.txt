@@ -1,0 +1,28 @@
+[Name]
+Persuasive Argument
+[ManaCost]
+2
+R
+[Types]
+Kindred
+Instant
+Expeditioner
+[Rarity]
+U
+[Oracle]
+Gain control of target creature until end of turn. Untap that creature. It gains haste until end of turn.
+Create a Lumina token.
+[FlavorText]
+Monoco: I will never join you again.
+Verso: There will be a lot of fighting though.
+Monoco: Oh yeah, that's true.
+Verso: Yeah, it's true.
+Monoco: There will be a lot of fighting.
+Verso: Exactly.
+Monoco: Count me in then.
+[ForgeScript]
+A:SP$ GainControl | ValidTgts$ Creature | TgtPrompt$ Select target creature | LoseControl$ EOT | Untap$ True | AddKWs$ Haste | SubAbility$ DBChroma | SpellDescription$ Gain control of target creature until end of turn. Untap that creature. It gains haste until end of turn.
+SVar:DBChroma:DB$ Token | TokenAmount$ 1 | TokenOwner$ You | TokenScript$ c_a_lumina
+[DesignNotes]
+ - In the game, Verso makes a persuasive argument that convinces Monoco to join the party.
+ - The card design is completely based on this conversation, and the easiest thing that comes to mind is a standard red temp creature spell.

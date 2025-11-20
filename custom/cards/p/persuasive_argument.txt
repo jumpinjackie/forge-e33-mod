@@ -1,0 +1,6 @@
+Name:Persuasive Argument
+ManaCost:2 R
+Types:Kindred Instant Expeditioner
+A:SP$ GainControl | ValidTgts$ Creature | TgtPrompt$ Select target creature | LoseControl$ EOT | Untap$ True | AddKWs$ Haste | SubAbility$ DBChroma | SpellDescription$ Gain control of target creature until end of turn. Untap that creature. It gains haste until end of turn.
+SVar:DBChroma:DB$ Token | TokenAmount$ 1 | TokenOwner$ You | TokenScript$ c_a_lumina
+Oracle:Gain control of target creature until end of turn. Untap that creature. It gains haste until end of turn.\nCreate a Lumina token.

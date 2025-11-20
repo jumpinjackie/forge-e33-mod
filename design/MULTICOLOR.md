@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 19/11/2025 8:49:55 am
+> Last generated: 20/11/2025 1:11:48 pm
 
 ## A Storm is Coming
 
@@ -1257,7 +1257,7 @@ Whenever a Nevron you control dies, draw a card and each opponent discards a car
  - Abilities drawn from various abilities he offers at camp.
    - Latent skill activation is a nod to him "helping" Maelle gommage painted Renoir at the conclusion of his boss battle near the end of Act 2. Destroy instead of exile because her full painter powers are not yet fully unlocked.
  - As much as I personally despise double-faced cards (because of logistics around limited and sleeves, requiring paper hacks like checklist cards), flavorfully this has to be a creature that transforms to his Planeswalker half.
-   - If we ever print this, it will be printed over 2 cards and not as a double-faced one.
+   - If we ever print this, it will be printed over 2 cards and not as a double-faced one, because I want a printed version of this set to be playable as-is without sleeves (as Richard Garfield intended).
  - Is a Painter Spirit instead of Painter God because The Curator is Renoir's *ethereal* form that allows him to escape his prison at the bottom of the Monolith.
  - In terms of Planeswalker design it revolves around the Nevron/Painter alliance and abilities that benefit them both.
 
@@ -1325,12 +1325,12 @@ At the beginning of your upkeep, create a Chroma token.
 
 ### Design Notes
 
- - In the game, The Paintress is the main antagonist, until the conclusion of Act 2, when you discover she is not.
+ - In the game, The Paintress is the main antagonist, until the conclusion of Act 2, when you discover she is not. She is in fact, trying to *protect* the people of Lumiere from the true instigator of the yearly Gommages (Renoir) and her yearly countdown on The Monolith is a signal of her waning powers in fighting against this tide.
  - Abilities drawn from the various moves she has in her boss battle. Because 2 of these 3 abilities already exist as separate cards, we've gone with slight tweaks/variations for the abilities here.
    - Void Meteors: Only deals 3 damage and can only target creatures.
    - Rips apart reality: Phases out permanents instead of putting it on top/bottom of owner's library.
  - As much as I personally despise double-faced cards (because of logistics around limited and sleeves, requiring paper hacks like checklist cards), flavorfully this has to be a creature that transforms to her Planeswalker half.
-   - If we ever print this, it will be printed over 2 cards and not as a double-faced one.
+   - If we ever print this, it will be printed over 2 cards and not as a double-faced one, because I want a printed version of this set to be playable as-is without sleeves (as Richard Garfield intended).
  - In terms of planeswalker design, the primary theme is around Chroma and her mastery of it.
 
 ## The Scavenger

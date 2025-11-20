@@ -29,7 +29,7 @@ From this list, card designs are spawned from it, which will eventually form the
 
 ## Card Name List
 
-Cards implemented: 238/304
+Cards implemented: 239/306
 
 [x] - Card is implemented or in development, [ ] - Card is not implemented
 
@@ -165,6 +165,7 @@ Cards implemented: 238/304
 [ ] Fracture Survivor
 [x] Francois, Waiting for Clea
 [ ] Frozen Hearts
+[ ] Full Deck
 [ ] Gargant
 [x] Gestral Arena
 [x] Gestral Ascension Challenge
@@ -263,6 +264,7 @@ Cards implemented: 238/304
 [ ] Payback
 [ ] Percee
 [x] Perfect Dodge
+[x] Persuasive Argument
 [x] Petank
 [ ] Phantom Strike
 [x] Piercing Strike

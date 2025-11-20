@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 19/11/2025 8:59:30 am
+> Last generated: 20/11/2025 1:11:48 pm
 
 ## Chapelier
 
@@ -215,7 +215,7 @@ Fear
 Summons Dark Beast — When Painted Renoir enters and at the beginning of your upkeep, you may create Dark Chromatic Beast, a legendary 5/5 black Beast creature with Trample and Lifelink.
 Sends waves of Chroma — {B}{B}, {T}, Sacrifice X Chromas: Creatures target opponent controls get -X/-X until end of turn.
 ---
-Your sister deserves more.
+I love them too.
 
 4/4
 ```
