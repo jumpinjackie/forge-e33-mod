@@ -6635,6 +6635,312 @@
         }
     },
     {
+        "key": "Bruler",
+        "data": {
+            "width": 2010,
+            "height": 2814,
+            "marginX": 0.044,
+            "marginY": 0.02857142857142857,
+            "frames": [
+                {
+                    "name": "Black Extension",
+                    "src": "/img/frames/margins/blackBorderExtension.png",
+                    "bounds": {
+                        "x": -0.044,
+                        "y": -0.02857142857142857,
+                        "width": 1.088,
+                        "height": 1.0571428571428572
+                    },
+                    "masks": []
+                },
+                {
+                    "name": "Blue Power/Toughness",
+                    "src": "/img/frames/m15/regular/m15PTU.png",
+                    "masks": [],
+                    "bounds": {
+                        "height": 0.0733,
+                        "width": 0.188,
+                        "x": 0.7573,
+                        "y": 0.8848
+                    }
+                },
+                {
+                    "name": "Blue Frame",
+                    "src": "/img/frames/m15/regular/m15FrameU.png",
+                    "masks": [
+                        {
+                            "src": "/img/frames/m15/regular/m15MaskPinline.png",
+                            "name": "Pinline"
+                        }
+                    ]
+                },
+                {
+                    "name": "Blue Frame",
+                    "src": "/img/frames/m15/regular/m15FrameU.png",
+                    "masks": [
+                        {
+                            "src": "/img/frames/m15/regular/m15MaskType.png",
+                            "name": "Type"
+                        }
+                    ]
+                },
+                {
+                    "name": "Blue Frame",
+                    "src": "/img/frames/m15/regular/m15FrameU.png",
+                    "masks": [
+                        {
+                            "src": "/img/frames/m15/regular/m15MaskTitle.png",
+                            "name": "Title"
+                        }
+                    ]
+                },
+                {
+                    "name": "Blue Frame",
+                    "src": "/img/frames/m15/regular/m15FrameU.png",
+                    "masks": [
+                        {
+                            "src": "/img/frames/m15/regular/m15MaskRules.png",
+                            "name": "Rules"
+                        }
+                    ]
+                },
+                {
+                    "name": "Blue Frame",
+                    "src": "/img/frames/m15/regular/m15FrameU.png",
+                    "masks": [
+                        {
+                            "src": "/img/frames/m15/regular/m15MaskFrame.png",
+                            "name": "Frame"
+                        }
+                    ]
+                },
+                {
+                    "name": "Blue Frame",
+                    "src": "/img/frames/m15/regular/m15FrameU.png",
+                    "masks": [
+                        {
+                            "src": "/img/frames/m15/regular/m15MaskBorder.png",
+                            "name": "Border"
+                        }
+                    ]
+                }
+            ],
+            "artSource": "https://corsproxy.io/?url=https%3A%2F%2Fjumpinjackie.github.io%2Fe33-reference-art%2Fimages%2Fnoart.png",
+            "artX": 0.07661691542288557,
+            "artY": 0.1023454157782516,
+            "artZoom": 3.492,
+            "artRotate": "0",
+            "setSymbolSource": "https://cardconjurer.app/img/setSymbols/official/pz1-c.svg",
+            "setSymbolX": 0.8701492537313433,
+            "setSymbolY": 0.570362473347548,
+            "setSymbolZoom": 0.261,
+            "watermarkSource": "https://cardconjurer.app/img/blank.png",
+            "watermarkX": 0.33880597014925373,
+            "watermarkY": 0.6609808102345416,
+            "watermarkZoom": 649,
+            "watermarkLeft": "#b79d58",
+            "watermarkRight": "none",
+            "watermarkOpacity": 0.4,
+            "version": "m15Regular",
+            "manaSymbols": [],
+            "infoYear": "2025",
+            "margins": true,
+            "bottomInfoTranslate": {
+                "x": 0,
+                "y": 0
+            },
+            "bottomInfoRotate": 0,
+            "bottomInfoZoom": 1,
+            "bottomInfoColor": "white",
+            "onload": null,
+            "hideBottomInfoBorder": false,
+            "showsFlavorBar": true,
+            "bottomInfo": {
+                "midLeft": {
+                    "text": "{elemidinfo-set} • {elemidinfo-language}  {savex}{fontbelerenbsc}{fontsize3}{upinline1}￮{savex2}{elemidinfo-artist}",
+                    "x": 0.0647,
+                    "y": 0.9548,
+                    "width": 0.8707,
+                    "height": 0.0171,
+                    "oneLine": true,
+                    "font": "gothammedium",
+                    "size": 0.0171,
+                    "color": "white",
+                    "outlineWidth": 0.003,
+                    "name": "midLeft"
+                },
+                "topLeft": {
+                    "text": "{elemidinfo-number}",
+                    "x": 0.0647,
+                    "y": 0.9377,
+                    "width": 0.8707,
+                    "height": 0.0171,
+                    "oneLine": true,
+                    "font": "gothammedium",
+                    "size": 0.0171,
+                    "color": "white",
+                    "outlineWidth": 0.003,
+                    "name": "topLeft"
+                },
+                "note": {
+                    "text": "{loadx2}{elemidinfo-note}",
+                    "x": 0.0647,
+                    "y": 0.9377,
+                    "width": 0.8707,
+                    "height": 0.0171,
+                    "oneLine": true,
+                    "font": "gothammedium",
+                    "size": 0.0171,
+                    "color": "white",
+                    "outlineWidth": 0.003,
+                    "name": "note"
+                },
+                "rarity": {
+                    "text": "{loadx}{elemidinfo-rarity}",
+                    "x": 0.0647,
+                    "y": 0.9377,
+                    "width": 0.8707,
+                    "height": 0.0171,
+                    "oneLine": true,
+                    "font": "gothammedium",
+                    "size": 0.0171,
+                    "color": "white",
+                    "outlineWidth": 0.003,
+                    "name": "rarity"
+                },
+                "bottomLeft": {
+                    "text": "NOT FOR SALE",
+                    "x": 0.0647,
+                    "y": 0.9719,
+                    "width": 0.8707,
+                    "height": 0.0143,
+                    "oneLine": true,
+                    "font": "gothammedium",
+                    "size": 0.0143,
+                    "color": "white",
+                    "outlineWidth": 0.003
+                },
+                "wizards": {
+                    "name": "wizards",
+                    "text": "{ptshift0,0.0172}™ & © {elemidinfo-year} Wizards of the Coast",
+                    "x": 0.0647,
+                    "y": 0.9377,
+                    "width": 0.8707,
+                    "height": 0.0167,
+                    "oneLine": true,
+                    "font": "mplantin",
+                    "size": 0.0162,
+                    "color": "white",
+                    "align": "right",
+                    "outlineWidth": 0.003
+                },
+                "bottomRight": {
+                    "text": "{ptshift0,0.0172}CardConjurer.com",
+                    "x": 0.0647,
+                    "y": 0.9548,
+                    "width": 0.8707,
+                    "height": 0.0143,
+                    "oneLine": true,
+                    "font": "mplantin",
+                    "size": 0.0143,
+                    "color": "white",
+                    "align": "right",
+                    "outlineWidth": 0.003
+                }
+            },
+            "artBounds": {
+                "x": 0.0767,
+                "y": 0.1129,
+                "width": 0.8476,
+                "height": 0.4429
+            },
+            "setSymbolBounds": {
+                "x": 0.9213,
+                "y": 0.591,
+                "width": 0.12,
+                "height": 0.041,
+                "vertical": "center",
+                "horizontal": "right"
+            },
+            "watermarkBounds": {
+                "x": 0.5,
+                "y": 0.7762,
+                "width": 0.75,
+                "height": 0.2305
+            },
+            "text": {
+                "mana": {
+                    "name": "Mana Cost",
+                    "text": "2 U",
+                    "y": 0.0613,
+                    "width": 0.9292,
+                    "height": 0.03380952380952381,
+                    "oneLine": true,
+                    "size": 0.043345543345543344,
+                    "align": "right",
+                    "shadowX": -0.001,
+                    "shadowY": 0.0029,
+                    "manaCost": true,
+                    "manaSpacing": 0
+                },
+                "title": {
+                    "name": "Title",
+                    "text": "Bruler",
+                    "x": 0.0854,
+                    "y": 0.0522,
+                    "width": 0.8292,
+                    "height": 0.0543,
+                    "oneLine": true,
+                    "font": "belerenb",
+                    "size": 0.0381
+                },
+                "type": {
+                    "name": "Type",
+                    "text": "Creature - Nevron",
+                    "x": 0.0854,
+                    "y": 0.5664,
+                    "width": 0.8292,
+                    "height": 0.0543,
+                    "oneLine": true,
+                    "font": "belerenb",
+                    "size": 0.0324
+                },
+                "rules": {
+                    "name": "Rules Text",
+                    "text": "This creature gets +2/+2 and Ward 2 if you control a creature named Cruler.\nWhen this creature dies, target opponent creates a Lumina token. (It’s an artifact with “{T}, Sacrifice this artifact: Scry 1.”)",
+                    "x": 0.086,
+                    "y": 0.6303,
+                    "width": 0.828,
+                    "height": 0.27398720682302774,
+                    "size": 0.0362
+                },
+                "pt": {
+                    "name": "Power/Toughness",
+                    "text": "3/2",
+                    "x": 0.7928,
+                    "y": 0.902,
+                    "width": 0.1367,
+                    "height": 0.0372,
+                    "size": 0.0372,
+                    "font": "belerenbsc",
+                    "oneLine": true,
+                    "align": "center"
+                }
+            },
+            "infoNumber": "2025",
+            "infoRarity": "C",
+            "infoSet": "E33",
+            "infoLanguage": "EN",
+            "infoArtist": "Sandfall Interactive",
+            "infoNote": "Proxy, Not for Sale",
+            "serialNumber": "",
+            "serialTotal": "",
+            "serialX": "",
+            "serialY": "",
+            "serialScale": ""
+        }
+    },
+    {
         "key": "Cache Discovery",
         "data": {
             "width": 2010,
@@ -10238,7 +10544,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Enchant permanent.\nEnchanted permanent becomes an artifact and loses all abilities.{flavor}The expeditioners, the ones killed by Nevrons. Gustave noticed their Chroma remains in their bodies. They never disspiated, like the Gommage.\n- Lune",
+                    "text": "Enchant permanent.\nEnchanted permanent becomes an artifact and loses all abilities.{flavor}The expeditioners, the ones killed by Nevrons. Gustave noticed their Chroma remains in their bodies. They never dissipated, like the Gommage.\n- Lune",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
@@ -49318,10 +49624,10 @@
                     ]
                 }
             ],
-            "artSource": "https://corsproxy.io/?url=https%3A%2F%2Fraiderking.com%2Fwp-content%2Fuploads%2F2025%2F05%2FClair-Obscur-Manor-Doors-7-1024x576.jpg",
-            "artX": -0.050248756218905476,
+            "artSource": "https://corsproxy.io/?url=https%3A%2F%2Fjumpinjackie.github.io%2Fe33-reference-art%2Fimages%2Fcards%2Fmanor_door.png",
+            "artX": 0.03781094527363184,
             "artY": 0.11300639658848614,
-            "artZoom": 2.1630000000000003,
+            "artZoom": 2.278,
             "artRotate": "0",
             "setSymbolSource": "https://cardconjurer.app/img/setSymbols/official/pz1-c.svg",
             "setSymbolX": 0.8701492537313433,
@@ -49500,7 +49806,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "{T}: Add {C}.\n{2}, {T}: Lock or unlock a door of target Room you control. Activate only as a sorcery.",
+                    "text": "{T}: Add {C}.\n{2}, {T}: Lock or unlock a door of target Room you control. Activate only as a sorcery.{flavor}Someone lives here.\n- Lune",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
@@ -55479,7 +55785,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Fear\n{i}Summons Dark Beast{/i} — When Painted Renoir enters and at the beginning of your upkeep, you may create Dark Chromatic Beast, a legendary 5/5 black Beast creature with Trample and Lifelink.\n{i}Sends waves of Chroma{/i} — {B}{B}, {T}, Sacrifice X Chromas: Creatures target opponent controls get -X/-X until end of turn.{flavor}Your sister deserves more.",
+                    "text": "Fear\n{i}Summons Dark Beast{/i} — When Painted Renoir enters and at the beginning of your upkeep, you may create Dark Chromatic Beast, a legendary 5/5 black Beast creature with Trample and Lifelink.\n{i}Sends waves of Chroma{/i} — {B}{B}, {T}, Sacrifice X Chromas: Creatures target opponent controls get -X/-X until end of turn.{flavor}I love them too.",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
@@ -55501,6 +55807,301 @@
             },
             "infoNumber": "2025",
             "infoRarity": "R",
+            "infoSet": "E33",
+            "infoLanguage": "EN",
+            "infoArtist": "Sandfall Interactive",
+            "infoNote": "Proxy, Not for Sale",
+            "serialNumber": "",
+            "serialTotal": "",
+            "serialX": "",
+            "serialY": "",
+            "serialScale": ""
+        }
+    },
+    {
+        "key": "Persuasive Argument",
+        "data": {
+            "width": 2010,
+            "height": 2814,
+            "marginX": 0.044,
+            "marginY": 0.02857142857142857,
+            "frames": [
+                {
+                    "name": "Black Extension",
+                    "src": "/img/frames/margins/blackBorderExtension.png",
+                    "bounds": {
+                        "x": -0.044,
+                        "y": -0.02857142857142857,
+                        "width": 1.088,
+                        "height": 1.0571428571428572
+                    },
+                    "masks": []
+                },
+                {
+                    "name": "Red Frame",
+                    "src": "/img/frames/m15/regular/m15FrameR.png",
+                    "masks": [
+                        {
+                            "src": "/img/frames/m15/regular/m15MaskPinline.png",
+                            "name": "Pinline"
+                        }
+                    ]
+                },
+                {
+                    "name": "Red Frame",
+                    "src": "/img/frames/m15/regular/m15FrameR.png",
+                    "masks": [
+                        {
+                            "src": "/img/frames/m15/regular/m15MaskType.png",
+                            "name": "Type"
+                        }
+                    ]
+                },
+                {
+                    "name": "Red Frame",
+                    "src": "/img/frames/m15/regular/m15FrameR.png",
+                    "masks": [
+                        {
+                            "src": "/img/frames/m15/regular/m15MaskTitle.png",
+                            "name": "Title"
+                        }
+                    ]
+                },
+                {
+                    "name": "Red Frame",
+                    "src": "/img/frames/m15/regular/m15FrameR.png",
+                    "masks": [
+                        {
+                            "src": "/img/frames/m15/regular/m15MaskRules.png",
+                            "name": "Rules"
+                        }
+                    ]
+                },
+                {
+                    "name": "Red Frame",
+                    "src": "/img/frames/m15/regular/m15FrameR.png",
+                    "masks": [
+                        {
+                            "src": "/img/frames/m15/regular/m15MaskFrame.png",
+                            "name": "Frame"
+                        }
+                    ]
+                },
+                {
+                    "name": "Red Frame",
+                    "src": "/img/frames/m15/regular/m15FrameR.png",
+                    "masks": [
+                        {
+                            "src": "/img/frames/m15/regular/m15MaskBorder.png",
+                            "name": "Border"
+                        }
+                    ]
+                }
+            ],
+            "artSource": "https://corsproxy.io/?url=https%3A%2F%2Fjumpinjackie.github.io%2Fe33-reference-art%2Fimages%2Fcards%2Fpersuasive_argument.png",
+            "artX": -0.1208955223880597,
+            "artY": 0.11300639658848614,
+            "artZoom": 1.682,
+            "artRotate": "0",
+            "setSymbolSource": "https://cardconjurer.app/img/setSymbols/official/pz1-u.svg",
+            "setSymbolX": 0.8756218905472637,
+            "setSymbolY": 0.5707178393745558,
+            "setSymbolZoom": 0.34700000000000003,
+            "watermarkSource": "https://cardconjurer.app/img/blank.png",
+            "watermarkX": 0.33880597014925373,
+            "watermarkY": 0.6609808102345416,
+            "watermarkZoom": 649,
+            "watermarkLeft": "#b79d58",
+            "watermarkRight": "none",
+            "watermarkOpacity": 0.4,
+            "version": "ubRegular",
+            "manaSymbols": [],
+            "infoYear": "2025",
+            "margins": true,
+            "bottomInfoTranslate": {
+                "x": 0,
+                "y": 0
+            },
+            "bottomInfoRotate": 0,
+            "bottomInfoZoom": 1,
+            "bottomInfoColor": "white",
+            "onload": null,
+            "hideBottomInfoBorder": false,
+            "showsFlavorBar": true,
+            "bottomInfo": {
+                "midLeft": {
+                    "text": "{elemidinfo-set} • {elemidinfo-language}  {savex}{fontbelerenbsc}{fontsize3}{upinline1}￮{savex2}{elemidinfo-artist}",
+                    "x": 0.0647,
+                    "y": 0.9548,
+                    "width": 0.8707,
+                    "height": 0.0171,
+                    "oneLine": true,
+                    "font": "gothammedium",
+                    "size": 0.0171,
+                    "color": "white",
+                    "outlineWidth": 0.003,
+                    "name": "midLeft"
+                },
+                "topLeft": {
+                    "text": "{elemidinfo-number}",
+                    "x": 0.0647,
+                    "y": 0.9377,
+                    "width": 0.8707,
+                    "height": 0.0171,
+                    "oneLine": true,
+                    "font": "gothammedium",
+                    "size": 0.0171,
+                    "color": "white",
+                    "outlineWidth": 0.003,
+                    "name": "topLeft"
+                },
+                "note": {
+                    "text": "{loadx2}{elemidinfo-note}",
+                    "x": 0.0647,
+                    "y": 0.9377,
+                    "width": 0.8707,
+                    "height": 0.0171,
+                    "oneLine": true,
+                    "font": "gothammedium",
+                    "size": 0.0171,
+                    "color": "white",
+                    "outlineWidth": 0.003,
+                    "name": "note"
+                },
+                "rarity": {
+                    "text": "{loadx}{elemidinfo-rarity}",
+                    "x": 0.0647,
+                    "y": 0.9377,
+                    "width": 0.8707,
+                    "height": 0.0171,
+                    "oneLine": true,
+                    "font": "gothammedium",
+                    "size": 0.0171,
+                    "color": "white",
+                    "outlineWidth": 0.003,
+                    "name": "rarity"
+                },
+                "bottomLeft": {
+                    "text": "NOT FOR SALE",
+                    "x": 0.0647,
+                    "y": 0.9719,
+                    "width": 0.8707,
+                    "height": 0.0143,
+                    "oneLine": true,
+                    "font": "gothammedium",
+                    "size": 0.0143,
+                    "color": "white",
+                    "outlineWidth": 0.003
+                },
+                "wizards": {
+                    "name": "wizards",
+                    "text": "{ptshift0,0.0172}™ & © {elemidinfo-year} Wizards of the Coast",
+                    "x": 0.0647,
+                    "y": 0.9377,
+                    "width": 0.8707,
+                    "height": 0.0167,
+                    "oneLine": true,
+                    "font": "mplantin",
+                    "size": 0.0162,
+                    "color": "white",
+                    "align": "right",
+                    "outlineWidth": 0.003
+                },
+                "bottomRight": {
+                    "text": "{ptshift0,0.0172}CardConjurer.com",
+                    "x": 0.0647,
+                    "y": 0.9548,
+                    "width": 0.8707,
+                    "height": 0.0143,
+                    "oneLine": true,
+                    "font": "mplantin",
+                    "size": 0.0143,
+                    "color": "white",
+                    "align": "right",
+                    "outlineWidth": 0.003
+                }
+            },
+            "artBounds": {
+                "x": 0.0767,
+                "y": 0.1129,
+                "width": 0.8476,
+                "height": 0.4429
+            },
+            "setSymbolBounds": {
+                "x": 0.9263681592039801,
+                "y": 0.591,
+                "width": 0.12,
+                "height": 0.041,
+                "vertical": "center",
+                "horizontal": "right"
+            },
+            "watermarkBounds": {
+                "x": 0.5,
+                "y": 0.7762,
+                "width": 0.75,
+                "height": 0.2305
+            },
+            "text": {
+                "mana": {
+                    "name": "Mana Cost",
+                    "text": "2 R",
+                    "y": 0.06254442075337598,
+                    "width": 0.9273631840796019,
+                    "height": 0.03380952380952381,
+                    "oneLine": true,
+                    "size": 0.04304029304029304,
+                    "align": "right",
+                    "shadowX": -0.001,
+                    "shadowY": 0.0029,
+                    "manaCost": true,
+                    "manaSpacing": 0
+                },
+                "title": {
+                    "name": "Title",
+                    "text": "Persuasive Argument",
+                    "x": 0.08358208955223881,
+                    "y": 0.05152807391613362,
+                    "width": 0.8292,
+                    "height": 0.0543,
+                    "oneLine": true,
+                    "font": "belerenb",
+                    "size": 0.0381
+                },
+                "type": {
+                    "name": "Type",
+                    "text": "Kindred Instant - Expeditioner",
+                    "x": 0.08358208955223881,
+                    "y": 0.5643212508884151,
+                    "width": 0.8292,
+                    "height": 0.0543,
+                    "oneLine": true,
+                    "font": "belerenb",
+                    "size": 0.0324
+                },
+                "rules": {
+                    "name": "Rules Text",
+                    "text": "Gain control of target creature until end of turn. Untap that creature. It gains haste until end of turn.\nCreate a Lumina token.{flavor}Monoco: I will never join you again.\nVerso: There will be a lot of fighting though.\nMonoco: Oh yeah, that’s true.\nVerso: Yeah, it’s true.\nMonoco: There will be a lot of fighting.\nVerso: Exactly.\nMonoco: Count me in then.",
+                    "x": 0.086,
+                    "y": 0.6325515280739161,
+                    "width": 0.828,
+                    "height": 0.2875,
+                    "size": 0.0362
+                },
+                "pt": {
+                    "name": "Power/Toughness",
+                    "text": "",
+                    "x": 0.7928,
+                    "y": 0.902,
+                    "width": 0.1367,
+                    "height": 0.0372,
+                    "size": 0.0372,
+                    "font": "belerenbsc",
+                    "oneLine": true,
+                    "align": "center"
+                }
+            },
+            "infoNumber": "2025",
+            "infoRarity": "U",
             "infoSet": "E33",
             "infoLanguage": "EN",
             "infoArtist": "Sandfall Interactive",
@@ -61968,7 +62569,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "{i}Picto Reinforcement{/i} — {2}{U}, {T}: Create two Lumina tokens.\n{i}Upgrades your weapons{/i} — {2}{W}, {T}: Distribute two +1/+1 counters among one or two target creatures.\n{i}Latent skill activation{/i} — {3}{B}, {T}, Exert an Expeditioner: Destroy target creature.\nWhen The Curator dies, return it to the battlefield transformed under it’s owner’s control.",
+                    "text": "{i}Picto Reinforcement{/i} — {2}{U}, {T}: Create two Lumina tokens.\n{i}Upgrades your weapons{/i} — {2}{W}, {T}: Distribute two +1/+1 counters among one or two target creatures.\n{i}Latent skill activation{/i} — {3}{B}, {T}, Exert an Expeditioner: Destroy target creature.\nWhen The Curator dies, return it to the battlefield transformed under it’s owner’s control.{flavor}Lune: What is he?\nMaelle: I’m not sure, he doesn’t really talk.",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
@@ -64100,7 +64701,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "{i}Void Meteors{/i} — {2}{R}, {T}: The Paintress deals 3 damage divided as you choose among any number of target creatures.\n{i}Rips apart reality{/i} — {2}{U}, {T}: Up to two target nonland permanents phase out.\n{i}Heals an Expeditioner{/i} — {W}{G}, {T}: You gain 1 life for each Expeditioner you control.\nWhen The Paintress dies, return it to the battlefield transformed under it’s owner’s control.",
+                    "text": "{i}Void Meteors{/i} — {2}{R}, {T}: The Paintress deals 3 damage divided as you choose among any number of target creatures.\n{i}Rips apart reality{/i} — {2}{U}, {T}: Up to two target nonland permanents phase out.\n{i}Heals an Expeditioner{/i} — {W}{G}, {T}: You gain 1 life for each Expeditioner you control.\nWhen The Paintress dies, return it to the battlefield transformed under it’s owner’s control.{flavor}Arrogant Man. I taught him to Paint. And he seeks to use my creations against me?",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,

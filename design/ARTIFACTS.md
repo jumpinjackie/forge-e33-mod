@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 19/11/2025 8:49:55 am
+> Last generated: 20/11/2025 1:23:37 pm
 
 ## Anti-Burn Picto
 
@@ -718,6 +718,9 @@ It's about time you test it in real conditions.
 Artifact
 {T}: Add {C}.
 {2}, {T}: Lock or unlock a door of target Room you control. Activate only as a sorcery.
+---
+Someone lives here.
+- Lune
 ```
 
 [card implementation](../custom/cards/m/manor_door.txt)
