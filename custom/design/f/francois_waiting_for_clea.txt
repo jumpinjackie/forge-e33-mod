@@ -18,7 +18,7 @@ Sandfall Interactive
 [Oracle]
 Affinity for Clea Planeswalkers.
 Defender.
-The strongest ice attack ever - At the beginning of your upkeep, Francois deals 4 damage to target creature an opponent controls. Tap that creature and put a stun counter on it.
+The strongest ice attack ever — At the beginning of your upkeep, Francois deals 4 damage to target creature an opponent controls. Tap that creature and put a stun counter on it.
 [AbilityWords]
 The strongest ice attack ever
 [FlavorText]
