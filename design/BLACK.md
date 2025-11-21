@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 20/11/2025 1:11:48 pm
+> Last generated: 21/11/2025 10:38:05 am
 
 ## Chapelier
 
@@ -256,7 +256,7 @@ Sorcery - Gradient
 Until end of turn, you may play lands and cast Nevron or Gradient spells from your graveyard.
 If a card would be put into your graveyard from anywhere this turn, exile that card instead.
 ---
-I know it seems absurd to offer oblivion as recompense, but perhaps that's the outcome we both desire.
+67 years. 67 years I spent trapped within the Monolith. But I persisted. I persisted. Do you know why? Do you know why I CANNOT leave her or you behind? This is what I see every day. I cannot spend another day with living corpses.
 - Renoir
 ```
 
@@ -266,6 +266,7 @@ I know it seems absurd to offer oblivion as recompense, but perhaps that's the o
 
  - The card symbolizes the moment that Renoir was finally free from the bottom of the Monolith upon the defeat of The Paintress and Aline was expelled from the canvas and now had free reign to carry out his will: To destroy the canvas.
  - So mechanically, we've gone with a variation of Yawgmoth's Will, but with extra restrictions on the type of cards that can be replayed, allowing us to keep the same mana cost.
+ - 21/11/2025: Updated flavor text to something more appropriate, since will is a synonym of determination and this updated flavor text oozes determination.
 
 ## Surcease
 

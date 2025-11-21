@@ -397,7 +397,7 @@ No ideas yet.
 > The Manor
 > Unknown: Art can be a Window and art can be a Mirror. And great art. Great art is both. Son, you'll never be a true artist if there's always a mask between you and the viewer, especially when the viewer is you...
 
-Reprint of Mirror Gallery?
+Reprint of Mirror Gallery? It would be the most flavorful, but also quite useless in cube ro commander paper play since there will only ever be 1 copy of anything anyways.
 
 > Act 2: Monolith Interior
 > Renoir: If saving you means losing you then so be it.
@@ -408,6 +408,11 @@ No ideas yet.
 > Renoir: WE are your family. You would condemn us all to die, for what? Who do you really save with your sacrifice?
 
 No ideas yet.
+
+> Act 3: Lumiere post-gommage. Renoir, after Curator transformation.
+> Renoir: I know it seems absurd to offer oblivion as recompense, but perhaps that's the outcome we both desire.
+
+This the *IDEAL* flavor text for Choice of Damnations, if it didn't have the parisitic Arcane sub-type, but who are we to judge? We're doing the same thing too! So maybe we just have thematically adjusted reprint.
 
 > Act 3: Before final boss battle with Renoir
 > Renoir: As your father, I must look out for you. Especially when you can't look out for yourself.
@@ -429,11 +434,6 @@ No ideas yet.
 > Renoir: We painted hundreds of Canvas worlds, pushing the very boundaries of creation. And she never let me forget that every day we spend here has a price.
 
 Sounds like some black enchantment that trades life for resources
-
-> Act 3: Renoir final boss battle post-script
-> Renoir: 67 years. 67 years I spent trapped within the Monolith. But I persisted. I persisted. Do you know why? Do you know why I CANNOT leave her or you behind? This is what I see every day. I cannot spend another day with living corpses.
-
-Some kind of portal enchantment. What that portal represents in MTG terms? Don't know yet.
 
 > Act 3: Renoir final boss battle post-script
 > Renoir: I'll keep the light on for you. I hope you find peace. Hold on to each other.
