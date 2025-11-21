@@ -1,0 +1,27 @@
+[Name]
+Full Deck
+[ManaCost]
+U
+B
+[Types]
+Kindred
+Sorcery
+Expeditioner
+[Rarity]
+U
+[Oracle]
+Destroy target creature. Mill cards equal to that creature's toughness.
+Luminous — If you control three or more Lumina tokens, put a card from among those cards into your hand.
+[AbilityWords]
+Luminous
+[ForgeScript]
+A:SP$ Destroy | ValidTgts$ Creature | TgtPrompt$ Select target creature | SubAbility$ DBMill | SpellDescription$ Destroy target creature.
+SVar:DBMill:DB$ Mill | Defined$ You | NumCards$ X | RememberMilled$ True | SubAbility$ DBRecover
+SVar:DBRecover:DB$ ChangeZone | ConditionCheckSVar$ Y | ConditionSVarCompare$ GE3 | Hidden$ True | Origin$ Graveyard,Exile | Destination$ Hand | ChangeType$ Card.IsRemembered | SelectPrompt$ You may put a card from among them into your hand | SubAbility$ DBCleanup
+SVar:DBCleanup:DB$ Cleanup | ClearRemembered$ True
+SVar:X:Targeted$CardToughness
+SVar:Y:Count$Valid Lumina.YouCtrl
+[DesignNotes]
+ - In the game, this is one of Sciel's quotes during battle.
+ - Design-wise fully leaned in on the pun and based it around using "your deck" to take out any creature, if you can afford to mill the number of cards required.
+ - Mild thematic mismatch as blue is not really part of Sciel's color identity or skillset IMO, but the milling and returning cards to hand from graveyard is in blue's wheelhouse.

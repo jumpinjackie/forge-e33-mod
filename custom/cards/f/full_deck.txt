@@ -1,0 +1,10 @@
+Name:Full Deck
+ManaCost:U B
+Types:Kindred Sorcery Expeditioner
+A:SP$ Destroy | ValidTgts$ Creature | TgtPrompt$ Select target creature | SubAbility$ DBMill | SpellDescription$ Destroy target creature.
+SVar:DBMill:DB$ Mill | Defined$ You | NumCards$ X | RememberMilled$ True | SubAbility$ DBRecover
+SVar:DBRecover:DB$ ChangeZone | ConditionCheckSVar$ Y | ConditionSVarCompare$ GE3 | Hidden$ True | Origin$ Graveyard,Exile | Destination$ Hand | ChangeType$ Card.IsRemembered | SelectPrompt$ You may put a card from among them into your hand | SubAbility$ DBCleanup
+SVar:DBCleanup:DB$ Cleanup | ClearRemembered$ True
+SVar:X:Targeted$CardToughness
+SVar:Y:Count$Valid Lumina.YouCtrl
+Oracle:Destroy target creature. Mill cards equal to that creature's toughness.\nLuminous — If you control three or more Lumina tokens, put a card from among those cards into your hand.
