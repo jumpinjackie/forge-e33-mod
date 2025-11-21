@@ -29,7 +29,7 @@ From this list, card designs are spawned from it, which will eventually form the
 
 ## Card Name List
 
-Cards implemented: 239/305
+Cards implemented: 239/302
 
 [x] - Card is implemented or in development, [ ] - Card is not implemented
 
@@ -40,7 +40,6 @@ Cards implemented: 239/305
 [x] Acceptance
 [x] Alicia Dessendre, Silenced by Fire
 [ ] Alicia's Birthday Party
-[ ] Aline Dessendre, Stricken by Grief
 [ ] All Set
 [x] An Advantage!
 [ ] Ancient Sanctuary
@@ -206,7 +205,6 @@ Cards implemented: 239/305
 [x] Gustave's Journal
 [x] Healing Light
 [x] Healing Tint
-[ ] Heart of the Paintress
 [x] Here's Your Card!
 [ ] Hexga
 [x] Ice Lance
@@ -273,7 +271,6 @@ Cards implemented: 239/305
 [x] Ranger Sakapatate
 [x] Reaper Cultist
 [x] Recoat
-[ ] Renoir, Dessendre Patriarch
 [ ] Renoir's Creation
 [ ] Renoir's Drafts
 [x] Renoir's Will
@@ -306,7 +303,7 @@ Cards implemented: 239/305
 [x] Surcease
 [x] Terraquake
 [x] The 67th Gommage
-[ ] The Curator
+[x] The Curator // Renoir, Dessendre Patriarch
 [x] The Fate of the Canvas
 [x] The Fracture
 [x] The Greatest Expedition in History
@@ -315,7 +312,7 @@ Cards implemented: 239/305
 [ ] The Mask Keeper
 [x] The Monolith
 [x] The Monolith Interior
-[ ] The Paintress
+[x] The Paintress // Aline Dessendre, Stricken by Grief
 [x] The Reacher
 [x] The Sacred River
 [x] The Scavenger

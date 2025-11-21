@@ -40,7 +40,6 @@ Aberration
 Acceptance
 Alicia Dessendre, Silenced by Fire
 Alicia's Birthday Party
-Aline Dessendre, Stricken by Grief
 All Set
 An Advantage!
 Ancient Sanctuary
@@ -206,7 +205,6 @@ Gustave's Insight
 Gustave's Journal
 Healing Light
 Healing Tint
-Heart of the Paintress
 Here's Your Card!
 Hexga
 Ice Lance
@@ -273,7 +271,6 @@ Rally the Expeditioners
 Ranger Sakapatate
 Reaper Cultist
 Recoat
-Renoir, Dessendre Patriarch
 Renoir's Creation
 Renoir's Drafts
 Renoir's Will
@@ -306,7 +303,7 @@ Sword Ballet
 Surcease
 Terraquake
 The 67th Gommage
-The Curator
+The Curator // Renoir, Dessendre Patriarch
 The Fate of the Canvas
 The Fracture
 The Greatest Expedition in History
@@ -315,7 +312,7 @@ The Indigo Tree
 The Mask Keeper
 The Monolith
 The Monolith Interior
-The Paintress
+The Paintress // Aline Dessendre, Stricken by Grief
 The Reacher
 The Sacred River
 The Scavenger
