@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 20/11/2025 1:23:37 pm
+> Last generated: 21/11/2025 9:16:03 am
 
 ## A Storm is Coming
 
@@ -641,6 +641,23 @@ This is our gift, for all the Expeditions to come.
 ### Design Notes
 
  - Just another Chroma/Lumina token strategy enabler
+
+## Full Deck
+
+```
+UB
+Kindred Sorcery - Expeditioner
+Destroy target creature. Mill cards equal to that creature's toughness.
+Luminous — If you control three or more Lumina tokens, put a card from among those cards into your hand.
+```
+
+[card implementation](../custom/cards/f/full_deck.txt)
+
+### Design Notes
+
+ - In the game, this is one of Sciel's quotes during battle.
+ - Design-wise fully leaned in on the pun and based it around using "your deck" to take out any creature, if you can afford to mill the number of cards required.
+ - Mild thematic mismatch as blue is not really part of Sciel's color identity or skillset IMO, but the milling and returning cards to hand from graveyard is in blue's wheelhouse.
 
 ## Gestral Foot Race Challenge
 
@@ -1363,7 +1380,7 @@ UW
 Kindred Instant - Expeditioner
 Look at the top three cards of your library. Put one of them into your hand and the rest on the bottom of your library in any order.
 You gain 3 life.
-Luminous - If you control three or more Lumina tokens, create two 1/1 Human Expeditioner token with "When this creature dies, create a Chroma token."
+Luminous — If you control three or more Lumina tokens, create two 1/1 Human Expeditioner token with "When this creature dies, create a Chroma token."
 ```
 
 [card implementation](../custom/cards/t/tomorrow_comes.txt)

@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 19/11/2025 9:53:33 am
+> Last generated: 21/11/2025 9:16:03 am
 
 ## Abbest
 
@@ -28,7 +28,7 @@ When this creature dies, target opponent creates a Lumina token. (It's an artifa
 3GG
 Creature - Incarnation
 Trample
-Sacrifice a creature: Draw cards equal to the sacrificed creature’s power, then discard three cards.
+Sacrifice a nonland creature: Draw cards equal to the sacrificed creature’s power, then discard three cards.
 ---
 Verso: I don't want this life... I don't want this life...
 Maelle: I just- I just wanted to live this lifetime together. This lifetime that was stolen from us. Please, brother... Please.
@@ -43,6 +43,7 @@ Maelle: I just- I just wanted to live this lifetime together. This lifetime that
  - No in-game basis, but Grief is such a central theme of Expedition 33 that having a cycle dedicated to the 5 stages is a total flavor nuke.
  - Bargaining is the third stage. On name-basis alone you would think this is easily a black creature with "life for cards" motif, but it is actually green because this is the color that has the hardest time thematically associating to any of the 5 stages. Bargaining has some thematic leeway with green if you try to view it through a "Greater Good" kind of lens and thus I went with a creature variation of Greater Good.
  - 17/11/2025: Changed PT from 4/4 to 4/5
+ - 21/11/2025: Added nonland clause to avoid being able to sac The Reacher for +5 net CA without any mana investment first.
 
 ## Chalier
 

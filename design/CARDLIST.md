@@ -29,7 +29,7 @@ From this list, card designs are spawned from it, which will eventually form the
 
 ## Card Name List
 
-Cards implemented: 239/306
+Cards implemented: 240/306
 
 [x] - Card is implemented or in development, [ ] - Card is not implemented
 
@@ -165,7 +165,7 @@ Cards implemented: 239/306
 [ ] Fracture Survivor
 [x] Francois, Waiting for Clea
 [ ] Frozen Hearts
-[ ] Full Deck
+[x] Full Deck
 [ ] Gargant
 [x] Gestral Arena
 [x] Gestral Ascension Challenge

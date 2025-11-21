@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 19/11/2025 9:19:29 am
+> Last generated: 21/11/2025 9:16:03 am
 
 ## An Advantage!
 
@@ -275,7 +275,7 @@ III — Sacrifice all Airships you control. Create a Chroma token for each Airsh
 Legendary Artifact Creature - Turtle
 Affinity for Clea Planeswalkers.
 Defender.
-The strongest ice attack ever - At the beginning of your upkeep, Francois deals 4 damage to target creature an opponent controls. Tap that creature and put a stun counter on it.
+The strongest ice attack ever — At the beginning of your upkeep, Francois deals 4 damage to target creature an opponent controls. Tap that creature and put a stun counter on it.
 ---
 Who dares enter my lair?!
 
