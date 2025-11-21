@@ -14,7 +14,7 @@ Sandfall Interactive
 [Oracle]
 Look at the top three cards of your library. Put one of them into your hand and the rest on the bottom of your library in any order.
 You gain 3 life.
-Luminous - If you control three or more Lumina tokens, create two 1/1 Human Expeditioner token with $EXPEDITIONER_TOKEN_TEXT
+Luminous — If you control three or more Lumina tokens, create two 1/1 Human Expeditioner token with $EXPEDITIONER_TOKEN_TEXT
 [AbilityWords]
 Luminous
 [ForgeScript]
