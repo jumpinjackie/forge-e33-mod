@@ -29,7 +29,7 @@ From this list, card designs are spawned from it, which will eventually form the
 
 ## Card Name List
 
-Cards implemented: 240/306
+Cards implemented: 239/305
 
 [x] - Card is implemented or in development, [ ] - Card is not implemented
 
@@ -299,7 +299,6 @@ Cards implemented: 240/306
 [ ] Sprong
 [ ] Stalact
 [x] Stendhal
-[x] Strikestorm
 [ ] Sunless Cliffs
 [ ] Sunniso, Gestral Bouncer
 [x] Swift Counter

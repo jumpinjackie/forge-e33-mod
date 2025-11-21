@@ -299,7 +299,6 @@ Sorrowful Chapelier
 Sprong
 Stalact
 Stendhal
-Strikestorm
 Sunless Cliffs
 Sunniso, Gestral Bouncer
 Swift Counter

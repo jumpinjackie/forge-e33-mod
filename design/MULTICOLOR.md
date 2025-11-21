@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 21/11/2025 9:16:03 am
+> Last generated: 21/11/2025 9:39:08 am
 
 ## A Storm is Coming
 
@@ -1225,22 +1225,6 @@ Stendhal deals 33 damage to target creature or planeswalker.
  - Has devoid because it deals extreme void damage in-game.
  - Has Affinity for Lumina (tokens) to not only make casting this easier, but also as a nod to the pictos/lumina investment required in-game to make Stendhal deal damage in the millions.
  - I orignally had thoughts about making it targeting players as well, but with some side-mission you must take to unlock the ability to target players (whether by suspend or mana payment requirements), but decided against that as this set already has 2 "you win the game if certain conditions are met" cards. That's enough, we don't need another one.
-
-## Strikestorm
-
-```
-2(W/R)(W/R)
-Kindred Instant - Expeditioner
-Target creature you control deals damage equal to its power to another target creature. You gain that much life.
-Storm. (When you cast this spell, copy it for each spell cast before it this turn. You may choose new targets for the copies.)
-```
-
-[card implementation](../custom/cards/s/strikestorm.txt)
-
-### Design Notes
-
- - In the game, this is one of Gustave's abilities.
- - Mechanically translated to a storm-powered combat trick (it has storm in it's name!).
 
 ## The Curator // Renoir, Dessendre Patriarch
 
