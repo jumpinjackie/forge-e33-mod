@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 21/11/2025 10:38:05 am
+> Last generated: 22/11/2025 10:26:30 am
 
 ## Chapelier
 
@@ -247,6 +247,28 @@ Destroy target creature.
 
  - This is meant to flavorfully and mechanically represent Painted Renoir's killing blow to Gustave.
  - 13/10/2025: Removed Devoid.
+
+## Renoir's Creation
+
+```
+2BB
+Creature - Nevron
+Trample
+Lifelink
+This creature's power and toughness are each equal to 3 plus the number of Expeditioner creatures in all graveyards.
+When this creature dies, target opponent creates a Lumina token. (It's an artifact with "{T}, Sacrifice this artifact: Scry 1.")
+
+3+*/3+*
+```
+
+[card implementation](../custom/cards/r/renoirs_creation.txt)
+
+### Design Notes
+
+ - In the game, Creation is a high-tier Nevron that starts appearing in Act 3.
+ - Named Renoir's Creation instead of Creation to reduce the possbility of name-squatting by real cards in the future.
+ - The variable P/T is a nod to the creature's design in the video game. It is *literally* composed of Expeditioner corpses so it makes logical sense to have P/T based off of Expeditioner creature cards across all graveyards.
+ - This should have Devoid (because its attacks deal void damage), but the Devoid frame in CardConjurer is transparent, requiring the art for this to be in portrait orientation where the subject is predominantly in the top-half. No such depiction can be sourced as all the possible candidates are in landscape. If we can source a depiction of this Nevron in portrait with the required constraints, then we'll add in Devoid.
 
 ## Renoir's Will
 

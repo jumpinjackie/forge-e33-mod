@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 20/11/2025 1:23:37 pm
+> Last generated: 22/11/2025 10:26:30 am
 
 ## Anti-Burn Picto
 
@@ -751,6 +751,25 @@ Tap three creatures you control: Untap Matthieu.
  - Has the word "Colossus" in its name, so therefore it's the big fatty Gestral of the set.
  - Modeled mostly on Phyrexian Colossus, but with Trample, downgraded Super-Menace to Menace and changed the untap cost to tapping 3 other creatures instead of life payment.
  - Yes, it can be Lackey'd out, but I can accept the variance on that line and also needing 3 other creatures to untap it will keep this line grounded.
+
+## Ono-Puncho
+
+```
+2
+Legendary Artifact Creature - Gestral
+Whenever Ono-Puncho is dealt damage, return it to its owner's hand.
+---
+But remember, once you hit me, the battle's over, so make it count!
+
+1/5
+```
+
+[card implementation](../custom/cards/o/ono_puncho.txt)
+
+### Design Notes
+
+ - In the game, Ono-Puncho resides in the Gestral Village, you can challenge him a battle to win a prize. The gimmick is that you only have one shot to deal 9999 damage.
+ - We've translated that gimmick to a bounce trigger when it's dealt damage (signifying end of battle). To kill it means to "make it count" and deal it lethal damage so that state-based effects will send it to the graveyard before the bounce trigger can save it.
 
 ## Paint Spike
 

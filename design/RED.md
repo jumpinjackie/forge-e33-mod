@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 20/11/2025 1:11:48 pm
+> Last generated: 22/11/2025 10:26:30 am
 
 ## Anger
 
@@ -183,6 +183,28 @@ When Grosse Tete has three or more quake counters, sacrifice it.
  - Like The Monolith, we are saccing at 3 instead of 12 counters for purposes of practicality. 12 counters means 12 turns and that is too long to wait it out in "MTG game time"
  - Big butt conveys the general tankiness.
     - 5 toughness was chosen so it can be taken out with a Gestral Volleyball Strike, so that a Gestral strategy does not completely fold to this card being in play and can take this out immediately if waiting it out is not an option.
+
+## Hexga
+
+```
+2RR
+Creature - Nevron Elemental
+Double Strike
+This creature enters with a shield counter on it. (If it would be dealt damage or destroyed, remove a shield counter from it instead.)
+Shields its allies — When this creature enters, put a shield counter on target creature you control.
+When this creature dies, target opponent creates a Lumina token. (It's an artifact with "{T}, Sacrifice this artifact: Scry 1.")
+
+2/2
+```
+
+[card implementation](../custom/cards/h/hexga.txt)
+
+### Design Notes
+
+ - In the game, Hexga is a rock-based Nevron.
+ - Thus it has an Elemental sub-type.
+ - Comes in with a shield counter to convey tankiness.
+ - Double strike maps to its 2/3-hit combo it does in-game.
 
 ## Lightning Dance
 

@@ -29,7 +29,7 @@ From this list, card designs are spawned from it, which will eventually form the
 
 ## Card Name List
 
-Cards implemented: 239/302
+Cards implemented: 242/302
 
 [x] - Card is implemented or in development, [ ] - Card is not implemented
 
@@ -206,7 +206,7 @@ Cards implemented: 239/302
 [x] Healing Light
 [x] Healing Tint
 [x] Here's Your Card!
-[ ] Hexga
+[x] Hexga
 [x] Ice Lance
 [ ] Jovial Moissoneneuse
 [x] Julien Tiny Head
@@ -251,7 +251,7 @@ Cards implemented: 239/302
 [x] Noir
 [x] Obscur
 [ ] Offensive Switch
-[ ] Ono-Puncho
+[x] Ono-Puncho
 [ ] Orphelin
 [ ] Paint Cage
 [x] Paint Spike
@@ -271,7 +271,7 @@ Cards implemented: 239/302
 [x] Ranger Sakapatate
 [x] Reaper Cultist
 [x] Recoat
-[ ] Renoir's Creation
+[x] Renoir's Creation
 [ ] Renoir's Drafts
 [x] Renoir's Will
 [x] Repaint
