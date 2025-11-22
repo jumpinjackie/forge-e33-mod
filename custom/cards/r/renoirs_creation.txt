@@ -1,0 +1,9 @@
+Name:Renoir's Creation
+ManaCost:2 B B
+Types:Creature Nevron
+PT:3+*/3+*
+K:Trample
+K:Lifelink
+S:Mode$ Continuous | CharacteristicDefining$ True | SetPower$ X | SetToughness$ X | Description$ CARDNAME's power and toughness are each equal to 3 plus the number of Expeditioner creatures in all graveyards.
+SVar:X:Count$ValidGraveyard Creature.Expeditioner/Plus.3
+Oracle:Trample\nLifelink\nThis creature's power and toughness are each equal to 3 plus the number of Expeditioner creatures in all graveyards.
