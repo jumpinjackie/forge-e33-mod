@@ -1,0 +1,32 @@
+[Name]
+Hexga
+[ManaCost]
+2
+R
+R
+[Types]
+Creature
+Nevron
+Elemental
+[Rarity]
+U
+[PT]
+2/2
+[Oracle]
+Double Strike
+~ enters with a shield counter on it. $SHIELD_REMINDER_TEXT
+Shields its allies — When ~ enters, put a shield counter on target creature you control.
+$NEVRON_DEATH_ABILITY_TEXT
+[AbilityWords]
+Shields its allies
+[ForgeScript]
+K:Double Strike
+K:etbCounter:SHIELD:1
+T:Mode$ ChangesZone | ValidCard$ Card.Self | Origin$ Any | Destination$ Battlefield | Execute$ TrigShield | TriggerDescription$ When ~ enters, put a shield counter on target creature you control.
+SVar:TrigShield:DB$ PutCounter | CounterType$ SHIELD | CounterNum$ 1 | ValidTgts$ Creature.YouCtrl
+$NEVRON_DEATH_ABILITY
+[DesignNotes]
+ - In the game, Hexga is a rock-based Nevron.
+ - Thus it has an Elemental sub-type.
+ - Comes in with a shield counter to convey tankiness.
+ - Double strike maps to its 2/3-hit combo it does in-game.

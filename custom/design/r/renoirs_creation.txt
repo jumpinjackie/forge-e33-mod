@@ -15,11 +15,13 @@ U
 Trample
 Lifelink
 ~'s power and toughness are each equal to 3 plus the number of Expeditioner creatures in all graveyards.
+$NEVRON_DEATH_ABILITY_TEXT
 [ForgeScript]
 K:Trample
 K:Lifelink
 S:Mode$ Continuous | CharacteristicDefining$ True | SetPower$ X | SetToughness$ X | Description$ CARDNAME's power and toughness are each equal to 3 plus the number of Expeditioner creatures in all graveyards.
 SVar:X:Count$ValidGraveyard Creature.Expeditioner/Plus.3
+$NEVRON_DEATH_ABILITY
 [DesignNotes]
  - In the game, Creation is a high-tier Nevron that starts appearing in Act 3.
  - Named Renoir's Creation instead of Creation to reduce the possbility of name-squatting by real cards in the future.
