@@ -1199,98 +1199,67 @@ public class GenAllCommand : BaseCommand
             await stderr.WriteLineAsync($"Failed to write SPOILER.md: {ex.Message}");
         }
 
-        // Compile stats:
-        int common = 0;
-        int uncommon = 0;
-        int rare = 0;
-        int mythic = 0;
-        int unknownRarity = 0;
-        int land = 0;
-        int colorless = 0;
-        int artifact = 0;
-        int multicolor = 0;
-        int white = 0;
-        int blue = 0;
-        int black = 0;
-        int red = 0;
-        int green = 0;
-        int unknownBucket = 0;
+        // Compile stats: build a rarity-by-bucket distribution
+        var rarityCodes = new[] { "C", "U", "R", "M", "?" }; // ? == unknown
+        var distro = new SortedDictionary<string, Dictionary<string, int>>(StringComparer.OrdinalIgnoreCase);
+        var rarityTotals = rarityCodes.ToDictionary(r => r, r => 0);
+        int overallTotal = 0;
+
         foreach (var (_, card) in cards)
         {
-            switch (card.Rarity)
-            {
-                case "C":
-                    common++;
-                    break;
-                case "U":
-                    uncommon++;
-                    break;
-                case "R":
-                    rare++;
-                    break;
-                case "M":
-                    mythic++;
-                    break;
-                default:
-                    unknownRarity++;
-                    break;
-            }
+            overallTotal++;
 
-            switch (card.Bucket)
+            var r = card.Rarity ?? "?";
+            if (r.Length != 1 || (r != "C" && r != "U" && r != "R" && r != "M"))
+                r = "?";
+            rarityTotals[r]++;
+
+            var b = card.Bucket ?? "UNKNOWN";
+            if (!distro.TryGetValue(b, out var map))
             {
-                case "LANDS":
-                    land++;
-                    break;
-                case "ARTIFACTS":
-                    artifact++;
-                    break;
-                case "MULTICOLOR":
-                    multicolor++;
-                    break;
-                case "COLORLESS":
-                    colorless++;
-                    break;
-                case "WHITE":
-                    white++;
-                    break;
-                case "BLUE":
-                    blue++;
-                    break;
-                case "BLACK":
-                    black++;
-                    break;
-                case "RED":
-                    red++;
-                    break;
-                case "GREEN":
-                    green++;
-                    break;
-                default:
-                    unknownBucket++;
-                    break;
+                map = rarityCodes.ToDictionary(rr => rr, rr => 0);
+                distro[b] = map;
             }
+            map[r]++;
         }
 
-        await stdout.WriteLineAsync($"""
-        Rarity summary:
-            {common} commons
-            {uncommon} uncommons
-            {rare} rares
-            {mythic} mythic rare
-        """);
+        // Prepare a simple aligned table
+        int nameWidth = Math.Max(6, distro.Keys.Select(k => k.Length).DefaultIfEmpty(6).Max());
+        var sb = new StringBuilder();
 
-        await stdout.WriteLineAsync($"""
-        Bucket summary:
-            {land} lands
-            {colorless} colorless cards
-            {artifact} artifacts
-            {white} white cards
-            {blue} blue cards
-            {black} black cards
-            {red} red cards
-            {green} green cards
-            {multicolor} multicolor cards
-        """);
+        // Header
+        sb.Append(' ', 0);
+        sb.Append("Bucket".PadRight(nameWidth + 2));
+        sb.Append("| ");
+        sb.Append(String.Join(" | ", rarityCodes.Select(rc => rc.PadLeft(3))));
+        sb.Append(" | Tot\n");
+
+        // Separator
+        sb.Append(new string('-', nameWidth + 2));
+        sb.Append("|-----|-----|-----|-----|-----|-----\n");
+
+        // Rows per bucket
+        foreach (var kv in distro)
+        {
+            var bucket = kv.Key;
+            var map = kv.Value;
+            var rowTotal = map.Values.Sum();
+            sb.Append(bucket.PadRight(nameWidth + 2));
+            sb.Append("| ");
+            sb.Append(String.Join(" | ", rarityCodes.Select(rc => map.ContainsKey(rc) ? map[rc].ToString().PadLeft(3) : "  0")));
+            sb.Append($" | {rowTotal}\n");
+        }
+
+        // Totals row
+        sb.Append(new string('-', nameWidth + 2));
+        sb.Append("|-----|-----|-----|-----|-----|-----\n");
+        sb.Append("Total".PadRight(nameWidth + 2));
+        sb.Append("| ");
+        sb.Append(String.Join(" | ", rarityCodes.Select(rc => rarityTotals[rc].ToString().PadLeft(3))));
+        sb.Append($" | {overallTotal}\n");
+
+        await stdout.WriteLineAsync("Rarity distribution by bucket:");
+        await stdout.WriteLineAsync(sb.ToString());
 
         await stdout.WriteLineAsync("All generation tasks completed successfully!");
 
