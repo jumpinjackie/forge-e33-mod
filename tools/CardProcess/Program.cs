@@ -1199,6 +1199,99 @@ public class GenAllCommand : BaseCommand
             await stderr.WriteLineAsync($"Failed to write SPOILER.md: {ex.Message}");
         }
 
+        // Compile stats:
+        int common = 0;
+        int uncommon = 0;
+        int rare = 0;
+        int mythic = 0;
+        int unknownRarity = 0;
+        int land = 0;
+        int colorless = 0;
+        int artifact = 0;
+        int multicolor = 0;
+        int white = 0;
+        int blue = 0;
+        int black = 0;
+        int red = 0;
+        int green = 0;
+        int unknownBucket = 0;
+        foreach (var (_, card) in cards)
+        {
+            switch (card.Rarity)
+            {
+                case "C":
+                    common++;
+                    break;
+                case "U":
+                    uncommon++;
+                    break;
+                case "R":
+                    rare++;
+                    break;
+                case "M":
+                    mythic++;
+                    break;
+                default:
+                    unknownRarity++;
+                    break;
+            }
+
+            switch (card.Bucket)
+            {
+                case "LANDS":
+                    land++;
+                    break;
+                case "ARTIFACTS":
+                    artifact++;
+                    break;
+                case "MULTICOLOR":
+                    multicolor++;
+                    break;
+                case "COLORLESS":
+                    colorless++;
+                    break;
+                case "WHITE":
+                    white++;
+                    break;
+                case "BLUE":
+                    blue++;
+                    break;
+                case "BLACK":
+                    black++;
+                    break;
+                case "RED":
+                    red++;
+                    break;
+                case "GREEN":
+                    green++;
+                    break;
+                default:
+                    unknownBucket++;
+                    break;
+            }
+        }
+
+        await stdout.WriteLineAsync($"""
+        Rarity summary:
+            {common} commons
+            {uncommon} uncommons
+            {rare} rares
+            {mythic} mythic rare
+        """);
+
+        await stdout.WriteLineAsync($"""
+        Bucket summary:
+            {land} lands
+            {colorless} colorless cards
+            {artifact} artifacts
+            {white} white cards
+            {blue} blue cards
+            {black} black cards
+            {red} red cards
+            {green} green cards
+            {multicolor} multicolor cards
+        """);
+
         await stdout.WriteLineAsync("All generation tasks completed successfully!");
 
         return 0;
