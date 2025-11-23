@@ -1,8 +1,8 @@
 Name:Revitalization
 ManaCost:2 G
 Types:Kindred Sorcery Expeditioner
-A:SP$ ChooseCard | Defined$ You | Choice$ Creature.YouOwn | ChoiceZone$ Graveyard | SubAbility$ DBChooseNonCreature | RememberChosen$ True | SpellDescription$ Choose up to one target creature card in your graveyard.
-SVar:DBChooseNonCreature:DB$ ChooseCard | Defined$ You | Choice$ Creature.YouOwn | ChoiceZone$ Graveyard | SubAbility$ DBReturn | RememberChosen$ True | SpellDescription$ Choose up to one target non-creature card in your graveyard.
-SVar:DBReturn:DB$ ChangeZoneAll | Origin$ Graveyard | Destination$ Hand | ChangeType$ Card.IsRemembered | SubAbility$ DBCleanup
-SVar:DBCleanup:DB$ Cleanup | ClearRemembered$ True
-Oracle:Choose up to one target creature card and up to one target non-creature card in your graveyard. Return those cards to your hand.
+A:SP$ ChangeZone | Origin$ Graveyard | Destination$ Hand | TargetMin$ 0 | TargetMax$ 1 | TgtPrompt$ Select target creature card in your graveyard | ValidTgts$ Creature.YouCtrl | SubAbility$ DBNonCreature | SpellDescription$ Return up to one target creature card in your graveyard to your hand.
+SVar:DBNonCreature:DB$ ChangeZone | Origin$ Graveyard | Destination$ Hand | TargetMin$ 0 | TargetMax$ 1 | TgtPrompt$ Select target card in your graveyard | ValidTgts$ Card.YouCtrl+nonCreature | ConditionCheckSVar$ X | ConditionSVarCompare$ GE3 | SpellDescription$ Return up to one target non-creature card in your graveyard to your hand.
+SVar:X:Count$Valid Lumina.YouCtrl
+DeckHas:Ability$Graveyard
+Oracle:Return up to one target creature card in your graveyard to your hand.\nLuminous — If you control three or more Lumina tokens, also return up to one target non-creature card in your graveyard to your hand.

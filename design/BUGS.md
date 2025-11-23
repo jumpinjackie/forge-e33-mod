@@ -28,7 +28,7 @@ AI seems to have issues unlocking its own doors. Check if Keys to the House has 
 
 ## Revitalization
 
-Can target any two cards in graveyard (the creature and non-creature restrictions are being ignored)
+ - The graveyard view closes after being prompted to choose a creature card and you are being prompted for a non-creature card. Re-opening the graveyard view lets you pick the non-creature card. Probably a Forge bug.
 
 ## The Monolith Interior
 

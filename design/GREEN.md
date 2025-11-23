@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 21/11/2025 9:16:03 am
+> Last generated: 23/11/2025 11:51:12 am
 
 ## Abbest
 
@@ -283,7 +283,8 @@ Even in an artificial painted world, there is a natural order.
 ```
 2G
 Kindred Sorcery - Expeditioner
-Choose up to one target creature card and up to one target non-creature card in your graveyard. Return those cards to your hand.
+Return up to one target creature card in your graveyard to your hand.
+Luminous — If you control three or more Lumina tokens, also return up to one target non-creature card in your graveyard to your hand.
 ```
 
 [card implementation](../custom/cards/r/revitalization.txt)
@@ -292,6 +293,7 @@ Choose up to one target creature card and up to one target non-creature card in 
 
  - In the game, this is Lune's healing ability.
  - No mechanical relation. We've just re-approriated the name for a green regrowth-style spell.
+ - 23/11/2025: Rework the card so that the base is regrowing a creature card, with the additional regrowth of a non-creature card being a Luminous bonus.
 
 ## Rock Throw
 

@@ -1,0 +1,29 @@
+[Name]
+Revitalization
+[ManaCost]
+2
+G
+[Types]
+Kindred
+Sorcery
+Expeditioner
+[Rarity]
+U
+[Artist]
+Sandfall Interactive
+[Oracle]
+Return up to one target creature card in your graveyard to your hand.
+Luminous — If you control three or more Lumina tokens, also return up to one target non-creature card in your graveyard to your hand.
+[AbilityWords]
+Luminous
+[ForgeScript]
+A:SP$ ChangeZone | Origin$ Graveyard | Destination$ Hand | TargetMin$ 0 | TargetMax$ 1 | TgtPrompt$ Select target creature card in your graveyard | ValidTgts$ Creature.YouCtrl | SubAbility$ DBNonCreature | SpellDescription$ Return up to one target creature card in your graveyard to your hand.
+SVar:DBNonCreature:DB$ ChangeZone | Origin$ Graveyard | Destination$ Hand | TargetMin$ 0 | TargetMax$ 1 | TgtPrompt$ Select target card in your graveyard | ValidTgts$ Card.YouCtrl+nonCreature | ConditionCheckSVar$ X | ConditionSVarCompare$ GE3 | SpellDescription$ Return up to one target non-creature card in your graveyard to your hand.
+SVar:X:Count$Valid Lumina.YouCtrl
+DeckHas:Ability$Graveyard
+[DesignNotes]
+ - In the game, this is Lune's healing ability.
+ - No mechanical relation. We've just re-approriated the name for a green regrowth-style spell.
+ - 23/11/2025: Rework the card so that the base is regrowing a creature card, with the additional regrowth of a non-creature card being a Luminous bonus.
+[Bugs]
+ - The graveyard view closes after being prompted to choose a creature card and you are being prompted for a non-creature card. Re-opening the graveyard view lets you pick the non-creature card. Probably a Forge bug.
