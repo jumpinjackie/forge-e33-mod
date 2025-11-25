@@ -1,4 +1,4 @@
-Name:Shrine to the Paintress
+Name:Shrine to The Paintress
 ManaCost:4 G
 Types:Legendary Enchantment Shrine
 T:Mode$ Phase | Phase$ Upkeep | ValidPlayer$ You | TriggerZones$ Battlefield | Execute$ TrigToken | TriggerDescription$ At the beginning of your upkeep, create a 1/1 colorless Nevron creature token for each Shrine you control.
