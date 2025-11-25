@@ -1,5 +1,5 @@
 [Name]
-Shrine to the Paintress
+Shrine to The Paintress
 [ManaCost]
 4
 G

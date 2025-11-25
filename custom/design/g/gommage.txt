@@ -24,3 +24,4 @@ A:SP$ ChangeZoneAll | UseAllOriginZones$ True | Origin$ Battlefield | Destinatio
  - In the game, the Gommage is a yearly event where people above a certain age (indicated on the Monolith) are erased from existence. It is also a gradient attack power that Maelle gains in the late game that can deal extreme singular damage.
  - Mechanically, this is easily a mass exile effect. It spares legendaries and Nevrons as this event only affects the humans of the continent.
  - Has painter's discount as this is clearly a power wielded by the painters.
+w - 26/11/2025: It has come to my attention that this name is already taken in French (for the English card: Blot Out). However since, this is an English printing and that this is a custom set, there is no collsion issues with this card in Forge.
