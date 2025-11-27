@@ -16,7 +16,7 @@ Sandfall Interactive
 [PT]
 3/4
 [Oracle]
-Nevron spells you cast cost {2} less to cast.
+Nevron spells you cast cost {1} less to cast.
 Nevron creatures you control get +1/+1.
 At the beginning of your upkeep, create a 1/1 colorless Nevron creature token.
 Sacrifice a Nevron: Draw a card.
@@ -24,8 +24,8 @@ Sacrifice a Nevron: Draw a card.
 Verso: What happened to her?
 Maelle: I bet Clea hated Maman's portrait of her. So she painted over her.
 [ForgeScript]
-S:Mode$ ReduceCost | ValidCard$ Nevron | Type$ Spell | Activator$ You | Amount$ 2 | Description$ Nevron spells you cast cost {2} less to cast.
-S:Mode$ Continuous | Affected$ Creature.Nevron+YouCtrl | AddPower$ 1 | AddToughness$ 1 | Description$ Nevron creatures you control get +2/+2.
+S:Mode$ ReduceCost | ValidCard$ Nevron | Type$ Spell | Activator$ You | Amount$ 1 | Description$ Nevron spells you cast cost {1} less to cast.
+S:Mode$ Continuous | Affected$ Creature.Nevron+YouCtrl | AddPower$ 1 | AddToughness$ 1 | Description$ Nevron creatures you control get +1/+1.
 T:Mode$ Phase | Phase$ Upkeep | ValidPlayer$ You | TriggerZones$ Battlefield | Execute$ TrigToken | TriggerDescription$ At the beginning of your upkeep, create a 1/1 colorless Nevron creature token.
 SVar:TrigToken:DB$ Token | TokenAmount$ 1 | TokenScript$ c_1_1_nevron | TokenOwner$ You
 A:AB$ Draw | Cost$ Sac<1/Nevron> | NumCards$ 1
@@ -41,3 +41,4 @@ DeckHints:Type$Nevron
  - 13/10/2025: Removed Devoid.
  - 26/10/2025: Replaced tutoring with a Nevron sac to draw a card.
  - 2/11/2025: Reduced Nevron buff from +2/+2 to +1/+1
+ - 27/11/2025: Reduced cost reduction from {2} to {1}
