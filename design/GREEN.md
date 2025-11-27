@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 23/11/2025 11:51:12 am
+> Last generated: 27/11/2025 11:42:53 am
 
 ## Abbest
 
@@ -314,7 +314,7 @@ Have you tried throwing with your other arm instead? If you could hit the Paintr
  - In the game, Gustave has a penchant for throwing rocks.
  - To give green some bones in spot removal for draft/limited, this is a shock for creatures that can be upgraded in damage.
 
-## Shrine to the Paintress
+## Shrine to The Paintress
 
 ```
 4G

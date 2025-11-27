@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 22/11/2025 10:26:30 am
+> Last generated: 27/11/2025 11:42:53 am
 
 ## Anti-Burn Picto
 
@@ -287,7 +287,7 @@ Apparently that was where people went on dates, you know.
 ```
 4
 Artifact - Expeditioner
-Send Backup! - When this artifact enters, reveal the top four cards of your library. Put all Expeditioner cards revealed this way into your hand and the rest on the bottom of your library in any order.
+Send Backup! — When this artifact enters, reveal the top four cards of your library. Put all Expeditioner cards revealed this way into your hand and the rest on the bottom of your library in any order.
 {2}, Sacrifice this artifact: Draw a card.
 ```
 
@@ -305,6 +305,7 @@ Send Backup! - When this artifact enters, reveal the top four cards of your libr
 Artifact
 {T}, Sacrifice this artifact: Create two Lumina tokens.
 {T}, Sacrifice this artifact: Create two Chroma tokens.
+Luminous — When this artifact is put into a graveyard from the battlefield, draw a card if you control at least three Lumina tokens.
 ---
 This could be useful!
 - Gustave
@@ -316,6 +317,7 @@ This could be useful!
 
  - In the game, these caches are scattered throughout the continent, left by previous Expeditions "for those who come after"
  - Just an enabler for Lumina/Chroma token strategies
+ - 27/11/2025: Added Luminous bonus
 
 ## Expedition Flag
 
@@ -619,7 +621,7 @@ Haymaker — {2}: Julien gains trample until end of turn.
 ```
 3
 Legendary Artifact Creature - Gestral
-{2}, {T}: Target Gestral you control fights another target creature. (Each deals damage equal to its power to the other.)
+{2}, {T}: Target creature you control fights another target creature. (Each deals damage equal to its power to the other.)
 ---
 Did I mention the prize is a powerful weapon? So, how about it?
 
@@ -632,6 +634,7 @@ Did I mention the prize is a powerful weapon? So, how about it?
 
  - In the game, Limonsol sets up fights in the Gestral Arena
  - Mechanically, I just repeated Gestral Arena and gave him a fight ability
+ - 27/11/2025: Dropped Gestral restriction to reduce parasitism. Limonsol doesn't discriminate against any participant!
 
 ## Lorieniso, Gestral Musician
 

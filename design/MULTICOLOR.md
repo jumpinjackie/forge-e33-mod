@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 21/11/2025 9:39:08 am
+> Last generated: 27/11/2025 11:42:53 am
 
 ## A Storm is Coming
 
@@ -247,7 +247,7 @@ Hmm. It's old chroma, not pure. It won't be like bringing the two of you back, b
 Legendary Planeswalker - Clea
 Nevron spells you cast cost {1} less to cast.
 [+2]: Create a 1/1 colorless Nevron creature token.
-[-2]: Search your library for a Nevron card, reveal that card and put it into your hand.
+[-2]: Search your library for a Nevron creature card, reveal that card and put it into your hand.
 [-4]: Exile target nonland permanent. Create a token that's a copy of that permanent, except it is a Nevron in addition to its other types.
 [-10]: Gain control of all creatures target opponent controls.
 ```
@@ -261,6 +261,7 @@ Nevron spells you cast cost {1} less to cast.
     - -2: She can conjure up any Nevron
     - -4: She is known to have the unique ability of "painting over" other's creations. Modeled as exile with Nevron clone copy.
     - -10: She is a shrewd manipulator
+ - 26/11/2025: Made her -2 loyalty only tutor up Nevron creatures, so that Clea's Chromatic Mastery acutally does something unique (tutor up any Nevron card, not just creatures)
 
 ## Closure
 
@@ -774,6 +775,7 @@ Your mother paints life. Whilst your father, death. What will you paint?
  - In the game, the Gommage is a yearly event where people above a certain age (indicated on the Monolith) are erased from existence. It is also a gradient attack power that Maelle gains in the late game that can deal extreme singular damage.
  - Mechanically, this is easily a mass exile effect. It spares legendaries and Nevrons as this event only affects the humans of the continent.
  - Has painter's discount as this is clearly a power wielded by the painters.
+w - 26/11/2025: It has come to my attention that this name is already taken in French (for the English card: Blot Out). However since, this is an English printing and that this is a custom set, there is no collsion issues with this card in Forge.
 
 ## Gradient Charge
 
@@ -957,9 +959,9 @@ Enchantment - Room
 When you unlock this door, search your library for a land card, put it onto the battlefield, then shuffle.
 
 Manor Gallery
-2U
+3R
 Enchantment - Room
-Painter and Gradient spells you cast cost {1} less to cast.
+When you unlock this door, create a token that’s a copy of another target nonlegendary creature you control, except it has haste. Sacrifice it at the beginning of the next end step.
 
 ```
 
@@ -971,6 +973,7 @@ Painter and Gradient spells you cast cost {1} less to cast.
  - Greenhouse is a land tutor, because it's ... green!
  - Gallery is another cost reducer to enable painter strategies
  - 3/10/2025: Might rename Manor Gallery to Manor Atelier. I haven't played the video game in months, so I forget if the Atelier is where Verso's canvas resides so Gallery is a placeholder name. Either way this is supposed to be "Manor $ROOM_THAT_HAS_VERSOS_CANVAS"
+ - 26/11/2025: Changed Manor Gallery to red and its unlock ability to be a Kiki-Jiki temp clone effect.
 
 ## Manor Kitchen // Manor Cellar
 
@@ -1071,7 +1074,7 @@ Her silence is deafening.
 ```
 2UB
 Legendary Creature - Painter God
-Nevron spells you cast cost {2} less to cast.
+Nevron spells you cast cost {1} less to cast.
 Nevron creatures you control get +1/+1.
 At the beginning of your upkeep, create a 1/1 colorless Nevron creature token.
 Sacrifice a Nevron: Draw a card.
@@ -1096,6 +1099,7 @@ Maelle: I bet Clea hated Maman's portrait of her. So she painted over her.
  - 13/10/2025: Removed Devoid.
  - 26/10/2025: Replaced tutoring with a Nevron sac to draw a card.
  - 2/11/2025: Reduced Nevron buff from +2/+2 to +1/+1
+ - 27/11/2025: Reduced cost reduction from {2} to {1}
 
 ## Rally the Expeditioners
 
@@ -1401,7 +1405,7 @@ Fuse (You may cast one or both halves of this card from your hand.)
 ```
 1RG
 Creature - Nevron
-Applies powerful to allies — Other nevrons you control get +1/+1.
+Applies powerful to allies — Other Nevron creatures you control get +1/+1.
 Applies rush to allies — Nevrons you control have haste.
 When this creature dies, target opponent creates a Lumina token. (It's an artifact with "{T}, Sacrifice this artifact: Scry 1.")
 

@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 19/11/2025 8:49:55 am
+> Last generated: 27/11/2025 11:42:53 am
 
 ## Petank
 

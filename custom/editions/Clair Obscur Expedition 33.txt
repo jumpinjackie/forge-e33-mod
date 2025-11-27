@@ -205,47 +205,48 @@ Type=Custom
 199 R Sastro, Gestral Guardian @Sandfall Interactive
 200 R Sciel, Grieving for Many @Sandfall Interactive
 201 U Sciel's Intervention @Sandfall Interactive
-202 C Search // Rescue @Sandfall Interactive
-203 R Serpenphare @Sandfall Interactive
-204 R Shot Picto @Sandfall Interactive
-205 U Shrine to the Paintress @
-206 U Sinister Cave @Sandfall Interactive
-207 R Sirene's Coliseum @Sandfall Interactive
-208 R Sky Break @Sandfall Interactive
-209 U Soarrie @Sandfall Interactive
-210 R Stendhal @
-211 U Surcease @
-212 C Swift Counter @Sandfall Interactive
-213 R Terraquake @Sandfall Interactive
-214 M The 67th Gommage @Sandfall Interactive
-215 M The Curator @Sandfall Interactive
-216 M The Fate of the Canvas @
-217 R The Fracture @Sandfall Interactive
-218 R The Greatest Expedition in History @Sandfall Interactive
-219 R The Hauler @Sandfall Interactive
-220 M The Monolith @Sandfall Interactive
-221 R The Monolith Interior @Sandfall Interactive
-222 M The Paintress @Sandfall Interactive
-223 R The Reacher @
-224 M The Sacred River @Sandfall Interactive
-225 R The Scavenger @Sandfall Interactive
-226 U The Search for Esquie's Rocks @Sandfall Interactive
-227 M The World Canvas @Sandfall Interactive
-228 U Thermal Transfer @Sandfall Interactive
-229 C Thunderfall @
-230 U Tomorrow Comes @Sandfall Interactive
-231 C Torture // Nurture @Sandfall Interactive
-232 U Troubador @Sandfall Interactive
-233 U Twilight Quarry @Sandfall Interactive
-234 U Twisted Lumiere Citizen @Sandfall Interactive
-235 U Urrie @Sandfall Interactive
-236 R Verisimilitude @Sandfall Interactive
-237 R Verso, Who Guards Truth With Lies @
-238 U Verso's Burden @
-239 U Void Meteors @Sandfall Interactive
-240 C Volester @Sandfall Interactive
-241 U Whee // Whoo @Sandfall Interactive
-242 R When One Falls // We Continue @Sandfall Interactive
+202 C Seal of Approval @
+203 C Search // Rescue @Sandfall Interactive
+204 R Serpenphare @Sandfall Interactive
+205 R Shot Picto @Sandfall Interactive
+206 U Shrine to The Paintress @
+207 U Sinister Cave @Sandfall Interactive
+208 R Sirene's Coliseum @Sandfall Interactive
+209 R Sky Break @Sandfall Interactive
+210 U Soarrie @Sandfall Interactive
+211 R Stendhal @
+212 U Surcease @
+213 C Swift Counter @Sandfall Interactive
+214 R Terraquake @Sandfall Interactive
+215 M The 67th Gommage @Sandfall Interactive
+216 M The Curator @Sandfall Interactive
+217 M The Fate of the Canvas @
+218 R The Fracture @Sandfall Interactive
+219 R The Greatest Expedition in History @Sandfall Interactive
+220 R The Hauler @Sandfall Interactive
+221 M The Monolith @Sandfall Interactive
+222 R The Monolith Interior @Sandfall Interactive
+223 M The Paintress @Sandfall Interactive
+224 R The Reacher @
+225 M The Sacred River @Sandfall Interactive
+226 R The Scavenger @Sandfall Interactive
+227 U The Search for Esquie's Rocks @Sandfall Interactive
+228 M The World Canvas @Sandfall Interactive
+229 U Thermal Transfer @Sandfall Interactive
+230 C Thunderfall @
+231 U Tomorrow Comes @Sandfall Interactive
+232 C Torture // Nurture @Sandfall Interactive
+233 U Troubador @Sandfall Interactive
+234 U Twilight Quarry @Sandfall Interactive
+235 U Twisted Lumiere Citizen @Sandfall Interactive
+236 U Urrie @Sandfall Interactive
+237 R Verisimilitude @Sandfall Interactive
+238 R Verso, Who Guards Truth With Lies @
+239 U Verso's Burden @
+240 U Void Meteors @Sandfall Interactive
+241 C Volester @Sandfall Interactive
+242 U Whee // Whoo @Sandfall Interactive
+243 R When One Falls // We Continue @Sandfall Interactive
 
 7 U Anger @Svetlin Velinov
 

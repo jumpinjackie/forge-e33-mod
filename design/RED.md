@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 22/11/2025 10:26:30 am
+> Last generated: 27/11/2025 11:42:53 am
 
 ## Anger
 
@@ -79,6 +79,7 @@ Crustal Crush deals 5 damage to target creature or planeswalker.
 2R
 Kindred Sorcery - Expeditioner
 Earth Rising deals 2 damage to each creature without flying and each player.
+Luminous — Earth Rising deals 3 damage to each creature without flying and each player instead if you control at least three Lumina tokens.
 ```
 
 [card implementation](../custom/cards/e/earth_rising.txt)
@@ -88,6 +89,7 @@ Earth Rising deals 2 damage to each creature without flying and each player.
  - In the game, this is one of Lune's skills
  - Just a mini-earthquake
  - Needed a sweeper to give control strategies something to stymie go-wide strategies
+ - 27/11/2025: Added Luminous bonus
 
 ## Entering the Canvas
 
@@ -146,7 +148,7 @@ Gestral Volleyball Strike deals 5 damage to any target.
 ```
 XR
 Kindred Sorcery - Expeditioner
-X target Gestral creatures can't block this turn.
+X target creatures can't block this turn.
 ---
 Sunniso: Geez, you don't need to be so rude.
 Gustave: Nononono, uh ... it's just, um ... it's the password ...
@@ -159,6 +161,7 @@ Sunniso: Well, I don't know! Golgra never told me the password. But whatever, ju
 
  - In the game, this is the "password" Golgra passed down to the Expeditioners to get past the Gestral guards at Esquie's Nest
  - Mechanically, it make sense (and is hilarious) to make Gestrals unable to block.
+ - 27/11/2025: Dropped the Gestral restriction to avoid parasitism. So this is now just an Expeditioner-branded Wave of Indifference.
 
 ## Grosse Tete
 
@@ -212,6 +215,7 @@ When this creature dies, target opponent creates a Lumina token. (It's an artifa
 2RR
 Kindred Sorcery - Expeditioner
 Lightning Dance deals 1 damage to any target, 2 damage to another target, and 3 damage to a third target.
+Luminous — Draw a card if you control at least three Lumina tokens.
 ```
 
 [card implementation](../custom/cards/l/lightning_dance.txt)

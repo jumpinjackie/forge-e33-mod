@@ -29,7 +29,7 @@ From this list, card designs are spawned from it, which will eventually form the
 
 ## Card Name List
 
-Cards implemented: 242/302
+Cards implemented: 243/302
 
 [x] - Card is implemented or in development, [ ] - Card is not implemented
 
@@ -379,7 +379,7 @@ No ideas yet.
 > Act 2: Mask-Keeper battle
 > Sciel: This mask can't hurt me. Because it is me.
 
-No ideas yet.
+Reprint of Mask of Memory?
 
 > Act 2: Camp
 > Verso: My beautiful sister doesn't need this ugly mask.
@@ -396,6 +396,10 @@ No ideas yet.
 
 Reprint of Mirror Gallery? It would be the most flavorful, but also quite useless in cube ro commander paper play since there will only ever be 1 copy of anything anyways.
 
+Reprint of Mirage Mirror?
+Reprint of Mirror of the Forebears?
+Reprint of Mirrorweave?
+
 > Act 2: Monolith Interior
 > Renoir: If saving you means losing you then so be it.
 
@@ -404,7 +408,14 @@ No ideas yet.
 > Act 2: Renoir boss battle
 > Renoir: WE are your family. You would condemn us all to die, for what? Who do you really save with your sacrifice?
 
-No ideas yet.
+Some card centered around betrayal or switching allegiance.
+
+> Act 3: Camp
+> Esquie: Mmm. Yeah. I get sad too, when I lose my stones. But I always find them again. You will find them again too.
+
+Some card that interacts with rock permanents.
+
+If we made a Lost // Found split card this would be great flavor text, except no split card ever has flavor text! Or we could be a trailblazer!
 
 > Act 3: Lumiere post-gommage. Renoir, after Curator transformation.
 > Renoir: I know it seems absurd to offer oblivion as recompense, but perhaps that's the outcome we both desire.

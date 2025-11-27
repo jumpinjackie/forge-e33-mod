@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 19/11/2025 8:49:55 am
+> Last generated: 27/11/2025 11:42:53 am
 
 ## Acceptance
 
@@ -155,6 +155,7 @@ Your time left in this life is limited, why not make it count for something?
 XW
 Kindred Sorcery - Expeditioner
 Each player gains twice X life.
+Luminous — Put a shield counter on up to one target creature you control and draw a card if you control at least three Lumina tokens.
 ---
 Please survive!
 ```
@@ -166,6 +167,7 @@ Please survive!
  - In the game, Healing Light is one of Lune's abilities that heals an ally.
  - Easy mechanical translation to life gain, but with a twist. It's symmetrical for a reason: As an enabler for The 67th Gommage.
     - Thus a card like this will not only help buy extra turns to get you to 6 mana to cast The 67th gommage, but also to get your opponent to 33 life or above.
+ - 27/11/2025: Added Luminous bonus.
 
 ## Lumiere Assault
 
@@ -173,6 +175,7 @@ Please survive!
 2WW
 Kindred Instant - Expeditioner
 Create two 1/1 white Human Expeditioner tokens with "When this creature dies, create a Chroma token."
+Luminous — Draw a card if you control at least three Lumina tokens.
 Flashback — Sacrifice two Lumina tokens.
 ```
 
@@ -209,6 +212,7 @@ He eagerly absorbs the knowledge given to him, for he knows when his time comes,
 XW
 Kindred Instant - Expeditioner
 Exile X target creatures you control. Return them to the battlefield under its owner's control at the the beginning of the next end step.
+Luminous — Draw a card if you control at least three Lumina tokens.
 ```
 
 [card implementation](../custom/cards/p/perfect_dodge.txt)
@@ -245,6 +249,7 @@ Painting isn't about verisimilitude, it's about essence. The truth of who they a
 1W
 Kindred Instant - Expeditioner
 Untap target creature you control. It gains hexproof until end of turn.
+Luminous — Draw a card if you control at least three Lumina tokens.
 ---
 I got you covered!
 ```
@@ -256,6 +261,22 @@ I got you covered!
  - In the game, Intervention is Sciel's ability that lets an ally take their turn immediately along with an AP boost
  - Mechanically, we've mapped "granting extra turns" to untapping creatures. Nothing approximates an "AP boost" for creatures, so we've given it a granting of hexproof.
  - This has the name of "Sciel's Intervention" as "Intervention" on its own is too generic has a risk of being "name-squatted" by an actual card from Wizards in the future.
+
+## Seal of Approval
+
+```
+2W
+Enchantment
+When this enchantment enters, draw a card.
+Sacrifice this enchantment: The next historic spell you cast costs {1} less to cast. (Artifacts, legendaries, and Sagas are historic.)
+```
+
+[card implementation](../custom/cards/s/seal_of_approval.txt)
+
+### Design Notes
+
+ - In the game, Sciel gives her "glowing endorsement" of Gustave for "shouting the password as loud as you can" to get access to Esquie's Nest.
+ - This card 100% based on the "Sciel of Approval" meme/pun.
 
 ## The Fracture
 

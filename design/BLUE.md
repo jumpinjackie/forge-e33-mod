@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 21/11/2025 9:16:03 am
+> Last generated: 27/11/2025 11:42:53 am
 
 ## An Advantage!
 
