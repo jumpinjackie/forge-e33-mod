@@ -1,0 +1,10 @@
+Name:Seal of Approval
+ManaCost:2 W
+Types:Enchantment
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigDraw | TriggerDescription$ When CARDNAME enters, draw a card.
+SVar:TrigDraw:DB$ Draw | Defined$ You | NumCards$ 1
+A:AB$ Effect | Cost$ Sac<1/CARDNAME> | StaticAbilities$ ReduceCost | Triggers$ TrigCastSpell | Duration$ Permanent | SpellDescription$ The next Historic spell you cast costs {2} less to cast.
+SVar:ReduceCost:Mode$ ReduceCost | Type$ Spell | Activator$ You | ValidCard$ Card.Historic | Amount$ 1 | Description$ The next Historic spell you cast costs {1} less to cast.
+SVar:TrigCastSpell:Mode$ SpellCast | ValidCard$ Card.Historic | ValidActivatingPlayer$ You | TriggerZones$ Command | Execute$ RemoveEffect | Static$ True
+SVar:RemoveEffect:DB$ ChangeZone | Origin$ Command | Destination$ Exile
+Oracle:When this enchantment enters, draw a card.\nSacrifice this enchantment: The next historic spell you cast costs {1} less to cast. (Artifacts, legendaries, and Sagas are historic.)

@@ -1,0 +1,22 @@
+[Name]
+Seal of Approval
+[ManaCost]
+2
+W
+[Rarity]
+C
+[Types]
+Enchantment
+[Oracle]
+When ~ enters, draw a card.
+Sacrifice ~: The next historic spell you cast costs {1} less to cast. (Artifacts, legendaries, and Sagas are historic.)
+[ForgeScript]
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigDraw | TriggerDescription$ When ~ enters, draw a card.
+SVar:TrigDraw:DB$ Draw | Defined$ You | NumCards$ 1
+A:AB$ Effect | Cost$ Sac<1/CARDNAME> | StaticAbilities$ ReduceCost | Triggers$ TrigCastSpell | Duration$ Permanent | SpellDescription$ The next Historic spell you cast costs {2} less to cast.
+SVar:ReduceCost:Mode$ ReduceCost | Type$ Spell | Activator$ You | ValidCard$ Card.Historic | Amount$ 1 | Description$ The next Historic spell you cast costs {1} less to cast.
+SVar:TrigCastSpell:Mode$ SpellCast | ValidCard$ Card.Historic | ValidActivatingPlayer$ You | TriggerZones$ Command | Execute$ RemoveEffect | Static$ True
+SVar:RemoveEffect:DB$ ChangeZone | Origin$ Command | Destination$ Exile
+[DesignNotes]
+ - In the game, Sciel gives her "glowing endorsement" of Gustave for "shouting the password as loud as you can" to get access to Esquie's Nest.
+ - This card 100% based on the "Sciel of Approval" meme/pun.
