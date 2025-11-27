@@ -12,14 +12,15 @@ U
 [Artist]
 Sandfall Interactive
 [Oracle]
-X target Gestral creatures can't block this turn.
+X target creatures can't block this turn.
 [FlavorText]
 Sunniso: Geez, you don't need to be so rude.
 Gustave: Nononono, uh ... it's just, um ... it's the password ...
 Sunniso: Well, I don't know! Golgra never told me the password. But whatever, just go in.
 [ForgeScript]
-A:SP$ Pump | KW$ HIDDEN CARDNAME can't block. | TargetMin$ X | TargetMax$ X | ValidTgts$ Creature.Gestral | TgtPrompt$ Select X target Gestral creatures | StackDescription$ X target Gestral creatures [{c:Targeted}] can't block this turn. | SpellDescription$ X target Gestral creatures can't block this turn.
+A:SP$ Pump | KW$ HIDDEN CARDNAME can't block. | TargetMin$ X | TargetMax$ X | ValidTgts$ Creature | TgtPrompt$ Select X target creatures | StackDescription$ X target creatures [{c:Targeted}] can't block this turn. | SpellDescription$ X target creatures can't block this turn.
 SVar:X:Count$xPaid
 [DesignNotes]
  - In the game, this is the "password" Golgra passed down to the Expeditioners to get past the Gestral guards at Esquie's Nest
  - Mechanically, it make sense (and is hilarious) to make Gestrals unable to block.
+ - 27/11/2025: Dropped the Gestral restriction to avoid parasitism. So this is now just an Expeditioner-branded Wave of Indifference.
