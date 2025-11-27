@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 27/11/2025 11:42:53 am
+> Last generated: 27/11/2025 12:02:16 pm
 
 ## Crushing Cavern
 
@@ -70,8 +70,8 @@ Legendary Land - Cave
 {T}: Add one mana of any type that a land you control could produce.
 {T}: Add {W}{U}{B}{R}{G}. Activate this ability only if you control a card named Soarrie, a card named Florrie, a card named Dorrie and a card named Urrie.
 ---
-Hmm, No Esquie—
-- Lune
+Bonjour, mes amis!
+- Esquie
 ```
 
 [card implementation](../custom/cards/e/esquies_nest.txt)

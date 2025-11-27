@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 27/11/2025 11:42:53 am
+> Last generated: 27/11/2025 12:02:16 pm
 
 ## Anger
 
@@ -192,7 +192,7 @@ When Grosse Tete has three or more quake counters, sacrifice it.
 ```
 2RR
 Creature - Nevron Elemental
-Double Strike
+Double strike
 This creature enters with a shield counter on it. (If it would be dealt damage or destroyed, remove a shield counter from it instead.)
 Shields its allies — When this creature enters, put a shield counter on target creature you control.
 When this creature dies, target opponent creates a Lumina token. (It's an artifact with "{T}, Sacrifice this artifact: Scry 1.")

@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 27/11/2025 11:42:53 am
+> Last generated: 27/11/2025 12:02:16 pm
 
 ## A Storm is Coming
 
@@ -585,7 +585,7 @@ Our only choice is to take matters into our own hands. Fortune favors the bold. 
 2(W/U)
 Creature - Human Expeditioner Wizard
 You may choose not to untap this creature during your untap step.
-Nevron Whisperer - {2},{T}: Gain control of target Nevron creature for as long as this creature remains tapped.
+Nevron Whisperer — {2}, {T}: Gain control of target Nevron creature for as long as this creature remains tapped.
 When this creature dies, create a Chroma token.
 ---
 Gregoire is, as usual, deeply suspicious, but this could change our entire understanding of Nevrons and the Paintre-
@@ -1275,7 +1275,7 @@ Choose one —
 • Fight as Verso — Exile all permanents. Exile all graveyards. Each player exiles their hand.
 • Fight as Maelle — Return to the battlefield all Humans and Expeditioners you own from your graveyard and in exile.
 ---
-Life keeps forcing cruel choices ...
+Life keeps forcing cruel choices.
 ```
 
 [card implementation](../custom/cards/t/the_fate_of_the_canvas.txt)

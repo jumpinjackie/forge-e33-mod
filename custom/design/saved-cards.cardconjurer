@@ -15444,7 +15444,7 @@
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
-                    "height": 0.2875,
+                    "height": 0.255863539445629,
                     "size": 0.0362
                 },
                 "pt": {
@@ -17287,7 +17287,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Earth Rising deals 2 damage to each creature without flying and each player.",
+                    "text": "Earth Rising deals 2 damage to each creature without flying and each player.\n{i}Luminous{/i} — Earth Rising deals 3 damage to each creature without flying and each player instead if you control at least three Lumina tokens.",
                     "x": 0.086,
                     "y": 0.6325515280739161,
                     "width": 0.828,
@@ -25352,7 +25352,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "{i}Send Backup!{/i} - When this artifact enters, reveal the top four cards of your library. Put all Expeditioner cards revealed this way into your hand and the rest on the bottom of your library in any order.\n{2}, Sacrifice this artifact: Draw a card.",
+                    "text": "{i}Send Backup!{/i} — When this artifact enters, reveal the top four cards of your library. Put all Expeditioner cards revealed this way into your hand and the rest on the bottom of your library in any order.\n{2}, Sacrifice this artifact: Draw a card.",
                     "x": 0.086,
                     "y": 0.6325515280739161,
                     "width": 0.828,
@@ -28147,7 +28147,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "You may choose not to untap this creature during your untap step.\n{i}Nevron Whisperer{/i} - {2}, {T}: Gain control of target Nevron creature for as long as this creature remains tapped.\nWhen this creature dies, create a Chroma token.{flavor}Gregoire is, as usual, deeply suspicious, but this could change our entire understanding of Nevrons and the Paintre-\n- Renee, Expedition 81",
+                    "text": "You may choose not to untap this creature during your untap step.\n{i}Nevron Whisperer{/i} — {2}, {T}: Gain control of target Nevron creature for as long as this creature remains tapped.\nWhen this creature dies, create a Chroma token.{flavor}Gregoire is, as usual, deeply suspicious, but this could change our entire understanding of Nevrons and the Paintre-\n- Renee, Expedition 81",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
@@ -28442,7 +28442,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "{T}, Sacrifice this artifact: Create two Lumina tokens.\n{T}, Sacrifice this artifact: Create two Chroma tokens.{flavor}This could be useful!\n- Gustave",
+                    "text": "{T}, Sacrifice this artifact: Create two Lumina tokens.\n{T}, Sacrifice this artifact: Create two Chroma tokens.\n{i}Luminous{/i} — When this artifact is put into a graveyard from the battlefield, draw a card if you control at least three Lumina tokens.{flavor}This could be useful!\n- Gustave",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
@@ -38669,7 +38669,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "X target Gestral creatures can’t block this turn.{flavor}Sunniso: Geez, you don’t need to be so rude.\nGustave: Nononono, uh ... it’s just, um ... it’s the password ...\nSunniso: Well, I don’t know! Golgra never told me the password. But whatever, just go in.",
+                    "text": "X target creatures can’t block this turn.{flavor}Sunniso: Geez, you don’t need to be so rude.\nGustave: Nononono, uh ... it’s just, um ... it’s the password ...\nSunniso: Well, I don’t know! Golgra never told me the password. But whatever, just go in.",
                     "x": 0.086,
                     "y": 0.6325515280739161,
                     "width": 0.828,
@@ -43022,7 +43022,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Each player gains twice X life.{flavor}Please survive!",
+                    "text": "Each player gains twice X life.\n{i}Luminous{/i} — Put a shield counter on up to one target creature you control and draw a card if you control at least three Lumina tokens.{flavor}Please survive!",
                     "x": 0.086,
                     "y": 0.6325515280739161,
                     "width": 0.828,
@@ -43918,7 +43918,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Double strike\nThis creature enters with a shield counter. (If it would be dealt damage or destroyed, remove a shield counter from it instead.)\n{i}Shields its allies{/i} — When this creature enters, put a shield counter on target creature you control.\nWhen this creature dies, target opponent creates a Lumina token. (It’s an artifact with “{T}, Sacrifice this artifact: Scry 1.”)",
+                    "text": "Double strike\nThis creature enters with a shield counter on it. (If it would be dealt damage or destroyed, remove a shield counter from it instead.)\n{i}Shields its allies{/i} — When this creature enters, put a shield counter on target creature you control.\nWhen this creature dies, target opponent creates a Lumina token. (It’s an artifact with “{T}, Sacrifice this artifact: Scry 1.”)",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
@@ -46091,7 +46091,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Lightning Dance deals 1 damage to any target, 2 damage to another target, and 3 damage to a third target.",
+                    "text": "Lightning Dance deals 1 damage to any target, 2 damage to another target, and 3 damage to a third target.\n{i}Luminous{/i} — Draw a card if you control at least three Lumina tokens.",
                     "x": 0.086,
                     "y": 0.6325515280739161,
                     "width": 0.828,
@@ -46419,7 +46419,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "{2}, {T}: Target Gestral you control fights another target creature. (Each deals damage equal to its power to the other.){flavor}Did I mention the prize is a powerful weapon? So, how about it?",
+                    "text": "{2}, {T}: Target creature you control fights another target creature. (Each deals damage equal to its power to the other.){flavor}Did I mention the prize is a powerful weapon? So, how about it?",
                     "x": 0.086,
                     "y": 0.6325515280739161,
                     "width": 0.8263681592039801,
@@ -47672,7 +47672,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Create two 1/1 white Human Expeditioner tokens with “When this creature dies, create a Chroma token.”\nFlashback — Sacrifice two Lumina tokens.",
+                    "text": "Create two 1/1 white Human Expeditioner tokens with “When this creature dies, create a Chroma token.”\n{i}Luminous{/i} — Draw a card if you control at least three Lumina tokens.\nFlashback — Sacrifice two Lumina tokens.",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
@@ -51660,7 +51660,7 @@
             ],
             "artSource": "https://corsproxy.io/?url=https%3A%2F%2Fjumpinjackie.github.io%2Fe33-reference-art%2Fimages%2Fcards%2Fmanor_entrance_manor_hidden_room.png",
             "artX": 0.1338308457711443,
-            "artY": 0.0472636815920398,
+            "artY": 0.040867093105899074,
             "artZoom": 1.022,
             "artRotate": "0",
             "setSymbolSource": "https://cardconjurer.app/img/setSymbols/official/pz1-r.svg",
@@ -52573,8 +52573,8 @@
                 }
             ],
             "artSource": "https://corsproxy.io/?url=https%3A%2F%2Fjumpinjackie.github.io%2Fe33-reference-art%2Fimages%2Fcards%2Fmanor_greenhouse_manor_gallery.png%3Fabc",
-            "artX": 0.1338308457711443,
-            "artY": 0.0472636815920398,
+            "artX": 0.12686567164179105,
+            "artY": 0.03660270078180526,
             "artZoom": 1.022,
             "artRotate": "0",
             "setSymbolSource": "https://cardconjurer.app/img/setSymbols/official/pz1-r.svg",
@@ -52718,7 +52718,7 @@
             "text": {
                 "mana": {
                     "name": "Mana Cost (Right)",
-                    "text": "4 R",
+                    "text": "3 R",
                     "x": 0.06467661691542288,
                     "y": 0.4381,
                     "width": 0.5367,
@@ -52871,7 +52871,7 @@
             ],
             "artSource": "https://corsproxy.io/?url=https%3A%2F%2Fjumpinjackie.github.io%2Fe33-reference-art%2Fimages%2Fcards%2Fmanor_kitchen_manor_cellar.png",
             "artX": 0.1338308457711443,
-            "artY": 0.0472636815920398,
+            "artY": 0.04015636105188344,
             "artZoom": 1.022,
             "artRotate": "0",
             "setSymbolSource": "https://cardconjurer.app/img/setSymbols/official/pz1-u.svg",
@@ -53165,7 +53165,7 @@
             ],
             "artSource": "https://corsproxy.io/?url=https%3A%2F%2Fjumpinjackie.github.io%2Fe33-reference-art%2Fimages%2Fcards%2Fmanor_library_manor_fireplace.png",
             "artX": 0.1338308457711443,
-            "artY": 0.0472636815920398,
+            "artY": 0.04015636105188344,
             "artZoom": 1.022,
             "artRotate": "0",
             "setSymbolSource": "https://cardconjurer.app/img/setSymbols/official/pz1-u.svg",
@@ -58138,7 +58138,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Nevron spells you cast cost {2} less to cast.\nNevron creatures you control get +1/+1.\nAt the beginning of your upkeep, create a 1/1 colorless Nevron creature token.\nSacrifice a Nevron: Draw a card.{flavor}Verso: What happened to her?\nMaelle: I bet Clea hated Maman’s portrait of her. So she painted over her.",
+                    "text": "Nevron spells you cast cost {1} less to cast.\nNevron creatures you control get +1/+1.\nAt the beginning of your upkeep, create a 1/1 colorless Nevron creature token.\nSacrifice a Nevron: Draw a card.{flavor}Verso: What happened to her?\nMaelle: I bet Clea hated Maman’s portrait of her. So she painted over her.",
                     "x": 0.086,
                     "y": 0.6325515280739161,
                     "width": 0.828,
@@ -62442,7 +62442,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Untap target creature you control. It gains hexproof until end of turn.{flavor}I got you covered!",
+                    "text": "Untap target creature you control. It gains hexproof until end of turn.\n{i}Luminous{/i} — Draw a card if you control at least three Lumina tokens.{flavor}I got you covered!",
                     "x": 0.086,
                     "y": 0.6325515280739161,
                     "width": 0.828,
@@ -71487,7 +71487,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "{i}Applies powerful to allies{/i} — Other nevrons you control get +1/+1.\n{i}Applies rush to allies{/i} — Nevrons you control have haste.\nWhen this creature dies, target opponent creates a Lumina token. (It’s an artifact with “{T}, Sacrifice this artifact: Scry 1.”)",
+                    "text": "{i}Applies powerful to allies{/i} — Other Nevron creatures you control get +1/+1.\n{i}Applies rush to allies{/i} — Nevrons you control have haste.\nWhen this creature dies, target opponent creates a Lumina token. (It’s an artifact with “{T}, Sacrifice this artifact: Scry 1.”)",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,

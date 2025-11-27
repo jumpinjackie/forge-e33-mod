@@ -16,7 +16,7 @@ Sandfall Interactive
 1/2
 [Oracle]
 You may choose not to untap this creature during your untap step.
-Nevron Whisperer - {2},{T}: Gain control of target Nevron creature for as long as this creature remains tapped.
+Nevron Whisperer — {2}, {T}: Gain control of target Nevron creature for as long as this creature remains tapped.
 $EXPEDITIONER_DEATH_ABILITY_TEXT
 [AbilityWords]
 Nevron Whisperer

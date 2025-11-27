@@ -13,7 +13,7 @@ U
 [PT]
 2/2
 [Oracle]
-Double Strike
+Double strike
 ~ enters with a shield counter on it. $SHIELD_REMINDER_TEXT
 Shields its allies — When ~ enters, put a shield counter on target creature you control.
 $NEVRON_DEATH_ABILITY_TEXT

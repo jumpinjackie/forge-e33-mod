@@ -6,4 +6,4 @@ K:You may choose not to untap CARDNAME during your untap step.
 A:AB$ GainControl | Cost$ 2 T | ValidTgts$ Creature.Nevron | TgtPrompt$ Select target Nevron creature | LoseControl$ Untap,LeavesPlay | SpellDescription$ Gain control of target Nevron creature for as long as CARDNAME remains tapped.
 T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Card.Self | Execute$ TrigToken | TriggerDescription$ When CARDNAME dies, create a Chroma token
 SVar:TrigToken:DB$ Token | TokenScript$ c_a_chroma | TokenOwner$ You | TokenAmount$ 1
-Oracle:You may choose not to untap this creature during your untap step.\nNevron Whisperer - {2},{T}: Gain control of target Nevron creature for as long as this creature remains tapped.\nWhen this creature dies, create a Chroma token.
+Oracle:You may choose not to untap this creature during your untap step.\nNevron Whisperer — {2}, {T}: Gain control of target Nevron creature for as long as this creature remains tapped.\nWhen this creature dies, create a Chroma token.
