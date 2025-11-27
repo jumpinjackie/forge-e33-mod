@@ -6,4 +6,4 @@ S:Mode$ Continuous | Affected$ Creature.Nevron+Other+YouCtrl | AddPower$ 1 | Add
 S:Mode$ Continuous | Affected$ Nevron.YouCtrl | AddKeyword$ Haste | Description$ Nevrons you control have haste.
 T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Card.Self | Execute$ TrigToken | TriggerDescription$ When this creature dies, target opponent creates a Lumina token.
 SVar:TrigToken:DB$ Token | TokenAmount$ 1 | ValidTgts$ Opponent | TokenOwner$ Targeted | TokenScript$ c_a_lumina
-Oracle:Applies powerful to allies — Other nevrons you control get +1/+1.\nApplies rush to allies — Nevrons you control have haste.\nWhen this creature dies, target opponent creates a Lumina token. (It's an artifact with "{T}, Sacrifice this artifact: Scry 1.")
+Oracle:Applies powerful to allies — Other Nevron creatures you control get +1/+1.\nApplies rush to allies — Nevrons you control have haste.\nWhen this creature dies, target opponent creates a Lumina token. (It's an artifact with "{T}, Sacrifice this artifact: Scry 1.")

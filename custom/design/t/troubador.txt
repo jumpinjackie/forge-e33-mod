@@ -14,7 +14,7 @@ Sandfall Interactive
 [PT]
 2/2
 [Oracle]
-Applies powerful to allies — Other nevrons you control get +1/+1.
+Applies powerful to allies — Other Nevron creatures you control get +1/+1.
 Applies rush to allies — Nevrons you control have haste.
 $NEVRON_DEATH_ABILITY_TEXT
 [AbilityWords]
