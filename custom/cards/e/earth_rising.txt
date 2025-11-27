@@ -1,5 +1,7 @@
 Name:Earth Rising
 ManaCost:2 R
 Types:Kindred Sorcery Expeditioner
-A:SP$ DamageAll | ValidCards$ Creature.withoutFlying | ValidPlayers$ Player | NumDmg$ 2 | SpellDescription$ CARDNAME deals 2 damage to each creature without flying and each player.
-Oracle:Earth Rising deals 2 damage to each creature without flying and each player.
+A:SP$ DamageAll | ValidCards$ Creature.withoutFlying | ValidPlayers$ Player | NumDmg$ X | SpellDescription$ CARDNAME deals 2 damage to each creature without flying and each player.
+SVar:LuminaTotal:Count$Valid Lumina.YouCtrl
+SVar:X:Count$Compare LuminaTotal GE3.3.2
+Oracle:Earth Rising deals 2 damage to each creature without flying and each player.\nLuminous — Earth Rising deals 3 damage to each creature without flying and each player instead if you control at least three Lumina tokens.

@@ -13,9 +13,15 @@ U
 Sandfall Interactive
 [Oracle]
 ~ deals 2 damage to each creature without flying and each player.
+Luminous — ~ deals 3 damage to each creature without flying and each player instead if you control at least three Lumina tokens.
+[AbilityWords]
+Luminous
 [ForgeScript]
-A:SP$ DamageAll | ValidCards$ Creature.withoutFlying | ValidPlayers$ Player | NumDmg$ 2 | SpellDescription$ CARDNAME deals 2 damage to each creature without flying and each player.
+A:SP$ DamageAll | ValidCards$ Creature.withoutFlying | ValidPlayers$ Player | NumDmg$ X | SpellDescription$ CARDNAME deals 2 damage to each creature without flying and each player.
+SVar:LuminaTotal:Count$Valid Lumina.YouCtrl
+SVar:X:Count$Compare LuminaTotal GE3.3.2
 [DesignNotes]
  - In the game, this is one of Lune's skills
  - Just a mini-earthquake
  - Needed a sweeper to give control strategies something to stymie go-wide strategies
+ - 27/11/2025: Added Luminous bonus

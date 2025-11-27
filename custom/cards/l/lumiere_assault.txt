@@ -2,6 +2,8 @@ Name:Lumiere Assault
 ManaCost:2 W W
 Types:Kindred Instant Expeditioner
 K:Flashback:Sac<2/Lumina>
-A:SP$ Token | TokenOwner$ You | TokenAmount$ 2 | TokenScript$ w_1_1_human_expeditioner | SpellDescription$ Create two 1/1 white Human Expeditioner tokens with "When this creature dies, create a Chroma token."
+A:SP$ Token | TokenOwner$ You | TokenAmount$ 2 | TokenScript$ w_1_1_human_expeditioner | SubAbility$ TrigDraw | SpellDescription$ Create two 1/1 white Human Expeditioner tokens with "When this creature dies, create a Chroma token."
+SVar:TrigDraw:DB$ Draw | NumCards$ 1 | ConditionCheckSVar$ Y | ConditionSVarCompare$ GE3 | SpellDescription$ Draw a card if you control at least three Lumina tokens.
+SVar:Y:Count$Valid Lumina.YouCtrl
 DeckHas:Ability$Token
-Oracle:Create two 1/1 white Human Expeditioner tokens with "When this creature dies, create a Chroma token."\nFlashback — Sacrifice two Lumina tokens.
+Oracle:Create two 1/1 white Human Expeditioner tokens with "When this creature dies, create a Chroma token."\nLuminous — Draw a card if you control at least three Lumina tokens.\nFlashback — Sacrifice two Lumina tokens.

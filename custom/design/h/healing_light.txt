@@ -15,13 +15,20 @@ Sandfall Interactive
 A beam of light strikes Gustave and Maelle from above, they both have the look of being refreshed or revitalized.
 [Oracle]
 Each player gains twice X life.
+Luminous — Put a shield counter on up to one target creature you control and draw a card if you control at least three Lumina tokens.
+[AbilityWords]
+Luminous
 [FlavorText]
 Please survive!
 [ForgeScript]
 A:SP$ GainLife | Defined$ Player | LifeAmount$ X | SubAbility$ GainMoreLife | StackDescription$ Each player gains twice X life. | SpellDescription$ Each player gains twice X life.
-SVar:GainMoreLife:DB$ GainLife | Defined$ Player | LifeAmount$ X
+SVar:GainMoreLife:DB$ GainLife | Defined$ Player | LifeAmount$ X | SubAbility$ TrigShield
 SVar:X:Count$xPaid
+SVar:TrigShield:DB$ PutCounter | ValidTgts$ Creature.YouCtrl | TargetMin$ 0 | TargetMax$ 1 | CounterType$ SHIELD | CounterNum$ 1 | SubAbility$ TrigDraw | ConditionCheckSVar$ Y | ConditionSVarCompare$ GE3 | SpellDescription$ Put a shield counter on up to one target creature you control if you control at least three Lumina tokens.
+SVar:TrigDraw:DB$ Draw | NumCards$ 1 | ConditionCheckSVar$ Y | ConditionSVarCompare$ GE3 | SpellDescription$ Draw a card if you control at least three Lumina tokens.
+SVar:Y:Count$Valid Lumina.YouCtrl
 [DesignNotes]
  - In the game, Healing Light is one of Lune's abilities that heals an ally.
  - Easy mechanical translation to life gain, but with a twist. It's symmetrical for a reason: As an enabler for The 67th Gommage.
     - Thus a card like this will not only help buy extra turns to get you to 6 mana to cast The 67th gommage, but also to get your opponent to 33 life or above.
+ - 27/11/2025: Added Luminous bonus.

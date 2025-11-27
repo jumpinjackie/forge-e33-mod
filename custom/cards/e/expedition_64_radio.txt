@@ -5,4 +5,4 @@ T:Mode$ ChangesZone | ValidCard$ Card.Self | Origin$ Any | Destination$ Battlefi
 SVar:TrigDig:DB$ Dig | DigNum$ 4 | Reveal$ True | ChangeNum$ All | ChangeValid$ Expeditioner
 A:AB$ Draw | Cost$ 2 Sac<1/CARDNAME> | NumCards$ 1 | SpellDescription$ Draw a card.
 DeckHints:Type$Expeditioner
-Oracle:Send Backup! - When this artifact enters, reveal the top four cards of your library. Put all Expeditioner cards revealed this way into your hand and the rest on the bottom of your library in any order.\n{2}, Sacrifice this artifact: Draw a card.
+Oracle:Send Backup! — When this artifact enters, reveal the top four cards of your library. Put all Expeditioner cards revealed this way into your hand and the rest on the bottom of your library in any order.\n{2}, Sacrifice this artifact: Draw a card.

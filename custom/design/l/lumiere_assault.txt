@@ -12,10 +12,15 @@ Instant
 Expeditioner
 [Oracle]
 Create two 1/1 white Human Expeditioner tokens with $EXPEDITIONER_TOKEN_TEXT
+Luminous — Draw a card if you control at least three Lumina tokens.
 Flashback — Sacrifice two Lumina tokens.
+[AbilityWords]
+Luminous
 [ForgeScript]
 K:Flashback:Sac<2/Lumina>
-A:SP$ Token | TokenOwner$ You | TokenAmount$ 2 | TokenScript$ w_1_1_human_expeditioner | SpellDescription$ Create two 1/1 white Human Expeditioner tokens with $EXPEDITIONER_TOKEN_TEXT
+A:SP$ Token | TokenOwner$ You | TokenAmount$ 2 | TokenScript$ w_1_1_human_expeditioner | SubAbility$ TrigDraw | SpellDescription$ Create two 1/1 white Human Expeditioner tokens with $EXPEDITIONER_TOKEN_TEXT
+SVar:TrigDraw:DB$ Draw | NumCards$ 1 | ConditionCheckSVar$ Y | ConditionSVarCompare$ GE3 | SpellDescription$ Draw a card if you control at least three Lumina tokens.
+SVar:Y:Count$Valid Lumina.YouCtrl
 DeckHas:Ability$Token
 [DesignNotes]
  - Primarily designed to support the Crippling Tsunami Prison strategy

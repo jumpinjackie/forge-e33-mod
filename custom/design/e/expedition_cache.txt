@@ -7,6 +7,9 @@ Artifact
 [Oracle]
 {T}, Sacrifice this artifact: Create two Lumina tokens.
 {T}, Sacrifice this artifact: Create two Chroma tokens.
+Luminous — When this artifact is put into a graveyard from the battlefield, draw a card if you control at least three Lumina tokens.
+[AbilityWords]
+Luminous
 [Rarity]
 C
 [Artist]
@@ -17,6 +20,10 @@ This could be useful!
 [ForgeScript]
 A:AB$ Token | Cost$ T Sac<1/CARDNAME> | TokenAmount$ 2 | TokenOwner$ You | TokenScript$ c_a_lumina | SpellDescription$ Create two Lumina tokens.
 A:AB$ Token | Cost$ T Sac<1/CARDNAME> | TokenAmount$ 2 | TokenOwner$ You | TokenScript$ c_a_chroma | SpellDescription$ Create two Chroma tokens.
+T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Card.Self | Execute$ TrigDraw | Secondary$ True | TriggerDescription$ When CARDNAME enters or is put into a graveyard from the battlefield, draw a card.
+SVar:TrigDraw:DB$ Draw | NumCards$ 1 | Defined$ TriggeredCardController | ConditionCheckSVar$ X | ConditionSVarCompare$ GE3
+SVar:X:Count$Valid Lumina.YouCtrl
 [DesignNotes]
  - In the game, these caches are scattered throughout the continent, left by previous Expeditions "for those who come after"
  - Just an enabler for Lumina/Chroma token strategies
+ - 27/11/2025: Added Luminous bonus
