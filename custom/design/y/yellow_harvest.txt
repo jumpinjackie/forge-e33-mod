@@ -1,0 +1,19 @@
+[Name]
+Yellow Harvest
+[ManaCost]
+no cost
+[Types]
+Land
+[IsReprint]
+true
+[Rarity]
+R
+[NicknameFor]
+Copperline Gorge
+[FlavorText]
+Wow... That Nevron is the size of a mountain.
+[Artist]
+Sandfall Interactive
+[DesignNotes]
+ - In the game, Yellow Harvest is an optional area.
+ - Went with a nickname reprint of Copperline Gorge 
