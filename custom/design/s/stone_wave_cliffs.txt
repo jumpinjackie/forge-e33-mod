@@ -1,0 +1,13 @@
+[Name]
+Stone Wave Cliffs
+[Types]
+Land
+[Rarity]
+R
+[NicknameFor]
+Stormcarved Coast
+[IsReprint]
+true
+[DesignNotes]
+ - In the game, a Stone Wave Cliffs is the final area of Act 1.
+ - Gone with nickname reprint of Stormcarved Coast.

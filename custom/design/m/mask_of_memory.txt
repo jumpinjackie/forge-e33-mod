@@ -1,0 +1,18 @@
+[Name]
+Mask of Memory
+[ManaCost]
+2
+[Types]
+Artifact
+[IsReprint]
+true
+[Rarity]
+U
+[Artist]
+Allen Morris
+[FlavorText]
+This mask can't hurt me. Because it is me.
+- Sciel
+[DesignNotes]
+ - Utility equipment for Commander.
+ - Chosen solely to be able to use this flavor text.

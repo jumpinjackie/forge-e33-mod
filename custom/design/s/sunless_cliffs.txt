@@ -1,0 +1,17 @@
+[Name]
+Sunless Cliffs
+[ManaCost]
+no cost
+[Types]
+Land
+[IsReprint]
+true
+[Rarity]
+C
+[NicknameFor]
+Blackcleave Cliffs
+[Artist]
+Sandfall Interactive
+[DesignNotes]
+ - In the game, a Sunless Cliffs is an optional area. It features a battle against a special mime.
+ - Gone with nickname reprint of Blackleave Cliffs

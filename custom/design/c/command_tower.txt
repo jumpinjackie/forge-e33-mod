@@ -1,0 +1,15 @@
+[Name]
+Command Tower
+[ManaCost]
+no cost
+[Types]
+Land
+[IsReprint]
+true
+[IsCommander]
+[Rarity]
+C
+[Artist]
+Alayna Danner
+[DesignNotes]
+ - Obligatory mana fixing land for Commander
