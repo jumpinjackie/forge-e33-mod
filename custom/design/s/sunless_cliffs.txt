@@ -7,7 +7,7 @@ Land
 [IsReprint]
 true
 [Rarity]
-C
+R
 [NicknameFor]
 Blackcleave Cliffs
 [Artist]

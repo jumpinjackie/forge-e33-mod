@@ -1,0 +1,17 @@
+[Name]
+Spring Meadows
+[ManaCost]
+no cost
+[Types]
+Land
+[IsReprint]
+true
+[Rarity]
+R
+[NicknameFor]
+Razorverge Thicket
+[Artist]
+Sandfall Interactive
+[DesignNotes]
+ - In the game, Spring Meadows is the opening area of Act 1.
+ - Gone with nickname reprint of Razorverge Thicket.
