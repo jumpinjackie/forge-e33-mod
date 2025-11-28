@@ -1,0 +1,13 @@
+[Name]
+Terminate
+[ManaCost]
+B
+R
+[IsReprint]
+true
+[Rarity]
+C
+[Artist]
+Lucas Graciano
+[DesignNotes]
+ - Obligatry spot removal for Limited/Commander

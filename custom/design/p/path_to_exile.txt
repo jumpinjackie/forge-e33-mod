@@ -1,0 +1,14 @@
+[Name]
+Path to Exile
+[ManaCost]
+W
+[IsReprint]
+true
+[IsCommander]
+true
+[Rarity]
+U
+[Artist]
+Raf Sarmento
+[DesignNotes]
+ - Obligatry spot removal in Commander

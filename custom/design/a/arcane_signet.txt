@@ -1,0 +1,16 @@
+[Name]
+Arcane Signet
+[ManaCost]
+2
+[Types]
+Artifact
+[IsReprint]
+true
+[IsCommander]
+true
+[Rarity]
+C
+[Artist]
+Constantin Marin
+[DesignNotes]
+ - Obligatry mana rock in Commander

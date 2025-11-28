@@ -1,0 +1,16 @@
+[Name]
+Putrefy
+[ManaCost]
+1
+B
+G
+[IsReprint]
+true
+[IsCommander]
+true
+[Rarity]
+U
+[Artist]
+Clint Cearley
+[DesignNotes]
+ - Obligatry spot removal in Commander

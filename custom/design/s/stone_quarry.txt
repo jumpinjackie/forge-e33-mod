@@ -1,0 +1,15 @@
+[Name]
+Stone Quarry
+[ManaCost]
+no cost
+[Types]
+Land
+[IsReprint]
+true
+[Rarity]
+U
+[Artist]
+Sandfall Interactive
+[DesignNotes]
+ - In the game, Stone Quarry is an optional area. It features a non-hostile NPC known as the Unfinished Troubador
+ - Name was already taken, and we lack a Boros dual land, so we'll take it.

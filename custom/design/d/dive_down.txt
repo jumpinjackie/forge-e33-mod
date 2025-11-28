@@ -1,0 +1,13 @@
+[Name]
+Dive Down
+[ManaCost]
+U
+[IsReprint]
+true
+[Rarity]
+C
+[Artist]
+Magali Villeneuve
+[DesignNotes]
+ - In the game, Esquie can start diving if you find Urrie.
+ - Flavorful reprint of a useful combat trick.

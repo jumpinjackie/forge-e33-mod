@@ -1,0 +1,14 @@
+[Name]
+Swords to Plowshares
+[ManaCost]
+W
+[IsReprint]
+true
+[IsCommander]
+true
+[Rarity]
+U
+[Artist]
+Nadia Hurianova
+[DesignNotes]
+ - Obligatry spot removal in Commander
