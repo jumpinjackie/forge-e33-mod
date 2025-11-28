@@ -128,6 +128,23 @@ The oracle text of the card. Can span multiple lines.
 * Use Gatherer/Scryfall as reference for looking up similar cards and try to follow their text templating.
 * Use emdashes `—` and unicode bullet points `•` where needed (ability words, modal options, etc). This allows for easy transfer to CardConjurer without needing special markup directives
 
+#### Documenting Reprints/Commander
+
+Reprint cards also need to be defined in these same files in order to be included into the final set.
+
+However, unlike normal unique cards, Reprint cards only need the following minimum information specified:
+
+ * `[Name]` - Obviously!
+ * `[ManaCost]` - For determining the appropriate "bucket" for docs
+ * `[IsReprint]` - Must be set to `true`
+ * `[IsCommander]` - Optional, indicates if this reprint is on the "commander" reprint sheet. Such cards are only for commander use and is not meant for regular drafting/cube (though if you do print these proxies in paper, no one's gonna stop you!)
+ * `[Types]` - Optional, only required for Artifacts as bucket cannot determined for these cards on ManaCost alone.
+ * `[Rarity]` - Required, the rarity level of this reprint.
+ * `[NicknameFor]` - If this is a nickname reprint, indicates the original care we're nicknaming
+ * `[Artist]` - The artist whose art we'll be reusing in CardConjurer
+ * `[FlavorText]` - Custom flavor text for our reprint (if applicable)
+ * `[DesignNotes]` - Notes about this reprint (ie. Why it was chosen)
+
 #### CardConjurer specific notes
 
 Empty lines will be interpreted as-is. If this card has no flavor text, you can "nudge" the card text up a bit from the bottom of the card frame without having to mess with custom override bounds for the text box, by putting some empty lines as the end of the oracle text.

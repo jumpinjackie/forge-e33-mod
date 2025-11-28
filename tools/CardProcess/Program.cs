@@ -61,6 +61,10 @@ public class CardFaceDesign
 
     public bool IsReprint { get; set; } = false;
 
+    public bool IsCommander { get; set; } = false;
+
+    public string? NicknameFor { get; set; }
+
     internal void Apply(string propertyName, IEnumerable<string> buffer)
     {
         switch (propertyName)
@@ -146,6 +150,12 @@ public class CardFaceDesign
                 break;
             case nameof(IsReprint):
                 IsReprint = string.Join(" ", buffer) == "true";
+                break;
+            case nameof(IsCommander):
+                IsCommander = string.Join(" ", buffer) == "true";
+                break;
+            case nameof(NicknameFor):
+                NicknameFor = string.Join(" ", buffer);
                 break;
         }
     }
@@ -391,6 +401,10 @@ public class CardMasterDesign(string designFile)
 
     public bool IsReprint => FrontFull?.IsReprint ?? false; // Only considering regular cards for reprints
 
+    public bool IsCommander => FrontFull?.IsCommander ?? false; // Same for commander
+
+    public string? NicknameFor => FrontFull?.NicknameFor;
+
     public string Rarity
     {
         get
@@ -632,6 +646,8 @@ public class CardMasterDesign(string designFile)
                 case "[Loyalty]":
                 case "[Colors]":
                 case "[IsReprint]":
+                case "[IsCommander]":
+                case "[NicknameFor]":
                     // Apply the collected buffer for the previous property name
                     if (activePropertyName != null)
                     {
@@ -750,147 +766,164 @@ public class CardMasterDesign(string designFile)
 
     internal async Task WriteDocAsync(string baseDir, StreamWriter writer, TextWriter stdout, TextWriter stderr)
     {
-        await writer.WriteLineAsync($"## {this.Name}");
-        await writer.WriteLineAsync();
-        var normBaseDir = baseDir.Replace("\\", "/");
-        var scriptName = this.ScriptName + ".txt";
-        var firstLetter = scriptName.First();
-        switch (this.FaceType)
+        if (this.IsReprint)
         {
-            case CardFaceType.Regular:
-                {
-                    await writer.WriteLineAsync("```");
-                    if (FrontFull?.ManaCost is not null)
-                        await writer.WriteLineAsync(FrontFull.FormatManaCost());
-                    await writer.WriteLineAsync(FrontFull.TypeLine);
-                    await writer.WriteLineAsync(FrontFull.GetOracleText());
-                    if (FrontFull.FlavorText is not null)
+            if (this.NicknameFor is not null)
+            {
+                await writer.WriteLineAsync($"## {this.Name} ({this.NicknameFor})");
+                await writer.WriteLineAsync();
+                await writer.WriteLineAsync($"> This card is a nicknamed reprint of ({this.NicknameFor})");
+                await writer.WriteLineAsync($"[Scryfall](https://scryfall.com/search?q={this.NicknameFor})");
+            }
+            else
+            {
+                await writer.WriteLineAsync($"## {this.Name}");
+                await writer.WriteLineAsync();
+                await writer.WriteLineAsync("> This card is a reprint");
+                await writer.WriteLineAsync($"[Scryfall](https://scryfall.com/search?q={this.Name})");
+            }
+            await WriteDesignNotesAsync("Notes");
+
+        }
+        else
+        {
+            await writer.WriteLineAsync($"## {this.Name}");
+            await writer.WriteLineAsync();
+            var normBaseDir = baseDir.Replace("\\", "/");
+            var scriptName = this.ScriptName + ".txt";
+            var firstLetter = scriptName.First();
+            switch (this.FaceType)
+            {
+                case CardFaceType.Regular:
                     {
-                        await writer.WriteLineAsync("---");
-                        await writer.WriteLineAsync(FrontFull.FlavorTextFull);
-                    }
-                    if (FrontFull.PT is not null)
-                    {
-                        await writer.WriteLineAsync();
-                        await writer.WriteLineAsync(FrontFull.PT);
-                    }
-                    await writer.WriteLineAsync("```");
-                    await writer.WriteLineAsync();
-                    if (FrontFull?.ForgeScript is null)
-                        await writer.WriteLineAsync("> This card is not yet implemented in Forge");
-                    else
-                        await writer.WriteLineAsync($"[card implementation]({normBaseDir}/{firstLetter}/{scriptName})");
-                    await writer.WriteLineAsync();
-                    await writer.WriteLineAsync("### Design Notes");
-                    await writer.WriteLineAsync();
-                    foreach (var n in this.AllDesignNotes)
-                    {
-                        await writer.WriteLineAsync(n);
-                    }
-                    await writer.WriteLineAsync();
-                }
-                break;
-            case CardFaceType.SplitFuse:
-            case CardFaceType.SplitRoom:
-                {
-                    await writer.WriteLineAsync("```");
-                    IEnumerable<CardFaceDesign?> faces = [SplitLeft, SplitRight];
-                    foreach (var face in faces)
-                    {
-                        await writer.WriteLineAsync(face.Name);
-                        if (face?.ManaCost is not null)
-                            await writer.WriteLineAsync(face.FormatManaCost());
-                        await writer.WriteLineAsync(face.TypeLine);
-                        await writer.WriteLineAsync(face.GetOracleText());
-                        if (face.PT is not null)
+                        await writer.WriteLineAsync("```");
+                        if (FrontFull?.ManaCost is not null)
+                            await writer.WriteLineAsync(FrontFull.FormatManaCost());
+                        await writer.WriteLineAsync(FrontFull.TypeLine);
+                        await writer.WriteLineAsync(FrontFull.GetOracleText());
+                        if (FrontFull.FlavorText is not null)
+                        {
+                            await writer.WriteLineAsync("---");
+                            await writer.WriteLineAsync(FrontFull.FlavorTextFull);
+                        }
+                        if (FrontFull.PT is not null)
                         {
                             await writer.WriteLineAsync();
-                            await writer.WriteLineAsync(face.PT);
+                            await writer.WriteLineAsync(FrontFull.PT);
                         }
+                        await writer.WriteLineAsync("```");
                         await writer.WriteLineAsync();
-                    }
-                    if (this.FaceType == CardFaceType.SplitFuse)
-                    {
-                        await writer.WriteLineAsync("Fuse (You may cast one or both halves of this card from your hand.)");
-                    }
-                    await writer.WriteLineAsync("```");
-                    await writer.WriteLineAsync();
-                    if (SplitLeft?.ForgeScript is null || SplitRight?.ForgeScript is null)
-                        await writer.WriteLineAsync("> This card is not yet implemented in Forge");
-                    else
-                        await writer.WriteLineAsync($"[card implementation]({normBaseDir}/{firstLetter}/{scriptName})");
-                    await writer.WriteLineAsync();
-                    await writer.WriteLineAsync("### Design Notes");
-                    await writer.WriteLineAsync();
-                    foreach (var n in this.AllDesignNotes)
-                    {
-                        await writer.WriteLineAsync(n);
-                    }
-                    await writer.WriteLineAsync();
-                }
-                break;
-            case CardFaceType.Meld:
-            case CardFaceType.DoubleFaced:
-                {
-                    await writer.WriteLineAsync("```");
-                    if (FrontFull?.ManaCost is not null)
-                        await writer.WriteLineAsync(FrontFull.FormatManaCost());
-                    await writer.WriteLineAsync(FrontFull.TypeLine);
-                    await writer.WriteLineAsync(FrontFull.GetOracleText());
-                    if (FrontFull.PT is not null)
-                    {
-                        await writer.WriteLineAsync();
-                        await writer.WriteLineAsync(FrontFull.PT);
-                    }
-                    await writer.WriteLineAsync("```");
-                    await writer.WriteLineAsync();
-                    if (this.FaceType == CardFaceType.Meld)
-                        await writer.WriteLineAsync("Melds into:");
-                    else if (this.FaceType == CardFaceType.DoubleFaced)
-                        await writer.WriteLineAsync("Transforms into:");
-                    await writer.WriteLineAsync();
-                    await writer.WriteLineAsync("```");
-                    if (this.FaceType == CardFaceType.Meld)
-                    {
-                        if (MeldTarget?.ManaCost is not null)
-                            await writer.WriteLineAsync(MeldTarget.FormatManaCost());
-                        await writer.WriteLineAsync(MeldTarget.TypeLine);
-                        await writer.WriteLineAsync(MeldTarget.GetOracleText());
-                    }
-                    else if (this.FaceType == CardFaceType.DoubleFaced)
-                    {
-                        if (BackFull?.ManaCost is not null)
-                            await writer.WriteLineAsync(BackFull.FormatManaCost());
-                        await writer.WriteLineAsync(BackFull.TypeLine);
-                        await writer.WriteLineAsync(BackFull.GetOracleText());
-                    }
-                    if (this.FaceType == CardFaceType.Meld && MeldTarget.PT is not null)
-                    {
-                        await writer.WriteLineAsync();
-                        await writer.WriteLineAsync(MeldTarget.PT);
-                    }
-                    else if (this.FaceType == CardFaceType.DoubleFaced && BackFull?.PT is not null)
-                    {
-                        await writer.WriteLineAsync();
-                        await writer.WriteLineAsync(BackFull.PT);
-                    }
-                    await writer.WriteLineAsync("```");
 
-                    await writer.WriteLineAsync();
-                    if (FrontFull?.ForgeScript is null || (this.FaceType == CardFaceType.Meld && MeldTarget?.ForgeScript is null) || (this.FaceType == CardFaceType.DoubleFaced && BackFull?.ForgeScript is null))
-                        await writer.WriteLineAsync("> This card is not yet implemented in Forge");
-                    else
-                        await writer.WriteLineAsync($"[card implementation]({normBaseDir}/{firstLetter}/{scriptName})");
-                    await writer.WriteLineAsync();
-                    await writer.WriteLineAsync("### Design Notes");
-                    await writer.WriteLineAsync();
-                    foreach (var n in this.AllDesignNotes)
-                    {
-                        await writer.WriteLineAsync(n);
+                        if (FrontFull?.ForgeScript is null)
+                            await writer.WriteLineAsync("> This card is not yet implemented in Forge");
+                        else
+                            await writer.WriteLineAsync($"[card implementation]({normBaseDir}/{firstLetter}/{scriptName})");
+
+                        await writer.WriteLineAsync();
+                        await WriteDesignNotesAsync();
                     }
-                    await writer.WriteLineAsync();
-                }
-                break;
+                    break;
+                case CardFaceType.SplitFuse:
+                case CardFaceType.SplitRoom:
+                    {
+                        await writer.WriteLineAsync("```");
+                        IEnumerable<CardFaceDesign?> faces = [SplitLeft, SplitRight];
+                        foreach (var face in faces)
+                        {
+                            await writer.WriteLineAsync(face.Name);
+                            if (face?.ManaCost is not null)
+                                await writer.WriteLineAsync(face.FormatManaCost());
+                            await writer.WriteLineAsync(face.TypeLine);
+                            await writer.WriteLineAsync(face.GetOracleText());
+                            if (face.PT is not null)
+                            {
+                                await writer.WriteLineAsync();
+                                await writer.WriteLineAsync(face.PT);
+                            }
+                            await writer.WriteLineAsync();
+                        }
+                        if (this.FaceType == CardFaceType.SplitFuse)
+                        {
+                            await writer.WriteLineAsync("Fuse (You may cast one or both halves of this card from your hand.)");
+                        }
+                        await writer.WriteLineAsync("```");
+                        await writer.WriteLineAsync();
+                        if (SplitLeft?.ForgeScript is null || SplitRight?.ForgeScript is null)
+                            await writer.WriteLineAsync("> This card is not yet implemented in Forge");
+                        else
+                            await writer.WriteLineAsync($"[card implementation]({normBaseDir}/{firstLetter}/{scriptName})");
+                        await writer.WriteLineAsync();
+                        await WriteDesignNotesAsync();
+                    }
+                    break;
+                case CardFaceType.Meld:
+                case CardFaceType.DoubleFaced:
+                    {
+                        await writer.WriteLineAsync("```");
+                        if (FrontFull?.ManaCost is not null)
+                            await writer.WriteLineAsync(FrontFull.FormatManaCost());
+                        await writer.WriteLineAsync(FrontFull.TypeLine);
+                        await writer.WriteLineAsync(FrontFull.GetOracleText());
+                        if (FrontFull.PT is not null)
+                        {
+                            await writer.WriteLineAsync();
+                            await writer.WriteLineAsync(FrontFull.PT);
+                        }
+                        await writer.WriteLineAsync("```");
+                        await writer.WriteLineAsync();
+                        if (this.FaceType == CardFaceType.Meld)
+                            await writer.WriteLineAsync("Melds into:");
+                        else if (this.FaceType == CardFaceType.DoubleFaced)
+                            await writer.WriteLineAsync("Transforms into:");
+                        await writer.WriteLineAsync();
+                        await writer.WriteLineAsync("```");
+                        if (this.FaceType == CardFaceType.Meld)
+                        {
+                            if (MeldTarget?.ManaCost is not null)
+                                await writer.WriteLineAsync(MeldTarget.FormatManaCost());
+                            await writer.WriteLineAsync(MeldTarget.TypeLine);
+                            await writer.WriteLineAsync(MeldTarget.GetOracleText());
+                        }
+                        else if (this.FaceType == CardFaceType.DoubleFaced)
+                        {
+                            if (BackFull?.ManaCost is not null)
+                                await writer.WriteLineAsync(BackFull.FormatManaCost());
+                            await writer.WriteLineAsync(BackFull.TypeLine);
+                            await writer.WriteLineAsync(BackFull.GetOracleText());
+                        }
+                        if (this.FaceType == CardFaceType.Meld && MeldTarget.PT is not null)
+                        {
+                            await writer.WriteLineAsync();
+                            await writer.WriteLineAsync(MeldTarget.PT);
+                        }
+                        else if (this.FaceType == CardFaceType.DoubleFaced && BackFull?.PT is not null)
+                        {
+                            await writer.WriteLineAsync();
+                            await writer.WriteLineAsync(BackFull.PT);
+                        }
+                        await writer.WriteLineAsync("```");
+
+                        await writer.WriteLineAsync();
+                        if (FrontFull?.ForgeScript is null || (this.FaceType == CardFaceType.Meld && MeldTarget?.ForgeScript is null) || (this.FaceType == CardFaceType.DoubleFaced && BackFull?.ForgeScript is null))
+                            await writer.WriteLineAsync("> This card is not yet implemented in Forge");
+                        else
+                            await writer.WriteLineAsync($"[card implementation]({normBaseDir}/{firstLetter}/{scriptName})");
+                        await writer.WriteLineAsync();
+                        await WriteDesignNotesAsync();
+                    }
+                    break;
+            }
+        }
+
+        async Task WriteDesignNotesAsync(string heading = "Design Notes")
+        {
+            await writer.WriteLineAsync($"### {heading}");
+            await writer.WriteLineAsync();
+            foreach (var n in this.AllDesignNotes)
+            {
+                await writer.WriteLineAsync(n);
+            }
+            await writer.WriteLineAsync();
         }
     }
 
@@ -1043,15 +1076,25 @@ public class GenAllCommand : BaseCommand
         var templateFile = Path.Combine(designDir.FullName, "edition.tpl");
         if (!File.Exists(templateFile))
             throw new InvalidOperationException("Could not find edition.tpl");
+        var cmdrTemplateFile = Path.Combine(designDir.FullName, "commander.tpl");
+        if (!File.Exists(cmdrTemplateFile))
+            throw new InvalidOperationException("Could not find commander.tpl");
 
         int collectorNum = 1;
         var cardList = new StringBuilder();
         var reprintList = new StringBuilder();
+        var cmdrList = new StringBuilder();
         foreach (var (name, card) in cards)
         {
-            if (card.IsReprint)
+            if (card.IsReprint) // NOTE: Our commander sheet is all reprints, there are no "designed for commander" cards in this set. Hence why it's going down the reprint code path.
             {
-                reprintList.AppendLine($"{collectorNum} {card.Rarity} {name} @{card.GetArtist()}");
+                var sbList = card.IsCommander ? cmdrList : reprintList;
+
+                var nicknamed = card.NicknameFor;
+                if (nicknamed is not null)
+                    sbList.AppendLine($"{collectorNum} {card.Rarity} {nicknamed} @{card.GetArtist()} ${{\"flavorName\": \"{name}\"}}");
+                else
+                    sbList.AppendLine($"{collectorNum} {card.Rarity} {name} @{card.GetArtist()}");
             }
             else
             {
@@ -1075,6 +1118,13 @@ public class GenAllCommand : BaseCommand
 
         await stdout.WriteLineAsync("Updated edition file");
 
+        var sbCommander = new StringBuilder(File.ReadAllText(cmdrTemplateFile));
+        sbCommander.Replace("$REPRINT_LIST$", cmdrList.ToString());
+        File.WriteAllText(
+            Path.Combine(editionsDir.FullName, "Clair Obscur Expedition 33 Commander.txt"),
+            sbCommander.ToString()
+        );
+
         // 4. Generate bugs (from GenBugsCommand)
         await stdout.WriteLineAsync("Generating bugs file...");
         var bugsFile = Path.Combine(this.OutputDir.FullName, "BUGS.md");
@@ -1087,6 +1137,10 @@ public class GenAllCommand : BaseCommand
 
         foreach (var (name, card) in cards)
         {
+            // Reprints have no bugs (we care about) as their implementation is already in Forge. Card not working
+            // properly? Take it to their github/discord/whatever.
+            if (card.IsReprint)
+                continue;
             await card.WriteBugsAsync(sw);
         }
 
