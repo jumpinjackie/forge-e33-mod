@@ -1,0 +1,46 @@
+[Name]
+Lune, Charting a Path
+[ManaCost]
+W
+U
+R
+G
+[Types]
+Legendary
+Creature
+Human
+Expeditioner
+Wizard
+[PT]
+3/3
+[Rarity]
+R
+[Oracle]
+Whenever you cast an instant or sorcery spell, draw a card and put a stain counter on Lune for each of that spell's colors.
+Tree of Life — {W}{G}, {T}, Remove a stain counter from Lune: Return target nonland, noncreature card from your graveyard to your hand. You gain 3 life.
+Wildfire — {R}, {T}, Remove two stain counters from Lune: Lune deals 2 damage to each creature target opponent controls.
+Elemental Genesis — {T}, Remove four stain counters from Lune: Lune deals 4 damage to each of up to four targets.
+[FlavorText]
+As long as even one of us stands, our fight is not over.
+[ForgeScript]
+T:Mode$ SpellCast | ValidCard$ Instant,Sorcery | ValidActivatingPlayer$ You | Execute$ TrigDraw | TriggerZones$ Battlefield | TriggerDescription$ Whenever you cast an instant or sorcery spell, draw a card and put a stain counter on Lune for each of that spell's colors.
+SVar:TrigDraw:DB$ Draw | NumCards$ 1 | SubAbility$ TrigStain
+SVar:TrigStain:DB$ PutCounter | CounterType$ STAIN | CounterNum$ X
+SVar:X:TriggeredCard$CardNumColors
+A:AB$ ChangeZone | Cost$ W G T SubCounter<1/STAIN>  | Origin$ Graveyard | Destination$ Hand | TgtPrompt$ Select target nonland, noncreature card in your graveyard | ValidTgts$ Card.YouCtrl | SubAbility$ DBGainLift | SpellDescription$ Return target nonland, noncreature card from your graveyard to your hand. You gain 3 life.
+SVar:DBLifeGain:DB$ GainLife | Defined$ You | LifeAmount$ 3
+A:AB$ DamageAll | Cost$ R T SubCounter<2/STAIN> | ValidTgts$ Opponent | NumDmg$ 2 | ValidCards$ Creature | ValidDescription$ each creature target opponent controls | SpellDescription$ ~ deals 2 damage to each creature target opponent controls.
+A:AB$ DealDamage | Cost$ T SubCounter<4/STAIN> | TargetMin$ 0 | TargetMax$ 4 | ValidTgts$ Any | TgtPrompt$ Select up to four targets | NumDmg$ 4 | SpellDescription$ ~ deals 4 damage to each of up to four targets.
+[DesignNotes]
+ - This was one of the hardest cards to design because Lune is a veritable "Jack of all trades" in terms of abilities in-game. Also we have to somehow emulate her stain gimmick in a way that doesn't look too out of flavor.
+ - So in this respect, this is what I went with:
+    - The stain gimmick is a triggered ability that gives you stain counters for the colors of any instant/sorcery cast.
+        - The original intent was to have 4 different types of stain counters to match the colors of any instants/sorceries resolved. (eg. Resolve a blue spell, add a blue stain counter, etc). Her abilities would then be activated by spending the appropriate type of stain counters. But that is just too much text and we don't have the textbox budget for it!
+        - The stain counters being "colorless" but an amount given based on the colors of the instant/sorcery cast was a compromise to save on text.
+        - The second compromise is to spend stain counters + a mana of a particular color for a color-relevant ability.
+    - In terms of abilities, we've made sure that every color in Lune's color identity is covered.
+        - Blue: Draw a card from cast trigger.
+        - Red: The Wildfire ability
+        - Green/White: The Tree of Life ability
+    - The Elemental Genesis "ultimate" requires no extra mana cost because getting to 4 stain counters is enough investment already.
+ - This is our expected commander for our Expeditioners/Gestrals commander deck.

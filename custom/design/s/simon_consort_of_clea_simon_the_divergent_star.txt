@@ -1,0 +1,78 @@
+[Name]
+Simon, Consort of Clea
+[ManaCost]
+3
+B
+R
+[Types]
+Legendary
+Creature
+Human
+Expeditioner
+[Rarity]
+M
+[PT]
+5/5
+[Oracle]
+Trample
+When Simon enters, each other creature has base toughness 1 until end of turn.
+Gathers Chroma — {B}{B}, {T}: Target creature has base toughness 1 until end of turn.
+When Simon dies, return it to the battlefield transformed under it’s owner’s control.
+[AbilityWords]
+Gathers Chroma
+[Artist]
+Sandfall Interactive
+[ForgeScript]
+K:Trample
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigBlight | TriggerDescription$ When ~ enters, each other creature has base toughness 1 until end of turn.
+SVar:TrigBlight:DB$ AnimateAll | ValidCards$ Creature.Other | Toughness$ 1
+A:AB$ Animate | Cost$ B B T | ValidTgts$ Creature | Toughness$ 1 | SpellDescription$ | Target creature has base toughness 1 until end of turn.
+T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Card.Self | Execute$ TrigReturn | TriggerDescription$ When CARDNAME dies, return it to the battlefield transformed under its owner's control.
+SVar:TrigReturn:DB$ ChangeZone | Origin$ Graveyard | Defined$ TriggeredNewCardLKICopy | Destination$ Battlefield | Transformed$ True
+AlternateMode:DoubleFaced
+ALTERNATE:DFC
+[Name]
+Simon, The Divergent Star
+[ManaCost]
+no cost
+[ColorIdentity]
+white
+black
+[Types]
+Legendary
+Creature
+Human
+Expeditioner
+[PT]
+6/6
+[Oracle]
+Trample
+Double Strike
+Simon enters with a foreboding counter.
+The dead are removed from the canvas — If a creature would be put into a graveyard from anywhere, exile it instead.
+Gathers Chroma — {B}{B}, {T}: Target creature has base toughness 1 until end of turn.
+The Expedition is removed from the canvas — {T}, Remove a foreboding counter: Choose a creature an opponent controls. Exile all creatures except for Simon and the chosen creature.
+[AbilityWords]
+The dead are removed from the canvas
+Gathers Chroma
+The Expedition is removed from the canvas
+[ForgeScript]
+K:Trample
+K:Double Strike
+K:etbCounter:FOREBODING:1
+R:Event$ Moved | ActiveZones$ Battlefield | Destination$ Graveyard | ValidCard$ Creature | ReplaceWith$ Exile | Description$ If a creature would be put into a graveyard from anywhere, exile it instead.
+SVar:Exile:DB$ ChangeZone | Hidden$ True | Origin$ All | Destination$ Exile | Defined$ ReplacedCard
+SVar:NonStackingEffect:True
+A:AB$ Animate | Cost$ B B T | ValidTgts$ Creature | Toughness$ 1 | SpellDescription$ Target creature has base toughness 1 until end of turn.
+A:AB$ ChooseCard | Cost$ T SubCounter<1/FOREBODING> | Choices$ Creature.OppCtrl | SubAbility$ ExileOthers | SpellDescription$ Choose a creature an opponent controls. Exile all creatures except for ~ and the chosen creature.
+SVar:ExileOthers:DB$ ChangeZoneAll | UseAllOriginZones$ True | Origin$ Battlefield | Destination$ Exile | ChangeType$ Creature.nonChosenCard+StrictlyOther | SpellDescription$ Exile all creatures except for ~ and the chosen creature.
+[DesignNotes]
+ - In the game, Simon is a secret endgame boss and is the hardest boss in the game.
+ - He is mechanically represented as follows:
+    - A double-faced card to represent Phase 1 (front face) and Phase 2/3 (back face)
+    - Transforms on death in line with him advancing to Phase 2 upon defeating him in Phase 1.
+    - "Gathers Chroma" translated to setting a creature's toughness to 1. Available on both sides in line with this ability being available in all phases.
+    - Back side has double strike as a nod to 80% of his moves in the game being rapid-fire swings of his sword.
+    - Back side enters with a foreboding counter as a signal that something bad is going to happen soon if Simon is not dealt with quickly.
+    - Mapped "The dead are removed from the canvas" to a "Rest in Peace" continuous exile effect. Is in line with what happens when any of your party members die in combat (they are immediately erased).
+    - Mapped "The Expedition is removed from the canvas" as a mass exile effect that spares only Simon and one of opponent's creatures. This is the ability spent with the foreboding counter.
