@@ -1,0 +1,17 @@
+[Name]
+Falling Leaves
+[ManaCost]
+no cost
+[Types]
+Land
+[IsReprint]
+true
+[Rarity]
+R
+[NicknameFor]
+Yavimaya, Cradle of Growth
+[Artist]
+Sandfall Interactive
+[DesignNotes]
+ - In the game, Falling Leaves is an optional area gated behind coral barriers. The Scavager boss can be found here.
+ - Due to its eternal autumn setting, I've gone with a nickname reprint of Yavimaya, Cradle of Growth.

@@ -1,0 +1,17 @@
+[Name]
+Floating Cemetery
+[ManaCost]
+no cost
+[Types]
+Land
+[IsReprint]
+true
+[Rarity]
+U
+[NicknameFor]
+Ominous Cemetery
+[Artist]
+Sandfall Interactive
+[DesignNotes]
+ - In the game, Floating Cemetery is an optional area where an Unfinished Chalier can be found.
+ - Chose a nickname reprint of Ominous Cemetery just on name-basis alone.

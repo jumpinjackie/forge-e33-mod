@@ -1,0 +1,16 @@
+[Name]
+Payback
+[ManaCost]
+1
+W
+[IsReprint]
+true
+[Rarity]
+U
+[NicknameFor]
+Roil's Retribution
+[Artist]
+Raymond Swanland
+[DesignNotes]
+ - In the game, this is one of Maelle's skills
+ - Roil's Retribution fits the bill (in both flavor and mechanics), so it was chosen as a nickname reprint for this.

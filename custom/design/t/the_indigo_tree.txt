@@ -1,0 +1,17 @@
+[Name]
+The Indigo Tree
+[ManaCost]
+no cost
+[Types]
+Land
+[IsReprint]
+true
+[Rarity]
+R
+[NicknameFor]
+The World Tree
+[Artist]
+Sandfall Interactive
+[DesignNotes]
+ - In the game, The Indigo Tree was the rallying point for Expedition 33 if party members got split off.
+ - Chose a nickname reprint of The World Tree as its God tutoring ability has some relevance in this set.
