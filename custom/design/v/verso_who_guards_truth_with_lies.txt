@@ -26,7 +26,7 @@ Marking Shot
 Strike Storm
 Phantom Stars
 [FlavorText]
-Here we go
+Let's carve a path.
 [ForgeScript]
 T:Mode$ Untaps | ValidCard$ Card.Self | TriggerZones$ Battlefield | Execute$ DBRank | TriggerDescription$ Whenever ~ becomes untapped, put a rank counter on him.
 T:Mode$ DamageDealtOnce | ValidSource$ Card.Self | Execute$ DBRank | TriggerZones$ Battlefield | TriggerDescription$ Whenever ~ deals damage, put a rank counter on him..
