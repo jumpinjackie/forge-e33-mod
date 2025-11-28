@@ -3,7 +3,4 @@ ManaCost:no cost
 Types:Land
 A:AB$ Mana | Cost$ T | Produced$ C | SpellDescription$ Add {C}.
 A:AB$ Mana | Cost$ T | Produced$ Combo U R | IsPresent$ Gestral.YouCtrl,Grandis.YouCtrl | PresentCompare$ GE1 | SpellDescription$ {T}: Add {U} or {R}. Activate this ability only if you control a Gestral or Grandis.
-A:AB$ Mana | Cost$ T | Produced$ Combo U R | SubAbility$ DBStayTapped | SpellDescription$ {T}: Add {U} or {R}. This land doesn't untap during your next untap step
-SVar:DBStayTapped:DB$ Effect | ReplacementEffects$ DontUntap | RememberObjects$ Self | ExileOnMoved$ Battlefield | Duration$ UntilTheEndOfYourNextUntap
-SVar:DontUntap:Event$ Untap | ValidCard$ Card.IsRemembered | ValidStepTurnToController$ Player.Activator | Layer$ CantHappen | Description$ EFFECTSOURCE doesn't untap during your next untap step.
-Oracle:{T}: Add {C}.\n{T}: Add {U} or {R}. Activate this ability only if you control a Gestral or Grandis.\n{T}: Add {U} or {R}. This land doesn't untap during your next untap step
+Oracle:{T}: Add {C}.\n{T}: Add {U} or {R}. Activate this ability only if you control a Gestral or Grandis.

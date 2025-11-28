@@ -5,23 +5,20 @@ no cost
 [Types]
 Land
 [Rarity]
-R
+U
 [Artist]
 Sandfall Interactive
 [Oracle]
 {T}: Add {C}.
 {T}: Add {U} or {R}. Activate this ability only if you control a Gestral or Grandis.
-{T}: Add {U} or {R}. This land doesn't untap during your next untap step
 [FlavorText]
 The Grandis have embraced us with such warmth and hope. What a balm for the soul to know that other beings survived, that we in Lumiere are not alone! It truly is a miracle.
 - Aurelien, Expedition 65
 [ForgeScript]
 A:AB$ Mana | Cost$ T | Produced$ C | SpellDescription$ Add {C}.
 A:AB$ Mana | Cost$ T | Produced$ Combo U R | IsPresent$ Gestral.YouCtrl,Grandis.YouCtrl | PresentCompare$ GE1 | SpellDescription$ {T}: Add {U} or {R}. Activate this ability only if you control a Gestral or Grandis.
-A:AB$ Mana | Cost$ T | Produced$ Combo U R | SubAbility$ DBStayTapped | SpellDescription$ {T}: Add {U} or {R}. This land doesn't untap during your next untap step
-SVar:DBStayTapped:DB$ Effect | ReplacementEffects$ DontUntap | RememberObjects$ Self | ExileOnMoved$ Battlefield | Duration$ UntilTheEndOfYourNextUntap
-SVar:DontUntap:Event$ Untap | ValidCard$ Card.IsRemembered | ValidStepTurnToController$ Player.Activator | Layer$ CantHappen | Description$ EFFECTSOURCE doesn't untap during your next untap step.
 [DesignNotes]
  - In the game, Monoco's Station is situated in an icy and mountainous region of the continent.
  - Therefore this should clearly be a blue/red dual land.
  - Since it's occupied by Monoco (a Gestral) and various Grandis creatures. They get the no-strings-attached dual land experience.
+ - 29/11/2025: Dropped the secondary dual mana ability (to elminiate potential confusion in paper) and downshift to Uncommon
