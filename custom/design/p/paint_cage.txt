@@ -1,0 +1,17 @@
+[Name]
+Paint Cage
+[ManaCost]
+2
+[Types]
+Artifact
+[IsReprint]
+true
+[Rarity]
+C
+[NicknameFor]
+Ichor Wellspring
+[Artist]
+Sandfall Interactive
+[DesignNotes]
+ - In the game, a Paint Cage is something that can be "cracked open" for loot.
+ - Ichor Wellspring has similar looks and flavor, so it was chosen for this.

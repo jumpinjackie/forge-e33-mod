@@ -1,0 +1,16 @@
+[Name]
+Sol Ring
+[ManaCost]
+1
+[Types]
+Artifact
+[IsReprint]
+true
+[IsCommander]
+true
+[Rarity]
+U
+[Artist]
+Piotr Dura
+[DesignNotes]
+ - Obvious and obligatory commander staple
