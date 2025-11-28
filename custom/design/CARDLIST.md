@@ -55,6 +55,7 @@ Benisseur
 Berrami, Collector of Journals
 Bertrand Big Hands
 Blade's Graveyard
+Blanche, the Unfinished Creation
 Boat Graveyard
 Boucheclier
 Bound by Chains
@@ -326,6 +327,16 @@ Troubador
 Twilight Quarry
 Twisted Lumiere Citizen
 Ultimate Sakapatate
+Unfinished Benisseur
+Unfinished Bruler
+Unfinished Bourgeon
+Unfinished Chalier
+Unfinished Cruler
+Unfinished Demineur
+Unfinished Hexga
+Unfinished Jar
+Unfinished Troubador
+Unfinished Portier
 Urrie
 Verisimilitude
 Verso, Who Guards Truth With Lies

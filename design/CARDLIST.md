@@ -29,7 +29,7 @@ From this list, card designs are spawned from it, which will eventually form the
 
 ## Card Name List
 
-Cards implemented: 243/302
+Cards implemented: 247/313
 
 [x] - Card is implemented or in development, [ ] - Card is not implemented
 
@@ -55,6 +55,7 @@ Cards implemented: 243/302
 [x] Berrami, Collector of Journals
 [ ] Bertrand Big Hands
 [ ] Blade's Graveyard
+[ ] Blanche, the Unfinished Creation
 [ ] Boat Graveyard
 [x] Boucheclier
 [x] Bound by Chains
@@ -225,7 +226,7 @@ Cards implemented: 243/302
 [x] Lumiere, The Last Bastion
 [x] Lumierian Apprentice
 [x] Lumina Converter
-[ ] Lune, Charting a Path
+[x] Lune, Charting a Path
 [x] Lune's Curiosity
 [x] Lune's Denial
 [x] Luster
@@ -253,7 +254,7 @@ Cards implemented: 243/302
 [ ] Offensive Switch
 [x] Ono-Puncho
 [ ] Orphelin
-[ ] Paint Cage
+[x] Paint Cage
 [x] Paint Spike
 [x] Painted Alicia, Eternally Suffering
 [x] Painted Clea, the Mistress
@@ -326,6 +327,16 @@ Cards implemented: 243/302
 [x] Twilight Quarry
 [x] Twisted Lumiere Citizen
 [ ] Ultimate Sakapatate
+[ ] Unfinished Benisseur
+[ ] Unfinished Bruler
+[ ] Unfinished Bourgeon
+[ ] Unfinished Chalier
+[ ] Unfinished Cruler
+[ ] Unfinished Demineur
+[ ] Unfinished Hexga
+[ ] Unfinished Jar
+[ ] Unfinished Troubador
+[ ] Unfinished Portier
 [x] Urrie
 [x] Verisimilitude
 [x] Verso, Who Guards Truth With Lies
