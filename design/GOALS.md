@@ -42,6 +42,8 @@ Nevrons/Painters
 
 And that the role of the "reprint sheet" in addition to rounding out draft/limited, will be to provide supporting cards to both these archetypes.
 
+There are no "designed for commander" cards in this set. Thus the commander subset will be exclusively reprints or nicknamed reprints. They will be given their own unique set code to distinguish them from the regular set.
+
 ## Constructed
 
 Constructed is only supported in digital form through Forge.
