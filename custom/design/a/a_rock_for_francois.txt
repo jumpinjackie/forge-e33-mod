@@ -1,0 +1,25 @@
+[Name]
+A Rock for Francois
+[Types]
+Artifact
+Rock
+[ManaCost]
+1
+[Rarity]
+C
+[Oracle]
+{1}, {T}, Sacrifice this artifact: Search your library for a rock card and put it into your hand.
+{1}, Sacrifice this artifact: Draw a card.
+[FlavorText]
+Verso: We'll trade you. Urrie for this, uh... lovely portrait of you.
+Francois: Is that s'posed to be ME?!
+Esquie: I think we captured your essence beautifully.
+[Artist]
+Sandfall Interactive
+[ForgeScript]
+A:AB$ ChangeZone | Cost$ 1 T Sac<1/CARDNAME> | Origin$ Library | Destination$ Hand | ChangeType$ Rock | ChangeNum$ 1 | SpellDescription$ Search your library for a rock card and put it into your hand.
+A:AB$ Draw | Cost$ 1 Sac<1/CARDNAME> | NumCards$ 1 | SpellDescription$ Draw a card.
+[DesignNotes]
+ - In the game, Esquie carves a rock of Francois and Clea to trade for Urrie, which gives him the ability to dive.
+ - Another tutor piece to help assist in assembling the rock "Urzatron"
+ - Not legendary like the quartet because it's just an ordinary rock.
