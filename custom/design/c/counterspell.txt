@@ -1,0 +1,15 @@
+[Name]
+Counterspell
+[ManaCost]
+U
+U
+[IsReprint]
+true
+[IsCommander]
+true
+[Rarity]
+U
+[Artist]
+Zack Stella
+[DesignNotes]
+ - Easy on-flavor reprint.

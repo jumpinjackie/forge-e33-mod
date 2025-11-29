@@ -1,0 +1,15 @@
+[Name]
+Generous Gift
+[ManaCost]
+2
+W
+[IsReprint]
+true
+[IsCommander]
+true
+[Rarity]
+U
+[Artist]
+Kev Walker
+[DesignNotes]
+ - Obligatory spot removal in commander.

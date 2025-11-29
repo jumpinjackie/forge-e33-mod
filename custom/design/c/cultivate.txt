@@ -1,0 +1,15 @@
+[Name]
+Cultivate
+[ManaCost]
+2
+G
+[IsReprint]
+true
+[IsCommander]
+true
+[Rarity]
+C
+[Artist]
+Anthony Palumbo
+[DesignNotes]
+ - Obligatory commander staple.

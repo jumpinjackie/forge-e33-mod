@@ -1,0 +1,15 @@
+[Name]
+Growth Spiral
+[ManaCost]
+G
+U
+[IsReprint]
+true
+[IsCommander]
+true
+[Rarity]
+C
+[Artist]
+Seb McKinnon
+[DesignNotes]
+ - Obligatory commander ramp.

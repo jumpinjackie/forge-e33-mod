@@ -1,0 +1,16 @@
+[Name]
+Void Rend
+[ManaCost]
+W
+U
+B
+[IsReprint]
+true
+[IsCommander]
+true
+[Rarity]
+R
+[Artist]
+Justyna Dura
+[DesignNotes]
+ - Commander spot removal.

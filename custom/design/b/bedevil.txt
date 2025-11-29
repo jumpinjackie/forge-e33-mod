@@ -1,0 +1,16 @@
+[Name]
+Bedevil
+[ManaCost]
+B
+B
+R
+[IsReprint]
+true
+[IsCommander]
+true
+[Rarity]
+R
+[Artist]
+Fang Xinyu
+[DesignNotes]
+ - Obligatory commander ramp.

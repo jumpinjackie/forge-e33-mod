@@ -1,9 +1,9 @@
 [Name]
-Command Tower
+Commander's Sphere
 [ManaCost]
-no cost
+3
 [Types]
-Land
+Artifact
 [IsReprint]
 true
 [IsCommander]
@@ -11,6 +11,6 @@ true
 [Rarity]
 C
 [Artist]
-Alayna Danner
+Justyna Dura
 [DesignNotes]
- - Obligatory mana fixing land for Commander
+ - Obligatory commander mana rock.

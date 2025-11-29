@@ -1,0 +1,15 @@
+[Name]
+Beast Within
+[ManaCost]
+2
+G
+[IsReprint]
+true
+[IsCommander]
+true
+[Rarity]
+U
+[Artist]
+Dave Allsop
+[DesignNotes]
+ - Obligatory spot removal in commander.

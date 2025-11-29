@@ -1,0 +1,15 @@
+[Name]
+Chaos Warp
+[ManaCost]
+2
+R
+[IsReprint]
+true
+[IsCommander]
+true
+[Rarity]
+R
+[Artist]
+Trevor Claxton
+[DesignNotes]
+ - Obligatory spot removal in commander.

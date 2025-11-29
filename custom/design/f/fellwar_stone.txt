@@ -1,16 +1,16 @@
 [Name]
-Command Tower
+Fellwar Stone
 [ManaCost]
-no cost
+2
 [Types]
-Land
+Artifact
 [IsReprint]
 true
 [IsCommander]
 true
 [Rarity]
-C
+U
 [Artist]
-Alayna Danner
+John Avon
 [DesignNotes]
- - Obligatory mana fixing land for Commander
+ - Obligatory commander mana rock.
