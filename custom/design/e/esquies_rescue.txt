@@ -1,0 +1,26 @@
+[Name]
+Esquie's Rescue
+[ManaCost]
+U
+G
+[Types]
+Instant
+[Rarity]
+C
+[Oracle]
+Return target creature to its owner’s hand. You gain 3 life.
+Create a Lumina token. $LUMINA_REMINDER_TEXT
+[Artist]
+Sandfall Interactive
+[FlavorText]
+Sciel: It was you. You saved me. Back then. Wait, but how?
+Esquie: I heard your tears. 
+Sciel: From so far away?
+Esquie: I heard you, so I came.
+[ForgeScript]
+A:SP$ ChangeZone | ValidTgts$ Creature | TgtPrompt$ Select target creature | Origin$ Battlefield | Destination$ Hand | SubAbility$ DBGainLife | SpellDescription$ Return target creature to its owner's hand.
+SVar:DBGainLife:DB$ GainLife | LifeAmount$ 3 | SubAbility$ DBToken | SpellDescription$ You gain 3 life.
+SVar:DBToken:DB$ Token | TokenAmount$ 1 | TokenOwner$ You | TokenScript$ c_a_lumina
+[DesignNotes]
+ - In the game, Sciel discovers that Esquie saved her from drowning in the past, thus explaining why he referred to her as "my poor swimmer friend"
+ - Modeled as a bounce spell with various bonuses stapled on.

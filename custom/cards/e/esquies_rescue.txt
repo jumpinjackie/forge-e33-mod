@@ -1,0 +1,7 @@
+Name:Esquie's Rescue
+ManaCost:U G
+Types:Instant
+A:SP$ ChangeZone | ValidTgts$ Creature | TgtPrompt$ Select target creature | Origin$ Battlefield | Destination$ Hand | SubAbility$ DBGainLife | SpellDescription$ Return target creature to its owner's hand.
+SVar:DBGainLife:DB$ GainLife | LifeAmount$ 3 | SubAbility$ DBToken | SpellDescription$ You gain 3 life.
+SVar:DBToken:DB$ Token | TokenAmount$ 1 | TokenOwner$ You | TokenScript$ c_a_lumina
+Oracle:Return target creature to its owner’s hand. You gain 3 life.\nCreate a Lumina token. (It's an artifact with "{T}, Sacrifice this artifact: Scry 1.")
