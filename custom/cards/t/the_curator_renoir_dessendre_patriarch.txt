@@ -1,14 +1,14 @@
 Name:The Curator
-ManaCost:2 W U B
+ManaCost:2 U B R
 Types:Legendary Creature Painter Spirit
 PT:4/5
 A:AB$ Token | Cost$ 2 U T | TokenAmount$ 2 | TokenOwner$ You | TokenScript$ c_a_lumina | SpellDescription$ Create two Lumina tokens.
-A:AB$ PutCounter | Cost$ 2 W T | ValidTgts$ Creature | CounterType$ P1P1 | CounterNum$ 2 | TargetMin$ 1 | TargetMax$ 2 | DividedAsYouChoose$ 2 | SpellDescription$ Distribute two +1/+1 counters among one or two target creatures.
+A:AB$ PutCounter | Cost$ 2 GW T | ValidTgts$ Creature | CounterType$ P1P1 | CounterNum$ 2 | TargetMin$ 1 | TargetMax$ 2 | DividedAsYouChoose$ 2 | SpellDescription$ Distribute two +1/+1 counters among one or two target creatures.
 A:AB$ Destroy | Cost$ 3 B T Exert<1/Creature.YouCtrl+Expeditioner/Expeditioner creature> | ValidTgts$ Creature | TgtPrompt$ Select target creature | SpellDescription$ Destroy target creature.
 T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Card.Self | Execute$ TrigReturn | TriggerDescription$ When CARDNAME dies, return it to the battlefield transformed under its owner's control.
 SVar:TrigReturn:DB$ ChangeZone | Origin$ Graveyard | Defined$ TriggeredNewCardLKICopy | Destination$ Battlefield | Transformed$ True
 AlternateMode:DoubleFaced
-Oracle:Picto Reinforcement — {2}{U}, {T}: Create two Lumina tokens.\nUpgrades your weapons — {2}{W}, {T}: Distribute two +1/+1 counters among one or two target creatures.\nLatent skill activation — {3}{B}, {T}, Exert an Expeditioner creature: Destroy target creature.\nWhen The Curator dies, return it to the battlefield transformed under it’s owner’s control.
+Oracle:Picto Reinforcement — {2}{U}, {T}: Create two Lumina tokens.\nUpgrades your weapons — {2}{G/W}, {T}: Distribute two +1/+1 counters among one or two target creatures.\nLatent skill activation — {3}{B}, {T}, Exert an Expeditioner creature: Destroy target creature.\nWhen The Curator dies, return it to the battlefield transformed under it’s owner’s control.
 
 ALTERNATE
 

@@ -2,9 +2,9 @@
 The Curator
 [ManaCost]
 2
-W
 U
 B
+R
 [Types]
 Legendary
 Creature
@@ -16,7 +16,7 @@ M
 4/5
 [Oracle]
 Picto Reinforcement — {2}{U}, {T}: Create two Lumina tokens.
-Upgrades your weapons — {2}{W}, {T}: Distribute two +1/+1 counters among one or two target creatures.
+Upgrades your weapons — {2}{G/W}, {T}: Distribute two +1/+1 counters among one or two target creatures.
 Latent skill activation — {3}{B}, {T}, Exert an Expeditioner creature: Destroy target creature.
 When The Curator dies, return it to the battlefield transformed under it’s owner’s control.
 [AbilityWords]
@@ -30,7 +30,7 @@ Maelle: I'm not sure, he doesn't really talk.
 Sandfall Interactive
 [ForgeScript]
 A:AB$ Token | Cost$ 2 U T | TokenAmount$ 2 | TokenOwner$ You | TokenScript$ c_a_lumina | SpellDescription$ Create two Lumina tokens.
-A:AB$ PutCounter | Cost$ 2 W T | ValidTgts$ Creature | CounterType$ P1P1 | CounterNum$ 2 | TargetMin$ 1 | TargetMax$ 2 | DividedAsYouChoose$ 2 | SpellDescription$ Distribute two +1/+1 counters among one or two target creatures.
+A:AB$ PutCounter | Cost$ 2 GW T | ValidTgts$ Creature | CounterType$ P1P1 | CounterNum$ 2 | TargetMin$ 1 | TargetMax$ 2 | DividedAsYouChoose$ 2 | SpellDescription$ Distribute two +1/+1 counters among one or two target creatures.
 A:AB$ Destroy | Cost$ 3 B T Exert<1/Creature.YouCtrl+Expeditioner/Expeditioner creature> | ValidTgts$ Creature | TgtPrompt$ Select target creature | SpellDescription$ Destroy target creature.
 T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Card.Self | Execute$ TrigReturn | TriggerDescription$ When CARDNAME dies, return it to the battlefield transformed under its owner's control.
 SVar:TrigReturn:DB$ ChangeZone | Origin$ Graveyard | Defined$ TriggeredNewCardLKICopy | Destination$ Battlefield | Transformed$ True
@@ -61,6 +61,8 @@ A:AB$ Dig | Cost$ AddCounter<2/LOYALTY> | Planeswalker$ True | DigNum$ 1 | Revea
 SVar:DBCleanup:DB$ Cleanup | ClearRemembered$ True
 A:AB$ ChangeZone | Cost$ SubCounter<4/LOYALTY> | Planeswalker$ True | Origin$ Graveyard | Destination$ Battlefield | TgtPrompt$ Choose target Nevron card in your graveyard | ValidTgts$ Nevron.YouCtrl | SpellDescription$ Return target Nevron card from your graveyard to the battlefield.
 A:AB$ ChangeZoneAll | Cost$ SubCounter<10/LOYALTY> | Planeswalker$ True | Ultimate$ True | UseAllOriginZones$ True | Origin$ Battlefield | Destination$ Exile | ChangeType$ Creature.nonNevron+nonPainter | SpellDescription$ Exile all non-Nevron, non-Painter creatures.
+[Bugs]
+ - On death, the commander AI never wants to take the transform to planeswalker option, always opting to send it back to the command zone.
 [DesignNotes]
  - In the game, The Curator is an ally to Expedition 33, until Act 3 where he is revealed to be the real Renoir.
  - Abilities drawn from various abilities he offers at camp.
@@ -69,3 +71,4 @@ A:AB$ ChangeZoneAll | Cost$ SubCounter<10/LOYALTY> | Planeswalker$ True | Ultima
    - If we ever print this, it will be printed over 2 cards and not as a double-faced one, because I want a printed version of this set to be playable as-is without sleeves (as Richard Garfield intended).
  - Is a Painter Spirit instead of Painter God because The Curator is Renoir's *ethereal* form that allows him to escape his prison at the bottom of the Monolith.
  - In terms of Planeswalker design it revolves around the Nevron/Painter alliance and abilities that benefit them both.
+ - 29/11/2025: Mana costs adjusted so that he can be a 5c Nevron commander.

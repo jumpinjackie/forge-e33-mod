@@ -15,7 +15,7 @@ M
 [PT]
 6/6
 [Oracle]
-Void Meteors — {2}{R}, {T}: ~ deals 3 damage divided as you choose among any number of target creatures and/or planeswalkers.
+Void Meteors — {B}{R}, {T}: ~ deals 3 damage divided as you choose among any number of target creatures and/or planeswalkers.
 Rips apart reality — {2}{U}, {T}: Up to two target nonland permanents phase out.
 Heals an Expeditioner — {W}{G}, {T}: You gain 1 life for each Expeditioner you control.
 When ~ dies, return it to the battlefield transformed under it's owner's control.
@@ -28,7 +28,7 @@ Arrogant Man. I taught him to Paint. And he seeks to use my creations against me
 [Artist]
 Sandfall Interactive
 [ForgeScript]
-A:AB$ DealDamage | Cost$ 2 R T | ValidTgts$ Creature,Planeswalker | TgtPrompt$ Select target creature or planeswalker to distribute damage to | NumDmg$ 3 | TargetMin$ 0 | TargetMax$ 3 | DividedAsYouChoose$ 3 | SpellDescription$ ~ deals 3 damage divided as you choose among any number of target creatures and/or planeswalkers.
+A:AB$ DealDamage | Cost$ B R T | ValidTgts$ Creature,Planeswalker | TgtPrompt$ Select target creature or planeswalker to distribute damage to | NumDmg$ 3 | TargetMin$ 0 | TargetMax$ 3 | DividedAsYouChoose$ 3 | SpellDescription$ ~ deals 3 damage divided as you choose among any number of target creatures and/or planeswalkers.
 A:AB$ Phases | Cost$ 2 U T | ValidTgts$ Permanent.nonLand | TgtPrompt$ Select up to two target nonland permanents | TargetMin$ 0 | TargetMax$ 2 | SpellDescription$ Up to two target nonland permanents phase out.
 A:AB$ GainLife | Cost$ W G T | Defined$ You | LifeAmount$ Y | SpellDescription$ You gain 1 life for each Expeditioner you control.
 SVar:Y:Count$Valid Expeditioner.YouCtrl
@@ -62,6 +62,8 @@ SVar:DBGainLife:DB$ GainLife | LifeAmount$ X
 A:AB$ ChangeZone | Cost$ SubCounter<3/LOYALTY> | Planeswalker$ True | ValidTgts$ Permanent.nonLand | TgtPrompt$ Select target nonland permanent | Origin$ Battlefield | Destination$ Exile | SpellDescription$ Exile target nonland permanent.
 A:AB$ PumpAll | Cost$ SubCounter<8/LOYALTY> | Planeswalker$ True | Ultimate$ True | ValidCards$ Creature.YouCtrl | NumAtt$ +X | NumDef$ +X | SpellDescription$ Creatures you control gain +X/+X until end of turn, where X is the number of Chromas you control.
 SVar:X:Count$Valid Chroma.YouCtrl
+[Bugs]
+ - On death, the commander AI never wants to take the transform to planeswalker option, always opting to send it back to the command zone.
 [DesignNotes]
  - In the game, The Paintress is the main antagonist, until the conclusion of Act 2, when you discover she is not. She is in fact, trying to *protect* the people of Lumiere from the true instigator of the yearly Gommages (Renoir) and her yearly countdown on The Monolith is a signal of her waning powers in fighting against this tide.
  - Abilities drawn from the various moves she has in her boss battle. Because 2 of these 3 abilities already exist as separate cards, we've gone with slight tweaks/variations for the abilities here.
@@ -70,3 +72,4 @@ SVar:X:Count$Valid Chroma.YouCtrl
  - As much as I personally despise double-faced cards (because of logistics around limited and sleeves, requiring paper hacks like checklist cards), flavorfully this has to be a creature that transforms to her Planeswalker half.
    - If we ever print this, it will be printed over 2 cards and not as a double-faced one, because I want a printed version of this set to be playable as-is without sleeves (as Richard Garfield intended).
  - In terms of planeswalker design, the primary theme is around Chroma and her mastery of it.
+ - 29/11/2025: Void meteor ability cost adjust so that she can be a 5c commander.
