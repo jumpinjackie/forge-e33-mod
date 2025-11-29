@@ -14,6 +14,9 @@ Sandfall Interactive
 [Oracle]
 Target creature gains double strike until end of turn. (It deals both first-strike and regular combat damage.)
 Create a Lumina token. $LUMINA_REMINDER_TEXT
+[FlavorText]
+Lady luck smiled today!
+- Sciel
 [ForgeScript]
 A:SP$ Pump | ValidTgts$ Creature | TgtPrompt$ Select target creature | KW$ Double Strike | SubAbility$ DBToken | SpellDescription$ Target creature gains double strike until end of turn.
 SVar:DBToken:DB$ Token | TokenAmount$ 1 | TokenOwner$ You | TokenScript$ c_a_lumina

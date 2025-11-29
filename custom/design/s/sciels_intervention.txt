@@ -19,7 +19,7 @@ Luminous — Draw a card if you control at least three Lumina tokens.
 [AbilityWords]
 Luminous
 [FlavorText]
-I got you covered!
+Don't worry, I'm here.
 [ForgeScript]
 A:SP$ Untap | ValidTgts$ Creature.YouCtrl | TgtPrompt$ Select target creature you control | SubAbility$ DBGrantHexproof | SpellDescription$ Untap target creature you control. It gains hexproof until end of turn.
 SVar:DBGrantHexproof:DB$ Pump | Defined$ Targeted | KW$ Hexproof | SubAbility$ TrigDraw | SpellDescription$ Untap target creature you control. It gains hexproof until end of turn.

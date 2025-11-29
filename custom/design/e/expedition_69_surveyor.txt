@@ -18,7 +18,7 @@ When this creature enters, you may search your library for a basic land card, pu
 Whenever this creature attacks, surveil 1.
 When this creature dies, create a Chroma token.
 [FlavorText]
-I get it's not very satisfying making maps and prepping trails while people are dying, but this prep work will pay off in the long run.
+It may not be glamorous, but truly essential work rarely is. Doesn’t make it any less important.
 - Fleur, Expedition 69
 [ForgeScript]
 T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigChange | OptionalDecider$ You | TriggerDescription$ When CARDNAME enters, you may search your library for a basic land card, put that card onto the battlefield tapped, then shuffle.

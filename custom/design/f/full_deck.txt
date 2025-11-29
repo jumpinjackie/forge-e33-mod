@@ -14,6 +14,8 @@ Destroy target creature. Mill cards equal to that creature's toughness.
 Luminous — If you control three or more Lumina tokens, put a card from among those cards into your hand.
 [AbilityWords]
 Luminous
+[FlavorText]
+The cards have spoken!
 [ForgeScript]
 A:SP$ Destroy | ValidTgts$ Creature | TgtPrompt$ Select target creature | SubAbility$ DBMill | SpellDescription$ Destroy target creature.
 SVar:DBMill:DB$ Mill | Defined$ You | NumCards$ X | RememberMilled$ True | SubAbility$ DBRecover
