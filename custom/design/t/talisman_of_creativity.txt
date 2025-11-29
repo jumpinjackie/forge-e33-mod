@@ -1,5 +1,5 @@
 [Name]
-Arcane Signet
+Talisman of Creativity
 [ManaCost]
 2
 [Types]
@@ -9,8 +9,8 @@ true
 [IsCommander]
 true
 [Rarity]
-C
+U
 [Artist]
-Constantin Marin
+Lindsey Look
 [DesignNotes]
- - Obligatory mana rock in Commander
+ - Obligatory Commander mana rock.

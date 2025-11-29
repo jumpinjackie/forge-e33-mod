@@ -1,9 +1,8 @@
 [Name]
-Arcane Signet
+Feed the Swarm
 [ManaCost]
-2
-[Types]
-Artifact
+1
+B
 [IsReprint]
 true
 [IsCommander]
@@ -11,6 +10,6 @@ true
 [Rarity]
 C
 [Artist]
-Constantin Marin
+Andrey Kuzinskiy
 [DesignNotes]
- - Obligatory mana rock in Commander
+ - Obligatory Commander spot removal.

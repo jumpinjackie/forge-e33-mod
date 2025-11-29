@@ -1,16 +1,16 @@
 [Name]
-Putrefy
+Farewell
 [ManaCost]
-1
-B
-G
+4
+W
+W
 [IsReprint]
 true
 [IsCommander]
 true
 [Rarity]
-U
+R
 [Artist]
-Clint Cearley
+Sandfall Interactive
 [DesignNotes]
- - Obligatory spot removal in Commander
+ - Obligatory Commander board wipe.

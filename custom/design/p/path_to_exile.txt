@@ -11,4 +11,4 @@ U
 [Artist]
 Raf Sarmento
 [DesignNotes]
- - Obligatry spot removal in Commander
+ - Obligatory spot removal in Commander

@@ -1,9 +1,9 @@
 [Name]
-Putrefy
+Mortify
 [ManaCost]
 1
+W
 B
-G
 [IsReprint]
 true
 [IsCommander]
@@ -11,6 +11,6 @@ true
 [Rarity]
 U
 [Artist]
-Clint Cearley
+Nils Hamm
 [DesignNotes]
- - Obligatory spot removal in Commander
+ - Staple commander removal.

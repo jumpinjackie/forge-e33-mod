@@ -1,15 +1,15 @@
 [Name]
-Beast Within
+Doubling Season
 [ManaCost]
-2
+4
 G
 [IsReprint]
 true
 [IsCommander]
 true
 [Rarity]
-U
+M
 [Artist]
-Dave Allsop
+Chuck Lukacs
 [DesignNotes]
- - Obligatory spot removal in commander.
+ - Commander staple.

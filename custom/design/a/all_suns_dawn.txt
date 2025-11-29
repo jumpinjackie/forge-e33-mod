@@ -1,0 +1,15 @@
+[Name]
+All Suns' Dawn
+[ManaCost]
+4
+G
+[IsReprint]
+true
+[Rarity]
+R
+[FlavorText]
+Tomorrow comes.
+[Artist]
+Glen Angus
+[DesignNotes]
+ - Thematically on-point reprint. Dawn signifying tomorrow. Tomorrow comes.

@@ -1,7 +1,7 @@
 [Name]
-Arcane Signet
+Chromatic Lantern
 [ManaCost]
-2
+3
 [Types]
 Artifact
 [IsReprint]
@@ -9,8 +9,8 @@ true
 [IsCommander]
 true
 [Rarity]
-C
+R
 [Artist]
-Constantin Marin
+Jung Park
 [DesignNotes]
- - Obligatory mana rock in Commander
+ - Staple commander mana rock.

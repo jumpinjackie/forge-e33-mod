@@ -1,0 +1,15 @@
+[Name]
+Explorer's Scope
+[ManaCost]
+1
+[Types]
+Artifact
+Equipment
+[IsReprint]
+true
+[Rarity]
+C
+[Artist]
+Vincent Proce
+[DesignNotes]
+ - Easy on-flavor reprint.

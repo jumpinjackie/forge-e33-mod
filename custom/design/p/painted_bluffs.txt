@@ -1,0 +1,17 @@
+[Name]
+Painted Bluffs
+[ManaCost]
+no cost
+[Types]
+Land
+[IsReprint]
+true
+[Rarity]
+C
+[Artist]
+Mark Poole
+[FlavorText]
+We painted hundreds of Canvas worlds, pushing the very boundaries of creation. And she never let me forget that every day we spend here has a price.
+- Renoir
+[DesignNotes]
+ - Has "Painted" in its name, color fixes. Easy on-flavor reprint candidate.

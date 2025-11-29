@@ -1,7 +1,6 @@
 [Name]
-Putrefy
+Abrupt Decay
 [ManaCost]
-1
 B
 G
 [IsReprint]
@@ -9,8 +8,8 @@ true
 [IsCommander]
 true
 [Rarity]
-U
+R
 [Artist]
-Clint Cearley
+Svetlin Velinov
 [DesignNotes]
- - Obligatory spot removal in Commander
+ - Staple commandre spot removal.

@@ -11,4 +11,4 @@ U
 [Artist]
 Nadia Hurianova
 [DesignNotes]
- - Obligatry spot removal in Commander
+ - Obligatory spot removal in Commander

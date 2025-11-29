@@ -1,5 +1,5 @@
 [Name]
-Arcane Signet
+Thought Vessel
 [ManaCost]
 2
 [Types]
@@ -11,6 +11,6 @@ true
 [Rarity]
 C
 [Artist]
-Constantin Marin
+rk post
 [DesignNotes]
- - Obligatory mana rock in Commander
+ - Obligatory Commander mana rock.

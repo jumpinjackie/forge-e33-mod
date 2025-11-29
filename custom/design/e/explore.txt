@@ -1,0 +1,13 @@
+[Name]
+Explore
+[ManaCost]
+1
+G
+[IsReprint]
+true
+[Rarity]
+C
+[Artist]
+John Avon
+[DesignNotes]
+ - Easy on-flavor reprint.

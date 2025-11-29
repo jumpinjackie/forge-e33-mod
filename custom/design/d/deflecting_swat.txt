@@ -1,16 +1,15 @@
 [Name]
-Arcane Signet
+Deflecting Swat
 [ManaCost]
 2
-[Types]
-Artifact
+R
 [IsReprint]
 true
 [IsCommander]
 true
 [Rarity]
-C
+R
 [Artist]
-Constantin Marin
+rk post
 [DesignNotes]
- - Obligatory mana rock in Commander
+ - Commander staple

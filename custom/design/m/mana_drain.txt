@@ -1,16 +1,15 @@
 [Name]
-Putrefy
+Mana Drain
 [ManaCost]
-1
-B
-G
+U
+U
 [IsReprint]
 true
 [IsCommander]
 true
 [Rarity]
-U
+M
 [Artist]
-Clint Cearley
+Raymond Swanland
 [DesignNotes]
- - Obligatory spot removal in Commander
+ - Obligatory Commander counter.

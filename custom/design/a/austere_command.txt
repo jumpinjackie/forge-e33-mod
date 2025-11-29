@@ -1,9 +1,9 @@
 [Name]
-Arcane Signet
+Austere Command
 [ManaCost]
-2
-[Types]
-Artifact
+4
+W
+W
 [IsReprint]
 true
 [IsCommander]
@@ -11,6 +11,6 @@ true
 [Rarity]
 C
 [Artist]
-Constantin Marin
+rk post
 [DesignNotes]
- - Obligatory mana rock in Commander
+ - Staple commander board wipe

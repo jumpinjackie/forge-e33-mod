@@ -1,13 +1,15 @@
 [Name]
-Terminate
+Damn
 [ManaCost]
 B
-R
+B
 [IsReprint]
 true
+[IsCommander]
+true
 [Rarity]
-C
+U
 [Artist]
 Lucas Graciano
 [DesignNotes]
- - Obligatory spot removal for Limited/Commander
+ - Obligatory Commander spot removal / board wipe.
