@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 27/11/2025 12:02:16 pm
+> Last generated: 29/11/2025 4:49:48 pm
 
 ## Acceptance
 
@@ -23,6 +23,14 @@ I'm FINE. I've lived 33 good years. Look around. We've had our whole lives to pr
 
  - No in-game basis, but Grief is such a central theme of Expedition 33 that having a cycle dedicated to the 5 stages is a total flavor nuke.
  - I'm taking the word Acceptance literally (or is it figuratively?) and gone with a creature that "accepts" all damage that would've gone your way.
+
+## Austere Command
+
+> This card is a reprint
+[Scryfall](https://scryfall.com/search?q=Austere Command)
+### Notes
+
+ - Staple commander board wipe
 
 ## Chroma Barrier
 
@@ -149,6 +157,22 @@ Your time left in this life is limited, why not make it count for something?
  - Goblin Matron, but for Expeditioners with standard death bonus.
  - 3/10/2025: This + Tomorrow Comes + Expedition 70 gives us effectively 12 Expeditioner tutors. This may be overkill and the Expeditioner strategy too consistent and we may have to rework one or more of these cards. Further playtesting will tell us.
 
+## Farewell
+
+> This card is a reprint
+[Scryfall](https://scryfall.com/search?q=Farewell)
+### Notes
+
+ - Obligatory Commander board wipe.
+
+## Generous Gift
+
+> This card is a reprint
+[Scryfall](https://scryfall.com/search?q=Generous Gift)
+### Notes
+
+ - Obligatory spot removal in commander.
+
 ## Healing Light
 
 ```
@@ -206,6 +230,23 @@ He eagerly absorbs the knowledge given to him, for he knows when his time comes,
  - Modeled their "curiosity" as giving you clues whenever a "foreign" creature type enters the battlefield.
  - One of the rare humans in this set that are not Expeditioners.
 
+## Path to Exile
+
+> This card is a reprint
+[Scryfall](https://scryfall.com/search?q=Path to Exile)
+### Notes
+
+ - Obligatory spot removal in Commander
+
+## Payback (Roil's Retribution)
+
+> This card is a nicknamed reprint of (Roil's Retribution)
+[Scryfall](https://scryfall.com/search?q=Roil's Retribution)
+### Notes
+
+ - In the game, this is one of Maelle's skills
+ - Roil's Retribution fits the bill (in both flavor and mechanics), so it was chosen as a nickname reprint for this.
+
 ## Perfect Dodge
 
 ```
@@ -251,7 +292,7 @@ Kindred Instant - Expeditioner
 Untap target creature you control. It gains hexproof until end of turn.
 Luminous — Draw a card if you control at least three Lumina tokens.
 ---
-I got you covered!
+Don't worry, I'm here.
 ```
 
 [card implementation](../custom/cards/s/sciels_intervention.txt)
@@ -277,6 +318,14 @@ Sacrifice this enchantment: The next historic spell you cast costs {1} less to c
 
  - In the game, Sciel gives her "glowing endorsement" of Gustave for "shouting the password as loud as you can" to get access to Esquie's Nest.
  - This card 100% based on the "Sciel of Approval" meme/pun.
+
+## Swords to Plowshares
+
+> This card is a reprint
+[Scryfall](https://scryfall.com/search?q=Swords to Plowshares)
+### Notes
+
+ - Obligatory spot removal in Commander
 
 ## The Fracture
 

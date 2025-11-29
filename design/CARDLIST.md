@@ -29,13 +29,15 @@ From this list, card designs are spawned from it, which will eventually form the
 
 ## Card Name List
 
-Cards implemented: 247/313
+Cards implemented: 312/328
 
 [x] - Card is implemented or in development, [ ] - Card is not implemented
 
 ```
+[x] A Rock for Francois
 [x] A Storm is Coming
 [x] Abbest
+[ ] Abbest Cave
 [x] Aberration
 [x] Acceptance
 [x] Alicia Dessendre, Silenced by Fire
@@ -54,9 +56,9 @@ Cards implemented: 247/313
 [x] Benisseur
 [x] Berrami, Collector of Journals
 [ ] Bertrand Big Hands
-[ ] Blade's Graveyard
+[x] Blade's Graveyard
 [ ] Blanche, the Unfinished Creation
-[ ] Boat Graveyard
+[x] Boat Graveyard
 [x] Boucheclier
 [x] Bound by Chains
 [ ] Bourgeon
@@ -85,6 +87,7 @@ Cards implemented: 247/313
 [x] Clea Dessendre, Seeking Vengeance
 [x] Clea's Chromatic Mastery
 [x] Closure
+[x] Crimson Forest
 [x] Crippling Tsunami
 [x] Cruler
 [x] Crushing Cavern
@@ -92,6 +95,7 @@ Cards implemented: 247/313
 [x] Danseuse
 [ ] Danseuse Teacher
 [x] Dark Shores
+[x] Dark Gestral Arena
 [x] Death Picto
 [ ] Degagement
 [x] Demineur
@@ -104,8 +108,10 @@ Cards implemented: 247/313
 [x] Earth Rising
 [ ] Egide
 [x] Endless Tower
+[ ] Endless Night Sanctuary
 [x] Energy Tint
 [x] Entering the Canvas
+[ ] Esoteric Ruins
 [x] Esquie, Friend of Verso
 [ ] Esquie's Magic Mushrooms
 [x] Esquie's Nest
@@ -151,20 +157,21 @@ Cards implemented: 247/313
 [x] Expedition Flag
 [ ] Expedition Flotilla
 [x] Expedition Recruiter
-[ ] Falling Leaves
+[x] Falling Leaves
 [ ] Fender's Flurry
 [x] Finesse // Grace
 [ ] Fleuret Fury
-[ ] Floating Cemetery
+[x] Floating Cemetery
 [x] Florrie
 [x] Flying Casino
+[ ] Flying Manor
 [x] Flying Waters
 [x] For Those Who Come After
 [x] Forgotten Battlefield
 [x] Fortune's Fury
 [ ] Fracture Survivor
 [x] Francois, Waiting for Clea
-[ ] Frozen Hearts
+[x] Frozen Hearts
 [x] Full Deck
 [ ] Gargant
 [x] Gestral Arena
@@ -218,6 +225,7 @@ Cards implemented: 247/313
 [x] Limonsol, Matchmaker
 [x] Lorieniso, Gestral Musician
 [x] Lost Gestral
+[x] Lost Woods
 [x] Lumiere Aquafarm
 [x] Lumiere Assault
 [x] Lumiere Flower Stand
@@ -260,7 +268,8 @@ Cards implemented: 247/313
 [x] Painted Clea, the Mistress
 [ ] Painted Love
 [x] Painted Renoir, Aline's Enforcer
-[ ] Payback
+[ ] Painting Workshop
+[x] Payback
 [ ] Percee
 [x] Perfect Dodge
 [x] Persuasive Argument
@@ -272,6 +281,7 @@ Cards implemented: 247/313
 [x] Ranger Sakapatate
 [x] Reaper Cultist
 [x] Recoat
+[ ] Red Woods
 [x] Renoir's Creation
 [ ] Renoir's Drafts
 [x] Renoir's Will
@@ -287,17 +297,19 @@ Cards implemented: 247/313
 [ ] Seething Boucheclier
 [x] Serpenphare
 [x] Shot Picto
-[ ] Simon, Consort of Clea
-[ ] Simon, The Divergent Star
+[x] Simon, Consort of Clea // Simon, The Divergent Star
 [x] Sinister Cave
 [x] Sirene's Coliseum
 [x] Sky Break
+[x] Sky Island
 [x] Soarrie
 [ ] Sorrowful Chapelier
-[ ] Sprong
+[x] Sprong
 [ ] Stalact
 [x] Stendhal
-[ ] Sunless Cliffs
+[x] Stone Quarry
+[x] Stone Wave Cliffs
+[x] Sunless Cliffs
 [ ] Sunniso, Gestral Bouncer
 [x] Swift Counter
 [ ] Sword Ballet
@@ -309,8 +321,10 @@ Cards implemented: 247/313
 [x] The Fracture
 [x] The Greatest Expedition in History
 [x] The Hauler
-[ ] The Indigo Tree
+[x] The Indigo Tree
+[ ] The Last Stand of Expedition 33
 [ ] The Mask Keeper
+[x] The Meadows
 [x] The Monolith
 [x] The Monolith Interior
 [x] The Paintress // Aline Dessendre, Stricken by Grief
@@ -346,7 +360,8 @@ Cards implemented: 247/313
 [x] Volester
 [x] Whee // Whoo
 [x] When One Falls // We Continue
-[ ] Yellow Harvest
+[x] White Sands
+[x] Yellow Harvest
 ```
 
 ## Quotes deserving of a card name + design
@@ -386,16 +401,6 @@ No ideas yet.
 > Monoco: Normally I enjoy a little destruction, but this doesn't feel right
 
 No ideas yet.
-
-> Act 2: Mask-Keeper battle
-> Sciel: This mask can't hurt me. Because it is me.
-
-Reprint of Mask of Memory?
-
-> Act 2: Camp
-> Verso: My beautiful sister doesn't need this ugly mask.
-
-Reprint of Unmask?
 
 > Act 2: Camp
 > Renoir: You embrace her, yet you are condeming her to die.
@@ -448,11 +453,6 @@ Something to do with the "suffocation".
 > Renoir: Stop this insanity. It's time to go home.
 
 No ideas yet.
-
-> Act 3: Renoir final boss battle post-script
-> Renoir: We painted hundreds of Canvas worlds, pushing the very boundaries of creation. And she never let me forget that every day we spend here has a price.
-
-Sounds like some black enchantment that trades life for resources
 
 > Act 3: Renoir final boss battle post-script
 > Renoir: I'll keep the light on for you. I hope you find peace. Hold on to each other.

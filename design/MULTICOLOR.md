@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 27/11/2025 12:02:16 pm
+> Last generated: 29/11/2025 4:49:48 pm
 
 ## A Storm is Coming
 
@@ -38,6 +38,14 @@ When this creature dies, target opponent creates a Lumina token.
 
  - Just a vanilla placeholder for now until I have figured out some suitable abilities for it
  - 13/10/2025: Removed Devoid.
+
+## Abrupt Decay
+
+> This card is a reprint
+[Scryfall](https://scryfall.com/search?q=Abrupt Decay)
+### Notes
+
+ - Staple commander spot removal.
 
 ## Alicia Dessendre, Silenced by Fire
 
@@ -79,6 +87,14 @@ When this creature dies, target opponent creates a Lumina token. (It's an artifa
  - Another vanila Nevron. Flying because these things are hard to hit with melee attacks in the actual game.
  - 23/09/2025: Move color identity from white/green to red/green to make way for White Nevrons.
  - 13/10/2025: Removed Devoid.
+
+## Bedevil
+
+> This card is a reprint
+[Scryfall](https://scryfall.com/search?q=Bedevil)
+### Notes
+
+ - Obligatory commander ramp.
 
 ## Benisseur
 
@@ -357,6 +373,27 @@ When Esquie attacks, if it is saddled, choose one —
         - Flying - Flying
         - Diving - Surveil on attack
  - Because this is a Mount creature with Saddle, I've given it the Uro (draw a card or put a land) triggered ability as the saddle attacking bonus.
+
+## Esquie's Rescue
+
+```
+UG
+Instant
+Return target creature to its owner’s hand. You gain 3 life.
+Create a Lumina token. (It's an artifact with "{T}, Sacrifice this artifact: Scry 1.")
+---
+Sciel: It was you. You saved me. Back then. Wait, but how?
+Esquie: I heard your tears. 
+Sciel: From so far away?
+Esquie: I heard you, so I came.
+```
+
+[card implementation](../custom/cards/e/esquies_rescue.txt)
+
+### Design Notes
+
+ - In the game, Sciel discovers that Esquie saved her from drowning in the past, thus explaining why he referred to her as "my poor swimmer friend"
+ - Modeled as a bounce spell with various bonuses stapled on.
 
 ## Expedition 34 Mage
 
@@ -650,6 +687,8 @@ UB
 Kindred Sorcery - Expeditioner
 Destroy target creature. Mill cards equal to that creature's toughness.
 Luminous — If you control three or more Lumina tokens, put a card from among those cards into your hand.
+---
+The cards have spoken!
 ```
 
 [card implementation](../custom/cards/f/full_deck.txt)
@@ -793,6 +832,14 @@ Search your library for a Gradient card, reveal that card, put it into your hand
  - In the game, Gradient attacks are "Epic" tier attacks. To use such attacks you need to fill up a Gradient gauge. The Gradient gauge holds up to 3 charges. Gradient attacks cost anywhere between 1 to 3 charges.
  - Mechanically, this is just a Gradient spell tutor to assist in Painter-based strategies.
 
+## Growth Spiral
+
+> This card is a reprint
+[Scryfall](https://scryfall.com/search?q=Growth Spiral)
+### Notes
+
+ - Obligatory commander ramp.
+
 ## Gustave, Lumiere Engineer
 
 ```
@@ -857,6 +904,38 @@ Exile target nonland permanent.
 
  - One of Maelle's quotes as she's about to gommage some sorry Nevron out of existence.
  - Painter bonus because this is a painter's power.
+
+## Lune, Charting a Path
+
+```
+WURG
+Legendary Creature - Human Expeditioner Wizard
+Whenever you cast an instant or sorcery spell, draw a card and put a stain counter on Lune for each of that spell's colors.
+Tree of Life — {W}{G}, {T}, Remove a stain counter from Lune: Return target nonland, noncreature card from your graveyard to your hand. You gain 3 life.
+Wildfire — {R}, {T}, Remove two stain counters from Lune: Lune deals 2 damage to each creature target opponent controls.
+Elemental Genesis — {T}, Remove four stain counters from Lune: Lune deals 4 damage to each of up to four targets.
+---
+As long as even one of us stands, our fight is not over.
+
+3/3
+```
+
+[card implementation](../custom/cards/l/lune_charting_a_path.txt)
+
+### Design Notes
+
+ - This was one of the hardest cards to design because Lune is a veritable "Jack of all trades" in terms of abilities in-game. Also we have to somehow emulate her stain gimmick in a way that doesn't look too out of flavor.
+ - So in this respect, this is what I went with:
+    - The stain gimmick is a triggered ability that gives you stain counters for the colors of any instant/sorcery cast.
+        - The original intent was to have 4 different types of stain counters to match the colors of any instants/sorceries resolved. (eg. Resolve a blue spell, add a blue stain counter, etc). Her abilities would then be activated by spending the appropriate type of stain counters. But that is just too much text and we don't have the textbox budget for it!
+        - The stain counters being "colorless" but an amount given based on the colors of the instant/sorcery cast was a compromise to save on text.
+        - The second compromise is to spend stain counters + a mana of a particular color for a color-relevant ability.
+    - In terms of abilities, we've made sure that every color in Lune's color identity is covered.
+        - Blue: Draw a card from cast trigger.
+        - Red: The Wildfire ability
+        - Green/White: The Tree of Life ability
+    - The Elemental Genesis "ultimate" requires no extra mana cost because getting to 4 stain counters is enough investment already.
+ - This is our expected commander for our Expeditioners/Gestrals commander deck.
 
 ## Maelle, Child of Lumiere // Maelle, The Reawakened Paintress
 
@@ -1047,6 +1126,14 @@ My, what lovely feet! — Monoco has activated abilities of all Nevrons in exile
  - The untap ability is provided for synergy with any tap activated abilities that Monoco may steal.
  - 3/11/2025: Added Expeditioner sub-type
 
+## Mortify
+
+> This card is a reprint
+[Scryfall](https://scryfall.com/search?q=Mortify)
+### Notes
+
+ - Staple commander removal.
+
 ## Painted Alicia, Eternally Suffering
 
 ```
@@ -1100,6 +1187,14 @@ Maelle: I bet Clea hated Maman's portrait of her. So she painted over her.
  - 26/10/2025: Replaced tutoring with a Nevron sac to draw a card.
  - 2/11/2025: Reduced Nevron buff from +2/+2 to +1/+1
  - 27/11/2025: Reduced cost reduction from {2} to {1}
+
+## Putrefy
+
+> This card is a reprint
+[Scryfall](https://scryfall.com/search?q=Putrefy)
+### Notes
+
+ - Obligatory spot removal in Commander
 
 ## Rally the Expeditioners
 
@@ -1210,6 +1305,68 @@ An omnipresent feature of the continent skies. A reminder that before one can ev
  - Mechanically, we modeled the AP draining ability as a tap and stun with a charge counter being given. The "explode" ability is modeled as removing X charge counters to X damage to every creature (including itself)
  - 19/11/2025: Increased tap-and-stun cost from 1U to 2U. Also added ability words.
 
+## Simon, Consort of Clea // Simon, The Divergent Star
+
+```
+3BR
+Legendary Creature - Human Expeditioner
+Trample
+When Simon enters, each other creature has base toughness 1 until end of turn.
+Gathers Chroma — {B}{B}, {T}: Target creature has base toughness 1 until end of turn.
+When Simon dies, return it to the battlefield transformed under it’s owner’s control.
+
+5/5
+```
+
+Transforms into:
+
+```
+
+Legendary Creature - Human Expeditioner
+Trample
+Double Strike
+Simon enters with a foreboding counter.
+The dead are removed from the canvas — If a creature would be put into a graveyard from anywhere, exile it instead.
+Gathers Chroma — {B}{B}, {T}: Target creature has base toughness 1 until end of turn.
+The Expedition is removed from the canvas — {T}, Remove a foreboding counter: Choose a creature an opponent controls. Exile all creatures except for Simon and the chosen creature.
+
+6/6
+```
+
+[card implementation](../custom/cards/s/simon_consort_of_clea_simon_the_divergent_star.txt)
+
+### Design Notes
+
+ - In the game, Simon is a secret endgame boss and is the hardest boss in the game.
+ - He is mechanically represented as follows:
+    - A double-faced card to represent Phase 1 (front face) and Phase 2/3 (back face)
+    - Transforms on death in line with him advancing to Phase 2 upon defeating him in Phase 1.
+    - "Gathers Chroma" translated to setting a creature's toughness to 1. Available on both sides in line with this ability being available in all phases.
+    - Back side has double strike as a nod to 80% of his moves in the game being rapid-fire swings of his sword.
+    - Back side enters with a foreboding counter as a signal that something bad is going to happen soon if Simon is not dealt with quickly.
+    - Mapped "The dead are removed from the canvas" to a "Rest in Peace" continuous exile effect. Is in line with what happens when any of your party members die in combat (they are immediately erased).
+    - Mapped "The Expedition is removed from the canvas" as a mass exile effect that spares only Simon and one of opponent's creatures. This is the ability spent with the foreboding counter.
+
+## Sprong
+
+```
+1UBR
+Legendary Creature - Nevron
+Multi-strike combo — {R}{R}: Sprong gains double strike until end of turn.
+Sabotages the expedition — {U}{U}, {T}: Tap target creature and put a stun counter on it.
+Charges Extermination Boom — {2}: Put a charge counter on Sprong.
+Extermination Boom — {B}{B}, {T}, Remove X charge counters from Sprong: Sprong deals X damage divided as you choose among any number of target creatures.
+
+5/5
+```
+
+[card implementation](../custom/cards/s/sprong.txt)
+
+### Design Notes
+
+ - In the game, Sprong is an optional overworld boss.
+ - Grixis color identity chosen so double strike could be flavorfully woven in to its ability suite. Other abilities are on-flavor for their respective colors.
+
 ## Stendhal
 
 ```
@@ -1230,13 +1387,21 @@ Stendhal deals 33 damage to target creature or planeswalker.
  - Has Affinity for Lumina (tokens) to not only make casting this easier, but also as a nod to the pictos/lumina investment required in-game to make Stendhal deal damage in the millions.
  - I orignally had thoughts about making it targeting players as well, but with some side-mission you must take to unlock the ability to target players (whether by suspend or mana payment requirements), but decided against that as this set already has 2 "you win the game if certain conditions are met" cards. That's enough, we don't need another one.
 
+## Terminate
+
+> This card is a reprint
+[Scryfall](https://scryfall.com/search?q=Terminate)
+### Notes
+
+ - Obligatory spot removal for Limited/Commander
+
 ## The Curator // Renoir, Dessendre Patriarch
 
 ```
-2WUB
+2UBR
 Legendary Creature - Painter Spirit
 Picto Reinforcement — {2}{U}, {T}: Create two Lumina tokens.
-Upgrades your weapons — {2}{W}, {T}: Distribute two +1/+1 counters among one or two target creatures.
+Upgrades your weapons — {2}{G/W}, {T}: Distribute two +1/+1 counters among one or two target creatures.
 Latent skill activation — {3}{B}, {T}, Exert an Expeditioner creature: Destroy target creature.
 When The Curator dies, return it to the battlefield transformed under it’s owner’s control.
 
@@ -1265,6 +1430,7 @@ Whenever a Nevron you control dies, draw a card and each opponent discards a car
    - If we ever print this, it will be printed over 2 cards and not as a double-faced one, because I want a printed version of this set to be playable as-is without sleeves (as Richard Garfield intended).
  - Is a Painter Spirit instead of Painter God because The Curator is Renoir's *ethereal* form that allows him to escape his prison at the bottom of the Monolith.
  - In terms of Planeswalker design it revolves around the Nevron/Painter alliance and abilities that benefit them both.
+ - 29/11/2025: Mana costs adjusted so that he can be a 5c Nevron commander.
 
 ## The Fate of the Canvas
 
@@ -1307,7 +1473,7 @@ When one falls, we continue.
 ```
 WURG
 Legendary Creature - Painter God
-Void Meteors — {2}{R}, {T}: The Paintress deals 3 damage divided as you choose among any number of target creatures and/or planeswalkers.
+Void Meteors — {B}{R}, {T}: The Paintress deals 3 damage divided as you choose among any number of target creatures and/or planeswalkers.
 Rips apart reality — {2}{U}, {T}: Up to two target nonland permanents phase out.
 Heals an Expeditioner — {W}{G}, {T}: You gain 1 life for each Expeditioner you control.
 When The Paintress dies, return it to the battlefield transformed under it's owner's control.
@@ -1337,6 +1503,7 @@ At the beginning of your upkeep, create a Chroma token.
  - As much as I personally despise double-faced cards (because of logistics around limited and sleeves, requiring paper hacks like checklist cards), flavorfully this has to be a creature that transforms to her Planeswalker half.
    - If we ever print this, it will be printed over 2 cards and not as a double-faced one, because I want a printed version of this set to be playable as-is without sleeves (as Richard Garfield intended).
  - In terms of planeswalker design, the primary theme is around Chroma and her mastery of it.
+ - 29/11/2025: Void meteor ability cost adjust so that she can be a 5c commander.
 
 ## The Scavenger
 
@@ -1434,7 +1601,7 @@ Strike Storm — Verso has Double Strike as long has he has 3 or more rank count
 Marking Shot — {U/B}, {T}: Verso deals 1 damage to any target. If you have 3 or more rank counters, it deals 2 damage to any target instead.
 Phantom Stars — {4}{W}, {T}, remove X rank counters from Verso: Verso deals X damage to each creature your opponents controls.
 ---
-Here we go
+Let's carve a path.
 
 3/3
 ```
@@ -1470,6 +1637,14 @@ How cruel of your father to use you like this.
  - Mechanically, I based this on Pyrotechnics, but moved to Rakdos colors and with a Painter's discount.
  - 13/10/2025: Removed Devoid.
  - 15/11/2025: Devoid is back on the menu. I figured out how to add colorless frame layer to CardConjurer.
+
+## Void Rend
+
+> This card is a reprint
+[Scryfall](https://scryfall.com/search?q=Void Rend)
+### Notes
+
+ - Commander spot removal.
 
 ## Whee // Whoo
 

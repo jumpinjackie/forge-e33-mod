@@ -1,6 +1,38 @@
 # Cards
 
-> Last generated: 27/11/2025 12:02:16 pm
+> Last generated: 29/11/2025 4:49:48 pm
+
+## Blade's Graveyard (Caves of Koilos)
+
+> This card is a nicknamed reprint of (Caves of Koilos)
+[Scryfall](https://scryfall.com/search?q=Caves of Koilos)
+### Notes
+
+ - Nicknamed painland reprint to flesh out commander mana bases
+
+## Boat Graveyard (Underground River)
+
+> This card is a nicknamed reprint of (Underground River)
+[Scryfall](https://scryfall.com/search?q=Underground River)
+### Notes
+
+ - Nicknamed painland reprint to flesh out commander mana bases
+
+## Command Tower
+
+> This card is a reprint
+[Scryfall](https://scryfall.com/search?q=Command Tower)
+### Notes
+
+ - Obligatory mana fixing land for Commander
+
+## Crimson Forest (Karplusan Forest)
+
+> This card is a nicknamed reprint of (Karplusan Forest)
+[Scryfall](https://scryfall.com/search?q=Karplusan Forest)
+### Notes
+
+ - Nicknamed painland reprint to flesh out commander mana bases
 
 ## Crushing Cavern
 
@@ -9,7 +41,7 @@
 Land - Cave
 This land enters tapped.
 {T}: Add {C}.
-{1}, {T}, Sacrifice Crushing Cavern: Destroy target attacking creature without flying
+{2}, {T}, Sacrifice Crushing Cavern: Destroy target attacking creature without flying
 ---
 If anyone finds this journal, do not enter this cave, the Nevron inside will crush you.
 - Cassandra, Expedition 45
@@ -21,6 +53,15 @@ If anyone finds this journal, do not enter this cave, the Nevron inside will cru
 
  - In the game the Crushing Cavern is a location where the player engages in a time-limited battle with the Giant Sapling. Failing to defeat the Giant Sapling results in a crushing defeat. The journal in this area recalls a previous failed attempt at defeating the Giant Sapling.
  - Mechanically represented as Pit Trap on a land. Comes into to play tapped to give any creature already on the battlefield at least one turn to get their shot in before they become the potential kill target.
+ - 29/11/2025: Increased activation cost from {1} to {2}
+
+## Dark Gestral Arena (Battlefield Forge)
+
+> This card is a nicknamed reprint of (Battlefield Forge)
+[Scryfall](https://scryfall.com/search?q=Battlefield Forge)
+### Notes
+
+ - Nicknamed painland reprint to flesh out commander mana bases
 
 ## Dark Shores
 
@@ -102,6 +143,24 @@ So uh... We can rest a bit, but the moon is bright, I want to keep moving.
  - I envision this card as a "refuge" for Expeditioners ala. Safe Haven, so I've gone with a blink effect to signify the Expeditioner taking refuge and it coming back with a +1/+1 counter to signify it having ugpraded some of their equipment.
  - Intentionally worded to allow blinking of any Expeditioner *permanent*
 
+## Falling Leaves (Yavimaya, Cradle of Growth)
+
+> This card is a nicknamed reprint of (Yavimaya, Cradle of Growth)
+[Scryfall](https://scryfall.com/search?q=Yavimaya, Cradle of Growth)
+### Notes
+
+ - In the game, Falling Leaves is an optional area gated behind coral barriers. The Scavager boss can be found here.
+ - Due to its eternal autumn setting, I've gone with a nickname reprint of Yavimaya, Cradle of Growth.
+
+## Floating Cemetery (Ominous Cemetery)
+
+> This card is a nicknamed reprint of (Ominous Cemetery)
+[Scryfall](https://scryfall.com/search?q=Ominous Cemetery)
+### Notes
+
+ - In the game, Floating Cemetery is an optional area where an Unfinished Chalier can be found.
+ - Chose a nickname reprint of Ominous Cemetery just on name-basis alone.
+
 ## Flying Casino
 
 ```
@@ -161,6 +220,14 @@ These siege engines seemed much more powerful in Lumiere. But on this battlefiel
  - In the game, the Forgotten Battlefield is one of the areas the Expedition 33 crew must traverse to reach Monoco's Station.
  - Volrath's Stronghold for Nevrons
 
+## Frozen Hearts (Shivan Reef)
+
+> This card is a nicknamed reprint of (Shivan Reef)
+[Scryfall](https://scryfall.com/search?q=Shivan Reef)
+### Notes
+
+ - Nicknamed painland reprint to flesh out commander mana bases
+
 ## Gestral Arena
 
 ```
@@ -214,6 +281,14 @@ Gustave: They seem better at surviving than humans.
 
  - In the game, this is the home of the Gestrals.
  - A sol land for Gestral tribal decks. Due to their artifact nature, Gestrals are significantly easier to cast (unlike Eldrazi which require explicit coloress-pip producing lands), so where applicable, costs have increased, but this card is a bone thrown to to this deck to allow for some acceleration.
+
+## Lost Woods (Llanowar Wastes)
+
+> This card is a nicknamed reprint of (Llanowar Wastes)
+[Scryfall](https://scryfall.com/search?q=Llanowar Wastes)
+### Notes
+
+ - Nicknamed painland reprint to flesh out commander mana bases
 
 ## Lumiere Aquafarm
 
@@ -301,7 +376,6 @@ This land enters tapped.
 Land
 {T}: Add {C}.
 {T}: Add {U} or {R}. Activate this ability only if you control a Gestral or Grandis.
-{T}: Add {U} or {R}. This land doesn't untap during your next untap step
 ---
 The Grandis have embraced us with such warmth and hope. What a balm for the soul to know that other beings survived, that we in Lumiere are not alone! It truly is a miracle.
 - Aurelien, Expedition 65
@@ -314,21 +388,23 @@ The Grandis have embraced us with such warmth and hope. What a balm for the soul
  - In the game, Monoco's Station is situated in an icy and mountainous region of the continent.
  - Therefore this should clearly be a blue/red dual land.
  - Since it's occupied by Monoco (a Gestral) and various Grandis creatures. They get the no-strings-attached dual land experience.
+ - 29/11/2025: Dropped the secondary dual mana ability (to eliminate potential confusion in paper) and downshift to Uncommon
 
-## Sinister Cave
+## Painted Bluffs
 
-```
+> This card is a reprint
+[Scryfall](https://scryfall.com/search?q=Painted Bluffs)
+### Notes
 
-Land - Cave
-This land enters tapped.
-{T}: Add {B} or {R}
-```
+ - Has "Painted" in its name, color fixes. Easy on-flavor reprint candidate.
 
-[card implementation](../custom/cards/s/sinister_cave.txt)
+## Sinister Cave (Sulfurous Springs)
 
-### Design Notes
+> This card is a nicknamed reprint of (Sulfurous Springs)
+[Scryfall](https://scryfall.com/search?q=Sulfurous Springs)
+### Notes
 
- - In the game, the Sinister Cave is located east of Sirene's Coliseum.
+ - Nicknamed painland reprint to flesh out commander mana bases
 
 ## Sirene's Coliseum
 
@@ -350,6 +426,50 @@ Maybe. Maybe we'll just stay here and... enjoy the melody.
  - In the game, this is the home of Sirene, one of the Axons.
  - Modelled on Grand Coliseum with drawbacks removed if you are Nevron/Painter aligned.
 
+## Sky Island (Yavimaya Coast)
+
+> This card is a nicknamed reprint of (Yavimaya Coast)
+[Scryfall](https://scryfall.com/search?q=Yavimaya Coast)
+### Notes
+
+ - Nicknamed painland reprint to flesh out commander mana bases
+
+## Spring Meadows (Razorverge Thicket)
+
+> This card is a nicknamed reprint of (Razorverge Thicket)
+[Scryfall](https://scryfall.com/search?q=Razorverge Thicket)
+### Notes
+
+ - In the game, Spring Meadows is the opening area of Act 1.
+ - Gone with nickname reprint of Razorverge Thicket.
+
+## Stone Quarry
+
+> This card is a reprint
+[Scryfall](https://scryfall.com/search?q=Stone Quarry)
+### Notes
+
+ - In the game, Stone Quarry is an optional area. It features a non-hostile NPC known as the Unfinished Troubador
+ - Name was already taken, and we lack a Boros dual land, so we'll take it.
+
+## Stone Wave Cliffs (Stormcarved Coast)
+
+> This card is a nicknamed reprint of (Stormcarved Coast)
+[Scryfall](https://scryfall.com/search?q=Stormcarved Coast)
+### Notes
+
+ - In the game, a Stone Wave Cliffs is the final area of Act 1.
+ - Gone with nickname reprint of Stormcarved Coast.
+
+## Sunless Cliffs (Blackcleave Cliffs)
+
+> This card is a nicknamed reprint of (Blackcleave Cliffs)
+[Scryfall](https://scryfall.com/search?q=Blackcleave Cliffs)
+### Notes
+
+ - In the game, a Sunless Cliffs is an optional area. It features a battle against a special mime.
+ - Gone with nickname reprint of Blackleave Cliffs
+
 ## The Hauler
 
 ```
@@ -366,6 +486,23 @@ Legendary Land
 
  - In the game, The Hauler is one of the four Axons created by Renoir. The Hauler represents Clea and has an entire city on its back, symbolizing the burden of family affairs being carried by Clea. The Hauler was killed by Simon.
  - Obviously mechanically maps to being a man-land. Given the legendary and epic nature of Axons, it clearly must animate into something big and monstrous.
+
+## The Indigo Tree (The World Tree)
+
+> This card is a nicknamed reprint of (The World Tree)
+[Scryfall](https://scryfall.com/search?q=The World Tree)
+### Notes
+
+ - In the game, The Indigo Tree was the rallying point for Expedition 33 if party members got split off.
+ - Chose a nickname reprint of The World Tree as its God tutoring ability has some relevance in this set.
+
+## The Meadows (Brushland)
+
+> This card is a nicknamed reprint of (Brushland)
+[Scryfall](https://scryfall.com/search?q=Brushland)
+### Notes
+
+ - Nicknamed painland reprint to flesh out commander mana bases
 
 ## The Monolith
 
@@ -465,4 +602,21 @@ This land enters tapped. As it enters, choose a color.
 
  - In the game, the Twilight Quarry is an area where a collectible record can be found
  - Another land to provide mana fixing
+
+## White Sands (Adarkar Wastes)
+
+> This card is a nicknamed reprint of (Adarkar Wastes)
+[Scryfall](https://scryfall.com/search?q=Adarkar Wastes)
+### Notes
+
+ - Nicknamed painland reprint to flesh out commander mana bases
+
+## Yellow Harvest (Copperline Gorge)
+
+> This card is a nicknamed reprint of (Copperline Gorge)
+[Scryfall](https://scryfall.com/search?q=Copperline Gorge)
+### Notes
+
+ - In the game, Yellow Harvest is an optional area.
+ - Went with a nickname reprint of Copperline Gorge 
 

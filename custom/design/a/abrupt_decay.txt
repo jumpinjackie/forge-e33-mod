@@ -12,4 +12,4 @@ R
 [Artist]
 Svetlin Velinov
 [DesignNotes]
- - Staple commandre spot removal.
+ - Staple commander spot removal.

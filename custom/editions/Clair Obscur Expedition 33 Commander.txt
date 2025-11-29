@@ -1,0 +1,54 @@
+[metadata]
+Code=E3C
+Name=Clair Obscur: Expedition 33 Commander
+Date=2025-09-17
+Type=Custom
+
+[cards]
+5 R Abrupt Decay @Svetlin Velinov
+13 C Arcane Signet @Constantin Marin
+16 C Austere Command @rk post
+19 R Bedevil @Fang Xinyu
+22 R Caves of Koilos @Sandfall Interactive ${"flavorName": "Blade's Graveyard"}
+23 R Underground River @Sandfall Interactive ${"flavorName": "Boat Graveyard"}
+33 R Chaos Warp @Trevor Claxton
+43 R Chromatic Lantern @Jung Park
+51 C Command Tower @Alayna Danner
+52 C Commander's Sphere @Justyna Dura
+54 U Counterspell @Zack Stella
+55 R Karplusan Forest @Sandfall Interactive ${"flavorName": "Crimson Forest"}
+60 C Cultivate @Anthony Palumbo
+61 U Damn @Lucas Graciano
+63 R Battlefield Forge @Sandfall Interactive ${"flavorName": "Dark Gestral Arena"}
+66 R Deflecting Swat @rk post
+74 M Doubling Season @Chuck Lukacs
+119 R Farewell @Sandfall Interactive
+120 C Farseek @Hristo D. Chukov
+121 C Feed the Swarm @Andrey Kuzinskiy
+122 U Fellwar Stone @John Avon
+132 R Shivan Reef @Sandfall Interactive ${"flavorName": "Frozen Hearts"}
+134 U Generous Gift @Kev Walker
+161 C Growth Spiral @Seb McKinnon
+180 R Llanowar Wastes @Sandfall Interactive ${"flavorName": "Lost Woods"}
+194 M Mana Drain @Raymond Swanland
+208 U Mortify @Nils Hamm
+221 U Path to Exile @Raf Sarmento
+228 U Putrefy @Clint Cearley
+251 R Sulfurous Springs @Sandfall Interactive ${"flavorName": "Sinister Cave"}
+254 R Yavimaya Coast @Sandfall Interactive ${"flavorName": "Sky Island"}
+256 U Sol Ring @Piotr Dura
+265 U Swords to Plowshares @Nadia Hurianova
+266 U Talisman of Conviction @Lindsey Look
+267 U Talisman of Creativity @Lindsey Look
+268 U Talisman of Curiosity @Lindsey Look
+269 U Talisman of Dominance @Mike Dringenberg
+270 U Talisman of Hierarchy @Lindsey Look
+271 U Talisman of Impulse @Mike Dringenberg
+272 U Talisman of Indulgence @Mike Dringenberg
+273 U Talisman of Progress @Mike Dringenberg
+274 U Talisman of Resilience @Lindsey Look
+275 U Talisman of Unity @Mike Dringenberg
+285 R Brushland @Sandfall Interactive ${"flavorName": "The Meadows"}
+295 C Thought Vessel @rk post
+307 R Void Rend @Justyna Dura
+311 R Adarkar Wastes @Sandfall Interactive ${"flavorName": "White Sands"}

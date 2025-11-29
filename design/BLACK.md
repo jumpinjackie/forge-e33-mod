@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 27/11/2025 12:02:16 pm
+> Last generated: 29/11/2025 4:49:48 pm
 
 ## Chapelier
 
@@ -38,6 +38,14 @@ I have my pets in place "She who controls chroma, controls the Canvas." I can't 
 ### Design Notes
 
  - A Nevron tutor to support Nevron tribal strategies
+
+## Damn
+
+> This card is a reprint
+[Scryfall](https://scryfall.com/search?q=Damn)
+### Notes
+
+ - Obligatory Commander spot removal / board wipe.
 
 ## Depression
 
@@ -99,6 +107,14 @@ Oh, I hear a big Nev coming, they count for double. If I kill it quick I can boo
 
  - In the game, Expedition 62 made Nevron hunting into a game, with members constantly trying to outscore each other in Nevron kills.
  - Mechanically translated to a creature with creature killing abilities and standard Expeditioner death bonus.
+
+## Feed the Swarm
+
+> This card is a reprint
+[Scryfall](https://scryfall.com/search?q=Feed the Swarm)
+### Notes
+
+ - Obligatory Commander spot removal.
 
 ## Here's Your Card!
 

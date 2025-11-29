@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 27/11/2025 12:02:16 pm
+> Last generated: 29/11/2025 4:49:48 pm
 
 ## An Advantage!
 
@@ -111,6 +111,14 @@ Splice onto Expeditioner Instant or Sorcery {U} (As you cast an Expeditioner Ins
  - I am hoping that Forge's rule handling around splice is flexible enough to allow for this to work. Otherwise it's back to the drawing board.
     - 23/09/2025: It seems to work!
 
+## Counterspell
+
+> This card is a reprint
+[Scryfall](https://scryfall.com/search?q=Counterspell)
+### Notes
+
+ - Easy on-flavor reprint.
+
 ## Crippling Tsunami
 
 ```
@@ -191,6 +199,15 @@ No, no, you are HIS creations, not mine. You will not take this Canvas from me!
 
  - No in-game basis, but Grief is such a central theme of Expedition 33 that having a cycle dedicated to the 5 stages is a total flavor nuke.
  - Denial is the first stage. Just on name-basis alone this is clearly a Mystic Snake like creature.
+
+## Dive Down
+
+> This card is a reprint
+[Scryfall](https://scryfall.com/search?q=Dive Down)
+### Notes
+
+ - In the game, Esquie can start diving if you find Urrie.
+ - Flavorful reprint of a useful combat trick.
 
 ## Eternal Ice
 
@@ -474,6 +491,14 @@ When this creature dies, target opponent creates a Lumina token. (It's an artifa
  - Currently a vanilla placeholder Nevron. Abilities TBD
  - 13/10/2025: Removed Devoid.
  - 15/11/2025: Added Flash to emphasize its speed.
+
+## Mana Drain
+
+> This card is a reprint
+[Scryfall](https://scryfall.com/search?q=Mana Drain)
+### Notes
+
+ - Obligatory Commander counter.
 
 ## Rip Apart Reality
 

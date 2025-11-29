@@ -1,6 +1,27 @@
 # Cards
 
-> Last generated: 27/11/2025 12:02:16 pm
+> Last generated: 29/11/2025 4:49:48 pm
+
+## A Rock for Francois
+
+```
+1
+Artifact - Rock
+{1}, {T}, Sacrifice this artifact: Search your library for a rock card and put it into your hand.
+{1}, Sacrifice this artifact: Draw a card.
+---
+Verso: We'll trade you. Urrie for this, uh... lovely portrait of you.
+Francois: Is that s'posed to be ME?!
+Esquie: I think we captured your essence beautifully.
+```
+
+[card implementation](../custom/cards/a/a_rock_for_francois.txt)
+
+### Design Notes
+
+ - In the game, Esquie carves a rock of Francois and Clea to trade for Urrie, which gives him the ability to dive.
+ - Another tutor piece to help assist in assembling the rock "Urzatron"
+ - Not legendary like the quartet because it's just an ordinary rock.
 
 ## Anti-Burn Picto
 
@@ -35,6 +56,14 @@ Sacrifice two Lumina tokens: Create a token copy of this equipment attached to t
 
  - In the game, Anti-Freeze grants immunity to freeze
  - Easy mechanical map to protection from blue.
+
+## Arcane Signet
+
+> This card is a reprint
+[Scryfall](https://scryfall.com/search?q=Arcane Signet)
+### Notes
+
+ - Obligatory mana rock in Commander
 
 ## Attack Lifesteal Picto
 
@@ -154,6 +183,22 @@ Luminous — {T}: Add one mana of any color. Activate this ability only if you c
 
  - This card has no in-game basis. Just an artifact to provide color fixing and some minor ramp if you hava Chroma tokens to spare.
  - 13/11/2025: Added Luminous bonus.
+
+## Chromatic Lantern
+
+> This card is a reprint
+[Scryfall](https://scryfall.com/search?q=Chromatic Lantern)
+### Notes
+
+ - Staple commander mana rock.
+
+## Commander's Sphere
+
+> This card is a reprint
+[Scryfall](https://scryfall.com/search?q=Commander's Sphere)
+### Notes
+
+ - Obligatory commander mana rock.
 
 ## Death Picto
 
@@ -337,6 +382,30 @@ Wanna plant it?
 
  - In the game, Expedition flags are save points scattered throughout the continent laid down by previous Expeditions.
  - Gone with an Expeditioner-focused variant of Patchwork Banner.
+
+## Expedition Map
+
+> This card is a reprint
+[Scryfall](https://scryfall.com/search?q=Expedition Map)
+### Notes
+
+ - Easy on-flavor reprint.
+
+## Explorer's Scope
+
+> This card is a reprint
+[Scryfall](https://scryfall.com/search?q=Explorer's Scope)
+### Notes
+
+ - Easy on-flavor reprint.
+
+## Fellwar Stone
+
+> This card is a reprint
+[Scryfall](https://scryfall.com/search?q=Fellwar Stone)
+### Notes
+
+ - Obligatory commander mana rock.
 
 ## Florrie
 
@@ -703,7 +772,7 @@ Artifact
 {T}, Sacrifice a Chroma token: Create a Lumina token.
 {T}, Sacrifice a Nevron: Create a Lumina token.
 ---
-It's about time you test it in real conditions.
+Let's see if your invention lives up to its reputation, shall we?
 - Lune
 ```
 
@@ -733,6 +802,15 @@ Someone lives here.
  - In the game, there are various doors scattered throughout the continent that warps you to various rooms in the Manor, unlocking some previously inaccessible rooms in the process.
  - This clearly mechanically maps to an artifact that can lock/unlock rooms ala. Keys to the House
  - Added a mana ability so it can at least function as a mana rock if there's no rooms to interact with
+
+## Mask of Memory
+
+> This card is a reprint
+[Scryfall](https://scryfall.com/search?q=Mask of Memory)
+### Notes
+
+ - Utility equipment for Commander.
+ - Chosen solely to be able to use this flavor text.
 
 ## Matthieu the Colossus
 
@@ -773,6 +851,15 @@ But remember, once you hit me, the battle's over, so make it count!
 
  - In the game, Ono-Puncho resides in the Gestral Village, you can challenge him a battle to win a prize. The gimmick is that you only have one shot to deal 9999 damage.
  - We've translated that gimmick to a bounce trigger when it's dealt damage (signifying end of battle). To kill it means to "make it count" and deal it lethal damage so that state-based effects will send it to the graveyard before the bounce trigger can save it.
+
+## Paint Cage (Ichor Wellspring)
+
+> This card is a nicknamed reprint of (Ichor Wellspring)
+[Scryfall](https://scryfall.com/search?q=Ichor Wellspring)
+### Notes
+
+ - In the game, a Paint Cage is something that can be "cracked open" for loot.
+ - Ichor Wellspring has similar looks and flavor, so it was chosen for this.
 
 ## Paint Spike
 
@@ -922,6 +1009,94 @@ Esquie! Look what I found.
  - In this set, Soarrie is 1 of 4 legendary "Rock" artifacts which will grant benefits to other cards if this or other members of the quartet are in play, just like Urza's Tower, Mine and Power Plant become more powerful when all of them are in play, I am trying to go for a similar outcome with this quartet.
     - Mechanically, Flying maps to ... Flying! (duh!)
 
+## Sol Ring
+
+> This card is a reprint
+[Scryfall](https://scryfall.com/search?q=Sol Ring)
+### Notes
+
+ - Obvious and obligatory commander staple
+
+## Talisman of Conviction
+
+> This card is a reprint
+[Scryfall](https://scryfall.com/search?q=Talisman of Conviction)
+### Notes
+
+ - Obligatory Commander mana rock.
+
+## Talisman of Creativity
+
+> This card is a reprint
+[Scryfall](https://scryfall.com/search?q=Talisman of Creativity)
+### Notes
+
+ - Obligatory Commander mana rock.
+
+## Talisman of Curiosity
+
+> This card is a reprint
+[Scryfall](https://scryfall.com/search?q=Talisman of Curiosity)
+### Notes
+
+ - Obligatory Commander mana rock.
+
+## Talisman of Dominance
+
+> This card is a reprint
+[Scryfall](https://scryfall.com/search?q=Talisman of Dominance)
+### Notes
+
+ - Obligatory Commander mana rock.
+
+## Talisman of Hierarchy
+
+> This card is a reprint
+[Scryfall](https://scryfall.com/search?q=Talisman of Hierarchy)
+### Notes
+
+ - Obligatory Commander mana rock.
+
+## Talisman of Impulse
+
+> This card is a reprint
+[Scryfall](https://scryfall.com/search?q=Talisman of Impulse)
+### Notes
+
+ - Obligatory Commander mana rock.
+
+## Talisman of Indulgence
+
+> This card is a reprint
+[Scryfall](https://scryfall.com/search?q=Talisman of Indulgence)
+### Notes
+
+ - Obligatory Commander mana rock.
+
+## Talisman of Progress
+
+> This card is a reprint
+[Scryfall](https://scryfall.com/search?q=Talisman of Progress)
+### Notes
+
+ - Obligatory Commander mana rock.
+
+## Talisman of Resilience
+
+> This card is a reprint
+[Scryfall](https://scryfall.com/search?q=Talisman of Resilience)
+### Notes
+
+ - Obligatory Commander mana rock.
+
+## Talisman of Unity
+
+> This card is a reprint
+[Scryfall](https://scryfall.com/search?q=Talisman of Unity)
+### Notes
+
+ - Obligatory Commander mana rock.
+
 ## The World Canvas
 
 ```
@@ -942,6 +1117,14 @@ Verso's childhood canvas. Where we used to play ... Where he painted Esquie and 
     - The "black lotus" mana ability has spending restrictions to keep in flavor. You can only spend this mana on things that actually live in this canvas.
     - The destruction of this canvas signals the erasure of everything inside it. Mass exiling everything by expansion filter nicely symbolizes the finality of such an act.
  - 13/11/2025: Replaced flavor text with a better descriptive one.
+
+## Thought Vessel
+
+> This card is a reprint
+[Scryfall](https://scryfall.com/search?q=Thought Vessel)
+### Notes
+
+ - Obligatory Commander mana rock.
 
 ## Urrie
 

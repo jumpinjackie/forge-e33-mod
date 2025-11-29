@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 27/11/2025 12:02:16 pm
+> Last generated: 29/11/2025 4:49:48 pm
 
 ## Abbest
 
@@ -21,6 +21,14 @@ When this creature dies, target opponent creates a Lumina token. (It's an artifa
  - 23/09/2025: Changed casting cost from 1G to G and PT from 2/2 to 1/2 to make it unique from the (now fully green) Lancelier
  - 13/10/2025: Removed Devoid.
  - 23/10/2025: Promoted to mana dork.
+
+## All Suns' Dawn
+
+> This card is a reprint
+[Scryfall](https://scryfall.com/search?q=All Suns' Dawn)
+### Notes
+
+ - Thematically on-point reprint. Dawn signifying tomorrow. Tomorrow comes.
 
 ## Bargaining
 
@@ -62,6 +70,22 @@ When this creature dies, target opponent creates a Lumina token. (It's an artifa
 
  - Vanilla Nevron. Could not determine approporiate color/elemental affinity so it's colorless.
  - 12/11/2025: Made it green and gave it a shield counter to emphasize its tough armored exterior.
+
+## Cultivate
+
+> This card is a reprint
+[Scryfall](https://scryfall.com/search?q=Cultivate)
+### Notes
+
+ - Obligatory commander staple.
+
+## Doubling Season
+
+> This card is a reprint
+[Scryfall](https://scryfall.com/search?q=Doubling Season)
+### Notes
+
+ - Commander staple.
 
 ## Expedition 00 Tracker
 
@@ -185,7 +209,7 @@ When this creature enters, you may search your library for a basic land card, pu
 Whenever this creature attacks, surveil 1.
 When this creature dies, create a Chroma token.
 ---
-I get it's not very satisfying making maps and prepping trails while people are dying, but this prep work will pay off in the long run.
+It may not be glamorous, but truly essential work rarely is. Doesn’t make it any less important.
 - Fleur, Expedition 69
 
 2/2
@@ -197,6 +221,22 @@ I get it's not very satisfying making maps and prepping trails while people are 
 
  - In the game, Expedition 69 were responsible for most of the grappling points installed throughout the continent. Obviously then, members of this expeditions have a strong exploration theme.
  - For this card, I've gone with a land ramp effect with a surveil attack trigger to sell the Surveyor > Surveiling.
+
+## Explore
+
+> This card is a reprint
+[Scryfall](https://scryfall.com/search?q=Explore)
+### Notes
+
+ - Easy on-flavor reprint.
+
+## Farseek
+
+> This card is a reprint
+[Scryfall](https://scryfall.com/search?q=Farseek)
+### Notes
+
+ - Easy on-flavor reprint.
 
 ## Gestral Climbing Challenge
 

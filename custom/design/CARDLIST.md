@@ -34,8 +34,10 @@ From this list, card designs are spawned from it, which will eventually form the
 %_IMPL_LEGEND_%
 
 ```
+A Rock for Francois
 A Storm is Coming
 Abbest
+Abbest Cave
 Aberration
 Acceptance
 Alicia Dessendre, Silenced by Fire
@@ -85,6 +87,7 @@ Clair Obscur
 Clea Dessendre, Seeking Vengeance
 Clea's Chromatic Mastery
 Closure
+Crimson Forest
 Crippling Tsunami
 Cruler
 Crushing Cavern
@@ -92,6 +95,7 @@ Crustal Crush
 Danseuse
 Danseuse Teacher
 Dark Shores
+Dark Gestral Arena
 Death Picto
 Degagement
 Demineur
@@ -104,8 +108,10 @@ Dualliste
 Earth Rising
 Egide
 Endless Tower
+Endless Night Sanctuary
 Energy Tint
 Entering the Canvas
+Esoteric Ruins
 Esquie, Friend of Verso
 Esquie's Magic Mushrooms
 Esquie's Nest
@@ -158,6 +164,7 @@ Fleuret Fury
 Floating Cemetery
 Florrie
 Flying Casino
+Flying Manor
 Flying Waters
 For Those Who Come After
 Forgotten Battlefield
@@ -218,6 +225,7 @@ Lightning Dance
 Limonsol, Matchmaker
 Lorieniso, Gestral Musician
 Lost Gestral
+Lost Woods
 Lumiere Aquafarm
 Lumiere Assault
 Lumiere Flower Stand
@@ -260,6 +268,7 @@ Painted Alicia, Eternally Suffering
 Painted Clea, the Mistress
 Painted Love
 Painted Renoir, Aline's Enforcer
+Painting Workshop
 Payback
 Percee
 Perfect Dodge
@@ -272,6 +281,7 @@ Rally the Expeditioners
 Ranger Sakapatate
 Reaper Cultist
 Recoat
+Red Woods
 Renoir's Creation
 Renoir's Drafts
 Renoir's Will
@@ -287,16 +297,18 @@ Search // Rescue
 Seething Boucheclier
 Serpenphare
 Shot Picto
-Simon, Consort of Clea
-Simon, The Divergent Star
+Simon, Consort of Clea // Simon, The Divergent Star
 Sinister Cave
 Sirene's Coliseum
 Sky Break
+Sky Island
 Soarrie
 Sorrowful Chapelier
 Sprong
 Stalact
 Stendhal
+Stone Quarry
+Stone Wave Cliffs
 Sunless Cliffs
 Sunniso, Gestral Bouncer
 Swift Counter
@@ -310,7 +322,9 @@ The Fracture
 The Greatest Expedition in History
 The Hauler
 The Indigo Tree
+The Last Stand of Expedition 33
 The Mask Keeper
+The Meadows
 The Monolith
 The Monolith Interior
 The Paintress // Aline Dessendre, Stricken by Grief
@@ -346,6 +360,7 @@ Void Meteors
 Volester
 Whee // Whoo
 When One Falls // We Continue
+White Sands
 Yellow Harvest
 ```
 
@@ -386,16 +401,6 @@ No ideas yet.
 > Monoco: Normally I enjoy a little destruction, but this doesn't feel right
 
 No ideas yet.
-
-> Act 2: Mask-Keeper battle
-> Sciel: This mask can't hurt me. Because it is me.
-
-Reprint of Mask of Memory?
-
-> Act 2: Camp
-> Verso: My beautiful sister doesn't need this ugly mask.
-
-Reprint of Unmask?
 
 > Act 2: Camp
 > Renoir: You embrace her, yet you are condeming her to die.
@@ -448,11 +453,6 @@ Something to do with the "suffocation".
 > Renoir: Stop this insanity. It's time to go home.
 
 No ideas yet.
-
-> Act 3: Renoir final boss battle post-script
-> Renoir: We painted hundreds of Canvas worlds, pushing the very boundaries of creation. And she never let me forget that every day we spend here has a price.
-
-Sounds like some black enchantment that trades life for resources
 
 > Act 3: Renoir final boss battle post-script
 > Renoir: I'll keep the light on for you. I hope you find peace. Hold on to each other.

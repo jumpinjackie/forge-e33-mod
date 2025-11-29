@@ -1,21 +1,12 @@
 # Cards
 
-> Last generated: 27/11/2025 12:02:16 pm
+> Last generated: 29/11/2025 4:49:48 pm
 
 ## Anger
 
-```
-3R
-
-
----
-Verso: We only need to incapacitate him.
-Maelle: We'll find a way to kill him.
-```
-
-> This card is not yet implemented in Forge
-
-### Design Notes
+> This card is a reprint
+[Scryfall](https://scryfall.com/search?q=Anger)
+### Notes
 
  - No in-game basis, but Grief is such a central theme of Expedition 33 that having a cycle dedicated to the 5 stages is a total flavor nuke.
  - Since we've gone with a cycle of 5 stages and Anger's already taken, let's just reuse that reprint.
@@ -40,6 +31,14 @@ When this creature dies, you may have this creature deal 2 damage to target crea
  - Represented mechanically here as a simple shock-creature-on-death trigger.
  - 13/10/2025: Removed Devoid.
  - 21/10/2025: Added Gestral alliance cost reduction
+
+## Chaos Warp
+
+> This card is a reprint
+[Scryfall](https://scryfall.com/search?q=Chaos Warp)
+### Notes
+
+ - Obligatory spot removal in commander.
 
 ## Chromatic Inversion
 
@@ -72,6 +71,14 @@ Crustal Crush deals 5 damage to target creature or planeswalker.
 
  - In the game, this is one of Lune's skills.
  - Obviously a mountain/rock based attack so gone with Mine Collapse but with Expeditioner alignment and relaxed timing restrictions for the alt cost.
+
+## Deflecting Swat
+
+> This card is a reprint
+[Scryfall](https://scryfall.com/search?q=Deflecting Swat)
+### Notes
+
+ - Commander staple
 
 ## Earth Rising
 
@@ -116,6 +123,9 @@ This only truly ends if you destroy the canvas, and that means stopping the fina
 Kindred Instant - Expeditioner
 Target creature gains double strike until end of turn. (It deals both first-strike and regular combat damage.)
 Create a Lumina token. (It's an artifact with "{T}, Sacrifice this artifact: Scry 1.")
+---
+Lady luck smiled today!
+- Sciel
 ```
 
 [card implementation](../custom/cards/f/fortunes_fury.txt)
