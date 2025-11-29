@@ -1,5 +1,5 @@
 [Name]
-Sinister Cave
+Boat Graveyard
 [ManaCost]
 no cost
 [Types]
@@ -11,7 +11,7 @@ true
 [Rarity]
 R
 [NicknameFor]
-Sulfurous Springs
+Underground River
 [Artist]
 Sandfall Interactive
 [DesignNotes]

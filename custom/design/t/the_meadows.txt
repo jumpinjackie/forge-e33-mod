@@ -1,5 +1,5 @@
 [Name]
-Sinister Cave
+The Meadows
 [ManaCost]
 no cost
 [Types]
@@ -11,7 +11,7 @@ true
 [Rarity]
 R
 [NicknameFor]
-Sulfurous Springs
+Brushland
 [Artist]
 Sandfall Interactive
 [DesignNotes]

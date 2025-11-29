@@ -1,5 +1,5 @@
 [Name]
-Sinister Cave
+Sky Island
 [ManaCost]
 no cost
 [Types]
@@ -11,7 +11,7 @@ true
 [Rarity]
 R
 [NicknameFor]
-Sulfurous Springs
+Yavimaya Coast
 [Artist]
 Sandfall Interactive
 [DesignNotes]

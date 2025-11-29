@@ -1,5 +1,5 @@
 [Name]
-Sinister Cave
+Crimson Forest
 [ManaCost]
 no cost
 [Types]
@@ -11,7 +11,7 @@ true
 [Rarity]
 R
 [NicknameFor]
-Sulfurous Springs
+Karplusan Forest
 [Artist]
 Sandfall Interactive
 [DesignNotes]
