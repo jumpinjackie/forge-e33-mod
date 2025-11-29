@@ -4,5 +4,5 @@ Types:Land Cave
 R:Event$ Moved | ValidCard$ Card.Self | Destination$ Battlefield | ReplacementResult$ Updated | ReplaceWith$ ETBTapped | Description$ This land enters tapped.
 SVar:ETBTapped:DB$ Tap | Defined$ Self | ETB$ True
 A:AB$ Mana | Cost$ T | Produced$ C | SpellDescription$ Add {C}.
-A:AB$ Destroy | Cost$ 1 T Sac<1/CARDNAME> | ValidTgts$ Creature.attacking+withoutFlying | TgtPrompt$ Select target attacking creature without flying | SpellDescription$ Destroy target attacking creature without flying.
-Oracle:This land enters tapped.\n{T}: Add {C}.\n{1}, {T}, Sacrifice Crushing Cavern: Destroy target attacking creature without flying
+A:AB$ Destroy | Cost$ 2 T Sac<1/CARDNAME> | ValidTgts$ Creature.attacking+withoutFlying | TgtPrompt$ Select target attacking creature without flying | SpellDescription$ Destroy target attacking creature without flying.
+Oracle:This land enters tapped.\n{T}: Add {C}.\n{2}, {T}, Sacrifice Crushing Cavern: Destroy target attacking creature without flying

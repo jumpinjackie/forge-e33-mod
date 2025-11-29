@@ -12,7 +12,7 @@ Sandfall Interactive
 [Oracle]
 This land enters tapped.
 {T}: Add {C}.
-{1}, {T}, Sacrifice Crushing Cavern: Destroy target attacking creature without flying
+{2}, {T}, Sacrifice Crushing Cavern: Destroy target attacking creature without flying
 [FlavorText]
 If anyone finds this journal, do not enter this cave, the Nevron inside will crush you.
 - Cassandra, Expedition 45
@@ -20,7 +20,8 @@ If anyone finds this journal, do not enter this cave, the Nevron inside will cru
 R:Event$ Moved | ValidCard$ Card.Self | Destination$ Battlefield | ReplacementResult$ Updated | ReplaceWith$ ETBTapped | Description$ This land enters tapped.
 SVar:ETBTapped:DB$ Tap | Defined$ Self | ETB$ True
 A:AB$ Mana | Cost$ T | Produced$ C | SpellDescription$ Add {C}.
-A:AB$ Destroy | Cost$ 1 T Sac<1/CARDNAME> | ValidTgts$ Creature.attacking+withoutFlying | TgtPrompt$ Select target attacking creature without flying | SpellDescription$ Destroy target attacking creature without flying.
+A:AB$ Destroy | Cost$ 2 T Sac<1/CARDNAME> | ValidTgts$ Creature.attacking+withoutFlying | TgtPrompt$ Select target attacking creature without flying | SpellDescription$ Destroy target attacking creature without flying.
 [DesignNotes]
  - In the game the Crushing Cavern is a location where the player engages in a time-limited battle with the Giant Sapling. Failing to defeat the Giant Sapling results in a crushing defeat. The journal in this area recalls a previous failed attempt at defeating the Giant Sapling.
  - Mechanically represented as Pit Trap on a land. Comes into to play tapped to give any creature already on the battlefield at least one turn to get their shot in before they become the potential kill target.
+ - 29/11/2025: Increased activation cost from {1} to {2}
