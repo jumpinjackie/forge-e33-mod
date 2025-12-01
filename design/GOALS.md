@@ -22,7 +22,7 @@ It is envisioned that we have around 300 cards unique to this set with around 10
 
 To retain the ability to play unsleeved, Double-faced and Meld cards that would normally be printed on the backside of a given card will be printed on its own front face and will occupy one slot in the 612 card deck. When a given card will transform or meld, just substitute with the card representing the other side.
 
-## No new keywords. Emphasize "Horizonal design". Reuse and remix existing mechanics.
+## No new keywords. Emphasize Top-down design (flavor comes first). Reuse and remix existing mechanics.
 
 While a ready to print set is the final goal, our development and design of the set is through digital prototyping and playtesting through Forge. As such, we cannot introduce new keywords or intrinsic behaviours as that would require updating Forge's rule engine to support that.
 
