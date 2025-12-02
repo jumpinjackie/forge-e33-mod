@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 29/11/2025 4:49:48 pm
+> Last generated: 2/12/2025 4:52:07 pm
 
 ## A Storm is Coming
 
@@ -726,8 +726,8 @@ Gold Rank - As long as there are five or more quest counters on this enchantment
 (W/R)
 Enchantment
 Whenever a Human you control enters, you may put a quest counter on this enchantment.
-As long as this enchantment as two or more counters, creatures you control gain vigilance.
-As long as this enchantment as three or more counters, creatures you control gain prowess.
+As long as this enchantment as two or more quest counters, creatures you control gain vigilance.
+As long as this enchantment as three or more quest counters, creatures you control gain prowess.
 ---
 If I were a 2-year-old human, at what age would I gommage? ... You're probably right, I can't count anyway.
 ```
@@ -904,6 +904,30 @@ Exile target nonland permanent.
 
  - One of Maelle's quotes as she's about to gommage some sorry Nevron out of existence.
  - Painter bonus because this is a painter's power.
+
+## Lost // Found
+
+```
+Lost
+3U
+Instant
+Put target nonland permanent on the bottom of its owner’s library.
+
+Found
+W
+Instant
+Return target artifact card from your graveyard to your hand.
+
+Fuse (You may cast one or both halves of this card from your hand.)
+```
+
+[card implementation](../custom/cards/l/lost_found.txt)
+
+### Design Notes
+
+ - Design based solely on Esquie's quote in his Act 3 conversation with Sciel.
+ - Lost: Clearly a send back to library effect
+ - Found: An Argivian Find, but only targets artifacts (rocks)
 
 ## Lune, Charting a Path
 

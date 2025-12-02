@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 29/11/2025 4:49:48 pm
+> Last generated: 2/12/2025 4:52:07 pm
 
 ## Blade's Graveyard (Caves of Koilos)
 
@@ -72,7 +72,7 @@ As this land enters, you may reveal a Nevron card from your hand. If you don't, 
 {T}: Add {U} or {B}.
 {T}: Add {U}{B}. Spend this mana only to cast Nevron spells or activate abilities of Nevrons. This land doesn't untap during your next untap step.
 ---
-The starting point of Expedition 33, the ending point for most of them.
+The starting point of Expedition 33, the final destination for most of them.
 ```
 
 [card implementation](../custom/cards/d/dark_shores.txt)
@@ -236,8 +236,8 @@ Land
 {T}: Add {C}.
 {1}{R/G}, {T}: Target Gestral creature you control fights another target creature
 ---
-The tournament's starting soon. Please wait.
-- Gestral Warrior
+Gestral Announcer: Hey humans! We’re here to see some fighting. If you don’t wanna fight, we’ll come down and fight ourselves!
+Sciel: They’re expecting a bit of a show. Shall we?
 ```
 
 [card implementation](../custom/cards/g/gestral_arena.txt)

@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 29/11/2025 4:49:48 pm
+> Last generated: 2/12/2025 4:52:07 pm
 
 ## Abbest
 
@@ -244,8 +244,8 @@ It may not be glamorous, but truly essential work rarely is. Doesn’t make it a
 G
 Enchantment
 Whenever a creature you control becomes tapped, you may put a quest counter on this Enchantment.
-As long as there are two or more counters on this enchantment. Creatures you control have reach.
-As long as there are four or more counters on this enchantment. You may play an additional land on each of your turns.
+As long as there are two or more quest counters on this enchantment. Creatures you control have reach.
+As long as there are four or more quest counters on this enchantment. You may play an additional land on each of your turns.
 ---
 I've been trying to overcome this gestral's challenge for months now but it seems even more of a challenge than defeating the Paintress. I guess I'll never see the Gestral's grand prize. That's my only regret in life.
 - Laure, Expedition 37

@@ -1,17 +1,17 @@
 # Cards
 
-> Last generated: 29/11/2025 4:49:48 pm
+> Last generated: 2/12/2025 4:52:07 pm
 
 ## A Rock for Francois
 
 ```
 1
 Artifact - Rock
-{1}, {T}, Sacrifice this artifact: Search your library for a rock card and put it into your hand.
+{1}, {T}, Sacrifice this artifact: Search your library for a Rock card and put it into your hand.
 {1}, Sacrifice this artifact: Draw a card.
 ---
-Verso: We'll trade you. Urrie for this, uh... lovely portrait of you.
-Francois: Is that s'posed to be ME?!
+Verso: We’ll trade you. Urrie for this, uh... lovely portrait of you.
+Francois: Is that s’posed to be ME?!
 Esquie: I think we captured your essence beautifully.
 ```
 
@@ -305,6 +305,23 @@ Luminous — {T}: Add {C}{C}{C}. Activate this ability only if you control at le
  - Just a mana rock for this set.
  - Yes it may look dangerous to have a Grim Monolith with no downside, but you need some Lumina token investment first to take advantage, so there is some setup involved. The ideal turn 1 An Advantage!, turn 2 Energy Tint line is something I can accept as variance.
 
+## Esquie's Magic Mushrooms
+
+```
+1
+Artifact - Food
+{2}, {T}, Sacrifice this artifact: You gain 3 life.
+{2}, {T}, Sacrifice this artifact: Target creature deals 3 damage to itself.
+---
+Damn you Esquie and your stupid mushrooms. Your friend ate them with no problem but it also seems your friend was immortal! That’s the sort of extremely relevant detail that you should mention at the start. Ugh, stop crying! You’re not the one about to die.
+- Marcel, Expedition 66
+```
+
+[card implementation](../custom/cards/e/esquies_magic_mushrooms.txt)
+
+### Design Notes
+
+
 ## Expedition 50 Ferris Wheel
 
 ```
@@ -334,6 +351,9 @@ Apparently that was where people went on dates, you know.
 Artifact - Expeditioner
 Send Backup! — When this artifact enters, reveal the top four cards of your library. Put all Expeditioner cards revealed this way into your hand and the rest on the bottom of your library in any order.
 {2}, Sacrifice this artifact: Draw a card.
+---
+We radioed our first report to Gamma. The line is good.
+- Ben, 64 Epsilon
 ```
 
 [card implementation](../custom/cards/e/expedition_64_radio.txt)

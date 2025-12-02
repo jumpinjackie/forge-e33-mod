@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 29/11/2025 4:49:48 pm
+> Last generated: 2/12/2025 4:52:07 pm
 
 ## Chapelier
 
@@ -271,7 +271,7 @@ Destroy target creature.
 Creature - Nevron
 Trample
 Lifelink
-This creature's power and toughness are each equal to 3 plus the number of Expeditioner creatures in all graveyards.
+This creature's power and toughness are each equal to 3 plus the number of Expeditioner creature cards in all graveyards.
 When this creature dies, target opponent creates a Lumina token. (It's an artifact with "{T}, Sacrifice this artifact: Scry 1.")
 
 3+*/3+*

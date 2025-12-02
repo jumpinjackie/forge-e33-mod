@@ -29,7 +29,7 @@ From this list, card designs are spawned from it, which will eventually form the
 
 ## Card Name List
 
-Cards implemented: 312/328
+Cards implemented: 314/328
 
 [x] - Card is implemented or in development, [ ] - Card is not implemented
 
@@ -113,7 +113,7 @@ Cards implemented: 312/328
 [x] Entering the Canvas
 [ ] Esoteric Ruins
 [x] Esquie, Friend of Verso
-[ ] Esquie's Magic Mushrooms
+[x] Esquie's Magic Mushrooms
 [x] Esquie's Nest
 [x] Eternal Ice
 [ ] Eveque

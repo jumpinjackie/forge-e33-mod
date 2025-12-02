@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 29/11/2025 4:49:48 pm
+> Last generated: 2/12/2025 4:52:07 pm
 
 ## An Advantage!
 
@@ -255,7 +255,10 @@ They were on a clean glide to the Monolith when they flew into the some sort of 
 Artifact - Expeditioner Vehicle
 Islandwalk.
 Whenever this deals combat damage to a player or planeswalker, draw a card.
-Crew 2 (Tap any number of creatures you control with total power 2 or more: This Vehicle becomes an artifact creature until end of turn.)
+Crew 2
+---
+The Paintress must be laughing. Diverting the resources of the entire Engineering and Defence divisions to construct those subs.
+- Sabine, Expedition 43
 
 2/3
 ```
@@ -294,7 +297,7 @@ Affinity for Clea Planeswalkers.
 Defender.
 The strongest ice attack ever — At the beginning of your upkeep, Francois deals 4 damage to target creature an opponent controls. Tap that creature and put a stun counter on it.
 ---
-Who dares enter my lair?!
+A ROCK? I am NOT a rock, do you have rocks for eyes? You certainly have rocks for BRAINS. I am clearly a TURTLE.
 
 1/6
 ```
@@ -503,10 +506,10 @@ When this creature dies, target opponent creates a Lumina token. (It's an artifa
 ## Rip Apart Reality
 
 ```
-3U
+2U
 Instant - Gradient
-This spell costs {2} less to cast if you control a painter.
-The owner of target permanent puts it on the top or bottom of their library.
+Return up to one target creature to its owner's hand. If you control a painter, instead return up to two target creatures to their owner's hand.
+Draw a card.
 ```
 
 [card implementation](../custom/cards/r/rip_apart_reality.txt)
@@ -516,6 +519,7 @@ The owner of target permanent puts it on the top or bottom of their library.
  - This is one of the Paintress' moves in the boss fight with her.
  - May or may not have any mechanical relation. I needed a soft-removal spell for blue in this slot and the name was a good enough match for such an effect.
  - 13/10/2025: Removed Devoid.
+ - 2/12/2025: Converted to a Repulse with a painter's bonus of an additional target. The "up to one target creature" wording on the base ability is to facilitate simpler card implementation in forge.
 
 ## Sky Break
 
