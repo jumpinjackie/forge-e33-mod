@@ -1,7 +1,7 @@
 [Name]
 Rip Apart Reality
 [ManaCost]
-3
+2
 U
 [Types]
 Instant
@@ -11,12 +11,15 @@ C
 [Artist]
 Sandfall Interactive
 [Oracle]
-This spell costs {2} less to cast if you control a painter.
-The owner of target permanent puts it on the top or bottom of their library.
+Return up to one target creature to its owner's hand. If you control a painter, instead return up to two target creatures to their owner's hand.
+Draw a card.
 [ForgeScript]
-S:Mode$ ReduceCost | ValidCard$ Card.Self | Type$ Spell | Amount$ 2 | EffectZone$ All | IsPresent$ Painter.YouCtrl | Description$ This spell costs {2} less to cast if you control a painter.
-A:SP$ ChangeZone | ValidTgts$ Permanent | TgtPrompt$ Select target permanent | AlternativeDecider$ TargetedOwner | Origin$ Battlefield | Destination$ Library | DestinationAlternative$ Library | LibraryPositionAlternative$ -1 | StackDescription$ {p:TargetedOwner} puts {c:Targeted} on the top or bottom of their library. | SpellDescription$ The owner of target permanent puts it on the top or bottom of their library.
+A:SP$ ChangeZone | ValidTgts$ Creature | TgtPrompt$ Select target creature | TargetMin$ 0 | TargetMax$ X | Origin$ Battlefield | Destination$ Hand | SubAbility$ DBDraw | SpellDescription$ Return up to one target creature to its owner's hand. If you control a painter, instead return up to two target creatures to their owner's hand and draw a card.
+SVar:DBDraw:DB$ Draw | DrawNum$ 1
+SVar:PainterTotal:Count$Valid Painter.YouCtrl
+SVar:X:Count$Compare PainterTotal GE1.2.1
 [DesignNotes]
  - This is one of the Paintress' moves in the boss fight with her.
  - May or may not have any mechanical relation. I needed a soft-removal spell for blue in this slot and the name was a good enough match for such an effect.
  - 13/10/2025: Removed Devoid.
+ - 2/12/2025: Converted to a Repulse with a painter's bonus of an additional target. The "up to one target creature" wording on the base ability is to facilitate simpler card implementation in forge.

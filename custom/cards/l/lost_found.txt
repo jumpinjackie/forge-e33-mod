@@ -1,0 +1,15 @@
+Name:Lost
+ManaCost:3 U
+Types:Instant
+K:Fuse
+AlternateMode:Split
+A:SP$ ChangeZone | ValidTgts$ Permanent.nonLand | TgtPrompt$ Select target nonland permanent | Origin$ Battlefield | Destination$ Library | LibraryPosition$ -1 | SpellDescription$ Put target nonland permanent on the bottom of it's owner's library.
+Oracle:Put target nonland permanent on the bottom of its owner’s library.\nFuse (You may cast one or both halves of this card from your hand.)
+
+ALTERNATE
+
+Name:Found
+ManaCost:W
+Types:Instant
+A:SP$ ChangeZone | Origin$ Graveyard | Destination$ Hand | TgtPrompt$ Choose target artifact card in your graveyard | ValidTgts$ Artifact.YouCtrl | SpellDescription$ Return target artifact card from your graveyard to your hand.
+Oracle:Return target artifact card from your graveyard to your hand.

@@ -1,0 +1,39 @@
+[Name]
+Lost
+[ManaCost]
+3
+U
+[Types]
+Instant
+[Rarity]
+C
+[Artist]
+Sandfall Interactive
+[ArtNotes]
+Lost half: The Expedition 00 team conducting searches for any survivors.
+Found half: An Expedition 00 member is trying to pull a surivior out of a hole.
+[Oracle]
+Put target nonland permanent on the bottom of its owner’s library.
+[FlavorText]
+Mmm. Yeah. I get sad too, when I lose my stones.
+[ForgeScript]
+K:Fuse
+AlternateMode:Split
+A:SP$ ChangeZone | ValidTgts$ Permanent.nonLand | TgtPrompt$ Select target nonland permanent | Origin$ Battlefield | Destination$ Library | LibraryPosition$ -1 | SpellDescription$ Put target nonland permanent on the bottom of it's owner's library.
+ALTERNATE:FUSE
+[Name]
+Found
+[ManaCost]
+W
+[Types]
+Instant
+[Oracle]
+Return target artifact card from your graveyard to your hand.
+[FlavorText]
+But I always find them again. You will find them again too.
+[ForgeScript]
+A:SP$ ChangeZone | Origin$ Graveyard | Destination$ Hand | TgtPrompt$ Choose target artifact card in your graveyard | ValidTgts$ Artifact.YouCtrl | SpellDescription$ Return target artifact card from your graveyard to your hand.
+[DesignNotes]
+ - Design based solely on Esquie's quote in his Act 3 conversation with Sciel.
+ - Lost: Clearly a send back to library effect
+ - Found: An Argivian Find, but only targets artifacts (rocks)
