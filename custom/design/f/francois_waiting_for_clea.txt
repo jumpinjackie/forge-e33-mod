@@ -22,7 +22,7 @@ The strongest ice attack ever — At the beginning of your upkeep, Francois deal
 [AbilityWords]
 The strongest ice attack ever
 [FlavorText]
-Who dares enter my lair?!
+A ROCK? I am NOT a rock, do you have rocks for eyes? You certainly have rocks for BRAINS. I am clearly a TURTLE.
 [ForgeScript]
 K:Affinity:Planeswalker.Clea
 K:Defender

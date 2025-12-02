@@ -3,7 +3,7 @@ Mask of Memory
 [ManaCost]
 2
 [Types]
-Artifact
+Artifact — Equipment
 [IsReprint]
 true
 [Rarity]

@@ -4,7 +4,6 @@ Expedition Map
 1
 [Types]
 Artifact
-Equipment
 [IsReprint]
 true
 [Rarity]

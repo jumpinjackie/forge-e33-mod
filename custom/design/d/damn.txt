@@ -8,7 +8,7 @@ true
 [IsCommander]
 true
 [Rarity]
-U
+R
 [Artist]
 Lucas Graciano
 [DesignNotes]

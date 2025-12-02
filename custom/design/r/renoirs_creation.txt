@@ -14,7 +14,7 @@ U
 [Oracle]
 Trample
 Lifelink
-~'s power and toughness are each equal to 3 plus the number of Expeditioner creatures in all graveyards.
+~'s power and toughness are each equal to 3 plus the number of Expeditioner creature cards in all graveyards.
 $NEVRON_DEATH_ABILITY_TEXT
 [ForgeScript]
 K:Trample

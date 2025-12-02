@@ -16,7 +16,10 @@ Sandfall Interactive
 [Oracle]
 Islandwalk.
 Whenever this deals combat damage to a player or planeswalker, draw a card.
-Crew 2 (Tap any number of creatures you control with total power 2 or more: This Vehicle becomes an artifact creature until end of turn.)
+Crew 2
+[FlavorText]
+The Paintress must be laughing. Diverting the resources of the entire Engineering and Defence divisions to construct those subs.
+- Sabine, Expedition 43
 [ForgeScript]
 K:Islandwalk
 T:Mode$ DamageDone | ValidSource$ Card.Self | ValidTarget$ Player,Planeswalker | CombatDamage$ True | Execute$ TrigDraw | TriggerDescription$ Whenever CARDNAME deals combat damage to a player or planeswalker, draw a card.

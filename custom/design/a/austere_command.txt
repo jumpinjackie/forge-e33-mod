@@ -9,7 +9,7 @@ true
 [IsCommander]
 true
 [Rarity]
-C
+R
 [Artist]
 rk post
 [DesignNotes]

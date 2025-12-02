@@ -13,7 +13,7 @@ As this land enters, you may reveal a Nevron card from your hand. If you don't, 
 {T}: Add {U} or {B}.
 {T}: Add {U}{B}. Spend this mana only to cast Nevron spells or activate abilities of Nevrons. This land doesn't untap during your next untap step.
 [FlavorText]
-The starting point of Expedition 33, the ending point for most of them.
+The starting point of Expedition 33, the final destination for most of them.
 [ForgeScript]
 A:AB$ Mana | Cost$ T | Produced$ Combo U B | SpellDescription$ Add {U} or {B}.
 A:AB$ Mana | Cost$ T | Produced$ U B | RestrictValid$ Spell.Nevron,Activated.Nevron+inZoneBattlefield | SpellDescription$ Add {U}{B}. Spend this mana only to cast Nevron spells or activate abilities of Nevrons. | SubAbility$ DBStayTapped
