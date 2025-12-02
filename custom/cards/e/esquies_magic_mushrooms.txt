@@ -1,0 +1,6 @@
+Name:Esquie's Magic Mushrooms
+ManaCost:1
+Types:Artifact Food
+A:AB$ GainLife | Cost$ 2 T Sac<1/CARDNAME> | LifeAmount$ 3 | SpellDescription$ You gain 3 life.
+A:AB$ DealDamage | Cost$ 2 T Sac<1/CARDNAME> | ValidTgts$ Creature | TgtPrompt$ Select target creature | DamageSource$ Targeted | NumDmg$ 3 | SpellDescription$ Target creature deals 3 damage to itself.
+Oracle:{2}, {T}, Sacrifice this artifact: You gain 3 life.\n{2}, {T}, Sacrifice this artifact: Target creature deals 3 damage to itself.
