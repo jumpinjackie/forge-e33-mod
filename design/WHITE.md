@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 2/12/2025 4:52:07 pm
+> Last generated: 2/12/2025 5:12:27 pm
 
 ## Acceptance
 
@@ -164,14 +164,6 @@ Your time left in this life is limited, why not make it count for something?
 ### Notes
 
  - Obligatory Commander board wipe.
-
-## Generous Gift
-
-> This card is a reprint
-[Scryfall](https://scryfall.com/search?q=Generous Gift)
-### Notes
-
- - Obligatory spot removal in commander.
 
 ## Healing Light
 
