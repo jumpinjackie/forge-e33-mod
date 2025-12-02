@@ -3,4 +3,4 @@ ManaCost:1
 Types:Artifact Rock
 A:AB$ ChangeZone | Cost$ 1 T Sac<1/CARDNAME> | Origin$ Library | Destination$ Hand | ChangeType$ Rock | ChangeNum$ 1 | SpellDescription$ Search your library for a rock card and put it into your hand.
 A:AB$ Draw | Cost$ 1 Sac<1/CARDNAME> | NumCards$ 1 | SpellDescription$ Draw a card.
-Oracle:{1}, {T}, Sacrifice this artifact: Search your library for a rock card and put it into your hand.\n{1}, Sacrifice this artifact: Draw a card.
+Oracle:{1}, {T}, Sacrifice this artifact: Search your library for a Rock card and put it into your hand.\n{1}, Sacrifice this artifact: Draw a card.

@@ -3,7 +3,8 @@ Painted Bluffs
 [ManaCost]
 no cost
 [Types]
-Land — Desert
+Land
+Desert
 [IsReprint]
 true
 [Rarity]
