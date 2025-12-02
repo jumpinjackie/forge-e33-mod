@@ -1386,9 +1386,18 @@ public class CardConjurerValidateCommand : BaseCommand
                 continue;
             }
 
+            // Nickname cards have a specific name format
+            var findName = cardName;
+            bool isNicknamed = false;
+            if (design.NicknameFor is not null)
+            {
+                findName = $"{design.NicknameFor} ({cardName})";
+                isNicknamed = true;
+            }
+
             // Find matching CardConjurer design
             var ccDesign = conf.RootElement.EnumerateArray()
-                .FirstOrDefault(el => NormalizeToAscii(el.GetProperty("key").GetString()) == cardName);
+                .FirstOrDefault(el => NormalizeToAscii(el.GetProperty("key").GetString()) == findName);
 
             if (ccDesign.ValueKind == System.Text.Json.JsonValueKind.Undefined)
             {
@@ -1408,7 +1417,8 @@ public class CardConjurerValidateCommand : BaseCommand
             }
 
             // Check mana cost
-            if (design.FrontFull?.ManaCost != null &&
+            if (!isNicknamed &&
+                design.FrontFull?.ManaCost != null &&
                 text.TryGetProperty("mana", out var manaObj) &&
                 manaObj.TryGetProperty("text", out var manaText))
             {
@@ -1428,7 +1438,8 @@ public class CardConjurerValidateCommand : BaseCommand
             }
 
             // Check title
-            if (text.TryGetProperty("title", out var titleObj) &&
+            if (!isNicknamed &&
+                text.TryGetProperty("title", out var titleObj) &&
                 titleObj.TryGetProperty("text", out var titleText))
             {
                 var ccTitle = titleText.GetString();
@@ -1445,7 +1456,8 @@ public class CardConjurerValidateCommand : BaseCommand
             }
 
             // Check type line
-            if (design.FrontFull?.TypeLine != null &&
+            if (!isNicknamed &&
+                design.FrontFull?.TypeLine != null &&
                 text.TryGetProperty("type", out var typeObj) &&
                 typeObj.TryGetProperty("text", out var typeText))
             {
@@ -1538,7 +1550,8 @@ public class CardConjurerValidateCommand : BaseCommand
             }
 
             // Check rules text
-            if (design.FrontFull?.Oracle != null &&
+            if (!isNicknamed &&
+                design.FrontFull?.Oracle != null &&
                 text.TryGetProperty("rules", out var rulesObj) &&
                 rulesObj.TryGetProperty("text", out var rulesText))
             {
@@ -1558,7 +1571,8 @@ public class CardConjurerValidateCommand : BaseCommand
             }
 
             // Check P/T
-            if (design.FrontFull?.PT != null &&
+            if (!isNicknamed &&
+                design.FrontFull?.PT != null &&
                 text.TryGetProperty("pt", out var ptObj) &&
                 ptObj.TryGetProperty("text", out var ptText))
             {
