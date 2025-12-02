@@ -1464,7 +1464,8 @@ public class CardConjurerValidateCommand : BaseCommand
 
             // Check rarity / set symbol source
             // .data.setSymbolSource in CardConjurer should correspond to the filename
-            // https://cardconjurer.app/img/setSymbols/official/pz1-$RARITY.svg
+            // Regular Set: https://cardconjurer.app/img/setSymbols/official/pz1-$RARITY.svg
+            // Commander: https://cardconjurer.app/img/setSymbols/official/cmd-$RARITY.svg
             // Also check that design.Rarity matches .data.infoRarity in CardConjurer config
             if (data.TryGetProperty("infoRarity", out var infoRarityObj) && infoRarityObj.ValueKind == System.Text.Json.JsonValueKind.String)
             {
@@ -1511,7 +1512,7 @@ public class CardConjurerValidateCommand : BaseCommand
                 {
                     if (!string.IsNullOrWhiteSpace(rarityCode))
                     {
-                        var filename = $"pz1-{rarityCode}.svg";
+                        var filename = design.IsCommander ? $"cmd-{rarityCode}.svg" : $"pz1-{rarityCode}.svg";
                         var constructedUrl = $"https://cardconjurer.app/img/setSymbols/official/{filename}";
 
                         var src = (setSymbolSource ?? "").Trim();
