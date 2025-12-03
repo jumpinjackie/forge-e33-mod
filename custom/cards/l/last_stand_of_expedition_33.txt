@@ -1,0 +1,13 @@
+Name:Last Stand of Expedition 33
+ManaCost:W U B R G
+Types:Kindred Sorcery Expeditioner
+A:SP$ Token | TokenAmount$ 1 | TokenOwner$ You | TokenScript$ c_a_chroma | TokenNum$ X | SubAbility$ DBChroma | SpellDescription$ Domain — Create a Chroma token for each basic land type among lands you control.
+SVar:DBChroma:DB$ Token | TokenAmount$ 1 | TokenOwner$ You | TokenScript$ c_a_lumina | TokenNum$ X | SubAbility$ DBDrain | SpellDescription$ Domain — Create a Lumina token for each basic land type among lands you control.
+SVar:DBDrain:DB$ LoseLife | ValidTgts$ Opponent | LifeAmount$ X | SubAbility$ DBGainLife | SpellDescription$ Domain — Target opponent loses 1 life for each basic land type among lands you control.
+SVar:DBGainLife:DB$ GainLife | Defined$ You | LifeAmount$ X | SubAbility$ DBDamage | SpellDescription$ Domain — You gain 1 life for each basic land type among lands you control.
+SVar:DBDamage:DB$ DealDamage | ValidTgts$ Creature | TargetMin$ 0 | TargetMax$ 1 | NumDmg$ Y | SubAbility$ DBDraw | SpellDescription$ Domain — CARDNAME deals 2 damage to up to one target creature for each basic land type among lands you control.
+SVar:DBDraw:DB$ Draw | NumCards$ X | SubAbility$ DBDiscard | SpellDescription$ Domain — Draw a card for each basic land type among lands you control.
+SVar:DBDiscard:DB$ Discard | Defined$ You | NumCards$ 3 | Mode$ TgtChoose | SpellDescription$ Discard three cards.
+SVar:X:Count$Domain
+SVar:Y:Count$Domain/Times.2
+Oracle:Domain — \nCreate a Chroma token and a Lumina token for each basic land type among lands you control.\nTarget opponent loses 1 life and you gain 1 life for each basic land type among lands you control.\nLast Stand of Expedition 33 deals 2 damage to up to one target creature for each basic land type among lands you control.\nDraw a card for each basic land type among lands you control and discard three cards.
