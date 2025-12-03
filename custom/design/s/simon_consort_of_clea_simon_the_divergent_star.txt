@@ -51,7 +51,7 @@ Double Strike
 Simon enters with a foreboding counter.
 The dead are removed from the canvas — If a creature would be put into a graveyard from anywhere, exile it instead.
 Gathers Chroma — {B}{B}, {T}: Target creature has base toughness 1 until end of turn.
-The Expedition is removed from the canvas — {T}, Remove a foreboding counter: Choose a creature an opponent controls. Exile all creatures except for Simon and the chosen creature.
+The Expedition is removed from the canvas — {T}, Remove a foreboding counter from ~: Choose a creature an opponent controls. Exile all creatures except for Simon and the chosen creature.
 [AbilityWords]
 The dead are removed from the canvas
 Gathers Chroma

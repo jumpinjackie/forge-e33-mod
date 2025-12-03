@@ -1,5 +1,5 @@
 [Name]
-Farewell
+A Life to Love
 [ManaCost]
 4
 W
@@ -10,7 +10,9 @@ true
 true
 [Rarity]
 R
+[NicknameFor]
+Farewell
 [Artist]
 Sandfall Interactive
 [DesignNotes]
- - Obligatory Commander board wipe.
+ - Staple commander board wipe
