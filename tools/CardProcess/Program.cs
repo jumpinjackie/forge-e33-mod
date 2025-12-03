@@ -1362,34 +1362,73 @@ public class GenAllCommand : BaseCommand
                 typeCounts[cat]++;
         }
 
-        // Print counts with percentages and a grand total + sanity check (nicely aligned)
-        await stdout.WriteLineAsync("Count by primary type:");
-        var indent = "  ";
+        // Build a table of primary type vs rarity, with subtotals and percentages
+        await stdout.WriteLineAsync("Count by primary type (rows = type, cols = rarity):");
         int labelWidth = Math.Max(6, typeCategories.Select(t => t.Length).Max());
-        int countWidth = 5; // width for numeric counts
-        var totalFromType = typeCounts.Values.Sum();
+
+        // Prepare per-type per-rarity map
+        var typeDistro = new SortedDictionary<string, Dictionary<string, int>>(StringComparer.OrdinalIgnoreCase);
         foreach (var t in typeCategories)
         {
-            double pct = totalFromType > 0 ? (100.0 * typeCounts[t] / totalFromType) : 0.0;
-            var countStr = typeCounts[t].ToString().PadLeft(countWidth);
-            var pctStr = pct.ToString("F1").PadLeft(5);
-            await stdout.WriteLineAsync($"{indent}{t.PadRight(labelWidth)} : {countStr}  ({pctStr}%)");
+            typeDistro[t] = rarityCodes.ToDictionary(rc => rc, rc => 0);
         }
 
-        // Grand total (aligned with counts)
-        var grandLabel = "Grand total".PadRight(labelWidth);
-        await stdout.WriteLineAsync($"{indent}{grandLabel} : {totalFromType.ToString().PadLeft(countWidth)}");
-
-        // Sanity check against the rarity/ bucket total computed earlier
-        var sanityLabel = "Sanity check".PadRight(labelWidth);
-        if (totalFromType == overallTotal)
+        foreach (var (_, card) in cards)
         {
-            await stdout.WriteLineAsync($"{indent}{sanityLabel} : OK (matches rarity total {overallTotal})");
+            var cat = GetPrimaryCategory(card);
+            var r = card.Rarity ?? "?";
+            if (r.Length != 1 || (r != "C" && r != "U" && r != "R" && r != "M"))
+                r = "?";
+
+            if (!typeDistro.ContainsKey(cat))
+                cat = "Other";
+
+            typeDistro[cat][r]++;
         }
+
+        // Build table string
+        var tbl = new StringBuilder();
+        // Header
+        tbl.Append(' ', 0);
+        tbl.Append("Type".PadRight(labelWidth + 2));
+        tbl.Append("| ");
+        tbl.Append(String.Join(" | ", rarityCodes.Select(rc => rc.PadLeft(3))));
+        tbl.Append(" | Tot (% )\n");
+
+        // Separator
+        tbl.Append(new string('-', labelWidth + 2));
+        tbl.Append("|-----|-----|-----|-----|-----|-----\n");
+
+        var grandTotalFromType = typeDistro.Values.Select(m => m.Values.Sum()).Sum();
+        foreach (var t in typeCategories)
+        {
+            var map = typeDistro[t];
+            var rowTotal = map.Values.Sum();
+
+            tbl.Append(t.PadRight(labelWidth + 2));
+            tbl.Append("| ");
+            tbl.Append(String.Join(" | ", rarityCodes.Select(rc => map.ContainsKey(rc) ? map[rc].ToString().PadLeft(3) : "  0")));
+            double pct = grandTotalFromType > 0 ? (100.0 * rowTotal / grandTotalFromType) : 0.0;
+            tbl.Append($" | {rowTotal.ToString().PadLeft(3)} ({pct:F1}%)\n");
+        }
+
+        // Totals row
+        tbl.Append(new string('-', labelWidth + 2));
+        tbl.Append("|-----|-----|-----|-----|-----|-----\n");
+        tbl.Append("Total".PadRight(labelWidth + 2));
+        tbl.Append("| ");
+        // column totals per rarity
+        tbl.Append(String.Join(" | ", rarityCodes.Select(rc => typeDistro.Values.Select(m => m.ContainsKey(rc) ? m[rc] : 0).Sum().ToString().PadLeft(3))));
+        tbl.Append($" | {grandTotalFromType}\n");
+
+        await stdout.WriteLineAsync(tbl.ToString());
+
+        // Print grand totals and sanity check
+        await stdout.WriteLineAsync($"Grand total (by type sum): {grandTotalFromType}");
+        if (grandTotalFromType == overallTotal)
+            await stdout.WriteLineAsync($"Sanity check: OK (matches rarity total {overallTotal})");
         else
-        {
-            await stdout.WriteLineAsync($"{indent}{sanityLabel} : MISMATCH - type grand total {totalFromType} != rarity grand total {overallTotal}");
-        }
+            await stdout.WriteLineAsync($"Sanity check: MISMATCH - type grand total {grandTotalFromType} != rarity grand total {overallTotal}");
 
 
         await stdout.WriteLineAsync("All generation tasks completed successfully!");
