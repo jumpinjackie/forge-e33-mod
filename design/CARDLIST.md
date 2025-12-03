@@ -31,7 +31,7 @@ From this list, card designs are spawned from it, which will eventually form the
 
 Cards implemented: 314/328
 
-[x] - Card is implemented or in development, [ ] - Card is not implemented
+[x] - Card is implemented or in development, [C] - Card is a commander reprint, [R] - Card is a regular reprint, [N] - Card is a nickname reprint, [ ] - Card is not implemented
 
 ```
 [x] A Rock for Francois
@@ -45,7 +45,7 @@ Cards implemented: 314/328
 [ ] All Set
 [x] An Advantage!
 [ ] Ancient Sanctuary
-[x] Anger
+[R] Anger
 [x] Anti-Burn Picto
 [x] Anti-Freeze Picto
 [x] Attack Lifesteal Picto
@@ -56,9 +56,9 @@ Cards implemented: 314/328
 [x] Benisseur
 [x] Berrami, Collector of Journals
 [ ] Bertrand Big Hands
-[x] Blade's Graveyard
+[C] Blade's Graveyard
 [ ] Blanche, the Unfinished Creation
-[x] Boat Graveyard
+[C] Boat Graveyard
 [x] Boucheclier
 [x] Bound by Chains
 [ ] Bourgeon
@@ -87,7 +87,7 @@ Cards implemented: 314/328
 [x] Clea Dessendre, Seeking Vengeance
 [x] Clea's Chromatic Mastery
 [x] Closure
-[x] Crimson Forest
+[C] Crimson Forest
 [x] Crippling Tsunami
 [x] Cruler
 [x] Crushing Cavern
@@ -95,7 +95,7 @@ Cards implemented: 314/328
 [x] Danseuse
 [ ] Danseuse Teacher
 [x] Dark Shores
-[x] Dark Gestral Arena
+[C] Dark Gestral Arena
 [x] Death Picto
 [ ] Degagement
 [x] Demineur
@@ -157,11 +157,11 @@ Cards implemented: 314/328
 [x] Expedition Flag
 [ ] Expedition Flotilla
 [x] Expedition Recruiter
-[x] Falling Leaves
+[N] Falling Leaves
 [ ] Fender's Flurry
 [x] Finesse // Grace
 [ ] Fleuret Fury
-[x] Floating Cemetery
+[N] Floating Cemetery
 [x] Florrie
 [x] Flying Casino
 [ ] Flying Manor
@@ -171,7 +171,7 @@ Cards implemented: 314/328
 [x] Fortune's Fury
 [ ] Fracture Survivor
 [x] Francois, Waiting for Clea
-[x] Frozen Hearts
+[C] Frozen Hearts
 [x] Full Deck
 [ ] Gargant
 [x] Gestral Arena
@@ -226,7 +226,7 @@ Cards implemented: 314/328
 [x] Limonsol, Matchmaker
 [x] Lorieniso, Gestral Musician
 [x] Lost Gestral
-[x] Lost Woods
+[C] Lost Woods
 [x] Lumiere Aquafarm
 [x] Lumiere Assault
 [x] Lumiere Flower Stand
@@ -263,14 +263,14 @@ Cards implemented: 314/328
 [ ] Offensive Switch
 [x] Ono-Puncho
 [ ] Orphelin
-[x] Paint Cage
+[N] Paint Cage
 [x] Paint Spike
 [x] Painted Alicia, Eternally Suffering
 [x] Painted Clea, the Mistress
 [ ] Painted Love
 [x] Painted Renoir, Aline's Enforcer
 [ ] Painting Workshop
-[x] Payback
+[N] Payback
 [ ] Percee
 [x] Perfect Dodge
 [x] Persuasive Argument
@@ -299,18 +299,18 @@ Cards implemented: 314/328
 [x] Serpenphare
 [x] Shot Picto
 [x] Simon, Consort of Clea // Simon, The Divergent Star
-[x] Sinister Cave
+[C] Sinister Cave
 [x] Sirene's Coliseum
 [x] Sky Break
-[x] Sky Island
+[C] Sky Island
 [x] Soarrie
 [ ] Sorrowful Chapelier
 [x] Sprong
 [ ] Stalact
 [x] Stendhal
-[x] Stone Quarry
-[x] Stone Wave Cliffs
-[x] Sunless Cliffs
+[R] Stone Quarry
+[N] Stone Wave Cliffs
+[N] Sunless Cliffs
 [ ] Sunniso, Gestral Bouncer
 [x] Swift Counter
 [ ] Sword Ballet
@@ -322,9 +322,9 @@ Cards implemented: 314/328
 [x] The Fracture
 [x] The Greatest Expedition in History
 [x] The Hauler
-[x] The Indigo Tree
+[N] The Indigo Tree
 [ ] The Mask Keeper
-[x] The Meadows
+[C] The Meadows
 [x] The Monolith
 [x] The Monolith Interior
 [x] The Paintress // Aline Dessendre, Stricken by Grief
@@ -360,8 +360,8 @@ Cards implemented: 314/328
 [x] Volester
 [x] Whee // Whoo
 [x] When One Falls // We Continue
-[x] White Sands
-[x] Yellow Harvest
+[C] White Sands
+[N] Yellow Harvest
 ```
 
 ## Quotes deserving of a card name + design
