@@ -220,6 +220,7 @@ Jovial Moissoneneuse
 Julien Tiny Head
 Lampmaster
 Lancelier
+Last Stand of Expedition 33
 Leave this Canvas!
 Lightning Dance
 Limonsol, Matchmaker
@@ -322,7 +323,6 @@ The Fracture
 The Greatest Expedition in History
 The Hauler
 The Indigo Tree
-The Last Stand of Expedition 33
 The Mask Keeper
 The Meadows
 The Monolith

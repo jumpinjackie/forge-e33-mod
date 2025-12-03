@@ -220,6 +220,7 @@ Cards implemented: 314/328
 [x] Julien Tiny Head
 [x] Lampmaster
 [x] Lancelier
+[x] Last Stand of Expedition 33
 [x] Leave this Canvas!
 [x] Lightning Dance
 [x] Limonsol, Matchmaker
@@ -322,7 +323,6 @@ Cards implemented: 314/328
 [x] The Greatest Expedition in History
 [x] The Hauler
 [x] The Indigo Tree
-[ ] The Last Stand of Expedition 33
 [ ] The Mask Keeper
 [x] The Meadows
 [x] The Monolith
