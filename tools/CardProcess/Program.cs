@@ -1171,7 +1171,19 @@ public class GenAllCommand : BaseCommand
                 {
                     if (cards.TryGetValue(line, out var design))
                     {
-                        line = $"[x] {line}";
+                        if (design.IsReprint)
+                        {
+                            if (design.IsCommander)
+                                line = $"[C] {line}";
+                            else if (design.NicknameFor is not null)
+                                line = $"[N] {line}";
+                            else
+                                line = $"[R] {line}";
+                        }
+                        else
+                        {
+                            line = $"[x] {line}";
+                        }
                     }
                     else
                     {
@@ -1186,7 +1198,7 @@ public class GenAllCommand : BaseCommand
         }
 
         sbCardList.Replace("%_IMPL_STATUS_%", $"Cards implemented: {cards.Count}/{cardNameTotal}");
-        sbCardList.Replace("%_IMPL_LEGEND_%", "[x] - Card is implemented or in development, [ ] - Card is not implemented");
+        sbCardList.Replace("%_IMPL_LEGEND_%", "[x] - Card is implemented or in development, [C] - Card is a commander reprint, [R] - Card is a regular reprint, [N] - Card is a nickname reprint, [ ] - Card is not implemented");
 
         await File.WriteAllTextAsync(cardListOutFile, sbCardList.ToString());
         await stdout.WriteLineAsync("Updated CARDLIST.md");
@@ -1315,6 +1327,71 @@ public class GenAllCommand : BaseCommand
         await stdout.WriteLineAsync("Rarity distribution by bucket:");
         await stdout.WriteLineAsync(sb.ToString());
 
+        // --- New: Tally cards by primary type (Creature > Instant > Sorcery > Enchantment > Land > Artifact > Other)
+        var typeCategories = new[] { "Creature", "Instant", "Sorcery", "Enchantment", "Land", "Artifact", "Other" };
+        var typeCounts = typeCategories.ToDictionary(t => t, t => 0);
+
+        string GetPrimaryCategory(CardMasterDesign card)
+        {
+            CardFaceDesign? face = card.FaceType switch
+            {
+                CardFaceType.SplitFuse or CardFaceType.SplitRoom => card.SplitLeft,
+                CardFaceType.Meld or CardFaceType.DoubleFaced => card.FrontFull,
+                _ => card.FrontFull
+            };
+
+            if (face?.Types != null)
+            {
+                var ht = new HashSet<string>(face.Types, StringComparer.OrdinalIgnoreCase);
+                if (ht.Contains("Creature")) return "Creature";
+                if (ht.Contains("Instant")) return "Instant";
+                if (ht.Contains("Sorcery")) return "Sorcery";
+                if (ht.Contains("Enchantment")) return "Enchantment";
+                if (ht.Contains("Land")) return "Land";
+                if (ht.Contains("Artifact")) return "Artifact";
+            }
+            return "Other";
+        }
+
+        foreach (var (_, card) in cards)
+        {
+            var cat = GetPrimaryCategory(card);
+            if (!typeCounts.ContainsKey(cat))
+                typeCounts["Other"]++;
+            else
+                typeCounts[cat]++;
+        }
+
+        // Print counts with percentages and a grand total + sanity check (nicely aligned)
+        await stdout.WriteLineAsync("Count by primary type:");
+        var indent = "  ";
+        int labelWidth = Math.Max(6, typeCategories.Select(t => t.Length).Max());
+        int countWidth = 5; // width for numeric counts
+        var totalFromType = typeCounts.Values.Sum();
+        foreach (var t in typeCategories)
+        {
+            double pct = totalFromType > 0 ? (100.0 * typeCounts[t] / totalFromType) : 0.0;
+            var countStr = typeCounts[t].ToString().PadLeft(countWidth);
+            var pctStr = pct.ToString("F1").PadLeft(5);
+            await stdout.WriteLineAsync($"{indent}{t.PadRight(labelWidth)} : {countStr}  ({pctStr}%)");
+        }
+
+        // Grand total (aligned with counts)
+        var grandLabel = "Grand total".PadRight(labelWidth);
+        await stdout.WriteLineAsync($"{indent}{grandLabel} : {totalFromType.ToString().PadLeft(countWidth)}");
+
+        // Sanity check against the rarity/ bucket total computed earlier
+        var sanityLabel = "Sanity check".PadRight(labelWidth);
+        if (totalFromType == overallTotal)
+        {
+            await stdout.WriteLineAsync($"{indent}{sanityLabel} : OK (matches rarity total {overallTotal})");
+        }
+        else
+        {
+            await stdout.WriteLineAsync($"{indent}{sanityLabel} : MISMATCH - type grand total {totalFromType} != rarity grand total {overallTotal}");
+        }
+
+
         await stdout.WriteLineAsync("All generation tasks completed successfully!");
 
         return 0;
@@ -1387,7 +1464,7 @@ public class CardConjurerValidateCommand : BaseCommand
             }
 
             // Nickname cards have a specific name format
-            List<(string name, CardFaceDesign face)> cardFaceNames = [(cardName, design.FrontFull)];
+            List<(string name, CardFaceDesign? face)> cardFaceNames = [(cardName, design.FrontFull)];
             bool isNicknamed = false;
             if (design.NicknameFor is not null)
             {
@@ -1410,9 +1487,9 @@ public class CardConjurerValidateCommand : BaseCommand
 
             foreach (var (cardFaceName, cardFace) in cardFaceNames)
             {
-                // Find matching CardConjurer design
+                // Find matching CardConjurer design (null-safe key read)
                 var ccDesign = conf.RootElement.EnumerateArray()
-                    .FirstOrDefault(el => NormalizeToAscii(el.GetProperty("key").GetString()) == cardFaceName);
+                    .FirstOrDefault(el => NormalizeToAscii(el.GetProperty("key").GetString() ?? "") == cardFaceName);
 
                 if (ccDesign.ValueKind == System.Text.Json.JsonValueKind.Undefined)
                 {
@@ -1624,9 +1701,13 @@ public class CardConjurerValidateCommand : BaseCommand
             }
 
             // Helper method to show where strings differ
-            static string GetDifferenceMarker(string str1, string str2)
+            static string GetDifferenceMarker(string? str1, string? str2)
             {
                 var marker = new StringBuilder();
+
+                // Treat nulls as empty for comparisons
+                str1 ??= string.Empty;
+                str2 ??= string.Empty;
 
                 // Normalize line endings to \n and handle escaped characters
                 string NormalizeString(string s) => s
