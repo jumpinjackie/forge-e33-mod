@@ -1387,221 +1387,246 @@ public class CardConjurerValidateCommand : BaseCommand
             }
 
             // Nickname cards have a specific name format
-            var findName = cardName;
+            List<(string name, CardFaceDesign face)> cardFaceNames = [(cardName, design.FrontFull)];
             bool isNicknamed = false;
             if (design.NicknameFor is not null)
             {
-                findName = $"{design.NicknameFor} ({cardName})";
+                cardFaceNames.Clear();
+                cardFaceNames.Add(($"{design.NicknameFor} ({cardName})", design.FrontFull));
                 isNicknamed = true;
             }
-
-            // Find matching CardConjurer design
-            var ccDesign = conf.RootElement.EnumerateArray()
-                .FirstOrDefault(el => NormalizeToAscii(el.GetProperty("key").GetString()) == findName);
-
-            if (ccDesign.ValueKind == System.Text.Json.JsonValueKind.Undefined)
+            else if (design.FaceType == CardFaceType.Meld)
             {
-                await stdout.WriteLineAsync($"WARNING: No CardConjurer design found for {cardName}");
-                missingCards++;
-                continue;
+                cardFaceNames.Clear();
+                cardFaceNames.Add((design.FrontFull!.Name!, design.FrontFull));
+                cardFaceNames.Add((design.MeldTarget!.Name!, design.MeldTarget));
+            }
+            else if (design.FaceType == CardFaceType.DoubleFaced)
+            {
+                cardFaceNames.Clear();
+                cardFaceNames.Add((design.FrontFull!.Name!, design.FrontFull));
+                cardFaceNames.Add((design.BackFull!.Name!, design.BackFull));
             }
 
-            bool hasWarnings = false;
-
-            // Try to get data and text properties
-            if (!ccDesign.TryGetProperty("data", out var data) || !data.TryGetProperty("text", out var text))
+            foreach (var (cardFaceName, cardFace) in cardFaceNames)
             {
-                await stdout.WriteLineAsync($"WARNING: {cardName} - Missing data or text properties in CardConjurer design");
-                invalidCards++;
-                continue;
-            }
+                // Find matching CardConjurer design
+                var ccDesign = conf.RootElement.EnumerateArray()
+                    .FirstOrDefault(el => NormalizeToAscii(el.GetProperty("key").GetString()) == cardFaceName);
 
-            // Check mana cost
-            if (!isNicknamed &&
-                design.FrontFull?.ManaCost != null &&
-                text.TryGetProperty("mana", out var manaObj) &&
-                manaObj.TryGetProperty("text", out var manaText))
-            {
-                var ccManaCost = manaText.GetString();
-                var designManaCost = string.Join(" ", design.FrontFull.ManaCost);
-                if (designManaCost == "no cost")
-                    designManaCost = "";
-                if (NormalizeToAscii(ccManaCost ?? "") != NormalizeToAscii(designManaCost))
+                if (ccDesign.ValueKind == System.Text.Json.JsonValueKind.Undefined)
                 {
-                    await stdout.WriteLineAsync($"WARNING: Mismatches found in card: {cardName}");
-                    await stdout.WriteLineAsync($"  Mana cost:");
-                    await stdout.WriteLineAsync($"    CC: {ccManaCost}");
-                    await stdout.WriteLineAsync($"    DF: {designManaCost}");
-                    await stdout.WriteLineAsync(GetDifferenceMarker(ccManaCost, designManaCost));
-                    hasWarnings = true;
+                    await stdout.WriteLineAsync($"WARNING: No CardConjurer design found for {cardFaceName}");
+                    missingCards++;
+                    continue;
                 }
-            }
 
-            // Check title
-            if (!isNicknamed &&
-                text.TryGetProperty("title", out var titleObj) &&
-                titleObj.TryGetProperty("text", out var titleText))
-            {
-                var ccTitle = titleText.GetString();
-                if (NormalizeToAscii(ccTitle ?? "") != NormalizeToAscii(cardName ?? ""))
+                bool hasWarnings = false;
+
+                // Try to get data and text properties
+                if (!ccDesign.TryGetProperty("data", out var data) || !data.TryGetProperty("text", out var text))
                 {
-                    if (!hasWarnings)
-                        await stdout.WriteLineAsync($"WARNING: Mismatches found in card: {cardName}");
-                    await stdout.WriteLineAsync($"  Title:");
-                    await stdout.WriteLineAsync($"    CC: {ccTitle}");
-                    await stdout.WriteLineAsync($"    DF: {cardName}");
-                    await stdout.WriteLineAsync(GetDifferenceMarker(ccTitle, cardName));
-                    hasWarnings = true;
+                    await stdout.WriteLineAsync($"WARNING: {cardFaceName} - Missing data or text properties in CardConjurer design");
+                    invalidCards++;
+                    continue;
                 }
-            }
 
-            // Check type line
-            if (!isNicknamed &&
-                design.FrontFull?.TypeLine != null &&
-                text.TryGetProperty("type", out var typeObj) &&
-                typeObj.TryGetProperty("text", out var typeText))
-            {
-                var ccType = typeText.GetString();
-                if (NormalizeToAscii(ccType ?? "") != NormalizeToAscii(design.FrontFull.TypeLine ?? ""))
+                // Check mana cost
+                if (!isNicknamed &&
+                    cardFace?.ManaCost != null &&
+                    text.TryGetProperty("mana", out var manaObj) &&
+                    manaObj.TryGetProperty("text", out var manaText))
                 {
-                    if (!hasWarnings)
-                        await stdout.WriteLineAsync($"WARNING: Mismatches found in card: {cardName}");
-                    await stdout.WriteLineAsync($"  Type line:");
-                    await stdout.WriteLineAsync($"    CC: {ccType}");
-                    await stdout.WriteLineAsync($"    DF: {design.FrontFull.TypeLine}");
-                    await stdout.WriteLineAsync(GetDifferenceMarker(ccType, design.FrontFull.TypeLine));
-                    hasWarnings = true;
-                }
-            }
-
-            // Check rarity / set symbol source
-            // .data.setSymbolSource in CardConjurer should correspond to the filename
-            // Regular Set: https://cardconjurer.app/img/setSymbols/official/pz1-$RARITY.svg
-            // Commander: https://cardconjurer.app/img/setSymbols/official/cmd-$RARITY.svg
-            // Also check that design.Rarity matches .data.infoRarity in CardConjurer config
-            if (data.TryGetProperty("infoRarity", out var infoRarityObj) && infoRarityObj.ValueKind == System.Text.Json.JsonValueKind.String)
-            {
-                var infoRarity = infoRarityObj.GetString() ?? "";
-                if (!string.IsNullOrWhiteSpace(design.Rarity) && !string.Equals(design.Rarity, infoRarity, StringComparison.OrdinalIgnoreCase))
-                {
-                    if (!hasWarnings)
-                        await stdout.WriteLineAsync($"WARNING: Mismatches found in card: {cardName}");
-                    await stdout.WriteLineAsync($"  Rarity code mismatch:");
-                    await stdout.WriteLineAsync($"    Design rarity: {design.Rarity}");
-                    await stdout.WriteLineAsync($"    CC .data.infoRarity: {infoRarity}");
-                    hasWarnings = true;
-                }
-            }
-
-            if (data.TryGetProperty("setSymbolSource", out var setSymbolSourceObj) && setSymbolSourceObj.ValueKind == System.Text.Json.JsonValueKind.String)
-            {
-                var setSymbolSource = setSymbolSourceObj.GetString() ?? "";
-
-                // Prefer reading the rarity code from the design (`CardMasterDesign.Rarity`)
-                // design.Rarity MUST be a single-letter code if specified; otherwise emit an error, increment invalidCards, and skip rarity validation
-                string? rarityCode = null;
-                bool skipRarityValidation = false;
-                if (!string.IsNullOrWhiteSpace(design.Rarity))
-                {
-                    var dr = design.Rarity.Trim();
-                    if (dr.Length == 1)
+                    var ccManaCost = manaText.GetString();
+                    var designManaCost = string.Join(" ", cardFace.ManaCost);
+                    if (designManaCost == "no cost")
+                        designManaCost = "";
+                    if (NormalizeToAscii(ccManaCost ?? "") != NormalizeToAscii(designManaCost))
                     {
-                        rarityCode = dr;
+                        await stdout.WriteLineAsync($"WARNING: Mismatches found in card face: {cardFaceName}");
+                        await stdout.WriteLineAsync($"  Mana cost:");
+                        await stdout.WriteLineAsync($"    CC: {ccManaCost}");
+                        await stdout.WriteLineAsync($"    DF: {designManaCost}");
+                        await stdout.WriteLineAsync(GetDifferenceMarker(ccManaCost, designManaCost));
+                        hasWarnings = true;
+                    }
+                }
+
+                // Check title
+                if (!isNicknamed &&
+                    text.TryGetProperty("title", out var titleObj) &&
+                    titleObj.TryGetProperty("text", out var titleText))
+                {
+                    var ccTitle = titleText.GetString();
+                    if (NormalizeToAscii(ccTitle ?? "") != NormalizeToAscii(cardFaceName ?? ""))
+                    {
+                        if (!hasWarnings)
+                            await stdout.WriteLineAsync($"WARNING: Mismatches found in card: {cardFaceName}");
+                        await stdout.WriteLineAsync($"  Title:");
+                        await stdout.WriteLineAsync($"    CC: {ccTitle}");
+                        await stdout.WriteLineAsync($"    DF: {cardFaceName}");
+                        await stdout.WriteLineAsync(GetDifferenceMarker(ccTitle, cardFaceName));
+                        hasWarnings = true;
+                    }
+                }
+
+                // Check type line
+                if (!isNicknamed &&
+                    cardFace?.TypeLine != null &&
+                    text.TryGetProperty("type", out var typeObj) &&
+                    typeObj.TryGetProperty("text", out var typeText))
+                {
+                    var ccType = typeText.GetString();
+                    if (NormalizeToAscii(ccType ?? "") != NormalizeToAscii(cardFace.TypeLine ?? ""))
+                    {
+                        if (!hasWarnings)
+                            await stdout.WriteLineAsync($"WARNING: Mismatches found in card: {cardFaceName}");
+                        await stdout.WriteLineAsync($"  Type line:");
+                        await stdout.WriteLineAsync($"    CC: {ccType}");
+                        await stdout.WriteLineAsync($"    DF: {cardFace.TypeLine}");
+                        await stdout.WriteLineAsync(GetDifferenceMarker(ccType, cardFace.TypeLine));
+                        hasWarnings = true;
+                    }
+                }
+
+                // Check rarity / set symbol source
+                // .data.setSymbolSource in CardConjurer should correspond to the filename
+                // Regular Set: https://cardconjurer.app/img/setSymbols/official/pz1-$RARITY.svg
+                // Commander: https://cardconjurer.app/img/setSymbols/official/cmd-$RARITY.svg
+                // Also check that design.Rarity matches .data.infoRarity in CardConjurer config
+                if (data.TryGetProperty("infoRarity", out var infoRarityObj) && infoRarityObj.ValueKind == System.Text.Json.JsonValueKind.String)
+                {
+                    var infoRarity = infoRarityObj.GetString() ?? "";
+                    if (!string.IsNullOrWhiteSpace(design.Rarity) && !string.Equals(design.Rarity, infoRarity, StringComparison.OrdinalIgnoreCase))
+                    {
+                        if (!hasWarnings)
+                            await stdout.WriteLineAsync($"WARNING: Mismatches found in card: {cardFaceName}");
+                        await stdout.WriteLineAsync($"  Rarity code mismatch:");
+                        await stdout.WriteLineAsync($"    Design rarity: {design.Rarity}");
+                        await stdout.WriteLineAsync($"    CC .data.infoRarity: {infoRarity}");
+                        hasWarnings = true;
+                    }
+                }
+
+                if (data.TryGetProperty("setSymbolSource", out var setSymbolSourceObj) && setSymbolSourceObj.ValueKind == System.Text.Json.JsonValueKind.String)
+                {
+                    var setSymbolSource = setSymbolSourceObj.GetString() ?? "";
+
+                    // Prefer reading the rarity code from the design (`CardMasterDesign.Rarity`)
+                    // design.Rarity MUST be a single-letter code if specified; otherwise emit an error, increment invalidCards, and skip rarity validation
+                    string? rarityCode = null;
+                    bool skipRarityValidation = false;
+                    if (!string.IsNullOrWhiteSpace(design.Rarity))
+                    {
+                        var dr = design.Rarity.Trim();
+                        if (dr.Length == 1)
+                        {
+                            rarityCode = dr;
+                        }
+                        else
+                        {
+                            await stdout.WriteLineAsync($"ERROR: {cardFaceName} - design.Rarity must be a single-letter code if specified; value: '{dr}'");
+                            invalidCards++;
+                            skipRarityValidation = true;
+                        }
+                    }
+
+                    if (skipRarityValidation)
+                    {
+                        // Don't validate set symbol for this card when the design rarity is malformed.
                     }
                     else
                     {
-                        await stdout.WriteLineAsync($"ERROR: {cardName} - design.Rarity must be a single-letter code if specified; value: '{dr}'");
-                        invalidCards++;
-                        skipRarityValidation = true;
+                        if (!string.IsNullOrWhiteSpace(rarityCode))
+                        {
+                            var filename = design.IsCommander ? $"cmd-{rarityCode}.svg" : $"pz1-{rarityCode}.svg";
+                            var constructedUrl = $"https://cardconjurer.app/img/setSymbols/official/{filename}";
+
+                            var src = (setSymbolSource ?? "").Trim();
+                            bool match = string.Equals(src, filename, StringComparison.OrdinalIgnoreCase)
+                                         || src.EndsWith('/' + filename, StringComparison.OrdinalIgnoreCase)
+                                         || string.Equals(src, constructedUrl, StringComparison.OrdinalIgnoreCase);
+
+                            if (!match)
+                            {
+                                if (!hasWarnings)
+                                    await stdout.WriteLineAsync($"WARNING: Mismatches found in card: {cardFaceName}");
+                                await stdout.WriteLineAsync($"  Set symbol source / rarity:");
+                                await stdout.WriteLineAsync($"    CC .data.setSymbolSource: {setSymbolSource}");
+                                await stdout.WriteLineAsync($"    Constructed from design rarity code: {constructedUrl}");
+                                hasWarnings = true;
+                            }
+                        }
+                        else
+                        {
+                            await stdout.WriteLineAsync($"INFO: {cardFaceName} - Could not determine rarity code from design or CardConjurer data to validate set symbol.");
+                        }
                     }
                 }
 
-                if (skipRarityValidation)
+                // Check rules text
+                if (!isNicknamed &&
+                    cardFace?.Oracle != null &&
+                    text.TryGetProperty("rules", out var rulesObj) &&
+                    rulesObj.TryGetProperty("text", out var rulesText))
                 {
-                    // Don't validate set symbol for this card when the design rarity is malformed.
+                    var ccRules = NormalizeToAscii(rulesText.GetString() ?? "");
+                    var designRules = NormalizeToAscii(cardFace.GetCardConjurerOracleText());
+
+                    if (ccRules != designRules)
+                    {
+                        if (!hasWarnings)
+                            await stdout.WriteLineAsync($"WARNING: Mismatches found in card: {cardFaceName}");
+                        await stdout.WriteLineAsync($"  Rules text:");
+                        await stdout.WriteLineAsync($"    CC: {ccRules}");
+                        await stdout.WriteLineAsync($"    DF: {designRules}");
+                        await stdout.WriteLineAsync(GetDifferenceMarker(ccRules, designRules));
+                        hasWarnings = true;
+                    }
+                }
+
+                // Check P/T
+                if (!isNicknamed &&
+                    cardFace?.PT != null &&
+                    text.TryGetProperty("pt", out var ptObj) &&
+                    ptObj.TryGetProperty("text", out var ptText))
+                {
+                    var ccPT = System.Text.RegularExpressions.Regex.Replace(ptText.GetString() ?? "", "{[^}]*}", "");
+                    var designPT = cardFace.PT ?? "";
+                    if (NormalizeToAscii(ccPT) != NormalizeToAscii(designPT))
+                    {
+                        if (!hasWarnings)
+                            await stdout.WriteLineAsync($"WARNING: Mismatches found in card: {cardFaceName}");
+                        await stdout.WriteLineAsync($"  Power/Toughness:");
+                        await stdout.WriteLineAsync($"    CC: {ccPT}");
+                        await stdout.WriteLineAsync($"    DF: {designPT}");
+                        await stdout.WriteLineAsync(GetDifferenceMarker(ccPT, designPT));
+                        hasWarnings = true;
+                    }
+                }
+
+                // Check 1/8 margin
+                if (!data.TryGetProperty("margins", out var m))
+                {
+                    await stdout.WriteLineAsync($"WARNING: No 1/8 margin set for {cardFaceName}");
+                    hasWarnings = true;
+                }
+
+                if (!hasWarnings)
+                {
+                    await stdout.WriteLineAsync($"INFO: {cardFaceName} - All elements match");
+                    matchingCards++;
                 }
                 else
                 {
-                    if (!string.IsNullOrWhiteSpace(rarityCode))
-                    {
-                        var filename = design.IsCommander ? $"cmd-{rarityCode}.svg" : $"pz1-{rarityCode}.svg";
-                        var constructedUrl = $"https://cardconjurer.app/img/setSymbols/official/{filename}";
-
-                        var src = (setSymbolSource ?? "").Trim();
-                        bool match = string.Equals(src, filename, StringComparison.OrdinalIgnoreCase)
-                                     || src.EndsWith('/' + filename, StringComparison.OrdinalIgnoreCase)
-                                     || string.Equals(src, constructedUrl, StringComparison.OrdinalIgnoreCase);
-
-                        if (!match)
-                        {
-                            if (!hasWarnings)
-                                await stdout.WriteLineAsync($"WARNING: Mismatches found in card: {cardName}");
-                            await stdout.WriteLineAsync($"  Set symbol source / rarity:");
-                            await stdout.WriteLineAsync($"    CC .data.setSymbolSource: {setSymbolSource}");
-                            await stdout.WriteLineAsync($"    Constructed from design rarity code: {constructedUrl}");
-                            hasWarnings = true;
-                        }
-                    }
-                    else
-                    {
-                        await stdout.WriteLineAsync($"INFO: {cardName} - Could not determine rarity code from design or CardConjurer data to validate set symbol.");
-                    }
+                    mismatchedCards++;
                 }
-            }
-
-            // Check rules text
-            if (!isNicknamed &&
-                design.FrontFull?.Oracle != null &&
-                text.TryGetProperty("rules", out var rulesObj) &&
-                rulesObj.TryGetProperty("text", out var rulesText))
-            {
-                var ccRules = NormalizeToAscii(rulesText.GetString() ?? "");
-                var designRules = NormalizeToAscii(design.FrontFull.GetCardConjurerOracleText());
-
-                if (ccRules != designRules)
-                {
-                    if (!hasWarnings)
-                        await stdout.WriteLineAsync($"WARNING: Mismatches found in card: {cardName}");
-                    await stdout.WriteLineAsync($"  Rules text:");
-                    await stdout.WriteLineAsync($"    CC: {ccRules}");
-                    await stdout.WriteLineAsync($"    DF: {designRules}");
-                    await stdout.WriteLineAsync(GetDifferenceMarker(ccRules, designRules));
-                    hasWarnings = true;
-                }
-            }
-
-            // Check P/T
-            if (!isNicknamed &&
-                design.FrontFull?.PT != null &&
-                text.TryGetProperty("pt", out var ptObj) &&
-                ptObj.TryGetProperty("text", out var ptText))
-            {
-                var ccPT = System.Text.RegularExpressions.Regex.Replace(ptText.GetString() ?? "", "{[^}]*}", "");
-                var designPT = design.FrontFull.PT ?? "";
-                if (NormalizeToAscii(ccPT) != NormalizeToAscii(designPT))
-                {
-                    if (!hasWarnings)
-                        await stdout.WriteLineAsync($"WARNING: Mismatches found in card: {cardName}");
-                    await stdout.WriteLineAsync($"  Power/Toughness:");
-                    await stdout.WriteLineAsync($"    CC: {ccPT}");
-                    await stdout.WriteLineAsync($"    DF: {designPT}");
-                    await stdout.WriteLineAsync(GetDifferenceMarker(ccPT, designPT));
-                    hasWarnings = true;
-                }
-            }
-
-            // Check 1/8 margin
-            if (!data.TryGetProperty("margins", out var m))
-            {
-                await stdout.WriteLineAsync($"WARNING: No 1/8 margin set for {cardName}");
-                hasWarnings = true;
             }
 
             // Helper method to show where strings differ
             static string GetDifferenceMarker(string str1, string str2)
             {
                 var marker = new StringBuilder();
-                var diffDetails = new StringBuilder();
 
                 // Normalize line endings to \n and handle escaped characters
                 string NormalizeString(string s) => s
@@ -1620,10 +1645,33 @@ public class CardConjurerValidateCommand : BaseCommand
 
                 if (lines1.Length == 1 && lines2.Length == 1)
                 {
-                    int minLength = Math.Min(str1.Length, str2.Length);
-                    var specialChars = new List<(int pos, char c1, char c2)>();
+                    // Single-line comparison - find the first difference
+                    int diffPos = 0;
+                    while (diffPos < str1.Length && diffPos < str2.Length && str1[diffPos] == str2[diffPos])
+                        diffPos++;
 
-                    // Find special character differences
+                    if (diffPos < str1.Length || diffPos < str2.Length)
+                    {
+                        // Show context around the first difference
+                        int contextStart = Math.Max(0, diffPos - 30);
+                        int contextEnd1 = Math.Min(str1.Length, diffPos + 30);
+                        int contextEnd2 = Math.Min(str2.Length, diffPos + 30);
+
+                        marker.AppendLine($"              First difference at position {diffPos}:");
+                        marker.AppendLine($"                CC[{contextStart}..{contextEnd1}]: ...{str1.Substring(contextStart, contextEnd1 - contextStart)}...");
+                        marker.AppendLine($"                DF[{contextStart}..{contextEnd2}]: ...{str2.Substring(contextStart, contextEnd2 - contextStart)}...");
+
+                        // Show character-by-character comparison around the diff
+                        int markerStart = Math.Max(0, diffPos - 10);
+                        int markerEnd = Math.Min(Math.Max(str1.Length, str2.Length), diffPos + 10);
+                        marker.Append("              Marker:        ");
+                        marker.Append(new string(' ', markerStart - contextStart + 17)); // Account for offset and indent
+                        marker.AppendLine(new string('^', Math.Min(5, markerEnd - markerStart)));
+                    }
+
+                    // Also check for special character differences
+                    var specialChars = new List<(int pos, char c1, char c2)>();
+                    int minLength = Math.Min(str1.Length, str2.Length);
                     for (int i = 0; i < minLength; i++)
                     {
                         if (str1[i] != str2[i] && (str1[i] > 127 || str2[i] > 127))
@@ -1632,21 +1680,38 @@ public class CardConjurerValidateCommand : BaseCommand
 
                     if (specialChars.Count > 0)
                     {
-                        diffDetails.Append("              Special chars: ");
-                        diffDetails.AppendJoin(", ", specialChars.Select(x =>
-                            $"pos {x.pos}: '{x.c1}' ({GetUnicodeInfo(x.c1)}) vs '{x.c2}' ({GetUnicodeInfo(x.c2)})"));
+                        marker.AppendLine($"              Special chars: {string.Join(", ", specialChars.Select(x => $"pos {x.pos}: '{x.c1}' ({GetUnicodeInfo(x.c1)}) vs '{x.c2}' ({GetUnicodeInfo(x.c2)})"))}{Environment.NewLine}");
                     }
                 }
                 else
                 {
-                    var specialChars = new List<(int line, int pos, char c1, char c2)>();
+                    // Multi-line comparison
+                    marker.AppendLine("              Multi-line difference detected:");
+                    
+                    // Find first differing line
+                    for (int i = 0; i < Math.Min(lines1.Length, lines2.Length); i++)
+                    {
+                        if (lines1[i] != lines2[i])
+                        {
+                            marker.AppendLine($"              First difference at line {i + 1}:");
+                            marker.AppendLine($"                CC: {lines1[i]}");
+                            marker.AppendLine($"                DF: {lines2[i]}");
+                            break;
+                        }
+                    }
 
-                    // Compare each line
+                    // Check for length differences
+                    if (lines1.Length != lines2.Length)
+                    {
+                        marker.AppendLine($"              Line count: CC has {lines1.Length} lines, DF has {lines2.Length} lines");
+                    }
+
+                    // Also check for special character differences
+                    var specialChars = new List<(int line, int pos, char c1, char c2)>();
                     for (int i = 0; i < Math.Min(lines1.Length, lines2.Length); i++)
                     {
                         var line1 = lines1[i];
                         var line2 = lines2[i];
-
                         for (int j = 0; j < Math.Min(line1.Length, line2.Length); j++)
                         {
                             if (line1[j] != line2[j] && (line1[j] > 127 || line2[j] > 127))
@@ -1656,29 +1721,11 @@ public class CardConjurerValidateCommand : BaseCommand
 
                     if (specialChars.Count > 0)
                     {
-                        diffDetails.Append("              Special chars: ");
-                        diffDetails.AppendJoin(", ", specialChars.Select(x =>
-                            $"line {x.line} pos {x.pos}: '{x.c1}' ({GetUnicodeInfo(x.c1)}) vs '{x.c2}' ({GetUnicodeInfo(x.c2)})"));
+                        marker.AppendLine($"              Special chars: {string.Join(", ", specialChars.Select(x => $"line {x.line} pos {x.pos}: '{x.c1}' ({GetUnicodeInfo(x.c1)}) vs '{x.c2}' ({GetUnicodeInfo(x.c2)}"))}");
                     }
                 }
 
-                // Only show details if we found special character differences
-                if (diffDetails.Length > 0)
-                {
-                    marker.AppendLine(diffDetails.ToString());
-                }
-
                 return marker.ToString();
-            }
-
-            if (!hasWarnings)
-            {
-                await stdout.WriteLineAsync($"INFO: {cardName} - All elements match");
-                matchingCards++;
-            }
-            else
-            {
-                mismatchedCards++;
             }
         }
 
