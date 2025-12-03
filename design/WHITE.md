@@ -1,6 +1,14 @@
 # Cards
 
-> Last generated: 2/12/2025 5:12:27 pm
+> Last generated: 3/12/2025 10:33:25 am
+
+## A Life to Love (Farewell)
+
+> This card is a nicknamed reprint of (Farewell)
+[Scryfall](https://scryfall.com/search?q=Farewell)
+### Notes
+
+ - Staple commander board wipe
 
 ## Acceptance
 
@@ -156,14 +164,6 @@ Your time left in this life is limited, why not make it count for something?
  - No direct representation in the video game, but I can easily imagine there are some people in Lumiere whose job is to be trying to recruit citizens who are soon to be gommaged, persuading them to embark on the next Expedition, to make use of the limited time they have left in this world.
  - Goblin Matron, but for Expeditioners with standard death bonus.
  - 3/10/2025: This + Tomorrow Comes + Expedition 70 gives us effectively 12 Expeditioner tutors. This may be overkill and the Expeditioner strategy too consistent and we may have to rework one or more of these cards. Further playtesting will tell us.
-
-## Farewell
-
-> This card is a reprint
-[Scryfall](https://scryfall.com/search?q=Farewell)
-### Notes
-
- - Obligatory Commander board wipe.
 
 ## Healing Light
 

@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 2/12/2025 4:52:07 pm
+> Last generated: 3/12/2025 10:33:25 am
 
 ## A Storm is Coming
 
@@ -889,6 +889,26 @@ Sword of Light — {2}{W}{B}, {T}: Separate creatures target opponent controls i
  - Sword of Light: In the game, The Lampmaster creates a large blade from light and swings it four times, dealing massive damage to the whole party and inflicting Blight.
     - Translated to a Fact or Fiction style "split into 2 piles" effect where opponent choose the pile to be destroyed and the other pile will all have toughness of 1 until end of turn (which is how I interpret the blight effect).
 
+## Last Stand of Expedition 33
+
+```
+WUBRG
+Kindred Sorcery - Expeditioner
+Domain — 
+Create a Chroma token and a Lumina token for each basic land type among lands you control.
+Target opponent loses 1 life and you gain 1 life for each basic land type among lands you control.
+Last Stand of Expedition 33 deals 2 damage to up to one target creature for each basic land type among lands you control.
+Draw a card for each basic land type among lands you control and discard three cards.
+```
+
+[card implementation](../custom/cards/l/last_stand_of_expedition_33.txt)
+
+### Design Notes
+
+ - In the game, when your main party dies in battle, you have an option to send in the reserve team. If you do, the game acknowledges your reserve team as "The Last Stand of Expedition 33"
+ - Gone with a variant of Last Stand, but based the bonuses on domain count.
+ - Wording is somewhat verbose, but no pre-existing domain card does this, so I'm playing it safe.
+
 ## Leave this Canvas!
 
 ```
@@ -1352,7 +1372,7 @@ Double Strike
 Simon enters with a foreboding counter.
 The dead are removed from the canvas — If a creature would be put into a graveyard from anywhere, exile it instead.
 Gathers Chroma — {B}{B}, {T}: Target creature has base toughness 1 until end of turn.
-The Expedition is removed from the canvas — {T}, Remove a foreboding counter: Choose a creature an opponent controls. Exile all creatures except for Simon and the chosen creature.
+The Expedition is removed from the canvas — {T}, Remove a foreboding counter from Simon: Choose a creature an opponent controls. Exile all creatures except for Simon and the chosen creature.
 
 6/6
 ```
