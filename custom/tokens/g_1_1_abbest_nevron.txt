@@ -1,0 +1,6 @@
+Name:Abbest
+ManaCost:no cost
+Colors:Green
+Types:Creature Nevron
+PT:1/1
+Oracle:

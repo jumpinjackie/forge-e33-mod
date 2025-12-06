@@ -1,0 +1,11 @@
+Name:Dualliste
+ManaCost:4 B R
+Types:Legendary Creature Nevron
+PT:3+*/3+*
+K:Double Strike
+S:Mode$ Continuous | CharacteristicDefining$ True | SetPower$ X | SetToughness$ X | Description$ CARDNAME's power and toughness are each equal to 3 plus the number of Blood tokens you control.
+SVar:X:Count$Valid Blood.token+YouCtrl/Plus.3
+T:Mode$ DamageDone | ValidSource$ Card.Self | ValidTarget$ Player | Execute$ TrigBlood | CombatDamage$ True | TriggerDescription$ Stormblood — Whenever CARDNAME deals combat damage, create a blood token.
+SVar:TrigBlood:DB$ Token | TokenScript$ c_a_blood_draw
+A:AB$ Animate | Cost$ B B Sac<1/Blood.token> | ValidTgts$ Creature | TgtPrompt$ Select target creature | Toughness$ 1 | SpellDescription$ Target creature has base toughness 1 until end of turn.
+Oracle:Double strike\nDualliste's power and toughness are each equal to 3 plus the number of Blood tokens you control.\nStormblood — Whenever Dualliste deals combat damage, create a blood token.\nApplies Inverted — {B}{B}, Sacrifice a blood token: Target creature has base toughness 1 until end of turn.

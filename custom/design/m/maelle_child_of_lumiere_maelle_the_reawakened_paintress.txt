@@ -2,8 +2,8 @@
 Maelle, Child of Lumiere
 [ManaCost]
 1
-W
 R
+W
 [Types]
 Legendary
 Creature

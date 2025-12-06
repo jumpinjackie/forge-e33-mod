@@ -1,0 +1,23 @@
+[Name]
+Bertrand Big Hands
+[ManaCost]
+3
+[Types]
+Legendary
+Artifact
+Creature
+Gestral
+[PT]
+3/3
+[Rarity]
+U
+[Oracle]
+Trample
+[FlavorText]
+Who's gonna go fight?
+- Limonsol, Matchmaker
+[ForgeScript]
+K:Trample
+[DesignNotes]
+ - In the game, Bertrand Big Hands is one of the contestants you can fight in the Gestral Arena.
+ - Mechanically, his moves aren't that impressive, only a strong forward punch. So gone for a vanilla 3/3 trampler.

@@ -1,0 +1,6 @@
+Name:Bertrand Big Hands
+ManaCost:3
+Types:Legendary Artifact Creature Gestral
+PT:3/3
+K:Trample
+Oracle:Trample

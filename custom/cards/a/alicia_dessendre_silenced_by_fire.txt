@@ -1,5 +1,5 @@
 Name:Alicia Dessendre, Silenced by Fire
-ManaCost:W R
+ManaCost:R W
 Types:Legendary Creature Human Painter
 PT:2/2
 S:Mode$ CantBeCast | ValidCard$ Card.nonPainter+nonGradient | Caster$ Player | NumLimitEachTurn$ 1 | Description$ Each player who has cast a non-Painter, non-Gradient spell this turn can’t cast additional non-Painter, non-Gradient spells.

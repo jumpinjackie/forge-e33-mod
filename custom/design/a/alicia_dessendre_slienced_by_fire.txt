@@ -1,8 +1,8 @@
 [Name]
 Alicia Dessendre, Silenced by Fire
 [ManaCost]
-W
 R
+W
 [Types]
 Legendary
 Creature

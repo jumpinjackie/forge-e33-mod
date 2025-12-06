@@ -1,0 +1,8 @@
+Name:Eveque
+ManaCost:3 R G
+Types:Legendary Creature Nevron
+PT:4/4
+K:etbCounter:SHIELD:1
+A:AB$ DealDamage | Cost$ 2 R T | ValidTgts$ Creature | NumDmg$ 2 | SpellDescription$ CARDNAME deals 2 damage to target creature.
+A:AB$ Token | Cost$ 2 G G T | TokenAmount$ 2 | TokenOwner$ You | TokenScript$ g_1_1_abbest_nevron | SpellDescription$ Create two 1/1 green Abbest Nevron token creatures.
+Oracle:Eveque enters with a shield counter. (If it would be dealt damage or destroyed, remove a shield counter from it instead.)\nCasts a spell — {2}{R}, {T}: Eveque deals 2 damage to target creature.\nSummons minions — {2}{G}{G}, {T}: Create two 1/1 green Nevron creature tokens named Abbest.

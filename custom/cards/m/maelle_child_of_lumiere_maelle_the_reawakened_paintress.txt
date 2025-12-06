@@ -1,5 +1,5 @@
 Name:Maelle, Child of Lumiere
-ManaCost:1 W R
+ManaCost:1 R W
 Types:Legendary Creature Human Expeditioner
 PT:3/3
 T:Mode$ Phase | Phase$ BeginCombat | ValidPlayer$ You | TriggerZones$ Battlefield | Execute$ DBRoll | TriggerDescription$ At the beginning of combat, roll a six-sided die.

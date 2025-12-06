@@ -1,0 +1,26 @@
+[Name]
+Danseuse Teacher
+[ManaCost]
+3
+W
+W
+[Types]
+Creature
+Nevron
+[Rarity]
+U
+[Artist]
+Sandfall Interactive
+[PT]
+4/4
+[Oracle]
+Vigilance
+{2}{W}, {T}: ~ deals 2 damage to target attacking or blocking creature.
+[FlavorText]
+How can you not care about the dance between life and death? It is thrilling, elegant, and the most intimate encounter you could ever have.
+[ForgeScript]
+K:Vigilance
+A:AB$ DealDamage | Cost$ 2 W T | ValidTgts$ Creature.attacking,Creature.blocking | TgtPrompt$ Select target attacking or blocking creature | NumDmg$ 2 | SpellDescription$ ~ deals 2 damage to target attacking or blocking creature.
+[DesignNotes]
+ - In the game, the Danseuse Teacher is an unfinished Nevron that rewards you with a costume if you can beat her parry challenge.
+ - Is white as that's the color we've designated for unfinished Nevrons.

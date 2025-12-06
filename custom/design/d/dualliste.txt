@@ -1,0 +1,31 @@
+[Name]
+Dualliste
+[ManaCost]
+4
+B
+R
+[Types]
+Legendary
+Creature
+Nevron
+[Rarity]
+R
+[PT]
+3+*/3+*
+[Oracle]
+Double strike
+~'s power and toughness are each equal to 3 plus the number of Blood tokens you control.
+Stormblood — Whenever ~ deals combat damage, create a blood token.
+Applies Inverted — {B}{B}, Sacrifice a blood token: Target creature has base toughness 1 until end of turn.
+[ForgeScript]
+K:Double Strike
+S:Mode$ Continuous | CharacteristicDefining$ True | SetPower$ X | SetToughness$ X | Description$ ~'s power and toughness are each equal to 3 plus the number of Blood tokens you control.
+SVar:X:Count$Valid Blood.token+YouCtrl/Plus.3
+T:Mode$ DamageDone | ValidSource$ Card.Self | ValidTarget$ Player | Execute$ TrigBlood | CombatDamage$ True | TriggerDescription$ Stormblood — Whenever ~ deals combat damage, create a blood token.
+SVar:TrigBlood:DB$ Token | TokenScript$ c_a_blood_draw
+A:AB$ Animate | Cost$ B B Sac<1/Blood.token> | ValidTgts$ Creature | TgtPrompt$ Select target creature | Toughness$ 1 | SpellDescription$ Target creature has base toughness 1 until end of turn.
+[DesignNotes]
+ - In the game, Dualliste is a mid-game boss of Act 2.
+ - Since the boss battle is in a death pit with a knee-deep pool of blood, all his abilities revolve around blood tokens.
+ - Double strike because he does a lot of combo attacks.
+ - Inverted status translated to setting a creature's base toughness to 1 until EOT.

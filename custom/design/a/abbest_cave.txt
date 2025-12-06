@@ -1,0 +1,20 @@
+[Name]
+Abbest Cave
+[ManaCost]
+no cost
+[Types]
+Land
+Cave
+[Rarity]
+U
+[Artist]
+Sandfall Interactive
+[Oracle]
+{T}: Add {C}.
+{4}{G}, {T}: Create a 1/1 green Nevron creature token named Abbest.
+[ForgeScript]
+A:AB$ Mana | Cost$ T | Produced$ C | SpellDescription$ Add {C}.
+A:AB$ Token | Cost$ 4 G T | TokenAmount$ 1 | TokenOwner$ You | TokenScript$ g_1_1_abbest_nevron | SpellDescription$ Create a 1/1 green Abbest Nevron creature token,
+[DesignNotes]
+ - In the game the Abbest Cave is a location where you can fight a Chromatic Abbest
+ - Repurposed as a Nevron token factory land.

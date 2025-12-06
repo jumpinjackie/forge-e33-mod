@@ -1,0 +1,35 @@
+[Name]
+Bourgeon
+[ManaCost]
+1
+W
+B
+R
+[Types]
+Creature
+Nevron
+[Rarity]
+U
+[PT]
+4/4
+[Oracle]
+Eats party member — When ~ enters, exile another target creature.
+When ~ leaves the battlefield, return the exiled card to the battlefield under its owner's control.
+Multi-hit combo — {2}{R}: ~ gains double strike until end of turn.
+Spits miasma — {2}{B}, {T}: ~ deals 2 damage to target creature. Put a stun counter on that creature.
+[ForgeScript]
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigExile | TriggerDescription$ When CARDNAME enters, exile another target creature.
+T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Any | ValidCard$ Card.Self | Execute$ TrigReturn | TriggerDescription$ When CARDNAME leaves the battlefield, return the exiled card to the battlefield under its owner's control.
+A:AB$ Pump | Cost$ 2 R | Defined$ Self | KW$ Double Strike | SpellDescription$ ~ gains double strike untile end of turn.
+A:AB$ DealDamage | Cost$ 2 B T | ValidTgts$ Creature | TgtPrompt$ Select target creature | NumDmg$ 2 | SubAbility$ DBStun | SpellDescription$ ~ deals 2 damage to target creature. Put a stun counter on that creature.
+SVar:DBStun:DB$ PutCounter | Defined$ Targeted | CounterType$ STUN | CounterNum$ 1 | IsCurse$ True
+SVar:TrigExile:DB$ ChangeZone | IsCurse$ True | ValidTgts$ Creature.Other | TgtPrompt$ Choose another target creature | Origin$ Battlefield | Destination$ Exile
+SVar:TrigReturn:DB$ ChangeZone | Defined$ ExiledWith | Origin$ Exile | Destination$ Battlefield
+SVar:PlayMain1:TRUE
+SVar:OblivionRing:TRUE
+[DesignNotes]
+ - In the game, Bourgeon is a semi-recurring boss.
+ - Key abilities mapped as follows:
+   - Eating a party member: An Oblivion Ring style exile effect on ETB that is released when this creature either dies or is stunned (by putting a stun counter on it)
+   - 3/4/5-hit combos: Double strike
+   - Spits miasma: A shock and stun on target creature.

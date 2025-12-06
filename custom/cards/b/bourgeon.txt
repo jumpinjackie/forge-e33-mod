@@ -1,0 +1,14 @@
+Name:Bourgeon
+ManaCost:1 W B R
+Types:Creature Nevron
+PT:4/4
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigExile | TriggerDescription$ When CARDNAME enters, exile another target creature.
+T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Any | ValidCard$ Card.Self | Execute$ TrigReturn | TriggerDescription$ When CARDNAME leaves the battlefield, return the exiled card to the battlefield under its owner's control.
+A:AB$ Pump | Cost$ 2 R | Defined$ Self | KW$ Double Strike | SpellDescription$ CARDNAME gains double strike untile end of turn.
+A:AB$ DealDamage | Cost$ 2 B T | ValidTgts$ Creature | TgtPrompt$ Select target creature | NumDmg$ 2 | SubAbility$ DBStun | SpellDescription$ CARDNAME deals 2 damage to target creature. Put a stun counter on that creature.
+SVar:DBStun:DB$ PutCounter | Defined$ Targeted | CounterType$ STUN | CounterNum$ 1 | IsCurse$ True
+SVar:TrigExile:DB$ ChangeZone | IsCurse$ True | ValidTgts$ Creature.Other | TgtPrompt$ Choose another target creature | Origin$ Battlefield | Destination$ Exile
+SVar:TrigReturn:DB$ ChangeZone | Defined$ ExiledWith | Origin$ Exile | Destination$ Battlefield
+SVar:PlayMain1:TRUE
+SVar:OblivionRing:TRUE
+Oracle:Eats party member — When this creature enters, exile another target creature.\nWhen this creature leaves the battlefield, return the exiled card to the battlefield under its owner's control.\nMulti-hit combo — {2}{R}: This creature gains double strike until end of turn.\nSpits miasma — {2}{B}, {T}: This creature deals 2 damage to target creature. Put a stun counter on that creature.
