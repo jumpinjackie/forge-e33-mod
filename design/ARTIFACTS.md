@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 2/12/2025 4:52:07 pm
+> Last generated: 6/12/2025 7:28:36 am
 
 ## A Rock for Francois
 
@@ -130,6 +130,26 @@ You found all the journals? Moshi will be so happy.
 
  - In the game, Berrami is an NPC you can turn in journals for colors of lumina.
  - Mechanically, I've translated this to milling cards from your library for lumina tokens.
+
+## Bertrand Big Hands
+
+```
+3
+Legendary Artifact Creature - Gestral
+Trample
+---
+Who's gonna go fight?
+- Limonsol, Matchmaker
+
+3/3
+```
+
+[card implementation](../custom/cards/b/bertrand_big_hands.txt)
+
+### Design Notes
+
+ - In the game, Bertrand Big Hands is one of the contestants you can fight in the Gestral Arena.
+ - Mechanically, his moves aren't that impressive, only a strong forward punch. So gone for a vanilla 3/3 trampler.
 
 ## Cheater Picto
 

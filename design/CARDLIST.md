@@ -29,7 +29,7 @@ From this list, card designs are spawned from it, which will eventually form the
 
 ## Card Name List
 
-Cards implemented: 314/328
+Cards implemented: 320/328
 
 [x] - Card is implemented or in development, [C] - Card is a commander reprint, [R] - Card is a regular reprint, [N] - Card is a nickname reprint, [ ] - Card is not implemented
 
@@ -37,7 +37,7 @@ Cards implemented: 314/328
 [x] A Rock for Francois
 [x] A Storm is Coming
 [x] Abbest
-[ ] Abbest Cave
+[x] Abbest Cave
 [x] Aberration
 [x] Acceptance
 [x] Alicia Dessendre, Silenced by Fire
@@ -55,13 +55,13 @@ Cards implemented: 314/328
 [ ] Barrier Breaker
 [x] Benisseur
 [x] Berrami, Collector of Journals
-[ ] Bertrand Big Hands
+[x] Bertrand Big Hands
 [C] Blade's Graveyard
 [ ] Blanche, the Unfinished Creation
 [C] Boat Graveyard
 [x] Boucheclier
 [x] Bound by Chains
-[ ] Bourgeon
+[x] Bourgeon
 [x] Braseleur
 [ ] Breaking Aura
 [x] Breaking Rules
@@ -93,7 +93,7 @@ Cards implemented: 314/328
 [x] Crushing Cavern
 [x] Crustal Crush
 [x] Danseuse
-[ ] Danseuse Teacher
+[x] Danseuse Teacher
 [x] Dark Shores
 [C] Dark Gestral Arena
 [x] Death Picto
@@ -104,7 +104,7 @@ Cards implemented: 314/328
 [x] Dessendre Family Portrait
 [x] Dominique Giant Feet
 [x] Dorrie
-[ ] Dualliste
+[x] Dualliste
 [x] Earth Rising
 [ ] Egide
 [x] Endless Tower
@@ -116,7 +116,7 @@ Cards implemented: 314/328
 [x] Esquie's Magic Mushrooms
 [x] Esquie's Nest
 [x] Eternal Ice
-[ ] Eveque
+[x] Eveque
 [x] Expedition 00 Tracker
 [x] Expedition 34 Mage
 [x] Expedition 35 Bridge
@@ -354,7 +354,7 @@ Cards implemented: 314/328
 [x] Urrie
 [x] Verisimilitude
 [x] Verso, Who Guards Truth With Lies
-[x] Verso's Burden
+[N] Verso's Burden
 [ ] Visages
 [x] Void Meteors
 [x] Volester

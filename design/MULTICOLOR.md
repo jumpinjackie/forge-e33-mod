@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 3/12/2025 10:33:25 am
+> Last generated: 6/12/2025 7:28:36 am
 
 ## A Storm is Coming
 
@@ -50,7 +50,7 @@ When this creature dies, target opponent creates a Lumina token.
 ## Alicia Dessendre, Silenced by Fire
 
 ```
-WR
+RW
 Legendary Creature - Human Painter
 Each player who has cast a non-Painter, non-Gradient spell this turn can’t cast additional non-Painter, non-Gradient spells.
 (Melds with Maelle, Child of Lumiere.)
@@ -119,6 +119,29 @@ When this creature dies, target opponent creates a Lumina token.
  - 13/10/2025: Removed Devoid and pivoted to WG instead of WR.
  - 21/10/2025: Granted a series of defensive abilities
  - 4/11/2025: Change color identity from WG to GR. All abilities costing white mana now cost red.
+
+## Bourgeon
+
+```
+1WBR
+Creature - Nevron
+Eats party member — When this creature enters, exile another target creature.
+When this creature leaves the battlefield, return the exiled card to the battlefield under its owner's control.
+Multi-hit combo — {2}{R}: This creature gains double strike until end of turn.
+Spits miasma — {2}{B}, {T}: This creature deals 2 damage to target creature. Put a stun counter on that creature.
+
+4/4
+```
+
+[card implementation](../custom/cards/b/bourgeon.txt)
+
+### Design Notes
+
+ - In the game, Bourgeon is a semi-recurring boss.
+ - Key abilities mapped as follows:
+   - Eating a party member: An Oblivion Ring style exile effect on ETB that is released when this creature either dies or is stunned (by putting a stun counter on it)
+   - 3/4/5-hit combos: Double strike
+   - Spits miasma: A shock and stun on target creature.
 
 ## Braseleur
 
@@ -341,6 +364,28 @@ When this creature dies, target opponent creates a Lumina token.
     - For the clone ability, I preserved the original triggering condition but went against making token copies as that seemed really degenerate as the cloning trigger would also pass on to the tokens.
  - 13/10/2025: Removed Devoid.
 
+## Dualliste
+
+```
+4BR
+Legendary Creature - Nevron
+Double strike
+Dualliste's power and toughness are each equal to 3 plus the number of Blood tokens you control.
+Stormblood — Whenever Dualliste deals combat damage, create a blood token.
+Applies Inverted — {B}{B}, Sacrifice a blood token: Target creature has base toughness 1 until end of turn.
+
+3+*/3+*
+```
+
+[card implementation](../custom/cards/d/dualliste.txt)
+
+### Design Notes
+
+ - In the game, Dualliste is a mid-game boss of Act 2.
+ - Since the boss battle is in a death pit with a knee-deep pool of blood, all his abilities revolve around blood tokens.
+ - Double strike because he does a lot of combo attacks.
+ - Inverted status translated to setting a creature's base toughness to 1 until EOT.
+
 ## Esquie, Friend of Verso
 
 ```
@@ -394,6 +439,24 @@ Esquie: I heard you, so I came.
 
  - In the game, Sciel discovers that Esquie saved her from drowning in the past, thus explaining why he referred to her as "my poor swimmer friend"
  - Modeled as a bounce spell with various bonuses stapled on.
+
+## Eveque
+
+```
+3RG
+Legendary Creature - Nevron
+Eveque enters with a shield counter. (If it would be dealt damage or destroyed, remove a shield counter from it instead.)
+Casts a spell — {2}{R}, {T}: Eveque deals 2 damage to target creature.
+Summons minions — {2}{G}{G}, {T}: Create two 1/1 green Nevron creature tokens named Abbest.
+
+4/4
+```
+
+[card implementation](../custom/cards/e/eveque.txt)
+
+### Design Notes
+
+ - In the game, Eveque is the first boss, encountered at the end of Spring Meadows.
 
 ## Expedition 34 Mage
 
@@ -984,7 +1047,7 @@ As long as even one of us stands, our fight is not over.
 ## Maelle, Child of Lumiere // Maelle, The Reawakened Paintress
 
 ```
-1WR
+1RW
 Legendary Creature - Human Expeditioner
 Stance Switch — At the beginning of combat, roll a six-sided die.
 1-2 | Offensive Stance — Maelle gains Vigilance and +2/+0 until your next turn

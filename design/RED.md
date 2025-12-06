@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 2/12/2025 4:52:07 pm
+> Last generated: 6/12/2025 7:28:36 am
 
 ## Anger
 

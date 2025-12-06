@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 2/12/2025 4:52:07 pm
+> Last generated: 6/12/2025 7:28:36 am
 
 ## Chapelier
 
@@ -361,22 +361,13 @@ You may have this creature enter as a copy of any nonlegendary Expeditioner crea
  - In Act 3 of the game, Renoir (now free) summons an assortment of Nevrons, including twisted copies of the citizens of Lumiere to carry out his mission of destroying the canvas.
  - Easy mechanical map to a clone/copy effect, but for flavor purposes, will only clone a nonlegendary Expeditioner.
 
-## Verso's Burden
+## Verso's Burden (Treacherous Link)
 
-```
-1B
-Enchantment - Aura
-Enchant creature
-All damage that would be dealt to enchanted creature is dealt to its controller instead.
----
-Sometimes, we paint the bars of our own prison. Your despair blinds you. You think you're ready to pay the price. But are you willing to let them pay the price for you?
-- Renoir, to Verso
-```
-
-[card implementation](../custom/cards/v/versos_burden.txt)
-
-### Design Notes
+> This card is a nicknamed reprint of (Treacherous Link)
+[Scryfall](https://scryfall.com/search?q=Treacherous Link)
+### Notes
 
  - In the game, Burden is one of Verso's skills. It transfers all status effects on various members of your party onto Verso himself.
  - Gone with 1:1 reprint of Treacherous Link.
+ - 5/12/2025: Converted to a nickname reprint of Treacherous Link
 

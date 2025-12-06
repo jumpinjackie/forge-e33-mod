@@ -1,6 +1,22 @@
 # Cards
 
-> Last generated: 2/12/2025 4:52:07 pm
+> Last generated: 6/12/2025 7:28:36 am
+
+## Abbest Cave
+
+```
+
+Land - Cave
+{T}: Add {C}.
+{4}{G}, {T}: Create a 1/1 green Nevron creature token named Abbest.
+```
+
+[card implementation](../custom/cards/a/abbest_cave.txt)
+
+### Design Notes
+
+ - In the game the Abbest Cave is a location where you can fight a Chromatic Abbest
+ - Repurposed as a Nevron token factory land.
 
 ## Blade's Graveyard (Caves of Koilos)
 

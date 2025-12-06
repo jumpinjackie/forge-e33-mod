@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 3/12/2025 10:33:25 am
+> Last generated: 6/12/2025 7:28:36 am
 
 ## A Life to Love (Farewell)
 
@@ -103,6 +103,26 @@ When this creature dies, target opponent creates a Lumina token. (It's an artifa
     - Granting shield counters
     - A temporary "humility" effect to represent silencing.
  - 13/10/2025: Removed Devoid.
+
+## Danseuse Teacher
+
+```
+3WW
+Creature - Nevron
+Vigilance
+{2}{W}, {T}: This creature deals 2 damage to target attacking or blocking creature.
+---
+How can you not care about the dance between life and death? It is thrilling, elegant, and the most intimate encounter you could ever have.
+
+4/4
+```
+
+[card implementation](../custom/cards/d/danseuse_teacher.txt)
+
+### Design Notes
+
+ - In the game, the Danseuse Teacher is an unfinished Nevron that rewards you with a costume if you can beat her parry challenge.
+ - Is white as that's the color we've designated for unfinished Nevrons.
 
 ## Expedition 49
 
