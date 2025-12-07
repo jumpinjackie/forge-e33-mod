@@ -1,0 +1,24 @@
+[Name]
+Expedition 47 Drunkard
+[ManaCost]
+2
+GW
+[Types]
+Creature
+Human
+Expeditioner
+[PT]
+1/4
+[Rarity]
+C
+[Oracle]
+Whenever ~ attacks, it gets +3/-3 until end of turn.
+$EXPEDITIONER_DEATH_ABILITY_TEXT
+[FlavorText]
+The trick is finding that perfect point where your nerves have calmed enough that your mind and body are one, but not so calm that your reactions are dulled. Some of the lads haven’t quite managed riding that edge, but I remain in full control of my body and thoughts!
+[ForgeScript]
+T:Mode$ Attacks | ValidCard$ Card.Self | Execute$ TrigPump | TriggerDescription$ Whenever ~ attacks, it gets +3/-3 until end of turn.
+SVar:TrigPump:DB$ Pump | Defined$ Self | NumAtt$ +3 | NumDef$ -3
+$EXPEDITIONER_DEATH_ABILITY
+[DesignNotes]
+ - Modeled drunkeness as temporary high power / low toughness

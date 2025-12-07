@@ -1,0 +1,22 @@
+[Name]
+Expedition 57 Siege Engine
+[ManaCost]
+5
+R
+[Types]
+Artifact
+Creature
+Expeditioner
+[PT]
+5/5
+[Rarity]
+C
+[Oracle]
+Trample
+[FlavorText]
+Our lives are forfeit anyway, but is there perhaps a better way to spend such precious coin?
+- Carla, Expedition 57
+[ForgeScript]
+K:Trample
+[DesignNotes]
+ - Vanilla trampling artifact creature. No chroma death bonus because it's not a human.

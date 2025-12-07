@@ -1,0 +1,26 @@
+[Name]
+Expedition 68 Navigator
+[ManaCost]
+2
+U
+[Types]
+Creature
+Human
+Expeditioner
+[PT]
+2/2
+[Rarity]
+C
+[Oracle]
+When ~ enters or attacks, create a Map token. (It’s an artifact with “{1}, {T}, Sacrifice this token: Target creature you control explores. Activate only as a sorcery.”)
+$EXPEDITIONER_DEATH_ABILITY_TEXT
+[FlavorText]
+The Paintress sent a storm to overcome us, but it is we who have overcome the storm! After surviving that, crushing those Nevrons was almost an afterthought.
+- Elodie, Expedition 68
+[ForgeScript]
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigMap | TriggerDescription$ When ~ enters or attacks, create a Map token.
+T:Mode$ Attacks | ValidCard$ Card.Self | Execute$ TrigMap | Secondary$ True | TriggerZones$ Battlefield | TriggerDescription$ When ~ enters or attacks, create a Map token.
+SVar:TrigMap:DB$ Token | TokenAmount$ 1 | TokenScript$ c_a_map_sac_explore | TokenOwner$ You
+$EXPEDITIONER_DEATH_ABILITY
+[DesignNotes]
+ - Navigator ability mapped to map token generation

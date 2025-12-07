@@ -1,0 +1,9 @@
+Name:Expedition 47 Drunkard
+ManaCost:2 GW
+Types:Creature Human Expeditioner
+PT:1/4
+T:Mode$ Attacks | ValidCard$ Card.Self | Execute$ TrigPump | TriggerDescription$ Whenever CARDNAME attacks, it gets +3/-3 until end of turn.
+SVar:TrigPump:DB$ Pump | Defined$ Self | NumAtt$ +3 | NumDef$ -3
+T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Card.Self | Execute$ TrigToken | TriggerDescription$ When CARDNAME dies, create a Chroma token
+SVar:TrigToken:DB$ Token | TokenScript$ c_a_chroma | TokenOwner$ You | TokenAmount$ 1
+Oracle:Whenever this creature attacks, it gets +3/-3 until end of turn.\nWhen this creature dies, create a Chroma token.

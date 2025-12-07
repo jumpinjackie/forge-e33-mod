@@ -1,0 +1,10 @@
+Name:Expedition 68 Navigator
+ManaCost:2 U
+Types:Creature Human Expeditioner
+PT:2/2
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigMap | TriggerDescription$ When CARDNAME enters or attacks, create a Map token.
+T:Mode$ Attacks | ValidCard$ Card.Self | Execute$ TrigMap | Secondary$ True | TriggerZones$ Battlefield | TriggerDescription$ When CARDNAME enters or attacks, create a Map token.
+SVar:TrigMap:DB$ Token | TokenAmount$ 1 | TokenScript$ c_a_map_sac_explore | TokenOwner$ You
+T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Card.Self | Execute$ TrigToken | TriggerDescription$ When CARDNAME dies, create a Chroma token
+SVar:TrigToken:DB$ Token | TokenScript$ c_a_chroma | TokenOwner$ You | TokenAmount$ 1
+Oracle:When this creature enters or attacks, create a Map token. (It’s an artifact with “{1}, {T}, Sacrifice this token: Target creature you control explores. Activate only as a sorcery.”)\nWhen this creature dies, create a Chroma token.

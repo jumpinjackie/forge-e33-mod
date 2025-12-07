@@ -1,0 +1,10 @@
+Name:Expedition Flotilla
+ManaCost:4
+Types:Artifact Creature Expeditioner Vehicle
+PT:4/4
+T:Mode$ Attacks | ValidCard$ Card.Self | CheckSVar$ X | TriggerZones$ Battlefield | Execute$ TrigExplore | TriggerDescription$ Whenever this vehicle attacks, if an Expeditioner crewed it this turn, it explores.
+SVar:TrigExplore:DB$ Explore
+SVar:X:Crewed$Valid Expeditioner
+K:Crew:2
+SVar:TrigDraw:DB$ Draw | NumCards$ 1
+Oracle:Whenever this vehicle attacks, if an Expeditioner crewed it this turn, it explores. (Reveal the top card of your library. Put that card into your hand if it’s a land. Otherwise, put a +1/+1 counter on this creature, then put the card back or put it into your graveyard.)\nCrew 2

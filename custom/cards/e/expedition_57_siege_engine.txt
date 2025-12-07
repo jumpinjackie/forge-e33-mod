@@ -1,0 +1,6 @@
+Name:Expedition 57 Siege Engine
+ManaCost:5 R
+Types:Artifact Creature Expeditioner
+PT:5/5
+K:Trample
+Oracle:Trample

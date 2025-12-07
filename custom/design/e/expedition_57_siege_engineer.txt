@@ -1,0 +1,25 @@
+[Name]
+Expedition 57 Siege Engineer
+[ManaCost]
+2
+R
+[Types]
+Creature
+Human
+Expeditioner
+Artificer
+[PT]
+2/2
+[Rarity]
+C
+[Oracle]
+Sacrifice an artifact: Target creature gets +1/+1 until end of turn.
+$EXPEDITIONER_DEATH_ABILITY_TEXT
+[FlavorText]
+I dare not show my true feelings. As Commander, I cannot yield to fear. But I can’t help but wonder, is pressing forward the correct course of action?
+- Carla, Expedition 57
+[ForgeScript]
+A:AB$ Pump | Cost$ Sac<1/Artifact> | ValidTgts$ Creature | TgtPrompt$ Select target creature | NumAtt$ +1 | NumDef$ +1 | SpellDescription$ Target creature gets +1/+1 until end of turn.
+$EXPEDITIONER_DEATH_ABILITY
+[DesignNotes]
+ - Mapped siege engineering to temp creature pump from saccing artifacts.
