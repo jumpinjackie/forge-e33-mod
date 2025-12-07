@@ -1,0 +1,26 @@
+[Name]
+Gestral Bazaar
+[ManaCost]
+4
+R
+[Types]
+Kindred
+Enchantment
+Gestral
+Aura
+[Rarity]
+C
+[Oracle]
+Enchant Land
+Enchanted land has “{T}, Discard a card: Draw a card.”
+[FlavorText]
+Yahoo! I can sell stuff! You gots Chroma, yeh?
+- Delsitra
+[ForgeScript]
+K:Enchant:Land
+SVar:AttachAILogic:Pump
+S:Mode$ Continuous | Affected$ Card.EnchantedBy | AddAbility$ UCDraw | Description$ Enchanted land has "{T}, Discard a card: Draw a card."
+SVar:UCDraw:AB$ Draw | Cost$ T Discard<1/Card> | NumCards$ 1 | SpellDescription$ Draw a card.
+SVar:NonStackingAttachEffect:True
+[DesignNotes]
+ - Gestral-aligned functional reprint of Tin Street Market

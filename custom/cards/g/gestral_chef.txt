@@ -1,0 +1,8 @@
+Name:Gestral Chef
+ManaCost:2
+Types:Artifact Creature Gestral
+PT:1/2
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigFood | TriggerDescription$ When CARDNAME enters or dies, create a Food token.
+T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Card.Self | Execute$ TrigFood | Secondary$ True | TriggerDescription$ When CARDNAME enters or dies, create a Food token.
+SVar:TrigFood:DB$ Token | TokenAmount$ 1 | TokenScript$ c_a_food_sac | TokenOwner$ You
+Oracle:When this creature enters or dies, create a Food token. (It’s an artifact with “{2}, {T}, Sacrifice this token: You gain 3 life.”)

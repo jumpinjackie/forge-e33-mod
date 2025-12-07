@@ -1,0 +1,12 @@
+[Name]
+Fracture Survivor
+[ManaCost]
+W
+[IsReprint]
+true
+[NicknameFor]
+Veteran Survivor
+[Artist]
+Sandfall Interactive
+[DesignNotes]
+ - Nickname reprint of Veteran Survivor

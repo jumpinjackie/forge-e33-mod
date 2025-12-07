@@ -1,0 +1,9 @@
+Name:Gestral Bazaar
+ManaCost:4 R
+Types:Kindred Enchantment Gestral Aura
+K:Enchant:Land
+SVar:AttachAILogic:Pump
+S:Mode$ Continuous | Affected$ Card.EnchantedBy | AddAbility$ UCDraw | Description$ Enchanted land has "{T}, Discard a card: Draw a card."
+SVar:UCDraw:AB$ Draw | Cost$ T Discard<1/Card> | NumCards$ 1 | SpellDescription$ Draw a card.
+SVar:NonStackingAttachEffect:True
+Oracle:Enchant Land\nEnchanted land has “{T}, Discard a card: Draw a card.”
