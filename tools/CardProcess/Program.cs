@@ -1173,12 +1173,20 @@ public class GenAllCommand : BaseCommand
                     {
                         if (design.IsReprint)
                         {
-                            if (design.IsCommander)
-                                line = $"[C] {line}";
-                            else if (design.NicknameFor is not null)
-                                line = $"[N] {line}";
+                            if (design.NicknameFor is not null)
+                            {
+                                if (design.IsCommander)
+                                    line = $"[Z] {line}";
+                                else
+                                    line = $"[N] {line}";
+                            }
                             else
-                                line = $"[R] {line}";
+                            {
+                                if (design.IsCommander)
+                                    line = $"[C] {line}";
+                                else
+                                    line = $"[R] {line}";
+                            }   
                         }
                         else
                         {
@@ -1197,8 +1205,8 @@ public class GenAllCommand : BaseCommand
             line = await srCardList.ReadLineAsync();
         }
 
-        sbCardList.Replace("%_IMPL_STATUS_%", $"Cards implemented: {cards.Count}/{cardNameTotal}");
-        sbCardList.Replace("%_IMPL_LEGEND_%", "[x] - Card is implemented or in development, [C] - Card is a commander reprint, [R] - Card is a regular reprint, [N] - Card is a nickname reprint, [ ] - Card is not implemented");
+        sbCardList.Replace("%_IMPL_STATUS_%", $"Cards implemented: {cards.Count}");
+        sbCardList.Replace("%_IMPL_LEGEND_%", "[x] - Card is implemented or in development, [C] - Card is a commander reprint, [R] - Card is a regular reprint, [N] - Card is a nickname reprint, [Z] - Card is a nickname reprint for commander [ ] - Card is not implemented");
 
         await File.WriteAllTextAsync(cardListOutFile, sbCardList.ToString());
         await stdout.WriteLineAsync("Updated CARDLIST.md");
