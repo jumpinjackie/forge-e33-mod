@@ -9,6 +9,8 @@ public class CardFaceDesign
 {
     public string? Name { get; set; }
 
+    public string? InvariantName { get; set; }
+
     public string[]? ManaCost { get; set; }
 
     public string[]? ColorIdentity { get; set; }
@@ -71,6 +73,9 @@ public class CardFaceDesign
         {
             case nameof(Name):
                 Name = string.Join(" ", buffer);
+                break;
+            case nameof(InvariantName):
+                InvariantName = string.Join(" ", buffer);
                 break;
             case nameof(ManaCost):
                 ManaCost = buffer.ToArray();
@@ -456,10 +461,42 @@ public class CardMasterDesign(string designFile)
             return FaceType switch
             {
                 CardFaceType.Regular => FrontFull.Name,
-                CardFaceType.SplitRoom => SplitLeft.Name + " // " + SplitRight.Name,
-                CardFaceType.SplitFuse => SplitLeft.Name + " // " + SplitRight.Name,
-                CardFaceType.Meld => FrontFull.Name + " // " + MeldTarget.Name,
-                CardFaceType.DoubleFaced => FrontFull.Name + " // " + BackFull.Name,
+                CardFaceType.SplitRoom => DualName(SplitLeft, SplitRight, false),
+                CardFaceType.SplitFuse => DualName(SplitLeft, SplitRight, false),
+                CardFaceType.Meld => DualName(FrontFull, MeldTarget, false),
+                CardFaceType.DoubleFaced => DualName(FrontFull, BackFull, false),
+                _ => throw new UnreachableException()
+            };
+#pragma warning restore CS8602 // Dereference of a possibly null reference.
+#pragma warning restore CS8603 // Possible null reference return.
+        }
+    }
+
+    string DualName(CardFaceDesign? thisFace, CardFaceDesign? otherFace, bool invariantFirst)
+    {
+        if (invariantFirst)
+        {
+            return (thisFace.InvariantName ?? thisFace.Name) + " // " + (otherFace.InvariantName ?? otherFace.Name);
+        }
+        else
+        {
+            return thisFace.Name + " // " + otherFace.Name;
+        }
+    }
+
+    public string? InvariantName
+    {
+        get
+        {
+#pragma warning disable CS8603 // Possible null reference return.
+#pragma warning disable CS8602 // Dereference of a possibly null reference.
+            return FaceType switch
+            {
+                CardFaceType.Regular => FrontFull.InvariantName,
+                CardFaceType.SplitRoom => DualName(SplitLeft, SplitRight, true),
+                CardFaceType.SplitFuse => DualName(SplitLeft, SplitRight, true),
+                CardFaceType.Meld => DualName(FrontFull, MeldTarget, true),
+                CardFaceType.DoubleFaced => DualName(FrontFull, BackFull, true),
                 _ => throw new UnreachableException()
             };
 #pragma warning restore CS8602 // Dereference of a possibly null reference.
@@ -630,6 +667,7 @@ public class CardMasterDesign(string designFile)
             switch (line)
             {
                 case "[Name]":
+                case "[InvariantName]":
                 case "[Rarity]":
                 case "[Artist]":
                 case "[ArtNotes]":
@@ -700,7 +738,6 @@ public class CardMasterDesign(string designFile)
     {
         var scriptName = this.ScriptName;
         var firstLetter = scriptName.First();
-
         var fileName = Path.Combine(cardsDir.FullName, $"{firstLetter}", $"{scriptName}.txt");
         var fi = new FileInfo(fileName);
         if (fi.Directory is not null && !fi.Directory.Exists)
@@ -758,7 +795,7 @@ public class CardMasterDesign(string designFile)
     {
         get
         {
-            return this.Name.ToLower().Replace(" // ", "_").Replace("-", "_").Replace(":", "").Replace("'", "").Replace("!", "").Replace(",", "").Replace(" ", "_");
+            return (this.InvariantName ?? this.Name).ToLower().Replace(" // ", "_").Replace("-", "_").Replace(":", "").Replace("'", "").Replace("!", "").Replace(",", "").Replace(" ", "_");
         }
     }
 
