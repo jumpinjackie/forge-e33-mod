@@ -1,0 +1,14 @@
+[Name]
+Mirage Mirror
+[Types]
+Artifact
+[Rarity]
+R
+[IsReprint]
+true
+[IsCommander]
+true
+[FlavorText]
+Art can be a Window and art can be a Mirror. And great art. Great art is both. Son, you'll never be a true artist if there's always a mask between you and the viewer, especially when the viewer is you...
+[Artist]
+Craig J Spearing

@@ -1,0 +1,12 @@
+[Name]
+Patchwork Banner
+[Types]
+Artifact
+[IsReprint]
+true
+[IsCommander]
+true
+[Rarity]
+U
+[Artist]
+Sarah Finnigan

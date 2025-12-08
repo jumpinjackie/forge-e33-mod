@@ -407,15 +407,6 @@ No ideas yet.
 
 No ideas yet.
 
-> The Manor
-> Unknown: Art can be a Window and art can be a Mirror. And great art. Great art is both. Son, you'll never be a true artist if there's always a mask between you and the viewer, especially when the viewer is you...
-
-Reprint of Mirror Gallery? It would be the most flavorful, but also quite useless in cube ro commander paper play since there will only ever be 1 copy of anything anyways.
-
-Reprint of Mirage Mirror?
-Reprint of Mirror of the Forebears?
-Reprint of Mirrorweave?
-
 > Act 2: Monolith Interior
 > Renoir: If saving you means losing you then so be it.
 
@@ -425,13 +416,6 @@ No ideas yet.
 > Renoir: WE are your family. You would condemn us all to die, for what? Who do you really save with your sacrifice?
 
 Some card centered around betrayal or switching allegiance.
-
-> Act 3: Camp
-> Esquie: Mmm. Yeah. I get sad too, when I lose my stones. But I always find them again. You will find them again too.
-
-Some card that interacts with rock permanents.
-
-If we made a Lost // Found split card this would be great flavor text, except no split card ever has flavor text! Or we could be a trailblazer!
 
 > Act 3: Lumiere post-gommage. Renoir, after Curator transformation.
 > Renoir: I know it seems absurd to offer oblivion as recompense, but perhaps that's the outcome we both desire.

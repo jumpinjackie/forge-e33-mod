@@ -29,9 +29,9 @@ From this list, card designs are spawned from it, which will eventually form the
 
 ## Card Name List
 
-Cards implemented: 320/328
+Cards implemented: 338
 
-[x] - Card is implemented or in development, [C] - Card is a commander reprint, [R] - Card is a regular reprint, [N] - Card is a nickname reprint, [ ] - Card is not implemented
+[x] - Card is implemented or in development, [C] - Card is a commander reprint, [R] - Card is a regular reprint, [N] - Card is a nickname reprint, [Z] - Card is a nickname reprint for commander [ ] - Card is not implemented
 
 ```
 [x] A Rock for Francois
@@ -56,9 +56,9 @@ Cards implemented: 320/328
 [x] Benisseur
 [x] Berrami, Collector of Journals
 [x] Bertrand Big Hands
-[C] Blade's Graveyard
+[Z] Blade's Graveyard
 [ ] Blanche, the Unfinished Creation
-[C] Boat Graveyard
+[Z] Boat Graveyard
 [x] Boucheclier
 [x] Bound by Chains
 [x] Bourgeon
@@ -87,7 +87,7 @@ Cards implemented: 320/328
 [x] Clea Dessendre, Seeking Vengeance
 [x] Clea's Chromatic Mastery
 [x] Closure
-[C] Crimson Forest
+[Z] Crimson Forest
 [x] Crippling Tsunami
 [x] Cruler
 [x] Crushing Cavern
@@ -95,7 +95,7 @@ Cards implemented: 320/328
 [x] Danseuse
 [x] Danseuse Teacher
 [x] Dark Shores
-[C] Dark Gestral Arena
+[Z] Dark Gestral Arena
 [x] Death Picto
 [ ] Degagement
 [x] Demineur
@@ -123,27 +123,27 @@ Cards implemented: 320/328
 [x] Expedition 40 Glider
 [x] Expedition 41
 [x] Expedition 43 Submersible
-[ ] Expedition 47 Drunkard
+[x] Expedition 47 Drunkard
 [ ] Expedition 48
 [x] Expedition 49
 [x] Expedition 49 Healer
 [x] Expedition 50 Ferris Wheel
 [x] Expedition 53 Herbalist
-[ ] Expedition 54 Dissident
+[x] Expedition 54 Dissident
 [x] Expedition 55 Drummer
 [x] Expedition 55 Trumpeter
-[ ] Expedition 57 Siege Engine
-[ ] Expedition 57 Siege Engineer
+[x] Expedition 57 Siege Engine
+[x] Expedition 57 Siege Engineer
 [x] Expedition 59
 [x] Expedition 59 Chef
 [x] Expedition 60
-[ ] Expedition 60 Messenger
+[x] Expedition 60 Messenger
 [x] Expedition 62 Hunter
 [ ] Expedition 63
 [x] Expedition 63 Driver
 [x] Expedition 64 Radio
 [x] Expedition 67 Demolitions Expert
-[ ] Expedition 68 Navigator
+[x] Expedition 68 Navigator
 [x] Expedition 69
 [x] Expedition 69 Explorer
 [x] Expedition 69 Mountaineer
@@ -155,7 +155,7 @@ Cards implemented: 320/328
 [x] Expedition Cache
 [x] Expedition Camp
 [x] Expedition Flag
-[ ] Expedition Flotilla
+[x] Expedition Flotilla
 [x] Expedition Recruiter
 [N] Falling Leaves
 [ ] Fender's Flurry
@@ -169,19 +169,19 @@ Cards implemented: 320/328
 [x] For Those Who Come After
 [x] Forgotten Battlefield
 [x] Fortune's Fury
-[ ] Fracture Survivor
+[N] Fracture Survivor
 [x] Francois, Waiting for Clea
-[C] Frozen Hearts
+[Z] Frozen Hearts
 [x] Full Deck
-[ ] Gargant
+[x] Gargant
 [x] Gestral Arena
 [x] Gestral Ascension Challenge
-[ ] Gestral Bazaar
+[x] Gestral Bazaar
 [x] Gestral Beach
-[ ] Gestral Bodyguard
-[ ] Gestral Chef
+[x] Gestral Bodyguard
+[x] Gestral Chef
 [x] Gestral Climbing Challenge
-[ ] Gestral Doctor
+[x] Gestral Doctor
 [x] Gestral Fighter
 [x] Gestral Foot Race Challenge
 [x] Gestral Lackey
@@ -196,14 +196,14 @@ Cards implemented: 320/328
 [x] Gestral Warrior
 [x] Gestral Worker
 [x] Get Out Of My Way!
-[ ] Giant Sapling
+[x] Giant Sapling
 [x] Goblu
 [x] Golgra, Gestral Chief
 [x] Gommage
 [x] Gradient Charge
 [x] Gradient Counter
 [x] Grandis Fashionist
-[ ] Grandis Merchant
+[x] Grandis Merchant
 [ ] Greatsword Cultist
 [x] Grosse Tete
 [x] Gustave, Lumiere Engineer
@@ -226,7 +226,7 @@ Cards implemented: 320/328
 [x] Limonsol, Matchmaker
 [x] Lorieniso, Gestral Musician
 [x] Lost Gestral
-[C] Lost Woods
+[Z] Lost Woods
 [x] Lumiere Aquafarm
 [x] Lumiere Assault
 [x] Lumiere Flower Stand
@@ -299,10 +299,10 @@ Cards implemented: 320/328
 [x] Serpenphare
 [x] Shot Picto
 [x] Simon, Consort of Clea // Simon, The Divergent Star
-[C] Sinister Cave
+[Z] Sinister Cave
 [x] Sirene's Coliseum
 [x] Sky Break
-[C] Sky Island
+[Z] Sky Island
 [x] Soarrie
 [ ] Sorrowful Chapelier
 [x] Sprong
@@ -324,7 +324,7 @@ Cards implemented: 320/328
 [x] The Hauler
 [N] The Indigo Tree
 [ ] The Mask Keeper
-[C] The Meadows
+[Z] The Meadows
 [x] The Monolith
 [x] The Monolith Interior
 [x] The Paintress // Aline Dessendre, Stricken by Grief
@@ -360,7 +360,7 @@ Cards implemented: 320/328
 [x] Volester
 [x] Whee // Whoo
 [x] When One Falls // We Continue
-[C] White Sands
+[Z] White Sands
 [N] Yellow Harvest
 ```
 
@@ -407,15 +407,6 @@ No ideas yet.
 
 No ideas yet.
 
-> The Manor
-> Unknown: Art can be a Window and art can be a Mirror. And great art. Great art is both. Son, you'll never be a true artist if there's always a mask between you and the viewer, especially when the viewer is you...
-
-Reprint of Mirror Gallery? It would be the most flavorful, but also quite useless in cube ro commander paper play since there will only ever be 1 copy of anything anyways.
-
-Reprint of Mirage Mirror?
-Reprint of Mirror of the Forebears?
-Reprint of Mirrorweave?
-
 > Act 2: Monolith Interior
 > Renoir: If saving you means losing you then so be it.
 
@@ -425,13 +416,6 @@ No ideas yet.
 > Renoir: WE are your family. You would condemn us all to die, for what? Who do you really save with your sacrifice?
 
 Some card centered around betrayal or switching allegiance.
-
-> Act 3: Camp
-> Esquie: Mmm. Yeah. I get sad too, when I lose my stones. But I always find them again. You will find them again too.
-
-Some card that interacts with rock permanents.
-
-If we made a Lost // Found split card this would be great flavor text, except no split card ever has flavor text! Or we could be a trailblazer!
 
 > Act 3: Lumiere post-gommage. Renoir, after Curator transformation.
 > Renoir: I know it seems absurd to offer oblivion as recompense, but perhaps that's the outcome we both desire.
