@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 6/12/2025 7:28:36 am
+> Last generated: 8/12/2025 6:17:33 pm
 
 ## A Life to Love (Farewell)
 
@@ -164,6 +164,26 @@ For our allies who come after, sadly our lives may have proven that defense is b
  - In the game, Expedition 49 employed strong defensive and healing tactics against Nevrons which proved ineffective as their offensive capabilities were really weak.
  - Easy mechanical map to a creature with life gain and damage prevention abilities.
 
+## Expedition 54 Dissident
+
+```
+1W
+Creature - Human Expeditioner
+When this creature dies, create a Chroma token.
+---
+Lumiere operates a certain way. It favours a certain group and a certain outcome and if you question the Council, well, the Council’s going to question you.
+Push too hard to change things and you just might end up on the next Expedition.
+So. Nothing ever changes. They just send us out to die. Dissenters. And the status quo continues. At least out here, I don’t have to pretend anymore.
+
+2/2
+```
+
+[card implementation](../custom/cards/e/expedition_54_dissident.txt)
+
+### Design Notes
+
+ - Vanilla bear wtih Rebel sub-type (as a synonmym of dissent)
+
 ## Expedition Recruiter
 
 ```
@@ -184,6 +204,14 @@ Your time left in this life is limited, why not make it count for something?
  - No direct representation in the video game, but I can easily imagine there are some people in Lumiere whose job is to be trying to recruit citizens who are soon to be gommaged, persuading them to embark on the next Expedition, to make use of the limited time they have left in this world.
  - Goblin Matron, but for Expeditioners with standard death bonus.
  - 3/10/2025: This + Tomorrow Comes + Expedition 70 gives us effectively 12 Expeditioner tutors. This may be overkill and the Expeditioner strategy too consistent and we may have to rework one or more of these cards. Further playtesting will tell us.
+
+## Fracture Survivor (Veteran Survivor)
+
+> This card is a nicknamed reprint of (Veteran Survivor)
+[Scryfall](https://scryfall.com/search?q=Veteran Survivor)
+### Notes
+
+ - Nickname reprint of Veteran Survivor
 
 ## Healing Light
 

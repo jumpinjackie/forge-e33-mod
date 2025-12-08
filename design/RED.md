@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 6/12/2025 7:28:36 am
+> Last generated: 8/12/2025 6:17:33 pm
 
 ## Anger
 
@@ -116,6 +116,45 @@ This only truly ends if you destroy the canvas, and that means stopping the fina
  - This symbolizes the moment in the game where real Alicia enters Verso's canvas to try and help real Renoir in expelling Aline out of the canvas, but ends up being consumed by Aline's chroma and is "reborn" as Maelle.
  - Mechanically/thematically translated to near carbon copy of Through the Breach.
 
+## Expedition 57 Siege Engine
+
+```
+5R
+Artifact Creature - Expeditioner
+Trample
+---
+Our lives are forfeit anyway, but is there perhaps a better way to spend such precious coin?
+- Carla, Expedition 57
+
+5/5
+```
+
+[card implementation](../custom/cards/e/expedition_57_siege_engine.txt)
+
+### Design Notes
+
+ - Vanilla trampling artifact creature. No chroma death bonus because it's not a human.
+
+## Expedition 57 Siege Engineer
+
+```
+2R
+Creature - Human Expeditioner Artificer
+Sacrifice an artifact: Target creature gets +1/+1 until end of turn.
+When this creature dies, create a Chroma token.
+---
+I dare not show my true feelings. As Commander, I cannot yield to fear. But I can’t help but wonder, is pressing forward the correct course of action?
+- Carla, Expedition 57
+
+2/2
+```
+
+[card implementation](../custom/cards/e/expedition_57_siege_engineer.txt)
+
+### Design Notes
+
+ - Mapped siege engineering to temp creature pump from saccing artifacts.
+
 ## Fortune's Fury
 
 ```
@@ -135,6 +174,24 @@ Lady luck smiled today!
  - In the game, this is Sciel's ability that grants double-damage to one of her allies.
  - Easy mechanical map to double-strike
  - 18/10/2025: Added lumina bonus
+
+## Gestral Bazaar
+
+```
+4R
+Kindred Enchantment - Gestral Aura
+Enchant Land
+Enchanted land has “{T}, Discard a card: Draw a card.”
+---
+Yahoo! I can sell stuff! You gots Chroma, yeh?
+- Delsitra
+```
+
+[card implementation](../custom/cards/g/gestral_bazaar.txt)
+
+### Design Notes
+
+ - Gestral-aligned functional reprint of Tin Street Market
 
 ## Gestral Volleyball Strike
 

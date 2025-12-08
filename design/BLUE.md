@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 6/12/2025 7:28:36 am
+> Last generated: 8/12/2025 6:17:33 pm
 
 ## An Advantage!
 
@@ -269,6 +269,26 @@ The Paintress must be laughing. Diverting the resources of the entire Engineerin
 
  - In the game, Expedition 43 tried using Submarines to traverse the continent without encountering Nevrons. This ended in failure when they were wiped out by Serpenphare.
  - Easy mechanical map to a vehicle. Mostly adapted from Silent Submersible.
+
+## Expedition 68 Navigator
+
+```
+2U
+Creature - Human Expeditioner
+When this creature enters or attacks, create a Map token. (It’s an artifact with “{1}, {T}, Sacrifice this token: Target creature you control explores. Activate only as a sorcery.”)
+When this creature dies, create a Chroma token.
+---
+The Paintress sent a storm to overcome us, but it is we who have overcome the storm! After surviving that, crushing those Nevrons was almost an afterthought.
+- Elodie, Expedition 68
+
+2/2
+```
+
+[card implementation](../custom/cards/e/expedition_68_navigator.txt)
+
+### Design Notes
+
+ - Navigator ability mapped to map token generation
 
 ## Expedition 78
 

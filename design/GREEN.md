@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 6/12/2025 7:28:36 am
+> Last generated: 8/12/2025 6:17:33 pm
 
 ## Abbest
 
@@ -141,6 +141,26 @@ When this creature dies, create a Chroma token.
 
  - In the game, Expedition 55 tried using musically-augmented pictos. This was mostly effective until they encountered Sirene whose minions and herself were immune to these pictos.
  - Since the main theme of this Expedition was music, it can be safely assumed that most of the crew were musicians or were proficient in one kind of music, giving us ample design space to fill out the Expeditioner creature roster with various creatures of various utility. In this case, I've gone with a drummer and a lord buff effect.
+
+## Expedition 60 Messenger
+
+```
+3G
+Creature - Human Expeditioner Artificer
+When this creature leaves the battlefield, investigate (Create a Clue token. It’s an artifact with “{2}, Sacrifice this token: Draw a card.”)
+This creature gets +2/+2 as long as it’s un-modified. (Equipment, Auras you control, and counters are modifications.)
+When this creature dies, create a Chroma token.
+
+2/2
+```
+
+[card implementation](../custom/cards/e/expedition_60_messenger.txt)
+
+### Design Notes
+
+ - Depicts the member of the gigachad expedition that almost made it back to Lumiere to relay the message about the true enemy.
+ - The clue token left behind represents the expedition journal.
+ - Has un-modified buffs because these gigachads don't require pithy things like clothing and armor.
 
 ## Expedition 69
 

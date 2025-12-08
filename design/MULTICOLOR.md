@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 6/12/2025 7:28:36 am
+> Last generated: 8/12/2025 6:17:33 pm
 
 ## A Storm is Coming
 
@@ -495,6 +495,25 @@ III — Destroy all Nevrons. Create a Lumina token for each Nevron destroyed thi
  - Journal is a story of expeditioners engaged in a competition to see who can kill the most Nevrons.
  - Obvious mechanical map to just killing Nevrons, and more Nevrons.
 
+## Expedition 47 Drunkard
+
+```
+2(G/W)
+Creature - Human Expeditioner
+Whenever this creature attacks, it gets +3/-3 until end of turn.
+When this creature dies, create a Chroma token.
+---
+The trick is finding that perfect point where your nerves have calmed enough that your mind and body are one, but not so calm that your reactions are dulled. Some of the lads haven’t quite managed riding that edge, but I remain in full control of my body and thoughts!
+
+1/4
+```
+
+[card implementation](../custom/cards/e/expedition_47_drunkard.txt)
+
+### Design Notes
+
+ - Modeled drunkeness as temporary high power / low toughness
+
 ## Expedition 53 Herbalist
 
 ```
@@ -762,6 +781,26 @@ The cards have spoken!
  - Design-wise fully leaned in on the pun and based it around using "your deck" to take out any creature, if you can afford to mill the number of cards required.
  - Mild thematic mismatch as blue is not really part of Sciel's color identity or skillset IMO, but the milling and returning cards to hand from graveyard is in blue's wheelhouse.
 
+## Gargant
+
+```
+3UR
+Legendary Creature - Nevron
+Whenever Gargant is dealt damage from a red source, remove all counters from it and put a fire counter on it.
+Whenever Gargant is dealt damage from a blue source, remove all counters from it and put an ice counter on it.
+Gargant has protection from red as long as it has a fire counter on it.
+Gargant has protection from blue as long as it has an ice counter on it.
+
+5/5
+```
+
+[card implementation](../custom/cards/g/gargant.txt)
+
+### Design Notes
+
+ - In the game, Gargant is a boss in Frozen Hearts.
+ - Rather than transcribe its abilities 1:1 like other Nevrons, I've gone for something different here and only tried to mechanically capture its "flip-flop" elemental immunity.
+
 ## Gestral Foot Race Challenge
 
 ```
@@ -824,6 +863,26 @@ Oh, you won. You deserve this reward. Have fun with it!
  - Went with any of your creatures being targeted as the triggering condition as that best describes gestrals being flung at you.
  - First payoff is card draw. Second (and more flavorful) payoff is to be able to redirect opponent's spells and abilities to signify the mastery of parrying flung gestrals back at the opponent.
  - 5/10/2025: Cost reduced from (U/R)(U/R) to (U/R) in line with the other challenge enchantments
+
+## Giant Sapling
+
+```
+5RG
+Legendary Creature - Nevron
+At the beginning of your upkeep, put a crush counter on Giant Sapling.
+Exhaust — Remove three crush counters from Giant Sapling: Giant Sapling deals 6 damage to each creature without flying. (Activate each exhaust ability only once)
+
+7/7
+```
+
+[card implementation](../custom/cards/g/giant_sapling.txt)
+
+### Design Notes
+
+ - In the game, Giant Sapling is the boss in the Crushing Cavern.
+ - Main gimmick being captured is its countdown to crushing doom.
+ - Unfortunately, countdown via counters is hard because there is no precedent for a triggered ability on the removal of the last counter that is not a terminal ability (ie. The permanent sticks around afterwards). So it looks like my original intent of crushing on the last counter removal is not possible.
+ - So I have pivoted to the crush ability being an Exhaust one, paid for with 3 counters, which you gain one every turn. So an opponent has 3 turns to deal with this creature before most of the board is wiped, flavorfully retaining the urgency of needing to dispatch this creature in the actual video game.
 
 ## Goblu
 
@@ -894,6 +953,26 @@ Search your library for a Gradient card, reveal that card, put it into your hand
 
  - In the game, Gradient attacks are "Epic" tier attacks. To use such attacks you need to fill up a Gradient gauge. The Gradient gauge holds up to 3 charges. Gradient attacks cost anywhere between 1 to 3 charges.
  - Mechanically, this is just a Gradient spell tutor to assist in Painter-based strategies.
+
+## Grandis Merchant
+
+```
+WU
+Creature - Grandis
+{T}: Draw a card, then discard a card.
+{2}, {T}: Create a Lumina token.
+{3}, {T}: Put a +1/+1 counter on target creature.
+{4}, {T}: Put a shield counter on target creature.
+
+1/3
+```
+
+[card implementation](../custom/cards/g/grandis_merchant.txt)
+
+### Design Notes
+
+ - In the game, Grandis Merchants reside in Monoco's Station and offers various items for sale.
+ - Provides a suite of various items and buffs (for sale) if you have the mana to spend.
 
 ## Growth Spiral
 

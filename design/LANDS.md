@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 6/12/2025 7:28:36 am
+> Last generated: 8/12/2025 6:17:33 pm
 
 ## Abbest Cave
 
@@ -618,6 +618,42 @@ This land enters tapped. As it enters, choose a color.
 
  - In the game, the Twilight Quarry is an area where a collectible record can be found
  - Another land to provide mana fixing
+
+## Visages // He Who Guards Truth With Lies
+
+```
+
+Legendary Land
+{T}: Add {C}
+{2}{R}, {T}: Put a Seething counter on this land.
+{3}{W}, {T}: Put a Jovial counter on this land.
+{4}{B}, {T}: Put a Sorrowful counter on this land.
+Remove a Seething, Jovial and Sorrowful counter from this land: Transform this land.
+
+6/6
+```
+
+Transforms into:
+
+```
+
+Legendary Creature - Axon
+Ward {3}
+Determination Mask — {2}{B}: Choose target card in your graveyard. You may play it this turn. If that card would be put into a graveyard, exile it instead.
+Doubt Mask — {2}{U}: Tap target creature.
+Peace Mask — {2}{W}: Target creature cannot attack this turn.
+Anxiety Mask — {2}{R}: Target creature cannot block this turn.
+
+8/8
+```
+
+[card implementation](../custom/cards/v/visages_he_who_guards_truth_with_lies.txt)
+
+### Design Notes
+
+ - In the game, Visages is an Axon. It is one of two Axons that must be defeated in order to assemble enough Chroma for The Curator to forge the Barrier Breaker weapon to breach the Monolith barrier. It is both a location and boss encounter. Players must defeat three primary masks (Jovial, Seething, Sorrowful) to weaken Visages.
+ - In line with other Axons not named Sirene, because it is both a boss and a landmark I want to weave both land and creature aspects. In this case I've gone with a land that transforms into its Axon creature counterpart.
+ - Seething/Jovial/Sorrowful counter transformation condition approximates defeating the three primary masks before facing the Axon.
 
 ## White Sands (Adarkar Wastes)
 

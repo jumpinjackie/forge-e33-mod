@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 6/12/2025 7:28:36 am
+> Last generated: 8/12/2025 6:17:33 pm
 
 ## A Rock for Francois
 
@@ -423,6 +423,26 @@ Wanna plant it?
  - In the game, Expedition flags are save points scattered throughout the continent laid down by previous Expeditions.
  - Gone with an Expeditioner-focused variant of Patchwork Banner.
 
+## Expedition Flotilla
+
+```
+4
+Artifact Creature - Expeditioner Vehicle
+Whenever this vehicle attacks, if an Expeditioner crewed it this turn, it explores. (Reveal the top card of your library. Put that card into your hand if it’s a land. Otherwise, put a +1/+1 counter on this creature, then put the card back or put it into your graveyard.)
+Crew 2
+---
+As you sail into the unknown, know that Lumiere stands with you. When you battle the Paintress, know that Lumiere fights with you.
+- Emma
+
+4/4
+```
+
+[card implementation](../custom/cards/e/expedition_flotilla.txt)
+
+### Design Notes
+
+ - Depicts the ship Expedition 33 departs from Lumiere in. Modeled on Adrestia.
+
 ## Expedition Map
 
 > This card is a reprint
@@ -466,6 +486,59 @@ See, Florrie helps me swim. But Florrie was stolen by my archnemesis!
  - In the game Florrie is a quest item which will grant Esquie the ability to swim in the Continent overworld
  - In this set, Florrie is 1 of 4 legendary "Rock" artifacts which will grant benefits to other cards if this or other members of the quartet are in play, just like Urza's Tower, Mine and Power Plant become more powerful when all of them are in play, I am trying to go for a similar outcome with this quartet.
     - Mechanically, Islandwalk is the closet ability to swimming
+
+## Gestral Bodyguard
+
+```
+2
+Artifact Creature - Gestral
+Flash
+Sacrifice this creature: Choose one —
+• Put a shield counter on target creature.
+• Target creature gains hexproof until end of turn.
+---
+Gotta take one for the team.
+
+1/2
+```
+
+[card implementation](../custom/cards/g/gestral_bodyguard.txt)
+
+### Design Notes
+
+ - Draft/limited filler to round out the creature roster. Gave flash for combat trickiness.
+
+## Gestral Chef
+
+```
+2
+Artifact Creature - Gestral
+When this creature enters or dies, create a Food token. (It’s an artifact with “{2}, {T}, Sacrifice this token: You gain 3 life.”)
+
+1/2
+```
+
+[card implementation](../custom/cards/g/gestral_chef.txt)
+
+### Design Notes
+
+ - Draft/limited filler to round out the creature roster.
+
+## Gestral Doctor
+
+```
+2
+Artifact Creature - Gestral
+Tap an untapped Gestral you control: Prevent the next 1 damage that would be dealt to target creature this turn.
+
+1/3
+```
+
+[card implementation](../custom/cards/g/gestral_doctor.txt)
+
+### Design Notes
+
+ - Draft/limited filler to round out the creature roster.
 
 ## Gestral Fighter
 
@@ -873,6 +946,13 @@ Tap three creatures you control: Untap Matthieu.
  - Modeled mostly on Phyrexian Colossus, but with Trample, downgraded Super-Menace to Menace and changed the untap cost to tapping 3 other creatures instead of life payment.
  - Yes, it can be Lackey'd out, but I can accept the variance on that line and also needing 3 other creatures to untap it will keep this line grounded.
 
+## Mirage Mirror
+
+> This card is a reprint
+[Scryfall](https://scryfall.com/search?q=Mirage Mirror)
+### Notes
+
+
 ## Ono-Puncho
 
 ```
@@ -923,6 +1003,13 @@ There must be some good loot behind there!
 
  - In the game, Paint Spikes are obstacles that block a secret/hidden area that normally has extra loot. The ability to break these barriers is unlocked when you rescue all the lost gestrals.
  - Mechanically represented as a wall. Gone with an artifact version of Wall of Blossoms with a chroma/lumina reward on death to symbolize the loot available now that this is no longer obstructing.
+
+## Patchwork Banner
+
+> This card is a reprint
+[Scryfall](https://scryfall.com/search?q=Patchwork Banner)
+### Notes
+
 
 ## Recoat
 
