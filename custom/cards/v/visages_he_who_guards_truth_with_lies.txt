@@ -1,0 +1,25 @@
+Name:Visages
+ManaCost:no cost
+Types:Legendary Land
+PT:6/6
+A:AB$ Mana | Cost$ T | Produced$ C | SpellDescription$ Add {C}.
+A:AB$ PutCounter | Cost$ 2 R T | Defined$ Self | CounterType$ SEETHING | CounterNum$ 1 | SpellDescription$ Put a Seething counter on CARDNAME.
+A:AB$ PutCounter | Cost$ 3 W T | Defined$ Self | CounterType$ JOVIAL | CounterNum$ 1 | SpellDescription$ Put a Jovial counter on CARDNAME.
+A:AB$ PutCounter | Cost$ 4 B T | Defined$ Self | CounterType$ SORROWFUL | CounterNum$ 1 | SpellDescription$ Put a Sorrowful counter on CARDNAME.
+A:AB$ SetState | Cost$ SubCounter<1/SEETHING> SubCounter<1/JOVIAL> SubCounter<1/SORROWFUL> | Mode$ Transform | SpellDescription$ Transform CARDNAME
+AlternateMode:DoubleFaced
+Oracle:{T}: Add {C}\n{2}{R}, {T}: Put a Seething counter on this land.\n{3}{W}, {T}: Put a Jovial counter on this land.\n{4}{B}, {T}: Put a Sorrowful counter on this land.\nRemove a Seething, Jovial and Sorrowful counter from this land: Transform this land.
+
+ALTERNATE
+
+Name:He Who Guards Truth With Lies
+ManaCost:no cost
+Colors:blue
+Types:Legendary Creature Axon
+PT:8/8
+K:Ward:3
+A:AB$ Play | Cost$ 2 B | TgtZone$ Graveyard | ValidTgts$ Card.YouCtrl | ValidSA$ Spell | TgtPrompt$ Choose target card from your graveyard | Optional$ True | ReplaceGraveyard$ Exile | AILogic$ ReplaySpell | SpellDescription$ Choose target card in your graveyard. You may play it this turn. If that card would be put into a graveyard, exile it instead.
+A:AB$ Tap | Cost$ 2 U | ValidTgts$ Creature | TgtPrompt$ Select target creature | SpellDescription$ Tap target creature.
+A:AB$ Pump | Cost$ 2 W | ValidTgts$ Creature | TgtPrompt$ Select target creature | KW$ HIDDEN CARDNAME can't attack. | IsCurse$ True | SpellDescription$ Target creature can't attack this turn.
+A:AB$ Pump | Cost$ 2 R | ValidTgts$ Creature | TgtPrompt$ Select target creature | KW$ HIDDEN CARDNAME can't block. | IsCurse$ True | SpellDescription$ Target creature can't block this turn.
+Oracle:Ward {3}\nDetermination Mask — {2}{B}: Choose target card in your graveyard. You may play it this turn. If that card would be put into a graveyard, exile it instead.\nDoubt Mask — {2}{U}: Tap target creature.\nPeace Mask — {2}{W}: Target creature cannot attack this turn.\nAnxiety Mask — {2}{R}: Target creature cannot block this turn.
