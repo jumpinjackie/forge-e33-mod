@@ -22,6 +22,6 @@ SVar:TrigInvestigate:DB$ Investigate
 S:Mode$ Continuous | Affected$ Card.Self+!modified | AddPower$ 2 | AddToughness$ 2 | Description$ This creature gets +2/+2 as long as it’s un-modified. (Equipment, Auras you control, and counters are modifications.)
 $EXPEDITIONER_DEATH_ABILITY
 [DesignNotes]
- - Depicts the member of the gigachad expedition that almost made it back to Lumiere to relay the message about the true enemy.
+ - Depicts the member of the gigachad expedition that almost made it back to Lumière to relay the message about the true enemy.
  - The clue token left behind represents the expedition journal.
  - Has un-modified buffs because these gigachads don't require pithy things like clothing and armor.

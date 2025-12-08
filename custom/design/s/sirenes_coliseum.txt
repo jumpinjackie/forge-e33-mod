@@ -1,4 +1,6 @@
 [Name]
+Sirène's Coliseum
+[InvariantName]
 Sirene's Coliseum
 [ManaCost]
 no cost
@@ -22,5 +24,5 @@ A:AB$ Mana | Cost$ T | Produced$ C | SpellDescription$ Add {C}.
 A:AB$ Mana | Cost$ T | Produced$ Any | SubAbility$ DBPain | SpellDescription$ Add one mana of any color. CARDNAME deals 1 damage to you.
 SVar:DBPain:DB$ DealDamage | NumDmg$ 1 | Defined$ You
 [DesignNotes]
- - In the game, this is the home of Sirene, one of the Axons.
+ - In the game, this is the home of Sirène, one of the Axons.
  - Modelled on Grand Coliseum with drawbacks removed if you are Nevron/Painter aligned.

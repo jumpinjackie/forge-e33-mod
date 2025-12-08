@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 8/12/2025 6:17:33 pm
+> Last generated: 8/12/2025 7:41:12 pm
 
 ## A Storm is Coming
 
@@ -53,7 +53,7 @@ When this creature dies, target opponent creates a Lumina token.
 RW
 Legendary Creature - Human Painter
 Each player who has cast a non-Painter, non-Gradient spell this turn can’t cast additional non-Painter, non-Gradient spells.
-(Melds with Maelle, Child of Lumiere.)
+(Melds with Maelle, Child of Lumière.)
 
 2/2
 ```
@@ -63,7 +63,7 @@ Each player who has cast a non-Painter, non-Gradient spell this turn can’t cas
 ### Design Notes
 
  - Gone with a targeted (Null Rod / Cursed Totem) effect to mechanically emphasize the "silence"
- - The real gimmick is melding with Maelle, Child of Lumiere. Meld is 100% the mechanic to sell the transformation
+ - The real gimmick is melding with Maelle, Child of Lumière. Meld is 100% the mechanic to sell the transformation
     - 23/09/2025: Getting meld to work has been nothing but failure. I give up. Alicia will now be standalone.
  - 6/10/2025: Meld is back on the menu! Got it to work finally! Also extended null rod effect to Chroma and Lumina tokens.
  - 3/11/2025: Exchanged abilities with human Alicia. Canonist exemption changed from Nevrons/Gradient to Painters/Gradient. Reduce Chroma sac activation cost from 3 to 2 tokens.
@@ -96,7 +96,7 @@ When this creature dies, target opponent creates a Lumina token. (It's an artifa
 
  - Obligatory commander ramp.
 
-## Benisseur
+## Bénisseur
 
 ```
 2RG
@@ -440,13 +440,13 @@ Esquie: I heard you, so I came.
  - In the game, Sciel discovers that Esquie saved her from drowning in the past, thus explaining why he referred to her as "my poor swimmer friend"
  - Modeled as a bounce spell with various bonuses stapled on.
 
-## Eveque
+## Évêque
 
 ```
 3RG
 Legendary Creature - Nevron
-Eveque enters with a shield counter. (If it would be dealt damage or destroyed, remove a shield counter from it instead.)
-Casts a spell — {2}{R}, {T}: Eveque deals 2 damage to target creature.
+Évêque enters with a shield counter. (If it would be dealt damage or destroyed, remove a shield counter from it instead.)
+Casts a spell — {2}{R}, {T}: Évêque deals 2 damage to target creature.
 Summons minions — {2}{G}{G}, {T}: Create two 1/1 green Nevron creature tokens named Abbest.
 
 4/4
@@ -456,7 +456,7 @@ Summons minions — {2}{G}{G}, {T}: Create two 1/1 green Nevron creature tokens 
 
 ### Design Notes
 
- - In the game, Eveque is the first boss, encountered at the end of Spring Meadows.
+ - In the game, Évêque is the first boss, encountered at the end of Spring Meadows.
 
 ## Expedition 34 Mage
 
@@ -551,7 +551,7 @@ When this creature dies, create a Chroma token.
 
 ### Design Notes
 
- - In the game, Expedition 55 tried using musically-augmented pictos. This was mostly effective until they encountered Sirene whose minions and herself were immune to these pictos.
+ - In the game, Expedition 55 tried using musically-augmented pictos. This was mostly effective until they encountered Sirène whose minions and herself were immune to these pictos.
  - Since the main theme of this Expedition was music, it can be safely assumed that most of the crew were musicians or were proficient in one kind of music, giving us ample design space to fill out the Expeditioner creature roster with various creatures of various utility. In this case, I've gone with a trumpeter and a cost-reduction effect.
 
 ## Expedition 59
@@ -611,7 +611,7 @@ III — Un-modified creatures you control gain vigilance, menace, trample and +3
 
 ### Design Notes
 
- - Journal is a story of expeditioners who almost succeeded in their mission through raw human strength and discovered the true enemy is not The Paintress, but someone underneath the Monolith, but this realization came too late as they were claimed by the Gommage before this discovery could be relayed back the citizens of Lumiere.
+ - Journal is a story of expeditioners who almost succeeded in their mission through raw human strength and discovered the true enemy is not The Paintress, but someone underneath the Monolith, but this realization came too late as they were claimed by the Gommage before this discovery could be relayed back the citizens of Lumière.
  - Mechanically mapped to giving various offensive buffs to un-modified creatures with an overrun with extras on the final chapter. Only buffs un-modified creatures because these giga-chads don't have use for pithy things like clothing and armor.
  - 30/09/2025: Changed from 1RG to 2WG, double strike -> vigilance, hexproof -> menance. Original card was too powerful wtih "go wide" strategies
 
@@ -655,7 +655,7 @@ We're out of explosives, but we've made enough holes in this place to reach that
 
 ### Design Notes
 
- - In the game, Expedition 67 employed the use of explosives to tear down walls in Sirene's coliseum. They succumbed to Sirene's musical wiles.
+ - In the game, Expedition 67 employed the use of explosives to tear down walls in Sirène's coliseum. They succumbed to Sirène's musical wiles.
  - This card models one such crew member.
 
 ## Expedition 70
@@ -693,7 +693,7 @@ Our only choice is to take matters into our own hands. Fortune favors the bold. 
 
 ### Design Notes
 
- - In the game, Expedition 78 stole hundreds of airships from the Lumiere Council and departed to take on the Paintress. The Expedition failed, but the fate of the expeditioners is unknown.
+ - In the game, Expedition 78 stole hundreds of airships from the Lumière Council and departed to take on the Paintress. The Expedition failed, but the fate of the expeditioners is unknown.
  - Card represents some of the Airship crew.
  - This is our heavy-hitter for an all-flyers strategy.
  - 12/11/2025: Renamed from Expedition 78 Aircrew to Expedition 78 Airship
@@ -982,7 +982,7 @@ Creature - Grandis
 
  - Obligatory commander ramp.
 
-## Gustave, Lumiere Engineer
+## Gustave, Lumière Engineer
 
 ```
 1W(U/R)
@@ -1123,7 +1123,7 @@ As long as even one of us stands, our fight is not over.
     - The Elemental Genesis "ultimate" requires no extra mana cost because getting to 4 stain counters is enough investment already.
  - This is our expected commander for our Expeditioners/Gestrals commander deck.
 
-## Maelle, Child of Lumiere // Maelle, The Reawakened Paintress
+## Maelle, Child of Lumière // Maelle, The Reawakened Paintress
 
 ```
 1RW
@@ -1132,7 +1132,7 @@ Stance Switch — At the beginning of combat, roll a six-sided die.
 1-2 | Offensive Stance — Maelle gains Vigilance and +2/+0 until your next turn
 3-4 | Defensive Stance — Maelle gains Hexproof, First Strike and +0/+2 until your next turn.
 5-6 | Virtuose Stance — Maelle gains Double Strike and +1/-1 until your next turn.
-At the beginning of your end step, if you both own and control Maelle, Child of Lumiere and a creature named Alicia Dessendre, Silenced by Fire, exile them, then meld them into Maelle, The Reawakened Paintress.
+At the beginning of your end step, if you both own and control Maelle, Child of Lumière and a creature named Alicia Dessendre, Silenced by Fire, exile them, then meld them into Maelle, The Reawakened Paintress.
 
 3/3
 ```
@@ -1368,7 +1368,7 @@ Maelle: I bet Clea hated Maman's portrait of her. So she painted over her.
     - Nevron P/T buffs
     - Ability to put out Nevron tokens automatically every upkeep
     - A Nevron tutoring ability
- - NOTE: This is not the Clea Planeswalker so Francois does not have affinity towards it. Nothing in the actual game suggests Francois has any affection towards Clea's painted counterpart.
+ - NOTE: This is not the Clea Planeswalker so François does not have affinity towards it. Nothing in the actual game suggests François has any affection towards Clea's painted counterpart.
  - 13/10/2025: Removed Devoid.
  - 26/10/2025: Replaced tutoring with a Nevron sac to draw a card.
  - 2/11/2025: Reduced Nevron buff from +2/+2 to +1/+1
@@ -1398,7 +1398,7 @@ Choose one —
 
 ### Design Notes
 
- - In the game, this symbolizes the moment where re-awakened Maelle arrives in Lumiere with party and resurrected Expeditioners to commence the final assault.
+ - In the game, this symbolizes the moment where re-awakened Maelle arrives in Lumière with party and resurrected Expeditioners to commence the final assault.
  - Made this a variant of Rally the Monastery with Expeditioner-aligned benefits.
 
 ## Reaper Cultist
@@ -1682,7 +1682,7 @@ At the beginning of your upkeep, create a Chroma token.
 
 ### Design Notes
 
- - In the game, The Paintress is the main antagonist, until the conclusion of Act 2, when you discover she is not. She is in fact, trying to *protect* the people of Lumiere from the true instigator of the yearly Gommages (Renoir) and her yearly countdown on The Monolith is a signal of her waning powers in fighting against this tide.
+ - In the game, The Paintress is the main antagonist, until the conclusion of Act 2, when you discover she is not. She is in fact, trying to *protect* the people of Lumière from the true instigator of the yearly Gommages (Renoir) and her yearly countdown on The Monolith is a signal of her waning powers in fighting against this tide.
  - Abilities drawn from the various moves she has in her boss battle. Because 2 of these 3 abilities already exist as separate cards, we've gone with slight tweaks/variations for the abilities here.
    - Void Meteors: Only deals 3 damage and can only target creatures.
    - Rips apart reality: Phases out permanents instead of putting it on top/bottom of owner's library.

@@ -15,7 +15,7 @@ R
 [Artist]
 Sandfall Interactive
 [ArtNotes]
-Maelle and friends in profile view staring at their final destination of Lumiere.
+Maelle and friends in profile view staring at their final destination of Lumière.
 [Oracle]
 You win the game if you control a total of 33 or more Expeditioner, Chroma, Lumina or Picto permanents.
 [FlavorText]

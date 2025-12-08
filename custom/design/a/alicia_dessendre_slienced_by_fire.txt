@@ -16,15 +16,15 @@ Sandfall Interactive
 2/2
 [Oracle]
 Each player who has cast a non-Painter, non-Gradient spell this turn can’t cast additional non-Painter, non-Gradient spells.
-(Melds with Maelle, Child of Lumiere.)
+(Melds with Maelle, Child of Lumière.)
 [ForgeScript]
 S:Mode$ CantBeCast | ValidCard$ Card.nonPainter+nonGradient | Caster$ Player | NumLimitEachTurn$ 1 | Description$ Each player who has cast a non-Painter, non-Gradient spell this turn can’t cast additional non-Painter, non-Gradient spells.
-DeckHints:Name$Maelle, Child of Lumiere
-MeldPair:Maelle, Child of Lumiere
+DeckHints:Name$Maelle, Child of Lumière
+MeldPair:Maelle, Child of Lumière
 AlternateMode:Meld
 [DesignNotes]
  - Gone with a targeted (Null Rod / Cursed Totem) effect to mechanically emphasize the "silence"
- - The real gimmick is melding with Maelle, Child of Lumiere. Meld is 100% the mechanic to sell the transformation
+ - The real gimmick is melding with Maelle, Child of Lumière. Meld is 100% the mechanic to sell the transformation
     - 23/09/2025: Getting meld to work has been nothing but failure. I give up. Alicia will now be standalone.
  - 6/10/2025: Meld is back on the menu! Got it to work finally! Also extended null rod effect to Chroma and Lumina tokens.
  - 3/11/2025: Exchanged abilities with human Alicia. Canonist exemption changed from Nevrons/Gradient to Painters/Gradient. Reduce Chroma sac activation cost from 3 to 2 tokens.

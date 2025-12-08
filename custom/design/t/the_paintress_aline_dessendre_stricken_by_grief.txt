@@ -65,7 +65,7 @@ SVar:X:Count$Valid Chroma.YouCtrl
 [Bugs]
  - On death, the commander AI never wants to take the transform to planeswalker option, always opting to send it back to the command zone.
 [DesignNotes]
- - In the game, The Paintress is the main antagonist, until the conclusion of Act 2, when you discover she is not. She is in fact, trying to *protect* the people of Lumiere from the true instigator of the yearly Gommages (Renoir) and her yearly countdown on The Monolith is a signal of her waning powers in fighting against this tide.
+ - In the game, The Paintress is the main antagonist, until the conclusion of Act 2, when you discover she is not. She is in fact, trying to *protect* the people of Lumière from the true instigator of the yearly Gommages (Renoir) and her yearly countdown on The Monolith is a signal of her waning powers in fighting against this tide.
  - Abilities drawn from the various moves she has in her boss battle. Because 2 of these 3 abilities already exist as separate cards, we've gone with slight tweaks/variations for the abilities here.
    - Void Meteors: Only deals 3 damage and can only target creatures.
    - Rips apart reality: Phases out permanents instead of putting it on top/bottom of owner's library.

@@ -3,7 +3,7 @@
 This is our master card name list. All ideas and card designs start from a card name. Card names can come from any source in Expedition 33:
 
  * It could refer to a character in the game
-    * eg. Gustave, Lumiere Engineer
+    * eg. Gustave, Lumière Engineer
  * It could refer to an ability/skill of one of the party characters or enemies
     * eg. Earth Rising
  * It could refer to an item in the game or an item possessed by one of the party characters
@@ -34,7 +34,7 @@ From this list, card designs are spawned from it, which will eventually form the
 %_IMPL_LEGEND_%
 
 ```
-A Rock for Francois
+A Rock for François
 A Storm is Coming
 Abbest
 Abbest Cave
@@ -53,7 +53,7 @@ Attack Picto
 Ballet
 Bargaining
 Barrier Breaker
-Benisseur
+Bénisseur
 Berrami, Collector of Journals
 Bertrand Big Hands
 Blade's Graveyard
@@ -98,7 +98,7 @@ Dark Shores
 Dark Gestral Arena
 Death Picto
 Degagement
-Demineur
+Démineur
 Denial
 Depression
 Dessendre Family Portrait
@@ -116,7 +116,7 @@ Esquie, Friend of Verso
 Esquie's Magic Mushrooms
 Esquie's Nest
 Eternal Ice
-Eveque
+Évêque
 Expedition 00 Tracker
 Expedition 34 Mage
 Expedition 35 Bridge
@@ -170,7 +170,7 @@ For Those Who Come After
 Forgotten Battlefield
 Fortune's Fury
 Fracture Survivor
-Francois, Waiting for Clea
+François, Waiting for Clea
 Frozen Hearts
 Full Deck
 Gargant
@@ -205,8 +205,8 @@ Gradient Counter
 Grandis Fashionist
 Grandis Merchant
 Greatsword Cultist
-Grosse Tete
-Gustave, Lumiere Engineer
+Grosse Tête
+Gustave, Lumière Engineer
 Gustave's Homage
 Gustave's Ingenuity
 Gustave's Insight
@@ -227,19 +227,19 @@ Limonsol, Matchmaker
 Lorieniso, Gestral Musician
 Lost Gestral
 Lost Woods
-Lumiere Aquafarm
-Lumiere Assault
-Lumiere Flower Stand
-Lumiere Mime
-Lumiere Opera House
-Lumiere, The Last Bastion
+Lumière Aquafarm
+Lumière Assault
+Lumière Flower Stand
+Lumière Mime
+Lumière Opera House
+Lumière, The Last Bastion
 Lumierian Apprentice
 Lumina Converter
 Lune, Charting a Path
 Lune's Curiosity
 Lune's Denial
 Luster
-Maelle, Child of Lumiere // Maelle, The Reawakened Paintress
+Maelle, Child of Lumière // Maelle, The Reawakened Paintress
 Maelle's Nightmare
 Manor Door
 Manor Entrance // Manor Hidden Room
@@ -274,7 +274,7 @@ Payback
 Percee
 Perfect Dodge
 Persuasive Argument
-Petank
+Pétank
 Phantom Strike
 Piercing Strike
 Pyrolyse
@@ -300,7 +300,7 @@ Serpenphare
 Shot Picto
 Simon, Consort of Clea // Simon, The Divergent Star
 Sinister Cave
-Sirene's Coliseum
+Sirène's Coliseum
 Sky Break
 Sky Island
 Soarrie
@@ -339,14 +339,14 @@ Tomorrow Comes
 Torture // Nurture
 Troubador
 Twilight Quarry
-Twisted Lumiere Citizen
+Twisted Lumière Citizen
 Ultimate Sakapatate
-Unfinished Benisseur
+Unfinished Bénisseur
 Unfinished Bruler
 Unfinished Bourgeon
 Unfinished Chalier
 Unfinished Cruler
-Unfinished Demineur
+Unfinished Démineur
 Unfinished Hexga
 Unfinished Jar
 Unfinished Troubador
@@ -417,7 +417,7 @@ No ideas yet.
 
 Some card centered around betrayal or switching allegiance.
 
-> Act 3: Lumiere post-gommage. Renoir, after Curator transformation.
+> Act 3: Lumière post-gommage. Renoir, after Curator transformation.
 > Renoir: I know it seems absurd to offer oblivion as recompense, but perhaps that's the outcome we both desire.
 
 This the *IDEAL* flavor text for Choice of Damnations, if it didn't have the parisitic Arcane sub-type, but who are we to judge? We're doing the same thing too! So maybe we just have thematically adjusted reprint.

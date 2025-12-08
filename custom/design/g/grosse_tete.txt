@@ -1,4 +1,6 @@
 [Name]
+Grosse Tête
+[InvariantName]
 Grosse Tete
 [ManaCost]
 3
@@ -26,7 +28,7 @@ SVar:TrigAddCount:DB$ PutCounter | Defined$ Self | CounterType$ QUAKE | CounterN
 T:Mode$ Always | TriggerZones$ Battlefield | IsPresent$ Card.Self+counters_GE3_QUAKE | Execute$ TrigSac | TriggerDescription$ When ~ has three or more quake counters, sacrifice it.
 SVar:TrigSac:DB$ Sacrifice
 [DesignNotes]
- - In the game, Grosse Tete is a boss whose gimmick is repeatedly bouncing and slamming the ground.
+ - In the game, Grosse Tête is a boss whose gimmick is repeatedly bouncing and slamming the ground.
  - It starts off with 2 consecutive strikes and repeats, adding 2 consecutive strikes each time.
  - At 24 consecutive strikes, it self-destructs.
  - 2,4,6,8,10,12,14,16,18,20,22,24 = 12 times.

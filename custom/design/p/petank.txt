@@ -1,4 +1,6 @@
 [Name]
+Pétank
+[InvariantName]
 Petank
 [ManaCost]
 2
@@ -28,7 +30,7 @@ T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ 
 SVar:TrigChromaTokens:DB$ Token | TokenAmount$ 2 | ValidTgts$ Opponent | TgtPrompt$ Select target opponent | TokenOwner$ Targeted | TokenScript$ c_a_chroma | SubAbility$ TrigLuminaTokens
 SVar:TrigLuminaTokens:DB$ Token | TokenAmount$ 2 | TokenOwner$ Targeted | TokenScript$ c_a_lumina
 [DesignNotes]
- - In the game, a Petank is a special type of Nevron that can be defeated for special loot, but you have a limited time window to defeat it before it runs away. Petanks are generally tanky enemies or has some defensive gimmick to add extra challenge to defeating it before it runs away.
+ - In the game, a Pétank is a special type of Nevron that can be defeated for special loot, but you have a limited time window to defeat it before it runs away. Pétanks are generally tanky enemies or has some defensive gimmick to add extra challenge to defeating it before it runs away.
  - Countdown counters symbolize the time window to kill it.
  - Shield counters to represent the tankiness.
  - Bounce back to hand to symbolize it running away.

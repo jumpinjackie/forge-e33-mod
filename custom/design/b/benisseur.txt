@@ -1,4 +1,6 @@
 [Name]
+Bénisseur
+[InvariantName]
 Benisseur
 [ManaCost]
 2

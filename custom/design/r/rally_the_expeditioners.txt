@@ -12,7 +12,7 @@ U
 [Artist]
 Sandfall Interactive
 [ArtNotes]
-Maelle stands at the docks of Lumiere, with party and reanimated Expeditioners behind her. She points her sword towards the camera, as if to signal the final assault.
+Maelle stands at the docks of Lumière, with party and reanimated Expeditioners behind her. She points her sword towards the camera, as if to signal the final assault.
 [Oracle]
 This spell costs {1} less to cast if you control an Expeditioner.
 Choose one —
@@ -26,5 +26,5 @@ SVar:DBToken:DB$ Token | Cost$ 1 W T | TokenAmount$ 2 | TokenScript$ w_1_1_human
 SVar:DBPump:DB$ Pump | ValidTgts$ Creature | TargetMin$ 0 | TargetMax$ 2 | TgtPrompt$ Choose target creature | NumAtt$ +2 | NumDef$ +2 | SpellDescription$ Up to two target creatures you control each get +2/+2 until end of turn.
 SVar:DBDestroy:DB$ Destroy | ValidTgts$ Creature.nonExpeditioner | TgtPrompt$ Select target non-Expeditioner creature | SpellDescription$ Destroy target non-Expeditioner creature.
 [DesignNotes]
- - In the game, this symbolizes the moment where re-awakened Maelle arrives in Lumiere with party and resurrected Expeditioners to commence the final assault.
+ - In the game, this symbolizes the moment where re-awakened Maelle arrives in Lumière with party and resurrected Expeditioners to commence the final assault.
  - Made this a variant of Rally the Monastery with Expeditioner-aligned benefits.

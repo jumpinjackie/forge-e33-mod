@@ -1,4 +1,6 @@
 [Name]
+Échassier
+[InvariantName]
 Echassier
 [ManaCost]
 2
@@ -25,5 +27,5 @@ A:AB$ GainLife | Cost$ 1 B T | Defined$ You | LifeAmount$ X | SpellDescription$ 
 SVar:X:Count$Valid Creature.YouCtrl
 $NEVRON_DEATH_ABILITY
 [DesignNotes]
- - In the game, Echassiers are found in The Reacher and Renoir's Drafts.
+ - In the game, Échassiers are found in The Reacher and Renoir's Drafts.
  - Mapped the "Double the blight & Heals allies" ability to 1 toughness setting and life gain.

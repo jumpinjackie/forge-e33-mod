@@ -1,4 +1,4 @@
-Name:Maelle, Child of Lumiere
+Name:Maelle, Child of Lumière
 ManaCost:1 R W
 Types:Legendary Creature Human Expeditioner
 PT:3/3
@@ -8,11 +8,11 @@ SVar:DBOffensive:DB$ Pump | Defined$ Self | KW$ Vigilance | NumAtt$ +2 | Duratio
 SVar:DBDefensive:DB$ Pump | Defined$ Self | KW$ Hexproof & First Strike | NumDef$ +2 | Duration$ UntilYourNextTurn | SpellDescription$ 3-4 CARDNAME gains Hexproof, First Strike and +0/+2 until your next turn.
 SVar:DBVirtuose:DB$ Pump | Defined$ Self | KW$ Double Strike | NumAtt$ +1 | NumDef$ -1 | Duration$ UntilYourNextTurn | SpellDescription$ 5-6 CARDNAME gains Double Strike and +1/-1 until your next turn.
 T:Mode$ Phase | Phase$ End of Turn | IsPresent$ Card.Self+YouCtrl+YouOwn | IsPresent2$ Creature.YouCtrl+YouOwn+namedAlicia Dessendre; Silenced by Fire | ValidPlayer$ You | Execute$ Meld | TriggerZones$ Battlefield | TriggerDescription$ At the beginning of your end step, if you both own and control CARDNAME and a creature named Alicia Dessendre, Silenced by Fire, exile them, then meld them into Maelle, The Reawakened Paintress.
-SVar:Meld:DB$ Meld | Name$ Maelle, The Reawakened Paintress | Primary$ Maelle, Child of Lumiere | Secondary$ Alicia Dessendre, Silenced by Fire
+SVar:Meld:DB$ Meld | Name$ Maelle, The Reawakened Paintress | Primary$ Maelle, Child of Lumière | Secondary$ Alicia Dessendre, Silenced by Fire
 DeckHints:Name$Alicia Dessendre, Silenced by Fire
 MeldPair:Alicia Dessendre, Silenced by Fire
 AlternateMode:Meld
-Oracle:Stance Switch — At the beginning of combat, roll a six-sided die.\n1-2 | Offensive Stance — Maelle gains Vigilance and +2/+0 until your next turn\n3-4 | Defensive Stance — Maelle gains Hexproof, First Strike and +0/+2 until your next turn.\n5-6 | Virtuose Stance — Maelle gains Double Strike and +1/-1 until your next turn.\nAt the beginning of your end step, if you both own and control Maelle, Child of Lumiere and a creature named Alicia Dessendre, Silenced by Fire, exile them, then meld them into Maelle, The Reawakened Paintress.
+Oracle:Stance Switch — At the beginning of combat, roll a six-sided die.\n1-2 | Offensive Stance — Maelle gains Vigilance and +2/+0 until your next turn\n3-4 | Defensive Stance — Maelle gains Hexproof, First Strike and +0/+2 until your next turn.\n5-6 | Virtuose Stance — Maelle gains Double Strike and +1/-1 until your next turn.\nAt the beginning of your end step, if you both own and control Maelle, Child of Lumière and a creature named Alicia Dessendre, Silenced by Fire, exile them, then meld them into Maelle, The Reawakened Paintress.
 
 ALTERNATE
 

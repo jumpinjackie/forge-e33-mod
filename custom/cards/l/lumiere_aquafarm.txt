@@ -1,4 +1,4 @@
-Name:Lumiere Aquafarm
+Name:Lumière Aquafarm
 ManaCost:no cost
 Types:Land
 A:AB$ Mana | Cost$ T | Produced$ Combo W U | SpellDescription$ Add {W} or {U}.

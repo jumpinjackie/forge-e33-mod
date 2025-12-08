@@ -1,4 +1,6 @@
 [Name]
+Lumière Aquafarm
+[InvariantName]
 Lumiere Aquafarm
 [ManaCost]
 no cost
@@ -9,20 +11,20 @@ R
 [Artist]
 Sandfall Interactive
 [ArtNotes]
-An aquatic farm. The city of Lumiere is in the background.
+An aquatic farm. The city of Lumière is in the background.
 [Oracle]
 This land enters tapped unless you control an Expeditioner.
 {T}: Add {W} or {U}.
 {4}, {T}: Create a Food token.
 [FlavorText]
-The Aquafarm project ensured that Lumiere would have a plentiful supply of food for years to come.
+The Aquafarm project ensured that Lumière would have a plentiful supply of food for years to come.
 [ForgeScript]
 A:AB$ Mana | Cost$ T | Produced$ Combo W U | SpellDescription$ Add {W} or {U}.
 A:AB$ Token | Cost$ 4 T | TokenAmount$ 1 | TokenScript$ c_a_food_sac | TokenOwner$ You | SpellDescription$ Create a Food token.
 R:Event$ Moved | ValidCard$ Card.Self | Destination$ Battlefield | ReplaceWith$ LandTapped | ReplacementResult$ Updated | Description$ CARDNAME enters tapped unless you control an Expeditioner.
 SVar:LandTapped:DB$ Tap | Defined$ Self | ETB$ True | ConditionPresent$ Expeditioner.YouCtrl | ConditionCompare$ EQ0
 [DesignNotes]
- - In the game, Gustave lead the Aquafarm project which ensured the food supply for the city of Lumiere.
+ - In the game, Gustave lead the Aquafarm project which ensured the food supply for the city of Lumière.
  - This gives us an opportunity to add another dual land to this set.
  - Obviously expeditioner aligned so they get a ETB tapped sidestep.
  - It's a farm so obviously needs a Food token generating ability.

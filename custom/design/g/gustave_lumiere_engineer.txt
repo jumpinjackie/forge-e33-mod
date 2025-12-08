@@ -1,4 +1,6 @@
 [Name]
+Gustave, Lumière Engineer
+[InvariantName]
 Gustave, Lumiere Engineer
 [ManaCost]
 1

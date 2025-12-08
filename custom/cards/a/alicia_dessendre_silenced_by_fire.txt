@@ -3,7 +3,7 @@ ManaCost:R W
 Types:Legendary Creature Human Painter
 PT:2/2
 S:Mode$ CantBeCast | ValidCard$ Card.nonPainter+nonGradient | Caster$ Player | NumLimitEachTurn$ 1 | Description$ Each player who has cast a non-Painter, non-Gradient spell this turn can’t cast additional non-Painter, non-Gradient spells.
-DeckHints:Name$Maelle, Child of Lumiere
-MeldPair:Maelle, Child of Lumiere
+DeckHints:Name$Maelle, Child of Lumière
+MeldPair:Maelle, Child of Lumière
 AlternateMode:Meld
-Oracle:Each player who has cast a non-Painter, non-Gradient spell this turn can’t cast additional non-Painter, non-Gradient spells.\n(Melds with Maelle, Child of Lumiere.)
+Oracle:Each player who has cast a non-Painter, non-Gradient spell this turn can’t cast additional non-Painter, non-Gradient spells.\n(Melds with Maelle, Child of Lumière.)

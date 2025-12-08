@@ -12,7 +12,7 @@ Sandfall Interactive
 {T}: Add {C}.
 {T}: Add {U} or {R}. Activate this ability only if you control a Gestral or Grandis.
 [FlavorText]
-The Grandis have embraced us with such warmth and hope. What a balm for the soul to know that other beings survived, that we in Lumiere are not alone! It truly is a miracle.
+The Grandis have embraced us with such warmth and hope. What a balm for the soul to know that other beings survived, that we in Lumière are not alone! It truly is a miracle.
 - Aurelien, Expedition 65
 [ForgeScript]
 A:AB$ Mana | Cost$ T | Produced$ C | SpellDescription$ Add {C}.

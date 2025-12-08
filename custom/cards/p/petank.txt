@@ -1,4 +1,4 @@
-Name:Petank
+Name:Pétank
 ManaCost:2 C
 Types:Creature Nevron
 PT:1/3

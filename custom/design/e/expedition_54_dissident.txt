@@ -14,7 +14,7 @@ C
 [Oracle]
 $EXPEDITIONER_DEATH_ABILITY_TEXT
 [FlavorText]
-Lumiere operates a certain way. It favours a certain group and a certain outcome and if you question the Council, well, the Council’s going to question you.
+Lumière operates a certain way. It favours a certain group and a certain outcome and if you question the Council, well, the Council’s going to question you.
 Push too hard to change things and you just might end up on the next Expedition.
 So. Nothing ever changes. They just send us out to die. Dissenters. And the status quo continues. At least out here, I don’t have to pretend anymore.
 [ForgeScript]

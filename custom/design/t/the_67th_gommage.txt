@@ -12,7 +12,7 @@ M
 [Artist]
 Sandfall Interactive
 [ArtNotes]
-Gustave and Sophie stading on the docks of Lumiere, witnessing the Paintress changing the number to 33 on The Monolith in the foreground.
+Gustave and Sophie stading on the docks of Lumière, witnessing the Paintress changing the number to 33 on The Monolith in the foreground.
 [Oracle]
 (You may cast a legendary sorcery only if you control a legendary creature or planeswalker.)
 Each player with 33 or more life loses the game.

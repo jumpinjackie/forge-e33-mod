@@ -1,4 +1,4 @@
-Name:Lumiere Flower Stand
+Name:Lumière Flower Stand
 ManaCost:2
 Types:Artifact
 K:etbCounter:STOCK:3

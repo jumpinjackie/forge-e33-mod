@@ -12,7 +12,7 @@ R
 [Artist]
 Sandfall Interactive
 [ArtNotes]
-An armada of Airships departing Lumiere in haste.
+An armada of Airships departing Lumière in haste.
 [Oracle]
 (As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
 I — Create a 5/5 blue Airship creature token with flying.
@@ -30,5 +30,5 @@ SVar:DBCleanup:DB$ Cleanup | ClearRemembered$ True
 SVar:MakeX:Remembered$Amount
 DeckHas:Ability$Counters
 [DesignNotes]
- - Journal is a story of expeditioners stealing a bunch of Airships to escape Lumiere.
+ - Journal is a story of expeditioners stealing a bunch of Airships to escape Lumière.
  - This is a top-end payoff for an all-flyers strategy

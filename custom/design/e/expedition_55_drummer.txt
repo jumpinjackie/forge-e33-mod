@@ -20,5 +20,5 @@ $EXPEDITIONER_DEATH_ABILITY_TEXT
 S:Mode$ Continuous | Affected$ Creature.Expeditioner+Other+YouCtrl | AddPower$ 1 | AddToughness$ 1 | Description$ Other Expeditioner creatures you control get +1/+1.
 $EXPEDITIONER_DEATH_ABILITY
 [DesignNotes]
- - In the game, Expedition 55 tried using musically-augmented pictos. This was mostly effective until they encountered Sirene whose minions and herself were immune to these pictos.
+ - In the game, Expedition 55 tried using musically-augmented pictos. This was mostly effective until they encountered Sirène whose minions and herself were immune to these pictos.
  - Since the main theme of this Expedition was music, it can be safely assumed that most of the crew were musicians or were proficient in one kind of music, giving us ample design space to fill out the Expeditioner creature roster with various creatures of various utility. In this case, I've gone with a drummer and a lord buff effect.

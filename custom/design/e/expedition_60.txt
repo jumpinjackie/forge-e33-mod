@@ -23,6 +23,6 @@ SVar:DBChapter2:DB$ PumpAll | ValidCards$ Creature.YouCtrl+!modified | KW$ Vigil
 SVar:DBChapter3:DB$ PumpAll | ValidCards$ Creature.YouCtrl+!modified | KW$ Vigilance & Menace & Trample | NumAtt$ +3 | NumDef$ +3 | SpellDescription$ Un-modified creatures you control gain vigilance, menace, trample and +3/+3 until end of turn.
 DeckHas:Ability$Counters
 [DesignNotes]
- - Journal is a story of expeditioners who almost succeeded in their mission through raw human strength and discovered the true enemy is not The Paintress, but someone underneath the Monolith, but this realization came too late as they were claimed by the Gommage before this discovery could be relayed back the citizens of Lumiere.
+ - Journal is a story of expeditioners who almost succeeded in their mission through raw human strength and discovered the true enemy is not The Paintress, but someone underneath the Monolith, but this realization came too late as they were claimed by the Gommage before this discovery could be relayed back the citizens of Lumière.
  - Mechanically mapped to giving various offensive buffs to un-modified creatures with an overrun with extras on the final chapter. Only buffs un-modified creatures because these giga-chads don't have use for pithy things like clothing and armor.
  - 30/09/2025: Changed from 1RG to 2WG, double strike -> vigilance, hexproof -> menance. Original card was too powerful wtih "go wide" strategies

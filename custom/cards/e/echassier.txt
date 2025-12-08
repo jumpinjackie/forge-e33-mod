@@ -1,4 +1,4 @@
-Name:Echassier
+Name:Échassier
 ManaCost:2 B
 Types:Creature Nevron
 PT:3/3

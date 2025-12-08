@@ -1,4 +1,6 @@
 [Name]
+Lumière Flower Stand
+[InvariantName]
 Lumiere Flower Stand
 [ManaCost]
 2
@@ -18,5 +20,5 @@ K:etbCounter:STOCK:3
 A:AB$ Token | Cost$ 1 SubCounter<1/STOCK> T | TokenAmount$ 1 | TokenOwner$ You | TokenScript$ c_a_flower | SpellDescription$ Create a Flower token (It's an artifact with "{T}, Sacrifice this artifact: Add {U}, {R} or {G}.")
 A:AB$ PutCounter | Cost$ 3 T | CounterType$ STOCK | SpellDescription$ Put a stock counter on ~
 [DesignNotes]
- - In the game, the town of Lumiere has several market stands in the town square. Tiffanie operates one of these stands and sells flowers.
+ - In the game, the town of Lumière has several market stands in the town square. Tiffanie operates one of these stands and sells flowers.
  - Just wanted another card to get extra usage out of Flower tokens (besides Goblu)

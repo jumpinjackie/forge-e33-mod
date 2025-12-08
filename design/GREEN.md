@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 8/12/2025 6:17:33 pm
+> Last generated: 8/12/2025 7:41:12 pm
 
 ## Abbest
 
@@ -139,7 +139,7 @@ When this creature dies, create a Chroma token.
 
 ### Design Notes
 
- - In the game, Expedition 55 tried using musically-augmented pictos. This was mostly effective until they encountered Sirene whose minions and herself were immune to these pictos.
+ - In the game, Expedition 55 tried using musically-augmented pictos. This was mostly effective until they encountered Sirène whose minions and herself were immune to these pictos.
  - Since the main theme of this Expedition was music, it can be safely assumed that most of the crew were musicians or were proficient in one kind of music, giving us ample design space to fill out the Expeditioner creature roster with various creatures of various utility. In this case, I've gone with a drummer and a lord buff effect.
 
 ## Expedition 60 Messenger
@@ -158,7 +158,7 @@ When this creature dies, create a Chroma token.
 
 ### Design Notes
 
- - Depicts the member of the gigachad expedition that almost made it back to Lumiere to relay the message about the true enemy.
+ - Depicts the member of the gigachad expedition that almost made it back to Lumière to relay the message about the true enemy.
  - The clue token left behind represents the expedition journal.
  - Has un-modified buffs because these gigachads don't require pithy things like clothing and armor.
 
@@ -410,7 +410,7 @@ When this creature dies, target opponent creates a Lumina token. (It's an artifa
 ### Design Notes
 
  - In the game, Volester is one of the lower-tier enemies with flying that has a weak point in its chest.
- - Like Demineur, gave this one a Skulking Ghost sac effect to emphasize its weakness to targeted attacks.
+ - Like Démineur, gave this one a Skulking Ghost sac effect to emphasize its weakness to targeted attacks.
  - 13/10/2025: Removed Devoid.
  - 18/10/2025: Made the skulking ghost effect triggered by opponents
 

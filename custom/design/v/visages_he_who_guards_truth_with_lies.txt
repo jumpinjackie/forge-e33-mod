@@ -51,5 +51,5 @@ A:AB$ Pump | Cost$ 2 W | ValidTgts$ Creature | TgtPrompt$ Select target creature
 A:AB$ Pump | Cost$ 2 R | ValidTgts$ Creature | TgtPrompt$ Select target creature | KW$ HIDDEN CARDNAME can't block. | IsCurse$ True | SpellDescription$ Target creature can't block this turn.
 [DesignNotes]
  - In the game, Visages is an Axon. It is one of two Axons that must be defeated in order to assemble enough Chroma for The Curator to forge the Barrier Breaker weapon to breach the Monolith barrier. It is both a location and boss encounter. Players must defeat three primary masks (Jovial, Seething, Sorrowful) to weaken Visages.
- - In line with other Axons not named Sirene, because it is both a boss and a landmark I want to weave both land and creature aspects. In this case I've gone with a land that transforms into its Axon creature counterpart.
+ - In line with other Axons not named Sirène, because it is both a boss and a landmark I want to weave both land and creature aspects. In this case I've gone with a land that transforms into its Axon creature counterpart.
  - Seething/Jovial/Sorrowful counter transformation condition approximates defeating the three primary masks before facing the Axon.

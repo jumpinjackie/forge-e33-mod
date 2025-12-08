@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 8/12/2025 6:17:33 pm
+> Last generated: 8/12/2025 7:41:12 pm
 
 ## Abbest Cave
 
@@ -206,7 +206,7 @@ This land enters tapped
 {T}: Add {U}.
 {U}, {T}: Target creature you control gains flying until end of turn.
 ---
-Gustave: Expedition 68. Their boat was blown into the air by a storm. Lumiere lost sight of it but assumed they crashed on the continent.
+Gustave: Expedition 68. Their boat was blown into the air by a storm. Lumière lost sight of it but assumed they crashed on the continent.
 Lune: And they survived. The storm, at least.
 ```
 
@@ -225,7 +225,7 @@ Legendary Land
 {T}: Add {C}.
 {1}{B}, {T}: Put target Nevron card from your graveyard on top of your library.
 ---
-These siege engines seemed much more powerful in Lumiere. But on this battlefield, next to all these broken bodies, staring at the true size of the monolith, I feel despair.
+These siege engines seemed much more powerful in Lumière. But on this battlefield, next to all these broken bodies, staring at the true size of the monolith, I feel despair.
 - Carla, Expedition 57
 ```
 
@@ -306,7 +306,7 @@ Gustave: They seem better at surviving than humans.
 
  - Nicknamed painland reprint to flesh out commander mana bases
 
-## Lumiere Aquafarm
+## Lumière Aquafarm
 
 ```
 
@@ -315,19 +315,19 @@ This land enters tapped unless you control an Expeditioner.
 {T}: Add {W} or {U}.
 {4}, {T}: Create a Food token.
 ---
-The Aquafarm project ensured that Lumiere would have a plentiful supply of food for years to come.
+The Aquafarm project ensured that Lumière would have a plentiful supply of food for years to come.
 ```
 
 [card implementation](../custom/cards/l/lumiere_aquafarm.txt)
 
 ### Design Notes
 
- - In the game, Gustave lead the Aquafarm project which ensured the food supply for the city of Lumiere.
+ - In the game, Gustave lead the Aquafarm project which ensured the food supply for the city of Lumière.
  - This gives us an opportunity to add another dual land to this set.
  - Obviously expeditioner aligned so they get a ETB tapped sidestep.
  - It's a farm so obviously needs a Food token generating ability.
 
-## Lumiere Opera House
+## Lumière Opera House
 
 ```
 
@@ -344,10 +344,10 @@ Maybe when this is over, we can fix up the opera house and you can perform for u
 
 ### Design Notes
 
- - In the game, in Maelle's ending. Verso plays piano at the Lumiere Opera House (forever and ever?)
+ - In the game, in Maelle's ending. Verso plays piano at the Lumière Opera House (forever and ever?)
  - Mechanically speaking, music generally translates to creature buffs (see almost any "Anthem" card printed), so I went with a land that grows verse counters that can be spent to momentarily buff your force.
 
-## Lumiere, The Last Bastion
+## Lumière, The Last Bastion
 
 ```
 
@@ -363,7 +363,7 @@ Every year, the population dwindles, yet the citizens persist in their determina
 
 ### Design Notes
 
- - In the game, Lumiere is the city where the humans live. It is also the last bastion of human civilization that is slowly dying each year with the yearly Gommages, hence the sub-title.
+ - In the game, Lumière is the city where the humans live. It is also the last bastion of human civilization that is slowly dying each year with the yearly Gommages, hence the sub-title.
  - Mechanically, modeled on Kjeldoran Outpost but produces Human Expeditioner tokens instead of Soldiers
  - To go with the Expedition/Exploration theme, this land also makes map tokens.
 
@@ -393,7 +393,7 @@ Land
 {T}: Add {C}.
 {T}: Add {U} or {R}. Activate this ability only if you control a Gestral or Grandis.
 ---
-The Grandis have embraced us with such warmth and hope. What a balm for the soul to know that other beings survived, that we in Lumiere are not alone! It truly is a miracle.
+The Grandis have embraced us with such warmth and hope. What a balm for the soul to know that other beings survived, that we in Lumière are not alone! It truly is a miracle.
 - Aurelien, Expedition 65
 ```
 
@@ -422,7 +422,7 @@ The Grandis have embraced us with such warmth and hope. What a balm for the soul
 
  - Nicknamed painland reprint to flesh out commander mana bases
 
-## Sirene's Coliseum
+## Sirène's Coliseum
 
 ```
 
@@ -439,7 +439,7 @@ Maybe. Maybe we'll just stay here and... enjoy the melody.
 
 ### Design Notes
 
- - In the game, this is the home of Sirene, one of the Axons.
+ - In the game, this is the home of Sirène, one of the Axons.
  - Modelled on Grand Coliseum with drawbacks removed if you are Nevron/Painter aligned.
 
 ## Sky Island (Yavimaya Coast)
@@ -535,7 +535,7 @@ When The Monolith has no gommage counters on it, sacrifice it.
 
 ### Design Notes
 
- - In the game, The Monolith is where The Paintress resides and is an everlasting reminder to the humans of Lumiere that time is running out.
+ - In the game, The Monolith is where The Paintress resides and is an everlasting reminder to the humans of Lumière that time is running out.
  - For lore accuracy, this would've been 100 counters instead of 10, but that simply takes way too long in MTG "game time". A game is lucky to reach 50 turns, let alone 100! Reducing it to 10 sacrifices lore accuracy, but retains mechanical accuracy of something that's constantly counting down and wiping out everything older than that number.
 
 ## The Monolith Interior
@@ -652,7 +652,7 @@ Anxiety Mask — {2}{R}: Target creature cannot block this turn.
 ### Design Notes
 
  - In the game, Visages is an Axon. It is one of two Axons that must be defeated in order to assemble enough Chroma for The Curator to forge the Barrier Breaker weapon to breach the Monolith barrier. It is both a location and boss encounter. Players must defeat three primary masks (Jovial, Seething, Sorrowful) to weaken Visages.
- - In line with other Axons not named Sirene, because it is both a boss and a landmark I want to weave both land and creature aspects. In this case I've gone with a land that transforms into its Axon creature counterpart.
+ - In line with other Axons not named Sirène, because it is both a boss and a landmark I want to weave both land and creature aspects. In this case I've gone with a land that transforms into its Axon creature counterpart.
  - Seething/Jovial/Sorrowful counter transformation condition approximates defeating the three primary masks before facing the Axon.
 
 ## White Sands (Adarkar Wastes)

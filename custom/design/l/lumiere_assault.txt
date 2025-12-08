@@ -1,4 +1,6 @@
 [Name]
+Lumière Assault
+[InvariantName]
 Lumiere Assault
 [ManaCost]
 2

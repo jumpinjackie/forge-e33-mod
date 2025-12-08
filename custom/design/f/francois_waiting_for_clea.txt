@@ -1,4 +1,6 @@
 [Name]
+François, Waiting for Clea
+[InvariantName]
 Francois, Waiting for Clea
 [ManaCost]
 2
@@ -18,7 +20,7 @@ Sandfall Interactive
 [Oracle]
 Affinity for Clea Planeswalkers.
 Defender.
-The strongest ice attack ever — At the beginning of your upkeep, Francois deals 4 damage to target creature an opponent controls. Tap that creature and put a stun counter on it.
+The strongest ice attack ever — At the beginning of your upkeep, François deals 4 damage to target creature an opponent controls. Tap that creature and put a stun counter on it.
 [AbilityWords]
 The strongest ice attack ever
 [FlavorText]
@@ -26,12 +28,12 @@ A ROCK? I am NOT a rock, do you have rocks for eyes? You certainly have rocks fo
 [ForgeScript]
 K:Affinity:Planeswalker.Clea
 K:Defender
-T:Mode$ Phase | Phase$ Upkeep | ValidPlayer$ You | TriggerZones$ Battlefield | Execute$ TrigIce | TriggerDescription$ At the beginning of your upkeep, Francois deals 4 damage to target creature an opponent controls. Tap that creature and put a stun counter on it.
+T:Mode$ Phase | Phase$ Upkeep | ValidPlayer$ You | TriggerZones$ Battlefield | Execute$ TrigIce | TriggerDescription$ At the beginning of your upkeep, François deals 4 damage to target creature an opponent controls. Tap that creature and put a stun counter on it.
 SVar:TrigIce:DB$ DealDamage | ValidTgts$ Creature.OppCtrl | TgtPrompt$ Select target creature an opponent controls | NumDmg$ 4 | SubAbility$ TrigTap | SpellDescription$ CARDNAME deals 4 damage to target creature an opponent controls. Tap that creature and put a stun counter on it.
 SVar:TrigTap:DB$ Tap | Defined$ Targeted | SubAbility$ TrigStun
 SVar:TrigStun:DB$ PutCounter | Defined$ Targeted | CounterType$ STUN | CounterNum$ 1
 [DesignNotes]
- - In the game Francois is Esquie's neighbor and "archnemesis" and is in possession of one of the rocks that Esquie desires. Francois was created by Clea and is forever longing for her return into the canvas.
+ - In the game François is Esquie's neighbor and "archnemesis" and is in possession of one of the rocks that Esquie desires. François was created by Clea and is forever longing for her return into the canvas.
  - Mechanically speaking:
     - Affinity for Clea Planeswalkers is simply added for flavor purposes. There is only (going to be) one Clea Planeswalker in this set.
     - It has defender as the game portrayal has him in a stationary position that never moves.

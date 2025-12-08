@@ -1,4 +1,4 @@
-Name:Gustave, Lumiere Engineer
+Name:Gustave, Lumière Engineer
 ManaCost:1 W UR
 Types:Legendary Creature Human Expeditioner
 PT:3/3

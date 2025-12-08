@@ -1,8 +1,8 @@
 # Cards
 
-> Last generated: 8/12/2025 6:17:33 pm
+> Last generated: 8/12/2025 7:41:12 pm
 
-## Petank
+## Pétank
 
 ```
 2C
@@ -19,7 +19,7 @@ When this creature dies, target opponent creates two Chroma tokens and two Lumin
 
 ### Design Notes
 
- - In the game, a Petank is a special type of Nevron that can be defeated for special loot, but you have a limited time window to defeat it before it runs away. Petanks are generally tanky enemies or has some defensive gimmick to add extra challenge to defeating it before it runs away.
+ - In the game, a Pétank is a special type of Nevron that can be defeated for special loot, but you have a limited time window to defeat it before it runs away. Pétanks are generally tanky enemies or has some defensive gimmick to add extra challenge to defeating it before it runs away.
  - Countdown counters symbolize the time window to kill it.
  - Shield counters to represent the tankiness.
  - Bounce back to hand to symbolize it running away.

@@ -1,4 +1,4 @@
-Name:Lumiere Assault
+Name:Lumière Assault
 ManaCost:2 W W
 Types:Kindred Instant Expeditioner
 K:Flashback:Sac<2/Lumina>

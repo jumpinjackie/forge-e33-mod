@@ -1,8 +1,8 @@
 # Cards
 
-> Last generated: 8/12/2025 6:17:33 pm
+> Last generated: 8/12/2025 7:41:12 pm
 
-## A Rock for Francois
+## A Rock for François
 
 ```
 1
@@ -11,7 +11,7 @@ Artifact - Rock
 {1}, Sacrifice this artifact: Draw a card.
 ---
 Verso: We’ll trade you. Urrie for this, uh... lovely portrait of you.
-Francois: Is that s’posed to be ME?!
+François: Is that s’posed to be ME?!
 Esquie: I think we captured your essence beautifully.
 ```
 
@@ -19,7 +19,7 @@ Esquie: I think we captured your essence beautifully.
 
 ### Design Notes
 
- - In the game, Esquie carves a rock of Francois and Clea to trade for Urrie, which gives him the ability to dive.
+ - In the game, Esquie carves a rock of François and Clea to trade for Urrie, which gives him the ability to dive.
  - Another tutor piece to help assist in assembling the rock "Urzatron"
  - Not legendary like the quartet because it's just an ordinary rock.
 
@@ -431,7 +431,7 @@ Artifact Creature - Expeditioner Vehicle
 Whenever this vehicle attacks, if an Expeditioner crewed it this turn, it explores. (Reveal the top card of your library. Put that card into your hand if it’s a land. Otherwise, put a +1/+1 counter on this creature, then put the card back or put it into your graveyard.)
 Crew 2
 ---
-As you sail into the unknown, know that Lumiere stands with you. When you battle the Paintress, know that Lumiere fights with you.
+As you sail into the unknown, know that Lumière stands with you. When you battle the Paintress, know that Lumière fights with you.
 - Emma
 
 4/4
@@ -441,7 +441,7 @@ As you sail into the unknown, know that Lumiere stands with you. When you battle
 
 ### Design Notes
 
- - Depicts the ship Expedition 33 departs from Lumiere in. Modeled on Adrestia.
+ - Depicts the ship Expedition 33 departs from Lumière in. Modeled on Adrestia.
 
 ## Expedition Map
 
@@ -856,7 +856,7 @@ Whenever this creature becomes the target of a spell or ability an opponent cont
  - The second ability was taken from Fblthp, the Lost to mechanically explain why these Gestrals keep getting lost.
  - 23/10/2025: Fixed Sastro card name reference.
 
-## Lumiere Flower Stand
+## Lumière Flower Stand
 
 ```
 2
@@ -873,7 +873,7 @@ Tiffanie: Well, there are less and less people to buy them. I just wish you didn
 
 ### Design Notes
 
- - In the game, the town of Lumiere has several market stands in the town square. Tiffanie operates one of these stands and sells flowers.
+ - In the game, the town of Lumière has several market stands in the town square. Tiffanie operates one of these stands and sells flowers.
  - Just wanted another card to get extra usage out of Flower tokens (besides Goblu)
 
 ## Lumina Converter
@@ -1262,7 +1262,7 @@ Legendary Artifact - Rock
 {1}, Sacrifice Urrie: Draw a card.
 ---
 FINE, FINE, FINE, Here. Pah! Take your rock and SCRAM!
-- Francois
+- François
 ```
 
 [card implementation](../custom/cards/u/urrie.txt)

@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 8/12/2025 6:17:33 pm
+> Last generated: 8/12/2025 7:41:12 pm
 
 ## Anger
 
@@ -230,13 +230,13 @@ Sunniso: Well, I don't know! Golgra never told me the password. But whatever, ju
  - Mechanically, it make sense (and is hilarious) to make Gestrals unable to block.
  - 27/11/2025: Dropped the Gestral restriction to avoid parasitism. So this is now just an Expeditioner-branded Wave of Indifference.
 
-## Grosse Tete
+## Grosse Tête
 
 ```
 3R
 Legendary Creature - Nevron Elemental
-Attacks by bouncing — At the beginning of your upkeep, Grosse Tete deals 2 damage to each creature without flying, then put a quake counter on Grosse Tete.
-When Grosse Tete has three or more quake counters, sacrifice it.
+Attacks by bouncing — At the beginning of your upkeep, Grosse Tête deals 2 damage to each creature without flying, then put a quake counter on Grosse Tête.
+When Grosse Tête has three or more quake counters, sacrifice it.
 
 1/5
 ```
@@ -245,7 +245,7 @@ When Grosse Tete has three or more quake counters, sacrifice it.
 
 ### Design Notes
 
- - In the game, Grosse Tete is a boss whose gimmick is repeatedly bouncing and slamming the ground.
+ - In the game, Grosse Tête is a boss whose gimmick is repeatedly bouncing and slamming the ground.
  - It starts off with 2 consecutive strikes and repeats, adding 2 consecutive strikes each time.
  - At 24 consecutive strikes, it self-destructs.
  - 2,4,6,8,10,12,14,16,18,20,22,24 = 12 times.

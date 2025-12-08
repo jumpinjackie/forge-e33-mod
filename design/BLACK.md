@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 8/12/2025 6:17:33 pm
+> Last generated: 8/12/2025 7:41:12 pm
 
 ## Chapelier
 
@@ -67,7 +67,7 @@ If you could grow old... Would you... find a reason to smile?
  - No in-game basis, but Grief is such a central theme of Expedition 33 that having a cycle dedicated to the 5 stages is a total flavor nuke.
  - Depression is the fourth stage. I've gone with a souped up version of Melancholy.
 
-## Echassier
+## Échassier
 
 ```
 2B
@@ -83,7 +83,7 @@ When this creature dies, target opponent creates a Lumina token. (It's an artifa
 
 ### Design Notes
 
- - In the game, Echassiers are found in The Reacher and Renoir's Drafts.
+ - In the game, Échassiers are found in The Reacher and Renoir's Drafts.
  - Mapped the "Double the blight & Heals allies" ability to 1 toughness setting and life gain.
 
 ## Expedition 62 Hunter
@@ -344,7 +344,7 @@ Sophie: I know. I know.
  - Except in our case, instead of humans, it's players and instead of age its life total. Basically this card is just another excuse to weave in a thematic and flavorful use of the number 33.
  - Further playtesting may reveal the truth, but I don't believe the win condition is *that easy* to achieve. It goes against the general plan of victory for most decks, which is to get your opponent to 0 or less life. So having to get your opponent to above a certain life total to enable the victory condition is at least a unique angle.
 
-## Twisted Lumiere Citizen
+## Twisted Lumière Citizen
 
 ```
 2B
@@ -358,7 +358,7 @@ You may have this creature enter as a copy of any nonlegendary Expeditioner crea
 
 ### Design Notes
 
- - In Act 3 of the game, Renoir (now free) summons an assortment of Nevrons, including twisted copies of the citizens of Lumiere to carry out his mission of destroying the canvas.
+ - In Act 3 of the game, Renoir (now free) summons an assortment of Nevrons, including twisted copies of the citizens of Lumière to carry out his mission of destroying the canvas.
  - Easy mechanical map to a clone/copy effect, but for flavor purposes, will only clone a nonlegendary Expeditioner.
 
 ## Verso's Burden (Treacherous Link)

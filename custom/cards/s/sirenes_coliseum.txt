@@ -1,4 +1,4 @@
-Name:Sirene's Coliseum
+Name:Sirène's Coliseum
 ManaCost:no cost
 Types:Land
 R:Event$ Moved | ValidCard$ Card.Self | Destination$ Battlefield | ReplaceWith$ LandTapped | ReplacementResult$ Updated | Description$ CARDNAME enters tapped unless you control a Nevron or Painter.

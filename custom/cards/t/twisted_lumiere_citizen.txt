@@ -1,4 +1,4 @@
-Name:Twisted Lumiere Citizen
+Name:Twisted Lumière Citizen
 ManaCost:2 B
 Types:Creature Human Nevron Citizen
 PT:0/0

@@ -3,7 +3,7 @@
 This is our master card name list. All ideas and card designs start from a card name. Card names can come from any source in Expedition 33:
 
  * It could refer to a character in the game
-    * eg. Gustave, Lumiere Engineer
+    * eg. Gustave, Lumière Engineer
  * It could refer to an ability/skill of one of the party characters or enemies
     * eg. Earth Rising
  * It could refer to an item in the game or an item possessed by one of the party characters
@@ -34,7 +34,7 @@ Cards implemented: 338
 [x] - Card is implemented or in development, [C] - Card is a commander reprint, [R] - Card is a regular reprint, [N] - Card is a nickname reprint, [Z] - Card is a nickname reprint for commander [ ] - Card is not implemented
 
 ```
-[x] A Rock for Francois
+[x] A Rock for François
 [x] A Storm is Coming
 [x] Abbest
 [x] Abbest Cave
@@ -53,7 +53,7 @@ Cards implemented: 338
 [x] Ballet
 [x] Bargaining
 [ ] Barrier Breaker
-[x] Benisseur
+[x] Bénisseur
 [x] Berrami, Collector of Journals
 [x] Bertrand Big Hands
 [Z] Blade's Graveyard
@@ -98,7 +98,7 @@ Cards implemented: 338
 [Z] Dark Gestral Arena
 [x] Death Picto
 [ ] Degagement
-[x] Demineur
+[x] Démineur
 [x] Denial
 [x] Depression
 [x] Dessendre Family Portrait
@@ -116,7 +116,7 @@ Cards implemented: 338
 [x] Esquie's Magic Mushrooms
 [x] Esquie's Nest
 [x] Eternal Ice
-[x] Eveque
+[x] Évêque
 [x] Expedition 00 Tracker
 [x] Expedition 34 Mage
 [x] Expedition 35 Bridge
@@ -170,7 +170,7 @@ Cards implemented: 338
 [x] Forgotten Battlefield
 [x] Fortune's Fury
 [N] Fracture Survivor
-[x] Francois, Waiting for Clea
+[x] François, Waiting for Clea
 [Z] Frozen Hearts
 [x] Full Deck
 [x] Gargant
@@ -205,8 +205,8 @@ Cards implemented: 338
 [x] Grandis Fashionist
 [x] Grandis Merchant
 [ ] Greatsword Cultist
-[x] Grosse Tete
-[x] Gustave, Lumiere Engineer
+[x] Grosse Tête
+[x] Gustave, Lumière Engineer
 [ ] Gustave's Homage
 [x] Gustave's Ingenuity
 [x] Gustave's Insight
@@ -227,19 +227,19 @@ Cards implemented: 338
 [x] Lorieniso, Gestral Musician
 [x] Lost Gestral
 [Z] Lost Woods
-[x] Lumiere Aquafarm
-[x] Lumiere Assault
-[x] Lumiere Flower Stand
-[ ] Lumiere Mime
-[x] Lumiere Opera House
-[x] Lumiere, The Last Bastion
+[x] Lumière Aquafarm
+[x] Lumière Assault
+[x] Lumière Flower Stand
+[ ] Lumière Mime
+[x] Lumière Opera House
+[x] Lumière, The Last Bastion
 [x] Lumierian Apprentice
 [x] Lumina Converter
 [x] Lune, Charting a Path
 [x] Lune's Curiosity
 [x] Lune's Denial
 [x] Luster
-[x] Maelle, Child of Lumiere // Maelle, The Reawakened Paintress
+[x] Maelle, Child of Lumière // Maelle, The Reawakened Paintress
 [x] Maelle's Nightmare
 [x] Manor Door
 [x] Manor Entrance // Manor Hidden Room
@@ -274,7 +274,7 @@ Cards implemented: 338
 [ ] Percee
 [x] Perfect Dodge
 [x] Persuasive Argument
-[x] Petank
+[x] Pétank
 [ ] Phantom Strike
 [x] Piercing Strike
 [ ] Pyrolyse
@@ -300,7 +300,7 @@ Cards implemented: 338
 [x] Shot Picto
 [x] Simon, Consort of Clea // Simon, The Divergent Star
 [Z] Sinister Cave
-[x] Sirene's Coliseum
+[x] Sirène's Coliseum
 [x] Sky Break
 [Z] Sky Island
 [x] Soarrie
@@ -339,14 +339,14 @@ Cards implemented: 338
 [x] Torture // Nurture
 [x] Troubador
 [x] Twilight Quarry
-[x] Twisted Lumiere Citizen
+[x] Twisted Lumière Citizen
 [ ] Ultimate Sakapatate
-[ ] Unfinished Benisseur
+[ ] Unfinished Bénisseur
 [ ] Unfinished Bruler
 [ ] Unfinished Bourgeon
 [ ] Unfinished Chalier
 [ ] Unfinished Cruler
-[ ] Unfinished Demineur
+[ ] Unfinished Démineur
 [ ] Unfinished Hexga
 [ ] Unfinished Jar
 [ ] Unfinished Troubador
@@ -417,7 +417,7 @@ No ideas yet.
 
 Some card centered around betrayal or switching allegiance.
 
-> Act 3: Lumiere post-gommage. Renoir, after Curator transformation.
+> Act 3: Lumière post-gommage. Renoir, after Curator transformation.
 > Renoir: I know it seems absurd to offer oblivion as recompense, but perhaps that's the outcome we both desire.
 
 This the *IDEAL* flavor text for Choice of Damnations, if it didn't have the parisitic Arcane sub-type, but who are we to judge? We're doing the same thing too! So maybe we just have thematically adjusted reprint.

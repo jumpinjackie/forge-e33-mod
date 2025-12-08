@@ -1,6 +1,6 @@
 [
     {
-        "key": "A Rock for Francois",
+        "key": "A Rock for François",
         "data": {
             "width": 2010,
             "height": 2814,
@@ -79,7 +79,7 @@
                     ]
                 }
             ],
-            "artSource": "https://corsproxy.io/?url=https%3A%2F%2Fjumpinjackie.github.io%2Fe33-reference-art%2Fimages%2Fcards%2Fa_rock_for_francois.png",
+            "artSource": "https://corsproxy.io/?url=https%3A%2F%2Fjumpinjackie.github.io%2Fe33-reference-art%2Fimages%2Fcards%2Fa_rock_for_François.png",
             "artX": -0.07711442786069651,
             "artY": 0.11300639658848614,
             "artZoom": 1.9169999999999998,
@@ -239,7 +239,7 @@
                 },
                 "title": {
                     "name": "Title",
-                    "text": "A Rock for Francois",
+                    "text": "A Rock for François",
                     "x": 0.0854,
                     "y": 0.0522,
                     "width": 0.8292,
@@ -261,7 +261,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "{1}, {T}, Sacrifice this artifact: Search your library for a Rock card and put it into your hand.\n{1}, Sacrifice this artifact: Draw a card.{flavor}Verso: We’ll trade you. Urrie for this, uh... lovely portrait of you.\nFrancois: Is that s’posed to be ME?!\nEsquie: I think we captured your essence beautifully.",
+                    "text": "{1}, {T}, Sacrifice this artifact: Search your library for a Rock card and put it into your hand.\n{1}, Sacrifice this artifact: Draw a card.{flavor}Verso: We’ll trade you. Urrie for this, uh... lovely portrait of you.\nFrançois: Is that s’posed to be ME?!\nEsquie: I think we captured your essence beautifully.",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
@@ -3087,7 +3087,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Each player who has cast a non-Painter, non-Gradient spell this turn can’t cast additional non-Painter, non-Gradient spells.\n(Melds with Maelle, Child of Lumiere.)",
+                    "text": "Each player who has cast a non-Painter, non-Gradient spell this turn can’t cast additional non-Painter, non-Gradient spells.\n(Melds with Maelle, Child of Lumière.)",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
@@ -7524,7 +7524,7 @@
         }
     },
     {
-        "key": "Benisseur",
+        "key": "Bénisseur",
         "data": {
             "width": 2010,
             "height": 2814,
@@ -7802,7 +7802,7 @@
                 },
                 "title": {
                     "name": "Title",
-                    "text": "Benisseur",
+                    "text": "Bénisseur",
                     "x": 0.0854,
                     "y": 0.0522,
                     "width": 0.8292,
@@ -13856,7 +13856,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Creatures cannot attack you unless their controller sacrifices a Chroma token for each creature they control that’s attacking you.\n{3}: Create a Chroma token. Any player may activate this ability.{flavor}This looks similar to Lumiere’s shield dome. Maybe we can just cross it.\n- Lune",
+                    "text": "Creatures cannot attack you unless their controller sacrifices a Chroma token for each creature they control that’s attacking you.\n{3}: Create a Chroma token. Any player may activate this ability.{flavor}This looks similar to Lumière’s shield dome. Maybe we can just cross it.\n- Lune",
                     "x": 0.086,
                     "y": 0.6325515280739161,
                     "width": 0.828,
@@ -23245,7 +23245,7 @@
         }
     },
     {
-        "key": "Demineur",
+        "key": "Démineur",
         "data": {
             "width": 2010,
             "height": 2814,
@@ -23495,7 +23495,7 @@
                 },
                 "title": {
                     "name": "Title",
-                    "text": "Demineur",
+                    "text": "Démineur",
                     "x": 0.0854,
                     "y": 0.0522,
                     "width": 0.8292,
@@ -26365,7 +26365,7 @@
         }
     },
     {
-        "key": "Echassier",
+        "key": "Échassier",
         "data": {
             "width": 2010,
             "height": 2814,
@@ -26615,7 +26615,7 @@
                 },
                 "title": {
                     "name": "Title",
-                    "text": "Echassier",
+                    "text": "Échassier",
                     "x": 0.0854,
                     "y": 0.0522,
                     "width": 0.8292,
@@ -29509,7 +29509,7 @@
         }
     },
     {
-        "key": "Eveque",
+        "key": "Évêque",
         "data": {
             "width": 2010,
             "height": 2814,
@@ -29825,7 +29825,7 @@
                 },
                 "title": {
                     "name": "Title",
-                    "text": "Eveque",
+                    "text": "Évêque",
                     "x": 0.0854,
                     "y": 0.0522,
                     "width": 0.8292,
@@ -29847,7 +29847,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Eveque enters with a shield counter. (If it would be dealt damage or destroyed, remove a shield counter from it instead.)\n{i}Casts a spell{/i} — {2}{R}, {T}: Eveque deals 2 damage to target creature.\n{i}Summons minions{/i} — {2}{G}{G}, {T}: Create two 1/1 green Abbest Nevron creature tokens.",
+                    "text": "Évêque enters with a shield counter. (If it would be dealt damage or destroyed, remove a shield counter from it instead.)\n{i}Casts a spell{/i} — {2}{R}, {T}: Évêque deals 2 damage to target creature.\n{i}Summons minions{/i} — {2}{G}{G}, {T}: Create two 1/1 green Abbest Nevron creature tokens.",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
@@ -33544,7 +33544,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "When this creature dies, create a Chroma token.{flavor}Lumiere operates a certain way. It favours a certain group and a certain outcome and if you question the Council, well, the Council’s going to question you.\nPush too hard to change things and you just might end up on the next Expedition.\nSo. Nothing ever changes. They just send us out to die. Dissenters. And the status quo continues. At least out here, I don’t have to pretend anymore.",
+                    "text": "When this creature dies, create a Chroma token.{flavor}Lumière operates a certain way. It favours a certain group and a certain outcome and if you question the Council, well, the Council’s going to question you.\nPush too hard to change things and you just might end up on the next Expedition.\nSo. Nothing ever changes. They just send us out to die. Dissenters. And the status quo continues. At least out here, I don’t have to pretend anymore.",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
@@ -36018,7 +36018,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "When this creature leaves the battlefield, investigate (Create a Clue token. It’s an artifact with “{2}, Sacrifice this token: Draw a card.”)\nThis creature gets +2/+2 as long as it’s un-modified. (Equipment, Auras you control, and counters are modifications.)\nWhen this creature dies, create a Chroma token.",
+                    "text": "When this creature leaves the battlefield, investigate (Create a Clue token. It’s an artifact with “{2}, Sacrifice this token: Draw a card.”)\nThis creature gets +2/+2 as long as it’s un-modified. (Equipment, Auras you control, and counters are modifications.)\nWhen this creature dies, create a Chroma token.{flavor}One last swim separates me from Lumière, but even with my mighty muscles, I don’t know if I can outswim the Gommage.",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.8238805970149253,
@@ -41246,7 +41246,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Whenever this vehicle attacks, if an Expeditioner crewed it this turn, it explores. (Reveal the top card of your library. Put that card into your hand if it’s a land. Otherwise, put a +1/+1 counter on this creature, then put the card back or put it into your graveyard.)\nCrew 2{flavor}As you sail into the unknown, know that Lumiere stands with you. When you battle the Paintress, know that Lumiere fights with you.\n- Emma",
+                    "text": "Whenever this vehicle attacks, if an Expeditioner crewed it this turn, it explores. (Reveal the top card of your library. Put that card into your hand if it’s a land. Otherwise, put a +1/+1 counter on this creature, then put the card back or put it into your graveyard.)\nCrew 2{flavor}As you sail into the unknown, know that Lumière stands with you. When you battle the Paintress, know that Lumière fights with you.\n- Emma",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
@@ -45123,7 +45123,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "This land enters tapped\n{T}: Add {U}.\n{U}, {T}: Target creature you control gains flying until end of turn.{flavor}Gustave: Expedition 68. Their boat was blown into the air by a storm. Lumiere lost sight of it but assumed they crashed on the continent.\nLune: And they survived. The storm, at least.",
+                    "text": "This land enters tapped\n{T}: Add {U}.\n{U}, {T}: Target creature you control gains flying until end of turn.{flavor}Gustave: Expedition 68. Their boat was blown into the air by a storm. Lumière lost sight of it but assumed they crashed on the continent.\nLune: And they survived. The storm, at least.",
                     "x": 0.086,
                     "y": 0.6325515280739161,
                     "width": 0.828,
@@ -46005,7 +46005,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "{T}: Add {C}.\n{1}{B}, {T}: Put target Nevron card from your graveyard on top of your library.{flavor}These siege engines seemed much more powerful in Lumiere. But on this battlefield, next to all these broken bodies, staring at the true size of the monolith, I feel despair.\n- Carla, Expedition 57",
+                    "text": "{T}: Add {C}.\n{1}{B}, {T}: Put target Nevron card from your graveyard on top of your library.{flavor}These siege engines seemed much more powerful in Lumière. But on this battlefield, next to all these broken bodies, staring at the true size of the monolith, I feel despair.\n- Carla, Expedition 57",
                     "x": 0.086,
                     "y": 0.6325515280739161,
                     "width": 0.828,
@@ -46334,7 +46334,7 @@
         }
     },
     {
-        "key": "Francois, Waiting for Clea",
+        "key": "François, Waiting for Clea",
         "data": {
             "width": 2010,
             "height": 2814,
@@ -46606,7 +46606,7 @@
                 },
                 "title": {
                     "name": "Title",
-                    "text": "Francois, Waiting for Clea",
+                    "text": "François, Waiting for Clea",
                     "x": 0.0854,
                     "y": 0.0522,
                     "width": 0.8292,
@@ -46628,7 +46628,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Affinity for Clea Planeswalkers.\nDefender.\n{i}The strongest ice attack ever{/i} — At the beginning of your upkeep, Francois deals 4 damage to target creature an opponent controls. Tap that creature and put a stun counter on it.{flavor}A ROCK? I am NOT a rock, do you have rocks for eyes? You certainly have rocks for BRAINS. I am clearly a TURTLE.",
+                    "text": "Affinity for Clea Planeswalkers.\nDefender.\n{i}The strongest ice attack ever{/i} — At the beginning of your upkeep, François deals 4 damage to target creature an opponent controls. Tap that creature and put a stun counter on it.{flavor}A ROCK? I am NOT a rock, do you have rocks for eyes? You certainly have rocks for BRAINS. I am clearly a TURTLE.",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
@@ -57217,7 +57217,7 @@
         }
     },
     {
-        "key": "Grosse Tete",
+        "key": "Grosse Tête",
         "data": {
             "width": 2010,
             "height": 2814,
@@ -57489,7 +57489,7 @@
                 },
                 "title": {
                     "name": "Title",
-                    "text": "Grosse Tete",
+                    "text": "Grosse Tête",
                     "x": 0.08358208955223881,
                     "y": 0.05152807391613362,
                     "width": 0.8292,
@@ -57512,7 +57512,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "{i}Attacks by bouncing{/i} — At the beginning of your upkeep, Grosse Tete deals 2 damage to each creature without flying, then put a quake counter on Grosse Tete.\nWhen Grosse Tete has three or more quake counters, sacrifice it.",
+                    "text": "{i}Attacks by bouncing{/i} — At the beginning of your upkeep, Grosse Tête deals 2 damage to each creature without flying, then put a quake counter on Grosse Tête.\nWhen Grosse Tête has three or more quake counters, sacrifice it.",
                     "x": 0.086,
                     "y": 0.6325515280739161,
                     "width": 0.828,
@@ -57874,7 +57874,7 @@
         }
     },
     {
-        "key": "Gustave, Lumiere Engineer",
+        "key": "Gustave, Lumière Engineer",
         "data": {
             "width": 2010,
             "height": 2814,
@@ -58146,7 +58146,7 @@
                 },
                 "title": {
                     "name": "Title",
-                    "text": "Gustave, Lumiere Engineer",
+                    "text": "Gustave, Lumière Engineer",
                     "x": 0.08358208955223881,
                     "y": 0.05152807391613362,
                     "width": 0.8292,
@@ -65692,7 +65692,7 @@
         }
     },
     {
-        "key": "Lumiere Aquafarm",
+        "key": "Lumière Aquafarm",
         "data": {
             "width": 2010,
             "height": 2814,
@@ -65799,7 +65799,7 @@
                     ]
                 }
             ],
-            "artSource": "https://corsproxy.io/?url=https%3A%2F%2Fcdnb.artstation.com%2Fp%2Fassets%2Fimages%2Fimages%2F088%2F018%2F745%2Flarge%2Fnicholas-maxson-francombe-lumiere-concept6.jpg",
+            "artSource": "https://corsproxy.io/?url=https%3A%2F%2Fcdnb.artstation.com%2Fp%2Fassets%2Fimages%2Fimages%2F088%2F018%2F745%2Flarge%2Fnicholas-maxson-francombe-Lumière-concept6.jpg",
             "artX": -0.10199004975124377,
             "artY": 0.1023454157782516,
             "artZoom": 1.38,
@@ -65959,7 +65959,7 @@
                 },
                 "title": {
                     "name": "Title",
-                    "text": "Lumiere Aquafarm",
+                    "text": "Lumière Aquafarm",
                     "x": 0.08358208955223881,
                     "y": 0.05152807391613362,
                     "width": 0.8292,
@@ -65981,7 +65981,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "This land enters tapped unless you control an Expeditioner.\n{T}: Add {W} or {U}.\n{4}, {T}: Create a Food token.{flavor}The Aquafarm project ensured that Lumiere would have a plentiful supply of food for years to come.",
+                    "text": "This land enters tapped unless you control an Expeditioner.\n{T}: Add {W} or {U}.\n{4}, {T}: Create a Food token.{flavor}The Aquafarm project ensured that Lumière would have a plentiful supply of food for years to come.",
                     "x": 0.086,
                     "y": 0.6325515280739161,
                     "width": 0.828,
@@ -66015,7 +66015,7 @@
         }
     },
     {
-        "key": "Lumiere Assault",
+        "key": "Lumière Assault",
         "data": {
             "width": 2010,
             "height": 2814,
@@ -66094,7 +66094,7 @@
                     ]
                 }
             ],
-            "artSource": "https://corsproxy.io/?url=https%3A%2F%2Fjumpinjackie.github.io%2Fe33-reference-art%2Fimages%2Fcards%2Flumiere_assault.png",
+            "artSource": "https://corsproxy.io/?url=https%3A%2F%2Fjumpinjackie.github.io%2Fe33-reference-art%2Fimages%2Fcards%2FLumière_assault.png",
             "artX": 0.07661691542288557,
             "artY": 0.0923951670220327,
             "artZoom": 2.459,
@@ -66254,7 +66254,7 @@
                 },
                 "title": {
                     "name": "Title",
-                    "text": "Lumiere Assault",
+                    "text": "Lumière Assault",
                     "x": 0.0854,
                     "y": 0.0522,
                     "width": 0.8292,
@@ -66310,7 +66310,7 @@
         }
     },
     {
-        "key": "Lumiere Flower Stand",
+        "key": "Lumière Flower Stand",
         "data": {
             "width": 2010,
             "height": 2814,
@@ -66549,7 +66549,7 @@
                 },
                 "title": {
                     "name": "Title",
-                    "text": "Lumiere Flower Stand",
+                    "text": "Lumière Flower Stand",
                     "x": 0.0854,
                     "y": 0.0522,
                     "width": 0.8292,
@@ -66605,7 +66605,7 @@
         }
     },
     {
-        "key": "Lumiere Opera House",
+        "key": "Lumière Opera House",
         "data": {
             "width": 2010,
             "height": 2814,
@@ -66844,7 +66844,7 @@
                 },
                 "title": {
                     "name": "Title",
-                    "text": "Lumiere Opera House",
+                    "text": "Lumière Opera House",
                     "x": 0.08358208955223881,
                     "y": 0.05152807391613362,
                     "width": 0.8292,
@@ -66900,7 +66900,7 @@
         }
     },
     {
-        "key": "Lumiere, The Last Bastion",
+        "key": "Lumière, The Last Bastion",
         "data": {
             "width": 2010,
             "height": 2814,
@@ -67161,7 +67161,7 @@
                 },
                 "title": {
                     "name": "Title",
-                    "text": "Lumiere, The Last Bastion",
+                    "text": "Lumière, The Last Bastion",
                     "x": 0.08358208955223881,
                     "y": 0.05152807391613362,
                     "width": 0.8292,
@@ -69285,7 +69285,7 @@
         }
     },
     {
-        "key": "Maelle, Child of Lumiere",
+        "key": "Maelle, Child of Lumière",
         "data": {
             "width": 2010,
             "height": 2814,
@@ -69570,7 +69570,7 @@
                 },
                 "title": {
                     "name": "Title",
-                    "text": "Maelle, Child of Lumiere",
+                    "text": "Maelle, Child of Lumière",
                     "x": 0.16,
                     "y": 0.0522,
                     "width": 0.7547,
@@ -69593,7 +69593,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "{i}Stance Switch{/i} — At the beginning of combat, roll a six-sided die.\n1-2 | {i}Offensive Stance{/i} — Maelle gains Vigilance and +2/+0 until your next turn\n3-4 | {i}Defensive Stance{/i} — Maelle gains Hexproof, First Strike and +0/+2 until your next turn.\n5-6 | {i}Virtuose Stance{/i} — Maelle gains Double Strike and +1/-1 until your next turn.\nAt the beginning of your end step, if you both own and control Maelle, Child of Lumiere and a creature named Alicia Dessendre, Silenced by Fire, exile them, then meld them into Maelle, The Reawakened Paintress.",
+                    "text": "{i}Stance Switch{/i} — At the beginning of combat, roll a six-sided die.\n1-2 | {i}Offensive Stance{/i} — Maelle gains Vigilance and +2/+0 until your next turn\n3-4 | {i}Defensive Stance{/i} — Maelle gains Hexproof, First Strike and +0/+2 until your next turn.\n5-6 | {i}Virtuose Stance{/i} — Maelle gains Double Strike and +1/-1 until your next turn.\nAt the beginning of your end step, if you both own and control Maelle, Child of Lumière and a creature named Alicia Dessendre, Silenced by Fire, exile them, then meld them into Maelle, The Reawakened Paintress.",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
@@ -74820,7 +74820,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "{T}: Add {C}.\n{T}: Add {U} or {R}. Activate this ability only if you control a Gestral or Grandis.{flavor}The Grandis have embraced us with such warmth and hope. What a balm for the soul to know that other beings survived, that we in Lumiere are not alone! It truly is a miracle.\n- Aurelien, Expedition 65",
+                    "text": "{T}: Add {C}.\n{T}: Add {U} or {R}. Activate this ability only if you control a Gestral or Grandis.{flavor}The Grandis have embraced us with such warmth and hope. What a balm for the soul to know that other beings survived, that we in Lumière are not alone! It truly is a miracle.\n- Aurelien, Expedition 65",
                     "x": 0.086,
                     "y": 0.6325515280739161,
                     "width": 0.828,
@@ -87542,7 +87542,7 @@
         }
     },
     {
-        "key": "Sirene’s Coliseum",
+        "key": "Sirène’s Coliseum",
         "data": {
             "width": 2010,
             "height": 2814,
@@ -87621,7 +87621,7 @@
                     ]
                 }
             ],
-            "artSource": "https://corsproxy.io/?url=https%3A%2F%2Fcdna.artstation.com%2Fp%2Fassets%2Fimages%2Fimages%2F088%2F082%2F266%2Flarge%2Fnicholas-maxson-francombe-enviro-11-sirene-view02.jpg",
+            "artSource": "https://corsproxy.io/?url=https%3A%2F%2Fcdna.artstation.com%2Fp%2Fassets%2Fimages%2Fimages%2F088%2F082%2F266%2Flarge%2Fnicholas-maxson-francombe-enviro-11-Sirène-view02.jpg",
             "artX": -0.13781094527363183,
             "artY": 0.09026297085998579,
             "artZoom": 1.402,
@@ -87781,7 +87781,7 @@
                 },
                 "title": {
                     "name": "Title",
-                    "text": "Sirene’s Coliseum",
+                    "text": "Sirène’s Coliseum",
                     "x": 0.0854,
                     "y": 0.0522,
                     "width": 0.8292,
@@ -95851,7 +95851,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "(You may cast a legendary sorcery only if you control a legendary creature or planeswalker.)\nDestroy all non-basic lands.\nSearch your library for a card named The Monolith, put it onto the battlefield and shuffle.{flavor}The city of Lumiere was uprooted and flung into the ocean. Soon after, The Monolith appeared, bearing the number “100”. Nobody at the time knew what this number meant.",
+                    "text": "(You may cast a legendary sorcery only if you control a legendary creature or planeswalker.)\nDestroy all non-basic lands.\nSearch your library for a card named The Monolith, put it onto the battlefield and shuffle.{flavor}The city of Lumière was uprooted and flung into the ocean. Soon after, The Monolith appeared, bearing the number “100”. Nobody at the time knew what this number meant.",
                     "x": 0.086,
                     "y": 0.6325515280739161,
                     "width": 0.828,
@@ -96282,7 +96282,7 @@
                     ]
                 }
             ],
-            "artSource": "https://corsproxy.io/?url=https%3A%2F%2Fcdna.artstation.com%2Fp%2Fassets%2Fimages%2Fimages%2F088%2F032%2F226%2Flarge%2Fnicholas-maxson-francombe-oldlumiere-concept1.jpg",
+            "artSource": "https://corsproxy.io/?url=https%3A%2F%2Fcdna.artstation.com%2Fp%2Fassets%2Fimages%2Fimages%2F088%2F032%2F226%2Flarge%2Fnicholas-maxson-francombe-oldLumière-concept1.jpg",
             "artX": -0.5696517412935324,
             "artY": 0.033404406538734895,
             "artZoom": 1.5759999999999998,
@@ -102163,7 +102163,7 @@
         }
     },
     {
-        "key": "Twisted Lumiere Citizen",
+        "key": "Twisted Lumière Citizen",
         "data": {
             "width": 2010,
             "height": 2814,
@@ -102413,7 +102413,7 @@
                 },
                 "title": {
                     "name": "Title",
-                    "text": "Twisted Lumiere Citizen",
+                    "text": "Twisted Lumière Citizen",
                     "x": 0.0854,
                     "y": 0.0522,
                     "width": 0.8292,
@@ -103396,7 +103396,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "{1}, {T}: Surveil 2.\n{1}, Sacrifice Urrie: Draw a card.{flavor}FINE, FINE, FINE, Here. Pah! Take your rock and SCRAM!\n- Francois",
+                    "text": "{1}, {T}: Surveil 2.\n{1}, Sacrifice Urrie: Draw a card.{flavor}FINE, FINE, FINE, Here. Pah! Take your rock and SCRAM!\n- François",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,

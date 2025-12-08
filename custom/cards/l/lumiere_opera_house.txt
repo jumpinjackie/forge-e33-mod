@@ -1,4 +1,4 @@
-Name:Lumiere Opera House
+Name:Lumière Opera House
 ManaCost:no cost
 Types:Land
 T:Mode$ Phase | Phase$ Upkeep | ValidPlayer$ You | TriggerZones$ Battlefield | OptionalDecider$ You | Execute$ TrigPutCounter | TriggerDescription$ At the beginning of your upkeep, you may put a verse counter on CARDNAME.

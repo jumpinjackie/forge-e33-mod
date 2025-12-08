@@ -1,4 +1,4 @@
-Name:Benisseur
+Name:Bénisseur
 ManaCost:2 R G
 Types:Creature Nevron
 PT:4/4

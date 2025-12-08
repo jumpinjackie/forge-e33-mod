@@ -5,7 +5,7 @@ Date=2025-09-17
 Type=Custom
 
 [cards]
-2 C A Rock for Francois @Sandfall Interactive
+2 C A Rock for François @Sandfall Interactive
 3 C A Storm is Coming @Sandfall Interactive
 4 C Abbest @Sandfall Interactive
 5 U Abbest Cave @Sandfall Interactive
@@ -19,7 +19,7 @@ Type=Custom
 17 R Attack Picto @Sandfall Interactive
 19 C Ballet @Sandfall Interactive
 20 R Bargaining @Sandfall Interactive
-22 U Benisseur @Sandfall Interactive
+22 U Bénisseur @Sandfall Interactive
 23 R Berrami, Collector of Journals @Sandfall Interactive
 24 U Bertrand Big Hands @
 27 C Boucheclier @Sandfall Interactive
@@ -57,7 +57,7 @@ Type=Custom
 67 U Danseuse Teacher @Sandfall Interactive
 69 R Dark Shores @Sandfall Interactive
 70 R Death Picto @Sandfall Interactive
-72 C Demineur @Sandfall Interactive
+72 C Démineur @Sandfall Interactive
 73 R Denial @Sandfall Interactive
 74 U Depression @Sandfall Interactive
 75 U Dessendre Family Portrait @Sandfall Interactive
@@ -65,7 +65,7 @@ Type=Custom
 78 U Dorrie @Sandfall Interactive
 80 R Dualliste @
 81 U Earth Rising @Sandfall Interactive
-82 U Echassier @Sandfall Interactive
+82 U Échassier @Sandfall Interactive
 83 R Endless Tower @Sandfall Interactive
 84 U Energy Tint @Sandfall Interactive
 85 R Entering the Canvas @Sandfall Interactive
@@ -74,7 +74,7 @@ Type=Custom
 88 R Esquie's Nest @Sandfall Interactive
 89 C Esquie's Rescue @Sandfall Interactive
 90 C Eternal Ice @Sandfall Interactive
-91 R Eveque @
+91 R Évêque @
 92 U Expedition 00 Tracker @Sandfall Interactive
 93 U Expedition 34 Mage @Sandfall Interactive
 94 U Expedition 35 Bridge @Sandfall Interactive
@@ -120,7 +120,7 @@ Type=Custom
 142 U For Those Who Come After @Sandfall Interactive
 143 R Forgotten Battlefield @Sandfall Interactive
 144 C Fortune's Fury @Sandfall Interactive
-146 R Francois, Waiting for Clea @Sandfall Interactive
+146 R François, Waiting for Clea @Sandfall Interactive
 148 U Full Deck @
 149 U Gargant @
 150 R Gestral Arena @Sandfall Interactive
@@ -154,8 +154,8 @@ Type=Custom
 178 C Gradient Counter @Sandfall Interactive
 179 R Grandis Fashionist @
 180 U Grandis Merchant @
-181 R Grosse Tete @Sandfall Interactive
-183 R Gustave, Lumiere Engineer @Sandfall Interactive
+181 R Grosse Tête @Sandfall Interactive
+183 R Gustave, Lumière Engineer @Sandfall Interactive
 184 U Gustave's Ingenuity @Sandfall Interactive
 185 U Gustave's Insight @Sandfall Interactive
 186 R Gustave's Journal @Sandfall Interactive
@@ -175,18 +175,18 @@ Type=Custom
 200 R Lorieniso, Gestral Musician @Sandfall Interactive
 201 C Lost // Found @Sandfall Interactive
 202 C Lost Gestral @Sandfall Interactive
-204 R Lumiere Aquafarm @Sandfall Interactive
-205 U Lumiere Assault @
-206 U Lumiere Flower Stand @
-207 R Lumiere Opera House @Sandfall Interactive
-208 R Lumiere, The Last Bastion @Sandfall Interactive
+204 R Lumière Aquafarm @Sandfall Interactive
+205 U Lumière Assault @
+206 U Lumière Flower Stand @
+207 R Lumière Opera House @Sandfall Interactive
+208 R Lumière, The Last Bastion @Sandfall Interactive
 209 U Lumierian Apprentice @Sandfall Interactive
 210 U Lumina Converter @Sandfall Interactive
 211 R Lune, Charting a Path @
 212 U Lune's Curiosity @Sandfall Interactive
 213 C Lune's Denial @Sandfall Interactive
 214 C Luster @Sandfall Interactive
-215 M Maelle, Child of Lumiere @Sandfall Interactive
+215 M Maelle, Child of Lumière @Sandfall Interactive
 216 U Maelle's Nightmare @Sandfall Interactive
 218 C Manor Door @Sandfall Interactive
 219 R Manor Entrance // Manor Hidden Room @Sandfall Interactive
@@ -212,7 +212,7 @@ Type=Custom
 244 R Painted Renoir, Aline's Enforcer @
 248 U Perfect Dodge @
 249 U Persuasive Argument @
-250 U Petank @Sandfall Interactive
+250 U Pétank @Sandfall Interactive
 251 C Piercing Strike @Sandfall Interactive
 252 U Potier @Sandfall Interactive
 254 U Rally the Expeditioners @Sandfall Interactive
@@ -237,7 +237,7 @@ Type=Custom
 273 R Shot Picto @Sandfall Interactive
 274 U Shrine to The Paintress @
 275 M Simon, Consort of Clea @Sandfall Interactive
-277 R Sirene's Coliseum @Sandfall Interactive
+277 R Sirène's Coliseum @Sandfall Interactive
 278 R Sky Break @Sandfall Interactive
 280 U Soarrie @Sandfall Interactive
 283 R Sprong @
@@ -265,7 +265,7 @@ Type=Custom
 323 C Torture // Nurture @Sandfall Interactive
 324 U Troubador @Sandfall Interactive
 325 U Twilight Quarry @Sandfall Interactive
-326 U Twisted Lumiere Citizen @Sandfall Interactive
+326 U Twisted Lumière Citizen @Sandfall Interactive
 327 U Urrie @Sandfall Interactive
 328 R Verisimilitude @Sandfall Interactive
 329 R Verso, Who Guards Truth With Lies @

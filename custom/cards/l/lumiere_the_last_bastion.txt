@@ -1,4 +1,4 @@
-Name:Lumiere, The Last Bastion
+Name:Lumière, The Last Bastion
 ManaCost:no cost
 Types:Legendary Land Town
 A:AB$ Mana | Cost$ T | Produced$ W | SpellDescription$ Add {W}.

@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 8/12/2025 6:17:33 pm
+> Last generated: 8/12/2025 7:41:12 pm
 
 ## A Life to Love (Farewell)
 
@@ -48,7 +48,7 @@ Legendary Enchantment
 Creatures cannot attack you unless their controller sacrifices a Chroma token for each creature they control that's attacking you.
 {3}: Create a Chroma token. Any player may activate this ability.
 ---
-This looks similar to Lumiere's shield dome. Maybe we can just cross it.
+This looks similar to Lumière's shield dome. Maybe we can just cross it.
 - Lune
 ```
 
@@ -171,7 +171,7 @@ For our allies who come after, sadly our lives may have proven that defense is b
 Creature - Human Expeditioner
 When this creature dies, create a Chroma token.
 ---
-Lumiere operates a certain way. It favours a certain group and a certain outcome and if you question the Council, well, the Council’s going to question you.
+Lumière operates a certain way. It favours a certain group and a certain outcome and if you question the Council, well, the Council’s going to question you.
 Push too hard to change things and you just might end up on the next Expedition.
 So. Nothing ever changes. They just send us out to die. Dissenters. And the status quo continues. At least out here, I don’t have to pretend anymore.
 
@@ -201,7 +201,7 @@ Your time left in this life is limited, why not make it count for something?
 
 ### Design Notes
 
- - No direct representation in the video game, but I can easily imagine there are some people in Lumiere whose job is to be trying to recruit citizens who are soon to be gommaged, persuading them to embark on the next Expedition, to make use of the limited time they have left in this world.
+ - No direct representation in the video game, but I can easily imagine there are some people in Lumière whose job is to be trying to recruit citizens who are soon to be gommaged, persuading them to embark on the next Expedition, to make use of the limited time they have left in this world.
  - Goblin Matron, but for Expeditioners with standard death bonus.
  - 3/10/2025: This + Tomorrow Comes + Expedition 70 gives us effectively 12 Expeditioner tutors. This may be overkill and the Expeditioner strategy too consistent and we may have to rework one or more of these cards. Further playtesting will tell us.
 
@@ -233,7 +233,7 @@ Please survive!
     - Thus a card like this will not only help buy extra turns to get you to 6 mana to cast The 67th gommage, but also to get your opponent to 33 life or above.
  - 27/11/2025: Added Luminous bonus.
 
-## Lumiere Assault
+## Lumière Assault
 
 ```
 2WW
@@ -266,7 +266,7 @@ He eagerly absorbs the knowledge given to him, for he knows when his time comes,
 
 ### Design Notes
 
- - In the game, some of the children/teenagers of Lumiere are apprentices of Expeditioners, absorbing as much knowledge passed down to them should they fail and they will eventually become Expeditioners themselves and need to take up the mantle.
+ - In the game, some of the children/teenagers of Lumière are apprentices of Expeditioners, absorbing as much knowledge passed down to them should they fail and they will eventually become Expeditioners themselves and need to take up the mantle.
  - Modeled their "curiosity" as giving you clues whenever a "foreign" creature type enters the battlefield.
  - One of the rare humans in this set that are not Expeditioners.
 
@@ -319,7 +319,7 @@ Painting isn't about verisimilitude, it's about essence. The truth of who they a
 
 ### Design Notes
 
- - This is meant to represent (paintress) Maelle's new-found ability to resurrect the citizens of Lumiere provided she has some of their Chroma, as demonstrated by being able to bring back Lune and Sciel after their gommage.
+ - This is meant to represent (paintress) Maelle's new-found ability to resurrect the citizens of Lumière provided she has some of their Chroma, as demonstrated by being able to bring back Lune and Sciel after their gommage.
  - Mechanically this means we can also bring back cards from exile.
  - Currently not working (the sacrifice X chromas condition).
  - 7/10/2025: Change Chroma token sac requirement to 3 tokens instead of a variable amount and make the card in exile targeting have no restrictions instead of variable based on the amount of Chroma tokens sacced. This made it work.
@@ -376,7 +376,7 @@ Legendary Sorcery
 Destroy all non-basic lands.
 Search your library for a card named The Monolith, put it onto the battlefield and shuffle.
 ---
-The city of Lumiere was uprooted and flung into the ocean. Soon after, The Monolith appeared, bearing the number “100”. Nobody at the time knew what this number meant.
+The city of Lumière was uprooted and flung into the ocean. Soon after, The Monolith appeared, bearing the number “100”. Nobody at the time knew what this number meant.
 ```
 
 [card implementation](../custom/cards/t/the_fracture.txt)

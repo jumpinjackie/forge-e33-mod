@@ -1,4 +1,4 @@
-Name:Grosse Tete
+Name:Grosse Tête
 ManaCost:3 R
 Types:Legendary Creature Nevron Elemental
 PT:1/5
@@ -7,4 +7,4 @@ SVar:TrigQuake:DB$ DamageAll | ValidCards$ Creature.withoutFlying | NumDmg$ 2 | 
 SVar:TrigAddCount:DB$ PutCounter | Defined$ Self | CounterType$ QUAKE | CounterNum$ 1
 T:Mode$ Always | TriggerZones$ Battlefield | IsPresent$ Card.Self+counters_GE3_QUAKE | Execute$ TrigSac | TriggerDescription$ When CARDNAME has three or more quake counters, sacrifice it.
 SVar:TrigSac:DB$ Sacrifice
-Oracle:Attacks by bouncing — At the beginning of your upkeep, Grosse Tete deals 2 damage to each creature without flying, then put a quake counter on Grosse Tete.\nWhen Grosse Tete has three or more quake counters, sacrifice it.
+Oracle:Attacks by bouncing — At the beginning of your upkeep, Grosse Tête deals 2 damage to each creature without flying, then put a quake counter on Grosse Tête.\nWhen Grosse Tête has three or more quake counters, sacrifice it.

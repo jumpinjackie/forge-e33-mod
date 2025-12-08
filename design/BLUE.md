@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 8/12/2025 6:17:33 pm
+> Last generated: 8/12/2025 7:41:12 pm
 
 ## An Advantage!
 
@@ -156,7 +156,7 @@ When this creature dies, target opponent creates a Lumina token. (It's an artifa
  - 13/10/2025: Removed Devoid.
  - 21/10/2025: Added ETB with shield counter to match its character sheet.
 
-## Demineur
+## Démineur
 
 ```
 U
@@ -305,17 +305,17 @@ III — Sacrifice all Airships you control. Create a Chroma token for each Airsh
 
 ### Design Notes
 
- - Journal is a story of expeditioners stealing a bunch of Airships to escape Lumiere.
+ - Journal is a story of expeditioners stealing a bunch of Airships to escape Lumière.
  - This is a top-end payoff for an all-flyers strategy
 
-## Francois, Waiting for Clea
+## François, Waiting for Clea
 
 ```
 2UU
 Legendary Artifact Creature - Turtle
 Affinity for Clea Planeswalkers.
 Defender.
-The strongest ice attack ever — At the beginning of your upkeep, Francois deals 4 damage to target creature an opponent controls. Tap that creature and put a stun counter on it.
+The strongest ice attack ever — At the beginning of your upkeep, François deals 4 damage to target creature an opponent controls. Tap that creature and put a stun counter on it.
 ---
 A ROCK? I am NOT a rock, do you have rocks for eyes? You certainly have rocks for BRAINS. I am clearly a TURTLE.
 
@@ -326,7 +326,7 @@ A ROCK? I am NOT a rock, do you have rocks for eyes? You certainly have rocks fo
 
 ### Design Notes
 
- - In the game Francois is Esquie's neighbor and "archnemesis" and is in possession of one of the rocks that Esquie desires. Francois was created by Clea and is forever longing for her return into the canvas.
+ - In the game François is Esquie's neighbor and "archnemesis" and is in possession of one of the rocks that Esquie desires. François was created by Clea and is forever longing for her return into the canvas.
  - Mechanically speaking:
     - Affinity for Clea Planeswalkers is simply added for flavor purposes. There is only (going to be) one Clea Planeswalker in this set.
     - It has defender as the game portrayal has him in a stationary position that never moves.

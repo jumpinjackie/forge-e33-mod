@@ -1,4 +1,6 @@
 [Name]
+Lumière, The Last Bastion
+[InvariantName]
 Lumiere, The Last Bastion
 [ManaCost]
 no cost
@@ -21,6 +23,6 @@ A:AB$ Mana | Cost$ T | Produced$ W | SpellDescription$ Add {W}.
 A:AB$ Token | Cost$ 1 W T | TokenAmount$ 1 | TokenScript$ w_1_1_human_expeditioner | TokenOwner$ You | SpellDescription$ Create a 1/1 white Human Expeditioner token with "When this creature dies, create a Chroma token".
 A:AB$ Token | Cost$ 1 W T | TokenAmount$ 1 | TokenScript$ c_a_map_sac_explore | TokenOwner$ You | SpellDescription$ Create a Map token
 [DesignNotes]
- - In the game, Lumiere is the city where the humans live. It is also the last bastion of human civilization that is slowly dying each year with the yearly Gommages, hence the sub-title.
+ - In the game, Lumière is the city where the humans live. It is also the last bastion of human civilization that is slowly dying each year with the yearly Gommages, hence the sub-title.
  - Mechanically, modeled on Kjeldoran Outpost but produces Human Expeditioner tokens instead of Soldiers
  - To go with the Expedition/Exploration theme, this land also makes map tokens.

@@ -1,4 +1,4 @@
-Name:Demineur
+Name:Démineur
 ManaCost:U
 Types:Creature Nevron
 PT:1/1

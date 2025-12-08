@@ -15,7 +15,7 @@ Sandfall Interactive
 {1}, Sacrifice Urrie: Draw a card.
 [FlavorText]
 FINE, FINE, FINE, Here. Pah! Take your rock and SCRAM!
-- Francois
+- François
 [ForgeScript]
 A:AB$ Surveil | Cost$ 1 T | Amount$ 2 | SpellDescription$ Surveil 2.
 A:AB$ Draw | Cost$ 1 Sac<1/CARDNAME> | NumCards$ 1 | SpellDescription$ Draw a card.
