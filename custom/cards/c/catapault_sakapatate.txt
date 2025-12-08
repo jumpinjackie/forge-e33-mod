@@ -3,8 +3,8 @@ ManaCost:1 R
 Types:Creature Nevron
 PT:2/2
 S:Mode$ ReduceCost | ValidCard$ Card.Self | Type$ Spell | Amount$ 1 | EffectZone$ All | IsPresent$ Gestral.YouCtrl | Description$ This spell costs {1} less to cast if you control a Gestral.
-T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Card.Self | Execute$ TrigDeath | TriggerDescription$ When this creature dies, you may have this creature deal 2 damage to target creature.
-SVar:TrigDeath:DB$ DealDamage | ValidTgts$ Creature | NumDmg$ 2 | Optional$ True 
+T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Card.Self | OptionalDecider$ You | Execute$ TrigDeath | TriggerDescription$ When this creature dies, you may have this creature deal 2 damage to target creature.
+SVar:TrigDeath:DB$ DealDamage | ValidTgts$ Creature | NumDmg$ 2
 T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Card.Self | Execute$ TrigToken | TriggerDescription$ When this creature dies, target opponent creates a Lumina token.
 SVar:TrigToken:DB$ Token | TokenAmount$ 1 | ValidTgts$ Opponent | TokenOwner$ Targeted | TokenScript$ c_a_lumina
 Oracle:This spell costs {1} less to cast if you control a Gestral.\nWhen this creature dies, target opponent creates a Lumina token.\nWhen this creature dies, you may have this creature deal 2 damage to target creature.
