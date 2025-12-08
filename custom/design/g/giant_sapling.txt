@@ -1,0 +1,26 @@
+[Name]
+Giant Sapling
+[ManaCost]
+5
+R
+G
+[Types]
+Legendary
+Creature
+Nevron
+[PT]
+7/7
+[Rarity]
+R
+[Oracle]
+At the beginning of your upkeep, put a crush counter on ~.
+Exhaust — Remove three crush counters from Giant Sapling: Giant Sapling deals 6 damage to each creature without flying. (Activate each exhaust ability only once)
+[ForgeScript]
+T:Mode$ Phase | Phase$ Upkeep | ValidPlayer$ You | TriggerZones$ Battlefield | Execute$ TrigAddCounter | TriggerDescription$ At the beginning of your upkeep, remove a crush counter. When ~ has no crush counters, it deals 6 damage to each creature without flying.
+SVar:TrigAddCounter:DB$ PutCounter | Defined$ Self | CounterType$ CRUSH | CounterNum$ 1
+A:AB$ DamageAll | Cost$ SubCounter<3/CRUSH> | Exhaust$ True | ValidCards$ Creature.withoutFlying | NumDmg$ 6 | SpellDescription$ Giant Sapling deals 6 damage to each creature without flying.
+[DesignNotes]
+ - In the game, Giant Sapling is the boss in the Crushing Cavern.
+ - Main gimmick being captured is its countdown to crushing doom.
+ - Unfortunately, countdown via counters is hard because there is no precedent for a triggered ability on the removal of the last counter that is not a terminal ability (ie. The permanent sticks around afterwards). So it looks like my original intent of crushing on the last counter removal is not possible.
+ - So I have pivoted to the crush ability being an Exhaust one, paid for with 3 counters, which you gain one every turn. So an opponent has 3 turns to deal with this creature before most of the board is wiped, flavorfully retaining the urgency of needing to dispatch this creature in the actual video game.

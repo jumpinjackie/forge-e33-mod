@@ -1,0 +1,8 @@
+Name:Giant Sapling
+ManaCost:5 R G
+Types:Legendary Creature Nevron
+PT:7/7
+T:Mode$ Phase | Phase$ Upkeep | ValidPlayer$ You | TriggerZones$ Battlefield | Execute$ TrigAddCounter | TriggerDescription$ At the beginning of your upkeep, remove a crush counter. When CARDNAME has no crush counters, it deals 6 damage to each creature without flying.
+SVar:TrigAddCounter:DB$ PutCounter | Defined$ Self | CounterType$ CRUSH | CounterNum$ 1
+A:AB$ DamageAll | Cost$ SubCounter<3/CRUSH> | Exhaust$ True | ValidCards$ Creature.withoutFlying | NumDmg$ 6 | SpellDescription$ Giant Sapling deals 6 damage to each creature without flying.
+Oracle:At the beginning of your upkeep, put a crush counter on Giant Sapling.\nExhaust — Remove three crush counters from Giant Sapling: Giant Sapling deals 6 damage to each creature without flying. (Activate each exhaust ability only once)
