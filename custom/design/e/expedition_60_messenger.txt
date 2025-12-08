@@ -1,0 +1,27 @@
+[Name]
+Expedition 60 Messenger
+[ManaCost]
+3
+G
+[Types]
+Creature
+Human
+Expeditioner
+Artificer
+[PT]
+2/2
+[Rarity]
+C
+[Oracle]
+When this creature leaves the battlefield, investigate (Create a Clue token. It’s an artifact with “{2}, Sacrifice this token: Draw a card.”)
+This creature gets +2/+2 as long as it’s un-modified. (Equipment, Auras you control, and counters are modifications.)
+$EXPEDITIONER_DEATH_ABILITY_TEXT
+[ForgeScript]
+T:Mode$ ChangesZone | ValidCard$ Card.Self | Origin$ Battlefield | Execute$ TrigInvestigate | TriggerDescription$ When this creature leaves the battlefield, draw a card, then you may put a permanent card with mana value less than or equal to the number of lands you control from your hand onto the battlefield tapped.
+SVar:TrigInvestigate:DB$ Investigate
+S:Mode$ Continuous | Affected$ Card.Self+!modified | AddPower$ 2 | AddToughness$ 2 | Description$ This creature gets +2/+2 as long as it’s un-modified. (Equipment, Auras you control, and counters are modifications.)
+$EXPEDITIONER_DEATH_ABILITY
+[DesignNotes]
+ - Depicts the member of the gigachad expedition that almost made it back to Lumiere to relay the message about the true enemy.
+ - The clue token left behind represents the expedition journal.
+ - Has un-modified buffs because these gigachads don't require pithy things like clothing and armor.
