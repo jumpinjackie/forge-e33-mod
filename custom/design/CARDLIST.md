@@ -355,7 +355,7 @@ Urrie
 Verisimilitude
 Verso, Who Guards Truth With Lies
 Verso's Burden
-Visages
+Visages // He Who Guards Truth With Lies
 Void Meteors
 Volester
 Whee // Whoo

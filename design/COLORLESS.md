@@ -1,13 +1,13 @@
 # Cards
 
-> Last generated: 8/12/2025 7:41:12 pm
+> Last generated: 9/12/2025 8:51:26 am
 
 ## Pétank
 
 ```
 2C
 Creature - Nevron
-This creature enters with 3 shield counters and 3 countdown counters.
+This creature enters with three shield counters and three countdown counters.
 At the beginning of your upkeep, remove a countdown counter.
 When this creature has no countdown counters, return it to its owner's hand.
 When this creature dies, target opponent creates two Chroma tokens and two Lumina tokens.

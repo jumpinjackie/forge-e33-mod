@@ -355,7 +355,7 @@ Cards implemented: 338
 [x] Verisimilitude
 [x] Verso, Who Guards Truth With Lies
 [N] Verso's Burden
-[ ] Visages
+[x] Visages // He Who Guards Truth With Lies
 [x] Void Meteors
 [x] Volester
 [x] Whee // Whoo

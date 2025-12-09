@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 8/12/2025 7:41:12 pm
+> Last generated: 9/12/2025 8:51:26 am
 
 ## An Advantage!
 
@@ -545,7 +545,7 @@ Draw a card.
 
 ```
 3UU
-Kindred Sorcery - Expeditioner Gradient
+Kindred Sorcery - Expeditioner
 Tap all creatures your opponents control, then put a stun counter on each of those creatures.
 If {R} was spent on this spell, it deals X damage to any target, where X is the number of creatures on the battlefield.
 If {W} was spent on this spell, exile each creature with a stun counter at the beginning of your next end step.

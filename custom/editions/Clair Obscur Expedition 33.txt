@@ -210,7 +210,7 @@ Type=Custom
 241 R Painted Alicia, Eternally Suffering @Sandfall Interactive
 243 R Painted Clea, the Mistress @Sandfall Interactive
 244 R Painted Renoir, Aline's Enforcer @
-248 U Perfect Dodge @
+248 C Perfect Dodge @
 249 U Persuasive Argument @
 250 U Pétank @Sandfall Interactive
 251 C Piercing Strike @Sandfall Interactive
