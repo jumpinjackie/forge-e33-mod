@@ -15,7 +15,7 @@ Sandfall Interactive
 [PT]
 4/4
 [Oracle]
-Ward 2.
+Ward {2}.
 When ~ enters, return target permanent card with mana value 3 or less from your graveyard to tbe battlefield.
 If an opponent would create a Lumina token, you create a Lumina token instead.
 Sacrifice a Lumina token: Add one mana of any color.

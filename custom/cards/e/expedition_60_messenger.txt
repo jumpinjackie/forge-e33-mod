@@ -1,6 +1,6 @@
 Name:Expedition 60 Messenger
 ManaCost:3 G
-Types:Creature Human Expeditioner Artificer
+Types:Creature Human Expeditioner Scout
 PT:2/2
 T:Mode$ ChangesZone | ValidCard$ Card.Self | Origin$ Battlefield | Execute$ TrigInvestigate | TriggerDescription$ When this creature leaves the battlefield, draw a card, then you may put a permanent card with mana value less than or equal to the number of lands you control from your hand onto the battlefield tapped.
 SVar:TrigInvestigate:DB$ Investigate

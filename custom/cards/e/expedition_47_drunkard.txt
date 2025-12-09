@@ -1,5 +1,5 @@
 Name:Expedition 47 Drunkard
-ManaCost:2 GW
+ManaCost:2 WG
 Types:Creature Human Expeditioner
 PT:1/4
 T:Mode$ Attacks | ValidCard$ Card.Self | Execute$ TrigPump | TriggerDescription$ Whenever CARDNAME attacks, it gets +3/-3 until end of turn.

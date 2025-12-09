@@ -9,4 +9,4 @@ SVar:DBPutCounter:DB$ PutCounter | Defined$ Targeted | CounterType$ Stun | Count
 SVar:DBPutChargeCounter:DB$ PutCounter | Defined$ Self | CounterType$ CHARGE | CounterNum$ 1
 A:AB$ DamageAll | Cost$ 4 R SubCounter<X/CHARGE> | NumDmg$ X | ValidCards$ Creature | ValidDescription$ each creature. | SpellDescription$ CARDNAME deals X damage to each creature.
 SVar:X:Count$xPaid
-Oracle:Flying. Ward 3.\nAbsorbs all APs — {2}{U}: Tap target creature and put a stun counter on it. Put a charge counter on Serpenphare.\nAbsorbed too many APs, explodes — {4}{R}, Remove X charge counters from Serpenphare: Serpenphare deals X damage to each creature.
+Oracle:Flying. Ward {3}.\nAbsorbs all APs — {2}{U}: Tap target creature and put a stun counter on it. Put a charge counter on Serpenphare.\nAbsorbed too many APs, explodes — {4}{R}, Remove X charge counters from Serpenphare: Serpenphare deals X damage to each creature.

@@ -15,7 +15,7 @@ Sandfall Interactive
 [PT]
 3/4
 [Oracle]
-Flash. Ward 2. Reach.
+Flash. Ward {2}. Reach.
 Grows Flowers — At the beginning of your upkeep, create a Flower token (It's an artifact with "{T}, Sacrifice this artifact: Add {U}, {R} or {G}.")
 Absorbs Flowers — Whenever a Flower token leaves the battlefield, choose one —
 • ~ deals 1 damage to any target.

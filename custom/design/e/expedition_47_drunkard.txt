@@ -2,7 +2,7 @@
 Expedition 47 Drunkard
 [ManaCost]
 2
-GW
+WG
 [Types]
 Creature
 Human

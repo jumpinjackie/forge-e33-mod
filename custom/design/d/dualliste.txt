@@ -15,8 +15,8 @@ R
 [Oracle]
 Double strike
 ~'s power and toughness are each equal to 3 plus the number of Blood tokens you control.
-Stormblood — Whenever ~ deals combat damage, create a blood token.
-Applies Inverted — {B}{B}, Sacrifice a blood token: Target creature has base toughness 1 until end of turn.
+Stormblood — Whenever ~ deals combat damage, create a Blood token.
+Applies Inverted — {B}{B}, Sacrifice a Blood token: Target creature has base toughness 1 until end of turn.
 [ForgeScript]
 K:Double Strike
 S:Mode$ Continuous | CharacteristicDefining$ True | SetPower$ X | SetToughness$ X | Description$ ~'s power and toughness are each equal to 3 plus the number of Blood tokens you control.

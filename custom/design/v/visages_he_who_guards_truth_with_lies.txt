@@ -7,8 +7,6 @@ Legendary
 Land
 [Rarity]
 R
-[PT]
-6/6
 [Oracle]
 {T}: Add {C}
 {2}{R}, {T}: Put a Seething counter on ~.

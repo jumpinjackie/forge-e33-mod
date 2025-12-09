@@ -16,7 +16,7 @@ Sandfall Interactive
 [PT]
 7/7
 [Oracle]
-Flying. Ward 3.
+Flying. Ward {3}.
 Absorbs all APs — {2}{U}: Tap target creature and put a stun counter on it. Put a charge counter on ~.
 Absorbed too many APs, explodes — {4}{R}, Remove X charge counters from ~: ~ deals X damage to each creature.
 [AbilityWords]
