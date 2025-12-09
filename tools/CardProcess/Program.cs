@@ -296,8 +296,19 @@ public class CardFaceDesign
                 thisName = "this artifact";
         }
         if (ht.Contains("Land"))
-            thisName = "this land";
-
+        {
+            if (ht.Contains("Legendary"))
+            {
+                if (origCardName?.Contains(",") == true)
+                    thisName = origCardName.Substring(0, origCardName.IndexOf(",")); // Take the part before the comma
+                else
+                    thisName = origCardName;
+            }
+            else
+            {
+                thisName = "this land";
+            }
+        }
         if (ht.Contains("Legendary") && ht.Contains("Creature"))
         {
             if (origCardName?.Contains(",") == true)
@@ -1223,7 +1234,7 @@ public class GenAllCommand : BaseCommand
                                     line = $"[C] {line}";
                                 else
                                     line = $"[R] {line}";
-                            }   
+                            }
                         }
                         else
                         {
@@ -1676,7 +1687,7 @@ public class CardConjurerValidateCommand : BaseCommand
                     // Prefer reading the rarity code from the design (`CardMasterDesign.Rarity`)
                     // design.Rarity MUST be a single-letter code if specified; otherwise emit an error, increment invalidCards, and skip rarity validation
                     string? rarityCode = null;
-                    bool skipRarityValidation = false;
+                    bool skipRaritySymbolValidation = false;
                     if (!string.IsNullOrWhiteSpace(design.Rarity))
                     {
                         var dr = design.Rarity.Trim();
@@ -1688,11 +1699,21 @@ public class CardConjurerValidateCommand : BaseCommand
                         {
                             await stdout.WriteLineAsync($"ERROR: {cardFaceName} - design.Rarity must be a single-letter code if specified; value: '{dr}'");
                             invalidCards++;
-                            skipRarityValidation = true;
+                            skipRaritySymbolValidation = true;
                         }
                     }
 
-                    if (skipRarityValidation)
+                    // Meld and DFC back faces don't have rarity symbols, so skip for such cases
+                    if (design.FaceType == CardFaceType.Meld && design.MeldTarget == cardFace)
+                    {
+                        skipRaritySymbolValidation = true;
+                    }
+                    else if (design.FaceType == CardFaceType.DoubleFaced && design.BackFull == cardFace)
+                    {
+                        skipRaritySymbolValidation = true;
+                    }
+
+                    if (skipRaritySymbolValidation)
                     {
                         // Don't validate set symbol for this card when the design rarity is malformed.
                     }
@@ -1852,7 +1873,7 @@ public class CardConjurerValidateCommand : BaseCommand
                 {
                     // Multi-line comparison
                     marker.AppendLine("              Multi-line difference detected:");
-                    
+
                     // Find first differing line
                     for (int i = 0; i < Math.Min(lines1.Length, lines2.Length); i++)
                     {
