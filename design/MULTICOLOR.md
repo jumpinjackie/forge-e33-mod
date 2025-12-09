@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 8/12/2025 7:41:12 pm
+> Last generated: 9/12/2025 8:01:14 am
 
 ## A Storm is Coming
 
@@ -371,8 +371,8 @@ When this creature dies, target opponent creates a Lumina token.
 Legendary Creature - Nevron
 Double strike
 Dualliste's power and toughness are each equal to 3 plus the number of Blood tokens you control.
-Stormblood — Whenever Dualliste deals combat damage, create a blood token.
-Applies Inverted — {B}{B}, Sacrifice a blood token: Target creature has base toughness 1 until end of turn.
+Stormblood — Whenever Dualliste deals combat damage, create a Blood token.
+Applies Inverted — {B}{B}, Sacrifice a Blood token: Target creature has base toughness 1 until end of turn.
 
 3+*/3+*
 ```
@@ -498,7 +498,7 @@ III — Destroy all Nevrons. Create a Lumina token for each Nevron destroyed thi
 ## Expedition 47 Drunkard
 
 ```
-2(G/W)
+2(W/G)
 Creature - Human Expeditioner
 Whenever this creature attacks, it gets +3/-3 until end of turn.
 When this creature dies, create a Chroma token.
@@ -889,7 +889,7 @@ Exhaust — Remove three crush counters from Giant Sapling: Giant Sapling deals 
 ```
 URG
 Legendary Creature - Nevron
-Flash. Ward 2. Reach.
+Flash. Ward {2}. Reach.
 Grows Flowers — At the beginning of your upkeep, create a Flower token (It's an artifact with "{T}, Sacrifice this artifact: Add {U}, {R} or {G}.")
 Absorbs Flowers — Whenever a Flower token leaves the battlefield, choose one —
 • Goblu deals 1 damage to any target.
@@ -1474,7 +1474,7 @@ Fuse (You may cast one or both halves of this card from your hand.)
 ```
 5UR
 Legendary Creature - Nevron Serpent
-Flying. Ward 3.
+Flying. Ward {3}.
 Absorbs all APs — {2}{U}: Tap target creature and put a stun counter on it. Put a charge counter on Serpenphare.
 Absorbed too many APs, explodes — {4}{R}, Remove X charge counters from Serpenphare: Serpenphare deals X damage to each creature.
 ---
@@ -1696,7 +1696,7 @@ At the beginning of your upkeep, create a Chroma token.
 ```
 2BG
 Legendary Creature - Nevron
-Ward 2.
+Ward {2}.
 When The Scavenger enters, return target permanent card with mana value 3 or less from your graveyard to tbe battlefield.
 If an opponent would create a Lumina token, you create a Lumina token instead.
 Sacrifice a Lumina token: Add one mana of any color.

@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 8/12/2025 7:41:12 pm
+> Last generated: 9/12/2025 8:01:14 am
 
 ## Abbest
 
@@ -146,10 +146,12 @@ When this creature dies, create a Chroma token.
 
 ```
 3G
-Creature - Human Expeditioner Artificer
+Creature - Human Expeditioner Scout
 When this creature leaves the battlefield, investigate (Create a Clue token. It’s an artifact with “{2}, Sacrifice this token: Draw a card.”)
 This creature gets +2/+2 as long as it’s un-modified. (Equipment, Auras you control, and counters are modifications.)
 When this creature dies, create a Chroma token.
+---
+One last swim separates me from Lumière, but even with my mighty muscles, I don’t know if I can outswim the Gommage.
 
 2/2
 ```

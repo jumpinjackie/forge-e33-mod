@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 8/12/2025 7:41:12 pm
+> Last generated: 9/12/2025 8:01:14 am
 
 ## A Life to Love (Farewell)
 
@@ -168,7 +168,7 @@ For our allies who come after, sadly our lives may have proven that defense is b
 
 ```
 1W
-Creature - Human Expeditioner
+Creature - Human Expeditioner Rebel
 When this creature dies, create a Chroma token.
 ---
 Lumière operates a certain way. It favours a certain group and a certain outcome and if you question the Council, well, the Council’s going to question you.

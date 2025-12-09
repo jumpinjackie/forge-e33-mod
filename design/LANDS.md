@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 8/12/2025 7:41:12 pm
+> Last generated: 9/12/2025 8:01:14 am
 
 ## Abbest Cave
 
@@ -625,12 +625,10 @@ This land enters tapped. As it enters, choose a color.
 
 Legendary Land
 {T}: Add {C}
-{2}{R}, {T}: Put a Seething counter on this land.
-{3}{W}, {T}: Put a Jovial counter on this land.
-{4}{B}, {T}: Put a Sorrowful counter on this land.
-Remove a Seething, Jovial and Sorrowful counter from this land: Transform this land.
-
-6/6
+{2}{R}, {T}: Put a Seething counter on Visages.
+{3}{W}, {T}: Put a Jovial counter on Visages.
+{4}{B}, {T}: Put a Sorrowful counter on Visages.
+Remove a Seething, Jovial and Sorrowful counter from Visages: Transform Visages.
 ```
 
 Transforms into:
