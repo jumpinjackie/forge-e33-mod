@@ -1,6 +1,6 @@
 Name:Sky Break
 ManaCost:3 U U
-Types:Kindred Sorcery Expeditioner Gradient
+Types:Kindred Sorcery Expeditioner
 A:SP$ TapAll | ValidCards$ Creature.OppCtrl | RememberTapped$ True | SubAbility$ DBStun
 SVar:DBStun:DB$ PutCounter | CounterType$ STUN | CounterNum$ 1 | Defined$ Remembered | SubAbility$ DBFire
 SVar:DBFire:DB$ DealDamage | ValidTgts$ Any | TgtPrompt$ Select target to deal damage to. | NumDmg$ Y | SpellDescription$ If {R} was spent on this spell, CARDNAME deals X damage to any target, where X is the number of creatures on the battlefield. | ConditionManaSpent$ R | SubAbility$ DBDelayedExile

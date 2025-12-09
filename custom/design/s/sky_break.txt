@@ -8,7 +8,6 @@ U
 Kindred
 Sorcery
 Expeditioner
-Gradient
 [Rarity]
 R
 [Artist]
