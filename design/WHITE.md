@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 9/12/2025 8:01:14 am
+> Last generated: 10/12/2025 11:04:25 am
 
 ## A Life to Love (Farewell)
 
@@ -31,6 +31,24 @@ I'm FINE. I've lived 33 good years. Look around. We've had our whole lives to pr
 
  - No in-game basis, but Grief is such a central theme of Expedition 33 that having a cycle dedicated to the 5 stages is a total flavor nuke.
  - I'm taking the word Acceptance literally (or is it figuratively?) and gone with a creature that "accepts" all damage that would've gone your way.
+
+## Alicia's Birthday Party
+
+```
+2WW
+Enchantment
+When this enchantment enters, create two 1/1 white Human creature tokens named Party Guest.
+Whenever a Human creature you control enters, create a Food token.
+{2}, Sacrifice this enchantment: Draw a card.
+```
+
+[card implementation](../custom/cards/a/alicias_birthday_party.txt)
+
+### Design Notes
+
+ - In the game, one of Maelle's nightmare visions is of a birthday party with Gustave and Verso as guests.
+ - Gone with an enchantment that brings in some party guests.
+ - The more guests (humans) arrive, the more food becomes available.
 
 ## Austere Command
 

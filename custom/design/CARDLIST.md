@@ -63,7 +63,7 @@ Boucheclier
 Bound by Chains
 Bourgeon
 Braseleur
-Breaking Aura
+Breaking Moment
 Breaking Rules
 Bruler
 Burning Canvas

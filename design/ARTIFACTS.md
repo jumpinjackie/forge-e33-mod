@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 8/12/2025 7:41:12 pm
+> Last generated: 10/12/2025 11:04:25 am
 
 ## A Rock for François
 
@@ -111,6 +111,15 @@ Sacrifice two Lumina tokens: Create a token copy of this equipment attached to t
  - The station mechanic from Edge of Eternities has given us the ideal template to base this card implementation from as the buffs and abilities granted based on counter type follow the same pattern as buffs and abilities based on the number of charge counters in the station mechanic, only we're more finicky about the specific type of counter.
  - This is a slight deviation from the video game lore as we're effectively smushing 3 (in-game depicted) Pictos into one. But we are doing this for a good reason. Pictos indvidually are somewhat dull when translated to MTG mechanics. The replication gimmick is unique, but it ultimately still is just provides some basic buff or combat-related ability. This modal design allows us to strategically choose the best buffs/abilities for any given situation, with the replication ability allowing one to cover all bases ability-wise.
  - 11/11/2025: Made energizing counter mode also reward a Lumina token.
+
+## Barrier Breaker (Blackblade Reforged)
+
+> This card is a nicknamed reprint of (Blackblade Reforged)
+[Scryfall](https://scryfall.com/search?q=Blackblade Reforged)
+### Notes
+
+ - In the game, the Barrier Breaker is forged by The Curator once you've defeated Sirene and Visages. With this weapon, the party was finally able to breach the barrier protecting the Monolith.
+ - Gone with nickname reprint of Blackblade Reforged as it has high commander playability, though this is not an explicit commander reprint.
 
 ## Berrami, Collector of Journals
 

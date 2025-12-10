@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 8/12/2025 7:41:12 pm
+> Last generated: 10/12/2025 11:04:25 am
 
 ## Chapelier
 
@@ -228,12 +228,14 @@ When this creature dies, target opponent creates a Lumina token. (It's an artifa
 3BB
 Legendary Creature - Painter God
 Fear
-Summons Dark Beast — When Painted Renoir enters and at the beginning of your upkeep, you may create Dark Chromatic Beast, a legendary 5/5 black Beast creature with Trample and Lifelink.
+At the beginning of your upkeep, create a Chroma token.
+Summons Dark Beast — When Painted Renoir enters and at the beginning of your upkeep, you may create Dark Chromatic Beast, a legendary 4/4 black Nevron Beast creature with Trample and Lifelink.
+Painted Renoir has indestructible as long as you control a token named Dark Chromatic Beast.
 Sends waves of Chroma — {B}{B}, {T}, Sacrifice X Chromas: Creatures target opponent controls get -X/-X until end of turn.
 ---
 I love them too.
 
-4/4
+2/2
 ```
 
 [card implementation](../custom/cards/p/painted_renoir_alines_enforcer.txt)

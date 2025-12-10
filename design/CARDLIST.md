@@ -29,7 +29,7 @@ From this list, card designs are spawned from it, which will eventually form the
 
 ## Card Name List
 
-Cards implemented: 338
+Cards implemented: 340
 
 [x] - Card is implemented or in development, [C] - Card is a commander reprint, [R] - Card is a regular reprint, [N] - Card is a nickname reprint, [Z] - Card is a nickname reprint for commander [ ] - Card is not implemented
 
@@ -41,7 +41,7 @@ Cards implemented: 338
 [x] Aberration
 [x] Acceptance
 [x] Alicia Dessendre, Silenced by Fire
-[ ] Alicia's Birthday Party
+[x] Alicia's Birthday Party
 [ ] All Set
 [x] An Advantage!
 [ ] Ancient Sanctuary
@@ -52,7 +52,7 @@ Cards implemented: 338
 [x] Attack Picto
 [x] Ballet
 [x] Bargaining
-[ ] Barrier Breaker
+[N] Barrier Breaker
 [x] Bénisseur
 [x] Berrami, Collector of Journals
 [x] Bertrand Big Hands
@@ -63,7 +63,7 @@ Cards implemented: 338
 [x] Bound by Chains
 [x] Bourgeon
 [x] Braseleur
-[ ] Breaking Aura
+[x] Breaking Moment
 [x] Breaking Rules
 [x] Bruler
 [ ] Burning Canvas
