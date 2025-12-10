@@ -1,0 +1,25 @@
+[Name]
+Alicia's Birthday Party
+[ManaCost]
+2
+W
+W
+[Types]
+Enchantment
+[Rarity]
+U
+[Oracle]
+When ~ enters, create two 1/1 white Human creature tokens named Party Guest.
+Whenever a Human creature you control enters, create a Food token.
+{2}, Sacrifice ~: Draw a card.
+[ForgeScript]
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigToken | TriggerDescription$ When ~ enters, create two 1/1 white Human creature tokens named Party Guest.
+SVar:TrigToken:DB$ Token | TokenAmount$ 2 | TokenScript$ w_1_1_party_guest | TokenOwner$ You
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Creature.Human+YouCtrl | Execute$ TrigFood | TriggerDescription$ Whenever a Human creature you control enters, create a Food token.
+SVar:TrigFood:DB$ Token | TokenAmount$ 1 | TokenScript$ c_a_food_sac | TokenOwner$ You
+A:AB$ Draw | Cost$ 2 Sac<1/CARDNAME> | NumCards$ 1 | SpellDescription$ Draw a card.
+SVar:PlayMain1:TRUE
+[DesignNotes]
+ - In the game, one of Maelle's nightmare visions is of a birthday party with Gustave and Verso as guests.
+ - Gone with an enchantment that brings in some party guests.
+ - The more guests (humans) arrive, the more food becomes available.

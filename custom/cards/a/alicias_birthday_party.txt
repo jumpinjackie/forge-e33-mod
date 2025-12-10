@@ -1,0 +1,10 @@
+Name:Alicia's Birthday Party
+ManaCost:2 W W
+Types:Enchantment
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigToken | TriggerDescription$ When CARDNAME enters, create two 1/1 white Human creature tokens named Party Guest.
+SVar:TrigToken:DB$ Token | TokenAmount$ 2 | TokenScript$ w_1_1_party_guest | TokenOwner$ You
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Creature.Human+YouCtrl | Execute$ TrigFood | TriggerDescription$ Whenever a Human creature you control enters, create a Food token.
+SVar:TrigFood:DB$ Token | TokenAmount$ 1 | TokenScript$ c_a_food_sac | TokenOwner$ You
+A:AB$ Draw | Cost$ 2 Sac<1/CARDNAME> | NumCards$ 1 | SpellDescription$ Draw a card.
+SVar:PlayMain1:TRUE
+Oracle:When this enchantment enters, create two 1/1 white Human creature tokens named Party Guest.\nWhenever a Human creature you control enters, create a Food token.\n{2}, Sacrifice this enchantment: Draw a card.
