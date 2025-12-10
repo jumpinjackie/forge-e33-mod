@@ -1,11 +1,14 @@
 Name:Painted Renoir, Aline's Enforcer
 ManaCost:3 B B
 Types:Legendary Creature Painter God
-PT:4/4
+PT:2/2
 K:Fear
-T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigToken | OptionalDecider$ You | TriggerDescription$ When CARDNAME enters and at the beginning of your upkeep, you may create Dark Chromatic Beast, a legendary 5/5 black Beast creature with Trample and Lifelink.
-T:Mode$ Phase | Phase$ Upkeep | ValidPlayer$ You | Execute$ TrigToken | TriggerZones$ Battlefield | Secondary$ True | OptionalDecider$ You | TriggerDescription$ At the beginning of your upkeep, you may create Dark Chromatic Beast, a legendary 5/5 black Beast creature with Trample and Lifelink.
-SVar:TrigToken:DB$ Token | TokenScript$ b_5_5_dark_chromatic_beast
-A:SP$ PumpAll | Cost$ B B T Sac<X/Chroma> | ValidTgts$ Opponent | TgtPrompt$ Select target player | ValidCards$ Creature | NumAtt$ -X | NumDef$ -X | SpellDescription$ Creatures target opponent controls get -X/-X until end of turn.
+T:Mode$ Phase | Phase$ Upkeep | ValidPlayer$ You | TriggerZones$ Battlefield | Execute$ TrigChroma | TriggerDescription$ At the beginning of your upkeep, create a Chroma token.
+SVar:TrigChroma:DB$ Token | TokenAmount$ 1 | TokenScript$ c_a_chroma | TokenOwner$ You
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigToken | OptionalDecider$ You | TriggerDescription$ When CARDNAME enters and at the beginning of your upkeep, you may create Dark Chromatic Beast, a legendary 4/4 black Nevron Beast creature with Trample and Lifelink.
+T:Mode$ Phase | Phase$ Upkeep | ValidPlayer$ You | Execute$ TrigToken | TriggerZones$ Battlefield | Secondary$ True | OptionalDecider$ You | TriggerDescription$ At the beginning of your upkeep, you may create Dark Chromatic Beast, a legendary 4/4 black Nevron Beast creature with Trample and Lifelink.
+SVar:TrigToken:DB$ Token | TokenScript$ b_4_4_dark_chromatic_beast
+S:Mode$ Continuous | Affected$ Card.Self | IsPresent$ Card.token+YouCtrl+namedDark Chromatic Beast | PresentZone$ Battlefield | PresentCompare$ GE1 | AddKeyword$ Indestructible | Description$ CARDNAME has indestructible as long as you control a token named Dark Chromatic Beast.
+A:AB$ PumpAll | Cost$ B B T Sac<X/Chroma> | ValidTgts$ Opponent | TgtPrompt$ Select target player | ValidCards$ Creature | NumAtt$ -X | NumDef$ -X | SpellDescription$ Creatures target opponent controls get -X/-X until end of turn.
 SVar:X:Count$xPaid
-Oracle:Fear\nSummons Dark Beast — When Painted Renoir enters and at the beginning of your upkeep, you may create Dark Chromatic Beast, a legendary 5/5 black Beast creature with Trample and Lifelink.\nSends waves of Chroma — {B}{B}, {T}, Sacrifice X Chromas: Creatures target opponent controls get -X/-X until end of turn.
+Oracle:Fear\nAt the beginning of your upkeep, create a Chroma token.\nSummons Dark Beast — When Painted Renoir enters and at the beginning of your upkeep, you may create Dark Chromatic Beast, a legendary 4/4 black Nevron Beast creature with Trample and Lifelink.\nPainted Renoir has indestructible as long as you control a token named Dark Chromatic Beast.\nSends waves of Chroma — {B}{B}, {T}, Sacrifice X Chromas: Creatures target opponent controls get -X/-X until end of turn.
