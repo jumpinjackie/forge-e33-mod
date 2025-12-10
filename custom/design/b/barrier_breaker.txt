@@ -1,0 +1,18 @@
+[Name]
+Barrier Breaker
+[ManaCost]
+2
+[Types]
+Legendary
+Artifact
+Equipment
+[IsReprint]
+true
+[NicknameFor]
+Blackblade Reforged
+[FlavorText]
+Is it true? Can you make a weapon that can pierce the barrier? Do you need something from the Axons? Do you need... their hearts?
+- Lune, to The Curator
+[DesignNotes]
+ - In the game, the Barrier Breaker is forged by The Curator once you've defeated Sirene and Visages. With this weapon, the party was finally able to breach the barrier protecting the Monolith.
+ - Gone with nickname reprint of Blackblade Reforged as it has high commander playability, though this is not an explicit commander reprint.
