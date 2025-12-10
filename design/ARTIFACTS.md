@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 10/12/2025 11:04:25 am
+> Last generated: 10/12/2025 11:14:08 am
 
 ## A Rock for François
 
@@ -350,6 +350,8 @@ Damn you Esquie and your stupid mushrooms. Your friend ate them with no problem 
 
 ### Design Notes
 
+ - In the game, the Expedition 68 journal tells of some mushrooms that Esquie fed to the expeditioners, failing to disclose the important fact that these mushrooms were poisonous.
+ - Easy map to a food artifact with a "food poisoning" ability.
 
 ## Expedition 50 Ferris Wheel
 
