@@ -6,6 +6,6 @@ S:Mode$ ReduceCost | ValidCard$ Nevron | Type$ Spell | Activator$ You | Amount$ 
 S:Mode$ Continuous | Affected$ Creature.Nevron+YouCtrl | AddPower$ 1 | AddToughness$ 1 | Description$ Nevron creatures you control get +1/+1.
 T:Mode$ Phase | Phase$ Upkeep | ValidPlayer$ You | TriggerZones$ Battlefield | Execute$ TrigToken | TriggerDescription$ At the beginning of your upkeep, create a 1/1 colorless Nevron creature token.
 SVar:TrigToken:DB$ Token | TokenAmount$ 1 | TokenScript$ c_1_1_nevron | TokenOwner$ You
-A:AB$ Draw | Cost$ Sac<1/Nevron> | NumCards$ 1
+A:AB$ Draw | Cost$ Sac<1/Nevron> | NumCards$ 1 | SpellDescription$ Draw a card
 DeckHints:Type$Nevron
 Oracle:Nevron spells you cast cost {1} less to cast.\nNevron creatures you control get +1/+1.\nAt the beginning of your upkeep, create a 1/1 colorless Nevron creature token.\nSacrifice a Nevron: Draw a card.
