@@ -619,7 +619,7 @@ public class CardMasterDesign(string designFile)
             else
                 this.Bucket = colors.First();
         }
-        // There are no split/meld artifacet or colorless cards, so if no color identity could be determined it is 99% should be a regular card
+        // There are no split/meld artifact or colorless cards, so if no color identity could be determined it is 99% should be a regular card
         else if (this.FrontFull is not null)
         {
             if (this.FrontFull.Types?.Contains("Land") == true)
@@ -1008,6 +1008,28 @@ public class CardMasterDesign(string designFile)
             await sw.WriteLineAsync();
         }
     }
+
+    internal IEnumerable<string> GetImageNames()
+    {
+        switch (FaceType)
+        {
+            case CardFaceType.Regular:
+                yield return (this.InvariantName ?? this.Name) + ".full.jpg";
+                break;
+            case CardFaceType.SplitFuse:
+            case CardFaceType.SplitRoom:
+                yield return (this.InvariantName ?? this.Name).Replace(" // ", "") + ".full.jpg";
+                break;
+            case CardFaceType.DoubleFaced:
+                yield return (this.FrontFull.InvariantName ?? this.FrontFull.Name) + ".full.jpg";
+                yield return (this.BackFull.InvariantName ?? this.BackFull.Name) + ".full.jpg";
+                break;
+            case CardFaceType.Meld:
+                yield return (this.FrontFull.InvariantName ?? this.FrontFull.Name) + ".full.jpg";
+                yield return (this.MeldTarget.InvariantName ?? this.MeldTarget.Name) + ".full.jpg";
+                break;
+        }
+    }
 }
 
 public abstract class BaseCommand
@@ -1267,19 +1289,10 @@ public class GenAllCommand : BaseCommand
             var cmdrCardsPicsDir = Path.Combine(picsBase, "cards", "E3C");
             var tokensPicsDir = Path.Combine(picsBase, "tokens", "E33");
 
-            var baseImages = new List<string>();
-            var cmdrImages = new List<string>();
-            if (Directory.Exists(baseCardsPicsDir))
-            {
-                baseImages.AddRange(Directory.EnumerateFiles(baseCardsPicsDir, "*.jpg", SearchOption.AllDirectories).OrderBy(p => p));
-            }
+            var tokenImages = new List<string>();
             if (Directory.Exists(tokensPicsDir))
             {
-                baseImages.AddRange(Directory.EnumerateFiles(tokensPicsDir, "*.jpg", SearchOption.AllDirectories).OrderBy(p => p));
-            }
-            if (Directory.Exists(cmdrCardsPicsDir))
-            {
-                cmdrImages.AddRange(Directory.EnumerateFiles(cmdrCardsPicsDir, "*.jpg", SearchOption.AllDirectories).OrderBy(p => p));
+                tokenImages.AddRange(Directory.EnumerateFiles(tokensPicsDir, "*.jpg", SearchOption.AllDirectories).OrderBy(p => p));
             }
 
             var spoilerPath = Path.Combine(this.OutputDir.FullName, "SPOILER.md");
@@ -1292,11 +1305,53 @@ public class GenAllCommand : BaseCommand
 
                 spoilerWriter.WriteLine("# Clair Obscur: Expedition 33 (E33)");
 
+                var baseImages = new List<string>();
+                foreach (var (bucket, imageList) in GenerateImageLists(false))
+                {
+                    //spoilerWriter.WriteLine("## " + bucket);
+                    //WriteSpoilerTable(spoilerWriter, imageList, this.OutputDir);    
+                    baseImages.AddRange(imageList);
+                }
                 WriteSpoilerTable(spoilerWriter, baseImages, this.OutputDir);
+
+                spoilerWriter.WriteLine("## Tokens");
+                WriteSpoilerTable(spoilerWriter, tokenImages, this.OutputDir);
 
                 spoilerWriter.WriteLine("# Clair Obscur: Expedition 33 Commander (E3C)");
 
+                var cmdrImages = new List<string>();
+                foreach (var (bucket, imageList) in GenerateImageLists(true))
+                {
+                    //spoilerWriter.WriteLine("## " + bucket);
+                    //WriteSpoilerTable(spoilerWriter, imageList, this.OutputDir);    
+                    cmdrImages.AddRange(imageList);
+                }
                 WriteSpoilerTable(spoilerWriter, cmdrImages, this.OutputDir);
+            }
+
+            IEnumerable<(string bucket, List<string> images)> GenerateImageLists(bool isCommander)
+            {
+                var picsDir = isCommander ? cmdrCardsPicsDir : baseCardsPicsDir;
+                var baseGroups = cards.Where(c => c.Value.IsCommander == isCommander).GroupBy(c => c.Value.Bucket).ToList();
+                IEnumerable<string> buckets = ["COLORLESS", "WHITE", "BLUE", "BLACK", "RED", "GREEN", "MULTICOLOR", "ARTIFACTS", "LANDS"];
+                foreach (var bucket in buckets)
+                {
+                    var group = baseGroups.FirstOrDefault(grp => grp.Key == bucket);
+                    if (group is not null)
+                    {
+                        var images = new List<string>();
+                        foreach (var (name, card) in group)
+                        {
+                            foreach (var imgName in card.GetImageNames())
+                            {
+                                var imgPath = Path.Combine(picsDir, imgName);
+                                if (File.Exists(imgPath))
+                                    images.Add(imgPath);
+                            }
+                        }
+                        yield return (bucket, images);
+                    }
+                }
             }
 
             static void WriteSpoilerTable(StreamWriter spoilerWriter, List<string> images, DirectoryInfo outputDir)
