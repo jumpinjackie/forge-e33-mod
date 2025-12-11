@@ -2223,10 +2223,10 @@
                     ]
                 }
             ],
-            "artSource": "https://corsproxy.io/?url=https%3A%2F%2Fjumpinjackie.github.io%2Fe33-reference-art%2Fimages%2Fnoart.png",
-            "artX": 0.07711442786069651,
-            "artY": 0.1023454157782516,
-            "artZoom": 3.492,
+            "artSource": "https://corsproxy.io/?url=https%3A%2F%2Fjumpinjackie.github.io%2Fe33-reference-art%2Fimages%2Fcards%2Facceptance.png",
+            "artX": 0.07412935323383085,
+            "artY": -0.0472636815920398,
+            "artZoom": 3.3280000000000003,
             "artRotate": "0",
             "setSymbolSource": "https://cardconjurer.app/img/setSymbols/official/pz1-r.svg",
             "setSymbolX": 0.8756218905472637,
@@ -2430,7 +2430,7 @@
             "infoRarity": "R",
             "infoSet": "E33",
             "infoLanguage": "EN",
-            "infoArtist": "Sandfall Interactive",
+            "infoArtist": "Stable Diffusion",
             "infoNote": "Proxy, Not for Sale",
             "serialNumber": "",
             "serialTotal": "",
@@ -6925,10 +6925,10 @@
                     ]
                 }
             ],
-            "artSource": "https://corsproxy.io/?url=https%3A%2F%2Fjumpinjackie.github.io%2Fe33-reference-art%2Fimages%2Fnoart.png",
-            "artX": 0.07661691542288557,
-            "artY": 0.1023454157782516,
-            "artZoom": 3.492,
+            "artSource": "https://corsproxy.io/?url=https%3A%2F%2Fjumpinjackie.github.io%2Fe33-reference-art%2Fimages%2Fcards%2Fbargaining.png",
+            "artX": 0.07711442786069651,
+            "artY": 0.07107320540156362,
+            "artZoom": 3.3280000000000003,
             "artRotate": "0",
             "setSymbolSource": "https://cardconjurer.app/img/setSymbols/official/pz1-r.svg",
             "setSymbolX": 0.8706467661691543,
@@ -7132,7 +7132,7 @@
             "infoRarity": "R",
             "infoSet": "E33",
             "infoLanguage": "EN",
-            "infoArtist": "Sandfall Interactive",
+            "infoArtist": "Stable Diffusion",
             "infoNote": "Proxy, Not for Sale",
             "serialNumber": "",
             "serialTotal": "",
@@ -24599,10 +24599,10 @@
                     ]
                 }
             ],
-            "artSource": "https://corsproxy.io/?url=https%3A%2F%2Fjumpinjackie.github.io%2Fe33-reference-art%2Fimages%2Fnoart.png",
-            "artX": 0.07661691542288557,
-            "artY": 0.1023454157782516,
-            "artZoom": 3.492,
+            "artSource": "https://corsproxy.io/?url=https%3A%2F%2Fjumpinjackie.github.io%2Fe33-reference-art%2Fimages%2Fcards%2Fdenial.png",
+            "artX": 0.07711442786069651,
+            "artY": 0.09950248756218906,
+            "artZoom": 3.3280000000000003,
             "artRotate": "0",
             "setSymbolSource": "https://cardconjurer.app/img/setSymbols/official/pz1-r.svg",
             "setSymbolX": 0.8706467661691543,
@@ -24805,7 +24805,7 @@
             "infoRarity": "R",
             "infoSet": "E33",
             "infoLanguage": "EN",
-            "infoArtist": "Sandfall Interactive",
+            "infoArtist": "Stable Diffusion",
             "infoNote": "Proxy, Not for Sale",
             "serialNumber": "",
             "serialTotal": "",
@@ -24905,10 +24905,10 @@
                     ]
                 }
             ],
-            "artSource": "https://corsproxy.io/?url=https%3A%2F%2Fjumpinjackie.github.io%2Fe33-reference-art%2Fimages%2Fnoart.png",
-            "artX": 0.07661691542288557,
-            "artY": 0.1023454157782516,
-            "artZoom": 3.492,
+            "artSource": "https://corsproxy.io/?url=https%3A%2F%2Fjumpinjackie.github.io%2Fe33-reference-art%2Fimages%2Fcards%2Fdepression.png",
+            "artX": 0.07711442786069651,
+            "artY": 0.031627576403695803,
+            "artZoom": 3.3280000000000003,
             "artRotate": "0",
             "setSymbolSource": "https://cardconjurer.app/img/setSymbols/official/pz1-u.svg",
             "setSymbolX": 0.8706467661691543,
@@ -25111,7 +25111,7 @@
             "infoRarity": "U",
             "infoSet": "E33",
             "infoLanguage": "EN",
-            "infoArtist": "Sandfall Interactive",
+            "infoArtist": "Stable Diffusion",
             "infoNote": "Proxy, Not for Sale",
             "serialNumber": "",
             "serialTotal": "",
@@ -50025,28 +50025,6 @@
                         "height": 1.0571428571428572
                     },
                     "masks": []
-                },
-                {
-                    "name": "Artifact Legend Crown",
-                    "src": "/img/frames/m15/crowns/m15CrownA.png",
-                    "masks": [],
-                    "bounds": {
-                        "height": 0.1667,
-                        "width": 0.9454,
-                        "x": 0.0274,
-                        "y": 0.0191
-                    }
-                },
-                {
-                    "name": "Legend Crown Border Cover",
-                    "src": "/img/black.png",
-                    "masks": [],
-                    "bounds": {
-                        "height": 0.0177,
-                        "width": 0.9214,
-                        "x": 0.0394,
-                        "y": 0.0277
-                    }
                 },
                 {
                     "name": "Artifact Power/Toughness",
@@ -108000,7 +107978,7 @@
             "text": {
                 "mana": {
                     "name": "Mana Cost (Left)",
-                    "text": "1 U B",
+                    "text": "1 W U",
                     "x": 0.0847,
                     "y": 0.8943,
                     "width": 0.5367,
@@ -108016,7 +107994,7 @@
                 },
                 "title": {
                     "name": "Title (Left)",
-                    "text": "Whoo",
+                    "text": "Whee",
                     "x": 0.072,
                     "y": 0.8943,
                     "width": 0.5367,
@@ -108040,7 +108018,7 @@
                 },
                 "rules": {
                     "name": "Rules Text (Left)",
-                    "text": "Tap all creatures your opponents control, then put a stun counter on each of those creatures.",
+                    "text": "Untap all creatures you control.",
                     "x": 0.6087,
                     "y": 0.8896,
                     "width": 0.5174,
@@ -108063,7 +108041,7 @@
                 },
                 "mana2": {
                     "name": "Mana Cost (Right)",
-                    "text": "1 W U",
+                    "text": "1 U B",
                     "x": 0.0847,
                     "y": 0.4381,
                     "width": 0.5367,
@@ -108079,7 +108057,7 @@
                 },
                 "title2": {
                     "name": "Title (Right)",
-                    "text": "Whee",
+                    "text": "Whoo",
                     "x": 0.072,
                     "y": 0.4381,
                     "width": 0.5367,
@@ -108103,7 +108081,7 @@
                 },
                 "rules2": {
                     "name": "Rules Text (Right)",
-                    "text": "Untap all creatures you control.",
+                    "text": "Tap all creatures your opponents control, then put a stun counter on each of those creatures.",
                     "x": 0.6087,
                     "y": 0.4334,
                     "width": 0.5174,
@@ -108831,8 +108809,8 @@
         "data": {
             "width": 2010,
             "height": 2814,
-            "marginX": 0,
-            "marginY": 0,
+            "marginX": 0.044,
+            "marginY": 0.02857142857142857,
             "frames": [
                 {
                     "name": "Black Extension",
@@ -108958,7 +108936,7 @@
             "version": "m15Regular",
             "manaSymbols": [],
             "infoYear": "2025",
-            "margins": false,
+            "margins": true,
             "bottomInfoTranslate": {
                 "x": 0,
                 "y": 0
