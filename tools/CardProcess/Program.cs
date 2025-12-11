@@ -1259,21 +1259,27 @@ public class GenAllCommand : BaseCommand
         await File.WriteAllTextAsync(cardListOutFile, sbCardList.ToString());
         await stdout.WriteLineAsync("Updated CARDLIST.md");
 
-        // Generate SPOILER.md containing a 4-column table of card and token images
+        // Generate SPOILER.md containing a 3-column table of card and token images
         try
         {
             var picsBase = Path.Combine(this.BaseDirectory.FullName, "pics");
-            var cardsPicsDir = Path.Combine(picsBase, "cards", "E33");
+            var baseCardsPicsDir = Path.Combine(picsBase, "cards", "E33");
+            var cmdrCardsPicsDir = Path.Combine(picsBase, "cards", "E3C");
             var tokensPicsDir = Path.Combine(picsBase, "tokens", "E33");
 
-            var images = new List<string>();
-            if (Directory.Exists(cardsPicsDir))
+            var baseImages = new List<string>();
+            var cmdrImages = new List<string>();
+            if (Directory.Exists(baseCardsPicsDir))
             {
-                images.AddRange(Directory.EnumerateFiles(cardsPicsDir, "*.jpg", SearchOption.AllDirectories).OrderBy(p => p));
+                baseImages.AddRange(Directory.EnumerateFiles(baseCardsPicsDir, "*.jpg", SearchOption.AllDirectories).OrderBy(p => p));
             }
             if (Directory.Exists(tokensPicsDir))
             {
-                images.AddRange(Directory.EnumerateFiles(tokensPicsDir, "*.jpg", SearchOption.AllDirectories).OrderBy(p => p));
+                baseImages.AddRange(Directory.EnumerateFiles(tokensPicsDir, "*.jpg", SearchOption.AllDirectories).OrderBy(p => p));
+            }
+            if (Directory.Exists(cmdrCardsPicsDir))
+            {
+                cmdrImages.AddRange(Directory.EnumerateFiles(cmdrCardsPicsDir, "*.jpg", SearchOption.AllDirectories).OrderBy(p => p));
             }
 
             var spoilerPath = Path.Combine(this.OutputDir.FullName, "SPOILER.md");
@@ -1284,6 +1290,17 @@ public class GenAllCommand : BaseCommand
                 spoilerWriter.WriteLine("> This currently only shows cards/tokens we have full CardConjurer designs for and does not fully represent the whole set\n");
                 spoilerWriter.WriteLine("Images listed are cards first, then tokens.\n");
 
+                spoilerWriter.WriteLine("# Clair Obscur: Expedition 33 (E33)");
+
+                WriteSpoilerTable(spoilerWriter, baseImages, this.OutputDir);
+
+                spoilerWriter.WriteLine("# Clair Obscur: Expedition 33 Commander (E3C)");
+
+                WriteSpoilerTable(spoilerWriter, cmdrImages, this.OutputDir);
+            }
+
+            static void WriteSpoilerTable(StreamWriter spoilerWriter, List<string> images, DirectoryInfo outputDir)
+            {
                 const int COLUMNS = 3;
 
                 // Table header (3 columns)
@@ -1299,7 +1316,7 @@ public class GenAllCommand : BaseCommand
                         if (idx < images.Count)
                         {
                             var abs = images[idx];
-                            var rel = Path.GetRelativePath(this.OutputDir.FullName, abs).Replace("\\", "/");
+                            var rel = Path.GetRelativePath(outputDir.FullName, abs).Replace("\\", "/");
                             // Percent-encode each path segment so spaces and special chars work in Markdown image URLs
                             var encodedRel = string.Join("/", rel.Split('/').Select(seg => System.Uri.EscapeDataString(seg)));
                             // Only embed the image (no filename under the image)
