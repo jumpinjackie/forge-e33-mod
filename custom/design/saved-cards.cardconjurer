@@ -79,7 +79,7 @@
                     ]
                 }
             ],
-            "artSource": "https://corsproxy.io/?url=https%3A%2F%2Fjumpinjackie.github.io%2Fe33-reference-art%2Fimages%2Fcards%2Fa_rock_for_François.png",
+            "artSource": "https://corsproxy.io/?url=https%3A%2F%2Fjumpinjackie.github.io%2Fe33-reference-art%2Fimages%2Fcards%2Fa_rock_for_francois.png",
             "artX": -0.07711442786069651,
             "artY": 0.11300639658848614,
             "artZoom": 1.9169999999999998,
@@ -401,10 +401,10 @@
                     ]
                 }
             ],
-            "artSource": "https://corsproxy.io/?url=https%3A%2F%2Fjumpinjackie.github.io%2Fe33-reference-art%2Fimages%2Fnoart.png",
-            "artX": 0.07661691542288557,
-            "artY": 0.1023454157782516,
-            "artZoom": 3.492,
+            "artSource": "https://corsproxy.io/?url=https%3A%2F%2Fjumpinjackie.github.io%2Fe33-reference-art%2Fimages%2Fcards%2Fa_storm_is_coming.png",
+            "artX": 0.07512437810945273,
+            "artY": -0.01954513148542999,
+            "artZoom": 3.3280000000000003,
             "artRotate": "0",
             "setSymbolSource": "https://cardconjurer.app/img/setSymbols/official/pz1-c.svg",
             "setSymbolX": 0.8701492537313433,
@@ -1589,10 +1589,10 @@
                     ]
                 }
             ],
-            "artSource": "https://corsproxy.io/?url=https%3A%2F%2Fjumpinjackie.github.io%2Fe33-reference-art%2Fimages%2Fnoart.png",
-            "artX": 0.07661691542288557,
-            "artY": 0.1023454157782516,
-            "artZoom": 3.492,
+            "artSource": "https://corsproxy.io/?url=https%3A%2F%2Fstatic.wikia.nocookie.net%2Fclair-obscur%2Fimages%2Fc%2Fc9%2FCoe33_final_act_enemies.jpg",
+            "artX": -0.05771144278606965,
+            "artY": 0.11442786069651742,
+            "artZoom": 1.163,
             "artRotate": "0",
             "setSymbolSource": "https://cardconjurer.app/img/setSymbols/official/pz1-u.svg",
             "setSymbolX": 0.8706467661691543,
@@ -20877,7 +20877,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Counter target spell.",
+                    "text": "{center}Counter target spell.",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
@@ -69643,10 +69643,10 @@
                     ]
                 }
             ],
-            "artSource": "https://corsproxy.io/?url=https%3A%2F%2Fjumpinjackie.github.io%2Fe33-reference-art%2Fimages%2Fnoart.png",
-            "artX": 0.07661691542288557,
-            "artY": 0.1023454157782516,
-            "artZoom": 3.492,
+            "artSource": "https://corsproxy.io/?url=https%3A%2F%2Fjumpinjackie.github.io%2Fe33-reference-art%2Fimages%2Fcards%2Flunes_denial.png",
+            "artX": 0.07711442786069651,
+            "artY": 0.031627576403695803,
+            "artZoom": 3.3280000000000003,
             "artRotate": "0",
             "setSymbolSource": "https://cardconjurer.app/img/setSymbols/official/pz1-c.svg",
             "setSymbolX": 0.8751243781094528,
