@@ -315,6 +315,7 @@ Sunniso, Gestral Bouncer
 Swift Counter
 Sword Ballet
 Surcease
+Tall Gestral
 Terraquake
 The 67th Gommage
 The Curator // Renoir, Dessendre Patriarch

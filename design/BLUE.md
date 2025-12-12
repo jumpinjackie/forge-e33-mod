@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 12/12/2025 3:17:30 am
+> Last generated: 12/12/2025 2:40:07 pm
 
 ## An Advantage!
 
@@ -81,7 +81,7 @@ Whenever enchanted creature deals damage to an opponent, choose one —
 ```
 2U
 Creature - Nevron
-This creature gets +2/+2 and Ward 2 if you control a creature named Cruler.
+This creature gets +2/+2 and Ward {2} if you control a creature named Cruler.
 When this creature dies, target opponent creates a Lumina token. (It's an artifact with "{T}, Sacrifice this artifact: Scry 1.")
 
 3/2
@@ -142,7 +142,7 @@ Tap an untapped Expeditioner you control: Tap target land.
 2U
 Creature - Nevron
 This creature enters with a shield counter on it. (If it would be dealt damage or destroyed, remove a shield counter from it instead.)
-This creature gets +2/+2 and Ward 2 if you control a creature named Bruler.
+This creature gets +2/+2 and Ward {2} if you control a creature named Bruler.
 When this creature dies, target opponent creates a Lumina token. (It's an artifact with "{T}, Sacrifice this artifact: Scry 1.")
 
 2/3
@@ -222,7 +222,7 @@ Enchanted permanent doesn't untap during its controller's untap step.
 
 ### Design Notes
 
- - In the game, this is one of Lune's skills.
+ - In the game, Eternal Ice is a quest item obtained after defeating the Gargant.
  - Went with standard blue pin-down effect for limited/draft
 
 ## Expedition 40 Glider

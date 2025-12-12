@@ -49,7 +49,7 @@ Type=Custom
 300 U Talisman of Progress @Mike Dringenberg
 301 U Talisman of Resilience @Lindsey Look
 302 U Talisman of Unity @Mike Dringenberg
-312 R Brushland @Sandfall Interactive ${"flavorName": "The Meadows"}
-322 C Thought Vessel @rk post
-335 R Void Rend @Justyna Dura
-339 R Adarkar Wastes @Sandfall Interactive ${"flavorName": "White Sands"}
+313 R Brushland @Sandfall Interactive ${"flavorName": "The Meadows"}
+323 C Thought Vessel @rk post
+336 R Void Rend @Justyna Dura
+340 R Adarkar Wastes @Sandfall Interactive ${"flavorName": "White Sands"}

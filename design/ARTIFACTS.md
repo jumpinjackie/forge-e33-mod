@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 10/12/2025 11:14:53 am
+> Last generated: 12/12/2025 2:40:07 pm
 
 ## A Rock for François
 
@@ -541,6 +541,8 @@ When this creature enters or dies, create a Food token. (It’s an artifact with
 2
 Artifact Creature - Gestral
 Tap an untapped Gestral you control: Prevent the next 1 damage that would be dealt to target creature this turn.
+---
+Even if there is no competition here because everyone is dumb, I pushed myself through self-discipline. And I saved more than ten thousand of my fellow Gestrals. All the while, suffering inside like no one else in this world. So don't tell me what I am.
 
 1/3
 ```
@@ -1234,6 +1236,25 @@ Esquie! Look what I found.
 ### Notes
 
  - Obligatory Commander mana rock.
+
+## Tall Gestral
+
+```
+4
+Artifact Creature - Gestral
+Reach
+---
+If I'm lucky, I'll become a weapon for a Sakapatate!
+
+2/5
+```
+
+[card implementation](../custom/cards/t/tall_gestral.txt)
+
+### Design Notes
+
+ - In the game, a Tall Gestral is near the Gestral Village entrance
+ - It's tall, so clearly it has reach!
 
 ## The World Canvas
 
