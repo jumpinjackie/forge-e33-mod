@@ -1,6 +1,8 @@
 #!/bin/sh
 set -euo pipefail
 
+SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
+
 resize_images() {
 	local src_dir="$1"
 	local dst_dir="$2"
@@ -63,6 +65,6 @@ while getopts "m" opt; do
 done
 
 # Run the resizing function
-resize_images "custom/pics/cards/E33" "custom/thumbs/cards/E33" "$WIDTH" "$only_modified"
-resize_images "custom/pics/cards/E3C" "custom/thumbs/cards/E3C" "$WIDTH" "$only_modified"
-resize_images "custom/pics/tokens/E33" "custom/thumbs/tokens/E33" "$WIDTH" "$only_modified"
+resize_images "$SCRIPT_DIR/custom/pics/cards/E33" "$SCRIPT_DIR/custom/thumbs/cards/E33" "$WIDTH" "$only_modified"
+resize_images "$SCRIPT_DIR/custom/pics/cards/E3C" "$SCRIPT_DIR/custom/thumbs/cards/E3C" "$WIDTH" "$only_modified"
+resize_images "$SCRIPT_DIR/custom/pics/tokens/E33" "$SCRIPT_DIR/custom/thumbs/tokens/E33" "$WIDTH" "$only_modified"
