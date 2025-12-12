@@ -1,0 +1,24 @@
+[Name]
+Blanche, the Unfinished Creation
+[ManaCost]
+W
+W
+[Types]
+Legendary
+Creature
+Nevron
+[PT]
+2/2
+[Rarity]
+U
+[Oracle]
+Whenever a white Nevron creature enters, create a Lumina token and you gain 2 life.
+[FlavorText]
+You... The ones who conquered the Monolith... And bested she who claimed this painting as her own. Mistress shall be pleased to hear of your feat.
+[ForgeScript]
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Creature.Nevron+White | TriggerZones$ Battlefield | Execute$ TrigLumina | TriggerDescription$ Whenever a white Nevron creature enters, create a Lumina token and you gain 2 life.
+SVar:TrigLumina:DB$ Token | TokenAmount$ 1 | TokenOwner$ You | TokenScript$ c_a_lumina | SubAbility$ TrigGainLife
+SVar:TrigGainLife:DB$ GainLife | Defined$ You | LifeAmount$ 2
+[DesignNotes]
+ - In the game, Blanche is an Unfinished Nevron. If you spared every Unfinished Nevron up to that point, she will reward you with lots of lumina.
+ - Easy map to rewarding you lumina tokens and life when white (unfinished) nevrons enter.
