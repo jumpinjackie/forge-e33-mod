@@ -1,0 +1,21 @@
+[Name]
+Tall Gestral
+[ManaCost]
+4
+[Types]
+Artifact
+Creature
+Gestral
+[PT]
+2/5
+[Rarity]
+C
+[Oracle]
+Reach
+[FlavorText]
+If I'm lucky, I'll become a weapon for a Sakapatate!
+[ForgeScript]
+K:Reach
+[DesignNotes]
+ - In the game, a Tall Gestral is near the Gestral Village entrance
+ - It's tall, so clearly it has reach!

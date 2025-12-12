@@ -1,0 +1,6 @@
+Name:Tall Gestral
+ManaCost:4
+Types:Artifact Creature Gestral
+PT:2/5
+K:Reach
+Oracle:Reach
