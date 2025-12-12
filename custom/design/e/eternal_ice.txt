@@ -17,5 +17,5 @@ Enchanted permanent doesn't untap during its controller's untap step.
 K:Enchant:Permanent
 R:Event$ Untap | ActiveZones$ Battlefield | ValidCard$ Permanent.EnchantedBy | ValidStepTurnToController$ You | Layer$ CantHappen | Description$ Enchanted permanent doesn't untap during its controller's untap step.
 [DesignNotes]
- - In the game, this is one of Lune's skills.
+ - In the game, Eternal Ice is a quest item obtained after defeating the Gargant.
  - Went with standard blue pin-down effect for limited/draft

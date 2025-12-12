@@ -14,7 +14,7 @@ Sandfall Interactive
 2/3
 [Oracle]
 ~ enters with a shield counter on it. (If it would be dealt damage or destroyed, remove a shield counter from it instead.)
-This creature gets +2/+2 and Ward 2 if you control a creature named Bruler.
+This creature gets +2/+2 and Ward {2} if you control a creature named Bruler.
 $NEVRON_DEATH_ABILITY_TEXT
 [ForgeScript]
 K:etbCounter:SHIELD:1

@@ -12,6 +12,8 @@ Gestral
 C
 [Oracle]
 Tap an untapped Gestral you control: Prevent the next 1 damage that would be dealt to target creature this turn.
+[FlavorText]
+Even if there is no competition here because everyone is dumb, I pushed myself through self-discipline. And I saved more than ten thousand of my fellow Gestrals. All the while, suffering inside like no one else in this world. So don't tell me what I am.
 [ForgeScript]
 A:AB$ PreventDamage | Cost$ tapXType<1/Gestral> | ValidTgts$ Creature | Amount$ 1 | TgtPrompt$ Select target creature | SpellDescription$ Prevent the next 1 damage that would be dealt to target creature this turn.
 [DesignNotes]

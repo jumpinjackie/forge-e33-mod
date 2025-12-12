@@ -13,7 +13,7 @@ Sandfall Interactive
 [PT]
 3/2
 [Oracle]
-This creature gets +2/+2 and Ward 2 if you control a creature named Cruler.
+This creature gets +2/+2 and Ward {2} if you control a creature named Cruler.
 $NEVRON_DEATH_ABILITY_TEXT
 [ForgeScript]
 $NEVRON_DEATH_ABILITY
