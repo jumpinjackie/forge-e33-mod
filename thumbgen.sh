@@ -27,13 +27,16 @@ resize_images() {
 	# Find JPG/JPEG files (case-insensitive), handle filenames with spaces
 	find "$src_dir" -type f \( -iname '*.jpg' -o -iname '*.jpeg' \) -print0 |
 	while IFS= read -r -d '' src; do
-		if [ "$only_modified" = true ]; then
-			if git diff --quiet "$src"; then
-				continue
-			fi
-		fi
-
 		rel="${src#$src_dir/}"
+		if [ "$only_modified" = true ]; then
+			if git ls-files --error-unmatch -- "$src_dir/$rel" >/dev/null 2>&1; then
+				# tracked, check if modified
+				if git diff --quiet "$src"; then
+					continue
+				fi
+			fi
+			# if untracked, continue to process
+		fi
 		dest="$dst_dir/$rel"
 		destdir=$(dirname "$dest")
 		mkdir -p "$destdir"
