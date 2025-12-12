@@ -4,9 +4,9 @@ Types:Creature Nevron
 PT:2/2
 T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Card.Self | Execute$ TrigToken | TriggerDescription$ When this creature dies, target opponent creates a Lumina token.
 SVar:TrigToken:DB$ Token | TokenAmount$ 1 | ValidTgts$ Opponent | TokenOwner$ Targeted | TokenScript$ c_a_lumina
-A:AB$ DealDamage | Cost$ R T | ValidTgts$ Creature | TgtPrompt$ Select target creature | NumDmg$ 2 | SpellDescription$ CARDNAME deals 2 damage to target creature.
-A:AB$ Tap | Cost$ U T | ValidTgts$ Creature | TgtPrompt$ Select target creature | SubAbility$ DBPutCounter | SpellDescription$ Tap target creature. Put a stun counter on it.
+A:AB$ DealDamage | Cost$ 2 R T | ValidTgts$ Creature | TgtPrompt$ Select target creature | NumDmg$ 2 | SpellDescription$ CARDNAME deals 2 damage to target creature.
+A:AB$ Tap | Cost$ 2 U T | ValidTgts$ Creature | TgtPrompt$ Select target creature | SubAbility$ DBPutCounter | SpellDescription$ Tap target creature. Put a stun counter on it.
 SVar:DBPutCounter:DB$ PutCounter | Defined$ Targeted | CounterType$ Stun | CounterNum$ 1
 T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Card.Self | IsPresent$ Creature.YouCtrl | PresentCompare$ EQ0 | Execute$ TrigClone | TriggerDescription$ When this creature dies, if you control no creatures, put two 2/2 Red and Blue Danseuse Clone creature tokens into play.
 SVar:TrigClone:DB$ Token | TokenAmount$ 2 | TokenScript$ ur_2_2_danseuse_clone | TokenOwner$ You
-Oracle:{R}, {T}: This creature deals 2 damage to target creature.\n{U}, {T}: Tap target creature. Put a stun counter on it.\nWhen this creature dies, if you control no creatures, put two 2/2 Red and Blue Danseuse Clone creature tokens into play.\nWhen this creature dies, target opponent creates a Lumina token.
+Oracle:{2}{R}, {T}: This creature deals 2 damage to target creature.\n{2}{U}, {T}: Tap target creature. Put a stun counter on it.\nWhen this creature dies, if you control no creatures, put two 2/2 Red and Blue Danseuse Clone creature tokens into play.\nWhen this creature dies, target opponent creates a Lumina token.
