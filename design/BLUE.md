@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 9/12/2025 8:51:26 am
+> Last generated: 12/12/2025 3:17:30 am
 
 ## An Advantage!
 
@@ -563,7 +563,6 @@ If {G} was spent on this spell, you gain 2 life for each creature on the battlef
     - Green is life gain
  - The damage or exiled is delayed as it was originally a symmetrical effect and only affected tapped creatures, giving you an opportunity to untap your creatures before the delayed effect kicks in. The delay is kept in for strategic purposes, giving the opponent an out until end of turn to try and save some of their creatures from an impending 6 damage or exile.
  - No black bonus because Lune does not have dark/black magic alignment.
- - Because this is a top tier gradient attack performed by an Expeditioner, this is one of the rare spells that has both Gradient and Expeditioner sub-types.
  - 30/09/2025: Cost adjusted from 3UU to 2UU so that you can't pick all 3 bonuses since the R bonus and W bonus kind of achieve the same goal.
  - 3/11/2025: Cost bumped back up to 3UU and the R bonus changed to direct damage on any target.
 
