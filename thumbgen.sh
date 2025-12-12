@@ -5,6 +5,7 @@ resize_images() {
 	local src_dir="$1"
 	local dst_dir="$2"
 	local width="$3"
+	local only_modified="${4:-false}"
 
 	if [ ! -d "$src_dir" ]; then
 		echo "Source directory not found: $src_dir" >&2
@@ -16,11 +17,22 @@ resize_images() {
 		return 1
 	fi
 
+	if [ "$only_modified" = true ] && ! command -v git >/dev/null 2>&1; then
+		echo "Git not found in PATH. Cannot check modified status." >&2
+		return 1
+	fi
+
 	echo "Resizing images from $src_dir -> $dst_dir (width ${width}px)"
 
 	# Find JPG/JPEG files (case-insensitive), handle filenames with spaces
 	find "$src_dir" -type f \( -iname '*.jpg' -o -iname '*.jpeg' \) -print0 |
 	while IFS= read -r -d '' src; do
+		if [ "$only_modified" = true ]; then
+			if git diff --quiet "$src"; then
+				continue
+			fi
+		fi
+
 		rel="${src#$src_dir/}"
 		dest="$dst_dir/$rel"
 		destdir=$(dirname "$dest")
@@ -38,7 +50,16 @@ resize_images() {
 # Resize width to 672px, keep aspect ratio. Requires ImageMagick (`magick`).
 WIDTH=672
 
+# Parse command-line options
+only_modified=false
+while getopts "m" opt; do
+    case $opt in
+        m) only_modified=true ;;
+        *) echo "Usage: $0 [-m]" >&2; exit 1 ;;
+    esac
+done
+
 # Run the resizing function
-resize_images "custom/pics/cards/E33" "custom/thumbs/cards/E33" "$WIDTH"
-resize_images "custom/pics/cards/E3C" "custom/thumbs/cards/E3C" "$WIDTH"
-resize_images "custom/pics/tokens/E33" "custom/thumbs/tokens/E33" "$WIDTH"
+resize_images "custom/pics/cards/E33" "custom/thumbs/cards/E33" "$WIDTH" "$only_modified"
+resize_images "custom/pics/cards/E3C" "custom/thumbs/cards/E3C" "$WIDTH" "$only_modified"
+resize_images "custom/pics/tokens/E33" "custom/thumbs/tokens/E33" "$WIDTH" "$only_modified"
