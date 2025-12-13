@@ -1,0 +1,31 @@
+[Name]
+Elemental Trick
+[ManaCost]
+4
+WU
+RG
+[Types]
+Kindred
+Instant
+Expeditioner
+[Rarity]
+R
+[Oracle]
+Choose one or more —
+• Exile target creature. Add {W}.
+• Target player two cards. Add {U}.
+• Elemental trick deals 4 damage to any target. Add {R}.
+• Target player gains 6 life. Add {G}.
+[ForgeScript]
+A:SP$ Charm | MinCharmNum$ 1 | CharmNum$ 4 | Choices$ DBExile,DBDraw,DBDamage,DBGainLife
+SVar:DBExile:DB$ ChangeZone | ValidTgts$ Creature | TgtPrompt$ Select target creature | Origin$ Battlefield | Destination$ Exile | SpellDescription$ Exile target creature. Add {W}.
+SVar:DBAddW:DB$ Mana | Produced$ W
+SVar:DBDraw:DB$ Draw | NumCards$ 2 | ValidTgts$ Player | TgtPrompt$ Select target player | SpellDescription$ Target player draws two cards. Add {U}.
+SVar:DBAddU:DB$ Mana | Produced$ U
+SVar:DBDamage:DB$ DealDamage | ValidTgts$ Any | NumDmg$ 4 | SpellDescription$ ~ deals 4 damage to any target. Add {R}.
+SVar:DBAddR:DB$ Mana | Produced$ R
+SVar:DBGainLife:DB$ GainLife | ValidTgts$ Player | TgtPrompt$ Select target player | LifeAmount$ 6 | SpellDescription$ Target player gains 6 life. Add {G}.
+SVar:DBAddG:DB$ Mana | Produced$ G
+[DesignNotes]
+ - In the game, Elemental Genesis is one of Lune's skills. It deals damage in each element and generates the corresponding stain if damage was critical.
+ - Translated to a super-modal spell with one on-color mode for each of the 4 colors. Each mode also adds one mana of the corresponding color as a nod to the stain generation per element.
