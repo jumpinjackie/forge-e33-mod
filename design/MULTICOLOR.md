@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 13/12/2025 6:59:45 am
+> Last generated: 13/12/2025 1:17:02 pm
 
 ## A Storm is Coming
 
@@ -1586,8 +1586,8 @@ This creature enters with a shield counter.
 Whenever this creature is dealt damage from a red source, remove all counters from it and put a fire counter on it.
 Whenever this creature is dealt damage from a blue source, remove all counters from it and put an ice counter on it.
 This creature has protection from red as long as it has a fire counter on it and protection from blue as long as it has an ice counter on it.
-Self-destruct — Sacrifice this creature: This creature deals 2 damage to target creature.
 Whenever this creature dies, if it had a fire counter on it, it deals 2 damage to target player. If it had an ice counter on it, draw a card.
+Self-destruct — Sacrifice this creature: This creature deals 2 damage to target creature.
 
 2/2
 ```

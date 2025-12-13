@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 13/12/2025 6:40:50 am
+> Last generated: 13/12/2025 1:17:02 pm
 
 ## Abbest
 
@@ -345,7 +345,7 @@ Even in an artificial painted world, there is a natural order.
 ```
 2G
 Creature - Nevron
-Jumps — {1}{G}: This creature gains Reach until end of turn
+Jumps — {1}{G}: This creature gains Reach until end of turn.
 When this creature dies, target opponent creates a Lumina token. (It's an artifact with "{T}, Sacrifice this artifact: Scry 1.")
 
 3/3

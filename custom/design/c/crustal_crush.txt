@@ -14,6 +14,8 @@ Sandfall Interactive
 [Oracle]
 You may sacrifice a Mountain rather than pay this spell's mana cost.
 ~ deals 5 damage to target creature or planeswalker.
+[FlavorText]
+Let's shake the earth!
 [ForgeScript]
 S:Mode$ AlternativeCost | ValidSA$ Spell.Self | EffectZone$ All | Cost$ Sac<1/Mountain> | Description$ You may sacrifice a Mountain rather than pay this spell's mana cost.
 A:SP$ DealDamage | ValidTgts$ Creature,Planeswalker | TgtPrompt$ Select target creature or planeswalker | NumDmg$ 5 | SpellDescription$ CARDNAME deals 5 damage to target creature or planeswalker.

@@ -16,8 +16,8 @@ U
 Whenever ~ is dealt damage from a red source, remove all counters from it and put a fire counter on it.
 Whenever ~ is dealt damage from a blue source, remove all counters from it and put an ice counter on it.
 ~ has protection from red as long as it has a fire counter on it and protection from blue as long as it has an ice counter on it.
-Self-destruct — Sacrifice ~: ~ deals 2 damage to target creature.
 Whenever ~ dies, if it had a fire counter on it, it deals 2 damage to target player. If it had an ice counter on it, draw a card.
+Self-destruct — Sacrifice ~: ~ deals 2 damage to target creature.
 [ForgeScript]
 K:etbCounter:SHIELD:1
 T:Mode$ DamageDoneOnce | Execute$ TrigRemoveAllCountersBeforeFire | ValidTarget$ Card.Self | ValidSource$ Card.Red | TriggerZones$ Battlefield | TriggerDescription$ Whenever this creature is dealt damage from a red source, remove all counters from it and put a fire counter on it.

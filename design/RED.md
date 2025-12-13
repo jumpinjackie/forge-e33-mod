@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 13/12/2025 6:40:50 am
+> Last generated: 13/12/2025 1:17:02 pm
 
 ## Anger
 
@@ -63,6 +63,8 @@ Draw a card.
 Kindred Instant - Expeditioner
 You may sacrifice a Mountain rather than pay this spell's mana cost.
 Crustal Crush deals 5 damage to target creature or planeswalker.
+---
+Let's shake the earth!
 ```
 
 [card implementation](../custom/cards/c/crustal_crush.txt)

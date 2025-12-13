@@ -17,6 +17,8 @@ Tap all creatures your opponents control, then put a stun counter on each of tho
 If {R} was spent on this spell, it deals X damage to any target, where X is the number of creatures on the battlefield.
 If {W} was spent on this spell, exile each creature with a stun counter at the beginning of your next end step.
 If {G} was spent on this spell, you gain 2 life for each creature on the battlefield.
+[FlavorText]
+Doors of chroma, open!
 [ForgeScript]
 A:SP$ TapAll | ValidCards$ Creature.OppCtrl | RememberTapped$ True | SubAbility$ DBStun
 SVar:DBStun:DB$ PutCounter | CounterType$ STUN | CounterNum$ 1 | Defined$ Remembered | SubAbility$ DBFire

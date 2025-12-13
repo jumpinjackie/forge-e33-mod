@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 12/12/2025 2:40:07 pm
+> Last generated: 13/12/2025 1:17:02 pm
 
 ## An Advantage!
 
@@ -550,6 +550,8 @@ Tap all creatures your opponents control, then put a stun counter on each of tho
 If {R} was spent on this spell, it deals X damage to any target, where X is the number of creatures on the battlefield.
 If {W} was spent on this spell, exile each creature with a stun counter at the beginning of your next end step.
 If {G} was spent on this spell, you gain 2 life for each creature on the battlefield.
+---
+Doors of chroma, open!
 ```
 
 [card implementation](../custom/cards/s/sky_break.txt)
