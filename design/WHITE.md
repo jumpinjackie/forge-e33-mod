@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 10/12/2025 11:04:25 am
+> Last generated: 13/12/2025 6:40:50 am
 
 ## A Life to Love (Farewell)
 
@@ -57,6 +57,25 @@ Whenever a Human creature you control enters, create a Food token.
 ### Notes
 
  - Staple commander board wipe
+
+## Blanche, the Unfinished Creation
+
+```
+WW
+Legendary Creature - Nevron
+Whenever a white Nevron creature enters, create a Lumina token and you gain 2 life.
+---
+You... The ones who conquered the Monolith... And bested she who claimed this painting as her own. Mistress shall be pleased to hear of your feat.
+
+2/2
+```
+
+[card implementation](../custom/cards/b/blanche_the_unfinished_creation.txt)
+
+### Design Notes
+
+ - In the game, Blanche is an Unfinished Nevron. If you spared every Unfinished Nevron up to that point, she will reward you with lots of lumina.
+ - Easy map to rewarding you lumina tokens and life when white (unfinished) nevrons enter.
 
 ## Chroma Barrier
 
@@ -120,6 +139,7 @@ When this creature dies, target opponent creates a Lumina token. (It's an artifa
  - Mechanically represented here as:
     - Granting shield counters
     - A temporary "humility" effect to represent silencing.
+ - The only white nevron in this set that is finished (it cannot be any other color for flavor reasons). All other white nevrons are unfinished.
  - 13/10/2025: Removed Devoid.
 
 ## Danseuse Teacher
@@ -250,6 +270,21 @@ Please survive!
  - Easy mechanical translation to life gain, but with a twist. It's symmetrical for a reason: As an enabler for The 67th Gommage.
     - Thus a card like this will not only help buy extra turns to get you to 6 mana to cast The 67th gommage, but also to get your opponent to 33 life or above.
  - 27/11/2025: Added Luminous bonus.
+
+## Light the Path
+
+```
+1W
+Instant
+Target creature can’t be blocked this turn.
+Draw a card.
+```
+
+[card implementation](../custom/cards/l/light_the_path.txt)
+
+### Design Notes
+
+ - Inspired by a screenshot I captured from a DLC run in Stone Wave Cliffs
 
 ## Lumière Assault
 

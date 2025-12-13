@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 9/12/2025 8:01:14 am
+> Last generated: 13/12/2025 6:40:50 am
 
 ## Abbest
 
@@ -52,24 +52,6 @@ Maelle: I just- I just wanted to live this lifetime together. This lifetime that
  - Bargaining is the third stage. On name-basis alone you would think this is easily a black creature with "life for cards" motif, but it is actually green because this is the color that has the hardest time thematically associating to any of the 5 stages. Bargaining has some thematic leeway with green if you try to view it through a "Greater Good" kind of lens and thus I went with a creature variation of Greater Good.
  - 17/11/2025: Changed PT from 4/4 to 4/5
  - 21/11/2025: Added nonland clause to avoid being able to sac The Reacher for +5 net CA without any mana investment first.
-
-## Chalier
-
-```
-1G
-Creature - Nevron
-This creature enters with a shield counter on it. (If it would be dealt damage or destroyed, remove a shield counter from it instead.)
-When this creature dies, target opponent creates a Lumina token. (It's an artifact with "{T}, Sacrifice this artifact: Scry 1.")
-
-2/2
-```
-
-[card implementation](../custom/cards/c/chalier.txt)
-
-### Design Notes
-
- - Vanilla Nevron. Could not determine approporiate color/elemental affinity so it's colorless.
- - 12/11/2025: Made it green and gave it a shield counter to emphasize its tough armored exterior.
 
 ## Cultivate
 
@@ -260,6 +242,24 @@ It may not be glamorous, but truly essential work rarely is. Doesn’t make it a
 
  - Easy on-flavor reprint.
 
+## Gault
+
+```
+2G
+Creature - Nevron
+Protection from green.
+When this creature dies, target opponent creates a Lumina token. (It's an artifact with "{T}, Sacrifice this artifact: Scry 1.")
+
+3/2
+```
+
+[card implementation](../custom/cards/g/gault.txt)
+
+### Design Notes
+
+ - In the game, Gaults can be found in Yellow Harvest.
+ - Vanilla Nevron with protection from green, since in the game it aborbs damage from any earth (green) attacks.
+
 ## Gestral Climbing Challenge
 
 ```
@@ -339,6 +339,23 @@ Even in an artificial painted world, there is a natural order.
  - This is a bone thrown to Nevrons to solidify that archetype.
  - Modeled on Birthing Pod.
  - 21/10/2025: Made search criteria X or less. Fixed incorrect sac cost.
+
+## Portier
+
+```
+2G
+Creature - Nevron
+Jumps — {1}{G}: This creature gains Reach until end of turn
+When this creature dies, target opponent creates a Lumina token. (It's an artifact with "{T}, Sacrifice this artifact: Scry 1.")
+
+3/3
+```
+
+[card implementation](../custom/cards/p/portier.txt)
+
+### Design Notes
+
+ - Vanilla Nevron
 
 ## Revitalization
 

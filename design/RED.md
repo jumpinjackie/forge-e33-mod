@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 8/12/2025 7:41:12 pm
+> Last generated: 13/12/2025 6:40:50 am
 
 ## Anger
 
@@ -418,6 +418,24 @@ When this creature dies, you may have this creature deal 2 damage to each non-Ne
 
  - Like other Sakapatates, it will try to do a last minute suicide move to do some damage before it goes.
  - 21/10/2025: Added Gestral alliance cost reduction
+
+## Rocher
+
+```
+2R
+Creature - Nevron
+Protection from red
+When this creature dies, target opponent creates a Lumina token. (It's an artifact with "{T}, Sacrifice this artifact: Scry 1.")
+
+3/1
+```
+
+[card implementation](../custom/cards/r/rocher.txt)
+
+### Design Notes
+
+ - In the game, Rochers can be found in the Stone Wave Cliffs
+ - Gave pro red as a nod to its resistance to fire attacks in game.
 
 ## Terraquake
 

@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 12/12/2025 2:40:07 pm
+> Last generated: 13/12/2025 6:40:50 am
 
 ## A Rock for François
 
@@ -518,22 +518,6 @@ Gotta take one for the team.
 ### Design Notes
 
  - Draft/limited filler to round out the creature roster. Gave flash for combat trickiness.
-
-## Gestral Chef
-
-```
-2
-Artifact Creature - Gestral
-When this creature enters or dies, create a Food token. (It’s an artifact with “{2}, {T}, Sacrifice this token: You gain 3 life.”)
-
-1/2
-```
-
-[card implementation](../custom/cards/g/gestral_chef.txt)
-
-### Design Notes
-
- - Draft/limited filler to round out the creature roster.
 
 ## Gestral Doctor
 

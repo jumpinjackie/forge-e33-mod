@@ -29,7 +29,7 @@ From this list, card designs are spawned from it, which will eventually form the
 
 ## Card Name List
 
-Cards implemented: 342
+Cards implemented: 347
 
 [x] - Card is implemented or in development, [C] - Card is a commander reprint, [R] - Card is a regular reprint, [N] - Card is a nickname reprint, [Z] - Card is a nickname reprint for commander [ ] - Card is not implemented
 
@@ -203,7 +203,7 @@ Cards implemented: 342
 [x] Gradient Counter
 [x] Grandis Fashionist
 [x] Grandis Merchant
-[ ] Greatsword Cultist
+[x] Greatsword Cultist
 [x] Grosse Tête
 [x] Gustave, Lumière Engineer
 [ ] Gustave's Homage
@@ -305,7 +305,7 @@ Cards implemented: 342
 [x] Soarrie
 [ ] Sorrowful Chapelier
 [x] Sprong
-[ ] Stalact
+[x] Stalact
 [x] Stendhal
 [R] Stone Quarry
 [N] Stone Wave Cliffs

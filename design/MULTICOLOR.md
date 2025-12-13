@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 9/12/2025 8:01:14 am
+> Last generated: 13/12/2025 6:40:50 am
 
 ## A Storm is Coming
 
@@ -345,8 +345,8 @@ When this creature dies, target opponent creates a Lumina token. (It's an artifa
 ```
 2UR
 Creature - Nevron
-{R}, {T}: This creature deals 2 damage to target creature.
-{U}, {T}: Tap target creature. Put a stun counter on it.
+{2}{R}, {T}: This creature deals 2 damage to target creature.
+{2}{U}, {T}: Tap target creature. Put a stun counter on it.
 When this creature dies, if you control no creatures, put two 2/2 Red and Blue Danseuse Clone creature tokens into play.
 When this creature dies, target opponent creates a Lumina token.
 
@@ -363,6 +363,7 @@ When this creature dies, target opponent creates a Lumina token.
     - Tap and stun for the ice/blue ability
     - For the clone ability, I preserved the original triggering condition but went against making token copies as that seemed really degenerate as the cloning trigger would also pass on to the tokens.
  - 13/10/2025: Removed Devoid.
+ - 13/12/2025: Increased activated ability costs by {2}
 
 ## Dualliste
 
@@ -786,12 +787,13 @@ The cards have spoken!
 ```
 3UR
 Legendary Creature - Nevron
+Freezes — {2}{U}, {T}: Tap target creature and put a stun counter on it.
+Lands a series of punches — {1}{R}: Gargant gains double strike until end of turn.
 Whenever Gargant is dealt damage from a red source, remove all counters from it and put a fire counter on it.
 Whenever Gargant is dealt damage from a blue source, remove all counters from it and put an ice counter on it.
-Gargant has protection from red as long as it has a fire counter on it.
-Gargant has protection from blue as long as it has an ice counter on it.
+Gargant has protection from red as long as it has a fire counter on it and protection from blue as long as it has an ice counter on it.
 
-5/5
+2/6
 ```
 
 [card implementation](../custom/cards/g/gargant.txt)
@@ -973,6 +975,25 @@ Creature - Grandis
 
  - In the game, Grandis Merchants reside in Monoco's Station and offers various items for sale.
  - Provides a suite of various items and buffs (for sale) if you have the mana to spend.
+
+## Greatsword Cultist
+
+```
+1WB
+Creature - Nevron
+Covers her sword in blood — {X}{B}, {T}, Exert this creature: This creature deals X damage to target creature. This creature gets -0/-X until end of turn. Put a shield counter on this creature.
+Is about to jump — {1}{W}: This creature gains flying until end of turn. This creature has base toughness 1 until end of turn. Put a shield counter on this creature.
+When this creature dies, target opponent creates a Lumina token. (It's an artifact with "{T}, Sacrifice this artifact: Scry 1.")
+
+2/3
+```
+
+[card implementation](../custom/cards/g/greatsword_cultist.txt)
+
+### Design Notes
+
+ - In the game, Greatsword Cultists are found in the Stone Wave Cliffs
+ - Main gimmick being captured is shielding herself at the expense of great self-inflicted suffering.
 
 ## Growth Spiral
 
@@ -1404,11 +1425,12 @@ Choose one —
 ## Reaper Cultist
 
 ```
-2WB
+WB
 Creature - Nevron
-When this creature dies, target opponent creates a Lumina token.
+Flying, First Strike
+When this creature dies, target opponent creates a Lumina token. (It's an artifact with "{T}, Sacrifice this artifact: Scry 1.")
 
-1/4
+2/2
 ```
 
 [card implementation](../custom/cards/r/reaper_cultist.txt)
@@ -1417,6 +1439,7 @@ When this creature dies, target opponent creates a Lumina token.
 
  - Vanilla placeholder Nevron
  - 13/10/2025: Removed Devoid.
+ - 13/12/2025: Set P/T to 2/2, changed cost from 2WB to WB, added flying and first strike.
 
 ## Sciel, Grieving for Many
 
@@ -1552,6 +1575,27 @@ Extermination Boom — {B}{B}, {T}, Remove X charge counters from Sprong: Sprong
 
  - In the game, Sprong is an optional overworld boss.
  - Grixis color identity chosen so double strike could be flavorfully woven in to its ability suite. Other abilities are on-flavor for their respective colors.
+
+## Stalact
+
+```
+1UR
+Creature - Nevron
+This creature enters with a shield counter.
+Whenever this creature is dealt damage from a red source, remove all counters from it and put a fire counter on it.
+Whenever this creature is dealt damage from a blue source, remove all counters from it and put an ice counter on it.
+This creature has protection from red as long as it has a fire counter on it and protection from blue as long as it has an ice counter on it.
+Self-destruct — Sacrifice this creature: This creature deals 2 damage to target creature.
+Whenever this creature dies, if it had a fire counter on it, it deals 2 damage to target player. If it had an ice counter on it, draw a card.
+
+2/2
+```
+
+[card implementation](../custom/cards/s/stalact.txt)
+
+### Design Notes
+
+ - Has the same "flip-flop" elemental immunity as its big brother (Gargant), so has the same flip-flop protection.
 
 ## Stendhal
 

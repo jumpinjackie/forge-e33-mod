@@ -1,6 +1,25 @@
 # Cards
 
-> Last generated: 10/12/2025 11:04:25 am
+> Last generated: 13/12/2025 6:40:50 am
+
+## Chalier
+
+```
+2B
+Creature - Nevron
+When this creature dies, target opponent creates a Lumina token. (It's an artifact with "{T}, Sacrifice this artifact: Scry 1.")
+
+3/2
+```
+
+[card implementation](../custom/cards/c/chalier.txt)
+
+### Design Notes
+
+ - In the game, Chaliers can be found in the Forgotten Battlefield.
+ - Vanilla Nevron. Could not determine approporiate color/elemental affinity so it's colorless.
+ - 12/11/2025: Made it green and gave it a shield counter to emphasize its tough armored exterior.
+ - 13/12/2025: Upon reviewing this enemy in game in a new DLC playthrough, made it black, changed cost to 2B and P/T to 3/2 and removed shield counter.
 
 ## Chapelier
 
