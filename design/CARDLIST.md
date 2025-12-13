@@ -29,7 +29,7 @@ From this list, card designs are spawned from it, which will eventually form the
 
 ## Card Name List
 
-Cards implemented: 341
+Cards implemented: 342
 
 [x] - Card is implemented or in development, [C] - Card is a commander reprint, [R] - Card is a regular reprint, [N] - Card is a nickname reprint, [Z] - Card is a nickname reprint for commander [ ] - Card is not implemented
 
@@ -57,7 +57,7 @@ Cards implemented: 341
 [x] Berrami, Collector of Journals
 [x] Bertrand Big Hands
 [Z] Blade's Graveyard
-[ ] Blanche, the Unfinished Creation
+[x] Blanche, the Unfinished Creation
 [Z] Boat Graveyard
 [x] Boucheclier
 [x] Bound by Chains
@@ -179,7 +179,6 @@ Cards implemented: 341
 [x] Gestral Bazaar
 [x] Gestral Beach
 [x] Gestral Bodyguard
-[x] Gestral Chef
 [x] Gestral Climbing Challenge
 [x] Gestral Doctor
 [x] Gestral Fighter

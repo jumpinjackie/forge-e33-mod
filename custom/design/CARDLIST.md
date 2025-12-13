@@ -179,7 +179,6 @@ Gestral Ascension Challenge
 Gestral Bazaar
 Gestral Beach
 Gestral Bodyguard
-Gestral Chef
 Gestral Climbing Challenge
 Gestral Doctor
 Gestral Fighter
