@@ -1,0 +1,23 @@
+[Name]
+Jar
+[ManaCost]
+3
+C
+[Types]
+Creature
+Nevron
+[PT]
+2/3
+[Rarity]
+C
+[Oracle]
+Performs a combo — {2}{C}: ~ gains double strike until end of turn. Put a charge counter on ~.
+Smashes the ground — {1}{C}, {T}, Remove X charge counters from ~: ~ deals X damage to each creature without flying.
+[ForgeScript]
+A:AB$ Pump | Cost$ 2 C | Defined$ Self | KW$ Double Strike | SubAbility$ DBChargeCounter | SpellDescription$ ~ gains double strike until end of turn. Put a charge counter on ~.
+SVar:DBChargeCounter:DB$ PutCounter | Defined$ Self | CounterType$ CHARGE | CounterNum$ 1
+A:AB$ DamageAll | Cost$ 1 C T SubCounter<X/CHARGE> | ValidCards$ Creature.withoutFlying | NumDmg$ X | SpellDescription$ ~ deals X damage to each creature without flying.
+SVar:X:Count$xPaid
+[DesignNotes]
+ - In the game, Jars can be found in Yellow Harvest.
+ - Made colorless as it has weaknesses to all elements in the game.

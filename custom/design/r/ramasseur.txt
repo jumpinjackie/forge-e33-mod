@@ -1,0 +1,23 @@
+[Name]
+Ramasseur
+[ManaCost]
+2
+B
+[Types]
+Creature
+Nevron
+[Rarity]
+C
+[Artist]
+Sandfall Interactive
+[PT]
+2/2
+[Oracle]
+Deathtouch
+$NEVRON_DEATH_ABILITY_TEXT
+[ForgeScript]
+K:Deathtouch
+$NEVRON_DEATH_ABILITY
+[DesignNotes]
+ - In the game, Ramasseurs can be found in the Forgotten Battlefield.
+ - Mapped its mortal hit gradient attack to deathtouch.
