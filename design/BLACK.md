@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 13/12/2025 6:40:50 am
+> Last generated: 13/12/2025 12:51:06 pm
 
 ## Chalier
 
@@ -284,6 +284,24 @@ Destroy target creature.
 
  - This is meant to flavorfully and mechanically represent Painted Renoir's killing blow to Gustave.
  - 13/10/2025: Removed Devoid.
+
+## Ramasseur
+
+```
+2B
+Creature - Nevron
+Deathtouch
+When this creature dies, target opponent creates a Lumina token. (It's an artifact with "{T}, Sacrifice this artifact: Scry 1.")
+
+2/2
+```
+
+[card implementation](../custom/cards/r/ramasseur.txt)
+
+### Design Notes
+
+ - In the game, Ramasseurs can be found in the Forgotten Battlefield.
+ - Mapped its mortal hit gradient attack to deathtouch.
 
 ## Renoir's Creation
 

@@ -1,6 +1,24 @@
 # Cards
 
-> Last generated: 9/12/2025 8:51:26 am
+> Last generated: 13/12/2025 12:51:06 pm
+
+## Jar
+
+```
+3C
+Creature - Nevron
+Performs a combo — {2}{C}: This creature gains double strike until end of turn. Put a charge counter on this creature.
+Smashes the ground — {1}{C}, {T}, Remove X charge counters from this creature: This creature deals X damage to each creature without flying.
+
+2/3
+```
+
+[card implementation](../custom/cards/j/jar.txt)
+
+### Design Notes
+
+ - In the game, Jars can be found in Yellow Harvest.
+ - Made colorless as it has weaknesses to all elements in the game.
 
 ## Pétank
 

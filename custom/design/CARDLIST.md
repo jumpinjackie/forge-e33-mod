@@ -173,6 +173,7 @@ Fracture Survivor
 François, Waiting for Clea
 Frozen Hearts
 Full Deck
+Gault
 Gargant
 Gestral Arena
 Gestral Ascension Challenge
@@ -215,12 +216,14 @@ Healing Tint
 Here's Your Card!
 Hexga
 Ice Lance
+Jar
 Jovial Moissoneneuse
 Julien Tiny Head
 Lampmaster
 Lancelier
 Last Stand of Expedition 33
 Leave this Canvas!
+Light the Path
 Lightning Dance
 Limonsol, Matchmaker
 Lorieniso, Gestral Musician
@@ -276,8 +279,10 @@ Persuasive Argument
 Pétank
 Phantom Strike
 Piercing Strike
+Portier
 Pyrolyse
 Rally the Expeditioners
+Ramasseur
 Ranger Sakapatate
 Reaper Cultist
 Recoat

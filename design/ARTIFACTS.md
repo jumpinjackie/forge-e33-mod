@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 13/12/2025 6:40:50 am
+> Last generated: 13/12/2025 12:51:06 pm
 
 ## A Rock for François
 
@@ -1140,6 +1140,25 @@ Esquie! Look what I found.
 ### Notes
 
  - Obvious and obligatory commander staple
+
+## Sunniso, Gestral Bouncer
+
+```
+3
+Legendary Artifact Creature - Gestral
+{5}, {T}: Return target creature to its owner's hand.
+---
+Humans are so rude... more so than Gestrals... which is really saying something...
+
+2/3
+```
+
+[card implementation](../custom/cards/s/sunniso_gestral_bouncer.txt)
+
+### Design Notes
+
+ - In the game, Sunniso is guarding the entrance to Esquie's Nest.
+ - Given existing precedent (Waterfront Bouncer), this clearly should have a creature bounce ability. However since bouncing is natively a blue ability, and we've determined Gestrals to be artifact creatures, the bounce ability here is costed at a premium to compensate for its out-of-flavor-ness.
 
 ## Talisman of Conviction
 

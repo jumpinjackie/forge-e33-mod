@@ -29,7 +29,7 @@ From this list, card designs are spawned from it, which will eventually form the
 
 ## Card Name List
 
-Cards implemented: 347
+Cards implemented: 350
 
 [x] - Card is implemented or in development, [C] - Card is a commander reprint, [R] - Card is a regular reprint, [N] - Card is a nickname reprint, [Z] - Card is a nickname reprint for commander [ ] - Card is not implemented
 
@@ -173,6 +173,7 @@ Cards implemented: 347
 [x] François, Waiting for Clea
 [Z] Frozen Hearts
 [x] Full Deck
+[x] Gault
 [x] Gargant
 [x] Gestral Arena
 [x] Gestral Ascension Challenge
@@ -215,12 +216,14 @@ Cards implemented: 347
 [x] Here's Your Card!
 [x] Hexga
 [x] Ice Lance
+[x] Jar
 [ ] Jovial Moissoneneuse
 [x] Julien Tiny Head
 [x] Lampmaster
 [x] Lancelier
 [x] Last Stand of Expedition 33
 [x] Leave this Canvas!
+[x] Light the Path
 [x] Lightning Dance
 [x] Limonsol, Matchmaker
 [x] Lorieniso, Gestral Musician
@@ -276,8 +279,10 @@ Cards implemented: 347
 [x] Pétank
 [ ] Phantom Strike
 [x] Piercing Strike
+[x] Portier
 [ ] Pyrolyse
 [x] Rally the Expeditioners
+[x] Ramasseur
 [x] Ranger Sakapatate
 [x] Reaper Cultist
 [x] Recoat
@@ -310,7 +315,7 @@ Cards implemented: 347
 [R] Stone Quarry
 [N] Stone Wave Cliffs
 [N] Sunless Cliffs
-[ ] Sunniso, Gestral Bouncer
+[x] Sunniso, Gestral Bouncer
 [x] Swift Counter
 [ ] Sword Ballet
 [x] Surcease
