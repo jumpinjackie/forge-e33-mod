@@ -1,0 +1,31 @@
+[Name]
+Greatsword Cultist
+[ManaCost]
+1
+W
+B
+[Types]
+Creature
+Nevron
+[PT]
+2/3
+[Rarity]
+U
+[Oracle]
+Covers her sword in blood — {X}{B}, {T}, Exert ~: ~ deals X damage to target creature. ~ gets -0/-X until end of turn. Put a shield counter on ~.
+Is about to jump — {1}{W}: ~ gains flying until end of turn. ~ has base toughness 1 until end of turn. Put a shield counter on ~.
+$NEVRON_DEATH_ABILITY_TEXT
+[ForgeScript]
+A:AB$ DealDamage | Cost$ X B T Exert<1/CARDNAME> | ValidTgts$ Creature | TgtPrompt$ Select target creature | NumDmg$ X | SubAbility$ DBDebuff | SpellDescription$ ~ deals X damage to target creature. ~ gets -0/-X until end of turn. Put a shield counter on ~.
+SVar:DBDebuff:DB$ Pump | Defined$ Self | NumDef$ -X | SubAbility$ DBShield
+A:AB$ Pump | Cost$ 1 W | Defined$ Self | KW$ Flying | SubAbility$ DBBlightSelf | SpellDescription$ ~ gains flying until end of turn. ~ has base toughness 1 until end of turn. Put a shield counter on ~.
+SVar:DBBlightSelf:DB$ Animate | Defined$ Self | Toughness$ 1 | SubAbility$ DBShield
+SVar:DBShield:DB$ PutCounter | CounterNum$ 1 | CounterType$ SHIELD
+SVar:X:Count$xPaid
+$NEVRON_DEATH_ABILITY
+[AbilityWords]
+Covers her sword in blood
+Is about to jump
+[DesignNotes]
+ - In the game, Greatsword Cultists are found in the Stone Wave Cliffs
+ - Main gimmick being captured is shielding herself at the expense of great self-inflicted suffering.

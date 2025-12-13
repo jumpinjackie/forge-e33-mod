@@ -1,0 +1,7 @@
+Name:Light the Path
+ManaCost:1 W
+Types:Instant
+A:SP$ Effect | ValidTgts$ Creature | RememberObjects$ Targeted | ExileOnMoved$ Battlefield | StaticAbilities$ Unblockable | AILogic$ Pump | SubAbility$ DBDraw | StackDescription$ {c:Targeted} can't be blocked this turn. | SpellDescription$ Target creature can't be blocked this turn.
+SVar:Unblockable:Mode$ CantBlockBy | ValidAttacker$ Card.IsRemembered | Description$ This creature can't be blocked this turn.
+SVar:DBDraw:DB$ Draw | NumCards$ 1 | Defined$ You
+Oracle:Target creature can’t be blocked this turn.\nDraw a card.

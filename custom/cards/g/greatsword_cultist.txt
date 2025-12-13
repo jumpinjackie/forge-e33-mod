@@ -1,0 +1,13 @@
+Name:Greatsword Cultist
+ManaCost:1 W B
+Types:Creature Nevron
+PT:2/3
+A:AB$ DealDamage | Cost$ X B T Exert<1/CARDNAME> | ValidTgts$ Creature | TgtPrompt$ Select target creature | NumDmg$ X | SubAbility$ DBDebuff | SpellDescription$ CARDNAME deals X damage to target creature. CARDNAME gets -0/-X until end of turn. Put a shield counter on CARDNAME.
+SVar:DBDebuff:DB$ Pump | Defined$ Self | NumDef$ -X | SubAbility$ DBShield
+A:AB$ Pump | Cost$ 1 W | Defined$ Self | KW$ Flying | SubAbility$ DBBlightSelf | SpellDescription$ CARDNAME gains flying until end of turn. CARDNAME has base toughness 1 until end of turn. Put a shield counter on CARDNAME.
+SVar:DBBlightSelf:DB$ Animate | Defined$ Self | Toughness$ 1 | SubAbility$ DBShield
+SVar:DBShield:DB$ PutCounter | CounterNum$ 1 | CounterType$ SHIELD
+SVar:X:Count$xPaid
+T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Card.Self | Execute$ TrigToken | TriggerDescription$ When this creature dies, target opponent creates a Lumina token.
+SVar:TrigToken:DB$ Token | TokenAmount$ 1 | ValidTgts$ Opponent | TokenOwner$ Targeted | TokenScript$ c_a_lumina
+Oracle:Covers her sword in blood — {X}{B}, {T}, Exert this creature: This creature deals X damage to target creature. This creature gets -0/-X until end of turn. Put a shield counter on this creature.\nIs about to jump — {1}{W}: This creature gains flying until end of turn. This creature has base toughness 1 until end of turn. Put a shield counter on this creature.\nWhen this creature dies, target opponent creates a Lumina token. (It's an artifact with "{T}, Sacrifice this artifact: Scry 1.")

@@ -1,0 +1,23 @@
+[Name]
+Gault
+[ManaCost]
+2
+G
+[Types]
+Creature
+Nevron
+[Rarity]
+C
+[Artist]
+Sandfall Interactive
+[PT]
+3/2
+[Oracle]
+Protection from green.
+$NEVRON_DEATH_ABILITY_TEXT
+[ForgeScript]
+K:Protection from green
+$NEVRON_DEATH_ABILITY
+[DesignNotes]
+ - In the game, Gaults can be found in Yellow Harvest.
+ - Vanilla Nevron with protection from green, since in the game it aborbs damage from any earth (green) attacks.

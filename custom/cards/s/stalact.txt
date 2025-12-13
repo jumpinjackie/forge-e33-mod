@@ -1,0 +1,20 @@
+Name:Stalact
+ManaCost:1 U R
+Types:Creature Nevron
+PT:2/2
+K:etbCounter:SHIELD:1
+T:Mode$ DamageDoneOnce | Execute$ TrigRemoveAllCountersBeforeFire | ValidTarget$ Card.Self | ValidSource$ Card.Red | TriggerZones$ Battlefield | TriggerDescription$ Whenever this creature is dealt damage from a red source, remove all counters from it and put a fire counter on it.
+T:Mode$ DamageDoneOnce | Execute$ TrigRemoveAllCountersBeforeIce | ValidTarget$ Card.Self | ValidSource$ Card.Blue | TriggerZones$ Battlefield | TriggerDescription$ Whenever this creature is dealt damage from a blue source, remove all counters from it and put an ice counter on it.
+SVar:TrigRemoveAllCountersBeforeFire:DB$ RemoveCounter | Defined$ Self | CounterType$ All | CounterNum$ All | StackDescription$ None | SubAbility$ DBFire
+SVar:TrigRemoveAllCountersBeforeIce:DB$ RemoveCounter | Defined$ Self | CounterType$ All | CounterNum$ All | StackDescription$ None | SubAbility$ DBIce
+SVar:DBFire:DB$ PutCounter | Defined$ Self | CounterType$ FIRE | CounterNum$ 1
+SVar:DBIce:DB$ PutCounter | Defined$ Self | CounterType$ ICE | CounterNum$ 1
+S:Mode$ Continuous | Affected$ Card.Self+counters_GE1_FIRE | AddKeyword$ Protection from red | Description$ CARDNAME has protection from red as long as it has a fire counter on it.
+S:Mode$ Continuous | Affected$ Card.Self+counters_GE1_ICE | AddKeyword$ Protection from blue | Description$ CARDNAME has protection from blue as long as it has an ice counter on it.
+A:AB$ DealDamage | Cost$ Sac<1/CARDNAME> | ValidTgts$ Creature | NumDmg$ 2 | SpellDescription$ CARDNAME deals 2 damage to target creature.
+T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Card.Self+counters_GE1_FIRE | Execute$ DBDamage | 
+TriggerDescription$ Whenever CARDNAME dies, if it had a fire counter on it, it deals 2 damage to target player.
+T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Card.Self+counters_GE1_ICE | Execute$ DBDraw  | TriggerDescription$ Whenever CARDNAME dies, if it had an ice counter on it, draw a card.
+SVar:DBDamage:DB$ DealDamage | ValidTgts$ Player | TgtPrompt$ Select target player | NumDmg$ 2
+SVar:DBDraw:DB$ Draw | NumCards$ 1 | Defined$ You
+Oracle:This creature enters with a shield counter.\nWhenever this creature is dealt damage from a red source, remove all counters from it and put a fire counter on it.\nWhenever this creature is dealt damage from a blue source, remove all counters from it and put an ice counter on it.\nThis creature has protection from red as long as it has a fire counter on it and protection from blue as long as it has an ice counter on it.\nSelf-destruct — Sacrifice this creature: This creature deals 2 damage to target creature.\nWhenever this creature dies, if it had a fire counter on it, it deals 2 damage to target player. If it had an ice counter on it, draw a card.

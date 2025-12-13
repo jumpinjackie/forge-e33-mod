@@ -1,8 +1,8 @@
 [Name]
 Chalier
 [ManaCost]
-1
-G
+2
+B
 [Types]
 Creature
 Nevron
@@ -11,13 +11,13 @@ C
 [Artist]
 Sandfall Interactive
 [PT]
-2/2
+3/2
 [Oracle]
-~ enters with a shield counter on it. $SHIELD_REMINDER_TEXT
 $NEVRON_DEATH_ABILITY_TEXT
 [ForgeScript]
-K:etbCounter:SHIELD:1
 $NEVRON_DEATH_ABILITY
 [DesignNotes]
+ - In the game, Chaliers can be found in the Forgotten Battlefield.
  - Vanilla Nevron. Could not determine approporiate color/elemental affinity so it's colorless.
  - 12/11/2025: Made it green and gave it a shield counter to emphasize its tough armored exterior.
+ - 13/12/2025: Upon reviewing this enemy in game in a new DLC playthrough, made it black, changed cost to 2B and P/T to 3/2 and removed shield counter.

@@ -28,4 +28,5 @@ A:AB$ PutCounter | Cost$ 1 W T | ValidTgts$ Creature.YouCtrl | TgtPrompt$ Select
  - Mechanically represented here as:
     - Granting shield counters
     - A temporary "humility" effect to represent silencing.
+ - The only white nevron in this set that is finished (it cannot be any other color for flavor reasons). All other white nevrons are unfinished.
  - 13/10/2025: Removed Devoid.

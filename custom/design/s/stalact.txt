@@ -1,27 +1,25 @@
 [Name]
-Gargant
+Stalact
 [ManaCost]
-3
+1
 U
 R
 [Types]
-Legendary
 Creature
 Nevron
-[PT]
-2/6
 [Rarity]
 U
+[PT]
+2/2
 [Oracle]
-Freezes — {2}{U}, {T}: Tap target creature and put a stun counter on it.
-Lands a series of punches — {1}{R}: ~ gains double strike until end of turn.
+~ enters with a shield counter.
 Whenever ~ is dealt damage from a red source, remove all counters from it and put a fire counter on it.
 Whenever ~ is dealt damage from a blue source, remove all counters from it and put an ice counter on it.
 ~ has protection from red as long as it has a fire counter on it and protection from blue as long as it has an ice counter on it.
+Self-destruct — Sacrifice ~: ~ deals 2 damage to target creature.
+Whenever ~ dies, if it had a fire counter on it, it deals 2 damage to target player. If it had an ice counter on it, draw a card.
 [ForgeScript]
-A:AB$ Tap | Cost$ 2 U T | TgtPrompt$ Choose target creature | ValidTgts$ Creature | SubAbility$ DBCounter | SpellDescription$ Tap target creature and put a stun counter on it.
-SVar:DBCounter:DB$ PutCounter | Defined$ Targeted | CounterType$ Stun | CounterNum$ 1
-A:AB$ Pump | Cost$ 1 R | Defined$ Self | KW$ Double Strike | SpellDescription$ ~ gains double strike until end of turn.
+K:etbCounter:SHIELD:1
 T:Mode$ DamageDoneOnce | Execute$ TrigRemoveAllCountersBeforeFire | ValidTarget$ Card.Self | ValidSource$ Card.Red | TriggerZones$ Battlefield | TriggerDescription$ Whenever this creature is dealt damage from a red source, remove all counters from it and put a fire counter on it.
 T:Mode$ DamageDoneOnce | Execute$ TrigRemoveAllCountersBeforeIce | ValidTarget$ Card.Self | ValidSource$ Card.Blue | TriggerZones$ Battlefield | TriggerDescription$ Whenever this creature is dealt damage from a blue source, remove all counters from it and put an ice counter on it.
 SVar:TrigRemoveAllCountersBeforeFire:DB$ RemoveCounter | Defined$ Self | CounterType$ All | CounterNum$ All | StackDescription$ None | SubAbility$ DBFire
@@ -30,9 +28,11 @@ SVar:DBFire:DB$ PutCounter | Defined$ Self | CounterType$ FIRE | CounterNum$ 1
 SVar:DBIce:DB$ PutCounter | Defined$ Self | CounterType$ ICE | CounterNum$ 1
 S:Mode$ Continuous | Affected$ Card.Self+counters_GE1_FIRE | AddKeyword$ Protection from red | Description$ ~ has protection from red as long as it has a fire counter on it.
 S:Mode$ Continuous | Affected$ Card.Self+counters_GE1_ICE | AddKeyword$ Protection from blue | Description$ ~ has protection from blue as long as it has an ice counter on it.
-[AbilityWords]
-Freezes
-Lands a series of punches
+A:AB$ DealDamage | Cost$ Sac<1/CARDNAME> | ValidTgts$ Creature | NumDmg$ 2 | SpellDescription$ ~ deals 2 damage to target creature.
+T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Card.Self+counters_GE1_FIRE | Execute$ DBDamage | 
+TriggerDescription$ Whenever ~ dies, if it had a fire counter on it, it deals 2 damage to target player.
+T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Card.Self+counters_GE1_ICE | Execute$ DBDraw  | TriggerDescription$ Whenever ~ dies, if it had an ice counter on it, draw a card.
+SVar:DBDamage:DB$ DealDamage | ValidTgts$ Player | TgtPrompt$ Select target player | NumDmg$ 2
+SVar:DBDraw:DB$ Draw | NumCards$ 1 | Defined$ You
 [DesignNotes]
- - In the game, Gargant is a boss in Frozen Hearts.
- - Rather than transcribe its abilities 1:1 like other Nevrons, I've gone for something different here and only tried to mechanically capture its "flip-flop" elemental immunity.
+ - Has the same "flip-flop" elemental immunity as its big brother (Gargant), so has the same flip-flop protection.
