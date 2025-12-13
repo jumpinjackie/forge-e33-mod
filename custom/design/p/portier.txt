@@ -1,0 +1,20 @@
+[Name]
+Portier
+[ManaCost]
+2
+G
+[Types]
+Creature
+Nevron
+[Rarity]
+C
+[PT]
+3/3
+[Oracle]
+Jumps — {1}{G}: ~ gains Reach until end of turn
+$NEVRON_DEATH_ABILITY_TEXT
+[ForgeScript]
+A:AB$ Pump | Cost$ 1 G | Defined$ Self | KW$ Reach
+$NEVRON_DEATH_ABILITY
+[DesignNotes]
+ - Vanilla Nevron
