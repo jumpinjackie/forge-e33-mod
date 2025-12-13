@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 13/12/2025 6:40:50 am
+> Last generated: 13/12/2025 6:59:45 am
 
 ## A Storm is Coming
 
@@ -72,7 +72,7 @@ Each player who has cast a non-Painter, non-Gradient spell this turn can’t cas
 ## Ballet
 
 ```
-1(R/G)(R/G)
+(R/G)(R/G)
 Creature - Nevron
 Flying.
 When this creature dies, target opponent creates a Lumina token. (It's an artifact with "{T}, Sacrifice this artifact: Scry 1.")
@@ -87,6 +87,7 @@ When this creature dies, target opponent creates a Lumina token. (It's an artifa
  - Another vanila Nevron. Flying because these things are hard to hit with melee attacks in the actual game.
  - 23/09/2025: Move color identity from white/green to red/green to make way for White Nevrons.
  - 13/10/2025: Removed Devoid.
+ - 13/12/2025: Changed cost from 1{RG}{RG} to {RG}{RG}
 
 ## Bedevil
 
