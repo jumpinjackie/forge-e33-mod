@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 13/12/2025 1:17:02 pm
+> Last generated: 13/12/2025 1:48:07 pm
 
 ## A Storm is Coming
 
@@ -387,6 +387,25 @@ Applies Inverted — {B}{B}, Sacrifice a Blood token: Target creature has base t
  - Since the boss battle is in a death pit with a knee-deep pool of blood, all his abilities revolve around blood tokens.
  - Double strike because he does a lot of combo attacks.
  - Inverted status translated to setting a creature's base toughness to 1 until EOT.
+
+## Elemental Trick
+
+```
+4(W/U)(R/G)
+Kindred Instant - Expeditioner
+Choose one or more —
+• Exile target creature. Add {W}.
+• Target player two cards. Add {U}.
+• Elemental trick deals 4 damage to any target. Add {R}.
+• Target player gains 6 life. Add {G}.
+```
+
+[card implementation](../custom/cards/e/elemental_trick.txt)
+
+### Design Notes
+
+ - In the game, Elemental Genesis is one of Lune's skills. It deals damage in each element and generates the corresponding stain if damage was critical.
+ - Translated to a super-modal spell with one on-color mode for each of the 4 colors. Each mode also adds one mana of the corresponding color as a nod to the stain generation per element.
 
 ## Esquie, Friend of Verso
 

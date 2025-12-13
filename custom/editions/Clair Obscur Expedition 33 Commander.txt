@@ -23,33 +23,33 @@ Type=Custom
 71 R Battlefield Forge @Sandfall Interactive ${"flavorName": "Dark Gestral Arena"}
 74 R Deflecting Swat @rk post
 82 M Doubling Season @Chuck Lukacs
-137 C Farseek @Hristo D. Chukov
-138 C Feed the Swarm @Andrey Kuzinskiy
-139 U Fellwar Stone @John Avon
-150 R Shivan Reef @Sandfall Interactive ${"flavorName": "Frozen Hearts"}
-186 C Growth Spiral @Seb McKinnon
-209 R Llanowar Wastes @Sandfall Interactive ${"flavorName": "Lost Woods"}
-223 M Mana Drain @Raymond Swanland
-235 R Mirage Mirror @Craig J Spearing
-238 U Mortify @Nils Hamm
-251 U Patchwork Banner @Sarah Finnigan
-252 U Path to Exile @Raf Sarmento
-260 U Putrefy @Clint Cearley
-285 R Sulfurous Springs @Sandfall Interactive ${"flavorName": "Sinister Cave"}
-288 R Yavimaya Coast @Sandfall Interactive ${"flavorName": "Sky Island"}
-290 U Sol Ring @Piotr Dura
-301 U Swords to Plowshares @Nadia Hurianova
-302 U Talisman of Conviction @Lindsey Look
-303 U Talisman of Creativity @Lindsey Look
-304 U Talisman of Curiosity @Lindsey Look
-305 U Talisman of Dominance @Mike Dringenberg
-306 U Talisman of Hierarchy @Lindsey Look
-307 U Talisman of Impulse @Mike Dringenberg
-308 U Talisman of Indulgence @Mike Dringenberg
-309 U Talisman of Progress @Mike Dringenberg
-310 U Talisman of Resilience @Lindsey Look
-311 U Talisman of Unity @Mike Dringenberg
-322 R Brushland @Sandfall Interactive ${"flavorName": "The Meadows"}
-332 C Thought Vessel @rk post
-345 R Void Rend @Justyna Dura
-349 R Adarkar Wastes @Sandfall Interactive ${"flavorName": "White Sands"}
+138 C Farseek @Hristo D. Chukov
+139 C Feed the Swarm @Andrey Kuzinskiy
+140 U Fellwar Stone @John Avon
+151 R Shivan Reef @Sandfall Interactive ${"flavorName": "Frozen Hearts"}
+187 C Growth Spiral @Seb McKinnon
+210 R Llanowar Wastes @Sandfall Interactive ${"flavorName": "Lost Woods"}
+224 M Mana Drain @Raymond Swanland
+236 R Mirage Mirror @Craig J Spearing
+239 U Mortify @Nils Hamm
+252 U Patchwork Banner @Sarah Finnigan
+253 U Path to Exile @Raf Sarmento
+261 U Putrefy @Clint Cearley
+286 R Sulfurous Springs @Sandfall Interactive ${"flavorName": "Sinister Cave"}
+289 R Yavimaya Coast @Sandfall Interactive ${"flavorName": "Sky Island"}
+291 U Sol Ring @Piotr Dura
+302 U Swords to Plowshares @Nadia Hurianova
+303 U Talisman of Conviction @Lindsey Look
+304 U Talisman of Creativity @Lindsey Look
+305 U Talisman of Curiosity @Lindsey Look
+306 U Talisman of Dominance @Mike Dringenberg
+307 U Talisman of Hierarchy @Lindsey Look
+308 U Talisman of Impulse @Mike Dringenberg
+309 U Talisman of Indulgence @Mike Dringenberg
+310 U Talisman of Progress @Mike Dringenberg
+311 U Talisman of Resilience @Lindsey Look
+312 U Talisman of Unity @Mike Dringenberg
+323 R Brushland @Sandfall Interactive ${"flavorName": "The Meadows"}
+333 C Thought Vessel @rk post
+346 R Void Rend @Justyna Dura
+350 R Adarkar Wastes @Sandfall Interactive ${"flavorName": "White Sands"}
