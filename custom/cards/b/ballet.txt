@@ -1,5 +1,5 @@
 Name:Ballet
-ManaCost:1 RG RG
+ManaCost:RG RG
 Types:Creature Nevron
 PT:2/2
 K:Flying

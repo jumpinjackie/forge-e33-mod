@@ -1,7 +1,6 @@
 [Name]
 Ballet
 [ManaCost]
-1
 RG
 RG
 [Types]
@@ -23,3 +22,4 @@ $NEVRON_DEATH_ABILITY
  - Another vanila Nevron. Flying because these things are hard to hit with melee attacks in the actual game.
  - 23/09/2025: Move color identity from white/green to red/green to make way for White Nevrons.
  - 13/10/2025: Removed Devoid.
+ - 13/12/2025: Changed cost from 1{RG}{RG} to {RG}{RG}
