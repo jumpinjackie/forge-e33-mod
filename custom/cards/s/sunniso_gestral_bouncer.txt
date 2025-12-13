@@ -1,0 +1,6 @@
+Name:Sunniso, Gestral Bouncer
+ManaCost:3
+Types:Legendary Artifact Creature Gestral
+PT:2/3
+A:AB$ ChangeZone | Cost$ 5 T | ValidTgts$ Creature | Origin$ Battlefield | Destination$ Hand | SpellDescription$ Return target creature to its owner's hand.
+Oracle:{5}, {T}: Return target creature to its owner's hand.
