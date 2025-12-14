@@ -67,30 +67,31 @@ Images listed are cards first, then tokens.
 | ![](../custom/thumbs/cards/E33/Dessendre%20Family%20Portrait.full.jpg) | ![](../custom/thumbs/cards/E33/Dominique%20Giant%20Feet.full.jpg) | ![](../custom/thumbs/cards/E33/Dorrie.full.jpg) |
 | ![](../custom/thumbs/cards/E33/Energy%20Tint.full.jpg) | ![](../custom/thumbs/cards/E33/Esquie%27s%20Magic%20Mushrooms.full.jpg) | ![](../custom/thumbs/cards/E33/Expedition%2050%20Ferris%20Wheel.full.jpg) |
 | ![](../custom/thumbs/cards/E33/Expedition%2064%20Radio.full.jpg) | ![](../custom/thumbs/cards/E33/Expedition%20Cache.full.jpg) | ![](../custom/thumbs/cards/E33/Expedition%20Flag.full.jpg) |
-| ![](../custom/thumbs/cards/E33/Expedition%20Flotilla.full.jpg) | ![](../custom/thumbs/cards/E33/Expedition%20Map.full.jpg) | ![](../custom/thumbs/cards/E33/Explorer%27s%20Scope.full.jpg) |
-| ![](../custom/thumbs/cards/E33/Florrie.full.jpg) | ![](../custom/thumbs/cards/E33/Gestral%20Bodyguard.full.jpg) | ![](../custom/thumbs/cards/E33/Gestral%20Doctor.full.jpg) |
-| ![](../custom/thumbs/cards/E33/Gestral%20Fighter.full.jpg) | ![](../custom/thumbs/cards/E33/Gestral%20Lackey.full.jpg) | ![](../custom/thumbs/cards/E33/Gestral%20Merchant.full.jpg) |
-| ![](../custom/thumbs/cards/E33/Gestral%20Pot.full.jpg) | ![](../custom/thumbs/cards/E33/Gestral%20Ringleader.full.jpg) | ![](../custom/thumbs/cards/E33/Gestral%20Villager.full.jpg) |
-| ![](../custom/thumbs/cards/E33/Gestral%20Warrior.full.jpg) | ![](../custom/thumbs/cards/E33/Gestral%20Worker.full.jpg) | ![](../custom/thumbs/cards/E33/Golgra%2C%20Gestral%20Chief.full.jpg) |
-| ![](../custom/thumbs/cards/E33/Gustave%27s%20Journal.full.jpg) | ![](../custom/thumbs/cards/E33/Healing%20Tint.full.jpg) | ![](../custom/thumbs/cards/E33/Julien%20Tiny%20Head.full.jpg) |
-| ![](../custom/thumbs/cards/E33/Limonsol%2C%20Matchmaker.full.jpg) | ![](../custom/thumbs/cards/E33/Lorieniso%2C%20Gestral%20Musician.full.jpg) | ![](../custom/thumbs/cards/E33/Lost%20Gestral.full.jpg) |
-| ![](../custom/thumbs/cards/E33/Lumiere%20Flower%20Stand.full.jpg) | ![](../custom/thumbs/cards/E33/Lumina%20Converter.full.jpg) | ![](../custom/thumbs/cards/E33/Manor%20Door.full.jpg) |
-| ![](../custom/thumbs/cards/E33/Mask%20of%20Memory.full.jpg) | ![](../custom/thumbs/cards/E33/Matthieu%20the%20Colossus.full.jpg) | ![](../custom/thumbs/cards/E33/Ono-Puncho.full.jpg) |
-| ![](../custom/thumbs/cards/E33/Paint%20Cage.full.jpg) | ![](../custom/thumbs/cards/E33/Paint%20Spike.full.jpg) | ![](../custom/thumbs/cards/E33/Recoat.full.jpg) |
-| ![](../custom/thumbs/cards/E33/Revive%20Tint.full.jpg) | ![](../custom/thumbs/cards/E33/Sastro%2C%20Gestral%20Guardian.full.jpg) | ![](../custom/thumbs/cards/E33/Soarrie.full.jpg) |
-| ![](../custom/thumbs/cards/E33/Sunniso%2C%20Gestral%20Bouncer.full.jpg) | ![](../custom/thumbs/cards/E33/Tall%20Gestral.full.jpg) | ![](../custom/thumbs/cards/E33/The%20World%20Canvas.full.jpg) |
-| ![](../custom/thumbs/cards/E33/Urrie.full.jpg) | ![](../custom/thumbs/cards/E33/Abbest%20Cave.full.jpg) | ![](../custom/thumbs/cards/E33/Crushing%20Cavern.full.jpg) |
-| ![](../custom/thumbs/cards/E33/Dark%20Shores.full.jpg) | ![](../custom/thumbs/cards/E33/Endless%20Tower.full.jpg) | ![](../custom/thumbs/cards/E33/Esquie%27s%20Nest.full.jpg) |
-| ![](../custom/thumbs/cards/E33/Expedition%20Camp.full.jpg) | ![](../custom/thumbs/cards/E33/Falling%20Leaves.full.jpg) | ![](../custom/thumbs/cards/E33/Floating%20Cemetery.full.jpg) |
-| ![](../custom/thumbs/cards/E33/Flying%20Casino.full.jpg) | ![](../custom/thumbs/cards/E33/Flying%20Waters.full.jpg) | ![](../custom/thumbs/cards/E33/Forgotten%20Battlefield.full.jpg) |
-| ![](../custom/thumbs/cards/E33/Gestral%20Arena.full.jpg) | ![](../custom/thumbs/cards/E33/Gestral%20Beach.full.jpg) | ![](../custom/thumbs/cards/E33/Gestral%20Village.full.jpg) |
-| ![](../custom/thumbs/cards/E33/Lumiere%20Aquafarm.full.jpg) | ![](../custom/thumbs/cards/E33/Lumiere%20Opera%20House.full.jpg) | ![](../custom/thumbs/cards/E33/Lumiere%2C%20The%20Last%20Bastion.full.jpg) |
-| ![](../custom/thumbs/cards/E33/Manor%20Gardens.full.jpg) | ![](../custom/thumbs/cards/E33/Monoco%27s%20Station.full.jpg) | ![](../custom/thumbs/cards/E33/Painted%20Bluffs.full.jpg) |
-| ![](../custom/thumbs/cards/E33/Sirene%27s%20Coliseum.full.jpg) | ![](../custom/thumbs/cards/E33/Spring%20Meadows.full.jpg) | ![](../custom/thumbs/cards/E33/Stone%20Quarry.full.jpg) |
-| ![](../custom/thumbs/cards/E33/Stone%20Wave%20Cliffs.full.jpg) | ![](../custom/thumbs/cards/E33/Sunless%20Cliffs.full.jpg) | ![](../custom/thumbs/cards/E33/The%20Hauler.full.jpg) |
-| ![](../custom/thumbs/cards/E33/The%20Indigo%20Tree.full.jpg) | ![](../custom/thumbs/cards/E33/The%20Monolith.full.jpg) | ![](../custom/thumbs/cards/E33/The%20Monolith%20Interior.full.jpg) |
-| ![](../custom/thumbs/cards/E33/The%20Reacher.full.jpg) | ![](../custom/thumbs/cards/E33/The%20Sacred%20River.full.jpg) | ![](../custom/thumbs/cards/E33/Twilight%20Quarry.full.jpg) |
-| ![](../custom/thumbs/cards/E33/Visages.full.jpg) | ![](../custom/thumbs/cards/E33/He%20Who%20Guards%20Truth%20With%20Lies.full.jpg) | ![](../custom/thumbs/cards/E33/Yellow%20Harvest.full.jpg) |
+| ![](../custom/thumbs/cards/E33/Expedition%20Flotilla.full.jpg) | ![](../custom/thumbs/cards/E33/Expedition%20Journal.full.jpg) | ![](../custom/thumbs/cards/E33/Expedition%20Map.full.jpg) |
+| ![](../custom/thumbs/cards/E33/Explorer%27s%20Scope.full.jpg) | ![](../custom/thumbs/cards/E33/Florrie.full.jpg) | ![](../custom/thumbs/cards/E33/Gestral%20Bodyguard.full.jpg) |
+| ![](../custom/thumbs/cards/E33/Gestral%20Doctor.full.jpg) | ![](../custom/thumbs/cards/E33/Gestral%20Fighter.full.jpg) | ![](../custom/thumbs/cards/E33/Gestral%20Lackey.full.jpg) |
+| ![](../custom/thumbs/cards/E33/Gestral%20Merchant.full.jpg) | ![](../custom/thumbs/cards/E33/Gestral%20Pot.full.jpg) | ![](../custom/thumbs/cards/E33/Gestral%20Ringleader.full.jpg) |
+| ![](../custom/thumbs/cards/E33/Gestral%20Villager.full.jpg) | ![](../custom/thumbs/cards/E33/Gestral%20Warrior.full.jpg) | ![](../custom/thumbs/cards/E33/Gestral%20Worker.full.jpg) |
+| ![](../custom/thumbs/cards/E33/Golgra%2C%20Gestral%20Chief.full.jpg) | ![](../custom/thumbs/cards/E33/Gustave%27s%20Journal.full.jpg) | ![](../custom/thumbs/cards/E33/Healing%20Tint.full.jpg) |
+| ![](../custom/thumbs/cards/E33/Julien%20Tiny%20Head.full.jpg) | ![](../custom/thumbs/cards/E33/Limonsol%2C%20Matchmaker.full.jpg) | ![](../custom/thumbs/cards/E33/Lorieniso%2C%20Gestral%20Musician.full.jpg) |
+| ![](../custom/thumbs/cards/E33/Lost%20Gestral.full.jpg) | ![](../custom/thumbs/cards/E33/Lumiere%20Flower%20Stand.full.jpg) | ![](../custom/thumbs/cards/E33/Lumina%20Converter.full.jpg) |
+| ![](../custom/thumbs/cards/E33/Manor%20Door.full.jpg) | ![](../custom/thumbs/cards/E33/Mask%20of%20Memory.full.jpg) | ![](../custom/thumbs/cards/E33/Matthieu%20the%20Colossus.full.jpg) |
+| ![](../custom/thumbs/cards/E33/Ono-Puncho.full.jpg) | ![](../custom/thumbs/cards/E33/Paint%20Cage.full.jpg) | ![](../custom/thumbs/cards/E33/Paint%20Spike.full.jpg) |
+| ![](../custom/thumbs/cards/E33/Recoat.full.jpg) | ![](../custom/thumbs/cards/E33/Revive%20Tint.full.jpg) | ![](../custom/thumbs/cards/E33/Sastro%2C%20Gestral%20Guardian.full.jpg) |
+| ![](../custom/thumbs/cards/E33/Soarrie.full.jpg) | ![](../custom/thumbs/cards/E33/Sunniso%2C%20Gestral%20Bouncer.full.jpg) | ![](../custom/thumbs/cards/E33/Tall%20Gestral.full.jpg) |
+| ![](../custom/thumbs/cards/E33/The%20World%20Canvas.full.jpg) | ![](../custom/thumbs/cards/E33/Urrie.full.jpg) | ![](../custom/thumbs/cards/E33/Abbest%20Cave.full.jpg) |
+| ![](../custom/thumbs/cards/E33/Crushing%20Cavern.full.jpg) | ![](../custom/thumbs/cards/E33/Dark%20Shores.full.jpg) | ![](../custom/thumbs/cards/E33/Endless%20Tower.full.jpg) |
+| ![](../custom/thumbs/cards/E33/Esquie%27s%20Nest.full.jpg) | ![](../custom/thumbs/cards/E33/Expedition%20Camp.full.jpg) | ![](../custom/thumbs/cards/E33/Falling%20Leaves.full.jpg) |
+| ![](../custom/thumbs/cards/E33/Floating%20Cemetery.full.jpg) | ![](../custom/thumbs/cards/E33/Flying%20Casino.full.jpg) | ![](../custom/thumbs/cards/E33/Flying%20Waters.full.jpg) |
+| ![](../custom/thumbs/cards/E33/Forgotten%20Battlefield.full.jpg) | ![](../custom/thumbs/cards/E33/Gestral%20Arena.full.jpg) | ![](../custom/thumbs/cards/E33/Gestral%20Beach.full.jpg) |
+| ![](../custom/thumbs/cards/E33/Gestral%20Village.full.jpg) | ![](../custom/thumbs/cards/E33/Lumiere%20Aquafarm.full.jpg) | ![](../custom/thumbs/cards/E33/Lumiere%20Opera%20House.full.jpg) |
+| ![](../custom/thumbs/cards/E33/Lumiere%2C%20The%20Last%20Bastion.full.jpg) | ![](../custom/thumbs/cards/E33/Manor%20Gardens.full.jpg) | ![](../custom/thumbs/cards/E33/Monoco%27s%20Station.full.jpg) |
+| ![](../custom/thumbs/cards/E33/Painted%20Bluffs.full.jpg) | ![](../custom/thumbs/cards/E33/Sirene%27s%20Coliseum.full.jpg) | ![](../custom/thumbs/cards/E33/Spring%20Meadows.full.jpg) |
+| ![](../custom/thumbs/cards/E33/Stone%20Quarry.full.jpg) | ![](../custom/thumbs/cards/E33/Stone%20Wave%20Cliffs.full.jpg) | ![](../custom/thumbs/cards/E33/Sunless%20Cliffs.full.jpg) |
+| ![](../custom/thumbs/cards/E33/The%20Hauler.full.jpg) | ![](../custom/thumbs/cards/E33/The%20Indigo%20Tree.full.jpg) | ![](../custom/thumbs/cards/E33/The%20Monolith.full.jpg) |
+| ![](../custom/thumbs/cards/E33/The%20Monolith%20Interior.full.jpg) | ![](../custom/thumbs/cards/E33/The%20Reacher.full.jpg) | ![](../custom/thumbs/cards/E33/The%20Sacred%20River.full.jpg) |
+| ![](../custom/thumbs/cards/E33/Twilight%20Quarry.full.jpg) | ![](../custom/thumbs/cards/E33/Visages.full.jpg) | ![](../custom/thumbs/cards/E33/He%20Who%20Guards%20Truth%20With%20Lies.full.jpg) |
+| ![](../custom/thumbs/cards/E33/Yellow%20Harvest.full.jpg) |   |   |
 ## Tokens
 | | | |
 |---|---|---|

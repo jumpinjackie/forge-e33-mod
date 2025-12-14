@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 13/12/2025 12:51:06 pm
+> Last generated: 14/12/2025 7:30:09 am
 
 ## A Rock for François
 
@@ -453,6 +453,23 @@ As you sail into the unknown, know that Lumière stands with you. When you battl
 ### Design Notes
 
  - Depicts the ship Expedition 33 departs from Lumière in. Modeled on Adrestia.
+
+## Expedition Journal
+
+```
+1
+Artifact - Clue
+{3}, {T}: Put a lore counter on target Saga you control.
+{3}, {T}: Remove a lore counter from target Saga you control.
+{2}, Sacrifice this artifact: Draw a card.
+```
+
+[card implementation](../custom/cards/e/expedition_journal.txt)
+
+### Design Notes
+
+ - In the game, various journals from previous Expeditions are scattered throughout the continent.
+ - Since we've modeled Expedition-specific journals as Sagas, this is an artifact that can help skip or re-tell Saga chapters.
 
 ## Expedition Map
 
