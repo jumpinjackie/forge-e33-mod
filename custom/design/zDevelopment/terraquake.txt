@@ -19,7 +19,7 @@ Lune is floating in the air, arms raised as if summoning something from the grou
 [ForgeScript]
 A:SP$ DamageAll | ValidCards$ Creature.withoutFlying | ValidPlayers$ Player | NumDmg$ X | AILogic$ PriceOfProgress | SpellDescription$ CARDNAME deals X damage to each creature without flying and each player, where X is twice the number of non-basic lands in play.
 SVar:DBDamage:DB$ DealDamage | Defined$ Remembered | NumDmg$ X
-SVar:X:Count$Valid Land.nonBasic+RememberedPlayerCtrl/Times.2
+SVar:X:Count$Valid Land.nonBasic/Times.2
 [DesignNotes]
  - In the game, this is one of Lune's abilities.
  - This is Earthquake and Price of Progress smushed together and is meant to check greedy non-basic mana bases.
