@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 14/12/2025 7:30:09 am
+> Last generated: 14/12/2025 10:41:51 am
 
 ## A Rock for François
 
@@ -674,7 +674,7 @@ Expeditioners, eh? You're a fun looking bunch. Unless you try to cause problems.
 Artifact Creature - Gestral
 This creature cannot attack or block alone.
 ---
-You may come in.
+You may not come in.
 
 3/3
 ```

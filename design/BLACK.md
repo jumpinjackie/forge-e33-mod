@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 13/12/2025 12:51:06 pm
+> Last generated: 14/12/2025 10:07:57 am
 
 ## Chalier
 
@@ -27,11 +27,12 @@ When this creature dies, target opponent creates a Lumina token. (It's an artifa
 2BB
 Creature - Nevron
 Flying.
-{1}{B}, {T}: Create a 1/1 colorless Jar Nevron creature token.
+This creature enters with a mask counter.
+Remove a mask counter from this creature: Target creature loses all abilities until end of turn.
 Exhaust on death - When this creature dies, tap target creature an opponent controls, put a stun counter on it. (If a permanent with a stun counter would become untapped, remove one from it instead.)
 When this creature dies, target opponent creates a Lumina token.
 
-2/2
+3/3
 ```
 
 [card implementation](../custom/cards/c/chapelier.txt)
@@ -41,6 +42,7 @@ When this creature dies, target opponent creates a Lumina token.
  - In the game, Chapelier summons jars to attack the party if not shot down and causes party exhaustion on defeat.
  - Gave it a token generation ability and mechanically represent exhaustion with tap + stun counter.
  - 13/10/2025: Removed Devoid.
+ - 14/12/2025: Remove jar nevron token ability with a mask silencing ability, having played the game again with the new DLC release. The game guide I referred to and based the original abilities on clearly lied to me.
 
 ## Clea's Chromatic Mastery
 

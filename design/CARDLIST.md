@@ -29,7 +29,7 @@ From this list, card designs are spawned from it, which will eventually form the
 
 ## Card Name List
 
-Cards implemented: 352
+Cards implemented: 353
 
 [x] - Card is implemented or in development, [C] - Card is a commander reprint, [R] - Card is a regular reprint, [N] - Card is a nickname reprint, [Z] - Card is a nickname reprint for commander [ ] - Card is not implemented
 
@@ -42,7 +42,7 @@ Cards implemented: 352
 [x] Acceptance
 [x] Alicia Dessendre, Silenced by Fire
 [x] Alicia's Birthday Party
-[ ] All Set
+[x] All Set
 [x] An Advantage!
 [ ] Ancient Sanctuary
 [R] Anger

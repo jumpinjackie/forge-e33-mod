@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 14/12/2025 7:51:07 am
+> Last generated: 14/12/2025 8:12:50 am
 
 ## A Life to Love (Farewell)
 
@@ -49,6 +49,23 @@ Whenever a Human creature you control enters, create a Food token.
  - In the game, one of Maelle's nightmare visions is of a birthday party with Gustave and Verso as guests.
  - Gone with an enchantment that brings in some party guests.
  - The more guests (humans) arrive, the more food becomes available.
+
+## All Set
+
+```
+3W
+Kindred Instant - Expeditioner
+Creatures you control get +0/+2 until end of turn.
+If {R} was spent on this spell, creatures you control gain haste until end of turn.
+If {G} was spent on this spell, creatures you control get +2/+0 until end of turn.
+```
+
+[card implementation](../custom/cards/a/all_set.txt)
+
+### Design Notes
+
+ - In the game, All Set is one of Sciel's abilities. It grants Shell, Powerful and Rush to your entire party.
+ - Mapped to an instant that grants toughness boost (Shell), with haste (Rush) and power boost (Powerful) if the appropriate colors of mana are spent.
 
 ## Austere Command
 
