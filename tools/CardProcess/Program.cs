@@ -1,6 +1,8 @@
 ﻿using System.Diagnostics;
 using System.Globalization;
+using System.IO;
 using System.Text;
+using System.Text.RegularExpressions;
 using DotMake.CommandLine;
 
 await Cli.RunAsync<RootCommand>(args);
@@ -812,7 +814,7 @@ public class CardMasterDesign(string designFile)
 
     public IEnumerable<string> AllDesignNotes => [.. FrontFull?.DesignNotes ?? [], .. SplitLeft?.DesignNotes ?? [], .. SplitRight?.DesignNotes ?? [], .. MeldTarget?.DesignNotes ?? [], .. BackFull?.DesignNotes ?? []];
 
-    internal async Task WriteDocAsync(string baseDir, StreamWriter writer, TextWriter stdout, TextWriter stderr)
+    internal async Task WriteDocAsync(string baseDir, TextWriter writer, TextWriter stdout, TextWriter stderr)
     {
         if (this.IsReprint)
         {
@@ -1104,7 +1106,7 @@ public class GenAllCommand : BaseCommand
 
         // 2. Generate docs (from GenDocsCommand)
         await stdout.WriteLineAsync("Generating documentation...");
-        var writers = new Dictionary<string, StreamWriter>();
+        var writers = new Dictionary<string, StringWriter>();
         var scriptBaseDir = Path.GetRelativePath(
             OutputDir.FullName,
             Path.Combine(BaseDirectory.FullName, "cards")
@@ -1117,12 +1119,11 @@ public class GenAllCommand : BaseCommand
 
             if (!writers.TryGetValue(card.Bucket!, out var writer))
             {
-                writer = new StreamWriter(
-                    Path.Combine(this.OutputDir.FullName, card.Bucket + ".md")
-                );
+                var headerSb = new StringBuilder();
+                writer = new StringWriter(headerSb);
                 await writer.WriteLineAsync("# Cards");
                 await writer.WriteLineAsync();
-                await writer.WriteLineAsync($"> Last generated: {DateTime.UtcNow}");
+                await writer.WriteLineAsync("> Last generated: PLACEHOLDER");
                 await writer.WriteLineAsync();
                 writers[card.Bucket!] = writer;
             }
@@ -1131,8 +1132,27 @@ public class GenAllCommand : BaseCommand
 
         foreach (var kvp in writers)
         {
-            kvp.Value.Close();
-            kvp.Value.Dispose();
+            var writer = kvp.Value;
+            var contentSb = writer.GetStringBuilder();
+            var newContent = contentSb.ToString().Replace("PLACEHOLDER", DateTime.UtcNow.ToString());
+            var filePath = Path.Combine(this.OutputDir.FullName, kvp.Key + ".md");
+            string existingContent = null;
+            if (File.Exists(filePath))
+            {
+                existingContent = File.ReadAllText(filePath);
+                // Replace the timestamp with PLACEHOLDER
+                var timestampRegex = new Regex(@"> Last generated: .*");
+                existingContent = timestampRegex.Replace(existingContent, "> Last generated: PLACEHOLDER");
+            }
+            if (existingContent == null || existingContent != contentSb.ToString())
+            {
+                File.WriteAllText(filePath, newContent);
+                await stdout.WriteLineAsync($"Updated: {filePath}");
+            }
+            else
+            {
+                await stdout.WriteLineAsync($"No changes: {filePath}");
+            }
         }
 
         // 3. Generate edition (from GenEditionCommand)
