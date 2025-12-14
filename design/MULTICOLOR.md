@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 14/12/2025 2:53:36 am
+> Last generated: 14/12/2025 6:29:42 am
 
 ## A Storm is Coming
 
@@ -286,7 +286,7 @@ Hmm. It's old chroma, not pure. It won't be like bringing the two of you back, b
 2UB
 Legendary Planeswalker - Clea
 Nevron spells you cast cost {1} less to cast.
-[+2]: Create a 1/1 colorless Nevron creature token.
+[+2]: Amass Nevrons 2
 [-2]: Search your library for a Nevron creature card, reveal that card and put it into your hand.
 [-4]: Exile target nonland permanent. Create a token that's a copy of that permanent, except it is a Nevron in addition to its other types.
 [-10]: Gain control of all creatures target opponent controls.
@@ -302,6 +302,7 @@ Nevron spells you cast cost {1} less to cast.
     - -4: She is known to have the unique ability of "painting over" other's creations. Modeled as exile with Nevron clone copy.
     - -10: She is a shrewd manipulator
  - 26/11/2025: Made her -2 loyalty only tutor up Nevron creatures, so that Clea's Chromatic Mastery acutally does something unique (tutor up any Nevron card, not just creatures)
+ - 14/12/2025: Changed her +2 loyalty to Amass a black Nevron army instead of creating a 1/1 Nevron to mix things up.
 
 ## Closure
 
