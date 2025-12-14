@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 14/12/2025 7:51:07 am
+> Last generated: 14/12/2025 12:31:34 pm
 
 ## Anger
 
@@ -156,6 +156,24 @@ I dare not show my true feelings. As Commander, I cannot yield to fear. But I ca
 ### Design Notes
 
  - Mapped siege engineering to temp creature pump from saccing artifacts.
+
+## Expedition 67 Blastminer
+
+```
+1R
+Creature - Human Expeditioner
+{2}{R}, {T}: Destroy target nonbasic land.
+When this creature dies, create a Chroma token.
+
+1/3
+```
+
+[card implementation](../custom/cards/e/expedition_67_blastminer.txt)
+
+### Design Notes
+
+ - In the game, Expedition 67 employed the use of explosives to tear down walls in Sirène's coliseum. They succumbed to Sirène's musical wiles.
+ - Due to the massive amount of non-basics in this set, this is a necessary card to check such greedy manabases.
 
 ## Fortune's Fury
 
