@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 13/12/2025 1:17:02 pm
+> Last generated: 14/12/2025 7:51:07 am
 
 ## Anger
 
@@ -166,7 +166,6 @@ Target creature gains double strike until end of turn. (It deals both first-stri
 Create a Lumina token. (It's an artifact with "{T}, Sacrifice this artifact: Scry 1.")
 ---
 Lady luck smiled today!
-- Sciel
 ```
 
 [card implementation](../custom/cards/f/fortunes_fury.txt)

@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 13/12/2025 6:40:50 am
+> Last generated: 14/12/2025 7:51:07 am
 
 ## A Life to Love (Farewell)
 
@@ -385,7 +385,7 @@ Kindred Instant - Expeditioner
 Untap target creature you control. It gains hexproof until end of turn.
 Luminous — Draw a card if you control at least three Lumina tokens.
 ---
-Don't worry, I'm here.
+Your turn to shine!
 ```
 
 [card implementation](../custom/cards/s/sciels_intervention.txt)
