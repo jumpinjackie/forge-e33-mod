@@ -1,12 +1,13 @@
 Name:Chapelier
 ManaCost:2 B B
 Types:Creature Nevron
-PT:2/2
+PT:3/3
 K:Flying
+K:etbCounter:MASK:1
+A:AB$ Animate | Cost$ SubCounter<1/MASK> | ValidTgts$ Creature | TgtPrompt$ Select target creature | RemoveAllAbilities$ True | SpellDescription$ Target creature loses all abilities until end of turn.
 T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Card.Self | Execute$ TrigToken | TriggerDescription$ When this creature dies, target opponent creates a Lumina token.
 SVar:TrigToken:DB$ Token | TokenAmount$ 1 | ValidTgts$ Opponent | TokenOwner$ Targeted | TokenScript$ c_a_lumina
-A:AB$ Token | Cost$ 1 B T | TokenAmount$ 1 | TokenScript$ c_1_1_jar_nevron | TokenOwner$ You | SpellDescription$ Create a 1/1 colorless Jar Nevron creature token.
 T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Card.Self | Execute$ TrigTap | TriggerDescription$ Exhaust on death - When this creature dies, tap target creature an opponent controls, put a stun counter on it. (If a permanent with a stun counter would become untapped, remove one from it instead.)
 SVar:TrigTap:DB$ Tap | ValidTgts$ Creature.OppCtrl | TgtPrompt$ Select target creature an opponent controls | SubAbility$ DBPutCounter
 SVar:DBPutCounter:DB$ PutCounter | Defined$ Targeted | CounterType$ Stun | CounterNum$ 1
-Oracle:Flying.\n{1}{B}, {T}: Create a 1/1 colorless Jar Nevron creature token.\nExhaust on death - When this creature dies, tap target creature an opponent controls, put a stun counter on it. (If a permanent with a stun counter would become untapped, remove one from it instead.)\nWhen this creature dies, target opponent creates a Lumina token.
+Oracle:Flying.\nThis creature enters with a mask counter.\nRemove a mask counter from this creature: Target creature loses all abilities until end of turn.\nExhaust on death - When this creature dies, tap target creature an opponent controls, put a stun counter on it. (If a permanent with a stun counter would become untapped, remove one from it instead.)\nWhen this creature dies, target opponent creates a Lumina token.

@@ -12,18 +12,20 @@ U
 [Artist]
 Sandfall Interactive
 [PT]
-2/2
+3/3
 [Oracle]
 Flying.
-{1}{B}, {T}: Create a 1/1 colorless Jar Nevron creature token.
+~ enters with a mask counter.
+Remove a mask counter from ~: Target creature loses all abilities until end of turn.
 Exhaust on death - When this creature dies, tap target creature an opponent controls, put a stun counter on it. (If a permanent with a stun counter would become untapped, remove one from it instead.)
 $NEVRON_DEATH_ABILITY_TEXT_SHORT
 [AbilityWords]
 Exhaust on death
 [ForgeScript]
 K:Flying
+K:etbCounter:MASK:1
+A:AB$ Animate | Cost$ SubCounter<1/MASK> | ValidTgts$ Creature | TgtPrompt$ Select target creature | RemoveAllAbilities$ True | SpellDescription$ Target creature loses all abilities until end of turn.
 $NEVRON_DEATH_ABILITY
-A:AB$ Token | Cost$ 1 B T | TokenAmount$ 1 | TokenScript$ c_1_1_jar_nevron | TokenOwner$ You | SpellDescription$ Create a 1/1 colorless Jar Nevron creature token.
 T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Card.Self | Execute$ TrigTap | TriggerDescription$ Exhaust on death - When this creature dies, tap target creature an opponent controls, put a stun counter on it. (If a permanent with a stun counter would become untapped, remove one from it instead.)
 SVar:TrigTap:DB$ Tap | ValidTgts$ Creature.OppCtrl | TgtPrompt$ Select target creature an opponent controls | SubAbility$ DBPutCounter
 SVar:DBPutCounter:DB$ PutCounter | Defined$ Targeted | CounterType$ Stun | CounterNum$ 1
@@ -31,3 +33,4 @@ SVar:DBPutCounter:DB$ PutCounter | Defined$ Targeted | CounterType$ Stun | Count
  - In the game, Chapelier summons jars to attack the party if not shot down and causes party exhaustion on defeat.
  - Gave it a token generation ability and mechanically represent exhaustion with tap + stun counter.
  - 13/10/2025: Removed Devoid.
+ - 14/12/2025: Remove jar nevron token ability with a mask silencing ability, having played the game again with the new DLC release. The game guide I referred to and based the original abilities on clearly lied to me.
