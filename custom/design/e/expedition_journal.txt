@@ -1,0 +1,20 @@
+[Name]
+Expedition Journal
+[ManaCost]
+1
+[Types]
+Artifact
+Clue
+[Rarity]
+U
+[Oracle]
+{3}, {T}: Put a lore counter on target Saga you control.
+{3}, {T}: Remove a lore counter from target Saga you control.
+{2}, Sacrifice ~: Draw a card.
+[ForgeScript]
+A:AB$ PutCounter | Cost$ 3 T | ValidTgts$ Saga.YouCtrl | TgtPrompt$ Select target Saga you control | CounterType$ LORE | CounterNum$ 1 | SpellDescription$ Put a lore counter on target Saga you control.
+A:AB$ RemoveCounter | Cost$ 3 T | ValidTgts$ Saga.YouCtrl | TgtPrompt$ Select target Saga you control | CounterType$ LORE | CounterNum$ 1 | SpellDescription$ Remove a lore counter from target Saga you control.
+A:AB$ Draw | Cost$ 2 Sac<1/CARDNAME> | NumCards$ 1 | SpellDescription$ Draw a card.
+[DesignNotes]
+ - In the game, various journals from previous Expeditions are scattered throughout the continent.
+ - Since we've modeled Expedition-specific journals as Sagas, this is an artifact that can help skip or re-tell Saga chapters.

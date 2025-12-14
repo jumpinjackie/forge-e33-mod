@@ -1,0 +1,7 @@
+Name:Expedition Journal
+ManaCost:1
+Types:Artifact Clue
+A:AB$ PutCounter | Cost$ 3 T | ValidTgts$ Saga.YouCtrl | TgtPrompt$ Select target Saga you control | CounterType$ LORE | CounterNum$ 1 | SpellDescription$ Put a lore counter on target Saga you control.
+A:AB$ RemoveCounter | Cost$ 3 T | ValidTgts$ Saga.YouCtrl | TgtPrompt$ Select target Saga you control | CounterType$ LORE | CounterNum$ 1 | SpellDescription$ Remove a lore counter from target Saga you control.
+A:AB$ Draw | Cost$ 2 Sac<1/CARDNAME> | NumCards$ 1 | SpellDescription$ Draw a card.
+Oracle:{3}, {T}: Put a lore counter on target Saga you control.\n{3}, {T}: Remove a lore counter from target Saga you control.\n{2}, Sacrifice this artifact: Draw a card.
