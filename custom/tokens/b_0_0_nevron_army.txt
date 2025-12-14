@@ -1,0 +1,6 @@
+Name:Nevron Army Token
+ManaCost:no cost
+Colors:black
+Types:Creature Nevron Army
+PT:0/0
+Oracle:
