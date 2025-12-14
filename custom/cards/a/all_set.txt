@@ -1,0 +1,7 @@
+Name:All Set
+ManaCost:3 W
+Types:Kindred Instant Expeditioner
+A:SP$ PumpAll | ValidCards$ Creature.YouCtrl | NumDef$ +2 | SubAbility$ DBHaste | SpellDescription$ Creatures you control get +0/+2 until end of turn.
+SVar:DBHaste:DB$ PumpAll | ValidCards$ Creature.YouCtrl | KW$ Haste | ConditionManaSpent$ R | SubAbility$ DBPower | SpellDescription$ If {R} was spent on this spell, creatures you control gain haste until end of turn.
+SVar:DBPower:DB$ PumpAll | ValidCards$ Creature.YouCtrl | NumAtt$ +2 | ConditionManaSpent$ G | SpellDescription$ If {G} was spent on this spell, creatures you control get +2/+0 until end of turn.
+Oracle:Creatures you control get +0/+2 until end of turn.\nIf {R} was spent on this spell, creatures you control gain haste until end of turn.\nIf {G} was spent on this spell, creatures you control get +2/+0 until end of turn.

@@ -1,0 +1,22 @@
+[Name]
+All Set
+[ManaCost]
+3
+W
+[Types]
+Kindred
+Instant
+Expeditioner
+[Rarity]
+C
+[Oracle]
+Creatures you control get +0/+2 until end of turn.
+If {R} was spent on this spell, creatures you control gain haste until end of turn.
+If {G} was spent on this spell, creatures you control get +2/+0 until end of turn.
+[ForgeScript]
+A:SP$ PumpAll | ValidCards$ Creature.YouCtrl | NumDef$ +2 | SubAbility$ DBHaste | SpellDescription$ Creatures you control get +0/+2 until end of turn.
+SVar:DBHaste:DB$ PumpAll | ValidCards$ Creature.YouCtrl | KW$ Haste | ConditionManaSpent$ R | SubAbility$ DBPower | SpellDescription$ If {R} was spent on this spell, creatures you control gain haste until end of turn.
+SVar:DBPower:DB$ PumpAll | ValidCards$ Creature.YouCtrl | NumAtt$ +2 | ConditionManaSpent$ G | SpellDescription$ If {G} was spent on this spell, creatures you control get +2/+0 until end of turn.
+[DesignNotes]
+ - In the game, All Set is one of Sciel's abilities. It grants Shell, Powerful and Rush to your entire party.
+ - Mapped to an instant that grants toughness boost (Shell), with haste (Rush) and power boost (Powerful) if the appropriate colors of mana are spent.
