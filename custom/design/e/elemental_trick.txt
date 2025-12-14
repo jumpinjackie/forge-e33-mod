@@ -13,7 +13,7 @@ R
 [Oracle]
 Choose one or more —
 • Exile target creature. Add {W}.
-• Target player two cards. Add {U}.
+• Target player draws two cards. Add {U}.
 • Elemental trick deals 4 damage to any target. Add {R}.
 • Target player gains 6 life. Add {G}.
 [ForgeScript]

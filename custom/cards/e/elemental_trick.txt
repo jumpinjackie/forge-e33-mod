@@ -10,4 +10,4 @@ SVar:DBDamage:DB$ DealDamage | ValidTgts$ Any | NumDmg$ 4 | SpellDescription$ CA
 SVar:DBAddR:DB$ Mana | Produced$ R
 SVar:DBGainLife:DB$ GainLife | ValidTgts$ Player | TgtPrompt$ Select target player | LifeAmount$ 6 | SpellDescription$ Target player gains 6 life. Add {G}.
 SVar:DBAddG:DB$ Mana | Produced$ G
-Oracle:Choose one or more —\n• Exile target creature. Add {W}.\n• Target player two cards. Add {U}.\n• Elemental trick deals 4 damage to any target. Add {R}.\n• Target player gains 6 life. Add {G}.
+Oracle:Choose one or more —\n• Exile target creature. Add {W}.\n• Target player draws two cards. Add {U}.\n• Elemental trick deals 4 damage to any target. Add {R}.\n• Target player gains 6 life. Add {G}.
