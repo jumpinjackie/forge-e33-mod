@@ -15,7 +15,7 @@ Sandfall Interactive
 [Oracle]
 ~ cannot attack or block alone.
 [FlavorText]
-You may come in.
+You may not come in.
 [ForgeScript]
 K:CARDNAME can't attack or block alone.
 [DesignNotes]
