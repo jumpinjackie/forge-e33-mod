@@ -1,0 +1,22 @@
+[Name]
+Expedition 67 Blastminer
+[ManaCost]
+1
+R
+[Types]
+Creature
+Human
+Expeditioner
+[Rarity]
+U
+[PT]
+1/3
+[Oracle]
+{2}{R}, {T}: Destroy target nonbasic land.
+$EXPEDITIONER_DEATH_ABILITY_TEXT
+[ForgeScript]
+A:AB$ Destroy | Cost$ 2 R T | ValidTgts$ Land.nonBasic | TgtPrompt$ Select target nonbasic land | SpellDescription$ Destroy target nonbasic land.
+$EXPEDITIONER_DEATH_ABILITY
+[DesignNotes]
+ - In the game, Expedition 67 employed the use of explosives to tear down walls in Sirène's coliseum. They succumbed to Sirène's musical wiles.
+ - Due to the massive amount of non-basics in this set, this is a necessary card to check such greedy manabases.

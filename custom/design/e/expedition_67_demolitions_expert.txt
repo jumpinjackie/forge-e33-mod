@@ -17,7 +17,7 @@ Sandfall Interactive
 [Oracle]
 Flash.
 When this creature enters, destroy target creature or artifact.
-When this creature dies, create a Chroma token.
+$EXPEDITIONER_DEATH_ABILITY_TEXT
 [FlavorText]
 We're out of explosives, but we've made enough holes in this place to reach that giant woman in the centre.
 - Luc, Expedition 67
@@ -25,8 +25,7 @@ We're out of explosives, but we've made enough holes in this place to reach that
 K:Flash
 T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigDestroy | TriggerDescription$ When CARDNAME enters, destroy target creature or artifact.
 SVar:TrigDestroy:DB$ Destroy | ValidTgts$ Creature,Artifact | TgtPrompt$ Select target creature or artifact | SpellDescription$ Destroy target creature or artifact.
-T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Card.Self | Execute$ TrigToken | TriggerDescription$ When CARDNAME dies, create a Chroma token
-SVar:TrigToken:DB$ Token | TokenScript$ c_a_chroma | TokenOwner$ You | TokenAmount$ 1
+$EXPEDITIONER_DEATH_ABILITY
 [DesignNotes]
  - In the game, Expedition 67 employed the use of explosives to tear down walls in Sirène's coliseum. They succumbed to Sirène's musical wiles.
  - This card models one such crew member.
