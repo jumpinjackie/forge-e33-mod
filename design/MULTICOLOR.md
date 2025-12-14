@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 13/12/2025 1:48:07 pm
+> Last generated: 14/12/2025 2:53:36 am
 
 ## A Storm is Coming
 
@@ -395,7 +395,7 @@ Applies Inverted — {B}{B}, Sacrifice a Blood token: Target creature has base t
 Kindred Instant - Expeditioner
 Choose one or more —
 • Exile target creature. Add {W}.
-• Target player two cards. Add {U}.
+• Target player draws two cards. Add {U}.
 • Elemental trick deals 4 damage to any target. Add {R}.
 • Target player gains 6 life. Add {G}.
 ```
@@ -1575,6 +1575,7 @@ The Expedition is removed from the canvas — {T}, Remove a foreboding counter f
     - Back side enters with a foreboding counter as a signal that something bad is going to happen soon if Simon is not dealt with quickly.
     - Mapped "The dead are removed from the canvas" to a "Rest in Peace" continuous exile effect. Is in line with what happens when any of your party members die in combat (they are immediately erased).
     - Mapped "The Expedition is removed from the canvas" as a mass exile effect that spares only Simon and one of opponent's creatures. This is the ability spent with the foreboding counter.
+ - 13/12/2025: "Simon, The Divergent Star" is now the name of the v2.0 Simon boss in the Endless Tower with the new DLC. Not changing the name of the back half as this name had existed long before the release of this DLC.
 
 ## Sprong
 
