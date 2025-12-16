@@ -1322,34 +1322,43 @@ public class GenAllCommand : BaseCommand
                 spoilerWriter.WriteLine();
                 spoilerWriter.WriteLine("> This currently only shows cards/tokens we have full CardConjurer designs for and does not fully represent the whole set\n");
                 spoilerWriter.WriteLine("Images listed are cards first, then tokens.\n");
-
-                spoilerWriter.WriteLine("# Clair Obscur: Expedition 33 (E33)");
-
-                var baseImages = new List<string>();
-                foreach (var (bucket, imageList) in GenerateImageLists(false))
                 {
-                    //spoilerWriter.WriteLine("## " + bucket);
-                    //WriteSpoilerTable(spoilerWriter, imageList, this.OutputDir);    
-                    baseImages.AddRange(imageList);
+                    var totalCards = 0;
+                    var totalCardsWithImages = 0;
+                    var baseImages = new List<string>();
+                    foreach (var (bucket, imageList, cardsWithImagesTotal, cardsTotal) in GenerateImageLists(false))
+                    {
+                        //spoilerWriter.WriteLine("## " + bucket);
+                        //WriteSpoilerTable(spoilerWriter, imageList, this.OutputDir);    
+                        baseImages.AddRange(imageList);
+                        totalCards += cardsTotal;
+                        totalCardsWithImages += cardsWithImagesTotal;
+                    }
+                    spoilerWriter.WriteLine($"# Clair Obscur: Expedition 33 (E33) [{totalCardsWithImages}/{totalCards} cards]");
+                    WriteSpoilerTable(spoilerWriter, baseImages, this.OutputDir);
                 }
-                WriteSpoilerTable(spoilerWriter, baseImages, this.OutputDir);
 
                 spoilerWriter.WriteLine("## Tokens");
                 WriteSpoilerTable(spoilerWriter, tokenImages, this.OutputDir);
 
-                spoilerWriter.WriteLine("# Clair Obscur: Expedition 33 Commander (E3C)");
-
-                var cmdrImages = new List<string>();
-                foreach (var (bucket, imageList) in GenerateImageLists(true))
                 {
-                    //spoilerWriter.WriteLine("## " + bucket);
-                    //WriteSpoilerTable(spoilerWriter, imageList, this.OutputDir);    
-                    cmdrImages.AddRange(imageList);
+                    var totalCards = 0;
+                    var totalCardsWithImages = 0;
+                    var cmdrImages = new List<string>();
+                    foreach (var (bucket, imageList, cardsWithImagesTotal, cardsTotal) in GenerateImageLists(true))
+                    {
+                        //spoilerWriter.WriteLine("## " + bucket);
+                        //WriteSpoilerTable(spoilerWriter, imageList, this.OutputDir);    
+                        cmdrImages.AddRange(imageList);
+                        totalCards += cardsTotal;
+                        totalCardsWithImages += cardsWithImagesTotal;
+                    }
+                    spoilerWriter.WriteLine($"# Clair Obscur: Expedition 33 Commander (E3C) [{totalCardsWithImages}/{totalCards} cards]");
+                    WriteSpoilerTable(spoilerWriter, cmdrImages, this.OutputDir);
                 }
-                WriteSpoilerTable(spoilerWriter, cmdrImages, this.OutputDir);
             }
 
-            IEnumerable<(string bucket, List<string> images)> GenerateImageLists(bool isCommander)
+            IEnumerable<(string bucket, List<string> images, int cardsWithImagesTotal, int cardsTotal)> GenerateImageLists(bool isCommander)
             {
                 var picsDir = isCommander ? cmdrCardsPicsDir : baseCardsPicsDir;
                 var baseGroups = cards.Where(c => c.Value.IsCommander == isCommander).GroupBy(c => c.Value.Bucket).ToList();
@@ -1359,17 +1368,25 @@ public class GenAllCommand : BaseCommand
                     var group = baseGroups.FirstOrDefault(grp => grp.Key == bucket);
                     if (group is not null)
                     {
+                        var cardsWithImagesTotal = 0;
+                        var cardsTotal = 0;
                         var images = new List<string>();
                         foreach (var (name, card) in group)
                         {
+                            cardsTotal++;
+                            bool complete = true;
                             foreach (var imgName in card.GetImageNames())
                             {
                                 var imgPath = Path.Combine(picsDir, imgName);
                                 if (File.Exists(imgPath))
                                     images.Add(imgPath);
+                                else
+                                    complete = false;
                             }
+                            if (complete)
+                                cardsWithImagesTotal++;
                         }
-                        yield return (bucket, images);
+                        yield return (bucket, images, cardsWithImagesTotal, cardsTotal);
                     }
                 }
             }
