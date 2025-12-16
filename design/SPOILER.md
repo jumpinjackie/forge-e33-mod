@@ -4,7 +4,7 @@
 
 Images listed are cards first, then tokens.
 
-# Clair Obscur: Expedition 33 (E33)
+# Clair Obscur: Expedition 33 (E33) [261/306 cards]
 | | | |
 |---|---|---|
 | ![](../custom/thumbs/cards/E33/Jar.full.jpg) | ![](../custom/thumbs/cards/E33/Petank.full.jpg) | ![](../custom/thumbs/cards/E33/Acceptance.full.jpg) |
@@ -104,7 +104,7 @@ Images listed are cards first, then tokens.
 | ![](../custom/thumbs/tokens/E33/c_a_clue_draw.jpg) | ![](../custom/thumbs/tokens/E33/c_a_flower.jpg) | ![](../custom/thumbs/tokens/E33/c_a_food_sac.jpg) |
 | ![](../custom/thumbs/tokens/E33/c_a_lumina.jpg) | ![](../custom/thumbs/tokens/E33/g_1_1_abbest_nevron.jpg) | ![](../custom/thumbs/tokens/E33/w_1_1_human_expeditioner.jpg) |
 | ![](../custom/thumbs/tokens/E33/w_1_1_party_guest.jpg) |   |   |
-# Clair Obscur: Expedition 33 Commander (E3C)
+# Clair Obscur: Expedition 33 Commander (E3C) [48/48 cards]
 | | | |
 |---|---|---|
 | ![](../custom/thumbs/cards/E3C/A%20Life%20to%20Love.full.jpg) | ![](../custom/thumbs/cards/E3C/Austere%20Command.full.jpg) | ![](../custom/thumbs/cards/E3C/Path%20to%20Exile.full.jpg) |
