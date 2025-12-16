@@ -33,11 +33,11 @@ resize_images() {
 		if [ "$only_modified" = true ]; then
 			if git ls-files --error-unmatch -- "$src_dir/$rel" >/dev/null 2>&1; then
 				# tracked, check if modified
-				if git diff --quiet "$src"; then
+				if git diff --quiet "$src" && [ -f "$dst_dir/$rel" ]; then
 					continue
 				fi
 			fi
-			# if untracked, continue to process
+			# if untracked or tracked and (modified or dest missing), continue to process
 		fi
 		dest="$dst_dir/$rel"
 		destdir=$(dirname "$dest")
