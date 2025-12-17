@@ -14,7 +14,7 @@ Sandfall Interactive
 2/2
 [Oracle]
 Flying
-Spawns pots — When ~ enters, create two colorless 1/1 Nevron Pot creature tokens with "This creature attacks each combat if able".
+Spawns pots — When ~ enters, create two colorless 1/1 Nevron creature tokens named Pot with "This creature attacks each combat if able".
 Buffs its allies — Nevrons you control have haste.
 $NEVRON_DEATH_ABILITY_TEXT
 [AbilityWords]

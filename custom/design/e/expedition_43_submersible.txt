@@ -15,7 +15,7 @@ Sandfall Interactive
 2/3
 [Oracle]
 Islandwalk.
-Whenever this deals combat damage to a player or planeswalker, draw a card.
+Whenever ~ deals combat damage to a player or planeswalker, draw a card.
 Crew 2
 [FlavorText]
 The Paintress must be laughing. Diverting the resources of the entire Engineering and Defence divisions to construct those subs.

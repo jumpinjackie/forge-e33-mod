@@ -7,6 +7,8 @@ Artifact
 Equipment
 [IsReprint]
 true
+[IsCommander]
+true
 [Rarity]
 U
 [Artist]
