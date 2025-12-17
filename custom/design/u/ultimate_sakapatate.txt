@@ -1,0 +1,35 @@
+[Name]
+Ultimate Sakapatate
+[ManaCost]
+3
+R
+R
+[Types]
+Creature
+Nevron
+[Rarity]
+R
+[Artist]
+Sandfall Interactive
+[PT]
+4/5
+[Oracle]
+This spell costs {1} less to cast if you control a Gestral.
+~ enters with a shield counter.
+Strikes with its dead partner — {2}, Sacrifice a Nevron: ~ deals damage equal to the sacrificed Nevron's mana value to target creature.
+Slams its shield — {R}{R}, {T}, Remove a shield counter from ~: ~ deals 4 damage to any target.
+When ~ dies, target opponent creates a Lumina token.
+[AbilityWords]
+Strikes with its dead partner
+Slams its shield
+[ForgeScript]
+K:etbCounter:SHIELD:1
+S:Mode$ ReduceCost | ValidCard$ Card.Self | Type$ Spell | Amount$ 1 | EffectZone$ All | IsPresent$ Gestral.YouCtrl | Description$ This spell costs {1} less to cast if you control a Gestral.
+A:AB$ DealDamage | Cost$ 2 Sac<1/Nevron> | ValidTgts$ Creature | TgtPrompt$ Select target creature | NumDmg$ X | SpellDescription$ ~ deals damage equal to the sacrificed Nevron's mana value to target creature.
+A:AB$ DealDamage | Cost$ R R T SubCounter<1/SHIELD> | ValidTgts$ Any | TgtPrompt$ Select any target | NumDmg$ 4 | SpellDescription$ ~ deals 4 damage to any target.
+T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Card.Self | Execute$ TrigToken | TriggerDescription$ When this creature dies, target opponent creates a Lumina token.
+SVar:TrigToken:DB$ Token | TokenAmount$ 1 | ValidTgts$ Opponent | TokenOwner$ Targeted | TokenScript$ c_a_lumina
+SVar:X:Sacrificed$CardManaCost
+[DesignNotes]
+ - Like other Sakapatates, it will try to do a last minute suicide move to do some damage before it goes.
+ - 21/10/2025: Added Gestral alliance cost reduction
