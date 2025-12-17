@@ -1,0 +1,20 @@
+[Name]
+Lumière Trashcan
+[InvariantName]
+Lumiere Trashcan
+[ManaCost]
+1
+[Types]
+Artifact
+[Rarity]
+C
+[Oracle]
+When this artifact is put into a graveyard from the battlefield, create a Chroma token.
+[FlavorText]
+Nothing special to see here, just a trash can.
+[ForgeScript]
+T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Card.Self | Execute$ TrigToken | TriggerDescription$ When this artifact is put into a graveyard from the battlefield, create a Chroma token.
+SVar:TrigToken:DB$ Token | TokenScript$ c_a_chroma | TokenOwner$ You | TokenAmount$ 1
+[DesignNotes]
+ - In the game's prologue, this innocuous trashcan housed a citizen who believed that by hiding in this trashcan that he would be safe from erasure. That was not the case.
+ - Just a joke artifact with the same expeditioner death ability.

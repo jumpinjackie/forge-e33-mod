@@ -1,0 +1,6 @@
+Name:Lumière Trashcan
+ManaCost:1
+Types:Artifact
+T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Card.Self | Execute$ TrigToken | TriggerDescription$ When this artifact is put into a graveyard from the battlefield, create a Chroma token.
+SVar:TrigToken:DB$ Token | TokenScript$ c_a_chroma | TokenOwner$ You | TokenAmount$ 1
+Oracle:When this artifact is put into a graveyard from the battlefield, create a Chroma token.
