@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 9/12/2025 8:01:14 am
+> Last generated: 17/12/2025 1:16:15 pm
 
 ## Abbest Cave
 
@@ -413,6 +413,22 @@ The Grandis have embraced us with such warmth and hope. What a balm for the soul
 ### Notes
 
  - Has "Painted" in its name, color fixes. Easy on-flavor reprint candidate.
+
+## Renoir's Drafts
+
+```
+Land
+This land enters tapped.
+{T}: Add {B}.
+{2}{B}{B}{B}, {T}, Exile this land: Mill four cards, then return a Nevron or Painter creature card from your graveyard to the battlefield. Activate only as a sorcery.
+```
+
+[card implementation](../custom/cards/r/renoirs_drafts.txt)
+
+### Design Notes
+
+ - In the game, Renoir's Drafts is an optional endgame area full of high-tier enemies and is an excellent XP/Loot farming location.
+ - Gone with a functional reprint of Tomb Fortress from 40K with Nevron reanimation constraint.
 
 ## Sinister Cave (Sulfurous Springs)
 

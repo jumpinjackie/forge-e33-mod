@@ -118,6 +118,7 @@ Esquie's Nest
 Eternal Ice
 Évêque
 Expedition 00 Tracker
+Expedition 32 Trainees
 Expedition 34 Mage
 Expedition 35 Bridge
 Expedition 40 Glider
@@ -223,6 +224,7 @@ Lampmaster
 Lancelier
 Last Stand of Expedition 33
 Leave this Canvas!
+Letter from Alicia
 Light the Path
 Lightning Dance
 Limonsol, Matchmaker
@@ -232,9 +234,9 @@ Lost Woods
 Lumière Aquafarm
 Lumière Assault
 Lumière Flower Stand
-Lumière Mime
 Lumière Opera House
 Lumière, The Last Bastion
+Lumière Trashcan
 Lumierian Apprentice
 Lumina Converter
 Lune, Charting a Path
@@ -251,9 +253,11 @@ Manor Greenhouse // Manor Gallery
 Manor Kitchen // Manor Cellar
 Manor Library // Manor Fireplace
 Marked!
+Mask Keeper
 Massacre at Dark Shores
 Matthieu the Colossus
 Mezzo Forte
+Mime
 Monoco, Collector of Feet
 Monoco's Station
 Mutinous Expedition 48 Soldier
@@ -328,7 +332,6 @@ The Fracture
 The Greatest Expedition in History
 The Hauler
 The Indigo Tree
-The Mask Keeper
 The Meadows
 The Monolith
 The Monolith Interior

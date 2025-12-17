@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 14/12/2025 6:29:42 am
+> Last generated: 17/12/2025 10:25:21 am
 
 ## A Storm is Coming
 
@@ -1329,6 +1329,54 @@ When you unlock this door, it deals 3 damage to any target.
  - In the game, the library connects the entrance on the side. The fireplace connects to the main dining hall.
  - Library is an easy mechanical map to card draw.
  - Fireplace is an easy mechanical map to a bolt effect because ... fireplace > fire > burn spell.
+
+## Mask Keeper
+
+```
+5UB
+Legendary Creature - Axon
+Trample. Ward {3}
+Mask Keeper enters with an anger counter, a joy counter and a sadness counter.
+At the beginning of your upkeep, put an anger, joy or sadness counter on him.
+Anger mask — Remove an anger counter from Mask Keeper: Untap him.
+Joy mask — Remove a joy counter from Mask Keeper: Mask Keeper gains lifelink until end of turn.
+Sadness mask — Remove a sadness counter from Mask Keeper: Put a stun counter on target creature.
+---
+We all need masks.
+
+8/8
+```
+
+[card implementation](../custom/cards/m/mask_keeper.txt)
+
+### Design Notes
+
+ - In the game, The Mask Keeper is the true Axon behind Visages.
+ - Main gimmick I am capturing here is the 3 masks that grant him various buffs every turn, represented in card form as counters.
+    - Anger Mask: Mapped playing twice to untapping himself.
+    - Joy Mask: Mapped healing himself to giving himself lifelink temporarily as self-healing is redundant in MTG (all creatures who didn't die of lethal damage self-heal at cleanup anyways).
+    - Sadness Mask: Mapped exhaust to putting a stun counter on a creature.
+ - The upkeep trigger wording probably sounds a bit weird. Default instinct is to use modal ability templating, but there is no textbox budget for that and there is no other precedent for templating such a triggered ability in this manner. So it is worded this way as a "creative decision".
+    - This will be implemented as a modal trigger in Forge.
+
+## Mime
+
+```
+2RW
+Creature - Shapeshifter
+Protects itself — This creature enters with a shield counter.
+Hand-to-hand combo — {1}{R}: This creature gains double strike until end of turn.
+Strange combo — {2}{W}, {T}: This creature deals 2 damage to target attacking or blocking creature.
+
+2/4
+```
+
+[card implementation](../custom/cards/m/mime.txt)
+
+### Design Notes
+
+ - In the game, Mimes are special enemies encountered throughout the continent. Defeating them awards special loot.
+ - You would think that mimes, that mimic things would have a blue color identity (the color of illusion and mimicry), but none of its ability set map to anything blue. So it is flavorfully a boros creature.
 
 ## Monoco, Collector of Feet
 

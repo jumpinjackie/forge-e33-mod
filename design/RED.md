@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 17/12/2025 8:29:06 am
+> Last generated: 17/12/2025 2:22:12 pm
 
 ## Anger
 
@@ -352,6 +352,24 @@ It's a gutting realization, what has to be done. The mission is too important. T
  - In the game, Expedition 48 was an expedition fraught with Mutiny and Treachery.
  - The mutinous nature has been captured with this creature joining the other side when one of your Expeditioner compatriots dies.
 
+## Orphelin
+
+```
+2R
+Creature - Nevron
+Double strike
+When this creature dies, target opponent creates a Lumina token. (It's an artifact with "{T}, Sacrifice this artifact: Scry 1.")
+
+1/3
+```
+
+[card implementation](../custom/cards/o/orphelin.txt)
+
+### Design Notes
+
+ - In the game, Orphelin can be found in The Reacher.
+ - Main gimmick is multi-strike attacks with various tools, ergo: Double Strike.
+
 ## Persuasive Argument
 
 ```
@@ -486,4 +504,25 @@ Luminous — Thunderfall deals 4 damage instead if you control at least three Lu
 
  - In the game, Thunderfall is one of Lune's skills that deals lightning damage.
  - As part of making Lumina tokens matter, this card has been modeled on Galvanic Blast, but with Luminous instead of Metalcraft.
+
+## Ultimate Sakapatate
+
+```
+3RR
+Creature - Nevron
+This spell costs {1} less to cast if you control a Gestral.
+This creature enters with a shield counter.
+Strikes with its dead partner — {2}, Sacrifice a Nevron: This creature deals damage equal to the sacrificed Nevron's mana value to target creature.
+Slams its shield — {R}{R}, {T}, Remove a shield counter from this creature: This creature deals 4 damage to any target.
+When this creature dies, target opponent creates a Lumina token.
+
+4/5
+```
+
+[card implementation](../custom/cards/u/ultimate_sakapatate.txt)
+
+### Design Notes
+
+ - Like other Sakapatates, it will try to do a last minute suicide move to do some damage before it goes.
+ - 21/10/2025: Added Gestral alliance cost reduction
 

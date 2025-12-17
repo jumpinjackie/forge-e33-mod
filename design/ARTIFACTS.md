@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 14/12/2025 10:41:51 am
+> Last generated: 17/12/2025 12:32:38 pm
 
 ## A Rock for François
 
@@ -812,6 +812,26 @@ Haymaker — {2}: Julien gains trample until end of turn.
     - Uppercut: Julien's punches are so strong that an uppercut would launch his opponent into the air (in my mind). Hence, the momentary flying after being dealt 2 damage (if it survives that punch!)
     - Haymaker: Interpreted as a really heavy punch and trample is a suitable way to convey such heaviness
 
+## Letter from Alicia
+
+```
+1
+Legendary Artifact - Clue
+When Letter from Alicia enters, scry 2.
+When Letter from Alicia is put into a graveyard from the battlefield, creatures can’t attack this turn.
+{2}, Sacrifice Letter from Alicia: Draw a card.
+---
+Brother, I tire of the conflicts and deceptions that plague our family and theirs. So I entrust you with this letter. Whether you give it to her is up to you.
+```
+
+[card implementation](../custom/cards/l/letter_from_alicia.txt)
+
+### Design Notes
+
+ - In the game, Painted Alicia hands a letter to Verso to be delivered to Maelle, but at the conclusion of Act 2 he opens it and reads it for himself, revealing the true intentions of The Paintress that the party had just defeated.
+ - Given the letter is about Painted Alicia's desire for this conflict to end, I've mapped this to a momentary "peacekeeper" effect.
+ - A letter follows the archetype of a Clue Artifact, thus it's a clue.
+
 ## Limonsol, Matchmaker
 
 ```
@@ -890,6 +910,23 @@ Tiffanie: Well, there are less and less people to buy them. I just wish you didn
  - In the game, the town of Lumière has several market stands in the town square. Tiffanie operates one of these stands and sells flowers.
  - Just wanted another card to get extra usage out of Flower tokens (besides Goblu)
 
+## Lumière Trashcan
+
+```
+1
+Artifact
+When this artifact is put into a graveyard from the battlefield, create a Chroma token.
+---
+Nothing special to see here, just a trash can.
+```
+
+[card implementation](../custom/cards/l/lumiere_trashcan.txt)
+
+### Design Notes
+
+ - In the game's prologue, this innocuous trashcan housed a citizen who believed that by hiding in this trashcan that he would be safe from erasure. That was not the case.
+ - Just a joke artifact with the same expeditioner death ability.
+
 ## Lumina Converter
 
 ```
@@ -966,6 +1003,25 @@ Tap three creatures you control: Untap Matthieu.
 [Scryfall](https://scryfall.com/search?q=Mirage Mirror)
 ### Notes
 
+
+## Noco, The Greatest Merchant
+
+```
+1
+Legendary Artifact Creature - Gestral
+When Noco enters or dies, draw a card, then discard a card from your hand.
+---
+Intruders! Oh, Verso would not be pleased. En garde, ruffians!
+
+1/1
+```
+
+[card implementation](../custom/cards/n/noco_the_greatest_merchant.txt)
+
+### Design Notes
+
+ - In the game, Noco is the first Gestral Expedition 33 finds.
+ - Nothing too fancy, just modeled on Vodalian Merchant, but the loot trigger happens also on death.
 
 ## Ono-Puncho
 

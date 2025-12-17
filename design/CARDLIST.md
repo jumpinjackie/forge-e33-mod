@@ -29,7 +29,7 @@ From this list, card designs are spawned from it, which will eventually form the
 
 ## Card Name List
 
-Cards implemented: 354
+Cards implemented: 362
 
 [x] - Card is implemented or in development, [C] - Card is a commander reprint, [R] - Card is a regular reprint, [N] - Card is a nickname reprint, [Z] - Card is a nickname reprint for commander [ ] - Card is not implemented
 
@@ -118,6 +118,7 @@ Cards implemented: 354
 [x] Eternal Ice
 [x] Évêque
 [x] Expedition 00 Tracker
+[ ] Expedition 32 Trainees
 [x] Expedition 34 Mage
 [x] Expedition 35 Bridge
 [x] Expedition 40 Glider
@@ -223,6 +224,7 @@ Cards implemented: 354
 [x] Lancelier
 [x] Last Stand of Expedition 33
 [x] Leave this Canvas!
+[x] Letter from Alicia
 [x] Light the Path
 [x] Lightning Dance
 [x] Limonsol, Matchmaker
@@ -232,9 +234,9 @@ Cards implemented: 354
 [x] Lumière Aquafarm
 [x] Lumière Assault
 [x] Lumière Flower Stand
-[ ] Lumière Mime
 [x] Lumière Opera House
 [x] Lumière, The Last Bastion
+[x] Lumière Trashcan
 [x] Lumierian Apprentice
 [x] Lumina Converter
 [x] Lune, Charting a Path
@@ -251,20 +253,22 @@ Cards implemented: 354
 [x] Manor Kitchen // Manor Cellar
 [x] Manor Library // Manor Fireplace
 [x] Marked!
+[x] Mask Keeper
 [x] Massacre at Dark Shores
 [x] Matthieu the Colossus
 [ ] Mezzo Forte
+[x] Mime
 [x] Monoco, Collector of Feet
 [x] Monoco's Station
 [x] Mutinous Expedition 48 Soldier
 [x] Nevron Disguise
 [x] Nevron Pecking Order
-[ ] Noco, The Greatest Merchant
+[x] Noco, The Greatest Merchant
 [x] Noir
 [x] Obscur
 [ ] Offensive Switch
 [x] Ono-Puncho
-[ ] Orphelin
+[x] Orphelin
 [N] Paint Cage
 [x] Paint Spike
 [x] Painted Alicia, Eternally Suffering
@@ -288,7 +292,7 @@ Cards implemented: 354
 [x] Recoat
 [ ] Red Woods
 [x] Renoir's Creation
-[ ] Renoir's Drafts
+[x] Renoir's Drafts
 [x] Renoir's Will
 [x] Repaint
 [x] Revitalization
@@ -328,7 +332,6 @@ Cards implemented: 354
 [x] The Greatest Expedition in History
 [x] The Hauler
 [N] The Indigo Tree
-[ ] The Mask Keeper
 [Z] The Meadows
 [x] The Monolith
 [x] The Monolith Interior
@@ -345,7 +348,7 @@ Cards implemented: 354
 [x] Troubador
 [x] Twilight Quarry
 [x] Twisted Lumière Citizen
-[ ] Ultimate Sakapatate
+[x] Ultimate Sakapatate
 [ ] Unfinished Bénisseur
 [ ] Unfinished Bruler
 [ ] Unfinished Bourgeon
