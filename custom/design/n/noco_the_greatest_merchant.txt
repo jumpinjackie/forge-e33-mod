@@ -1,0 +1,26 @@
+[Name]
+Noco, The Greatest Merchant
+[ManaCost]
+1
+[Types]
+Legendary
+Artifact
+Creature
+Gestral
+[PT]
+1/1
+[Rarity]
+U
+[Oracle]
+When ~ enters or dies, draw a card, then discard a card from your hand.
+[FlavorText]
+Intruders! Oh, Verso would not be pleased. En garde, ruffians!
+[ForgeScript]
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigDraw | TriggerDescription$ When ~ enters or dies, draw a card, then discard a card from your hand.
+T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Card.Self | Execute$ TrigDraw | TriggerDescription$ When ~ enters or dies, draw a card, then discard a card from your hand.
+SVar:TrigDraw:DB$ Draw | NumCards$ 1 | SubAbility$ DBDiscard
+SVar:DBDiscard:DB$ Discard | Defined$ You | Mode$ TgtChoose | NumCards$ 1
+DeckHas:Ability$Discard
+[DesignNotes]
+ - In the game, Noco is the first Gestral Expedition 33 finds.
+ - Nothing too fancy, just modeled on Vodalian Merchant, but the loot trigger happens also on death.
