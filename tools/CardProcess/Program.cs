@@ -1304,7 +1304,7 @@ public class GenAllCommand : BaseCommand
         // Generate SPOILER.md containing a 3-column table of card and token images
         try
         {
-            var picsBase = Path.Combine(this.BaseDirectory.FullName, "thumbs");
+            var picsBase = Path.Combine(this.BaseDirectory.FullName, "pics");
             var baseCardsPicsDir = Path.Combine(picsBase, "cards", "E33");
             var cmdrCardsPicsDir = Path.Combine(picsBase, "cards", "E3C");
             var tokensPicsDir = Path.Combine(picsBase, "tokens", "E33");
