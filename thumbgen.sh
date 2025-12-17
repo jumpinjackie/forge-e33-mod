@@ -51,7 +51,7 @@ resize_images() {
 	echo "Done."
 }
 
-# Bulk-resize JPG images from custom/pics/cards/E33 -> custom/thumbs/cards/E33
+# Bulk-resize JPG images from custom/src_pics/cards/E33 -> custom/pics/cards/E33
 # Resize width to 672px, keep aspect ratio. Requires ImageMagick (`magick`).
 WIDTH=672
 
@@ -65,6 +65,6 @@ while getopts "m" opt; do
 done
 
 # Run the resizing function
-resize_images "$SCRIPT_DIR/custom/pics/cards/E33" "$SCRIPT_DIR/custom/thumbs/cards/E33" "$WIDTH" "$only_modified"
-resize_images "$SCRIPT_DIR/custom/pics/cards/E3C" "$SCRIPT_DIR/custom/thumbs/cards/E3C" "$WIDTH" "$only_modified"
-resize_images "$SCRIPT_DIR/custom/pics/tokens/E33" "$SCRIPT_DIR/custom/thumbs/tokens/E33" "$WIDTH" "$only_modified"
+resize_images "$SCRIPT_DIR/custom/src_pics/cards/E33" "$SCRIPT_DIR/custom/pics/cards/E33" "$WIDTH" "$only_modified"
+resize_images "$SCRIPT_DIR/custom/src_pics/cards/E3C" "$SCRIPT_DIR/custom/pics/cards/E3C" "$WIDTH" "$only_modified"
+resize_images "$SCRIPT_DIR/custom/src_pics/tokens/E33" "$SCRIPT_DIR/custom/pics/tokens/E33" "$WIDTH" "$only_modified"
