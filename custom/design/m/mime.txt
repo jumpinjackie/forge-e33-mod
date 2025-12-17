@@ -1,0 +1,28 @@
+[Name]
+Mime
+[ManaCost]
+2
+R
+W
+[Types]
+Creature
+Shapeshifter
+[PT]
+2/4
+[Rarity]
+U
+[Oracle]
+Protects itself — This creature enters with a shield counter.
+Hand-to-hand combo — {1}{R}: This creature gains double strike until end of turn.
+Strange combo — {2}{W}, {T}: This creature deals 2 damage to target attacking or blocking creature.
+[AbilityWords]
+Protects itself
+Hand-to-hand combo
+Strange combo
+[ForgeScript]
+K:etbCounter:SHIELD:1
+A:AB$ Pump | Cost$ 1 R | Defined$ Self | KW$ Double Strike | SpellDescription$ ~ gains double strike until end of turn.
+A:AB$ DealDamage | Cost$ 2 W T | ValidTgts$ Creature.attacking,Creature.blocking | TgtPrompt$ Select target attacking or blocking creature | NumDmg$ 2 | SpellDescription$ ~ deals 2 damage to target attacking or blocking creature.
+[DesignNotes]
+ - In the game, Mimes are special enemies encountered throughout the continent. Defeating them awards special loot.
+ - You would think that mimes, that mimic things would have a blue color identity (the color of illusion and mimicry), but none of its ability set map to anything blue. So it is flavorfully a boros creature.

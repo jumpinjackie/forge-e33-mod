@@ -1,0 +1,8 @@
+Name:Mime
+ManaCost:2 R W
+Types:Creature Shapeshifter
+PT:2/4
+K:etbCounter:SHIELD:1
+A:AB$ Pump | Cost$ 1 R | Defined$ Self | KW$ Double Strike | SpellDescription$ CARDNAME gains double strike until end of turn.
+A:AB$ DealDamage | Cost$ 2 W T | ValidTgts$ Creature.attacking,Creature.blocking | TgtPrompt$ Select target attacking or blocking creature | NumDmg$ 2 | SpellDescription$ CARDNAME deals 2 damage to target attacking or blocking creature.
+Oracle:Protects itself — This creature enters with a shield counter.\nHand-to-hand combo — {1}{R}: This creature gains double strike until end of turn.\nStrange combo — {2}{W}, {T}: This creature deals 2 damage to target attacking or blocking creature.
