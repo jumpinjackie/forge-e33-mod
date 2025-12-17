@@ -30,6 +30,7 @@ Type=Custom
 190 C Growth Spiral @Seb McKinnon
 213 R Llanowar Wastes @Sandfall Interactive ${"flavorName": "Lost Woods"}
 227 M Mana Drain @Raymond Swanland
+236 U Mask of Memory @Allen Morris
 239 R Mirage Mirror @Craig J Spearing
 242 U Mortify @Nils Hamm
 255 U Patchwork Banner @Sarah Finnigan

@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 13/12/2025 1:17:02 pm
+> Last generated: 17/12/2025 8:29:06 am
 
 ## An Advantage!
 
@@ -254,7 +254,7 @@ They were on a clean glide to the Monolith when they flew into the some sort of 
 2U
 Artifact - Expeditioner Vehicle
 Islandwalk.
-Whenever this deals combat damage to a player or planeswalker, draw a card.
+Whenever this vehicle deals combat damage to a player or planeswalker, draw a card.
 Crew 2
 ---
 The Paintress must be laughing. Diverting the resources of the entire Engineering and Defence divisions to construct those subs.

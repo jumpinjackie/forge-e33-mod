@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 14/12/2025 12:31:34 pm
+> Last generated: 17/12/2025 8:29:06 am
 
 ## Anger
 
@@ -382,7 +382,7 @@ Monoco: Count me in then.
 3R
 Creature - Nevron
 Flying
-Spawns pots — When this creature enters, create two colorless 1/1 Nevron Pot creature tokens with "This creature attacks each combat if able".
+Spawns pots — When this creature enters, create two colorless 1/1 Nevron creature tokens named Pot with "This creature attacks each combat if able".
 Buffs its allies — Nevrons you control have haste.
 When this creature dies, target opponent creates a Lumina token. (It's an artifact with "{T}, Sacrifice this artifact: Scry 1.")
 

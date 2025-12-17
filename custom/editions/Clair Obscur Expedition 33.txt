@@ -300,7 +300,6 @@ Type=Custom
 140 R Yavimaya, Cradle of Growth @Sandfall Interactive ${"flavorName": "Falling Leaves"}
 145 U Ominous Cemetery @Sandfall Interactive ${"flavorName": "Floating Cemetery"}
 152  Veteran Survivor @Sandfall Interactive ${"flavorName": "Fracture Survivor"}
-236 U Mask of Memory @Allen Morris
 249 C Ichor Wellspring @Sandfall Interactive ${"flavorName": "Paint Cage"}
 252 C Painted Bluffs @Mark Poole
 257 U Roil's Retribution @Raymond Swanland ${"flavorName": "Payback"}
