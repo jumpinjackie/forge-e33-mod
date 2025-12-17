@@ -1,0 +1,27 @@
+[Name]
+Letter from Alicia
+[ManaCost]
+1
+[Types]
+Legendary
+Artifact
+Clue
+[Rarity]
+U
+[Oracle]
+When Letter from Alicia enters, scry 2.
+When Letter from Alicia is put into a graveyard from the battlefield, creatures can’t attack this turn.
+{2}, Sacrifice Letter from Alicia: Draw a card.
+[FlavorText]
+Brother, I tire of the conflicts and deceptions that plague our family and theirs. So I entrust you with this letter. Whether you give it to her is up to you.
+[ForgeScript]
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigScry | TriggerDescription$ When ~ enters, scry 2.
+SVar:TrigScry:DB$ Scry | ScryNum$ 2
+T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Card.Self | Execute$ TrigPeace | Secondary$ True | TriggerDescription$ When ~ is put into a graveyard from the battlefield, creatures can’t attack this turn.
+SVar:TrigPeace:DB$ Effect | Name$ Letter from Alicia's Effect — No Attacking | IsCurse$ True | StaticAbilities$ CantAttack | SpellDescription$ Creatures can't attack this turn.
+SVar:CantAttack:Mode$ CantAttack | ValidCard$ Creature | Description$ Creatures can't attack this turn.
+A:AB$ Draw | Cost$ 2 Sac<1/CARDNAME> | NumCards$ 1 | SpellDescription$ Draw a card.
+[DesignNotes]
+ - In the game, Painted Alicia hands a letter to Verso to be delivered to Maelle, but at the conclusion of Act 2 he opens it and reads it for himself, revealing the true intentions of The Paintress that the party had just defeated.
+ - Given the letter is about Painted Alicia's desire for this conflict to end, I've mapped this to a momentary "peacekeeper" effect.
+ - A letter follows the archetype of a Clue Artifact, thus it's a clue.

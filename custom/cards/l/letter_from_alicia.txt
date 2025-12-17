@@ -1,0 +1,10 @@
+Name:Letter from Alicia
+ManaCost:1
+Types:Legendary Artifact Clue
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigScry | TriggerDescription$ When CARDNAME enters, scry 2.
+SVar:TrigScry:DB$ Scry | ScryNum$ 2
+T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Card.Self | Execute$ TrigPeace | Secondary$ True | TriggerDescription$ When CARDNAME is put into a graveyard from the battlefield, creatures can’t attack this turn.
+SVar:TrigPeace:DB$ Effect | Name$ Letter from Alicia's Effect — No Attacking | IsCurse$ True | StaticAbilities$ CantAttack | SpellDescription$ Creatures can't attack this turn.
+SVar:CantAttack:Mode$ CantAttack | ValidCard$ Creature | Description$ Creatures can't attack this turn.
+A:AB$ Draw | Cost$ 2 Sac<1/CARDNAME> | NumCards$ 1 | SpellDescription$ Draw a card.
+Oracle:When Letter from Alicia enters, scry 2.\nWhen Letter from Alicia is put into a graveyard from the battlefield, creatures can’t attack this turn.\n{2}, Sacrifice Letter from Alicia: Draw a card.
