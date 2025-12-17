@@ -1,0 +1,21 @@
+[Name]
+Orphelin
+[ManaCost]
+2
+R
+[Types]
+Creature
+Nevron
+[PT]
+1/3
+[Rarity]
+C
+[Oracle]
+Double strike
+$NEVRON_DEATH_ABILITY_TEXT
+[ForgeScript]
+K:Double Strike
+$NEVRON_DEATH_ABILITY
+[DesignNotes]
+ - In the game, Orphelin can be found in The Reacher.
+ - Main gimmick is multi-strike attacks with various tools, ergo: Double Strike.
