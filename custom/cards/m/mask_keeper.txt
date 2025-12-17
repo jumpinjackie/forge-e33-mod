@@ -1,0 +1,18 @@
+Name:Mask Keeper
+ManaCost:5 U B
+Types:Legendary Creature Axon
+PT:8/8
+K:Trample
+K:Ward:3
+K:etbCounter:ANGER:1
+K:etbCounter:JOY:1
+K:etbCounter:SADNESS:1
+T:Mode$ Phase | Phase$ Upkeep | ValidPlayer$ You | Execute$ TrigCharm | TriggerZones$ Battlefield | TriggerDescription$ At the beginning of your upkeep, put an anger, joy or sadness counter on him.
+SVar:TrigCharm:DB$ Charm | Choices$ CounterAnger,CounterJoy,CounterSadness | CharmNum$ 1
+SVar:CounterAnger:DB$ PutCounter | CounterType$ ANGER | CounterNum$ 1 | SpellDescription$ Put an anger counter on CARDNAME
+SVar:CounterJoy:DB$ PutCounter | CounterType$ JOY | CounterNum$ 1 | SpellDescription$ Put a joy counter on CARDNAME
+SVar:CounterSadness:DB$ PutCounter | CounterType$ SADNESS | CounterNum$ 1 | SpellDescription$ Put a sadness counter on CARDNAME
+A:AB$ Untap | Cost$ SubCounter<1/ANGER> | SpellDescription$ Untap CARDNAME.
+A:AB$ Pump | Cost$ SubCounter<1/JOY> | Defined$ Self | KW$ Lifelink | SpellDescription$ CARDNAME gains lifelink until end of turn.
+A:AB$ PutCounter | Cost$ SubCounter<1/SADNESS> | CounterType$ STUN | CounterNum$ 1 | ValidTgts$ Creature | TgtPrompt$ Select target creature | SpellDescription$ Put a stun counter on target creature.
+Oracle:Trample. Ward {3}\nMask Keeper enters with an anger counter, a joy counter and a sadness counter.\nAt the beginning of your upkeep, put an anger, joy or sadness counter on him.\nAnger mask — Remove an anger counter from Mask Keeper: Untap him.\nJoy mask — Remove a joy counter from Mask Keeper: Mask Keeper gains lifelink until end of turn.\nSadness mask — Remove a sadness counter from Mask Keeper: Put a stun counter on target creature.

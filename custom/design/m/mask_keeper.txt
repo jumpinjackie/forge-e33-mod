@@ -1,0 +1,51 @@
+[Name]
+Mask Keeper
+[ManaCost]
+5
+U
+B
+[Types]
+Legendary
+Creature
+Axon
+[Rarity]
+R
+[PT]
+8/8
+[Oracle]
+Trample. Ward {3}
+~ enters with an anger counter, a joy counter and a sadness counter.
+At the beginning of your upkeep, put an anger, joy or sadness counter on him.
+Anger mask — Remove an anger counter from ~: Untap him.
+Joy mask — Remove a joy counter from ~: ~ gains lifelink until end of turn.
+Sadness mask — Remove a sadness counter from ~: Put a stun counter on target creature.
+[FlavorText]
+We all need masks.
+[AbilityWords]
+Anger mask
+Joy mask
+Sadness mask
+[ForgeScript]
+K:Trample
+K:Ward:3
+K:etbCounter:ANGER:1
+K:etbCounter:JOY:1
+K:etbCounter:SADNESS:1
+T:Mode$ Phase | Phase$ Upkeep | ValidPlayer$ You | Execute$ TrigCharm | TriggerZones$ Battlefield | TriggerDescription$ At the beginning of your upkeep, put an anger, joy or sadness counter on him.
+SVar:TrigCharm:DB$ Charm | Choices$ CounterAnger,CounterJoy,CounterSadness | CharmNum$ 1
+SVar:CounterAnger:DB$ PutCounter | CounterType$ ANGER | CounterNum$ 1 | SpellDescription$ Put an anger counter on ~
+SVar:CounterJoy:DB$ PutCounter | CounterType$ JOY | CounterNum$ 1 | SpellDescription$ Put a joy counter on ~
+SVar:CounterSadness:DB$ PutCounter | CounterType$ SADNESS | CounterNum$ 1 | SpellDescription$ Put a sadness counter on ~
+A:AB$ Untap | Cost$ SubCounter<1/ANGER> | SpellDescription$ Untap ~.
+A:AB$ Pump | Cost$ SubCounter<1/JOY> | Defined$ Self | KW$ Lifelink | SpellDescription$ ~ gains lifelink until end of turn.
+A:AB$ PutCounter | Cost$ SubCounter<1/SADNESS> | CounterType$ STUN | CounterNum$ 1 | ValidTgts$ Creature | TgtPrompt$ Select target creature | SpellDescription$ Put a stun counter on target creature.
+[Artist]
+Sandfall Interactive
+[DesignNotes]
+ - In the game, The Mask Keeper is the true Axon behind Visages.
+ - Main gimmick I am capturing here is the 3 masks that grant him various buffs every turn, represented in card form as counters.
+    - Anger Mask: Mapped playing twice to untapping himself.
+    - Joy Mask: Mapped healing himself to giving himself lifelink temporarily as self-healing is redundant in MTG (all creatures who didn't die of lethal damage self-heal at cleanup anyways).
+    - Sadness Mask: Mapped exhaust to putting a stun counter on a creature.
+ - The upkeep trigger wording probably sounds a bit weird. Default instinct is to use modal ability templating, but there is no textbox budget for that and there is no other precedent for templating such a triggered ability in this manner. So it is worded this way as a "creative decision".
+    - This will be implemented as a modal trigger in Forge.
