@@ -1,0 +1,20 @@
+[Name]
+Renoir's Drafts
+[Types]
+Land
+[Rarity]
+R
+[Oracle]
+This land enters tapped.
+{T}: Add {B}.
+{2}{B}{B}{B}, {T}, Exile this land: Mill four cards, then return a Nevron or Painter creature card from your graveyard to the battlefield. Activate only as a sorcery.
+[ForgeScript]
+R:Event$ Moved | ValidCard$ Card.Self | Destination$ Battlefield | ReplacementResult$ Updated | ReplaceWith$ ETBTapped | Description$ CARDNAME enters tapped.
+SVar:ETBTapped:DB$ Tap | Defined$ Self | ETB$ True
+A:AB$ Mana | Cost$ T | Produced$ B | SpellDescription$ Add {B}.
+A:AB$ Mill | Cost$ 2 B B B T Exile<1/CARDNAME> | Defined$ You | SorcerySpeed$ True | NumCards$ 4 | SubAbility$ DBReturn | SpellDescription$ Mill four cards, then return a Nevron or Painter creature card from your graveyard to the battlefield. Activate only as a sorcery.
+SVar:DBReturn:DB$ ChangeZone | Origin$ Graveyard | Destination$ Battlefield | ChangeType$ Creature.YouOwn+Nevron,Creature.YouOwn+Painter | ChangeNum$ 1 | Hidden$ True
+DeckHas:Ability$Graveyard|Mill
+[DesignNotes]
+ - In the game, Renoir's Drafts is an optional endgame area full of high-tier enemies and is an excellent XP/Loot farming location.
+ - Gone with a functional reprint of Tomb Fortress from 40K with Nevron reanimation constraint.
