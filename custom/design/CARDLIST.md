@@ -400,12 +400,6 @@ No ideas yet.
 No ideas yet.
 
 > Act 2: Visages
-> Sciel: I know they're Nevrons, but... witnessing the sorrow of others... I can't help but feel for them.
-> Monoco: A noble but tremendously fatal impulse
-
-No ideas yet.
-
-> Act 2: Visages
 > Monoco: Normally I enjoy a little destruction, but this doesn't feel right
 
 No ideas yet.
@@ -440,8 +434,3 @@ Something to do with the "suffocation".
 > Renoir: Stop this insanity. It's time to go home.
 
 No ideas yet.
-
-> Act 3: Renoir final boss battle post-script
-> Renoir: I'll keep the light on for you. I hope you find peace. Hold on to each other.
-
-Something that signifies departure.

@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 18/12/2025 3:55:15 pm
+> Last generated: 18/12/2025 4:36:16 pm
 
 ## A Life to Love (Farewell)
 
@@ -455,6 +455,13 @@ Sacrifice this enchantment: The next historic spell you cast costs {1} less to c
 
  - In the game, Sciel gives her "glowing endorsement" of Gustave for "shouting the password as loud as you can" to get access to Esquie's Nest.
  - This card 100% based on the "Sciel of Approval" meme/pun.
+
+## Second Thoughts
+
+> This card is a reprint
+[Scryfall](https://scryfall.com/search?q=Second Thoughts)
+### Notes
+
 
 ## Swords to Plowshares
 

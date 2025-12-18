@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 17/12/2025 10:25:21 am
+> Last generated: 18/12/2025 4:36:16 pm
 
 ## A Storm is Coming
 
@@ -1463,6 +1463,13 @@ Maelle: I bet Clea hated Maman's portrait of her. So she painted over her.
  - 26/10/2025: Replaced tutoring with a Nevron sac to draw a card.
  - 2/11/2025: Reduced Nevron buff from +2/+2 to +1/+1
  - 27/11/2025: Reduced cost reduction from {2} to {1}
+
+## Primal Empathy
+
+> This card is a reprint
+[Scryfall](https://scryfall.com/search?q=Primal Empathy)
+### Notes
+
 
 ## Putrefy
 

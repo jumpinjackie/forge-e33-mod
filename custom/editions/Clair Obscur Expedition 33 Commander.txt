@@ -36,22 +36,23 @@ Type=Custom
 249 U Mortify @Nils Hamm
 264 U Patchwork Banner @Sarah Finnigan
 265 U Path to Exile @Raf Sarmento
-274 U Putrefy @Clint Cearley
-300 R Sulfurous Springs @Sandfall Interactive ${"flavorName": "Sinister Cave"}
-303 R Yavimaya Coast @Sandfall Interactive ${"flavorName": "Sky Island"}
-305 U Sol Ring @Piotr Dura
-316 U Swords to Plowshares @Nadia Hurianova
-317 U Talisman of Conviction @Lindsey Look
-318 U Talisman of Creativity @Lindsey Look
-319 U Talisman of Curiosity @Lindsey Look
-320 U Talisman of Dominance @Mike Dringenberg
-321 U Talisman of Hierarchy @Lindsey Look
-322 U Talisman of Impulse @Mike Dringenberg
-323 U Talisman of Indulgence @Mike Dringenberg
-324 U Talisman of Progress @Mike Dringenberg
-325 U Talisman of Resilience @Lindsey Look
-326 U Talisman of Unity @Mike Dringenberg
-337 R Brushland @Sandfall Interactive ${"flavorName": "The Meadows"}
-347 C Thought Vessel @rk post
-361 R Void Rend @Justyna Dura
-365 R Adarkar Wastes @Sandfall Interactive ${"flavorName": "White Sands"}
+273 U Primal Empathy @
+275 U Putrefy @Clint Cearley
+302 R Sulfurous Springs @Sandfall Interactive ${"flavorName": "Sinister Cave"}
+305 R Yavimaya Coast @Sandfall Interactive ${"flavorName": "Sky Island"}
+307 U Sol Ring @Piotr Dura
+318 U Swords to Plowshares @Nadia Hurianova
+319 U Talisman of Conviction @Lindsey Look
+320 U Talisman of Creativity @Lindsey Look
+321 U Talisman of Curiosity @Lindsey Look
+322 U Talisman of Dominance @Mike Dringenberg
+323 U Talisman of Hierarchy @Lindsey Look
+324 U Talisman of Impulse @Mike Dringenberg
+325 U Talisman of Indulgence @Mike Dringenberg
+326 U Talisman of Progress @Mike Dringenberg
+327 U Talisman of Resilience @Lindsey Look
+328 U Talisman of Unity @Mike Dringenberg
+339 R Brushland @Sandfall Interactive ${"flavorName": "The Meadows"}
+349 C Thought Vessel @rk post
+363 R Void Rend @Justyna Dura
+367 R Adarkar Wastes @Sandfall Interactive ${"flavorName": "White Sands"}
