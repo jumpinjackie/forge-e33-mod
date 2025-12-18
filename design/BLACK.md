@@ -1,6 +1,16 @@
 # Cards
 
-> Last generated: 14/12/2025 10:07:57 am
+> Last generated: 18/12/2025 3:45:07 pm
+
+## Blot Out
+
+> This card is a reprint
+[Scryfall](https://scryfall.com/search?q=Blot Out)
+### Notes
+
+ - It turns out the French name for this card is ... Gommage!
+ - And in another case of serendipity, the actual ability of exiling the creature/planeswalker with the highest mana value (ergo: age) happens to be also super on-flavor. What a coincidence!
+ - So a no-brainer super flavorful reprint.
 
 ## Chalier
 
