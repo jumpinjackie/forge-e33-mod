@@ -1,0 +1,16 @@
+[Name]
+Prismatic Strands
+[ManaCost]
+2
+W
+[IsReprint]
+true
+[Rarity]
+C
+[Artist]
+GraftiArt
+[FlavorText]
+As your father, I must look out for you. Especially when you can't look out for yourself.
+- Renoir
+[DesignNotes]
+ - On-flavor reprint that's a useful combat trick in limited/draft.
