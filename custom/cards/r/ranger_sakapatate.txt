@@ -3,7 +3,7 @@ ManaCost:2 R
 Types:Creature Nevron
 PT:3/2
 S:Mode$ ReduceCost | ValidCard$ Card.Self | Type$ Spell | Amount$ 1 | EffectZone$ All | IsPresent$ Gestral.YouCtrl | Description$ This spell costs {1} less to cast if you control a Gestral.
-A:AB$ DealDamage | Cost$ R T | ValidTgts$ Creature | TgtPrompt$ Select target creature | NumDmg$ 1 | SubAbility$ TrigStun | SpellDescription$ CARDNAME deals 1 damage to target creature.
+A:AB$ DealDamage | Cost$ 2 R T | ValidTgts$ Creature | TgtPrompt$ Select target creature | NumDmg$ 1 | SubAbility$ TrigStun | SpellDescription$ CARDNAME deals 1 damage to target creature.
 SVar:TrigStun:DB$ PutCounter | Defined$ Targeted | CounterType$ Stun | CounterNum$ 1
 A:AB$ DealDamage | Cost$ 1 R Sac<1/Gestral> | ValidTgts$ Any | NumDmg$ 2 | SpellDescription$ CARDNAME deals 2 damage to any target.
 T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Card.Self | OptionalDecider$ You | Execute$ TrigDeath | TriggerDescription$ When CARDNAME dies, you may have CARDNAME deal 3 damage divided as you choose among one, two or three target creatures.
