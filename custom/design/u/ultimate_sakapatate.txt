@@ -22,6 +22,9 @@ When ~ dies, target opponent creates a Lumina token.
 [AbilityWords]
 Strikes with its dead partner
 Slams its shield
+[FlavorText]
+INTRUDER ALERT! INTRUDER ALERT! Send forth the ULTIMATE WEAPON!
+- Tropa
 [ForgeScript]
 K:etbCounter:SHIELD:1
 S:Mode$ ReduceCost | ValidCard$ Card.Self | Type$ Spell | Amount$ 1 | EffectZone$ All | IsPresent$ Gestral.YouCtrl | Description$ This spell costs {1} less to cast if you control a Gestral.
@@ -31,5 +34,5 @@ T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ 
 SVar:TrigToken:DB$ Token | TokenAmount$ 1 | ValidTgts$ Opponent | TokenOwner$ Targeted | TokenScript$ c_a_lumina
 SVar:X:Sacrificed$CardManaCost
 [DesignNotes]
- - Like other Sakapatates, it will try to do a last minute suicide move to do some damage before it goes.
+ - Unlike other Sakapatates, this one *DOES NOT* try to do a last minute suicide move to do some damage before it goes.
  - 21/10/2025: Added Gestral alliance cost reduction
