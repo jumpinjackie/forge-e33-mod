@@ -41,3 +41,11 @@ An equipment that self-replicates without restrictions would be hideously broken
 Thus for any given Picto, you can have at most one extra token copy of it. If you lose the non-token copy, you cannot self-replicate with the token copy.
 
 This restriction is a minor flavor/thematic compromise (as the video game has no such restrictions), but game balance trumps flavor/thematic accuracy in this case.
+
+This self-replication ability is worded as follows:
+
+```
+Learn Picto X (Sacrifice X Lumina tokens: Create a token copy of this equipment attached to target creature you control. Activate this ability only if you control no token copies of this equipment.)
+```
+
+And for certain pictos with tight textbox budgets, this is shortened to just `Learn Picto X`
