@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 18/12/2025 3:01:19 pm
+> Last generated: 18/12/2025 3:55:15 pm
 
 ## A Life to Love (Farewell)
 
@@ -391,6 +391,14 @@ Luminous — Draw a card if you control at least three Lumina tokens.
 
  - In the game, enemy attacks can be dodged or parried. A dodge performed at the right time is a perfect dodge.
  - Mechanically translated to a basic blink effect. Can be used as a defensive combat trick or to milk extra ETB triggers on your creatures.
+
+## Prismatic Strands
+
+> This card is a reprint
+[Scryfall](https://scryfall.com/search?q=Prismatic Strands)
+### Notes
+
+ - On-flavor reprint that's a useful combat trick in limited/draft.
 
 ## Repaint
 

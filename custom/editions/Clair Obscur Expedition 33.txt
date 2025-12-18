@@ -232,72 +232,72 @@ Type=Custom
 269 C Piercing Strike @Sandfall Interactive
 270 C Portier @
 271 U Potier @Sandfall Interactive
-273 U Rally the Expeditioners @Sandfall Interactive
-274 C Ramasseur @Sandfall Interactive
-275 U Ranger Sakapatate @Sandfall Interactive
-276 C Reaper Cultist @Sandfall Interactive
-277 C Recoat @Sandfall Interactive
-278 U Renoir's Creation @
-279 R Renoir's Drafts @
-280 M Renoir's Will @Sandfall Interactive
-281 U Repaint @Sandfall Interactive
-282 U Revitalization @Sandfall Interactive
-283 U Revive Tint @Sandfall Interactive
-284 C Rip Apart Reality @Sandfall Interactive
-285 U Robust Sakapatate @Sandfall Interactive
-286 C Rocher @Sandfall Interactive
-287 C Rock Throw @
-288 U Rush Picto @Sandfall Interactive
-289 R Sastro, Gestral Guardian @Sandfall Interactive
-290 R Sciel, Grieving for Many @Sandfall Interactive
-291 U Sciel's Intervention @Sandfall Interactive
-292 C Seal of Approval @
-293 C Search // Rescue @Sandfall Interactive
-294 R Serpenphare @Sandfall Interactive
-295 R Shot Picto @Sandfall Interactive
-296 U Shrine to The Paintress @
-297 M Simon, Consort of Clea @Sandfall Interactive
-299 R Sirène's Coliseum @Sandfall Interactive
-300 R Sky Break @Sandfall Interactive
-302 U Soarrie @Sandfall Interactive
-305 R Sprong @
-306 U Stalact @
-307 R Stendhal @
-311 U Sunniso, Gestral Bouncer @
-312 U Surcease @
-313 C Swift Counter @Sandfall Interactive
-325 C Tall Gestral @
-327 R Terraquake @Sandfall Interactive
-328 M The 67th Gommage @Sandfall Interactive
-329 M The Curator @Sandfall Interactive
-330 M The Fate of the Canvas @
-331 R The Fracture @Sandfall Interactive
-332 R The Greatest Expedition in History @Sandfall Interactive
-333 R The Hauler @Sandfall Interactive
-336 M The Monolith @Sandfall Interactive
-337 R The Monolith Interior @Sandfall Interactive
-338 M The Paintress @Sandfall Interactive
-339 R The Reacher @
-340 M The Sacred River @Sandfall Interactive
-341 R The Scavenger @Sandfall Interactive
-342 U The Search for Esquie's Rocks @Sandfall Interactive
-343 M The World Canvas @Sandfall Interactive
-344 U Thermal Transfer @Sandfall Interactive
-346 C Thunderfall @
-347 U Tomorrow Comes @Sandfall Interactive
-348 C Torture // Nurture @Sandfall Interactive
-349 U Troubador @Sandfall Interactive
-350 U Twilight Quarry @Sandfall Interactive
-351 U Twisted Lumière Citizen @Sandfall Interactive
-352 R Ultimate Sakapatate @Sandfall Interactive
-353 U Urrie @Sandfall Interactive
-354 R Verisimilitude @Sandfall Interactive
-355 R Verso, Who Guards Truth With Lies @
-357 R Visages @Sandfall Interactive
-358 U Void Meteors @Sandfall Interactive
-360 C Volester @Sandfall Interactive
-361 U Whee // Whoo @Sandfall Interactive
-362 R When One Falls // We Continue @Sandfall Interactive
+274 U Rally the Expeditioners @Sandfall Interactive
+275 C Ramasseur @Sandfall Interactive
+276 U Ranger Sakapatate @Sandfall Interactive
+277 C Reaper Cultist @Sandfall Interactive
+278 C Recoat @Sandfall Interactive
+279 U Renoir's Creation @
+280 R Renoir's Drafts @
+281 M Renoir's Will @Sandfall Interactive
+282 U Repaint @Sandfall Interactive
+283 U Revitalization @Sandfall Interactive
+284 U Revive Tint @Sandfall Interactive
+285 C Rip Apart Reality @Sandfall Interactive
+286 U Robust Sakapatate @Sandfall Interactive
+287 C Rocher @Sandfall Interactive
+288 C Rock Throw @
+289 U Rush Picto @Sandfall Interactive
+290 R Sastro, Gestral Guardian @Sandfall Interactive
+291 R Sciel, Grieving for Many @Sandfall Interactive
+292 U Sciel's Intervention @Sandfall Interactive
+293 C Seal of Approval @
+294 C Search // Rescue @Sandfall Interactive
+295 R Serpenphare @Sandfall Interactive
+296 R Shot Picto @Sandfall Interactive
+297 U Shrine to The Paintress @
+298 M Simon, Consort of Clea @Sandfall Interactive
+300 R Sirène's Coliseum @Sandfall Interactive
+301 R Sky Break @Sandfall Interactive
+303 U Soarrie @Sandfall Interactive
+306 R Sprong @
+307 U Stalact @
+308 R Stendhal @
+312 U Sunniso, Gestral Bouncer @
+313 U Surcease @
+314 C Swift Counter @Sandfall Interactive
+326 C Tall Gestral @
+328 R Terraquake @Sandfall Interactive
+329 M The 67th Gommage @Sandfall Interactive
+330 M The Curator @Sandfall Interactive
+331 M The Fate of the Canvas @
+332 R The Fracture @Sandfall Interactive
+333 R The Greatest Expedition in History @Sandfall Interactive
+334 R The Hauler @Sandfall Interactive
+337 M The Monolith @Sandfall Interactive
+338 R The Monolith Interior @Sandfall Interactive
+339 M The Paintress @Sandfall Interactive
+340 R The Reacher @
+341 M The Sacred River @Sandfall Interactive
+342 R The Scavenger @Sandfall Interactive
+343 U The Search for Esquie's Rocks @Sandfall Interactive
+344 M The World Canvas @Sandfall Interactive
+345 U Thermal Transfer @Sandfall Interactive
+347 C Thunderfall @
+348 U Tomorrow Comes @Sandfall Interactive
+349 C Torture // Nurture @Sandfall Interactive
+350 U Troubador @Sandfall Interactive
+351 U Twilight Quarry @Sandfall Interactive
+352 U Twisted Lumière Citizen @Sandfall Interactive
+353 R Ultimate Sakapatate @Sandfall Interactive
+354 U Urrie @Sandfall Interactive
+355 R Verisimilitude @Sandfall Interactive
+356 R Verso, Who Guards Truth With Lies @
+358 R Visages @Sandfall Interactive
+359 U Void Meteors @Sandfall Interactive
+361 C Volester @Sandfall Interactive
+362 U Whee // Whoo @Sandfall Interactive
+363 R When One Falls // We Continue @Sandfall Interactive
 
 12 R All Suns' Dawn @Glen Angus
 14 U Anger @Svetlin Velinov
@@ -313,14 +313,15 @@ Type=Custom
 257 C Ichor Wellspring @Sandfall Interactive ${"flavorName": "Paint Cage"}
 260 C Painted Bluffs @Mark Poole
 265 U Roil's Retribution @Raymond Swanland ${"flavorName": "Payback"}
-304 R Razorverge Thicket @Sandfall Interactive ${"flavorName": "Spring Meadows"}
-308 U Stone Quarry @Sandfall Interactive
-309 R Stormcarved Coast @ ${"flavorName": "Stone Wave Cliffs"}
-310 R Blackcleave Cliffs @Sandfall Interactive ${"flavorName": "Sunless Cliffs"}
-326 C Terminate @Lucas Graciano
-334 R The World Tree @Sandfall Interactive ${"flavorName": "The Indigo Tree"}
-356 U Treacherous Link @Sandfall Interactive ${"flavorName": "Verso's Burden"}
-364 R Copperline Gorge @Sandfall Interactive ${"flavorName": "Yellow Harvest"}
+272 C Prismatic Strands @GraftiArt
+305 R Razorverge Thicket @Sandfall Interactive ${"flavorName": "Spring Meadows"}
+309 U Stone Quarry @Sandfall Interactive
+310 R Stormcarved Coast @ ${"flavorName": "Stone Wave Cliffs"}
+311 R Blackcleave Cliffs @Sandfall Interactive ${"flavorName": "Sunless Cliffs"}
+327 C Terminate @Lucas Graciano
+335 R The World Tree @Sandfall Interactive ${"flavorName": "The Indigo Tree"}
+357 U Treacherous Link @Sandfall Interactive ${"flavorName": "Verso's Burden"}
+365 R Copperline Gorge @Sandfall Interactive ${"flavorName": "Yellow Harvest"}
 
 
 [tokens]
