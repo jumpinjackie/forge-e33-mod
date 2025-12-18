@@ -18,7 +18,7 @@ When ~ enters, choose two —
 Equipped creature gets +3/+3 if ~ has an augmented counter on it and has double strike if ~ has a combo counter on it.
 Whenever equipped creature attacks, if ~ has a energizing counter on it, create a Chroma token and a Lumina token.
 Equip {2}
-$PICTO_REPLICATE_ABILITY(2)
+$PICTO_REPLICATE_ABILITY_SHORT(2)
 [ForgeScript]
 K:Equip:2
 T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigCharm | TriggerDescription$ When CARDNAME enters, ABILITY

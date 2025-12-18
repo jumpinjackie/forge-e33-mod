@@ -18,7 +18,7 @@ When ~ enters, choose two —
 Equipped creature has "{X}{X}, {T}: This creature deals X damage to target creature"
 Whenever equipped creature deals damage to a creature, create a Chroma token and a Lumina token if ~ has an energizing counter, tap that creature and put a stun counter on it if ~ has a breaking counter, and it deals that amount of damage to its controller if ~ has a piercing counter.
 Equip {2}
-$PICTO_REPLICATE_ABILITY(2)
+$PICTO_REPLICATE_ABILITY_SHORT(2)
 [ForgeScript]
 K:Equip:2
 T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigCharm | TriggerDescription$ When CARDNAME enters, ABILITY

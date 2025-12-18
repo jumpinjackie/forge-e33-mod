@@ -5,4 +5,4 @@ K:Equip:1
 S:Mode$ Continuous | Affected$ Card.EquippedBy | AddKeyword$ Haste | AddPower$ 1 | Description$ Equipped creature gets +1/+0 and has haste.
 A:AB$ CopyPermanent | Cost$ Sac<2/Lumina> | CheckSVar$ TokenCopies | SVarCompare$ EQ0 | ValidTgts$ Creature.YouCtrl | Defined$ Self | NumCopies$ 1 | AttachedTo$ Targeted | SpellDescription$ Create a token copy of CARDNAME attached to target creature you control. Activate this ability only if you control no token copies of CARDNAME.
 SVar:TokenCopies:Count$Valid Artifact.YouCtrl+token+namedRush Picto
-Oracle:Equipped creature gets +1/+0 and has haste.\nEquip {1}\nSacrifice two Lumina tokens: Create a token copy of this equipment attached to target creature you control. Activate this ability only if you control no token copies of this equipment.
+Oracle:Equipped creature gets +1/+0 and has haste.\nEquip {1}\nLearn Picto 2 (Sacrifice two Lumina tokens: Create a token copy of this equipment attached to target creature you control. Activate this ability only if you control no token copies of this equipment.)
