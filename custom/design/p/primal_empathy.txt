@@ -1,0 +1,17 @@
+[Name]
+Primal Empathy
+[ManaCost]
+1
+G
+U
+[IsReprint]
+true
+[IsCommander]
+true
+[Rarity]
+U
+[FlavorText]
+Sciel: I know they're Nevrons, but... witnessing the sorrow of others... I can't help but feel for them.
+Monoco: A noble but tremendously fatal impulse
+[DesignNote]
+ - Another case of a quote from the game looking for a suitable reprint to attach itself to.

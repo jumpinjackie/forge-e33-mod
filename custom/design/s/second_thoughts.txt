@@ -1,0 +1,15 @@
+[Name]
+Second Thoughts
+[ManaCost]
+4
+W
+[IsReprint]
+true
+[Rarity]
+C
+[FlavorText]
+You do that, we both die.
+- Lune
+[DesignNote]
+ - Another case of a quote from the game looking for a suitable reprint to attach itself to.
+ - Useful spot removal in limited/draft.
