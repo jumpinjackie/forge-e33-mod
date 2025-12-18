@@ -302,7 +302,7 @@ Type=Custom
 12 R All Suns' Dawn @Glen Angus
 14 U Anger @Svetlin Velinov
 23  Blackblade Reforged @ ${"flavorName": "Barrier Breaker"}
-30  Blot Out @Sandfall Interactive
+30 U Blot Out @Sandfall Interactive
 81 C Dive Down @Magali Villeneuve
 138 C Expedition Map @Franz Vohwinkel
 140 C Explore @John Avon

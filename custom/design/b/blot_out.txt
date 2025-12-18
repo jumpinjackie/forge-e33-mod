@@ -5,6 +5,8 @@ Blot Out
 B
 [IsReprint]
 true
+[Rarity]
+U
 [Artist]
 Sandfall Interactive
 [DesignNotes]
