@@ -77,7 +77,7 @@ Images listed are cards first, then tokens.
 | ![](../custom/pics/cards/E33/Gestral%20Doctor.full.jpg) | ![](../custom/pics/cards/E33/Gestral%20Fighter.full.jpg) | ![](../custom/pics/cards/E33/Gestral%20Lackey.full.jpg) |
 | ![](../custom/pics/cards/E33/Gestral%20Merchant.full.jpg) | ![](../custom/pics/cards/E33/Gestral%20Pot.full.jpg) | ![](../custom/pics/cards/E33/Gestral%20Ringleader.full.jpg) |
 | ![](../custom/pics/cards/E33/Gestral%20Villager.full.jpg) | ![](../custom/pics/cards/E33/Gestral%20Warrior.full.jpg) | ![](../custom/pics/cards/E33/Gestral%20Worker.full.jpg) |
-| ![](../custom/pics/cards/E33/Glass%20Cannon%20Picto.full.jpg) | ![](../custom/pics/cards/E33/Golgra%2C%20Gestral%20Chief.full.jpg) | ![](../custom/pics/cards/E33/Gustave%27s%20Journal.full.jpg) |
+| ![](../custom/pics/cards/E33/Glass%20Cannon%20Picto.full.jpg) | ![](../custom/pics/cards/E33/Golgra%2C%20Gestral%20Chef.full.jpg) | ![](../custom/pics/cards/E33/Gustave%27s%20Journal.full.jpg) |
 | ![](../custom/pics/cards/E33/Healing%20Tint.full.jpg) | ![](../custom/pics/cards/E33/Julien%20Tiny%20Head.full.jpg) | ![](../custom/pics/cards/E33/Letter%20from%20Alicia.full.jpg) |
 | ![](../custom/pics/cards/E33/Limonsol%2C%20Matchmaker.full.jpg) | ![](../custom/pics/cards/E33/Lorieniso%2C%20Gestral%20Musician.full.jpg) | ![](../custom/pics/cards/E33/Lost%20Gestral.full.jpg) |
 | ![](../custom/pics/cards/E33/Lumiere%20Flower%20Stand.full.jpg) | ![](../custom/pics/cards/E33/Lumina%20Converter.full.jpg) | ![](../custom/pics/cards/E33/Manor%20Door.full.jpg) |

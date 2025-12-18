@@ -18,7 +18,7 @@ Chapter 3: Not getting lumina tokens for destroyed Nevron tokens
 
  - The +1/+1 bonus is not being applied.
 
-## Golgra, Gestral Chief
+## Golgra, Gestral Chef
 
 I am being prompted for the mode before the enrage trigger goes on the stack, I kind of expected the prompt to happen on trigger resolution. And the trigger description on the stack is the full modal prompt and not the choice made. Not sure if it ultimately matters because it behaviourally works as expected.
 

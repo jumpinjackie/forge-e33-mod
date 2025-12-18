@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 17/12/2025 12:32:38 pm
+> Last generated: 18/12/2025 2:39:40 pm
 
 ## A Rock for François
 
@@ -30,7 +30,7 @@ Esquie: I think we captured your essence beautifully.
 Artifact - Picto Equipment
 Equipped creature has protection from red.
 Equip {2}
-Sacrifice two Lumina tokens: Create a token copy of this equipment attached to target creature you control. Activate this ability only if you control no token copies of this equipment.
+Learn Picto 2 (Sacrifice two Lumina tokens: Create a token copy of this equipment attached to target creature you control. Activate this ability only if you control no token copies of this equipment.)
 ```
 
 [card implementation](../custom/cards/a/anti_burn_picto.txt)
@@ -47,7 +47,7 @@ Sacrifice two Lumina tokens: Create a token copy of this equipment attached to t
 Artifact - Picto Equipment
 Equipped creature has protection from blue.
 Equip {2}
-Sacrifice two Lumina tokens: Create a token copy of this equipment attached to target creature you control. Activate this ability only if you control no token copies of this equipment.
+Learn Picto 2 (Sacrifice two Lumina tokens: Create a token copy of this equipment attached to target creature you control. Activate this ability only if you control no token copies of this equipment.)
 ```
 
 [card implementation](../custom/cards/a/anti_freeze_picto.txt)
@@ -72,7 +72,7 @@ Sacrifice two Lumina tokens: Create a token copy of this equipment attached to t
 Artifact - Picto Equipment
 Equipped creature has +1/+1 and lifelink.
 Equip {2}
-Sacrifice two Lumina tokens: Create a token copy of this equipment attached to target creature you control. Activate this ability only if you control no token copies of this equipment.
+Learn Picto 2 (Sacrifice two Lumina tokens: Create a token copy of this equipment attached to target creature you control. Activate this ability only if you control no token copies of this equipment.)
 ```
 
 [card implementation](../custom/cards/a/attack_lifesteal_picto.txt)
@@ -94,7 +94,7 @@ When this equipment enters, choose two —
 Equipped creature gets +3/+3 if this equipment has an augmented counter on it and has double strike if this equipment has a combo counter on it.
 Whenever equipped creature attacks, if this equipment has a energizing counter on it, create a Chroma token and a Lumina token.
 Equip {2}
-Sacrifice two Lumina tokens: Create a token copy of this equipment attached to target creature you control. Activate this ability only if you control no token copies of this equipment.
+Learn Picto 2
 ```
 
 [card implementation](../custom/cards/a/attack_picto.txt)
@@ -167,7 +167,7 @@ Who's gonna go fight?
 Artifact - Picto Equipment
 Untap equipped creature during each other player's untap step.
 Equip {2}
-Sacrifice three Lumina tokens: Create a token copy of this equipment attached to target creature you control. Activate this ability only if you control no token copies of this equipment.
+Learn Picto 3 (Sacrifice three Lumina tokens: Create a token copy of this equipment attached to target creature you control. Activate this ability only if you control no token copies of this equipment.)
 ```
 
 [card implementation](../custom/cards/c/cheater_picto.txt)
@@ -240,7 +240,7 @@ When this equipment enters, choose two —
 • Put a shielding counter on this equipment.
 When equipped creature dies, it deals 4 damage to any target if this equipment has a burning counter, create a Chroma token and a Lumina token if this equipment has an energizing counter and put a shield counter on each creature you control if this equipment has a shielding counter.
 Equip {2}
-Sacrifice two Lumina tokens: Create a token copy of this equipment attached to target creature you control. Activate this ability only if you control no token copies of this equipment.
+Learn Picto 2
 ```
 
 [card implementation](../custom/cards/d/death_picto.txt)
@@ -715,7 +715,7 @@ Sacrifice a Chroma token: Put a charge counter on this creature. Activate this a
 Artifact - Picto Equipment
 Equipped creature can attack as though it didn't have defender and has base power and toughness 5/1
 Equip {2}
-Sacrifice two Lumina tokens: Create a token copy of this equipment attached to target creature you control. Activate this ability only if you control no token copies of this equipment.
+Learn Picto 2 (Sacrifice two Lumina tokens: Create a token copy of this equipment attached to target creature you control. Activate this ability only if you control no token copies of this equipment.)
 ```
 
 [card implementation](../custom/cards/g/glass_cannon_picto.txt)
@@ -728,7 +728,7 @@ Sacrifice two Lumina tokens: Create a token copy of this equipment attached to t
  - 12/11/2025: Could not get the variable P/T pump to work, so gone with a flat 6/1 base P/T that conveys the same intent.
  - 15/11/2025: Changed base P/T from 6/1 to 5/1
 
-## Golgra, Gestral Chief
+## Golgra, Gestral Chef
 
 ```
 5
@@ -745,13 +745,14 @@ Really? A duel? Do you have a death wish?
 5/6
 ```
 
-[card implementation](../custom/cards/g/golgra_gestral_chief.txt)
+[card implementation](../custom/cards/g/golgra_gestral_chef.txt)
 
 ### Design Notes
 
  - Obviously the Gestral lord of this set.
  - In the game, when Golgra gets below 50% health, she goes "Super Saiyan" and her attacks increase in power.
  - Mechanically, I've gone with Enrage as a way to approximate this "Super Saiyan" state and went with an assortment of combat-boosting abilities that could be granted from being enraged.
+ - 19/12/2025: Renamed from Golgra, Gestral Chief to Golgra, Gestral Chef as that is indeed what other Gestrals refer to her as.
 
 ## Gustave's Journal
 
@@ -1125,7 +1126,7 @@ You don't get to die yet.
 Artifact - Picto Equipment
 Equipped creature gets +1/+0 and has haste.
 Equip {1}
-Sacrifice two Lumina tokens: Create a token copy of this equipment attached to target creature you control. Activate this ability only if you control no token copies of this equipment.
+Learn Picto 2 (Sacrifice two Lumina tokens: Create a token copy of this equipment attached to target creature you control. Activate this ability only if you control no token copies of this equipment.)
 ```
 
 [card implementation](../custom/cards/r/rush_picto.txt)
@@ -1171,7 +1172,7 @@ When this equipment enters, choose two —
 Equipped creature has "{X}{X}, {T}: This creature deals X damage to target creature"
 Whenever equipped creature deals damage to a creature, create a Chroma token and a Lumina token if this equipment has an energizing counter, tap that creature and put a stun counter on it if this equipment has a breaking counter, and it deals that amount of damage to its controller if this equipment has a piercing counter.
 Equip {2}
-Sacrifice two Lumina tokens: Create a token copy of this equipment attached to target creature you control. Activate this ability only if you control no token copies of this equipment.
+Learn Picto 2
 ```
 
 [card implementation](../custom/cards/s/shot_picto.txt)

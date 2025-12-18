@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 17/12/2025 2:22:12 pm
+> Last generated: 18/12/2025 2:29:03 pm
 
 ## Anger
 
@@ -515,6 +515,9 @@ This creature enters with a shield counter.
 Strikes with its dead partner — {2}, Sacrifice a Nevron: This creature deals damage equal to the sacrificed Nevron's mana value to target creature.
 Slams its shield — {R}{R}, {T}, Remove a shield counter from this creature: This creature deals 4 damage to any target.
 When this creature dies, target opponent creates a Lumina token.
+---
+INTRUDER ALERT! INTRUDER ALERT! Send forth the ULTIMATE WEAPON!
+- Tropa
 
 4/5
 ```
@@ -523,6 +526,6 @@ When this creature dies, target opponent creates a Lumina token.
 
 ### Design Notes
 
- - Like other Sakapatates, it will try to do a last minute suicide move to do some damage before it goes.
+ - Unlike other Sakapatates, this one *DOES NOT* try to do a last minute suicide move to do some damage before it goes.
  - 21/10/2025: Added Gestral alliance cost reduction
 

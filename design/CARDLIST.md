@@ -199,7 +199,7 @@ Cards implemented: 362
 [x] Get Out Of My Way!
 [x] Giant Sapling
 [x] Goblu
-[x] Golgra, Gestral Chief
+[ ] Golgra, Gestral Chief
 [x] Gommage
 [x] Gradient Charge
 [x] Gradient Counter
