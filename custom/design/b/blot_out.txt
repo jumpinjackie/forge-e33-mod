@@ -7,6 +7,8 @@ B
 true
 [Rarity]
 U
+[FlavorText]
+On her Monolith, she paints a warning for us all. Of the few she can save as her power wanes.
 [Artist]
 Sandfall Interactive
 [DesignNotes]
