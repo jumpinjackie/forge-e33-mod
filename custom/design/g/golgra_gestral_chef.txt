@@ -1,0 +1,41 @@
+[Name]
+Golgra, Gestral Chef
+[ManaCost]
+5
+[Types]
+Legendary
+Artifact
+Creature
+Gestral
+[Rarity]
+M
+[Artist]
+Sandfall Interactive
+[PT]
+5/6
+[Oracle]
+Other Gestral creatures you control get +2/+2
+Enrage — Whenever Golgra is dealt damage, choose one —
+• Put a Double strike counter on Golgra.
+• Put a Vigilance counter on Golgra.
+• Put a Trample counter on Golgra.
+• Draw a card.
+[AbilityWords]
+Enrage
+[FlavorText]
+Really? A duel? Do you have a death wish?
+[ForgeScript]
+S:Mode$ Continuous | Affected$ Card.Gestral+Other+YouCtrl | AddPower$ 2 | AddToughness$ 2 | Description$ Other Gestral creatures you control get +2/+2
+T:Mode$ DamageDoneOnce | Execute$ TrigChoice | ValidTarget$ Card.Self | TriggerZones$ Battlefield | TriggerDescription$ Enrage — Whenever Golgra is dealt damage, ABILITY
+SVar:TrigChoice:DB$ Charm | Choices$ DBDblStrike,DBVigilance,DBTrample,DBDraw | CharmNum$ 1
+SVar:DBDblStrike:DB$ PutCounter | CounterType$ Double Strike | CounterNum$1 | SpellDescription$ Put a Double strike counter on CARDNAME
+SVar:DBVigilance:DB$ PutCounter | CounterType$ Vigilance | CounterNum$1 | SpellDescription$ Put a Vigilance counter on CARDNAME
+SVar:DBTrample:DB$ PutCounter | CounterType$ Trample | CounterNum$1 | SpellDescription$ Put a Trample counter on CARDNAME
+SVar:DBDraw:DB$ Draw | NumCards$ 1 | SpellDescription$ Draw a card.
+[DesignNotes]
+ - Obviously the Gestral lord of this set.
+ - In the game, when Golgra gets below 50% health, she goes "Super Saiyan" and her attacks increase in power.
+ - Mechanically, I've gone with Enrage as a way to approximate this "Super Saiyan" state and went with an assortment of combat-boosting abilities that could be granted from being enraged.
+ - 19/12/2025: Renamed from Golgra, Gestral Chief to Golgra, Gestral Chef as that is indeed what other Gestrals refer to her as.
+[Bugs]
+I am being prompted for the mode before the enrage trigger goes on the stack, I kind of expected the prompt to happen on trigger resolution. And the trigger description on the stack is the full modal prompt and not the choice made. Not sure if it ultimately matters because it behaviourally works as expected.

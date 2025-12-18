@@ -154,7 +154,7 @@ Type=Custom
 179 R Giant Sapling @
 180 U Glass Cannon Picto @Sandfall Interactive
 181 R Goblu @Sandfall Interactive
-182 M Golgra, Gestral Chief @Sandfall Interactive
+182 M Golgra, Gestral Chef @Sandfall Interactive
 183 M Gommage @Sandfall Interactive
 184 U Gradient Charge @Sandfall Interactive
 185 C Gradient Counter @Sandfall Interactive
