@@ -1,0 +1,23 @@
+[Name]
+Expedition 32 Trainees
+[ManaCost]
+1
+W
+[Types]
+Creature
+Human
+Expeditioner
+[PT]
+2/3
+[Rarity]
+C
+[Oracle]
+Training (Whenever this creature attacks with another creature with greater power, put a +1/+1 counter on this creature.)
+$EXPEDITIONER_DEATH_ABILITY_TEXT
+[FlavorText]
+Although the citizens of Lumière always hope for the current Expedition to succeed, trainees operate with the understanding that success is never guaranteed, that they will be next in line and must plan accordingly.
+[ForgeScript]
+K:Training
+$EXPEDITIONER_DEATH_ABILITY
+[DesignNotes]
+ - Vanilla bear wtih Rebel sub-type (as a synonmym of dissent)
