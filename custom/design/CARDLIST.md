@@ -431,11 +431,6 @@ Some card centered around betrayal or switching allegiance.
 This the *IDEAL* flavor text for Choice of Damnations, if it didn't have the parisitic Arcane sub-type, but who are we to judge? We're doing the same thing too! So maybe we just have thematically adjusted reprint.
 
 > Act 3: Before final boss battle with Renoir
-> Renoir: As your father, I must look out for you. Especially when you can't look out for yourself.
-
-Sounds like an instant that grants protection until end of turn.
-
-> Act 3: Before final boss battle with Renoir
 > Maelle: You treat me as if I'm still five...
 > Renoir: I treat you as if the shadow from the worst day of our lives is going to suffocate you and take you from us too.
 

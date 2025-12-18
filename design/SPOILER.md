@@ -108,23 +108,23 @@ Images listed are cards first, then tokens.
 | ![](../custom/pics/tokens/E33/c_a_clue_draw.jpg) | ![](../custom/pics/tokens/E33/c_a_flower.jpg) | ![](../custom/pics/tokens/E33/c_a_food_sac.jpg) |
 | ![](../custom/pics/tokens/E33/c_a_lumina.jpg) | ![](../custom/pics/tokens/E33/g_1_1_abbest_nevron.jpg) | ![](../custom/pics/tokens/E33/w_1_1_human_expeditioner.jpg) |
 | ![](../custom/pics/tokens/E33/w_1_1_party_guest.jpg) |   |   |
-# Clair Obscur: Expedition 33 Commander (E3C) [49/49 cards]
+# Clair Obscur: Expedition 33 Commander (E3C) [50/50 cards]
 | | | |
 |---|---|---|
 | ![](../custom/pics/cards/E3C/A%20Life%20to%20Love.full.jpg) | ![](../custom/pics/cards/E3C/Austere%20Command.full.jpg) | ![](../custom/pics/cards/E3C/Path%20to%20Exile.full.jpg) |
 | ![](../custom/pics/cards/E3C/Swords%20to%20Plowshares.full.jpg) | ![](../custom/pics/cards/E3C/Counterspell.full.jpg) | ![](../custom/pics/cards/E3C/Mana%20Drain.full.jpg) |
-| ![](../custom/pics/cards/E3C/Damn.full.jpg) | ![](../custom/pics/cards/E3C/Feed%20the%20Swarm.full.jpg) | ![](../custom/pics/cards/E3C/Chaos%20Warp.full.jpg) |
-| ![](../custom/pics/cards/E3C/Deflecting%20Swat.full.jpg) | ![](../custom/pics/cards/E3C/Cultivate.full.jpg) | ![](../custom/pics/cards/E3C/Doubling%20Season.full.jpg) |
-| ![](../custom/pics/cards/E3C/Farseek.full.jpg) | ![](../custom/pics/cards/E3C/Abrupt%20Decay.full.jpg) | ![](../custom/pics/cards/E3C/Bedevil.full.jpg) |
-| ![](../custom/pics/cards/E3C/Growth%20Spiral.full.jpg) | ![](../custom/pics/cards/E3C/Mortify.full.jpg) | ![](../custom/pics/cards/E3C/Putrefy.full.jpg) |
-| ![](../custom/pics/cards/E3C/Void%20Rend.full.jpg) | ![](../custom/pics/cards/E3C/Arcane%20Signet.full.jpg) | ![](../custom/pics/cards/E3C/Chromatic%20Lantern.full.jpg) |
-| ![](../custom/pics/cards/E3C/Commander%27s%20Sphere.full.jpg) | ![](../custom/pics/cards/E3C/Fellwar%20Stone.full.jpg) | ![](../custom/pics/cards/E3C/Mask%20of%20Memory.full.jpg) |
-| ![](../custom/pics/cards/E3C/Mirage%20Mirror.full.jpg) | ![](../custom/pics/cards/E3C/Patchwork%20Banner.full.jpg) | ![](../custom/pics/cards/E3C/Sol%20Ring.full.jpg) |
-| ![](../custom/pics/cards/E3C/Talisman%20of%20Conviction.full.jpg) | ![](../custom/pics/cards/E3C/Talisman%20of%20Creativity.full.jpg) | ![](../custom/pics/cards/E3C/Talisman%20of%20Curiosity.full.jpg) |
-| ![](../custom/pics/cards/E3C/Talisman%20of%20Dominance.full.jpg) | ![](../custom/pics/cards/E3C/Talisman%20of%20Hierarchy.full.jpg) | ![](../custom/pics/cards/E3C/Talisman%20of%20Impulse.full.jpg) |
-| ![](../custom/pics/cards/E3C/Talisman%20of%20Indulgence.full.jpg) | ![](../custom/pics/cards/E3C/Talisman%20of%20Progress.full.jpg) | ![](../custom/pics/cards/E3C/Talisman%20of%20Resilience.full.jpg) |
-| ![](../custom/pics/cards/E3C/Talisman%20of%20Unity.full.jpg) | ![](../custom/pics/cards/E3C/Thought%20Vessel.full.jpg) | ![](../custom/pics/cards/E3C/Blade%27s%20Graveyard.full.jpg) |
-| ![](../custom/pics/cards/E3C/Boat%20Graveyard.full.jpg) | ![](../custom/pics/cards/E3C/Command%20Tower.full.jpg) | ![](../custom/pics/cards/E3C/Crimson%20Forest.full.jpg) |
-| ![](../custom/pics/cards/E3C/Dark%20Gestral%20Arena.full.jpg) | ![](../custom/pics/cards/E3C/Frozen%20Hearts.full.jpg) | ![](../custom/pics/cards/E3C/Lost%20Woods.full.jpg) |
-| ![](../custom/pics/cards/E3C/Sinister%20Cave.full.jpg) | ![](../custom/pics/cards/E3C/Sky%20Island.full.jpg) | ![](../custom/pics/cards/E3C/The%20Meadows.full.jpg) |
-| ![](../custom/pics/cards/E3C/White%20Sands.full.jpg) |   |   |
+| ![](../custom/pics/cards/E3C/Damn.full.jpg) | ![](../custom/pics/cards/E3C/Feed%20the%20Swarm.full.jpg) | ![](../custom/pics/cards/E3C/Final%20Parting.full.jpg) |
+| ![](../custom/pics/cards/E3C/Chaos%20Warp.full.jpg) | ![](../custom/pics/cards/E3C/Deflecting%20Swat.full.jpg) | ![](../custom/pics/cards/E3C/Cultivate.full.jpg) |
+| ![](../custom/pics/cards/E3C/Doubling%20Season.full.jpg) | ![](../custom/pics/cards/E3C/Farseek.full.jpg) | ![](../custom/pics/cards/E3C/Abrupt%20Decay.full.jpg) |
+| ![](../custom/pics/cards/E3C/Bedevil.full.jpg) | ![](../custom/pics/cards/E3C/Growth%20Spiral.full.jpg) | ![](../custom/pics/cards/E3C/Mortify.full.jpg) |
+| ![](../custom/pics/cards/E3C/Putrefy.full.jpg) | ![](../custom/pics/cards/E3C/Void%20Rend.full.jpg) | ![](../custom/pics/cards/E3C/Arcane%20Signet.full.jpg) |
+| ![](../custom/pics/cards/E3C/Chromatic%20Lantern.full.jpg) | ![](../custom/pics/cards/E3C/Commander%27s%20Sphere.full.jpg) | ![](../custom/pics/cards/E3C/Fellwar%20Stone.full.jpg) |
+| ![](../custom/pics/cards/E3C/Mask%20of%20Memory.full.jpg) | ![](../custom/pics/cards/E3C/Mirage%20Mirror.full.jpg) | ![](../custom/pics/cards/E3C/Patchwork%20Banner.full.jpg) |
+| ![](../custom/pics/cards/E3C/Sol%20Ring.full.jpg) | ![](../custom/pics/cards/E3C/Talisman%20of%20Conviction.full.jpg) | ![](../custom/pics/cards/E3C/Talisman%20of%20Creativity.full.jpg) |
+| ![](../custom/pics/cards/E3C/Talisman%20of%20Curiosity.full.jpg) | ![](../custom/pics/cards/E3C/Talisman%20of%20Dominance.full.jpg) | ![](../custom/pics/cards/E3C/Talisman%20of%20Hierarchy.full.jpg) |
+| ![](../custom/pics/cards/E3C/Talisman%20of%20Impulse.full.jpg) | ![](../custom/pics/cards/E3C/Talisman%20of%20Indulgence.full.jpg) | ![](../custom/pics/cards/E3C/Talisman%20of%20Progress.full.jpg) |
+| ![](../custom/pics/cards/E3C/Talisman%20of%20Resilience.full.jpg) | ![](../custom/pics/cards/E3C/Talisman%20of%20Unity.full.jpg) | ![](../custom/pics/cards/E3C/Thought%20Vessel.full.jpg) |
+| ![](../custom/pics/cards/E3C/Blade%27s%20Graveyard.full.jpg) | ![](../custom/pics/cards/E3C/Boat%20Graveyard.full.jpg) | ![](../custom/pics/cards/E3C/Command%20Tower.full.jpg) |
+| ![](../custom/pics/cards/E3C/Crimson%20Forest.full.jpg) | ![](../custom/pics/cards/E3C/Dark%20Gestral%20Arena.full.jpg) | ![](../custom/pics/cards/E3C/Frozen%20Hearts.full.jpg) |
+| ![](../custom/pics/cards/E3C/Lost%20Woods.full.jpg) | ![](../custom/pics/cards/E3C/Sinister%20Cave.full.jpg) | ![](../custom/pics/cards/E3C/Sky%20Island.full.jpg) |
+| ![](../custom/pics/cards/E3C/The%20Meadows.full.jpg) | ![](../custom/pics/cards/E3C/White%20Sands.full.jpg) |   |

@@ -29,7 +29,7 @@ From this list, card designs are spawned from it, which will eventually form the
 
 ## Card Name List
 
-Cards implemented: 365
+Cards implemented: 366
 
 [x] - Card is implemented or in development, [C] - Card is a commander reprint, [R] - Card is a regular reprint, [N] - Card is a nickname reprint, [Z] - Card is a nickname reprint for commander [ ] - Card is not implemented
 
@@ -429,11 +429,6 @@ Some card centered around betrayal or switching allegiance.
 > Renoir: I know it seems absurd to offer oblivion as recompense, but perhaps that's the outcome we both desire.
 
 This the *IDEAL* flavor text for Choice of Damnations, if it didn't have the parisitic Arcane sub-type, but who are we to judge? We're doing the same thing too! So maybe we just have thematically adjusted reprint.
-
-> Act 3: Before final boss battle with Renoir
-> Renoir: As your father, I must look out for you. Especially when you can't look out for yourself.
-
-Sounds like an instant that grants protection until end of turn.
 
 > Act 3: Before final boss battle with Renoir
 > Maelle: You treat me as if I'm still five...

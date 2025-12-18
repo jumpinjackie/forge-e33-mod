@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 18/12/2025 3:45:07 pm
+> Last generated: 18/12/2025 4:15:50 pm
 
 ## Blot Out
 
@@ -146,6 +146,14 @@ Oh, I hear a big Nev coming, they count for double. If I kill it quick I can boo
 ### Notes
 
  - Obligatory Commander spot removal.
+
+## Final Parting
+
+> This card is a reprint
+[Scryfall](https://scryfall.com/search?q=Final Parting)
+### Notes
+
+ - This is a quote-driven commander reprint. A quote from the game, looking for a suitable on-theme card to attach to.
 
 ## Here's Your Card!
 
