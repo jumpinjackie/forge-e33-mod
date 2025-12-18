@@ -29,7 +29,7 @@ From this list, card designs are spawned from it, which will eventually form the
 
 ## Card Name List
 
-Cards implemented: 362
+Cards implemented: 363
 
 [x] - Card is implemented or in development, [C] - Card is a commander reprint, [R] - Card is a regular reprint, [N] - Card is a nickname reprint, [Z] - Card is a nickname reprint for commander [ ] - Card is not implemented
 
@@ -118,7 +118,7 @@ Cards implemented: 362
 [x] Eternal Ice
 [x] Évêque
 [x] Expedition 00 Tracker
-[ ] Expedition 32 Trainees
+[x] Expedition 32 Trainees
 [x] Expedition 34 Mage
 [x] Expedition 35 Bridge
 [x] Expedition 40 Glider

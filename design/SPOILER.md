@@ -4,7 +4,7 @@
 
 Images listed are cards first, then tokens.
 
-# Clair Obscur: Expedition 33 (E33) [269/313 cards]
+# Clair Obscur: Expedition 33 (E33) [269/314 cards]
 | | | |
 |---|---|---|
 | ![](../custom/pics/cards/E33/Jar.full.jpg) | ![](../custom/pics/cards/E33/Petank.full.jpg) | ![](../custom/pics/cards/E33/Acceptance.full.jpg) |

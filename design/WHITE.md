@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 14/12/2025 8:12:50 am
+> Last generated: 18/12/2025 3:01:19 pm
 
 ## A Life to Love (Farewell)
 
@@ -178,6 +178,25 @@ How can you not care about the dance between life and death? It is thrilling, el
 
  - In the game, the Danseuse Teacher is an unfinished Nevron that rewards you with a costume if you can beat her parry challenge.
  - Is white as that's the color we've designated for unfinished Nevrons.
+
+## Expedition 32 Trainees
+
+```
+1W
+Creature - Human Expeditioner
+Training (Whenever this creature attacks with another creature with greater power, put a +1/+1 counter on this creature.)
+When this creature dies, create a Chroma token.
+---
+Although the citizens of Lumière always hope for the current Expedition to succeed, trainees operate with the understanding that success is never guaranteed, that they will be next in line and must plan accordingly.
+
+2/3
+```
+
+[card implementation](../custom/cards/e/expedition_32_trainees.txt)
+
+### Design Notes
+
+ - Vanilla bear wtih Rebel sub-type (as a synonmym of dissent)
 
 ## Expedition 49
 
