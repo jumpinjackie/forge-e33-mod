@@ -1,0 +1,17 @@
+[Name]
+Final Parting
+[ManaCost]
+3
+B
+B
+[Rarity]
+U
+[IsReprint]
+true
+[IsCommander]
+true
+[FlavorText]
+I'll keep the light on for you. I hope you find peace. Hold on to each other.
+- Renoir
+[DesignNotes]
+ - This is a quote-driven commander reprint. A quote from the game, looking for a suitable on-theme card to attach to.
