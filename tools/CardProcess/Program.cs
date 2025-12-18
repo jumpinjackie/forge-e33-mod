@@ -337,9 +337,20 @@ public class CardFaceDesign
         sb.Replace("$EXPEDITIONER_DEATH_ABILITY_TEXT", "When this creature dies, create a Chroma token.");
         sb.Replace("$STORM_REMINDER_TEXT", "(When you cast this spell, copy it for each spell cast before it this turn. You may choose new targets for the copies.)");
 
-        // Handle parameterized PICTO_REPLICATE_ABILITY at the end after all other replacements
+        // Handle parameterized PICTO_REPLICATE_ABILITY and PICTO_REPLICATE_ABILITY_SHORT at the end after all other replacements
         var text = sb.ToString();
         int startIdx;
+        while ((startIdx = text.IndexOf("$PICTO_REPLICATE_ABILITY_SHORT(")) != -1)
+        {
+            var endIdx = text.IndexOf(')', startIdx);
+            if (endIdx == -1) break;
+
+            var costValue = text.Substring(startIdx + 31, endIdx - (startIdx + 31));
+            var replacement = $"""
+        Learn Picto {costValue}
+        """;
+            text = text.Remove(startIdx, endIdx - startIdx + 1).Insert(startIdx, replacement);
+        }
         while ((startIdx = text.IndexOf("$PICTO_REPLICATE_ABILITY(")) != -1)
         {
             var endIdx = text.IndexOf(')', startIdx);
@@ -347,7 +358,7 @@ public class CardFaceDesign
 
             var costValue = text.Substring(startIdx + 25, endIdx - (startIdx + 25));
             var replacement = $"""
-        Sacrifice {WordifyNumber(costValue)} Lumina tokens: Create a token copy of {thisName} attached to target creature you control. Activate this ability only if you control no token copies of {thisName}.
+        Learn Picto {costValue} (Sacrifice {WordifyNumber(costValue)} Lumina tokens: Create a token copy of {thisName} attached to target creature you control. Activate this ability only if you control no token copies of {thisName}.)
         """;
             text = text.Remove(startIdx, endIdx - startIdx + 1).Insert(startIdx, replacement);
         }
