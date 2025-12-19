@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 18/12/2025 4:36:16 pm
+> Last generated: 19/12/2025 8:53:42 am
 
 ## A Storm is Coming
 
@@ -279,6 +279,27 @@ Hmm. It's old chroma, not pure. It won't be like bringing the two of you back, b
 ### Design Notes
 
  - Intended to be a combo engine, just like Expedition 35 Bridge converts permanents to extra cards. This converts permanents to extra Chroma tokens.
+
+## Clair Obscur
+
+```
+4WB
+Creature - Nevron
+Performs a silencing combo — {2}{W}, {T}: Target creature an opponent controls loses all abilities until end of turn.
+Protects its allies — {1}{W}, {T}: Put a shield counter on target creature you control.
+Performs a weakening strike — {1}{B}, {T}: Target creature an opponent controls gets -1/-1 until end of turn.
+Applies rage on its allies — {1}{B}, {T}: Untap target creature you control.
+When this creature dies, target opponent creates a Lumina token.
+
+4/4
+```
+
+[card implementation](../custom/cards/c/clair_obscur.txt)
+
+### Design Notes
+
+ - In the game, Clair Obscur is a fusion of Clair and Obscur
+ - Gone with a literal stapling of Clair and Obscur's abilities, mana costs and P/T together
 
 ## Clea Dessendre, Seeking Vengeance
 

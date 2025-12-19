@@ -29,7 +29,7 @@ From this list, card designs are spawned from it, which will eventually form the
 
 ## Card Name List
 
-Cards implemented: 368
+Cards implemented: 369
 
 [x] - Card is implemented or in development, [C] - Card is a commander reprint, [R] - Card is a regular reprint, [N] - Card is a nickname reprint, [Z] - Card is a nickname reprint for commander [ ] - Card is not implemented
 
@@ -83,7 +83,7 @@ Cards implemented: 368
 [x] Chromatic Petrification
 [x] Chromatic Reclamation
 [x] Clair
-[ ] Clair Obscur
+[x] Clair Obscur
 [x] Clea Dessendre, Seeking Vengeance
 [x] Clea's Chromatic Mastery
 [x] Closure
@@ -391,11 +391,6 @@ No ideas yet.
 > Prologue
 > Sophie: See you.
 > Maelle: In the next life.
-
-No ideas yet.
-
-> Act 1
-> Lune: You do that and we both die
 
 No ideas yet.
 

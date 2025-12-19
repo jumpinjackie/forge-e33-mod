@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 18/12/2025 4:15:50 pm
+> Last generated: 19/12/2025 8:48:47 am
 
 ## Blot Out
 
@@ -245,8 +245,8 @@ When this creature dies, target opponent creates a Lumina token.
 ```
 2B
 Creature - Nevron
-{1}{B}, {T}: Target creature an opponent controls gets -1/-1 until end of turn.
-{1}{B}, {T}: Untap target creature you control.
+Performs a weakening strike — {1}{B}, {T}: Target creature an opponent controls gets -1/-1 until end of turn.
+Applies rage on its allies — {1}{B}, {T}: Untap target creature you control.
 When this creature dies, target opponent creates a Lumina token. (It's an artifact with "{T}, Sacrifice this artifact: Scry 1.")
 
 2/2

@@ -394,11 +394,6 @@ No ideas yet.
 
 No ideas yet.
 
-> Act 1
-> Lune: You do that and we both die
-
-No ideas yet.
-
 > Act 2: Visages
 > Monoco: Normally I enjoy a little destruction, but this doesn't feel right
 
