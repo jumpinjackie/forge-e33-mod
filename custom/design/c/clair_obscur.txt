@@ -1,0 +1,35 @@
+[Name]
+Clair Obscur
+[ManaCost]
+4
+W
+B
+[Types]
+Creature
+Nevron
+[Rarity]
+R
+[Artist]
+Sandfall Interactive
+[PT]
+4/4
+[Oracle]
+Performs a silencing combo — {2}{W}, {T}: Target creature an opponent controls loses all abilities until end of turn.
+Protects its allies — {1}{W}, {T}: Put a shield counter on target creature you control.
+Performs a weakening strike — {1}{B}, {T}: Target creature an opponent controls gets -1/-1 until end of turn.
+Applies rage on its allies — {1}{B}, {T}: Untap target creature you control.
+$NEVRON_DEATH_ABILITY_TEXT_SHORT
+[AbilityWords]
+Performs a silencing combo
+Protects its allies
+Performs a weakening strike
+Applies rage on its allies
+[ForgeScript]
+A:AB$ Animate | Cost$ 2 W T | ValidTgts$ Creature.OppCtrl | TgtPrompt$ Select target creature an opponent controls| RemoveAllAbilities$ True | SpellDescription$ Target creature an opponent controls loses all abilities until end of turn.
+A:AB$ PutCounter | Cost$ 1 W T | ValidTgts$ Creature.YouCtrl | TgtPrompt$ Select target creature you control | CounterType$ SHIELD | SpellDescription$ Put a shield counter on target creature you control.
+A:AB$ Pump | Cost$ 1 B T | ValidTgts$ Creature.OppCtrl | TgtPrompt$ Select target creature an opponent controls | NumAtt$ -1 | NumDef$ -1 | SpellDescription$ Target creature an opponent controls gets -1/-1 until end of turn.
+A:AB$ Untap | Cost$ 1 B T | ValidTgts$ Creature.YouCtrl | TgtPrompt$ Select target creature you control | SpellDescription$ Untap target creature you control.
+$NEVRON_DEATH_ABILITY
+[DesignNotes]
+ - In the game, Clair Obscur is a fusion of Clair and Obscur
+ - Gone with a literal stapling of Clair and Obscur's abilities, mana costs and P/T together
