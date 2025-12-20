@@ -1,0 +1,36 @@
+[Name]
+Pelerin
+[ManaCost]
+2
+U
+R
+[Types]
+Creature
+Nevron
+[Rarity]
+U
+[PT]
+2/4
+[Oracle]
+Whenever ~ is dealt damage from a red source, remove all counters from it and put a fire counter on it.
+Whenever ~ is dealt damage from a blue source, remove all counters from it and put an ice counter on it.
+~ has protection from red as long as it has a fire counter on it and protection from blue as long as it has an ice counter on it.
+Counterattack — When ~ is dealt combat damage, it deals that amount of damage to target creature an opponent controls.
+[AbilityWords]
+Counterattack
+[ForgeScript]
+T:Mode$ DamageDoneOnce | Execute$ TrigRemoveAllCountersBeforeFire | ValidTarget$ Card.Self | ValidSource$ Card.Red | TriggerZones$ Battlefield | TriggerDescription$ Whenever this creature is dealt damage from a red source, remove all counters from it and put a fire counter on it.
+T:Mode$ DamageDoneOnce | Execute$ TrigRemoveAllCountersBeforeIce | ValidTarget$ Card.Self | ValidSource$ Card.Blue | TriggerZones$ Battlefield | TriggerDescription$ Whenever this creature is dealt damage from a blue source, remove all counters from it and put an ice counter on it.
+SVar:TrigRemoveAllCountersBeforeFire:DB$ RemoveCounter | Defined$ Self | CounterType$ All | CounterNum$ All | StackDescription$ None | SubAbility$ DBFire
+SVar:TrigRemoveAllCountersBeforeIce:DB$ RemoveCounter | Defined$ Self | CounterType$ All | CounterNum$ All | StackDescription$ None | SubAbility$ DBIce
+SVar:DBFire:DB$ PutCounter | Defined$ Self | CounterType$ FIRE | CounterNum$ 1
+SVar:DBIce:DB$ PutCounter | Defined$ Self | CounterType$ ICE | CounterNum$ 1
+S:Mode$ Continuous | Affected$ Card.Self+counters_GE1_FIRE | AddKeyword$ Protection from red | Description$ ~ has protection from red as long as it has a fire counter on it.
+S:Mode$ Continuous | Affected$ Card.Self+counters_GE1_ICE | AddKeyword$ Protection from blue | Description$ ~ has protection from blue as long as it has an ice counter on it.
+T:Mode$ DamageDoneOnce | CombatDamage$ True | ValidTarget$ Card.Self | Execute$ TrigReflectDamage | TriggerDescription$ When ~ is dealt combat damage, it deals that amount of damage to target creature an opponent controls.
+SVar:TrigReflectDamage:DB$ DealDamage | ValidTgts$ Creature.OppCtrl | TgtPrompt$ Select target creature an opponent controls | NumDmg$ X
+SVar:X:TriggerCount$DamageAmount
+[DesignNotes]
+ - In the game, Pelerins can be encountered in Frozen Hearts
+ - Has the same "flip-flop" elemental immunity as Stalact and Gargant, so has the same flip-flop protection.
+ - Copied counterattack ability from Boucheclier as this is its primary gimmick in the game (always retaliating against whoever dealt damage to it)
