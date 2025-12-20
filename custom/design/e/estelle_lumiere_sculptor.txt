@@ -1,0 +1,29 @@
+[Name]
+Estelle, Lumière Sculptor
+[InvariantName]
+Estelle, Lumiere Sculptor
+[ManaCost]
+1
+W
+U
+[Types]
+Legendary
+Creature
+Human
+Citizen
+Artificer
+[Rarity]
+R
+[PT]
+1/4
+[Oracle]
+{W}{U}, {T}: Target noncreature artifact becomes a copy of target creature until end of turn, except it is an artifact in addition to its other types.
+$EXPEDITIONER_DEATH_ABILITY_TEXT
+[FlavorText]
+I just finished my sculpture of the legendary Esquie. This may be my life’s finest work, yet not a single soul seems to care. How could I make it better?
+[ForgeScript]
+A:AB$ Clone | Cost$ W U T | Choices$ Creature | AddTypes$ Artifact | ChoiceTitle$ Choose a creature to copy | ValidTgts$ Artifact.!creature | TgtPrompt$ Choose target noncreature artifact become a copy | Duration$ UntilEndOfTurn | StackDescription$ SpellDescription | SpellDescription$ Target noncreature artifact becomes a copy of target creature until end of turn, except it is an artifact in addition to its other types.
+$EXPEDITIONER_DEATH_ABILITY
+[DesignNotes]
+ - In the game's prologue, Estelle (if spoken to) asks Sophie how to make her sculpture of Esquie stand out more.
+ - Mapped sculpting to a creature clone ability the targets noncreature artifacts (the "clay" that she'll turn into a creature)

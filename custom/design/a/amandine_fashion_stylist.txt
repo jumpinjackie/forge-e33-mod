@@ -1,0 +1,28 @@
+[Name]
+Amandine, Fashion Stylist
+[ManaCost]
+1
+W
+[Types]
+Legendary
+Creature
+Human
+Citizen
+[PT]
+1/2
+[Rarity]
+U
+[Artist]
+Sandfall Interactive
+[Oracle]
+{W}, {T}: Attach target Equipment you control to target creature you control.
+$EXPEDITIONER_DEATH_ABILITY_TEXT
+[FlavorText]
+Oh hey handsome, perfect timing. I’m styling everyone before we ship out. Gotta look sharp when we hit the Paintress, eh?
+[ForgeScript]
+A:AB$ Pump | Cost$ W T | ValidTgts$ Equipment.YouCtrl | TgtPrompt$ Select target equipment you control | SubAbility$ WindwalkerAttach | StackDescription$ None | SpellDescription$ Attach target Equipment you control to target creature you control.
+SVar:WindwalkerAttach:DB$ Attach | Object$ ParentTarget | ValidTgts$ Creature.YouCtrl | TgtPrompt$ Select target creature you control
+$EXPEDITIONER_DEATH_ABILITY
+[DesignNotes]
+ - In the game's prologue, Amandine can be found at the Expedition Festival. You can trade her a festival token for a haircut.
+ - Mechanically translated fashion to equipment, hence Amandine main ability is being able to attach equipment to other creatures.

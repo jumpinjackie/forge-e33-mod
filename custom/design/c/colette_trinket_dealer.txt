@@ -1,0 +1,30 @@
+[Name]
+Colette, Trinket Dealer
+[ManaCost]
+1
+U
+[Types]
+Legendary
+Creature
+Human
+Citizen
+[PT]
+1/2
+[Rarity]
+U
+[Artist]
+Sandfall Interactive
+[Oracle]
+Whenever you cast an artifact spell, you may draw a card. If you do, discard a card.
+Artifact spells you cast cost {1} less to cast.
+$EXPEDITIONER_DEATH_ABILITY_TEXT
+[FlavorText]
+Hello there, Gustave. Perhaps one of these artifacts may prove useful to your mission?
+[ForgeScript]
+T:Mode$ SpellCast | ValidCard$ Artifact | ValidActivatingPlayer$ You | Execute$ TrigLoot | TriggerZones$ Battlefield | TriggerDescription$ Whenever you cast an artifact spell, you may draw a card. If you do, discard a card.
+SVar:TrigLoot:AB$ Discard | Defined$ You | Mode$ TgtChoose | NumCards$ 1 | Cost$ Draw<1/You>
+S:Mode$ ReduceCost | ValidCard$ Artifact | Type$ Spell | Activator$ You | Amount$ 1 | Description$ Artifact spells you cast cost {1} less to cast.
+$EXPEDITIONER_DEATH_ABILITY
+[DesignNotes]
+ - In the game's prologue, Colette can be found at the Expedition Festival. You can trade her a festival token for an old key, which unlocks a gate in Old Lumiere where a Fracture Survivor journal can be found.
+ - Since she deals with all things artifacts and trinkets, gone with a mashup of Etherium Sculptor and a Riddlesmith looting trigger.

@@ -1,0 +1,9 @@
+Name:Antoine, Lumière Historian
+ManaCost:1 U
+Types:Legendary Creature Human Citizen
+PT:1/2
+T:Mode$ SpellCast | ValidCard$ Card.Historic | ValidActivatingPlayer$ You | Execute$ TrigDraw | TriggerZones$ Battlefield | TriggerDescription$ Whenever you cast a historic spell, draw a card. (Artifacts, legendaries, and Sagas are historic.)
+SVar:TrigDraw:DB$ Draw | NumCards$ 1
+T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Card.Self | Execute$ TrigToken | TriggerDescription$ When CARDNAME dies, create a Chroma token
+SVar:TrigToken:DB$ Token | TokenScript$ c_a_chroma | TokenOwner$ You | TokenAmount$ 1
+Oracle:Whenever you cast a historic spell, draw a card. (Artifacts, legendaries, and Sagas are historic.)\nWhen this creature dies, create a Chroma token.

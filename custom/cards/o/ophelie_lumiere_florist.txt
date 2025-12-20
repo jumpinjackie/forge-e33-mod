@@ -1,0 +1,8 @@
+Name:Ophelie, Lumière Florist
+ManaCost:1 G
+Types:Legendary Creature Human Citizen
+PT:1/2
+A:AB$ Token | Cost$ T | TokenAmount$ 1 | TokenOwner$ You | TokenScript$ c_a_flower | SpellDescription$ Create a Flower token (It's an artifact with "{T}, Sacrifice this artifact: Add {U}, {R} or {G}.")
+T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Card.Self | Execute$ TrigToken | TriggerDescription$ When CARDNAME dies, create a Chroma token
+SVar:TrigToken:DB$ Token | TokenScript$ c_a_chroma | TokenOwner$ You | TokenAmount$ 1
+Oracle:{T}: Create a Flower token. (It’s an artifact with “{T}, Sacrifice this artifact: Add {U}, {R} or {G}.”)\nWhen this creature dies, create a Chroma token.

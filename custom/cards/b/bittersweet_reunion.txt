@@ -1,0 +1,10 @@
+Name:Bittersweet Reunion
+ManaCost:W B
+Types:Enchantment
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigDiscard | TriggerDescription$ When this enchantment enters, target opponent discards a card and you lose 2 life.
+SVar:TrigDiscard:DB$ Discard | ValidTgts$ Opponent | Mode$ TgtChoose | NumCards$ 1 | SubAbility$ DBLifeLoss
+SVar:DBLifeLoss:DB$ LoseLife | LifeAmount$ 2
+A:AB$ Charm | Cost$ Sac<1/CARDNAME> | Choices$ DBPump,DBHexproof
+SVar:DBPump:DB$ PumpAll | ValidCards$ Creature.YouCtrl | NumAtt$ +1 | NumDef$ +1 | SpellDescription$ Creatures you control get +1/+1 until end of turn.
+SVar:DBHexproof:DB$ PumpAll | ValidCards$ Creature.YouCtrl | KW$ Hexproof | SpellDescription$ Creatures you control gain hexproof until end of turn. (They can't be the targets of spells or abilities your opponents control.)
+Oracle:When this enchantment enters, target opponent discards a card and you lose 2 life.\nSacrifice this enchantment: Choose one —\n• Creatures you control get +1/+1 until end of turn.\n• Creatures you control gain hexproof until end of turn. (They can’t be the targets of spells or abilities your opponents control.)

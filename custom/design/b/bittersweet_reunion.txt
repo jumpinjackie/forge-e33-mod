@@ -1,0 +1,32 @@
+[Name]
+Bittersweet Reunion
+[ManaCost]
+W
+B
+[Types]
+Enchantment
+[Rarity]
+C
+[Artist]
+Sandfall Interactive
+[Oracle]
+When this enchantment enters, target opponent discards a card and you lose 2 life.
+Sacrifice this enchantment: Choose one —
+• Creatures you control get +1/+1 until end of turn.
+• Creatures you control gain hexproof until end of turn. (They can’t be the targets of spells or abilities your opponents control.)
+[FlavorText]
+Maelle: If you’re gonna give someone flowers, you should probably do it before they wither and die.
+Gustave: What? The flower? Or Sophie?
+Maelle: Ooh dark. Sophie would approve.
+[ForgeScript]
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigDiscard | TriggerDescription$ When this enchantment enters, target opponent discards a card and you lose 2 life.
+SVar:TrigDiscard:DB$ Discard | ValidTgts$ Opponent | Mode$ TgtChoose | NumCards$ 1 | SubAbility$ DBLifeLoss
+SVar:DBLifeLoss:DB$ LoseLife | LifeAmount$ 2
+A:AB$ Charm | Cost$ Sac<1/CARDNAME> | Choices$ DBPump,DBHexproof
+SVar:DBPump:DB$ PumpAll | ValidCards$ Creature.YouCtrl | NumAtt$ +1 | NumDef$ +1 | SpellDescription$ Creatures you control get +1/+1 until end of turn.
+SVar:DBHexproof:DB$ PumpAll | ValidCards$ Creature.YouCtrl | KW$ Hexproof | SpellDescription$ Creatures you control gain hexproof until end of turn. (They can't be the targets of spells or abilities your opponents control.)
+[DesignNotes]
+ - In the game's prologue, Gustave reunites with Sophie on the day of her gommage. It is undoubtedly a bittersweet reunion.
+ - The base template is Family Reunion, it was a case of how best to weave in the "Bittersweet" aspect.
+ - Gone with an enchantment that triggers an oppoent discard and life loss (the Bittersweet part)
+ - The "Family Reunion" part is an ability activated through saccing the enchantment.

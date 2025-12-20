@@ -1,0 +1,8 @@
+Name:Estelle, Lumière Sculptor
+ManaCost:1 W U
+Types:Legendary Creature Human Citizen Artificer
+PT:1/4
+A:AB$ Clone | Cost$ W U T | Choices$ Creature | AddTypes$ Artifact | ChoiceTitle$ Choose a creature to copy | ValidTgts$ Artifact.!creature | TgtPrompt$ Choose target noncreature artifact become a copy | Duration$ UntilEndOfTurn | StackDescription$ SpellDescription | SpellDescription$ Target noncreature artifact becomes a copy of target creature until end of turn, except it is an artifact in addition to its other types.
+T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Card.Self | Execute$ TrigToken | TriggerDescription$ When CARDNAME dies, create a Chroma token
+SVar:TrigToken:DB$ Token | TokenScript$ c_a_chroma | TokenOwner$ You | TokenAmount$ 1
+Oracle:{W}{U}, {T}: Target noncreature artifact becomes a copy of target creature until end of turn, except it is an artifact in addition to its other types.\nWhen this creature dies, create a Chroma token.

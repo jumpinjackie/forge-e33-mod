@@ -1,0 +1,29 @@
+[Name]
+Ophelie, Lumière Florist
+[InvariantName]
+Ophelie, Lumiere Florist
+[ManaCost]
+1
+G
+[Types]
+Legendary
+Creature
+Human
+Citizen
+[PT]
+1/2
+[Rarity]
+U
+[Artist]
+Sandfall Interactive
+[Oracle]
+{T}: Create a Flower token. (It’s an artifact with “{T}, Sacrifice this artifact: Add {U}, {R} or {G}.”)
+$EXPEDITIONER_DEATH_ABILITY_TEXT
+[FlavorText]
+Hi Gustave. You’re back. Did you want to pick out a different flower?
+[ForgeScript]
+A:AB$ Token | Cost$ T | TokenAmount$ 1 | TokenOwner$ You | TokenScript$ c_a_flower | SpellDescription$ Create a Flower token (It's an artifact with "{T}, Sacrifice this artifact: Add {U}, {R} or {G}.")
+$EXPEDITIONER_DEATH_ABILITY
+[DesignNotes]
+ - In the game, Ophelie operates a stand in the Lumière flower market.
+ - Easy map to a creature that makes Flower tokens.

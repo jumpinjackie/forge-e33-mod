@@ -1,0 +1,30 @@
+[Name]
+Antoine, Lumière Historian
+[InvariantName]
+Antoine, Lumiere Historian
+[ManaCost]
+1
+U
+[Types]
+Legendary
+Creature
+Human
+Citizen
+[PT]
+1/2
+[Rarity]
+U
+[Artist]
+Sandfall Interactive
+[Oracle]
+Whenever you cast a historic spell, draw a card. (Artifacts, legendaries, and Sagas are historic.)
+$EXPEDITIONER_DEATH_ABILITY_TEXT
+[FlavorText]
+Ahem. I hereby offically end our feud. With your departure, Lumière loses a brillant light. And a good friend ...
+[ForgeScript]
+T:Mode$ SpellCast | ValidCard$ Card.Historic | ValidActivatingPlayer$ You | Execute$ TrigDraw | TriggerZones$ Battlefield | TriggerDescription$ Whenever you cast a historic spell, draw a card. (Artifacts, legendaries, and Sagas are historic.)
+SVar:TrigDraw:DB$ Draw | NumCards$ 1
+$EXPEDITIONER_DEATH_ABILITY
+[DesignNotes]
+ - In the game's prologue, Antoine can be found at the Expedition Festival. Answer his quiz successfully and you'll get a festival token as a reward.
+ - Given his extensive historical knowledge, it's an easy mechanical map to something that triggers off of casting historic spells, in the case: Card draw.

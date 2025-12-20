@@ -1,0 +1,30 @@
+[Name]
+Nicolas, Seeking Inspiration
+[InvariantName]
+Nicolas, Seeking Inspiration
+[ManaCost]
+W
+U
+[Types]
+Legendary
+Creature
+Human
+Painter
+Citizen
+[PT]
+1/3
+[Rarity]
+U
+[Artist]
+Sandfall Interactive
+[Oracle]
+{T}, Sacrifice a Chroma token: Draw a card.
+$EXPEDITIONER_DEATH_ABILITY_TEXT
+[FlavorText]
+I know, how about showing me a dance of love and sorrow? I am also the official painter of the Opera. Will you help me? If you inspire me, you may become the main painting of Lumière’s Opera.
+[ForgeScript]
+A:AB$ Draw | Cost$ T Sac<1/Chroma> | NumCards$ 1 | SpellDescription$ Draw a card.
+$EXPEDITIONER_DEATH_ABILITY
+[DesignNotes]
+ - In the game's prologue, Nicolas (if spoken to) asks you (Gustave) do dodge Sophie's attacks to inspire him with this painting. This is really just a thinly veiled tutorial on dodging attacks.
+ - Mapped inspiration to saccing chroma tokens (Chroma being the "paint/lifeforce" of this world) for card draw.
