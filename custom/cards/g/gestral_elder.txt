@@ -1,0 +1,9 @@
+Name:Gestral Elder
+ManaCost:3
+Types:Artifact Creature Gestral
+PT:*/*
+S:Mode$ Continuous | CharacteristicDefining$ True | SetPower$ X | SetToughness$ X | Description$ CARDNAME’s power and toughness are each equal to the number of Gestrals on the battlefield.
+SVar:X:Count$Valid Creature.Gestral
+S:Mode$ CantBlock | ValidCard$ Card.Self | Description$ CARDNAME can't block.
+K:CARDNAME can only attack alone.
+Oracle:This creature’s power and toughness are each equal to the number of Gestrals on the battlefield.\nThis creature can't block.\nThis creature can only attack alone.

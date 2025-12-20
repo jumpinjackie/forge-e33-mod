@@ -1,0 +1,23 @@
+[Name]
+Gestral Elder
+[ManaCost]
+3
+[Types]
+Artifact
+Creature
+Gestral
+[PT]
+*/*
+[Rarity]
+U
+[Oracle]
+~’s power and toughness are each equal to the number of Gestrals on the battlefield.
+~ can't block.
+~ can only attack alone.
+[Artist]
+Sandfall Interactive
+[ForgeScript]
+S:Mode$ Continuous | CharacteristicDefining$ True | SetPower$ X | SetToughness$ X | Description$ ~’s power and toughness are each equal to the number of Gestrals on the battlefield.
+SVar:X:Count$Valid Creature.Gestral
+S:Mode$ CantBlock | ValidCard$ Card.Self | Description$ CARDNAME can't block.
+K:CARDNAME can only attack alone.
