@@ -1,0 +1,20 @@
+[Name]
+Lumière Harbor
+[InvariantName]
+Lumiere Harbor
+[Types]
+Land
+[IsReprint]
+true
+[NicknameFor]
+Rishadan Port
+[Rarity]
+R
+[Artist]
+Sandfall Interactive
+[FlavorText]
+I’ve always loved the harbor.
+- Sophie
+[DesignNotes]
+ - In the game, the harbor of Lumière is where the population congregate to witness the yearly Gommage.
+ - Easy nicknamed reprint of Rishadan Port. Due to the heavy ratio of non-basic lands in this set, we need anything that can check them.

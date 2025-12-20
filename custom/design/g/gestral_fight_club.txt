@@ -1,0 +1,19 @@
+[Name]
+Gestral Fight Club
+[ManaCost]
+3
+R
+[IsReprint]
+true
+[Rarity]
+U
+[NicknameFor]
+Grand Melee
+[FlavorText]
+The first rule is ...
+[Artist]
+Sandfall Interactive
+[DesignNotes]
+ - In the game, there is a hidden Gestral Arena where the party can fight gestrals for rewards.
+ - Nicknamed reprint of Grand Melee
+ - Flavor text a play on the movie: Fight Club
