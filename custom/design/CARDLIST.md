@@ -43,11 +43,13 @@ Acceptance
 Alicia Dessendre, Silenced by Fire
 Alicia's Birthday Party
 All Set
+Amandine, Fashion Stylist
 An Advantage!
 Ancient Sanctuary
 Anger
 Anti-Burn Picto
 Anti-Freeze Picto
+Antoine, Lumière Historian
 Attack Lifesteal Picto
 Attack Picto
 Ballet
@@ -56,6 +58,7 @@ Barrier Breaker
 Bénisseur
 Berrami, Collector of Journals
 Bertrand Big Hands
+Bittersweet Reunion
 Blade's Graveyard
 Blanche, the Unfinished Creation
 Boat Graveyard
@@ -87,6 +90,7 @@ Clair Obscur
 Clea Dessendre, Seeking Vengeance
 Clea's Chromatic Mastery
 Closure
+Colette, Trinket Dealer
 Crimson Forest
 Crippling Tsunami
 Cruler
@@ -107,6 +111,7 @@ Dorrie
 Dualliste
 Earth Rising
 Egide
+Emma, Lumière Chief Councilor
 Endless Tower
 Endless Night Sanctuary
 Energy Tint
@@ -115,8 +120,10 @@ Esoteric Ruins
 Esquie, Friend of Verso
 Esquie's Magic Mushrooms
 Esquie's Nest
+Estelle, Lumière Sculptor
 Eternal Ice
 Évêque
+Expedition Academy
 Expedition 00 Tracker
 Expedition 32 Trainees
 Expedition 34 Mage
@@ -183,6 +190,8 @@ Gestral Beach
 Gestral Bodyguard
 Gestral Climbing Challenge
 Gestral Doctor
+Gestral Elder
+Gestral Fight Club
 Gestral Fighter
 Gestral Foot Race Challenge
 Gestral Lackey
@@ -198,8 +207,9 @@ Gestral Warrior
 Gestral Worker
 Get Out Of My Way!
 Giant Sapling
+Glaise
 Goblu
-Golgra, Gestral Chief
+Golgra, Gestral Chef
 Gommage
 Gradient Charge
 Gradient Counter
@@ -234,6 +244,7 @@ Lost Woods
 Lumière Aquafarm
 Lumière Assault
 Lumière Flower Stand
+Lumière Harbor
 Lumière Opera House
 Lumière, The Last Bastion
 Lumière Trashcan
@@ -263,11 +274,13 @@ Monoco's Station
 Mutinous Expedition 48 Soldier
 Nevron Disguise
 Nevron Pecking Order
+Nicolas, Seeking Inspiration
 Noco, The Greatest Merchant
 Noir
 Obscur
 Offensive Switch
 Ono-Puncho
+Ophelie, Lumière Florist
 Orphelin
 Paint Cage
 Paint Spike
@@ -277,6 +290,7 @@ Painted Love
 Painted Renoir, Aline's Enforcer
 Painting Workshop
 Payback
+Pelerin
 Percee
 Perfect Dodge
 Persuasive Argument
@@ -385,6 +399,21 @@ No ideas yet.
 > Sophie: Sometimes I feel sorry for her.
 > Gustave: Who, the- the Paintress??
 > Sophie: Look at her. She looks... sad. Maybe she's a prisoner too. Stuck in the same cycle with us.
+
+No ideas yet.
+
+> Prologue
+> Sophie: But I have hope that you and Gustave will change things, so no one has to go through this impossibe choice again.
+
+No ideas yet.
+
+> Prologue
+> Emma: You and I both know the political complexities that necessitate the Expedition. It is vital for morale, but it's a bloodless guillotine, is what it is.
+
+Flavor text for Emma
+
+> Prologue
+> Emma: We're her guardians, not her jailers.
 
 No ideas yet.
 

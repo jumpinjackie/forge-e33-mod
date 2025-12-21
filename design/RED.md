@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 18/12/2025 2:29:03 pm
+> Last generated: 20/12/2025 2:30:01 pm
 
 ## Anger
 
@@ -211,6 +211,16 @@ Yahoo! I can sell stuff! You gots Chroma, yeh?
 ### Design Notes
 
  - Gestral-aligned functional reprint of Tin Street Market
+
+## Gestral Fight Club (Grand Melee)
+
+> This card is a nicknamed reprint of (Grand Melee)
+[Scryfall](https://scryfall.com/search?q=Grand Melee)
+### Notes
+
+ - In the game, there is a hidden Gestral Arena where the party can fight gestrals for rewards.
+ - Nicknamed reprint of Grand Melee
+ - Flavor text a play on the movie: Fight Club
 
 ## Gestral Volleyball Strike
 

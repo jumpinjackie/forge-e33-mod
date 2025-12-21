@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 18/12/2025 2:39:40 pm
+> Last generated: 20/12/2025 2:34:34 pm
 
 ## A Rock for François
 
@@ -553,6 +553,23 @@ Even if there is no competition here because everyone is dumb, I pushed myself t
 ### Design Notes
 
  - Draft/limited filler to round out the creature roster.
+
+## Gestral Elder
+
+```
+3
+Artifact Creature - Gestral
+This creature’s power and toughness are each equal to the number of Gestrals on the battlefield.
+This creature can't block.
+This creature can only attack alone.
+
+*/*
+```
+
+[card implementation](../custom/cards/g/gestral_elder.txt)
+
+### Design Notes
+
 
 ## Gestral Fighter
 

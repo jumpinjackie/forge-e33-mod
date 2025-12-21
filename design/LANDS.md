@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 17/12/2025 1:16:15 pm
+> Last generated: 20/12/2025 2:30:01 pm
 
 ## Abbest Cave
 
@@ -326,6 +326,15 @@ The Aquafarm project ensured that Lumière would have a plentiful supply of food
  - This gives us an opportunity to add another dual land to this set.
  - Obviously expeditioner aligned so they get a ETB tapped sidestep.
  - It's a farm so obviously needs a Food token generating ability.
+
+## Lumière Harbor (Rishadan Port)
+
+> This card is a nicknamed reprint of (Rishadan Port)
+[Scryfall](https://scryfall.com/search?q=Rishadan Port)
+### Notes
+
+ - In the game, the harbor of Lumière is where the population congregate to witness the yearly Gommage.
+ - Easy nicknamed reprint of Rishadan Port. Due to the heavy ratio of non-basic lands in this set, we need anything that can check them.
 
 ## Lumière Opera House
 

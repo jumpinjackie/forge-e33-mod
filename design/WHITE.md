@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 18/12/2025 4:36:16 pm
+> Last generated: 20/12/2025 3:29:02 pm
 
 ## A Life to Love (Farewell)
 
@@ -66,6 +66,26 @@ If {G} was spent on this spell, creatures you control get +2/+0 until end of tur
 
  - In the game, All Set is one of Sciel's abilities. It grants Shell, Powerful and Rush to your entire party.
  - Mapped to an instant that grants toughness boost (Shell), with haste (Rush) and power boost (Powerful) if the appropriate colors of mana are spent.
+
+## Amandine, Fashion Stylist
+
+```
+1W
+Legendary Creature - Human Citizen
+{W}, {T}: Attach target Equipment you control to target creature you control.
+When this creature dies, create a Chroma token.
+---
+Oh hey handsome, perfect timing. I’m styling everyone before we ship out. Gotta look sharp when we hit the Paintress, eh?
+
+1/2
+```
+
+[card implementation](../custom/cards/a/amandine_fashion_stylist.txt)
+
+### Design Notes
+
+ - In the game's prologue, Amandine can be found at the Expedition Festival. You can trade her a festival token for a haircut.
+ - Mechanically translated fashion to equipment, hence Amandine main ability is being able to attach equipment to other creatures.
 
 ## Austere Command
 

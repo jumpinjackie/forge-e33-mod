@@ -4,7 +4,7 @@
 
 Images listed are cards first, then tokens.
 
-# Clair Obscur: Expedition 33 (E33) [287/330 cards]
+# Clair Obscur: Expedition 33 (E33) [290/330 cards]
 | | | |
 |---|---|---|
 | ![](../custom/pics/cards/E33/Jar.full.jpg) | ![](../custom/pics/cards/E33/Petank.full.jpg) | ![](../custom/pics/cards/E33/Acceptance.full.jpg) |
@@ -42,18 +42,19 @@ Images listed are cards first, then tokens.
 | ![](../custom/pics/cards/E33/Thunderfall.full.jpg) | ![](../custom/pics/cards/E33/Ultimate%20Sakapatate.full.jpg) | ![](../custom/pics/cards/E33/Abbest.full.jpg) |
 | ![](../custom/pics/cards/E33/All%20Suns%27%20Dawn.full.jpg) | ![](../custom/pics/cards/E33/Bargaining.full.jpg) | ![](../custom/pics/cards/E33/Expedition%2035%20Bridge.full.jpg) |
 | ![](../custom/pics/cards/E33/Expedition%2069.full.jpg) | ![](../custom/pics/cards/E33/Explore.full.jpg) | ![](../custom/pics/cards/E33/Gault.full.jpg) |
-| ![](../custom/pics/cards/E33/Gestral%20Climbing%20Challenge.full.jpg) | ![](../custom/pics/cards/E33/Lancelier.full.jpg) | ![](../custom/pics/cards/E33/Ophelie%2C%20Lumiere%20Florist.full.jpg) |
-| ![](../custom/pics/cards/E33/Portier.full.jpg) | ![](../custom/pics/cards/E33/Revitalization.full.jpg) | ![](../custom/pics/cards/E33/Rock%20Throw.full.jpg) |
-| ![](../custom/pics/cards/E33/Shrine%20to%20The%20Paintress.full.jpg) | ![](../custom/pics/cards/E33/Volester.full.jpg) | ![](../custom/pics/cards/E33/A%20Storm%20is%20Coming.full.jpg) |
-| ![](../custom/pics/cards/E33/Aberration.full.jpg) | ![](../custom/pics/cards/E33/Alicia%20Dessendre%2C%20Silenced%20by%20Fire.full.jpg) | ![](../custom/pics/cards/E33/Ballet.full.jpg) |
-| ![](../custom/pics/cards/E33/Benisseur.full.jpg) | ![](../custom/pics/cards/E33/Bittersweet%20Reunion.full.jpg) | ![](../custom/pics/cards/E33/Bourgeon.full.jpg) |
-| ![](../custom/pics/cards/E33/Braseleur.full.jpg) | ![](../custom/pics/cards/E33/Breaking%20Rules.full.jpg) | ![](../custom/pics/cards/E33/Chorale.full.jpg) |
-| ![](../custom/pics/cards/E33/Chromatic%20Petrification.full.jpg) | ![](../custom/pics/cards/E33/Chromatic%20Rebirth.full.jpg) | ![](../custom/pics/cards/E33/Chromatic%20Reclamation.full.jpg) |
-| ![](../custom/pics/cards/E33/Clair%20Obscur.full.jpg) | ![](../custom/pics/cards/E33/Clea%20Dessendre%2C%20Seeking%20Vengeance.full.jpg) | ![](../custom/pics/cards/E33/Closure.full.jpg) |
-| ![](../custom/pics/cards/E33/Contortionniste.full.jpg) | ![](../custom/pics/cards/E33/Danseuse.full.jpg) | ![](../custom/pics/cards/E33/Dualliste.full.jpg) |
-| ![](../custom/pics/cards/E33/Elemental%20Trick.full.jpg) | ![](../custom/pics/cards/E33/Esquie%2C%20Friend%20of%20Verso.full.jpg) | ![](../custom/pics/cards/E33/Esquie%27s%20Rescue.full.jpg) |
-| ![](../custom/pics/cards/E33/Estelle%2C%20Lumiere%20Sculptor.full.jpg) | ![](../custom/pics/cards/E33/Eveque.full.jpg) | ![](../custom/pics/cards/E33/Expedition%2078%20Airship.full.jpg) |
-| ![](../custom/pics/cards/E33/FinesseGrace.full.jpg) | ![](../custom/pics/cards/E33/Full%20Deck.full.jpg) | ![](../custom/pics/cards/E33/Gargant.full.jpg) |
+| ![](../custom/pics/cards/E33/Gestral%20Climbing%20Challenge.full.jpg) | ![](../custom/pics/cards/E33/Lancelier.full.jpg) | ![](../custom/pics/cards/E33/Nevron%20Disguise.full.jpg) |
+| ![](../custom/pics/cards/E33/Ophelie%2C%20Lumiere%20Florist.full.jpg) | ![](../custom/pics/cards/E33/Portier.full.jpg) | ![](../custom/pics/cards/E33/Revitalization.full.jpg) |
+| ![](../custom/pics/cards/E33/Rock%20Throw.full.jpg) | ![](../custom/pics/cards/E33/Shrine%20to%20The%20Paintress.full.jpg) | ![](../custom/pics/cards/E33/Volester.full.jpg) |
+| ![](../custom/pics/cards/E33/A%20Storm%20is%20Coming.full.jpg) | ![](../custom/pics/cards/E33/Aberration.full.jpg) | ![](../custom/pics/cards/E33/Alicia%20Dessendre%2C%20Silenced%20by%20Fire.full.jpg) |
+| ![](../custom/pics/cards/E33/Ballet.full.jpg) | ![](../custom/pics/cards/E33/Benisseur.full.jpg) | ![](../custom/pics/cards/E33/Bittersweet%20Reunion.full.jpg) |
+| ![](../custom/pics/cards/E33/Bourgeon.full.jpg) | ![](../custom/pics/cards/E33/Braseleur.full.jpg) | ![](../custom/pics/cards/E33/Breaking%20Rules.full.jpg) |
+| ![](../custom/pics/cards/E33/Chorale.full.jpg) | ![](../custom/pics/cards/E33/Chromatic%20Petrification.full.jpg) | ![](../custom/pics/cards/E33/Chromatic%20Rebirth.full.jpg) |
+| ![](../custom/pics/cards/E33/Chromatic%20Reclamation.full.jpg) | ![](../custom/pics/cards/E33/Clair%20Obscur.full.jpg) | ![](../custom/pics/cards/E33/Clea%20Dessendre%2C%20Seeking%20Vengeance.full.jpg) |
+| ![](../custom/pics/cards/E33/Closure.full.jpg) | ![](../custom/pics/cards/E33/Contortionniste.full.jpg) | ![](../custom/pics/cards/E33/Danseuse.full.jpg) |
+| ![](../custom/pics/cards/E33/Dualliste.full.jpg) | ![](../custom/pics/cards/E33/Elemental%20Trick.full.jpg) | ![](../custom/pics/cards/E33/Esquie%2C%20Friend%20of%20Verso.full.jpg) |
+| ![](../custom/pics/cards/E33/Esquie%27s%20Rescue.full.jpg) | ![](../custom/pics/cards/E33/Estelle%2C%20Lumiere%20Sculptor.full.jpg) | ![](../custom/pics/cards/E33/Eveque.full.jpg) |
+| ![](../custom/pics/cards/E33/Expedition%2059.full.jpg) | ![](../custom/pics/cards/E33/Expedition%2078%20Airship.full.jpg) | ![](../custom/pics/cards/E33/FinesseGrace.full.jpg) |
+| ![](../custom/pics/cards/E33/Florian%2C%20Lumiere%20Doomsayer.full.jpg) | ![](../custom/pics/cards/E33/Full%20Deck.full.jpg) | ![](../custom/pics/cards/E33/Gargant.full.jpg) |
 | ![](../custom/pics/cards/E33/Gestral%20Foot%20Race%20Challenge.full.jpg) | ![](../custom/pics/cards/E33/Gestral%20Parkour%20Challenge.full.jpg) | ![](../custom/pics/cards/E33/Gestral%20Raft%20Volleyball%20Challenge.full.jpg) |
 | ![](../custom/pics/cards/E33/Giant%20Sapling.full.jpg) | ![](../custom/pics/cards/E33/Goblu.full.jpg) | ![](../custom/pics/cards/E33/Gommage.full.jpg) |
 | ![](../custom/pics/cards/E33/Grandis%20Merchant.full.jpg) | ![](../custom/pics/cards/E33/Greatsword%20Cultist.full.jpg) | ![](../custom/pics/cards/E33/Gustave%2C%20Lumiere%20Engineer.full.jpg) |

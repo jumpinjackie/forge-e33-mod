@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 19/12/2025 8:53:42 am
+> Last generated: 20/12/2025 3:08:07 pm
 
 ## A Storm is Coming
 
@@ -120,6 +120,30 @@ When this creature dies, target opponent creates a Lumina token.
  - 13/10/2025: Removed Devoid and pivoted to WG instead of WR.
  - 21/10/2025: Granted a series of defensive abilities
  - 4/11/2025: Change color identity from WG to GR. All abilities costing white mana now cost red.
+
+## Bittersweet Reunion
+
+```
+WB
+Enchantment
+When this enchantment enters, target opponent discards a card and you lose 2 life.
+Sacrifice this enchantment: Choose one —
+• Creatures you control get +1/+1 until end of turn.
+• Creatures you control gain hexproof until end of turn. (They can’t be the targets of spells or abilities your opponents control.)
+---
+Maelle: If you’re gonna give someone flowers, you should probably do it before they wither and die.
+Gustave: What? The flower? Or Sophie?
+Maelle: Ooh dark. Sophie would approve.
+```
+
+[card implementation](../custom/cards/b/bittersweet_reunion.txt)
+
+### Design Notes
+
+ - In the game's prologue, Gustave reunites with Sophie on the day of her gommage. It is undoubtedly a bittersweet reunion.
+ - The base template is Family Reunion, it was a case of how best to weave in the "Bittersweet" aspect.
+ - Gone with an enchantment that triggers an oppoent discard and life loss (the Bittersweet part)
+ - The "Family Reunion" part is an ability activated through saccing the enchantment.
 
 ## Bourgeon
 
@@ -483,6 +507,26 @@ Esquie: I heard you, so I came.
  - In the game, Sciel discovers that Esquie saved her from drowning in the past, thus explaining why he referred to her as "my poor swimmer friend"
  - Modeled as a bounce spell with various bonuses stapled on.
 
+## Estelle, Lumière Sculptor
+
+```
+1WU
+Legendary Creature - Human Citizen Artificer
+{W}{U}, {T}: Target noncreature artifact becomes a copy of target creature until end of turn, except it is an artifact in addition to its other types.
+When this creature dies, create a Chroma token.
+---
+I just finished my sculpture of the legendary Esquie. This may be my life’s finest work, yet not a single soul seems to care. How could I make it better?
+
+1/4
+```
+
+[card implementation](../custom/cards/e/estelle_lumiere_sculptor.txt)
+
+### Design Notes
+
+ - In the game's prologue, Estelle (if spoken to) asks Sophie how to make her sculpture of Esquie stand out more.
+ - Mapped sculpting to a creature clone ability the targets noncreature artifacts (the "clay" that she'll turn into a creature)
+
 ## Évêque
 
 ```
@@ -786,6 +830,29 @@ Fuse (You may cast one or both halves of this card from your hand.)
 
  - One of Maelle's quotes during battle.
  - Thematically sounds like a combat trick. Designed as such.
+
+## Florian, Lumière Doomsayer
+
+```
+1UB
+Legendary Creature - Human Cleric Citizen
+At the beginning of your upkeep, choose a card name then reveal the top card of your library. If that card has the chosen name, put it into your hand. Otherwise, put it into your graveyard.
+{2}{U}, {T}: Scry 2.
+{2}{B}, {T}: Surveil 2.
+When this creature dies, create a Chroma token.
+---
+The Paintress is going to punish you! You blasphemers. The Gommage is our fault! We brought this upon ourselves. Because we dared to defy her!
+
+2/3
+```
+
+[card implementation](../custom/cards/f/florian_lumiere_doomsayer.txt)
+
+### Design Notes
+
+ - In the game's prologue, Florian can be seen near the harbor, preaching the end of days.
+ - Mapped doomsaying > prediction. Thus has an upkeep trigger that lets you "predict" the top card of your library, if you guess right you get the card, otherwise it's milled.
+ - Scry and Surveil abilities are to let you "shape your destiny".
 
 ## For Those Who Come After
 
@@ -1431,6 +1498,26 @@ My, what lovely feet! — Monoco has activated abilities of all Nevrons in exile
 
  - Staple commander removal.
 
+## Nicolas, Seeking Inspiration
+
+```
+WU
+Legendary Creature - Human Painter Citizen
+{T}, Sacrifice a Chroma token: Draw a card.
+When this creature dies, create a Chroma token.
+---
+I know, how about showing me a dance of love and sorrow? I am also the official painter of the Opera. Will you help me? If you inspire me, you may become the main painting of Lumière’s Opera.
+
+1/3
+```
+
+[card implementation](../custom/cards/n/nicolas_seeking_inspiration.txt)
+
+### Design Notes
+
+ - In the game's prologue, Nicolas (if spoken to) asks you (Gustave) do dodge Sophie's attacks to inspire him with this painting. This is really just a thinly veiled tutorial on dodging attacks.
+ - Mapped inspiration to saccing chroma tokens (Chroma being the "paint/lifeforce" of this world) for card draw.
+
 ## Painted Alicia, Eternally Suffering
 
 ```
@@ -1484,6 +1571,27 @@ Maelle: I bet Clea hated Maman's portrait of her. So she painted over her.
  - 26/10/2025: Replaced tutoring with a Nevron sac to draw a card.
  - 2/11/2025: Reduced Nevron buff from +2/+2 to +1/+1
  - 27/11/2025: Reduced cost reduction from {2} to {1}
+
+## Pelerin
+
+```
+2UR
+Creature - Nevron
+Whenever this creature is dealt damage from a red source, remove all counters from it and put a fire counter on it.
+Whenever this creature is dealt damage from a blue source, remove all counters from it and put an ice counter on it.
+This creature has protection from red as long as it has a fire counter on it and protection from blue as long as it has an ice counter on it.
+Counterattack — When this creature is dealt combat damage, it deals that amount of damage to target creature an opponent controls.
+
+2/4
+```
+
+[card implementation](../custom/cards/p/pelerin.txt)
+
+### Design Notes
+
+ - In the game, Pelerins can be encountered in Frozen Hearts
+ - Has the same "flip-flop" elemental immunity as Stalact and Gargant, so has the same flip-flop protection.
+ - Copied counterattack ability from Boucheclier as this is its primary gimmick in the game (always retaliating against whoever dealt damage to it)
 
 ## Primal Empathy
 

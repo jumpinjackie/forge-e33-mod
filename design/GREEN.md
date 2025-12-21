@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 13/12/2025 1:17:02 pm
+> Last generated: 20/12/2025 2:35:21 pm
 
 ## Abbest
 
@@ -339,6 +339,26 @@ Even in an artificial painted world, there is a natural order.
  - This is a bone thrown to Nevrons to solidify that archetype.
  - Modeled on Birthing Pod.
  - 21/10/2025: Made search criteria X or less. Fixed incorrect sac cost.
+
+## Ophelie, Lumière Florist
+
+```
+1G
+Legendary Creature - Human Citizen
+{T}: Create a Flower token. (It’s an artifact with “{T}, Sacrifice this artifact: Add {U}, {R} or {G}.”)
+When this creature dies, create a Chroma token.
+---
+Hi Gustave. You’re back. Did you want to pick out a different flower?
+
+1/2
+```
+
+[card implementation](../custom/cards/o/ophelie_lumiere_florist.txt)
+
+### Design Notes
+
+ - In the game, Ophelie operates a stand in the Lumière flower market.
+ - Easy map to a creature that makes Flower tokens.
 
 ## Portier
 

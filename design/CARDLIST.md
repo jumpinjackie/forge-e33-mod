@@ -29,7 +29,7 @@ From this list, card designs are spawned from it, which will eventually form the
 
 ## Card Name List
 
-Cards implemented: 369
+Cards implemented: 381
 
 [x] - Card is implemented or in development, [C] - Card is a commander reprint, [R] - Card is a regular reprint, [N] - Card is a nickname reprint, [Z] - Card is a nickname reprint for commander [ ] - Card is not implemented
 
@@ -43,11 +43,13 @@ Cards implemented: 369
 [x] Alicia Dessendre, Silenced by Fire
 [x] Alicia's Birthday Party
 [x] All Set
+[x] Amandine, Fashion Stylist
 [x] An Advantage!
 [ ] Ancient Sanctuary
 [R] Anger
 [x] Anti-Burn Picto
 [x] Anti-Freeze Picto
+[x] Antoine, Lumière Historian
 [x] Attack Lifesteal Picto
 [x] Attack Picto
 [x] Ballet
@@ -56,6 +58,7 @@ Cards implemented: 369
 [x] Bénisseur
 [x] Berrami, Collector of Journals
 [x] Bertrand Big Hands
+[x] Bittersweet Reunion
 [Z] Blade's Graveyard
 [x] Blanche, the Unfinished Creation
 [Z] Boat Graveyard
@@ -87,6 +90,7 @@ Cards implemented: 369
 [x] Clea Dessendre, Seeking Vengeance
 [x] Clea's Chromatic Mastery
 [x] Closure
+[x] Colette, Trinket Dealer
 [Z] Crimson Forest
 [x] Crippling Tsunami
 [x] Cruler
@@ -107,6 +111,7 @@ Cards implemented: 369
 [x] Dualliste
 [x] Earth Rising
 [ ] Egide
+[ ] Emma, Lumière Chief Councilor
 [x] Endless Tower
 [ ] Endless Night Sanctuary
 [x] Energy Tint
@@ -115,8 +120,10 @@ Cards implemented: 369
 [x] Esquie, Friend of Verso
 [x] Esquie's Magic Mushrooms
 [x] Esquie's Nest
+[x] Estelle, Lumière Sculptor
 [x] Eternal Ice
 [x] Évêque
+[ ] Expedition Academy
 [x] Expedition 00 Tracker
 [x] Expedition 32 Trainees
 [x] Expedition 34 Mage
@@ -183,6 +190,8 @@ Cards implemented: 369
 [x] Gestral Bodyguard
 [x] Gestral Climbing Challenge
 [x] Gestral Doctor
+[x] Gestral Elder
+[N] Gestral Fight Club
 [x] Gestral Fighter
 [x] Gestral Foot Race Challenge
 [x] Gestral Lackey
@@ -198,8 +207,9 @@ Cards implemented: 369
 [x] Gestral Worker
 [x] Get Out Of My Way!
 [x] Giant Sapling
+[ ] Glaise
 [x] Goblu
-[ ] Golgra, Gestral Chief
+[x] Golgra, Gestral Chef
 [x] Gommage
 [x] Gradient Charge
 [x] Gradient Counter
@@ -234,6 +244,7 @@ Cards implemented: 369
 [x] Lumière Aquafarm
 [x] Lumière Assault
 [x] Lumière Flower Stand
+[N] Lumière Harbor
 [x] Lumière Opera House
 [x] Lumière, The Last Bastion
 [x] Lumière Trashcan
@@ -263,11 +274,13 @@ Cards implemented: 369
 [x] Mutinous Expedition 48 Soldier
 [x] Nevron Disguise
 [x] Nevron Pecking Order
+[x] Nicolas, Seeking Inspiration
 [x] Noco, The Greatest Merchant
 [x] Noir
 [x] Obscur
 [ ] Offensive Switch
 [x] Ono-Puncho
+[x] Ophelie, Lumière Florist
 [x] Orphelin
 [N] Paint Cage
 [x] Paint Spike
@@ -277,6 +290,7 @@ Cards implemented: 369
 [x] Painted Renoir, Aline's Enforcer
 [ ] Painting Workshop
 [N] Payback
+[x] Pelerin
 [ ] Percee
 [x] Perfect Dodge
 [x] Persuasive Argument
@@ -385,6 +399,21 @@ No ideas yet.
 > Sophie: Sometimes I feel sorry for her.
 > Gustave: Who, the- the Paintress??
 > Sophie: Look at her. She looks... sad. Maybe she's a prisoner too. Stuck in the same cycle with us.
+
+No ideas yet.
+
+> Prologue
+> Sophie: But I have hope that you and Gustave will change things, so no one has to go through this impossibe choice again.
+
+No ideas yet.
+
+> Prologue
+> Emma: You and I both know the political complexities that necessitate the Expedition. It is vital for morale, but it's a bloodless guillotine, is what it is.
+
+Flavor text for Emma
+
+> Prologue
+> Emma: We're her guardians, not her jailers.
 
 No ideas yet.
 

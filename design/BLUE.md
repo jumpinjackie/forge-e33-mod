@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 17/12/2025 8:29:06 am
+> Last generated: 20/12/2025 4:12:03 pm
 
 ## An Advantage!
 
@@ -18,6 +18,26 @@ Draw a card at the beginning of the next turn's upkeep.
  - In the game, a quote often said by Lune when loot is discovered.
  - A basic enabler of Lumina token ramping strategies
  - 5/10/2025: Promoted to a slow-trip so it can stand in the pantheon of Brainstorm/Ponder/Preordain/Portent
+
+## Antoine, Lumière Historian
+
+```
+1U
+Legendary Creature - Human Citizen
+Whenever you cast a historic spell, draw a card. (Artifacts, legendaries, and Sagas are historic.)
+When this creature dies, create a Chroma token.
+---
+Ahem. I hereby offically end our feud. With your departure, Lumière loses a brillant light. And a good friend ...
+
+1/2
+```
+
+[card implementation](../custom/cards/a/antoine_lumiere_historian.txt)
+
+### Design Notes
+
+ - In the game's prologue, Antoine can be found at the Expedition Festival. Answer his quiz successfully and you'll get a festival token as a reward.
+ - Given his extensive historical knowledge, it's an easy mechanical map to something that triggers off of casting historic spells, in the case: Card draw.
 
 ## Boucheclier
 
@@ -110,6 +130,27 @@ Splice onto Expeditioner Instant or Sorcery {U} (As you cast an Expeditioner Ins
  - A card specifically designed to rapidly build up to the 33 permanent win condition of The Greatest Expedition In History
  - I am hoping that Forge's rule handling around splice is flexible enough to allow for this to work. Otherwise it's back to the drawing board.
     - 23/09/2025: It seems to work!
+
+## Colette, Trinket Dealer
+
+```
+1U
+Legendary Creature - Human Citizen
+Whenever you cast an artifact spell, you may draw a card. If you do, discard a card.
+Artifact spells you cast cost {1} less to cast.
+When this creature dies, create a Chroma token.
+---
+Hello there, Gustave. Perhaps one of these artifacts may prove useful to your mission?
+
+1/2
+```
+
+[card implementation](../custom/cards/c/colette_trinket_dealer.txt)
+
+### Design Notes
+
+ - In the game's prologue, Colette can be found at the Expedition Festival. You can trade her a festival token for an old key, which unlocks a gate in Old Lumiere where a Fracture Survivor journal can be found.
+ - Since she deals with all things artifacts and trinkets, gone with a mashup of Etherium Sculptor and a Riddlesmith looting trigger.
 
 ## Counterspell
 
