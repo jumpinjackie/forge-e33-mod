@@ -1,0 +1,13 @@
+Name:Florian, Lumière Doomsayer
+ManaCost:1 U B
+Types:Legendary Creature Human Cleric Citizen
+PT:2/3
+T:Mode$ Phase | Phase$ Upkeep | ValidPlayer$ You | Execute$ PredictCard | TriggerZones$ Battlefield | TriggerDescription$ At the beginning of your upkeep, choose a card name then reveal the top card of your library. If that card has the chosen name, put it into your hand. Otherwise, put it into your graveyard.
+SVar:PredictCard:DB$ NameCard | Defined$ You | SubAbility$ DBDig | AILogic$ MostProminentInComputerDeckNonToken
+SVar:DBDig:DB$ Dig | DigNum$ 1 | Defined$ You | ChangeNum$ All | ChangeValid$ Card.NamedCard | DestinationZone2$ Graveyard | Reveal$ True | RememberChanged$ True | SubAbility$ DBCleanup
+SVar:DBCleanup:DB$ Cleanup | ClearRemembered$ True | ClearNamedCard$ True
+A:AB$ Scry | Cost$ 2 U T | ScryNum$ 2 | SpellDescription$ Scry 2.
+A:AB$ Surveil | Cost$ 2 B T | Amount$ 2 | SpellDescription$ Surveil 2.
+T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Card.Self | Execute$ TrigToken | TriggerDescription$ When CARDNAME dies, create a Chroma token
+SVar:TrigToken:DB$ Token | TokenScript$ c_a_chroma | TokenOwner$ You | TokenAmount$ 1
+Oracle:At the beginning of your upkeep, choose a card name then reveal the top card of your library. If that card has the chosen name, put it into your hand. Otherwise, put it into your graveyard.\n{2}{U}, {T}: Scry 2.\n{2}{B}, {T}: Surveil 2.\nWhen this creature dies, create a Chroma token.
