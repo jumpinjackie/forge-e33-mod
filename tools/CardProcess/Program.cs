@@ -530,6 +530,26 @@ public class CardMasterDesign(string designFile)
 
     public string? Bucket { get; set; }
 
+    public string? OracleTextFull
+    {
+        get
+        {
+#pragma warning disable CS8603 // Possible null reference return.
+#pragma warning disable CS8602 // Dereference of a possibly null reference.
+            return FaceType switch
+            {
+                CardFaceType.Regular => FrontFull?.OracleTextFull,
+                CardFaceType.SplitRoom => $"{SplitLeft?.OracleTextFull}\n---\n{SplitRight?.OracleTextFull}",
+                CardFaceType.SplitFuse => $"{SplitLeft?.OracleTextFull}\n---\n{SplitRight?.OracleTextFull}",
+                CardFaceType.Meld => $"{FrontFull?.OracleTextFull}\n---\n{MeldTarget?.OracleTextFull}",
+                CardFaceType.DoubleFaced => $"{FrontFull?.OracleTextFull}\n---\n{BackFull?.OracleTextFull}",
+                _ => null
+            };
+#pragma warning restore CS8602 // Dereference of a possibly null reference.
+#pragma warning restore CS8603 // Possible null reference return.
+        }
+    }
+
     static string? ColorName(char color)
     {
         return color switch
@@ -1126,6 +1146,9 @@ public class GenAllCommand : BaseCommand
         // 5. Generate card name list
         await GenerateCardListAsync(cards, designDir, OutputDir, stdout);
 
+        // 6. Generate Cockatrice XML
+        await GenerateCockatriceXmlAsync(cards, OutputDir, stdout);
+
         // Generate SPOILER.md containing a 3-column table of card and token images
         await GenerateSpoilerAsync(cards, BaseDirectory, OutputDir, stdout, stderr);
 
@@ -1346,6 +1369,51 @@ public class GenAllCommand : BaseCommand
 
         await File.WriteAllTextAsync(cardListOutFile, sbCardList.ToString());
         await stdout.WriteLineAsync("Updated CARDLIST.md");
+    }
+
+    private async Task GenerateCockatriceXmlAsync(SortedDictionary<string, CardMasterDesign> cards, DirectoryInfo outputDir, TextWriter stdout)
+    {
+        var cockatriceDir = Path.Combine(this.BaseDirectory.FullName, "dist", "cockatrice");
+        Directory.CreateDirectory(cockatriceDir);
+
+        var e33Cards = cards.Where(c => !c.Value.IsCommander).ToList();
+        var e3cCards = cards.Where(c => c.Value.IsCommander).ToList();
+
+        await GenerateSetXmlAsync(e33Cards, "E33", new DirectoryInfo(cockatriceDir), stdout);
+        await GenerateSetXmlAsync(e3cCards, "E3C", new DirectoryInfo(cockatriceDir), stdout);
+    }
+
+    private async Task GenerateSetXmlAsync(List<KeyValuePair<string, CardMasterDesign>> setCards, string setCode, DirectoryInfo outputDir, TextWriter stdout)
+    {
+        var sb = new StringBuilder();
+        sb.AppendLine("<?xml version=\"1.0\" encoding=\"UTF-8\"?>");
+        sb.AppendLine("<cockatrice_carddatabase version=\"4\">");
+
+        foreach (var (name, card) in setCards)
+        {
+            sb.AppendLine("  <card>");
+            sb.AppendLine($"    <name>{EscapeXml(card.Name)}</name>");
+            if (card.OracleTextFull != null)
+            {
+                sb.AppendLine($"    <text>{EscapeXml(card.OracleTextFull)}</text>");
+            }
+            sb.AppendLine("    <prop>");
+            sb.AppendLine($"      <set>{setCode}</set>");
+            sb.AppendLine($"      <rarity>{card.Rarity}</rarity>");
+            sb.AppendLine("    </prop>");
+            sb.AppendLine("  </card>");
+        }
+
+        sb.AppendLine("</cockatrice_carddatabase>");
+
+        var filePath = Path.Combine(outputDir.FullName, $"{setCode}.xml");
+        await File.WriteAllTextAsync(filePath, sb.ToString());
+        await stdout.WriteLineAsync($"Generated {setCode}.xml with {setCards.Count} cards");
+    }
+
+    private static string EscapeXml(string text)
+    {
+        return text.Replace("&", "&amp;").Replace("<", "&lt;").Replace(">", "&gt;").Replace("\"", "&quot;").Replace("'", "&apos;");
     }
 
     private async Task GenerateSpoilerAsync(SortedDictionary<string, CardMasterDesign> cards, DirectoryInfo baseDirectory, DirectoryInfo outputDir, TextWriter stdout, TextWriter stderr)
