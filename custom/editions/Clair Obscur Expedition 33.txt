@@ -312,7 +312,7 @@ Type=Custom
 
 12 R All Suns' Dawn @Glen Angus
 15 U Anger @Svetlin Velinov
-25  Blackblade Reforged @ ${"flavorName": "Barrier Breaker"}
+25 R Blackblade Reforged @ ${"flavorName": "Barrier Breaker"}
 33 U Blot Out @Sandfall Interactive
 86 C Dive Down @Magali Villeneuve
 144 C Expedition Map @Franz Vohwinkel
@@ -320,7 +320,7 @@ Type=Custom
 147 C Explorer's Scope @Vincent Proce
 148 R Yavimaya, Cradle of Growth @Sandfall Interactive ${"flavorName": "Falling Leaves"}
 154 U Ominous Cemetery @Sandfall Interactive ${"flavorName": "Floating Cemetery"}
-162  Veteran Survivor @Sandfall Interactive ${"flavorName": "Fracture Survivor"}
+162 U Veteran Survivor @Sandfall Interactive ${"flavorName": "Fracture Survivor"}
 176 U Grand Melee @Sandfall Interactive ${"flavorName": "Gestral Fight Club"}
 230 R Rishadan Port @Sandfall Interactive ${"flavorName": "Lumière Harbor"}
 270 C Ichor Wellspring @Sandfall Interactive ${"flavorName": "Paint Cage"}
