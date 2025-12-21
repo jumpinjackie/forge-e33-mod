@@ -1097,30 +1097,65 @@ public class GenAllCommand : BaseCommand
         // Read cards once for all operations
         var cards = await ReadCardDesignsAsync(stdout, stderr);
 
-        // 1. Generate card scripts (from GenCardScriptsCommand)
-        await stdout.WriteLineAsync("Generating card scripts...");
         var subDirs = this.BaseDirectory.GetDirectories();
         var cardsDir = subDirs.FirstOrDefault(d => d.Name == "cards");
         var tokensDir = subDirs.FirstOrDefault(d => d.Name == "tokens");
+        var editionsDir = subDirs.FirstOrDefault(d => d.Name == "editions");
+        var designDir = subDirs.FirstOrDefault(d => d.Name == "design");
         if (cardsDir is null)
             throw new InvalidOperationException("cards dir not found");
         if (tokensDir is null)
             throw new InvalidOperationException("tokens dir not found");
+        if (editionsDir is null)
+            throw new InvalidOperationException("editions dir not found");
+        if (designDir is null)
+            throw new InvalidOperationException("design dir not found");
 
+        // 1. Generate card scripts (from GenCardScriptsCommand)
+        await GenerateCardScriptsAsync(cards, cardsDir, tokensDir, stdout, stderr);
+
+        // 2. Generate docs (from GenDocsCommand)
+        await GenerateDocsAsync(cards, OutputDir, BaseDirectory, stdout, stderr);
+
+        // 3. Generate edition (from GenEditionCommand)
+        await GenerateEditionAsync(cards, editionsDir, designDir, stdout);
+
+        // 4. Generate bugs (from GenBugsCommand)
+        await GenerateBugsAsync(cards, OutputDir, stdout);
+
+        // 5. Generate card name list
+        await GenerateCardListAsync(cards, designDir, OutputDir, stdout);
+
+        // Generate SPOILER.md containing a 3-column table of card and token images
+        await GenerateSpoilerAsync(cards, BaseDirectory, OutputDir, stdout, stderr);
+
+        // Compile stats: build a rarity-by-bucket distribution
+        await GenerateStatsAsync(cards, stdout);
+
+
+        await stdout.WriteLineAsync("All generation tasks completed successfully!");
+
+        return 0;
+    }
+
+    private async Task GenerateCardScriptsAsync(SortedDictionary<string, CardMasterDesign> cards, DirectoryInfo cardsDir, DirectoryInfo tokensDir, TextWriter stdout, TextWriter stderr)
+    {
+        await stdout.WriteLineAsync("Generating card scripts...");
         foreach (var (name, card) in cards)
         {
             if (card.IsReprint) // Reprints already have card scripts
                 continue;
-
             await card.WriteScriptAsync(cardsDir, tokensDir, stdout, stderr);
         }
+    }
 
-        // 2. Generate docs (from GenDocsCommand)
+    private async Task GenerateDocsAsync(SortedDictionary<string, CardMasterDesign> cards, DirectoryInfo outputDir, DirectoryInfo baseDirectory, TextWriter stdout, TextWriter stderr)
+    {
         await stdout.WriteLineAsync("Generating documentation...");
         var writers = new Dictionary<string, StringWriter>();
         var scriptBaseDir = Path.GetRelativePath(
-            OutputDir.FullName,
-            Path.Combine(BaseDirectory.FullName, "cards")
+            outputDir.FullName,
+            Path.Combine(baseDirectory.FullName, "cards")
         );
 
         foreach (var (name, card) in cards)
@@ -1146,7 +1181,7 @@ public class GenAllCommand : BaseCommand
             var writer = kvp.Value;
             var contentSb = writer.GetStringBuilder();
             var newContent = contentSb.ToString().Replace("PLACEHOLDER", DateTime.UtcNow.ToString());
-            var filePath = Path.Combine(this.OutputDir.FullName, kvp.Key + ".md");
+            var filePath = Path.Combine(outputDir.FullName, kvp.Key + ".md");
             string existingContent = null;
             if (File.Exists(filePath))
             {
@@ -1165,15 +1200,11 @@ public class GenAllCommand : BaseCommand
                 await stdout.WriteLineAsync($"No changes: {filePath}");
             }
         }
+    }
 
-        // 3. Generate edition (from GenEditionCommand)
+    private async Task GenerateEditionAsync(SortedDictionary<string, CardMasterDesign> cards, DirectoryInfo editionsDir, DirectoryInfo designDir, TextWriter stdout)
+    {
         await stdout.WriteLineAsync("Generating edition file...");
-        var editionsDir = subDirs.FirstOrDefault(d => d.Name == "editions");
-        var designDir = subDirs.FirstOrDefault(d => d.Name == "design");
-        if (editionsDir is null)
-            throw new InvalidOperationException("editions dir not found");
-        if (designDir is null)
-            throw new InvalidOperationException("design dir not found");
         var templateFile = Path.Combine(designDir.FullName, "edition.tpl");
         if (!File.Exists(templateFile))
             throw new InvalidOperationException("Could not find edition.tpl");
@@ -1225,10 +1256,12 @@ public class GenAllCommand : BaseCommand
             Path.Combine(editionsDir.FullName, "Clair Obscur Expedition 33 Commander.txt"),
             sbCommander.ToString()
         );
+    }
 
-        // 4. Generate bugs (from GenBugsCommand)
+    private async Task GenerateBugsAsync(SortedDictionary<string, CardMasterDesign> cards, DirectoryInfo outputDir, TextWriter stdout)
+    {
         await stdout.WriteLineAsync("Generating bugs file...");
-        var bugsFile = Path.Combine(this.OutputDir.FullName, "BUGS.md");
+        var bugsFile = Path.Combine(outputDir.FullName, "BUGS.md");
         using var sw = new StreamWriter(bugsFile);
 
         await sw.WriteLineAsync("# General");
@@ -1246,15 +1279,17 @@ public class GenAllCommand : BaseCommand
         }
 
         await stdout.WriteLineAsync("Updated bugs file");
+    }
 
-        // 5. Generate card name list
+    private async Task GenerateCardListAsync(SortedDictionary<string, CardMasterDesign> cards, DirectoryInfo designDir, DirectoryInfo outputDir, TextWriter stdout)
+    {
         var cardListFile = Path.Combine(designDir.FullName, "CARDLIST.md");
         if (!File.Exists(cardListFile))
             throw new InvalidOperationException("Could not find CARDLIST.md");
 
         using var srCardList = new StreamReader(cardListFile);
-        await stdout.WriteLineAsync("Generating bugs file...");
-        var cardListOutFile = Path.Combine(this.OutputDir.FullName, "CARDLIST.md");
+        await stdout.WriteLineAsync("Generating card list...");
+        var cardListOutFile = Path.Combine(outputDir.FullName, "CARDLIST.md");
         var sbCardList = new StringBuilder();
 
         bool bInsideCardList = false;
@@ -1311,11 +1346,13 @@ public class GenAllCommand : BaseCommand
 
         await File.WriteAllTextAsync(cardListOutFile, sbCardList.ToString());
         await stdout.WriteLineAsync("Updated CARDLIST.md");
+    }
 
-        // Generate SPOILER.md containing a 3-column table of card and token images
+    private async Task GenerateSpoilerAsync(SortedDictionary<string, CardMasterDesign> cards, DirectoryInfo baseDirectory, DirectoryInfo outputDir, TextWriter stdout, TextWriter stderr)
+    {
         try
         {
-            var picsBase = Path.Combine(this.BaseDirectory.FullName, "pics");
+            var picsBase = Path.Combine(baseDirectory.FullName, "pics");
             var baseCardsPicsDir = Path.Combine(picsBase, "cards", "E33");
             var cmdrCardsPicsDir = Path.Combine(picsBase, "cards", "E3C");
             var tokensPicsDir = Path.Combine(picsBase, "tokens", "E33");
@@ -1326,7 +1363,7 @@ public class GenAllCommand : BaseCommand
                 tokenImages.AddRange(Directory.EnumerateFiles(tokensPicsDir, "*.jpg", SearchOption.AllDirectories).OrderBy(p => p));
             }
 
-            var spoilerPath = Path.Combine(this.OutputDir.FullName, "SPOILER.md");
+            var spoilerPath = Path.Combine(outputDir.FullName, "SPOILER.md");
             using (var spoilerWriter = new StreamWriter(spoilerPath, false, Encoding.UTF8))
             {
                 spoilerWriter.WriteLine("# Spoiler Images");
@@ -1346,11 +1383,11 @@ public class GenAllCommand : BaseCommand
                         totalCardsWithImages += cardsWithImagesTotal;
                     }
                     spoilerWriter.WriteLine($"# Clair Obscur: Expedition 33 (E33) [{totalCardsWithImages}/{totalCards} cards]");
-                    WriteSpoilerTable(spoilerWriter, baseImages, this.OutputDir);
+                    WriteSpoilerTable(spoilerWriter, baseImages, outputDir);
                 }
 
                 spoilerWriter.WriteLine("## Tokens");
-                WriteSpoilerTable(spoilerWriter, tokenImages, this.OutputDir);
+                WriteSpoilerTable(spoilerWriter, tokenImages, outputDir);
 
                 {
                     var totalCards = 0;
@@ -1365,7 +1402,7 @@ public class GenAllCommand : BaseCommand
                         totalCardsWithImages += cardsWithImagesTotal;
                     }
                     spoilerWriter.WriteLine($"# Clair Obscur: Expedition 33 Commander (E3C) [{totalCardsWithImages}/{totalCards} cards]");
-                    WriteSpoilerTable(spoilerWriter, cmdrImages, this.OutputDir);
+                    WriteSpoilerTable(spoilerWriter, cmdrImages, outputDir);
                 }
             }
 
@@ -1440,7 +1477,10 @@ public class GenAllCommand : BaseCommand
         {
             await stderr.WriteLineAsync($"Failed to write SPOILER.md: {ex.Message}");
         }
+    }
 
+    private async Task GenerateStatsAsync(SortedDictionary<string, CardMasterDesign> cards, TextWriter stdout)
+    {
         // Compile stats: build a rarity-by-bucket distribution
         var rarityCodes = new[] { "C", "U", "R", "M", "?" }; // ? == unknown
         var distro = new SortedDictionary<string, Dictionary<string, int>>(StringComparer.OrdinalIgnoreCase);
@@ -1605,11 +1645,6 @@ public class GenAllCommand : BaseCommand
             await stdout.WriteLineAsync($"Sanity check: OK (matches rarity total {overallTotal})");
         else
             await stdout.WriteLineAsync($"Sanity check: MISMATCH - type grand total {grandTotalFromType} != rarity grand total {overallTotal}");
-
-
-        await stdout.WriteLineAsync("All generation tasks completed successfully!");
-
-        return 0;
     }
 }
 
