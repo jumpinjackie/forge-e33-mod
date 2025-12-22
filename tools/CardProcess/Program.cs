@@ -278,6 +278,32 @@ public class CardFaceDesign
         return this.FormatManaCost();
     }
 
+    internal int? GetManaValue()
+    {
+        if (this.ManaCost is not null && this.ManaCost.Length > 0 && this.ManaCost[0] != "no cost")
+        {
+            int total = 0;
+            foreach (var pip in this.ManaCost)
+            {
+                if (int.TryParse(pip, out int num))
+                {
+                    total += num;
+                }
+                else if (pip.Length == 1 && "WUBRG".Contains(char.ToUpperInvariant(pip[0])))
+                {
+                    total += 1;
+                }
+                else if (pip.Length == 2) // hybrid
+                {
+                    total += 1;
+                }
+                // Other symbols like X are treated as 0
+            }
+            return total;
+        }
+        return null;
+    }
+
     internal void PopulateColorsFromManaCost(HashSet<char> colors)
     {
         if (this.ManaCost is not null)
@@ -629,7 +655,7 @@ public class CardMasterDesign(string designFile)
         };
     }
 
-    public record CockatriceCardFace(string Name, string Rarity, string OracleText, string Colors, string ManaCost, string Type, string MainType, string PT)
+    public record CockatriceCardFace(string Name, string Rarity, string OracleText, string Colors, string ManaCost, int? ManaValue, string Type, string MainType, string? PT)
     {
         public int GetTableRow() => this.MainType switch
         {
@@ -646,14 +672,18 @@ public class CardMasterDesign(string designFile)
         if (FaceType == CardFaceType.Regular)
         {
             yield return new(
-                this.Name,
+                // NOTE: Using invariant name as first priority for cockatrice as card images use invariant name
+                // and for card images to line up properly the names must match exactly unlike forge which appears
+                // to have some kind of ascii fallback.
+                this.InvariantName ?? this.Name,
                 this.Rarity,
                 this.FrontFull.GetOracleText(),
                 this.FrontFull.GetCockatriceColors(),
                 this.FrontFull.GetCockatriceManaCost(),
+                this.FrontFull.GetManaValue(),
                 this.FrontFull.TypeLine,
                 this.GetPrimaryCategory(),
-                this.FrontFull.PT ?? string.Empty
+                this.FrontFull.PT
             );
         }
         else if (FaceType == CardFaceType.SplitFuse || FaceType == CardFaceType.SplitRoom)
@@ -668,14 +698,18 @@ public class CardMasterDesign(string designFile)
             var sColors = string.Join(string.Empty, colors.OrderBy(c => Array.IndexOf(order, c)));
 
             yield return new(
-                this.Name,
+                // NOTE: Using invariant name as first priority for cockatrice as card images use invariant name
+                // and for card images to line up properly the names must match exactly unlike forge which appears
+                // to have some kind of ascii fallback.
+                this.InvariantName ?? this.Name,
                 this.Rarity,
                 this.OracleTextFull,
                 sColors,
                 this.SplitLeft.GetCockatriceManaCost() + " // " + this.SplitRight.GetCockatriceManaCost(),
+                this.SplitLeft.GetManaValue() + this.SplitRight.GetManaValue(),
                 this.SplitLeft.TypeLine,
                 this.GetPrimaryCategory(),
-                string.Empty
+                null
             );
         }
     }
@@ -1553,9 +1587,10 @@ public class GenAllCommand : BaseCommand
                       <prop>
                         <colors>{{face.Colors}}</colors>
                         <manacost>{{face.ManaCost}}</manacost>
+                        {{(face.ManaValue.HasValue ? $"<manavalue>{face.ManaValue.Value}</manavalue>" : "<!-- no mana value -->")}}
                         <type>{{face.Type}}</type>
                         <maintype>{{face.MainType}}</maintype>
-                        <pt>{{face.PT}}</pt>
+                        {{(face.PT is not null ? $"<pt>{face.PT}</pt>" : "<!-- no pt -->")}}
                         {{(card.FaceType == CardFaceType.SplitFuse || card.FaceType == CardFaceType.SplitRoom ? "<layout>split</layout>" : "<!-- no layout -->")}}
                       </prop>
                       <tablerow>{{face.GetTableRow()}}</tablerow>
