@@ -278,9 +278,8 @@ public class CardFaceDesign
         return this.FormatManaCost();
     }
 
-    internal string GetCockatriceColors()
+    internal void PopulateColorsFromManaCost(HashSet<char> colors)
     {
-        var colors = new HashSet<char>();
         if (this.ManaCost is not null)
         {
             foreach (var pip in this.ManaCost)
@@ -299,7 +298,11 @@ public class CardFaceDesign
                 }
             }
         }
-        if (colors.Count == 0 && this.ColorIdentity is not null)
+    }
+
+    internal void PopulateColorsFromColorIdentity(HashSet<char> colors)
+    {
+        if (this.ColorIdentity is not null)
         {
             foreach (var c in this.ColorIdentity)
             {
@@ -314,6 +317,16 @@ public class CardFaceDesign
                 };
                 if (letter.HasValue) colors.Add(letter.Value);
             }
+        }
+    }
+
+    internal string GetCockatriceColors()
+    {
+        var colors = new HashSet<char>();
+        PopulateColorsFromManaCost(colors);
+        if (colors.Count == 0)
+        {
+            PopulateColorsFromColorIdentity(colors);
         }
         // Sort in WUBRG order
         var order = new[] { 'W', 'U', 'B', 'R', 'G' };
@@ -641,6 +654,28 @@ public class CardMasterDesign(string designFile)
                 this.FrontFull.TypeLine,
                 this.GetPrimaryCategory(),
                 this.FrontFull.PT ?? string.Empty
+            );
+        }
+        else if (FaceType == CardFaceType.SplitFuse || FaceType == CardFaceType.SplitRoom)
+        {
+            var colors = new HashSet<char>();
+            this.SplitLeft.PopulateColorsFromColorIdentity(colors);
+            this.SplitLeft.PopulateColorsFromManaCost(colors);
+            this.SplitRight.PopulateColorsFromColorIdentity(colors);
+            this.SplitRight.PopulateColorsFromManaCost(colors);
+            // Sort in WUBRG order
+            var order = new[] { 'W', 'U', 'B', 'R', 'G' };
+            var sColors = string.Join(string.Empty, colors.OrderBy(c => Array.IndexOf(order, c)));
+
+            yield return new(
+                this.Name,
+                this.Rarity,
+                this.OracleTextFull,
+                sColors,
+                this.SplitLeft.GetCockatriceManaCost() + " // " + this.SplitRight.GetCockatriceManaCost(),
+                this.SplitLeft.TypeLine,
+                this.GetPrimaryCategory(),
+                string.Empty
             );
         }
     }
@@ -1521,6 +1556,7 @@ public class GenAllCommand : BaseCommand
                         <type>{{face.Type}}</type>
                         <maintype>{{face.MainType}}</maintype>
                         <pt>{{face.PT}}</pt>
+                        {{(card.FaceType == CardFaceType.SplitFuse || card.FaceType == CardFaceType.SplitRoom ? "<layout>split</layout>" : "<!-- no layout -->")}}
                       </prop>
                       <tablerow>{{face.GetTableRow()}}</tablerow>
                     </card>
