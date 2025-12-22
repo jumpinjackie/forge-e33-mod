@@ -69,6 +69,8 @@ public class CardFaceDesign
 
     public string? NicknameFor { get; set; }
 
+    public bool EntersTapped { get; set; } = false;
+
     internal void Apply(string propertyName, IEnumerable<string> buffer)
     {
         switch (propertyName)
@@ -95,41 +97,8 @@ public class CardFaceDesign
                 ArtNotes = string.Join("\n", buffer);
                 break;
             case nameof(Types):
-                {
-                    Types = buffer.ToArray();
-                    var tokens = Types.ToList();
-
-                    // Determine which token to insert a - after
-                    bool bDone = false;
-                    int mostSignificantIdx = -1;
-                    for (var i = 0; i < tokens.Count; i++)
-                    {
-                        if (bDone)
-                            break;
-
-                        if (i < tokens.Count - 1)
-                        {
-                            switch (tokens[i])
-                            {
-                                case "Sorcery":
-                                case "Instant":
-                                case "Land":
-                                case "Artifact":
-                                case "Enchantment":
-                                case "Creature":
-                                case "Planeswalker":
-                                    mostSignificantIdx = i;
-                                    break;
-                            }
-                        }
-                    }
-                    if (mostSignificantIdx < tokens.Count - 1 && mostSignificantIdx >= 0)
-                    {
-                        tokens.Insert(mostSignificantIdx + 1, "-");
-                    }
-
-                    this.TypeLine = string.Join(" ", tokens);
-                }
+                Types = buffer.ToArray();
+                this.TypeLine = BuildTypeLine(Types);
                 break;
             case nameof(Oracle):
                 Oracle = buffer.ToArray();
@@ -164,7 +133,46 @@ public class CardFaceDesign
             case nameof(NicknameFor):
                 NicknameFor = string.Join(" ", buffer);
                 break;
+            case nameof(EntersTapped):
+                EntersTapped = string.Join(" ", buffer) == "true";
+                break;
         }
+    }
+
+    public static string BuildTypeLine(string[] types)
+    {
+        var tokens = types.ToList();
+
+        // Determine which token to insert a - after
+        bool bDone = false;
+        int mostSignificantIdx = -1;
+        for (var i = 0; i < tokens.Count; i++)
+        {
+            if (bDone)
+                break;
+
+            if (i < tokens.Count - 1)
+            {
+                switch (tokens[i])
+                {
+                    case "Sorcery":
+                    case "Instant":
+                    case "Land":
+                    case "Artifact":
+                    case "Enchantment":
+                    case "Creature":
+                    case "Planeswalker":
+                        mostSignificantIdx = i;
+                        break;
+                }
+            }
+        }
+        if (mostSignificantIdx < tokens.Count - 1 && mostSignificantIdx >= 0)
+        {
+            tokens.Insert(mostSignificantIdx + 1, "-");
+        }
+
+        return string.Join(" ", tokens);
     }
 
     internal async Task WriteScriptAsync(StreamWriter sw, TextWriter stdout, TextWriter stderr, CardFaceType faceType)
@@ -655,7 +663,7 @@ public class CardMasterDesign(string designFile)
         };
     }
 
-    public record CockatriceCardFace(string Name, string Rarity, string OracleText, string Colors, string ManaCost, int? ManaValue, string Type, string MainType, string? PT)
+    public record CockatriceCardFace(string Name, string Rarity, string OracleText, string Colors, string? ManaCost, int? ManaValue, string Type, string MainType, string? PT, string? Loyalty, string? RelatedCardName, bool? EntersTapped)
     {
         public int GetTableRow() => this.MainType switch
         {
@@ -683,7 +691,10 @@ public class CardMasterDesign(string designFile)
                 this.FrontFull.GetManaValue(),
                 this.FrontFull.TypeLine,
                 this.GetPrimaryCategory(),
-                this.FrontFull.PT
+                this.FrontFull.PT,
+                this.FrontFull.Loyalty,
+                null,
+                this.FrontFull.EntersTapped
             );
         }
         else if (FaceType == CardFaceType.SplitFuse || FaceType == CardFaceType.SplitRoom)
@@ -709,9 +720,99 @@ public class CardMasterDesign(string designFile)
                 this.SplitLeft.GetManaValue() + this.SplitRight.GetManaValue(),
                 this.SplitLeft.TypeLine,
                 this.GetPrimaryCategory(),
+                null,
+                null,
+                null,
                 null
             );
         }
+        else if (FaceType == CardFaceType.DoubleFaced)
+        {
+            yield return new(
+                // NOTE: Using invariant name as first priority for cockatrice as card images use invariant name
+                // and for card images to line up properly the names must match exactly unlike forge which appears
+                // to have some kind of ascii fallback.
+                this.FrontFull.InvariantName ?? this.FrontFull.Name,
+                this.Rarity,
+                this.FrontFull.GetOracleText(),
+                this.FrontFull.GetCockatriceColors(),
+                this.FrontFull.GetCockatriceManaCost(),
+                this.FrontFull.GetManaValue(),
+                this.FrontFull.TypeLine,
+                this.GetPrimaryCategory(),
+                this.FrontFull.PT,
+                this.FrontFull.Loyalty,
+                this.BackFull.InvariantName ?? this.BackFull.Name,
+                this.FrontFull.EntersTapped
+            );
+            yield return new(
+                // NOTE: Using invariant name as first priority for cockatrice as card images use invariant name
+                // and for card images to line up properly the names must match exactly unlike forge which appears
+                // to have some kind of ascii fallback.
+                this.BackFull.InvariantName ?? this.BackFull.Name,
+                this.Rarity,
+                this.BackFull.GetOracleText(),
+                this.BackFull.GetCockatriceColors(),
+                null, //this.BackFull.GetCockatriceManaCost(),
+                null, //this.BackFull.GetManaValue(),
+                this.BackFull.TypeLine,
+                this.GetPrimaryCategory(),
+                this.BackFull.PT,
+                this.BackFull.Loyalty,
+                null,
+                null
+            );
+        }
+        else if (FaceType == CardFaceType.Meld)
+        {
+            yield return new(
+                // NOTE: Using invariant name as first priority for cockatrice as card images use invariant name
+                // and for card images to line up properly the names must match exactly unlike forge which appears
+                // to have some kind of ascii fallback.
+                this.FrontFull.InvariantName ?? this.FrontFull.Name,
+                this.Rarity,
+                this.FrontFull.GetOracleText(),
+                this.FrontFull.GetCockatriceColors(),
+                this.FrontFull.GetCockatriceManaCost(),
+                this.FrontFull.GetManaValue(),
+                this.FrontFull.TypeLine,
+                this.GetPrimaryCategory(),
+                this.FrontFull.PT,
+                this.FrontFull.Loyalty,
+                this.MeldTarget.InvariantName ?? this.MeldTarget.Name,
+                this.FrontFull.EntersTapped
+            );
+            yield return new(
+                // NOTE: Using invariant name as first priority for cockatrice as card images use invariant name
+                // and for card images to line up properly the names must match exactly unlike forge which appears
+                // to have some kind of ascii fallback.
+                this.MeldTarget.InvariantName ?? this.MeldTarget.Name,
+                this.Rarity,
+                this.MeldTarget.GetOracleText(),
+                this.MeldTarget.GetCockatriceColors(),
+                null, //this.MeldTarget.GetCockatriceManaCost(),
+                null, //this.MeldTarget.GetManaValue(),
+                this.MeldTarget.TypeLine,
+                this.GetPrimaryCategory(),
+                this.MeldTarget.PT,
+                this.MeldTarget.Loyalty,
+                null,
+                null
+            );
+        }
+    }
+
+    private (bool isBasic, char? pip) IsBasicLand()
+    {
+        return this.Name switch
+        {
+            "Forest" => (true, 'G'),
+            "Island" => (true, 'U'),
+            "Mountain" => (true, 'R'),
+            "Plains" => (true, 'W'),
+            "Swamp" => (true, 'B'),
+            _ => (false, null)
+        };
     }
 
     internal CardMasterDesign Finalize()
@@ -805,10 +906,22 @@ public class CardMasterDesign(string designFile)
         // There are no split/meld artifact or colorless cards, so if no color identity could be determined it is 99% should be a regular card
         else if (this.FrontFull is not null)
         {
-            if (this.FrontFull.Types?.Contains("Land") == true)
+            var (isBasic, pip) = this.IsBasicLand();
+            if (isBasic)
+            {
                 this.Bucket = "LANDS";
-            else if (this.FrontFull.Types?.Contains("Artifact") == true)
-                this.Bucket = "ARTIFACTS";
+                this.FrontFull.Types = ["Basic", "Land", this.FrontFull.Name];
+                this.FrontFull.TypeLine = CardFaceDesign.BuildTypeLine(this.FrontFull.Types);
+                this.FrontFull.Rarity = "C";
+                this.FrontFull.Oracle = ["({T}: Add {" + pip + "}.)"];
+            }
+            else
+            {
+                if (this.FrontFull.Types?.Contains("Land") == true)
+                    this.Bucket = "LANDS";
+                else if (this.FrontFull.Types?.Contains("Artifact") == true)
+                    this.Bucket = "ARTIFACTS";
+            }
         }
 
         return this;
@@ -880,6 +993,7 @@ public class CardMasterDesign(string designFile)
                 case "[IsReprint]":
                 case "[IsCommander]":
                 case "[NicknameFor]":
+                case "[EntersTapped]":
                     // Apply the collected buffer for the previous property name
                     if (activePropertyName != null)
                     {
@@ -1587,11 +1701,14 @@ public class GenAllCommand : BaseCommand
                       <prop>
                         <colors>{{face.Colors}}</colors>
                         <manacost>{{face.ManaCost}}</manacost>
-                        {{(face.ManaValue.HasValue ? $"<manavalue>{face.ManaValue.Value}</manavalue>" : "<!-- no mana value -->")}}
+                        {{(face.ManaValue.HasValue ? $"<cmc>{face.ManaValue.Value}</cmc>" : "<!-- no mana value -->")}}
                         <type>{{face.Type}}</type>
                         <maintype>{{face.MainType}}</maintype>
                         {{(face.PT is not null ? $"<pt>{face.PT}</pt>" : "<!-- no pt -->")}}
+                        {{(face.Loyalty is not null ? $"<loyalty>{face.Loyalty}</loyalty>" : "<!-- no pw loyalty -->")}}
                         {{(card.FaceType == CardFaceType.SplitFuse || card.FaceType == CardFaceType.SplitRoom ? "<layout>split</layout>" : "<!-- no layout -->")}}
+                        {{(face.RelatedCardName is not null ? $"<related attach=\"transform\">{face.RelatedCardName}</related>" : "<!-- no related -->")}}
+                        {{(face.EntersTapped == true ? $"<cipt>1</cipt>" : "<!-- no cipt -->")}}
                       </prop>
                       <tablerow>{{face.GetTableRow()}}</tablerow>
                     </card>
