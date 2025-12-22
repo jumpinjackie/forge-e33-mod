@@ -93,4 +93,21 @@ if [ -d "$ROOT/custom/pics" ]; then
   fi
 fi
 
+# Copy images for Cockatrice, changing .full.jpg to .jpg
+echo "Copying images for Cockatrice..."
+mkdir -p "$ROOT/custom/dist/cockatrice/pics"
+for set in E33 E3C; do
+  if [ -d "$ROOT/custom/pics/cards/$set" ]; then
+    echo "Copying $set images..."
+    for file in "$ROOT/custom/pics/cards/$set"/*.full.jpg; do
+      if [ -f "$file" ]; then
+        base=$(basename "$file" .full.jpg)
+        cp "$file" "$ROOT/custom/dist/cockatrice/pics/$base.jpg"
+      fi
+    done
+  else
+    echo "Warning: No images found for $set in $ROOT/custom/pics/cards/$set" >&2
+  fi
+done
+
 echo "Done."
