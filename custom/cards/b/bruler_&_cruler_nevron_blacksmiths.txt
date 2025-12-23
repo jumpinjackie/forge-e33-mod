@@ -1,0 +1,9 @@
+Name:Bruler & Cruler, Nevron Blacksmiths
+ManaCost:2 W W
+Types:Legendary Creature Nevron Artificer
+PT:3/4
+K:Vigilance
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | IsPresent$ Equipment.YouCtrl | PresentCompare$ GE1 | Execute$ TrigDraw | TriggerDescription$ When CARDNAME enters, if you control an Equipment, draw a card.
+SVar:TrigDraw:DB$ Draw | NumCards$ 1 | Defined$ You
+S:Mode$ ReduceCost | ValidCard$ Card | ValidSpell$ Activated.Equip | Activator$ You | Amount$ 1 | Condition$ PlayerTurn | Description$ Equip abilities you activate cost {1} less to activate.
+Oracle:Vigilance\nWhen Bruler & Cruler enters, if you control an Equipment, draw a card.\nEquip abilities you activate cost {1} less to activate.

@@ -1,0 +1,9 @@
+Name:Expeditioner Uniform
+ManaCost:1
+Types:Artifact Equipment
+K:Equip:1
+S:Mode$ Continuous | Affected$ Creature.EquippedBy | AddType$ Expeditioner | Description$ Equipped creature is an Expeditioner in addition to its other types.
+S:Mode$ Continuous | Affected$ Human.EquippedBy | AddPower$ 1 | AddToughness$ 1 | Description$ As long as equipped creature is a Human, it gets +1/+1.
+T:Mode$ Attacks | ValidCard$ Card.AttachedBy | Execute$ TrigExplore | TriggerDescription$ Whenever equipped creature attacks, it explores. (Reveal the top card of your library. Put that card into your hand if it's a land. Otherwise, put a +1/+1 counter on this creature, then put the card back on top or into your graveyard.)
+SVar:TrigExplore:DB$ Explore
+Oracle:Equipped creature is an Expeditioner in addition to its other types.\nAs long as equipped creature is a Human, it gets +1/+1.\nWhenever equipped creature attacks, it explores.\nEquip {1}

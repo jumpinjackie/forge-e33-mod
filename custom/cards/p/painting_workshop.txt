@@ -1,0 +1,7 @@
+Name:Painting Workshop
+ManaCost:U WB
+Types:Enchantment
+T:Mode$ SpellCast | ValidCard$ Card.Painter,Card.Gradient | ValidActivatingPlayer$ You | Execute$ TrigDraw | TriggerZones$ Battlefield | TriggerDescription$ Whenever you cast a Painter or Gradient spell, draw a card.
+SVar:TrigDraw:DB$ Draw | NumCards$ 1
+A:AB$ ChangeZone | Cost$ 2 U Sac<1/CARDNAME> | Origin$ Graveyard | Destination$ Hand | TgtPrompt$ Choose target Gradient card in your graveyard | ValidTgts$ Gradient.YouCtrl | SpellDescription$ Return target Gradient card from your graveyard to your hand.
+Oracle:Whenever you cast a Painter or Gradient spell, draw a card.\n{2}{U}, Sacrifice this enchantment: Return target Gradient card from your graveyard to your hand.

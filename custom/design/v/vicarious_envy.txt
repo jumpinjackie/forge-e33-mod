@@ -1,0 +1,21 @@
+[Name]
+Vicarious Envy
+[ManaCost]
+U
+B
+[Types]
+Instant
+[Rarity]
+U
+[Oracle]
+Target creature you control becomes a copy of target creature until end of turn.
+[FlavorText]
+I envy them, those who can’t see. Those who know not, that they are not. And those who live, blithe and free, sins forgotten and thus absolved. A fresh dawn in their playground, while we live in shadows, swimming in ink. We are but a fragile dream, a singular weed, resisting, ever resisting.
+- Masked Woman
+[ForgeScript]
+A:SP$ Clone | Choices$ Creature | ChoiceTitle$ Choose a creature to copy | ValidTgts$ Creature.YouCtrl | TgtPrompt$ Choose target creature you control | Duration$ UntilEndOfTurn | StackDescription$ SpellDescription | SpellDescription$ Target creature you control becomes a copy of target creature until end of turn.
+[DesignNotes]
+ - In the game, before entering Stone Wave Cliffs, Maelle requests the party set up camp and rest. That night, Painted Alicia encounters Maelle while asleep, and begins an internal monologue about how she is envious of Maelle's situation of not knowing that she is actually the real Alicia painted over, not bearing the scars and torment that her painted counterpart has to endure in perpetuity.
+ - This card is a flavorful translation of Painted Alicia's internal monologue as a temporary creature copy effect (to represent the desire to be someone else).
+ - Name was chosen for maximum cromulence.
+    - Vicarious: (adjective) Experienced or felt by empathy with or imaginary participation in the life of another person.

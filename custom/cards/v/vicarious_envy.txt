@@ -1,0 +1,5 @@
+Name:Vicarious Envy
+ManaCost:U B
+Types:Instant
+A:SP$ Clone | Choices$ Creature | ChoiceTitle$ Choose a creature to copy | ValidTgts$ Creature.YouCtrl | TgtPrompt$ Choose target creature you control | Duration$ UntilEndOfTurn | StackDescription$ SpellDescription | SpellDescription$ Target creature you control becomes a copy of target creature until end of turn.
+Oracle:Target creature you control becomes a copy of target creature until end of turn.
