@@ -663,7 +663,7 @@ public class CardMasterDesign(string designFile)
         };
     }
 
-    public record CockatriceCardFace(string Name, string Rarity, string OracleText, string Colors, string? ManaCost, int? ManaValue, string Type, string MainType, string? PT, string? Loyalty, string? RelatedCardName, bool? EntersTapped)
+    public record CockatriceCardFace(string Name, string Rarity, string OracleText, string Colors, string? ManaCost, int? ManaValue, string Type, string MainType, string? PT, string? Loyalty, string? RelatedCardName, bool? EntersTapped, string? Side)
     {
         public int GetTableRow() => this.MainType switch
         {
@@ -694,7 +694,8 @@ public class CardMasterDesign(string designFile)
                 this.FrontFull.PT,
                 this.FrontFull.Loyalty,
                 null,
-                this.FrontFull.EntersTapped
+                this.FrontFull.EntersTapped,
+                null
             );
         }
         else if (FaceType == CardFaceType.SplitFuse || FaceType == CardFaceType.SplitRoom)
@@ -723,6 +724,7 @@ public class CardMasterDesign(string designFile)
                 null,
                 null,
                 null,
+                null,
                 null
             );
         }
@@ -743,7 +745,8 @@ public class CardMasterDesign(string designFile)
                 this.FrontFull.PT,
                 this.FrontFull.Loyalty,
                 this.BackFull.InvariantName ?? this.BackFull.Name,
-                this.FrontFull.EntersTapped
+                this.FrontFull.EntersTapped,
+                "front"
             );
             yield return new(
                 // NOTE: Using invariant name as first priority for cockatrice as card images use invariant name
@@ -759,8 +762,9 @@ public class CardMasterDesign(string designFile)
                 this.GetPrimaryCategory(),
                 this.BackFull.PT,
                 this.BackFull.Loyalty,
+                this.FrontFull.InvariantName ?? this.FrontFull.Name,
                 null,
-                null
+                "back"
             );
         }
         else if (FaceType == CardFaceType.Meld)
@@ -780,7 +784,8 @@ public class CardMasterDesign(string designFile)
                 this.FrontFull.PT,
                 this.FrontFull.Loyalty,
                 this.MeldTarget.InvariantName ?? this.MeldTarget.Name,
-                this.FrontFull.EntersTapped
+                this.FrontFull.EntersTapped,
+                "front"
             );
             yield return new(
                 // NOTE: Using invariant name as first priority for cockatrice as card images use invariant name
@@ -797,7 +802,8 @@ public class CardMasterDesign(string designFile)
                 this.MeldTarget.PT,
                 this.MeldTarget.Loyalty,
                 null,
-                null
+                null,
+                "back"
             );
         }
     }
@@ -1704,12 +1710,13 @@ public class GenAllCommand : BaseCommand
                         {{(face.ManaValue.HasValue ? $"<cmc>{face.ManaValue.Value}</cmc>" : "<!-- no mana value -->")}}
                         <type>{{face.Type}}</type>
                         <maintype>{{face.MainType}}</maintype>
+                        {{(face.Side is not null ? $"<side>{face.Side}</side>" : "<!-- no side -->")}}
                         {{(face.PT is not null ? $"<pt>{face.PT}</pt>" : "<!-- no pt -->")}}
                         {{(face.Loyalty is not null ? $"<loyalty>{face.Loyalty}</loyalty>" : "<!-- no pw loyalty -->")}}
                         {{(card.FaceType == CardFaceType.SplitFuse || card.FaceType == CardFaceType.SplitRoom ? "<layout>split</layout>" : "<!-- no layout -->")}}
-                        {{(face.RelatedCardName is not null ? $"<related attach=\"transform\">{face.RelatedCardName}</related>" : "<!-- no related -->")}}
                       </prop>
                       <tablerow>{{face.GetTableRow()}}</tablerow>
+                      {{(face.RelatedCardName is not null ? $"<related attach=\"transform\">{face.RelatedCardName}</related>" : "<!-- no related -->")}}
                       {{(face.EntersTapped == true ? $"<cipt>1</cipt>" : "<!-- no cipt -->")}}
                     </card>
                 """);
