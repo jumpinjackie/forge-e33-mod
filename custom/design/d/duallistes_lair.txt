@@ -1,0 +1,17 @@
+[Name]
+Dualliste's Lair
+[ManaCost]
+3
+B
+B
+[IsReprint]
+true
+[NicknameFor]
+Death Pits of Rath
+[Rarity]
+U
+[Artist]
+Sandfall Interactive
+[DesignNotes]
+ - In the game, the party falls into a pit of Expeditioner corpses where they encounter a boss fight with Dualliste.
+ - Flavorful nickname reprint of Death Pits of Rath. Downshifted to uncommon.

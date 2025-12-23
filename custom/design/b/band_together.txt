@@ -1,0 +1,13 @@
+[Name]
+Band Together
+[ManaCost]
+2
+G
+[IsReprint]
+true
+[Rarity]
+C
+[Artist]
+Sandfall Interactive
+[DesignNotes]
+ - Flavorful (based on art) [removal / combat trick] reprint
