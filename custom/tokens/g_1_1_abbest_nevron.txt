@@ -1,4 +1,4 @@
-Name:Abbest
+Name:Abbest Token
 ManaCost:no cost
 Colors:Green
 Types:Creature Nevron

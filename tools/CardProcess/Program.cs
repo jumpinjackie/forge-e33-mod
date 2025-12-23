@@ -69,6 +69,8 @@ public class CardFaceDesign
 
     public string? NicknameFor { get; set; }
 
+    public bool EntersTapped { get; set; } = false;
+
     internal void Apply(string propertyName, IEnumerable<string> buffer)
     {
         switch (propertyName)
@@ -95,41 +97,8 @@ public class CardFaceDesign
                 ArtNotes = string.Join("\n", buffer);
                 break;
             case nameof(Types):
-                {
-                    Types = buffer.ToArray();
-                    var tokens = Types.ToList();
-
-                    // Determine which token to insert a - after
-                    bool bDone = false;
-                    int mostSignificantIdx = -1;
-                    for (var i = 0; i < tokens.Count; i++)
-                    {
-                        if (bDone)
-                            break;
-
-                        if (i < tokens.Count - 1)
-                        {
-                            switch (tokens[i])
-                            {
-                                case "Sorcery":
-                                case "Instant":
-                                case "Land":
-                                case "Artifact":
-                                case "Enchantment":
-                                case "Creature":
-                                case "Planeswalker":
-                                    mostSignificantIdx = i;
-                                    break;
-                            }
-                        }
-                    }
-                    if (mostSignificantIdx < tokens.Count - 1 && mostSignificantIdx >= 0)
-                    {
-                        tokens.Insert(mostSignificantIdx + 1, "-");
-                    }
-
-                    this.TypeLine = string.Join(" ", tokens);
-                }
+                Types = buffer.ToArray();
+                this.TypeLine = BuildTypeLine(Types);
                 break;
             case nameof(Oracle):
                 Oracle = buffer.ToArray();
@@ -164,7 +133,46 @@ public class CardFaceDesign
             case nameof(NicknameFor):
                 NicknameFor = string.Join(" ", buffer);
                 break;
+            case nameof(EntersTapped):
+                EntersTapped = string.Join(" ", buffer) == "true";
+                break;
         }
+    }
+
+    public static string BuildTypeLine(string[] types)
+    {
+        var tokens = types.ToList();
+
+        // Determine which token to insert a - after
+        bool bDone = false;
+        int mostSignificantIdx = -1;
+        for (var i = 0; i < tokens.Count; i++)
+        {
+            if (bDone)
+                break;
+
+            if (i < tokens.Count - 1)
+            {
+                switch (tokens[i])
+                {
+                    case "Sorcery":
+                    case "Instant":
+                    case "Land":
+                    case "Artifact":
+                    case "Enchantment":
+                    case "Creature":
+                    case "Planeswalker":
+                        mostSignificantIdx = i;
+                        break;
+                }
+            }
+        }
+        if (mostSignificantIdx < tokens.Count - 1 && mostSignificantIdx >= 0)
+        {
+            tokens.Insert(mostSignificantIdx + 1, "-");
+        }
+
+        return string.Join(" ", tokens);
     }
 
     internal async Task WriteScriptAsync(StreamWriter sw, TextWriter stdout, TextWriter stderr, CardFaceType faceType)
@@ -267,6 +275,97 @@ public class CardFaceDesign
         }
 
         return text.ToString();
+    }
+
+    internal string GetCockatriceManaCost()
+    {
+        if (this.ManaCost is null)
+            return string.Empty;
+        if (this.ManaCost[0] == "no cost")
+            return string.Empty;
+        return this.FormatManaCost();
+    }
+
+    internal int? GetManaValue()
+    {
+        if (this.ManaCost is not null && this.ManaCost.Length > 0 && this.ManaCost[0] != "no cost")
+        {
+            int total = 0;
+            foreach (var pip in this.ManaCost)
+            {
+                if (int.TryParse(pip, out int num))
+                {
+                    total += num;
+                }
+                else if (pip.Length == 1 && "WUBRG".Contains(char.ToUpperInvariant(pip[0])))
+                {
+                    total += 1;
+                }
+                else if (pip.Length == 2) // hybrid
+                {
+                    total += 1;
+                }
+                // Other symbols like X are treated as 0
+            }
+            return total;
+        }
+        return null;
+    }
+
+    internal void PopulateColorsFromManaCost(HashSet<char> colors)
+    {
+        if (this.ManaCost is not null)
+        {
+            foreach (var pip in this.ManaCost)
+            {
+                if (pip.Length == 1)
+                {
+                    var c = char.ToUpperInvariant(pip[0]);
+                    if ("WUBRG".Contains(c)) colors.Add(c);
+                }
+                else if (pip.Length == 2)
+                {
+                    var c1 = char.ToUpperInvariant(pip[0]);
+                    var c2 = char.ToUpperInvariant(pip[1]);
+                    if ("WUBRG".Contains(c1)) colors.Add(c1);
+                    if ("WUBRG".Contains(c2)) colors.Add(c2);
+                }
+            }
+        }
+    }
+
+    internal void PopulateColorsFromColorIdentity(HashSet<char> colors)
+    {
+        if (this.ColorIdentity is not null)
+        {
+            foreach (var c in this.ColorIdentity)
+            {
+                var letter = c.ToLower() switch
+                {
+                    "white" => 'W',
+                    "blue" => 'U',
+                    "black" => 'B',
+                    "red" => 'R',
+                    "green" => 'G',
+                    _ => (char?)null
+                };
+                if (letter.HasValue) colors.Add(letter.Value);
+            }
+        }
+    }
+
+    internal string GetCockatriceColors()
+    {
+        var colors = new HashSet<char>();
+        PopulateColorsFromManaCost(colors);
+        if (colors.Count == 0)
+        {
+            PopulateColorsFromColorIdentity(colors);
+        }
+        // Sort in WUBRG order
+        var order = new[] { 'W', 'U', 'B', 'R', 'G' };
+        var sorted = colors.OrderBy(c => Array.IndexOf(order, c));
+        return string.Join(string.Empty, sorted);
     }
 
     internal string GetOracleText()
@@ -408,6 +507,93 @@ public enum SplitKind
     Fuse
 }
 
+public class TokenDefinition
+{
+    public string? Name { get; set; }
+
+    public string[]? ManaCost { get; set; }
+
+    public string[]? Types { get; set; }
+
+    public string? PT { get; set; }
+
+    public string[]? Oracle { get; set; }
+
+    public string[]? ForgeScript { get; set; }
+
+    public string[]? Colors { get; set; }
+
+    public string? TypeLine => Types is not null ? string.Join(" ", Types) : null;
+
+    public string? OracleTextFull => Oracle is not null ? string.Join("\n", Oracle) : null;
+
+    public string? MainType
+    {
+        get
+        {
+            if (Types == null) return null;
+            var ht = new HashSet<string>(Types, StringComparer.OrdinalIgnoreCase);
+            if (ht.Contains("Creature")) return "Creature";
+            if (ht.Contains("Instant")) return "Instant";
+            if (ht.Contains("Sorcery")) return "Sorcery";
+            if (ht.Contains("Enchantment")) return "Enchantment";
+            if (ht.Contains("Land")) return "Land";
+            if (ht.Contains("Artifact")) return "Artifact";
+            return "Other";
+        }
+    }
+
+    public int GetTableRow()
+    {
+        if (Types == null) return 2;
+        var ht = new HashSet<string>(Types, StringComparer.OrdinalIgnoreCase);
+        if (ht.Contains("Land")) return 0;
+        if (ht.Contains("Creature")) return 1;
+        if (ht.Contains("Instant") || ht.Contains("Sorcery")) return 3;
+        return 2;
+    }
+
+    public static async Task<TokenDefinition> ReadAsync(string path)
+    {
+        var token = new TokenDefinition();
+        using var sr = new StreamReader(path);
+        string? line;
+        while ((line = await sr.ReadLineAsync()) is not null)
+        {
+            if (line.StartsWith("Name:"))
+            {
+                token.Name = line.Substring(5);
+            }
+            else if (line.StartsWith("ManaCost:"))
+            {
+                token.ManaCost = line.Substring(9).Split(' ', StringSplitOptions.RemoveEmptyEntries);
+            }
+            else if (line.StartsWith("Types:"))
+            {
+                token.Types = line.Substring(6).Split(' ', StringSplitOptions.RemoveEmptyEntries);
+            }
+            else if (line.StartsWith("PT:"))
+            {
+                token.PT = line.Substring(3);
+            }
+            else if (line.StartsWith("Oracle:"))
+            {
+                token.Oracle = new[] { line.Substring(7) };
+            }
+            else if (line.StartsWith("Colors:"))
+            {
+                token.Colors = line.Substring(7).Split(' ', StringSplitOptions.RemoveEmptyEntries);
+            }
+            else if (!string.IsNullOrWhiteSpace(line))
+            {
+                // Assume ForgeScript
+                token.ForgeScript = (token.ForgeScript ?? []).Append(line).ToArray();
+            }
+        }
+        return token;
+    }
+}
+
 public class CardMasterDesign(string designFile)
 {
     private CardFaceDesign _activeFace = new();
@@ -530,6 +716,26 @@ public class CardMasterDesign(string designFile)
 
     public string? Bucket { get; set; }
 
+    public string? OracleTextFull
+    {
+        get
+        {
+#pragma warning disable CS8603 // Possible null reference return.
+#pragma warning disable CS8602 // Dereference of a possibly null reference.
+            return FaceType switch
+            {
+                CardFaceType.Regular => FrontFull?.GetOracleText(),
+                CardFaceType.SplitRoom => $"{SplitLeft?.GetOracleText()}\n---\n{SplitRight?.GetOracleText()}",
+                CardFaceType.SplitFuse => $"{SplitLeft?.GetOracleText()}\n---\n{SplitRight?.GetOracleText()}",
+                CardFaceType.Meld => $"{FrontFull?.GetOracleText()}\n---\n{MeldTarget?.GetOracleText()}",
+                CardFaceType.DoubleFaced => $"{FrontFull?.GetOracleText()}\n---\n{BackFull?.GetOracleText()}",
+                _ => null
+            };
+#pragma warning restore CS8602 // Dereference of a possibly null reference.
+#pragma warning restore CS8603 // Possible null reference return.
+        }
+    }
+
     static string? ColorName(char color)
     {
         return color switch
@@ -541,6 +747,164 @@ public class CardMasterDesign(string designFile)
             'G' or 'g' => "GREEN",
             'C' or 'c' => "COLORLESS",
             _ => null
+        };
+    }
+
+    public record CockatriceCardFace(string Name, string Rarity, string OracleText, string Colors, string? ManaCost, int? ManaValue, string Type, string MainType, string? PT, string? Loyalty, string? RelatedCardName, bool? EntersTapped, string? Side)
+    {
+        public int GetTableRow() => this.MainType switch
+        {
+            "Land" => 0,
+            "Creature" => 1,
+            "Instant" => 3,
+            "Sorcery" => 3,
+            _ => 2
+        };
+    }
+
+    public IEnumerable<CockatriceCardFace> GetCockatriceFaces()
+    {
+        if (FaceType == CardFaceType.Regular)
+        {
+            yield return new(
+                // NOTE: Using invariant name as first priority for cockatrice as card images use invariant name
+                // and for card images to line up properly the names must match exactly unlike forge which appears
+                // to have some kind of ascii fallback.
+                this.InvariantName ?? this.Name,
+                this.Rarity,
+                this.FrontFull.GetOracleText(),
+                this.FrontFull.GetCockatriceColors(),
+                this.FrontFull.GetCockatriceManaCost(),
+                this.FrontFull.GetManaValue(),
+                this.FrontFull.TypeLine,
+                this.GetPrimaryCategory(),
+                this.FrontFull.PT,
+                this.FrontFull.Loyalty,
+                null,
+                this.FrontFull.EntersTapped,
+                null
+            );
+        }
+        else if (FaceType == CardFaceType.SplitFuse || FaceType == CardFaceType.SplitRoom)
+        {
+            var colors = new HashSet<char>();
+            this.SplitLeft.PopulateColorsFromColorIdentity(colors);
+            this.SplitLeft.PopulateColorsFromManaCost(colors);
+            this.SplitRight.PopulateColorsFromColorIdentity(colors);
+            this.SplitRight.PopulateColorsFromManaCost(colors);
+            // Sort in WUBRG order
+            var order = new[] { 'W', 'U', 'B', 'R', 'G' };
+            var sColors = string.Join(string.Empty, colors.OrderBy(c => Array.IndexOf(order, c)));
+
+            yield return new(
+                // NOTE: Using invariant name as first priority for cockatrice as card images use invariant name
+                // and for card images to line up properly the names must match exactly unlike forge which appears
+                // to have some kind of ascii fallback.
+                this.InvariantName ?? this.Name,
+                this.Rarity,
+                this.OracleTextFull,
+                sColors,
+                this.SplitLeft.GetCockatriceManaCost() + " // " + this.SplitRight.GetCockatriceManaCost(),
+                this.SplitLeft.GetManaValue() + this.SplitRight.GetManaValue(),
+                this.SplitLeft.TypeLine,
+                this.GetPrimaryCategory(),
+                null,
+                null,
+                null,
+                null,
+                null
+            );
+        }
+        else if (FaceType == CardFaceType.DoubleFaced)
+        {
+            yield return new(
+                // NOTE: Using invariant name as first priority for cockatrice as card images use invariant name
+                // and for card images to line up properly the names must match exactly unlike forge which appears
+                // to have some kind of ascii fallback.
+                this.FrontFull.InvariantName ?? this.FrontFull.Name,
+                this.Rarity,
+                this.FrontFull.GetOracleText(),
+                this.FrontFull.GetCockatriceColors(),
+                this.FrontFull.GetCockatriceManaCost(),
+                this.FrontFull.GetManaValue(),
+                this.FrontFull.TypeLine,
+                this.GetPrimaryCategory(),
+                this.FrontFull.PT,
+                this.FrontFull.Loyalty,
+                this.BackFull.InvariantName ?? this.BackFull.Name,
+                this.FrontFull.EntersTapped,
+                "front"
+            );
+            yield return new(
+                // NOTE: Using invariant name as first priority for cockatrice as card images use invariant name
+                // and for card images to line up properly the names must match exactly unlike forge which appears
+                // to have some kind of ascii fallback.
+                this.BackFull.InvariantName ?? this.BackFull.Name,
+                this.Rarity,
+                this.BackFull.GetOracleText(),
+                this.BackFull.GetCockatriceColors(),
+                null, //this.BackFull.GetCockatriceManaCost(),
+                null, //this.BackFull.GetManaValue(),
+                this.BackFull.TypeLine,
+                this.GetPrimaryCategory(),
+                this.BackFull.PT,
+                this.BackFull.Loyalty,
+                this.FrontFull.InvariantName ?? this.FrontFull.Name,
+                null,
+                "back"
+            );
+        }
+        else if (FaceType == CardFaceType.Meld)
+        {
+            yield return new(
+                // NOTE: Using invariant name as first priority for cockatrice as card images use invariant name
+                // and for card images to line up properly the names must match exactly unlike forge which appears
+                // to have some kind of ascii fallback.
+                this.FrontFull.InvariantName ?? this.FrontFull.Name,
+                this.Rarity,
+                this.FrontFull.GetOracleText(),
+                this.FrontFull.GetCockatriceColors(),
+                this.FrontFull.GetCockatriceManaCost(),
+                this.FrontFull.GetManaValue(),
+                this.FrontFull.TypeLine,
+                this.GetPrimaryCategory(),
+                this.FrontFull.PT,
+                this.FrontFull.Loyalty,
+                this.MeldTarget.InvariantName ?? this.MeldTarget.Name,
+                this.FrontFull.EntersTapped,
+                "front"
+            );
+            yield return new(
+                // NOTE: Using invariant name as first priority for cockatrice as card images use invariant name
+                // and for card images to line up properly the names must match exactly unlike forge which appears
+                // to have some kind of ascii fallback.
+                this.MeldTarget.InvariantName ?? this.MeldTarget.Name,
+                this.Rarity,
+                this.MeldTarget.GetOracleText(),
+                this.MeldTarget.GetCockatriceColors(),
+                null, //this.MeldTarget.GetCockatriceManaCost(),
+                null, //this.MeldTarget.GetManaValue(),
+                this.MeldTarget.TypeLine,
+                this.GetPrimaryCategory(),
+                this.MeldTarget.PT,
+                this.MeldTarget.Loyalty,
+                null,
+                null,
+                "back"
+            );
+        }
+    }
+
+    private (bool isBasic, char? pip) IsBasicLand()
+    {
+        return this.Name switch
+        {
+            "Forest" => (true, 'G'),
+            "Island" => (true, 'U'),
+            "Mountain" => (true, 'R'),
+            "Plains" => (true, 'W'),
+            "Swamp" => (true, 'B'),
+            _ => (false, null)
         };
     }
 
@@ -635,10 +999,22 @@ public class CardMasterDesign(string designFile)
         // There are no split/meld artifact or colorless cards, so if no color identity could be determined it is 99% should be a regular card
         else if (this.FrontFull is not null)
         {
-            if (this.FrontFull.Types?.Contains("Land") == true)
+            var (isBasic, pip) = this.IsBasicLand();
+            if (isBasic)
+            {
                 this.Bucket = "LANDS";
-            else if (this.FrontFull.Types?.Contains("Artifact") == true)
-                this.Bucket = "ARTIFACTS";
+                this.FrontFull.Types = ["Basic", "Land", this.FrontFull.Name];
+                this.FrontFull.TypeLine = CardFaceDesign.BuildTypeLine(this.FrontFull.Types);
+                this.FrontFull.Rarity = "C";
+                this.FrontFull.Oracle = ["({T}: Add {" + pip + "}.)"];
+            }
+            else
+            {
+                if (this.FrontFull.Types?.Contains("Land") == true)
+                    this.Bucket = "LANDS";
+                else if (this.FrontFull.Types?.Contains("Artifact") == true)
+                    this.Bucket = "ARTIFACTS";
+            }
         }
 
         return this;
@@ -710,6 +1086,7 @@ public class CardMasterDesign(string designFile)
                 case "[IsReprint]":
                 case "[IsCommander]":
                 case "[NicknameFor]":
+                case "[EntersTapped]":
                     // Apply the collected buffer for the previous property name
                     if (activePropertyName != null)
                     {
@@ -1043,6 +1420,28 @@ public class CardMasterDesign(string designFile)
                 break;
         }
     }
+
+    public string GetPrimaryCategory()
+    {
+        CardFaceDesign? face = this.FaceType switch
+        {
+            CardFaceType.SplitFuse or CardFaceType.SplitRoom => this.SplitLeft,
+            CardFaceType.Meld or CardFaceType.DoubleFaced => this.FrontFull,
+            _ => this.FrontFull
+        };
+
+        if (face?.Types != null)
+        {
+            var ht = new HashSet<string>(face.Types, StringComparer.OrdinalIgnoreCase);
+            if (ht.Contains("Creature")) return "Creature";
+            if (ht.Contains("Instant")) return "Instant";
+            if (ht.Contains("Sorcery")) return "Sorcery";
+            if (ht.Contains("Enchantment")) return "Enchantment";
+            if (ht.Contains("Land")) return "Land";
+            if (ht.Contains("Artifact")) return "Artifact";
+        }
+        return "Other";
+    }
 }
 
 public abstract class BaseCommand
@@ -1077,6 +1476,28 @@ public abstract class BaseCommand
         await stdout.WriteLineAsync($"Read: {cards.Count} cards");
         return cards;
     }
+
+    protected async Task<SortedDictionary<string, TokenDefinition>> ReadTokensAsync(TextWriter stdout, TextWriter stderr)
+    {
+        var subDirs = this.BaseDirectory.GetDirectories();
+        var tokensDir = subDirs.FirstOrDefault(d => d.Name == "tokens");
+        if (tokensDir is null)
+            throw new InvalidOperationException("Tokens dir not found");
+
+        var tokens = new SortedDictionary<string, TokenDefinition>();
+        foreach (var tokenFile in Directory.EnumerateFiles(tokensDir.FullName, "*.txt", SearchOption.AllDirectories))
+        {
+            await stdout.WriteLineAsync($"Processing token: {tokenFile}");
+            var token = await TokenDefinition.ReadAsync(tokenFile);
+            if (token.Name is not null)
+                tokens.Add(token.Name, token);
+            else
+                await stderr.WriteLineAsync($"Token file ({tokenFile}) has no name!");
+        }
+
+        await stdout.WriteLineAsync($"Read: {tokens.Count} tokens");
+        return tokens;
+    }
 }
 
 [CliCommand(Name = "genall", Description = "Generate all outputs (scripts, docs, edition, bugs)")]
@@ -1096,31 +1517,70 @@ public class GenAllCommand : BaseCommand
     {
         // Read cards once for all operations
         var cards = await ReadCardDesignsAsync(stdout, stderr);
+        var tokens = await ReadTokensAsync(stdout, stderr);
 
-        // 1. Generate card scripts (from GenCardScriptsCommand)
-        await stdout.WriteLineAsync("Generating card scripts...");
         var subDirs = this.BaseDirectory.GetDirectories();
         var cardsDir = subDirs.FirstOrDefault(d => d.Name == "cards");
         var tokensDir = subDirs.FirstOrDefault(d => d.Name == "tokens");
+        var editionsDir = subDirs.FirstOrDefault(d => d.Name == "editions");
+        var designDir = subDirs.FirstOrDefault(d => d.Name == "design");
         if (cardsDir is null)
             throw new InvalidOperationException("cards dir not found");
         if (tokensDir is null)
             throw new InvalidOperationException("tokens dir not found");
+        if (editionsDir is null)
+            throw new InvalidOperationException("editions dir not found");
+        if (designDir is null)
+            throw new InvalidOperationException("design dir not found");
 
+        // 1. Generate card scripts (from GenCardScriptsCommand)
+        await GenerateCardScriptsAsync(cards, cardsDir, tokensDir, stdout, stderr);
+
+        // 2. Generate docs (from GenDocsCommand)
+        await GenerateDocsAsync(cards, OutputDir, BaseDirectory, stdout, stderr);
+
+        // 3. Generate edition (from GenEditionCommand)
+        await GenerateEditionAsync(cards, editionsDir, designDir, stdout);
+
+        // 4. Generate bugs (from GenBugsCommand)
+        await GenerateBugsAsync(cards, OutputDir, stdout);
+
+        // 5. Generate card name list
+        await GenerateCardListAsync(cards, designDir, OutputDir, stdout);
+
+        // 6. Generate Cockatrice XML
+        await GenerateCockatriceXmlAsync(cards, tokens, OutputDir, stdout);
+
+        // Generate SPOILER.md containing a 3-column table of card and token images
+        await GenerateSpoilerAsync(cards, BaseDirectory, OutputDir, stdout, stderr);
+
+        // Compile stats: build a rarity-by-bucket distribution
+        await GenerateStatsAsync(cards, stdout);
+
+
+        await stdout.WriteLineAsync("All generation tasks completed successfully!");
+
+        return 0;
+    }
+
+    private async Task GenerateCardScriptsAsync(SortedDictionary<string, CardMasterDesign> cards, DirectoryInfo cardsDir, DirectoryInfo tokensDir, TextWriter stdout, TextWriter stderr)
+    {
+        await stdout.WriteLineAsync("Generating card scripts...");
         foreach (var (name, card) in cards)
         {
             if (card.IsReprint) // Reprints already have card scripts
                 continue;
-
             await card.WriteScriptAsync(cardsDir, tokensDir, stdout, stderr);
         }
+    }
 
-        // 2. Generate docs (from GenDocsCommand)
+    private async Task GenerateDocsAsync(SortedDictionary<string, CardMasterDesign> cards, DirectoryInfo outputDir, DirectoryInfo baseDirectory, TextWriter stdout, TextWriter stderr)
+    {
         await stdout.WriteLineAsync("Generating documentation...");
         var writers = new Dictionary<string, StringWriter>();
         var scriptBaseDir = Path.GetRelativePath(
-            OutputDir.FullName,
-            Path.Combine(BaseDirectory.FullName, "cards")
+            outputDir.FullName,
+            Path.Combine(baseDirectory.FullName, "cards")
         );
 
         foreach (var (name, card) in cards)
@@ -1146,7 +1606,7 @@ public class GenAllCommand : BaseCommand
             var writer = kvp.Value;
             var contentSb = writer.GetStringBuilder();
             var newContent = contentSb.ToString().Replace("PLACEHOLDER", DateTime.UtcNow.ToString());
-            var filePath = Path.Combine(this.OutputDir.FullName, kvp.Key + ".md");
+            var filePath = Path.Combine(outputDir.FullName, kvp.Key + ".md");
             string existingContent = null;
             if (File.Exists(filePath))
             {
@@ -1165,15 +1625,11 @@ public class GenAllCommand : BaseCommand
                 await stdout.WriteLineAsync($"No changes: {filePath}");
             }
         }
+    }
 
-        // 3. Generate edition (from GenEditionCommand)
+    private async Task GenerateEditionAsync(SortedDictionary<string, CardMasterDesign> cards, DirectoryInfo editionsDir, DirectoryInfo designDir, TextWriter stdout)
+    {
         await stdout.WriteLineAsync("Generating edition file...");
-        var editionsDir = subDirs.FirstOrDefault(d => d.Name == "editions");
-        var designDir = subDirs.FirstOrDefault(d => d.Name == "design");
-        if (editionsDir is null)
-            throw new InvalidOperationException("editions dir not found");
-        if (designDir is null)
-            throw new InvalidOperationException("design dir not found");
         var templateFile = Path.Combine(designDir.FullName, "edition.tpl");
         if (!File.Exists(templateFile))
             throw new InvalidOperationException("Could not find edition.tpl");
@@ -1225,10 +1681,12 @@ public class GenAllCommand : BaseCommand
             Path.Combine(editionsDir.FullName, "Clair Obscur Expedition 33 Commander.txt"),
             sbCommander.ToString()
         );
+    }
 
-        // 4. Generate bugs (from GenBugsCommand)
+    private async Task GenerateBugsAsync(SortedDictionary<string, CardMasterDesign> cards, DirectoryInfo outputDir, TextWriter stdout)
+    {
         await stdout.WriteLineAsync("Generating bugs file...");
-        var bugsFile = Path.Combine(this.OutputDir.FullName, "BUGS.md");
+        var bugsFile = Path.Combine(outputDir.FullName, "BUGS.md");
         using var sw = new StreamWriter(bugsFile);
 
         await sw.WriteLineAsync("# General");
@@ -1246,15 +1704,17 @@ public class GenAllCommand : BaseCommand
         }
 
         await stdout.WriteLineAsync("Updated bugs file");
+    }
 
-        // 5. Generate card name list
+    private async Task GenerateCardListAsync(SortedDictionary<string, CardMasterDesign> cards, DirectoryInfo designDir, DirectoryInfo outputDir, TextWriter stdout)
+    {
         var cardListFile = Path.Combine(designDir.FullName, "CARDLIST.md");
         if (!File.Exists(cardListFile))
             throw new InvalidOperationException("Could not find CARDLIST.md");
 
         using var srCardList = new StreamReader(cardListFile);
-        await stdout.WriteLineAsync("Generating bugs file...");
-        var cardListOutFile = Path.Combine(this.OutputDir.FullName, "CARDLIST.md");
+        await stdout.WriteLineAsync("Generating card list...");
+        var cardListOutFile = Path.Combine(outputDir.FullName, "CARDLIST.md");
         var sbCardList = new StringBuilder();
 
         bool bInsideCardList = false;
@@ -1311,11 +1771,120 @@ public class GenAllCommand : BaseCommand
 
         await File.WriteAllTextAsync(cardListOutFile, sbCardList.ToString());
         await stdout.WriteLineAsync("Updated CARDLIST.md");
+    }
 
-        // Generate SPOILER.md containing a 3-column table of card and token images
+    private async Task GenerateCockatriceXmlAsync(SortedDictionary<string, CardMasterDesign> cards, SortedDictionary<string, TokenDefinition> tokens, DirectoryInfo outputDir, TextWriter stdout)
+    {
+        var cockatriceDir = Path.Combine(this.BaseDirectory.FullName, "dist", "cockatrice");
+        Directory.CreateDirectory(cockatriceDir);
+
+        var e33Cards = cards.Where(c => !c.Value.IsCommander).ToList();
+        var e3cCards = cards.Where(c => c.Value.IsCommander).ToList();
+
+        await GenerateSetXmlAsync(e33Cards, tokens, "E33", "Clair Obscur: Expedition 33", new DirectoryInfo(cockatriceDir), stdout);
+        await GenerateSetXmlAsync(e3cCards, new(), "E3C", "Clair Obscur: Expedition 33 Commander", new DirectoryInfo(cockatriceDir), stdout);
+    }
+
+    private async Task GenerateSetXmlAsync(List<KeyValuePair<string, CardMasterDesign>> setCards, SortedDictionary<string, TokenDefinition> tokens, string setCode, string setNameFull, DirectoryInfo outputDir, TextWriter stdout)
+    {
+        var sb = new StringBuilder();
+        sb.AppendLine("<?xml version=\"1.0\" encoding=\"UTF-8\"?>");
+        sb.AppendLine("<cockatrice_carddatabase version=\"4\">");
+
+        sb.AppendLine(
+            $"""
+              <sets>
+                <set>
+                  <name>{setCode}</name>
+                  <longname>{setNameFull}</longname>
+                  <settype>Custom</settype>
+                  <releasedate>2025-09-17</releasedate>
+                </set>
+              </sets>
+              <cards>
+            """);
+
+        foreach (var (name, card) in setCards)
+        {
+            var faces = card.GetCockatriceFaces();
+            foreach (var face in faces)
+            {
+                sb.AppendLine($$"""
+                    <card>
+                      <name>{{EscapeXml(face.Name)}}</name>
+                      <text>{{EscapeXml(face.OracleText)}}</text>
+                      <set rarity="{{GetRarity(face.Name, face.Rarity)}}">{{setCode}}</set>
+                      <prop>
+                        <colors>{{face.Colors}}</colors>
+                        <manacost>{{face.ManaCost}}</manacost>
+                        {{(face.ManaValue.HasValue ? $"<cmc>{face.ManaValue.Value}</cmc>" : "<!-- no mana value -->")}}
+                        <type>{{face.Type}}</type>
+                        <maintype>{{face.MainType}}</maintype>
+                        {{(face.Side is not null ? $"<side>{face.Side}</side>" : "<!-- no side -->")}}
+                        {{(face.PT is not null ? $"<pt>{face.PT}</pt>" : "<!-- no pt -->")}}
+                        {{(face.Loyalty is not null ? $"<loyalty>{face.Loyalty}</loyalty>" : "<!-- no pw loyalty -->")}}
+                        {{(card.FaceType == CardFaceType.SplitFuse || card.FaceType == CardFaceType.SplitRoom ? "<layout>split</layout>" : "<!-- no layout -->")}}
+                      </prop>
+                      <tablerow>{{face.GetTableRow()}}</tablerow>
+                      {{(face.RelatedCardName is not null ? $"<related attach=\"transform\">{face.RelatedCardName}</related>" : "<!-- no related -->")}}
+                      {{(face.EntersTapped == true ? $"<cipt>1</cipt>" : "<!-- no cipt -->")}}
+                    </card>
+                """);
+            }
+        }
+
+        sb.AppendLine("    <!-- BEGIN tokens -->");
+
+        foreach (var (name, token) in tokens)
+        {
+            sb.AppendLine($$"""
+                <card>
+                  <name>{{EscapeXml(name)}}</name>
+                  <text>{{EscapeXml(token.OracleTextFull ?? string.Empty)}}</text>
+                  <set>{{setCode}}</set>
+                  <prop>
+                    <colors>{{string.Join("", token.Colors ?? [])}}</colors>
+                    <cmc>0</cmc>
+                    <type>{{token.TypeLine}}</type>
+                    <maintype>{{token.MainType}}</maintype>
+                    {{(token.PT is not null ? $"<pt>{token.PT}</pt>" : "<!-- no pt -->")}}
+                  </prop>
+                  <token>1</token>
+                  <tablerow>{{token.GetTableRow()}}</tablerow>
+                </card>
+            """);
+        }
+
+        sb.AppendLine("    <!-- END tokens -->");
+
+        sb.AppendLine("  </cards>");
+
+        string GetRarity(string name, string rarityCode) => rarityCode?.ToLowerInvariant() switch
+        {
+            "c" => "common",
+            "u" => "uncommon",
+            "r" => "rare",
+            "m" => "mythic",
+            _ => throw new UnreachableException($"No rarity for: {name}")
+        };
+
+        sb.AppendLine("</cockatrice_carddatabase>");
+
+        var filePath = Path.Combine(outputDir.FullName, $"{setCode}.xml");
+        await File.WriteAllTextAsync(filePath, sb.ToString());
+        await stdout.WriteLineAsync($"Generated {setCode}.xml with {setCards.Count} cards");
+    }
+
+    private static string EscapeXml(string text)
+    {
+        return text.Replace("&", "&amp;").Replace("<", "&lt;").Replace(">", "&gt;").Replace("\"", "&quot;").Replace("'", "&apos;");
+    }
+
+    private async Task GenerateSpoilerAsync(SortedDictionary<string, CardMasterDesign> cards, DirectoryInfo baseDirectory, DirectoryInfo outputDir, TextWriter stdout, TextWriter stderr)
+    {
         try
         {
-            var picsBase = Path.Combine(this.BaseDirectory.FullName, "pics");
+            var picsBase = Path.Combine(baseDirectory.FullName, "pics");
             var baseCardsPicsDir = Path.Combine(picsBase, "cards", "E33");
             var cmdrCardsPicsDir = Path.Combine(picsBase, "cards", "E3C");
             var tokensPicsDir = Path.Combine(picsBase, "tokens", "E33");
@@ -1326,7 +1895,7 @@ public class GenAllCommand : BaseCommand
                 tokenImages.AddRange(Directory.EnumerateFiles(tokensPicsDir, "*.jpg", SearchOption.AllDirectories).OrderBy(p => p));
             }
 
-            var spoilerPath = Path.Combine(this.OutputDir.FullName, "SPOILER.md");
+            var spoilerPath = Path.Combine(outputDir.FullName, "SPOILER.md");
             using (var spoilerWriter = new StreamWriter(spoilerPath, false, Encoding.UTF8))
             {
                 spoilerWriter.WriteLine("# Spoiler Images");
@@ -1346,11 +1915,11 @@ public class GenAllCommand : BaseCommand
                         totalCardsWithImages += cardsWithImagesTotal;
                     }
                     spoilerWriter.WriteLine($"# Clair Obscur: Expedition 33 (E33) [{totalCardsWithImages}/{totalCards} cards]");
-                    WriteSpoilerTable(spoilerWriter, baseImages, this.OutputDir);
+                    WriteSpoilerTable(spoilerWriter, baseImages, outputDir);
                 }
 
                 spoilerWriter.WriteLine("## Tokens");
-                WriteSpoilerTable(spoilerWriter, tokenImages, this.OutputDir);
+                WriteSpoilerTable(spoilerWriter, tokenImages, outputDir);
 
                 {
                     var totalCards = 0;
@@ -1365,7 +1934,7 @@ public class GenAllCommand : BaseCommand
                         totalCardsWithImages += cardsWithImagesTotal;
                     }
                     spoilerWriter.WriteLine($"# Clair Obscur: Expedition 33 Commander (E3C) [{totalCardsWithImages}/{totalCards} cards]");
-                    WriteSpoilerTable(spoilerWriter, cmdrImages, this.OutputDir);
+                    WriteSpoilerTable(spoilerWriter, cmdrImages, outputDir);
                 }
             }
 
@@ -1440,7 +2009,10 @@ public class GenAllCommand : BaseCommand
         {
             await stderr.WriteLineAsync($"Failed to write SPOILER.md: {ex.Message}");
         }
+    }
 
+    private async Task GenerateStatsAsync(SortedDictionary<string, CardMasterDesign> cards, TextWriter stdout)
+    {
         // Compile stats: build a rarity-by-bucket distribution
         var rarityCodes = new[] { "C", "U", "R", "M", "?" }; // ? == unknown
         var distro = new SortedDictionary<string, Dictionary<string, int>>(StringComparer.OrdinalIgnoreCase);
@@ -1507,31 +2079,9 @@ public class GenAllCommand : BaseCommand
         var typeCategories = new[] { "Creature", "Instant", "Sorcery", "Enchantment", "Land", "Artifact", "Other" };
         var typeCounts = typeCategories.ToDictionary(t => t, t => 0);
 
-        string GetPrimaryCategory(CardMasterDesign card)
-        {
-            CardFaceDesign? face = card.FaceType switch
-            {
-                CardFaceType.SplitFuse or CardFaceType.SplitRoom => card.SplitLeft,
-                CardFaceType.Meld or CardFaceType.DoubleFaced => card.FrontFull,
-                _ => card.FrontFull
-            };
-
-            if (face?.Types != null)
-            {
-                var ht = new HashSet<string>(face.Types, StringComparer.OrdinalIgnoreCase);
-                if (ht.Contains("Creature")) return "Creature";
-                if (ht.Contains("Instant")) return "Instant";
-                if (ht.Contains("Sorcery")) return "Sorcery";
-                if (ht.Contains("Enchantment")) return "Enchantment";
-                if (ht.Contains("Land")) return "Land";
-                if (ht.Contains("Artifact")) return "Artifact";
-            }
-            return "Other";
-        }
-
         foreach (var (_, card) in cards)
         {
-            var cat = GetPrimaryCategory(card);
+            var cat = card.GetPrimaryCategory();
             if (!typeCounts.ContainsKey(cat))
                 typeCounts["Other"]++;
             else
@@ -1551,7 +2101,7 @@ public class GenAllCommand : BaseCommand
 
         foreach (var (_, card) in cards)
         {
-            var cat = GetPrimaryCategory(card);
+            var cat = card.GetPrimaryCategory();
             var r = card.Rarity ?? "?";
             if (r.Length != 1 || (r != "C" && r != "U" && r != "R" && r != "M"))
                 r = "?";
@@ -1605,11 +2155,6 @@ public class GenAllCommand : BaseCommand
             await stdout.WriteLineAsync($"Sanity check: OK (matches rarity total {overallTotal})");
         else
             await stdout.WriteLineAsync($"Sanity check: MISMATCH - type grand total {grandTotalFromType} != rarity grand total {overallTotal}");
-
-
-        await stdout.WriteLineAsync("All generation tasks completed successfully!");
-
-        return 0;
     }
 }
 

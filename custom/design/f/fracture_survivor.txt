@@ -2,6 +2,8 @@
 Fracture Survivor
 [ManaCost]
 W
+[Rarity]
+U
 [IsReprint]
 true
 [NicknameFor]

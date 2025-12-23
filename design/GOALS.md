@@ -3,6 +3,7 @@
 The design of this set has several goals:
 
  1. To mechanically and flavorfully capture and represent the lore, setting, events, characters and bestiary from the Expedition 33 video game.
+    - A big part of this is revisiting the approach of storyboard-like and character-centric art direction of sets during the Weatherlight Saga (ie. Tempest, Urza, Mercadian, Invasion blocks). If you've ever played with cards from this era, the cards in the set can read like a visual novel/comic on art and flavor text alone. You didn't need cards with [STORY SPOTLIGHT] stamped on it like a big neon sign saying "Hey guys here's the lore you wanted!". What does that mean for us with this set? If there is a cool or notable piece of art, screenshot, moment or quote in the game, we want to make a card for it.
  2. All rules are enforceable through Forge to rapidly faciliate design/prototyping/playtesting and helps keep us grounded in our card ideas.
  3. To be a self-contained draftable cube for up to 4 players. Additional players would require bringing in extra real basic lands and having to sleeve up the cards so that proxy cards and real basic lands can be safely mixed in.
  4. To be a self-contained card pool that can compose into at least 2 100-card commander decks.

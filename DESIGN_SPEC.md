@@ -43,7 +43,13 @@ All valid properties in a design file is specified here.
 
 ### Name (`[Name]`)
 
-The name of the card. Cannot span multiple lines.
+The name of the card. Cannot span multiple lines. For flavor, the name is allowed to include characters with accents and diacritics.
+
+### Invariant Name (`[InvariantName]`)
+
+The invariant name of the card. If the card's name has characters with accents or diacritics, its invariant name is with these characters normalized to ascii equivalents. The card image in forge will be its invariant name if specified.
+
+For Cockatrice export, the invariant name is always used as both the card name and card image. This is due to Cockatrice not using ascii fallbacks when resolving card images so card image file name must match its card name. As we've standardized on using invariant names on card images for forge, it is currently too much effort to maintain a non-invariant set of card image file names.
 
 ### Mana Cost (`[ManaCost]`)
 

@@ -93,4 +93,44 @@ if [ -d "$ROOT/custom/pics" ]; then
   fi
 fi
 
+# Copy images for Cockatrice, changing .full.jpg to .jpg
+echo "Copying images for Cockatrice..."
+mkdir -p "$ROOT/custom/dist/cockatrice/pics"
+for set in E33 E3C; do
+  if [ -d "$ROOT/custom/pics/cards/$set" ]; then
+    echo "Copying $set images..."
+    for file in "$ROOT/custom/pics/cards/$set"/*.full.jpg; do
+      if [ -f "$file" ]; then
+        base=$(basename "$file" .full.jpg)
+        cp "$file" "$ROOT/custom/dist/cockatrice/pics/$base.jpg"
+      fi
+    done
+  else
+    echo "Warning: No images found for $set in $ROOT/custom/pics/cards/$set" >&2
+  fi
+done
+
+# Copy token images for Cockatrice
+if [ -d "$ROOT/custom/tokens" ] && [ -d "$ROOT/custom/pics/tokens" ]; then
+  echo "Copying token images..."
+  for txt in "$ROOT/custom/tokens"/*.txt; do
+    if [ -f "$txt" ]; then
+      name=$(grep '^Name:' "$txt" | sed 's/^Name://' | sed 's/^[[:space:]]*//' | sed 's/[[:space:]]*$//')
+      if [ -n "$name" ]; then
+        base=$(basename "$txt" .txt)
+        src="$ROOT/custom/pics/tokens/E33/$base.jpg"
+        if [ -f "$src" ]; then
+          cp "$src" "$ROOT/custom/dist/cockatrice/pics/$name.jpg"
+        else
+          echo "Warning: Image not found for token $base at $src" >&2
+        fi
+      else
+        echo "Warning: No Name found in $txt" >&2
+      fi
+    fi
+  done
+else
+  echo "Warning: Token directories not found" >&2
+fi
+
 echo "Done."
