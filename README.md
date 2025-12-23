@@ -25,9 +25,16 @@ This mod is multi-faceted and consists of:
 6. Start building decks with these new cards and have fun with some AI opponents!
 ![commander battle](screenshot_battle.png)
 
-# Installing (for Cocatrice)
+# Installing (for Cockatrice)
 
-TBD
+## From source
+
+1. Install Cockatrice
+2. Git clone this repo
+3. Run `build.sh`. The Cockatrice assets will be under `custom/dist/cockatrice`
+4. In Cockatrice, select `Card Database - Open custom image folder` to open the custom images folder
+5. Copy all images from `custom/dist/cockatrice/pics` into this custom images folder.
+6. In Cockatrice, select `Card Database - Add custom sets/cards` and select the `custom/dist/cockatrice/E33.xml` file.
 
 # Set overview
 
