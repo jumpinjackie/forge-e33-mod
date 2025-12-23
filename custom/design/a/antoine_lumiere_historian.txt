@@ -20,7 +20,7 @@ Sandfall Interactive
 Whenever you cast a historic spell, draw a card. (Artifacts, legendaries, and Sagas are historic.)
 $EXPEDITIONER_DEATH_ABILITY_TEXT
 [FlavorText]
-Ahem. I hereby offically end our feud. With your departure, Lumière loses a brillant light. And a good friend ...
+Ahem. I hereby offically end our feud. With your departure, Lumière loses a brilliant light. And a good friend ...
 [ForgeScript]
 T:Mode$ SpellCast | ValidCard$ Card.Historic | ValidActivatingPlayer$ You | Execute$ TrigDraw | TriggerZones$ Battlefield | TriggerDescription$ Whenever you cast a historic spell, draw a card. (Artifacts, legendaries, and Sagas are historic.)
 SVar:TrigDraw:DB$ Draw | NumCards$ 1
