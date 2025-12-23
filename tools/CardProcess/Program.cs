@@ -507,6 +507,93 @@ public enum SplitKind
     Fuse
 }
 
+public class TokenDefinition
+{
+    public string? Name { get; set; }
+
+    public string[]? ManaCost { get; set; }
+
+    public string[]? Types { get; set; }
+
+    public string? PT { get; set; }
+
+    public string[]? Oracle { get; set; }
+
+    public string[]? ForgeScript { get; set; }
+
+    public string[]? Colors { get; set; }
+
+    public string? TypeLine => Types is not null ? string.Join(" ", Types) : null;
+
+    public string? OracleTextFull => Oracle is not null ? string.Join("\n", Oracle) : null;
+
+    public string? MainType
+    {
+        get
+        {
+            if (Types == null) return null;
+            var ht = new HashSet<string>(Types, StringComparer.OrdinalIgnoreCase);
+            if (ht.Contains("Creature")) return "Creature";
+            if (ht.Contains("Instant")) return "Instant";
+            if (ht.Contains("Sorcery")) return "Sorcery";
+            if (ht.Contains("Enchantment")) return "Enchantment";
+            if (ht.Contains("Land")) return "Land";
+            if (ht.Contains("Artifact")) return "Artifact";
+            return "Other";
+        }
+    }
+
+    public int GetTableRow()
+    {
+        if (Types == null) return 2;
+        var ht = new HashSet<string>(Types, StringComparer.OrdinalIgnoreCase);
+        if (ht.Contains("Land")) return 0;
+        if (ht.Contains("Creature")) return 1;
+        if (ht.Contains("Instant") || ht.Contains("Sorcery")) return 3;
+        return 2;
+    }
+
+    public static async Task<TokenDefinition> ReadAsync(string path)
+    {
+        var token = new TokenDefinition();
+        using var sr = new StreamReader(path);
+        string? line;
+        while ((line = await sr.ReadLineAsync()) is not null)
+        {
+            if (line.StartsWith("Name:"))
+            {
+                token.Name = line.Substring(5);
+            }
+            else if (line.StartsWith("ManaCost:"))
+            {
+                token.ManaCost = line.Substring(9).Split(' ', StringSplitOptions.RemoveEmptyEntries);
+            }
+            else if (line.StartsWith("Types:"))
+            {
+                token.Types = line.Substring(6).Split(' ', StringSplitOptions.RemoveEmptyEntries);
+            }
+            else if (line.StartsWith("PT:"))
+            {
+                token.PT = line.Substring(3);
+            }
+            else if (line.StartsWith("Oracle:"))
+            {
+                token.Oracle = new[] { line.Substring(7) };
+            }
+            else if (line.StartsWith("Colors:"))
+            {
+                token.Colors = line.Substring(7).Split(' ', StringSplitOptions.RemoveEmptyEntries);
+            }
+            else if (!string.IsNullOrWhiteSpace(line))
+            {
+                // Assume ForgeScript
+                token.ForgeScript = (token.ForgeScript ?? []).Append(line).ToArray();
+            }
+        }
+        return token;
+    }
+}
+
 public class CardMasterDesign(string designFile)
 {
     private CardFaceDesign _activeFace = new();
@@ -1389,6 +1476,28 @@ public abstract class BaseCommand
         await stdout.WriteLineAsync($"Read: {cards.Count} cards");
         return cards;
     }
+
+    protected async Task<SortedDictionary<string, TokenDefinition>> ReadTokensAsync(TextWriter stdout, TextWriter stderr)
+    {
+        var subDirs = this.BaseDirectory.GetDirectories();
+        var tokensDir = subDirs.FirstOrDefault(d => d.Name == "tokens");
+        if (tokensDir is null)
+            throw new InvalidOperationException("Tokens dir not found");
+
+        var tokens = new SortedDictionary<string, TokenDefinition>();
+        foreach (var tokenFile in Directory.EnumerateFiles(tokensDir.FullName, "*.txt", SearchOption.AllDirectories))
+        {
+            await stdout.WriteLineAsync($"Processing token: {tokenFile}");
+            var token = await TokenDefinition.ReadAsync(tokenFile);
+            if (token.Name is not null)
+                tokens.Add(token.Name, token);
+            else
+                await stderr.WriteLineAsync($"Token file ({tokenFile}) has no name!");
+        }
+
+        await stdout.WriteLineAsync($"Read: {tokens.Count} tokens");
+        return tokens;
+    }
 }
 
 [CliCommand(Name = "genall", Description = "Generate all outputs (scripts, docs, edition, bugs)")]
@@ -1408,6 +1517,7 @@ public class GenAllCommand : BaseCommand
     {
         // Read cards once for all operations
         var cards = await ReadCardDesignsAsync(stdout, stderr);
+        var tokens = await ReadTokensAsync(stdout, stderr);
 
         var subDirs = this.BaseDirectory.GetDirectories();
         var cardsDir = subDirs.FirstOrDefault(d => d.Name == "cards");
@@ -1439,7 +1549,7 @@ public class GenAllCommand : BaseCommand
         await GenerateCardListAsync(cards, designDir, OutputDir, stdout);
 
         // 6. Generate Cockatrice XML
-        await GenerateCockatriceXmlAsync(cards, OutputDir, stdout);
+        await GenerateCockatriceXmlAsync(cards, tokens, OutputDir, stdout);
 
         // Generate SPOILER.md containing a 3-column table of card and token images
         await GenerateSpoilerAsync(cards, BaseDirectory, OutputDir, stdout, stderr);
@@ -1663,7 +1773,7 @@ public class GenAllCommand : BaseCommand
         await stdout.WriteLineAsync("Updated CARDLIST.md");
     }
 
-    private async Task GenerateCockatriceXmlAsync(SortedDictionary<string, CardMasterDesign> cards, DirectoryInfo outputDir, TextWriter stdout)
+    private async Task GenerateCockatriceXmlAsync(SortedDictionary<string, CardMasterDesign> cards, SortedDictionary<string, TokenDefinition> tokens, DirectoryInfo outputDir, TextWriter stdout)
     {
         var cockatriceDir = Path.Combine(this.BaseDirectory.FullName, "dist", "cockatrice");
         Directory.CreateDirectory(cockatriceDir);
@@ -1671,11 +1781,11 @@ public class GenAllCommand : BaseCommand
         var e33Cards = cards.Where(c => !c.Value.IsCommander).ToList();
         var e3cCards = cards.Where(c => c.Value.IsCommander).ToList();
 
-        await GenerateSetXmlAsync(e33Cards, "E33", "Clair Obscur: Expedition 33", new DirectoryInfo(cockatriceDir), stdout);
-        await GenerateSetXmlAsync(e3cCards, "E3C", "Clair Obscur: Expedition 33 Commander", new DirectoryInfo(cockatriceDir), stdout);
+        await GenerateSetXmlAsync(e33Cards, tokens, "E33", "Clair Obscur: Expedition 33", new DirectoryInfo(cockatriceDir), stdout);
+        await GenerateSetXmlAsync(e3cCards, new(), "E3C", "Clair Obscur: Expedition 33 Commander", new DirectoryInfo(cockatriceDir), stdout);
     }
 
-    private async Task GenerateSetXmlAsync(List<KeyValuePair<string, CardMasterDesign>> setCards, string setCode, string setNameFull, DirectoryInfo outputDir, TextWriter stdout)
+    private async Task GenerateSetXmlAsync(List<KeyValuePair<string, CardMasterDesign>> setCards, SortedDictionary<string, TokenDefinition> tokens, string setCode, string setNameFull, DirectoryInfo outputDir, TextWriter stdout)
     {
         var sb = new StringBuilder();
         sb.AppendLine("<?xml version=\"1.0\" encoding=\"UTF-8\"?>");
@@ -1722,6 +1832,30 @@ public class GenAllCommand : BaseCommand
                 """);
             }
         }
+
+        sb.AppendLine("    <!-- BEGIN tokens -->");
+
+        foreach (var (name, token) in tokens)
+        {
+            sb.AppendLine($$"""
+                <card>
+                  <name>{{EscapeXml(name)}}</name>
+                  <text>{{EscapeXml(token.OracleTextFull ?? string.Empty)}}</text>
+                  <set>{{setCode}}</set>
+                  <prop>
+                    <colors>{{string.Join("", token.Colors ?? [])}}</colors>
+                    <cmc>0</cmc>
+                    <type>{{token.TypeLine}}</type>
+                    <maintype>{{token.MainType}}</maintype>
+                    {{(token.PT is not null ? $"<pt>{token.PT}</pt>" : "<!-- no pt -->")}}
+                  </prop>
+                  <token>1</token>
+                  <tablerow>{{token.GetTableRow()}}</tablerow>
+                </card>
+            """);
+        }
+
+        sb.AppendLine("    <!-- END tokens -->");
 
         sb.AppendLine("  </cards>");
 
