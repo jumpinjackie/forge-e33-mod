@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 20/12/2025 2:34:34 pm
+> Last generated: 23/12/2025 8:02:36 pm
 
 ## A Rock for François
 
@@ -478,6 +478,27 @@ Artifact - Clue
 ### Notes
 
  - Easy on-flavor reprint.
+
+## Expeditioner Uniform
+
+```
+1
+Artifact - Equipment
+Equipped creature is an Expeditioner in addition to its other types.
+As long as equipped creature is a Human, it gets +1/+1.
+Whenever equipped creature attacks, it explores.
+Equip {1}
+---
+Sophie: This too is your legacy.
+Gustave: In a way, it’s yours too.
+```
+
+[card implementation](../custom/cards/e/expeditioner_uniform.txt)
+
+### Design Notes
+
+ - In the game's prologue, Sophie hands Gustave an Expeditioner uniform she made. She wants to see him wearing the uniform before the Gommage.
+ - Gone with an equipment that applies type-changing and mild buffs if the wearer is a human. Also has an explore attack trigger, to go with the expedition/exploration theme.
 
 ## Explorer's Scope
 

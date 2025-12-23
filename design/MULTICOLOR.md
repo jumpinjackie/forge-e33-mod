@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 20/12/2025 3:08:07 pm
+> Last generated: 23/12/2025 7:19:15 pm
 
 ## A Storm is Coming
 
@@ -1572,6 +1572,23 @@ Maelle: I bet Clea hated Maman's portrait of her. So she painted over her.
  - 2/11/2025: Reduced Nevron buff from +2/+2 to +1/+1
  - 27/11/2025: Reduced cost reduction from {2} to {1}
 
+## Painting Workshop
+
+```
+U(W/B)
+Enchantment
+Whenever you cast a Painter or Gradient spell, draw a card.
+{2}{U}, Sacrifice this enchantment: Return target Gradient card from your graveyard to your hand.
+```
+
+[card implementation](../custom/cards/p/painting_workshop.txt)
+
+### Design Notes
+
+ - In the game, the Painting Workshop is an area where one must collect 3 items to unlock a barrier, where a Lampmaster boss battle happens.
+ - Gone with a card that is a value engine for Painter/Gradient strategies.
+ - This is an enchantment instead of a land as we've got enough non-basic lands in this set.
+
 ## Pelerin
 
 ```
@@ -2051,6 +2068,26 @@ Let's carve a path.
  - Resurrection ability because he's immortal.
  - Added an assortment of buffs and abilities that are conditional on the number of rank counters.
  - "Phantom Stars" ultimate is paid in rank counters for game balance purposes. In game, none of Verso's abilities cost him is rank.
+
+## Vicarious Envy
+
+```
+UB
+Instant
+Target creature you control becomes a copy of target creature until end of turn.
+---
+I envy them, those who can’t see. Those who know not, that they are not. And those who live, blithe and free, sins forgotten and thus absolved. A fresh dawn in their playground, while we live in shadows, swimming in ink. We are but a fragile dream, a singular weed, resisting, ever resisting.
+- Masked Woman
+```
+
+[card implementation](../custom/cards/v/vicarious_envy.txt)
+
+### Design Notes
+
+ - In the game, before entering Stone Wave Cliffs, Maelle requests the party set up camp and rest. That night, Painted Alicia encounters Maelle while asleep, and begins an internal monologue about how she is envious of Maelle's situation of not knowing that she is actually the real Alicia painted over, not bearing the scars and torment that her painted counterpart has to endure in perpetuity.
+ - This card is a flavorful translation of Painted Alicia's internal monologue as a temporary creature copy effect (to represent the desire to be someone else).
+ - Name was chosen for maximum cromulence.
+    - Vicarious: (adjective) Experienced or felt by empathy with or imaginary participation in the life of another person.
 
 ## Void Meteors
 

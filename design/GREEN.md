@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 20/12/2025 2:35:21 pm
+> Last generated: 23/12/2025 6:33:35 pm
 
 ## Abbest
 
@@ -29,6 +29,14 @@ When this creature dies, target opponent creates a Lumina token. (It's an artifa
 ### Notes
 
  - Thematically on-point reprint. Dawn signifying tomorrow. Tomorrow comes.
+
+## Band Together
+
+> This card is a reprint
+[Scryfall](https://scryfall.com/search?q=Band Together)
+### Notes
+
+ - Flavorful (based on art) [removal / combat trick] reprint
 
 ## Bargaining
 

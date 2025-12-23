@@ -29,7 +29,7 @@ From this list, card designs are spawned from it, which will eventually form the
 
 ## Card Name List
 
-Cards implemented: 381
+Cards implemented: 392
 
 [x] - Card is implemented or in development, [C] - Card is a commander reprint, [R] - Card is a regular reprint, [N] - Card is a nickname reprint, [Z] - Card is a nickname reprint for commander [ ] - Card is not implemented
 
@@ -69,6 +69,7 @@ Cards implemented: 381
 [x] Breaking Moment
 [x] Breaking Rules
 [x] Bruler
+[x] Bruler & Cruler, Nevron Blacksmiths
 [ ] Burning Canvas
 [x] Cache Discovery
 [x] Catapault Sakapatate
@@ -165,6 +166,8 @@ Cards implemented: 381
 [x] Expedition Flag
 [x] Expedition Flotilla
 [x] Expedition Recruiter
+[ ] Expeditioner Class
+[x] Expeditioner Uniform
 [N] Falling Leaves
 [ ] Fender's Flurry
 [x] Finesse // Grace
@@ -288,7 +291,7 @@ Cards implemented: 381
 [x] Painted Clea, the Mistress
 [ ] Painted Love
 [x] Painted Renoir, Aline's Enforcer
-[ ] Painting Workshop
+[x] Painting Workshop
 [N] Payback
 [x] Pelerin
 [ ] Percee
@@ -364,10 +367,8 @@ Cards implemented: 381
 [x] Twisted Lumière Citizen
 [x] Ultimate Sakapatate
 [ ] Unfinished Bénisseur
-[ ] Unfinished Bruler
 [ ] Unfinished Bourgeon
 [ ] Unfinished Chalier
-[ ] Unfinished Cruler
 [ ] Unfinished Démineur
 [ ] Unfinished Hexga
 [ ] Unfinished Jar

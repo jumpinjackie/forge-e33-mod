@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 20/12/2025 3:29:02 pm
+> Last generated: 23/12/2025 7:32:23 pm
 
 ## A Life to Love (Farewell)
 
@@ -113,6 +113,27 @@ You... The ones who conquered the Monolith... And bested she who claimed this pa
 
  - In the game, Blanche is an Unfinished Nevron. If you spared every Unfinished Nevron up to that point, she will reward you with lots of lumina.
  - Easy map to rewarding you lumina tokens and life when white (unfinished) nevrons enter.
+
+## Bruler & Cruler, Nevron Blacksmiths
+
+```
+2WW
+Legendary Creature - Nevron Artificer
+Vigilance
+When Bruler & Cruler enters, if you control an Equipment, draw a card.
+Equip abilities you activate cost {1} less to activate.
+---
+Someone found our shop! I was this close to believing that we’d never have clients. Our location is terrible.
+
+3/4
+```
+
+[card implementation](../custom/cards/b/bruler_&_cruler_nevron_blacksmiths.txt)
+
+### Design Notes
+
+ - In the game, an unfinished Bruler and Cruler can be found in the Coastal Caves. They've adopted a new career as blacksmiths and sell an assortment of weapons.
+ - Added an assortment of equipment-related benefits in line with any "blacksmith" card printed thus far.
 
 ## Chroma Barrier
 

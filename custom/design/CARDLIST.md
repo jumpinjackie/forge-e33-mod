@@ -69,6 +69,7 @@ Braseleur
 Breaking Moment
 Breaking Rules
 Bruler
+Bruler & Cruler, Nevron Blacksmiths
 Burning Canvas
 Cache Discovery
 Catapault Sakapatate
@@ -165,6 +166,8 @@ Expedition Camp
 Expedition Flag
 Expedition Flotilla
 Expedition Recruiter
+Expeditioner Class
+Expeditioner Uniform
 Falling Leaves
 Fender's Flurry
 Finesse // Grace
@@ -364,10 +367,8 @@ Twilight Quarry
 Twisted Lumière Citizen
 Ultimate Sakapatate
 Unfinished Bénisseur
-Unfinished Bruler
 Unfinished Bourgeon
 Unfinished Chalier
-Unfinished Cruler
 Unfinished Démineur
 Unfinished Hexga
 Unfinished Jar

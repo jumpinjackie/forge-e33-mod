@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 19/12/2025 8:48:47 am
+> Last generated: 23/12/2025 6:36:21 pm
 
 ## Blot Out
 
@@ -97,6 +97,15 @@ If you could grow old... Would you... find a reason to smile?
 
  - No in-game basis, but Grief is such a central theme of Expedition 33 that having a cycle dedicated to the 5 stages is a total flavor nuke.
  - Depression is the fourth stage. I've gone with a souped up version of Melancholy.
+
+## Dualliste's Lair (Death Pits of Rath)
+
+> This card is a nicknamed reprint of (Death Pits of Rath)
+[Scryfall](https://scryfall.com/search?q=Death Pits of Rath)
+### Notes
+
+ - In the game, the party falls into a pit of Expeditioner corpses where they encounter a boss fight with Dualliste.
+ - Flavorful nickname reprint of Death Pits of Rath. Downshifted to uncommon.
 
 ## Échassier
 

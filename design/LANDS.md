@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 20/12/2025 2:30:01 pm
+> Last generated: 22/12/2025 4:32:20 pm
 
 ## Abbest Cave
 
@@ -217,6 +217,18 @@ Lune: And they survived. The storm, at least.
  - In the game, Flying Waters is one of the early dungeons with a heavy water/nautical theme
  - Mechanically this clearly is a land that should tap for blue mana. Gave it a flying granting ability just because of the name.
 
+## Forest
+
+```
+Basic Land - Forest
+({T}: Add {G}.)
+```
+
+> This card is not yet implemented in Forge
+
+### Design Notes
+
+
 ## Forgotten Battlefield
 
 ```
@@ -297,6 +309,18 @@ Gustave: They seem better at surviving than humans.
 
  - In the game, this is the home of the Gestrals.
  - A sol land for Gestral tribal decks. Due to their artifact nature, Gestrals are significantly easier to cast (unlike Eldrazi which require explicit coloress-pip producing lands), so where applicable, costs have increased, but this card is a bone thrown to to this deck to allow for some acceleration.
+
+## Island
+
+```
+Basic Land - Island
+({T}: Add {U}.)
+```
+
+> This card is not yet implemented in Forge
+
+### Design Notes
+
 
 ## Lost Woods (Llanowar Wastes)
 
@@ -415,6 +439,18 @@ The Grandis have embraced us with such warmth and hope. What a balm for the soul
  - Since it's occupied by Monoco (a Gestral) and various Grandis creatures. They get the no-strings-attached dual land experience.
  - 29/11/2025: Dropped the secondary dual mana ability (to eliminate potential confusion in paper) and downshift to Uncommon
 
+## Mountain
+
+```
+Basic Land - Mountain
+({T}: Add {R}.)
+```
+
+> This card is not yet implemented in Forge
+
+### Design Notes
+
+
 ## Painted Bluffs
 
 > This card is a reprint
@@ -422,6 +458,18 @@ The Grandis have embraced us with such warmth and hope. What a balm for the soul
 ### Notes
 
  - Has "Painted" in its name, color fixes. Easy on-flavor reprint candidate.
+
+## Plains
+
+```
+Basic Land - Plains
+({T}: Add {W}.)
+```
+
+> This card is not yet implemented in Forge
+
+### Design Notes
+
 
 ## Renoir's Drafts
 
@@ -510,6 +558,18 @@ Maybe. Maybe we'll just stay here and... enjoy the melody.
 
  - In the game, a Sunless Cliffs is an optional area. It features a battle against a special mime.
  - Gone with nickname reprint of Blackleave Cliffs
+
+## Swamp
+
+```
+Basic Land - Swamp
+({T}: Add {B}.)
+```
+
+> This card is not yet implemented in Forge
+
+### Design Notes
+
 
 ## The Hauler
 
