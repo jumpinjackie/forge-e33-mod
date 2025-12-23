@@ -16,6 +16,8 @@ This land enters tapped.
 [FlavorText]
 If anyone finds this journal, do not enter this cave, the Nevron inside will crush you.
 - Cassandra, Expedition 45
+[EntersTapped]
+true
 [ForgeScript]
 R:Event$ Moved | ValidCard$ Card.Self | Destination$ Battlefield | ReplacementResult$ Updated | ReplaceWith$ ETBTapped | Description$ This land enters tapped.
 SVar:ETBTapped:DB$ Tap | Defined$ Self | ETB$ True

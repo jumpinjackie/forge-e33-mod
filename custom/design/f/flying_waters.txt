@@ -15,6 +15,8 @@ Sandfall Interactive
 [FlavorText]
 Gustave: Expedition 68. Their boat was blown into the air by a storm. Lumière lost sight of it but assumed they crashed on the continent.
 Lune: And they survived. The storm, at least.
+[EntersTapped]
+true
 [ForgeScript]
 R:Event$ Moved | ValidCard$ Card.Self | Destination$ Battlefield | ReplacementResult$ Updated | ReplaceWith$ ETBTapped | Description$ CARDNAME enters tapped.
 SVar:ETBTapped:DB$ Tap | Defined$ Self | ETB$ True

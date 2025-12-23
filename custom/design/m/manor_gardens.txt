@@ -14,6 +14,8 @@ A hedge maze in front of the Manor.
 This land enters tapped.
 {T}: Add {G}.
 {T}, Sacrifice this land: Search your library for a Room card, reveal it, put it into your hand, then shuffle.
+[EntersTapped]
+true
 [ForgeScript]
 R:Event$ Moved | ValidCard$ Card.Self | Destination$ Battlefield | ReplacementResult$ Updated | ReplaceWith$ ETBTapped | Description$ CARDNAME enters tapped.
 SVar:ETBTapped:DB$ Tap | Defined$ Self | ETB$ True

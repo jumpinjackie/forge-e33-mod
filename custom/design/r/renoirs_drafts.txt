@@ -8,6 +8,8 @@ R
 This land enters tapped.
 {T}: Add {B}.
 {2}{B}{B}{B}, {T}, Exile this land: Mill four cards, then return a Nevron or Painter creature card from your graveyard to the battlefield. Activate only as a sorcery.
+[EntersTapped]
+true
 [ForgeScript]
 R:Event$ Moved | ValidCard$ Card.Self | Destination$ Battlefield | ReplacementResult$ Updated | ReplaceWith$ ETBTapped | Description$ CARDNAME enters tapped.
 SVar:ETBTapped:DB$ Tap | Defined$ Self | ETB$ True

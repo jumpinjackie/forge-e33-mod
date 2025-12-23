@@ -19,6 +19,8 @@ This artifact enters tapped.
 "Is it Golgra?"
 "Impossible! Golgra could never find us."
 "Aww jeez, I just got reborn, I don't want to die again."
+[EntersTapped]
+true
 [ForgeScript]
 R:Event$ Moved | ValidCard$ Card.Self | Destination$ Battlefield | ReplacementResult$ Updated | ReplaceWith$ ETBTapped | Description$ CARDNAME enters tapped.
 SVar:ETBTapped:DB$ Tap | Defined$ Self | ETB$ True
