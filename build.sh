@@ -110,4 +110,27 @@ for set in E33 E3C; do
   fi
 done
 
+# Copy token images for Cockatrice
+if [ -d "$ROOT/custom/tokens" ] && [ -d "$ROOT/custom/pics/tokens" ]; then
+  echo "Copying token images..."
+  for txt in "$ROOT/custom/tokens"/*.txt; do
+    if [ -f "$txt" ]; then
+      name=$(grep '^Name:' "$txt" | sed 's/^Name://' | sed 's/^[[:space:]]*//' | sed 's/[[:space:]]*$//')
+      if [ -n "$name" ]; then
+        base=$(basename "$txt" .txt)
+        src="$ROOT/custom/pics/tokens/E33/$base.jpg"
+        if [ -f "$src" ]; then
+          cp "$src" "$ROOT/custom/dist/cockatrice/pics/$name.jpg"
+        else
+          echo "Warning: Image not found for token $base at $src" >&2
+        fi
+      else
+        echo "Warning: No Name found in $txt" >&2
+      fi
+    fi
+  done
+else
+  echo "Warning: Token directories not found" >&2
+fi
+
 echo "Done."
