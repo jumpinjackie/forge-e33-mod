@@ -1964,7 +1964,8 @@ public class GenAllCommand : BaseCommand
                         var cardsWithImagesTotal = 0;
                         var cardsTotal = 0;
                         var images = new List<string>();
-                        foreach (var (name, card) in group)
+                        var orderedGroup = bucket == "LANDS" ? (IEnumerable<KeyValuePair<string, CardMasterDesign>>)group.OrderBy(c => IsBasicLand(c.Value.Name) ? 1 : 0).ThenBy(c => c.Key) : group;
+                        foreach (var (name, card) in orderedGroup)
                         {
                             cardsTotal++;
                             bool complete = true;
@@ -1982,6 +1983,8 @@ public class GenAllCommand : BaseCommand
                         yield return (bucket, images, cardsWithImagesTotal, cardsTotal);
                     }
                 }
+
+                bool IsBasicLand(string name) => name is "Forest" or "Island" or "Mountain" or "Plains" or "Swamp";
             }
 
             static void WriteSpoilerTable(StreamWriter spoilerWriter, List<string> images, DirectoryInfo outputDir)
@@ -2059,7 +2062,7 @@ public class GenAllCommand : BaseCommand
         sb.Append("Bucket".PadRight(nameWidth + 2));
         sb.Append("| ");
         sb.Append(String.Join(" | ", rarityCodes.Select(rc => rc.PadLeft(3))));
-        sb.Append(" | Tot\n");
+        sb.Append(" | Tot (%)\n");
 
         // Separator
         sb.Append(new string('-', nameWidth + 2));
@@ -2071,10 +2074,11 @@ public class GenAllCommand : BaseCommand
             var bucket = kv.Key;
             var map = kv.Value;
             var rowTotal = map.Values.Sum();
+            double pct = overallTotal > 0 ? (100.0 * rowTotal / overallTotal) : 0.0;
             sb.Append(bucket.PadRight(nameWidth + 2));
             sb.Append("| ");
             sb.Append(String.Join(" | ", rarityCodes.Select(rc => map.ContainsKey(rc) ? map[rc].ToString().PadLeft(3) : "  0")));
-            sb.Append($" | {rowTotal}\n");
+            sb.Append($" | {rowTotal} ({pct:F1}%)\n");
         }
 
         // Totals row
@@ -2083,7 +2087,7 @@ public class GenAllCommand : BaseCommand
         sb.Append("Total".PadRight(nameWidth + 2));
         sb.Append("| ");
         sb.Append(String.Join(" | ", rarityCodes.Select(rc => rarityTotals[rc].ToString().PadLeft(3))));
-        sb.Append($" | {overallTotal}\n");
+        sb.Append($" | {overallTotal} (100.0%)\n");
 
         await stdout.WriteLineAsync("Rarity distribution by bucket:");
         await stdout.WriteLineAsync(sb.ToString());
