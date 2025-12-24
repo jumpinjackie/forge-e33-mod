@@ -1557,7 +1557,7 @@ public class GenAllCommand : BaseCommand
         await GenerateCockatriceXmlAsync(cards, tokens, OutputDir, stdout);
 
         // Generate SPOILER.md containing a 3-column table of card and token images
-        await GenerateSpoilerAsync(cards, BaseDirectory, OutputDir, stdout, stderr);
+        await GenerateSpoilerAsync(cards, tokens, BaseDirectory, OutputDir, stdout, stderr);
 
         // Compile stats: build a rarity-by-bucket distribution
         await GenerateStatsAsync(cards, stdout);
@@ -1582,6 +1582,7 @@ public class GenAllCommand : BaseCommand
     private async Task GenerateDocsAsync(SortedDictionary<string, CardMasterDesign> cards, DirectoryInfo outputDir, DirectoryInfo baseDirectory, TextWriter stdout, TextWriter stderr)
     {
         await stdout.WriteLineAsync("Generating documentation...");
+        Directory.CreateDirectory(outputDir.FullName);
         var writers = new Dictionary<string, StringWriter>();
         var scriptBaseDir = Path.GetRelativePath(
             outputDir.FullName,
@@ -1893,7 +1894,7 @@ public class GenAllCommand : BaseCommand
         return text.Replace("&", "&amp;").Replace("<", "&lt;").Replace(">", "&gt;").Replace("\"", "&quot;").Replace("'", "&apos;");
     }
 
-    private async Task GenerateSpoilerAsync(SortedDictionary<string, CardMasterDesign> cards, DirectoryInfo baseDirectory, DirectoryInfo outputDir, TextWriter stdout, TextWriter stderr)
+    private async Task GenerateSpoilerAsync(SortedDictionary<string, CardMasterDesign> cards, SortedDictionary<string, TokenDefinition> tokens, DirectoryInfo baseDirectory, DirectoryInfo outputDir, TextWriter stdout, TextWriter stderr)
     {
         try
         {
@@ -1902,23 +1903,27 @@ public class GenAllCommand : BaseCommand
             var cmdrCardsPicsDir = Path.Combine(picsBase, "cards", "E3C");
             var tokensPicsDir = Path.Combine(picsBase, "tokens", "E33");
 
-            var tokenImages = new List<string>();
+            var tokenImages = new List<(string path, string name)>();
             if (Directory.Exists(tokensPicsDir))
             {
-                tokenImages.AddRange(Directory.EnumerateFiles(tokensPicsDir, "*.jpg", SearchOption.AllDirectories).OrderBy(p => p));
+                foreach (var token in tokens)
+                {
+                    var imgPath = Path.Combine(tokensPicsDir, token.Key + ".jpg");
+                    if (File.Exists(imgPath))
+                        tokenImages.Add((imgPath, token.Value.Name ?? ""));
+                }
             }
 
             var spoilerPath = Path.Combine(outputDir.FullName, "SPOILER.md");
             using (var spoilerWriter = new StreamWriter(spoilerPath, false, Encoding.UTF8))
             {
-                spoilerWriter.WriteLine("# Spoiler Images");
+                spoilerWriter.WriteLine("# Visual Spoiler");
                 spoilerWriter.WriteLine();
                 spoilerWriter.WriteLine("> This currently only shows cards/tokens we have full CardConjurer designs for and does not fully represent the whole set\n");
-                spoilerWriter.WriteLine("Images listed are cards first, then tokens.\n");
                 {
                     var totalCards = 0;
                     var totalCardsWithImages = 0;
-                    var baseImages = new List<string>();
+                    var baseImages = new List<(string path, string name)>();
                     foreach (var (bucket, imageList, cardsWithImagesTotal, cardsTotal) in GenerateImageLists(false))
                     {
                         //spoilerWriter.WriteLine("## " + bucket);
@@ -1937,7 +1942,7 @@ public class GenAllCommand : BaseCommand
                 {
                     var totalCards = 0;
                     var totalCardsWithImages = 0;
-                    var cmdrImages = new List<string>();
+                    var cmdrImages = new List<(string path, string name)>();
                     foreach (var (bucket, imageList, cardsWithImagesTotal, cardsTotal) in GenerateImageLists(true))
                     {
                         //spoilerWriter.WriteLine("## " + bucket);
@@ -1951,7 +1956,7 @@ public class GenAllCommand : BaseCommand
                 }
             }
 
-            IEnumerable<(string bucket, List<string> images, int cardsWithImagesTotal, int cardsTotal)> GenerateImageLists(bool isCommander)
+            IEnumerable<(string bucket, List<(string path, string name)> images, int cardsWithImagesTotal, int cardsTotal)> GenerateImageLists(bool isCommander)
             {
                 var picsDir = isCommander ? cmdrCardsPicsDir : baseCardsPicsDir;
                 var baseGroups = cards.Where(c => c.Value.IsCommander == isCommander).GroupBy(c => c.Value.Bucket).ToList();
@@ -1963,7 +1968,7 @@ public class GenAllCommand : BaseCommand
                     {
                         var cardsWithImagesTotal = 0;
                         var cardsTotal = 0;
-                        var images = new List<string>();
+                        var images = new List<(string path, string name)>();
                         var orderedGroup = bucket == "LANDS" ? (IEnumerable<KeyValuePair<string, CardMasterDesign>>)group.OrderBy(c => IsBasicLand(c.Value.Name) ? 1 : 0).ThenBy(c => c.Key) : group;
                         foreach (var (name, card) in orderedGroup)
                         {
@@ -1973,7 +1978,7 @@ public class GenAllCommand : BaseCommand
                             {
                                 var imgPath = Path.Combine(picsDir, imgName);
                                 if (File.Exists(imgPath))
-                                    images.Add(imgPath);
+                                    images.Add((imgPath, card.Name));
                                 else
                                     complete = false;
                             }
@@ -1987,7 +1992,7 @@ public class GenAllCommand : BaseCommand
                 bool IsBasicLand(string name) => name is "Forest" or "Island" or "Mountain" or "Plains" or "Swamp";
             }
 
-            static void WriteSpoilerTable(StreamWriter spoilerWriter, List<string> images, DirectoryInfo outputDir)
+            static void WriteSpoilerTable(StreamWriter spoilerWriter, List<(string path, string name)> images, DirectoryInfo outputDir)
             {
                 const int COLUMNS = 3;
 
@@ -2003,12 +2008,12 @@ public class GenAllCommand : BaseCommand
                         var idx = i + c;
                         if (idx < images.Count)
                         {
-                            var abs = images[idx];
+                            var (abs, name) = images[idx];
                             var rel = Path.GetRelativePath(outputDir.FullName, abs).Replace("\\", "/");
                             // Percent-encode each path segment so spaces and special chars work in Markdown image URLs
                             var encodedRel = string.Join("/", rel.Split('/').Select(seg => System.Uri.EscapeDataString(seg)));
-                            // Only embed the image (no filename under the image)
-                            row[c] = $"![]({encodedRel})";
+                            // Embed the image with the card name below
+                            row[c] = $"![]({encodedRel})<br>{name}";
                         }
                         else
                         {
