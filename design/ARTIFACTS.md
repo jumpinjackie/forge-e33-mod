@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 23/12/2025 8:02:36 pm
+> Last generated: 24/12/2025 5:29:33 am
 
 ## A Rock for François
 
@@ -591,6 +591,8 @@ This creature can only attack alone.
 
 ### Design Notes
 
+ - Went with a creature with variable P/T to signal seniority.
+ - Because the Gestrals archetype can "go wide" real quick, added a "can only attack alone" restriction to balance this out so it can't just join the mob.
 
 ## Gestral Fighter
 
@@ -1042,6 +1044,7 @@ Tap three creatures you control: Untap Matthieu.
 [Scryfall](https://scryfall.com/search?q=Mirage Mirror)
 ### Notes
 
+ - Another reprint for commander that a memorable quote was looking to attach itself to.
 
 ## Noco, The Greatest Merchant
 
@@ -1119,6 +1122,7 @@ There must be some good loot behind there!
 [Scryfall](https://scryfall.com/search?q=Patchwork Banner)
 ### Notes
 
+ - Another creature type pump artifact. Expected to be added for the Nevron commander deck as Expedition Flag already exists for the Expeditioner side.
 
 ## Recoat
 

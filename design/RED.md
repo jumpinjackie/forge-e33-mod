@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 20/12/2025 2:30:01 pm
+> Last generated: 24/12/2025 5:10:17 am
 
 ## Anger
 
@@ -81,6 +81,15 @@ Let's shake the earth!
 ### Notes
 
  - Commander staple
+
+## Demand Answers
+
+> This card is a reprint
+[Scryfall](https://scryfall.com/search?q=Demand Answers)
+### Notes
+
+ - In the game, after failing to secure the heart of The Paintress at Old Lumière the party regroups at camp and Lune starts asking probing questions at Verso about his relationship with Renoir.
+ - There was already a card with this name with some decent utility, so this is another flavorful reprint.
 
 ## Earth Rising
 

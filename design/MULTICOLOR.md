@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 23/12/2025 7:19:15 pm
+> Last generated: 24/12/2025 5:29:33 am
 
 ## A Storm is Coming
 
@@ -386,6 +386,9 @@ When this creature dies, target opponent creates a Lumina token. (It's an artifa
 
 ### Design Notes
 
+ - In the game, Contortionniste is a mid/late game Nevron
+ - Mapped "Absorbs health" to lifelink
+ - Mapped "Impales its target" to creature kill or tap-and-stun.
 
 ## Danseuse
 
@@ -1616,6 +1619,7 @@ Counterattack — When this creature is dealt combat damage, it deals that amoun
 [Scryfall](https://scryfall.com/search?q=Primal Empathy)
 ### Notes
 
+ - Another case of a quote from the game looking for a suitable reprint to attach itself to.
 
 ## Putrefy
 

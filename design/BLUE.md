@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 20/12/2025 4:12:03 pm
+> Last generated: 24/12/2025 5:10:17 am
 
 ## An Advantage!
 
@@ -27,7 +27,7 @@ Legendary Creature - Human Citizen
 Whenever you cast a historic spell, draw a card. (Artifacts, legendaries, and Sagas are historic.)
 When this creature dies, create a Chroma token.
 ---
-Ahem. I hereby offically end our feud. With your departure, Lumière loses a brillant light. And a good friend ...
+Ahem. I hereby offically end our feud. With your departure, Lumière loses a brilliant light. And a good friend ...
 
 1/2
 ```
@@ -158,7 +158,7 @@ Hello there, Gustave. Perhaps one of these artifacts may prove useful to your mi
 [Scryfall](https://scryfall.com/search?q=Counterspell)
 ### Notes
 
- - Easy on-flavor reprint.
+ - Obligatory counter for commander.
 
 ## Crippling Tsunami
 
@@ -392,7 +392,7 @@ Oh really? An Expedition? I certainly wasn't expecting that. But your presence h
  - In the game, the Gestral Ascension Challenge is 1 of 5 challenge minigames. This minigame in particular requires ascending upwards navigating various obstacles and jumps without falling down and starting over.
  - All minigames are modeled as "quest" enchantments originating from Zendikar block and use the same terminology (charging with quest counters based on certain conditions with some payoff at the end once you reach a certain number of quest counters).
  - In the case of this card, the condition involves flying creatures (we are trying to ascend to the top after all!) and the payoff is card draw.
- - Ancestral Recall in enchantment form may look broken at face value, but you really need to be all-in on an all-flyers strategy to reliably pop this off. If further playtesting shows we are popping this off *too* reliably, we can always bump up the quest counter requirement.
+ - Ancestral Recall in enchantment form for the same cost may look broken at face value, but you really need to be all-in on an all-flyers strategy to reliably pop this off. If further playtesting shows we are popping this off *too* reliably, we can always bump up the quest counter requirement.
 
 ## Gradient Counter
 

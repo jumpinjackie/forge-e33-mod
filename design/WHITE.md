@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 23/12/2025 7:32:23 pm
+> Last generated: 24/12/2025 5:29:33 am
 
 ## A Life to Love (Farewell)
 
@@ -237,7 +237,9 @@ Although the citizens of Lumière always hope for the current Expedition to succ
 
 ### Design Notes
 
- - Vanilla bear wtih Rebel sub-type (as a synonmym of dissent)
+ - In the game, upon the defeat of The Paintress, the party triumphantly returns to Lumière. The next group of Expeditioners are among those welcoming back the party and wanting to pick their minds on how they did the impossible.
+ - This card depicts such Expeditioners.
+ - Training was already an existing mechanic, so this creature uses that.
 
 ## Expedition 49
 
@@ -316,9 +318,10 @@ Your time left in this life is limited, why not make it count for something?
 
 ### Design Notes
 
- - No direct representation in the video game, but I can easily imagine there are some people in Lumière whose job is to be trying to recruit citizens who are soon to be gommaged, persuading them to embark on the next Expedition, to make use of the limited time they have left in this world.
+ - [OBSOLETE] No direct representation in the video game, but I can easily imagine there are some people in Lumière whose job is to be trying to recruit citizens who are soon to be gommaged, persuading them to embark on the next Expedition, to make use of the limited time they have left in this world.
  - Goblin Matron, but for Expeditioners with standard death bonus.
  - 3/10/2025: This + Tomorrow Comes + Expedition 70 gives us effectively 12 Expeditioner tutors. This may be overkill and the Expeditioner strategy too consistent and we may have to rework one or more of these cards. Further playtesting will tell us.
+ - 24/12/2024: Upon a second NG+ playthrough it turns out there was Expedition recruiters in the prologue (it was Alan and Cathering doing the recruiting)! I must've been psychic!
 
 ## Fracture Survivor (Veteran Survivor)
 
@@ -503,6 +506,8 @@ Sacrifice this enchantment: The next historic spell you cast costs {1} less to c
 [Scryfall](https://scryfall.com/search?q=Second Thoughts)
 ### Notes
 
+ - Another case of a quote from the game looking for a suitable reprint to attach itself to.
+ - Useful spot removal in limited/draft.
 
 ## Swords to Plowshares
 
