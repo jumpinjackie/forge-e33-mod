@@ -895,7 +895,7 @@ public class CardMasterDesign(string designFile)
         }
     }
 
-    private (bool isBasic, char? pip) IsBasicLand()
+    internal (bool isBasic, char? pip) IsBasicLand()
     {
         return this.Name switch
         {
@@ -1204,6 +1204,11 @@ public class CardMasterDesign(string designFile)
 
     internal async Task WriteDocAsync(string baseDir, TextWriter writer, TextWriter stdout, TextWriter stderr)
     {
+        if (!this.AllDesignNotes.Any())
+        {
+            await stderr.WriteLineAsync($"Warning: No design notes found for card '{this.Name}'");
+        }
+
         if (this.IsReprint)
         {
             if (this.NicknameFor is not null)
@@ -1588,6 +1593,10 @@ public class GenAllCommand : BaseCommand
             if (card.IsToken)
                 continue;
 
+            var (isBasic, _) = card.IsBasicLand();
+            if (isBasic)
+                continue;
+
             if (!writers.TryGetValue(card.Bucket!, out var writer))
             {
                 var headerSb = new StringBuilder();
@@ -1778,25 +1787,27 @@ public class GenAllCommand : BaseCommand
         var cockatriceDir = Path.Combine(this.BaseDirectory.FullName, "dist", "cockatrice");
         Directory.CreateDirectory(cockatriceDir);
 
-        var e33Cards = cards.Where(c => !c.Value.IsCommander).ToList();
-        var e3cCards = cards.Where(c => c.Value.IsCommander).ToList();
-
-        await GenerateSetXmlAsync(e33Cards, tokens, "E33", "Clair Obscur: Expedition 33", new DirectoryInfo(cockatriceDir), stdout);
-        await GenerateSetXmlAsync(e3cCards, new(), "E3C", "Clair Obscur: Expedition 33 Commander", new DirectoryInfo(cockatriceDir), stdout);
+        await GenerateXmlAsync(cards, tokens, new DirectoryInfo(cockatriceDir), stdout);
     }
 
-    private async Task GenerateSetXmlAsync(List<KeyValuePair<string, CardMasterDesign>> setCards, SortedDictionary<string, TokenDefinition> tokens, string setCode, string setNameFull, DirectoryInfo outputDir, TextWriter stdout)
+    private async Task GenerateXmlAsync(SortedDictionary<string, CardMasterDesign> cards, SortedDictionary<string, TokenDefinition> tokens, DirectoryInfo outputDir, TextWriter stdout)
     {
         var sb = new StringBuilder();
         sb.AppendLine("<?xml version=\"1.0\" encoding=\"UTF-8\"?>");
         sb.AppendLine("<cockatrice_carddatabase version=\"4\">");
 
         sb.AppendLine(
-            $"""
+            """
               <sets>
                 <set>
-                  <name>{setCode}</name>
-                  <longname>{setNameFull}</longname>
+                  <name>E33</name>
+                  <longname>Clair Obscur: Expedition 33</longname>
+                  <settype>Custom</settype>
+                  <releasedate>2025-09-17</releasedate>
+                </set>
+                <set>
+                  <name>E3C</name>
+                  <longname>Clair Obscur: Expedition 33 Commander</longname>
                   <settype>Custom</settype>
                   <releasedate>2025-09-17</releasedate>
                 </set>
@@ -1804,8 +1815,9 @@ public class GenAllCommand : BaseCommand
               <cards>
             """);
 
-        foreach (var (name, card) in setCards)
+        foreach (var (name, card) in cards)
         {
+            var setCode = card.IsCommander ? "E3C" : "E33";
             var faces = card.GetCockatriceFaces();
             foreach (var face in faces)
             {
@@ -1837,6 +1849,7 @@ public class GenAllCommand : BaseCommand
 
         foreach (var (name, token) in tokens)
         {
+            var setCode = "E33"; // tokens don't have IsCommander
             sb.AppendLine($$"""
                 <card>
                   <name>{{EscapeXml(name)}}</name>
@@ -1870,9 +1883,9 @@ public class GenAllCommand : BaseCommand
 
         sb.AppendLine("</cockatrice_carddatabase>");
 
-        var filePath = Path.Combine(outputDir.FullName, $"{setCode}.xml");
+        var filePath = Path.Combine(outputDir.FullName, "E33.xml");
         await File.WriteAllTextAsync(filePath, sb.ToString());
-        await stdout.WriteLineAsync($"Generated {setCode}.xml with {setCards.Count} cards");
+        await stdout.WriteLineAsync($"Generated E33.xml with {cards.Count} cards and {tokens.Count} tokens");
     }
 
     private static string EscapeXml(string text)
