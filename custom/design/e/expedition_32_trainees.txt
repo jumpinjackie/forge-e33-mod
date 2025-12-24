@@ -20,4 +20,6 @@ Although the citizens of Lumière always hope for the current Expedition to succ
 K:Training
 $EXPEDITIONER_DEATH_ABILITY
 [DesignNotes]
- - Vanilla bear wtih Rebel sub-type (as a synonmym of dissent)
+ - In the game, upon the defeat of The Paintress, the party triumphantly returns to Lumière. The next group of Expeditioners are among those welcoming back the party and wanting to pick their minds on how they did the impossible.
+ - This card depicts such Expeditioners.
+ - Training was already an existing mechanic, so this creature uses that.

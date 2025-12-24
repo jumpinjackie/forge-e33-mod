@@ -30,3 +30,6 @@ SVar:DBTapAndStun:DB$ Tap | TgtPrompt$ Choose target creature | ValidTgts$ Creat
 SVar:DBCounter:DB$ PutCounter | Defined$ Targeted | CounterType$ Stun | CounterNum$ 1
 $NEVRON_DEATH_ABILITY
 [DesignNotes]
+ - In the game, Contortionniste is a mid/late game Nevron
+ - Mapped "Absorbs health" to lifelink
+ - Mapped "Impales its target" to creature kill or tap-and-stun.

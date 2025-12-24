@@ -21,3 +21,6 @@ S:Mode$ Continuous | CharacteristicDefining$ True | SetPower$ X | SetToughness$ 
 SVar:X:Count$Valid Creature.Gestral
 S:Mode$ CantBlock | ValidCard$ Card.Self | Description$ CARDNAME can't block.
 K:CARDNAME can only attack alone.
+[DesignNotes]
+ - Went with a creature with variable P/T to signal seniority.
+ - Because the Gestrals archetype can "go wide" real quick, added a "can only attack alone" restriction to balance this out so it can't just join the mob.

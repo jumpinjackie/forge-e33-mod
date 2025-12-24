@@ -10,3 +10,5 @@ true
 U
 [Artist]
 Sarah Finnigan
+[DesignNotes]
+ - Another creature type pump artifact. Expected to be added for the Nevron commander deck as Expedition Flag already exists for the Expeditioner side.
