@@ -20,7 +20,7 @@ if [ -d "$ROOT/tools/CardProcess" ]; then
   echo "Running CardProcess..."
   cd "$ROOT/tools/CardProcess"
   # run the dotnet tool from the project directory (like pushd/popd + dotnet run in the batch file)
-  dotnet run -- genall --base-directory "$ROOT/custom" --output-dir "$ROOT/design"
+  dotnet run -- genall --base-directory "$ROOT/custom" --output-dir "$ROOT/design" --linkify-captions
   cd "$ROOT"
 else
   echo "Warning: $ROOT/tools/CardProcess not found; skipping CardProcess step." >&2

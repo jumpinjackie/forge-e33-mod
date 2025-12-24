@@ -1514,6 +1514,9 @@ public class GenAllCommand : BaseCommand
     [CliOption(Required = true, Description = "The output directory")]
     public required DirectoryInfo OutputDir { get; set; }
 
+    [CliOption(Description = "Link card captions to their documentation in bucket .md files")]
+    public bool LinkifyCaptions { get; set; }
+
     protected override async Task<int> ExecuteAsync(
         CliContext context,
         TextWriter stdout,
@@ -1903,14 +1906,14 @@ public class GenAllCommand : BaseCommand
             var cmdrCardsPicsDir = Path.Combine(picsBase, "cards", "E3C");
             var tokensPicsDir = Path.Combine(picsBase, "tokens", "E33");
 
-            var tokenImages = new List<(string path, string name)>();
+            var tokenImages = new List<(string path, string name, string bucket)>();
             if (Directory.Exists(tokensPicsDir))
             {
                 foreach (var token in tokens)
                 {
                     var imgPath = Path.Combine(tokensPicsDir, token.Key + ".jpg");
                     if (File.Exists(imgPath))
-                        tokenImages.Add((imgPath, token.Value.Name ?? ""));
+                        tokenImages.Add((imgPath, token.Value.Name ?? "", "TOKENS"));
                 }
             }
 
@@ -1923,7 +1926,7 @@ public class GenAllCommand : BaseCommand
                 {
                     var totalCards = 0;
                     var totalCardsWithImages = 0;
-                    var baseImages = new List<(string path, string name)>();
+                    var baseImages = new List<(string path, string name, string bucket)>();
                     foreach (var (bucket, imageList, cardsWithImagesTotal, cardsTotal) in GenerateImageLists(false))
                     {
                         //spoilerWriter.WriteLine("## " + bucket);
@@ -1933,16 +1936,16 @@ public class GenAllCommand : BaseCommand
                         totalCardsWithImages += cardsWithImagesTotal;
                     }
                     spoilerWriter.WriteLine($"# Clair Obscur: Expedition 33 (E33) [{totalCardsWithImages}/{totalCards} cards]");
-                    WriteSpoilerTable(spoilerWriter, baseImages, outputDir);
+                    WriteSpoilerTable(spoilerWriter, baseImages, outputDir, this.LinkifyCaptions);
                 }
 
                 spoilerWriter.WriteLine("## Tokens");
-                WriteSpoilerTable(spoilerWriter, tokenImages, outputDir);
+                WriteSpoilerTable(spoilerWriter, tokenImages, outputDir, this.LinkifyCaptions);
 
                 {
                     var totalCards = 0;
                     var totalCardsWithImages = 0;
-                    var cmdrImages = new List<(string path, string name)>();
+                    var cmdrImages = new List<(string path, string name, string bucket)>();
                     foreach (var (bucket, imageList, cardsWithImagesTotal, cardsTotal) in GenerateImageLists(true))
                     {
                         //spoilerWriter.WriteLine("## " + bucket);
@@ -1952,11 +1955,11 @@ public class GenAllCommand : BaseCommand
                         totalCardsWithImages += cardsWithImagesTotal;
                     }
                     spoilerWriter.WriteLine($"# Clair Obscur: Expedition 33 Commander (E3C) [{totalCardsWithImages}/{totalCards} cards]");
-                    WriteSpoilerTable(spoilerWriter, cmdrImages, outputDir);
+                    WriteSpoilerTable(spoilerWriter, cmdrImages, outputDir, this.LinkifyCaptions);
                 }
             }
 
-            IEnumerable<(string bucket, List<(string path, string name)> images, int cardsWithImagesTotal, int cardsTotal)> GenerateImageLists(bool isCommander)
+            IEnumerable<(string bucket, List<(string path, string name, string bucket)> images, int cardsWithImagesTotal, int cardsTotal)> GenerateImageLists(bool isCommander)
             {
                 var picsDir = isCommander ? cmdrCardsPicsDir : baseCardsPicsDir;
                 var baseGroups = cards.Where(c => c.Value.IsCommander == isCommander).GroupBy(c => c.Value.Bucket).ToList();
@@ -1968,7 +1971,7 @@ public class GenAllCommand : BaseCommand
                     {
                         var cardsWithImagesTotal = 0;
                         var cardsTotal = 0;
-                        var images = new List<(string path, string name)>();
+                        var images = new List<(string path, string name, string bucket)>();
                         var orderedGroup = bucket == "LANDS" ? (IEnumerable<KeyValuePair<string, CardMasterDesign>>)group.OrderBy(c => IsBasicLand(c.Value.Name) ? 1 : 0).ThenBy(c => c.Key) : group;
                         foreach (var (name, card) in orderedGroup)
                         {
@@ -1978,7 +1981,7 @@ public class GenAllCommand : BaseCommand
                             {
                                 var imgPath = Path.Combine(picsDir, imgName);
                                 if (File.Exists(imgPath))
-                                    images.Add((imgPath, card.Name));
+                                    images.Add((imgPath, card.Name, bucket));
                                 else
                                     complete = false;
                             }
@@ -1992,7 +1995,7 @@ public class GenAllCommand : BaseCommand
                 bool IsBasicLand(string name) => name is "Forest" or "Island" or "Mountain" or "Plains" or "Swamp";
             }
 
-            static void WriteSpoilerTable(StreamWriter spoilerWriter, List<(string path, string name)> images, DirectoryInfo outputDir)
+            static void WriteSpoilerTable(StreamWriter spoilerWriter, List<(string path, string name, string bucket)> images, DirectoryInfo outputDir, bool linkifyCaptions)
             {
                 const int COLUMNS = 3;
 
@@ -2009,14 +2012,23 @@ public class GenAllCommand : BaseCommand
                         var idx = i + c;
                         if (idx < images.Count)
                         {
-                            var (abs, name) = images[idx];
+                            var (abs, name, bucket) = images[idx];
                             var rel = Path.GetRelativePath(outputDir.FullName, abs).Replace("\\", "/");
                             // Percent-encode each path segment so spaces and special chars work in Markdown image URLs
                             var encodedRel = string.Join("/", rel.Split('/').Select(seg => System.Uri.EscapeDataString(seg)));
                             // Image in one row
                             imageRow[c] = $"![]({encodedRel})";
                             // Caption in the next row
-                            captionRow[c] = $"<center>{name}</center>";
+                            if (linkifyCaptions && !string.IsNullOrEmpty(bucket) && bucket != "TOKENS")
+                            {
+                                // Create a markdown link to the card's documentation
+                                var anchor = CreateMarkdownAnchor(name);
+                                captionRow[c] = $"<center>[{name}]({bucket}.md#{anchor})</center>";
+                            }
+                            else
+                            {
+                                captionRow[c] = $"<center>{name}</center>";
+                            }
                         }
                         else
                         {
@@ -2029,7 +2041,29 @@ public class GenAllCommand : BaseCommand
                 }
             }
 
-            await stdout.WriteLineAsync($"Wrote SPOILER: {spoilerPath}");
+            static string CreateMarkdownAnchor(string name)
+            {
+                // Convert to lowercase, replace spaces and special chars with hyphens
+                // Remove or replace characters that aren't suitable for anchors
+                return name
+                    .ToLowerInvariant()
+                    .Replace(" ", "-")
+                    .Replace("'", "")
+                    .Replace("\"", "")
+                    .Replace(",", "")
+                    .Replace(".", "")
+                    .Replace("!", "")
+                    .Replace("?", "")
+                    .Replace("(", "")
+                    .Replace(")", "")
+                    .Replace("[", "")
+                    .Replace("]", "")
+                    .Replace("{", "")
+                    .Replace("}", "")
+                    .Replace("/", "-")
+                    .Replace("\\", "-")
+                    .Replace("&", "");
+            }
         }
         catch (Exception ex)
         {
