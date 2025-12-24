@@ -2049,6 +2049,7 @@ public class GenAllCommand : BaseCommand
                     .ToLowerInvariant()
                     .Replace(" ", "-")
                     .Replace("'", "")
+                    .Replace("//", "")
                     .Replace("\"", "")
                     .Replace(",", "")
                     .Replace(".", "")
