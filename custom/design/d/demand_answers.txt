@@ -1,0 +1,18 @@
+[Name]
+Demand Answers
+[ManaCost]
+1
+R
+[IsReprint]
+true
+[Rarity]
+C
+[FlavorText]
+Lune: Care to explain? Your father?
+Verso: I don't think of him as my father anymore.
+Sciel: Still. Why didn't you just tell us?
+Verso: Because it's private and it's painful. And it's none of your business. I cut ties with him decades ago.
+Lune: Lying by omission is still lying.
+[DesignNotes]
+ - In the game, after failing to secure the heart of The Paintress at Old Lumière the party regroups at camp and Lune starts asking probing questions at Verso about his relationship with Renoir.
+ - There was already a card with this name with some decent utility, so this is another flavorful reprint.
