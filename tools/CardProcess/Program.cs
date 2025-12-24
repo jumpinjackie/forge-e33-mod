@@ -2002,7 +2002,8 @@ public class GenAllCommand : BaseCommand
 
                 for (int i = 0; i < images.Count; i += COLUMNS)
                 {
-                    var row = new string[COLUMNS];
+                    var imageRow = new string[COLUMNS];
+                    var captionRow = new string[COLUMNS];
                     for (int c = 0; c < COLUMNS; c++)
                     {
                         var idx = i + c;
@@ -2012,15 +2013,19 @@ public class GenAllCommand : BaseCommand
                             var rel = Path.GetRelativePath(outputDir.FullName, abs).Replace("\\", "/");
                             // Percent-encode each path segment so spaces and special chars work in Markdown image URLs
                             var encodedRel = string.Join("/", rel.Split('/').Select(seg => System.Uri.EscapeDataString(seg)));
-                            // Embed the image with the card name below
-                            row[c] = $"![]({encodedRel})<br>{name}";
+                            // Image in one row
+                            imageRow[c] = $"![]({encodedRel})";
+                            // Caption in the next row
+                            captionRow[c] = $"<center>{name}</center>";
                         }
                         else
                         {
-                            row[c] = " ";
+                            imageRow[c] = " ";
+                            captionRow[c] = " ";
                         }
                     }
-                    spoilerWriter.WriteLine($"| {string.Join(" | ", row)} |");
+                    spoilerWriter.WriteLine($"| {string.Join(" | ", imageRow)} |");
+                    spoilerWriter.WriteLine($"| {string.Join(" | ", captionRow)} |");
                 }
             }
 
