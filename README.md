@@ -5,7 +5,7 @@ This a mod for [Forge](https://github.com/Card-Forge/forge) and a custom set for
 This mod is multi-faceted and consists of:
 
  * [Current Focus] A new custom expansion set for Forge and Cockatrice with cards inspired by the lore, story, flavor, characters and mechanics from the video game.
- * A music mod for Forge to replace the built-in menu/battle music with a curated selection of tracks from the video game OST.
+ * A music mod for Forge to replace the built-in menu/battle music with a curated selection of tracks from the video game OST. Basically streamlining [these instructions](https://gist.github.com/jumpinjackie/a1e2ee5c7da29bf444b0e76870ad1f97)
  * [Maybe in the future, if I'm still motivated] A custom [Forge quest mode](https://github.com/Card-Forge/forge?tab=readme-ov-file#-quest-modes) focused solely on the enemies and bosses of Expedition 33 with decks only from this custom set.
  * [In the long distant future maybe, if I'm really really motivated] A custom [Forge adventure mode](https://github.com/Card-Forge/forge?tab=readme-ov-file#-adventure-mode) plane focused solely on the world, enemies and bosses of Expedition 33 with decks only from this custom set.
 
