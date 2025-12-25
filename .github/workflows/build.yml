@@ -1,0 +1,81 @@
+name: Build and Package Forge Assets
+
+on:
+  push:
+    branches: [ main, master ]
+  release:
+    types: [published]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v4
+      with:
+        dotnet-version: '9.0.x'
+
+    - name: Make build script executable
+      run: chmod +x build.sh
+
+    - name: Run build script
+      run: ./build.sh
+
+    - name: Create forge_assets.zip
+      run: |
+        if [ -d "custom/dist/forge/custom" ]; then
+          cd custom/dist/forge/custom
+          zip -r ../../../forge_assets.zip .
+          cd ../../../
+        else
+          echo "Warning: custom/dist/forge/custom directory not found"
+          exit 1
+        fi
+
+    - name: Create forge_pics.zip
+      run: |
+        if [ -d "custom/dist/forge/pics" ]; then
+          cd custom/dist/forge/pics
+          zip -r ../../../forge_pics.zip .
+          cd ../../../
+        else
+          echo "Warning: custom/dist/forge/pics directory not found"
+          exit 1
+        fi
+
+    - name: Create cockatrice_pics.zip
+      run: |
+        if [ -d "custom/dist/cockatrice/pics" ]; then
+          cd custom/dist/cockatrice/pics
+          zip -r ../../../cockatrice_pics.zip .
+          cd ../../../
+        else
+          echo "Warning: custom/dist/cockatrice/pics directory not found"
+          exit 1
+        fi
+
+    - name: Upload build artifacts
+      uses: actions/upload-artifact@v4
+      with:
+        name: forge-assets
+        path: |
+          forge_assets.zip
+          forge_pics.zip
+          cockatrice_pics.zip
+          custom/dist/cockatrice/Expedition33.xml
+
+    - name: Upload release assets
+      if: github.event_name == 'release'
+      uses: softprops/action-gh-release@v2
+      with:
+        files: |
+          forge_assets.zip
+          forge_pics.zip
+          cockatrice_pics.zip
+          custom/dist/cockatrice/Expedition33.xml
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
