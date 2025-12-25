@@ -1887,9 +1887,9 @@ public class GenAllCommand : BaseCommand
 
         sb.AppendLine("</cockatrice_carddatabase>");
 
-        var filePath = Path.Combine(outputDir.FullName, "E33.xml");
+        var filePath = Path.Combine(outputDir.FullName, "Expedition33.xml");
         await File.WriteAllTextAsync(filePath, sb.ToString());
-        await stdout.WriteLineAsync($"Generated E33.xml with {cards.Count} cards and {tokens.Count} tokens");
+        await stdout.WriteLineAsync($"Generated Expedition33.xml with {cards.Count} cards and {tokens.Count} tokens");
     }
 
     private static string EscapeXml(string text)
