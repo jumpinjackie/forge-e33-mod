@@ -66,6 +66,26 @@ else
   echo "No local custom directory found at $ROOT/custom; nothing to copy." >&2
 fi
 
+# Copy custom subdirectories to custom/dist/forge
+echo "Copying custom subdirectories to $ROOT/custom/dist/forge/custom/ ..."
+mkdir -p "$ROOT/custom/dist/forge/custom"
+if [ -d "$ROOT/custom" ]; then
+  for dir in cards editions tokens; do
+    if [ -d "$ROOT/custom/$dir" ]; then
+      echo "Copying $dir to dist/forge..."
+      if cp -a "$ROOT/custom/$dir" "$ROOT/custom/dist/forge/custom/" 2>/dev/null; then
+        :
+      else
+        cp -r "$ROOT/custom/$dir" "$ROOT/custom/dist/forge/custom/" || true
+      fi
+    else
+      echo "Warning: $ROOT/custom/$dir not found" >&2
+    fi
+  done
+else
+  echo "No local custom directory found at $ROOT/custom; nothing to copy." >&2
+fi
+
 if [ -d "$ROOT/custom/pics" ]; then
   echo "Copying card and token pictures to $PICS_DIR..."
   # Copy cards
@@ -87,6 +107,36 @@ if [ -d "$ROOT/custom/pics" ]; then
       :
     else
       cp -r "$ROOT/custom/pics/tokens/." "$PICS_DIR/tokens/" || true
+    fi
+  else
+    echo "Warning: No token pictures found in $ROOT/custom/pics/tokens" >&2
+  fi
+fi
+
+# Copy pictures to custom/dist/forge
+echo "Copying card and token pictures to $ROOT/custom/dist/forge/pics/..."
+mkdir -p "$ROOT/custom/dist/forge/pics/cards"
+mkdir -p "$ROOT/custom/dist/forge/pics/tokens"
+if [ -d "$ROOT/custom/pics" ]; then
+  # Copy cards
+  if [ -d "$ROOT/custom/pics/cards" ]; then
+    echo "Copying card pictures to dist/forge..."
+    if cp -a "$ROOT/custom/pics/cards/." "$ROOT/custom/dist/forge/pics/cards/" 2>/dev/null; then
+      :
+    else
+      cp -r "$ROOT/custom/pics/cards/." "$ROOT/custom/dist/forge/pics/cards/" || true
+    fi
+  else
+    echo "Warning: No card pictures found in $ROOT/custom/pics/cards" >&2
+  fi
+  
+  # Copy tokens
+  if [ -d "$ROOT/custom/pics/tokens" ]; then
+    echo "Copying token pictures to dist/forge..."
+    if cp -a "$ROOT/custom/pics/tokens/." "$ROOT/custom/dist/forge/pics/tokens/" 2>/dev/null; then
+      :
+    else
+      cp -r "$ROOT/custom/pics/tokens/." "$ROOT/custom/dist/forge/pics/tokens/" || true
     fi
   else
     echo "Warning: No token pictures found in $ROOT/custom/pics/tokens" >&2
