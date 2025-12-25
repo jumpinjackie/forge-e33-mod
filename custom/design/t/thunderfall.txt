@@ -14,7 +14,7 @@ Luminous — ~ deals 4 damage instead if you control at least three Lumina token
 [AbilityWords]
 Luminous
 [ForgeScript]
-A:SP$ DealDamage | ValidTgts$ Any | NumDmg$ X | SpellDescription$ CARDNAME deals 2 damage to any target. Metalcraft — CARDNAME deals 4 damage instead if you control 3 or more artifacts.
+A:SP$ DealDamage | ValidTgts$ Any | NumDmg$ X | SpellDescription$ CARDNAME deals 2 damage to any target. Luminous — CARDNAME deals 4 damage instead if you control 3 or more artifacts.
 SVar:LuminaTotal:Count$Valid Lumina.YouCtrl
 SVar:X:Count$Compare LuminaTotal GE3.4.2
 [DesignNotes]
