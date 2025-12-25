@@ -197,8 +197,8 @@ Gestral Elder
 Gestral Fight Club
 Gestral Fighter
 Gestral Foot Race Challenge
+Gestral Kid
 Gestral Lackey
-Gestral Merchant
 Gestral Parkour Challenge
 Gestral Pot
 Gestral Raft Volleyball Challenge

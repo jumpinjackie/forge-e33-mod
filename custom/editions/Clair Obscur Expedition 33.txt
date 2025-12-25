@@ -151,7 +151,7 @@ Type=Custom
 181 U Gestral Elder @Sandfall Interactive
 183 R Gestral Fighter @Sandfall Interactive
 184 U Gestral Foot Race Challenge @Sandfall Interactive
-185 U Gestral Lackey @Sandfall Interactive
+185 U Gestral Kid @Sandfall Interactive
 186 U Gestral Merchant @Sandfall Interactive
 187 U Gestral Parkour Challenge @Sandfall Interactive
 188 C Gestral Pot @Sandfall Interactive

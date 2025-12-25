@@ -197,8 +197,8 @@ Cards implemented: 393
 [N] Gestral Fight Club
 [x] Gestral Fighter
 [x] Gestral Foot Race Challenge
-[x] Gestral Lackey
-[x] Gestral Merchant
+[x] Gestral Kid
+[ ] Gestral Lackey
 [x] Gestral Parkour Challenge
 [x] Gestral Pot
 [x] Gestral Raft Volleyball Challenge

@@ -163,8 +163,8 @@
 | <center>[Expedition Map](ARTIFACTS.md#expedition-map)</center> | <center>[Expeditioner Uniform](ARTIFACTS.md#expeditioner-uniform)</center> | <center>[Explorer's Scope](ARTIFACTS.md#explorers-scope)</center> |
 | ![](../custom/pics/cards/E33/Florrie.full.jpg) | ![](../custom/pics/cards/E33/Gestral%20Bodyguard.full.jpg) | ![](../custom/pics/cards/E33/Gestral%20Doctor.full.jpg) |
 | <center>[Florrie](ARTIFACTS.md#florrie)</center> | <center>[Gestral Bodyguard](ARTIFACTS.md#gestral-bodyguard)</center> | <center>[Gestral Doctor](ARTIFACTS.md#gestral-doctor)</center> |
-| ![](../custom/pics/cards/E33/Gestral%20Elder.full.jpg) | ![](../custom/pics/cards/E33/Gestral%20Fighter.full.jpg) | ![](../custom/pics/cards/E33/Gestral%20Lackey.full.jpg) |
-| <center>[Gestral Elder](ARTIFACTS.md#gestral-elder)</center> | <center>[Gestral Fighter](ARTIFACTS.md#gestral-fighter)</center> | <center>[Gestral Lackey](ARTIFACTS.md#gestral-lackey)</center> |
+| ![](../custom/pics/cards/E33/Gestral%20Elder.full.jpg) | ![](../custom/pics/cards/E33/Gestral%20Fighter.full.jpg) | ![](../custom/pics/cards/E33/Gestral%20Kid.full.jpg) |
+| <center>[Gestral Elder](ARTIFACTS.md#gestral-elder)</center> | <center>[Gestral Fighter](ARTIFACTS.md#gestral-fighter)</center> | <center>[Gestral Kid](ARTIFACTS.md#gestral-kid)</center> |
 | ![](../custom/pics/cards/E33/Gestral%20Merchant.full.jpg) | ![](../custom/pics/cards/E33/Gestral%20Pot.full.jpg) | ![](../custom/pics/cards/E33/Gestral%20Ringleader.full.jpg) |
 | <center>[Gestral Merchant](ARTIFACTS.md#gestral-merchant)</center> | <center>[Gestral Pot](ARTIFACTS.md#gestral-pot)</center> | <center>[Gestral Ringleader](ARTIFACTS.md#gestral-ringleader)</center> |
 | ![](../custom/pics/cards/E33/Gestral%20Villager.full.jpg) | ![](../custom/pics/cards/E33/Gestral%20Warrior.full.jpg) | ![](../custom/pics/cards/E33/Gestral%20Worker.full.jpg) |

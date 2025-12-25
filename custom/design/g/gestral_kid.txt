@@ -1,5 +1,5 @@
 [Name]
-Gestral Lackey
+Gestral Kid
 [ManaCost]
 1
 [Types]
@@ -13,9 +13,10 @@ Sandfall Interactive
 [PT]
 1/1
 [Oracle]
-Whenever Gestral Lackey deals damage to a player, you may put a Gestral permanent card from your hand onto the battlefield.
+Whenever ~ deals damage to a player, you may put a Gestral permanent card from your hand onto the battlefield.
 [ForgeScript]
 T:Mode$ DamageDone | ValidSource$ Card.Self | ValidTarget$ Player | Execute$ TrigChange | TriggerDescription$ Whenever CARDNAME deals damage to a player, you may put a Gestral permanent card from your hand onto the battlefield.
 SVar:TrigChange:DB$ ChangeZone | Origin$ Hand | Destination$ Battlefield | ChangeType$ Permanent.Gestral | ChangeNum$ 1
 [DesignNotes]
- - The Gestral version of Goblin Lackey
+ - The Gestral version of Goblin Lackey.
+ - 25/12/2025: Renamed to Gestral Kid as that has in-game basis.

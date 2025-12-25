@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 24/12/2025 5:29:33 am
+> Last generated: 25/12/2025 2:50:25 am
 
 ## A Rock for François
 
@@ -613,21 +613,22 @@ See, this here's where we come when we wanna go full brush-mode, you got me?
  - The Gestral version of Goblin Piledriver. If we want a viable Gestral tribal deck, it needs a "heavy hitter". This is the heavy hitter.
  - May increase cost to 3 in the future.
 
-## Gestral Lackey
+## Gestral Kid
 
 ```
 1
 Artifact Creature - Gestral
-Whenever Gestral Lackey deals damage to a player, you may put a Gestral permanent card from your hand onto the battlefield.
+Whenever this creature deals damage to a player, you may put a Gestral permanent card from your hand onto the battlefield.
 
 1/1
 ```
 
-[card implementation](../custom/cards/g/gestral_lackey.txt)
+[card implementation](../custom/cards/g/gestral_kid.txt)
 
 ### Design Notes
 
- - The Gestral version of Goblin Lackey
+ - The Gestral version of Goblin Lackey.
+ - 25/12/2025: Renamed to Gestral Kid as that has in-game basis.
 
 ## Gestral Merchant
 
