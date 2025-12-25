@@ -4,6 +4,8 @@ Pinnacle of Rage
 4
 R
 R
+[Rarity]
+C
 [IsReprint]
 true
 [FlavorText]
