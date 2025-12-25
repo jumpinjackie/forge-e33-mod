@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 24/12/2025 5:29:33 am
+> Last generated: 25/12/2025 4:10:55 am
 
 ## A Storm is Coming
 
@@ -488,6 +488,47 @@ When Esquie attacks, if it is saddled, choose one —
         - Flying - Flying
         - Diving - Surveil on attack
  - Because this is a Mount creature with Saddle, I've given it the Uro (draw a card or put a land) triggered ability as the saddle attacking bonus.
+
+## Esquie's Charge
+
+```
+URG
+Instant
+Esquie’s Charge deals 3 damage to any target.
+If you control a card named Florrie, scry 2.
+If you control a card named Dorrie, draw a card.
+If you control a card named Soarrie, you gain 3 life.
+If you control a card named Urrie, you may put a land card from your hand onto the battlefield.
+---
+Gustave: So, wait. Esquie is that powerful?
+Sciel: Apparently so. But also lazy.
+```
+
+[card implementation](../custom/cards/e/esquies_charge.txt)
+
+### Design Notes
+
+ - In the game, at the Stone Wave Cliffs, the party witnesses some of Esquie's power by effortlessly taking down a giant Bourgeon.
+ - Gone with a bolt with various rock-boosted bonuses to flesh out the Rock Urzatron archetype.
+ - Mild thematic mismatch in terms of bonuses given based on the given rock as the rocks are primarly combat-based buffs for Esquie (if you follow the lore to the letter). But if we want the Rock Urzatron archetype to be viable, we need some utility-based payoffs for assembling the quartet, so this is an acceptable thematic compromise.
+
+## Esquie's Embrace
+
+```
+UG
+Enchantment - Aura
+Enchant Creature
+Enchanted creature gets +2/+2.
+Enchanted creature has Islandwalk if you control a card named Florrie, has trample if you control a card name Dorrie and has flying if you control a card named Soarrie.
+Whenever enchanted creature attacks, if you control a card named Urrie, draw a card.
+```
+
+[card implementation](../custom/cards/e/esquies_embrace.txt)
+
+### Design Notes
+
+ - In the game, Esquie consoles Maelle after the death of Gustave and offers her a comforting embrace.
+ - Another aura with rock-boosted bonuses to bolster the Rock Urzatron archetype.
 
 ## Esquie's Rescue
 
