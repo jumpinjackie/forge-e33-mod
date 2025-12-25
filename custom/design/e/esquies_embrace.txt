@@ -1,0 +1,26 @@
+[Name]
+Esquie's Embrace
+[ManaCost]
+U
+G
+[Types]
+Enchantment
+Aura
+[Rarity]
+C
+[Oracle]
+Enchant Creature
+Enchanted creature gets +2/+2.
+Enchanted creature has Islandwalk if you control a card named Florrie, has trample if you control a card name Dorrie and has flying if you control a card named Soarrie.
+Whenever enchanted creature attacks, if you control a card named Urrie, draw a card.
+[ForgeScript]
+K:Enchant:Creature
+S:Mode$ Continuous | Affected$ Creature.EnchantedBy | AddPower$ 2 | AddToughness$ 2 | Description$ Enchanted creature gets +2/+2.
+S:Mode$ Continuous | Affected$ Creature.EnchantedBy | AddKeyword$ Islandwalk | IsPresent$ Card.YouCtrl+namedFlorrie | Description$ Enchanted creature has Islandwalk as long as you control a card named Florrie.
+S:Mode$ Continuous | Affected$ Creature.EnchantedBy | AddKeyword$ Flying | IsPresent$ Card.YouCtrl+namedSoarrie | Description$ Enchanted creature has Flying as long as you control a card named Soarrie.
+S:Mode$ Continuous | Affected$ Creature.EnchantedBy | AddKeyword$ Trample | IsPresent$ Card.YouCtrl+namedDorrie | Description$ Enchanted creature has Trample as long as you control a card named Dorrie.
+T:Mode$ Attacks | ValidCard$ Card.Self | IsPresent$ Card.YouCtrl+namedUrrie | Execute$ TrigDraw | TriggerZones$ Battlefield | OptionalDecider$ You | TriggerDescription$ Whenever enchanted creature attacks, if you control a card named Urrie, draw a card.
+SVar:TrigDraw:DB$ Draw | NumCards$ 1
+[DesignNotes]
+ - In the game, Esquie consoles Maelle after the death of Gustave and offers her a comforting embrace.
+ - Another aura with rock-boosted bonuses to bolster the Rock Urzatron archetype.

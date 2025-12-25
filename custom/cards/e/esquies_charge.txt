@@ -1,0 +1,9 @@
+Name:Esquie's Charge
+ManaCost:U R G
+Types:Instant
+A:SP$ DealDamage | ValidTgts$ Any | NumDmg$ 3 | SubAbility$ DBScry | SpellDescription$ CARDNAME deals 3 damage to any target. If you control a card named Florrie, scry 2. If you control a card named Dorrie, draw a card. If you control a card named Soarrie, you gain 3 life. If you control a card named Urrie, you may put a land card from your hand onto the battlefield.
+SVar:DBScry:DB$ Scry | ScryNum$ 2 | ConditionPresent$ Card.YouCtrl+namedFlorrie | ConditionCompare$ GE1 | SubAbility$ DBDraw
+SVar:DBDraw:DB$ Draw | NumCards$ 1 | ConditionPresent$ Card.YouCtrl+namedDorrie | ConditionCompare$ GE1 | SubAbility$ DBLifeGain
+SVar:DBLifeGain:DB$ GainLife | Defined$ You | LifeAmount$ 3 | ConditionPresent$ Card.YouCtrl+namedSoarrie | ConditionCompare$ GE1 | SubAbility$ DBPutLand
+SVar:DBPutLand:DB$ ChangeZone | Origin$ Hand | Destination$ Battlefield | ChangeType$ Land.YouCtrl | ConditionPresent$ Card.YouCtrl+namedUrrie | ConditionCompare$ GE1
+Oracle:Esquie’s Charge deals 3 damage to any target.\nIf you control a card named Florrie, scry 2.\nIf you control a card named Dorrie, draw a card.\nIf you control a card named Soarrie, you gain 3 life.\nIf you control a card named Urrie, you may put a land card from your hand onto the battlefield.
