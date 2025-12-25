@@ -1,0 +1,14 @@
+[Name]
+Pinnacle of Rage
+[ManaCost]
+4
+R
+R
+[IsReprint]
+true
+[FlavorText]
+Lune: Everything's destroyed.
+Monoco: Normally I enjoy a little destruction, but this doesn't feel right.
+Sciel: It's rage.
+[DesignNotes]
+ - Another on-flavor reprint for one of our various quotes to attach to.
