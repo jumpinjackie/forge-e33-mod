@@ -11,7 +11,7 @@ Sorcery
 [Oracle]
 You gain 2 life for each creature you control.
 Draw a card.
-Luminous — If you control three or more Lumina tokens, create a 1/1 Human Expeditioner token with $EXPEDITIONER_TOKEN_TEXT.
+Luminous — Create a 1/1 white Human Expeditioner token with $EXPEDITIONER_TOKEN_TEXT if you control at least three Lumina tokens.
 [AbilityWords]
 Luminous
 [FlavorText]
@@ -20,7 +20,7 @@ Five tables this year, you see that? Told you we’d beat the 34s.
 [ForgeScript]
 A:SP$ GainLife | LifeAmount$ X | SubAbility$ DBDraw | SpellDescription$ You gain 2 life for each creature you control. Draw a card.
 SVar:DBDraw:DB$ Draw | NumCards$ 1 | SubAbility$ DBToken
-SVar:DBToken:DB$ Token | TokenAmount$ 1 | TokenScript$ w_1_1_human_expeditioner | TokenOwner$ You | ConditionCheckSVar$ LuminaTotal | ConditionSVarCompare$ GE3 | SpellDescription$ Luminous — If you control three or more Lumina tokens, create a 1/1 Human Expeditioner token with $EXPEDITIONER_TOKEN_TEXT.
+SVar:DBToken:DB$ Token | TokenAmount$ 1 | TokenScript$ w_1_1_human_expeditioner | TokenOwner$ You | ConditionCheckSVar$ LuminaTotal | ConditionSVarCompare$ GE3 | SpellDescription$ Luminous — Create a 1/1 white Human Expeditioner token with $EXPEDITIONER_TOKEN_TEXT if you control at least three Lumina tokens.
 SVar:LuminaTotal:Count$Valid Lumina.YouCtrl
 SVar:X:Count$Valid Creature.YouCtrl/Times.2
 [DesignNotes]
