@@ -216,11 +216,11 @@
 | ![](../custom/pics/cards/E33/The%20Sacred%20River.full.jpg) | ![](../custom/pics/cards/E33/Twilight%20Quarry.full.jpg) | ![](../custom/pics/cards/E33/Visages.full.jpg) |
 | <center>[The Sacred River](LANDS.md#the-sacred-river)</center> | <center>[Twilight Quarry](LANDS.md#twilight-quarry)</center> | <center>[Visages // He Who Guards Truth With Lies](LANDS.md#visages--he-who-guards-truth-with-lies)</center> |
 | ![](../custom/pics/cards/E33/He%20Who%20Guards%20Truth%20With%20Lies.full.jpg) | ![](../custom/pics/cards/E33/Yellow%20Harvest.full.jpg) | ![](../custom/pics/cards/E33/Forest.full.jpg) |
-| <center>[Visages // He Who Guards Truth With Lies](LANDS.md#visages--he-who-guards-truth-with-lies)</center> | <center>[Yellow Harvest](LANDS.md#yellow-harvest)</center> | <center>[Forest](LANDS.md#forest)</center> |
+| <center>[Visages // He Who Guards Truth With Lies](LANDS.md#visages--he-who-guards-truth-with-lies)</center> | <center>[Yellow Harvest](LANDS.md#yellow-harvest)</center> | <center>Forest</center> |
 | ![](../custom/pics/cards/E33/Island.full.jpg) | ![](../custom/pics/cards/E33/Mountain.full.jpg) | ![](../custom/pics/cards/E33/Plains.full.jpg) |
-| <center>[Island](LANDS.md#island)</center> | <center>[Mountain](LANDS.md#mountain)</center> | <center>[Plains](LANDS.md#plains)</center> |
+| <center>Island</center> | <center>Mountain</center> | <center>Plains</center> |
 | ![](../custom/pics/cards/E33/Swamp.full.jpg) |   |   |
-| <center>[Swamp](LANDS.md#swamp)</center> |   |   |
+| <center>Swamp</center> |   |   |
 ## Tokens
 | | | |
 |---|---|---|

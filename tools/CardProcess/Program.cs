@@ -2019,7 +2019,7 @@ public class GenAllCommand : BaseCommand
                             // Image in one row
                             imageRow[c] = $"![]({encodedRel})";
                             // Caption in the next row
-                            if (linkifyCaptions && !string.IsNullOrEmpty(bucket) && bucket != "TOKENS")
+                            if (linkifyCaptions && !string.IsNullOrEmpty(bucket) && bucket != "TOKENS" && !IsBasicLand(name))
                             {
                                 // Create a markdown link to the card's documentation
                                 var anchor = CreateMarkdownAnchor(name);
@@ -2029,6 +2029,16 @@ public class GenAllCommand : BaseCommand
                             {
                                 captionRow[c] = $"<center>{name}</center>";
                             }
+
+                            static bool IsBasicLand(string name) => name switch
+                            {
+                                "Forest" => true,
+                                "Island" => true,
+                                "Mountain" => true,
+                                "Plains" => true,
+                                "Swamp" => true,
+                                _ => false
+                            };
                         }
                         else
                         {
