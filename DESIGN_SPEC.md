@@ -29,6 +29,7 @@ The master design file is the definitive "source of truth" for any card. It is w
 From this master design file, we can use the provided `CardProcess` tool to sync these changes across to:
 
  - Its forge card script file
+ - The custom set XML file for Cockatrice
  - Its CardConjurer JSON config
  - The respective design doc md
  - The BUGS.md file
@@ -126,6 +127,12 @@ Currently not used in any context.
 ### Oracle Text (`[Oracle]`)
 
 The oracle text of the card. Can span multiple lines.
+
+### Enters Tapped (`[EntersTapped]`)
+
+Cockatrice metadata that indicates if this card enters tapped. Only apply for cards that enter tapped unconditionally.
+
+Not used in any other context.
 
 #### General Notes / Tips
 
