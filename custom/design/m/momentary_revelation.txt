@@ -1,0 +1,24 @@
+[Name]
+Momentary Revelation
+[ManaCost]
+1
+B
+[Rarity]
+C
+[Types]
+Sorcery
+[Oracle]
+Look at the top three cards of your library. Put one of them into your hand and the rest into your graveyard.
+Flashback—{1}{B}, Pay 4 life. (You may cast this card from your graveyard for its flashback cost. Then exile it.)
+[FlavorText]
+Maelle: That was- I saw-
+Sciel: What happened?
+Maelle: I saw- I saw... It was... Renoir?
+[ForgeScript]
+A:SP$ Dig | DigNum$ 3 | ChangeNum$ 1 | DestinationZone2$ Graveyard | SpellDescription$ Look at the top three cards of your library. Put one of them into your hand and the rest into your graveyard.
+K:Flashback:1 B PayLife<4>
+DeckHas:Ability$Graveyard
+DeckHints:Ability$Delirium
+[DesignNotes]
+ - In the game, after Maelle offers the heart of the first slain Axon to The Curator, he momentarily reveals his true form (Renoir) to Maelle.
+ - Gone with a functional reprint of Resentful Revelation but with a different flashback cost.
