@@ -1,0 +1,28 @@
+[Name]
+Expedition Festival
+[ManaCost]
+1
+W
+U
+[Rarity]
+C
+[Types]
+Sorcery
+[Oracle]
+You gain 2 life for each creature you control.
+Draw a card.
+Luminous — If you control three or more Lumina tokens, create a 1/1 Human Expeditioner token with $EXPEDITIONER_TOKEN_TEXT.
+[AbilityWords]
+Luminous
+[FlavorText]
+Five tables this year, you see that? Told you we’d beat the 34s.
+- Catherine
+[ForgeScript]
+A:SP$ GainLife | LifeAmount$ X | SubAbility$ DBDraw | SpellDescription$ You gain 2 life for each creature you control. Draw a card.
+SVar:DBDraw:DB$ Draw | NumCards$ 1 | SubAbility$ DBToken
+SVar:DBToken:DB$ Token | TokenAmount$ 1 | TokenScript$ w_1_1_human_expeditioner | TokenOwner$ You | ConditionCheckSVar$ LuminaTotal | ConditionSVarCompare$ GE3 | SpellDescription$ Luminous — If you control three or more Lumina tokens, create a 1/1 Human Expeditioner token with $EXPEDITIONER_TOKEN_TEXT.
+SVar:LuminaTotal:Count$Valid Lumina.YouCtrl
+SVar:X:Count$Valid Creature.YouCtrl/Times.2
+[DesignNotes]
+ - In the game's prologue, the Expedition Festival happens after the gommage, where the crew of Expedition 33 drink away their sorrows, say goodbye to their loved ones and do final preparations before departing for the Continent.
+ - Gone with variable lifegain, like Festival of Trokin with a creature token Luminous bonus.
