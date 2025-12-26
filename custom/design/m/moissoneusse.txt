@@ -1,0 +1,25 @@
+[Name]
+Moissoneusse
+[ManaCost]
+U
+R
+[Types]
+Creature
+Nevron
+[PT]
+2/2
+[Rarity]
+C
+[Oracle]
+Haste
+Applies rush to her allies — {T}: Target creature gains haste until end of turn.
+$NEVRON_DEATH_ABILITY_TEXT
+[AbilityWords]
+Applies rush to her allies
+[ForgeScript]
+K:Haste
+A:AB$ Pump | Cost$ T | ValidTgts$ Creature | TgtPrompt$ Select target creature | KW$ Haste | SpellDescription$ Target creature gains haste until end of turn.
+$NEVRON_DEATH_ABILITY
+[DesignNotes]
+ - In the game, Moissoneusses can be found in Visages.
+ - Mapped applying rush to granting haste.

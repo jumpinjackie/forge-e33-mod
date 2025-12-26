@@ -1,0 +1,21 @@
+[Name]
+Sapling
+[ManaCost]
+1
+G
+[Types]
+Creature
+Nevron
+[PT]
+2/2
+[Rarity]
+C
+[Oracle]
+Protection from black
+$NEVRON_DEATH_ABILITY_TEXT
+[ForgeScript]
+K:Protection from black
+$NEVRON_DEATH_ABILITY
+[DesignNotes]
+ - In the game, Saplings can be found in Yellow Harvest and Falling Leaves.
+ - Absorbs dark attacks ergo. Protection from black.

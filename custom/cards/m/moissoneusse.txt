@@ -1,0 +1,9 @@
+Name:Moissoneusse
+ManaCost:U R
+Types:Creature Nevron
+PT:2/2
+K:Haste
+A:AB$ Pump | Cost$ T | ValidTgts$ Creature | TgtPrompt$ Select target creature | KW$ Haste | SpellDescription$ Target creature gains haste until end of turn.
+T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Card.Self | Execute$ TrigToken | TriggerDescription$ When this creature dies, target opponent creates a Lumina token.
+SVar:TrigToken:DB$ Token | TokenAmount$ 1 | ValidTgts$ Opponent | TokenOwner$ Targeted | TokenScript$ c_a_lumina
+Oracle:Haste\nApplies rush to her allies — {T}: Target creature gains haste until end of turn.\nWhen this creature dies, target opponent creates a Lumina token. (It's an artifact with "{T}, Sacrifice this artifact: Scry 1.")
