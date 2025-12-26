@@ -1,0 +1,31 @@
+[Name]
+Sirène, Who Plays With Wonder
+[ManaCost]
+4
+G
+W
+U
+[Types]
+Legendary
+Creature
+Axon
+[Rarity]
+R
+[PT]
+8/8
+[Oracle]
+When ~ enters, if you control a creature named Tisseur, put two shield counters on her.
+The Grand Ballet Begins — {5}, {T}: For each color of mana spent on this ability, create a 1/1 green Nevron creature token with flying named Ballet.
+A Widow Ballet Charms — Sacrifice four creature tokens named Ballet: Gain control of target creature.
+[ForgeScript]
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | IsPresent$ Creature.YouCtrl+namedTisseur | PresentCompare$ GE1 | Execute$ TrigShield | TriggerDescription$ When ~ enters, if you control a creature named Tisseur, put two shield counters on her.
+SVar:TrigShield:DB$ PutCounter | CounterType$ SHIELD | CounterNum$ 2
+A:AB$ Token | Cost$ 5 T | TokenAmount$ X | TokenOwner$ You | TokenScript$ g_1_1_ballet_nevron | SpellDescription$ For each color of mana spent on this ability, create a 1/1 green Nevron creature token with flying named Ballet.
+SVar:X:Count$ManaColorsPaid
+A:AB$ GainControl | Cost$ Sac<4/Creature.token+namedBallet Token/Creature token named Ballet> | ValidTgts$ Creature | TgtPrompt$ Select target creature | SpellDescription$ Gain control of target creature.
+[DesignNotes]
+ - In the game, Sirène is one of two Axons the party must slay in order for The Curator to be able to forge the Barrier Breaker to destroy the Monolith Barrier and gain access to The Monolith.
+ - Shield counter ETB a nod to the fact that if you did not defeat Tisseur before facing Sirène in the video game, she will start the battle with shields on her.
+ - The main gimmicks we're translating are:
+    - Summoning Ballets to do her bidding
+    - Charming (ie. Creature control)
