@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 25/12/2025 11:59:14 pm
+> Last generated: 26/12/2025 3:23:38 pm
 
 ## Axon Offering
 
@@ -412,6 +412,23 @@ If a card would be put into your graveyard from anywhere this turn, exile that c
  - The card symbolizes the moment that Renoir was finally free from the bottom of the Monolith upon the defeat of The Paintress and Aline was expelled from the canvas and now had free reign to carry out his will: To destroy the canvas.
  - So mechanically, we've gone with a variation of Yawgmoth's Will, but with extra restrictions on the type of cards that can be replayed, allowing us to keep the same mana cost.
  - 21/11/2025: Updated flavor text to something more appropriate, since will is a synonym of determination and this updated flavor text oozes determination.
+
+## Simon's Second Wind
+
+```
+B
+Instant
+Until end of turn, target creature gains “When this creature dies, return it to the battlefield tapped under its owner’s control with a +1/+1 counter on it.”
+---
+My love. These foes are beneath you. You, who have fought heaven and earth... And subdued giants... To find me. To free me from her grasp. Would you fall now to the likes of them? While your oath remains unfulfilled? Rise. Your enemies await.
+- Clea
+```
+
+[card implementation](../custom/cards/s/simons_second_wind.txt)
+
+### Design Notes
+
+ - Another card where we have an awesome quote looking for a card to live in. In this case, functional reprint of Feign Death, because Simon ain't feigning death here!
 
 ## Surcease
 

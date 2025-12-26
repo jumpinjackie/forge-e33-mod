@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 26/12/2025 1:32:26 pm
+> Last generated: 26/12/2025 3:22:28 pm
 
 ## A Storm is Coming
 
@@ -859,7 +859,7 @@ Gregoire is, as usual, deeply suspicious, but this could change our entire under
 Sorcery
 You gain 2 life for each creature you control.
 Draw a card.
-Luminous — If you control three or more Lumina tokens, create a 1/1 Human Expeditioner token with "When this creature dies, create a Chroma token.".
+Luminous — Create a 1/1 white Human Expeditioner token with "When this creature dies, create a Chroma token." if you control at least three Lumina tokens.
 ---
 Five tables this year, you see that? Told you we’d beat the 34s.
 - Catherine

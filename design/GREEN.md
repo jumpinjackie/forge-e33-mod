@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 26/12/2025 12:26:10 pm
+> Last generated: 26/12/2025 3:22:28 pm
 
 ## Abbest
 
@@ -82,9 +82,9 @@ Maelle: I just- I just wanted to live this lifetime together. This lifetime that
 ```
 1G
 Legendary Artifact - Food
-This artifact enters with five wine counters on it.
-Remove a wine counter from this artifact: Target creature you control gets +1/-1 until end of turn. You gain 1 life.
-{2}, {T}, Sacrifice this artifact: You gain 3 life.
+Esquie's Wine Compartment enters with five wine counters on it.
+Remove a wine counter from Esquie's Wine Compartment: Target creature you control gets +1/-1 until end of turn. You gain 1 life.
+{2}, {T}, Sacrifice Esquie's Wine Compartment: You gain 3 life.
 ---
 I stored my personal stash inside him. All excellent vintages. I don’t normally share, but I suppose tonight deserves an exception.
 - Verso
