@@ -5,4 +5,4 @@ K:etbCounter:WINE:5
 A:AB$ Pump | Cost$ SubCounter<1/WINE> | ValidTgts$ Creature.YouCtrl | TgtPrompt$ Select target creature you control | NumAtt$ +1 | NumDef$ -1 | SubAbility$ DBLifeGain | SpellDescription$ Target creature you control gets +1/-1 until end of turn. You gain 1 life.
 SVar:DBLifeGain:DB$ GainLife | Defined$ You | LifeAmount$ 1
 A:AB$ GainLife | Cost$ 2 T Sac<1/CARDNAME> | Defined$ You | LifeAmount$ 3 | SpellDescription$ You gain 3 life.
-Oracle:This artifact enters with five wine counters on it.\nRemove a wine counter from this artifact: Target creature you control gets +1/-1 until end of turn. You gain 1 life.\n{2}, {T}, Sacrifice this artifact: You gain 3 life.
+Oracle:Esquie's Wine Compartment enters with five wine counters on it.\nRemove a wine counter from Esquie's Wine Compartment: Target creature you control gets +1/-1 until end of turn. You gain 1 life.\n{2}, {T}, Sacrifice Esquie's Wine Compartment: You gain 3 life.
