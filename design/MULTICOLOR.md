@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 25/12/2025 4:10:55 am
+> Last generated: 25/12/2025 11:59:14 pm
 
 ## A Storm is Coming
 
@@ -851,6 +851,26 @@ Gregoire is, as usual, deeply suspicious, but this could change our entire under
  - In the game, Expedition 81 was the first expedition to ever communicate with a Nevron.
  - This card represents someone who has mastered the ability to communicate with Nevron.
  - Mechanically translated to taking control of Nevrons with a Vedalken Shackles style effect.
+
+## Expedition Festival
+
+```
+1WU
+Sorcery
+You gain 2 life for each creature you control.
+Draw a card.
+Luminous — If you control three or more Lumina tokens, create a 1/1 Human Expeditioner token with "When this creature dies, create a Chroma token.".
+---
+Five tables this year, you see that? Told you we’d beat the 34s.
+- Catherine
+```
+
+[card implementation](../custom/cards/e/expedition_festival.txt)
+
+### Design Notes
+
+ - In the game's prologue, the Expedition Festival happens after the gommage, where the crew of Expedition 33 drink away their sorrows, say goodbye to their loved ones and do final preparations before departing for the Continent.
+ - Gone with variable lifegain, like Festival of Trokin with a creature token Luminous bonus.
 
 ## Finesse // Grace
 
@@ -2033,7 +2053,7 @@ UW
 Kindred Instant - Expeditioner
 Look at the top three cards of your library. Put one of them into your hand and the rest on the bottom of your library in any order.
 You gain 3 life.
-Luminous — If you control three or more Lumina tokens, create two 1/1 Human Expeditioner token with "When this creature dies, create a Chroma token."
+Luminous — If you control three or more Lumina tokens, create two 1/1 Human Expeditioner tokens with "When this creature dies, create a Chroma token."
 ```
 
 [card implementation](../custom/cards/t/tomorrow_comes.txt)

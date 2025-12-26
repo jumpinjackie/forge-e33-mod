@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 24/12/2025 5:10:17 am
+> Last generated: 25/12/2025 11:51:55 pm
 
 ## Anger
 
@@ -412,6 +412,14 @@ Monoco: Count me in then.
 
  - In the game, Verso makes a persuasive argument that convinces Monoco to join the party.
  - The card design is completely based on this conversation, and the easiest thing that comes to mind is a standard red temp creature spell.
+
+## Pinnacle of Rage
+
+> This card is a reprint
+[Scryfall](https://scryfall.com/search?q=Pinnacle of Rage)
+### Notes
+
+ - Another on-flavor reprint for one of our various quotes to attach to.
 
 ## Potier
 

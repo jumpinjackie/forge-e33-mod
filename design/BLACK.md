@@ -1,6 +1,25 @@
 # Cards
 
-> Last generated: 23/12/2025 6:36:21 pm
+> Last generated: 25/12/2025 11:59:14 pm
+
+## Axon Offering
+
+```
+B
+Sorcery
+Each player sacrifices a creature.
+Create a Chroma token for each creature sacrificed this way.
+---
+Me? You want me to give it to you?
+- Maelle, to The Curator
+```
+
+[card implementation](../custom/cards/a/axon_offering.txt)
+
+### Design Notes
+
+ - In the game, after slaying the first of two Axons, a cutscene plays at camp where its heart is offered by Lune to The Curator, but he insists that Maelle do the offering instead.
+ - Gone with an Innocent Blood mutual creature sac effect, but with a Chroma bonus (as a "reward" for the sacrifice)
 
 ## Blot Out
 
@@ -219,6 +238,26 @@ Which expedition are you fr-"
  - Another mini-sweeper to give Nevron tribal decks some fight against "go wide" strategies.
  - 7/10/2025: Added non-Painter clause because this event was a joint Nevron/Painter production.
  - 3/11/2025: Added cycling 2 so it at least has some marginal value in draft/limited if you have this but no supporting strategy.
+
+## Momentary Revelation
+
+```
+1B
+Sorcery
+Look at the top three cards of your library. Put one of them into your hand and the rest into your graveyard.
+Flashback—{1}{B}, Pay 4 life. (You may cast this card from your graveyard for its flashback cost. Then exile it.)
+---
+Maelle: That was- I saw-
+Sciel: What happened?
+Maelle: I saw- I saw... It was... Renoir?
+```
+
+[card implementation](../custom/cards/m/momentary_revelation.txt)
+
+### Design Notes
+
+ - In the game, after Maelle offers the heart of the first slain Axon to The Curator, he momentarily reveals his true form (Renoir) to Maelle.
+ - Gone with a functional reprint of Resentful Revelation but with a different flashback cost.
 
 ## Noir
 

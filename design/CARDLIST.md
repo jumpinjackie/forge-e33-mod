@@ -29,7 +29,7 @@ From this list, card designs are spawned from it, which will eventually form the
 
 ## Card Name List
 
-Cards implemented: 395
+Cards implemented: 399
 
 [x] - Card is implemented or in development, [C] - Card is a commander reprint, [R] - Card is a regular reprint, [N] - Card is a nickname reprint, [Z] - Card is a nickname reprint for commander [ ] - Card is not implemented
 
@@ -425,7 +425,9 @@ No ideas yet.
 No ideas yet.
 
 > Act 2: Visages
-> Monoco: Normally I enjoy a little destruction, but this doesn't feel right
+> Lune: Everything's destroyed.
+> Monoco: Normally I enjoy a little destruction, but this doesn't feel right.
+> Sciel: It's rage.
 
 No ideas yet.
 

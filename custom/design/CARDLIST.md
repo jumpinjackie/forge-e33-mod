@@ -425,7 +425,9 @@ No ideas yet.
 No ideas yet.
 
 > Act 2: Visages
-> Monoco: Normally I enjoy a little destruction, but this doesn't feel right
+> Lune: Everything's destroyed.
+> Monoco: Normally I enjoy a little destruction, but this doesn't feel right.
+> Sciel: It's rage.
 
 No ideas yet.
 
