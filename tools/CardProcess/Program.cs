@@ -377,45 +377,62 @@ public class CardFaceDesign
         //if (ht.Contains("Instant") || ht.Contains("Sorcery"))
         //    thisName = "this spell";
         if (ht.Contains("Creature"))
-            thisName = "this creature";
+        {
+            if (ht.Contains("Legendary"))
+                thisName = GetLegendaryName(origCardName);
+            else
+                thisName = "this creature";
+        }
         if (ht.Contains("Enchantment"))
         {
-            if (ht.Contains("Aura"))
-                thisName = "this aura";
+            if (ht.Contains("Legendary"))
+            {
+                thisName = GetLegendaryName(origCardName);
+            }
             else
-                thisName = "this enchantment";
+            {
+                if (ht.Contains("Aura"))
+                    thisName = "this aura";
+                else
+                    thisName = "this enchantment";
+            }
         }
         if (ht.Contains("Artifact"))
         {
-            if (ht.Contains("Vehicle"))
-                thisName = "this vehicle";
-            else if (ht.Contains("Creature"))
-                thisName = "this creature";
-            else if (ht.Contains("Equipment"))
-                thisName = "this equipment";
+            if (ht.Contains("Legendary"))
+            {
+                thisName = GetLegendaryName(origCardName);
+            }
             else
-                thisName = "this artifact";
+            {
+                if (ht.Contains("Vehicle"))
+                    thisName = "this vehicle";
+                else if (ht.Contains("Creature"))
+                    thisName = "this creature";
+                else if (ht.Contains("Equipment"))
+                    thisName = "this equipment";
+                else
+                    thisName = "this artifact";
+            }
         }
         if (ht.Contains("Land"))
         {
             if (ht.Contains("Legendary"))
             {
-                if (origCardName?.Contains(",") == true)
-                    thisName = origCardName.Substring(0, origCardName.IndexOf(",")); // Take the part before the comma
-                else
-                    thisName = origCardName;
+                thisName = GetLegendaryName(origCardName);
             }
             else
             {
                 thisName = "this land";
             }
         }
-        if (ht.Contains("Legendary") && ht.Contains("Creature"))
+
+        static string? GetLegendaryName(string? origCardName)
         {
             if (origCardName?.Contains(",") == true)
-                thisName = origCardName.Substring(0, origCardName.IndexOf(",")); // Take the part before the comma
+                return origCardName.Substring(0, origCardName.IndexOf(",")); // Take the part before the comma
             else
-                thisName = origCardName;
+                return origCardName;
         }
 
         sb.Replace(": ~", ": " + (string.IsNullOrEmpty(thisName) ? thisName : char.ToUpper(thisName[0]) + thisName.Substring(1)));
