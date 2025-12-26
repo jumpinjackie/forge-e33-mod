@@ -16,6 +16,7 @@ Wizard
 [Rarity]
 R
 [Oracle]
+Lune can't have more than four stain counters on her.
 Whenever you cast an instant or sorcery spell, draw a card and put a stain counter on Lune for each of that spell's colors.
 Tree of Life — {W}{G}, {T}, Remove a stain counter from Lune: Return target nonland, noncreature card from your graveyard to your hand. You gain 3 life.
 Wildfire — {R}, {T}, Remove two stain counters from Lune: Lune deals 2 damage to each creature target opponent controls.
@@ -25,8 +26,16 @@ As long as even one of us stands, our fight is not over.
 [ForgeScript]
 T:Mode$ SpellCast | ValidCard$ Instant,Sorcery | ValidActivatingPlayer$ You | Execute$ TrigDraw | TriggerZones$ Battlefield | TriggerDescription$ Whenever you cast an instant or sorcery spell, draw a card and put a stain counter on Lune for each of that spell's colors.
 SVar:TrigDraw:DB$ Draw | NumCards$ 1 | SubAbility$ TrigStain
-SVar:TrigStain:DB$ PutCounter | CounterType$ STAIN | CounterNum$ X
-SVar:X:TriggeredCard$CardNumColors
+SVar:TrigStain:DB$ PutCounter | CounterType$ STAIN | Defined$ Self | CounterNum$ X
+SVar:XNumColors:TriggeredCard$CardNumColors
+# Lune cannot have more than this number
+SVar:XLimit:4
+# Current number of stain counters
+SVar:XCurrent:Count$CardCounters.STAIN
+# Number of stain counters that can be put on Lune
+SVar:XRemain:SVar$XLimit/Minus.XCurrent
+# The final number of valid counters that can be put on Lune
+SVar:X:SVar:$XRemain/LimitMax.XNumColors
 A:AB$ ChangeZone | Cost$ W G T SubCounter<1/STAIN>  | Origin$ Graveyard | Destination$ Hand | TgtPrompt$ Select target nonland, noncreature card in your graveyard | ValidTgts$ Card.YouCtrl | SubAbility$ DBGainLift | SpellDescription$ Return target nonland, noncreature card from your graveyard to your hand. You gain 3 life.
 SVar:DBLifeGain:DB$ GainLife | Defined$ You | LifeAmount$ 3
 A:AB$ DamageAll | Cost$ R T SubCounter<2/STAIN> | ValidTgts$ Opponent | NumDmg$ 2 | ValidCards$ Creature | ValidDescription$ each creature target opponent controls | SpellDescription$ ~ deals 2 damage to each creature target opponent controls.
@@ -43,4 +52,4 @@ A:AB$ DealDamage | Cost$ T SubCounter<4/STAIN> | TargetMin$ 0 | TargetMax$ 4 | V
         - Red: The Wildfire ability
         - Green/White: The Tree of Life ability
     - The Elemental Genesis "ultimate" requires no extra mana cost because getting to 4 stain counters is enough investment already.
- - This is our expected commander for our Expeditioners/Gestrals commander deck.
+ - 26/12/2025: Figured out a way to implement a max 4 stain counter limit to match her video game counterpart.
