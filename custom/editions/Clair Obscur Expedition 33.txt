@@ -86,243 +86,250 @@ Type=Custom
 105 C Esquie's Magic Mushrooms @
 106 R Esquie's Nest @Sandfall Interactive
 107 C Esquie's Rescue @Sandfall Interactive
-108 R Estelle, Lumière Sculptor @
-109 C Eternal Ice @Sandfall Interactive
-110 R Évêque @
-111 U Expedition 00 Tracker @Sandfall Interactive
-112 C Expedition 32 Trainees @
-113 U Expedition 34 Mage @Sandfall Interactive
-114 U Expedition 35 Bridge @Sandfall Interactive
-115 C Expedition 40 Glider @Sandfall Interactive
-116 U Expedition 41 @Sandfall Interactive
-117 R Expedition 43 Submersible @Sandfall Interactive
-118 C Expedition 47 Drunkard @
-119 U Expedition 49 @Sandfall Interactive
-120 C Expedition 49 Healer @Sandfall Interactive
-121 R Expedition 50 Ferris Wheel @Sandfall Interactive
-122 C Expedition 53 Herbalist @Sandfall Interactive
-123 C Expedition 54 Dissident @
-124 U Expedition 55 Drummer @Sandfall Interactive
-125 U Expedition 55 Trumpeter @Sandfall Interactive
-126 C Expedition 57 Siege Engine @
-127 C Expedition 57 Siege Engineer @
-128 U Expedition 59 @Sandfall Interactive
-129 U Expedition 59 Chef @Sandfall Interactive
-130 U Expedition 60 @Sandfall Interactive
-131 C Expedition 60 Messenger @
-132 U Expedition 62 Hunter @Sandfall Interactive
-133 C Expedition 63 Driver @Sandfall Interactive
-134 U Expedition 64 Radio @Sandfall Interactive
-135 U Expedition 67 Blastminer @
-136 U Expedition 67 Demolitions Expert @Sandfall Interactive
-137 C Expedition 68 Navigator @
-138 U Expedition 69 @Sandfall Interactive
-139 C Expedition 69 Explorer @Sandfall Interactive
-140 C Expedition 69 Mountaineer @Sandfall Interactive
-141 C Expedition 69 Surveyor @Sandfall Interactive
-142 R Expedition 70 @Sandfall Interactive
-143 R Expedition 78 @Sandfall Interactive
-144 U Expedition 78 Airship @Sandfall Interactive
-145 U Expedition 81 Interpreter @Sandfall Interactive
-146 C Expedition Cache @Sandfall Interactive
-147 R Expedition Camp @Sandfall Interactive
-148 C Expedition Festival @
-149 U Expedition Flag @
-150 U Expedition Flotilla @
-151 U Expedition Journal @
-153 U Expedition Recruiter @Sandfall Interactive
-154 C Expeditioner Uniform @
-162 C Finesse // Grace @Sandfall Interactive
-164 R Florian, Lumière Doomsayer @
-165 U Florrie @Sandfall Interactive
-166 R Flying Casino @Sandfall Interactive
-167 U Flying Waters @Sandfall Interactive
-168 U For Those Who Come After @Sandfall Interactive
-169 C Forest @Alayna Danner
-170 R Forgotten Battlefield @Sandfall Interactive
-171 C Fortune's Fury @Sandfall Interactive
-173 R François, Waiting for Clea @Sandfall Interactive
-175 U Full Deck @
-176 U Gargant @
-177 C Gault @Sandfall Interactive
-178 R Gestral Arena @Sandfall Interactive
-179 U Gestral Ascension Challenge @Sandfall Interactive
-180 C Gestral Bazaar @
-181 C Gestral Beach @Sandfall Interactive
-182 C Gestral Bodyguard @
-183 U Gestral Climbing Challenge @Sandfall Interactive
-184 C Gestral Doctor @
-185 U Gestral Elder @Sandfall Interactive
-187 R Gestral Fighter @Sandfall Interactive
-188 U Gestral Foot Race Challenge @Sandfall Interactive
-189 U Gestral Kid @Sandfall Interactive
-190 U Gestral Merchant @Sandfall Interactive
-191 U Gestral Parkour Challenge @Sandfall Interactive
-192 C Gestral Pot @Sandfall Interactive
-193 U Gestral Raft Volleyball Challenge @Sandfall Interactive
-194 U Gestral Ringleader @Sandfall Interactive
-195 R Gestral Village @Sandfall Interactive
-196 C Gestral Villager @Sandfall Interactive
-197 U Gestral Volleyball Strike @Sandfall Interactive
-198 C Gestral Warrior @Sandfall Interactive
-199 U Gestral Worker @Sandfall Interactive
-200 U Get Out Of My Way! @Sandfall Interactive
-201 R Giant Sapling @
-202 U Glass Cannon Picto @Sandfall Interactive
-203 R Goblu @Sandfall Interactive
-204 M Golgra, Gestral Chef @Sandfall Interactive
-205 M Gommage @Sandfall Interactive
-206 U Gradient Charge @Sandfall Interactive
-207 C Gradient Counter @Sandfall Interactive
-208 R Grandis Fashionist @
-209 U Grandis Merchant @
-210 U Greatsword Cultist @
-211 R Grosse Tête @Sandfall Interactive
-213 R Gustave, Lumière Engineer @Sandfall Interactive
-214 U Gustave's Ingenuity @Sandfall Interactive
-215 U Gustave's Insight @Sandfall Interactive
-216 R Gustave's Journal @Sandfall Interactive
-217 C Healing Light @Sandfall Interactive
-218 U Healing Tint @Sandfall Interactive
-219 C Here's Your Card! @Sandfall Interactive
-220 U Hexga @
-221 U Hiding the Canvas @
-222 C Ice Lance @Sandfall Interactive
-223 C Island @Eddie Mendoza
-224 C Jar @
-225 R Julien Tiny Head @Sandfall Interactive
-226 R Lampmaster @Sandfall Interactive
-227 C Lancelier @Sandfall Interactive
-228 R Last Stand of Expedition 33 @
-229 R Leave this Canvas! @Sandfall Interactive
-230 U Letter from Alicia @
-231 C Light the Path @
-232 U Lightning Dance @Sandfall Interactive
-233 U Limonsol, Matchmaker @Sandfall Interactive
-234 R Lorieniso, Gestral Musician @Sandfall Interactive
-235 C Lost // Found @Sandfall Interactive
-236 C Lost Gestral @Sandfall Interactive
-238 R Lumière Aquafarm @Sandfall Interactive
-239 U Lumière Assault @
-240 U Lumière Flower Stand @
-242 R Lumière Opera House @Sandfall Interactive
-243 C Lumière Trashcan @
-244 R Lumière, The Last Bastion @Sandfall Interactive
-245 U Lumierian Apprentice @Sandfall Interactive
-246 U Lumina Converter @Sandfall Interactive
-247 R Lune, Charting a Path @
-248 U Lune's Curiosity @Sandfall Interactive
-249 C Lune's Denial @Sandfall Interactive
-250 C Luster @Sandfall Interactive
-251 M Maelle, Child of Lumière @Sandfall Interactive
-252 U Maelle's Nightmare @Sandfall Interactive
-254 C Manor Door @Sandfall Interactive
-255 R Manor Entrance // Manor Hidden Room @Sandfall Interactive
-256 U Manor Fire @Sandfall Interactive
-257 C Manor Gardens @Sandfall Interactive
-258 U Manor Greenhouse // Manor Gallery @Sandfall Interactive
-259 U Manor Kitchen // Manor Cellar @Sandfall Interactive
-260 U Manor Library // Manor Fireplace @Sandfall Interactive
-261 U Marked! @
-262 R Mask Keeper @Sandfall Interactive
-264 U Massacre at Dark Shores @Sandfall Interactive
-265 R Matthieu the Colossus @Sandfall Interactive
-266 U Mime @
-268 C Momentary Revelation @
-269 R Monoco, Collector of Feet @Sandfall Interactive
-270 U Monoco's Station @Sandfall Interactive
-272 C Mountain @Sam Burley
-273 C Mutinous Expedition 48 Soldier @Sandfall Interactive
-274 C Nevron Disguise @Sandfall Interactive
-275 R Nevron Pecking Order @Sandfall Interactive
-276 U Nicolas, Seeking Inspiration @Sandfall Interactive
-277 U Noco, The Greatest Merchant @
-278 U Noir @Sandfall Interactive
-279 U Obscur @Sandfall Interactive
-280 R Ono-Puncho @
-281 U Ophelie, Lumière Florist @Sandfall Interactive
-282 C Orphelin @
-284 U Paint Spike @
-285 R Painted Alicia, Eternally Suffering @Sandfall Interactive
-287 R Painted Clea, the Mistress @Sandfall Interactive
-288 R Painted Renoir, Aline's Enforcer @
-289 U Painting Workshop @
-293 U Pelerin @
-294 C Perfect Dodge @
-295 U Persuasive Argument @
-296 U Pétank @Sandfall Interactive
-297 C Piercing Strike @Sandfall Interactive
-299 C Plains @John Avon
-300 C Portier @
-301 U Potier @Sandfall Interactive
-305 U Rally the Expeditioners @Sandfall Interactive
-306 C Ramasseur @Sandfall Interactive
-307 U Ranger Sakapatate @Sandfall Interactive
-308 C Reaper Cultist @Sandfall Interactive
-309 C Recoat @Sandfall Interactive
-310 U Renoir's Creation @
-311 R Renoir's Drafts @
-312 M Renoir's Will @Sandfall Interactive
-313 U Repaint @Sandfall Interactive
-314 U Revitalization @Sandfall Interactive
-315 U Revive Tint @Sandfall Interactive
-316 C Rip Apart Reality @Sandfall Interactive
-317 U Robust Sakapatate @Sandfall Interactive
-318 C Rocher @Sandfall Interactive
-319 C Rock Throw @
-320 U Rush Picto @Sandfall Interactive
-321 R Sastro, Gestral Guardian @Sandfall Interactive
-322 R Sciel, Grieving for Many @Sandfall Interactive
-323 U Sciel's Intervention @Sandfall Interactive
-324 C Seal of Approval @
-325 C Search // Rescue @Sandfall Interactive
-327 R Serpenphare @Sandfall Interactive
-328 R Shot Picto @Sandfall Interactive
-329 U Shrine to The Paintress @
-330 M Simon, Consort of Clea @Sandfall Interactive
-332 R Sirène's Coliseum @Sandfall Interactive
-333 R Sky Break @Sandfall Interactive
-335 U Soarrie @Sandfall Interactive
-338 R Sprong @
-339 U Stalact @
-340 R Stendhal @
-344 U Sunniso, Gestral Bouncer @
-345 U Surcease @
-346 C Swamp @Sean Vo
-347 C Swift Counter @Sandfall Interactive
-359 C Tall Gestral @
-361 R Terraquake @Sandfall Interactive
-362 M The 67th Gommage @Sandfall Interactive
-363 M The Curator @Sandfall Interactive
-364 M The Fate of the Canvas @
-365 R The Fracture @Sandfall Interactive
-366 R The Greatest Expedition in History @Sandfall Interactive
-367 R The Hauler @Sandfall Interactive
-370 M The Monolith @Sandfall Interactive
-371 R The Monolith Interior @Sandfall Interactive
-372 M The Paintress @Sandfall Interactive
-373 R The Reacher @
-374 M The Sacred River @Sandfall Interactive
-375 R The Scavenger @Sandfall Interactive
-376 U The Search for Esquie's Rocks @Sandfall Interactive
-377 M The World Canvas @Sandfall Interactive
-378 U Thermal Transfer @Sandfall Interactive
-380 C Thunderfall @
-381 U Tomorrow Comes @Sandfall Interactive
-382 C Torture // Nurture @Sandfall Interactive
-383 U Troubador @Sandfall Interactive
-384 U Twilight Quarry @Sandfall Interactive
-385 U Twisted Lumière Citizen @Sandfall Interactive
-386 R Ultimate Sakapatate @Sandfall Interactive
-387 U Urrie @Sandfall Interactive
-388 R Verisimilitude @Sandfall Interactive
-389 R Verso, Who Guards Truth With Lies @
-391 U Vicarious Envy @
-392 R Visages @Sandfall Interactive
-393 U Void Meteors @Sandfall Interactive
-395 C Volester @Sandfall Interactive
-396 U Whee // Whoo @Sandfall Interactive
-397 R When One Falls // We Continue @Sandfall Interactive
+108 U Esquie's Wine Compartment @
+109 R Estelle, Lumière Sculptor @
+110 C Eternal Ice @Sandfall Interactive
+111 R Évêque @
+112 U Expedition 00 Tracker @Sandfall Interactive
+113 C Expedition 32 Trainees @
+114 U Expedition 34 Mage @Sandfall Interactive
+115 U Expedition 35 Bridge @Sandfall Interactive
+116 C Expedition 40 Glider @Sandfall Interactive
+117 U Expedition 41 @Sandfall Interactive
+118 R Expedition 43 Submersible @Sandfall Interactive
+119 C Expedition 47 Drunkard @
+120 U Expedition 49 @Sandfall Interactive
+121 C Expedition 49 Healer @Sandfall Interactive
+122 R Expedition 50 Ferris Wheel @Sandfall Interactive
+123 C Expedition 53 Herbalist @Sandfall Interactive
+124 C Expedition 54 Dissident @
+125 U Expedition 55 Drummer @Sandfall Interactive
+126 U Expedition 55 Trumpeter @Sandfall Interactive
+127 C Expedition 57 Siege Engine @
+128 C Expedition 57 Siege Engineer @
+129 U Expedition 59 @Sandfall Interactive
+130 U Expedition 59 Chef @Sandfall Interactive
+131 U Expedition 60 @Sandfall Interactive
+132 C Expedition 60 Messenger @
+133 U Expedition 62 Hunter @Sandfall Interactive
+134 C Expedition 63 Driver @Sandfall Interactive
+135 U Expedition 64 Radio @Sandfall Interactive
+136 U Expedition 67 Blastminer @
+137 U Expedition 67 Demolitions Expert @Sandfall Interactive
+138 C Expedition 68 Navigator @
+139 U Expedition 69 @Sandfall Interactive
+140 C Expedition 69 Explorer @Sandfall Interactive
+141 C Expedition 69 Mountaineer @Sandfall Interactive
+142 C Expedition 69 Surveyor @Sandfall Interactive
+143 R Expedition 70 @Sandfall Interactive
+144 R Expedition 78 @Sandfall Interactive
+145 U Expedition 78 Airship @Sandfall Interactive
+146 U Expedition 81 Interpreter @Sandfall Interactive
+147 C Expedition Cache @Sandfall Interactive
+148 R Expedition Camp @Sandfall Interactive
+149 C Expedition Festival @
+150 U Expedition Flag @
+151 U Expedition Flotilla @
+152 U Expedition Journal @
+154 U Expedition Recruiter @Sandfall Interactive
+155 C Expeditioner Uniform @
+163 C Finesse // Grace @Sandfall Interactive
+165 R Florian, Lumière Doomsayer @
+166 U Florrie @Sandfall Interactive
+167 R Flying Casino @Sandfall Interactive
+168 U Flying Waters @Sandfall Interactive
+169 U For Those Who Come After @Sandfall Interactive
+170 C Forest @Alayna Danner
+171 R Forgotten Battlefield @Sandfall Interactive
+172 C Fortune's Fury @Sandfall Interactive
+174 R François, Waiting for Clea @Sandfall Interactive
+176 U Full Deck @
+177 U Gargant @
+178 C Gault @Sandfall Interactive
+179 R Gestral Arena @Sandfall Interactive
+180 U Gestral Ascension Challenge @Sandfall Interactive
+181 C Gestral Bazaar @
+182 C Gestral Beach @Sandfall Interactive
+183 C Gestral Bodyguard @
+184 U Gestral Climbing Challenge @Sandfall Interactive
+185 C Gestral Doctor @
+186 U Gestral Elder @Sandfall Interactive
+188 R Gestral Fighter @Sandfall Interactive
+189 U Gestral Foot Race Challenge @Sandfall Interactive
+190 U Gestral Kid @Sandfall Interactive
+191 U Gestral Merchant @Sandfall Interactive
+192 U Gestral Parkour Challenge @Sandfall Interactive
+193 C Gestral Pot @Sandfall Interactive
+194 U Gestral Raft Volleyball Challenge @Sandfall Interactive
+195 U Gestral Ringleader @Sandfall Interactive
+196 R Gestral Village @Sandfall Interactive
+197 C Gestral Villager @Sandfall Interactive
+198 U Gestral Volleyball Strike @Sandfall Interactive
+199 C Gestral Warrior @Sandfall Interactive
+200 U Gestral Worker @Sandfall Interactive
+201 U Get Out Of My Way! @Sandfall Interactive
+202 R Giant Sapling @
+203 U Glaise @
+204 U Glass Cannon Picto @Sandfall Interactive
+205 R Glissando @
+206 R Goblu @Sandfall Interactive
+207 M Golgra, Gestral Chef @Sandfall Interactive
+208 M Gommage @Sandfall Interactive
+209 U Gradient Charge @Sandfall Interactive
+210 C Gradient Counter @Sandfall Interactive
+211 R Grandis Fashionist @
+212 U Grandis Merchant @
+213 U Greatsword Cultist @
+214 R Grosse Tête @Sandfall Interactive
+216 R Gustave, Lumière Engineer @Sandfall Interactive
+217 U Gustave's Ingenuity @Sandfall Interactive
+218 U Gustave's Insight @Sandfall Interactive
+219 R Gustave's Journal @Sandfall Interactive
+220 C Healing Light @Sandfall Interactive
+221 U Healing Tint @Sandfall Interactive
+222 C Here's Your Card! @Sandfall Interactive
+223 U Hexga @
+224 U Hiding the Canvas @
+225 C Ice Lance @Sandfall Interactive
+226 C Island @Eddie Mendoza
+227 C Jar @
+228 R Julien Tiny Head @Sandfall Interactive
+229 R Lampmaster @Sandfall Interactive
+230 C Lancelier @Sandfall Interactive
+231 R Last Stand of Expedition 33 @
+232 R Leave this Canvas! @Sandfall Interactive
+233 U Letter from Alicia @
+234 C Light the Path @
+235 U Lightning Dance @Sandfall Interactive
+236 U Limonsol, Matchmaker @Sandfall Interactive
+237 R Lorieniso, Gestral Musician @Sandfall Interactive
+238 C Lost // Found @Sandfall Interactive
+239 C Lost Gestral @Sandfall Interactive
+241 R Lumière Aquafarm @Sandfall Interactive
+242 U Lumière Assault @
+243 U Lumière Flower Stand @
+245 R Lumière Opera House @Sandfall Interactive
+246 C Lumière Trashcan @
+247 R Lumière, The Last Bastion @Sandfall Interactive
+248 U Lumierian Apprentice @Sandfall Interactive
+249 U Lumina Converter @Sandfall Interactive
+250 R Lune, Charting a Path @
+251 U Lune's Curiosity @Sandfall Interactive
+252 C Lune's Denial @Sandfall Interactive
+253 C Luster @Sandfall Interactive
+254 M Maelle, Child of Lumière @Sandfall Interactive
+255 U Maelle's Nightmare @Sandfall Interactive
+257 C Manor Door @Sandfall Interactive
+258 R Manor Entrance // Manor Hidden Room @Sandfall Interactive
+259 U Manor Fire @Sandfall Interactive
+260 C Manor Gardens @Sandfall Interactive
+261 U Manor Greenhouse // Manor Gallery @Sandfall Interactive
+262 U Manor Kitchen // Manor Cellar @Sandfall Interactive
+263 U Manor Library // Manor Fireplace @Sandfall Interactive
+264 U Marked! @
+265 R Mask Keeper @Sandfall Interactive
+267 U Massacre at Dark Shores @Sandfall Interactive
+268 R Matthieu the Colossus @Sandfall Interactive
+269 U Mime @
+271 C Moissoneusse @
+272 C Momentary Revelation @
+273 R Monoco, Collector of Feet @Sandfall Interactive
+274 U Monoco's Station @Sandfall Interactive
+276 C Mountain @Sam Burley
+277 C Mutinous Expedition 48 Soldier @Sandfall Interactive
+278 C Nevron Disguise @Sandfall Interactive
+279 R Nevron Pecking Order @Sandfall Interactive
+280 U Nicolas, Seeking Inspiration @Sandfall Interactive
+281 U Noco, The Greatest Merchant @
+282 U Noir @Sandfall Interactive
+283 U Obscur @Sandfall Interactive
+284 R Ono-Puncho @
+285 U Ophelie, Lumière Florist @Sandfall Interactive
+286 C Orphelin @
+288 U Paint Spike @
+289 R Painted Alicia, Eternally Suffering @Sandfall Interactive
+291 R Painted Clea, the Mistress @Sandfall Interactive
+292 R Painted Renoir, Aline's Enforcer @
+293 U Painting Workshop @
+297 U Pelerin @
+298 C Perfect Dodge @
+299 U Persuasive Argument @
+300 U Pétank @Sandfall Interactive
+301 C Piercing Strike @Sandfall Interactive
+303 C Plains @John Avon
+304 C Portier @
+305 U Potier @Sandfall Interactive
+309 U Rally the Expeditioners @Sandfall Interactive
+310 C Ramasseur @Sandfall Interactive
+311 U Ranger Sakapatate @Sandfall Interactive
+312 C Reaper Cultist @Sandfall Interactive
+313 C Recoat @Sandfall Interactive
+314 U Renoir's Creation @
+315 R Renoir's Drafts @
+316 M Renoir's Will @Sandfall Interactive
+317 U Repaint @Sandfall Interactive
+318 U Revitalization @Sandfall Interactive
+319 U Revive Tint @Sandfall Interactive
+320 C Rip Apart Reality @Sandfall Interactive
+321 U Robust Sakapatate @Sandfall Interactive
+322 C Rocher @Sandfall Interactive
+323 C Rock Throw @
+324 U Rush Picto @Sandfall Interactive
+325 C Sapling @
+326 R Sastro, Gestral Guardian @Sandfall Interactive
+327 R Sciel, Grieving for Many @Sandfall Interactive
+328 U Sciel's Intervention @Sandfall Interactive
+329 C Seal of Approval @
+330 C Search // Rescue @Sandfall Interactive
+332 R Serpenphare @Sandfall Interactive
+333 R Shot Picto @Sandfall Interactive
+334 U Shrine to The Paintress @
+335 M Simon, Consort of Clea @Sandfall Interactive
+337 R Sirène, Who Plays With Wonder @
+338 R Sirène's Coliseum @Sandfall Interactive
+339 R Sky Break @Sandfall Interactive
+341 U Soarrie @Sandfall Interactive
+344 R Sprong @
+345 U Stalact @
+346 R Stendhal @
+350 U Sunniso, Gestral Bouncer @
+351 U Surcease @
+352 C Swamp @Sean Vo
+353 C Swift Counter @Sandfall Interactive
+365 C Tall Gestral @
+367 R Terraquake @Sandfall Interactive
+368 M The 67th Gommage @Sandfall Interactive
+369 M The Curator @Sandfall Interactive
+370 M The Fate of the Canvas @
+371 R The Fracture @Sandfall Interactive
+372 R The Greatest Expedition in History @Sandfall Interactive
+373 R The Hauler @Sandfall Interactive
+376 M The Monolith @Sandfall Interactive
+377 R The Monolith Interior @Sandfall Interactive
+378 M The Paintress @Sandfall Interactive
+379 R The Reacher @
+380 M The Sacred River @Sandfall Interactive
+381 R The Scavenger @Sandfall Interactive
+382 U The Search for Esquie's Rocks @Sandfall Interactive
+383 M The World Canvas @Sandfall Interactive
+384 U Thermal Transfer @Sandfall Interactive
+386 C Thunderfall @
+387 R Tisseur @
+388 U Tomorrow Comes @Sandfall Interactive
+389 C Torture // Nurture @Sandfall Interactive
+390 U Troubador @Sandfall Interactive
+391 U Twilight Quarry @Sandfall Interactive
+392 U Twisted Lumière Citizen @Sandfall Interactive
+393 R Ultimate Sakapatate @Sandfall Interactive
+394 U Urrie @Sandfall Interactive
+395 R Verisimilitude @Sandfall Interactive
+396 R Verso, Who Guards Truth With Lies @
+398 U Vicarious Envy @
+399 R Visages @Sandfall Interactive
+400 U Void Meteors @Sandfall Interactive
+402 C Volester @Sandfall Interactive
+403 U Whee // Whoo @Sandfall Interactive
+404 R When One Falls // We Continue @Sandfall Interactive
 
 12 R All Suns' Dawn @Glen Angus
 15 U Anger @Svetlin Velinov
@@ -332,28 +339,28 @@ Type=Custom
 85 C Demand Answers @
 90 C Dive Down @Magali Villeneuve
 95 U Death Pits of Rath @Sandfall Interactive ${"flavorName": "Dualliste's Lair"}
-152 C Expedition Map @Franz Vohwinkel
-155 C Explore @John Avon
-156 C Explorer's Scope @Vincent Proce
-157 R Yavimaya, Cradle of Growth @Sandfall Interactive ${"flavorName": "Falling Leaves"}
-163 U Ominous Cemetery @Sandfall Interactive ${"flavorName": "Floating Cemetery"}
-172 U Veteran Survivor @Sandfall Interactive ${"flavorName": "Fracture Survivor"}
-186 U Grand Melee @Sandfall Interactive ${"flavorName": "Gestral Fight Club"}
-241 R Rishadan Port @Sandfall Interactive ${"flavorName": "Lumière Harbor"}
-283 C Ichor Wellspring @Sandfall Interactive ${"flavorName": "Paint Cage"}
-286 C Painted Bluffs @Mark Poole
-292 U Roil's Retribution @Raymond Swanland ${"flavorName": "Payback"}
-298 C Pinnacle of Rage @
-303 C Prismatic Strands @GraftiArt
-326 C Second Thoughts @
-337 R Razorverge Thicket @Sandfall Interactive ${"flavorName": "Spring Meadows"}
-341 U Stone Quarry @Sandfall Interactive
-342 R Stormcarved Coast @ ${"flavorName": "Stone Wave Cliffs"}
-343 R Blackcleave Cliffs @Sandfall Interactive ${"flavorName": "Sunless Cliffs"}
-360 C Terminate @Lucas Graciano
-368 R The World Tree @Sandfall Interactive ${"flavorName": "The Indigo Tree"}
-390 U Treacherous Link @Sandfall Interactive ${"flavorName": "Verso's Burden"}
-399 R Copperline Gorge @Sandfall Interactive ${"flavorName": "Yellow Harvest"}
+153 C Expedition Map @Franz Vohwinkel
+156 C Explore @John Avon
+157 C Explorer's Scope @Vincent Proce
+158 R Yavimaya, Cradle of Growth @Sandfall Interactive ${"flavorName": "Falling Leaves"}
+164 U Ominous Cemetery @Sandfall Interactive ${"flavorName": "Floating Cemetery"}
+173 U Veteran Survivor @Sandfall Interactive ${"flavorName": "Fracture Survivor"}
+187 U Grand Melee @Sandfall Interactive ${"flavorName": "Gestral Fight Club"}
+244 R Rishadan Port @Sandfall Interactive ${"flavorName": "Lumière Harbor"}
+287 C Ichor Wellspring @Sandfall Interactive ${"flavorName": "Paint Cage"}
+290 C Painted Bluffs @Mark Poole
+296 U Roil's Retribution @Raymond Swanland ${"flavorName": "Payback"}
+302 C Pinnacle of Rage @
+307 C Prismatic Strands @GraftiArt
+331 C Second Thoughts @
+343 R Razorverge Thicket @Sandfall Interactive ${"flavorName": "Spring Meadows"}
+347 U Stone Quarry @Sandfall Interactive
+348 R Stormcarved Coast @ ${"flavorName": "Stone Wave Cliffs"}
+349 R Blackcleave Cliffs @Sandfall Interactive ${"flavorName": "Sunless Cliffs"}
+366 C Terminate @Lucas Graciano
+374 R The World Tree @Sandfall Interactive ${"flavorName": "The Indigo Tree"}
+397 U Treacherous Link @Sandfall Interactive ${"flavorName": "Verso's Burden"}
+406 R Copperline Gorge @Sandfall Interactive ${"flavorName": "Yellow Harvest"}
 
 
 [tokens]

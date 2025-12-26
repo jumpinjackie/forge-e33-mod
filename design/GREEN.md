@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 23/12/2025 6:33:35 pm
+> Last generated: 26/12/2025 12:26:10 pm
 
 ## Abbest
 
@@ -76,6 +76,27 @@ Maelle: I just- I just wanted to live this lifetime together. This lifetime that
 ### Notes
 
  - Commander staple.
+
+## Esquie's Wine Compartment
+
+```
+1G
+Legendary Artifact - Food
+This artifact enters with five wine counters on it.
+Remove a wine counter from this artifact: Target creature you control gets +1/-1 until end of turn. You gain 1 life.
+{2}, {T}, Sacrifice this artifact: You gain 3 life.
+---
+I stored my personal stash inside him. All excellent vintages. I don’t normally share, but I suppose tonight deserves an exception.
+- Verso
+```
+
+[card implementation](../custom/cards/e/esquies_wine_compartment.txt)
+
+### Design Notes
+
+ - In the game, after slaying the two Axons and acquiring enough Chroma for The Curator to forge the Barrier Breaker, the party congregates at camp, amazed that the possibility that they can actually now take down The Paintress. It was at this moment that Sciel reveals a terrible secret to the rest of the party: That Esquie has a hidden compartment for storing wine. Everybody (except Maelle) have some wine to celebrate the occasion.
+ - The temporary +1/-1 is my attempt to model drunkeness.
+ - Wine is technically food/nourishment, so it falls under the Food classifier and has the standard Food token ability.
 
 ## Expedition 00 Tracker
 
@@ -420,6 +441,24 @@ Have you tried throwing with your other arm instead? If you could hit the Paintr
 
  - In the game, Gustave has a penchant for throwing rocks.
  - To give green some bones in spot removal for draft/limited, this is a shock for creatures that can be upgraded in damage.
+
+## Sapling
+
+```
+1G
+Creature - Nevron
+Protection from black
+When this creature dies, target opponent creates a Lumina token. (It's an artifact with "{T}, Sacrifice this artifact: Scry 1.")
+
+2/2
+```
+
+[card implementation](../custom/cards/s/sapling.txt)
+
+### Design Notes
+
+ - In the game, Saplings can be found in Yellow Harvest and Falling Leaves.
+ - Absorbs dark attacks ergo. Protection from black.
 
 ## Shrine to The Paintress
 

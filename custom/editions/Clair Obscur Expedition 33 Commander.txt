@@ -23,36 +23,36 @@ Type=Custom
 81 R Battlefield Forge @Sandfall Interactive ${"flavorName": "Dark Gestral Arena"}
 84 R Deflecting Swat @rk post
 93 M Doubling Season @Chuck Lukacs
-158 C Farseek @Hristo D. Chukov
-159 C Feed the Swarm @Andrey Kuzinskiy
-160 U Fellwar Stone @John Avon
-161 U Final Parting @
-174 R Shivan Reef @Sandfall Interactive ${"flavorName": "Frozen Hearts"}
-212 C Growth Spiral @Seb McKinnon
-237 R Llanowar Wastes @Sandfall Interactive ${"flavorName": "Lost Woods"}
-253 M Mana Drain @Raymond Swanland
-263 U Mask of Memory @Allen Morris
-267 R Mirage Mirror @Craig J Spearing
-271 U Mortify @Nils Hamm
-290 U Patchwork Banner @Sarah Finnigan
-291 U Path to Exile @Raf Sarmento
-302 U Primal Empathy @
-304 U Putrefy @Clint Cearley
-331 R Sulfurous Springs @Sandfall Interactive ${"flavorName": "Sinister Cave"}
-334 R Yavimaya Coast @Sandfall Interactive ${"flavorName": "Sky Island"}
-336 U Sol Ring @Piotr Dura
-348 U Swords to Plowshares @Nadia Hurianova
-349 U Talisman of Conviction @Lindsey Look
-350 U Talisman of Creativity @Lindsey Look
-351 U Talisman of Curiosity @Lindsey Look
-352 U Talisman of Dominance @Mike Dringenberg
-353 U Talisman of Hierarchy @Lindsey Look
-354 U Talisman of Impulse @Mike Dringenberg
-355 U Talisman of Indulgence @Mike Dringenberg
-356 U Talisman of Progress @Mike Dringenberg
-357 U Talisman of Resilience @Lindsey Look
-358 U Talisman of Unity @Mike Dringenberg
-369 R Brushland @Sandfall Interactive ${"flavorName": "The Meadows"}
-379 C Thought Vessel @rk post
-394 R Void Rend @Justyna Dura
-398 R Adarkar Wastes @Sandfall Interactive ${"flavorName": "White Sands"}
+159 C Farseek @Hristo D. Chukov
+160 C Feed the Swarm @Andrey Kuzinskiy
+161 U Fellwar Stone @John Avon
+162 U Final Parting @
+175 R Shivan Reef @Sandfall Interactive ${"flavorName": "Frozen Hearts"}
+215 C Growth Spiral @Seb McKinnon
+240 R Llanowar Wastes @Sandfall Interactive ${"flavorName": "Lost Woods"}
+256 M Mana Drain @Raymond Swanland
+266 U Mask of Memory @Allen Morris
+270 R Mirage Mirror @Craig J Spearing
+275 U Mortify @Nils Hamm
+294 U Patchwork Banner @Sarah Finnigan
+295 U Path to Exile @Raf Sarmento
+306 U Primal Empathy @
+308 U Putrefy @Clint Cearley
+336 R Sulfurous Springs @Sandfall Interactive ${"flavorName": "Sinister Cave"}
+340 R Yavimaya Coast @Sandfall Interactive ${"flavorName": "Sky Island"}
+342 U Sol Ring @Piotr Dura
+354 U Swords to Plowshares @Nadia Hurianova
+355 U Talisman of Conviction @Lindsey Look
+356 U Talisman of Creativity @Lindsey Look
+357 U Talisman of Curiosity @Lindsey Look
+358 U Talisman of Dominance @Mike Dringenberg
+359 U Talisman of Hierarchy @Lindsey Look
+360 U Talisman of Impulse @Mike Dringenberg
+361 U Talisman of Indulgence @Mike Dringenberg
+362 U Talisman of Progress @Mike Dringenberg
+363 U Talisman of Resilience @Lindsey Look
+364 U Talisman of Unity @Mike Dringenberg
+375 R Brushland @Sandfall Interactive ${"flavorName": "The Meadows"}
+385 C Thought Vessel @rk post
+401 R Void Rend @Justyna Dura
+405 R Adarkar Wastes @Sandfall Interactive ${"flavorName": "White Sands"}

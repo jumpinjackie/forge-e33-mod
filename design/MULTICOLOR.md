@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 25/12/2025 11:59:14 pm
+> Last generated: 26/12/2025 1:32:26 pm
 
 ## A Storm is Coming
 
@@ -1059,6 +1059,42 @@ Exhaust — Remove three crush counters from Giant Sapling: Giant Sapling deals 
  - Unfortunately, countdown via counters is hard because there is no precedent for a triggered ability on the removal of the last counter that is not a terminal ability (ie. The permanent sticks around afterwards). So it looks like my original intent of crushing on the last counter removal is not possible.
  - So I have pivoted to the crush ability being an Exhaust one, paid for with 3 counters, which you gain one every turn. So an opponent has 3 turns to deal with this creature before most of the board is wiped, flavorfully retaining the urgency of needing to dispatch this creature in the actual video game.
 
+## Glaise
+
+```
+1RG
+Creature - Nevron
+This creature enters with a shield counter.
+Pounds on the ground — {G}: This creature gains trample until end of turn.
+Exhaust — {2}{R}: This creature deals 1 damage to up to three target creatures without flying. (Activate each exhaust ability only once)
+When this creature dies, target opponent creates a Lumina token. (It's an artifact with "{T}, Sacrifice this artifact: Scry 1.")
+
+3/4
+```
+
+[card implementation](../custom/cards/g/glaise.txt)
+
+### Design Notes
+
+ - In the game, Glaises can be found in Yellow Harvest and Falling Leaves
+
+## Glissando
+
+```
+1GWU
+Legendary Creature - Nevron Wurm
+You may choose not to untap Glissando during your untap step.
+Enchants its target — {T}: Gain control of target creature for as long as you control Glissando and Glissando remains tapped.
+Summons Ballets to attack the Expedition — {T}: Create a 1/1 green Nevron creature token with flying named Ballet.
+
+2/5
+```
+
+[card implementation](../custom/cards/g/glissando.txt)
+
+### Design Notes
+
+
 ## Goblu
 
 ```
@@ -1290,6 +1326,7 @@ Fuse (You may cast one or both halves of this card from your hand.)
 ```
 WURG
 Legendary Creature - Human Expeditioner Wizard
+Lune can't have more than four stain counters on her.
 Whenever you cast an instant or sorcery spell, draw a card and put a stain counter on Lune for each of that spell's colors.
 Tree of Life — {W}{G}, {T}, Remove a stain counter from Lune: Return target nonland, noncreature card from your graveyard to your hand. You gain 3 life.
 Wildfire — {R}, {T}, Remove two stain counters from Lune: Lune deals 2 damage to each creature target opponent controls.
@@ -1315,7 +1352,7 @@ As long as even one of us stands, our fight is not over.
         - Red: The Wildfire ability
         - Green/White: The Tree of Life ability
     - The Elemental Genesis "ultimate" requires no extra mana cost because getting to 4 stain counters is enough investment already.
- - This is our expected commander for our Expeditioners/Gestrals commander deck.
+ - 26/12/2025: Figured out a way to implement a max 4 stain counter limit to match her video game counterpart.
 
 ## Maelle, Child of Lumière // Maelle, The Reawakened Paintress
 
@@ -1529,6 +1566,25 @@ Strange combo — {2}{W}, {T}: This creature deals 2 damage to target attacking 
 
  - In the game, Mimes are special enemies encountered throughout the continent. Defeating them awards special loot.
  - You would think that mimes, that mimic things would have a blue color identity (the color of illusion and mimicry), but none of its ability set map to anything blue. So it is flavorfully a boros creature.
+
+## Moissoneusse
+
+```
+UR
+Creature - Nevron
+Haste
+Applies rush to her allies — {T}: Target creature gains haste until end of turn.
+When this creature dies, target opponent creates a Lumina token. (It's an artifact with "{T}, Sacrifice this artifact: Scry 1.")
+
+2/2
+```
+
+[card implementation](../custom/cards/m/moissoneusse.txt)
+
+### Design Notes
+
+ - In the game, Moissoneusses can be found in Visages.
+ - Mapped applying rush to granting haste.
 
 ## Monoco, Collector of Feet
 
@@ -1844,6 +1900,28 @@ The Expedition is removed from the canvas — {T}, Remove a foreboding counter f
     - Mapped "The Expedition is removed from the canvas" as a mass exile effect that spares only Simon and one of opponent's creatures. This is the ability spent with the foreboding counter.
  - 13/12/2025: "Simon, The Divergent Star" is now the name of the v2.0 Simon boss in the Endless Tower with the new DLC. Not changing the name of the back half as this name had existed long before the release of this DLC.
 
+## Sirène, Who Plays With Wonder
+
+```
+4GWU
+Legendary Creature - Axon
+When Sirène enters, if you control a creature named Tisseur, put two shield counters on her.
+The Grand Ballet Begins — {5}, {T}: For each color of mana spent on this ability, create a 1/1 green Nevron creature token with flying named Ballet.
+A Widow Ballet Charms — Sacrifice four creature tokens named Ballet: Gain control of target creature.
+
+8/8
+```
+
+[card implementation](../custom/cards/s/sirène_who_plays_with_wonder.txt)
+
+### Design Notes
+
+ - In the game, Sirène is one of two Axons the party must slay in order for The Curator to be able to forge the Barrier Breaker to destroy the Monolith Barrier and gain access to The Monolith.
+ - Shield counter ETB a nod to the fact that if you did not defeat Tisseur before facing Sirène in the video game, she will start the battle with shields on her.
+ - The main gimmicks we're translating are:
+    - Summoning Ballets to do her bidding
+    - Charming (ie. Creature control)
+
 ## Sprong
 
 ```
@@ -2045,6 +2123,31 @@ Sacrifice a Nevron: Add two mana of any one color.
 
  - In the game, Scavenger is a boss in the Falling Leaves.
  - We are deviating from any thematic mapping and 100% leaning in solely on the name to provide an all-round value engine for Nevrons.
+
+## Tisseur
+
+```
+3BG
+Legendary Artifact Creature - Nevron Construct
+Reach, first strike
+At the beginning of each player’s upkeep, that player sacrifices a creature they control with a cursed counter on it.
+{4}, {T}: Put a cursed counter on target creature.
+---
+Maelle: What’s that?
+Verso: The tisseur, it works for Sirène.
+Lune: So he creates all of that for her.
+
+4/5
+```
+
+[card implementation](../custom/cards/t/tisseur.txt)
+
+### Design Notes
+
+ - In the game, Tisseur is an optional boss in Sirène's Coliseum. Defeating it will make the upcoming boss fight against Sirène much easier.
+ - Made it an artifact creature as it clearly has artificial instead of organic nature. It looks like a thread spindle with a head and arms attached to it. Nothing organic about that!
+ - Has reach as I view Tisseur weaving fabric the same way a spider (a classic creature that always has reach) weaves webs.
+ - Main gimmick I'm translating is its cursing ability which I'm translating it to putting "you are getting sacced next upkeep" counters on creatures.
 
 ## Tomorrow Comes
 
