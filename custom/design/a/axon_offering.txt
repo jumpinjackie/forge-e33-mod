@@ -1,0 +1,22 @@
+[Name]
+Axon Offering
+[ManaCost]
+B
+[Types]
+Sorcery
+[Rarity]
+C
+[Oracle]
+Each player sacrifices a creature.
+Create a Chroma token for each creature sacrificed this way.
+[FlavorText]
+Me? You want me to give it to you?
+- Maelle, to The Curator
+[ForgeScript]
+A:SP$ Sacrifice | SacValid$ Creature | RememberSacrificed$ True | Defined$ Player | SubAbility$ DBChroma | SpellDescription$ Each player sacrifices a creature. Create a Chroma token for each creature sacrificed this way.
+SVar:DBChroma:DB$ Token | TokenAmount$ X | TokenOwner$ You | TokenScript$ c_a_chroma | SubAbility$ DBCleanup
+SVar:DBCleanup:DB$ Cleanup | ClearRemembered$ True
+SVar:X:Remembered$Amount
+[DesignNotes]
+ - In the game, after slaying the first of two Axons, a cutscene plays at camp where its heart is offered by Lune to The Curator, but he insists that Maelle do the offering instead.
+ - Gone with an Innocent Blood mutual creature sac effect, but with a Chroma bonus (as a "reward" for the sacrifice)

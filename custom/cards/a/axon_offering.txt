@@ -1,0 +1,8 @@
+Name:Axon Offering
+ManaCost:B
+Types:Sorcery
+A:SP$ Sacrifice | SacValid$ Creature | RememberSacrificed$ True | Defined$ Player | SubAbility$ DBChroma | SpellDescription$ Each player sacrifices a creature. Create a Chroma token for each creature sacrificed this way.
+SVar:DBChroma:DB$ Token | TokenAmount$ X | TokenOwner$ You | TokenScript$ c_a_chroma | SubAbility$ DBCleanup
+SVar:DBCleanup:DB$ Cleanup | ClearRemembered$ True
+SVar:X:Remembered$Amount
+Oracle:Each player sacrifices a creature.\nCreate a Chroma token for each creature sacrificed this way.
