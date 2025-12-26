@@ -1,0 +1,10 @@
+Name:Sirène, Who Plays With Wonder
+ManaCost:4 G W U
+Types:Legendary Creature Axon
+PT:8/8
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | IsPresent$ Creature.YouCtrl+namedTisseur | PresentCompare$ GE1 | Execute$ TrigShield | TriggerDescription$ When CARDNAME enters, if you control a creature named Tisseur, put two shield counters on her.
+SVar:TrigShield:DB$ PutCounter | CounterType$ SHIELD | CounterNum$ 2
+A:AB$ Token | Cost$ 5 T | TokenAmount$ X | TokenOwner$ You | TokenScript$ g_1_1_ballet_nevron | SpellDescription$ For each color of mana spent on this ability, create a 1/1 green Nevron creature token with flying named Ballet.
+SVar:X:Count$ManaColorsPaid
+A:AB$ GainControl | Cost$ Sac<4/Creature.token+namedBallet Token/Creature token named Ballet> | ValidTgts$ Creature | TgtPrompt$ Select target creature | SpellDescription$ Gain control of target creature.
+Oracle:When Sirène enters, if you control a creature named Tisseur, put two shield counters on her.\nThe Grand Ballet Begins — {5}, {T}: For each color of mana spent on this ability, create a 1/1 green Nevron creature token with flying named Ballet.\nA Widow Ballet Charms — Sacrifice four creature tokens named Ballet: Gain control of target creature.

@@ -1,5 +1,7 @@
 [Name]
 Sirène, Who Plays With Wonder
+[InvariantName]
+Sirene, Who Plays With Wonder
 [ManaCost]
 4
 G

@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 26/12/2025 3:22:28 pm
+> Last generated: 26/12/2025 4:20:46 pm
 
 ## A Storm is Coming
 
@@ -1094,6 +1094,8 @@ Summons Ballets to attack the Expedition — {T}: Create a 1/1 green Nevron crea
 
 ### Design Notes
 
+ - In the game, Glissando is an optional sub-boss in Sirène's coliseum
+ - Has an appearance of a wurm, so gave it a that sub-type.
 
 ## Goblu
 
@@ -1912,7 +1914,7 @@ A Widow Ballet Charms — Sacrifice four creature tokens named Ballet: Gain cont
 8/8
 ```
 
-[card implementation](../custom/cards/s/sirène_who_plays_with_wonder.txt)
+[card implementation](../custom/cards/s/sirene_who_plays_with_wonder.txt)
 
 ### Design Notes
 
