@@ -528,6 +528,8 @@ public class TokenDefinition
 {
     public string? Name { get; set; }
 
+    public string? Filename { get; set; }
+
     public string[]? ManaCost { get; set; }
 
     public string[]? Types { get; set; }
@@ -573,6 +575,7 @@ public class TokenDefinition
     public static async Task<TokenDefinition> ReadAsync(string path)
     {
         var token = new TokenDefinition();
+        token.Filename = Path.GetFileNameWithoutExtension(path);
         using var sr = new StreamReader(path);
         string? line;
         while ((line = await sr.ReadLineAsync()) is not null)
@@ -1928,7 +1931,7 @@ public class GenAllCommand : BaseCommand
             {
                 foreach (var token in tokens)
                 {
-                    var imgPath = Path.Combine(tokensPicsDir, token.Key + ".jpg");
+                    var imgPath = Path.Combine(tokensPicsDir, token.Value.Filename + ".jpg");
                     if (File.Exists(imgPath))
                         tokenImages.Add((imgPath, token.Value.Name ?? "", "TOKENS"));
                 }
