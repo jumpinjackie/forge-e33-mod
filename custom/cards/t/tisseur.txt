@@ -1,0 +1,10 @@
+Name:Tisseur
+ManaCost:3 B G
+Types:Legendary Artifact Creature Nevron Construct
+PT:4/5
+K:Reach
+K:First strike
+T:Mode$ Phase | Phase$ Upkeep | ValidPlayer$ Player | TriggerZones$ Battlefield | Execute$ TrigSacrifice | TriggerDescription$ At the beginning of each player’s upkeep, that player sacrifices a creature they control with a cursed counter on it.
+SVar:TrigSacrifice:DB$ Sacrifice | Defined$ TriggeredPlayer | Amount$ 1 | SacValid$ Creature.counters_GE1_CURSED | SacMessage$ Creature with a cursed counter on it.
+A:AB$ PutCounter | Cost$ 4 T | ValidTgts$ Creature | CounterType$ CURSED | CounterNum$ 1 | Put a cursed counter on target creature.
+Oracle:Reach, first strike\nAt the beginning of each player’s upkeep, that player sacrifices a creature they control with a cursed counter on it.\n{4}, {T}: Put a cursed counter on target creature.

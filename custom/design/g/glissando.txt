@@ -1,0 +1,27 @@
+[Name]
+Glissando
+[ManaCost]
+1
+G
+W
+U
+[Types]
+Legendary
+Creature
+Nevron
+Wurm
+[Rarity]
+R
+[PT]
+2/5
+[Oracle]
+You may choose not to untap Glissando during your untap step.
+Enchants its target — {T}: Gain control of target creature for as long as you control Glissando and Glissando remains tapped.
+Summons Ballets to attack the Expedition — {T}: Create a 1/1 green Nevron creature token with flying named Ballet.
+[AbilityWords]
+Enchants its target
+Summons Ballets to attack the Expedition
+[ForgeScript]
+K:You may choose not to untap ~ during your untap step.
+A:AB$ GainControl | Cost$ T | ValidTgts$ Creature | TgtPrompt$ Select target creature | LoseControl$ Untap,LeavesPlay,LoseControl | SpellDescription$ Gain control of target creature for as long as you control ~ and ~ remains tapped.
+A:AB$ Token | Cost$ T | TokenAmount$ 1 | TokenOwner$ You | TokenScript$ g_1_1_ballet_nevron | SpellDescription$ Create a 1/1 green Nevron creature token with flying named Ballet.
