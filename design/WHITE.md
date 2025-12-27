@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 24/12/2025 5:29:33 am
+> Last generated: 27/12/2025 4:24:42 pm
 
 ## A Life to Love (Farewell)
 
@@ -17,7 +17,7 @@
 Creature - Incarnation
 This creature enters with a shield counter on it.
 Any damage dealt to you is dealt to this creature instead.
-{2}{W}: Put a shield counter on this creature.
+{2}{W}, {T}: Put a shield counter on this creature.
 ---
 I'm FINE. I've lived 33 good years. Look around. We've had our whole lives to prepare. We'll be fine.
 - Sophie
@@ -31,6 +31,7 @@ I'm FINE. I've lived 33 good years. Look around. We've had our whole lives to pr
 
  - No in-game basis, but Grief is such a central theme of Expedition 33 that having a cycle dedicated to the 5 stages is a total flavor nuke.
  - I'm taking the word Acceptance literally (or is it figuratively?) and gone with a creature that "accepts" all damage that would've gone your way.
+ - 28/12/2025: Made shield counter ability require a tap in its activation cost.
 
 ## Alicia's Birthday Party
 
