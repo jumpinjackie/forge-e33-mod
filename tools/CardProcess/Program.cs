@@ -1926,15 +1926,27 @@ public class GenAllCommand : BaseCommand
             var cmdrCardsPicsDir = Path.Combine(picsBase, "cards", "E3C");
             var tokensPicsDir = Path.Combine(picsBase, "tokens", "E33");
 
-            var tokenImages = new List<(string path, string name, string bucket)>();
+            var tokenImages = new List<(string path, string name, string bucket, string? nicknameFor)>();
             if (Directory.Exists(tokensPicsDir))
             {
                 foreach (var token in tokens)
                 {
                     var imgPath = Path.Combine(tokensPicsDir, token.Value.Filename + ".jpg");
                     if (File.Exists(imgPath))
-                        tokenImages.Add((imgPath, token.Value.Name ?? "", "TOKENS"));
+                        tokenImages.Add((imgPath, token.Value.Name ?? "", "TOKENS", null));
                 }
+
+                // Special case for tokens without script files
+                var specialTokens = new[] { ("c_a_food_sac.jpg", "Food Token"), ("c_a_clue_draw.jpg", "Clue Token") };
+                foreach (var (filename, name) in specialTokens)
+                {
+                    var imgPath = Path.Combine(tokensPicsDir, filename);
+                    if (File.Exists(imgPath))
+                        tokenImages.Add((imgPath, name, "TOKENS", null));
+                }
+
+                // Sort tokens alphabetically by name
+                tokenImages = tokenImages.OrderBy(t => t.name).ToList();
             }
 
             var spoilerPath = Path.Combine(outputDir.FullName, "SPOILER.md");
@@ -1946,7 +1958,7 @@ public class GenAllCommand : BaseCommand
                 {
                     var totalCards = 0;
                     var totalCardsWithImages = 0;
-                    var baseImages = new List<(string path, string name, string bucket)>();
+                    var baseImages = new List<(string path, string name, string bucket, string? nicknameFor)>();
                     foreach (var (bucket, imageList, cardsWithImagesTotal, cardsTotal) in GenerateImageLists(false))
                     {
                         //spoilerWriter.WriteLine("## " + bucket);
@@ -1965,7 +1977,7 @@ public class GenAllCommand : BaseCommand
                 {
                     var totalCards = 0;
                     var totalCardsWithImages = 0;
-                    var cmdrImages = new List<(string path, string name, string bucket)>();
+                    var cmdrImages = new List<(string path, string name, string bucket, string? nicknameFor)>();
                     foreach (var (bucket, imageList, cardsWithImagesTotal, cardsTotal) in GenerateImageLists(true))
                     {
                         //spoilerWriter.WriteLine("## " + bucket);
@@ -1979,7 +1991,7 @@ public class GenAllCommand : BaseCommand
                 }
             }
 
-            IEnumerable<(string bucket, List<(string path, string name, string bucket)> images, int cardsWithImagesTotal, int cardsTotal)> GenerateImageLists(bool isCommander)
+            IEnumerable<(string bucket, List<(string path, string name, string bucket, string? nicknameFor)> images, int cardsWithImagesTotal, int cardsTotal)> GenerateImageLists(bool isCommander)
             {
                 var picsDir = isCommander ? cmdrCardsPicsDir : baseCardsPicsDir;
                 var baseGroups = cards.Where(c => c.Value.IsCommander == isCommander).GroupBy(c => c.Value.Bucket).ToList();
@@ -1991,7 +2003,7 @@ public class GenAllCommand : BaseCommand
                     {
                         var cardsWithImagesTotal = 0;
                         var cardsTotal = 0;
-                        var images = new List<(string path, string name, string bucket)>();
+                        var images = new List<(string path, string name, string bucket, string? nicknameFor)>();
                         var orderedGroup = bucket == "LANDS" ? (IEnumerable<KeyValuePair<string, CardMasterDesign>>)group.OrderBy(c => IsBasicLand(c.Value.Name) ? 1 : 0).ThenBy(c => c.Key) : group;
                         foreach (var (name, card) in orderedGroup)
                         {
@@ -2001,7 +2013,7 @@ public class GenAllCommand : BaseCommand
                             {
                                 var imgPath = Path.Combine(picsDir, imgName);
                                 if (File.Exists(imgPath))
-                                    images.Add((imgPath, card.Name, bucket));
+                                    images.Add((imgPath, card.Name, bucket, card.NicknameFor));
                                 else
                                     complete = false;
                             }
@@ -2015,7 +2027,7 @@ public class GenAllCommand : BaseCommand
                 bool IsBasicLand(string name) => name is "Forest" or "Island" or "Mountain" or "Plains" or "Swamp";
             }
 
-            static void WriteSpoilerTable(StreamWriter spoilerWriter, List<(string path, string name, string bucket)> images, DirectoryInfo outputDir, bool linkifyCaptions)
+            static void WriteSpoilerTable(StreamWriter spoilerWriter, List<(string path, string name, string bucket, string? nicknameFor)> images, DirectoryInfo outputDir, bool linkifyCaptions)
             {
                 const int COLUMNS = 3;
 
@@ -2032,7 +2044,7 @@ public class GenAllCommand : BaseCommand
                         var idx = i + c;
                         if (idx < images.Count)
                         {
-                            var (abs, name, bucket) = images[idx];
+                            var (abs, name, bucket, nicknameFor) = images[idx];
                             var rel = Path.GetRelativePath(outputDir.FullName, abs).Replace("\\", "/");
                             // Percent-encode each path segment so spaces and special chars work in Markdown image URLs
                             var encodedRel = string.Join("/", rel.Split('/').Select(seg => System.Uri.EscapeDataString(seg)));
@@ -2042,8 +2054,10 @@ public class GenAllCommand : BaseCommand
                             if (linkifyCaptions && !string.IsNullOrEmpty(bucket) && bucket != "TOKENS" && !IsBasicLand(name))
                             {
                                 // Create a markdown link to the card's documentation
-                                var anchor = CreateMarkdownAnchor(name);
-                                captionRow[c] = $"<center>[{name}]({bucket}.md#{anchor})</center>";
+                                var anchorName = nicknameFor != null ? $"{name} ({nicknameFor})" : name;
+                                var anchor = CreateMarkdownAnchor(anchorName);
+                                var displayName = anchorName;
+                                captionRow[c] = $"<center>[{displayName}]({bucket}.md#{anchor})</center>";
                             }
                             else
                             {
