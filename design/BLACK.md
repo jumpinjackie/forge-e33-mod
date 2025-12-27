@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 26/12/2025 3:23:38 pm
+> Last generated: 27/12/2025 3:15:17 pm
 
 ## Axon Offering
 
@@ -376,8 +376,8 @@ When this creature dies, target opponent creates a Lumina token. (It's an artifa
 ```
 2BB
 Creature - Nevron
-Trample
-Lifelink
+Devoid (This card has no color.)
+Trample, Lifelink
 This creature's power and toughness are each equal to 3 plus the number of Expeditioner creature cards in all graveyards.
 When this creature dies, target opponent creates a Lumina token. (It's an artifact with "{T}, Sacrifice this artifact: Scry 1.")
 
@@ -392,6 +392,7 @@ When this creature dies, target opponent creates a Lumina token. (It's an artifa
  - Named Renoir's Creation instead of Creation to reduce the possbility of name-squatting by real cards in the future.
  - The variable P/T is a nod to the creature's design in the video game. It is *literally* composed of Expeditioner corpses so it makes logical sense to have P/T based off of Expeditioner creature cards across all graveyards.
  - This should have Devoid (because its attacks deal void damage), but the Devoid frame in CardConjurer is transparent, requiring the art for this to be in portrait orientation where the subject is predominantly in the top-half. No such depiction can be sourced as all the possible candidates are in landscape. If we can source a depiction of this Nevron in portrait with the required constraints, then we'll add in Devoid.
+ - 28/12/2025: Now has Devoid (thanks photo mode for letting me get a portrait-sized snap!)
 
 ## Renoir's Will
 
