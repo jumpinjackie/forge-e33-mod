@@ -16,7 +16,7 @@ Sandfall Interactive
 [Oracle]
 ~ enters with a shield counter on it.
 Any damage dealt to you is dealt to ~ instead.
-{2}{W}: Put a shield counter on ~.
+{2}{W}, {T}: Put a shield counter on ~.
 [FlavorText]
 I'm FINE. I've lived 33 good years. Look around. We've had our whole lives to prepare. We'll be fine.
 - Sophie
@@ -24,7 +24,8 @@ I'm FINE. I've lived 33 good years. Look around. We've had our whole lives to pr
 K:etbCounter:SHIELD:1
 R:Event$ DamageDone | ActiveZones$ Battlefield | ValidSource$ Any | ValidTarget$ You | ReplaceWith$ DmgSelf | DamageTarget$ Self | Description$ Any damage dealt to you is dealt to ~ instead.
 SVar:DmgSelf:DB$ ReplaceEffect | VarName$ Affected | VarValue$ Self | VarType$ Card
-A:AB$ PutCounter | Cost$ 2 W | CounterType$ SHIELD | CounterNum$ 1 | SpellDescription$ Put a shield counter on ~.
+A:AB$ PutCounter | Cost$ 2 W T | CounterType$ SHIELD | CounterNum$ 1 | SpellDescription$ Put a shield counter on ~.
 [DesignNotes]
  - No in-game basis, but Grief is such a central theme of Expedition 33 that having a cycle dedicated to the 5 stages is a total flavor nuke.
  - I'm taking the word Acceptance literally (or is it figuratively?) and gone with a creature that "accepts" all damage that would've gone your way.
+ - 28/12/2025: Made shield counter ability require a tap in its activation cost.
