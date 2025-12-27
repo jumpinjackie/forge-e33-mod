@@ -18,7 +18,7 @@
 | ![](../custom/pics/cards/E33/Healing%20Light.full.jpg) | ![](../custom/pics/cards/E33/Light%20the%20Path.full.jpg) | ![](../custom/pics/cards/E33/Lumiere%20Assault.full.jpg) |
 | <center>[Healing Light](WHITE.md#healing-light)</center> | <center>[Light the Path](WHITE.md#light-the-path)</center> | <center>[Lumière Assault](WHITE.md#lumière-assault)</center> |
 | ![](../custom/pics/cards/E33/Lumierian%20Apprentice.full.jpg) | ![](../custom/pics/cards/E33/Payback.full.jpg) | ![](../custom/pics/cards/E33/Perfect%20Dodge.full.jpg) |
-| <center>[Lumierian Apprentice](WHITE.md#lumierian-apprentice)</center> | <center>[Payback](WHITE.md#payback)</center> | <center>[Perfect Dodge](WHITE.md#perfect-dodge)</center> |
+| <center>[Lumierian Apprentice](WHITE.md#lumierian-apprentice)</center> | <center>[Payback (Roil's Retribution)](WHITE.md#payback-roils-retribution)</center> | <center>[Perfect Dodge](WHITE.md#perfect-dodge)</center> |
 | ![](../custom/pics/cards/E33/Prismatic%20Strands.full.jpg) | ![](../custom/pics/cards/E33/Repaint.full.jpg) | ![](../custom/pics/cards/E33/Sciel%27s%20Intervention.full.jpg) |
 | <center>[Prismatic Strands](WHITE.md#prismatic-strands)</center> | <center>[Repaint](WHITE.md#repaint)</center> | <center>[Sciel's Intervention](WHITE.md#sciels-intervention)</center> |
 | ![](../custom/pics/cards/E33/Seal%20of%20Approval.full.jpg) | ![](../custom/pics/cards/E33/Second%20Thoughts.full.jpg) | ![](../custom/pics/cards/E33/The%20Fracture.full.jpg) |
@@ -50,7 +50,7 @@
 | ![](../custom/pics/cards/E33/Chapelier.full.jpg) | ![](../custom/pics/cards/E33/Clea%27s%20Chromatic%20Mastery.full.jpg) | ![](../custom/pics/cards/E33/Depression.full.jpg) |
 | <center>[Chapelier](BLACK.md#chapelier)</center> | <center>[Clea's Chromatic Mastery](BLACK.md#cleas-chromatic-mastery)</center> | <center>[Depression](BLACK.md#depression)</center> |
 | ![](../custom/pics/cards/E33/Dualliste%27s%20Lair.full.jpg) | ![](../custom/pics/cards/E33/Echassier.full.jpg) | ![](../custom/pics/cards/E33/Here%27s%20Your%20Card%21.full.jpg) |
-| <center>[Dualliste's Lair](BLACK.md#duallistes-lair)</center> | <center>[Échassier](BLACK.md#échassier)</center> | <center>[Here's Your Card!](BLACK.md#heres-your-card)</center> |
+| <center>[Dualliste's Lair (Death Pits of Rath)](BLACK.md#duallistes-lair-death-pits-of-rath)</center> | <center>[Échassier](BLACK.md#échassier)</center> | <center>[Here's Your Card!](BLACK.md#heres-your-card)</center> |
 | ![](../custom/pics/cards/E33/Maelle%27s%20Nightmare.full.jpg) | ![](../custom/pics/cards/E33/Massacre%20at%20Dark%20Shores.full.jpg) | ![](../custom/pics/cards/E33/Momentary%20Revelation.full.jpg) |
 | <center>[Maelle's Nightmare](BLACK.md#maelles-nightmare)</center> | <center>[Massacre at Dark Shores](BLACK.md#massacre-at-dark-shores)</center> | <center>[Momentary Revelation](BLACK.md#momentary-revelation)</center> |
 | ![](../custom/pics/cards/E33/Noir.full.jpg) | ![](../custom/pics/cards/E33/Obscur.full.jpg) | ![](../custom/pics/cards/E33/Painted%20Renoir%2C%20Aline%27s%20Enforcer.full.jpg) |
@@ -60,7 +60,7 @@
 | ![](../custom/pics/cards/E33/Renoir%27s%20Will.full.jpg) | ![](../custom/pics/cards/E33/Simon%27s%20Second%20Wind.full.jpg) | ![](../custom/pics/cards/E33/Surcease.full.jpg) |
 | <center>[Renoir's Will](BLACK.md#renoirs-will)</center> | <center>[Simon's Second Wind](BLACK.md#simons-second-wind)</center> | <center>[Surcease](BLACK.md#surcease)</center> |
 | ![](../custom/pics/cards/E33/The%2067th%20Gommage.full.jpg) | ![](../custom/pics/cards/E33/Twisted%20Lumiere%20Citizen.full.jpg) | ![](../custom/pics/cards/E33/Verso%27s%20Burden.full.jpg) |
-| <center>[The 67th Gommage](BLACK.md#the-67th-gommage)</center> | <center>[Twisted Lumière Citizen](BLACK.md#twisted-lumière-citizen)</center> | <center>[Verso's Burden](BLACK.md#versos-burden)</center> |
+| <center>[The 67th Gommage](BLACK.md#the-67th-gommage)</center> | <center>[Twisted Lumière Citizen](BLACK.md#twisted-lumière-citizen)</center> | <center>[Verso's Burden (Treacherous Link)](BLACK.md#versos-burden-treacherous-link)</center> |
 | ![](../custom/pics/cards/E33/Anger.full.jpg) | ![](../custom/pics/cards/E33/Catapault%20Sakapatate.full.jpg) | ![](../custom/pics/cards/E33/Chromatic%20Inversion.full.jpg) |
 | <center>[Anger](RED.md#anger)</center> | <center>[Catapault Sakapatate](RED.md#catapault-sakapatate)</center> | <center>[Chromatic Inversion](RED.md#chromatic-inversion)</center> |
 | ![](../custom/pics/cards/E33/Crustal%20Crush.full.jpg) | ![](../custom/pics/cards/E33/Demand%20Answers.full.jpg) | ![](../custom/pics/cards/E33/Earth%20Rising.full.jpg) |
@@ -68,7 +68,7 @@
 | ![](../custom/pics/cards/E33/Entering%20the%20Canvas.full.jpg) | ![](../custom/pics/cards/E33/Expedition%2057%20Siege%20Engine.full.jpg) | ![](../custom/pics/cards/E33/Fortune%27s%20Fury.full.jpg) |
 | <center>[Entering the Canvas](RED.md#entering-the-canvas)</center> | <center>[Expedition 57 Siege Engine](RED.md#expedition-57-siege-engine)</center> | <center>[Fortune's Fury](RED.md#fortunes-fury)</center> |
 | ![](../custom/pics/cards/E33/Gestral%20Bazaar.full.jpg) | ![](../custom/pics/cards/E33/Gestral%20Fight%20Club.full.jpg) | ![](../custom/pics/cards/E33/Gestral%20Volleyball%20Strike.full.jpg) |
-| <center>[Gestral Bazaar](RED.md#gestral-bazaar)</center> | <center>[Gestral Fight Club](RED.md#gestral-fight-club)</center> | <center>[Gestral Volleyball Strike](RED.md#gestral-volleyball-strike)</center> |
+| <center>[Gestral Bazaar](RED.md#gestral-bazaar)</center> | <center>[Gestral Fight Club (Grand Melee)](RED.md#gestral-fight-club-grand-melee)</center> | <center>[Gestral Volleyball Strike](RED.md#gestral-volleyball-strike)</center> |
 | ![](../custom/pics/cards/E33/Get%20Out%20Of%20My%20Way%21.full.jpg) | ![](../custom/pics/cards/E33/Grosse%20Tete.full.jpg) | ![](../custom/pics/cards/E33/Hexga.full.jpg) |
 | <center>[Get Out Of My Way!](RED.md#get-out-of-my-way)</center> | <center>[Grosse Tête](RED.md#grosse-tête)</center> | <center>[Hexga](RED.md#hexga)</center> |
 | ![](../custom/pics/cards/E33/Lightning%20Dance.full.jpg) | ![](../custom/pics/cards/E33/Marked%21.full.jpg) | ![](../custom/pics/cards/E33/Orphelin.full.jpg) |
@@ -160,7 +160,7 @@
 | ![](../custom/pics/cards/E33/Anti-Freeze%20Picto.full.jpg) | ![](../custom/pics/cards/E33/Attack%20Lifesteal%20Picto.full.jpg) | ![](../custom/pics/cards/E33/Attack%20Picto.full.jpg) |
 | <center>[Anti-Freeze Picto](ARTIFACTS.md#anti-freeze-picto)</center> | <center>[Attack Lifesteal Picto](ARTIFACTS.md#attack-lifesteal-picto)</center> | <center>[Attack Picto](ARTIFACTS.md#attack-picto)</center> |
 | ![](../custom/pics/cards/E33/Barrier%20Breaker.full.jpg) | ![](../custom/pics/cards/E33/Berrami%2C%20Collector%20of%20Journals.full.jpg) | ![](../custom/pics/cards/E33/Bertrand%20Big%20Hands.full.jpg) |
-| <center>[Barrier Breaker](ARTIFACTS.md#barrier-breaker)</center> | <center>[Berrami, Collector of Journals](ARTIFACTS.md#berrami-collector-of-journals)</center> | <center>[Bertrand Big Hands](ARTIFACTS.md#bertrand-big-hands)</center> |
+| <center>[Barrier Breaker (Blackblade Reforged)](ARTIFACTS.md#barrier-breaker-blackblade-reforged)</center> | <center>[Berrami, Collector of Journals](ARTIFACTS.md#berrami-collector-of-journals)</center> | <center>[Bertrand Big Hands](ARTIFACTS.md#bertrand-big-hands)</center> |
 | ![](../custom/pics/cards/E33/Cheater%20Picto.full.jpg) | ![](../custom/pics/cards/E33/Chroma%20Catalyst.full.jpg) | ![](../custom/pics/cards/E33/Chroma%20Filter.full.jpg) |
 | <center>[Cheater Picto](ARTIFACTS.md#cheater-picto)</center> | <center>[Chroma Catalyst](ARTIFACTS.md#chroma-catalyst)</center> | <center>[Chroma Filter](ARTIFACTS.md#chroma-filter)</center> |
 | ![](../custom/pics/cards/E33/Death%20Picto.full.jpg) | ![](../custom/pics/cards/E33/Dessendre%20Family%20Portrait.full.jpg) | ![](../custom/pics/cards/E33/Dominique%20Giant%20Feet.full.jpg) |
@@ -192,7 +192,7 @@
 | ![](../custom/pics/cards/E33/Manor%20Door.full.jpg) | ![](../custom/pics/cards/E33/Matthieu%20the%20Colossus.full.jpg) | ![](../custom/pics/cards/E33/Noco%2C%20The%20Greatest%20Merchant.full.jpg) |
 | <center>[Manor Door](ARTIFACTS.md#manor-door)</center> | <center>[Matthieu the Colossus](ARTIFACTS.md#matthieu-the-colossus)</center> | <center>[Noco, The Greatest Merchant](ARTIFACTS.md#noco-the-greatest-merchant)</center> |
 | ![](../custom/pics/cards/E33/Ono-Puncho.full.jpg) | ![](../custom/pics/cards/E33/Paint%20Cage.full.jpg) | ![](../custom/pics/cards/E33/Paint%20Spike.full.jpg) |
-| <center>[Ono-Puncho](ARTIFACTS.md#ono-puncho)</center> | <center>[Paint Cage](ARTIFACTS.md#paint-cage)</center> | <center>[Paint Spike](ARTIFACTS.md#paint-spike)</center> |
+| <center>[Ono-Puncho](ARTIFACTS.md#ono-puncho)</center> | <center>[Paint Cage (Ichor Wellspring)](ARTIFACTS.md#paint-cage-ichor-wellspring)</center> | <center>[Paint Spike](ARTIFACTS.md#paint-spike)</center> |
 | ![](../custom/pics/cards/E33/Recoat.full.jpg) | ![](../custom/pics/cards/E33/Revive%20Tint.full.jpg) | ![](../custom/pics/cards/E33/Rush%20Picto.full.jpg) |
 | <center>[Recoat](ARTIFACTS.md#recoat)</center> | <center>[Revive Tint](ARTIFACTS.md#revive-tint)</center> | <center>[Rush Picto](ARTIFACTS.md#rush-picto)</center> |
 | ![](../custom/pics/cards/E33/Sastro%2C%20Gestral%20Guardian.full.jpg) | ![](../custom/pics/cards/E33/Shot%20Picto.full.jpg) | ![](../custom/pics/cards/E33/Soarrie.full.jpg) |
@@ -204,27 +204,27 @@
 | ![](../custom/pics/cards/E33/Dark%20Shores.full.jpg) | ![](../custom/pics/cards/E33/Endless%20Tower.full.jpg) | ![](../custom/pics/cards/E33/Esquie%27s%20Nest.full.jpg) |
 | <center>[Dark Shores](LANDS.md#dark-shores)</center> | <center>[Endless Tower](LANDS.md#endless-tower)</center> | <center>[Esquie's Nest](LANDS.md#esquies-nest)</center> |
 | ![](../custom/pics/cards/E33/Expedition%20Camp.full.jpg) | ![](../custom/pics/cards/E33/Falling%20Leaves.full.jpg) | ![](../custom/pics/cards/E33/Floating%20Cemetery.full.jpg) |
-| <center>[Expedition Camp](LANDS.md#expedition-camp)</center> | <center>[Falling Leaves](LANDS.md#falling-leaves)</center> | <center>[Floating Cemetery](LANDS.md#floating-cemetery)</center> |
+| <center>[Expedition Camp](LANDS.md#expedition-camp)</center> | <center>[Falling Leaves (Yavimaya, Cradle of Growth)](LANDS.md#falling-leaves-yavimaya-cradle-of-growth)</center> | <center>[Floating Cemetery (Ominous Cemetery)](LANDS.md#floating-cemetery-ominous-cemetery)</center> |
 | ![](../custom/pics/cards/E33/Flying%20Casino.full.jpg) | ![](../custom/pics/cards/E33/Flying%20Waters.full.jpg) | ![](../custom/pics/cards/E33/Forgotten%20Battlefield.full.jpg) |
 | <center>[Flying Casino](LANDS.md#flying-casino)</center> | <center>[Flying Waters](LANDS.md#flying-waters)</center> | <center>[Forgotten Battlefield](LANDS.md#forgotten-battlefield)</center> |
 | ![](../custom/pics/cards/E33/Gestral%20Arena.full.jpg) | ![](../custom/pics/cards/E33/Gestral%20Beach.full.jpg) | ![](../custom/pics/cards/E33/Gestral%20Village.full.jpg) |
 | <center>[Gestral Arena](LANDS.md#gestral-arena)</center> | <center>[Gestral Beach](LANDS.md#gestral-beach)</center> | <center>[Gestral Village](LANDS.md#gestral-village)</center> |
 | ![](../custom/pics/cards/E33/Lumiere%20Aquafarm.full.jpg) | ![](../custom/pics/cards/E33/Lumiere%20Harbor.full.jpg) | ![](../custom/pics/cards/E33/Lumiere%20Opera%20House.full.jpg) |
-| <center>[Lumière Aquafarm](LANDS.md#lumière-aquafarm)</center> | <center>[Lumière Harbor](LANDS.md#lumière-harbor)</center> | <center>[Lumière Opera House](LANDS.md#lumière-opera-house)</center> |
+| <center>[Lumière Aquafarm](LANDS.md#lumière-aquafarm)</center> | <center>[Lumière Harbor (Rishadan Port)](LANDS.md#lumière-harbor-rishadan-port)</center> | <center>[Lumière Opera House](LANDS.md#lumière-opera-house)</center> |
 | ![](../custom/pics/cards/E33/Lumiere%2C%20The%20Last%20Bastion.full.jpg) | ![](../custom/pics/cards/E33/Manor%20Gardens.full.jpg) | ![](../custom/pics/cards/E33/Monoco%27s%20Station.full.jpg) |
 | <center>[Lumière, The Last Bastion](LANDS.md#lumière-the-last-bastion)</center> | <center>[Manor Gardens](LANDS.md#manor-gardens)</center> | <center>[Monoco's Station](LANDS.md#monocos-station)</center> |
 | ![](../custom/pics/cards/E33/Painted%20Bluffs.full.jpg) | ![](../custom/pics/cards/E33/Renoir%27s%20Drafts.full.jpg) | ![](../custom/pics/cards/E33/Sirene%27s%20Coliseum.full.jpg) |
 | <center>[Painted Bluffs](LANDS.md#painted-bluffs)</center> | <center>[Renoir's Drafts](LANDS.md#renoirs-drafts)</center> | <center>[Sirène's Coliseum](LANDS.md#sirènes-coliseum)</center> |
 | ![](../custom/pics/cards/E33/Spring%20Meadows.full.jpg) | ![](../custom/pics/cards/E33/Stone%20Quarry.full.jpg) | ![](../custom/pics/cards/E33/Stone%20Wave%20Cliffs.full.jpg) |
-| <center>[Spring Meadows](LANDS.md#spring-meadows)</center> | <center>[Stone Quarry](LANDS.md#stone-quarry)</center> | <center>[Stone Wave Cliffs](LANDS.md#stone-wave-cliffs)</center> |
+| <center>[Spring Meadows (Razorverge Thicket)](LANDS.md#spring-meadows-razorverge-thicket)</center> | <center>[Stone Quarry](LANDS.md#stone-quarry)</center> | <center>[Stone Wave Cliffs (Stormcarved Coast)](LANDS.md#stone-wave-cliffs-stormcarved-coast)</center> |
 | ![](../custom/pics/cards/E33/Sunless%20Cliffs.full.jpg) | ![](../custom/pics/cards/E33/The%20Hauler.full.jpg) | ![](../custom/pics/cards/E33/The%20Indigo%20Tree.full.jpg) |
-| <center>[Sunless Cliffs](LANDS.md#sunless-cliffs)</center> | <center>[The Hauler](LANDS.md#the-hauler)</center> | <center>[The Indigo Tree](LANDS.md#the-indigo-tree)</center> |
+| <center>[Sunless Cliffs (Blackcleave Cliffs)](LANDS.md#sunless-cliffs-blackcleave-cliffs)</center> | <center>[The Hauler](LANDS.md#the-hauler)</center> | <center>[The Indigo Tree (The World Tree)](LANDS.md#the-indigo-tree-the-world-tree)</center> |
 | ![](../custom/pics/cards/E33/The%20Monolith.full.jpg) | ![](../custom/pics/cards/E33/The%20Monolith%20Interior.full.jpg) | ![](../custom/pics/cards/E33/The%20Reacher.full.jpg) |
 | <center>[The Monolith](LANDS.md#the-monolith)</center> | <center>[The Monolith Interior](LANDS.md#the-monolith-interior)</center> | <center>[The Reacher](LANDS.md#the-reacher)</center> |
 | ![](../custom/pics/cards/E33/The%20Sacred%20River.full.jpg) | ![](../custom/pics/cards/E33/Twilight%20Quarry.full.jpg) | ![](../custom/pics/cards/E33/Visages.full.jpg) |
 | <center>[The Sacred River](LANDS.md#the-sacred-river)</center> | <center>[Twilight Quarry](LANDS.md#twilight-quarry)</center> | <center>[Visages // He Who Guards Truth With Lies](LANDS.md#visages--he-who-guards-truth-with-lies)</center> |
 | ![](../custom/pics/cards/E33/He%20Who%20Guards%20Truth%20With%20Lies.full.jpg) | ![](../custom/pics/cards/E33/Yellow%20Harvest.full.jpg) | ![](../custom/pics/cards/E33/Forest.full.jpg) |
-| <center>[Visages // He Who Guards Truth With Lies](LANDS.md#visages--he-who-guards-truth-with-lies)</center> | <center>[Yellow Harvest](LANDS.md#yellow-harvest)</center> | <center>Forest</center> |
+| <center>[Visages // He Who Guards Truth With Lies](LANDS.md#visages--he-who-guards-truth-with-lies)</center> | <center>[Yellow Harvest (Copperline Gorge)](LANDS.md#yellow-harvest-copperline-gorge)</center> | <center>Forest</center> |
 | ![](../custom/pics/cards/E33/Island.full.jpg) | ![](../custom/pics/cards/E33/Mountain.full.jpg) | ![](../custom/pics/cards/E33/Plains.full.jpg) |
 | <center>Island</center> | <center>Mountain</center> | <center>Plains</center> |
 | ![](../custom/pics/cards/E33/Swamp.full.jpg) |   |   |
@@ -232,19 +232,21 @@
 ## Tokens
 | | | |
 |---|---|---|
-| ![](../custom/pics/tokens/E33/g_1_1_abbest_nevron.jpg) | ![](../custom/pics/tokens/E33/c_a_chroma.jpg) | ![](../custom/pics/tokens/E33/b_4_4_dark_chromatic_beast.jpg) |
-| <center>Abbest Token</center> | <center>Chroma Token</center> | <center>Dark Chromatic Beast</center> |
-| ![](../custom/pics/tokens/E33/c_a_flower.jpg) | ![](../custom/pics/tokens/E33/a_1_1_gestral.jpg) | ![](../custom/pics/tokens/E33/w_1_1_human_expeditioner.jpg) |
-| <center>Flower Token</center> | <center>Gestral Token</center> | <center>Human Expeditioner Token</center> |
-| ![](../custom/pics/tokens/E33/c_a_lumina.jpg) | ![](../custom/pics/tokens/E33/b_0_0_nevron_army.jpg) | ![](../custom/pics/tokens/E33/c_1_1_nevron.jpg) |
-| <center>Lumina Token</center> | <center>Nevron Army Token</center> | <center>Nevron Token</center> |
-| ![](../custom/pics/tokens/E33/w_1_1_party_guest.jpg) | ![](../custom/pics/tokens/E33/c_1_1_pot_nevron.jpg) |   |
-| <center>Party Guest Token</center> | <center>Pot Nevron Token</center> |   |
+| ![](../custom/pics/tokens/E33/g_1_1_abbest_nevron.jpg) | ![](../custom/pics/tokens/E33/c_a_chroma.jpg) | ![](../custom/pics/tokens/E33/c_a_clue_draw.jpg) |
+| <center>Abbest Token</center> | <center>Chroma Token</center> | <center>Clue Token</center> |
+| ![](../custom/pics/tokens/E33/b_4_4_dark_chromatic_beast.jpg) | ![](../custom/pics/tokens/E33/c_a_flower.jpg) | ![](../custom/pics/tokens/E33/c_a_food_sac.jpg) |
+| <center>Dark Chromatic Beast</center> | <center>Flower Token</center> | <center>Food Token</center> |
+| ![](../custom/pics/tokens/E33/a_1_1_gestral.jpg) | ![](../custom/pics/tokens/E33/w_1_1_human_expeditioner.jpg) | ![](../custom/pics/tokens/E33/c_a_lumina.jpg) |
+| <center>Gestral Token</center> | <center>Human Expeditioner Token</center> | <center>Lumina Token</center> |
+| ![](../custom/pics/tokens/E33/b_0_0_nevron_army.jpg) | ![](../custom/pics/tokens/E33/c_1_1_nevron.jpg) | ![](../custom/pics/tokens/E33/w_1_1_party_guest.jpg) |
+| <center>Nevron Army Token</center> | <center>Nevron Token</center> | <center>Party Guest Token</center> |
+| ![](../custom/pics/tokens/E33/c_1_1_pot_nevron.jpg) |   |   |
+| <center>Pot Nevron Token</center> |   |   |
 # Clair Obscur: Expedition 33 Commander (E3C) [51/51 cards]
 | | | |
 |---|---|---|
 | ![](../custom/pics/cards/E3C/A%20Life%20to%20Love.full.jpg) | ![](../custom/pics/cards/E3C/Austere%20Command.full.jpg) | ![](../custom/pics/cards/E3C/Path%20to%20Exile.full.jpg) |
-| <center>[A Life to Love](WHITE.md#a-life-to-love)</center> | <center>[Austere Command](WHITE.md#austere-command)</center> | <center>[Path to Exile](WHITE.md#path-to-exile)</center> |
+| <center>[A Life to Love (Farewell)](WHITE.md#a-life-to-love-farewell)</center> | <center>[Austere Command](WHITE.md#austere-command)</center> | <center>[Path to Exile](WHITE.md#path-to-exile)</center> |
 | ![](../custom/pics/cards/E3C/Swords%20to%20Plowshares.full.jpg) | ![](../custom/pics/cards/E3C/Counterspell.full.jpg) | ![](../custom/pics/cards/E3C/Mana%20Drain.full.jpg) |
 | <center>[Swords to Plowshares](WHITE.md#swords-to-plowshares)</center> | <center>[Counterspell](BLUE.md#counterspell)</center> | <center>[Mana Drain](BLUE.md#mana-drain)</center> |
 | ![](../custom/pics/cards/E3C/Damn.full.jpg) | ![](../custom/pics/cards/E3C/Feed%20the%20Swarm.full.jpg) | ![](../custom/pics/cards/E3C/Final%20Parting.full.jpg) |
@@ -270,10 +272,10 @@
 | ![](../custom/pics/cards/E3C/Talisman%20of%20Progress.full.jpg) | ![](../custom/pics/cards/E3C/Talisman%20of%20Resilience.full.jpg) | ![](../custom/pics/cards/E3C/Talisman%20of%20Unity.full.jpg) |
 | <center>[Talisman of Progress](ARTIFACTS.md#talisman-of-progress)</center> | <center>[Talisman of Resilience](ARTIFACTS.md#talisman-of-resilience)</center> | <center>[Talisman of Unity](ARTIFACTS.md#talisman-of-unity)</center> |
 | ![](../custom/pics/cards/E3C/Thought%20Vessel.full.jpg) | ![](../custom/pics/cards/E3C/Blade%27s%20Graveyard.full.jpg) | ![](../custom/pics/cards/E3C/Boat%20Graveyard.full.jpg) |
-| <center>[Thought Vessel](ARTIFACTS.md#thought-vessel)</center> | <center>[Blade's Graveyard](LANDS.md#blades-graveyard)</center> | <center>[Boat Graveyard](LANDS.md#boat-graveyard)</center> |
+| <center>[Thought Vessel](ARTIFACTS.md#thought-vessel)</center> | <center>[Blade's Graveyard (Caves of Koilos)](LANDS.md#blades-graveyard-caves-of-koilos)</center> | <center>[Boat Graveyard (Underground River)](LANDS.md#boat-graveyard-underground-river)</center> |
 | ![](../custom/pics/cards/E3C/Command%20Tower.full.jpg) | ![](../custom/pics/cards/E3C/Crimson%20Forest.full.jpg) | ![](../custom/pics/cards/E3C/Dark%20Gestral%20Arena.full.jpg) |
-| <center>[Command Tower](LANDS.md#command-tower)</center> | <center>[Crimson Forest](LANDS.md#crimson-forest)</center> | <center>[Dark Gestral Arena](LANDS.md#dark-gestral-arena)</center> |
+| <center>[Command Tower](LANDS.md#command-tower)</center> | <center>[Crimson Forest (Karplusan Forest)](LANDS.md#crimson-forest-karplusan-forest)</center> | <center>[Dark Gestral Arena (Battlefield Forge)](LANDS.md#dark-gestral-arena-battlefield-forge)</center> |
 | ![](../custom/pics/cards/E3C/Frozen%20Hearts.full.jpg) | ![](../custom/pics/cards/E3C/Lost%20Woods.full.jpg) | ![](../custom/pics/cards/E3C/Sinister%20Cave.full.jpg) |
-| <center>[Frozen Hearts](LANDS.md#frozen-hearts)</center> | <center>[Lost Woods](LANDS.md#lost-woods)</center> | <center>[Sinister Cave](LANDS.md#sinister-cave)</center> |
+| <center>[Frozen Hearts (Shivan Reef)](LANDS.md#frozen-hearts-shivan-reef)</center> | <center>[Lost Woods (Llanowar Wastes)](LANDS.md#lost-woods-llanowar-wastes)</center> | <center>[Sinister Cave (Sulfurous Springs)](LANDS.md#sinister-cave-sulfurous-springs)</center> |
 | ![](../custom/pics/cards/E3C/Sky%20Island.full.jpg) | ![](../custom/pics/cards/E3C/The%20Meadows.full.jpg) | ![](../custom/pics/cards/E3C/White%20Sands.full.jpg) |
-| <center>[Sky Island](LANDS.md#sky-island)</center> | <center>[The Meadows](LANDS.md#the-meadows)</center> | <center>[White Sands](LANDS.md#white-sands)</center> |
+| <center>[Sky Island (Yavimaya Coast)](LANDS.md#sky-island-yavimaya-coast)</center> | <center>[The Meadows (Brushland)](LANDS.md#the-meadows-brushland)</center> | <center>[White Sands (Adarkar Wastes)](LANDS.md#white-sands-adarkar-wastes)</center> |
