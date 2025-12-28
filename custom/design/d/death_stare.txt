@@ -1,0 +1,18 @@
+[Name]
+Death Stare
+[ManaCost]
+X
+B
+B
+G
+[IsReprint]
+true
+[Rarity]
+R
+[NicknameFor]
+Gaze of Granite
+[FlavorText]
+Lune knew she was powerless to stop what was happening. All she could do in that moment was stare.
+[DesignNotes]
+ - In the game, upon choosing Verso's ending Lune was powerless to stop the destruction of the canvas. All she could do was give Verso the most mortifying stare for the betrayal he just wrought.
+ - Nicknamed reprint of Gaze of Granite. Originally thought about it being a commander reprint, but opted for a main set reprint, just so that we have a sweeper in Golgari colors.
