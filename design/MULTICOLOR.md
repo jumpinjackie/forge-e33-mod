@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 28/12/2025 12:33:34 pm
+> Last generated: 28/12/2025 3:44:55 pm
 
 ## A Storm is Coming
 
@@ -528,7 +528,7 @@ GU
 Enchantment - Aura
 Enchant Creature
 Enchanted creature gets +2/+2.
-Enchanted creature has Islandwalk if you control a card named Florrie, has trample if you control a card name Dorrie and has flying if you control a card named Soarrie.
+Enchanted creature has Islandwalk if you control a card named Florrie, has trample if you control a card named Dorrie and has flying if you control a card named Soarrie.
 Whenever enchanted creature attacks, if you control a card named Urrie, draw a card.
 ```
 
