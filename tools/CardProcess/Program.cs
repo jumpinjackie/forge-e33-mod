@@ -2250,7 +2250,7 @@ public class GenAllCommand : BaseCommand
         tbl.Append("Total".PadRight(labelWidth + 2));
         tbl.Append("| ");
         // column totals per rarity
-        tbl.Append(String.Join(" | ", rarityCodes.Select(rc => typeDistro.Values.Select(m => m.ContainsKey(rc) ? m[rc] : 0).Sum().ToString().PadLeft(3))));
+        tbl.Append(String.Join(" | ", rarityCodes.Select(rc => typeDistro.Values.Sum(m => m.ContainsKey(rc) ? m[rc] : 0).ToString().PadLeft(3))));
         tbl.Append($" | {grandTotalFromType}\n");
 
         await stdout.WriteLineAsync(tbl.ToString());
@@ -2298,6 +2298,41 @@ public class CardConjurerValidateCommand : BaseCommand
         int missingCards = 0;
         int invalidCards = 0;
         int splitCards = 0;
+
+        // Color order requirements for mana cost validation
+        var colorOrders = new Dictionary<string, string>
+        {
+            // 5 colors
+            ["BGRUW"] = "WUBRG",
+            // 4 colors
+            ["BRUW"] = "WUBR",
+            ["BURG"] = "UBRG",
+            ["BGRW"] = "BRGW",
+            ["GRUW"] = "RGWU",
+            ["GUWB"] = "GWUB",
+            // 3 colors
+            ["BUW"] = "WUB", // Esper
+            ["GRU"] = "GUR", // Temur
+            ["GUW"] = "GWU", // Bant
+            ["BRW"] = "RWB", // Mardu
+            ["BGW"] = "WBG", // Abzan
+            ["RUW"] = "URW", // Jeskai
+            ["BGU"] = "BGU", // Sultai
+            ["GRW"] = "RGW", // Naya
+            ["BRG"] = "BRG", // Jund
+            ["BRU"] = "UBR", // Grixis
+            // 2 colors
+            ["GW"] = "GW", // Selesnya
+            ["GR"] = "RG", // Gruul
+            ["BR"] = "BR", // Rakdos
+            ["BU"] = "UB", // Dimir
+            ["UW"] = "WU", // Azorious
+            ["GU"] = "GU", // Simic
+            ["RW"] = "RW", // Boros
+            ["BW"] = "WB", // Orzhov
+            ["BG"] = "BG", // Golgari
+            ["RU"] = "UR", // Izzet
+        };
 
         // Normalize text to ASCII for comparison (strip markup and normalize common punctuation)
         static string NormalizeToAscii(string text)
@@ -2386,12 +2421,66 @@ public class CardConjurerValidateCommand : BaseCommand
                         designManaCost = "";
                     if (NormalizeToAscii(ccManaCost ?? "") != NormalizeToAscii(designManaCost))
                     {
-                        await stdout.WriteLineAsync($"WARNING: Mismatches found in card face: {cardFaceName}");
+                        await stdout.WriteLineAsync($"WARNING: Mana cost mismatch found in card face: {cardFaceName}");
                         await stdout.WriteLineAsync($"  Mana cost:");
                         await stdout.WriteLineAsync($"    CC: {ccManaCost}");
                         await stdout.WriteLineAsync($"    DF: {designManaCost}");
                         await stdout.WriteLineAsync(GetDifferenceMarker(ccManaCost, designManaCost));
                         hasWarnings = true;
+                    }
+
+                    // Check color pip order
+                    var manaTokens = (ccManaCost ?? "").Split(' ', StringSplitOptions.RemoveEmptyEntries);
+                    var colorSequence = new List<string>();
+                    foreach (var token in manaTokens)
+                    {
+                        var match = Regex.Match(token, @"^([WUBRG])$");
+                        if (match.Success)
+                        {
+                            colorSequence.Add(match.Groups[1].Value);
+                        }
+                    }
+                    var uniqueColors = new HashSet<string>(colorSequence);
+                    if (uniqueColors.Count >= 2)
+                    {
+                        var key = string.Concat(uniqueColors.OrderBy(c => c));
+                        if (colorOrders.TryGetValue(key, out var requiredOrder))
+                        {
+                            var requiredList = requiredOrder.Select(c => c.ToString()).ToList();
+                            // Check if the color sequence respects the required order, allowing repeats
+                            bool orderValid = true;
+                            for (int i = 0; i < requiredList.Count - 1; i++)
+                            {
+                                var earlierColor = requiredList[i];
+                                var laterColor = requiredList[i + 1];
+                                var earlierIndices = colorSequence.Select((c, idx) => c == earlierColor ? idx : -1).Where(idx => idx >= 0).ToList();
+                                var laterIndices = colorSequence.Select((c, idx) => c == laterColor ? idx : -1).Where(idx => idx >= 0).ToList();
+                                if (earlierIndices.Any() && laterIndices.Any())
+                                {
+                                    var maxEarlier = earlierIndices.Max();
+                                    var minLater = laterIndices.Min();
+                                    if (maxEarlier >= minLater)
+                                    {
+                                        orderValid = false;
+                                        break;
+                                    }
+                                }
+                            }
+                            if (!orderValid)
+                            {
+                                if (!hasWarnings)
+                                    await stdout.WriteLineAsync($"WARNING: Color pip ordering mismatches found in card: {cardFaceName}");
+                                await stdout.WriteLineAsync($"  Mana color pip order:");
+                                await stdout.WriteLineAsync($"    CC: {string.Join("", colorSequence)}");
+                                await stdout.WriteLineAsync($"    Required: {requiredOrder}");
+                                hasWarnings = true;
+                            }
+                        }
+                        else
+                        {
+                            await stdout.WriteLineAsync($"WARNING: {cardFaceName} - Unknown color combination for mana order validation: {key}");
+                            hasWarnings = true;
+                        }
                     }
                 }
 
@@ -2404,7 +2493,7 @@ public class CardConjurerValidateCommand : BaseCommand
                     if (NormalizeToAscii(ccTitle ?? "") != NormalizeToAscii(cardFaceName ?? ""))
                     {
                         if (!hasWarnings)
-                            await stdout.WriteLineAsync($"WARNING: Mismatches found in card: {cardFaceName}");
+                            await stdout.WriteLineAsync($"WARNING: Title mismatches found in card: {cardFaceName}");
                         await stdout.WriteLineAsync($"  Title:");
                         await stdout.WriteLineAsync($"    CC: {ccTitle}");
                         await stdout.WriteLineAsync($"    DF: {cardFaceName}");
@@ -2423,7 +2512,7 @@ public class CardConjurerValidateCommand : BaseCommand
                     if (NormalizeToAscii(ccType ?? "") != NormalizeToAscii(cardFace.TypeLine ?? ""))
                     {
                         if (!hasWarnings)
-                            await stdout.WriteLineAsync($"WARNING: Mismatches found in card: {cardFaceName}");
+                            await stdout.WriteLineAsync($"WARNING: Type line mismatches found in card: {cardFaceName}");
                         await stdout.WriteLineAsync($"  Type line:");
                         await stdout.WriteLineAsync($"    CC: {ccType}");
                         await stdout.WriteLineAsync($"    DF: {cardFace.TypeLine}");
@@ -2443,7 +2532,7 @@ public class CardConjurerValidateCommand : BaseCommand
                     if (!string.IsNullOrWhiteSpace(design.Rarity) && !string.Equals(design.Rarity, infoRarity, StringComparison.OrdinalIgnoreCase))
                     {
                         if (!hasWarnings)
-                            await stdout.WriteLineAsync($"WARNING: Mismatches found in card: {cardFaceName}");
+                            await stdout.WriteLineAsync($"WARNING: Rarity code mismatch found in card: {cardFaceName}");
                         await stdout.WriteLineAsync($"  Rarity code mismatch:");
                         await stdout.WriteLineAsync($"    Design rarity: {design.Rarity}");
                         await stdout.WriteLineAsync($"    CC .data.infoRarity: {infoRarity}");
@@ -2503,7 +2592,7 @@ public class CardConjurerValidateCommand : BaseCommand
                             if (!match)
                             {
                                 if (!hasWarnings)
-                                    await stdout.WriteLineAsync($"WARNING: Mismatches found in card: {cardFaceName}");
+                                    await stdout.WriteLineAsync($"WARNING: Rarity symbol mismatch found in card: {cardFaceName}");
                                 await stdout.WriteLineAsync($"  Set symbol source / rarity:");
                                 await stdout.WriteLineAsync($"    CC .data.setSymbolSource: {setSymbolSource}");
                                 await stdout.WriteLineAsync($"    Constructed from design rarity code: {constructedUrl}");
@@ -2529,7 +2618,7 @@ public class CardConjurerValidateCommand : BaseCommand
                     if (ccRules != designRules)
                     {
                         if (!hasWarnings)
-                            await stdout.WriteLineAsync($"WARNING: Mismatches found in card: {cardFaceName}");
+                            await stdout.WriteLineAsync($"WARNING: Oracle text mismatch found in card: {cardFaceName}");
                         await stdout.WriteLineAsync($"  Rules text:");
                         await stdout.WriteLineAsync($"    CC: {ccRules}");
                         await stdout.WriteLineAsync($"    DF: {designRules}");
@@ -2549,7 +2638,7 @@ public class CardConjurerValidateCommand : BaseCommand
                     if (NormalizeToAscii(ccPT) != NormalizeToAscii(designPT))
                     {
                         if (!hasWarnings)
-                            await stdout.WriteLineAsync($"WARNING: Mismatches found in card: {cardFaceName}");
+                            await stdout.WriteLineAsync($"WARNING: P/T mismatch found in card: {cardFaceName}");
                         await stdout.WriteLineAsync($"  Power/Toughness:");
                         await stdout.WriteLineAsync($"    CC: {ccPT}");
                         await stdout.WriteLineAsync($"    DF: {designPT}");
