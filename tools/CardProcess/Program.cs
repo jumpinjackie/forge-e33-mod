@@ -1981,6 +1981,7 @@ public class GenAllCommand : BaseCommand
                             spoilerWriter.WriteLine($"- {displayBucket}: {summary.withImages}/{summary.total} cards");
                         }
                     }
+                    spoilerWriter.WriteLine(); // Need a newline before the markdown table, otherwise rendering is screwy
                     WriteSpoilerTable(spoilerWriter, baseImages, outputDir, this.LinkifyCaptions);
                 }
 
@@ -2011,6 +2012,7 @@ public class GenAllCommand : BaseCommand
                             spoilerWriter.WriteLine($"- {displayBucket}: {summary.withImages}/{summary.total} cards");
                         }
                     }
+                    spoilerWriter.WriteLine(); // Need a newline before the markdown table, otherwise rendering is screwy
                     WriteSpoilerTable(spoilerWriter, cmdrImages, outputDir, this.LinkifyCaptions);
                 }
             }
