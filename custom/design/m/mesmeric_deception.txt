@@ -1,0 +1,25 @@
+[Name]
+Mesmeric Deception
+[ManaCost]
+X
+U
+B
+[Types]
+Instant
+[Rarity]
+C
+[Oracle]
+Tap X target creatures.
+Target opponent discards a card.
+Draw a card.
+[FlavorText]
+While the rest of the party was entranced by the memories of their loved ones, Verso had no such attachments and saw straight through Sirène’s deception.
+[ForgeScript]
+A:SP$ Tap | ValidTgts$ Creature | TgtPrompt$ Select X target creatures | TargetMin$ X | TargetMax$ X | SubAbility$ DBDiscard | SpellDescription$ Tap X target creatures. Target opponent discards a card.
+SVar:X:Count$xPaid
+SVar:DBDiscard:DB$ Discard | ValidTgts$ Opponent | Mode$ TgtChoose | NumCards$ 1 | SubAbility$ DBDraw
+SVar:DBDraw:DB$ Draw | Defined$ You | NumCards$ 1
+[DesignNotes]
+ - In the game, upon confronting Sirène, she mesmerizes the party with visions and memories of their loved ones. However, Verso had no such memories or attachments and saw straight through her ruse.
+ - This cards depicts this moment.
+ - Gone with a draft/limited tempo play with mild CA attached.

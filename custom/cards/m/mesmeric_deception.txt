@@ -1,0 +1,8 @@
+Name:Mesmeric Deception
+ManaCost:X U B
+Types:Instant
+A:SP$ Tap | ValidTgts$ Creature | TgtPrompt$ Select X target creatures | TargetMin$ X | TargetMax$ X | SubAbility$ DBDiscard | SpellDescription$ Tap X target creatures. Target opponent discards a card.
+SVar:X:Count$xPaid
+SVar:DBDiscard:DB$ Discard | ValidTgts$ Opponent | Mode$ TgtChoose | NumCards$ 1 | SubAbility$ DBDraw
+SVar:DBDraw:DB$ Draw | Defined$ You | NumCards$ 1
+Oracle:Tap X target creatures.\nTarget opponent discards a card.\nDraw a card.
