@@ -20,12 +20,11 @@ K:Chapter:3:DBChapter1,DBChapter2,DBChapter3
 SVar:DBChapter1:DB$ Destroy | ValidTgts$ Nevron | TgtPrompt$ Select target Nevron | SpellDescription$ Destroy target Nevron.
 SVar:DBChapter2:DB$ Destroy | ValidTgts$ Nevron | TgtPrompt$ Select target Nevron | SpellDescription$ Destroy target Nevron.
 SVar:DBChapter3:DB$ DestroyAll | ValidCards$ Nevron | RememberDestroyed$ True | SubAbility$ DBLumina | SpellDescription$ Destroy all Nevrons. Create a Lumina token for each Nevron destroyed this way.
-SVar:DBDraw:DB$ Token | TokenAmount$ NevronX | TokenOwner$ You | TokenScript$ c_a_lumina | SubAbility$ DBCleanup
+SVar:DBLumina:DB$ Token | TokenAmount$ X | TokenOwner$ You | TokenScript$ c_a_lumina | SubAbility$ DBCleanup
 SVar:DBCleanup:DB$ Cleanup | ClearRemembered$ True
-SVar:NevronX:Remembered$Amount
+SVar:X:Remembered$Valid Card.Nevron
 DeckHas:Ability$Counters
 [DesignNotes]
  - Journal is a story of expeditioners engaged in a competition to see who can kill the most Nevrons.
  - Obvious mechanical map to just killing Nevrons, and more Nevrons.
-[Bugs]
-Chapter 3: Not getting lumina tokens for destroyed Nevron tokens
+ - 28/12/2025: Fixed final chapter not granting Lumina tokens.
