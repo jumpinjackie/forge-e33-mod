@@ -1955,11 +1955,12 @@ public class GenAllCommand : BaseCommand
             using (var spoilerWriter = new StreamWriter(spoilerPath, false, Encoding.UTF8))
             {
                 spoilerWriter.WriteLine("# Visual Spoiler");
-                spoilerWriter.WriteLine();
-                spoilerWriter.WriteLine("> This currently only shows cards/tokens we have full CardConjurer designs for and does not fully represent the whole set\n");
+                //spoilerWriter.WriteLine();
+                //spoilerWriter.WriteLine("> This currently only shows cards/tokens we have full CardConjurer designs for and does not fully represent the whole set\n");
                 {
                     var totalCards = 0;
                     var totalCardsWithImages = 0;
+                    var bucketSummaries = new Dictionary<string, (int withImages, int total)>();
                     var baseImages = new List<(string path, string name, string bucket, string? nicknameFor)>();
                     foreach (var (bucket, imageList, cardsWithImagesTotal, cardsTotal) in GenerateImageLists(false))
                     {
@@ -1968,17 +1969,28 @@ public class GenAllCommand : BaseCommand
                         baseImages.AddRange(imageList);
                         totalCards += cardsTotal;
                         totalCardsWithImages += cardsWithImagesTotal;
+                        bucketSummaries[bucket] = (cardsWithImagesTotal, cardsTotal);
                     }
-                    spoilerWriter.WriteLine($"# Clair Obscur: Expedition 33 (E33) [{totalCardsWithImages}/{totalCards} cards]");
+                    spoilerWriter.WriteLine($"## Clair Obscur: Expedition 33 (E33) [{totalCardsWithImages}/{totalCards} cards]");
+                    var bucketOrder = new[] { "COLORLESS", "WHITE", "BLUE", "BLACK", "RED", "GREEN", "MULTICOLOR", "ARTIFACTS", "LANDS" };
+                    foreach (var bucket in bucketOrder)
+                    {
+                        if (bucketSummaries.TryGetValue(bucket, out var summary))
+                        {
+                            var displayBucket = char.ToUpper(bucket[0]) + bucket.ToLower().Substring(1);
+                            spoilerWriter.WriteLine($"- {displayBucket}: {summary.withImages}/{summary.total} cards");
+                        }
+                    }
                     WriteSpoilerTable(spoilerWriter, baseImages, outputDir, this.LinkifyCaptions);
                 }
 
-                spoilerWriter.WriteLine("## Tokens");
+                spoilerWriter.WriteLine("### Tokens");
                 WriteSpoilerTable(spoilerWriter, tokenImages, outputDir, this.LinkifyCaptions);
 
                 {
                     var totalCards = 0;
                     var totalCardsWithImages = 0;
+                    var bucketSummaries = new Dictionary<string, (int withImages, int total)>();
                     var cmdrImages = new List<(string path, string name, string bucket, string? nicknameFor)>();
                     foreach (var (bucket, imageList, cardsWithImagesTotal, cardsTotal) in GenerateImageLists(true))
                     {
@@ -1987,8 +1999,18 @@ public class GenAllCommand : BaseCommand
                         cmdrImages.AddRange(imageList);
                         totalCards += cardsTotal;
                         totalCardsWithImages += cardsWithImagesTotal;
+                        bucketSummaries[bucket] = (cardsWithImagesTotal, cardsTotal);
                     }
-                    spoilerWriter.WriteLine($"# Clair Obscur: Expedition 33 Commander (E3C) [{totalCardsWithImages}/{totalCards} cards]");
+                    spoilerWriter.WriteLine($"## Clair Obscur: Expedition 33 Commander (E3C) [{totalCardsWithImages}/{totalCards} cards]");
+                    var bucketOrder = new[] { "COLORLESS", "WHITE", "BLUE", "BLACK", "RED", "GREEN", "MULTICOLOR", "ARTIFACTS", "LANDS" };
+                    foreach (var bucket in bucketOrder)
+                    {
+                        if (bucketSummaries.TryGetValue(bucket, out var summary))
+                        {
+                            var displayBucket = char.ToUpper(bucket[0]) + bucket.ToLower().Substring(1);
+                            spoilerWriter.WriteLine($"- {displayBucket}: {summary.withImages}/{summary.total} cards");
+                        }
+                    }
                     WriteSpoilerTable(spoilerWriter, cmdrImages, outputDir, this.LinkifyCaptions);
                 }
             }
