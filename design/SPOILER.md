@@ -1,8 +1,14 @@
 ﻿# Visual Spoiler
-
-> This currently only shows cards/tokens we have full CardConjurer designs for and does not fully represent the whole set
-
-# Clair Obscur: Expedition 33 (E33) [356/356 cards]
+## Clair Obscur: Expedition 33 (E33) [356/356 cards]
+- Colorless: 2/2 cards
+- White: 28/28 cards
+- Blue: 35/35 cards
+- Black: 25/25 cards
+- Red: 30/30 cards
+- Green: 26/26 cards
+- Multicolor: 103/103 cards
+- Artifacts: 66/66 cards
+- Lands: 41/41 cards
 | | | |
 |---|---|---|
 | ![](../custom/pics/cards/E33/Jar.full.jpg) | ![](../custom/pics/cards/E33/Petank.full.jpg) | ![](../custom/pics/cards/E33/Acceptance.full.jpg) |
@@ -247,7 +253,7 @@
 | <center>Island</center> | <center>Mountain</center> | <center>Plains</center> |
 | ![](../custom/pics/cards/E33/Swamp.full.jpg) |   |   |
 | <center>Swamp</center> |   |   |
-## Tokens
+### Tokens
 | | | |
 |---|---|---|
 | ![](../custom/pics/tokens/E33/g_1_1_abbest_nevron.jpg) | ![](../custom/pics/tokens/E33/c_a_chroma.jpg) | ![](../custom/pics/tokens/E33/c_a_clue_draw.jpg) |
@@ -260,7 +266,15 @@
 | <center>Nevron Army Token</center> | <center>Nevron Token</center> | <center>Party Guest Token</center> |
 | ![](../custom/pics/tokens/E33/c_1_1_pot_nevron.jpg) |   |   |
 | <center>Pot Nevron Token</center> |   |   |
-# Clair Obscur: Expedition 33 Commander (E3C) [51/51 cards]
+## Clair Obscur: Expedition 33 Commander (E3C) [51/51 cards]
+- White: 4/4 cards
+- Blue: 2/2 cards
+- Black: 3/3 cards
+- Red: 2/2 cards
+- Green: 3/3 cards
+- Multicolor: 7/7 cards
+- Artifacts: 19/19 cards
+- Lands: 11/11 cards
 | | | |
 |---|---|---|
 | ![](../custom/pics/cards/E3C/A%20Life%20to%20Love.full.jpg) | ![](../custom/pics/cards/E3C/Austere%20Command.full.jpg) | ![](../custom/pics/cards/E3C/Path%20to%20Exile.full.jpg) |
