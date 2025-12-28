@@ -13,15 +13,16 @@ Sandfall Interactive
 [ArtNotes]
 An Expeditioner wearing the skin of a slain Nevron trying to blend in with other Nevrons.
 [Oracle]
-{G}: Target non-Nevron creature becomes a Nevron until end of turn.
+All creature cards on the battlefield, graveyard and libraries are Nevrons in addition to their existing types.
 {1}, Sacrifice this enchantment: Draw a card.
 [FlavorText]
 The idea was we'd only have to fool the first one. Then Jules can wear its carcass to trap the next, and so on, until we all have proper cover. But disguising ourselves as Nevrons has proven to be extremely ineffective, to say the least. Maybe they recognize each other by their chroma?
 - Nicolas, Expedition 44
 [ForgeScript]
-A:AB$ Animate | Cost$ G | ValidTgts$ Creature.nonNevron | TgtPrompt$ Select target creature | Types$ Nevron | RemoveCreatureTypes$ True | SpellDescription$ Target creature becomes a Nevron until end of turn.
+S:Mode$ Continuous | Affected$ Creature | AddType$ Nevron | AffectedZone$ Battlefield,Hand,Graveyard,Library | Description$ All creature cards on the battlefield, graveyard and libraries are Nevrons in addition to their existing types.
 A:AB$ Draw | Cost$ 1 Sac<1/CARDNAME> | NumCards$ 1 | SpellDescription$ Draw a card.
 [DesignNotes]
  - In the game, the journal of Expedition 44 tells of an attempt by Expeditioners to disguise themselves as Nevrons in order to try and gain an advantage. It didn't work.
  - Simple creature type changing effect. Probably absolute dreck in draft/limited with fringe utility in constructed, but this one is all about flavor.
  - 6/10/2025: Changed to an enchantment with the type changing an activated ability. Also added a sac cantrip for utility.
+ - 29/12/2025: Remove the type changing activated ability to a continuous "Painter's Servant"-style add Nevron sub-type to all creatures in battlefield, graveyards and libraries.

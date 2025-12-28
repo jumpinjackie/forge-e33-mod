@@ -1,6 +1,7 @@
 Name:Nevron Disguise
 ManaCost:G
 Types:Kindred Enchantment Expeditioner
-A:AB$ Animate | Cost$ G | ValidTgts$ Creature.nonNevron | TgtPrompt$ Select target creature | Types$ Nevron | RemoveCreatureTypes$ True | SpellDescription$ Target creature becomes a Nevron until end of turn.
+#A:AB$ Animate | Cost$ G | ValidTgts$ Creature.nonNevron | TgtPrompt$ Select target creature | Types$ Nevron | RemoveCreatureTypes$ True | SpellDescription$ Target creature becomes a Nevron until end of turn.
+S:Mode$ Continuous | Affected$ Creature | AddType$ Nevron | AffectedZone$ Battlefield,Hand,Graveyard,Library | Description$ All creature cards on the battlefield, graveyard and libraries are Nevrons in addition to their existing types.
 A:AB$ Draw | Cost$ 1 Sac<1/CARDNAME> | NumCards$ 1 | SpellDescription$ Draw a card.
-Oracle:{G}: Target non-Nevron creature becomes a Nevron until end of turn.\n{1}, Sacrifice this enchantment: Draw a card.
+Oracle:All creature cards on the battlefield, graveyard and libraries are Nevrons in addition to their existing types.\n{1}, Sacrifice this enchantment: Draw a card.
