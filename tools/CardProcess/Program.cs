@@ -1926,6 +1926,8 @@ public class GenAllCommand : BaseCommand
             var cmdrCardsPicsDir = Path.Combine(picsBase, "cards", "E3C");
             var tokensPicsDir = Path.Combine(picsBase, "tokens", "E33");
 
+            var missingImages = new List<string>();
+
             var tokenImages = new List<(string path, string name, string bucket, string? nicknameFor)>();
             if (Directory.Exists(tokensPicsDir))
             {
@@ -1991,6 +1993,15 @@ public class GenAllCommand : BaseCommand
                 }
             }
 
+            if (missingImages.Any())
+            {
+                await stdout.WriteLineAsync($"Cards missing images:");
+                foreach (var cardName in missingImages.OrderBy(n => n))
+                {
+                    await stdout.WriteLineAsync("  " + cardName);
+                }
+            }
+
             IEnumerable<(string bucket, List<(string path, string name, string bucket, string? nicknameFor)> images, int cardsWithImagesTotal, int cardsTotal)> GenerateImageLists(bool isCommander)
             {
                 var picsDir = isCommander ? cmdrCardsPicsDir : baseCardsPicsDir;
@@ -2019,6 +2030,8 @@ public class GenAllCommand : BaseCommand
                             }
                             if (complete)
                                 cardsWithImagesTotal++;
+                            else
+                                missingImages.Add(card.Name);
                         }
                         yield return (bucket, images, cardsWithImagesTotal, cardsTotal);
                     }
