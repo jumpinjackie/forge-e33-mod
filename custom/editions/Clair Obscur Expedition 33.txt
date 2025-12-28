@@ -238,7 +238,7 @@ Type=Custom
 276 U Monoco's Station @Sandfall Interactive
 278 C Mountain @Sam Burley
 279 C Mutinous Expedition 48 Soldier @Sandfall Interactive
-280 C Nevron Disguise @Sandfall Interactive
+280 U Nevron Disguise @Sandfall Interactive
 281 R Nevron Pecking Order @Sandfall Interactive
 282 U Nicolas, Seeking Inspiration @Sandfall Interactive
 283 U Noco, The Greatest Merchant @

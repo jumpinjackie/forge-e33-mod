@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 26/12/2025 3:22:28 pm
+> Last generated: 28/12/2025 3:30:03 pm
 
 ## Abbest
 
@@ -336,7 +336,7 @@ When this creature dies, target opponent creates a Lumina token. (It's an artifa
 ```
 G
 Kindred Enchantment - Expeditioner
-{G}: Target non-Nevron creature becomes a Nevron until end of turn.
+All creature cards on the battlefield, graveyard and libraries are Nevrons in addition to their existing types.
 {1}, Sacrifice this enchantment: Draw a card.
 ---
 The idea was we'd only have to fool the first one. Then Jules can wear its carcass to trap the next, and so on, until we all have proper cover. But disguising ourselves as Nevrons has proven to be extremely ineffective, to say the least. Maybe they recognize each other by their chroma?
@@ -350,6 +350,7 @@ The idea was we'd only have to fool the first one. Then Jules can wear its carca
  - In the game, the journal of Expedition 44 tells of an attempt by Expeditioners to disguise themselves as Nevrons in order to try and gain an advantage. It didn't work.
  - Simple creature type changing effect. Probably absolute dreck in draft/limited with fringe utility in constructed, but this one is all about flavor.
  - 6/10/2025: Changed to an enchantment with the type changing an activated ability. Also added a sac cantrip for utility.
+ - 29/12/2025: Remove the type changing activated ability to a continuous "Painter's Servant"-style add Nevron sub-type to all creatures in battlefield, graveyards and libraries. Also upshifted to uncommon.
 
 ## Nevron Pecking Order
 
