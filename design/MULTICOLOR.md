@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 26/12/2025 4:20:46 pm
+> Last generated: 28/12/2025 4:27:39 am
 
 ## A Storm is Coming
 
@@ -625,6 +625,7 @@ III — Destroy all Nevrons. Create a Lumina token for each Nevron destroyed thi
 
  - Journal is a story of expeditioners engaged in a competition to see who can kill the most Nevrons.
  - Obvious mechanical map to just killing Nevrons, and more Nevrons.
+ - 28/12/2025: Fixed final chapter not granting Lumina tokens.
 
 ## Expedition 47 Drunkard
 
@@ -1354,7 +1355,7 @@ As long as even one of us stands, our fight is not over.
         - Red: The Wildfire ability
         - Green/White: The Tree of Life ability
     - The Elemental Genesis "ultimate" requires no extra mana cost because getting to 4 stain counters is enough investment already.
- - 26/12/2025: Figured out a way to implement a max 4 stain counter limit to match her video game counterpart.
+ - 26/12/2025: Figured out a way to implement a max 4 stain counter limit to match her video game counterpart. Due to limitations on expressing this "4 stain counters max" constraint in Forge, I expect that this limit can be easily cicumvented through other means in Forge (ie. Alternate ways of putting stain counters that are not Lune's triggered ability) and I can live with that. The intent in *paper* play is definitely 4 stain counters max, no ifs or buts. No shenanigans with Doubling Season or other counter replicators.
 
 ## Maelle, Child of Lumière // Maelle, The Reawakened Paintress
 
