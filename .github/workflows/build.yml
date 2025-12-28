@@ -1,8 +1,9 @@
-name: Build and Package Forge Assets
+name: Build and Package Assets
 
 on:
   push:
     branches: [ main, master ]
+    tags: ['*']
   release:
     types: [published]
 
@@ -67,6 +68,22 @@ jobs:
           forge_pics.zip
           cockatrice_pics.zip
           custom/dist/cockatrice/Expedition33.xml
+
+    - name: Create draft release
+      if: github.ref_type == 'tag'
+      uses: softprops/action-gh-release@v2
+      with:
+        draft: true
+        prerelease: true
+        tag_name: ${{ github.ref_name }}
+        name: Release ${{ github.ref_name }}
+        files: |
+          forge_assets.zip
+          forge_pics.zip
+          cockatrice_pics.zip
+          custom/dist/cockatrice/Expedition33.xml
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
     - name: Upload release assets
       if: github.event_name == 'release'
