@@ -1,5 +1,5 @@
 Name:Goblu
-ManaCost:U R G
+ManaCost:G U R
 Types:Legendary Creature Nevron
 PT:3/4
 K:Flash

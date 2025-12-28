@@ -1,5 +1,5 @@
 Name:The Paintress
-ManaCost:W U R G
+ManaCost:R G W U
 Types:Legendary Creature Painter God
 PT:6/6
 A:AB$ DealDamage | Cost$ B R T | ValidTgts$ Creature,Planeswalker | TgtPrompt$ Select target creature or planeswalker to distribute damage to | NumDmg$ 3 | TargetMin$ 0 | TargetMax$ 3 | DividedAsYouChoose$ 3 | SpellDescription$ CARDNAME deals 3 damage divided as you choose among any number of target creatures and/or planeswalkers.

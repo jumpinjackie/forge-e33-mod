@@ -1,5 +1,5 @@
 Name:Tomorrow Comes
-ManaCost:U W
+ManaCost:W U
 Types:Kindred Instant Expeditioner
 A:SP$ Dig | DigNum$ 3 | ChangeNum$ 1 | NoReveal$ True | SubAbility$ DBGainLife | SpellDescription$ Look at the top four cards of your library. Put one of them into your hand and the rest on the bottom of your library in any order.
 SVar:DBGainLife:DB$ GainLife | LifeAmount$ 3 | SubAbility$ DBToken | SpellDescription$ You gain 3 life.

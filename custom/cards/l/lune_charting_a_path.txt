@@ -1,5 +1,5 @@
 Name:Lune, Charting a Path
-ManaCost:W U R G
+ManaCost:R G W U
 Types:Legendary Creature Human Expeditioner Wizard
 PT:3/3
 T:Mode$ SpellCast | ValidCard$ Instant,Sorcery | ValidActivatingPlayer$ You | Execute$ TrigDraw | TriggerZones$ Battlefield | TriggerDescription$ Whenever you cast an instant or sorcery spell, draw a card and put a stain counter on Lune for each of that spell's colors.

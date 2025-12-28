@@ -1,5 +1,5 @@
 Name:Expedition 60
-ManaCost:2 W G
+ManaCost:2 G W
 Types:Enchantment Saga
 K:Chapter:3:DBChapter1,DBChapter2,DBChapter3
 SVar:DBChapter1:DB$ PumpAll | ValidCards$ Creature.YouCtrl+!modified | KW$ Vigilance | SpellDescription$ Un-modified creatures you control gain vigilance until end of turn.
