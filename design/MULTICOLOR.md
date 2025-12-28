@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 28/12/2025 12:01:18 pm
+> Last generated: 28/12/2025 12:33:34 pm
 
 ## A Storm is Coming
 
@@ -397,7 +397,7 @@ When this creature dies, target opponent creates a Lumina token. (It's an artifa
 Creature - Nevron
 {2}{R}, {T}: This creature deals 2 damage to target creature.
 {2}{U}, {T}: Tap target creature. Put a stun counter on it.
-When this creature dies, if you control no creatures, put two 2/2 Red and Blue Danseuse Clone creature tokens into play.
+When this creature dies, if you control no creatures, put two 2/2 blue and red Nevron creature tokens named Danseuse Clone into play.
 When this creature dies, target opponent creates a Lumina token.
 
 2/2
