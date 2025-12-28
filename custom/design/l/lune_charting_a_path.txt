@@ -52,4 +52,4 @@ A:AB$ DealDamage | Cost$ T SubCounter<4/STAIN> | TargetMin$ 0 | TargetMax$ 4 | V
         - Red: The Wildfire ability
         - Green/White: The Tree of Life ability
     - The Elemental Genesis "ultimate" requires no extra mana cost because getting to 4 stain counters is enough investment already.
- - 26/12/2025: Figured out a way to implement a max 4 stain counter limit to match her video game counterpart.
+ - 26/12/2025: Figured out a way to implement a max 4 stain counter limit to match her video game counterpart. Due to limitations on expressing this "4 stain counters max" constraint in Forge, I expect that this limit can be easily cicumvented through other means in Forge (ie. Alternate ways of putting stain counters that are not Lune's triggered ability) and I can live with that. The intent in *paper* play is definitely 4 stain counters max, no ifs or buts. No shenanigans with Doubling Season or other counter replicators.
