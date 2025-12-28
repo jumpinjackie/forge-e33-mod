@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 25/12/2025 2:50:25 am
+> Last generated: 28/12/2025 4:00:06 pm
 
 ## A Rock for François
 
@@ -1410,7 +1410,7 @@ Verso's childhood canvas. Where we used to play ... Where he painted Esquie and 
 ```
 1
 Legendary Artifact - Rock
-{1}, {T}: Surveil 2.
+{2}, {T}: Surveil 1.
 {1}, Sacrifice Urrie: Draw a card.
 ---
 FINE, FINE, FINE, Here. Pah! Take your rock and SCRAM!
@@ -1424,4 +1424,5 @@ FINE, FINE, FINE, Here. Pah! Take your rock and SCRAM!
  - In the game Urrie is a quest item which will grant Esquie the ability to dive when swimming in the Continent overworld
  - In this set, Urrie is 1 of 4 legendary "Rock" artifacts which will grant benefits to other cards if this or other members of the quartet are in play, just like Urza's Tower, Mine and Power Plant become more powerful when all of them are in play, I am trying to go for a similar outcome with this quartet.
     - Mechanically, my line of thought is diving > digging > Surveiling.
+ - 29/12/2025: Changed from Surveil 2 to Surveil 1 and cost from {1} to {2}
 
