@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 28/12/2025 4:27:39 am
+> Last generated: 28/12/2025 6:17:17 am
 
 ## A Storm is Coming
 
@@ -148,7 +148,7 @@ Maelle: Ooh dark. Sophie would approve.
 ## Bourgeon
 
 ```
-1WBR
+1RWB
 Creature - Nevron
 Eats party member — When this creature enters, exile another target creature.
 When this creature leaves the battlefield, return the exiled card to the battlefield under its owner's control.
@@ -459,7 +459,7 @@ Choose one or more —
 ## Esquie, Friend of Verso
 
 ```
-3UG
+3GU
 Legendary Artifact Creature - Mount
 Saddle 2.
 Esquie has Islandwalk as long as you control a card named Florrie.
@@ -492,7 +492,7 @@ When Esquie attacks, if it is saddled, choose one —
 ## Esquie's Charge
 
 ```
-URG
+GUR
 Instant
 Esquie’s Charge deals 3 damage to any target.
 If you control a card named Florrie, scry 2.
@@ -515,7 +515,7 @@ Sciel: Apparently so. But also lazy.
 ## Esquie's Embrace
 
 ```
-UG
+GU
 Enchantment - Aura
 Enchant Creature
 Enchanted creature gets +2/+2.
@@ -533,7 +533,7 @@ Whenever enchanted creature attacks, if you control a card named Urrie, draw a c
 ## Esquie's Rescue
 
 ```
-UG
+GU
 Instant
 Return target creature to its owner’s hand. You gain 3 life.
 Create a Lumina token. (It's an artifact with "{T}, Sacrifice this artifact: Scry 1.")
@@ -592,7 +592,7 @@ Summons minions — {2}{G}{G}, {T}: Create two 1/1 green Nevron creature tokens 
 ## Expedition 34 Mage
 
 ```
-WUR
+URW
 Creature - Human Expeditioner Wizard
 {2}{W}: Tap target creature.
 {2}{U}: Put a stun counter on target creature.
@@ -731,7 +731,7 @@ I can't believe she convinced everyone to eat the Nevron. They've been puking fo
 ## Expedition 60
 
 ```
-2WG
+2GW
 Enchantment - Saga
 (As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
 I — Un-modified creatures you control gain vigilance until end of turn.
@@ -1101,7 +1101,7 @@ Summons Ballets to attack the Expedition — {T}: Create a 1/1 green Nevron crea
 ## Goblu
 
 ```
-URG
+GUR
 Legendary Creature - Nevron
 Flash. Ward {2}. Reach.
 Grows Flowers — At the beginning of your upkeep, create a Flower token (It's an artifact with "{T}, Sacrifice this artifact: Add {U}, {R} or {G}.")
@@ -1327,7 +1327,7 @@ Fuse (You may cast one or both halves of this card from your hand.)
 ## Lune, Charting a Path
 
 ```
-WURG
+RGWU
 Legendary Creature - Human Expeditioner Wizard
 Lune can't have more than four stain counters on her.
 Whenever you cast an instant or sorcery spell, draw a card and put a stain counter on Lune for each of that spell's colors.
@@ -2070,7 +2070,7 @@ When one falls, we continue.
 ## The Paintress // Aline Dessendre, Stricken by Grief
 
 ```
-WURG
+RGWU
 Legendary Creature - Painter God
 Void Meteors — {B}{R}, {T}: The Paintress deals 3 damage divided as you choose among any number of target creatures and/or planeswalkers.
 Rips apart reality — {2}{U}, {T}: Up to two target nonland permanents phase out.
@@ -2155,7 +2155,7 @@ Lune: So he creates all of that for her.
 ## Tomorrow Comes
 
 ```
-UW
+WU
 Kindred Instant - Expeditioner
 Look at the top three cards of your library. Put one of them into your hand and the rest on the bottom of your library in any order.
 You gain 3 life.
