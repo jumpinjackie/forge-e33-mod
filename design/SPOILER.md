@@ -9,6 +9,7 @@
 - Multicolor: 103/103 cards
 - Artifacts: 66/66 cards
 - Lands: 41/41 cards
+
 | | | |
 |---|---|---|
 | ![](../custom/pics/cards/E33/Jar.full.jpg) | ![](../custom/pics/cards/E33/Petank.full.jpg) | ![](../custom/pics/cards/E33/Acceptance.full.jpg) |
@@ -275,6 +276,7 @@
 - Multicolor: 7/7 cards
 - Artifacts: 19/19 cards
 - Lands: 11/11 cards
+
 | | | |
 |---|---|---|
 | ![](../custom/pics/cards/E3C/A%20Life%20to%20Love.full.jpg) | ![](../custom/pics/cards/E3C/Austere%20Command.full.jpg) | ![](../custom/pics/cards/E3C/Path%20to%20Exile.full.jpg) |
