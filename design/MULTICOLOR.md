@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 28/12/2025 6:17:17 am
+> Last generated: 28/12/2025 12:01:18 pm
 
 ## A Storm is Coming
 
@@ -414,6 +414,15 @@ When this creature dies, target opponent creates a Lumina token.
     - For the clone ability, I preserved the original triggering condition but went against making token copies as that seemed really degenerate as the cloning trigger would also pass on to the tokens.
  - 13/10/2025: Removed Devoid.
  - 13/12/2025: Increased activated ability costs by {2}
+
+## Death Stare (Gaze of Granite)
+
+> This card is a nicknamed reprint of (Gaze of Granite)
+[Scryfall](https://scryfall.com/search?q=Gaze of Granite)
+### Notes
+
+ - In the game, upon choosing Verso's ending Lune was powerless to stop the destruction of the canvas. All she could do was give Verso the most mortifying stare for the betrayal he just wrought.
+ - Nicknamed reprint of Gaze of Granite. Originally thought about it being a commander reprint, but opted for a main set reprint, just so that we have a sweeper in Golgari colors.
 
 ## Dualliste
 
@@ -1550,6 +1559,26 @@ We all need masks.
     - Sadness Mask: Mapped exhaust to putting a stun counter on a creature.
  - The upkeep trigger wording probably sounds a bit weird. Default instinct is to use modal ability templating, but there is no textbox budget for that and there is no other precedent for templating such a triggered ability in this manner. So it is worded this way as a "creative decision".
     - This will be implemented as a modal trigger in Forge.
+
+## Mesmeric Deception
+
+```
+XUB
+Instant
+Tap X target creatures.
+Target opponent discards a card.
+Draw a card.
+---
+While the rest of the party was entranced by the memories of their loved ones, Verso had no such attachments and saw straight through Sirène’s deception.
+```
+
+[card implementation](../custom/cards/m/mesmeric_deception.txt)
+
+### Design Notes
+
+ - In the game, upon confronting Sirène, she mesmerizes the party with visions and memories of their loved ones. However, Verso had no such memories or attachments and saw straight through her ruse.
+ - This cards depicts this moment.
+ - Gone with a draft/limited tempo play with mild CA attached.
 
 ## Mime
 

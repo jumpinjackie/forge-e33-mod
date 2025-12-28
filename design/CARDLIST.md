@@ -29,7 +29,7 @@ From this list, card designs are spawned from it, which will eventually form the
 
 ## Card Name List
 
-Cards implemented: 407
+Cards implemented: 409
 
 [x] - Card is implemented or in development, [C] - Card is a commander reprint, [R] - Card is a regular reprint, [N] - Card is a nickname reprint, [Z] - Card is a nickname reprint for commander [ ] - Card is not implemented
 
@@ -102,6 +102,7 @@ Cards implemented: 407
 [x] Dark Shores
 [Z] Dark Gestral Arena
 [x] Death Picto
+[N] Death Stare
 [ ] Degagement
 [x] Démineur
 [x] Denial
@@ -270,6 +271,7 @@ Cards implemented: 407
 [x] Mask Keeper
 [x] Massacre at Dark Shores
 [x] Matthieu the Colossus
+[x] Mesmeric Deception
 [ ] Mezzo Forte
 [x] Mime
 [x] Monoco, Collector of Feet

@@ -102,6 +102,7 @@ Danseuse Teacher
 Dark Shores
 Dark Gestral Arena
 Death Picto
+Death Stare
 Degagement
 Démineur
 Denial
@@ -270,6 +271,7 @@ Marked!
 Mask Keeper
 Massacre at Dark Shores
 Matthieu the Colossus
+Mesmeric Deception
 Mezzo Forte
 Mime
 Monoco, Collector of Feet
