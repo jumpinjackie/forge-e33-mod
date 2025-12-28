@@ -249,7 +249,7 @@ Type=Custom
 288 C Orphelin @
 290 U Paint Spike @
 291 R Painted Alicia, Eternally Suffering @Sandfall Interactive
-293 R Painted Clea, the Mistress @Sandfall Interactive
+293 R Painted Clea, the Regent @Sandfall Interactive
 294 R Painted Renoir, Aline's Enforcer @
 295 U Painting Workshop @
 299 U Pelerin @

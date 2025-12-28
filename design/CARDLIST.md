@@ -290,7 +290,7 @@ Cards implemented: 409
 [N] Paint Cage
 [x] Paint Spike
 [x] Painted Alicia, Eternally Suffering
-[x] Painted Clea, the Mistress
+[ ] Painted Clea, the Mistress
 [ ] Painted Love
 [x] Painted Renoir, Aline's Enforcer
 [x] Painting Workshop

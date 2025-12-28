@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 28/12/2025 3:44:55 pm
+> Last generated: 28/12/2025 4:13:37 pm
 
 ## A Storm is Coming
 
@@ -1692,7 +1692,7 @@ Her silence is deafening.
     - And a Silence effect for the cost of 3 chroma tokens.
  - 4/11/2025: Exchanged abiltiies with human Alicia. Replaced Nevrons with Expeditioners for the null rod effect.
 
-## Painted Clea, the Mistress
+## Painted Clea, the Regent
 
 ```
 2UB
@@ -1708,7 +1708,7 @@ Maelle: I bet Clea hated Maman's portrait of her. So she painted over her.
 3/4
 ```
 
-[card implementation](../custom/cards/p/painted_clea_the_mistress.txt)
+[card implementation](../custom/cards/p/painted_clea_the_regent.txt)
 
 ### Design Notes
 
@@ -1723,6 +1723,7 @@ Maelle: I bet Clea hated Maman's portrait of her. So she painted over her.
  - 26/10/2025: Replaced tutoring with a Nevron sac to draw a card.
  - 2/11/2025: Reduced Nevron buff from +2/+2 to +1/+1
  - 27/11/2025: Reduced cost reduction from {2} to {1}
+ - 29/12/2025: Renamed to - Painted Clea, the Regent
 
 ## Painting Workshop
 
