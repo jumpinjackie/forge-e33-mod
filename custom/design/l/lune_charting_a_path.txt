@@ -1,10 +1,10 @@
 [Name]
 Lune, Charting a Path
 [ManaCost]
-W
-U
 R
 G
+W
+U
 [Types]
 Legendary
 Creature

@@ -1,9 +1,9 @@
 [Name]
 Esquie's Charge
 [ManaCost]
+G
 U
 R
-G
 [Types]
 Instant
 [Rarity]

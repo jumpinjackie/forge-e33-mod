@@ -2,8 +2,8 @@
 Expedition 60
 [ManaCost]
 2
-W
 G
+W
 [Types]
 Enchantment
 Saga

@@ -6,9 +6,9 @@ Human
 Expeditioner
 Wizard
 [ManaCost]
-W
 U
 R
+W
 [Rarity]
 U
 [Artist]

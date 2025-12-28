@@ -1,9 +1,9 @@
 [Name]
 Goblu
 [ManaCost]
+G
 U
 R
-G
 [Types]
 Legendary
 Creature

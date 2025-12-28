@@ -2,9 +2,9 @@
 Bourgeon
 [ManaCost]
 1
+R
 W
 B
-R
 [Types]
 Creature
 Nevron

@@ -1,8 +1,8 @@
 [Name]
 Tomorrow Comes
 [ManaCost]
-U
 W
+U
 [Types]
 Kindred
 Instant

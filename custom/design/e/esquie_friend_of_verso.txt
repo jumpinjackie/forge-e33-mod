@@ -2,8 +2,8 @@
 Esquie, Friend of Verso
 [ManaCost]
 3
-U
 G
+U
 [Types]
 Legendary
 Artifact
