@@ -33,8 +33,8 @@ jobs:
       run: |
         if [ -d "custom/dist/forge/custom" ]; then
           cd custom/dist/forge/custom
-          zip -r ../../../forge_assets.zip .
-          cd ../../../
+          zip -r ../../../../forge_assets.zip .
+          cd ../../../../
         else
           echo "Warning: custom/dist/forge/custom directory not found"
           exit 1
@@ -44,8 +44,8 @@ jobs:
       run: |
         if [ -d "custom/dist/forge/pics" ]; then
           cd custom/dist/forge/pics
-          zip -r ../../../forge_pics.zip .
-          cd ../../../
+          zip -r ../../../../forge_pics.zip .
+          cd ../../../../
         else
           echo "Warning: custom/dist/forge/pics directory not found"
           exit 1
@@ -55,8 +55,8 @@ jobs:
       run: |
         if [ -d "custom/dist/cockatrice/pics" ]; then
           cd custom/dist/cockatrice/pics
-          zip -r ../../../cockatrice_pics.zip .
-          cd ../../../
+          zip -r ../../../../cockatrice_pics.zip .
+          cd ../../../../
         else
           echo "Warning: custom/dist/cockatrice/pics directory not found"
           exit 1
