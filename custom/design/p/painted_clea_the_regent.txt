@@ -1,5 +1,5 @@
 [Name]
-Painted Clea, the Mistress
+Painted Clea, the Regent
 [ManaCost]
 2
 U
@@ -42,3 +42,4 @@ DeckHints:Type$Nevron
  - 26/10/2025: Replaced tutoring with a Nevron sac to draw a card.
  - 2/11/2025: Reduced Nevron buff from +2/+2 to +1/+1
  - 27/11/2025: Reduced cost reduction from {2} to {1}
+ - 29/12/2025: Renamed to - Painted Clea, the Regent

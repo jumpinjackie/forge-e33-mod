@@ -1,4 +1,4 @@
-Name:Painted Clea, the Mistress
+Name:Painted Clea, the Regent
 ManaCost:2 U B
 Types:Legendary Creature Painter God
 PT:3/4
