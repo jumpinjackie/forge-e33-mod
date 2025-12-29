@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 28/12/2025 4:13:37 pm
+> Last generated: 29/12/2025 6:56:29 am
 
 ## A Storm is Coming
 
@@ -284,7 +284,8 @@ Well. You're about to be reborn in this world as one of Aline's creations. Have 
 ### Design Notes
 
  - In the game, Alicia enters the Canvas to help Renoir only to be trapped by Aline's chroma and is "reborn" as Maelle.
- - Card depicts this moment. 
+ - Card depicts this moment.
+ - 29/12/2025: Downshift to uncommon
 
 ## Chromatic Reclamation
 
@@ -324,6 +325,7 @@ When this creature dies, target opponent creates a Lumina token.
 
  - In the game, Clair Obscur is a fusion of Clair and Obscur
  - Gone with a literal stapling of Clair and Obscur's abilities, mana costs and P/T together
+ - 29/12/2025: Downshift to uncommon
 
 ## Clea Dessendre, Seeking Vengeance
 

@@ -50,10 +50,10 @@ Type=Custom
 56 C Chroma Prison @Sandfall Interactive
 57 C Chromatic Inversion @
 59 C Chromatic Petrification @Sandfall Interactive
-60 R Chromatic Rebirth @
+60 U Chromatic Rebirth @
 61 R Chromatic Reclamation @
 62 U Clair @Sandfall Interactive
-63 R Clair Obscur @Sandfall Interactive
+63 U Clair Obscur @Sandfall Interactive
 64 M Clea Dessendre, Seeking Vengeance @
 65 U Clea's Chromatic Mastery @Sandfall Interactive
 66 U Closure @Sandfall Interactive
@@ -208,7 +208,7 @@ Type=Custom
 242 R Lumière Aquafarm @Sandfall Interactive
 243 U Lumière Assault @
 244 U Lumière Flower Stand @
-246 R Lumière Opera House @Sandfall Interactive
+246 U Lumière Opera House @Sandfall Interactive
 247 C Lumière Trashcan @
 248 R Lumière, The Last Bastion @Sandfall Interactive
 249 U Lumierian Apprentice @Sandfall Interactive

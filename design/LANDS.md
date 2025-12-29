@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 24/12/2025 5:15:19 am
+> Last generated: 29/12/2025 6:56:29 am
 
 ## Abbest Cave
 
@@ -355,6 +355,7 @@ Maybe when this is over, we can fix up the opera house and you can perform for u
 
  - In the game, in Maelle's ending. Verso plays piano at the Lumière Opera House (forever and ever?)
  - Mechanically speaking, music generally translates to creature buffs (see almost any "Anthem" card printed), so I went with a land that grows verse counters that can be spent to momentarily buff your force.
+ - 29/12/2025: Downshift to uncommon
 
 ## Lumière, The Last Bastion
 
