@@ -8,7 +8,7 @@ B
 Creature
 Nevron
 [Rarity]
-R
+U
 [Artist]
 Sandfall Interactive
 [PT]
@@ -33,3 +33,4 @@ $NEVRON_DEATH_ABILITY
 [DesignNotes]
  - In the game, Clair Obscur is a fusion of Clair and Obscur
  - Gone with a literal stapling of Clair and Obscur's abilities, mana costs and P/T together
+ - 29/12/2025: Downshift to uncommon

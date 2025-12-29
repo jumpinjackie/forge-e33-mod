@@ -7,7 +7,7 @@ no cost
 [Types]
 Land
 [Rarity]
-R
+U
 [Artist]
 Sandfall Interactive
 [Oracle]
@@ -25,3 +25,4 @@ A:AB$ PumpAll | Cost$ T SubCounter<2/VERSE> | ValidCards$ Creature.Expeditioner+
 [DesignNotes]
  - In the game, in Maelle's ending. Verso plays piano at the Lumière Opera House (forever and ever?)
  - Mechanically speaking, music generally translates to creature buffs (see almost any "Anthem" card printed), so I went with a land that grows verse counters that can be spent to momentarily buff your force.
+ - 29/12/2025: Downshift to uncommon
