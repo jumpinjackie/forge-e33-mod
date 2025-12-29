@@ -58,6 +58,7 @@ To see what cards are in this set, check out the various design docs which detai
 
 # Other design notes
 
+ * [Design Goals](/design/GOALS.md)
  * [Set Mechanics](/design/MECHANICS.md)
  * [Deck Archetypes](/design/ARCHETYPES.md)
 
