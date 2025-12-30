@@ -6,6 +6,9 @@ W
 Instant
 [Oracle]
 Exile target creature. Its controller may search their library for a basic land card, put that card onto the battlefield tapped, then shuffle.
+[FlavorText]
+Burying everyone you know while you live on... Can wear you down a bit.
+- Verso
 [IsReprint]
 true
 [IsCommander]

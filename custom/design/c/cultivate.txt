@@ -7,6 +7,8 @@ G
 Sorcery
 [Oracle]
 Search your library for up to two basic land cards, reveal those cards, put one onto the battlefield tapped and the other into your hand, then shuffle.
+[FlavorText]
+All seeds share a common bond, calling to each other across infinity.
 [IsReprint]
 true
 [IsCommander]

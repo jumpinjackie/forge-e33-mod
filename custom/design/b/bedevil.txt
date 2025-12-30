@@ -8,6 +8,8 @@ R
 Instant
 [Oracle]
 Destroy target artifact, creature, or planeswalker.
+[FlavorText]
+On that day... the world was changed forever...
 [IsReprint]
 true
 [IsCommander]

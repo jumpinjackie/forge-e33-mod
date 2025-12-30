@@ -6,6 +6,8 @@ Arcane Signet
 Artifact
 [Oracle]
 {T}: Add one mana of any color in your commander’s color identity.
+[FlavorText]
+Sometimes safety is a place. Sometimes it's a person. Sometimes it's a tangible reminder that even in darkness, hope persists.
 [IsReprint]
 true
 [IsCommander]

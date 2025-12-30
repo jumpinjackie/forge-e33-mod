@@ -6,6 +6,8 @@ no cost
 Land
 [Oracle]
 {T}: Add one mana of any color in your commander’s color identity.
+[FlavorText]
+To dizzying heights it rises, the gleaming spire, its tip threatening to pierce the blinding canopy. There it will all begin anew. Between Dark and Light, the pure and the corrupt—the one true struggle.
 [IsReprint]
 true
 [IsCommander]

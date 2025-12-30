@@ -11,8 +11,6 @@ This land enters tapped unless you control two or fewer other lands.
 The resting place of many previous failed expeditions.
 [IsReprint]
 true
-[IsCommander]
-true
 [Rarity]
 R
 [NicknameFor]

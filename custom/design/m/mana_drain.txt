@@ -7,6 +7,8 @@ U
 Instant
 [Oracle]
 Counter target spell. At the beginning of your next main phase, add an amount of {C} equal to that spell’s mana value.
+[FlavorText]
+Enthusiasm is no match for preparation.
 [IsReprint]
 true
 [IsCommander]

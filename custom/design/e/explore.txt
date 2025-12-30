@@ -8,6 +8,8 @@ Sorcery
 [Oracle]
 You may play an additional land this turn.
 Draw a card.
+[FlavorText]
+An explorer's reward is a view of tomorrow's possibilities.
 [IsReprint]
 true
 [Rarity]

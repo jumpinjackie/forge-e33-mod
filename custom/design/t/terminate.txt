@@ -7,6 +7,8 @@ R
 Instant
 [Oracle]
 Destroy target creature. It can’t be regenerated.
+[FlavorText]
+All suns must set.
 [IsReprint]
 true
 [Rarity]

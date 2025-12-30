@@ -6,6 +6,10 @@ U
 Instant
 [Oracle]
 Target creature you control gets +0/+3 and gains hexproof until end of turn. (It can’t be the target of spells or abilities your opponents control.)
+[FlavorText]
+Verso: Which one was Urrie again?
+Esquie: Urrie helps me swim underwater!
+Verso: Oh, right right.
 [IsReprint]
 true
 [Rarity]
