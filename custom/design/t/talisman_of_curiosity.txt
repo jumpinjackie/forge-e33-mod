@@ -4,6 +4,9 @@ Talisman of Curiosity
 2
 [Types]
 Artifact
+[Oracle]
+{T}: Add {C}.
+{T}: Add {G} or {U}. This artifact deals 1 damage to you.
 [IsReprint]
 true
 [IsCommander]

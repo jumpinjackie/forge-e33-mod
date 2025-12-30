@@ -5,6 +5,9 @@ Mask of Memory
 [Types]
 Artifact
 Equipment
+[Oracle]
+Whenever equipped creature deals combat damage to a player, you may draw two cards. If you do, discard a card.
+Equip {1} ({1}: Attach to target creature you control. Equip only as a sorcery.)
 [IsReprint]
 true
 [IsCommander]

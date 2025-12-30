@@ -3,6 +3,10 @@ Farseek
 [ManaCost]
 1
 G
+[Types]
+Sorcery
+[Oracle]
+Search your library for a Plains, Island, Swamp, or Mountain card, put it onto the battlefield tapped, then shuffle.
 [IsReprint]
 true
 [IsCommander]

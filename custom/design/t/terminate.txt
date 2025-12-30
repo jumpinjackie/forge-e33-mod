@@ -3,6 +3,10 @@ Terminate
 [ManaCost]
 B
 R
+[Types]
+Instant
+[Oracle]
+Destroy target creature. It can’t be regenerated.
 [IsReprint]
 true
 [Rarity]

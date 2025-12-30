@@ -4,6 +4,8 @@ Fellwar Stone
 2
 [Types]
 Artifact
+[Oracle]
+{T}: Add one mana of any color that a land an opponent controls could produce.
 [IsReprint]
 true
 [IsCommander]

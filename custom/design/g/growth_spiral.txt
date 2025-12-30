@@ -3,6 +3,10 @@ Growth Spiral
 [ManaCost]
 G
 U
+[Types]
+Instant
+[Oracle]
+Draw a card. You may put a land card from your hand onto the battlefield.
 [IsReprint]
 true
 [IsCommander]

@@ -4,6 +4,11 @@ Void Rend
 W
 U
 B
+[Types]
+Instant
+[Oracle]
+This spell can’t be countered.
+Destroy target nonland permanent.
 [IsReprint]
 true
 [IsCommander]

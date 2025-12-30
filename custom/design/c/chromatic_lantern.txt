@@ -4,6 +4,9 @@ Chromatic Lantern
 3
 [Types]
 Artifact
+[Oracle]
+Lands you control have “{T}: Add one mana of any color.”
+{T}: Add one mana of any color.
 [IsReprint]
 true
 [IsCommander]

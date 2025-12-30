@@ -4,6 +4,9 @@ Lumière Harbor
 Lumiere Harbor
 [Types]
 Land
+[Oracle]
+{T}: Add {C}.
+{1}, {T}: Tap target land.
 [IsReprint]
 true
 [NicknameFor]

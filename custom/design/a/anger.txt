@@ -7,6 +7,12 @@ R
 true
 [Rarity]
 U
+[Types]
+Creature
+Incarnation
+[Oracle]
+Haste
+As long as this card is in your graveyard and you control a Mountain, creatures you control have haste.
 [Artist]
 Svetlin Velinov
 [FlavorText]

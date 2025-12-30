@@ -3,6 +3,11 @@ Explore
 [ManaCost]
 1
 G
+[Types]
+Sorcery
+[Oracle]
+You may play an additional land this turn.
+Draw a card.
 [IsReprint]
 true
 [Rarity]

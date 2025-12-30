@@ -4,6 +4,8 @@ Command Tower
 no cost
 [Types]
 Land
+[Oracle]
+{T}: Add one mana of any color in your commander’s color identity.
 [IsReprint]
 true
 [IsCommander]

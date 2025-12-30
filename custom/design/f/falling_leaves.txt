@@ -4,6 +4,8 @@ Falling Leaves
 no cost
 [Types]
 Land
+[Oracle]
+Each land is a Forest in addition to its other land types.
 [IsReprint]
 true
 [Rarity]

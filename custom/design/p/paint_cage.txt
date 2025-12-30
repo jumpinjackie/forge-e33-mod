@@ -4,6 +4,8 @@ Paint Cage
 2
 [Types]
 Artifact
+[Oracle]
+When this artifact enters or is put into a graveyard from the battlefield, draw a card.
 [IsReprint]
 true
 [Rarity]

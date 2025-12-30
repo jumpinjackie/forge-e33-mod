@@ -4,6 +4,8 @@ Arcane Signet
 2
 [Types]
 Artifact
+[Oracle]
+{T}: Add one mana of any color in your commander’s color identity.
 [IsReprint]
 true
 [IsCommander]

@@ -9,6 +9,11 @@ true
 true
 [Rarity]
 R
+[Types]
+Instant
+[Oracle]
+This spell can’t be countered.
+Destroy target nonland permanent with mana value 3 or less.
 [Artist]
 Svetlin Velinov
 [DesignNotes]

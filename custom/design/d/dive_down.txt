@@ -2,6 +2,10 @@
 Dive Down
 [ManaCost]
 U
+[Types]
+Instant
+[Oracle]
+Target creature you control gets +0/+3 and gains hexproof until end of turn. (It can’t be the target of spells or abilities your opponents control.)
 [IsReprint]
 true
 [Rarity]

@@ -1,8 +1,13 @@
 [Name]
 Payback
 [ManaCost]
-1
+3
 W
+W
+[Types]
+Instant
+[Oracle]
+~ deals 5 damage divided as you choose among any number of target attacking or blocking creatures.
 [IsReprint]
 true
 [Rarity]

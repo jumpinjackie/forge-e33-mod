@@ -4,6 +4,10 @@ Pinnacle of Rage
 4
 R
 R
+[Types]
+Sorcery
+[Oracle]
+Pinnacle of Rage deals 3 damage to each of two targets.
 [Rarity]
 C
 [IsReprint]

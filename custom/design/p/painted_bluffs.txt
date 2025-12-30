@@ -5,6 +5,9 @@ no cost
 [Types]
 Land
 Desert
+[Oracle]
+{T}: Add {C}.
+{1}, {T}: Add one mana of any color.
 [IsReprint]
 true
 [Rarity]

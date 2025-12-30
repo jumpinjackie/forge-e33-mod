@@ -4,6 +4,9 @@ Talisman of Impulse
 2
 [Types]
 Artifact
+[Oracle]
+{T}: Add {C}.
+{T}: Add {R} or {G}. This artifact deals 1 damage to you.
 [IsReprint]
 true
 [IsCommander]

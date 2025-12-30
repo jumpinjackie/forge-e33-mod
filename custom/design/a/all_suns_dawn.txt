@@ -7,6 +7,10 @@ G
 true
 [Rarity]
 R
+[Types]
+Sorcery
+[Oracle]
+For each color, return up to one target card of that color from your graveyard to your hand. Exile All Suns’ Dawn.
 [FlavorText]
 Tomorrow comes.
 [Artist]

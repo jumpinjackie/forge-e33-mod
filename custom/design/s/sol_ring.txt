@@ -4,6 +4,8 @@ Sol Ring
 1
 [Types]
 Artifact
+[Oracle]
+{T}: Add {C}{C}.
 [IsReprint]
 true
 [IsCommander]

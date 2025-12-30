@@ -3,6 +3,10 @@ Feed the Swarm
 [ManaCost]
 1
 B
+[Types]
+Sorcery
+[Oracle]
+Destroy target creature or enchantment an opponent controls. You lose life equal to that permanent’s mana value.
 [IsReprint]
 true
 [IsCommander]

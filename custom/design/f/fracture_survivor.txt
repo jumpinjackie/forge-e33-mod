@@ -4,6 +4,15 @@ Fracture Survivor
 W
 [Rarity]
 U
+[Types]
+Creature
+Human
+Survivor
+[Oracle]
+Survival — At the beginning of your second main phase, if this creature is tapped, exile up to one target card from a graveyard.
+As long as there are three or more cards exiled with this creature, it gets +3/+3 and has hexproof. (It can’t be the target of spells or abilities your opponents control.)
+[PT]
+2/1
 [IsReprint]
 true
 [NicknameFor]

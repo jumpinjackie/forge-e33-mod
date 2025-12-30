@@ -4,6 +4,14 @@ Austere Command
 4
 W
 W
+[Types]
+Sorcery
+[Oracle]
+Choose two —
+• Destroy all artifacts.
+• Destroy all enchantments.
+• Destroy all creatures with mana value 3 or less.
+• Destroy all creatures with mana value 4 or greater.
 [IsReprint]
 true
 [IsCommander]

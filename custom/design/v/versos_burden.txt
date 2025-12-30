@@ -3,6 +3,12 @@ Verso's Burden
 [ManaCost]
 1
 B
+[Types]
+Enchantment
+Aura
+[Oracle]
+Enchant creature
+All damage that would be dealt to enchanted creature is dealt to its controller instead.
 [IsReprint]
 true
 [Rarity]

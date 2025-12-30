@@ -4,6 +4,10 @@ Bedevil
 B
 B
 R
+[Types]
+Instant
+[Oracle]
+Destroy target artifact, creature, or planeswalker.
 [IsReprint]
 true
 [IsCommander]

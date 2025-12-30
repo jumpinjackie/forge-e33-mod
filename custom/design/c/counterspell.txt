@@ -3,6 +3,10 @@ Counterspell
 [ManaCost]
 U
 U
+[Types]
+Instant
+[Oracle]
+Counter target spell.
 [IsReprint]
 true
 [IsCommander]

@@ -3,6 +3,10 @@ Mana Drain
 [ManaCost]
 U
 U
+[Types]
+Instant
+[Oracle]
+Counter target spell. At the beginning of your next main phase, add an amount of {C} equal to that spell’s mana value.
 [IsReprint]
 true
 [IsCommander]

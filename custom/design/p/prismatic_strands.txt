@@ -3,6 +3,11 @@ Prismatic Strands
 [ManaCost]
 2
 W
+[Types]
+Instant
+[Oracle]
+Prevent all damage that sources of the color of your choice would deal this turn.
+Flashback—Tap an untapped white creature you control. (You may cast this card from your graveyard for its flashback cost. Then exile it.)
 [IsReprint]
 true
 [Rarity]

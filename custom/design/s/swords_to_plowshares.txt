@@ -2,6 +2,10 @@
 Swords to Plowshares
 [ManaCost]
 W
+[Types]
+Instant
+[Oracle]
+Exile target creature. Its controller gains life equal to its power.
 [IsReprint]
 true
 [IsCommander]

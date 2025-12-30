@@ -4,6 +4,10 @@ Dualliste's Lair
 3
 B
 B
+[Types]
+Enchantment
+[Oracle]
+Whenever a creature is dealt damage, destroy it. It can’t be regenerated.
 [IsReprint]
 true
 [NicknameFor]

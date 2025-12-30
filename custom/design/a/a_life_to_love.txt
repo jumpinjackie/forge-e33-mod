@@ -12,6 +12,14 @@ true
 R
 [NicknameFor]
 Farewell
+[Types]
+Sorcery
+[Oracle]
+Choose one or more —
+• Exile all artifacts.
+• Exile all creatures.
+• Exile all enchantments.
+• Exile all graveyards.
 [Artist]
 Sandfall Interactive
 [DesignNotes]

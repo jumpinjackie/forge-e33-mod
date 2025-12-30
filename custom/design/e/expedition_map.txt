@@ -4,6 +4,8 @@ Expedition Map
 1
 [Types]
 Artifact
+[Oracle]
+{2}, {T}, Sacrifice this artifact: Search your library for a land card, reveal it, put it into your hand, then shuffle.
 [IsReprint]
 true
 [Rarity]

@@ -4,6 +4,9 @@ Thought Vessel
 2
 [Types]
 Artifact
+[Oracle]
+You have no maximum hand size.
+{T}: Add {C}.
 [IsReprint]
 true
 [IsCommander]

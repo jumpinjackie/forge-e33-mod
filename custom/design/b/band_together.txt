@@ -7,6 +7,12 @@ G
 true
 [Rarity]
 C
+[Types]
+Instant
+[Oracle]
+Up to two target creatures you control each deal damage equal to their power to another target creature.
+[FlavorText]
+Twice the strength, twice the agility.
 [Artist]
 Sandfall Interactive
 [DesignNotes]

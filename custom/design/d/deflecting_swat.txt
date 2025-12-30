@@ -3,6 +3,11 @@ Deflecting Swat
 [ManaCost]
 2
 R
+[Types]
+Instant
+[Oracle]
+If you control a commander, you may cast this spell without paying its mana cost.
+You may choose new targets for target spell or ability.
 [IsReprint]
 true
 [IsCommander]

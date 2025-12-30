@@ -4,6 +4,9 @@ Commander's Sphere
 3
 [Types]
 Artifact
+[Oracle]
+{T}: Add one mana of any color in your commander’s color identity.
+Sacrifice this artifact: Draw a card.
 [IsReprint]
 true
 [IsCommander]

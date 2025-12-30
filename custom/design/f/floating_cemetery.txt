@@ -4,6 +4,9 @@ Floating Cemetery
 no cost
 [Types]
 Land
+[Oracle]
+{T}: Add {C}.
+{5}, {T}, Exile this land: Target creature’s owner shuffles it into their library.
 [IsReprint]
 true
 [Rarity]

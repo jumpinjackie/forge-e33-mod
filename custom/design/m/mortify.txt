@@ -4,6 +4,10 @@ Mortify
 1
 W
 B
+[Types]
+Instant
+[Oracle]
+Destroy target creature or enchantment.
 [IsReprint]
 true
 [IsCommander]

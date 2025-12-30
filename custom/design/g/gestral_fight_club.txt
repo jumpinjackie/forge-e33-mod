@@ -3,6 +3,11 @@ Gestral Fight Club
 [ManaCost]
 3
 R
+[Types]
+Enchantment
+[Oracle]
+All creatures attack each combat if able.
+All creatures block each combat if able.
 [IsReprint]
 true
 [Rarity]

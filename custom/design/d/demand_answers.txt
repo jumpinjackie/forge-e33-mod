@@ -3,6 +3,11 @@ Demand Answers
 [ManaCost]
 1
 R
+[Types]
+Instant
+[Oracle]
+As an additional cost to cast this spell, sacrifice an artifact or discard a card.
+Draw two cards.
 [IsReprint]
 true
 [Rarity]

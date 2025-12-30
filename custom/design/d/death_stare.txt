@@ -5,6 +5,10 @@ X
 B
 B
 G
+[Types]
+Sorcery
+[Oracle]
+Destroy each nonland permanent with mana value X or less.
 [IsReprint]
 true
 [Rarity]

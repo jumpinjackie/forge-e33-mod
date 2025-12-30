@@ -4,6 +4,10 @@ Putrefy
 1
 B
 G
+[Types]
+Instant
+[Oracle]
+Destroy target artifact or creature. It can’t be regenerated.
 [IsReprint]
 true
 [IsCommander]

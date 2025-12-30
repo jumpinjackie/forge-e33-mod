@@ -2,6 +2,10 @@
 Patchwork Banner
 [Types]
 Artifact
+[Oracle]
+As this artifact enters, choose a creature type.
+Creatures you control of the chosen type get +1/+1.
+{T}: Add one mana of any color.
 [IsReprint]
 true
 [IsCommander]

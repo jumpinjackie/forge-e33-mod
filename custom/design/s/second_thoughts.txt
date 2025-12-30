@@ -3,6 +3,11 @@ Second Thoughts
 [ManaCost]
 4
 W
+[Types]
+Instant
+[Oracle]
+Exile target attacking creature.
+Draw a card.
 [IsReprint]
 true
 [Rarity]
