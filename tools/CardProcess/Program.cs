@@ -782,6 +782,18 @@ public class CardMasterDesign(string designFile)
         };
     }
 
+    public IEnumerable<string> GetCubeDraftableFaces()
+    {
+        if (FaceType == CardFaceType.Regular)
+            yield return this.InvariantName ?? this.Name;
+        else if (FaceType == CardFaceType.SplitFuse || FaceType == CardFaceType.SplitRoom)
+            yield return this.InvariantName ?? this.Name;
+        else if (FaceType == CardFaceType.DoubleFaced)
+            yield return this.FrontFull.InvariantName ?? this.FrontFull.Name;
+        else if (FaceType == CardFaceType.Meld)
+            yield return this.FrontFull.InvariantName ?? this.FrontFull.Name;
+    }
+
     public IEnumerable<CockatriceCardFace> GetCockatriceFaces()
     {
         if (FaceType == CardFaceType.Regular)
@@ -1577,7 +1589,7 @@ public class GenAllCommand : BaseCommand
         await GenerateCardListAsync(cards, designDir, OutputDir, stdout);
 
         // 6. Generate Cockatrice XML
-        await GenerateCockatriceXmlAsync(cards, tokens, OutputDir, stdout);
+        await GenerateCockatriceXmlAsync(cards, tokens, stdout);
 
         // Generate SPOILER.md containing a 3-column table of card and token images
         await GenerateSpoilerAsync(cards, tokens, BaseDirectory, OutputDir, stdout, stderr);
@@ -1806,22 +1818,46 @@ public class GenAllCommand : BaseCommand
         await stdout.WriteLineAsync("Updated CARDLIST.md");
     }
 
-    private async Task GenerateCockatriceXmlAsync(SortedDictionary<string, CardMasterDesign> cards, SortedDictionary<string, TokenDefinition> tokens, DirectoryInfo outputDir, TextWriter stdout)
+    record CockatriceXmlOptions(string FileName, string? ImageBaseUrl, bool IncludeBasics, bool IncludeCommander, bool IncludeTokens);
+
+    private async Task GenerateCockatriceXmlAsync(SortedDictionary<string, CardMasterDesign> cards, SortedDictionary<string, TokenDefinition> tokens, TextWriter stdout)
     {
         var cockatriceDir = Path.Combine(this.BaseDirectory.FullName, "dist", "cockatrice");
         Directory.CreateDirectory(cockatriceDir);
 
-        await GenerateXmlAsync(cards, tokens, new DirectoryInfo(cockatriceDir), stdout);
+        string? imageBaseUrl = null;
+
+        await GenerateXmlAsync(cards, tokens, new DirectoryInfo(cockatriceDir), stdout, new("Expedition33.xml", imageBaseUrl, true, true, true));
+        await GenerateXmlAsync(cards, tokens, new DirectoryInfo(cockatriceDir), stdout, new("Expedition33_dr4ft.xml", imageBaseUrl, false, false, false));
+
+        var cubePath = Path.Combine(cockatriceDir, "dr4ft_cube.txt");
+        using var sw = new StreamWriter(cubePath);
+
+        // Generate dr4ft cube listing
+        foreach (var (name, card) in cards)
+        {
+            if (card.IsCommander)
+                continue;
+
+            var (isBasic, _) = card.IsBasicLand();
+            if (isBasic)
+                continue;
+
+            foreach (var face in card.GetCubeDraftableFaces())
+            {
+                await sw.WriteLineAsync(face);
+            }
+        }
     }
 
-    private async Task GenerateXmlAsync(SortedDictionary<string, CardMasterDesign> cards, SortedDictionary<string, TokenDefinition> tokens, DirectoryInfo outputDir, TextWriter stdout)
+    private async Task GenerateXmlAsync(SortedDictionary<string, CardMasterDesign> cards, SortedDictionary<string, TokenDefinition> tokens, DirectoryInfo outputDir, TextWriter stdout, CockatriceXmlOptions options)
     {
         var sb = new StringBuilder();
         sb.AppendLine("<?xml version=\"1.0\" encoding=\"UTF-8\"?>");
         sb.AppendLine("<cockatrice_carddatabase version=\"4\">");
 
         sb.AppendLine(
-            """
+            $$"""
               <sets>
                 <set>
                   <name>E33</name>
@@ -1829,18 +1865,28 @@ public class GenAllCommand : BaseCommand
                   <settype>Custom</settype>
                   <releasedate>2025-09-17</releasedate>
                 </set>
-                <set>
+                {{(options.IncludeCommander ? 
+            $$"""
+            <set>
                   <name>E3C</name>
                   <longname>Clair Obscur: Expedition 33 Commander</longname>
                   <settype>Custom</settype>
                   <releasedate>2025-09-17</releasedate>
                 </set>
+            """ : "<!-- Commander set omitted -->")}}
               </sets>
               <cards>
             """);
 
         foreach (var (name, card) in cards)
         {
+            if (!options.IncludeCommander && card.IsCommander)
+                continue;
+
+            var (isBasic, _) = card.IsBasicLand();
+            if (!options.IncludeBasics && isBasic)
+                continue;
+
             var setCode = card.IsCommander ? "E3C" : "E33";
             var faces = card.GetCockatriceFaces();
             foreach (var face in faces)
@@ -1869,31 +1915,33 @@ public class GenAllCommand : BaseCommand
             }
         }
 
-        sb.AppendLine("    <!-- BEGIN tokens -->");
-
-        foreach (var (name, token) in tokens)
+        if (options.IncludeTokens)
         {
-            var setCode = "E33"; // tokens don't have IsCommander
-            sb.AppendLine($$"""
-                <card>
-                  <name>{{EscapeXml(name)}}</name>
-                  <text>{{EscapeXml(token.OracleTextFull ?? string.Empty)}}</text>
-                  <set>{{setCode}}</set>
-                  <prop>
-                    <colors>{{string.Join("", token.Colors ?? [])}}</colors>
-                    <cmc>0</cmc>
-                    <type>{{token.TypeLine}}</type>
-                    <maintype>{{token.MainType}}</maintype>
-                    {{(token.PT is not null ? $"<pt>{token.PT}</pt>" : "<!-- no pt -->")}}
-                  </prop>
-                  <token>1</token>
-                  <tablerow>{{token.GetTableRow()}}</tablerow>
-                </card>
-            """);
+            sb.AppendLine("    <!-- BEGIN tokens -->");
+
+            foreach (var (name, token) in tokens)
+            {
+                var setCode = "E33"; // tokens don't have IsCommander
+                sb.AppendLine($$"""
+                    <card>
+                    <name>{{EscapeXml(name)}}</name>
+                    <text>{{EscapeXml(token.OracleTextFull ?? string.Empty)}}</text>
+                    <set>{{setCode}}</set>
+                    <prop>
+                        <colors>{{string.Join("", token.Colors ?? [])}}</colors>
+                        <cmc>0</cmc>
+                        <type>{{token.TypeLine}}</type>
+                        <maintype>{{token.MainType}}</maintype>
+                        {{(token.PT is not null ? $"<pt>{token.PT}</pt>" : "<!-- no pt -->")}}
+                    </prop>
+                    <token>1</token>
+                    <tablerow>{{token.GetTableRow()}}</tablerow>
+                    </card>
+                """);
+            }
+
+            sb.AppendLine("    <!-- END tokens -->");
         }
-
-        sb.AppendLine("    <!-- END tokens -->");
-
         sb.AppendLine("  </cards>");
 
         string GetRarity(string name, string rarityCode) => rarityCode?.ToLowerInvariant() switch
@@ -1907,7 +1955,7 @@ public class GenAllCommand : BaseCommand
 
         sb.AppendLine("</cockatrice_carddatabase>");
 
-        var filePath = Path.Combine(outputDir.FullName, "Expedition33.xml");
+        var filePath = Path.Combine(outputDir.FullName, options.FileName);
         await File.WriteAllTextAsync(filePath, sb.ToString());
         await stdout.WriteLineAsync($"Generated Expedition33.xml with {cards.Count} cards and {tokens.Count} tokens");
     }
