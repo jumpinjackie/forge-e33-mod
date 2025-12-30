@@ -1,5 +1,5 @@
 ﻿# Visual Spoiler
-## Clair Obscur: Expedition 33 (E33) [363/363 cards]
+## Clair Obscur: Expedition 33 (E33) [363/364 cards]
 - Colorless: 2/2 cards
 - White: 28/28 cards
 - Blue: 35/35 cards
@@ -8,7 +8,7 @@
 - Green: 26/26 cards
 - Multicolor: 105/105 cards
 - Artifacts: 66/66 cards
-- Lands: 46/46 cards
+- Lands: 46/47 cards
 
 | | | |
 |---|---|---|
@@ -271,7 +271,7 @@
 | <center>Human Expeditioner Token</center> | <center>Lumina Token</center> | <center>Nevron Army Token</center> |
 | ![](../custom/pics/tokens/E33/c_1_1_nevron.jpg) | ![](../custom/pics/tokens/E33/w_1_1_party_guest.jpg) | ![](../custom/pics/tokens/E33/c_1_1_pot_nevron.jpg) |
 | <center>Nevron Token</center> | <center>Party Guest Token</center> | <center>Pot Nevron Token</center> |
-## Clair Obscur: Expedition 33 Commander (E3C) [46/46 cards]
+## Clair Obscur: Expedition 33 Commander (E3C) [45/45 cards]
 - White: 4/4 cards
 - Blue: 2/2 cards
 - Black: 3/3 cards
@@ -279,7 +279,7 @@
 - Green: 3/3 cards
 - Multicolor: 7/7 cards
 - Artifacts: 19/19 cards
-- Lands: 6/6 cards
+- Lands: 5/5 cards
 
 | | | |
 |---|---|---|
@@ -309,9 +309,7 @@
 | <center>[Talisman of Hierarchy](ARTIFACTS.md#talisman-of-hierarchy)</center> | <center>[Talisman of Impulse](ARTIFACTS.md#talisman-of-impulse)</center> | <center>[Talisman of Indulgence](ARTIFACTS.md#talisman-of-indulgence)</center> |
 | ![](../custom/pics/cards/E3C/Talisman%20of%20Progress.full.jpg) | ![](../custom/pics/cards/E3C/Talisman%20of%20Resilience.full.jpg) | ![](../custom/pics/cards/E3C/Talisman%20of%20Unity.full.jpg) |
 | <center>[Talisman of Progress](ARTIFACTS.md#talisman-of-progress)</center> | <center>[Talisman of Resilience](ARTIFACTS.md#talisman-of-resilience)</center> | <center>[Talisman of Unity](ARTIFACTS.md#talisman-of-unity)</center> |
-| ![](../custom/pics/cards/E3C/Thought%20Vessel.full.jpg) | ![](../custom/pics/cards/E3C/Boat%20Graveyard.full.jpg) | ![](../custom/pics/cards/E3C/Command%20Tower.full.jpg) |
-| <center>[Thought Vessel](ARTIFACTS.md#thought-vessel)</center> | <center>[Boat Graveyard (Darkslick Shores)](LANDS.md#boat-graveyard-darkslick-shores)</center> | <center>[Command Tower](LANDS.md#command-tower)</center> |
-| ![](../custom/pics/cards/E3C/Crimson%20Forest.full.jpg) | ![](../custom/pics/cards/E3C/Frozen%20Hearts.full.jpg) | ![](../custom/pics/cards/E3C/Sinister%20Cave.full.jpg) |
-| <center>[Crimson Forest (Karplusan Forest)](LANDS.md#crimson-forest-karplusan-forest)</center> | <center>[Frozen Hearts (Shivan Reef)](LANDS.md#frozen-hearts-shivan-reef)</center> | <center>[Sinister Cave (Sulfurous Springs)](LANDS.md#sinister-cave-sulfurous-springs)</center> |
-| ![](../custom/pics/cards/E3C/The%20Meadows.full.jpg) |   |   |
-| <center>[The Meadows (Brushland)](LANDS.md#the-meadows-brushland)</center> |   |   |
+| ![](../custom/pics/cards/E3C/Thought%20Vessel.full.jpg) | ![](../custom/pics/cards/E3C/Command%20Tower.full.jpg) | ![](../custom/pics/cards/E3C/Crimson%20Forest.full.jpg) |
+| <center>[Thought Vessel](ARTIFACTS.md#thought-vessel)</center> | <center>[Command Tower](LANDS.md#command-tower)</center> | <center>[Crimson Forest (Karplusan Forest)](LANDS.md#crimson-forest-karplusan-forest)</center> |
+| ![](../custom/pics/cards/E3C/Frozen%20Hearts.full.jpg) | ![](../custom/pics/cards/E3C/Sinister%20Cave.full.jpg) | ![](../custom/pics/cards/E3C/The%20Meadows.full.jpg) |
+| <center>[Frozen Hearts (Shivan Reef)](LANDS.md#frozen-hearts-shivan-reef)</center> | <center>[Sinister Cave (Sulfurous Springs)](LANDS.md#sinister-cave-sulfurous-springs)</center> | <center>[The Meadows (Brushland)](LANDS.md#the-meadows-brushland)</center> |

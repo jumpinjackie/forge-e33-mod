@@ -61,7 +61,7 @@ Cards implemented: 409
 [x] Bittersweet Reunion
 [N] Blade's Graveyard
 [x] Blanche, the Unfinished Creation
-[Z] Boat Graveyard
+[N] Boat Graveyard
 [x] Boucheclier
 [x] Bound by Chains
 [x] Bourgeon

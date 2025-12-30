@@ -339,6 +339,7 @@ Type=Custom
 27 R Blackblade Reforged @ ${"flavorName": "Barrier Breaker"}
 33 R Concealed Courtyard @Sandfall Interactive ${"flavorName": "Blade's Graveyard"}
 35 U Blot Out @Sandfall Interactive
+36 R Darkslick Shores @Sandfall Interactive ${"flavorName": "Boat Graveyard"}
 81 R Inspiring Vantage @Sandfall Interactive ${"flavorName": "Dark Gestral Arena"}
 84 R Gaze of Granite @ ${"flavorName": "Death Stare"}
 86 C Demand Answers @

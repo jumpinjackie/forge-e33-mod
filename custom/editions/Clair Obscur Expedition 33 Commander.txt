@@ -10,7 +10,6 @@ Type=Custom
 19 C Arcane Signet @Constantin Marin
 22 R Austere Command @rk post
 28 R Bedevil @Fang Xinyu
-36 R Darkslick Shores @Sandfall Interactive ${"flavorName": "Boat Graveyard"}
 48 R Chaos Warp @Trevor Claxton
 58 R Chromatic Lantern @Jung Park
 68 C Command Tower @Alayna Danner
