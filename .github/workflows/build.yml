@@ -70,6 +70,8 @@ jobs:
           forge_assets.zip
           forge_pics.zip
           cockatrice_pics.zip
+          custom/dist/cockatrice/dr4ft_cube.txt
+          custom/dist/cockatrice/Expedition33_dr4ft.xml
           custom/dist/cockatrice/Expedition33.xml
 
     - name: Create draft release
@@ -84,6 +86,8 @@ jobs:
           forge_assets.zip
           forge_pics.zip
           cockatrice_pics.zip
+          custom/dist/cockatrice/dr4ft_cube.txt
+          custom/dist/cockatrice/Expedition33_dr4ft.xml
           custom/dist/cockatrice/Expedition33.xml
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -96,6 +100,8 @@ jobs:
           forge_assets.zip
           forge_pics.zip
           cockatrice_pics.zip
+          custom/dist/cockatrice/dr4ft_cube.txt
+          custom/dist/cockatrice/Expedition33_dr4ft.xml
           custom/dist/cockatrice/Expedition33.xml
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
