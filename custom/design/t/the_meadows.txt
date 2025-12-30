@@ -4,6 +4,9 @@ The Meadows
 no cost
 [Types]
 Land
+[Oracle]
+{T}: Add {C}.
+{T}: Add {G} or {W}. This land deals 1 damage to you.
 [IsReprint]
 true
 [IsCommander]
