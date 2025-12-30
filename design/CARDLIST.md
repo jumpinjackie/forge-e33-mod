@@ -59,7 +59,7 @@ Cards implemented: 409
 [x] Berrami, Collector of Journals
 [x] Bertrand Big Hands
 [x] Bittersweet Reunion
-[Z] Blade's Graveyard
+[N] Blade's Graveyard
 [x] Blanche, the Unfinished Creation
 [Z] Boat Graveyard
 [x] Boucheclier
@@ -100,7 +100,7 @@ Cards implemented: 409
 [x] Danseuse
 [x] Danseuse Teacher
 [x] Dark Shores
-[Z] Dark Gestral Arena
+[N] Dark Gestral Arena
 [x] Death Picto
 [N] Death Stare
 [ ] Degagement
@@ -244,7 +244,7 @@ Cards implemented: 409
 [x] Limonsol, Matchmaker
 [x] Lorieniso, Gestral Musician
 [x] Lost Gestral
-[Z] Lost Woods
+[N] Lost Woods
 [x] Lumière Aquafarm
 [x] Lumière Assault
 [x] Lumière Flower Stand
@@ -329,7 +329,7 @@ Cards implemented: 409
 [Z] Sinister Cave
 [x] Sirène's Coliseum
 [x] Sky Break
-[Z] Sky Island
+[N] Sky Island
 [x] Soarrie
 [ ] Sorrowful Chapelier
 [x] Sprong
@@ -385,7 +385,7 @@ Cards implemented: 409
 [x] Volester
 [x] Whee // Whoo
 [x] When One Falls // We Continue
-[Z] White Sands
+[N] White Sands
 [N] Yellow Harvest
 ```
 

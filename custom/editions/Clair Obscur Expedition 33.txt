@@ -337,7 +337,9 @@ Type=Custom
 15 U Anger @Svetlin Velinov
 25 C Band Together @Sandfall Interactive
 27 R Blackblade Reforged @ ${"flavorName": "Barrier Breaker"}
+33 R Concealed Courtyard @Sandfall Interactive ${"flavorName": "Blade's Graveyard"}
 35 U Blot Out @Sandfall Interactive
+81 R Inspiring Vantage @Sandfall Interactive ${"flavorName": "Dark Gestral Arena"}
 84 R Gaze of Granite @ ${"flavorName": "Death Stare"}
 86 C Demand Answers @
 91 C Dive Down @Magali Villeneuve
@@ -349,6 +351,7 @@ Type=Custom
 165 U Ominous Cemetery @Sandfall Interactive ${"flavorName": "Floating Cemetery"}
 174 U Veteran Survivor @Sandfall Interactive ${"flavorName": "Fracture Survivor"}
 188 U Grand Melee @Sandfall Interactive ${"flavorName": "Gestral Fight Club"}
+241 R Blooming Marsh @Sandfall Interactive ${"flavorName": "Lost Woods"}
 245 R Rishadan Port @Sandfall Interactive ${"flavorName": "Lumière Harbor"}
 289 C Ichor Wellspring @Sandfall Interactive ${"flavorName": "Paint Cage"}
 292 C Painted Bluffs @Mark Poole
@@ -356,13 +359,15 @@ Type=Custom
 304 C Pinnacle of Rage @
 309 C Prismatic Strands @GraftiArt
 333 C Second Thoughts @
+343 R Botanical Sanctum @Sandfall Interactive ${"flavorName": "Sky Island"}
 346 R Razorverge Thicket @Sandfall Interactive ${"flavorName": "Spring Meadows"}
 350 U Stone Quarry @Sandfall Interactive
-351 R Stormcarved Coast @ ${"flavorName": "Stone Wave Cliffs"}
+351 R Spirebluff Canal @ ${"flavorName": "Stone Wave Cliffs"}
 352 R Blackcleave Cliffs @Sandfall Interactive ${"flavorName": "Sunless Cliffs"}
 369 C Terminate @Lucas Graciano
 377 R The World Tree @Sandfall Interactive ${"flavorName": "The Indigo Tree"}
 400 U Treacherous Link @Sandfall Interactive ${"flavorName": "Verso's Burden"}
+408 R Seachrome Coast @Sandfall Interactive ${"flavorName": "White Sands"}
 409 R Copperline Gorge @Sandfall Interactive ${"flavorName": "Yellow Harvest"}
 
 

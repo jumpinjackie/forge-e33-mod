@@ -10,8 +10,7 @@ Type=Custom
 19 C Arcane Signet @Constantin Marin
 22 R Austere Command @rk post
 28 R Bedevil @Fang Xinyu
-33 R Caves of Koilos @Sandfall Interactive ${"flavorName": "Blade's Graveyard"}
-36 R Underground River @Sandfall Interactive ${"flavorName": "Boat Graveyard"}
+36 R Darkslick Shores @Sandfall Interactive ${"flavorName": "Boat Graveyard"}
 48 R Chaos Warp @Trevor Claxton
 58 R Chromatic Lantern @Jung Park
 68 C Command Tower @Alayna Danner
@@ -20,7 +19,6 @@ Type=Custom
 72 R Karplusan Forest @Sandfall Interactive ${"flavorName": "Crimson Forest"}
 77 C Cultivate @Anthony Palumbo
 78 R Damn @Lucas Graciano
-81 R Battlefield Forge @Sandfall Interactive ${"flavorName": "Dark Gestral Arena"}
 85 R Deflecting Swat @rk post
 94 M Doubling Season @Chuck Lukacs
 160 C Farseek @Hristo D. Chukov
@@ -29,7 +27,6 @@ Type=Custom
 163 U Final Parting @
 176 R Shivan Reef @Sandfall Interactive ${"flavorName": "Frozen Hearts"}
 216 C Growth Spiral @Seb McKinnon
-241 R Llanowar Wastes @Sandfall Interactive ${"flavorName": "Lost Woods"}
 257 M Mana Drain @Raymond Swanland
 267 U Mask of Memory @Allen Morris
 272 R Mirage Mirror @Craig J Spearing
@@ -39,7 +36,6 @@ Type=Custom
 308 U Primal Empathy @
 310 U Putrefy @Clint Cearley
 339 R Sulfurous Springs @Sandfall Interactive ${"flavorName": "Sinister Cave"}
-343 R Yavimaya Coast @Sandfall Interactive ${"flavorName": "Sky Island"}
 345 U Sol Ring @Piotr Dura
 357 U Swords to Plowshares @Nadia Hurianova
 358 U Talisman of Conviction @Lindsey Look
@@ -55,4 +51,3 @@ Type=Custom
 378 R Brushland @Sandfall Interactive ${"flavorName": "The Meadows"}
 388 C Thought Vessel @rk post
 404 R Void Rend @Justyna Dura
-408 R Adarkar Wastes @Sandfall Interactive ${"flavorName": "White Sands"}

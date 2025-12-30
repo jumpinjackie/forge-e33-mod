@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 29/12/2025 6:56:29 am
+> Last generated: 30/12/2025 9:09:11 pm
 
 ## Abbest Cave
 
@@ -18,21 +18,23 @@ Land - Cave
  - In the game the Abbest Cave is a location where you can fight a Chromatic Abbest
  - Repurposed as a Nevron token factory land.
 
-## Blade's Graveyard (Caves of Koilos)
+## Blade's Graveyard (Concealed Courtyard)
 
-> This card is a nicknamed reprint of (Caves of Koilos)
-[Scryfall](https://scryfall.com/search?q=Caves of Koilos)
+> This card is a nicknamed reprint of (Concealed Courtyard)
+[Scryfall](https://scryfall.com/search?q=Concealed Courtyard)
 ### Notes
 
  - Nicknamed painland reprint to flesh out commander mana bases
+ - 31/12/2025: Changed to nickname reprint of Concealed Courtyard and moved to main set to improve cube draftability
 
-## Boat Graveyard (Underground River)
+## Boat Graveyard (Darkslick Shores)
 
-> This card is a nicknamed reprint of (Underground River)
-[Scryfall](https://scryfall.com/search?q=Underground River)
+> This card is a nicknamed reprint of (Darkslick Shores)
+[Scryfall](https://scryfall.com/search?q=Darkslick Shores)
 ### Notes
 
  - Nicknamed painland reprint to flesh out commander mana bases
+ - 31/12/2025: Changed to nickname reprint of Darkslick Shores and moved to main set to improve cube draftability
 
 ## Command Tower
 
@@ -71,13 +73,14 @@ If anyone finds this journal, do not enter this cave, the Nevron inside will cru
  - Mechanically represented as Pit Trap on a land. Comes into to play tapped to give any creature already on the battlefield at least one turn to get their shot in before they become the potential kill target.
  - 29/11/2025: Increased activation cost from {1} to {2}
 
-## Dark Gestral Arena (Battlefield Forge)
+## Dark Gestral Arena (Inspiring Vantage)
 
-> This card is a nicknamed reprint of (Battlefield Forge)
-[Scryfall](https://scryfall.com/search?q=Battlefield Forge)
+> This card is a nicknamed reprint of (Inspiring Vantage)
+[Scryfall](https://scryfall.com/search?q=Inspiring Vantage)
 ### Notes
 
  - Nicknamed painland reprint to flesh out commander mana bases
+ - 31/12/2025: Changed to nickname reprint of Inspiring Vantage and moved to main set to improve cube draftability
 
 ## Dark Shores
 
@@ -298,13 +301,14 @@ Gustave: They seem better at surviving than humans.
  - In the game, this is the home of the Gestrals.
  - A sol land for Gestral tribal decks. Due to their artifact nature, Gestrals are significantly easier to cast (unlike Eldrazi which require explicit coloress-pip producing lands), so where applicable, costs have increased, but this card is a bone thrown to to this deck to allow for some acceleration.
 
-## Lost Woods (Llanowar Wastes)
+## Lost Woods (Blooming Marsh)
 
-> This card is a nicknamed reprint of (Llanowar Wastes)
-[Scryfall](https://scryfall.com/search?q=Llanowar Wastes)
+> This card is a nicknamed reprint of (Blooming Marsh)
+[Scryfall](https://scryfall.com/search?q=Blooming Marsh)
 ### Notes
 
  - Nicknamed painland reprint to flesh out commander mana bases
+ - 31/12/2025: Changed to nickname reprint of Blooming Marsh and moved to main set to improve cube draftability
 
 ## Lumière Aquafarm
 
@@ -468,13 +472,14 @@ Maybe. Maybe we'll just stay here and... enjoy the melody.
  - In the game, this is the home of Sirène, one of the Axons.
  - Modelled on Grand Coliseum with drawbacks removed if you are Nevron/Painter aligned.
 
-## Sky Island (Yavimaya Coast)
+## Sky Island (Botanical Sanctum)
 
-> This card is a nicknamed reprint of (Yavimaya Coast)
-[Scryfall](https://scryfall.com/search?q=Yavimaya Coast)
+> This card is a nicknamed reprint of (Botanical Sanctum)
+[Scryfall](https://scryfall.com/search?q=Botanical Sanctum)
 ### Notes
 
  - Nicknamed painland reprint to flesh out commander mana bases
+ - 31/12/2025: Changed to nickname reprint of Botanical Sanctum and moved to main set to improve cube draftability
 
 ## Spring Meadows (Razorverge Thicket)
 
@@ -494,14 +499,15 @@ Maybe. Maybe we'll just stay here and... enjoy the melody.
  - In the game, Stone Quarry is an optional area. It features a non-hostile NPC known as the Unfinished Troubador
  - Name was already taken, and we lack a Boros dual land, so we'll take it.
 
-## Stone Wave Cliffs (Stormcarved Coast)
+## Stone Wave Cliffs (Spirebluff Canal)
 
-> This card is a nicknamed reprint of (Stormcarved Coast)
-[Scryfall](https://scryfall.com/search?q=Stormcarved Coast)
+> This card is a nicknamed reprint of (Spirebluff Canal)
+[Scryfall](https://scryfall.com/search?q=Spirebluff Canal)
 ### Notes
 
  - In the game, a Stone Wave Cliffs is the final area of Act 1.
  - Gone with nickname reprint of Stormcarved Coast.
+ - 31/12/2025: Changed to nickname reprint of Spirebluff Canal
 
 ## Sunless Cliffs (Blackcleave Cliffs)
 
@@ -679,13 +685,14 @@ Anxiety Mask — {2}{R}: Target creature cannot block this turn.
  - In line with other Axons not named Sirène, because it is both a boss and a landmark I want to weave both land and creature aspects. In this case I've gone with a land that transforms into its Axon creature counterpart.
  - Seething/Jovial/Sorrowful counter transformation condition approximates defeating the three primary masks before facing the Axon.
 
-## White Sands (Adarkar Wastes)
+## White Sands (Seachrome Coast)
 
-> This card is a nicknamed reprint of (Adarkar Wastes)
-[Scryfall](https://scryfall.com/search?q=Adarkar Wastes)
+> This card is a nicknamed reprint of (Seachrome Coast)
+[Scryfall](https://scryfall.com/search?q=Seachrome Coast)
 ### Notes
 
  - Nicknamed painland reprint to flesh out commander mana bases
+ - 31/12/2025: Changed to nickname reprint of Seachrome Coast and moved to main set to improve cube draftability
 
 ## Yellow Harvest (Copperline Gorge)
 
