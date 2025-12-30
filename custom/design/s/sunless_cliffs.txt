@@ -4,6 +4,9 @@ Sunless Cliffs
 no cost
 [Types]
 Land
+[Oracle]
+This land enters tapped unless you control two or fewer other lands.
+{T}: Add {B} or {R}.
 [IsReprint]
 true
 [Rarity]

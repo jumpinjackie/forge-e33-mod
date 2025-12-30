@@ -4,6 +4,9 @@ Yellow Harvest
 no cost
 [Types]
 Land
+[Oracle]
+This land enters tapped unless you control two or fewer other lands.
+{T}: Add {R} or {G}.
 [IsReprint]
 true
 [Rarity]

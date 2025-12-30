@@ -4,15 +4,17 @@ Dark Gestral Arena
 no cost
 [Types]
 Land
+[Oracle]
+This land enters tapped unless you control two or fewer other lands.
+{T}: Add {R} or {W}.
 [IsReprint]
-true
-[IsCommander]
 true
 [Rarity]
 R
 [NicknameFor]
-Battlefield Forge
+Inspiring Vantage
 [Artist]
 Sandfall Interactive
 [DesignNotes]
  - Nicknamed painland reprint to flesh out commander mana bases
+ - 31/12/2025: Changed to nickname reprint of Inspiring Vantage and moved to main set to improve cube draftability

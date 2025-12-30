@@ -4,15 +4,17 @@ Lost Woods
 no cost
 [Types]
 Land
+[Oracle]
+This land enters tapped unless you control two or fewer other lands.
+{T}: Add {B} or {G}.
 [IsReprint]
-true
-[IsCommander]
 true
 [Rarity]
 R
 [NicknameFor]
-Llanowar Wastes
+Blooming Marsh
 [Artist]
 Sandfall Interactive
 [DesignNotes]
  - Nicknamed painland reprint to flesh out commander mana bases
+ - 31/12/2025: Changed to nickname reprint of Blooming Marsh and moved to main set to improve cube draftability

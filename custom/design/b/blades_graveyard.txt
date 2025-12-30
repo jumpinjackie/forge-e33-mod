@@ -4,15 +4,17 @@ Blade's Graveyard
 no cost
 [Types]
 Land
+[Oracle]
+This land enters tapped unless you control two or fewer other lands.
+{T}: Add {W} or {B}.
 [IsReprint]
-true
-[IsCommander]
 true
 [Rarity]
 R
 [NicknameFor]
-Caves of Koilos
+Concealed Courtyard
 [Artist]
 Sandfall Interactive
 [DesignNotes]
  - Nicknamed painland reprint to flesh out commander mana bases
+ - 31/12/2025: Changed to nickname reprint of Concealed Courtyard and moved to main set to improve cube draftability

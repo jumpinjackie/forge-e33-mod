@@ -2,12 +2,16 @@
 Stone Wave Cliffs
 [Types]
 Land
+[Oracle]
+This land enters tapped unless you control two or fewer other lands.
+{T}: Add {U} or {R}.
 [Rarity]
 R
 [NicknameFor]
-Stormcarved Coast
+Spirebluff Canal
 [IsReprint]
 true
 [DesignNotes]
  - In the game, a Stone Wave Cliffs is the final area of Act 1.
  - Gone with nickname reprint of Stormcarved Coast.
+ - 31/12/2025: Changed to nickname reprint of Spirebluff Canal
