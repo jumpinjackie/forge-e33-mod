@@ -1,5 +1,5 @@
 ﻿# Visual Spoiler
-## Clair Obscur: Expedition 33 (E33) [363/364 cards]
+## Clair Obscur: Expedition 33 (E33) [364/364 cards]
 - Colorless: 2/2 cards
 - White: 28/28 cards
 - Blue: 35/35 cards
@@ -8,7 +8,7 @@
 - Green: 26/26 cards
 - Multicolor: 105/105 cards
 - Artifacts: 66/66 cards
-- Lands: 46/47 cards
+- Lands: 47/47 cards
 
 | | | |
 |---|---|---|
@@ -226,38 +226,38 @@
 | <center>[Shot Picto](ARTIFACTS.md#shot-picto)</center> | <center>[Soarrie](ARTIFACTS.md#soarrie)</center> | <center>[Sunniso, Gestral Bouncer](ARTIFACTS.md#sunniso-gestral-bouncer)</center> |
 | ![](../custom/pics/cards/E33/Tall%20Gestral.full.jpg) | ![](../custom/pics/cards/E33/The%20World%20Canvas.full.jpg) | ![](../custom/pics/cards/E33/Urrie.full.jpg) |
 | <center>[Tall Gestral](ARTIFACTS.md#tall-gestral)</center> | <center>[The World Canvas](ARTIFACTS.md#the-world-canvas)</center> | <center>[Urrie](ARTIFACTS.md#urrie)</center> |
-| ![](../custom/pics/cards/E33/Abbest%20Cave.full.jpg) | ![](../custom/pics/cards/E33/Blade%27s%20Graveyard.full.jpg) | ![](../custom/pics/cards/E33/Crushing%20Cavern.full.jpg) |
-| <center>[Abbest Cave](LANDS.md#abbest-cave)</center> | <center>[Blade's Graveyard (Concealed Courtyard)](LANDS.md#blades-graveyard-concealed-courtyard)</center> | <center>[Crushing Cavern](LANDS.md#crushing-cavern)</center> |
-| ![](../custom/pics/cards/E33/Dark%20Gestral%20Arena.full.jpg) | ![](../custom/pics/cards/E33/Dark%20Shores.full.jpg) | ![](../custom/pics/cards/E33/Endless%20Tower.full.jpg) |
-| <center>[Dark Gestral Arena (Inspiring Vantage)](LANDS.md#dark-gestral-arena-inspiring-vantage)</center> | <center>[Dark Shores](LANDS.md#dark-shores)</center> | <center>[Endless Tower](LANDS.md#endless-tower)</center> |
-| ![](../custom/pics/cards/E33/Esquie%27s%20Nest.full.jpg) | ![](../custom/pics/cards/E33/Expedition%20Camp.full.jpg) | ![](../custom/pics/cards/E33/Falling%20Leaves.full.jpg) |
-| <center>[Esquie's Nest](LANDS.md#esquies-nest)</center> | <center>[Expedition Camp](LANDS.md#expedition-camp)</center> | <center>[Falling Leaves (Yavimaya, Cradle of Growth)](LANDS.md#falling-leaves-yavimaya-cradle-of-growth)</center> |
-| ![](../custom/pics/cards/E33/Floating%20Cemetery.full.jpg) | ![](../custom/pics/cards/E33/Flying%20Casino.full.jpg) | ![](../custom/pics/cards/E33/Flying%20Waters.full.jpg) |
-| <center>[Floating Cemetery (Ominous Cemetery)](LANDS.md#floating-cemetery-ominous-cemetery)</center> | <center>[Flying Casino](LANDS.md#flying-casino)</center> | <center>[Flying Waters](LANDS.md#flying-waters)</center> |
-| ![](../custom/pics/cards/E33/Forgotten%20Battlefield.full.jpg) | ![](../custom/pics/cards/E33/Gestral%20Arena.full.jpg) | ![](../custom/pics/cards/E33/Gestral%20Beach.full.jpg) |
-| <center>[Forgotten Battlefield](LANDS.md#forgotten-battlefield)</center> | <center>[Gestral Arena](LANDS.md#gestral-arena)</center> | <center>[Gestral Beach](LANDS.md#gestral-beach)</center> |
-| ![](../custom/pics/cards/E33/Gestral%20Village.full.jpg) | ![](../custom/pics/cards/E33/Lost%20Woods.full.jpg) | ![](../custom/pics/cards/E33/Lumiere%20Aquafarm.full.jpg) |
-| <center>[Gestral Village](LANDS.md#gestral-village)</center> | <center>[Lost Woods (Blooming Marsh)](LANDS.md#lost-woods-blooming-marsh)</center> | <center>[Lumière Aquafarm](LANDS.md#lumière-aquafarm)</center> |
-| ![](../custom/pics/cards/E33/Lumiere%20Harbor.full.jpg) | ![](../custom/pics/cards/E33/Lumiere%20Opera%20House.full.jpg) | ![](../custom/pics/cards/E33/Lumiere%2C%20The%20Last%20Bastion.full.jpg) |
-| <center>[Lumière Harbor (Rishadan Port)](LANDS.md#lumière-harbor-rishadan-port)</center> | <center>[Lumière Opera House](LANDS.md#lumière-opera-house)</center> | <center>[Lumière, The Last Bastion](LANDS.md#lumière-the-last-bastion)</center> |
-| ![](../custom/pics/cards/E33/Manor%20Gardens.full.jpg) | ![](../custom/pics/cards/E33/Monoco%27s%20Station.full.jpg) | ![](../custom/pics/cards/E33/Painted%20Bluffs.full.jpg) |
-| <center>[Manor Gardens](LANDS.md#manor-gardens)</center> | <center>[Monoco's Station](LANDS.md#monocos-station)</center> | <center>[Painted Bluffs](LANDS.md#painted-bluffs)</center> |
-| ![](../custom/pics/cards/E33/Renoir%27s%20Drafts.full.jpg) | ![](../custom/pics/cards/E33/Sirene%27s%20Coliseum.full.jpg) | ![](../custom/pics/cards/E33/Sky%20Island.full.jpg) |
-| <center>[Renoir's Drafts](LANDS.md#renoirs-drafts)</center> | <center>[Sirène's Coliseum](LANDS.md#sirènes-coliseum)</center> | <center>[Sky Island (Botanical Sanctum)](LANDS.md#sky-island-botanical-sanctum)</center> |
-| ![](../custom/pics/cards/E33/Spring%20Meadows.full.jpg) | ![](../custom/pics/cards/E33/Stone%20Quarry.full.jpg) | ![](../custom/pics/cards/E33/Stone%20Wave%20Cliffs.full.jpg) |
-| <center>[Spring Meadows (Razorverge Thicket)](LANDS.md#spring-meadows-razorverge-thicket)</center> | <center>[Stone Quarry](LANDS.md#stone-quarry)</center> | <center>[Stone Wave Cliffs (Spirebluff Canal)](LANDS.md#stone-wave-cliffs-spirebluff-canal)</center> |
-| ![](../custom/pics/cards/E33/Sunless%20Cliffs.full.jpg) | ![](../custom/pics/cards/E33/The%20Hauler.full.jpg) | ![](../custom/pics/cards/E33/The%20Indigo%20Tree.full.jpg) |
-| <center>[Sunless Cliffs (Blackcleave Cliffs)](LANDS.md#sunless-cliffs-blackcleave-cliffs)</center> | <center>[The Hauler](LANDS.md#the-hauler)</center> | <center>[The Indigo Tree (The World Tree)](LANDS.md#the-indigo-tree-the-world-tree)</center> |
-| ![](../custom/pics/cards/E33/The%20Monolith.full.jpg) | ![](../custom/pics/cards/E33/The%20Monolith%20Interior.full.jpg) | ![](../custom/pics/cards/E33/The%20Reacher.full.jpg) |
-| <center>[The Monolith](LANDS.md#the-monolith)</center> | <center>[The Monolith Interior](LANDS.md#the-monolith-interior)</center> | <center>[The Reacher](LANDS.md#the-reacher)</center> |
-| ![](../custom/pics/cards/E33/The%20Sacred%20River.full.jpg) | ![](../custom/pics/cards/E33/Twilight%20Quarry.full.jpg) | ![](../custom/pics/cards/E33/Visages.full.jpg) |
-| <center>[The Sacred River](LANDS.md#the-sacred-river)</center> | <center>[Twilight Quarry](LANDS.md#twilight-quarry)</center> | <center>[Visages // He Who Guards Truth With Lies](LANDS.md#visages--he-who-guards-truth-with-lies)</center> |
-| ![](../custom/pics/cards/E33/He%20Who%20Guards%20Truth%20With%20Lies.full.jpg) | ![](../custom/pics/cards/E33/White%20Sands.full.jpg) | ![](../custom/pics/cards/E33/Yellow%20Harvest.full.jpg) |
-| <center>[Visages // He Who Guards Truth With Lies](LANDS.md#visages--he-who-guards-truth-with-lies)</center> | <center>[White Sands (Seachrome Coast)](LANDS.md#white-sands-seachrome-coast)</center> | <center>[Yellow Harvest (Copperline Gorge)](LANDS.md#yellow-harvest-copperline-gorge)</center> |
-| ![](../custom/pics/cards/E33/Forest.full.jpg) | ![](../custom/pics/cards/E33/Island.full.jpg) | ![](../custom/pics/cards/E33/Mountain.full.jpg) |
-| <center>Forest</center> | <center>Island</center> | <center>Mountain</center> |
-| ![](../custom/pics/cards/E33/Plains.full.jpg) | ![](../custom/pics/cards/E33/Swamp.full.jpg) |   |
-| <center>Plains</center> | <center>Swamp</center> |   |
+| ![](../custom/pics/cards/E33/Abbest%20Cave.full.jpg) | ![](../custom/pics/cards/E33/Blade%27s%20Graveyard.full.jpg) | ![](../custom/pics/cards/E33/Boat%20Graveyard.full.jpg) |
+| <center>[Abbest Cave](LANDS.md#abbest-cave)</center> | <center>[Blade's Graveyard (Concealed Courtyard)](LANDS.md#blades-graveyard-concealed-courtyard)</center> | <center>[Boat Graveyard (Darkslick Shores)](LANDS.md#boat-graveyard-darkslick-shores)</center> |
+| ![](../custom/pics/cards/E33/Crushing%20Cavern.full.jpg) | ![](../custom/pics/cards/E33/Dark%20Gestral%20Arena.full.jpg) | ![](../custom/pics/cards/E33/Dark%20Shores.full.jpg) |
+| <center>[Crushing Cavern](LANDS.md#crushing-cavern)</center> | <center>[Dark Gestral Arena (Inspiring Vantage)](LANDS.md#dark-gestral-arena-inspiring-vantage)</center> | <center>[Dark Shores](LANDS.md#dark-shores)</center> |
+| ![](../custom/pics/cards/E33/Endless%20Tower.full.jpg) | ![](../custom/pics/cards/E33/Esquie%27s%20Nest.full.jpg) | ![](../custom/pics/cards/E33/Expedition%20Camp.full.jpg) |
+| <center>[Endless Tower](LANDS.md#endless-tower)</center> | <center>[Esquie's Nest](LANDS.md#esquies-nest)</center> | <center>[Expedition Camp](LANDS.md#expedition-camp)</center> |
+| ![](../custom/pics/cards/E33/Falling%20Leaves.full.jpg) | ![](../custom/pics/cards/E33/Floating%20Cemetery.full.jpg) | ![](../custom/pics/cards/E33/Flying%20Casino.full.jpg) |
+| <center>[Falling Leaves (Yavimaya, Cradle of Growth)](LANDS.md#falling-leaves-yavimaya-cradle-of-growth)</center> | <center>[Floating Cemetery (Ominous Cemetery)](LANDS.md#floating-cemetery-ominous-cemetery)</center> | <center>[Flying Casino](LANDS.md#flying-casino)</center> |
+| ![](../custom/pics/cards/E33/Flying%20Waters.full.jpg) | ![](../custom/pics/cards/E33/Forgotten%20Battlefield.full.jpg) | ![](../custom/pics/cards/E33/Gestral%20Arena.full.jpg) |
+| <center>[Flying Waters](LANDS.md#flying-waters)</center> | <center>[Forgotten Battlefield](LANDS.md#forgotten-battlefield)</center> | <center>[Gestral Arena](LANDS.md#gestral-arena)</center> |
+| ![](../custom/pics/cards/E33/Gestral%20Beach.full.jpg) | ![](../custom/pics/cards/E33/Gestral%20Village.full.jpg) | ![](../custom/pics/cards/E33/Lost%20Woods.full.jpg) |
+| <center>[Gestral Beach](LANDS.md#gestral-beach)</center> | <center>[Gestral Village](LANDS.md#gestral-village)</center> | <center>[Lost Woods (Blooming Marsh)](LANDS.md#lost-woods-blooming-marsh)</center> |
+| ![](../custom/pics/cards/E33/Lumiere%20Aquafarm.full.jpg) | ![](../custom/pics/cards/E33/Lumiere%20Harbor.full.jpg) | ![](../custom/pics/cards/E33/Lumiere%20Opera%20House.full.jpg) |
+| <center>[Lumière Aquafarm](LANDS.md#lumière-aquafarm)</center> | <center>[Lumière Harbor (Rishadan Port)](LANDS.md#lumière-harbor-rishadan-port)</center> | <center>[Lumière Opera House](LANDS.md#lumière-opera-house)</center> |
+| ![](../custom/pics/cards/E33/Lumiere%2C%20The%20Last%20Bastion.full.jpg) | ![](../custom/pics/cards/E33/Manor%20Gardens.full.jpg) | ![](../custom/pics/cards/E33/Monoco%27s%20Station.full.jpg) |
+| <center>[Lumière, The Last Bastion](LANDS.md#lumière-the-last-bastion)</center> | <center>[Manor Gardens](LANDS.md#manor-gardens)</center> | <center>[Monoco's Station](LANDS.md#monocos-station)</center> |
+| ![](../custom/pics/cards/E33/Painted%20Bluffs.full.jpg) | ![](../custom/pics/cards/E33/Renoir%27s%20Drafts.full.jpg) | ![](../custom/pics/cards/E33/Sirene%27s%20Coliseum.full.jpg) |
+| <center>[Painted Bluffs](LANDS.md#painted-bluffs)</center> | <center>[Renoir's Drafts](LANDS.md#renoirs-drafts)</center> | <center>[Sirène's Coliseum](LANDS.md#sirènes-coliseum)</center> |
+| ![](../custom/pics/cards/E33/Sky%20Island.full.jpg) | ![](../custom/pics/cards/E33/Spring%20Meadows.full.jpg) | ![](../custom/pics/cards/E33/Stone%20Quarry.full.jpg) |
+| <center>[Sky Island (Botanical Sanctum)](LANDS.md#sky-island-botanical-sanctum)</center> | <center>[Spring Meadows (Razorverge Thicket)](LANDS.md#spring-meadows-razorverge-thicket)</center> | <center>[Stone Quarry](LANDS.md#stone-quarry)</center> |
+| ![](../custom/pics/cards/E33/Stone%20Wave%20Cliffs.full.jpg) | ![](../custom/pics/cards/E33/Sunless%20Cliffs.full.jpg) | ![](../custom/pics/cards/E33/The%20Hauler.full.jpg) |
+| <center>[Stone Wave Cliffs (Spirebluff Canal)](LANDS.md#stone-wave-cliffs-spirebluff-canal)</center> | <center>[Sunless Cliffs (Blackcleave Cliffs)](LANDS.md#sunless-cliffs-blackcleave-cliffs)</center> | <center>[The Hauler](LANDS.md#the-hauler)</center> |
+| ![](../custom/pics/cards/E33/The%20Indigo%20Tree.full.jpg) | ![](../custom/pics/cards/E33/The%20Monolith.full.jpg) | ![](../custom/pics/cards/E33/The%20Monolith%20Interior.full.jpg) |
+| <center>[The Indigo Tree (The World Tree)](LANDS.md#the-indigo-tree-the-world-tree)</center> | <center>[The Monolith](LANDS.md#the-monolith)</center> | <center>[The Monolith Interior](LANDS.md#the-monolith-interior)</center> |
+| ![](../custom/pics/cards/E33/The%20Reacher.full.jpg) | ![](../custom/pics/cards/E33/The%20Sacred%20River.full.jpg) | ![](../custom/pics/cards/E33/Twilight%20Quarry.full.jpg) |
+| <center>[The Reacher](LANDS.md#the-reacher)</center> | <center>[The Sacred River](LANDS.md#the-sacred-river)</center> | <center>[Twilight Quarry](LANDS.md#twilight-quarry)</center> |
+| ![](../custom/pics/cards/E33/Visages.full.jpg) | ![](../custom/pics/cards/E33/He%20Who%20Guards%20Truth%20With%20Lies.full.jpg) | ![](../custom/pics/cards/E33/White%20Sands.full.jpg) |
+| <center>[Visages // He Who Guards Truth With Lies](LANDS.md#visages--he-who-guards-truth-with-lies)</center> | <center>[Visages // He Who Guards Truth With Lies](LANDS.md#visages--he-who-guards-truth-with-lies)</center> | <center>[White Sands (Seachrome Coast)](LANDS.md#white-sands-seachrome-coast)</center> |
+| ![](../custom/pics/cards/E33/Yellow%20Harvest.full.jpg) | ![](../custom/pics/cards/E33/Forest.full.jpg) | ![](../custom/pics/cards/E33/Island.full.jpg) |
+| <center>[Yellow Harvest (Copperline Gorge)](LANDS.md#yellow-harvest-copperline-gorge)</center> | <center>Forest</center> | <center>Island</center> |
+| ![](../custom/pics/cards/E33/Mountain.full.jpg) | ![](../custom/pics/cards/E33/Plains.full.jpg) | ![](../custom/pics/cards/E33/Swamp.full.jpg) |
+| <center>Mountain</center> | <center>Plains</center> | <center>Swamp</center> |
 ### Tokens
 | | | |
 |---|---|---|
