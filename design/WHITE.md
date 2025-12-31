@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 27/12/2025 4:24:42 pm
+> Last generated: 31/12/2025 6:01:44 am
 
 ## A Life to Love (Farewell)
 
@@ -331,6 +331,25 @@ Your time left in this life is limited, why not make it count for something?
 ### Notes
 
  - Nickname reprint of Veteran Survivor
+
+## Gustave's Burial
+
+```
+1W
+Enchantment
+Whenever this enchantment enters, draw a card.
+Whenever a creature dies, you gain 1 life.
+---
+We could never tell if you were my brother or my father. But to me you were both. The best brother and father I’ve ever had.
+- Maelle
+```
+
+[card implementation](../custom/cards/g/gustaves_burial.txt)
+
+### Design Notes
+
+ - In the game, after defeating the Dualliste, the party find a special tree at Verso's recommendation where Maelle buries Gustave's remains.
+ - Card depicts this moment.
 
 ## Healing Light
 

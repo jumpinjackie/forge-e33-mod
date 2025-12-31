@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 29/12/2025 6:56:29 am
+> Last generated: 31/12/2025 6:01:44 am
 
 ## Axon Offering
 
@@ -486,6 +486,15 @@ You may have this creature enter as a copy of any nonlegendary Expeditioner crea
 
  - In Act 3 of the game, Renoir (now free) summons an assortment of Nevrons, including twisted copies of the citizens of Lumière to carry out his mission of destroying the canvas.
  - Easy mechanical map to a clone/copy effect, but for flavor purposes, will only clone a nonlegendary Expeditioner.
+
+## Unmask
+
+> This card is a reprint
+[Scryfall](https://scryfall.com/search?q=Unmask)
+### Notes
+
+ - In the game, at camp after slaying the two Axons and acquiring the Barrier Breaker, the party sleeps except for Verso, who is approached by Painted Alicia, who hands him a letter intended for Maelle, in that moment Verso removes her mask, stating she does not need to wear it.
+ - Perfect flavorful reprint of Unmask.
 
 ## Verso's Burden (Treacherous Link)
 
