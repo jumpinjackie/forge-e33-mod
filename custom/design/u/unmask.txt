@@ -1,0 +1,20 @@
+[Name]
+Unmask
+[ManaCost]
+3
+B
+[Types]
+Sorcery
+[Rarity]
+R
+[Oracle]
+You may exile a black card from your hand rather than pay this spell’s mana cost.
+Target player reveals their hand. You choose a nonland card from it. That player discards that card.
+[FlavorText]
+My beautiful sister doesn’t need this ugly mask.
+- Verso
+[IsReprint]
+true
+[DesignNotes]
+ - In the game, at camp after slaying the two Axons and acquiring the Barrier Breaker, the party sleeps except for Verso, who is approached by Painted Alicia, who hands him a letter intended for Maelle, in that moment Verso removes her mask, stating she does not need to wear it.
+ - Perfect flavorful reprint of Unmask.

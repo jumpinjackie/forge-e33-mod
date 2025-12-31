@@ -1,0 +1,23 @@
+[Name]
+Gustave's Burial
+[ManaCost]
+1
+W
+[Types]
+Enchantment
+[Rarity]
+C
+[Oracle]
+When ~ enters, draw a card.
+Whenever a creature dies, you gain 1 life.
+[FlavorText]
+We could never tell if you were my brother or my father. But to me you were both. The best brother and father I’ve ever had.
+- Maelle
+[ForgeScript]
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigDraw | TriggerDescription$ When ~ enters, draw a card.
+SVar:TrigDraw:DB$ Draw | Defined$ You | NumCards$ 1
+T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Creature | TriggerZones$ Battlefield | Execute$ TrigGain | TriggerDescription$ Whenever a creature dies, you gain 1 life.
+SVar:TrigGain:DB$ GainLife | Defined$ You | LifeAmount$ 1
+[DesignNotes]
+ - In the game, after defeating the Dualliste, the party find a special tree at Verso's recommendation where Maelle buries Gustave's remains.
+ - Card depicts this moment.
