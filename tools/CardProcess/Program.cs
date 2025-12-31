@@ -1549,6 +1549,9 @@ public class GenAllCommand : BaseCommand
     [CliOption(Description = "Link card captions to their documentation in bucket .md files")]
     public bool LinkifyCaptions { get; set; }
 
+    [CliOption(Description = "(cockatrice) The base URL for card images")]
+    public string? ImageBaseUrl { get; set; }
+
     protected override async Task<int> ExecuteAsync(
         CliContext context,
         TextWriter stdout,
@@ -1825,10 +1828,8 @@ public class GenAllCommand : BaseCommand
         var cockatriceDir = Path.Combine(this.BaseDirectory.FullName, "dist", "cockatrice");
         Directory.CreateDirectory(cockatriceDir);
 
-        string? imageBaseUrl = null;
-
-        await GenerateXmlAsync(cards, tokens, new DirectoryInfo(cockatriceDir), stdout, new("Expedition33.xml", imageBaseUrl, true, true, true));
-        await GenerateXmlAsync(cards, tokens, new DirectoryInfo(cockatriceDir), stdout, new("Expedition33_dr4ft.xml", imageBaseUrl, false, false, false));
+        await GenerateXmlAsync(cards, tokens, new DirectoryInfo(cockatriceDir), stdout, new("Expedition33.xml", this.ImageBaseUrl, true, true, true));
+        await GenerateXmlAsync(cards, tokens, new DirectoryInfo(cockatriceDir), stdout, new("Expedition33_dr4ft.xml", this.ImageBaseUrl, false, false, false));
 
         var cubePath = Path.Combine(cockatriceDir, "dr4ft_cube.txt");
         using var sw = new StreamWriter(cubePath);
@@ -1849,6 +1850,8 @@ public class GenAllCommand : BaseCommand
             }
         }
     }
+
+    static string UrlEncode(string str) => Uri.EscapeDataString(str);
 
     private async Task GenerateXmlAsync(SortedDictionary<string, CardMasterDesign> cards, SortedDictionary<string, TokenDefinition> tokens, DirectoryInfo outputDir, TextWriter stdout, CockatriceXmlOptions options)
     {
@@ -1891,11 +1894,21 @@ public class GenAllCommand : BaseCommand
             var faces = card.GetCockatriceFaces();
             foreach (var face in faces)
             {
+                string setEl = $"<set rarity=\"{GetRarity(face.Name, face.Rarity)}\">{setCode}</set>";
+                if (options.ImageBaseUrl is not null)
+                {
+                    var imageName = face.Name;
+                    if (card.FaceType == CardFaceType.SplitFuse || card.FaceType == CardFaceType.SplitRoom)
+                        imageName = face.Name.Replace(" // ", string.Empty);
+                    var picUrl = $"{options.ImageBaseUrl}/{UrlEncode(imageName)}.full.jpg";
+                    setEl = $"<set rarity=\"{GetRarity(face.Name, face.Rarity)}\" picurl=\"{picUrl}\">{setCode}</set>";
+                }
+
                 sb.AppendLine($$"""
                     <card>
                       <name>{{EscapeXml(face.Name)}}</name>
                       <text>{{EscapeXml(face.OracleText)}}</text>
-                      <set rarity="{{GetRarity(face.Name, face.Rarity)}}">{{setCode}}</set>
+                      {{setEl}}
                       <prop>
                         <colors>{{face.Colors}}</colors>
                         <manacost>{{face.ManaCost}}</manacost>
@@ -1922,11 +1935,17 @@ public class GenAllCommand : BaseCommand
             foreach (var (name, token) in tokens)
             {
                 var setCode = "E33"; // tokens don't have IsCommander
+                string setEl = $"<set>{setCode}</set>";
+                if (options.ImageBaseUrl is not null)
+                {
+                    var picUrl = $"{options.ImageBaseUrl}/{token.Filename}.jpg";
+                    setEl = $"<set picurl=\"{picUrl}\">{setCode}</set>";
+                }
                 sb.AppendLine($$"""
                     <card>
                     <name>{{EscapeXml(name)}}</name>
                     <text>{{EscapeXml(token.OracleTextFull ?? string.Empty)}}</text>
-                    <set>{{setCode}}</set>
+                    {{setEl}}
                     <prop>
                         <colors>{{string.Join("", token.Colors ?? [])}}</colors>
                         <cmc>0</cmc>
