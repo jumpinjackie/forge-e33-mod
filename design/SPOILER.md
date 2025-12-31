@@ -265,14 +265,16 @@
 |---|---|---|
 | ![](../custom/pics/tokens/E33/g_1_1_abbest_nevron.jpg) | ![](../custom/pics/tokens/E33/u_5_5_airship.jpg) | ![](../custom/pics/tokens/E33/g_1_1_ballet_nevron.jpg) |
 | <center>Abbest Token</center> | <center>Airship Token</center> | <center>Ballet Token</center> |
-| ![](../custom/pics/tokens/E33/c_a_chroma.jpg) | ![](../custom/pics/tokens/E33/c_a_clue_draw.jpg) | ![](../custom/pics/tokens/E33/b_4_4_dark_chromatic_beast.jpg) |
-| <center>Chroma Token</center> | <center>Clue Token</center> | <center>Dark Chromatic Beast</center> |
-| ![](../custom/pics/tokens/E33/c_a_flower.jpg) | ![](../custom/pics/tokens/E33/c_a_food_sac.jpg) | ![](../custom/pics/tokens/E33/a_1_1_gestral.jpg) |
-| <center>Flower Token</center> | <center>Food Token</center> | <center>Gestral Token</center> |
-| ![](../custom/pics/tokens/E33/w_1_1_human_expeditioner.jpg) | ![](../custom/pics/tokens/E33/c_a_lumina.jpg) | ![](../custom/pics/tokens/E33/b_0_0_nevron_army.jpg) |
-| <center>Human Expeditioner Token</center> | <center>Lumina Token</center> | <center>Nevron Army Token</center> |
-| ![](../custom/pics/tokens/E33/c_1_1_nevron.jpg) | ![](../custom/pics/tokens/E33/w_1_1_party_guest.jpg) | ![](../custom/pics/tokens/E33/c_1_1_pot_nevron.jpg) |
-| <center>Nevron Token</center> | <center>Party Guest Token</center> | <center>Pot Nevron Token</center> |
+| ![](../custom/pics/tokens/E33/c_a_chroma.jpg) | ![](../custom/pics/tokens/E33/c_a_clue_draw.jpg) | ![](../custom/pics/tokens/E33/ur_2_2_danseuse_clone.jpg) |
+| <center>Chroma Token</center> | <center>Clue Token</center> | <center>Danseuse Clone Token</center> |
+| ![](../custom/pics/tokens/E33/b_4_4_dark_chromatic_beast.jpg) | ![](../custom/pics/tokens/E33/c_a_flower.jpg) | ![](../custom/pics/tokens/E33/c_a_food_sac.jpg) |
+| <center>Dark Chromatic Beast</center> | <center>Flower Token</center> | <center>Food Token</center> |
+| ![](../custom/pics/tokens/E33/a_1_1_gestral.jpg) | ![](../custom/pics/tokens/E33/w_1_1_human_expeditioner.jpg) | ![](../custom/pics/tokens/E33/c_a_lumina.jpg) |
+| <center>Gestral Token</center> | <center>Human Expeditioner Token</center> | <center>Lumina Token</center> |
+| ![](../custom/pics/tokens/E33/b_0_0_nevron_army.jpg) | ![](../custom/pics/tokens/E33/c_1_1_nevron.jpg) | ![](../custom/pics/tokens/E33/w_1_1_party_guest.jpg) |
+| <center>Nevron Army Token</center> | <center>Nevron Token</center> | <center>Party Guest Token</center> |
+| ![](../custom/pics/tokens/E33/c_1_1_pot_nevron.jpg) |   |   |
+| <center>Pot Nevron Token</center> |   |   |
 ## Clair Obscur: Expedition 33 Commander (E3C) [45/45 cards]
 - White: 4/4 cards
 - Blue: 2/2 cards

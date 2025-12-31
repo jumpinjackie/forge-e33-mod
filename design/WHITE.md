@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 31/12/2025 6:01:44 am
+> Last generated: 31/12/2025 6:46:18 am
 
 ## A Life to Love (Farewell)
 
@@ -337,7 +337,7 @@ Your time left in this life is limited, why not make it count for something?
 ```
 1W
 Enchantment
-Whenever this enchantment enters, draw a card.
+When this enchantment enters, draw a card.
 Whenever a creature dies, you gain 1 life.
 ---
 We could never tell if you were my brother or my father. But to me you were both. The best brother and father I’ve ever had.
