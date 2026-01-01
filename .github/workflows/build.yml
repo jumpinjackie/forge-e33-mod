@@ -51,16 +51,16 @@ jobs:
           exit 1
         fi
 
-    - name: Create cockatrice_pics.zip
-      run: |
-        if [ -d "custom/dist/cockatrice/pics" ]; then
-          cd custom/dist/cockatrice/pics
-          zip -r ../../../../cockatrice_pics.zip .
-          cd ../../../../
-        else
-          echo "Warning: custom/dist/cockatrice/pics directory not found"
-          exit 1
-        fi
+    #- name: Create cockatrice_pics.zip
+    #  run: |
+    #    if [ -d "custom/dist/cockatrice/pics" ]; then
+    #      cd custom/dist/cockatrice/pics
+    #      zip -r ../../../../cockatrice_pics.zip .
+    #      cd ../../../../
+    #    else
+    #      echo "Warning: custom/dist/cockatrice/pics directory not found"
+    #      exit 1
+    #    fi
 
     - name: Upload build artifacts
       uses: actions/upload-artifact@v4
@@ -69,7 +69,8 @@ jobs:
         path: |
           forge_assets.zip
           forge_pics.zip
-          cockatrice_pics.zip
+          custom/dist/forge/E33_Cube.dck
+          custom/dist/forge/E33_Cube.draft
           custom/dist/cockatrice/dr4ft_cube.txt
           custom/dist/cockatrice/Expedition33_dr4ft.xml
           custom/dist/cockatrice/Expedition33.xml
@@ -85,7 +86,8 @@ jobs:
         files: |
           forge_assets.zip
           forge_pics.zip
-          cockatrice_pics.zip
+          custom/dist/forge/E33_Cube.dck
+          custom/dist/forge/E33_Cube.draft
           custom/dist/cockatrice/dr4ft_cube.txt
           custom/dist/cockatrice/Expedition33_dr4ft.xml
           custom/dist/cockatrice/Expedition33.xml
@@ -99,7 +101,8 @@ jobs:
         files: |
           forge_assets.zip
           forge_pics.zip
-          cockatrice_pics.zip
+          custom/dist/forge/E33_Cube.dck
+          custom/dist/forge/E33_Cube.draft
           custom/dist/cockatrice/dr4ft_cube.txt
           custom/dist/cockatrice/Expedition33_dr4ft.xml
           custom/dist/cockatrice/Expedition33.xml

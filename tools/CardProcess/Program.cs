@@ -1549,7 +1549,7 @@ public class GenAllCommand : BaseCommand
     [CliOption(Description = "Link card captions to their documentation in bucket .md files")]
     public bool LinkifyCaptions { get; set; }
 
-    [CliOption(Description = "(cockatrice) The base URL for card images")]
+    [CliOption(Required = false, Description = "(cockatrice) The base URL for card images")]
     public string? ImageBaseUrl { get; set; }
 
     protected override async Task<int> ExecuteAsync(
@@ -1593,6 +1593,9 @@ public class GenAllCommand : BaseCommand
 
         // 6. Generate Cockatrice XML
         await GenerateCockatriceXmlAsync(cards, tokens, stdout);
+
+        // 7. Generate Forge cube defn
+        await GenerateForgeCubeAsync(cards, tokens, stdout, stderr);
 
         // Generate SPOILER.md containing a 3-column table of card and token images
         await GenerateSpoilerAsync(cards, tokens, BaseDirectory, OutputDir, stdout, stderr);
@@ -1821,6 +1824,47 @@ public class GenAllCommand : BaseCommand
         await stdout.WriteLineAsync("Updated CARDLIST.md");
     }
 
+    private async Task GenerateForgeCubeAsync(SortedDictionary<string, CardMasterDesign> cards, SortedDictionary<string, TokenDefinition> tokens, TextWriter stdout, TextWriter stderr)
+    {
+        var forgeDir = Path.Combine(this.BaseDirectory.FullName, "dist", "forge");
+        Directory.CreateDirectory(forgeDir);
+
+        var draftPath = Path.Combine(forgeDir, "E33_Cube.draft");
+        await File.WriteAllTextAsync(draftPath, $"""
+        Name:E33 Cube
+        DeckFile:E33 Cube
+        Singleton:True
+
+        Booster: 15 Any
+        NumPacks: 3
+        """);
+
+        var cubePath = Path.Combine(forgeDir, "E33_Cube.dck");
+        using var sw = new StreamWriter(cubePath);
+
+        await sw.WriteLineAsync($"""
+        [metadata]
+        Name=E33 Cube
+        [Main]
+        """);
+
+        // Generate dr4ft cube listing
+        foreach (var (name, card) in cards)
+        {
+            if (card.IsCommander)
+                continue;
+
+            var (isBasic, _) = card.IsBasicLand();
+            if (isBasic)
+                continue;
+
+            if (card.FaceType == CardFaceType.SplitRoom || card.FaceType == CardFaceType.SplitFuse)
+                await sw.WriteLineAsync(card.Name + "|E33");
+            else
+                await sw.WriteLineAsync(card.FrontFull.Name + "|E33");
+        }
+    }
+
     record CockatriceXmlOptions(string FileName, string? ImageBaseUrl, bool IncludeBasics, bool IncludeCommander, bool IncludeTokens);
 
     private async Task GenerateCockatriceXmlAsync(SortedDictionary<string, CardMasterDesign> cards, SortedDictionary<string, TokenDefinition> tokens, TextWriter stdout)
@@ -1868,7 +1912,7 @@ public class GenAllCommand : BaseCommand
                   <settype>Custom</settype>
                   <releasedate>2025-09-17</releasedate>
                 </set>
-                {{(options.IncludeCommander ? 
+                {{(options.IncludeCommander ?
             $$"""
             <set>
                   <name>E3C</name>
