@@ -20,8 +20,9 @@ Whenever another creature becomes tapped, put a stun counter on it.
 If you could grow old... Would you... find a reason to smile?
 [ForgeScript]
 K:Fear
-T:Mode$ Taps | ValidCard$ Creature.Other | Execute$ TrigStun | TriggerDescription$ Whenever another creature becomes tapped, put a stun counter on it.
+T:Mode$ Taps | ValidCard$ Creature.Other | TriggerZones$ Battlefield | Execute$ TrigStun | TriggerDescription$ Whenever another creature becomes tapped, put a stun counter on it.
 SVar:TrigStun:DB$ PutCounter | Defined$ TriggeredCard | CounterType$ Stun | CounterNum$ 1
 [DesignNotes]
  - No in-game basis, but Grief is such a central theme of Expedition 33 that having a cycle dedicated to the 5 stages is a total flavor nuke.
  - Depression is the fourth stage. I've gone with a souped up version of Melancholy.
+ - 1/1/2026: Fix stun trigger happening in any zone, when it should only be on the battlefield.

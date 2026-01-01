@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 25/12/2025 11:51:55 pm
+> Last generated: 1/1/2026 12:45:35 pm
 
 ## Anger
 
@@ -355,7 +355,7 @@ When this aura is put into a graveyard from the battlefield, return it to its ow
 ```
 1R
 Creature - Human Expeditioner Soldier
-Mutiny! - Whenever an Expeditioner creature you control dies, target opponent gains control of this creature.
+Mutiny! - Whenever another Expeditioner creature you control dies, target opponent gains control of this creature.
 When this creature dies, create a Chroma token.
 ---
 It's a gutting realization, what has to be done. The mission is too important. The team is too important. We can't just throw our lives away for nothing. I hate that it came to this, but he broke our trust.
@@ -370,6 +370,7 @@ It's a gutting realization, what has to be done. The mission is too important. T
 
  - In the game, Expedition 48 was an expedition fraught with Mutiny and Treachery.
  - The mutinous nature has been captured with this creature joining the other side when one of your Expeditioner compatriots dies.
+ - 1/1/2026: Fixed buggy control transfer trigger.
 
 ## Orphelin
 

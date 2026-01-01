@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 28/12/2025 4:00:06 pm
+> Last generated: 1/1/2026 9:33:21 am
 
 ## A Rock for François
 
@@ -438,7 +438,7 @@ Wanna plant it?
 
 ```
 4
-Artifact Creature - Expeditioner Vehicle
+Artifact - Expeditioner Vehicle
 Whenever this vehicle attacks, if an Expeditioner crewed it this turn, it explores. (Reveal the top card of your library. Put that card into your hand if it’s a land. Otherwise, put a +1/+1 counter on this creature, then put the card back or put it into your graveyard.)
 Crew 2
 ---
@@ -453,6 +453,7 @@ As you sail into the unknown, know that Lumière stands with you. When you battl
 ### Design Notes
 
  - Depicts the ship Expedition 33 departs from Lumière in. Modeled on Adrestia.
+ - 1/1/2026: Drop creature type that was causing it to always be a creature without needing to crew it.
 
 ## Expedition Journal
 

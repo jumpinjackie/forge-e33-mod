@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 28/12/2025 3:30:03 pm
+> Last generated: 1/1/2026 9:08:04 am
 
 ## Abbest
 
@@ -174,6 +174,7 @@ One last swim separates me from Lumière, but even with my mighty muscles, I don
  - Depicts the member of the gigachad expedition that almost made it back to Lumière to relay the message about the true enemy.
  - The clue token left behind represents the expedition journal.
  - Has un-modified buffs because these gigachads don't require pithy things like clothing and armor.
+ - 1/1/2026: Fixed bad trigger description
 
 ## Expedition 69
 
@@ -429,7 +430,7 @@ Luminous — If you control three or more Lumina tokens, also return up to one t
 ```
 G
 Instant
-Kicker — {2}, Exert a creature you control.
+Kicker — {2}, Exert a tapped creature you control.
 Rock Throw deals 2 damage to target creature. If this spell was kicked, Rock Throw deals 4 damage instead.
 ---
 Have you tried throwing with your other arm instead? If you could hit the Paintress directly that would be useful.
@@ -442,6 +443,7 @@ Have you tried throwing with your other arm instead? If you could hit the Paintr
 
  - In the game, Gustave has a penchant for throwing rocks.
  - To give green some bones in spot removal for draft/limited, this is a shock for creatures that can be upgraded in damage.
+ - 1/1/2026: Fixed the kicker to exert a tapped creature as exert does not tap the creature as part of the exerting. I don't believe Forge supports a "tap and exert" action, so this is the closest thing.
 
 ## Sapling
 

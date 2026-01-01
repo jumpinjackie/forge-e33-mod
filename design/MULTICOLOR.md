@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 1/1/2026 4:50:05 am
+> Last generated: 1/1/2026 9:29:52 am
 
 ## A Storm is Coming
 
@@ -705,7 +705,7 @@ Enchantment - Saga
 (As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
 I — Destroy target Nevron. Create a Food token.
 II — Create 2 Food tokens.
-III — Until end of turn, Food tokens you control gain "Sacrifice this artifact: Target creature deals 3 damage to itself"
+III — Until end of turn, Food tokens you control gain "{1}, Sacrifice this artifact: Target creature deals 3 damage to itself"
 ```
 
 [card implementation](../custom/cards/e/expedition_59.txt)
@@ -714,6 +714,7 @@ III — Until end of turn, Food tokens you control gain "Sacrifice this artifact
 
  - Journal is a story of Expeditioners making the fatal mistake of eating dead nevrons for sustenance
  - "Food poisoning" ability adapted from Asmoranomardicadaistinaculdacar's ability
+ - 1/1/2026: Make the food poisoning ability cost {1} and sac.
 
 ## Expedition 59 Chef
 
@@ -721,7 +722,7 @@ III — Until end of turn, Food tokens you control gain "Sacrifice this artifact
 1(B/G)
 Creature - Human Expeditioner
 Whenever a Nevron creature dies, create a Food token.
-Sacrifice a Food token: Target creature deals 3 damage to itself.
+{1}, Sacrifice a Food token: Target non-Nevron creature deals 3 damage to itself.
 When this creature dies, create a Chroma token.
 ---
 I can't believe she convinced everyone to eat the Nevron. They've been puking for the past few hours. Great.
@@ -738,6 +739,7 @@ I can't believe she convinced everyone to eat the Nevron. They've been puking fo
  - This card represents the genius who suggested such an idea.
  - Has strong mechanical similarity to Asmoranomardicadaistinaculdacar so has the same "food poisoning" ability.
  - 5/10/2025: Reduced cost from 2(B/G) to 1(B/G)
+ - 1/1/2026: Made food poisioning cost {1} and sac and make it targeting non-Nevron creatures to avoid this being able to machine gun an entire board of low-tier Nevrons.
 
 ## Expedition 60
 

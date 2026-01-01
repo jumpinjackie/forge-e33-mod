@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 30/12/2025 9:09:11 pm
+> Last generated: 1/1/2026 9:08:04 am
 
 ## Abbest Cave
 
@@ -161,6 +161,7 @@ So uh... We can rest a bit, but the moon is bright, I want to keep moving.
  - In the game, the party can set up camp in the overworld to upgrade their equipment and replenish party health.
  - I envision this card as a "refuge" for Expeditioners ala. Safe Haven, so I've gone with a blink effect to signify the Expeditioner taking refuge and it coming back with a +1/+1 counter to signify it having ugpraded some of their equipment.
  - Intentionally worded to allow blinking of any Expeditioner *permanent*
+ - 1/1/2026: Fixed targeting prompt
 
 ## Falling Leaves (Yavimaya, Cradle of Growth)
 

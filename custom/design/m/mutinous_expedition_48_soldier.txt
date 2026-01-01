@@ -15,13 +15,16 @@ Sandfall Interactive
 [PT]
 3/3
 [Oracle]
-Mutiny! - Whenever an Expeditioner creature you control dies, target opponent gains control of this creature.
+Mutiny! - Whenever another Expeditioner creature you control dies, target opponent gains control of this creature.
 When this creature dies, create a Chroma token.
 [AbilityWords]
 Mutiny!
 [ForgeScript]
-T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Creature.Expeditioner+YouCtrl | TriggerZones$ Battlefield | Execute$ TrigDisloyalty | TriggerDescription$ Whenever an Expeditioner creature you control dies, target opponent gains control of this creature.
-SVar:TrigDisloyalty:DB$ GainControl | Defined$ Self | ValidTgts$ Opponent | TgtPrompt$ Select target opponent
+T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Creature.Other+Expeditioner+YouCtrl | TriggerZones$ Battlefield | Execute$ TrigDisloyalty | TriggerDescription$ Whenever another Expeditioner creature you control dies, target opponent gains control of this creature.
+# HACK: GainControl does not fizzle if the creature died at this point. It gets reanimated and control transfers to opponent!
+# I am taking a page out of Chaos Lord which also has conditional contorl transfer and have to do this SVar check as a workaround to ensure it fizzles if it's dead at this point.
+SVar:TrigDisloyalty:DB$ GainControl | Defined$ Self | ValidTgts$ Opponent | TgtPrompt$ Select target opponent | ConditionCheckSVar$ X | ConditionSVarCompare$ EQ1
+SVar:X:Count$Valid Card.Self
 T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Card.Self | Execute$ TrigToken | TriggerDescription$ When CARDNAME dies, create a Chroma token
 SVar:TrigToken:DB$ Token | TokenScript$ c_a_chroma | TokenOwner$ You | TokenAmount$ 1
 [FlavorText]
@@ -30,3 +33,4 @@ It's a gutting realization, what has to be done. The mission is too important. T
 [DesignNotes]
  - In the game, Expedition 48 was an expedition fraught with Mutiny and Treachery.
  - The mutinous nature has been captured with this creature joining the other side when one of your Expeditioner compatriots dies.
+ - 1/1/2026: Fixed buggy control transfer trigger.

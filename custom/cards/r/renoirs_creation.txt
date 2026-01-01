@@ -5,8 +5,8 @@ PT:3+*/3+*
 K:Devoid
 K:Trample
 K:Lifelink
-S:Mode$ Continuous | CharacteristicDefining$ True | SetPower$ X | SetToughness$ X | Description$ CARDNAME's power and toughness are each equal to 3 plus the number of Expeditioner creatures in all graveyards.
-SVar:X:Count$ValidGraveyard Creature.Expeditioner/Plus.3
+S:Mode$ Continuous | CharacteristicDefining$ True | SetPower$ X | SetToughness$ X | Description$ CARDNAME's power and toughness are each equal to 3 plus the number of Human creatures in all graveyards.
+SVar:X:Count$ValidGraveyard Creature.Human/Plus.3
 T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Card.Self | Execute$ TrigToken | TriggerDescription$ When this creature dies, target opponent creates a Lumina token.
 SVar:TrigToken:DB$ Token | TokenAmount$ 1 | ValidTgts$ Opponent | TokenOwner$ Targeted | TokenScript$ c_a_lumina
-Oracle:Devoid (This card has no color.)\nTrample, Lifelink\nThis creature's power and toughness are each equal to 3 plus the number of Expeditioner creature cards in all graveyards.\nWhen this creature dies, target opponent creates a Lumina token. (It's an artifact with "{T}, Sacrifice this artifact: Scry 1.")
+Oracle:Devoid (This card has no color.)\nTrample, Lifelink\nThis creature's power and toughness are each equal to 3 plus the number of Human creature cards in all graveyards.\nWhen this creature dies, target opponent creates a Lumina token. (It's an artifact with "{T}, Sacrifice this artifact: Scry 1.")

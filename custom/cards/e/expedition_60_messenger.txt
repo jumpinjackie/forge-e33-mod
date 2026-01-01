@@ -2,7 +2,7 @@ Name:Expedition 60 Messenger
 ManaCost:3 G
 Types:Creature Human Expeditioner Scout
 PT:2/2
-T:Mode$ ChangesZone | ValidCard$ Card.Self | Origin$ Battlefield | Execute$ TrigInvestigate | TriggerDescription$ When this creature leaves the battlefield, draw a card, then you may put a permanent card with mana value less than or equal to the number of lands you control from your hand onto the battlefield tapped.
+T:Mode$ ChangesZone | ValidCard$ Card.Self | Origin$ Battlefield | Execute$ TrigInvestigate | TriggerDescription$ When this creature leaves the battlefield, investigate (Create a Clue token. It’s an artifact with “{2}, Sacrifice this token: Draw a card.”)
 SVar:TrigInvestigate:DB$ Investigate
 S:Mode$ Continuous | Affected$ Card.Self+!modified | AddPower$ 2 | AddToughness$ 2 | Description$ This creature gets +2/+2 as long as it’s un-modified. (Equipment, Auras you control, and counters are modifications.)
 T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Card.Self | Execute$ TrigToken | TriggerDescription$ When CARDNAME dies, create a Chroma token

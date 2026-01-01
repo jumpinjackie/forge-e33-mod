@@ -4,7 +4,7 @@ Types:Creature Human Expeditioner
 PT:2/2
 T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Creature.Nevron | TriggerZones$ Battlefield | Execute$ TrigFood | TriggerDescription$ Whenever a Nevron creature dies, create a Food token.
 SVar:TrigFood:DB$ Token | TokenScript$ c_a_food_sac | TokenOwner$ You | TokenAmount$ 1
-A:AB$ DealDamage | Cost$ Sac<1/Food> | ValidTgts$ Creature | TgtPrompt$ Select target creature | DamageSource$ Targeted | NumDmg$ 3 | SpellDescription$ Target creature deals 3 damage to itself.
+A:AB$ DealDamage | Cost$ 1 Sac<1/Food> | ValidTgts$ Creature.nonNevron | TgtPrompt$ Select target creature | DamageSource$ Targeted | NumDmg$ 3 | SpellDescription$ Target creature deals 3 damage to itself.
 T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Card.Self | Execute$ TrigToken | TriggerDescription$ When CARDNAME dies, create a Chroma token
 SVar:TrigToken:DB$ Token | TokenScript$ c_a_chroma | TokenOwner$ You | TokenAmount$ 1
-Oracle:Whenever a Nevron creature dies, create a Food token.\nSacrifice a Food token: Target creature deals 3 damage to itself.\nWhen this creature dies, create a Chroma token.
+Oracle:Whenever a Nevron creature dies, create a Food token.\n{1}, Sacrifice a Food token: Target non-Nevron creature deals 3 damage to itself.\nWhen this creature dies, create a Chroma token.

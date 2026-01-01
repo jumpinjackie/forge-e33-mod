@@ -27,6 +27,7 @@ K:Ward:2
 K:etbCounter:SHIELD:1
 A:AB$ Tap | Cost$ 4 B T | ValidTgts$ Creature | TgtPrompt$ Select up to two target creatures | TargetMin$ 0 | TargetMax$ 2 | SpellDescription$ Tap up to two target creatures.
 A:AB$ DealDamage | Cost$ 2 B T | ValidTgts$ Creature | TgtPrompt$ Select target creature | NumDmg$ 2 | SubAbility$ DBGainLife | SpellDescription$ ~ deals 2 damage to target creature. You gain 2 life.
+SVar:DBGainLife:DB$ GainLife | Defined$ You | LifeAmount$ 2
 $NEVRON_DEATH_ABILITY
 [DesignNotes]
  - In the game, Noirs are high-tier tanky Nevrons found on the Dark Shores and are an excellent source of XP farming in the late game.
@@ -39,3 +40,4 @@ $NEVRON_DEATH_ABILITY
     - Added shield counter ETB to convey its tankiness.
     - Added "Gathers dark chroma" ability that we've mechanically mapped to a tap effect.
     - Added "Summons dark spear" ability that we've mechanically mapped to a mini creature syphon.
+ - 1/1/2026: Fixed missing lifegain in "Summons dark spear" ability

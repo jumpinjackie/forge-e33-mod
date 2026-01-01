@@ -7,15 +7,16 @@ Instant
 [Rarity]
 C
 [Oracle]
-Kicker — {2}, Exert a creature you control.
+Kicker — {2}, Exert a tapped creature you control.
 ~ deals 2 damage to target creature. If this spell was kicked, ~ deals 4 damage instead.
 [FlavorText]
 Have you tried throwing with your other arm instead? If you could hit the Paintress directly that would be useful.
 - Maelle
 [ForgeScript]
-K:Kicker:2 Exert<1/Creature.YouCtrl>
+K:Kicker:2 Exert<1/Creature.tapped+YouCtrl>
 A:SP$ DealDamage | ValidTgts$ Creature | TgtPrompt$ Select target creature | NumDmg$ WasKicked | SpellDescription$ CARDNAME deals 2 damage to target creature. If CARDNAME was kicked, it deals 4 damage instead.
 SVar:WasKicked:Count$Kicked.4.2
 [DesignNotes]
  - In the game, Gustave has a penchant for throwing rocks.
  - To give green some bones in spot removal for draft/limited, this is a shock for creatures that can be upgraded in damage.
+ - 1/1/2026: Fixed the kicker to exert a tapped creature as exert does not tap the creature as part of the exerting. I don't believe Forge supports a "tap and exert" action, so this is the closest thing.

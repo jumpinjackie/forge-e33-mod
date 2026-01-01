@@ -14,14 +14,14 @@ U
 [Oracle]
 Devoid $DEVOID_REMINDER_TEXT
 Trample, Lifelink
-~'s power and toughness are each equal to 3 plus the number of Expeditioner creature cards in all graveyards.
+~'s power and toughness are each equal to 3 plus the number of Human creature cards in all graveyards.
 $NEVRON_DEATH_ABILITY_TEXT
 [ForgeScript]
 K:Devoid
 K:Trample
 K:Lifelink
-S:Mode$ Continuous | CharacteristicDefining$ True | SetPower$ X | SetToughness$ X | Description$ CARDNAME's power and toughness are each equal to 3 plus the number of Expeditioner creatures in all graveyards.
-SVar:X:Count$ValidGraveyard Creature.Expeditioner/Plus.3
+S:Mode$ Continuous | CharacteristicDefining$ True | SetPower$ X | SetToughness$ X | Description$ CARDNAME's power and toughness are each equal to 3 plus the number of Human creatures in all graveyards.
+SVar:X:Count$ValidGraveyard Creature.Human/Plus.3
 $NEVRON_DEATH_ABILITY
 [DesignNotes]
  - In the game, Creation is a high-tier Nevron that starts appearing in Act 3.
@@ -29,3 +29,4 @@ $NEVRON_DEATH_ABILITY
  - The variable P/T is a nod to the creature's design in the video game. It is *literally* composed of Expeditioner corpses so it makes logical sense to have P/T based off of Expeditioner creature cards across all graveyards.
  - This should have Devoid (because its attacks deal void damage), but the Devoid frame in CardConjurer is transparent, requiring the art for this to be in portrait orientation where the subject is predominantly in the top-half. No such depiction can be sourced as all the possible candidates are in landscape. If we can source a depiction of this Nevron in portrait with the required constraints, then we'll add in Devoid.
  - 28/12/2025: Now has Devoid (thanks photo mode for letting me get a portrait-sized snap!)
+ - 1/1/2026: Changed to count dead Humans instead of dead Expeditioners. As lore-wise it could be composed of corpses of not just Expeditioners, but the citizens of Lumiere as well.

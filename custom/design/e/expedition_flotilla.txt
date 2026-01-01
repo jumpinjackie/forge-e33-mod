@@ -4,7 +4,6 @@ Expedition Flotilla
 4
 [Types]
 Artifact
-Creature
 Expeditioner
 Vehicle
 [PT]
@@ -18,10 +17,11 @@ Crew 2
 As you sail into the unknown, know that Lumière stands with you. When you battle the Paintress, know that Lumière fights with you.
 - Emma
 [ForgeScript]
+K:Crew:2
 T:Mode$ Attacks | ValidCard$ Card.Self | CheckSVar$ X | TriggerZones$ Battlefield | Execute$ TrigExplore | TriggerDescription$ Whenever this vehicle attacks, if an Expeditioner crewed it this turn, it explores.
 SVar:TrigExplore:DB$ Explore
 SVar:X:Crewed$Valid Expeditioner
-K:Crew:2
 SVar:TrigDraw:DB$ Draw | NumCards$ 1
 [DesignNotes]
  - Depicts the ship Expedition 33 departs from Lumière in. Modeled on Adrestia.
+ - 1/1/2026: Drop creature type that was causing it to always be a creature without needing to crew it.

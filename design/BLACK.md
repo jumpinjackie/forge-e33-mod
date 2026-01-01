@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 31/12/2025 6:01:44 am
+> Last generated: 1/1/2026 10:43:56 am
 
 ## Axon Offering
 
@@ -116,6 +116,7 @@ If you could grow old... Would you... find a reason to smile?
 
  - No in-game basis, but Grief is such a central theme of Expedition 33 that having a cycle dedicated to the 5 stages is a total flavor nuke.
  - Depression is the fourth stage. I've gone with a souped up version of Melancholy.
+ - 1/1/2026: Fix stun trigger happening in any zone, when it should only be on the battlefield.
 
 ## Dualliste's Lair (Death Pits of Rath)
 
@@ -287,6 +288,7 @@ When this creature dies, target opponent creates a Lumina token.
     - Added shield counter ETB to convey its tankiness.
     - Added "Gathers dark chroma" ability that we've mechanically mapped to a tap effect.
     - Added "Summons dark spear" ability that we've mechanically mapped to a mini creature syphon.
+ - 1/1/2026: Fixed missing lifegain in "Summons dark spear" ability
 
 ## Obscur
 
@@ -378,7 +380,7 @@ When this creature dies, target opponent creates a Lumina token. (It's an artifa
 Creature - Nevron
 Devoid (This card has no color.)
 Trample, Lifelink
-This creature's power and toughness are each equal to 3 plus the number of Expeditioner creature cards in all graveyards.
+This creature's power and toughness are each equal to 3 plus the number of Human creature cards in all graveyards.
 When this creature dies, target opponent creates a Lumina token. (It's an artifact with "{T}, Sacrifice this artifact: Scry 1.")
 
 3+*/3+*
@@ -393,6 +395,7 @@ When this creature dies, target opponent creates a Lumina token. (It's an artifa
  - The variable P/T is a nod to the creature's design in the video game. It is *literally* composed of Expeditioner corpses so it makes logical sense to have P/T based off of Expeditioner creature cards across all graveyards.
  - This should have Devoid (because its attacks deal void damage), but the Devoid frame in CardConjurer is transparent, requiring the art for this to be in portrait orientation where the subject is predominantly in the top-half. No such depiction can be sourced as all the possible candidates are in landscape. If we can source a depiction of this Nevron in portrait with the required constraints, then we'll add in Devoid.
  - 28/12/2025: Now has Devoid (thanks photo mode for letting me get a portrait-sized snap!)
+ - 1/1/2026: Changed to count dead Humans instead of dead Expeditioners. As lore-wise it could be composed of corpses of not just Expeditioners, but the citizens of Lumiere as well.
 
 ## Renoir's Will
 

@@ -15,7 +15,7 @@ Sandfall Interactive
 2/2
 [Oracle]
 Whenever a Nevron creature dies, create a Food token.
-Sacrifice a Food token: Target creature deals 3 damage to itself.
+{1}, Sacrifice a Food token: Target non-Nevron creature deals 3 damage to itself.
 When this creature dies, create a Chroma token.
 [FlavorText]
 I can't believe she convinced everyone to eat the Nevron. They've been puking for the past few hours. Great.
@@ -23,7 +23,7 @@ I can't believe she convinced everyone to eat the Nevron. They've been puking fo
 [ForgeScript]
 T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Creature.Nevron | TriggerZones$ Battlefield | Execute$ TrigFood | TriggerDescription$ Whenever a Nevron creature dies, create a Food token.
 SVar:TrigFood:DB$ Token | TokenScript$ c_a_food_sac | TokenOwner$ You | TokenAmount$ 1
-A:AB$ DealDamage | Cost$ Sac<1/Food> | ValidTgts$ Creature | TgtPrompt$ Select target creature | DamageSource$ Targeted | NumDmg$ 3 | SpellDescription$ Target creature deals 3 damage to itself.
+A:AB$ DealDamage | Cost$ 1 Sac<1/Food> | ValidTgts$ Creature.nonNevron | TgtPrompt$ Select target creature | DamageSource$ Targeted | NumDmg$ 3 | SpellDescription$ Target creature deals 3 damage to itself.
 T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Card.Self | Execute$ TrigToken | TriggerDescription$ When CARDNAME dies, create a Chroma token
 SVar:TrigToken:DB$ Token | TokenScript$ c_a_chroma | TokenOwner$ You | TokenAmount$ 1
 [DesignNotes]
@@ -31,3 +31,4 @@ SVar:TrigToken:DB$ Token | TokenScript$ c_a_chroma | TokenOwner$ You | TokenAmou
  - This card represents the genius who suggested such an idea.
  - Has strong mechanical similarity to Asmoranomardicadaistinaculdacar so has the same "food poisoning" ability.
  - 5/10/2025: Reduced cost from 2(B/G) to 1(B/G)
+ - 1/1/2026: Made food poisioning cost {1} and sac and make it targeting non-Nevron creatures to avoid this being able to machine gun an entire board of low-tier Nevrons.
