@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 29/12/2025 6:56:29 am
+> Last generated: 1/1/2026 4:43:03 am
 
 ## A Storm is Coming
 
@@ -2271,6 +2271,26 @@ Let's carve a path.
  - Resurrection ability because he's immortal.
  - Added an assortment of buffs and abilities that are conditional on the number of rank counters.
  - "Phantom Stars" ultimate is paid in rank counters for game balance purposes. In game, none of Verso's abilities cost him is rank.
+
+## Verso's Composition
+
+```
+GW
+Enchantment
+At the beginning of your upkeep, you may put a verse counter on this enchantment.
+Sacrifice this enchantment: Target creature gets +X/+X and lifelink until end of turn, where X is the number of verse counters on this enchantment.
+---
+Maelle: What song was that? I feel like I know it.
+Verso: Yeah, it’s an old song I used to play to my sister.
+Maelle: Can you play another?
+```
+
+[card implementation](../custom/cards/v/versos_composition.txt)
+
+### Design Notes
+
+ - In the game, during one of the camp cutscenes, Verso plays some tunes on his piano.
+ - Modeled on War Dance, with a lifelink bonus attached.
 
 ## Vicarious Envy
 

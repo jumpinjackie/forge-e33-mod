@@ -49,4 +49,4 @@ Type=Custom
 368 U Talisman of Unity @Mike Dringenberg
 379 R Brushland @Sandfall Interactive ${"flavorName": "The Meadows"}
 389 C Thought Vessel @rk post
-406 R Void Rend @Justyna Dura
+407 R Void Rend @Justyna Dura

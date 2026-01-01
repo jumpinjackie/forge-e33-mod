@@ -327,12 +327,13 @@ Type=Custom
 399 U Urrie @Sandfall Interactive
 400 R Verisimilitude @Sandfall Interactive
 401 R Verso, Who Guards Truth With Lies @
-403 U Vicarious Envy @
-404 R Visages @Sandfall Interactive
-405 U Void Meteors @Sandfall Interactive
-407 C Volester @Sandfall Interactive
-408 U Whee // Whoo @Sandfall Interactive
-409 R When One Falls // We Continue @Sandfall Interactive
+403 U Verso's Composition @
+404 U Vicarious Envy @
+405 R Visages @Sandfall Interactive
+406 U Void Meteors @Sandfall Interactive
+408 C Volester @Sandfall Interactive
+409 U Whee // Whoo @Sandfall Interactive
+410 R When One Falls // We Continue @Sandfall Interactive
 
 12 R All Suns' Dawn @Glen Angus
 15 U Anger @Svetlin Velinov
@@ -370,8 +371,8 @@ Type=Custom
 378 R The World Tree @Sandfall Interactive ${"flavorName": "The Indigo Tree"}
 398 R Unmask @
 402 U Treacherous Link @Sandfall Interactive ${"flavorName": "Verso's Burden"}
-410 R Seachrome Coast @Sandfall Interactive ${"flavorName": "White Sands"}
-411 R Copperline Gorge @Sandfall Interactive ${"flavorName": "Yellow Harvest"}
+411 R Seachrome Coast @Sandfall Interactive ${"flavorName": "White Sands"}
+412 R Copperline Gorge @Sandfall Interactive ${"flavorName": "Yellow Harvest"}
 
 
 [tokens]
