@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 1/1/2026 4:43:03 am
+> Last generated: 1/1/2026 4:50:05 am
 
 ## A Storm is Coming
 
@@ -471,7 +471,7 @@ Choose one or more —
 
 ```
 3GU
-Legendary Artifact Creature - Mount
+Legendary Artifact Creature - Toy Mount
 Saddle 2.
 Esquie has Islandwalk as long as you control a card named Florrie.
 Esquie has Flying as long as you control a card named Soarrie.

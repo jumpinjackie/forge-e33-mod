@@ -8,6 +8,7 @@ U
 Legendary
 Artifact
 Creature
+Toy
 Mount
 [Rarity]
 M
