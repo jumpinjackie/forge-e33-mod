@@ -2,6 +2,9 @@
 Aline's Return
 [Types]
 Sorcery
+[ManaCost]
+W
+B
 [Rarity]
 C
 [Oracle]
