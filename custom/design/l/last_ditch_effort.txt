@@ -1,0 +1,17 @@
+[Name]
+Last-Ditch Effort
+[Types]
+Instant
+[ManaCost]
+R
+[Rarity]
+U
+[Oracle]
+Sacrifice any number of creatures. Last-Ditch Effort deals that much damage to any target.
+[FlavorText]
+A part of Gustave knew it was probably a futile gesture, but he was going to try anything to give Maelle a chance of escape.
+[IsReprint]
+true
+[DesignNotes]
+ - In the game, after Gustave was mortally wounded by Painted Renoir at the Stone Wave Cliffs, he charges up his Overcharge move as a desperate measure to inflict some damage.
+ - Flavorful reprint depicting this moment.

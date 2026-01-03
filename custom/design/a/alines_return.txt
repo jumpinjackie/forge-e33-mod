@@ -1,0 +1,19 @@
+[Name]
+Aline's Return
+[Types]
+Sorcery
+[Rarity]
+C
+[Oracle]
+Destroy target Axon or Nevron.
+Cycling {2} ({2}, Discard this card: Draw a card.)
+[FlavorText]
+Aline, you’re going to kill yourself! It’s too soon for you to return to any Canvas!
+- Renoir
+[ForgeScript]
+K:Cycling:2
+A:SP$ Destroy | ValidTgts$ Axon,Nevron | TgtPrompt$ Select target Axon or Nevron | SpellDescription$ Destroy target Axon or Nevron.
+[DesignNotes]
+ - In the game, during the final boss with Renoir, Aline momentarily returns to the Canvas to swing the battle to the party's favor.
+ - Mapped to targeted Axon/Nevron kill.
+ - Added cycling to offset its marginality.
