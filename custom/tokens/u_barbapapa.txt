@@ -1,0 +1,8 @@
+Name:Barbapapa
+ManaCost:no cost
+Colors:blue
+Types:Enchantment Aura
+K:Enchant:Creature
+S:Mode$ Continuous | Affected$ Creature.EnchantedBy | SetPower$ 1 | Description$ Enchanted creature has base power 1.
+T:Mode$ DamageDone | ValidSource$ Card.AttachedBy | ValidTarget$ Any | Execute$ TrigSacrifice | CombatDamage$ True | TriggerDescription$ Whenever enchanted creature deals combat damage, sacrifice this Aura.
+SVar:TrigSacrifice:DB$ Sacrifice
