@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 1/1/2026 12:45:35 pm
+> Last generated: 3/1/2026 1:40:31 pm
 
 ## Anger
 
@@ -313,6 +313,15 @@ When this creature dies, target opponent creates a Lumina token. (It's an artifa
  - Thus it has an Elemental sub-type.
  - Comes in with a shield counter to convey tankiness.
  - Double strike maps to its 2/3-hit combo it does in-game.
+
+## Last-Ditch Effort
+
+> This card is a reprint
+[Scryfall](https://scryfall.com/search?q=Last-Ditch Effort)
+### Notes
+
+ - In the game, after Gustave was mortally wounded by Painted Renoir at the Stone Wave Cliffs, he charges up his Overcharge move as a desperate measure to inflict some damage.
+ - Flavorful reprint depicting this moment.
 
 ## Lightning Dance
 

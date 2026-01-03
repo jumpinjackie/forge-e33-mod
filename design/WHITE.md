@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 31/12/2025 6:46:18 am
+> Last generated: 3/1/2026 5:18:23 pm
 
 ## A Life to Love (Farewell)
 
@@ -557,4 +557,166 @@ The city of Lumière was uprooted and flung into the ocean. Soon after, The Mono
  - Mechanically, this event itself is only catalclysmic in terms of the continent landscape, while there may have been human casualties in this event, this event was more about the altered landscape of the continent, thus it is clear that this event should be a non-basic land mass destruction effect like Ruination (non-basic so it doesn't become a strictly better Armageddon and to reward players who play basic lands).
      - The tutoring effect for The Monolith thematically maps to the appearance of The Monolith in the game.
  - 5/11/2025: NOTE the explicit unicode left and right double-quotes around the number 100 in the flavor text. This is intentional as it is to workaround a CardConjurer bug that improperly surrounds 100 with a pair of left unicode double quotes if you use regular ascii double quotes. DO NOT EDIT THIS unless you are going to rewrite the entire flavor text.
+
+## Unfinished Bénisseur
+
+```
+1W
+Creature - Nevron
+Defender, vigilance
+Sacrifice a Chroma token: This creature loses defender. (This effect lasts indefinitely.)
+---
+All this chroma has been rather... energizing. Thanks to you, I awaken from my slumber. Did my tales interest you this much?
+
+3/4
+```
+
+[card implementation](../custom/cards/u/unfinished_benisseur.txt)
+
+### Design Notes
+
+ - In the game, an Unfinished Bénisseur can be found in the Red Woods. It assumes the appearance of a "Wishing Well" requiring several Chroma donations of increasing quantities, which at that point it finally reveals itself and rewards you with a picto.
+ - Mapped this to a cost-efficient creature with defender requiring a simple Chroma token "payment" to remove defender.
+
+## Unfinished Bourgeon
+
+```
+W
+Creature - Nevron
+Whenever a Nevron creature dies, put a skin counter on this creature.
+Remove three skin counters from this creature: It becomes a Nevron with base power and toughness 6/6, reach and trample.
+---
+Need to go. High! Help me, grow!
+
+1/1
+```
+
+[card implementation](../custom/cards/u/unfinished_bourgeon.txt)
+
+### Design Notes
+
+ - In the game, the Unfinished Bourgeon can be found in a small cave. It is a small bourgeon that wants to consume the skin of a slain Bourgeon to be able to grow into a full size Bourgeon.
+ - Modeled this as a tiny Nevron that gets skin counters on Nevron death that grows into a big boy Bourgeon for 3 skin counters.
+    - Granting skin counters on any Nevron death is a small thematic compromise as there's only one Bourgeon in this set and that's too marginal of a triggering condition, even if it's lore accurate.
+
+## Unfinished Chalier
+
+```
+2W
+Creature - Nevron
+Sacrifice this creature: Choose one —
+• Put two +1/+1 counters on target creature.
+• Put a lifelink counter on target creature.
+• Put a vigilance counter on target creature.
+---
+My kind knows only battle. We are born into a world of strife, yet I seem to be the only one who does not revel in it.
+
+2/3
+```
+
+[card implementation](../custom/cards/u/unfinished_chalier.txt)
+
+### Design Notes
+
+ - In the game, an Unfinished Chalier can be found in the Floating Cemetery. It asks you which weapon it should arm itself which, after which it challenges you to combat. Upon defeating it, it will ask you to finish the job. Finishing the job, it will reward you with a picto beforehand. Failure to do that, it will finish the job by itself and you will get no reward.
+ - Modeled this as just a Nevron with a modal sac ability. One mode for each weapon.
+
+## Unfinished Démineur
+
+```
+W
+Creature - Nevron
+Exhaust — Sacrifice a nontoken artifact: Put a +1/+1 counter and a flying counter on this creature. (Activate each exhaust ability only once)
+---
+It doesn’t seem threatening.
+
+1/1
+```
+
+[card implementation](../custom/cards/u/unfinished_demineur.txt)
+
+### Design Notes
+
+ - In the game, an Unfinished Démineur can be found in Flying Waters. It is missing its mine. Returning back its missing mine will reward you with a picto.
+ - Modeled this as a tiny Nevron with a one-time sac of a nontoken artifact (the missing "mine") to turn it to its fully realized self.
+
+## Unfinished Hexga
+
+```
+1W
+Creature - Nevron
+This creature can't attack or block unless it has three or more crystal counters on it.
+Whenever a land enters, put a crystal counter on this creature.
+---
+Abandoned... and incomplete. Entrapped in stone.... Quite the situation I’m in, right?
+
+3/4
+```
+
+[card implementation](../custom/cards/u/unfinished_hexga.txt)
+
+### Design Notes
+
+ - In the game, an Unfinished Hexga can be found at the Stone Wave Cliffs. It wants you to find three rock crystals and install them on its back. Doing so will reward you with a picto.
+ - Modeled this an an undercosted beater that can't attack or block until it has 3 crystal counters (the rock crystal). Triggered on land drops as finding the rock crytals in the video game requires *exploring*.
+
+## Unfinished Jar
+
+```
+4W
+Creature - Nevron
+When this creature enters, draw a card if {U} was spent to cast it, you gain 3 life if {G} was spent to cast it, put a Menace counter on it if {R} was spent to cast it and put a Lifelink counter on it if {B} was spent to cast it.
+---
+Shine. I need to shine.
+
+4/4
+```
+
+[card implementation](../custom/cards/u/unfinished_jar.txt)
+
+### Design Notes
+
+ - In the game, an Unfinished Jar can be found in Spring Meadows. It wants you to find something (resin) to light its lamp. Doing so will reward you wtih a healing tint shard.
+ - Modeled this as a "vanilla" Nevron that "lights up" with extra abilities and beneficial ETB triggers if you spend extra colors of mana (the light) on it. If you can spend all 5 colors of mana on it, you get the full suite of benefits.
+
+## Unfinished Portier
+
+```
+W
+Creature - Nevron
+Exhaust — Sacrifice a Forest: Put two +1/+1 counters and a Reach counter on this creature. (Activate each exhaust ability only once)
+---
+My being... A core... With the form of a damned soul.... In this state, I am nothing but condemned.
+
+1/1
+```
+
+[card implementation](../custom/cards/u/unfinished_portier.txt)
+
+### Design Notes
+
+ - In the game, the Unfinished Portier can be found in the Esoteric Ruins. It appears as its "weak point" missing a body, returning a set of wooden boards to it will "complete" it to a regular Portier.
+ - Modeled as a tiny Nevron that can be "converted" to a regular Portier by saccing a Forest. Because a Forest is ... a source of wood!
+
+## Unfinished Troubador
+
+```
+1W
+Creature - Nevron
+When this creature enters, put a verse counter on it if {G} was spent to cast this spell and put a rage counter if {R} was spent to cast this spell.
+As this creature enters, choose a creature type.
+Other creatures you control get +1/+1 if this creature has a verse counter.
+Other creatures you control have haste if this creature has a rage counter.
+---
+Teach me... how to play.
+
+2/2
+```
+
+[card implementation](../custom/cards/u/unfinished_troubador.txt)
+
+### Design Notes
+
+ - In the game, the Unfinished Troubador can be found in the Stone Quarry. It wants you to "teach" it how to play music, which consists of a parry challenge by parrying the "bad" notes and taking in the "good" notes. Passing the challenge will reward you with a picto.
+ - Modeled as a bear that can fulfill one of its Troubador "roles" if you spend the right colors of mana on it.
 

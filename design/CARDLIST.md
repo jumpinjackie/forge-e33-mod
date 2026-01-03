@@ -29,7 +29,7 @@ From this list, card designs are spawned from it, which will eventually form the
 
 ## Card Name List
 
-Cards implemented: 412
+Cards implemented: 422
 
 [x] - Card is implemented or in development, [C] - Card is a commander reprint, [R] - Card is a regular reprint, [N] - Card is a nickname reprint, [Z] - Card is a nickname reprint for commander [ ] - Card is not implemented
 
@@ -368,14 +368,14 @@ Cards implemented: 412
 [x] Twilight Quarry
 [x] Twisted Lumière Citizen
 [x] Ultimate Sakapatate
-[ ] Unfinished Bénisseur
-[ ] Unfinished Bourgeon
-[ ] Unfinished Chalier
-[ ] Unfinished Démineur
-[ ] Unfinished Hexga
-[ ] Unfinished Jar
-[ ] Unfinished Troubador
-[ ] Unfinished Portier
+[x] Unfinished Bénisseur
+[x] Unfinished Bourgeon
+[x] Unfinished Chalier
+[x] Unfinished Démineur
+[x] Unfinished Hexga
+[x] Unfinished Jar
+[x] Unfinished Troubador
+[x] Unfinished Portier
 [x] Urrie
 [x] Verisimilitude
 [x] Verso, Who Guards Truth With Lies

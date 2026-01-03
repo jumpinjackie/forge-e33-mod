@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 1/1/2026 9:29:52 am
+> Last generated: 3/1/2026 1:41:49 pm
 
 ## A Storm is Coming
 
@@ -68,6 +68,26 @@ Each player who has cast a non-Painter, non-Gradient spell this turn can’t cas
  - 6/10/2025: Meld is back on the menu! Got it to work finally! Also extended null rod effect to Chroma and Lumina tokens.
  - 3/11/2025: Exchanged abilities with human Alicia. Canonist exemption changed from Nevrons/Gradient to Painters/Gradient. Reduce Chroma sac activation cost from 3 to 2 tokens.
  - 12/11/2025: Dropped the silencing activated ability as it makes no thematic sense to pay in tokens that don't exist in the "real world" that Alicia is in. Using straight mana payment then raises game balancing concerns around what is the appropriate cost. Better to just drop the ability.
+
+## Aline's Return
+
+```
+WB
+Sorcery
+Destroy target Axon or Nevron.
+Cycling {2} ({2}, Discard this card: Draw a card.)
+---
+Aline, you’re going to kill yourself! It’s too soon for you to return to any Canvas!
+- Renoir
+```
+
+[card implementation](../custom/cards/a/alines_return.txt)
+
+### Design Notes
+
+ - In the game, during the final boss with Renoir, Aline momentarily returns to the Canvas to swing the battle to the party's favor.
+ - Mapped to targeted Axon/Nevron kill.
+ - Added cycling to offset its marginality.
 
 ## Ballet
 
