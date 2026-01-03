@@ -1,0 +1,27 @@
+[Name]
+Unfinished Chalier
+[ManaCost]
+2
+W
+[Rarity]
+C
+[Types]
+Creature
+Nevron
+[PT]
+2/3
+[Oracle]
+Sacrifice ~: Choose one —
+• Put two +1/+1 counters on target creature.
+• Put a lifelink counter on target creature.
+• Put a vigilance counter on target creature.
+[FlavorText]
+My kind knows only battle. We are born into a world of strife, yet I seem to be the only one who does not revel in it.
+[ForgeScript]
+A:AB$ Charm | Cost$ Sac<1/CARDNAME> | Choices$ DBBuff,DBLifelink,DBVigilance | SpellDescription$ ABILITY
+SVar:DBBuff:DB$ PutCounter | ValidTgts$ Creature | CounterNum$ 2 | CounterType$ P1P1 | SpellDescription$ Put two +1/+1 counters on target creature.
+SVar:DBLifelink:DB$ PutCounter | ValidTgts$ Creature | CounterNum$ 1 | CounterType$ Lifelink | SpellDescription$ Put a lifelink counter on target creature.
+SVar:DBVigilance:DB$ PutCounter | ValidTgts$ Creature | CounterNum$ 1 | CounterType$ Vigilance | SpellDescription$ Put a vigilance counter on target creature.
+[DesignNotes]
+ - In the game, an Unfinished Chalier can be found in the Floating Cemetery. It asks you which weapon it should arm itself which, after which it challenges you to combat. Upon defeating it, it will ask you to finish the job. Finishing the job, it will reward you with a picto beforehand. Failure to do that, it will finish the job by itself and you will get no reward.
+ - Modeled this as just a Nevron with a modal sac ability. One mode for each weapon.

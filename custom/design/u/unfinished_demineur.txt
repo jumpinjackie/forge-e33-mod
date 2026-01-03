@@ -1,0 +1,23 @@
+[Name]
+Unfinished Démineur
+[InvariantName]
+Unfinished Demineur
+[Types]
+Creature
+Nevron
+[ManaCost]
+W
+[Rarity]
+C
+[PT]
+1/1
+[Oracle]
+Exhaust — Sacrifice a nontoken artifact: Put a +1/+1 counter and a flying counter on this creature. (Activate each exhaust ability only once)
+[FlavorText]
+It doesn’t seem threatening.
+[ForgeScript]
+A:AB$ PutCounter | Cost$ Sac<1/Artifact.!token/nontoken artifact> | CounterNum$ 1 | CounterType$ P1P1 | Exhaust$ True | SubAbility$ DBFlying | SpellDescription$ Put a +1/+1 counter and a flying counter on this creature.
+SVar:DBFlying:DB$ PutCounter | CounterNum$ 1 | CounterType$ Flying
+[DesignNotes]
+ - In the game, an Unfinished Démineur can be found in Flying Waters. It is missing its mine. Returning back its missing mine will reward you with a picto.
+ - Modeled this as a tiny Nevron with a one-time sac of a nontoken artifact (the missing "mine") to turn it to its fully realized self.

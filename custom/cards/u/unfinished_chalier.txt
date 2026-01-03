@@ -1,0 +1,9 @@
+Name:Unfinished Chalier
+ManaCost:2 W
+Types:Creature Nevron
+PT:2/3
+A:AB$ Charm | Cost$ Sac<1/CARDNAME> | Choices$ DBBuff,DBLifelink,DBVigilance | SpellDescription$ ABILITY
+SVar:DBBuff:DB$ PutCounter | ValidTgts$ Creature | CounterNum$ 2 | CounterType$ P1P1 | SpellDescription$ Put two +1/+1 counters on target creature.
+SVar:DBLifelink:DB$ PutCounter | ValidTgts$ Creature | CounterNum$ 1 | CounterType$ Lifelink | SpellDescription$ Put a lifelink counter on target creature.
+SVar:DBVigilance:DB$ PutCounter | ValidTgts$ Creature | CounterNum$ 1 | CounterType$ Vigilance | SpellDescription$ Put a vigilance counter on target creature.
+Oracle:Sacrifice this creature: Choose one —\n• Put two +1/+1 counters on target creature.\n• Put a lifelink counter on target creature.\n• Put a vigilance counter on target creature.

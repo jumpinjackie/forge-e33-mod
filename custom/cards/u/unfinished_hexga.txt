@@ -1,0 +1,8 @@
+Name:Unfinished Hexga
+ManaCost:1 W
+Types:Creature Nevron
+PT:3/4
+S:Mode$ CantAttack,CantBlock | ValidCard$ Card.Self | IsPresent$ Creature.Self+counters_GE3_CRYSTAL | PresentCompare$ EQ0 | Description$ This creature can't attack or block unless it has three or more crystal counters on it.
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Land | TriggerZones$ Battlefield | Execute$ TrigCounter | TriggerDescription$ Whenever a land enters, put a crystal counter on this creature.
+SVar:TrigCounter:DB$ PutCounter | CounterNum$ 1 | CounterType$ CRYSTAL
+Oracle:This creature can't attack or block unless it has three or more crystal counters on it.\nWhenever a land enters, put a crystal counter on this creature.

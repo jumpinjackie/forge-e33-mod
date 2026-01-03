@@ -1,0 +1,10 @@
+Name:Unfinished Jar
+ManaCost:4 W
+Types:Creature Nevron
+PT:4/4
+T:Mode$ ChangesZone | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigDraw | TriggerDescription$ When this creature enters, draw a card if {U} was spent to cast it, you gain 3 life if {G} was spent to cast it, put a Menace counter on it if {R} was spent to cast it and put a Lifelink counter on it if {B} was spent to cast it.
+SVar:TrigDraw:DB$ Draw | Defined$ You | NumCards$ 1 | ConditionManaSpent$ U | SubAbility$ TrigGainLife
+SVar:TrigGainLife:DB$ GainLife | Defined$ You | LifeAmount$ 3 | ConditionManaSpent$ G | SubAbility$ TrigMenace
+SVar:TrigMenace:DB$ PutCounter | CounterNum$ 1 | CounterType$ Menace | ConditionManaSpent$ R | SubAbility$ TrigLifelink
+SVar:TrigLifelink:DB$ PutCounter | CounterNum$ 1 | CounterType$ Lifelink | ConditionManaSpent$ B
+Oracle:When this creature enters, draw a card if {U} was spent to cast it, you gain 3 life if {G} was spent to cast it, put a Menace counter on it if {R} was spent to cast it and put a Lifelink counter on it if {B} was spent to cast it.

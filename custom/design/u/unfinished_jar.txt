@@ -1,0 +1,25 @@
+[Name]
+Unfinished Jar
+[Types]
+Creature
+Nevron
+[ManaCost]
+4
+W
+[PT]
+4/4
+[Rarity]
+C
+[Oracle]
+When this creature enters, draw a card if {U} was spent to cast it, you gain 3 life if {G} was spent to cast it, put a Menace counter on it if {R} was spent to cast it and put a Lifelink counter on it if {B} was spent to cast it.
+[FlavorText]
+Shine. I need to shine.
+[ForgeScript]
+T:Mode$ ChangesZone | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigDraw | TriggerDescription$ When this creature enters, draw a card if {U} was spent to cast it, you gain 3 life if {G} was spent to cast it, put a Menace counter on it if {R} was spent to cast it and put a Lifelink counter on it if {B} was spent to cast it.
+SVar:TrigDraw:DB$ Draw | Defined$ You | NumCards$ 1 | ConditionManaSpent$ U | SubAbility$ TrigGainLife
+SVar:TrigGainLife:DB$ GainLife | Defined$ You | LifeAmount$ 3 | ConditionManaSpent$ G | SubAbility$ TrigMenace
+SVar:TrigMenace:DB$ PutCounter | CounterNum$ 1 | CounterType$ Menace | ConditionManaSpent$ R | SubAbility$ TrigLifelink
+SVar:TrigLifelink:DB$ PutCounter | CounterNum$ 1 | CounterType$ Lifelink | ConditionManaSpent$ B
+[DesignNotes]
+ - In the game, an Unfinished Jar can be found in Spring Meadows. It wants you to find something (resin) to light its lamp. Doing so will reward you wtih a healing tint shard.
+ - Modeled this as a "vanilla" Nevron that "lights up" with extra abilities and beneficial ETB triggers if you spend extra colors of mana (the light) on it. If you can spend all 5 colors of mana on it, you get the full suite of benefits.

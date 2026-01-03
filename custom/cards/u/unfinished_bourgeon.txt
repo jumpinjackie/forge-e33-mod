@@ -1,0 +1,8 @@
+Name:Unfinished Bourgeon
+ManaCost:W
+Types:Creature Nevron
+PT:1/1
+T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Creature.Nevron | TriggerZones$ Battlefield | Execute$ TrigSkin | TriggerDescription$ Whenever a Nevron creature dies, put a skin counter on this creature.
+SVar:TrigSkin:DB$ PutCounter | CounterNum$ 1 | CounterType$ SKIN
+A:AB$ Animate | Cost$ SubCounter<3/SKIN> | Types$ Nevron | RemoveCreatureTypes$ True | Power$ 6 | Toughness$ 6 | Keywords$ Reach & Trample | Duration$ Permanent | SpellDescription$ CARDNAME becomes a Nevron with base power and toughness 6/6, reach and trample.
+Oracle:Whenever a Nevron creature dies, put a skin counter on this creature.\nRemove three skin counters from this creature: It becomes a Nevron with base power and toughness 6/6, reach and trample.

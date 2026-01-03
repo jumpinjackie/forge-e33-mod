@@ -1,0 +1,24 @@
+[Name]
+Unfinished Bourgeon
+[ManaCost]
+W
+[Types]
+Creature
+Nevron
+[Rarity]
+U
+[PT]
+1/1
+[Oracle]
+Whenever a Nevron creature dies, put a skin counter on this creature.
+Remove three skin counters from this creature: It becomes a Nevron with base power and toughness 6/6, reach and trample.
+[FlavorText]
+Need to go. High! Help me, grow!
+[ForgeScript]
+T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Creature.Nevron | TriggerZones$ Battlefield | Execute$ TrigSkin | TriggerDescription$ Whenever a Nevron creature dies, put a skin counter on this creature.
+SVar:TrigSkin:DB$ PutCounter | CounterNum$ 1 | CounterType$ SKIN
+A:AB$ Animate | Cost$ SubCounter<3/SKIN> | Types$ Nevron | RemoveCreatureTypes$ True | Power$ 6 | Toughness$ 6 | Keywords$ Reach & Trample | Duration$ Permanent | SpellDescription$ ~ becomes a Nevron with base power and toughness 6/6, reach and trample.
+[DesignNotes]
+ - In the game, the Unfinished Bourgeon can be found in a small cave. It is a small bourgeon that wants to consume the skin of a slain Bourgeon to be able to grow into a full size Bourgeon.
+ - Modeled this as a tiny Nevron that gets skin counters on Nevron death that grows into a big boy Bourgeon for 3 skin counters.
+    - Granting skin counters on any Nevron death is a small thematic compromise as there's only one Bourgeon in this set and that's too marginal of a triggering condition, even if it's lore accurate.

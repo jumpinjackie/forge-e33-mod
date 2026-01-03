@@ -1,0 +1,30 @@
+[Name]
+Unfinished Troubador
+[Types]
+Creature
+Nevron
+[ManaCost]
+1
+W
+[Rarity]
+U
+[PT]
+2/2
+[Oracle]
+When ~ enters, put a verse counter on it if {G} was spent to cast this spell and put a rage counter if {R} was spent to cast this spell.
+As ~ enters, choose a creature type.
+Other creatures you control get +1/+1 if ~ has a verse counter.
+Other creatures you control have haste if ~ has a rage counter.
+[FlavorText]
+Teach me... how to play.
+[ForgeScript]
+T:Mode$ ChangesZone | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigVerse | TriggerDescription$ When this creature enters, put a verse counter on it if {G} was spent to cast this spell and put a rage counter if {R} was spent to cast this spell.
+SVar:TrigVerse:DB$ PutCounter | CounterNum$ 1 | CounterType$ VERSE | ConditionManaSpent$ G | SubAbility$ TrigRage
+SVar:TrigRage:DB$ PutCounter | CounterNum$ 1 | CounterType$ RAGE | ConditionManaSpent$ R
+K:ETBReplacement:Other:DBChooseCreatureType
+SVar:DBChooseCreatureType:DB$ ChooseType | Type$ Creature | AILogic$ MostProminentInComputerDeck | SpellDescription$ As ~ enters, choose a creature type.
+S:Mode$ Continuous | Affected$ Creature.Other+YouCtrl | IsPresent$ Card.Self+counters_GE1_VERSE | AddPower$ 1 | AddToughness$ 1 | Description$ Other creatures you control get +1/+1 if ~ has a verse counter.
+S:Mode$ Continuous | Affected$ Creature.Other+YouCtrl | IsPresent$ Card.Self+counters_GE1_RAGE | AddKeyword$ Haste | Description$ Other creatures you control have haste if ~ has a rage counter.
+[DesignNotes]
+ - In the game, the Unfinished Troubador can be found in the Stone Quarry. It wants you to "teach" it how to play music, which consists of a parry challenge by parrying the "bad" notes and taking in the "good" notes. Passing the challenge will reward you with a picto.
+ - Modeled as a bear that can fulfill one of its Troubador "roles" if you spend the right colors of mana on it.

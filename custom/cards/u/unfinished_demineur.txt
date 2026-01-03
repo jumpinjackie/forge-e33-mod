@@ -1,0 +1,7 @@
+Name:Unfinished Démineur
+ManaCost:W
+Types:Creature Nevron
+PT:1/1
+A:AB$ PutCounter | Cost$ Sac<1/Artifact.!token/nontoken artifact> | CounterNum$ 1 | CounterType$ P1P1 | Exhaust$ True | SubAbility$ DBFlying | SpellDescription$ Put a +1/+1 counter and a flying counter on this creature.
+SVar:DBFlying:DB$ PutCounter | CounterNum$ 1 | CounterType$ Flying
+Oracle:Exhaust — Sacrifice a nontoken artifact: Put a +1/+1 counter and a flying counter on this creature. (Activate each exhaust ability only once)

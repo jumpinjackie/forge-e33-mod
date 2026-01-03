@@ -1,0 +1,12 @@
+Name:Unfinished Troubador
+ManaCost:1 W
+Types:Creature Nevron
+PT:2/2
+T:Mode$ ChangesZone | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigVerse | TriggerDescription$ When this creature enters, put a verse counter on it if {G} was spent to cast this spell and put a rage counter if {R} was spent to cast this spell.
+SVar:TrigVerse:DB$ PutCounter | CounterNum$ 1 | CounterType$ VERSE | ConditionManaSpent$ G | SubAbility$ TrigRage
+SVar:TrigRage:DB$ PutCounter | CounterNum$ 1 | CounterType$ RAGE | ConditionManaSpent$ R
+K:ETBReplacement:Other:DBChooseCreatureType
+SVar:DBChooseCreatureType:DB$ ChooseType | Type$ Creature | AILogic$ MostProminentInComputerDeck | SpellDescription$ As CARDNAME enters, choose a creature type.
+S:Mode$ Continuous | Affected$ Creature.Other+YouCtrl | IsPresent$ Card.Self+counters_GE1_VERSE | AddPower$ 1 | AddToughness$ 1 | Description$ Other creatures you control get +1/+1 if CARDNAME has a verse counter.
+S:Mode$ Continuous | Affected$ Creature.Other+YouCtrl | IsPresent$ Card.Self+counters_GE1_RAGE | AddKeyword$ Haste | Description$ Other creatures you control have haste if CARDNAME has a rage counter.
+Oracle:When this creature enters, put a verse counter on it if {G} was spent to cast this spell and put a rage counter if {R} was spent to cast this spell.\nAs this creature enters, choose a creature type.\nOther creatures you control get +1/+1 if this creature has a verse counter.\nOther creatures you control have haste if this creature has a rage counter.

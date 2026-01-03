@@ -1,0 +1,8 @@
+Name:Unfinished Bénisseur
+ManaCost:1 W
+Types:Creature Nevron
+PT:3/4
+K:Defender
+K:vigilance
+A:AB$ Debuff | Cost$ Sac<1/Chroma> | Keywords$ Defender | Defined$ Self | Duration$ Permanent | SpellDescription$ This creature loses defender.
+Oracle:Defender, vigilance\nSacrifice a Chroma token: This creature loses defender. (This effect lasts indefinitely.)

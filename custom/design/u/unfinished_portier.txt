@@ -1,0 +1,21 @@
+[Name]
+Unfinished Portier
+[Types]
+Creature
+Nevron
+[ManaCost]
+W
+[Rarity]
+C
+[PT]
+1/1
+[Oracle]
+Exhaust — Sacrifice a Forest: Put two +1/+1 counters and a Reach counter on this creature. (Activate each exhaust ability only once)
+[FlavorText]
+My being... A core... With the form of a damned soul.... In this state, I am nothing but condemned.
+[ForgeScript]
+A:AB$ PutCounter | Cost$ Sac<1/Forest> | CounterNum$ 2 | CounterType$ P1P1 | SubAbility$ DBFlying | Exhaust$ True | SpellDescription$ Exhaust — Sacrifice a Forest: Put two +1/+1 counters and a Reach counter on this creature. (Activate each exhaust ability only once)
+SVar:DBFlying:DB$ PutCounter | CounterNum$ 1 | CounterType$ Reach
+[DesignNotes]
+ - In the game, the Unfinished Portier can be found in the Esoteric Ruins. It appears as its "weak point" missing a body, returning a set of wooden boards to it will "complete" it to a regular Portier.
+ - Modeled as a tiny Nevron that can be "converted" to a regular Portier by saccing a Forest. Because a Forest is ... a source of wood!
