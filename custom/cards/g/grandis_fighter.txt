@@ -1,0 +1,6 @@
+Name:Grandis Fighter
+ManaCost:2 G
+Types:Creature Grandis
+PT:3/3
+K:Vigilance
+Oracle:Vigilance

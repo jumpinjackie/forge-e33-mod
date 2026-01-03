@@ -1,0 +1,6 @@
+Name:Grandis Cleaner
+ManaCost:W U
+Types:Creature Grandis
+PT:1/4
+A:AB$ RemoveCounter | Cost$ WU T | CounterNum$ 1 | CounterType$ Any | ValidTgts$ Permanent.inZoneBattlefield | TgtZone$ Battlefield | AITgts$ Card.HasCounters | TgtPrompt$ Select target permanent. | SpellDescription$ Remove a counter from target permanent. | StackDescription$ Remove a counter from target permanent.
+Oracle:{W/U}, {T}: Remove a counter from target permanent.

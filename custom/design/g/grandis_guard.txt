@@ -1,0 +1,24 @@
+[Name]
+Grandis Guard
+[ManaCost]
+W
+U
+[Types]
+Creature
+Grandis
+[Rarity]
+C
+[PT]
+1/4
+[Oracle]
+Vigilance
+{1}{W/U}, {T}: Tap target creature.
+[FlavorText]
+Contrary to what some believe, guard duty is quite rewarding. I find it meditative and instructional.
+[ForgeScript]
+K:Vigilance
+A:AB$ Tap | Cost$ 1 WU T | ValidTgts$ Creature | TgtPrompt$ Select target creature | SpellDescription$ Tap target creature.
+SVar:NonCombatPriority:1
+[DesignNotes]
+ - In the game, a Grandis Guard stands outside Monoco's Station.
+ - Gone with a vigilant, high-toughness creature with a creature tapping ability.

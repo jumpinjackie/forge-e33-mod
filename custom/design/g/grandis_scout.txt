@@ -1,0 +1,23 @@
+[Name]
+Grandis Scout
+[ManaCost]
+1
+G
+[Types]
+Creature
+Nevron
+[Rarity]
+C
+[PT]
+2/2
+[Oracle]
+When this creature enters or attacks, it explores. (Reveal the top card of your library. Put that card into your hand if it’s a land. Otherwise, put a +1/+1 counter on this creature, then put the card back or put it into your graveyard.)
+[FlavorText]
+This pathway leads to the treacherous region of the mountains. If your destination is Old Lumière, you should leave via the other exit.
+[ForgeScript]
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigExplore | TriggerDescription$ When ~ enters or attacks, it explores.
+T:Mode$ Attacks | ValidCard$ Card.Self | Execute$ TrigExplore | Secondary$ True | TriggerZones$ Battlefield | TriggerDescription$ When ~ enters or attacks, it explores.
+SVar:TrigExplore:DB$ Explore
+[DesignNotes]
+ - In the game, a Grandis Scout occupies the other exit of Monoco's Station.
+ - Mapped to a bear that explores on ETB and attack.

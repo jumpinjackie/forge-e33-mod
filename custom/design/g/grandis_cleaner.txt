@@ -1,0 +1,23 @@
+[Name]
+Grandis Cleaner
+[ManaCost]
+W
+U
+[Types]
+Creature
+Grandis
+[Rarity]
+C
+[PT]
+1/4
+[Oracle]
+{W/U}, {T}: Remove a counter from target permanent.
+[FlavorText]
+Cleaner 1: I can clear the snow and I can clear the rubble, but this is too much.
+Cleaner 2: Must be truly dispose of this thing?
+Cleaner 1:It does not obstruct the way. It is simply ... there.
+[ForgeScript]
+A:AB$ RemoveCounter | Cost$ WU T | CounterNum$ 1 | CounterType$ Any | ValidTgts$ Permanent.inZoneBattlefield | TgtZone$ Battlefield | AITgts$ Card.HasCounters | TgtPrompt$ Select target permanent. | SpellDescription$ Remove a counter from target permanent. | StackDescription$ Remove a counter from target permanent.
+[DesignNotes]
+ - In the game, two Grandis Cleaners can be found outside Monoco's Station after you defeat the Stalact there. They are lamenting about the mess they have to clean up.
+ - Mapped cleaning to removing a counter (of any type) from any permanent.

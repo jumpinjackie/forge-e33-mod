@@ -1,0 +1,21 @@
+[Name]
+Grandis Fighter
+[ManaCost]
+2
+G
+[Types]
+Creature
+Grandis
+[Rarity]
+C
+[PT]
+3/3
+[Oracle]
+Vigilance
+[FlavorText]
+Do not be concerned for us. For we have faced every hardship imaginable.
+[ForgeScript]
+K:Vigilance
+[DesignNotes]
+ - In the game, a pair of Grandis Fighters can be found at Monoco's Station sitting on top of a train cart.
+ - Vanilla green creature with vigilance.
