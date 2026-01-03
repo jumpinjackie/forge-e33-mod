@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 1/1/2026 9:08:04 am
+> Last generated: 3/1/2026 6:42:36 pm
 
 ## Abbest
 
@@ -310,6 +310,44 @@ I've been trying to overcome this gestral's challenge for months now but it seem
  - In the game, the Gestral Climbing Challenge is 1 of 5 challenge minigames. This minigame in particular requires climbing a tower-like structure to the top, while dodging falling projectiles.
  - All minigames are modeled as "quest" enchantments originating from Zendikar block and use the same terminology (charging with quest counters based on certain conditions with some payoff at the end once you reach a certain number of quest counters).
  - In the case of this card, the condition is creatures being tapped (to indicate exertion of effort in climbing up) and the payoffs are your creatures having reach (most flavorful ability imo) and a bigger payoff being an Exploration effect (that's how Expedition 69 was able to explore, climb and install all those grapple points)
+
+## Grandis Fighter
+
+```
+2G
+Creature - Grandis
+Vigilance
+---
+Do not be concerned for us. For we have faced every hardship imaginable.
+
+3/3
+```
+
+[card implementation](../custom/cards/g/grandis_fighter.txt)
+
+### Design Notes
+
+ - In the game, a pair of Grandis Fighters can be found at Monoco's Station sitting on top of a train cart.
+ - Vanilla green creature with vigilance.
+
+## Grandis Scout
+
+```
+1G
+Creature - Nevron
+When this creature enters or attacks, it explores. (Reveal the top card of your library. Put that card into your hand if it’s a land. Otherwise, put a +1/+1 counter on this creature, then put the card back or put it into your graveyard.)
+---
+This pathway leads to the treacherous region of the mountains. If your destination is Old Lumière, you should leave via the other exit.
+
+2/2
+```
+
+[card implementation](../custom/cards/g/grandis_scout.txt)
+
+### Design Notes
+
+ - In the game, a Grandis Scout occupies the other exit of Monoco's Station.
+ - Mapped to a bear that explores on ETB and attack.
 
 ## Lancelier
 

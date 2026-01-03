@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 3/1/2026 1:41:49 pm
+> Last generated: 3/1/2026 6:42:36 pm
 
 ## A Storm is Coming
 
@@ -1200,6 +1200,47 @@ Search your library for a Gradient card, reveal that card, put it into your hand
 
  - In the game, Gradient attacks are "Epic" tier attacks. To use such attacks you need to fill up a Gradient gauge. The Gradient gauge holds up to 3 charges. Gradient attacks cost anywhere between 1 to 3 charges.
  - Mechanically, this is just a Gradient spell tutor to assist in Painter-based strategies.
+
+## Grandis Cleaner
+
+```
+WU
+Creature - Grandis
+{W/U}, {T}: Remove a counter from target permanent.
+---
+Cleaner 1: I can clear the snow and I can clear the rubble, but this is too much.
+Cleaner 2: Must be truly dispose of this thing?
+Cleaner 1:It does not obstruct the way. It is simply ... there.
+
+1/4
+```
+
+[card implementation](../custom/cards/g/grandis_cleaner.txt)
+
+### Design Notes
+
+ - In the game, two Grandis Cleaners can be found outside Monoco's Station after you defeat the Stalact there. They are lamenting about the mess they have to clean up.
+ - Mapped cleaning to removing a counter (of any type) from any permanent.
+
+## Grandis Guard
+
+```
+WU
+Creature - Grandis
+Vigilance
+{1}{W/U}, {T}: Tap target creature.
+---
+Contrary to what some believe, guard duty is quite rewarding. I find it meditative and instructional.
+
+1/4
+```
+
+[card implementation](../custom/cards/g/grandis_guard.txt)
+
+### Design Notes
+
+ - In the game, a Grandis Guard stands outside Monoco's Station.
+ - Gone with a vigilant, high-toughness creature with a creature tapping ability.
 
 ## Grandis Merchant
 

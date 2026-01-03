@@ -25,28 +25,28 @@ Type=Custom
 163 U Fellwar Stone @John Avon
 164 U Final Parting @
 177 R Shivan Reef @Sandfall Interactive ${"flavorName": "Frozen Hearts"}
-217 C Growth Spiral @Seb McKinnon
-260 M Mana Drain @Raymond Swanland
-270 U Mask of Memory @Allen Morris
-275 R Mirage Mirror @Craig J Spearing
-280 U Mortify @Nils Hamm
-299 U Patchwork Banner @Sarah Finnigan
-300 U Path to Exile @Raf Sarmento
-311 U Primal Empathy @
-313 U Putrefy @Clint Cearley
-342 R Sulfurous Springs @Sandfall Interactive ${"flavorName": "Sinister Cave"}
-348 U Sol Ring @Piotr Dura
-360 U Swords to Plowshares @Nadia Hurianova
-361 U Talisman of Conviction @Lindsey Look
-362 U Talisman of Creativity @Lindsey Look
-363 U Talisman of Curiosity @Lindsey Look
-364 U Talisman of Dominance @Mike Dringenberg
-365 U Talisman of Hierarchy @Lindsey Look
-366 U Talisman of Impulse @Mike Dringenberg
-367 U Talisman of Indulgence @Mike Dringenberg
-368 U Talisman of Progress @Mike Dringenberg
-369 U Talisman of Resilience @Lindsey Look
-370 U Talisman of Unity @Mike Dringenberg
-381 R Brushland @Sandfall Interactive ${"flavorName": "The Meadows"}
-391 C Thought Vessel @rk post
-417 R Void Rend @Justyna Dura
+221 C Growth Spiral @Seb McKinnon
+264 M Mana Drain @Raymond Swanland
+274 U Mask of Memory @Allen Morris
+279 R Mirage Mirror @Craig J Spearing
+284 U Mortify @Nils Hamm
+303 U Patchwork Banner @Sarah Finnigan
+304 U Path to Exile @Raf Sarmento
+315 U Primal Empathy @
+317 U Putrefy @Clint Cearley
+346 R Sulfurous Springs @Sandfall Interactive ${"flavorName": "Sinister Cave"}
+352 U Sol Ring @Piotr Dura
+364 U Swords to Plowshares @Nadia Hurianova
+365 U Talisman of Conviction @Lindsey Look
+366 U Talisman of Creativity @Lindsey Look
+367 U Talisman of Curiosity @Lindsey Look
+368 U Talisman of Dominance @Mike Dringenberg
+369 U Talisman of Hierarchy @Lindsey Look
+370 U Talisman of Impulse @Mike Dringenberg
+371 U Talisman of Indulgence @Mike Dringenberg
+372 U Talisman of Progress @Mike Dringenberg
+373 U Talisman of Resilience @Lindsey Look
+374 U Talisman of Unity @Mike Dringenberg
+385 R Brushland @Sandfall Interactive ${"flavorName": "The Meadows"}
+395 C Thought Vessel @rk post
+421 R Void Rend @Justyna Dura
