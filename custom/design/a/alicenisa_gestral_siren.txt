@@ -1,0 +1,29 @@
+[Name]
+Alicenisa, Gestral Siren
+[ManaCost]
+3
+[Rarity]
+R
+[PT]
+1/4
+[Types]
+Legendary
+Artifact
+Creature
+Gestral
+Bard
+[Oracle]
+Other Gestral creatures you control get +1/+1.
+You may choose not to untap Alicenisa during your untap step.
+At the beginning of your upkeep, put a verse counter on Alicenisa.
+{T}: Gain control of target creature with mana value X or less for as long as you control Alicenisa and Alicenisa remains tapped, where X is the number of verse counters on Alicenisa.
+[ForgeScript]
+K:You may choose not to untap CARDNAME during your untap step.
+S:Mode$ Continuous | Affected$ Card.Gestral+Other+YouCtrl | AddPower$ 1 | AddToughness$ 1 | Description$ Other Gestral creatures you control get +1/+1.
+T:Mode$ Phase | Phase$ Upkeep | ValidPlayer$ You | TriggerZones$ Battlefield | Execute$ TrigPutCounter | TriggerDescription$ At the beginning of your upkeep, put a verse counter on CARDNAME.
+SVar:TrigPutCounter:DB$ PutCounter | Defined$ Self | CounterType$ VERSE | CounterNum$ 1
+A:AB$ GainControl | Cost$ T | ValidTgts$ Creature.cmcLEX | TgtPrompt$ Select target creature | LoseControl$ Untap,LeavesPlay,LoseControl | SpellDescription$ Gain control of target creature with mana value X or less for as long as you control Alicenisa and Alicenisa remains tapped, where X is the number of verse counters on Alicenisa.
+SVar:X:Count$CardCounters.VERSE
+[DesignNotes]
+ - In the game, Lorieniso played guitar alone in the Gestral Village. With the "Thank You" update, he is now accompanied by Alicenisa. Named after Alice Duport-Percier, the co-composer and main vocalist of the OST for this game.
+ - Gone with a mashup of "Glorious Anthem" for Gestrals and a "Rubinia Soulsinger" creature stealer. Creature stealing is conditional on the number of verse counters that grows every turn so it can't just steal fatties right off the bat.
