@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 1/1/2026 10:43:56 am
+> Last generated: 2/1/2026 7:06:36 pm
 
 ## Axon Offering
 
@@ -333,6 +333,8 @@ I love them too.
 
  - In the game, Painted Renoir is the primary antagnoist until his boss battle near the end of Act 2.
  - Vanish ability is an edict instead of exile just to balance things out. Not everything can be an exile ability even though it makes the most thematic sense.
+ - Most of Painted Renoir's attacks in his boss fight is pretty unremarkable (in terms of mechanical translation). So the main gimmick we're replicating is its symbiotic link to the Dark Beast, who appears in his 2nd phase and instantly heals him. We mapped this to a symbiotic relationship akin to Minsc & Boo with P. Renoir being Minsc and the Dark Beast being Boo.
+    - The beast healing him, we mapped to giving P.Renoir indestructible while Dark Chromatic Beast token is in your control.
  - 19/11/2025: Removed edict triggered ability and replaced it with Fear.
 
 ## Piercing Strike
