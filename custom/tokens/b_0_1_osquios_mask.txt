@@ -1,0 +1,9 @@
+Name:Osquio's Mask
+ManaCost:no cost
+Colors:black
+Types:Artifact Creature Toy
+PT:0/1
+K:Flying
+A:AB$ DealDamage | Cost$ Sac<1/CARDNAME> | ValidTgts$ Any | NumDmg$ 2 | SubAbility$ DBLifeGain | SpellDescription$ CARDNAME deals 2 damage to any target.
+SVar:DBLifeGain:DB$ GainLife | Defined$ You | LifeAmount$ 2
+Oracle:Flying\nSacrifice this creature: It deals 2 damage to any target. You gain 2 life.

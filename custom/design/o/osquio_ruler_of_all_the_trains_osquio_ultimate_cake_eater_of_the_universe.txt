@@ -1,0 +1,73 @@
+[Name]
+Osquio, Ruler Of All The Trains
+[ManaCost]
+3
+B
+B
+[Types]
+Legendary
+Artifact
+Creature
+Toy
+[Rarity]
+M
+[PT]
+5/5
+[Oracle]
+Trample
+{i}Summons his little friends{/i} — {2}{B}{B}, {T}: Create two 0/1 black Toy artifact creature tokens named Osquio’s Mask with Flying and “Sacrifice this creature: It deals 2 damage to any target. You gain 2 life“
+{i}Time for a spin spin{/i} — When Osquio dies, return it to the battlefield transformed under it’s owner’s control.{flavor}WARRIORS OF LEGEND! Prepare. For. Annihilation!
+[AbilityWords]
+Summons his little friends
+Time for a spin spin
+[FlavorText]
+WARRIORS OF LEGEND! Prepare. For. Annihilation!
+[Artist]
+Sandfall Interactive
+[ForgeScript]
+A:AB$ Token | Cost$ 2 B B T | TokenAmount$ 2 | TokenOwner$ You | TokenScript$ b_0_1_osquios_mask | SpellDescription$ Create two 0/1 black Toy artifact creature tokens named Osquio’s Mask with Flying and “Sacrifice this creature: It deals 2 damage to any target. You gain 2 life“
+T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Card.Self | Execute$ TrigReturn | TriggerDescription$ When CARDNAME dies, return it to the battlefield transformed under its owner's control.
+SVar:TrigReturn:DB$ ChangeZone | Origin$ Graveyard | Defined$ TriggeredNewCardLKICopy | Destination$ Battlefield | Transformed$ True
+AlternateMode:DoubleFaced
+ALTERNATE:DFC
+[Name]
+Osquio, Ultimate Cake Eater Of The Universe
+[ManaCost]
+no cost
+[ColorIdentity]
+black
+red
+[Types]
+Legendary
+Artifact
+Creature
+Toy
+[PT]
+6/6
+[Oracle]
+Whenever Osquio deals damage to a creature, create a blue Aura enchantment token named Barbapapa attached to that creature. The token has enchant creature and “Enchanted creature has base power 1. When enchanted creature deals combat damage, sacrifice this Aura.”
+Whenever a creature dies, untap Osquio.
+Goes pew pew pew — {R}, {T}: Osquio deals 2 damage to any target.
+Decides to destroy the world. Bye bye — When Osquio dies, destroy all permanents unless a player pays {6}.
+[AbilityWords]
+Goes pew pew pew
+Decides to destroy the world. Bye bye
+[FlavorText]
+Prepare to be HUGGED.
+[ForgeScript]
+T:Mode$ DamageDone | ValidSource$ Card.Self | ValidTarget$ Creature | Execute$ TrigBarbapapa | TriggerDescription$ Whenever Osquio deals damage to a creature, create a blue Aura enchantment token named Barbapapa attached to that creature. The token has enchant creature and “Enchanted creature has base power 1. When enchanted creature deals combat damage, sacrifice this Aura.”
+SVar:TrigBarbapapa:DB$ Token | TokenAmount$ 1 | TokenScript$ u_barbapapa | TokenOwner$ You | AttachedTo$ TriggeredTarget
+T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Creature | TriggerZones$ Battlefield | Execute$ TrigUntap | TriggerDescription$ Whenever a creature dies, untap ~.
+SVar:TrigUntap:DB$ Untap | Defined$ Self
+A:AB$ DealDamage | Cost$ R T | ValidTgts$ Any | NumDmg$ 2 | SpellDescription$ ~ deals 2 damage to any target.
+T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Card.Self | Execute$ TrigNuke | TriggerDescription$ When ~ dies, destroy all permanents unless a player pays {6}.
+SVar:TrigNuke:DB$ DestroyAll | ValidCards$ Permanent | UnlessCost$ 6 | UnlessPayer$ Player
+[Bugs]
+ - Card frame does not have any artifact frame elements despite being an artifact creature. Need to figure out if this is a shortcoming of CardConjurer (see if it has a colored artifact frame with the transformation bevel)
+[DesignNotes]
+ - In the game, Osquio is the final boss of Verso's Drafts. He is Esquie's evil cousin and has all the moves an mannerisms of a Professional Wrestler.
+ - Obviously a DFC where his Phase 1 form transforms to his Phase 2 form. Abilities I've translated are:
+    - Spawning Osquio's Mask tokens
+    - Goblin Sharpshooter's pinging ability
+    - Applying Barbapapa debuffs when damaging any creature in his Phase 2 form
+ - The "Decides to destroy the world. Bye bye" ability has an "unless a player pays {6}" clause as a nod to the fact that this attack must be parried (stopped), but you only have one small window to pull it off.

@@ -1,0 +1,25 @@
+Name:Osquio, Ruler Of All The Trains
+ManaCost:3 B B
+Types:Legendary Artifact Creature Toy
+PT:5/5
+A:AB$ Token | Cost$ 2 B B T | TokenAmount$ 2 | TokenOwner$ You | TokenScript$ b_0_1_osquios_mask | SpellDescription$ Create two 0/1 black Toy artifact creature tokens named Osquio’s Mask with Flying and “Sacrifice this creature: It deals 2 damage to any target. You gain 2 life“
+T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Card.Self | Execute$ TrigReturn | TriggerDescription$ When CARDNAME dies, return it to the battlefield transformed under its owner's control.
+SVar:TrigReturn:DB$ ChangeZone | Origin$ Graveyard | Defined$ TriggeredNewCardLKICopy | Destination$ Battlefield | Transformed$ True
+AlternateMode:DoubleFaced
+Oracle:Trample\n{i}Summons his little friends{/i} — {2}{B}{B}, {T}: Create two 0/1 black Toy artifact creature tokens named Osquio’s Mask with Flying and “Sacrifice this creature: It deals 2 damage to any target. You gain 2 life“\n{i}Time for a spin spin{/i} — When Osquio dies, return it to the battlefield transformed under it’s owner’s control.{flavor}WARRIORS OF LEGEND! Prepare. For. Annihilation!
+
+ALTERNATE
+
+Name:Osquio, Ultimate Cake Eater Of The Universe
+ManaCost:no cost
+Colors:black red
+Types:Legendary Artifact Creature Toy
+PT:6/6
+T:Mode$ DamageDone | ValidSource$ Card.Self | ValidTarget$ Creature | Execute$ TrigBarbapapa | TriggerDescription$ Whenever Osquio deals damage to a creature, create a blue Aura enchantment token named Barbapapa attached to that creature. The token has enchant creature and “Enchanted creature has base power 1. When enchanted creature deals combat damage, sacrifice this Aura.”
+SVar:TrigBarbapapa:DB$ Token | TokenAmount$ 1 | TokenScript$ u_barbapapa | TokenOwner$ You | AttachedTo$ TriggeredTarget
+T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Creature | TriggerZones$ Battlefield | Execute$ TrigUntap | TriggerDescription$ Whenever a creature dies, untap CARDNAME.
+SVar:TrigUntap:DB$ Untap | Defined$ Self
+A:AB$ DealDamage | Cost$ R T | ValidTgts$ Any | NumDmg$ 2 | SpellDescription$ CARDNAME deals 2 damage to any target.
+T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Card.Self | Execute$ TrigNuke | TriggerDescription$ When CARDNAME dies, destroy all permanents unless a player pays {6}.
+SVar:TrigNuke:DB$ DestroyAll | ValidCards$ Permanent | UnlessCost$ 6 | UnlessPayer$ Player
+Oracle:Whenever Osquio deals damage to a creature, create a blue Aura enchantment token named Barbapapa attached to that creature. The token has enchant creature and “Enchanted creature has base power 1. When enchanted creature deals combat damage, sacrifice this Aura.”\nWhenever a creature dies, untap Osquio.\nGoes pew pew pew — {R}, {T}: Osquio deals 2 damage to any target.\nDecides to destroy the world. Bye bye — When Osquio dies, destroy all permanents unless a player pays {6}.
