@@ -1,0 +1,32 @@
+[Name]
+Barbasucette
+[ManaCost]
+2
+G
+U
+[Types]
+Creature
+Grandis
+[Rarity]
+U
+[PT]
+3/4
+[Oracle]
+Not happy — When this creature enters, create a blue Aura enchantment token named Barbapapa attached to another target creature. The token has enchant creature and “Enchanted creature has base power 1. When enchanted creature deals combat damage, sacrifice this Aura.”
+Lollipop attack — This creature gets +1/+1 as long as you control at least two Foods.
+Summons flying candy — Sacrifice a Food: This creature deals 2 damage to target creature with flying.
+Candy shields — Sacrifice a Food: Put a shield counter on this creature.
+[AbilityWords]
+Not happy
+Lollipop attack
+Summons flying candy
+Candy shields
+[ForgeScript]
+T:Mode$ ChangesZone | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigBarbapapa | TriggerDescription$ When ~ enters, create a blue Aura enchantment token named Barbapapa attached to another target creature. The token has enchant creature and “Enchanted creature has base power 1. When enchanted creature deals combat damage, sacrifice this Aura.”
+SVar:TrigBarbapapa:DB$ Token | TokenAmount$ 1 | TokenScript$ u_barbapapa | TokenOwner$ You | AttachedTo$ Targeted | ValidTgts$ Creature | TgtPrompt$ Select target creature to attach Barbapapa Token
+S:Mode$ Continuous | Affected$ Card.Self | AddPower$ 1 | AddToughness$ 1 | IsPresent$ Food.YouCtrl | PresentCompare$ GE2 | Description$ CARDNAME gets +1/+1 as long as you control at least two Foods.
+A:AB$ DealDamage | Cost$ Sac<1/Food> | ValidTgts$ Creature.withFlying | TgtPrompt$ Select target creature with flying. | NumDmg$ 2 | SpellDescription$ CARDNAME deals 2 damage to target creature with flying.
+A:AB$ PutCounter | Cost$ Sac<1/Food> | CounterNum$ 1 | CounterType$ SHIELD | SpellDescription$ Put a shield counter on this creature.
+[DesignNotes]
+ - In the game, Barbasucettes are new enemies found in Verso's Drafts as part of the "Thank You" update. They are Grandis that wield two lollipops as weapons.
+ - Mapped his suite of abilities to a whole bunch of food-related abilities as well as a Barbapapa debuff on ETB.
