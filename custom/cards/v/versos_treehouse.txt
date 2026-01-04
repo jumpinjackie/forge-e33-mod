@@ -1,0 +1,8 @@
+Name:Verso's Treehouse
+ManaCost:no cost
+Types:Legendary Land
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigToken | TriggerDescription$ When CARDNAME enters, create a Lumina token. (It’s an artifact with “{T}, Sacrifice this artifact: Scry 1.”)
+SVar:TrigToken:DB$ Token | TokenAmount$ 1 | TokenOwner$ You | TokenScript$ c_a_lumina
+A:AB$ Mana | Cost$ T | Produced$ G | SpellDescription$ Add {G}.
+A:AB$ Pump | Cost$ G T | ValidTgts$ Creature.YouCtrl | TgtPrompt$ Select target creature you control. | KW$ Reach | SpellDescription$ Target creature you control gains reach until end of turn.
+Oracle:When Verso’s Treehouse enters, create a Lumina token. (It’s an artifact with “{T}, Sacrifice this artifact: Scry 1.”)\n{T}: Add {G}.\n{G}, {T}: Target creature you control gains reach until end of turn.
