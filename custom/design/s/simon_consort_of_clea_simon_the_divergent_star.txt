@@ -36,8 +36,8 @@ Simon, The Divergent Star
 [ManaCost]
 no cost
 [ColorIdentity]
-white
 black
+red
 [Types]
 Legendary
 Creature

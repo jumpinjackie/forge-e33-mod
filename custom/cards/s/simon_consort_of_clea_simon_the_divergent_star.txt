@@ -15,7 +15,7 @@ ALTERNATE
 
 Name:Simon, The Divergent Star
 ManaCost:no cost
-Colors:white black
+Colors:black red
 Types:Legendary Creature Human Expeditioner
 PT:6/6
 K:Trample
