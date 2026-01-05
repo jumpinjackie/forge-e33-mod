@@ -19,7 +19,7 @@ Construct
 Trample, Double strike
 When this creature enters, create a blue Aura enchantment token named Barbapapa attached to another target creature. The token has enchant creature and “Enchanted creature has base power 1. When enchanted creature deals combat damage, sacrifice this Aura.”
 {U}: Put a flying counter on ~
-Flies to attack — {4}{R}, {T}: Remove a flying counter from ~: ~ deals 4 damage to target creature.
+Flies to attack — {4}{R}, {T}, Remove a flying counter from ~: It deals 4 damage to target creature.
 At the beginning of each end step, remove all flying counters on ~.
 [AbilityWords]
 Flies to attack
