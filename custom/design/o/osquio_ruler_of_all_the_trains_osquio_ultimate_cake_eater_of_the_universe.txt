@@ -62,8 +62,6 @@ SVar:TrigUntap:DB$ Untap | Defined$ Self
 A:AB$ DealDamage | Cost$ R T | ValidTgts$ Any | NumDmg$ 2 | SpellDescription$ ~ deals 2 damage to any target.
 T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Card.Self | Execute$ TrigNuke | TriggerDescription$ When ~ dies, destroy all permanents unless a player pays {6}.
 SVar:TrigNuke:DB$ DestroyAll | ValidCards$ Permanent | UnlessCost$ 6 | UnlessPayer$ Player
-[Bugs]
- - Card frame does not have any artifact frame elements despite being an artifact creature. Need to figure out if this is a shortcoming of CardConjurer (see if it has a colored artifact frame with the transformation bevel)
 [DesignNotes]
  - In the game, Osquio is the final boss of Verso's Drafts. He is Esquie's evil cousin and has all the moves an mannerisms of a Professional Wrestler.
  - Obviously a DFC where his Phase 1 form transforms to his Phase 2 form. Abilities I've translated are:
