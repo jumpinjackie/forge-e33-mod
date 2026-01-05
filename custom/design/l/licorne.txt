@@ -6,6 +6,8 @@ U
 R
 [Rarity]
 C
+[PT]
+1/4
 [Types]
 Creature
 Turtle
