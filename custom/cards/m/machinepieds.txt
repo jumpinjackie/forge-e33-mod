@@ -1,0 +1,10 @@
+Name:Machinepieds
+ManaCost:3 U
+Types:Artifact Creature Gestral Construct
+PT:3/4
+K:Trample
+T:Mode$ Phase | Phase$ End of Turn | TriggerZones$ Battlefield | Execute$ DBRemoveAllFlying | TriggerDescription$ At the beginning of each end step, remove all flying counters on CARDNAME.
+A:AB$ PutCounter | Cost$ U | CounterType$ Flying | CounterNum$ 1 | SpellDescription$ Put a flying counter on Dominique.
+A:AB$ DealDamage | Cost$ T SubCounter<1/Flying> Sac<1/CARDNAME> | ValidTgts$ Creature.attacking,Creature.blocing | TgtPrompt$ Select target attacking or blocking creature | NumDmg$ 3 | SpellDescription$ CARDNAME deals 3 damage to target attacking or blocking creature.
+SVar:DBRemoveAllFlying:DB$ RemoveCounter | Defined$ Self | CounterType$ Flying | CounterNum$ All
+Oracle:Trample\n{U}: Put a flying counter on this creature\n{T}, Remove a flying counter from this creature, Sacrifice this creature: It deals 3 damage to target attacking or blocking creature.\nAt the beginning of each end step, remove all flying counters on this creature.

@@ -1,0 +1,30 @@
+[Name]
+Machinepieds
+[ManaCost]
+3
+U
+[Rarity]
+C
+[PT]
+3/4
+[Types]
+Artifact
+Creature
+Gestral
+Construct
+[Oracle]
+Trample
+{U}: Put a flying counter on ~
+{T}, Remove a flying counter from ~, Sacrifice ~: It deals 3 damage to target attacking or blocking creature.
+At the beginning of each end step, remove all flying counters on ~.
+[AbilityWords]
+Flies to attack
+[ForgeScript]
+K:Trample
+T:Mode$ Phase | Phase$ End of Turn | TriggerZones$ Battlefield | Execute$ DBRemoveAllFlying | TriggerDescription$ At the beginning of each end step, remove all flying counters on CARDNAME.
+A:AB$ PutCounter | Cost$ U | CounterType$ Flying | CounterNum$ 1 | SpellDescription$ Put a flying counter on Dominique.
+A:AB$ DealDamage | Cost$ T SubCounter<1/Flying> Sac<1/CARDNAME> | ValidTgts$ Creature.attacking,Creature.blocing | TgtPrompt$ Select target attacking or blocking creature | NumDmg$ 3 | SpellDescription$ CARDNAME deals 3 damage to target attacking or blocking creature.
+SVar:DBRemoveAllFlying:DB$ RemoveCounter | Defined$ Self | CounterType$ Flying | CounterNum$ All
+[DesignNotes]
+ - In the game, Machinepieds is an enemy found in Verso's Drafts. They have the appearance of a Gestral on wheels with boxing gloves.
+ - The ability suite is very similar to that of Dominique Giant Feet, so has the same abilities but with adjusted costs.
