@@ -1,0 +1,11 @@
+Name:Verso's Sky Train
+ManaCost:2 W U
+Types:Legendary Artifact Vehicle
+PT:4/4
+K:Flying
+K:Trample
+K:Lifelink
+K:Crew:2
+T:Mode$ Attacks | ValidCard$ Card.Self | TriggerZones$ Battlefield | Execute$ TrigLumina | TriggerDescription$ Whenever CARDNAME attacks, create a Lumina token.
+SVar:TrigLumina:DB$ Token | TokenAmount$ 1 | TokenOwner$ You | TokenScript$ c_a_lumina
+Oracle:Flying, trample, lifelink\nWhenever Verso’s Sky Train attacks, create a Lumina token.\nCrew 2 (Tap any number of creatures you control with total power 2 or more: This Vehicle becomes an artifact creature until end of turn.)
