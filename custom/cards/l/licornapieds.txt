@@ -1,0 +1,13 @@
+Name:Licornapieds
+ManaCost:3 U R
+Types:Legendary Artifact Creature Gestral Turtle Construct
+PT:3/5
+K:Trample
+K:Double Strike
+T:Mode$ ChangesZone | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigBarbapapa | TriggerDescription$ When CARDNAME enters, create a blue Aura enchantment token named Barbapapa attached to another target creature. The token has enchant creature and “Enchanted creature has base power 1. When enchanted creature deals combat damage, sacrifice this Aura.”
+SVar:TrigBarbapapa:DB$ Token | TokenAmount$ 1 | TokenScript$ u_barbapapa | TokenOwner$ You | AttachedTo$ Targeted | ValidTgts$ Creature | TgtPrompt$ Select target creature to attach Barbapapa Token
+T:Mode$ Phase | Phase$ End of Turn | TriggerZones$ Battlefield | Execute$ DBRemoveAllFlying | TriggerDescription$ At the beginning of each end step, remove all flying counters on CARDNAME.
+A:AB$ PutCounter | Cost$ U | CounterType$ Flying | CounterNum$ 1 | SpellDescription$ Put a flying counter on Dominique.
+A:AB$ DealDamage | Cost$ 4 R T SubCounter<1/Flying> | ValidTgts$ Creature | TgtPrompt$ Select target creature | NumDmg$ 4 | SpellDescription$ CARDNAME deals 4 damage to target creature.
+SVar:DBRemoveAllFlying:DB$ RemoveCounter | Defined$ Self | CounterType$ Flying | CounterNum$ All
+Oracle:Trample, Double strike\nWhen this creature enters, create a blue Aura enchantment token named Barbapapa attached to another target creature. The token has enchant creature and “Enchanted creature has base power 1. When enchanted creature deals combat damage, sacrifice this Aura.”\n{U}: Put a flying counter on Licornapieds\nFlies to attack — {4}{R}, {T}: Remove a flying counter from Licornapieds: Licornapieds deals 4 damage to target creature.\nAt the beginning of each end step, remove all flying counters on Licornapieds.

@@ -1,0 +1,37 @@
+[Name]
+Licornapieds
+[ManaCost]
+3
+U
+R
+[Rarity]
+R
+[PT]
+3/5
+[Types]
+Legendary
+Artifact
+Creature
+Gestral
+Turtle
+Construct
+[Oracle]
+Trample, Double strike
+When this creature enters, create a blue Aura enchantment token named Barbapapa attached to another target creature. The token has enchant creature and “Enchanted creature has base power 1. When enchanted creature deals combat damage, sacrifice this Aura.”
+{U}: Put a flying counter on ~
+Flies to attack — {4}{R}, {T}: Remove a flying counter from ~: ~ deals 4 damage to target creature.
+At the beginning of each end step, remove all flying counters on ~.
+[AbilityWords]
+Flies to attack
+[ForgeScript]
+K:Trample
+K:Double Strike
+T:Mode$ ChangesZone | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigBarbapapa | TriggerDescription$ When ~ enters, create a blue Aura enchantment token named Barbapapa attached to another target creature. The token has enchant creature and “Enchanted creature has base power 1. When enchanted creature deals combat damage, sacrifice this Aura.”
+SVar:TrigBarbapapa:DB$ Token | TokenAmount$ 1 | TokenScript$ u_barbapapa | TokenOwner$ You | AttachedTo$ Targeted | ValidTgts$ Creature | TgtPrompt$ Select target creature to attach Barbapapa Token
+T:Mode$ Phase | Phase$ End of Turn | TriggerZones$ Battlefield | Execute$ DBRemoveAllFlying | TriggerDescription$ At the beginning of each end step, remove all flying counters on CARDNAME.
+A:AB$ PutCounter | Cost$ U | CounterType$ Flying | CounterNum$ 1 | SpellDescription$ Put a flying counter on Dominique.
+A:AB$ DealDamage | Cost$ 4 R T SubCounter<1/Flying> | ValidTgts$ Creature | TgtPrompt$ Select target creature | NumDmg$ 4 | SpellDescription$ CARDNAME deals 4 damage to target creature.
+SVar:DBRemoveAllFlying:DB$ RemoveCounter | Defined$ Self | CounterType$ Flying | CounterNum$ All
+[DesignNotes]
+ - In the game, Licornapieds is an optional boss in Verso's Drafts. They have the appearance of a Licorne fused wtih a Machinepieds.
+ - The ability suite is very similar to that of Dominique Giant Feet, so has the same abilities but with adjusted costs plus a Barbapapa debuff ETB + Trample + Double Strike
