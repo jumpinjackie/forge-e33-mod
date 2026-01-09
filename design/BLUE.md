@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 24/12/2025 5:10:17 am
+> Last generated: 9/1/2026 7:27:45 am
 
 ## An Advantage!
 
@@ -555,6 +555,26 @@ When this creature dies, target opponent creates a Lumina token. (It's an artifa
  - Currently a vanilla placeholder Nevron. Abilities TBD
  - 13/10/2025: Removed Devoid.
  - 15/11/2025: Added Flash to emphasize its speed.
+
+## Machinepieds
+
+```
+3U
+Artifact Creature - Gestral Construct
+Trample
+{U}: Put a flying counter on this creature
+{T}, Remove a flying counter from this creature, Sacrifice this creature: It deals 3 damage to target attacking or blocking creature.
+At the beginning of each end step, remove all flying counters on this creature.
+
+3/4
+```
+
+[card implementation](../custom/cards/m/machinepieds.txt)
+
+### Design Notes
+
+ - In the game, Machinepieds is an enemy found in Verso's Drafts. They have the appearance of a Gestral on wheels with boxing gloves.
+ - The ability suite is very similar to that of Dominique Giant Feet, so has the same abilities but with adjusted costs.
 
 ## Mana Drain
 

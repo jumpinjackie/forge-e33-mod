@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 2/1/2026 7:06:36 pm
+> Last generated: 9/1/2026 7:27:45 am
 
 ## Axon Offering
 
@@ -310,6 +310,42 @@ When this creature dies, target opponent creates a Lumina token. (It's an artifa
  - Mechanically, it's main ability is to give its allies the ability to act twice, which I've mapped to untapping creatures.
  - And to round out its abilities I've given it a generic -1/-1 affliction ability.
  - 13/10/2025: Removed Devoid.
+
+## Osquio, Ruler Of All The Trains // Osquio, Ultimate Cake Eater Of The Universe
+
+```
+3BB
+Legendary Artifact Creature - Toy
+Trample
+{i}Summons his little friends{/i} — {2}{B}{B}, {T}: Create two 0/1 black Toy artifact creature tokens named Osquio’s Mask with Flying and “Sacrifice this creature: It deals 2 damage to any target. You gain 2 life“
+{i}Time for a spin spin{/i} — When Osquio dies, return it to the battlefield transformed under it’s owner’s control.{flavor}WARRIORS OF LEGEND! Prepare. For. Annihilation!
+
+5/5
+```
+
+Transforms into:
+
+```
+
+Legendary Artifact Creature - Toy
+Whenever Osquio deals damage to a creature, create a blue Aura enchantment token named Barbapapa attached to that creature. The token has enchant creature and “Enchanted creature has base power 1. When enchanted creature deals combat damage, sacrifice this Aura.”
+Whenever a creature dies, untap Osquio.
+Goes pew pew pew — {R}, {T}: Osquio deals 2 damage to any target.
+Decides to destroy the world. Bye bye — When Osquio dies, destroy all permanents unless a player pays {6}.
+
+6/6
+```
+
+[card implementation](../custom/cards/o/osquio_ruler_of_all_the_trains_osquio_ultimate_cake_eater_of_the_universe.txt)
+
+### Design Notes
+
+ - In the game, Osquio is the final boss of Verso's Drafts. He is Esquie's evil cousin and has all the moves an mannerisms of a Professional Wrestler.
+ - Obviously a DFC where his Phase 1 form transforms to his Phase 2 form. Abilities I've translated are:
+    - Spawning Osquio's Mask tokens
+    - Goblin Sharpshooter's pinging ability
+    - Applying Barbapapa debuffs when damaging any creature in his Phase 2 form
+ - The "Decides to destroy the world. Bye bye" ability has an "unless a player pays {6}" clause as a nod to the fact that this attack must be parried (stopped), but you only have one small window to pull it off.
 
 ## Painted Renoir, Aline's Enforcer
 

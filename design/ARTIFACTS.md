@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 1/1/2026 9:33:21 am
+> Last generated: 9/1/2026 7:27:45 am
 
 ## A Rock for François
 
@@ -22,6 +22,26 @@ Esquie: I think we captured your essence beautifully.
  - In the game, Esquie carves a rock of François and Clea to trade for Urrie, which gives him the ability to dive.
  - Another tutor piece to help assist in assembling the rock "Urzatron"
  - Not legendary like the quartet because it's just an ordinary rock.
+
+## Alicenisa, Gestral Siren
+
+```
+3
+Legendary Artifact Creature - Gestral Bard
+Other Gestral creatures you control get +1/+1.
+You may choose not to untap Alicenisa during your untap step.
+At the beginning of your upkeep, put a verse counter on Alicenisa.
+{T}: Gain control of target creature with mana value X or less for as long as you control Alicenisa and Alicenisa remains tapped, where X is the number of verse counters on Alicenisa.
+
+1/4
+```
+
+[card implementation](../custom/cards/a/alicenisa_gestral_siren.txt)
+
+### Design Notes
+
+ - In the game, Lorieniso played guitar alone in the Gestral Village. With the "Thank You" update, he is now accompanied by Alicenisa. Named after Alice Duport-Percier, the co-composer and main vocalist of the OST for this game.
+ - Gone with a mashup of "Glorious Anthem" for Gestrals and a "Rubinia Soulsinger" creature stealer. Creature stealing is conditional on the number of verse counters that grows every turn so it can't just steal fatties right off the bat.
 
 ## Anti-Burn Picto
 

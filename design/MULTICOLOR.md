@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 3/1/2026 6:42:36 pm
+> Last generated: 9/1/2026 7:27:45 am
 
 ## A Storm is Coming
 
@@ -108,6 +108,26 @@ When this creature dies, target opponent creates a Lumina token. (It's an artifa
  - 23/09/2025: Move color identity from white/green to red/green to make way for White Nevrons.
  - 13/10/2025: Removed Devoid.
  - 13/12/2025: Changed cost from 1{RG}{RG} to {RG}{RG}
+
+## Barbasucette
+
+```
+2GU
+Creature - Grandis
+Not happy — When this creature enters, create a blue Aura enchantment token named Barbapapa attached to another target creature. The token has enchant creature and “Enchanted creature has base power 1. When enchanted creature deals combat damage, sacrifice this Aura.”
+Lollipop attack — This creature gets +1/+1 as long as you control at least two Foods.
+Summons flying candy — Sacrifice a Food: This creature deals 2 damage to target creature with flying.
+Candy shields — Sacrifice a Food: Put a shield counter on this creature.
+
+3/4
+```
+
+[card implementation](../custom/cards/b/barbasucette.txt)
+
+### Design Notes
+
+ - In the game, Barbasucettes are new enemies found in Verso's Drafts as part of the "Thank You" update. They are Grandis that wield two lollipops as weapons.
+ - Mapped his suite of abilities to a whole bunch of food-related abilities as well as a Barbapapa debuff on ETB.
 
 ## Bedevil
 
@@ -1316,6 +1336,23 @@ For those who come after.
  - 23/09/2025: It may look a bit odd to have blue color identity but no actual abilities that cost blue mana. I added the blue color identity strictly for flavor purposes because he's an engineer and engineers are almost always a blue color identity.
  - 13/10/2025: Dropped the marking shot ability due to text box budget constraints having seen this card for the first time in CardConjurer.
 
+## Jar of Candy
+
+```
+GU
+Artifact - Food
+Flash
+{2}, {T}, Sacrifice this artifact: Create a blue Aura enchantment token named Barbapapa attached to target creature. The token has enchant creature and “Enchanted creature has base power 1. When enchanted creature deals combat damage, sacrifice this Aura.”
+{2}, {T}, Sacrifice this artifact: You gain 3 life.
+```
+
+[card implementation](../custom/cards/j/jar_of_candy.txt)
+
+### Design Notes
+
+ - In the game, Jars of Candy are scattered throughout Verso's drafts. These are basically breakable loot containers.
+ - Modeled as a food token that can flash in and be popped for a Barbapapa debuff.
+
 ## Lampmaster
 
 ```
@@ -1373,6 +1410,45 @@ Exile target nonland permanent.
 
  - One of Maelle's quotes as she's about to gommage some sorry Nevron out of existence.
  - Painter bonus because this is a painter's power.
+
+## Licornapieds
+
+```
+3UR
+Legendary Artifact Creature - Gestral Turtle Construct
+Trample, Double strike
+When this creature enters, create a blue Aura enchantment token named Barbapapa attached to another target creature. The token has enchant creature and “Enchanted creature has base power 1. When enchanted creature deals combat damage, sacrifice this Aura.”
+{U}: Put a flying counter on Licornapieds
+Flies to attack — {4}{R}, {T}, Remove a flying counter from Licornapieds: It deals 4 damage to target creature.
+At the beginning of each end step, remove all flying counters on Licornapieds.
+
+3/5
+```
+
+[card implementation](../custom/cards/l/licornapieds.txt)
+
+### Design Notes
+
+ - In the game, Licornapieds is an optional boss in Verso's Drafts. They have the appearance of a Licorne fused wtih a Machinepieds.
+ - The ability suite is very similar to that of Dominique Giant Feet, so has the same abilities but with adjusted costs plus a Barbapapa debuff ETB + Trample + Double Strike
+
+## Licorne
+
+```
+2UR
+Creature - Turtle
+When this creature enters, create a blue Aura enchantment token named Barbapapa attached to another target creature. The token has enchant creature and “Enchanted creature has base power 1. When enchanted creature deals combat damage, sacrifice this Aura.”
+Rainbow arc beams - {1}{R}, {T}: This creature deals 1 damage to target creature.
+
+1/4
+```
+
+[card implementation](../custom/cards/l/licorne.txt)
+
+### Design Notes
+
+ - In the game, Licornes can be found in Verso's Drafts. They have the appearance of a turtle (like Francois), but have a rainbow colored shell with googly eyes and troll hair on top.
+ - Another creature with a Barbapapa debuff ETB and a creature pinger.
 
 ## Lost // Found
 
@@ -2354,6 +2430,28 @@ Maelle: Can you play another?
 
  - In the game, during one of the camp cutscenes, Verso plays some tunes on his piano.
  - Modeled on War Dance, with a lifelink bonus attached.
+
+## Verso's Sky Train
+
+```
+2WU
+Legendary Artifact - Vehicle
+Flying, trample, lifelink
+Whenever Verso’s Sky Train attacks, create a Lumina token.
+Crew 2 (Tap any number of creatures you control with total power 2 or more: This Vehicle becomes an artifact creature until end of turn.)
+---
+Choo Choo!
+- Verso
+
+4/4
+```
+
+[card implementation](../custom/cards/v/versos_sky_train.txt)
+
+### Design Notes
+
+ - Depicts the ship Expedition 33 departs from Lumière in. Modeled on Adrestia.
+ - 1/1/2026: Drop creature type that was causing it to always be a creature without needing to crew it.
 
 ## Vicarious Envy
 

@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 3/1/2026 1:40:31 pm
+> Last generated: 9/1/2026 7:27:45 am
 
 ## Anger
 
@@ -358,6 +358,25 @@ When this aura is put into a graveyard from the battlefield, return it to its ow
  - Basically copied the damage doubling template from Curse of Bloodletting, and swapped player for creature.
  - Added Flash for extra combat trickiness.
  - To have some utility, added Rancor's recurring effect.
+
+## Monsieur Frappe
+
+```
+R
+Legendary Artifact Creature - Gestral
+Whenever Monsieur Frappe is blocked, tap all creatures blocking him. Prevent all combat damage that would be dealt this turn by Monsieur Frappe and each creature blocking it.
+---
+Try to counter this, worm.
+
+3/3
+```
+
+[card implementation](../custom/cards/m/monsieur_frappe.txt)
+
+### Design Notes
+
+ - In the game, Monsieur Frappe can be found in Verso's Drafts. He can be challenged to a fight where his main gimmick is all of his attacks have long windups and have plenty of fakeouts to bait you into parrying at the wrong time. Defeating him rewards you with the Feint pictos.
+ - There is already a card named Feint, and Monsieur Frappe's gimmick is all about that, so we've stapled Feint into a 3/3 body.
 
 ## Mutinous Expedition 48 Soldier
 
