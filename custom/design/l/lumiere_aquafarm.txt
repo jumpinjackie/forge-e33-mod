@@ -28,3 +28,4 @@ SVar:LandTapped:DB$ Tap | Defined$ Self | ETB$ True | ConditionPresent$ Expediti
  - This gives us an opportunity to add another dual land to this set.
  - Obviously expeditioner aligned so they get a ETB tapped sidestep.
  - It's a farm so obviously needs a Food token generating ability.
+ - The concept art was chosen as it looked abstract enough in its depiciton that it could be interpreted as a hydroponic farm which better fits the description of an Aquafarm. Whereas its in-game depiction is clearly a rooftop greenhouse, that grows only flowers and not food.
