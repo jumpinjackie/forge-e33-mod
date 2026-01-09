@@ -27,5 +27,5 @@ K:Crew:2
 T:Mode$ Attacks | ValidCard$ Card.Self | TriggerZones$ Battlefield | Execute$ TrigLumina | TriggerDescription$ Whenever ~ attacks, create a Lumina token.
 SVar:TrigLumina:DB$ Token | TokenAmount$ 1 | TokenOwner$ You | TokenScript$ c_a_lumina
 [DesignNotes]
- - Depicts the ship Expedition 33 departs from Lumière in. Modeled on Adrestia.
- - 1/1/2026: Drop creature type that was causing it to always be a creature without needing to crew it.
+ - In the game, in Verso's Drafts, the party must board a sky train to reach Osquio's lair. If the party has unlocked The Gingerbread Door, there is a section past the door where they must board another sky train to reach the Licornapieds sub-boss.
+ - This card depicts this vehicle.
