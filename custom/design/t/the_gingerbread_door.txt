@@ -1,0 +1,28 @@
+[Name]
+The Gingerbread Door
+[ManaCost]
+5
+[Types]
+Legendary
+Artifact
+Food
+[Rarity]
+R
+[Oracle]
+When ~ enters, each player creates a Food token.
+Creatures with power greater than the number of Foods on the battlefield can’t attack.
+{2}, {T}, Sacrifice this artifact: You gain 3 life.
+[FlavorText]
+A group of five? A yummy looking cake! We have what is needed. NOW LET’S PARTYYYYY-
+[ForgeScript]
+T:Mode$ ChangesZone | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigFood | TriggerDescription$ When ~ enters, each player creates a Food token.
+SVar:TrigFood:DB$ Token | TokenAmount$ 1 | TokenScript$ c_a_food_sac | TokenOwner$ Player
+S:Mode$ CantAttack | ValidCard$ Creature.powerGTX | Description$ Creatures with power greater than the number of Foods on the battlefield can’t attack.
+SVar:X:Count$Valid Food
+A:AB$ GainLife | Cost$ 2 T Sac<1/CARDNAME> | LifeAmount$ 3 | SpellDescription$ You gain 3 life.
+[DesignNotes]
+ - In the game, The Gingerbread Door is an obstacle in Verso's Drafts. It can only be unlocked by presenting it a birthday cake. The birthday cake is composed from 3 cake slices which can be acquired from completing various tasks.
+ - It's made of Gingerbread so clearly it's a Food.
+ - It's an obstacle so it's clearly an artifact of the Ensnaring Bridge kind.
+ - Instead of counting cards in hand, we count foods on the battlefield (to flavorfully approximate the "you need 3 slices of cake to unlock this door" condition)
+ - To give opponents a fighting chance with this in play, a food token is granted on ETB to each player. That way combat is not hard-locked out. 1/2-power creatures can still swing for the fences, but they could be swinging into fatties that can't currently attack, so there's a fine balancing act at play.

@@ -1,0 +1,9 @@
+Name:The Gingerbread Door
+ManaCost:5
+Types:Legendary Artifact Food
+T:Mode$ ChangesZone | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigFood | TriggerDescription$ When CARDNAME enters, each player creates a Food token.
+SVar:TrigFood:DB$ Token | TokenAmount$ 1 | TokenScript$ c_a_food_sac | TokenOwner$ Player
+S:Mode$ CantAttack | ValidCard$ Creature.powerGTX | Description$ Creatures with power greater than the number of Foods on the battlefield can’t attack.
+SVar:X:Count$Valid Food
+A:AB$ GainLife | Cost$ 2 T Sac<1/CARDNAME> | LifeAmount$ 3 | SpellDescription$ You gain 3 life.
+Oracle:When The Gingerbread Door enters, each player creates a Food token.\nCreatures with power greater than the number of Foods on the battlefield can’t attack.\n{2}, {T}, Sacrifice this artifact: You gain 3 life.
