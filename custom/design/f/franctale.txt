@@ -1,0 +1,28 @@
+[Name]
+Franctale
+[ManaCost]
+3
+G
+[Types]
+Artifact
+Creature
+Gestral
+Turtle
+[Rarity]
+C
+[Artist]
+Sandfall Interactive
+[PT]
+2/5
+[Oracle]
+Reach
+Kicks its head — {T}: Create a 2/2 green Turtle artifact creature token named Franctale’s Head. It gains haste. Sacrifice it at the beginning of the next end step.
+[AbilityWords]
+Kicks its head
+[ForgeScript]
+K:Reach
+A:AB$ Token | Cost$ T | TokenScript$ g_2_2_franctales_head | PumpKeywords$ Haste | PumpDuration$ EOT | AtEOT$ YourSacrifice | SpellDescription$ Create a 2/2 green Turtle artifact creature token named Franctale’s Head. It gains haste. Sacrifice it at the beginning of the next end step.
+[DesignNotes]
+ - In the game, Franctales can be found in Verso's Drafts. It has the appearance of a tall Gestral with a Francois-like turtle as its head.
+ - Has Reach because it's tall!
+ - Main gimmick we're translating is its shell attack where it detaches its head and kicks it like a soccer ball towards you.

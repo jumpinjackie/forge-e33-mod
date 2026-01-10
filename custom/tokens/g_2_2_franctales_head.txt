@@ -1,0 +1,6 @@
+Name:Franctale's Head
+ManaCost:no cost
+Colors:Green
+Types:Artifact Creature Turtle
+PT:2/2
+Oracle:
