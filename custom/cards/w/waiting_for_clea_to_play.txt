@@ -1,0 +1,15 @@
+Name:Waiting for Clea to Play
+ManaCost:2 R
+Types:Enchantment
+K:ETBReplacement:Other:ChooseCT
+SVar:ChooseCT:DB$ ChooseType | Defined$ You | Type$ Creature | SpellDescription$ As CARDNAME enters, choose a creature type. | AILogic$ MostProminentInComputerDeck
+
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Creature.ChosenType+YouCtrl | Execute$ TrigHaste | TriggerDescription$ Whenever a creature you control of the chosen type enters, another target creature you control of the chosen type gains haste until end of turn.
+SVar:TrigHaste:DB$ Pump | ValidTgts$ Creature.YouCtrl+ChosenType+cmcGTX | TgtPrompt$ Select target creature you control of the chosen type with greater mana value to give haste | KW$ Haste
+SVar:X:TriggeredCard$CardManaCost
+
+T:Mode$ AttackersDeclared | Execute$ TrigPump | ValidAttackers$ Creature.ChosenType | ValidAttackersAmount$ GE2 | TriggerZones$ Battlefield | AttackingPlayer$ You | TriggerDescription$ Whenever two or more creatures of the chosen type attacks, they each get +1/+0 until end of turn.
+SVar:TrigPump:DB$ Pump | Defined$ TriggeredAttackers | NumAtt$ +1
+
+SVar:PlayMain1:TRUE
+Oracle:As this enchantment enters, choose a creature type.\nWhenever a creature you control of the chosen type enters, target creature you control of the chosen type with greater mana value gains haste until end of turn.\nWhenever two or more creatures of the chosen type attacks, they each get +1/+0 until end of turn.
