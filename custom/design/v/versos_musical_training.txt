@@ -1,0 +1,23 @@
+[Name]
+Verso's Musical Training
+[ManaCost]
+2
+U
+[Types]
+Enchantment
+[Rarity]
+U
+[Oracle]
+At the beginning of your upkeep, you may put a verse counter on this enchantment.
+Sacrifice this enchantment: Gain control of target creature with power less than or equal to the number of verse counters on this enchantment. (This effect lasts indefinitely.)
+[FlavorText]
+You will never be a good musician. You have no choice but to paint!
+- Osquio
+[ForgeScript]
+T:Mode$ Phase | Phase$ Upkeep | ValidPlayer$ You | TriggerZones$ Battlefield | OptionalDecider$ You | Execute$ TrigPutCounter | TriggerDescription$ At the beginning of your upkeep, you may put a verse counter on CARDNAME.
+A:AB$ GainControl | Cost$ Sac<1/CARDNAME> | ValidTgts$ Creature.powerLEX | TgtPrompt$ Select target creature with power less than or equal to the number of verse counters on CARDNAME | SpellDescription$ Gain control of target creature with power less than or equal to the number of verse counters on CARDNAME. (This effect lasts indefinitely.)
+SVar:TrigPutCounter:DB$ PutCounter | Defined$ Self | CounterType$ VERSE | CounterNum$ 1
+SVar:X:Count$CardCounters.VERSE
+[DesignNotes]
+ - In the game, inside Verso's Treehouse in Verso's Drafts, there are various artpieces depicting Verso interacting with various family members. One of them is him playing the piano in front of his mother, Aline.
+ - Near-functional reprint of Legacy's Allure with different counter type and different mana cost to offset its better splashability.
