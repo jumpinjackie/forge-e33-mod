@@ -1,0 +1,27 @@
+[Name]
+Gestral Seesaw Challenge
+[ManaCost]
+GU
+[Types]
+Enchantment
+[Rarity]
+U
+[Artist]
+Sandfall Interactive
+[Oracle]
+Whenever a creature you control with flying enters or attacks, put a quest counter on this enchantment.
+Whenever a creature an opponent controls with flying enters or attacks, remove a quest counter from this enchantment.
+As long as this enchantment has four or more quest counters on it, creatures you control get +1/+1 and have flying.
+[ForgeScript]
+# See
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Creature.YouCtrl+withFlying | TriggerZones$ Battlefield | Execute$ TrigQuestCounter | TriggerDescription$ Whenever a creature you control with flying enters, put a quest counter on CARDNAME.
+T:Mode$ Attacks | ValidCard$ Creature.YouCtrl+withFlying | Execute$ TrigQuestCounter | TriggerZones$ Battlefield | TriggerDescription$ Whenever a creature you control with flying attacks, put a quest counter on CARDNAME.
+SVar:TrigQuestCounter:DB$ PutCounter | Defined$ Self | CounterType$ QUEST | CounterNum$ 1
+# Saw
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Creature.OppCtrl+withFlying | TriggerZones$ Battlefield | Execute$ TrigSubQuestCounter | TriggerDescription$ Whenever a creature an opponent controls with flying enters, remove a quest counter from CARDNAME.
+T:Mode$ Attacks | ValidCard$ Creature.OppCtrl+withFlying | Execute$ TrigSubQuestCounter | TriggerZones$ Battlefield | TriggerDescription$ Whenever a creature an opponent controls with flying attacks, remove a quest counter from CARDNAME.
+SVar:TrigSubQuestCounter:DB$ RemoveCounter | Defined$ Self | CounterType$ QUEST | CounterNum$ 1
+# Pump
+S:Mode$ Continuous | Affected$ Creature.YouCtrl | AddKeyword$ Flying | AddPower$ 1 | AddToughness$ 1 | IsPresent$ Card.Self+counters_GE4_QUEST | Description$ As long as this enchantment has four or more quest counters on it, creatures you control get +1/+1 and have flying.
+[DesignNotes]
+ - In the game, the Gestral Seesaw Challenge is 1 of 2 challenge minigames in Verso's Drafts. In this minigame you must time jumps on a seesaw
