@@ -10,6 +10,10 @@ Getting the same ordering issue on the Uro modal trigger as Golgra.
 
 The WUBRG mana ability is not preventatively disabled if you don't meet the activation condition. The ability however will (correctly) not add WUBRG if you don't meet the activation condition.
 
+## Gestral Hopscotch Challenge
+
+ - If you back out of the Timetwister ability activation after removing 9 quest counters, you will not get back those counters.
+
 ## Golgra, Gestral Chef
 
 I am being prompted for the mode before the enrage trigger goes on the stack, I kind of expected the prompt to happen on trigger resolution. And the trigger description on the stack is the full modal prompt and not the choice made. Not sure if it ultimately matters because it behaviourally works as expected.

@@ -29,7 +29,7 @@ From this list, card designs are spawned from it, which will eventually form the
 
 ## Card Name List
 
-Cards implemented: 437
+Cards implemented: 450
 
 [x] - Card is implemented or in development, [C] - Card is a commander reprint, [R] - Card is a regular reprint, [N] - Card is a nickname reprint, [Z] - Card is a nickname reprint for commander [ ] - Card is not implemented
 
@@ -416,20 +416,8 @@ No ideas yet.
 Flavor text for Emma
 
 > Prologue
-> Emma: We're her guardians, not her jailers.
-
-No ideas yet.
-
-> Prologue
 > Sophie: See you.
 > Maelle: In the next life.
-
-No ideas yet.
-
-> Act 2: Visages
-> Lune: Everything's destroyed.
-> Monoco: Normally I enjoy a little destruction, but this doesn't feel right.
-> Sciel: It's rage.
 
 No ideas yet.
 
@@ -463,3 +451,6 @@ Something to do with the "suffocation".
 > Renoir: Stop this insanity. It's time to go home.
 
 No ideas yet.
+
+> Act 3: Endless Tower
+> Clea: I painted half this world with Verso. We went on adventures here while you sat reading in your room.

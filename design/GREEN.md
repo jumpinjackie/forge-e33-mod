@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 3/1/2026 6:42:36 pm
+> Last generated: 10/1/2026 7:34:22 pm
 
 ## Abbest
 
@@ -272,6 +272,25 @@ It may not be glamorous, but truly essential work rarely is. Doesn’t make it a
 
  - Easy on-flavor reprint.
 
+## Franctale
+
+```
+3G
+Artifact Creature - Gestral Turtle
+Reach
+Kicks its head — {T}: Create a 2/2 green Turtle artifact creature token named Franctale’s Head. It gains haste. Sacrifice it at the beginning of the next end step.
+
+2/5
+```
+
+[card implementation](../custom/cards/f/franctale.txt)
+
+### Design Notes
+
+ - In the game, Franctales can be found in Verso's Drafts. It has the appearance of a tall Gestral with a Francois-like turtle as its head.
+ - Has Reach because it's tall!
+ - Main gimmick we're translating is its shell attack where it detaches its head and kicks it like a soccer ball towards you.
+
 ## Gault
 
 ```
@@ -334,8 +353,8 @@ Do not be concerned for us. For we have faced every hardship imaginable.
 
 ```
 1G
-Creature - Nevron
-When this creature enters or attacks, it explores. (Reveal the top card of your library. Put that card into your hand if it’s a land. Otherwise, put a +1/+1 counter on this creature, then put the card back or put it into your graveyard.)
+Creature - Grandis
+When this creature enters and whenever it attacks, it explores. (Reveal the top card of your library. Put that card into your hand if it’s a land. Otherwise, put a +1/+1 counter on this creature, then put the card back or put it into your graveyard.)
 ---
 This pathway leads to the treacherous region of the mountains. If your destination is Old Lumière, you should leave via the other exit.
 
@@ -428,6 +447,23 @@ Hi Gustave. You’re back. Did you want to pick out a different flower?
 
  - In the game, Ophelie operates a stand in the Lumière flower market.
  - Easy map to a creature that makes Flower tokens.
+
+## Playing with Monoco
+
+```
+2G
+Enchantment
+Flash
+When this enchantment enters, put a stick counter on target creature.
+Sacrifice this enchantment: Target creature you control gets +2/+2 until end of turn. Then that creature fights target creature with a stick counter on it.
+```
+
+[card implementation](../custom/cards/p/playing_with_monoco.txt)
+
+### Design Notes
+
+ - In the game, inside Verso's Treehouse in Verso's Drafts, there are various artpieces depicting Verso interacting with various family members. One of them is him playing with his dog, Monoco.
+ - Mapped to a fight-based combat trick. A target creature will get a stick, which you can "sic a dog" on at a later point in time (via fighting)
 
 ## Portier
 

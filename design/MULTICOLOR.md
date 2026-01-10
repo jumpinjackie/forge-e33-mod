@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 9/1/2026 7:27:45 am
+> Last generated: 10/1/2026 7:34:22 pm
 
 ## A Storm is Coming
 
@@ -391,6 +391,32 @@ Nevron spells you cast cost {1} less to cast.
  - 26/11/2025: Made her -2 loyalty only tutor up Nevron creatures, so that Clea's Chromatic Mastery acutally does something unique (tutor up any Nevron card, not just creatures)
  - 14/12/2025: Changed her +2 loyalty to Amass a black Nevron army instead of creating a 1/1 Nevron to mix things up.
 
+## Clea Unleashed
+
+```
+5UB
+Legendary Creature - Painter God
+Projects disturbing Chroma — Hexproof, indestructible
+At the beginning your upkeep, Clea Unleashed loses hexproof and indestructible until end of turn.
+Summons Nevrons — At the beginning of your upkeep, choose one —
+• Search your library for a Nevron card and put it onto the battlefield.
+• Create a token that's a copy of target nonlegendary Nevron creature you control, except it has haste. Sacrifice it at the beginning of the next end step.
+
+4/5
+```
+
+[card implementation](../custom/cards/c/clea_unleashed.txt)
+
+### Design Notes
+
+ - In the game, Clea Unleashed is an optional Act 3 endgame boss in the Endless Tower. She was added in the "Thank You" update.
+ - Clea Unleashed was designed as one of the hardest bosses in the game (surpassing OG Simon) and this card tries to match it's bombastic difficulty level.
+     - Hexproof and indestructible on opponent’s turns to translate her invincibility on player's turns (she only is vulnerable on parry/counterattack, ie. Only on controller's turn)
+     - Nevron summoning translated to either a Nevron tutor (straight into the battlefield) or Nevron temporary clone.
+ - Expected ways to dispatch Clea are sweepers at any speed, instant-speed removal on opponent's turn (once summoning sickness is gone) or baiting her to attack into a lethal single or gang block.
+ - The weird wording around Clea Unleashed having "shields down" is due to the fact that there is no precedence of any creature gaining keywords during an opponent's turn, so there is very likely no such support in Forge. However, we can work around this limitation by inverting the situation, by having the default position be having Hexproof and Indestructible and at the beginning of the controller's upkeep, she loses said keywords until end of turn (which allows us to copy the debuff logic from Shadowspear). This allows us to preserve the original intent, at the small expense of text readability.
+ - Card costed at 5UB to (hopefully) justify her nuclear-bomb-tier status.
+
 ## Closure
 
 ```
@@ -487,6 +513,28 @@ Applies Inverted — {B}{B}, Sacrifice a Blood token: Target creature has base t
  - Since the boss battle is in a death pit with a knee-deep pool of blood, all his abilities revolve around blood tokens.
  - Double strike because he does a lot of combo attacks.
  - Inverted status translated to setting a creature's base toughness to 1 until EOT.
+
+## Duollistes
+
+```
+5WB
+Legendary Creature - Nevron
+Lifelink, menace
+Performs Stormblood in duo — Whenever Duollistes attacks, create two 3/3 black and white Nevron creature tokens named Shadow Dualliste that’s tapped and attacking. Exile these tokens at end of combat.
+Swift Combo — {2}{W}{B}: Duollistes gains double strike until end of turn.
+
+6/6
+```
+
+[card implementation](../custom/cards/d/duollistes.txt)
+
+### Design Notes
+
+ - In the game, Duollistes is an Act 3 optional endgame superboss found in the Endless Towers. It was introduced with the "Thank You" update.
+ - The main gimmick we're capturing is his ability to spawn Shadow Duollistes to complement his suite of rapid fire attacks. Mapped this as spawning and attacking Shadow Dualliste tokens that get removed at end of combat (ala. Geist of Saint Traft)
+ - Mapped his rapid fire attacks to double strike.
+ - Menace is a flavorful keyword ability since Duollistes is a pair.
+ - Originally thought of this as separate Black and White Duolliste creatures that meld into a single Orzhov Duolliste, but the ability suite of spamming rapid fire strikes and spawning Shadow Duallistes is not unique enough to split across 3 different creatures.
 
 ## Elemental Trick
 
@@ -1092,6 +1140,24 @@ Oh, you won. You deserve this reward. Have fun with it!
  - Went with any of your creatures being targeted as the triggering condition as that best describes gestrals being flung at you.
  - First payoff is card draw. Second (and more flavorful) payoff is to be able to redirect opponent's spells and abilities to signify the mastery of parrying flung gestrals back at the opponent.
  - 5/10/2025: Cost reduced from (U/R)(U/R) to (U/R) in line with the other challenge enchantments
+
+## Gestral Seesaw Challenge
+
+```
+(G/U)
+Enchantment
+Whenever a creature you control with flying enters or attacks, put a quest counter on this enchantment.
+Whenever a creature an opponent controls with flying enters or attacks, remove a quest counter from this enchantment.
+As long as this enchantment has four or more quest counters on it, creatures you control get +1/+1 and have flying.
+```
+
+[card implementation](../custom/cards/g/gestral_seesaw_challenge.txt)
+
+### Design Notes
+
+ - In the game, the Gestral Seesaw Challenge is 1 of 2 challenge minigames in Verso's Drafts. In this minigame you must time jumps on a seesaw.
+ - This enchantment grows quest counters from you flying creatures entering or attacking. The see-saw effect is acheived by this enchantment losing quest counters from opponents doing the same thing with their flyers.
+ - The final payoff is lord P/T buff.
 
 ## Giant Sapling
 
@@ -2049,8 +2115,7 @@ Transforms into:
 ```
 
 Legendary Creature - Human Expeditioner
-Trample
-Double Strike
+Trample, Double Strike
 Simon enters with a foreboding counter.
 The dead are removed from the canvas — If a creature would be put into a graveyard from anywhere, exile it instead.
 Gathers Chroma — {B}{B}, {T}: Target creature has base toughness 1 until end of turn.
@@ -2450,8 +2515,8 @@ Choo Choo!
 
 ### Design Notes
 
- - Depicts the ship Expedition 33 departs from Lumière in. Modeled on Adrestia.
- - 1/1/2026: Drop creature type that was causing it to always be a creature without needing to crew it.
+ - In the game, in Verso's Drafts, the party must board a sky train to reach Osquio's lair. If the party has unlocked The Gingerbread Door, there is a section past the door where they must board another sky train to reach the Licornapieds sub-boss.
+ - This card depicts this vehicle.
 
 ## Vicarious Envy
 

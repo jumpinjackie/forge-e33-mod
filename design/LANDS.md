@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 9/1/2026 7:27:45 am
+> Last generated: 9/1/2026 12:19:18 pm
 
 ## Abbest Cave
 
@@ -331,6 +331,7 @@ The Aquafarm project ensured that Lumière would have a plentiful supply of food
  - This gives us an opportunity to add another dual land to this set.
  - Obviously expeditioner aligned so they get a ETB tapped sidestep.
  - It's a farm so obviously needs a Food token generating ability.
+ - The concept art was chosen as it looked abstract enough in its depiciton that it could be interpreted as a hydroponic farm which better fits the description of an Aquafarm. Whereas its in-game depiction is clearly a rooftop greenhouse, that grows only flowers and not food.
 
 ## Lumière Harbor (Rishadan Port)
 

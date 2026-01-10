@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 9/1/2026 7:27:45 am
+> Last generated: 10/1/2026 7:40:23 pm
 
 ## An Advantage!
 
@@ -394,6 +394,23 @@ Oh really? An Expedition? I certainly wasn't expecting that. But your presence h
  - In the case of this card, the condition involves flying creatures (we are trying to ascend to the top after all!) and the payoff is card draw.
  - Ancestral Recall in enchantment form for the same cost may look broken at face value, but you really need to be all-in on an all-flyers strategy to reliably pop this off. If further playtesting shows we are popping this off *too* reliably, we can always bump up the quest counter requirement.
 
+## Gestral Hopscotch Challenge
+
+```
+U
+Enchantment
+Whenever a creature you control with flying enters or a creature you control with flying attacks, you may put a quest counter on this enchantment.
+Remove nine quest counters from this enchantment and exile it: Each player shuffles their hand and graveyard into their library, then draws seven cards. Activate only as a sorcery.
+```
+
+[card implementation](../custom/cards/g/gestral_hopscotch_challenge.txt)
+
+### Design Notes
+
+ - In the game, the Gestral Hopscotch Challenge is 1 of 2 challenge minigames in Verso's Drafts. In this minigame you must walk/jump from tiles 1 to 9 in sequence. Completing the challenge rewards you with a new haircut.
+ - Same quest counter trigger condition as the ascension challenge. Originally I wanted something that triggers on the gain/loss of flying on any creature (to thematically map to hopping), but there is no existing precendent for triggers from the gain or loss of a particular ability, so this isn't possible to implement.
+ - The final payoff is a Timetwister effect. Exile cost to prevent recursion in multiples as-is standard with most Timetwister-style spells. 9 quest counters is the activation threshold as the Hopscotch ends at the 9th tile.
+
 ## Gradient Counter
 
 ```
@@ -561,9 +578,9 @@ When this creature dies, target opponent creates a Lumina token. (It's an artifa
 ```
 3U
 Artifact Creature - Gestral Construct
-Trample
-{U}: Put a flying counter on this creature
-{T}, Remove a flying counter from this creature, Sacrifice this creature: It deals 3 damage to target attacking or blocking creature.
+When this creature enters, create a blue Aura enchantment token named Barbapapa attached to another target creature. The token has enchant creature and “Enchanted creature has base power 1. When enchanted creature deals combat damage, sacrifice this Aura.”
+{U}: Put a flying counter on this creature.
+Flies to attack — {T}, Remove a flying counter from this creature, Sacrifice this creature: It deals 3 damage to target attacking or blocking creature.
 At the beginning of each end step, remove all flying counters on this creature.
 
 3/4
@@ -575,6 +592,7 @@ At the beginning of each end step, remove all flying counters on this creature.
 
  - In the game, Machinepieds is an enemy found in Verso's Drafts. They have the appearance of a Gestral on wheels with boxing gloves.
  - The ability suite is very similar to that of Dominique Giant Feet, so has the same abilities but with adjusted costs.
+ - 11/01/2026: Added Barbapapa debuff on ETB as Barbapapa debuff is one of its attacks.
 
 ## Mana Drain
 
@@ -701,4 +719,23 @@ You may have this enchantment enter as a copy of any permanent on the battlefiel
  - Such a perfectly cromulent word needs its own card.
  - Dictionary definition: The quality of appearing to be true or real.
  - Therefore, must be a clone/copy effect.
+
+## Verso's Musical Training
+
+```
+2U
+Enchantment
+At the beginning of your upkeep, you may put a verse counter on this enchantment.
+Sacrifice this enchantment: Gain control of target creature with power less than or equal to the number of verse counters on this enchantment. (This effect lasts indefinitely.)
+---
+You will never be a good musician. You have no choice but to paint!
+- Osquio
+```
+
+[card implementation](../custom/cards/v/versos_musical_training.txt)
+
+### Design Notes
+
+ - In the game, inside Verso's Treehouse in Verso's Drafts, there are various artpieces depicting Verso interacting with various family members. One of them is him playing the piano in front of his mother, Aline.
+ - Near-functional reprint of Legacy's Allure with different counter type and different mana cost to offset its better splashability.
 

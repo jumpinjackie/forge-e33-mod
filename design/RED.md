@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 9/1/2026 7:27:45 am
+> Last generated: 10/1/2026 1:01:32 pm
 
 ## Anger
 
@@ -584,4 +584,26 @@ INTRUDER ALERT! INTRUDER ALERT! Send forth the ULTIMATE WEAPON!
 
  - Unlike other Sakapatates, this one *DOES NOT* try to do a last minute suicide move to do some damage before it goes.
  - 21/10/2025: Added Gestral alliance cost reduction
+
+## Waiting for Clea to Play
+
+```
+2R
+Enchantment
+As this enchantment enters, choose a creature type.
+Whenever a creature you control of the chosen type enters, target creature you control of the chosen type with greater mana value gains haste until end of turn.
+Whenever two or more creatures of the chosen type attacks, they each get +1/+0 until end of turn.
+---
+Verso traded his life for yours. I both love and hate him for that. That damn fool.
+- Verso
+```
+
+[card implementation](../custom/cards/w/waiting_for_clea_to_play.txt)
+
+### Design Notes
+
+ - In the game, inside Verso's Treehouse in Verso's Drafts, there are various artpieces depicting Verso interacting with various family members. One of them is him watching his older sister Clea painting, presumably waiting for her to finish so they can go play in his canvas.
+ - Mapped as follows:
+    - A creature entering grants a creature with higher MV haste, being my mechanical interpretation of a younger sibling waiting for an elder sibling to be ready.
+    - Two or more attacking creatures of the same kind getting attack buff being my mechanical interpretation of siblings playing.
 

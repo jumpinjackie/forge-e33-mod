@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 9/1/2026 7:27:45 am
+> Last generated: 10/1/2026 7:34:22 pm
 
 ## Axon Offering
 
@@ -168,6 +168,25 @@ Oh, I hear a big Nev coming, they count for double. If I kill it quick I can boo
  - In the game, Expedition 62 made Nevron hunting into a game, with members constantly trying to outscore each other in Nevron kills.
  - Mechanically translated to a creature with creature killing abilities and standard Expeditioner death bonus.
 
+## Familial Bonding
+
+```
+2B
+Enchantment
+As this enchantment enters, choose a creature type.
+Whenever two or more creatures of the chosen type attacks, target opponent loses 2 life and you gain 2 life.
+---
+You must see things as they are. Not how you want them to be.
+- Renoir
+```
+
+[card implementation](../custom/cards/f/familial_bonding.txt)
+
+### Design Notes
+
+ - In the game, inside Verso's Treehouse in Verso's Drafts, there are various artpieces depicting Verso interacting with various family members. One of them is him bonding with his father, Renoir.
+ - Mapped to an opponen syphon trigger when two or more creatures of the same type (same family) attack.
+
 ## Feed the Swarm
 
 > This card is a reprint
@@ -265,7 +284,7 @@ Maelle: I saw- I saw... It was... Renoir?
 ```
 4BB
 Creature - Nevron
-Ward 2.
+Ward {2}
 This creature enters with a shield counter. (If it would be dealt damage or destroyed, remove a shield counter from it instead.)
 Gathers dark chroma — {4}{B}, {T}: Tap up to two target creatures.
 Summons dark spear — {2}{B}, {T}: This creature deals 2 damage to target creature. You gain 2 life.
@@ -318,7 +337,7 @@ When this creature dies, target opponent creates a Lumina token. (It's an artifa
 Legendary Artifact Creature - Toy
 Trample
 {i}Summons his little friends{/i} — {2}{B}{B}, {T}: Create two 0/1 black Toy artifact creature tokens named Osquio’s Mask with Flying and “Sacrifice this creature: It deals 2 damage to any target. You gain 2 life“
-{i}Time for a spin spin{/i} — When Osquio dies, return it to the battlefield transformed under it’s owner’s control.{flavor}WARRIORS OF LEGEND! Prepare. For. Annihilation!
+{i}Time for a spin spin{/i} — When Osquio dies, return it to the battlefield transformed under it’s owner’s control.
 
 5/5
 ```
