@@ -13,7 +13,7 @@ Whenever a creature you control of the chosen type enters, target creature you c
 Whenever two or more creatures of the chosen type attacks, they each get +1/+0 until end of turn.
 [FlavorText]
 Verso traded his life for yours. I both love and hate him for that. That damn fool.
-- Verso
+- Clea
 [ForgeScript]
 K:ETBReplacement:Other:ChooseCT
 SVar:ChooseCT:DB$ ChooseType | Defined$ You | Type$ Creature | SpellDescription$ As CARDNAME enters, choose a creature type. | AILogic$ MostProminentInComputerDeck

@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 10/1/2026 1:01:32 pm
+> Last generated: 10/1/2026 8:20:57 pm
 
 ## Anger
 
@@ -595,7 +595,7 @@ Whenever a creature you control of the chosen type enters, target creature you c
 Whenever two or more creatures of the chosen type attacks, they each get +1/+0 until end of turn.
 ---
 Verso traded his life for yours. I both love and hate him for that. That damn fool.
-- Verso
+- Clea
 ```
 
 [card implementation](../custom/cards/w/waiting_for_clea_to_play.txt)
