@@ -1,0 +1,25 @@
+[Name]
+Verso's Toy Chest
+[ManaCost]
+3
+[Types]
+Legendary
+Artifact
+[Rarity]
+U
+[Artist]
+Sandfall Interactive
+[Oracle]
+Verso's Toy Chest enters with three toy counters on it.
+{1}, {T}, Remove a toy counter from Verso's Toy Chest: Create a 1/1 colorless Toy artifact creature token.
+{1}, Sacrifice a Toy: Put a toy counter on Verso's Toy Chest.
+[ForgeScript]
+K:etbCounter:TOY:3
+A:AB$ Token | Cost$ 1 T SubCounter<1/TOY> | TokenAmount$ 1 | TokenOwner$ You | TokenScript$ a_1_1_toy | SpellDescription$ Create a 1/1 colorless Toy artifact creature token.
+A:AB$ PutCounter | Cost$ 1 Sac<1/Toy> | CounterType$ TOY | CounterNum$ 1 | SpellDescription$ Put a toy counter on Verso's Toy Chest.
+[DesignNotes]
+ - In the game a Toy Chest can be found in Verso's Treehouse in Verso's Drafts.
+ - This card depicts this artifact.
+ - Translated to a creature token maker. Only has 3 charges because a Toy Chest can only contain so much toys inside.
+ - A well behaved child will return these toys when done playing with them, thus it has a toy sac ability to put extra counters on it (returning the toys).
+ - Intentionally worded to allow saccing any Toy permanent (there are a few others in this set)

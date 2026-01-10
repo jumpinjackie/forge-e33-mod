@@ -1,0 +1,4 @@
+Name:Toy Token
+ManaCost:no cost
+Types:Artifact Creature Toy
+PT:1/1
