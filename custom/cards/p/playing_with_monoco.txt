@@ -1,0 +1,9 @@
+Name:Playing with Monoco
+ManaCost:2 G
+Types:Enchantment
+K:Flash
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigStick | TriggerDescription$ When this enchantment enters, put a stick counter on target creature.
+SVar:TrigStick:DB$ PutCounter | CounterType$ STICK | CounterNum$ 1 | ValidTgts$ Creature
+A:AB$ Pump | Cost$ Sac<1/CARDNAME> | ValidTgts$ Creature.YouCtrl | TgtPrompt$ Select target creature you control | NumAtt$ +2 | NumDef$ +2 | SubAbility$ DBFight | SpellDescription$ Target creature you control gets +2/+2 until end of turn. Then that creature fights target creature with a stick counter on it.
+SVar:DBFight:DB$ Fight | Defined$ ParentTarget | ValidTgts$ Creature.counters_GE1_STICK | TgtPrompt$ Choose target creature with a stick counter on it.
+Oracle:Flash\nWhen this enchantment enters, put a stick counter on target creature.\nSacrifice this enchantment: Target creature you control gets +2/+2 until end of turn. Then that creature fights target creature with a stick counter on it.

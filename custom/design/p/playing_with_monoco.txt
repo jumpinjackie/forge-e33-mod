@@ -1,0 +1,22 @@
+[Name]
+Playing with Monoco
+[ManaCost]
+2
+G
+[Types]
+Enchantment
+[Rarity]
+C
+[Oracle]
+Flash
+When this enchantment enters, put a stick counter on target creature.
+Sacrifice this enchantment: Target creature you control gets +2/+2 until end of turn. Then that creature fights target creature with a stick counter on it.
+[ForgeScript]
+K:Flash
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigStick | TriggerDescription$ When this enchantment enters, put a stick counter on target creature.
+SVar:TrigStick:DB$ PutCounter | CounterType$ STICK | CounterNum$ 1 | ValidTgts$ Creature
+A:AB$ Pump | Cost$ Sac<1/CARDNAME> | ValidTgts$ Creature.YouCtrl | TgtPrompt$ Select target creature you control | NumAtt$ +2 | NumDef$ +2 | SubAbility$ DBFight | SpellDescription$ Target creature you control gets +2/+2 until end of turn. Then that creature fights target creature with a stick counter on it.
+SVar:DBFight:DB$ Fight | Defined$ ParentTarget | ValidTgts$ Creature.counters_GE1_STICK | TgtPrompt$ Choose target creature with a stick counter on it.
+[DesignNotes]
+ - In the game, inside Verso's Treehouse in Verso's Drafts, there are various artpieces depicting Verso interacting with various family members. One of them is him playing with his dog, Monoco.
+ - Mapped to a fight-based combat trick. A target creature will get a stick, which you can "sic a dog" on at a later point in time (via fighting)
