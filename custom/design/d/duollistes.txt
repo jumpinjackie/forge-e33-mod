@@ -13,7 +13,7 @@ M
 [PT]
 6/6
 [Oracle]
-Lifelink, Menace
+Lifelink, menace
 Performs Stormblood in duo — Whenever Duollistes attacks, create two 3/3 black and white Nevron creature tokens named Shadow Dualliste that’s tapped and attacking. Exile these tokens at end of combat.
 Swift Combo — {2}{W}{B}: Duollistes gains double strike until end of turn.
 [AbilityWords]

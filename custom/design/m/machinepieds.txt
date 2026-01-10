@@ -13,18 +13,20 @@ Creature
 Gestral
 Construct
 [Oracle]
-Trample
-{U}: Put a flying counter on ~
-{T}, Remove a flying counter from ~, Sacrifice ~: It deals 3 damage to target attacking or blocking creature.
+When ~ enters, create a blue Aura enchantment token named Barbapapa attached to another target creature. The token has enchant creature and “Enchanted creature has base power 1. When enchanted creature deals combat damage, sacrifice this Aura.”
+{U}: Put a flying counter on ~.
+Flies to attack — {T}, Remove a flying counter from ~, Sacrifice ~: It deals 3 damage to target attacking or blocking creature.
 At the beginning of each end step, remove all flying counters on ~.
 [AbilityWords]
 Flies to attack
 [ForgeScript]
-K:Trample
+T:Mode$ ChangesZone | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigBarbapapa | TriggerDescription$ When ~ enters, create a blue Aura enchantment token named Barbapapa attached to another target creature. The token has enchant creature and “Enchanted creature has base power 1. When enchanted creature deals combat damage, sacrifice this Aura.”
+SVar:TrigBarbapapa:DB$ Token | TokenAmount$ 1 | TokenScript$ u_barbapapa | TokenOwner$ You | AttachedTo$ Targeted | ValidTgts$ Creature | TgtPrompt$ Select target creature to attach Barbapapa Token
 T:Mode$ Phase | Phase$ End of Turn | TriggerZones$ Battlefield | Execute$ DBRemoveAllFlying | TriggerDescription$ At the beginning of each end step, remove all flying counters on CARDNAME.
-A:AB$ PutCounter | Cost$ U | CounterType$ Flying | CounterNum$ 1 | SpellDescription$ Put a flying counter on Dominique.
+A:AB$ PutCounter | Cost$ U | CounterType$ Flying | CounterNum$ 1 | SpellDescription$ Put a flying counter on ~.
 A:AB$ DealDamage | Cost$ T SubCounter<1/Flying> Sac<1/CARDNAME> | ValidTgts$ Creature.attacking,Creature.blocing | TgtPrompt$ Select target attacking or blocking creature | NumDmg$ 3 | SpellDescription$ CARDNAME deals 3 damage to target attacking or blocking creature.
 SVar:DBRemoveAllFlying:DB$ RemoveCounter | Defined$ Self | CounterType$ Flying | CounterNum$ All
 [DesignNotes]
  - In the game, Machinepieds is an enemy found in Verso's Drafts. They have the appearance of a Gestral on wheels with boxing gloves.
  - The ability suite is very similar to that of Dominique Giant Feet, so has the same abilities but with adjusted costs.
+ - 11/01/2026: Added Barbapapa debuff on ETB as Barbapapa debuff is one of its attacks.

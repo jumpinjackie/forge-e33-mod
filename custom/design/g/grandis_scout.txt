@@ -5,13 +5,13 @@ Grandis Scout
 G
 [Types]
 Creature
-Nevron
+Grandis
 [Rarity]
 C
 [PT]
 2/2
 [Oracle]
-When this creature enters or attacks, it explores. (Reveal the top card of your library. Put that card into your hand if it’s a land. Otherwise, put a +1/+1 counter on this creature, then put the card back or put it into your graveyard.)
+When this creature enters and whenever it attacks, it explores. (Reveal the top card of your library. Put that card into your hand if it’s a land. Otherwise, put a +1/+1 counter on this creature, then put the card back or put it into your graveyard.)
 [FlavorText]
 This pathway leads to the treacherous region of the mountains. If your destination is Old Lumière, you should leave via the other exit.
 [ForgeScript]

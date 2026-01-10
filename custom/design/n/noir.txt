@@ -14,7 +14,7 @@ Sandfall Interactive
 [PT]
 4/4
 [Oracle]
-Ward 2.
+Ward {2}
 ~ enters with a shield counter. $SHIELD_REMINDER_TEXT
 Gathers dark chroma — {4}{B}, {T}: Tap up to two target creatures.
 Summons dark spear — {2}{B}, {T}: ~ deals 2 damage to target creature. You gain 2 life.

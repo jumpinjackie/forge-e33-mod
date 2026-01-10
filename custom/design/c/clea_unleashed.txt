@@ -14,7 +14,7 @@ God
 [Rarity]
 M
 [Oracle]
-Projects disturbing Chroma — Hexproof, Indestructible
+Projects disturbing Chroma — Hexproof, indestructible
 At the beginning your upkeep, Clea Unleashed loses hexproof and indestructible until end of turn.
 Summons Nevrons — At the beginning of your upkeep, choose one —
 • Search your library for a Nevron card and put it onto the battlefield.
