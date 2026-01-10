@@ -1,0 +1,34 @@
+[Name]
+Duollistes
+[ManaCost]
+5
+W
+B
+[Types]
+Legendary
+Creature
+Nevron
+[Rarity]
+M
+[PT]
+6/6
+[Oracle]
+Lifelink, Menace
+Performs Stormblood in duo — Whenever Duollistes attacks, create two 3/3 black and white Nevron creature tokens named Shadow Dualliste that’s tapped and attacking. Exile these tokens at end of combat.
+Swift Combo — {2}{W}{B}: Duollistes gains double strike until end of turn.
+[AbilityWords]
+Performs Stormblood in duo
+Swift Combo
+[ForgeScript]
+K:Lifelink
+K:Menace
+T:Mode$ Attacks | ValidCard$ Card.Self | Execute$ TrigToken | TriggerDescription$ Whenever ~ attacks, create two 3/3 black and white Nevron creature tokens named Shadow Dualliste that’s tapped and attacking. Exile these tokens at end of combat.
+SVar:TrigToken:DB$ Token | TokenAmount$ 2 | TokenScript$ wb_3_3_shadow_dualliste | TokenTapped$ True | TokenAttacking$ True | AtEOT$ ExileCombat
+A:AB$ Pump | Cost$ 2 W B | Defined$ Self | KW$ Double Strike | SpellDescription$ ~ gains double strike until end of turn.
+SVar:HasAttackEffect:TRUE
+[DesignNotes]
+ - In the game, Duollistes is an Act 3 optional endgame superboss found in the Endless Towers. It was introduced with the "Thank You" update.
+ - The main gimmick we're capturing is his ability to spawn Shadow Duollistes to complement his suite of rapid fire attacks. Mapped this as spawning and attacking Shadow Dualliste tokens that get removed at end of combat (ala. Geist of Saint Traft)
+ - Mapped his rapid fire attacks to double strike.
+ - Menace is a flavorful keyword ability since Duollistes is a pair.
+ - Originally thought of this as separate Black and White Duolliste creatures that meld into a single Orzhov Duolliste, but the ability suite of spamming rapid fire strikes and spawning Shadow Duallistes is not unique enough to split across 3 different creatures.

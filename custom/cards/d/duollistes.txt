@@ -1,0 +1,11 @@
+Name:Duollistes
+ManaCost:5 W B
+Types:Legendary Creature Nevron
+PT:6/6
+K:Lifelink
+K:Menace
+T:Mode$ Attacks | ValidCard$ Card.Self | Execute$ TrigToken | TriggerDescription$ Whenever CARDNAME attacks, create two 3/3 black and white Nevron creature tokens named Shadow Dualliste that’s tapped and attacking. Exile these tokens at end of combat.
+SVar:TrigToken:DB$ Token | TokenAmount$ 2 | TokenScript$ wb_3_3_shadow_dualliste | TokenTapped$ True | TokenAttacking$ True | AtEOT$ ExileCombat
+A:AB$ Pump | Cost$ 2 W B | Defined$ Self | KW$ Double Strike | SpellDescription$ CARDNAME gains double strike until end of turn.
+SVar:HasAttackEffect:TRUE
+Oracle:Lifelink, Menace\nPerforms Stormblood in duo — Whenever Duollistes attacks, create two 3/3 black and white Nevron creature tokens named Shadow Dualliste that’s tapped and attacking. Exile these tokens at end of combat.\nSwift Combo — {2}{W}{B}: Duollistes gains double strike until end of turn.
