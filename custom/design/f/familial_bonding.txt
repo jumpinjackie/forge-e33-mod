@@ -16,7 +16,7 @@ You must see things as they are. Not how you want them to be.
 [ForgeScript]
 K:ETBReplacement:Other:ChooseCT
 SVar:ChooseCT:DB$ ChooseType | Defined$ You | Type$ Creature | SpellDescription$ As CARDNAME enters, choose a creature type. | AILogic$ MostProminentInComputerDeck
-T:Mode$ AttackersDeclared | Execute$ TrigSyphon | ValidAttackers$ Creature | ValidAttackersAmount$ GE2 | TriggerZones$ Battlefield | AttackingPlayer$ You | TriggerDescription$ Whenever two or more creatures of the chosen type attacks, target opponent loses 2 life and you gain 2 life.
+T:Mode$ AttackersDeclared | Execute$ TrigSyphon | ValidAttackers$ Creature.ChosenType | ValidAttackersAmount$ GE2 | TriggerZones$ Battlefield | AttackingPlayer$ You | TriggerDescription$ Whenever two or more creatures of the chosen type attacks, target opponent loses 2 life and you gain 2 life.
 SVar:TrigSyphon:DB$ LoseLife | ValidTgts$ Opponent | LifeAmount$ 2 | SubAbility$ DBGainLife
 SVar:DBGainLife:DB$ GainLife | Defined$ You | LifeAmount$ 2
 [DesignNotes]
