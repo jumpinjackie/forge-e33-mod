@@ -1,0 +1,6 @@
+Name:Romanifo's Balloon
+ManaCost:no cost
+Types:Artifact Equipment
+K:Equip:2
+S:Mode$ Continuous | Affected$ Creature.EquippedBy | AddKeyword$ Flying | Description$ Equipped creature has flying
+Oracle:Equipped creature has flying.\nEquip {2}

@@ -1,0 +1,25 @@
+[Name]
+Romanifo, the Half-baked
+[ManaCost]
+1
+[Types]
+Legendary
+Artifact
+Creature
+Gestral
+[PT]
+1/1
+[Rarity]
+U
+[Oracle]
+When ~ enters, create a colorless Equipment artifact token named Romanifo's Balloon with "Equipped creature has flying" and equip {2}.
+~ has indestructible as long as you control a token named Romanifo's Balloon.
+[FlavorText]
+Some mean brushes here would say it's fun to pop balloons. They're MY balloons. Don't touch them.
+[ForgeScript]
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigToken | TriggerDescription$ When ~ enters, create a colorless Equipment artifact token named Romanifo's Balloon with "Equipped creature has flying" and equip {2}.
+SVar:TrigToken:DB$ Token | TokenAmount$ 1 | TokenScript$ c_a_romanifos_balloon | TokenOwner$ You
+S:Mode$ Continuous | Affected$ Card.Self | IsPresent$ Card.token+YouCtrl+namedRomanifo's Balloon | PresentZone$ Battlefield | PresentCompare$ GE1 | AddKeyword$ Indestructible | Description$ ~ has indestructible as long as you control a token named Romanifo's Balloon.
+[DesignNotes]
+ - In the game, Romanifo can be found in Verso's Drafts. Popping his balloons provokes him into a fight where he is invincible. He can only be damaged by popping all of his balloons.
+ - Mapped his gimmick to spawning a token equipment that grants flying. While this token equipment is under your control, Romanifo is indestructible to match his video game immunity to any damage.
