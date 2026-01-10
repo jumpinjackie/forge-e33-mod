@@ -1,0 +1,41 @@
+[Name]
+Clea Unleashed
+[ManaCost]
+5
+U
+B
+[Types]
+Legendary
+Creature
+Painter
+God
+[PT]
+4/5
+[Rarity]
+M
+[Oracle]
+Projects disturbing Chroma — Hexproof, Indestructible
+At the beginning your upkeep, Clea Unleashed loses hexproof and indestructible until end of turn.
+Summons Nevrons — At the beginning of your upkeep, choose one —
+• Search your library for a Nevron card and put it onto the battlefield.
+• Create a token that's a copy of target nonlegendary Nevron creature you control, except it has haste. Sacrifice it at the beginning of the next end step.
+[AbilityWords]
+Projects disturbing Chroma
+Summons Nevrons
+[ForgeScript]
+K:Hexproof
+K:Indestructible
+T:Mode$ Phase | Phase$ Upkeep | ValidPlayer$ You | Execute$ TrigDebuff | TriggerZones$ Battlefield | TriggerDescription$ At the beginning your upkeep, ~ loses hexproof and indestructible until end of turn.
+SVar:TrigDebuff:DB$ Animate | Defined$ Self | RemoveKeywords$ Hexproof & Indestructible | SpellDescription$ ~ loses hexproof and indestructible until end of turn. | StackDescription$ SpellDescription
+T:Mode$ Phase | Phase$ Upkeep | ValidPlayer$ You | Execute$ TrigCharm | TriggerZones$ Battlefield | TriggerDescription$ At the beginning of your upkeep, ABILITY
+SVar:TrigCharm:DB$ Charm | Choices$ NevronTutor,NevronTempClone | CharmNum$ 1
+SVar:NevronTutor:DB$ ChangeZone | Origin$ Library | Destination$ Battlefield | ChangeType$ Nevron | ChangeNum$ 1 | AISearchGoal$ Nevron | SpellDescription$ Search your library for a Nevron card and put it onto the battlefield.
+SVar:NevronTempClone:DB$ CopyPermanent | ValidTgts$ Creature.Nevron+nonLegendary+YouCtrl | TgtPrompt$ Select target nonlegendary Nevron creature you control | AddKeywords$ Haste | AtEOT$ Sacrifice | SpellDescription$ Create a token that's a copy of target nonlegendary Nevron creature you control, except it has haste. Sacrifice it at the beginning of the next end step.
+[DesignNotes]
+ - In the game, Clea Unleashed is an optional Act 3 endgame boss in the Endless Tower. She was added in the "Thank You" update.
+ - Clea Unleashed was designed as one of the hardest bosses in the game (surpassing OG Simon) and this card tries to match it's bombastic difficulty level.
+     - Hexproof and indestructible on opponent’s turns to translate her invincibility on player's turns (she only is vulnerable on parry/counterattack, ie. Only on controller's turn)
+     - Nevron summoning translated to either a Nevron tutor (straight into the battlefield) or Nevron temporary clone.
+ - Expected ways to dispatch Clea are sweepers at any speed, instant-speed removal on opponent's turn (once summoning sickness is gone) or baiting her to attack into a lethal single or gang block.
+ - The weird wording around Clea Unleashed having "shields down" is due to the fact that there is no precedence of any creature gaining keywords during an opponent's turn, so there is very likely no such support in Forge. However, we can work around this limitation by inverting the situation, by having the default position be having Hexproof and Indestructible and at the beginning of the controller's upkeep, she loses said keywords until end of turn (which allows us to copy the debuff logic from Shadowspear). This allows us to preserve the original intent, at the small expense of text readability.
+ - Card costed at 5UB to (hopefully) justify her nuclear-bomb-tier status.

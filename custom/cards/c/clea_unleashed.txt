@@ -1,0 +1,13 @@
+Name:Clea Unleashed
+ManaCost:5 U B
+Types:Legendary Creature Painter God
+PT:4/5
+K:Hexproof
+K:Indestructible
+T:Mode$ Phase | Phase$ Upkeep | ValidPlayer$ You | Execute$ TrigDebuff | TriggerZones$ Battlefield | TriggerDescription$ At the beginning your upkeep, CARDNAME loses hexproof and indestructible until end of turn.
+SVar:TrigDebuff:DB$ Animate | Defined$ Self | RemoveKeywords$ Hexproof & Indestructible | SpellDescription$ CARDNAME loses hexproof and indestructible until end of turn. | StackDescription$ SpellDescription
+T:Mode$ Phase | Phase$ Upkeep | ValidPlayer$ You | Execute$ TrigCharm | TriggerZones$ Battlefield | TriggerDescription$ At the beginning of your upkeep, ABILITY
+SVar:TrigCharm:DB$ Charm | Choices$ NevronTutor,NevronTempClone | CharmNum$ 1
+SVar:NevronTutor:DB$ ChangeZone | Origin$ Library | Destination$ Battlefield | ChangeType$ Nevron | ChangeNum$ 1 | AISearchGoal$ Nevron | SpellDescription$ Search your library for a Nevron card and put it onto the battlefield.
+SVar:NevronTempClone:DB$ CopyPermanent | ValidTgts$ Creature.Nevron+nonLegendary+YouCtrl | TgtPrompt$ Select target nonlegendary Nevron creature you control | AddKeywords$ Haste | AtEOT$ Sacrifice | SpellDescription$ Create a token that's a copy of target nonlegendary Nevron creature you control, except it has haste. Sacrifice it at the beginning of the next end step.
+Oracle:Projects disturbing Chroma — Hexproof, Indestructible\nAt the beginning your upkeep, Clea Unleashed loses hexproof and indestructible until end of turn.\nSummons Nevrons — At the beginning of your upkeep, choose one —\n• Search your library for a Nevron card and put it onto the battlefield.\n• Create a token that's a copy of target nonlegendary Nevron creature you control, except it has haste. Sacrifice it at the beginning of the next end step.
