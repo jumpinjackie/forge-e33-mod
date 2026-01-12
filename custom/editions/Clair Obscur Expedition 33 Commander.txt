@@ -7,46 +7,46 @@ Type=Custom
 [cards]
 1 R Farewell @Sandfall Interactive ${"flavorName": "A Life to Love"}
 7 R Abrupt Decay @Svetlin Velinov
-20 C Arcane Signet @Constantin Marin
-23 R Austere Command @rk post
-29 R Bedevil @Fang Xinyu
-49 R Chaos Warp @Trevor Claxton
-59 R Chromatic Lantern @Jung Park
-69 C Command Tower @Alayna Danner
-70 C Commander's Sphere @Justyna Dura
-72 U Counterspell @Zack Stella
-73 R Karplusan Forest @Sandfall Interactive ${"flavorName": "Crimson Forest"}
-78 C Cultivate @Anthony Palumbo
-79 R Damn @Lucas Graciano
-86 R Deflecting Swat @rk post
-95 M Doubling Season @Chuck Lukacs
-161 C Farseek @Hristo D. Chukov
-162 C Feed the Swarm @Andrey Kuzinskiy
-163 U Fellwar Stone @John Avon
-164 U Final Parting @
-177 R Shivan Reef @Sandfall Interactive ${"flavorName": "Frozen Hearts"}
-221 C Growth Spiral @Seb McKinnon
-264 M Mana Drain @Raymond Swanland
-274 U Mask of Memory @Allen Morris
-279 R Mirage Mirror @Craig J Spearing
-284 U Mortify @Nils Hamm
-303 U Patchwork Banner @Sarah Finnigan
-304 U Path to Exile @Raf Sarmento
-315 U Primal Empathy @
-317 U Putrefy @Clint Cearley
-346 R Sulfurous Springs @Sandfall Interactive ${"flavorName": "Sinister Cave"}
-352 U Sol Ring @Piotr Dura
-364 U Swords to Plowshares @Nadia Hurianova
-365 U Talisman of Conviction @Lindsey Look
-366 U Talisman of Creativity @Lindsey Look
-367 U Talisman of Curiosity @Lindsey Look
-368 U Talisman of Dominance @Mike Dringenberg
-369 U Talisman of Hierarchy @Lindsey Look
-370 U Talisman of Impulse @Mike Dringenberg
-371 U Talisman of Indulgence @Mike Dringenberg
-372 U Talisman of Progress @Mike Dringenberg
-373 U Talisman of Resilience @Lindsey Look
-374 U Talisman of Unity @Mike Dringenberg
-385 R Brushland @Sandfall Interactive ${"flavorName": "The Meadows"}
-395 C Thought Vessel @rk post
-421 R Void Rend @Justyna Dura
+21 C Arcane Signet @Constantin Marin
+24 R Austere Command @rk post
+31 R Bedevil @Fang Xinyu
+51 R Chaos Warp @Trevor Claxton
+61 R Chromatic Lantern @Jung Park
+72 C Command Tower @Alayna Danner
+73 C Commander's Sphere @Justyna Dura
+75 U Counterspell @Zack Stella
+76 R Karplusan Forest @Sandfall Interactive ${"flavorName": "Crimson Forest"}
+81 C Cultivate @Anthony Palumbo
+82 R Damn @Lucas Graciano
+89 R Deflecting Swat @rk post
+98 M Doubling Season @Chuck Lukacs
+166 C Farseek @Hristo D. Chukov
+167 C Feed the Swarm @Andrey Kuzinskiy
+168 U Fellwar Stone @John Avon
+169 U Final Parting @
+183 R Shivan Reef @Sandfall Interactive ${"flavorName": "Frozen Hearts"}
+229 C Growth Spiral @Seb McKinnon
+277 M Mana Drain @Raymond Swanland
+287 U Mask of Memory @Allen Morris
+292 R Mirage Mirror @Craig J Spearing
+298 U Mortify @Nils Hamm
+318 U Patchwork Banner @Sarah Finnigan
+319 U Path to Exile @Raf Sarmento
+331 U Primal Empathy @
+333 U Putrefy @Clint Cearley
+364 R Sulfurous Springs @Sandfall Interactive ${"flavorName": "Sinister Cave"}
+370 U Sol Ring @Piotr Dura
+382 U Swords to Plowshares @Nadia Hurianova
+383 U Talisman of Conviction @Lindsey Look
+384 U Talisman of Creativity @Lindsey Look
+385 U Talisman of Curiosity @Lindsey Look
+386 U Talisman of Dominance @Mike Dringenberg
+387 U Talisman of Hierarchy @Lindsey Look
+388 U Talisman of Impulse @Mike Dringenberg
+389 U Talisman of Indulgence @Mike Dringenberg
+390 U Talisman of Progress @Mike Dringenberg
+391 U Talisman of Resilience @Lindsey Look
+392 U Talisman of Unity @Mike Dringenberg
+404 R Brushland @Sandfall Interactive ${"flavorName": "The Meadows"}
+415 C Thought Vessel @rk post
+447 R Void Rend @Justyna Dura

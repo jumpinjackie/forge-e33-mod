@@ -1,0 +1,7 @@
+Name:Jar of Candy
+ManaCost:G U
+Types:Artifact Food
+K:Flash
+A:AB$ Token | Cost$ 2 T Sac<1/CARDNAME> | TokenAmount$ 1 | TokenScript$ u_barbapapa | TokenOwner$ You | AttachedTo$ Targeted | ValidTgts$ Creature | TgtPrompt$ Select target creature to attach Barbapapa Token | SpellDescription$ Create a blue Aura enchantment token named Barbapapa attached to target creature. The token has enchant creature and “Enchanted creature has base power 1. When enchanted creature deals combat damage, sacrifice this Aura.”
+A:AB$ GainLife | Cost$ 2 T Sac<1/CARDNAME> | LifeAmount$ 3 | SpellDescription$ You gain 3 life.
+Oracle:Flash\n{2}, {T}, Sacrifice this artifact: Create a blue Aura enchantment token named Barbapapa attached to target creature. The token has enchant creature and “Enchanted creature has base power 1. When enchanted creature deals combat damage, sacrifice this Aura.”\n{2}, {T}, Sacrifice this artifact: You gain 3 life.

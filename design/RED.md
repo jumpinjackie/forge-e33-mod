@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 3/1/2026 1:40:31 pm
+> Last generated: 12/1/2026 1:23:33 pm
 
 ## Anger
 
@@ -292,6 +292,25 @@ When Grosse Tête has three or more quake counters, sacrifice it.
  - Big butt conveys the general tankiness.
     - 5 toughness was chosen so it can be taken out with a Gestral Volleyball Strike, so that a Gestral strategy does not completely fold to this card being in play and can take this out immediately if waiting it out is not an option.
 
+## Half-baked Lifeguard
+
+```
+2R
+Artifact Creature - Gestral
+At the beginning of each upkeep, count the number of permanents. If the number is even, until end of turn, creatures you control get +1/+1.
+---
+Thank the Dessendres,“Whees” and “Whoos” are perfectly balanced, you did it!
+
+2/3
+```
+
+[card implementation](../custom/cards/h/half_baked_lifeguard.txt)
+
+### Design Notes
+
+ - In the game, in Verso's Drafts a Half-baked Lifeguard will reward you if you activate enough Esquie statues in the area so that they are 50/50 light and dark.
+ - Mapped this to a creature buff if there is an even number of permanents (to symbolize the Esquie light/dark equilibrium)
+
 ## Hexga
 
 ```
@@ -358,6 +377,25 @@ When this aura is put into a graveyard from the battlefield, return it to its ow
  - Basically copied the damage doubling template from Curse of Bloodletting, and swapped player for creature.
  - Added Flash for extra combat trickiness.
  - To have some utility, added Rancor's recurring effect.
+
+## Monsieur Frappe
+
+```
+R
+Legendary Artifact Creature - Gestral
+Whenever Monsieur Frappe is blocked, tap all creatures blocking him. Prevent all combat damage that would be dealt this turn by Monsieur Frappe and each creature blocking it.
+---
+Try to counter this, worm.
+
+3/3
+```
+
+[card implementation](../custom/cards/m/monsieur_frappe.txt)
+
+### Design Notes
+
+ - In the game, Monsieur Frappe can be found in Verso's Drafts. He can be challenged to a fight where his main gimmick is all of his attacks have long windups and have plenty of fakeouts to bait you into parrying at the wrong time. Defeating him rewards you with the Feint pictos.
+ - There is already a card named Feint, and Monsieur Frappe's gimmick is all about that, so we've stapled Feint into a 3/3 body.
 
 ## Mutinous Expedition 48 Soldier
 
@@ -565,4 +603,26 @@ INTRUDER ALERT! INTRUDER ALERT! Send forth the ULTIMATE WEAPON!
 
  - Unlike other Sakapatates, this one *DOES NOT* try to do a last minute suicide move to do some damage before it goes.
  - 21/10/2025: Added Gestral alliance cost reduction
+
+## Waiting for Clea to Play
+
+```
+2R
+Enchantment
+As this enchantment enters, choose a creature type.
+Whenever a creature you control of the chosen type enters, target creature you control of the chosen type with greater mana value gains haste until end of turn.
+Whenever two or more creatures of the chosen type attacks, they each get +1/+0 until end of turn.
+---
+Verso traded his life for yours. I both love and hate him for that. That damn fool.
+- Clea
+```
+
+[card implementation](../custom/cards/w/waiting_for_clea_to_play.txt)
+
+### Design Notes
+
+ - In the game, inside Verso's Treehouse in Verso's Drafts, there are various artpieces depicting Verso interacting with various family members. One of them is him watching his older sister Clea painting, presumably waiting for her to finish so they can go play in his canvas.
+ - Mapped as follows:
+    - A creature entering grants a creature with higher MV haste, being my mechanical interpretation of a younger sibling waiting for an elder sibling to be ready.
+    - Two or more attacking creatures of the same kind getting attack buff being my mechanical interpretation of siblings playing.
 

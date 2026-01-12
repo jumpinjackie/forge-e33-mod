@@ -1,0 +1,7 @@
+Name:Franctale
+ManaCost:3 G
+Types:Artifact Creature Gestral Turtle
+PT:2/5
+K:Reach
+A:AB$ Token | Cost$ T | TokenScript$ g_2_2_franctales_head | PumpKeywords$ Haste | PumpDuration$ EOT | AtEOT$ YourSacrifice | SpellDescription$ Create a 2/2 green Turtle artifact creature token named Franctale’s Head. It gains haste. Sacrifice it at the beginning of the next end step.
+Oracle:Reach\nKicks its head — {T}: Create a 2/2 green Turtle artifact creature token named Franctale’s Head. It gains haste. Sacrifice it at the beginning of the next end step.

@@ -7,7 +7,7 @@ set -eu
 # Root of the repo (directory containing this script)
 ROOT="$(cd "$(dirname "$0")" && pwd)"
 
-IMG_BASE_URL="https://jumpinjackie.github.io/e33-reference-art/images/spoilers/alpha"
+IMG_BASE_URL="https://jumpinjackie.github.io/e33-reference-art/images/spoilers/beta"
 
 # Directory to use instead of %APPDATA%\Forge on Windows
 FORGE_DIR="${HOME}/.forge"

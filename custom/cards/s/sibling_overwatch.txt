@@ -1,0 +1,8 @@
+Name:Sibling Overwatch
+ManaCost:2 W
+Types:Enchantment
+K:ETBReplacement:Other:ChooseCT
+SVar:ChooseCT:DB$ ChooseType | Defined$ You | Type$ Creature | SpellDescription$ As CARDNAME enters, choose a creature type. | AILogic$ MostProminentInComputerDeck
+A:AB$ Effect | Cost$ W tapXType<1/Creature.ChosenType/untapped creature you control of the chosen type> | ValidTgts$ Creature.ChosenType+Other | TgtPrompt$ Select target creature to protect | ReplacementEffects$ RPrevent | RememberObjects$ Targeted | ExileOnMoved$ Battlefield | SpellDescription$ Prevent all damage that would be dealt to another target creature of the chosen type this turn.
+SVar:RPrevent:Event$ DamageDone | Prevent$ True | ValidTarget$ Card.IsRemembered | Description$ Prevent all damage that would be dealt to that creature this turn.
+Oracle:As this enchantment enters, choose a creature type.\n{W}, Tap an untapped creature you control of the chosen type: Prevent all damage that would be dealt to another target creature of the chosen type this turn.

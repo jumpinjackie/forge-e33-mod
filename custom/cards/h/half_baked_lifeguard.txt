@@ -1,0 +1,9 @@
+Name:Half-baked Lifeguard
+ManaCost:2 R
+Types:Artifact Creature Gestral
+PT:2/3
+T:Mode$ Phase | Phase$ Upkeep | TriggerZones$ Battlefield | Execute$ TrigCount | TriggerDescription$ At the beginning of each upkeep, count the number of permanents. If the number is even, until end of turn, creatures you control get +1/+1.
+SVar:TrigCount:DB$ Effect | StaticAbilities$ STPump | ConditionCheckSVar$ X | ConditionSVarCompare$ M20
+SVar:STPump:Mode$ Continuous | AffectedZone$ Battlefield | Affected$ Creature.YouCtrl | AddPower$ 1 | AddToughness$ 1
+SVar:X:Count$Valid Permanent
+Oracle:At the beginning of each upkeep, count the number of permanents. If the number is even, until end of turn, creatures you control get +1/+1.

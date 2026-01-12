@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 2/1/2026 7:06:36 pm
+> Last generated: 12/1/2026 1:30:17 pm
 
 ## Axon Offering
 
@@ -168,6 +168,25 @@ Oh, I hear a big Nev coming, they count for double. If I kill it quick I can boo
  - In the game, Expedition 62 made Nevron hunting into a game, with members constantly trying to outscore each other in Nevron kills.
  - Mechanically translated to a creature with creature killing abilities and standard Expeditioner death bonus.
 
+## Familial Bonding
+
+```
+2B
+Enchantment
+As this enchantment enters, choose a creature type.
+Whenever two or more creatures of the chosen type attacks, target opponent loses 2 life and you gain 2 life.
+---
+You must see things as they are. Not how you want them to be.
+- Renoir
+```
+
+[card implementation](../custom/cards/f/familial_bonding.txt)
+
+### Design Notes
+
+ - In the game, inside Verso's Treehouse in Verso's Drafts, there are various artpieces depicting Verso interacting with various family members. One of them is him bonding with his father, Renoir.
+ - Mapped to an opponen syphon trigger when two or more creatures of the same type (same family) attack.
+
 ## Feed the Swarm
 
 > This card is a reprint
@@ -265,7 +284,7 @@ Maelle: I saw- I saw... It was... Renoir?
 ```
 4BB
 Creature - Nevron
-Ward 2.
+Ward {2}
 This creature enters with a shield counter. (If it would be dealt damage or destroyed, remove a shield counter from it instead.)
 Gathers dark chroma — {4}{B}, {T}: Tap up to two target creatures.
 Summons dark spear — {2}{B}, {T}: This creature deals 2 damage to target creature. You gain 2 life.
@@ -310,6 +329,42 @@ When this creature dies, target opponent creates a Lumina token. (It's an artifa
  - Mechanically, it's main ability is to give its allies the ability to act twice, which I've mapped to untapping creatures.
  - And to round out its abilities I've given it a generic -1/-1 affliction ability.
  - 13/10/2025: Removed Devoid.
+
+## Osquio, Ruler Of All The Trains // Osquio, Ultimate Cake Eater Of The Universe
+
+```
+3BB
+Legendary Artifact Creature - Toy
+Trample
+{i}Summons his little friends{/i} — {2}{B}{B}, {T}: Create two 0/1 black Toy artifact creature tokens named Osquio’s Mask with Flying and “Sacrifice this creature: It deals 2 damage to any target. You gain 2 life“
+{i}Time for a spin spin{/i} — When Osquio dies, return it to the battlefield transformed under it’s owner’s control.
+
+5/5
+```
+
+Transforms into:
+
+```
+
+Legendary Artifact Creature - Toy
+Whenever Osquio deals damage to a creature, create a blue Aura enchantment token named Barbapapa attached to that creature. The token has enchant creature and “Enchanted creature has base power 1. When enchanted creature deals combat damage, sacrifice this Aura.”
+Whenever a creature dies, untap Osquio.
+Goes pew pew pew — {R}, {T}: Osquio deals 2 damage to any target.
+Decides to destroy the world. Bye bye — When Osquio dies, destroy all permanents unless a player pays {6}.
+
+6/6
+```
+
+[card implementation](../custom/cards/o/osquio_ruler_of_all_the_trains_osquio_ultimate_cake_eater_of_the_universe.txt)
+
+### Design Notes
+
+ - In the game, Osquio is the final boss of Verso's Drafts. He is Esquie's evil cousin and has all the moves an mannerisms of a Professional Wrestler.
+ - Obviously a DFC where his Phase 1 form transforms to his Phase 2 form. Abilities I've translated are:
+    - Spawning Osquio's Mask tokens
+    - Goblin Sharpshooter's pinging ability
+    - Applying Barbapapa debuffs when damaging any creature in his Phase 2 form
+ - The "Decides to destroy the world. Bye bye" ability has an "unless a player pays {6}" clause as a nod to the fact that this attack must be parried (stopped), but you only have one small window to pull it off.
 
 ## Painted Renoir, Aline's Enforcer
 
@@ -510,4 +565,24 @@ You may have this creature enter as a copy of any nonlegendary Expeditioner crea
  - In the game, Burden is one of Verso's skills. It transfers all status effects on various members of your party onto Verso himself.
  - Gone with 1:1 reprint of Treacherous Link.
  - 5/12/2025: Converted to a nickname reprint of Treacherous Link
+
+## Very Very Cool Gestral
+
+```
+1B
+Artifact Creature - Gestral
+Menace
+Queueing is for losers — {1}{B}: Put a menace counter on another target creature. It becomes a Toy in addition to its other types.
+---
+One day I will make it so nobody ever has to queue anywhere anymore!
+
+2/2
+```
+
+[card implementation](../custom/cards/v/very_very_cool_gestral.txt)
+
+### Design Notes
+
+ - In the game, a Very Very Cool Gestral exists in Verso's Drafts. If you have a conversation with him he notes that he doesn't like standing in line (for the ride). If you agree with him, he will be impressed by your like-mindedness and give you a ride ticket. Each party member you take the ride on will be awarded with a new Esquie outfit.
+ - Even though it is extremely flavorful, We can't reprint Line Cutter from Unfinity as it uses a joke mechanic (Attractions). So instead we've taken a page out of Butch DeLoria, Tunnel Snake and gave him Menace to symbolize his "coolness". The menace counter granting is also copied from Butch, but the type is changed to Toy to map to him rewarding Esquie outfits (Esquie being a giant stuffed toy).
 

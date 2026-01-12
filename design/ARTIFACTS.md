@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 1/1/2026 9:33:21 am
+> Last generated: 10/1/2026 5:43:59 pm
 
 ## A Rock for François
 
@@ -22,6 +22,26 @@ Esquie: I think we captured your essence beautifully.
  - In the game, Esquie carves a rock of François and Clea to trade for Urrie, which gives him the ability to dive.
  - Another tutor piece to help assist in assembling the rock "Urzatron"
  - Not legendary like the quartet because it's just an ordinary rock.
+
+## Alicenisa, Gestral Siren
+
+```
+3
+Legendary Artifact Creature - Gestral Bard
+Other Gestral creatures you control get +1/+1.
+You may choose not to untap Alicenisa during your untap step.
+At the beginning of your upkeep, put a verse counter on Alicenisa.
+{T}: Gain control of target creature with mana value X or less for as long as you control Alicenisa and Alicenisa remains tapped, where X is the number of verse counters on Alicenisa.
+
+1/4
+```
+
+[card implementation](../custom/cards/a/alicenisa_gestral_siren.txt)
+
+### Design Notes
+
+ - In the game, Lorieniso played guitar alone in the Gestral Village. With the "Thank You" update, he is now accompanied by Alicenisa. Named after Alice Duport-Percier, the co-composer and main vocalist of the OST for this game.
+ - Gone with a mashup of "Glorious Anthem" for Gestrals and a "Rubinia Soulsinger" creature stealer. Creature stealing is conditional on the number of verse counters that grows every turn so it can't just steal fatties right off the bat.
 
 ## Anti-Burn Picto
 
@@ -1163,6 +1183,26 @@ You don't get to die yet.
  - In the game, a Revive Tint resurrects a fallen party member in battle.
  - Mechanically, gone with a Raise Dead effect that also has reanimation if you meet the Lumina token requirement.
 
+## Romanifo, the Half-baked
+
+```
+1
+Legendary Artifact Creature - Gestral
+When Romanifo enters, create a colorless Equipment artifact token named Romanifo's Balloon with "Equipped creature has flying" and equip {2}.
+Romanifo has indestructible as long as you control a token named Romanifo's Balloon.
+---
+Some mean brushes here would say it's fun to pop balloons. They're MY balloons. Don't touch them.
+
+1/1
+```
+
+[card implementation](../custom/cards/r/romanifo_the_half_baked.txt)
+
+### Design Notes
+
+ - In the game, Romanifo can be found in Verso's Drafts. Popping his balloons provokes him into a fight where he is invincible. He can only be damaged by popping all of his balloons.
+ - Mapped his gimmick to spawning a token equipment that grants flying. While this token equipment is under your control, Romanifo is indestructible to match his video game immunity to any damage.
+
 ## Rush Picto
 
 ```
@@ -1377,6 +1417,28 @@ If I'm lucky, I'll become a weapon for a Sakapatate!
  - In the game, a Tall Gestral is near the Gestral Village entrance
  - It's tall, so clearly it has reach!
 
+## The Gingerbread Door
+
+```
+5
+Legendary Artifact - Food
+When The Gingerbread Door enters, each player creates a Food token.
+Creatures with power greater than the number of Foods on the battlefield can’t attack.
+{2}, {T}, Sacrifice this artifact: You gain 3 life.
+---
+A group of five? A yummy looking cake! We have what is needed. NOW LET’S PARTYYYYY-
+```
+
+[card implementation](../custom/cards/t/the_gingerbread_door.txt)
+
+### Design Notes
+
+ - In the game, The Gingerbread Door is an obstacle in Verso's Drafts. It can only be unlocked by presenting it a birthday cake. The birthday cake is composed from 3 cake slices which can be acquired from completing various tasks.
+ - It's made of Gingerbread so clearly it's a Food.
+ - It's an obstacle so it's clearly an artifact of the Ensnaring Bridge kind.
+ - Instead of counting cards in hand, we count foods on the battlefield (to flavorfully approximate the "you need 3 slices of cake to unlock this door" condition)
+ - To give opponents a fighting chance with this in play, a food token is granted on ETB to each player. That way combat is not hard-locked out. 1/2-power creatures can still swing for the fences, but they could be swinging into fatties that can't currently attack, so there's a fine balancing act at play.
+
 ## The World Canvas
 
 ```
@@ -1426,4 +1488,24 @@ FINE, FINE, FINE, Here. Pah! Take your rock and SCRAM!
  - In this set, Urrie is 1 of 4 legendary "Rock" artifacts which will grant benefits to other cards if this or other members of the quartet are in play, just like Urza's Tower, Mine and Power Plant become more powerful when all of them are in play, I am trying to go for a similar outcome with this quartet.
     - Mechanically, my line of thought is diving > digging > Surveiling.
  - 29/12/2025: Changed from Surveil 2 to Surveil 1 and cost from {1} to {2}
+
+## Verso's Toy Chest
+
+```
+3
+Legendary Artifact
+Verso's Toy Chest enters with three toy counters on it.
+{1}, {T}, Remove a toy counter from Verso's Toy Chest: Create a 1/1 colorless Toy artifact creature token.
+{1}, Sacrifice a Toy: Put a toy counter on Verso's Toy Chest.
+```
+
+[card implementation](../custom/cards/v/versos_toy_chest.txt)
+
+### Design Notes
+
+ - In the game a Toy Chest can be found in Verso's Treehouse in Verso's Drafts.
+ - This card depicts this artifact.
+ - Translated to a creature token maker. Only has 3 charges because a Toy Chest can only contain so much toys inside.
+ - A well behaved child will return these toys when done playing with them, thus it has a toy sac ability to put extra counters on it (returning the toys).
+ - Intentionally worded to allow saccing any Toy permanent (there are a few others in this set)
 

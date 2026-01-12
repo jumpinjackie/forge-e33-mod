@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 3/1/2026 5:18:23 pm
+> Last generated: 10/1/2026 11:57:36 am
 
 ## A Life to Love (Farewell)
 
@@ -528,6 +528,26 @@ Sacrifice this enchantment: The next historic spell you cast costs {1} less to c
 
  - Another case of a quote from the game looking for a suitable reprint to attach itself to.
  - Useful spot removal in limited/draft.
+
+## Sibling Overwatch
+
+```
+2W
+Enchantment
+As this enchantment enters, choose a creature type.
+{W}, Tap an untapped creature you control of the chosen type: Prevent all damage that would be dealt to another target creature of the chosen type this turn.
+---
+We are her guardians, not her jailers.
+- Emma
+```
+
+[card implementation](../custom/cards/s/sibling_overwatch.txt)
+
+### Design Notes
+
+ - In the game, inside Verso's Treehouse in Verso's Drafts, there are various artpieces depicting Verso interacting with various family members. One of them is him keeping eye on his younger sister, Alicia.
+ - Modeled as a "Circle of protection" for creatures that can protect a creature by tapping another creature of the same kind.
+    
 
 ## Swords to Plowshares
 

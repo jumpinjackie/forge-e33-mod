@@ -1,0 +1,26 @@
+[Name]
+Verso's Drafts
+[ManaCost]
+no cost
+[Types]
+Legendary
+Land
+[Rarity]
+R
+[Oracle]
+When ~ enters, create two Lumina tokens. $LUMINA_REMINDER_TEXT
+{T}: Add {C}
+{4}, {T}: Create a 1/1 colorless Gestral artifact creature token.
+[FlavorText]
+Welcome to our small little resort of supreme relaxation.
+[ForgeScript]
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigToken | TriggerDescription$ When ~ enters, create a Lumina token. (It’s an artifact with “{T}, Sacrifice this artifact: Scry 1.”)
+SVar:TrigToken:DB$ Token | TokenAmount$ 2 | TokenOwner$ You | TokenScript$ c_a_lumina
+A:AB$ Mana | Cost$ T | Produced$ C | SpellDescription$ Add {C}.
+A:AB$ Token | Cost$ 4 T | TokenAmount$ 1 | TokenOwner$ You | TokenScript$ a_1_1_gestral | SpellDescription$ Create a 1/1 colorless Gestral artifact creature token.
+[RelatedTokens]
+c_a_lumina
+a_1_1_gestral
+[DesignNotes]
+ - In the game, Verso's Drafts is a new optional Act 3 area introduced with the "Thank You" update.
+ - Makes Gestral creature tokens as the location is home to lots and lots of Gestrals. {4} chosen as the cost as {3} generally makes 1/1s with drawback (Mirrex) and {5} generally starts making 2/2s (Secluded Starforge)

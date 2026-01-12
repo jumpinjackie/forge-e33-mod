@@ -416,20 +416,8 @@ No ideas yet.
 Flavor text for Emma
 
 > Prologue
-> Emma: We're her guardians, not her jailers.
-
-No ideas yet.
-
-> Prologue
 > Sophie: See you.
 > Maelle: In the next life.
-
-No ideas yet.
-
-> Act 2: Visages
-> Lune: Everything's destroyed.
-> Monoco: Normally I enjoy a little destruction, but this doesn't feel right.
-> Sciel: It's rage.
 
 No ideas yet.
 
@@ -463,3 +451,6 @@ Something to do with the "suffocation".
 > Renoir: Stop this insanity. It's time to go home.
 
 No ideas yet.
+
+> Act 3: Endless Tower
+> Clea: I painted half this world with Verso. We went on adventures here while you sat reading in your room.

@@ -1,0 +1,21 @@
+[Name]
+The Root of All Evil
+[ManaCost]
+no cost
+[Types]
+Legendary
+Land
+[Rarity]
+R
+[IsReprint]
+true
+[NicknameFor]
+Urborg, Tomb of Yawgmoth
+[Oracle]
+Each land is a Swamp in addition to its other land types.
+[FlavorText]
+We are the Warriors of Legend! We are here to challenge the dastardly Osquio, most villanous of all villains!
+- Maelle
+[DesignNotes]
+ - In the game, The Root of All Evil is Osquio's lair in Verso's Drafts.
+ - Just on name basis alone, this should clearly be a nicknamed reprint of Urborg, Tomb of Yawgmoth

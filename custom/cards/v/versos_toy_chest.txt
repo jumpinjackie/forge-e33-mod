@@ -1,0 +1,7 @@
+Name:Verso's Toy Chest
+ManaCost:3
+Types:Legendary Artifact
+K:etbCounter:TOY:3
+A:AB$ Token | Cost$ 1 T SubCounter<1/TOY> | TokenAmount$ 1 | TokenOwner$ You | TokenScript$ a_1_1_toy | SpellDescription$ Create a 1/1 colorless Toy artifact creature token.
+A:AB$ PutCounter | Cost$ 1 Sac<1/Toy> | CounterType$ TOY | CounterNum$ 1 | SpellDescription$ Put a toy counter on Verso's Toy Chest.
+Oracle:Verso's Toy Chest enters with three toy counters on it.\n{1}, {T}, Remove a toy counter from Verso's Toy Chest: Create a 1/1 colorless Toy artifact creature token.\n{1}, Sacrifice a Toy: Put a toy counter on Verso's Toy Chest.

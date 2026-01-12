@@ -1,0 +1,25 @@
+[Name]
+Gestral Hopscotch Challenge
+[ManaCost]
+U
+[Types]
+Enchantment
+[Rarity]
+R
+[Artist]
+Sandfall Interactive
+[Oracle]
+Whenever a creature you control with flying enters or a creature you control with flying attacks, you may put a quest counter on this enchantment.
+Remove nine quest counters from this enchantment and exile it: Each player shuffles their hand and graveyard into their library, then draws seven cards. Activate only as a sorcery.
+[ForgeScript]
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Creature.YouCtrl+withFlying | TriggerZones$ Battlefield | Execute$ TrigQuestCounter | OptionalDecider$ You | TriggerDescription$ Whenever a creature you control with flying enters, you may put a quest counter on CARDNAME.
+T:Mode$ Attacks | ValidCard$ Creature.YouCtrl+withFlying | Execute$ TrigQuestCounter | TriggerZones$ Battlefield | TriggerDescription$ Whenever a creature you control with flying attacks, put a quest counter on CARDNAME.
+SVar:TrigQuestCounter:DB$ PutCounter | Defined$ Self | CounterType$ QUEST | CounterNum$ 1
+A:AB$ ChangeZoneAll | Cost$ SubCounter<9/QUEST> Exile<1/CARDNAME> | ChangeType$ Card | Origin$ Hand,Graveyard | Destination$ Library | Shuffle$ True | UseAllOriginZones$ True | SubAbility$ DBDraw | AILogic$ Timetwister | SorcerySpeed$ True | SpellDescription$ Each player shuffles their graveyard and hand into their library, then draws seven cards.
+SVar:DBDraw:DB$ Draw | NumCards$ 7 | Defined$ Player
+[Bugs]
+ - If you back out of the Timetwister ability activation after removing 9 quest counters, you will not get back those counters.
+[DesignNotes]
+ - In the game, the Gestral Hopscotch Challenge is 1 of 2 challenge minigames in Verso's Drafts. In this minigame you must walk/jump from tiles 1 to 9 in sequence. Completing the challenge rewards you with a new haircut.
+ - Same quest counter trigger condition as the ascension challenge. Originally I wanted something that triggers on the gain/loss of flying on any creature (to thematically map to hopping), but there is no existing precendent for triggers from the gain or loss of a particular ability, so this isn't possible to implement.
+ - The final payoff is a Timetwister effect. Exile cost to prevent recursion in multiples as-is standard with most Timetwister-style spells. 9 quest counters is the activation threshold as the Hopscotch ends at the 9th tile.

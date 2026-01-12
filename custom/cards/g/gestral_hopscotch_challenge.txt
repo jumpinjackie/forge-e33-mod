@@ -1,0 +1,9 @@
+Name:Gestral Hopscotch Challenge
+ManaCost:U
+Types:Enchantment
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Creature.YouCtrl+withFlying | TriggerZones$ Battlefield | Execute$ TrigQuestCounter | OptionalDecider$ You | TriggerDescription$ Whenever a creature you control with flying enters, you may put a quest counter on CARDNAME.
+T:Mode$ Attacks | ValidCard$ Creature.YouCtrl+withFlying | Execute$ TrigQuestCounter | TriggerZones$ Battlefield | TriggerDescription$ Whenever a creature you control with flying attacks, put a quest counter on CARDNAME.
+SVar:TrigQuestCounter:DB$ PutCounter | Defined$ Self | CounterType$ QUEST | CounterNum$ 1
+A:AB$ ChangeZoneAll | Cost$ SubCounter<9/QUEST> Exile<1/CARDNAME> | ChangeType$ Card | Origin$ Hand,Graveyard | Destination$ Library | Shuffle$ True | UseAllOriginZones$ True | SubAbility$ DBDraw | AILogic$ Timetwister | SorcerySpeed$ True | SpellDescription$ Each player shuffles their graveyard and hand into their library, then draws seven cards.
+SVar:DBDraw:DB$ Draw | NumCards$ 7 | Defined$ Player
+Oracle:Whenever a creature you control with flying enters or a creature you control with flying attacks, you may put a quest counter on this enchantment.\nRemove nine quest counters from this enchantment and exile it: Each player shuffles their hand and graveyard into their library, then draws seven cards. Activate only as a sorcery.

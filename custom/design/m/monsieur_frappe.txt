@@ -1,0 +1,25 @@
+[Name]
+Monsieur Frappe
+[ManaCost]
+R
+[Types]
+Legendary
+Artifact
+Creature
+Gestral
+[Rarity]
+U
+[PT]
+3/3
+[Oracle]
+Whenever Monsieur Frappe is blocked, tap all creatures blocking him. Prevent all combat damage that would be dealt this turn by Monsieur Frappe and each creature blocking it.
+[FlavorText]
+Try to counter this, worm.
+[ForgeScript]
+T:Mode$ AttackerBlockedByCreature | ValidCard$ Card.Self | ValidBlocker$ Creature | Execute$ TrigFeint | TriggerDescription$ Whenever ~ is blocked, tap all creatures blocking him. Prevent all combat damage that would be dealt this turn by Monsieur Frappe and each creature blocking it.
+SVar:TrigFeint:DB$ TapAll | ValidCards$ Creature.blockingSource | SubAbility$ FeintPump
+SVar:FeintPump:DB$ Pump | Defined$ Self | KW$ Prevent all combat damage that would be dealt by CARDNAME. | SubAbility$ FeintPumpAll
+SVar:FeintPumpAll:DB$ Pump | Defined$ Valid Creature.blockingSource | KW$ Prevent all combat damage that would be dealt by CARDNAME.
+[DesignNotes]
+ - In the game, Monsieur Frappe can be found in Verso's Drafts. He can be challenged to a fight where his main gimmick is all of his attacks have long windups and have plenty of fakeouts to bait you into parrying at the wrong time. Defeating him rewards you with the Feint pictos.
+ - There is already a card named Feint, and Monsieur Frappe's gimmick is all about that, so we've stapled Feint into a 3/3 body.

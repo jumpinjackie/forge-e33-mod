@@ -1,0 +1,9 @@
+Name:Monsieur Frappe
+ManaCost:R
+Types:Legendary Artifact Creature Gestral
+PT:3/3
+T:Mode$ AttackerBlockedByCreature | ValidCard$ Card.Self | ValidBlocker$ Creature | Execute$ TrigFeint | TriggerDescription$ Whenever CARDNAME is blocked, tap all creatures blocking him. Prevent all combat damage that would be dealt this turn by Monsieur Frappe and each creature blocking it.
+SVar:TrigFeint:DB$ TapAll | ValidCards$ Creature.blockingSource | SubAbility$ FeintPump
+SVar:FeintPump:DB$ Pump | Defined$ Self | KW$ Prevent all combat damage that would be dealt by CARDNAME. | SubAbility$ FeintPumpAll
+SVar:FeintPumpAll:DB$ Pump | Defined$ Valid Creature.blockingSource | KW$ Prevent all combat damage that would be dealt by CARDNAME.
+Oracle:Whenever Monsieur Frappe is blocked, tap all creatures blocking him. Prevent all combat damage that would be dealt this turn by Monsieur Frappe and each creature blocking it.

@@ -46,8 +46,7 @@ Expeditioner
 [PT]
 6/6
 [Oracle]
-Trample
-Double Strike
+Trample, Double Strike
 Simon enters with a foreboding counter.
 The dead are removed from the canvas — If a creature would be put into a graveyard from anywhere, exile it instead.
 Gathers Chroma — {B}{B}, {T}: Target creature has base toughness 1 until end of turn.
