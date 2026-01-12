@@ -1,0 +1,25 @@
+[Name]
+Half-baked Lifeguard
+[ManaCost]
+2
+R
+[Types]
+Artifact
+Creature
+Gestral
+[Rarity]
+U
+[PT]
+2/3
+[Oracle]
+At the beginning of each upkeep, count the number of permanents. If the number is even, until end of turn, creatures you control get +1/+1.
+[FlavorText]
+Thank the Dessendres,“Whees” and “Whoos” are perfectly balanced, you did it!
+[ForgeScript]
+T:Mode$ Phase | Phase$ Upkeep | TriggerZones$ Battlefield | Execute$ TrigCount | TriggerDescription$ At the beginning of each upkeep, count the number of permanents. If the number is even, until end of turn, creatures you control get +1/+1.
+SVar:TrigCount:DB$ Effect | StaticAbilities$ STPump | ConditionCheckSVar$ X | ConditionSVarCompare$ M20
+SVar:STPump:Mode$ Continuous | AffectedZone$ Battlefield | Affected$ Creature.YouCtrl | AddPower$ 1 | AddToughness$ 1
+SVar:X:Count$Valid Permanent
+[DesignNotes]
+ - In the game, in Verso's Drafts a Half-baked Lifeguard will reward you if you activate enough Esquie statues in the area so that they are 50/50 light and dark.
+ - Mapped this to a creature buff if there is an even number of permanents (to symbolize the Esquie light/dark equilibrium)

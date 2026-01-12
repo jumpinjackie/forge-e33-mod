@@ -1,0 +1,8 @@
+Name:Very Very Cool Gestral
+ManaCost:1 B
+Types:Artifact Creature Gestral
+PT:2/2
+K:Menace
+A:AB$ PutCounter | Cost$ 1 B | ValidTgts$ Creature.Other | TgtPrompt$ Select another target creature | CounterType$ Menace | CounterNum$ 1 | SubAbility$ DBAnimate | SpellDescription$ Put a menace counter on another target creature.
+SVar:DBAnimate:DB$ Animate | Defined$ Targeted | Types$ Toy | Duration$ Permanent | SpellDescription$ It becomes a Toy in addition to its other types.
+Oracle:Menace\nQueueing is for losers — {1}{B}: Put a menace counter on another target creature. It becomes a Toy in addition to its other types.

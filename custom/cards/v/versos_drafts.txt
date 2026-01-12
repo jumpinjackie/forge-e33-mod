@@ -1,0 +1,8 @@
+Name:Verso's Drafts
+ManaCost:no cost
+Types:Legendary Land
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigToken | TriggerDescription$ When CARDNAME enters, create a Lumina token. (It’s an artifact with “{T}, Sacrifice this artifact: Scry 1.”)
+SVar:TrigToken:DB$ Token | TokenAmount$ 2 | TokenOwner$ You | TokenScript$ c_a_lumina
+A:AB$ Mana | Cost$ T | Produced$ C | SpellDescription$ Add {C}.
+A:AB$ Token | Cost$ 4 T | TokenAmount$ 1 | TokenOwner$ You | TokenScript$ a_1_1_gestral | SpellDescription$ Create a 1/1 colorless Gestral artifact creature token.
+Oracle:When Verso's Drafts enters, create two Lumina tokens. (It's an artifact with "{T}, Sacrifice this artifact: Scry 1.")\n{T}: Add {C}\n{4}, {T}: Create a 1/1 colorless Gestral artifact creature token.
