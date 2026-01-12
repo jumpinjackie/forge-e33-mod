@@ -4,6 +4,7 @@ using System.IO;
 using System.Text;
 using System.Text.RegularExpressions;
 using DotMake.CommandLine;
+using Microsoft.VisualBasic;
 
 await Cli.RunAsync<RootCommand>(args);
 
@@ -71,6 +72,8 @@ public class CardFaceDesign
 
     public bool EntersTapped { get; set; } = false;
 
+    public string[]? RelatedTokens { get; set; }
+
     internal void Apply(string propertyName, IEnumerable<string> buffer)
     {
         switch (propertyName)
@@ -135,6 +138,9 @@ public class CardFaceDesign
                 break;
             case nameof(EntersTapped):
                 EntersTapped = string.Join(" ", buffer) == "true";
+                break;
+            case nameof(RelatedTokens):
+                RelatedTokens = buffer.ToArray();
                 break;
         }
     }
@@ -546,6 +552,8 @@ public class TokenDefinition
 
     public string? OracleTextFull => Oracle is not null ? string.Join("\n", Oracle) : null;
 
+    public List<string> ReverseRelatedCardNames { get; } = new();
+
     public string? MainType
     {
         get
@@ -770,7 +778,7 @@ public class CardMasterDesign(string designFile)
         };
     }
 
-    public record CockatriceCardFace(string Name, string Rarity, string OracleText, string Colors, string? ManaCost, int? ManaValue, string Type, string MainType, string? PT, string? Loyalty, string? RelatedCardName, bool? EntersTapped, string? Side)
+    public record CockatriceCardFace(string Name, string Rarity, string OracleText, string Colors, string? ManaCost, int? ManaValue, string Type, string MainType, string? PT, string? Loyalty, string? RelatedCardName, bool? EntersTapped, string? Side, string[]? RelatedTokens)
     {
         public int GetTableRow() => this.MainType switch
         {
@@ -814,7 +822,8 @@ public class CardMasterDesign(string designFile)
                 this.FrontFull.Loyalty,
                 null,
                 this.FrontFull.EntersTapped,
-                null
+                null,
+                this.FrontFull.RelatedTokens
             );
         }
         else if (FaceType == CardFaceType.SplitFuse || FaceType == CardFaceType.SplitRoom)
@@ -827,6 +836,12 @@ public class CardMasterDesign(string designFile)
             // Sort in WUBRG order
             var order = new[] { 'W', 'U', 'B', 'R', 'G' };
             var sColors = string.Join(string.Empty, colors.OrderBy(c => Array.IndexOf(order, c)));
+
+            string[]? relatedTokens = null;
+            if (FaceType == CardFaceType.SplitRoom)
+            {
+                relatedTokens = [.. (this.SplitLeft.RelatedTokens ?? []), .. (this.SplitRight.RelatedTokens ?? [])];
+            }
 
             yield return new(
                 // NOTE: Using invariant name as first priority for cockatrice as card images use invariant name
@@ -844,7 +859,8 @@ public class CardMasterDesign(string designFile)
                 null,
                 null,
                 null,
-                null
+                null,
+                relatedTokens
             );
         }
         else if (FaceType == CardFaceType.DoubleFaced)
@@ -865,7 +881,8 @@ public class CardMasterDesign(string designFile)
                 this.FrontFull.Loyalty,
                 this.BackFull.InvariantName ?? this.BackFull.Name,
                 this.FrontFull.EntersTapped,
-                "front"
+                "front",
+                this.FrontFull.RelatedTokens
             );
             yield return new(
                 // NOTE: Using invariant name as first priority for cockatrice as card images use invariant name
@@ -883,7 +900,8 @@ public class CardMasterDesign(string designFile)
                 this.BackFull.Loyalty,
                 this.FrontFull.InvariantName ?? this.FrontFull.Name,
                 null,
-                "back"
+                "back",
+                this.BackFull.RelatedTokens
             );
         }
         else if (FaceType == CardFaceType.Meld)
@@ -904,7 +922,8 @@ public class CardMasterDesign(string designFile)
                 this.FrontFull.Loyalty,
                 this.MeldTarget.InvariantName ?? this.MeldTarget.Name,
                 this.FrontFull.EntersTapped,
-                "front"
+                "front",
+                this.FrontFull.RelatedTokens
             );
             yield return new(
                 // NOTE: Using invariant name as first priority for cockatrice as card images use invariant name
@@ -922,7 +941,8 @@ public class CardMasterDesign(string designFile)
                 this.MeldTarget.Loyalty,
                 null,
                 null,
-                "back"
+                "back",
+                this.MeldTarget.RelatedTokens
             );
         }
     }
@@ -1119,6 +1139,7 @@ public class CardMasterDesign(string designFile)
                 case "[IsCommander]":
                 case "[NicknameFor]":
                 case "[EntersTapped]":
+                case "[RelatedTokens]":
                     // Apply the collected buffer for the previous property name
                     if (activePropertyName != null)
                     {
@@ -1514,18 +1535,20 @@ public abstract class BaseCommand
         return cards;
     }
 
-    protected async Task<SortedDictionary<string, TokenDefinition>> ReadTokensAsync(TextWriter stdout, TextWriter stderr)
+    protected async Task<SortedDictionary<string, TokenDefinition>> ReadTokensAsync(SortedDictionary<string, CardMasterDesign> cards, TextWriter stdout, TextWriter stderr)
     {
         var subDirs = this.BaseDirectory.GetDirectories();
         var tokensDir = subDirs.FirstOrDefault(d => d.Name == "tokens");
         if (tokensDir is null)
             throw new InvalidOperationException("Tokens dir not found");
 
+        var tokensByScript = new Dictionary<string, TokenDefinition>();
         var tokens = new SortedDictionary<string, TokenDefinition>();
         foreach (var tokenFile in Directory.EnumerateFiles(tokensDir.FullName, "*.txt", SearchOption.AllDirectories))
         {
             await stdout.WriteLineAsync($"Processing token: {tokenFile}");
             var token = await TokenDefinition.ReadAsync(tokenFile);
+            tokensByScript[Path.GetFileNameWithoutExtension(tokenFile)] = token;
             if (token.Name is not null)
                 tokens.Add(token.Name, token);
             else
@@ -1533,6 +1556,29 @@ public abstract class BaseCommand
         }
 
         await stdout.WriteLineAsync($"Read: {tokens.Count} tokens");
+
+        // Register reverse relations
+        foreach (var card in cards.Values)
+        {
+            foreach (var face in card.GetCockatriceFaces())
+            {
+                if (face.RelatedTokens is null)
+                    continue;
+
+                foreach (var tokenScript in face.RelatedTokens)
+                {
+                    if (tokensByScript.TryGetValue(tokenScript, out var token))
+                    {
+                        token.ReverseRelatedCardNames.Add(face.Name);
+                    }
+                    else
+                    {
+                        await stderr.WriteLineAsync($"WARNING: Card face ({face.Name}) references unknown token script: {tokenScript}");
+                    }
+                }
+            }
+        }
+
         return tokens;
     }
 }
@@ -1560,7 +1606,7 @@ public class GenAllCommand : BaseCommand
     {
         // Read cards once for all operations
         var cards = await ReadCardDesignsAsync(stdout, stderr);
-        var tokens = await ReadTokensAsync(stdout, stderr);
+        var tokens = await ReadTokensAsync(cards, stdout, stderr);
 
         var subDirs = this.BaseDirectory.GetDirectories();
         var cardsDir = subDirs.FirstOrDefault(d => d.Name == "cards");
@@ -1999,6 +2045,16 @@ public class GenAllCommand : BaseCommand
                     </prop>
                     <token>1</token>
                     <tablerow>{{token.GetTableRow()}}</tablerow>
+                """);
+
+                foreach (var reverseName in token.ReverseRelatedCardNames)
+                {
+                    sb.AppendLine($$"""
+                        <reverse-related>{{reverseName}}</reverse-related>
+                    """);
+                }
+
+                sb.AppendLine("""
                     </card>
                 """);
             }

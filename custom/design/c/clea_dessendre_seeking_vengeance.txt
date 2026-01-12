@@ -26,6 +26,8 @@ A:AB$ ChangeZone | Cost$ SubCounter<4/LOYALTY> | Planeswalker$ True | ValidTgts$
 SVar:DBCopyExiled:DB$ CopyPermanent | Defined$ Remembered | Controller$ You | AddTypes$ Nevron | SubAbility$ DBCleanup
 SVar:DBCleanup:DB$ Cleanup | ClearRemembered$ True
 A:AB$ GainControl | Cost$ SubCounter<10/LOYALTY> | Planeswalker$ True | Ultimate$ True | ValidTgts$ Opponent | TgtPrompt$ Select target opponent | AllValid$ Creature.TargetedPlayerCtrl | NewController$ You | StackDescription$ SpellDescription | SpellDescription$ Gain control of all creatures target opponent controls.
+[RelatedTokens]
+b_0_0_nevron_army
 [DesignNotes]
  - Planeswalker Clea's abilities map to her purported abilities in-game:
     - +2: She is a prolific Nevron creating machine

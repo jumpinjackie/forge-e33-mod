@@ -134,6 +134,14 @@ Cockatrice metadata that indicates if this card enters tapped. Only apply for ca
 
 Not used in any other context.
 
+### Related Tokens (`[RelatedTokens]`)
+
+Cockatrice metadata that indicates related tokens for a given card. This is to generate reverse relations in the Cockatrice XML to allow for contextual token generation actions for a particular card.
+
+One line per token. Must use the forge token script name.
+
+Not used in any other context.
+
 #### General Notes / Tips
 
 * Where possible, try to provide reminder text around keyword and token references, unless it is clear that you are exhausting your "text box budget" by doing so.

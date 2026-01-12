@@ -24,6 +24,8 @@ A:SP$ Token | TokenOwner$ You | TokenAmount$ 2 | TokenScript$ w_1_1_human_expedi
 SVar:TrigDraw:DB$ Draw | NumCards$ 1 | ConditionCheckSVar$ Y | ConditionSVarCompare$ GE3 | SpellDescription$ Draw a card if you control at least three Lumina tokens.
 SVar:Y:Count$Valid Lumina.YouCtrl
 DeckHas:Ability$Token
+[RelatedTokens]
+w_1_1_human_expeditioner
 [DesignNotes]
  - Primarily designed to support the Crippling Tsunami Prison strategy
  - 7/11/2025: Changed flashback cost from saccing 2 Chroma tokens to 2 Lumina tokens.

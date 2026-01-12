@@ -19,6 +19,8 @@ Luminous
 A:SP$ Token | TokenAmount$ X | TokenOwner$ You | TokenScript$ c_a_chroma | SpellDescription$ Create two Chroma tokens.
 SVar:LuminaTotal:Count$Valid Lumina.YouCtrl
 SVar:X:Count$Compare LuminaTotal GE3.3.2
+[RelatedTokens]
+c_a_chroma
 [DesignNotes]
  - In the game, this is one of Lune's quotes during battle.
  - Went with 2 Chroma tokens, so it still ramps for strategies that can take advantage, but not to Dark Ritual levels.

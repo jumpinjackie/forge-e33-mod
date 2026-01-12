@@ -24,6 +24,8 @@ SVar:DBLumina:DB$ Token | TokenAmount$ X | TokenOwner$ You | TokenScript$ c_a_lu
 SVar:DBCleanup:DB$ Cleanup | ClearRemembered$ True
 SVar:X:Remembered$Valid Card.Nevron
 DeckHas:Ability$Counters
+[RelatedTokens]
+c_a_lumina
 [DesignNotes]
  - Journal is a story of expeditioners engaged in a competition to see who can kill the most Nevrons.
  - Obvious mechanical map to just killing Nevrons, and more Nevrons.

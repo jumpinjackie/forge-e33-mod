@@ -19,6 +19,9 @@ T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Creatu
 SVar:TrigFood:DB$ Token | TokenAmount$ 1 | TokenScript$ c_a_food_sac | TokenOwner$ You
 A:AB$ Draw | Cost$ 2 Sac<1/CARDNAME> | NumCards$ 1 | SpellDescription$ Draw a card.
 SVar:PlayMain1:TRUE
+[RelatedTokens]
+w_1_1_party_guest
+c_a_food_sac
 [DesignNotes]
  - In the game, one of Maelle's nightmare visions is of a birthday party with Gustave and Verso as guests.
  - Gone with an enchantment that brings in some party guests.

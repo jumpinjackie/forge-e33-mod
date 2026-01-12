@@ -23,6 +23,8 @@ SVar:DBChapter3:DB$ AnimateAll | ValidCards$ Food.YouCtrl+token | Abilities$ AbF
 SVar:DBFood:DB$ Token | TokenAmount$ 1 | TokenScript$ c_a_food_sac | TokenOwner$ You
 SVar:AbFoodPoison:AB$ DealDamage | Cost$ 1 Sac<1/CARDNAME> | ValidTgts$ Creature | TgtPrompt$ Select target creature | DamageSource$ Targeted | NumDmg$ 3 | SpellDescription$ Target creature deals 3 damage to itself.
 DeckHas:Ability$Counters
+[RelatedTokens]
+c_a_food_sac
 [DesignNotes]
  - Journal is a story of Expeditioners making the fatal mistake of eating dead nevrons for sustenance
  - "Food poisoning" ability adapted from Asmoranomardicadaistinaculdacar's ability
