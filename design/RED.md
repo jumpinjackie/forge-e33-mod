@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 10/1/2026 8:20:57 pm
+> Last generated: 12/1/2026 1:23:33 pm
 
 ## Anger
 
@@ -291,6 +291,25 @@ When Grosse Tête has three or more quake counters, sacrifice it.
  - Like The Monolith, we are saccing at 3 instead of 12 counters for purposes of practicality. 12 counters means 12 turns and that is too long to wait it out in "MTG game time"
  - Big butt conveys the general tankiness.
     - 5 toughness was chosen so it can be taken out with a Gestral Volleyball Strike, so that a Gestral strategy does not completely fold to this card being in play and can take this out immediately if waiting it out is not an option.
+
+## Half-baked Lifeguard
+
+```
+2R
+Artifact Creature - Gestral
+At the beginning of each upkeep, count the number of permanents. If the number is even, until end of turn, creatures you control get +1/+1.
+---
+Thank the Dessendres,“Whees” and “Whoos” are perfectly balanced, you did it!
+
+2/3
+```
+
+[card implementation](../custom/cards/h/half_baked_lifeguard.txt)
+
+### Design Notes
+
+ - In the game, in Verso's Drafts a Half-baked Lifeguard will reward you if you activate enough Esquie statues in the area so that they are 50/50 light and dark.
+ - Mapped this to a creature buff if there is an even number of permanents (to symbolize the Esquie light/dark equilibrium)
 
 ## Hexga
 

@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 10/1/2026 7:34:22 pm
+> Last generated: 12/1/2026 1:30:17 pm
 
 ## Axon Offering
 
@@ -565,4 +565,24 @@ You may have this creature enter as a copy of any nonlegendary Expeditioner crea
  - In the game, Burden is one of Verso's skills. It transfers all status effects on various members of your party onto Verso himself.
  - Gone with 1:1 reprint of Treacherous Link.
  - 5/12/2025: Converted to a nickname reprint of Treacherous Link
+
+## Very Very Cool Gestral
+
+```
+1B
+Artifact Creature - Gestral
+Menace
+Queueing is for losers — {1}{B}: Put a menace counter on another target creature. It becomes a Toy in addition to its other types.
+---
+One day I will make it so nobody ever has to queue anywhere anymore!
+
+2/2
+```
+
+[card implementation](../custom/cards/v/very_very_cool_gestral.txt)
+
+### Design Notes
+
+ - In the game, a Very Very Cool Gestral exists in Verso's Drafts. If you have a conversation with him he notes that he doesn't like standing in line (for the ride). If you agree with him, he will be impressed by your like-mindedness and give you a ride ticket. Each party member you take the ride on will be awarded with a new Esquie outfit.
+ - Even though it is extremely flavorful, We can't reprint Line Cutter from Unfinity as it uses a joke mechanic (Attractions). So instead we've taken a page out of Butch DeLoria, Tunnel Snake and gave him Menace to symbolize his "coolness". The menace counter granting is also copied from Butch, but the type is changed to Toy to map to him rewarding Esquie outfits (Esquie being a giant stuffed toy).
 

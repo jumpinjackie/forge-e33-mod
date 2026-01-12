@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 9/1/2026 12:19:18 pm
+> Last generated: 12/1/2026 1:23:33 pm
 
 ## Abbest Cave
 
@@ -661,6 +661,25 @@ This land enters tapped. As it enters, choose a color.
 
  - In the game, the Twilight Quarry is an area where a collectible record can be found
  - Another land to provide mana fixing
+
+## Verso's Drafts
+
+```
+
+Legendary Land
+When Verso's Drafts enters, create two Lumina tokens. (It's an artifact with "{T}, Sacrifice this artifact: Scry 1.")
+{T}: Add {C}
+{4}, {T}: Create a 1/1 colorless Gestral artifact creature token.
+---
+Welcome to our small little resort of supreme relaxation.
+```
+
+[card implementation](../custom/cards/v/versos_drafts.txt)
+
+### Design Notes
+
+ - In the game, Verso's Drafts is a new optional Act 3 area introduced with the "Thank You" update.
+ - Makes Gestral creature tokens as the location is home to lots and lots of Gestrals. {4} chosen as the cost as {3} generally makes 1/1s with drawback (Mirrex) and {5} generally starts making 2/2s (Secluded Starforge)
 
 ## Verso's Treehouse
 
