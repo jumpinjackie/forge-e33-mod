@@ -23,6 +23,9 @@ A:AB$ Token | Cost$ T Sac<1/CARDNAME> | TokenAmount$ 2 | TokenOwner$ You | Token
 T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Card.Self | Execute$ TrigDraw | Secondary$ True | TriggerDescription$ When CARDNAME is put into a graveyard from the battlefield, draw a card.
 SVar:TrigDraw:DB$ Draw | NumCards$ 1 | Defined$ TriggeredCardController | ConditionCheckSVar$ X | ConditionSVarCompare$ GE3
 SVar:X:Count$Valid Lumina.YouCtrl
+[RelatedTokens]
+c_a_chroma
+c_a_lumina
 [DesignNotes]
  - In the game, these caches are scattered throughout the continent, left by previous Expeditions "for those who come after"
  - Just an enabler for Lumina/Chroma token strategies

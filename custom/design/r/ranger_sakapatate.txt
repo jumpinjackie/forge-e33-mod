@@ -29,6 +29,8 @@ T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ 
 SVar:TrigDeath:DB$ DealDamage | ValidTgts$ Creature | TgtPrompt$ Select any target to distribute damage to | NumDmg$ 3 | TargetMin$ 1 | TargetMax$ 3 | DividedAsYouChoose$ 3 | SpellDescription$ CARDNAME deals 3 damage divided as you choose among one, two, or three targets creatures.
 T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Card.Self | Execute$ TrigToken | TriggerDescription$ When this creature dies, target opponent creates a Lumina token.
 SVar:TrigToken:DB$ Token | TokenAmount$ 1 | ValidTgts$ Opponent | TokenOwner$ Targeted | TokenScript$ c_a_lumina
+[RelatedTokens]
+c_a_lumina
 [DesignNotes]
  - Like other Sakapatates, it will try to do a last minute suicide move to do some damage before it goes.
  - 21/10/2025: Added Gestral alliance cost reduction and Gestral volleyball fling ability since this is the one participating in the Gestral volleyball minigame.

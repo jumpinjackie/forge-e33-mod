@@ -35,6 +35,9 @@ SVar:EnergizingTrig:Mode$ Attacks | ValidCard$ Card.EquippedBy | Execute$ TrigCh
 SVar:TrigChroma:DB$ Token | TokenAmount$ 1 | TokenOwner$ You | TokenScript$ c_a_chroma | SubAbility$ DBLumina
 SVar:DBLumina:DB$ Token | TokenAmount$ 1 | TokenOwner$ You | TokenScript$ c_a_lumina
 $PICTO_REPLICATE_ABILITY(2)
+[RelatedTokens]
+c_a_chroma
+c_a_lumina
 [DesignNotes]
  - In the game, Attack pictos come in many prefixed variants, that all grant some kind of bonus to the character when they perform a base attack.
  - This is the first of 3 "epic" tier pictos that are modeled on one of these pictos that have many prefixed variants.

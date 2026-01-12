@@ -26,6 +26,8 @@ T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.S
 SVar:TrigCreateTokens:DB$ Token | TokenScript$ c_1_1_pot_nevron | TokenOwner$ You | TokenAmount$ 2
 S:Mode$ Continuous | Affected$ Nevron.YouCtrl | AddKeyword$ Haste | Description$ Nevrons you control have haste.
 $NEVRON_DEATH_ABILITY
+[RelatedTokens]
+c_1_1_pot_nevron
 [DesignNotes]
  - Nevron version of Deranged Hermit / Siege-Gang Commander
  - 4/11/2025: Added missing death trigger for standard Nevrons

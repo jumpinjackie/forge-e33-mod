@@ -29,6 +29,9 @@ SVar:DBChroma:DB$ Token | TokenAmount$ MakeX | TokenOwner$ You | TokenScript$ c_
 SVar:DBCleanup:DB$ Cleanup | ClearRemembered$ True
 SVar:MakeX:Remembered$Amount
 DeckHas:Ability$Counters
+[RelatedTokens]
+u_5_5_airship
+c_a_lumina
 [DesignNotes]
  - Journal is a story of expeditioners stealing a bunch of Airships to escape Lumière.
  - This is a top-end payoff for an all-flyers strategy

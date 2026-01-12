@@ -26,6 +26,8 @@ A:AB$ Pump | Cost$ 2 B T | ValidTgts$ Creature | TgtPrompt$ Select target creatu
 A:AB$ Destroy | Cost$ Sac<3/Lumina> | ValidTgts$ Creature.Nevron | TgtPrompt$ Select target Nevron | SpellDescription$ Destroy target Nevron creature.
 T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Card.Self | Execute$ TrigToken | TriggerDescription$ When CARDNAME dies, create a Chroma token
 SVar:TrigToken:DB$ Token | TokenScript$ c_a_chroma | TokenOwner$ You | TokenAmount$ 1
+[RelatedTokens]
+c_a_chroma
 [DesignNotes]
  - In the game, Expedition 62 made Nevron hunting into a game, with members constantly trying to outscore each other in Nevron kills.
  - Mechanically translated to a creature with creature killing abilities and standard Expeditioner death bonus.

@@ -15,6 +15,9 @@ Exponentially useful.
 [ForgeScript]
 R:Event$ CreateToken | ActiveZones$ Battlefield | ValidPlayer$ You | ValidToken$ Chroma,Lumina | ReplaceWith$ TokenReplace | Description$ If you would create a Chroma or Lumina token, instead create one of each.
 SVar:TokenReplace:DB$ ReplaceToken | Type$ ReplaceToken | TokenScript$ c_a_lumina,c_a_chroma
+[RelatedTokens]
+c_a_chroma
+c_a_lumina
 [DesignNotes]
  - In the game, Chroma Catalysts are used to upgrade the levels of your weapons
  - For the card, we've decided to lean heavily on the word "Catalyst" and made this into a variant of Academy Manufactor, but covers our new token types.

@@ -29,6 +29,8 @@ SVar:TrigDeath:DB$ DamageAll | ValidCards$ Creature.nonNevron | NumDmg$ 2 | Spel
 T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Card.Self | Execute$ TrigToken | TriggerDescription$ When this creature dies, target opponent creates a Lumina token.
 SVar:TrigToken:DB$ Token | TokenAmount$ 1 | ValidTgts$ Opponent | TokenOwner$ Targeted | TokenScript$ c_a_lumina
 SVar:X:Sacrificed$CardManaCost
+[RelatedTokens]
+c_a_lumina
 [DesignNotes]
  - Like other Sakapatates, it will try to do a last minute suicide move to do some damage before it goes.
  - 21/10/2025: Added Gestral alliance cost reduction

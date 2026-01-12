@@ -28,6 +28,9 @@ SVar:DBDraw:DB$ Draw | Defined$ You | NumCards$ 1 | SpellDescription$ Draw a car
 SVar:DBLumina:DB$ Token | TokenAmount$ 1 | TokenOwner$ You | TokenScript$ c_a_lumina | SpellDescription$ Create a Lumina token.
 SVar:DBChroma:DB$ Token | TokenAmount$ 1 | TokenOwner$ You | TokenScript$ c_a_chroma | SpellDescription$ Create a Chroma token.
 SVar:PlayMain1:TRUE
+[RelatedTokens]
+c_a_lumina
+c_a_chroma
 [DesignNotes]
  - In the game, Lune is a naturally inquisitive character, always looking at things with scientific curiosity.
  - Went with a more flavorful variant of Curiosity.

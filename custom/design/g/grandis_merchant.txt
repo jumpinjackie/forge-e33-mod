@@ -21,6 +21,8 @@ SVar:DBDiscard:DB$ Discard | Defined$ You | Mode$ TgtChoose | NumCards$ 1
 A:AB$ Token | Cost$ 2 T | TokenAmount$ 1 | TokenOwner$ You | TokenScript$ c_a_lumina | SpellDescription$ Create a Lumina token.
 A:AB$ PutCounter | Cost$ 3 T | ValidTgts$ Creature | CounterType$ P1P1 | CounterNum$ 1 | SpellDescription$ Put a +1/+1 counter on target creature.
 A:AB$ PutCounter | Cost$ 4 T | ValidTgts$ Creature | CounterType$ SHIELD | CounterNum$ 1 | SpellDescription$ Put a shield counter on target creature.
+[RelatedTokens]
+c_a_lumina
 [DesignNotes]
  - In the game, Grandis Merchants reside in Monoco's Station and offers various items for sale.
  - Provides a suite of various items and buffs (for sale) if you have the mana to spend.

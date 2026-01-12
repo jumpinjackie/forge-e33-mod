@@ -62,6 +62,8 @@ SVar:DBGainLife:DB$ GainLife | LifeAmount$ X
 A:AB$ ChangeZone | Cost$ SubCounter<3/LOYALTY> | Planeswalker$ True | ValidTgts$ Permanent.nonLand | TgtPrompt$ Select target nonland permanent | Origin$ Battlefield | Destination$ Exile | SpellDescription$ Exile target nonland permanent.
 A:AB$ PumpAll | Cost$ SubCounter<8/LOYALTY> | Planeswalker$ True | Ultimate$ True | ValidCards$ Creature.YouCtrl | NumAtt$ +X | NumDef$ +X | SpellDescription$ Creatures you control gain +X/+X until end of turn, where X is the number of Chromas you control.
 SVar:X:Count$Valid Chroma.YouCtrl
+[RelatedTokens]
+c_a_chroma
 [Bugs]
  - On death, the commander AI never wants to take the transform to planeswalker option, always opting to send it back to the command zone.
 [DesignNotes]

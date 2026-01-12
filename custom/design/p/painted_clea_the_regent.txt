@@ -30,6 +30,8 @@ T:Mode$ Phase | Phase$ Upkeep | ValidPlayer$ You | TriggerZones$ Battlefield | E
 SVar:TrigToken:DB$ Token | TokenAmount$ 1 | TokenScript$ c_1_1_nevron | TokenOwner$ You
 A:AB$ Draw | Cost$ Sac<1/Nevron> | NumCards$ 1 | SpellDescription$ Draw a card
 DeckHints:Type$Nevron
+[RelatedTokens]
+c_1_1_nevron
 [DesignNotes]
  - In the game, Painted Clea was painted by Aline, but was then repainted over by the real Clea and re-purposed to be what amounts to an endless "Nevron factory"
  - Mechanically, Painted Clea is our Nevorn lord, so I've gone with an assortment of "build around" abilities.

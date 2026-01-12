@@ -17,6 +17,9 @@ A:AB$ Charm | Cost$ 1 T Sac<1/CARDNAME> Sac<X/Permanent.token> | Choices$ DBChro
 SVar:DBChroma:DB$ Token | TokenAmount$ X | TokenOwner$ You | TokenScript$ c_a_chroma | SpellDescription$ Create X Chroma tokens, where X is the number of sacrificed permanents.
 SVar:DBLumina:DB$ Token | TokenAmount$ X | TokenOwner$ You | TokenScript$ c_a_lumina | SpellDescription$ Create X Lumina tokens, where X is the number of sacrificed permanents.
 SVar:X:Count$xPaid
+[RelatedTokens]
+c_a_chroma
+c_a_lumina
 [DesignNotes]
  - In the game, recoats are tints that let you respec your character attributes.
  - I've interpreted this as an artifact that let's you convert/respec tokens into Chroma or Lumina tokens.

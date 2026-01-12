@@ -25,6 +25,9 @@ SVar:TrigCreateTokens:DB$ Token | TokenScript$ a_1_1_gestral | TokenOwner$ You |
 A:AB$ PutCounter | Cost$ 2 | ValidTgts$ Card.Gestral+YouCtrl | TgtPrompt$ Select target Gestral you control | CounterType$ SHIELD | CounterNum$ 1 | SpellDescription$ Put a shield counter on target Gestral you control.
 T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Creature.Gestral+YouCtrl+Other+!token | TriggerZones$ Battlefield | Execute$ TrigChroma | TriggerDescription$ Whenever another nontoken Gestral creature you control enters, create a Chroma token.
 SVar:TrigChroma:DB$ Token | TokenScript$ c_a_chroma | TokenOwner$ You | TokenAmount$ 1
+[RelatedTokens]
+a_1_1_gestral
+c_a_chroma
 [DesignNotes]
  - This is the Gestral (Siege-Gang Commander / Deranged Hermit)
  - Should have one more ability at least. Further abilities TBD.

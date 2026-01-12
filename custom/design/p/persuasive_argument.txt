@@ -23,6 +23,8 @@ Monoco: Count me in then.
 [ForgeScript]
 A:SP$ GainControl | ValidTgts$ Creature | TgtPrompt$ Select target creature | LoseControl$ EOT | Untap$ True | AddKWs$ Haste | SubAbility$ DBChroma | SpellDescription$ Gain control of target creature until end of turn. Untap that creature. It gains haste until end of turn.
 SVar:DBChroma:DB$ Token | TokenAmount$ 1 | TokenOwner$ You | TokenScript$ c_a_lumina
+[RelatedTokens]
+c_a_lumina
 [DesignNotes]
  - In the game, Verso makes a persuasive argument that convinces Monoco to join the party.
  - The card design is completely based on this conversation, and the easiest thing that comes to mind is a standard red temp creature spell.

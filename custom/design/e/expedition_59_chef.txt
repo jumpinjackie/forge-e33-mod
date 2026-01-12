@@ -26,6 +26,9 @@ SVar:TrigFood:DB$ Token | TokenScript$ c_a_food_sac | TokenOwner$ You | TokenAmo
 A:AB$ DealDamage | Cost$ 1 Sac<1/Food> | ValidTgts$ Creature.nonNevron | TgtPrompt$ Select target creature | DamageSource$ Targeted | NumDmg$ 3 | SpellDescription$ Target creature deals 3 damage to itself.
 T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Card.Self | Execute$ TrigToken | TriggerDescription$ When CARDNAME dies, create a Chroma token
 SVar:TrigToken:DB$ Token | TokenScript$ c_a_chroma | TokenOwner$ You | TokenAmount$ 1
+[RelatedTokens]
+c_a_chroma
+c_a_food_sac
 [DesignNotes]
  - In the game, Expedition 59 attempted to eat dead Nevrons for sustenance.
  - This card represents the genius who suggested such an idea.

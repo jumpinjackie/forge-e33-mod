@@ -27,6 +27,8 @@ T:Mode$ Attacks | ValidCard$ Card.Self | Execute$ TrigSurveil | TriggerZones$ Ba
 SVar:TrigSurveil:DB$ Surveil | Amount$ 1
 T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Card.Self | Execute$ TrigToken | TriggerDescription$ When CARDNAME dies, create a Chroma token
 SVar:TrigToken:DB$ Token | TokenScript$ c_a_chroma | TokenOwner$ You | TokenAmount$ 1
+[RelatedTokens]
+c_a_chroma
 [DesignNotes]
  - In the game, Expedition 69 were responsible for most of the grappling points installed throughout the continent. Obviously then, members of this expeditions have a strong exploration theme.
  - For this card, I've gone with a land ramp effect with a surveil attack trigger to sell the Surveyor > Surveiling.

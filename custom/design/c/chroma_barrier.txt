@@ -20,6 +20,8 @@ This looks similar to Lumière's shield dome. Maybe we can just cross it.
 [ForgeScript]
 S:Mode$ CantAttackUnless | ValidCard$ Creature | Target$ You | Cost$ Sac<1/Chroma> | Description$ Creatures cannot attack you unless their controller sacrifices a Chroma token for each creature they control that's attacking you.
 A:AB$ Token | Cost$ 3 | Activator$ Player | TokenAmount$ 1 | TokenScript$ c_a_chroma | TokenOwner$ You | SpellDescription$ Create a Chroma tokens.
+[RelatedTokens]
+c_a_lumina
 [DesignNotes]
  - In the game, the Chroma Barrier protects The Monolith from external intrusion. Only Expedition 70, 60 and 33 have successfully breached this barrier.
  - I've mechanically mapped this to a Ghostly Prison style effect, but the attacking tax is Chroma counters.

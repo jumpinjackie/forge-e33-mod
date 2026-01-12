@@ -31,6 +31,8 @@ SVar:TokenReplace:DB$ Token | TokenAmount$ 1 | TokenOwner$ You | TokenScript$ c_
 A:AB$ Mana | Cost$ Sac<1/Lumina> | Produced$ Any | SpellDescription$ Add one mana of any color.
 A:AB$ Mana | Cost$ Sac<1/Nevron> | Produced$ Any | Amount$ 2 | SpellDescription$ Add two mana of any color.
 A:AB$ ChangeZone | Cost$ 2 BG T | Origin$ Graveyard | Destination$ Hand | ValidTgts$ Permanent.YouOwn | TgtPrompt$ Select target permanent card in your graveyard | SpellDescription$ Return target permanent card from your graveyard to your hand.
+[RelatedTokens]
+c_a_lumina
 [DesignNotes]
  - In the game, Scavenger is a boss in the Falling Leaves.
  - We are deviating from any thematic mapping and 100% leaning in solely on the name to provide an all-round value engine for Nevrons.

@@ -30,6 +30,9 @@ SVar:DBDraw:DB$ Draw | NumCards$ X | SubAbility$ DBDiscard | SpellDescription$ D
 SVar:DBDiscard:DB$ Discard | Defined$ You | NumCards$ 3 | Mode$ TgtChoose | SpellDescription$ Discard three cards.
 SVar:X:Count$Domain
 SVar:Y:Count$Domain/Times.2
+[RelatedTokens]
+c_a_lumina
+c_a_chroma
 [DesignNotes]
  - In the game, when your main party dies in battle, you have an option to send in the reserve team. If you do, the game acknowledges your reserve team as "The Last Stand of Expedition 33"
  - Gone with a variant of Last Stand, but based the bonuses on domain count.
