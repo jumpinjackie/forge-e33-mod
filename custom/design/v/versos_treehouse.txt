@@ -18,6 +18,8 @@ T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.S
 SVar:TrigToken:DB$ Token | TokenAmount$ 1 | TokenOwner$ You | TokenScript$ c_a_lumina
 A:AB$ Mana | Cost$ T | Produced$ G | SpellDescription$ Add {G}.
 A:AB$ Pump | Cost$ G T | ValidTgts$ Creature.YouCtrl | TgtPrompt$ Select target creature you control. | KW$ Reach | SpellDescription$ Target creature you control gains reach until end of turn.
+[RelatedTokens]
+c_a_lumina
 [DesignNotes]
  - In the game, Verso's Treehouse can be found in Verso's Drafts.
  - Clearly a land that taps for green mana. Because it's perched on a tree, it clearly can grant another creature reach.

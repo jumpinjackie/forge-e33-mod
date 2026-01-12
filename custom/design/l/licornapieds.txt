@@ -32,6 +32,8 @@ T:Mode$ Phase | Phase$ End of Turn | TriggerZones$ Battlefield | Execute$ DBRemo
 A:AB$ PutCounter | Cost$ U | CounterType$ Flying | CounterNum$ 1 | SpellDescription$ Put a flying counter on Dominique.
 A:AB$ DealDamage | Cost$ 4 R T SubCounter<1/Flying> | ValidTgts$ Creature | TgtPrompt$ Select target creature | NumDmg$ 4 | SpellDescription$ CARDNAME deals 4 damage to target creature.
 SVar:DBRemoveAllFlying:DB$ RemoveCounter | Defined$ Self | CounterType$ Flying | CounterNum$ All
+[RelatedTokens]
+u_barbapapa
 [DesignNotes]
  - In the game, Licornapieds is an optional boss in Verso's Drafts. They have the appearance of a Licorne fused wtih a Machinepieds.
  - The ability suite is very similar to that of Dominique Giant Feet, so has the same abilities but with adjusted costs plus a Barbapapa debuff ETB + Trample + Double Strike

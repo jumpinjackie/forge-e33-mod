@@ -17,6 +17,8 @@ Verso's Toy Chest enters with three toy counters on it.
 K:etbCounter:TOY:3
 A:AB$ Token | Cost$ 1 T SubCounter<1/TOY> | TokenAmount$ 1 | TokenOwner$ You | TokenScript$ a_1_1_toy | SpellDescription$ Create a 1/1 colorless Toy artifact creature token.
 A:AB$ PutCounter | Cost$ 1 Sac<1/Toy> | CounterType$ TOY | CounterNum$ 1 | SpellDescription$ Put a toy counter on Verso's Toy Chest.
+[RelatedTokens]
+a_1_1_toy
 [DesignNotes]
  - In the game a Toy Chest can be found in Verso's Treehouse in Verso's Drafts.
  - This card depicts this artifact.
