@@ -10,7 +10,9 @@ C
 [Oracle]
 Equipped creature is an Expeditioner in addition to its other types.
 As long as equipped creature is a Human, it gets +1/+1.
-Whenever equipped creature attacks, it explores.
+Whenever equipped creature attacks, choose one —
+• It explores.
+• Create a Lumina token.
 Equip {1}
 [FlavorText]
 Sophie: This too is your legacy.
@@ -19,8 +21,9 @@ Gustave: In a way, it’s yours too.
 K:Equip:1
 S:Mode$ Continuous | Affected$ Creature.EquippedBy | AddType$ Expeditioner | Description$ Equipped creature is an Expeditioner in addition to its other types.
 S:Mode$ Continuous | Affected$ Human.EquippedBy | AddPower$ 1 | AddToughness$ 1 | Description$ As long as equipped creature is a Human, it gets +1/+1.
-T:Mode$ Attacks | ValidCard$ Card.AttachedBy | Execute$ TrigExplore | TriggerDescription$ Whenever equipped creature attacks, it explores. (Reveal the top card of your library. Put that card into your hand if it's a land. Otherwise, put a +1/+1 counter on this creature, then put the card back on top or into your graveyard.)
-SVar:TrigExplore:DB$ Explore
+T:Mode$ Attacks | ValidCard$ Card.AttachedBy | Execute$ TrigToken | TriggerDescription$ Whenever equipped creature attacks, create a Lumina token.
+SVar:TrigToken:DB$ Token | TokenAmount$ 1 | TokenOwner$ You | TokenScript$ c_a_lumina | SpellDescription$ Create a Lumina token.
 [DesignNotes]
  - In the game's prologue, Sophie hands Gustave an Expeditioner uniform she made. She wants to see him wearing the uniform before the Gommage.
  - Gone with an equipment that applies type-changing and mild buffs if the wearer is a human. Also has an explore attack trigger, to go with the expedition/exploration theme.
+ - 14/01/2026: Changed attack trigger to create a Lumina token.
