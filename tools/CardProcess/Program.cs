@@ -398,7 +398,7 @@ public class CardFaceDesign
             else
             {
                 if (ht.Contains("Aura"))
-                    thisName = "this aura";
+                    thisName = "this Aura";
                 else
                     thisName = "this enchantment";
             }

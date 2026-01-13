@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 13/1/2026 5:50:59 pm
+> Last generated: 13/1/2026 6:28:41 pm
 
 ## A Rock for François
 
@@ -510,9 +510,7 @@ Artifact - Clue
 Artifact - Equipment
 Equipped creature is an Expeditioner in addition to its other types.
 As long as equipped creature is a Human, it gets +1/+1.
-Whenever equipped creature attacks, choose one —
-• It explores.
-• Create a Lumina token.
+Whenever equipped creature attacks, create a Lumina token.
 Equip {1}
 ---
 Sophie: This too is your legacy.

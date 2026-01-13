@@ -15,7 +15,7 @@ Sandfall Interactive
 Tap target creature and put a stun counter on it.
 If {R} was spent on this spell, it deals 3 damage to any target.
 If {G} was spent on this spell, you gain 3 life.
-Create a Lumina token.
+Create a Lumina token. $LUMINA_REMINDER_TEXT
 [ForgeScript]
 A:SP$ Tap | ValidTgts$ Creature | TgtPrompt$ Select target creature to tap | SubAbility$ DBPutCounter | SpellDescription$ Tap target creature. Put a stun counter on it.
 SVar:DBPutCounter:DB$ PutCounter | Defined$ Targeted | CounterType$ Stun | CounterNum$ 1 | SubAbility$ DBFire

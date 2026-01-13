@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 12/1/2026 1:23:33 pm
+> Last generated: 13/1/2026 6:28:41 pm
 
 ## Anger
 
@@ -365,7 +365,7 @@ Kindred Enchantment - Expeditioner Aura
 Enchant Creature
 Flash
 If a source would deal damage to enchanted creature, it deals double that damage to that creature instead.
-When this aura is put into a graveyard from the battlefield, return it to its owner's hand.
+When this Aura is put into a graveyard from the battlefield, return it to its owner's hand.
 ```
 
 [card implementation](../custom/cards/m/marked.txt)

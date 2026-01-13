@@ -6,4 +6,4 @@ SVar:DBPutCounter:DB$ PutCounter | Defined$ Targeted | CounterType$ Stun | Count
 SVar:DBFire:DB$ DealDamage | ValidTgts$ Any | TgtPrompt$ Select target to deal 3 damage to. | NumDmg$ 3 | ConditionManaSpent$ R | SubAbility$ DBLifeGain | SpellDescription$ If {R} was spent on this spell, CARDNAME deals 3 damage to any target.
 SVar:DBLifeGain:DB$ GainLife | LifeAmount$ 3 | SpellDescription$ If {G} was spent on this spell, you gain 3 life. | ConditionManaSpent$ G | SubAbility$ DBToken
 SVar:DBToken:DB$ Token | TokenAmount$ 1 | TokenOwner$ You | TokenScript$ c_a_lumina | SpellDescription$ Create a Lumina token.
-Oracle:Tap target creature and put a stun counter on it.\nIf {R} was spent on this spell, it deals 3 damage to any target.\nIf {G} was spent on this spell, you gain 3 life.\nCreate a Lumina token.
+Oracle:Tap target creature and put a stun counter on it.\nIf {R} was spent on this spell, it deals 3 damage to any target.\nIf {G} was spent on this spell, you gain 3 life.\nCreate a Lumina token. (It's an artifact with "{T}, Sacrifice this artifact: Scry 1.")

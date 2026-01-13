@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 13/1/2026 4:57:14 pm
+> Last generated: 13/1/2026 6:28:41 pm
 
 ## An Advantage!
 
@@ -84,10 +84,10 @@ The chains of Grief can be hard to break for some.
 U
 Enchantment - Aura
 Enchant Creature.
-When this aura enters, create a Lumina token.
+When this Aura enters, create a Lumina token.
 Whenever enchanted creature deals damage to an opponent, choose one —
-• Return up to one target creature to its owner's hand
-• Tap up to one target creature and put a stun counter on it
+• Return up to one target creature to its owner's hand.
+• Tap up to one target creature and put a stun counter on it.
 ```
 
 [card implementation](../custom/cards/b/breaking_moment.txt)
@@ -679,7 +679,7 @@ Kindred Instant - Expeditioner
 Tap target creature and put a stun counter on it.
 If {R} was spent on this spell, it deals 3 damage to any target.
 If {G} was spent on this spell, you gain 3 life.
-Create a Lumina token.
+Create a Lumina token. (It's an artifact with "{T}, Sacrifice this artifact: Scry 1.")
 ```
 
 [card implementation](../custom/cards/t/thermal_transfer.txt)

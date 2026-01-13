@@ -15,8 +15,8 @@ A member of Expedition 33 performs an attack that puts the enemy Nevron into a s
 Enchant Creature.
 When ~ enters, create a Lumina token.
 Whenever enchanted creature deals damage to an opponent, choose one —
-• Return up to one target creature to its owner's hand
-• Tap up to one target creature and put a stun counter on it
+• Return up to one target creature to its owner's hand.
+• Tap up to one target creature and put a stun counter on it.
 [ForgeScript]
 K:Enchant:Creature
 SVar:AttachAILogic:Curiosity
