@@ -1,13 +1,13 @@
 # Cards
 
-> Last generated: 10/1/2026 5:43:59 pm
+> Last generated: 13/1/2026 2:07:31 pm
 
 ## A Rock for François
 
 ```
 1
 Artifact - Rock
-{1}, {T}, Sacrifice this artifact: Search your library for a Rock card and put it into your hand.
+{2}, {T}, Sacrifice this artifact: Search your library for a Rock card and put it into your hand.
 {1}, Sacrifice this artifact: Draw a card.
 ---
 Verso: We’ll trade you. Urrie for this, uh... lovely portrait of you.
@@ -22,6 +22,7 @@ Esquie: I think we captured your essence beautifully.
  - In the game, Esquie carves a rock of François and Clea to trade for Urrie, which gives him the ability to dive.
  - Another tutor piece to help assist in assembling the rock "Urzatron"
  - Not legendary like the quartet because it's just an ordinary rock.
+ - 14/01/2026: Increased rock tutor activation cost from [1, T, Sac] to [2, T, Sac]
 
 ## Alicenisa, Gestral Siren
 
@@ -301,9 +302,8 @@ One family, united by passion for art, divided by grief.
 Legendary Artifact Creature - Gestral
 Trample
 {2}: Put a flying counter on Dominique Giant Feet.
-Two-handed slam — {2}, {T}, Remove a flying counter from Dominique Giant Feet: Dominique Giant Feet deals 4 damage to target creature.
+Two-handed slam — {4}, {T}, Remove a flying counter from Dominique Giant Feet: Dominique Giant Feet deals 4 damage to target creature.
 At the beginning of each end step, remove all flying counters on Dominique Giant Feet.
-
 
 4/4
 ```
@@ -316,6 +316,7 @@ At the beginning of each end step, remove all flying counters on Dominique Giant
  - With the two-handed slam ability Dominique leaps into the air and slams the opponent. I've mechanically translated this to giving Dominique an ability to add a flying counter (the jump) and another ability to deal the damage at the cost of some mana and removing a flying counter (the slam).
  - The end step removing all flying counters trigger is insurance against "banking" excess flying counters.
  - We use flying counters as opposed to temporarily granting the flying keyword as flying counters are logistically simpler to manage.
+ - 14/01/2026: Increased slam ability from {2} to {4}
 
 ## Dorrie
 

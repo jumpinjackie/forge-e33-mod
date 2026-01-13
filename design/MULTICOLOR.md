@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 10/1/2026 7:34:22 pm
+> Last generated: 13/1/2026 2:07:31 pm
 
 ## A Storm is Coming
 
@@ -443,8 +443,8 @@ For the sake of the living, we must part with the dead.
 Creature - Nevron
 Lifelink.
 Impales its target — When this creature enters, choose one —
-• Destroy target creature with mana value 3 or less.
-• Tap target creature and put a stun counter on it.
+• Destroy up to one target creature with mana value 3 or less.
+• Tap up to one target creature and put a stun counter on it.
 When this creature dies, target opponent creates a Lumina token. (It's an artifact with "{T}, Sacrifice this artifact: Scry 1.")
 
 3/3
@@ -457,6 +457,7 @@ When this creature dies, target opponent creates a Lumina token. (It's an artifa
  - In the game, Contortionniste is a mid/late game Nevron
  - Mapped "Absorbs health" to lifelink
  - Mapped "Impales its target" to creature kill or tap-and-stun.
+ - 14/01/2026: Added "up to one" targeting clauses
 
 ## Danseuse
 
@@ -793,7 +794,7 @@ Enchantment - Saga
 (As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
 I — Destroy target Nevron. Create a Food token.
 II — Create 2 Food tokens.
-III — Until end of turn, Food tokens you control gain "{1}, Sacrifice this artifact: Target creature deals 3 damage to itself"
+III — Until end of turn, Food tokens you control gain "{2}, Sacrifice this artifact: Target creature deals 3 damage to itself"
 ```
 
 [card implementation](../custom/cards/e/expedition_59.txt)
@@ -803,6 +804,7 @@ III — Until end of turn, Food tokens you control gain "{1}, Sacrifice this art
  - Journal is a story of Expeditioners making the fatal mistake of eating dead nevrons for sustenance
  - "Food poisoning" ability adapted from Asmoranomardicadaistinaculdacar's ability
  - 1/1/2026: Make the food poisoning ability cost {1} and sac.
+ - 14/01/2026: Increased food poisioning activation from {1} to {2}
 
 ## Expedition 59 Chef
 
@@ -810,7 +812,7 @@ III — Until end of turn, Food tokens you control gain "{1}, Sacrifice this art
 1(B/G)
 Creature - Human Expeditioner
 Whenever a Nevron creature dies, create a Food token.
-{1}, Sacrifice a Food token: Target non-Nevron creature deals 3 damage to itself.
+{2}, Sacrifice a Food token: Target non-Nevron creature deals 3 damage to itself.
 When this creature dies, create a Chroma token.
 ---
 I can't believe she convinced everyone to eat the Nevron. They've been puking for the past few hours. Great.
@@ -828,6 +830,7 @@ I can't believe she convinced everyone to eat the Nevron. They've been puking fo
  - Has strong mechanical similarity to Asmoranomardicadaistinaculdacar so has the same "food poisoning" ability.
  - 5/10/2025: Reduced cost from 2(B/G) to 1(B/G)
  - 1/1/2026: Made food poisioning cost {1} and sac and make it targeting non-Nevron creatures to avoid this being able to machine gun an entire board of low-tier Nevrons.
+ - 14/01/2026: Increased food poisioning activation from {1} to {2}
 
 ## Expedition 60
 

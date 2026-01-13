@@ -16,8 +16,8 @@ Sandfall Interactive
 [Oracle]
 Lifelink.
 Impales its target — When ~ enters, choose one —
-• Destroy target creature with mana value 3 or less.
-• Tap target creature and put a stun counter on it.
+• Destroy up to one target creature with mana value 3 or less.
+• Tap up to one target creature and put a stun counter on it.
 $NEVRON_DEATH_ABILITY_TEXT
 [AbilityWords]
 Impales its target
@@ -25,11 +25,12 @@ Impales its target
 K:Lifelink
 T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigCharm | TriggerDescription$ When ~ enters, ABILITY
 SVar:TrigCharm:DB$ Charm | Choices$ DBDestroy,DBTapAndStun
-SVar:DBDestroy:DB$ Destroy | ValidTgts$ Creature.cmcLE3 | TgtPrompt$ Select target creature with mana value 3 or less | SpellDescription$ Destroy target creature with mana value 3 or less.
-SVar:DBTapAndStun:DB$ Tap | TgtPrompt$ Choose target creature | ValidTgts$ Creature | SubAbility$ DBCounter | SpellDescription$ Tap target creature and put a stun counter on it.
+SVar:DBDestroy:DB$ Destroy | ValidTgts$ Creature.cmcLE3 | TgtPrompt$ Select target creature with mana value 3 or less | TargetMin$ 0 | TargetMax$ 1 | SpellDescription$ Destroy up to one target creature with mana value 3 or less.
+SVar:DBTapAndStun:DB$ Tap | TgtPrompt$ Choose target creature | ValidTgts$ Creature | SubAbility$ DBCounter | TargetMin$ 0 | TargetMax$ 1 | SpellDescription$ Tap up to one target creature and put a stun counter on it.
 SVar:DBCounter:DB$ PutCounter | Defined$ Targeted | CounterType$ Stun | CounterNum$ 1
 $NEVRON_DEATH_ABILITY
 [DesignNotes]
  - In the game, Contortionniste is a mid/late game Nevron
  - Mapped "Absorbs health" to lifelink
  - Mapped "Impales its target" to creature kill or tap-and-stun.
+ - 14/01/2026: Added "up to one" targeting clauses

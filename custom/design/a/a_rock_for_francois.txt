@@ -10,7 +10,7 @@ Rock
 [Rarity]
 C
 [Oracle]
-{1}, {T}, Sacrifice this artifact: Search your library for a Rock card and put it into your hand.
+{2}, {T}, Sacrifice this artifact: Search your library for a Rock card and put it into your hand.
 {1}, Sacrifice this artifact: Draw a card.
 [FlavorText]
 Verso: We’ll trade you. Urrie for this, uh... lovely portrait of you.
@@ -19,9 +19,10 @@ Esquie: I think we captured your essence beautifully.
 [Artist]
 Sandfall Interactive
 [ForgeScript]
-A:AB$ ChangeZone | Cost$ 1 T Sac<1/CARDNAME> | Origin$ Library | Destination$ Hand | ChangeType$ Rock | ChangeNum$ 1 | SpellDescription$ Search your library for a rock card and put it into your hand.
+A:AB$ ChangeZone | Cost$ 2 T Sac<1/CARDNAME> | Origin$ Library | Destination$ Hand | ChangeType$ Rock | ChangeNum$ 1 | SpellDescription$ Search your library for a rock card and put it into your hand.
 A:AB$ Draw | Cost$ 1 Sac<1/CARDNAME> | NumCards$ 1 | SpellDescription$ Draw a card.
 [DesignNotes]
  - In the game, Esquie carves a rock of François and Clea to trade for Urrie, which gives him the ability to dive.
  - Another tutor piece to help assist in assembling the rock "Urzatron"
  - Not legendary like the quartet because it's just an ordinary rock.
+ - 14/01/2026: Increased rock tutor activation cost from [1, T, Sac] to [2, T, Sac]

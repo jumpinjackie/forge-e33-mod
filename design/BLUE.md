@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 10/1/2026 7:40:23 pm
+> Last generated: 13/1/2026 2:07:31 pm
 
 ## An Advantage!
 
@@ -671,7 +671,7 @@ Enchantment - Saga
 (As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
 I — Search your library for a rock card, put it onto the battlefield, then shuffle.
 II — Scry 3.
-III — Draw cards equal to the number of rock permanents you control.
+III — Draw cards equal to the number of legendary rock permanents you control.
 ```
 
 [card implementation](../custom/cards/t/the_search_for_esquies_rocks.txt)
@@ -680,6 +680,7 @@ III — Draw cards equal to the number of rock permanents you control.
 
  - In the game, you need to find a series of rocks for Esquie to unlock extra abilities to be able to traverse various parts of the overworld.
  - This is basically our "rock tutor" to enable our rock "Urzatron" strategy.
+ - 14/01/2026: Made Chapter 3 count legendary rock permanents as it draws a bit too many cards easily with a A Rock for Francois
 
 ## Thermal Transfer
 

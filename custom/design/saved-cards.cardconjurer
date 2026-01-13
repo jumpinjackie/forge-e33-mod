@@ -261,7 +261,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "{1}, {T}, Sacrifice this artifact: Search your library for a Rock card and put it into your hand.\n{1}, Sacrifice this artifact: Draw a card.{flavor}Verso: We’ll trade you. Urrie for this, uh... lovely portrait of you.\nFrançois: Is that s’posed to be ME?!\nEsquie: I think we captured your essence beautifully.",
+                    "text": "{2}, {T}, Sacrifice this artifact: Search your library for a Rock card and put it into your hand.\n{1}, Sacrifice this artifact: Draw a card.{flavor}Verso: We’ll trade you. Urrie for this, uh... lovely portrait of you.\nFrançois: Is that s’posed to be ME?!\nEsquie: I think we captured your essence beautifully.",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
@@ -2355,7 +2355,7 @@
             "text": {
                 "mana": {
                     "name": "Mana Cost",
-                    "text": "2 W W",
+                    "text": "2 W",
                     "y": 0.06254442075337598,
                     "width": 0.9273631840796019,
                     "height": 0.03380952380952381,
@@ -2392,7 +2392,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "This creature enters with a shield counter on it.\nAny damage dealt to you is dealt to this creature instead.\n{2}{W}, {T}: Put a shield counter on this creature.{flavor}I’m FINE. I’ve lived 33 good years. Look around. We’ve had our whole lives to prepare. We’ll be fine.\n- Sophie",
+                    "text": "This creature enters with a shield counter on it.\nAny damage dealt to you is dealt to this creature instead.\n{4}{W}, {T}: Put a shield counter on this creature.{flavor}I’m FINE. I’ve lived 33 good years. Look around. We’ve had our whole lives to prepare. We’ll be fine.\n- Sophie",
                     "x": 0.086,
                     "y": 0.6325515280739161,
                     "width": 0.828,
@@ -26098,7 +26098,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Lifelink.\n{i}Impales its target{/i} — When this creature enters, choose one —\n• Destroy target creature with mana value 3 or less.\n• Tap target creature and put a stun counter on it.\nWhen this creature dies, target opponent creates a Lumina token. (It’s an artifact with “{T}, Sacrifice this artifact: Scry 1.”)",
+                    "text": "Lifelink.\n{i}Impales its target{/i} — When this creature enters, choose one —\n• Destroy up to one target creature with mana value 3 or less.\n• Tap up to one target creature and put a stun counter on it.\nWhen this creature dies, target opponent creates a Lumina token. (It’s an artifact with “{T}, Sacrifice this artifact: Scry 1.”)",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
@@ -33340,11 +33340,11 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Trample\n{2}: Put a flying counter on Dominique Giant Feet.\n{i}Two-handed slam{/i} — {2}, {T}, Remove a flying counter from Dominique Giant Feet: Dominique Giant Feet deals 4 damage to target creature.\nAt the beginning of each end step, remove all flying counters on Dominique Giant Feet.\n",
+                    "text": "Trample\n{2}: Put a flying counter on Dominique Giant Feet.\n{i}Two-handed slam{/i} — {4}, {T}, Remove a flying counter from Dominique Giant Feet: Dominique Giant Feet deals 4 damage to target creature.\nAt the beginning of each end step, remove all flying counters on Dominique Giant Feet.",
                     "x": 0.086,
                     "y": 0.6325515280739161,
-                    "width": 0.828,
-                    "height": 0.2875,
+                    "width": 0.8293532338308458,
+                    "height": 0.26652452025586354,
                     "size": 0.0362
                 },
                 "pt": {
@@ -44957,32 +44957,32 @@
                     "x": 0.1334,
                     "y": 0.2896,
                     "width": 0.35,
-                    "height": 0.1553,
+                    "height": 0.1532,
                     "size": 0.0305
                 },
                 "ability1": {
                     "name": "Ability 2",
                     "text": "Create two Food tokens.",
                     "x": 0.1334,
-                    "y": 0.4449,
+                    "y": 0.4428,
                     "width": 0.35,
-                    "height": 0.1247,
+                    "height": 0.1233,
                     "size": 0.0305
                 },
                 "ability2": {
                     "name": "Ability 3",
-                    "text": "Until end of turn, Food tokens you control gain “{1}, Sacrifice this artifact: Target creature deals 3 damage to itself”",
+                    "text": "Until end of turn, Food tokens you control gain “{2}, Sacrifice this artifact: Target creature deals 3 damage to itself”",
                     "x": 0.1334,
-                    "y": 0.5696,
+                    "y": 0.5661,
                     "width": 0.35,
-                    "height": 0.2783,
+                    "height": 0.2818,
                     "size": 0.0305
                 },
                 "ability3": {
                     "name": "Ability 4",
                     "text": "",
                     "x": 0.1334,
-                    "y": 0.8479,
+                    "y": 0.8479000000000001,
                     "width": 0.35,
                     "height": 0,
                     "size": 0.0305
@@ -45335,7 +45335,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Whenever a Nevron creature dies, create a Food token.\n{1}, Sacrifice a Food token: Target non-Nevron creature deals 3 damage to itself.\nWhen this creature dies, create a Chroma token.{flavor}I can’t believe she convinced everyone to eat the Nevron. They’ve been puking for the past few hours. Great.\n- Julien, Expedition 59",
+                    "text": "Whenever a Nevron creature dies, create a Food token.\n{2}, Sacrifice a Food token: Target non-Nevron creature deals 3 damage to itself.\nWhen this creature dies, create a Chroma token.{flavor}I can’t believe she convinced everyone to eat the Nevron. They’ve been puking for the past few hours. Great.\n- Julien, Expedition 59",
                     "x": 0.086,
                     "y": 0.6325515280739161,
                     "width": 0.828,
@@ -134881,7 +134881,7 @@
                 },
                 "ability2": {
                     "name": "Ability 3",
-                    "text": "Draw cards equal to the number of rock permanents you control.",
+                    "text": "Draw cards equal to the number of legendary rock permanents you control.",
                     "x": 0.1334,
                     "y": 0.6371,
                     "width": 0.35,
