@@ -1,5 +1,5 @@
 Name:Clea Unleashed
-ManaCost:5 U B
+ManaCost:4 U B
 Types:Legendary Creature Painter God
 PT:4/5
 K:Hexproof
