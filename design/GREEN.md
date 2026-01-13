@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 10/1/2026 7:34:22 pm
+> Last generated: 13/1/2026 3:47:52 pm
 
 ## Abbest
 
@@ -30,14 +30,6 @@ When this creature dies, target opponent creates a Lumina token. (It's an artifa
 
  - Thematically on-point reprint. Dawn signifying tomorrow. Tomorrow comes.
 
-## Band Together
-
-> This card is a reprint
-[Scryfall](https://scryfall.com/search?q=Band Together)
-### Notes
-
- - Flavorful (based on art) [removal / combat trick] reprint
-
 ## Bargaining
 
 ```
@@ -60,6 +52,24 @@ Maelle: I just- I just wanted to live this lifetime together. This lifetime that
  - Bargaining is the third stage. On name-basis alone you would think this is easily a black creature with "life for cards" motif, but it is actually green because this is the color that has the hardest time thematically associating to any of the 5 stages. Bargaining has some thematic leeway with green if you try to view it through a "Greater Good" kind of lens and thus I went with a creature variation of Greater Good.
  - 17/11/2025: Changed PT from 4/4 to 4/5
  - 21/11/2025: Added nonland clause to avoid being able to sac The Reacher for +5 net CA without any mana investment first.
+
+## Cache Discovery
+
+```
+G
+Kindred Sorcery - Expeditioner
+Create a Chroma token and a Lumina token.
+Splice onto Expeditioner Instant or Sorcery {G} (As you cast an Expeditioner Instant or Sorcery, you may reveal this card from your hand and pay its splice cost. If you do, add this card's effects to that spell.)
+```
+
+[card implementation](../custom/cards/c/cache_discovery.txt)
+
+### Design Notes
+
+ - A card specifically designed to rapidly build up to the 33 permanent win condition of The Greatest Expedition In History
+ - I am hoping that Forge's rule handling around splice is flexible enough to allow for this to work. Otherwise it's back to the drawing board.
+    - 23/09/2025: It seems to work!
+ - 14/01/2026: Colorshifted to green.
 
 ## Cultivate
 
@@ -263,6 +273,24 @@ It may not be glamorous, but truly essential work rarely is. Doesn’t make it a
 ### Notes
 
  - Easy on-flavor reprint.
+
+## Face Adversity
+
+```
+2G
+Kindred Instant - Expeditioner
+Up to two target creatures you control each deal damage equal to their power to another target creature.
+Create a Lumina token.
+---
+Twice the strength, twice the agility.
+```
+
+[card implementation](../custom/cards/f/face_adversity.txt)
+
+### Design Notes
+
+ - Flavorful (based on art) [removal / combat trick] reprint
+ - 14/01/2026: Renamed from Band Together to Face Adversity so we can tack on a Lumina token bonus.
 
 ## Farseek
 

@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 13/1/2026 2:07:31 pm
+> Last generated: 13/1/2026 6:13:12 pm
 
 ## A Storm is Coming
 
@@ -238,6 +238,7 @@ Kindred Instant - Expeditioner
 Kicker {2}.
 Destroy target artifact or enchantment with mana value 2 lor less.
 If this spell was kicked, destroy that artifact or enchantment if its mana value is 5 or less instead.
+Create a Lumina token.
 ---
 Some rules can be bent, some can be broken.
 ```
@@ -248,6 +249,7 @@ Some rules can be bent, some can be broken.
 
  - In the game, Breaking Rules is one of Maelle's abiliites.
  - For the card, I've disregarded all thematic/mechanical associations and designed the card only based on the name. We need cheap artifact/enchantment hate in this set, and the name fits the bill for what I'm after, so I've turned this to a variant of Overload that can also hit enchantments.
+ - 14/01/2026: Added Lumina token bonus on resolution.
 
 ## Chorale
 
@@ -309,7 +311,7 @@ The expeditioners, the ones killed by Nevrons. Gustave noticed their Chroma rema
 ## Chromatic Rebirth
 
 ```
-2WB
+1WB
 Sorcery - Gradient
 This spell costs {1} less to cast if you control a painter.
 As an additional cost to cast this spell, sacrifice a creature.
@@ -326,6 +328,7 @@ Well. You're about to be reborn in this world as one of Aline's creations. Have 
  - In the game, Alicia enters the Canvas to help Renoir only to be trapped by Aline's chroma and is "reborn" as Maelle.
  - Card depicts this moment.
  - 29/12/2025: Downshift to uncommon
+ - 14/01/2026: Reduced cost from 2WB to 1WB
 
 ## Chromatic Reclamation
 
@@ -1046,7 +1049,7 @@ This is our gift, for all the Expeditions to come.
 ```
 UB
 Kindred Sorcery - Expeditioner
-Destroy target creature. Mill cards equal to that creature's toughness.
+Destroy target creature or planeswalker. Mill cards equal to its mana value.
 Luminous — If you control three or more Lumina tokens, put a card from among those cards into your hand.
 ---
 The cards have spoken!
@@ -1059,6 +1062,7 @@ The cards have spoken!
  - In the game, this is one of Sciel's quotes during battle.
  - Design-wise fully leaned in on the pun and based it around using "your deck" to take out any creature, if you can afford to mill the number of cards required.
  - Mild thematic mismatch as blue is not really part of Sciel's color identity or skillset IMO, but the milling and returning cards to hand from graveyard is in blue's wheelhouse.
+ - 14/01/2025: Allow targeting planeswalkers and mill by targeted's mana value.
 
 ## Gargant
 
@@ -1653,9 +1657,12 @@ When you unlock this door, return target creature card from your graveyard to th
 ## Manor Fire
 
 ```
-2(R/G)
+1RG
 Sorcery
-Destroy all Rooms.
+Choose one —
+• Manor Fire deals 1 damage to each creature.
+• Manor Fire deals 3 damage to each player.
+• Destroy all Rooms.
 Draw a card.
 ---
 You're ok.
@@ -1667,6 +1674,7 @@ You're ok.
 
  - In the game, this is the event that took Verso's life and started Aline's cycle of grief, made Alicia a pariah, started Clea's war against the writers and Renoir's attempts to get Aline out of the canvas, tearing the Dessendre family apart.
  - A basic foil for room strategies with a cantrip so it's not entirely useless when not facing against room strategies.
+ - 14/01/2025: Changed cost from 2(R/G) to 1RG and changed to a modal.
 
 ## Manor Greenhouse // Manor Gallery
 

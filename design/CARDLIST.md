@@ -287,7 +287,7 @@ Cards implemented: 453
 [x] Ono-Puncho
 [x] Ophelie, Lumière Florist
 [x] Orphelin
-[N] Paint Cage
+[x] Paint Cage
 [x] Paint Spike
 [x] Painted Alicia, Eternally Suffering
 [ ] Painted Clea, the Mistress

@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 13/1/2026 2:07:31 pm
+> Last generated: 13/1/2026 4:57:14 pm
 
 ## A Life to Love (Farewell)
 
@@ -60,6 +60,7 @@ Kindred Instant - Expeditioner
 Creatures you control get +0/+2 until end of turn.
 If {R} was spent on this spell, creatures you control gain haste until end of turn.
 If {G} was spent on this spell, creatures you control get +2/+0 until end of turn.
+Create a Lumina token.
 ```
 
 [card implementation](../custom/cards/a/all_set.txt)
@@ -68,6 +69,7 @@ If {G} was spent on this spell, creatures you control get +2/+0 until end of tur
 
  - In the game, All Set is one of Sciel's abilities. It grants Shell, Powerful and Rush to your entire party.
  - Mapped to an instant that grants toughness boost (Shell), with haste (Rush) and power boost (Powerful) if the appropriate colors of mana are spent.
+ - 14/01/2026: Added Lumina token bonus on resolution.
 
 ## Amandine, Fashion Stylist
 

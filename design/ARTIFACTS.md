@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 13/1/2026 2:07:31 pm
+> Last generated: 13/1/2026 5:50:59 pm
 
 ## A Rock for François
 
@@ -441,6 +441,7 @@ This could be useful!
 ```
 3
 Artifact
+When this artifact enters, create a Lumina token.
 Expeditioner creatures you control get +1/+1.
 {T}: Add one mana of any color.
 ---
@@ -454,6 +455,7 @@ Wanna plant it?
 
  - In the game, Expedition flags are save points scattered throughout the continent laid down by previous Expeditions.
  - Gone with an Expeditioner-focused variant of Patchwork Banner.
+ - 14/01/2026: Added Lumina token ETB
 
 ## Expedition Flotilla
 
@@ -508,7 +510,9 @@ Artifact - Clue
 Artifact - Equipment
 Equipped creature is an Expeditioner in addition to its other types.
 As long as equipped creature is a Human, it gets +1/+1.
-Whenever equipped creature attacks, it explores.
+Whenever equipped creature attacks, choose one —
+• It explores.
+• Create a Lumina token.
 Equip {1}
 ---
 Sophie: This too is your legacy.
@@ -521,6 +525,7 @@ Gustave: In a way, it’s yours too.
 
  - In the game's prologue, Sophie hands Gustave an Expeditioner uniform she made. She wants to see him wearing the uniform before the Gommage.
  - Gone with an equipment that applies type-changing and mild buffs if the wearer is a human. Also has an explore attack trigger, to go with the expedition/exploration theme.
+ - 14/01/2026: Changed attack trigger to create a Lumina token.
 
 ## Explorer's Scope
 
@@ -820,8 +825,9 @@ Really? A duel? Do you have a death wish?
 ## Gustave's Journal
 
 ```
-3
+2
 Legendary Artifact
+When Gustave's Journal enters, create a Lumina token.
 Whenever a Nevron dies, put a study counter on Gustave's Journal.
 {2}, {T}, Remove X study counters from Gustave's Journal: Draw X cards.
 ---
@@ -835,6 +841,7 @@ He spends some time writing in his journal. He writes about how dangerous the Ne
  - In the game, whenever at camp Gustave (and later Maelle) writes down their experiences in the expedition thus far. It has been said (and lamented by many gamers) that this should have been represented as an in-game bestiary of all the Nevrons you have encountered.
  - Mechanically, I went with an artifact that charges up with every Nevron kill, that can be cashed in later down the road for extra cards.
  - 28/09/2025: Reduced cost from 4 to 3
+ - 14/01/2026: Reduced cost from 3 to 2 and added Lumina token ETB
 
 ## Healing Tint
 
@@ -996,6 +1003,7 @@ Nothing special to see here, just a trash can.
 ```
 2
 Artifact
+When this artifact enters, create a Lumina token.
 {T}, Remove a counter from a permanent you control: Create a Lumina token.
 {T}, Sacrifice a Chroma token: Create a Lumina token.
 {T}, Sacrifice a Nevron: Create a Lumina token.
@@ -1010,6 +1018,7 @@ Let's see if your invention lives up to its reputation, shall we?
 
  - In the game, the Lumina Converter is a device invented by Gustave that gives Expedition 33 the edge over previous expeditions.
  - Utility artifact to support a Lumina token strategy. Inspired by Power Conduit.
+ - 14/01/2026: Added Lumina token ETB
 
 ## Manor Door
 
@@ -1107,14 +1116,23 @@ But remember, once you hit me, the battle's over, so make it count!
  - In the game, Ono-Puncho resides in the Gestral Village, you can challenge him a battle to win a prize. The gimmick is that you only have one shot to deal 9999 damage.
  - We've translated that gimmick to a bounce trigger when it's dealt damage (signifying end of battle). To kill it means to "make it count" and deal it lethal damage so that state-based effects will send it to the graveyard before the bounce trigger can save it.
 
-## Paint Cage (Ichor Wellspring)
+## Paint Cage
 
-> This card is a nicknamed reprint of (Ichor Wellspring)
-[Scryfall](https://scryfall.com/search?q=Ichor Wellspring)
-### Notes
+```
+2
+Artifact
+When this artifact enters or is put into a graveyard from the battlefield, choose one —
+• Draw a card.
+• Create a Lumina token.
+```
+
+[card implementation](../custom/cards/p/paint_cage.txt)
+
+### Design Notes
 
  - In the game, a Paint Cage is something that can be "cracked open" for loot.
  - Ichor Wellspring has similar looks and flavor, so it was chosen for this.
+ - 14/01/2026: No longer a nickname reprint of Ichor Wellspring. Instead this is now a near-functional reprint wtih the draw a card trigger now a modal between draw a card and creating a Lumina token.
 
 ## Paint Spike
 

@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 13/1/2026 2:07:31 pm
+> Last generated: 13/1/2026 4:57:14 pm
 
 ## An Advantage!
 
@@ -84,9 +84,10 @@ The chains of Grief can be hard to break for some.
 U
 Enchantment - Aura
 Enchant Creature.
+When this aura enters, create a Lumina token.
 Whenever enchanted creature deals damage to an opponent, choose one —
-• Return target creature to its owner's hand
-• Tap target creature and put a stun counter on it
+• Return up to one target creature to its owner's hand
+• Tap up to one target creature and put a stun counter on it
 ```
 
 [card implementation](../custom/cards/b/breaking_moment.txt)
@@ -95,6 +96,7 @@ Whenever enchanted creature deals damage to an opponent, choose one —
 
  - In the game, breaking an enemy puts them in a stunned state and will cause them to skip their next turn.
  - Went with a variant of Sigil of Sleep, but with an additional tap-and-stun mode if the enchanted creature connects.
+ - 14/01/2026: Added Lumina token ETB and made targeting "up to one"
 
 ## Bruler
 
@@ -113,23 +115,6 @@ When this creature dies, target opponent creates a Lumina token. (It's an artifa
 
  - In the game, Bruler is generally in a party with Cruler. Thus I've gone with giving Bruler a buff if you also control Cruler
  - 13/10/2025: Removed Devoid.
-
-## Cache Discovery
-
-```
-U
-Kindred Sorcery - Expeditioner
-Create a Chroma token and a Lumina token.
-Splice onto Expeditioner Instant or Sorcery {U} (As you cast an Expeditioner Instant or Sorcery, you may reveal this card from your hand and pay its splice cost. If you do, add this card's effects to that spell.)
-```
-
-[card implementation](../custom/cards/c/cache_discovery.txt)
-
-### Design Notes
-
- - A card specifically designed to rapidly build up to the 33 permanent win condition of The Greatest Expedition In History
- - I am hoping that Forge's rule handling around splice is flexible enough to allow for this to work. Otherwise it's back to the drawing board.
-    - 23/09/2025: It seems to work!
 
 ## Colette, Trinket Dealer
 
@@ -165,6 +150,7 @@ Hello there, Gustave. Perhaps one of these artifacts may prove useful to your mi
 ```
 2UU
 Kindred Enchantment - Expeditioner
+When this enchantment enters, create a Lumina token.
 Tap an untapped creature you control: Tap target artifact or creature.
 Tap an untapped Expeditioner you control: Tap target land.
 ```
@@ -176,6 +162,7 @@ Tap an untapped Expeditioner you control: Tap target land.
  - In the game, Crippling Tsunami is one of Lune's skills. It's basically an AOE variant of Ice Lance.
  - Made this a hybrid of Glare of Subdual and Opposition. Base effect is Glare, but Expeditioners can have the full Opposition experience.
  - Intentionally worded so that any Expeditioner permanent can be used to tap down. May change this to Expeditioner creatures only if proven to be too powerful.
+ - 14/01/2026: Added Lumina token on ETB
 
 ## Cruler
 
@@ -507,6 +494,7 @@ Clea: Well-reasoned. And such a... clever hiding spot you've chosen.
 2U
 Kindred Instant - Expeditioner
 Tap up to two target permanents. Put a stun counter on them.
+Create a Lumina token. (It's an artifact with "{T}, Sacrifice this artifact: Scry 1.")
 ```
 
 [card implementation](../custom/cards/i/ice_lance.txt)
@@ -514,6 +502,7 @@ Tap up to two target permanents. Put a stun counter on them.
 ### Design Notes
 
  - Generic useful ice-themed tempo play in limited/draft environments.
+ - 14/01/2026: Added Lumina token bonus on resolution.
 
 ## Lune's Curiosity
 
@@ -690,6 +679,7 @@ Kindred Instant - Expeditioner
 Tap target creature and put a stun counter on it.
 If {R} was spent on this spell, it deals 3 damage to any target.
 If {G} was spent on this spell, you gain 3 life.
+Create a Lumina token.
 ```
 
 [card implementation](../custom/cards/t/thermal_transfer.txt)
@@ -703,6 +693,7 @@ If {G} was spent on this spell, you gain 3 life.
     - Increase cost to 2U with R and G spending bonuses
     - R: Bolt an extra target
     - G: Gain 3 life
+ - 14/01/2026: Added Lumina token bonus on resolution
 
 ## Verisimilitude
 

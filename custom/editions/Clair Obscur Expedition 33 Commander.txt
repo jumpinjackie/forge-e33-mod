@@ -9,17 +9,17 @@ Type=Custom
 7 R Abrupt Decay @Svetlin Velinov
 21 C Arcane Signet @Constantin Marin
 24 R Austere Command @rk post
-31 R Bedevil @Fang Xinyu
-51 R Chaos Warp @Trevor Claxton
-61 R Chromatic Lantern @Jung Park
-72 C Command Tower @Alayna Danner
-73 C Commander's Sphere @Justyna Dura
-75 U Counterspell @Zack Stella
-76 R Karplusan Forest @Sandfall Interactive ${"flavorName": "Crimson Forest"}
-81 C Cultivate @Anthony Palumbo
-82 R Damn @Lucas Graciano
-89 R Deflecting Swat @rk post
-98 M Doubling Season @Chuck Lukacs
+30 R Bedevil @Fang Xinyu
+50 R Chaos Warp @Trevor Claxton
+60 R Chromatic Lantern @Jung Park
+71 C Command Tower @Alayna Danner
+72 C Commander's Sphere @Justyna Dura
+74 U Counterspell @Zack Stella
+75 R Karplusan Forest @Sandfall Interactive ${"flavorName": "Crimson Forest"}
+80 C Cultivate @Anthony Palumbo
+81 R Damn @Lucas Graciano
+88 R Deflecting Swat @rk post
+97 M Doubling Season @Chuck Lukacs
 166 C Farseek @Hristo D. Chukov
 167 C Feed the Swarm @Andrey Kuzinskiy
 168 U Fellwar Stone @John Avon
