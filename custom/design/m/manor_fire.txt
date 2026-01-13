@@ -1,8 +1,9 @@
 [Name]
 Manor Fire
 [ManaCost]
-2
-RG
+1
+R
+G
 [Types]
 Sorcery
 [Rarity]
@@ -10,13 +11,20 @@ U
 [Artist]
 Sandfall Interactive
 [Oracle]
-Destroy all Rooms.
+Choose one —
+• Manor Fire deals 1 damage to each creature.
+• Manor Fire deals 3 damage to each player.
+• Destroy all Rooms.
 Draw a card.
 [FlavorText]
 You're ok.
 [ForgeScript]
-A:SP$ DestroyAll | ValidCards$ Room | SubAbility$ DBDraw | SpellDescription$ Destroy all Rooms.
+A:SP$ Charm | Choices$ DBSweep,DBBoltPlayers,DBDestroyRooms
+SVar:DBSweep:DB$ DamageAll | NumDmg$ 1 | ValidCards$ Creature | ValidDescription$ each creature. | SubAbility$ DBDraw | SpellDescription$ CARDNAME deals 1 damage to each creature.
+SVar:DBBoltPlayers:DB$ DamageAll | NumDmg$ 3 | ValidPlayers$ Player | ValidDescription$ each player. | SubAbility$ DBDraw | SpellDescription$ CARDNAME deals 3 damage to each player.
+SVar:DBDestroyRooms:DB$ DestroyAll | ValidCards$ Room | SubAbility$ DBDraw | SpellDescription$ Destroy all Rooms.
 SVar:DBDraw:DB$ Draw | NumCards$ 1
 [DesignNotes]
  - In the game, this is the event that took Verso's life and started Aline's cycle of grief, made Alicia a pariah, started Clea's war against the writers and Renoir's attempts to get Aline out of the canvas, tearing the Dessendre family apart.
  - A basic foil for room strategies with a cantrip so it's not entirely useless when not facing against room strategies.
+ - 14/01/2025: Changed cost from 2(R/G) to 1RG and changed to a modal.
