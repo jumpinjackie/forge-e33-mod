@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 13/1/2026 6:13:12 pm
+> Last generated: 13/1/2026 6:20:22 pm
 
 ## A Storm is Coming
 
@@ -397,7 +397,7 @@ Nevron spells you cast cost {1} less to cast.
 ## Clea Unleashed
 
 ```
-5UB
+4UB
 Legendary Creature - Painter God
 Projects disturbing Chroma — Hexproof, indestructible
 At the beginning your upkeep, Clea Unleashed loses hexproof and indestructible until end of turn.
@@ -418,7 +418,6 @@ Summons Nevrons — At the beginning of your upkeep, choose one —
      - Nevron summoning translated to either a Nevron tutor (straight into the battlefield) or Nevron temporary clone.
  - Expected ways to dispatch Clea are sweepers at any speed, instant-speed removal on opponent's turn (once summoning sickness is gone) or baiting her to attack into a lethal single or gang block.
  - The weird wording around Clea Unleashed having "shields down" is due to the fact that there is no precedence of any creature gaining keywords during an opponent's turn, so there is very likely no such support in Forge. However, we can work around this limitation by inverting the situation, by having the default position be having Hexproof and Indestructible and at the beginning of the controller's upkeep, she loses said keywords until end of turn (which allows us to copy the debuff logic from Shadowspear). This allows us to preserve the original intent, at the small expense of text readability.
- - Card costed at 5UB to (hopefully) justify her nuclear-bomb-tier status.
 
 ## Closure
 
