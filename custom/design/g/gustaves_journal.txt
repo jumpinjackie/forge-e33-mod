@@ -1,7 +1,7 @@
 [Name]
 Gustave's Journal
 [ManaCost]
-3
+2
 [Types]
 Legendary
 Artifact
@@ -10,16 +10,22 @@ R
 [Artist]
 Sandfall Interactive
 [Oracle]
+When ~ enters, create a Lumina token.
 Whenever a Nevron dies, put a study counter on Gustave's Journal.
 {2}, {T}, Remove X study counters from Gustave's Journal: Draw X cards.
 [FlavorText]
 He spends some time writing in his journal. He writes about how dangerous the Nevrons are, but how beautiful the continent is. He hopes that one day, his apprentices will read everything he wrote.
 [ForgeScript]
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigToken | TriggerDescription$ When CARDNAME enters, create a Lumina token.
+SVar:TrigToken:DB$ Token | TokenAmount$ 1 | TokenOwner$ You | TokenScript$ c_a_lumina
 T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Nevron | TriggerZones$ Battlefield | Execute$ TrigPutStudyCounter | TriggerDescription$ Whenever a Nevron dies, put a study counter on CARDNAME.
 SVar:TrigPutStudyCounter:DB$ PutCounter | Defined$ Self | CounterType$ STUDY
 A:AB$ Draw | Cost$ 2 T SubCounter<X/STUDY> | NumCards$ X | SpellDescription$ Draw X cards.
 SVar:X:Count$xPaid
+[RelatedTokens]
+c_a_lumina
 [DesignNotes]
  - In the game, whenever at camp Gustave (and later Maelle) writes down their experiences in the expedition thus far. It has been said (and lamented by many gamers) that this should have been represented as an in-game bestiary of all the Nevrons you have encountered.
  - Mechanically, I went with an artifact that charges up with every Nevron kill, that can be cashed in later down the road for extra cards.
  - 28/09/2025: Reduced cost from 4 to 3
+ - 14/01/2026: Reduced cost from 3 to 2 and added Lumina token ETB

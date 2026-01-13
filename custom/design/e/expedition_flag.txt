@@ -7,14 +7,20 @@ Artifact
 [Rarity]
 U
 [Oracle]
+When ~ enters, create a Lumina token.
 Expeditioner creatures you control get +1/+1.
 {T}: Add one mana of any color.
 [FlavorText]
 Wanna plant it?
 - Sciel, to Maelle
 [ForgeScript]
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigToken | TriggerDescription$ When CARDNAME enters, create a Lumina token.
+SVar:TrigToken:DB$ Token | TokenAmount$ 1 | TokenOwner$ You | TokenScript$ c_a_lumina
 S:Mode$ Continuous | Affected$ Creature.Expeditioner | AddPower$ 1 | AddToughness$ 1 | Description$ Expeditioner creatures you control get +1/+1.
 A:AB$ Mana | Cost$ T | Produced$ Any | SpellDescription$ Add one mana of any color.
+[RelatedTokens]
+c_a_lumina
 [DesignNotes]
  - In the game, Expedition flags are save points scattered throughout the continent laid down by previous Expeditions.
  - Gone with an Expeditioner-focused variant of Patchwork Banner.
+ - 14/01/2026: Added Lumina token ETB

@@ -13,12 +13,18 @@ R
 [Artist]
 Sandfall Interactive
 [Oracle]
+When ~ enters, create a Lumina token.
 Tap an untapped creature you control: Tap target artifact or creature.
 Tap an untapped Expeditioner you control: Tap target land.
 [ForgeScript]
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigToken | TriggerDescription$ When CARDNAME enters, create a Lumina token.
+SVar:TrigToken:DB$ Token | TokenAmount$ 1 | TokenOwner$ You | TokenScript$ c_a_lumina
 A:AB$ Tap | Cost$ tapXType<1/Creature> | ValidTgts$ Artifact,Creature | TgtPrompt$ Select target artifact or creature | SpellDescription$ Tap target artifact or creature.
 A:AB$ Tap | Cost$ tapXType<1/Expeditioner> | ValidTgts$ Land | TgtPrompt$ Select target land | SpellDescription$ Tap target land.
+[RelatedTokens]
+c_a_lumina
 [DesignNotes]
  - In the game, Crippling Tsunami is one of Lune's skills. It's basically an AOE variant of Ice Lance.
  - Made this a hybrid of Glare of Subdual and Opposition. Base effect is Glare, but Expeditioners can have the full Opposition experience.
  - Intentionally worded so that any Expeditioner permanent can be used to tap down. May change this to Expeditioner creatures only if proven to be too powerful.
+ - 14/01/2026: Added Lumina token on ETB

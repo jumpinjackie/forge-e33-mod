@@ -1,8 +1,10 @@
 Name:Gustave's Journal
-ManaCost:3
+ManaCost:2
 Types:Legendary Artifact
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigToken | TriggerDescription$ When CARDNAME enters, create a Lumina token.
+SVar:TrigToken:DB$ Token | TokenAmount$ 1 | TokenOwner$ You | TokenScript$ c_a_lumina
 T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Nevron | TriggerZones$ Battlefield | Execute$ TrigPutStudyCounter | TriggerDescription$ Whenever a Nevron dies, put a study counter on CARDNAME.
 SVar:TrigPutStudyCounter:DB$ PutCounter | Defined$ Self | CounterType$ STUDY
 A:AB$ Draw | Cost$ 2 T SubCounter<X/STUDY> | NumCards$ X | SpellDescription$ Draw X cards.
 SVar:X:Count$xPaid
-Oracle:Whenever a Nevron dies, put a study counter on Gustave's Journal.\n{2}, {T}, Remove X study counters from Gustave's Journal: Draw X cards.
+Oracle:When Gustave's Journal enters, create a Lumina token.\nWhenever a Nevron dies, put a study counter on Gustave's Journal.\n{2}, {T}, Remove X study counters from Gustave's Journal: Draw X cards.

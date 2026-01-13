@@ -13,18 +13,24 @@ Sandfall Interactive
 A member of Expedition 33 performs an attack that puts the enemy Nevron into a stunned state.
 [Oracle]
 Enchant Creature.
+When ~ enters, create a Lumina token.
 Whenever enchanted creature deals damage to an opponent, choose one —
-• Return target creature to its owner's hand
-• Tap target creature and put a stun counter on it
+• Return up to one target creature to its owner's hand
+• Tap up to one target creature and put a stun counter on it
 [ForgeScript]
 K:Enchant:Creature
 SVar:AttachAILogic:Curiosity
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigToken | TriggerDescription$ When CARDNAME enters, create a Lumina token.
+SVar:TrigToken:DB$ Token | TokenAmount$ 1 | TokenOwner$ You | TokenScript$ c_a_lumina
 T:Mode$ DamageDone | ValidSource$ Card.AttachedBy | ValidTarget$ Opponent | Execute$ TrigChoose | TriggerZones$ Battlefield | OptionalDecider$ You | TriggerDescription$ Whenever enchanted creature deals damage to an opponent, ABILITY
 SVar:TrigChoose:DB$ Charm | Choices$ DBBounce,DBTap | CharmNum$ 1
-SVar:DBBounce:DB$ ChangeZone | ValidTgts$ Creature | TargetsWithDefinedController$ TriggeredTarget | TgtPrompt$ Select target creature your opponent controls | IsCurse$ True | Origin$ Battlefield | Destination$ Hand | SpellDescription$ Return target creature to its owner's hand.
-SVar:DBTap:DB$ Tap | ValidTgts$ Creature | TgtPrompt$ Select target creature | SubAbility$ DBPutCounter | SpellDescription$ Tap target creature and put a stun counter on it.
+SVar:DBBounce:DB$ ChangeZone | ValidTgts$ Creature | TargetsWithDefinedController$ TriggeredTarget | TgtPrompt$ Select target creature your opponent controls | TargetMin$ 0 | TargetMax$ 1 | IsCurse$ True | Origin$ Battlefield | Destination$ Hand | SpellDescription$ Return up to one target creature to its owner's hand.
+SVar:DBTap:DB$ Tap | ValidTgts$ Creature | TgtPrompt$ Select target creature | TargetMin$ 0 | TargetMax$ 1 | SubAbility$ DBPutCounter | SpellDescription$ Tap up to one target creature and put a stun counter on it.
 SVar:DBPutCounter:DB$ PutCounter | Defined$ Targeted | CounterType$ STUN | CounterNum$ 1
 SVar:PlayMain1:TRUE
+[RelatedTokens]
+c_a_lumina
 [DesignNotes]
  - In the game, breaking an enemy puts them in a stunned state and will cause them to skip their next turn.
  - Went with a variant of Sigil of Sleep, but with an additional tap-and-stun mode if the enchanted creature connects.
+ - 14/01/2026: Added Lumina token ETB and made targeting "up to one"
