@@ -2033,24 +2033,24 @@ public class GenAllCommand : BaseCommand
                 }
                 sb.AppendLine($$"""
                     <card>
-                    <name>{{EscapeXml(name)}}</name>
-                    <text>{{EscapeXml(token.OracleTextFull ?? string.Empty)}}</text>
-                    {{setEl}}
-                    <prop>
+                      <name>{{EscapeXml(name)}}</name>
+                      <text>{{EscapeXml(token.OracleTextFull ?? string.Empty)}}</text>
+                      {{setEl}}
+                      <prop>
                         <colors>{{string.Join("", token.Colors ?? [])}}</colors>
                         <cmc>0</cmc>
                         <type>{{token.TypeLine}}</type>
                         <maintype>{{token.MainType}}</maintype>
                         {{(token.PT is not null ? $"<pt>{token.PT}</pt>" : "<!-- no pt -->")}}
-                    </prop>
-                    <token>1</token>
-                    <tablerow>{{token.GetTableRow()}}</tablerow>
+                      </prop>
+                      <token>1</token>
+                      <tablerow>{{token.GetTableRow()}}</tablerow>
                 """);
 
                 foreach (var reverseName in token.ReverseRelatedCardNames)
                 {
                     sb.AppendLine($$"""
-                        <reverse-related>{{reverseName}}</reverse-related>
+                          <reverse-related>{{EscapeXml(reverseName)}}</reverse-related>
                     """);
                 }
 
