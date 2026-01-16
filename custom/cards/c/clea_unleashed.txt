@@ -1,6 +1,6 @@
 Name:Clea Unleashed
 ManaCost:4 U B
-Types:Legendary Creature Painter God
+Types:Legendary Creature Painter Avatar
 PT:4/5
 K:Hexproof
 K:Indestructible

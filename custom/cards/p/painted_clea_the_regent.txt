@@ -1,6 +1,6 @@
 Name:Painted Clea, the Regent
 ManaCost:2 U B
-Types:Legendary Creature Painter God
+Types:Legendary Creature Painter Avatar
 PT:3/4
 S:Mode$ ReduceCost | ValidCard$ Nevron | Type$ Spell | Activator$ You | Amount$ 1 | Description$ Nevron spells you cast cost {1} less to cast.
 S:Mode$ Continuous | Affected$ Creature.Nevron+YouCtrl | AddPower$ 1 | AddToughness$ 1 | Description$ Nevron creatures you control get +1/+1.

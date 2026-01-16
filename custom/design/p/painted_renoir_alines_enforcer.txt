@@ -8,7 +8,7 @@ B
 Legendary
 Creature
 Painter
-God
+Avatar
 [Rarity]
 R
 [PT]
