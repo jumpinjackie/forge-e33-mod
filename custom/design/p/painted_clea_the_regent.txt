@@ -45,3 +45,4 @@ c_1_1_nevron
  - 2/11/2025: Reduced Nevron buff from +2/+2 to +1/+1
  - 27/11/2025: Reduced cost reduction from {2} to {1}
  - 29/12/2025: Renamed to - Painted Clea, the Regent
+ - 16/01/2026: Changed creature type from "Painter God" to "Painter Avatar"

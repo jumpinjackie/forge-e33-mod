@@ -40,3 +40,4 @@ b_4_4_dark_chromatic_beast
  - Most of Painted Renoir's attacks in his boss fight is pretty unremarkable (in terms of mechanical translation). So the main gimmick we're replicating is its symbiotic link to the Dark Beast, who appears in his 2nd phase and instantly heals him. We mapped this to a symbiotic relationship akin to Minsc & Boo with P. Renoir being Minsc and the Dark Beast being Boo.
     - The beast healing him, we mapped to giving P.Renoir indestructible while Dark Chromatic Beast token is in your control.
  - 19/11/2025: Removed edict triggered ability and replaced it with Fear.
+ - 16/01/2026: Changed creature type from "Painter God" to "Painter Avatar"
