@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 17/1/2026 9:18:27 pm
+> Last generated: 17/1/2026 10:49:11 pm
 
 ## A Storm is Coming
 
@@ -731,6 +731,7 @@ The trick is finding that perfect point where your nerves have calmed enough tha
 ### Design Notes
 
  - Modeled drunkeness as temporary high power / low toughness
+ - The expeditioner depicted in the art is actually dead, but without any context seeing the body is next to a crate of booze, it can easily be interpreted that the Expeditioner is absolutely drunk and passed out.
 
 ## Expedition 53 Herbalist
 

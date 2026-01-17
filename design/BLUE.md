@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 17/1/2026 9:18:27 pm
+> Last generated: 17/1/2026 10:49:11 pm
 
 ## An Advantage!
 
@@ -243,7 +243,7 @@ No, no, you are HIS creations, not mine. You will not take this Canvas from me!
 2U
 Enchantment - Aura
 Enchant permanent.
-Enchanted permanent doesn't untap during its controller's untap step.
+Enchanted permanent doesn't untap during its controller's untap step and its activated abilities can't be activated.
 ```
 
 [card implementation](../custom/cards/e/eternal_ice.txt)

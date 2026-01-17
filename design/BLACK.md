@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 17/1/2026 9:18:27 pm
+> Last generated: 17/1/2026 10:49:11 pm
 
 ## Axon Offering
 
@@ -135,7 +135,7 @@ If you could grow old... Would you... find a reason to smile?
 Creature - Nevron
 Double the blight — When this creature enters, put a blight counter on up to one target creature and up to one target land.
 Creatures with blight counters on them have base toughness 1.
-Whenever a land with a blight counter is tapped, destroy it.
+Whenever a land with a blight counter becomes tapped, destroy it.
 Heals allies — {1}{B}, {T}: Gain 1 life for each creature you control.
 When this creature dies, target opponent creates a Lumina token. (It's an artifact with "{T}, Sacrifice this artifact: Scry 1.")
 
@@ -178,7 +178,7 @@ Oh, I hear a big Nev coming, they count for double. If I kill it quick I can boo
 2B
 Enchantment
 As this enchantment enters, choose a creature type.
-Whenever two or more creatures of the chosen type attacks, target opponent loses 2 life, you gain 2 life and draw a card.
+Whenever two or more creatures of the chosen type attacks, target opponent loses 2 life. You gain 2 life and draw a card.
 ---
 You must see things as they are. Not how you want them to be.
 - Renoir

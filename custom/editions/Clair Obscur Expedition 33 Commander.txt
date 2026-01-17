@@ -23,7 +23,7 @@ Type=Custom
 164 C Farseek @Hristo D. Chukov
 165 C Feed the Swarm @Andrey Kuzinskiy
 166 U Fellwar Stone @John Avon
-168 U Final Parting @
+168 U Final Parting @Sandfall Interactive
 182 R Shivan Reef @Sandfall Interactive ${"flavorName": "Frozen Hearts"}
 226 C Growth Spiral @Seb McKinnon
 273 M Mana Drain @Raymond Swanland
@@ -32,7 +32,7 @@ Type=Custom
 294 U Mortify @Nils Hamm
 314 U Patchwork Banner @Sarah Finnigan
 315 U Path to Exile @Raf Sarmento
-326 U Primal Empathy @
+326 U Primal Empathy @Sandfall Interactive
 328 U Putrefy @Clint Cearley
 359 R Sulfurous Springs @Sandfall Interactive ${"flavorName": "Sinister Cave"}
 365 U Sol Ring @Piotr Dura

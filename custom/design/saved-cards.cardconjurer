@@ -39074,7 +39074,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Enchant permanent.\nEnchanted permanent doesn’t untap during its controller’s untap step.",
+                    "text": "Enchant permanent.\nEnchanted permanent doesn’t untap during its controller’s untap step and its activated abilities can’t be activated.",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
