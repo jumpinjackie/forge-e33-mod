@@ -10,10 +10,11 @@ U
 [Artist]
 Sandfall Interactive
 [Oracle]
-Search your library for a Nevron card, reveal it, put it into your hand, then shuffle.
+Search your library for a Nevron or Gradient card, reveal it, put it into your hand, then shuffle.
 [FlavorText]
 I have my pets in place "She who controls chroma, controls the Canvas." I can't take her chroma, but I can keep it from returning to her.
 [ForgeScript]
-A:SP$ ChangeZone | Origin$ Library | Destination$ Hand | ChangeType$ Nevron | SpellDescription$ Search your library for a Nevron card, reveal it, put it into your hand, then shuffle.
+A:SP$ ChangeZone | Origin$ Library | Destination$ Hand | ChangeType$ Nevron,Gradient | SpellDescription$ Search your library for a Nevron or Gradient card, reveal it, put it into your hand, then shuffle.
 [DesignNotes]
  - A Nevron tutor to support Nevron tribal strategies
+ - 18/01/2026: Allow tutoring for Nevron or Gradient spells instead of just Nevrons.
