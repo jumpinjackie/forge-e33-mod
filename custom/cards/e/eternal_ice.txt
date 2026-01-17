@@ -3,4 +3,5 @@ ManaCost:2 U
 Types:Enchantment Aura
 K:Enchant:Permanent
 R:Event$ Untap | ActiveZones$ Battlefield | ValidCard$ Permanent.EnchantedBy | ValidStepTurnToController$ You | Layer$ CantHappen | Description$ Enchanted permanent doesn't untap during its controller's untap step.
-Oracle:Enchant permanent.\nEnchanted permanent doesn't untap during its controller's untap step.
+S:Mode$ CantBeActivated | ValidCard$ Permanent.EnchantedBy | Description$ Enchanted permanent's activated abilities can't be activated.
+Oracle:Enchant permanent.\nEnchanted permanent doesn't untap during its controller's untap step and its activated abilities can't be activated.
