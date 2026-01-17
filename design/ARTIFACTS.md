@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 13/1/2026 6:28:41 pm
+> Last generated: 17/1/2026 8:45:52 pm
 
 ## A Rock for François
 
@@ -81,7 +81,7 @@ Learn Picto 2 (Sacrifice two Lumina tokens: Create a token copy of this equipmen
 ## Arcane Signet
 
 > This card is a reprint
-[Scryfall](https://scryfall.com/search?q=Arcane Signet)
+[Scryfall](https://scryfall.com/search?q=Arcane%20Signet)
 ### Notes
 
  - Obligatory mana rock in Commander
@@ -136,7 +136,7 @@ Learn Picto 2
 ## Barrier Breaker (Blackblade Reforged)
 
 > This card is a nicknamed reprint of (Blackblade Reforged)
-[Scryfall](https://scryfall.com/search?q=Blackblade Reforged)
+[Scryfall](https://scryfall.com/search?q=Blackblade%20Reforged)
 ### Notes
 
  - In the game, the Barrier Breaker is forged by The Curator once you've defeated Sirene and Visages. With this weapon, the party was finally able to breach the barrier protecting the Monolith.
@@ -237,7 +237,7 @@ Luminous — {T}: Add one mana of any color. Activate this ability only if you c
 ## Chromatic Lantern
 
 > This card is a reprint
-[Scryfall](https://scryfall.com/search?q=Chromatic Lantern)
+[Scryfall](https://scryfall.com/search?q=Chromatic%20Lantern)
 ### Notes
 
  - Staple commander mana rock.
@@ -245,7 +245,7 @@ Luminous — {T}: Add one mana of any color. Activate this ability only if you c
 ## Commander's Sphere
 
 > This card is a reprint
-[Scryfall](https://scryfall.com/search?q=Commander's Sphere)
+[Scryfall](https://scryfall.com/search?q=Commander%27s%20Sphere)
 ### Notes
 
  - Obligatory commander mana rock.
@@ -283,7 +283,7 @@ Learn Picto 2
 Artifact
 Painter and Gradient spells you cast cost {1} less to cast.
 {T}: Add one mana of any color. Spend this mana only to cast a Painter or Gradient spell.
-{3},{T}: Search your library for a Painter card, reveal it and put it into your hand, then shuffle.
+{3},{T}: Search your library for a Painter or Gradient card, reveal it and put it into your hand, then shuffle.
 ---
 One family, united by passion for art, divided by grief.
 ```
@@ -498,7 +498,7 @@ Artifact - Clue
 ## Expedition Map
 
 > This card is a reprint
-[Scryfall](https://scryfall.com/search?q=Expedition Map)
+[Scryfall](https://scryfall.com/search?q=Expedition%20Map)
 ### Notes
 
  - Easy on-flavor reprint.
@@ -528,7 +528,7 @@ Gustave: In a way, it’s yours too.
 ## Explorer's Scope
 
 > This card is a reprint
-[Scryfall](https://scryfall.com/search?q=Explorer's Scope)
+[Scryfall](https://scryfall.com/search?q=Explorer%27s%20Scope)
 ### Notes
 
  - Easy on-flavor reprint.
@@ -536,7 +536,7 @@ Gustave: In a way, it’s yours too.
 ## Fellwar Stone
 
 > This card is a reprint
-[Scryfall](https://scryfall.com/search?q=Fellwar Stone)
+[Scryfall](https://scryfall.com/search?q=Fellwar%20Stone)
 ### Notes
 
  - Obligatory commander mana rock.
@@ -1041,7 +1041,7 @@ Someone lives here.
 ## Mask of Memory
 
 > This card is a reprint
-[Scryfall](https://scryfall.com/search?q=Mask of Memory)
+[Scryfall](https://scryfall.com/search?q=Mask%20of%20Memory)
 ### Notes
 
  - Utility equipment for Commander.
@@ -1071,7 +1071,7 @@ Tap three creatures you control: Untap Matthieu.
 ## Mirage Mirror
 
 > This card is a reprint
-[Scryfall](https://scryfall.com/search?q=Mirage Mirror)
+[Scryfall](https://scryfall.com/search?q=Mirage%20Mirror)
 ### Notes
 
  - Another reprint for commander that a memorable quote was looking to attach itself to.
@@ -1158,7 +1158,7 @@ There must be some good loot behind there!
 ## Patchwork Banner
 
 > This card is a reprint
-[Scryfall](https://scryfall.com/search?q=Patchwork Banner)
+[Scryfall](https://scryfall.com/search?q=Patchwork%20Banner)
 ### Notes
 
  - Another creature type pump artifact. Expected to be added for the Nevron commander deck as Expedition Flag already exists for the Expeditioner side.
@@ -1311,7 +1311,7 @@ Esquie! Look what I found.
 ## Sol Ring
 
 > This card is a reprint
-[Scryfall](https://scryfall.com/search?q=Sol Ring)
+[Scryfall](https://scryfall.com/search?q=Sol%20Ring)
 ### Notes
 
  - Obvious and obligatory commander staple
@@ -1338,7 +1338,7 @@ Humans are so rude... more so than Gestrals... which is really saying something.
 ## Talisman of Conviction
 
 > This card is a reprint
-[Scryfall](https://scryfall.com/search?q=Talisman of Conviction)
+[Scryfall](https://scryfall.com/search?q=Talisman%20of%20Conviction)
 ### Notes
 
  - Obligatory Commander mana rock.
@@ -1346,7 +1346,7 @@ Humans are so rude... more so than Gestrals... which is really saying something.
 ## Talisman of Creativity
 
 > This card is a reprint
-[Scryfall](https://scryfall.com/search?q=Talisman of Creativity)
+[Scryfall](https://scryfall.com/search?q=Talisman%20of%20Creativity)
 ### Notes
 
  - Obligatory Commander mana rock.
@@ -1354,7 +1354,7 @@ Humans are so rude... more so than Gestrals... which is really saying something.
 ## Talisman of Curiosity
 
 > This card is a reprint
-[Scryfall](https://scryfall.com/search?q=Talisman of Curiosity)
+[Scryfall](https://scryfall.com/search?q=Talisman%20of%20Curiosity)
 ### Notes
 
  - Obligatory Commander mana rock.
@@ -1362,7 +1362,7 @@ Humans are so rude... more so than Gestrals... which is really saying something.
 ## Talisman of Dominance
 
 > This card is a reprint
-[Scryfall](https://scryfall.com/search?q=Talisman of Dominance)
+[Scryfall](https://scryfall.com/search?q=Talisman%20of%20Dominance)
 ### Notes
 
  - Obligatory Commander mana rock.
@@ -1370,7 +1370,7 @@ Humans are so rude... more so than Gestrals... which is really saying something.
 ## Talisman of Hierarchy
 
 > This card is a reprint
-[Scryfall](https://scryfall.com/search?q=Talisman of Hierarchy)
+[Scryfall](https://scryfall.com/search?q=Talisman%20of%20Hierarchy)
 ### Notes
 
  - Obligatory Commander mana rock.
@@ -1378,7 +1378,7 @@ Humans are so rude... more so than Gestrals... which is really saying something.
 ## Talisman of Impulse
 
 > This card is a reprint
-[Scryfall](https://scryfall.com/search?q=Talisman of Impulse)
+[Scryfall](https://scryfall.com/search?q=Talisman%20of%20Impulse)
 ### Notes
 
  - Obligatory Commander mana rock.
@@ -1386,7 +1386,7 @@ Humans are so rude... more so than Gestrals... which is really saying something.
 ## Talisman of Indulgence
 
 > This card is a reprint
-[Scryfall](https://scryfall.com/search?q=Talisman of Indulgence)
+[Scryfall](https://scryfall.com/search?q=Talisman%20of%20Indulgence)
 ### Notes
 
  - Obligatory Commander mana rock.
@@ -1394,7 +1394,7 @@ Humans are so rude... more so than Gestrals... which is really saying something.
 ## Talisman of Progress
 
 > This card is a reprint
-[Scryfall](https://scryfall.com/search?q=Talisman of Progress)
+[Scryfall](https://scryfall.com/search?q=Talisman%20of%20Progress)
 ### Notes
 
  - Obligatory Commander mana rock.
@@ -1402,7 +1402,7 @@ Humans are so rude... more so than Gestrals... which is really saying something.
 ## Talisman of Resilience
 
 > This card is a reprint
-[Scryfall](https://scryfall.com/search?q=Talisman of Resilience)
+[Scryfall](https://scryfall.com/search?q=Talisman%20of%20Resilience)
 ### Notes
 
  - Obligatory Commander mana rock.
@@ -1410,7 +1410,7 @@ Humans are so rude... more so than Gestrals... which is really saying something.
 ## Talisman of Unity
 
 > This card is a reprint
-[Scryfall](https://scryfall.com/search?q=Talisman of Unity)
+[Scryfall](https://scryfall.com/search?q=Talisman%20of%20Unity)
 ### Notes
 
  - Obligatory Commander mana rock.
@@ -1480,7 +1480,7 @@ Verso's childhood canvas. Where we used to play ... Where he painted Esquie and 
 ## Thought Vessel
 
 > This card is a reprint
-[Scryfall](https://scryfall.com/search?q=Thought Vessel)
+[Scryfall](https://scryfall.com/search?q=Thought%20Vessel)
 ### Notes
 
  - Obligatory Commander mana rock.

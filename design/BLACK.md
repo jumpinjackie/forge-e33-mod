@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 12/1/2026 1:30:17 pm
+> Last generated: 17/1/2026 9:18:27 pm
 
 ## Axon Offering
 
@@ -24,7 +24,7 @@ Me? You want me to give it to you?
 ## Blot Out
 
 > This card is a reprint
-[Scryfall](https://scryfall.com/search?q=Blot Out)
+[Scryfall](https://scryfall.com/search?q=Blot%20Out)
 ### Notes
 
  - It turns out the French name for this card is ... Gommage!
@@ -78,7 +78,7 @@ When this creature dies, target opponent creates a Lumina token.
 ```
 2B
 Sorcery
-Search your library for a Nevron card, reveal it, put it into your hand, then shuffle.
+Search your library for a Nevron or Gradient card, reveal it, put it into your hand, then shuffle.
 ---
 I have my pets in place "She who controls chroma, controls the Canvas." I can't take her chroma, but I can keep it from returning to her.
 ```
@@ -88,6 +88,7 @@ I have my pets in place "She who controls chroma, controls the Canvas." I can't 
 ### Design Notes
 
  - A Nevron tutor to support Nevron tribal strategies
+ - 18/01/2026: Allow tutoring for Nevron or Gradient spells instead of just Nevrons.
 
 ## Damn
 
@@ -121,7 +122,7 @@ If you could grow old... Would you... find a reason to smile?
 ## Dualliste's Lair (Death Pits of Rath)
 
 > This card is a nicknamed reprint of (Death Pits of Rath)
-[Scryfall](https://scryfall.com/search?q=Death Pits of Rath)
+[Scryfall](https://scryfall.com/search?q=Death%20Pits%20of%20Rath)
 ### Notes
 
  - In the game, the party falls into a pit of Expeditioner corpses where they encounter a boss fight with Dualliste.
@@ -130,9 +131,11 @@ If you could grow old... Would you... find a reason to smile?
 ## Échassier
 
 ```
-2B
+3B
 Creature - Nevron
-Double the blight — {T}: Up to two target creatures your opponent controls have base toughness 1 until end of turn.
+Double the blight — When this creature enters, put a blight counter on up to one target creature and up to one target land.
+Creatures with blight counters on them have base toughness 1.
+Whenever a land with a blight counter is tapped, destroy it.
 Heals allies — {1}{B}, {T}: Gain 1 life for each creature you control.
 When this creature dies, target opponent creates a Lumina token. (It's an artifact with "{T}, Sacrifice this artifact: Scry 1.")
 
@@ -145,6 +148,7 @@ When this creature dies, target opponent creates a Lumina token. (It's an artifa
 
  - In the game, Échassiers are found in The Reacher and Renoir's Drafts.
  - Mapped the "Double the blight & Heals allies" ability to 1 toughness setting and life gain.
+ - 17/01/2026: To increase the nonbasic hate quota in this set, changed double the blight to putting a blight counter on to up to 2 permanents. For creatures this sets their toughness to 1. For lands, this will destroy it upon being tapped.
 
 ## Expedition 62 Hunter
 
@@ -174,7 +178,7 @@ Oh, I hear a big Nev coming, they count for double. If I kill it quick I can boo
 2B
 Enchantment
 As this enchantment enters, choose a creature type.
-Whenever two or more creatures of the chosen type attacks, target opponent loses 2 life and you gain 2 life.
+Whenever two or more creatures of the chosen type attacks, target opponent loses 2 life, you gain 2 life and draw a card.
 ---
 You must see things as they are. Not how you want them to be.
 - Renoir
@@ -186,11 +190,12 @@ You must see things as they are. Not how you want them to be.
 
  - In the game, inside Verso's Treehouse in Verso's Drafts, there are various artpieces depicting Verso interacting with various family members. One of them is him bonding with his father, Renoir.
  - Mapped to an opponen syphon trigger when two or more creatures of the same type (same family) attack.
+ - 16/01/2026: Added card draw to the trigger.
 
 ## Feed the Swarm
 
 > This card is a reprint
-[Scryfall](https://scryfall.com/search?q=Feed the Swarm)
+[Scryfall](https://scryfall.com/search?q=Feed%20the%20Swarm)
 ### Notes
 
  - Obligatory Commander spot removal.
@@ -198,7 +203,7 @@ You must see things as they are. Not how you want them to be.
 ## Final Parting
 
 > This card is a reprint
-[Scryfall](https://scryfall.com/search?q=Final Parting)
+[Scryfall](https://scryfall.com/search?q=Final%20Parting)
 ### Notes
 
  - This is a quote-driven commander reprint. A quote from the game, looking for a suitable on-theme card to attach to.
@@ -209,6 +214,7 @@ You must see things as they are. Not how you want them to be.
 B
 Kindred Instant - Expeditioner
 Target creature gets -2/-2 until end of turn.
+Create a Lumina token.
 Foretell {0} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)
 ```
 
@@ -218,6 +224,7 @@ Foretell {0} (During your turn, you may pay {2} and exile this card from your ha
 
  - In the game, this is one of Sciel's quotes when performing a regular attack.
  - Simple targeted creature kill with Foretell to name-tie (not mechanically-tie) it to Sciel's skillset. The keyword ability is already there, so let's just use it!
+ - 16/01/2026: Added Lumina token bonus.
 
 ## Maelle's Nightmare
 
@@ -370,7 +377,7 @@ Decides to destroy the world. Bye bye — When Osquio dies, destroy all permanen
 
 ```
 3BB
-Legendary Creature - Painter God
+Legendary Creature - Painter Avatar
 Fear
 At the beginning of your upkeep, create a Chroma token.
 Summons Dark Beast — When Painted Renoir enters and at the beginning of your upkeep, you may create Dark Chromatic Beast, a legendary 4/4 black Nevron Beast creature with Trample and Lifelink.
@@ -391,6 +398,7 @@ I love them too.
  - Most of Painted Renoir's attacks in his boss fight is pretty unremarkable (in terms of mechanical translation). So the main gimmick we're replicating is its symbiotic link to the Dark Beast, who appears in his 2nd phase and instantly heals him. We mapped this to a symbiotic relationship akin to Minsc & Boo with P. Renoir being Minsc and the Dark Beast being Boo.
     - The beast healing him, we mapped to giving P.Renoir indestructible while Dark Chromatic Beast token is in your control.
  - 19/11/2025: Removed edict triggered ability and replaced it with Fear.
+ - 16/01/2026: Changed creature type from "Painter God" to "Painter Avatar"
 
 ## Piercing Strike
 
@@ -559,7 +567,7 @@ You may have this creature enter as a copy of any nonlegendary Expeditioner crea
 ## Verso's Burden (Treacherous Link)
 
 > This card is a nicknamed reprint of (Treacherous Link)
-[Scryfall](https://scryfall.com/search?q=Treacherous Link)
+[Scryfall](https://scryfall.com/search?q=Treacherous%20Link)
 ### Notes
 
  - In the game, Burden is one of Verso's skills. It transfers all status effects on various members of your party onto Verso himself.

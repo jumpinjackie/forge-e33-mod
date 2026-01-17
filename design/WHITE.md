@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 13/1/2026 4:57:14 pm
+> Last generated: 17/1/2026 8:45:52 pm
 
 ## A Life to Love (Farewell)
 
@@ -94,7 +94,7 @@ Oh hey handsome, perfect timing. I’m styling everyone before we ship out. Gott
 ## Austere Command
 
 > This card is a reprint
-[Scryfall](https://scryfall.com/search?q=Austere Command)
+[Scryfall](https://scryfall.com/search?q=Austere%20Command)
 ### Notes
 
  - Staple commander board wipe
@@ -330,7 +330,7 @@ Your time left in this life is limited, why not make it count for something?
 ## Fracture Survivor (Veteran Survivor)
 
 > This card is a nicknamed reprint of (Veteran Survivor)
-[Scryfall](https://scryfall.com/search?q=Veteran Survivor)
+[Scryfall](https://scryfall.com/search?q=Veteran%20Survivor)
 ### Notes
 
  - Nickname reprint of Veteran Survivor
@@ -429,7 +429,7 @@ He eagerly absorbs the knowledge given to him, for he knows when his time comes,
 ## Path to Exile
 
 > This card is a reprint
-[Scryfall](https://scryfall.com/search?q=Path to Exile)
+[Scryfall](https://scryfall.com/search?q=Path%20to%20Exile)
 ### Notes
 
  - Obligatory spot removal in Commander
@@ -437,7 +437,7 @@ He eagerly absorbs the knowledge given to him, for he knows when his time comes,
 ## Payback (Roil's Retribution)
 
 > This card is a nicknamed reprint of (Roil's Retribution)
-[Scryfall](https://scryfall.com/search?q=Roil's Retribution)
+[Scryfall](https://scryfall.com/search?q=Roil%27s%20Retribution)
 ### Notes
 
  - In the game, this is one of Maelle's skills
@@ -462,7 +462,7 @@ Luminous — Draw a card if you control at least three Lumina tokens.
 ## Prismatic Strands
 
 > This card is a reprint
-[Scryfall](https://scryfall.com/search?q=Prismatic Strands)
+[Scryfall](https://scryfall.com/search?q=Prismatic%20Strands)
 ### Notes
 
  - On-flavor reprint that's a useful combat trick in limited/draft.
@@ -526,7 +526,7 @@ Sacrifice this enchantment: The next historic spell you cast costs {1} less to c
 ## Second Thoughts
 
 > This card is a reprint
-[Scryfall](https://scryfall.com/search?q=Second Thoughts)
+[Scryfall](https://scryfall.com/search?q=Second%20Thoughts)
 ### Notes
 
  - Another case of a quote from the game looking for a suitable reprint to attach itself to.
@@ -555,7 +555,7 @@ We are her guardians, not her jailers.
 ## Swords to Plowshares
 
 > This card is a reprint
-[Scryfall](https://scryfall.com/search?q=Swords to Plowshares)
+[Scryfall](https://scryfall.com/search?q=Swords%20to%20Plowshares)
 ### Notes
 
  - Obligatory spot removal in Commander
@@ -606,7 +606,7 @@ All this chroma has been rather... energizing. Thanks to you, I awaken from my s
 ```
 W
 Creature - Nevron
-Whenever a Nevron creature dies, put a skin counter on this creature.
+Whenever a Nevron creature dies, you may put a skin counter on this creature.
 Remove three skin counters from this creature: It becomes a Nevron with base power and toughness 6/6, reach and trample.
 ---
 Need to go. High! Help me, grow!
@@ -621,6 +621,7 @@ Need to go. High! Help me, grow!
  - In the game, the Unfinished Bourgeon can be found in a small cave. It is a small bourgeon that wants to consume the skin of a slain Bourgeon to be able to grow into a full size Bourgeon.
  - Modeled this as a tiny Nevron that gets skin counters on Nevron death that grows into a big boy Bourgeon for 3 skin counters.
     - Granting skin counters on any Nevron death is a small thematic compromise as there's only one Bourgeon in this set and that's too marginal of a triggering condition, even if it's lore accurate.
+ - 17/01/2026: Changed trigger counter to "may"
 
 ## Unfinished Chalier
 
@@ -669,11 +670,11 @@ It doesn’t seem threatening.
 1W
 Creature - Nevron
 This creature can't attack or block unless it has three or more crystal counters on it.
-Whenever a land enters, put a crystal counter on this creature.
+Whenever a land enters, you may put a crystal counter on this creature.
 ---
 Abandoned... and incomplete. Entrapped in stone.... Quite the situation I’m in, right?
 
-3/4
+4/4
 ```
 
 [card implementation](../custom/cards/u/unfinished_hexga.txt)
@@ -682,6 +683,7 @@ Abandoned... and incomplete. Entrapped in stone.... Quite the situation I’m in
 
  - In the game, an Unfinished Hexga can be found at the Stone Wave Cliffs. It wants you to find three rock crystals and install them on its back. Doing so will reward you with a picto.
  - Modeled this an an undercosted beater that can't attack or block until it has 3 crystal counters (the rock crystal). Triggered on land drops as finding the rock crytals in the video game requires *exploring*.
+ - 17/01/2026: Changed trigger counter to "may"
 
 ## Unfinished Jar
 

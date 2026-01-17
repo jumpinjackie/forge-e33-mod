@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 12/1/2026 1:23:33 pm
+> Last generated: 17/1/2026 8:45:52 pm
 
 ## Abbest Cave
 
@@ -21,7 +21,7 @@ Land - Cave
 ## Blade's Graveyard (Concealed Courtyard)
 
 > This card is a nicknamed reprint of (Concealed Courtyard)
-[Scryfall](https://scryfall.com/search?q=Concealed Courtyard)
+[Scryfall](https://scryfall.com/search?q=Concealed%20Courtyard)
 ### Notes
 
  - Nicknamed painland reprint to flesh out commander mana bases
@@ -30,7 +30,7 @@ Land - Cave
 ## Boat Graveyard (Darkslick Shores)
 
 > This card is a nicknamed reprint of (Darkslick Shores)
-[Scryfall](https://scryfall.com/search?q=Darkslick Shores)
+[Scryfall](https://scryfall.com/search?q=Darkslick%20Shores)
 ### Notes
 
  - Nicknamed painland reprint to flesh out commander mana bases
@@ -39,7 +39,7 @@ Land - Cave
 ## Command Tower
 
 > This card is a reprint
-[Scryfall](https://scryfall.com/search?q=Command Tower)
+[Scryfall](https://scryfall.com/search?q=Command%20Tower)
 ### Notes
 
  - Obligatory mana fixing land for Commander
@@ -47,7 +47,7 @@ Land - Cave
 ## Crimson Forest (Karplusan Forest)
 
 > This card is a nicknamed reprint of (Karplusan Forest)
-[Scryfall](https://scryfall.com/search?q=Karplusan Forest)
+[Scryfall](https://scryfall.com/search?q=Karplusan%20Forest)
 ### Notes
 
  - Nicknamed painland reprint to flesh out commander mana bases
@@ -76,7 +76,7 @@ If anyone finds this journal, do not enter this cave, the Nevron inside will cru
 ## Dark Gestral Arena (Inspiring Vantage)
 
 > This card is a nicknamed reprint of (Inspiring Vantage)
-[Scryfall](https://scryfall.com/search?q=Inspiring Vantage)
+[Scryfall](https://scryfall.com/search?q=Inspiring%20Vantage)
 ### Notes
 
  - Nicknamed painland reprint to flesh out commander mana bases
@@ -166,16 +166,24 @@ So uh... We can rest a bit, but the moon is bright, I want to keep moving.
 ## Falling Leaves (Yavimaya, Cradle of Growth)
 
 > This card is a nicknamed reprint of (Yavimaya, Cradle of Growth)
-[Scryfall](https://scryfall.com/search?q=Yavimaya, Cradle of Growth)
+[Scryfall](https://scryfall.com/search?q=Yavimaya%2C%20Cradle%20of%20Growth)
 ### Notes
 
  - In the game, Falling Leaves is an optional area gated behind coral barriers. The Scavager boss can be found here.
  - Due to its eternal autumn setting, I've gone with a nickname reprint of Yavimaya, Cradle of Growth.
 
+## Field of Ruin
+
+> This card is a reprint
+[Scryfall](https://scryfall.com/search?q=Field%20of%20Ruin)
+### Notes
+
+ - Semi-flavorful reprint (on basis of name and art) to check nonbasics.
+
 ## Floating Cemetery (Ominous Cemetery)
 
 > This card is a nicknamed reprint of (Ominous Cemetery)
-[Scryfall](https://scryfall.com/search?q=Ominous Cemetery)
+[Scryfall](https://scryfall.com/search?q=Ominous%20Cemetery)
 ### Notes
 
  - In the game, Floating Cemetery is an optional area where an Unfinished Chalier can be found.
@@ -243,7 +251,7 @@ These siege engines seemed much more powerful in Lumière. But on this battlefie
 ## Frozen Hearts (Shivan Reef)
 
 > This card is a nicknamed reprint of (Shivan Reef)
-[Scryfall](https://scryfall.com/search?q=Shivan Reef)
+[Scryfall](https://scryfall.com/search?q=Shivan%20Reef)
 ### Notes
 
  - Nicknamed painland reprint to flesh out commander mana bases
@@ -305,7 +313,7 @@ Gustave: They seem better at surviving than humans.
 ## Lost Woods (Blooming Marsh)
 
 > This card is a nicknamed reprint of (Blooming Marsh)
-[Scryfall](https://scryfall.com/search?q=Blooming Marsh)
+[Scryfall](https://scryfall.com/search?q=Blooming%20Marsh)
 ### Notes
 
  - Nicknamed painland reprint to flesh out commander mana bases
@@ -331,12 +339,12 @@ The Aquafarm project ensured that Lumière would have a plentiful supply of food
  - This gives us an opportunity to add another dual land to this set.
  - Obviously expeditioner aligned so they get a ETB tapped sidestep.
  - It's a farm so obviously needs a Food token generating ability.
- - The concept art was chosen as it looked abstract enough in its depiciton that it could be interpreted as a hydroponic farm which better fits the description of an Aquafarm. Whereas its in-game depiction is clearly a rooftop greenhouse, that grows only flowers and not food.
+ - The concept art was chosen as it looked abstract enough in its depiction that it could be interpreted as a hydroponic farm which better fits the description of an Aquafarm that supplies food. Whereas its in-game depiction is clearly a rooftop greenhouse, that grows only flowers and not food.
 
 ## Lumière Harbor (Rishadan Port)
 
 > This card is a nicknamed reprint of (Rishadan Port)
-[Scryfall](https://scryfall.com/search?q=Rishadan Port)
+[Scryfall](https://scryfall.com/search?q=Rishadan%20Port)
 ### Notes
 
  - In the game, the harbor of Lumière is where the population congregate to witness the yearly Gommage.
@@ -425,7 +433,7 @@ The Grandis have embraced us with such warmth and hope. What a balm for the soul
 ## Painted Bluffs
 
 > This card is a reprint
-[Scryfall](https://scryfall.com/search?q=Painted Bluffs)
+[Scryfall](https://scryfall.com/search?q=Painted%20Bluffs)
 ### Notes
 
  - Has "Painted" in its name, color fixes. Easy on-flavor reprint candidate.
@@ -449,7 +457,7 @@ This land enters tapped.
 ## Sinister Cave (Sulfurous Springs)
 
 > This card is a nicknamed reprint of (Sulfurous Springs)
-[Scryfall](https://scryfall.com/search?q=Sulfurous Springs)
+[Scryfall](https://scryfall.com/search?q=Sulfurous%20Springs)
 ### Notes
 
  - Nicknamed painland reprint to flesh out commander mana bases
@@ -477,7 +485,7 @@ Maybe. Maybe we'll just stay here and... enjoy the melody.
 ## Sky Island (Botanical Sanctum)
 
 > This card is a nicknamed reprint of (Botanical Sanctum)
-[Scryfall](https://scryfall.com/search?q=Botanical Sanctum)
+[Scryfall](https://scryfall.com/search?q=Botanical%20Sanctum)
 ### Notes
 
  - Nicknamed painland reprint to flesh out commander mana bases
@@ -486,7 +494,7 @@ Maybe. Maybe we'll just stay here and... enjoy the melody.
 ## Spring Meadows (Razorverge Thicket)
 
 > This card is a nicknamed reprint of (Razorverge Thicket)
-[Scryfall](https://scryfall.com/search?q=Razorverge Thicket)
+[Scryfall](https://scryfall.com/search?q=Razorverge%20Thicket)
 ### Notes
 
  - In the game, Spring Meadows is the opening area of Act 1.
@@ -495,7 +503,7 @@ Maybe. Maybe we'll just stay here and... enjoy the melody.
 ## Stone Quarry
 
 > This card is a reprint
-[Scryfall](https://scryfall.com/search?q=Stone Quarry)
+[Scryfall](https://scryfall.com/search?q=Stone%20Quarry)
 ### Notes
 
  - In the game, Stone Quarry is an optional area. It features a non-hostile NPC known as the Unfinished Troubador
@@ -504,7 +512,7 @@ Maybe. Maybe we'll just stay here and... enjoy the melody.
 ## Stone Wave Cliffs (Spirebluff Canal)
 
 > This card is a nicknamed reprint of (Spirebluff Canal)
-[Scryfall](https://scryfall.com/search?q=Spirebluff Canal)
+[Scryfall](https://scryfall.com/search?q=Spirebluff%20Canal)
 ### Notes
 
  - In the game, a Stone Wave Cliffs is the final area of Act 1.
@@ -514,7 +522,7 @@ Maybe. Maybe we'll just stay here and... enjoy the melody.
 ## Sunless Cliffs (Blackcleave Cliffs)
 
 > This card is a nicknamed reprint of (Blackcleave Cliffs)
-[Scryfall](https://scryfall.com/search?q=Blackcleave Cliffs)
+[Scryfall](https://scryfall.com/search?q=Blackcleave%20Cliffs)
 ### Notes
 
  - In the game, a Sunless Cliffs is an optional area. It features a battle against a special mime.
@@ -540,7 +548,7 @@ Legendary Land
 ## The Indigo Tree (The World Tree)
 
 > This card is a nicknamed reprint of (The World Tree)
-[Scryfall](https://scryfall.com/search?q=The World Tree)
+[Scryfall](https://scryfall.com/search?q=The%20World%20Tree)
 ### Notes
 
  - In the game, The Indigo Tree was the rallying point for Expedition 33 if party members got split off.
@@ -597,12 +605,12 @@ It bears the twisted memories of lands previously visited.
 ```
 
 Legendary Land Creature - Axon
-Trample. Reach.
+Reach, trample
 The Reacher enters with seven sky counters.
 The Reacher cannot attack or block while it has one or more sky counters.
-Whenever a creature with flying enters or attacks, remove a sky counter from The Reacher.
+Whenever a creature you control with flying attacks, remove a sky counter from The Reacher.
 {T}: Add {G} or {U}.
-{2/U}: Remove a sky counter from The Reacher.
+{2}{G/U}: Remove a sky counter from The Reacher.
 ---
 Little one, there's more to life, if you can just see how big the sky truly is. Reach out your hand, and it's yours...
 
@@ -617,11 +625,14 @@ Little one, there's more to life, if you can just see how big the sky truly is. 
  - The Reacher is a landmark, but also an Axon. So in MTG terms, it's both a land and a creature.
  - To make something uniquely different from The Hauler (which is a man-land). I've gone with a legendary land creature, following the pattern of Dryad Arbor.
  - Now how do we balance out an 8/8 trampling uncounterable Axon that could drop on turn 1? We take a page out of Dark Depths and have this ETB with 7 sky counters. While it has sky counters, it cannot attack or block and is effectively dormant as a creature. You can still use it as a regular U/G dual land until you've remove the last sky counter.
+ - 16/01/2025: Gameplay balance changes:
+    - Sky counter removal now only triggers on creatures *you control* with flying that attack (not entering anymore)
+    - Manual sky counter removal cost changed from {G/W} to {2}{G/U}
 
 ## The Root of All Evil (Urborg, Tomb of Yawgmoth)
 
 > This card is a nicknamed reprint of (Urborg, Tomb of Yawgmoth)
-[Scryfall](https://scryfall.com/search?q=Urborg, Tomb of Yawgmoth)
+[Scryfall](https://scryfall.com/search?q=Urborg%2C%20Tomb%20of%20Yawgmoth)
 ### Notes
 
  - In the game, The Root of All Evil is Osquio's lair in Verso's Drafts.
@@ -633,7 +644,7 @@ Little one, there's more to life, if you can just see how big the sky truly is. 
 
 Legendary Land
 {T}: Add {C}.
-{5}, {T}: Return target Gestral card from your graveyard and put it into your hand. This ability costs {2} less to activate if you control a creature named Golgra, Gestral Chief
+{5}, {T}: Return target Gestral card from your graveyard and put it into your hand. This ability costs {2} less to activate if you control a creature named Golgra, Gestral Chef
 ---
 MONOCO! You're trying to skip the queue again you old... uh... old... lazy... retired warrior!
 - Golgra
@@ -645,6 +656,7 @@ MONOCO! You're trying to skip the queue again you old... uh... old... lazy... re
 
  - In the game, the Sacred River is a place where Gestrals can be resurrected.
  - Per game lore and rules established by Golgra, you need to be "in a queue" to get a Gestral resurrection, but if you're in favor with Golgra you could get a discount and "jump the queue". So I've gone with a regrowth ability with a discount if you have Golgra on the battlefield.
+ - 16/01/2026: Fix Golgra name reference.
 
 ## Twilight Quarry
 
@@ -737,7 +749,7 @@ Anxiety Mask — {2}{R}: Target creature cannot block this turn.
 ## White Sands (Seachrome Coast)
 
 > This card is a nicknamed reprint of (Seachrome Coast)
-[Scryfall](https://scryfall.com/search?q=Seachrome Coast)
+[Scryfall](https://scryfall.com/search?q=Seachrome%20Coast)
 ### Notes
 
  - Nicknamed painland reprint to flesh out commander mana bases
@@ -746,7 +758,7 @@ Anxiety Mask — {2}{R}: Target creature cannot block this turn.
 ## Yellow Harvest (Copperline Gorge)
 
 > This card is a nicknamed reprint of (Copperline Gorge)
-[Scryfall](https://scryfall.com/search?q=Copperline Gorge)
+[Scryfall](https://scryfall.com/search?q=Copperline%20Gorge)
 ### Notes
 
  - In the game, Yellow Harvest is an optional area.

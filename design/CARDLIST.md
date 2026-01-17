@@ -29,7 +29,7 @@ From this list, card designs are spawned from it, which will eventually form the
 
 ## Card Name List
 
-Cards implemented: 453
+Cards implemented: 448
 
 [x] - Card is implemented or in development, [C] - Card is a commander reprint, [R] - Card is a regular reprint, [N] - Card is a nickname reprint, [Z] - Card is a nickname reprint for commander [ ] - Card is not implemented
 
@@ -80,7 +80,7 @@ Cards implemented: 453
 [x] Chroma Barrier
 [x] Chroma Catalyst
 [x] Chroma Filter
-[x] Chroma is Flowing
+[ ] Chroma is Flowing
 [x] Chroma Prison
 [ ] Chroma Trap
 [x] Chromatic Inversion
@@ -215,15 +215,15 @@ Cards implemented: 453
 [x] Goblu
 [x] Golgra, Gestral Chef
 [x] Gommage
-[x] Gradient Charge
-[x] Gradient Counter
+[ ] Gradient Charge
+[ ] Gradient Counter
 [x] Grandis Fashionist
 [x] Grandis Merchant
 [x] Greatsword Cultist
 [x] Grosse Tête
 [x] Gustave, Lumière Engineer
 [ ] Gustave's Homage
-[x] Gustave's Ingenuity
+[ ] Gustave's Ingenuity
 [x] Gustave's Insight
 [x] Gustave's Journal
 [x] Healing Light

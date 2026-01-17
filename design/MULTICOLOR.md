@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 13/1/2026 6:20:22 pm
+> Last generated: 17/1/2026 9:18:27 pm
 
 ## A Storm is Coming
 
@@ -42,7 +42,7 @@ When this creature dies, target opponent creates a Lumina token.
 ## Abrupt Decay
 
 > This card is a reprint
-[Scryfall](https://scryfall.com/search?q=Abrupt Decay)
+[Scryfall](https://scryfall.com/search?q=Abrupt%20Decay)
 ### Notes
 
  - Staple commander spot removal.
@@ -270,23 +270,6 @@ When this creature dies, target opponent creates a Lumina token. (It's an artifa
  - 5/10/2025: Switched PT from 1/2 to 2/1 for more offensive punch.
  - 13/10/2025: Removed Devoid.
 
-## Chroma is Flowing
-
-```
-(W/G)
-Kindred Sorcery - Expeditioner
-Create two Chroma tokens. (It's an artifact with "{T}, Sacrifice this artifact: Add one mana of any color. Spend this mana only to cast a Nevron, Gestral or Expeditioner spell.")
-Luminous — Create three Chroma tokens instead if you control at least three Lumina tokens.
-```
-
-[card implementation](../custom/cards/c/chroma_is_flowing.txt)
-
-### Design Notes
-
- - In the game, this is one of Lune's quotes during battle.
- - Went with 2 Chroma tokens, so it still ramps for strategies that can take advantage, but not to Dark Ritual levels.
- - 13/11/2025: Added Luminous bonus of rewarding one extra Chroma token.
-
 ## Chromatic Petrification
 
 ```
@@ -398,7 +381,7 @@ Nevron spells you cast cost {1} less to cast.
 
 ```
 4UB
-Legendary Creature - Painter God
+Legendary Creature - Painter Avatar
 Projects disturbing Chroma — Hexproof, indestructible
 At the beginning your upkeep, Clea Unleashed loses hexproof and indestructible until end of turn.
 Summons Nevrons — At the beginning of your upkeep, choose one —
@@ -418,6 +401,7 @@ Summons Nevrons — At the beginning of your upkeep, choose one —
      - Nevron summoning translated to either a Nevron tutor (straight into the battlefield) or Nevron temporary clone.
  - Expected ways to dispatch Clea are sweepers at any speed, instant-speed removal on opponent's turn (once summoning sickness is gone) or baiting her to attack into a lethal single or gang block.
  - The weird wording around Clea Unleashed having "shields down" is due to the fact that there is no precedence of any creature gaining keywords during an opponent's turn, so there is very likely no such support in Forge. However, we can work around this limitation by inverting the situation, by having the default position be having Hexproof and Indestructible and at the beginning of the controller's upkeep, she loses said keywords until end of turn (which allows us to copy the debuff logic from Shadowspear). This allows us to preserve the original intent, at the small expense of text readability.
+ - 16/01/2026: Changed creature type from "Painter God" to "Painter Avatar"
 
 ## Closure
 
@@ -489,7 +473,7 @@ When this creature dies, target opponent creates a Lumina token.
 ## Death Stare (Gaze of Granite)
 
 > This card is a nicknamed reprint of (Gaze of Granite)
-[Scryfall](https://scryfall.com/search?q=Gaze of Granite)
+[Scryfall](https://scryfall.com/search?q=Gaze%20of%20Granite)
 ### Notes
 
  - In the game, upon choosing Verso's ending Lune was powerless to stop the destruction of the canvas. All she could do was give Verso the most mortifying stare for the betrayal he just wrought.
@@ -1277,22 +1261,6 @@ Your mother paints life. Whilst your father, death. What will you paint?
  - Has painter's discount as this is clearly a power wielded by the painters.
 w - 26/11/2025: It has come to my attention that this name is already taken in French (for the English card: Blot Out). However since, this is an English printing and that this is a custom set, there is no collsion issues with this card in Forge.
 
-## Gradient Charge
-
-```
-2(W/B)
-Sorcery - Gradient
-This spell costs {1} less to cast if you control a Painter.
-Search your library for a Gradient card, reveal that card, put it into your hand, then shuffle.
-```
-
-[card implementation](../custom/cards/g/gradient_charge.txt)
-
-### Design Notes
-
- - In the game, Gradient attacks are "Epic" tier attacks. To use such attacks you need to fill up a Gradient gauge. The Gradient gauge holds up to 3 charges. Gradient attacks cost anywhere between 1 to 3 charges.
- - Mechanically, this is just a Gradient spell tutor to assist in Painter-based strategies.
-
 ## Grandis Cleaner
 
 ```
@@ -1376,7 +1344,7 @@ When this creature dies, target opponent creates a Lumina token. (It's an artifa
 ## Growth Spiral
 
 > This card is a reprint
-[Scryfall](https://scryfall.com/search?q=Growth Spiral)
+[Scryfall](https://scryfall.com/search?q=Growth%20Spiral)
 ### Notes
 
  - Obligatory commander ramp.
@@ -1660,7 +1628,7 @@ When you unlock this door, return target creature card from your graveyard to th
 Sorcery
 Choose one —
 • Manor Fire deals 1 damage to each creature.
-• Manor Fire deals 3 damage to each player.
+• Destroy target nonbasic land.
 • Destroy all Rooms.
 Draw a card.
 ---
@@ -1674,6 +1642,7 @@ You're ok.
  - In the game, this is the event that took Verso's life and started Aline's cycle of grief, made Alicia a pariah, started Clea's war against the writers and Renoir's attempts to get Aline out of the canvas, tearing the Dessendre family apart.
  - A basic foil for room strategies with a cantrip so it's not entirely useless when not facing against room strategies.
  - 14/01/2025: Changed cost from 2(R/G) to 1RG and changed to a modal.
+ - 16/01/2025: Changed bolt all players mode to destroy a nonbasic land.
 
 ## Manor Greenhouse // Manor Gallery
 
@@ -1891,7 +1860,7 @@ I know, how about showing me a dance of love and sorrow? I am also the official 
 
 ```
 WB
-Legendary Creature - Painter God
+Legendary Creature - Painter Avatar
 Activated abilities of Expeditioners, Chroma, Lumina and Pictos cannot be activated.
 ---
 Her silence is deafening.
@@ -1908,12 +1877,13 @@ Her silence is deafening.
     - In this case, an Ethersworn Canonist with Nevron/Painter bias.
     - And a Silence effect for the cost of 3 chroma tokens.
  - 4/11/2025: Exchanged abiltiies with human Alicia. Replaced Nevrons with Expeditioners for the null rod effect.
+ - 16/01/2026: Changed creature type from "Painter God" to "Painter Avatar"
 
 ## Painted Clea, the Regent
 
 ```
 2UB
-Legendary Creature - Painter God
+Legendary Creature - Painter Avatar
 Nevron spells you cast cost {1} less to cast.
 Nevron creatures you control get +1/+1.
 At the beginning of your upkeep, create a 1/1 colorless Nevron creature token.
@@ -1941,6 +1911,7 @@ Maelle: I bet Clea hated Maman's portrait of her. So she painted over her.
  - 2/11/2025: Reduced Nevron buff from +2/+2 to +1/+1
  - 27/11/2025: Reduced cost reduction from {2} to {1}
  - 29/12/2025: Renamed to - Painted Clea, the Regent
+ - 16/01/2026: Changed creature type from "Painter God" to "Painter Avatar"
 
 ## Painting Workshop
 
@@ -1983,7 +1954,7 @@ Counterattack — When this creature is dealt combat damage, it deals that amoun
 ## Primal Empathy
 
 > This card is a reprint
-[Scryfall](https://scryfall.com/search?q=Primal Empathy)
+[Scryfall](https://scryfall.com/search?q=Primal%20Empathy)
 ### Notes
 
  - Another case of a quote from the game looking for a suitable reprint to attach itself to.
@@ -2573,7 +2544,7 @@ How cruel of your father to use you like this.
 ## Void Rend
 
 > This card is a reprint
-[Scryfall](https://scryfall.com/search?q=Void Rend)
+[Scryfall](https://scryfall.com/search?q=Void%20Rend)
 ### Notes
 
  - Commander spot removal.

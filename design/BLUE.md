@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 13/1/2026 6:28:41 pm
+> Last generated: 17/1/2026 9:18:27 pm
 
 ## An Advantage!
 
@@ -231,7 +231,7 @@ No, no, you are HIS creations, not mine. You will not take this Canvas from me!
 ## Dive Down
 
 > This card is a reprint
-[Scryfall](https://scryfall.com/search?q=Dive Down)
+[Scryfall](https://scryfall.com/search?q=Dive%20Down)
 ### Notes
 
  - In the game, Esquie can start diving if you find Urrie.
@@ -303,7 +303,9 @@ The Paintress must be laughing. Diverting the resources of the entire Engineerin
 ```
 2U
 Creature - Human Expeditioner
-When this creature enters or attacks, create a Map token. (It’s an artifact with “{1}, {T}, Sacrifice this token: Target creature you control explores. Activate only as a sorcery.”)
+When this creature enters, put a charted counter on target land.
+Lands with charted counters on them are Islands.
+When this creature enters or attacks, create a Map token.
 When this creature dies, create a Chroma token.
 ---
 The Paintress sent a storm to overcome us, but it is we who have overcome the storm! After surviving that, crushing those Nevrons was almost an afterthought.
@@ -398,23 +400,6 @@ Remove nine quest counters from this enchantment and exile it: Each player shuff
  - Same quest counter trigger condition as the ascension challenge. Originally I wanted something that triggers on the gain/loss of flying on any creature (to thematically map to hopping), but there is no existing precendent for triggers from the gain or loss of a particular ability, so this isn't possible to implement.
  - The final payoff is a Timetwister effect. Exile cost to prevent recursion in multiples as-is standard with most Timetwister-style spells. 9 quest counters is the activation threshold as the Hopscotch ends at the 9th tile.
 
-## Gradient Counter
-
-```
-U
-Kindred Instant - Expeditioner
-Counter target Gradient spell.
----
-Parry it!
-```
-
-[card implementation](../custom/cards/g/gradient_counter.txt)
-
-### Design Notes
-
- - In the game, a Gradient attack is a super-charged attack. Such attacks can only be parried with a Gradient counter.
- - Mechanically, since we have Gradient instants/sorceries. This is obviously a thematically-relevant counter.
-
 ## Grandis Fashionist
 
 ```
@@ -434,24 +419,6 @@ Finish my sentence in a wonderfully poetic way: Life blooms like a rose, with pe
 
  - In the game, you can play word games with the Grandis Fashionist to unlock extra outfits.
  - Loose mechanical tie outfits > equipment > pictos. Thus made this basically a Stoneforge Mystic for Pictos.
-
-## Gustave's Ingenuity
-
-```
-3UU
-Kindred Instant - Expeditioner
-This spell costs {1} less to cast if you control an Expeditioner.
-Draw three cards.
----
-Maybe Gustave's idea to convert chroma from Pictos to... What did he call it? Lumina? Maybe that's not so crazy after all.
-- Corinne, Expedition 34
-```
-
-[card implementation](../custom/cards/g/gustaves_ingenuity.txt)
-
-### Design Notes
-
- - Raw card draw with an expeditioner bonus
 
 ## Gustave's Insight
 
@@ -586,7 +553,7 @@ At the beginning of each end step, remove all flying counters on this creature.
 ## Mana Drain
 
 > This card is a reprint
-[Scryfall](https://scryfall.com/search?q=Mana Drain)
+[Scryfall](https://scryfall.com/search?q=Mana%20Drain)
 ### Notes
 
  - Obligatory Commander counter.
@@ -639,7 +606,7 @@ Doors of chroma, open!
 ## Swift Counter
 
 ```
-1UU
+2U
 Kindred Instant - Expeditioner
 This spell costs {1} less to cast if you control an Expeditioner.
 Counter target spell.
@@ -651,6 +618,7 @@ Create a Lumina token. (It's an artifact with "{T}, Sacrifice this artifact: Scr
 ### Design Notes
 
  - This set needs a hard counter. Give it the standard Expeditioner bonuses.
+ - 16/01/2026: Changed cost from 1UU to 2U
 
 ## The Search for Esquie's Rocks
 

@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 13/1/2026 3:47:52 pm
+> Last generated: 17/1/2026 9:18:27 pm
 
 ## Abbest
 
@@ -25,7 +25,7 @@ When this creature dies, target opponent creates a Lumina token. (It's an artifa
 ## All Suns' Dawn
 
 > This card is a reprint
-[Scryfall](https://scryfall.com/search?q=All Suns' Dawn)
+[Scryfall](https://scryfall.com/search?q=All%20Suns%27%20Dawn)
 ### Notes
 
  - Thematically on-point reprint. Dawn signifying tomorrow. Tomorrow comes.
@@ -82,7 +82,7 @@ Splice onto Expeditioner Instant or Sorcery {G} (As you cast an Expeditioner Ins
 ## Doubling Season
 
 > This card is a reprint
-[Scryfall](https://scryfall.com/search?q=Doubling Season)
+[Scryfall](https://scryfall.com/search?q=Doubling%20Season)
 ### Notes
 
  - Commander staple.
@@ -265,14 +265,6 @@ It may not be glamorous, but truly essential work rarely is. Doesn’t make it a
 
  - In the game, Expedition 69 were responsible for most of the grappling points installed throughout the continent. Obviously then, members of this expeditions have a strong exploration theme.
  - For this card, I've gone with a land ramp effect with a surveil attack trigger to sell the Surveyor > Surveiling.
-
-## Explore
-
-> This card is a reprint
-[Scryfall](https://scryfall.com/search?q=Explore)
-### Notes
-
- - Easy on-flavor reprint.
 
 ## Face Adversity
 
@@ -553,6 +545,8 @@ Have you tried throwing with your other arm instead? If you could hit the Paintr
 1G
 Creature - Nevron
 Protection from black
+When this creature enters, put a fungus counter on target land.
+Lands with fungus counters on them do not untap during their controllers' untap steps.
 When this creature dies, target opponent creates a Lumina token. (It's an artifact with "{T}, Sacrifice this artifact: Scry 1.")
 
 2/2
@@ -564,6 +558,7 @@ When this creature dies, target opponent creates a Lumina token. (It's an artifa
 
  - In the game, Saplings can be found in Yellow Harvest and Falling Leaves.
  - Absorbs dark attacks ergo. Protection from black.
+ - 17/01/2026: Added fungus counter ETB to increase the quota of effects that check nonbasics.
 
 ## Shrine to The Paintress
 

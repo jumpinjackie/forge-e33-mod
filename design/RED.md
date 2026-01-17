@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 13/1/2026 6:28:41 pm
+> Last generated: 17/1/2026 9:18:27 pm
 
 ## Anger
 
@@ -35,7 +35,7 @@ When this creature dies, you may have this creature deal 2 damage to target crea
 ## Chaos Warp
 
 > This card is a reprint
-[Scryfall](https://scryfall.com/search?q=Chaos Warp)
+[Scryfall](https://scryfall.com/search?q=Chaos%20Warp)
 ### Notes
 
  - Obligatory spot removal in commander.
@@ -63,6 +63,7 @@ Draw a card.
 Kindred Instant - Expeditioner
 You may sacrifice a Mountain rather than pay this spell's mana cost.
 Crustal Crush deals 5 damage to target creature or planeswalker.
+Create a Lumina token.
 ---
 Let's shake the earth!
 ```
@@ -73,11 +74,12 @@ Let's shake the earth!
 
  - In the game, this is one of Lune's skills.
  - Obviously a mountain/rock based attack so gone with Mine Collapse but with Expeditioner alignment and relaxed timing restrictions for the alt cost.
+ - 16/01/2026: Added Lumina token bonus.
 
 ## Deflecting Swat
 
 > This card is a reprint
-[Scryfall](https://scryfall.com/search?q=Deflecting Swat)
+[Scryfall](https://scryfall.com/search?q=Deflecting%20Swat)
 ### Notes
 
  - Commander staple
@@ -85,7 +87,7 @@ Let's shake the earth!
 ## Demand Answers
 
 > This card is a reprint
-[Scryfall](https://scryfall.com/search?q=Demand Answers)
+[Scryfall](https://scryfall.com/search?q=Demand%20Answers)
 ### Notes
 
  - In the game, after failing to secure the heart of The Paintress at Old Lumière the party regroups at camp and Lune starts asking probing questions at Verso about his relationship with Renoir.
@@ -224,7 +226,7 @@ Yahoo! I can sell stuff! You gots Chroma, yeh?
 ## Gestral Fight Club (Grand Melee)
 
 > This card is a nicknamed reprint of (Grand Melee)
-[Scryfall](https://scryfall.com/search?q=Grand Melee)
+[Scryfall](https://scryfall.com/search?q=Grand%20Melee)
 ### Notes
 
  - In the game, there is a hidden Gestral Arena where the party can fight gestrals for rewards.
@@ -254,6 +256,7 @@ Gestral Volleyball Strike deals 5 damage to any target.
 XR
 Kindred Sorcery - Expeditioner
 X target creatures can't block this turn.
+Create a Lumina token.
 ---
 Sunniso: Geez, you don't need to be so rude.
 Gustave: Nononono, uh ... it's just, um ... it's the password ...
@@ -267,6 +270,7 @@ Sunniso: Well, I don't know! Golgra never told me the password. But whatever, ju
  - In the game, this is the "password" Golgra passed down to the Expeditioners to get past the Gestral guards at Esquie's Nest
  - Mechanically, it make sense (and is hilarious) to make Gestrals unable to block.
  - 27/11/2025: Dropped the Gestral restriction to avoid parasitism. So this is now just an Expeditioner-branded Wave of Indifference.
+ - 16/01/2026: Added Lumina token bonus.
 
 ## Grosse Tête
 
@@ -336,7 +340,7 @@ When this creature dies, target opponent creates a Lumina token. (It's an artifa
 ## Last-Ditch Effort
 
 > This card is a reprint
-[Scryfall](https://scryfall.com/search?q=Last-Ditch Effort)
+[Scryfall](https://scryfall.com/search?q=Last-Ditch%20Effort)
 ### Notes
 
  - In the game, after Gustave was mortally wounded by Painted Renoir at the Stone Wave Cliffs, he charges up his Overcharge move as a desperate measure to inflict some damage.
@@ -460,14 +464,6 @@ Monoco: Count me in then.
 
  - In the game, Verso makes a persuasive argument that convinces Monoco to join the party.
  - The card design is completely based on this conversation, and the easiest thing that comes to mind is a standard red temp creature spell.
-
-## Pinnacle of Rage
-
-> This card is a reprint
-[Scryfall](https://scryfall.com/search?q=Pinnacle of Rage)
-### Notes
-
- - Another on-flavor reprint for one of our various quotes to attach to.
 
 ## Potier
 
