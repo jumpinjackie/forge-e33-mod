@@ -2892,7 +2892,20 @@ public class CardConjurerValidateCommand : BaseCommand
                 str2 = NormalizeString(str2);
 
                 // Helper to get unicode info for a character
-                static string GetUnicodeInfo(char c) => c > 127 ? $"U+{(int)c:X4}" : c.ToString();
+                static string GetUnicodeInfo(char c) 
+                {
+                    if (c == ' ') return "SPACE";
+                    if (c == '\t') return "TAB";
+                    if (c == '\n') return "NEWLINE";
+                    if (char.IsControl(c)) return $"CTRL U+{(int)c:X4}";
+                    return c > 127 ? $"U+{(int)c:X4}" : $"'{c}'";
+                }
+
+                // Helper to escape whitespace for display
+                static string EscapeWhitespace(string s) => s
+                    .Replace(" ", "·")      // Visible space
+                    .Replace("\t", "→")     // Tab
+                    .Replace("\n", "↵\n");  // Newline
 
                 // Split into lines
                 var lines1 = str1.Split('\n');
@@ -2912,30 +2925,46 @@ public class CardConjurerValidateCommand : BaseCommand
                         int contextEnd1 = Math.Min(str1.Length, diffPos + 30);
                         int contextEnd2 = Math.Min(str2.Length, diffPos + 30);
 
-                        marker.AppendLine($"              First difference at position {diffPos}:");
-                        marker.AppendLine($"                CC[{contextStart}..{contextEnd1}]: ...{str1.Substring(contextStart, contextEnd1 - contextStart)}...");
-                        marker.AppendLine($"                DF[{contextStart}..{contextEnd2}]: ...{str2.Substring(contextStart, contextEnd2 - contextStart)}...");
+                        var cc = str1.Substring(contextStart, contextEnd1 - contextStart);
+                        var df = str2.Substring(contextStart, contextEnd2 - contextStart);
 
-                        // Show character-by-character comparison around the diff
-                        int markerStart = Math.Max(0, diffPos - 10);
-                        int markerEnd = Math.Min(Math.Max(str1.Length, str2.Length), diffPos + 10);
-                        marker.Append("              Marker:        ");
-                        marker.Append(new string(' ', markerStart - contextStart + 17)); // Account for offset and indent
-                        marker.AppendLine(new string('^', Math.Min(5, markerEnd - markerStart)));
+                        marker.AppendLine($"              First difference at position {diffPos}:");
+                        marker.AppendLine($"                CC: ...{EscapeWhitespace(cc)}...");
+                        marker.AppendLine($"                DF: ...{EscapeWhitespace(df)}...");
+
+                        // Show character details at the diff position
+                        if (diffPos < str1.Length && diffPos < str2.Length)
+                        {
+                            marker.AppendLine($"                Char at {diffPos}: CC={GetUnicodeInfo(str1[diffPos])} vs DF={GetUnicodeInfo(str2[diffPos])}");
+                        }
+                        else if (diffPos < str1.Length)
+                        {
+                            marker.AppendLine($"                Char at {diffPos}: CC={GetUnicodeInfo(str1[diffPos])} vs DF=(end of string)");
+                        }
+                        else
+                        {
+                            marker.AppendLine($"                Char at {diffPos}: CC=(end of string) vs DF={GetUnicodeInfo(str2[diffPos])}");
+                        }
                     }
 
-                    // Also check for special character differences
-                    var specialChars = new List<(int pos, char c1, char c2)>();
+                    // Also check for all differences (not just non-ASCII)
+                    var allDiffs = new List<(int pos, char c1, char c2)>();
                     int minLength = Math.Min(str1.Length, str2.Length);
                     for (int i = 0; i < minLength; i++)
                     {
-                        if (str1[i] != str2[i] && (str1[i] > 127 || str2[i] > 127))
-                            specialChars.Add((i, str1[i], str2[i]));
+                        if (str1[i] != str2[i])
+                            allDiffs.Add((i, str1[i], str2[i]));
                     }
 
-                    if (specialChars.Count > 0)
+                    if (allDiffs.Count > 1)
                     {
-                        marker.AppendLine($"              Special chars: {string.Join(", ", specialChars.Select(x => $"pos {x.pos}: '{x.c1}' ({GetUnicodeInfo(x.c1)}) vs '{x.c2}' ({GetUnicodeInfo(x.c2)})"))}{Environment.NewLine}");
+                        marker.AppendLine($"              All differences found:");
+                        foreach (var (pos, c1, c2) in allDiffs.Take(5))
+                        {
+                            marker.AppendLine($"                pos {pos}: CC={GetUnicodeInfo(c1)} vs DF={GetUnicodeInfo(c2)}");
+                        }
+                        if (allDiffs.Count > 5)
+                            marker.AppendLine($"                ... and {allDiffs.Count - 5} more differences");
                     }
                 }
                 else
@@ -2949,8 +2978,18 @@ public class CardConjurerValidateCommand : BaseCommand
                         if (lines1[i] != lines2[i])
                         {
                             marker.AppendLine($"              First difference at line {i + 1}:");
-                            marker.AppendLine($"                CC: {lines1[i]}");
-                            marker.AppendLine($"                DF: {lines2[i]}");
+                            marker.AppendLine($"                CC: {EscapeWhitespace(lines1[i])}");
+                            marker.AppendLine($"                DF: {EscapeWhitespace(lines2[i])}");
+                            
+                            // Find first char difference in this line
+                            for (int j = 0; j < Math.Min(lines1[i].Length, lines2[i].Length); j++)
+                            {
+                                if (lines1[i][j] != lines2[i][j])
+                                {
+                                    marker.AppendLine($"                First char diff at line {i + 1} pos {j}: CC={GetUnicodeInfo(lines1[i][j])} vs DF={GetUnicodeInfo(lines2[i][j])}");
+                                    break;
+                                }
+                            }
                             break;
                         }
                     }
@@ -2959,24 +2998,6 @@ public class CardConjurerValidateCommand : BaseCommand
                     if (lines1.Length != lines2.Length)
                     {
                         marker.AppendLine($"              Line count: CC has {lines1.Length} lines, DF has {lines2.Length} lines");
-                    }
-
-                    // Also check for special character differences
-                    var specialChars = new List<(int line, int pos, char c1, char c2)>();
-                    for (int i = 0; i < Math.Min(lines1.Length, lines2.Length); i++)
-                    {
-                        var line1 = lines1[i];
-                        var line2 = lines2[i];
-                        for (int j = 0; j < Math.Min(line1.Length, line2.Length); j++)
-                        {
-                            if (line1[j] != line2[j] && (line1[j] > 127 || line2[j] > 127))
-                                specialChars.Add((i + 1, j, line1[j], line2[j]));
-                        }
-                    }
-
-                    if (specialChars.Count > 0)
-                    {
-                        marker.AppendLine($"              Special chars: {string.Join(", ", specialChars.Select(x => $"line {x.line} pos {x.pos}: '{x.c1}' ({GetUnicodeInfo(x.c1)}) vs '{x.c2}' ({GetUnicodeInfo(x.c2)}"))}");
                     }
                 }
 
