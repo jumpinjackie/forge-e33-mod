@@ -14,6 +14,8 @@ Whenever you cast a Painter or Gradient spell, draw a card.
 T:Mode$ SpellCast | ValidCard$ Card.Painter,Card.Gradient | ValidActivatingPlayer$ You | Execute$ TrigDraw | TriggerZones$ Battlefield | TriggerDescription$ Whenever you cast a Painter or Gradient spell, draw a card.
 SVar:TrigDraw:DB$ Draw | NumCards$ 1
 A:AB$ ChangeZone | Cost$ 2 U Sac<1/CARDNAME> | Origin$ Graveyard | Destination$ Hand | TgtPrompt$ Choose target Gradient card in your graveyard | ValidTgts$ Gradient.YouCtrl | SpellDescription$ Return target Gradient card from your graveyard to your hand.
+[Artist]
+Sandfall Interactive
 [DesignNotes]
  - In the game, the Painting Workshop is an area where one must collect 3 items to unlock a barrier, where a Lampmaster boss battle happens.
  - Gone with a card that is a value engine for Painter/Gradient strategies.

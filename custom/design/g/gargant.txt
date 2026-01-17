@@ -33,6 +33,8 @@ S:Mode$ Continuous | Affected$ Card.Self+counters_GE1_ICE | AddKeyword$ Protecti
 [AbilityWords]
 Freezes
 Lands a series of punches
+[Artist]
+Sandfall Interactive
 [DesignNotes]
  - In the game, Gargant is a boss in Frozen Hearts.
  - Rather than transcribe its abilities 1:1 like other Nevrons, I've gone for something different here and only tried to mechanically capture its "flip-flop" elemental immunity.

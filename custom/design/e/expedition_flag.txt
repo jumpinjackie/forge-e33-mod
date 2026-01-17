@@ -20,6 +20,8 @@ S:Mode$ Continuous | Affected$ Creature.Expeditioner | AddPower$ 1 | AddToughnes
 A:AB$ Mana | Cost$ T | Produced$ Any | SpellDescription$ Add one mana of any color.
 [RelatedTokens]
 c_a_lumina
+[Artist]
+Sandfall Interactive
 [DesignNotes]
  - In the game, Expedition flags are save points scattered throughout the continent laid down by previous Expeditions.
  - Gone with an Expeditioner-focused variant of Patchwork Banner.

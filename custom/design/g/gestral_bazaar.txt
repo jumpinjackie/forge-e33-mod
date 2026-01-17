@@ -22,5 +22,7 @@ SVar:AttachAILogic:Pump
 S:Mode$ Continuous | Affected$ Card.EnchantedBy | AddAbility$ UCDraw | Description$ Enchanted land has "{T}, Discard a card: Draw a card."
 SVar:UCDraw:AB$ Draw | Cost$ T Discard<1/Card> | NumCards$ 1 | SpellDescription$ Draw a card.
 SVar:NonStackingAttachEffect:True
+[Artist]
+Sandfall Interactive
 [DesignNotes]
  - Gestral-aligned functional reprint of Tin Street Market

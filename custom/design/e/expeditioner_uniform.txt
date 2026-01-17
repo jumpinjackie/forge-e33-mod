@@ -21,6 +21,8 @@ S:Mode$ Continuous | Affected$ Creature.EquippedBy | AddType$ Expeditioner | Des
 S:Mode$ Continuous | Affected$ Human.EquippedBy | AddPower$ 1 | AddToughness$ 1 | Description$ As long as equipped creature is a Human, it gets +1/+1.
 T:Mode$ Attacks | ValidCard$ Card.AttachedBy | Execute$ TrigToken | TriggerDescription$ Whenever equipped creature attacks, create a Lumina token.
 SVar:TrigToken:DB$ Token | TokenAmount$ 1 | TokenOwner$ You | TokenScript$ c_a_lumina | SpellDescription$ Create a Lumina token.
+[Artist]
+Sandfall Interactive
 [DesignNotes]
  - In the game's prologue, Sophie hands Gustave an Expeditioner uniform she made. She wants to see him wearing the uniform before the Gommage.
  - Gone with an equipment that applies type-changing and mild buffs if the wearer is a human. Also has an explore attack trigger, to go with the expedition/exploration theme.

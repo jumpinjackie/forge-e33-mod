@@ -39,6 +39,8 @@ A:AB$ DealDamage | Cost$ UB T | ValidTgts$ Any | NumDmg$ 1 | SpellDescription$ ~
 A:AB$ DealDamage | Cost$ UB T | ValidTgts$ Any | NumDmg$ 2 | IsPresent$ Card.Self+counters_GE3_RANK | SpellDescription$ ~ deals 2 damage to any target.
 A:AB$ DamageAll | Cost$ 4 W T SubCounter<X/RANK> | NumDmg$ X | ValidCards$ Creature.OppCtrl | ValidDescription$ each creature your opponents control. | SpellDescription$ ~ deals X damage to each creature your opponents controls, where X is the number of rank counters on him.
 SVar:X:Count$xPaid
+[Artist]
+Sandfall Interactive
 [DesignNotes]
  - The main gimmick we want to mechanically capture is his rank. Rank is gained from dealing damage and is lost on taking damage.
  - Easy map to gain/loss of rank counters on dealing damage/taking damage. For game balance, Verso will lose all rank counters on a single hit.

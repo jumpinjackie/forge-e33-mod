@@ -22,6 +22,8 @@ SVar:PlayMain1:TRUE
 [RelatedTokens]
 w_1_1_party_guest
 c_a_food_sac
+[Artist]
+Sandfall Interactive
 [DesignNotes]
  - In the game, one of Maelle's nightmare visions is of a birthday party with Gustave and Verso as guests.
  - Gone with an enchantment that brings in some party guests.

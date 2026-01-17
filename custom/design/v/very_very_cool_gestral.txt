@@ -22,6 +22,8 @@ Queueing is for losers
 K:Menace
 A:AB$ PutCounter | Cost$ 1 B | ValidTgts$ Creature.Other | TgtPrompt$ Select another target creature | CounterType$ Menace | CounterNum$ 1 | SubAbility$ DBAnimate | SpellDescription$ Put a menace counter on another target creature.
 SVar:DBAnimate:DB$ Animate | Defined$ Targeted | Types$ Toy | Duration$ Permanent | SpellDescription$ It becomes a Toy in addition to its other types.
+[Artist]
+Sandfall Interactive
 [DesignNotes]
  - In the game, a Very Very Cool Gestral exists in Verso's Drafts. If you have a conversation with him he notes that he doesn't like standing in line (for the ride). If you agree with him, he will be impressed by your like-mindedness and give you a ride ticket. Each party member you take the ride on will be awarded with a new Esquie outfit.
  - Even though it is extremely flavorful, We can't reprint Line Cutter from Unfinity as it uses a joke mechanic (Attractions). So instead we've taken a page out of Butch DeLoria, Tunnel Snake and gave him Menace to symbolize his "coolness". The menace counter granting is also copied from Butch, but the type is changed to Toy to map to him rewarding Esquie outfits (Esquie being a giant stuffed toy).

@@ -22,6 +22,8 @@ SVar:TrigDraw:DB$ Draw | NumCards$ 1 | ConditionCheckSVar$ Y | ConditionSVarComp
 SVar:Y:Count$Valid Lumina.YouCtrl
 [ArtNotes]
 An Expedition 33 member swiftly dodges an enemy strike.
+[Artist]
+Sandfall Interactive
 [DesignNotes]
  - In the game, enemy attacks can be dodged or parried. A dodge performed at the right time is a perfect dodge.
  - Mechanically translated to a basic blink effect. Can be used as a defensive combat trick or to milk extra ETB triggers on your creatures.

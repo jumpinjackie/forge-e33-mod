@@ -15,5 +15,7 @@ My love. These foes are beneath you. You, who have fought heaven and earth... An
 A:SP$ Animate | Triggers$ DiesTrigger | ValidTgts$ Creature | StackDescription$ Until end of turn, {c:Targeted} gains "When this creature dies, return it to the battlefield tapped under its owner's control with a +1/+1 counter on it." | SpellDescription$ Until end of turn, target creature gains "When this creature dies, return it to the battlefield tapped under its owner's control with a +1/+1 counter on it."
 SVar:DiesTrigger:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Card.Self | Execute$ TrigChangeZone | TriggerDescription$ When this creature dies, return it to the battlefield tapped under its owner's control with a +1/+1 counter on it.
 SVar:TrigChangeZone:DB$ ChangeZone | Origin$ Graveyard | Destination$ Battlefield | Tapped$ True | Defined$ TriggeredNewCardLKICopy | WithCountersType$ P1P1
+[Artist]
+Sandfall Interactive
 [DesignNotes]
  - Another card where we have an awesome quote looking for a card to live in. In this case, functional reprint of Feign Death, because Simon ain't feigning death here!

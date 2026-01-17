@@ -19,6 +19,8 @@ SVar:DBCleanup:DB$ Cleanup | ClearRemembered$ True
 SVar:X:Remembered$Amount
 [RelatedTokens]
 c_a_chroma
+[Artist]
+Sandfall Interactive
 [DesignNotes]
  - In the game, after slaying the first of two Axons, a cutscene plays at camp where its heart is offered by Lune to The Curator, but he insists that Maelle do the offering instead.
  - Gone with an Innocent Blood mutual creature sac effect, but with a Chroma bonus (as a "reward" for the sacrifice)

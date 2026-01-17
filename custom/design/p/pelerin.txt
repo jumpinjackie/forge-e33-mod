@@ -30,6 +30,8 @@ S:Mode$ Continuous | Affected$ Card.Self+counters_GE1_ICE | AddKeyword$ Protecti
 T:Mode$ DamageDoneOnce | CombatDamage$ True | ValidTarget$ Card.Self | Execute$ TrigReflectDamage | TriggerDescription$ When ~ is dealt combat damage, it deals that amount of damage to target creature an opponent controls.
 SVar:TrigReflectDamage:DB$ DealDamage | ValidTgts$ Creature.OppCtrl | TgtPrompt$ Select target creature an opponent controls | NumDmg$ X
 SVar:X:TriggerCount$DamageAmount
+[Artist]
+Sandfall Interactive
 [DesignNotes]
  - In the game, Pelerins can be encountered in Frozen Hearts
  - Has the same "flip-flop" elemental immunity as Stalact and Gargant, so has the same flip-flop protection.

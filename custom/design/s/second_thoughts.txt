@@ -15,6 +15,8 @@ C
 [FlavorText]
 You do that, we both die.
 - Lune
+[Artist]
+Sandfall Interactive
 [DesignNotes]
  - Another case of a quote from the game looking for a suitable reprint to attach itself to.
  - Useful spot removal in limited/draft.

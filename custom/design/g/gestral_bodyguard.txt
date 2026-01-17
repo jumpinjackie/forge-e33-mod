@@ -22,5 +22,7 @@ K:Flash
 A:AB$ Charm | Cost$ Sac<1/CARDNAME> | Choices$ DBShield,DBHexproof | CharmNum$ 1
 SVar:DBShield:DB$ PutCounter | ValidTgts$ Creature | TgtPrompt$ Select target creature | CounterType$ SHIELD | CounterNum$ 1 | SpellDescription$ Put a shield counter on target creature.
 SVar:DBHexproof:DB$ Pump | ValidTgts$ Creature | TgtPrompt$ Select target creature | KW$ Hexproof | SpellDescription$ Target creature gains hexproof until end of turn.
+[Artist]
+Sandfall Interactive
 [DesignNotes]
  - Draft/limited filler to round out the creature roster. Gave flash for combat trickiness.

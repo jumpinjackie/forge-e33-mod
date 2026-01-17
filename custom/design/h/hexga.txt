@@ -25,6 +25,8 @@ K:etbCounter:SHIELD:1
 T:Mode$ ChangesZone | ValidCard$ Card.Self | Origin$ Any | Destination$ Battlefield | Execute$ TrigShield | TriggerDescription$ When ~ enters, put a shield counter on target creature you control.
 SVar:TrigShield:DB$ PutCounter | CounterType$ SHIELD | CounterNum$ 1 | ValidTgts$ Creature.YouCtrl
 $NEVRON_DEATH_ABILITY
+[Artist]
+Sandfall Interactive
 [DesignNotes]
  - In the game, Hexga is a rock-based Nevron.
  - Thus it has an Elemental sub-type.

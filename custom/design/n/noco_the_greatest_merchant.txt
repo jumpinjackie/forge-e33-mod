@@ -21,6 +21,8 @@ T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ 
 SVar:TrigDraw:DB$ Draw | NumCards$ 1 | SubAbility$ DBDiscard
 SVar:DBDiscard:DB$ Discard | Defined$ You | Mode$ TgtChoose | NumCards$ 1
 DeckHas:Ability$Discard
+[Artist]
+Sandfall Interactive
 [DesignNotes]
  - In the game, Noco is the first Gestral Expedition 33 finds.
  - Nothing too fancy, just modeled on Vodalian Merchant, but the loot trigger happens also on death.

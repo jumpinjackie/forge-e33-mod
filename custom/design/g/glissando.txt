@@ -27,6 +27,8 @@ A:AB$ GainControl | Cost$ T | ValidTgts$ Creature | TgtPrompt$ Select target cre
 A:AB$ Token | Cost$ T | TokenAmount$ 1 | TokenOwner$ You | TokenScript$ g_1_1_ballet_nevron | SpellDescription$ Create a 1/1 green Nevron creature token with flying named Ballet.
 [RelatedTokens]
 g_1_1_ballet_nevron
+[Artist]
+Sandfall Interactive
 [DesignNotes]
  - In the game, Glissando is an optional sub-boss in Sirène's coliseum
  - Has an appearance of a wurm, so gave it a that sub-type.

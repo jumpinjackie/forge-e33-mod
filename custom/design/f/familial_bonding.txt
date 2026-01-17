@@ -20,6 +20,8 @@ T:Mode$ AttackersDeclared | Execute$ TrigSyphon | ValidAttackers$ Creature.Chose
 SVar:TrigSyphon:DB$ LoseLife | ValidTgts$ Opponent | LifeAmount$ 2 | SubAbility$ DBGainLife
 SVar:DBGainLife:DB$ GainLife | Defined$ You | LifeAmount$ 2 | SubAbility$ DBDraw
 SVar:DBDraw:DB$ Draw | NumCards$ 1
+[Artist]
+Sandfall Interactive
 [DesignNotes]
  - In the game, inside Verso's Treehouse in Verso's Drafts, there are various artpieces depicting Verso interacting with various family members. One of them is him bonding with his father, Renoir.
  - Mapped to an opponen syphon trigger when two or more creatures of the same type (same family) attack.

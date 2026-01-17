@@ -19,6 +19,8 @@ Although the citizens of Lumière always hope for the current Expedition to succ
 [ForgeScript]
 K:Training
 $EXPEDITIONER_DEATH_ABILITY
+[Artist]
+Sandfall Interactive
 [DesignNotes]
  - In the game, upon the defeat of The Paintress, the party triumphantly returns to Lumière. The next group of Expeditioners are among those welcoming back the party and wanting to pick their minds on how they did the impossible.
  - This card depicts such Expeditioners.

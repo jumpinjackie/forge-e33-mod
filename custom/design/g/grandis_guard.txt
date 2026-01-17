@@ -19,6 +19,8 @@ Contrary to what some believe, guard duty is quite rewarding. I find it meditati
 K:Vigilance
 A:AB$ Tap | Cost$ 1 WU T | ValidTgts$ Creature | TgtPrompt$ Select target creature | SpellDescription$ Tap target creature.
 SVar:NonCombatPriority:1
+[Artist]
+Sandfall Interactive
 [DesignNotes]
  - In the game, a Grandis Guard stands outside Monoco's Station.
  - Gone with a vigilant, high-toughness creature with a creature tapping ability.

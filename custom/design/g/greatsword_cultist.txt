@@ -26,6 +26,8 @@ $NEVRON_DEATH_ABILITY
 [AbilityWords]
 Covers her sword in blood
 Is about to jump
+[Artist]
+Sandfall Interactive
 [DesignNotes]
  - In the game, Greatsword Cultists are found in the Stone Wave Cliffs
  - Main gimmick being captured is shielding herself at the expense of great self-inflicted suffering.

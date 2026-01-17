@@ -19,6 +19,8 @@ A:AB$ Pump | Cost$ Sac<1/CARDNAME> | NumAtt$ +X | NumDef$ +X | KW$ Lifelink | Va
 T:Mode$ Phase | Phase$ Upkeep | ValidPlayer$ You | TriggerZones$ Battlefield | OptionalDecider$ You | Execute$ TrigPutCounter | TriggerDescription$ At the beginning of your upkeep, you may put a verse counter on CARDNAME.
 SVar:TrigPutCounter:DB$ PutCounter | Defined$ Self | CounterType$ VERSE | CounterNum$ 1
 SVar:X:Count$CardCounters.VERSE
+[Artist]
+Sandfall Interactive
 [DesignNotes]
  - In the game, during one of the camp cutscenes, Verso plays some tunes on his piano.
  - Modeled on War Dance, with a lifelink bonus attached.

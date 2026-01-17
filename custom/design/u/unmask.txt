@@ -13,6 +13,8 @@ Target player reveals their hand. You choose a nonland card from it. That player
 [FlavorText]
 My beautiful sister doesn’t need this ugly mask.
 - Verso
+[Artist]
+Sandfall Interactive
 [IsReprint]
 true
 [DesignNotes]

@@ -22,6 +22,8 @@ T:Mode$ Attacks | ValidCard$ Card.Self | CheckSVar$ X | TriggerZones$ Battlefiel
 SVar:TrigExplore:DB$ Explore
 SVar:X:Crewed$Valid Expeditioner
 SVar:TrigDraw:DB$ Draw | NumCards$ 1
+[Artist]
+Sandfall Interactive
 [DesignNotes]
  - Depicts the ship Expedition 33 departs from Lumière in. Modeled on Adrestia.
  - 1/1/2026: Drop creature type that was causing it to always be a creature without needing to crew it.

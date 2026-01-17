@@ -34,5 +34,7 @@ TriggerDescription$ Whenever ~ dies, if it had a fire counter on it, it deals 2 
 T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Card.Self+counters_GE1_ICE | Execute$ DBDraw  | TriggerDescription$ Whenever ~ dies, if it had an ice counter on it, draw a card.
 SVar:DBDamage:DB$ DealDamage | ValidTgts$ Player | TgtPrompt$ Select target player | NumDmg$ 2
 SVar:DBDraw:DB$ Draw | NumCards$ 1 | Defined$ You
+[Artist]
+Sandfall Interactive
 [DesignNotes]
  - Has the same "flip-flop" elemental immunity as its big brother (Gargant), so has the same flip-flop protection.

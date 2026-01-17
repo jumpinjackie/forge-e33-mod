@@ -27,6 +27,8 @@ SVar:TrigExile:DB$ ChangeZone | IsCurse$ True | ValidTgts$ Creature.Other | TgtP
 SVar:TrigReturn:DB$ ChangeZone | Defined$ ExiledWith | Origin$ Exile | Destination$ Battlefield
 SVar:PlayMain1:TRUE
 SVar:OblivionRing:TRUE
+[Artist]
+Sandfall Interactive
 [DesignNotes]
  - In the game, Bourgeon is a semi-recurring boss.
  - Key abilities mapped as follows:

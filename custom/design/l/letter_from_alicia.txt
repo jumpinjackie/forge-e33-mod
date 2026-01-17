@@ -21,6 +21,8 @@ T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ 
 SVar:TrigPeace:DB$ Effect | Name$ Letter from Alicia's Effect — No Attacking | IsCurse$ True | StaticAbilities$ CantAttack | SpellDescription$ Creatures can't attack this turn.
 SVar:CantAttack:Mode$ CantAttack | ValidCard$ Creature | Description$ Creatures can't attack this turn.
 A:AB$ Draw | Cost$ 2 Sac<1/CARDNAME> | NumCards$ 1 | SpellDescription$ Draw a card.
+[Artist]
+Sandfall Interactive
 [DesignNotes]
  - In the game, Painted Alicia hands a letter to Verso to be delivered to Maelle, but at the conclusion of Act 2 he opens it and reads it for himself, revealing the true intentions of The Paintress that the party had just defeated.
  - Given the letter is about Painted Alicia's desire for this conflict to end, I've mapped this to a momentary "peacekeeper" effect.

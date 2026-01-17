@@ -23,5 +23,7 @@ K:etbCounter:SHIELD:1
 A:AB$ Pump | Cost$ G | Defined$ Self | KW$ Trample | SpellDescription$ ~ gains trample until end of turn.
 A:AB$ DealDamage | Cost$ 2 R | Exhaust$ true | ValidTgts$ Creature.withoutFlying | TargetMin$ 0 | TargetMax$ 3 | TgtPrompt$ Select target creature without flying | NumDmg$ 1 | SpellDescription$ ~ deals 1 damage to up to three target creatures without flying.
 $NEVRON_DEATH_ABILITY
+[Artist]
+Sandfall Interactive
 [DesignNotes]
  - In the game, Glaises can be found in Yellow Harvest and Falling Leaves

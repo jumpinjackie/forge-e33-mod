@@ -29,6 +29,8 @@ A:AB$ DealDamage | Cost$ Sac<1/Food> | ValidTgts$ Creature.withFlying | TgtPromp
 A:AB$ PutCounter | Cost$ Sac<1/Food> | CounterNum$ 1 | CounterType$ SHIELD | SpellDescription$ Put a shield counter on this creature.
 [RelatedTokens]
 u_barbapapa
+[Artist]
+Sandfall Interactive
 [DesignNotes]
  - In the game, Barbasucettes are new enemies found in Verso's Drafts as part of the "Thank You" update. They are Grandis that wield two lollipops as weapons.
  - Mapped his suite of abilities to a whole bunch of food-related abilities as well as a Barbapapa debuff on ETB.

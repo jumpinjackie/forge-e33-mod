@@ -21,6 +21,8 @@ SVar:TrigToken:DB$ Token | TokenAmount$ X | TokenScript$ c_1_1_nevron | TokenOwn
 SVar:X:Count$Valid Shrine.YouCtrl
 [RelatedTokens]
 c_1_1_nevron
+[Artist]
+Sandfall Interactive
 [DesignNotes]
  - In the game, the Shrine can be found at Stone Wave Cliffs, prompting the discussion referenced in the flavor text.
  - Nevron variant of Honden of Life's Web.

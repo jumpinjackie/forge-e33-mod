@@ -21,6 +21,8 @@ SVar:DBPower:DB$ PumpAll | ValidCards$ Creature.YouCtrl | NumAtt$ +2 | Condition
 SVar:DBToken:DB$ Token | TokenAmount$ 1 | TokenOwner$ You | TokenScript$ c_a_lumina | SpellDescription$ Create a Lumina token.
 [RelatedTokens]
 c_a_lumina
+[Artist]
+Sandfall Interactive
 [DesignNotes]
  - In the game, All Set is one of Sciel's abilities. It grants Shell, Powerful and Rush to your entire party.
  - Mapped to an instant that grants toughness boost (Shell), with haste (Rush) and power boost (Powerful) if the appropriate colors of mana are spent.

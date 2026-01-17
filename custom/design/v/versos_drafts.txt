@@ -21,6 +21,8 @@ A:AB$ Token | Cost$ 4 T | TokenAmount$ 1 | TokenOwner$ You | TokenScript$ a_1_1_
 [RelatedTokens]
 c_a_lumina
 a_1_1_gestral
+[Artist]
+Sandfall Interactive
 [DesignNotes]
  - In the game, Verso's Drafts is a new optional Act 3 area introduced with the "Thank You" update.
  - Makes Gestral creature tokens as the location is home to lots and lots of Gestrals. {4} chosen as the cost as {3} generally makes 1/1s with drawback (Mirrex) and {5} generally starts making 2/2s (Secluded Starforge)

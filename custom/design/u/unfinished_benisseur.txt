@@ -21,6 +21,8 @@ All this chroma has been rather... energizing. Thanks to you, I awaken from my s
 K:Defender
 K:vigilance
 A:AB$ Debuff | Cost$ Sac<1/Chroma> | Keywords$ Defender | Defined$ Self | Duration$ Permanent | SpellDescription$ This creature loses defender.
+[Artist]
+Sandfall Interactive
 [DesignNotes]
  - In the game, an Unfinished Bénisseur can be found in the Red Woods. It assumes the appearance of a "Wishing Well" requiring several Chroma donations of increasing quantities, which at that point it finally reveals itself and rewards you with a picto.
  - Mapped this to a cost-efficient creature with defender requiring a simple Chroma token "payment" to remove defender.

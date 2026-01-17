@@ -21,6 +21,8 @@ SVar:TrigLumina:DB$ Token | TokenAmount$ 1 | TokenOwner$ You | TokenScript$ c_a_
 SVar:TrigGainLife:DB$ GainLife | Defined$ You | LifeAmount$ 2
 [RelatedTokens]
 c_a_lumina
+[Artist]
+Sandfall Interactive
 [DesignNotes]
  - In the game, Blanche is an Unfinished Nevron. If you spared every Unfinished Nevron up to that point, she will reward you with lots of lumina.
  - Easy map to rewarding you lumina tokens and life when white (unfinished) nevrons enter.

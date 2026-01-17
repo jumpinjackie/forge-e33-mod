@@ -27,5 +27,7 @@ A:AB$ DealDamage | Cost$ 2 R T | ValidTgts$ Creature | NumDmg$ 2 | SpellDescript
 A:AB$ Token | Cost$ 2 G G T | TokenAmount$ 2 | TokenOwner$ You | TokenScript$ g_1_1_abbest_nevron | SpellDescription$ Create two 1/1 green Abbest Nevron token creatures.
 [RelatedTokens]
 g_1_1_abbest_nevron
+[Artist]
+Sandfall Interactive
 [DesignNotes]
  - In the game, Évêque is the first boss, encountered at the end of Spring Meadows.

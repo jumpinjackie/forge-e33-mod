@@ -24,6 +24,8 @@ K:Vigilance
 T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | IsPresent$ Equipment.YouCtrl | PresentCompare$ GE1 | Execute$ TrigDraw | TriggerDescription$ When ~ enters, if you control an Equipment, draw a card.
 SVar:TrigDraw:DB$ Draw | NumCards$ 1 | Defined$ You
 S:Mode$ ReduceCost | ValidCard$ Card | ValidSpell$ Activated.Equip | Activator$ You | Amount$ 1 | Condition$ PlayerTurn | Description$ Equip abilities you activate cost {1} less to activate.
+[Artist]
+Sandfall Interactive
 [DesignNotes]
  - In the game, an unfinished Bruler and Cruler can be found in the Coastal Caves. They've adopted a new career as blacksmiths and sell an assortment of weapons.
  - Added an assortment of equipment-related benefits in line with any "blacksmith" card printed thus far.

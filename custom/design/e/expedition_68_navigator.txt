@@ -29,5 +29,7 @@ SVar:TrigMap:DB$ Token | TokenAmount$ 1 | TokenScript$ c_a_map_sac_explore | Tok
 $EXPEDITIONER_DEATH_ABILITY
 [RelatedTokens]
 c_a_map_sac_explore
+[Artist]
+Sandfall Interactive
 [DesignNotes]
  - Navigator ability mapped to map token generation

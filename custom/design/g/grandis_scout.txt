@@ -18,6 +18,8 @@ This pathway leads to the treacherous region of the mountains. If your destinati
 T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigExplore | TriggerDescription$ When ~ enters or attacks, it explores.
 T:Mode$ Attacks | ValidCard$ Card.Self | Execute$ TrigExplore | Secondary$ True | TriggerZones$ Battlefield | TriggerDescription$ When ~ enters or attacks, it explores.
 SVar:TrigExplore:DB$ Explore
+[Artist]
+Sandfall Interactive
 [DesignNotes]
  - In the game, a Grandis Scout occupies the other exit of Monoco's Station.
  - Mapped to a bear that explores on ETB and attack.

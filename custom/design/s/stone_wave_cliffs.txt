@@ -9,6 +9,8 @@ This land enters tapped unless you control two or fewer other lands.
 R
 [NicknameFor]
 Spirebluff Canal
+[Artist]
+Sandfall Interactive
 [IsReprint]
 true
 [DesignNotes]

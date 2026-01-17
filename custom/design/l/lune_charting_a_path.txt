@@ -40,6 +40,8 @@ A:AB$ ChangeZone | Cost$ W G T SubCounter<1/STAIN>  | Origin$ Graveyard | Destin
 SVar:DBLifeGain:DB$ GainLife | Defined$ You | LifeAmount$ 3
 A:AB$ DamageAll | Cost$ R T SubCounter<2/STAIN> | ValidTgts$ Opponent | NumDmg$ 2 | ValidCards$ Creature | ValidDescription$ each creature target opponent controls | SpellDescription$ ~ deals 2 damage to each creature target opponent controls.
 A:AB$ DealDamage | Cost$ T SubCounter<4/STAIN> | TargetMin$ 0 | TargetMax$ 4 | ValidTgts$ Any | TgtPrompt$ Select up to four targets | NumDmg$ 4 | SpellDescription$ ~ deals 4 damage to each of up to four targets.
+[Artist]
+Sandfall Interactive
 [DesignNotes]
  - This was one of the hardest cards to design because Lune is a veritable "Jack of all trades" in terms of abilities in-game. Also we have to somehow emulate her stain gimmick in a way that doesn't look too out of flavor.
  - So in this respect, this is what I went with:

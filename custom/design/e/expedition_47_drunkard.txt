@@ -20,5 +20,8 @@ The trick is finding that perfect point where your nerves have calmed enough tha
 T:Mode$ Attacks | ValidCard$ Card.Self | Execute$ TrigPump | TriggerDescription$ Whenever ~ attacks, it gets +3/-3 until end of turn.
 SVar:TrigPump:DB$ Pump | Defined$ Self | NumAtt$ +3 | NumDef$ -3
 $EXPEDITIONER_DEATH_ABILITY
+[Artist]
+Sandfall Interactive
 [DesignNotes]
  - Modeled drunkeness as temporary high power / low toughness
+ - The expeditioner depicted in the art is actually dead, but without any context seeing the body is next to a crate of booze, it can easily be interpreted that the Expeditioner is absolutely drunk and passed out.

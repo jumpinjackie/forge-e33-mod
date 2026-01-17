@@ -23,6 +23,8 @@ K:Lifelink
 S:Mode$ Continuous | CharacteristicDefining$ True | SetPower$ X | SetToughness$ X | Description$ CARDNAME's power and toughness are each equal to 3 plus the number of Human creatures in all graveyards.
 SVar:X:Count$ValidGraveyard Creature.Human/Plus.3
 $NEVRON_DEATH_ABILITY
+[Artist]
+Sandfall Interactive
 [DesignNotes]
  - In the game, Creation is a high-tier Nevron that starts appearing in Act 3.
  - Named Renoir's Creation instead of Creation to reduce the possbility of name-squatting by real cards in the future.

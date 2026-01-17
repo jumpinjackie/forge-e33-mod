@@ -18,6 +18,8 @@ A:AB$ Token | Cost$ 2 T Sac<1/CARDNAME> | TokenAmount$ 1 | TokenScript$ u_barbap
 A:AB$ GainLife | Cost$ 2 T Sac<1/CARDNAME> | LifeAmount$ 3 | SpellDescription$ You gain 3 life.
 [RelatedTokens]
 u_barbapapa
+[Artist]
+Sandfall Interactive
 [DesignNotes]
  - In the game, Jars of Candy are scattered throughout Verso's drafts. These are basically breakable loot containers.
  - Modeled as a food token that can flash in and be popped for a Barbapapa debuff.

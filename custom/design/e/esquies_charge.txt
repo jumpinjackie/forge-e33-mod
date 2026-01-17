@@ -23,6 +23,8 @@ SVar:DBScry:DB$ Scry | ScryNum$ 2 | ConditionPresent$ Card.YouCtrl+namedFlorrie 
 SVar:DBDraw:DB$ Draw | NumCards$ 1 | ConditionPresent$ Card.YouCtrl+namedDorrie | ConditionCompare$ GE1 | SubAbility$ DBLifeGain
 SVar:DBLifeGain:DB$ GainLife | Defined$ You | LifeAmount$ 3 | ConditionPresent$ Card.YouCtrl+namedSoarrie | ConditionCompare$ GE1 | SubAbility$ DBPutLand
 SVar:DBPutLand:DB$ ChangeZone | Origin$ Hand | Destination$ Battlefield | ChangeType$ Land.YouCtrl | ConditionPresent$ Card.YouCtrl+namedUrrie | ConditionCompare$ GE1
+[Artist]
+Sandfall Interactive
 [DesignNotes]
  - In the game, at the Stone Wave Cliffs, the party witnesses some of Esquie's power by effortlessly taking down a giant Bourgeon.
  - Gone with a bolt with various rock-boosted bonuses to flesh out the Rock Urzatron archetype.

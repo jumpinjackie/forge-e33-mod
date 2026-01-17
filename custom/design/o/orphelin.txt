@@ -16,6 +16,8 @@ $NEVRON_DEATH_ABILITY_TEXT
 [ForgeScript]
 K:Double Strike
 $NEVRON_DEATH_ABILITY
+[Artist]
+Sandfall Interactive
 [DesignNotes]
  - In the game, Orphelin can be found in The Reacher.
  - Main gimmick is multi-strike attacks with various tools, ergo: Double Strike.

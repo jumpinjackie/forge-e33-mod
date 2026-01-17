@@ -22,6 +22,8 @@ SVar:DmgTwice:DB$ ReplaceEffect | VarName$ DamageAmount | VarValue$ X
 SVar:X:ReplaceCount$DamageAmount/Twice
 T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Card.Self | Execute$ TrigChangeZone | TriggerDescription$ When CARDNAME is put into a graveyard from the battlefield, return it to its owner's hand.
 SVar:TrigChangeZone:DB$ ChangeZone | Origin$ Graveyard | Destination$ Hand | Defined$ TriggeredNewCardLKICopy
+[Artist]
+Sandfall Interactive
 [DesignNotes]
  - In the game, marked is a status effect that causes the recipient to receive 50% more damage on the next hit.
  - Mechanically mapped to an aura that doubles any damage dealt to enchanted creature.

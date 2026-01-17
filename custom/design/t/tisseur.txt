@@ -28,6 +28,8 @@ K:First strike
 T:Mode$ Phase | Phase$ Upkeep | ValidPlayer$ Player | TriggerZones$ Battlefield | Execute$ TrigSacrifice | TriggerDescription$ At the beginning of each player’s upkeep, that player sacrifices a creature they control with a cursed counter on it.
 SVar:TrigSacrifice:DB$ Sacrifice | Defined$ TriggeredPlayer | Amount$ 1 | SacValid$ Creature.counters_GE1_CURSED | SacMessage$ Creature with a cursed counter on it.
 A:AB$ PutCounter | Cost$ 4 T | ValidTgts$ Creature | CounterType$ CURSED | CounterNum$ 1 | Put a cursed counter on target creature.
+[Artist]
+Sandfall Interactive
 [DesignNotes]
  - In the game, Tisseur is an optional boss in Sirène's Coliseum. Defeating it will make the upcoming boss fight against Sirène much easier.
  - Made it an artifact creature as it clearly has artificial instead of organic nature. It looks like a thread spindle with a head and arms attached to it. Nothing organic about that!

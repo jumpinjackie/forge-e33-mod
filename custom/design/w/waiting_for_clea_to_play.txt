@@ -23,6 +23,8 @@ SVar:X:TriggeredCard$CardManaCost
 T:Mode$ AttackersDeclared | Execute$ TrigPump | ValidAttackers$ Creature.ChosenType | ValidAttackersAmount$ GE2 | TriggerZones$ Battlefield | AttackingPlayer$ You | TriggerDescription$ Whenever two or more creatures of the chosen type attacks, they each get +1/+0 until end of turn.
 SVar:TrigPump:DB$ Pump | Defined$ TriggeredAttackers | NumAtt$ +1
 SVar:PlayMain1:TRUE
+[Artist]
+Sandfall Interactive
 [DesignNotes]
  - In the game, inside Verso's Treehouse in Verso's Drafts, there are various artpieces depicting Verso interacting with various family members. One of them is him watching his older sister Clea painting, presumably waiting for her to finish so they can go play in his canvas.
  - Mapped as follows:

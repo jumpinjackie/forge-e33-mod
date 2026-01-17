@@ -21,6 +21,8 @@ T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.S
 SVar:TrigFungus:DB$ PutCounter | ValidTgts$ Land | CounterType$ FUNGUS | CounterNum$ 1
 R:Event$ Untap | ActiveZones$ Battlefield | ValidCard$ Land.counters_GE1_FUNGUS | ValidStepTurnToController$ You | Layer$ CantHappen | Description$ Lands with fungus counters on them do not untap during their controllers' untap steps.
 $NEVRON_DEATH_ABILITY
+[Artist]
+Sandfall Interactive
 [DesignNotes]
  - In the game, Saplings can be found in Yellow Harvest and Falling Leaves.
  - Absorbs dark attacks ergo. Protection from black.

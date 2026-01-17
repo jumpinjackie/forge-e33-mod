@@ -25,6 +25,8 @@ A:SP$ GainControl | ValidTgts$ Creature | TgtPrompt$ Select target creature | Lo
 SVar:DBChroma:DB$ Token | TokenAmount$ 1 | TokenOwner$ You | TokenScript$ c_a_lumina
 [RelatedTokens]
 c_a_lumina
+[Artist]
+Sandfall Interactive
 [DesignNotes]
  - In the game, Verso makes a persuasive argument that convinces Monoco to join the party.
  - The card design is completely based on this conversation, and the easiest thing that comes to mind is a standard red temp creature spell.

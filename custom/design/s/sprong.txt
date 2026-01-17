@@ -31,6 +31,8 @@ A:AB$ PutCounter | Cost$ 2 | CounterType$ CHARGE | CounterNum$ 1 | SpellDescript
 A:AB$ DealDamage | Cost$ B B T SubCounter<X/CHARGE> | ValidTgts$ Creature | TgtPrompt$ Select target creature to distribute damage to | NumDmg$ X | TargetMin$ 0 | TargetMax$ MaxTgts | DividedAsYouChoose$ X | SpellDescription$ CARDNAME deals X damage divided as you choose among any number of target creatures.
 SVar:MaxTgts:Count$Valid Creature
 SVar:X:Count$xPaid
+[Artist]
+Sandfall Interactive
 [DesignNotes]
  - In the game, Sprong is an optional overworld boss.
  - Grixis color identity chosen so double strike could be flavorfully woven in to its ability suite. Other abilities are on-flavor for their respective colors.

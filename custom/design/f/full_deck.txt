@@ -23,6 +23,8 @@ SVar:DBRecover:DB$ ChangeZone | ConditionCheckSVar$ Y | ConditionSVarCompare$ GE
 SVar:DBCleanup:DB$ Cleanup | ClearRemembered$ True
 SVar:X:Targeted$CardManaCost
 SVar:Y:Count$Valid Lumina.YouCtrl
+[Artist]
+Sandfall Interactive
 [DesignNotes]
  - In the game, this is one of Sciel's quotes during battle.
  - Design-wise fully leaned in on the pun and based it around using "your deck" to take out any creature, if you can afford to mill the number of cards required.

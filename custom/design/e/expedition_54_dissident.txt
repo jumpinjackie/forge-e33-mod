@@ -20,5 +20,7 @@ Push too hard to change things and you just might end up on the next Expedition.
 So. Nothing ever changes. They just send us out to die. Dissenters. And the status quo continues. At least out here, I don’t have to pretend anymore.
 [ForgeScript]
 $EXPEDITIONER_DEATH_ABILITY
+[Artist]
+Sandfall Interactive
 [DesignNotes]
  - Vanilla bear wtih Rebel sub-type (as a synonmym of dissent)

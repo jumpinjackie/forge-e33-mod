@@ -24,6 +24,8 @@ SVar:ExileAllGraveyards:DB$ ChangeZoneAll | ChangeType$ Card | Origin$ Graveyard
 SVar:ExileAllHands:DB$ ChangeZoneAll | ChangeType$ Card | Origin$ Hand | Destination$ Exile
 SVar:DBMaelle:DB$ ChangeZoneAll | ChangeType$ Human,Expeditioner | Origin$ Graveyard | Destination$ Battlefield | SubAbility$ DBResurrectFromExile | SpellDescription$ Return to the battlefield all Humans and Expeditioners you own from your graveyard and in exile.
 SVar:DBResurrectFromExile:DB$ ChangeZoneAll | ChangeType$ Human,Expeditioner | Origin$ Exile | Destination$ Battlefield
+[Artist]
+Sandfall Interactive
 [DesignNotes]
  - In the game, this is the final point of no return that culminates in one of the two possible endings of the game.
  - Simply mechanically translated to a mass reset or mass resurrection.
