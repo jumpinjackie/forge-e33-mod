@@ -1269,14 +1269,14 @@ public class CardMasterDesign(string designFile)
                 await writer.WriteLineAsync($"## {this.Name} ({this.NicknameFor})");
                 await writer.WriteLineAsync();
                 await writer.WriteLineAsync($"> This card is a nicknamed reprint of ({this.NicknameFor})");
-                await writer.WriteLineAsync($"[Scryfall](https://scryfall.com/search?q={this.NicknameFor})");
+                await writer.WriteLineAsync($"[Scryfall](https://scryfall.com/search?q={Uri.EscapeDataString(this.NicknameFor)})");
             }
             else
             {
                 await writer.WriteLineAsync($"## {this.Name}");
                 await writer.WriteLineAsync();
                 await writer.WriteLineAsync("> This card is a reprint");
-                await writer.WriteLineAsync($"[Scryfall](https://scryfall.com/search?q={this.Name})");
+                await writer.WriteLineAsync($"[Scryfall](https://scryfall.com/search?q={Uri.EscapeDataString(this.Name)})");
             }
             await WriteDesignNotesAsync("Notes");
 
