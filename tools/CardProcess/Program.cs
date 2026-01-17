@@ -2560,6 +2560,11 @@ public class CardConjurerValidateCommand : BaseCommand
         {
             totalCards++;
 
+            if (string.IsNullOrWhiteSpace(design.GetArtist()))
+            {
+                await stdout.WriteLineAsync($"WARNING: No artist credits found for {cardName}");
+            }
+
             // Skip split/fuse cards as they have different validation requirements
             if (design.FaceType == CardFaceType.SplitRoom || design.FaceType == CardFaceType.SplitFuse)
             {
