@@ -12,10 +12,16 @@ Nevron
 C
 [Oracle]
 Protection from black
+When ~ enters, put a fungus counter on target land.
+Lands with fungus counters on them do not untap during their controllers' untap steps.
 $NEVRON_DEATH_ABILITY_TEXT
 [ForgeScript]
 K:Protection from black
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigFungus | TriggerDescription$ When ~ enters, put a fungus counter on target land.
+SVar:TrigFungus:DB$ PutCounter | ValidTgts$ Land | CounterType$ FUNGUS | CounterNum$ 1
+R:Event$ Untap | ActiveZones$ Battlefield | ValidCard$ Land.counters_GE1_FUNGUS | ValidStepTurnToController$ You | Layer$ CantHappen | Description$ Lands with fungus counters on them do not untap during their controllers' untap steps.
 $NEVRON_DEATH_ABILITY
 [DesignNotes]
  - In the game, Saplings can be found in Yellow Harvest and Falling Leaves.
  - Absorbs dark attacks ergo. Protection from black.
+ - 17/01/2026: Added fungus counter ETB to increase the quota of effects that check nonbasics.

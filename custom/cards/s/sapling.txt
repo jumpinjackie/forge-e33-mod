@@ -3,6 +3,9 @@ ManaCost:1 G
 Types:Creature Nevron
 PT:2/2
 K:Protection from black
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigFungus | TriggerDescription$ When CARDNAME enters, put a fungus counter on target land.
+SVar:TrigFungus:DB$ PutCounter | ValidTgts$ Land | CounterType$ FUNGUS | CounterNum$ 1
+R:Event$ Untap | ActiveZones$ Battlefield | ValidCard$ Land.counters_GE1_FUNGUS | ValidStepTurnToController$ You | Layer$ CantHappen | Description$ Lands with fungus counters on them do not untap during their controllers' untap steps.
 T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Card.Self | Execute$ TrigToken | TriggerDescription$ When this creature dies, target opponent creates a Lumina token.
 SVar:TrigToken:DB$ Token | TokenAmount$ 1 | ValidTgts$ Opponent | TokenOwner$ Targeted | TokenScript$ c_a_lumina
-Oracle:Protection from black\nWhen this creature dies, target opponent creates a Lumina token. (It's an artifact with "{T}, Sacrifice this artifact: Scry 1.")
+Oracle:Protection from black\nWhen this creature enters, put a fungus counter on target land.\nLands with fungus counters on them do not untap during their controllers' untap steps.\nWhen this creature dies, target opponent creates a Lumina token. (It's an artifact with "{T}, Sacrifice this artifact: Scry 1.")
