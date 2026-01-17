@@ -1,0 +1,13 @@
+[Name]
+Field of Ruin
+[Types]
+Land
+[Rarity]
+U
+[Oracle]
+{T}: Add {C}.
+{2}, {T}, Sacrifice this land: Destroy target nonbasic land an opponent controls. Each player searches their library for a basic land card, puts it onto the battlefield, then shuffles.
+[IsReprint]
+true
+[DesignNotes]
+ - Semi-flavorful reprint (on basis of name and art) to check nonbasics.
