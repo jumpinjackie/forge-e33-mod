@@ -17,7 +17,7 @@ Sandfall Interactive
 [Oracle]
 Double the blight — When ~ enters, put a blight counter on up to one target creature and up to one target land.
 Creatures with blight counters on them have base toughness 1.
-Whenever a land with a blight counter is tapped, destroy it.
+Whenever a land with a blight counter becomes tapped, destroy it.
 Heals allies — {1}{B}, {T}: Gain 1 life for each creature you control.
 $NEVRON_DEATH_ABILITY_TEXT
 [AbilityWords]
