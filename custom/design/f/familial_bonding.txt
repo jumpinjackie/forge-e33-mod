@@ -9,16 +9,18 @@ Enchantment
 C
 [Oracle]
 As this enchantment enters, choose a creature type.
-Whenever two or more creatures of the chosen type attacks, target opponent loses 2 life and you gain 2 life.
+Whenever two or more creatures of the chosen type attacks, target opponent loses 2 life, you gain 2 life and draw a card.
 [FlavorText]
 You must see things as they are. Not how you want them to be.
 - Renoir
 [ForgeScript]
 K:ETBReplacement:Other:ChooseCT
 SVar:ChooseCT:DB$ ChooseType | Defined$ You | Type$ Creature | SpellDescription$ As CARDNAME enters, choose a creature type. | AILogic$ MostProminentInComputerDeck
-T:Mode$ AttackersDeclared | Execute$ TrigSyphon | ValidAttackers$ Creature.ChosenType | ValidAttackersAmount$ GE2 | TriggerZones$ Battlefield | AttackingPlayer$ You | TriggerDescription$ Whenever two or more creatures of the chosen type attacks, target opponent loses 2 life and you gain 2 life.
+T:Mode$ AttackersDeclared | Execute$ TrigSyphon | ValidAttackers$ Creature.ChosenType | ValidAttackersAmount$ GE2 | TriggerZones$ Battlefield | AttackingPlayer$ You | TriggerDescription$ Whenever two or more creatures of the chosen type attacks, target opponent loses 2 life. you gain 2 life and draw a card.
 SVar:TrigSyphon:DB$ LoseLife | ValidTgts$ Opponent | LifeAmount$ 2 | SubAbility$ DBGainLife
-SVar:DBGainLife:DB$ GainLife | Defined$ You | LifeAmount$ 2
+SVar:DBGainLife:DB$ GainLife | Defined$ You | LifeAmount$ 2 | SubAbility$ DBDraw
+SVar:DBDraw:DB$ Draw | NumCards$ 1
 [DesignNotes]
  - In the game, inside Verso's Treehouse in Verso's Drafts, there are various artpieces depicting Verso interacting with various family members. One of them is him bonding with his father, Renoir.
  - Mapped to an opponen syphon trigger when two or more creatures of the same type (same family) attack.
+ - 16/01/2026: Added card draw to the trigger.

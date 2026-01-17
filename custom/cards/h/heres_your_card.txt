@@ -2,5 +2,6 @@ Name:Here's Your Card!
 ManaCost:B
 Types:Kindred Instant Expeditioner
 K:Foretell:0
-A:SP$ Pump | ValidTgts$ Creature | TgtPrompt$ Select target creature | NumAtt$ -2 | NumDef$ -2 | SpellDescription$ Target creature gets -2/-2 until end of turn.
-Oracle:Target creature gets -2/-2 until end of turn.\nForetell {0} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)
+A:SP$ Pump | ValidTgts$ Creature | TgtPrompt$ Select target creature | NumAtt$ -2 | NumDef$ -2 | SubAbility$ DBToken | SpellDescription$ Target creature gets -2/-2 until end of turn. Create a Lumina token.
+SVar:DBToken:DB$ Token | TokenAmount$ 1 | TokenOwner$ You | TokenScript$ c_a_lumina
+Oracle:Target creature gets -2/-2 until end of turn.\nCreate a Lumina token.\nForetell {0} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)

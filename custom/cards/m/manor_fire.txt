@@ -1,9 +1,9 @@
 Name:Manor Fire
 ManaCost:1 R G
 Types:Sorcery
-A:SP$ Charm | Choices$ DBSweep,DBBoltPlayers,DBDestroyRooms
+A:SP$ Charm | Choices$ DBSweep,DBWasteland,DBDestroyRooms
 SVar:DBSweep:DB$ DamageAll | NumDmg$ 1 | ValidCards$ Creature | ValidDescription$ each creature. | SubAbility$ DBDraw | SpellDescription$ CARDNAME deals 1 damage to each creature.
-SVar:DBBoltPlayers:DB$ DamageAll | NumDmg$ 3 | ValidPlayers$ Player | ValidDescription$ each player. | SubAbility$ DBDraw | SpellDescription$ CARDNAME deals 3 damage to each player.
+SVar:DBWasteland:DB$ Destroy | ValidTgts$ Land.nonBasic | TgtPrompt$ Select target nonbasic land. | SubAbility$ DBDraw | SpellDescription$ Destroy target nonbasic land.
 SVar:DBDestroyRooms:DB$ DestroyAll | ValidCards$ Room | SubAbility$ DBDraw | SpellDescription$ Destroy all Rooms.
 SVar:DBDraw:DB$ Draw | NumCards$ 1
-Oracle:Choose one —\n• Manor Fire deals 1 damage to each creature.\n• Manor Fire deals 3 damage to each player.\n• Destroy all Rooms.\nDraw a card.
+Oracle:Choose one —\n• Manor Fire deals 1 damage to each creature.\n• Destroy target nonbasic land.\n• Destroy all Rooms.\nDraw a card.

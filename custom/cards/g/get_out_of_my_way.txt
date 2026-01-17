@@ -1,6 +1,7 @@
 Name:Get Out Of My Way!
 ManaCost:X R
 Types:Kindred Sorcery Expeditioner
-A:SP$ Pump | KW$ HIDDEN CARDNAME can't block. | TargetMin$ X | TargetMax$ X | ValidTgts$ Creature | TgtPrompt$ Select X target creatures | StackDescription$ X target creatures [{c:Targeted}] can't block this turn. | SpellDescription$ X target creatures can't block this turn.
+A:SP$ Pump | KW$ HIDDEN CARDNAME can't block. | TargetMin$ X | TargetMax$ X | ValidTgts$ Creature | TgtPrompt$ Select X target creatures | StackDescription$ X target creatures [{c:Targeted}] can't block this turn. | SubAbility$ DBToken | SpellDescription$ X target creatures can't block this turn.
 SVar:X:Count$xPaid
-Oracle:X target creatures can't block this turn.
+SVar:DBToken:DB$ Token | TokenAmount$ 1 | TokenOwner$ You | TokenScript$ c_a_lumina
+Oracle:X target creatures can't block this turn.\nCreate a Lumina token.
