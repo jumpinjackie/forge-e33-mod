@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 18/1/2026 6:26:57 am
+> Last generated: 18/1/2026 6:51:08 am
 
 ## A Rock for François
 
@@ -31,7 +31,7 @@ Esquie: I think we captured your essence beautifully.
 Legendary Artifact Creature - Gestral Bard
 Other Gestral creatures you control get +1/+1.
 You may choose not to untap Alicenisa during your untap step.
-At the beginning of your upkeep, put a verse counter on Alicenisa.
+At the beginning of your upkeep, you may put a verse counter on Alicenisa.
 {T}: Gain control of target creature with mana value X or less for as long as you control Alicenisa and Alicenisa remains tapped, where X is the number of verse counters on Alicenisa.
 
 1/4
