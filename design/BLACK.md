@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 17/1/2026 10:49:11 pm
+> Last generated: 18/1/2026 6:33:57 am
 
 ## Axon Offering
 
@@ -155,8 +155,8 @@ When this creature dies, target opponent creates a Lumina token. (It's an artifa
 ```
 1BB
 Creature - Human Expeditioner
+When this creature enters, destroy up to one target Nevron creature.
 {2}{B}, {T}: Target creature gets -2/-2 until end of turn.
-Sacrifice three Lumina tokens: Destroy target Nevron creature.
 When this creature dies, create a Chroma token.
 ---
 Oh, I hear a big Nev coming, they count for double. If I kill it quick I can boost my score.

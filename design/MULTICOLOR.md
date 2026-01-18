@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 17/1/2026 10:49:11 pm
+> Last generated: 18/1/2026 6:26:57 am
 
 ## A Storm is Coming
 
@@ -500,6 +500,7 @@ Applies Inverted — {B}{B}, Sacrifice a Blood token: Target creature has base t
  - Since the boss battle is in a death pit with a knee-deep pool of blood, all his abilities revolve around blood tokens.
  - Double strike because he does a lot of combo attacks.
  - Inverted status translated to setting a creature's base toughness to 1 until EOT.
+ - 18/01/2026: Fixed combat damage trigger only triggering on combat damage to players.
 
 ## Duollistes
 

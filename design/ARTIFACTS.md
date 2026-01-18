@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 17/1/2026 8:45:52 pm
+> Last generated: 18/1/2026 6:26:57 am
 
 ## A Rock for François
 
@@ -456,6 +456,7 @@ Wanna plant it?
  - In the game, Expedition flags are save points scattered throughout the continent laid down by previous Expeditions.
  - Gone with an Expeditioner-focused variant of Patchwork Banner.
  - 14/01/2026: Added Lumina token ETB
+ - 18/01/2026: Fixed +1/+1 buff applying to all Expeditioners instead of Expeditioners you control.
 
 ## Expedition Flotilla
 
