@@ -15,13 +15,15 @@ Sandfall Interactive
 [PT]
 2/2
 [Oracle]
+When this creature enters, destroy up to one target Nevron creature.
 {2}{B}, {T}: Target creature gets -2/-2 until end of turn.
-Sacrifice three Lumina tokens: Destroy target Nevron creature.
 When this creature dies, create a Chroma token.
 [FlavorText]
 Oh, I hear a big Nev coming, they count for double. If I kill it quick I can boost my score.
 - Virgile, Expedition 62
 [ForgeScript]
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ DBDestroy | TriggerDescription$ When ~ enters, destroy up to one target Nevron creature.
+SVar:DBDestroy:DB$ Destroy | ValidTgts$ Creature.cmcLE3 | TgtPrompt$ Select target Nevron creature | TargetMin$ 0 | TargetMax$ 1
 A:AB$ Pump | Cost$ 2 B T | ValidTgts$ Creature | TgtPrompt$ Select target creature | NumAtt$ -2 | NumDef$ -2 | SpellDescription$ Target creature gets -2/-2 until end of turn.
 A:AB$ Destroy | Cost$ Sac<3/Lumina> | ValidTgts$ Creature.Nevron | TgtPrompt$ Select target Nevron | SpellDescription$ Destroy target Nevron creature.
 T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Card.Self | Execute$ TrigToken | TriggerDescription$ When CARDNAME dies, create a Chroma token
