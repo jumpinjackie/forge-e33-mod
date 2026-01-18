@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 18/1/2026 6:26:57 am
+> Last generated: 18/1/2026 7:23:31 am
 
 ## A Storm is Coming
 
@@ -2034,29 +2034,6 @@ Death is a friend who will welcome me home
  - Intervention in the game lets an ally play immediately and gain 4 AP. Translated to untapping a creature and giving you a Chroma token.
  - Our Sacrifice in the game deals extreme dark damage to all enemies, absorbing allies' health to deal more damage. Translated to paying X life to -X/-X an opponent's board.
  - 13/10/2025: Dropped the marking card ability due to text box budget constraints having seen this card for the first time in CardConjurer.
-
-## Search // Rescue
-
-```
-Search
-G
-Instant
-Search your library for a basic land card, reveal it, put it into your hand, then shuffle.
-
-Rescue
-U
-Instant
-Return target creature to its owner's hand.
-
-Fuse (You may cast one or both halves of this card from your hand.)
-```
-
-[card implementation](../custom/cards/s/search_rescue.txt)
-
-### Design Notes
-
- - Represents the search and rescue mission conducted by Expedition 00.
- - Stapled Lay of the Land and Unsummon together.
 
 ## Serpenphare
 

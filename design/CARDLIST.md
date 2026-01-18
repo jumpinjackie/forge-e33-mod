@@ -29,7 +29,7 @@ From this list, card designs are spawned from it, which will eventually form the
 
 ## Card Name List
 
-Cards implemented: 448
+Cards implemented: 444
 
 [x] - Card is implemented or in development, [C] - Card is a commander reprint, [R] - Card is a regular reprint, [N] - Card is a nickname reprint, [Z] - Card is a nickname reprint for commander [ ] - Card is not implemented
 
@@ -37,7 +37,7 @@ Cards implemented: 448
 [x] A Rock for François
 [x] A Storm is Coming
 [x] Abbest
-[x] Abbest Cave
+[ ] Abbest Cave
 [x] Aberration
 [x] Acceptance
 [x] Alicia Dessendre, Silenced by Fire
@@ -190,7 +190,7 @@ Cards implemented: 448
 [x] Gestral Arena
 [x] Gestral Ascension Challenge
 [x] Gestral Bazaar
-[x] Gestral Beach
+[ ] Gestral Beach
 [x] Gestral Bodyguard
 [x] Gestral Climbing Challenge
 [x] Gestral Doctor
@@ -321,7 +321,7 @@ Cards implemented: 448
 [x] Sastro, Gestral Guardian
 [x] Sciel, Grieving for Many
 [x] Sciel's Intervention
-[x] Search // Rescue
+[ ] Search // Rescue
 [ ] Seething Boucheclier
 [x] Serpenphare
 [x] Shot Picto

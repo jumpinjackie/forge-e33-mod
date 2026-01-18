@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 18/1/2026 6:51:08 am
+> Last generated: 18/1/2026 7:23:31 am
 
 ## A Rock for François
 
@@ -43,6 +43,7 @@ At the beginning of your upkeep, you may put a verse counter on Alicenisa.
 
  - In the game, Lorieniso played guitar alone in the Gestral Village. With the "Thank You" update, he is now accompanied by Alicenisa. Named after Alice Duport-Percier, the co-composer and main vocalist of the OST for this game.
  - Gone with a mashup of "Glorious Anthem" for Gestrals and a "Rubinia Soulsinger" creature stealer. Creature stealing is conditional on the number of verse counters that grows every turn so it can't just steal fatties right off the bat.
+ - 18/01/2026: Made verse counter trigger optional.
 
 ## Anti-Burn Picto
 

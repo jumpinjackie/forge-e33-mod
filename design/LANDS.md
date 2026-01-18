@@ -1,22 +1,6 @@
 # Cards
 
-> Last generated: 17/1/2026 8:45:52 pm
-
-## Abbest Cave
-
-```
-
-Land - Cave
-{T}: Add {C}.
-{4}{G}, {T}: Create a 1/1 green Nevron creature token named Abbest.
-```
-
-[card implementation](../custom/cards/a/abbest_cave.txt)
-
-### Design Notes
-
- - In the game the Abbest Cave is a location where you can fight a Chromatic Abbest
- - Repurposed as a Nevron token factory land.
+> Last generated: 18/1/2026 7:23:31 am
 
 ## Blade's Graveyard (Concealed Courtyard)
 
@@ -274,22 +258,6 @@ Sciel: They’re expecting a bit of a show. Shall we?
 
  - In the game, the Gestral Village has an arena where Gestrals fight. Sciel was discovered to be competing here.
  - Gestral loves to fight. So naturally a Gestral Arena should have an ability that lets a Gestral fight someone else.
-
-## Gestral Beach
-
-```
-
-Land
-{T}: Add {C}.
-Cycling {2} ({2}, Discard this card: Draw a card.)
-```
-
-[card implementation](../custom/cards/g/gestral_beach.txt)
-
-### Design Notes
-
- - In the game, various Gestral beaches in the continent are home to various challenge mini-games.
- - Origially I wanted a cheaper cycling 1 ability if you control a Gestral, but I don't think Forge supports multiple cycling abilities as it is keyworded, so I can't attach conditions to a keyworded ability.
 
 ## Gestral Village
 
