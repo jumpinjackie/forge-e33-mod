@@ -71007,7 +71007,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "{W/U}, {T}: Remove a counter from target permanent.{flavor}Cleaner 1: I can clear the snow and I can clear the rubble, but this is too much.\nCleaner 2: Must be truly dispose of this thing?\nCleaner 1:It does not obstruct the way. It is simply ... there.",
+                    "text": "{W/U}, {T}: Remove a counter from target permanent.{flavor}Cleaner 1: I can clear the snow and I can clear the rubble, but this is too much.\nCleaner 2: Must we truly dispose of this thing?\nCleaner 1:It does not obstruct the way. It is simply ... there.",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
