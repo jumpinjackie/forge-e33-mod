@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 17/1/2026 9:18:27 pm
+> Last generated: 19/1/2026 7:11:33 pm
 
 ## Abbest
 
@@ -559,6 +559,7 @@ When this creature dies, target opponent creates a Lumina token. (It's an artifa
  - In the game, Saplings can be found in Yellow Harvest and Falling Leaves.
  - Absorbs dark attacks ergo. Protection from black.
  - 17/01/2026: Added fungus counter ETB to increase the quota of effects that check nonbasics.
+ - 20/01/2026: Added AI targeting hints
 
 ## Shrine to The Paintress
 

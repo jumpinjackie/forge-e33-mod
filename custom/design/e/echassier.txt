@@ -25,10 +25,10 @@ Double the blight
 Heals allies
 [ForgeScript]
 T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigBlightCreature | TriggerDescription$ When ~ enters, put a blight counter on up to one target creature and up to one target land.
-SVar:TrigBlightCreature:DB$ PutCounter | ValidTgts$ Creature | TargetMin$ 0 | TargetMax$ 1 | CounterType$ BLIGHT | CounterNum$ 1 | SubAbility$ TrigBlightLand
-SVar:TrigBlightLand:DB$ PutCounter | ValidTgts$ Land | TargetMin$ 0 | TargetMax$ 1 | CounterType$ BLIGHT | CounterNum$ 1
+SVar:TrigBlightCreature:DB$ PutCounter | ValidTgts$ Creature | TargetMin$ 0 | TargetMax$ 1 | CounterType$ BLIGHT | IsCurse$ True | CounterNum$ 1 | SubAbility$ TrigBlightLand
+SVar:TrigBlightLand:DB$ PutCounter | ValidTgts$ Land | TargetMin$ 0 | TargetMax$ 1 | CounterType$ BLIGHT | IsCurse$ True | CounterNum$ 1
 S:Mode$ Continuous | Affected$ Creature.counters_GE1_BLIGHT | EffectZone$ Battlefield | SetToughness$ 1 | Description$ Creatures with blight counters on them have base toughness 1.
-T:Mode$ Taps | ValidCard$ Land.counters_GE1_BLIGHT | Execute$ TrigDestroy | TriggerDescription$ Whenever a land with a blight counter is tapped, destroy it.
+T:Mode$ Taps | ValidCard$ Land.counters_GE1_BLIGHT | Execute$ TrigDestroy | TriggerZones$ Battlefield | TriggerDescription$ Whenever a land with a blight counter is tapped, destroy it.
 SVar:TrigDestroy:DB$ Destroy | Defined$ TriggeredCardLKICopy
 A:AB$ GainLife | Cost$ 1 B T | Defined$ You | LifeAmount$ X | SpellDescription$ Gain 1 life for each creature you control.
 SVar:X:Count$Valid Creature.YouCtrl
@@ -37,3 +37,4 @@ $NEVRON_DEATH_ABILITY
  - In the game, Échassiers are found in The Reacher and Renoir's Drafts.
  - Mapped the "Double the blight & Heals allies" ability to 1 toughness setting and life gain.
  - 17/01/2026: To increase the nonbasic hate quota in this set, changed double the blight to putting a blight counter on to up to 2 permanents. For creatures this sets their toughness to 1. For lands, this will destroy it upon being tapped.
+ - 20/01/2026: Added AI targeting hints and fix land blight triggering from all zones.

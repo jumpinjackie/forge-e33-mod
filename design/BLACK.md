@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 19/1/2026 6:23:08 pm
+> Last generated: 19/1/2026 7:29:38 pm
 
 ## Axon Offering
 
@@ -149,6 +149,7 @@ When this creature dies, target opponent creates a Lumina token. (It's an artifa
  - In the game, Échassiers are found in The Reacher and Renoir's Drafts.
  - Mapped the "Double the blight & Heals allies" ability to 1 toughness setting and life gain.
  - 17/01/2026: To increase the nonbasic hate quota in this set, changed double the blight to putting a blight counter on to up to 2 permanents. For creatures this sets their toughness to 1. For lands, this will destroy it upon being tapped.
+ - 20/01/2026: Added AI targeting hints and fix land blight triggering from all zones.
 
 ## Expedition 62 Hunter
 
@@ -603,6 +604,7 @@ When this creature dies, target opponent creates a Lumina token. (It's an artifa
  - In the game, Veilleurs can be found in The Reacher and Renoir's Drafts.
  - It's main gimmick is inflicting the blight debuff which perma-reduces a characters HP bar by a fixed percentage. Translated to the same blightning ability as Échassier.
  - Gave it Deathtouch to match its blightning nature.
+ - 20/01/2026: Added AI targeting hints
 
 ## Verso's Burden (Treacherous Link)
 

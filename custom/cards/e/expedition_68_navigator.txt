@@ -2,8 +2,9 @@ Name:Expedition 68 Navigator
 ManaCost:2 U
 Types:Creature Human Expeditioner
 PT:2/2
-T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigCharted | TriggerDescription$ When CARDNAME enters, create a Lumina token.
-SVar:TrigCharted:DB$ PutCounter | ValidTgts$ Land | CounterType$ CHARTED | CounterNum$ 1
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigCharted | TriggerDescription$ When CARDNAME enters, put a charted counter on target land.
+# TODO: Is there any further AI hints to make it target non-islands/non-basics?
+SVar:TrigCharted:DB$ PutCounter | ValidTgts$ Land | CounterType$ CHARTED | CounterNum$ 1 | IsCurse$ True
 S:Mode$ Continuous | Affected$ Land.counters_GE1_CHARTED | AddType$ Island | RemoveLandTypes$ True | Description$ Lands with charted counters on them are Islands.
 T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigMap | TriggerDescription$ When CARDNAME enters or attacks, create a Map token.
 T:Mode$ Attacks | ValidCard$ Card.Self | Execute$ TrigMap | Secondary$ True | TriggerZones$ Battlefield | TriggerDescription$ When CARDNAME enters or attacks, create a Map token.

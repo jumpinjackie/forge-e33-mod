@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 17/1/2026 10:49:11 pm
+> Last generated: 19/1/2026 7:11:33 pm
 
 ## An Advantage!
 
@@ -319,6 +319,7 @@ The Paintress sent a storm to overcome us, but it is we who have overcome the st
 ### Design Notes
 
  - Navigator ability mapped to map token generation
+ - 20/01/2026: Added AI targeting hints
 
 ## Expedition 78
 

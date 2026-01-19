@@ -2,6 +2,10 @@
 
 # Card-specific
 
+## Barbasucette
+
+ - AI does not want to use Barbpapa debuff
+
 ## Esquie, Friend of Verso
 
 Getting the same ordering issue on the Uro modal trigger as Golgra.
@@ -17,6 +21,22 @@ The WUBRG mana ability is not preventatively disabled if you don't meet the acti
 ## Golgra, Gestral Chef
 
 I am being prompted for the mode before the enrage trigger goes on the stack, I kind of expected the prompt to happen on trigger resolution. And the trigger description on the stack is the full modal prompt and not the choice made. Not sure if it ultimately matters because it behaviourally works as expected.
+
+## Jar of Candy
+
+ - AI does not want to use Barbpapa debuff
+
+## Licornapieds
+
+ - AI does not want to use Barbpapa debuff
+
+## Licorne
+
+ - AI does not want to use Barbpapa debuff
+
+## Machinepieds
+
+ - AI does not want to use Barbpapa debuff
 
 ## Manor Door
 

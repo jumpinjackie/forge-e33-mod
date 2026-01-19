@@ -58,7 +58,8 @@ Decides to destroy the world. Bye bye
 Prepare to be HUGGED.
 [ForgeScript]
 T:Mode$ DamageDone | ValidSource$ Card.Self | ValidTarget$ Creature | Execute$ TrigBarbapapa | TriggerDescription$ Whenever Osquio deals damage to a creature, create a blue Aura enchantment token named Barbapapa attached to that creature. The token has enchant creature and “Enchanted creature has base power 1. When enchanted creature deals combat damage, sacrifice this Aura.”
-SVar:TrigBarbapapa:DB$ Token | TokenAmount$ 1 | TokenScript$ u_barbapapa | TokenOwner$ You | AttachedTo$ TriggeredTarget
+# TODO: Is there an AI hint to get it to target our creatures (preferring highest power)?
+SVar:TrigBarbapapa:DB$ Token | TokenAmount$ 1 | TokenScript$ u_barbapapa | TokenOwner$ You | AttachedTo$ TriggeredTarget | AILogic$ Curse
 T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Creature | TriggerZones$ Battlefield | Execute$ TrigUntap | TriggerDescription$ Whenever a creature dies, untap ~.
 SVar:TrigUntap:DB$ Untap | Defined$ Self
 A:AB$ DealDamage | Cost$ R T | ValidTgts$ Any | NumDmg$ 2 | SpellDescription$ ~ deals 2 damage to any target.
@@ -66,6 +67,8 @@ T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ 
 SVar:TrigNuke:DB$ DestroyAll | ValidCards$ Permanent | UnlessCost$ 6 | UnlessPayer$ Player
 [RelatedTokens]
 u_barbapapa
+[Bugs]
+ - AI does not want to use Barbpapa debuff
 [DesignNotes]
  - In the game, Osquio is the final boss of Verso's Drafts. He is Esquie's evil cousin and has all the moves an mannerisms of a Professional Wrestler.
  - Obviously a DFC where his Phase 1 form transforms to his Phase 2 form. Abilities I've translated are:

@@ -20,8 +20,9 @@ $EXPEDITIONER_DEATH_ABILITY_TEXT
 The Paintress sent a storm to overcome us, but it is we who have overcome the storm! After surviving that, crushing those Nevrons was almost an afterthought.
 - Elodie, Expedition 68
 [ForgeScript]
-T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigCharted | TriggerDescription$ When CARDNAME enters, create a Lumina token.
-SVar:TrigCharted:DB$ PutCounter | ValidTgts$ Land | CounterType$ CHARTED | CounterNum$ 1
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigCharted | TriggerDescription$ When ~ enters, put a charted counter on target land.
+# TODO: Is there any further AI hints to make it target non-islands/non-basics?
+SVar:TrigCharted:DB$ PutCounter | ValidTgts$ Land | CounterType$ CHARTED | CounterNum$ 1 | IsCurse$ True
 S:Mode$ Continuous | Affected$ Land.counters_GE1_CHARTED | AddType$ Island | RemoveLandTypes$ True | Description$ Lands with charted counters on them are Islands.
 T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigMap | TriggerDescription$ When ~ enters or attacks, create a Map token.
 T:Mode$ Attacks | ValidCard$ Card.Self | Execute$ TrigMap | Secondary$ True | TriggerZones$ Battlefield | TriggerDescription$ When ~ enters or attacks, create a Map token.
@@ -33,3 +34,4 @@ c_a_map_sac_explore
 Sandfall Interactive
 [DesignNotes]
  - Navigator ability mapped to map token generation
+ - 20/01/2026: Added AI targeting hints
