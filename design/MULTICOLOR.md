@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 19/1/2026 6:23:08 pm
+> Last generated: 19/1/2026 8:37:32 pm
 
 ## A Storm is Coming
 
@@ -1309,7 +1309,7 @@ Creature - Grandis
 {W/U}, {T}: Remove a counter from target permanent.
 ---
 Cleaner 1: I can clear the snow and I can clear the rubble, but this is too much.
-Cleaner 2: Must be truly dispose of this thing?
+Cleaner 2: Must we truly dispose of this thing?
 Cleaner 1:It does not obstruct the way. It is simply ... there.
 
 1/4
