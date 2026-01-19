@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 18/1/2026 7:23:31 am
+> Last generated: 19/1/2026 2:05:04 am
 
 ## A Life to Love (Farewell)
 
@@ -341,7 +341,7 @@ Your time left in this life is limited, why not make it count for something?
 1W
 Enchantment
 When this enchantment enters, draw a card.
-Whenever a creature dies, you gain 1 life.
+Whenever a creature dies, create a Lumina token and you gain 1 life.
 ---
 We could never tell if you were my brother or my father. But to me you were both. The best brother and father I’ve ever had.
 - Maelle
@@ -353,6 +353,7 @@ We could never tell if you were my brother or my father. But to me you were both
 
  - In the game, after defeating the Dualliste, the party find a special tree at Verso's recommendation where Maelle buries Gustave's remains.
  - Card depicts this moment.
+ - 19/01/2026: Added Lumina token bonus on creature death.
 
 ## Healing Light
 
