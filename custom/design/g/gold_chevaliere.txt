@@ -32,4 +32,5 @@ $NEVRON_DEATH_ABILITY
 Sandfall Interactive
 [DesignNotes]
  - In the game, Gold Chevalières can be found in Tainted Lumière inside the Monolith.
+ - Is an artifact creature due to its statue-like nature.
  - Is blue/red as it has basic frozen/burning attacks.

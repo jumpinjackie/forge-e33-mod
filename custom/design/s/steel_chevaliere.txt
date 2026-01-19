@@ -24,4 +24,5 @@ $NEVRON_DEATH_ABILITY
 Sandfall Interactive
 [DesignNotes]
  - In the game, Steel Chevalières can be found in Old Lumière.
+ - Is an artifact creature due to its statue-like nature.
  - Moveset in game is somewhat unremarkable, so based on appearance I've gone with a black Nevron version of Porcelain Legionnaire.

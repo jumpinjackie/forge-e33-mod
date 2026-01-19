@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 19/1/2026 9:31:23 am
+> Last generated: 19/1/2026 6:23:08 pm
 
 ## A Storm is Coming
 
@@ -1277,6 +1277,7 @@ When this creature dies, target opponent creates a Lumina token. (It's an artifa
 ### Design Notes
 
  - In the game, Gold Chevalières can be found in Tainted Lumière inside the Monolith.
+ - Is an artifact creature due to its statue-like nature.
  - Is blue/red as it has basic frozen/burning attacks.
 
 ## Gommage

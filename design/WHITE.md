@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 19/1/2026 6:53:57 am
+> Last generated: 19/1/2026 6:23:08 pm
 
 ## A Life to Love (Farewell)
 
@@ -155,6 +155,7 @@ When this creature dies, target opponent creates a Lumina token. (It's an artifa
 ### Design Notes
 
  - In the game, Ceramic Chevalières can be found in Old Lumière.
+ - Is an artifact creature due to its statue-like nature.
  - Moveset in game is somewhat unremarkable, so based on appearance I've gone with a Nevron version of Porcelain Legionnaire.
 
 ## Chroma Barrier

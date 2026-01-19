@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 19/1/2026 7:21:14 am
+> Last generated: 19/1/2026 6:23:08 pm
 
 ## Axon Offering
 
@@ -515,6 +515,7 @@ When this creature dies, target opponent creates a Lumina token. (It's an artifa
 ### Design Notes
 
  - In the game, Steel Chevalières can be found in Old Lumière.
+ - Is an artifact creature due to its statue-like nature.
  - Moveset in game is somewhat unremarkable, so based on appearance I've gone with a black Nevron version of Porcelain Legionnaire.
 
 ## Surcease
