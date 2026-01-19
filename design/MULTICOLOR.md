@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 19/1/2026 7:59:15 am
+> Last generated: 19/1/2026 9:31:23 am
 
 ## A Storm is Coming
 
@@ -1437,7 +1437,7 @@ Flash
 ```
 4WB
 Legendary Creature - Nevron Horror
-Flying. Ward 3.
+Flying. Ward {3}
 Ball of Light — {2}{W}, {T}: Tap up to three target creatures. They lose all abilities until end of turn.
 Sword of Light — {2}{W}{B}, {T}: Separate creatures target opponent controls into two separate piles. That opponent chooses a pile. Destroy all creatures in that pile. Creatures in the other pile have base toughess 1 until end of turn.
 
