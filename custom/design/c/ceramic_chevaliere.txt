@@ -1,0 +1,27 @@
+[Name]
+Ceramic Chevalière
+[InvariantName]
+Ceramic Chevaliere
+[ManaCost]
+2
+W
+[Types]
+Artifact
+Creature
+Nevron
+Soldier
+[Rarity]
+C
+[PT]
+3/1
+[Oracle]
+First strike
+$NEVRON_DEATH_ABILITY_TEXT
+[ForgeScript]
+K:First strike
+$NEVRON_DEATH_ABILITY
+[Artist]
+Sandfall Interactive
+[DesignNotes]
+ - In the game, Ceramic Chevalières can be found in Old Lumière.
+ - Moveset in game is somewhat unremarkable, so based on appearance I've gone with a Nevron version of Porcelain Legionnaire.

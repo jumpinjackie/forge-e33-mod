@@ -1,0 +1,11 @@
+Name:Veilleur
+ManaCost:4 B
+Types:Creature Nevron
+PT:4/4
+K:Deathtouch
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigBlightCreature | TriggerDescription$ When CARDNAME enters, put a blight counter on target creature.
+SVar:TrigBlightCreature:DB$ PutCounter | ValidTgts$ Creature | TargetMin$ 0 | TargetMax$ 1 | CounterType$ BLIGHT | CounterNum$ 1
+S:Mode$ Continuous | Affected$ Creature.counters_GE1_BLIGHT | EffectZone$ Battlefield | SetToughness$ 1 | Description$ Creatures with blight counters on them have base toughness 1.
+T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Card.Self | Execute$ TrigToken | TriggerDescription$ When this creature dies, target opponent creates a Lumina token.
+SVar:TrigToken:DB$ Token | TokenAmount$ 1 | ValidTgts$ Opponent | TokenOwner$ Targeted | TokenScript$ c_a_lumina
+Oracle:Deathtouch\nPerforms a blighted strike — When this creature enters, put a blight counter on target creature.\nCreatures with blight counters on them have base toughness 1.\nWhen this creature dies, target opponent creates a Lumina token. (It's an artifact with "{T}, Sacrifice this artifact: Scry 1.")

@@ -1,0 +1,11 @@
+Name:Gold Chevalière
+ManaCost:2 U R
+Types:Artifact Creature Nevron Soldier
+PT:4/4
+T:Mode$ ChangesZone | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigTap | TriggerDescription$ When CARDNAME enters, tap up to one target creature and put a stun counter on it.
+SVar:TrigTap:DB$ Tap | TgtPrompt$ Choose target creature | ValidTgts$ Creature | SubAbility$ DBCounter
+SVar:DBCounter:DB$ PutCounter | Defined$ Targeted | CounterType$ Stun | CounterNum$ 1
+A:AB$ DealDamage | Cost$ 4 R Sac<1/CARDNAME> | ValidTgts$ Creature | TgtPrompt$ Select target creature | NumDmg$ 4 | SpellDescription$ CARDNAME deals 4 damage to target creature.
+T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Card.Self | Execute$ TrigToken | TriggerDescription$ When this creature dies, target opponent creates a Lumina token.
+SVar:TrigToken:DB$ Token | TokenAmount$ 1 | ValidTgts$ Opponent | TokenOwner$ Targeted | TokenScript$ c_a_lumina
+Oracle:Frozen attack — When this creature enters, tap up to one target creature and put a stun counter on it.\nBurning attack — {4}{R}, Sacrifice this creature: It deals 4 damage to target creature.\nWhen this creature dies, target opponent creates a Lumina token. (It's an artifact with "{T}, Sacrifice this artifact: Scry 1.")
