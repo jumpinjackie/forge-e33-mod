@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 18/1/2026 7:23:31 am
+> Last generated: 19/1/2026 7:03:58 am
 
 ## A Storm is Coming
 
@@ -1190,6 +1190,24 @@ When this creature dies, target opponent creates a Lumina token. (It's an artifa
 
  - In the game, Glaises can be found in Yellow Harvest and Falling Leaves
 
+## Glimpse of Humanity
+
+```
+4GW
+Sorcery
+Each player exiles all Human creature cards from their graveyard, then sacrifices all creatures they control, then puts all cards they exiled this way onto the battlefield. You gain 1 life for each creature sacrificed this way.
+---
+For a brief moment, Aline’s vision of Clea broke through her re-painted exterior. At that moment, she knew what needed to be done.
+```
+
+[card implementation](../custom/cards/g/glimpse_of_humanity.txt)
+
+### Design Notes
+
+ - In the game, upon defeating Painted Clea, a glimmer of the Clea originally painted by Aline breaks through her re-painted exterior as seen in her left eye. The original Painted Clea decides to sacrifice herself to break her endless cycle of painting Nevrons over and over.
+ - This was a case of snapping a picture-perfect photo (thanks Photo Mode!) after the Painted Clea battle and deciding straight away that we need a card for this moment.
+ - Gone with a base template of Living Death, but clearly benefits Humans at the detriment of Painters and Nevrons. Though Living Death is black, the effect itself (creature board wipe, mass reanimation) is also in white's mechanical toolbox, so we are in-flavor.
+
 ## Glissando
 
 ```
@@ -1241,6 +1259,25 @@ Gustave, wait! It seems peaceful, as long as we don't touch the flowers.
     - Removed Red/Blue Flower tokens and gone with just a Flower token to which is a temur mana rock. There's not enough text box budget to mention two different tokens and the triggering off of both of them. 
     - Changed Flower leave triggers to a (mandatory) modal choice off of any flower token leaving. This was because Forge does not seem to acknowledge token leave triggers of a specific token name.
        - The shield and +1/+1 counter abiliies from the blue/red flower tokens have been moved here.
+
+## Gold Chevalière
+
+```
+2UR
+Artifact Creature - Nevron Soldier
+Frozen attack — When this creature enters, tap up to one target creature and put a stun counter on it.
+Burning attack — {4}{R}, Sacrifice this creature: It deals 4 damage to target creature.
+When this creature dies, target opponent creates a Lumina token. (It's an artifact with "{T}, Sacrifice this artifact: Scry 1.")
+
+4/4
+```
+
+[card implementation](../custom/cards/g/gold_chevaliere.txt)
+
+### Design Notes
+
+ - In the game, Gold Chevalières can be found in Tainted Lumière inside the Monolith.
+ - Is blue/red as it has basic frozen/burning attacks.
 
 ## Gommage
 

@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 18/1/2026 6:33:57 am
+> Last generated: 19/1/2026 7:21:14 am
 
 ## Axon Offering
 
@@ -499,6 +499,24 @@ My love. These foes are beneath you. You, who have fought heaven and earth... An
 
  - Another card where we have an awesome quote looking for a card to live in. In this case, functional reprint of Feign Death, because Simon ain't feigning death here!
 
+## Steel Chevalière
+
+```
+2B
+Artifact Creature - Nevron Soldier
+First strike
+When this creature dies, target opponent creates a Lumina token. (It's an artifact with "{T}, Sacrifice this artifact: Scry 1.")
+
+3/1
+```
+
+[card implementation](../custom/cards/s/steel_chevaliere.txt)
+
+### Design Notes
+
+ - In the game, Steel Chevalières can be found in Old Lumière.
+ - Moveset in game is somewhat unremarkable, so based on appearance I've gone with a black Nevron version of Porcelain Legionnaire.
+
 ## Surcease
 
 ```
@@ -563,6 +581,27 @@ You may have this creature enter as a copy of any nonlegendary Expeditioner crea
 
  - In the game, at camp after slaying the two Axons and acquiring the Barrier Breaker, the party sleeps except for Verso, who is approached by Painted Alicia, who hands him a letter intended for Maelle, in that moment Verso removes her mask, stating she does not need to wear it.
  - Perfect flavorful reprint of Unmask.
+
+## Veilleur
+
+```
+4B
+Creature - Nevron
+Deathtouch
+Performs a blighted strike — When this creature enters, put a blight counter on target creature.
+Creatures with blight counters on them have base toughness 1.
+When this creature dies, target opponent creates a Lumina token. (It's an artifact with "{T}, Sacrifice this artifact: Scry 1.")
+
+4/4
+```
+
+[card implementation](../custom/cards/v/veilleur.txt)
+
+### Design Notes
+
+ - In the game, Veilleurs can be found in The Reacher and Renoir's Drafts.
+ - It's main gimmick is inflicting the blight debuff which perma-reduces a characters HP bar by a fixed percentage. Translated to the same blightning ability as Échassier.
+ - Gave it Deathtouch to match its blightning nature.
 
 ## Verso's Burden (Treacherous Link)
 

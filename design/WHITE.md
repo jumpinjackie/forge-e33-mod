@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 19/1/2026 2:05:04 am
+> Last generated: 19/1/2026 6:53:57 am
 
 ## A Life to Love (Farewell)
 
@@ -138,6 +138,24 @@ Someone found our shop! I was this close to believing that we’d never have cli
 
  - In the game, an unfinished Bruler and Cruler can be found in the Coastal Caves. They've adopted a new career as blacksmiths and sell an assortment of weapons.
  - Added an assortment of equipment-related benefits in line with any "blacksmith" card printed thus far.
+
+## Ceramic Chevalière
+
+```
+2W
+Artifact Creature - Nevron Soldier
+First strike
+When this creature dies, target opponent creates a Lumina token. (It's an artifact with "{T}, Sacrifice this artifact: Scry 1.")
+
+3/1
+```
+
+[card implementation](../custom/cards/c/ceramic_chevaliere.txt)
+
+### Design Notes
+
+ - In the game, Ceramic Chevalières can be found in Old Lumière.
+ - Moveset in game is somewhat unremarkable, so based on appearance I've gone with a Nevron version of Porcelain Legionnaire.
 
 ## Chroma Barrier
 
