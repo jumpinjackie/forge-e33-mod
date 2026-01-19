@@ -1,0 +1,11 @@
+Name:Glimpse of Humanity
+ManaCost:4 G W
+Types:Sorcery
+A:SP$ ChangeZoneAll | ChangeType$ Creature.Human | Origin$ Graveyard | Destination$ Exile | RememberChanged$ True | SubAbility$ DBSacrifice | AILogic$ LivingDeath | SpellDescription$ Each player exiles all Human creature cards from their graveyard, then sacrifices all creatures they control, then puts all cards they exiled this way onto the battlefield. You gain 1 life for each creature sacrificed this way.
+SVar:DBSacrifice:DB$ SacrificeAll | ValidCards$ Creature | SubAbility$ DBReturn
+SVar:DBReturn:DB$ ChangeZone | Defined$ Remembered | Origin$ Exile | Destination$ Battlefield | SubAbility$ DBLifeGain
+SVar:DBLifeGain:DB$ GainLife | Defined$ You | LifeAmount$ X | SubAbility$ DBCleanup
+SVar:X:Remembered$Amount
+SVar:DBCleanup:DB$ Cleanup | ClearRemembered$ True
+SVar:IsReanimatorCard:TRUE
+Oracle:Each player exiles all Human creature cards from their graveyard, then sacrifices all creatures they control, then puts all cards they exiled this way onto the battlefield. You gain 1 life for each creature sacrificed this way.
