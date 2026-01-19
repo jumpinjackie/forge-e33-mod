@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 19/1/2026 7:03:58 am
+> Last generated: 19/1/2026 7:59:15 am
 
 ## A Storm is Coming
 
@@ -1206,7 +1206,7 @@ For a brief moment, Aline’s vision of Clea broke through her re-painted exteri
 
  - In the game, upon defeating Painted Clea, a glimmer of the Clea originally painted by Aline breaks through her re-painted exterior as seen in her left eye. The original Painted Clea decides to sacrifice herself to break her endless cycle of painting Nevrons over and over.
  - This was a case of snapping a picture-perfect photo (thanks Photo Mode!) after the Painted Clea battle and deciding straight away that we need a card for this moment.
- - Gone with a base template of Living Death, but clearly benefits Humans at the detriment of Painters and Nevrons. Though Living Death is black, the effect itself (creature board wipe, mass reanimation) is also in white's mechanical toolbox, so we are in-flavor.
+ - Gone with a base template of Living Death, but clearly benefits Humans. Though Living Death is black, the effect itself (creature board wipe, mass reanimation) is also in white's mechanical toolbox, so we are in-flavor.
 
 ## Glissando
 
