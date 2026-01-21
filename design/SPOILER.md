@@ -277,7 +277,7 @@
 | ![](../custom/pics/cards/E33/Stone%20Wave%20Cliffs.full.jpg) | ![](../custom/pics/cards/E33/Sunless%20Cliffs.full.jpg) | ![](../custom/pics/cards/E33/The%20Hauler.full.jpg) |
 | <center>[Stone Wave Cliffs (Spirebluff Canal)](LANDS.md#stone-wave-cliffs-spirebluff-canal)</center> | <center>[Sunless Cliffs (Blackcleave Cliffs)](LANDS.md#sunless-cliffs-blackcleave-cliffs)</center> | <center>[The Hauler](LANDS.md#the-hauler)</center> |
 | ![](../custom/pics/cards/E33/The%20Indigo%20Tree.full.jpg) | ![](../custom/pics/cards/E33/The%20Monolith.full.jpg) | ![](../custom/pics/cards/E33/The%20Monolith%20Interior.full.jpg) |
-| <center>[The Indigo Tree (The World Tree)](LANDS.md#the-indigo-tree-the-world-tree)</center> | <center>[The Monolith](LANDS.md#the-monolith)</center> | <center>[The Monolith Interior](LANDS.md#the-monolith-interior)</center> |
+| <center>[The Indigo Tree](LANDS.md#the-indigo-tree)</center> | <center>[The Monolith](LANDS.md#the-monolith)</center> | <center>[The Monolith Interior](LANDS.md#the-monolith-interior)</center> |
 | ![](../custom/pics/cards/E33/The%20Reacher.full.jpg) | ![](../custom/pics/cards/E33/The%20Root%20of%20All%20Evil.full.jpg) | ![](../custom/pics/cards/E33/The%20Sacred%20River.full.jpg) |
 | <center>[The Reacher](LANDS.md#the-reacher)</center> | <center>[The Root of All Evil (Urborg, Tomb of Yawgmoth)](LANDS.md#the-root-of-all-evil-urborg-tomb-of-yawgmoth)</center> | <center>[The Sacred River](LANDS.md#the-sacred-river)</center> |
 | ![](../custom/pics/cards/E33/Tranquil%20Landscape.full.jpg) | ![](../custom/pics/cards/E33/Twilight%20Quarry.full.jpg) | ![](../custom/pics/cards/E33/Twisted%20Landscape.full.jpg) |

@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 21/1/2026 8:54:42 am
+> Last generated: 21/1/2026 1:06:31 pm
 
 ## Blade's Graveyard (Concealed Courtyard)
 
@@ -568,14 +568,25 @@ Legendary Land
  - In the game, The Hauler is one of the four Axons created by Renoir. The Hauler represents Clea and has an entire city on its back, symbolizing the burden of family affairs being carried by Clea. The Hauler was killed by Simon.
  - Obviously mechanically maps to being a man-land. Given the legendary and epic nature of Axons, it clearly must animate into something big and monstrous.
 
-## The Indigo Tree (The World Tree)
+## The Indigo Tree
 
-> This card is a nicknamed reprint of (The World Tree)
-[Scryfall](https://scryfall.com/search?q=The%20World%20Tree)
-### Notes
+```
+
+Legendary Land
+{T}: Add {G}.
+{4}, {T}: Create a Lumina token. (It's an artifact with "{T}, Sacrifice this artifact: Scry 1.")
+---
+Wait, there’s a message on the wall. “Took Maelle to the weird corals. Head north. Look for a door inside a hut“
+- Lune
+```
+
+[card implementation](../custom/cards/t/the_indigo_tree.txt)
+
+### Design Notes
 
  - In the game, The Indigo Tree was the rallying point for Expedition 33 if party members got split off.
  - Chose a nickname reprint of The World Tree as its God tutoring ability has some relevance in this set.
+ - 22/01/2026: No longer a nicknamed reprint as there are no longer any Gods in this set. Changed to a green mana land that can create Lumina tokens.
 
 ## The Meadows (Brushland)
 

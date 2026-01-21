@@ -350,7 +350,7 @@ Cards implemented: 455
 [x] The Fracture
 [x] The Greatest Expedition in History
 [x] The Hauler
-[N] The Indigo Tree
+[x] The Indigo Tree
 [Z] The Meadows
 [x] The Monolith
 [x] The Monolith Interior

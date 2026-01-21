@@ -329,6 +329,7 @@ Type=Custom
 399 R The Gingerbread Door @Sandfall Interactive
 400 R The Greatest Expedition in History @Sandfall Interactive
 401 R The Hauler @Sandfall Interactive
+402 U The Indigo Tree @Sandfall Interactive
 404 M The Monolith @Sandfall Interactive
 405 R The Monolith Interior @Sandfall Interactive
 406 M The Paintress @Sandfall Interactive
@@ -409,7 +410,6 @@ Type=Custom
 375 R Spirebluff Canal @Sandfall Interactive ${"flavorName": "Stone Wave Cliffs"}
 376 R Blackcleave Cliffs @Sandfall Interactive ${"flavorName": "Sunless Cliffs"}
 393 C Terminate @Lucas Graciano
-402 R The World Tree @Sandfall Interactive ${"flavorName": "The Indigo Tree"}
 408 R Urborg, Tomb of Yawgmoth @Sandfall Interactive ${"flavorName": "The Root of All Evil"}
 419 C Tranquil Landscape @Randy Gallegos
 422 C Twisted Landscape @Piotr Dura
