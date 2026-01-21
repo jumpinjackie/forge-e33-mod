@@ -27,6 +27,8 @@ SVar:DBPump:DB$ Pump | ValidTgts$ Creature | TargetMin$ 0 | TargetMax$ 2 | TgtPr
 SVar:DBDestroy:DB$ Destroy | ValidTgts$ Creature.nonExpeditioner | TgtPrompt$ Select target non-Expeditioner creature | SpellDescription$ Destroy target non-Expeditioner creature.
 [RelatedTokens]
 w_1_1_human_expeditioner
+[DraftScore]
+87
 [DesignNotes]
  - In the game, this symbolizes the moment where re-awakened Maelle arrives in Lumière with party and resurrected Expeditioners to commence the final assault.
  - Made this a variant of Rally the Monastery with Expeditioner-aligned benefits.

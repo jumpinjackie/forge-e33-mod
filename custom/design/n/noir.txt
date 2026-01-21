@@ -30,6 +30,8 @@ A:AB$ Tap | Cost$ 4 B T | ValidTgts$ Creature | TgtPrompt$ Select up to two targ
 A:AB$ DealDamage | Cost$ 2 B T | ValidTgts$ Creature | TgtPrompt$ Select target creature | NumDmg$ 2 | SubAbility$ DBGainLife | SpellDescription$ ~ deals 2 damage to target creature. You gain 2 life.
 SVar:DBGainLife:DB$ GainLife | Defined$ You | LifeAmount$ 2
 $NEVRON_DEATH_ABILITY
+[DraftScore]
+90
 [DesignNotes]
  - In the game, Noirs are high-tier tanky Nevrons found on the Dark Shores and are an excellent source of XP farming in the late game.
  - Placeholder vanilla Nevron. Abilities TBD.

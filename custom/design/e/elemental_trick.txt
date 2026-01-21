@@ -28,6 +28,8 @@ SVar:DBGainLife:DB$ GainLife | ValidTgts$ Player | TgtPrompt$ Select target play
 SVar:DBAddG:DB$ Mana | Produced$ G
 [Artist]
 Stable Diffusion
+[DraftScore]
+95
 [DesignNotes]
  - In the game, Elemental Genesis is one of Lune's skills. It deals damage in each element and generates the corresponding stain if damage was critical.
  - Translated to a super-modal spell with one on-color mode for each of the 4 colors. Each mode also adds one mana of the corresponding color as a nod to the stain generation per element.

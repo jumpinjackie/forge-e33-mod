@@ -33,6 +33,8 @@ SVar:MaxTgts:Count$Valid Creature
 SVar:X:Count$xPaid
 [Artist]
 Sandfall Interactive
+[DraftScore]
+90
 [DesignNotes]
  - In the game, Sprong is an optional overworld boss.
  - Grixis color identity chosen so double strike could be flavorfully woven in to its ability suite. Other abilities are on-flavor for their respective colors.

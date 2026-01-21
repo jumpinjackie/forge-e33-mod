@@ -24,6 +24,8 @@ S:Mode$ Continuous | Affected$ Card.Self | IsPresent$ Card.token+YouCtrl+namedRo
 c_a_romanifos_balloon
 [Artist]
 Sandfall Interactive
+[DraftScore]
+90
 [DesignNotes]
  - In the game, Romanifo can be found in Verso's Drafts. Popping his balloons provokes him into a fight where he is invincible. He can only be damaged by popping all of his balloons.
  - Mapped his gimmick to spawning a token equipment that grants flying. While this token equipment is under your control, Romanifo is indestructible to match his video game immunity to any damage.

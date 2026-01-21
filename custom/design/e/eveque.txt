@@ -29,5 +29,7 @@ A:AB$ Token | Cost$ 2 G G T | TokenAmount$ 2 | TokenOwner$ You | TokenScript$ g_
 g_1_1_abbest_nevron
 [Artist]
 Sandfall Interactive
+[DraftScore]
+89
 [DesignNotes]
  - In the game, Évêque is the first boss, encountered at the end of Spring Meadows.

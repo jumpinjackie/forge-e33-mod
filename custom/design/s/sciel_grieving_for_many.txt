@@ -38,6 +38,8 @@ SVar:DBCreateChroma:DB$ Token | TokenScript$ c_a_chroma | TokenOwner$ You | Toke
 SVar:X:Count$xPaid
 [RelatedTokens]
 c_a_chroma
+[DraftScore]
+93
 [DesignNotes]
  - Sciel is a kind, emphatheic, nurturing character that specializes in weapons and attacks that deal dark damage. Clearly an Orzhov color identity.
  - In the game, Sciel's attacks build up foretell, which can then be consumed later on for even more powerful attacks. We are using Foretell in the literal sense by re-using the existing Foretell mechanic by having Sciel granting all nonland cards in your hand to be foretelled.

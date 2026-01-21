@@ -69,6 +69,8 @@ SVar:TrigNuke:DB$ DestroyAll | ValidCards$ Permanent | UnlessCost$ 6 | UnlessPay
 u_barbapapa
 [Bugs]
  - AI does not want to use Barbpapa debuff
+[DraftScore]
+95
 [DesignNotes]
  - In the game, Osquio is the final boss of Verso's Drafts. He is Esquie's evil cousin and has all the moves an mannerisms of a Professional Wrestler.
  - Obviously a DFC where his Phase 1 form transforms to his Phase 2 form. Abilities I've translated are:

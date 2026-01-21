@@ -33,6 +33,8 @@ SVar:TrigDestroy:DB$ Destroy | Defined$ TriggeredCardLKICopy
 A:AB$ GainLife | Cost$ 1 B T | Defined$ You | LifeAmount$ X | SpellDescription$ Gain 1 life for each creature you control.
 SVar:X:Count$Valid Creature.YouCtrl
 $NEVRON_DEATH_ABILITY
+[DraftScore]
+80
 [DesignNotes]
  - In the game, Échassiers are found in The Reacher and Renoir's Drafts.
  - Mapped the "Double the blight & Heals allies" ability to 1 toughness setting and life gain.

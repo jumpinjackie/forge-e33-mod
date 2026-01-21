@@ -50,3 +50,5 @@ K:Saddle:2
  - Because this is a Mount creature with Saddle, I've given it the Uro (draw a card or put a land) triggered ability as the saddle attacking bonus.
 [Bugs]
 Getting the same ordering issue on the Uro modal trigger as Golgra.
+[DraftScore]
+86

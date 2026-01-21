@@ -26,6 +26,8 @@ A:AB$ Token | Cost$ T | TokenAmount$ 1 | TokenOwner$ You | TokenScript$ c_a_flow
 $EXPEDITIONER_DEATH_ABILITY
 [RelatedTokens]
 c_a_flower
+[DraftScore]
+90
 [DesignNotes]
  - In the game, Ophelie operates a stand in the Lumière flower market.
  - Easy map to a creature that makes Flower tokens.

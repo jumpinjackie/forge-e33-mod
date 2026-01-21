@@ -30,6 +30,8 @@ A:AB$ GainControl | Cost$ SubCounter<10/LOYALTY> | Planeswalker$ True | Ultimate
 b_0_0_nevron_army
 [Artist]
 Sandfall Interactive
+[DraftScore]
+100
 [DesignNotes]
  - Planeswalker Clea's abilities map to her purported abilities in-game:
     - +2: She is a prolific Nevron creating machine

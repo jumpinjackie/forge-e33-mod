@@ -25,6 +25,8 @@ A:AB$ Token | Cost$ 1 W T | TokenAmount$ 1 | TokenScript$ c_a_map_sac_explore | 
 [RelatedTokens]
 w_1_1_human_expeditioner
 c_a_map_sac_explore
+[DraftScore]
+99
 [DesignNotes]
  - In the game, Lumière is the city where the humans live. It is also the last bastion of human civilization that is slowly dying each year with the yearly Gommages, hence the sub-title.
  - Mechanically, modeled on Kjeldoran Outpost but produces Human Expeditioner tokens instead of Soldiers

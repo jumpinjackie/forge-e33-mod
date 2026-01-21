@@ -19,6 +19,8 @@ Your mother paints life. Whilst your father, death. What will you paint?
 [ForgeScript]
 A:SP$ ChangeZone | TargetMin$ X | TargetMax$ X | ValidTgts$ Permanent.nonLand+nonLegendary+nonNevron+cmcGEX | TgtPrompt$ Select X target nonland permanents with mana value X or higher that aren’t legendary or Nevrons. | Origin$ Battlefield | Destination$ Exile | SpellDescription$ Exile X target nonland permanents with mana value X or higher that aren’t legendary or Nevrons.
 SVar:X:Count$xPaid
+[DraftScore]
+92
 [DesignNotes]
  - In the game, the Gommage is a yearly event where people above a certain age (indicated on the Monolith) are erased from existence. It is also a gradient attack power that Maelle gains in the late game that can deal extreme singular damage.
  - Mechanically, this is easily a mass exile effect. It spares legendaries and Nevrons as this event only affects the humans of the continent.

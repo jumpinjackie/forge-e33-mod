@@ -27,6 +27,8 @@ Sorcery
 Take an extra turn after this one.
 [ForgeScript]
 A:SP$ AddTurn | NumTurns$ 1 | SpellDescription$ Take an extra turn after this one.
+[DraftScore]
+97
 [DesignNotes]
  - In the game. "When one falls, we continue" is the expeditioner's motto. To strive onwards and continue, no matter what setbacks.
  - Mechanically:

@@ -30,6 +30,8 @@ SVar:TrigSacrifice:DB$ Sacrifice | Defined$ TriggeredPlayer | Amount$ 1 | SacVal
 A:AB$ PutCounter | Cost$ 4 T | ValidTgts$ Creature | CounterType$ CURSED | CounterNum$ 1 | Put a cursed counter on target creature.
 [Artist]
 Sandfall Interactive
+[DraftScore]
+95
 [DesignNotes]
  - In the game, Tisseur is an optional boss in Sirène's Coliseum. Defeating it will make the upcoming boss fight against Sirène much easier.
  - Made it an artifact creature as it clearly has artificial instead of organic nature. It looks like a thread spindle with a head and arms attached to it. Nothing organic about that!

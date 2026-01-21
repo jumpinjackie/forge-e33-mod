@@ -21,6 +21,8 @@ A:AB$ Token | Cost$ 4 T | TokenAmount$ 1 | TokenOwner$ You | TokenScript$ a_1_1_
 [RelatedTokens]
 c_a_lumina
 a_1_1_gestral
+[DraftScore]
+96
 [Artist]
 Sandfall Interactive
 [DesignNotes]

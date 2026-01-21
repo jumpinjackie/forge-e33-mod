@@ -40,6 +40,8 @@ A:AB$ Pump | Cost$ SubCounter<1/JOY> | Defined$ Self | KW$ Lifelink | SpellDescr
 A:AB$ PutCounter | Cost$ SubCounter<1/SADNESS> | CounterType$ STUN | CounterNum$ 1 | ValidTgts$ Creature | TgtPrompt$ Select target creature | SpellDescription$ Put a stun counter on target creature.
 [Artist]
 Sandfall Interactive
+[DraftScore]
+90
 [DesignNotes]
  - In the game, The Mask Keeper is the true Axon behind Visages.
  - Main gimmick I am capturing here is the 3 masks that grant him various buffs every turn, represented in card form as counters.

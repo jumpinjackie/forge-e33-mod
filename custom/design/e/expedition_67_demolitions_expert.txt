@@ -26,6 +26,8 @@ K:Flash
 T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigDestroy | TriggerDescription$ When CARDNAME enters, destroy target creature or artifact.
 SVar:TrigDestroy:DB$ Destroy | ValidTgts$ Creature,Artifact | TgtPrompt$ Select target creature or artifact | SpellDescription$ Destroy target creature or artifact.
 $EXPEDITIONER_DEATH_ABILITY
+[DraftScore]
+85
 [DesignNotes]
  - In the game, Expedition 67 employed the use of explosives to tear down walls in Sirène's coliseum. They succumbed to Sirène's musical wiles.
  - This card models one such crew member.

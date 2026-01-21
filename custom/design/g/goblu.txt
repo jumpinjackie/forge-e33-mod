@@ -42,6 +42,8 @@ Gustave, wait! It seems peaceful, as long as we don't touch the flowers.
 - Lune
 [RelatedTokens]
 c_a_flower
+[DraftScore]
+90
 [DesignNotes]
  - In the game, Goblu is the boss of Flying Waters.
  - Main gimmick we want to mechanically translate is Goblu's flower growing and consuming ability.

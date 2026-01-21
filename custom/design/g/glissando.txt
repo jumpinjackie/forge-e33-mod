@@ -29,6 +29,8 @@ A:AB$ Token | Cost$ T | TokenAmount$ 1 | TokenOwner$ You | TokenScript$ g_1_1_ba
 g_1_1_ballet_nevron
 [Artist]
 Sandfall Interactive
+[DraftScore]
+87
 [DesignNotes]
  - In the game, Glissando is an optional sub-boss in Sirène's coliseum
  - Has an appearance of a wurm, so gave it a that sub-type.

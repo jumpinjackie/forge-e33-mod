@@ -30,6 +30,8 @@ SVar:DBDestroy:DB$ Destroy | ValidTgts$ Creature.cmcLE3 | TgtPrompt$ Select targ
 SVar:DBTapAndStun:DB$ Tap | TgtPrompt$ Choose target creature | ValidTgts$ Creature | SubAbility$ DBCounter | TargetMin$ 0 | TargetMax$ 1 | SpellDescription$ Tap up to one target creature and put a stun counter on it.
 SVar:DBCounter:DB$ PutCounter | Defined$ Targeted | CounterType$ Stun | CounterNum$ 1
 $NEVRON_DEATH_ABILITY
+[DraftScore]
+89
 [DesignNotes]
  - In the game, Contortionniste is a mid/late game Nevron
  - Mapped "Absorbs health" to lifelink

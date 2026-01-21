@@ -19,6 +19,8 @@ K:Equip:2
 S:Mode$ CanAttackDefender | ValidCard$ Card.EquippedBy  | Description$ Equipped creature can attack as though it didn't have defender.
 S:Mode$ Continuous | Affected$ Card.EquippedBy | SetPower$ 5 | SetToughness$ 1 | Description$ Equipped creature gets has base power and toughness 5/1
 $PICTO_REPLICATE_ABILITY(2)
+[DraftScore]
+90
 [DesignNotes]
  - In the game, Glass Cannon lets a chacter deal 25% more damage, but take 25% more damage as well.
  - Mapped to creature power pump at the expense of its toughness.

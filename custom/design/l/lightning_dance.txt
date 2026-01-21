@@ -26,5 +26,7 @@ SVar:DBDamageThree:DB$ DealDamage | ValidTgts$ Any | TgtPrompt$ Select another t
 SVar:DBDamageResolve:DB$ DamageResolve | SubAbility$ TrigDraw
 SVar:TrigDraw:DB$ Draw | NumCards$ 1 | ConditionCheckSVar$ X | ConditionSVarCompare$ GE3
 SVar:X:Count$Valid Lumina.YouCtrl
+[DraftScore]
+87
 [DesignNotes]
  - Just Cone of Flame made {1} cheaper and Expeditioner aligned

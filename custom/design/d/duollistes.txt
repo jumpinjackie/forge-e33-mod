@@ -30,6 +30,8 @@ SVar:HasAttackEffect:TRUE
 wb_3_3_shadow_dualliste
 [Artist]
 Sandfall Interactive
+[DraftScore]
+88
 [DesignNotes]
  - In the game, Duollistes is an Act 3 optional endgame superboss found in the Endless Towers. It was introduced with the "Thank You" update.
  - The main gimmick we're capturing is his ability to spawn Shadow Duollistes to complement his suite of rapid fire attacks. Mapped this as spawning and attacking Shadow Dualliste tokens that get removed at end of combat (ala. Geist of Saint Traft)

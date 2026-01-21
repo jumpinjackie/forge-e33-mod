@@ -32,6 +32,8 @@ T:Mode$ Phase | Phase$ Upkeep | ValidPlayer$ You | TriggerZones$ Battlefield | E
 SVar:TrigIce:DB$ DealDamage | ValidTgts$ Creature.OppCtrl | TgtPrompt$ Select target creature an opponent controls | NumDmg$ 4 | SubAbility$ TrigTap | SpellDescription$ CARDNAME deals 4 damage to target creature an opponent controls. Tap that creature and put a stun counter on it.
 SVar:TrigTap:DB$ Tap | Defined$ Targeted | SubAbility$ TrigStun
 SVar:TrigStun:DB$ PutCounter | Defined$ Targeted | CounterType$ STUN | CounterNum$ 1
+[DraftScore]
+97
 [DesignNotes]
  - In the game François is Esquie's neighbor and "archnemesis" and is in possession of one of the rocks that Esquie desires. François was created by Clea and is forever longing for her return into the canvas.
  - Mechanically speaking:

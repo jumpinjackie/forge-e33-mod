@@ -22,6 +22,8 @@ SVar:DBCleanup:DB$ Cleanup | ClearRemembered$ True
 SVar:IsReanimatorCard:TRUE
 [Artist]
 Sandfall Interactive
+[DraftScore]
+98
 [DesignNotes]
  - In the game, upon defeating Painted Clea, a glimmer of the Clea originally painted by Aline breaks through her re-painted exterior as seen in her left eye. The original Painted Clea decides to sacrifice herself to break her endless cycle of painting Nevrons over and over.
  - This was a case of snapping a picture-perfect photo (thanks Photo Mode!) after the Painted Clea battle and deciding straight away that we need a card for this moment.

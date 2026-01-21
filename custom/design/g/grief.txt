@@ -23,5 +23,7 @@ M
 true
 [Artist]
 Campbell White
+[DraftScore]
+94
 [DesignNotes]
  - Grief is the central theme of the video game. So as hideously broken as this card is, it is an absolutely flavorful reprint inclusion.

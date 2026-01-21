@@ -39,3 +39,5 @@ SVar:DBDraw:DB$ Draw | NumCards$ 1 | SpellDescription$ Draw a card.
  - 19/12/2025: Renamed from Golgra, Gestral Chief to Golgra, Gestral Chef as that is indeed what other Gestrals refer to her as.
 [Bugs]
 I am being prompted for the mode before the enrage trigger goes on the stack, I kind of expected the prompt to happen on trigger resolution. And the trigger description on the stack is the full modal prompt and not the choice made. Not sure if it ultimately matters because it behaviourally works as expected.
+[DraftScore]
+97
