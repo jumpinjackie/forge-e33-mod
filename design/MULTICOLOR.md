@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 21/1/2026 8:54:42 am
+> Last generated: 21/1/2026 12:17:29 pm
 
 ## A Storm is Coming
 
@@ -23,7 +23,7 @@ Create a Lumina token.
 
 ```
 3BR
-Creature - Nevron
+Creature - Nevron Horror
 Performs light strikes — When this creature enters, it deals 3 damage divided as you choose among any number of target creatures and/or planeswalkers.
 Performs dark combo — {2}{B}, {T}: Target creature has base toughness 1 until end of turn.
 Creates earthquakes — {3}{R}, {T}: This creature deals 1 damage to each creature without flying and each player.
@@ -38,6 +38,7 @@ When this creature dies, target opponent creates a Lumina token.
 
  - Just a vanilla placeholder for now until I have figured out some suitable abilities for it
  - 13/10/2025: Removed Devoid.
+ - 21/01/2026: Added Horror sub-type.
 
 ## Abrupt Decay
 
@@ -169,7 +170,7 @@ Maelle: Ooh dark. Sophie would approve.
 
 ```
 1RWB
-Creature - Nevron
+Creature - Nevron Giant
 Eats party member — When this creature enters, exile another target creature.
 When this creature leaves the battlefield, return the exiled card to the battlefield under its owner's control.
 Multi-hit combo — {2}{R}: This creature gains double strike until end of turn.
@@ -187,6 +188,7 @@ Spits miasma — {2}{B}, {T}: This creature deals 2 damage to target creature. P
    - Eating a party member: An Oblivion Ring style exile effect on ETB that is released when this creature either dies or is stunned (by putting a stun counter on it)
    - 3/4/5-hit combos: Double strike
    - Spits miasma: A shock and stun on target creature.
+ - 21/01/2026: Added Giant sub-type.
 
 ## Braseleur
 
@@ -366,7 +368,7 @@ For the sake of the living, we must part with the dead.
 
 ```
 1UB
-Creature - Nevron
+Creature - Nevron Horror
 Lifelink.
 Impales its target — When this creature enters, choose one —
 • Destroy up to one target creature with mana value 3 or less.
@@ -384,6 +386,7 @@ When this creature dies, target opponent creates a Lumina token. (It's an artifa
  - Mapped "Absorbs health" to lifelink
  - Mapped "Impales its target" to creature kill or tap-and-stun.
  - 14/01/2026: Added "up to one" targeting clauses
+ - 21/01/2026: Added Horror sub-type.
 
 ## Danseuse
 
@@ -997,7 +1000,7 @@ The cards have spoken!
 
 ```
 3UR
-Legendary Creature - Nevron
+Legendary Creature - Nevron Giant
 Freezes — {2}{U}, {T}: Tap target creature and put a stun counter on it.
 Lands a series of punches — {1}{R}: Gargant gains double strike until end of turn.
 Whenever Gargant is dealt damage from a red source, remove all counters from it and put a fire counter on it.
@@ -1013,6 +1016,7 @@ Gargant has protection from red as long as it has a fire counter on it and prote
 
  - In the game, Gargant is a boss in Frozen Hearts.
  - Rather than transcribe its abilities 1:1 like other Nevrons, I've gone for something different here and only tried to mechanically capture its "flip-flop" elemental immunity.
+ - 21/01/2026: Added Giant sub-type.
 
 ## Gestral Foot Race Challenge
 
@@ -1228,10 +1232,9 @@ When this creature dies, target opponent creates a Lumina token. (It's an artifa
 ## Gommage
 
 ```
-3WB
+XWB
 Sorcery - Gradient
-This spell costs {1} less to cast if you control a painter.
-Exile all nonland permanents that aren't legendary or Nevrons.
+Exile X target nonland permanents with mana value X or higher that aren’t legendary or Nevrons.
 ---
 Your mother paints life. Whilst your father, death. What will you paint?
 - Alicia
@@ -1244,7 +1247,8 @@ Your mother paints life. Whilst your father, death. What will you paint?
  - In the game, the Gommage is a yearly event where people above a certain age (indicated on the Monolith) are erased from existence. It is also a gradient attack power that Maelle gains in the late game that can deal extreme singular damage.
  - Mechanically, this is easily a mass exile effect. It spares legendaries and Nevrons as this event only affects the humans of the continent.
  - Has painter's discount as this is clearly a power wielded by the painters.
-w - 26/11/2025: It has come to my attention that this name is already taken in French (for the English card: Blot Out). However since, this is an English printing and that this is a custom set, there is no collsion issues with this card in Forge.
+ - 26/11/2025: It has come to my attention that this name is already taken in French (for the English card: Blot Out). However since, this is an English printing and that this is a custom set, there is no collsion issues with this card in Forge.
+ - 21/01/2026: Removed painter's discount and changed the design from mass-exile to an X spell that takes out X nonland permanents with mana value X or higher. This adds extra skill in determining an appropriate value for X. Low values for X will guarantee something you want gets hit, but you can only probably hit 1 or 2 targets. Higher values of X reduce candidate targets, but you can hit more of them.
 
 ## Grandis Cleaner
 
@@ -1729,7 +1733,7 @@ When you unlock this door, it deals 3 damage to any target.
 ```
 5UB
 Legendary Creature - Axon
-Trample. Ward {3}
+Ward {3}
 Mask Keeper enters with an anger counter, a joy counter and a sadness counter.
 At the beginning of your upkeep, put an anger, joy or sadness counter on him.
 Anger mask — Remove an anger counter from Mask Keeper: Untap him.
@@ -1752,6 +1756,7 @@ We all need masks.
     - Sadness Mask: Mapped exhaust to putting a stun counter on a creature.
  - The upkeep trigger wording probably sounds a bit weird. Default instinct is to use modal ability templating, but there is no textbox budget for that and there is no other precedent for templating such a triggered ability in this manner. So it is worded this way as a "creative decision".
     - This will be implemented as a modal trigger in Forge.
+ - 21/01/2026: Removed Trample.
 
 ## Mesmeric Deception
 
@@ -2190,7 +2195,7 @@ Extermination Boom — {B}{B}, {T}, Remove X charge counters from Sprong: Sprong
 
 ```
 1UR
-Creature - Nevron
+Creature - Nevron Beast
 This creature enters with a shield counter.
 Whenever this creature is dealt damage from a red source, remove all counters from it and put a fire counter on it.
 Whenever this creature is dealt damage from a blue source, remove all counters from it and put an ice counter on it.
@@ -2206,6 +2211,7 @@ Self-destruct — Sacrifice this creature: This creature deals 2 damage to targe
 ### Design Notes
 
  - Has the same "flip-flop" elemental immunity as its big brother (Gargant), so has the same flip-flop protection.
+ - 21/01/2026: Added Beast sub-type.
 
 ## Stendhal
 

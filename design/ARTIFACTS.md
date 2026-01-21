@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 21/1/2026 8:54:42 am
+> Last generated: 21/1/2026 12:24:12 pm
 
 ## A Rock for François
 
@@ -924,7 +924,7 @@ Did I mention the prize is a powerful weapon? So, how about it?
 2
 Legendary Artifact Creature - Gestral Bard
 At the beginning of your upkeep, you may put a verse counter on Lorieniso.
-{2}, {T}: Search your library for a Gestral card with mana value X or less and put it into your hand, where X is the number of verse counters on this creature.
+{2}, {T}: Search your library for a creature card with mana value X or less and put it into your hand, where X is the number of verse counters on this creature.
 
 1/3
 ```
@@ -936,6 +936,7 @@ At the beginning of your upkeep, you may put a verse counter on Lorieniso.
  - In the game, Lorieniso is one of the NPCs found in the Gestral Village. Clearly named after Lorien Testard, the composer of the OST for this game.
  - This is the Gestral's Goblin Matron / Gestral Tutor. Adapted from Yisan, the Wanderer Bard
  - 20/09/2025: Initial playtesting shows this is quite broken in multiples. Made into a legendary creature and changed P/T to 1/3
+ - 21/01/2026: Fix oracle text so that is searching for *creature* cards.
 
 ## Lost Gestral
 
@@ -980,8 +981,9 @@ Tiffanie: Well, there are less and less people to buy them. I just wish you didn
 
 ```
 1
-Artifact
+Artifact - Clue
 When this artifact is put into a graveyard from the battlefield, create a Chroma token.
+{2}, Sacrifice this artifact: Draw a card.
 ---
 Nothing special to see here, just a trash can.
 ```
@@ -992,6 +994,7 @@ Nothing special to see here, just a trash can.
 
  - In the game's prologue, this innocuous trashcan housed a citizen who believed that by hiding in this trashcan that he would be safe from erasure. That was not the case.
  - Just a joke artifact with the same expeditioner death ability.
+ - 21/01/2026: Converted to a clue for some extra utility.
 
 ## Lumina Converter
 

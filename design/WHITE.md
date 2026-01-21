@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 21/1/2026 7:24:02 am
+> Last generated: 21/1/2026 12:17:29 pm
 
 ## A Life to Love (Farewell)
 
@@ -103,7 +103,7 @@ Oh hey handsome, perfect timing. I’m styling everyone before we ship out. Gott
 
 ```
 WW
-Legendary Creature - Nevron
+Legendary Creature - Nevron Horror
 Whenever a white Nevron creature enters, create a Lumina token and you gain 2 life.
 ---
 You... The ones who conquered the Monolith... And bested she who claimed this painting as her own. Mistress shall be pleased to hear of your feat.
@@ -117,6 +117,7 @@ You... The ones who conquered the Monolith... And bested she who claimed this pa
 
  - In the game, Blanche is an Unfinished Nevron. If you spared every Unfinished Nevron up to that point, she will reward you with lots of lumina.
  - Easy map to rewarding you lumina tokens and life when white (unfinished) nevrons enter.
+ - 21/01/2026: Added Horror sub-type.
 
 ## Bruler & Cruler, Nevron Blacksmiths
 
@@ -593,7 +594,7 @@ It doesn’t seem threatening.
 
 ```
 1W
-Creature - Nevron
+Creature - Nevron Elemental
 This creature can't attack or block unless it has three or more crystal counters on it.
 Whenever a land enters, you may put a crystal counter on this creature.
 ---
@@ -609,6 +610,7 @@ Abandoned... and incomplete. Entrapped in stone.... Quite the situation I’m in
  - In the game, an Unfinished Hexga can be found at the Stone Wave Cliffs. It wants you to find three rock crystals and install them on its back. Doing so will reward you with a picto.
  - Modeled this an an undercosted beater that can't attack or block until it has 3 crystal counters (the rock crystal). Triggered on land drops as finding the rock crytals in the video game requires *exploring*.
  - 17/01/2026: Changed trigger counter to "may"
+ - 21/01/2026: Added Elemental sub-type.
 
 ## Unfinished Jar
 

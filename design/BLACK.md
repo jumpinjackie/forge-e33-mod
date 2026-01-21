@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 21/1/2026 7:49:46 am
+> Last generated: 21/1/2026 12:49:59 pm
 
 ## Axon Offering
 
@@ -178,7 +178,7 @@ When this creature dies, target opponent creates a Lumina token. (It's an artifa
 
 ```
 1BB
-Creature - Human Expeditioner
+Creature - Human Expeditioner Ranger
 When this creature enters, destroy up to one target Nevron creature.
 {2}{B}, {T}: Target creature gets -2/-2 until end of turn.
 When this creature dies, create a Chroma token.
@@ -195,6 +195,7 @@ Oh, I hear a big Nev coming, they count for double. If I kill it quick I can boo
 
  - In the game, Expedition 62 made Nevron hunting into a game, with members constantly trying to outscore each other in Nevron kills.
  - Mechanically translated to a creature with creature killing abilities and standard Expeditioner death bonus.
+ - 21/01/2026: Added Ranger sub-type and fix ETB targeting.
 
 ## Familial Bonding
 
@@ -322,7 +323,7 @@ Maelle: I saw- I saw... It was... Renoir?
 
 ```
 4BB
-Creature - Nevron
+Creature - Nevron Horror
 Ward {2}
 This creature enters with a shield counter. (If it would be dealt damage or destroyed, remove a shield counter from it instead.)
 Gathers dark chroma — {4}{B}, {T}: Tap up to two target creatures.
@@ -347,6 +348,7 @@ When this creature dies, target opponent creates a Lumina token.
     - Added "Gathers dark chroma" ability that we've mechanically mapped to a tap effect.
     - Added "Summons dark spear" ability that we've mechanically mapped to a mini creature syphon.
  - 1/1/2026: Fixed missing lifegain in "Summons dark spear" ability
+ - 21/01/2026: Added Horror sub-type.
 
 ## Obscur
 
@@ -414,7 +416,7 @@ Fear
 At the beginning of your upkeep, create a Chroma token.
 Summons Dark Beast — When Painted Renoir enters and at the beginning of your upkeep, you may create Dark Chromatic Beast, a legendary 4/4 black Nevron Beast creature with Trample and Lifelink.
 Painted Renoir has indestructible as long as you control a token named Dark Chromatic Beast.
-Sends waves of Chroma — {B}{B}, {T}, Sacrifice X Chromas: Creatures target opponent controls get -X/-X until end of turn.
+Sends waves of Chroma — {B}{B}, {T}, Sacrifice X Chromas: Up to two target creatures each get -X/-X until end of turn.
 ---
 I love them too.
 
@@ -431,6 +433,7 @@ I love them too.
     - The beast healing him, we mapped to giving P.Renoir indestructible while Dark Chromatic Beast token is in your control.
  - 19/11/2025: Removed edict triggered ability and replaced it with Fear.
  - 16/01/2026: Changed creature type from "Painter God" to "Painter Avatar"
+ - 21/01/2026: Changed "Sends waves of Chroma" ability to only target up to two creatures instead of all creatures an opponent controls.
 
 ## Piercing Strike
 
@@ -474,7 +477,7 @@ When this creature dies, target opponent creates a Lumina token. (It's an artifa
 
 ```
 2BB
-Creature - Nevron
+Creature - Nevron Horror
 Devoid (This card has no color.)
 Trample, Lifelink
 This creature's power and toughness are each equal to 3 plus the number of Human creature cards in all graveyards.
@@ -493,6 +496,7 @@ When this creature dies, target opponent creates a Lumina token. (It's an artifa
  - This should have Devoid (because its attacks deal void damage), but the Devoid frame in CardConjurer is transparent, requiring the art for this to be in portrait orientation where the subject is predominantly in the top-half. No such depiction can be sourced as all the possible candidates are in landscape. If we can source a depiction of this Nevron in portrait with the required constraints, then we'll add in Devoid.
  - 28/12/2025: Now has Devoid (thanks photo mode for letting me get a portrait-sized snap!)
  - 1/1/2026: Changed to count dead Humans instead of dead Expeditioners. As lore-wise it could be composed of corpses of not just Expeditioners, but the citizens of Lumiere as well.
+ - 21/01/2026: Added Horror sub-type.
 
 ## Renoir's Will
 
