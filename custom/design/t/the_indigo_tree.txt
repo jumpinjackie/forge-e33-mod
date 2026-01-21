@@ -3,20 +3,22 @@ The Indigo Tree
 [ManaCost]
 no cost
 [Types]
+Legendary
 Land
 [Oracle]
-This land enters tapped.
 {T}: Add {G}.
-As long as you control six or more lands, lands you control have “{T}: Add one mana of any color.”
-{W}{W}{U}{U}{B}{B}{R}{R}{G}{G}, {T}, Sacrifice this land: Search your library for any number of God cards, put them onto the battlefield, then shuffle.
-[IsReprint]
-true
+{4}, {T}: Create a Lumina token. $LUMINA_REMINDER_TEXT
+[FlavorText]
+Wait, there’s a message on the wall. “Took Maelle to the weird corals. Head north. Look for a door inside a hut“
+- Lune
+[ForgeScript]
+A:AB$ Mana | Cost$ T | Produced$ G | SpellDescription$ Add {G}.
+A:AB$ Token | Cost$ 4 T | TokenAmount$ 1 | TokenOwner$ You | TokenScript$ c_a_lumina | SpellDescription$ Create a Lumina token. $LUMINA_REMINDER_TEXT
 [Rarity]
-R
-[NicknameFor]
-The World Tree
+U
 [Artist]
 Sandfall Interactive
 [DesignNotes]
  - In the game, The Indigo Tree was the rallying point for Expedition 33 if party members got split off.
  - Chose a nickname reprint of The World Tree as its God tutoring ability has some relevance in this set.
+ - 22/01/2026: No longer a nicknamed reprint as there are no longer any Gods in this set. Changed to a green mana land that can create Lumina tokens.

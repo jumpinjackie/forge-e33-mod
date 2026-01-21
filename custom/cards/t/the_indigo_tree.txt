@@ -1,0 +1,6 @@
+Name:The Indigo Tree
+ManaCost:no cost
+Types:Legendary Land
+A:AB$ Mana | Cost$ T | Produced$ G | SpellDescription$ Add {G}.
+A:AB$ Token | Cost$ 4 T | TokenAmount$ 1 | TokenOwner$ You | TokenScript$ c_a_lumina | SpellDescription$ Create a Lumina token. (It's an artifact with "{T}, Sacrifice this artifact: Scry 1.")
+Oracle:{T}: Add {G}.\n{4}, {T}: Create a Lumina token. (It's an artifact with "{T}, Sacrifice this artifact: Scry 1.")
