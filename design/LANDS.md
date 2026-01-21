@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 18/1/2026 7:23:31 am
+> Last generated: 21/1/2026 8:40:05 am
 
 ## Blade's Graveyard (Concealed Courtyard)
 
@@ -20,6 +20,14 @@
  - Nicknamed painland reprint to flesh out commander mana bases
  - 31/12/2025: Changed to nickname reprint of Darkslick Shores and moved to main set to improve cube draftability
 
+## Bountiful Landscape
+
+> This card is a reprint
+[Scryfall](https://scryfall.com/search?q=Bountiful%20Landscape)
+### Notes
+
+ - Easy common mana fixing for limited and smoothes out manabases for Commander.
+
 ## Command Tower
 
 > This card is a reprint
@@ -27,6 +35,14 @@
 ### Notes
 
  - Obligatory mana fixing land for Commander
+
+## Contaminated Landscape
+
+> This card is a reprint
+[Scryfall](https://scryfall.com/search?q=Contaminated%20Landscape)
+### Notes
+
+ - Easy common mana fixing for limited and smoothes out manabases for Commander.
 
 ## Crimson Forest (Karplusan Forest)
 
@@ -84,6 +100,14 @@ The starting point of Expedition 33, the final destination for most of them.
 
  - In the game this is the place where most of Expedition 33 got massacred and later in the game is a place where high-tier Nevrons are and is a great XP farming location in the late game.
  - Mechanically I went with a dimir dual with extra benefits for Nevrons.
+
+## Deceptive Landscape
+
+> This card is a reprint
+[Scryfall](https://scryfall.com/search?q=Deceptive%20Landscape)
+### Notes
+
+ - Easy common mana fixing for limited and smoothes out manabases for Commander.
 
 ## Endless Tower
 
@@ -212,6 +236,14 @@ Lune: And they survived. The storm, at least.
 
  - In the game, Flying Waters is one of the early dungeons with a heavy water/nautical theme
  - Mechanically this clearly is a land that should tap for blue mana. Gave it a flying granting ability just because of the name.
+
+## Foreboding Landscape
+
+> This card is a reprint
+[Scryfall](https://scryfall.com/search?q=Foreboding%20Landscape)
+### Notes
+
+ - Easy common mana fixing for limited and smoothes out manabases for Commander.
 
 ## Forgotten Battlefield
 
@@ -406,6 +438,14 @@ The Grandis have embraced us with such warmth and hope. What a balm for the soul
 
  - Has "Painted" in its name, color fixes. Easy on-flavor reprint candidate.
 
+## Perilous Landscape
+
+> This card is a reprint
+[Scryfall](https://scryfall.com/search?q=Perilous%20Landscape)
+### Notes
+
+ - Easy common mana fixing for limited and smoothes out manabases for Commander.
+
 ## Renoir's Drafts
 
 ```
@@ -421,6 +461,30 @@ This land enters tapped.
 
  - In the game, Renoir's Drafts is an optional endgame area full of high-tier enemies and is an excellent XP/Loot farming location.
  - Gone with a functional reprint of Tomb Fortress from 40K with Nevron reanimation constraint.
+
+## Seething Landscape
+
+> This card is a reprint
+[Scryfall](https://scryfall.com/search?q=Seething%20Landscape)
+### Notes
+
+ - Easy common mana fixing for limited and smoothes out manabases for Commander.
+
+## Shattered Landscape
+
+> This card is a reprint
+[Scryfall](https://scryfall.com/search?q=Shattered%20Landscape)
+### Notes
+
+ - Easy common mana fixing for limited and smoothes out manabases for Commander.
+
+## Sheltering Landscape
+
+> This card is a reprint
+[Scryfall](https://scryfall.com/search?q=Sheltering%20Landscape)
+### Notes
+
+ - Easy common mana fixing for limited and smoothes out manabases for Commander.
 
 ## Sinister Cave (Sulfurous Springs)
 
@@ -626,6 +690,14 @@ MONOCO! You're trying to skip the queue again you old... uh... old... lazy... re
  - Per game lore and rules established by Golgra, you need to be "in a queue" to get a Gestral resurrection, but if you're in favor with Golgra you could get a discount and "jump the queue". So I've gone with a regrowth ability with a discount if you have Golgra on the battlefield.
  - 16/01/2026: Fix Golgra name reference.
 
+## Tranquil Landscape
+
+> This card is a reprint
+[Scryfall](https://scryfall.com/search?q=Tranquil%20Landscape)
+### Notes
+
+ - Easy common mana fixing for limited and smoothes out manabases for Commander.
+
 ## Twilight Quarry
 
 ```
@@ -641,6 +713,14 @@ This land enters tapped. As it enters, choose a color.
 
  - In the game, the Twilight Quarry is an area where a collectible record can be found
  - Another land to provide mana fixing
+
+## Twisted Landscape
+
+> This card is a reprint
+[Scryfall](https://scryfall.com/search?q=Twisted%20Landscape)
+### Notes
+
+ - Easy common mana fixing for limited and smoothes out manabases for Commander.
 
 ## Verso's Drafts
 
