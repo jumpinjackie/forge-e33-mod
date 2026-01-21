@@ -2,7 +2,7 @@
 Lumierian Apprentice
 [ManaCost]
 1
-W
+WU
 [PT]
 1/3
 [Types]
@@ -24,3 +24,4 @@ SVar:TrigInvestigate:DB$ Investigate
  - In the game, some of the children/teenagers of Lumière are apprentices of Expeditioners, absorbing as much knowledge passed down to them should they fail and they will eventually become Expeditioners themselves and need to take up the mantle.
  - Modeled their "curiosity" as giving you clues whenever a "foreign" creature type enters the battlefield.
  - One of the rare humans in this set that are not Expeditioners.
+ - 21/01/2026: Color-shifted from white to white/blue hybrid.

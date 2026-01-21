@@ -2,7 +2,7 @@
 Repaint
 [ManaCost]
 1
-W
+GW
 [Types]
 Sorcery
 [Rarity]
@@ -22,3 +22,4 @@ A:SP$ ChangeZone | Cost$ 1 W Sac<3/Chroma.token/chroma token(s)> | Origin$ Exile
  - Mechanically this means we can also bring back cards from exile.
  - Currently not working (the sacrifice X chromas condition).
  - 7/10/2025: Change Chroma token sac requirement to 3 tokens instead of a variable amount and make the card in exile targeting have no restrictions instead of variable based on the amount of Chroma tokens sacced. This made it work.
+ - 21/01/2026: Color-shifted from white to green/white hybrid.

@@ -2,7 +2,7 @@
 The Fracture
 [ManaCost]
 3
-W
+RW
 [Types]
 Legendary
 Sorcery
@@ -24,3 +24,4 @@ SVar:TutorMonolith:DB$ ChangeZone | Origin$ Library | Destination$ Battlefield |
  - Mechanically, this event itself is only catalclysmic in terms of the continent landscape, while there may have been human casualties in this event, this event was more about the altered landscape of the continent, thus it is clear that this event should be a non-basic land mass destruction effect like Ruination (non-basic so it doesn't become a strictly better Armageddon and to reward players who play basic lands).
      - The tutoring effect for The Monolith thematically maps to the appearance of The Monolith in the game.
  - 5/11/2025: NOTE the explicit unicode left and right double-quotes around the number 100 in the flavor text. This is intentional as it is to workaround a CardConjurer bug that improperly surrounds 100 with a pair of left unicode double quotes if you use regular ascii double quotes. DO NOT EDIT THIS unless you are going to rewrite the entire flavor text.
+ - 21/01/2026: Color-shifted to white to white/red hybrid

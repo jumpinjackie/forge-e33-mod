@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 21/1/2026 5:38:06 am
+> Last generated: 21/1/2026 7:24:02 am
 
 ## A Life to Love (Farewell)
 
@@ -244,27 +244,6 @@ How can you not care about the dance between life and death? It is thrilling, el
  - In the game, the Danseuse Teacher is an unfinished Nevron that rewards you with a costume if you can beat her parry challenge.
  - Is white as that's the color we've designated for unfinished Nevrons.
 
-## Expedition 32 Trainees
-
-```
-1W
-Creature - Human Expeditioner
-Training (Whenever this creature attacks with another creature with greater power, put a +1/+1 counter on this creature.)
-When this creature dies, create a Chroma token.
----
-Although the citizens of Lumière always hope for the current Expedition to succeed, trainees operate with the understanding that success is never guaranteed, that they will be next in line and must plan accordingly.
-
-2/3
-```
-
-[card implementation](../custom/cards/e/expedition_32_trainees.txt)
-
-### Design Notes
-
- - In the game, upon the defeat of The Paintress, the party triumphantly returns to Lumière. The next group of Expeditioners are among those welcoming back the party and wanting to pick their minds on how they did the impossible.
- - This card depicts such Expeditioners.
- - Training was already an existing mechanic, so this creature uses that.
-
 ## Expedition 49
 
 ```
@@ -427,26 +406,6 @@ Flashback — Sacrifice two Lumina tokens.
  - Primarily designed to support the Crippling Tsunami Prison strategy
  - 7/11/2025: Changed flashback cost from saccing 2 Chroma tokens to 2 Lumina tokens.
 
-## Lumierian Apprentice
-
-```
-1W
-Creature - Human Citizen
-Whenever another non-Expeditioner creature enters, investigate. (Create a Clue token. It's an artifact with "{2}, Sacrifice this artifact: Draw a card.")
----
-He eagerly absorbs the knowledge given to him, for he knows when his time comes, it will be a valuable resource.
-
-1/3
-```
-
-[card implementation](../custom/cards/l/lumierian_apprentice.txt)
-
-### Design Notes
-
- - In the game, some of the children/teenagers of Lumière are apprentices of Expeditioners, absorbing as much knowledge passed down to them should they fail and they will eventually become Expeditioners themselves and need to take up the mantle.
- - Modeled their "curiosity" as giving you clues whenever a "foreign" creature type enters the battlefield.
- - One of the rare humans in this set that are not Expeditioners.
-
 ## Path to Exile
 
 > This card is a reprint
@@ -491,27 +450,6 @@ Luminous — Draw a card if you control at least three Lumina tokens.
  - In the game, enemy attacks can be dodged or parried. A dodge performed at the right time is a perfect dodge.
  - Mechanically translated to a basic blink effect. Can be used as a defensive combat trick or to milk extra ETB triggers on your creatures.
 
-## Repaint
-
-```
-1W
-Sorcery
-As an additional cost to cast this spell, sacrifice three Chroma tokens.
-Return target card you own from exile to your hand.
----
-Painting isn't about verisimilitude, it's about essence. The truth of who they are.
-- Verso
-```
-
-[card implementation](../custom/cards/r/repaint.txt)
-
-### Design Notes
-
- - This is meant to represent (paintress) Maelle's new-found ability to resurrect the citizens of Lumière provided she has some of their Chroma, as demonstrated by being able to bring back Lune and Sciel after their gommage.
- - Mechanically this means we can also bring back cards from exile.
- - Currently not working (the sacrifice X chromas condition).
- - 7/10/2025: Change Chroma token sac requirement to 3 tokens instead of a variable amount and make the card in exile targeting have no restrictions instead of variable based on the amount of Chroma tokens sacced. This made it work.
-
 ## Sciel's Intervention
 
 ```
@@ -530,22 +468,6 @@ Your turn to shine!
  - In the game, Intervention is Sciel's ability that lets an ally take their turn immediately along with an AP boost
  - Mechanically, we've mapped "granting extra turns" to untapping creatures. Nothing approximates an "AP boost" for creatures, so we've given it a granting of hexproof.
  - This has the name of "Sciel's Intervention" as "Intervention" on its own is too generic has a risk of being "name-squatted" by an actual card from Wizards in the future.
-
-## Seal of Approval
-
-```
-2W
-Enchantment
-When this enchantment enters, draw a card.
-Sacrifice this enchantment: The next historic spell you cast costs {1} less to cast. (Artifacts, legendaries, and Sagas are historic.)
-```
-
-[card implementation](../custom/cards/s/seal_of_approval.txt)
-
-### Design Notes
-
- - In the game, Sciel gives her "glowing endorsement" of Gustave for "shouting the password as loud as you can" to get access to Esquie's Nest.
- - This card 100% based on the "Sciel of Approval" meme/pun.
 
 ## Second Thoughts
 
@@ -583,27 +505,6 @@ We are her guardians, not her jailers.
 ### Notes
 
  - Obligatory spot removal in Commander
-
-## The Fracture
-
-```
-3W
-Legendary Sorcery
-(You may cast a legendary sorcery only if you control a legendary creature or planeswalker.)
-Destroy all non-basic lands.
-Search your library for a card named The Monolith, put it onto the battlefield and shuffle.
----
-The city of Lumière was uprooted and flung into the ocean. Soon after, The Monolith appeared, bearing the number “100”. Nobody at the time knew what this number meant.
-```
-
-[card implementation](../custom/cards/t/the_fracture.txt)
-
-### Design Notes
-
- - In the game, The Fracture is a cataclysmic event which marks the appearance of The Monolith and sets in motion the annual yearly gommage.
- - Mechanically, this event itself is only catalclysmic in terms of the continent landscape, while there may have been human casualties in this event, this event was more about the altered landscape of the continent, thus it is clear that this event should be a non-basic land mass destruction effect like Ruination (non-basic so it doesn't become a strictly better Armageddon and to reward players who play basic lands).
-     - The tutoring effect for The Monolith thematically maps to the appearance of The Monolith in the game.
- - 5/11/2025: NOTE the explicit unicode left and right double-quotes around the number 100 in the flavor text. This is intentional as it is to workaround a CardConjurer bug that improperly surrounds 100 with a pair of left unicode double quotes if you use regular ascii double quotes. DO NOT EDIT THIS unless you are going to rewrite the entire flavor text.
 
 ## Unfinished Bénisseur
 

@@ -1,12 +1,12 @@
 ﻿# Visual Spoiler
 ## Clair Obscur: Expedition 33 (E33) [403/403 cards]
 - Colorless: 2/2 cards
-- White: 38/38 cards
+- White: 33/33 cards
 - Blue: 33/33 cards
 - Black: 31/31 cards
 - Red: 33/33 cards
 - Green: 31/31 cards
-- Multicolor: 116/116 cards
+- Multicolor: 121/121 cards
 - Artifacts: 70/70 cards
 - Lands: 49/49 cards
 
@@ -20,160 +20,158 @@
 | <center>[Blanche, the Unfinished Creation](WHITE.md#blanche-the-unfinished-creation)</center> | <center>[Bruler & Cruler, Nevron Blacksmiths](WHITE.md#bruler--cruler-nevron-blacksmiths)</center> | <center>[Ceramic Chevalière](WHITE.md#ceramic-chevalière)</center> |
 | ![](../custom/pics/cards/E33/Chroma%20Barrier.full.jpg) | ![](../custom/pics/cards/E33/Chroma%20Prison.full.jpg) | ![](../custom/pics/cards/E33/Clair.full.jpg) |
 | <center>[Chroma Barrier](WHITE.md#chroma-barrier)</center> | <center>[Chroma Prison](WHITE.md#chroma-prison)</center> | <center>[Clair](WHITE.md#clair)</center> |
-| ![](../custom/pics/cards/E33/Danseuse%20Teacher.full.jpg) | ![](../custom/pics/cards/E33/Expedition%2032%20Trainees.full.jpg) | ![](../custom/pics/cards/E33/Expedition%2049.full.jpg) |
-| <center>[Danseuse Teacher](WHITE.md#danseuse-teacher)</center> | <center>[Expedition 32 Trainees](WHITE.md#expedition-32-trainees)</center> | <center>[Expedition 49](WHITE.md#expedition-49)</center> |
-| ![](../custom/pics/cards/E33/Expedition%2049%20Healer.full.jpg) | ![](../custom/pics/cards/E33/Expedition%2054%20Dissident.full.jpg) | ![](../custom/pics/cards/E33/Expedition%20Recruiter.full.jpg) |
-| <center>[Expedition 49 Healer](WHITE.md#expedition-49-healer)</center> | <center>[Expedition 54 Dissident](WHITE.md#expedition-54-dissident)</center> | <center>[Expedition Recruiter](WHITE.md#expedition-recruiter)</center> |
-| ![](../custom/pics/cards/E33/Fracture%20Survivor.full.jpg) | ![](../custom/pics/cards/E33/Gustave%27s%20Burial.full.jpg) | ![](../custom/pics/cards/E33/Healing%20Light.full.jpg) |
-| <center>[Fracture Survivor (Veteran Survivor)](WHITE.md#fracture-survivor-veteran-survivor)</center> | <center>[Gustave's Burial](WHITE.md#gustaves-burial)</center> | <center>[Healing Light](WHITE.md#healing-light)</center> |
-| ![](../custom/pics/cards/E33/Light%20the%20Path.full.jpg) | ![](../custom/pics/cards/E33/Lumiere%20Assault.full.jpg) | ![](../custom/pics/cards/E33/Lumierian%20Apprentice.full.jpg) |
-| <center>[Light the Path](WHITE.md#light-the-path)</center> | <center>[Lumière Assault](WHITE.md#lumière-assault)</center> | <center>[Lumierian Apprentice](WHITE.md#lumierian-apprentice)</center> |
-| ![](../custom/pics/cards/E33/Payback.full.jpg) | ![](../custom/pics/cards/E33/Perfect%20Dodge.full.jpg) | ![](../custom/pics/cards/E33/Repaint.full.jpg) |
-| <center>[Payback](WHITE.md#payback)</center> | <center>[Perfect Dodge](WHITE.md#perfect-dodge)</center> | <center>[Repaint](WHITE.md#repaint)</center> |
-| ![](../custom/pics/cards/E33/Sciel%27s%20Intervention.full.jpg) | ![](../custom/pics/cards/E33/Seal%20of%20Approval.full.jpg) | ![](../custom/pics/cards/E33/Second%20Thoughts.full.jpg) |
-| <center>[Sciel's Intervention](WHITE.md#sciels-intervention)</center> | <center>[Seal of Approval](WHITE.md#seal-of-approval)</center> | <center>[Second Thoughts](WHITE.md#second-thoughts)</center> |
-| ![](../custom/pics/cards/E33/Sibling%20Overwatch.full.jpg) | ![](../custom/pics/cards/E33/The%20Fracture.full.jpg) | ![](../custom/pics/cards/E33/Unfinished%20Benisseur.full.jpg) |
-| <center>[Sibling Overwatch](WHITE.md#sibling-overwatch)</center> | <center>[The Fracture](WHITE.md#the-fracture)</center> | <center>[Unfinished Bénisseur](WHITE.md#unfinished-bénisseur)</center> |
-| ![](../custom/pics/cards/E33/Unfinished%20Bourgeon.full.jpg) | ![](../custom/pics/cards/E33/Unfinished%20Chalier.full.jpg) | ![](../custom/pics/cards/E33/Unfinished%20Demineur.full.jpg) |
-| <center>[Unfinished Bourgeon](WHITE.md#unfinished-bourgeon)</center> | <center>[Unfinished Chalier](WHITE.md#unfinished-chalier)</center> | <center>[Unfinished Démineur](WHITE.md#unfinished-démineur)</center> |
-| ![](../custom/pics/cards/E33/Unfinished%20Hexga.full.jpg) | ![](../custom/pics/cards/E33/Unfinished%20Jar.full.jpg) | ![](../custom/pics/cards/E33/Unfinished%20Portier.full.jpg) |
-| <center>[Unfinished Hexga](WHITE.md#unfinished-hexga)</center> | <center>[Unfinished Jar](WHITE.md#unfinished-jar)</center> | <center>[Unfinished Portier](WHITE.md#unfinished-portier)</center> |
-| ![](../custom/pics/cards/E33/Unfinished%20Troubador.full.jpg) | ![](../custom/pics/cards/E33/An%20Advantage%21.full.jpg) | ![](../custom/pics/cards/E33/Antoine%2C%20Lumiere%20Historian.full.jpg) |
-| <center>[Unfinished Troubador](WHITE.md#unfinished-troubador)</center> | <center>[An Advantage!](BLUE.md#an-advantage)</center> | <center>[Antoine, Lumière Historian](BLUE.md#antoine-lumière-historian)</center> |
-| ![](../custom/pics/cards/E33/Bound%20by%20Chains.full.jpg) | ![](../custom/pics/cards/E33/Breaking%20Moment.full.jpg) | ![](../custom/pics/cards/E33/Bruler.full.jpg) |
-| <center>[Bound by Chains](BLUE.md#bound-by-chains)</center> | <center>[Breaking Moment](BLUE.md#breaking-moment)</center> | <center>[Bruler](BLUE.md#bruler)</center> |
-| ![](../custom/pics/cards/E33/Colette%2C%20Trinket%20Dealer.full.jpg) | ![](../custom/pics/cards/E33/Crippling%20Tsunami.full.jpg) | ![](../custom/pics/cards/E33/Cruler.full.jpg) |
-| <center>[Colette, Trinket Dealer](BLUE.md#colette-trinket-dealer)</center> | <center>[Crippling Tsunami](BLUE.md#crippling-tsunami)</center> | <center>[Cruler](BLUE.md#cruler)</center> |
-| ![](../custom/pics/cards/E33/Demineur.full.jpg) | ![](../custom/pics/cards/E33/Denial.full.jpg) | ![](../custom/pics/cards/E33/Eternal%20Ice.full.jpg) |
-| <center>[Démineur](BLUE.md#démineur)</center> | <center>[Denial](BLUE.md#denial)</center> | <center>[Eternal Ice](BLUE.md#eternal-ice)</center> |
-| ![](../custom/pics/cards/E33/Expedition%2040%20Glider.full.jpg) | ![](../custom/pics/cards/E33/Expedition%2043%20Submersible.full.jpg) | ![](../custom/pics/cards/E33/Expedition%2068%20Navigator.full.jpg) |
-| <center>[Expedition 40 Glider](BLUE.md#expedition-40-glider)</center> | <center>[Expedition 43 Submersible](BLUE.md#expedition-43-submersible)</center> | <center>[Expedition 68 Navigator](BLUE.md#expedition-68-navigator)</center> |
-| ![](../custom/pics/cards/E33/Expedition%2078.full.jpg) | ![](../custom/pics/cards/E33/Francois%2C%20Waiting%20for%20Clea.full.jpg) | ![](../custom/pics/cards/E33/Gestral%20Ascension%20Challenge.full.jpg) |
-| <center>[Expedition 78](BLUE.md#expedition-78)</center> | <center>[François, Waiting for Clea](BLUE.md#françois-waiting-for-clea)</center> | <center>[Gestral Ascension Challenge](BLUE.md#gestral-ascension-challenge)</center> |
-| ![](../custom/pics/cards/E33/Gestral%20Hopscotch%20Challenge.full.jpg) | ![](../custom/pics/cards/E33/Grandis%20Fashionist.full.jpg) | ![](../custom/pics/cards/E33/Gustave%27s%20Insight.full.jpg) |
-| <center>[Gestral Hopscotch Challenge](BLUE.md#gestral-hopscotch-challenge)</center> | <center>[Grandis Fashionist](BLUE.md#grandis-fashionist)</center> | <center>[Gustave's Insight](BLUE.md#gustaves-insight)</center> |
-| ![](../custom/pics/cards/E33/Hiding%20the%20Canvas.full.jpg) | ![](../custom/pics/cards/E33/Ice%20Lance.full.jpg) | ![](../custom/pics/cards/E33/Lune%27s%20Curiosity.full.jpg) |
-| <center>[Hiding the Canvas](BLUE.md#hiding-the-canvas)</center> | <center>[Ice Lance](BLUE.md#ice-lance)</center> | <center>[Lune's Curiosity](BLUE.md#lunes-curiosity)</center> |
-| ![](../custom/pics/cards/E33/Lune%27s%20Denial.full.jpg) | ![](../custom/pics/cards/E33/Luster.full.jpg) | ![](../custom/pics/cards/E33/Machinepieds.full.jpg) |
-| <center>[Lune's Denial](BLUE.md#lunes-denial)</center> | <center>[Luster](BLUE.md#luster)</center> | <center>[Machinepieds](BLUE.md#machinepieds)</center> |
-| ![](../custom/pics/cards/E33/Rip%20Apart%20Reality.full.jpg) | ![](../custom/pics/cards/E33/Sky%20Break.full.jpg) | ![](../custom/pics/cards/E33/Swift%20Counter.full.jpg) |
-| <center>[Rip Apart Reality](BLUE.md#rip-apart-reality)</center> | <center>[Sky Break](BLUE.md#sky-break)</center> | <center>[Swift Counter](BLUE.md#swift-counter)</center> |
-| ![](../custom/pics/cards/E33/The%20Search%20for%20Esquie%27s%20Rocks.full.jpg) | ![](../custom/pics/cards/E33/Thermal%20Transfer.full.jpg) | ![](../custom/pics/cards/E33/Verisimilitude.full.jpg) |
-| <center>[The Search for Esquie's Rocks](BLUE.md#the-search-for-esquies-rocks)</center> | <center>[Thermal Transfer](BLUE.md#thermal-transfer)</center> | <center>[Verisimilitude](BLUE.md#verisimilitude)</center> |
-| ![](../custom/pics/cards/E33/Verso%27s%20Musical%20Training.full.jpg) | ![](../custom/pics/cards/E33/Axon%20Offering.full.jpg) | ![](../custom/pics/cards/E33/Blot%20Out.full.jpg) |
-| <center>[Verso's Musical Training](BLUE.md#versos-musical-training)</center> | <center>[Axon Offering](BLACK.md#axon-offering)</center> | <center>[Blot Out](BLACK.md#blot-out)</center> |
-| ![](../custom/pics/cards/E33/Chalier.full.jpg) | ![](../custom/pics/cards/E33/Chapelier.full.jpg) | ![](../custom/pics/cards/E33/Clea%27s%20Chromatic%20Mastery.full.jpg) |
-| <center>[Chalier](BLACK.md#chalier)</center> | <center>[Chapelier](BLACK.md#chapelier)</center> | <center>[Clea's Chromatic Mastery](BLACK.md#cleas-chromatic-mastery)</center> |
-| ![](../custom/pics/cards/E33/Depression.full.jpg) | ![](../custom/pics/cards/E33/Dualliste%27s%20Lair.full.jpg) | ![](../custom/pics/cards/E33/Echassier.full.jpg) |
-| <center>[Depression](BLACK.md#depression)</center> | <center>[Dualliste's Lair (Death Pits of Rath)](BLACK.md#duallistes-lair-death-pits-of-rath)</center> | <center>[Échassier](BLACK.md#échassier)</center> |
-| ![](../custom/pics/cards/E33/Expedition%2062%20Hunter.full.jpg) | ![](../custom/pics/cards/E33/Familial%20Bonding.full.jpg) | ![](../custom/pics/cards/E33/Here%27s%20Your%20Card%21.full.jpg) |
-| <center>[Expedition 62 Hunter](BLACK.md#expedition-62-hunter)</center> | <center>[Familial Bonding](BLACK.md#familial-bonding)</center> | <center>[Here's Your Card!](BLACK.md#heres-your-card)</center> |
-| ![](../custom/pics/cards/E33/Maelle%27s%20Nightmare.full.jpg) | ![](../custom/pics/cards/E33/Massacre%20at%20Dark%20Shores.full.jpg) | ![](../custom/pics/cards/E33/Momentary%20Revelation.full.jpg) |
-| <center>[Maelle's Nightmare](BLACK.md#maelles-nightmare)</center> | <center>[Massacre at Dark Shores](BLACK.md#massacre-at-dark-shores)</center> | <center>[Momentary Revelation](BLACK.md#momentary-revelation)</center> |
-| ![](../custom/pics/cards/E33/Noir.full.jpg) | ![](../custom/pics/cards/E33/Obscur.full.jpg) | ![](../custom/pics/cards/E33/Osquio%2C%20Ruler%20Of%20All%20The%20Trains.full.jpg) |
-| <center>[Noir](BLACK.md#noir)</center> | <center>[Obscur](BLACK.md#obscur)</center> | <center>[Osquio, Ruler Of All The Trains // Osquio, Ultimate Cake Eater Of The Universe](BLACK.md#osquio-ruler-of-all-the-trains--osquio-ultimate-cake-eater-of-the-universe)</center> |
-| ![](../custom/pics/cards/E33/Osquio%2C%20Ultimate%20Cake%20Eater%20Of%20The%20Universe.full.jpg) | ![](../custom/pics/cards/E33/Painted%20Renoir%2C%20Aline%27s%20Enforcer.full.jpg) | ![](../custom/pics/cards/E33/Piercing%20Strike.full.jpg) |
-| <center>[Osquio, Ruler Of All The Trains // Osquio, Ultimate Cake Eater Of The Universe](BLACK.md#osquio-ruler-of-all-the-trains--osquio-ultimate-cake-eater-of-the-universe)</center> | <center>[Painted Renoir, Aline's Enforcer](BLACK.md#painted-renoir-alines-enforcer)</center> | <center>[Piercing Strike](BLACK.md#piercing-strike)</center> |
-| ![](../custom/pics/cards/E33/Ramasseur.full.jpg) | ![](../custom/pics/cards/E33/Renoir%27s%20Creation.full.jpg) | ![](../custom/pics/cards/E33/Renoir%27s%20Will.full.jpg) |
-| <center>[Ramasseur](BLACK.md#ramasseur)</center> | <center>[Renoir's Creation](BLACK.md#renoirs-creation)</center> | <center>[Renoir's Will](BLACK.md#renoirs-will)</center> |
-| ![](../custom/pics/cards/E33/Simon%27s%20Second%20Wind.full.jpg) | ![](../custom/pics/cards/E33/Steel%20Chevaliere.full.jpg) | ![](../custom/pics/cards/E33/Surcease.full.jpg) |
-| <center>[Simon's Second Wind](BLACK.md#simons-second-wind)</center> | <center>[Steel Chevalière](BLACK.md#steel-chevalière)</center> | <center>[Surcease](BLACK.md#surcease)</center> |
-| ![](../custom/pics/cards/E33/The%2067th%20Gommage.full.jpg) | ![](../custom/pics/cards/E33/Twisted%20Lumiere%20Citizen.full.jpg) | ![](../custom/pics/cards/E33/Unmask.full.jpg) |
-| <center>[The 67th Gommage](BLACK.md#the-67th-gommage)</center> | <center>[Twisted Lumière Citizen](BLACK.md#twisted-lumière-citizen)</center> | <center>[Unmask](BLACK.md#unmask)</center> |
-| ![](../custom/pics/cards/E33/Veilleur.full.jpg) | ![](../custom/pics/cards/E33/Verso%27s%20Burden.full.jpg) | ![](../custom/pics/cards/E33/Very%20Very%20Cool%20Gestral.full.jpg) |
-| <center>[Veilleur](BLACK.md#veilleur)</center> | <center>[Verso's Burden](BLACK.md#versos-burden)</center> | <center>[Very Very Cool Gestral](BLACK.md#very-very-cool-gestral)</center> |
-| ![](../custom/pics/cards/E33/Anger.full.jpg) | ![](../custom/pics/cards/E33/Catapault%20Sakapatate.full.jpg) | ![](../custom/pics/cards/E33/Chromatic%20Inversion.full.jpg) |
-| <center>[Anger](RED.md#anger)</center> | <center>[Catapault Sakapatate](RED.md#catapault-sakapatate)</center> | <center>[Chromatic Inversion](RED.md#chromatic-inversion)</center> |
-| ![](../custom/pics/cards/E33/Crustal%20Crush.full.jpg) | ![](../custom/pics/cards/E33/Demand%20Answers.full.jpg) | ![](../custom/pics/cards/E33/Earth%20Rising.full.jpg) |
-| <center>[Crustal Crush](RED.md#crustal-crush)</center> | <center>[Demand Answers](RED.md#demand-answers)</center> | <center>[Earth Rising](RED.md#earth-rising)</center> |
-| ![](../custom/pics/cards/E33/Entering%20the%20Canvas.full.jpg) | ![](../custom/pics/cards/E33/Expedition%2057%20Siege%20Engine.full.jpg) | ![](../custom/pics/cards/E33/Expedition%2057%20Siege%20Engineer.full.jpg) |
-| <center>[Entering the Canvas](RED.md#entering-the-canvas)</center> | <center>[Expedition 57 Siege Engine](RED.md#expedition-57-siege-engine)</center> | <center>[Expedition 57 Siege Engineer](RED.md#expedition-57-siege-engineer)</center> |
-| ![](../custom/pics/cards/E33/Expedition%2067%20Blastminer.full.jpg) | ![](../custom/pics/cards/E33/Fortune%27s%20Fury.full.jpg) | ![](../custom/pics/cards/E33/Gestral%20Bazaar.full.jpg) |
-| <center>[Expedition 67 Blastminer](RED.md#expedition-67-blastminer)</center> | <center>[Fortune's Fury](RED.md#fortunes-fury)</center> | <center>[Gestral Bazaar](RED.md#gestral-bazaar)</center> |
-| ![](../custom/pics/cards/E33/Gestral%20Fight%20Club.full.jpg) | ![](../custom/pics/cards/E33/Gestral%20Volleyball%20Strike.full.jpg) | ![](../custom/pics/cards/E33/Get%20Out%20Of%20My%20Way%21.full.jpg) |
-| <center>[Gestral Fight Club (Grand Melee)](RED.md#gestral-fight-club-grand-melee)</center> | <center>[Gestral Volleyball Strike](RED.md#gestral-volleyball-strike)</center> | <center>[Get Out Of My Way!](RED.md#get-out-of-my-way)</center> |
-| ![](../custom/pics/cards/E33/Grosse%20Tete.full.jpg) | ![](../custom/pics/cards/E33/Half-baked%20Lifeguard.full.jpg) | ![](../custom/pics/cards/E33/Hexga.full.jpg) |
-| <center>[Grosse Tête](RED.md#grosse-tête)</center> | <center>[Half-baked Lifeguard](RED.md#half-baked-lifeguard)</center> | <center>[Hexga](RED.md#hexga)</center> |
-| ![](../custom/pics/cards/E33/Last-Ditch%20Effort.full.jpg) | ![](../custom/pics/cards/E33/Lightning%20Dance.full.jpg) | ![](../custom/pics/cards/E33/Marked%21.full.jpg) |
-| <center>[Last-Ditch Effort](RED.md#last-ditch-effort)</center> | <center>[Lightning Dance](RED.md#lightning-dance)</center> | <center>[Marked!](RED.md#marked)</center> |
-| ![](../custom/pics/cards/E33/Monsieur%20Frappe.full.jpg) | ![](../custom/pics/cards/E33/Mutinous%20Expedition%2048%20Soldier.full.jpg) | ![](../custom/pics/cards/E33/Orphelin.full.jpg) |
-| <center>[Monsieur Frappe](RED.md#monsieur-frappe)</center> | <center>[Mutinous Expedition 48 Soldier](RED.md#mutinous-expedition-48-soldier)</center> | <center>[Orphelin](RED.md#orphelin)</center> |
-| ![](../custom/pics/cards/E33/Persuasive%20Argument.full.jpg) | ![](../custom/pics/cards/E33/Potier.full.jpg) | ![](../custom/pics/cards/E33/Ranger%20Sakapatate.full.jpg) |
-| <center>[Persuasive Argument](RED.md#persuasive-argument)</center> | <center>[Potier](RED.md#potier)</center> | <center>[Ranger Sakapatate](RED.md#ranger-sakapatate)</center> |
-| ![](../custom/pics/cards/E33/Robust%20Sakapatate.full.jpg) | ![](../custom/pics/cards/E33/Rocher.full.jpg) | ![](../custom/pics/cards/E33/Terraquake.full.jpg) |
-| <center>[Robust Sakapatate](RED.md#robust-sakapatate)</center> | <center>[Rocher](RED.md#rocher)</center> | <center>[Terraquake](RED.md#terraquake)</center> |
-| ![](../custom/pics/cards/E33/Thunderfall.full.jpg) | ![](../custom/pics/cards/E33/Ultimate%20Sakapatate.full.jpg) | ![](../custom/pics/cards/E33/Waiting%20for%20Clea%20to%20Play.full.jpg) |
-| <center>[Thunderfall](RED.md#thunderfall)</center> | <center>[Ultimate Sakapatate](RED.md#ultimate-sakapatate)</center> | <center>[Waiting for Clea to Play](RED.md#waiting-for-clea-to-play)</center> |
-| ![](../custom/pics/cards/E33/Abbest.full.jpg) | ![](../custom/pics/cards/E33/All%20Suns%27%20Dawn.full.jpg) | ![](../custom/pics/cards/E33/Bargaining.full.jpg) |
-| <center>[Abbest](GREEN.md#abbest)</center> | <center>[All Suns' Dawn](GREEN.md#all-suns-dawn)</center> | <center>[Bargaining](GREEN.md#bargaining)</center> |
-| ![](../custom/pics/cards/E33/Boucheclier.full.jpg) | ![](../custom/pics/cards/E33/Cache%20Discovery.full.jpg) | ![](../custom/pics/cards/E33/Esquie%27s%20Wine%20Compartment.full.jpg) |
-| <center>[Boucheclier](GREEN.md#boucheclier)</center> | <center>[Cache Discovery](GREEN.md#cache-discovery)</center> | <center>[Esquie's Wine Compartment](GREEN.md#esquies-wine-compartment)</center> |
-| ![](../custom/pics/cards/E33/Expedition%2000%20Tracker.full.jpg) | ![](../custom/pics/cards/E33/Expedition%2035%20Bridge.full.jpg) | ![](../custom/pics/cards/E33/Expedition%2055%20Drummer.full.jpg) |
-| <center>[Expedition 00 Tracker](GREEN.md#expedition-00-tracker)</center> | <center>[Expedition 35 Bridge](GREEN.md#expedition-35-bridge)</center> | <center>[Expedition 55 Drummer](GREEN.md#expedition-55-drummer)</center> |
-| ![](../custom/pics/cards/E33/Expedition%2060%20Messenger.full.jpg) | ![](../custom/pics/cards/E33/Expedition%2069.full.jpg) | ![](../custom/pics/cards/E33/Expedition%2069%20Explorer.full.jpg) |
-| <center>[Expedition 60 Messenger](GREEN.md#expedition-60-messenger)</center> | <center>[Expedition 69](GREEN.md#expedition-69)</center> | <center>[Expedition 69 Explorer](GREEN.md#expedition-69-explorer)</center> |
-| ![](../custom/pics/cards/E33/Expedition%2069%20Mountaineer.full.jpg) | ![](../custom/pics/cards/E33/Expedition%2069%20Surveyor.full.jpg) | ![](../custom/pics/cards/E33/Face%20Adversity.full.jpg) |
-| <center>[Expedition 69 Mountaineer](GREEN.md#expedition-69-mountaineer)</center> | <center>[Expedition 69 Surveyor](GREEN.md#expedition-69-surveyor)</center> | <center>[Face Adversity](GREEN.md#face-adversity)</center> |
-| ![](../custom/pics/cards/E33/Franctale.full.jpg) | ![](../custom/pics/cards/E33/Gault.full.jpg) | ![](../custom/pics/cards/E33/Gestral%20Climbing%20Challenge.full.jpg) |
-| <center>[Franctale](GREEN.md#franctale)</center> | <center>[Gault](GREEN.md#gault)</center> | <center>[Gestral Climbing Challenge](GREEN.md#gestral-climbing-challenge)</center> |
-| ![](../custom/pics/cards/E33/Grandis%20Fighter.full.jpg) | ![](../custom/pics/cards/E33/Grandis%20Scout.full.jpg) | ![](../custom/pics/cards/E33/Lancelier.full.jpg) |
-| <center>[Grandis Fighter](GREEN.md#grandis-fighter)</center> | <center>[Grandis Scout](GREEN.md#grandis-scout)</center> | <center>[Lancelier](GREEN.md#lancelier)</center> |
-| ![](../custom/pics/cards/E33/Nevron%20Disguise.full.jpg) | ![](../custom/pics/cards/E33/Nevron%20Pecking%20Order.full.jpg) | ![](../custom/pics/cards/E33/Ophelie%2C%20Lumiere%20Florist.full.jpg) |
-| <center>[Nevron Disguise](GREEN.md#nevron-disguise)</center> | <center>[Nevron Pecking Order](GREEN.md#nevron-pecking-order)</center> | <center>[Ophelie, Lumière Florist](GREEN.md#ophelie-lumière-florist)</center> |
-| ![](../custom/pics/cards/E33/Playing%20with%20Monoco.full.jpg) | ![](../custom/pics/cards/E33/Portier.full.jpg) | ![](../custom/pics/cards/E33/Revitalization.full.jpg) |
-| <center>[Playing with Monoco](GREEN.md#playing-with-monoco)</center> | <center>[Portier](GREEN.md#portier)</center> | <center>[Revitalization](GREEN.md#revitalization)</center> |
-| ![](../custom/pics/cards/E33/Rock%20Throw.full.jpg) | ![](../custom/pics/cards/E33/Sapling.full.jpg) | ![](../custom/pics/cards/E33/Shrine%20to%20The%20Paintress.full.jpg) |
-| <center>[Rock Throw](GREEN.md#rock-throw)</center> | <center>[Sapling](GREEN.md#sapling)</center> | <center>[Shrine to The Paintress](GREEN.md#shrine-to-the-paintress)</center> |
-| ![](../custom/pics/cards/E33/Volester.full.jpg) | ![](../custom/pics/cards/E33/A%20Storm%20is%20Coming.full.jpg) | ![](../custom/pics/cards/E33/Aberration.full.jpg) |
-| <center>[Volester](GREEN.md#volester)</center> | <center>[A Storm is Coming](MULTICOLOR.md#a-storm-is-coming)</center> | <center>[Aberration](MULTICOLOR.md#aberration)</center> |
-| ![](../custom/pics/cards/E33/Alicia%20Dessendre%2C%20Silenced%20by%20Fire.full.jpg) | ![](../custom/pics/cards/E33/Aline%27s%20Return.full.jpg) | ![](../custom/pics/cards/E33/Ballet.full.jpg) |
-| <center>[Alicia Dessendre, Silenced by Fire](MULTICOLOR.md#alicia-dessendre-silenced-by-fire)</center> | <center>[Aline's Return](MULTICOLOR.md#alines-return)</center> | <center>[Ballet](MULTICOLOR.md#ballet)</center> |
-| ![](../custom/pics/cards/E33/Barbasucette.full.jpg) | ![](../custom/pics/cards/E33/Benisseur.full.jpg) | ![](../custom/pics/cards/E33/Bittersweet%20Reunion.full.jpg) |
-| <center>[Barbasucette](MULTICOLOR.md#barbasucette)</center> | <center>[Bénisseur](MULTICOLOR.md#bénisseur)</center> | <center>[Bittersweet Reunion](MULTICOLOR.md#bittersweet-reunion)</center> |
-| ![](../custom/pics/cards/E33/Bourgeon.full.jpg) | ![](../custom/pics/cards/E33/Braseleur.full.jpg) | ![](../custom/pics/cards/E33/Breaking%20Rules.full.jpg) |
-| <center>[Bourgeon](MULTICOLOR.md#bourgeon)</center> | <center>[Braseleur](MULTICOLOR.md#braseleur)</center> | <center>[Breaking Rules](MULTICOLOR.md#breaking-rules)</center> |
-| ![](../custom/pics/cards/E33/Chorale.full.jpg) | ![](../custom/pics/cards/E33/Chromatic%20Petrification.full.jpg) | ![](../custom/pics/cards/E33/Chromatic%20Rebirth.full.jpg) |
-| <center>[Chorale](MULTICOLOR.md#chorale)</center> | <center>[Chromatic Petrification](MULTICOLOR.md#chromatic-petrification)</center> | <center>[Chromatic Rebirth](MULTICOLOR.md#chromatic-rebirth)</center> |
-| ![](../custom/pics/cards/E33/Chromatic%20Reclamation.full.jpg) | ![](../custom/pics/cards/E33/Clair%20Obscur.full.jpg) | ![](../custom/pics/cards/E33/Clea%20Dessendre%2C%20Seeking%20Vengeance.full.jpg) |
-| <center>[Chromatic Reclamation](MULTICOLOR.md#chromatic-reclamation)</center> | <center>[Clair Obscur](MULTICOLOR.md#clair-obscur)</center> | <center>[Clea Dessendre, Seeking Vengeance](MULTICOLOR.md#clea-dessendre-seeking-vengeance)</center> |
-| ![](../custom/pics/cards/E33/Clea%20Unleashed.full.jpg) | ![](../custom/pics/cards/E33/Closure.full.jpg) | ![](../custom/pics/cards/E33/Contortionniste.full.jpg) |
-| <center>[Clea Unleashed](MULTICOLOR.md#clea-unleashed)</center> | <center>[Closure](MULTICOLOR.md#closure)</center> | <center>[Contortionniste](MULTICOLOR.md#contortionniste)</center> |
-| ![](../custom/pics/cards/E33/Danseuse.full.jpg) | ![](../custom/pics/cards/E33/Death%20Stare.full.jpg) | ![](../custom/pics/cards/E33/Dualliste.full.jpg) |
-| <center>[Danseuse](MULTICOLOR.md#danseuse)</center> | <center>[Death Stare (Gaze of Granite)](MULTICOLOR.md#death-stare-gaze-of-granite)</center> | <center>[Dualliste](MULTICOLOR.md#dualliste)</center> |
-| ![](../custom/pics/cards/E33/Duollistes.full.jpg) | ![](../custom/pics/cards/E33/Elemental%20Trick.full.jpg) | ![](../custom/pics/cards/E33/Esquie%2C%20Friend%20of%20Verso.full.jpg) |
-| <center>[Duollistes](MULTICOLOR.md#duollistes)</center> | <center>[Elemental Trick](MULTICOLOR.md#elemental-trick)</center> | <center>[Esquie, Friend of Verso](MULTICOLOR.md#esquie-friend-of-verso)</center> |
-| ![](../custom/pics/cards/E33/Esquie%27s%20Charge.full.jpg) | ![](../custom/pics/cards/E33/Esquie%27s%20Embrace.full.jpg) | ![](../custom/pics/cards/E33/Esquie%27s%20Rescue.full.jpg) |
-| <center>[Esquie's Charge](MULTICOLOR.md#esquies-charge)</center> | <center>[Esquie's Embrace](MULTICOLOR.md#esquies-embrace)</center> | <center>[Esquie's Rescue](MULTICOLOR.md#esquies-rescue)</center> |
-| ![](../custom/pics/cards/E33/Estelle%2C%20Lumiere%20Sculptor.full.jpg) | ![](../custom/pics/cards/E33/Eveque.full.jpg) | ![](../custom/pics/cards/E33/Expedition%2034%20Mage.full.jpg) |
-| <center>[Estelle, Lumière Sculptor](MULTICOLOR.md#estelle-lumière-sculptor)</center> | <center>[Évêque](MULTICOLOR.md#évêque)</center> | <center>[Expedition 34 Mage](MULTICOLOR.md#expedition-34-mage)</center> |
-| ![](../custom/pics/cards/E33/Expedition%2041.full.jpg) | ![](../custom/pics/cards/E33/Expedition%2047%20Drunkard.full.jpg) | ![](../custom/pics/cards/E33/Expedition%2053%20Herbalist.full.jpg) |
-| <center>[Expedition 41](MULTICOLOR.md#expedition-41)</center> | <center>[Expedition 47 Drunkard](MULTICOLOR.md#expedition-47-drunkard)</center> | <center>[Expedition 53 Herbalist](MULTICOLOR.md#expedition-53-herbalist)</center> |
-| ![](../custom/pics/cards/E33/Expedition%2055%20Trumpeter.full.jpg) | ![](../custom/pics/cards/E33/Expedition%2059.full.jpg) | ![](../custom/pics/cards/E33/Expedition%2059%20Chef.full.jpg) |
-| <center>[Expedition 55 Trumpeter](MULTICOLOR.md#expedition-55-trumpeter)</center> | <center>[Expedition 59](MULTICOLOR.md#expedition-59)</center> | <center>[Expedition 59 Chef](MULTICOLOR.md#expedition-59-chef)</center> |
-| ![](../custom/pics/cards/E33/Expedition%2060.full.jpg) | ![](../custom/pics/cards/E33/Expedition%2063%20Driver.full.jpg) | ![](../custom/pics/cards/E33/Expedition%2067%20Demolitions%20Expert.full.jpg) |
-| <center>[Expedition 60](MULTICOLOR.md#expedition-60)</center> | <center>[Expedition 63 Driver](MULTICOLOR.md#expedition-63-driver)</center> | <center>[Expedition 67 Demolitions Expert](MULTICOLOR.md#expedition-67-demolitions-expert)</center> |
-| ![](../custom/pics/cards/E33/Expedition%2070.full.jpg) | ![](../custom/pics/cards/E33/Expedition%2078%20Airship.full.jpg) | ![](../custom/pics/cards/E33/Expedition%2081%20Interpreter.full.jpg) |
-| <center>[Expedition 70](MULTICOLOR.md#expedition-70)</center> | <center>[Expedition 78 Airship](MULTICOLOR.md#expedition-78-airship)</center> | <center>[Expedition 81 Interpreter](MULTICOLOR.md#expedition-81-interpreter)</center> |
-| ![](../custom/pics/cards/E33/Expedition%20Festival.full.jpg) | ![](../custom/pics/cards/E33/FinesseGrace.full.jpg) | ![](../custom/pics/cards/E33/Florian%2C%20Lumiere%20Doomsayer.full.jpg) |
-| <center>[Expedition Festival](MULTICOLOR.md#expedition-festival)</center> | <center>[Finesse // Grace](MULTICOLOR.md#finesse--grace)</center> | <center>[Florian, Lumière Doomsayer](MULTICOLOR.md#florian-lumière-doomsayer)</center> |
-| ![](../custom/pics/cards/E33/For%20Those%20Who%20Come%20After.full.jpg) | ![](../custom/pics/cards/E33/Full%20Deck.full.jpg) | ![](../custom/pics/cards/E33/Gargant.full.jpg) |
-| <center>[For Those Who Come After](MULTICOLOR.md#for-those-who-come-after)</center> | <center>[Full Deck](MULTICOLOR.md#full-deck)</center> | <center>[Gargant](MULTICOLOR.md#gargant)</center> |
-| ![](../custom/pics/cards/E33/Gestral%20Foot%20Race%20Challenge.full.jpg) | ![](../custom/pics/cards/E33/Gestral%20Parkour%20Challenge.full.jpg) | ![](../custom/pics/cards/E33/Gestral%20Raft%20Volleyball%20Challenge.full.jpg) |
-| <center>[Gestral Foot Race Challenge](MULTICOLOR.md#gestral-foot-race-challenge)</center> | <center>[Gestral Parkour Challenge](MULTICOLOR.md#gestral-parkour-challenge)</center> | <center>[Gestral Raft Volleyball Challenge](MULTICOLOR.md#gestral-raft-volleyball-challenge)</center> |
-| ![](../custom/pics/cards/E33/Gestral%20Seesaw%20Challenge.full.jpg) | ![](../custom/pics/cards/E33/Giant%20Sapling.full.jpg) | ![](../custom/pics/cards/E33/Glaise.full.jpg) |
-| <center>[Gestral Seesaw Challenge](MULTICOLOR.md#gestral-seesaw-challenge)</center> | <center>[Giant Sapling](MULTICOLOR.md#giant-sapling)</center> | <center>[Glaise](MULTICOLOR.md#glaise)</center> |
-| ![](../custom/pics/cards/E33/Glimpse%20of%20Humanity.full.jpg) | ![](../custom/pics/cards/E33/Glissando.full.jpg) | ![](../custom/pics/cards/E33/Goblu.full.jpg) |
-| <center>[Glimpse of Humanity](MULTICOLOR.md#glimpse-of-humanity)</center> | <center>[Glissando](MULTICOLOR.md#glissando)</center> | <center>[Goblu](MULTICOLOR.md#goblu)</center> |
-| ![](../custom/pics/cards/E33/Gold%20Chevaliere.full.jpg) | ![](../custom/pics/cards/E33/Gommage.full.jpg) | ![](../custom/pics/cards/E33/Grandis%20Cleaner.full.jpg) |
-| <center>[Gold Chevalière](MULTICOLOR.md#gold-chevalière)</center> | <center>[Gommage](MULTICOLOR.md#gommage)</center> | <center>[Grandis Cleaner](MULTICOLOR.md#grandis-cleaner)</center> |
-| ![](../custom/pics/cards/E33/Grandis%20Guard.full.jpg) | ![](../custom/pics/cards/E33/Grandis%20Merchant.full.jpg) | ![](../custom/pics/cards/E33/Greatsword%20Cultist.full.jpg) |
-| <center>[Grandis Guard](MULTICOLOR.md#grandis-guard)</center> | <center>[Grandis Merchant](MULTICOLOR.md#grandis-merchant)</center> | <center>[Greatsword Cultist](MULTICOLOR.md#greatsword-cultist)</center> |
-| ![](../custom/pics/cards/E33/Gustave%2C%20Lumiere%20Engineer.full.jpg) | ![](../custom/pics/cards/E33/Jar%20of%20Candy.full.jpg) | ![](../custom/pics/cards/E33/Lampmaster.full.jpg) |
-| <center>[Gustave, Lumière Engineer](MULTICOLOR.md#gustave-lumière-engineer)</center> | <center>[Jar of Candy](MULTICOLOR.md#jar-of-candy)</center> | <center>[Lampmaster](MULTICOLOR.md#lampmaster)</center> |
-| ![](../custom/pics/cards/E33/Last%20Stand%20of%20Expedition%2033.full.jpg) | ![](../custom/pics/cards/E33/Leave%20this%20Canvas%21.full.jpg) | ![](../custom/pics/cards/E33/Licornapieds.full.jpg) |
-| <center>[Last Stand of Expedition 33](MULTICOLOR.md#last-stand-of-expedition-33)</center> | <center>[Leave this Canvas!](MULTICOLOR.md#leave-this-canvas)</center> | <center>[Licornapieds](MULTICOLOR.md#licornapieds)</center> |
-| ![](../custom/pics/cards/E33/Licorne.full.jpg) | ![](../custom/pics/cards/E33/LostFound.full.jpg) | ![](../custom/pics/cards/E33/Lune%2C%20Charting%20a%20Path.full.jpg) |
-| <center>[Licorne](MULTICOLOR.md#licorne)</center> | <center>[Lost // Found](MULTICOLOR.md#lost--found)</center> | <center>[Lune, Charting a Path](MULTICOLOR.md#lune-charting-a-path)</center> |
+| ![](../custom/pics/cards/E33/Danseuse%20Teacher.full.jpg) | ![](../custom/pics/cards/E33/Expedition%2049.full.jpg) | ![](../custom/pics/cards/E33/Expedition%2049%20Healer.full.jpg) |
+| <center>[Danseuse Teacher](WHITE.md#danseuse-teacher)</center> | <center>[Expedition 49](WHITE.md#expedition-49)</center> | <center>[Expedition 49 Healer](WHITE.md#expedition-49-healer)</center> |
+| ![](../custom/pics/cards/E33/Expedition%2054%20Dissident.full.jpg) | ![](../custom/pics/cards/E33/Expedition%20Recruiter.full.jpg) | ![](../custom/pics/cards/E33/Fracture%20Survivor.full.jpg) |
+| <center>[Expedition 54 Dissident](WHITE.md#expedition-54-dissident)</center> | <center>[Expedition Recruiter](WHITE.md#expedition-recruiter)</center> | <center>[Fracture Survivor (Veteran Survivor)](WHITE.md#fracture-survivor-veteran-survivor)</center> |
+| ![](../custom/pics/cards/E33/Gustave%27s%20Burial.full.jpg) | ![](../custom/pics/cards/E33/Healing%20Light.full.jpg) | ![](../custom/pics/cards/E33/Light%20the%20Path.full.jpg) |
+| <center>[Gustave's Burial](WHITE.md#gustaves-burial)</center> | <center>[Healing Light](WHITE.md#healing-light)</center> | <center>[Light the Path](WHITE.md#light-the-path)</center> |
+| ![](../custom/pics/cards/E33/Lumiere%20Assault.full.jpg) | ![](../custom/pics/cards/E33/Payback.full.jpg) | ![](../custom/pics/cards/E33/Perfect%20Dodge.full.jpg) |
+| <center>[Lumière Assault](WHITE.md#lumière-assault)</center> | <center>[Payback](WHITE.md#payback)</center> | <center>[Perfect Dodge](WHITE.md#perfect-dodge)</center> |
+| ![](../custom/pics/cards/E33/Sciel%27s%20Intervention.full.jpg) | ![](../custom/pics/cards/E33/Second%20Thoughts.full.jpg) | ![](../custom/pics/cards/E33/Sibling%20Overwatch.full.jpg) |
+| <center>[Sciel's Intervention](WHITE.md#sciels-intervention)</center> | <center>[Second Thoughts](WHITE.md#second-thoughts)</center> | <center>[Sibling Overwatch](WHITE.md#sibling-overwatch)</center> |
+| ![](../custom/pics/cards/E33/Unfinished%20Benisseur.full.jpg) | ![](../custom/pics/cards/E33/Unfinished%20Bourgeon.full.jpg) | ![](../custom/pics/cards/E33/Unfinished%20Chalier.full.jpg) |
+| <center>[Unfinished Bénisseur](WHITE.md#unfinished-bénisseur)</center> | <center>[Unfinished Bourgeon](WHITE.md#unfinished-bourgeon)</center> | <center>[Unfinished Chalier](WHITE.md#unfinished-chalier)</center> |
+| ![](../custom/pics/cards/E33/Unfinished%20Demineur.full.jpg) | ![](../custom/pics/cards/E33/Unfinished%20Hexga.full.jpg) | ![](../custom/pics/cards/E33/Unfinished%20Jar.full.jpg) |
+| <center>[Unfinished Démineur](WHITE.md#unfinished-démineur)</center> | <center>[Unfinished Hexga](WHITE.md#unfinished-hexga)</center> | <center>[Unfinished Jar](WHITE.md#unfinished-jar)</center> |
+| ![](../custom/pics/cards/E33/Unfinished%20Portier.full.jpg) | ![](../custom/pics/cards/E33/Unfinished%20Troubador.full.jpg) | ![](../custom/pics/cards/E33/An%20Advantage%21.full.jpg) |
+| <center>[Unfinished Portier](WHITE.md#unfinished-portier)</center> | <center>[Unfinished Troubador](WHITE.md#unfinished-troubador)</center> | <center>[An Advantage!](BLUE.md#an-advantage)</center> |
+| ![](../custom/pics/cards/E33/Antoine%2C%20Lumiere%20Historian.full.jpg) | ![](../custom/pics/cards/E33/Bound%20by%20Chains.full.jpg) | ![](../custom/pics/cards/E33/Breaking%20Moment.full.jpg) |
+| <center>[Antoine, Lumière Historian](BLUE.md#antoine-lumière-historian)</center> | <center>[Bound by Chains](BLUE.md#bound-by-chains)</center> | <center>[Breaking Moment](BLUE.md#breaking-moment)</center> |
+| ![](../custom/pics/cards/E33/Bruler.full.jpg) | ![](../custom/pics/cards/E33/Colette%2C%20Trinket%20Dealer.full.jpg) | ![](../custom/pics/cards/E33/Crippling%20Tsunami.full.jpg) |
+| <center>[Bruler](BLUE.md#bruler)</center> | <center>[Colette, Trinket Dealer](BLUE.md#colette-trinket-dealer)</center> | <center>[Crippling Tsunami](BLUE.md#crippling-tsunami)</center> |
+| ![](../custom/pics/cards/E33/Cruler.full.jpg) | ![](../custom/pics/cards/E33/Demineur.full.jpg) | ![](../custom/pics/cards/E33/Denial.full.jpg) |
+| <center>[Cruler](BLUE.md#cruler)</center> | <center>[Démineur](BLUE.md#démineur)</center> | <center>[Denial](BLUE.md#denial)</center> |
+| ![](../custom/pics/cards/E33/Eternal%20Ice.full.jpg) | ![](../custom/pics/cards/E33/Expedition%2040%20Glider.full.jpg) | ![](../custom/pics/cards/E33/Expedition%2043%20Submersible.full.jpg) |
+| <center>[Eternal Ice](BLUE.md#eternal-ice)</center> | <center>[Expedition 40 Glider](BLUE.md#expedition-40-glider)</center> | <center>[Expedition 43 Submersible](BLUE.md#expedition-43-submersible)</center> |
+| ![](../custom/pics/cards/E33/Expedition%2068%20Navigator.full.jpg) | ![](../custom/pics/cards/E33/Expedition%2078.full.jpg) | ![](../custom/pics/cards/E33/Francois%2C%20Waiting%20for%20Clea.full.jpg) |
+| <center>[Expedition 68 Navigator](BLUE.md#expedition-68-navigator)</center> | <center>[Expedition 78](BLUE.md#expedition-78)</center> | <center>[François, Waiting for Clea](BLUE.md#françois-waiting-for-clea)</center> |
+| ![](../custom/pics/cards/E33/Gestral%20Ascension%20Challenge.full.jpg) | ![](../custom/pics/cards/E33/Gestral%20Hopscotch%20Challenge.full.jpg) | ![](../custom/pics/cards/E33/Grandis%20Fashionist.full.jpg) |
+| <center>[Gestral Ascension Challenge](BLUE.md#gestral-ascension-challenge)</center> | <center>[Gestral Hopscotch Challenge](BLUE.md#gestral-hopscotch-challenge)</center> | <center>[Grandis Fashionist](BLUE.md#grandis-fashionist)</center> |
+| ![](../custom/pics/cards/E33/Gustave%27s%20Insight.full.jpg) | ![](../custom/pics/cards/E33/Hiding%20the%20Canvas.full.jpg) | ![](../custom/pics/cards/E33/Ice%20Lance.full.jpg) |
+| <center>[Gustave's Insight](BLUE.md#gustaves-insight)</center> | <center>[Hiding the Canvas](BLUE.md#hiding-the-canvas)</center> | <center>[Ice Lance](BLUE.md#ice-lance)</center> |
+| ![](../custom/pics/cards/E33/Lune%27s%20Curiosity.full.jpg) | ![](../custom/pics/cards/E33/Lune%27s%20Denial.full.jpg) | ![](../custom/pics/cards/E33/Luster.full.jpg) |
+| <center>[Lune's Curiosity](BLUE.md#lunes-curiosity)</center> | <center>[Lune's Denial](BLUE.md#lunes-denial)</center> | <center>[Luster](BLUE.md#luster)</center> |
+| ![](../custom/pics/cards/E33/Machinepieds.full.jpg) | ![](../custom/pics/cards/E33/Rip%20Apart%20Reality.full.jpg) | ![](../custom/pics/cards/E33/Sky%20Break.full.jpg) |
+| <center>[Machinepieds](BLUE.md#machinepieds)</center> | <center>[Rip Apart Reality](BLUE.md#rip-apart-reality)</center> | <center>[Sky Break](BLUE.md#sky-break)</center> |
+| ![](../custom/pics/cards/E33/Swift%20Counter.full.jpg) | ![](../custom/pics/cards/E33/The%20Search%20for%20Esquie%27s%20Rocks.full.jpg) | ![](../custom/pics/cards/E33/Thermal%20Transfer.full.jpg) |
+| <center>[Swift Counter](BLUE.md#swift-counter)</center> | <center>[The Search for Esquie's Rocks](BLUE.md#the-search-for-esquies-rocks)</center> | <center>[Thermal Transfer](BLUE.md#thermal-transfer)</center> |
+| ![](../custom/pics/cards/E33/Verisimilitude.full.jpg) | ![](../custom/pics/cards/E33/Verso%27s%20Musical%20Training.full.jpg) | ![](../custom/pics/cards/E33/Axon%20Offering.full.jpg) |
+| <center>[Verisimilitude](BLUE.md#verisimilitude)</center> | <center>[Verso's Musical Training](BLUE.md#versos-musical-training)</center> | <center>[Axon Offering](BLACK.md#axon-offering)</center> |
+| ![](../custom/pics/cards/E33/Blot%20Out.full.jpg) | ![](../custom/pics/cards/E33/Chalier.full.jpg) | ![](../custom/pics/cards/E33/Chapelier.full.jpg) |
+| <center>[Blot Out](BLACK.md#blot-out)</center> | <center>[Chalier](BLACK.md#chalier)</center> | <center>[Chapelier](BLACK.md#chapelier)</center> |
+| ![](../custom/pics/cards/E33/Clea%27s%20Chromatic%20Mastery.full.jpg) | ![](../custom/pics/cards/E33/Depression.full.jpg) | ![](../custom/pics/cards/E33/Dualliste%27s%20Lair.full.jpg) |
+| <center>[Clea's Chromatic Mastery](BLACK.md#cleas-chromatic-mastery)</center> | <center>[Depression](BLACK.md#depression)</center> | <center>[Dualliste's Lair (Death Pits of Rath)](BLACK.md#duallistes-lair-death-pits-of-rath)</center> |
+| ![](../custom/pics/cards/E33/Echassier.full.jpg) | ![](../custom/pics/cards/E33/Expedition%2062%20Hunter.full.jpg) | ![](../custom/pics/cards/E33/Familial%20Bonding.full.jpg) |
+| <center>[Échassier](BLACK.md#échassier)</center> | <center>[Expedition 62 Hunter](BLACK.md#expedition-62-hunter)</center> | <center>[Familial Bonding](BLACK.md#familial-bonding)</center> |
+| ![](../custom/pics/cards/E33/Here%27s%20Your%20Card%21.full.jpg) | ![](../custom/pics/cards/E33/Maelle%27s%20Nightmare.full.jpg) | ![](../custom/pics/cards/E33/Massacre%20at%20Dark%20Shores.full.jpg) |
+| <center>[Here's Your Card!](BLACK.md#heres-your-card)</center> | <center>[Maelle's Nightmare](BLACK.md#maelles-nightmare)</center> | <center>[Massacre at Dark Shores](BLACK.md#massacre-at-dark-shores)</center> |
+| ![](../custom/pics/cards/E33/Momentary%20Revelation.full.jpg) | ![](../custom/pics/cards/E33/Noir.full.jpg) | ![](../custom/pics/cards/E33/Obscur.full.jpg) |
+| <center>[Momentary Revelation](BLACK.md#momentary-revelation)</center> | <center>[Noir](BLACK.md#noir)</center> | <center>[Obscur](BLACK.md#obscur)</center> |
+| ![](../custom/pics/cards/E33/Osquio%2C%20Ruler%20Of%20All%20The%20Trains.full.jpg) | ![](../custom/pics/cards/E33/Osquio%2C%20Ultimate%20Cake%20Eater%20Of%20The%20Universe.full.jpg) | ![](../custom/pics/cards/E33/Painted%20Renoir%2C%20Aline%27s%20Enforcer.full.jpg) |
+| <center>[Osquio, Ruler Of All The Trains // Osquio, Ultimate Cake Eater Of The Universe](BLACK.md#osquio-ruler-of-all-the-trains--osquio-ultimate-cake-eater-of-the-universe)</center> | <center>[Osquio, Ruler Of All The Trains // Osquio, Ultimate Cake Eater Of The Universe](BLACK.md#osquio-ruler-of-all-the-trains--osquio-ultimate-cake-eater-of-the-universe)</center> | <center>[Painted Renoir, Aline's Enforcer](BLACK.md#painted-renoir-alines-enforcer)</center> |
+| ![](../custom/pics/cards/E33/Piercing%20Strike.full.jpg) | ![](../custom/pics/cards/E33/Ramasseur.full.jpg) | ![](../custom/pics/cards/E33/Renoir%27s%20Creation.full.jpg) |
+| <center>[Piercing Strike](BLACK.md#piercing-strike)</center> | <center>[Ramasseur](BLACK.md#ramasseur)</center> | <center>[Renoir's Creation](BLACK.md#renoirs-creation)</center> |
+| ![](../custom/pics/cards/E33/Renoir%27s%20Will.full.jpg) | ![](../custom/pics/cards/E33/Simon%27s%20Second%20Wind.full.jpg) | ![](../custom/pics/cards/E33/Steel%20Chevaliere.full.jpg) |
+| <center>[Renoir's Will](BLACK.md#renoirs-will)</center> | <center>[Simon's Second Wind](BLACK.md#simons-second-wind)</center> | <center>[Steel Chevalière](BLACK.md#steel-chevalière)</center> |
+| ![](../custom/pics/cards/E33/Surcease.full.jpg) | ![](../custom/pics/cards/E33/The%2067th%20Gommage.full.jpg) | ![](../custom/pics/cards/E33/Twisted%20Lumiere%20Citizen.full.jpg) |
+| <center>[Surcease](BLACK.md#surcease)</center> | <center>[The 67th Gommage](BLACK.md#the-67th-gommage)</center> | <center>[Twisted Lumière Citizen](BLACK.md#twisted-lumière-citizen)</center> |
+| ![](../custom/pics/cards/E33/Unmask.full.jpg) | ![](../custom/pics/cards/E33/Veilleur.full.jpg) | ![](../custom/pics/cards/E33/Verso%27s%20Burden.full.jpg) |
+| <center>[Unmask](BLACK.md#unmask)</center> | <center>[Veilleur](BLACK.md#veilleur)</center> | <center>[Verso's Burden](BLACK.md#versos-burden)</center> |
+| ![](../custom/pics/cards/E33/Very%20Very%20Cool%20Gestral.full.jpg) | ![](../custom/pics/cards/E33/Anger.full.jpg) | ![](../custom/pics/cards/E33/Catapault%20Sakapatate.full.jpg) |
+| <center>[Very Very Cool Gestral](BLACK.md#very-very-cool-gestral)</center> | <center>[Anger](RED.md#anger)</center> | <center>[Catapault Sakapatate](RED.md#catapault-sakapatate)</center> |
+| ![](../custom/pics/cards/E33/Chromatic%20Inversion.full.jpg) | ![](../custom/pics/cards/E33/Crustal%20Crush.full.jpg) | ![](../custom/pics/cards/E33/Demand%20Answers.full.jpg) |
+| <center>[Chromatic Inversion](RED.md#chromatic-inversion)</center> | <center>[Crustal Crush](RED.md#crustal-crush)</center> | <center>[Demand Answers](RED.md#demand-answers)</center> |
+| ![](../custom/pics/cards/E33/Earth%20Rising.full.jpg) | ![](../custom/pics/cards/E33/Entering%20the%20Canvas.full.jpg) | ![](../custom/pics/cards/E33/Expedition%2057%20Siege%20Engine.full.jpg) |
+| <center>[Earth Rising](RED.md#earth-rising)</center> | <center>[Entering the Canvas](RED.md#entering-the-canvas)</center> | <center>[Expedition 57 Siege Engine](RED.md#expedition-57-siege-engine)</center> |
+| ![](../custom/pics/cards/E33/Expedition%2057%20Siege%20Engineer.full.jpg) | ![](../custom/pics/cards/E33/Expedition%2067%20Blastminer.full.jpg) | ![](../custom/pics/cards/E33/Fortune%27s%20Fury.full.jpg) |
+| <center>[Expedition 57 Siege Engineer](RED.md#expedition-57-siege-engineer)</center> | <center>[Expedition 67 Blastminer](RED.md#expedition-67-blastminer)</center> | <center>[Fortune's Fury](RED.md#fortunes-fury)</center> |
+| ![](../custom/pics/cards/E33/Gestral%20Bazaar.full.jpg) | ![](../custom/pics/cards/E33/Gestral%20Fight%20Club.full.jpg) | ![](../custom/pics/cards/E33/Gestral%20Volleyball%20Strike.full.jpg) |
+| <center>[Gestral Bazaar](RED.md#gestral-bazaar)</center> | <center>[Gestral Fight Club (Grand Melee)](RED.md#gestral-fight-club-grand-melee)</center> | <center>[Gestral Volleyball Strike](RED.md#gestral-volleyball-strike)</center> |
+| ![](../custom/pics/cards/E33/Get%20Out%20Of%20My%20Way%21.full.jpg) | ![](../custom/pics/cards/E33/Grosse%20Tete.full.jpg) | ![](../custom/pics/cards/E33/Half-baked%20Lifeguard.full.jpg) |
+| <center>[Get Out Of My Way!](RED.md#get-out-of-my-way)</center> | <center>[Grosse Tête](RED.md#grosse-tête)</center> | <center>[Half-baked Lifeguard](RED.md#half-baked-lifeguard)</center> |
+| ![](../custom/pics/cards/E33/Hexga.full.jpg) | ![](../custom/pics/cards/E33/Last-Ditch%20Effort.full.jpg) | ![](../custom/pics/cards/E33/Lightning%20Dance.full.jpg) |
+| <center>[Hexga](RED.md#hexga)</center> | <center>[Last-Ditch Effort](RED.md#last-ditch-effort)</center> | <center>[Lightning Dance](RED.md#lightning-dance)</center> |
+| ![](../custom/pics/cards/E33/Marked%21.full.jpg) | ![](../custom/pics/cards/E33/Monsieur%20Frappe.full.jpg) | ![](../custom/pics/cards/E33/Mutinous%20Expedition%2048%20Soldier.full.jpg) |
+| <center>[Marked!](RED.md#marked)</center> | <center>[Monsieur Frappe](RED.md#monsieur-frappe)</center> | <center>[Mutinous Expedition 48 Soldier](RED.md#mutinous-expedition-48-soldier)</center> |
+| ![](../custom/pics/cards/E33/Orphelin.full.jpg) | ![](../custom/pics/cards/E33/Persuasive%20Argument.full.jpg) | ![](../custom/pics/cards/E33/Potier.full.jpg) |
+| <center>[Orphelin](RED.md#orphelin)</center> | <center>[Persuasive Argument](RED.md#persuasive-argument)</center> | <center>[Potier](RED.md#potier)</center> |
+| ![](../custom/pics/cards/E33/Ranger%20Sakapatate.full.jpg) | ![](../custom/pics/cards/E33/Robust%20Sakapatate.full.jpg) | ![](../custom/pics/cards/E33/Rocher.full.jpg) |
+| <center>[Ranger Sakapatate](RED.md#ranger-sakapatate)</center> | <center>[Robust Sakapatate](RED.md#robust-sakapatate)</center> | <center>[Rocher](RED.md#rocher)</center> |
+| ![](../custom/pics/cards/E33/Terraquake.full.jpg) | ![](../custom/pics/cards/E33/Thunderfall.full.jpg) | ![](../custom/pics/cards/E33/Ultimate%20Sakapatate.full.jpg) |
+| <center>[Terraquake](RED.md#terraquake)</center> | <center>[Thunderfall](RED.md#thunderfall)</center> | <center>[Ultimate Sakapatate](RED.md#ultimate-sakapatate)</center> |
+| ![](../custom/pics/cards/E33/Waiting%20for%20Clea%20to%20Play.full.jpg) | ![](../custom/pics/cards/E33/Abbest.full.jpg) | ![](../custom/pics/cards/E33/All%20Suns%27%20Dawn.full.jpg) |
+| <center>[Waiting for Clea to Play](RED.md#waiting-for-clea-to-play)</center> | <center>[Abbest](GREEN.md#abbest)</center> | <center>[All Suns' Dawn](GREEN.md#all-suns-dawn)</center> |
+| ![](../custom/pics/cards/E33/Bargaining.full.jpg) | ![](../custom/pics/cards/E33/Boucheclier.full.jpg) | ![](../custom/pics/cards/E33/Cache%20Discovery.full.jpg) |
+| <center>[Bargaining](GREEN.md#bargaining)</center> | <center>[Boucheclier](GREEN.md#boucheclier)</center> | <center>[Cache Discovery](GREEN.md#cache-discovery)</center> |
+| ![](../custom/pics/cards/E33/Esquie%27s%20Wine%20Compartment.full.jpg) | ![](../custom/pics/cards/E33/Expedition%2000%20Tracker.full.jpg) | ![](../custom/pics/cards/E33/Expedition%2035%20Bridge.full.jpg) |
+| <center>[Esquie's Wine Compartment](GREEN.md#esquies-wine-compartment)</center> | <center>[Expedition 00 Tracker](GREEN.md#expedition-00-tracker)</center> | <center>[Expedition 35 Bridge](GREEN.md#expedition-35-bridge)</center> |
+| ![](../custom/pics/cards/E33/Expedition%2055%20Drummer.full.jpg) | ![](../custom/pics/cards/E33/Expedition%2060%20Messenger.full.jpg) | ![](../custom/pics/cards/E33/Expedition%2069.full.jpg) |
+| <center>[Expedition 55 Drummer](GREEN.md#expedition-55-drummer)</center> | <center>[Expedition 60 Messenger](GREEN.md#expedition-60-messenger)</center> | <center>[Expedition 69](GREEN.md#expedition-69)</center> |
+| ![](../custom/pics/cards/E33/Expedition%2069%20Explorer.full.jpg) | ![](../custom/pics/cards/E33/Expedition%2069%20Mountaineer.full.jpg) | ![](../custom/pics/cards/E33/Expedition%2069%20Surveyor.full.jpg) |
+| <center>[Expedition 69 Explorer](GREEN.md#expedition-69-explorer)</center> | <center>[Expedition 69 Mountaineer](GREEN.md#expedition-69-mountaineer)</center> | <center>[Expedition 69 Surveyor](GREEN.md#expedition-69-surveyor)</center> |
+| ![](../custom/pics/cards/E33/Face%20Adversity.full.jpg) | ![](../custom/pics/cards/E33/Franctale.full.jpg) | ![](../custom/pics/cards/E33/Gault.full.jpg) |
+| <center>[Face Adversity](GREEN.md#face-adversity)</center> | <center>[Franctale](GREEN.md#franctale)</center> | <center>[Gault](GREEN.md#gault)</center> |
+| ![](../custom/pics/cards/E33/Gestral%20Climbing%20Challenge.full.jpg) | ![](../custom/pics/cards/E33/Grandis%20Fighter.full.jpg) | ![](../custom/pics/cards/E33/Grandis%20Scout.full.jpg) |
+| <center>[Gestral Climbing Challenge](GREEN.md#gestral-climbing-challenge)</center> | <center>[Grandis Fighter](GREEN.md#grandis-fighter)</center> | <center>[Grandis Scout](GREEN.md#grandis-scout)</center> |
+| ![](../custom/pics/cards/E33/Lancelier.full.jpg) | ![](../custom/pics/cards/E33/Nevron%20Disguise.full.jpg) | ![](../custom/pics/cards/E33/Nevron%20Pecking%20Order.full.jpg) |
+| <center>[Lancelier](GREEN.md#lancelier)</center> | <center>[Nevron Disguise](GREEN.md#nevron-disguise)</center> | <center>[Nevron Pecking Order](GREEN.md#nevron-pecking-order)</center> |
+| ![](../custom/pics/cards/E33/Ophelie%2C%20Lumiere%20Florist.full.jpg) | ![](../custom/pics/cards/E33/Playing%20with%20Monoco.full.jpg) | ![](../custom/pics/cards/E33/Portier.full.jpg) |
+| <center>[Ophelie, Lumière Florist](GREEN.md#ophelie-lumière-florist)</center> | <center>[Playing with Monoco](GREEN.md#playing-with-monoco)</center> | <center>[Portier](GREEN.md#portier)</center> |
+| ![](../custom/pics/cards/E33/Revitalization.full.jpg) | ![](../custom/pics/cards/E33/Rock%20Throw.full.jpg) | ![](../custom/pics/cards/E33/Sapling.full.jpg) |
+| <center>[Revitalization](GREEN.md#revitalization)</center> | <center>[Rock Throw](GREEN.md#rock-throw)</center> | <center>[Sapling](GREEN.md#sapling)</center> |
+| ![](../custom/pics/cards/E33/Shrine%20to%20The%20Paintress.full.jpg) | ![](../custom/pics/cards/E33/Volester.full.jpg) | ![](../custom/pics/cards/E33/A%20Storm%20is%20Coming.full.jpg) |
+| <center>[Shrine to The Paintress](GREEN.md#shrine-to-the-paintress)</center> | <center>[Volester](GREEN.md#volester)</center> | <center>[A Storm is Coming](MULTICOLOR.md#a-storm-is-coming)</center> |
+| ![](../custom/pics/cards/E33/Aberration.full.jpg) | ![](../custom/pics/cards/E33/Alicia%20Dessendre%2C%20Silenced%20by%20Fire.full.jpg) | ![](../custom/pics/cards/E33/Aline%27s%20Return.full.jpg) |
+| <center>[Aberration](MULTICOLOR.md#aberration)</center> | <center>[Alicia Dessendre, Silenced by Fire](MULTICOLOR.md#alicia-dessendre-silenced-by-fire)</center> | <center>[Aline's Return](MULTICOLOR.md#alines-return)</center> |
+| ![](../custom/pics/cards/E33/Ballet.full.jpg) | ![](../custom/pics/cards/E33/Barbasucette.full.jpg) | ![](../custom/pics/cards/E33/Benisseur.full.jpg) |
+| <center>[Ballet](MULTICOLOR.md#ballet)</center> | <center>[Barbasucette](MULTICOLOR.md#barbasucette)</center> | <center>[Bénisseur](MULTICOLOR.md#bénisseur)</center> |
+| ![](../custom/pics/cards/E33/Bittersweet%20Reunion.full.jpg) | ![](../custom/pics/cards/E33/Bourgeon.full.jpg) | ![](../custom/pics/cards/E33/Braseleur.full.jpg) |
+| <center>[Bittersweet Reunion](MULTICOLOR.md#bittersweet-reunion)</center> | <center>[Bourgeon](MULTICOLOR.md#bourgeon)</center> | <center>[Braseleur](MULTICOLOR.md#braseleur)</center> |
+| ![](../custom/pics/cards/E33/Breaking%20Rules.full.jpg) | ![](../custom/pics/cards/E33/Chorale.full.jpg) | ![](../custom/pics/cards/E33/Chromatic%20Petrification.full.jpg) |
+| <center>[Breaking Rules](MULTICOLOR.md#breaking-rules)</center> | <center>[Chorale](MULTICOLOR.md#chorale)</center> | <center>[Chromatic Petrification](MULTICOLOR.md#chromatic-petrification)</center> |
+| ![](../custom/pics/cards/E33/Chromatic%20Rebirth.full.jpg) | ![](../custom/pics/cards/E33/Chromatic%20Reclamation.full.jpg) | ![](../custom/pics/cards/E33/Clair%20Obscur.full.jpg) |
+| <center>[Chromatic Rebirth](MULTICOLOR.md#chromatic-rebirth)</center> | <center>[Chromatic Reclamation](MULTICOLOR.md#chromatic-reclamation)</center> | <center>[Clair Obscur](MULTICOLOR.md#clair-obscur)</center> |
+| ![](../custom/pics/cards/E33/Clea%20Dessendre%2C%20Seeking%20Vengeance.full.jpg) | ![](../custom/pics/cards/E33/Clea%20Unleashed.full.jpg) | ![](../custom/pics/cards/E33/Closure.full.jpg) |
+| <center>[Clea Dessendre, Seeking Vengeance](MULTICOLOR.md#clea-dessendre-seeking-vengeance)</center> | <center>[Clea Unleashed](MULTICOLOR.md#clea-unleashed)</center> | <center>[Closure](MULTICOLOR.md#closure)</center> |
+| ![](../custom/pics/cards/E33/Contortionniste.full.jpg) | ![](../custom/pics/cards/E33/Danseuse.full.jpg) | ![](../custom/pics/cards/E33/Death%20Stare.full.jpg) |
+| <center>[Contortionniste](MULTICOLOR.md#contortionniste)</center> | <center>[Danseuse](MULTICOLOR.md#danseuse)</center> | <center>[Death Stare (Gaze of Granite)](MULTICOLOR.md#death-stare-gaze-of-granite)</center> |
+| ![](../custom/pics/cards/E33/Dualliste.full.jpg) | ![](../custom/pics/cards/E33/Duollistes.full.jpg) | ![](../custom/pics/cards/E33/Elemental%20Trick.full.jpg) |
+| <center>[Dualliste](MULTICOLOR.md#dualliste)</center> | <center>[Duollistes](MULTICOLOR.md#duollistes)</center> | <center>[Elemental Trick](MULTICOLOR.md#elemental-trick)</center> |
+| ![](../custom/pics/cards/E33/Esquie%2C%20Friend%20of%20Verso.full.jpg) | ![](../custom/pics/cards/E33/Esquie%27s%20Charge.full.jpg) | ![](../custom/pics/cards/E33/Esquie%27s%20Embrace.full.jpg) |
+| <center>[Esquie, Friend of Verso](MULTICOLOR.md#esquie-friend-of-verso)</center> | <center>[Esquie's Charge](MULTICOLOR.md#esquies-charge)</center> | <center>[Esquie's Embrace](MULTICOLOR.md#esquies-embrace)</center> |
+| ![](../custom/pics/cards/E33/Esquie%27s%20Rescue.full.jpg) | ![](../custom/pics/cards/E33/Estelle%2C%20Lumiere%20Sculptor.full.jpg) | ![](../custom/pics/cards/E33/Eveque.full.jpg) |
+| <center>[Esquie's Rescue](MULTICOLOR.md#esquies-rescue)</center> | <center>[Estelle, Lumière Sculptor](MULTICOLOR.md#estelle-lumière-sculptor)</center> | <center>[Évêque](MULTICOLOR.md#évêque)</center> |
+| ![](../custom/pics/cards/E33/Expedition%2032%20Trainees.full.jpg) | ![](../custom/pics/cards/E33/Expedition%2034%20Mage.full.jpg) | ![](../custom/pics/cards/E33/Expedition%2041.full.jpg) |
+| <center>[Expedition 32 Trainees](MULTICOLOR.md#expedition-32-trainees)</center> | <center>[Expedition 34 Mage](MULTICOLOR.md#expedition-34-mage)</center> | <center>[Expedition 41](MULTICOLOR.md#expedition-41)</center> |
+| ![](../custom/pics/cards/E33/Expedition%2047%20Drunkard.full.jpg) | ![](../custom/pics/cards/E33/Expedition%2053%20Herbalist.full.jpg) | ![](../custom/pics/cards/E33/Expedition%2055%20Trumpeter.full.jpg) |
+| <center>[Expedition 47 Drunkard](MULTICOLOR.md#expedition-47-drunkard)</center> | <center>[Expedition 53 Herbalist](MULTICOLOR.md#expedition-53-herbalist)</center> | <center>[Expedition 55 Trumpeter](MULTICOLOR.md#expedition-55-trumpeter)</center> |
+| ![](../custom/pics/cards/E33/Expedition%2059.full.jpg) | ![](../custom/pics/cards/E33/Expedition%2059%20Chef.full.jpg) | ![](../custom/pics/cards/E33/Expedition%2060.full.jpg) |
+| <center>[Expedition 59](MULTICOLOR.md#expedition-59)</center> | <center>[Expedition 59 Chef](MULTICOLOR.md#expedition-59-chef)</center> | <center>[Expedition 60](MULTICOLOR.md#expedition-60)</center> |
+| ![](../custom/pics/cards/E33/Expedition%2063%20Driver.full.jpg) | ![](../custom/pics/cards/E33/Expedition%2067%20Demolitions%20Expert.full.jpg) | ![](../custom/pics/cards/E33/Expedition%2070.full.jpg) |
+| <center>[Expedition 63 Driver](MULTICOLOR.md#expedition-63-driver)</center> | <center>[Expedition 67 Demolitions Expert](MULTICOLOR.md#expedition-67-demolitions-expert)</center> | <center>[Expedition 70](MULTICOLOR.md#expedition-70)</center> |
+| ![](../custom/pics/cards/E33/Expedition%2078%20Airship.full.jpg) | ![](../custom/pics/cards/E33/Expedition%2081%20Interpreter.full.jpg) | ![](../custom/pics/cards/E33/Expedition%20Festival.full.jpg) |
+| <center>[Expedition 78 Airship](MULTICOLOR.md#expedition-78-airship)</center> | <center>[Expedition 81 Interpreter](MULTICOLOR.md#expedition-81-interpreter)</center> | <center>[Expedition Festival](MULTICOLOR.md#expedition-festival)</center> |
+| ![](../custom/pics/cards/E33/FinesseGrace.full.jpg) | ![](../custom/pics/cards/E33/Florian%2C%20Lumiere%20Doomsayer.full.jpg) | ![](../custom/pics/cards/E33/For%20Those%20Who%20Come%20After.full.jpg) |
+| <center>[Finesse // Grace](MULTICOLOR.md#finesse--grace)</center> | <center>[Florian, Lumière Doomsayer](MULTICOLOR.md#florian-lumière-doomsayer)</center> | <center>[For Those Who Come After](MULTICOLOR.md#for-those-who-come-after)</center> |
+| ![](../custom/pics/cards/E33/Full%20Deck.full.jpg) | ![](../custom/pics/cards/E33/Gargant.full.jpg) | ![](../custom/pics/cards/E33/Gestral%20Foot%20Race%20Challenge.full.jpg) |
+| <center>[Full Deck](MULTICOLOR.md#full-deck)</center> | <center>[Gargant](MULTICOLOR.md#gargant)</center> | <center>[Gestral Foot Race Challenge](MULTICOLOR.md#gestral-foot-race-challenge)</center> |
+| ![](../custom/pics/cards/E33/Gestral%20Parkour%20Challenge.full.jpg) | ![](../custom/pics/cards/E33/Gestral%20Raft%20Volleyball%20Challenge.full.jpg) | ![](../custom/pics/cards/E33/Gestral%20Seesaw%20Challenge.full.jpg) |
+| <center>[Gestral Parkour Challenge](MULTICOLOR.md#gestral-parkour-challenge)</center> | <center>[Gestral Raft Volleyball Challenge](MULTICOLOR.md#gestral-raft-volleyball-challenge)</center> | <center>[Gestral Seesaw Challenge](MULTICOLOR.md#gestral-seesaw-challenge)</center> |
+| ![](../custom/pics/cards/E33/Giant%20Sapling.full.jpg) | ![](../custom/pics/cards/E33/Glaise.full.jpg) | ![](../custom/pics/cards/E33/Glimpse%20of%20Humanity.full.jpg) |
+| <center>[Giant Sapling](MULTICOLOR.md#giant-sapling)</center> | <center>[Glaise](MULTICOLOR.md#glaise)</center> | <center>[Glimpse of Humanity](MULTICOLOR.md#glimpse-of-humanity)</center> |
+| ![](../custom/pics/cards/E33/Glissando.full.jpg) | ![](../custom/pics/cards/E33/Goblu.full.jpg) | ![](../custom/pics/cards/E33/Gold%20Chevaliere.full.jpg) |
+| <center>[Glissando](MULTICOLOR.md#glissando)</center> | <center>[Goblu](MULTICOLOR.md#goblu)</center> | <center>[Gold Chevalière](MULTICOLOR.md#gold-chevalière)</center> |
+| ![](../custom/pics/cards/E33/Gommage.full.jpg) | ![](../custom/pics/cards/E33/Grandis%20Cleaner.full.jpg) | ![](../custom/pics/cards/E33/Grandis%20Guard.full.jpg) |
+| <center>[Gommage](MULTICOLOR.md#gommage)</center> | <center>[Grandis Cleaner](MULTICOLOR.md#grandis-cleaner)</center> | <center>[Grandis Guard](MULTICOLOR.md#grandis-guard)</center> |
+| ![](../custom/pics/cards/E33/Grandis%20Merchant.full.jpg) | ![](../custom/pics/cards/E33/Greatsword%20Cultist.full.jpg) | ![](../custom/pics/cards/E33/Gustave%2C%20Lumiere%20Engineer.full.jpg) |
+| <center>[Grandis Merchant](MULTICOLOR.md#grandis-merchant)</center> | <center>[Greatsword Cultist](MULTICOLOR.md#greatsword-cultist)</center> | <center>[Gustave, Lumière Engineer](MULTICOLOR.md#gustave-lumière-engineer)</center> |
+| ![](../custom/pics/cards/E33/Jar%20of%20Candy.full.jpg) | ![](../custom/pics/cards/E33/Lampmaster.full.jpg) | ![](../custom/pics/cards/E33/Last%20Stand%20of%20Expedition%2033.full.jpg) |
+| <center>[Jar of Candy](MULTICOLOR.md#jar-of-candy)</center> | <center>[Lampmaster](MULTICOLOR.md#lampmaster)</center> | <center>[Last Stand of Expedition 33](MULTICOLOR.md#last-stand-of-expedition-33)</center> |
+| ![](../custom/pics/cards/E33/Leave%20this%20Canvas%21.full.jpg) | ![](../custom/pics/cards/E33/Licornapieds.full.jpg) | ![](../custom/pics/cards/E33/Licorne.full.jpg) |
+| <center>[Leave this Canvas!](MULTICOLOR.md#leave-this-canvas)</center> | <center>[Licornapieds](MULTICOLOR.md#licornapieds)</center> | <center>[Licorne](MULTICOLOR.md#licorne)</center> |
+| ![](../custom/pics/cards/E33/LostFound.full.jpg) | ![](../custom/pics/cards/E33/Lumierian%20Apprentice.full.jpg) | ![](../custom/pics/cards/E33/Lune%2C%20Charting%20a%20Path.full.jpg) |
+| <center>[Lost // Found](MULTICOLOR.md#lost--found)</center> | <center>[Lumierian Apprentice](MULTICOLOR.md#lumierian-apprentice)</center> | <center>[Lune, Charting a Path](MULTICOLOR.md#lune-charting-a-path)</center> |
 | ![](../custom/pics/cards/E33/Maelle%2C%20Child%20of%20Lumiere.full.jpg) | ![](../custom/pics/cards/E33/Maelle%2C%20The%20Reawakened%20Paintress.full.jpg) | ![](../custom/pics/cards/E33/Manor%20EntranceManor%20Hidden%20Room.full.jpg) |
 | <center>[Maelle, Child of Lumière // Maelle, The Reawakened Paintress](MULTICOLOR.md#maelle-child-of-lumière--maelle-the-reawakened-paintress)</center> | <center>[Maelle, Child of Lumière // Maelle, The Reawakened Paintress](MULTICOLOR.md#maelle-child-of-lumière--maelle-the-reawakened-paintress)</center> | <center>[Manor Entrance // Manor Hidden Room](MULTICOLOR.md#manor-entrance--manor-hidden-room)</center> |
 | ![](../custom/pics/cards/E33/Manor%20Fire.full.jpg) | ![](../custom/pics/cards/E33/Manor%20GreenhouseManor%20Gallery.full.jpg) | ![](../custom/pics/cards/E33/Manor%20KitchenManor%20Cellar.full.jpg) |
@@ -186,16 +184,18 @@
 | <center>[Nicolas, Seeking Inspiration](MULTICOLOR.md#nicolas-seeking-inspiration)</center> | <center>[Painted Alicia, Eternally Suffering](MULTICOLOR.md#painted-alicia-eternally-suffering)</center> | <center>[Painted Clea, the Regent](MULTICOLOR.md#painted-clea-the-regent)</center> |
 | ![](../custom/pics/cards/E33/Painting%20Workshop.full.jpg) | ![](../custom/pics/cards/E33/Pelerin.full.jpg) | ![](../custom/pics/cards/E33/Rally%20the%20Expeditioners.full.jpg) |
 | <center>[Painting Workshop](MULTICOLOR.md#painting-workshop)</center> | <center>[Pelerin](MULTICOLOR.md#pelerin)</center> | <center>[Rally the Expeditioners](MULTICOLOR.md#rally-the-expeditioners)</center> |
-| ![](../custom/pics/cards/E33/Reaper%20Cultist.full.jpg) | ![](../custom/pics/cards/E33/Sciel%2C%20Grieving%20for%20Many.full.jpg) | ![](../custom/pics/cards/E33/Serpenphare.full.jpg) |
-| <center>[Reaper Cultist](MULTICOLOR.md#reaper-cultist)</center> | <center>[Sciel, Grieving for Many](MULTICOLOR.md#sciel-grieving-for-many)</center> | <center>[Serpenphare](MULTICOLOR.md#serpenphare)</center> |
-| ![](../custom/pics/cards/E33/Simon%2C%20Consort%20of%20Clea.full.jpg) | ![](../custom/pics/cards/E33/Simon%2C%20The%20Divergent%20Star.full.jpg) | ![](../custom/pics/cards/E33/Sirene%2C%20Who%20Plays%20With%20Wonder.full.jpg) |
-| <center>[Simon, Consort of Clea // Simon, The Divergent Star](MULTICOLOR.md#simon-consort-of-clea--simon-the-divergent-star)</center> | <center>[Simon, Consort of Clea // Simon, The Divergent Star](MULTICOLOR.md#simon-consort-of-clea--simon-the-divergent-star)</center> | <center>[Sirène, Who Plays With Wonder](MULTICOLOR.md#sirène-who-plays-with-wonder)</center> |
-| ![](../custom/pics/cards/E33/Sprong.full.jpg) | ![](../custom/pics/cards/E33/Stalact.full.jpg) | ![](../custom/pics/cards/E33/Stendhal.full.jpg) |
-| <center>[Sprong](MULTICOLOR.md#sprong)</center> | <center>[Stalact](MULTICOLOR.md#stalact)</center> | <center>[Stendhal](MULTICOLOR.md#stendhal)</center> |
-| ![](../custom/pics/cards/E33/Terminate.full.jpg) | ![](../custom/pics/cards/E33/The%20Curator.full.jpg) | ![](../custom/pics/cards/E33/Renoir%2C%20Dessendre%20Patriarch.full.jpg) |
-| <center>[Terminate](MULTICOLOR.md#terminate)</center> | <center>[The Curator // Renoir, Dessendre Patriarch](MULTICOLOR.md#the-curator--renoir-dessendre-patriarch)</center> | <center>[The Curator // Renoir, Dessendre Patriarch](MULTICOLOR.md#the-curator--renoir-dessendre-patriarch)</center> |
-| ![](../custom/pics/cards/E33/The%20Fate%20of%20the%20Canvas.full.jpg) | ![](../custom/pics/cards/E33/The%20Greatest%20Expedition%20in%20History.full.jpg) | ![](../custom/pics/cards/E33/The%20Paintress.full.jpg) |
-| <center>[The Fate of the Canvas](MULTICOLOR.md#the-fate-of-the-canvas)</center> | <center>[The Greatest Expedition in History](MULTICOLOR.md#the-greatest-expedition-in-history)</center> | <center>[The Paintress // Aline Dessendre, Stricken by Grief](MULTICOLOR.md#the-paintress--aline-dessendre-stricken-by-grief)</center> |
+| ![](../custom/pics/cards/E33/Reaper%20Cultist.full.jpg) | ![](../custom/pics/cards/E33/Repaint.full.jpg) | ![](../custom/pics/cards/E33/Sciel%2C%20Grieving%20for%20Many.full.jpg) |
+| <center>[Reaper Cultist](MULTICOLOR.md#reaper-cultist)</center> | <center>[Repaint](MULTICOLOR.md#repaint)</center> | <center>[Sciel, Grieving for Many](MULTICOLOR.md#sciel-grieving-for-many)</center> |
+| ![](../custom/pics/cards/E33/Seal%20of%20Approval.full.jpg) | ![](../custom/pics/cards/E33/Serpenphare.full.jpg) | ![](../custom/pics/cards/E33/Simon%2C%20Consort%20of%20Clea.full.jpg) |
+| <center>[Seal of Approval](MULTICOLOR.md#seal-of-approval)</center> | <center>[Serpenphare](MULTICOLOR.md#serpenphare)</center> | <center>[Simon, Consort of Clea // Simon, The Divergent Star](MULTICOLOR.md#simon-consort-of-clea--simon-the-divergent-star)</center> |
+| ![](../custom/pics/cards/E33/Simon%2C%20The%20Divergent%20Star.full.jpg) | ![](../custom/pics/cards/E33/Sirene%2C%20Who%20Plays%20With%20Wonder.full.jpg) | ![](../custom/pics/cards/E33/Sprong.full.jpg) |
+| <center>[Simon, Consort of Clea // Simon, The Divergent Star](MULTICOLOR.md#simon-consort-of-clea--simon-the-divergent-star)</center> | <center>[Sirène, Who Plays With Wonder](MULTICOLOR.md#sirène-who-plays-with-wonder)</center> | <center>[Sprong](MULTICOLOR.md#sprong)</center> |
+| ![](../custom/pics/cards/E33/Stalact.full.jpg) | ![](../custom/pics/cards/E33/Stendhal.full.jpg) | ![](../custom/pics/cards/E33/Terminate.full.jpg) |
+| <center>[Stalact](MULTICOLOR.md#stalact)</center> | <center>[Stendhal](MULTICOLOR.md#stendhal)</center> | <center>[Terminate](MULTICOLOR.md#terminate)</center> |
+| ![](../custom/pics/cards/E33/The%20Curator.full.jpg) | ![](../custom/pics/cards/E33/Renoir%2C%20Dessendre%20Patriarch.full.jpg) | ![](../custom/pics/cards/E33/The%20Fate%20of%20the%20Canvas.full.jpg) |
+| <center>[The Curator // Renoir, Dessendre Patriarch](MULTICOLOR.md#the-curator--renoir-dessendre-patriarch)</center> | <center>[The Curator // Renoir, Dessendre Patriarch](MULTICOLOR.md#the-curator--renoir-dessendre-patriarch)</center> | <center>[The Fate of the Canvas](MULTICOLOR.md#the-fate-of-the-canvas)</center> |
+| ![](../custom/pics/cards/E33/The%20Fracture.full.jpg) | ![](../custom/pics/cards/E33/The%20Greatest%20Expedition%20in%20History.full.jpg) | ![](../custom/pics/cards/E33/The%20Paintress.full.jpg) |
+| <center>[The Fracture](MULTICOLOR.md#the-fracture)</center> | <center>[The Greatest Expedition in History](MULTICOLOR.md#the-greatest-expedition-in-history)</center> | <center>[The Paintress // Aline Dessendre, Stricken by Grief](MULTICOLOR.md#the-paintress--aline-dessendre-stricken-by-grief)</center> |
 | ![](../custom/pics/cards/E33/Aline%20Dessendre%2C%20Stricken%20by%20Grief.full.jpg) | ![](../custom/pics/cards/E33/The%20Scavenger.full.jpg) | ![](../custom/pics/cards/E33/Tisseur.full.jpg) |
 | <center>[The Paintress // Aline Dessendre, Stricken by Grief](MULTICOLOR.md#the-paintress--aline-dessendre-stricken-by-grief)</center> | <center>[The Scavenger](MULTICOLOR.md#the-scavenger)</center> | <center>[Tisseur](MULTICOLOR.md#tisseur)</center> |
 | ![](../custom/pics/cards/E33/Tomorrow%20Comes.full.jpg) | ![](../custom/pics/cards/E33/TortureNurture.full.jpg) | ![](../custom/pics/cards/E33/Troubador.full.jpg) |
