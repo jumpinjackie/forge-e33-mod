@@ -19,7 +19,7 @@ Whenever ~ is dealt damage, remove all rank counters from him.
 Immortality — {1}{W}{B}: Return ~ from your graveyard to the battlefield tapped with a stun counter.
 Strike Storm — ~ has Double Strike as long has he has 3 or more rank counters.
 Marking Shot — {U/B}, {T}: ~ deals 1 damage to any target. If you have 3 or more rank counters, it deals 2 damage to any target instead.
-Phantom Stars — {4}{W}, {T}, remove X rank counters from ~: ~ deals X damage to each creature your opponents controls.
+Phantom Stars — {4}{W}, {T}, remove X rank counters from ~: ~ deals X damage to each of up to two target creatures.
 [AbilityWords]
 Immortality
 Marking Shot
@@ -37,7 +37,7 @@ A:AB$ ChangeZone | Cost$ 1 W B | Origin$ Graveyard | Destination$ Battlefield | 
 S:Mode$ Continuous | Affected$ Card.Self | AddKeyword$ Double Strike | IsPresent$ Card.Self+counters_GE3_RANK  | Description$ ~ has Double Strike as long has he has 3 or more rank counters.
 A:AB$ DealDamage | Cost$ UB T | ValidTgts$ Any | NumDmg$ 1 | SpellDescription$ ~ deals 1 damage to any target.
 A:AB$ DealDamage | Cost$ UB T | ValidTgts$ Any | NumDmg$ 2 | IsPresent$ Card.Self+counters_GE3_RANK | SpellDescription$ ~ deals 2 damage to any target.
-A:AB$ DamageAll | Cost$ 4 W T SubCounter<X/RANK> | NumDmg$ X | ValidCards$ Creature.OppCtrl | ValidDescription$ each creature your opponents control. | SpellDescription$ ~ deals X damage to each creature your opponents controls, where X is the number of rank counters on him.
+A:AB$ DealDamage | Cost$ 4 W T SubCounter<X/RANK> | TargetMin$ 0 | TargetMax$ 2 | ValidTgts$ Creature | TgtPrompt$ Select up to two target creatures. | NumDmg$ X | SpellDescription$ ~ deals X damage to each of up to two target creatures.
 SVar:X:Count$xPaid
 [Artist]
 Sandfall Interactive
@@ -47,3 +47,4 @@ Sandfall Interactive
  - Resurrection ability because he's immortal.
  - Added an assortment of buffs and abilities that are conditional on the number of rank counters.
  - "Phantom Stars" ultimate is paid in rank counters for game balance purposes. In game, none of Verso's abilities cost him is rank.
+ - 21/01/2026: Changed "Phantom Stars" ultimate to only target up to 2 creatures instead of all creatures target opponent controls.

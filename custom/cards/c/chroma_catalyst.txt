@@ -1,6 +1,13 @@
 Name:Chroma Catalyst
 ManaCost:3
 Types:Artifact
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigToken | TriggerDescription$ When CARDNAME enters, create a Chroma token.
+SVar:TrigToken:DB$ Token | TokenAmount$ 1 | TokenOwner$ You | TokenScript$ c_a_chroma
 R:Event$ CreateToken | ActiveZones$ Battlefield | ValidPlayer$ You | ValidToken$ Chroma,Lumina | ReplaceWith$ TokenReplace | Description$ If you would create a Chroma or Lumina token, instead create one of each.
 SVar:TokenReplace:DB$ ReplaceToken | Type$ ReplaceToken | TokenScript$ c_a_lumina,c_a_chroma
-Oracle:If you would create a Chroma or Lumina token, instead create one of each.
+A:AB$ Mana | Cost$ T | Produced$ Any | Amount$ X | SpellDescription$ Add X mana of any one color, where X is the number of Chromas and Luminas you control divided by three, rounded down.
+SVar:ChrTotal:Count$Valid Chroma.YouCtrl
+SVar:LumTotal:Count$Valid Lumina.YouCtrl
+SVar:A:SVar$LumTotal/Plus.ChrTotal
+SVar:X:SVar$A/ThirdDown
+Oracle:When this artifact enters, create a Chroma token.\nIf you would create a Chroma or Lumina token, instead create one of each.\n{T}: Add X mana of any one color, where X is the number of Chromas and Luminas you control divided by three, rounded down.

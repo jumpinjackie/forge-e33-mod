@@ -20,7 +20,7 @@ Each nonland card in your hand without foretell has foretell. Its foretell cost 
 Whenever you foretell a card, you gain 2 life.
 Twilight Slash - {W}{B},{T}: Sciel deals 2 damage to target creature, you gain 2 life.
 Intervention - {W}{W},{T}: Untap target creature. Create a Chroma token.
-Our Sacrifice - {1}{B}{B}, {T}, Pay X life: Creatures target opponent controls get -X/-X until end of turn.
+Our Sacrifice - {1}{B}{B}, {T}, Pay X life: Up to two target creatures each get -X/-X until end of turn.
 [AbilityWords]
 Twilight Slash
 Intervention
@@ -32,7 +32,7 @@ S:Mode$ Continuous | Affected$ Card.nonLand+YouOwn+withoutForetell | AffectedZon
 T:Mode$ Foretell | ValidPlayer$ You | Execute$ DBGainLife | TriggerZones$ Battlefield | TriggerDescription$ Whenever you foretell a card, you gain 2 life.
 A:AB$ DealDamage | Cost$ W B T | ValidTgts$ Creature | NumDmg$ 2 | SubAbility$ DBGainLife | SpellDescription$ CARDNAME deals 2 damage to target creature, you gain 2 life.
 A:AB$ Untap | Cost$ W W T | ValidTgts$ Creature | TgtPrompt$ Select target creature | SubAbility$ DBCreateChroma | SpellDescription$ Untap target creature. Create a Chroma token.
-A:AB$ PumpAll | Cost$ 1 B B T PayLife<X> | ValidTgts$ Opponent | ValidCards$ Creature | NumAtt$ -X | NumDef$ -X | SpellDescription$ Creatures target opponent controls get -X/-X until end of turn.
+A:AB$ Pump | Cost$ 1 B B T PayLife<X> | ValidTgts$ Creature | TargetMin$ 0 | TargetMax$ 2 | NumAtt$ -X | NumDef$ -X | SpellDescription$ Up to two target creatures each get -X/-X until end of turn.
 SVar:DBGainLife:DB$ GainLife | LifeAmount$ 2
 SVar:DBCreateChroma:DB$ Token | TokenScript$ c_a_chroma | TokenOwner$ You | TokenAmount$ 1
 SVar:X:Count$xPaid
@@ -46,3 +46,4 @@ c_a_chroma
  - Intervention in the game lets an ally play immediately and gain 4 AP. Translated to untapping a creature and giving you a Chroma token.
  - Our Sacrifice in the game deals extreme dark damage to all enemies, absorbing allies' health to deal more damage. Translated to paying X life to -X/-X an opponent's board.
  - 13/10/2025: Dropped the marking card ability due to text box budget constraints having seen this card for the first time in CardConjurer.
+ - 21/01/2026: Changed "Our Sacrifice" ultimate to only target up to 2 creatures instead of all creatures target opponent controls.
