@@ -21,6 +21,8 @@ SVar:TrigLumina:DB$ Token | TokenAmount$ 1 | TokenOwner$ You | TokenScript$ c_a_
 SVar:TrigGain:DB$ GainLife | Defined$ You | LifeAmount$ 1
 [Artist]
 Sandfall Interactive
+[RelatedTokens]
+c_a_lumina
 [DesignNotes]
  - In the game, after defeating the Dualliste, the party find a special tree at Verso's recommendation where Maelle buries Gustave's remains.
  - Card depicts this moment.
