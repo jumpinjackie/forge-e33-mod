@@ -23,9 +23,9 @@ $PICTO_REPLICATE_ABILITY_SHORT(2)
 K:Equip:2
 T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigCharm | TriggerDescription$ When CARDNAME enters, ABILITY
 SVar:TrigCharm:DB$ Charm | Choices$ BreakingCounter,EnergizingCounter,PiercingCounter | CharmNum$ 2
-SVar:BreakingCounter:DB$ PutCounter | CounterNum$ 1 | CounterType$ BREAKING | SpellDescription$ Put a breaking counter on CARDNAME.
-SVar:EnergizingCounter:DB$ PutCounter | CounterNum$ 1 | CounterType$ ENERGIZING | SpellDescription$ Put an energizing counter on CARDNAME.
-SVar:PiercingCounter:DB$ PutCounter | CounterNum$ 1 | CounterType$ PIERCING | SpellDescription$ Put a piercing counter on CARDNAME.
+SVar:BreakingCounter:DB$ PutCounter | CounterNum$ 1 | CounterType$ BREAKING | SpellDescription$ Put a breaking counter on CARDNAME (tap and stun on shot).
+SVar:EnergizingCounter:DB$ PutCounter | CounterNum$ 1 | CounterType$ ENERGIZING | SpellDescription$ Put an energizing counter on CARDNAME (creates chroma/lumina on shot).
+SVar:PiercingCounter:DB$ PutCounter | CounterNum$ 1 | CounterType$ PIERCING | SpellDescription$ Put a piercing counter on CARDNAME (shoots controller for same amount).
 S:Mode$ Continuous | Affected$ Creature.EquippedBy | AddAbility$ Shoot | Description$ Equipped creature has "{X}{X}, {T}: This creature deals X damage to target creature"
 SVar:Shoot:AB$ DealDamage | Cost$ X X T | ValidTgts$ Creature | NumDmg$ X | SpellDescription$ This creature deals X damage to target creature.
 SVar:X:Count$xPaid

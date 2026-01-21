@@ -22,9 +22,9 @@ $PICTO_REPLICATE_ABILITY_SHORT(2)
 K:Equip:2
 T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigCharm | TriggerDescription$ When CARDNAME enters, ABILITY
 SVar:TrigCharm:DB$ Charm | Choices$ BurningCounter,EnergizingCounter,ShieldingCounter | CharmNum$ 2
-SVar:BurningCounter:DB$ PutCounter | CounterNum$ 1 | CounterType$ BURNING | SpellDescription$ Put a burning counter on CARDNAME.
-SVar:EnergizingCounter:DB$ PutCounter | CounterNum$ 1 | CounterType$ ENERGIZING | SpellDescription$ Put an energizing counter on CARDNAME.
-SVar:ShieldingCounter:DB$ PutCounter | CounterNum$ 1 | CounterType$ SHIELDING | SpellDescription$ Put a shielding counter on CARDNAME.
+SVar:BurningCounter:DB$ PutCounter | CounterNum$ 1 | CounterType$ BURNING | SpellDescription$ Put a burning counter on CARDNAME (shoots any target for 4 on death).
+SVar:EnergizingCounter:DB$ PutCounter | CounterNum$ 1 | CounterType$ ENERGIZING | SpellDescription$ Put an energizing counter on CARDNAME (creates chroma/lumina on death).
+SVar:ShieldingCounter:DB$ PutCounter | CounterNum$ 1 | CounterType$ SHIELDING | SpellDescription$ Put a shielding counter on CARDNAME (puts shield counter on death).
 S:Mode$ Continuous | Affected$ Card.Self+counters_GE1_BURNING | AddTrigger$ BurningTrig
 SVar:BurningTrig:Mode$ ChangesZone | ValidCard$ Card.AttachedBy | Origin$ Battlefield | Destination$ Graveyard | Execute$ TrigShoot | TriggerDescription$ When equipped creature dies, it deals 4 damage to any target if ~ has a burning counter.
 SVar:TrigShoot:DB$ DealDamage | ValidTgts$ Any | NumDmg$ 4
