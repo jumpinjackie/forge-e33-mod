@@ -7,6 +7,7 @@ B
 [Types]
 Creature
 Nevron
+Horror
 [Rarity]
 U
 [Artist]
@@ -41,3 +42,4 @@ $NEVRON_DEATH_ABILITY
     - Added "Gathers dark chroma" ability that we've mechanically mapped to a tap effect.
     - Added "Summons dark spear" ability that we've mechanically mapped to a mini creature syphon.
  - 1/1/2026: Fixed missing lifegain in "Summons dark spear" ability
+ - 21/01/2026: Added Horror sub-type.

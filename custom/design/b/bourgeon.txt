@@ -8,6 +8,7 @@ B
 [Types]
 Creature
 Nevron
+Giant
 [Rarity]
 U
 [PT]
@@ -35,3 +36,4 @@ Sandfall Interactive
    - Eating a party member: An Oblivion Ring style exile effect on ETB that is released when this creature either dies or is stunned (by putting a stun counter on it)
    - 3/4/5-hit combos: Double strike
    - Spits miasma: A shock and stun on target creature.
+ - 21/01/2026: Added Giant sub-type.

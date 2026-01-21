@@ -7,6 +7,7 @@ W
 Legendary
 Creature
 Nevron
+Horror
 [PT]
 2/2
 [Rarity]
@@ -26,3 +27,4 @@ Sandfall Interactive
 [DesignNotes]
  - In the game, Blanche is an Unfinished Nevron. If you spared every Unfinished Nevron up to that point, she will reward you with lots of lumina.
  - Easy map to rewarding you lumina tokens and life when white (unfinished) nevrons enter.
+ - 21/01/2026: Added Horror sub-type.

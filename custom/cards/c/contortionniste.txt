@@ -1,6 +1,6 @@
 Name:Contortionniste
 ManaCost:1 U B
-Types:Creature Nevron
+Types:Creature Nevron Horror
 PT:3/3
 K:Lifelink
 T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigCharm | TriggerDescription$ When CARDNAME enters, ABILITY

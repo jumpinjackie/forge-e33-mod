@@ -1,6 +1,6 @@
 Name:Gargant
 ManaCost:3 U R
-Types:Legendary Creature Nevron
+Types:Legendary Creature Nevron Giant
 PT:2/6
 A:AB$ Tap | Cost$ 2 U T | TgtPrompt$ Choose target creature | ValidTgts$ Creature | SubAbility$ DBCounter | SpellDescription$ Tap target creature and put a stun counter on it.
 SVar:DBCounter:DB$ PutCounter | Defined$ Targeted | CounterType$ Stun | CounterNum$ 1

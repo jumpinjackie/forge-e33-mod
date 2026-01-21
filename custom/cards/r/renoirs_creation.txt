@@ -1,6 +1,6 @@
 Name:Renoir's Creation
 ManaCost:2 B B
-Types:Creature Nevron
+Types:Creature Nevron Horror
 PT:3+*/3+*
 K:Devoid
 K:Trample

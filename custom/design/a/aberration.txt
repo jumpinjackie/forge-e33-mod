@@ -7,6 +7,7 @@ R
 [Types]
 Creature
 Nevron
+Horror
 [Rarity]
 U
 [Artist]
@@ -29,3 +30,4 @@ $NEVRON_DEATH_ABILITY
 [DesignNotes]
  - Just a vanilla placeholder for now until I have figured out some suitable abilities for it
  - 13/10/2025: Removed Devoid.
+ - 21/01/2026: Added Horror sub-type.

@@ -1,6 +1,6 @@
 Name:Stalact
 ManaCost:1 U R
-Types:Creature Nevron
+Types:Creature Nevron Beast
 PT:2/2
 K:etbCounter:SHIELD:1
 T:Mode$ DamageDoneOnce | Execute$ TrigRemoveAllCountersBeforeFire | ValidTarget$ Card.Self | ValidSource$ Card.Red | TriggerZones$ Battlefield | TriggerDescription$ Whenever this creature is dealt damage from a red source, remove all counters from it and put a fire counter on it.

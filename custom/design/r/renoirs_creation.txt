@@ -7,6 +7,7 @@ B
 [Types]
 Creature
 Nevron
+Horror
 [Rarity]
 U
 [PT]
@@ -32,3 +33,4 @@ Sandfall Interactive
  - This should have Devoid (because its attacks deal void damage), but the Devoid frame in CardConjurer is transparent, requiring the art for this to be in portrait orientation where the subject is predominantly in the top-half. No such depiction can be sourced as all the possible candidates are in landscape. If we can source a depiction of this Nevron in portrait with the required constraints, then we'll add in Devoid.
  - 28/12/2025: Now has Devoid (thanks photo mode for letting me get a portrait-sized snap!)
  - 1/1/2026: Changed to count dead Humans instead of dead Expeditioners. As lore-wise it could be composed of corpses of not just Expeditioners, but the citizens of Lumiere as well.
+ - 21/01/2026: Added Horror sub-type.

@@ -1,6 +1,6 @@
 Name:Noir
 ManaCost:4 B B
-Types:Creature Nevron
+Types:Creature Nevron Horror
 PT:4/4
 K:Ward:2
 K:etbCounter:SHIELD:1

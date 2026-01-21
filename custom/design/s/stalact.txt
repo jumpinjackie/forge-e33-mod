@@ -7,6 +7,7 @@ R
 [Types]
 Creature
 Nevron
+Beast
 [Rarity]
 U
 [PT]
@@ -38,3 +39,4 @@ SVar:DBDraw:DB$ Draw | NumCards$ 1 | Defined$ You
 Sandfall Interactive
 [DesignNotes]
  - Has the same "flip-flop" elemental immunity as its big brother (Gargant), so has the same flip-flop protection.
+ - 21/01/2026: Added Beast sub-type.
