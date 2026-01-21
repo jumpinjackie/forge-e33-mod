@@ -74,6 +74,8 @@ public class CardFaceDesign
 
     public string[]? RelatedTokens { get; set; }
 
+    public int? DraftScore { get; set; }
+
     internal void Apply(string propertyName, IEnumerable<string> buffer)
     {
         switch (propertyName)
@@ -141,6 +143,10 @@ public class CardFaceDesign
                 break;
             case nameof(RelatedTokens):
                 RelatedTokens = buffer.ToArray();
+                break;
+            case nameof(DraftScore):
+                if (int.TryParse(string.Join(" ", buffer), out var score))
+                    DraftScore = score;
                 break;
         }
     }
@@ -744,6 +750,8 @@ public class CardMasterDesign(string designFile)
 
     public string? Bucket { get; set; }
 
+    public int? DraftScore => FrontFull?.DraftScore;
+
     public string? OracleTextFull
     {
         get
@@ -1140,6 +1148,7 @@ public class CardMasterDesign(string designFile)
                 case "[NicknameFor]":
                 case "[EntersTapped]":
                 case "[RelatedTokens]":
+                case "[DraftScore]":
                     // Apply the collected buffer for the previous property name
                     if (activePropertyName != null)
                     {
@@ -1642,6 +1651,9 @@ public class GenAllCommand : BaseCommand
 
         // 7. Generate Forge cube defn
         await GenerateForgeCubeAsync(cards, tokens, stdout, stderr);
+
+        // 8. Generate draft rankings file
+        await GenerateDraftRankingsAsync(cards, stdout);
 
         // Generate SPOILER.md containing a 3-column table of card and token images
         await GenerateSpoilerAsync(cards, tokens, BaseDirectory, OutputDir, stdout, stderr);
@@ -2318,6 +2330,86 @@ public class GenAllCommand : BaseCommand
         {
             await stderr.WriteLineAsync($"Failed to write SPOILER.md: {ex.Message}");
         }
+    }
+
+    private async Task GenerateDraftRankingsAsync(SortedDictionary<string, CardMasterDesign> cards, TextWriter stdout)
+    {
+        await stdout.WriteLineAsync("Generating draft rankings...");
+        var forgeDir = Path.Combine(this.BaseDirectory.FullName, "dist", "forge");
+        Directory.CreateDirectory(forgeDir);
+
+        var rankingsPath = Path.Combine(forgeDir, "e33.rnk");
+        using var sw = new StreamWriter(rankingsPath);
+
+        // Write header
+        await sw.WriteLineAsync("//Rank|Name|Rarity|Set");
+
+        // Collect cards with draft scores and without
+        var rankedCards = new List<(string displayName, string rarity, int score)>();
+        var unrankedCards = new List<(string displayName, string rarity)>();
+        
+        foreach (var (_, card) in cards)
+        {
+            // Skip commander cards
+            if (card.IsCommander)
+                continue;
+
+            // Skip basic lands
+            var (isBasic, _) = card.IsBasicLand();
+            if (isBasic)
+                continue;
+
+            string displayName = card.Name;
+            
+            // For split/room cards, remove " // "
+            if (card.FaceType == CardFaceType.SplitFuse || card.FaceType == CardFaceType.SplitRoom)
+            {
+                displayName = displayName.Replace(" // ", " ");
+            }
+            // For DFC/meld cards, use only the front face name
+            else if (card.FaceType == CardFaceType.DoubleFaced || card.FaceType == CardFaceType.Meld)
+            {
+                displayName = card.FrontFull?.Name ?? card.Name;
+            }
+
+            if (card.DraftScore.HasValue)
+            {
+                rankedCards.Add((displayName, card.Rarity ?? "?", card.DraftScore.Value));
+            }
+            else
+            {
+                unrankedCards.Add((displayName, card.Rarity ?? "?"));
+            }
+        }
+
+        // Sort ranked cards by score descending, then by name for consistency
+        rankedCards.Sort((a, b) => b.score.CompareTo(a.score) switch
+        {
+            0 => a.displayName.CompareTo(b.displayName),
+            int cmp => cmp
+        });
+
+        // Sort unranked cards by name for consistency
+        unrankedCards.Sort((a, b) => a.displayName.CompareTo(b.displayName));
+
+        // Write ranked cards
+        int rankNumber = 1;
+        for (int i = 0; i < rankedCards.Count; i++)
+        {
+            var (name, rarity, score) = rankedCards[i];
+            await sw.WriteLineAsync($"#{rankNumber}|{name}|{rarity}|E33");
+            rankNumber++;
+        }
+
+        // Write unranked cards at the end
+        for (int i = 0; i < unrankedCards.Count; i++)
+        {
+            var (name, rarity) = unrankedCards[i];
+            await sw.WriteLineAsync($"#{rankNumber}|{name}|{rarity}|E33");
+            rankNumber++;
+        }
+
+        await stdout.WriteLineAsync($"Generated e33.rnk with {rankedCards.Count} ranked cards and {unrankedCards.Count} unranked cards");
     }
 
     private async Task GenerateStatsAsync(SortedDictionary<string, CardMasterDesign> cards, TextWriter stdout)
