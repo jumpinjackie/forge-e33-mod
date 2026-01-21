@@ -7,6 +7,7 @@ G
 [Types]
 Creature
 Nevron
+Elemental
 [PT]
 3/4
 [Rarity]
@@ -27,3 +28,4 @@ $NEVRON_DEATH_ABILITY
 Sandfall Interactive
 [DesignNotes]
  - In the game, Glaises can be found in Yellow Harvest and Falling Leaves
+ - 21/01/2026: Added Elemental sub-type.

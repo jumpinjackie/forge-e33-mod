@@ -4,23 +4,30 @@ Verso's Burden
 1
 B
 [Types]
+Kindred
 Enchantment
+Expeditioner
 Aura
 [Oracle]
 Enchant creature
+When ~ enters, create a Lumina token.
 All damage that would be dealt to enchanted creature is dealt to its controller instead.
-[IsReprint]
-true
-[Rarity]
-U
-[NicknameFor]
-Treacherous Link
 [FlavorText]
 Sometimes, we paint the bars of our own prison. Your despair blinds you. You think you're ready to pay the price. But are you willing to let them pay the price for you?
 - Renoir, to Verso
+[ForgeScript]
+K:Enchant:Creature
+SVar:AttachAILogic:Curse
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigToken | TriggerDescription$ When ~ enters, create a Lumina token.
+SVar:TrigToken:DB$ Token | TokenAmount$ 1 | TokenOwner$ You | TokenScript$ c_a_lumina
+R:Event$ DamageDone | ActiveZones$ Battlefield | ValidTarget$ Card.EnchantedBy | ReplaceWith$ DmgEnchanted | DamageTarget$ ReplacedTargetController | Description$ All damage that would be dealt to enchanted creature is dealt to its controller instead.
+SVar:DmgEnchanted:DB$ ReplaceEffect | VarName$ Affected | VarValue$ ReplacedTargetController | VarType$ Player
+[Rarity]
+U
 [Artist]
 Sandfall Interactive
 [DesignNotes]
  - In the game, Burden is one of Verso's skills. It transfers all status effects on various members of your party onto Verso himself.
  - Gone with 1:1 reprint of Treacherous Link.
  - 5/12/2025: Converted to a nickname reprint of Treacherous Link
+ - 21/01/2026: Converted to a functional reprint of Treacherous Link so we can add an Expeditioner sub-type and Lumina token bonus ETB.

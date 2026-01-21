@@ -1,6 +1,6 @@
 Name:Sapling
 ManaCost:1 G
-Types:Creature Nevron
+Types:Creature Nevron Fungus
 PT:2/2
 K:Protection from black
 T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigFungus | TriggerDescription$ When CARDNAME enters, put a fungus counter on target land.

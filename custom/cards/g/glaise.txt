@@ -1,6 +1,6 @@
 Name:Glaise
 ManaCost:1 R G
-Types:Creature Nevron
+Types:Creature Nevron Elemental
 PT:3/4
 K:etbCounter:SHIELD:1
 A:AB$ Pump | Cost$ G | Defined$ Self | KW$ Trample | SpellDescription$ CARDNAME gains trample until end of turn.

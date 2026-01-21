@@ -1,0 +1,10 @@
+Name:Verso's Burden
+ManaCost:1 B
+Types:Kindred Enchantment Expeditioner Aura
+K:Enchant:Creature
+SVar:AttachAILogic:Curse
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigToken | TriggerDescription$ When CARDNAME enters, create a Lumina token.
+SVar:TrigToken:DB$ Token | TokenAmount$ 1 | TokenOwner$ You | TokenScript$ c_a_lumina
+R:Event$ DamageDone | ActiveZones$ Battlefield | ValidTarget$ Card.EnchantedBy | ReplaceWith$ DmgEnchanted | DamageTarget$ ReplacedTargetController | Description$ All damage that would be dealt to enchanted creature is dealt to its controller instead.
+SVar:DmgEnchanted:DB$ ReplaceEffect | VarName$ Affected | VarValue$ ReplacedTargetController | VarType$ Player
+Oracle:Enchant creature\nWhen this Aura enters, create a Lumina token.\nAll damage that would be dealt to enchanted creature is dealt to its controller instead.

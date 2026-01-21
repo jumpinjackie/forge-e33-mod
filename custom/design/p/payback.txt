@@ -5,17 +5,23 @@ Payback
 W
 W
 [Types]
+Kindred
 Instant
+Expeditioner
 [Oracle]
-~ deals 5 damage divided as you choose among any number of target attacking or blocking creatures.
-[IsReprint]
-true
+Payback deals 5 damage divided as you choose among any number of target attacking or blocking creatures.
+Create a Lumina token. $LUMINA_REMINDER_TEXT
+[FlavorText]
+Let’s dance!
+- Maelle
+[ForgeScript]
+A:SP$ DealDamage | ValidTgts$ Creature.attacking,Creature.blocking | TgtPrompt$ Select target attacking or blocking creature to distribute damage to | NumDmg$ 5 | TargetMin$ 0 | TargetMax$ 5 | DividedAsYouChoose$ 5 | SubAbility$ DBToken | SpellDescription$ ~ deals 5 damage divided as you choose among any number of target attacking or blocking creatures.
+SVar:DBToken:DB$ Token | TokenAmount$ 1 | TokenOwner$ You | TokenScript$ c_a_lumina
 [Rarity]
 U
-[NicknameFor]
-Roil's Retribution
 [Artist]
-Raymond Swanland
+Sandfall Interactive
 [DesignNotes]
  - In the game, this is one of Maelle's skills
  - Roil's Retribution fits the bill (in both flavor and mechanics), so it was chosen as a nickname reprint for this.
+ - 21/01/2026: Converted to a functional reprint of Roil's Retirbution (instead of a nicknamed reprint) so we can add an Expeditioner sub-type and tack on a Lumina token bonus.

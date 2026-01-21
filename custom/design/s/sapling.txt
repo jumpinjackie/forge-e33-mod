@@ -6,6 +6,7 @@ G
 [Types]
 Creature
 Nevron
+Fungus
 [PT]
 2/2
 [Rarity]
@@ -28,3 +29,4 @@ Sandfall Interactive
  - Absorbs dark attacks ergo. Protection from black.
  - 17/01/2026: Added fungus counter ETB to increase the quota of effects that check nonbasics.
  - 20/01/2026: Added AI targeting hints
+ - 21/01/2026: Added fungus sub-type

@@ -14,7 +14,7 @@ Sandfall Interactive
 2/2
 [Oracle]
 Performs a silencing combo — {2}{W}, {T}: Target creature an opponent controls loses all abilities until end of turn.
-Protects its allies — {1}{W}, {T}: Put a shield counter on target creature you control.
+Protects its allies — {3}{W}, {T}: Put a shield counter on target creature you control.
 $NEVRON_DEATH_ABILITY_TEXT
 [AbilityWords]
 Performs a silencing combo
@@ -22,7 +22,7 @@ Protects its allies
 [ForgeScript]
 $NEVRON_DEATH_ABILITY
 A:AB$ Animate | Cost$ 2 W T | ValidTgts$ Creature.OppCtrl | TgtPrompt$ Select target creature an opponent controls| RemoveAllAbilities$ True | SpellDescription$ Target creature an opponent controls loses all abilities until end of turn.
-A:AB$ PutCounter | Cost$ 1 W T | ValidTgts$ Creature.YouCtrl | TgtPrompt$ Select target creature you control | CounterType$ SHIELD | SpellDescription$ Put a shield counter on target creature you control.
+A:AB$ PutCounter | Cost$ 3 W T | ValidTgts$ Creature.YouCtrl | TgtPrompt$ Select target creature you control | CounterType$ SHIELD | SpellDescription$ Put a shield counter on target creature you control.
 [DesignNotes]
  - In the game, it has abilities to shield its party and cause silence to player characters.
  - Mechanically represented here as:
@@ -30,3 +30,4 @@ A:AB$ PutCounter | Cost$ 1 W T | ValidTgts$ Creature.YouCtrl | TgtPrompt$ Select
     - A temporary "humility" effect to represent silencing.
  - The only white nevron in this set that is finished (it cannot be any other color for flavor reasons). All other white nevrons are unfinished.
  - 13/10/2025: Removed Devoid.
+ - 21/01/2026: Increased shield counter activation cost from 1W to 3W
