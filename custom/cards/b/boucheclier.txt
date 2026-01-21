@@ -1,5 +1,5 @@
 Name:Boucheclier
-ManaCost:3 U
+ManaCost:3 G
 Types:Creature Nevron
 PT:3/3
 K:etbCounter:SHIELD:1

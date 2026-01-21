@@ -2,7 +2,7 @@
 Boucheclier
 [ManaCost]
 3
-U
+G
 [Types]
 Creature
 Nevron
@@ -28,3 +28,4 @@ $NEVRON_DEATH_ABILITY
  - Just a vanilla hill giant for now. Has shield counters because its game counterpart always has one and Shield counters are near 1:1 mechanically.
  - 13/10/2025: Removed Devoid.
  - 21/10/2025: Added damage reflection ability.
+ - 21/01/2026: Color-shifted from blue to green.

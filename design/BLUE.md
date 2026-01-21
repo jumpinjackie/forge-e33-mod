@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 21/1/2026 6:41:13 am
+> Last generated: 21/1/2026 7:02:54 am
 
 ## An Advantage!
 
@@ -38,26 +38,6 @@ Ahem. I hereby offically end our feud. With your departure, Lumière loses a bri
 
  - In the game's prologue, Antoine can be found at the Expedition Festival. Answer his quiz successfully and you'll get a festival token as a reward.
  - Given his extensive historical knowledge, it's an easy mechanical map to something that triggers off of casting historic spells, in the case: Card draw.
-
-## Boucheclier
-
-```
-3U
-Creature - Nevron
-This creature enters with a shield counter on it. (If it would be dealt damage or destroyed, remove a shield counter from it instead.)
-Gets ready to counterattack — When this creature is dealt combat damage, it deals that amount of damage to target creature an opponent controls.
-When this creature dies, target opponent creates a Lumina token. (It's an artifact with "{T}, Sacrifice this artifact: Scry 1.")
-
-3/3
-```
-
-[card implementation](../custom/cards/b/boucheclier.txt)
-
-### Design Notes
-
- - Just a vanilla hill giant for now. Has shield counters because its game counterpart always has one and Shield counters are near 1:1 mechanically.
- - 13/10/2025: Removed Devoid.
- - 21/10/2025: Added damage reflection ability.
 
 ## Bound by Chains
 
@@ -227,15 +207,6 @@ No, no, you are HIS creations, not mine. You will not take this Canvas from me!
 
  - No in-game basis, but Grief is such a central theme of Expedition 33 that having a cycle dedicated to the 5 stages is a total flavor nuke.
  - Denial is the first stage. Just on name-basis alone this is clearly a Mystic Snake like creature.
-
-## Dive Down
-
-> This card is a reprint
-[Scryfall](https://scryfall.com/search?q=Dive%20Down)
-### Notes
-
- - In the game, Esquie can start diving if you find Urrie.
- - Flavorful reprint of a useful combat trick.
 
 ## Eternal Ice
 

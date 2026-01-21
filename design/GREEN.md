@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 21/1/2026 5:15:41 am
+> Last generated: 21/1/2026 7:02:54 am
 
 ## Abbest
 
@@ -52,6 +52,27 @@ Maelle: I just- I just wanted to live this lifetime together. This lifetime that
  - Bargaining is the third stage. On name-basis alone you would think this is easily a black creature with "life for cards" motif, but it is actually green because this is the color that has the hardest time thematically associating to any of the 5 stages. Bargaining has some thematic leeway with green if you try to view it through a "Greater Good" kind of lens and thus I went with a creature variation of Greater Good.
  - 17/11/2025: Changed PT from 4/4 to 4/5
  - 21/11/2025: Added nonland clause to avoid being able to sac The Reacher for +5 net CA without any mana investment first.
+
+## Boucheclier
+
+```
+3G
+Creature - Nevron
+This creature enters with a shield counter on it. (If it would be dealt damage or destroyed, remove a shield counter from it instead.)
+Gets ready to counterattack — When this creature is dealt combat damage, it deals that amount of damage to target creature an opponent controls.
+When this creature dies, target opponent creates a Lumina token. (It's an artifact with "{T}, Sacrifice this artifact: Scry 1.")
+
+3/3
+```
+
+[card implementation](../custom/cards/b/boucheclier.txt)
+
+### Design Notes
+
+ - Just a vanilla hill giant for now. Has shield counters because its game counterpart always has one and Shield counters are near 1:1 mechanically.
+ - 13/10/2025: Removed Devoid.
+ - 21/10/2025: Added damage reflection ability.
+ - 21/01/2026: Color-shifted from blue to green.
 
 ## Cache Discovery
 

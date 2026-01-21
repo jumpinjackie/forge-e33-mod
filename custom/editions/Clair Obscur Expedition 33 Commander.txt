@@ -19,34 +19,34 @@ Type=Custom
 79 C Cultivate @Anthony Palumbo
 80 R Damn @Lucas Graciano
 87 R Deflecting Swat @rk post
-96 M Doubling Season @Chuck Lukacs
-164 C Farseek @Hristo D. Chukov
-165 C Feed the Swarm @Andrey Kuzinskiy
-166 U Fellwar Stone @John Avon
-168 U Final Parting @Sandfall Interactive
-182 R Shivan Reef @Sandfall Interactive ${"flavorName": "Frozen Hearts"}
-227 C Growth Spiral @Seb McKinnon
-274 M Mana Drain @Raymond Swanland
-284 U Mask of Memory @Allen Morris
-289 R Mirage Mirror @Craig J Spearing
-295 U Mortify @Nils Hamm
-315 U Patchwork Banner @Sarah Finnigan
-316 U Path to Exile @Raf Sarmento
-327 U Primal Empathy @Sandfall Interactive
-328 U Putrefy @Clint Cearley
-358 R Sulfurous Springs @Sandfall Interactive ${"flavorName": "Sinister Cave"}
-364 U Sol Ring @Piotr Dura
-377 U Swords to Plowshares @Nadia Hurianova
-378 U Talisman of Conviction @Lindsey Look
-379 U Talisman of Creativity @Lindsey Look
-380 U Talisman of Curiosity @Lindsey Look
-381 U Talisman of Dominance @Mike Dringenberg
-382 U Talisman of Hierarchy @Lindsey Look
-383 U Talisman of Impulse @Mike Dringenberg
-384 U Talisman of Indulgence @Mike Dringenberg
-385 U Talisman of Progress @Mike Dringenberg
-386 U Talisman of Resilience @Lindsey Look
-387 U Talisman of Unity @Mike Dringenberg
-399 R Brushland @Sandfall Interactive ${"flavorName": "The Meadows"}
-410 C Thought Vessel @rk post
-443 R Void Rend @Justyna Dura
+95 M Doubling Season @Chuck Lukacs
+163 C Farseek @Hristo D. Chukov
+164 C Feed the Swarm @Andrey Kuzinskiy
+165 U Fellwar Stone @John Avon
+167 U Final Parting @Sandfall Interactive
+181 R Shivan Reef @Sandfall Interactive ${"flavorName": "Frozen Hearts"}
+226 C Growth Spiral @Seb McKinnon
+273 M Mana Drain @Raymond Swanland
+283 U Mask of Memory @Allen Morris
+288 R Mirage Mirror @Craig J Spearing
+294 U Mortify @Nils Hamm
+314 U Patchwork Banner @Sarah Finnigan
+315 U Path to Exile @Raf Sarmento
+326 U Primal Empathy @Sandfall Interactive
+327 U Putrefy @Clint Cearley
+357 R Sulfurous Springs @Sandfall Interactive ${"flavorName": "Sinister Cave"}
+363 U Sol Ring @Piotr Dura
+376 U Swords to Plowshares @Nadia Hurianova
+377 U Talisman of Conviction @Lindsey Look
+378 U Talisman of Creativity @Lindsey Look
+379 U Talisman of Curiosity @Lindsey Look
+380 U Talisman of Dominance @Mike Dringenberg
+381 U Talisman of Hierarchy @Lindsey Look
+382 U Talisman of Impulse @Mike Dringenberg
+383 U Talisman of Indulgence @Mike Dringenberg
+384 U Talisman of Progress @Mike Dringenberg
+385 U Talisman of Resilience @Lindsey Look
+386 U Talisman of Unity @Mike Dringenberg
+398 R Brushland @Sandfall Interactive ${"flavorName": "The Meadows"}
+409 C Thought Vessel @rk post
+442 R Void Rend @Justyna Dura
