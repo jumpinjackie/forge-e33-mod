@@ -1,8 +1,8 @@
 [Name]
 Ballet
 [ManaCost]
-RG
-RG
+1
+G
 [Types]
 Creature
 Nevron
@@ -23,3 +23,4 @@ $NEVRON_DEATH_ABILITY
  - 23/09/2025: Move color identity from white/green to red/green to make way for White Nevrons.
  - 13/10/2025: Removed Devoid.
  - 13/12/2025: Changed cost from 1{RG}{RG} to {RG}{RG}
+ - 21/01/2026: Color-shifted from red/green hybrid to green. Cost changed from {RG}{RG} to {1}{G}

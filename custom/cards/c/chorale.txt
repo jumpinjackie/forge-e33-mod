@@ -1,5 +1,5 @@
 Name:Chorale
-ManaCost:1 RG
+ManaCost:1 G
 Types:Creature Nevron
 PT:2/1
 K:Flying

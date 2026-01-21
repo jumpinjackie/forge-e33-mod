@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 21/1/2026 7:24:02 am
+> Last generated: 21/1/2026 7:34:44 am
 
 ## A Storm is Coming
 
@@ -88,26 +88,6 @@ Aline, you’re going to kill yourself! It’s too soon for you to return to any
  - In the game, during the final boss with Renoir, Aline momentarily returns to the Canvas to swing the battle to the party's favor.
  - Mapped to targeted Axon/Nevron kill.
  - Added cycling to offset its marginality.
-
-## Ballet
-
-```
-(R/G)(R/G)
-Creature - Nevron
-Flying.
-When this creature dies, target opponent creates a Lumina token. (It's an artifact with "{T}, Sacrifice this artifact: Scry 1.")
-
-2/2
-```
-
-[card implementation](../custom/cards/b/ballet.txt)
-
-### Design Notes
-
- - Another vanila Nevron. Flying because these things are hard to hit with melee attacks in the actual game.
- - 23/09/2025: Move color identity from white/green to red/green to make way for White Nevrons.
- - 13/10/2025: Removed Devoid.
- - 13/12/2025: Changed cost from 1{RG}{RG} to {RG}{RG}
 
 ## Barbasucette
 
@@ -251,25 +231,6 @@ Some rules can be bent, some can be broken.
  - For the card, I've disregarded all thematic/mechanical associations and designed the card only based on the name. We need cheap artifact/enchantment hate in this set, and the name fits the bill for what I'm after, so I've turned this to a variant of Overload that can also hit enchantments.
  - 14/01/2026: Added Lumina token bonus on resolution.
 
-## Chorale
-
-```
-1(R/G)
-Creature - Nevron
-Flying.
-When this creature dies, target opponent creates a Lumina token. (It's an artifact with "{T}, Sacrifice this artifact: Scry 1.")
-
-2/1
-```
-
-[card implementation](../custom/cards/c/chorale.txt)
-
-### Design Notes
-
- - Another vanilla Nevron
- - 5/10/2025: Switched PT from 1/2 to 2/1 for more offensive punch.
- - 13/10/2025: Removed Devoid.
-
 ## Chromatic Petrification
 
 ```
@@ -290,28 +251,6 @@ The expeditioners, the ones killed by Nevrons. Gustave noticed their Chroma rema
  - I orignally wanted this to turn into a "do nothing" artifact, but I think the "Enchant creature" restriction means this is a nonbo and the aura immediately "falls off". Will revisit later with "Enchant permanent" to see if this gives my desired result.
     - Until then, I've gone with a 0/1 artifact creature.
     - 23/09/2025: Now enchanting permanents so we can achieve the "inert artifact" effect. A slight flavor loss since this can now target more than just creatures, but I am more after the petrification effect than it needing to only target creatures
-
-## Chromatic Rebirth
-
-```
-1WB
-Sorcery - Gradient
-This spell costs {1} less to cast if you control a painter.
-As an additional cost to cast this spell, sacrifice a creature.
-Put target creature card from a graveyard onto the battlefield under your control.
----
-Well. You're about to be reborn in this world as one of Aline's creations. Have fun.
-- Clea
-```
-
-[card implementation](../custom/cards/c/chromatic_rebirth.txt)
-
-### Design Notes
-
- - In the game, Alicia enters the Canvas to help Renoir only to be trapped by Aline's chroma and is "reborn" as Maelle.
- - Card depicts this moment.
- - 29/12/2025: Downshift to uncommon
- - 14/01/2026: Reduced cost from 2WB to 1WB
 
 ## Chromatic Reclamation
 

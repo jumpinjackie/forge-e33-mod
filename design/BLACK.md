@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 21/1/2026 5:36:06 am
+> Last generated: 21/1/2026 7:49:46 am
 
 ## Axon Offering
 
@@ -72,6 +72,29 @@ When this creature dies, target opponent creates a Lumina token.
  - Gave it a token generation ability and mechanically represent exhaustion with tap + stun counter.
  - 13/10/2025: Removed Devoid.
  - 14/12/2025: Remove jar nevron token ability with a mask silencing ability, having played the game again with the new DLC release. The game guide I referred to and based the original abilities on clearly lied to me.
+
+## Chromatic Rebirth
+
+```
+2B
+Sorcery - Gradient
+This spell costs {1} less to cast if you control a painter.
+As an additional cost to cast this spell, sacrifice a creature.
+Put target creature card from a graveyard onto the battlefield under your control.
+---
+Well. You're about to be reborn in this world as one of Aline's creations. Have fun.
+- Clea
+```
+
+[card implementation](../custom/cards/c/chromatic_rebirth.txt)
+
+### Design Notes
+
+ - In the game, Alicia enters the Canvas to help Renoir only to be trapped by Aline's chroma and is "reborn" as Maelle.
+ - Card depicts this moment.
+ - 29/12/2025: Downshift to uncommon
+ - 14/01/2026: Reduced cost from 2WB to 1WB
+ - 21/01/2026: Color-shifted from Orzhov to black. Cost changed from 1WB to 2B
 
 ## Clea's Chromatic Mastery
 
@@ -208,6 +231,14 @@ You must see things as they are. Not how you want them to be.
 ### Notes
 
  - This is a quote-driven commander reprint. A quote from the game, looking for a suitable on-theme card to attach to.
+
+## Grief
+
+> This card is a reprint
+[Scryfall](https://scryfall.com/search?q=Grief)
+### Notes
+
+ - Grief is the central theme of the video game. So as hideously broken as this card is, it is an absolutely flavorful reprint inclusion.
 
 ## Here's Your Card!
 

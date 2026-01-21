@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 21/1/2026 7:02:54 am
+> Last generated: 21/1/2026 7:31:55 am
 
 ## Abbest
 
@@ -29,6 +29,27 @@ When this creature dies, target opponent creates a Lumina token. (It's an artifa
 ### Notes
 
  - Thematically on-point reprint. Dawn signifying tomorrow. Tomorrow comes.
+
+## Ballet
+
+```
+1G
+Creature - Nevron
+Flying.
+When this creature dies, target opponent creates a Lumina token. (It's an artifact with "{T}, Sacrifice this artifact: Scry 1.")
+
+2/2
+```
+
+[card implementation](../custom/cards/b/ballet.txt)
+
+### Design Notes
+
+ - Another vanila Nevron. Flying because these things are hard to hit with melee attacks in the actual game.
+ - 23/09/2025: Move color identity from white/green to red/green to make way for White Nevrons.
+ - 13/10/2025: Removed Devoid.
+ - 13/12/2025: Changed cost from 1{RG}{RG} to {RG}{RG}
+ - 21/01/2026: Color-shifted from red/green hybrid to green. Cost changed from {RG}{RG} to {1}{G}
 
 ## Bargaining
 
@@ -91,6 +112,26 @@ Splice onto Expeditioner Instant or Sorcery {G} (As you cast an Expeditioner Ins
  - I am hoping that Forge's rule handling around splice is flexible enough to allow for this to work. Otherwise it's back to the drawing board.
     - 23/09/2025: It seems to work!
  - 14/01/2026: Colorshifted to green.
+
+## Chorale
+
+```
+1G
+Creature - Nevron
+Flying.
+When this creature dies, target opponent creates a Lumina token. (It's an artifact with "{T}, Sacrifice this artifact: Scry 1.")
+
+2/1
+```
+
+[card implementation](../custom/cards/c/chorale.txt)
+
+### Design Notes
+
+ - Another vanilla Nevron
+ - 5/10/2025: Switched PT from 1/2 to 2/1 for more offensive punch.
+ - 13/10/2025: Removed Devoid.
+ - 21/01/2026: Color-shifted from red/green hybrid to green.
 
 ## Cultivate
 

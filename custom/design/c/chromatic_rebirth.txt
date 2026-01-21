@@ -1,8 +1,7 @@
 [Name]
 Chromatic Rebirth
 [ManaCost]
-1
-W
+2
 B
 [Types]
 Sorcery
@@ -26,3 +25,4 @@ Sandfall Interactive
  - Card depicts this moment.
  - 29/12/2025: Downshift to uncommon
  - 14/01/2026: Reduced cost from 2WB to 1WB
+ - 21/01/2026: Color-shifted from Orzhov to black. Cost changed from 1WB to 2B
