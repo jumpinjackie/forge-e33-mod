@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 21/1/2026 8:40:05 am
+> Last generated: 21/1/2026 8:54:42 am
 
 ## Blade's Graveyard (Concealed Courtyard)
 
@@ -531,15 +531,6 @@ Maybe. Maybe we'll just stay here and... enjoy the melody.
 
  - In the game, Spring Meadows is the opening area of Act 1.
  - Gone with nickname reprint of Razorverge Thicket.
-
-## Stone Quarry
-
-> This card is a reprint
-[Scryfall](https://scryfall.com/search?q=Stone%20Quarry)
-### Notes
-
- - In the game, Stone Quarry is an optional area. It features a non-hostile NPC known as the Unfinished Troubador
- - Name was already taken, and we lack a Boros dual land, so we'll take it.
 
 ## Stone Wave Cliffs (Spirebluff Canal)
 

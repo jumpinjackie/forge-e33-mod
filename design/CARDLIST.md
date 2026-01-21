@@ -29,7 +29,7 @@ From this list, card designs are spawned from it, which will eventually form the
 
 ## Card Name List
 
-Cards implemented: 459
+Cards implemented: 455
 
 [x] - Card is implemented or in development, [C] - Card is a commander reprint, [R] - Card is a regular reprint, [N] - Card is a nickname reprint, [Z] - Card is a nickname reprint for commander [ ] - Card is not implemented
 
@@ -178,7 +178,7 @@ Cards implemented: 459
 [x] Flying Casino
 [ ] Flying Manor
 [x] Flying Waters
-[x] For Those Who Come After
+[ ] For Those Who Come After
 [x] Forgotten Battlefield
 [x] Fortune's Fury
 [N] Fracture Survivor
@@ -308,7 +308,7 @@ Cards implemented: 459
 [x] Ramasseur
 [x] Ranger Sakapatate
 [x] Reaper Cultist
-[x] Recoat
+[ ] Recoat
 [ ] Red Woods
 [x] Renoir's Creation
 [x] Renoir's Drafts
@@ -335,7 +335,7 @@ Cards implemented: 459
 [x] Sprong
 [x] Stalact
 [x] Stendhal
-[R] Stone Quarry
+[ ] Stone Quarry
 [N] Stone Wave Cliffs
 [N] Sunless Cliffs
 [x] Sunniso, Gestral Bouncer

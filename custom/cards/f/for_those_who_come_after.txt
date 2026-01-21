@@ -1,6 +1,0 @@
-Name:For Those Who Come After
-ManaCost:WU WU
-Types:Kindred Sorcery Expeditioner
-A:SP$ Token | TokenAmount$ 3 | TokenOwner$ You | TokenScript$ c_a_lumina | ConditionManaSpent$ U | SubAbility$ DBChroma
-SVar:DBChroma:DB$ Token | TokenAmount$ 2 | TokenOwner$ You | TokenScript$ c_a_chroma | ConditionManaSpent$ W
-Oracle:Create three Lumina tokens if {U} was spent to cast this spell.\nCreate two Chroma tokens if {W} was spent to cast this spell.

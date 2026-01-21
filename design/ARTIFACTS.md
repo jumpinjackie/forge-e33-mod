@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 21/1/2026 5:54:28 am
+> Last generated: 21/1/2026 8:54:42 am
 
 ## A Rock for François
 
@@ -529,14 +529,6 @@ Gustave: In a way, it’s yours too.
  - In the game's prologue, Sophie hands Gustave an Expeditioner uniform she made. She wants to see him wearing the uniform before the Gommage.
  - Gone with an equipment that applies type-changing and mild buffs if the wearer is a human. Also has an explore attack trigger, to go with the expedition/exploration theme.
  - 14/01/2026: Changed attack trigger to create a Lumina token.
-
-## Explorer's Scope
-
-> This card is a reprint
-[Scryfall](https://scryfall.com/search?q=Explorer%27s%20Scope)
-### Notes
-
- - Easy on-flavor reprint.
 
 ## Fellwar Stone
 
@@ -1167,24 +1159,6 @@ There must be some good loot behind there!
 ### Notes
 
  - Another creature type pump artifact. Expected to be added for the Nevron commander deck as Expedition Flag already exists for the Expeditioner side.
-
-## Recoat
-
-```
-1
-Artifact
-{1}, {T}, Sacrifice this artifact and any number of token permanents you control: Choose one —
-• Create X Chroma tokens, where X is the number of sacrificed token permanents.
-• Create X Lumina tokens, where X is the number of sacrificed token permanents.
-```
-
-[card implementation](../custom/cards/r/recoat.txt)
-
-### Design Notes
-
- - In the game, recoats are tints that let you respec your character attributes.
- - I've interpreted this as an artifact that let's you convert/respec tokens into Chroma or Lumina tokens.
- - 23/10/2025: Clarified what the X value represents (ie. Only counts the sacced tokens, and does not include Recoat itself)
 
 ## Revive Tint
 

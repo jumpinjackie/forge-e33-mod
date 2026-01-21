@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 21/1/2026 7:34:44 am
+> Last generated: 21/1/2026 8:54:42 am
 
 ## A Storm is Coming
 
@@ -972,24 +972,6 @@ The Paintress is going to punish you! You blasphemers. The Gommage is our fault!
  - In the game's prologue, Florian can be seen near the harbor, preaching the end of days.
  - Mapped doomsaying > prediction. Thus has an upkeep trigger that lets you "predict" the top card of your library, if you guess right you get the card, otherwise it's milled.
  - Scry and Surveil abilities are to let you "shape your destiny".
-
-## For Those Who Come After
-
-```
-(W/U)(W/U)
-Kindred Sorcery - Expeditioner
-Create three Lumina tokens if {U} was spent to cast this spell.
-Create two Chroma tokens if {W} was spent to cast this spell.
----
-This is our gift, for all the Expeditions to come.
-- Charlotte, Expedition 70
-```
-
-[card implementation](../custom/cards/f/for_those_who_come_after.txt)
-
-### Design Notes
-
- - Just another Chroma/Lumina token strategy enabler
 
 ## Full Deck
 
