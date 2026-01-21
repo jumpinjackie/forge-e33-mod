@@ -13,7 +13,7 @@ R
 [PT]
 8/8
 [Oracle]
-Trample. Ward {3}
+Ward {3}
 ~ enters with an anger counter, a joy counter and a sadness counter.
 At the beginning of your upkeep, put an anger, joy or sadness counter on him.
 Anger mask — Remove an anger counter from ~: Untap him.
@@ -26,7 +26,6 @@ Anger mask
 Joy mask
 Sadness mask
 [ForgeScript]
-K:Trample
 K:Ward:3
 K:etbCounter:ANGER:1
 K:etbCounter:JOY:1
@@ -49,3 +48,4 @@ Sandfall Interactive
     - Sadness Mask: Mapped exhaust to putting a stun counter on a creature.
  - The upkeep trigger wording probably sounds a bit weird. Default instinct is to use modal ability templating, but there is no textbox budget for that and there is no other precedent for templating such a triggered ability in this manner. So it is worded this way as a "creative decision".
     - This will be implemented as a modal trigger in Forge.
+ - 21/01/2026: Removed Trample.

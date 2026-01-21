@@ -16,7 +16,7 @@ Sandfall Interactive
 1/3
 [Oracle]
 At the beginning of your upkeep, you may put a verse counter on Lorieniso.
-{2}, {T}: Search your library for a Gestral card with mana value X or less and put it into your hand, where X is the number of verse counters on this creature.
+{2}, {T}: Search your library for a creature card with mana value X or less and put it into your hand, where X is the number of verse counters on this creature.
 [ForgeScript]
 T:Mode$ Phase | Phase$ Upkeep | ValidPlayer$ You | TriggerZones$ Battlefield | OptionalDecider$ You | Execute$ TrigPutCounter | TriggerDescription$ At the beginning of your upkeep, you may put a verse counter on CARDNAME.
 A:AB$ ChangeZone | Cost$ 2 T | Origin$ Library | Destination$ Hand | ChangeType$ Creature.cmcLEX | ChangeNum$ 1 | SpellDescription$ Search your library for a creature card with mana value X or less, reveal it, put it into your hand, then shuffle.
@@ -26,3 +26,4 @@ SVar:TrigPutCounter:DB$ PutCounter | Defined$ Self | CounterType$ VERSE | Counte
  - In the game, Lorieniso is one of the NPCs found in the Gestral Village. Clearly named after Lorien Testard, the composer of the OST for this game.
  - This is the Gestral's Goblin Matron / Gestral Tutor. Adapted from Yisan, the Wanderer Bard
  - 20/09/2025: Initial playtesting shows this is quite broken in multiples. Made into a legendary creature and changed P/T to 1/3
+ - 21/01/2026: Fix oracle text so that is searching for *creature* cards.

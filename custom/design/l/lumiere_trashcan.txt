@@ -6,15 +6,18 @@ Lumiere Trashcan
 1
 [Types]
 Artifact
+Clue
 [Rarity]
 C
 [Oracle]
 When this artifact is put into a graveyard from the battlefield, create a Chroma token.
+{2}, Sacrifice ~: Draw a card.
 [FlavorText]
 Nothing special to see here, just a trash can.
 [ForgeScript]
 T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Card.Self | Execute$ TrigToken | TriggerDescription$ When this artifact is put into a graveyard from the battlefield, create a Chroma token.
 SVar:TrigToken:DB$ Token | TokenScript$ c_a_chroma | TokenOwner$ You | TokenAmount$ 1
+A:AB$ Draw | Cost$ 2 Sac<1/CARDNAME> | NumCards$ 1 | SpellDescription$ Draw a card.
 [RelatedTokens]
 c_a_chroma
 [Artist]
@@ -22,3 +25,4 @@ Sandfall Interactive
 [DesignNotes]
  - In the game's prologue, this innocuous trashcan housed a citizen who believed that by hiding in this trashcan that he would be safe from erasure. That was not the case.
  - Just a joke artifact with the same expeditioner death ability.
+ - 21/01/2026: Converted to a clue for some extra utility.
