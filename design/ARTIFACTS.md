@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 18/1/2026 7:23:31 am
+> Last generated: 21/1/2026 5:54:28 am
 
 ## A Rock for François
 
@@ -204,7 +204,9 @@ Learn Picto 3 (Sacrifice three Lumina tokens: Create a token copy of this equipm
 ```
 3
 Artifact
+When this artifact enters, create a Chroma token.
 If you would create a Chroma or Lumina token, instead create one of each.
+{T}: Add X mana of any one color, where X is the number of Chromas and Luminas you control divided by three, rounded down.
 ---
 Exponentially useful.
 ```
@@ -216,6 +218,7 @@ Exponentially useful.
  - In the game, Chroma Catalysts are used to upgrade the levels of your weapons
  - For the card, we've decided to lean heavily on the word "Catalyst" and made this into a variant of Academy Manufactor, but covers our new token types.
  - We might revisit the design of this card if this assembles the 33+ token requirement for The Greatest Expedition In History too quickly.
+ - 21/01/2026: Added Chroma token ETB (+ Lumina token bonus by inference) and added a variable mana ability based on number of Chroma+Lumina tokens you control. The X mana ratio approximates Astral Cornucopia in terms of resource investment needed. For example, if you want Astral Cornucopia to tap for 2 mana of any color, you needed to have spent 6 mana to resolve it. For this to tap for 2 mana, you needed to have 6 Chroma and/or Lumina tokens on board.
 
 ## Chroma Filter
 

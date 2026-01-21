@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 19/1/2026 8:37:32 pm
+> Last generated: 21/1/2026 6:10:43 am
 
 ## A Storm is Coming
 
@@ -337,7 +337,7 @@ Hmm. It's old chroma, not pure. It won't be like bringing the two of you back, b
 4WB
 Creature - Nevron
 Performs a silencing combo — {2}{W}, {T}: Target creature an opponent controls loses all abilities until end of turn.
-Protects its allies — {1}{W}, {T}: Put a shield counter on target creature you control.
+Protects its allies — {3}{W}, {T}: Put a shield counter on target creature you control.
 Performs a weakening strike — {1}{B}, {T}: Target creature an opponent controls gets -1/-1 until end of turn.
 Applies rage on its allies — {1}{B}, {T}: Untap target creature you control.
 When this creature dies, target opponent creates a Lumina token.
@@ -352,6 +352,7 @@ When this creature dies, target opponent creates a Lumina token.
  - In the game, Clair Obscur is a fusion of Clair and Obscur
  - Gone with a literal stapling of Clair and Obscur's abilities, mana costs and P/T together
  - 29/12/2025: Downshift to uncommon
+ - 21/01/2026: Increased shield counter activation cost from 1W to 3W
 
 ## Clea Dessendre, Seeking Vengeance
 
@@ -1175,7 +1176,7 @@ Exhaust — Remove three crush counters from Giant Sapling: Giant Sapling deals 
 
 ```
 1RG
-Creature - Nevron
+Creature - Nevron Elemental
 This creature enters with a shield counter.
 Pounds on the ground — {G}: This creature gains trample until end of turn.
 Exhaust — {2}{R}: This creature deals 1 damage to up to three target creatures without flying. (Activate each exhaust ability only once)
@@ -1189,6 +1190,7 @@ When this creature dies, target opponent creates a Lumina token. (It's an artifa
 ### Design Notes
 
  - In the game, Glaises can be found in Yellow Harvest and Falling Leaves
+ - 21/01/2026: Added Elemental sub-type.
 
 ## Glimpse of Humanity
 
@@ -1563,7 +1565,7 @@ Lune can't have more than four stain counters on her.
 Whenever you cast an instant or sorcery spell, draw a card and put a stain counter on Lune for each of that spell's colors.
 Tree of Life — {W}{G}, {T}, Remove a stain counter from Lune: Return target nonland, noncreature card from your graveyard to your hand. You gain 3 life.
 Wildfire — {R}, {T}, Remove two stain counters from Lune: Lune deals 2 damage to each creature target opponent controls.
-Elemental Genesis — {T}, Remove four stain counters from Lune: Lune deals 4 damage to each of up to four targets.
+Elemental Genesis — {T}, Remove four stain counters from Lune: Lune deals 4 damage to each of up to two targets.
 ---
 As long as even one of us stands, our fight is not over.
 
@@ -1586,6 +1588,7 @@ As long as even one of us stands, our fight is not over.
         - Green/White: The Tree of Life ability
     - The Elemental Genesis "ultimate" requires no extra mana cost because getting to 4 stain counters is enough investment already.
  - 26/12/2025: Figured out a way to implement a max 4 stain counter limit to match her video game counterpart. Due to limitations on expressing this "4 stain counters max" constraint in Forge, I expect that this limit can be easily cicumvented through other means in Forge (ie. Alternate ways of putting stain counters that are not Lune's triggered ability) and I can live with that. The intent in *paper* play is definitely 4 stain counters max, no ifs or buts. No shenanigans with Doubling Season or other counter replicators.
+ - 21/01/2026: Changed "Elemental Genesis" ultimate from targeting 4 targets to 2 targets.
 
 ## Maelle, Child of Lumière // Maelle, The Reawakened Paintress
 
@@ -2054,7 +2057,7 @@ Each nonland card in your hand without foretell has foretell. Its foretell cost 
 Whenever you foretell a card, you gain 2 life.
 Twilight Slash - {W}{B},{T}: Sciel deals 2 damage to target creature, you gain 2 life.
 Intervention - {W}{W},{T}: Untap target creature. Create a Chroma token.
-Our Sacrifice - {1}{B}{B}, {T}, Pay X life: Creatures target opponent controls get -X/-X until end of turn.
+Our Sacrifice - {1}{B}{B}, {T}, Pay X life: Up to two target creatures each get -X/-X until end of turn.
 ---
 Death is a friend who will welcome me home
 
@@ -2072,6 +2075,7 @@ Death is a friend who will welcome me home
  - Intervention in the game lets an ally play immediately and gain 4 AP. Translated to untapping a creature and giving you a Chroma token.
  - Our Sacrifice in the game deals extreme dark damage to all enemies, absorbing allies' health to deal more damage. Translated to paying X life to -X/-X an opponent's board.
  - 13/10/2025: Dropped the marking card ability due to text box budget constraints having seen this card for the first time in CardConjurer.
+ - 21/01/2026: Changed "Our Sacrifice" ultimate to only target up to 2 creatures instead of all creatures target opponent controls.
 
 ## Serpenphare
 
@@ -2457,7 +2461,7 @@ Whenever Verso is dealt damage, remove all rank counters from him.
 Immortality — {1}{W}{B}: Return Verso from your graveyard to the battlefield tapped with a stun counter.
 Strike Storm — Verso has Double Strike as long has he has 3 or more rank counters.
 Marking Shot — {U/B}, {T}: Verso deals 1 damage to any target. If you have 3 or more rank counters, it deals 2 damage to any target instead.
-Phantom Stars — {4}{W}, {T}, remove X rank counters from Verso: Verso deals X damage to each creature your opponents controls.
+Phantom Stars — {4}{W}, {T}, remove X rank counters from Verso: Verso deals X damage to each of up to two target creatures.
 ---
 Let's carve a path.
 
@@ -2473,6 +2477,7 @@ Let's carve a path.
  - Resurrection ability because he's immortal.
  - Added an assortment of buffs and abilities that are conditional on the number of rank counters.
  - "Phantom Stars" ultimate is paid in rank counters for game balance purposes. In game, none of Verso's abilities cost him is rank.
+ - 21/01/2026: Changed "Phantom Stars" ultimate to only target up to 2 creatures instead of all creatures target opponent controls.
 
 ## Verso's Composition
 

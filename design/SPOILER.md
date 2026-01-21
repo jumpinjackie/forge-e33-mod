@@ -29,7 +29,7 @@
 | ![](../custom/pics/cards/E33/Light%20the%20Path.full.jpg) | ![](../custom/pics/cards/E33/Lumiere%20Assault.full.jpg) | ![](../custom/pics/cards/E33/Lumierian%20Apprentice.full.jpg) |
 | <center>[Light the Path](WHITE.md#light-the-path)</center> | <center>[Lumière Assault](WHITE.md#lumière-assault)</center> | <center>[Lumierian Apprentice](WHITE.md#lumierian-apprentice)</center> |
 | ![](../custom/pics/cards/E33/Payback.full.jpg) | ![](../custom/pics/cards/E33/Perfect%20Dodge.full.jpg) | ![](../custom/pics/cards/E33/Repaint.full.jpg) |
-| <center>[Payback (Roil's Retribution)](WHITE.md#payback-roils-retribution)</center> | <center>[Perfect Dodge](WHITE.md#perfect-dodge)</center> | <center>[Repaint](WHITE.md#repaint)</center> |
+| <center>[Payback](WHITE.md#payback)</center> | <center>[Perfect Dodge](WHITE.md#perfect-dodge)</center> | <center>[Repaint](WHITE.md#repaint)</center> |
 | ![](../custom/pics/cards/E33/Sciel%27s%20Intervention.full.jpg) | ![](../custom/pics/cards/E33/Seal%20of%20Approval.full.jpg) | ![](../custom/pics/cards/E33/Second%20Thoughts.full.jpg) |
 | <center>[Sciel's Intervention](WHITE.md#sciels-intervention)</center> | <center>[Seal of Approval](WHITE.md#seal-of-approval)</center> | <center>[Second Thoughts](WHITE.md#second-thoughts)</center> |
 | ![](../custom/pics/cards/E33/Sibling%20Overwatch.full.jpg) | ![](../custom/pics/cards/E33/The%20Fracture.full.jpg) | ![](../custom/pics/cards/E33/Unfinished%20Benisseur.full.jpg) |
@@ -83,7 +83,7 @@
 | ![](../custom/pics/cards/E33/Twisted%20Lumiere%20Citizen.full.jpg) | ![](../custom/pics/cards/E33/Unmask.full.jpg) | ![](../custom/pics/cards/E33/Veilleur.full.jpg) |
 | <center>[Twisted Lumière Citizen](BLACK.md#twisted-lumière-citizen)</center> | <center>[Unmask](BLACK.md#unmask)</center> | <center>[Veilleur](BLACK.md#veilleur)</center> |
 | ![](../custom/pics/cards/E33/Verso%27s%20Burden.full.jpg) | ![](../custom/pics/cards/E33/Very%20Very%20Cool%20Gestral.full.jpg) | ![](../custom/pics/cards/E33/Anger.full.jpg) |
-| <center>[Verso's Burden (Treacherous Link)](BLACK.md#versos-burden-treacherous-link)</center> | <center>[Very Very Cool Gestral](BLACK.md#very-very-cool-gestral)</center> | <center>[Anger](RED.md#anger)</center> |
+| <center>[Verso's Burden](BLACK.md#versos-burden)</center> | <center>[Very Very Cool Gestral](BLACK.md#very-very-cool-gestral)</center> | <center>[Anger](RED.md#anger)</center> |
 | ![](../custom/pics/cards/E33/Catapault%20Sakapatate.full.jpg) | ![](../custom/pics/cards/E33/Chromatic%20Inversion.full.jpg) | ![](../custom/pics/cards/E33/Crustal%20Crush.full.jpg) |
 | <center>[Catapault Sakapatate](RED.md#catapault-sakapatate)</center> | <center>[Chromatic Inversion](RED.md#chromatic-inversion)</center> | <center>[Crustal Crush](RED.md#crustal-crush)</center> |
 | ![](../custom/pics/cards/E33/Demand%20Answers.full.jpg) | ![](../custom/pics/cards/E33/Earth%20Rising.full.jpg) | ![](../custom/pics/cards/E33/Entering%20the%20Canvas.full.jpg) |

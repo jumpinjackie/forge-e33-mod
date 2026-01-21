@@ -294,7 +294,7 @@ Cards implemented: 449
 [ ] Painted Love
 [x] Painted Renoir, Aline's Enforcer
 [x] Painting Workshop
-[N] Payback
+[x] Payback
 [x] Pelerin
 [ ] Percee
 [x] Perfect Dodge
@@ -379,7 +379,7 @@ Cards implemented: 449
 [x] Urrie
 [x] Verisimilitude
 [x] Verso, Who Guards Truth With Lies
-[N] Verso's Burden
+[x] Verso's Burden
 [x] Visages // He Who Guards Truth With Lies
 [x] Void Meteors
 [x] Volester

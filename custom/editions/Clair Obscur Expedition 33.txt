@@ -272,6 +272,7 @@ Type=Custom
 312 R Painted Clea, the Regent @Sandfall Interactive
 313 R Painted Renoir, Aline's Enforcer @Sandfall Interactive
 314 U Painting Workshop @Sandfall Interactive
+317 U Payback @Sandfall Interactive
 318 U Pelerin @Sandfall Interactive
 319 C Perfect Dodge @Sandfall Interactive
 320 U Persuasive Argument @Sandfall Interactive
@@ -359,6 +360,7 @@ Type=Custom
 429 C Veilleur @Sandfall Interactive
 430 R Verisimilitude @Sandfall Interactive
 431 R Verso, Who Guards Truth With Lies @Sandfall Interactive
+432 U Verso's Burden @Sandfall Interactive
 433 U Verso's Composition @Sandfall Interactive
 434 R Verso's Drafts @Sandfall Interactive
 435 U Verso's Musical Training @Sandfall Interactive
@@ -396,7 +398,6 @@ Type=Custom
 257 R Blooming Marsh @Sandfall Interactive ${"flavorName": "Lost Woods"}
 261 R Rishadan Port @Sandfall Interactive ${"flavorName": "Lumière Harbor"}
 311 C Painted Bluffs @Mark Poole
-317 U Roil's Retribution @Raymond Swanland ${"flavorName": "Payback"}
 351 C Second Thoughts @Sandfall Interactive
 362 R Botanical Sanctum @Sandfall Interactive ${"flavorName": "Sky Island"}
 365 R Razorverge Thicket @Sandfall Interactive ${"flavorName": "Spring Meadows"}
@@ -407,7 +408,6 @@ Type=Custom
 398 R The World Tree @Sandfall Interactive ${"flavorName": "The Indigo Tree"}
 404 R Urborg, Tomb of Yawgmoth @Sandfall Interactive ${"flavorName": "The Root of All Evil"}
 427 R Unmask @Sandfall Interactive
-432 U Treacherous Link @Sandfall Interactive ${"flavorName": "Verso's Burden"}
 448 R Seachrome Coast @Sandfall Interactive ${"flavorName": "White Sands"}
 449 R Copperline Gorge @Sandfall Interactive ${"flavorName": "Yellow Harvest"}
 

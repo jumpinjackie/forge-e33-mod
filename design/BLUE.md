@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 19/1/2026 10:27:46 pm
+> Last generated: 21/1/2026 6:41:13 am
 
 ## An Advantage!
 
@@ -585,7 +585,7 @@ Draw a card.
 Kindred Sorcery - Expeditioner
 Tap all creatures your opponents control, then put a stun counter on each of those creatures.
 If {R} was spent on this spell, it deals X damage to any target, where X is the number of creatures on the battlefield.
-If {W} was spent on this spell, exile each creature with a stun counter at the beginning of your next end step.
+If {W} was spent on this spell, exile up to one target creature with a stun counter at the beginning of your next end step.
 If {G} was spent on this spell, you gain 2 life for each creature on the battlefield.
 ---
 Doors of chroma, open!
@@ -604,6 +604,7 @@ Doors of chroma, open!
  - No black bonus because Lune does not have dark/black magic alignment.
  - 30/09/2025: Cost adjusted from 3UU to 2UU so that you can't pick all 3 bonuses since the R bonus and W bonus kind of achieve the same goal.
  - 3/11/2025: Cost bumped back up to 3UU and the R bonus changed to direct damage on any target.
+ - 21/01/2026: Changed W payment bonus from mass sweeper of stunend creatures to single target stunned creature exile.
 
 ## Swift Counter
 

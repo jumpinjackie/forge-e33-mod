@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 19/1/2026 6:23:08 pm
+> Last generated: 21/1/2026 5:38:06 am
 
 ## A Life to Love (Farewell)
 
@@ -206,7 +206,7 @@ Maelle: No no no no... You promised...
 2W
 Creature - Nevron
 Performs a silencing combo — {2}{W}, {T}: Target creature an opponent controls loses all abilities until end of turn.
-Protects its allies — {1}{W}, {T}: Put a shield counter on target creature you control.
+Protects its allies — {3}{W}, {T}: Put a shield counter on target creature you control.
 When this creature dies, target opponent creates a Lumina token. (It's an artifact with "{T}, Sacrifice this artifact: Scry 1.")
 
 2/2
@@ -222,6 +222,7 @@ When this creature dies, target opponent creates a Lumina token. (It's an artifa
     - A temporary "humility" effect to represent silencing.
  - The only white nevron in this set that is finished (it cannot be any other color for flavor reasons). All other white nevrons are unfinished.
  - 13/10/2025: Removed Devoid.
+ - 21/01/2026: Increased shield counter activation cost from 1W to 3W
 
 ## Danseuse Teacher
 
@@ -454,14 +455,25 @@ He eagerly absorbs the knowledge given to him, for he knows when his time comes,
 
  - Obligatory spot removal in Commander
 
-## Payback (Roil's Retribution)
+## Payback
 
-> This card is a nicknamed reprint of (Roil's Retribution)
-[Scryfall](https://scryfall.com/search?q=Roil%27s%20Retribution)
-### Notes
+```
+3WW
+Kindred Instant - Expeditioner
+Payback deals 5 damage divided as you choose among any number of target attacking or blocking creatures.
+Create a Lumina token. (It's an artifact with "{T}, Sacrifice this artifact: Scry 1.")
+---
+Let’s dance!
+- Maelle
+```
+
+[card implementation](../custom/cards/p/payback.txt)
+
+### Design Notes
 
  - In the game, this is one of Maelle's skills
  - Roil's Retribution fits the bill (in both flavor and mechanics), so it was chosen as a nickname reprint for this.
+ - 21/01/2026: Converted to a functional reprint of Roil's Retirbution (instead of a nicknamed reprint) so we can add an Expeditioner sub-type and tack on a Lumina token bonus.
 
 ## Perfect Dodge
 

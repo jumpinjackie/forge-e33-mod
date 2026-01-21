@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 19/1/2026 7:29:38 pm
+> Last generated: 21/1/2026 5:36:06 am
 
 ## Axon Offering
 
@@ -606,15 +606,27 @@ When this creature dies, target opponent creates a Lumina token. (It's an artifa
  - Gave it Deathtouch to match its blightning nature.
  - 20/01/2026: Added AI targeting hints
 
-## Verso's Burden (Treacherous Link)
+## Verso's Burden
 
-> This card is a nicknamed reprint of (Treacherous Link)
-[Scryfall](https://scryfall.com/search?q=Treacherous%20Link)
-### Notes
+```
+1B
+Kindred Enchantment - Expeditioner Aura
+Enchant creature
+When this Aura enters, create a Lumina token.
+All damage that would be dealt to enchanted creature is dealt to its controller instead.
+---
+Sometimes, we paint the bars of our own prison. Your despair blinds you. You think you're ready to pay the price. But are you willing to let them pay the price for you?
+- Renoir, to Verso
+```
+
+[card implementation](../custom/cards/v/versos_burden.txt)
+
+### Design Notes
 
  - In the game, Burden is one of Verso's skills. It transfers all status effects on various members of your party onto Verso himself.
  - Gone with 1:1 reprint of Treacherous Link.
  - 5/12/2025: Converted to a nickname reprint of Treacherous Link
+ - 21/01/2026: Converted to a functional reprint of Treacherous Link so we can add an Expeditioner sub-type and Lumina token bonus ETB.
 
 ## Very Very Cool Gestral
 

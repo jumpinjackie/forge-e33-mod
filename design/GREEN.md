@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 19/1/2026 7:11:33 pm
+> Last generated: 21/1/2026 5:15:41 am
 
 ## Abbest
 
@@ -543,7 +543,7 @@ Have you tried throwing with your other arm instead? If you could hit the Paintr
 
 ```
 1G
-Creature - Nevron
+Creature - Nevron Fungus
 Protection from black
 When this creature enters, put a fungus counter on target land.
 Lands with fungus counters on them do not untap during their controllers' untap steps.
@@ -560,6 +560,7 @@ When this creature dies, target opponent creates a Lumina token. (It's an artifa
  - Absorbs dark attacks ergo. Protection from black.
  - 17/01/2026: Added fungus counter ETB to increase the quota of effects that check nonbasics.
  - 20/01/2026: Added AI targeting hints
+ - 21/01/2026: Added fungus sub-type
 
 ## Shrine to The Paintress
 
