@@ -1,0 +1,16 @@
+[Name]
+Twisted Landscape
+[Types]
+Land
+[Rarity]
+C
+[Oracle]
+{T}: Add {C}.
+{T}, Sacrifice this land: Search your library for a basic Swamp, Mountain, or Forest card, put it onto the battlefield tapped, then shuffle.
+Cycling {B}{R}{G} {i}({B}{R}{G}, Discard this card: Draw a card.)
+[IsReprint]
+true
+[Artist]
+Piotr Dura
+[DesignNotes]
+ - Easy common mana fixing for limited and smoothes out manabases for Commander.

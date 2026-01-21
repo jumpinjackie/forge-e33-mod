@@ -1,0 +1,16 @@
+[Name]
+Shattered Landscape
+[Types]
+Land
+[Rarity]
+C
+[Oracle]
+{T}: Add {C}.
+{T}, Sacrifice this land: Search your library for a basic Mountain, Plains, or Swamp card, put it onto the battlefield tapped, then shuffle.
+Cycling {R}{W}{B} {i}({R}{W}{B}, Discard this card: Draw a card.)
+[IsReprint]
+true
+[Artist]
+Erikas Perl
+[DesignNotes]
+ - Easy common mana fixing for limited and smoothes out manabases for Commander.

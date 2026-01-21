@@ -1,0 +1,16 @@
+[Name]
+Bountiful Landscape
+[Types]
+Land
+[Rarity]
+C
+[Oracle]
+{T}: Add {C}.
+{T}, Sacrifice this land: Search your library for a basic Forest, Island, or Mountain card, put it onto the battlefield tapped, then shuffle.
+Cycling {G}{U}{R} {i}({G}{U}{R}, Discard this card: Draw a card.)
+[IsReprint]
+true
+[Artist]
+Mark Poole
+[DesignNotes]
+ - Easy common mana fixing for limited and smoothes out manabases for Commander.

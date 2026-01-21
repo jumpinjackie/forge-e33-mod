@@ -1,0 +1,16 @@
+[Name]
+Seething Landscape
+[Types]
+Land
+[Rarity]
+C
+[Oracle]
+{T}: Add {C}.
+{T}, Sacrifice this land: Search your library for a basic Island, Swamp, or Mountain card, put it onto the battlefield tapped, then shuffle.
+Cycling {U}{B}{R} {i}({U}{B}{R}, Discard this card: Draw a card.)
+[IsReprint]
+true
+[Artist]
+Piotr Dura
+[DesignNotes]
+ - Easy common mana fixing for limited and smoothes out manabases for Commander.

@@ -1,0 +1,16 @@
+[Name]
+Perilous Landscape
+[Types]
+Land
+[Rarity]
+C
+[Oracle]
+{T}: Add {C}.
+{T}, Sacrifice this land: Search your library for a basic Island, Mountain, or Plains card, put it onto the battlefield tapped, then shuffle.
+Cycling {U}{R}{W} {i}({U}{R}{W}, Discard this card: Draw a card.)
+[IsReprint]
+true
+[Artist]
+Alayna Danner
+[DesignNotes]
+ - Easy common mana fixing for limited and smoothes out manabases for Commander.

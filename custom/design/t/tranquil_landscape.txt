@@ -1,0 +1,16 @@
+[Name]
+Tranquil Landscape
+[Types]
+Land
+[Rarity]
+C
+[Oracle]
+{T}: Add {C}.
+{T}, Sacrifice this land: Search your library for a basic Forest, Plains, or Island card, put it onto the battlefield tapped, then shuffle.
+Cycling {G}{W}{U} {i}({G}{W}{U}, Discard this card: Draw a card.)
+[IsReprint]
+true
+[Artist]
+Randy Gallegos
+[DesignNotes]
+ - Easy common mana fixing for limited and smoothes out manabases for Commander.
