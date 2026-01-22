@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 21/1/2026 12:49:59 pm
+> Last generated: 22/1/2026 12:47:47 am
 
 ## Axon Offering
 
@@ -377,7 +377,7 @@ When this creature dies, target opponent creates a Lumina token. (It's an artifa
 3BB
 Legendary Artifact Creature - Toy
 Trample
-{i}Summons his little friends{/i} — {2}{B}{B}, {T}: Create two 0/1 black Toy artifact creature tokens named Osquio’s Mask with Flying and “Sacrifice this creature: It deals 2 damage to any target. You gain 2 life“
+{i}Summons his little friends{/i} — {2}{B}{B}, {T}: Create three 0/1 black Toy artifact creature tokens named Osquio’s Mask with Flying and “Sacrifice this creature: It deals 1 damage to any target. You gain 1 life“
 {i}Time for a spin spin{/i} — When Osquio dies, return it to the battlefield transformed under it’s owner’s control.
 
 5/5
