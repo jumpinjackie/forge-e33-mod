@@ -21592,7 +21592,7 @@
                 },
                 "type": {
                     "name": "Type",
-                    "text": "Enchantment",
+                    "text": "Kindred Enchantment - Expeditioner",
                     "x": 0.0854,
                     "y": 0.5664,
                     "width": 0.8292,
@@ -21603,7 +21603,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Sacrifice a nontoken permanent you control: Create a Chroma token.\nExile a nontoken permanent you control: Create two Chroma tokens.{flavor}Hmm. It’s old chroma, not pure. It won’t be like bringing the two of you back, but... we could use it in other ways.\n- Maelle",
+                    "text": "Sacrifice a nonland, nontoken permanent you control: Create a Chroma token.\nExile a nonland, nontoken permanent you control: Create two Chroma tokens.{flavor}Hmm. It’s old chroma, not pure. It won’t be like bringing the two of you back, but... we could use it in other ways.\n- Maelle",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,

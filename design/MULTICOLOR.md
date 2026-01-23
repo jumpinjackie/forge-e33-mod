@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 21/1/2026 12:17:29 pm
+> Last generated: 23/1/2026 7:58:18 am
 
 ## A Storm is Coming
 
@@ -258,9 +258,9 @@ The expeditioners, the ones killed by Nevrons. Gustave noticed their Chroma rema
 
 ```
 2BG
-Enchantment
-Sacrifice a nontoken permanent you control: Create a Chroma token.
-Exile a nontoken permanent you control: Create two Chroma tokens.
+Kindred Enchantment - Expeditioner
+Sacrifice a nonland, nontoken permanent you control: Create a Chroma token.
+Exile a nonland, nontoken permanent you control: Create two Chroma tokens.
 ---
 Hmm. It's old chroma, not pure. It won't be like bringing the two of you back, but... we could use it in other ways.
 - Maelle
@@ -271,6 +271,7 @@ Hmm. It's old chroma, not pure. It won't be like bringing the two of you back, b
 ### Design Notes
 
  - Intended to be a combo engine, just like Expedition 35 Bridge converts permanents to extra cards. This converts permanents to extra Chroma tokens.
+ - 23/01/2026: Added nonland clause to both abilities and added Expeditioner sub-type
 
 ## Clair Obscur
 
