@@ -5,21 +5,24 @@ Chromatic Reclamation
 B
 G
 [Types]
+Kindred
 Enchantment
+Expeditioner
 [Rarity]
 R
 [Oracle]
-Sacrifice a nontoken permanent you control: Create a Chroma token.
-Exile a nontoken permanent you control: Create two Chroma tokens.
+Sacrifice a nonland, nontoken permanent you control: Create a Chroma token.
+Exile a nonland, nontoken permanent you control: Create two Chroma tokens.
 [FlavorText]
 Hmm. It's old chroma, not pure. It won't be like bringing the two of you back, but... we could use it in other ways.
 - Maelle
 [ForgeScript]
-A:AB$ Token | Cost$ Sac<1/Permanent.YouCtrl+!token/nontoken permanent you control> | TokenAmount$ 1 | TokenOwner$ You | TokenScript$ c_a_chroma | SpellDescription$ Create a Chroma token.
-A:AB$ Token | Cost$ Exile<1/Permanent.YouCtrl+!token/nontoken permanent you control> | TokenAmount$ 2 | TokenOwner$ You | TokenScript$ c_a_chroma | SpellDescription$ Create two Chroma tokens.
+A:AB$ Token | Cost$ Sac<1/Permanent.YouCtrl+!land+!token/nontoken permanent you control> | TokenAmount$ 1 | TokenOwner$ You | TokenScript$ c_a_chroma | SpellDescription$ Create a Chroma token.
+A:AB$ Token | Cost$ Exile<1/Permanent.YouCtrl+!land+!token/nontoken permanent you control> | TokenAmount$ 2 | TokenOwner$ You | TokenScript$ c_a_chroma | SpellDescription$ Create two Chroma tokens.
 [RelatedTokens]
 c_a_chroma
 [Artist]
 Sandfall Interactive
 [DesignNotes]
  - Intended to be a combo engine, just like Expedition 35 Bridge converts permanents to extra cards. This converts permanents to extra Chroma tokens.
+ - 23/01/2026: Added nonland clause to both abilities and added Expeditioner sub-type
