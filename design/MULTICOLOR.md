@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 23/1/2026 7:58:18 am
+> Last generated: 24/1/2026 1:57:13 pm
 
 ## A Storm is Coming
 
@@ -2491,9 +2491,9 @@ Legendary Creature - Human Expeditioner
 Whenever Verso untaps or deals damage, put a rank counter on him.
 Whenever Verso is dealt damage, remove all rank counters from him.
 Immortality — {1}{W}{B}: Return Verso from your graveyard to the battlefield tapped with a stun counter.
-Strike Storm — Verso has Double Strike as long has he has 3 or more rank counters.
-Marking Shot — {U/B}, {T}: Verso deals 1 damage to any target. If you have 3 or more rank counters, it deals 2 damage to any target instead.
-Phantom Stars — {4}{W}, {T}, remove X rank counters from Verso: Verso deals X damage to each of up to two target creatures.
+Strike Storm — Verso has Double Strike as long has he has three or more rank counters.
+Marking Shot — {U/B}, {T}: Verso deals 1 damage to any target. If Verso has three or more rank counters, he deals 2 damage to any target instead.
+Phantom Stars — {4}{W}, {T}, Remove X rank counters from Verso: Verso deals X damage to each of up to two target creatures.
 ---
 Let's carve a path.
 
