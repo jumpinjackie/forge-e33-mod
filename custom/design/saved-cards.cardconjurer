@@ -80959,10 +80959,10 @@
                     ]
                 }
             ],
-            "artSource": "https://corsproxy.io/?url=https%3A%2F%2Fjumpinjackie.github.io%2Fe33-reference-art%2Fimages%2Fcards%2Fleave_this_canvas.jpg",
-            "artX": -0.2263681592039801,
-            "artY": -0.0042643923240938165,
-            "artZoom": 1.584,
+            "artSource": "https://corsproxy.io/?url=https%3A%2F%2Fjumpinjackie.github.io%2Fe33-reference-art%2Fimages%2Fcards%2Fleave_this_canvas.jpg%3Fab",
+            "artX": -0.050248756218905476,
+            "artY": 0.11300639658848614,
+            "artZoom": 1.1540000000000001,
             "artRotate": "0",
             "setSymbolSource": "https://cardconjurer.app/img/setSymbols/official/pz1-r.svg",
             "setSymbolX": 0.8756218905472637,
