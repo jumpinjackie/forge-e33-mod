@@ -1,0 +1,28 @@
+[Name]
+Expedition 49 Protector
+[ManaCost]
+2
+W
+[Types]
+Creature
+Human
+Expeditioner
+Cleric
+[Rarity]
+C
+[PT]
+2/2
+[Oracle]
+Flash
+When ~ enters, put a shield counter on target creature.
+{W}, {T}: Target creature you control gains protection from Nevrons until end of turn.
+$EXPEDITIONER_DEATH_ABILITY_TEXT
+[FlavorText]
+We can hold the line for another few days but we need to find a way out, our water supply is running dangerously low.
+- Christophe, Expedition 49
+[ForgeScript]
+K:Flash
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigPut | TriggerDescription$ When ~ enters, put a shield counter on target creature.
+SVar:TrigPut:DB$ PutCounter | ValidTgts$ Creature | CounterType$ SHIELD
+A:AB$ Pump | Cost$ W T | KW$ Protection:Nevron | TgtPrompt$ Select target creature you control | ValidTgts$ Creature.YouCtrl | SpellDescription$ Target creature you control gains protection from Nevrons until end of turn.
+$EXPEDITIONER_DEATH_ABILITY
