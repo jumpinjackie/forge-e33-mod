@@ -32233,10 +32233,10 @@
                     ]
                 }
             ],
-            "artSource": "https://corsproxy.io/?url=https%3A%2F%2Fjumpinjackie.github.io%2Fe33-reference-art%2Fimages%2Fcards%2Fdepression.png",
+            "artSource": "https://corsproxy.io/?url=https%3A%2F%2Fjumpinjackie.github.io%2Fe33-reference-art%2Fimages%2Fcards%2Fdepression.jpg",
             "artX": 0.07711442786069651,
-            "artY": 0.031627576403695803,
-            "artZoom": 3.3280000000000003,
+            "artY": 0.07107320540156362,
+            "artZoom": 1.6640000000000001,
             "artRotate": "0",
             "setSymbolSource": "https://cardconjurer.app/img/setSymbols/official/pz1-u.svg",
             "setSymbolX": 0.8706467661691543,
@@ -32439,7 +32439,7 @@
             "infoRarity": "U",
             "infoSet": "E33",
             "infoLanguage": "EN",
-            "infoArtist": "Stable Diffusion",
+            "infoArtist": "Google Gemini",
             "infoNote": "Proxy, Not for Sale",
             "serialNumber": "",
             "serialTotal": "",

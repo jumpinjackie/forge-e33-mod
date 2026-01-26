@@ -72,7 +72,7 @@ Type=Custom
 87 R Death Picto @Sandfall Interactive
 92 C Démineur @Sandfall Interactive
 93 R Denial @Google Gemini
-94 U Depression @Sandfall Interactive
+94 U Depression @Google Gemini
 95 U Dessendre Family Portrait @Sandfall Interactive
 96 R Dominique Giant Feet @Sandfall Interactive
 97 U Dorrie @Sandfall Interactive
@@ -107,7 +107,7 @@ Type=Custom
 128 C Expedition 49 Protector @Google Gemini
 129 R Expedition 50 Ferris Wheel @Sandfall Interactive
 130 C Expedition 53 Herbalist @Google Gemini
-131 C Expedition 54 Dissident @Sandfall Interactive
+131 C Expedition 54 Dissident @Google Gemini
 132 U Expedition 55 Drummer @Google Gemini
 133 U Expedition 55 Trumpeter @Google Gemini
 134 C Expedition 57 Siege Engine @Sandfall Interactive
@@ -129,7 +129,7 @@ Type=Custom
 150 R Expedition 70 @Sandfall Interactive
 151 R Expedition 78 @Sandfall Interactive
 152 U Expedition 78 Airship @Sandfall Interactive
-153 U Expedition 81 Interpreter @Sandfall Interactive
+153 U Expedition 81 Interpreter @Google Gemini
 154 C Expedition Cache @Sandfall Interactive
 155 R Expedition Camp @Sandfall Interactive
 156 C Expedition Festival @Sandfall Interactive

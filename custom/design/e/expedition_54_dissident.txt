@@ -22,7 +22,7 @@ Lumière operates a certain way. It favors a certain group and a certain outcome
 A:AB$ ChangeZone | Cost$ 4 T | Origin$ Library | Destination$ Battlefield | ChangeType$ Permanent.Rebel+cmcLE3,Permanent.Expeditioner+cmcLE3 | SpellDescription$ Search your library for a Rebel or Expeditioner permanent card with mana value 3 or less, put it onto the battlefield, then shuffle.
 $EXPEDITIONER_DEATH_ABILITY
 [Artist]
-Sandfall Interactive
+Google Gemini
 [DesignNotes]
  - Vanilla bear wtih Rebel sub-type (as a synonmym of dissent)
  - 26/01/2026: To improve playability, added the Rebel chain tutoring ability but can also get Expeditioners.
