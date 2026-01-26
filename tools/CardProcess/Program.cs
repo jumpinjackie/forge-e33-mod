@@ -2118,7 +2118,12 @@ public class GenAllCommand : BaseCommand
                 }
 
                 // Special case for tokens without script files
-                var specialTokens = new[] { ("c_a_food_sac.jpg", "Food Token"), ("c_a_clue_draw.jpg", "Clue Token") };
+                var specialTokens = new[] { 
+                    ("c_a_food_sac.jpg", "Food Token"),
+                    ("c_a_clue_draw.jpg", "Clue Token"),
+                    ("c_a_blood_draw.jpg", "Blood Token"),
+                    ("c_a_map_sac_explore.jpg", "Map Token")
+                };
                 foreach (var (filename, name) in specialTokens)
                 {
                     var imgPath = Path.Combine(tokensPicsDir, filename);
