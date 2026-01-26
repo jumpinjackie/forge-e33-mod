@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 21/1/2026 7:31:55 am
+> Last generated: 26/1/2026 1:44:33 am
 
 ## Abbest
 
@@ -334,9 +334,9 @@ It may not be glamorous, but truly essential work rarely is. Doesn’t make it a
 2G
 Kindred Instant - Expeditioner
 Up to two target creatures you control each deal damage equal to their power to another target creature.
-Create a Lumina token.
+Create a Lumina token. (It's an artifact with "{T}, Sacrifice this artifact: Scry 1.")
 ---
-Twice the strength, twice the agility.
+Any adversity can be overcome, if we face it together.
 ```
 
 [card implementation](../custom/cards/f/face_adversity.txt)
@@ -345,6 +345,7 @@ Twice the strength, twice the agility.
 
  - Flavorful (based on art) [removal / combat trick] reprint
  - 14/01/2026: Renamed from Band Together to Face Adversity so we can tack on a Lumina token bonus.
+ - 26/01/2026: Updated flavor text.
 
 ## Farseek
 

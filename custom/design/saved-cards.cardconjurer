@@ -52874,7 +52874,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Up to two target creatures you control each deal damage equal to their power to another target creature.\nCreate a Lumina token.{flavor}Twice the strength, twice the agility.",
+                    "text": "Up to two target creatures you control each deal damage equal to their power to another target creature.\nCreate a Lumina token. (It’s an artifact with “{T}, Sacrifice this artifact: Scry 1.”){flavor}Any adversity can be overcome, if we face it together.",
                     "x": 0.086,
                     "y": 0.6325515280739161,
                     "width": 0.828,
