@@ -7,8 +7,6 @@ R
 Instant
 [Rarity]
 C
-[ArtNotes]
-Expedition 33 members have an "inverted" status, which has the appearance of white hair and black face and outfit.
 [Oracle]
 Switch target creature's power and toughness until end of turn.
 Draw a card.

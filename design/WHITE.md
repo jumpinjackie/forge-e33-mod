@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 21/1/2026 12:17:29 pm
+> Last generated: 26/1/2026 12:25:09 am
 
 ## A Life to Love (Farewell)
 
@@ -32,7 +32,7 @@ I'm FINE. I've lived 33 good years. Look around. We've had our whole lives to pr
  - No in-game basis, but Grief is such a central theme of Expedition 33 that having a cycle dedicated to the 5 stages is a total flavor nuke.
  - I'm taking the word Acceptance literally (or is it figuratively?) and gone with a creature that "accepts" all damage that would've gone your way.
  - 28/12/2025: Made shield counter ability require a tap in its activation cost.
- - 14/01/2026: Reduced cost from 2WW to 2W and increased shield cost from 2W, T to 4W, T
+ - 14/01/2026: Reduced cost from 2WW to 2W and increased shield cost from [2W, T] to [4W, T]
 
 ## Alicia's Birthday Party
 

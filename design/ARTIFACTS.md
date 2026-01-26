@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 21/1/2026 12:24:12 pm
+> Last generated: 26/1/2026 12:25:09 am
 
 ## A Rock for François
 
@@ -1315,7 +1315,7 @@ Humans are so rude... more so than Gestrals... which is really saying something.
 ### Design Notes
 
  - In the game, Sunniso is guarding the entrance to Esquie's Nest.
- - Given existing precedent (Waterfront Bouncer), this clearly should have a creature bounce ability. However since bouncing is natively a blue ability, and we've determined Gestrals to be artifact creatures, the bounce ability here is costed at a premium to compensate for its out-of-flavor-ness.
+ - Given existing precedent (Waterfront Bouncer), this clearly should have a creature bounce ability. However since bouncing is natively a blue ability, and we've determined Gestrals to be artifact creatures, the bounce ability here is costed at a premium to compensate for its out-of-color-flavor-ness.
 
 ## Talisman of Conviction
 

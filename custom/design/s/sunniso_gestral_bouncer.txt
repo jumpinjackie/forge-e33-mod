@@ -21,4 +21,4 @@ A:AB$ ChangeZone | Cost$ 5 T | ValidTgts$ Creature | Origin$ Battlefield | Desti
 Sandfall Interactive
 [DesignNotes]
  - In the game, Sunniso is guarding the entrance to Esquie's Nest.
- - Given existing precedent (Waterfront Bouncer), this clearly should have a creature bounce ability. However since bouncing is natively a blue ability, and we've determined Gestrals to be artifact creatures, the bounce ability here is costed at a premium to compensate for its out-of-flavor-ness.
+ - Given existing precedent (Waterfront Bouncer), this clearly should have a creature bounce ability. However since bouncing is natively a blue ability, and we've determined Gestrals to be artifact creatures, the bounce ability here is costed at a premium to compensate for its out-of-color-flavor-ness.

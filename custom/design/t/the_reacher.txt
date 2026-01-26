@@ -37,7 +37,7 @@ Sandfall Interactive
  - In the game, The Reacher is an Act 3 dungeon. It is also one of the four Axons created by Renoir and represents Alicia.
  - The Reacher is a landmark, but also an Axon. So in MTG terms, it's both a land and a creature.
  - To make something uniquely different from The Hauler (which is a man-land). I've gone with a legendary land creature, following the pattern of Dryad Arbor.
- - Now how do we balance out an 8/8 trampling uncounterable Axon that could drop on turn 1? We take a page out of Dark Depths and have this ETB with 7 sky counters. While it has sky counters, it cannot attack or block and is effectively dormant as a creature. You can still use it as a regular U/G dual land until you've remove the last sky counter.
+ - Now how do we balance out an 8/8 trampling uncounterable Axon that could drop on turn 1? We take a page out of Dark Depths and have this ETB with 7 sky counters. While it has sky counters, it cannot attack or block and is effectively dormant as a creature. You can still use it as a regular U/G dual land until you've removed the last sky counter.
  - 16/01/2025: Gameplay balance changes:
     - Sky counter removal now only triggers on creatures *you control* with flying that attack (not entering anymore)
-    - Manual sky counter removal cost changed from {G/W} to {2}{G/U}
+    - Manual sky counter removal cost changed from {G/U} to {2}{G/U}

@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 24/1/2026 2:18:33 pm
+> Last generated: 26/1/2026 12:25:09 am
 
 ## A Storm is Coming
 
@@ -2148,7 +2148,7 @@ The Expedition is removed from the canvas — {T}, Remove a foreboding counter f
     - Back side enters with a foreboding counter as a signal that something bad is going to happen soon if Simon is not dealt with quickly.
     - Mapped "The dead are removed from the canvas" to a "Rest in Peace" continuous exile effect. Is in line with what happens when any of your party members die in combat (they are immediately erased).
     - Mapped "The Expedition is removed from the canvas" as a mass exile effect that spares only Simon and one of opponent's creatures. This is the ability spent with the foreboding counter.
- - 13/12/2025: "Simon, The Divergent Star" is now the name of the v2.0 Simon boss in the Endless Tower with the new DLC. Not changing the name of the back half as this name had existed long before the release of this DLC.
+ - 13/12/2025: "Simon, The Divergent Star" is now the name of the v2.0 Simon boss in the Endless Tower with the new DLC. Not changing the name of the back half as this name had existed long before the release of this DLC (it existed as a song title in the OST).
 
 ## Sirène, Who Plays With Wonder
 
@@ -2232,7 +2232,7 @@ Stendhal deals 33 damage to target creature or planeswalker.
  - Taken another chance to weave in a use of the number 33 by dealing that much to a creature or planeswalker. When you absolutely need to kill something, accept no substitute.
  - Has devoid because it deals extreme void damage in-game.
  - Has Affinity for Lumina (tokens) to not only make casting this easier, but also as a nod to the pictos/lumina investment required in-game to make Stendhal deal damage in the millions.
- - I orignally had thoughts about making it targeting players as well, but with some side-mission you must take to unlock the ability to target players (whether by suspend or mana payment requirements), but decided against that as this set already has 2 "you win the game if certain conditions are met" cards. That's enough, we don't need another one.
+ - I orignally had thoughts about making it targeting players as well, but with some side-mission you must take to unlock the ability to target players (whether by suspend or mana payment requirements), but decided against that as this set already has 2 single-handed "you win the game if certain conditions are met" cards. That's enough, we don't need another one. However, this does A+B combo win the game with another card (if you can find it!).
 
 ## Terminate
 
