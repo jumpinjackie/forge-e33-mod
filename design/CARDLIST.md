@@ -181,7 +181,7 @@ Cards implemented: 455
 [ ] For Those Who Come After
 [x] Forgotten Battlefield
 [x] Fortune's Fury
-[N] Fracture Survivor
+[ ] Fracture Survivor
 [x] François, Waiting for Clea
 [Z] Frozen Hearts
 [x] Full Deck

@@ -20,22 +20,22 @@ Type=Custom
 82 R Damn @Lucas Graciano
 90 R Deflecting Swat @rk post
 98 M Doubling Season @Chuck Lukacs
-165 C Farseek @Hristo D. Chukov
-166 C Feed the Swarm @Andrey Kuzinskiy
-167 U Fellwar Stone @John Avon
-169 U Final Parting @Sandfall Interactive
+166 C Farseek @Hristo D. Chukov
+167 C Feed the Swarm @Andrey Kuzinskiy
+168 U Fellwar Stone @John Avon
+170 U Final Parting @Sandfall Interactive
 183 R Shivan Reef @Sandfall Interactive ${"flavorName": "Frozen Hearts"}
-229 C Growth Spiral @Seb McKinnon
-276 M Mana Drain @Raymond Swanland
-286 U Mask of Memory @Allen Morris
-291 R Mirage Mirror @Craig J Spearing
-297 U Mortify @Nils Hamm
-317 U Patchwork Banner @Sarah Finnigan
-318 U Path to Exile @Raf Sarmento
-330 U Primal Empathy @Sandfall Interactive
-331 U Putrefy @Clint Cearley
-363 R Sulfurous Springs @Sandfall Interactive ${"flavorName": "Sinister Cave"}
-369 U Sol Ring @Piotr Dura
+228 C Growth Spiral @Seb McKinnon
+275 M Mana Drain @Raymond Swanland
+285 U Mask of Memory @Allen Morris
+290 R Mirage Mirror @Craig J Spearing
+296 U Mortify @Nils Hamm
+316 U Patchwork Banner @Sarah Finnigan
+317 U Path to Exile @Raf Sarmento
+329 U Primal Empathy @Sandfall Interactive
+330 U Putrefy @Clint Cearley
+362 R Sulfurous Springs @Sandfall Interactive ${"flavorName": "Sinister Cave"}
+368 U Sol Ring @Piotr Dura
 381 U Swords to Plowshares @Nadia Hurianova
 382 U Talisman of Conviction @Lindsey Look
 383 U Talisman of Creativity @Lindsey Look

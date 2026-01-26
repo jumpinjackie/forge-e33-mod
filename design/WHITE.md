@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 26/1/2026 9:12:52 am
+> Last generated: 26/1/2026 10:03:01 am
 
 ## A Life to Love (Farewell)
 
@@ -285,6 +285,27 @@ For our allies who come after, sadly our lives may have proven that defense is b
  - In the game, Expedition 49 employed strong defensive and healing tactics against Nevrons which proved ineffective as their offensive capabilities were really weak.
  - Easy mechanical map to a creature with life gain and damage prevention abilities.
 
+## Expedition 49 Protector
+
+```
+2W
+Creature - Human Expeditioner Cleric
+Flash
+When this creature enters, put a shield counter on target creature.
+{W}, {T}: Target creature you control gains protection from Nevrons until end of turn.
+When this creature dies, create a Chroma token.
+---
+We can hold the line for another few days but we need to find a way out, our water supply is running dangerously low.
+- Christophe, Expedition 49
+
+2/2
+```
+
+[card implementation](../custom/cards/e/expedition_49_protector.txt)
+
+### Design Notes
+
+
 ## Expedition 54 Dissident
 
 ```
@@ -327,14 +348,6 @@ Your time left in this life is limited, why not make it count for something?
  - Goblin Matron, but for Expeditioners with standard death bonus.
  - 3/10/2025: This + Tomorrow Comes + Expedition 70 gives us effectively 12 Expeditioner tutors. This may be overkill and the Expeditioner strategy too consistent and we may have to rework one or more of these cards. Further playtesting will tell us.
  - 24/12/2024: Upon a second NG+ playthrough it turns out there was Expedition recruiters in the prologue (it was Alan and Catherine doing the recruiting)! I must've been psychic (or had some latent medium-term memory to remember this fact!)
-
-## Fracture Survivor (Veteran Survivor)
-
-> This card is a nicknamed reprint of (Veteran Survivor)
-[Scryfall](https://scryfall.com/search?q=Veteran%20Survivor)
-### Notes
-
- - Nickname reprint of Veteran Survivor
 
 ## Gustave's Burial
 

@@ -22,8 +22,8 @@
 | <center>[Chroma Barrier](WHITE.md#chroma-barrier)</center> | <center>[Chroma Prison](WHITE.md#chroma-prison)</center> | <center>[Clair](WHITE.md#clair)</center> |
 | ![](../custom/pics/cards/E33/Danseuse%20Teacher.full.jpg) | ![](../custom/pics/cards/E33/Expedition%2049.full.jpg) | ![](../custom/pics/cards/E33/Expedition%2049%20Healer.full.jpg) |
 | <center>[Danseuse Teacher](WHITE.md#danseuse-teacher)</center> | <center>[Expedition 49](WHITE.md#expedition-49)</center> | <center>[Expedition 49 Healer](WHITE.md#expedition-49-healer)</center> |
-| ![](../custom/pics/cards/E33/Expedition%2054%20Dissident.full.jpg) | ![](../custom/pics/cards/E33/Expedition%20Recruiter.full.jpg) | ![](../custom/pics/cards/E33/Fracture%20Survivor.full.jpg) |
-| <center>[Expedition 54 Dissident](WHITE.md#expedition-54-dissident)</center> | <center>[Expedition Recruiter](WHITE.md#expedition-recruiter)</center> | <center>[Fracture Survivor (Veteran Survivor)](WHITE.md#fracture-survivor-veteran-survivor)</center> |
+| ![](../custom/pics/cards/E33/Expedition%2049%20Protector.full.jpg) | ![](../custom/pics/cards/E33/Expedition%2054%20Dissident.full.jpg) | ![](../custom/pics/cards/E33/Expedition%20Recruiter.full.jpg) |
+| <center>[Expedition 49 Protector](WHITE.md#expedition-49-protector)</center> | <center>[Expedition 54 Dissident](WHITE.md#expedition-54-dissident)</center> | <center>[Expedition Recruiter](WHITE.md#expedition-recruiter)</center> |
 | ![](../custom/pics/cards/E33/Gustave%27s%20Burial.full.jpg) | ![](../custom/pics/cards/E33/Healing%20Light.full.jpg) | ![](../custom/pics/cards/E33/Light%20the%20Path.full.jpg) |
 | <center>[Gustave's Burial](WHITE.md#gustaves-burial)</center> | <center>[Healing Light](WHITE.md#healing-light)</center> | <center>[Light the Path](WHITE.md#light-the-path)</center> |
 | ![](../custom/pics/cards/E33/Lumiere%20Assault.full.jpg) | ![](../custom/pics/cards/E33/Payback.full.jpg) | ![](../custom/pics/cards/E33/Perfect%20Dodge.full.jpg) |
@@ -46,14 +46,14 @@
 | <center>[Eternal Ice](BLUE.md#eternal-ice)</center> | <center>[Expedition 40 Glider](BLUE.md#expedition-40-glider)</center> | <center>[Expedition 43 Submersible](BLUE.md#expedition-43-submersible)</center> |
 | ![](../custom/pics/cards/E33/Expedition%2068%20Navigator.full.jpg) | ![](../custom/pics/cards/E33/Expedition%2078.full.jpg) | ![](../custom/pics/cards/E33/Francois%2C%20Waiting%20for%20Clea.full.jpg) |
 | <center>[Expedition 68 Navigator](BLUE.md#expedition-68-navigator)</center> | <center>[Expedition 78](BLUE.md#expedition-78)</center> | <center>[François, Waiting for Clea](BLUE.md#françois-waiting-for-clea)</center> |
-| ![](../custom/pics/cards/E33/Gestral%20Ascension%20Challenge.full.jpg) | ![](../custom/pics/cards/E33/Gestral%20Hopscotch%20Challenge.full.jpg) | ![](../custom/pics/cards/E33/Grandis%20Fashionist.full.jpg) |
-| <center>[Gestral Ascension Challenge](BLUE.md#gestral-ascension-challenge)</center> | <center>[Gestral Hopscotch Challenge](BLUE.md#gestral-hopscotch-challenge)</center> | <center>[Grandis Fashionist](BLUE.md#grandis-fashionist)</center> |
-| ![](../custom/pics/cards/E33/Gustave%27s%20Insight.full.jpg) | ![](../custom/pics/cards/E33/Hiding%20the%20Canvas.full.jpg) | ![](../custom/pics/cards/E33/Ice%20Lance.full.jpg) |
-| <center>[Gustave's Insight](BLUE.md#gustaves-insight)</center> | <center>[Hiding the Canvas](BLUE.md#hiding-the-canvas)</center> | <center>[Ice Lance](BLUE.md#ice-lance)</center> |
-| ![](../custom/pics/cards/E33/Lune%27s%20Curiosity.full.jpg) | ![](../custom/pics/cards/E33/Lune%27s%20Denial.full.jpg) | ![](../custom/pics/cards/E33/Luster.full.jpg) |
-| <center>[Lune's Curiosity](BLUE.md#lunes-curiosity)</center> | <center>[Lune's Denial](BLUE.md#lunes-denial)</center> | <center>[Luster](BLUE.md#luster)</center> |
-| ![](../custom/pics/cards/E33/Machinepieds.full.jpg) | ![](../custom/pics/cards/E33/Rip%20Apart%20Reality.full.jpg) | ![](../custom/pics/cards/E33/Sky%20Break.full.jpg) |
-| <center>[Machinepieds](BLUE.md#machinepieds)</center> | <center>[Rip Apart Reality](BLUE.md#rip-apart-reality)</center> | <center>[Sky Break](BLUE.md#sky-break)</center> |
+| ![](../custom/pics/cards/E33/Gestral%20Ascension%20Challenge.full.jpg) | ![](../custom/pics/cards/E33/Grandis%20Fashionist.full.jpg) | ![](../custom/pics/cards/E33/Gustave%27s%20Insight.full.jpg) |
+| <center>[Gestral Ascension Challenge](BLUE.md#gestral-ascension-challenge)</center> | <center>[Grandis Fashionist](BLUE.md#grandis-fashionist)</center> | <center>[Gustave's Insight](BLUE.md#gustaves-insight)</center> |
+| ![](../custom/pics/cards/E33/Hiding%20the%20Canvas.full.jpg) | ![](../custom/pics/cards/E33/Ice%20Lance.full.jpg) | ![](../custom/pics/cards/E33/Lune%27s%20Curiosity.full.jpg) |
+| <center>[Hiding the Canvas](BLUE.md#hiding-the-canvas)</center> | <center>[Ice Lance](BLUE.md#ice-lance)</center> | <center>[Lune's Curiosity](BLUE.md#lunes-curiosity)</center> |
+| ![](../custom/pics/cards/E33/Lune%27s%20Denial.full.jpg) | ![](../custom/pics/cards/E33/Luster.full.jpg) | ![](../custom/pics/cards/E33/Machinepieds.full.jpg) |
+| <center>[Lune's Denial](BLUE.md#lunes-denial)</center> | <center>[Luster](BLUE.md#luster)</center> | <center>[Machinepieds](BLUE.md#machinepieds)</center> |
+| ![](../custom/pics/cards/E33/Rip%20Apart%20Reality.full.jpg) | ![](../custom/pics/cards/E33/Sky%20Break.full.jpg) | ![](../custom/pics/cards/E33/Spreading%20Seas.full.jpg) |
+| <center>[Rip Apart Reality](BLUE.md#rip-apart-reality)</center> | <center>[Sky Break](BLUE.md#sky-break)</center> | <center>[Spreading Seas](BLUE.md#spreading-seas)</center> |
 | ![](../custom/pics/cards/E33/Swift%20Counter.full.jpg) | ![](../custom/pics/cards/E33/The%20Search%20for%20Esquie%27s%20Rocks.full.jpg) | ![](../custom/pics/cards/E33/Thermal%20Transfer.full.jpg) |
 | <center>[Swift Counter](BLUE.md#swift-counter)</center> | <center>[The Search for Esquie's Rocks](BLUE.md#the-search-for-esquies-rocks)</center> | <center>[Thermal Transfer](BLUE.md#thermal-transfer)</center> |
 | ![](../custom/pics/cards/E33/Verisimilitude.full.jpg) | ![](../custom/pics/cards/E33/Verso%27s%20Musical%20Training.full.jpg) | ![](../custom/pics/cards/E33/Axon%20Offering.full.jpg) |

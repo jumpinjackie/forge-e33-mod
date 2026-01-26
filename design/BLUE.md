@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 26/1/2026 9:12:52 am
+> Last generated: 26/1/2026 9:42:17 am
 
 ## An Advantage!
 
@@ -357,23 +357,6 @@ Oh really? An Expedition? I certainly wasn't expecting that. But your presence h
  - In the case of this card, the condition involves flying creatures (we are trying to ascend to the top after all!) and the payoff is card draw.
  - Ancestral Recall in enchantment form for the same cost may look broken at face value, but you really need to be all-in on an all-flyers strategy to reliably pop this off. If further playtesting shows we are popping this off *too* reliably, we can always bump up the quest counter requirement.
 
-## Gestral Hopscotch Challenge
-
-```
-U
-Enchantment
-Whenever a creature you control with flying enters or a creature you control with flying attacks, you may put a quest counter on this enchantment.
-Remove nine quest counters from this enchantment and exile it: Each player shuffles their hand and graveyard into their library, then draws seven cards. Activate only as a sorcery.
-```
-
-[card implementation](../custom/cards/g/gestral_hopscotch_challenge.txt)
-
-### Design Notes
-
- - In the game, the Gestral Hopscotch Challenge is 1 of 2 challenge minigames in Verso's Drafts. In this minigame you must walk/jump from tiles 1 to 9 in sequence. Completing the challenge rewards you with a new haircut.
- - Same quest counter trigger condition as the ascension challenge. Originally I wanted something that triggers on the gain/loss of flying on any creature (to thematically map to hopping), but there is no existing precendent for triggers from the gain or loss of a particular ability, so this isn't possible to implement.
- - The final payoff is a Timetwister effect. Exile cost to prevent recursion in multiples as-is standard with most Timetwister-style spells. 9 quest counters is the activation threshold as the Hopscotch ends at the 9th tile.
-
 ## Grandis Fashionist
 
 ```
@@ -577,6 +560,14 @@ Doors of chroma, open!
  - 30/09/2025: Cost adjusted from 3UU to 2UU so that you can't pick all 3 bonuses since the R bonus and W bonus kind of achieve the same goal.
  - 3/11/2025: Cost bumped back up to 3UU and the R bonus changed to direct damage on any target.
  - 21/01/2026: Changed W payment bonus from mass sweeper of stunned creatures to single target stunned creature exile.
+
+## Spreading Seas
+
+> This card is a reprint
+[Scryfall](https://scryfall.com/search?q=Spreading%20Seas)
+### Notes
+
+ - Flavorful reprint to check nonbasics.
 
 ## Swift Counter
 
