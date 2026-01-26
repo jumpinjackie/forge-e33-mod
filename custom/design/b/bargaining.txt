@@ -10,7 +10,7 @@ Incarnation
 [Rarity]
 R
 [Artist]
-Sandfall Interactive
+Google Gemini
 [PT]
 4/5
 [Oracle]

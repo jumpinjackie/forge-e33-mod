@@ -9,7 +9,7 @@ Expeditioner
 [Rarity]
 C
 [Artist]
-Sandfall Interactive
+Google Gemini
 [PT]
 1/1
 [Oracle]

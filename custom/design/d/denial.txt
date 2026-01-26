@@ -12,7 +12,7 @@ R
 [PT]
 2/2
 [Artist]
-Sandfall Interactive
+Google Gemini
 [Oracle]
 Flash
 Flying

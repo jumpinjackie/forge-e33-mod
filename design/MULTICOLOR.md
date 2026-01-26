@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 26/1/2026 9:12:52 am
+> Last generated: 26/1/2026 3:17:45 pm
 
 ## A Storm is Coming
 
@@ -729,6 +729,9 @@ It's the right choice. It is. Even if it doesn't feel like it. Right? Right.
 Creature - Human Expeditioner
 Expeditioner spells you cast cost {1} less to cast.
 When this creature dies, create a Chroma token.
+---
+Augmenting pictos with music was a stroke of genius. But the sonics have NO effect on the Nevrons here. It’s as if they can’t even hear our music, they just keep dancing to their own.
+- Gilles, Expedition 55
 
 2/2
 ```

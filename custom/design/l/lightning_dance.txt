@@ -11,7 +11,7 @@ Expeditioner
 [Rarity]
 U
 [Artist]
-Sandfall Interactive
+Google Gemini
 [ArtNotes]
 Lune floating in the air with arms raised, summoning several columns of Lightning.
 [Oracle]

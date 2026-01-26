@@ -11,7 +11,7 @@ R
 [PT]
 2/2
 [Artist]
-Sandfall Interactive
+Google Gemini
 [Oracle]
 ~ enters with a shield counter on it.
 Any damage dealt to you is dealt to ~ instead.

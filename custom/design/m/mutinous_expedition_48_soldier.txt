@@ -11,7 +11,7 @@ Soldier
 [Rarity]
 C
 [Artist]
-Sandfall Interactive
+Google Gemini
 [PT]
 3/3
 [Oracle]

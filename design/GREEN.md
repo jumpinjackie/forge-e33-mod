@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 26/1/2026 1:44:33 am
+> Last generated: 26/1/2026 3:17:45 pm
 
 ## Abbest
 
@@ -214,6 +214,9 @@ Yet in their final moments, they used their bodies to create a bridge for those 
 Creature - Human Expeditioner
 Other Expeditioner creatures you control get +1/+1.
 When this creature dies, create a Chroma token.
+---
+Drums. Maybe that will work. They can’t hear our music, but perhaps they will feel it.
+- Gilles, Expedition 55
 
 2/2
 ```

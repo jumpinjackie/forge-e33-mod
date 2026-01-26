@@ -11,7 +11,7 @@ Scout
 [Rarity]
 U
 [Artist]
-Sandfall Interactive
+Google Gemini
 [PT]
 2/3
 [Oracle]

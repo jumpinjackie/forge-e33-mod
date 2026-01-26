@@ -11,7 +11,7 @@ Cleric
 [Rarity]
 C
 [Artist]
-Sandfall Interactive
+Google Gemini
 [PT]
 1/2
 [Oracle]

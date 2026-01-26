@@ -12,7 +12,7 @@ Expeditioner
 [Rarity]
 C
 [Artist]
-Sandfall Interactive
+Google Gemini
 [Oracle]
 Suspend 1 - {U}{R} (Rather than cast this card from your hand, pay {U}{R} and exile it with one time counter on it. At the beginning of your upkeep, remove a time counter. When the last is removed, you may cast it without paying its mana cost.)
 ~ deals 3 damage to any target.

@@ -10,12 +10,15 @@ Expeditioner
 [Rarity]
 U
 [Artist]
-Sandfall Interactive
+Google Gemini
 [PT]
 2/2
 [Oracle]
 Other Expeditioner creatures you control get +1/+1.
 $EXPEDITIONER_DEATH_ABILITY_TEXT
+[FlavorText]
+Drums. Maybe that will work. They can’t hear our music, but perhaps they will feel it.
+- Gilles, Expedition 55
 [ForgeScript]
 S:Mode$ Continuous | Affected$ Creature.Expeditioner+Other+YouCtrl | AddPower$ 1 | AddToughness$ 1 | Description$ Other Expeditioner creatures you control get +1/+1.
 $EXPEDITIONER_DEATH_ABILITY

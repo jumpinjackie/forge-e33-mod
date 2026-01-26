@@ -27,7 +27,7 @@ SVar:DBAddR:DB$ Mana | Produced$ R
 SVar:DBGainLife:DB$ GainLife | ValidTgts$ Player | TgtPrompt$ Select target player (to gain 6 life) | LifeAmount$ 6 | SubAbility$ DBAddG | SpellDescription$ Target player gains 6 life. Add {G}.
 SVar:DBAddG:DB$ Mana | Produced$ G
 [Artist]
-Stable Diffusion
+Google Gemini
 [DraftScore]
 95
 [DesignNotes]
