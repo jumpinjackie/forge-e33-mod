@@ -43112,11 +43112,11 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "When this creature dies, create a Chroma token.{flavor}Lumière operates a certain way. It favours a certain group and a certain outcome and if you question the Council, well, the Council’s going to question you.\nPush too hard to change things and you just might end up on the next Expedition.\nSo. Nothing ever changes. They just send us out to die. Dissenters. And the status quo continues. At least out here, I don’t have to pretend anymore.",
+                    "text": "{4}, {T}: Search your library for a Rebel or Expeditioner permanent card with mana value 3 or less, put it onto the battlefield, then shuffle.\nWhen this creature dies, create a Chroma token.{flavor}Lumière operates a certain way. It favors a certain group and a certain outcome and if you question the Council, well, the Council’s going to question you. Push too hard to change things and you just might end up on the next Expedition.\n- Constantine",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
-                    "height": 0.27292110874200426,
+                    "height": 0.2874911158493248,
                     "size": 0.0362
                 },
                 "pt": {

@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 26/1/2026 12:25:09 am
+> Last generated: 26/1/2026 2:26:51 am
 
 ## A Life to Love (Farewell)
 
@@ -290,11 +290,11 @@ For our allies who come after, sadly our lives may have proven that defense is b
 ```
 1W
 Creature - Human Expeditioner Rebel
+{4}, {T}: Search your library for a Rebel or Expeditioner permanent card with mana value 3 or less, put it onto the battlefield, then shuffle.
 When this creature dies, create a Chroma token.
 ---
-Lumière operates a certain way. It favours a certain group and a certain outcome and if you question the Council, well, the Council’s going to question you.
-Push too hard to change things and you just might end up on the next Expedition.
-So. Nothing ever changes. They just send us out to die. Dissenters. And the status quo continues. At least out here, I don’t have to pretend anymore.
+Lumière operates a certain way. It favors a certain group and a certain outcome and if you question the Council, well, the Council’s going to question you. Push too hard to change things and you just might end up on the next Expedition.
+- Constantine
 
 2/2
 ```
@@ -304,6 +304,7 @@ So. Nothing ever changes. They just send us out to die. Dissenters. And the stat
 ### Design Notes
 
  - Vanilla bear wtih Rebel sub-type (as a synonmym of dissent)
+ - 26/01/2026: To improve playability, added the Rebel chain tutoring ability but can also get Expeditioners.
 
 ## Expedition Recruiter
 

@@ -2,6 +2,7 @@ Name:Expedition 54 Dissident
 ManaCost:1 W
 Types:Creature Human Expeditioner Rebel
 PT:2/2
+A:AB$ ChangeZone | Cost$ 4 T | Origin$ Library | Destination$ Battlefield | ChangeType$ Permanent.Rebel+cmcLE3,Permanent.Expeditioner+cmcLE3 | SpellDescription$ Search your library for a Rebel or Expeditioner permanent card with mana value 3 or less, put it onto the battlefield, then shuffle.
 T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Card.Self | Execute$ TrigToken | TriggerDescription$ When CARDNAME dies, create a Chroma token
 SVar:TrigToken:DB$ Token | TokenScript$ c_a_chroma | TokenOwner$ You | TokenAmount$ 1
-Oracle:When this creature dies, create a Chroma token.
+Oracle:{4}, {T}: Search your library for a Rebel or Expeditioner permanent card with mana value 3 or less, put it onto the battlefield, then shuffle.\nWhen this creature dies, create a Chroma token.
