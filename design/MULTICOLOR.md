@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 26/1/2026 12:25:09 am
+> Last generated: 26/1/2026 12:39:25 am
 
 ## A Storm is Coming
 
@@ -1504,12 +1504,12 @@ Fuse (You may cast one or both halves of this card from your hand.)
  - Lost: Clearly a send back to library effect
  - Found: An Argivian Find, but only targets artifacts (rocks)
 
-## Lumierian Apprentice
+## Lumièrian Apprentice
 
 ```
 1(W/U)
 Creature - Human Citizen
-Whenever another non-Expeditioner creature enters, investigate. (Create a Clue token. It's an artifact with "{2}, Sacrifice this artifact: Draw a card.")
+Whenever another non-Human creature enters, investigate. (Create a Clue token. It's an artifact with "{2}, Sacrifice this artifact: Draw a card.")
 ---
 He eagerly absorbs the knowledge given to him, for he knows when his time comes, it will be a valuable resource.
 
@@ -1524,6 +1524,7 @@ He eagerly absorbs the knowledge given to him, for he knows when his time comes,
  - Modeled their "curiosity" as giving you clues whenever a "foreign" creature type enters the battlefield.
  - One of the rare humans in this set that are not Expeditioners.
  - 21/01/2026: Color-shifted from white to white/blue hybrid.
+ - 26/01/2026: Changed clue trigger from non-Expeditioner to non-Human as investigating when a Human (that's not an Expeditioner) enters is non-sensical from a flavor perspective.
 
 ## Lune, Charting a Path
 

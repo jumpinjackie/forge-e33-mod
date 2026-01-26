@@ -1,4 +1,6 @@
 [Name]
+Lumièrian Apprentice
+[InvariantName]
 Lumierian Apprentice
 [ManaCost]
 1
@@ -14,14 +16,15 @@ U
 [Artist]
 Sandfall Interactive
 [Oracle]
-Whenever another non-Expeditioner creature enters, investigate. $INVESTIGATE_REMINDER_TEXT
+Whenever another non-Human creature enters, investigate. $INVESTIGATE_REMINDER_TEXT
 [FlavorText]
 He eagerly absorbs the knowledge given to him, for he knows when his time comes, it will be a valuable resource.
 [ForgeScript]
-T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Creature.Other+nonExpeditioner | TriggerZones$ Battlefield | Execute$ TrigInvestigate | TriggerDescription$ Whenever another non-Expeditioner creature enters, investigate.
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Creature.Other+nonHuman | TriggerZones$ Battlefield | Execute$ TrigInvestigate | TriggerDescription$ Whenever another non-Human creature enters, investigate.
 SVar:TrigInvestigate:DB$ Investigate
 [DesignNotes]
  - In the game, some of the children/teenagers of Lumière are apprentices of Expeditioners, absorbing as much knowledge passed down to them should they fail and they will eventually become Expeditioners themselves and need to take up the mantle.
  - Modeled their "curiosity" as giving you clues whenever a "foreign" creature type enters the battlefield.
  - One of the rare humans in this set that are not Expeditioners.
  - 21/01/2026: Color-shifted from white to white/blue hybrid.
+ - 26/01/2026: Changed clue trigger from non-Expeditioner to non-Human as investigating when a Human (that's not an Expeditioner) enters is non-sensical from a flavor perspective.

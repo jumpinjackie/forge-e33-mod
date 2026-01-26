@@ -226,7 +226,7 @@ Type=Custom
 264 U Lumière Opera House @Sandfall Interactive
 265 C Lumière Trashcan @Sandfall Interactive
 266 R Lumière, The Last Bastion @Sandfall Interactive
-267 U Lumierian Apprentice @Sandfall Interactive
+267 U Lumièrian Apprentice @Sandfall Interactive
 268 U Lumina Converter @Sandfall Interactive
 269 R Lune, Charting a Path @Sandfall Interactive
 270 U Lune's Curiosity @Sandfall Interactive

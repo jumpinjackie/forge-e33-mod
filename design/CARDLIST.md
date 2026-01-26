@@ -252,7 +252,7 @@ Cards implemented: 455
 [x] Lumière Opera House
 [x] Lumière, The Last Bastion
 [x] Lumière Trashcan
-[x] Lumierian Apprentice
+[ ] Lumierian Apprentice
 [x] Lumina Converter
 [x] Lune, Charting a Path
 [x] Lune's Curiosity
