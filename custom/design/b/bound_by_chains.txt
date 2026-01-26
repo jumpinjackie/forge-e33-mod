@@ -28,3 +28,4 @@ SVar:NonStackingEffect:True
  - In the game, various Nevrons have an attack, which if not parried or dodged will apply a bound status on the attack recipient. A bound party member visually looks like someone tethered to the ground with chains.
  - I've gone with a 1:1 copy of Rising Waters to solidify the Crippling Tsunami Prison archetype and to boost the Blue Skies archetype as something that can captialize on tempo gains.
     - I would've gone with a nickname reprint, but to my knowledge Forge only lets you nickname cards in the source card script (the card from Nemesis) which is too invasive.
+    - 26/01/2026: Even though we've figured out how to do nickname reprints in a non-invasive manner. We're sticking with a functional reprint for better internal set synergy.

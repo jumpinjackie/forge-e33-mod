@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 23/1/2026 7:59:34 am
+> Last generated: 26/1/2026 9:12:52 am
 
 ## Axon Offering
 
@@ -214,7 +214,7 @@ You must see things as they are. Not how you want them to be.
 ### Design Notes
 
  - In the game, inside Verso's Treehouse in Verso's Drafts, there are various artpieces depicting Verso interacting with various family members. One of them is him bonding with his father, Renoir.
- - Mapped to an opponen syphon trigger when two or more creatures of the same type (same family) attack.
+ - Mapped to an opponent syphon trigger when two or more creatures of the same type (same family) attack.
  - 16/01/2026: Added card draw to the trigger.
 
 ## Feed the Swarm
@@ -638,7 +638,7 @@ When this creature dies, target opponent creates a Lumina token. (It's an artifa
 
  - In the game, Veilleurs can be found in The Reacher and Renoir's Drafts.
  - It's main gimmick is inflicting the blight debuff which perma-reduces a characters HP bar by a fixed percentage. Translated to the same blightning ability as Échassier.
- - Gave it Deathtouch to match its blightning nature.
+ - Gave it Deathtouch to match its blighting nature.
  - 20/01/2026: Added AI targeting hints
 
 ## Verso's Burden

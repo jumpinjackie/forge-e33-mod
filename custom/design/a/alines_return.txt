@@ -19,6 +19,6 @@ A:SP$ Destroy | ValidTgts$ Axon,Nevron | TgtPrompt$ Select target Axon or Nevron
 [Artist]
 Sandfall Interactive
 [DesignNotes]
- - In the game, during the final boss with Renoir, Aline momentarily returns to the Canvas to swing the battle to the party's favor.
+ - In the game, during the final boss battle with Renoir, Aline momentarily returns to the Canvas to swing the battle to the party's favor.
  - Mapped to targeted Axon/Nevron kill.
  - Added cycling to offset its marginality.

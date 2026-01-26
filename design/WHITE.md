@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 26/1/2026 2:26:51 am
+> Last generated: 26/1/2026 9:12:52 am
 
 ## A Life to Love (Farewell)
 
@@ -199,7 +199,7 @@ Maelle: No no no no... You promised...
  - Oblivion Ring variant #234898572343
  - This represents the barrier that Painted Renoir traps Maelle in at the Stone Wave Cliffs.
  - Gave it Nevron/Painter affiliated bonuses
- - 26/09/2025 Converted from Kindred Enchantment - Nevron to a regular Enchantment and give the flash bonus only for painters.
+ - 26/09/2025: Converted from Kindred Enchantment - Nevron to a regular Enchantment and give the flash bonus only for painters.
 
 ## Clair
 
@@ -326,7 +326,7 @@ Your time left in this life is limited, why not make it count for something?
  - [OBSOLETE] No direct representation in the video game, but I can easily imagine there are some people in Lumière whose job is to be trying to recruit citizens who are soon to be gommaged, persuading them to embark on the next Expedition, to make use of the limited time they have left in this world.
  - Goblin Matron, but for Expeditioners with standard death bonus.
  - 3/10/2025: This + Tomorrow Comes + Expedition 70 gives us effectively 12 Expeditioner tutors. This may be overkill and the Expeditioner strategy too consistent and we may have to rework one or more of these cards. Further playtesting will tell us.
- - 24/12/2024: Upon a second NG+ playthrough it turns out there was Expedition recruiters in the prologue (it was Alan and Cathering doing the recruiting)! I must've been psychic!
+ - 24/12/2024: Upon a second NG+ playthrough it turns out there was Expedition recruiters in the prologue (it was Alan and Catherine doing the recruiting)! I must've been psychic (or had some latent medium-term memory to remember this fact!)
 
 ## Fracture Survivor (Veteran Survivor)
 

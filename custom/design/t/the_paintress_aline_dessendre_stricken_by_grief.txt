@@ -74,4 +74,4 @@ c_a_chroma
  - As much as I personally despise double-faced cards (because of logistics around limited and sleeves, requiring paper hacks like checklist cards), flavorfully this has to be a creature that transforms to her Planeswalker half.
    - If we ever print this, it will be printed over 2 cards and not as a double-faced one, because I want a printed version of this set to be playable as-is without sleeves (as Richard Garfield intended).
  - In terms of planeswalker design, the primary theme is around Chroma and her mastery of it.
- - 29/11/2025: Void meteor ability cost adjust so that she can be a 5c commander.
+ - 29/11/2025: Void meteor ability cost adjusted so that she can be a 5c commander.

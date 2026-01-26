@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 21/1/2026 7:02:54 am
+> Last generated: 26/1/2026 9:12:52 am
 
 ## An Advantage!
 
@@ -57,6 +57,7 @@ The chains of Grief can be hard to break for some.
  - In the game, various Nevrons have an attack, which if not parried or dodged will apply a bound status on the attack recipient. A bound party member visually looks like someone tethered to the ground with chains.
  - I've gone with a 1:1 copy of Rising Waters to solidify the Crippling Tsunami Prison archetype and to boost the Blue Skies archetype as something that can captialize on tempo gains.
     - I would've gone with a nickname reprint, but to my knowledge Forge only lets you nickname cards in the source card script (the card from Nemesis) which is too invasive.
+    - 26/01/2026: Even though we've figured out how to do nickname reprints in a non-invasive manner. We're sticking with a functional reprint for better internal set synergy.
 
 ## Breaking Moment
 
@@ -575,7 +576,7 @@ Doors of chroma, open!
  - No black bonus because Lune does not have dark/black magic alignment.
  - 30/09/2025: Cost adjusted from 3UU to 2UU so that you can't pick all 3 bonuses since the R bonus and W bonus kind of achieve the same goal.
  - 3/11/2025: Cost bumped back up to 3UU and the R bonus changed to direct damage on any target.
- - 21/01/2026: Changed W payment bonus from mass sweeper of stunend creatures to single target stunned creature exile.
+ - 21/01/2026: Changed W payment bonus from mass sweeper of stunned creatures to single target stunned creature exile.
 
 ## Swift Counter
 

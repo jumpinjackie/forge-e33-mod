@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 26/1/2026 12:39:25 am
+> Last generated: 26/1/2026 9:12:52 am
 
 ## A Storm is Coming
 
@@ -86,7 +86,7 @@ Aline, you’re going to kill yourself! It’s too soon for you to return to any
 
 ### Design Notes
 
- - In the game, during the final boss with Renoir, Aline momentarily returns to the Canvas to swing the battle to the party's favor.
+ - In the game, during the final boss battle with Renoir, Aline momentarily returns to the Canvas to swing the battle to the party's favor.
  - Mapped to targeted Axon/Nevron kill.
  - Added cycling to offset its marginality.
 
@@ -2374,7 +2374,7 @@ At the beginning of your upkeep, create a Chroma token.
  - As much as I personally despise double-faced cards (because of logistics around limited and sleeves, requiring paper hacks like checklist cards), flavorfully this has to be a creature that transforms to her Planeswalker half.
    - If we ever print this, it will be printed over 2 cards and not as a double-faced one, because I want a printed version of this set to be playable as-is without sleeves (as Richard Garfield intended).
  - In terms of planeswalker design, the primary theme is around Chroma and her mastery of it.
- - 29/11/2025: Void meteor ability cost adjust so that she can be a 5c commander.
+ - 29/11/2025: Void meteor ability cost adjusted so that she can be a 5c commander.
 
 ## The Scavenger
 
@@ -2654,5 +2654,5 @@ Fuse (You may cast one or both halves of this card from your hand.)
     - "When one falls" evokes in my mind an effect akin to Second Sunrise, so I've based it on that but scoped to Expeditioners
     - "We continue" evokes in my mind a Time Walk effect.
  - 23/09/2025: I will most likely change the "When One Falls" side to be a straight mass Expeditioner reanimation effect instead of one that only reanimates those that died this turn, which would make it more of a game-swinging bomb when cast fused, because if you are able to resolve this fused, you deserve to win the game at that point.
- - 3/10/2025: Changed "When one Falls" side to a straight mass Expeditoner reanimation effect and bumped cost from 3W to 4W
+ - 3/10/2025: Changed "When one Falls" side to a straight mass Expeditioner reanimation effect and bumped cost from 3W to 4W
 
