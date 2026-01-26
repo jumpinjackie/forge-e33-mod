@@ -26,6 +26,8 @@ K:Flying
 T:Mode$ ChangesZone | ValidCard$ Card.Self | Origin$ Any | Destination$ Battlefield | Execute$ TrigCounter | TriggerDescription$ When ~ enters, counter target spell and draw a card.
 SVar:TrigCounter:DB$ Counter | TargetType$ Spell | ValidTgts$ Card | TgtPrompt$ Select target spell | SubAbility$ TrigDraw
 SVar:TrigDraw:DB$ Draw | NumCards$ 1
+[Cycle]
+The five stages of Grief
 [DesignNotes]
  - No in-game basis, but Grief is such a central theme of Expedition 33 that having a cycle dedicated to the 5 stages is a total flavor nuke.
  - Denial is the first stage. Just on name-basis alone this is clearly a Mystic Snake like creature.

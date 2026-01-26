@@ -19,6 +19,8 @@ A:AB$ Pump | Cost$ Sac<1/CARDNAME> | ValidTgts$ Creature.YouCtrl | TgtPrompt$ Se
 SVar:DBFight:DB$ Fight | Defined$ ParentTarget | ValidTgts$ Creature.counters_GE1_STICK | TgtPrompt$ Choose target creature with a stick counter on it.
 [Artist]
 Sandfall Interactive
+[Cycle]
+Verso's Treehouse Artworks
 [DesignNotes]
  - In the game, inside Verso's Treehouse in Verso's Drafts, there are various artpieces depicting Verso interacting with various family members. One of them is him playing with his dog, Monoco.
  - Mapped to a fight-based combat trick. A target creature will get a stick, which you can "sic a dog" on at a later point in time (via fighting)

@@ -20,6 +20,8 @@ T:Mode$ Taps | ValidCard$ Creature.YouCtrl | OptionalDecider$ You | Execute$ Tri
 S:Mode$ Continuous | Affected$ Creature.YouCtrl | AddKeyword$ Reach | IsPresent$ Card.Self+counters_GE2_QUEST | Description$ As long as there are two or more counters on this enchantment. Creatures you control have reach.
 S:Mode$ Continuous | Affected$ You | AdjustLandPlays$ 1 | IsPresent$ Card.Self+counters_GE4_QUEST | Description$ As long as there are four or more counters on this enchantment. You may play an additional land on each of your turns.
 SVar:TrigPutCounter:DB$ PutCounter | Defined$ Self | CounterType$ QUEST | CounterNum$ 1
+[Cycle]
+Gestral Challenge Minigames (Base Game)
 [DesignNotes]
  - In the game, the Gestral Climbing Challenge is 1 of 5 challenge minigames. This minigame in particular requires climbing a tower-like structure to the top, while dodging falling projectiles.
  - All minigames are modeled as "quest" enchantments originating from Zendikar block and use the same terminology (charging with quest counters based on certain conditions with some payoff at the end once you reach a certain number of quest counters).

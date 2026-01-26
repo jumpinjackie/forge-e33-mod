@@ -33,6 +33,8 @@ A:AB$ RemoveCounter | Cost$ 2 GU | CounterType$ SKY | CounterNum$ 1 | SpellDescr
 Sandfall Interactive
 [DraftScore]
 98
+[Cycle]
+The Axons
 [DesignNotes]
  - In the game, The Reacher is an Act 3 dungeon. It is also one of the four Axons created by Renoir and represents Alicia.
  - The Reacher is a landmark, but also an Axon. So in MTG terms, it's both a land and a creature.

@@ -21,6 +21,8 @@ S:Mode$ Continuous | Affected$ Creature.YouCtrl | AddKeyword$ Haste | IsPresent$
 S:Mode$ Continuous | Affected$ Creature.YouCtrl | AddKeyword$ Ward:1 | IsPresent$ Card.Self+counters_GE4_QUEST | Description$ As long as there are four or more quest counters on CARDNAME, creatures you control have Ward 1.
 S:Mode$ Continuous | Affected$ Creature.YouCtrl | AddKeyword$ Trample | IsPresent$ Card.Self+counters_GE5_QUEST | Description$ As long as there are five or more quest counters on CARDNAME, creatures you control have trample.
 SVar:TrigQuestCounter:DB$ PutCounter | Defined$ Self | CounterType$ QUEST | CounterNum$ 1
+[Cycle]
+Gestral Challenge Minigames (Base Game)
 [DesignNotes]
  - In the game, the Gestral Foot Race Challenge is 1 of 5 challenge minigames. This minigame in particular requires clearing an obstacle course in under a certain amount of time. There are 3 ranks the player can achieve based on how fast they cleared the course.
  - All minigames are modeled as "quest" enchantments originating from Zendikar block and use the same terminology (charging with quest counters based on certain conditions with some payoff at the end once you reach a certain number of quest counters).

@@ -21,6 +21,8 @@ SVar:DBStayTapped:DB$ Effect | ReplacementEffects$ DontUntap | RememberObjects$ 
 SVar:DontUntap:Event$ Untap | ValidCard$ Card.IsRemembered | ValidStepTurnToController$ Player.Activator | Layer$ CantHappen | Description$ EFFECTSOURCE doesn't untap during your next untap step.
 [DraftScore]
 94
+[Cycle]
+The Axons
 [DesignNotes]
  - In the game, The Hauler is one of the four Axons created by Renoir. The Hauler represents Clea and has an entire city on its back, symbolizing the burden of family affairs being carried by Clea. The Hauler was killed by Simon.
  - Obviously mechanically maps to being a man-land. Given the legendary and epic nature of Axons, it clearly must animate into something big and monstrous.

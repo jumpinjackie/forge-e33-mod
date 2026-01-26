@@ -1149,6 +1149,7 @@ public class CardMasterDesign(string designFile)
                 case "[EntersTapped]":
                 case "[RelatedTokens]":
                 case "[DraftScore]":
+                case "[Cycle]":
                     // Apply the collected buffer for the previous property name
                     if (activePropertyName != null)
                     {

@@ -31,6 +31,8 @@ g_1_1_ballet_nevron
 Sandfall Interactive
 [DraftScore]
 91
+[Cycle]
+The Axons
 [DesignNotes]
  - In the game, Sirène is one of two Axons the party must slay in order for The Curator to be able to forge the Barrier Breaker to destroy the Monolith Barrier and gain access to The Monolith.
  - Shield counter ETB a nod to the fact that if you did not defeat Tisseur before facing Sirène in the video game, she will start the battle with shields on her.
