@@ -14,7 +14,7 @@ Sandfall Interactive
 [PT]
 8/8
 [Oracle]
-Trample. Menace.
+Trample, menace
 Matthieu does not untap during your untap step.
 Tap three creatures you control: Untap Matthieu.
 [ForgeScript]

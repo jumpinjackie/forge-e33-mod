@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 26/1/2026 3:17:45 pm
+> Last generated: 26/1/2026 6:41:30 pm
 
 ## A Storm is Coming
 
@@ -2130,7 +2130,7 @@ Transforms into:
 ```
 
 Legendary Creature - Human Expeditioner
-Trample, Double Strike
+Trample, double strike
 Simon enters with a foreboding counter.
 The dead are removed from the canvas — If a creature would be put into a graveyard from anywhere, exile it instead.
 Gathers Chroma — {B}{B}, {T}: Target creature has base toughness 1 until end of turn.

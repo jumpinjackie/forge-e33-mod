@@ -93934,7 +93934,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Trample. Menace.\nMatthieu does not untap during your untap step.\nTap three creatures you control: Untap Matthieu.",
+                    "text": "Trample, menace\nMatthieu does not untap during your untap step.\nTap three creatures you control: Untap Matthieu.",
                     "x": 0.086,
                     "y": 0.6325515280739161,
                     "width": 0.828,
@@ -120809,7 +120809,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Trample, Double Strike\nSimon enters with a foreboding counter.\n{i}The dead are removed from the canvas{/i} — If a creature would be put into a graveyard from anywhere, exile it instead.\n{i}Gathers Chroma{/i} — {B}{B}, {T}: Target creature has base toughness 1 until end of turn.\n{i}The Expedition is removed from the canvas{/i} — {T}, Remove a foreboding counter from Simon: Choose a creature an opponent controls. Exile all creatures except for Simon and the chosen creature.",
+                    "text": "Trample, double strike\nSimon enters with a foreboding counter.\n{i}The dead are removed from the canvas{/i} — If a creature would be put into a graveyard from anywhere, exile it instead.\n{i}Gathers Chroma{/i} — {B}{B}, {T}: Target creature has base toughness 1 until end of turn.\n{i}The Expedition is removed from the canvas{/i} — {T}, Remove a foreboding counter from Simon: Choose a creature an opponent controls. Exile all creatures except for Simon and the chosen creature.",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,

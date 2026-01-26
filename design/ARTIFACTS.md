@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 26/1/2026 9:12:52 am
+> Last generated: 26/1/2026 6:41:30 pm
 
 ## A Rock for François
 
@@ -1052,7 +1052,7 @@ Someone lives here.
 ```
 7
 Legendary Artifact Creature - Gestral
-Trample. Menace.
+Trample, menace
 Matthieu does not untap during your untap step.
 Tap three creatures you control: Untap Matthieu.
 
