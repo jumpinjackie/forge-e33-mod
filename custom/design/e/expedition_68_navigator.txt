@@ -31,7 +31,7 @@ $EXPEDITIONER_DEATH_ABILITY
 [RelatedTokens]
 c_a_map_sac_explore
 [Artist]
-Sandfall Interactive
+Google Gemini
 [DesignNotes]
  - Navigator ability mapped to map token generation
  - 17/01/2026: Added "Spreading Seas" ETB to check nonbasics.

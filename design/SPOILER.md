@@ -295,20 +295,20 @@
 |---|---|---|
 | ![](../custom/pics/tokens/E33/g_1_1_abbest_nevron.jpg) | ![](../custom/pics/tokens/E33/u_5_5_airship.jpg) | ![](../custom/pics/tokens/E33/g_1_1_ballet_nevron.jpg) |
 | <center>Abbest Token</center> | <center>Airship Token</center> | <center>Ballet Token</center> |
-| ![](../custom/pics/tokens/E33/u_barbapapa.jpg) | ![](../custom/pics/tokens/E33/c_a_chroma.jpg) | ![](../custom/pics/tokens/E33/c_a_clue_draw.jpg) |
-| <center>Barbapapa</center> | <center>Chroma Token</center> | <center>Clue Token</center> |
-| ![](../custom/pics/tokens/E33/ur_2_2_danseuse_clone.jpg) | ![](../custom/pics/tokens/E33/b_4_4_dark_chromatic_beast.jpg) | ![](../custom/pics/tokens/E33/c_a_flower.jpg) |
-| <center>Danseuse Clone Token</center> | <center>Dark Chromatic Beast</center> | <center>Flower Token</center> |
-| ![](../custom/pics/tokens/E33/c_a_food_sac.jpg) | ![](../custom/pics/tokens/E33/g_2_2_franctales_head.jpg) | ![](../custom/pics/tokens/E33/a_1_1_gestral.jpg) |
-| <center>Food Token</center> | <center>Franctale's Head</center> | <center>Gestral Token</center> |
-| ![](../custom/pics/tokens/E33/w_1_1_human_expeditioner.jpg) | ![](../custom/pics/tokens/E33/c_a_lumina.jpg) | ![](../custom/pics/tokens/E33/b_0_0_nevron_army.jpg) |
-| <center>Human Expeditioner Token</center> | <center>Lumina Token</center> | <center>Nevron Army Token</center> |
-| ![](../custom/pics/tokens/E33/c_1_1_nevron.jpg) | ![](../custom/pics/tokens/E33/b_0_1_osquios_mask.jpg) | ![](../custom/pics/tokens/E33/w_1_1_party_guest.jpg) |
-| <center>Nevron Token</center> | <center>Osquio's Mask</center> | <center>Party Guest Token</center> |
-| ![](../custom/pics/tokens/E33/c_1_1_pot_nevron.jpg) | ![](../custom/pics/tokens/E33/c_a_romanifos_balloon.jpg) | ![](../custom/pics/tokens/E33/wb_3_3_shadow_dualliste.jpg) |
-| <center>Pot Nevron Token</center> | <center>Romanifo's Balloon</center> | <center>Shadow Dualliste Token</center> |
-| ![](../custom/pics/tokens/E33/a_1_1_toy.jpg) |   |   |
-| <center>Toy Token</center> |   |   |
+| ![](../custom/pics/tokens/E33/u_barbapapa.jpg) | ![](../custom/pics/tokens/E33/c_a_blood_draw.jpg) | ![](../custom/pics/tokens/E33/c_a_chroma.jpg) |
+| <center>Barbapapa</center> | <center>Blood Token</center> | <center>Chroma Token</center> |
+| ![](../custom/pics/tokens/E33/c_a_clue_draw.jpg) | ![](../custom/pics/tokens/E33/ur_2_2_danseuse_clone.jpg) | ![](../custom/pics/tokens/E33/b_4_4_dark_chromatic_beast.jpg) |
+| <center>Clue Token</center> | <center>Danseuse Clone Token</center> | <center>Dark Chromatic Beast</center> |
+| ![](../custom/pics/tokens/E33/c_a_flower.jpg) | ![](../custom/pics/tokens/E33/c_a_food_sac.jpg) | ![](../custom/pics/tokens/E33/g_2_2_franctales_head.jpg) |
+| <center>Flower Token</center> | <center>Food Token</center> | <center>Franctale's Head</center> |
+| ![](../custom/pics/tokens/E33/a_1_1_gestral.jpg) | ![](../custom/pics/tokens/E33/w_1_1_human_expeditioner.jpg) | ![](../custom/pics/tokens/E33/c_a_lumina.jpg) |
+| <center>Gestral Token</center> | <center>Human Expeditioner Token</center> | <center>Lumina Token</center> |
+| ![](../custom/pics/tokens/E33/c_a_map_sac_explore.jpg) | ![](../custom/pics/tokens/E33/b_0_0_nevron_army.jpg) | ![](../custom/pics/tokens/E33/c_1_1_nevron.jpg) |
+| <center>Map Token</center> | <center>Nevron Army Token</center> | <center>Nevron Token</center> |
+| ![](../custom/pics/tokens/E33/b_0_1_osquios_mask.jpg) | ![](../custom/pics/tokens/E33/w_1_1_party_guest.jpg) | ![](../custom/pics/tokens/E33/c_1_1_pot_nevron.jpg) |
+| <center>Osquio's Mask</center> | <center>Party Guest Token</center> | <center>Pot Nevron Token</center> |
+| ![](../custom/pics/tokens/E33/c_a_romanifos_balloon.jpg) | ![](../custom/pics/tokens/E33/wb_3_3_shadow_dualliste.jpg) | ![](../custom/pics/tokens/E33/a_1_1_toy.jpg) |
+| <center>Romanifo's Balloon</center> | <center>Shadow Dualliste Token</center> | <center>Toy Token</center> |
 ## Clair Obscur: Expedition 33 Commander (E3C) [45/45 cards]
 - White: 4/4 cards
 - Blue: 2/2 cards

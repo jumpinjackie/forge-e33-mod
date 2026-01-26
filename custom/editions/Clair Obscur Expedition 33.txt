@@ -121,7 +121,7 @@ Type=Custom
 142 U Expedition 64 Radio @Sandfall Interactive
 143 U Expedition 67 Blastminer @Sandfall Interactive
 144 U Expedition 67 Demolitions Expert @Sandfall Interactive
-145 C Expedition 68 Navigator @Sandfall Interactive
+145 C Expedition 68 Navigator @Google Gemini
 146 U Expedition 69 @Sandfall Interactive
 147 C Expedition 69 Explorer @Google Gemini
 148 C Expedition 69 Mountaineer @Google Gemini
@@ -341,7 +341,7 @@ Type=Custom
 413 U Thermal Transfer @Sandfall Interactive
 415 C Thunderfall @Sandfall Interactive
 416 R Tisseur @Sandfall Interactive
-417 U Tomorrow Comes @Sandfall Interactive
+417 U Tomorrow Comes @Google Gemini
 418 C Torture // Nurture @Sandfall Interactive
 420 U Troubador @Sandfall Interactive
 421 U Twilight Quarry @Sandfall Interactive
