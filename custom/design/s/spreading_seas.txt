@@ -1,0 +1,21 @@
+[Name]
+Spreading Seas
+[Types]
+Enchantment
+Aura
+[ManaCost]
+1
+U
+[Rarity]
+C
+[Oracle]
+Enchant land
+When this Aura enters, draw a card.
+Enchanted land is an Island.
+[FlavorText]
+It’s a miracle any of us survived. We were caught in the maelstrom and flung from wave to wave. We lost the moon and the stars, condemned to a never-ending darkness of punishing rain and raging clouds.
+- Elodie, Expedition 68
+[IsReprint]
+true
+[DesignNotes]
+ - Flavorful reprint to check nonbasics.
