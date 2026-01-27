@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 26/1/2026 6:41:30 pm
+> Last generated: 27/1/2026 10:45:28 am
 
 ## A Rock for François
 
@@ -1225,7 +1225,7 @@ Learn Picto 2 (Sacrifice two Lumina tokens: Create a token copy of this equipmen
 4
 Legendary Artifact Creature - Gestral
 When Sastro enters, put two 1/1 Gestral artifact creature tokens into play.
-{2}: Put a shield counter on target Gestral you control.
+{2}, {T}: Put a shield counter on another target Gestral you control.
 Whenever another nontoken Gestral creature you control enters, create a Chroma token.
 ---
 I sure love being irresponsible!

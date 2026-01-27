@@ -15,14 +15,14 @@ Sandfall Interactive
 2/2
 [Oracle]
 When Sastro enters, put two 1/1 Gestral artifact creature tokens into play.
-{2}: Put a shield counter on target Gestral you control.
+{2}, {T}: Put a shield counter on another target Gestral you control.
 Whenever another nontoken Gestral creature you control enters, create a Chroma token.
 [FlavorText]
 I sure love being irresponsible!
 [ForgeScript]
 T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigCreateTokens | TriggerDescription$ When CARDNAME enters, put 2 1/1 Gestral artifact creature tokens into play.
 SVar:TrigCreateTokens:DB$ Token | TokenScript$ a_1_1_gestral | TokenOwner$ You | TokenAmount$ 2
-A:AB$ PutCounter | Cost$ 2 | ValidTgts$ Card.Gestral+YouCtrl | TgtPrompt$ Select target Gestral you control | CounterType$ SHIELD | CounterNum$ 1 | SpellDescription$ Put a shield counter on target Gestral you control.
+A:AB$ PutCounter | Cost$ 2 T | ValidTgts$ Card.Gestral+Other+YouCtrl | TgtPrompt$ Select another target Gestral you control | CounterType$ SHIELD | CounterNum$ 1 | SpellDescription$ Put a shield counter on another target Gestral you control.
 T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Creature.Gestral+YouCtrl+Other+!token | TriggerZones$ Battlefield | Execute$ TrigChroma | TriggerDescription$ Whenever another nontoken Gestral creature you control enters, create a Chroma token.
 SVar:TrigChroma:DB$ Token | TokenScript$ c_a_chroma | TokenOwner$ You | TokenAmount$ 1
 [RelatedTokens]
@@ -34,3 +34,4 @@ c_a_chroma
  - 6/10/2025: Gone with a Chroma rewarding ability.
  - 13/10/2025: Formerly known as Sastro, the Concerned
  - 22/10/2025: Fixed chroma bonus triggering on any nontoken creature
+ - 27/01/2026: Updated shield abiliry to require tapping and can only target other gestrals.
