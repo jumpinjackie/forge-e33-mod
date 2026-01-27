@@ -1,5 +1,5 @@
 Name:Mask Keeper
-ManaCost:5 U B
+ManaCost:5 W U
 Types:Legendary Creature Axon
 PT:8/8
 K:Ward:3

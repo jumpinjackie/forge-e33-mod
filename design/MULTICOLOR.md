@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 26/1/2026 6:41:30 pm
+> Last generated: 27/1/2026 7:48:56 am
 
 ## A Storm is Coming
 
@@ -299,7 +299,7 @@ When this creature dies, target opponent creates a Lumina token.
 ## Clea Dessendre, Seeking Vengeance
 
 ```
-2UB
+3UB
 Legendary Planeswalker - Clea
 Nevron spells you cast cost {1} less to cast.
 [+2]: Amass Nevrons 2
@@ -319,6 +319,7 @@ Nevron spells you cast cost {1} less to cast.
     - -10: She is a shrewd manipulator
  - 26/11/2025: Made her -2 loyalty only tutor up Nevron creatures, so that Clea's Chromatic Mastery acutally does something unique (tutor up any Nevron card, not just creatures)
  - 14/12/2025: Changed her +2 loyalty to Amass a black Nevron army instead of creating a 1/1 Nevron to mix things up.
+ - 27/01/2026: Increased cost from 2UB to 3UB
 
 ## Clea Unleashed
 
@@ -1736,7 +1737,7 @@ When you unlock this door, it deals 3 damage to any target.
 ## Mask Keeper
 
 ```
-5UB
+5WU
 Legendary Creature - Axon
 Ward {3}
 Mask Keeper enters with an anger counter, a joy counter and a sadness counter.
@@ -1762,6 +1763,7 @@ We all need masks.
  - The upkeep trigger wording probably sounds a bit weird. Default instinct is to use modal ability templating, but there is no textbox budget for that and there is no other precedent for templating such a triggered ability in this manner. So it is worded this way as a "creative decision".
     - This will be implemented as a modal trigger in Forge.
  - 21/01/2026: Removed Trample.
+ - 27/07/2026: Color-shifted from Dimir to Azorius.
 
 ## Mesmeric Deception
 

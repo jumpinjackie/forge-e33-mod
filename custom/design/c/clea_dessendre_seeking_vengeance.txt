@@ -1,7 +1,7 @@
 [Name]
 Clea Dessendre, Seeking Vengeance
 [ManaCost]
-2
+3
 U
 B
 [Types]
@@ -40,3 +40,4 @@ Sandfall Interactive
     - -10: She is a shrewd manipulator
  - 26/11/2025: Made her -2 loyalty only tutor up Nevron creatures, so that Clea's Chromatic Mastery acutally does something unique (tutor up any Nevron card, not just creatures)
  - 14/12/2025: Changed her +2 loyalty to Amass a black Nevron army instead of creating a 1/1 Nevron to mix things up.
+ - 27/01/2026: Increased cost from 2UB to 3UB

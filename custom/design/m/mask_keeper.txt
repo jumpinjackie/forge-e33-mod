@@ -2,8 +2,8 @@
 Mask Keeper
 [ManaCost]
 5
+W
 U
-B
 [Types]
 Legendary
 Creature
@@ -53,3 +53,4 @@ Sandfall Interactive
  - The upkeep trigger wording probably sounds a bit weird. Default instinct is to use modal ability templating, but there is no textbox budget for that and there is no other precedent for templating such a triggered ability in this manner. So it is worded this way as a "creative decision".
     - This will be implemented as a modal trigger in Forge.
  - 21/01/2026: Removed Trample.
+ - 27/07/2026: Color-shifted from Dimir to Azorius.
