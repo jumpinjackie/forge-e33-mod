@@ -1,0 +1,23 @@
+[Main]
+4 Earth Rising|E33
+4 Expedition 69|E33
+4 Leave this Canvas!|E33
+4 Manor Greenhouse // Manor Gallery|E33
+4 Manor Kitchen // Manor Cellar|E33
+4 Manor Library // Manor Fireplace|E33
+4 Manor Door|E33
+4 Sky Break|E33
+3 Void Meteors|E33
+4 Manor Gardens|E33
+4 Sirène's Coliseum|E33
+4 Lumière Aquafarm|E33
+2 Lumière, The Last Bastion|E33
+2 The Monolith Interior|E33
+1 The Hauler|E33
+1 The Reacher|E33
+1 Visages|E33
+1 Mountain|E33
+1 Plains|E33
+1 Forest|E33
+2 Island|E33
+1 Swamp|E33

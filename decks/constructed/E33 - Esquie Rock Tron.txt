@@ -1,0 +1,28 @@
+[Main]
+2 Esquie, Friend of Verso|E33
+1 Gustave, Lumière Engineer|E33
+1 Lune, Charting a Path|E33
+1 Sciel, Grieving for Many|E33
+1 Last Stand of Expedition 33|E33
+4 A Rock for François|E33
+4 The Search for Esquie's Rocks|E33
+1 Dorrie|E33
+1 Florrie|E33
+1 Soarrie|E33
+1 Urrie|E33
+4 Expedition 70|E33
+4 An Advantage!|E33
+4 Esquie's Charge|E33
+1 Esquie's Embrace|E33
+3 Lost // Found|E33
+2 Sky Break|E33
+4 Esquie's Nest|E33
+2 Lumière, The Last Bastion|E33
+4 Spring Meadows|E33
+4 Stone Wave Cliffs|E33
+4 Sky Island|E33
+1 Forest|E33
+1 Island|E33
+1 Mountain|E33
+2 Plains|E33
+1 Swamp|E33

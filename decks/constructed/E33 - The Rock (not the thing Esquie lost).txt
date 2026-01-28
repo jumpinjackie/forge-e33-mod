@@ -1,0 +1,23 @@
+[Main]
+4 Abbest|E33
+4 Expedition 59 Chef|E33
+4 Expedition 60 Messenger|E33
+2 The Scavenger|E33
+2 Tisseur|E33
+2 Painted Renoir, Aline's Enforcer|E33
+4 Death Stare|E33
+4 Massacre at Dark Shores|E33
+4 Maelle's Nightmare|E33
+4 Surcease|E33
+2 Momentary Revelation|E33
+1 Shrine to The Paintress|E33
+4 Sirène's Coliseum|E33
+4 Lost Woods|E33
+4 Dark Shores|E33
+1 Endless Tower|E33
+1 The Hauler|E33
+1 Forgotten Battlefield|E33
+1 The Root of All Evil|E33
+1 Falling Leaves|E33
+2 Forest|E33
+4 Swamp|E33

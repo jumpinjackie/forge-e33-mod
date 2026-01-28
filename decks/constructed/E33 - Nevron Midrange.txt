@@ -1,0 +1,17 @@
+[Main]
+4 Bruler|E33
+4 Cruler|E33
+4 Contortionniste|E33
+4 Échassier|E33
+4 Painted Clea, the Regent|E33
+4 Clea Dessendre, Seeking Vengeance|E33
+1 Clea Unleashed|E33
+4 An Advantage!|E33
+4 Full Deck|E33
+4 Massacre at Dark Shores|E33
+4 Dark Shores|E33
+4 Boat Graveyard|E33
+2 Endless Tower|E33
+2 Flying Waters|E33
+5 Swamp|E33
+6 Island|E33

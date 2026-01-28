@@ -1,0 +1,89 @@
+[Main]
+1 Aberration|E33
+1 Bourgeon|E33
+1 Bénisseur|E33
+1 Chroma Barrier|E33
+1 Chromatic Rebirth|E33
+1 Clea Dessendre, Seeking Vengeance|E33
+1 Clea Unleashed|E33
+1 Clea's Chromatic Mastery|E33
+1 Contortionniste|E33
+1 Danseuse|E33
+1 Dessendre Family Portrait|E33
+1 Duollistes|E33
+1 Glissando|E33
+1 Goblu|E33
+1 Grosse Tête|E33
+1 Lampmaster|E33
+1 Manor Entrance // Manor Hidden Room|E33
+1 Nevron Pecking Order|E33
+1 Osquio, Ruler Of All The Trains|E33
+1 Painted Alicia, Eternally Suffering|E33
+1 Painted Clea, the Regent|E33
+1 Painted Renoir, Aline's Enforcer|E33
+1 Renoir's Creation|E33
+1 Renoir's Will|E33
+1 Revive Tint|E33
+1 Robust Sakapatate|E33
+1 Serpenphare|E33
+1 Shrine to The Paintress|E33
+1 Simon, Consort of Clea|E33
+1 Sirène, Who Plays With Wonder|E33
+1 Sprong|E33
+1 The Scavenger|E33
+1 Tisseur|E33
+1 Ultimate Sakapatate|E33
+1 Unfinished Jar|E33
+1 Unfinished Troubador|E33
+1 Échassier|E33
+1 Évêque|E33
+// Sweepers
+1 Farewell|E3C
+1 Gommage|E33
+1 The Fracture|E33
+1 Austere Command|E3C
+1 Massacre at Dark Shores|E33
+// Spot removal
+1 Chaos Warp|E3C
+1 Chroma Prison|E33
+1 Chromatic Petrification|E33
+1 Bedevil|E3C
+1 Piercing Strike|E33
+1 Putrefy|E3C
+1 Surcease|E33
+1 Terminate|E33
+1 Void Meteors|E33
+1 Void Rend|E3C
+// Mana Rocks
+1 Sol Ring|E3C
+1 Lumière Flower Stand|E33
+1 Arcane Signet|E3C
+1 Patchwork Banner|E3C
+1 Talisman of Dominance|E3C
+1 Talisman of Impulse|E3C
+1 Talisman of Indulgence|E3C
+1 Talisman of Resilience|E3C
+// Lands
+1 The Hauler|E33
+1 The Monolith|E33
+1 The Monolith Interior|E33
+1 The Reacher|E33
+1 Sunless Cliffs|E33
+1 Yellow Harvest|E33
+1 Endless Tower|E33
+1 Field of Ruin|E33
+1 Painted Bluffs|E33
+1 Seething Landscape|E33
+1 Shattered Landscape|E33
+1 Frozen Hearts|E3C
+1 Sinister Cave|E3C
+1 Twilight Quarry|E33
+1 The Root of All Evil|E33
+1 Visages|E33
+4 Forest|E33
+4 Island|E33
+4 Plains|E33
+5 Mountain|E33
+5 Swamp|E33
+[Commander]
+1 The Curator|E33

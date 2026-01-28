@@ -1,0 +1,26 @@
+[Main]
+4 Gestral Kid|E33
+4 Gestral Fighter|E33
+4 Gestral Ringleader|E33
+3 Gestral Warrior|E33
+1 Gestral Merchant|E33
+1 Gestral Worker|E33
+1 Golgra, Gestral Chef|E33
+1 Julien Tiny Head|E33
+1 Limonsol, Matchmaker|E33
+1 Alicenisa, Gestral Siren|E33
+1 Lorieniso, Gestral Musician|E33
+1 Matthieu the Colossus|E33
+1 Romanifo, the Half-baked|E33
+1 Sastro, Gestral Guardian|E33
+1 Sunniso, Gestral Bouncer|E33
+4 Gestral Volleyball Strike|E33
+4 Gestral Pot|E33
+3 Breaking Rules|E33
+4 Lumière Harbor|E33
+2 The Sacred River|E33
+4 Gestral Arena|E33
+4 Yellow Harvest|E33
+4 Gestral Village|E33
+2 Mountain|E33
+3 Forest|E33

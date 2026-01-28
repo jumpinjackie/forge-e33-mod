@@ -1,0 +1,32 @@
+[Main]
+4 Abbest|E33
+4 Catapault Sakapatate|E33
+4 Contortionniste|E33
+1 Bénisseur|E33
+1 Danseuse|E33
+1 Goblu|E33
+1 Lampmaster|E33
+1 Potier|E33
+1 Ranger Sakapatate|E33
+1 Robust Sakapatate|E33
+1 Duollistes|E33
+1 Sprong|E33
+1 The Scavenger|E33
+1 Tisseur|E33
+1 Troubador|E33
+1 Échassier|E33
+4 Revive Tint|E33
+3 Massacre at Dark Shores|E33
+4 Nevron Pecking Order|E33
+4 Sirène's Coliseum|E33
+4 Lost Woods|E33
+4 Dark Shores|E33
+4 Twisted Landscape|E33
+1 Endless Tower|E33
+1 Falling Leaves|E33
+1 The Root of All Evil|E33
+1 Mountain|E33
+1 Forest|E33
+1 Island|E33
+1 Plains|E33
+1 Swamp|E33

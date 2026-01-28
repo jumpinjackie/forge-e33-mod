@@ -1,0 +1,19 @@
+[Main]
+4 Denial|E33
+4 Démineur|E33
+4 Expedition 40 Glider|E33
+4 Expedition 78 Airship|E33
+2 Expedition 78|E33
+4 Gestral Ascension Challenge|E33
+4 Lune's Denial|E33
+4 Swift Counter|E33
+4 Thunderfall|E33
+3 Breaking Moment|E33
+3 Lune's Curiosity|E33
+4 Sirène's Coliseum|E33
+4 Stone Wave Cliffs|E33
+2 Lumière Opera House|E33
+2 Twilight Quarry|E33
+1 The Reacher|E33
+6 Island|E33
+1 Mountain|E33

@@ -1,0 +1,22 @@
+[Main]
+2 Bound by Chains|E33
+4 Crippling Tsunami|E33
+2 Expedition 35 Bridge|E33
+4 Expedition 55 Drummer|E33
+3 Expedition 55 Trumpeter|E33
+1 Expedition 81 Interpreter|E33
+4 Expedition Recruiter|E33
+4 Swift Counter|E33
+1 When One Falls // We Continue|E33
+3 Lumière Assault|E33
+4 Lune's Denial|E33
+1 Monoco, Collector of Feet|E33
+4 Rally the Expeditioners|E33
+4 Lumière Aquafarm|E33
+4 Sky Island|E33
+4 White Sands|E33
+1 Forest|E33
+3 Island|E33
+2 Plains|E33
+1 Lumière Opera House|E33
+4 Lumière, The Last Bastion|E33
