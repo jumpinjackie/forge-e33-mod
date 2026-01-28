@@ -132,8 +132,8 @@
 | <center>[Bittersweet Reunion](MULTICOLOR.md#bittersweet-reunion)</center> | <center>[Bourgeon](MULTICOLOR.md#bourgeon)</center> | <center>[Braseleur](MULTICOLOR.md#braseleur)</center> |
 | ![](../custom/pics/cards/E33/Breaking%20Rules.full.jpg) | ![](../custom/pics/cards/E33/Chromatic%20Petrification.full.jpg) | ![](../custom/pics/cards/E33/Chromatic%20Reclamation.full.jpg) |
 | <center>[Breaking Rules](MULTICOLOR.md#breaking-rules)</center> | <center>[Chromatic Petrification](MULTICOLOR.md#chromatic-petrification)</center> | <center>[Chromatic Reclamation](MULTICOLOR.md#chromatic-reclamation)</center> |
-| ![](../custom/pics/cards/E33/Clair%20Obscur.full.jpg) | ![](../custom/pics/cards/E33/Clea%20Dessendre%2C%20Seeking%20Vengeance.full.jpg) | ![](../custom/pics/cards/E33/Clea%20Unleashed.full.jpg) |
-| <center>[Clair Obscur](MULTICOLOR.md#clair-obscur)</center> | <center>[Clea Dessendre, Seeking Vengeance](MULTICOLOR.md#clea-dessendre-seeking-vengeance)</center> | <center>[Clea Unleashed](MULTICOLOR.md#clea-unleashed)</center> |
+| ![](../custom/pics/cards/E33/Clair%20Obscur.full.jpg) | ![](../custom/pics/cards/E33/Clea%20Dessendre%2C%20the%20Mistress.full.jpg) | ![](../custom/pics/cards/E33/Clea%20Unleashed.full.jpg) |
+| <center>[Clair Obscur](MULTICOLOR.md#clair-obscur)</center> | <center>[Clea Dessendre, the Mistress](MULTICOLOR.md#clea-dessendre-the-mistress)</center> | <center>[Clea Unleashed](MULTICOLOR.md#clea-unleashed)</center> |
 | ![](../custom/pics/cards/E33/Closure.full.jpg) | ![](../custom/pics/cards/E33/Contortionniste.full.jpg) | ![](../custom/pics/cards/E33/Danseuse.full.jpg) |
 | <center>[Closure](MULTICOLOR.md#closure)</center> | <center>[Contortionniste](MULTICOLOR.md#contortionniste)</center> | <center>[Danseuse](MULTICOLOR.md#danseuse)</center> |
 | ![](../custom/pics/cards/E33/Death%20Stare.full.jpg) | ![](../custom/pics/cards/E33/Dualliste.full.jpg) | ![](../custom/pics/cards/E33/Duollistes.full.jpg) |

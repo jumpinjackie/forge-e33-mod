@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 27/1/2026 10:45:28 am
+> Last generated: 28/1/2026 2:01:53 am
 
 ## A Rock for François
 
@@ -1242,6 +1242,7 @@ I sure love being irresponsible!
  - 6/10/2025: Gone with a Chroma rewarding ability.
  - 13/10/2025: Formerly known as Sastro, the Concerned
  - 22/10/2025: Fixed chroma bonus triggering on any nontoken creature
+ - 27/01/2026: Updated shield abiliry to require tapping and can only target other gestrals.
 
 ## Shot Picto
 

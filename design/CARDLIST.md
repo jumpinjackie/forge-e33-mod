@@ -88,7 +88,7 @@ Cards implemented: 455
 [x] Chromatic Reclamation
 [x] Clair
 [x] Clair Obscur
-[x] Clea Dessendre, Seeking Vengeance
+[ ] Clea Dessendre, Seeking Vengeance
 [x] Clea's Chromatic Mastery
 [x] Closure
 [x] Colette, Trinket Dealer

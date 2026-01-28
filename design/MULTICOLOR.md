@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 27/1/2026 7:48:56 am
+> Last generated: 28/1/2026 2:22:40 am
 
 ## A Storm is Coming
 
@@ -296,7 +296,7 @@ When this creature dies, target opponent creates a Lumina token.
  - 29/12/2025: Downshift to uncommon
  - 21/01/2026: Increased shield counter activation cost from 1W to 3W
 
-## Clea Dessendre, Seeking Vengeance
+## Clea Dessendre, the Mistress
 
 ```
 3UB
@@ -308,7 +308,7 @@ Nevron spells you cast cost {1} less to cast.
 [-10]: Gain control of all creatures target opponent controls.
 ```
 
-[card implementation](../custom/cards/c/clea_dessendre_seeking_vengeance.txt)
+[card implementation](../custom/cards/c/clea_dessendre_the_mistress.txt)
 
 ### Design Notes
 

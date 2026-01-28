@@ -22524,7 +22524,7 @@
         }
     },
     {
-        "key": "Clea Dessendre, Seeking Vengeance",
+        "key": "Clea Dessendre, the Mistress",
         "data": {
             "width": 2010,
             "height": 2814,
@@ -22548,10 +22548,10 @@
                     "masks": []
                 }
             ],
-            "artSource": "https://corsproxy.io/?url=https%3A%2F%2Fstatic.wikia.nocookie.net%2Fclair-obscur%2Fimages%2F0%2F0d%2FCoe33_Verso_Ending_Clea.jpg",
-            "artX": -0.5592039800995025,
-            "artY": 0.08848614072494669,
-            "artZoom": 1.218,
+            "artSource": "https://corsproxy.io/?url=https%3A%2F%2Fjumpinjackie.github.io%2Fe33-reference-art%2Fimages%2Fcards%2Fclea_dessendre_seeking_vengeance.jpg",
+            "artX": -0.0890547263681592,
+            "artY": 0.060767590618336885,
+            "artZoom": 1.225,
             "artRotate": "0",
             "setSymbolSource": "https://cardconjurer.app/img/setSymbols/official/pz1-m.svg",
             "setSymbolX": 0.8756218905472637,
@@ -22708,7 +22708,7 @@
                 },
                 "title": {
                     "name": "Title",
-                    "text": "Clea Dessendre, Seeking Vengeance",
+                    "text": "Clea Dessendre, the Mistress",
                     "x": 0.0867,
                     "y": 0.0372,
                     "width": 0.8267,
@@ -22716,7 +22716,7 @@
                     "oneLine": true,
                     "font": "belerenb",
                     "size": 0.0381,
-                    "fontSize": "-21"
+                    "fontSize": "0"
                 },
                 "type": {
                     "name": "Type",
@@ -26459,7 +26459,7 @@
             },
             "infoNumber": "2025",
             "infoRarity": "R",
-            "infoSet": "MTG",
+            "infoSet": "E33",
             "infoLanguage": "EN",
             "infoArtist": "Sandfall Interactive",
             "infoNote": "Proxy, Not for Sale",
@@ -41630,9 +41630,9 @@
                 }
             ],
             "artSource": "https://corsproxy.io/?url=https%3A%2F%2Fjumpinjackie.github.io%2Fe33-reference-art%2Fimages%2Fcards%2Fexpedition_47_drunkard.jpg",
-            "artX": -0.36666666666666664,
-            "artY": 0.021321961620469083,
-            "artZoom": 1.767,
+            "artX": 0.07711442786069651,
+            "artY": 0.07107320540156362,
+            "artZoom": 1.6640000000000001,
             "artRotate": "0",
             "setSymbolSource": "https://cardconjurer.app/img/setSymbols/official/pz1-c.svg",
             "setSymbolX": 0.8701492537313433,
@@ -41835,7 +41835,7 @@
             "infoRarity": "C",
             "infoSet": "E33",
             "infoLanguage": "EN",
-            "infoArtist": "Sandfall Interactive",
+            "infoArtist": "Google Gemini",
             "infoNote": "Proxy, Not for Sale",
             "serialNumber": "",
             "serialTotal": "",
@@ -47379,7 +47379,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "{2}{R}, {T}: Destroy target nonbasic land.\nWhen this creature dies, create a Chroma token.",
+                    "text": "{2}{R}, {T}: Destroy target nonbasic land.\nWhen this creature dies, create a Chroma token.{flavor}People who say “paper beats rock” have never heard of explosives!",
                     "x": 0.086,
                     "y": 0.6325515280739161,
                     "width": 0.828,
@@ -49892,9 +49892,9 @@
                 }
             ],
             "artSource": "https://corsproxy.io/?url=https%3A%2F%2Fjumpinjackie.github.io%2Fe33-reference-art%2Fimages%2Fcards%2Fexpedition_78_airship.jpg",
-            "artX": -0.050248756218905476,
-            "artY": 0.11300639658848614,
-            "artZoom": 1.1540000000000001,
+            "artX": 0.07711442786069651,
+            "artY": 0.07107320540156362,
+            "artZoom": 1.6640000000000001,
             "artRotate": "0",
             "setSymbolSource": "https://cardconjurer.app/img/setSymbols/official/pz1-u.svg",
             "setSymbolX": 0.8706467661691543,
@@ -50095,9 +50095,9 @@
             },
             "infoNumber": "2025",
             "infoRarity": "U",
-            "infoSet": "MTG",
+            "infoSet": "E33",
             "infoLanguage": "EN",
-            "infoArtist": "Sandfall Interactive",
+            "infoArtist": "Google Gemini",
             "infoNote": "Proxy, Not for Sale",
             "serialNumber": "",
             "serialTotal": "",
@@ -69898,7 +69898,7 @@
             },
             "infoNumber": "2025",
             "infoRarity": "R",
-            "infoSet": "MTG",
+            "infoSet": "E33",
             "infoLanguage": "EN",
             "infoArtist": "Sandfall Interactive",
             "infoNote": "Proxy, Not for Sale",

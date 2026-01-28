@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 17/1/2026 9:18:27 pm
+> Last generated: 28/1/2026 2:01:53 am
 
 ## Anger
 
@@ -175,6 +175,8 @@ I dare not show my true feelings. As Commander, I cannot yield to fear. But I ca
 Creature - Human Expeditioner
 {2}{R}, {T}: Destroy target nonbasic land.
 When this creature dies, create a Chroma token.
+---
+People who say "paper beats rock" have never heard of explosives!
 
 1/3
 ```
