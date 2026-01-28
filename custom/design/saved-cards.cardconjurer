@@ -59505,7 +59505,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Affinity for Clea Planeswalkers.\nDefender.\n{i}The strongest ice attack ever{/i} — At the beginning of your upkeep, François deals 4 damage to target creature an opponent controls. Tap that creature and put a stun counter on it.{flavor}A ROCK? I am NOT a rock, do you have rocks for eyes? You certainly have rocks for BRAINS. I am clearly a TURTLE.",
+                    "text": "Affinity for Clea Planeswalkers\nDefender\n{i}The strongest ice attack ever{/i} — At the beginning of your upkeep, François deals 4 damage to target creature an opponent controls. Tap that creature and put a stun counter on it.{flavor}A ROCK? I am NOT a rock, do you have rocks for eyes? You certainly have rocks for BRAINS. I am clearly a TURTLE.",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,

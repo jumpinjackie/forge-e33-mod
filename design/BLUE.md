@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 26/1/2026 9:42:17 am
+> Last generated: 28/1/2026 3:17:24 am
 
 ## An Advantage!
 
@@ -317,8 +317,8 @@ III — Sacrifice all Airships you control. Create a Chroma token for each Airsh
 ```
 2UU
 Legendary Artifact Creature - Turtle
-Affinity for Clea Planeswalkers.
-Defender.
+Affinity for Clea Planeswalkers
+Defender
 The strongest ice attack ever — At the beginning of your upkeep, François deals 4 damage to target creature an opponent controls. Tap that creature and put a stun counter on it.
 ---
 A ROCK? I am NOT a rock, do you have rocks for eyes? You certainly have rocks for BRAINS. I am clearly a TURTLE.
