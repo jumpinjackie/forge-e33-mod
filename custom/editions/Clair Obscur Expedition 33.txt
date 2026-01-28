@@ -56,7 +56,7 @@ Type=Custom
 63 R Chromatic Reclamation @Sandfall Interactive
 64 U Clair @Sandfall Interactive
 65 U Clair Obscur @Sandfall Interactive
-66 M Clea Dessendre, Seeking Vengeance @Sandfall Interactive
+66 M Clea Dessendre, the Mistress @Sandfall Interactive
 67 M Clea Unleashed @Sandfall Interactive
 68 U Clea's Chromatic Mastery @Sandfall Interactive
 69 U Closure @Sandfall Interactive
