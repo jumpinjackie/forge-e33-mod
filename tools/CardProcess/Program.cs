@@ -752,6 +752,7 @@ public class CardMasterDesign(string designFile)
     }
 
     public string? Bucket { get; set; }
+    public string? MulticolorSubBucket { get; set; }
 
     public int? DraftScore => FrontFull?.DraftScore;
 
@@ -786,6 +787,69 @@ public class CardMasterDesign(string designFile)
             'G' or 'g' => "GREEN",
             'C' or 'c' => "COLORLESS",
             _ => null
+        };
+    }
+
+    public static string? ComputeMulticolorSubBucket(HashSet<char> letters)
+    {
+        if (letters == null || letters.Count == 0)
+            return null;
+        if (letters.Count >= 4)
+            return "Misc";
+
+        // Pairs
+        if (letters.SetEquals(new HashSet<char>{'U','W'})) return "UW";
+        if (letters.SetEquals(new HashSet<char>{'U','G'})) return "UG";
+        if (letters.SetEquals(new HashSet<char>{'U','R'})) return "UR";
+        if (letters.SetEquals(new HashSet<char>{'U','B'})) return "UB";
+        if (letters.SetEquals(new HashSet<char>{'B','R'})) return "BR";
+        if (letters.SetEquals(new HashSet<char>{'R','G'})) return "RG";
+        if (letters.SetEquals(new HashSet<char>{'G','B'})) return "GB";
+        if (letters.SetEquals(new HashSet<char>{'G','W'})) return "GW";
+        if (letters.SetEquals(new HashSet<char>{'R','W'})) return "RW";
+        if (letters.SetEquals(new HashSet<char>{'W','B'})) return "WB";
+
+        // Triples
+        if (letters.SetEquals(new HashSet<char>{'U','R','W'})) return "URW";
+        if (letters.SetEquals(new HashSet<char>{'B','G','U'})) return "BGU";
+        if (letters.SetEquals(new HashSet<char>{'G','U','R'})) return "GUR";
+        if (letters.SetEquals(new HashSet<char>{'W','U','B'})) return "WUB";
+        if (letters.SetEquals(new HashSet<char>{'R','W','B'})) return "RWB";
+        if (letters.SetEquals(new HashSet<char>{'R','G','W'})) return "RGW";
+        if (letters.SetEquals(new HashSet<char>{'B','R','G'})) return "BRG";
+        if (letters.SetEquals(new HashSet<char>{'U','B','R'})) return "UBR";
+        if (letters.SetEquals(new HashSet<char>{'G','W','U'})) return "GWU";
+        if (letters.SetEquals(new HashSet<char>{'W','B','G'})) return "WBG";
+
+        return "Misc";
+    }
+
+    public static string SubBucketFriendlyName(string code)
+    {
+        return code switch
+        {
+            "UW" => "Azorius",
+            "UG" => "Simic",
+            "UR" => "Izzet",
+            "UB" => "Dimir",
+            "BR" => "Rakdos",
+            "RG" => "Gruul",
+            "GB" => "Golgari",
+            "GW" => "Selesnya",
+            "RW" => "Boros",
+            "WB" => "Orzhov",
+            "URW" => "Jeskai",
+            "BGU" => "Sultai",
+            "GUR" => "Temur",
+            "WUB" => "Esper",
+            "RWB" => "Mardu",
+            "RGW" => "Naya",
+            "BRG" => "Jund",
+            "UBR" => "Grixis",
+            "GWU" => "Bant",
+            "WBG" => "Abzan",
+            "Misc" => "Misc",
+            _ => code
         };
     }
 
@@ -1058,6 +1122,26 @@ public class CardMasterDesign(string designFile)
                 this.Bucket = "MULTICOLOR";
             else
                 this.Bucket = colors.First();
+
+            if (this.Bucket == "MULTICOLOR")
+            {
+                // Build a set of single-letter color codes, ignoring COLORLESS
+                var letters = new HashSet<char>();
+                foreach (var c in colors)
+                {
+                    if (c == "COLORLESS")
+                        continue;
+                    switch (c)
+                    {
+                        case "WHITE": letters.Add('W'); break;
+                        case "BLUE": letters.Add('U'); break;
+                        case "BLACK": letters.Add('B'); break;
+                        case "RED": letters.Add('R'); break;
+                        case "GREEN": letters.Add('G'); break;
+                    }
+                }
+                this.MulticolorSubBucket = ComputeMulticolorSubBucket(letters);
+            }
         }
         // There are no split/meld artifact or colorless cards, so if no color identity could be determined it is 99% should be a regular card
         else if (this.FrontFull is not null)
@@ -1515,6 +1599,215 @@ public class CardMasterDesign(string designFile)
     }
 }
 
+public enum StatsType
+{
+    Bucket,
+    PrimaryType
+}
+
+public static class StatsPrinter
+{
+    public static string BuildBucketTable(SortedDictionary<string, CardMasterDesign> cards, bool showEmptyRows = false)
+    {
+        var rarityCodes = new[] { "C", "U", "R", "M", "?" }; // ? == unknown
+        var distro = new SortedDictionary<string, Dictionary<string, int>>(StringComparer.OrdinalIgnoreCase);
+        var multicolorSubDistro = new Dictionary<string, Dictionary<string, int>>(StringComparer.OrdinalIgnoreCase);
+        var rarityTotals = rarityCodes.ToDictionary(r => r, r => 0);
+        int overallTotal = 0;
+
+        foreach (var (_, card) in cards)
+        {
+            overallTotal++;
+
+            var r = card.Rarity ?? "?";
+            if (r.Length != 1 || (r != "C" && r != "U" && r != "R" && r != "M"))
+                r = "?";
+            rarityTotals[r]++;
+
+            var b = card.Bucket ?? "UNKNOWN";
+            if (!distro.TryGetValue(b, out var map))
+            {
+                map = rarityCodes.ToDictionary(rr => rr, rr => 0);
+                distro[b] = map;
+            }
+            map[r]++;
+
+            if (b.Equals("MULTICOLOR", StringComparison.OrdinalIgnoreCase))
+            {
+                var sub = card.MulticolorSubBucket ?? "Misc";
+                if (!multicolorSubDistro.TryGetValue(sub, out var smap))
+                {
+                    smap = rarityCodes.ToDictionary(rr => rr, rr => 0);
+                    multicolorSubDistro[sub] = smap;
+                }
+                smap[r]++;
+            }
+        }
+
+        var canonicalBuckets = new[] { "WHITE", "BLUE", "BLACK", "RED", "GREEN", "MULTICOLOR", "LANDS", "ARTIFACTS", "UNKNOWN" };
+        var pairOrder = new[] { "UW", "UG", "UR", "UB", "BR", "RG", "GB", "GW", "RW", "WB" };
+        var tripleOrder = new[] { "URW", "BGU", "GUR", "WUB", "RWB", "RGW", "BRG", "UBR", "GWU", "WBG" };
+
+        if (showEmptyRows)
+        {
+            foreach (var cb in canonicalBuckets)
+            {
+                if (!distro.ContainsKey(cb))
+                    distro[cb] = rarityCodes.ToDictionary(rr => rr, rr => 0);
+            }
+            foreach (var code in pairOrder.Concat(tripleOrder).Concat(new[] { "Misc" }))
+            {
+                if (!multicolorSubDistro.ContainsKey(code))
+                    multicolorSubDistro[code] = rarityCodes.ToDictionary(rr => rr, rr => 0);
+            }
+        }
+
+        // Prepare a simple aligned table
+        var subLabels = multicolorSubDistro.Keys.Select(k => $"  {k} ({CardMasterDesign.SubBucketFriendlyName(k)})").ToList();
+        int nameWidth = Math.Max(6, Math.Max(distro.Keys.Select(k => k.Length).DefaultIfEmpty(6).Max(), subLabels.Select(s => s.Length).DefaultIfEmpty(0).Max()));
+        var sb = new StringBuilder();
+
+        // Header
+        sb.Append(' ', 0);
+        sb.Append("Bucket".PadRight(nameWidth + 2));
+        sb.Append("| ");
+        sb.Append(String.Join(" | ", rarityCodes.Select(rc => rc.PadLeft(3))));
+        sb.Append(" | Tot (%)\n");
+
+        // Separator
+        sb.Append(new string('-', nameWidth + 2));
+        sb.Append("|-----|-----|-----|-----|-----|-----\n");
+
+        IEnumerable<string> bucketOrder = showEmptyRows ? canonicalBuckets : distro.Keys;
+
+        // Rows per bucket
+        foreach (var bucket in bucketOrder)
+        {
+            var map = distro.ContainsKey(bucket) ? distro[bucket] : rarityCodes.ToDictionary(rr => rr, rr => 0);
+            var rowTotal = map.Values.Sum();
+            if (!showEmptyRows && rowTotal == 0)
+                continue;
+            double pct = overallTotal > 0 ? (100.0 * rowTotal / overallTotal) : 0.0;
+            sb.Append(bucket.PadRight(nameWidth + 2));
+            sb.Append("| ");
+            sb.Append(String.Join(" | ", rarityCodes.Select(rc => map.ContainsKey(rc) ? map[rc].ToString().PadLeft(3) : "  0")));
+            sb.Append($" | {rowTotal} ({pct:F1}%)\n");
+
+            if (bucket.Equals("MULTICOLOR", StringComparison.OrdinalIgnoreCase))
+            {
+                foreach (var code in pairOrder.Concat(tripleOrder).Concat(new[] { "Misc" }))
+                {
+                    var smap = multicolorSubDistro.ContainsKey(code) ? multicolorSubDistro[code] : rarityCodes.ToDictionary(rr => rr, rr => 0);
+                    var sTotal = smap.Values.Sum();
+                    if (!showEmptyRows && sTotal == 0)
+                        continue;
+                    var label = $"  {code} ({CardMasterDesign.SubBucketFriendlyName(code)})";
+                    sb.Append(label.PadRight(nameWidth + 2));
+                    sb.Append("| ");
+                    sb.Append(String.Join(" | ", rarityCodes.Select(rc => smap.ContainsKey(rc) ? smap[rc].ToString().PadLeft(3) : "  0")));
+                    sb.Append($" | {sTotal}\n");
+                }
+            }
+        }
+
+        // Totals row
+        sb.Append(new string('-', nameWidth + 2));
+        sb.Append("|-----|-----|-----|-----|-----|-----\n");
+        sb.Append("Total".PadRight(nameWidth + 2));
+        sb.Append("| ");
+        sb.Append(String.Join(" | ", rarityCodes.Select(rc => rarityTotals[rc].ToString().PadLeft(3))));
+        sb.Append($" | {overallTotal} (100.0%)\n\n");
+
+        var result = new StringBuilder();
+        result.AppendLine("Rarity distribution by bucket:");
+        result.Append(sb.ToString());
+        return result.ToString();
+    }
+
+    public static string BuildTypeTable(SortedDictionary<string, CardMasterDesign> cards, bool showEmptyRows = false)
+    {
+        var rarityCodes = new[] { "C", "U", "R", "M", "?" };
+        var typeCategories = new[] { "Creature", "Instant", "Sorcery", "Enchantment", "Land", "Artifact", "Other" };
+
+        var typeDistro = new SortedDictionary<string, Dictionary<string, int>>(StringComparer.OrdinalIgnoreCase);
+        foreach (var t in typeCategories)
+        {
+            typeDistro[t] = rarityCodes.ToDictionary(rc => rc, rc => 0);
+        }
+
+        int overallTotal = 0;
+        foreach (var (_, card) in cards)
+        {
+            overallTotal++;
+            var cat = card.GetPrimaryCategory();
+            var r = card.Rarity ?? "?";
+            if (r.Length != 1 || (r != "C" && r != "U" && r != "R" && r != "M"))
+                r = "?";
+
+            if (!typeDistro.ContainsKey(cat))
+                cat = "Other";
+
+            typeDistro[cat][r]++;
+        }
+
+        // Build table string
+        var tbl = new StringBuilder();
+        // Header
+        tbl.Append(' ', 0);
+        tbl.Append("Type".PadRight(Math.Max(6, typeCategories.Select(t => t.Length).Max()) + 2));
+        tbl.Append("| ");
+        tbl.Append(String.Join(" | ", rarityCodes.Select(rc => rc.PadLeft(3))));
+        tbl.Append(" | Tot (% )\n\n");
+
+        // Separator
+        tbl.Append(new string('-', Math.Max(6, typeCategories.Select(t => t.Length).Max()) + 2));
+        tbl.Append("|-----|-----|-----|-----|-----|-----\n");
+
+        var grandTotalFromType = typeDistro.Values.Select(m => m.Values.Sum()).Sum();
+        foreach (var t in typeCategories)
+        {
+            var map = typeDistro[t];
+            var rowTotal = map.Values.Sum();
+
+            if (!showEmptyRows && rowTotal == 0)
+                continue;
+
+            tbl.Append(t.PadRight(Math.Max(6, typeCategories.Select(tt => tt.Length).Max()) + 2));
+            tbl.Append("| ");
+            tbl.Append(String.Join(" | ", rarityCodes.Select(rc => map.ContainsKey(rc) ? map[rc].ToString().PadLeft(3) : "  0")));
+            double pct = grandTotalFromType > 0 ? (100.0 * rowTotal / grandTotalFromType) : 0.0;
+            tbl.Append($" | {rowTotal.ToString().PadLeft(3)} ({pct:F1}%)\n");
+        }
+
+        // Totals row
+        tbl.Append(new string('-', Math.Max(6, typeCategories.Select(tt => tt.Length).Max()) + 2));
+        tbl.Append("|-----|-----|-----|-----|-----|-----\n");
+        tbl.Append("Total".PadRight(Math.Max(6, typeCategories.Select(tt => tt.Length).Max()) + 2));
+        tbl.Append("| ");
+        tbl.Append(String.Join(" | ", rarityCodes.Select(rc => typeDistro.Values.Sum(m => m.ContainsKey(rc) ? m[rc] : 0).ToString().PadLeft(3))));
+        tbl.Append($" | {grandTotalFromType}\n\n");
+
+        var result = new StringBuilder();
+        result.AppendLine("Count by primary type (rows = type, cols = rarity):");
+        result.Append(tbl.ToString());
+        result.AppendLine($"Grand total (by type sum): {grandTotalFromType}");
+        if (grandTotalFromType == overallTotal)
+            result.AppendLine($"Sanity check: OK (matches rarity total {overallTotal})");
+        else
+            result.AppendLine($"Sanity check: MISMATCH - type grand total {grandTotalFromType} != rarity grand total {overallTotal}");
+
+        return result.ToString();
+    }
+
+    public static string BuildStats(SortedDictionary<string, CardMasterDesign> cards, bool showEmptyRows = false)
+    {
+        var sb = new StringBuilder();
+        sb.AppendLine(BuildBucketTable(cards, showEmptyRows));
+        sb.AppendLine(BuildTypeTable(cards, showEmptyRows));
+        return sb.ToString();
+    }
+}
+
 public abstract class BaseCommand
 {
     public abstract required DirectoryInfo BaseDirectory { get; set; }
@@ -1523,7 +1816,7 @@ public abstract class BaseCommand
 
     protected abstract Task<int> ExecuteAsync(CliContext context, TextWriter stdout, TextWriter stderr);
 
-    protected async Task<SortedDictionary<string, CardMasterDesign>> ReadCardDesignsAsync(TextWriter stdout, TextWriter stderr)
+    protected async Task<SortedDictionary<string, CardMasterDesign>> ReadCardDesignsAsync(TextWriter stdout, TextWriter stderr, bool silent = false)
     {
         var subDirs = this.BaseDirectory.GetDirectories();
         var designDir = subDirs.FirstOrDefault(d => d.Name == "design");
@@ -1535,8 +1828,8 @@ public abstract class BaseCommand
         {
             //if (!scriptFile.EndsWith("when_one_falls_we_continue.txt"))
             //    continue;
-
-            await stdout.WriteLineAsync($"Processing: {scriptFile}");
+            if (!silent)
+                await stdout.WriteLineAsync($"Processing: {scriptFile}");
             var card = await CardMasterDesign.ReadAsync(this.BaseDirectory, scriptFile);
             if (card.IsValid())
                 cards.Add(card.Name, card);
@@ -1661,10 +1954,6 @@ public class GenAllCommand : BaseCommand
 
         // Generate SPOILER.md containing a 3-column table of card and token images
         await GenerateSpoilerAsync(cards, tokens, BaseDirectory, OutputDir, stdout, stderr);
-
-        // Compile stats: build a rarity-by-bucket distribution
-        await GenerateStatsAsync(cards, stdout);
-
 
         await stdout.WriteLineAsync("All generation tasks completed successfully!");
 
@@ -2420,153 +2709,6 @@ public class GenAllCommand : BaseCommand
 
         await stdout.WriteLineAsync($"Generated e33.rnk with {rankedCards.Count} ranked cards and {unrankedCards.Count} unranked cards");
     }
-
-    private async Task GenerateStatsAsync(SortedDictionary<string, CardMasterDesign> cards, TextWriter stdout)
-    {
-        // Compile stats: build a rarity-by-bucket distribution
-        var rarityCodes = new[] { "C", "U", "R", "M", "?" }; // ? == unknown
-        var distro = new SortedDictionary<string, Dictionary<string, int>>(StringComparer.OrdinalIgnoreCase);
-        var rarityTotals = rarityCodes.ToDictionary(r => r, r => 0);
-        int overallTotal = 0;
-
-        foreach (var (_, card) in cards)
-        {
-            overallTotal++;
-
-            var r = card.Rarity ?? "?";
-            if (r.Length != 1 || (r != "C" && r != "U" && r != "R" && r != "M"))
-                r = "?";
-            rarityTotals[r]++;
-
-            var b = card.Bucket ?? "UNKNOWN";
-            if (!distro.TryGetValue(b, out var map))
-            {
-                map = rarityCodes.ToDictionary(rr => rr, rr => 0);
-                distro[b] = map;
-            }
-            map[r]++;
-        }
-
-        // Prepare a simple aligned table
-        int nameWidth = Math.Max(6, distro.Keys.Select(k => k.Length).DefaultIfEmpty(6).Max());
-        var sb = new StringBuilder();
-
-        // Header
-        sb.Append(' ', 0);
-        sb.Append("Bucket".PadRight(nameWidth + 2));
-        sb.Append("| ");
-        sb.Append(String.Join(" | ", rarityCodes.Select(rc => rc.PadLeft(3))));
-        sb.Append(" | Tot (%)\n");
-
-        // Separator
-        sb.Append(new string('-', nameWidth + 2));
-        sb.Append("|-----|-----|-----|-----|-----|-----\n");
-
-        // Rows per bucket
-        foreach (var kv in distro)
-        {
-            var bucket = kv.Key;
-            var map = kv.Value;
-            var rowTotal = map.Values.Sum();
-            double pct = overallTotal > 0 ? (100.0 * rowTotal / overallTotal) : 0.0;
-            sb.Append(bucket.PadRight(nameWidth + 2));
-            sb.Append("| ");
-            sb.Append(String.Join(" | ", rarityCodes.Select(rc => map.ContainsKey(rc) ? map[rc].ToString().PadLeft(3) : "  0")));
-            sb.Append($" | {rowTotal} ({pct:F1}%)\n");
-        }
-
-        // Totals row
-        sb.Append(new string('-', nameWidth + 2));
-        sb.Append("|-----|-----|-----|-----|-----|-----\n");
-        sb.Append("Total".PadRight(nameWidth + 2));
-        sb.Append("| ");
-        sb.Append(String.Join(" | ", rarityCodes.Select(rc => rarityTotals[rc].ToString().PadLeft(3))));
-        sb.Append($" | {overallTotal} (100.0%)\n");
-
-        await stdout.WriteLineAsync("Rarity distribution by bucket:");
-        await stdout.WriteLineAsync(sb.ToString());
-
-        // --- New: Tally cards by primary type (Creature > Instant > Sorcery > Enchantment > Land > Artifact > Other)
-        var typeCategories = new[] { "Creature", "Instant", "Sorcery", "Enchantment", "Land", "Artifact", "Other" };
-        var typeCounts = typeCategories.ToDictionary(t => t, t => 0);
-
-        foreach (var (_, card) in cards)
-        {
-            var cat = card.GetPrimaryCategory();
-            if (!typeCounts.ContainsKey(cat))
-                typeCounts["Other"]++;
-            else
-                typeCounts[cat]++;
-        }
-
-        // Build a table of primary type vs rarity, with subtotals and percentages
-        await stdout.WriteLineAsync("Count by primary type (rows = type, cols = rarity):");
-        int labelWidth = Math.Max(6, typeCategories.Select(t => t.Length).Max());
-
-        // Prepare per-type per-rarity map
-        var typeDistro = new SortedDictionary<string, Dictionary<string, int>>(StringComparer.OrdinalIgnoreCase);
-        foreach (var t in typeCategories)
-        {
-            typeDistro[t] = rarityCodes.ToDictionary(rc => rc, rc => 0);
-        }
-
-        foreach (var (_, card) in cards)
-        {
-            var cat = card.GetPrimaryCategory();
-            var r = card.Rarity ?? "?";
-            if (r.Length != 1 || (r != "C" && r != "U" && r != "R" && r != "M"))
-                r = "?";
-
-            if (!typeDistro.ContainsKey(cat))
-                cat = "Other";
-
-            typeDistro[cat][r]++;
-        }
-
-        // Build table string
-        var tbl = new StringBuilder();
-        // Header
-        tbl.Append(' ', 0);
-        tbl.Append("Type".PadRight(labelWidth + 2));
-        tbl.Append("| ");
-        tbl.Append(String.Join(" | ", rarityCodes.Select(rc => rc.PadLeft(3))));
-        tbl.Append(" | Tot (% )\n");
-
-        // Separator
-        tbl.Append(new string('-', labelWidth + 2));
-        tbl.Append("|-----|-----|-----|-----|-----|-----\n");
-
-        var grandTotalFromType = typeDistro.Values.Select(m => m.Values.Sum()).Sum();
-        foreach (var t in typeCategories)
-        {
-            var map = typeDistro[t];
-            var rowTotal = map.Values.Sum();
-
-            tbl.Append(t.PadRight(labelWidth + 2));
-            tbl.Append("| ");
-            tbl.Append(String.Join(" | ", rarityCodes.Select(rc => map.ContainsKey(rc) ? map[rc].ToString().PadLeft(3) : "  0")));
-            double pct = grandTotalFromType > 0 ? (100.0 * rowTotal / grandTotalFromType) : 0.0;
-            tbl.Append($" | {rowTotal.ToString().PadLeft(3)} ({pct:F1}%)\n");
-        }
-
-        // Totals row
-        tbl.Append(new string('-', labelWidth + 2));
-        tbl.Append("|-----|-----|-----|-----|-----|-----\n");
-        tbl.Append("Total".PadRight(labelWidth + 2));
-        tbl.Append("| ");
-        // column totals per rarity
-        tbl.Append(String.Join(" | ", rarityCodes.Select(rc => typeDistro.Values.Sum(m => m.ContainsKey(rc) ? m[rc] : 0).ToString().PadLeft(3))));
-        tbl.Append($" | {grandTotalFromType}\n");
-
-        await stdout.WriteLineAsync(tbl.ToString());
-
-        // Print grand totals and sanity check
-        await stdout.WriteLineAsync($"Grand total (by type sum): {grandTotalFromType}");
-        if (grandTotalFromType == overallTotal)
-            await stdout.WriteLineAsync($"Sanity check: OK (matches rarity total {overallTotal})");
-        else
-            await stdout.WriteLineAsync($"Sanity check: MISMATCH - type grand total {grandTotalFromType} != rarity grand total {overallTotal}");
-    }
 }
 
 [CliCommand(Name = "cardconjurer", Description = "Validate CardConjurer config against current design")]
@@ -3211,9 +3353,67 @@ public class LocalCardConjurerCommand : BaseCommand
     }
 }
 
+[CliCommand(Name = "stats", Description = "Print stats (rarity distribution and type matrix)")]
+public class StatsCommand : BaseCommand
+{
+    [CliOption(Required = true, Description = "The base content directory")]
+    public override required DirectoryInfo BaseDirectory { get; set; }
+
+    [CliOption(Description = "Which table to output: 'bucket' or 'type'. Omit to print both.")]
+    public StatsType? Type { get; set; }
+
+    [CliOption(Required = false, Description = "Only include cards whose primary type matches (case-insensitive). Example: 'Creature'.")]
+    public string? PrimaryType { get; set; }
+
+    [CliOption(Required = false, Description = "Include rows with all-zero totals in the printed tables (default: omit empty rows).")]
+    public bool ShowEmptyRows { get; set; } = false;
+
+    protected override async Task<int> ExecuteAsync(CliContext context, TextWriter stdout, TextWriter stderr)
+    {
+        var cards = await ReadCardDesignsAsync(stdout, stderr, true);
+
+        // Apply primary-type filter if provided
+        if (!string.IsNullOrEmpty(this.PrimaryType))
+        {
+            var filtered = new SortedDictionary<string, CardMasterDesign>();
+            foreach (var kv in cards)
+            {
+                if (kv.Value.GetPrimaryCategory().Equals(this.PrimaryType, StringComparison.OrdinalIgnoreCase))
+                    filtered.Add(kv.Key, kv.Value);
+            }
+            cards = filtered;
+        }
+
+        string output;
+        if (Type is null)
+        {
+            output = StatsPrinter.BuildStats(cards, this.ShowEmptyRows);
+        }
+        else
+        {
+            switch (Type.Value)
+            {
+                case StatsType.Bucket:
+                    output = StatsPrinter.BuildBucketTable(cards, this.ShowEmptyRows);
+                    break;
+                case StatsType.PrimaryType:
+                    output = StatsPrinter.BuildTypeTable(cards, this.ShowEmptyRows);
+                    break;
+                default:
+                    await stderr.WriteLineAsync("Invalid --type value.");
+                    return 1;
+            }
+        }
+
+        await stdout.WriteLineAsync(output);
+        return 0;
+    }
+}
+
 [CliCommand(
     Children = [
         typeof(GenAllCommand),
+        typeof(StatsCommand),
         typeof(CardConjurerValidateCommand),
         typeof(LocalCardConjurerCommand)
     ]
