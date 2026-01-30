@@ -3,6 +3,9 @@ using System.Globalization;
 using System.IO;
 using System.Text;
 using System.Text.RegularExpressions;
+using System.Text.Json;
+using System.Text.Json.Nodes;
+using System.Net;
 using DotMake.CommandLine;
 using Microsoft.VisualBasic;
 
@@ -3121,10 +3124,98 @@ public class CardConjurerValidateCommand : BaseCommand
     }
 }
 
+// Local CardConjurer -> create a local copy with adjusted URLs
+[CliCommand(Name = "localcc", Description = "Create a local CardConjurer config with local URLs")]
+public class LocalCardConjurerCommand : BaseCommand
+{
+    [CliOption(Required = true, Description = "The base content directory")]
+    public override required DirectoryInfo BaseDirectory { get; set; }
+
+    protected override async Task<int> ExecuteAsync(
+        CliContext context,
+        TextWriter stdout,
+        TextWriter stderr
+    )
+    {
+        var subDirs = this.BaseDirectory.GetDirectories();
+        var designDir = subDirs.FirstOrDefault(d => d.Name == "design");
+        if (designDir is null)
+            throw new InvalidOperationException("Design dir not found");
+
+        var ccConfigPath = Path.Combine(designDir.FullName, "saved-cards.cardconjurer");
+        if (!File.Exists(ccConfigPath))
+            throw new InvalidOperationException("Could not find saved-cards.cardconjurer");
+
+        var text = File.ReadAllText(ccConfigPath);
+        var root = JsonNode.Parse(text) as JsonArray;
+        if (root == null)
+            throw new InvalidOperationException("Invalid saved-cards.cardconjurer format");
+
+        foreach (var el in root)
+        {
+            if (el is JsonObject obj && obj.TryGetPropertyValue("data", out var dataNode) && dataNode is JsonObject data)
+            {
+                // artSource proxied via CORS proxy
+                if (data.TryGetPropertyValue("artSource", out var artNode) && artNode is JsonValue)
+                {
+                    var artVal = artNode.GetValue<string>() ?? string.Empty;
+                    var idx = artVal.IndexOf("corsproxy.io/?url=", StringComparison.OrdinalIgnoreCase);
+                    if (idx >= 0)
+                    {
+                        var encoded = artVal.Substring(idx + "corsproxy.io/?url=".Length);
+                        var decoded = WebUtility.UrlDecode(encoded);
+                        var qIdx = decoded.IndexOf('?');
+                        if (qIdx >= 0) decoded = decoded.Substring(0, qIdx);
+                        data["artSource"] = decoded;
+                    }
+                    else
+                    {
+                        // handle percent-encoded form like https%3A%2F%2Fcorsproxy.io%2F%3Furl%3D...
+                        var encMarker = "https%3A%2F%2Fcorsproxy.io%2F%3Furl%3D";
+                        var encIdx = artVal.IndexOf(encMarker, StringComparison.OrdinalIgnoreCase);
+                        if (encIdx >= 0)
+                        {
+                            var encodedPart = artVal.Substring(encIdx + encMarker.Length);
+                            var decodedOnce = WebUtility.UrlDecode(encodedPart);
+                            var qIdx2 = decodedOnce.IndexOf('?');
+                            if (qIdx2 >= 0) decodedOnce = decodedOnce.Substring(0, qIdx2);
+                            data["artSource"] = decodedOnce;
+                        }
+                    }
+                }
+
+                // setSymbolSource replacement
+                if (data.TryGetPropertyValue("setSymbolSource", out var sNode) && sNode is JsonValue)
+                {
+                    var sVal = sNode.GetValue<string>() ?? string.Empty;
+                    var replaced = sVal.Replace("https://cardconjurer.app", "http://localhost:4242")
+                                       .Replace("https%3A%2F%2Fcardconjurer.app", "http%3A%2F%2Flocalhost%3A4242");
+                    data["setSymbolSource"] = replaced;
+                }
+
+                // watermarkSource replacement
+                if (data.TryGetPropertyValue("watermarkSource", out var wNode) && wNode is JsonValue)
+                {
+                    var wVal = wNode.GetValue<string>() ?? string.Empty;
+                    var replaced = wVal.Replace("https://cardconjurer.app", "http://localhost:4242")
+                                       .Replace("https%3A%2F%2Fcardconjurer.app", "http%3A%2F%2Flocalhost%3A4242");
+                    data["watermarkSource"] = replaced;
+                }
+            }
+        }
+
+        var outPath = Path.Combine(designDir.FullName, "local-saved-cards.cardconjurer");
+        File.WriteAllText(outPath, root.ToJsonString(new JsonSerializerOptions { WriteIndented = true }));
+        await stdout.WriteLineAsync($"Saved: {outPath}");
+        return 0;
+    }
+}
+
 [CliCommand(
     Children = [
         typeof(GenAllCommand),
-        typeof(CardConjurerValidateCommand)
+        typeof(CardConjurerValidateCommand),
+        typeof(LocalCardConjurerCommand)
     ]
 )]
 public class RootCommand { }
