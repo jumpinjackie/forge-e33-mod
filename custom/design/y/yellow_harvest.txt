@@ -17,6 +17,8 @@ Copperline Gorge
 Wow... That Nevron is the size of a mountain.
 [Artist]
 Sandfall Interactive
+[Tags]
+mana-fixer
 [DesignNotes]
  - In the game, Yellow Harvest is an optional area.
  - Went with a nickname reprint of Copperline Gorge 
