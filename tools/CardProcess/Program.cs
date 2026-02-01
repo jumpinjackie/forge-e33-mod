@@ -2699,11 +2699,18 @@ public class GenAllCommand : BaseCommand
                             imageRow[c] = $"![]({encodedRel})";
                             // Build tag HTML only for non-commander cards with non-empty tag arrays
                             var tagsHtml = string.Empty;
-                            if (!isCommander && tags is not null && tags.Length > 0)
+                            if (!isCommander)
                             {
-                                var sortedTags = tags.OrderBy(t => t).ToArray();
-                                var tagsText = EscapeXml(string.Join(", ", sortedTags));
-                                tagsHtml = $"<br/><small>— Tags: {tagsText}</small>";
+                                if (tags is not null && tags.Length > 0)
+                                {
+                                    var sortedTags = tags.OrderBy(t => t).ToArray();
+                                    var tagsText = EscapeXml(string.Join(", ", sortedTags));
+                                    tagsHtml = $"<br/><small>Tags: {tagsText}</small>";
+                                }
+                                else
+                                {
+                                    tagsHtml = $"<br/><small>Tags: (none)</small>";
+                                }
                             }
                             // Caption in the next row
                             if (linkifyCaptions && !string.IsNullOrEmpty(bucket) && bucket != "TOKENS" && !IsBasicLand(name))
