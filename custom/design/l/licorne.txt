@@ -27,6 +27,8 @@ u_barbapapa
 Sandfall Interactive
 [Bugs]
  - AI does not want to use Barbpapa debuff
+[Tags]
+creature-removal
 [DesignNotes]
  - In the game, Licornes can be found in Verso's Drafts. They have the appearance of a turtle (like Francois), but have a rainbow colored shell with googly eyes and troll hair on top.
  - Another creature with a Barbapapa debuff ETB and a creature pinger.

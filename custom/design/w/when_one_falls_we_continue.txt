@@ -11,6 +11,8 @@ R
 Sandfall Interactive
 [Oracle]
 Return all Expeditioner permanent cards from your graveyard to the battlefield.
+[Tags]
+reanimation
 [ForgeScript]
 K:Fuse
 AlternateMode:Split

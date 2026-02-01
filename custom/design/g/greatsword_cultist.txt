@@ -28,6 +28,8 @@ Covers her sword in blood
 Is about to jump
 [Artist]
 Sandfall Interactive
+[Tags]
+creature-removal
 [DesignNotes]
  - In the game, Greatsword Cultists are found in the Stone Wave Cliffs
  - Main gimmick being captured is shielding herself at the expense of great self-inflicted suffering.

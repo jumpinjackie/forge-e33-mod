@@ -22,6 +22,10 @@ SVar:DBToken:DB$ Token | TokenAmount$ 1 | TokenOwner$ You | TokenScript$ c_a_lum
 c_a_lumina
 [Artist]
 Sandfall Interactive
+[Tags]
+lumina-generator
+creature-removal
+combat-trick
 [DesignNotes]
  - Flavorful (based on art) [removal / combat trick] reprint
  - 14/01/2026: Renamed from Band Together to Face Adversity so we can tack on a Lumina token bonus.

@@ -17,6 +17,8 @@ $NEVRON_DEATH_ABILITY_TEXT
 [ForgeScript]
 A:AB$ Mana | Cost$ T | Produced$ G | SpellDescription$ Add {G}.
 $NEVRON_DEATH_ABILITY
+[Tags]
+mana-dork
 [DesignNotes]
  - Just a "vanilla" bear with stock Nevron card text.
  - 23/09/2025: Changed casting cost from 1G to G and PT from 2/2 to 1/2 to make it unique from the (now fully green) Lancelier

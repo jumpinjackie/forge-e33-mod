@@ -21,6 +21,8 @@ A:AB$ Destroy | Cost$ 2 R T | ValidTgts$ Land.nonBasic | TgtPrompt$ Select targe
 $EXPEDITIONER_DEATH_ABILITY
 [Artist]
 Sandfall Interactive
+[Tags]
+nonbasic-hate
 [DesignNotes]
  - In the game, Expedition 67 employed the use of explosives to tear down walls in Sirène's coliseum. They succumbed to Sirène's musical wiles.
  - Due to the massive amount of non-basics in this set, this is a necessary card to check such greedy manabases.

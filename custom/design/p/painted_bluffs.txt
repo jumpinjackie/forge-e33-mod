@@ -17,5 +17,7 @@ Mark Poole
 [FlavorText]
 We painted hundreds of Canvas worlds, pushing the very boundaries of creation. And she never let me forget that every day we spend here has a price.
 - Renoir
+[Tags]
+mana-fixer
 [DesignNotes]
  - Has "Painted" in its name, color fixes. Easy on-flavor reprint candidate.

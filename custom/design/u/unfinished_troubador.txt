@@ -27,6 +27,8 @@ S:Mode$ Continuous | Affected$ Creature.Other+YouCtrl | IsPresent$ Card.Self+cou
 S:Mode$ Continuous | Affected$ Creature.Other+YouCtrl | IsPresent$ Card.Self+counters_GE1_RAGE | AddKeyword$ Haste | Description$ Other creatures you control have haste if ~ has a rage counter.
 [Artist]
 Sandfall Interactive
+[Tags]
+lord
 [DesignNotes]
  - In the game, the Unfinished Troubador can be found in the Stone Quarry. It wants you to "teach" it how to play music, which consists of a parry challenge by parrying the "bad" notes and taking in the "good" notes. Passing the challenge will reward you with a picto.
  - Modeled as a bear that can fulfill one of its Troubador "roles" if you spend the right colors of mana on it.

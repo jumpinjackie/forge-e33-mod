@@ -12,5 +12,7 @@ Cycling {W}{U}{B} {i}({W}{U}{B}, Discard this card: Draw a card.)
 true
 [Artist]
 Donato Giancola
+[Tags]
+mana-fixer
 [DesignNotes]
  - Easy common mana fixing for limited and smoothes out manabases for Commander.

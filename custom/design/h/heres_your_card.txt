@@ -20,6 +20,9 @@ Foretell {0} (During your turn, you may pay {2} and exile this card from your ha
 K:Foretell:0
 A:SP$ Pump | ValidTgts$ Creature | TgtPrompt$ Select target creature | NumAtt$ -2 | NumDef$ -2 | SubAbility$ DBToken | SpellDescription$ Target creature gets -2/-2 until end of turn. Create a Lumina token.
 SVar:DBToken:DB$ Token | TokenAmount$ 1 | TokenOwner$ You | TokenScript$ c_a_lumina
+[Tags]
+lumina-generator
+creature-removal
 [DesignNotes]
  - In the game, this is one of Sciel's quotes when performing a regular attack.
  - Simple targeted creature kill with Foretell to name-tie (not mechanically-tie) it to Sciel's skillset. The keyword ability is already there, so let's just use it!

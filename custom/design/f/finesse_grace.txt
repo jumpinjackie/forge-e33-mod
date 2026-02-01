@@ -31,6 +31,8 @@ Maelle with fencing-style sword in hand, in another battle stance.
 Target creature gains first strike, lifelink and +1/+1 until end of turn.
 [ForgeScript]
 A:SP$ Pump | ValidTgts$ Creature | TgtPrompt$ Select target creature to give first strike, lifelink and +1/+1 | NumAtt$ +1 | NumDef$ +1 | KW$ First Strike & Lifelink | SpellDescription$ Target creature gains first strike, lifelink and +1/+1 until end of turn.
+[Tags]
+combat-trick
 [DesignNotes]
  - One of Maelle's quotes during battle.
  - Thematically sounds like a combat trick. Designed as such.

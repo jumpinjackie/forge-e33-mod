@@ -16,6 +16,8 @@ SVar:Y:Count$Valid Painter.YouCtrl
 SVar:X:Count$Compare Y GE1.4.2
 [Artist]
 Sandfall Interactive
+[Tags]
+creature-removal
 [DesignNotes]
  - "I know what he'll say, but this is the first time I've felt any surcease" - Aline's journal.
  - Another excuse to put a perfectly cromulent word into card form.

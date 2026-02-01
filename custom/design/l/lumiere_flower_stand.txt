@@ -23,6 +23,8 @@ A:AB$ PutCounter | Cost$ 3 T | CounterType$ STOCK | SpellDescription$ Put a stoc
 c_a_flower
 [Artist]
 Sandfall Interactive
+[Tags]
+mana-rock
 [DesignNotes]
  - In the game, the town of Lumière has several market stands in the town square. Tiffanie operates one of these stands and sells flowers.
  - Just wanted another card to get extra usage out of Flower tokens (besides Goblu)

@@ -37,6 +37,8 @@ SVar:DBDamage:DB$ DealDamage | ValidTgts$ Player | TgtPrompt$ Select target play
 SVar:DBDraw:DB$ Draw | NumCards$ 1 | Defined$ You
 [Artist]
 Sandfall Interactive
+[Tags]
+creature-removal
 [DesignNotes]
  - Has the same "flip-flop" elemental immunity as its big brother (Gargant), so has the same flip-flop protection.
  - 21/01/2026: Added Beast sub-type.

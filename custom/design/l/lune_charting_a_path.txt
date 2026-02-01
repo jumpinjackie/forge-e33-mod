@@ -42,6 +42,9 @@ A:AB$ DamageAll | Cost$ R T SubCounter<2/STAIN> | ValidTgts$ Opponent | NumDmg$ 
 A:AB$ DealDamage | Cost$ T SubCounter<4/STAIN> | TargetMin$ 0 | TargetMax$ 2 | ValidTgts$ Any | TgtPrompt$ Select up to two targets | NumDmg$ 4 | SpellDescription$ ~ deals 4 damage to each of up to two targets.
 [Artist]
 Sandfall Interactive
+[Tags]
+creature-removal
+board-wipe
 [DesignNotes]
  - This was one of the hardest cards to design because Lune is a veritable "Jack of all trades" in terms of abilities in-game. Also we have to somehow emulate her stain gimmick in a way that doesn't look too out of flavor.
  - So in this respect, this is what I went with:

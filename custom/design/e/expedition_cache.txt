@@ -26,6 +26,9 @@ SVar:X:Count$Valid Lumina.YouCtrl
 [RelatedTokens]
 c_a_chroma
 c_a_lumina
+[Tags]
+lumina-generator
+luminous
 [DesignNotes]
  - In the game, these caches are scattered throughout the continent, left by previous Expeditions "for those who come after"
  - Just an enabler for Lumina/Chroma token strategies

@@ -49,6 +49,9 @@ c_a_lumina
 93
 [Cycle]
 Epic Tier Pictos
+[Tags]
+lumina-generator
+creature-removal
 [DesignNotes]
  - In the game, Shot pictos come in many prefixed variants, that all do something when the equipped character dies.
  - This is the last of 3 "epic" tier pictos that are modeled on one of these pictos that have many prefixed variants.

@@ -18,6 +18,8 @@ SVar:DBDraw:DB$ Draw | NumCards$ 1 | Defined$ TriggeredCardController | SpellDes
 SVar:DBToken:DB$ Token | TokenAmount$ 1 | TokenOwner$ You | TokenScript$ c_a_lumina | SpellDescription$ Create a Lumina token.
 [Artist]
 Sandfall Interactive
+[Tags]
+lumina-generator
 [DesignNotes]
  - In the game, a Paint Cage is something that can be "cracked open" for loot.
  - Ichor Wellspring has similar looks and flavor, so it was chosen for this.

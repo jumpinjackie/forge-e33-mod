@@ -30,6 +30,8 @@ A:AB$ TwoPiles | Cost$ 2 W B T | ValidTgts$ Opponent | TgtPrompt$ Select target 
 SVar:DBHumility:DB$ Animate | Defined$ Targeted | RemoveAllAbilities$ True
 SVar:DBDestroy:DB$ Destroy | Defined$ Remembered
 SVar:DBBlight:DB$ AnimateAll | ValidCards$ Creature.IsRemembered | Toughness$ 1
+[Tags]
+board-wipe
 [DesignNotes]
  - In the game, this is the final boss of Act 1.
  - Ball of Light: In the game The Lampmaster gathers light energy in a sphere and then releases it as a horizontal wave, inflicting Silence upon contact.

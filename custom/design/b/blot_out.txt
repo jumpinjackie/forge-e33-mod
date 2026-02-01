@@ -15,6 +15,9 @@ U
 On her Monolith, she paints a warning for us all. Of the few she can save as her power wanes.
 [Artist]
 Sandfall Interactive
+[Tags]
+creature-removal
+planeswalker-removal
 [DesignNotes]
  - It turns out the French name for this card is ... Gommage!
  - And in another case of serendipity, the actual ability of exiling the creature/planeswalker with the highest mana value (ergo: age) happens to be also super on-flavor. What a coincidence!

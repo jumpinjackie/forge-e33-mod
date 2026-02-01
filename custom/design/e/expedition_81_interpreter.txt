@@ -27,6 +27,8 @@ Gregoire is, as usual, deeply suspicious, but this could change our entire under
 K:You may choose not to untap CARDNAME during your untap step.
 A:AB$ GainControl | Cost$ 2 T | ValidTgts$ Creature.Nevron | TgtPrompt$ Select target Nevron creature | LoseControl$ Untap,LeavesPlay | SpellDescription$ Gain control of target Nevron creature for as long as CARDNAME remains tapped.
 $EXPEDITIONER_DEATH_ABILITY
+[Tags]
+creature-stealer
 [DesignNotes]
  - In the game, Expedition 81 was the first expedition to ever communicate with a Nevron.
  - This card represents someone who has mastered the ability to communicate with Nevron.

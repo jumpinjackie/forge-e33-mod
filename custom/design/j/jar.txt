@@ -20,6 +20,8 @@ A:AB$ DamageAll | Cost$ 1 C T SubCounter<X/CHARGE> | ValidCards$ Creature.withou
 SVar:X:Count$xPaid
 [Artist]
 Sandfall Interactive
+[Tags]
+board-wipe
 [DesignNotes]
  - In the game, Jars can be found in Yellow Harvest.
  - Made colorless as it has weaknesses to all elements in the game.

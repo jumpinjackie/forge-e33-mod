@@ -27,6 +27,9 @@ SVar:X:Count$xPaid
 SVar:TrigShield:DB$ PutCounter | ValidTgts$ Creature.YouCtrl | TargetMin$ 0 | TargetMax$ 1 | CounterType$ SHIELD | CounterNum$ 1 | SubAbility$ TrigDraw | ConditionCheckSVar$ Y | ConditionSVarCompare$ GE3 | SpellDescription$ Put a shield counter on up to one target creature you control if you control at least three Lumina tokens.
 SVar:TrigDraw:DB$ Draw | NumCards$ 1 | ConditionCheckSVar$ Y | ConditionSVarCompare$ GE3 | SpellDescription$ Draw a card if you control at least three Lumina tokens.
 SVar:Y:Count$Valid Lumina.YouCtrl
+[Tags]
+combat-trick
+luminous
 [DesignNotes]
  - In the game, Healing Light is one of Lune's abilities that heals an ally.
  - Easy mechanical translation to life gain, but with a twist. It's symmetrical for a reason: As an enabler for The 67th Gommage.

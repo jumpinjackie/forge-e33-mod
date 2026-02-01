@@ -28,6 +28,8 @@ T:Mode$ Attacks | ValidCard$ Card.Self | TriggerZones$ Battlefield | Execute$ Tr
 SVar:TrigLumina:DB$ Token | TokenAmount$ 1 | TokenOwner$ You | TokenScript$ c_a_lumina
 [Artist]
 Sandfall Interactive
+[Tags]
+lumina-generator
 [DesignNotes]
  - In the game, in Verso's Drafts, the party must board a sky train to reach Osquio's lair. If the party has unlocked The Gingerbread Door, there is a section past the door where they must board another sky train to reach the Licornapieds sub-boss.
  - This card depicts this vehicle.

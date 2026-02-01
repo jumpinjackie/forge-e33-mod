@@ -23,6 +23,9 @@ A:SP$ DealDamage | ValidTgts$ Any | NumDmg$ 3 | SubAbility$ DBToken | SpellDescr
 SVar:DBToken:DB$ Token | TokenAmount$ 1 | TokenOwner$ You | TokenScript$ c_a_lumina
 [RelatedTokens]
 c_a_lumina
+[Tags]
+creature-removal
+lumina-generator
 [DesignNotes]
  - In the game, this is one of Lune's quotes during battle
  - Lighting bolt with suspend to convey the "storm is coming". Lumina reward as standard with any Expeditioner spell

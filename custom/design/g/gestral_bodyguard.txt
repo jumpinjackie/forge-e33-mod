@@ -24,5 +24,7 @@ SVar:DBShield:DB$ PutCounter | ValidTgts$ Creature | TgtPrompt$ Select target cr
 SVar:DBHexproof:DB$ Pump | ValidTgts$ Creature | TgtPrompt$ Select target creature | KW$ Hexproof | SpellDescription$ Target creature gains hexproof until end of turn.
 [Artist]
 Sandfall Interactive
+[Tags]
+combat-trick
 [DesignNotes]
  - Draft/limited filler to round out the creature roster. Gave flash for combat trickiness.

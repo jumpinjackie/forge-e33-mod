@@ -15,5 +15,7 @@ true
 C
 [Artist]
 Lucas Graciano
+[Tags]
+creature-removal
 [DesignNotes]
  - Obligatory spot removal for Limited/Commander

@@ -32,6 +32,8 @@ SVar:DBCounter:DB$ PutCounter | Defined$ Targeted | CounterType$ Stun | CounterN
 $NEVRON_DEATH_ABILITY
 [DraftScore]
 89
+[Tags]
+creature-removal
 [DesignNotes]
  - In the game, Contortionniste is a mid/late game Nevron
  - Mapped "Absorbs health" to lifelink

@@ -15,6 +15,8 @@ A:SP$ Pump | ValidTgts$ Creature | TgtPrompt$ Select target creature | KW$ HIDDE
 SVar:DBDraw:DB$ Draw | NumCards$ 1
 [Artist]
 Sandfall Interactive
+[Tags]
+combat-trick
 [DesignNotes]
  - In the game, a party member can have an inverted status in battle. A member with inverted status cannot heal. Any attempt to heal the member results in damage being taken instead.
  - We've mechanically translated this to a P/T switch. ie. About Face, but with a cantrip bonus.

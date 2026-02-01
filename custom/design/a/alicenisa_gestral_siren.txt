@@ -26,6 +26,9 @@ A:AB$ GainControl | Cost$ T | ValidTgts$ Creature.cmcLEX | TgtPrompt$ Select tar
 SVar:X:Count$CardCounters.VERSE
 [Artist]
 Sandfall Interactive
+[Tags]
+lord
+creature-stealer
 [DesignNotes]
  - In the game, Lorieniso played guitar alone in the Gestral Village. With the "Thank You" update, he is now accompanied by Alicenisa. Named after Alice Duport-Percier, the co-composer and main vocalist of the OST for this game.
  - Gone with a mashup of "Glorious Anthem" for Gestrals and a "Rubinia Soulsinger" creature stealer. Creature stealing is conditional on the number of verse counters that grows every turn so it can't just steal fatties right off the bat.

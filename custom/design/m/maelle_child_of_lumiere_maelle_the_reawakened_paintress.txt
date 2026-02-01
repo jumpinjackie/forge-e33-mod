@@ -15,6 +15,11 @@ Expeditioner
 M
 [Artist]
 Sandfall Interactive
+[Tags]
+creature-removal
+artifact-removal
+enchantment-removal
+reanimation
 [PT]
 3/3
 [Oracle]

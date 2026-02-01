@@ -39,6 +39,8 @@ SVar:ChoiceLumina:DB$ Token | TokenAmount$ 2 | TokenScript$ c_a_lumina | TokenOw
 [RelatedTokens]
 c_a_chroma
 c_a_lumina
+[Tags]
+lumina-generator
 [DesignNotes]
  - In the game, the Kitchen connects to the entrance. The cellar is accessible after solving a puzzle in the kitchen.
  - Kitchen is an easy mechanical map to food tokens.

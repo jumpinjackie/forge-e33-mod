@@ -12,6 +12,8 @@ U
 Sandfall Interactive
 [Oracle]
 Untap all creatures you control.
+[Tags]
+combat-trick
 [ForgeScript]
 K:Fuse
 AlternateMode:Split
@@ -31,6 +33,8 @@ Tap all creatures your opponents control, then put a stun counter on each of tho
 A:SP$ TapAll | ValidCards$ Creature.OppCtrl | RememberTapped$ True | SubAbility$ DBStun | SpellDescription$ Tap all creatures your opponents control, then put a stun counter on each of those creatures.
 SVar:DBStun:DB$ PutCounter | CounterType$ STUN | CounterNum$ 1 | Defined$ Remembered | SubAbility$ DBCleanup
 SVar:DBCleanup:DB$ Cleanup | ClearRemembered$ True
+[Tags]
+combat-trick
 [DesignNotes]
  - In the game, Esquie describes his moods as sometimes being Whee (happy) and sometimes being Whoo (sad)
  - Mechanically, I based Whoo on Melancholy, but for all creatures. Once I got the Whoo part down, the Whee part is obviously the opposite effect. And since sometimes one can feel a little bit of Whee and a little bit of Whoo, I've added the Fuse ability so that both halves can be cast at once.

@@ -22,6 +22,8 @@ T:Mode$ Phase | Phase$ Upkeep | ValidPlayer$ You | Execute$ TrigToken | TriggerZ
 SVar:TrigToken:AB$ Token | Cost$ Mill<1> | TokenAmount$ 2 | TokenScript$ c_a_lumina
 [RelatedTokens]
 c_a_lumina
+[Tags]
+lumina-generator
 [DesignNotes]
  - In the game, Berrami is an NPC you can turn in journals for colors of lumina.
  - Mechanically, I've translated this to milling cards from your library for lumina tokens.

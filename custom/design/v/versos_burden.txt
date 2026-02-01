@@ -28,6 +28,8 @@ U
 Sandfall Interactive
 [RelatedTokens]
 c_a_lumina
+[Tags]
+lumina-generator
 [DesignNotes]
  - In the game, Burden is one of Verso's skills. It transfers all status effects on various members of your party onto Verso himself.
  - Gone with 1:1 reprint of Treacherous Link.

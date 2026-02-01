@@ -27,6 +27,8 @@ SVar:X:Count$Valid Creature.YouCtrl/Times.2
 w_1_1_human_expeditioner
 [Artist]
 Sandfall Interactive
+[Tags]
+luminous
 [DesignNotes]
  - In the game's prologue, the Expedition Festival happens after the gommage, where the crew of Expedition 33 drink away their sorrows, say goodbye to their loved ones and do final preparations before departing for the Continent.
  - Gone with variable lifegain, like Festival of Trokin with a creature token Luminous bonus.

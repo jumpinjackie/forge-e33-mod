@@ -32,6 +32,11 @@ b_0_0_nevron_army
 Sandfall Interactive
 [DraftScore]
 100
+[Tags]
+creature-removal
+creature-stealer
+artifact-removal
+enchantment-removal
 [DesignNotes]
  - Planeswalker Clea's abilities map to her purported abilities in-game:
     - +2: She is a prolific Nevron creating machine

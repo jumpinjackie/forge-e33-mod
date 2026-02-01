@@ -24,6 +24,10 @@ SVar:TrigExile:DB$ ChangeZone | IsCurse$ True | ValidTgts$ Permanent.nonLand+Oth
 SVar:TrigReturn:DB$ ChangeZone | Defined$ ExiledWith | Origin$ Exile | Destination$ Battlefield
 SVar:PlayMain1:TRUE
 SVar:OblivionRing:TRUE
+[Tags]
+creature-removal
+artifact-removal
+enchantment-removal
 [DesignNotes]
  - Oblivion Ring variant #234898572343
  - This represents the barrier that Painted Renoir traps Maelle in at the Stone Wave Cliffs.

@@ -32,6 +32,8 @@ $EXPEDITIONER_DEATH_ABILITY
 c_a_map_sac_explore
 [Artist]
 Google Gemini
+[Tags]
+nonbasic-hate
 [DesignNotes]
  - Navigator ability mapped to map token generation
  - 17/01/2026: Added "Spreading Seas" ETB to check nonbasics.

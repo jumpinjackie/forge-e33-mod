@@ -19,6 +19,8 @@ SVar:DelTrigSlowtrip:DB$ DelayedTrigger | NextTurn$ True | Mode$ Phase | Phase$ 
 SVar:DrawSlowtrip:DB$ Draw | NumCards$ 1 | Defined$ You
 [RelatedTokens]
 c_a_lumina
+[Tags]
+lumina-generator
 [DesignNotes]
  - In the game, a quote often said by Lune when loot is discovered.
  - A basic enabler of Lumina token ramping strategies

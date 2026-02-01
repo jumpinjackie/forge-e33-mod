@@ -25,6 +25,8 @@ SVar:AbFoodPoison:AB$ DealDamage | Cost$ 2 Sac<1/CARDNAME> | ValidTgts$ Creature
 DeckHas:Ability$Counters
 [RelatedTokens]
 c_a_food_sac
+[Tags]
+creature-removal
 [DesignNotes]
  - Journal is a story of Expeditioners making the fatal mistake of eating dead nevrons for sustenance
  - "Food poisoning" ability adapted from Asmoranomardicadaistinaculdacar's ability

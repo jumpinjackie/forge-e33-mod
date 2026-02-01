@@ -21,6 +21,8 @@ A:SP$ Counter | TargetType$ Spell | ValidTgts$ Card | SubAbility$ DBToken | Spel
 SVar:DBToken:DB$ Token | TokenAmount$ 1 | TokenOwner$ You | TokenScript$ c_a_lumina
 [RelatedTokens]
 c_a_lumina
+[Tags]
+lumina-generator
 [DesignNotes]
  - This set needs a hard counter. Give it the standard Expeditioner bonuses.
  - 16/01/2026: Changed cost from 1UU to 2U

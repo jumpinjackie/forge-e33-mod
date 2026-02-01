@@ -29,6 +29,8 @@ SVar:TrigToken:DB$ Token | TokenScript$ c_a_chroma | TokenOwner$ You | TokenAmou
 [RelatedTokens]
 c_a_chroma
 c_a_food_sac
+[Tags]
+creature-removal
 [DesignNotes]
  - In the game, Expedition 59 attempted to eat dead Nevrons for sustenance.
  - This card represents the genius who suggested such an idea.

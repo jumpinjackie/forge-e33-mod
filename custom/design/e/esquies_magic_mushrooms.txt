@@ -20,6 +20,8 @@ A:AB$ DealDamage | Cost$ 2 T Sac<1/CARDNAME> | ValidTgts$ Creature | TgtPrompt$ 
 Sandfall Interactive
 [DraftScore]
 80
+[Tags]
+creature-removal
 [DesignNotes]
  - In the game, the Expedition 66 journal tells of some mushrooms that Esquie fed to the expeditioners, failing to disclose the important fact that these mushrooms were poisonous.
  - Easy map to a food artifact with a "food poisoning" ability.

@@ -27,6 +27,8 @@ SVar:TrigQuake:DB$ DamageAll | ValidCards$ Creature.withoutFlying | NumDmg$ 2 | 
 SVar:TrigAddCount:DB$ PutCounter | Defined$ Self | CounterType$ QUAKE | CounterNum$ 1
 T:Mode$ Always | TriggerZones$ Battlefield | IsPresent$ Card.Self+counters_GE3_QUAKE | Execute$ TrigSac | TriggerDescription$ When ~ has three or more quake counters, sacrifice it.
 SVar:TrigSac:DB$ Sacrifice
+[Tags]
+board-wipe
 [DesignNotes]
  - In the game, Grosse Tête is a boss whose gimmick is repeatedly bouncing and slamming the ground.
  - It starts off with 2 consecutive strikes and repeats, adding 2 consecutive strikes each time.

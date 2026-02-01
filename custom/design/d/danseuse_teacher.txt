@@ -21,6 +21,8 @@ How can you not care about the dance between life and death? It is thrilling, el
 [ForgeScript]
 K:Vigilance
 A:AB$ DealDamage | Cost$ 2 W T | ValidTgts$ Creature.attacking,Creature.blocking | TgtPrompt$ Select target attacking or blocking creature | NumDmg$ 2 | SpellDescription$ ~ deals 2 damage to target attacking or blocking creature.
+[Tags]
+creature-removal
 [DesignNotes]
  - In the game, the Danseuse Teacher is an unfinished Nevron that rewards you with a costume if you can beat her parry challenge.
  - Is white as that's the color we've designated for unfinished Nevrons.

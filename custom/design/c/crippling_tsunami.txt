@@ -25,6 +25,8 @@ A:AB$ Tap | Cost$ tapXType<1/Expeditioner> | ValidTgts$ Land | TgtPrompt$ Select
 c_a_lumina
 [DraftScore]
 98
+[Tags]
+lumina-generator
 [DesignNotes]
  - In the game, Crippling Tsunami is one of Lune's skills. It's basically an AOE variant of Ice Lance.
  - Made this a hybrid of Glare of Subdual and Opposition. Base effect is Glare, but Expeditioners can have the full Opposition experience.

@@ -25,6 +25,9 @@ SVar:DBLifeGain:DB$ GainLife | Defined$ You | LifeAmount$ 3 | ConditionPresent$ 
 SVar:DBPutLand:DB$ ChangeZone | Origin$ Hand | Destination$ Battlefield | ChangeType$ Land.YouCtrl | ConditionPresent$ Card.YouCtrl+namedUrrie | ConditionCompare$ GE1
 [Artist]
 Sandfall Interactive
+[Tags]
+creature-removal
+planeswalker-removal
 [DesignNotes]
  - In the game, at the Stone Wave Cliffs, the party witnesses some of Esquie's power by effortlessly taking down a giant Bourgeon.
  - Gone with a bolt with various rock-boosted bonuses to flesh out the Rock Urzatron archetype.

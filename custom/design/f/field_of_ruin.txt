@@ -11,5 +11,7 @@ U
 true
 [Artist]
 Chris Ostrowski
+[Tags]
+nonbasic-hate
 [DesignNotes]
  - Semi-flavorful reprint (on basis of name and art) to check nonbasics.

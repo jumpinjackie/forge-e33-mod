@@ -18,6 +18,8 @@ A:SP$ DealDamage | ValidTgts$ Creature | TgtPrompt$ Select target creature | Num
 SVar:WasKicked:Count$Kicked.4.2
 [Artist]
 Sandfall Interactive
+[Tags]
+creature-removal
 [DesignNotes]
  - In the game, Gustave has a penchant for throwing rocks.
  - To give green some bones in spot removal for draft/limited, this is a shock for creatures that can be upgraded in damage.

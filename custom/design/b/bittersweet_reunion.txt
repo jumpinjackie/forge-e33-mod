@@ -25,6 +25,8 @@ SVar:DBLifeLoss:DB$ LoseLife | LifeAmount$ 2
 A:AB$ Charm | Cost$ Sac<1/CARDNAME> | Choices$ DBPump,DBHexproof
 SVar:DBPump:DB$ PumpAll | ValidCards$ Creature.YouCtrl | NumAtt$ +1 | NumDef$ +1 | SpellDescription$ Creatures you control get +1/+1 until end of turn.
 SVar:DBHexproof:DB$ PumpAll | ValidCards$ Creature.YouCtrl | KW$ Hexproof | SpellDescription$ Creatures you control gain hexproof until end of turn. (They can't be the targets of spells or abilities your opponents control.)
+[Tags]
+combat-trick
 [DesignNotes]
  - In the game's prologue, Gustave reunites with Sophie on the day of her gommage. It is undoubtedly a bittersweet reunion.
  - The base template is Family Reunion, it was a case of how best to weave in the "Bittersweet" aspect.

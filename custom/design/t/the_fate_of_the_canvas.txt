@@ -28,6 +28,9 @@ SVar:DBResurrectFromExile:DB$ ChangeZoneAll | ChangeType$ Human,Expeditioner | O
 Sandfall Interactive
 [DraftScore]
 94
+[Tags]
+board-wipe
+reanimation
 [DesignNotes]
  - In the game, this is the final point of no return that culminates in one of the two possible endings of the game.
  - Simply mechanically translated to a mass reset or mass resurrection.

@@ -30,6 +30,9 @@ SVar:TrigFire:DB$ DamageAll | ValidCards$ Creature.counters_GE1_STUN | NumDmg$ 6
 SVar:TrigExile:DB$ ChangeZone | ValidTgts$ Creature.counters_GE1_STUN | TargetMin$ 0 | TargetMax$ 1 | TgtPrompt$ Select up to one target creature with a stun counter | Origin$ Battlefield | Destination$ Exile
 SVar:X:Count$Valid Creature/Times.2
 SVar:Y:Count$Valid Creature
+[Tags]
+creature-removal
+planeswalker-removal
 [DesignNotes]
  - In the game, Sky Break is a level 3 gradient attack for Lune. It deals extreme damage to all enemies in a single hit with elemental damage type determined by the most prominent Stain that Lune currently has. Can also break enemmies, stunning them.
  - Mechanically, we've gone with the tap and stun as the base effect, with extra effects based on what colors of mana (stains) you spent on the spell.

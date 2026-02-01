@@ -21,6 +21,8 @@ A:SP$ ChangeZone | Origin$ Graveyard | Destination$ Hand | TargetMin$ 0 | Target
 SVar:DBNonCreature:DB$ ChangeZone | Origin$ Graveyard | Destination$ Hand | TargetMin$ 0 | TargetMax$ 1 | TgtPrompt$ Select target card in your graveyard | ValidTgts$ Card.YouCtrl+nonCreature | ConditionCheckSVar$ X | ConditionSVarCompare$ GE3 | SpellDescription$ Return up to one target non-creature card in your graveyard to your hand.
 SVar:X:Count$Valid Lumina.YouCtrl
 DeckHas:Ability$Graveyard
+[Tags]
+luminous
 [DesignNotes]
  - In the game, this is Lune's healing ability.
  - No mechanical relation. We've just re-approriated the name for a green regrowth-style spell.

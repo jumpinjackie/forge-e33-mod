@@ -30,6 +30,9 @@ SVar:DBPutCounter:DB$ PutCounter | Defined$ Targeted | CounterType$ STUN | Count
 SVar:PlayMain1:TRUE
 [RelatedTokens]
 c_a_lumina
+[Tags]
+lumina-generator
+creature-removal
 [DesignNotes]
  - In the game, breaking an enemy puts them in a stunned state and will cause them to skip their next turn.
  - Went with a variant of Sigil of Sleep, but with an additional tap-and-stun mode if the enchanted creature connects.

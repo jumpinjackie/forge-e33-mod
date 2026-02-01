@@ -40,6 +40,8 @@ c_a_chroma
 c_a_lumina
 [DraftScore]
 94
+[Tags]
+lumina-generator
 [Cycle]
 Epic Tier Pictos
 [DesignNotes]

@@ -24,6 +24,9 @@ SVar:DBSweep:DB$ DamageAll | NumDmg$ 1 | ValidCards$ Creature | ValidDescription
 SVar:DBWasteland:DB$ Destroy | ValidTgts$ Land.nonBasic | TgtPrompt$ Select target nonbasic land. | SubAbility$ DBDraw | SpellDescription$ Destroy target nonbasic land.
 SVar:DBDestroyRooms:DB$ DestroyAll | ValidCards$ Room | SubAbility$ DBDraw | SpellDescription$ Destroy all Rooms.
 SVar:DBDraw:DB$ Draw | NumCards$ 1
+[Tags]
+board-wipe
+nonbasic-hate
 [DesignNotes]
  - In the game, this is the event that took Verso's life and started Aline's cycle of grief, made Alicia a pariah, started Clea's war against the writers and Renoir's attempts to get Aline out of the canvas, tearing the Dessendre family apart.
  - A basic foil for room strategies with a cantrip so it's not entirely useless when not facing against room strategies.

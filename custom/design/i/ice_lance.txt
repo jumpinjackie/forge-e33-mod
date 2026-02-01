@@ -18,6 +18,8 @@ Create a Lumina token. $LUMINA_REMINDER_TEXT
 A:SP$ Tap | TargetMin$ 0 | TargetMax$ 2 | TgtPrompt$ Choose target permanent | ValidTgts$ Permanent | SubAbility$ TrigStun | SpellDescription$ Tap up to two target permanents. Put a stun counter on them. Create a Lumina token.
 SVar:TrigStun:DB$ PutCounter | Defined$ Targeted | CounterType$ STUN | CounterNum$ 1 | SubAbility$ DBToken
 SVar:DBToken:DB$ Token | TokenAmount$ 1 | TokenOwner$ You | TokenScript$ c_a_lumina | SpellDescription$ Create a Lumina token.
+[Tags]
+lumina-generator
 [DesignNotes]
  - Generic useful ice-themed tempo play in limited/draft environments.
  - 14/01/2026: Added Lumina token bonus on resolution.

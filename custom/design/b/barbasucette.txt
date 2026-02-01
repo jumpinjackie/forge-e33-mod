@@ -34,6 +34,8 @@ u_barbapapa
 Sandfall Interactive
 [Bugs]
  - AI does not want to use Barbpapa debuff
+[Tags]
+creature-removal
 [DesignNotes]
  - In the game, Barbasucettes are new enemies found in Verso's Drafts as part of the "Thank You" update. They are Grandis that wield two lollipops as weapons.
  - Mapped his suite of abilities to a whole bunch of food-related abilities as well as a Barbapapa debuff on ETB.

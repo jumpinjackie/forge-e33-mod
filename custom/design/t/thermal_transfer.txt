@@ -22,6 +22,10 @@ SVar:DBPutCounter:DB$ PutCounter | Defined$ Targeted | CounterType$ Stun | Count
 SVar:DBFire:DB$ DealDamage | ValidTgts$ Any | TgtPrompt$ Select target to deal 3 damage to. | NumDmg$ 3 | ConditionManaSpent$ R | SubAbility$ DBLifeGain | SpellDescription$ If {R} was spent on this spell, ~ deals 3 damage to any target.
 SVar:DBLifeGain:DB$ GainLife | LifeAmount$ 3 | SpellDescription$ If {G} was spent on this spell, you gain 3 life. | ConditionManaSpent$ G | SubAbility$ DBToken
 SVar:DBToken:DB$ Token | TokenAmount$ 1 | TokenOwner$ You | TokenScript$ c_a_lumina | SpellDescription$ Create a Lumina token.
+[Tags]
+lumina-generator
+creature-removal
+planeswalker-removal
 [DesignNotes]
  - In the game this is one of Lune's abilities.
  - As the ability from the game has fire/ice elements, it naturally mechanically maps to a tap and stun on the ice side. For the fire side, I've decided to add a creature bolt ability behind a kicker cost.

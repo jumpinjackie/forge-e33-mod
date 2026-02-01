@@ -28,6 +28,8 @@ $EXPEDITIONER_DEATH_ABILITY
 c_a_flower
 [DraftScore]
 90
+[Tags]
+mana-dork
 [DesignNotes]
  - In the game, Ophelie operates a stand in the Lumière flower market.
  - Easy map to a creature that makes Flower tokens.

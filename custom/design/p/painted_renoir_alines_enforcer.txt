@@ -38,6 +38,8 @@ b_4_4_dark_chromatic_beast
 Sandfall Interactive
 [DraftScore]
 99
+[Tags]
+creature-removal
 [DesignNotes]
  - In the game, Painted Renoir is the primary antagnoist until his boss battle near the end of Act 2.
  - Vanish ability is an edict instead of exile just to balance things out. Not everything can be an exile ability even though it makes the most thematic sense.

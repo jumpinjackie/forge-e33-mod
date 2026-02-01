@@ -31,5 +31,7 @@ SVar:Florrie:Count$Valid Artifact.YouCtrl+namedFlorrie/LimitMax.1
 SVar:Urrie:Count$Valid Artifact.YouCtrl+namedUrrie/LimitMax.1
 SVar:Dorrie:Count$Valid Artifact.YouCtrl+namedDorrie/LimitMax.1
 DeckNeeds:Name$Soarrie|Florrie|Urrie|Dorrie
+[Tags]
+mana-fixer
 [Bugs]
 The WUBRG mana ability is not preventatively disabled if you don't meet the activation condition. The ability however will (correctly) not add WUBRG if you don't meet the activation condition.

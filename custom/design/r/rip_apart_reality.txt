@@ -18,6 +18,8 @@ A:SP$ ChangeZone | ValidTgts$ Creature | TgtPrompt$ Select target creature | Tar
 SVar:DBDraw:DB$ Draw | DrawNum$ 1
 SVar:PainterTotal:Count$Valid Painter.YouCtrl
 SVar:X:Count$Compare PainterTotal GE1.2.1
+[Tags]
+creature-removal
 [DesignNotes]
  - This is one of the Paintress' moves in the boss fight with her.
  - May or may not have any mechanical relation. I needed a soft-removal spell for blue in this slot and the name was a good enough match for such an effect.

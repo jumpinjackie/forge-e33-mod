@@ -12,5 +12,7 @@ Cycling {G}{W}{U} {i}({G}{W}{U}, Discard this card: Draw a card.)
 true
 [Artist]
 Randy Gallegos
+[Tags]
+mana-fixer
 [DesignNotes]
  - Easy common mana fixing for limited and smoothes out manabases for Commander.

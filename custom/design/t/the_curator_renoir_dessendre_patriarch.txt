@@ -26,6 +26,9 @@ Latent skill activation
 [FlavorText]
 Lune: What is he?
 Maelle: I'm not sure, he doesn't really talk.
+[Tags]
+lumina-generator
+creature-removal
 [Artist]
 Sandfall Interactive
 [RelatedTokens]
@@ -65,6 +68,8 @@ A:AB$ ChangeZone | Cost$ SubCounter<4/LOYALTY> | Planeswalker$ True | Origin$ Gr
 A:AB$ ChangeZoneAll | Cost$ SubCounter<10/LOYALTY> | Planeswalker$ True | Ultimate$ True | UseAllOriginZones$ True | Origin$ Battlefield | Destination$ Exile | ChangeType$ Creature.nonNevron+nonPainter | SpellDescription$ Exile all non-Nevron, non-Painter creatures.
 [Bugs]
  - On death, the commander AI never wants to take the transform to planeswalker option, always opting to send it back to the command zone.
+[Tags]
+board-wipe
 [DesignNotes]
  - In the game, The Curator is an ally to Expedition 33, until Act 3 where he is revealed to be the real Renoir.
  - Abilities drawn from various abilities he offers at camp.

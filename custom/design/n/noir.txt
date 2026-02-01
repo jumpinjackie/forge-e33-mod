@@ -32,6 +32,8 @@ SVar:DBGainLife:DB$ GainLife | Defined$ You | LifeAmount$ 2
 $NEVRON_DEATH_ABILITY
 [DraftScore]
 90
+[Tags]
+creature-removal
 [DesignNotes]
  - In the game, Noirs are high-tier tanky Nevrons found on the Dark Shores and are an excellent source of XP farming in the late game.
  - Placeholder vanilla Nevron. Abilities TBD.

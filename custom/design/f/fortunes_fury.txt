@@ -21,6 +21,9 @@ A:SP$ Pump | ValidTgts$ Creature | TgtPrompt$ Select target creature | KW$ Doubl
 SVar:DBToken:DB$ Token | TokenAmount$ 1 | TokenOwner$ You | TokenScript$ c_a_lumina
 [RelatedTokens]
 c_a_lumina
+[Tags]
+combat-trick
+lumina-generator
 [DesignNotes]
  - In the game, this is Sciel's ability that grants double-damage to one of her allies.
  - Easy mechanical map to double-strike

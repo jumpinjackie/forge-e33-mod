@@ -21,6 +21,8 @@ SVar:TrigAddCounter:DB$ PutCounter | Defined$ Self | CounterType$ CRUSH | Counte
 A:AB$ DamageAll | Cost$ SubCounter<3/CRUSH> | Exhaust$ True | ValidCards$ Creature.withoutFlying | NumDmg$ 6 | SpellDescription$ Giant Sapling deals 6 damage to each creature without flying.
 [Artist]
 Sandfall Interactive
+[Tags]
+board-wipe
 [DesignNotes]
  - In the game, Giant Sapling is the boss in the Crushing Cavern.
  - Main gimmick being captured is its countdown to crushing doom.

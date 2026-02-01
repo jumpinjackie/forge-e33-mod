@@ -12,5 +12,7 @@ Cycling {G}{U}{R} {i}({G}{U}{R}, Discard this card: Draw a card.)
 true
 [Artist]
 Mark Poole
+[Tags]
+mana-fixer
 [DesignNotes]
  - Easy common mana fixing for limited and smoothes out manabases for Commander.

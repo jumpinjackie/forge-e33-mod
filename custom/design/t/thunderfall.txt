@@ -19,6 +19,10 @@ SVar:LuminaTotal:Count$Valid Lumina.YouCtrl
 SVar:X:Count$Compare LuminaTotal GE3.4.2
 [Artist]
 Sandfall Interactive
+[Tags]
+luminous
+creature-removal
+planeswalker-removal
 [DesignNotes]
  - In the game, Thunderfall is one of Lune's skills that deals lightning damage.
  - As part of making Lumina tokens matter, this card has been modeled on Galvanic Blast, but with Luminous instead of Metalcraft.

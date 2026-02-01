@@ -44,6 +44,9 @@ Gustave, wait! It seems peaceful, as long as we don't touch the flowers.
 c_a_flower
 [DraftScore]
 90
+[Tags]
+combat-trick
+creature-removal
 [DesignNotes]
  - In the game, Goblu is the boss of Flying Waters.
  - Main gimmick we want to mechanically translate is Goblu's flower growing and consuming ability.

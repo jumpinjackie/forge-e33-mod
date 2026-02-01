@@ -27,6 +27,8 @@ SVar:TrigDamage:DB$ DealDamage | ValidTgts$ Creature,Planeswalker | TgtPrompt$ S
 A:AB$ Animate | Cost$ 2 B T | ValidTgts$ Creature | TgtPrompt$ Select target creature | Toughness$ 1 | SpellDescription$ Target creature has base toughness 1 until end of turn.
 A:AB$ DamageAll | Cost$ 3 R T | ValidCards$ Creature.withoutFlying | ValidPlayers$ Player | NumDmg$ 1 | SpellDescription$ ~ deals 1 damage to each creature without flying and each player.
 $NEVRON_DEATH_ABILITY
+[Tags]
+creature-removal
 [DesignNotes]
  - Just a vanilla placeholder for now until I have figured out some suitable abilities for it
  - 13/10/2025: Removed Devoid.

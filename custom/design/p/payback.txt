@@ -21,6 +21,10 @@ SVar:DBToken:DB$ Token | TokenAmount$ 1 | TokenOwner$ You | TokenScript$ c_a_lum
 U
 [Artist]
 Sandfall Interactive
+[Tags]
+creature-removal
+combat-trick
+lumina-generator
 [DesignNotes]
  - In the game, this is one of Maelle's skills
  - Roil's Retribution fits the bill (in both flavor and mechanics), so it was chosen as a nickname reprint for this.

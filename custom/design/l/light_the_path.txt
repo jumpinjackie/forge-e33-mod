@@ -16,5 +16,7 @@ SVar:Unblockable:Mode$ CantBlockBy | ValidAttacker$ Card.IsRemembered | Descript
 SVar:DBDraw:DB$ Draw | NumCards$ 1 | Defined$ You
 [Artist]
 Sandfall Interactive
+[Tags]
+combat-trick
 [DesignNotes]
  - Inspired by a screenshot I captured from a DLC run in Stone Wave Cliffs

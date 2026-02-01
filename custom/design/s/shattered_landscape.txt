@@ -12,5 +12,7 @@ Cycling {R}{W}{B} {i}({R}{W}{B}, Discard this card: Draw a card.)
 true
 [Artist]
 Erikas Perl
+[Tags]
+mana-fixer
 [DesignNotes]
  - Easy common mana fixing for limited and smoothes out manabases for Commander.

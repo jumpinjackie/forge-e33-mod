@@ -67,6 +67,8 @@ A:AB$ ChooseCard | Cost$ T SubCounter<1/FOREBODING> | Choices$ Creature.OppCtrl 
 SVar:ExileOthers:DB$ ChangeZoneAll | UseAllOriginZones$ True | Origin$ Battlefield | Destination$ Exile | ChangeType$ Creature.nonChosenCard+StrictlyOther | SpellDescription$ Exile all creatures except for ~ and the chosen creature.
 [DraftScore]
 92
+[Tags]
+board-wipe
 [DesignNotes]
  - In the game, Simon is a secret endgame boss and is the hardest boss in the game.
  - He is mechanically represented as follows:

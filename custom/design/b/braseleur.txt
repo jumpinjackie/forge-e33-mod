@@ -26,6 +26,8 @@ SVar:TrigPutCounter:DB$ PutCounter | Defined$ Self | CounterType$ ORB | CounterN
 A:AB$ DealDamage | Cost$ R SubCounter<1/ORB> | ValidTgts$ Creature | TgtPrompt$ Select target creature | NumDmg$ 1 | SpellDescription$ ~ deals 1 damage to target creature.
 A:AB$ Tap | Cost$ U SubCounter<1/ORB> | ValidTgts$ Creature | TgtPrompt$ Select target creature | SpellDescription$ Tap target creature.
 $NEVRON_DEATH_ABILITY
+[Tags]
+creature-removal
 [DesignNotes]
  - Currently a placeholder vanilla Nevron. Abilities TBD.
  - 13/10/2025: Removed Devoid.

@@ -34,6 +34,8 @@ S:Mode$ Continuous | EffectZone$ Battlefield | Affected$ Card.Self | SharedKeywo
 SVar:DBCleanup:DB$ Cleanup | ClearRemembered$ True
 [DraftScore]
 94
+[Tags]
+creature-removal
 [DesignNotes]
  - In the game, Monoco is a Gestral that joins your party in Act 2. Every Nevron you defeat with Monoco in the party will add a foot to Monoco's collection. Monoco's skills are based on the Nevron feet that Monoco has equipped. Each Nevron foot grants some ability of the defeated Nevron.
  - Mechanically and flavorfully, this easily maps to one of the many existing "ability stealing" cards already in the card game. So it is a matter of choosing which ability stealing variant we want to copy from. We've gone with a combination of stealing activated abilities of slain Nevron along with a bunch of keyword abilities.

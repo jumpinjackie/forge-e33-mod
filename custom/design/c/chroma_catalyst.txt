@@ -27,6 +27,9 @@ SVar:X:SVar$A/ThirdDown
 [RelatedTokens]
 c_a_chroma
 c_a_lumina
+[Tags]
+lumina-generator
+mana-rock
 [DesignNotes]
  - In the game, Chroma Catalysts are used to upgrade the levels of your weapons
  - For the card, we've decided to lean heavily on the word "Catalyst" and made this into a variant of Academy Manufactor, but covers our new token types.

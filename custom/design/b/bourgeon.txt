@@ -30,6 +30,8 @@ SVar:PlayMain1:TRUE
 SVar:OblivionRing:TRUE
 [Artist]
 Sandfall Interactive
+[Tags]
+creature-removal
 [DesignNotes]
  - In the game, Bourgeon is a semi-recurring boss.
  - Key abilities mapped as follows:

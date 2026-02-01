@@ -32,6 +32,8 @@ DeckHas:Ability$Counters
 [RelatedTokens]
 u_5_5_airship
 c_a_lumina
+[Tags]
+lumina-generator
 [DesignNotes]
  - Journal is a story of expeditioners stealing a bunch of Airships to escape Lumière.
  - This is a top-end payoff for an all-flyers strategy

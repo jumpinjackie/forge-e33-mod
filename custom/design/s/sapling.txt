@@ -24,6 +24,8 @@ R:Event$ Untap | ActiveZones$ Battlefield | ValidCard$ Land.counters_GE1_FUNGUS 
 $NEVRON_DEATH_ABILITY
 [Artist]
 Sandfall Interactive
+[Tags]
+nonbasic-hate
 [DesignNotes]
  - In the game, Saplings can be found in Yellow Harvest and Falling Leaves.
  - Absorbs dark attacks ergo. Protection from black.

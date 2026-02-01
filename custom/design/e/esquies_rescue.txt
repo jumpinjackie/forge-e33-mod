@@ -23,6 +23,9 @@ SVar:DBGainLife:DB$ GainLife | LifeAmount$ 3 | SubAbility$ DBToken | SpellDescri
 SVar:DBToken:DB$ Token | TokenAmount$ 1 | TokenOwner$ You | TokenScript$ c_a_lumina
 [RelatedTokens]
 c_a_lumina
+[Tags]
+lumina-generator
+creature-removal
 [DesignNotes]
  - In the game, Sciel discovers that Esquie saved her from drowning in the past, thus explaining why he referred to her as "my poor swimmer friend"
  - Modeled as a bounce spell with various bonuses stapled on.

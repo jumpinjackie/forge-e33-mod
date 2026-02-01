@@ -28,5 +28,8 @@ SVar:TrigDraw:DB$ Draw | NumCards$ 1 | ConditionCheckSVar$ X | ConditionSVarComp
 SVar:X:Count$Valid Lumina.YouCtrl
 [DraftScore]
 87
+[Tags]
+luminous
+creature-removal
 [DesignNotes]
  - Just Cone of Flame made {1} cheaper and Expeditioner aligned

@@ -31,6 +31,8 @@ SVar:PlayMain1:TRUE
 [RelatedTokens]
 c_a_lumina
 c_a_chroma
+[Tags]
+lumina-generator
 [DesignNotes]
  - In the game, Lune is a naturally inquisitive character, always looking at things with scientific curiosity.
  - Went with a more flavorful variant of Curiosity.

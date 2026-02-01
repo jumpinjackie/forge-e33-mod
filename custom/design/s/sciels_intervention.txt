@@ -25,6 +25,9 @@ A:SP$ Untap | ValidTgts$ Creature.YouCtrl | TgtPrompt$ Select target creature yo
 SVar:DBGrantHexproof:DB$ Pump | Defined$ Targeted | KW$ Hexproof | SubAbility$ TrigDraw | SpellDescription$ Untap target creature you control. It gains hexproof until end of turn.
 SVar:TrigDraw:DB$ Draw | NumCards$ 1 | ConditionCheckSVar$ Y | ConditionSVarCompare$ GE3 | SpellDescription$ Draw a card if you control at least three Lumina tokens.
 SVar:Y:Count$Valid Lumina.YouCtrl
+[Tags]
+luminous
+combat-trick
 [DesignNotes]
  - In the game, Intervention is Sciel's ability that lets an ally take their turn immediately along with an AP boost
  - Mechanically, we've mapped "granting extra turns" to untapping creatures. Nothing approximates an "AP boost" for creatures, so we've given it a granting of hexproof.

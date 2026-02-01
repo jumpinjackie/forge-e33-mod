@@ -28,3 +28,8 @@ T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.S
 SVar:TrigPut:DB$ PutCounter | ValidTgts$ Creature | CounterType$ SHIELD
 A:AB$ Pump | Cost$ W T | KW$ Protection:Nevron | TgtPrompt$ Select target creature you control | ValidTgts$ Creature.YouCtrl | SpellDescription$ Target creature you control gains protection from Nevrons until end of turn.
 $EXPEDITIONER_DEATH_ABILITY
+[Tags]
+combat-trick
+[DesignNotes]
+ - Another combat trick for white.
+ - Thematically, put it under the Expedition 49 banner as that was the expedition that emphasized defensive tactics.

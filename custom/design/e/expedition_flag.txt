@@ -22,6 +22,10 @@ A:AB$ Mana | Cost$ T | Produced$ Any | SpellDescription$ Add one mana of any col
 c_a_lumina
 [Artist]
 Sandfall Interactive
+[Tags]
+lord
+mana-rock
+lumina-generator
 [DesignNotes]
  - In the game, Expedition flags are save points scattered throughout the continent laid down by previous Expeditions.
  - Gone with an Expeditioner-focused variant of Patchwork Banner.

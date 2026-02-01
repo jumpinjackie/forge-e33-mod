@@ -27,6 +27,8 @@ T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ 
 SVar:TrigClone:DB$ Token | TokenAmount$ 2 | TokenScript$ ur_2_2_danseuse_clone | TokenOwner$ You
 [RelatedTokens]
 ur_2_2_danseuse_clone
+[Tags]
+creature-removal
 [DesignNotes]
  - In the game, a Danseuse attacks with fire and ice magic. If it is the only enemy left in battle, it can summon up to 2 clones.
  - Mechanically I went with:

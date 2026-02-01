@@ -23,6 +23,8 @@ A:AB$ PutCounter | Cost$ 3 T | ValidTgts$ Creature | CounterType$ P1P1 | Counter
 A:AB$ PutCounter | Cost$ 4 T | ValidTgts$ Creature | CounterType$ SHIELD | CounterNum$ 1 | SpellDescription$ Put a shield counter on target creature.
 [RelatedTokens]
 c_a_lumina
+[Tags]
+lumina-generation
 [Artist]
 Sandfall Interactive
 [DesignNotes]

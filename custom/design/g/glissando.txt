@@ -31,6 +31,8 @@ g_1_1_ballet_nevron
 Sandfall Interactive
 [DraftScore]
 87
+[Tags]
+creature-stealer
 [DesignNotes]
  - In the game, Glissando is an optional sub-boss in Sirène's coliseum
  - Has an appearance of a wurm, so gave it a that sub-type.

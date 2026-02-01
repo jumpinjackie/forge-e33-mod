@@ -33,6 +33,8 @@ u_barbapapa
 Sandfall Interactive
 [Bugs]
  - AI does not want to use Barbpapa debuff
+[Tags]
+creature-removal
 [DesignNotes]
  - In the game, Machinepieds is an enemy found in Verso's Drafts. They have the appearance of a Gestral on wheels with boxing gloves.
  - The ability suite is very similar to that of Dominique Giant Feet, so has the same abilities but with adjusted costs.

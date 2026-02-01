@@ -18,6 +18,8 @@ For the sake of the living, we must part with the dead.
 [ForgeScript]
 A:SP$ ChangeZoneAll | ChangeType$ Card | Origin$ Graveyard | Destination$ Exile | AILogic$ ExileGraveyards | SubAbility$ DBDraw | SpellDescription$ Exile all graveyards.
 SVar:DBDraw:DB$ Draw
+[Tags]
+graveyard-hate
 [DesignNotes]
  - Describes the moment in Verso's ending where he is truly laid to rest and the canvas is destroyed.
  - Obvious graveyard exile effect to indicate the finality of this moment. What's dead is dead and should be laid to rest.

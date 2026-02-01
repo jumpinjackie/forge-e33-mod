@@ -33,6 +33,10 @@ Return target artifact card from your graveyard to your hand.
 But I always find them again. You will find them again too.
 [ForgeScript]
 A:SP$ ChangeZone | Origin$ Graveyard | Destination$ Hand | TgtPrompt$ Choose target artifact card in your graveyard | ValidTgts$ Artifact.YouCtrl | SpellDescription$ Return target artifact card from your graveyard to your hand.
+[Tags]
+creature-removal
+artifact-removal
+enchantment-removal
 [DesignNotes]
  - Design based solely on Esquie's quote in his Act 3 conversation with Sciel.
  - Lost: Clearly a send back to library effect

@@ -12,5 +12,7 @@ Cycling {U}{R}{W} {i}({U}{R}{W}, Discard this card: Draw a card.)
 true
 [Artist]
 Alayna Danner
+[Tags]
+mana-fixer
 [DesignNotes]
  - Easy common mana fixing for limited and smoothes out manabases for Commander.

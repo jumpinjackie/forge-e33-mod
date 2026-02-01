@@ -23,6 +23,10 @@ When ~ dies, return it to the battlefield transformed under it's owner's control
 Void Meteors
 Rips apart reality
 Heals an Expeditioner
+[Tags]
+creature-removal
+artifact-removal
+enchantment-removal
 [FlavorText]
 Arrogant Man. I taught him to Paint. And he seeks to use my creations against me?
 [Artist]
@@ -66,6 +70,11 @@ SVar:X:Count$Valid Chroma.YouCtrl
 c_a_chroma
 [Bugs]
  - On death, the commander AI never wants to take the transform to planeswalker option, always opting to send it back to the command zone.
+[Tags]
+creature-removal
+planeswalker-removal
+artifact-removal
+enchantment-removal
 [DesignNotes]
  - In the game, The Paintress is the main antagonist, until the conclusion of Act 2, when you discover she is not. She is in fact, trying to *protect* the people of Lumière from the true instigator of the yearly Gommages (Renoir) and her yearly countdown on The Monolith is a signal of her waning powers in fighting against this tide.
  - Abilities drawn from the various moves she has in her boss battle. Because 2 of these 3 abilities already exist as separate cards, we've gone with slight tweaks/variations for the abilities here.

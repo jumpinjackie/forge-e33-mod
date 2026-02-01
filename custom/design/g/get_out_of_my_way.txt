@@ -22,6 +22,8 @@ Sunniso: Well, I don't know! Golgra never told me the password. But whatever, ju
 A:SP$ Pump | KW$ HIDDEN CARDNAME can't block. | TargetMin$ X | TargetMax$ X | ValidTgts$ Creature | TgtPrompt$ Select X target creatures | StackDescription$ X target creatures [{c:Targeted}] can't block this turn. | SubAbility$ DBToken | SpellDescription$ X target creatures can't block this turn.
 SVar:X:Count$xPaid
 SVar:DBToken:DB$ Token | TokenAmount$ 1 | TokenOwner$ You | TokenScript$ c_a_lumina
+[Tags]
+lumina-generator
 [DesignNotes]
  - In the game, this is the "password" Golgra passed down to the Expeditioners to get past the Gestral guards at Esquie's Nest
  - Mechanically, it make sense (and is hilarious) to make Gestrals unable to block.

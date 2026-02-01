@@ -24,6 +24,8 @@ SVar:DBToken:DB$ Token | TokenAmount$ 2 | TokenScript$ w_1_1_human_expeditioner 
 SVar:X:Count$Valid Lumina.YouCtrl
 [RelatedTokens]
 w_1_1_human_expeditioner
+[Tags]
+luminous
 [DesignNotes]
  - Another tutor to enable the Expeditioner tribal strategy / Expeditioner spell toolbox.
  - 12/11/2025: Rework as a life-gaining impulse with a token generating Luminous bonus.

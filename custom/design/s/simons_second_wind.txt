@@ -17,5 +17,7 @@ SVar:DiesTrigger:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyar
 SVar:TrigChangeZone:DB$ ChangeZone | Origin$ Graveyard | Destination$ Battlefield | Tapped$ True | Defined$ TriggeredNewCardLKICopy | WithCountersType$ P1P1
 [Artist]
 Sandfall Interactive
+[Tags]
+combat-trick
 [DesignNotes]
  - Another card where we have an awesome quote looking for a card to live in. In this case, functional reprint of Feign Death, because Simon ain't feigning death here!

@@ -32,6 +32,8 @@ A:AB$ PutCounter | Cost$ 2 G T | ValidTgts$ Creature.YouCtrl | CounterType$ SHIE
 A:AB$ DealDamage | Cost$ 2 R T | ValidTgts$ Creature.attacking | TgtPrompt$ Select target attacking creature | NumDmg$ 2 | SubAbility$ DBStun | SpellDescription$ ~ deals 2 damage to target attacking creature. Put a stun counter on it.
 SVar:DBStun:DB$ PutCounter | ValidCards$ Targeted | CounterType$ STUN | CounterNum$ 1
 $NEVRON_DEATH_ABILITY
+[Tags]
+creature-removal
 [DesignNotes]
  - Currently a placeholder vanilla Nevron. Abilities TBD.
  - 23/09/2025: TODO: Replace white with a different color if intending to stay multi-color to make way for White Nevrons.
