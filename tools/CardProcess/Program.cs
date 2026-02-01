@@ -631,7 +631,7 @@ public class TokenDefinition
     }
 }
 
-public class CardMasterDesign(string designFile)
+public class CardMasterDesign
 {
     private CardFaceDesign _activeFace = new();
 
@@ -1232,7 +1232,7 @@ public class CardMasterDesign(string designFile)
 
     public static async Task<CardMasterDesign> ReadAsync(DirectoryInfo baseDir, string path)
     {
-        var card = new CardMasterDesign(Path.GetRelativePath(baseDir.FullName, path));
+        var card = new CardMasterDesign();
         using var sr = new StreamReader(path);
         var line = await sr.ReadLineAsync();
         var buffer = new List<string>();
