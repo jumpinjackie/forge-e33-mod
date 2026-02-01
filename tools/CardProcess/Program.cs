@@ -1835,6 +1835,7 @@ public static class StatsPrinter
         var rarityTotals = rarityCodes.ToDictionary(r => r, r => 0);
         int overallTotal = 0;
         int maxMV = 0;
+        long weightedSum = 0;
 
         foreach (var (_, card) in cards)
         {
@@ -1851,6 +1852,7 @@ public static class StatsPrinter
                 distro[mv] = map;
             }
             map[r]++;
+            weightedSum += mv;
             if (mv > maxMV) maxMV = mv;
         }
 
@@ -1897,6 +1899,10 @@ public static class StatsPrinter
         sb.Append("| ");
         sb.Append(String.Join(" | ", rarityCodes.Select(rc => rarityTotals[rc].ToString().PadLeft(3))));
         sb.Append($" | {overallTotal} (100.0%)\n\n");
+
+        // Average mana value (weighted by number of cards at each mana value)
+        double average = overallTotal > 0 ? (double)weightedSum / overallTotal : 0.0;
+        sb.AppendLine($"Average mana value: {average:F2}\n");
 
         var result = new StringBuilder();
         result.AppendLine("Mana curve by mana value (rows = mana value, cols = rarity):");
