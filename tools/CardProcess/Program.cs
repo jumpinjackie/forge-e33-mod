@@ -79,6 +79,8 @@ public class CardFaceDesign
 
     public int? DraftScore { get; set; }
 
+    public string[]? Tags { get; set; }
+
     internal void Apply(string propertyName, IEnumerable<string> buffer)
     {
         switch (propertyName)
@@ -150,6 +152,9 @@ public class CardFaceDesign
             case nameof(DraftScore):
                 if (int.TryParse(string.Join(" ", buffer), out var score))
                     DraftScore = score;
+                break;
+            case nameof(Tags):
+                Tags = buffer.ToArray();
                 break;
         }
     }
@@ -798,28 +803,28 @@ public class CardMasterDesign
             return "Misc";
 
         // Pairs
-        if (letters.SetEquals(new HashSet<char>{'U','W'})) return "UW";
-        if (letters.SetEquals(new HashSet<char>{'U','G'})) return "UG";
-        if (letters.SetEquals(new HashSet<char>{'U','R'})) return "UR";
-        if (letters.SetEquals(new HashSet<char>{'U','B'})) return "UB";
-        if (letters.SetEquals(new HashSet<char>{'B','R'})) return "BR";
-        if (letters.SetEquals(new HashSet<char>{'R','G'})) return "RG";
-        if (letters.SetEquals(new HashSet<char>{'G','B'})) return "GB";
-        if (letters.SetEquals(new HashSet<char>{'G','W'})) return "GW";
-        if (letters.SetEquals(new HashSet<char>{'R','W'})) return "RW";
-        if (letters.SetEquals(new HashSet<char>{'W','B'})) return "WB";
+        if (letters.SetEquals(new HashSet<char> { 'U', 'W' })) return "UW";
+        if (letters.SetEquals(new HashSet<char> { 'U', 'G' })) return "UG";
+        if (letters.SetEquals(new HashSet<char> { 'U', 'R' })) return "UR";
+        if (letters.SetEquals(new HashSet<char> { 'U', 'B' })) return "UB";
+        if (letters.SetEquals(new HashSet<char> { 'B', 'R' })) return "BR";
+        if (letters.SetEquals(new HashSet<char> { 'R', 'G' })) return "RG";
+        if (letters.SetEquals(new HashSet<char> { 'G', 'B' })) return "GB";
+        if (letters.SetEquals(new HashSet<char> { 'G', 'W' })) return "GW";
+        if (letters.SetEquals(new HashSet<char> { 'R', 'W' })) return "RW";
+        if (letters.SetEquals(new HashSet<char> { 'W', 'B' })) return "WB";
 
         // Triples
-        if (letters.SetEquals(new HashSet<char>{'U','R','W'})) return "URW";
-        if (letters.SetEquals(new HashSet<char>{'B','G','U'})) return "BGU";
-        if (letters.SetEquals(new HashSet<char>{'G','U','R'})) return "GUR";
-        if (letters.SetEquals(new HashSet<char>{'W','U','B'})) return "WUB";
-        if (letters.SetEquals(new HashSet<char>{'R','W','B'})) return "RWB";
-        if (letters.SetEquals(new HashSet<char>{'R','G','W'})) return "RGW";
-        if (letters.SetEquals(new HashSet<char>{'B','R','G'})) return "BRG";
-        if (letters.SetEquals(new HashSet<char>{'U','B','R'})) return "UBR";
-        if (letters.SetEquals(new HashSet<char>{'G','W','U'})) return "GWU";
-        if (letters.SetEquals(new HashSet<char>{'W','B','G'})) return "WBG";
+        if (letters.SetEquals(new HashSet<char> { 'U', 'R', 'W' })) return "URW";
+        if (letters.SetEquals(new HashSet<char> { 'B', 'G', 'U' })) return "BGU";
+        if (letters.SetEquals(new HashSet<char> { 'G', 'U', 'R' })) return "GUR";
+        if (letters.SetEquals(new HashSet<char> { 'W', 'U', 'B' })) return "WUB";
+        if (letters.SetEquals(new HashSet<char> { 'R', 'W', 'B' })) return "RWB";
+        if (letters.SetEquals(new HashSet<char> { 'R', 'G', 'W' })) return "RGW";
+        if (letters.SetEquals(new HashSet<char> { 'B', 'R', 'G' })) return "BRG";
+        if (letters.SetEquals(new HashSet<char> { 'U', 'B', 'R' })) return "UBR";
+        if (letters.SetEquals(new HashSet<char> { 'G', 'W', 'U' })) return "GWU";
+        if (letters.SetEquals(new HashSet<char> { 'W', 'B', 'G' })) return "WBG";
 
         return "Misc";
     }
@@ -858,7 +863,7 @@ public class CardMasterDesign
         if (string.IsNullOrEmpty(name))
             return null;
         var candidate = name.Trim();
-        var codes = new[] { "UW","UG","UR","UB","BR","RG","GB","GW","RW","WB","URW","BGU","GUR","WUB","RWB","RGW","BRG","UBR","GWU","WBG","Misc" };
+        var codes = new[] { "UW", "UG", "UR", "UB", "BR", "RG", "GB", "GW", "RW", "WB", "URW", "BGU", "GUR", "WUB", "RWB", "RGW", "BRG", "UBR", "GWU", "WBG", "Misc" };
         foreach (var code in codes)
         {
             var friendly = SubBucketFriendlyName(code);
@@ -1082,7 +1087,8 @@ public class CardMasterDesign
                 FaceType = CardFaceType.Regular;
             }
         }
-        else        {
+        else
+        {
             FaceType = _splitKind.Value switch
             {
                 SplitKind.Fuse when SplitLeft is not null && SplitRight is not null => CardFaceType.SplitFuse,
@@ -1264,6 +1270,7 @@ public class CardMasterDesign
                 case "[EntersTapped]":
                 case "[RelatedTokens]":
                 case "[DraftScore]":
+                case "[Tags]":
                 case "[Cycle]":
                     // Apply the collected buffer for the previous property name
                     if (activePropertyName != null)
@@ -1624,6 +1631,19 @@ public class CardMasterDesign
             if (ht.Contains("Artifact")) return "Artifact";
         }
         return "Other";
+    }
+
+    IEnumerable<string> AllTags => [
+        ..FrontFull?.Tags ?? [],
+        ..BackFull?.Tags ?? [],
+        ..MeldTarget?.Tags ?? [],
+        ..SplitLeft?.Tags ?? [],
+        ..SplitRight?.Tags ?? []
+    ];
+
+    internal bool HasAnyTag(string[] tags)
+    {
+        return AllTags.Intersect(tags).Any();
     }
 }
 
@@ -2522,7 +2542,7 @@ public class GenAllCommand : BaseCommand
                 }
 
                 // Special case for tokens without script files
-                var specialTokens = new[] { 
+                var specialTokens = new[] {
                     ("c_a_food_sac.jpg", "Food Token"),
                     ("c_a_clue_draw.jpg", "Clue Token"),
                     ("c_a_blood_draw.jpg", "Blood Token"),
@@ -2756,7 +2776,7 @@ public class GenAllCommand : BaseCommand
         // Collect cards with draft scores and without
         var rankedCards = new List<(string displayName, string rarity, int score)>();
         var unrankedCards = new List<(string displayName, string rarity)>();
-        
+
         foreach (var (_, card) in cards)
         {
             // Skip commander cards
@@ -2769,7 +2789,7 @@ public class GenAllCommand : BaseCommand
                 continue;
 
             string displayName = card.Name;
-            
+
             // For split/room cards, remove " // "
             if (card.FaceType == CardFaceType.SplitFuse || card.FaceType == CardFaceType.SplitRoom)
             {
@@ -3246,7 +3266,7 @@ public class CardConjurerValidateCommand : BaseCommand
                 str2 = NormalizeString(str2);
 
                 // Helper to get unicode info for a character
-                static string GetUnicodeInfo(char c) 
+                static string GetUnicodeInfo(char c)
                 {
                     if (c == ' ') return "SPACE";
                     if (c == '\t') return "TAB";
@@ -3334,7 +3354,7 @@ public class CardConjurerValidateCommand : BaseCommand
                             marker.AppendLine($"              First difference at line {i + 1}:");
                             marker.AppendLine($"                CC: {EscapeWhitespace(lines1[i])}");
                             marker.AppendLine($"                DF: {EscapeWhitespace(lines2[i])}");
-                            
+
                             // Find first char difference in this line
                             for (int j = 0; j < Math.Min(lines1[i].Length, lines2[i].Length); j++)
                             {
@@ -3482,9 +3502,23 @@ public class StatsCommand : BaseCommand
     [CliOption(Required = false, Description = "Include rows with all-zero totals in the printed tables (default: omit empty rows).")]
     public bool ShowEmptyRows { get; set; } = false;
 
+    [CliOption(Required = false, Description = "Only include cards with any of the specified tags")]
+    public string[]? Tags { get; set; }
+
     protected override async Task<int> ExecuteAsync(CliContext context, TextWriter stdout, TextWriter stderr)
     {
         var cards = await ReadCardDesignsAsync(stdout, stderr, true);
+
+        if (this.Tags is not null)
+        {
+            var filtered = new SortedDictionary<string, CardMasterDesign>();
+            foreach (var kv in cards)
+            {
+                if (kv.Value.HasAnyTag(this.Tags))
+                    filtered.Add(kv.Key, kv.Value);
+            }
+            cards = filtered;
+        }
 
         // Apply primary-type filter if provided
         if (!string.IsNullOrEmpty(this.PrimaryType))

@@ -128,6 +128,28 @@ Currently not used in any context.
 
 The oracle text of the card. Can span multiple lines.
 
+### Draft Score (`[DraftScore]`)
+
+Defines the draft ranking of this card. 100 = Bombastic 1st pick always, 0 = Absolute dreck, Unspecified = Unknown
+
+This data is used to build the draft rankings file in Forge to (hopefully) guide/assist AI in cube drafts with this set.
+
+> The rankings file doesn't quite work as expected atm. For one thing, a card with DraftScore = 100 gets translated to 50. I have to study to the draft ranking code in forge to gain a better understanding of how to make DraftScore = 100 be that same value come draft time in Forge.
+
+Not used in any other contexts.
+
+### Tags (`[Tags]`)
+
+Defines custom tags for the card. One line per tag.
+
+Intended to capture well-defined roles for a certain card (eg. `creature-removal`, `artifact-removal`, `life-gain`, `combat-trick`, etc) and assist in cube gameplay balancing.
+
+This property is to primarily assist the `stats` command in `CardProcess` and be able to get stats by these custom tags.
+
+### Cycle (`[Cycle]`)
+
+Extra metadata to indicate if this card is part of a cycle. Does not affect gameplay.
+
 ### Enters Tapped (`[EntersTapped]`)
 
 Cockatrice metadata that indicates if this card enters tapped. Only apply for cards that enter tapped unconditionally.
