@@ -13,6 +13,8 @@ Spirebluff Canal
 Sandfall Interactive
 [IsReprint]
 true
+[Tags]
+mana-fixer
 [DesignNotes]
  - In the game, a Stone Wave Cliffs is the final area of Act 1.
  - Gone with nickname reprint of Stormcarved Coast.

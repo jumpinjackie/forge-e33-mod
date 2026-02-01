@@ -26,6 +26,8 @@ A:AB$ DealDamage | Cost$ 2 R | Exhaust$ true | ValidTgts$ Creature.withoutFlying
 $NEVRON_DEATH_ABILITY
 [Artist]
 Sandfall Interactive
+[Tags]
+creature-removal
 [DesignNotes]
  - In the game, Glaises can be found in Yellow Harvest and Falling Leaves
  - 21/01/2026: Added Elemental sub-type.

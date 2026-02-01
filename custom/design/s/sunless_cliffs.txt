@@ -15,6 +15,8 @@ R
 Blackcleave Cliffs
 [Artist]
 Sandfall Interactive
+[Tags]
+mana-fixer
 [DesignNotes]
  - In the game, a Sunless Cliffs is an optional area. It features a battle against a special mime.
  - Gone with nickname reprint of Blackleave Cliffs

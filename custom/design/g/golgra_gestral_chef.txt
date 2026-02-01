@@ -37,6 +37,8 @@ SVar:DBDraw:DB$ Draw | NumCards$ 1 | SpellDescription$ Draw a card.
  - In the game, when Golgra gets below 50% health, she goes "Super Saiyan" and her attacks increase in power.
  - Mechanically, I've gone with Enrage as a way to approximate this "Super Saiyan" state and went with an assortment of combat-boosting abilities that could be granted from being enraged.
  - 19/12/2025: Renamed from Golgra, Gestral Chief to Golgra, Gestral Chef as that is indeed what other Gestrals refer to her as.
+[Tags]
+lord
 [Bugs]
 I am being prompted for the mode before the enrage trigger goes on the stack, I kind of expected the prompt to happen on trigger resolution. And the trigger description on the stack is the full modal prompt and not the choice made. Not sure if it ultimately matters because it behaviourally works as expected.
 [DraftScore]

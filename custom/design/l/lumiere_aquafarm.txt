@@ -25,6 +25,8 @@ R:Event$ Moved | ValidCard$ Card.Self | Destination$ Battlefield | ReplaceWith$ 
 SVar:LandTapped:DB$ Tap | Defined$ Self | ETB$ True | ConditionPresent$ Expeditioner.YouCtrl | ConditionCompare$ EQ0
 [RelatedTokens]
 c_a_food_sac
+[Tags]
+mana-fixer
 [DesignNotes]
  - In the game, Gustave lead the Aquafarm project which ensured the food supply for the city of Lumière.
  - This gives us an opportunity to add another dual land to this set.

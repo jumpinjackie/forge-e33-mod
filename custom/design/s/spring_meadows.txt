@@ -15,6 +15,8 @@ R
 Razorverge Thicket
 [Artist]
 Sandfall Interactive
+[Tags]
+mana-fixer
 [DesignNotes]
  - In the game, Spring Meadows is the opening area of Act 1.
  - Gone with nickname reprint of Razorverge Thicket.

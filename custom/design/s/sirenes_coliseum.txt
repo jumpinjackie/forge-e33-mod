@@ -25,6 +25,8 @@ A:AB$ Mana | Cost$ T | Produced$ Any | SubAbility$ DBPain | SpellDescription$ Ad
 SVar:DBPain:DB$ DealDamage | NumDmg$ 1 | Defined$ You
 [DraftScore]
 97
+[Tags]
+mana-fixer
 [DesignNotes]
  - In the game, this is the home of Sirène, one of the Axons.
  - Modelled on Grand Coliseum with drawbacks removed if you are Nevron/Painter aligned.

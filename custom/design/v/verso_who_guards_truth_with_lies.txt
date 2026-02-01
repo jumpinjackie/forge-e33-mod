@@ -43,6 +43,8 @@ SVar:X:Count$xPaid
 Sandfall Interactive
 [DraftScore]
 92
+[Tags]
+creature-removal
 [DesignNotes]
  - The main gimmick we want to mechanically capture is his rank. Rank is gained from dealing damage and is lost on taking damage.
  - Easy map to gain/loss of rank counters on dealing damage/taking damage. For game balance, Verso will lose all rank counters on a single hit.
