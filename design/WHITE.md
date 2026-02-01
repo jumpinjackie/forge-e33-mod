@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 26/1/2026 10:03:01 am
+> Last generated: 1/2/2026 5:16:09 pm
 
 ## A Life to Love (Farewell)
 
@@ -305,6 +305,8 @@ We can hold the line for another few days but we need to find a way out, our wat
 
 ### Design Notes
 
+ - Another combat trick for white.
+ - Thematically, put it under the Expedition 49 banner as that was the expedition that emphasized defensive tactics.
 
 ## Expedition 54 Dissident
 
