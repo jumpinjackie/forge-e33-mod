@@ -853,6 +853,21 @@ public class CardMasterDesign(string designFile)
         };
     }
 
+    public static string? GetSubBucketCodeFromFriendlyName(string name)
+    {
+        if (string.IsNullOrEmpty(name))
+            return null;
+        var candidate = name.Trim();
+        var codes = new[] { "UW","UG","UR","UB","BR","RG","GB","GW","RW","WB","URW","BGU","GUR","WUB","RWB","RGW","BRG","UBR","GWU","WBG","Misc" };
+        foreach (var code in codes)
+        {
+            var friendly = SubBucketFriendlyName(code);
+            if (!string.IsNullOrEmpty(friendly) && friendly.Equals(candidate, StringComparison.OrdinalIgnoreCase))
+                return code;
+        }
+        return null;
+    }
+
     public record CockatriceCardFace(string Name, string Rarity, string OracleText, string Colors, string? ManaCost, int? ManaValue, string Type, string MainType, string? PT, string? Loyalty, string? RelatedCardName, bool? EntersTapped, string? Side, string[]? RelatedTokens)
     {
         public int GetTableRow() => this.MainType switch
@@ -1035,6 +1050,20 @@ public class CardMasterDesign(string designFile)
         };
     }
 
+    internal int GetManaValueForStats()
+    {
+        if (this.FaceType == CardFaceType.SplitFuse || this.FaceType == CardFaceType.SplitRoom)
+        {
+            var left = this.SplitLeft?.GetManaValue() ?? 0;
+            var right = this.SplitRight?.GetManaValue() ?? 0;
+            return left + right;
+        }
+        else
+        {
+            return this.FrontFull?.GetManaValue() ?? 0;
+        }
+    }
+
     internal CardMasterDesign Finalize()
     {
         if (!_splitKind.HasValue)
@@ -1053,8 +1082,7 @@ public class CardMasterDesign(string designFile)
                 FaceType = CardFaceType.Regular;
             }
         }
-        else
-        {
+        else        {
             FaceType = _splitKind.Value switch
             {
                 SplitKind.Fuse when SplitLeft is not null && SplitRight is not null => CardFaceType.SplitFuse,
@@ -1602,7 +1630,8 @@ public class CardMasterDesign(string designFile)
 public enum StatsType
 {
     Bucket,
-    PrimaryType
+    PrimaryType,
+    ManaCurve
 }
 
 public static class StatsPrinter
@@ -1796,6 +1825,82 @@ public static class StatsPrinter
         else
             result.AppendLine($"Sanity check: MISMATCH - type grand total {grandTotalFromType} != rarity grand total {overallTotal}");
 
+        return result.ToString();
+    }
+
+    public static string BuildManaCurveTable(SortedDictionary<string, CardMasterDesign> cards, bool showEmptyRows = false)
+    {
+        var rarityCodes = new[] { "C", "U", "R", "M", "?" };
+        var distro = new SortedDictionary<int, Dictionary<string, int>>();
+        var rarityTotals = rarityCodes.ToDictionary(r => r, r => 0);
+        int overallTotal = 0;
+        int maxMV = 0;
+
+        foreach (var (_, card) in cards)
+        {
+            overallTotal++;
+            var r = card.Rarity ?? "?";
+            if (r.Length != 1 || (r != "C" && r != "U" && r != "R" && r != "M"))
+                r = "?";
+            rarityTotals[r]++;
+
+            var mv = card.GetManaValueForStats();
+            if (!distro.TryGetValue(mv, out var map))
+            {
+                map = rarityCodes.ToDictionary(rr => rr, rr => 0);
+                distro[mv] = map;
+            }
+            map[r]++;
+            if (mv > maxMV) maxMV = mv;
+        }
+
+        if (showEmptyRows)
+        {
+            for (int i = 0; i <= maxMV; i++)
+            {
+                if (!distro.ContainsKey(i))
+                    distro[i] = rarityCodes.ToDictionary(rr => rr, rr => 0);
+            }
+        }
+
+        var nameWidth = Math.Max(6, Math.Max(distro.Keys.Select(k => k.ToString().Length).DefaultIfEmpty(1).Max(), 6));
+        var sb = new StringBuilder();
+
+        // Header
+        sb.Append(' ', 0);
+        sb.Append("Mana".PadRight(nameWidth + 2));
+        sb.Append("| ");
+        sb.Append(String.Join(" | ", rarityCodes.Select(rc => rc.PadLeft(3))));
+        sb.Append(" | Tot (%)\n");
+
+        // Separator
+        sb.Append(new string('-', nameWidth + 2));
+        sb.Append("|-----|-----|-----|-----|-----|-----\n");
+
+        foreach (var mv in distro.Keys.OrderBy(k => k))
+        {
+            var map = distro[mv];
+            var rowTotal = map.Values.Sum();
+            if (!showEmptyRows && rowTotal == 0)
+                continue;
+            double pct = overallTotal > 0 ? (100.0 * rowTotal / overallTotal) : 0.0;
+            sb.Append(mv.ToString().PadRight(nameWidth + 2));
+            sb.Append("| ");
+            sb.Append(String.Join(" | ", rarityCodes.Select(rc => map.ContainsKey(rc) ? map[rc].ToString().PadLeft(3) : "  0")));
+            sb.Append($" | {rowTotal} ({pct:F1}%)\n");
+        }
+
+        // Totals row
+        sb.Append(new string('-', nameWidth + 2));
+        sb.Append("|-----|-----|-----|-----|-----|-----\n");
+        sb.Append("Total".PadRight(nameWidth + 2));
+        sb.Append("| ");
+        sb.Append(String.Join(" | ", rarityCodes.Select(rc => rarityTotals[rc].ToString().PadLeft(3))));
+        sb.Append($" | {overallTotal} (100.0%)\n\n");
+
+        var result = new StringBuilder();
+        result.AppendLine("Mana curve by mana value (rows = mana value, cols = rarity):");
+        result.Append(sb.ToString());
         return result.ToString();
     }
 
@@ -3359,11 +3464,14 @@ public class StatsCommand : BaseCommand
     [CliOption(Required = true, Description = "The base content directory")]
     public override required DirectoryInfo BaseDirectory { get; set; }
 
-    [CliOption(Description = "Which table to output: 'bucket' or 'type'. Omit to print both.")]
+    [CliOption(Description = "Which table to output: 'bucket', 'type', or 'mana'. Omit to print both.")]
     public StatsType? Type { get; set; }
 
     [CliOption(Required = false, Description = "Only include cards whose primary type matches (case-insensitive). Example: 'Creature'.")]
     public string? PrimaryType { get; set; }
+
+    [CliOption(Required = false, Description = "Filter results by bucket (e.g., ARTIFACTS, WHITE, MULTICOLOR, or friendly names like Azorius).")]
+    public string? Bucket { get; set; }
 
     [CliOption(Required = false, Description = "Include rows with all-zero totals in the printed tables (default: omit empty rows).")]
     public bool ShowEmptyRows { get; set; } = false;
@@ -3384,6 +3492,37 @@ public class StatsCommand : BaseCommand
             cards = filtered;
         }
 
+        // Apply bucket filter if provided
+        if (!string.IsNullOrEmpty(this.Bucket))
+        {
+            var b = this.Bucket.Trim();
+            var filtered = new SortedDictionary<string, CardMasterDesign>();
+
+            // Try direct bucket match first
+            foreach (var kv in cards)
+            {
+                if (kv.Value.Bucket != null && kv.Value.Bucket.Equals(b, StringComparison.OrdinalIgnoreCase))
+                    filtered.Add(kv.Key, kv.Value);
+            }
+
+            if (filtered.Count == 0)
+            {
+                // Try friendly name -> code or direct code (e.g., 'UW', 'URW')
+                var code = CardMasterDesign.GetSubBucketCodeFromFriendlyName(b);
+                if (code is null)
+                    code = b.ToUpperInvariant();
+
+                foreach (var kv in cards)
+                {
+                    if (kv.Value.MulticolorSubBucket != null && kv.Value.MulticolorSubBucket.Equals(code, StringComparison.OrdinalIgnoreCase))
+                        filtered.Add(kv.Key, kv.Value);
+                }
+            }
+
+            // If still empty, leave it empty per user's instruction
+            cards = filtered;
+        }
+
         string output;
         if (Type is null)
         {
@@ -3398,6 +3537,9 @@ public class StatsCommand : BaseCommand
                     break;
                 case StatsType.PrimaryType:
                     output = StatsPrinter.BuildTypeTable(cards, this.ShowEmptyRows);
+                    break;
+                case StatsType.ManaCurve:
+                    output = StatsPrinter.BuildManaCurveTable(cards, this.ShowEmptyRows);
                     break;
                 default:
                     await stderr.WriteLineAsync("Invalid --type value.");
