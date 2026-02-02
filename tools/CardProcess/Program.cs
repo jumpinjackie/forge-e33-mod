@@ -2592,11 +2592,11 @@ public class GenAllCommand : BaseCommand
                         }
                     }
                     spoilerWriter.WriteLine(); // Need a newline before the markdown table, otherwise rendering is screwy
-                    WriteSpoilerTable(spoilerWriter, baseImages, outputDir, this.LinkifyCaptions);
+                    WriteSpoilerTable(spoilerWriter, baseImages, outputDir, this.LinkifyCaptions, false);
                 }
 
                 spoilerWriter.WriteLine("### Tokens");
-                WriteSpoilerTable(spoilerWriter, tokenImages, outputDir, this.LinkifyCaptions);
+                WriteSpoilerTable(spoilerWriter, tokenImages, outputDir, this.LinkifyCaptions, true);
 
                 {
                     var totalCards = 0;
@@ -2623,7 +2623,7 @@ public class GenAllCommand : BaseCommand
                         }
                     }
                     spoilerWriter.WriteLine(); // Need a newline before the markdown table, otherwise rendering is screwy
-                    WriteSpoilerTable(spoilerWriter, cmdrImages, outputDir, this.LinkifyCaptions);
+                    WriteSpoilerTable(spoilerWriter, cmdrImages, outputDir, this.LinkifyCaptions, false);
                 }
             }
 
@@ -2674,7 +2674,7 @@ public class GenAllCommand : BaseCommand
                 bool IsBasicLand(string name) => name is "Forest" or "Island" or "Mountain" or "Plains" or "Swamp";
             }
 
-            static void WriteSpoilerTable(StreamWriter spoilerWriter, List<(string path, string name, string bucket, string? nicknameFor, bool isCommander, string[] tags)> images, DirectoryInfo outputDir, bool linkifyCaptions)
+            static void WriteSpoilerTable(StreamWriter spoilerWriter, List<(string path, string name, string bucket, string? nicknameFor, bool isCommander, string[] tags)> images, DirectoryInfo outputDir, bool linkifyCaptions, bool isTokenImages)
             {
                 const int COLUMNS = 3;
 
@@ -2699,7 +2699,7 @@ public class GenAllCommand : BaseCommand
                             imageRow[c] = $"![]({encodedRel})";
                             // Build tag HTML only for non-commander cards with non-empty tag arrays
                             var tagsHtml = string.Empty;
-                            if (!isCommander)
+                            if (!isCommander && !isTokenImages)
                             {
                                 if (tags is not null && tags.Length > 0)
                                 {
