@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 2/2/2026 1:49:41 pm
+> Last generated: 2/2/2026 3:23:03 pm
 
 ## A Storm is Coming
 
@@ -480,6 +480,8 @@ Choose one or more —
 • Target player draws two cards. Add {U}.
 • Elemental trick deals 4 damage to any target. Add {R}.
 • Target player gains 6 life. Add {G}.
+---
+Elements. Converge!
 ```
 
 [card implementation](../custom/cards/e/elemental_trick.txt)

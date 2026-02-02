@@ -35570,7 +35570,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Choose one or more —\n• Exile target creature. Add {W}.\n• Target player draws two cards. Add {U}.\n• Elemental trick deals 4 damage to any target. Add {R}.\n• Target player gains 6 life. Add {G}.",
+                    "text": "Choose one or more —\n• Exile target creature. Add {W}.\n• Target player draws two cards. Add {U}.\n• Elemental trick deals 4 damage to any target. Add {R}.\n• Target player gains 6 life. Add {G}.{flavor}Elements. Converge!",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
@@ -83309,7 +83309,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Lightning Dance deals 1 damage to any target, 2 damage to another target, and 3 damage to a third target.\n{i}Luminous{/i} — Draw a card if you control at least three Lumina tokens.",
+                    "text": "Lightning Dance deals 1 damage to any target, 2 damage to another target, and 3 damage to a third target.\n{i}Luminous{/i} — Draw a card if you control at least three Lumina tokens.{flavor}Feel the storm!",
                     "x": 0.086,
                     "y": 0.6325515280739161,
                     "width": 0.828,
@@ -135928,7 +135928,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Thunderfall deals 2 damage to any target.\n{i}Luminous{/i} — Thunderfall deals 4 damage instead if you control at least three Lumina tokens.",
+                    "text": "Thunderfall deals 2 damage to any target.\n{i}Luminous{/i} — Thunderfall deals 4 damage instead if you control at least three Lumina tokens.{flavor}Meet your reckoning!",
                     "x": 0.086,
                     "y": 0.6325515280739161,
                     "width": 0.828,

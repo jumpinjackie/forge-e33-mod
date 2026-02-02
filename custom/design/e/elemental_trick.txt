@@ -16,6 +16,8 @@ Choose one or more —
 • Target player draws two cards. Add {U}.
 • Elemental trick deals 4 damage to any target. Add {R}.
 • Target player gains 6 life. Add {G}.
+[FlavorText]
+Elements. Converge!
 [ForgeScript]
 A:SP$ Charm | MinCharmNum$ 1 | CharmNum$ 4 | Choices$ DBExile,DBDraw,DBDamage,DBGainLife
 SVar:DBExile:DB$ ChangeZone | ValidTgts$ Creature | TgtPrompt$ Select target creature (to exile) | Origin$ Battlefield | Destination$ Exile | SubAbility$ DBAddW | SpellDescription$ Exile target creature. Add {W}.

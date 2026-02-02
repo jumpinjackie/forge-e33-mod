@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 2/2/2026 1:53:25 pm
+> Last generated: 2/2/2026 3:23:03 pm
 
 ## Anger
 
@@ -355,6 +355,8 @@ When this creature dies, target opponent creates a Lumina token. (It's an artifa
 Kindred Sorcery - Expeditioner
 Lightning Dance deals 1 damage to any target, 2 damage to another target, and 3 damage to a third target.
 Luminous — Draw a card if you control at least three Lumina tokens.
+---
+Feel the storm!
 ```
 
 [card implementation](../custom/cards/l/lightning_dance.txt)
@@ -573,6 +575,8 @@ R
 Kindred Instant - Expeditioner
 Thunderfall deals 2 damage to any target.
 Luminous — Thunderfall deals 4 damage instead if you control at least three Lumina tokens.
+---
+Meet your reckoning!
 ```
 
 [card implementation](../custom/cards/t/thunderfall.txt)
