@@ -29,7 +29,7 @@ Type=Custom
 275 M Mana Drain @Raymond Swanland
 285 U Mask of Memory @Allen Morris
 290 R Mirage Mirror @Craig J Spearing
-296 U Mortify @Nils Hamm
+296 U Mortify @Sandfall Interactive
 316 U Patchwork Banner @Sarah Finnigan
 317 U Path to Exile @Raf Sarmento
 329 U Primal Empathy @Sandfall Interactive

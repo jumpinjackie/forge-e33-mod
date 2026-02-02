@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 28/1/2026 2:01:53 am
+> Last generated: 2/2/2026 1:53:25 pm
 
 ## Anger
 
@@ -552,7 +552,10 @@ When this creature dies, target opponent creates a Lumina token. (It's an artifa
 ```
 3RR
 Kindred Sorcery - Expeditioner
-Terraquake deals X damage to each creature without flying and each player, where X is twice the number of non-basic lands in play.
+Terraquake deals X damage to each creature without flying, each planeswalker and each player, where X is twice the number of non-basic lands in play.
+Luminous — Draw a card if you control at least three Lumina tokens.
+---
+Earth. Rise!
 ```
 
 [card implementation](../custom/cards/t/terraquake.txt)
@@ -561,6 +564,7 @@ Terraquake deals X damage to each creature without flying and each player, where
 
  - In the game, this is one of Lune's abilities.
  - This is Earthquake and Price of Progress smushed together and is meant to check greedy non-basic mana bases.
+ - 3/2/2026: Added Luminous bonus and make it also hit planeswalkers
 
 ## Thunderfall
 

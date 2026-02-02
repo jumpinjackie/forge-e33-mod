@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 1/2/2026 5:16:09 pm
+> Last generated: 2/2/2026 1:49:41 pm
 
 ## A Life to Love (Farewell)
 
@@ -500,6 +500,7 @@ Your turn to shine!
 ```
 2W
 Enchantment
+Flash
 As this enchantment enters, choose a creature type.
 {W}, Tap an untapped creature you control of the chosen type: Prevent all damage that would be dealt to another target creature of the chosen type this turn.
 ---
@@ -513,7 +514,7 @@ We are her guardians, not her jailers.
 
  - In the game, inside Verso's Treehouse in Verso's Drafts, there are various artpieces depicting Verso interacting with various family members. One of them is him keeping eye on his younger sister, Alicia.
  - Modeled as a "Circle of protection" for creatures that can protect a creature by tapping another creature of the same kind.
-    
+ - 3/2/2026: Added Flash to improve its standing as a combat trick.
 
 ## Swords to Plowshares
 

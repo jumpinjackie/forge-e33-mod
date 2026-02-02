@@ -81514,9 +81514,9 @@
                 }
             ],
             "artSource": "https://jumpinjackie.github.io/e33-reference-art/images/cards/leave_this_canvas.jpg",
-            "artX": -0.050248756218905476,
-            "artY": 0.11300639658848614,
-            "artZoom": 1.1540000000000001,
+            "artX": -0.20746268656716418,
+            "artY": 0.10518834399431415,
+            "artZoom": 1.449,
             "artRotate": "0",
             "setSymbolSource": "http://localhost:4242/img/setSymbols/official/pz1-r.svg",
             "setSymbolX": 0.8756218905472637,
@@ -96666,10 +96666,10 @@
                     ]
                 }
             ],
-            "artSource": "https://cards.scryfall.io/art_crop/front/3/8/38c5e2e8-b781-4265-bce1-98fa25ddd8c3.jpg?1592714339",
-            "artX": 0.07711442786069651,
-            "artY": 0.1122956645344705,
-            "artZoom": 2.766,
+            "artSource": "https://jumpinjackie.github.io/e33-reference-art/images/cards/mortify.jpg",
+            "artX": -0.05721393034825871,
+            "artY": 0.11300639658848614,
+            "artZoom": 2.249,
             "artRotate": "0",
             "setSymbolSource": "http://localhost:4242/img/setSymbols/official/cmd-u.svg",
             "setSymbolX": 0.8686567164179104,
@@ -96851,7 +96851,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Destroy target creature or enchantment.",
+                    "text": "Destroy target creature or enchantment.{flavor}My sweet child, you were supposed to stay at home. I told you not to worry. But since you are here now, just stay put.\n- Unknown Man",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
@@ -96877,7 +96877,7 @@
             "infoRarity": "U",
             "infoSet": "E3C",
             "infoLanguage": "EN",
-            "infoArtist": "Nils Hamm",
+            "infoArtist": "Sandfall Interactive",
             "infoNote": "Proxy, Not for Sale",
             "serialNumber": "",
             "serialTotal": "",
@@ -119905,7 +119905,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "As this enchantment enters, choose a creature type.\n{W}, Tap an untapped creature you control of the chosen type: Prevent all damage that would be dealt to another target creature of the chosen type this turn.{flavor}We are her guardians, not her jailers.\n- Emma",
+                    "text": "Flash\nAs this enchantment enters, choose a creature type.\n{W}, Tap an untapped creature you control of the chosen type: Prevent all damage that would be dealt to another target creature of the chosen type this turn.{flavor}We are her guardians, not her jailers.\n- Emma",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
@@ -130016,7 +130016,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Terraquake deals X damage to each creature without flying and each player, where X is twice the number of non-basic lands in play.",
+                    "text": "Terraquake deals X damage to each creature without flying, each planeswalker and each player, where X is twice the number of non-basic lands in play.\n{i}Luminous{/i} — Draw a card if you control at least three Lumina tokens.{flavor}Earth. Rise!",
                     "x": 0.086,
                     "y": 0.6325515280739161,
                     "width": 0.828,

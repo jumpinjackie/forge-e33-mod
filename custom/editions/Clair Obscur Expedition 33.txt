@@ -405,7 +405,7 @@ Type=Custom
 355 C Shattered Landscape @Erikas Perl
 356 C Sheltering Landscape @Erikas Perl
 366 R Botanical Sanctum @Sandfall Interactive ${"flavorName": "Sky Island"}
-369 C Spreading Seas @
+369 C Spreading Seas @Jung Park
 370 R Razorverge Thicket @Sandfall Interactive ${"flavorName": "Spring Meadows"}
 375 R Spirebluff Canal @Sandfall Interactive ${"flavorName": "Stone Wave Cliffs"}
 376 R Blackcleave Cliffs @Sandfall Interactive ${"flavorName": "Sunless Cliffs"}

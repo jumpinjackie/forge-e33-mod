@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 29/1/2026 3:41:38 pm
+> Last generated: 2/2/2026 1:49:41 pm
 
 ## A Storm is Coming
 
@@ -1855,6 +1855,7 @@ My, what lovely feet! — Monoco has activated abilities of all Nevrons in exile
 ### Notes
 
  - Staple commander removal.
+ - 3/2/2026: Art was chosen simply because Maelle's expression at that point in time is basically mortification at what has just transpired.
 
 ## Nicolas, Seeking Inspiration
 
