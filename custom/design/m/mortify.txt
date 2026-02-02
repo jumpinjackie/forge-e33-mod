@@ -8,6 +8,9 @@ B
 Instant
 [Oracle]
 Destroy target creature or enchantment.
+[FlavorText]
+My sweet child, you were supposed to stay at home. I told you not to worry. But since you are here now, just stay put.
+- Unknown Man
 [IsReprint]
 true
 [IsCommander]
@@ -15,6 +18,7 @@ true
 [Rarity]
 U
 [Artist]
-Nils Hamm
+Sandfall Interactive
 [DesignNotes]
  - Staple commander removal.
+ - 3/2/2026: Art was chosen simply because Maelle's expression at that point in time is basically mortification at what has just transpired.

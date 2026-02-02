@@ -1,7 +1,8 @@
 Name:Terraquake
 ManaCost:3 R R
 Types:Kindred Sorcery Expeditioner
-A:SP$ DamageAll | ValidCards$ Creature.withoutFlying | ValidPlayers$ Player | NumDmg$ X | AILogic$ PriceOfProgress | SpellDescription$ CARDNAME deals X damage to each creature without flying and each player, where X is twice the number of non-basic lands in play.
-SVar:DBDamage:DB$ DealDamage | Defined$ Remembered | NumDmg$ X
+A:SP$ DamageAll | ValidCards$ Creature.withoutFlying,Planeswalker | ValidPlayers$ Player | NumDmg$ X | AILogic$ PriceOfProgress | SubAbility$ TrigDraw | SpellDescription$ CARDNAME deals X damage to each creature without flying, each planeswalker and each player, where X is twice the number of non-basic lands in play.
 SVar:X:Count$Valid Land.nonBasic/Times.2
-Oracle:Terraquake deals X damage to each creature without flying and each player, where X is twice the number of non-basic lands in play.
+SVar:TrigDraw:DB$ Draw | NumCards$ 1 | ConditionCheckSVar$ Y | ConditionSVarCompare$ GE3 | SpellDescription$ Draw a card if you control at least three Lumina tokens.
+SVar:Y:Count$Valid Lumina.YouCtrl
+Oracle:Terraquake deals X damage to each creature without flying, each planeswalker and each player, where X is twice the number of non-basic lands in play.\nLuminous — Draw a card if you control at least three Lumina tokens.

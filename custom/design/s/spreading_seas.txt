@@ -17,6 +17,8 @@ It’s a miracle any of us survived. We were caught in the maelstrom and flung f
 - Elodie, Expedition 68
 [IsReprint]
 true
+[Artist]
+Jung Park
 [Tags]
 nonbasic-hate
 [DesignNotes]

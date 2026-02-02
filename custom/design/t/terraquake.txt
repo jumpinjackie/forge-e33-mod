@@ -15,13 +15,22 @@ Sandfall Interactive
 [ArtNotes]
 Lune is floating in the air, arms raised as if summoning something from the ground. In this case, it's several rock columns shooting out from the ground.
 [Oracle]
-~ deals X damage to each creature without flying and each player, where X is twice the number of non-basic lands in play.
+~ deals X damage to each creature without flying, each planeswalker and each player, where X is twice the number of non-basic lands in play.
+Luminous — Draw a card if you control at least three Lumina tokens.
+[AbilityWords]
+Luminous
+[FlavorText]
+Earth. Rise!
 [ForgeScript]
-A:SP$ DamageAll | ValidCards$ Creature.withoutFlying | ValidPlayers$ Player | NumDmg$ X | AILogic$ PriceOfProgress | SpellDescription$ CARDNAME deals X damage to each creature without flying and each player, where X is twice the number of non-basic lands in play.
-SVar:DBDamage:DB$ DealDamage | Defined$ Remembered | NumDmg$ X
+A:SP$ DamageAll | ValidCards$ Creature.withoutFlying,Planeswalker | ValidPlayers$ Player | NumDmg$ X | AILogic$ PriceOfProgress | SubAbility$ TrigDraw | SpellDescription$ CARDNAME deals X damage to each creature without flying, each planeswalker and each player, where X is twice the number of non-basic lands in play.
 SVar:X:Count$Valid Land.nonBasic/Times.2
+SVar:TrigDraw:DB$ Draw | NumCards$ 1 | ConditionCheckSVar$ Y | ConditionSVarCompare$ GE3 | SpellDescription$ Draw a card if you control at least three Lumina tokens.
+SVar:Y:Count$Valid Lumina.YouCtrl
 [Tags]
+luminous
 board-wipe
+nonbasic-hate
 [DesignNotes]
  - In the game, this is one of Lune's abilities.
  - This is Earthquake and Price of Progress smushed together and is meant to check greedy non-basic mana bases.
+ - 3/2/2026: Added Luminous bonus and make it also hit planeswalkers
