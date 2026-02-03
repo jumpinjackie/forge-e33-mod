@@ -17666,7 +17666,7 @@
             "text": {
                 "mana": {
                     "name": "Mana Cost",
-                    "text": "2 B",
+                    "text": "1 B",
                     "y": 0.0613,
                     "width": 0.9292,
                     "height": 0.03380952380952381,
@@ -17702,7 +17702,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "When this creature dies, target opponent creates a Lumina token. (It’s an artifact with “{T}, Sacrifice this artifact: Scry 1.”)",
+                    "text": "{i}Smashing jump{/i} — {1}{B}: This creature gets +1/+0 and gains flying and trample until end of turn.\nWhen this creature dies, target opponent creates a Lumina token. (It’s an artifact with “{T}, Sacrifice this artifact: Scry 1.”)",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
@@ -17711,7 +17711,7 @@
                 },
                 "pt": {
                     "name": "Power/Toughness",
-                    "text": "3/2",
+                    "text": "2/2",
                     "x": 0.7928,
                     "y": 0.902,
                     "width": 0.1367,
@@ -18272,7 +18272,7 @@
             "text": {
                 "mana": {
                     "name": "Mana Cost",
-                    "text": "2 B B",
+                    "text": "2 B",
                     "y": 0.0613,
                     "width": 0.9292,
                     "height": 0.03380952380952381,
@@ -18317,7 +18317,7 @@
                 },
                 "pt": {
                     "name": "Power/Toughness",
-                    "text": "3/3",
+                    "text": "2/2",
                     "x": 0.7928,
                     "y": 0.902,
                     "width": 0.1367,
@@ -22140,7 +22140,7 @@
                 },
                 "type": {
                     "name": "Type",
-                    "text": "Creature - Nevron",
+                    "text": "Creature - Nevron Horror",
                     "x": 0.0854,
                     "y": 0.5664,
                     "width": 0.8292,
@@ -22449,7 +22449,7 @@
             "text": {
                 "mana": {
                     "name": "Mana Cost",
-                    "text": "4 W B",
+                    "text": "3 W B",
                     "y": 0.0613,
                     "width": 0.9292,
                     "height": 0.03380952380952381,
@@ -22476,7 +22476,7 @@
                 },
                 "type": {
                     "name": "Type",
-                    "text": "Creature - Nevron",
+                    "text": "Creature - Nevron Horror",
                     "x": 0.0854,
                     "y": 0.5664,
                     "width": 0.8292,
@@ -32626,7 +32626,7 @@
             "text": {
                 "mana": {
                     "name": "Mana Cost",
-                    "text": "2 B B",
+                    "text": "2 B",
                     "y": 0.0613,
                     "width": 0.9292,
                     "height": 0.03380952380952381,
@@ -44576,7 +44576,7 @@
             "text": {
                 "mana": {
                     "name": "Mana Cost",
-                    "text": "5 R",
+                    "text": "4 R",
                     "y": 0.0613,
                     "width": 0.9292,
                     "height": 0.03380952380952381,
@@ -44622,7 +44622,7 @@
                 },
                 "pt": {
                     "name": "Power/Toughness",
-                    "text": "5/5",
+                    "text": "5/4",
                     "x": 0.7928,
                     "y": 0.902,
                     "width": 0.1367,
@@ -44883,7 +44883,7 @@
             "text": {
                 "mana": {
                     "name": "Mana Cost",
-                    "text": "2 R",
+                    "text": "1 R",
                     "y": 0.0613,
                     "width": 0.9292,
                     "height": 0.03380952380952381,
@@ -46410,7 +46410,7 @@
             "text": {
                 "mana": {
                     "name": "Mana Cost",
-                    "text": "1 B B",
+                    "text": "B B",
                     "y": 0.06254442075337598,
                     "width": 0.9273631840796019,
                     "height": 0.03380952380952381,
@@ -75920,7 +75920,7 @@
             "text": {
                 "mana": {
                     "name": "Mana Cost",
-                    "text": "2 R",
+                    "text": "1 R",
                     "y": 0.0613,
                     "width": 0.9292,
                     "height": 0.03380952380952381,
@@ -99417,7 +99417,7 @@
             "text": {
                 "mana": {
                     "name": "Mana Cost",
-                    "text": "4 B B",
+                    "text": "3 B B",
                     "y": 0.06254442075337598,
                     "width": 0.9273631840796019,
                     "height": 0.03380952380952381,
@@ -99723,7 +99723,7 @@
             "text": {
                 "mana": {
                     "name": "Mana Cost",
-                    "text": "2 B",
+                    "text": "1 B",
                     "y": 0.0613,
                     "width": 0.9292,
                     "height": 0.03380952380952381,
@@ -99748,7 +99748,7 @@
                 },
                 "type": {
                     "name": "Type",
-                    "text": "Creature - Nevron",
+                    "text": "Creature - Nevron Horror",
                     "x": 0.0854,
                     "y": 0.5664,
                     "width": 0.8292,
@@ -101014,7 +101014,7 @@
             "text": {
                 "mana": {
                     "name": "Mana Cost",
-                    "text": "2 R",
+                    "text": "1 R",
                     "y": 0.0613,
                     "width": 0.9292,
                     "height": 0.03380952380952381,
@@ -109584,7 +109584,7 @@
             "text": {
                 "mana": {
                     "name": "Mana Cost",
-                    "text": "2 B",
+                    "text": "1 B",
                     "y": 0.0613,
                     "width": 0.9292,
                     "height": 0.03380952380952381,
@@ -113827,7 +113827,7 @@
             "text": {
                 "mana": {
                     "name": "Mana Cost",
-                    "text": "2 R",
+                    "text": "1 R",
                     "y": 0.0613,
                     "width": 0.9292,
                     "height": 0.03380952380952381,
@@ -142594,7 +142594,7 @@
             "text": {
                 "mana": {
                     "name": "Mana Cost",
-                    "text": "4 B",
+                    "text": "3 B",
                     "y": 0.0613,
                     "width": 0.9292,
                     "height": 0.03380952380952381,
@@ -142639,7 +142639,7 @@
                 },
                 "pt": {
                     "name": "Power/Toughness",
-                    "text": "4/4",
+                    "text": "3/4",
                     "x": 0.7928,
                     "y": 0.902,
                     "width": 0.1367,
@@ -145764,7 +145764,7 @@
             "text": {
                 "mana": {
                     "name": "Mana Cost",
-                    "text": "1 B",
+                    "text": "B",
                     "y": 0.0613,
                     "width": 0.9292,
                     "height": 0.03380952380952381,
@@ -145809,7 +145809,7 @@
                 },
                 "pt": {
                     "name": "Power/Toughness",
-                    "text": "2/2",
+                    "text": "2/1",
                     "x": 0.7928,
                     "y": 0.902,
                     "width": 0.1367,
@@ -149228,7 +149228,7 @@
             "text": {
                 "mana": {
                     "name": "Mana Cost",
-                    "text": "3 B",
+                    "text": "2 B",
                     "y": 0.0613,
                     "width": 0.9292,
                     "height": 0.03380952380952381,
@@ -149269,11 +149269,12 @@
                     "y": 0.6303,
                     "width": 0.828,
                     "height": 0.26652452025586354,
-                    "size": 0.0362
+                    "size": 0.0362,
+                    "fontSize": ""
                 },
                 "pt": {
                     "name": "Power/Toughness",
-                    "text": "3/3",
+                    "text": "3/2",
                     "x": 0.7928,
                     "y": 0.902,
                     "width": 0.1367,
