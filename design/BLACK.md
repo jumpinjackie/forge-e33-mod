@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 26/1/2026 9:12:52 am
+> Last generated: 3/2/2026 11:31:27 am
 
 ## Axon Offering
 
@@ -34,11 +34,12 @@ Me? You want me to give it to you?
 ## Chalier
 
 ```
-2B
+1B
 Creature - Nevron
+Smashing jump — {1}{B}: This creature gets +1/+0 and gains flying and trample until end of turn.
 When this creature dies, target opponent creates a Lumina token. (It's an artifact with "{T}, Sacrifice this artifact: Scry 1.")
 
-3/2
+2/2
 ```
 
 [card implementation](../custom/cards/c/chalier.txt)
@@ -49,11 +50,12 @@ When this creature dies, target opponent creates a Lumina token. (It's an artifa
  - Vanilla Nevron. Could not determine approporiate color/elemental affinity so it's colorless.
  - 12/11/2025: Made it green and gave it a shield counter to emphasize its tough armored exterior.
  - 13/12/2025: Upon reviewing this enemy in game in a new DLC playthrough, made it black, changed cost to 2B and P/T to 3/2 and removed shield counter.
+ - 3/02/2026: Changed cost from 2B to 1B and PT from 3/2 to 2/2. Added smashing jump ability.
 
 ## Chapelier
 
 ```
-2BB
+2B
 Creature - Nevron
 Flying.
 This creature enters with a mask counter.
@@ -61,7 +63,7 @@ Remove a mask counter from this creature: Target creature loses all abilities un
 Exhaust on death - When this creature dies, tap target creature an opponent controls, put a stun counter on it. (If a permanent with a stun counter would become untapped, remove one from it instead.)
 When this creature dies, target opponent creates a Lumina token.
 
-3/3
+2/2
 ```
 
 [card implementation](../custom/cards/c/chapelier.txt)
@@ -124,7 +126,7 @@ I have my pets in place "She who controls chroma, controls the Canvas." I can't 
 ## Depression
 
 ```
-2BB
+2B
 Creature - Incarnation
 Fear (This creature can’t be blocked except by artifact creatures and/or black creatures.)
 Whenever another creature becomes tapped, put a stun counter on it.
@@ -141,6 +143,7 @@ If you could grow old... Would you... find a reason to smile?
  - No in-game basis, but Grief is such a central theme of Expedition 33 that having a cycle dedicated to the 5 stages is a total flavor nuke.
  - Depression is the fourth stage. I've gone with a souped up version of Melancholy.
  - 1/1/2026: Fix stun trigger happening in any zone, when it should only be on the battlefield.
+ - 3/2/2026: Reduce cost from 2BB to 2B
 
 ## Dualliste's Lair (Death Pits of Rath)
 
@@ -154,7 +157,7 @@ If you could grow old... Would you... find a reason to smile?
 ## Échassier
 
 ```
-3B
+2B
 Creature - Nevron
 Double the blight — When this creature enters, put a blight counter on up to one target creature and up to one target land.
 Creatures with blight counters on them have base toughness 1.
@@ -162,7 +165,7 @@ Whenever a land with a blight counter becomes tapped, destroy it.
 Heals allies — {1}{B}, {T}: Gain 1 life for each creature you control.
 When this creature dies, target opponent creates a Lumina token. (It's an artifact with "{T}, Sacrifice this artifact: Scry 1.")
 
-3/3
+3/2
 ```
 
 [card implementation](../custom/cards/e/echassier.txt)
@@ -173,11 +176,12 @@ When this creature dies, target opponent creates a Lumina token. (It's an artifa
  - Mapped the "Double the blight & Heals allies" ability to 1 toughness setting and life gain.
  - 17/01/2026: To increase the nonbasic hate quota in this set, changed double the blight to putting a blight counter on to up to 2 permanents. For creatures this sets their toughness to 1. For lands, this will destroy it upon being tapped.
  - 20/01/2026: Added AI targeting hints and fix land blight triggering from all zones.
+ - 3/02/2026: Reduce cost from 3B to 2B and PT from 3/3 to 3/2
 
 ## Expedition 62 Hunter
 
 ```
-1BB
+BB
 Creature - Human Expeditioner Ranger
 When this creature enters, destroy up to one target Nevron creature.
 {2}{B}, {T}: Target creature gets -2/-2 until end of turn.
@@ -196,6 +200,7 @@ Oh, I hear a big Nev coming, they count for double. If I kill it quick I can boo
  - In the game, Expedition 62 made Nevron hunting into a game, with members constantly trying to outscore each other in Nevron kills.
  - Mechanically translated to a creature with creature killing abilities and standard Expeditioner death bonus.
  - 21/01/2026: Added Ranger sub-type and fix ETB targeting.
+ - 3/02/2026: Reduce cost from 1BB to BB
 
 ## Familial Bonding
 
@@ -322,7 +327,7 @@ Maelle: I saw- I saw... It was... Renoir?
 ## Noir
 
 ```
-4BB
+3BB
 Creature - Nevron Horror
 Ward {2}
 This creature enters with a shield counter. (If it would be dealt damage or destroyed, remove a shield counter from it instead.)
@@ -349,12 +354,13 @@ When this creature dies, target opponent creates a Lumina token.
     - Added "Summons dark spear" ability that we've mechanically mapped to a mini creature syphon.
  - 1/1/2026: Fixed missing lifegain in "Summons dark spear" ability
  - 21/01/2026: Added Horror sub-type.
+ - 3/02/2026: Reduce cost from 4BB to 3BB
 
 ## Obscur
 
 ```
-2B
-Creature - Nevron
+1B
+Creature - Nevron Horror
 Performs a weakening strike — {1}{B}, {T}: Target creature an opponent controls gets -1/-1 until end of turn.
 Applies rage on its allies — {1}{B}, {T}: Untap target creature you control.
 When this creature dies, target opponent creates a Lumina token. (It's an artifact with "{T}, Sacrifice this artifact: Scry 1.")
@@ -370,6 +376,7 @@ When this creature dies, target opponent creates a Lumina token. (It's an artifa
  - Mechanically, it's main ability is to give its allies the ability to act twice, which I've mapped to untapping creatures.
  - And to round out its abilities I've given it a generic -1/-1 affliction ability.
  - 13/10/2025: Removed Devoid.
+ - 3/02/2026: Reduce cost from 2B to 1B and added Horror sub-type.
 
 ## Osquio, Ruler Of All The Trains // Osquio, Ultimate Cake Eater Of The Universe
 
@@ -458,7 +465,7 @@ Destroy target creature.
 ## Ramasseur
 
 ```
-2B
+1B
 Creature - Nevron
 Deathtouch
 When this creature dies, target opponent creates a Lumina token. (It's an artifact with "{T}, Sacrifice this artifact: Scry 1.")
@@ -622,14 +629,14 @@ You may have this creature enter as a copy of any nonlegendary Expeditioner crea
 ## Veilleur
 
 ```
-4B
+3B
 Creature - Nevron
 Deathtouch
 Performs a blighted strike — When this creature enters, put a blight counter on target creature.
 Creatures with blight counters on them have base toughness 1.
 When this creature dies, target opponent creates a Lumina token. (It's an artifact with "{T}, Sacrifice this artifact: Scry 1.")
 
-4/4
+3/4
 ```
 
 [card implementation](../custom/cards/v/veilleur.txt)
@@ -640,6 +647,7 @@ When this creature dies, target opponent creates a Lumina token. (It's an artifa
  - It's main gimmick is inflicting the blight debuff which perma-reduces a characters HP bar by a fixed percentage. Translated to the same blightning ability as Échassier.
  - Gave it Deathtouch to match its blighting nature.
  - 20/01/2026: Added AI targeting hints
+ - 3/02/2026: Reduce cost from 4B to 3B and PT from 4/4 to 3/4
 
 ## Verso's Burden
 
@@ -666,14 +674,14 @@ Sometimes, we paint the bars of our own prison. Your despair blinds you. You thi
 ## Very Very Cool Gestral
 
 ```
-1B
+B
 Artifact Creature - Gestral
 Menace
 Queueing is for losers — {1}{B}: Put a menace counter on another target creature. It becomes a Toy in addition to its other types.
 ---
 One day I will make it so nobody ever has to queue anywhere anymore!
 
-2/2
+2/1
 ```
 
 [card implementation](../custom/cards/v/very_very_cool_gestral.txt)
@@ -682,4 +690,5 @@ One day I will make it so nobody ever has to queue anywhere anymore!
 
  - In the game, a Very Very Cool Gestral exists in Verso's Drafts. If you have a conversation with him he notes that he doesn't like standing in line (for the ride). If you agree with him, he will be impressed by your like-mindedness and give you a ride ticket. Each party member you take the ride on will be awarded with a new Esquie outfit.
  - Even though it is extremely flavorful, We can't reprint Line Cutter from Unfinity as it uses a joke mechanic (Attractions). So instead we've taken a page out of Butch DeLoria, Tunnel Snake and gave him Menace to symbolize his "coolness". The menace counter granting is also copied from Butch, but the type is changed to Toy to map to him rewarding Esquie outfits (Esquie being a giant stuffed toy).
+ - 3/02/2026: Reduced cost from 1B to B and PT from 2/2 to 2/1
 

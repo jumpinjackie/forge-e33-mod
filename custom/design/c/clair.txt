@@ -6,6 +6,7 @@ W
 [Types]
 Creature
 Nevron
+Horror
 [Rarity]
 U
 [Artist]
@@ -31,3 +32,4 @@ A:AB$ PutCounter | Cost$ 3 W T | ValidTgts$ Creature.YouCtrl | TgtPrompt$ Select
  - The only white nevron in this set that is finished (it cannot be any other color for flavor reasons). All other white nevrons are unfinished.
  - 13/10/2025: Removed Devoid.
  - 21/01/2026: Increased shield counter activation cost from 1W to 3W
+ - 3/02/2026: Added Horror sub-type.

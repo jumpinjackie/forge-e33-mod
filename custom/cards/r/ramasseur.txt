@@ -1,5 +1,5 @@
 Name:Ramasseur
-ManaCost:2 B
+ManaCost:1 B
 Types:Creature Nevron
 PT:2/2
 K:Deathtouch

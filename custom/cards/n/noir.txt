@@ -1,5 +1,5 @@
 Name:Noir
-ManaCost:4 B B
+ManaCost:3 B B
 Types:Creature Nevron Horror
 PT:4/4
 K:Ward:2

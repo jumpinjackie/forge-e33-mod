@@ -1,7 +1,6 @@
 [Name]
 Expedition 62 Hunter
 [ManaCost]
-1
 B
 B
 [Types]
@@ -36,3 +35,4 @@ creature-removal
  - In the game, Expedition 62 made Nevron hunting into a game, with members constantly trying to outscore each other in Nevron kills.
  - Mechanically translated to a creature with creature killing abilities and standard Expeditioner death bonus.
  - 21/01/2026: Added Ranger sub-type and fix ETB targeting.
+ - 3/02/2026: Reduce cost from 1BB to BB

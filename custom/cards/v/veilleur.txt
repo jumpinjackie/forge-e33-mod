@@ -1,7 +1,7 @@
 Name:Veilleur
-ManaCost:4 B
+ManaCost:3 B
 Types:Creature Nevron
-PT:4/4
+PT:3/4
 K:Deathtouch
 T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigBlightCreature | TriggerDescription$ When CARDNAME enters, put a blight counter on target creature.
 SVar:TrigBlightCreature:DB$ PutCounter | ValidTgts$ Creature | TargetMin$ 0 | TargetMax$ 1 | CounterType$ BLIGHT | IsCurse$ True | CounterNum$ 1

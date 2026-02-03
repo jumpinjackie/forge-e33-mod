@@ -1,6 +1,6 @@
 Name:Clair Obscur
-ManaCost:4 W B
-Types:Creature Nevron
+ManaCost:3 W B
+Types:Creature Nevron Horror
 PT:4/4
 A:AB$ Animate | Cost$ 2 W T | ValidTgts$ Creature.OppCtrl | TgtPrompt$ Select target creature an opponent controls| RemoveAllAbilities$ True | SpellDescription$ Target creature an opponent controls loses all abilities until end of turn.
 A:AB$ PutCounter | Cost$ 3 W T | ValidTgts$ Creature.YouCtrl | TgtPrompt$ Select target creature you control | CounterType$ SHIELD | SpellDescription$ Put a shield counter on target creature you control.

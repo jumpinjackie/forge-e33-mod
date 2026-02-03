@@ -1,7 +1,7 @@
 [Name]
 Noir
 [ManaCost]
-4
+3
 B
 B
 [Types]
@@ -47,3 +47,4 @@ creature-removal
     - Added "Summons dark spear" ability that we've mechanically mapped to a mini creature syphon.
  - 1/1/2026: Fixed missing lifegain in "Summons dark spear" ability
  - 21/01/2026: Added Horror sub-type.
+ - 3/02/2026: Reduce cost from 4BB to 3BB

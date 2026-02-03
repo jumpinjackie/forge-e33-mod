@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 2/2/2026 3:23:03 pm
+> Last generated: 3/2/2026 11:24:31 am
 
 ## A Storm is Coming
 
@@ -276,8 +276,8 @@ Hmm. It's old chroma, not pure. It won't be like bringing the two of you back, b
 ## Clair Obscur
 
 ```
-4WB
-Creature - Nevron
+3WB
+Creature - Nevron Horror
 Performs a silencing combo — {2}{W}, {T}: Target creature an opponent controls loses all abilities until end of turn.
 Protects its allies — {3}{W}, {T}: Put a shield counter on target creature you control.
 Performs a weakening strike — {1}{B}, {T}: Target creature an opponent controls gets -1/-1 until end of turn.
@@ -295,6 +295,7 @@ When this creature dies, target opponent creates a Lumina token.
  - Gone with a literal stapling of Clair and Obscur's abilities, mana costs and P/T together
  - 29/12/2025: Downshift to uncommon
  - 21/01/2026: Increased shield counter activation cost from 1W to 3W
+ - 3/02/2026: Reduce cost from 4WB to 3WB and added Horror sub-type.
 
 ## Clea Dessendre, the Mistress
 

@@ -1,5 +1,5 @@
 Name:Depression
-ManaCost:2 B B
+ManaCost:2 B
 Types:Creature Incarnation
 PT:2/2
 K:Fear

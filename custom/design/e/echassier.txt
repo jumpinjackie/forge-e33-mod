@@ -3,7 +3,7 @@
 [InvariantName]
 Echassier
 [ManaCost]
-3
+2
 B
 [Types]
 Creature
@@ -13,7 +13,7 @@ U
 [Artist]
 Sandfall Interactive
 [PT]
-3/3
+3/2
 [Oracle]
 Double the blight — When ~ enters, put a blight counter on up to one target creature and up to one target land.
 Creatures with blight counters on them have base toughness 1.
@@ -42,3 +42,4 @@ nonbasic-hate
  - Mapped the "Double the blight & Heals allies" ability to 1 toughness setting and life gain.
  - 17/01/2026: To increase the nonbasic hate quota in this set, changed double the blight to putting a blight counter on to up to 2 permanents. For creatures this sets their toughness to 1. For lands, this will destroy it upon being tapped.
  - 20/01/2026: Added AI targeting hints and fix land blight triggering from all zones.
+ - 3/02/2026: Reduce cost from 3B to 2B and PT from 3/3 to 3/2

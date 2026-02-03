@@ -1,7 +1,7 @@
 Name:Échassier
-ManaCost:3 B
+ManaCost:2 B
 Types:Creature Nevron
-PT:3/3
+PT:3/2
 T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigBlightCreature | TriggerDescription$ When CARDNAME enters, put a blight counter on up to one target creature and up to one target land.
 SVar:TrigBlightCreature:DB$ PutCounter | ValidTgts$ Creature | TargetMin$ 0 | TargetMax$ 1 | CounterType$ BLIGHT | IsCurse$ True | CounterNum$ 1 | SubAbility$ TrigBlightLand
 SVar:TrigBlightLand:DB$ PutCounter | ValidTgts$ Land | TargetMin$ 0 | TargetMax$ 1 | CounterType$ BLIGHT | IsCurse$ True | CounterNum$ 1

@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 2/2/2026 1:49:41 pm
+> Last generated: 3/2/2026 11:24:31 am
 
 ## A Life to Love (Farewell)
 
@@ -205,7 +205,7 @@ Maelle: No no no no... You promised...
 
 ```
 2W
-Creature - Nevron
+Creature - Nevron Horror
 Performs a silencing combo — {2}{W}, {T}: Target creature an opponent controls loses all abilities until end of turn.
 Protects its allies — {3}{W}, {T}: Put a shield counter on target creature you control.
 When this creature dies, target opponent creates a Lumina token. (It's an artifact with "{T}, Sacrifice this artifact: Scry 1.")
@@ -224,6 +224,7 @@ When this creature dies, target opponent creates a Lumina token. (It's an artifa
  - The only white nevron in this set that is finished (it cannot be any other color for flavor reasons). All other white nevrons are unfinished.
  - 13/10/2025: Removed Devoid.
  - 21/01/2026: Increased shield counter activation cost from 1W to 3W
+ - 3/02/2026: Added Horror sub-type.
 
 ## Danseuse Teacher
 

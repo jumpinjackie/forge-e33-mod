@@ -1,7 +1,7 @@
 [Name]
 Ramasseur
 [ManaCost]
-2
+1
 B
 [Types]
 Creature
@@ -21,3 +21,4 @@ $NEVRON_DEATH_ABILITY
 [DesignNotes]
  - In the game, Ramasseurs can be found in the Forgotten Battlefield.
  - Mapped its mortal hit gradient attack to deathtouch.
+ - 3/02/2026: Reduced cost from 2B to 1B

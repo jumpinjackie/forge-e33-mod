@@ -3,7 +3,6 @@ Depression
 [ManaCost]
 2
 B
-B
 [Types]
 Creature
 Incarnation
@@ -28,3 +27,4 @@ The five stages of Grief
  - No in-game basis, but Grief is such a central theme of Expedition 33 that having a cycle dedicated to the 5 stages is a total flavor nuke.
  - Depression is the fourth stage. I've gone with a souped up version of Melancholy.
  - 1/1/2026: Fix stun trigger happening in any zone, when it should only be on the battlefield.
+ - 3/2/2026: Reduce cost from 2BB to 2B
