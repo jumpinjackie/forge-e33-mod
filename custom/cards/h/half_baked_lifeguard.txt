@@ -1,5 +1,5 @@
 Name:Half-baked Lifeguard
-ManaCost:2 R
+ManaCost:1 R
 Types:Artifact Creature Gestral
 PT:2/3
 T:Mode$ Phase | Phase$ Upkeep | TriggerZones$ Battlefield | Execute$ TrigCount | TriggerDescription$ At the beginning of each upkeep, count the number of permanents. If the number is even, until end of turn, creatures you control get +1/+1.

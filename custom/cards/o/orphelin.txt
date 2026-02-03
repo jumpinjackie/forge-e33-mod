@@ -1,5 +1,5 @@
 Name:Orphelin
-ManaCost:2 R
+ManaCost:1 R
 Types:Creature Nevron
 PT:1/3
 K:Double Strike

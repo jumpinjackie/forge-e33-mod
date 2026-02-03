@@ -1,7 +1,7 @@
 [Name]
 Half-baked Lifeguard
 [ManaCost]
-2
+1
 R
 [Types]
 Artifact

@@ -1,7 +1,7 @@
 [Name]
 Orphelin
 [ManaCost]
-2
+1
 R
 [Types]
 Creature

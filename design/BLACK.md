@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 3/2/2026 11:31:27 am
+> Last generated: 3/2/2026 11:51:59 am
 
 ## Axon Offering
 
@@ -74,6 +74,7 @@ When this creature dies, target opponent creates a Lumina token.
  - Gave it a token generation ability and mechanically represent exhaustion with tap + stun counter.
  - 13/10/2025: Removed Devoid.
  - 14/12/2025: Remove jar nevron token ability with a mask silencing ability, having played the game again with the new DLC release. The game guide I referred to and based the original abilities on clearly lied to me.
+ - 3/02/2026: Reduce cost from 2BB to 2B and PT from 3/3 to 2/2
 
 ## Chromatic Rebirth
 
@@ -479,6 +480,7 @@ When this creature dies, target opponent creates a Lumina token. (It's an artifa
 
  - In the game, Ramasseurs can be found in the Forgotten Battlefield.
  - Mapped its mortal hit gradient attack to deathtouch.
+ - 3/02/2026: Reduced cost from 2B to 1B
 
 ## Renoir's Creation
 

@@ -1,14 +1,14 @@
 [Name]
 Expedition 57 Siege Engine
 [ManaCost]
-5
+4
 R
 [Types]
 Artifact
 Creature
 Expeditioner
 [PT]
-5/5
+5/4
 [Rarity]
 C
 [Oracle]

@@ -1,7 +1,7 @@
 [Name]
 Expedition 57 Siege Engineer
 [ManaCost]
-2
+1
 R
 [Types]
 Creature

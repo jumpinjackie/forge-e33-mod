@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 2/2/2026 3:23:03 pm
+> Last generated: 3/2/2026 11:51:59 am
 
 ## Anger
 
@@ -132,14 +132,14 @@ This only truly ends if you destroy the canvas, and that means stopping the fina
 ## Expedition 57 Siege Engine
 
 ```
-5R
+4R
 Artifact Creature - Expeditioner
 Trample
 ---
 Our lives are forfeit anyway, but is there perhaps a better way to spend such precious coin?
 - Carla, Expedition 57
 
-5/5
+5/4
 ```
 
 [card implementation](../custom/cards/e/expedition_57_siege_engine.txt)
@@ -151,7 +151,7 @@ Our lives are forfeit anyway, but is there perhaps a better way to spend such pr
 ## Expedition 57 Siege Engineer
 
 ```
-2R
+1R
 Creature - Human Expeditioner Artificer
 Sacrifice an artifact: Target creature gets +1/+1 until end of turn.
 When this creature dies, create a Chroma token.
@@ -301,7 +301,7 @@ When Grosse Tête has three or more quake counters, sacrifice it.
 ## Half-baked Lifeguard
 
 ```
-2R
+1R
 Artifact Creature - Gestral
 At the beginning of each upkeep, count the number of permanents. If the number is even, until end of turn, creatures you control get +1/+1.
 ---
@@ -430,7 +430,7 @@ It's a gutting realization, what has to be done. The mission is too important. T
 ## Orphelin
 
 ```
-2R
+1R
 Creature - Nevron
 Double strike
 When this creature dies, target opponent creates a Lumina token. (It's an artifact with "{T}, Sacrifice this artifact: Scry 1.")
@@ -534,7 +534,7 @@ When this creature dies, you may have this creature deal 2 damage to each non-Ne
 ## Rocher
 
 ```
-2R
+1R
 Creature - Nevron
 Protection from red
 When this creature dies, target opponent creates a Lumina token. (It's an artifact with "{T}, Sacrifice this artifact: Scry 1.")

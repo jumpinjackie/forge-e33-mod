@@ -1,5 +1,5 @@
 Name:Rocher
-ManaCost:2 R
+ManaCost:1 R
 Types:Creature Nevron
 PT:3/1
 K:Protection from red
