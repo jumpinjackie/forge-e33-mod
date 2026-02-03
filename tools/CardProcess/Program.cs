@@ -1645,6 +1645,8 @@ public class CardMasterDesign
 
     internal bool HasAnyTag(string[] tags)
     {
+        if (tags.Length == 0)
+            return true;
         return AllTags.Intersect(tags).Any();
     }
 }
