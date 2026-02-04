@@ -2568,7 +2568,7 @@ public class GenAllCommand : BaseCommand
             {
                 spoilerWriter.WriteLine("# Visual Spoiler");
                 spoilerWriter.WriteLine();
-                spoilerWriter.WriteLine("> SPOILER WITHIN A SPOILER: Before you scroll down, please note that the cards in this set will spoil characters, plot, events and moments in the Expedition 33 video game. It is recommended you play through the video game first before continuing. If you don't want to be spoiled on video game plot/characters/events/etc, play through the game first and comb back later. You have been warned!");
+                spoilerWriter.WriteLine("> SPOILER WITHIN A SPOILER: Before you scroll down, please note that the cards in this set will spoil characters, plot, events and moments in the Expedition 33 video game. It is recommended you play through the video game first before continuing. If you don't want to be spoiled on video game plot/characters/events/etc, play through the game first and come back later. You have been warned!");
                 spoilerWriter.WriteLine();
                 //spoilerWriter.WriteLine();
                 //spoilerWriter.WriteLine("> This currently only shows cards/tokens we have full CardConjurer designs for and does not fully represent the whole set\n");

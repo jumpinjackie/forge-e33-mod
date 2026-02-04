@@ -1,6 +1,6 @@
 ﻿# Visual Spoiler
 
-> SPOILER WITHIN A SPOILER: Before you scroll down, please note that the cards in this set will spoil characters, plot, events and moments in the Expedition 33 video game. It is recommended you play through the video game first before continuing. If you don't want to be spoiled on video game plot/characters/events/etc, play through the game first and comb back later. You have been warned!
+> SPOILER WITHIN A SPOILER: Before you scroll down, please note that the cards in this set will spoil characters, plot, events and moments in the Expedition 33 video game. It is recommended you play through the video game first before continuing. If you don't want to be spoiled on video game plot/characters/events/etc, play through the game first and come back later. You have been warned!
 
 ## Clair Obscur: Expedition 33 (E33) [410/410 cards]
 - Colorless: 2/2 cards
