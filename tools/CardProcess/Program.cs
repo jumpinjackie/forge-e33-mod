@@ -2572,6 +2572,8 @@ public class GenAllCommand : BaseCommand
                 spoilerWriter.WriteLine();
                 spoilerWriter.WriteLine("> SPOILER WITHIN A SPOILER: Before you scroll down, please note that the cards in this set will spoil characters, plot, events and moments in the Expedition 33 video game. It is recommended you play through the video game first before continuing. If you don't want to be spoiled on video game plot/characters/events/etc, play through the game first and come back later. You have been warned!");
                 spoilerWriter.WriteLine();
+                spoilerWriter.WriteLine("> This set is not yet finalized. This set is now in the game/color balancing phase and cards may be removed or replaced as a result.");
+                spoilerWriter.WriteLine();
                 //spoilerWriter.WriteLine();
                 //spoilerWriter.WriteLine("> This currently only shows cards/tokens we have full CardConjurer designs for and does not fully represent the whole set\n");
                 {
@@ -2620,6 +2622,9 @@ public class GenAllCommand : BaseCommand
                         bucketSummaries[bucket] = (cardsWithImagesTotal, cardsTotal);
                     }
                     spoilerWriter.WriteLine($"## Clair Obscur: Expedition 33 Commander (E3C) [{totalCardsWithImages}/{totalCards} cards]");
+                    spoilerWriter.WriteLine();
+                    spoilerWriter.WriteLine("> This set is not yet finalized. This set is now in the game/color balancing phase and cards may be removed or replaced as a result.");
+                    spoilerWriter.WriteLine();
                     var bucketOrder = new[] { "COLORLESS", "WHITE", "BLUE", "BLACK", "RED", "GREEN", "MULTICOLOR", "ARTIFACTS", "LANDS" };
                     foreach (var bucket in bucketOrder)
                     {

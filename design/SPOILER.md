@@ -2,6 +2,8 @@
 
 > SPOILER WITHIN A SPOILER: Before you scroll down, please note that the cards in this set will spoil characters, plot, events and moments in the Expedition 33 video game. It is recommended you play through the video game first before continuing. If you don't want to be spoiled on video game plot/characters/events/etc, play through the game first and come back later. You have been warned!
 
+> This set is not yet finalized. This set is now in the game/color balancing phase and cards may be removed or replaced as a result.
+
 ## Clair Obscur: Expedition 33 (E33) [410/410 cards]
 - Colorless: 2/2 cards
 - White: 33/33 cards
@@ -313,6 +315,9 @@
 | ![](../custom/pics/tokens/E33/c_a_romanifos_balloon.jpg) | ![](../custom/pics/tokens/E33/wb_3_3_shadow_dualliste.jpg) | ![](../custom/pics/tokens/E33/a_1_1_toy.jpg) |
 | <center>Romanifo's Balloon</center> | <center>Shadow Dualliste Token</center> | <center>Toy Token</center> |
 ## Clair Obscur: Expedition 33 Commander (E3C) [45/45 cards]
+
+> This set is not yet finalized. This set is now in the game/color balancing phase and cards may be removed or replaced as a result.
+
 - White: 4/4 cards
 - Blue: 2/2 cards
 - Black: 3/3 cards
