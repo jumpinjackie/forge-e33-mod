@@ -13,9 +13,9 @@ U
 1/3
 [Oracle]
 {2}{R}, {T}: Destroy target nonbasic land.
-$EXPEDITIONER_DEATH_ABILITY_TEXT
+$EXPEDITIONER_DEATH_ABILITY_TEXT_LONG
 [FlavorText]
-People who say "paper beats rock" have never heard of explosives!
+People who say "paper beats rock" have never used explosives!
 [ForgeScript]
 A:AB$ Destroy | Cost$ 2 R T | ValidTgts$ Land.nonBasic | TgtPrompt$ Select target nonbasic land | SpellDescription$ Destroy target nonbasic land.
 $EXPEDITIONER_DEATH_ABILITY

@@ -8,7 +8,7 @@ Artifact
 Expeditioner
 Vehicle
 [Rarity]
-R
+U
 [Artist]
 Sandfall Interactive
 [PT]

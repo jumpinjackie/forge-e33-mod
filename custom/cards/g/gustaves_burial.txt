@@ -6,4 +6,4 @@ SVar:TrigDraw:DB$ Draw | Defined$ You | NumCards$ 1
 T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Creature | TriggerZones$ Battlefield | Execute$ TrigLumina | TriggerDescription$ Whenever a creature dies, create a Lumina token and you gain 1 life.
 SVar:TrigLumina:DB$ Token | TokenAmount$ 1 | TokenOwner$ You | TokenScript$ c_a_lumina | SubAbility$ TrigGain
 SVar:TrigGain:DB$ GainLife | Defined$ You | LifeAmount$ 1
-Oracle:When this enchantment enters, draw a card.\nWhenever a creature dies, create a Lumina token and you gain 1 life.
+Oracle:When this enchantment enters, draw a card.\nWhenever a creature dies, create a Lumina token and you gain 1 life. (It's an artifact with "{T}, Sacrifice this artifact: Scry 1.")

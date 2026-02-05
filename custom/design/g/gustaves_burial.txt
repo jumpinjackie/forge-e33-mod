@@ -9,7 +9,7 @@ Enchantment
 C
 [Oracle]
 When ~ enters, draw a card.
-Whenever a creature dies, create a Lumina token and you gain 1 life.
+Whenever a creature dies, create a Lumina token and you gain 1 life. $LUMINA_REMINDER_TEXT
 [FlavorText]
 We could never tell if you were my brother or my father. But to me you were both. The best brother and father I’ve ever had.
 - Maelle

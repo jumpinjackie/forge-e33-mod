@@ -13,7 +13,7 @@ U
 Sandfall Interactive
 [Oracle]
 X target creatures can't block this turn.
-Create a Lumina token.
+Create a Lumina token. $LUMINA_REMINDER_TEXT
 [FlavorText]
 Sunniso: Geez, you don't need to be so rude.
 Gustave: Nononono, uh ... it's just, um ... it's the password ...

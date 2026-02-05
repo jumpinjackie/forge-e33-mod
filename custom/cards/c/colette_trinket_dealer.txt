@@ -7,4 +7,4 @@ SVar:TrigLoot:AB$ Discard | Defined$ You | Mode$ TgtChoose | NumCards$ 1 | Cost$
 S:Mode$ ReduceCost | ValidCard$ Artifact | Type$ Spell | Activator$ You | Amount$ 1 | Description$ Artifact spells you cast cost {1} less to cast.
 T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Card.Self | Execute$ TrigToken | TriggerDescription$ When CARDNAME dies, create a Chroma token
 SVar:TrigToken:DB$ Token | TokenScript$ c_a_chroma | TokenOwner$ You | TokenAmount$ 1
-Oracle:Whenever you cast an artifact spell, you may draw a card. If you do, discard a card.\nArtifact spells you cast cost {1} less to cast.\nWhen this creature dies, create a Chroma token.
+Oracle:Whenever you cast an artifact spell, you may draw a card. If you do, discard a card.\nArtifact spells you cast cost {1} less to cast.\nWhen this creature dies, create a Chroma token. (It's an artifact with "{T}, Sacrifice this artifact: Add one mana of any color. Spend this mana only to cast a Nevron, Gestral or Expeditioner spell.")

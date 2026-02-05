@@ -19,7 +19,7 @@ Google Gemini
 {2}{W}: Tap target creature.
 {2}{U}: Put a stun counter on target creature.
 {2}{R}: This creature deals 1 damage to any target.
-$EXPEDITIONER_DEATH_ABILITY_TEXT
+$EXPEDITIONER_DEATH_ABILITY_TEXT_LONG
 [ForgeScript]
 A:AB$ Tap | Cost$ 2 W | ValidTgts$ Creature | TgtPrompt$ Select target creature | SpellDescription$ Tap target creature.
 A:AB$ PutCounter | Cost$ 2 U | ValidTgts$ Creature | CounterType$ Stun | CounterNum$ 1 | SpellDescription$ Put a stun counter on target creature.

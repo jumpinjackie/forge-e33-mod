@@ -6,7 +6,7 @@ no cost
 Land
 [Oracle]
 {T}: Add {C}.
-{1}{R/G}, {T}: Target Gestral creature you control fights another target creature
+{1}{R/G}, {T}: Target Gestral creature you control fights another target creature. (Each deals damage equal to its power to the other.)
 [Rarity]
 R
 [Artist]

@@ -15,7 +15,7 @@ Google Gemini
 2/2
 [Oracle]
 Other Expeditioner creatures you control get +1/+1.
-$EXPEDITIONER_DEATH_ABILITY_TEXT
+$EXPEDITIONER_DEATH_ABILITY_TEXT_LONG
 [FlavorText]
 Drums. Maybe that will work. They can’t hear our music, but perhaps they will feel it.
 - Gilles, Expedition 55

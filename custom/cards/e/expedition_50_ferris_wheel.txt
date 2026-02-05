@@ -8,4 +8,4 @@ T:Mode$ AttackerBlockedByCreature | ValidCard$ Creature.Blue | ValidBlocker$ Car
 T:Mode$ AttackerBlockedByCreature | ValidCard$ Card.Self | ValidBlocker$ Creature.Blue | Execute$ DelTrig | Secondary$ True | TriggerDescription$ Whenever CARDNAME blocks or becomes blocked by a blue creature, destroy CARDNAME at end of combat.
 SVar:DelTrig:DB$ DelayedTrigger | Mode$ Phase | Phase$ EndCombat | ValidPlayer$ Player | Execute$ TrigDestroy | TriggerDescription$ Destroy the creature blocking or blocked by CARDNAME at end of combat.
 SVar:TrigDestroy:DB$ Destroy | Defined$ Self
-Oracle:Trample.\nWhenever this vehicle blocks or becomes blocked by a blue creature, destroy this vehicle at end of combat.\nCrew 4
+Oracle:Trample\nWhenever this vehicle blocks or becomes blocked by a blue creature, destroy this vehicle at end of combat.\nCrew 4

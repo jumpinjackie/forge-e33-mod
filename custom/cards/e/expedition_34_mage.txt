@@ -7,4 +7,4 @@ A:AB$ PutCounter | Cost$ 2 U | ValidTgts$ Creature | CounterType$ Stun | Counter
 A:AB$ DealDamage | Cost$ 2 R | ValidTgts$ Any | NumDmg$ 1 | SpellDescription$ Tap target creature. | SpellDescription$ CARDNAME deals 1 damage to any target.
 T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Card.Self | Execute$ TrigToken | TriggerDescription$ When CARDNAME dies, create a Chroma token
 SVar:TrigToken:DB$ Token | TokenScript$ c_a_chroma | TokenOwner$ You | TokenAmount$ 1
-Oracle:{2}{W}: Tap target creature.\n{2}{U}: Put a stun counter on target creature.\n{2}{R}: This creature deals 1 damage to any target.\nWhen this creature dies, create a Chroma token.
+Oracle:{2}{W}: Tap target creature.\n{2}{U}: Put a stun counter on target creature.\n{2}{R}: This creature deals 1 damage to any target.\nWhen this creature dies, create a Chroma token. (It's an artifact with "{T}, Sacrifice this artifact: Add one mana of any color. Spend this mana only to cast a Nevron, Gestral or Expeditioner spell.")

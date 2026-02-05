@@ -13,7 +13,7 @@ Sandfall Interactive
 [PT]
 6/6
 [Oracle]
-Trample.
+Trample
 Whenever this vehicle blocks or becomes blocked by a blue creature, destroy this vehicle at end of combat.
 Crew 4
 [FlavorText]

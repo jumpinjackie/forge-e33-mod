@@ -13,7 +13,7 @@ R
 [Artist]
 Sandfall Interactive
 [Oracle]
-When ~ enters, create a Lumina token.
+When ~ enters, create a Lumina token. $LUMINA_REMINDER_TEXT
 Tap an untapped creature you control: Tap target artifact or creature.
 Tap an untapped Expeditioner you control: Tap target land.
 [ForgeScript]
