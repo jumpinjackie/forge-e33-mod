@@ -12,7 +12,7 @@ Shapeshifter
 [Rarity]
 U
 [Oracle]
-Protects itself — This creature enters with a shield counter.
+Protects itself — This creature enters with a shield counter. $SHIELD_REMINDER_TEXT
 Hand-to-hand combo — {1}{R}: This creature gains double strike until end of turn.
 Strange combo — {2}{W}, {T}: This creature deals 2 damage to target attacking or blocking creature.
 [AbilityWords]

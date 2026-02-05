@@ -10,7 +10,7 @@ Clue
 [Rarity]
 C
 [Oracle]
-When this artifact is put into a graveyard from the battlefield, create a Chroma token.
+When this artifact is put into a graveyard from the battlefield, create a Chroma token. $CHROMA_REMINDER_TEXT
 {2}, Sacrifice ~: Draw a card.
 [FlavorText]
 Nothing special to see here, just a trash can.

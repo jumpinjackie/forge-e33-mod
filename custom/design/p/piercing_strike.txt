@@ -13,7 +13,7 @@ Sandfall Interactive
 [ArtNotes]
 A laser-like beam of void energy (has the visual appearance of a black hole or an eclipsed star super stretched out) pierces through Gustave's chest. Maelle is standing in front of Gustave and is looking on with horror at what she just witnessed.
 [Oracle]
-Split Second.
+Split Second (As long as this spell is on the stack, players can’t cast spells or activate abilities that aren’t mana abilities.)
 This spell costs {1} less to cast if you control a painter.
 This spell costs {1} less to cast if it targets an Expeditioner.
 Destroy target creature.

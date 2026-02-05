@@ -6,4 +6,4 @@ T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ 
 SVar:TrigCharm:DB$ Charm | Choices$ DBDraw,DBToken
 SVar:DBDraw:DB$ Draw | NumCards$ 1 | Defined$ TriggeredCardController | SpellDescription$ Draw a card.
 SVar:DBToken:DB$ Token | TokenAmount$ 1 | TokenOwner$ You | TokenScript$ c_a_lumina | SpellDescription$ Create a Lumina token.
-Oracle:When this artifact enters or is put into a graveyard from the battlefield, choose one —\n• Draw a card.\n• Create a Lumina token.
+Oracle:When this artifact enters or is put into a graveyard from the battlefield, choose one —\n• Draw a card.\n• Create a Lumina token. (It's an artifact with "{T}, Sacrifice this artifact: Scry 1.")

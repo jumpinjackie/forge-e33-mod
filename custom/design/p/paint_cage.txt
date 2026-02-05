@@ -7,7 +7,7 @@ Artifact
 [Oracle]
 When this artifact enters or is put into a graveyard from the battlefield, choose one —
 • Draw a card.
-• Create a Lumina token.
+• Create a Lumina token. $LUMINA_REMINDER_TEXT
 [Rarity]
 C
 [ForgeScript]

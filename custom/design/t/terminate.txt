@@ -8,7 +8,7 @@ Instant
 [Oracle]
 Destroy target creature. It can’t be regenerated.
 [FlavorText]
-All suns must set.
+To end the cycle, Painted Clea chose to let her own existence be terminated.
 [IsReprint]
 true
 [Rarity]

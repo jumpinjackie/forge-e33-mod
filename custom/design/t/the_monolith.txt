@@ -13,7 +13,9 @@ Sandfall Interactive
 The Monolith enters with ten gommage counters.
 At the beginning of your upkeep, remove a gommage counter, then exile all non-land, non-legendary permanents with mana value greater than or equal to the number of gommage counters on The Monolith.
 When The Monolith has no gommage counters on it, sacrifice it.
-{T}: Add {C}
+{T}: Add {C}.
+[FlavorText]
+Like a clock of doom, ticking down one year at a time.
 [ForgeScript]
 K:etbCounter:GOMMAGE:10
 A:AB$ Mana | Cost$ T | Produced$ C | SpellDescription$ Add {C}.

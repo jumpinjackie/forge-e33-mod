@@ -4,4 +4,4 @@ Types:Artifact Clue
 T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Card.Self | Execute$ TrigToken | TriggerDescription$ When this artifact is put into a graveyard from the battlefield, create a Chroma token.
 SVar:TrigToken:DB$ Token | TokenScript$ c_a_chroma | TokenOwner$ You | TokenAmount$ 1
 A:AB$ Draw | Cost$ 2 Sac<1/CARDNAME> | NumCards$ 1 | SpellDescription$ Draw a card.
-Oracle:When this artifact is put into a graveyard from the battlefield, create a Chroma token.\n{2}, Sacrifice this artifact: Draw a card.
+Oracle:When this artifact is put into a graveyard from the battlefield, create a Chroma token. (It's an artifact with "{T}, Sacrifice this artifact: Add one mana of any color. Spend this mana only to cast a Nevron, Gestral or Expeditioner spell.")\n{2}, Sacrifice this artifact: Draw a card.
