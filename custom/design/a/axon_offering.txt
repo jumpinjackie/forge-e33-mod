@@ -8,7 +8,7 @@ Sorcery
 C
 [Oracle]
 Each player sacrifices a creature.
-Create a Chroma token for each creature sacrificed this way.
+Create a Chroma token for each creature sacrificed this way. $CHROMA_REMINDER_TEXT
 [FlavorText]
 Me? You want me to give it to you?
 - Maelle, to The Curator

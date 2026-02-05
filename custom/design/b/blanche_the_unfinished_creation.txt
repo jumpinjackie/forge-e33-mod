@@ -13,7 +13,7 @@ Horror
 [Rarity]
 U
 [Oracle]
-Whenever a white Nevron creature enters, create a Lumina token and you gain 2 life.
+Whenever a white Nevron creature enters, create a Lumina token and you gain 2 life. $LUMINA_REMINDER_TEXT
 [FlavorText]
 You... The ones who conquered the Monolith... And bested she who claimed this painting as her own. Mistress shall be pleased to hear of your feat.
 [ForgeScript]

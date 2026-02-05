@@ -5,4 +5,4 @@ PT:2/2
 T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Creature.Nevron+White | TriggerZones$ Battlefield | Execute$ TrigLumina | TriggerDescription$ Whenever a white Nevron creature enters, create a Lumina token and you gain 2 life.
 SVar:TrigLumina:DB$ Token | TokenAmount$ 1 | TokenOwner$ You | TokenScript$ c_a_lumina | SubAbility$ TrigGainLife
 SVar:TrigGainLife:DB$ GainLife | Defined$ You | LifeAmount$ 2
-Oracle:Whenever a white Nevron creature enters, create a Lumina token and you gain 2 life.
+Oracle:Whenever a white Nevron creature enters, create a Lumina token and you gain 2 life. (It's an artifact with "{T}, Sacrifice this artifact: Scry 1.")

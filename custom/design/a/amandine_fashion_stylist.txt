@@ -16,7 +16,7 @@ U
 Sandfall Interactive
 [Oracle]
 {W}, {T}: Attach target Equipment you control to target creature you control.
-$EXPEDITIONER_DEATH_ABILITY_TEXT
+$EXPEDITIONER_DEATH_ABILITY_TEXT_LONG
 [FlavorText]
 Oh hey handsome, perfect timing. I’m styling everyone before we ship out. Gotta look sharp when we hit the Paintress, eh?
 [ForgeScript]

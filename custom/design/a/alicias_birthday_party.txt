@@ -10,7 +10,7 @@ Enchantment
 U
 [Oracle]
 When ~ enters, create two 1/1 white Human creature tokens named Party Guest.
-Whenever a Human creature you control enters, create a Food token.
+Whenever a Human creature you control enters, create a Food token. $FOOD_REMINDER_TEXT
 {2}, Sacrifice ~: Draw a card.
 [ForgeScript]
 T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigToken | TriggerDescription$ When ~ enters, create two 1/1 white Human creature tokens named Party Guest.
