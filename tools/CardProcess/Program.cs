@@ -463,10 +463,12 @@ public class CardFaceDesign
         sb.Replace("~", thisName);
         sb.Replace("$DEVOID_REMINDER_TEXT", "(This card has no color.)");
         sb.Replace("$SHIELD_REMINDER_TEXT", "(If it would be dealt damage or destroyed, remove a shield counter from it instead.)");
+        sb.Replace("$FOOD_REMINDER_TEXT", "(It's an artifact with \"{2}, {T}, Sacrifice this token: You gain 3 life.\")");
         sb.Replace("$LEGENDARY_SORCERY_REMINDER_TEXT", "(You may cast a legendary sorcery only if you control a legendary creature or planeswalker.)");
         sb.Replace("$INVESTIGATE_REMINDER_TEXT", "(Create a Clue token. It's an artifact with \"{2}, Sacrifice this artifact: Draw a card.\")");
         sb.Replace("$NEVRON_DEATH_ABILITY_TEXT_SHORT", "When this creature dies, target opponent creates a Lumina token.");
         sb.Replace("$NEVRON_DEATH_ABILITY_TEXT", "When this creature dies, target opponent creates a Lumina token. $LUMINA_REMINDER_TEXT");
+        sb.Replace("$EXPEDITIONER_DEATH_ABILITY_TEXT_LONG", "$EXPEDITIONER_DEATH_ABILITY_TEXT $CHROMA_REMINDER_TEXT");
         sb.Replace("$CHROMA_REMINDER_TEXT", "(It's an artifact with \"{T}, Sacrifice this artifact: Add one mana of any color. Spend this mana only to cast a Nevron, Gestral or Expeditioner spell.\")");
         sb.Replace("$LUMINA_REMINDER_TEXT", "(It's an artifact with \"{T}, Sacrifice this artifact: Scry 1.\")");
         sb.Replace("$EXPEDITIONER_TOKEN_TEXT", "\"When this creature dies, create a Chroma token.\"");
