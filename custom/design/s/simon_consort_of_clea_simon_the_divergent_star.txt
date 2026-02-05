@@ -46,7 +46,7 @@ Expeditioner
 [PT]
 6/6
 [Oracle]
-Trample, double strike
+Double strike
 Simon enters with a foreboding counter.
 The dead are removed from the canvas — If a creature would be put into a graveyard from anywhere, exile it instead.
 Gathers Chroma — {B}{B}, {T}: Target creature has base toughness 1 until end of turn.
@@ -56,7 +56,6 @@ The dead are removed from the canvas
 Gathers Chroma
 The Expedition is removed from the canvas
 [ForgeScript]
-K:Trample
 K:Double Strike
 K:etbCounter:FOREBODING:1
 R:Event$ Moved | ActiveZones$ Battlefield | Destination$ Graveyard | ValidCard$ Creature | ReplaceWith$ Exile | Description$ If a creature would be put into a graveyard from anywhere, exile it instead.
