@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 5/2/2026 12:07:08 pm
+> Last generated: 5/2/2026 1:15:35 pm
 
 ## A Storm is Coming
 
@@ -367,6 +367,7 @@ For the sake of the living, we must part with the dead.
 
  - Describes the moment in Verso's ending where he is truly laid to rest and the canvas is destroyed.
  - Obvious graveyard exile effect to indicate the finality of this moment. What's dead is dead and should be laid to rest.
+ - 5/06/2026: Added lifegain for each creature exiled.
 
 ## Contortionniste
 
