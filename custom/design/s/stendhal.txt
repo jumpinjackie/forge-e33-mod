@@ -28,3 +28,4 @@ creature-removal
  - Has devoid because it deals extreme void damage in-game.
  - Has Affinity for Lumina (tokens) to not only make casting this easier, but also as a nod to the pictos/lumina investment required in-game to make Stendhal deal damage in the millions.
  - I orignally had thoughts about making it targeting players as well, but with some side-mission you must take to unlock the ability to target players (whether by suspend or mana payment requirements), but decided against that as this set already has 2 single-handed "you win the game if certain conditions are met" cards. That's enough, we don't need another one. However, this does A+B combo win the game with another card (if you can find it!).
+ - 5/02/2026: Added Expeditioner sub-type.
