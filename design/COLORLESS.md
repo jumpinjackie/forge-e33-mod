@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 13/12/2025 12:51:06 pm
+> Last generated: 5/2/2026 12:07:08 pm
 
 ## Jar
 
@@ -9,6 +9,7 @@
 Creature - Nevron
 Performs a combo — {2}{C}: This creature gains double strike until end of turn. Put a charge counter on this creature.
 Smashes the ground — {1}{C}, {T}, Remove X charge counters from this creature: This creature deals X damage to each creature without flying.
+When this creature dies, target opponent creates a Lumina token.
 
 2/3
 ```
@@ -19,6 +20,7 @@ Smashes the ground — {1}{C}, {T}, Remove X charge counters from this creature:
 
  - In the game, Jars can be found in Yellow Harvest.
  - Made colorless as it has weaknesses to all elements in the game.
+ - 5/06/2026: Added missing Nevron death trigger.
 
 ## Pétank
 

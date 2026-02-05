@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 28/1/2026 3:17:24 am
+> Last generated: 5/2/2026 12:17:22 pm
 
 ## An Advantage!
 
@@ -25,7 +25,7 @@ Draw a card at the beginning of the next turn's upkeep.
 1U
 Legendary Creature - Human Citizen
 Whenever you cast a historic spell, draw a card. (Artifacts, legendaries, and Sagas are historic.)
-When this creature dies, create a Chroma token.
+When this creature dies, create a Chroma token. (It's an artifact with "{T}, Sacrifice this artifact: Add one mana of any color. Spend this mana only to cast a Nevron, Gestral or Expeditioner spell.")
 ---
 Ahem. I hereby offically end our feud. With your departure, Lumière loses a brilliant light. And a good friend ...
 
@@ -65,7 +65,7 @@ The chains of Grief can be hard to break for some.
 U
 Enchantment - Aura
 Enchant Creature.
-When this Aura enters, create a Lumina token.
+When this Aura enters, create a Lumina token. (It's an artifact with "{T}, Sacrifice this artifact: Scry 1.")
 Whenever enchanted creature deals damage to an opponent, choose one —
 • Return up to one target creature to its owner's hand.
 • Tap up to one target creature and put a stun counter on it.
@@ -104,7 +104,7 @@ When this creature dies, target opponent creates a Lumina token. (It's an artifa
 Legendary Creature - Human Citizen
 Whenever you cast an artifact spell, you may draw a card. If you do, discard a card.
 Artifact spells you cast cost {1} less to cast.
-When this creature dies, create a Chroma token.
+When this creature dies, create a Chroma token. (It's an artifact with "{T}, Sacrifice this artifact: Add one mana of any color. Spend this mana only to cast a Nevron, Gestral or Expeditioner spell.")
 ---
 Hello there, Gustave. Perhaps one of these artifacts may prove useful to your mission?
 
@@ -131,7 +131,7 @@ Hello there, Gustave. Perhaps one of these artifacts may prove useful to your mi
 ```
 2UU
 Kindred Enchantment - Expeditioner
-When this enchantment enters, create a Lumina token.
+When this enchantment enters, create a Lumina token. (It's an artifact with "{T}, Sacrifice this artifact: Scry 1.")
 Tap an untapped creature you control: Tap target artifact or creature.
 Tap an untapped Expeditioner you control: Tap target land.
 ```
@@ -232,7 +232,7 @@ Enchanted permanent doesn't untap during its controller's untap step and its act
 Creature - Human Expeditioner
 Flying.
 This creature can block only creatures with flying.
-When this creature dies, create a Chroma token.
+When this creature dies, create a Chroma token. (It's an artifact with "{T}, Sacrifice this artifact: Add one mana of any color. Spend this mana only to cast a Nevron, Gestral or Expeditioner spell.")
 ---
 They were on a clean glide to the Monolith when they flew into the some sort of barrier and just ... gommaged away.
 - Avril, Expedition 40
@@ -520,7 +520,7 @@ At the beginning of each end step, remove all flying counters on this creature.
 ```
 2U
 Instant - Gradient
-Return up to one target creature to its owner's hand. If you control a painter, instead return up to two target creatures to their owner's hand.
+Return up to one target nonland permanent to its owner's hand. If you control a painter, instead return up to two target nonland permanents to their owner's hand.
 Draw a card.
 ```
 
@@ -532,6 +532,7 @@ Draw a card.
  - May or may not have any mechanical relation. I needed a soft-removal spell for blue in this slot and the name was a good enough match for such an effect.
  - 13/10/2025: Removed Devoid.
  - 2/12/2025: Converted to a Repulse with a painter's bonus of an additional target. The "up to one target creature" wording on the base ability is to facilitate simpler card implementation in forge.
+ - 5/02/2026: Changed to target nonland permanents instead of creatures.
 
 ## Sky Break
 

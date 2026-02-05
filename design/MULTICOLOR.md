@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 3/2/2026 11:24:31 am
+> Last generated: 5/2/2026 12:07:08 pm
 
 ## A Storm is Coming
 
@@ -9,7 +9,7 @@
 Kindred Sorcery - Expeditioner
 Suspend 1 - {U}{R} (Rather than cast this card from your hand, pay {U}{R} and exile it with one time counter on it. At the beginning of your upkeep, remove a time counter. When the last is removed, you may cast it without paying its mana cost.)
 A Storm is Coming deals 3 damage to any target.
-Create a Lumina token.
+Create a Lumina token. (It's an artifact with "{T}, Sacrifice this artifact: Scry 1.")
 ```
 
 [card implementation](../custom/cards/a/a_storm_is_coming.txt)
@@ -220,7 +220,7 @@ Kindred Instant - Expeditioner
 Kicker {2}.
 Destroy target artifact or enchantment with mana value 2 lor less.
 If this spell was kicked, destroy that artifact or enchantment if its mana value is 5 or less instead.
-Create a Lumina token.
+Create a Lumina token. (It's an artifact with "{T}, Sacrifice this artifact: Scry 1.")
 ---
 Some rules can be bent, some can be broken.
 ```
@@ -354,7 +354,7 @@ Summons Nevrons — At the beginning of your upkeep, choose one —
 ```
 1(W/B)
 Instant
-Exile all graveyards.
+Exile all graveyards. You gain 1 life for each creature card exiled this way.
 Draw a card.
 ---
 For the sake of the living, we must part with the dead.
@@ -593,7 +593,7 @@ Esquie: I heard you, so I came.
 1WU
 Legendary Creature - Human Citizen Artificer
 {W}{U}, {T}: Target noncreature artifact becomes a copy of target creature until end of turn, except it is an artifact in addition to its other types.
-When this creature dies, create a Chroma token.
+When this creature dies, create a Chroma token. (It's an artifact with "{T}, Sacrifice this artifact: Add one mana of any color. Spend this mana only to cast a Nevron, Gestral or Expeditioner spell.")
 ---
 I just finished my sculpture of the legendary Esquie. This may be my life’s finest work, yet not a single soul seems to care. How could I make it better?
 
@@ -655,7 +655,7 @@ Creature - Human Expeditioner Wizard
 {2}{W}: Tap target creature.
 {2}{U}: Put a stun counter on target creature.
 {2}{R}: This creature deals 1 damage to any target.
-When this creature dies, create a Chroma token.
+When this creature dies, create a Chroma token. (It's an artifact with "{T}, Sacrifice this artifact: Add one mana of any color. Spend this mana only to cast a Nevron, Gestral or Expeditioner spell.")
 
 2/2
 ```
@@ -819,7 +819,7 @@ III — Un-modified creatures you control gain vigilance, menace, trample and +3
 1(W/R)
 Creature - Human Expeditioner Pilot
 This creature saddles Mounts and crews Vehicles as though its power were 2 greater.
-When this creature dies, create a Chroma token.
+When this creature dies, create a Chroma token. (It's an artifact with "{T}, Sacrifice this artifact: Add one mana of any color. Spend this mana only to cast a Nevron, Gestral or Expeditioner spell.")
 ---
 Damnit Hector, I told you to SLOW DOWN
 - Damien, Expedition 63
@@ -878,9 +878,9 @@ III — Search your library for an Expeditioner permanent, put it onto the battl
 ```
 2(W/U)(W/U)
 Creature - Human Expeditioner
-Flying.
+Flying
 This creature can block only creatures with Flying.
-When this creature dies, create a Chroma token.
+When this creature dies, create a Chroma token. (It's an artifact with "{T}, Sacrifice this artifact: Add one mana of any color. Spend this mana only to cast a Nevron, Gestral or Expeditioner spell.")
 ---
 Our only choice is to take matters into our own hands. Fortune favors the bold. We must forge ahead with CONVICTION.
 
@@ -1794,7 +1794,7 @@ While the rest of the party was entranced by the memories of their loved ones, V
 ```
 2RW
 Creature - Shapeshifter
-Protects itself — This creature enters with a shield counter.
+Protects itself — This creature enters with a shield counter. (If it would be dealt damage or destroyed, remove a shield counter from it instead.)
 Hand-to-hand combo — {1}{R}: This creature gains double strike until end of turn.
 Strange combo — {2}{W}, {T}: This creature deals 2 damage to target attacking or blocking creature.
 
@@ -1942,8 +1942,8 @@ Maelle: I bet Clea hated Maman's portrait of her. So she painted over her.
 ```
 U(W/B)
 Enchantment
-Whenever you cast a Painter or Gradient spell, draw a card.
-{2}{U}, Sacrifice this enchantment: Return target Gradient card from your graveyard to your hand.
+Whenever you cast a Painter, Nevron or Gradient spell, draw a card.
+{2}{U}, Sacrifice this enchantment: Return target Painter, Nevron or Gradient card from your graveyard to your hand.
 ```
 
 [card implementation](../custom/cards/p/painting_workshop.txt)
@@ -1953,6 +1953,7 @@ Whenever you cast a Painter or Gradient spell, draw a card.
  - In the game, the Painting Workshop is an area where one must collect 3 items to unlock a barrier, where a Lampmaster boss battle happens.
  - Gone with a card that is a value engine for Painter/Gradient strategies.
  - This is an enchantment instead of a land as we've got enough non-basic lands in this set.
+ - 5/02/2026: Added Nevrons to triggers and Painters + Nevrons to graveyard return candidates.
 
 ## Pelerin
 
@@ -2137,7 +2138,7 @@ Transforms into:
 ```
 
 Legendary Creature - Human Expeditioner
-Trample, double strike
+Double strike
 Simon enters with a foreboding counter.
 The dead are removed from the canvas — If a creature would be put into a graveyard from anywhere, exile it instead.
 Gathers Chroma — {B}{B}, {T}: Target creature has base toughness 1 until end of turn.
@@ -2160,6 +2161,7 @@ The Expedition is removed from the canvas — {T}, Remove a foreboding counter f
     - Mapped "The dead are removed from the canvas" to a "Rest in Peace" continuous exile effect. Is in line with what happens when any of your party members die in combat (they are immediately erased).
     - Mapped "The Expedition is removed from the canvas" as a mass exile effect that spares only Simon and one of opponent's creatures. This is the ability spent with the foreboding counter.
  - 13/12/2025: "Simon, The Divergent Star" is now the name of the v2.0 Simon boss in the Endless Tower with the new DLC. Not changing the name of the back half as this name had existed long before the release of this DLC (it existed as a song title in the OST).
+ - 5/02/2026: Removed Trample from back half.
 
 ## Sirène, Who Plays With Wonder
 
@@ -2229,7 +2231,7 @@ Self-destruct — Sacrifice this creature: This creature deals 2 damage to targe
 
 ```
 10BR
-Sorcery
+Kindred Sorcery - Expeditioner
 Devoid (This card has no color.)
 Affinity for Lumina (This spell costs {1} less to cast for each Lumina you control.)
 Stendhal deals 33 damage to target creature or planeswalker.
@@ -2244,6 +2246,7 @@ Stendhal deals 33 damage to target creature or planeswalker.
  - Has devoid because it deals extreme void damage in-game.
  - Has Affinity for Lumina (tokens) to not only make casting this easier, but also as a nod to the pictos/lumina investment required in-game to make Stendhal deal damage in the millions.
  - I orignally had thoughts about making it targeting players as well, but with some side-mission you must take to unlock the ability to target players (whether by suspend or mana payment requirements), but decided against that as this set already has 2 single-handed "you win the game if certain conditions are met" cards. That's enough, we don't need another one. However, this does A+B combo win the game with another card (if you can find it!).
+ - 5/02/2026: Added Expeditioner sub-type.
 
 ## Terminate
 

@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 5/2/2026 9:02:45 am
+> Last generated: 5/2/2026 11:30:16 am
 
 ## A Rock for François
 
@@ -383,7 +383,7 @@ Damn you Esquie and your stupid mushrooms. Your friend ate them with no problem 
 ```
 5
 Artifact - Expeditioner Vehicle
-Trample.
+Trample
 Whenever this vehicle blocks or becomes blocked by a blue creature, destroy this vehicle at end of combat.
 Crew 4
 ---
@@ -445,7 +445,7 @@ This could be useful!
 ```
 3
 Artifact
-When this artifact enters, create a Lumina token.
+When this artifact enters, create a Lumina token. (It's an artifact with "{T}, Sacrifice this artifact: Scry 1.")
 Expeditioner creatures you control get +1/+1.
 {T}: Add one mana of any color.
 ---
@@ -491,6 +491,9 @@ Artifact - Clue
 {3}, {T}: Put a lore counter on target Saga you control.
 {3}, {T}: Remove a lore counter from target Saga you control.
 {2}, Sacrifice this artifact: Draw a card.
+---
+Gustave: Learn from the ones who came before ...
+Lune: ...And lay the trail, for the ones who come after
 ```
 
 [card implementation](../custom/cards/e/expedition_journal.txt)
@@ -982,7 +985,7 @@ Tiffanie: Well, there are less and less people to buy them. I just wish you didn
 ```
 1
 Artifact - Clue
-When this artifact is put into a graveyard from the battlefield, create a Chroma token.
+When this artifact is put into a graveyard from the battlefield, create a Chroma token. (It's an artifact with "{T}, Sacrifice this artifact: Add one mana of any color. Spend this mana only to cast a Nevron, Gestral or Expeditioner spell.")
 {2}, Sacrifice this artifact: Draw a card.
 ---
 Nothing special to see here, just a trash can.
@@ -1121,7 +1124,7 @@ But remember, once you hit me, the battle's over, so make it count!
 Artifact
 When this artifact enters or is put into a graveyard from the battlefield, choose one —
 • Draw a card.
-• Create a Lumina token.
+• Create a Lumina token. (It's an artifact with "{T}, Sacrifice this artifact: Scry 1.")
 ```
 
 [card implementation](../custom/cards/p/paint_cage.txt)

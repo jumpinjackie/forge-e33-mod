@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 3/2/2026 11:24:31 am
+> Last generated: 5/2/2026 12:07:08 pm
 
 ## A Life to Love (Farewell)
 
@@ -40,7 +40,7 @@ I'm FINE. I've lived 33 good years. Look around. We've had our whole lives to pr
 2WW
 Enchantment
 When this enchantment enters, create two 1/1 white Human creature tokens named Party Guest.
-Whenever a Human creature you control enters, create a Food token.
+Whenever a Human creature you control enters, create a Food token. (It's an artifact with "{2}, {T}, Sacrifice this token: You gain 3 life.")
 {2}, Sacrifice this enchantment: Draw a card.
 ```
 
@@ -60,7 +60,7 @@ Kindred Instant - Expeditioner
 Creatures you control get +0/+2 until end of turn.
 If {R} was spent on this spell, creatures you control gain haste until end of turn.
 If {G} was spent on this spell, creatures you control get +2/+0 until end of turn.
-Create a Lumina token.
+Create a Lumina token. (It's an artifact with "{T}, Sacrifice this artifact: Scry 1.")
 ```
 
 [card implementation](../custom/cards/a/all_set.txt)
@@ -77,7 +77,7 @@ Create a Lumina token.
 1W
 Legendary Creature - Human Citizen
 {W}, {T}: Attach target Equipment you control to target creature you control.
-When this creature dies, create a Chroma token.
+When this creature dies, create a Chroma token. (It's an artifact with "{T}, Sacrifice this artifact: Add one mana of any color. Spend this mana only to cast a Nevron, Gestral or Expeditioner spell.")
 ---
 Oh hey handsome, perfect timing. I’m styling everyone before we ship out. Gotta look sharp when we hit the Paintress, eh?
 
@@ -104,7 +104,7 @@ Oh hey handsome, perfect timing. I’m styling everyone before we ship out. Gott
 ```
 WW
 Legendary Creature - Nevron Horror
-Whenever a white Nevron creature enters, create a Lumina token and you gain 2 life.
+Whenever a white Nevron creature enters, create a Lumina token and you gain 2 life. (It's an artifact with "{T}, Sacrifice this artifact: Scry 1.")
 ---
 You... The ones who conquered the Monolith... And bested she who claimed this painting as her own. Mistress shall be pleased to hear of your feat.
 
@@ -165,7 +165,7 @@ When this creature dies, target opponent creates a Lumina token. (It's an artifa
 2WW
 Legendary Enchantment
 Creatures cannot attack you unless their controller sacrifices a Chroma token for each creature they control that's attacking you.
-{3}: Create a Chroma token. Any player may activate this ability.
+{3}: Create a Chroma token. Any player may activate this ability. (It's an artifact with "{T}, Sacrifice this artifact: Add one mana of any color. Spend this mana only to cast a Nevron, Gestral or Expeditioner spell.")
 ---
 This looks similar to Lumière's shield dome. Maybe we can just cross it.
 - Lune
@@ -358,7 +358,7 @@ Your time left in this life is limited, why not make it count for something?
 1W
 Enchantment
 When this enchantment enters, draw a card.
-Whenever a creature dies, create a Lumina token and you gain 1 life.
+Whenever a creature dies, create a Lumina token and you gain 1 life. (It's an artifact with "{T}, Sacrifice this artifact: Scry 1.")
 ---
 We could never tell if you were my brother or my father. But to me you were both. The best brother and father I’ve ever had.
 - Maelle
@@ -572,6 +572,7 @@ Need to go. High! Help me, grow!
 ```
 2W
 Creature - Nevron
+Flash
 Sacrifice this creature: Choose one —
 • Put two +1/+1 counters on target creature.
 • Put a lifelink counter on target creature.
@@ -588,6 +589,7 @@ My kind knows only battle. We are born into a world of strife, yet I seem to be 
 
  - In the game, an Unfinished Chalier can be found in the Floating Cemetery. It asks you which weapon it should arm itself which, after which it challenges you to combat. Upon defeating it, it will ask you to finish the job. Finishing the job, it will reward you with a picto beforehand. Failure to do that, it will finish the job by itself and you will get no reward.
  - Modeled this as just a Nevron with a modal sac ability. One mode for each weapon.
+ - 5/06/2026: Added Flash.
 
 ## Unfinished Démineur
 

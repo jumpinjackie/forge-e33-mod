@@ -100,7 +100,7 @@ Type=Custom
 121 U Expedition 35 Bridge @Sandfall Interactive
 122 C Expedition 40 Glider @Sandfall Interactive
 123 U Expedition 41 @Sandfall Interactive
-124 R Expedition 43 Submersible @Sandfall Interactive
+124 U Expedition 43 Submersible @Sandfall Interactive
 125 C Expedition 47 Drunkard @Sandfall Interactive
 126 U Expedition 49 @Sandfall Interactive
 127 C Expedition 49 Healer @Google Gemini

@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 3/2/2026 11:51:59 am
+> Last generated: 5/2/2026 11:30:16 am
 
 ## Axon Offering
 
@@ -8,7 +8,7 @@
 B
 Sorcery
 Each player sacrifices a creature.
-Create a Chroma token for each creature sacrificed this way.
+Create a Chroma token for each creature sacrificed this way. (It's an artifact with "{T}, Sacrifice this artifact: Add one mana of any color. Spend this mana only to cast a Nevron, Gestral or Expeditioner spell.")
 ---
 Me? You want me to give it to you?
 - Maelle, to The Curator
@@ -253,7 +253,7 @@ You must see things as they are. Not how you want them to be.
 B
 Kindred Instant - Expeditioner
 Target creature gets -2/-2 until end of turn.
-Create a Lumina token.
+Create a Lumina token. (It's an artifact with "{T}, Sacrifice this artifact: Scry 1.")
 Foretell {0} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)
 ```
 
@@ -448,7 +448,7 @@ I love them too.
 ```
 3B
 Instant - Gradient
-Split Second.
+Split Second (As long as this spell is on the stack, players can’t cast spells or activate abilities that aren’t mana abilities.)
 This spell costs {1} less to cast if you control a painter.
 This spell costs {1} less to cast if it targets an Expeditioner.
 Destroy target creature.

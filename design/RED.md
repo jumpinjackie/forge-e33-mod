@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 3/2/2026 11:51:59 am
+> Last generated: 5/2/2026 11:30:16 am
 
 ## Anger
 
@@ -63,7 +63,7 @@ Draw a card.
 Kindred Instant - Expeditioner
 You may sacrifice a Mountain rather than pay this spell's mana cost.
 Crustal Crush deals 5 damage to target creature or planeswalker.
-Create a Lumina token.
+Create a Lumina token. (It's an artifact with "{T}, Sacrifice this artifact: Scry 1.")
 ---
 Let's shake the earth!
 ```
@@ -174,9 +174,9 @@ I dare not show my true feelings. As Commander, I cannot yield to fear. But I ca
 1R
 Creature - Human Expeditioner
 {2}{R}, {T}: Destroy target nonbasic land.
-When this creature dies, create a Chroma token.
+When this creature dies, create a Chroma token. (It's an artifact with "{T}, Sacrifice this artifact: Add one mana of any color. Spend this mana only to cast a Nevron, Gestral or Expeditioner spell.")
 ---
-People who say "paper beats rock" have never heard of explosives!
+People who say "paper beats rock" have never used explosives!
 
 1/3
 ```
@@ -242,6 +242,9 @@ Yahoo! I can sell stuff! You gots Chroma, yeh?
 Kindred Sorcery - Gestral
 As an additional cost to cast this spell, sacrifice a Gestral.
 Gestral Volleyball Strike deals 5 damage to any target.
+---
+I captured a few baby gestrals we can use as balls. I asked for their consent. They all said yes.
+- Un-named Gestral
 ```
 
 [card implementation](../custom/cards/g/gestral_volleyball_strike.txt)
@@ -258,7 +261,7 @@ Gestral Volleyball Strike deals 5 damage to any target.
 XR
 Kindred Sorcery - Expeditioner
 X target creatures can't block this turn.
-Create a Lumina token.
+Create a Lumina token. (It's an artifact with "{T}, Sacrifice this artifact: Scry 1.")
 ---
 Sunniso: Geez, you don't need to be so rude.
 Gustave: Nononono, uh ... it's just, um ... it's the password ...

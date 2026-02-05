@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 26/1/2026 12:25:09 am
+> Last generated: 5/2/2026 11:30:16 am
 
 ## Blade's Graveyard (Concealed Courtyard)
 
@@ -278,7 +278,7 @@ These siege engines seemed much more powerful in Lumière. But on this battlefie
 
 Land
 {T}: Add {C}.
-{1}{R/G}, {T}: Target Gestral creature you control fights another target creature
+{1}{R/G}, {T}: Target Gestral creature you control fights another target creature. (Each deals damage equal to its power to the other.)
 ---
 Gestral Announcer: Hey humans! We’re here to see some fighting. If you don’t wanna fight, we’ll come down and fight ourselves!
 Sciel: They’re expecting a bit of a show. Shall we?
@@ -326,7 +326,7 @@ Gustave: They seem better at surviving than humans.
 Land
 This land enters tapped unless you control an Expeditioner.
 {T}: Add {W} or {U}.
-{4}, {T}: Create a Food token.
+{4}, {T}: Create a Food token. (It's an artifact with "{2}, {T}, Sacrifice this token: You gain 3 life.")
 ---
 The Aquafarm project ensured that Lumière would have a plentiful supply of food for years to come.
 ```
@@ -604,7 +604,9 @@ Legendary Land
 The Monolith enters with ten gommage counters.
 At the beginning of your upkeep, remove a gommage counter, then exile all non-land, non-legendary permanents with mana value greater than or equal to the number of gommage counters on The Monolith.
 When The Monolith has no gommage counters on it, sacrifice it.
-{T}: Add {C}
+{T}: Add {C}.
+---
+Like a clock of doom, ticking down one year at a time.
 ```
 
 [card implementation](../custom/cards/t/the_monolith.txt)

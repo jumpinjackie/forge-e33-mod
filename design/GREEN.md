@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 26/1/2026 3:17:45 pm
+> Last generated: 5/2/2026 11:30:16 am
 
 ## Abbest
 
@@ -100,7 +100,8 @@ When this creature dies, target opponent creates a Lumina token. (It's an artifa
 ```
 G
 Kindred Sorcery - Expeditioner
-Create a Chroma token and a Lumina token.
+Create a Chroma token. (It's an artifact with "{T}, Sacrifice this artifact: Add one mana of any color. Spend this mana only to cast a Nevron, Gestral or Expeditioner spell.")
+Create a Lumina token. (It's an artifact with "{T}, Sacrifice this artifact: Scry 1.")
 Splice onto Expeditioner Instant or Sorcery {G} (As you cast an Expeditioner Instant or Sorcery, you may reveal this card from your hand and pay its splice cost. If you do, add this card's effects to that spell.)
 ```
 
@@ -176,7 +177,7 @@ I stored my personal stash inside him. All excellent vintages. I don’t normall
 2G
 Creature - Human Expeditioner Scout
 {4}{G}, {T}: Look at the top four cards of your library. You may reveal an Expeditioner card from among them and put it into your hand. Put the rest on the bottom of your library in a random order.
-When this creature dies, create a Chroma token.
+When this creature dies, create a Chroma token. (It's an artifact with "{T}, Sacrifice this artifact: Add one mana of any color. Spend this mana only to cast a Nevron, Gestral or Expeditioner spell.")
 
 2/3
 ```
@@ -213,7 +214,7 @@ Yet in their final moments, they used their bodies to create a bridge for those 
 1G
 Creature - Human Expeditioner
 Other Expeditioner creatures you control get +1/+1.
-When this creature dies, create a Chroma token.
+When this creature dies, create a Chroma token. (It's an artifact with "{T}, Sacrifice this artifact: Add one mana of any color. Spend this mana only to cast a Nevron, Gestral or Expeditioner spell.")
 ---
 Drums. Maybe that will work. They can’t hear our music, but perhaps they will feel it.
 - Gilles, Expedition 55
@@ -276,7 +277,7 @@ G
 Creature - Human Expeditioner
 Sacrifice a Chroma token: Search your library for a basic land card, reveal it, put it into your hand, then shuffle.
 Sacrifice two Chroma tokens: You may put a basic land from your hand onto the battlefield tapped.
-When this creature dies, create a Chroma token.
+When this creature dies, create a Chroma token. (It's an artifact with "{T}, Sacrifice this artifact: Add one mana of any color. Spend this mana only to cast a Nevron, Gestral or Expeditioner spell.")
 
 1/1
 ```
