@@ -1,0 +1,8 @@
+Name:Chromatic Vines
+ManaCost:2 GW
+Types:Enchantment Aura
+K:Enchant:Land
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigDraw | TriggerDescription$ When CARDNAME enters, draw a card.
+SVar:TrigDraw:DB$ Draw | Defined$ You | NumCards$ 1
+R:Event$ Untap | ActiveZones$ Battlefield | ValidCard$ Permanent.EnchantedBy | ValidStepTurnToController$ You | Layer$ CantHappen | Description$ Enchanted permanent doesn't untap during its controller's untap step.
+Oracle:Enchant Land\nWhen this Aura enters, draw a card.\nEnchanted land does not untap during its controller’s untap step.

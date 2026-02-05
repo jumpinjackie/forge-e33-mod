@@ -1,0 +1,25 @@
+[Name]
+Shrine Destruction
+[ManaCost]
+X
+RG
+[Types]
+Sorcery
+[Rarity]
+U
+[Oracle]
+Destroy each artifact with mana value X or less if {R} was spent on this spell.
+Destroy each enchantment with mana value X or less if {G} was spent on this spell.
+[FlavorText]
+Cathartic.
+- Sciel
+[ForgeScript]
+A:SP$ DestroyAll | ValidCards$ Artifact.cmcLEX | ConditionManaSpent$ R | SubAbility$ NukeEnchantments | SpellDescription$ Destroy each artifact with mana value X or less if {R} was spent on this 
+SVar:NukeEnchantments:DB$ DestroyAll | ValidCards$ Enchantment.cmcLEX | ConditionManaSpent$ G | SpellDescription$ Destroy each enchantment with mana value X or less if {G} was spent on this spell.
+SVar:X:Count$xPaid
+[Tags]
+artifact-removal
+enchantment-removal
+[DesignNotes]
+ - In the game, at the Stone Wave Cliffs the Shrine to the Paintress can actually be destroyed.
+ - Modeled this moment as a Meltdown-style artifact sweeper if {R} was spent and an equivalent enchantment sweeper if {G} was spent.

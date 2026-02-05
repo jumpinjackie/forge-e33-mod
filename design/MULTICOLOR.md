@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 5/2/2026 1:15:35 pm
+> Last generated: 5/2/2026 2:47:38 pm
 
 ## A Storm is Coming
 
@@ -272,6 +272,23 @@ Hmm. It's old chroma, not pure. It won't be like bringing the two of you back, b
 
  - Intended to be a combo engine, just like Expedition 35 Bridge converts permanents to extra cards. This converts permanents to extra Chroma tokens.
  - 23/01/2026: Added nonland clause to both abilities and added Expeditioner sub-type
+
+## Chromatic Vines
+
+```
+2(G/W)
+Enchantment - Aura
+Enchant Land
+When this Aura enters, draw a card.
+Enchanted land does not untap during its controller’s untap step.
+```
+
+[card implementation](../custom/cards/c/chromatic_vines.txt)
+
+### Design Notes
+
+ - In the game, various building ruins in Spring Meadows have large vines growing out of them and constricting them.
+ - Envisioned this as an extra check for nonbasics.
 
 ## Clair Obscur
 
@@ -2120,6 +2137,25 @@ An omnipresent feature of the continent skies. A reminder that before one can ev
  - In the game, Serpenphare is an optional end-game boss. Its most prominent attack is an AP draining ability, if it consumes too much AP with this move, it will explode.
  - Mechanically, we modeled the AP draining ability as a tap and stun with a charge counter being given. The "explode" ability is modeled as removing X charge counters to X damage to every creature (including itself)
  - 19/11/2025: Increased tap-and-stun cost from 1U to 2U. Also added ability words.
+
+## Shrine Destruction
+
+```
+X(R/G)
+Sorcery
+Destroy each artifact with mana value X or less if {R} was spent on this spell.
+Destroy each enchantment with mana value X or less if {G} was spent on this spell.
+---
+Cathartic.
+- Sciel
+```
+
+[card implementation](../custom/cards/s/shrine_destruction.txt)
+
+### Design Notes
+
+ - In the game, at the Stone Wave Cliffs the Shrine to the Paintress can actually be destroyed.
+ - Modeled this moment as a Meltdown-style artifact sweeper if {R} was spent and an equivalent enchantment sweeper if {G} was spent.
 
 ## Simon, Consort of Clea // Simon, The Divergent Star
 

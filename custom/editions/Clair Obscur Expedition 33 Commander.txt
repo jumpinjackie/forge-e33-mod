@@ -7,33 +7,33 @@ Type=Custom
 [cards]
 1 R Farewell @Sandfall Interactive ${"flavorName": "A Life to Love"}
 6 R Abrupt Decay @Svetlin Velinov
-20 C Arcane Signet @Constantin Marin
-23 R Austere Command @rk post
-29 R Bedevil @Fang Xinyu
-51 R Chaos Warp @Trevor Claxton
-60 R Chromatic Lantern @Jung Park
-71 C Command Tower @Alayna Danner
-72 C Commander's Sphere @Justyna Dura
-75 U Counterspell @Zack Stella
-76 R Karplusan Forest @Sandfall Interactive ${"flavorName": "Crimson Forest"}
-81 C Cultivate @Anthony Palumbo
-82 R Damn @Lucas Graciano
-90 R Deflecting Swat @rk post
-98 M Doubling Season @Chuck Lukacs
-166 C Farseek @Hristo D. Chukov
-167 C Feed the Swarm @Andrey Kuzinskiy
-168 U Fellwar Stone @John Avon
-170 U Final Parting @Sandfall Interactive
-183 R Shivan Reef @Sandfall Interactive ${"flavorName": "Frozen Hearts"}
-228 C Growth Spiral @Seb McKinnon
-275 M Mana Drain @Raymond Swanland
-285 U Mask of Memory @Allen Morris
-290 R Mirage Mirror @Craig J Spearing
-296 U Mortify @Sandfall Interactive
-316 U Patchwork Banner @Sarah Finnigan
-317 U Path to Exile @Raf Sarmento
-329 U Primal Empathy @Sandfall Interactive
-330 U Putrefy @Clint Cearley
+18 C Arcane Signet @Constantin Marin
+21 R Austere Command @rk post
+27 R Bedevil @Fang Xinyu
+49 R Chaos Warp @Trevor Claxton
+58 R Chromatic Lantern @Jung Park
+70 C Command Tower @Alayna Danner
+71 C Commander's Sphere @Justyna Dura
+74 U Counterspell @Zack Stella
+75 R Karplusan Forest @Sandfall Interactive ${"flavorName": "Crimson Forest"}
+80 C Cultivate @Anthony Palumbo
+81 R Damn @Lucas Graciano
+89 R Deflecting Swat @rk post
+97 M Doubling Season @Chuck Lukacs
+165 C Farseek @Hristo D. Chukov
+166 C Feed the Swarm @Andrey Kuzinskiy
+167 U Fellwar Stone @John Avon
+169 U Final Parting @Sandfall Interactive
+182 R Shivan Reef @Sandfall Interactive ${"flavorName": "Frozen Hearts"}
+227 C Growth Spiral @Seb McKinnon
+274 M Mana Drain @Raymond Swanland
+284 U Mask of Memory @Allen Morris
+289 R Mirage Mirror @Craig J Spearing
+295 U Mortify @Sandfall Interactive
+315 U Patchwork Banner @Sarah Finnigan
+316 U Path to Exile @Raf Sarmento
+328 U Primal Empathy @Sandfall Interactive
+329 U Putrefy @Clint Cearley
 362 R Sulfurous Springs @Sandfall Interactive ${"flavorName": "Sinister Cave"}
 368 U Sol Ring @Piotr Dura
 381 U Swords to Plowshares @Nadia Hurianova

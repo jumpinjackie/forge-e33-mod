@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 5/2/2026 11:30:16 am
+> Last generated: 5/2/2026 2:59:01 pm
 
 ## A Rock for François
 
@@ -44,40 +44,6 @@ At the beginning of your upkeep, you may put a verse counter on Alicenisa.
  - In the game, Lorieniso played guitar alone in the Gestral Village. With the "Thank You" update, he is now accompanied by Alicenisa. Named after Alice Duport-Percier, the co-composer and main vocalist of the OST for this game.
  - Gone with a mashup of "Glorious Anthem" for Gestrals and a "Rubinia Soulsinger" creature stealer. Creature stealing is conditional on the number of verse counters that grows every turn so it can't just steal fatties right off the bat.
  - 18/01/2026: Made verse counter trigger optional.
-
-## Anti-Burn Picto
-
-```
-1
-Artifact - Picto Equipment
-Equipped creature has protection from red.
-Equip {2}
-Learn Picto 2 (Sacrifice two Lumina tokens: Create a token copy of this equipment attached to target creature you control. Activate this ability only if you control no token copies of this equipment.)
-```
-
-[card implementation](../custom/cards/a/anti_burn_picto.txt)
-
-### Design Notes
-
- - In the game, Anti-Burn grants immunity to Burn.
- - Easy mechanical map to protection from red.
-
-## Anti-Freeze Picto
-
-```
-1
-Artifact - Picto Equipment
-Equipped creature has protection from blue.
-Equip {2}
-Learn Picto 2 (Sacrifice two Lumina tokens: Create a token copy of this equipment attached to target creature you control. Activate this ability only if you control no token copies of this equipment.)
-```
-
-[card implementation](../custom/cards/a/anti_freeze_picto.txt)
-
-### Design Notes
-
- - In the game, Anti-Freeze grants immunity to freeze
- - Easy mechanical map to protection from blue.
 
 ## Arcane Signet
 

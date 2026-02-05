@@ -47,8 +47,8 @@ Cards implemented: 455
 [x] An Advantage!
 [ ] Ancient Sanctuary
 [R] Anger
-[x] Anti-Burn Picto
-[x] Anti-Freeze Picto
+[ ] Anti-Burn Picto
+[ ] Anti-Freeze Picto
 [x] Antoine, Lumière Historian
 [x] Attack Lifesteal Picto
 [x] Attack Picto
