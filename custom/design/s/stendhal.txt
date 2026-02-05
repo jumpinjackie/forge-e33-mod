@@ -1,7 +1,9 @@
 [Name]
 Stendhal
 [Types]
+Kindred
 Sorcery
+Expeditioner
 [ManaCost]
 10
 B
