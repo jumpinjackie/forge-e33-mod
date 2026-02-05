@@ -1,8 +1,8 @@
 Name:Rip Apart Reality
 ManaCost:2 U
 Types:Instant Gradient
-A:SP$ ChangeZone | ValidTgts$ Creature | TgtPrompt$ Select target creature | TargetMin$ 0 | TargetMax$ X | Origin$ Battlefield | Destination$ Hand | SubAbility$ DBDraw | SpellDescription$ Return up to one target creature to its owner's hand. If you control a painter, instead return up to two target creatures to their owner's hand and draw a card.
+A:SP$ ChangeZone | ValidTgts$ Permanent.nonLand | TgtPrompt$ Select target nonland permanent | TargetMin$ 0 | TargetMax$ X | Origin$ Battlefield | Destination$ Hand | SubAbility$ DBDraw | SpellDescription$ Return up to one target nonland permanent to its owner's hand. If you control a painter, instead return up to two target nonland permanents to their owner's hand and draw a card.
 SVar:DBDraw:DB$ Draw | DrawNum$ 1
 SVar:PainterTotal:Count$Valid Painter.YouCtrl
 SVar:X:Count$Compare PainterTotal GE1.2.1
-Oracle:Return up to one target creature to its owner's hand. If you control a painter, instead return up to two target creatures to their owner's hand.\nDraw a card.
+Oracle:Return up to one target nonland permanent to its owner's hand. If you control a painter, instead return up to two target nonland permanents to their owner's hand.\nDraw a card.

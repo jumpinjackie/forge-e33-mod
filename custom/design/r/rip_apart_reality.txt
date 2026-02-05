@@ -11,10 +11,10 @@ C
 [Artist]
 Sandfall Interactive
 [Oracle]
-Return up to one target creature to its owner's hand. If you control a painter, instead return up to two target creatures to their owner's hand.
+Return up to one target nonland permanent to its owner's hand. If you control a painter, instead return up to two target nonland permanents to their owner's hand.
 Draw a card.
 [ForgeScript]
-A:SP$ ChangeZone | ValidTgts$ Creature | TgtPrompt$ Select target creature | TargetMin$ 0 | TargetMax$ X | Origin$ Battlefield | Destination$ Hand | SubAbility$ DBDraw | SpellDescription$ Return up to one target creature to its owner's hand. If you control a painter, instead return up to two target creatures to their owner's hand and draw a card.
+A:SP$ ChangeZone | ValidTgts$ Permanent.nonLand | TgtPrompt$ Select target nonland permanent | TargetMin$ 0 | TargetMax$ X | Origin$ Battlefield | Destination$ Hand | SubAbility$ DBDraw | SpellDescription$ Return up to one target nonland permanent to its owner's hand. If you control a painter, instead return up to two target nonland permanents to their owner's hand and draw a card.
 SVar:DBDraw:DB$ Draw | DrawNum$ 1
 SVar:PainterTotal:Count$Valid Painter.YouCtrl
 SVar:X:Count$Compare PainterTotal GE1.2.1
@@ -25,3 +25,4 @@ creature-removal
  - May or may not have any mechanical relation. I needed a soft-removal spell for blue in this slot and the name was a good enough match for such an effect.
  - 13/10/2025: Removed Devoid.
  - 2/12/2025: Converted to a Repulse with a painter's bonus of an additional target. The "up to one target creature" wording on the base ability is to facilitate simpler card implementation in forge.
+ - 5/02/2026: Changed to target nonland permanents instead of creatures.

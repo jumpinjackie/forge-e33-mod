@@ -10,16 +10,20 @@ U
 [Artist]
 Sandfall Interactive
 [Oracle]
-Exile all graveyards.
+Exile all graveyards. You gain 1 life for each creature card exiled this way.
 Draw a card.
 [FlavorText]
 For the sake of the living, we must part with the dead.
 - Renoir
 [ForgeScript]
-A:SP$ ChangeZoneAll | ChangeType$ Card | Origin$ Graveyard | Destination$ Exile | AILogic$ ExileGraveyards | SubAbility$ DBDraw | SpellDescription$ Exile all graveyards.
-SVar:DBDraw:DB$ Draw
+A:SP$ ChangeZoneAll | ChangeType$ Card | Origin$ Graveyard | Destination$ Exile | AILogic$ ExileGraveyards | RememberChanged$ True | SubAbility$ DBLifeGain | SpellDescription$ Exile all graveyards.
+SVar:DBLifeGain:DB$ GainLife | LifeAmount$ X | SubAbility$ DBDraw
+SVar:DBDraw:DB$ Draw | SubAbility$ DBCleanup
+SVar:DBCleanup:DB$ Cleanup | ClearRemembered$ True
+SVar:X:Remembered$Valid Creature
 [Tags]
 graveyard-hate
 [DesignNotes]
  - Describes the moment in Verso's ending where he is truly laid to rest and the canvas is destroyed.
  - Obvious graveyard exile effect to indicate the finality of this moment. What's dead is dead and should be laid to rest.
+ - 5/06/2026: Added lifegain for each creature exiled.
