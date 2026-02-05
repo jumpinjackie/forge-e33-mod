@@ -119281,7 +119281,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "When this equipment enters, choose two —\n• Put a breaking counter on this equipment\n• Put an energizing counter on this equipment\n• Put a piercing counter on this equipment\nEquipped creature has “{X}{X}, {T}: This creature deals X damage to target creature“\nWhenever equipped creature deals damage to a creature, create a Chroma token and a Lumina token if this equipment has an energizing counter, tap that creature and put a stun counter on it if this equipment has a breaking counter, and it deals that amount of damage to its controller if this equipment has a piercing counter.\nEquip {2}\nLearn Picto 2",
+                    "text": "When this equipment enters, choose two —\n• Put a breaking counter on this equipment\n• Put an energizing counter on this equipment\n• Put a piercing counter on this equipment\nEquipped creature has “{X}{X}, {T}: This creature deals X damage to target creature”\nWhenever equipped creature deals damage to a creature, create a Chroma token and a Lumina token if this equipment has an energizing counter, tap that creature and put a stun counter on it if this equipment has a breaking counter, and it deals that amount of damage to its controller if this equipment has a piercing counter.\nEquip {2}\nLearn Picto 2",
                     "x": 0.08706467661691543,
                     "y": 0.6307746979388771,
                     "width": 0.828,

@@ -15,7 +15,7 @@ When ~ enters, choose two —
 • Put a breaking counter on ~
 • Put an energizing counter on ~
 • Put a piercing counter on ~
-Equipped creature has "{X}{X}, {T}: This creature deals X damage to target creature"
+Equipped creature has “{X}{X}, {T}: This creature deals X damage to target creature”
 Whenever equipped creature deals damage to a creature, create a Chroma token and a Lumina token if ~ has an energizing counter, tap that creature and put a stun counter on it if ~ has a breaking counter, and it deals that amount of damage to its controller if ~ has a piercing counter.
 Equip {2}
 $PICTO_REPLICATE_ABILITY_SHORT(2)
@@ -60,3 +60,4 @@ creature-removal
     - Breaking: Tap and stun targeted creature (if it didn't die from the shot)
     - Energizing: Reward a Chroma + Lumina token
     - Piercing: Shoot targeted creature's controller for the same amount of damage
+ - 5/02/2026: Manually fix up quotes in Oracle text. Just like The Fracture, CardConjurer was rendering incorrect unicode double-quotes, so we have forced the matter by using explicit left/right unicode double quotes so CardConjurer doesn't mis-interpret them.

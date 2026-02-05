@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 2/2/2026 1:53:25 pm
+> Last generated: 5/2/2026 9:02:45 am
 
 ## A Rock for François
 
@@ -1253,7 +1253,7 @@ When this equipment enters, choose two —
 • Put a breaking counter on this equipment
 • Put an energizing counter on this equipment
 • Put a piercing counter on this equipment
-Equipped creature has "{X}{X}, {T}: This creature deals X damage to target creature"
+Equipped creature has “{X}{X}, {T}: This creature deals X damage to target creature”
 Whenever equipped creature deals damage to a creature, create a Chroma token and a Lumina token if this equipment has an energizing counter, tap that creature and put a stun counter on it if this equipment has a breaking counter, and it deals that amount of damage to its controller if this equipment has a piercing counter.
 Equip {2}
 Learn Picto 2
@@ -1270,6 +1270,7 @@ Learn Picto 2
     - Breaking: Tap and stun targeted creature (if it didn't die from the shot)
     - Energizing: Reward a Chroma + Lumina token
     - Piercing: Shoot targeted creature's controller for the same amount of damage
+ - 5/02/2026: Manually fix up quotes in Oracle text. Just like The Fracture, CardConjurer was rendering incorrect unicode double-quotes, so we have forced the matter by using explicit left/right unicode double quotes so CardConjurer doesn't mis-interpret them.
 
 ## Soarrie
 
