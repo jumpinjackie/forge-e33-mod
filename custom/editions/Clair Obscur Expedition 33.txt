@@ -134,7 +134,7 @@ Type=Custom
 155 C Expedition Festival @Sandfall Interactive
 156 U Expedition Flag @Sandfall Interactive
 157 U Expedition Flotilla @Sandfall Interactive
-158 U Expedition Journal @Sandfall Interactive
+158 U Expedition Journal @Sandfall Interactive DeckHints:Type$Saga
 160 U Expedition Recruiter @Sandfall Interactive
 161 C Expeditioner Uniform @Sandfall Interactive
 162 C Face Adversity @Sandfall Interactive
@@ -198,7 +198,7 @@ Type=Custom
 232 U Half-baked Lifeguard @Sandfall Interactive
 233 C Healing Light @Sandfall Interactive
 234 U Healing Tint @Sandfall Interactive
-235 C Here's Your Card! @Sandfall Interactive
+235 C Here's Your Card! @Google Gemini
 236 U Hexga @Sandfall Interactive
 237 U Hiding the Canvas @Sandfall Interactive
 238 C Ice Lance @Sandfall Interactive
@@ -219,7 +219,7 @@ Type=Custom
 254 R Lorieniso, Gestral Musician @Sandfall Interactive
 255 C Lost // Found @Sandfall Interactive
 256 C Lost Gestral @Sandfall Interactive
-258 R Lumière Aquafarm @Sandfall Interactive
+258 R Lumière Aquafarm @Google Gemini
 259 U Lumière Assault @Sandfall Interactive
 260 U Lumière Flower Stand @Sandfall Interactive
 262 U Lumière Opera House @Sandfall Interactive
@@ -409,7 +409,7 @@ Type=Custom
 370 R Razorverge Thicket @Sandfall Interactive ${"flavorName": "Spring Meadows"}
 375 R Spirebluff Canal @Sandfall Interactive ${"flavorName": "Stone Wave Cliffs"}
 376 R Blackcleave Cliffs @Sandfall Interactive ${"flavorName": "Sunless Cliffs"}
-393 C Terminate @Lucas Graciano
+393 C Terminate @Sandfall Interactive
 408 R Urborg, Tomb of Yawgmoth @Sandfall Interactive ${"flavorName": "The Root of All Evil"}
 419 C Tranquil Landscape @Randy Gallegos
 422 C Twisted Landscape @Piotr Dura

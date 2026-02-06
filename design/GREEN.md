@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 5/2/2026 11:30:16 am
+> Last generated: 6/2/2026 10:03:45 am
 
 ## Abbest
 
@@ -522,6 +522,7 @@ Even in an artificial painted world, there is a natural order.
 Legendary Creature - Human Citizen
 {T}: Create a Flower token. (It’s an artifact with “{T}, Sacrifice this artifact: Add {U}, {R} or {G}.”)
 When this creature dies, create a Chroma token.
+DeckHints:Name$Goblu
 ---
 Hi Gustave. You’re back. Did you want to pick out a different flower?
 

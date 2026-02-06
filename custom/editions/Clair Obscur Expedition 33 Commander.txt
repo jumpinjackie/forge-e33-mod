@@ -31,7 +31,7 @@ Type=Custom
 289 R Mirage Mirror @Craig J Spearing
 295 U Mortify @Sandfall Interactive
 315 U Patchwork Banner @Sarah Finnigan
-316 U Path to Exile @Raf Sarmento
+316 U Path to Exile @Google Gemini
 328 U Primal Empathy @Sandfall Interactive
 329 U Putrefy @Clint Cearley
 362 R Sulfurous Springs @Sandfall Interactive ${"flavorName": "Sinister Cave"}
