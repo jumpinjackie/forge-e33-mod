@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 6/2/2026 11:51:12 am
+> Last generated: 6/2/2026 12:07:39 pm
 
 ## A Storm is Coming
 
@@ -2118,6 +2118,7 @@ Foretell {1}{W/U} (During your turn, you may pay {2} and exile this card from yo
  - In the game, Sciel gives her "glowing endorsement" of Gustave for "shouting the password as loud as you can" to get access to Esquie's Nest.
  - This card 100% based on the "Sciel of Approval" meme/pun.
  - 21/01/2026: Color-shifted from white to white/blue hybrid.
+ - 6/02/2026: Added Foretell
 
 ## Serpenphare
 

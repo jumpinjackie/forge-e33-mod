@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 5/2/2026 11:30:16 am
+> Last generated: 6/2/2026 12:09:15 pm
 
 ## Blade's Graveyard (Concealed Courtyard)
 
@@ -453,6 +453,9 @@ Land
 This land enters tapped.
 {T}: Add {B}.
 {2}{B}{B}{B}, {T}, Exile this land: Mill four cards, then return a Nevron or Painter creature card from your graveyard to the battlefield. Activate only as a sorcery.
+---
+But it seems we've been wrong about what she is. The Paintress is just as trapped as we. The real terror lies beneath The Monolith.
+- William, Expedition 60
 ```
 
 [card implementation](../custom/cards/r/renoirs_drafts.txt)

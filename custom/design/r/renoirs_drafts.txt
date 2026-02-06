@@ -8,6 +8,9 @@ R
 This land enters tapped.
 {T}: Add {B}.
 {2}{B}{B}{B}, {T}, Exile this land: Mill four cards, then return a Nevron or Painter creature card from your graveyard to the battlefield. Activate only as a sorcery.
+[FlavorText]
+But it seems we've been wrong about what she is. The Paintress is just as trapped as we. The real terror lies beneath The Monolith.
+- William, Expedition 60
 [EntersTapped]
 true
 [ForgeScript]

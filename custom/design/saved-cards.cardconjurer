@@ -110957,7 +110957,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "This land enters tapped.\n{T}: Add {B}.\n{2}{B}{B}{B}, {T}, Exile this land: Mill four cards, then return a Nevron or Painter creature card from your graveyard to the battlefield. Activate only as a sorcery.",
+                    "text": "This land enters tapped.\n{T}: Add {B}.\n{2}{B}{B}{B}, {T}, Exile this land: Mill four cards, then return a Nevron or Painter creature card from your graveyard to the battlefield. Activate only as a sorcery.{flavor}But it seems we’ve been wrong about what she is. The Paintress is just as trapped as we. The real terror lies beneath The Monolith.\n- William, Expedition 60",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
