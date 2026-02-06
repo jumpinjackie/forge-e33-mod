@@ -19,6 +19,7 @@ Tiffanie: Well, there are less and less people to buy them. I just wish you didn
 K:etbCounter:STOCK:3
 A:AB$ Token | Cost$ 1 SubCounter<1/STOCK> T | TokenAmount$ 1 | TokenOwner$ You | TokenScript$ c_a_flower | SpellDescription$ Create a Flower token (It's an artifact with "{T}, Sacrifice this artifact: Add {U}, {R} or {G}.")
 A:AB$ PutCounter | Cost$ 3 T | CounterType$ STOCK | SpellDescription$ Put a stock counter on ~
+DeckHints:Name$Goblu
 [RelatedTokens]
 c_a_flower
 [Artist]

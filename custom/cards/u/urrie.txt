@@ -3,4 +3,6 @@ ManaCost:1
 Types:Legendary Artifact Rock
 A:AB$ Surveil | Cost$ 2 T | Amount$ 1 | SpellDescription$ Surveil 1.
 A:AB$ Draw | Cost$ 1 Sac<1/CARDNAME> | NumCards$ 1 | SpellDescription$ Draw a card.
+DeckNeeds:Name$Dorrie|Florrie|Soarrie
+DeckHints:Name$Esquie's Charge|Esquie's Embrace|Esquie, Friend of Verso
 Oracle:{2}, {T}: Surveil 1.\n{1}, Sacrifice Urrie: Draw a card.

@@ -24,6 +24,7 @@ I just finished my sculpture of the legendary Esquie. This may be my life’s fi
 [ForgeScript]
 A:AB$ Clone | Cost$ W U T | Choices$ Creature | AddTypes$ Artifact | ChoiceTitle$ Choose a creature to copy | ValidTgts$ Artifact.!creature | TgtPrompt$ Choose target noncreature artifact become a copy | Duration$ UntilEndOfTurn | StackDescription$ SpellDescription | SpellDescription$ Target noncreature artifact becomes a copy of target creature until end of turn, except it is an artifact in addition to its other types.
 $EXPEDITIONER_DEATH_ABILITY
+DeckHints:Type$Artifact
 [Artist]
 Sandfall Interactive
 [DesignNotes]

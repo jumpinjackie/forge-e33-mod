@@ -23,6 +23,7 @@ Damnit Hector, I told you to SLOW DOWN
 [ForgeScript]
 S:Mode$ TapPowerValue | ValidSA$ Activated.Saddle+Mount,Activated.Crew+Vehicle | ValidCard$ Card.Self | Value$ 2 | Description$ CARDNAME saddles Mounts and crews Vehicles as though its power were 2 greater.
 $EXPEDITIONER_DEATH_ABILITY
+DeckHints:Type$Vehicle|Mount
 [DesignNotes]
  - In the game, Expedition 63 employed the use of automobiles to traverse the continent. This expedition failed when their vehicles crashed into a Nevron for driving too fast.
  - This card models such a driver.

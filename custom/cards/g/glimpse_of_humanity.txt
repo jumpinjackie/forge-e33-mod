@@ -8,4 +8,5 @@ SVar:DBLifeGain:DB$ GainLife | Defined$ You | LifeAmount$ X | SubAbility$ DBClea
 SVar:X:Remembered$Amount
 SVar:DBCleanup:DB$ Cleanup | ClearRemembered$ True
 SVar:IsReanimatorCard:TRUE
+DeckHints:Type$Human
 Oracle:Each player exiles all Human creature cards from their graveyard, then sacrifices all creatures they control, then puts all cards they exiled this way onto the battlefield. You gain 1 life for each creature sacrificed this way.

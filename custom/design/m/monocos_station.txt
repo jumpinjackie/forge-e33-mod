@@ -17,6 +17,7 @@ The Grandis have embraced us with such warmth and hope. What a balm for the soul
 [ForgeScript]
 A:AB$ Mana | Cost$ T | Produced$ C | SpellDescription$ Add {C}.
 A:AB$ Mana | Cost$ T | Produced$ Combo U R | IsPresent$ Gestral.YouCtrl,Grandis.YouCtrl | PresentCompare$ GE1 | SpellDescription$ {T}: Add {U} or {R}. Activate this ability only if you control a Gestral or Grandis.
+DeckHints:Type$Gestral|Grandis
 [Tags]
 mana-fixer
 [DesignNotes]

@@ -21,6 +21,7 @@ S:Mode$ Continuous | Affected$ Creature.EquippedBy | AddType$ Expeditioner | Des
 S:Mode$ Continuous | Affected$ Human.EquippedBy | AddPower$ 1 | AddToughness$ 1 | Description$ As long as equipped creature is a Human, it gets +1/+1.
 T:Mode$ Attacks | ValidCard$ Card.AttachedBy | Execute$ TrigToken | TriggerDescription$ Whenever equipped creature attacks, create a Lumina token.
 SVar:TrigToken:DB$ Token | TokenAmount$ 1 | TokenOwner$ You | TokenScript$ c_a_lumina | SpellDescription$ Create a Lumina token.
+DeckHints:Type$Human
 [Artist]
 Sandfall Interactive
 [Tags]

@@ -17,6 +17,7 @@ Whenever ~ deals damage to a player, you may put a Gestral permanent card from y
 [ForgeScript]
 T:Mode$ DamageDone | ValidSource$ Card.Self | ValidTarget$ Player | Execute$ TrigChange | TriggerDescription$ Whenever CARDNAME deals damage to a player, you may put a Gestral permanent card from your hand onto the battlefield.
 SVar:TrigChange:DB$ ChangeZone | Origin$ Hand | Destination$ Battlefield | ChangeType$ Permanent.Gestral | ChangeNum$ 1
+DeckHints:Type$Gestral
 [DesignNotes]
  - The Gestral version of Goblin Lackey.
  - 25/12/2025: Renamed to Gestral Kid as that has in-game basis.

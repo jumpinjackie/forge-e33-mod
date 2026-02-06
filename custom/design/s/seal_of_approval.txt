@@ -17,6 +17,7 @@ A:AB$ Effect | Cost$ Sac<1/CARDNAME> | StaticAbilities$ ReduceCost | Triggers$ T
 SVar:ReduceCost:Mode$ ReduceCost | Type$ Spell | Activator$ You | ValidCard$ Card.Historic | Amount$ 1 | Description$ The next Historic spell you cast costs {1} less to cast.
 SVar:TrigCastSpell:Mode$ SpellCast | ValidCard$ Card.Historic | ValidActivatingPlayer$ You | TriggerZones$ Command | Execute$ RemoveEffect | Static$ True
 SVar:RemoveEffect:DB$ ChangeZone | Origin$ Command | Destination$ Exile
+DeckHints:Type$Artifact|Saga|Legendary
 [Artist]
 Sandfall Interactive
 [DesignNotes]

@@ -22,6 +22,7 @@ A:AB$ ChangeZone | Cost$ T SubCounter<X/CHALLENGE> | ChangeNum$ 1 | ChangeType$ 
 T:Mode$ Phase | Phase$ Upkeep | ValidPlayer$ You | TriggerZones$ Battlefield | OptionalDecider$ You | Execute$ TrigPutCounter | TriggerDescription$ At the beginning of your upkeep, you may put a charge counter on CARDNAME.
 SVar:TrigPutCounter:DB$ PutCounter | Defined$ Self | CounterType$ CHALLENGE | CounterNum$ 1 | AILogic$ ChargeToBestCMC
 SVar:X:Count$xPaid
+DeckHints:Type$Nevron
 [DraftScore]
 86
 [DesignNotes]

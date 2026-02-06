@@ -20,6 +20,7 @@ A:AB$ RemoveCounter | Cost$ 3 T | ValidTgts$ Saga.YouCtrl | TgtPrompt$ Select ta
 A:AB$ Draw | Cost$ 2 Sac<1/CARDNAME> | NumCards$ 1 | SpellDescription$ Draw a card.
 [Artist]
 Sandfall Interactive
+DeckHints:Type$Saga
 [DesignNotes]
  - In the game, various journals from previous Expeditions are scattered throughout the continent.
  - Since we've modeled Expedition-specific journals as Sagas, this is an artifact that can help skip or re-tell Saga chapters.

@@ -29,6 +29,7 @@ SVar:DBChroma:DB$ Token | TokenAmount$ MakeX | TokenOwner$ You | TokenScript$ c_
 SVar:DBCleanup:DB$ Cleanup | ClearRemembered$ True
 SVar:MakeX:Remembered$Amount
 DeckHas:Ability$Counters
+DeckHints:Keyword$Flying
 [RelatedTokens]
 u_5_5_airship
 c_a_lumina

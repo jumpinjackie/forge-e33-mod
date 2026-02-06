@@ -21,6 +21,7 @@ S:Mode$ Continuous | Affected$ Creature.EnchantedBy | AddKeyword$ Flying | IsPre
 S:Mode$ Continuous | Affected$ Creature.EnchantedBy | AddKeyword$ Trample | IsPresent$ Card.YouCtrl+namedDorrie | Description$ Enchanted creature has Trample as long as you control a card named Dorrie.
 T:Mode$ Attacks | ValidCard$ Card.Self | IsPresent$ Card.YouCtrl+namedUrrie | Execute$ TrigDraw | TriggerZones$ Battlefield | OptionalDecider$ You | TriggerDescription$ Whenever enchanted creature attacks, if you control a card named Urrie, draw a card.
 SVar:TrigDraw:DB$ Draw | NumCards$ 1
+DeckNeeds:Name$Soarrie|Florrie|Urrie|Dorrie
 [Artist]
 Sandfall Interactive
 [DesignNotes]

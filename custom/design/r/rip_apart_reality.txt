@@ -18,6 +18,7 @@ A:SP$ ChangeZone | ValidTgts$ Permanent.nonLand | TgtPrompt$ Select target nonla
 SVar:DBDraw:DB$ Draw | DrawNum$ 1
 SVar:PainterTotal:Count$Valid Painter.YouCtrl
 SVar:X:Count$Compare PainterTotal GE1.2.1
+DeckHints:Type$Painter
 [Tags]
 creature-removal
 artifact-removal

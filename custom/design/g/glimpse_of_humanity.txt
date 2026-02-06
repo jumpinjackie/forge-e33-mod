@@ -20,6 +20,7 @@ SVar:DBLifeGain:DB$ GainLife | Defined$ You | LifeAmount$ X | SubAbility$ DBClea
 SVar:X:Remembered$Amount
 SVar:DBCleanup:DB$ Cleanup | ClearRemembered$ True
 SVar:IsReanimatorCard:TRUE
+DeckHints:Type$Human
 [Artist]
 Sandfall Interactive
 [DraftScore]

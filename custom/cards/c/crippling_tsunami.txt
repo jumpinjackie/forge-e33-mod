@@ -5,4 +5,5 @@ T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.S
 SVar:TrigToken:DB$ Token | TokenAmount$ 1 | TokenOwner$ You | TokenScript$ c_a_lumina
 A:AB$ Tap | Cost$ tapXType<1/Creature> | ValidTgts$ Artifact,Creature | TgtPrompt$ Select target artifact or creature | SpellDescription$ Tap target artifact or creature.
 A:AB$ Tap | Cost$ tapXType<1/Expeditioner> | ValidTgts$ Land | TgtPrompt$ Select target land | SpellDescription$ Tap target land.
+SVar:NonStackingEffect:True
 Oracle:When this enchantment enters, create a Lumina token. (It's an artifact with "{T}, Sacrifice this artifact: Scry 1.")\nTap an untapped creature you control: Tap target artifact or creature.\nTap an untapped Expeditioner you control: Tap target land.

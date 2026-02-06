@@ -21,6 +21,7 @@ T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Creatu
 S:Mode$ Continuous | Affected$ Creature.YouCtrl | AddKeyword$ Haste | IsPresent$ Card.Self+counters_GE2_QUEST | Description$ As long as this enchantment as two or more quest counters, creatures you control gain vigilance.
 S:Mode$ Continuous | Affected$ Creature.YouCtrl | AddKeyword$ Prowess | IsPresent$ Card.Self+counters_GE3_QUEST | Description$ As long as this enchantment as three or more quest counters, creatures you control gain prowess.
 SVar:TrigQuestCounter:DB$ PutCounter | Defined$ Self | CounterType$ QUEST | CounterNum$ 1
+DeckHints:Type$Human
 [Cycle]
 Gestral Challenge Minigames (Base Game)
 [DesignNotes]

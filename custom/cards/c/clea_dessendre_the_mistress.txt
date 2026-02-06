@@ -9,4 +9,6 @@ A:AB$ ChangeZone | Cost$ SubCounter<4/LOYALTY> | Planeswalker$ True | ValidTgts$
 SVar:DBCopyExiled:DB$ CopyPermanent | Defined$ Remembered | Controller$ You | AddTypes$ Nevron | SubAbility$ DBCleanup
 SVar:DBCleanup:DB$ Cleanup | ClearRemembered$ True
 A:AB$ GainControl | Cost$ SubCounter<10/LOYALTY> | Planeswalker$ True | Ultimate$ True | ValidTgts$ Opponent | TgtPrompt$ Select target opponent | AllValid$ Creature.TargetedPlayerCtrl | NewController$ You | StackDescription$ SpellDescription | SpellDescription$ Gain control of all creatures target opponent controls.
+DeckHas:Ability$Token
+DeckHints:Type$Nevron
 Oracle:Nevron spells you cast cost {1} less to cast.\n[+2]: Amass Nevrons 2\n[-2]: Search your library for a Nevron creature card, reveal that card and put it into your hand.\n[-4]: Exile target nonland permanent. Create a token that's a copy of that permanent, except it is a Nevron in addition to its other types.\n[-10]: Gain control of all creatures target opponent controls.

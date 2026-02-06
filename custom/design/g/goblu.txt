@@ -37,6 +37,7 @@ SVar:TrigPing:DB$ DealDamage | ValidTgts$ Any | NumDmg$ 1 | SpellDescription$ ~ 
 SVar:TrigPump:DB$ PutCounter | ValidTgts$ Creature | TgtPrompt$ Select target creature | CounterType$ P1P1 | CounterNum$ 1 | SpellDescription$ Put a +1/+1 counter on target creature.
 SVar:TrigShield:DB$ PutCounter | ValidTgts$ Creature | TgtPrompt$ Select target creature | CounterType$ SHIELD | CounterNum$ 1 | SpellDescription$ Put a shield counter on target creature.
 SVar:TrigDraw:DB$ Draw | Defined$ You | NumCards$ 1 | SpellDescription$ Draw a card.
+DeckHints:Name$Ophelie, Lumière Florist|Lumière Flower Stand
 [FlavorText]
 Gustave, wait! It seems peaceful, as long as we don't touch the flowers.
 - Lune

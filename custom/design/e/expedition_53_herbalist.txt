@@ -27,6 +27,7 @@ A:AB$ GainLife | Cost$ Sac<1/Creature.Expeditioner> | LifeAmount$ X | SubAbility
 SVar:DBScry:DB$ Scry | ScryNum$ X
 SVar:X:Sacrificed$CardPower
 $EXPEDITIONER_DEATH_ABILITY
+DeckHints:Type$Expeditioner
 [DesignNotes]
  - In the game, members of Expedition 53 mercy-killed a fellow expeditioner whose injuries had left them in a coma.
  - This card represents one such member.

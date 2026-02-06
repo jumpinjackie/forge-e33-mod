@@ -37,6 +37,7 @@ SVar:TrigChoose:DB$ Charm | Choices$ DBDraw,DBLand | CharmNum$ 1
 SVar:DBDraw:DB$ Draw | Defined$ You | SpellDescription$ Draw a card.
 SVar:DBLand:DB$ ChangeZone | Origin$ Hand | Destination$ Battlefield | ChangeType$ Land | ChangeNum$ 1 | SpellDescription$ Put a land card from your hand onto the battlefield.
 K:Saddle:2
+DeckNeeds:Name$Soarrie|Florrie|Urrie|Dorrie
 [DesignNotes]
  - In the game, Esquie is the character the rest of the party rides on to travel across the Continent overworld.
  - In the game, Esquie gains additional powers through consuming the rocks, Florrie (swimming), Dorrie (smash thorugh coral barriers), Soarrie (flying) and Urrie (diving)

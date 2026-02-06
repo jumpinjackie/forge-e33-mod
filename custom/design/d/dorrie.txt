@@ -19,6 +19,8 @@ Doesn't that look like one of Esquie's stones?
 [ForgeScript]
 A:AB$ Animate | Cost$ T | ValidTgts$ Creature.YouCtrl | TgtPrompt$ Select target creature you control | Keywords$ Trample | SpellDescription$ Target creature you control gains Trample until end of turn.
 A:AB$ Draw | Cost$ 1 Sac<1/CARDNAME> | NumCards$ 1 | SpellDescription$ Draw a card.
+DeckNeeds:Name$Florrie|Dorrie|Soarrie
+DeckHints:Name$Esquie's Charge|Esquie's Embrace|Esquie, Friend of Verso
 [Cycle]
 Esquie's Pet Rocks
 [DesignNotes]

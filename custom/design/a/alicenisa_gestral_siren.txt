@@ -24,6 +24,7 @@ T:Mode$ Phase | Phase$ Upkeep | ValidPlayer$ You | TriggerZones$ Battlefield | E
 SVar:TrigPutCounter:DB$ PutCounter | Defined$ Self | CounterType$ VERSE | CounterNum$ 1
 A:AB$ GainControl | Cost$ T | ValidTgts$ Creature.cmcLEX | TgtPrompt$ Select target creature | LoseControl$ Untap,LeavesPlay,LoseControl | SpellDescription$ Gain control of target creature with mana value X or less for as long as you control Alicenisa and Alicenisa remains tapped, where X is the number of verse counters on Alicenisa.
 SVar:X:Count$CardCounters.VERSE
+DeckHints:Type$Gestral
 [Artist]
 Sandfall Interactive
 [Tags]

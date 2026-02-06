@@ -32,6 +32,7 @@ SVar:DBDblStrike:DB$ PutCounter | CounterType$ Double Strike | CounterNum$1 | Sp
 SVar:DBVigilance:DB$ PutCounter | CounterType$ Vigilance | CounterNum$1 | SpellDescription$ Put a Vigilance counter on CARDNAME
 SVar:DBTrample:DB$ PutCounter | CounterType$ Trample | CounterNum$1 | SpellDescription$ Put a Trample counter on CARDNAME
 SVar:DBDraw:DB$ Draw | NumCards$ 1 | SpellDescription$ Draw a card.
+DeckHints:Type$Gestral
 [DesignNotes]
  - Obviously the Gestral lord of this set.
  - In the game, when Golgra gets below 50% health, she goes "Super Saiyan" and her attacks increase in power.

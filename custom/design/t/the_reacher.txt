@@ -29,6 +29,7 @@ T:Mode$ Attacks | ValidCard$ Creature.YouCtrl+withFlying | Execute$ TrigRemoveCo
 SVar:TrigRemoveCounter:DB$ RemoveCounter | Defined$ Self | CounterType$ SKY | CounterNum$ 1
 A:AB$ Mana | Cost$ T | Produced$ Combo G U | SpellDescription$ Add {G} or {U}.
 A:AB$ RemoveCounter | Cost$ 2 GU | CounterType$ SKY | CounterNum$ 1 | SpellDescription$ Remove a sky counter from ~.
+DeckHints:Keyword$Flying
 [Artist]
 Sandfall Interactive
 [DraftScore]

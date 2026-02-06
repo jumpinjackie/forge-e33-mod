@@ -12,4 +12,5 @@ Name:Found
 ManaCost:W
 Types:Instant
 A:SP$ ChangeZone | Origin$ Graveyard | Destination$ Hand | TgtPrompt$ Choose target artifact card in your graveyard | ValidTgts$ Artifact.YouCtrl | SpellDescription$ Return target artifact card from your graveyard to your hand.
+DeckHints:Type$Artifact
 Oracle:Return target artifact card from your graveyard to your hand.

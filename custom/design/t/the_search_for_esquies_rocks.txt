@@ -21,6 +21,7 @@ SVar:DBChapter1:DB$ ChangeZone | Origin$ Library | Destination$ Battlefield | Ch
 SVar:DBChapter2:DB$ Scry | ScryNum$ 3 | SpellDescription$ Scry 3.
 SVar:DBChapter3:DB$ Draw | Defined$ You | NumCards$ X | SpellDescription$ Draw cards equal to the number of legendary rock permanents you control.
 SVar:X:Count$Valid Rock.Legendary+YouCtrl
+DeckHints:Type$Rock
 [DesignNotes]
  - In the game, you need to find a series of rocks for Esquie to unlock extra abilities to be able to traverse various parts of the overworld.
  - This is basically our "rock tutor" to enable our rock "Urzatron" strategy.

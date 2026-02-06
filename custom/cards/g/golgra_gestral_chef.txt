@@ -9,4 +9,5 @@ SVar:DBDblStrike:DB$ PutCounter | CounterType$ Double Strike | CounterNum$1 | Sp
 SVar:DBVigilance:DB$ PutCounter | CounterType$ Vigilance | CounterNum$1 | SpellDescription$ Put a Vigilance counter on CARDNAME
 SVar:DBTrample:DB$ PutCounter | CounterType$ Trample | CounterNum$1 | SpellDescription$ Put a Trample counter on CARDNAME
 SVar:DBDraw:DB$ Draw | NumCards$ 1 | SpellDescription$ Draw a card.
+DeckHints:Type$Gestral
 Oracle:Other Gestral creatures you control get +2/+2\nEnrage — Whenever Golgra is dealt damage, choose one —\n• Put a Double strike counter on Golgra.\n• Put a Vigilance counter on Golgra.\n• Put a Trample counter on Golgra.\n• Draw a card.

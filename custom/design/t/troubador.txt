@@ -24,6 +24,7 @@ Applies rush to allies
 S:Mode$ Continuous | Affected$ Creature.Nevron+Other+YouCtrl | AddPower$ 1 | AddToughness$ 1 | Description$ Other Nevron creatures you control get +1/+1.
 S:Mode$ Continuous | Affected$ Nevron.YouCtrl | AddKeyword$ Haste | Description$ Nevrons you control have haste.
 $NEVRON_DEATH_ABILITY
+DeckHints:Type$Nevron
 [Tags]
 lord
 [DesignNotes]

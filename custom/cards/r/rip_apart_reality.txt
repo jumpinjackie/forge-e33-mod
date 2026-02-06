@@ -5,4 +5,5 @@ A:SP$ ChangeZone | ValidTgts$ Permanent.nonLand | TgtPrompt$ Select target nonla
 SVar:DBDraw:DB$ Draw | DrawNum$ 1
 SVar:PainterTotal:Count$Valid Painter.YouCtrl
 SVar:X:Count$Compare PainterTotal GE1.2.1
+DeckHints:Type$Painter
 Oracle:Return up to one target nonland permanent to its owner's hand. If you control a painter, instead return up to two target nonland permanents to their owner's hand.\nDraw a card.

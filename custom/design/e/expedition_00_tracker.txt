@@ -20,6 +20,7 @@ $EXPEDITIONER_DEATH_ABILITY_TEXT_LONG
 [ForgeScript]
 A:AB$ Dig | Cost$ 4 G T | DigNum$ 4 | ChangeNum$ 1 | Optional$ True | ChangeValid$ Expeditioner | RestRandomOrder$ True | SpellDescription$ Look at the top four cards of your library. You may reveal an Expeditioner card from among them and put it into your hand. Put the rest on the bottom of your library in a random order.
 $EXPEDITIONER_DEATH_ABILITY
+DeckHints:Type$Expeditioner
 [DesignNotes]
  - In the game, Expedition 00 was the first "search and rescue" team to find any survivors of The Fracture.
  - Gone with a variant of Brightwood Tracker

@@ -31,6 +31,7 @@ T:Mode$ Phase | Phase$ Upkeep | ValidPlayer$ You | Execute$ TrigCharm | TriggerZ
 SVar:TrigCharm:DB$ Charm | Choices$ NevronTutor,NevronTempClone | CharmNum$ 1
 SVar:NevronTutor:DB$ ChangeZone | Origin$ Library | Destination$ Battlefield | ChangeType$ Nevron | ChangeNum$ 1 | AISearchGoal$ Nevron | SpellDescription$ Search your library for a Nevron card and put it onto the battlefield.
 SVar:NevronTempClone:DB$ CopyPermanent | ValidTgts$ Creature.Nevron+nonLegendary+YouCtrl | TgtPrompt$ Select target nonlegendary Nevron creature you control | AddKeywords$ Haste | AtEOT$ Sacrifice | SpellDescription$ Create a token that's a copy of target nonlegendary Nevron creature you control, except it has haste. Sacrifice it at the beginning of the next end step.
+DeckHints:Type$Nevron
 [Artist]
 Sandfall Interactive
 [DraftScore]

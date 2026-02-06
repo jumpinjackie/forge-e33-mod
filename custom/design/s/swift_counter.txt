@@ -19,6 +19,7 @@ Create a Lumina token. $LUMINA_REMINDER_TEXT
 S:Mode$ ReduceCost | ValidCard$ Card.Self | Type$ Spell | Amount$ 1 | EffectZone$ All | IsPresent$ Expeditioner.YouCtrl | Description$ This spell costs {1} less to cast if you control an Expeditioner.
 A:SP$ Counter | TargetType$ Spell | ValidTgts$ Card | SubAbility$ DBToken | SpellDescription$ Counter target spell.
 SVar:DBToken:DB$ Token | TokenAmount$ 1 | TokenOwner$ You | TokenScript$ c_a_lumina
+DeckHints:Type$Expeditioner
 [RelatedTokens]
 c_a_lumina
 [Tags]

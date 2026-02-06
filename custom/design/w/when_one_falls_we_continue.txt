@@ -17,6 +17,7 @@ reanimation
 K:Fuse
 AlternateMode:Split
 A:SP$ ChangeZoneAll | ChangeType$ Expeditioner.YouOwn | Origin$ Graveyard | Destination$ Battlefield | SpellDescription$ Return all Expeditioner permanent cards from your graveyard to the battlefield
+DeckHints:Type$Expeditioner
 ALTERNATE:FUSE
 [Name]
 We Continue

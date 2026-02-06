@@ -4,6 +4,7 @@ Types:Sorcery
 K:Fuse
 AlternateMode:Split
 A:SP$ ChangeZoneAll | ChangeType$ Expeditioner.YouOwn | Origin$ Graveyard | Destination$ Battlefield | SpellDescription$ Return all Expeditioner permanent cards from your graveyard to the battlefield
+DeckHints:Type$Expeditioner
 Oracle:Return all Expeditioner permanent cards from your graveyard to the battlefield.\nFuse (You may cast one or both halves of this card from your hand.)
 
 ALTERNATE

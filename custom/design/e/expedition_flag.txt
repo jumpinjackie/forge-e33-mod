@@ -18,6 +18,7 @@ T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.S
 SVar:TrigToken:DB$ Token | TokenAmount$ 1 | TokenOwner$ You | TokenScript$ c_a_lumina
 S:Mode$ Continuous | Affected$ Creature.Expeditioner+YouCtrl | AddPower$ 1 | AddToughness$ 1 | Description$ Expeditioner creatures you control get +1/+1.
 A:AB$ Mana | Cost$ T | Produced$ Any | SpellDescription$ Add one mana of any color.
+DeckHints:Type$Expeditioner
 [RelatedTokens]
 c_a_lumina
 [Artist]

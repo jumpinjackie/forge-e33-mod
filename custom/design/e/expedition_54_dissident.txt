@@ -21,6 +21,7 @@ Lumière operates a certain way. It favors a certain group and a certain outcome
 [ForgeScript]
 A:AB$ ChangeZone | Cost$ 4 T | Origin$ Library | Destination$ Battlefield | ChangeType$ Permanent.Rebel+cmcLE3,Permanent.Expeditioner+cmcLE3 | SpellDescription$ Search your library for a Rebel or Expeditioner permanent card with mana value 3 or less, put it onto the battlefield, then shuffle.
 $EXPEDITIONER_DEATH_ABILITY
+DeckHints:Type$Expeditioner|Rebel
 [Artist]
 Google Gemini
 [DesignNotes]

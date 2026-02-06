@@ -21,6 +21,7 @@ T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.S
 SVar:TrigToken:DB$ Token | TokenAmount$ 1 | TokenOwner$ You | TokenScript$ c_a_lumina
 A:AB$ Tap | Cost$ tapXType<1/Creature> | ValidTgts$ Artifact,Creature | TgtPrompt$ Select target artifact or creature | SpellDescription$ Tap target artifact or creature.
 A:AB$ Tap | Cost$ tapXType<1/Expeditioner> | ValidTgts$ Land | TgtPrompt$ Select target land | SpellDescription$ Tap target land.
+SVar:NonStackingEffect:True
 [RelatedTokens]
 c_a_lumina
 [DraftScore]

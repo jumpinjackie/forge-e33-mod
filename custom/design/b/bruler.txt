@@ -18,6 +18,7 @@ $NEVRON_DEATH_ABILITY_TEXT
 [ForgeScript]
 $NEVRON_DEATH_ABILITY
 S:Mode$ Continuous | Affected$ Card.Self | AddPower$ 2 | AddToughness$ 2 | AddKeyword$ Ward:2 | IsPresent$ Creature.YouCtrl+namedCruler | Description$ This creature gets +2/+2 and Ward 2 if you control a creature named Cruler.
+DeckHints:Name$Cruler
 [DesignNotes]
  - In the game, Bruler is generally in a party with Cruler. Thus I've gone with giving Bruler a buff if you also control Cruler
  - 13/10/2025: Removed Devoid.

@@ -5,4 +5,5 @@ PT:1/2
 T:Mode$ Attacks | ValidCard$ Card.Self | Execute$ TrigPump | TriggerDescription$ Whenever CARDNAME attacks, it gets +2/+0 until end of turn for each other attacking Gestral.
 SVar:TrigPump:DB$ Pump | Defined$ Self | NumAtt$ +X
 SVar:X:Count$Valid Gestral.attacking+Other/Times.2
+DeckHints:Type$Gestral
 Oracle:Whenever this creature attacks, it gets +2/+0 until end of turn for each other attacking Gestral.
