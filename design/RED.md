@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 5/2/2026 11:30:16 am
+> Last generated: 6/2/2026 11:23:12 am
 
 ## Anger
 
@@ -195,6 +195,7 @@ People who say "paper beats rock" have never used explosives!
 Kindred Instant - Expeditioner
 Target creature gains double strike until end of turn. (It deals both first-strike and regular combat damage.)
 Create a Lumina token. (It's an artifact with "{T}, Sacrifice this artifact: Scry 1.")
+Foretell {R} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)
 ---
 Lady luck smiled today!
 ```
@@ -206,6 +207,7 @@ Lady luck smiled today!
  - In the game, this is Sciel's ability that grants double-damage to one of her allies.
  - Easy mechanical map to double-strike
  - 18/10/2025: Added lumina bonus
+ - 6/02/2026: Added Foretell to increase cards in set with Foretell and add more mystery to what a Foretold card could be.
 
 ## Gestral Bazaar
 

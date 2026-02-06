@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 5/2/2026 2:47:38 pm
+> Last generated: 6/2/2026 11:23:12 am
 
 ## A Storm is Coming
 
@@ -1010,6 +1010,7 @@ UB
 Kindred Sorcery - Expeditioner
 Destroy target creature or planeswalker. Mill cards equal to its mana value.
 Luminous — If you control three or more Lumina tokens, put a card from among those cards into your hand.
+Foretell {U}{B} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)
 ---
 The cards have spoken!
 ```
@@ -1022,6 +1023,7 @@ The cards have spoken!
  - Design-wise fully leaned in on the pun and based it around using "your deck" to take out any creature, if you can afford to mill the number of cards required.
  - Mild thematic mismatch as blue is not really part of Sciel's color identity or skillset IMO, but the milling and returning cards to hand from graveyard is in blue's wheelhouse.
  - 14/01/2025: Allow targeting planeswalkers and mill by targeted's mana value.
+ - 6/02/2026: Added Foretell to increase cards in set with Foretell and add more mystery to what a Foretold card could be.
 
 ## Gargant
 

@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 5/2/2026 12:07:08 pm
+> Last generated: 6/2/2026 11:23:12 am
 
 ## A Life to Love (Farewell)
 
@@ -61,6 +61,7 @@ Creatures you control get +0/+2 until end of turn.
 If {R} was spent on this spell, creatures you control gain haste until end of turn.
 If {G} was spent on this spell, creatures you control get +2/+0 until end of turn.
 Create a Lumina token. (It's an artifact with "{T}, Sacrifice this artifact: Scry 1.")
+Foretell {2}{W}
 ```
 
 [card implementation](../custom/cards/a/all_set.txt)
@@ -70,6 +71,7 @@ Create a Lumina token. (It's an artifact with "{T}, Sacrifice this artifact: Scr
  - In the game, All Set is one of Sciel's abilities. It grants Shell, Powerful and Rush to your entire party.
  - Mapped to an instant that grants toughness boost (Shell), with haste (Rush) and power boost (Powerful) if the appropriate colors of mana are spent.
  - 14/01/2026: Added Lumina token bonus on resolution.
+ - 6/02/2026: Added Foretell to increase cards in set with Foretell and add more mystery to what a Foretold card could be.
 
 ## Amandine, Fashion Stylist
 
@@ -399,6 +401,7 @@ Please survive!
 Instant
 Target creature can’t be blocked this turn.
 Draw a card.
+Foretell {W} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)
 ```
 
 [card implementation](../custom/cards/l/light_the_path.txt)
@@ -406,6 +409,7 @@ Draw a card.
 ### Design Notes
 
  - Inspired by a screenshot I captured from a DLC run in Stone Wave Cliffs
+ - 6/02/2026: Added Foretell to increase cards in set with Foretell and add more mystery to what a Foretold card could be.
 
 ## Lumière Assault
 
@@ -475,6 +479,7 @@ Luminous — Draw a card if you control at least three Lumina tokens.
 Kindred Instant - Expeditioner
 Untap target creature you control. It gains hexproof until end of turn.
 Luminous — Draw a card if you control at least three Lumina tokens.
+Foretell {W} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)
 ---
 Your turn to shine!
 ```
@@ -486,6 +491,7 @@ Your turn to shine!
  - In the game, Intervention is Sciel's ability that lets an ally take their turn immediately along with an AP boost
  - Mechanically, we've mapped "granting extra turns" to untapping creatures. Nothing approximates an "AP boost" for creatures, so we've given it a granting of hexproof.
  - This has the name of "Sciel's Intervention" as "Intervention" on its own is too generic has a risk of being "name-squatted" by an actual card from Wizards in the future.
+ - 6/02/2026: Added Foretell to increase cards in set with Foretell and add more mystery to what a Foretold card could be.
 
 ## Second Thoughts
 
