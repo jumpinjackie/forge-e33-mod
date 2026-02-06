@@ -14,7 +14,7 @@ true
 [Rarity]
 C
 [Artist]
-Lucas Graciano
+Sandfall Interactive
 [Tags]
 creature-removal
 [DesignNotes]
