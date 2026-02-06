@@ -16,6 +16,6 @@ true
 [Rarity]
 U
 [Artist]
-Raf Sarmento
+Google Gemini
 [DesignNotes]
  - Obligatory spot removal in Commander

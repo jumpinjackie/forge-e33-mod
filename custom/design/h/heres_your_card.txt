@@ -9,7 +9,7 @@ Expeditioner
 [Rarity]
 C
 [Artist]
-Sandfall Interactive
+Google Gemini
 [ArtNotes]
 Sciel flinging a tarot-style card towards the camera at high speed.
 [Oracle]

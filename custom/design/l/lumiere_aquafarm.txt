@@ -9,7 +9,7 @@ Land
 [Rarity]
 R
 [Artist]
-Sandfall Interactive
+Google Gemini
 [ArtNotes]
 An aquatic farm. The city of Lumière is in the background.
 [Oracle]

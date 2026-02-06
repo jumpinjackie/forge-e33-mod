@@ -18,6 +18,8 @@ Sandfall Interactive
 [FlavorText]
 I’ve always loved the harbor.
 - Sophie
+[Tags]
+nonbasic-hate
 [DesignNotes]
  - In the game, the harbor of Lumière is where the population congregate to witness the yearly Gommage.
  - Easy nicknamed reprint of Rishadan Port. Due to the heavy ratio of non-basic lands in this set, we need anything that can check them.
