@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 6/2/2026 11:47:24 am
+> Last generated: 6/2/2026 11:51:12 am
 
 ## A Storm is Coming
 
@@ -2108,6 +2108,7 @@ Death is a friend who will welcome me home
 Enchantment
 When this enchantment enters, draw a card.
 Sacrifice this enchantment: The next historic spell you cast costs {1} less to cast. (Artifacts, legendaries, and Sagas are historic.)
+Foretell {1}{W/U} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)
 ```
 
 [card implementation](../custom/cards/s/seal_of_approval.txt)
