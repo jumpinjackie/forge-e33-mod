@@ -4312,11 +4312,11 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Creatures you control get +0/+2 until end of turn.\nIf {R} was spent on this spell, creatures you control gain haste until end of turn.\nIf {G} was spent on this spell, creatures you control get +2/+0 until end of turn.\nCreate a Lumina token. (It’s an artifact with “{T}, Sacrifice this artifact: Scry 1.”)",
+                    "text": "Creatures you control get +0/+2 until end of turn.\nIf {R} was spent on this spell, creatures you control gain haste until end of turn.\nIf {G} was spent on this spell, creatures you control get +2/+0 until end of turn.\nCreate a Lumina token. (It’s an artifact with “{T}, Sacrifice this artifact: Scry 1.”)\nForetell {2}{W}",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
-                    "height": 0.27398720682302774,
+                    "height": 0.2874911158493248,
                     "size": 0.0362
                 },
                 "pt": {
@@ -58091,7 +58091,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Target creature gains double strike until end of turn. (It deals both first-strike and regular combat damage.)\nCreate a Lumina token. (It’s an artifact with “{T}, Sacrifice this artifact: Scry 1.”){flavor}Lady luck smiled today!",
+                    "text": "Target creature gains double strike until end of turn. (It deals both first-strike and regular combat damage.)\nCreate a Lumina token. (It’s an artifact with “{T}, Sacrifice this artifact: Scry 1.”)\nForetell {R} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.){flavor}Lady luck smiled today!",
                     "x": 0.086,
                     "y": 0.6325515280739161,
                     "width": 0.828,
@@ -59292,7 +59292,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Destroy target creature or planeswalker. Mill cards equal to its mana value.\n{i}Luminous{/i} — If you control three or more Lumina tokens, put a card from among those cards into your hand.{flavor}The cards have spoken!",
+                    "text": "Destroy target creature or planeswalker. Mill cards equal to its mana value.\n{i}Luminous{/i} — If you control three or more Lumina tokens, put a card from among those cards into your hand.\nForetell {U}{B} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.){flavor}The cards have spoken!",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
@@ -82473,7 +82473,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Target creature can’t be blocked this turn.\nDraw a card.",
+                    "text": "Target creature can’t be blocked this turn.\nDraw a card.\nForetell {W} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
@@ -110068,7 +110068,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Flying, First Strike\nWhen this creature dies, target opponent creates a Lumina token. (It’s an artifact with “{T}, Sacrifice this artifact: Scry 1.”)",
+                    "text": "Flying, first strike\nWhen this creature dies, target opponent creates a Lumina token. (It’s an artifact with “{T}, Sacrifice this artifact: Scry 1.”)",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
@@ -110093,7 +110093,12 @@
             "infoSet": "E33",
             "infoLanguage": "EN",
             "infoArtist": "Sandfall Interactive",
-            "infoNote": "Proxy, Not for Sale"
+            "infoNote": "Proxy, Not for Sale",
+            "serialNumber": "",
+            "serialTotal": "",
+            "serialX": "",
+            "serialY": "",
+            "serialScale": ""
         }
     },
     {
@@ -115786,7 +115791,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Untap target creature you control. It gains hexproof until end of turn.\n{i}Luminous{/i} — Draw a card if you control at least three Lumina tokens.{flavor}Your turn to shine!",
+                    "text": "Untap target creature you control. It gains hexproof until end of turn.\n{i}Luminous{/i} — Draw a card if you control at least three Lumina tokens.\nForetell {W} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.){flavor}Your turn to shine!",
                     "x": 0.086,
                     "y": 0.6325515280739161,
                     "width": 0.828,
@@ -129454,7 +129459,7 @@
             "infoRarity": "C",
             "infoSet": "E33",
             "infoLanguage": "EN",
-            "infoArtist": "Lucas Graciano",
+            "infoArtist": "Sandfall Interactive",
             "infoNote": "Proxy, Not for Sale",
             "serialNumber": "",
             "serialTotal": "",

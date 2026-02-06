@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 6/2/2026 11:23:12 am
+> Last generated: 6/2/2026 11:47:24 am
 
 ## A Storm is Coming
 
@@ -2036,7 +2036,7 @@ Choose one —
 ```
 WB
 Creature - Nevron
-Flying, First Strike
+Flying, first strike
 When this creature dies, target opponent creates a Lumina token. (It's an artifact with "{T}, Sacrifice this artifact: Scry 1.")
 
 2/2
