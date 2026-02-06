@@ -134,7 +134,7 @@ Type=Custom
 155 C Expedition Festival @Sandfall Interactive
 156 U Expedition Flag @Sandfall Interactive
 157 U Expedition Flotilla @Sandfall Interactive
-158 U Expedition Journal @Sandfall Interactive DeckHints:Type$Saga
+158 U Expedition Journal @Sandfall Interactive
 160 U Expedition Recruiter @Sandfall Interactive
 161 C Expeditioner Uniform @Sandfall Interactive
 162 C Face Adversity @Sandfall Interactive
