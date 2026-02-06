@@ -1,8 +1,9 @@
 Name:Sciel's Intervention
 ManaCost:1 W
 Types:Kindred Instant Expeditioner
+K:Foretell:W
 A:SP$ Untap | ValidTgts$ Creature.YouCtrl | TgtPrompt$ Select target creature you control | SubAbility$ DBGrantHexproof | SpellDescription$ Untap target creature you control. It gains hexproof until end of turn.
 SVar:DBGrantHexproof:DB$ Pump | Defined$ Targeted | KW$ Hexproof | SubAbility$ TrigDraw | SpellDescription$ Untap target creature you control. It gains hexproof until end of turn.
 SVar:TrigDraw:DB$ Draw | NumCards$ 1 | ConditionCheckSVar$ Y | ConditionSVarCompare$ GE3 | SpellDescription$ Draw a card if you control at least three Lumina tokens.
 SVar:Y:Count$Valid Lumina.YouCtrl
-Oracle:Untap target creature you control. It gains hexproof until end of turn.\nLuminous — Draw a card if you control at least three Lumina tokens.
+Oracle:Untap target creature you control. It gains hexproof until end of turn.\nLuminous — Draw a card if you control at least three Lumina tokens.\nForetell {W} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)

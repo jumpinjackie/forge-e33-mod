@@ -1,10 +1,11 @@
 Name:Full Deck
 ManaCost:U B
 Types:Kindred Sorcery Expeditioner
+K:Foretell:U B
 A:SP$ Destroy | ValidTgts$ Creature,Planeswalker | TgtPrompt$ Select target creature or planeswalker | SubAbility$ DBMill | SpellDescription$ Destroy target creature or planeswalker.
 SVar:DBMill:DB$ Mill | Defined$ You | NumCards$ X | RememberMilled$ True | SubAbility$ DBRecover
 SVar:DBRecover:DB$ ChangeZone | ConditionCheckSVar$ Y | ConditionSVarCompare$ GE3 | Hidden$ True | Origin$ Graveyard,Exile | Destination$ Hand | ChangeType$ Card.IsRemembered | SelectPrompt$ You may put a card from among them into your hand | SubAbility$ DBCleanup
 SVar:DBCleanup:DB$ Cleanup | ClearRemembered$ True
 SVar:X:Targeted$CardManaCost
 SVar:Y:Count$Valid Lumina.YouCtrl
-Oracle:Destroy target creature or planeswalker. Mill cards equal to its mana value.\nLuminous — If you control three or more Lumina tokens, put a card from among those cards into your hand.
+Oracle:Destroy target creature or planeswalker. Mill cards equal to its mana value.\nLuminous — If you control three or more Lumina tokens, put a card from among those cards into your hand.\nForetell {U}{B} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)

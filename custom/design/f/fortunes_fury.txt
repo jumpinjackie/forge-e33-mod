@@ -14,9 +14,11 @@ Sandfall Interactive
 [Oracle]
 Target creature gains double strike until end of turn. (It deals both first-strike and regular combat damage.)
 Create a Lumina token. $LUMINA_REMINDER_TEXT
+Foretell {R} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)
 [FlavorText]
 Lady luck smiled today!
 [ForgeScript]
+K:Foretell:R
 A:SP$ Pump | ValidTgts$ Creature | TgtPrompt$ Select target creature | KW$ Double Strike | SubAbility$ DBToken | SpellDescription$ Target creature gains double strike until end of turn.
 SVar:DBToken:DB$ Token | TokenAmount$ 1 | TokenOwner$ You | TokenScript$ c_a_lumina
 [RelatedTokens]
@@ -28,3 +30,4 @@ lumina-generator
  - In the game, this is Sciel's ability that grants double-damage to one of her allies.
  - Easy mechanical map to double-strike
  - 18/10/2025: Added lumina bonus
+ - 6/02/2026: Added Foretell to increase cards in set with Foretell and add more mystery to what a Foretold card could be.

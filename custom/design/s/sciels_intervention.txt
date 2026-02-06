@@ -16,11 +16,13 @@ Sciel summons a protective barrier on Maelle, that deflects an energy blast that
 [Oracle]
 Untap target creature you control. It gains hexproof until end of turn.
 Luminous — Draw a card if you control at least three Lumina tokens.
+Foretell {W} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)
 [AbilityWords]
 Luminous
 [FlavorText]
 Your turn to shine!
 [ForgeScript]
+K:Foretell:W
 A:SP$ Untap | ValidTgts$ Creature.YouCtrl | TgtPrompt$ Select target creature you control | SubAbility$ DBGrantHexproof | SpellDescription$ Untap target creature you control. It gains hexproof until end of turn.
 SVar:DBGrantHexproof:DB$ Pump | Defined$ Targeted | KW$ Hexproof | SubAbility$ TrigDraw | SpellDescription$ Untap target creature you control. It gains hexproof until end of turn.
 SVar:TrigDraw:DB$ Draw | NumCards$ 1 | ConditionCheckSVar$ Y | ConditionSVarCompare$ GE3 | SpellDescription$ Draw a card if you control at least three Lumina tokens.
@@ -32,3 +34,4 @@ combat-trick
  - In the game, Intervention is Sciel's ability that lets an ally take their turn immediately along with an AP boost
  - Mechanically, we've mapped "granting extra turns" to untapping creatures. Nothing approximates an "AP boost" for creatures, so we've given it a granting of hexproof.
  - This has the name of "Sciel's Intervention" as "Intervention" on its own is too generic has a risk of being "name-squatted" by an actual card from Wizards in the future.
+ - 6/02/2026: Added Foretell to increase cards in set with Foretell and add more mystery to what a Foretold card could be.

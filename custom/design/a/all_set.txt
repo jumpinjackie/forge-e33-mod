@@ -14,7 +14,9 @@ Creatures you control get +0/+2 until end of turn.
 If {R} was spent on this spell, creatures you control gain haste until end of turn.
 If {G} was spent on this spell, creatures you control get +2/+0 until end of turn.
 Create a Lumina token. $LUMINA_REMINDER_TEXT
+Foretell {2}{W}
 [ForgeScript]
+K:Foretell:2 W
 A:SP$ PumpAll | ValidCards$ Creature.YouCtrl | NumDef$ +2 | SubAbility$ DBHaste | SpellDescription$ Creatures you control get +0/+2 until end of turn.
 SVar:DBHaste:DB$ PumpAll | ValidCards$ Creature.YouCtrl | KW$ Haste | ConditionManaSpent$ R | SubAbility$ DBPower | SpellDescription$ If {R} was spent on this spell, creatures you control gain haste until end of turn.
 SVar:DBPower:DB$ PumpAll | ValidCards$ Creature.YouCtrl | NumAtt$ +2 | ConditionManaSpent$ G | SubAbility$ DBToken | SpellDescription$ If {G} was spent on this spell, creatures you control get +2/+0 until end of turn.
@@ -30,3 +32,4 @@ lumina-generator
  - In the game, All Set is one of Sciel's abilities. It grants Shell, Powerful and Rush to your entire party.
  - Mapped to an instant that grants toughness boost (Shell), with haste (Rush) and power boost (Powerful) if the appropriate colors of mana are spent.
  - 14/01/2026: Added Lumina token bonus on resolution.
+ - 6/02/2026: Added Foretell to increase cards in set with Foretell and add more mystery to what a Foretold card could be.
