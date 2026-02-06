@@ -2,7 +2,7 @@ Name:Portier
 ManaCost:2 G
 Types:Creature Nevron
 PT:3/3
-A:AB$ Pump | Cost$ 1 G | Defined$ Self | KW$ Reach
+A:AB$ Pump | Cost$ 1 G | Defined$ Self | KW$ Reach | SpellDescription$ CARDNAME gains Reach until end of turn.
 T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Card.Self | Execute$ TrigToken | TriggerDescription$ When this creature dies, target opponent creates a Lumina token.
 SVar:TrigToken:DB$ Token | TokenAmount$ 1 | ValidTgts$ Opponent | TokenOwner$ Targeted | TokenScript$ c_a_lumina
 Oracle:Jumps — {1}{G}: This creature gains Reach until end of turn.\nWhen this creature dies, target opponent creates a Lumina token. (It's an artifact with "{T}, Sacrifice this artifact: Scry 1.")

@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 5/2/2026 2:59:01 pm
+> Last generated: 6/2/2026 3:15:45 pm
 
 ## A Rock for François
 
@@ -893,7 +893,7 @@ Did I mention the prize is a powerful weapon? So, how about it?
 2
 Legendary Artifact Creature - Gestral Bard
 At the beginning of your upkeep, you may put a verse counter on Lorieniso.
-{2}, {T}: Search your library for a creature card with mana value X or less and put it into your hand, where X is the number of verse counters on this creature.
+{2}, {T}: Search your library for a creature card with mana value X or less and put it into your hand, where X is the number of verse counters on Lorieniso.
 
 1/3
 ```
@@ -906,6 +906,7 @@ At the beginning of your upkeep, you may put a verse counter on Lorieniso.
  - This is the Gestral's Goblin Matron / Gestral Tutor. Adapted from Yisan, the Wanderer Bard
  - 20/09/2025: Initial playtesting shows this is quite broken in multiples. Made into a legendary creature and changed P/T to 1/3
  - 21/01/2026: Fix oracle text so that it is searching for *creature* cards.
+ - 7/02/2026: Fixed self-reference in oracle text.
 
 ## Lost Gestral
 

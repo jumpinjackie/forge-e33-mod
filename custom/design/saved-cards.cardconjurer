@@ -83425,7 +83425,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "At the beginning of your upkeep, you may put a verse counter on Lorieniso.\n{2}, {T}: Search your library for a creature card with mana value X or less and put it into your hand, where X is the number of verse counters on this creature.",
+                    "text": "At the beginning of your upkeep, you may put a verse counter on Lorieniso.\n{2}, {T}: Search your library for a creature card with mana value X or less and put it into your hand, where X is the number of verse counters on Lorieniso.",
                     "x": 0.086,
                     "y": 0.6325515280739161,
                     "width": 0.8263681592039801,

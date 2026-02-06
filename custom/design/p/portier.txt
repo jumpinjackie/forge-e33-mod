@@ -14,7 +14,7 @@ C
 Jumps — {1}{G}: ~ gains Reach until end of turn.
 $NEVRON_DEATH_ABILITY_TEXT
 [ForgeScript]
-A:AB$ Pump | Cost$ 1 G | Defined$ Self | KW$ Reach
+A:AB$ Pump | Cost$ 1 G | Defined$ Self | KW$ Reach | SpellDescription$ ~ gains Reach until end of turn.
 $NEVRON_DEATH_ABILITY
 [Artist]
 Sandfall Interactive
