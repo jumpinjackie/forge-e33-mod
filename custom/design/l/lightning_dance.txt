@@ -33,5 +33,6 @@ SVar:X:Count$Valid Lumina.YouCtrl
 [Tags]
 luminous
 creature-removal
+planeswalker-removal
 [DesignNotes]
  - Just Cone of Flame made {1} cheaper and Expeditioner aligned

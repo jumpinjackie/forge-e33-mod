@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 6/2/2026 11:23:12 am
+> Last generated: 7/2/2026 6:32:46 am
 
 ## Anger
 
@@ -415,7 +415,7 @@ Try to counter this, worm.
 ```
 1R
 Creature - Human Expeditioner Soldier
-Mutiny! - Whenever another Expeditioner creature you control dies, target opponent gains control of this creature.
+Mutiny! — Whenever another Expeditioner creature you control dies, target opponent gains control of this creature.
 When this creature dies, create a Chroma token.
 ---
 It's a gutting realization, what has to be done. The mission is too important. The team is too important. We can't just throw our lives away for nothing. I hate that it came to this, but he broke our trust.

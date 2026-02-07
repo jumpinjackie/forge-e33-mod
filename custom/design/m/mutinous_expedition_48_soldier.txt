@@ -15,7 +15,7 @@ Google Gemini
 [PT]
 3/3
 [Oracle]
-Mutiny! - Whenever another Expeditioner creature you control dies, target opponent gains control of this creature.
+Mutiny! — Whenever another Expeditioner creature you control dies, target opponent gains control of this creature.
 When this creature dies, create a Chroma token.
 [AbilityWords]
 Mutiny!

@@ -96827,7 +96827,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "{i}Mutiny!{/i} - Whenever another Expeditioner creature you control dies, target opponent gains control of this creature.\nWhen this creature dies, create a Chroma token.{flavor}It’s a gutting realization, what has to be done. The mission is too important. The team is too important. We can’t just throw our lives away for nothing. I hate that it came to this, but he broke our trust.\n- Vincent, Expedition 48",
+                    "text": "{i}Mutiny!{/i} — Whenever another Expeditioner creature you control dies, target opponent gains control of this creature.\nWhen this creature dies, create a Chroma token.{flavor}It’s a gutting realization, what has to be done. The mission is too important. The team is too important. We can’t just throw our lives away for nothing. I hate that it came to this, but he broke our trust.\n- Vincent, Expedition 48",
                     "x": 0.086,
                     "y": 0.6325515280739161,
                     "width": 0.828,
@@ -113622,7 +113622,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Kicker — {2}, Exert a tapped creature you control.\nRock Throw deals 2 damage to target creature. If this spell was kicked, Rock Throw deals 4 damage instead.{flavor}Have you tried throwing with your other arm instead? If you could hit the Paintress directly that would be useful.\n- Maelle",
+                    "text": "Kicker — {2}, Tap an untapped creature you control.\nRock Throw deals 2 damage to target creature. If this spell was kicked, Rock Throw deals 4 damage instead.{flavor}Have you tried throwing with your other arm instead? If you could hit the Paintress directly that would be useful.\n- Maelle",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
@@ -130323,7 +130323,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "{i}Picto Reinforcement{/i} — {2}{U}, {T}: Create two Lumina tokens.\n{i}Upgrades your weapons{/i} — {2}{WG}, {T}: Distribute two +1/+1 counters among one or two target creatures.\n{i}Latent skill activation{/i} — {3}{B}, {T}, Exert a tapped Expeditioner creature you control: Destroy target creature.\nWhen The Curator dies, return it to the battlefield transformed under it’s owner’s control.{flavor}Lune: What is he?\nMaelle: I’m not sure, he doesn’t really talk.",
+                    "text": "{i}Picto Reinforcement{/i} — {2}{U}, {T}: Create two Lumina tokens.\n{i}Upgrades your weapons{/i} — {2}{WG}, {T}: Distribute two +1/+1 counters among one or two target creatures.\n{i}Latent skill activation{/i} — {3}{B}, {T}, Tap an untapped Expeditioner creature you control: Destroy target creature.\nWhen The Curator dies, return it to the battlefield transformed under it’s owner’s control.{flavor}Lune: What is he?\nMaelle: I’m not sure, he doesn’t really talk.",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,

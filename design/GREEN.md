@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 6/2/2026 11:47:24 am
+> Last generated: 7/2/2026 6:52:20 am
 
 ## Abbest
 
@@ -591,7 +591,7 @@ Luminous — If you control three or more Lumina tokens, also return up to one t
 ```
 G
 Instant
-Kicker — {2}, Exert a tapped creature you control.
+Kicker — {2}, Tap an untapped creature you control.
 Rock Throw deals 2 damage to target creature. If this spell was kicked, Rock Throw deals 4 damage instead.
 ---
 Have you tried throwing with your other arm instead? If you could hit the Paintress directly that would be useful.
@@ -605,6 +605,7 @@ Have you tried throwing with your other arm instead? If you could hit the Paintr
  - In the game, Gustave has a penchant for throwing rocks.
  - To give green some bones in spot removal for draft/limited, this is a shock for creatures that can be upgraded in damage.
  - 1/1/2026: Fixed the kicker to exert a tapped creature as exert does not tap the creature as part of the exerting. I don't believe Forge supports a "tap and exert" action, so this is the closest thing.
+ - 7/02/2026: Changed kicker to just tap an untapped creature. Exerting an already tapped creature is weird from a templating perspective, even though it works in Forge.
 
 ## Sapling
 

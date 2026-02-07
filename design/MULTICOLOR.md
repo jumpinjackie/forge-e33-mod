@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 6/2/2026 12:07:39 pm
+> Last generated: 7/2/2026 7:13:27 am
 
 ## A Storm is Coming
 
@@ -2304,7 +2304,7 @@ Stendhal deals 33 damage to target creature or planeswalker.
 Legendary Creature - Painter Spirit
 Picto Reinforcement — {2}{U}, {T}: Create two Lumina tokens.
 Upgrades your weapons — {2}{G/W}, {T}: Distribute two +1/+1 counters among one or two target creatures.
-Latent skill activation — {3}{B}, {T}, Exert a tapped Expeditioner creature you control: Destroy target creature.
+Latent skill activation — {3}{B}, {T}, Tap an untapped Expeditioner creature you control: Destroy target creature.
 When The Curator dies, return it to the battlefield transformed under it’s owner’s control.
 
 4/5
@@ -2334,6 +2334,7 @@ Whenever a Nevron you control dies, draw a card and each opponent discards a car
  - In terms of Planeswalker design it revolves around the Nevron/Painter alliance and abilities that benefit them both.
  - 29/11/2025: Mana costs adjusted so that he can be a 5c Nevron commander.
  - 25/01/2026: Tweaked exert wording/cost to exert a tapped Expeditioner creature you control. Although 701.39b states that a permanent can be exerted even if it's not tapped, this does nothing for us in terms of gameplay and flavor.
+ - 7/02/2026: Dropped exert requirement so Latent Skill Activation is now just tapping an untapped Expeditioner creature you control. Even though exerting an already tapped creature work in Forge, it is just plain awkward and exerting adds extra mental burden (to remember to not untap) on paper.
 
 ## The Fate of the Canvas
 
