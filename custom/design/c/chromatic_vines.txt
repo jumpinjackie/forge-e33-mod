@@ -14,6 +14,8 @@ Sandfall Interactive
 Enchant Land
 When this Aura enters, draw a card.
 Enchanted land does not untap during its controller’s untap step.
+[FlavorText]
+Even in an artificial painted world, nature finds a way.
 [ForgeScript]
 K:Enchant:Land
 T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigDraw | TriggerDescription$ When CARDNAME enters, draw a card.

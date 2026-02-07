@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 7/2/2026 7:13:27 am
+> Last generated: 7/2/2026 7:33:35 am
 
 ## A Storm is Coming
 
@@ -281,6 +281,8 @@ Enchantment - Aura
 Enchant Land
 When this Aura enters, draw a card.
 Enchanted land does not untap during its controller’s untap step.
+---
+Even in an artificial painted world, nature finds a way.
 ```
 
 [card implementation](../custom/cards/c/chromatic_vines.txt)
