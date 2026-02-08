@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 5/2/2026 12:17:22 pm
+> Last generated: 8/2/2026 1:26:53 pm
 
 ## An Advantage!
 
@@ -491,7 +491,7 @@ When this creature dies, target opponent creates a Lumina token. (It's an artifa
 ```
 3U
 Artifact Creature - Gestral Construct
-When this creature enters, create a blue Aura enchantment token named Barbapapa attached to another target creature. The token has enchant creature and “Enchanted creature has base power 1. When enchanted creature deals combat damage, sacrifice this Aura.”
+When this creature enters, you may create a blue Aura enchantment token named Barbapapa attached to another target creature. The token has enchant creature and “Enchanted creature has base power 1. When enchanted creature deals combat damage, sacrifice this Aura.”
 {U}: Put a flying counter on this creature.
 Flies to attack — {T}, Remove a flying counter from this creature, Sacrifice this creature: It deals 3 damage to target attacking or blocking creature.
 At the beginning of each end step, remove all flying counters on this creature.

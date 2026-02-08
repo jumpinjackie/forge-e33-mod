@@ -81844,7 +81844,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Trample, Double strike\nWhen this creature enters, create a blue Aura enchantment token named Barbapapa attached to another target creature. The token has enchant creature and “Enchanted creature has base power 1. When enchanted creature deals combat damage, sacrifice this Aura.”\n{U}: Put a flying counter on Licornapieds\n{i}Flies to attack{/i} — {4}{R}, {T}, Remove a flying counter from Licornapieds: It deals 4 damage to target creature.\nAt the beginning of each end step, remove all flying counters on Licornapieds.",
+                    "text": "Trample, double strike\nWhen this creature enters, create a blue Aura enchantment token named Barbapapa attached to another target creature. The token has enchant creature and “Enchanted creature has base power 1. When enchanted creature deals combat damage, sacrifice this Aura.”\n{U}: Put a flying counter on Licornapieds\n{i}Flies to attack{/i} — {4}{R}, {T}, Remove a flying counter from Licornapieds: It deals 4 damage to target creature.\nAt the beginning of each end step, remove all flying counters on Licornapieds.",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,

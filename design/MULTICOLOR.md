@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 7/2/2026 7:33:35 am
+> Last generated: 8/2/2026 1:27:31 pm
 
 ## A Storm is Coming
 
@@ -95,7 +95,7 @@ Aline, you’re going to kill yourself! It’s too soon for you to return to any
 ```
 2GU
 Creature - Grandis
-Not happy — When this creature enters, create a blue Aura enchantment token named Barbapapa attached to another target creature. The token has enchant creature and “Enchanted creature has base power 1. When enchanted creature deals combat damage, sacrifice this Aura.”
+Not happy — When this creature enters, you may create a blue Aura enchantment token named Barbapapa attached to another target creature. The token has enchant creature and “Enchanted creature has base power 1. When enchanted creature deals combat damage, sacrifice this Aura.”
 Lollipop attack — This creature gets +1/+1 as long as you control at least two Foods.
 Summons flying candy — Sacrifice a Food: This creature deals 2 damage to target creature with flying.
 Candy shields — Sacrifice a Food: Put a shield counter on this creature.
@@ -1476,8 +1476,8 @@ Exile target nonland permanent.
 ```
 3UR
 Legendary Artifact Creature - Gestral Turtle Construct
-Trample, Double strike
-When this creature enters, create a blue Aura enchantment token named Barbapapa attached to another target creature. The token has enchant creature and “Enchanted creature has base power 1. When enchanted creature deals combat damage, sacrifice this Aura.”
+Trample, double strike
+When this creature enters, you may create a blue Aura enchantment token named Barbapapa attached to another target creature. The token has enchant creature and “Enchanted creature has base power 1. When enchanted creature deals combat damage, sacrifice this Aura.”
 {U}: Put a flying counter on Licornapieds
 Flies to attack — {4}{R}, {T}, Remove a flying counter from Licornapieds: It deals 4 damage to target creature.
 At the beginning of each end step, remove all flying counters on Licornapieds.
@@ -1497,7 +1497,7 @@ At the beginning of each end step, remove all flying counters on Licornapieds.
 ```
 2UR
 Creature - Turtle
-When this creature enters, create a blue Aura enchantment token named Barbapapa attached to another target creature. The token has enchant creature and “Enchanted creature has base power 1. When enchanted creature deals combat damage, sacrifice this Aura.”
+When this creature enters, you may create a blue Aura enchantment token named Barbapapa attached to another target creature. The token has enchant creature and “Enchanted creature has base power 1. When enchanted creature deals combat damage, sacrifice this Aura.”
 Rainbow arc beams - {1}{R}, {T}: This creature deals 1 damage to target creature.
 
 1/4

@@ -303,7 +303,7 @@ Type=Custom
 350 C Seal of Approval @Sandfall Interactive
 353 R Serpenphare @Sandfall Interactive
 356 R Shot Picto @Sandfall Interactive
-357 U Shrine Destruction @
+357 U Shrine Destruction @Sandfall Interactive
 358 U Shrine to The Paintress @Sandfall Interactive
 359 C Sibling Overwatch @Sandfall Interactive
 360 M Simon, Consort of Clea @Sandfall Interactive
