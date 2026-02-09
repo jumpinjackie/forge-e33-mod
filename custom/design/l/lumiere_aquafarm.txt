@@ -27,6 +27,8 @@ SVar:LandTapped:DB$ Tap | Defined$ Self | ETB$ True | ConditionPresent$ Expediti
 c_a_food_sac
 [Tags]
 mana-fixer
+[Rulings]
+ - Counts non-creatures Expeditioners as well.
 [DesignNotes]
  - In the game, Gustave lead the Aquafarm project which ensured the food supply for the city of Lumière.
  - This gives us an opportunity to add another dual land to this set.

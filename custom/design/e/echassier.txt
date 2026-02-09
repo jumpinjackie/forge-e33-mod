@@ -37,6 +37,9 @@ $NEVRON_DEATH_ABILITY
 80
 [Tags]
 nonbasic-hate
+[Rulings]
+ - A land with a blighted counter only gets destroyed when tapped if an instance of Échassier is on the battlefield. If there are no instances, the land is not destroyed when tapped.
+ - A creature with a blighted counter only has base toughness 1 if an instance of Échassier is on the battlefield. If there are no instances, the creature has its originally printed toughness.
 [DesignNotes]
  - In the game, Échassiers are found in The Reacher and Renoir's Drafts.
  - Mapped the "Double the blight & Heals allies" ability to 1 toughness setting and life gain.

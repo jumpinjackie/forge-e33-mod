@@ -25,6 +25,8 @@ S:Mode$ Continuous | Affected$ Card.Self+!modified | AddPower$ 2 | AddToughness$
 $EXPEDITIONER_DEATH_ABILITY
 [Artist]
 Google Gemini
+[Rulings]
+ - The clue token trigger happens on *any* act of leaving the battlefield and not just death. Bounce, exile, etc, will trigger it.
 [DesignNotes]
  - Depicts the member of the gigachad expedition that almost made it back to Lumière to relay the message about the true enemy.
  - The clue token left behind represents the expedition journal.

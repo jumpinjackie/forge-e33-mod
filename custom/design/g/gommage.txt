@@ -25,6 +25,9 @@ SVar:X:Count$xPaid
 creature-removal
 artifact-removal
 enchantment-removal
+[Rulings]
+ - You must target the exact number of nonland permanents indicated by X. Each target must meet the mana value criteria.
+ - You cannot target the same nonland permanent more than once.
 [DesignNotes]
  - In the game, the Gommage is a yearly event where people above a certain age (indicated on the Monolith) are erased from existence. It is also a gradient attack power that Maelle gains in the late game that can deal extreme singular damage.
  - Mechanically, this is easily a mass exile effect. It spares legendaries and Nevrons as this event only affects the humans of the continent.

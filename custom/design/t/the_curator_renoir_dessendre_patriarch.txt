@@ -70,6 +70,8 @@ A:AB$ ChangeZoneAll | Cost$ SubCounter<10/LOYALTY> | Planeswalker$ True | Ultima
  - On death, the commander AI never wants to take the transform to planeswalker option, always opting to send it back to the command zone.
 [Tags]
 board-wipe
+[Rulings]
+ - In commander, if this creature is your commander. You may opt to transform The Curator on death instead of sending it back to the Command zone.
 [DesignNotes]
  - In the game, The Curator is an ally to Expedition 33, until Act 3 where he is revealed to be the real Renoir.
  - Abilities drawn from various abilities he offers at camp.

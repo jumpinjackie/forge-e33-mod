@@ -32,6 +32,9 @@ SVar:TrigReflectDamage:DB$ DealDamage | ValidTgts$ Creature.OppCtrl | TgtPrompt$
 SVar:X:TriggerCount$DamageAmount
 [Artist]
 Sandfall Interactive
+[Rulings]
+ - Multicolor spells will trigger the fire/ice counter addition if red or blue is one of the colors involved.
+ - If targeted by a multicolor spell that is both blue and red, both fire and ice counter abilities will trigger and you choose the order to stack them.
 [DesignNotes]
  - In the game, Pelerins can be encountered in Frozen Hearts
  - Has the same "flip-flop" elemental immunity as Stalact and Gargant, so has the same flip-flop protection.

@@ -36,6 +36,9 @@ Freezes
 Lands a series of punches
 [Artist]
 Sandfall Interactive
+[Rulings]
+ - Multicolor spells will trigger the fire/ice counter addition if red or blue is one of the colors involved.
+ - If targeted by a multicolor spell that is both blue and red, both fire and ice counter abilities will trigger and you choose the order to stack them.
 [DesignNotes]
  - In the game, Gargant is a boss in Frozen Hearts.
  - Rather than transcribe its abilities 1:1 like other Nevrons, I've gone for something different here and only tried to mechanically capture its "flip-flop" elemental immunity.

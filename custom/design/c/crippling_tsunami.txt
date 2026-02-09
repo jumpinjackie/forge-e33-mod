@@ -28,6 +28,8 @@ c_a_lumina
 98
 [Tags]
 lumina-generator
+[Rulings]
+ - Is itself an Expeditioner, so it can tap itself to tap a target land.
 [DesignNotes]
  - In the game, Crippling Tsunami is one of Lune's skills. It's basically an AOE variant of Ice Lance.
  - Made this a hybrid of Glare of Subdual and Opposition. Base effect is Glare, but Expeditioners can have the full Opposition experience.

@@ -34,5 +34,10 @@ SVar:X:Count$Valid Lumina.YouCtrl
 luminous
 creature-removal
 planeswalker-removal
+[Rulings]
+ - Same rulings as Cone of Flame, so relevant rulings included for reference:
+    - Each of the three targets must be different. If there aren’t three different legal targets available, you can’t cast the spell.
+    - If one or two of this spell's targets are illegal when it resolves, you can’t change how much damage will be dealt to the remaining legal targets.
+ - If you are in a Luminous state, you still get to draw a card if one or two of this spell's targets are illegal when it resolves as a multi-target spell only fizzles when all of its targets are illegal on resolution.
 [DesignNotes]
  - Just Cone of Flame made {1} cheaper and Expeditioner aligned

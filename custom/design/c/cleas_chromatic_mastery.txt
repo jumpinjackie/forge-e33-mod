@@ -16,6 +16,8 @@ I have my pets in place "She who controls chroma, controls the Canvas." I can't 
 [ForgeScript]
 A:SP$ ChangeZone | Origin$ Library | Destination$ Hand | ChangeType$ Nevron,Gradient | SpellDescription$ Search your library for a Nevron or Gradient card, reveal it, put it into your hand, then shuffle.
 DeckHints:Type$Nevron|Gradient
+[Rulings]
+ - Can tutor for non-creature Nevrons (there are some permanent cards in this set with that sub-type)
 [DesignNotes]
  - A Nevron tutor to support Nevron tribal strategies
  - 18/01/2026: Allow tutoring for Nevron or Gradient spells instead of just Nevrons.

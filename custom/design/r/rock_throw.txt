@@ -18,6 +18,8 @@ A:SP$ DealDamage | ValidTgts$ Creature | TgtPrompt$ Select target creature | Num
 SVar:WasKicked:Count$Kicked.4.2
 [Artist]
 Sandfall Interactive
+[Rulings]
+ - Tapping an untapped creature you control is part of the Kicker cost. You cannot play with Kicker if you don't pay {2} extra and have an untapped creature to tap.
 [Tags]
 creature-removal
 [DesignNotes]

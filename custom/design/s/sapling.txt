@@ -26,6 +26,8 @@ $NEVRON_DEATH_ABILITY
 Sandfall Interactive
 [Tags]
 nonbasic-hate
+[Rulings]
+ - Lands with fungus counters on them do not untap for as long any instance of this creature is on the battlefield. If there are no instances, this land untaps as normal.
 [DesignNotes]
  - In the game, Saplings can be found in Yellow Harvest and Falling Leaves.
  - Absorbs dark attacks ergo. Protection from black.

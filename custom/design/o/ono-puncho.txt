@@ -20,6 +20,8 @@ T:Mode$ DamageDoneOnce | Execute$ TrigBounce | ValidTarget$ Card.Self | TriggerZ
 SVar:TrigBounce:DB$ ChangeZone | Defined$ Self | Origin$ Battlefield | Destination$ Hand
 [Artist]
 Sandfall Interactive
+[Rulings]
+ - If Ono-Puncho receives lethal damage, state-based effects will send it to the graveyard and any pending rescue triggers will fizzle.
 [DesignNotes]
  - In the game, Ono-Puncho resides in the Gestral Village, you can challenge him a battle to win a prize. The gimmick is that you only have one shot to deal 9999 damage.
  - We've translated that gimmick to a bounce trigger when it's dealt damage (signifying end of battle). To kill it means to "make it count" and deal it lethal damage so that state-based effects will send it to the graveyard before the bounce trigger can save it.

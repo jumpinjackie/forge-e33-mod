@@ -76,6 +76,8 @@ u_barbapapa
 [Tags]
 creature-removal
 board-wipe
+[Rulings]
+ - "Unless a player pays {6}" includes you. So you can pay {6} to prevent world destruction when Osquio's back half dies.
 [DesignNotes]
  - In the game, Osquio is the final boss of Verso's Drafts. He is Esquie's evil cousin and has all the moves an mannerisms of a Professional Wrestler.
  - Obviously a DFC where his Phase 1 form transforms to his Phase 2 form. Abilities I've translated are:

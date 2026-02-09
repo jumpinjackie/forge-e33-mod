@@ -37,6 +37,8 @@ DeckHints:Name$Clea Dessendre, the Mistress
 97
 [Tags]
 creature-removal
+[Rulings]
+ - Affinity for Clea Planeswalkers means it costs {1} less for each Planeswalker you control with a sub-type of "Clea". There is only one Clea Planeswalker in this set (Clea Dessendre, the Mistress), so at most this will only cost {1} less.
 [DesignNotes]
  - In the game François is Esquie's neighbor and "archnemesis" and is in possession of one of the rocks that Esquie desires. François was created by Clea and is forever longing for her return into the canvas.
  - Mechanically speaking:

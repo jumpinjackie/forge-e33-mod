@@ -31,6 +31,8 @@ c_a_chroma
 c_a_food_sac
 [Tags]
 creature-removal
+[Rulings]
+ - If you "food poison" a creature with protection it will deal 0 damage to itself if it is the color it has protection from. Attempting to "food poison" a white creature with protection from white will cause it to deal 0 damage to itself.
 [DesignNotes]
  - In the game, Expedition 59 attempted to eat dead Nevrons for sustenance.
  - This card represents the genius who suggested such an idea.

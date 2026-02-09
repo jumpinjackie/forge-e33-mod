@@ -24,6 +24,8 @@ A:AB$ GainLife | Cost$ 2 T Sac<1/CARDNAME> | LifeAmount$ 3 | SpellDescription$ Y
 c_a_food_sac
 [Artist]
 Sandfall Interactive
+[Rulings]
+ - The Gingerbread Door's effect checks the number of foods on the battlefield only while a player (including you) is declaring attackers. Once a creature has legally attacked, changing its power or the number of cards in your hand won't remove it from combat.
 [DesignNotes]
  - In the game, The Gingerbread Door is an obstacle in Verso's Drafts. It can only be unlocked by presenting it a birthday cake. The birthday cake is composed from 3 cake slices which can be acquired from completing various tasks.
  - It's made of Gingerbread so clearly it's a Food.

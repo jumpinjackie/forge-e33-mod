@@ -9,9 +9,6 @@ Instant
 C
 [Artist]
 Sandfall Interactive
-[ArtNotes]
-Lost half: The Expedition 00 team conducting searches for any survivors.
-Found half: An Expedition 00 member is trying to pull a surivior out of a hole.
 [Oracle]
 Put target nonland permanent on the bottom of its owner’s library.
 [FlavorText]

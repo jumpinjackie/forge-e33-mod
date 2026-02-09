@@ -22,6 +22,8 @@ Sandfall Interactive
 80
 [Tags]
 creature-removal
+[Rulings]
+ - If you "food poison" a creature with protection it will deal 0 damage to itself if it is the color it has protection from. So if targeting a Gault (green, has pro-green) or Rocher (red, has pro-red), it will deal 0 damage to itself.
 [DesignNotes]
  - In the game, the Expedition 66 journal tells of some mushrooms that Esquie fed to the expeditioners, failing to disclose the important fact that these mushrooms were poisonous.
  - Easy map to a food artifact with a "food poisoning" ability.

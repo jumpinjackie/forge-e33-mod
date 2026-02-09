@@ -39,6 +39,8 @@ u_barbapapa
 Sandfall Interactive
 [Bugs]
  - AI does not want to use Barbpapa debuff
+[Rulings]
+ - The Barbapapa debuff is not optional. You must enchant a creature with it (even if it is one of your own)
 [Tags]
 creature-removal
 [DesignNotes]

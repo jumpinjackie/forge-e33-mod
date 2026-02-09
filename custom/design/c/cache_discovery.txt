@@ -24,6 +24,8 @@ c_a_chroma
 c_a_lumina
 [Tags]
 lumina-generator
+[Rulings]
+ - Any valid splice target is a Kindred Instant or Kindred Sorcery with a sub-type of Expeditioner
 [DesignNotes]
  - A card specifically designed to rapidly build up to the 33 permanent win condition of The Greatest Expedition In History
  - I am hoping that Forge's rule handling around splice is flexible enough to allow for this to work. Otherwise it's back to the drawing board.

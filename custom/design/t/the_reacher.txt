@@ -38,6 +38,8 @@ Sandfall Interactive
 The Axons
 [Tags]
 mana-fixer
+[Rulings]
+ - If you copy this land with The Monolith Interior's copy ability. That land will become a copy of The Reacher with 0 sky counters. If you choose to keep this copy as part of the legend rule, it will then be an 8/8 land creature that can block, and is ready to attack on your next turn.
 [DesignNotes]
  - In the game, The Reacher is an Act 3 dungeon. It is also one of the four Axons created by Renoir and represents Alicia.
  - The Reacher is a landmark, but also an Axon. So in MTG terms, it's both a land and a creature.

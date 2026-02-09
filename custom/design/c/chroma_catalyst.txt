@@ -35,3 +35,5 @@ mana-rock
  - For the card, we've decided to lean heavily on the word "Catalyst" and made this into a variant of Academy Manufactor, but covers our new token types.
  - We might revisit the design of this card if this assembles the 33+ token requirement for The Greatest Expedition In History too quickly.
  - 21/01/2026: Added Chroma token ETB (+ Lumina token bonus by inference) and added a variable mana ability based on number of Chroma+Lumina tokens you control. The X mana ratio approximates Astral Cornucopia in terms of resource investment needed. For example, if you want Astral Cornucopia to tap for 2 mana of any color, you needed to have spent 6 mana to resolve it. For this to tap for 2 mana, you needed to have 6 Chroma and/or Lumina tokens on board.
+[Rulings]
+ - The mana this artifact adds is a multiple of 3 rounded down. So if you have 2 chroma/lumina tokens, you get 0 mana as 2/3 > 0.666 > 0 mana. If you have 4 chroma/lumina tokens, 4/3 = 1.333 > 1 mana. etc.

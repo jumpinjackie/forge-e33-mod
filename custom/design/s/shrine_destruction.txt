@@ -22,6 +22,8 @@ Sandfall Interactive
 [Tags]
 artifact-removal
 enchantment-removal
+[Rulings]
+ - If you spend both red and green mana for this spell, you get to destroy both artifacts and enchantments that meet the given criteria.
 [DesignNotes]
  - In the game, at the Stone Wave Cliffs the Shrine to the Paintress can actually be destroyed.
  - Modeled this moment as a Meltdown-style artifact sweeper if {R} was spent and an equivalent enchantment sweeper if {G} was spent.

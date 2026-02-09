@@ -48,6 +48,8 @@ c_a_flower
 [Tags]
 combat-trick
 creature-removal
+[Rulings]
+ - The modal ability triggers off of a Flower Token leaving the battlefield. If you sac a Flower Token as part of paying for a spell, the modal ability will go on the stack above the spell you paid for upon completing payment for that spell.
 [DesignNotes]
  - In the game, Goblu is the boss of Flying Waters.
  - Main gimmick we want to mechanically translate is Goblu's flower growing and consuming ability.

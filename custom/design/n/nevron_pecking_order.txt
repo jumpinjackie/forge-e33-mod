@@ -23,6 +23,8 @@ SVar:X:Sacrificed$CardManaCost/Plus.1
 DeckHints:Type$Nevron
 [DraftScore]
 91
+[Rulings]
+ - As it has the Nevron sub-type. It can be sacced to itself.
 [DesignNotes]
  - This is a bone thrown to Nevrons to solidify that archetype.
  - Modeled on Birthing Pod.

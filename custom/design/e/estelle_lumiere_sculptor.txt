@@ -27,6 +27,8 @@ $EXPEDITIONER_DEATH_ABILITY
 DeckHints:Type$Artifact
 [Artist]
 Sandfall Interactive
+[Rulings]
+ - Can target artifact tokens (as long as they are not creatures)
 [DesignNotes]
  - In the game's prologue, Estelle (if spoken to) asks Sophie how to make her sculpture of Esquie stand out more.
  - Mapped sculpting to a creature clone ability the targets noncreature artifacts (the "clay" that she'll turn into a creature)
