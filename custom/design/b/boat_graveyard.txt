@@ -19,6 +19,8 @@ Darkslick Shores
 Sandfall Interactive
 [Tags]
 mana-fixer
+[Cycle]
+Allied Fast Duals
 [DesignNotes]
  - Nicknamed painland reprint to flesh out commander mana bases
  - 31/12/2025: Changed to nickname reprint of Darkslick Shores and moved to main set to improve cube draftability

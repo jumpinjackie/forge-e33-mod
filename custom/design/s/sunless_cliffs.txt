@@ -17,6 +17,8 @@ Blackcleave Cliffs
 Sandfall Interactive
 [Tags]
 mana-fixer
+[Cycle]
+Allied Fast Duals
 [DesignNotes]
  - In the game, a Sunless Cliffs is an optional area. It features a battle against a special mime.
  - Gone with nickname reprint of Blackleave Cliffs

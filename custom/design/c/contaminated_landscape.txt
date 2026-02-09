@@ -14,5 +14,7 @@ true
 Donato Giancola
 [Tags]
 mana-fixer
+[Cycle]
+Tricolor Fetches
 [DesignNotes]
  - Easy common mana fixing for limited and smoothes out manabases for Commander.

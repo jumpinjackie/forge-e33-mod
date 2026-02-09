@@ -19,6 +19,8 @@ Wow... That Nevron is the size of a mountain.
 Sandfall Interactive
 [Tags]
 mana-fixer
+[Cycle]
+Allied Fast Duals
 [DesignNotes]
  - In the game, Yellow Harvest is an optional area.
  - Went with a nickname reprint of Copperline Gorge 
