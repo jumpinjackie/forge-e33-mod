@@ -21853,7 +21853,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Enchant Land\nWhen this Aura enters, draw a card.\nEnchanted land does not untap during its controller’s untap step.{flavor}Even in an artificial painted world, nature finds a way.",
+                    "text": "This spell costs {1} less to cast if it targets a nonbasic land.\nEnchant Land\nWhen this Aura enters, draw a card.\nEnchanted land does not untap during its controller’s untap step.{flavor}Even in an artificial painted world, nature finds a way.",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,

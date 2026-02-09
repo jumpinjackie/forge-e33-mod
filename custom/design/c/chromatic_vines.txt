@@ -11,6 +11,7 @@ C
 [Artist]
 Sandfall Interactive
 [Oracle]
+This spell costs {1} less to cast if it targets a nonbasic land.
 Enchant Land
 When this Aura enters, draw a card.
 Enchanted land does not untap during its controller’s untap step.
@@ -18,11 +19,13 @@ Enchanted land does not untap during its controller’s untap step.
 Even in an artificial painted world, nature finds a way.
 [ForgeScript]
 K:Enchant:Land
+S:Mode$ ReduceCost | ValidCard$ Card.Self | Type$ Spell | Amount$ 1 | ValidTarget$ Land.nonBasic | EffectZone$ All | Description$ This spell costs {1} less to cast if it targets a nonbasic land.
 T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigDraw | TriggerDescription$ When CARDNAME enters, draw a card.
 SVar:TrigDraw:DB$ Draw | Defined$ You | NumCards$ 1
 R:Event$ Untap | ActiveZones$ Battlefield | ValidCard$ Permanent.EnchantedBy | ValidStepTurnToController$ You | Layer$ CantHappen | Description$ Enchanted permanent doesn't untap during its controller's untap step.
 [Tags]
 nonbasic-hate
 [DesignNotes]
- - In the game, various building ruins in Spring Meadows have large vines growing out of them and constricting them.
+ - In the game, various building ruins in Spring Meadows (and possibly other areas) have large vines growing out of them and constricting them.
  - Envisioned this as an extra check for nonbasics.
+ - 9/02/2026: This is meant to check nonbasics, but 3 mana seemed expensive (using Stone Rain as the benchmark) but at the same time I didn't want to perma reduce the cost to 2 as I want to keep this at 3 if targeting basics. So instead I've gone with a discount if targeting nonbasics.

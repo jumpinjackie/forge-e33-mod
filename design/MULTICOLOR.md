@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 8/2/2026 1:27:31 pm
+> Last generated: 9/2/2026 9:33:19 am
 
 ## A Storm is Coming
 
@@ -95,7 +95,7 @@ Aline, you’re going to kill yourself! It’s too soon for you to return to any
 ```
 2GU
 Creature - Grandis
-Not happy — When this creature enters, you may create a blue Aura enchantment token named Barbapapa attached to another target creature. The token has enchant creature and “Enchanted creature has base power 1. When enchanted creature deals combat damage, sacrifice this Aura.”
+Not happy — When this creature enters, create a blue Aura enchantment token named Barbapapa attached to another target creature. The token has enchant creature and “Enchanted creature has base power 1. When enchanted creature deals combat damage, sacrifice this Aura.”
 Lollipop attack — This creature gets +1/+1 as long as you control at least two Foods.
 Summons flying candy — Sacrifice a Food: This creature deals 2 damage to target creature with flying.
 Candy shields — Sacrifice a Food: Put a shield counter on this creature.
@@ -278,6 +278,7 @@ Hmm. It's old chroma, not pure. It won't be like bringing the two of you back, b
 ```
 2(G/W)
 Enchantment - Aura
+This spell costs {1} less to cast if it targets a nonbasic land.
 Enchant Land
 When this Aura enters, draw a card.
 Enchanted land does not untap during its controller’s untap step.
@@ -289,8 +290,9 @@ Even in an artificial painted world, nature finds a way.
 
 ### Design Notes
 
- - In the game, various building ruins in Spring Meadows have large vines growing out of them and constricting them.
+ - In the game, various building ruins in Spring Meadows (and possibly other areas) have large vines growing out of them and constricting them.
  - Envisioned this as an extra check for nonbasics.
+ - 9/02/2026: This is meant to check nonbasics, but 3 mana seemed expensive (using Stone Rain as the benchmark) but at the same time I didn't want to perma reduce the cost to 2 as I want to keep this at 3 if targeting basics. So instead I've gone with a discount if targeting nonbasics.
 
 ## Clair Obscur
 
@@ -1477,7 +1479,7 @@ Exile target nonland permanent.
 3UR
 Legendary Artifact Creature - Gestral Turtle Construct
 Trample, double strike
-When this creature enters, you may create a blue Aura enchantment token named Barbapapa attached to another target creature. The token has enchant creature and “Enchanted creature has base power 1. When enchanted creature deals combat damage, sacrifice this Aura.”
+When this creature enters, create a blue Aura enchantment token named Barbapapa attached to another target creature. The token has enchant creature and “Enchanted creature has base power 1. When enchanted creature deals combat damage, sacrifice this Aura.”
 {U}: Put a flying counter on Licornapieds
 Flies to attack — {4}{R}, {T}, Remove a flying counter from Licornapieds: It deals 4 damage to target creature.
 At the beginning of each end step, remove all flying counters on Licornapieds.
@@ -1497,7 +1499,7 @@ At the beginning of each end step, remove all flying counters on Licornapieds.
 ```
 2UR
 Creature - Turtle
-When this creature enters, you may create a blue Aura enchantment token named Barbapapa attached to another target creature. The token has enchant creature and “Enchanted creature has base power 1. When enchanted creature deals combat damage, sacrifice this Aura.”
+When this creature enters, create a blue Aura enchantment token named Barbapapa attached to another target creature. The token has enchant creature and “Enchanted creature has base power 1. When enchanted creature deals combat damage, sacrifice this Aura.”
 Rainbow arc beams - {1}{R}, {T}: This creature deals 1 damage to target creature.
 
 1/4
