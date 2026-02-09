@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 9/2/2026 9:33:19 am
+> Last generated: 9/2/2026 11:55:10 am
 
 ## A Storm is Coming
 
@@ -44,6 +44,7 @@ When this creature dies, target opponent creates a Lumina token.
 
 > This card is a reprint
 [Scryfall](https://scryfall.com/search?q=Abrupt%20Decay)
+
 ### Notes
 
  - Staple commander spot removal.
@@ -110,10 +111,16 @@ Candy shields — Sacrifice a Food: Put a shield counter on this creature.
  - In the game, Barbasucettes are new enemies found in Verso's Drafts as part of the "Thank You" update. They are Grandis that wield two lollipops as weapons.
  - Mapped his suite of abilities to a whole bunch of food-related abilities as well as a Barbapapa debuff on ETB.
 
+
+### Rulings
+
+ - The Barbapapa debuff is not optional. You must enchant a creature with it (even if it is one of your own)
+
 ## Bedevil
 
 > This card is a reprint
 [Scryfall](https://scryfall.com/search?q=Bedevil)
+
 ### Notes
 
  - Obligatory commander ramp.
@@ -344,6 +351,11 @@ Nevron spells you cast cost {1} less to cast.
  - 27/01/2026: Increased cost from 2UB to 3UB
  - 28/01/2026: Renamed from "Clea Dessendre, Seeking Vengeance" to "Clea Dessendre, the Mistress"
 
+
+### Rulings
+
+ - When using the -4 ability, your token copy will have a sub-type of Nevron.
+
 ## Clea Unleashed
 
 ```
@@ -443,6 +455,7 @@ When this creature dies, target opponent creates a Lumina token.
 
 > This card is a nicknamed reprint of (Gaze of Granite)
 [Scryfall](https://scryfall.com/search?q=Gaze%20of%20Granite)
+
 ### Notes
 
  - In the game, upon choosing Verso's ending Lune was powerless to stop the destruction of the canvas. All she could do was give Verso the most mortifying stare for the betrayal he just wrought.
@@ -470,6 +483,11 @@ Applies Inverted — {B}{B}, Sacrifice a Blood token: Target creature has base t
  - Double strike because he does a lot of combo attacks.
  - Inverted status translated to setting a creature's base toughness to 1 until EOT.
  - 18/01/2026: Fixed combat damage trigger only triggering on combat damage to players.
+
+
+### Rulings
+
+ - If Dualliste successfully deals double strike damage, you will get 2 blood tokens each combat, one for first strike damage, one for regular damage.
 
 ## Duollistes
 
@@ -628,6 +646,11 @@ I just finished my sculpture of the legendary Esquie. This may be my life’s fi
 
  - In the game's prologue, Estelle (if spoken to) asks Sophie how to make her sculpture of Esquie stand out more.
  - Mapped sculpting to a creature clone ability the targets noncreature artifacts (the "clay" that she'll turn into a creature)
+
+
+### Rulings
+
+ - Can target artifact tokens (as long as they are not creatures)
 
 ## Évêque
 
@@ -790,6 +813,11 @@ III — Until end of turn, Food tokens you control gain "{2}, Sacrifice this art
  - 1/1/2026: Make the food poisoning ability cost {1} and sac.
  - 14/01/2026: Increased food poisioning activation from {1} to {2}
 
+
+### Rulings
+
+ - If you "food poison" a creature with protection it will deal 0 damage to itself if it is the color it has protection from. So if targeting a Gault (green, has pro-green) or Rocher (red, has pro-red), it will deal 0 damage to itself.
+
 ## Expedition 59 Chef
 
 ```
@@ -815,6 +843,11 @@ I can't believe she convinced everyone to eat the Nevron. They've been puking fo
  - 5/10/2025: Reduced cost from 2(B/G) to 1(B/G)
  - 1/1/2026: Made food poisioning cost {1} and sac and make it targeting non-Nevron creatures to avoid this being able to machine gun an entire board of low-tier Nevrons.
  - 14/01/2026: Increased food poisioning activation from {1} to {2}
+
+
+### Rulings
+
+ - If you "food poison" a creature with protection it will deal 0 damage to itself if it is the color it has protection from. Attempting to "food poison" a white creature with protection from white will cause it to deal 0 damage to itself.
 
 ## Expedition 60
 
@@ -1007,6 +1040,11 @@ The Paintress is going to punish you! You blasphemers. The Gommage is our fault!
  - Mapped doomsaying > prediction. Thus has an upkeep trigger that lets you "predict" the top card of your library, if you guess right you get the card, otherwise it's milled.
  - Scry and Surveil abilities are to let you "shape your destiny".
 
+
+### Rulings
+
+ - Naming the card happens on resolution, so you may scry or surveil in response to the "predict" trigger on the stack.
+
 ## Full Deck
 
 ```
@@ -1029,6 +1067,11 @@ The cards have spoken!
  - 14/01/2025: Allow targeting planeswalkers and mill by targeted's mana value.
  - 6/02/2026: Added Foretell to increase cards in set with Foretell and add more mystery to what a Foretold card could be.
 
+
+### Rulings
+
+ - If your library has less cards than the MV of the creature/planeswalker you're targeting, then mill everything on resolution.
+
 ## Gargant
 
 ```
@@ -1050,6 +1093,12 @@ Gargant has protection from red as long as it has a fire counter on it and prote
  - In the game, Gargant is a boss in Frozen Hearts.
  - Rather than transcribe its abilities 1:1 like other Nevrons, I've gone for something different here and only tried to mechanically capture its "flip-flop" elemental immunity.
  - 21/01/2026: Added Giant sub-type.
+
+
+### Rulings
+
+ - Multicolor spells will trigger the fire/ice counter addition if red or blue is one of the colors involved.
+ - If targeted by a multicolor spell that is both blue and red, both fire and ice counter abilities will trigger and you choose the order to stack them.
 
 ## Gestral Foot Race Challenge
 
@@ -1242,6 +1291,11 @@ Gustave, wait! It seems peaceful, as long as we don't touch the flowers.
     - Changed Flower leave triggers to a (mandatory) modal choice off of any flower token leaving. This was because Forge does not seem to acknowledge token leave triggers of a specific token name.
        - The shield and +1/+1 counter abiliies from the blue/red flower tokens have been moved here.
 
+
+### Rulings
+
+ - The modal ability triggers off of a Flower Token leaving the battlefield. If you sac a Flower Token as part of paying for a spell, the modal ability will go on the stack above the spell you paid for upon completing payment for that spell.
+
 ## Gold Chevalière
 
 ```
@@ -1283,6 +1337,12 @@ Your mother paints life. Whilst your father, death. What will you paint?
  - 26/11/2025: It has come to my attention that this name is already taken in French (for the English card: Blot Out). However since, this is an English printing and that this is a custom set, there is no collsion issues with this card in Forge.
  - 21/01/2026: Removed painter's discount and changed the design from mass-exile to an X spell that takes out X nonland permanents with mana value X or higher. This adds extra skill in determining an appropriate value for X. Low values for X will guarantee something you want gets hit, but you can only probably hit 1 or 2 targets. Higher values of X reduce candidate targets, but you can hit more of them.
 
+
+### Rulings
+
+ - You must target the exact number of nonland permanents indicated by X. Each target must meet the mana value criteria.
+ - You cannot target the same nonland permanent more than once.
+
 ## Grandis Cleaner
 
 ```
@@ -1303,6 +1363,11 @@ Cleaner 1:It does not obstruct the way. It is simply ... there.
 
  - In the game, two Grandis Cleaners can be found outside Monoco's Station after you defeat the Stalact there. They are lamenting about the mess they have to clean up.
  - Mapped cleaning to removing a counter (of any type) from any permanent.
+
+
+### Rulings
+
+ - If removing a lore counter from a Saga, it does not trigger the previous chapter ability. Chapter abilities trigger on *putting* a lore counter.
 
 ## Grandis Guard
 
@@ -1367,6 +1432,7 @@ When this creature dies, target opponent creates a Lumina token. (It's an artifa
 
 > This card is a reprint
 [Scryfall](https://scryfall.com/search?q=Growth%20Spiral)
+
 ### Notes
 
  - Obligatory commander ramp.
@@ -1494,6 +1560,11 @@ At the beginning of each end step, remove all flying counters on Licornapieds.
  - In the game, Licornapieds is an optional boss in Verso's Drafts. They have the appearance of a Licorne fused wtih a Machinepieds.
  - The ability suite is very similar to that of Dominique Giant Feet, so has the same abilities but with adjusted costs plus a Barbapapa debuff ETB + Trample + Double Strike
 
+
+### Rulings
+
+ - The Barbapapa debuff is not optional. You must enchant a creature with it (even if it is one of your own)
+
 ## Licorne
 
 ```
@@ -1511,6 +1582,11 @@ Rainbow arc beams - {1}{R}, {T}: This creature deals 1 damage to target creature
 
  - In the game, Licornes can be found in Verso's Drafts. They have the appearance of a turtle (like Francois), but have a rainbow colored shell with googly eyes and troll hair on top.
  - Another creature with a Barbapapa debuff ETB and a creature pinger.
+
+
+### Rulings
+
+ - The Barbapapa debuff is not optional. You must enchant a creature with it (even if it is one of your own)
 
 ## Lost // Found
 
@@ -1591,6 +1667,14 @@ As long as even one of us stands, our fight is not over.
     - The Elemental Genesis "ultimate" requires no extra mana cost because getting to 4 stain counters is enough investment already.
  - 26/12/2025: Figured out a way to implement a max 4 stain counter limit to match her video game counterpart. Due to limitations on expressing this "4 stain counters max" constraint in Forge, I expect that this limit can be easily cicumvented through other means in Forge (ie. Alternate ways of putting stain counters that are not Lune's triggered ability) and I can live with that. The intent in *paper* play is definitely 4 stain counters max, no ifs or buts. No shenanigans with Doubling Season or other counter replicators.
  - 21/01/2026: Changed "Elemental Genesis" ultimate from targeting 4 targets to 2 targets.
+
+
+### Rulings
+
+ - The "Lune can't have 4 stain counters on her" restriction means any triggered ability that would add stain counters will only add stain counters up to that limit. For example.
+    - If Lune has 2 stain counters and you cast a 3+ mana value instant or sorcery. Lune will get 2 additional stain counters.
+    - If Lune has 4 stain counters and you cast any 1+ mana value instant or sorcery. Lune will get 0 additional stain counters.
+    - You may activate a stain counter consuming ability in response to the stain counter adding trigger.
 
 ## Maelle, Child of Lumière // Maelle, The Reawakened Paintress
 
@@ -1879,6 +1963,7 @@ My, what lovely feet! — Monoco has activated abilities of all Nevrons in exile
 
 > This card is a reprint
 [Scryfall](https://scryfall.com/search?q=Mortify)
+
 ### Notes
 
  - Staple commander removal.
@@ -2000,10 +2085,17 @@ Counterattack — When this creature is dealt combat damage, it deals that amoun
  - Has the same "flip-flop" elemental immunity as Stalact and Gargant, so has the same flip-flop protection.
  - Copied counterattack ability from Boucheclier as this is its primary gimmick in the game (always retaliating against whoever dealt damage to it)
 
+
+### Rulings
+
+ - Multicolor spells will trigger the fire/ice counter addition if red or blue is one of the colors involved.
+ - If targeted by a multicolor spell that is both blue and red, both fire and ice counter abilities will trigger and you choose the order to stack them.
+
 ## Primal Empathy
 
 > This card is a reprint
 [Scryfall](https://scryfall.com/search?q=Primal%20Empathy)
+
 ### Notes
 
  - Another case of a quote from the game looking for a suitable reprint to attach itself to.
@@ -2012,6 +2104,7 @@ Counterattack — When this creature is dealt combat damage, it deals that amoun
 
 > This card is a reprint
 [Scryfall](https://scryfall.com/search?q=Putrefy)
+
 ### Notes
 
  - Obligatory spot removal in Commander
@@ -2165,6 +2258,11 @@ Cathartic.
  - In the game, at the Stone Wave Cliffs the Shrine to the Paintress can actually be destroyed.
  - Modeled this moment as a Meltdown-style artifact sweeper if {R} was spent and an equivalent enchantment sweeper if {G} was spent.
 
+
+### Rulings
+
+ - If you spend both red and green mana for this spell, you get to destroy both artifacts and enchantments that meet the given criteria.
+
 ## Simon, Consort of Clea // Simon, The Divergent Star
 
 ```
@@ -2230,6 +2328,11 @@ A Widow Ballet Charms — Sacrifice four creature tokens named Ballet: Gain cont
     - Summoning Ballets to do her bidding
     - Charming (ie. Creature control)
 
+
+### Rulings
+
+ - Colorless is not a color, so spending Colorless mana on "The Grand Ballet Begins" ability does not contribute to the amount of Ballet tokens generated.
+
 ## Sprong
 
 ```
@@ -2272,6 +2375,12 @@ Self-destruct — Sacrifice this creature: This creature deals 2 damage to targe
  - Has the same "flip-flop" elemental immunity as its big brother (Gargant), so has the same flip-flop protection.
  - 21/01/2026: Added Beast sub-type.
 
+
+### Rulings
+
+ - Multicolor spells will trigger the fire/ice counter addition if red or blue is one of the colors involved.
+ - If targeted by a multicolor spell that is both blue and red, both fire and ice counter abilities will trigger and you choose the order to stack them.
+
 ## Stendhal
 
 ```
@@ -2297,6 +2406,7 @@ Stendhal deals 33 damage to target creature or planeswalker.
 
 > This card is a reprint
 [Scryfall](https://scryfall.com/search?q=Terminate)
+
 ### Notes
 
  - Obligatory spot removal for Limited/Commander
@@ -2339,6 +2449,11 @@ Whenever a Nevron you control dies, draw a card and each opponent discards a car
  - 29/11/2025: Mana costs adjusted so that he can be a 5c Nevron commander.
  - 25/01/2026: Tweaked exert wording/cost to exert a tapped Expeditioner creature you control. Although 701.39b states that a permanent can be exerted even if it's not tapped, this does nothing for us in terms of gameplay and flavor.
  - 7/02/2026: Dropped exert requirement so Latent Skill Activation is now just tapping an untapped Expeditioner creature you control. Even though exerting an already tapped creature work in Forge, it is just plain awkward and exerting adds extra mental burden (to remember to not untap) on paper.
+
+
+### Rulings
+
+ - In commander, if this creature is your commander. You may opt to transform The Curator on death instead of sending it back to the Command zone.
 
 ## The Fate of the Canvas
 
@@ -2398,6 +2513,11 @@ When one falls, we continue.
  - If you're doing nothing with these Chroma and Lumina tokens being generated then this spell is a goal to reach towards.
  - This card also let's us do something with the number 33, which has great symbolic significance in the game.
 
+
+### Rulings
+
+ - Counts the relevant permanents on resolution, so you may put spells and abilities on the stack in response to this spell that generates the relevant tokens or puts the relevant permanent types onto the battlefield.
+
 ## The Paintress // Aline Dessendre, Stricken by Grief
 
 ```
@@ -2434,6 +2554,11 @@ At the beginning of your upkeep, create a Chroma token.
    - If we ever print this, it will be printed over 2 cards and not as a double-faced one, because I want a printed version of this set to be playable as-is without sleeves (as Richard Garfield intended).
  - In terms of planeswalker design, the primary theme is around Chroma and her mastery of it.
  - 29/11/2025: Void meteor ability cost adjusted so that she can be a 5c commander.
+
+
+### Rulings
+
+ - In commander, if this creature is your commander. You may opt to transform The Paintress on death instead of sending it back to the Command zone.
 
 ## The Scavenger
 
@@ -2660,6 +2785,7 @@ How cruel of your father to use you like this.
 
 > This card is a reprint
 [Scryfall](https://scryfall.com/search?q=Void%20Rend)
+
 ### Notes
 
  - Commander spot removal.

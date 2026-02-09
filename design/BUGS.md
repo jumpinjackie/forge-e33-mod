@@ -6,6 +6,10 @@
 
  - AI does not want to use Barbpapa debuff
 
+## Clea Dessendre, the Mistress
+
+ - When using the -4 ability on a non-creature permanent, the token copy does not appear to have the Nevron sub-type.
+
 ## Esquie, Friend of Verso
 
 Getting the same ordering issue on the Uro modal trigger as Golgra.

@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 7/2/2026 6:52:20 am
+> Last generated: 9/2/2026 11:55:10 am
 
 ## Abbest
 
@@ -26,6 +26,7 @@ When this creature dies, target opponent creates a Lumina token. (It's an artifa
 
 > This card is a reprint
 [Scryfall](https://scryfall.com/search?q=All%20Suns%27%20Dawn)
+
 ### Notes
 
  - Thematically on-point reprint. Dawn signifying tomorrow. Tomorrow comes.
@@ -114,6 +115,11 @@ Splice onto Expeditioner Instant or Sorcery {G} (As you cast an Expeditioner Ins
     - 23/09/2025: It seems to work!
  - 14/01/2026: Colorshifted to green.
 
+
+### Rulings
+
+ - Any valid splice target is a Kindred Instant or Kindred Sorcery with a sub-type of Expeditioner
+
 ## Chorale
 
 ```
@@ -138,6 +144,7 @@ When this creature dies, target opponent creates a Lumina token. (It's an artifa
 
 > This card is a reprint
 [Scryfall](https://scryfall.com/search?q=Cultivate)
+
 ### Notes
 
  - Obligatory commander staple.
@@ -146,6 +153,7 @@ When this creature dies, target opponent creates a Lumina token. (It's an artifa
 
 > This card is a reprint
 [Scryfall](https://scryfall.com/search?q=Doubling%20Season)
+
 ### Notes
 
  - Commander staple.
@@ -208,6 +216,11 @@ Yet in their final moments, they used their bodies to create a bridge for those 
  - I've symbolized this as an enchantment where Expeditioners can be sacrificed for card draw, since each Expeditioner creature has a Chroma token death bonus, this can potentially be a combo engine to rip through your deck for some game winning payoff.
  - 26/10/2025: Added creature sac for scry ability to avoid parasitism.
 
+
+### Rulings
+
+ - As it is an Expeditioner, it can sac to itself to draw a card.
+
 ## Expedition 55 Drummer
 
 ```
@@ -251,6 +264,11 @@ One last swim separates me from Lumière, but even with my mighty muscles, I don
  - The clue token left behind represents the expedition journal.
  - Has un-modified buffs because these gigachads don't require pithy things like clothing and armor.
  - 1/1/2026: Fixed bad trigger description
+
+
+### Rulings
+
+ - The clue token trigger happens on *any* act of leaving the battlefield and not just death. Bounce, exile, etc, will trigger it.
 
 ## Expedition 69
 
@@ -355,6 +373,7 @@ Any adversity can be overcome, if we face it together.
 
 > This card is a reprint
 [Scryfall](https://scryfall.com/search?q=Farseek)
+
 ### Notes
 
  - Easy on-flavor reprint.
@@ -515,6 +534,11 @@ Even in an artificial painted world, there is a natural order.
  - Modeled on Birthing Pod.
  - 21/10/2025: Made search criteria X or less. Fixed incorrect sac cost.
 
+
+### Rulings
+
+ - As it has the Nevron sub-type. It can be sacced to itself.
+
 ## Ophelie, Lumière Florist
 
 ```
@@ -607,6 +631,11 @@ Have you tried throwing with your other arm instead? If you could hit the Paintr
  - 1/1/2026: Fixed the kicker to exert a tapped creature as exert does not tap the creature as part of the exerting. I don't believe Forge supports a "tap and exert" action, so this is the closest thing.
  - 7/02/2026: Changed kicker to just tap an untapped creature. Exerting an already tapped creature is weird from a templating perspective, even though it works in Forge.
 
+
+### Rulings
+
+ - Tapping an untapped creature you control is part of the Kicker cost. You cannot play with Kicker if you don't pay {2} extra and have an untapped creature to tap.
+
 ## Sapling
 
 ```
@@ -629,6 +658,11 @@ When this creature dies, target opponent creates a Lumina token. (It's an artifa
  - 17/01/2026: Added fungus counter ETB to increase the quota of effects that check nonbasics.
  - 20/01/2026: Added AI targeting hints
  - 21/01/2026: Added fungus sub-type
+
+
+### Rulings
+
+ - Lands with fungus counters on them do not untap for as long any instance of this creature is on the battlefield. If there are no instances, this land untaps as normal.
 
 ## Shrine to The Paintress
 

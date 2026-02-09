@@ -1,11 +1,12 @@
 # Cards
 
-> Last generated: 7/2/2026 6:32:46 am
+> Last generated: 9/2/2026 11:55:10 am
 
 ## Anger
 
 > This card is a reprint
 [Scryfall](https://scryfall.com/search?q=Anger)
+
 ### Notes
 
  - No in-game basis, but Grief is such a central theme of Expedition 33 that having a cycle dedicated to the 5 stages is a total flavor nuke.
@@ -36,6 +37,7 @@ When this creature dies, you may have this creature deal 2 damage to target crea
 
 > This card is a reprint
 [Scryfall](https://scryfall.com/search?q=Chaos%20Warp)
+
 ### Notes
 
  - Obligatory spot removal in commander.
@@ -80,6 +82,7 @@ Let's shake the earth!
 
 > This card is a reprint
 [Scryfall](https://scryfall.com/search?q=Deflecting%20Swat)
+
 ### Notes
 
  - Commander staple
@@ -88,6 +91,7 @@ Let's shake the earth!
 
 > This card is a reprint
 [Scryfall](https://scryfall.com/search?q=Demand%20Answers)
+
 ### Notes
 
  - In the game, after failing to secure the heart of The Paintress at Old Lumière the party regroups at camp and Lune starts asking probing questions at Verso about his relationship with Renoir.
@@ -231,6 +235,7 @@ Yahoo! I can sell stuff! You gots Chroma, yeh?
 
 > This card is a nicknamed reprint of (Grand Melee)
 [Scryfall](https://scryfall.com/search?q=Grand%20Melee)
+
 ### Notes
 
  - In the game, there is a hidden Gestral Arena where the party can fight gestrals for rewards.
@@ -256,6 +261,11 @@ I captured a few baby gestrals we can use as balls. I asked for their consent. T
  - In the game, there is a mini game where you have to win a game of gestral volleyball against a Sakapatate who flings little gestrals at you. You win the mini game by parrying the flung gestrals back at the Sakapatate a certain number of times. Failure to parry will damage the raft you are standing on an after a certain number of hits, the raft explodes and you will lose the mini game.
  - Gestral version of Goblin Grenade / Reckless Abandon
  - Made it a bit more expensive to offset the ease of casting gestral creatures in general and the fact that a Gestral sol land is in this set.
+
+
+### Rulings
+
+ - Can sacrifice a non-creature Gestral as part of the additional cost.
 
 ## Get Out Of My Way!
 
@@ -322,6 +332,11 @@ Thank the Dessendres,“Whees” and “Whoos” are perfectly balanced, you did
  - In the game, in Verso's Drafts a Half-baked Lifeguard will reward you if you activate enough Esquie statues in the area so that they are 50/50 light and dark.
  - Mapped this to a creature buff if there is an even number of permanents (to symbolize the Esquie light/dark equilibrium)
 
+
+### Rulings
+
+ - If you get the +1/+1 bonus, it does not go away if the permanent count changes later on in the turn.
+
 ## Hexga
 
 ```
@@ -348,6 +363,7 @@ When this creature dies, target opponent creates a Lumina token. (It's an artifa
 
 > This card is a reprint
 [Scryfall](https://scryfall.com/search?q=Last-Ditch%20Effort)
+
 ### Notes
 
  - In the game, after Gustave was mortally wounded by Painted Renoir at the Stone Wave Cliffs, he charges up his Overcharge move as a desperate measure to inflict some damage.
@@ -369,6 +385,14 @@ Feel the storm!
 ### Design Notes
 
  - Just Cone of Flame made {1} cheaper and Expeditioner aligned
+
+
+### Rulings
+
+ - Same rulings as Cone of Flame, so relevant rulings included for reference:
+    - Each of the three targets must be different. If there aren’t three different legal targets available, you can’t cast the spell.
+    - If one or two of this spell's targets are illegal when it resolves, you can’t change how much damage will be dealt to the remaining legal targets.
+ - If you are in a Luminous state, you still get to draw a card if one or two of this spell's targets are illegal when it resolves as a multi-target spell only fizzles when all of its targets are illegal on resolution.
 
 ## Marked!
 

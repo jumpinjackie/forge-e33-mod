@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 5/2/2026 11:30:16 am
+> Last generated: 9/2/2026 11:55:10 am
 
 ## Axon Offering
 
@@ -25,6 +25,7 @@ Me? You want me to give it to you?
 
 > This card is a reprint
 [Scryfall](https://scryfall.com/search?q=Blot%20Out)
+
 ### Notes
 
  - It turns out the French name for this card is ... Gommage!
@@ -116,10 +117,16 @@ I have my pets in place "She who controls chroma, controls the Canvas." I can't 
  - A Nevron tutor to support Nevron tribal strategies
  - 18/01/2026: Allow tutoring for Nevron or Gradient spells instead of just Nevrons.
 
+
+### Rulings
+
+ - Can tutor for non-creature Nevrons (there are some permanent cards in this set with that sub-type)
+
 ## Damn
 
 > This card is a reprint
 [Scryfall](https://scryfall.com/search?q=Damn)
+
 ### Notes
 
  - Obligatory Commander spot removal / board wipe.
@@ -150,6 +157,7 @@ If you could grow old... Would you... find a reason to smile?
 
 > This card is a nicknamed reprint of (Death Pits of Rath)
 [Scryfall](https://scryfall.com/search?q=Death%20Pits%20of%20Rath)
+
 ### Notes
 
  - In the game, the party falls into a pit of Expeditioner corpses where they encounter a boss fight with Dualliste.
@@ -178,6 +186,12 @@ When this creature dies, target opponent creates a Lumina token. (It's an artifa
  - 17/01/2026: To increase the nonbasic hate quota in this set, changed double the blight to putting a blight counter on to up to 2 permanents. For creatures this sets their toughness to 1. For lands, this will destroy it upon being tapped.
  - 20/01/2026: Added AI targeting hints and fix land blight triggering from all zones.
  - 3/02/2026: Reduce cost from 3B to 2B and PT from 3/3 to 3/2
+
+
+### Rulings
+
+ - A land with a blighted counter only gets destroyed when tapped if an instance of Échassier is on the battlefield. If there are no instances, the land is not destroyed when tapped.
+ - A creature with a blighted counter only has base toughness 1 if an instance of Échassier is on the battlefield. If there are no instances, the creature has its originally printed toughness.
 
 ## Expedition 62 Hunter
 
@@ -227,6 +241,7 @@ You must see things as they are. Not how you want them to be.
 
 > This card is a reprint
 [Scryfall](https://scryfall.com/search?q=Feed%20the%20Swarm)
+
 ### Notes
 
  - Obligatory Commander spot removal.
@@ -235,6 +250,7 @@ You must see things as they are. Not how you want them to be.
 
 > This card is a reprint
 [Scryfall](https://scryfall.com/search?q=Final%20Parting)
+
 ### Notes
 
  - This is a quote-driven commander reprint. A quote from the game, looking for a suitable on-theme card to attach to.
@@ -243,6 +259,7 @@ You must see things as they are. Not how you want them to be.
 
 > This card is a reprint
 [Scryfall](https://scryfall.com/search?q=Grief)
+
 ### Notes
 
  - Grief is the central theme of the video game. So as hideously broken as this card is, it is an absolutely flavorful reprint inclusion.
@@ -414,6 +431,11 @@ Decides to destroy the world. Bye bye — When Osquio dies, destroy all permanen
     - Goblin Sharpshooter's pinging ability
     - Applying Barbapapa debuffs when damaging any creature in his Phase 2 form
  - The "Decides to destroy the world. Bye bye" ability has an "unless a player pays {6}" clause as a nod to the fact that this attack must be parried (stopped), but you only have one small window to pull it off.
+
+
+### Rulings
+
+ - "Unless a player pays {6}" includes you. So you can pay {6} to prevent world destruction when Osquio's back half dies.
 
 ## Painted Renoir, Aline's Enforcer
 
@@ -623,6 +645,7 @@ You may have this creature enter as a copy of any nonlegendary Expeditioner crea
 
 > This card is a reprint
 [Scryfall](https://scryfall.com/search?q=Unmask)
+
 ### Notes
 
  - In the game, at camp after slaying the two Axons and acquiring the Barrier Breaker, the party sleeps except for Verso, who is approached by Painted Alicia, who hands him a letter intended for Maelle, in that moment Verso removes her mask, stating she does not need to wear it.

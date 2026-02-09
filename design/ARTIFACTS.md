@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 6/2/2026 3:15:45 pm
+> Last generated: 9/2/2026 11:55:10 am
 
 ## A Rock for François
 
@@ -49,6 +49,7 @@ At the beginning of your upkeep, you may put a verse counter on Alicenisa.
 
 > This card is a reprint
 [Scryfall](https://scryfall.com/search?q=Arcane%20Signet)
+
 ### Notes
 
  - Obligatory mana rock in Commander
@@ -104,6 +105,7 @@ Learn Picto 2
 
 > This card is a nicknamed reprint of (Blackblade Reforged)
 [Scryfall](https://scryfall.com/search?q=Blackblade%20Reforged)
+
 ### Notes
 
  - In the game, the Barrier Breaker is forged by The Curator once you've defeated Sirene and Visages. With this weapon, the party was finally able to breach the barrier protecting the Monolith.
@@ -186,6 +188,11 @@ Exponentially useful.
  - We might revisit the design of this card if this assembles the 33+ token requirement for The Greatest Expedition In History too quickly.
  - 21/01/2026: Added Chroma token ETB (+ Lumina token bonus by inference) and added a variable mana ability based on number of Chroma+Lumina tokens you control. The X mana ratio approximates Astral Cornucopia in terms of resource investment needed. For example, if you want Astral Cornucopia to tap for 2 mana of any color, you needed to have spent 6 mana to resolve it. For this to tap for 2 mana, you needed to have 6 Chroma and/or Lumina tokens on board.
 
+
+### Rulings
+
+ - The mana this artifact adds is a multiple of 3 rounded down. So if you have 2 chroma/lumina tokens, you get 0 mana as 2/3 > 0.666 > 0 mana. If you have 4 chroma/lumina tokens, 4/3 = 1.333 > 1 mana. etc.
+
 ## Chroma Filter
 
 ```
@@ -208,6 +215,7 @@ Luminous — {T}: Add one mana of any color. Activate this ability only if you c
 
 > This card is a reprint
 [Scryfall](https://scryfall.com/search?q=Chromatic%20Lantern)
+
 ### Notes
 
  - Staple commander mana rock.
@@ -216,6 +224,7 @@ Luminous — {T}: Add one mana of any color. Activate this ability only if you c
 
 > This card is a reprint
 [Scryfall](https://scryfall.com/search?q=Commander%27s%20Sphere)
+
 ### Notes
 
  - Obligatory commander mana rock.
@@ -344,6 +353,11 @@ Damn you Esquie and your stupid mushrooms. Your friend ate them with no problem 
  - In the game, the Expedition 66 journal tells of some mushrooms that Esquie fed to the expeditioners, failing to disclose the important fact that these mushrooms were poisonous.
  - Easy map to a food artifact with a "food poisoning" ability.
 
+
+### Rulings
+
+ - If you "food poison" a creature with protection it will deal 0 damage to itself if it is the color it has protection from. So if targeting a Gault (green, has pro-green) or Rocher (red, has pro-red), it will deal 0 damage to itself.
+
 ## Expedition 50 Ferris Wheel
 
 ```
@@ -469,10 +483,18 @@ Lune: ...And lay the trail, for the ones who come after
  - In the game, various journals from previous Expeditions are scattered throughout the continent.
  - Since we've modeled Expedition-specific journals as Sagas, this is an artifact that can help skip or re-tell Saga chapters.
 
+
+### Rulings
+
+ - Same rulings as Clash of the Eikons, so repeated here for reference:
+   - Removing lore counters won't cause a previous chapter ability to trigger. If lore counters are removed from a Saga, the appropriate chapter abilities will trigger again when the Saga receives more lore counters.
+   - Putting a lore counter on a Saga will usually cause its next chapter ability to trigger. If it already has a number of lore counters on it that's greater than or equal to its final chapter number, however, no chapter abilities trigger.
+
 ## Expedition Map
 
 > This card is a reprint
 [Scryfall](https://scryfall.com/search?q=Expedition%20Map)
+
 ### Notes
 
  - Easy on-flavor reprint.
@@ -503,6 +525,7 @@ Gustave: In a way, it’s yours too.
 
 > This card is a reprint
 [Scryfall](https://scryfall.com/search?q=Fellwar%20Stone)
+
 ### Notes
 
  - Obligatory commander mana rock.
@@ -681,6 +704,11 @@ When this creature enters, reveal the top four cards of your library. Put all Ge
 
  - Gestral version of Goblin Ringleader. A Gestral tribal deck needs at least one card that can provide raw card advantage. This is that card.
 
+
+### Rulings
+
+ - Counts any non-creature Gestrals
+
 ## Gestral Villager
 
 ```
@@ -806,6 +834,11 @@ He spends some time writing in his journal. He writes about how dangerous the Ne
  - Mechanically, I went with an artifact that charges up with every Nevron kill, that can be cashed in later down the road for extra cards.
  - 28/09/2025: Reduced cost from 4 to 3
  - 14/01/2026: Reduced cost from 3 to 2 and added Lumina token ETB
+
+
+### Rulings
+
+ - Also triggers for non-creature Nevrons 
 
 ## Healing Tint
 
@@ -1012,6 +1045,7 @@ Someone lives here.
 
 > This card is a reprint
 [Scryfall](https://scryfall.com/search?q=Mask%20of%20Memory)
+
 ### Notes
 
  - Utility equipment for Commander.
@@ -1042,6 +1076,7 @@ Tap three creatures you control: Untap Matthieu.
 
 > This card is a reprint
 [Scryfall](https://scryfall.com/search?q=Mirage%20Mirror)
+
 ### Notes
 
  - Another reprint for commander that a memorable quote was looking to attach itself to.
@@ -1083,6 +1118,11 @@ But remember, once you hit me, the battle's over, so make it count!
 
  - In the game, Ono-Puncho resides in the Gestral Village, you can challenge him a battle to win a prize. The gimmick is that you only have one shot to deal 9999 damage.
  - We've translated that gimmick to a bounce trigger when it's dealt damage (signifying end of battle). To kill it means to "make it count" and deal it lethal damage so that state-based effects will send it to the graveyard before the bounce trigger can save it.
+
+
+### Rulings
+
+ - If Ono-Puncho receives lethal damage, state-based effects will send it to the graveyard and any pending rescue triggers will fizzle.
 
 ## Paint Cage
 
@@ -1129,6 +1169,7 @@ There must be some good loot behind there!
 
 > This card is a reprint
 [Scryfall](https://scryfall.com/search?q=Patchwork%20Banner)
+
 ### Notes
 
  - Another creature type pump artifact. Expected to be added for the Nevron commander deck as Expedition Flag already exists for the Expeditioner side.
@@ -1266,6 +1307,7 @@ Esquie! Look what I found.
 
 > This card is a reprint
 [Scryfall](https://scryfall.com/search?q=Sol%20Ring)
+
 ### Notes
 
  - Obvious and obligatory commander staple
@@ -1293,6 +1335,7 @@ Humans are so rude... more so than Gestrals... which is really saying something.
 
 > This card is a reprint
 [Scryfall](https://scryfall.com/search?q=Talisman%20of%20Conviction)
+
 ### Notes
 
  - Obligatory Commander mana rock.
@@ -1301,6 +1344,7 @@ Humans are so rude... more so than Gestrals... which is really saying something.
 
 > This card is a reprint
 [Scryfall](https://scryfall.com/search?q=Talisman%20of%20Creativity)
+
 ### Notes
 
  - Obligatory Commander mana rock.
@@ -1309,6 +1353,7 @@ Humans are so rude... more so than Gestrals... which is really saying something.
 
 > This card is a reprint
 [Scryfall](https://scryfall.com/search?q=Talisman%20of%20Curiosity)
+
 ### Notes
 
  - Obligatory Commander mana rock.
@@ -1317,6 +1362,7 @@ Humans are so rude... more so than Gestrals... which is really saying something.
 
 > This card is a reprint
 [Scryfall](https://scryfall.com/search?q=Talisman%20of%20Dominance)
+
 ### Notes
 
  - Obligatory Commander mana rock.
@@ -1325,6 +1371,7 @@ Humans are so rude... more so than Gestrals... which is really saying something.
 
 > This card is a reprint
 [Scryfall](https://scryfall.com/search?q=Talisman%20of%20Hierarchy)
+
 ### Notes
 
  - Obligatory Commander mana rock.
@@ -1333,6 +1380,7 @@ Humans are so rude... more so than Gestrals... which is really saying something.
 
 > This card is a reprint
 [Scryfall](https://scryfall.com/search?q=Talisman%20of%20Impulse)
+
 ### Notes
 
  - Obligatory Commander mana rock.
@@ -1341,6 +1389,7 @@ Humans are so rude... more so than Gestrals... which is really saying something.
 
 > This card is a reprint
 [Scryfall](https://scryfall.com/search?q=Talisman%20of%20Indulgence)
+
 ### Notes
 
  - Obligatory Commander mana rock.
@@ -1349,6 +1398,7 @@ Humans are so rude... more so than Gestrals... which is really saying something.
 
 > This card is a reprint
 [Scryfall](https://scryfall.com/search?q=Talisman%20of%20Progress)
+
 ### Notes
 
  - Obligatory Commander mana rock.
@@ -1357,6 +1407,7 @@ Humans are so rude... more so than Gestrals... which is really saying something.
 
 > This card is a reprint
 [Scryfall](https://scryfall.com/search?q=Talisman%20of%20Resilience)
+
 ### Notes
 
  - Obligatory Commander mana rock.
@@ -1365,6 +1416,7 @@ Humans are so rude... more so than Gestrals... which is really saying something.
 
 > This card is a reprint
 [Scryfall](https://scryfall.com/search?q=Talisman%20of%20Unity)
+
 ### Notes
 
  - Obligatory Commander mana rock.
@@ -1410,6 +1462,11 @@ A group of five? A yummy looking cake! We have what is needed. NOW LET’S PARTY
  - Instead of counting cards in hand, we count foods on the battlefield (to flavorfully approximate the "you need 3 slices of cake to unlock this door" condition)
  - To give opponents a fighting chance with this in play, a food token is granted on ETB to each player. That way combat is not hard-locked out. 1/2-power creatures can still swing for the fences, but they could be swinging into fatties that can't currently attack, so there's a fine balancing act at play.
 
+
+### Rulings
+
+ - The Gingerbread Door's effect checks the number of foods on the battlefield only while a player (including you) is declaring attackers. Once a creature has legally attacked, changing its power or the number of cards in your hand won't remove it from combat.
+
 ## The World Canvas
 
 ```
@@ -1431,10 +1488,16 @@ Verso's childhood canvas. Where we used to play ... Where he painted Esquie and 
     - The destruction of this canvas signals the erasure of everything inside it. Mass exiling everything by expansion filter nicely symbolizes the finality of such an act.
  - 13/11/2025: Replaced flavor text with a better descriptive one.
 
+
+### Rulings
+
+ - Does not affect permanents that are reprints or nicknamed reprints.
+
 ## Thought Vessel
 
 > This card is a reprint
 [Scryfall](https://scryfall.com/search?q=Thought%20Vessel)
+
 ### Notes
 
  - Obligatory Commander mana rock.
@@ -1479,4 +1542,9 @@ Verso's Toy Chest enters with three toy counters on it.
  - Translated to a creature token maker. Only has 3 charges because a Toy Chest can only contain so much toys inside.
  - A well behaved child will return these toys when done playing with them, thus it has a toy sac ability to put extra counters on it (returning the toys).
  - Intentionally worded to allow saccing any Toy permanent (there are a few others in this set)
+
+
+### Rulings
+
+ - You can sacrifice nontoken permanents with a sub-type of Toy.
 

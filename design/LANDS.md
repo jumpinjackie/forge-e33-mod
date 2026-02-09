@@ -1,11 +1,12 @@
 # Cards
 
-> Last generated: 6/2/2026 12:09:15 pm
+> Last generated: 9/2/2026 11:55:10 am
 
 ## Blade's Graveyard (Concealed Courtyard)
 
 > This card is a nicknamed reprint of (Concealed Courtyard)
 [Scryfall](https://scryfall.com/search?q=Concealed%20Courtyard)
+
 ### Notes
 
  - Nicknamed painland reprint to flesh out commander mana bases
@@ -15,6 +16,7 @@
 
 > This card is a nicknamed reprint of (Darkslick Shores)
 [Scryfall](https://scryfall.com/search?q=Darkslick%20Shores)
+
 ### Notes
 
  - Nicknamed painland reprint to flesh out commander mana bases
@@ -24,6 +26,7 @@
 
 > This card is a reprint
 [Scryfall](https://scryfall.com/search?q=Bountiful%20Landscape)
+
 ### Notes
 
  - Easy common mana fixing for limited and smoothes out manabases for Commander.
@@ -32,6 +35,7 @@
 
 > This card is a reprint
 [Scryfall](https://scryfall.com/search?q=Command%20Tower)
+
 ### Notes
 
  - Obligatory mana fixing land for Commander
@@ -40,6 +44,7 @@
 
 > This card is a reprint
 [Scryfall](https://scryfall.com/search?q=Contaminated%20Landscape)
+
 ### Notes
 
  - Easy common mana fixing for limited and smoothes out manabases for Commander.
@@ -48,6 +53,7 @@
 
 > This card is a nicknamed reprint of (Karplusan Forest)
 [Scryfall](https://scryfall.com/search?q=Karplusan%20Forest)
+
 ### Notes
 
  - Nicknamed painland reprint to flesh out commander mana bases
@@ -77,6 +83,7 @@ If anyone finds this journal, do not enter this cave, the Nevron inside will cru
 
 > This card is a nicknamed reprint of (Inspiring Vantage)
 [Scryfall](https://scryfall.com/search?q=Inspiring%20Vantage)
+
 ### Notes
 
  - Nicknamed painland reprint to flesh out commander mana bases
@@ -105,6 +112,7 @@ The starting point of Expedition 33, the final destination for most of them.
 
 > This card is a reprint
 [Scryfall](https://scryfall.com/search?q=Deceptive%20Landscape)
+
 ### Notes
 
  - Easy common mana fixing for limited and smoothes out manabases for Commander.
@@ -171,10 +179,17 @@ So uh... We can rest a bit, but the moon is bright, I want to keep moving.
  - Intentionally worded to allow blinking of any Expeditioner *permanent*
  - 1/1/2026: Fixed targeting prompt
 
+
+### Rulings
+
+ - Can target non-creature Expeditioners.
+ - The Expeditioner you target loses any counters on it as part of zone transition so you can't stack +1/+1 counters by repeatedly targeting the same Expeditioner on every activation.
+
 ## Falling Leaves (Yavimaya, Cradle of Growth)
 
 > This card is a nicknamed reprint of (Yavimaya, Cradle of Growth)
 [Scryfall](https://scryfall.com/search?q=Yavimaya%2C%20Cradle%20of%20Growth)
+
 ### Notes
 
  - In the game, Falling Leaves is an optional area gated behind coral barriers. The Scavager boss can be found here.
@@ -184,6 +199,7 @@ So uh... We can rest a bit, but the moon is bright, I want to keep moving.
 
 > This card is a reprint
 [Scryfall](https://scryfall.com/search?q=Field%20of%20Ruin)
+
 ### Notes
 
  - Semi-flavorful reprint (on basis of name and art) to check nonbasics.
@@ -192,6 +208,7 @@ So uh... We can rest a bit, but the moon is bright, I want to keep moving.
 
 > This card is a nicknamed reprint of (Ominous Cemetery)
 [Scryfall](https://scryfall.com/search?q=Ominous%20Cemetery)
+
 ### Notes
 
  - In the game, Floating Cemetery is an optional area where an Unfinished Chalier can be found.
@@ -241,6 +258,7 @@ Lune: And they survived. The storm, at least.
 
 > This card is a reprint
 [Scryfall](https://scryfall.com/search?q=Foreboding%20Landscape)
+
 ### Notes
 
  - Easy common mana fixing for limited and smoothes out manabases for Commander.
@@ -264,10 +282,16 @@ These siege engines seemed much more powerful in Lumière. But on this battlefie
  - In the game, the Forgotten Battlefield is one of the areas the Expedition 33 crew must traverse to reach Monoco's Station.
  - Volrath's Stronghold for Nevrons
 
+
+### Rulings
+
+ - Can target non-creature Nevrons.
+
 ## Frozen Hearts (Shivan Reef)
 
 > This card is a nicknamed reprint of (Shivan Reef)
 [Scryfall](https://scryfall.com/search?q=Shivan%20Reef)
+
 ### Notes
 
  - Nicknamed painland reprint to flesh out commander mana bases
@@ -314,6 +338,7 @@ Gustave: They seem better at surviving than humans.
 
 > This card is a nicknamed reprint of (Blooming Marsh)
 [Scryfall](https://scryfall.com/search?q=Blooming%20Marsh)
+
 ### Notes
 
  - Nicknamed painland reprint to flesh out commander mana bases
@@ -341,10 +366,16 @@ The Aquafarm project ensured that Lumière would have a plentiful supply of food
  - It's a farm so obviously needs a Food token generating ability.
  - The concept art was chosen as it looked abstract enough in its depiction that it could be interpreted as a hydroponic farm which better fits the description of an Aquafarm that supplies food. Whereas its in-game depiction is clearly a rooftop greenhouse, that grows only flowers and not food.
 
+
+### Rulings
+
+ - Counts non-creatures Expeditioners as well.
+
 ## Lumière Harbor (Rishadan Port)
 
 > This card is a nicknamed reprint of (Rishadan Port)
 [Scryfall](https://scryfall.com/search?q=Rishadan%20Port)
+
 ### Notes
 
  - In the game, the harbor of Lumière is where the population congregate to witness the yearly Gommage.
@@ -434,6 +465,7 @@ The Grandis have embraced us with such warmth and hope. What a balm for the soul
 
 > This card is a reprint
 [Scryfall](https://scryfall.com/search?q=Painted%20Bluffs)
+
 ### Notes
 
  - Has "Painted" in its name, color fixes. Easy on-flavor reprint candidate.
@@ -442,6 +474,7 @@ The Grandis have embraced us with such warmth and hope. What a balm for the soul
 
 > This card is a reprint
 [Scryfall](https://scryfall.com/search?q=Perilous%20Landscape)
+
 ### Notes
 
  - Easy common mana fixing for limited and smoothes out manabases for Commander.
@@ -469,6 +502,7 @@ But it seems we've been wrong about what she is. The Paintress is just as trappe
 
 > This card is a reprint
 [Scryfall](https://scryfall.com/search?q=Seething%20Landscape)
+
 ### Notes
 
  - Easy common mana fixing for limited and smoothes out manabases for Commander.
@@ -477,6 +511,7 @@ But it seems we've been wrong about what she is. The Paintress is just as trappe
 
 > This card is a reprint
 [Scryfall](https://scryfall.com/search?q=Shattered%20Landscape)
+
 ### Notes
 
  - Easy common mana fixing for limited and smoothes out manabases for Commander.
@@ -485,6 +520,7 @@ But it seems we've been wrong about what she is. The Paintress is just as trappe
 
 > This card is a reprint
 [Scryfall](https://scryfall.com/search?q=Sheltering%20Landscape)
+
 ### Notes
 
  - Easy common mana fixing for limited and smoothes out manabases for Commander.
@@ -493,6 +529,7 @@ But it seems we've been wrong about what she is. The Paintress is just as trappe
 
 > This card is a nicknamed reprint of (Sulfurous Springs)
 [Scryfall](https://scryfall.com/search?q=Sulfurous%20Springs)
+
 ### Notes
 
  - Nicknamed painland reprint to flesh out commander mana bases
@@ -521,6 +558,7 @@ Maybe. Maybe we'll just stay here and... enjoy the melody.
 
 > This card is a nicknamed reprint of (Botanical Sanctum)
 [Scryfall](https://scryfall.com/search?q=Botanical%20Sanctum)
+
 ### Notes
 
  - Nicknamed painland reprint to flesh out commander mana bases
@@ -530,6 +568,7 @@ Maybe. Maybe we'll just stay here and... enjoy the melody.
 
 > This card is a nicknamed reprint of (Razorverge Thicket)
 [Scryfall](https://scryfall.com/search?q=Razorverge%20Thicket)
+
 ### Notes
 
  - In the game, Spring Meadows is the opening area of Act 1.
@@ -539,6 +578,7 @@ Maybe. Maybe we'll just stay here and... enjoy the melody.
 
 > This card is a nicknamed reprint of (Spirebluff Canal)
 [Scryfall](https://scryfall.com/search?q=Spirebluff%20Canal)
+
 ### Notes
 
  - In the game, a Stone Wave Cliffs is the final area of Act 1.
@@ -549,6 +589,7 @@ Maybe. Maybe we'll just stay here and... enjoy the melody.
 
 > This card is a nicknamed reprint of (Blackcleave Cliffs)
 [Scryfall](https://scryfall.com/search?q=Blackcleave%20Cliffs)
+
 ### Notes
 
  - In the game, a Sunless Cliffs is an optional area. It features a battle against a special mime.
@@ -595,6 +636,7 @@ Wait, there’s a message on the wall. “Took Maelle to the weird corals. Head 
 
 > This card is a nicknamed reprint of (Brushland)
 [Scryfall](https://scryfall.com/search?q=Brushland)
+
 ### Notes
 
  - Nicknamed painland reprint to flesh out commander mana bases
@@ -639,6 +681,11 @@ It bears the twisted memories of lands previously visited.
  - 5/10/2025: It works!
  - May change targeting to only non-basic lands to curb power level if required.
 
+
+### Rulings
+
+ - If you target The Reacher with the copy ability, it will become the copy of The Reacher with 0 sky counters. If you choose to keep this copy as part of the legend rule, it will then be an 8/8 land creature that can block, and is ready to attack on your next turn.
+
 ## The Reacher
 
 ```
@@ -668,10 +715,16 @@ Little one, there's more to life, if you can just see how big the sky truly is. 
     - Sky counter removal now only triggers on creatures *you control* with flying that attack (not entering anymore)
     - Manual sky counter removal cost changed from {G/U} to {2}{G/U}
 
+
+### Rulings
+
+ - If you copy this land with The Monolith Interior's copy ability. That land will become a copy of The Reacher with 0 sky counters. If you choose to keep this copy as part of the legend rule, it will then be an 8/8 land creature that can block, and is ready to attack on your next turn.
+
 ## The Root of All Evil (Urborg, Tomb of Yawgmoth)
 
 > This card is a nicknamed reprint of (Urborg, Tomb of Yawgmoth)
 [Scryfall](https://scryfall.com/search?q=Urborg%2C%20Tomb%20of%20Yawgmoth)
+
 ### Notes
 
  - In the game, The Root of All Evil is Osquio's lair in Verso's Drafts.
@@ -701,6 +754,7 @@ MONOCO! You're trying to skip the queue again you old... uh... old... lazy... re
 
 > This card is a reprint
 [Scryfall](https://scryfall.com/search?q=Tranquil%20Landscape)
+
 ### Notes
 
  - Easy common mana fixing for limited and smoothes out manabases for Commander.
@@ -725,6 +779,7 @@ This land enters tapped. As it enters, choose a color.
 
 > This card is a reprint
 [Scryfall](https://scryfall.com/search?q=Twisted%20Landscape)
+
 ### Notes
 
  - Easy common mana fixing for limited and smoothes out manabases for Commander.
@@ -805,6 +860,7 @@ Anxiety Mask — {2}{R}: Target creature cannot block this turn.
 
 > This card is a nicknamed reprint of (Seachrome Coast)
 [Scryfall](https://scryfall.com/search?q=Seachrome%20Coast)
+
 ### Notes
 
  - Nicknamed painland reprint to flesh out commander mana bases
@@ -814,6 +870,7 @@ Anxiety Mask — {2}{R}: Target creature cannot block this turn.
 
 > This card is a nicknamed reprint of (Copperline Gorge)
 [Scryfall](https://scryfall.com/search?q=Copperline%20Gorge)
+
 ### Notes
 
  - In the game, Yellow Harvest is an optional area.

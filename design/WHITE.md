@@ -1,11 +1,12 @@
 # Cards
 
-> Last generated: 6/2/2026 11:23:12 am
+> Last generated: 9/2/2026 11:55:10 am
 
 ## A Life to Love (Farewell)
 
 > This card is a nicknamed reprint of (Farewell)
 [Scryfall](https://scryfall.com/search?q=Farewell)
+
 ### Notes
 
  - Staple commander board wipe
@@ -97,6 +98,7 @@ Oh hey handsome, perfect timing. I’m styling everyone before we ship out. Gott
 
 > This card is a reprint
 [Scryfall](https://scryfall.com/search?q=Austere%20Command)
+
 ### Notes
 
  - Staple commander board wipe
@@ -354,6 +356,11 @@ Your time left in this life is limited, why not make it count for something?
  - 3/10/2025: This + Tomorrow Comes + Expedition 70 gives us effectively 12 Expeditioner tutors. This may be overkill and the Expeditioner strategy too consistent and we may have to rework one or more of these cards. Further playtesting will tell us.
  - 24/12/2024: Upon a second NG+ playthrough it turns out there was Expedition recruiters in the prologue (it was Alan and Catherine doing the recruiting)! I must've been psychic (or had some latent medium-term memory to remember this fact!)
 
+
+### Rulings
+
+ - Can tutor for any card that has the sub-type of Expeditioner.
+
 ## Gustave's Burial
 
 ```
@@ -432,6 +439,7 @@ Flashback — Sacrifice two Lumina tokens.
 
 > This card is a reprint
 [Scryfall](https://scryfall.com/search?q=Path%20to%20Exile)
+
 ### Notes
 
  - Obligatory spot removal in Commander
@@ -497,6 +505,7 @@ Your turn to shine!
 
 > This card is a reprint
 [Scryfall](https://scryfall.com/search?q=Second%20Thoughts)
+
 ### Notes
 
  - Another case of a quote from the game looking for a suitable reprint to attach itself to.
@@ -527,6 +536,7 @@ We are her guardians, not her jailers.
 
 > This card is a reprint
 [Scryfall](https://scryfall.com/search?q=Swords%20to%20Plowshares)
+
 ### Notes
 
  - Obligatory spot removal in Commander

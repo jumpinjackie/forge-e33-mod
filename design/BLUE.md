@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 9/2/2026 9:33:19 am
+> Last generated: 9/2/2026 11:55:10 am
 
 ## An Advantage!
 
@@ -122,6 +122,7 @@ Hello there, Gustave. Perhaps one of these artifacts may prove useful to your mi
 
 > This card is a reprint
 [Scryfall](https://scryfall.com/search?q=Counterspell)
+
 ### Notes
 
  - Obligatory counter for commander.
@@ -144,6 +145,11 @@ Tap an untapped Expeditioner you control: Tap target land.
  - Made this a hybrid of Glare of Subdual and Opposition. Base effect is Glare, but Expeditioners can have the full Opposition experience.
  - Intentionally worded so that any Expeditioner permanent can be used to tap down. May change this to Expeditioner creatures only if proven to be too powerful.
  - 14/01/2026: Added Lumina token on ETB
+
+
+### Rulings
+
+ - Is itself an Expeditioner, so it can tap itself to tap a target land.
 
 ## Cruler
 
@@ -294,6 +300,11 @@ The Paintress sent a storm to overcome us, but it is we who have overcome the st
  - 17/01/2026: Added "Spreading Seas" ETB to check nonbasics.
  - 20/01/2026: Added AI targeting hints
 
+
+### Rulings
+
+ - A land with a charted counter is an Island for as long as any instance of this creature (real or token copy) is on the battlefield. The moment there are no instances, the effect wears off and the land is no longer an Island.
+
 ## Expedition 78
 
 ```
@@ -336,6 +347,11 @@ A ROCK? I am NOT a rock, do you have rocks for eyes? You certainly have rocks fo
     - It has defender as the game portrayal has him in a stationary position that never moves.
     - The strongest ice attack ever is just a triggered ability on each of your upkeeps to deal 4 damage to a creature and if that doesn't finish it off then it taps and stuns it for a turn in line with how an ice attack would generally be represented mechanically.
  - 23/09/2025: We could've given him shield counters to match his video game counterpart, but a sufficiently big butt conveys the same message. Also we can't give *every* creature shield counters for the sake of lore accuracy. Game balance is also a factor.
+
+
+### Rulings
+
+ - Affinity for Clea Planeswalkers means it costs {1} less for each Planeswalker you control with a sub-type of "Clea". There is only one Clea Planeswalker in this set (Clea Dessendre, the Mistress), so at most this will only cost {1} less.
 
 ## Gestral Ascension Challenge
 
@@ -507,10 +523,16 @@ At the beginning of each end step, remove all flying counters on this creature.
  - The ability suite is very similar to that of Dominique Giant Feet, so has the same abilities but with adjusted costs.
  - 11/01/2026: Added Barbapapa debuff on ETB as Barbapapa debuff is one of its attacks.
 
+
+### Rulings
+
+ - The Barbapapa debuff is not optional. You must enchant a creature with it (even if it is one of your own)
+
 ## Mana Drain
 
 > This card is a reprint
 [Scryfall](https://scryfall.com/search?q=Mana%20Drain)
+
 ### Notes
 
  - Obligatory Commander counter.
@@ -562,10 +584,16 @@ Doors of chroma, open!
  - 3/11/2025: Cost bumped back up to 3UU and the R bonus changed to direct damage on any target.
  - 21/01/2026: Changed W payment bonus from mass sweeper of stunned creatures to single target stunned creature exile.
 
+
+### Rulings
+
+ - You nominate a target creature for the "deals X damage ability" as part of putting the spell on the stack. It will only then deal X damage to said creature on resolution if you spent {R} on the spell.
+
 ## Spreading Seas
 
 > This card is a reprint
 [Scryfall](https://scryfall.com/search?q=Spreading%20Seas)
+
 ### Notes
 
  - Flavorful reprint to check nonbasics.
@@ -629,6 +657,11 @@ Create a Lumina token. (It's an artifact with "{T}, Sacrifice this artifact: Scr
     - R: Bolt an extra target
     - G: Gain 3 life
  - 14/01/2026: Added Lumina token bonus on resolution
+
+
+### Rulings
+
+ - You nominate a target bolt ability as part of putting the spell on the stack. It will only then bolt said target on resolution if you spent {R} on the spell.
 
 ## Verisimilitude
 
