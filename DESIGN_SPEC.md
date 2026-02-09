@@ -229,7 +229,13 @@ Not used in any other context.
 
 This is where your thoughts around the design of the card can be specified. This is added verbatim to the design notes md document, so you can use any markdown syntax as long as you don't use any of the reserved property tokens here.
 
-Not used for Forge and CardConjurer targets
+Not used for Forge and CardConjurer targets.
+
+## Rulings (`[Rulings]`)
+
+This is for clarifying rulings and interactions. Used in .md generation.
+
+Not used in any other contexts.
 
 ### Known Issues / Bugs (`[Bugs]`)
 

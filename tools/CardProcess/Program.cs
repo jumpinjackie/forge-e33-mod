@@ -53,6 +53,8 @@ public class CardFaceDesign
 
     public string[]? DesignNotes { get; set; }
 
+    public string[]? ExtraNotes { get; set; }
+
     public string[]? Bugs { get; set; }
 
     public string? PT { get; set; }
@@ -80,6 +82,8 @@ public class CardFaceDesign
     public int? DraftScore { get; set; }
 
     public string[]? Tags { get; set; }
+
+    public string[]? Cycle { get; set; }
 
     internal void Apply(string propertyName, IEnumerable<string> buffer)
     {
@@ -155,6 +159,13 @@ public class CardFaceDesign
                 break;
             case nameof(Tags):
                 Tags = buffer.ToArray();
+                break;
+            case nameof(Cycle):
+                Cycle = buffer.ToArray();
+                break;
+            case nameof(ExtraNotes):
+            case "Rulings":
+                ExtraNotes = buffer.ToArray();
                 break;
         }
     }
@@ -1263,6 +1274,7 @@ public class CardMasterDesign
                 case "[AbilityWords]":
                 case "[FlavorText]":
                 case "[DesignNotes]":
+                case "[Rulings]":
                 case "[Bugs]":
                 case "[Loyalty]":
                 case "[Colors]":
@@ -1389,6 +1401,10 @@ public class CardMasterDesign
 
     public IEnumerable<string> AllDesignNotes => [.. FrontFull?.DesignNotes ?? [], .. SplitLeft?.DesignNotes ?? [], .. SplitRight?.DesignNotes ?? [], .. MeldTarget?.DesignNotes ?? [], .. BackFull?.DesignNotes ?? []];
 
+    public IEnumerable<string> AllExtraNotes => [.. FrontFull?.ExtraNotes ?? [], .. SplitLeft?.ExtraNotes ?? [], .. SplitRight?.ExtraNotes ?? [], .. MeldTarget?.ExtraNotes ?? [], .. BackFull?.ExtraNotes ?? []];
+
+    public IEnumerable<string> AllCycles => [.. FrontFull?.Cycle ?? [], .. SplitLeft?.Cycle ?? [], .. SplitRight?.Cycle ?? [], .. MeldTarget?.Cycle ?? [], .. BackFull?.Cycle ?? []];
+
     internal async Task WriteDocAsync(string baseDir, TextWriter writer, TextWriter stdout, TextWriter stderr)
     {
         if (!this.AllDesignNotes.Any())
@@ -1412,7 +1428,7 @@ public class CardMasterDesign
                 await writer.WriteLineAsync("> This card is a reprint");
                 await writer.WriteLineAsync($"[Scryfall](https://scryfall.com/search?q={Uri.EscapeDataString(this.Name)})");
             }
-            await WriteDesignNotesAsync("Notes");
+            await WriteNotesAsync(writer, this.AllDesignNotes, "Notes");
 
         }
         else
@@ -1449,8 +1465,8 @@ public class CardMasterDesign
                         else
                             await writer.WriteLineAsync($"[card implementation]({normBaseDir}/{firstLetter}/{scriptName})");
 
-                        await writer.WriteLineAsync();
-                        await WriteDesignNotesAsync();
+                        await WriteNotesAsync(writer, this.AllDesignNotes);
+                        await WriteNotesAsync(writer, this.AllExtraNotes, "Rulings");
                     }
                     break;
                 case CardFaceType.SplitFuse:
@@ -1482,8 +1498,9 @@ public class CardMasterDesign
                             await writer.WriteLineAsync("> This card is not yet implemented in Forge");
                         else
                             await writer.WriteLineAsync($"[card implementation]({normBaseDir}/{firstLetter}/{scriptName})");
-                        await writer.WriteLineAsync();
-                        await WriteDesignNotesAsync();
+
+                        await WriteNotesAsync(writer, this.AllDesignNotes);
+                        await WriteNotesAsync(writer, this.AllExtraNotes, "Rulings");
                     }
                     break;
                 case CardFaceType.Meld:
@@ -1538,18 +1555,23 @@ public class CardMasterDesign
                             await writer.WriteLineAsync("> This card is not yet implemented in Forge");
                         else
                             await writer.WriteLineAsync($"[card implementation]({normBaseDir}/{firstLetter}/{scriptName})");
-                        await writer.WriteLineAsync();
-                        await WriteDesignNotesAsync();
+
+                        await WriteNotesAsync(writer, this.AllDesignNotes);
+                        await WriteNotesAsync(writer, this.AllExtraNotes, "Rulings");
                     }
                     break;
             }
         }
 
-        async Task WriteDesignNotesAsync(string heading = "Design Notes")
+        static async Task WriteNotesAsync(TextWriter writer, IEnumerable<string> notes, string heading = "Design Notes")
         {
+            if (!notes.Any())
+                return;
+
+            await writer.WriteLineAsync();
             await writer.WriteLineAsync($"### {heading}");
             await writer.WriteLineAsync();
-            foreach (var n in this.AllDesignNotes)
+            foreach (var n in notes)
             {
                 await writer.WriteLineAsync(n);
             }
@@ -2537,14 +2559,14 @@ public class GenAllCommand : BaseCommand
 
             var missingImages = new List<string>();
 
-            var tokenImages = new List<(string path, string name, string bucket, string? nicknameFor, bool isCommander, string[] tags)>();
+            var tokenImages = new List<(string path, string name, string bucket, string? nicknameFor, bool isCommander, string[] tags, string[] cycles)>();
             if (Directory.Exists(tokensPicsDir))
             {
                 foreach (var token in tokens)
                 {
                     var imgPath = Path.Combine(tokensPicsDir, token.Value.Filename + ".jpg");
                     if (File.Exists(imgPath))
-                        tokenImages.Add((imgPath, token.Value.Name ?? "", "TOKENS", null, false, Array.Empty<string>()));
+                        tokenImages.Add((imgPath, token.Value.Name ?? "", "TOKENS", null, false, Array.Empty<string>(), Array.Empty<string>()));
                 }
 
                 // Special case for tokens without script files
@@ -2558,7 +2580,7 @@ public class GenAllCommand : BaseCommand
                 {
                     var imgPath = Path.Combine(tokensPicsDir, filename);
                     if (File.Exists(imgPath))
-                        tokenImages.Add((imgPath, name, "TOKENS", null, false, Array.Empty<string>()));
+                    tokenImages.Add((imgPath, name, "TOKENS", null, false, Array.Empty<string>(), Array.Empty<string>()));
                 }
 
                 // Sort tokens alphabetically by name
@@ -2580,7 +2602,7 @@ public class GenAllCommand : BaseCommand
                     var totalCards = 0;
                     var totalCardsWithImages = 0;
                     var bucketSummaries = new Dictionary<string, (int withImages, int total)>();
-                    var baseImages = new List<(string path, string name, string bucket, string? nicknameFor, bool isCommander, string[] tags)>();
+                    var baseImages = new List<(string path, string name, string bucket, string? nicknameFor, bool isCommander, string[] tags, string[] cycles)>();
                     foreach (var (bucket, imageList, cardsWithImagesTotal, cardsTotal) in GenerateImageLists(false))
                     {
                         //spoilerWriter.WriteLine("## " + bucket);
@@ -2611,7 +2633,7 @@ public class GenAllCommand : BaseCommand
                     var totalCards = 0;
                     var totalCardsWithImages = 0;
                     var bucketSummaries = new Dictionary<string, (int withImages, int total)>();
-                    var cmdrImages = new List<(string path, string name, string bucket, string? nicknameFor, bool isCommander, string[] tags)>();
+                    var cmdrImages = new List<(string path, string name, string bucket, string? nicknameFor, bool isCommander, string[] tags, string[] cycles)>();
                     foreach (var (bucket, imageList, cardsWithImagesTotal, cardsTotal) in GenerateImageLists(true))
                     {
                         //spoilerWriter.WriteLine("## " + bucket);
@@ -2648,7 +2670,7 @@ public class GenAllCommand : BaseCommand
                 }
             }
 
-            IEnumerable<(string bucket, List<(string path, string name, string bucket, string? nicknameFor, bool isCommander, string[] tags)> images, int cardsWithImagesTotal, int cardsTotal)> GenerateImageLists(bool isCommander)
+            IEnumerable<(string bucket, List<(string path, string name, string bucket, string? nicknameFor, bool isCommander, string[] tags, string[] cycles)> images, int cardsWithImagesTotal, int cardsTotal)> GenerateImageLists(bool isCommander)
             {
                 var picsDir = isCommander ? cmdrCardsPicsDir : baseCardsPicsDir;
                 var baseGroups = cards.Where(c => c.Value.IsCommander == isCommander).GroupBy(c => c.Value.Bucket).ToList();
@@ -2660,7 +2682,7 @@ public class GenAllCommand : BaseCommand
                     {
                         var cardsWithImagesTotal = 0;
                         var cardsTotal = 0;
-                        var images = new List<(string path, string name, string bucket, string? nicknameFor, bool isCommander, string[] tags)>();
+                        var images = new List<(string path, string name, string bucket, string? nicknameFor, bool isCommander, string[] tags, string[] cycles)>();
                         var orderedGroup = bucket == "LANDS" ? (IEnumerable<KeyValuePair<string, CardMasterDesign>>)group.OrderBy(c => IsBasicLand(c.Value.Name) ? 1 : 0).ThenBy(c => c.Key) : group;
                         foreach (var (name, card) in orderedGroup)
                         {
@@ -2670,7 +2692,7 @@ public class GenAllCommand : BaseCommand
                             {
                                 var imgPath = Path.Combine(picsDir, imgName);
                                 if (File.Exists(imgPath))
-                                    images.Add((imgPath, card.Name, bucket, card.NicknameFor, card.IsCommander, card.Tags.ToArray()));
+                                    images.Add((imgPath, card.Name, bucket, card.NicknameFor, card.IsCommander, card.Tags.ToArray(), card.AllCycles?.ToArray() ?? Array.Empty<string>()));
                                 else
                                     complete = false;
                             }
@@ -2686,7 +2708,7 @@ public class GenAllCommand : BaseCommand
                 bool IsBasicLand(string name) => name is "Forest" or "Island" or "Mountain" or "Plains" or "Swamp";
             }
 
-            static void WriteSpoilerTable(StreamWriter spoilerWriter, List<(string path, string name, string bucket, string? nicknameFor, bool isCommander, string[] tags)> images, DirectoryInfo outputDir, bool linkifyCaptions, bool isTokenImages)
+                static void WriteSpoilerTable(StreamWriter spoilerWriter, List<(string path, string name, string bucket, string? nicknameFor, bool isCommander, string[] tags, string[] cycles)> images, DirectoryInfo outputDir, bool linkifyCaptions, bool isTokenImages)
             {
                 const int COLUMNS = 3;
 
@@ -2703,7 +2725,7 @@ public class GenAllCommand : BaseCommand
                         var idx = i + c;
                         if (idx < images.Count)
                         {
-                            var (abs, name, bucket, nicknameFor, isCommander, tags) = images[idx];
+                            var (abs, name, bucket, nicknameFor, isCommander, tags, cycles) = images[idx];
                             var rel = Path.GetRelativePath(outputDir.FullName, abs).Replace("\\", "/");
                             // Percent-encode each path segment so spaces and special chars work in Markdown image URLs
                             var encodedRel = string.Join("/", rel.Split('/').Select(seg => System.Uri.EscapeDataString(seg)));
@@ -2711,6 +2733,7 @@ public class GenAllCommand : BaseCommand
                             imageRow[c] = $"![]({encodedRel})";
                             // Build tag HTML only for non-commander cards with non-empty tag arrays
                             var tagsHtml = string.Empty;
+                            var cyclesHtml = string.Empty;
                             if (!isCommander && !isTokenImages)
                             {
                                 if (tags is not null && tags.Length > 0)
@@ -2723,6 +2746,13 @@ public class GenAllCommand : BaseCommand
                                 {
                                     tagsHtml = $"<br/><small>Tags: (none)</small>";
                                 }
+
+                                if (cycles is not null && cycles.Length > 0)
+                                {
+                                    var sortedCycles = cycles.OrderBy(c => c).ToArray();
+                                    var cyclesText = EscapeXml(string.Join(", ", sortedCycles));
+                                    cyclesHtml = $"<br/><small>Cycle(s): {cyclesText}</small>";
+                                }
                             }
                             // Caption in the next row
                             if (linkifyCaptions && !string.IsNullOrEmpty(bucket) && bucket != "TOKENS" && !IsBasicLand(name))
@@ -2731,11 +2761,11 @@ public class GenAllCommand : BaseCommand
                                 var anchorName = nicknameFor != null ? $"{name} ({nicknameFor})" : name;
                                 var anchor = CreateMarkdownAnchor(anchorName);
                                 var displayName = anchorName;
-                                captionRow[c] = $"<center>[{displayName}]({bucket}.md#{anchor}){tagsHtml}</center>";
+                                captionRow[c] = $"<center>[{displayName}]({bucket}.md#{anchor}){tagsHtml}{cyclesHtml}</center>";
                             }
                             else
                             {
-                                captionRow[c] = $"<center>{name}{tagsHtml}</center>";
+                                captionRow[c] = $"<center>{name}{tagsHtml}{cyclesHtml}</center>";
                             }
 
                             static bool IsBasicLand(string name) => name switch
