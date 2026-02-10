@@ -1,5 +1,5 @@
 Name:Esquie's Wine Compartment
-ManaCost:1 G
+ManaCost:2
 Types:Legendary Artifact Food
 K:etbCounter:WINE:5
 A:AB$ Pump | Cost$ SubCounter<1/WINE> | ValidTgts$ Creature.YouCtrl | TgtPrompt$ Select target creature you control | NumAtt$ +1 | NumDef$ -1 | SubAbility$ DBLifeGain | SpellDescription$ Target creature you control gets +1/-1 until end of turn. You gain 1 life.

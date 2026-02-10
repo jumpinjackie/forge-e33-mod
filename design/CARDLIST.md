@@ -162,7 +162,7 @@ Cards implemented: 455
 [x] Expedition 78
 [x] Expedition 78 Airship
 [x] Expedition 81 Interpreter
-[x] Expedition Cache
+[ ] Expedition Cache
 [x] Expedition Camp
 [x] Expedition Flag
 [x] Expedition Flotilla

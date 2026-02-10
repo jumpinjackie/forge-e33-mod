@@ -6,6 +6,9 @@ W
 Instant
 [Oracle]
 Exile target creature. Its controller gains life equal to its power.
+[FlavorText]
+Once a farmer, always a farmer.
+- Sciel
 [IsReprint]
 true
 [IsCommander]
@@ -13,6 +16,6 @@ true
 [Rarity]
 U
 [Artist]
-Nadia Hurianova
+Google Gemini
 [DesignNotes]
  - Obligatory spot removal in Commander

@@ -1,8 +1,7 @@
 [Name]
 Esquie's Wine Compartment
 [ManaCost]
-1
-G
+2
 [Types]
 Legendary
 Artifact
@@ -27,3 +26,4 @@ Sandfall Interactive
  - In the game, after slaying the two Axons and acquiring enough Chroma for The Curator to forge the Barrier Breaker, the party congregates at camp, amazed that the possibility that they can actually now take down The Paintress. It was at this moment that Sciel reveals a terrible secret to the rest of the party: That Esquie has a hidden compartment for storing wine. Everybody (except Maelle) have some wine to celebrate the occasion.
  - The temporary +1/-1 is my attempt to model drunkeness.
  - Wine is technically food/nourishment, so it falls under the Food classifier and has the standard Food token ability.
+ - 11/02/2026: Color-shifted from green to artifacts.

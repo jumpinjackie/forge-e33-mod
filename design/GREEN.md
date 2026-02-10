@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 9/2/2026 11:55:10 am
+> Last generated: 10/2/2026 3:18:36 pm
 
 ## Abbest
 
@@ -157,27 +157,6 @@ When this creature dies, target opponent creates a Lumina token. (It's an artifa
 ### Notes
 
  - Commander staple.
-
-## Esquie's Wine Compartment
-
-```
-1G
-Legendary Artifact - Food
-Esquie's Wine Compartment enters with five wine counters on it.
-Remove a wine counter from Esquie's Wine Compartment: Target creature you control gets +1/-1 until end of turn. You gain 1 life.
-{2}, {T}, Sacrifice Esquie's Wine Compartment: You gain 3 life.
----
-I stored my personal stash inside him. All excellent vintages. I don’t normally share, but I suppose tonight deserves an exception.
-- Verso
-```
-
-[card implementation](../custom/cards/e/esquies_wine_compartment.txt)
-
-### Design Notes
-
- - In the game, after slaying the two Axons and acquiring enough Chroma for The Curator to forge the Barrier Breaker, the party congregates at camp, amazed that the possibility that they can actually now take down The Paintress. It was at this moment that Sciel reveals a terrible secret to the rest of the party: That Esquie has a hidden compartment for storing wine. Everybody (except Maelle) have some wine to celebrate the occasion.
- - The temporary +1/-1 is my attempt to model drunkeness.
- - Wine is technically food/nourishment, so it falls under the Food classifier and has the standard Food token ability.
 
 ## Expedition 00 Tracker
 
@@ -558,6 +537,28 @@ Hi Gustave. You’re back. Did you want to pick out a different flower?
 
  - In the game, Ophelie operates a stand in the Lumière flower market.
  - Easy map to a creature that makes Flower tokens.
+
+## Outdome Scouting Party
+
+```
+2G
+Creature - Human Expeditioner Scout
+Landfall — Whenever a land you control enters, create a Flower token. (It’s an artifact with “{T}, Sacrifice this artifact: Add {U}, {R} or {G}.”)
+When this creature dies, create a Chroma token.
+---
+The Outdome teams brought back loads of new plants from the surrounding islands. That’s how I actually met Pierre. I asked his team for honeypetal samples. He brought me a bouquet of them, and 15 boxes of plant cuttings.
+- Sciel
+
+3/2
+```
+
+[card implementation](../custom/cards/o/outdome_scouting_party.txt)
+
+### Design Notes
+
+ - In the game, during one of Verso's camp conversations with Sciel, she was asked about how she met her husband, Pierre. She met him through asking his Outdome team for plant samples.
+ - This card depicts one of these Outdome teams.
+ - Generating a one-shot mana rock on every land drop sounds really powerful, but Tireless Provisioner already exists and has similar stats and abilities (generates Food or Treasure tokens on land drop instead of Flower tokens) and this creature is costed the same, so I'm comfortable with the power level of the current design.
 
 ## Playing with Monoco
 

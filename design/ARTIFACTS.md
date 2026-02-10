@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 9/2/2026 11:55:10 am
+> Last generated: 10/2/2026 3:17:13 pm
 
 ## A Rock for François
 
@@ -358,6 +358,28 @@ Damn you Esquie and your stupid mushrooms. Your friend ate them with no problem 
 
  - If you "food poison" a creature with protection it will deal 0 damage to itself if it is the color it has protection from. So if targeting a Gault (green, has pro-green) or Rocher (red, has pro-red), it will deal 0 damage to itself.
 
+## Esquie's Wine Compartment
+
+```
+2
+Legendary Artifact - Food
+Esquie's Wine Compartment enters with five wine counters on it.
+Remove a wine counter from Esquie's Wine Compartment: Target creature you control gets +1/-1 until end of turn. You gain 1 life.
+{2}, {T}, Sacrifice Esquie's Wine Compartment: You gain 3 life.
+---
+I stored my personal stash inside him. All excellent vintages. I don’t normally share, but I suppose tonight deserves an exception.
+- Verso
+```
+
+[card implementation](../custom/cards/e/esquies_wine_compartment.txt)
+
+### Design Notes
+
+ - In the game, after slaying the two Axons and acquiring enough Chroma for The Curator to forge the Barrier Breaker, the party congregates at camp, amazed that the possibility that they can actually now take down The Paintress. It was at this moment that Sciel reveals a terrible secret to the rest of the party: That Esquie has a hidden compartment for storing wine. Everybody (except Maelle) have some wine to celebrate the occasion.
+ - The temporary +1/-1 is my attempt to model drunkeness.
+ - Wine is technically food/nourishment, so it falls under the Food classifier and has the standard Food token ability.
+ - 11/02/2026: Color-shifted from green to artifacts.
+
 ## Expedition 50 Ferris Wheel
 
 ```
@@ -398,27 +420,6 @@ We radioed our first report to Gamma. The line is good.
 
  - In the game, Expedition 64 used radio communications to keep in touch. The expedition started to collapse and eventually fail when their radio communications broke down.
  - I've interpreted the radio device as an artifact that has a ringleader effect when it ETBs to represent "calling for backup"
-
-## Expedition Cache
-
-```
-2
-Artifact
-{T}, Sacrifice this artifact: Create two Lumina tokens.
-{T}, Sacrifice this artifact: Create two Chroma tokens.
-Luminous — When this artifact is put into a graveyard from the battlefield, draw a card if you control at least three Lumina tokens.
----
-This could be useful!
-- Gustave
-```
-
-[card implementation](../custom/cards/e/expedition_cache.txt)
-
-### Design Notes
-
- - In the game, these caches are scattered throughout the continent, left by previous Expeditions "for those who come after"
- - Just an enabler for Lumina/Chroma token strategies
- - 27/11/2025: Added Luminous bonus
 
 ## Expedition Flag
 

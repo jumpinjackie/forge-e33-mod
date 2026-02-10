@@ -1,0 +1,32 @@
+[Name]
+Outdome Scouting Party
+[ManaCost]
+2
+G
+[Types]
+Creature
+Human
+Expeditioner
+Scout
+[Rarity]
+U
+[Artist]
+Google Gemini
+[PT]
+3/2
+[Oracle]
+Landfall — Whenever a land you control enters, create a Flower token. (It’s an artifact with “{T}, Sacrifice this artifact: Add {U}, {R} or {G}.”)
+$EXPEDITIONER_DEATH_ABILITY_TEXT
+[AbilityWords]
+Landfall
+[FlavorText]
+The Outdome teams brought back loads of new plants from the surrounding islands. That’s how I actually met Pierre. I asked his team for honeypetal samples. He brought me a bouquet of them, and 15 boxes of plant cuttings.
+- Sciel
+[ForgeScript]
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Land.YouCtrl | TriggerZones$ Battlefield | Execute$ DBFlower | TriggerDescription$ Whenever a land you control enters, create a Flower token. (It’s an artifact with “{T}, Sacrifice this artifact: Add {U}, {R} or {G}.”)
+SVar:DBFlower:DB$ Token | TokenAmount$ 1 | TokenScript$ c_a_flower | TokenOwner$ You | SpellDescription$ Treasure
+$EXPEDITIONER_DEATH_ABILITY
+[DesignNotes]
+ - In the game, during one of Verso's camp conversations with Sciel, she was asked about how she met her husband, Pierre. She met him through asking his Outdome team for plant samples.
+ - This card depicts one of these Outdome teams.
+ - Generating a one-shot mana rock on every land drop sounds really powerful, but Tireless Provisioner already exists and has similar stats and abilities (generates Food or Treasure tokens on land drop instead of Flower tokens) and this creature is costed the same, so I'm comfortable with the power level of the current design.

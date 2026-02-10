@@ -1,0 +1,9 @@
+Name:Outdome Scouting Party
+ManaCost:2 G
+Types:Creature Human Expeditioner Scout
+PT:3/2
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Land.YouCtrl | TriggerZones$ Battlefield | Execute$ DBFlower | TriggerDescription$ Whenever a land you control enters, create a Flower token. (It’s an artifact with “{T}, Sacrifice this artifact: Add {U}, {R} or {G}.”)
+SVar:DBFlower:DB$ Token | TokenAmount$ 1 | TokenScript$ c_a_flower | TokenOwner$ You | SpellDescription$ Treasure
+T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Card.Self | Execute$ TrigToken | TriggerDescription$ When CARDNAME dies, create a Chroma token
+SVar:TrigToken:DB$ Token | TokenScript$ c_a_chroma | TokenOwner$ You | TokenAmount$ 1
+Oracle:Landfall — Whenever a land you control enters, create a Flower token. (It’s an artifact with “{T}, Sacrifice this artifact: Add {U}, {R} or {G}.”)\nWhen this creature dies, create a Chroma token.
