@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 9/2/2026 11:55:10 am
+> Last generated: 10/2/2026 1:53:09 pm
 
 ## A Storm is Coming
 
@@ -2521,7 +2521,7 @@ When one falls, we continue.
 ## The Paintress // Aline Dessendre, Stricken by Grief
 
 ```
-RGWU
+2GWU
 Legendary Creature - Painter God
 Void Meteors — {B}{R}, {T}: The Paintress deals 3 damage divided as you choose among any number of target creatures and/or planeswalkers.
 Rips apart reality — {2}{U}, {T}: Up to two target nonland permanents phase out.
@@ -2549,11 +2549,12 @@ At the beginning of your upkeep, create a Chroma token.
  - In the game, The Paintress is the main antagonist, until the conclusion of Act 2, when you discover she is not. She is in fact, trying to *protect* the people of Lumière from the true instigator of the yearly Gommages (Renoir) and her yearly countdown on The Monolith is a signal of her waning powers in fighting against this tide.
  - Abilities drawn from the various moves she has in her boss battle. Because 2 of these 3 abilities already exist as separate cards, we've gone with slight tweaks/variations for the abilities here.
    - Void Meteors: Only deals 3 damage and can only target creatures.
-   - Rips apart reality: Phases out permanents instead of putting it on top/bottom of owner's library.
+   - Rips apart reality: Phases out permanents instead of bouncing them.
  - As much as I personally despise double-faced cards (because of logistics around limited and sleeves, requiring paper hacks like checklist cards), flavorfully this has to be a creature that transforms to her Planeswalker half.
    - If we ever print this, it will be printed over 2 cards and not as a double-faced one, because I want a printed version of this set to be playable as-is without sleeves (as Richard Garfield intended).
  - In terms of planeswalker design, the primary theme is around Chroma and her mastery of it.
  - 29/11/2025: Void meteor ability cost adjusted so that she can be a 5c commander.
+ - 11/02/2026: Changed mana cost from RGWU to 2GWU to improve her limited playability (4-color is a tall order). Void Meteors ability ensures she remains a 5-color commander.
 
 
 ### Rulings
