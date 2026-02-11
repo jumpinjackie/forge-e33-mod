@@ -62,12 +62,32 @@ If you want to run a custom cube draft with this set, assuming you installed the
 1. Install Cockatrice
 2. Git clone this repo
 3. Run `build.sh`. The Cockatrice assets will be under `custom/dist/cockatrice`
-4. In Cockatrice, select `Card Database - Add custom sets/cards` and select the `custom/dist/cockatrice/E33.xml` file.
+4. In Cockatrice, select `Card Database - Add custom sets/cards` and select the `custom/dist/cockatrice/Expedition33.xml` file.
 
 ## From release assets
 
 1. For the relevant release, download the `Expedition33.xml` file.
 2. In Cockatrice, select `Card Database - Add custom sets/cards` and select the `Expedition33.xml` file you downloaded.
+
+# Cube Drafting this set (with dr4ft)
+
+> NOTE: There's an issue with dr4ft where it has incomplete support for importing custom DFC/Meld cards. As a result, you cannot see the other face of double-faced or meld cards in your current pack. You can see the faces of such cards just fine in Cockatrice, so I doubt it is something wrong with the XML file. As a workaround, refer to the [Visual Spoiler](design/SPOILER.md) whenever you see the front face of a DFC/meld card. Such cards have enough visual clues in their card frame
+
+1. Visit [the website](https://dr4ft.info/) or your locally spun up instance.
+2. Upload the `Expedition33_dr4ft.xml` file (DO NOT use `Expedition33.xml` as this contains commander cards and tokens and dr4ft doesn't like that. DO NOT use `Expedition33_dr4ft_fork.xml` as that contains DFC/Meld metadata that blows up importing into dr4ft.info. Only my fork of dr4ft can handle this particular file)
+3. Create a new cube draft. Paste the contents of `dr4ft_cube.txt`
+4. Share the draft room link with other players.
+5. Start the draft once all players have connected.
+
+# Cube Drafting this set (with my fork of dr4ft)
+
+> NOTE: Use my fork of dr4ft if you wish to cube draft this set and be able to preview DFC/Meld cards. You will have to spin up your own separate instance of this fork.
+
+1. Spin up [my fork of dr4ft](https://github.com/jumpinjackie/dr4ft)
+2. Upload the `Expedition33_dr4ft_fork.xml` file (DO NOT use `Expedition33.xml` as this contains commander cards and tokens and dr4ft doesn't like that)
+3. Create a new cube draft. Paste the contents of `dr4ft_cube.txt`
+4. Share the draft room link with other players. If you spun this up on localhost, you will need to tunnel port 1337 so this dr4ft instance accessible to the outside world for other players to join in.
+5. Start the draft once all players have connected.
 
 # Set overview
 
@@ -98,3 +118,13 @@ To see what cards are in this set, check out the various design docs which detai
 # Known issues
 
  * [Current List](/design/BUGS.md)
+
+# AI Content Disclosure
+
+Artwork for most cards are (c) Sandfall Interactive (thanks for adding Photo Mode to make this job so easy!).
+
+Where we have cards that have no in-game artistic depictions, the artwork for such cards was generated with Google Gemini, using character/fashion/scene references from the video game where possible.
+
+All cards in this set properly credit/attribute the relevant artists so you know which ones use AI artwork and which ones don't, if it wasn't clear enough already.
+
+No generative AI was used in actual card mechanics, designs and implementations.
