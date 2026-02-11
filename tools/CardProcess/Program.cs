@@ -2375,15 +2375,16 @@ public class GenAllCommand : BaseCommand
         }
     }
 
-    record CockatriceXmlOptions(string FileName, string? ImageBaseUrl, bool IncludeBasics, bool IncludeCommander, bool IncludeTokens);
+    record CockatriceXmlOptions(string FileName, string? ImageBaseUrl, bool IncludeBasics, bool IncludeCommander, bool IncludeTokens, bool Dr4ftForkSupport);
 
     private async Task GenerateCockatriceXmlAsync(SortedDictionary<string, CardMasterDesign> cards, SortedDictionary<string, TokenDefinition> tokens, TextWriter stdout)
     {
         var cockatriceDir = Path.Combine(this.BaseDirectory.FullName, "dist", "cockatrice");
         Directory.CreateDirectory(cockatriceDir);
 
-        await GenerateXmlAsync(cards, tokens, new DirectoryInfo(cockatriceDir), stdout, new("Expedition33.xml", this.ImageBaseUrl, true, true, true));
-        await GenerateXmlAsync(cards, tokens, new DirectoryInfo(cockatriceDir), stdout, new("Expedition33_dr4ft.xml", this.ImageBaseUrl, false, false, false));
+        await GenerateXmlAsync(cards, tokens, new DirectoryInfo(cockatriceDir), stdout, new("Expedition33.xml", this.ImageBaseUrl, true, true, true, false));
+        await GenerateXmlAsync(cards, tokens, new DirectoryInfo(cockatriceDir), stdout, new("Expedition33_dr4ft.xml", this.ImageBaseUrl, false, false, false, false));
+        await GenerateXmlAsync(cards, tokens, new DirectoryInfo(cockatriceDir), stdout, new("Expedition33_dr4ft_fork.xml", this.ImageBaseUrl, false, false, false, true));
 
         var cubePath = Path.Combine(cockatriceDir, "dr4ft_cube.txt");
         using var sw = new StreamWriter(cubePath);
@@ -2458,6 +2459,23 @@ public class GenAllCommand : BaseCommand
                     setEl = $"<set rarity=\"{GetRarity(face.Name, face.Rarity)}\" picurl=\"{picUrl}\">{setCode}</set>";
                 }
 
+                string layoutEl;
+                if (options.Dr4ftForkSupport) // My fork of dr4ft supports DFC/Meld cards, but this metadata breaks import if imported into dr4ft.info
+                {
+                    layoutEl = card.FaceType switch
+                    {
+                        CardFaceType.SplitFuse => "<layout>split</layout>",
+                        CardFaceType.SplitRoom => "<layout>split</layout>",
+                        CardFaceType.DoubleFaced => "<layout>transform</layout>",
+                        CardFaceType.Meld => "<layout>meld</layout>",
+                        _ => "<!-- no layout -->"
+                    };
+                }
+                else // For importing into dr4ft.info. DFC/Meld cards won't work (you'll only ever see the front face)
+                {
+                    layoutEl = (card.FaceType == CardFaceType.SplitFuse || card.FaceType == CardFaceType.SplitRoom ? "<layout>split</layout>" : "<!-- no layout -->");
+                }
+
                 sb.AppendLine($$"""
                     <card>
                       <name>{{EscapeXml(face.Name)}}</name>
@@ -2472,7 +2490,7 @@ public class GenAllCommand : BaseCommand
                         {{(face.Side is not null ? $"<side>{face.Side}</side>" : "<!-- no side -->")}}
                         {{(face.PT is not null ? $"<pt>{face.PT}</pt>" : "<!-- no pt -->")}}
                         {{(face.Loyalty is not null ? $"<loyalty>{face.Loyalty}</loyalty>" : "<!-- no pw loyalty -->")}}
-                        {{(card.FaceType == CardFaceType.SplitFuse || card.FaceType == CardFaceType.SplitRoom ? "<layout>split</layout>" : "<!-- no layout -->")}}
+                        {{(layoutEl)}}
                       </prop>
                       <tablerow>{{face.GetTableRow()}}</tablerow>
                       {{(face.RelatedCardName is not null ? $"<related attach=\"transform\">{face.RelatedCardName}</related>" : "<!-- no related -->")}}
@@ -2580,7 +2598,7 @@ public class GenAllCommand : BaseCommand
                 {
                     var imgPath = Path.Combine(tokensPicsDir, filename);
                     if (File.Exists(imgPath))
-                    tokenImages.Add((imgPath, name, "TOKENS", null, false, Array.Empty<string>(), Array.Empty<string>()));
+                        tokenImages.Add((imgPath, name, "TOKENS", null, false, Array.Empty<string>(), Array.Empty<string>()));
                 }
 
                 // Sort tokens alphabetically by name
@@ -2708,7 +2726,7 @@ public class GenAllCommand : BaseCommand
                 bool IsBasicLand(string name) => name is "Forest" or "Island" or "Mountain" or "Plains" or "Swamp";
             }
 
-                static void WriteSpoilerTable(StreamWriter spoilerWriter, List<(string path, string name, string bucket, string? nicknameFor, bool isCommander, string[] tags, string[] cycles)> images, DirectoryInfo outputDir, bool linkifyCaptions, bool isTokenImages)
+            static void WriteSpoilerTable(StreamWriter spoilerWriter, List<(string path, string name, string bucket, string? nicknameFor, bool isCommander, string[] tags, string[] cycles)> images, DirectoryInfo outputDir, bool linkifyCaptions, bool isTokenImages)
             {
                 const int COLUMNS = 3;
 
