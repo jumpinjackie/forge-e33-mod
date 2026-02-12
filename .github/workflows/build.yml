@@ -73,6 +73,7 @@ jobs:
           custom/dist/forge/E33_Cube.draft
           custom/dist/cockatrice/dr4ft_cube.txt
           custom/dist/cockatrice/Expedition33_dr4ft.xml
+          custom/dist/cockatrice/Expedition33_dr4ft_fork.xml
           custom/dist/cockatrice/Expedition33.xml
 
     - name: Create draft release
@@ -90,6 +91,7 @@ jobs:
           custom/dist/forge/E33_Cube.draft
           custom/dist/cockatrice/dr4ft_cube.txt
           custom/dist/cockatrice/Expedition33_dr4ft.xml
+          custom/dist/cockatrice/Expedition33_dr4ft_fork.xml
           custom/dist/cockatrice/Expedition33.xml
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -105,6 +107,7 @@ jobs:
           custom/dist/forge/E33_Cube.draft
           custom/dist/cockatrice/dr4ft_cube.txt
           custom/dist/cockatrice/Expedition33_dr4ft.xml
+          custom/dist/cockatrice/Expedition33_dr4ft_fork.xml
           custom/dist/cockatrice/Expedition33.xml
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
