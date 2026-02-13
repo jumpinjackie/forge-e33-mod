@@ -2679,11 +2679,11 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Other Gestral creatures you control get +1/+1.\nYou may choose not to untap Alicenisa during your untap step.\nAt the beginning of your upkeep, you may put a verse counter on Alicenisa.\n{T}: Gain control of target creature with mana value X or less for as long as you control Alicenisa and Alicenisa remains tapped, where X is the number of verse counters on Alicenisa.",
+                    "text": "Other Gestral creatures you control get +1/+1.\nYou may choose not to untap Alicenisa during your untap step.\nAt the beginning of your upkeep, you may put a verse counter on Alicenisa.\n{T}: Gain control of target creature with mana value X or less for as long as you control Alicenisa and Alicenisa remains tapped, where X is the number of verse counters on Alicenisa.{flavor}Her voice is as entrancing as any instrument.",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
-                    "height": 0.2736318407960199,
+                    "height": 0.2874911158493248,
                     "size": 0.0362
                 },
                 "pt": {
@@ -32416,7 +32416,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Painter and Gradient spells you cast cost {1} less to cast.\n{T}: Add one mana of any color. Spend this mana only to cast a Painter or Gradient spell.\n{3},{T}: Search your library for a Painter or Gradient card, reveal it and put it into your hand, then shuffle.{flavor}One family, united by passion for art, divided by grief.",
+                    "text": "Painter and Gradient spells you cast cost {1} less to cast.\n{T}: Add one mana of any color. Spend this mana only to cast a Painter or Gradient spell.\n{3}, {T}: Search your library for a Painter or Gradient card, reveal it and put it into your hand, then shuffle.{flavor}One family, united by passion for art, divided by grief.",
                     "x": 0.086,
                     "y": 0.6325515280739161,
                     "width": 0.828,
@@ -65303,7 +65303,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Whenever a creature you control with flying enters or attacks, put a quest counter on this enchantment.\nWhenever a creature an opponent controls with flying enters or attacks, remove a quest counter from this enchantment.\nAs long as this enchantment has four or more quest counters on it, creatures you control get +1/+1 and have flying.",
+                    "text": "Whenever a creature you control with flying enters or attacks, put a quest counter on this enchantment.\nWhenever a creature an opponent controls with flying enters or attacks, remove a quest counter from this enchantment.\nAs long as this enchantment has four or more quest counters on it, creatures you control get +2/+2.",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
@@ -74164,7 +74164,7 @@
             "text": {
                 "mana": {
                     "name": "Mana Cost",
-                    "text": "1 W UR",
+                    "text": "1 UR W",
                     "y": 0.06254442075337598,
                     "width": 0.9273631840796019,
                     "height": 0.03380952380952381,
@@ -83424,7 +83424,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "At the beginning of your upkeep, you may put a verse counter on Lorieniso.\n{2}, {T}: Search your library for a creature card with mana value X or less and put it into your hand, where X is the number of verse counters on Lorieniso.",
+                    "text": "At the beginning of your upkeep, you may put a verse counter on Lorieniso.\n{2}, {T}: Search your library for a creature card with mana value X or less, where X is the number of verse counters on Lorieniso, reveal it, put it into your hand, then shuffle.{flavor}A Gestral of many musical talents.",
                     "x": 0.086,
                     "y": 0.6325515280739161,
                     "width": 0.8263681592039801,
@@ -86117,11 +86117,11 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "When this artifact is put into a graveyard from the battlefield, create a Chroma token. (It’s an artifact with “{T}, Sacrifice this artifact: Add one mana of any color. Spend this mana only to cast a Nevron, Gestral or Expeditioner spell.”)\n{2}, Sacrifice this artifact: Draw a card.{flavor}Nothing special to see here, just a trash can.",
+                    "text": "Whenever a card is put into your graveyard from anywhere, you may put a trash counter on this artifact.\nWhen this artifact is put into a graveyard from the battlefield, create a Chroma token.\nRemove two trash counters from this artifact: Create a Lumina token.\n{2}, Sacrifice this artifact: Draw a card.{flavor}Nothing special to see here, just a trash can.",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
-                    "height": 0.27398720682302774,
+                    "height": 0.2874911158493248,
                     "size": 0.0362
                 },
                 "pt": {
@@ -86987,7 +86987,7 @@
             "text": {
                 "mana": {
                     "name": "Mana Cost",
-                    "text": "R G W U",
+                    "text": "1 GW U R",
                     "y": 0.0613,
                     "width": 0.9292,
                     "height": 0.03380952380952381,
@@ -87024,7 +87024,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Lune can’t have more than four stain counters on her.\nWhenever you cast an instant or sorcery spell, draw a card and put a stain counter on Lune for each of that spell’s colors.\n{i}Tree of Life{/i} — {W}{G}, {T}, Remove a stain counter from Lune: Return target nonland, noncreature card from your graveyard to your hand. You gain 3 life.\n{i}Wildfire{/i} — {R}, {T}, Remove two stain counters from Lune: Lune deals 2 damage to each creature target opponent controls.\n{i}Elemental Genesis{/i} — {T}, Remove four stain counters from Lune: Lune deals 4 damage to each of up to two targets.{flavor}As long as even one of us stands, our fight is not over.",
+                    "text": "Lune can’t have more than four stain counters on her.\nWhenever you cast an instant or sorcery spell, draw a card and put a stain counter on Lune for each of that spell’s colors.\n{i}Tree of Life{/i} — {W}{G}, {T}, Remove a stain counter from Lune: Return target nonland, noncreature card from your graveyard to your hand. You gain 3 life.\n{i}Rebirth{/i} — {1}{W}, {T}, Remove two stain counters from Lune: Return target creature card with mana value 4 or less from your graveyard onto the battlefield.\n{i}Elemental Genesis{/i} — {T}, Remove four stain counters from Lune: Lune deals 4 damage to each of up to two targets.{flavor}As long as even one of us stands, our fight is not over.",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
@@ -97660,7 +97660,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "{1}{G}, Sacrifice a Nevron: Search your library for a Nevron permanent with mana value X or less and put it into the battlefield where X is the sacrificed Nevron’s mana value plus one. Activate this ability only once each turn.{flavor}Even in an artificial painted world, there is a natural order.",
+                    "text": "{1}{G}, Sacrifice a Nevron: Search your library for a Nevron permanent card with mana value X or less, where X is the sacrificed Nevron’s mana value plus one, put it onto the battlefield, then shuffle. Activate this ability only once each turn.{flavor}Even in an artificial painted world, there is a natural order.",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
@@ -143237,7 +143237,7 @@
             "text": {
                 "mana": {
                     "name": "Mana Cost",
-                    "text": "1 U WB",
+                    "text": "1 WB U",
                     "y": 0.0613,
                     "width": 0.9292,
                     "height": 0.03380952380952381,
