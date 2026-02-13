@@ -29,3 +29,4 @@ DeckHints:Type$Nevron
  - This is a bone thrown to Nevrons to solidify that archetype.
  - Modeled on Birthing Pod.
  - 21/10/2025: Made search criteria X or less. Fixed incorrect sac cost.
+ - 14/02/2025: Fixed Oracle text (it was missing instruction to shuffle after search)

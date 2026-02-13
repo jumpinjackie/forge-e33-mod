@@ -30,3 +30,4 @@ SVar:TrigPutCounter:DB$ PutCounter | Defined$ Self | CounterType$ VERSE | Counte
  - 20/09/2025: Initial playtesting shows this is quite broken in multiples. Made into a legendary creature and changed P/T to 1/3
  - 21/01/2026: Fix oracle text so that it is searching for *creature* cards.
  - 7/02/2026: Fixed self-reference in oracle text.
+ - 14/02/2026: Fixed Oracle text (it was missing the instruction to reveal the card you tutored for)
