@@ -1,5 +1,5 @@
 Name:Verso, Who Guards Truth With Lies
-ManaCost:1 U WB
+ManaCost:1 WB U
 Types:Legendary Creature Human Expeditioner
 PT:3/3
 T:Mode$ Untaps | ValidCard$ Card.Self | TriggerZones$ Battlefield | Execute$ DBRank | TriggerDescription$ Whenever CARDNAME becomes untapped, put a rank counter on him.

@@ -2,8 +2,8 @@
 Verso, Who Guards Truth With Lies
 [ManaCost]
 1
-U
 WB
+U
 [Types]
 Legendary
 Creature
@@ -52,3 +52,4 @@ creature-removal
  - Added an assortment of buffs and abilities that are conditional on the number of rank counters.
  - "Phantom Stars" ultimate is paid in rank counters for game balance purposes. In game, none of Verso's abilities cost him is rank.
  - 21/01/2026: Changed "Phantom Stars" ultimate to only target up to 2 creatures instead of all creatures target opponent controls.
+ - 14/02/2026: Fixed mana symbol order
