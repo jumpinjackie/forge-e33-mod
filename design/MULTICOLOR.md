@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 10/2/2026 1:53:09 pm
+> Last generated: 13/2/2026 4:08:59 pm
 
 ## A Storm is Coming
 
@@ -1170,7 +1170,7 @@ Oh, you won. You deserve this reward. Have fun with it!
 Enchantment
 Whenever a creature you control with flying enters or attacks, put a quest counter on this enchantment.
 Whenever a creature an opponent controls with flying enters or attacks, remove a quest counter from this enchantment.
-As long as this enchantment has four or more quest counters on it, creatures you control get +1/+1 and have flying.
+As long as this enchantment has four or more quest counters on it, creatures you control get +2/+2.
 ```
 
 [card implementation](../custom/cards/g/gestral_seesaw_challenge.txt)
@@ -1180,6 +1180,7 @@ As long as this enchantment has four or more quest counters on it, creatures you
  - In the game, the Gestral Seesaw Challenge is 1 of 2 challenge minigames in Verso's Drafts. In this minigame you must time jumps on a seesaw.
  - This enchantment grows quest counters from you flying creatures entering or attacking. The see-saw effect is acheived by this enchantment losing quest counters from opponents doing the same thing with their flyers.
  - The final payoff is lord P/T buff.
+ - 14/02/2026: Changed final payoff to be a +2/+2 buff.
 
 ## Giant Sapling
 
@@ -1440,7 +1441,7 @@ When this creature dies, target opponent creates a Lumina token. (It's an artifa
 ## Gustave, Lumière Engineer
 
 ```
-1W(U/R)
+1(U/R)W
 Legendary Creature - Human Expeditioner
 Whenever Gustave becomes untapped, attacks or blocks, put a charge counter on him.
 From Fire — {W}{R},{T}: Gustave deals 3 damage to target creature, you gain 3 life.
@@ -1463,6 +1464,7 @@ For those who come after.
  - Finally, overcharge (the ability we're all building towards) in the game deals high lightning damage based on the number of charges. Translated this to an X damage ability to a creature and its controller (where X is the number of charge counters removed).
  - 23/09/2025: It may look a bit odd to have blue color identity but no actual abilities that cost blue mana. I added the blue color identity strictly for flavor purposes because he's an engineer and engineers are almost always a blue color identity.
  - 13/10/2025: Dropped the marking shot ability due to text box budget constraints having seen this card for the first time in CardConjurer.
+ - 14/02/2026: Reorder mana symbols for consistency with actual cards with hybrd/regular pip combinations
 
 ## Jar of Candy
 
@@ -1637,12 +1639,12 @@ He eagerly absorbs the knowledge given to him, for he knows when his time comes,
 ## Lune, Charting a Path
 
 ```
-RGWU
+1(G/W)UR
 Legendary Creature - Human Expeditioner Wizard
 Lune can't have more than four stain counters on her.
 Whenever you cast an instant or sorcery spell, draw a card and put a stain counter on Lune for each of that spell's colors.
-Tree of Life — {W}{G}, {T}, Remove a stain counter from Lune: Return target nonland, noncreature card from your graveyard to your hand. You gain 3 life.
-Wildfire — {R}, {T}, Remove two stain counters from Lune: Lune deals 2 damage to each creature target opponent controls.
+Tree of Life — {1}{G}, {T}, Remove a stain counter from Lune: Return target nonland, noncreature card from your graveyard to your hand. You gain 3 life.
+Rebirth — {1}{W}, {T}, Remove two stain counters from Lune: Return target creature card with mana value 4 or less from your graveyard onto the battlefield.
 Elemental Genesis — {T}, Remove four stain counters from Lune: Lune deals 4 damage to each of up to two targets.
 ---
 As long as even one of us stands, our fight is not over.
@@ -1667,6 +1669,7 @@ As long as even one of us stands, our fight is not over.
     - The Elemental Genesis "ultimate" requires no extra mana cost because getting to 4 stain counters is enough investment already.
  - 26/12/2025: Figured out a way to implement a max 4 stain counter limit to match her video game counterpart. Due to limitations on expressing this "4 stain counters max" constraint in Forge, I expect that this limit can be easily cicumvented through other means in Forge (ie. Alternate ways of putting stain counters that are not Lune's triggered ability) and I can live with that. The intent in *paper* play is definitely 4 stain counters max, no ifs or buts. No shenanigans with Doubling Season or other counter replicators.
  - 21/01/2026: Changed "Elemental Genesis" ultimate from targeting 4 targets to 2 targets.
+ - 14/02/2026: Replaced Wildfire ability with Rebirth. Changed cost from RGWU to 1(G/W)UR
 
 
 ### Rulings
@@ -2673,7 +2676,7 @@ When this creature dies, target opponent creates a Lumina token. (It's an artifa
 ## Verso, Who Guards Truth With Lies
 
 ```
-1U(W/B)
+1(W/B)U
 Legendary Creature - Human Expeditioner
 Whenever Verso untaps or deals damage, put a rank counter on him.
 Whenever Verso is dealt damage, remove all rank counters from him.
@@ -2697,6 +2700,7 @@ Let's carve a path.
  - Added an assortment of buffs and abilities that are conditional on the number of rank counters.
  - "Phantom Stars" ultimate is paid in rank counters for game balance purposes. In game, none of Verso's abilities cost him is rank.
  - 21/01/2026: Changed "Phantom Stars" ultimate to only target up to 2 creatures instead of all creatures target opponent controls.
+ - 14/02/2026: Reorder mana symbols for consistency with actual cards with hybrd/regular pip combinations
 
 ## Verso's Composition
 

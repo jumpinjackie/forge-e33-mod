@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 10/2/2026 3:17:13 pm
+> Last generated: 13/2/2026 4:30:28 pm
 
 ## A Rock for François
 
@@ -33,6 +33,8 @@ Other Gestral creatures you control get +1/+1.
 You may choose not to untap Alicenisa during your untap step.
 At the beginning of your upkeep, you may put a verse counter on Alicenisa.
 {T}: Gain control of target creature with mana value X or less for as long as you control Alicenisa and Alicenisa remains tapped, where X is the number of verse counters on Alicenisa.
+---
+Her voice is as entrancing as any instrument.
 
 1/4
 ```
@@ -262,7 +264,7 @@ Learn Picto 2
 Artifact
 Painter and Gradient spells you cast cost {1} less to cast.
 {T}: Add one mana of any color. Spend this mana only to cast a Painter or Gradient spell.
-{3},{T}: Search your library for a Painter or Gradient card, reveal it and put it into your hand, then shuffle.
+{3}, {T}: Search your library for a Painter or Gradient card, reveal it and put it into your hand, then shuffle.
 ---
 One family, united by passion for art, divided by grief.
 ```
@@ -927,7 +929,9 @@ Did I mention the prize is a powerful weapon? So, how about it?
 2
 Legendary Artifact Creature - Gestral Bard
 At the beginning of your upkeep, you may put a verse counter on Lorieniso.
-{2}, {T}: Search your library for a creature card with mana value X or less and put it into your hand, where X is the number of verse counters on Lorieniso.
+{2}, {T}: Search your library for a creature card with mana value X or less, where X is the number of verse counters on Lorieniso, reveal it, put it into your hand, then shuffle.
+---
+A Gestral of many musical talents.
 
 1/3
 ```
@@ -941,6 +945,7 @@ At the beginning of your upkeep, you may put a verse counter on Lorieniso.
  - 20/09/2025: Initial playtesting shows this is quite broken in multiples. Made into a legendary creature and changed P/T to 1/3
  - 21/01/2026: Fix oracle text so that it is searching for *creature* cards.
  - 7/02/2026: Fixed self-reference in oracle text.
+ - 14/02/2026: Fixed Oracle text (it was missing the instruction to reveal the card you tutored for)
 
 ## Lost Gestral
 
@@ -986,7 +991,9 @@ Tiffanie: Well, there are less and less people to buy them. I just wish you didn
 ```
 1
 Artifact - Clue
-When this artifact is put into a graveyard from the battlefield, create a Chroma token. (It's an artifact with "{T}, Sacrifice this artifact: Add one mana of any color. Spend this mana only to cast a Nevron, Gestral or Expeditioner spell.")
+Whenever a card is put into your graveyard from anywhere, you may put a trash counter on this artifact.
+When this artifact is put into a graveyard from the battlefield, create a Chroma token.
+Remove two trash counters from this artifact: Create a Lumina token.
 {2}, Sacrifice this artifact: Draw a card.
 ---
 Nothing special to see here, just a trash can.
@@ -999,6 +1006,7 @@ Nothing special to see here, just a trash can.
  - In the game's prologue, this innocuous trashcan housed a citizen who believed that by hiding in this trashcan that he would be safe from erasure. That was not the case.
  - Just a joke artifact with the same expeditioner death ability.
  - 21/01/2026: Converted to a clue for some extra utility.
+ - 14/02/2026: For even extra utility, give it a graveyard trigger to put trash counters which can be cashed in for Lumina tokens later on. Kind of coincidentally flavorful since putting cards in the graveyard is sometimes termed "binning", and this artifact is ... a bin!
 
 ## Lumina Converter
 
