@@ -24,6 +24,8 @@ They were on a clean glide to the Monolith when they flew into the some sort of 
 K:Flying
 S:Mode$ CantBlockBy | ValidAttacker$ Creature.withoutFlying | ValidBlocker$ Creature.Self | Description$ CARDNAME can block only creatures with flying.
 $EXPEDITIONER_DEATH_ABILITY
+[Tags]
+flyer
 [DesignNotes]
  - In the game, the journal of Expedition 40 details the story of trying to enter The Monolith by flying through the barrier. Those who tried got gommaged.
  - This card represents the poor bastards who tried.

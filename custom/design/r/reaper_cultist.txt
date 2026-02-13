@@ -19,6 +19,8 @@ $NEVRON_DEATH_ABILITY_TEXT
 K:Flying
 K:First strike
 $NEVRON_DEATH_ABILITY
+[Tags]
+flyer
 [DesignNotes]
  - Vanilla placeholder Nevron
  - 13/10/2025: Removed Devoid.

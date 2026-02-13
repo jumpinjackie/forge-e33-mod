@@ -24,6 +24,8 @@ Our only choice is to take matters into our own hands. Fortune favors the bold. 
 K:Flying
 S:Mode$ CantBlockBy | ValidAttacker$ Creature.withoutFlying | ValidBlocker$ Creature.Self | Description$ CARDNAME can block only creatures with flying.
 $EXPEDITIONER_DEATH_ABILITY
+[Tags]
+flyer
 [DesignNotes]
  - In the game, Expedition 78 stole hundreds of airships from the Lumière Council and departed to take on the Paintress. The Expedition failed, but the fate of the expeditioners is unknown.
  - Card represents some of the Airship crew.

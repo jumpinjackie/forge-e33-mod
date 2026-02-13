@@ -31,6 +31,7 @@ SVar:DBHumility:DB$ Animate | Defined$ Targeted | RemoveAllAbilities$ True
 SVar:DBDestroy:DB$ Destroy | Defined$ Remembered
 SVar:DBBlight:DB$ AnimateAll | ValidCards$ Creature.IsRemembered | Toughness$ 1
 [Tags]
+flyer
 board-wipe
 [DesignNotes]
  - In the game, this is the final boss of Act 1.

@@ -28,6 +28,8 @@ S:Mode$ Continuous | Affected$ Nevron.YouCtrl | AddKeyword$ Haste | Description$
 $NEVRON_DEATH_ABILITY
 [RelatedTokens]
 c_1_1_pot_nevron
+[Tags]
+flyer
 [DesignNotes]
  - Nevron version of Deranged Hermit / Siege-Gang Commander
  - 4/11/2025: Added missing death trigger for standard Nevrons

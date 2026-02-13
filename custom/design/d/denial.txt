@@ -26,6 +26,8 @@ K:Flying
 T:Mode$ ChangesZone | ValidCard$ Card.Self | Origin$ Any | Destination$ Battlefield | Execute$ TrigCounter | TriggerDescription$ When ~ enters, counter target spell and draw a card.
 SVar:TrigCounter:DB$ Counter | TargetType$ Spell | ValidTgts$ Card | TgtPrompt$ Select target spell | SubAbility$ TrigDraw
 SVar:TrigDraw:DB$ Draw | NumCards$ 1
+[Tags]
+flyer
 [Cycle]
 The five stages of Grief
 [DesignNotes]

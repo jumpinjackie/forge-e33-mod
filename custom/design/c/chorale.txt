@@ -18,6 +18,8 @@ $NEVRON_DEATH_ABILITY_TEXT
 [ForgeScript]
 K:Flying
 $NEVRON_DEATH_ABILITY
+[Tags]
+flyer
 [DesignNotes]
  - Another vanilla Nevron
  - 5/10/2025: Switched PT from 1/2 to 2/1 for more offensive punch.

@@ -35,6 +35,7 @@ SVar:X:Count$xPaid
 [DraftScore]
 91
 [Tags]
+flyer
 board-wipe
 [DesignNotes]
  - In the game, Serpenphare is an optional end-game boss. Its most prominent attack is an AP draining ability, if it consumes too much AP with this move, it will explode.

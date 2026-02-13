@@ -23,6 +23,8 @@ T:Mode$ BecomesTarget | ValidTarget$ Card.Self | ValidSource$ SpellAbility.OppCt
 SVar:TrigSac:DB$ Sacrifice
 SVar:Targeting:Dies
 $NEVRON_DEATH_ABILITY
+[Tags]
+flyer
 [DesignNotes]
  - In the game, this is one of the weakest enemies in the game.
  - Went with a Nevron variation of Flying Men
