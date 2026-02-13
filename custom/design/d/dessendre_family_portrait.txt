@@ -11,7 +11,7 @@ Sandfall Interactive
 [Oracle]
 Painter and Gradient spells you cast cost {1} less to cast.
 {T}: Add one mana of any color. Spend this mana only to cast a Painter or Gradient spell.
-{3},{T}: Search your library for a Painter or Gradient card, reveal it and put it into your hand, then shuffle.
+{3}, {T}: Search your library for a Painter or Gradient card, reveal it and put it into your hand, then shuffle.
 [FlavorText]
 One family, united by passion for art, divided by grief.
 [ForgeScript]

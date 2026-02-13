@@ -1,5 +1,5 @@
 Name:Gustave, Lumière Engineer
-ManaCost:1 W UR
+ManaCost:1 UR W
 Types:Legendary Creature Human Expeditioner
 PT:3/3
 T:Mode$ Attacks | ValidCard$ Card.Self | TriggerZones$ Battlefield | Execute$ DBCharge | TriggerDescription$ Whenever CARDNAME attacks, put a charge counter on him.

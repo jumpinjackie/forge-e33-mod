@@ -5,4 +5,4 @@ S:Mode$ ReduceCost | ValidCard$ Painter,Gradient | Type$ Spell | Activator$ You 
 A:AB$ Mana | Cost$ T | Produced$ Any | RestrictValid$ Spell.Painter,Spell.Gradient | SpellDescription$ Add one mana of any color.
 A:AB$ ChangeZone | Cost$ 3 T | Origin$ Library | Destination$ Hand | ChangeType$ Card.Painter,Card.Gradient | ChangeNum$ 1 | ShuffleNonMandatory$ True | SpellDescription$ Search your library for a Painter or Gradient card, reveal it and put it into your hand, then shuffle.
 DeckHints:Type$Painter|Gradient
-Oracle:Painter and Gradient spells you cast cost {1} less to cast.\n{T}: Add one mana of any color. Spend this mana only to cast a Painter or Gradient spell.\n{3},{T}: Search your library for a Painter or Gradient card, reveal it and put it into your hand, then shuffle.
+Oracle:Painter and Gradient spells you cast cost {1} less to cast.\n{T}: Add one mana of any color. Spend this mana only to cast a Painter or Gradient spell.\n{3}, {T}: Search your library for a Painter or Gradient card, reveal it and put it into your hand, then shuffle.

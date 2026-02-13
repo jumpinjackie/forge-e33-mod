@@ -4,8 +4,8 @@ Gustave, Lumière Engineer
 Gustave, Lumiere Engineer
 [ManaCost]
 1
-W
 UR
+W
 [Types]
 Legendary
 Creature
