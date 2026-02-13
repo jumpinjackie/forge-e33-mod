@@ -23,7 +23,7 @@ S:Mode$ Continuous | Affected$ Creature.YouCtrl | AddKeyword$ Prowess | IsPresen
 SVar:TrigQuestCounter:DB$ PutCounter | Defined$ Self | CounterType$ QUEST | CounterNum$ 1
 DeckHints:Type$Human
 [Cycle]
-Gestral Challenge Minigames (Base Game)
+Gestral Challenge Minigames
 [DesignNotes]
  - In the game, the Gestral Parkour Challenge is 1 of 5 challenge minigames. This minigame in particular requires clearing an obstacle course and answering a riddle at the end.
  - All minigames are modeled as "quest" enchantments originating from Zendikar block and use the same terminology (charging with quest counters based on certain conditions with some payoff at the end once you reach a certain number of quest counters).
