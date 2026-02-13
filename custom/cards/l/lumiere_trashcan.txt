@@ -1,7 +1,10 @@
 Name:Lumière Trashcan
 ManaCost:1
 Types:Artifact Clue
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Graveyard | ValidCard$ Card.!token+YouOwn | TriggerZones$ Battlefield | OptionalDecider$ You | Execute$ TrigPutCounter | TriggerDescription$ Whenever a card is put into your graveyard from anywhere, you may put a trash counter on CARDNAME.
+SVar:TrigPutCounter:DB$ PutCounter | Defined$ Self | CounterType$ TRASH | CounterNum$ 1
 T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Card.Self | Execute$ TrigToken | TriggerDescription$ When this artifact is put into a graveyard from the battlefield, create a Chroma token.
 SVar:TrigToken:DB$ Token | TokenScript$ c_a_chroma | TokenOwner$ You | TokenAmount$ 1
+A:AB$ Token | Cost$ SubCounter<2/TRASH> | TokenAmount$ 1 | TokenOwner$ You | TokenScript$ c_a_lumina | SpellDescription$ Create a Lumina token.
 A:AB$ Draw | Cost$ 2 Sac<1/CARDNAME> | NumCards$ 1 | SpellDescription$ Draw a card.
-Oracle:When this artifact is put into a graveyard from the battlefield, create a Chroma token. (It's an artifact with "{T}, Sacrifice this artifact: Add one mana of any color. Spend this mana only to cast a Nevron, Gestral or Expeditioner spell.")\n{2}, Sacrifice this artifact: Draw a card.
+Oracle:Whenever a card is put into your graveyard from anywhere, you may put a trash counter on this artifact.\nWhen this artifact is put into a graveyard from the battlefield, create a Chroma token.\nRemove two trash counters from this artifact: Create a Lumina token.\n{2}, Sacrifice this artifact: Draw a card.

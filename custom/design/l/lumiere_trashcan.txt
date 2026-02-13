@@ -10,13 +10,18 @@ Clue
 [Rarity]
 C
 [Oracle]
-When this artifact is put into a graveyard from the battlefield, create a Chroma token. $CHROMA_REMINDER_TEXT
+Whenever a card is put into your graveyard from anywhere, you may put a trash counter on ~.
+When ~ is put into a graveyard from the battlefield, create a Chroma token.
+Remove two trash counters from ~: Create a Lumina token.
 {2}, Sacrifice ~: Draw a card.
 [FlavorText]
 Nothing special to see here, just a trash can.
 [ForgeScript]
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Graveyard | ValidCard$ Card.!token+YouOwn | TriggerZones$ Battlefield | OptionalDecider$ You | Execute$ TrigPutCounter | TriggerDescription$ Whenever a card is put into your graveyard from anywhere, you may put a trash counter on CARDNAME.
+SVar:TrigPutCounter:DB$ PutCounter | Defined$ Self | CounterType$ TRASH | CounterNum$ 1
 T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Card.Self | Execute$ TrigToken | TriggerDescription$ When this artifact is put into a graveyard from the battlefield, create a Chroma token.
 SVar:TrigToken:DB$ Token | TokenScript$ c_a_chroma | TokenOwner$ You | TokenAmount$ 1
+A:AB$ Token | Cost$ SubCounter<2/TRASH> | TokenAmount$ 1 | TokenOwner$ You | TokenScript$ c_a_lumina | SpellDescription$ Create a Lumina token.
 A:AB$ Draw | Cost$ 2 Sac<1/CARDNAME> | NumCards$ 1 | SpellDescription$ Draw a card.
 [RelatedTokens]
 c_a_chroma
@@ -26,3 +31,4 @@ Sandfall Interactive
  - In the game's prologue, this innocuous trashcan housed a citizen who believed that by hiding in this trashcan that he would be safe from erasure. That was not the case.
  - Just a joke artifact with the same expeditioner death ability.
  - 21/01/2026: Converted to a clue for some extra utility.
+ - 14/02/2026: For even extra utility, give it a graveyard trigger to put trash counters which can be cashed in for Lumina tokens later on. Kind of coincidentally flavorful since putting cards in the graveyard is sometimes termed "binning", and this artifact is ... a bin!
