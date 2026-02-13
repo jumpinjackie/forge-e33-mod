@@ -5,11 +5,12 @@
 4 Expedition 78 Airship|E33
 2 Expedition 78|E33
 4 Gestral Ascension Challenge|E33
+1 Gestral Seesaw Challenge|E33
 4 Lune's Denial|E33
 4 Swift Counter|E33
 4 Thunderfall|E33
 3 Breaking Moment|E33
-3 Lune's Curiosity|E33
+2 Lune's Curiosity|E33
 4 Sirène's Coliseum|E33
 4 Stone Wave Cliffs|E33
 2 Lumière Opera House|E33
