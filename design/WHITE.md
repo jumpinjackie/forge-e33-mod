@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 9/2/2026 11:55:10 am
+> Last generated: 15/2/2026 1:28:45 pm
 
 ## A Life to Love (Farewell)
 
@@ -421,11 +421,13 @@ Foretell {W} (During your turn, you may pay {2} and exile this card from your ha
 ## Lumière Assault
 
 ```
-2WW
+2W
 Kindred Instant - Expeditioner
 Create two 1/1 white Human Expeditioner tokens with "When this creature dies, create a Chroma token."
 Luminous — Draw a card if you control at least three Lumina tokens.
 Flashback — Sacrifice two Lumina tokens.
+---
+With her newfound powers, Maelle brought back the spirits of Expeditions past to even the odds.
 ```
 
 [card implementation](../custom/cards/l/lumiere_assault.txt)
