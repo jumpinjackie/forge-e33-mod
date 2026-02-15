@@ -71,6 +71,7 @@ jobs:
           forge_pics.zip
           custom/dist/forge/E33_Cube.dck
           custom/dist/forge/E33_Cube.draft
+          custom/dist/forge/e33.rnk
           custom/dist/cockatrice/dr4ft_cube.txt
           custom/dist/cockatrice/Expedition33_dr4ft.xml
           custom/dist/cockatrice/Expedition33_dr4ft_fork.xml
@@ -89,6 +90,7 @@ jobs:
           forge_pics.zip
           custom/dist/forge/E33_Cube.dck
           custom/dist/forge/E33_Cube.draft
+          custom/dist/forge/e33.rnk
           custom/dist/cockatrice/dr4ft_cube.txt
           custom/dist/cockatrice/Expedition33_dr4ft.xml
           custom/dist/cockatrice/Expedition33_dr4ft_fork.xml
@@ -105,6 +107,7 @@ jobs:
           forge_pics.zip
           custom/dist/forge/E33_Cube.dck
           custom/dist/forge/E33_Cube.draft
+          custom/dist/forge/e33.rnk
           custom/dist/cockatrice/dr4ft_cube.txt
           custom/dist/cockatrice/Expedition33_dr4ft.xml
           custom/dist/cockatrice/Expedition33_dr4ft_fork.xml
