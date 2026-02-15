@@ -16,7 +16,7 @@ R
 [NicknameFor]
 Gaze of Granite
 [FlavorText]
-Lune knew she was powerless to stop what was happening. All she could do in that moment was stare.
+Lune knew she was powerless to stop what was happening. All she could do in that moment was give Verso the mose soul-piercing stare.
 [Artist]
 Sandfall Interactive
 [Tags]
