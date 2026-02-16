@@ -26,6 +26,7 @@ This mod is multi-faceted and consists of:
 4. (OPTIONAL) If you want to run custom cube drafts with this set, copy the following files
    - `custom/dist/forge/E33_Cube.dck` to `$YOUR_FORGE_INSTALL/res/cube/`
    - `custom/dist/forge/E33_Cube.draft` to `$YOUR_FORGE_INSTALL/res/draft/`
+   - `custom/dist/forge/e33.rnk` to `$YOUR_FORGE_INSTALL/res/draft/rankings/`
 5. Start Forge
 
 ## From release assets
@@ -42,6 +43,7 @@ This mod is multi-faceted and consists of:
 4. (OPTIONAL) If you want to run custom cube drafts with this set, download:
    - `E33_Cube.dck` to `$YOUR_FORGE_INSTALL/res/cube/`
    - `E33_Cube.draft` to `$YOUR_FORGE_INSTALL/res/draft/`
+   - `e33.rnk` to `$YOUR_FORGE_INSTALL/res/draft/rankings/`
 5. Start Forge
 
 ## After installation
