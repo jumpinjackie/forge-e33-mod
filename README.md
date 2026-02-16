@@ -37,7 +37,7 @@ This mod is multi-faceted and consists of:
    - OSX: TBD
 3. Extract the contents of `forge_pics.zip` into your custom images directory. This is:
    - Windows: `%LOCALAPPDATA%\Forge\Cache\pics`
-   - Linux: `~/.cache/pics`
+   - Linux: `~/.cache/forge/pics`
    - OSX: TBD
 4. (OPTIONAL) If you want to run custom cube drafts with this set, download:
    - `E33_Cube.dck` to `$YOUR_FORGE_INSTALL/res/cube/`
