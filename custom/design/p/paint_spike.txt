@@ -17,7 +17,7 @@ When ~ dies, choose one —
 • Create a Chroma token.
 • Create a Lumina token.
 [FlavorText]
-There must be some good loot behind there!
+"There must be some good loot behind there!"
 [ForgeScript]
 K:Defender
 T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigDraw | TriggerDescription$ When CARDNAME enters, draw a card.

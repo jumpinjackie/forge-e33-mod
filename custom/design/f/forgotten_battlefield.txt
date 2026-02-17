@@ -17,8 +17,8 @@ A:AB$ Mana | Cost$ T | Produced$ C | SpellDescription$ Add {C}.
 A:AB$ ChangeZone | Cost$ 1 B T | TgtPrompt$ Choose target Nevron card in your graveyard | ValidTgts$ Nevron.YouCtrl | Origin$ Graveyard | Destination$ Library | SpellDescription$ Put target Nevron card from your graveyard on top of your library.
 DeckHints:Type$Nevron
 [FlavorText]
-These siege engines seemed much more powerful in Lumière. But on this battlefield, next to all these broken bodies, staring at the true size of the monolith, I feel despair.
-- Carla, Expedition 57
+"These siege engines seemed much more powerful in Lumière. But on this battlefield, next to all these broken bodies, staring at the true size of the monolith, I feel despair."
+—Carla, Expedition 57
 [Rulings]
  - Can target non-creature Nevrons.
 [DesignNotes]

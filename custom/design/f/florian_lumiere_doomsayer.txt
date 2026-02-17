@@ -22,7 +22,7 @@ At the beginning of your upkeep, choose a card name then reveal the top card of 
 {2}{B}, {T}: Surveil 2.
 $EXPEDITIONER_DEATH_ABILITY_TEXT
 [FlavorText]
-The Paintress is going to punish you! You blasphemers. The Gommage is our fault! We brought this upon ourselves. Because we dared to defy her!
+"The Paintress is going to punish you! You blasphemers. The Gommage is our fault! We brought this upon ourselves. Because we dared to defy her!"
 [ForgeScript]
 T:Mode$ Phase | Phase$ Upkeep | ValidPlayer$ You | Execute$ PredictCard | TriggerZones$ Battlefield | TriggerDescription$ At the beginning of your upkeep, choose a card name then reveal the top card of your library. If that card has the chosen name, put it into your hand. Otherwise, put it into your graveyard.
 SVar:PredictCard:DB$ NameCard | Defined$ You | SubAbility$ DBDig | AILogic$ MostProminentInComputerDeckNonToken

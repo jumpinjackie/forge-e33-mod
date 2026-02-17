@@ -16,8 +16,8 @@ An Expeditioner wearing the skin of a slain Nevron trying to blend in with other
 All creature cards on the battlefield, graveyard and libraries are Nevrons in addition to their existing types.
 {1}, Sacrifice this enchantment: Draw a card.
 [FlavorText]
-The idea was we'd only have to fool the first one. Then Jules can wear its carcass to trap the next, and so on, until we all have proper cover. But disguising ourselves as Nevrons has proven to be extremely ineffective, to say the least. Maybe they recognize each other by their chroma?
-- Nicolas, Expedition 44
+"The idea was we'd only have to fool the first one. Then Jules can wear its carcass to trap the next, and so on, until we all have proper cover. But disguising ourselves as Nevrons has proven to be extremely ineffective, to say the least. Maybe they recognize each other by their chroma?"
+—Nicolas, Expedition 44
 [ForgeScript]
 S:Mode$ Continuous | Affected$ Creature | AddType$ Nevron | AffectedZone$ Battlefield,Hand,Graveyard,Library | Description$ All creature cards on the battlefield, graveyard and libraries are Nevrons in addition to their existing types.
 A:AB$ Draw | Cost$ 1 Sac<1/CARDNAME> | NumCards$ 1 | SpellDescription$ Draw a card.

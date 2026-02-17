@@ -14,7 +14,8 @@ R
 [NicknameFor]
 Copperline Gorge
 [FlavorText]
-Wow... That Nevron is the size of a mountain.
+"Wow... That Nevron is the size of a mountain."
+—Maelle
 [Artist]
 Sandfall Interactive
 [Tags]

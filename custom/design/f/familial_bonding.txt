@@ -11,8 +11,8 @@ C
 As this enchantment enters, choose a creature type.
 Whenever two or more creatures of the chosen type attacks, target opponent loses 2 life. You gain 2 life and draw a card.
 [FlavorText]
-You must see things as they are. Not how you want them to be.
-- Renoir
+"You must see things as they are. Not how you want them to be."
+—Renoir
 [ForgeScript]
 K:ETBReplacement:Other:ChooseCT
 SVar:ChooseCT:DB$ ChooseType | Defined$ You | Type$ Creature | SpellDescription$ As CARDNAME enters, choose a creature type. | AILogic$ MostProminentInComputerDeck

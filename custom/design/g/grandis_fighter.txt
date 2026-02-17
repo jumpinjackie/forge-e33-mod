@@ -13,7 +13,7 @@ C
 [Oracle]
 Vigilance
 [FlavorText]
-Do not be concerned for us. For we have faced every hardship imaginable.
+"Do not be concerned for us. For we have faced every hardship imaginable."
 [ForgeScript]
 K:Vigilance
 [Artist]

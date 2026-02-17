@@ -16,7 +16,7 @@ Target creature gains double strike until end of turn. (It deals both first-stri
 Create a Lumina token. $LUMINA_REMINDER_TEXT
 Foretell {R} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)
 [FlavorText]
-Lady luck smiled today!
+"Lady luck smiled today!"
 [ForgeScript]
 K:Foretell:R
 A:SP$ Pump | ValidTgts$ Creature | TgtPrompt$ Select target creature | KW$ Double Strike | SubAbility$ DBToken | SpellDescription$ Target creature gains double strike until end of turn.

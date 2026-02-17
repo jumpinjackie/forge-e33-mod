@@ -18,8 +18,8 @@ When this creature enters, you may search your library for a basic land card, pu
 Whenever this creature attacks, surveil 1.
 When this creature dies, create a Chroma token.
 [FlavorText]
-It may not be glamorous, but truly essential work rarely is. Doesn’t make it any less important.
-- Fleur, Expedition 69
+"It may not be glamorous, but truly essential work rarely is. Doesn’t make it any less important."
+—Fleur, Expedition 69
 [ForgeScript]
 T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigChange | OptionalDecider$ You | TriggerDescription$ When CARDNAME enters, you may search your library for a basic land card, put that card onto the battlefield tapped, then shuffle.
 SVar:TrigChange:DB$ ChangeZone | Origin$ Library | Destination$ Battlefield | Tapped$ True | ChangeType$ Land.Basic | ChangeNum$ 1 | ShuffleNonMandatory$ True

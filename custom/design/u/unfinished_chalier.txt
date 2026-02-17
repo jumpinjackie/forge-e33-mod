@@ -17,7 +17,7 @@ Sacrifice ~: Choose one —
 • Put a lifelink counter on target creature.
 • Put a vigilance counter on target creature.
 [FlavorText]
-My kind knows only battle. We are born into a world of strife, yet I seem to be the only one who does not revel in it.
+"My kind knows only battle. We are born into a world of strife, yet I seem to be the only one who does not revel in it."
 [ForgeScript]
 K:Flash
 A:AB$ Charm | Cost$ Sac<1/CARDNAME> | Choices$ DBBuff,DBLifelink,DBVigilance | SpellDescription$ ABILITY

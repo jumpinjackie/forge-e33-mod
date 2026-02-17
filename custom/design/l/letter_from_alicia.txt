@@ -13,7 +13,8 @@ When Letter from Alicia enters, scry 2.
 When Letter from Alicia is put into a graveyard from the battlefield, creatures can’t attack this turn.
 {2}, Sacrifice Letter from Alicia: Draw a card.
 [FlavorText]
-Brother, I tire of the conflicts and deceptions that plague our family and theirs. So I entrust you with this letter. Whether you give it to her is up to you.
+"Brother, I tire of the conflicts and deceptions that plague our family and theirs. So I entrust you with this letter. Whether you give it to her is up to you."
+—Alicia
 [ForgeScript]
 T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigScry | TriggerDescription$ When ~ enters, scry 2.
 SVar:TrigScry:DB$ Scry | ScryNum$ 2

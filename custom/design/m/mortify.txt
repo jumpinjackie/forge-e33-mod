@@ -9,8 +9,8 @@ Instant
 [Oracle]
 Destroy target creature or enchantment.
 [FlavorText]
-My sweet child, you were supposed to stay at home. I told you not to worry. But since you are here now, just stay put.
-- Unknown Man
+"My sweet child, you were supposed to stay at home. I told you not to worry. But since you are here now, just stay put."
+—Unknown Man
 [IsReprint]
 true
 [IsCommander]

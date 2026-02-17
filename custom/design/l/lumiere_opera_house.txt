@@ -15,8 +15,8 @@ At the beginning of your upkeep, you may put a verse counter on ~.
 {T}: Add {C}.
 {T}, Remove two verse counters from ~: Expeditioner creatures you control get +1/+1 until end of turn.
 [FlavorText]
-Maybe when this is over, we can fix up the opera house and you can perform for us. I want my first concert to be yours. And don't worry, I'll make sure the room is packed. I'll put up posters everywhere in town.
-- Maelle
+"Maybe when this is over, we can fix up the opera house and you can perform for us. I want my first concert to be yours. And don't worry, I'll make sure the room is packed. I'll put up posters everywhere in town."
+—Maelle
 [ForgeScript]
 T:Mode$ Phase | Phase$ Upkeep | ValidPlayer$ You | TriggerZones$ Battlefield | OptionalDecider$ You | Execute$ TrigPutCounter | TriggerDescription$ At the beginning of your upkeep, you may put a verse counter on CARDNAME.
 SVar:TrigPutCounter:DB$ PutCounter | Defined$ Self | CounterType$ VERSE | CounterNum$ 1

@@ -14,7 +14,7 @@ U
 [Oracle]
 At the beginning of each upkeep, count the number of permanents. If the number is even, until end of turn, creatures you control get +1/+1.
 [FlavorText]
-Thank the Dessendres,“Whees” and “Whoos” are perfectly balanced, you did it!
+"Thank the Dessendres, Whees and Whoos are perfectly balanced, you did it!"
 [ForgeScript]
 T:Mode$ Phase | Phase$ Upkeep | TriggerZones$ Battlefield | Execute$ TrigCount | TriggerDescription$ At the beginning of each upkeep, count the number of permanents. If the number is even, until end of turn, creatures you control get +1/+1.
 SVar:TrigCount:DB$ Effect | StaticAbilities$ STPump | ConditionCheckSVar$ X | ConditionSVarCompare$ M20

@@ -13,7 +13,7 @@ U
 Whenever a Nevron creature dies, you may put a skin counter on this creature.
 Remove three skin counters from this creature: It becomes a Nevron with base power and toughness 6/6, reach and trample.
 [FlavorText]
-Need to go. High! Help me, grow!
+"Need to go. High! Help me, grow!"
 [ForgeScript]
 T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Creature.Nevron | TriggerZones$ Battlefield | Execute$ TrigSkin | OptionalDecider$ You | TriggerDescription$ Whenever a Nevron creature dies, you may put a skin counter on this creature.
 SVar:TrigSkin:DB$ PutCounter | CounterNum$ 1 | CounterType$ SKIN

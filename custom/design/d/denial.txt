@@ -18,8 +18,8 @@ Flash
 Flying
 When ~ enters, counter target spell and draw a card.
 [FlavorText]
-No, no, you are HIS creations, not mine. You will not take this Canvas from me!
-- The Paintress
+"No, no, you are HIS creations, not mine. You will not take this Canvas from me!"
+—The Paintress
 [ForgeScript]
 K:Flash
 K:Flying

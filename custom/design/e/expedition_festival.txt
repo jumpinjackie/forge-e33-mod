@@ -15,8 +15,8 @@ Luminous — Create a 1/1 white Human Expeditioner token with $EXPEDITIONER_TOKE
 [AbilityWords]
 Luminous
 [FlavorText]
-Five tables this year, you see that? Told you we’d beat the 34s.
-- Catherine
+"Five tables this year, you see that? Told you we’d beat the 34s."
+—Catherine
 [ForgeScript]
 A:SP$ GainLife | LifeAmount$ X | SubAbility$ DBDraw | SpellDescription$ You gain 2 life for each creature you control. Draw a card.
 SVar:DBDraw:DB$ Draw | NumCards$ 1 | SubAbility$ DBToken

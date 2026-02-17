@@ -19,7 +19,8 @@ Luminous — Put a shield counter on up to one target creature you control and d
 [AbilityWords]
 Luminous
 [FlavorText]
-Please survive!
+"Please survive!"
+—Maelle
 [ForgeScript]
 A:SP$ GainLife | Defined$ Player | LifeAmount$ X | SubAbility$ GainMoreLife | StackDescription$ Each player gains twice X life. | SpellDescription$ Each player gains twice X life.
 SVar:GainMoreLife:DB$ GainLife | Defined$ Player | LifeAmount$ X | SubAbility$ TrigShield

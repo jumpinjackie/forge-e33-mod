@@ -10,8 +10,8 @@ C
 Each player sacrifices a creature.
 Create a Chroma token for each creature sacrificed this way. $CHROMA_REMINDER_TEXT
 [FlavorText]
-Me? You want me to give it to you?
-- Maelle, to The Curator
+"Me? You want me to give it to you?"
+—Maelle, to The Curator
 [ForgeScript]
 A:SP$ Sacrifice | SacValid$ Creature | RememberSacrificed$ True | Defined$ Player | SubAbility$ DBChroma | SpellDescription$ Each player sacrifices a creature. Create a Chroma token for each creature sacrificed this way.
 SVar:DBChroma:DB$ Token | TokenAmount$ X | TokenOwner$ You | TokenScript$ c_a_chroma | SubAbility$ DBCleanup

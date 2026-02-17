@@ -20,7 +20,7 @@ Sandfall Interactive
 {T}: Create a Flower token. (It’s an artifact with “{T}, Sacrifice this artifact: Add {U}, {R} or {G}.”)
 $EXPEDITIONER_DEATH_ABILITY_TEXT
 [FlavorText]
-Hi Gustave. You’re back. Did you want to pick out a different flower?
+"Hi Gustave. You’re back. Did you want to pick out a different flower?"
 [ForgeScript]
 A:AB$ Token | Cost$ T | TokenAmount$ 1 | TokenOwner$ You | TokenScript$ c_a_flower | SpellDescription$ Create a Flower token (It's an artifact with "{T}, Sacrifice this artifact: Add {U}, {R} or {G}.")
 $EXPEDITIONER_DEATH_ABILITY

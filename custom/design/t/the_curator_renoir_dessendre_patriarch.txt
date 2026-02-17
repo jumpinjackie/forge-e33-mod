@@ -24,8 +24,8 @@ Picto Reinforcement
 Upgrades your weapons
 Latent skill activation
 [FlavorText]
-Lune: What is he?
-Maelle: I'm not sure, he doesn't really talk.
+"What is he?" asked a curious Lune.
+"I'm not sure, he doesn't really talk." replied Maelle.
 [Tags]
 lumina-generator
 creature-removal

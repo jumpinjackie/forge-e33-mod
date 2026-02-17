@@ -17,8 +17,8 @@ Trample
 Whenever this vehicle blocks or becomes blocked by a blue creature, destroy this vehicle at end of combat.
 Crew 4
 [FlavorText]
-Apparently that was where people went on dates, you know.
-- Sciel
+"Apparently that was where people went on dates, you know."
+—Sciel, to Gustave
 [ForgeScript]
 K:Trample
 K:Crew:4

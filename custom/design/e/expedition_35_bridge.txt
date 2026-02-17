@@ -15,7 +15,8 @@ Sandfall Interactive
 Sacrifice a creature: Scry 1.
 Sacrifice an Expeditioner: Draw a card.
 [FlavorText]
-Yet in their final moments, they used their bodies to create a bridge for those who come after. Expedition 35 is over but tomorrow comes.
+"Yet in their final moments, they used their bodies to create a bridge for those who come after. Expedition 35 is over but tomorrow comes."
+—Matthieu, Expedition 35
 [ForgeScript]
 A:AB$ Scry | Cost$ Sac<1/Creature> | ScryNum$ 1 | SpellDescription$ Scry 1.
 A:AB$ Draw | Cost$ Sac<1/Expeditioner> | SpellDescription$ Draw a card.

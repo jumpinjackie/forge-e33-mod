@@ -20,7 +20,7 @@ Anger mask — Remove an anger counter from ~: Untap him.
 Joy mask — Remove a joy counter from ~: ~ gains lifelink until end of turn.
 Sadness mask — Remove a sadness counter from ~: Put a stun counter on target creature.
 [FlavorText]
-We all need masks.
+"We all need masks."
 [AbilityWords]
 Anger mask
 Joy mask

@@ -14,7 +14,7 @@ U
 [Oracle]
 {5}, {T}: Return target creature to its owner's hand.
 [FlavorText]
-Humans are so rude... more so than Gestrals... which is really saying something...
+"Humans are so rude... more so than Gestrals... which is really saying something..."
 [ForgeScript]
 A:AB$ ChangeZone | Cost$ 5 T | ValidTgts$ Creature | Origin$ Battlefield | Destination$ Hand | SpellDescription$ Return target creature to its owner's hand.
 [Artist]

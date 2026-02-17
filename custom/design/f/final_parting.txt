@@ -15,8 +15,8 @@ true
 [IsCommander]
 true
 [FlavorText]
-I'll keep the light on for you. I hope you find peace. Hold on to each other.
-- Renoir
+"I'll keep the light on for you. I hope you find peace. Hold on to each other."
+—Renoir, to Maelle
 [Artist]
 Sandfall Interactive
 [DesignNotes]

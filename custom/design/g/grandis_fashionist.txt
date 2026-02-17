@@ -14,7 +14,7 @@ R
 When ~ enters, you may search your library for a Picto card, reveal it, put it into your hand, then shuffle.
 {1}{U}, {T}: You may put a Picto card from your hand onto the battlefield.
 [FlavorText]
-Finish my sentence in a wonderfully poetic way: Life blooms like a rose, with petals soft and frail...
+"Finish my sentence in a wonderfully poetic way: Life blooms like a rose, with petals soft and frail..."
 [ForgeScript]
 T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigChange | OptionalDecider$ You | TriggerDescription$ When ~ enters, you may search your library for a Picto card, reveal it, put it into your hand, then shuffle.
 SVar:TrigChange:DB$ ChangeZone | Origin$ Library | Destination$ Hand | ChangeType$ Card.Picto | ChangeNum$ 1 | ShuffleNonMandatory$ True

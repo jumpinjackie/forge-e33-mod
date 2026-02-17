@@ -19,7 +19,7 @@ Whenever you cast an artifact spell, you may draw a card. If you do, discard a c
 Artifact spells you cast cost {1} less to cast.
 $EXPEDITIONER_DEATH_ABILITY_TEXT_LONG
 [FlavorText]
-Hello there, Gustave. Perhaps one of these artifacts may prove useful to your mission?
+"Hello there, Gustave. Perhaps one of these artifacts may prove useful to your mission?"
 [ForgeScript]
 T:Mode$ SpellCast | ValidCard$ Artifact | ValidActivatingPlayer$ You | Execute$ TrigLoot | TriggerZones$ Battlefield | TriggerDescription$ Whenever you cast an artifact spell, you may draw a card. If you do, discard a card.
 SVar:TrigLoot:AB$ Discard | Defined$ You | Mode$ TgtChoose | NumCards$ 1 | Cost$ Draw<1/You>

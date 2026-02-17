@@ -18,8 +18,8 @@ Sandfall Interactive
 This creature saddles Mounts and crews Vehicles as though its power were 2 greater.
 $EXPEDITIONER_DEATH_ABILITY_TEXT_LONG
 [FlavorText]
-Damnit Hector, I told you to SLOW DOWN
-- Damien, Expedition 63
+"Damnit Hector, I told you to SLOW DOWN"
+—Damien, Expedition 63
 [ForgeScript]
 S:Mode$ TapPowerValue | ValidSA$ Activated.Saddle+Mount,Activated.Crew+Vehicle | ValidCard$ Card.Self | Value$ 2 | Description$ CARDNAME saddles Mounts and crews Vehicles as though its power were 2 greater.
 $EXPEDITIONER_DEATH_ABILITY

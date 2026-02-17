@@ -12,8 +12,8 @@ Sandfall Interactive
 [Oracle]
 You may put a creature card from your hand onto the battlefield. That creature gains haste. Sacrifice that creature at the beginning of the next end step.
 [FlavorText]
-This only truly ends if you destroy the canvas, and that means stopping the final sliver of Verso's soul from painting.
-- Clea
+"This only truly ends if you destroy the canvas, and that means stopping the final sliver of Verso's soul from painting."
+—Clea
 [ForgeScript]
 A:SP$ ChangeZone | Origin$ Hand | Destination$ Battlefield | ChangeType$ Creature.YouCtrl | SubAbility$ DBPump | RememberChanged$ True | ForgetOtherRemembered$ True | AILogic$ BeforeCombat | SpellDescription$ You may put a creature card from your hand onto the battlefield. That creature gains haste. Sacrifice that creature at the beginning of the next end step.
 SVar:DBPump:DB$ Animate | Keywords$ Haste | Defined$ Remembered | Duration$ Permanent | AtEOT$ Sacrifice | SubAbility$ DBCleanup

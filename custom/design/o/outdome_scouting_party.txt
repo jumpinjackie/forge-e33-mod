@@ -20,8 +20,8 @@ $EXPEDITIONER_DEATH_ABILITY_TEXT
 [AbilityWords]
 Landfall
 [FlavorText]
-The Outdome teams brought back loads of new plants from the surrounding islands. That’s how I actually met Pierre. I asked his team for honeypetal samples. He brought me a bouquet of them, and 15 boxes of plant cuttings.
-- Sciel
+"The Outdome teams brought back loads of new plants from the surrounding islands. That’s how I actually met Pierre. I asked his team for honeypetal samples. He brought me a bouquet of them, and 15 boxes of plant cuttings."
+—Sciel
 [ForgeScript]
 T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Land.YouCtrl | TriggerZones$ Battlefield | Execute$ DBFlower | TriggerDescription$ Whenever a land you control enters, create a Flower token. (It’s an artifact with “{T}, Sacrifice this artifact: Add {U}, {R} or {G}.”)
 SVar:DBFlower:DB$ Token | TokenAmount$ 1 | TokenScript$ c_a_flower | TokenOwner$ You | SpellDescription$ Treasure

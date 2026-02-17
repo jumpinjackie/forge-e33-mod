@@ -13,7 +13,7 @@ When ~ enters, each player creates a Food token.
 Creatures with power greater than the number of Foods on the battlefield can’t attack.
 {2}, {T}, Sacrifice this artifact: You gain 3 life.
 [FlavorText]
-A group of five? A yummy looking cake! We have what is needed. NOW LET’S PARTYYYYY-
+"A group of five? A yummy looking cake! We have what is needed. NOW LET’S PARTYYYYY-"
 [ForgeScript]
 T:Mode$ ChangesZone | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigFood | TriggerDescription$ When ~ enters, each player creates a Food token.
 SVar:TrigFood:DB$ Token | TokenAmount$ 1 | TokenScript$ c_a_food_sac | TokenOwner$ Player

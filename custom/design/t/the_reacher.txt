@@ -19,7 +19,7 @@ Whenever a creature you control with flying attacks, remove a sky counter from ~
 {T}: Add {G} or {U}.
 {2}{G/U}: Remove a sky counter from ~.
 [FlavorText]
-Little one, there's more to life, if you can just see how big the sky truly is. Reach out your hand, and it's yours...
+"Little one, there's more to life, if you can just see how big the sky truly is. Reach out your hand, and it's yours..."
 [ForgeScript]
 K:Trample
 K:Reach

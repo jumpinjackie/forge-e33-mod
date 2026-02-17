@@ -14,7 +14,8 @@ Bronze Rank - As long as there are three or more quest counters on this enchantm
 Silver Rank - As long as there are four or more quest counters on this enchantment, creatures you control have Ward 1.
 Gold Rank - As long as there are five or more quest counters on this enchantment, creatures you control have trample.
 [FlavorText]
-00:36:500? Not a bad time, human.
+"00:36:500? Not a bad time, human."
+—Un-named Gestral
 [ForgeScript]
 T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Creature.YouCtrl | TriggerZones$ Battlefield | Execute$ TrigQuestCounter | OptionalDecider$ You | TriggerDescription$ Whenever a creature you control enters, you may put a quest counter on CARDNAME.
 S:Mode$ Continuous | Affected$ Creature.YouCtrl | AddKeyword$ Haste | IsPresent$ Card.Self+counters_GE3_QUEST | Description$ As long as there are three or more quest counters on CARDNAME, creatures you control have haste.

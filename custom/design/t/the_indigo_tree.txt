@@ -9,7 +9,7 @@ Land
 {T}: Add {G}.
 {4}, {T}: Create a Lumina token. $LUMINA_REMINDER_TEXT
 [FlavorText]
-Wait, there’s a message on the wall. “Took Maelle to the weird corals. Head north. Look for a door inside a hut“
+"Wait, there’s a message on the wall: Took Maelle to the weird corals. Head north. Look for a door inside a hut"
 - Lune
 [ForgeScript]
 A:AB$ Mana | Cost$ T | Produced$ G | SpellDescription$ Add {G}.

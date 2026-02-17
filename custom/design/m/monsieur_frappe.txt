@@ -14,7 +14,7 @@ U
 [Oracle]
 Whenever Monsieur Frappe is blocked, tap all creatures blocking him. Prevent all combat damage that would be dealt this turn by Monsieur Frappe and each creature blocking it.
 [FlavorText]
-Try to counter this, worm.
+"Try to counter this, worm."
 [ForgeScript]
 T:Mode$ AttackerBlockedByCreature | ValidCard$ Card.Self | ValidBlocker$ Creature | Execute$ TrigFeint | TriggerDescription$ Whenever ~ is blocked, tap all creatures blocking him. Prevent all combat damage that would be dealt this turn by Monsieur Frappe and each creature blocking it.
 SVar:TrigFeint:DB$ TapAll | ValidCards$ Creature.blockingSource | SubAbility$ FeintPump

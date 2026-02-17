@@ -13,8 +13,8 @@ Sandfall Interactive
 {T}: Add {U}.
 {U}, {T}: Target creature you control gains flying until end of turn.
 [FlavorText]
-Gustave: Expedition 68. Their boat was blown into the air by a storm. Lumière lost sight of it but assumed they crashed on the continent.
-Lune: And they survived. The storm, at least.
+"Expedition 68. Their boat was blown into the air by a storm. Lumière lost sight of it but assumed they crashed on the continent." explained Gustave.
+"And they survived. The storm, at least." remarked Lune.
 [EntersTapped]
 true
 [ForgeScript]

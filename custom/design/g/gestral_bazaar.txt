@@ -14,8 +14,8 @@ C
 Enchant Land
 Enchanted land has “{T}, Discard a card: Draw a card.”
 [FlavorText]
-Yahoo! I can sell stuff! You gots Chroma, yeh?
-- Delsitra
+"Yahoo! I can sell stuff! You gots Chroma, yeh?"
+—Delsitra
 [ForgeScript]
 K:Enchant:Land
 SVar:AttachAILogic:Pump

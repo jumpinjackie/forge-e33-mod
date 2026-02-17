@@ -17,8 +17,7 @@ Flying, trample, lifelink
 Whenever Verso’s Sky Train attacks, create a Lumina token.
 Crew 2 (Tap any number of creatures you control with total power 2 or more: This Vehicle becomes an artifact creature until end of turn.)
 [FlavorText]
-Choo Choo!
-- Verso
+"Choo Choo!"
 [ForgeScript]
 K:Flying
 K:Trample

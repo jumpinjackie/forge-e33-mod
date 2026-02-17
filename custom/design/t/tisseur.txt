@@ -19,9 +19,9 @@ Reach, first strike
 At the beginning of each player’s upkeep, that player sacrifices a creature they control with a cursed counter on it.
 {4}, {T}: Put a cursed counter on target creature.
 [FlavorText]
-Maelle: What’s that?
-Verso: The tisseur, it works for Sirène.
-Lune: So he creates all of that for her.
+Maelle: "What’s that?"
+Verso: "The tisseur, it works for Sirène."
+Lune: "So he creates all of that for her."
 [ForgeScript]
 K:Reach
 K:First strike

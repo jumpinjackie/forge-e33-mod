@@ -13,8 +13,8 @@ Enchant creature
 When ~ enters, create a Lumina token.
 All damage that would be dealt to enchanted creature is dealt to its controller instead.
 [FlavorText]
-Sometimes, we paint the bars of our own prison. Your despair blinds you. You think you're ready to pay the price. But are you willing to let them pay the price for you?
-- Renoir, to Verso
+"Sometimes, we paint the bars of our own prison. Your despair blinds you. You think you're ready to pay the price. But are you willing to let them pay the price for you?"
+—Renoir, to Verso
 [ForgeScript]
 K:Enchant:Creature
 SVar:AttachAILogic:Curse

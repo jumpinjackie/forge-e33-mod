@@ -14,8 +14,8 @@ Urborg, Tomb of Yawgmoth
 [Oracle]
 Each land is a Swamp in addition to its other land types.
 [FlavorText]
-We are the Warriors of Legend! We are here to challenge the dastardly Osquio, most villanous of all villains!
-- Maelle
+"We are the Warriors of Legend! We are here to challenge the dastardly Osquio, most villanous of all villains!"
+—Maelle
 [Artist]
 Sandfall Interactive
 [DesignNotes]

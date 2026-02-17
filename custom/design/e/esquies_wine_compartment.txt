@@ -13,8 +13,8 @@ U
 Remove a wine counter from ~: Target creature you control gets +1/-1 until end of turn. You gain 1 life.
 {2}, {T}, Sacrifice ~: You gain 3 life.
 [FlavorText]
-I stored my personal stash inside him. All excellent vintages. I don’t normally share, but I suppose tonight deserves an exception.
-- Verso
+"I stored my personal stash inside him. All excellent vintages. I don’t normally share, but I suppose tonight deserves an exception."
+—Verso
 [ForgeScript]
 K:etbCounter:WINE:5
 A:AB$ Pump | Cost$ SubCounter<1/WINE> | ValidTgts$ Creature.YouCtrl | TgtPrompt$ Select target creature you control | NumAtt$ +1 | NumDef$ -1 | SubAbility$ DBLifeGain | SpellDescription$ Target creature you control gets +1/-1 until end of turn. You gain 1 life.

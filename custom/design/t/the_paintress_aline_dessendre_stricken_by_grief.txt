@@ -28,7 +28,7 @@ creature-removal
 artifact-removal
 enchantment-removal
 [FlavorText]
-Arrogant Man. I taught him to Paint. And he seeks to use my creations against me?
+"Arrogant Man. I taught him to Paint. And he seeks to use my creations against me?"
 [Artist]
 Sandfall Interactive
 [ForgeScript]

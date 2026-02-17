@@ -19,7 +19,7 @@ A person in an expeditioner uniform on a raised platform in the Lumière town sq
 When this creature enters, you may search your library for an Expeditioner card, reveal it, put it into your hand, then shuffle.
 $EXPEDITIONER_DEATH_ABILITY_TEXT
 [FlavorText]
-Your time left in this life is limited, why not make it count for something?
+"Your time left in this lifetime is limited, why not make it count for something?"
 [ForgeScript]
 T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigChange | OptionalDecider$ You | TriggerDescription$ When CARDNAME enters, you may search your library for an Expeditioner card, reveal that card, put it into your hand, then shuffle.
 SVar:TrigChange:DB$ ChangeZone | Origin$ Library | Destination$ Hand | ChangeType$ Card.Expeditioner | ChangeNum$ 1 | ShuffleNonMandatory$ True

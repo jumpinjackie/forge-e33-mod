@@ -19,7 +19,7 @@ Flying
 This creature can block only creatures with Flying.
 $EXPEDITIONER_DEATH_ABILITY_TEXT_LONG
 [FlavorText]
-Our only choice is to take matters into our own hands. Fortune favors the bold. We must forge ahead with CONVICTION.
+"Our only choice is to take matters into our own hands. Fortune favors the bold. We must forge ahead with CONVICTION."
 [ForgeScript]
 K:Flying
 S:Mode$ CantBlockBy | ValidAttacker$ Creature.withoutFlying | ValidBlocker$ Creature.Self | Description$ CARDNAME can block only creatures with flying.

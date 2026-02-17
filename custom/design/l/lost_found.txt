@@ -12,7 +12,7 @@ Sandfall Interactive
 [Oracle]
 Put target nonland permanent on the bottom of its owner’s library.
 [FlavorText]
-Mmm. Yeah. I get sad too, when I lose my stones.
+"Mmm. Yeah. I get sad too, when I lose my stones."
 [ForgeScript]
 K:Fuse
 AlternateMode:Split
@@ -27,7 +27,7 @@ Instant
 [Oracle]
 Return target artifact card from your graveyard to your hand.
 [FlavorText]
-But I always find them again. You will find them again too.
+"But I always find them again. You will find them again too."
 [ForgeScript]
 A:SP$ ChangeZone | Origin$ Graveyard | Destination$ Hand | TgtPrompt$ Choose target artifact card in your graveyard | ValidTgts$ Artifact.YouCtrl | SpellDescription$ Return target artifact card from your graveyard to your hand.
 DeckHints:Type$Artifact

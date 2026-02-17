@@ -7,8 +7,8 @@ Instant
 [Oracle]
 Exile target creature. Its controller gains life equal to its power.
 [FlavorText]
-Once a farmer, always a farmer.
-- Sciel
+"Once a farmer, always a farmer."
+—Sciel
 [IsReprint]
 true
 [IsCommander]

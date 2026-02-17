@@ -23,7 +23,7 @@ Enrage — Whenever Golgra is dealt damage, choose one —
 [AbilityWords]
 Enrage
 [FlavorText]
-Really? A duel? Do you have a death wish?
+"Really? A duel? Do you have a death wish?"
 [ForgeScript]
 S:Mode$ Continuous | Affected$ Card.Gestral+Other+YouCtrl | AddPower$ 2 | AddToughness$ 2 | Description$ Other Gestral creatures you control get +2/+2
 T:Mode$ DamageDoneOnce | Execute$ TrigChoice | ValidTarget$ Card.Self | TriggerZones$ Battlefield | TriggerDescription$ Enrage — Whenever Golgra is dealt damage, ABILITY

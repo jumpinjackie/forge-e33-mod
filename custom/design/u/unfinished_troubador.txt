@@ -16,7 +16,7 @@ As ~ enters, choose a creature type.
 Other creatures you control get +1/+1 if ~ has a verse counter.
 Other creatures you control have haste if ~ has a rage counter.
 [FlavorText]
-Teach me... how to play.
+"Teach me... how to play."
 [ForgeScript]
 T:Mode$ ChangesZone | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigVerse | TriggerDescription$ When this creature enters, put a verse counter on it if {G} was spent to cast this spell and put a rage counter if {R} was spent to cast this spell.
 SVar:TrigVerse:DB$ PutCounter | CounterNum$ 1 | CounterType$ VERSE | ConditionManaSpent$ G | SubAbility$ TrigRage

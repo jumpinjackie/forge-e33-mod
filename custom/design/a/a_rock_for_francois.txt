@@ -13,9 +13,9 @@ C
 {2}, {T}, Sacrifice this artifact: Search your library for a Rock card and put it into your hand.
 {1}, Sacrifice this artifact: Draw a card.
 [FlavorText]
-Verso: We’ll trade you. Urrie for this, uh... lovely portrait of you.
-François: Is that s’posed to be ME?!
-Esquie: I think we captured your essence beautifully.
+Verso: "We’ll trade you. Urrie for this, uh... lovely portrait of you."
+François: "Is that s’posed to be ME?!"
+Esquie: "I think we captured your essence beautifully."
 [Artist]
 Sandfall Interactive
 [ForgeScript]

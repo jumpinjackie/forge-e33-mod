@@ -24,7 +24,7 @@ The strongest ice attack ever — At the beginning of your upkeep, François dea
 [AbilityWords]
 The strongest ice attack ever
 [FlavorText]
-A ROCK? I am NOT a rock, do you have rocks for eyes? You certainly have rocks for BRAINS. I am clearly a TURTLE.
+"A ROCK? I am NOT a rock, do you have rocks for eyes? You certainly have rocks for BRAINS. I am clearly a TURTLE."
 [ForgeScript]
 K:Affinity:Planeswalker.Clea
 K:Defender

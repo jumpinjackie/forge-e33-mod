@@ -13,7 +13,7 @@ true
 [Rarity]
 C
 [FlavorText]
-You do that, we both die.
+"You do that, we both die."
 - Lune
 [Artist]
 Sandfall Interactive

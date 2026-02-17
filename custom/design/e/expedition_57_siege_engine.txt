@@ -14,8 +14,8 @@ C
 [Oracle]
 Trample
 [FlavorText]
-Our lives are forfeit anyway, but is there perhaps a better way to spend such precious coin?
-- Carla, Expedition 57
+"Our lives are forfeit anyway, but is there perhaps a better way to spend such precious coin?"
+—Carla, Expedition 57
 [ForgeScript]
 K:Trample
 [Artist]

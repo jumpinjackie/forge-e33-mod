@@ -15,8 +15,8 @@ Sandfall Interactive
 {T}: Add {C}
 {T}: Add one mana of any color. ~ deals 1 damage to you.
 [FlavorText]
-Maybe. Maybe we'll just stay here and... enjoy the melody.
-- Luc, Expedition 67
+"Maybe. Maybe we'll just stay here and... enjoy the melody."
+—Luc, Expedition 67
 [ForgeScript]
 R:Event$ Moved | ValidCard$ Card.Self | Destination$ Battlefield | ReplaceWith$ LandTapped | ReplacementResult$ Updated | Description$ CARDNAME enters tapped unless you control a Nevron or Painter.
 SVar:LandTapped:DB$ Tap | Defined$ Self | ETB$ True | ConditionPresent$ Nevron.YouCtrl,Painter.YouCtrl | ConditionCompare$ EQ0

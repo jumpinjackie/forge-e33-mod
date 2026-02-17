@@ -16,7 +16,7 @@ Sacrifice ~: Choose one —
 • Put a shield counter on target creature.
 • Target creature gains hexproof until end of turn.
 [FlavorText]
-Gotta take one for the team.
+"Gotta take one for the team."
 [ForgeScript]
 K:Flash
 A:AB$ Charm | Cost$ Sac<1/CARDNAME> | Choices$ DBShield,DBHexproof | CharmNum$ 1

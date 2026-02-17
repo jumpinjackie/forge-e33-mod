@@ -20,7 +20,7 @@ Foretell {W} (During your turn, you may pay {2} and exile this card from your ha
 [AbilityWords]
 Luminous
 [FlavorText]
-Your turn to shine!
+"Your turn to shine!"
 [ForgeScript]
 K:Foretell:W
 A:SP$ Untap | ValidTgts$ Creature.YouCtrl | TgtPrompt$ Select target creature you control | SubAbility$ DBGrantHexproof | SpellDescription$ Untap target creature you control. It gains hexproof until end of turn.

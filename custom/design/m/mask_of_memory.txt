@@ -17,8 +17,8 @@ U
 [Artist]
 Allen Morris
 [FlavorText]
-This mask can't hurt me. Because it is me.
-- Sciel
+"This mask can't hurt me. Because it is me."
+—Sciel
 [DesignNotes]
  - Utility equipment for Commander.
  - Chosen solely to be able to use this flavor text.

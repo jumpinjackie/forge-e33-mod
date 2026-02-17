@@ -18,8 +18,8 @@ Whenever a Nevron creature dies, create a Food token.
 {2}, Sacrifice a Food token: Target non-Nevron creature deals 3 damage to itself.
 When this creature dies, create a Chroma token.
 [FlavorText]
-I can't believe she convinced everyone to eat the Nevron. They've been puking for the past few hours. Great.
-- Julien, Expedition 59
+"I can't believe she convinced everyone to eat the Nevron. They've been puking for the past few hours. Great."
+—Julien, Expedition 59
 [ForgeScript]
 T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Creature.Nevron | TriggerZones$ Battlefield | Execute$ TrigFood | TriggerDescription$ Whenever a Nevron creature dies, create a Food token.
 SVar:TrigFood:DB$ Token | TokenScript$ c_a_food_sac | TokenOwner$ You | TokenAmount$ 1

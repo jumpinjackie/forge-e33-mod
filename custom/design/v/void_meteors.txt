@@ -18,8 +18,8 @@ Devoid $DEVOID_REMINDER_TEXT
 This spell costs {2} less to cast if you control a painter.
 ~ deals 4 damage divided as you choose among any number of targets.
 [FlavorText]
-How cruel of your father to use you like this.
-- The Paintress
+"How cruel of your father to use you like this."
+—The Paintress
 [ForgeScript]
 K:Devoid
 S:Mode$ ReduceCost | ValidCard$ Card.Self | Type$ Spell | Amount$ 2 | EffectZone$ All | IsPresent$ Painter.YouCtrl | Description$ This spell costs {2} less to cast if you control a painter.

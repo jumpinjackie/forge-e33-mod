@@ -14,7 +14,7 @@ Gestral
 Menace
 Queueing is for losers — {1}{B}: Put a menace counter on another target creature. It becomes a Toy in addition to its other types.
 [FlavorText]
-One day I will make it so nobody ever has to queue anywhere anymore!
+"One day I will make it so nobody ever has to queue anywhere anymore!"
 [AbilityWords]
 Queueing is for losers
 [ForgeScript]

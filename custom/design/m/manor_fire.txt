@@ -17,7 +17,7 @@ Choose one —
 • Destroy all Rooms.
 Draw a card.
 [FlavorText]
-You're ok.
+"You're ok."
 [ForgeScript]
 A:SP$ Charm | Choices$ DBSweep,DBWasteland,DBDestroyRooms
 SVar:DBSweep:DB$ DamageAll | NumDmg$ 1 | ValidCards$ Creature | ValidDescription$ each creature. | SubAbility$ DBDraw | SpellDescription$ CARDNAME deals 1 damage to each creature.

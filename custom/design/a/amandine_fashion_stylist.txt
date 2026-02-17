@@ -18,7 +18,7 @@ Sandfall Interactive
 {W}, {T}: Attach target Equipment you control to target creature you control.
 $EXPEDITIONER_DEATH_ABILITY_TEXT_LONG
 [FlavorText]
-Oh hey handsome, perfect timing. I’m styling everyone before we ship out. Gotta look sharp when we hit the Paintress, eh?
+"Oh hey handsome, perfect timing. I’m styling everyone before we ship out. Gotta look sharp when we hit the Paintress, eh?"
 [ForgeScript]
 A:AB$ Pump | Cost$ W T | ValidTgts$ Equipment.YouCtrl | TgtPrompt$ Select target equipment you control | SubAbility$ WindwalkerAttach | StackDescription$ None | SpellDescription$ Attach target Equipment you control to target creature you control.
 SVar:WindwalkerAttach:DB$ Attach | Object$ ParentTarget | ValidTgts$ Creature.YouCtrl | TgtPrompt$ Select target creature you control

@@ -12,7 +12,7 @@ C
 ~ deals 2 damage to any target.
 Luminous — ~ deals 4 damage instead if you control at least three Lumina tokens.
 [FlavorText]
-Meet your reckoning!
+"Meet your reckoning!"
 [AbilityWords]
 Luminous
 [ForgeScript]

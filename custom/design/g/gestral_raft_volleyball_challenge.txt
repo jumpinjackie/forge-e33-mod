@@ -16,7 +16,8 @@ Hard Difficulty — {U/R}{U/R}: You may choose new targets for target spell or a
 Normal Difficulty
 Hard Difficulty
 [FlavorText]
-Oh, you won. You deserve this reward. Have fun with it!
+"Oh, you won. You deserve this reward. Have fun with it!"
+—Un-named Gestral
 [ForgeScript]
 T:Mode$ BecomesTarget | ValidSource$ SpellAbility.OppCtrl | ValidTarget$ Creature.YouCtrl+inZoneBattlefield | TriggerZones$ Battlefield | Execute$ TrigQuestCounter | OptionalDecider$ You | TriggerDescription$ Whenever a creature you control becomes the target of a spell or ability, you may put a quest counter on CARDNAME.
 T:Mode$ BecomesTarget | ValidSource$ SpellAbility.OppCtrl | ValidTarget$ Creature.YouCtrl+inZoneBattlefield | TriggerZones$ Battlefield | IsPresent$ Card.Self+counters_GE3_QUEST | Execute$ TrigDraw | TriggerDescription$ Whenever a creature you control becomes the target of a spell or ability, draw a card.

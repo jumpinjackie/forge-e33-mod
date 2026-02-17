@@ -15,7 +15,7 @@ U
 When ~ enters, create a colorless Equipment artifact token named Romanifo's Balloon with "Equipped creature has flying" and equip {2}.
 ~ has indestructible as long as you control a token named Romanifo's Balloon.
 [FlavorText]
-Some mean brushes here would say it's fun to pop balloons. They're MY balloons. Don't touch them.
+"Some mean brushes here would say it's fun to pop balloons. They're MY balloons. Don't touch them."
 [ForgeScript]
 T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigToken | TriggerDescription$ When ~ enters, create a colorless Equipment artifact token named Romanifo's Balloon with "Equipped creature has flying" and equip {2}.
 SVar:TrigToken:DB$ Token | TokenAmount$ 1 | TokenScript$ c_a_romanifos_balloon | TokenOwner$ You

@@ -17,8 +17,8 @@ Google Gemini
 Trample
 Sacrifice a nonland creature: Draw cards equal to the sacrificed creature’s power, then discard three cards.
 [FlavorText]
-Verso: I don't want this life... I don't want this life...
-Maelle: I just- I just wanted to live this lifetime together. This lifetime that was stolen from us. Please, brother... Please.
+"I don't want this life... I don't want this life..." pleaded Verso
+"I just- I just wanted to live this lifetime together." Maelle replied with assurance "This lifetime that was stolen from us. Please, brother... Please."
 [ForgeScript]
 K:Trample
 A:AB$ Draw | Cost$ Sac<1/Creature.nonLand/nonland creature> | NumCards$ X | SubAbility$ DBDiscard | SpellDescription$ Draw cards equal to the sacrificed creature's power, then discard three cards.

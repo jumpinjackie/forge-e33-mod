@@ -14,8 +14,8 @@ U
 [Oracle]
 Trample
 [FlavorText]
-Who's gonna go fight?
-- Limonsol, Matchmaker
+"Who's gonna go fight?"
+—Limonsol, Matchmaker
 [ForgeScript]
 K:Trample
 [Artist]

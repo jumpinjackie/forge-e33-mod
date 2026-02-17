@@ -21,7 +21,7 @@ Trample
 Summons his little friends
 Time for a spin spin
 [FlavorText]
-WARRIORS OF LEGEND! Prepare. For. Annihilation!
+"WARRIORS OF LEGEND! Prepare. For. Annihilation!"
 [Tags]
 creature-removal
 [Artist]
@@ -57,7 +57,7 @@ Decides to destroy the world. Bye bye — When Osquio dies, destroy all permanen
 Goes pew pew pew
 Decides to destroy the world. Bye bye
 [FlavorText]
-Prepare to be HUGGED.
+"Prepare to be HUGGED."
 [ForgeScript]
 T:Mode$ DamageDone | ValidSource$ Card.Self | ValidTarget$ Creature | Execute$ TrigBarbapapa | TriggerDescription$ Whenever Osquio deals damage to a creature, create a blue Aura enchantment token named Barbapapa attached to that creature. The token has enchant creature and “Enchanted creature has base power 1. When enchanted creature deals combat damage, sacrifice this Aura.”
 # TODO: Is there an AI hint to get it to target our creatures (preferring highest power)?

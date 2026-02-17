@@ -16,7 +16,7 @@ Sandfall Interactive
 [Oracle]
 {2}, {T}: Target creature you control fights another target creature. (Each deals damage equal to its power to the other.)
 [FlavorText]
-Did I mention the prize is a powerful weapon? So, how about it?
+"Did I mention the prize is a powerful weapon? So, how about it?"
 [ForgeScript]
 A:AB$ Pump | Cost$ 2 T | ValidTgts$ Creature.YouCtrl | TgtPrompt$ Choose target creature you control | SubAbility$ ArenaFight | StackDescription$ None | SpellDescription$ Target creature you control fights another target creature. (Each deals damage equal to its power to the other.)
 SVar:ArenaFight:DB$ Fight | Defined$ ParentTarget | ValidTgts$ Creature | TargetUnique$ True | TgtPrompt$ Choose another target creature

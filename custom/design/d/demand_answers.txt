@@ -13,11 +13,11 @@ true
 [Rarity]
 C
 [FlavorText]
-Lune: Care to explain? Your father?
-Verso: I don't think of him as my father anymore.
-Sciel: Still. Why didn't you just tell us?
-Verso: Because it's private and it's painful. And it's none of your business. I cut ties with him decades ago.
-Lune: Lying by omission is still lying.
+Lune: "Care to explain? Your father?"
+Verso: "I don't think of him as my father anymore."
+Sciel: "Still. Why didn't you just tell us?"
+Verso: "Because it's private and it's painful. And it's none of your business. I cut ties with him decades ago."
+Lune: "Lying by omission is still lying."
 [Artist]
 Sandfall Interactive
 [DesignNotes]

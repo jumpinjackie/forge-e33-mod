@@ -18,8 +18,8 @@ When ~ enters, put a shield counter on target creature.
 {W}, {T}: Target creature you control gains protection from Nevrons until end of turn.
 $EXPEDITIONER_DEATH_ABILITY_TEXT
 [FlavorText]
-We can hold the line for another few days but we need to find a way out, our water supply is running dangerously low.
-- Christophe, Expedition 49
+"We can hold the line for another few days but we need to find a way out, our water supply is running dangerously low."
+—Christophe, Expedition 49
 [Artist]
 Google Gemini
 [ForgeScript]

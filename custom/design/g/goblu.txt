@@ -39,8 +39,8 @@ SVar:TrigShield:DB$ PutCounter | ValidTgts$ Creature | TgtPrompt$ Select target 
 SVar:TrigDraw:DB$ Draw | Defined$ You | NumCards$ 1 | SpellDescription$ Draw a card.
 DeckHints:Name$Ophelie, Lumière Florist|Lumière Flower Stand
 [FlavorText]
-Gustave, wait! It seems peaceful, as long as we don't touch the flowers.
-- Lune
+"Gustave, wait! It seems peaceful, as long as we don't touch the flowers."
+—Lune
 [RelatedTokens]
 c_a_flower
 [DraftScore]

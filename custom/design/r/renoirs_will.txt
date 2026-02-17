@@ -14,8 +14,7 @@ Sandfall Interactive
 Until end of turn, you may play lands and cast Nevron or Gradient spells from your graveyard.
 If a card would be put into your graveyard from anywhere this turn, exile that card instead.
 [FlavorText]
-67 years. 67 years I spent trapped within the Monolith. But I persisted. I persisted. Do you know why? Do you know why I CANNOT leave her or you behind? This is what I see every day. I cannot spend another day with living corpses.
-- Renoir
+"67 years. 67 years I spent trapped within the Monolith. But I persisted. I persisted. Do you know why? Do you know why I CANNOT leave her or you behind? This is what I see every day. I cannot spend another day with living corpses."
 [ForgeScript]
 A:SP$ Effect | ReplacementEffects$ GraveToExile | StaticAbilities$ STPlay | AILogic$ YawgmothsWill | AINoRecursiveCheck$ True | SpellDescription$ Until end of turn, you may play lands and cast Nevron or Gradient spells from your graveyard.\nIf a card would be put into your graveyard from anywhere this turn, exile that card instead.
 SVar:STPlay:Mode$ Continuous | Affected$ Land.YouCtrl,Nevron.YouCtrl,Gradient.YouCtrl | AffectedZone$ Graveyard | MayPlay$ True | Description$ You may play lands and cast Nevron or Gradient spells from your graveyard.

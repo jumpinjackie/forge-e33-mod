@@ -13,8 +13,8 @@ Menace
 When this creature enters, target opponent reveals their hand. You choose a nonland card from it. That player discards that card.
 Evoke—Exile a black card from your hand.
 [FlavorText]
-Grief often blinds us. And we make choices we can never take back.
-- Sciel
+"Grief often blinds us. And we make choices we can never take back."
+—Sciel
 [PT]
 3/2
 [Rarity]

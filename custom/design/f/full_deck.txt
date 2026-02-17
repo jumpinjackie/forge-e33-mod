@@ -16,7 +16,7 @@ Foretell {U}{B} (During your turn, you may pay {2} and exile this card from your
 [AbilityWords]
 Luminous
 [FlavorText]
-The cards have spoken!
+"The cards have spoken!"
 [ForgeScript]
 K:Foretell:U B
 A:SP$ Destroy | ValidTgts$ Creature,Planeswalker | TgtPrompt$ Select target creature or planeswalker | SubAbility$ DBMill | SpellDescription$ Destroy target creature or planeswalker.

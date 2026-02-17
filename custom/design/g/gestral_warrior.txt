@@ -15,7 +15,7 @@ Sandfall Interactive
 [Oracle]
 ~ cannot attack or block alone.
 [FlavorText]
-You’re a twig on my path to Gestral hero-ing. Get out of my sight.
+"You’re a twig on my path to Gestral hero-ing. Get out of my sight."
 [ForgeScript]
 K:CARDNAME can't attack or block alone.
 [DesignNotes]

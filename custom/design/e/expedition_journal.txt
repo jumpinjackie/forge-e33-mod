@@ -12,8 +12,8 @@ U
 {3}, {T}: Remove a lore counter from target Saga you control.
 {2}, Sacrifice ~: Draw a card.
 [FlavorText]
-Gustave: Learn from the ones who came before ...
-Lune: ...And lay the trail, for the ones who come after
+Gustave: "Learn from the ones who came before ..."
+Lune: "...And lay the trail, for the ones who come after"
 [ForgeScript]
 A:AB$ PutCounter | Cost$ 3 T | ValidTgts$ Saga.YouCtrl | TgtPrompt$ Select target Saga you control | CounterType$ LORE | CounterNum$ 1 | SpellDescription$ Put a lore counter on target Saga you control.
 A:AB$ RemoveCounter | Cost$ 3 T | ValidTgts$ Saga.YouCtrl | TgtPrompt$ Select target Saga you control | CounterType$ LORE | CounterNum$ 1 | SpellDescription$ Remove a lore counter from target Saga you control.

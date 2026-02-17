@@ -17,8 +17,8 @@ Google Gemini
 Any damage dealt to you is dealt to ~ instead.
 {4}{W}, {T}: Put a shield counter on ~.
 [FlavorText]
-I'm FINE. I've lived 33 good years. Look around. We've had our whole lives to prepare. We'll be fine.
-- Sophie
+"I'm FINE. I've lived 33 good years. Look around. We've had our whole lives to prepare. We'll be fine."
+—Sophie
 [ForgeScript]
 K:etbCounter:SHIELD:1
 R:Event$ DamageDone | ActiveZones$ Battlefield | ValidSource$ Any | ValidTarget$ You | ReplaceWith$ DmgSelf | DamageTarget$ Self | Description$ Any damage dealt to you is dealt to ~ instead.

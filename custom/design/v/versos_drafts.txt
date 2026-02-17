@@ -12,7 +12,8 @@ When ~ enters, create two Lumina tokens. $LUMINA_REMINDER_TEXT
 {T}: Add {C}
 {4}, {T}: Create a 1/1 colorless Gestral artifact creature token.
 [FlavorText]
-Welcome to our small little resort of supreme relaxation.
+"Welcome to our small little resort of supreme relaxation."
+—Half-baked Gestral
 [ForgeScript]
 T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigToken | TriggerDescription$ When ~ enters, create a Lumina token. (It’s an artifact with “{T}, Sacrifice this artifact: Scry 1.”)
 SVar:TrigToken:DB$ Token | TokenAmount$ 2 | TokenOwner$ You | TokenScript$ c_a_lumina

@@ -15,9 +15,9 @@ Sacrifice this enchantment: Choose one —
 • Creatures you control get +1/+1 until end of turn.
 • Creatures you control gain hexproof until end of turn. (They can’t be the targets of spells or abilities your opponents control.)
 [FlavorText]
-Maelle: If you’re gonna give someone flowers, you should probably do it before they wither and die.
-Gustave: What? The flower? Or Sophie?
-Maelle: Ooh dark. Sophie would approve.
+Maelle: "If you’re gonna give someone flowers, you should probably do it before they wither and die."
+Gustave: "What? The flower? Or Sophie?"
+Maelle: "Ooh dark. Sophie would approve."
 [ForgeScript]
 T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigDiscard | TriggerDescription$ When this enchantment enters, target opponent discards a card and you lose 2 life.
 SVar:TrigDiscard:DB$ Discard | ValidTgts$ Opponent | Mode$ TgtChoose | NumCards$ 1 | SubAbility$ DBLifeLoss

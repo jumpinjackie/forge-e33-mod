@@ -12,8 +12,7 @@ Expeditioner
 Payback deals 5 damage divided as you choose among any number of target attacking or blocking creatures.
 Create a Lumina token. $LUMINA_REMINDER_TEXT
 [FlavorText]
-Let’s dance!
-- Maelle
+"Let’s dance!"
 [ForgeScript]
 A:SP$ DealDamage | ValidTgts$ Creature.attacking,Creature.blocking | TgtPrompt$ Select target attacking or blocking creature to distribute damage to | NumDmg$ 5 | TargetMin$ 0 | TargetMax$ 5 | DividedAsYouChoose$ 5 | SubAbility$ DBToken | SpellDescription$ ~ deals 5 damage divided as you choose among any number of target attacking or blocking creatures.
 SVar:DBToken:DB$ Token | TokenAmount$ 1 | TokenOwner$ You | TokenScript$ c_a_lumina

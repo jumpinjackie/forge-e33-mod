@@ -13,7 +13,7 @@ C
 [Oracle]
 Reach
 [FlavorText]
-If I'm lucky, I'll become a weapon for a Sakapatate!
+"If I'm lucky, I'll become a weapon for a Sakapatate!"
 [ForgeScript]
 K:Reach
 [Artist]

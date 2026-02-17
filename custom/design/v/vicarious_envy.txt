@@ -10,8 +10,8 @@ U
 [Oracle]
 Target creature you control becomes a copy of target creature until end of turn.
 [FlavorText]
-I envy them, those who can’t see. Those who know not, that they are not. And those who live, blithe and free, sins forgotten and thus absolved. A fresh dawn in their playground, while we live in shadows, swimming in ink. We are but a fragile dream, a singular weed, resisting, ever resisting.
-- Masked Woman
+"I envy them, those who can’t see. Those who know not, that they are not. And those who live, blithe and free, sins forgotten and thus absolved. A fresh dawn in their playground, while we live in shadows, swimming in ink. We are but a fragile dream, a singular weed, resisting, ever resisting."
+—Masked Woman
 [ForgeScript]
 A:SP$ Clone | Choices$ Creature | ChoiceTitle$ Choose a creature to copy | ValidTgts$ Creature.YouCtrl | TgtPrompt$ Choose target creature you control | Duration$ UntilEndOfTurn | StackDescription$ SpellDescription | SpellDescription$ Target creature you control becomes a copy of target creature until end of turn.
 [Artist]

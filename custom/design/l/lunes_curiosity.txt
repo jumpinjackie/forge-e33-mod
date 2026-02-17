@@ -18,7 +18,7 @@ Whenever enchanted creature deals damage to an opponent, choose one —
 • Create a Lumina token
 • Create a Chroma token
 [FlavorText]
-Do you heal from the top or the bottom? Or do you have to bring the halves together? Hey, can you control the process?
+"Do you heal from the top or the bottom? Or do you have to bring the halves together? Hey, can you control the process?"
 [ForgeScript]
 K:Enchant:Creature
 SVar:AttachAILogic:Curiosity

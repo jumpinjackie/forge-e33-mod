@@ -15,8 +15,8 @@ Sandfall Interactive
 As an additional cost to cast this spell, sacrifice a Gestral.
 ~ deals 5 damage to any target.
 [FlavorText]
-I captured a few baby gestrals we can use as balls. I asked for their consent. They all said yes.
-- Un-named Gestral
+"I captured a few baby gestrals we can use as balls. I asked for their consent. They all said yes."
+—Un-named Gestral
 [ForgeScript]
 A:SP$ DealDamage | Cost$ 2 R Sac<1/Gestral> | ValidTgts$ Any | NumDmg$ 5 | SpellDescription$ CARDNAME deals 5 damage to any target.
 SVar:AIPreference:SacCost$Creature.Gestral+cmcLE1

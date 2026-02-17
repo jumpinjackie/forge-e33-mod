@@ -10,8 +10,8 @@ C
 Kicker — {2}, Tap an untapped creature you control.
 ~ deals 2 damage to target creature. If this spell was kicked, ~ deals 4 damage instead.
 [FlavorText]
-Have you tried throwing with your other arm instead? If you could hit the Paintress directly that would be useful.
-- Maelle
+"Have you tried throwing with your other arm instead? If you could hit the Paintress directly that would be useful."
+—Maelle
 [ForgeScript]
 K:Kicker:2 tapXType<1/Creature>
 A:SP$ DealDamage | ValidTgts$ Creature | TgtPrompt$ Select target creature | NumDmg$ WasKicked | SpellDescription$ CARDNAME deals 2 damage to target creature. If CARDNAME was kicked, it deals 4 damage instead.

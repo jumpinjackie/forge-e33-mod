@@ -20,7 +20,7 @@ Luminous — Draw a card if you control at least three Lumina tokens.
 [AbilityWords]
 Luminous
 [FlavorText]
-Earth. Rise!
+"Earth. Rise!"
 [ForgeScript]
 A:SP$ DamageAll | ValidCards$ Creature.withoutFlying,Planeswalker | ValidPlayers$ Player | NumDmg$ X | AILogic$ PriceOfProgress | SubAbility$ TrigDraw | SpellDescription$ CARDNAME deals X damage to each creature without flying, each planeswalker and each player, where X is twice the number of non-basic lands in play.
 SVar:X:Count$Valid Land.nonBasic/Times.2

@@ -15,7 +15,7 @@ Sandfall Interactive
 [Oracle]
 Whenever ~ is dealt damage, create a Chroma token $CHROMA_REMINDER_TEXT
 [FlavorText]
-I have some useful items for you!
+"I have some useful items for you!"
 [ForgeScript]
 T:Mode$ DamageDoneOnce | Execute$ TrigDamage | ValidTarget$ Card.Self | TriggerZones$ Battlefield | TriggerDescription$ Whenever CARDNAME is dealt damage, create a Chroma token.
 SVar:TrigDamage:DB$ Token | TokenScript$ c_a_chroma | TokenOwner$ You

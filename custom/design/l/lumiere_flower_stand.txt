@@ -13,8 +13,8 @@ U
 {1}, Remove a stock counter from ~, {T}: Create a Flower token (It's an artifact with "{T}, Sacrifice this artifact: Add {U}, {R} or {G}.")
 {3}, {T}: Put a stock counter on ~
 [FlavorText]
-Sophie: Looks like you still have a lot of flowers left.
-Tiffanie: Well, there are less and less people to buy them. I just wish you didn't have to wear one.
+"Looks like you still have a lot of flowers left." remarked Sophie.
+"Well, there are less and less people to buy them. I just wish you didn't have to wear one." replied Tiffanie.
 [ForgeScript]
 K:etbCounter:STOCK:3
 A:AB$ Token | Cost$ 1 SubCounter<1/STOCK> T | TokenAmount$ 1 | TokenOwner$ You | TokenScript$ c_a_flower | SpellDescription$ Create a Flower token (It's an artifact with "{T}, Sacrifice this artifact: Add {U}, {R} or {G}.")

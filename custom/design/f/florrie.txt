@@ -14,8 +14,8 @@ Sandfall Interactive
 {T}: Target creature you control gains Islandwalk until end of turn.
 {1}, Sacrifice Florrie: Draw a card.
 [FlavorText]
-See, Florrie helps me swim. But Florrie was stolen by my archnemesis!
-- Esquie
+"See, Florrie helps me swim. But Florrie was stolen by my archnemesis!"
+—Esquie
 [ForgeScript]
 A:AB$ Animate | Cost$ T | ValidTgts$ Creature.YouCtrl | TgtPrompt$ Select target creature you control | Keywords$ Islandwalk | SpellDescription$ Target creature you control gains Islandwalk until end of turn.
 A:AB$ Draw | Cost$ 1 Sac<1/CARDNAME> | NumCards$ 1 | SpellDescription$ Draw a card.

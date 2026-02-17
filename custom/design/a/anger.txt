@@ -16,8 +16,8 @@ As long as this card is in your graveyard and you control a Mountain, creatures 
 [Artist]
 Svetlin Velinov
 [FlavorText]
-Verso: We only need to incapacitate him.
-Maelle: We'll find a way to kill him.
+"We only need to incapacitate him" said Verso.
+"We'll find a way to kill him" Maelle replies incredulously.
 [Cycle]
 The five stages of Grief
 [DesignNotes]

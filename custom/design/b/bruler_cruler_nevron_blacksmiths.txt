@@ -18,7 +18,7 @@ Vigilance
 When Bruler & Cruler enters, if you control an Equipment, draw a card.
 Equip abilities you activate cost {1} less to activate.
 [FlavorText]
-Someone found our shop! I was this close to believing that we’d never have clients. Our location is terrible.
+"Someone found our shop! I was this close to believing that we’d never have clients. Our location is terrible."
 [ForgeScript]
 K:Vigilance
 T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | IsPresent$ Equipment.YouCtrl | PresentCompare$ GE1 | Execute$ TrigDraw | TriggerDescription$ When ~ enters, if you control an Equipment, draw a card.

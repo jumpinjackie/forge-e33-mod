@@ -12,8 +12,8 @@ Sandfall Interactive
 {T}: Add {C}.
 {3}, {T}: Exile target Expeditioner you control. At the beginning of the next end step, return that card to the battlefield under its owner's control. If it entered under your control and is a creature, put a +1/+1 counter on it.
 [FlavorText]
-So uh... We can rest a bit, but the moon is bright, I want to keep moving.
-- Gustave
+"So uh... We can rest a bit, but the moon is bright, I want to keep moving."
+—Gustave
 [ForgeScript]
 A:AB$ Mana | Cost$ T | Produced$ C | SpellDescription$ Add {C}.
 A:AB$ ChangeZone | Cost$ 3 T | ValidTgts$ Expeditioner.YouCtrl | TgtPrompt$ Select target Expeditioner you control | Origin$ Battlefield | Destination$ Exile | RememberChanged$ True | SubAbility$ DelTrig | SpellDescription$ Exile target Expeditioner you control. At the beginning of the next end step, return that card to the battlefield under its owner's control. If it entered under your control and is a creature, put a +1/+1 counter on it.

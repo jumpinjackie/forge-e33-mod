@@ -13,8 +13,8 @@ Sandfall Interactive
 Exile all graveyards. You gain 1 life for each creature card exiled this way.
 Draw a card.
 [FlavorText]
-For the sake of the living, we must part with the dead.
-- Renoir
+"For the sake of the living, we must part with the dead."
+—Renoir
 [ForgeScript]
 A:SP$ ChangeZoneAll | ChangeType$ Card | Origin$ Graveyard | Destination$ Exile | AILogic$ ExileGraveyards | RememberChanged$ True | SubAbility$ DBLifeGain | SpellDescription$ Exile all graveyards.
 SVar:DBLifeGain:DB$ GainLife | LifeAmount$ X | SubAbility$ DBDraw

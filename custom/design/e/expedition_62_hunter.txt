@@ -19,8 +19,7 @@ When this creature enters, destroy up to one target Nevron creature.
 {2}{B}, {T}: Target creature gets -2/-2 until end of turn.
 When this creature dies, create a Chroma token.
 [FlavorText]
-Oh, I hear a big Nev coming, they count for double. If I kill it quick I can boost my score.
-- Virgile, Expedition 62
+"Oh, I hear a big Nev coming, they count for double. If I kill it quick I can boost my score."
 [ForgeScript]
 T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ DBDestroy | TriggerDescription$ When ~ enters, destroy up to one target Nevron creature.
 SVar:DBDestroy:DB$ Destroy | ValidTgts$ Creature.Nevron | TgtPrompt$ Select target Nevron creature | TargetMin$ 0 | TargetMax$ 1

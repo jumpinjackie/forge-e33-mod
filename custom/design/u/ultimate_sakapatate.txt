@@ -23,8 +23,8 @@ When ~ dies, target opponent creates a Lumina token.
 Strikes with its dead partner
 Slams its shield
 [FlavorText]
-INTRUDER ALERT! INTRUDER ALERT! Send forth the ULTIMATE WEAPON!
-- Tropa
+"INTRUDER ALERT! INTRUDER ALERT! Send forth the ULTIMATE WEAPON!"
+—Tropa
 [ForgeScript]
 K:etbCounter:SHIELD:1
 S:Mode$ ReduceCost | ValidCard$ Card.Self | Type$ Spell | Amount$ 1 | EffectZone$ All | IsPresent$ Gestral.YouCtrl | Description$ This spell costs {1} less to cast if you control a Gestral.

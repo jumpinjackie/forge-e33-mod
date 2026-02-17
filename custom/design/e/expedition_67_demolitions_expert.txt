@@ -19,8 +19,8 @@ Flash.
 When this creature enters, destroy target creature or artifact.
 $EXPEDITIONER_DEATH_ABILITY_TEXT
 [FlavorText]
-We're out of explosives, but we've made enough holes in this place to reach that giant woman in the centre.
-- Luc, Expedition 67
+"We're out of explosives, but we've made enough holes in this place to reach that giant woman in the centre."
+—Luc, Expedition 67
 [ForgeScript]
 K:Flash
 T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigDestroy | TriggerDescription$ When CARDNAME enters, destroy target creature or artifact.

@@ -21,7 +21,7 @@ Sandfall Interactive
 {T}, Sacrifice a Chroma token: Draw a card.
 $EXPEDITIONER_DEATH_ABILITY_TEXT
 [FlavorText]
-I know, how about showing me a dance of love and sorrow? I am also the official painter of the Opera. Will you help me? If you inspire me, you may become the main painting of Lumière’s Opera.
+"I know, how about showing me a dance of love and sorrow? I am also the official painter of the Opera. Will you help me? If you inspire me, you may become the main painting of Lumière’s Opera."
 [ForgeScript]
 A:AB$ Draw | Cost$ T Sac<1/Chroma> | NumCards$ 1 | SpellDescription$ Draw a card.
 $EXPEDITIONER_DEATH_ABILITY

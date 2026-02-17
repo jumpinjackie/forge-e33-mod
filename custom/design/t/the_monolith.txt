@@ -15,7 +15,7 @@ At the beginning of your upkeep, remove a gommage counter, then exile all non-la
 When The Monolith has no gommage counters on it, sacrifice it.
 {T}: Add {C}.
 [FlavorText]
-Like a clock of doom, ticking down one year at a time.
+Like a clock of inevitable doom, ticking down one year at a time.
 [ForgeScript]
 K:etbCounter:GOMMAGE:10
 A:AB$ Mana | Cost$ T | Produced$ C | SpellDescription$ Add {C}.

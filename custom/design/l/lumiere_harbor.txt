@@ -16,8 +16,8 @@ R
 [Artist]
 Sandfall Interactive
 [FlavorText]
-I’ve always loved the harbor.
-- Sophie
+"I’ve always loved the harbor."
+—Sophie
 [Tags]
 nonbasic-hate
 [DesignNotes]
