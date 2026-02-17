@@ -8,6 +8,9 @@ B
 Enchantment
 [Oracle]
 Whenever a creature is dealt damage, destroy it. It can’t be regenerated.
+[FlavorText]
+Verso: "Hey, you holding up? We're almost there"
+Maelle: "Holding up? Everywhere we go, just death, death and more death. Everywhere we go, just death. I just — I don't want to see that anymore."
 [IsReprint]
 true
 [NicknameFor]
