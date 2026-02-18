@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 18/2/2026 11:10:12 am
+> Last generated: 18/2/2026 11:26:01 am
 
 ## A Storm is Coming
 
@@ -975,11 +975,10 @@ When this creature dies, create a Chroma token.
 ## Expedition Festival
 
 ```
-1WU
+XWU
 Sorcery
-You gain 2 life for each creature you control.
-Draw a card.
-Luminous — Create a 1/1 white Human Expeditioner token with "When this creature dies, create a Chroma token." if you control at least three Lumina tokens.
+You gain X life. Create X 1/1 white Human Expeditioner tokens with "When this creature dies, create a Chroma token."
+Luminous — Draw X cards if you control at least three Lumina tokens.
 ---
 "Five tables this year, you see that? Told you we’d beat the 34s."
 —Catherine
@@ -991,6 +990,7 @@ Luminous — Create a 1/1 white Human Expeditioner token with "When this creatur
 
  - In the game's prologue, the Expedition Festival happens after the gommage, where the crew of Expedition 33 drink away their sorrows, say goodbye to their loved ones and do final preparations before departing for the Continent.
  - Gone with variable lifegain, like Festival of Trokin with a creature token Luminous bonus.
+ - 18/02/2026: Reworked the card for greater power level. It's now variable life gain + token creation with the Luminous bonus of variable card draw. This still lines up thematically, as it can be explained flavor-wise as a final gathering of Expeditioners (create X tokens), enjoying their last banquet in the city (gain X life) and doing final preparations before departure (draw X cards)
 
 ## Finesse // Grace
 

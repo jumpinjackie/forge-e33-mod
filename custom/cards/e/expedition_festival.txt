@@ -1,9 +1,9 @@
 Name:Expedition Festival
-ManaCost:1 W U
+ManaCost:X W U
 Types:Sorcery
-A:SP$ GainLife | LifeAmount$ X | SubAbility$ DBDraw | SpellDescription$ You gain 2 life for each creature you control. Draw a card.
-SVar:DBDraw:DB$ Draw | NumCards$ 1 | SubAbility$ DBToken
-SVar:DBToken:DB$ Token | TokenAmount$ 1 | TokenScript$ w_1_1_human_expeditioner | TokenOwner$ You | ConditionCheckSVar$ LuminaTotal | ConditionSVarCompare$ GE3 | SpellDescription$ Luminous — Create a 1/1 white Human Expeditioner token with "When this creature dies, create a Chroma token." if you control at least three Lumina tokens.
+A:SP$ GainLife | LifeAmount$ X | SubAbility$ DBToken | SpellDescription$ You gain X life. Create X 1/1 white Human Expeditioner tokens with "When this creature dies, create a Chroma token."
+SVar:DBToken:DB$ Token | TokenAmount$ X | TokenScript$ w_1_1_human_expeditioner | TokenOwner$ You | SubAbility$ DBDraw
+SVar:DBDraw:DB$ Draw | NumCards$ X | ConditionCheckSVar$ LuminaTotal | ConditionSVarCompare$ GE3 | SpellDescription$ Luminous — Draw X cards if you control at least three Lumina tokens.
 SVar:LuminaTotal:Count$Valid Lumina.YouCtrl
-SVar:X:Count$Valid Creature.YouCtrl/Times.2
-Oracle:You gain 2 life for each creature you control.\nDraw a card.\nLuminous — Create a 1/1 white Human Expeditioner token with "When this creature dies, create a Chroma token." if you control at least three Lumina tokens.
+SVar:X:Count$xPaid
+Oracle:You gain X life. Create X 1/1 white Human Expeditioner tokens with "When this creature dies, create a Chroma token."\nLuminous — Draw X cards if you control at least three Lumina tokens.

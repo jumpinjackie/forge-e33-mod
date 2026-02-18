@@ -130,7 +130,7 @@ Type=Custom
 151 U Expedition 78 Airship @Sandfall Interactive
 152 U Expedition 81 Interpreter @Google Gemini
 153 R Expedition Camp @Sandfall Interactive
-154 C Expedition Festival @Sandfall Interactive
+154 R Expedition Festival @Sandfall Interactive
 155 U Expedition Flag @Sandfall Interactive
 156 U Expedition Flotilla @Sandfall Interactive
 157 U Expedition Journal @Sandfall Interactive

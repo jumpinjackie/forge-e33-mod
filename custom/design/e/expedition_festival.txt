@@ -1,28 +1,27 @@
 [Name]
 Expedition Festival
 [ManaCost]
-1
+X
 W
 U
 [Rarity]
-C
+R
 [Types]
 Sorcery
 [Oracle]
-You gain 2 life for each creature you control.
-Draw a card.
-Luminous — Create a 1/1 white Human Expeditioner token with $EXPEDITIONER_TOKEN_TEXT if you control at least three Lumina tokens.
+You gain X life. Create X 1/1 white Human Expeditioner tokens with $EXPEDITIONER_TOKEN_TEXT
+Luminous — Draw X cards if you control at least three Lumina tokens.
 [AbilityWords]
 Luminous
 [FlavorText]
 "Five tables this year, you see that? Told you we’d beat the 34s."
 —Catherine
 [ForgeScript]
-A:SP$ GainLife | LifeAmount$ X | SubAbility$ DBDraw | SpellDescription$ You gain 2 life for each creature you control. Draw a card.
-SVar:DBDraw:DB$ Draw | NumCards$ 1 | SubAbility$ DBToken
-SVar:DBToken:DB$ Token | TokenAmount$ 1 | TokenScript$ w_1_1_human_expeditioner | TokenOwner$ You | ConditionCheckSVar$ LuminaTotal | ConditionSVarCompare$ GE3 | SpellDescription$ Luminous — Create a 1/1 white Human Expeditioner token with $EXPEDITIONER_TOKEN_TEXT if you control at least three Lumina tokens.
+A:SP$ GainLife | LifeAmount$ X | SubAbility$ DBToken | SpellDescription$ You gain X life. Create X 1/1 white Human Expeditioner tokens with $EXPEDITIONER_TOKEN_TEXT
+SVar:DBToken:DB$ Token | TokenAmount$ X | TokenScript$ w_1_1_human_expeditioner | TokenOwner$ You | SubAbility$ DBDraw
+SVar:DBDraw:DB$ Draw | NumCards$ X | ConditionCheckSVar$ LuminaTotal | ConditionSVarCompare$ GE3 | SpellDescription$ Luminous — Draw X cards if you control at least three Lumina tokens.
 SVar:LuminaTotal:Count$Valid Lumina.YouCtrl
-SVar:X:Count$Valid Creature.YouCtrl/Times.2
+SVar:X:Count$xPaid
 [RelatedTokens]
 w_1_1_human_expeditioner
 [Artist]
@@ -32,3 +31,4 @@ luminous
 [DesignNotes]
  - In the game's prologue, the Expedition Festival happens after the gommage, where the crew of Expedition 33 drink away their sorrows, say goodbye to their loved ones and do final preparations before departing for the Continent.
  - Gone with variable lifegain, like Festival of Trokin with a creature token Luminous bonus.
+ - 18/02/2026: Reworked the card for greater power level. It's now variable life gain + token creation with the Luminous bonus of variable card draw. This still lines up thematically, as it can be explained flavor-wise as a final gathering of Expeditioners (create X tokens), enjoying their last banquet in the city (gain X life) and doing final preparations before departure (draw X cards)
