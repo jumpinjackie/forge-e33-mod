@@ -3644,41 +3644,43 @@
                 },
                 "ability0": {
                     "name": "Ability 1",
-                    "text": "At the beginning of your upkeep, create a Chroma token.\nAline Dessendre, Stricken by Grief deals X damage to target creature or planeswalker and you gain X life, where X is the number of Chromas you control.",
-                    "x": 0.18,
+                    "text": "At the beginning of your upkeep, create a Chroma token.",
+                    "x": 0.136,
                     "y": 0.6239,
-                    "width": 0.7467,
-                    "height": 0.1421,
-                    "size": 0.0353
+                    "width": 0.7907000000000001,
+                    "height": 0.0711,
+                    "size": 0.0353,
+                    "fontSize": "-32"
                 },
                 "ability1": {
                     "name": "Ability 2",
-                    "text": "Exile target nonland permanent.",
+                    "text": "Aline Dessendre, Stricken by Grief deals X damage to target creature or planeswalker and you gain X life, where X is the number of Chromas you control.",
                     "x": 0.18,
-                    "y": 0.766,
+                    "y": 0.6950000000000001,
                     "width": 0.7467,
-                    "height": 0.0569,
+                    "height": 0.0782,
                     "size": 0.0353,
-                    "fontSize": "-28"
+                    "fontSize": "-32"
                 },
                 "ability2": {
                     "name": "Ability 3",
-                    "text": "Creatures you control gain +X/+X until end of turn, where X is the number of Chromas you control.",
+                    "text": "Exile target nonland permanent.",
                     "x": 0.18,
-                    "y": 0.8229,
+                    "y": 0.7732000000000001,
                     "width": 0.7467,
-                    "height": 0.0924,
+                    "height": 0.0569,
                     "size": 0.0353,
                     "fontSize": "-32"
                 },
                 "ability3": {
                     "name": "Ability 4",
-                    "text": "",
-                    "x": 0.136,
-                    "y": 0.9153,
-                    "width": 0.7907000000000001,
-                    "height": 0,
-                    "size": 0.0353
+                    "text": "Creatures you control gain +X/+X until end of turn, where X is the number of Chromas you control.",
+                    "x": 0.18,
+                    "y": 0.8301000000000001,
+                    "width": 0.7467,
+                    "height": 0.0711,
+                    "size": 0.0353,
+                    "fontSize": "-32"
                 },
                 "loyalty": {
                     "name": "Loyalty",
@@ -3707,18 +3709,18 @@
             "serialScale": "",
             "planeswalker": {
                 "abilities": [
+                    "",
                     "+2",
                     "-3",
-                    "-8",
-                    ""
+                    "-8"
                 ],
                 "abilityAdjust": [
-                    0.0472636815920398,
-                    0.04015636105188344,
-                    0.013148542999289269,
-                    0.006041222459132907
+                    0,
+                    0,
+                    0,
+                    0
                 ],
-                "count": 3,
+                "count": 4,
                 "x": 0.1167,
                 "width": 0.8094,
                 "orig_ability_textbox_x": 0.18,
@@ -22739,7 +22741,7 @@
                 },
                 "ability0": {
                     "name": "Ability 1",
-                    "text": "Nevron spells you cast cost {1} less to cast.\n\nAmass Nevrons 2",
+                    "text": "{left60}Nevron spells you cast cost {1} less to cast.\n\nAmass Nevrons 2",
                     "x": 0.18,
                     "y": 0.5700071073205402,
                     "width": 0.7467,
@@ -50907,10 +50909,10 @@
             "artY": 0.11300639658848614,
             "artZoom": 1.1540000000000001,
             "artRotate": "0",
-            "setSymbolSource": "http://localhost:4242/img/setSymbols/official/pz1-c.svg",
-            "setSymbolX": 0.8751243781094528,
-            "setSymbolY": 0.570362473347548,
-            "setSymbolZoom": 0.261,
+            "setSymbolSource": "http://localhost:4242/img/setSymbols/official/pz1-r.svg",
+            "setSymbolX": 0.8756218905472637,
+            "setSymbolY": 0.5707178393745558,
+            "setSymbolZoom": 0.34700000000000003,
             "watermarkSource": "http://localhost:4242/img/blank.png",
             "watermarkX": 0.33880597014925373,
             "watermarkY": 0.6609808102345416,
@@ -51048,7 +51050,7 @@
             "text": {
                 "mana": {
                     "name": "Mana Cost",
-                    "text": "1 W U",
+                    "text": "X W U",
                     "y": 0.06254442075337598,
                     "width": 0.9273631840796019,
                     "height": 0.03380952380952381,
@@ -51085,7 +51087,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "You gain 2 life for each creature you control.\nDraw a card.\n{i}Luminous{/i} — Create a 1/1 white Human Expeditioner token with “When this creature dies, create a Chroma token.” if you control at least three Lumina tokens.{flavor}“Five tables this year, you see that? Told you we’d beat the 34s.”\n—Catherine",
+                    "text": "You gain X life. Create X 1/1 white Human Expeditioner tokens with “When this creature dies, create a Chroma token.”\n{i}Luminous{/i} — Draw X cards if you control at least three Lumina tokens.{flavor}“Five tables this year, you see that? Told you we’d beat the 34s.”\n—Catherine",
                     "x": 0.086,
                     "y": 0.6325515280739161,
                     "width": 0.828,
@@ -51106,7 +51108,7 @@
                 }
             },
             "infoNumber": "2025",
-            "infoRarity": "C",
+            "infoRarity": "R",
             "infoSet": "E33",
             "infoLanguage": "EN",
             "infoArtist": "Sandfall Interactive",
@@ -89169,8 +89171,8 @@
                 },
                 "ability0": {
                     "name": "Ability 1",
-                    "text": "Human and Gradient spells you cast cost {1} less to cast.\n\nCreate a Chroma token.",
-                    "x": 0.18,
+                    "text": "Human and Gradient spells you cast cost {1} less to cast.\n\n{right60}Create a Chroma token.",
+                    "x": 0.15024875621890546,
                     "y": 0.5581,
                     "width": 0.7467,
                     "height": 0.1421,
@@ -110971,19 +110973,19 @@
                 },
                 "ability0": {
                     "name": "Ability 1",
-                    "text": "Whenever a Nevron you control dies, draw a card and each opponent discards a card.\nReveal the top card of your library. If it is a Nevron, Painter or Gradient card, put it into your hand.",
-                    "x": 0.18,
+                    "text": "Whenever a Nevron you control dies, draw a card and each opponent discards a card.",
+                    "x": 0.136,
                     "y": 0.6239,
-                    "width": 0.7467,
-                    "height": 0.1493,
+                    "width": 0.7830845771144279,
+                    "height": 0.0853,
                     "size": 0.0353,
                     "fontSize": "-32"
                 },
                 "ability1": {
                     "name": "Ability 2",
-                    "text": "Return target Nevron card from your graveyard to the battlefield.",
+                    "text": "Reveal the top card of your library. If it is a Nevron, Painter or Gradient card, put it into your hand.",
                     "x": 0.18,
-                    "y": 0.7732,
+                    "y": 0.7092,
                     "width": 0.7467,
                     "height": 0.064,
                     "size": 0.0353,
@@ -110991,22 +110993,23 @@
                 },
                 "ability2": {
                     "name": "Ability 3",
-                    "text": "Exile all non-Nevron, non-Painter creatures.",
+                    "text": "Return target Nevron card from your graveyard to the battlefield.",
                     "x": 0.18,
-                    "y": 0.8371999999999999,
+                    "y": 0.7732000000000001,
                     "width": 0.7467,
-                    "height": 0.0569,
+                    "height": 0.064,
                     "size": 0.0353,
                     "fontSize": "-32"
                 },
                 "ability3": {
                     "name": "Ability 4",
-                    "text": "",
-                    "x": 0.136,
-                    "y": 0.8940999999999999,
-                    "width": 0.7907000000000001,
-                    "height": 0,
-                    "size": 0.0353
+                    "text": "Exile all non-Nevron, non-Painter creatures.",
+                    "x": 0.18,
+                    "y": 0.8372000000000002,
+                    "width": 0.7467,
+                    "height": 0.064,
+                    "size": 0.0353,
+                    "fontSize": "-32"
                 },
                 "loyalty": {
                     "name": "Loyalty",
@@ -111035,18 +111038,18 @@
             "serialScale": "",
             "planeswalker": {
                 "abilities": [
+                    "",
                     "+2",
                     "-4",
-                    "-10",
-                    ""
+                    "-10"
                 ],
                 "abilityAdjust": [
-                    0.051883439943141436,
-                    0.04797441364605544,
-                    0.021321961620469083,
-                    0.006041222459132907
+                    0,
+                    0.014214641080312722,
+                    0.007107320540156361,
+                    0
                 ],
-                "count": 3,
+                "count": 4,
                 "x": 0.1167,
                 "width": 0.8094,
                 "orig_ability_textbox_x": 0.18,
