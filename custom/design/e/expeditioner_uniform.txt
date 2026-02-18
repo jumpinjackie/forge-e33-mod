@@ -13,8 +13,7 @@ As long as equipped creature is a Human, it gets +1/+1.
 Whenever equipped creature attacks, create a Lumina token.
 Equip {1}
 [FlavorText]
-"This too is your legacy." said Sophie, beaming with pride.
-"In a way, it’s yours too." replied Gustave.
+"This too is your legacy." said Sophie, beaming with pride. "In a way, it’s yours too." replied Gustave.
 [ForgeScript]
 K:Equip:1
 S:Mode$ Continuous | Affected$ Creature.EquippedBy | AddType$ Expeditioner | Description$ Equipped creature is an Expeditioner in addition to its other types.

@@ -11,7 +11,7 @@ R
 You may exile a black card from your hand rather than pay this spell’s mana cost.
 Target player reveals their hand. You choose a nonland card from it. That player discards that card.
 [FlavorText]
-My beautiful sister doesn’t need this ugly mask."
+"My beautiful sister doesn’t need this ugly mask."
 —Verso
 [Artist]
 Sandfall Interactive

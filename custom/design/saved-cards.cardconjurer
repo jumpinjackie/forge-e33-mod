@@ -261,7 +261,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "{2}, {T}, Sacrifice this artifact: Search your library for a Rock card and put it into your hand.\n{1}, Sacrifice this artifact: Draw a card.{flavor}Verso: We’ll trade you. Urrie for this, uh... lovely portrait of you.\nFrançois: Is that s’posed to be ME?!\nEsquie: I think we captured your essence beautifully.",
+                    "text": "{2}, {T}, Sacrifice this artifact: Search your library for a Rock card and put it into your hand.\n{1}, Sacrifice this artifact: Draw a card.{flavor}Verso: “We’ll trade you. Urrie for this, uh... lovely portrait of you.”\nFrançois: “Is that s’posed to be ME?!“\nEsquie: “I think we captured your essence beautifully.”",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
@@ -2097,7 +2097,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "This creature enters with a shield counter on it.\nAny damage dealt to you is dealt to this creature instead.\n{4}{W}, {T}: Put a shield counter on this creature.{flavor}I’m FINE. I’ve lived 33 good years. Look around. We’ve had our whole lives to prepare. We’ll be fine.\n- Sophie",
+                    "text": "This creature enters with a shield counter on it.\nAny damage dealt to you is dealt to this creature instead.\n{4}{W}, {T}: Put a shield counter on this creature.{flavor}“I’m FINE. I’ve lived 33 good years. Look around. We’ve had our whole lives to prepare. We’ll be fine.”\n—Sophie",
                     "x": 0.086,
                     "y": 0.6325515280739161,
                     "width": 0.828,
@@ -4017,7 +4017,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Destroy target Axon or Nevron.\nCycling {2} ({2}, Discard this card: Draw a card.){flavor}Aline, you’re going to kill yourself! It’s too soon for you to return to any Canvas!\n- Renoir",
+                    "text": "Destroy target Axon or Nevron.\nCycling {2} ({2}, Discard this card: Draw a card.){flavor}“Aline, you’re going to kill yourself! It’s too soon for you to return to any Canvas!”\n—Renoir",
                     "x": 0.086,
                     "y": 0.6325515280739161,
                     "width": 0.828,
@@ -4940,7 +4940,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "{W}, {T}: Attach target Equipment you control to target creature you control.\nWhen this creature dies, create a Chroma token. (It’s an artifact with “{T}, Sacrifice this artifact: Add one mana of any color. Spend this mana only to cast a Nevron, Gestral or Expeditioner spell.”){flavor}Oh hey handsome, perfect timing. I’m styling everyone before we ship out. Gotta look sharp when we hit the Paintress, eh?",
+                    "text": "{W}, {T}: Attach target Equipment you control to target creature you control.\nWhen this creature dies, create a Chroma token. (It’s an artifact with “{T}, Sacrifice this artifact: Add one mana of any color. Spend this mana only to cast a Nevron, Gestral or Expeditioner spell.”){flavor}“Oh hey handsome, perfect timing. I’m styling everyone before we ship out. Gotta look sharp when we hit the Paintress, eh?”",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
@@ -5544,7 +5544,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Haste\nAs long as this card is in your graveyard and you control a Mountain, creatures you control have haste.{flavor}Verso: We only need to incapacitate him.\nMaelle: We’ll find a way to kill him.",
+                    "text": "Haste\nAs long as this card is in your graveyard and you control a Mountain, creatures you control have haste.{flavor}“We only need to incapacitate him” said Verso.\n“We’ll find a way to kill him” Maelle replies incredulously.",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
@@ -6475,7 +6475,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Whenever you cast a historic spell, draw a card. (Artifacts, legendaries, and Sagas are historic.)\nWhen this creature dies, create a Chroma token. (It’s an artifact with “{T}, Sacrifice this artifact: Add one mana of any color. Spend this mana only to cast a Nevron, Gestral or Expeditioner spell.”){flavor}Ahem. I hereby offically end our feud. With your departure, Lumière loses a brilliant light. And a good friend ...",
+                    "text": "Whenever you cast a historic spell, draw a card. (Artifacts, legendaries, and Sagas are historic.)\nWhen this creature dies, create a Chroma token. (It’s an artifact with “{T}, Sacrifice this artifact: Add one mana of any color. Spend this mana only to cast a Nevron, Gestral or Expeditioner spell.”){flavor}“Ahem. I hereby offically end our feud. With your departure, Lumière loses a brilliant light. And a good friend ...”",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
@@ -7961,7 +7961,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Each player sacrifices a creature.\nCreate a Chroma token for each creature sacrificed this way. (It’s an artifact with “{T}, Sacrifice this artifact: Add one mana of any color. Spend this mana only to cast a Nevron, Gestral or Expeditioner spell.”){flavor}Me? You want me to give it to you?\n- Maelle, to The Curator",
+                    "text": "Each player sacrifices a creature.\nCreate a Chroma token for each creature sacrificed this way. (It’s an artifact with “{T}, Sacrifice this artifact: Add one mana of any color. Spend this mana only to cast a Nevron, Gestral or Expeditioner spell.”){flavor}“Me? You want me to give it to you?“\n—Maelle, to The Curator",
                     "x": 0.086,
                     "y": 0.6325515280739161,
                     "width": 0.828,
@@ -9348,7 +9348,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Trample\nSacrifice a nonland creature: Draw cards equal to the sacrificed creature’s power, then discard three cards.{flavor}Verso: I don’t want this life... I don’t want this life...\nMaelle: I just- I just wanted to live this lifetime together. This lifetime that was stolen from us. Please, brother... Please.",
+                    "text": "Trample\nSacrifice a nonland creature: Draw cards equal to the sacrificed creature’s power, then discard three cards.{flavor}“I don’t want this life... I don’t want this life...” pleaded Verso. “I just- I just wanted to live this lifetime together.” Maelle replied with assurance “This lifetime that was stolen from us. Please, brother... Please.”",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
@@ -10004,7 +10004,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "At the beginning of your upkeep, you may mill a card. If you do, create two Lumina tokens. (It’s an artifact with “{T}, Sacrifice this artifact: Scry 1.”){flavor}You found all the journals? Moshi will be so happy.",
+                    "text": "At the beginning of your upkeep, you may mill a card. If you do, create two Lumina tokens. (It’s an artifact with “{T}, Sacrifice this artifact: Scry 1.”){flavor}“You found all the journals? Moshi will be so happy.”",
                     "x": 0.086,
                     "y": 0.6325515280739161,
                     "width": 0.818407960199005,
@@ -10332,7 +10332,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Trample{flavor}Who’s gonna go fight?\n- Limonsol, Matchmaker",
+                    "text": "Trample{flavor}“Who’s gonna go fight?“\n—Limonsol, Matchmaker",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
@@ -10655,7 +10655,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "When this enchantment enters, target opponent discards a card and you lose 2 life.\nSacrifice this enchantment: Choose one —\n• Creatures you control get +1/+1 until end of turn.\n• Creatures you control gain hexproof until end of turn. (They can’t be the targets of spells or abilities your opponents control.){flavor}Maelle: If you’re gonna give someone flowers, you should probably do it before they wither and die.\nGustave: What? The flower? Or Sophie?\nMaelle: Ooh dark. Sophie would approve.",
+                    "text": "When this enchantment enters, target opponent discards a card and you lose 2 life.\nSacrifice this enchantment: Choose one —\n• Creatures you control get +1/+1 until end of turn.\n• Creatures you control gain hexproof until end of turn. (They can’t be the targets of spells or abilities your opponents control.){flavor}Maelle: “If you’re gonna give someone flowers, you should probably do it before they wither and die.”\nGustave: “What? The flower? Or Sophie?”\nMaelle: “Ooh dark. Sophie would approve.”",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
@@ -10987,7 +10987,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Equipped creature gets +1/+1 for each land you control.\nEquip legendary creature {3}\nEquip {7}{flavor}Is it true? Can you make a weapon that can pierce the barrier? Do you need something from the Axons? Do you need... their hearts?\n- Lune, to The Curator",
+                    "text": "Equipped creature gets +1/+1 for each land you control.\nEquip legendary creature {3}\nEquip {7}{flavor}“Is it true? Can you make a weapon that can pierce the barrier? Do you need something from the Axons? Do you need... their hearts?“\n—Lune, to The Curator",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
@@ -11671,7 +11671,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Whenever a white Nevron creature enters, create a Lumina token and you gain 2 life. (It’s an artifact with “{T}, Sacrifice this artifact: Scry 1.”){flavor}You... The ones who conquered the Monolith... And bested she who claimed this painting as her own. Mistress shall be pleased to hear of your feat.",
+                    "text": "Whenever a white Nevron creature enters, create a Lumina token and you gain 2 life. (It’s an artifact with “{T}, Sacrifice this artifact: Scry 1.”){flavor}“You... The ones who conquered the Monolith... And bested she who claimed this painting as her own. Mistress shall be pleased to hear of your feat.”",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
@@ -15564,7 +15564,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Vigilance\nWhen Bruler & Cruler enters, if you control an Equipment, draw a card.\nEquip abilities you activate cost {1} less to activate.{flavor}Someone found our shop! I was this close to believing that we’d never have clients. Our location is terrible.",
+                    "text": "Vigilance\nWhen Bruler & Cruler enters, if you control an Equipment, draw a card.\nEquip abilities you activate cost {1} less to activate.{flavor}“Someone found our shop! I was this close to believing that we’d never have clients. Our location is terrible.”",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
@@ -18940,7 +18940,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Creatures cannot attack you unless their controller sacrifices a Chroma token for each creature they control that’s attacking you.\n{3}: Create a Chroma token. Any player may activate this ability. (It’s an artifact with “{T}, Sacrifice this artifact: Add one mana of any color. Spend this mana only to cast a Nevron, Gestral or Expeditioner spell.”){flavor}This looks similar to Lumière’s shield dome. Maybe we can just cross it.\n- Lune",
+                    "text": "Creatures cannot attack you unless their controller sacrifices a Chroma token for each creature they control that’s attacking you.\n{3}: Create a Chroma token. Any player may activate this ability. (It’s an artifact with “{T}, Sacrifice this artifact: Add one mana of any color. Spend this mana only to cast a Nevron, Gestral or Expeditioner spell.”){flavor}“This looks similar to Lumière’s shield dome. Maybe we can just cross it.”\n—Lune",
                     "x": 0.086,
                     "y": 0.6325515280739161,
                     "width": 0.828,
@@ -19825,7 +19825,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "If you control a Painter, you may cast this spell as though it had flash.\nWhen this enchantment enters, exile another target nonland permanent.\nWhen this enchantment leaves the battlefield, return the exiled card to the battlefield under its owner’s control.{flavor}Gustave: For those who come after, right?\nMaelle: No no no no... You promised...",
+                    "text": "If you control a Painter, you may cast this spell as though it had flash.\nWhen this enchantment enters, exile another target nonland permanent.\nWhen this enchantment leaves the battlefield, return the exiled card to the battlefield under its owner’s control.{flavor}“For those who come after, right?” said Gustave, resigned to his fate. “No no no no... You promised...” pleaded Maelle.",
                     "x": 0.086,
                     "y": 0.6325515280739161,
                     "width": 0.828,
@@ -20985,7 +20985,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Enchant permanent.\nEnchanted permanent becomes an artifact and loses all abilities.{flavor}The expeditioners, the ones killed by Nevrons. Gustave noticed their Chroma remains in their bodies. They never dissipated, like the Gommage.\n- Lune",
+                    "text": "Enchant permanent.\nEnchanted permanent becomes an artifact and loses all abilities.{flavor}“The expeditioners, the ones killed by Nevrons. Gustave noticed their Chroma remains in their bodies. They never dissipated, like the Gommage.”\n—Lune",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
@@ -21280,7 +21280,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "This spell costs {1} less to cast if you control a painter.\nAs an additional cost to cast this spell, sacrifice a creature.\nPut target creature card from a graveyard onto the battlefield under your control.{flavor}Well. You’re about to be reborn in this world as one of Aline’s creations. Have fun.\n- Clea",
+                    "text": "This spell costs {1} less to cast if you control a painter.\nAs an additional cost to cast this spell, sacrifice a creature.\nPut target creature card from a graveyard onto the battlefield under your control.{flavor}“Well. You’re about to be reborn in this world as one of Aline’s creations. Have fun.”\n—Clea",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
@@ -21603,7 +21603,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Sacrifice a nonland, nontoken permanent you control: Create a Chroma token.\nExile a nonland, nontoken permanent you control: Create two Chroma tokens.{flavor}Hmm. It’s old chroma, not pure. It won’t be like bringing the two of you back, but... we could use it in other ways.\n- Maelle",
+                    "text": "Sacrifice a nonland, nontoken permanent you control: Create a Chroma token.\nExile a nonland, nontoken permanent you control: Create two Chroma tokens.{flavor}“Hmm. It’s old chroma, not pure. It won’t be like bringing the two of you back, but... we could use it in other ways.”\n—Maelle",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
@@ -23458,7 +23458,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Search your library for a Nevron or Gradient card, reveal it, put it into your hand, then shuffle.{flavor}I have my pets in place “She who controls chroma, controls the Canvas.” I can’t take her chroma, but I can keep it from returning to her.",
+                    "text": "Search your library for a Nevron or Gradient card, reveal it, put it into your hand, then shuffle.{flavor}“I have my pets in place. She who controls chroma, controls the Canvas. I can’t take her chroma, but I can keep it from returning to her.”",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
@@ -23708,7 +23708,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Exile all graveyards. You gain 1 life for each creature card exiled this way.\nDraw a card.{flavor}For the sake of the living, we must part with the dead.\n- Renoir",
+                    "text": "Exile all graveyards. You gain 1 life for each creature card exiled this way.\nDraw a card.{flavor}“For the sake of the living, we must part with the dead.”\n—Renoir",
                     "x": 0.086,
                     "y": 0.6325515280739161,
                     "width": 0.828,
@@ -24278,11 +24278,11 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Whenever you cast an artifact spell, you may draw a card. If you do, discard a card.\nArtifact spells you cast cost {1} less to cast.\nWhen this creature dies, create a Chroma token. (It’s an artifact with “{T}, Sacrifice this artifact: Add one mana of any color. Spend this mana only to cast a Nevron, Gestral or Expeditioner spell.”){flavor}Hello there, Gustave. Perhaps one of these artifacts may prove useful to your mission?",
+                    "text": "Whenever you cast an artifact spell, you may draw a card. If you do, discard a card.\nArtifact spells you cast cost {1} less to cast.\nWhen this creature dies, create a Chroma token. (It’s an artifact with “{T}, Sacrifice this artifact: Add one mana of any color. Spend this mana only to cast a Nevron, Gestral or Expeditioner spell.”){flavor}“Hello there, Gustave. Perhaps one of these artifacts may prove useful to your mission?”",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
-                    "height": 0.26297085998578534,
+                    "height": 0.2874911158493248,
                     "size": 0.0362
                 },
                 "pt": {
@@ -26139,7 +26139,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "This land enters tapped unless you control two or fewer other lands.\n{T}: Add {R} or {G}.{flavor}Wow... That Nevron is the size of a mountain.\n- Maelle",
+                    "text": "This land enters tapped unless you control two or fewer other lands.\n{T}: Add {R} or {G}.{flavor}“Wow... That Nevron is the size of a mountain.”\n—Maelle",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
@@ -27346,7 +27346,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "This land enters tapped.\n{T}: Add {C}.\n{2}, {T}, Sacrifice Crushing Cavern: Destroy target attacking creature without flying{flavor}If anyone finds this journal, do not enter this cave, the Nevron inside will crush you.\n- Cassandra, Expedition 45",
+                    "text": "This land enters tapped.\n{T}: Add {C}.\n{2}, {T}, Sacrifice Crushing Cavern: Destroy target attacking creature without flying{flavor}“If anyone finds this journal, do not enter this cave, the Nevron inside will crush you.”\n—Cassandra, Expedition 45",
                     "x": 0.086,
                     "y": 0.6325515280739161,
                     "width": 0.828,
@@ -27641,7 +27641,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "You may sacrifice a Mountain rather than pay this spell’s mana cost.\nCrustal Crush deals 5 damage to target creature or planeswalker.\nCreate a Lumina token. (It’s an artifact with “{T}, Sacrifice this artifact: Scry 1.”){flavor}Let’s shake the earth!",
+                    "text": "You may sacrifice a Mountain rather than pay this spell’s mana cost.\nCrustal Crush deals 5 damage to target creature or planeswalker.\nCreate a Lumina token. (It’s an artifact with “{T}, Sacrifice this artifact: Scry 1.”){flavor}“Let’s shake the earth!”",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
@@ -29135,7 +29135,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Vigilance\n{2}{W}, {T}: This creature deals 2 damage to target attacking or blocking creature.{flavor}How can you not care about the dance between life and death? It is thrilling, elegant, and the most intimate encounter you could ever have.",
+                    "text": "Vigilance\n{2}{W}, {T}: This creature deals 2 damage to target attacking or blocking creature.{flavor}“How can you not care about the dance between life and death? It is thrilling, elegant, and the most intimate encounter you could ever have.”",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
@@ -31809,7 +31809,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "As an additional cost to cast this spell, sacrifice an artifact or discard a card.\nDraw two cards.{flavor}Lune: Care to explain? Your father?\nVerso: I don’t think of him as my father anymore.\nSciel: Still. Why didn’t you just tell us?\nVerso: Because it’s private and it’s painful. And it’s none of your business. I cut ties with him decades ago.\nLune: Lying by omission is still lying.",
+                    "text": "As an additional cost to cast this spell, sacrifice an artifact or discard a card.\nDraw two cards.{flavor}Lune: “Care to explain? Your father?”\nVerso: “I don’t think of him as my father anymore.”\nSciel: “Still. Why didn’t you just tell us?”\nVerso: “Because it’s private and it’s painful. And it’s none of your business. I cut ties with him decades ago.”\nLune: “Lying by omission is still lying.”",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
@@ -31834,7 +31834,12 @@
             "infoSet": "E33",
             "infoLanguage": "EN",
             "infoArtist": "Sandfall Interactive",
-            "infoNote": "Proxy, Not for Sale"
+            "infoNote": "Proxy, Not for Sale",
+            "serialNumber": "",
+            "serialTotal": "",
+            "serialX": "",
+            "serialY": "",
+            "serialScale": ""
         }
     },
     {
@@ -32110,7 +32115,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Flash\nFlying\nWhen this creature enters, counter target spell and draw a card.{flavor}No, no, you are HIS creations, not mine. You will not take this Canvas from me!\n- The Paintress",
+                    "text": "Flash\nFlying\nWhen this creature enters, counter target spell and draw a card.{flavor}“No, no, you are HIS creations, not mine. You will not take this Canvas from me!”\n—The Paintress",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
@@ -32416,11 +32421,11 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Fear (This creature can’t be blocked except by artifact creatures and/or black creatures.)\nWhenever another creature becomes tapped, put a stun counter on it.{flavor}If you could grow old... Would you... find a reason to smile?",
+                    "text": "Fear (This creature can’t be blocked except by artifact creatures and/or black creatures.)\nWhenever another creature becomes tapped, put a stun counter on it.{flavor}“If you could grow old... Would you... find a reason to smile?”\n—Maelle",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
-                    "height": 0.27398720682302774,
+                    "height": 0.2874911158493248,
                     "size": 0.0362
                 },
                 "pt": {
@@ -33356,7 +33361,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "{T}: Target creature you control gains Trample until end of turn.\n{1}, Sacrifice Dorrie: Draw a card.{flavor}Doesn’t that look like one of Esquie’s stones?\n- Sciel",
+                    "text": "{T}: Target creature you control gains Trample until end of turn.\n{1}, Sacrifice Dorrie: Draw a card.{flavor}“Doesn’t that look like one of Esquie’s stones?”\n—Sciel",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
@@ -35324,7 +35329,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Choose one or more —\n• Exile target creature. Add {W}.\n• Target player draws two cards. Add {U}.\n• Elemental trick deals 4 damage to any target. Add {R}.\n• Target player gains 6 life. Add {G}.{flavor}Elements. Converge!",
+                    "text": "Choose one or more —\n• Exile target creature. Add {W}.\n• Target player draws two cards. Add {U}.\n• Elemental trick deals 4 damage to any target. Add {R}.\n• Target player gains 6 life. Add {G}.{flavor}“Elements. Converge!”\n—Lune",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
@@ -35642,11 +35647,11 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "At the beginning of your upkeep, you may put a challenge counter on Endless Tower.\n{T}: Add {C}\n{T}, Remove X challenge counters from Endless Tower: You may put a Nevron creature card with mana value X from your hand onto the battlefield.{flavor}It’s not selfish to make your own choices, sister.\n- Fading Woman",
+                    "text": "At the beginning of your upkeep, you may put a challenge counter on Endless Tower.\n{T}: Add {C}\n{T}, Remove X challenge counters from Endless Tower: You may put a Nevron creature card with mana value X from your hand onto the battlefield.{flavor}“It’s not selfish to make your own choices, sister.”\n—Fading Woman",
                     "x": 0.086,
                     "y": 0.6325515280739161,
                     "width": 0.828,
-                    "height": 0.27149964463397297,
+                    "height": 0.2874911158493248,
                     "size": 0.0362
                 },
                 "pt": {
@@ -36232,11 +36237,11 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "You may put a creature card from your hand onto the battlefield. That creature gains haste. Sacrifice that creature at the beginning of the next end step.{flavor}This only truly ends if you destroy the canvas, and that means stopping the final sliver of Verso’s soul from painting.\n- Clea",
+                    "text": "You may put a creature card from your hand onto the battlefield. That creature gains haste. Sacrifice that creature at the beginning of the next end step.{flavor}“This only truly ends if you destroy the canvas, and that means stopping the final sliver of Verso’s soul from painting.”\n—Clea",
                     "x": 0.086,
                     "y": 0.6325515280739161,
                     "width": 0.828,
-                    "height": 0.27149964463397297,
+                    "height": 0.2853589196872779,
                     "size": 0.0362
                 },
                 "pt": {
@@ -36605,11 +36610,11 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Saddle 2.\nEsquie has Islandwalk as long as you control a card named Florrie.\nEsquie has Flying as long as you control a card named Soarrie.\nEsquie has Trample as long as you control a card named Dorrie.\nWhen Esquie attacks, if you control a card named Urrie, Surveil 2.\nWhen Esquie attacks, if it is saddled, choose one —\n• Draw a card.\n• Put a land card from your hand onto the battlefield.\n",
+                    "text": "Saddle 2.\nEsquie has Islandwalk as long as you control a card named Florrie.\nEsquie has Flying as long as you control a card named Soarrie.\nEsquie has Trample as long as you control a card named Dorrie.\nWhen Esquie attacks, if you control a card named Urrie, Surveil 2.\nWhen Esquie attacks, if it is saddled, choose one —\n• Draw a card.\n• Put a land card from your hand onto the battlefield.",
                     "x": 0.086,
                     "y": 0.6325515280739161,
                     "width": 0.828,
-                    "height": 0.2875,
+                    "height": 0.28642501776830137,
                     "size": 0.0362
                 },
                 "pt": {
@@ -36900,7 +36905,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Esquie’s Charge deals 3 damage to any target.\nIf you control a card named Florrie, scry 2.\nIf you control a card named Dorrie, draw a card.\nIf you control a card named Soarrie, you gain 3 life.\nIf you control a card named Urrie, you may put a land card from your hand onto the battlefield.{flavor}Gustave: So, wait. Esquie is that powerful?\nSciel: Apparently so. But also lazy.",
+                    "text": "Esquie’s Charge deals 3 damage to any target.\nIf you control a card named Florrie, scry 2.\nIf you control a card named Dorrie, draw a card.\nIf you control a card named Soarrie, you gain 3 life.\nIf you control a card named Urrie, you may put a land card from your hand onto the battlefield.{flavor}“So, wait. Esquie is that powerful?” remarked a suprised Gustave. “Apparently so. But also lazy.” replied Sciel.",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
@@ -37523,7 +37528,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "{2}, {T}, Sacrifice this artifact: You gain 3 life.\n{2}, {T}, Sacrifice this artifact: Target creature deals 3 damage to itself.{flavor}Damn you Esquie and your stupid mushrooms. Your friend ate them with no problem but it also seems your friend was immortal! That’s the sort of extremely relevant detail that you should mention at the start. Ugh, stop crying! You’re not the one about to die.\n- Marcel, Expedition 66",
+                    "text": "{2}, {T}, Sacrifice this artifact: You gain 3 life.\n{2}, {T}, Sacrifice this artifact: Target creature deals 3 damage to itself.{flavor}“Damn you Esquie and your stupid mushrooms. Your friend ate them with no problem but it also seems your friend was immortal! That’s the sort of extremely relevant detail that you should mention at the start. Ugh, stop crying! You’re not the one about to die.”\n—Marcel, Expedition 66",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
@@ -37841,7 +37846,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "{T}: Add one mana of any type that a land you control could produce.\n{T}: Add {W}{U}{B}{R}{G}. Activate this ability only if you control a card named Soarrie, a card named Florrie, a card named Dorrie and a card named Urrie.{flavor}Bonjour, mes amis!\n- Esquie",
+                    "text": "{T}: Add one mana of any type that a land you control could produce.\n{T}: Add {W}{U}{B}{R}{G}. Activate this ability only if you control a card named Soarrie, a card named Florrie, a card named Dorrie and a card named Urrie.{flavor}“Bonjour, mes amis!”\n—Esquie",
                     "x": 0.086,
                     "y": 0.6325515280739161,
                     "width": 0.828,
@@ -38164,7 +38169,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Return target creature to its owner’s hand. You gain 3 life.\nCreate a Lumina token. (It’s an artifact with “{T}, Sacrifice this artifact: Scry 1.”){flavor}Sciel: It was you. You saved me. Back then. Wait, but how?\nEsquie: I heard your tears. \nSciel: From so far away?\nEsquie: I heard you, so I came.",
+                    "text": "Return target creature to its owner’s hand. You gain 3 life.\nCreate a Lumina token. (It’s an artifact with “{T}, Sacrifice this artifact: Scry 1.”){flavor}Sciel: “It was you. You saved me. Back then. Wait, but how?”\nEsquie: “I heard your tears.”\nSciel: “From so far away?”\nEsquie: “I heard you, so I came.”",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
@@ -38481,7 +38486,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Esquie’s Wine Compartment enters with five wine counters on it.\nRemove a wine counter from Esquie’s Wine Compartment: Target creature you control gets +1/-1 until end of turn. You gain 1 life.\n{2}, {T}, Sacrifice Esquie’s Wine Compartment: You gain 3 life.{flavor}I stored my personal stash inside him. All excellent vintages. I don’t normally share, but I suppose tonight deserves an exception.\n- Verso",
+                    "text": "Esquie’s Wine Compartment enters with five wine counters on it.\nRemove a wine counter from Esquie’s Wine Compartment: Target creature you control gets +1/-1 until end of turn. You gain 1 life.\n{2}, {T}, Sacrifice Esquie’s Wine Compartment: You gain 3 life.{flavor}“I stored my personal stash inside him. All excellent vintages. I don’t normally share, but I suppose tonight deserves an exception.”\n—Verso",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
@@ -38854,7 +38859,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "{W}{U}, {T}: Target noncreature artifact becomes a copy of target creature until end of turn, except it is an artifact in addition to its other types.\nWhen this creature dies, create a Chroma token. (It’s an artifact with “{T}, Sacrifice this artifact: Add one mana of any color. Spend this mana only to cast a Nevron, Gestral or Expeditioner spell.”){flavor}I just finished my sculpture of the legendary Esquie. This may be my life’s finest work, yet not a single soul seems to care. How could I make it better?",
+                    "text": "{W}{U}, {T}: Target noncreature artifact becomes a copy of target creature until end of turn, except it is an artifact in addition to its other types.\nWhen this creature dies, create a Chroma token. (It’s an artifact with “{T}, Sacrifice this artifact: Add one mana of any color. Spend this mana only to cast a Nevron, Gestral or Expeditioner spell.”){flavor}“I just finished my sculpture of the legendary Esquie. This may be my life’s finest work, yet not a single soul seems to care. How could I make it better?”",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
@@ -40324,7 +40329,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Sacrifice a creature: Scry 1.\nSacrifice an Expeditioner: Draw a card.{flavor}Yet in their final moments, they used their bodies to create a bridge for those who come after. Expedition 35 is over but tomorrow comes.",
+                    "text": "Sacrifice a creature: Scry 1.\nSacrifice an Expeditioner: Draw a card.{flavor}“Yet in their final moments, they used their bodies to create a bridge for those who come after. Expedition 35 is over but tomorrow comes.”\n—Matthieu, Expedition 35",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
@@ -40630,7 +40635,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Flying.\nThis creature can block only creatures with flying.\nWhen this creature dies, create a Chroma token. (It’s an artifact with “{T}, Sacrifice this artifact: Add one mana of any color. Spend this mana only to cast a Nevron, Gestral or Expeditioner spell.”){flavor}They were on a clean glide to the Monolith when they flew into the some sort of barrier and just ... gommaged away.\n- Avril, Expedition 40",
+                    "text": "Flying.\nThis creature can block only creatures with flying.\nWhen this creature dies, create a Chroma token. (It’s an artifact with “{T}, Sacrifice this artifact: Add one mana of any color. Spend this mana only to cast a Nevron, Gestral or Expeditioner spell.”){flavor}“They were on a clean glide to the Monolith when they flew into the some sort of barrier and just ... gommaged away.”\n—Avril, Expedition 40",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
@@ -41224,7 +41229,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Islandwalk.\nWhenever this vehicle deals combat damage to a player or planeswalker, draw a card.\nCrew 2{flavor}The Paintress must be laughing. Diverting the resources of the entire Engineering and Defence divisions to construct those subs.\n- Sabine, Expedition 43",
+                    "text": "Islandwalk.\nWhenever this vehicle deals combat damage to a player or planeswalker, draw a card.\nCrew 2{flavor}“The Paintress must be laughing. Diverting the resources of the entire Engineering and Defence divisions to construct those subs.”\n—Sabine, Expedition 43",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
@@ -41569,7 +41574,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Whenever this creature attacks, it gets +3/-3 until end of turn.\nWhen this creature dies, create a Chroma token.{flavor}The trick is finding that perfect point where your nerves have calmed enough that your mind and body are one, but not so calm that your reactions are dulled. Some of the lads haven’t quite managed riding that edge, but I remain in full control of my body and thoughts!",
+                    "text": "Whenever this creature attacks, it gets +3/-3 until end of turn.\nWhen this creature dies, create a Chroma token.{flavor}“The trick is finding that perfect point where your nerves have calmed enough that your mind and body are one, but not so calm that your reactions are dulled. Some of the lads haven’t quite managed riding that edge, but I remain in full control of my body and thoughts!”",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
@@ -42164,7 +42169,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Whenever you create a Chroma or Lumina token, you gain 1 life.\n{2}, {T}: Prevent the next X damage that would be dealt to any target this turn, where X is the number of Chroma and Lumina tokens you control.\nWhen this creature dies, create a Chroma token.{flavor}For our allies who come after, sadly our lives may have proven that defense is both absolutely necessary and wholly insufficient.\n- Christophe, Expedition 49",
+                    "text": "Whenever you create a Chroma or Lumina token, you gain 1 life.\n{2}, {T}: Prevent the next X damage that would be dealt to any target this turn, where X is the number of Chroma and Lumina tokens you control.\nWhen this creature dies, create a Chroma token.{flavor}“For our allies who come after, sadly our lives may have proven that defense is both absolutely necessary and wholly insufficient.”\n—Christophe, Expedition 49",
                     "x": 0.086,
                     "y": 0.6325515280739161,
                     "width": 0.828,
@@ -42471,7 +42476,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Flash\nWhen this creature enters, put a shield counter on target creature.\n{W}, {T}: Target creature you control gains protection from Nevrons until end of turn.\nWhen this creature dies, create a Chroma token.{flavor}We can hold the line for another few days but we need to find a way out, our water supply is running dangerously low.\n- Christophe, Expedition 49",
+                    "text": "Flash\nWhen this creature enters, put a shield counter on target creature.\n{W}, {T}: Target creature you control gains protection from Nevrons until end of turn.\nWhen this creature dies, create a Chroma token.{flavor}“We can hold the line for another few days but we need to find a way out, our water supply is running dangerously low.”\n—Christophe, Expedition 49",
                     "x": 0.086,
                     "y": 0.6325515280739161,
                     "width": 0.828,
@@ -42777,7 +42782,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Trample\nWhenever this vehicle blocks or becomes blocked by a blue creature, destroy this vehicle at end of combat.\nCrew 4{flavor}Apparently that was where people went on dates, you know.\n- Sciel",
+                    "text": "Trample\nWhenever this vehicle blocks or becomes blocked by a blue creature, destroy this vehicle at end of combat.\nCrew 4{flavor}“Apparently that was where people went on dates, you know.”\n—Sciel, to Gustave",
                     "x": 0.086,
                     "y": 0.6325515280739161,
                     "width": 0.828,
@@ -43112,7 +43117,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "{i}Mercy Kill{/i} - Sacrifice an Expeditioner creature: You gain X life and scry X, where X is the sacrified creature’s power.\nWhen this creature dies, create a Chroma token.{flavor}It’s the right choice. It is. Even if it doesn’t feel like it. Right? Right.\n- Lilou, Expedition 53",
+                    "text": "{i}Mercy Kill{/i} - Sacrifice an Expeditioner creature: You gain X life and scry X, where X is the sacrified creature’s power.\nWhen this creature dies, create a Chroma token.{flavor}“It’s the right choice. It is. Even if it doesn’t feel like it. Right? Right.”\n—Lilou, Expedition 53",
                     "x": 0.086,
                     "y": 0.6325515280739161,
                     "width": 0.828,
@@ -43419,7 +43424,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "{4}, {T}: Search your library for a Rebel or Expeditioner permanent card with mana value 3 or less, put it onto the battlefield, then shuffle.\nWhen this creature dies, create a Chroma token.{flavor}Lumière operates a certain way. It favors a certain group and a certain outcome and if you question the Council, well, the Council’s going to question you. Push too hard to change things and you just might end up on the next Expedition.\n- Constantine",
+                    "text": "{4}, {T}: Search your library for a Rebel or Expeditioner permanent card with mana value 3 or less, put it onto the battlefield, then shuffle.\nWhen this creature dies, create a Chroma token.{flavor}“Lumière operates a certain way. It favors a certain group and a certain outcome and if you question the Council, well, the Council’s going to question you. Push too hard to change things and you just might end up on the next Expedition.”",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
@@ -43725,7 +43730,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Other Expeditioner creatures you control get +1/+1.\nWhen this creature dies, create a Chroma token. (It’s an artifact with “{T}, Sacrifice this artifact: Add one mana of any color. Spend this mana only to cast a Nevron, Gestral or Expeditioner spell.”){flavor}Drums. Maybe that will work. They can’t hear our music, but perhaps they will feel it.\n- Gilles, Expedition 55",
+                    "text": "Other Expeditioner creatures you control get +1/+1.\nWhen this creature dies, create a Chroma token. (It’s an artifact with “{T}, Sacrifice this artifact: Add one mana of any color. Spend this mana only to cast a Nevron, Gestral or Expeditioner spell.”){flavor}“Drums. Maybe that will work. They can’t hear our music, but perhaps they will feel it.”\n—Gilles, Expedition 55",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
@@ -44059,7 +44064,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Expeditioner spells you cast cost {1} less to cast.\nWhen this creature dies, create a Chroma token.{flavor}Augmenting pictos with music was a stroke of genius. But the sonics have NO effect on the Nevrons here. It’s as if they can’t even hear our music, they just keep dancing to their own.\n- Gilles, Expedition 55",
+                    "text": "Expeditioner spells you cast cost {1} less to cast.\nWhen this creature dies, create a Chroma token.{flavor}“Augmenting pictos with music was a stroke of genius. But the sonics have NO effect on the Nevrons here. It’s as if they can’t even hear our music, they just keep dancing to their own.”\n—Gilles, Expedition 55",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
@@ -44366,7 +44371,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Trample{flavor}Our lives are forfeit anyway, but is there perhaps a better way to spend such precious coin?\n- Carla, Expedition 57",
+                    "text": "Trample{flavor}“Our lives are forfeit anyway, but is there perhaps a better way to spend such precious coin?”\n—Carla, Expedition 57",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
@@ -44673,7 +44678,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Sacrifice an artifact: Target creature gets +1/+1 until end of turn.\nWhen this creature dies, create a Chroma token.{flavor}I dare not show my true feelings. As Commander, I cannot yield to fear. But I can’t help but wonder, is pressing forward the correct course of action?\n- Carla, Expedition 57",
+                    "text": "Sacrifice an artifact: Target creature gets +1/+1 until end of turn.\nWhen this creature dies, create a Chroma token.{flavor}“I dare not show my true feelings. As Commander, I cannot yield to fear. But I can’t help but wonder, is pressing forward the correct course of action?”\n—Carla, Expedition 57",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
@@ -45295,7 +45300,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Whenever a Nevron creature dies, create a Food token.\n{2}, Sacrifice a Food token: Target non-Nevron creature deals 3 damage to itself.\nWhen this creature dies, create a Chroma token.{flavor}I can’t believe she convinced everyone to eat the Nevron. They’ve been puking for the past few hours. Great.\n- Julien, Expedition 59",
+                    "text": "Whenever a Nevron creature dies, create a Food token.\n{2}, Sacrifice a Food token: Target non-Nevron creature deals 3 damage to itself.\nWhen this creature dies, create a Chroma token.{flavor}“I can’t believe she convinced everyone to eat the Nevron. They’ve been puking for the past few hours. Great.”\n—Julien, Expedition 59",
                     "x": 0.086,
                     "y": 0.6325515280739161,
                     "width": 0.828,
@@ -45893,7 +45898,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "When this creature leaves the battlefield, investigate (Create a Clue token. It’s an artifact with “{2}, Sacrifice this token: Draw a card.”)\nThis creature gets +2/+2 as long as it’s un-modified. (Equipment, Auras you control, and counters are modifications.)\nWhen this creature dies, create a Chroma token.{flavor}One last swim separates me from Lumière, but even with my mighty muscles, I don’t know if I can outswim the Gommage.",
+                    "text": "When this creature leaves the battlefield, investigate (Create a Clue token. It’s an artifact with “{2}, Sacrifice this token: Draw a card.”)\nThis creature gets +2/+2 as long as it’s un-modified. (Equipment, Auras you control, and counters are modifications.)\nWhen this creature dies, create a Chroma token.{flavor}“One last swim separates me from Lumière, but even with my mighty muscles, I don’t know if I can outswim the Gommage.”",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.8238805970149253,
@@ -46200,7 +46205,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "When this creature enters, destroy up to one target Nevron creature.\n{2}{B}, {T}: Target creature gets -2/-2 until end of turn.\nWhen this creature dies, create a Chroma token.{flavor}Oh, I hear a big Nev coming, they count for double. If I kill it quick I can boost my score.\n- Virgile, Expedition 62",
+                    "text": "When this creature enters, destroy up to one target Nevron creature.\n{2}{B}, {T}: Target creature gets -2/-2 until end of turn.\nWhen this creature dies, create a Chroma token.{flavor}“Oh, I hear a big Nev coming, they count for double. If I kill it quick I can boost my score.”\n—Virgile, Expedition 62",
                     "x": 0.086,
                     "y": 0.6325515280739161,
                     "width": 0.828,
@@ -46534,7 +46539,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "This creature saddles Mounts and crews Vehicles as though its power were 2 greater.\nWhen this creature dies, create a Chroma token. (It’s an artifact with “{T}, Sacrifice this artifact: Add one mana of any color. Spend this mana only to cast a Nevron, Gestral or Expeditioner spell.”){flavor}Damnit Hector, I told you to SLOW DOWN\n- Damien, Expedition 63",
+                    "text": "This creature saddles Mounts and crews Vehicles as though its power were 2 greater.\nWhen this creature dies, create a Chroma token. (It’s an artifact with “{T}, Sacrifice this artifact: Add one mana of any color. Spend this mana only to cast a Nevron, Gestral or Expeditioner spell.”){flavor}“Damnit Hector, I told you to SLOW DOWN”\n—Damien, Expedition 63",
                     "x": 0.086,
                     "y": 0.6325515280739161,
                     "width": 0.828,
@@ -46829,7 +46834,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "{i}Send Backup!{/i} — When this artifact enters, reveal the top four cards of your library. Put all Expeditioner cards revealed this way into your hand and the rest on the bottom of your library in any order.\n{2}, Sacrifice this artifact: Draw a card.{flavor}We radioed our first report to Gamma. The line is good.\n- Ben, 64 Epsilon",
+                    "text": "{i}Send Backup!{/i} — When this artifact enters, reveal the top four cards of your library. Put all Expeditioner cards revealed this way into your hand and the rest on the bottom of your library in any order.\n{2}, Sacrifice this artifact: Draw a card.{flavor}“We radioed our first report to Gamma. The line is good.”\n—Ben, 64 Epsilon",
                     "x": 0.086,
                     "y": 0.6325515280739161,
                     "width": 0.828,
@@ -47473,7 +47478,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Flash.\nWhen this creature enters, destroy target creature or artifact.\nWhen this creature dies, create a Chroma token.{flavor}We’re out of explosives, but we’ve made enough holes in this place to reach that giant woman in the centre.\n- Luc, Expedition 67",
+                    "text": "Flash.\nWhen this creature enters, destroy target creature or artifact.\nWhen this creature dies, create a Chroma token.{flavor}“We’re out of explosives, but we’ve made enough holes in this place to reach that giant woman in the centre.”\n—Luc, Expedition 67",
                     "x": 0.086,
                     "y": 0.6325515280739161,
                     "width": 0.828,
@@ -47779,7 +47784,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "When this creature enters, put a charted counter on target land.\nLands with charted counters on them are Islands.\nWhen this creature enters or attacks, create a Map token.\nWhen this creature dies, create a Chroma token.{flavor}The Paintress sent a storm to overcome us, but it is we who have overcome the storm! After surviving that, crushing those Nevrons was almost an afterthought.\n- Elodie, Expedition 68",
+                    "text": "When this creature enters, put a charted counter on target land.\nLands with charted counters on them are Islands.\nWhen this creature enters or attacks, create a Map token.\nWhen this creature dies, create a Chroma token.{flavor}“The Paintress sent a storm to overcome us, but it is we who have overcome the storm! After surviving that, crushing those Nevrons was almost an afterthought.”\n—Elodie, Expedition 68",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
@@ -48681,7 +48686,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "This creature can’t be blocked except by creatures with flying.\nWhen this creature dies, create a Chroma token.{flavor}I still remember the first mountain we scaled. Watching the sun rise above the clouds was magical. But rappelling down as we set the handholds was pure exhilaration.\n- Fleur, Expedition 69",
+                    "text": "This creature can’t be blocked except by creatures with flying.\nWhen this creature dies, create a Chroma token.{flavor}“I still remember the first mountain we scaled. Watching the sun rise above the clouds was magical. But rappelling down as we set the handholds was pure exhilaration.”\n—Fleur, Expedition 69",
                     "x": 0.086,
                     "y": 0.6325515280739161,
                     "width": 0.828,
@@ -48988,7 +48993,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "When this creature enters, you may search your library for a basic land card, put that card onto the battlefield tapped, then shuffle.\nWhenever this creature attacks, surveil 1.\nWhen this creature dies, create a Chroma token.{flavor}It may not be glamorous, but truly essential work rarely is. Doesn’t make it any less important.\n- Fleur, Expedition 69",
+                    "text": "When this creature enters, you may search your library for a basic land card, put that card onto the battlefield tapped, then shuffle.\nWhenever this creature attacks, surveil 1.\nWhen this creature dies, create a Chroma token.{flavor}“It may not be glamorous, but truly essential work rarely is. Doesn’t make it any less important.”\n—Fleur, Expedition 69",
                     "x": 0.086,
                     "y": 0.6325515280739161,
                     "width": 0.828,
@@ -49831,7 +49836,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Flying\nThis creature can block only creatures with Flying.\nWhen this creature dies, create a Chroma token. (It’s an artifact with “{T}, Sacrifice this artifact: Add one mana of any color. Spend this mana only to cast a Nevron, Gestral or Expeditioner spell.”){flavor}Our only choice is to take matters into our own hands. Fortune favors the bold. We must forge ahead with CONVICTION.",
+                    "text": "Flying\nThis creature can block only creatures with Flying.\nWhen this creature dies, create a Chroma token. (It’s an artifact with “{T}, Sacrifice this artifact: Add one mana of any color. Spend this mana only to cast a Nevron, Gestral or Expeditioner spell.”){flavor}“Our only choice is to take matters into our own hands. Fortune favors the bold. We must forge ahead with CONVICTION.”",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
@@ -50166,7 +50171,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "You may choose not to untap this creature during your untap step.\n{i}Nevron Whisperer{/i} — {2}, {T}: Gain control of target Nevron creature for as long as this creature remains tapped.\nWhen this creature dies, create a Chroma token.{flavor}Gregoire is, as usual, deeply suspicious, but this could change our entire understanding of Nevrons and the Paintre-\n- Renee, Expedition 81",
+                    "text": "You may choose not to untap this creature during your untap step.\n{i}Nevron Whisperer{/i} — {2}, {T}: Gain control of target Nevron creature for as long as this creature remains tapped.\nWhen this creature dies, create a Chroma token.{flavor}“Gregoire is, as usual, deeply suspicious, but this could change our entire understanding of Nevrons and the Paintre-”",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
@@ -50756,7 +50761,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "{T}: Add {C}.\n{3}, {T}: Exile target Expeditioner you control. At the beginning of the next end step, return that card to the battlefield under its owner’s control. If it entered under your control and is a creature, put a +1/+1 counter on it.{flavor}So uh... We can rest a bit, but the moon is bright, I want to keep moving.\n- Gustave",
+                    "text": "{T}: Add {C}.\n{3}, {T}: Exile target Expeditioner you control. At the beginning of the next end step, return that card to the battlefield under its owner’s control. If it entered under your control and is a creature, put a +1/+1 counter on it.{flavor}“So uh... We can rest a bit, but the moon is bright, I want to keep moving.”\n—Gustave",
                     "x": 0.086,
                     "y": 0.6325515280739161,
                     "width": 0.828,
@@ -51080,7 +51085,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "You gain 2 life for each creature you control.\nDraw a card.\n{i}Luminous{/i} — Create a 1/1 white Human Expeditioner token with “When this creature dies, create a Chroma token.” if you control at least three Lumina tokens.{flavor}Five tables this year, you see that? Told you we’d beat the 34s.\n- Catherine",
+                    "text": "You gain 2 life for each creature you control.\nDraw a card.\n{i}Luminous{/i} — Create a 1/1 white Human Expeditioner token with “When this creature dies, create a Chroma token.” if you control at least three Lumina tokens.{flavor}“Five tables this year, you see that? Told you we’d beat the 34s.”\n—Catherine",
                     "x": 0.086,
                     "y": 0.6325515280739161,
                     "width": 0.828,
@@ -51375,7 +51380,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "When this artifact enters, create a Lumina token. (It’s an artifact with “{T}, Sacrifice this artifact: Scry 1.”)\nExpeditioner creatures you control get +1/+1.\n{T}: Add one mana of any color.{flavor}Wanna plant it?\n- Sciel, to Maelle",
+                    "text": "When this artifact enters, create a Lumina token. (It’s an artifact with “{T}, Sacrifice this artifact: Scry 1.”)\nExpeditioner creatures you control get +1/+1.\n{T}: Add one mana of any color.{flavor}“Wanna plant it?”\n—Sciel, to Maelle",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
@@ -51682,7 +51687,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Whenever this vehicle attacks, if an Expeditioner crewed it this turn, it explores. (Reveal the top card of your library. Put that card into your hand if it’s a land. Otherwise, put a +1/+1 counter on this creature, then put the card back or put it into your graveyard.)\nCrew 2{flavor}As you sail into the unknown, know that Lumière stands with you. When you battle the Paintress, know that Lumière fights with you.\n- Emma",
+                    "text": "Whenever this vehicle attacks, if an Expeditioner crewed it this turn, it explores. (Reveal the top card of your library. Put that card into your hand if it’s a land. Otherwise, put a +1/+1 counter on this creature, then put the card back or put it into your graveyard.)\nCrew 2{flavor}“As you sail into the unknown, know that Lumière stands with you. When you battle the Paintress, know that Lumière fights with you.”\n—Emma",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
@@ -51977,7 +51982,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "{3}, {T}: Put a lore counter on target Saga you control.\n{3}, {T}: Remove a lore counter from target Saga you control.\n{2}, Sacrifice this artifact: Draw a card.{flavor}Gustave: Learn from the ones who came before ...\nLune: ...And lay the trail, for the ones who come after",
+                    "text": "{3}, {T}: Put a lore counter on target Saga you control.\n{3}, {T}: Remove a lore counter from target Saga you control.\n{2}, Sacrifice this artifact: Draw a card.{flavor}Gustave: “Learn from the ones who came before ...”\nLune: “...And lay the trail, for the ones who come after”",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
@@ -52275,7 +52280,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "{2}, {T}, Sacrifice this artifact: Search your library for a land card, reveal it, put it into your hand, then shuffle.{flavor}I get it’s not very satisfying making maps and prepping trails while people are dying, but this prep work will pay off in the long run.\n- Fleur, Expedition 69",
+                    "text": "{2}, {T}, Sacrifice this artifact: Search your library for a land card, reveal it, put it into your hand, then shuffle.{flavor}“I get it’s not very satisfying making maps and prepping trails while people are dying, but this prep work will pay off in the long run.”\n—Fleur, Expedition 69",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
@@ -52583,7 +52588,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "When this creature enters, you may search your library for an Expeditioner card, reveal it, put it into your hand, then shuffle.\nWhen this creature dies, create a Chroma token.{flavor}Your time left in this life is limited, why not make it count for something?",
+                    "text": "When this creature enters, you may search your library for an Expeditioner card, reveal it, put it into your hand, then shuffle.\nWhen this creature dies, create a Chroma token.{flavor}“Your time left in this lifetime is limited, why not make it count for something?”",
                     "x": 0.086,
                     "y": 0.6325515280739161,
                     "width": 0.828,
@@ -52881,7 +52886,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Equipped creature is an Expeditioner in addition to its other types.\nAs long as equipped creature is a Human, it gets +1/+1.\nWhenever equipped creature attacks, create a Lumina token.\nEquip {1}{flavor}Sophie: This too is your legacy.\nGustave: In a way, it’s yours too.",
+                    "text": "Equipped creature is an Expeditioner in addition to its other types.\nAs long as equipped creature is a Human, it gets +1/+1.\nWhenever equipped creature attacks, create a Lumina token.\nEquip {1}{flavor}“This too is your legacy.” said Sophie, beaming with pride. “In a way, it’s yours too.” replied Gustave.",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
@@ -53478,7 +53483,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "As this enchantment enters, choose a creature type.\nWhenever two or more creatures of the chosen type attacks, target opponent loses 2 life. You gain 2 life and draw a card.{flavor}You must see things as they are. Not how you want them to be.\n- Renoir",
+                    "text": "As this enchantment enters, choose a creature type.\nWhenever two or more creatures of the chosen type attacks, target opponent loses 2 life. You gain 2 life and draw a card.{flavor}“You must see things as they are. Not how you want them to be.”\n—Renoir",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
@@ -55237,7 +55242,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Search your library for two cards. Put one into your hand and the other into your graveyard. Then shuffle.{flavor}I’ll keep the light on for you. I hope you find peace. Hold on to each other.\n- Renoir",
+                    "text": "Search your library for two cards. Put one into your hand and the other into your graveyard. Then shuffle.{flavor}“I’ll keep the light on for you. I hope you find peace. Hold on to each other.”\n—Renoir, to Maelle",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
@@ -55928,7 +55933,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "At the beginning of your upkeep, choose a card name then reveal the top card of your library. If that card has the chosen name, put it into your hand. Otherwise, put it into your graveyard.\n{2}{U}, {T}: Scry 2.\n{2}{B}, {T}: Surveil 2.\nWhen this creature dies, create a Chroma token.{flavor}The Paintress is going to punish you! You blasphemers. The Gommage is our fault! We brought this upon ourselves. Because we dared to defy her!",
+                    "text": "At the beginning of your upkeep, choose a card name then reveal the top card of your library. If that card has the chosen name, put it into your hand. Otherwise, put it into your graveyard.\n{2}{U}, {T}: Scry 2.\n{2}{B}, {T}: Surveil 2.\nWhen this creature dies, create a Chroma token.{flavor}“The Paintress is going to punish you! You blasphemers. The Gommage is our fault! We brought this upon ourselves. Because we dared to defy her!”",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
@@ -56246,7 +56251,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "{T}: Target creature you control gains Islandwalk until end of turn.\n{1}, Sacrifice Florrie: Draw a card.{flavor}See, Florrie helps me swim. But Florrie was stolen by my archnemesis!\n- Esquie",
+                    "text": "{T}: Target creature you control gains Islandwalk until end of turn.\n{1}, Sacrifice Florrie: Draw a card.{flavor}“See, Florrie helps me swim. But Florrie was stolen by my archnemesis!”\n—Esquie",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
@@ -56783,7 +56788,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "This land enters tapped.\n{T}: Add {C}.\n{1}{R}, {T}, Sacrifice this land: Search your library for a card and put it into your hand. Discard a card at random. Activate only as a sorcery.{flavor}I maintain this place even after its fall so its history is never forgotten.\n- Unknown Gestral",
+                    "text": "This land enters tapped.\n{T}: Add {C}.\n{1}{R}, {T}, Sacrifice this land: Search your library for a card and put it into your hand. Discard a card at random. Activate only as a sorcery.{flavor}“I maintain this place even after its fall so its history is never forgotten.”\n—Unknown Gestral",
                     "x": 0.086,
                     "y": 0.6325515280739161,
                     "width": 0.828,
@@ -57078,7 +57083,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "This land enters tapped\n{T}: Add {U}.\n{U}, {T}: Target creature you control gains flying until end of turn.{flavor}Gustave: Expedition 68. Their boat was blown into the air by a storm. Lumière lost sight of it but assumed they crashed on the continent.\nLune: And they survived. The storm, at least.",
+                    "text": "This land enters tapped\n{T}: Add {U}.\n{U}, {T}: Target creature you control gains flying until end of turn.{flavor}“Expedition 68. Their boat was blown into the air by a storm. Lumière lost sight of it but assumed they crashed on the continent.” explained Gustave. “And they survived. The storm, at least.” remarked Lune.",
                     "x": 0.086,
                     "y": 0.6325515280739161,
                     "width": 0.828,
@@ -58090,7 +58095,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "{T}: Add {C}.\n{1}{B}, {T}: Put target Nevron card from your graveyard on top of your library.{flavor}These siege engines seemed much more powerful in Lumière. But on this battlefield, next to all these broken bodies, staring at the true size of the monolith, I feel despair.\n- Carla, Expedition 57",
+                    "text": "{T}: Add {C}.\n{1}{B}, {T}: Put target Nevron card from your graveyard on top of your library.{flavor}“These siege engines seemed much more powerful in Lumière. But on this battlefield, next to all these broken bodies, staring at the true size of the monolith, I feel despair.”\n—Carla, Expedition 57",
                     "x": 0.086,
                     "y": 0.6325515280739161,
                     "width": 0.828,
@@ -58385,7 +58390,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Target creature gains double strike until end of turn. (It deals both first-strike and regular combat damage.)\nCreate a Lumina token. (It’s an artifact with “{T}, Sacrifice this artifact: Scry 1.”)\nForetell {R} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.){flavor}Lady luck smiled today!",
+                    "text": "Target creature gains double strike until end of turn. (It deals both first-strike and regular combat damage.)\nCreate a Lumina token. (It’s an artifact with “{T}, Sacrifice this artifact: Scry 1.”)\nForetell {R} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.){flavor}“Lady luck smiled today!”",
                     "x": 0.086,
                     "y": 0.6325515280739161,
                     "width": 0.828,
@@ -59263,7 +59268,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Affinity for Clea Planeswalkers\nDefender\n{i}The strongest ice attack ever{/i} — At the beginning of your upkeep, François deals 4 damage to target creature an opponent controls. Tap that creature and put a stun counter on it.{flavor}A ROCK? I am NOT a rock, do you have rocks for eyes? You certainly have rocks for BRAINS. I am clearly a TURTLE.",
+                    "text": "Affinity for Clea Planeswalkers\nDefender\n{i}The strongest ice attack ever{/i} — At the beginning of your upkeep, François deals 4 damage to target creature an opponent controls. Tap that creature and put a stun counter on it.{flavor}“A ROCK? I am NOT a rock, do you have rocks for eyes? You certainly have rocks for BRAINS. I am clearly a TURTLE.”",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
@@ -59586,7 +59591,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Destroy target creature or planeswalker. Mill cards equal to its mana value.\n{i}Luminous{/i} — If you control three or more Lumina tokens, put a card from among those cards into your hand.\nForetell {U}{B} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.){flavor}The cards have spoken!",
+                    "text": "Destroy target creature or planeswalker. Mill cards equal to its mana value.\n{i}Luminous{/i} — If you control three or more Lumina tokens, put a card from among those cards into your hand.\nForetell {U}{B} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.){flavor}“The cards have spoken!”",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
@@ -60908,7 +60913,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "{T}: Add {C}.\n{1}{R/G}, {T}: Target Gestral creature you control fights another target creature. (Each deals damage equal to its power to the other.){flavor}Gestral Announcer: Hey humans! We’re here to see some fighting. If you don’t wanna fight, we’ll come down and fight ourselves!\nSciel: They’re expecting a bit of a show. Shall we?",
+                    "text": "{T}: Add {C}.\n{1}{R/G}, {T}: Target Gestral creature you control fights another target creature. (Each deals damage equal to its power to the other.){flavor}“Hey humans! We’re here to see some fighting. If you don’t wanna fight, we’ll come down and fight ourselves!” shouted the impatient Gestral Announcer. “They’re expecting a bit of a show. Shall we?” said Sciel, to the rest of the party.",
                     "x": 0.086,
                     "y": 0.6325515280739161,
                     "width": 0.828,
@@ -61203,7 +61208,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Whenever a creature you control with flying enters or a creature you control with flying attacks, you may put a quest counter on this enchantment.\nRemove four quest counters from this enchantment and sacrifice it: Draw three cards.{flavor}Oh really? An Expedition? I certainly wasn’t expecting that. But your presence here is proof that you climbed the tower, like all of us here. You can live here with us now, forever.",
+                    "text": "Whenever a creature you control with flying enters or a creature you control with flying attacks, you may put a quest counter on this enchantment.\nRemove four quest counters from this enchantment and sacrifice it: Draw three cards.{flavor}“Oh really? An Expedition? I certainly wasn’t expecting that. But your presence here is proof that you climbed the tower, like all of us here. You can live here with us now, forever.”\n—Unknown Gestral",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
@@ -61498,7 +61503,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Enchant Land\nEnchanted land has “{T}, Discard a card: Draw a card.”{flavor}Yahoo! I can sell stuff! You gots Chroma, yeh?\n- Delsitra",
+                    "text": "Enchant Land\nEnchanted land has “{T}, Discard a card: Draw a card.”{flavor}“Yahoo! I can sell stuff! You gots Chroma, yeh?“\n—Delsitra",
                     "x": 0.086,
                     "y": 0.6325515280739161,
                     "width": 0.828,
@@ -61804,7 +61809,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Flash\nSacrifice this creature: Choose one —\n• Put a shield counter on target creature.\n• Target creature gains hexproof until end of turn.{flavor}Gotta take one for the team.",
+                    "text": "Flash\nSacrifice this creature: Choose one —\n• Put a shield counter on target creature.\n• Target creature gains hexproof until end of turn.{flavor}“Gotta take one for the team.”",
                     "x": 0.086,
                     "y": 0.6325515280739161,
                     "width": 0.8263681592039801,
@@ -62099,7 +62104,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Whenever a creature you control becomes tapped, you may put a quest counter on this Enchantment.\nAs long as there are two or more quest counters on this enchantment. Creatures you control have reach.\nAs long as there are four or more quest counters on this enchantment. You may play an additional land on each of your turns.{flavor}I’ve been trying to overcome this gestral’s challenge for months now but it seems even more of a challenge than defeating the Paintress. I guess I’ll never see the Gestral’s grand prize. That’s my only regret in life.\n- Laure, Expedition 37",
+                    "text": "Whenever a creature you control becomes tapped, you may put a quest counter on this Enchantment.\nAs long as there are two or more quest counters on this enchantment. Creatures you control have reach.\nAs long as there are four or more quest counters on this enchantment. You may play an additional land on each of your turns.{flavor}“I’ve been trying to overcome this gestral’s challenge for months now but it seems even more of a challenge than defeating the Paintress. I guess I’ll never see the Gestral’s grand prize. That’s my only regret in life.”\n—Laure, Expedition 37",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
@@ -62405,7 +62410,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Tap an untapped Gestral you control: Prevent the next 1 damage that would be dealt to target creature this turn.{flavor}Even if there is no competition here because everyone is dumb, I pushed myself through self-discipline. And I saved more than ten thousand of my fellow Gestrals. All the while, suffering inside like no one else in this world. So don’t tell me what I am.",
+                    "text": "Tap an untapped Gestral you control: Prevent the next 1 damage that would be dealt to target creature this turn.{flavor}“Even if there is no competition here because everyone is dumb, I pushed myself through self-discipline. And I saved more than ten thousand of my fellow Gestrals. All the while, suffering inside like no one else in this world. So don’t tell me what I am.”",
                     "x": 0.086,
                     "y": 0.6325515280739161,
                     "width": 0.8263681592039801,
@@ -63017,7 +63022,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Whenever this creature attacks, it gets +2/+0 until end of turn for each other attacking Gestral.{flavor}See, this here’s where we come when we wanna go full brush-mode, you got me?",
+                    "text": "Whenever this creature attacks, it gets +2/+0 until end of turn for each other attacking Gestral.{flavor}“See, this here’s where we come when we wanna go full brush-mode, you got me?”",
                     "x": 0.086,
                     "y": 0.6325515280739161,
                     "width": 0.828,
@@ -63267,7 +63272,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Whenever a creature enters, you may put a quest counter on this enchantment.\n{i}Bronze Rank{/i} - As long as there are three or more quest counters on this enchantment, creatures you control have haste.\n{i}Silver Rank{/i} - As long as there are four or more quest counters on this enchantment, creatures you control have Ward 1.\n{i}Gold Rank{/i} - As long as there are five or more quest counters on this enchantment, creatures you control have trample.{flavor}00:36:500? Not a bad time, human.",
+                    "text": "Whenever a creature enters, you may put a quest counter on this enchantment.\n{i}Bronze Rank{/i} - As long as there are three or more quest counters on this enchantment, creatures you control have haste.\n{i}Silver Rank{/i} - As long as there are four or more quest counters on this enchantment, creatures you control have Ward 1.\n{i}Gold Rank{/i} - As long as there are five or more quest counters on this enchantment, creatures you control have trample.{flavor}“00:36:500? Not a bad time, human.”\n—Un-named Gestral",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
@@ -64174,12 +64179,13 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Whenever this creature is dealt damage, create a Chroma token (It’s an artifact with “{T}, Sacrifice this artifact: Add one mana of any color. Spend this mana only to cast a Nevron, Gestral or Expeditioner spell.”){flavor}I have some useful items for you!",
+                    "text": "Whenever this creature is dealt damage, create a Chroma token (It’s an artifact with “{T}, Sacrifice this artifact: Add one mana of any color. Spend this mana only to cast a Nevron, Gestral or Expeditioner spell.”){flavor}“I have some useful items for you!”",
                     "x": 0.086,
                     "y": 0.6325515280739161,
                     "width": 0.828,
                     "height": 0.2875,
-                    "size": 0.0362
+                    "size": 0.0362,
+                    "fontSize": "-8"
                 },
                 "pt": {
                     "name": "Power/Toughness",
@@ -64424,7 +64430,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Whenever a Human you control enters, you may put a quest counter on this enchantment.\nAs long as this enchantment as two or more quest counters, creatures you control gain vigilance.\nAs long as this enchantment as three or more quest counters, creatures you control gain prowess.{flavor}If I were a 2-year-old human, at what age would I gommage? ... You’re probably right, I can’t count anyway.",
+                    "text": "Whenever a Human you control enters, you may put a quest counter on this enchantment.\nAs long as this enchantment as two or more quest counters, creatures you control gain vigilance.\nAs long as this enchantment as three or more quest counters, creatures you control gain prowess.{flavor}“If I were a 2-year-old human, at what age would I gommage? ... You’re probably right, I can’t count anyway.”\n—Un-named Gestral",
                     "x": 0.086,
                     "y": 0.6325515280739161,
                     "width": 0.828,
@@ -64969,7 +64975,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Whenever a creature you control becomes the target of a spell or ability, you may put a quest counter on this enchantment.\n{i}Normal Difficulty{/i} — As long as this enchantment has three or more quest counters on it, whenever a creature you control becomes the target of a spell or ability, draw a card.\n{i}Hard Difficulty{/i} — {U/R}{U/R}: You may choose new targets for target spell or ability. Activate this ability only if this enchantment has five or more quest counters on it.{flavor}Oh, you won. You deserve this reward. Have fun with it!",
+                    "text": "Whenever a creature you control becomes the target of a spell or ability, you may put a quest counter on this enchantment.\n{i}Normal Difficulty{/i} — As long as this enchantment has three or more quest counters on it, whenever a creature you control becomes the target of a spell or ability, draw a card.\n{i}Hard Difficulty{/i} — {U/R}{U/R}: You may choose new targets for target spell or ability. Activate this ability only if this enchantment has five or more quest counters on it.{flavor}“Oh, you won. You deserve this reward. Have fun with it!“\n—Un-named Gestral",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
@@ -66143,7 +66149,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "{T}: Add {C}.\n{T}: Add {C}{C}. Spend this mana only to cast Gestral spells or activate abilities of Gestrals.{flavor}Lune: It’s ... it’s really a village of Gestrals!\nGustave: They seem better at surviving than humans.",
+                    "text": "{T}: Add {C}.\n{T}: Add {C}{C}. Spend this mana only to cast Gestral spells or activate abilities of Gestrals.{flavor}“It’s ... it’s really a village of Gestrals!” remarked Lune with astonishment. “They seem better at surviving than humans.” replied Gustave.",
                     "x": 0.086,
                     "y": 0.6325515280739161,
                     "width": 0.828,
@@ -66449,7 +66455,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "{flavor}Expeditioners, eh? You’re a fun looking bunch. Unless you try to cause problems. Then we’ll beat you up. Which will be fun for me, but not for you.",
+                    "text": "{flavor}“Expeditioners, eh? You’re a fun looking bunch. Unless you try to cause problems. Then we’ll beat you up. Which will be fun for me, but not for you.”",
                     "x": 0.086,
                     "y": 0.6325515280739161,
                     "width": 0.8263681592039801,
@@ -66744,7 +66750,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "As an additional cost to cast this spell, sacrifice a Gestral.\nGestral Volleyball Strike deals 5 damage to any target.{flavor}I captured a few baby gestrals we can use as balls. I asked for their consent. They all said yes.\n- Un-named Gestral",
+                    "text": "As an additional cost to cast this spell, sacrifice a Gestral.\nGestral Volleyball Strike deals 5 damage to any target.{flavor}“I captured a few baby gestrals we can use as balls. I asked for their consent. They all said yes.”\n—Un-named Gestral",
                     "x": 0.086,
                     "y": 0.6325515280739161,
                     "width": 0.828,
@@ -67050,7 +67056,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "This creature cannot attack or block alone.{flavor}You’re a twig on my path to Gestral hero-ing. Get out of my sight.",
+                    "text": "This creature cannot attack or block alone.{flavor}“You’re a twig on my path to Gestral hero-ing. Get out of my sight.”",
                     "x": 0.086,
                     "y": 0.6325515280739161,
                     "width": 0.8263681592039801,
@@ -67651,7 +67657,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "X target creatures can’t block this turn.\nCreate a Lumina token. (It’s an artifact with “{T}, Sacrifice this artifact: Scry 1.”){flavor}Sunniso: Geez, you don’t need to be so rude.\nGustave: Nononono, uh ... it’s just, um ... it’s the password ...\nSunniso: Well, I don’t know! Golgra never told me the password. But whatever, just go in.",
+                    "text": "X target creatures can’t block this turn.\nCreate a Lumina token. (It’s an artifact with “{T}, Sacrifice this artifact: Scry 1.”){flavor}Sunniso: “Geez, you don’t need to be so rude.”\nGustave: “Nononono, uh ... it’s just, um ... it’s the password ...”\nSunniso: “Well, I don’t know! Golgra never told me the password. But whatever, just go in.”",
                     "x": 0.086,
                     "y": 0.6325515280739161,
                     "width": 0.828,
@@ -69634,7 +69640,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Flash. Ward {2}. Reach.\n{i}Grows Flowers{/i} — At the beginning of your upkeep, create a Flower token (It’s an artifact with “{T}, Sacrifice this artifact: Add {U}, {R} or {G}.”)\n{i}Absorbs Flowers{/i} — Whenever a Flower token leaves the battlefield, choose one —\n• Goblu deals 1 damage to any target.\n• Put a +1/+1 counter on target creature.\n• Put a shield counter on target creature.\n• Draw a card.{flavor}Gustave, wait! It seems peaceful, as long as we don’t touch the flowers.\n- Lune",
+                    "text": "Flash. Ward {2}. Reach.\n{i}Grows Flowers{/i} — At the beginning of your upkeep, create a Flower token (It’s an artifact with “{T}, Sacrifice this artifact: Add {U}, {R} or {G}.”)\n{i}Absorbs Flowers{/i} — Whenever a Flower token leaves the battlefield, choose one —\n• Goblu deals 1 damage to any target.\n• Put a +1/+1 counter on target creature.\n• Put a shield counter on target creature.\n• Draw a card.{flavor}“Gustave, wait! It seems peaceful, as long as we don’t touch the flowers.”\n—Lune",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
@@ -70296,12 +70302,13 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Other Gestral creatures you control get +2/+2\n{i}Enrage{/i} — Whenever Golgra is dealt damage, choose one —\n• Put a Double strike counter on Golgra.\n• Put a Vigilance counter on Golgra.\n• Put a Trample counter on Golgra.\n• Draw a card.{flavor}Really? A duel? Do you have a death wish?",
+                    "text": "Other Gestral creatures you control get +2/+2\n{i}Enrage{/i} — Whenever Golgra is dealt damage, choose one —\n• Put a Double strike counter on Golgra.\n• Put a Vigilance counter on Golgra.\n• Put a Trample counter on Golgra.\n• Draw a card.{flavor}“Really? A duel? Do you have a death wish?”",
                     "x": 0.086,
                     "y": 0.6325515280739161,
                     "width": 0.828,
                     "height": 0.2875,
-                    "size": 0.0362
+                    "size": 0.0362,
+                    "fontSize": "-30"
                 },
                 "pt": {
                     "name": "Power/Toughness",
@@ -70619,7 +70626,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Exile X target nonland permanents with mana value X or higher that aren’t legendary or Nevrons.{flavor}Your mother paints life. Whilst your father, death. What will you paint?\n- Alicia",
+                    "text": "Exile X target nonland permanents with mana value X or higher that aren’t legendary or Nevrons.{flavor}“Your mother paints life. Whilst your father, death. What will you paint?”\n—Alicia",
                     "x": 0.086,
                     "y": 0.6325515280739161,
                     "width": 0.828,
@@ -71279,7 +71286,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "{W/U}, {T}: Remove a counter from target permanent.{flavor}Cleaner 1: I can clear the snow and I can clear the rubble, but this is too much.\nCleaner 2: Must we truly dispose of this thing?\nCleaner 1:It does not obstruct the way. It is simply ... there.",
+                    "text": "{W/U}, {T}: Remove a counter from target permanent.{flavor}“I can clear the snow and I can clear the rubble, but this is too much.”\n“Must we truly dispose of this thing?”\n“It does not obstruct the way. It is simply ... there.”",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
@@ -71585,7 +71592,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "When this creature enters, you may search your library for a Picto card, reveal it, put it into your hand, then shuffle.\n{1}{U}, {T}: You may put a Picto card from your hand onto the battlefield.{flavor}Finish my sentence in a wonderfully poetic way: Life blooms like a rose, with petals soft and frail...",
+                    "text": "When this creature enters, you may search your library for a Picto card, reveal it, put it into your hand, then shuffle.\n{1}{U}, {T}: You may put a Picto card from your hand onto the battlefield.{flavor}“Finish my sentence in a wonderfully poetic way: Life blooms like a rose, with petals soft and frail...”",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
@@ -71891,7 +71898,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Vigilance{flavor}Do not be concerned for us. For we have faced every hardship imaginable.",
+                    "text": "Vigilance{flavor}“Do not be concerned for us. For we have faced every hardship imaginable.”",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
@@ -72225,7 +72232,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Vigilance\n{1}{W/U}, {T}: Tap target creature.{flavor}Contrary to what some believe, guard duty is quite rewarding. I find it meditative and instructional.",
+                    "text": "Vigilance\n{1}{W/U}, {T}: Tap target creature.{flavor}“Contrary to what some believe, guard duty is quite rewarding. I find it meditative and instructional.”",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
@@ -72865,7 +72872,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "When this creature enters and whenever it attacks, it explores. (Reveal the top card of your library. Put that card into your hand if it’s a land. Otherwise, put a +1/+1 counter on this creature, then put the card back or put it into your graveyard.){flavor}This pathway leads to the treacherous region of the mountains. If your destination is Old Lumière, you should leave via the other exit.",
+                    "text": "When this creature enters and whenever it attacks, it explores. (Reveal the top card of your library. Put that card into your hand if it’s a land. Otherwise, put a +1/+1 counter on this creature, then put the card back or put it into your graveyard.){flavor}“This pathway leads to the treacherous region of the mountains. If your destination is Old Lumière, you should leave via the other exit.”",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
@@ -73508,7 +73515,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Menace\nWhen this creature enters, target opponent reveals their hand. You choose a nonland card from it. That player discards that card.\nEvoke—Exile a black card from your hand.{flavor}Grief often blinds us. And we make choices we can never take back.\n- Sciel",
+                    "text": "Menace\nWhen this creature enters, target opponent reveals their hand. You choose a nonland card from it. That player discards that card.\nEvoke—Exile a black card from your hand.{flavor}“Grief often blinds us. And we make choices we can never take back.”\n—Sciel",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
@@ -74496,7 +74503,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Whenever Gustave becomes untapped, attacks or blocks, put a charge counter on him.\n{i}From Fire{/i} — {W}{R},{T}: Gustave deals 3 damage to target creature, you gain 3 life.\n{i}Strike Storm{/i} — {W}{R}: Gustave gains double-strike until end of turn, put two charge counters on him. Activate only once per turn.\n{i}Overcharge{/i} — {T}, Remove X charge counters from Gustave: Gustave deals X damage to target creature and that creature’s controller.{flavor}For those who come after.",
+                    "text": "Whenever Gustave becomes untapped, attacks or blocks, put a charge counter on him.\n{i}From Fire{/i} — {W}{R},{T}: Gustave deals 3 damage to target creature, you gain 3 life.\n{i}Strike Storm{/i} — {W}{R}: Gustave gains double-strike until end of turn, put two charge counters on him. Activate only once per turn.\n{i}Overcharge{/i} — {T}, Remove X charge counters from Gustave: Gustave deals X damage to target creature and that creature’s controller.{flavor}“For those who come after.”",
                     "x": 0.086,
                     "y": 0.6325515280739161,
                     "width": 0.828,
@@ -74791,7 +74798,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "When this enchantment enters, draw a card.\nWhenever a creature dies, create a Lumina token and you gain 1 life. (It’s an artifact with “{T}, Sacrifice this artifact: Scry 1.”){flavor}We could never tell if you were my brother or my father. But to me you were both. The best brother and father I’ve ever had.\n- Maelle",
+                    "text": "When this enchantment enters, draw a card.\nWhenever a creature dies, create a Lumina token and you gain 1 life. (It’s an artifact with “{T}, Sacrifice this artifact: Scry 1.”){flavor}“We could never tell if you were my brother or my father. But to me you were both. The best brother and father I’ve ever had.”\n—Maelle",
                     "x": 0.086,
                     "y": 0.6325515280739161,
                     "width": 0.828,
@@ -75086,7 +75093,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Gustave’s Insight has flash as long as you control an Expeditioner.\nLook at the top five cards of your library. Put two of them into your hand and the rest on the bottom of your library in any order.{flavor}Enjoying my uselessness of today and readying my usefulness for tomorrow.",
+                    "text": "Gustave’s Insight has flash as long as you control an Expeditioner.\nLook at the top five cards of your library. Put two of them into your hand and the rest on the bottom of your library in any order.{flavor}“Enjoying my uselessness of today and readying my usefulness for tomorrow.”",
                     "x": 0.086,
                     "y": 0.6325515280739161,
                     "width": 0.828,
@@ -75709,7 +75716,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "At the beginning of each upkeep, count the number of permanents. If the number is even, until end of turn, creatures you control get +1/+1.{flavor}Thank the Dessendres,“Whees” and “Whoos” are perfectly balanced, you did it!",
+                    "text": "At the beginning of each upkeep, count the number of permanents. If the number is even, until end of turn, creatures you control get +1/+1.{flavor}“Thank the Dessendres, Whees and Whoos are perfectly balanced, you did it!”",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
@@ -76302,7 +76309,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Each player gains twice X life.\n{i}Luminous{/i} — Put a shield counter on up to one target creature you control and draw a card if you control at least three Lumina tokens.{flavor}Please survive!",
+                    "text": "Each player gains twice X life.\n{i}Luminous{/i} — Put a shield counter on up to one target creature you control and draw a card if you control at least three Lumina tokens.{flavor}“Please survive!”\n—Maelle",
                     "x": 0.086,
                     "y": 0.6325515280739161,
                     "width": 0.828,
@@ -77493,7 +77500,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Exile target nonland permanent and put three time counters on it. If it doesn’t have suspend, it gains suspend. (At the beginning of its owner’s upkeep, they remove a time counter. When the last is removed, they may play it without paying its mana cost. If it’s a creature, it has haste.){flavor}Alicia: If we bring Maman out of the Canvas, she’ll try to return. We must hide the Canvas...\nClea: Well-reasoned. And such a... clever hiding spot you’ve chosen.",
+                    "text": "Exile target nonland permanent and put three time counters on it. If it doesn’t have suspend, it gains suspend. (At the beginning of its owner’s upkeep, they remove a time counter. When the last is removed, they may play it without paying its mana cost. If it’s a creature, it has haste.){flavor}“If we bring Maman out of the Canvas, she’ll try to return. We must hide the Canvas...” remarked Alicia. “Well-reasoned. And such a... clever hiding spot you’ve chosen.” replied an impressed Clea.",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
@@ -81765,11 +81772,11 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "When Letter from Alicia enters, scry 2.\nWhen Letter from Alicia is put into a graveyard from the battlefield, creatures can’t attack this turn.\n{2}, Sacrifice Letter from Alicia: Draw a card.{flavor}Brother, I tire of the conflicts and deceptions that plague our family and theirs. So I entrust you with this letter. Whether you give it to her is up to you.",
+                    "text": "When Letter from Alicia enters, scry 2.\nWhen Letter from Alicia is put into a graveyard from the battlefield, creatures can’t attack this turn.\n{2}, Sacrifice Letter from Alicia: Draw a card.{flavor}“Brother, I tire of the conflicts and deceptions that plague our family and theirs. So I entrust you with this letter. Whether you give it to her is up to you.”\n—Alicia",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
-                    "height": 0.27398720682302774,
+                    "height": 0.2874911158493248,
                     "size": 0.0362
                 },
                 "pt": {
@@ -83062,7 +83069,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Lightning Dance deals 1 damage to any target, 2 damage to another target, and 3 damage to a third target.\n{i}Luminous{/i} — Draw a card if you control at least three Lumina tokens.{flavor}Feel the storm!",
+                    "text": "Lightning Dance deals 1 damage to any target, 2 damage to another target, and 3 damage to a third target.\n{i}Luminous{/i} — Draw a card if you control at least three Lumina tokens.{flavor}“Feel the storm!”",
                     "x": 0.086,
                     "y": 0.6325515280739161,
                     "width": 0.828,
@@ -83390,7 +83397,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "{2}, {T}: Target creature you control fights another target creature. (Each deals damage equal to its power to the other.){flavor}Did I mention the prize is a powerful weapon? So, how about it?",
+                    "text": "{2}, {T}: Target creature you control fights another target creature. (Each deals damage equal to its power to the other.){flavor}“Did I mention the prize is a powerful weapon? So, how about it?”",
                     "x": 0.086,
                     "y": 0.6325515280739161,
                     "width": 0.8263681592039801,
@@ -83978,7 +83985,7 @@
                 },
                 "rules": {
                     "name": "Rules Text (Left)",
-                    "text": "Put target nonland permanent on the bottom of its owner’s library.{flavor}Mmm. Yeah. I get sad too, when I lose my stones.",
+                    "text": "Put target nonland permanent on the bottom of its owner’s library.{flavor}“Mmm. Yeah. I get sad too, when I lose my stones.”",
                     "x": 0.6087,
                     "y": 0.8896,
                     "width": 0.5174,
@@ -84041,7 +84048,7 @@
                 },
                 "rules2": {
                     "name": "Rules Text (Right)",
-                    "text": "Return target artifact card from your graveyard to your hand.{flavor}But I always find them again. You will find them again too.",
+                    "text": "Return target artifact card from your graveyard to your hand.{flavor}“But I always find them again. You will find them again too.”",
                     "x": 0.6087,
                     "y": 0.4334,
                     "width": 0.5174,
@@ -84667,11 +84674,11 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "When this artifact enters, create a Lumina token.\n{T}, Remove a counter from a permanent you control: Create a Lumina token.\n{T}, Sacrifice a Chroma token: Create a Lumina token.\n{T}, Sacrifice a Nevron: Create a Lumina token.{flavor}Let’s see if your invention lives up to its reputation, shall we?\n- Lune",
+                    "text": "When this artifact enters, create a Lumina token.\n{T}, Remove a counter from a permanent you control: Create a Lumina token.\n{T}, Sacrifice a Chroma token: Create a Lumina token.\n{T}, Sacrifice a Nevron: Create a Lumina token.{flavor}“Let’s see if your invention lives up to its reputation, shall we?”\n—Lune",
                     "x": 0.086,
                     "y": 0.6325515280739161,
                     "width": 0.828,
-                    "height": 0.28429282160625446,
+                    "height": 0.2874911158493248,
                     "size": 0.0362
                 },
                 "pt": {
@@ -85822,11 +85829,11 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "This artifact enters with three stock counters.\n{1}, Remove a stock counter from this artifact, {T}: Create a Flower token (It’s an artifact with “{T}, Sacrifice this artifact: Add {U}, {R} or {G}.”)\n{3}, {T}: Put a stock counter on this artifact{flavor}Sophie: Looks like you still have a lot of flowers left.\nTiffanie: Well, there are less and less people to buy them. I just wish you didn’t have to wear one.",
+                    "text": "This artifact enters with three stock counters.\n{1}, Remove a stock counter from this artifact, {T}: Create a Flower token (It’s an artifact with “{T}, Sacrifice this artifact: Add {U}, {R} or {G}.”)\n{3}, {T}: Put a stock counter on this artifact{flavor}“Looks like you still have a lot of flowers left.” remarked Sophie. “Well, there are less and less people to buy them. I just wish you didn’t have to wear one.” replied Tiffanie.",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
-                    "height": 0.27398720682302774,
+                    "height": 0.2874911158493248,
                     "size": 0.0362
                 },
                 "pt": {
@@ -86117,11 +86124,11 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "At the beginning of your upkeep, you may put a verse counter on this land.\n{T}: Add {C}.\n{T}, Remove two verse counters from this land: Expeditioner creatures you control get +1/+1 until end of turn.{flavor}Maybe when this is over, we can fix up the opera house and you can perform for us. I want my first concert to be yours. And don’t worry, I’ll make sure the room is packed. I’ll put up posters everywhere in town.\n- Maelle",
+                    "text": "At the beginning of your upkeep, you may put a verse counter on this land.\n{T}: Add {C}.\n{T}, Remove two verse counters from this land: Expeditioner creatures you control get +1/+1 until end of turn.{flavor}“Maybe when this is over, we can fix up the opera house and you can perform for us. I want my first concert to be yours. And don’t worry, I’ll make sure the room is packed. I’ll put up posters everywhere in town.”\n—Maelle",
                     "x": 0.086,
                     "y": 0.6325515280739161,
                     "width": 0.828,
-                    "height": 0.27149964463397297,
+                    "height": 0.2874911158493248,
                     "size": 0.0362
                 },
                 "pt": {
@@ -87319,7 +87326,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Lune can’t have more than four stain counters on her.\nWhenever you cast an instant or sorcery spell, draw a card and put a stain counter on Lune for each of that spell’s colors.\n{i}Tree of Life{/i} — {W}{G}, {T}, Remove a stain counter from Lune: Return target nonland, noncreature card from your graveyard to your hand. You gain 3 life.\n{i}Rebirth{/i} — {1}{W}, {T}, Remove two stain counters from Lune: Return target creature card with mana value 4 or less from your graveyard onto the battlefield.\n{i}Elemental Genesis{/i} — {T}, Remove four stain counters from Lune: Lune deals 4 damage to each of up to two targets.{flavor}As long as even one of us stands, our fight is not over.",
+                    "text": "Lune can’t have more than four stain counters on her.\nWhenever you cast an instant or sorcery spell, draw a card and put a stain counter on Lune for each of that spell’s colors.\n{i}Tree of Life{/i} — {W}{G}, {T}, Remove a stain counter from Lune: Return target nonland, noncreature card from your graveyard to your hand. You gain 3 life.\n{i}Rebirth{/i} — {1}{W}, {T}, Remove two stain counters from Lune: Return target creature card with mana value 4 or less from your graveyard onto the battlefield.\n{i}Elemental Genesis{/i} — {T}, Remove four stain counters from Lune: Lune deals 4 damage to each of up to two targets.{flavor}“As long as even one of us stands, our fight is not over.”",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
@@ -87614,7 +87621,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Enchant Creature.\nWhenever enchanted creature deals damage to an opponent, choose one —\n• Draw a card\n• Create a Lumina token\n• Create a Chroma token{flavor}Do you heal from the top or the bottom? Or do you have to bring the halves together? Hey, can you control the process?",
+                    "text": "Enchant Creature.\nWhenever enchanted creature deals damage to an opponent, choose one —\n• Draw a card\n• Create a Lumina token\n• Create a Chroma token{flavor}“Do you heal from the top or the bottom? Or do you have to bring the halves together? Hey, can you control the process?”",
                     "x": 0.086,
                     "y": 0.6325515280739161,
                     "width": 0.828,
@@ -87909,7 +87916,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "You may sacrifice two Lumina tokens rather than pay this spell’s mana cost.\nCounter target spell unless its controller pays {2}.{flavor}Not today!",
+                    "text": "You may sacrifice two Lumina tokens rather than pay this spell’s mana cost.\nCounter target spell unless its controller pays {2}.{flavor}“Not today!”",
                     "x": 0.086,
                     "y": 0.6325515280739161,
                     "width": 0.828,
@@ -89509,7 +89516,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Target opponent reveals their hand. You choose either an Expeditioner card or a noncreature, nonland card from it. That player discards that card.{flavor}What are you talking about?\nWhat’s my fault?!\nWhat is this?!",
+                    "text": "Target opponent reveals their hand. You choose either an Expeditioner card or a noncreature, nonland card from it. That player discards that card.{flavor}“What are you talking about?”\n“What’s my fault?!”\n“What is this?!”",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
@@ -90104,7 +90111,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "{T}: Add {C}.\n{2}, {T}: Lock or unlock a door of target Room you control. Activate only as a sorcery.{flavor}Someone lives here.\n- Lune",
+                    "text": "{T}: Add {C}.\n{2}, {T}: Lock or unlock a door of target Room you control. Activate only as a sorcery.{flavor}“Someone lives here.”\n—Lune",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
@@ -90723,7 +90730,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Choose one —\n• Manor Fire deals 1 damage to each creature.\n• Destroy target nonbasic land.\n• Destroy all Rooms.\nDraw a card.{flavor}You’re ok.",
+                    "text": "Choose one —\n• Manor Fire deals 1 damage to each creature.\n• Destroy target nonbasic land.\n• Destroy all Rooms.\nDraw a card.{flavor}“You’re ok.”",
                     "x": 0.086,
                     "y": 0.6325515280739161,
                     "width": 0.828,
@@ -92769,7 +92776,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Ward {3}\nMask Keeper enters with an anger counter, a joy counter and a sadness counter.\nAt the beginning of your upkeep, put an anger, joy or sadness counter on him.\n{i}Anger mask{/i} — Remove an anger counter from Mask Keeper: Untap him.\n{i}Joy mask{/i} — Remove a joy counter from Mask Keeper: Mask Keeper gains lifelink until end of turn.\n{i}Sadness mask{/i} — Remove a sadness counter from Mask Keeper: Put a stun counter on target creature.{flavor}We all need masks.",
+                    "text": "Ward {3}\nMask Keeper enters with an anger counter, a joy counter and a sadness counter.\nAt the beginning of your upkeep, put an anger, joy or sadness counter on him.\n{i}Anger mask{/i} — Remove an anger counter from Mask Keeper: Untap him.\n{i}Joy mask{/i} — Remove a joy counter from Mask Keeper: Mask Keeper gains lifelink until end of turn.\n{i}Sadness mask{/i} — Remove a sadness counter from Mask Keeper: Put a stun counter on target creature.{flavor}“We all need masks.”",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
@@ -93067,7 +93074,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Whenever equipped creature deals combat damage to a player, you may draw two cards. If you do, discard a card.\nEquip {1} {i}({1}: Attach to target creature you control. Equip only as a sorcery.){/i}{flavor}This mask can’t hurt me. Because it is me.\n- Sciel",
+                    "text": "Whenever equipped creature deals combat damage to a player, you may draw two cards. If you do, discard a card.\nEquip {1} {i}({1}: Attach to target creature you control. Equip only as a sorcery.){/i}{flavor}“This mask can’t hurt me. Because it is me.”\n—Sciel",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
@@ -93364,7 +93371,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "All non-Nevron, non-Painter creatures get -2/-2 until end of turn.\nCycling {2} ({2}, Discard this card: Draw a card.){flavor}“You- You’re old. How did you-\nHow did you survive the Gommage?\nWhich expedition are you fr-”",
+                    "text": "All non-Nevron, non-Painter creatures get -2/-2 until end of turn.\nCycling {2} ({2}, Discard this card: Draw a card.){flavor}“You- You’re old. How did you-\nHow did you survive the Gommage?\nWhich expedition are you fr-”\n—Alan, last words",
                     "x": 0.086,
                     "y": 0.6325515280739161,
                     "width": 0.828,
@@ -94647,7 +94654,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "{2}: This artifact becomes a copy of target artifact, creature, enchantment, or land until end of turn.{flavor}Art can be a Window and art can be a Mirror. And great art. Great art is both. Son, you’ll never be a true artist if there’s always a mask between you and the viewer, especially when the viewer is you...",
+                    "text": "{2}: This artifact becomes a copy of target artifact, creature, enchantment, or land until end of turn.{flavor}“Art can be a Window and art can be a Mirror. And great art. Great art is both. Son, you’ll never be a true artist if there’s always a mask between you and the viewer, especially when the viewer is you...”",
                     "x": 0.086,
                     "y": 0.6325515280739161,
                     "width": 0.828,
@@ -95281,7 +95288,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Look at the top three cards of your library. Put one of them into your hand and the rest into your graveyard.\nFlashback—{1}{B}, Pay 4 life. (You may cast this card from your graveyard for its flashback cost. Then exile it.){flavor}Maelle: That was- I saw-\nSciel: What happened?\nMaelle: I saw- I saw... It was... Renoir?",
+                    "text": "Look at the top three cards of your library. Put one of them into your hand and the rest into your graveyard.\nFlashback—{1}{B}, Pay 4 life. (You may cast this card from your graveyard for its flashback cost. Then exile it.){flavor}“That was- I saw-” said a shocked Maelle.\n“What happened?” asked Sciel.\n“I saw- I saw... It was... Renoir?” replied Maelle.",
                     "x": 0.086,
                     "y": 0.6325515280739161,
                     "width": 0.828,
@@ -95949,11 +95956,11 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "{T}: Add {C}.\n{T}: Add {U} or {R}. Activate this ability only if you control a Gestral or Grandis.{flavor}The Grandis have embraced us with such warmth and hope. What a balm for the soul to know that other beings survived, that we in Lumière are not alone! It truly is a miracle.\n- Aurelien, Expedition 65",
+                    "text": "{T}: Add {C}.\n{T}: Add {U} or {R}. Activate this ability only if you control a Gestral or Grandis.{flavor}“The Grandis have embraced us with such warmth and hope. What a balm for the soul to know that other beings survived, that we in Lumière are not alone! It truly is a miracle.”\n—Aurelien, Expedition 65",
                     "x": 0.086,
                     "y": 0.6325515280739161,
                     "width": 0.828,
-                    "height": 0.27149964463397297,
+                    "height": 0.2874911158493248,
                     "size": 0.0362
                 },
                 "pt": {
@@ -96278,7 +96285,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Whenever Monsieur Frappe is blocked, tap all creatures blocking him. Prevent all combat damage that would be dealt this turn by Monsieur Frappe and each creature blocking it.{flavor}Try to counter this, worm.",
+                    "text": "Whenever Monsieur Frappe is blocked, tap all creatures blocking him. Prevent all combat damage that would be dealt this turn by Monsieur Frappe and each creature blocking it.{flavor}“Try to counter this, worm.”",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
@@ -96604,7 +96611,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Destroy target creature or enchantment.{flavor}My sweet child, you were supposed to stay at home. I told you not to worry. But since you are here now, just stay put.\n- Unknown Man",
+                    "text": "Destroy target creature or enchantment.{flavor}“My sweet child, you were supposed to stay at home. I told you not to worry. But since you are here now, just stay put.”\n—Unknown Man",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
@@ -97121,7 +97128,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "{i}Mutiny!{/i} — Whenever another Expeditioner creature you control dies, target opponent gains control of this creature.\nWhen this creature dies, create a Chroma token.{flavor}It’s a gutting realization, what has to be done. The mission is too important. The team is too important. We can’t just throw our lives away for nothing. I hate that it came to this, but he broke our trust.\n- Vincent, Expedition 48",
+                    "text": "{i}Mutiny!{/i} — Whenever another Expeditioner creature you control dies, target opponent gains control of this creature.\nWhen this creature dies, create a Chroma token.{flavor}“It’s a gutting realization, what has to be done. The mission is too important. The team is too important. We can’t just throw our lives away for nothing. I hate that it came to this, but he broke our trust.”\n—Vincent, Expedition 48",
                     "x": 0.086,
                     "y": 0.6325515280739161,
                     "width": 0.828,
@@ -97660,7 +97667,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "All creature cards on the battlefield, graveyard and libraries are Nevrons in addition to their existing types.\n{1}, Sacrifice this enchantment: Draw a card.{flavor}The idea was we’d only have to fool the first one. Then Jules can wear its carcass to trap the next, and so on, until we all have proper cover. But disguising ourselves as Nevrons has proven to be extremely ineffective, to say the least. Maybe they recognize each other by their chroma?\n- Nicolas, Expedition 44",
+                    "text": "All creature cards on the battlefield, graveyard and libraries are Nevrons in addition to their existing types.\n{1}, Sacrifice this enchantment: Draw a card.{flavor}“The idea was we’d only have to fool the first one. Then Jules can wear its carcass to trap the next, and so on, until we all have proper cover. But disguising ourselves as Nevrons has proven to be extremely ineffective, to say the least. Maybe they recognize each other by their chroma?”\n—Nicolas, Expedition 44",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
@@ -98572,7 +98579,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "{T}, Sacrifice a Chroma token: Draw a card.\nWhen this creature dies, create a Chroma token.{flavor}I know, how about showing me a dance of love and sorrow? I am also the official painter of the Opera. Will you help me? If you inspire me, you may become the main painting of Lumière’s Opera.",
+                    "text": "{T}, Sacrifice a Chroma token: Draw a card.\nWhen this creature dies, create a Chroma token.{flavor}“I know, how about showing me a dance of love and sorrow? I am also the official painter of the Opera. Will you help me? If you inspire me, you may become the main painting of Lumière’s Opera.”",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
@@ -98900,7 +98907,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "When Noco enters or dies, draw a card, then discard a card from your hand.{flavor}Intruders! Oh, Verso would not be pleased. En garde, ruffians!",
+                    "text": "When Noco enters or dies, draw a card, then discard a card from your hand.{flavor}“Intruders! Oh, Verso would not be pleased. En garde, ruffians!”",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
@@ -100169,7 +100176,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Whenever Ono-Puncho is dealt damage, return it to its owner’s hand.{flavor}But remember, once you hit me, the battle’s over, so make it count!",
+                    "text": "Whenever Ono-Puncho is dealt damage, return it to its owner’s hand.{flavor}“But remember, once you hit me, the battle’s over, so make it count!”",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
@@ -100497,7 +100504,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "{T}: Create a Flower token. (It’s an artifact with “{T}, Sacrifice this artifact: Add {U}, {R} or {G}.”)\nWhen this creature dies, create a Chroma token.{flavor}Hi Gustave. You’re back. Did you want to pick out a different flower?",
+                    "text": "{T}: Create a Flower token. (It’s an artifact with “{T}, Sacrifice this artifact: Add {U}, {R} or {G}.”)\nWhen this creature dies, create a Chroma token.{flavor}“Hi Gustave. You’re back. Did you want to pick out a different flower?”",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
@@ -101090,7 +101097,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Trample\n{i}Summons his little friends{/i} — {2}{B}{B}, {T}: Create three 0/1 black Toy artifact creature tokens named Osquio’s Mask with Flying and “Sacrifice this creature: It deals 1 damage to any target. You gain 1 life.“\n{i}Time for a spin spin{/i} — When Osquio dies, return it to the battlefield transformed under it’s owner’s control.{flavor}WARRIORS OF LEGEND! Prepare. For. Annihilation!",
+                    "text": "Trample\n{i}Summons his little friends{/i} — {2}{B}{B}, {T}: Create three 0/1 black Toy artifact creature tokens named Osquio’s Mask with Flying and “Sacrifice this creature: It deals 1 damage to any target. You gain 1 life.“\n{i}Time for a spin spin{/i} — When Osquio dies, return it to the battlefield transformed under it’s owner’s control.{flavor}“WARRIORS OF LEGEND! Prepare. For. Annihilation!”",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.8208955223880597,
@@ -101421,7 +101428,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Whenever Osquio deals damage to a creature, create a blue Aura enchantment token named Barbapapa attached to that creature. The token has enchant creature and “Enchanted creature has base power 1. When enchanted creature deals combat damage, sacrifice this Aura.”\nWhenever a creature dies, untap Osquio.\n{i}Goes pew pew pew{/i} — {R}, {T}: Osquio deals 2 damage to any target.\n{i}Decides to destroy the world. Bye bye{/i} — When Osquio dies, destroy all permanents unless a player pays {6}.{flavor}Prepare to be HUGGED.",
+                    "text": "Whenever Osquio deals damage to a creature, create a blue Aura enchantment token named Barbapapa attached to that creature. The token has enchant creature and “Enchanted creature has base power 1. When enchanted creature deals combat damage, sacrifice this Aura.”\nWhenever a creature dies, untap Osquio.\n{i}Goes pew pew pew{/i} — {R}, {T}: Osquio deals 2 damage to any target.\n{i}Decides to destroy the world. Bye bye{/i} — When Osquio dies, destroy all permanents unless a player pays {6}.{flavor}“Prepare to be HUGGED.”",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
@@ -101982,12 +101989,13 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "{i}Landfall{/i} — Whenever a land you control enters, create a Flower token. (It’s an artifact with “{T}, Sacrifice this artifact: Add {U}, {R} or {G}.”)\nWhen this creature dies, create a Chroma token.{flavor}The Outdome teams brought back loads of new plants from the surrounding islands. That’s how I actually met Pierre. I asked his team for honeypetal samples. He brought me a bouquet of them, and 15 boxes of plant cuttings.\n- Sciel",
+                    "text": "{i}Landfall{/i} — Whenever a land you control enters, create a Flower token. (It’s an artifact with “{T}, Sacrifice this artifact: Add {U}, {R} or {G}.”)\nWhen this creature dies, create a Chroma token.{flavor}“The Outdome teams brought back loads of new plants from the surrounding islands. That’s how I actually met Pierre. I asked his team for honeypetal samples. He brought me a bouquet of them, and 15 boxes of plant cuttings.”\n—Sciel",
                     "x": 0.086,
                     "y": 0.6325515280739161,
                     "width": 0.828,
                     "height": 0.2875,
-                    "size": 0.0362
+                    "size": 0.0362,
+                    "fontSize": ""
                 },
                 "pt": {
                     "name": "Power/Toughness",
@@ -102583,7 +102591,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Defender.\nWhen this creature enters, draw a card.\nWhen this creature dies, choose one —\n• Create a Chroma token.\n• Create a Lumina token.{flavor}There must be some good loot behind there!",
+                    "text": "Defender.\nWhen this creature enters, draw a card.\nWhen this creature dies, choose one —\n• Create a Chroma token.\n• Create a Lumina token.{flavor}“There must be some good loot behind there!”",
                     "x": 0.086,
                     "y": 0.6325515280739161,
                     "width": 0.828,
@@ -103254,7 +103262,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "{T}: Add {C}.\n{1}, {T}: Add one mana of any color.{flavor}We painted hundreds of Canvas worlds, pushing the very boundaries of creation. And she never let me forget that every day we spend here has a price.\n- Renoir",
+                    "text": "{T}: Add {C}.\n{1}, {T}: Add one mana of any color.{flavor}“We painted hundreds of Canvas worlds, pushing the very boundaries of creation. And she never let me forget that every day we spend here has a price.”\n—Renoir",
                     "x": 0.086,
                     "y": 0.6325515280739161,
                     "width": 0.828,
@@ -103628,7 +103636,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Nevron spells you cast cost {1} less to cast.\nNevron creatures you control get +1/+1.\nAt the beginning of your upkeep, create a 1/1 colorless Nevron creature token.\nSacrifice a Nevron: Draw a card.{flavor}Verso: What happened to her?\nMaelle: I bet Clea hated Maman’s portrait of her. So she painted over her.",
+                    "text": "Nevron spells you cast cost {1} less to cast.\nNevron creatures you control get +1/+1.\nAt the beginning of your upkeep, create a 1/1 colorless Nevron creature token.\nSacrifice a Nevron: Draw a card.{flavor}“What happened to her?” asked Verso. “I bet Clea hated Maman’s portrait of her. So she painted over her.” replied Maelle.",
                     "x": 0.086,
                     "y": 0.6325515280739161,
                     "width": 0.828,
@@ -103957,7 +103965,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Fear\nAt the beginning of your upkeep, create a Chroma token.\n{i}Summons Dark Beast{/i} — When Painted Renoir enters and at the beginning of your upkeep, you may create Dark Chromatic Beast, a legendary 4/4 black Nevron Beast creature with Trample and Lifelink.\nPainted Renoir has indestructible as long as you control a token named Dark Chromatic Beast.\n{i}Sends waves of Chroma{/i} — {B}{B}, {T}, Sacrifice X Chromas: Up to two target creatures each get -X/-X until end of turn.{flavor}I love them too.",
+                    "text": "Fear\nAt the beginning of your upkeep, create a Chroma token.\n{i}Summons Dark Beast{/i} — When Painted Renoir enters and at the beginning of your upkeep, you may create Dark Chromatic Beast, a legendary 4/4 black Nevron Beast creature with Trample and Lifelink.\nPainted Renoir has indestructible as long as you control a token named Dark Chromatic Beast.\n{i}Sends waves of Chroma{/i} — {B}{B}, {T}, Sacrifice X Chromas: Up to two target creatures each get -X/-X until end of turn.{flavor}“I love them too.”",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
@@ -105099,7 +105107,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Exile target creature. Its controller may search their library for a basic land card, put that card onto the battlefield tapped, then shuffle.{flavor}Burying everyone you know while you live on... Can wear you down a bit.\n- Verso",
+                    "text": "Exile target creature. Its controller may search their library for a basic land card, put that card onto the battlefield tapped, then shuffle.{flavor}“Burying everyone you know while you live on... Can wear you down a bit.”\n—Verso",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
@@ -105396,7 +105404,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Payback deals 5 damage divided as you choose among any number of target attacking or blocking creatures.\nCreate a Lumina token. (It’s an artifact with “{T}, Sacrifice this artifact: Scry 1.”){flavor}Let’s dance!\n- Maelle",
+                    "text": "Payback deals 5 damage divided as you choose among any number of target attacking or blocking creatures.\nCreate a Lumina token. (It’s an artifact with “{T}, Sacrifice this artifact: Scry 1.”){flavor}“Let’s dance!”",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
@@ -105421,7 +105429,12 @@
             "infoSet": "E33",
             "infoLanguage": "EN",
             "infoArtist": "Sandfall Interactive",
-            "infoNote": "Proxy, Not for Sale"
+            "infoNote": "Proxy, Not for Sale",
+            "serialNumber": "",
+            "serialTotal": "",
+            "serialX": "",
+            "serialY": "",
+            "serialScale": ""
         }
     },
     {
@@ -106560,7 +106573,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Gain control of target creature until end of turn. Untap that creature. It gains haste until end of turn.\nCreate a Lumina token.{flavor}Monoco: I will never join you again.\nVerso: There will be a lot of fighting though.\nMonoco: Oh yeah, that’s true.\nVerso: Yeah, it’s true.\nMonoco: There will be a lot of fighting.\nVerso: Exactly.\nMonoco: Count me in then.",
+                    "text": "Gain control of target creature until end of turn. Untap that creature. It gains haste until end of turn.\nCreate a Lumina token.{flavor}Monoco: “I will never join you again.”\nVerso: “There will be a lot of fighting though.”\nMonoco: “Oh yeah, that’s true.”\nVerso: “Yeah, it’s true.”\nMonoco: “There will be a lot of fighting.”\nVerso: “Exactly.”\nMonoco: “Count me in then.”",
                     "x": 0.086,
                     "y": 0.6325515280739161,
                     "width": 0.828,
@@ -108548,7 +108561,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "At the beginning of your upkeep, draw a card if you control a creature with the greatest power among creatures on the battlefield. Otherwise, put a +1/+1 counter on a creature you control.{flavor}Sciel: I know they’re Nevrons, but... witnessing the sorrow of others... I can’t help but feel for them.\nMonoco: A noble but tremendously fatal impulse",
+                    "text": "At the beginning of your upkeep, draw a card if you control a creature with the greatest power among creatures on the battlefield. Otherwise, put a +1/+1 counter on a creature you control.{flavor}“I know they’re Nevrons, but... witnessing the sorrow of others... I can’t help but feel for them.” remarked Sciel. “A noble but tremendously fatal impulse” replied Monoco.",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
@@ -111558,7 +111571,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "This land enters tapped.\n{T}: Add {B}.\n{2}{B}{B}{B}, {T}, Exile this land: Mill four cards, then return a Nevron or Painter creature card from your graveyard to the battlefield. Activate only as a sorcery.{flavor}But it seems we’ve been wrong about what she is. The Paintress is just as trapped as we. The real terror lies beneath The Monolith.\n- William, Expedition 60",
+                    "text": "This land enters tapped.\n{T}: Add {B}.\n{2}{B}{B}{B}, {T}, Exile this land: Mill four cards, then return a Nevron or Painter creature card from your graveyard to the battlefield. Activate only as a sorcery.{flavor}“But it seems we’ve been wrong about what she is. The Paintress is just as trapped as we. The real terror lies beneath The Monolith.”\n—William, Expedition 60",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
@@ -111855,7 +111868,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Until end of turn, you may play lands and cast Nevron or Gradient spells from your graveyard.\nIf a card would be put into your graveyard from anywhere this turn, exile that card instead.{flavor}67 years. 67 years I spent trapped within the Monolith. But I persisted. I persisted. Do you know why? Do you know why I CANNOT leave her or you behind? This is what I see every day. I cannot spend another day with living corpses.\n- Renoir",
+                    "text": "Until end of turn, you may play lands and cast Nevron or Gradient spells from your graveyard.\nIf a card would be put into your graveyard from anywhere this turn, exile that card instead.{flavor}“67 years. 67 years I spent trapped within the Monolith. But I persisted. I persisted. Do you know why? Do you know why I CANNOT leave her or you behind? This is what I see every day. I cannot spend another day with living corpses.”",
                     "x": 0.086,
                     "y": 0.6325515280739161,
                     "width": 0.828,
@@ -112105,7 +112118,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "As an additional cost to cast this spell, sacrifice three Chroma tokens.\nReturn target card you own from exile to your hand.{flavor}Painting isn’t about verisimilitude, it’s about essence. The truth of who they are.\n- Verso",
+                    "text": "As an additional cost to cast this spell, sacrifice three Chroma tokens.\nReturn target card you own from exile to your hand.{flavor}“Painting isn’t about verisimilitude, it’s about essence. The truth of who they are.”\n—Verso",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
@@ -112695,7 +112708,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "{1}, {T}, Sacrifice this artifact: Return target creature card from your graveyard to your hand.\n{i}Luminous{/i} — {3}, {T}, Sacrifice this artifact: Return target creature card from your graveyard to the battlefield tapped. Activate this ability only if you control at least three Lumina tokens.{flavor}You don’t get to die yet.\n- Lune",
+                    "text": "{1}, {T}, Sacrifice this artifact: Return target creature card from your graveyard to your hand.\n{i}Luminous{/i} — {3}, {T}, Sacrifice this artifact: Return target creature card from your graveyard to the battlefield tapped. Activate this ability only if you control at least three Lumina tokens.{flavor}“You don’t get to die yet.”\n—Lune",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
@@ -113302,7 +113315,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "{T}: Add {C}.\n{1}, {T}: Tap target land.{flavor}I’ve always loved the harbor.\n- Sophie",
+                    "text": "{T}: Add {C}.\n{1}, {T}: Tap target land.{flavor}“I’ve always loved the harbor.”\n—Sophie",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
@@ -114223,7 +114236,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Kicker — {2}, Tap an untapped creature you control.\nRock Throw deals 2 damage to target creature. If this spell was kicked, Rock Throw deals 4 damage instead.{flavor}Have you tried throwing with your other arm instead? If you could hit the Paintress directly that would be useful.\n- Maelle",
+                    "text": "Kicker — {2}, Tap an untapped creature you control.\nRock Throw deals 2 damage to target creature. If this spell was kicked, Rock Throw deals 4 damage instead.{flavor}“Have you tried throwing with your other arm instead? If you could hit the Paintress directly that would be useful.”\n—Maelle",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
@@ -114551,7 +114564,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "When Romanifo enters, create a colorless Equipment artifact token named Romanifo’s Balloon with “Equipped creature has flying” and equip {2}.\nRomanifo has indestructible as long as you control a token named Romanifo’s Balloon.{flavor}Some mean brushes here would say it’s fun to pop balloons. They’re MY balloons. Don’t touch them.",
+                    "text": "When Romanifo enters, create a colorless Equipment artifact token named Romanifo’s Balloon with “Equipped creature has flying” and equip {2}.\nRomanifo has indestructible as long as you control a token named Romanifo’s Balloon.{flavor}“Some mean brushes here would say it’s fun to pop balloons. They’re MY balloons. Don’t touch them.”",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
@@ -115724,7 +115737,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "When Sastro enters, put two 1/1 Gestral artifact creature tokens into play.\n{2}, {T}: Put a shield counter on another target Gestral you control.\nWhenever another nontoken Gestral creature you control enters, create a Chroma token.{flavor}I sure love being irresponsible!",
+                    "text": "When Sastro enters, put two 1/1 Gestral artifact creature tokens into play.\n{2}, {T}: Put a shield counter on another target Gestral you control.\nWhenever another nontoken Gestral creature you control enters, create a Chroma token.{flavor}“I sure love being irresponsible!”",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
@@ -116097,7 +116110,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Each nonland card in your hand without foretell has foretell. Its foretell cost is equal to its mana cost reduced by {2}.\nWhenever you foretell a card, you gain 2 life.\n{i}Twilight Slash{/i} - {W}{B},{T}: Sciel deals 2 damage to target creature, you gain 2 life.\n{i}Intervention{/i} - {W}{W},{T}: Untap target creature. Create a Chroma token.\n{i}Our Sacrifice{/i} - {1}{B}{B}, {T}, Pay X life: Up to two target creatures each get -X/-X until end of turn.{flavor}Death is a friend who will welcome me home",
+                    "text": "Each nonland card in your hand without foretell has foretell. Its foretell cost is equal to its mana cost reduced by {2}.\nWhenever you foretell a card, you gain 2 life.\n{i}Twilight Slash{/i} - {W}{B},{T}: Sciel deals 2 damage to target creature, you gain 2 life.\n{i}Intervention{/i} - {W}{W},{T}: Untap target creature. Create a Chroma token.\n{i}Our Sacrifice{/i} - {1}{B}{B}, {T}, Pay X life: Up to two target creatures each get -X/-X until end of turn.{flavor}“Death is a friend who will welcome me home”",
                     "x": 0.086,
                     "y": 0.6325515280739161,
                     "width": 0.828,
@@ -116392,7 +116405,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Untap target creature you control. It gains hexproof until end of turn.\n{i}Luminous{/i} — Draw a card if you control at least three Lumina tokens.\nForetell {W} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.){flavor}Your turn to shine!",
+                    "text": "Untap target creature you control. It gains hexproof until end of turn.\n{i}Luminous{/i} — Draw a card if you control at least three Lumina tokens.\nForetell {W} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.){flavor}“Your turn to shine!”",
                     "x": 0.086,
                     "y": 0.6325515280739161,
                     "width": 0.828,
@@ -117339,7 +117352,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Exile target attacking creature.\nDraw a card.{flavor}You do that, we both die.\n- Lune",
+                    "text": "Exile target attacking creature.\nDraw a card.{flavor}“You do that, we both die.”\n—Lune",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
@@ -119597,7 +119610,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Destroy each artifact with mana value X or less if {R} was spent on this spell.\nDestroy each enchantment with mana value X or less if {G} was spent on this spell.{flavor}Cathartic.\n- Sciel",
+                    "text": "Destroy each artifact with mana value X or less if {R} was spent on this spell.\nDestroy each enchantment with mana value X or less if {G} was spent on this spell.{flavor}“Cathartic.”\n—Sciel",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
@@ -119925,7 +119938,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "At the beginning of your upkeep, create a 1/1 colorless Nevron creature token for each Shrine you control.{flavor}Gustave: The Paintress destroyed our world. And someone built her a shrine?\nLune: The weak-minded turn to whatever they can to explain the unknown.\nSciel: When you’re at the mercy of a power you don’t understand, you might try anything.",
+                    "text": "At the beginning of your upkeep, create a 1/1 colorless Nevron creature token for each Shrine you control.{flavor}Gustave: “The Paintress destroyed our world. And someone built her a shrine?”\nLune: “The weak-minded turn to whatever they can to explain the unknown.”\nSciel: “When you’re at the mercy of a power you don’t understand, you might try anything.”",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
@@ -120220,7 +120233,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Flash\nAs this enchantment enters, choose a creature type.\n{W}, Tap an untapped creature you control of the chosen type: Prevent all damage that would be dealt to another target creature of the chosen type this turn.{flavor}We are her guardians, not her jailers.\n- Emma",
+                    "text": "Flash\nAs this enchantment enters, choose a creature type.\n{W}, Tap an untapped creature you control of the chosen type: Prevent all damage that would be dealt to another target creature of the chosen type this turn.{flavor}“We are her guardians, not her jailers.”\n—Emma",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
@@ -121173,7 +121186,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Until end of turn, target creature gains “When this creature dies, return it to the battlefield tapped under its owner’s control with a +1/+1 counter on it.”{flavor}My love. These foes are beneath you. You, who have fought heaven and earth... And subdued giants... To find me. To free me from her grasp. Would you fall now to the likes of them? While your oath remains unfulfilled? Rise. Your enemies await.\n- Clea",
+                    "text": "Until end of turn, target creature gains “When this creature dies, return it to the battlefield tapped under its owner’s control with a +1/+1 counter on it.”{flavor}“My love. These foes are beneath you. You, who have fought heaven and earth... And subdued giants... To find me. To free me from her grasp. Would you fall now to the likes of them? While your oath remains unfulfilled? Rise. Your enemies await.”\n—Clea",
                     "x": 0.086,
                     "y": 0.6325515280739161,
                     "width": 0.828,
@@ -121798,7 +121811,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "This land enters tapped unless you control a Nevron or Painter.\n{T}: Add {C}\n{T}: Add one mana of any color. This land deals 1 damage to you.{flavor}Maybe. Maybe we’ll just stay here and... enjoy the melody.\n- Luc, Expedition 67",
+                    "text": "This land enters tapped unless you control a Nevron or Painter.\n{T}: Add {C}\n{T}: Add one mana of any color. This land deals 1 damage to you.{flavor}“Maybe. Maybe we’ll just stay here and... enjoy the melody.”\n—Luc, Expedition 67",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
@@ -122093,7 +122106,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Tap all creatures your opponents control, then put a stun counter on each of those creatures.\nIf {R} was spent on this spell, it deals X damage to any target, where X is the number of creatures on the battlefield.\nIf {W} was spent on this spell, exile up to one target creature with a stun counter at the beginning of your next end step.\nIf {G} was spent on this spell, you gain 2 life for each creature on the battlefield.{flavor}Doors of chroma, open!",
+                    "text": "Tap all creatures your opponents control, then put a stun counter on each of those creatures.\nIf {R} was spent on this spell, it deals X damage to any target, where X is the number of creatures on the battlefield.\nIf {W} was spent on this spell, exile up to one target creature with a stun counter at the beginning of your next end step.\nIf {G} was spent on this spell, you gain 2 life for each creature on the battlefield.{flavor}“Doors of chroma, open!”",
                     "x": 0.086,
                     "y": 0.6325515280739161,
                     "width": 0.828,
@@ -122410,7 +122423,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "{T}: Target creature you control gains flying until end of turn.\n{1}, Sacrifice Soarrie: Draw a card.{flavor}Esquie! Look what I found.\n- Verso",
+                    "text": "{T}: Target creature you control gains flying until end of turn.\n{1}, Sacrifice Soarrie: Draw a card.{flavor}“Esquie! Look what I found.”\n—Verso",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
@@ -123652,7 +123665,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Enchant land\nWhen this Aura enters, draw a card.\nEnchanted land is an Island.{flavor}It’s a miracle any of us survived. We were caught in the maelstrom and flung from wave to wave. We lost the moon and the stars, condemned to a never-ending darkness of punishing rain and raging clouds.\n- Elodie, Expedition 68",
+                    "text": "Enchant land\nWhen this Aura enters, draw a card.\nEnchanted land is an Island.{flavor}“It’s a miracle any of us survived. We were caught in the maelstrom and flung from wave to wave. We lost the moon and the stars, condemned to a never-ending darkness of punishing rain and raging clouds.”\n—Elodie, Expedition 68",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
@@ -125605,7 +125618,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "{5}, {T}: Return target creature to its owner’s hand.{flavor}Humans are so rude... more so than Gestrals... which is really saying something...",
+                    "text": "{5}, {T}: Return target creature to its owner’s hand.{flavor}“Humans are so rude... more so than Gestrals... which is really saying something...”",
                     "x": 0.086,
                     "y": 0.6325515280739161,
                     "width": 0.8263681592039801,
@@ -126697,7 +126710,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Exile target creature. Its controller gains life equal to its power.{flavor}Once a farmer, always a farmer.\n- Sciel",
+                    "text": "Exile target creature. Its controller gains life equal to its power.{flavor}“Once a farmer, always a farmer.”\n—Sciel",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
@@ -130003,7 +130016,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Reach{flavor}If I’m lucky, I’ll become a weapon for a Sakapatate!",
+                    "text": "Reach (This creature can block creatures with flying.){flavor}“If I’m lucky, I’ll become a weapon for a Sakapatate!”",
                     "x": 0.086,
                     "y": 0.6325515280739161,
                     "width": 0.8263681592039801,
@@ -130626,7 +130639,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Terraquake deals X damage to each creature without flying, each planeswalker and each player, where X is twice the number of non-basic lands in play.\n{i}Luminous{/i} — Draw a card if you control at least three Lumina tokens.{flavor}Earth. Rise!",
+                    "text": "Terraquake deals X damage to each creature without flying, each planeswalker and each player, where X is twice the number of non-basic lands in play.\n{i}Luminous{/i} — Draw a card if you control at least three Lumina tokens.{flavor}“Earth. Rise!”",
                     "x": 0.086,
                     "y": 0.6325515280739161,
                     "width": 0.828,
@@ -130943,7 +130956,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "(You may cast a legendary sorcery only if you control a legendary creature or planeswalker.)\nEach player with 33 or more life loses the game.{flavor}Gustave: I’m here.\nSophie: I know. I know.",
+                    "text": "(You may cast a legendary sorcery only if you control a legendary creature or planeswalker.)\nEach player with 33 or more life loses the game.{flavor}Gustave: “I’m here.”\nSophie: “I know. I know.”",
                     "x": 0.086,
                     "y": 0.6325515280739161,
                     "width": 0.828,
@@ -131219,7 +131232,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "{i}Picto Reinforcement{/i} — {2}{U}, {T}: Create two Lumina tokens.\n{i}Upgrades your weapons{/i} — {2}{WG}, {T}: Distribute two +1/+1 counters among one or two target creatures.\n{i}Latent skill activation{/i} — {3}{B}, {T}, Tap an untapped Expeditioner creature you control: Destroy target creature.\nWhen The Curator dies, return it to the battlefield transformed under it’s owner’s control.{flavor}Lune: What is he?\nMaelle: I’m not sure, he doesn’t really talk.",
+                    "text": "{i}Picto Reinforcement{/i} — {2}{U}, {T}: Create two Lumina tokens.\n{i}Upgrades your weapons{/i} — {2}{WG}, {T}: Distribute two +1/+1 counters among one or two target creatures.\n{i}Latent skill activation{/i} — {3}{B}, {T}, Tap an untapped Expeditioner creature you control: Destroy target creature.\nWhen The Curator dies, return it to the battlefield transformed under it’s owner’s control.{flavor}“What is he?” asked a curious Lune. “I’m not sure, he doesn’t really talk.” replied Maelle.",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
@@ -132165,7 +132178,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "When The Gingerbread Door enters, each player creates a Food token.\nCreatures with power greater than the number of Foods on the battlefield can’t attack.\n{2}, {T}, Sacrifice this artifact: You gain 3 life.{flavor}A group of five? A yummy looking cake! We have what is needed. NOW LET’S PARTYYYYY-",
+                    "text": "When The Gingerbread Door enters, each player creates a Food token.\nCreatures with power greater than the number of Foods on the battlefield can’t attack.\n{2}, {T}, Sacrifice this artifact: You gain 3 life.{flavor}“A group of five? A yummy looking cake! We have what is needed. NOW LET’S PARTYYYYY-”",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
@@ -132461,7 +132474,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "You win the game if you control a total of 33 or more Expeditioner, Chroma, Lumina or Picto permanents.{flavor}When one falls, we continue.",
+                    "text": "You win the game if you control a total of 33 or more Expeditioner, Chroma, Lumina or Picto permanents.{flavor}“When one falls, we continue.”",
                     "x": 0.086,
                     "y": 0.6325515280739161,
                     "width": 0.828,
@@ -133096,7 +133109,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "{T}: Add {G}.\n{4}, {T}: Create a Lumina token. (It’s an artifact with “{T}, Sacrifice this artifact: Scry 1.”){flavor}Wait, there’s a message on the wall. “Took Maelle to the weird corals. Head north. Look for a door inside a hut“\n- Lune",
+                    "text": "{T}: Add {G}.\n{4}, {T}: Create a Lumina token. (It’s an artifact with “{T}, Sacrifice this artifact: Scry 1.”){flavor}“Wait, there’s a message on the wall: Took Maelle to the weird corals. Head north. Look for a door inside a hut.”\n—Lune",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
@@ -133121,7 +133134,12 @@
             "infoSet": "E33",
             "infoLanguage": "EN",
             "infoArtist": "Sandfall Interactive",
-            "infoNote": "Proxy, Not for Sale"
+            "infoNote": "Proxy, Not for Sale",
+            "serialNumber": "",
+            "serialTotal": "",
+            "serialX": "",
+            "serialY": "",
+            "serialScale": ""
         }
     },
     {
@@ -133409,11 +133427,11 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "The Monolith enters with ten gommage counters.\nAt the beginning of your upkeep, remove a gommage counter, then exile all non-land, non-legendary permanents with mana value greater than or equal to the number of gommage counters on The Monolith.\nWhen The Monolith has no gommage counters on it, sacrifice it.\n{T}: Add {C}.{flavor}Like a clock of doom, ticking down one year at a time.",
+                    "text": "The Monolith enters with ten gommage counters.\nAt the beginning of your upkeep, remove a gommage counter, then exile all non-land, non-legendary permanents with mana value greater than or equal to the number of gommage counters on The Monolith.\nWhen The Monolith has no gommage counters on it, sacrifice it.\n{T}: Add {C}.{flavor}Like a clock of inevitable doom, ticking down one year at a time.",
                     "x": 0.086,
                     "y": 0.6325515280739161,
                     "width": 0.828,
-                    "height": 0.27149964463397297,
+                    "height": 0.2874911158493248,
                     "size": 0.0362
                 },
                 "pt": {
@@ -133981,7 +133999,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "{i}Void Meteors{/i} — {B}{R}, {T}: The Paintress deals 3 damage divided as you choose among any number of target creatures and/or planeswalkers.\n{i}Rips apart reality{/i} — {2}{U}, {T}: Up to two target nonland permanents phase out.\n{i}Heals an Expeditioner{/i} — {W}{G}, {T}: You gain 1 life for each Expeditioner you control.\nWhen The Paintress dies, return it to the battlefield transformed under it’s owner’s control.{flavor}Arrogant Man. I taught him to Paint. And he seeks to use my creations against me?",
+                    "text": "{i}Void Meteors{/i} — {B}{R}, {T}: The Paintress deals 3 damage divided as you choose among any number of target creatures and/or planeswalkers.\n{i}Rips apart reality{/i} — {2}{U}, {T}: Up to two target nonland permanents phase out.\n{i}Heals an Expeditioner{/i} — {W}{G}, {T}: You gain 1 life for each Expeditioner you control.\nWhen The Paintress dies, return it to the battlefield transformed under it’s owner’s control.{flavor}“Arrogant Man. I taught him to Paint. And he seeks to use my creations against me?”",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
@@ -134366,7 +134384,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Reach, trample\nThe Reacher enters with seven sky counters.\nThe Reacher cannot attack or block while it has one or more sky counters.\nWhenever a creature you control with flying attacks, remove a sky counter from The Reacher.\n{T}: Add {G} or {U}.\n{2}{G/U}: Remove a sky counter from The Reacher.{flavor}Little one, there’s more to life, if you can just see how big the sky truly is. Reach out your hand, and it’s yours...",
+                    "text": "Reach, trample\nThe Reacher enters with seven sky counters.\nThe Reacher cannot attack or block while it has one or more sky counters.\nWhenever a creature you control with flying attacks, remove a sky counter from The Reacher.\n{T}: Add {G} or {U}.\n{2}{G/U}: Remove a sky counter from The Reacher.{flavor}“Little one, there’s more to life, if you can just see how big the sky truly is. Reach out your hand, and it’s yours...”",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
@@ -134683,7 +134701,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "{T}: Add {C}.\n{5}, {T}: Return target Gestral card from your graveyard and put it into your hand. This ability costs {2} less to activate if you control a creature named Golgra, Gestral Chef{flavor}MONOCO! You’re trying to skip the queue again you old... uh... old... lazy... retired warrior!\n- Golgra",
+                    "text": "{T}: Add {C}.\n{5}, {T}: Return target Gestral card from your graveyard and put it into your hand. This ability costs {2} less to activate if you control a creature named Golgra, Gestral Chef{flavor}“MONOCO! You’re trying to skip the queue again you old... uh... old... lazy... retired warrior!”\n—Golgra",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
@@ -136538,7 +136556,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Thunderfall deals 2 damage to any target.\n{i}Luminous{/i} — Thunderfall deals 4 damage instead if you control at least three Lumina tokens.{flavor}Meet your reckoning!",
+                    "text": "Thunderfall deals 2 damage to any target.\n{i}Luminous{/i} — Thunderfall deals 4 damage instead if you control at least three Lumina tokens.{flavor}“Meet your reckoning!”",
                     "x": 0.086,
                     "y": 0.6325515280739161,
                     "width": 0.828,
@@ -136911,7 +136929,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Reach, first strike\nAt the beginning of each player’s upkeep, that player sacrifices a creature they control with a cursed counter on it.\n{4}, {T}: Put a cursed counter on target creature.{flavor}Maelle: What’s that?\nVerso: The tisseur, it works for Sirène.\nLune: So he creates all of that for her.",
+                    "text": "Reach, first strike\nAt the beginning of each player’s upkeep, that player sacrifices a creature they control with a cursed counter on it.\n{4}, {T}: Put a cursed counter on target creature.{flavor}Maelle: “What’s that?”\nVerso: “The tisseur, it works for Sirène.”\nLune: “So he creates all of that for her.”",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
@@ -139531,7 +139549,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "This spell costs {1} less to cast if you control a Gestral.\nThis creature enters with a shield counter.\n{i}Strikes with its dead partner{/i} — {2}, Sacrifice a Nevron: This creature deals damage equal to the sacrificed Nevron’s mana value to target creature.\n{i}Slams its shield{/i} — {R}{R}, {T}, Remove a shield counter from this creature: This creature deals 4 damage to any target.\nWhen this creature dies, target opponent creates a Lumina token.{flavor}INTRUDER ALERT! INTRUDER ALERT! Send forth the ULTIMATE WEAPON!\n- Tropa",
+                    "text": "This spell costs {1} less to cast if you control a Gestral.\nThis creature enters with a shield counter.\n{i}Strikes with its dead partner{/i} — {2}, Sacrifice a Nevron: This creature deals damage equal to the sacrificed Nevron’s mana value to target creature.\n{i}Slams its shield{/i} — {R}{R}, {T}, Remove a shield counter from this creature: This creature deals 4 damage to any target.\nWhen this creature dies, target opponent creates a Lumina token.{flavor}“INTRUDER ALERT! INTRUDER ALERT! Send forth the ULTIMATE WEAPON!”\n—Tropa",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
@@ -139837,12 +139855,13 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Whenever a Nevron creature dies, you may put a skin counter on this creature.\nRemove three skin counters from this creature: It becomes a Nevron with base power and toughness 6/6, reach and trample.{flavor}Need to go. High! Help me, grow!",
+                    "text": "Whenever a Nevron creature dies, you may put a skin counter on this creature.\nRemove three skin counters from this creature: It becomes a Nevron with base power and toughness 6/6, reach and trample.{flavor}“Need to go. High! Help me, grow!”",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
                     "height": 0.2875,
-                    "size": 0.0362
+                    "size": 0.0362,
+                    "fontSize": "-12"
                 },
                 "pt": {
                     "name": "Power/Toughness",
@@ -140143,7 +140162,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Defender, vigilance\nSacrifice a Chroma token: This creature loses defender. (This effect lasts indefinitely.){flavor}All this chroma has been rather... energizing. Thanks to you, I awaken from my slumber. Did my tales interest you this much?",
+                    "text": "Defender, vigilance\nSacrifice a Chroma token: This creature loses defender. (This effect lasts indefinitely.){flavor}“All this chroma has been rather... energizing. Thanks to you, I awaken from my slumber. Did my tales interest you this much?”",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
@@ -140449,7 +140468,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Flash\nSacrifice this creature: Choose one —\n• Put two +1/+1 counters on target creature.\n• Put a lifelink counter on target creature.\n• Put a vigilance counter on target creature.{flavor}My kind knows only battle. We are born into a world of strife, yet I seem to be the only one who does not revel in it.",
+                    "text": "Flash\nSacrifice this creature: Choose one —\n• Put two +1/+1 counters on target creature.\n• Put a lifelink counter on target creature.\n• Put a vigilance counter on target creature.{flavor}“My kind knows only battle. We are born into a world of strife, yet I seem to be the only one who does not revel in it.”",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
@@ -140755,7 +140774,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Exhaust — Sacrifice a nontoken artifact: Put a +1/+1 counter and a flying counter on this creature. (Activate each exhaust ability only once){flavor}It doesn’t seem threatening.",
+                    "text": "Exhaust — Sacrifice a nontoken artifact: Put a +1/+1 counter and a flying counter on this creature. (Activate each exhaust ability only once){flavor}“It doesn’t seem threatening.”",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
@@ -141061,7 +141080,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "This creature can’t attack or block unless it has three or more crystal counters on it.\nWhenever a land enters, you may put a crystal counter on this creature.{flavor}Abandoned... and incomplete. Entrapped in stone.... Quite the situation I’m in, right?",
+                    "text": "This creature can’t attack or block unless it has three or more crystal counters on it.\nWhenever a land enters, you may put a crystal counter on this creature.{flavor}“Abandoned... and incomplete. Entrapped in stone.... Quite the situation I’m in, right?”",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
@@ -141367,7 +141386,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "When this creature enters, draw a card if {U} was spent to cast it, you gain 3 life if {G} was spent to cast it, put a Menace counter on it if {R} was spent to cast it and put a Lifelink counter on it if {B} was spent to cast it.{flavor}Shine. I need to shine.",
+                    "text": "When this creature enters, draw a card if {U} was spent to cast it, you gain 3 life if {G} was spent to cast it, put a Menace counter on it if {R} was spent to cast it and put a Lifelink counter on it if {B} was spent to cast it.{flavor}“Shine. I need to shine.”",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
@@ -141673,7 +141692,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Exhaust — Sacrifice a Forest: Put two +1/+1 counters and a Reach counter on this creature. (Activate each exhaust ability only once){flavor}My being... A core... With the form of a damned soul.... In this state, I am nothing but condemned.",
+                    "text": "Exhaust — Sacrifice a Forest: Put two +1/+1 counters and a Reach counter on this creature. (Activate each exhaust ability only once){flavor}“My being... A core... With the form of a damned soul.... In this state, I am nothing but condemned.”",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
@@ -141979,7 +141998,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "When this creature enters, put a verse counter on it if {G} was spent to cast this spell and put a rage counter if {R} was spent to cast this spell.\nAs this creature enters, choose a creature type.\nOther creatures you control get +1/+1 if this creature has a verse counter.\nOther creatures you control have haste if this creature has a rage counter.{flavor}Teach me... how to play.",
+                    "text": "When this creature enters, put a verse counter on it if {G} was spent to cast this spell and put a rage counter if {R} was spent to cast this spell.\nAs this creature enters, choose a creature type.\nOther creatures you control get +1/+1 if this creature has a verse counter.\nOther creatures you control have haste if this creature has a rage counter.{flavor}“Teach me... how to play.”",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
@@ -142274,7 +142293,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "You may exile a black card from your hand rather than pay this spell’s mana cost.\nTarget player reveals their hand. You choose a nonland card from it. That player discards that card.{flavor}My beautiful sister doesn’t need this ugly mask.\n- Verso",
+                    "text": "You may exile a black card from your hand rather than pay this spell’s mana cost.\nTarget player reveals their hand. You choose a nonland card from it. That player discards that card.{flavor}“My beautiful sister doesn’t need this ugly mask.”\n—Verso",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
@@ -142606,7 +142625,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Each land is a Swamp in addition to its other land types.{flavor}We are the Warriors of Legend! We are here to challenge the dastardly Osquio, most villanous of all villains!\n- Maelle",
+                    "text": "Each land is a Swamp in addition to its other land types.{flavor}“We are the Warriors of Legend! We are here to challenge the dastardly Osquio, most villanous of all villains!”\n—Maelle",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
@@ -142934,7 +142953,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "{2}, {T}: Surveil 1.\n{1}, Sacrifice Urrie: Draw a card.{flavor}FINE, FINE, FINE, Here. Pah! Take your rock and SCRAM!\n- François",
+                    "text": "{2}, {T}: Surveil 1.\n{1}, Sacrifice Urrie: Draw a card.{flavor}“FINE, FINE, FINE, Here. Pah! Take your rock and SCRAM!”\n—François",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
@@ -143865,7 +143884,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Whenever Verso untaps or deals damage, put a rank counter on him.\nWhenever Verso is dealt damage, remove all rank counters from him.\n{i}Immortality{/i} — {1}{W}{B}: Return Verso from your graveyard to the battlefield tapped with a stun counter.\n{i}Strike Storm{/i} — Verso has Double Strike as long has he has three or more rank counters.\n{i}Marking Shot{/i} — {U/B}, {T}: Verso deals 1 damage to any target. If Verso has three or more rank counters, he deals 2 damage to any target instead.\n{i}Phantom Stars{/i} — {4}{W}, {T}, Remove X rank counters from Verso: Verso deals X damage to each of up to two target creatures.{flavor}Let’s carve a path.",
+                    "text": "Whenever Verso untaps or deals damage, put a rank counter on him.\nWhenever Verso is dealt damage, remove all rank counters from him.\n{i}Immortality{/i} — {1}{W}{B}: Return Verso from your graveyard to the battlefield tapped with a stun counter.\n{i}Strike Storm{/i} — Verso has Double Strike as long has he has three or more rank counters.\n{i}Marking Shot{/i} — {U/B}, {T}: Verso deals 1 damage to any target. If Verso has three or more rank counters, he deals 2 damage to any target instead.\n{i}Phantom Stars{/i} — {4}{W}, {T}, Remove X rank counters from Verso: Verso deals X damage to each of up to two target creatures.{flavor}“Let’s carve a path.”",
                     "x": 0.086,
                     "y": 0.6289978678038379,
                     "width": 0.828,
@@ -144161,7 +144180,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Enchant creature\nWhen this Aura enters, create a Lumina token.\nAll damage that would be dealt to enchanted creature is dealt to its controller instead.{flavor}Sometimes, we paint the bars of our own prison. Your despair blinds you. You think you’re ready to pay the price. But are you willing to let them pay the price for you?\n- Renoir, to Verso",
+                    "text": "Enchant creature\nWhen this Aura enters, create a Lumina token.\nAll damage that would be dealt to enchanted creature is dealt to its controller instead.{flavor}“Sometimes, we paint the bars of our own prison. Your despair blinds you. You think you’re ready to pay the price. But are you willing to let them pay the price for you?”\n—Renoir, to Verso",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
@@ -144485,7 +144504,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "At the beginning of your upkeep, you may put a verse counter on this enchantment.\nSacrifice this enchantment: Target creature gets +X/+X and lifelink until end of turn, where X is the number of verse counters on this enchantment.{flavor}Maelle: What song was that? I feel like I know it.\nVerso: Yeah, it’s an old song I used to play to my sister.\nMaelle: Can you play another?",
+                    "text": "At the beginning of your upkeep, you may put a verse counter on this enchantment.\nSacrifice this enchantment: Target creature gets +X/+X and lifelink until end of turn, where X is the number of verse counters on this enchantment.{flavor}Maelle: “What song was that? I feel like I know it.”\nVerso: “Yeah, it’s an old song I used to play to my sister.”\nMaelle: “Can you play another?”",
                     "x": 0.086,
                     "y": 0.6325515280739161,
                     "width": 0.828,
@@ -144802,7 +144821,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "When Verso’s Drafts enters, create two Lumina tokens. (It’s an artifact with “{T}, Sacrifice this artifact: Scry 1.”)\n{T}: Add {C}\n{4}, {T}: Create a 1/1 colorless Gestral artifact creature token.{flavor}Welcome to our small little resort of supreme relaxation.",
+                    "text": "When Verso’s Drafts enters, create two Lumina tokens. (It’s an artifact with “{T}, Sacrifice this artifact: Scry 1.”)\n{T}: Add {C}\n{4}, {T}: Create a 1/1 colorless Gestral artifact creature token.{flavor}“Welcome to our small little resort of supreme relaxation.”\n—Half-baked Gestral",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
@@ -145097,7 +145116,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "At the beginning of your upkeep, you may put a verse counter on this enchantment.\nSacrifice this enchantment: Gain control of target creature with power less than or equal to the number of verse counters on this enchantment. (This effect lasts indefinitely.){flavor}You will never be a good musician. You have no choice but to paint!\n- Osquio",
+                    "text": "At the beginning of your upkeep, you may put a verse counter on this enchantment.\nSacrifice this enchantment: Gain control of target creature with power less than or equal to the number of verse counters on this enchantment. (This effect lasts indefinitely.){flavor}“You will never be a good musician. You have no choice but to paint!”\n—Osquio",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
@@ -145469,7 +145488,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Flying, trample, lifelink\nWhenever Verso’s Sky Train attacks, create a Lumina token.\nCrew 2 (Tap any number of creatures you control with total power 2 or more: This Vehicle becomes an artifact creature until end of turn.){flavor}Choo Choo!\n- Verso",
+                    "text": "Flying, trample, lifelink\nWhenever Verso’s Sky Train attacks, create a Lumina token.\nCrew 2 (Tap any number of creatures you control with total power 2 or more: This Vehicle becomes an artifact creature until end of turn.){flavor}“Choo Choo!”",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
@@ -146410,7 +146429,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Menace\n{i}Queueing is for losers{/i} — {1}{B}: Put a menace counter on another target creature. It becomes a Toy in addition to its other types.{flavor}One day I will make it so nobody ever has to queue anywhere anymore!",
+                    "text": "Menace\n{i}Queueing is for losers{/i} — {1}{B}: Put a menace counter on another target creature. It becomes a Toy in addition to its other types.{flavor}“One day I will make it so nobody ever has to queue anywhere anymore!”",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
@@ -146733,7 +146752,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Target creature you control becomes a copy of target creature until end of turn.{flavor}I envy them, those who can’t see. Those who know not, that they are not. And those who live, blithe and free, sins forgotten and thus absolved. A fresh dawn in their playground, while we live in shadows, swimming in ink. We are but a fragile dream, a singular weed, resisting, ever resisting.\n- Masked Woman",
+                    "text": "Target creature you control becomes a copy of target creature until end of turn.{flavor}“I envy them, those who can’t see. Those who know not, that they are not. And those who live, blithe and free, sins forgotten and thus absolved. A fresh dawn in their playground, while we live in shadows, swimming in ink. We are but a fragile dream, a singular weed, resisting, ever resisting.”\n—Masked Woman",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
@@ -147339,7 +147358,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Devoid (This card has no color.)\nThis spell costs {2} less to cast if you control a painter.\nVoid Meteors deals 4 damage divided as you choose among any number of targets.{flavor}How cruel of your father to use you like this.\n- The Paintress",
+                    "text": "Devoid (This card has no color.)\nThis spell costs {2} less to cast if you control a painter.\nVoid Meteors deals 4 damage divided as you choose among any number of targets.{flavor}“How cruel of your father to use you like this.”\n—The Paintress",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
@@ -148240,7 +148259,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "As this enchantment enters, choose a creature type.\nWhenever a creature you control of the chosen type enters, target creature you control of the chosen type with greater mana value gains haste until end of turn.\nWhenever two or more creatures of the chosen type attacks, they each get +1/+0 until end of turn.{flavor}Verso traded his life for yours. I both love and hate him for that. That damn fool.\n- Clea",
+                    "text": "As this enchantment enters, choose a creature type.\nWhenever a creature you control of the chosen type enters, target creature you control of the chosen type with greater mana value gains haste until end of turn.\nWhenever two or more creatures of the chosen type attacks, they each get +1/+0 until end of turn.{flavor}“Verso traded his life for yours. I both love and hate him for that. That damn fool.”\n—Clea",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,

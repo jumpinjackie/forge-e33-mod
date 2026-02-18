@@ -11,7 +11,7 @@ Gestral
 [Rarity]
 C
 [Oracle]
-Reach
+Reach (This creature can block creatures with flying.)
 [FlavorText]
 "If I'm lucky, I'll become a weapon for a Sakapatate!"
 [ForgeScript]

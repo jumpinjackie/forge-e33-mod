@@ -15,7 +15,7 @@ true
 [Rarity]
 U
 [Artist]
-Allen Morris
+Sandfall Interactive
 [FlavorText]
 "This mask can't hurt me. Because it is me."
 —Sciel

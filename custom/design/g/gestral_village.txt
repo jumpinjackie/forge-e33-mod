@@ -13,8 +13,7 @@ Sandfall Interactive
 {T}: Add {C}.
 {T}: Add {C}{C}. Spend this mana only to cast Gestral spells or activate abilities of Gestrals.
 [FlavorText]
-"It's ... it's really a village of Gestrals!" remarked Lune with astonishment.
-"They seem better at surviving than humans." replied Gustave.
+"It's ... it's really a village of Gestrals!" remarked Lune with astonishment. "They seem better at surviving than humans." replied Gustave.
 [ForgeScript]
 A:AB$ Mana | Cost$ T | Produced$ C | SpellDescription$ Add {C}.
 A:AB$ Mana | Cost$ T | Produced$ C | Amount$ 2 | RestrictValid$ Spell.Gestral,Activated.Gestral+inZoneBattlefield | SpellDescription$ Add {C}{C}. Spend this mana only to cast Gestral spells or activate abilities of Gestrals.

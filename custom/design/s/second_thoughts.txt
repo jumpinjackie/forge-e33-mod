@@ -14,7 +14,7 @@ true
 C
 [FlavorText]
 "You do that, we both die."
-- Lune
+—Lune
 [Artist]
 Sandfall Interactive
 [Tags]

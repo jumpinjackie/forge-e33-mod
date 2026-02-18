@@ -14,7 +14,7 @@ Maelle with a bloodied face, on her knees, clutching some trinket, screaming in 
 [Oracle]
 Target opponent reveals their hand. You choose either an Expeditioner card or a noncreature, nonland card from it. That player discards that card.
 [FlavorText]
-'What are you talking about?"
+"What are you talking about?"
 "What's my fault?!"
 "What is this?!"
 [ForgeScript]

@@ -15,8 +15,7 @@ If you control a card named Dorrie, draw a card.
 If you control a card named Soarrie, you gain 3 life.
 If you control a card named Urrie, you may put a land card from your hand onto the battlefield.
 [FlavorText]
-"So, wait. Esquie is that powerful?" remarked a suprised Gustave
-"Apparently so. But also lazy." repled Sciel
+"So, wait. Esquie is that powerful?" remarked a suprised Gustave. "Apparently so. But also lazy." replied Sciel.
 [ForgeScript]
 A:SP$ DealDamage | ValidTgts$ Any | NumDmg$ 3 | SubAbility$ DBScry | SpellDescription$ ~ deals 3 damage to any target. If you control a card named Florrie, scry 2. If you control a card named Dorrie, draw a card. If you control a card named Soarrie, you gain 3 life. If you control a card named Urrie, you may put a land card from your hand onto the battlefield.
 SVar:DBScry:DB$ Scry | ScryNum$ 2 | ConditionPresent$ Card.YouCtrl+namedFlorrie | ConditionCompare$ GE1 | SubAbility$ DBDraw
