@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 15/2/2026 1:28:45 pm
+> Last generated: 18/2/2026 11:10:12 am
 
 ## A Life to Love (Farewell)
 
@@ -20,8 +20,8 @@ This creature enters with a shield counter on it.
 Any damage dealt to you is dealt to this creature instead.
 {4}{W}, {T}: Put a shield counter on this creature.
 ---
-I'm FINE. I've lived 33 good years. Look around. We've had our whole lives to prepare. We'll be fine.
-- Sophie
+"I'm FINE. I've lived 33 good years. Look around. We've had our whole lives to prepare. We'll be fine."
+—Sophie
 
 2/2
 ```
@@ -82,7 +82,7 @@ Legendary Creature - Human Citizen
 {W}, {T}: Attach target Equipment you control to target creature you control.
 When this creature dies, create a Chroma token. (It's an artifact with "{T}, Sacrifice this artifact: Add one mana of any color. Spend this mana only to cast a Nevron, Gestral or Expeditioner spell.")
 ---
-Oh hey handsome, perfect timing. I’m styling everyone before we ship out. Gotta look sharp when we hit the Paintress, eh?
+"Oh hey handsome, perfect timing. I’m styling everyone before we ship out. Gotta look sharp when we hit the Paintress, eh?"
 
 1/2
 ```
@@ -110,7 +110,7 @@ WW
 Legendary Creature - Nevron Horror
 Whenever a white Nevron creature enters, create a Lumina token and you gain 2 life. (It's an artifact with "{T}, Sacrifice this artifact: Scry 1.")
 ---
-You... The ones who conquered the Monolith... And bested she who claimed this painting as her own. Mistress shall be pleased to hear of your feat.
+"You... The ones who conquered the Monolith... And bested she who claimed this painting as her own. Mistress shall be pleased to hear of your feat."
 
 2/2
 ```
@@ -132,7 +132,7 @@ Vigilance
 When Bruler & Cruler enters, if you control an Equipment, draw a card.
 Equip abilities you activate cost {1} less to activate.
 ---
-Someone found our shop! I was this close to believing that we’d never have clients. Our location is terrible.
+"Someone found our shop! I was this close to believing that we’d never have clients. Our location is terrible."
 
 3/4
 ```
@@ -171,8 +171,8 @@ Legendary Enchantment
 Creatures cannot attack you unless their controller sacrifices a Chroma token for each creature they control that's attacking you.
 {3}: Create a Chroma token. Any player may activate this ability. (It's an artifact with "{T}, Sacrifice this artifact: Add one mana of any color. Spend this mana only to cast a Nevron, Gestral or Expeditioner spell.")
 ---
-This looks similar to Lumière's shield dome. Maybe we can just cross it.
-- Lune
+"This looks similar to Lumière's shield dome. Maybe we can just cross it."
+—Lune
 ```
 
 [card implementation](../custom/cards/c/chroma_barrier.txt)
@@ -192,8 +192,7 @@ If you control a Painter, you may cast this spell as though it had flash.
 When this enchantment enters, exile another target nonland permanent.
 When this enchantment leaves the battlefield, return the exiled card to the battlefield under its owner's control.
 ---
-Gustave: For those who come after, right?
-Maelle: No no no no... You promised...
+"For those who come after, right?" said Gustave, resigned to his fate. "No no no no... You promised..." pleaded Maelle.
 ```
 
 [card implementation](../custom/cards/c/chroma_prison.txt)
@@ -238,7 +237,7 @@ Creature - Nevron
 Vigilance
 {2}{W}, {T}: This creature deals 2 damage to target attacking or blocking creature.
 ---
-How can you not care about the dance between life and death? It is thrilling, elegant, and the most intimate encounter you could ever have.
+"How can you not care about the dance between life and death? It is thrilling, elegant, and the most intimate encounter you could ever have."
 
 4/4
 ```
@@ -277,8 +276,8 @@ Whenever you create a Chroma or Lumina token, you gain 1 life.
 {2}, {T}: Prevent the next X damage that would be dealt to any target this turn, where X is the number of Chroma and Lumina tokens you control.
 When this creature dies, create a Chroma token.
 ---
-For our allies who come after, sadly our lives may have proven that defense is both absolutely necessary and wholly insufficient.
-- Christophe, Expedition 49
+"For our allies who come after, sadly our lives may have proven that defense is both absolutely necessary and wholly insufficient."
+—Christophe, Expedition 49
 
 2/2
 ```
@@ -300,8 +299,8 @@ When this creature enters, put a shield counter on target creature.
 {W}, {T}: Target creature you control gains protection from Nevrons until end of turn.
 When this creature dies, create a Chroma token.
 ---
-We can hold the line for another few days but we need to find a way out, our water supply is running dangerously low.
-- Christophe, Expedition 49
+"We can hold the line for another few days but we need to find a way out, our water supply is running dangerously low."
+—Christophe, Expedition 49
 
 2/2
 ```
@@ -321,8 +320,7 @@ Creature - Human Expeditioner Rebel
 {4}, {T}: Search your library for a Rebel or Expeditioner permanent card with mana value 3 or less, put it onto the battlefield, then shuffle.
 When this creature dies, create a Chroma token.
 ---
-Lumière operates a certain way. It favors a certain group and a certain outcome and if you question the Council, well, the Council’s going to question you. Push too hard to change things and you just might end up on the next Expedition.
-- Constantine
+"Lumière operates a certain way. It favors a certain group and a certain outcome and if you question the Council, well, the Council’s going to question you. Push too hard to change things and you just might end up on the next Expedition."
 
 2/2
 ```
@@ -342,7 +340,7 @@ Creature - Human Expeditioner
 When this creature enters, you may search your library for an Expeditioner card, reveal it, put it into your hand, then shuffle.
 When this creature dies, create a Chroma token.
 ---
-Your time left in this life is limited, why not make it count for something?
+"Your time left in this lifetime is limited, why not make it count for something?"
 
 1/1
 ```
@@ -369,8 +367,8 @@ Enchantment
 When this enchantment enters, draw a card.
 Whenever a creature dies, create a Lumina token and you gain 1 life. (It's an artifact with "{T}, Sacrifice this artifact: Scry 1.")
 ---
-We could never tell if you were my brother or my father. But to me you were both. The best brother and father I’ve ever had.
-- Maelle
+"We could never tell if you were my brother or my father. But to me you were both. The best brother and father I’ve ever had."
+—Maelle
 ```
 
 [card implementation](../custom/cards/g/gustaves_burial.txt)
@@ -389,7 +387,8 @@ Kindred Sorcery - Expeditioner
 Each player gains twice X life.
 Luminous — Put a shield counter on up to one target creature you control and draw a card if you control at least three Lumina tokens.
 ---
-Please survive!
+"Please survive!"
+—Maelle
 ```
 
 [card implementation](../custom/cards/h/healing_light.txt)
@@ -454,8 +453,7 @@ Kindred Instant - Expeditioner
 Payback deals 5 damage divided as you choose among any number of target attacking or blocking creatures.
 Create a Lumina token. (It's an artifact with "{T}, Sacrifice this artifact: Scry 1.")
 ---
-Let’s dance!
-- Maelle
+"Let’s dance!"
 ```
 
 [card implementation](../custom/cards/p/payback.txt)
@@ -491,7 +489,7 @@ Untap target creature you control. It gains hexproof until end of turn.
 Luminous — Draw a card if you control at least three Lumina tokens.
 Foretell {W} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)
 ---
-Your turn to shine!
+"Your turn to shine!"
 ```
 
 [card implementation](../custom/cards/s/sciels_intervention.txt)
@@ -522,8 +520,8 @@ Flash
 As this enchantment enters, choose a creature type.
 {W}, Tap an untapped creature you control of the chosen type: Prevent all damage that would be dealt to another target creature of the chosen type this turn.
 ---
-We are her guardians, not her jailers.
-- Emma
+"We are her guardians, not her jailers."
+—Emma
 ```
 
 [card implementation](../custom/cards/s/sibling_overwatch.txt)
@@ -551,7 +549,7 @@ Creature - Nevron
 Defender, vigilance
 Sacrifice a Chroma token: This creature loses defender. (This effect lasts indefinitely.)
 ---
-All this chroma has been rather... energizing. Thanks to you, I awaken from my slumber. Did my tales interest you this much?
+"All this chroma has been rather... energizing. Thanks to you, I awaken from my slumber. Did my tales interest you this much?"
 
 3/4
 ```
@@ -571,7 +569,7 @@ Creature - Nevron
 Whenever a Nevron creature dies, you may put a skin counter on this creature.
 Remove three skin counters from this creature: It becomes a Nevron with base power and toughness 6/6, reach and trample.
 ---
-Need to go. High! Help me, grow!
+"Need to go. High! Help me, grow!"
 
 1/1
 ```
@@ -596,7 +594,7 @@ Sacrifice this creature: Choose one —
 • Put a lifelink counter on target creature.
 • Put a vigilance counter on target creature.
 ---
-My kind knows only battle. We are born into a world of strife, yet I seem to be the only one who does not revel in it.
+"My kind knows only battle. We are born into a world of strife, yet I seem to be the only one who does not revel in it."
 
 2/3
 ```
@@ -616,7 +614,7 @@ W
 Creature - Nevron
 Exhaust — Sacrifice a nontoken artifact: Put a +1/+1 counter and a flying counter on this creature. (Activate each exhaust ability only once)
 ---
-It doesn’t seem threatening.
+"It doesn’t seem threatening."
 
 1/1
 ```
@@ -636,7 +634,7 @@ Creature - Nevron Elemental
 This creature can't attack or block unless it has three or more crystal counters on it.
 Whenever a land enters, you may put a crystal counter on this creature.
 ---
-Abandoned... and incomplete. Entrapped in stone.... Quite the situation I’m in, right?
+"Abandoned... and incomplete. Entrapped in stone.... Quite the situation I’m in, right?"
 
 4/4
 ```
@@ -657,7 +655,7 @@ Abandoned... and incomplete. Entrapped in stone.... Quite the situation I’m in
 Creature - Nevron
 When this creature enters, draw a card if {U} was spent to cast it, you gain 3 life if {G} was spent to cast it, put a Menace counter on it if {R} was spent to cast it and put a Lifelink counter on it if {B} was spent to cast it.
 ---
-Shine. I need to shine.
+"Shine. I need to shine."
 
 4/4
 ```
@@ -676,7 +674,7 @@ W
 Creature - Nevron
 Exhaust — Sacrifice a Forest: Put two +1/+1 counters and a Reach counter on this creature. (Activate each exhaust ability only once)
 ---
-My being... A core... With the form of a damned soul.... In this state, I am nothing but condemned.
+"My being... A core... With the form of a damned soul.... In this state, I am nothing but condemned."
 
 1/1
 ```
@@ -698,7 +696,7 @@ As this creature enters, choose a creature type.
 Other creatures you control get +1/+1 if this creature has a verse counter.
 Other creatures you control have haste if this creature has a rage counter.
 ---
-Teach me... how to play.
+"Teach me... how to play."
 
 2/2
 ```

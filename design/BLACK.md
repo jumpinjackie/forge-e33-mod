@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 9/2/2026 11:55:10 am
+> Last generated: 18/2/2026 11:10:12 am
 
 ## Axon Offering
 
@@ -10,8 +10,8 @@ Sorcery
 Each player sacrifices a creature.
 Create a Chroma token for each creature sacrificed this way. (It's an artifact with "{T}, Sacrifice this artifact: Add one mana of any color. Spend this mana only to cast a Nevron, Gestral or Expeditioner spell.")
 ---
-Me? You want me to give it to you?
-- Maelle, to The Curator
+"Me? You want me to give it to you?"
+—Maelle, to The Curator
 ```
 
 [card implementation](../custom/cards/a/axon_offering.txt)
@@ -86,8 +86,8 @@ This spell costs {1} less to cast if you control a painter.
 As an additional cost to cast this spell, sacrifice a creature.
 Put target creature card from a graveyard onto the battlefield under your control.
 ---
-Well. You're about to be reborn in this world as one of Aline's creations. Have fun.
-- Clea
+"Well. You're about to be reborn in this world as one of Aline's creations. Have fun."
+—Clea
 ```
 
 [card implementation](../custom/cards/c/chromatic_rebirth.txt)
@@ -107,7 +107,7 @@ Well. You're about to be reborn in this world as one of Aline's creations. Have 
 Sorcery
 Search your library for a Nevron or Gradient card, reveal it, put it into your hand, then shuffle.
 ---
-I have my pets in place "She who controls chroma, controls the Canvas." I can't take her chroma, but I can keep it from returning to her.
+"I have my pets in place. She who controls chroma, controls the Canvas. I can't take her chroma, but I can keep it from returning to her."
 ```
 
 [card implementation](../custom/cards/c/cleas_chromatic_mastery.txt)
@@ -139,7 +139,8 @@ Creature - Incarnation
 Fear (This creature can’t be blocked except by artifact creatures and/or black creatures.)
 Whenever another creature becomes tapped, put a stun counter on it.
 ---
-If you could grow old... Would you... find a reason to smile?
+"If you could grow old... Would you... find a reason to smile?"
+—Maelle
 
 2/2
 ```
@@ -202,8 +203,8 @@ When this creature enters, destroy up to one target Nevron creature.
 {2}{B}, {T}: Target creature gets -2/-2 until end of turn.
 When this creature dies, create a Chroma token.
 ---
-Oh, I hear a big Nev coming, they count for double. If I kill it quick I can boost my score.
-- Virgile, Expedition 62
+"Oh, I hear a big Nev coming, they count for double. If I kill it quick I can boost my score."
+—Virgile, Expedition 62
 
 2/2
 ```
@@ -225,8 +226,8 @@ Enchantment
 As this enchantment enters, choose a creature type.
 Whenever two or more creatures of the chosen type attacks, target opponent loses 2 life. You gain 2 life and draw a card.
 ---
-You must see things as they are. Not how you want them to be.
-- Renoir
+"You must see things as they are. Not how you want them to be."
+—Renoir
 ```
 
 [card implementation](../custom/cards/f/familial_bonding.txt)
@@ -289,9 +290,9 @@ B
 Sorcery - Gradient
 Target opponent reveals their hand. You choose either an Expeditioner card or a noncreature, nonland card from it. That player discards that card.
 ---
-What are you talking about?
-What's my fault?!
-What is this?!
+"What are you talking about?"
+"What's my fault?!"
+"What is this?!"
 ```
 
 [card implementation](../custom/cards/m/maelles_nightmare.txt)
@@ -311,6 +312,7 @@ Cycling {2} ({2}, Discard this card: Draw a card.)
 "You- You're old. How did you-
 How did you survive the Gommage?
 Which expedition are you fr-"
+—Alan, last words
 ```
 
 [card implementation](../custom/cards/m/massacre_at_dark_shores.txt)
@@ -330,9 +332,9 @@ Sorcery
 Look at the top three cards of your library. Put one of them into your hand and the rest into your graveyard.
 Flashback—{1}{B}, Pay 4 life. (You may cast this card from your graveyard for its flashback cost. Then exile it.)
 ---
-Maelle: That was- I saw-
-Sciel: What happened?
-Maelle: I saw- I saw... It was... Renoir?
+"That was- I saw-" said a shocked Maelle.
+"What happened?" asked Sciel.
+"I saw- I saw... It was... Renoir?" replied Maelle.
 ```
 
 [card implementation](../custom/cards/m/momentary_revelation.txt)
@@ -448,7 +450,7 @@ Summons Dark Beast — When Painted Renoir enters and at the beginning of your u
 Painted Renoir has indestructible as long as you control a token named Dark Chromatic Beast.
 Sends waves of Chroma — {B}{B}, {T}, Sacrifice X Chromas: Up to two target creatures each get -X/-X until end of turn.
 ---
-I love them too.
+"I love them too."
 
 2/2
 ```
@@ -537,8 +539,7 @@ Sorcery - Gradient
 Until end of turn, you may play lands and cast Nevron or Gradient spells from your graveyard.
 If a card would be put into your graveyard from anywhere this turn, exile that card instead.
 ---
-67 years. 67 years I spent trapped within the Monolith. But I persisted. I persisted. Do you know why? Do you know why I CANNOT leave her or you behind? This is what I see every day. I cannot spend another day with living corpses.
-- Renoir
+"67 years. 67 years I spent trapped within the Monolith. But I persisted. I persisted. Do you know why? Do you know why I CANNOT leave her or you behind? This is what I see every day. I cannot spend another day with living corpses."
 ```
 
 [card implementation](../custom/cards/r/renoirs_will.txt)
@@ -556,8 +557,8 @@ B
 Instant
 Until end of turn, target creature gains “When this creature dies, return it to the battlefield tapped under its owner’s control with a +1/+1 counter on it.”
 ---
-My love. These foes are beneath you. You, who have fought heaven and earth... And subdued giants... To find me. To free me from her grasp. Would you fall now to the likes of them? While your oath remains unfulfilled? Rise. Your enemies await.
-- Clea
+"My love. These foes are beneath you. You, who have fought heaven and earth... And subdued giants... To find me. To free me from her grasp. Would you fall now to the likes of them? While your oath remains unfulfilled? Rise. Your enemies await."
+—Clea
 ```
 
 [card implementation](../custom/cards/s/simons_second_wind.txt)
@@ -611,8 +612,8 @@ Legendary Sorcery
 (You may cast a legendary sorcery only if you control a legendary creature or planeswalker.)
 Each player with 33 or more life loses the game.
 ---
-Gustave: I'm here.
-Sophie: I know. I know.
+Gustave: "I'm here."
+Sophie: "I know. I know."
 ```
 
 [card implementation](../custom/cards/t/the_67th_gommage.txt)
@@ -683,8 +684,8 @@ Enchant creature
 When this Aura enters, create a Lumina token.
 All damage that would be dealt to enchanted creature is dealt to its controller instead.
 ---
-Sometimes, we paint the bars of our own prison. Your despair blinds you. You think you're ready to pay the price. But are you willing to let them pay the price for you?
-- Renoir, to Verso
+"Sometimes, we paint the bars of our own prison. Your despair blinds you. You think you're ready to pay the price. But are you willing to let them pay the price for you?"
+—Renoir, to Verso
 ```
 
 [card implementation](../custom/cards/v/versos_burden.txt)
@@ -704,7 +705,7 @@ Artifact Creature - Gestral
 Menace
 Queueing is for losers — {1}{B}: Put a menace counter on another target creature. It becomes a Toy in addition to its other types.
 ---
-One day I will make it so nobody ever has to queue anywhere anymore!
+"One day I will make it so nobody ever has to queue anywhere anymore!"
 
 2/1
 ```

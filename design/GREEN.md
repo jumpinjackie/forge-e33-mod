@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 13/2/2026 4:08:59 pm
+> Last generated: 18/2/2026 11:10:12 am
 
 ## Abbest
 
@@ -60,8 +60,7 @@ Creature - Incarnation
 Trample
 Sacrifice a nonland creature: Draw cards equal to the sacrificed creature’s power, then discard three cards.
 ---
-Verso: I don't want this life... I don't want this life...
-Maelle: I just- I just wanted to live this lifetime together. This lifetime that was stolen from us. Please, brother... Please.
+"I don't want this life... I don't want this life..." pleaded Verso. "I just- I just wanted to live this lifetime together." Maelle replied with assurance "This lifetime that was stolen from us. Please, brother... Please."
 
 4/5
 ```
@@ -184,7 +183,8 @@ Kindred Enchantment - Expeditioner
 Sacrifice a creature: Scry 1.
 Sacrifice an Expeditioner: Draw a card.
 ---
-Yet in their final moments, they used their bodies to create a bridge for those who come after. Expedition 35 is over but tomorrow comes.
+"Yet in their final moments, they used their bodies to create a bridge for those who come after. Expedition 35 is over but tomorrow comes."
+—Matthieu, Expedition 35
 ```
 
 [card implementation](../custom/cards/e/expedition_35_bridge.txt)
@@ -208,8 +208,8 @@ Creature - Human Expeditioner
 Other Expeditioner creatures you control get +1/+1.
 When this creature dies, create a Chroma token. (It's an artifact with "{T}, Sacrifice this artifact: Add one mana of any color. Spend this mana only to cast a Nevron, Gestral or Expeditioner spell.")
 ---
-Drums. Maybe that will work. They can’t hear our music, but perhaps they will feel it.
-- Gilles, Expedition 55
+"Drums. Maybe that will work. They can’t hear our music, but perhaps they will feel it."
+—Gilles, Expedition 55
 
 2/2
 ```
@@ -230,7 +230,7 @@ When this creature leaves the battlefield, investigate (Create a Clue token. It�
 This creature gets +2/+2 as long as it’s un-modified. (Equipment, Auras you control, and counters are modifications.)
 When this creature dies, create a Chroma token.
 ---
-One last swim separates me from Lumière, but even with my mighty muscles, I don’t know if I can outswim the Gommage.
+"One last swim separates me from Lumière, but even with my mighty muscles, I don’t know if I can outswim the Gommage."
 
 2/2
 ```
@@ -294,8 +294,8 @@ Creature - Human Expeditioner
 This creature can't be blocked except by creatures with flying.
 When this creature dies, create a Chroma token.
 ---
-I still remember the first mountain we scaled. Watching the sun rise above the clouds was magical. But rappelling down as we set the handholds was pure exhilaration.
-- Fleur, Expedition 69
+"I still remember the first mountain we scaled. Watching the sun rise above the clouds was magical. But rappelling down as we set the handholds was pure exhilaration."
+—Fleur, Expedition 69
 
 3/2
 ```
@@ -316,8 +316,8 @@ When this creature enters, you may search your library for a basic land card, pu
 Whenever this creature attacks, surveil 1.
 When this creature dies, create a Chroma token.
 ---
-It may not be glamorous, but truly essential work rarely is. Doesn’t make it any less important.
-- Fleur, Expedition 69
+"It may not be glamorous, but truly essential work rarely is. Doesn’t make it any less important."
+—Fleur, Expedition 69
 
 2/2
 ```
@@ -403,8 +403,8 @@ Whenever a creature you control becomes tapped, you may put a quest counter on t
 As long as there are two or more quest counters on this enchantment. Creatures you control have reach.
 As long as there are four or more quest counters on this enchantment. You may play an additional land on each of your turns.
 ---
-I've been trying to overcome this gestral's challenge for months now but it seems even more of a challenge than defeating the Paintress. I guess I'll never see the Gestral's grand prize. That's my only regret in life.
-- Laure, Expedition 37
+"I've been trying to overcome this gestral's challenge for months now but it seems even more of a challenge than defeating the Paintress. I guess I'll never see the Gestral's grand prize. That's my only regret in life."
+—Laure, Expedition 37
 ```
 
 [card implementation](../custom/cards/g/gestral_climbing_challenge.txt)
@@ -422,7 +422,7 @@ I've been trying to overcome this gestral's challenge for months now but it seem
 Creature - Grandis
 Vigilance
 ---
-Do not be concerned for us. For we have faced every hardship imaginable.
+"Do not be concerned for us. For we have faced every hardship imaginable."
 
 3/3
 ```
@@ -441,7 +441,7 @@ Do not be concerned for us. For we have faced every hardship imaginable.
 Creature - Grandis
 When this creature enters and whenever it attacks, it explores. (Reveal the top card of your library. Put that card into your hand if it’s a land. Otherwise, put a +1/+1 counter on this creature, then put the card back or put it into your graveyard.)
 ---
-This pathway leads to the treacherous region of the mountains. If your destination is Old Lumière, you should leave via the other exit.
+"This pathway leads to the treacherous region of the mountains. If your destination is Old Lumière, you should leave via the other exit."
 
 2/2
 ```
@@ -482,8 +482,8 @@ Kindred Enchantment - Expeditioner
 All creature cards on the battlefield, graveyard and libraries are Nevrons in addition to their existing types.
 {1}, Sacrifice this enchantment: Draw a card.
 ---
-The idea was we'd only have to fool the first one. Then Jules can wear its carcass to trap the next, and so on, until we all have proper cover. But disguising ourselves as Nevrons has proven to be extremely ineffective, to say the least. Maybe they recognize each other by their chroma?
-- Nicolas, Expedition 44
+"The idea was we'd only have to fool the first one. Then Jules can wear its carcass to trap the next, and so on, until we all have proper cover. But disguising ourselves as Nevrons has proven to be extremely ineffective, to say the least. Maybe they recognize each other by their chroma?"
+—Nicolas, Expedition 44
 ```
 
 [card implementation](../custom/cards/n/nevron_disguise.txt)
@@ -527,7 +527,7 @@ Legendary Creature - Human Citizen
 {T}: Create a Flower token. (It’s an artifact with “{T}, Sacrifice this artifact: Add {U}, {R} or {G}.”)
 When this creature dies, create a Chroma token.
 ---
-Hi Gustave. You’re back. Did you want to pick out a different flower?
+"Hi Gustave. You’re back. Did you want to pick out a different flower?"
 
 1/2
 ```
@@ -547,8 +547,8 @@ Creature - Human Expeditioner Scout
 Landfall — Whenever a land you control enters, create a Flower token. (It’s an artifact with “{T}, Sacrifice this artifact: Add {U}, {R} or {G}.”)
 When this creature dies, create a Chroma token.
 ---
-The Outdome teams brought back loads of new plants from the surrounding islands. That’s how I actually met Pierre. I asked his team for honeypetal samples. He brought me a bouquet of them, and 15 boxes of plant cuttings.
-- Sciel
+"The Outdome teams brought back loads of new plants from the surrounding islands. That’s how I actually met Pierre. I asked his team for honeypetal samples. He brought me a bouquet of them, and 15 boxes of plant cuttings."
+—Sciel
 
 3/2
 ```
@@ -620,8 +620,8 @@ Instant
 Kicker — {2}, Tap an untapped creature you control.
 Rock Throw deals 2 damage to target creature. If this spell was kicked, Rock Throw deals 4 damage instead.
 ---
-Have you tried throwing with your other arm instead? If you could hit the Paintress directly that would be useful.
-- Maelle
+"Have you tried throwing with your other arm instead? If you could hit the Paintress directly that would be useful."
+—Maelle
 ```
 
 [card implementation](../custom/cards/r/rock_throw.txt)
@@ -673,9 +673,9 @@ When this creature dies, target opponent creates a Lumina token. (It's an artifa
 Legendary Enchantment - Shrine
 At the beginning of your upkeep, create a 1/1 colorless Nevron creature token for each Shrine you control.
 ---
-Gustave: The Paintress destroyed our world. And someone built her a shrine?
-Lune: The weak-minded turn to whatever they can to explain the unknown.
-Sciel: When you're at the mercy of a power you don't understand, you might try anything.
+Gustave: "The Paintress destroyed our world. And someone built her a shrine?"
+Lune: "The weak-minded turn to whatever they can to explain the unknown."
+Sciel: "When you're at the mercy of a power you don't understand, you might try anything."
 ```
 
 [card implementation](../custom/cards/s/shrine_to_the_paintress.txt)

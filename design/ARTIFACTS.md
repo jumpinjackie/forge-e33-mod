@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 13/2/2026 4:30:28 pm
+> Last generated: 18/2/2026 11:10:12 am
 
 ## A Rock for François
 
@@ -10,9 +10,9 @@ Artifact - Rock
 {2}, {T}, Sacrifice this artifact: Search your library for a Rock card and put it into your hand.
 {1}, Sacrifice this artifact: Draw a card.
 ---
-Verso: We’ll trade you. Urrie for this, uh... lovely portrait of you.
-François: Is that s’posed to be ME?!
-Esquie: I think we captured your essence beautifully.
+Verso: "We’ll trade you. Urrie for this, uh... lovely portrait of you."
+François: "Is that s’posed to be ME?!"
+Esquie: "I think we captured your essence beautifully."
 ```
 
 [card implementation](../custom/cards/a/a_rock_for_francois.txt)
@@ -120,7 +120,7 @@ Learn Picto 2
 Legendary Artifact Creature - Gestral
 At the beginning of your upkeep, you may mill a card. If you do, create two Lumina tokens. (It's an artifact with "{T}, Sacrifice this artifact: Scry 1.")
 ---
-You found all the journals? Moshi will be so happy.
+"You found all the journals? Moshi will be so happy."
 
 2/2
 ```
@@ -139,8 +139,8 @@ You found all the journals? Moshi will be so happy.
 Legendary Artifact Creature - Gestral
 Trample
 ---
-Who's gonna go fight?
-- Limonsol, Matchmaker
+"Who's gonna go fight?"
+—Limonsol, Matchmaker
 
 3/3
 ```
@@ -307,8 +307,8 @@ Legendary Artifact - Rock
 {T}: Target creature you control gains Trample until end of turn.
 {1}, Sacrifice Dorrie: Draw a card.
 ---
-Doesn't that look like one of Esquie's stones?
-- Sciel
+"Doesn't that look like one of Esquie's stones?"
+—Sciel
 ```
 
 [card implementation](../custom/cards/d/dorrie.txt)
@@ -344,8 +344,8 @@ Artifact - Food
 {2}, {T}, Sacrifice this artifact: You gain 3 life.
 {2}, {T}, Sacrifice this artifact: Target creature deals 3 damage to itself.
 ---
-Damn you Esquie and your stupid mushrooms. Your friend ate them with no problem but it also seems your friend was immortal! That’s the sort of extremely relevant detail that you should mention at the start. Ugh, stop crying! You’re not the one about to die.
-- Marcel, Expedition 66
+"Damn you Esquie and your stupid mushrooms. Your friend ate them with no problem but it also seems your friend was immortal! That’s the sort of extremely relevant detail that you should mention at the start. Ugh, stop crying! You’re not the one about to die."
+—Marcel, Expedition 66
 ```
 
 [card implementation](../custom/cards/e/esquies_magic_mushrooms.txt)
@@ -369,8 +369,8 @@ Esquie's Wine Compartment enters with five wine counters on it.
 Remove a wine counter from Esquie's Wine Compartment: Target creature you control gets +1/-1 until end of turn. You gain 1 life.
 {2}, {T}, Sacrifice Esquie's Wine Compartment: You gain 3 life.
 ---
-I stored my personal stash inside him. All excellent vintages. I don’t normally share, but I suppose tonight deserves an exception.
-- Verso
+"I stored my personal stash inside him. All excellent vintages. I don’t normally share, but I suppose tonight deserves an exception."
+—Verso
 ```
 
 [card implementation](../custom/cards/e/esquies_wine_compartment.txt)
@@ -391,8 +391,8 @@ Trample
 Whenever this vehicle blocks or becomes blocked by a blue creature, destroy this vehicle at end of combat.
 Crew 4
 ---
-Apparently that was where people went on dates, you know.
-- Sciel
+"Apparently that was where people went on dates, you know."
+—Sciel, to Gustave
 
 6/6
 ```
@@ -412,8 +412,8 @@ Artifact - Expeditioner
 Send Backup! — When this artifact enters, reveal the top four cards of your library. Put all Expeditioner cards revealed this way into your hand and the rest on the bottom of your library in any order.
 {2}, Sacrifice this artifact: Draw a card.
 ---
-We radioed our first report to Gamma. The line is good.
-- Ben, 64 Epsilon
+"We radioed our first report to Gamma. The line is good."
+—Ben, 64 Epsilon
 ```
 
 [card implementation](../custom/cards/e/expedition_64_radio.txt)
@@ -432,8 +432,8 @@ When this artifact enters, create a Lumina token. (It's an artifact with "{T}, S
 Expeditioner creatures you control get +1/+1.
 {T}: Add one mana of any color.
 ---
-Wanna plant it?
-- Sciel, to Maelle
+"Wanna plant it?"
+—Sciel, to Maelle
 ```
 
 [card implementation](../custom/cards/e/expedition_flag.txt)
@@ -453,8 +453,8 @@ Artifact - Expeditioner Vehicle
 Whenever this vehicle attacks, if an Expeditioner crewed it this turn, it explores. (Reveal the top card of your library. Put that card into your hand if it’s a land. Otherwise, put a +1/+1 counter on this creature, then put the card back or put it into your graveyard.)
 Crew 2
 ---
-As you sail into the unknown, know that Lumière stands with you. When you battle the Paintress, know that Lumière fights with you.
-- Emma
+"As you sail into the unknown, know that Lumière stands with you. When you battle the Paintress, know that Lumière fights with you."
+—Emma
 
 4/4
 ```
@@ -475,8 +475,8 @@ Artifact - Clue
 {3}, {T}: Remove a lore counter from target Saga you control.
 {2}, Sacrifice this artifact: Draw a card.
 ---
-Gustave: Learn from the ones who came before ...
-Lune: ...And lay the trail, for the ones who come after
+Gustave: "Learn from the ones who came before ..."
+Lune: "...And lay the trail, for the ones who come after"
 ```
 
 [card implementation](../custom/cards/e/expedition_journal.txt)
@@ -512,8 +512,7 @@ As long as equipped creature is a Human, it gets +1/+1.
 Whenever equipped creature attacks, create a Lumina token.
 Equip {1}
 ---
-Sophie: This too is your legacy.
-Gustave: In a way, it’s yours too.
+"This too is your legacy." said Sophie, beaming with pride. "In a way, it’s yours too." replied Gustave.
 ```
 
 [card implementation](../custom/cards/e/expeditioner_uniform.txt)
@@ -541,8 +540,8 @@ Legendary Artifact - Rock
 {T}: Target creature you control gains Islandwalk until end of turn.
 {1}, Sacrifice Florrie: Draw a card.
 ---
-See, Florrie helps me swim. But Florrie was stolen by my archnemesis!
-- Esquie
+"See, Florrie helps me swim. But Florrie was stolen by my archnemesis!"
+—Esquie
 ```
 
 [card implementation](../custom/cards/f/florrie.txt)
@@ -563,7 +562,7 @@ Sacrifice this creature: Choose one —
 • Put a shield counter on target creature.
 • Target creature gains hexproof until end of turn.
 ---
-Gotta take one for the team.
+"Gotta take one for the team."
 
 1/2
 ```
@@ -581,7 +580,7 @@ Gotta take one for the team.
 Artifact Creature - Gestral
 Tap an untapped Gestral you control: Prevent the next 1 damage that would be dealt to target creature this turn.
 ---
-Even if there is no competition here because everyone is dumb, I pushed myself through self-discipline. And I saved more than ten thousand of my fellow Gestrals. All the while, suffering inside like no one else in this world. So don't tell me what I am.
+"Even if there is no competition here because everyone is dumb, I pushed myself through self-discipline. And I saved more than ten thousand of my fellow Gestrals. All the while, suffering inside like no one else in this world. So don't tell me what I am."
 
 1/3
 ```
@@ -618,7 +617,7 @@ This creature can only attack alone.
 Artifact Creature - Gestral
 Whenever this creature attacks, it gets +2/+0 until end of turn for each other attacking Gestral.
 ---
-See, this here's where we come when we wanna go full brush-mode, you got me?
+"See, this here's where we come when we wanna go full brush-mode, you got me?"
 
 1/2
 ```
@@ -654,7 +653,7 @@ Whenever this creature deals damage to a player, you may put a Gestral permanent
 Artifact Creature - Gestral
 Whenever this creature is dealt damage, create a Chroma token (It's an artifact with "{T}, Sacrifice this artifact: Add one mana of any color. Spend this mana only to cast a Nevron, Gestral or Expeditioner spell.")
 ---
-I have some useful items for you!
+"I have some useful items for you!"
 
 2/3
 ```
@@ -719,7 +718,7 @@ When this creature enters, reveal the top four cards of your library. Put all Ge
 Artifact Creature - Gestral
 
 ---
-Expeditioners, eh? You're a fun looking bunch. Unless you try to cause problems. Then we'll beat you up. Which will be fun for me, but not for you.
+"Expeditioners, eh? You're a fun looking bunch. Unless you try to cause problems. Then we'll beat you up. Which will be fun for me, but not for you."
 
 2/1
 ```
@@ -737,7 +736,7 @@ Expeditioners, eh? You're a fun looking bunch. Unless you try to cause problems.
 Artifact Creature - Gestral
 This creature cannot attack or block alone.
 ---
-You’re a twig on my path to Gestral hero-ing. Get out of my sight.
+"You’re a twig on my path to Gestral hero-ing. Get out of my sight."
 
 3/3
 ```
@@ -803,7 +802,7 @@ Enrage — Whenever Golgra is dealt damage, choose one —
 • Put a Trample counter on Golgra.
 • Draw a card.
 ---
-Really? A duel? Do you have a death wish?
+"Really? A duel? Do you have a death wish?"
 
 5/6
 ```
@@ -892,7 +891,8 @@ When Letter from Alicia enters, scry 2.
 When Letter from Alicia is put into a graveyard from the battlefield, creatures can’t attack this turn.
 {2}, Sacrifice Letter from Alicia: Draw a card.
 ---
-Brother, I tire of the conflicts and deceptions that plague our family and theirs. So I entrust you with this letter. Whether you give it to her is up to you.
+"Brother, I tire of the conflicts and deceptions that plague our family and theirs. So I entrust you with this letter. Whether you give it to her is up to you."
+—Alicia
 ```
 
 [card implementation](../custom/cards/l/letter_from_alicia.txt)
@@ -910,7 +910,7 @@ Brother, I tire of the conflicts and deceptions that plague our family and their
 Legendary Artifact Creature - Gestral
 {2}, {T}: Target creature you control fights another target creature. (Each deals damage equal to its power to the other.)
 ---
-Did I mention the prize is a powerful weapon? So, how about it?
+"Did I mention the prize is a powerful weapon? So, how about it?"
 
 2/2
 ```
@@ -975,8 +975,7 @@ This artifact enters with three stock counters.
 {1}, Remove a stock counter from this artifact, {T}: Create a Flower token (It's an artifact with "{T}, Sacrifice this artifact: Add {U}, {R} or {G}.")
 {3}, {T}: Put a stock counter on this artifact
 ---
-Sophie: Looks like you still have a lot of flowers left.
-Tiffanie: Well, there are less and less people to buy them. I just wish you didn't have to wear one.
+"Looks like you still have a lot of flowers left." remarked Sophie. "Well, there are less and less people to buy them. I just wish you didn't have to wear one." replied Tiffanie.
 ```
 
 [card implementation](../custom/cards/l/lumiere_flower_stand.txt)
@@ -1018,8 +1017,8 @@ When this artifact enters, create a Lumina token.
 {T}, Sacrifice a Chroma token: Create a Lumina token.
 {T}, Sacrifice a Nevron: Create a Lumina token.
 ---
-Let's see if your invention lives up to its reputation, shall we?
-- Lune
+"Let's see if your invention lives up to its reputation, shall we?"
+—Lune
 ```
 
 [card implementation](../custom/cards/l/lumina_converter.txt)
@@ -1038,8 +1037,8 @@ Artifact
 {T}: Add {C}.
 {2}, {T}: Lock or unlock a door of target Room you control. Activate only as a sorcery.
 ---
-Someone lives here.
-- Lune
+"Someone lives here."
+—Lune
 ```
 
 [card implementation](../custom/cards/m/manor_door.txt)
@@ -1097,7 +1096,7 @@ Tap three creatures you control: Untap Matthieu.
 Legendary Artifact Creature - Gestral
 When Noco enters or dies, draw a card, then discard a card from your hand.
 ---
-Intruders! Oh, Verso would not be pleased. En garde, ruffians!
+"Intruders! Oh, Verso would not be pleased. En garde, ruffians!"
 
 1/1
 ```
@@ -1116,7 +1115,7 @@ Intruders! Oh, Verso would not be pleased. En garde, ruffians!
 Legendary Artifact Creature - Gestral
 Whenever Ono-Puncho is dealt damage, return it to its owner's hand.
 ---
-But remember, once you hit me, the battle's over, so make it count!
+"But remember, once you hit me, the battle's over, so make it count!"
 
 1/5
 ```
@@ -1162,7 +1161,7 @@ When this creature dies, choose one —
 • Create a Chroma token.
 • Create a Lumina token.
 ---
-There must be some good loot behind there!
+"There must be some good loot behind there!"
 
 0/4
 ```
@@ -1191,8 +1190,8 @@ Artifact
 {1}, {T}, Sacrifice this artifact: Return target creature card from your graveyard to your hand.
 Luminous — {3}, {T}, Sacrifice this artifact: Return target creature card from your graveyard to the battlefield tapped. Activate this ability only if you control at least three Lumina tokens.
 ---
-You don't get to die yet.
-- Lune
+"You don't get to die yet."
+—Lune
 ```
 
 [card implementation](../custom/cards/r/revive_tint.txt)
@@ -1210,7 +1209,7 @@ Legendary Artifact Creature - Gestral
 When Romanifo enters, create a colorless Equipment artifact token named Romanifo's Balloon with "Equipped creature has flying" and equip {2}.
 Romanifo has indestructible as long as you control a token named Romanifo's Balloon.
 ---
-Some mean brushes here would say it's fun to pop balloons. They're MY balloons. Don't touch them.
+"Some mean brushes here would say it's fun to pop balloons. They're MY balloons. Don't touch them."
 
 1/1
 ```
@@ -1248,7 +1247,7 @@ When Sastro enters, put two 1/1 Gestral artifact creature tokens into play.
 {2}, {T}: Put a shield counter on another target Gestral you control.
 Whenever another nontoken Gestral creature you control enters, create a Chroma token.
 ---
-I sure love being irresponsible!
+"I sure love being irresponsible!"
 
 2/2
 ```
@@ -1300,8 +1299,8 @@ Legendary Artifact - Rock
 {T}: Target creature you control gains flying until end of turn.
 {1}, Sacrifice Soarrie: Draw a card.
 ---
-Esquie! Look what I found.
-- Verso
+"Esquie! Look what I found."
+—Verso
 ```
 
 [card implementation](../custom/cards/s/soarrie.txt)
@@ -1328,7 +1327,7 @@ Esquie! Look what I found.
 Legendary Artifact Creature - Gestral
 {5}, {T}: Return target creature to its owner's hand.
 ---
-Humans are so rude... more so than Gestrals... which is really saying something...
+"Humans are so rude... more so than Gestrals... which is really saying something..."
 
 2/3
 ```
@@ -1435,9 +1434,9 @@ Humans are so rude... more so than Gestrals... which is really saying something.
 ```
 4
 Artifact Creature - Gestral
-Reach
+Reach (This creature can block creatures with flying.)
 ---
-If I'm lucky, I'll become a weapon for a Sakapatate!
+"If I'm lucky, I'll become a weapon for a Sakapatate!"
 
 2/5
 ```
@@ -1458,7 +1457,7 @@ When The Gingerbread Door enters, each player creates a Food token.
 Creatures with power greater than the number of Foods on the battlefield can’t attack.
 {2}, {T}, Sacrifice this artifact: You gain 3 life.
 ---
-A group of five? A yummy looking cake! We have what is needed. NOW LET’S PARTYYYYY-
+"A group of five? A yummy looking cake! We have what is needed. NOW LET’S PARTYYYYY-"
 ```
 
 [card implementation](../custom/cards/t/the_gingerbread_door.txt)
@@ -1519,8 +1518,8 @@ Legendary Artifact - Rock
 {2}, {T}: Surveil 1.
 {1}, Sacrifice Urrie: Draw a card.
 ---
-FINE, FINE, FINE, Here. Pah! Take your rock and SCRAM!
-- François
+"FINE, FINE, FINE, Here. Pah! Take your rock and SCRAM!"
+—François
 ```
 
 [card implementation](../custom/cards/u/urrie.txt)

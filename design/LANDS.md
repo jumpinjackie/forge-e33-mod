@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 9/2/2026 11:55:10 am
+> Last generated: 18/2/2026 11:10:12 am
 
 ## Blade's Graveyard (Concealed Courtyard)
 
@@ -67,8 +67,8 @@ This land enters tapped.
 {T}: Add {C}.
 {2}, {T}, Sacrifice Crushing Cavern: Destroy target attacking creature without flying
 ---
-If anyone finds this journal, do not enter this cave, the Nevron inside will crush you.
-- Cassandra, Expedition 45
+"If anyone finds this journal, do not enter this cave, the Nevron inside will crush you."
+—Cassandra, Expedition 45
 ```
 
 [card implementation](../custom/cards/c/crushing_cavern.txt)
@@ -126,8 +126,8 @@ At the beginning of your upkeep, you may put a challenge counter on Endless Towe
 {T}: Add {C}
 {T}, Remove X challenge counters from Endless Tower: You may put a Nevron creature card with mana value X from your hand onto the battlefield.
 ---
-It's not selfish to make your own choices, sister.
-- Fading Woman
+"It's not selfish to make your own choices, sister."
+—Fading Woman
 ```
 
 [card implementation](../custom/cards/e/endless_tower.txt)
@@ -146,8 +146,8 @@ Legendary Land - Cave
 {T}: Add one mana of any type that a land you control could produce.
 {T}: Add {W}{U}{B}{R}{G}. Activate this ability only if you control a card named Soarrie, a card named Florrie, a card named Dorrie and a card named Urrie.
 ---
-Bonjour, mes amis!
-- Esquie
+"Bonjour, mes amis!"
+—Esquie
 ```
 
 [card implementation](../custom/cards/e/esquies_nest.txt)
@@ -166,8 +166,8 @@ Land
 {T}: Add {C}.
 {3}, {T}: Exile target Expeditioner you control. At the beginning of the next end step, return that card to the battlefield under its owner's control. If it entered under your control and is a creature, put a +1/+1 counter on it.
 ---
-So uh... We can rest a bit, but the moon is bright, I want to keep moving.
-- Gustave
+"So uh... We can rest a bit, but the moon is bright, I want to keep moving."
+—Gustave
 ```
 
 [card implementation](../custom/cards/e/expedition_camp.txt)
@@ -223,8 +223,8 @@ This land enters tapped.
 {T}: Add {C}.
 {1}{R}, {T}, Sacrifice this land: Search your library for a card and put it into your hand. Discard a card at random. Activate only as a sorcery.
 ---
-I maintain this place even after its fall so its history is never forgotten.
-- Unknown Gestral
+"I maintain this place even after its fall so its history is never forgotten."
+—Unknown Gestral
 ```
 
 [card implementation](../custom/cards/f/flying_casino.txt)
@@ -243,8 +243,7 @@ This land enters tapped
 {T}: Add {U}.
 {U}, {T}: Target creature you control gains flying until end of turn.
 ---
-Gustave: Expedition 68. Their boat was blown into the air by a storm. Lumière lost sight of it but assumed they crashed on the continent.
-Lune: And they survived. The storm, at least.
+"Expedition 68. Their boat was blown into the air by a storm. Lumière lost sight of it but assumed they crashed on the continent." explained Gustave. "And they survived. The storm, at least." remarked Lune.
 ```
 
 [card implementation](../custom/cards/f/flying_waters.txt)
@@ -271,8 +270,8 @@ Legendary Land
 {T}: Add {C}.
 {1}{B}, {T}: Put target Nevron card from your graveyard on top of your library.
 ---
-These siege engines seemed much more powerful in Lumière. But on this battlefield, next to all these broken bodies, staring at the true size of the monolith, I feel despair.
-- Carla, Expedition 57
+"These siege engines seemed much more powerful in Lumière. But on this battlefield, next to all these broken bodies, staring at the true size of the monolith, I feel despair."
+—Carla, Expedition 57
 ```
 
 [card implementation](../custom/cards/f/forgotten_battlefield.txt)
@@ -304,8 +303,7 @@ Land
 {T}: Add {C}.
 {1}{R/G}, {T}: Target Gestral creature you control fights another target creature. (Each deals damage equal to its power to the other.)
 ---
-Gestral Announcer: Hey humans! We’re here to see some fighting. If you don’t wanna fight, we’ll come down and fight ourselves!
-Sciel: They’re expecting a bit of a show. Shall we?
+"Hey humans! We’re here to see some fighting. If you don’t wanna fight, we’ll come down and fight ourselves!" shouted the impatient Gestral Announcer. "They’re expecting a bit of a show. Shall we?" said Sciel, to the rest of the party.
 ```
 
 [card implementation](../custom/cards/g/gestral_arena.txt)
@@ -323,8 +321,7 @@ Land - Town
 {T}: Add {C}.
 {T}: Add {C}{C}. Spend this mana only to cast Gestral spells or activate abilities of Gestrals.
 ---
-Lune: It's ... it's really a village of Gestrals!
-Gustave: They seem better at surviving than humans.
+"It's ... it's really a village of Gestrals!" remarked Lune with astonishment. "They seem better at surviving than humans." replied Gustave.
 ```
 
 [card implementation](../custom/cards/g/gestral_village.txt)
@@ -390,8 +387,8 @@ At the beginning of your upkeep, you may put a verse counter on this land.
 {T}: Add {C}.
 {T}, Remove two verse counters from this land: Expeditioner creatures you control get +1/+1 until end of turn.
 ---
-Maybe when this is over, we can fix up the opera house and you can perform for us. I want my first concert to be yours. And don't worry, I'll make sure the room is packed. I'll put up posters everywhere in town.
-- Maelle
+"Maybe when this is over, we can fix up the opera house and you can perform for us. I want my first concert to be yours. And don't worry, I'll make sure the room is packed. I'll put up posters everywhere in town."
+—Maelle
 ```
 
 [card implementation](../custom/cards/l/lumiere_opera_house.txt)
@@ -448,8 +445,8 @@ Land
 {T}: Add {C}.
 {T}: Add {U} or {R}. Activate this ability only if you control a Gestral or Grandis.
 ---
-The Grandis have embraced us with such warmth and hope. What a balm for the soul to know that other beings survived, that we in Lumière are not alone! It truly is a miracle.
-- Aurelien, Expedition 65
+"The Grandis have embraced us with such warmth and hope. What a balm for the soul to know that other beings survived, that we in Lumière are not alone! It truly is a miracle."
+—Aurelien, Expedition 65
 ```
 
 [card implementation](../custom/cards/m/monocos_station.txt)
@@ -487,8 +484,8 @@ This land enters tapped.
 {T}: Add {B}.
 {2}{B}{B}{B}, {T}, Exile this land: Mill four cards, then return a Nevron or Painter creature card from your graveyard to the battlefield. Activate only as a sorcery.
 ---
-But it seems we've been wrong about what she is. The Paintress is just as trapped as we. The real terror lies beneath The Monolith.
-- William, Expedition 60
+"But it seems we've been wrong about what she is. The Paintress is just as trapped as we. The real terror lies beneath The Monolith."
+—William, Expedition 60
 ```
 
 [card implementation](../custom/cards/r/renoirs_drafts.txt)
@@ -543,8 +540,8 @@ This land enters tapped unless you control a Nevron or Painter.
 {T}: Add {C}
 {T}: Add one mana of any color. This land deals 1 damage to you.
 ---
-Maybe. Maybe we'll just stay here and... enjoy the melody.
-- Luc, Expedition 67
+"Maybe. Maybe we'll just stay here and... enjoy the melody."
+—Luc, Expedition 67
 ```
 
 [card implementation](../custom/cards/s/sirenes_coliseum.txt)
@@ -620,8 +617,8 @@ Legendary Land
 {T}: Add {G}.
 {4}, {T}: Create a Lumina token. (It's an artifact with "{T}, Sacrifice this artifact: Scry 1.")
 ---
-Wait, there’s a message on the wall. “Took Maelle to the weird corals. Head north. Look for a door inside a hut“
-- Lune
+"Wait, there’s a message on the wall: Took Maelle to the weird corals. Head north. Look for a door inside a hut."
+—Lune
 ```
 
 [card implementation](../custom/cards/t/the_indigo_tree.txt)
@@ -651,7 +648,7 @@ At the beginning of your upkeep, remove a gommage counter, then exile all non-la
 When The Monolith has no gommage counters on it, sacrifice it.
 {T}: Add {C}.
 ---
-Like a clock of doom, ticking down one year at a time.
+Like a clock of inevitable doom, ticking down one year at a time.
 ```
 
 [card implementation](../custom/cards/t/the_monolith.txt)
@@ -698,7 +695,7 @@ Whenever a creature you control with flying attacks, remove a sky counter from T
 {T}: Add {G} or {U}.
 {2}{G/U}: Remove a sky counter from The Reacher.
 ---
-Little one, there's more to life, if you can just see how big the sky truly is. Reach out your hand, and it's yours...
+"Little one, there's more to life, if you can just see how big the sky truly is. Reach out your hand, and it's yours..."
 
 8/8
 ```
@@ -738,8 +735,8 @@ Legendary Land
 {T}: Add {C}.
 {5}, {T}: Return target Gestral card from your graveyard and put it into your hand. This ability costs {2} less to activate if you control a creature named Golgra, Gestral Chef
 ---
-MONOCO! You're trying to skip the queue again you old... uh... old... lazy... retired warrior!
-- Golgra
+"MONOCO! You're trying to skip the queue again you old... uh... old... lazy... retired warrior!"
+—Golgra
 ```
 
 [card implementation](../custom/cards/t/the_sacred_river.txt)
@@ -793,7 +790,8 @@ When Verso's Drafts enters, create two Lumina tokens. (It's an artifact with "{T
 {T}: Add {C}
 {4}, {T}: Create a 1/1 colorless Gestral artifact creature token.
 ---
-Welcome to our small little resort of supreme relaxation.
+"Welcome to our small little resort of supreme relaxation."
+—Half-baked Gestral
 ```
 
 [card implementation](../custom/cards/v/versos_drafts.txt)

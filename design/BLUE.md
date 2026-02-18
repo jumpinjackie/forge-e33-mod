@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 9/2/2026 11:55:10 am
+> Last generated: 18/2/2026 11:10:12 am
 
 ## An Advantage!
 
@@ -27,7 +27,7 @@ Legendary Creature - Human Citizen
 Whenever you cast a historic spell, draw a card. (Artifacts, legendaries, and Sagas are historic.)
 When this creature dies, create a Chroma token. (It's an artifact with "{T}, Sacrifice this artifact: Add one mana of any color. Spend this mana only to cast a Nevron, Gestral or Expeditioner spell.")
 ---
-Ahem. I hereby offically end our feud. With your departure, Lumière loses a brilliant light. And a good friend ...
+"Ahem. I hereby offically end our feud. With your departure, Lumière loses a brilliant light. And a good friend ..."
 
 1/2
 ```
@@ -106,7 +106,7 @@ Whenever you cast an artifact spell, you may draw a card. If you do, discard a c
 Artifact spells you cast cost {1} less to cast.
 When this creature dies, create a Chroma token. (It's an artifact with "{T}, Sacrifice this artifact: Add one mana of any color. Spend this mana only to cast a Nevron, Gestral or Expeditioner spell.")
 ---
-Hello there, Gustave. Perhaps one of these artifacts may prove useful to your mission?
+"Hello there, Gustave. Perhaps one of these artifacts may prove useful to your mission?"
 
 1/2
 ```
@@ -202,8 +202,8 @@ Flash
 Flying
 When this creature enters, counter target spell and draw a card.
 ---
-No, no, you are HIS creations, not mine. You will not take this Canvas from me!
-- The Paintress
+"No, no, you are HIS creations, not mine. You will not take this Canvas from me!"
+—The Paintress
 
 2/2
 ```
@@ -240,8 +240,8 @@ Flying.
 This creature can block only creatures with flying.
 When this creature dies, create a Chroma token. (It's an artifact with "{T}, Sacrifice this artifact: Add one mana of any color. Spend this mana only to cast a Nevron, Gestral or Expeditioner spell.")
 ---
-They were on a clean glide to the Monolith when they flew into the some sort of barrier and just ... gommaged away.
-- Avril, Expedition 40
+"They were on a clean glide to the Monolith when they flew into the some sort of barrier and just ... gommaged away."
+—Avril, Expedition 40
 
 3/1
 ```
@@ -263,8 +263,8 @@ Islandwalk.
 Whenever this vehicle deals combat damage to a player or planeswalker, draw a card.
 Crew 2
 ---
-The Paintress must be laughing. Diverting the resources of the entire Engineering and Defence divisions to construct those subs.
-- Sabine, Expedition 43
+"The Paintress must be laughing. Diverting the resources of the entire Engineering and Defence divisions to construct those subs."
+—Sabine, Expedition 43
 
 2/3
 ```
@@ -286,8 +286,8 @@ Lands with charted counters on them are Islands.
 When this creature enters or attacks, create a Map token.
 When this creature dies, create a Chroma token.
 ---
-The Paintress sent a storm to overcome us, but it is we who have overcome the storm! After surviving that, crushing those Nevrons was almost an afterthought.
-- Elodie, Expedition 68
+"The Paintress sent a storm to overcome us, but it is we who have overcome the storm! After surviving that, crushing those Nevrons was almost an afterthought."
+—Elodie, Expedition 68
 
 2/2
 ```
@@ -332,7 +332,7 @@ Affinity for Clea Planeswalkers
 Defender
 The strongest ice attack ever — At the beginning of your upkeep, François deals 4 damage to target creature an opponent controls. Tap that creature and put a stun counter on it.
 ---
-A ROCK? I am NOT a rock, do you have rocks for eyes? You certainly have rocks for BRAINS. I am clearly a TURTLE.
+"A ROCK? I am NOT a rock, do you have rocks for eyes? You certainly have rocks for BRAINS. I am clearly a TURTLE."
 
 1/6
 ```
@@ -361,7 +361,8 @@ Enchantment
 Whenever a creature you control with flying enters or a creature you control with flying attacks, you may put a quest counter on this enchantment.
 Remove four quest counters from this enchantment and sacrifice it: Draw three cards.
 ---
-Oh really? An Expedition? I certainly wasn't expecting that. But your presence here is proof that you climbed the tower, like all of us here. You can live here with us now, forever.
+"Oh really? An Expedition? I certainly wasn't expecting that. But your presence here is proof that you climbed the tower, like all of us here. You can live here with us now, forever."
+—Unknown Gestral
 ```
 
 [card implementation](../custom/cards/g/gestral_ascension_challenge.txt)
@@ -381,7 +382,7 @@ Creature - Grandis
 When this creature enters, you may search your library for a Picto card, reveal it, put it into your hand, then shuffle.
 {1}{U}, {T}: You may put a Picto card from your hand onto the battlefield.
 ---
-Finish my sentence in a wonderfully poetic way: Life blooms like a rose, with petals soft and frail...
+"Finish my sentence in a wonderfully poetic way: Life blooms like a rose, with petals soft and frail..."
 
 1/2
 ```
@@ -401,7 +402,7 @@ Kindred Sorcery - Expeditioner
 Gustave's Insight has flash as long as you control an Expeditioner.
 Look at the top five cards of your library. Put two of them into your hand and the rest on the bottom of your library in any order.
 ---
-Enjoying my uselessness of today and readying my usefulness for tomorrow.
+"Enjoying my uselessness of today and readying my usefulness for tomorrow."
 ```
 
 [card implementation](../custom/cards/g/gustaves_insight.txt)
@@ -417,8 +418,7 @@ Enjoying my uselessness of today and readying my usefulness for tomorrow.
 Instant
 Exile target nonland permanent and put three time counters on it. If it doesn't have suspend, it gains suspend. (At the beginning of its owner’s upkeep, they remove a time counter. When the last is removed, they may play it without paying its mana cost. If it’s a creature, it has haste.)
 ---
-Alicia: If we bring Maman out of the Canvas, she'll try to return. We must hide the Canvas...
-Clea: Well-reasoned. And such a... clever hiding spot you've chosen.
+"If we bring Maman out of the Canvas, she'll try to return. We must hide the Canvas..." remarked Alicia. "Well-reasoned. And such a... clever hiding spot you've chosen." replied an impressed Clea.
 ```
 
 [card implementation](../custom/cards/h/hiding_the_canvas.txt)
@@ -455,7 +455,7 @@ Whenever enchanted creature deals damage to an opponent, choose one —
 • Create a Lumina token
 • Create a Chroma token
 ---
-Do you heal from the top or the bottom? Or do you have to bring the halves together? Hey, can you control the process?
+"Do you heal from the top or the bottom? Or do you have to bring the halves together? Hey, can you control the process?"
 ```
 
 [card implementation](../custom/cards/l/lunes_curiosity.txt)
@@ -473,7 +473,7 @@ Kindred Instant - Expeditioner
 You may sacrifice two Lumina tokens rather than pay this spell's mana cost.
 Counter target spell unless its controller pays {2}.
 ---
-Not today!
+"Not today!"
 ```
 
 [card implementation](../custom/cards/l/lunes_denial.txt)
@@ -566,7 +566,7 @@ If {R} was spent on this spell, it deals X damage to any target, where X is the 
 If {W} was spent on this spell, exile up to one target creature with a stun counter at the beginning of your next end step.
 If {G} was spent on this spell, you gain 2 life for each creature on the battlefield.
 ---
-Doors of chroma, open!
+"Doors of chroma, open!"
 ```
 
 [card implementation](../custom/cards/s/sky_break.txt)
@@ -688,8 +688,8 @@ Enchantment
 At the beginning of your upkeep, you may put a verse counter on this enchantment.
 Sacrifice this enchantment: Gain control of target creature with power less than or equal to the number of verse counters on this enchantment. (This effect lasts indefinitely.)
 ---
-You will never be a good musician. You have no choice but to paint!
-- Osquio
+"You will never be a good musician. You have no choice but to paint!"
+—Osquio
 ```
 
 [card implementation](../custom/cards/v/versos_musical_training.txt)

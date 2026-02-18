@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 13/2/2026 4:08:59 pm
+> Last generated: 18/2/2026 11:10:12 am
 
 ## A Storm is Coming
 
@@ -79,8 +79,8 @@ Sorcery
 Destroy target Axon or Nevron.
 Cycling {2} ({2}, Discard this card: Draw a card.)
 ---
-Aline, you’re going to kill yourself! It’s too soon for you to return to any Canvas!
-- Renoir
+"Aline, you’re going to kill yourself! It’s too soon for you to return to any Canvas!"
+—Renoir
 ```
 
 [card implementation](../custom/cards/a/alines_return.txt)
@@ -159,9 +159,9 @@ Sacrifice this enchantment: Choose one —
 • Creatures you control get +1/+1 until end of turn.
 • Creatures you control gain hexproof until end of turn. (They can’t be the targets of spells or abilities your opponents control.)
 ---
-Maelle: If you’re gonna give someone flowers, you should probably do it before they wither and die.
-Gustave: What? The flower? Or Sophie?
-Maelle: Ooh dark. Sophie would approve.
+Maelle: "If you’re gonna give someone flowers, you should probably do it before they wither and die."
+Gustave: "What? The flower? Or Sophie?"
+Maelle: "Ooh dark. Sophie would approve."
 ```
 
 [card implementation](../custom/cards/b/bittersweet_reunion.txt)
@@ -248,8 +248,8 @@ Enchantment - Aura
 Enchant permanent.
 Enchanted permanent becomes an artifact and loses all abilities.
 ---
-The expeditioners, the ones killed by Nevrons. Gustave noticed their Chroma remains in their bodies. They never dissipated, like the Gommage.
-- Lune
+"The expeditioners, the ones killed by Nevrons. Gustave noticed their Chroma remains in their bodies. They never dissipated, like the Gommage."
+—Lune
 ```
 
 [card implementation](../custom/cards/c/chromatic_petrification.txt)
@@ -269,8 +269,8 @@ Kindred Enchantment - Expeditioner
 Sacrifice a nonland, nontoken permanent you control: Create a Chroma token.
 Exile a nonland, nontoken permanent you control: Create two Chroma tokens.
 ---
-Hmm. It's old chroma, not pure. It won't be like bringing the two of you back, but... we could use it in other ways.
-- Maelle
+"Hmm. It's old chroma, not pure. It won't be like bringing the two of you back, but... we could use it in other ways."
+—Maelle
 ```
 
 [card implementation](../custom/cards/c/chromatic_reclamation.txt)
@@ -390,8 +390,8 @@ Instant
 Exile all graveyards. You gain 1 life for each creature card exiled this way.
 Draw a card.
 ---
-For the sake of the living, we must part with the dead.
-- Renoir
+"For the sake of the living, we must part with the dead."
+—Renoir
 ```
 
 [card implementation](../custom/cards/c/closure.txt)
@@ -522,7 +522,8 @@ Choose one or more —
 • Elemental trick deals 4 damage to any target. Add {R}.
 • Target player gains 6 life. Add {G}.
 ---
-Elements. Converge!
+"Elements. Converge!"
+—Lune
 ```
 
 [card implementation](../custom/cards/e/elemental_trick.txt)
@@ -545,7 +546,6 @@ When Esquie attacks, if you control a card named Urrie, Surveil 2.
 When Esquie attacks, if it is saddled, choose one —
 • Draw a card.
 • Put a land card from your hand onto the battlefield.
-
 
 6/6
 ```
@@ -576,8 +576,7 @@ If you control a card named Dorrie, draw a card.
 If you control a card named Soarrie, you gain 3 life.
 If you control a card named Urrie, you may put a land card from your hand onto the battlefield.
 ---
-Gustave: So, wait. Esquie is that powerful?
-Sciel: Apparently so. But also lazy.
+"So, wait. Esquie is that powerful?" remarked a suprised Gustave. "Apparently so. But also lazy." replied Sciel.
 ```
 
 [card implementation](../custom/cards/e/esquies_charge.txt)
@@ -614,10 +613,10 @@ Instant
 Return target creature to its owner’s hand. You gain 3 life.
 Create a Lumina token. (It's an artifact with "{T}, Sacrifice this artifact: Scry 1.")
 ---
-Sciel: It was you. You saved me. Back then. Wait, but how?
-Esquie: I heard your tears. 
-Sciel: From so far away?
-Esquie: I heard you, so I came.
+Sciel: "It was you. You saved me. Back then. Wait, but how?"
+Esquie: "I heard your tears."
+Sciel: "From so far away?"
+Esquie: "I heard you, so I came."
 ```
 
 [card implementation](../custom/cards/e/esquies_rescue.txt)
@@ -635,7 +634,7 @@ Legendary Creature - Human Citizen Artificer
 {W}{U}, {T}: Target noncreature artifact becomes a copy of target creature until end of turn, except it is an artifact in addition to its other types.
 When this creature dies, create a Chroma token. (It's an artifact with "{T}, Sacrifice this artifact: Add one mana of any color. Spend this mana only to cast a Nevron, Gestral or Expeditioner spell.")
 ---
-I just finished my sculpture of the legendary Esquie. This may be my life’s finest work, yet not a single soul seems to care. How could I make it better?
+"I just finished my sculpture of the legendary Esquie. This may be my life’s finest work, yet not a single soul seems to care. How could I make it better?"
 
 1/4
 ```
@@ -738,7 +737,7 @@ Creature - Human Expeditioner
 Whenever this creature attacks, it gets +3/-3 until end of turn.
 When this creature dies, create a Chroma token.
 ---
-The trick is finding that perfect point where your nerves have calmed enough that your mind and body are one, but not so calm that your reactions are dulled. Some of the lads haven’t quite managed riding that edge, but I remain in full control of my body and thoughts!
+"The trick is finding that perfect point where your nerves have calmed enough that your mind and body are one, but not so calm that your reactions are dulled. Some of the lads haven’t quite managed riding that edge, but I remain in full control of my body and thoughts!"
 
 1/4
 ```
@@ -758,8 +757,8 @@ Creature - Human Expeditioner Cleric
 Mercy Kill - Sacrifice an Expeditioner creature: You gain X life and scry X, where X is the sacrified creature's power.
 When this creature dies, create a Chroma token.
 ---
-It's the right choice. It is. Even if it doesn't feel like it. Right? Right.
-- Lilou, Expedition 53
+"It's the right choice. It is. Even if it doesn't feel like it. Right? Right."
+—Lilou, Expedition 53
 
 1/2
 ```
@@ -780,8 +779,8 @@ Creature - Human Expeditioner
 Expeditioner spells you cast cost {1} less to cast.
 When this creature dies, create a Chroma token.
 ---
-Augmenting pictos with music was a stroke of genius. But the sonics have NO effect on the Nevrons here. It’s as if they can’t even hear our music, they just keep dancing to their own.
-- Gilles, Expedition 55
+"Augmenting pictos with music was a stroke of genius. But the sonics have NO effect on the Nevrons here. It’s as if they can’t even hear our music, they just keep dancing to their own."
+—Gilles, Expedition 55
 
 2/2
 ```
@@ -827,8 +826,8 @@ Whenever a Nevron creature dies, create a Food token.
 {2}, Sacrifice a Food token: Target non-Nevron creature deals 3 damage to itself.
 When this creature dies, create a Chroma token.
 ---
-I can't believe she convinced everyone to eat the Nevron. They've been puking for the past few hours. Great.
-- Julien, Expedition 59
+"I can't believe she convinced everyone to eat the Nevron. They've been puking for the past few hours. Great."
+—Julien, Expedition 59
 
 2/2
 ```
@@ -876,8 +875,8 @@ Creature - Human Expeditioner Pilot
 This creature saddles Mounts and crews Vehicles as though its power were 2 greater.
 When this creature dies, create a Chroma token. (It's an artifact with "{T}, Sacrifice this artifact: Add one mana of any color. Spend this mana only to cast a Nevron, Gestral or Expeditioner spell.")
 ---
-Damnit Hector, I told you to SLOW DOWN
-- Damien, Expedition 63
+"Damnit Hector, I told you to SLOW DOWN"
+—Damien, Expedition 63
 
 2/2
 ```
@@ -898,8 +897,8 @@ Flash.
 When this creature enters, destroy target creature or artifact.
 When this creature dies, create a Chroma token.
 ---
-We're out of explosives, but we've made enough holes in this place to reach that giant woman in the centre.
-- Luc, Expedition 67
+"We're out of explosives, but we've made enough holes in this place to reach that giant woman in the centre."
+—Luc, Expedition 67
 
 2/2
 ```
@@ -937,7 +936,7 @@ Flying
 This creature can block only creatures with Flying.
 When this creature dies, create a Chroma token. (It's an artifact with "{T}, Sacrifice this artifact: Add one mana of any color. Spend this mana only to cast a Nevron, Gestral or Expeditioner spell.")
 ---
-Our only choice is to take matters into our own hands. Fortune favors the bold. We must forge ahead with CONVICTION.
+"Our only choice is to take matters into our own hands. Fortune favors the bold. We must forge ahead with CONVICTION."
 
 4/4
 ```
@@ -960,8 +959,7 @@ You may choose not to untap this creature during your untap step.
 Nevron Whisperer — {2}, {T}: Gain control of target Nevron creature for as long as this creature remains tapped.
 When this creature dies, create a Chroma token.
 ---
-Gregoire is, as usual, deeply suspicious, but this could change our entire understanding of Nevrons and the Paintre-
-- Renee, Expedition 81
+"Gregoire is, as usual, deeply suspicious, but this could change our entire understanding of Nevrons and the Paintre-"
 
 1/2
 ```
@@ -983,8 +981,8 @@ You gain 2 life for each creature you control.
 Draw a card.
 Luminous — Create a 1/1 white Human Expeditioner token with "When this creature dies, create a Chroma token." if you control at least three Lumina tokens.
 ---
-Five tables this year, you see that? Told you we’d beat the 34s.
-- Catherine
+"Five tables this year, you see that? Told you we’d beat the 34s."
+—Catherine
 ```
 
 [card implementation](../custom/cards/e/expedition_festival.txt)
@@ -1027,7 +1025,7 @@ At the beginning of your upkeep, choose a card name then reveal the top card of 
 {2}{B}, {T}: Surveil 2.
 When this creature dies, create a Chroma token.
 ---
-The Paintress is going to punish you! You blasphemers. The Gommage is our fault! We brought this upon ourselves. Because we dared to defy her!
+"The Paintress is going to punish you! You blasphemers. The Gommage is our fault! We brought this upon ourselves. Because we dared to defy her!"
 
 2/3
 ```
@@ -1054,7 +1052,7 @@ Destroy target creature or planeswalker. Mill cards equal to its mana value.
 Luminous — If you control three or more Lumina tokens, put a card from among those cards into your hand.
 Foretell {U}{B} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)
 ---
-The cards have spoken!
+"The cards have spoken!"
 ```
 
 [card implementation](../custom/cards/f/full_deck.txt)
@@ -1110,7 +1108,8 @@ Bronze Rank - As long as there are three or more quest counters on this enchantm
 Silver Rank - As long as there are four or more quest counters on this enchantment, creatures you control have Ward 1.
 Gold Rank - As long as there are five or more quest counters on this enchantment, creatures you control have trample.
 ---
-00:36:500? Not a bad time, human.
+"00:36:500? Not a bad time, human."
+—Un-named Gestral
 ```
 
 [card implementation](../custom/cards/g/gestral_foot_race_challenge.txt)
@@ -1130,7 +1129,8 @@ Whenever a Human you control enters, you may put a quest counter on this enchant
 As long as this enchantment as two or more quest counters, creatures you control gain vigilance.
 As long as this enchantment as three or more quest counters, creatures you control gain prowess.
 ---
-If I were a 2-year-old human, at what age would I gommage? ... You're probably right, I can't count anyway.
+"If I were a 2-year-old human, at what age would I gommage? ... You're probably right, I can't count anyway."
+—Un-named Gestral
 ```
 
 [card implementation](../custom/cards/g/gestral_parkour_challenge.txt)
@@ -1150,7 +1150,8 @@ Whenever a creature you control becomes the target of a spell or ability, you ma
 Normal Difficulty — As long as this enchantment has three or more quest counters on it, whenever a creature you control becomes the target of a spell or ability, draw a card.
 Hard Difficulty — {U/R}{U/R}: You may choose new targets for target spell or ability. Activate this ability only if this enchantment has five or more quest counters on it.
 ---
-Oh, you won. You deserve this reward. Have fun with it!
+"Oh, you won. You deserve this reward. Have fun with it!"
+—Un-named Gestral
 ```
 
 [card implementation](../custom/cards/g/gestral_raft_volleyball_challenge.txt)
@@ -1272,8 +1273,8 @@ Absorbs Flowers — Whenever a Flower token leaves the battlefield, choose one �
 • Put a shield counter on target creature.
 • Draw a card.
 ---
-Gustave, wait! It seems peaceful, as long as we don't touch the flowers.
-- Lune
+"Gustave, wait! It seems peaceful, as long as we don't touch the flowers."
+—Lune
 
 3/4
 ```
@@ -1324,8 +1325,8 @@ XWB
 Sorcery - Gradient
 Exile X target nonland permanents with mana value X or higher that aren’t legendary or Nevrons.
 ---
-Your mother paints life. Whilst your father, death. What will you paint?
-- Alicia
+"Your mother paints life. Whilst your father, death. What will you paint?"
+—Alicia
 ```
 
 [card implementation](../custom/cards/g/gommage.txt)
@@ -1351,9 +1352,9 @@ WU
 Creature - Grandis
 {W/U}, {T}: Remove a counter from target permanent.
 ---
-Cleaner 1: I can clear the snow and I can clear the rubble, but this is too much.
-Cleaner 2: Must we truly dispose of this thing?
-Cleaner 1:It does not obstruct the way. It is simply ... there.
+"I can clear the snow and I can clear the rubble, but this is too much."
+"Must we truly dispose of this thing?"
+"It does not obstruct the way. It is simply ... there."
 
 1/4
 ```
@@ -1378,7 +1379,7 @@ Creature - Grandis
 Vigilance
 {1}{W/U}, {T}: Tap target creature.
 ---
-Contrary to what some believe, guard duty is quite rewarding. I find it meditative and instructional.
+"Contrary to what some believe, guard duty is quite rewarding. I find it meditative and instructional."
 
 1/4
 ```
@@ -1448,7 +1449,7 @@ From Fire — {W}{R},{T}: Gustave deals 3 damage to target creature, you gain 3 
 Strike Storm — {W}{R}: Gustave gains double-strike until end of turn, put two charge counters on him. Activate only once per turn.
 Overcharge — {T}, Remove X charge counters from Gustave: Gustave deals X damage to target creature and that creature's controller.
 ---
-For those who come after.
+"For those who come after."
 
 3/3
 ```
@@ -1647,7 +1648,7 @@ Tree of Life — {1}{G}, {T}, Remove a stain counter from Lune: Return target no
 Rebirth — {1}{W}, {T}, Remove two stain counters from Lune: Return target creature card with mana value 4 or less from your graveyard onto the battlefield.
 Elemental Genesis — {T}, Remove four stain counters from Lune: Lune deals 4 damage to each of up to two targets.
 ---
-As long as even one of us stands, our fight is not over.
+"As long as even one of us stands, our fight is not over."
 
 3/3
 ```
@@ -1764,7 +1765,7 @@ Choose one —
 • Destroy all Rooms.
 Draw a card.
 ---
-You're ok.
+"You're ok."
 ```
 
 [card implementation](../custom/cards/m/manor_fire.txt)
@@ -1861,7 +1862,7 @@ Anger mask — Remove an anger counter from Mask Keeper: Untap him.
 Joy mask — Remove a joy counter from Mask Keeper: Mask Keeper gains lifelink until end of turn.
 Sadness mask — Remove a sadness counter from Mask Keeper: Put a stun counter on target creature.
 ---
-We all need masks.
+"We all need masks."
 
 8/8
 ```
@@ -1980,7 +1981,7 @@ Legendary Creature - Human Painter Citizen
 {T}, Sacrifice a Chroma token: Draw a card.
 When this creature dies, create a Chroma token.
 ---
-I know, how about showing me a dance of love and sorrow? I am also the official painter of the Opera. Will you help me? If you inspire me, you may become the main painting of Lumière’s Opera.
+"I know, how about showing me a dance of love and sorrow? I am also the official painter of the Opera. Will you help me? If you inspire me, you may become the main painting of Lumière’s Opera."
 
 1/3
 ```
@@ -2025,8 +2026,7 @@ Nevron creatures you control get +1/+1.
 At the beginning of your upkeep, create a 1/1 colorless Nevron creature token.
 Sacrifice a Nevron: Draw a card.
 ---
-Verso: What happened to her?
-Maelle: I bet Clea hated Maman's portrait of her. So she painted over her.
+"What happened to her?" asked Verso. "I bet Clea hated Maman's portrait of her. So she painted over her." replied Maelle.
 
 3/4
 ```
@@ -2158,8 +2158,8 @@ Sorcery
 As an additional cost to cast this spell, sacrifice three Chroma tokens.
 Return target card you own from exile to your hand.
 ---
-Painting isn't about verisimilitude, it's about essence. The truth of who they are.
-- Verso
+"Painting isn't about verisimilitude, it's about essence. The truth of who they are."
+—Verso
 ```
 
 [card implementation](../custom/cards/r/repaint.txt)
@@ -2183,7 +2183,7 @@ Twilight Slash - {W}{B},{T}: Sciel deals 2 damage to target creature, you gain 2
 Intervention - {W}{W},{T}: Untap target creature. Create a Chroma token.
 Our Sacrifice - {1}{B}{B}, {T}, Pay X life: Up to two target creatures each get -X/-X until end of turn.
 ---
-Death is a friend who will welcome me home
+"Death is a friend who will welcome me home"
 
 3/3
 ```
@@ -2250,8 +2250,8 @@ Sorcery
 Destroy each artifact with mana value X or less if {R} was spent on this spell.
 Destroy each enchantment with mana value X or less if {G} was spent on this spell.
 ---
-Cathartic.
-- Sciel
+"Cathartic."
+—Sciel
 ```
 
 [card implementation](../custom/cards/s/shrine_destruction.txt)
@@ -2506,7 +2506,7 @@ WUBRG
 Kindred Sorcery - Expeditioner
 You win the game if you control a total of 33 or more Expeditioner, Chroma, Lumina or Picto permanents.
 ---
-When one falls, we continue.
+"When one falls, we continue."
 ```
 
 [card implementation](../custom/cards/t/the_greatest_expedition_in_history.txt)
@@ -2596,9 +2596,9 @@ Reach, first strike
 At the beginning of each player’s upkeep, that player sacrifices a creature they control with a cursed counter on it.
 {4}, {T}: Put a cursed counter on target creature.
 ---
-Maelle: What’s that?
-Verso: The tisseur, it works for Sirène.
-Lune: So he creates all of that for her.
+Maelle: "What’s that?"
+Verso: "The tisseur, it works for Sirène."
+Lune: "So he creates all of that for her."
 
 4/5
 ```
@@ -2685,7 +2685,7 @@ Strike Storm — Verso has Double Strike as long has he has three or more rank c
 Marking Shot — {U/B}, {T}: Verso deals 1 damage to any target. If Verso has three or more rank counters, he deals 2 damage to any target instead.
 Phantom Stars — {4}{W}, {T}, Remove X rank counters from Verso: Verso deals X damage to each of up to two target creatures.
 ---
-Let's carve a path.
+"Let's carve a path."
 
 3/3
 ```
@@ -2710,9 +2710,9 @@ Enchantment
 At the beginning of your upkeep, you may put a verse counter on this enchantment.
 Sacrifice this enchantment: Target creature gets +X/+X and lifelink until end of turn, where X is the number of verse counters on this enchantment.
 ---
-Maelle: What song was that? I feel like I know it.
-Verso: Yeah, it’s an old song I used to play to my sister.
-Maelle: Can you play another?
+Maelle: "What song was that? I feel like I know it."
+Verso: "Yeah, it’s an old song I used to play to my sister."
+Maelle: "Can you play another?"
 ```
 
 [card implementation](../custom/cards/v/versos_composition.txt)
@@ -2731,8 +2731,7 @@ Flying, trample, lifelink
 Whenever Verso’s Sky Train attacks, create a Lumina token.
 Crew 2 (Tap any number of creatures you control with total power 2 or more: This Vehicle becomes an artifact creature until end of turn.)
 ---
-Choo Choo!
-- Verso
+"Choo Choo!"
 
 4/4
 ```
@@ -2751,8 +2750,8 @@ UB
 Instant
 Target creature you control becomes a copy of target creature until end of turn.
 ---
-I envy them, those who can’t see. Those who know not, that they are not. And those who live, blithe and free, sins forgotten and thus absolved. A fresh dawn in their playground, while we live in shadows, swimming in ink. We are but a fragile dream, a singular weed, resisting, ever resisting.
-- Masked Woman
+"I envy them, those who can’t see. Those who know not, that they are not. And those who live, blithe and free, sins forgotten and thus absolved. A fresh dawn in their playground, while we live in shadows, swimming in ink. We are but a fragile dream, a singular weed, resisting, ever resisting."
+—Masked Woman
 ```
 
 [card implementation](../custom/cards/v/vicarious_envy.txt)
@@ -2773,8 +2772,8 @@ Devoid (This card has no color.)
 This spell costs {2} less to cast if you control a painter.
 Void Meteors deals 4 damage divided as you choose among any number of targets.
 ---
-How cruel of your father to use you like this.
-- The Paintress
+"How cruel of your father to use you like this."
+—The Paintress
 ```
 
 [card implementation](../custom/cards/v/void_meteors.txt)

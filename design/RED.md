@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 9/2/2026 11:55:10 am
+> Last generated: 18/2/2026 11:10:12 am
 
 ## Anger
 
@@ -67,7 +67,7 @@ You may sacrifice a Mountain rather than pay this spell's mana cost.
 Crustal Crush deals 5 damage to target creature or planeswalker.
 Create a Lumina token. (It's an artifact with "{T}, Sacrifice this artifact: Scry 1.")
 ---
-Let's shake the earth!
+"Let's shake the earth!"
 ```
 
 [card implementation](../custom/cards/c/crustal_crush.txt)
@@ -122,8 +122,8 @@ Luminous — Earth Rising deals 3 damage to each creature without flying and eac
 Instant
 You may put a creature card from your hand onto the battlefield. That creature gains haste. Sacrifice that creature at the beginning of the next end step.
 ---
-This only truly ends if you destroy the canvas, and that means stopping the final sliver of Verso's soul from painting.
-- Clea
+"This only truly ends if you destroy the canvas, and that means stopping the final sliver of Verso's soul from painting."
+—Clea
 ```
 
 [card implementation](../custom/cards/e/entering_the_canvas.txt)
@@ -140,8 +140,8 @@ This only truly ends if you destroy the canvas, and that means stopping the fina
 Artifact Creature - Expeditioner
 Trample
 ---
-Our lives are forfeit anyway, but is there perhaps a better way to spend such precious coin?
-- Carla, Expedition 57
+"Our lives are forfeit anyway, but is there perhaps a better way to spend such precious coin?"
+—Carla, Expedition 57
 
 5/4
 ```
@@ -160,8 +160,8 @@ Creature - Human Expeditioner Artificer
 Sacrifice an artifact: Target creature gets +1/+1 until end of turn.
 When this creature dies, create a Chroma token.
 ---
-I dare not show my true feelings. As Commander, I cannot yield to fear. But I can’t help but wonder, is pressing forward the correct course of action?
-- Carla, Expedition 57
+"I dare not show my true feelings. As Commander, I cannot yield to fear. But I can’t help but wonder, is pressing forward the correct course of action?"
+—Carla, Expedition 57
 
 2/2
 ```
@@ -201,7 +201,7 @@ Target creature gains double strike until end of turn. (It deals both first-stri
 Create a Lumina token. (It's an artifact with "{T}, Sacrifice this artifact: Scry 1.")
 Foretell {R} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)
 ---
-Lady luck smiled today!
+"Lady luck smiled today!"
 ```
 
 [card implementation](../custom/cards/f/fortunes_fury.txt)
@@ -221,8 +221,8 @@ Kindred Enchantment - Gestral Aura
 Enchant Land
 Enchanted land has “{T}, Discard a card: Draw a card.”
 ---
-Yahoo! I can sell stuff! You gots Chroma, yeh?
-- Delsitra
+"Yahoo! I can sell stuff! You gots Chroma, yeh?"
+—Delsitra
 ```
 
 [card implementation](../custom/cards/g/gestral_bazaar.txt)
@@ -250,8 +250,8 @@ Kindred Sorcery - Gestral
 As an additional cost to cast this spell, sacrifice a Gestral.
 Gestral Volleyball Strike deals 5 damage to any target.
 ---
-I captured a few baby gestrals we can use as balls. I asked for their consent. They all said yes.
-- Un-named Gestral
+"I captured a few baby gestrals we can use as balls. I asked for their consent. They all said yes."
+—Un-named Gestral
 ```
 
 [card implementation](../custom/cards/g/gestral_volleyball_strike.txt)
@@ -275,9 +275,9 @@ Kindred Sorcery - Expeditioner
 X target creatures can't block this turn.
 Create a Lumina token. (It's an artifact with "{T}, Sacrifice this artifact: Scry 1.")
 ---
-Sunniso: Geez, you don't need to be so rude.
-Gustave: Nononono, uh ... it's just, um ... it's the password ...
-Sunniso: Well, I don't know! Golgra never told me the password. But whatever, just go in.
+Sunniso: "Geez, you don't need to be so rude."
+Gustave: "Nononono, uh ... it's just, um ... it's the password ..."
+Sunniso: "Well, I don't know! Golgra never told me the password. But whatever, just go in."
 ```
 
 [card implementation](../custom/cards/g/get_out_of_my_way.txt)
@@ -320,7 +320,7 @@ When Grosse Tête has three or more quake counters, sacrifice it.
 Artifact Creature - Gestral
 At the beginning of each upkeep, count the number of permanents. If the number is even, until end of turn, creatures you control get +1/+1.
 ---
-Thank the Dessendres,“Whees” and “Whoos” are perfectly balanced, you did it!
+"Thank the Dessendres, Whees and Whoos are perfectly balanced, you did it!"
 
 2/3
 ```
@@ -377,7 +377,7 @@ Kindred Sorcery - Expeditioner
 Lightning Dance deals 1 damage to any target, 2 damage to another target, and 3 damage to a third target.
 Luminous — Draw a card if you control at least three Lumina tokens.
 ---
-Feel the storm!
+"Feel the storm!"
 ```
 
 [card implementation](../custom/cards/l/lightning_dance.txt)
@@ -422,7 +422,7 @@ R
 Legendary Artifact Creature - Gestral
 Whenever Monsieur Frappe is blocked, tap all creatures blocking him. Prevent all combat damage that would be dealt this turn by Monsieur Frappe and each creature blocking it.
 ---
-Try to counter this, worm.
+"Try to counter this, worm."
 
 3/3
 ```
@@ -442,8 +442,8 @@ Creature - Human Expeditioner Soldier
 Mutiny! — Whenever another Expeditioner creature you control dies, target opponent gains control of this creature.
 When this creature dies, create a Chroma token.
 ---
-It's a gutting realization, what has to be done. The mission is too important. The team is too important. We can't just throw our lives away for nothing. I hate that it came to this, but he broke our trust.
-- Vincent, Expedition 48
+"It's a gutting realization, what has to be done. The mission is too important. The team is too important. We can't just throw our lives away for nothing. I hate that it came to this, but he broke our trust."
+—Vincent, Expedition 48
 
 3/3
 ```
@@ -482,13 +482,13 @@ Kindred Instant - Expeditioner
 Gain control of target creature until end of turn. Untap that creature. It gains haste until end of turn.
 Create a Lumina token.
 ---
-Monoco: I will never join you again.
-Verso: There will be a lot of fighting though.
-Monoco: Oh yeah, that's true.
-Verso: Yeah, it's true.
-Monoco: There will be a lot of fighting.
-Verso: Exactly.
-Monoco: Count me in then.
+Monoco: "I will never join you again."
+Verso: "There will be a lot of fighting though."
+Monoco: "Oh yeah, that's true."
+Verso: "Yeah, it's true."
+Monoco: "There will be a lot of fighting."
+Verso: "Exactly."
+Monoco: "Count me in then."
 ```
 
 [card implementation](../custom/cards/p/persuasive_argument.txt)
@@ -586,7 +586,7 @@ Kindred Sorcery - Expeditioner
 Terraquake deals X damage to each creature without flying, each planeswalker and each player, where X is twice the number of non-basic lands in play.
 Luminous — Draw a card if you control at least three Lumina tokens.
 ---
-Earth. Rise!
+"Earth. Rise!"
 ```
 
 [card implementation](../custom/cards/t/terraquake.txt)
@@ -605,7 +605,7 @@ Kindred Instant - Expeditioner
 Thunderfall deals 2 damage to any target.
 Luminous — Thunderfall deals 4 damage instead if you control at least three Lumina tokens.
 ---
-Meet your reckoning!
+"Meet your reckoning!"
 ```
 
 [card implementation](../custom/cards/t/thunderfall.txt)
@@ -626,8 +626,8 @@ Strikes with its dead partner — {2}, Sacrifice a Nevron: This creature deals d
 Slams its shield — {R}{R}, {T}, Remove a shield counter from this creature: This creature deals 4 damage to any target.
 When this creature dies, target opponent creates a Lumina token.
 ---
-INTRUDER ALERT! INTRUDER ALERT! Send forth the ULTIMATE WEAPON!
-- Tropa
+"INTRUDER ALERT! INTRUDER ALERT! Send forth the ULTIMATE WEAPON!"
+—Tropa
 
 4/5
 ```
@@ -648,8 +648,8 @@ As this enchantment enters, choose a creature type.
 Whenever a creature you control of the chosen type enters, target creature you control of the chosen type with greater mana value gains haste until end of turn.
 Whenever two or more creatures of the chosen type attacks, they each get +1/+0 until end of turn.
 ---
-Verso traded his life for yours. I both love and hate him for that. That damn fool.
-- Clea
+"Verso traded his life for yours. I both love and hate him for that. That damn fool."
+—Clea
 ```
 
 [card implementation](../custom/cards/w/waiting_for_clea_to_play.txt)

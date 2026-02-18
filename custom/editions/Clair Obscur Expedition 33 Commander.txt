@@ -27,7 +27,7 @@ Type=Custom
 181 R Shivan Reef @Sandfall Interactive ${"flavorName": "Frozen Hearts"}
 226 C Growth Spiral @Seb McKinnon
 273 M Mana Drain @Raymond Swanland
-283 U Mask of Memory @Allen Morris
+283 U Mask of Memory @Sandfall Interactive
 288 R Mirage Mirror @Craig J Spearing
 294 U Mortify @Sandfall Interactive
 315 U Patchwork Banner @Sarah Finnigan
