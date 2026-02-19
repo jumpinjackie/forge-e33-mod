@@ -9,6 +9,8 @@ This mod is multi-faceted and consists of:
  * [Maybe in the future, if I'm still motivated] A custom [Forge quest mode](https://github.com/Card-Forge/forge?tab=readme-ov-file#-quest-modes) focused solely on the enemies and bosses of Expedition 33 with decks only from this custom set.
  * [In the long distant future maybe, if I'm really really motivated] A custom [Forge adventure mode](https://github.com/Card-Forge/forge?tab=readme-ov-file#-adventure-mode) plane focused solely on the world, enemies and bosses of Expedition 33 with decks only from this custom set.
 
+This is a fan project and is not affiliated with Sandfall Interactive or Wizards of the Coast.
+
 # Installing (for Forge)
 
 > Forge is only recommended for playing against AI opponents. My attempts to get Forge multiplayer working have been absolute failures. Cockatrice is the recommended app if you want multiplayer magic with this set.
