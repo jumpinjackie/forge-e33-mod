@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 18/2/2026 11:10:12 am
+> Last generated: 19/2/2026 12:32:38 pm
 
 ## Abbest
 
@@ -310,7 +310,7 @@ When this creature dies, create a Chroma token.
 ## Expedition 69 Surveyor
 
 ```
-3G
+2G
 Creature - Human Expeditioner
 When this creature enters, you may search your library for a basic land card, put that card onto the battlefield tapped, then shuffle.
 Whenever this creature attacks, surveil 1.
@@ -328,6 +328,7 @@ When this creature dies, create a Chroma token.
 
  - In the game, Expedition 69 were responsible for most of the grappling points installed throughout the continent. Obviously then, members of this expeditions have a strong exploration theme.
  - For this card, I've gone with a land ramp effect with a surveil attack trigger to sell the Surveyor > Surveiling.
+ - 19/02/2026: Reduce cost from 3G to 2G
 
 ## Face Adversity
 

@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 18/2/2026 11:10:12 am
+> Last generated: 19/2/2026 12:32:38 pm
 
 ## A Rock for François
 
@@ -714,13 +714,14 @@ When this creature enters, reveal the top four cards of your library. Put all Ge
 ## Gestral Villager
 
 ```
-2
+1
 Artifact Creature - Gestral
-
+{T}: Add {C}
+{1}, {T}: Add one mana of any color. 
 ---
 "Expeditioners, eh? You're a fun looking bunch. Unless you try to cause problems. Then we'll beat you up. Which will be fun for me, but not for you."
 
-2/1
+1/1
 ```
 
 [card implementation](../custom/cards/g/gestral_villager.txt)
@@ -728,6 +729,7 @@ Artifact Creature - Gestral
 ### Design Notes
 
  - Just a vanilla Gestral to round out a Gestral tribal deck and to round out the creature roster for draft/limited
+ - 19/02/2026: Converted to a mana dork that's basically a creature version of Painted Bluffs
 
 ## Gestral Warrior
 

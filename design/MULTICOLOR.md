@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 18/2/2026 11:26:01 am
+> Last generated: 19/2/2026 3:18:13 pm
 
 ## A Storm is Coming
 
@@ -264,10 +264,11 @@ Enchanted permanent becomes an artifact and loses all abilities.
 ## Chromatic Reclamation
 
 ```
-2BG
+GW
 Kindred Enchantment - Expeditioner
-Sacrifice a nonland, nontoken permanent you control: Create a Chroma token.
-Exile a nonland, nontoken permanent you control: Create two Chroma tokens.
+Sacrifice a Chroma token: Put target Expeditioner card from your graveyard to the top of your library.
+Sacrifice two Chroma tokens: Return target Expeditioner card from your graveyard to your hand.
+Sacrifice three Chroma tokens: Put target Expeditioner permanent card from your graveyard to the battlefield.
 ---
 "Hmm. It's old chroma, not pure. It won't be like bringing the two of you back, but... we could use it in other ways."
 —Maelle
@@ -279,6 +280,7 @@ Exile a nonland, nontoken permanent you control: Create two Chroma tokens.
 
  - Intended to be a combo engine, just like Expedition 35 Bridge converts permanents to extra cards. This converts permanents to extra Chroma tokens.
  - 23/01/2026: Added nonland clause to both abilities and added Expeditioner sub-type
+ - 20/02/2025: Rework design to be a recursion engine for Expeditioners with the quality of effect increasing with the number of Chroma tokens invested.
 
 ## Chromatic Vines
 
@@ -976,7 +978,7 @@ When this creature dies, create a Chroma token.
 
 ```
 XWU
-Sorcery
+Kindred Sorcery - Expeditioner
 You gain X life. Create X 1/1 white Human Expeditioner tokens with "When this creature dies, create a Chroma token."
 Luminous — Draw X cards if you control at least three Lumina tokens.
 ---
@@ -2615,11 +2617,12 @@ Lune: "So he creates all of that for her."
 ## Tomorrow Comes
 
 ```
-WU
+1WU
 Kindred Instant - Expeditioner
-Look at the top three cards of your library. Put one of them into your hand and the rest on the bottom of your library in any order.
-You gain 3 life.
-Luminous — If you control three or more Lumina tokens, create two 1/1 Human Expeditioner tokens with "When this creature dies, create a Chroma token."
+Search your library for up to three Expeditioner cards, reveal them, then shuffle and put those cards on top in any order.
+Create a Lumina token. (It's an artifact with "{T}, Sacrifice this artifact: Scry 1.")
+---
+The night is darkest before the dawn.
 ```
 
 [card implementation](../custom/cards/t/tomorrow_comes.txt)
@@ -2628,6 +2631,7 @@ Luminous — If you control three or more Lumina tokens, create two 1/1 Human Ex
 
  - Another tutor to enable the Expeditioner tribal strategy / Expeditioner spell toolbox.
  - 12/11/2025: Rework as a life-gaining impulse with a token generating Luminous bonus.
+ - 19/02/2026: Rework again as an Expeditioner-aligned variant of Congregation at Dawn with a Lumina bonus. So it is back to being a tutor, but it's not a direct one.
 
 ## Torture // Nurture
 

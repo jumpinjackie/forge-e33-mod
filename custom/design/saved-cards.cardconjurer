@@ -21335,8 +21335,8 @@
                     "masks": []
                 },
                 {
-                    "name": "Green Frame",
-                    "src": "/img/frames/m15/nyx/m15FrameGNyx.png",
+                    "name": "White Frame",
+                    "src": "/img/frames/m15/nyx/m15FrameWNyx.png",
                     "masks": [
                         {
                             "src": "/img/frames/m15/regular/m15MaskPinline.png",
@@ -21349,8 +21349,8 @@
                     ]
                 },
                 {
-                    "name": "Black Frame",
-                    "src": "/img/frames/m15/nyx/m15FrameBNyx.png",
+                    "name": "Green Frame",
+                    "src": "/img/frames/m15/nyx/m15FrameGNyx.png",
                     "masks": [
                         {
                             "src": "/img/frames/m15/regular/m15MaskPinline.png",
@@ -21379,8 +21379,8 @@
                     ]
                 },
                 {
-                    "name": "Green Frame",
-                    "src": "/img/frames/m15/nyx/m15FrameGNyx.png",
+                    "name": "White Frame",
+                    "src": "/img/frames/m15/nyx/m15FrameWNyx.png",
                     "masks": [
                         {
                             "src": "/img/frames/m15/regular/m15MaskRules.png",
@@ -21393,8 +21393,8 @@
                     ]
                 },
                 {
-                    "name": "Black Frame",
-                    "src": "/img/frames/m15/nyx/m15FrameBNyx.png",
+                    "name": "Green Frame",
+                    "src": "/img/frames/m15/nyx/m15FrameGNyx.png",
                     "masks": [
                         {
                             "src": "/img/frames/m15/regular/m15MaskRules.png",
@@ -21424,11 +21424,11 @@
                 }
             ],
             "artSource": "https://jumpinjackie.github.io/e33-reference-art/images/cards/chromatic_reclamation.jpg",
-            "artX": -0.48009950248756217,
-            "artY": -0.12366737739872068,
-            "artZoom": 2.119,
+            "artX": -0.4427860696517413,
+            "artY": 0.03553660270078181,
+            "artZoom": 1.609,
             "artRotate": "0",
-            "setSymbolSource": "http://localhost:4242/img/setSymbols/official/pz1-r.svg",
+            "setSymbolSource": "http://localhost:4242/img/setSymbols/official/pz1-u.svg",
             "setSymbolX": 0.8706467661691543,
             "setSymbolY": 0.5707178393745558,
             "setSymbolZoom": 0.34700000000000003,
@@ -21569,7 +21569,7 @@
             "text": {
                 "mana": {
                     "name": "Mana Cost",
-                    "text": "2 B G",
+                    "text": "G W",
                     "y": 0.0613,
                     "width": 0.9292,
                     "height": 0.03380952380952381,
@@ -21605,7 +21605,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Sacrifice a nonland, nontoken permanent you control: Create a Chroma token.\nExile a nonland, nontoken permanent you control: Create two Chroma tokens.{flavor}“Hmm. It’s old chroma, not pure. It won’t be like bringing the two of you back, but... we could use it in other ways.”\n—Maelle",
+                    "text": "Sacrifice a Chroma token: Put target Expeditioner card from your graveyard to the top of your library.\nSacrifice two Chroma tokens: Return target Expeditioner card from your graveyard to your hand.\nSacrifice three Chroma tokens: Put target Expeditioner permanent card from your graveyard to the battlefield.{flavor}“Hmm. It’s old chroma, not pure. It won’t be like bringing the two of you back, but... we could use it in other ways.”\n—Maelle",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
@@ -21626,7 +21626,7 @@
                 }
             },
             "infoNumber": "2025",
-            "infoRarity": "R",
+            "infoRarity": "U",
             "infoSet": "E33",
             "infoLanguage": "EN",
             "infoArtist": "Sandfall Interactive",
@@ -48958,7 +48958,7 @@
             "text": {
                 "mana": {
                     "name": "Mana Cost",
-                    "text": "3 G",
+                    "text": "2 G",
                     "y": 0.06254442075337598,
                     "width": 0.9273631840796019,
                     "height": 0.03380952380952381,
@@ -51076,7 +51076,7 @@
                 },
                 "type": {
                     "name": "Type",
-                    "text": "Sorcery",
+                    "text": "Kindred Sorcery - Expeditioner",
                     "x": 0.08358208955223881,
                     "y": 0.5643212508884151,
                     "width": 0.8292,
@@ -57641,10 +57641,10 @@
                     "masks": []
                 }
             ],
-            "artSource": "https://cards.scryfall.io/art_crop/front/b/e/be72862d-d71e-4b18-98a6-59019399f631.jpg?1748706924",
-            "artX": -0.06069651741293532,
-            "artY": -0.028429282160625444,
-            "artZoom": 3.62,
+            "artSource": "https://jumpinjackie.github.io/e33-reference-art/images/cards/forest1.jpg",
+            "artX": -0.04378109452736319,
+            "artY": -0.1730632551528074,
+            "artZoom": 2.7489999999999997,
             "artRotate": "0",
             "setSymbolSource": "http://localhost:4242/img/setSymbols/official/pz1-c.svg",
             "setSymbolX": 0.8701492537313433,
@@ -57804,7 +57804,7 @@
             "infoRarity": "C",
             "infoSet": "E33",
             "infoLanguage": "EN",
-            "infoArtist": "Alayna Danner",
+            "infoArtist": "Google Gemini",
             "infoNote": "Proxy, Not for Sale",
             "serialNumber": "",
             "serialTotal": "",
@@ -66421,7 +66421,7 @@
             "text": {
                 "mana": {
                     "name": "Mana Cost",
-                    "text": "2",
+                    "text": "1",
                     "y": 0.06254442075337598,
                     "width": 0.9273631840796019,
                     "height": 0.03380952380952381,
@@ -66457,7 +66457,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "{flavor}“Expeditioners, eh? You’re a fun looking bunch. Unless you try to cause problems. Then we’ll beat you up. Which will be fun for me, but not for you.”",
+                    "text": "{T}: Add {C}\n{1}, {T}: Add one mana of any color. {flavor}“Expeditioners, eh? You’re a fun looking bunch. Unless you try to cause problems. Then we’ll beat you up. Which will be fun for me, but not for you.”",
                     "x": 0.086,
                     "y": 0.6325515280739161,
                     "width": 0.8263681592039801,
@@ -66466,7 +66466,7 @@
                 },
                 "pt": {
                     "name": "Power/Toughness",
-                    "text": "2/1",
+                    "text": "1/1",
                     "x": 0.7928,
                     "y": 0.902,
                     "width": 0.1367,
@@ -78464,10 +78464,10 @@
                     "masks": []
                 }
             ],
-            "artSource": "https://cards.scryfall.io/art_crop/front/e/e/eeecf096-87dd-4dcb-953f-700445bf3f3a.jpg?1748706891",
-            "artX": -0.06069651741293532,
-            "artY": -0.028429282160625444,
-            "artZoom": 3.62,
+            "artSource": "https://jumpinjackie.github.io/e33-reference-art/images/cards/island1.jpg",
+            "artX": -0.04378109452736319,
+            "artY": -0.1730632551528074,
+            "artZoom": 2.7489999999999997,
             "artRotate": "0",
             "setSymbolSource": "http://localhost:4242/img/setSymbols/official/pz1-c.svg",
             "setSymbolX": 0.8701492537313433,
@@ -78627,8 +78627,13 @@
             "infoRarity": "C",
             "infoSet": "E33",
             "infoLanguage": "EN",
-            "infoArtist": "Eddie Mendoza",
-            "infoNote": "Proxy, Not for Sale"
+            "infoArtist": "Google Gemini",
+            "infoNote": "Proxy, Not for Sale",
+            "serialNumber": "",
+            "serialTotal": "",
+            "serialX": "",
+            "serialY": "",
+            "serialScale": ""
         }
     },
     {
@@ -96684,10 +96689,10 @@
                     "masks": []
                 }
             ],
-            "artSource": "https://cards.scryfall.io/art_crop/front/9/6/96297bcc-8480-4b14-8612-1c395d481bce.jpg?1681845960",
-            "artX": -0.11343283582089553,
-            "artY": -0.028429282160625444,
-            "artZoom": 3.965,
+            "artSource": "https://jumpinjackie.github.io/e33-reference-art/images/cards/mountain1.jpg",
+            "artX": -0.04378109452736319,
+            "artY": -0.1730632551528074,
+            "artZoom": 2.7489999999999997,
             "artRotate": "0",
             "setSymbolSource": "http://localhost:4242/img/setSymbols/official/pz1-c.svg",
             "setSymbolX": 0.8701492537313433,
@@ -96846,7 +96851,7 @@
             "infoRarity": "C",
             "infoSet": "E33",
             "infoLanguage": "EN",
-            "infoArtist": "Sam Burley",
+            "infoArtist": "Google Gemini",
             "infoNote": "Proxy, Not for Sale",
             "serialNumber": "",
             "serialTotal": "",
@@ -106939,10 +106944,10 @@
                     "masks": []
                 }
             ],
-            "artSource": "https://cards.scryfall.io/art_crop/front/1/2/12cff32a-a365-43ee-a196-8ce32b3bb9fd.jpg?1743205092",
-            "artX": -0.418407960199005,
-            "artY": -0.028429282160625444,
-            "artZoom": 5.917000000000001,
+            "artSource": "https://jumpinjackie.github.io/e33-reference-art/images/cards/plains1.jpg",
+            "artX": -0.04378109452736319,
+            "artY": -0.1730632551528074,
+            "artZoom": 2.7489999999999997,
             "artRotate": "0",
             "setSymbolSource": "http://localhost:4242/img/setSymbols/official/pz1-c.svg",
             "setSymbolX": 0.8701492537313433,
@@ -107101,7 +107106,7 @@
             "infoRarity": "C",
             "infoSet": "E33",
             "infoLanguage": "EN",
-            "infoArtist": "John Avon",
+            "infoArtist": "Google Gemini",
             "infoNote": "Proxy, Not for Sale",
             "serialNumber": "",
             "serialTotal": "",
@@ -109207,10 +109212,10 @@
                     "masks": []
                 }
             ],
-            "artSource": "https://jumpinjackie.github.io/e33-reference-art/images/cards/rally_the_expeditioners.png",
-            "artX": 0.05373134328358209,
+            "artSource": "https://jumpinjackie.github.io/e33-reference-art/images/cards/rally_the_expeditioners.jpg",
+            "artX": -0.09402985074626866,
             "artY": 0.11300639658848614,
-            "artZoom": 2.225,
+            "artZoom": 1.55,
             "artRotate": "0",
             "setSymbolSource": "http://localhost:4242/img/setSymbols/official/pz1-u.svg",
             "setSymbolX": 0.8756218905472637,
@@ -125985,10 +125990,10 @@
                     "masks": []
                 }
             ],
-            "artSource": "https://cards.scryfall.io/art_crop/front/0/8/08ec1e4f-e284-4216-a022-bd94c4dae02b.jpg?1748706908",
-            "artX": -0.06069651741293532,
-            "artY": -0.028429282160625444,
-            "artZoom": 3.62,
+            "artSource": "https://jumpinjackie.github.io/e33-reference-art/images/cards/swamp1.jpg",
+            "artX": -0.04378109452736319,
+            "artY": -0.1730632551528074,
+            "artZoom": 2.7489999999999997,
             "artRotate": "0",
             "setSymbolSource": "http://localhost:4242/img/setSymbols/official/pz1-c.svg",
             "setSymbolX": 0.8701492537313433,
@@ -126147,7 +126152,7 @@
             "infoRarity": "C",
             "infoSet": "E33",
             "infoLanguage": "EN",
-            "infoArtist": "Sean Vo",
+            "infoArtist": "Google Gemini",
             "infoNote": "Proxy, Not for Sale",
             "serialNumber": "",
             "serialTotal": "",
@@ -137219,7 +137224,7 @@
             "text": {
                 "mana": {
                     "name": "Mana Cost",
-                    "text": "W U",
+                    "text": "1 W U",
                     "y": 0.0613,
                     "width": 0.9292,
                     "height": 0.03380952380952381,
@@ -137255,7 +137260,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Look at the top three cards of your library. Put one of them into your hand and the rest on the bottom of your library in any order.\nYou gain 3 life.\n{i}Luminous{/i} — If you control three or more Lumina tokens, create two 1/1 Human Expeditioner tokens with “When this creature dies, create a Chroma token.”",
+                    "text": "Search your library for up to three Expeditioner cards, reveal them, then shuffle and put those cards on top in any order.\nCreate a Lumina token. (It’s an artifact with “{T}, Sacrifice this artifact: Scry 1.”){flavor}The night is darkest before the dawn.",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,

@@ -51,7 +51,7 @@ Type=Custom
 57 C Chromatic Inversion @Sandfall Interactive
 59 C Chromatic Petrification @Sandfall Interactive
 60 U Chromatic Rebirth @Sandfall Interactive
-61 R Chromatic Reclamation @Sandfall Interactive
+61 U Chromatic Reclamation @Sandfall Interactive
 62 C Chromatic Vines @Sandfall Interactive
 63 U Clair @Sandfall Interactive
 64 U Clair Obscur @Sandfall Interactive
