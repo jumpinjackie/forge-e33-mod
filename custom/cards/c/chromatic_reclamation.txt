@@ -1,6 +1,7 @@
 Name:Chromatic Reclamation
-ManaCost:2 B G
+ManaCost:G W
 Types:Kindred Enchantment Expeditioner
-A:AB$ Token | Cost$ Sac<1/Permanent.YouCtrl+!land+!token/nontoken permanent you control> | TokenAmount$ 1 | TokenOwner$ You | TokenScript$ c_a_chroma | SpellDescription$ Create a Chroma token.
-A:AB$ Token | Cost$ Exile<1/Permanent.YouCtrl+!land+!token/nontoken permanent you control> | TokenAmount$ 2 | TokenOwner$ You | TokenScript$ c_a_chroma | SpellDescription$ Create two Chroma tokens.
-Oracle:Sacrifice a nonland, nontoken permanent you control: Create a Chroma token.\nExile a nonland, nontoken permanent you control: Create two Chroma tokens.
+A:AB$ ChangeZone | Cost$ Sac<1/Chroma.token> | TgtPrompt$ Choose target Expeditioner card in your graveyard | ValidTgts$ Expeditioner.YouCtrl | Origin$ Graveyard | Destination$ Library | SpellDescription$ Put target Expeditioner card from your graveyard to the top of your library.
+A:AB$ ChangeZone | Cost$ Sac<2/Chroma.token> | Origin$ Graveyard | Destination$ Hand | TgtPrompt$ Select target Expeditioner card in your graveyard | ValidTgts$ Expeditioner.YouCtrl | SpellDescription$ Return target Expeditioner card from your graveyard to your hand.
+A:AB$ ChangeZone | Cost$ Sac<3/Chroma.token> | Origin$ Graveyard | Destination$ Battlefield | TgtPrompt$ Choose target Nevron permanent card in your graveyard | ValidTgts$ Permanent.Expeditioner+YouCtrl | SpellDescription$ Put target Expeditioner permanent card from your graveyard to the battlefield.
+Oracle:Sacrifice a Chroma token: Put target Expeditioner card from your graveyard to the top of your library.\nSacrifice two Chroma tokens: Return target Expeditioner card from your graveyard to your hand.\nSacrifice three Chroma tokens: Put target Expeditioner permanent card from your graveyard to the battlefield.

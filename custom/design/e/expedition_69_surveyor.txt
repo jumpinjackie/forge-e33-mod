@@ -1,7 +1,7 @@
 [Name]
 Expedition 69 Surveyor
 [ManaCost]
-3
+2
 G
 [Types]
 Creature
@@ -32,3 +32,4 @@ c_a_chroma
 [DesignNotes]
  - In the game, Expedition 69 were responsible for most of the grappling points installed throughout the continent. Obviously then, members of this expeditions have a strong exploration theme.
  - For this card, I've gone with a land ramp effect with a surveil attack trigger to sell the Surveyor > Surveiling.
+ - 19/02/2026: Reduce cost from 3G to 2G

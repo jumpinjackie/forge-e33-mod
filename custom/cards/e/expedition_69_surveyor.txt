@@ -1,5 +1,5 @@
 Name:Expedition 69 Surveyor
-ManaCost:3 G
+ManaCost:2 G
 Types:Creature Human Expeditioner
 PT:2/2
 T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigChange | OptionalDecider$ You | TriggerDescription$ When CARDNAME enters, you may search your library for a basic land card, put that card onto the battlefield tapped, then shuffle.

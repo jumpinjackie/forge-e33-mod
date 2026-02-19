@@ -1,8 +1,6 @@
 Name:Tomorrow Comes
-ManaCost:W U
+ManaCost:1 W U
 Types:Kindred Instant Expeditioner
-A:SP$ Dig | DigNum$ 3 | ChangeNum$ 1 | NoReveal$ True | SubAbility$ DBGainLife | SpellDescription$ Look at the top four cards of your library. Put one of them into your hand and the rest on the bottom of your library in any order.
-SVar:DBGainLife:DB$ GainLife | LifeAmount$ 3 | SubAbility$ DBToken | SpellDescription$ You gain 3 life.
-SVar:DBToken:DB$ Token | TokenAmount$ 2 | TokenScript$ w_1_1_human_expeditioner | TokenOwner$ You | ConditionCheckSVar$ X | ConditionSVarCompare$ GE3 | SpellDescription$ If you control three or more Lumina tokens, create two 1/1 Human Expeditioner tokens with "When this creature dies, create a Chroma token."
-SVar:X:Count$Valid Lumina.YouCtrl
-Oracle:Look at the top three cards of your library. Put one of them into your hand and the rest on the bottom of your library in any order.\nYou gain 3 life.\nLuminous — If you control three or more Lumina tokens, create two 1/1 Human Expeditioner tokens with "When this creature dies, create a Chroma token."
+A:SP$ ChangeZone | Origin$ Library | Destination$ Library | LibraryPosition$ 0 | ChangeType$ Expeditioner | ChangeNum$ 3 | Reorder$ True | SubAbility$ TrigLumina | SpellDescription$ Search your library for up to three Expeditioner cards, reveal them, then shuffle and put those cards on top in any order.
+SVar:TrigLumina:DB$ Token | TokenAmount$ 1 | TokenOwner$ You | TokenScript$ c_a_lumina
+Oracle:Search your library for up to three Expeditioner cards, reveal them, then shuffle and put those cards on top in any order.\nCreate a Lumina token. (It's an artifact with "{T}, Sacrifice this artifact: Scry 1.")

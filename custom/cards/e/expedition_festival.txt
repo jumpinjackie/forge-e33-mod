@@ -1,6 +1,6 @@
 Name:Expedition Festival
 ManaCost:X W U
-Types:Sorcery
+Types:Kindred Sorcery Expeditioner
 A:SP$ GainLife | LifeAmount$ X | SubAbility$ DBToken | SpellDescription$ You gain X life. Create X 1/1 white Human Expeditioner tokens with "When this creature dies, create a Chroma token."
 SVar:DBToken:DB$ Token | TokenAmount$ X | TokenScript$ w_1_1_human_expeditioner | TokenOwner$ You | SubAbility$ DBDraw
 SVar:DBDraw:DB$ Draw | NumCards$ X | ConditionCheckSVar$ LuminaTotal | ConditionSVarCompare$ GE3 | SpellDescription$ Luminous — Draw X cards if you control at least three Lumina tokens.

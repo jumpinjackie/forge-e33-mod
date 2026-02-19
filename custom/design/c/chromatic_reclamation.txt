@@ -1,28 +1,28 @@
 [Name]
 Chromatic Reclamation
 [ManaCost]
-2
-B
 G
+W
 [Types]
 Kindred
 Enchantment
 Expeditioner
 [Rarity]
-R
+U
 [Oracle]
-Sacrifice a nonland, nontoken permanent you control: Create a Chroma token.
-Exile a nonland, nontoken permanent you control: Create two Chroma tokens.
+Sacrifice a Chroma token: Put target Expeditioner card from your graveyard to the top of your library.
+Sacrifice two Chroma tokens: Return target Expeditioner card from your graveyard to your hand.
+Sacrifice three Chroma tokens: Put target Expeditioner permanent card from your graveyard to the battlefield.
 [FlavorText]
 "Hmm. It's old chroma, not pure. It won't be like bringing the two of you back, but... we could use it in other ways."
 —Maelle
 [ForgeScript]
-A:AB$ Token | Cost$ Sac<1/Permanent.YouCtrl+!land+!token/nontoken permanent you control> | TokenAmount$ 1 | TokenOwner$ You | TokenScript$ c_a_chroma | SpellDescription$ Create a Chroma token.
-A:AB$ Token | Cost$ Exile<1/Permanent.YouCtrl+!land+!token/nontoken permanent you control> | TokenAmount$ 2 | TokenOwner$ You | TokenScript$ c_a_chroma | SpellDescription$ Create two Chroma tokens.
-[RelatedTokens]
-c_a_chroma
+A:AB$ ChangeZone | Cost$ Sac<1/Chroma.token> | TgtPrompt$ Choose target Expeditioner card in your graveyard | ValidTgts$ Expeditioner.YouCtrl | Origin$ Graveyard | Destination$ Library | SpellDescription$ Put target Expeditioner card from your graveyard to the top of your library.
+A:AB$ ChangeZone | Cost$ Sac<2/Chroma.token> | Origin$ Graveyard | Destination$ Hand | TgtPrompt$ Select target Expeditioner card in your graveyard | ValidTgts$ Expeditioner.YouCtrl | SpellDescription$ Return target Expeditioner card from your graveyard to your hand.
+A:AB$ ChangeZone | Cost$ Sac<3/Chroma.token> | Origin$ Graveyard | Destination$ Battlefield | TgtPrompt$ Choose target Nevron permanent card in your graveyard | ValidTgts$ Permanent.Expeditioner+YouCtrl | SpellDescription$ Put target Expeditioner permanent card from your graveyard to the battlefield.
 [Artist]
 Sandfall Interactive
 [DesignNotes]
  - Intended to be a combo engine, just like Expedition 35 Bridge converts permanents to extra cards. This converts permanents to extra Chroma tokens.
  - 23/01/2026: Added nonland clause to both abilities and added Expeditioner sub-type
+ - 20/02/2025: Rework design to be a recursion engine for Expeditioners with the quality of effect increasing with the number of Chroma tokens invested.

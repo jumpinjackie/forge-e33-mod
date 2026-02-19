@@ -1,6 +1,7 @@
 [Name]
 Tomorrow Comes
 [ManaCost]
+1
 W
 U
 [Types]
@@ -12,20 +13,18 @@ U
 [Artist]
 Google Gemini
 [Oracle]
-Look at the top three cards of your library. Put one of them into your hand and the rest on the bottom of your library in any order.
-You gain 3 life.
-Luminous — If you control three or more Lumina tokens, create two 1/1 Human Expeditioner tokens with $EXPEDITIONER_TOKEN_TEXT
-[AbilityWords]
-Luminous
+Search your library for up to three Expeditioner cards, reveal them, then shuffle and put those cards on top in any order.
+Create a Lumina token. $LUMINA_REMINDER_TEXT
+[FlavorText]
+The night is darkest before the dawn.
 [ForgeScript]
-A:SP$ Dig | DigNum$ 3 | ChangeNum$ 1 | NoReveal$ True | SubAbility$ DBGainLife | SpellDescription$ Look at the top four cards of your library. Put one of them into your hand and the rest on the bottom of your library in any order.
-SVar:DBGainLife:DB$ GainLife | LifeAmount$ 3 | SubAbility$ DBToken | SpellDescription$ You gain 3 life.
-SVar:DBToken:DB$ Token | TokenAmount$ 2 | TokenScript$ w_1_1_human_expeditioner | TokenOwner$ You | ConditionCheckSVar$ X | ConditionSVarCompare$ GE3 | SpellDescription$ If you control three or more Lumina tokens, create two 1/1 Human Expeditioner tokens with $EXPEDITIONER_TOKEN_TEXT
-SVar:X:Count$Valid Lumina.YouCtrl
+A:SP$ ChangeZone | Origin$ Library | Destination$ Library | LibraryPosition$ 0 | ChangeType$ Expeditioner | ChangeNum$ 3 | Reorder$ True | SubAbility$ TrigLumina | SpellDescription$ Search your library for up to three Expeditioner cards, reveal them, then shuffle and put those cards on top in any order.
+SVar:TrigLumina:DB$ Token | TokenAmount$ 1 | TokenOwner$ You | TokenScript$ c_a_lumina
 [RelatedTokens]
-w_1_1_human_expeditioner
+c_a_lumina
 [Tags]
-luminous
+lumina-generator
 [DesignNotes]
  - Another tutor to enable the Expeditioner tribal strategy / Expeditioner spell toolbox.
  - 12/11/2025: Rework as a life-gaining impulse with a token generating Luminous bonus.
+ - 19/02/2026: Rework again as an Expeditioner-aligned variant of Congregation at Dawn with a Lumina bonus. So it is back to being a tutor, but it's not a direct one.
