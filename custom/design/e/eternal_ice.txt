@@ -21,6 +21,7 @@ S:Mode$ CantBeActivated | ValidCard$ Permanent.EnchantedBy | Description$ Enchan
 creature-removal
 artifact-removal
 enchantment-removal
+nonbasic-hate
 [DesignNotes]
  - In the game, Eternal Ice is a quest item obtained after defeating the Gargant.
  - Went with standard blue pin-down effect for limited/draft
