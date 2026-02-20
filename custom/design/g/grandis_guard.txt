@@ -11,7 +11,7 @@ C
 [PT]
 1/4
 [Oracle]
-Vigilance
+Vigilance (Attacking doesn't cause this creature to tap.)
 {1}{W/U}, {T}: Tap target creature.
 [FlavorText]
 "Contrary to what some believe, guard duty is quite rewarding. I find it meditative and instructional."

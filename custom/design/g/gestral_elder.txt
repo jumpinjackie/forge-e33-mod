@@ -14,6 +14,8 @@ U
 ~’s power and toughness are each equal to the number of Gestrals on the battlefield.
 ~ can't block.
 ~ can only attack alone.
+[FlavorText]
+The older the brush, the less broad its strokes.
 [Artist]
 Sandfall Interactive
 [ForgeScript]

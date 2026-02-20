@@ -14,6 +14,8 @@ Google Gemini
 [Oracle]
 ~ deals 2 damage to each creature without flying and each player.
 Luminous — ~ deals 3 damage to each creature without flying and each player instead if you control at least three Lumina tokens.
+[FlavorText]
+The land violently convulsed under the feet of Lune's enemies.
 [AbilityWords]
 Luminous
 [ForgeScript]

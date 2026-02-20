@@ -14,7 +14,7 @@ U
 3+*/3+*
 [Oracle]
 Devoid $DEVOID_REMINDER_TEXT
-Trample, Lifelink
+Trample, lifelink
 ~'s power and toughness are each equal to 3 plus the number of Human creature cards in all graveyards.
 $NEVRON_DEATH_ABILITY_TEXT
 [ForgeScript]

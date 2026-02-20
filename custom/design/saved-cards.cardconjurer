@@ -30662,7 +30662,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Whenever a creature is dealt damage, destroy it. It can’t be regenerated.{flavor}Verso: Hey, you holding up? We’re almost there.\nMaelle: Holding up? Everywhere we go, just death, death, and more death. Everywhere we go, just death. I just - I don’t want to see that anymore.",
+                    "text": "Whenever a creature is dealt damage, destroy it. It can’t be regenerated.{flavor}“Hey, you holding up? We’re almost there.” enquired Verso. “Holding up?” Maelle cries in disbelief “Everywhere we go, just death, death, and more death. Everywhere we go, just death. I just - I don’t want to see that anymore.”",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
@@ -35008,7 +35008,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Earth Rising deals 2 damage to each creature without flying and each player.\n{i}Luminous{/i} — Earth Rising deals 3 damage to each creature without flying and each player instead if you control at least three Lumina tokens.",
+                    "text": "Earth Rising deals 2 damage to each creature without flying and each player.\n{i}Luminous{/i} — Earth Rising deals 3 damage to each creature without flying and each player instead if you control at least three Lumina tokens.{flavor}The land violently convulsed under the feet of Lune’s enemies.",
                     "x": 0.086,
                     "y": 0.6325515280739161,
                     "width": 0.828,
@@ -62718,11 +62718,11 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "This creature’s power and toughness are each equal to the number of Gestrals on the battlefield.\nThis creature can’t block.\nThis creature can only attack alone.",
+                    "text": "This creature’s power and toughness are each equal to the number of Gestrals on the battlefield.\nThis creature can’t block.\nThis creature can only attack alone.{flavor}The older the brush, the less broad its strokes.",
                     "x": 0.086,
                     "y": 0.6325515280739161,
-                    "width": 0.828,
-                    "height": 0.2875,
+                    "width": 0.8263681592039801,
+                    "height": 0.2874911158493248,
                     "size": 0.0362
                 },
                 "pt": {
@@ -63875,7 +63875,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Whenever this creature deals damage to a player, you may put a Gestral permanent card from your hand onto the battlefield.",
+                    "text": "Whenever this creature deals damage to a player, you may put a Gestral permanent card from your hand onto the battlefield.{flavor}“Gotta train hard and get back to my old physique!”",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
@@ -72234,7 +72234,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Vigilance\n{1}{W/U}, {T}: Tap target creature.{flavor}“Contrary to what some believe, guard duty is quite rewarding. I find it meditative and instructional.”",
+                    "text": "Vigilance (Attacking doesn’t cause this creature to tap.)\n{1}{W/U}, {T}: Tap target creature.{flavor}“Contrary to what some believe, guard duty is quite rewarding. I find it meditative and instructional.”",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
@@ -81462,7 +81462,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "This spell costs {1} less to cast if you control a painter.\nExile target nonland permanent.",
+                    "text": "This spell costs {1} less to cast if you control a painter.\nExile target nonland permanent.{flavor}With one small gesture, the Nevron soon dissipated into a bloom of gold petals.",
                     "x": 0.086,
                     "y": 0.6325515280739161,
                     "width": 0.828,
@@ -110344,7 +110344,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "This land enters tapped unless you control two or fewer other lands.\n{T}: Add {G} or {W}.{flavor}Lune: Someone came here before and set up these handholds.\nGustave: Probably Expedition 69, the climbers expedition.\nLune: Let us thank them for that.",
+                    "text": "This land enters tapped unless you control two or fewer other lands.\n{T}: Add {G} or {W}.{flavor}Lune: “Someone came here before and set up these handholds.”\nGustave: “Probably Expedition 69, the climbers expedition.”\nLune: “Let us thank them for that”",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
@@ -111281,7 +111281,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Devoid (This card has no color.)\nTrample, Lifelink\nThis creature’s power and toughness are each equal to 3 plus the number of Human creature cards in all graveyards.\nWhen this creature dies, target opponent creates a Lumina token. (It’s an artifact with “{T}, Sacrifice this artifact: Scry 1.”)",
+                    "text": "Devoid (This card has no color.)\nTrample, lifelink\nThis creature’s power and toughness are each equal to 3 plus the number of Human creature cards in all graveyards.\nWhen this creature dies, target opponent creates a Lumina token. (It’s an artifact with “{T}, Sacrifice this artifact: Scry 1.”)",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
@@ -123364,7 +123364,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "This land enters tapped unless you control two or fewer other lands.\n{T}: Add {U} or {R}.{flavor}Maelle: Easier than expected.\nGustave: Hey, don’t jinx us. No need to invite misfortune.",
+                    "text": "This land enters tapped unless you control two or fewer other lands.\n{T}: Add {U} or {R}.{flavor}Maelle: “Easier than expected.”\nGustave: “Hey, don’t jinx us. No need to invite misfortune.”",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
