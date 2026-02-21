@@ -126,7 +126,7 @@ To see what cards are in this set, check out the various design docs which detai
 
 Artwork for most cards are (c) Sandfall Interactive (thanks for adding Photo Mode to make this job so easy!).
 
-Where we have cards that have no in-game artistic depictions, the artwork for such cards was generated with Google Gemini, using character/fashion/scene references from the video game where possible.
+Where we have cards that have no in-game artistic depictions or the in-game depiction is sub-par, the artwork for such cards was generated with Google Gemini, using character/fashion/scene references from the video game where possible.
 
 All cards in this set properly credit/attribute the relevant artists so you know which ones use AI artwork and which ones don't, if it wasn't clear enough already.
 
