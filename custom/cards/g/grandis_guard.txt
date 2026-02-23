@@ -5,4 +5,4 @@ PT:1/4
 K:Vigilance
 A:AB$ Tap | Cost$ 1 WU T | ValidTgts$ Creature | TgtPrompt$ Select target creature | SpellDescription$ Tap target creature.
 SVar:NonCombatPriority:1
-Oracle:Vigilance\n{1}{W/U}, {T}: Tap target creature.
+Oracle:Vigilance (Attacking doesn't cause this creature to tap.)\n{1}{W/U}, {T}: Tap target creature.

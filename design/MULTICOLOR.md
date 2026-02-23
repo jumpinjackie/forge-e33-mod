@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 19/2/2026 3:18:13 pm
+> Last generated: 23/2/2026 4:39:05 pm
 
 ## A Storm is Coming
 
@@ -266,9 +266,9 @@ Enchanted permanent becomes an artifact and loses all abilities.
 ```
 GW
 Kindred Enchantment - Expeditioner
-Sacrifice a Chroma token: Put target Expeditioner card from your graveyard to the top of your library.
-Sacrifice two Chroma tokens: Return target Expeditioner card from your graveyard to your hand.
-Sacrifice three Chroma tokens: Put target Expeditioner permanent card from your graveyard to the battlefield.
+Sacrifice a Chroma token: Put target card from your graveyard to the top of your library.
+Sacrifice two Chroma tokens: Return target card from your graveyard to your hand.
+Sacrifice three Chroma tokens: Put target permanent card from your graveyard to the battlefield.
 ---
 "Hmm. It's old chroma, not pure. It won't be like bringing the two of you back, but... we could use it in other ways."
 —Maelle
@@ -281,6 +281,7 @@ Sacrifice three Chroma tokens: Put target Expeditioner permanent card from your 
  - Intended to be a combo engine, just like Expedition 35 Bridge converts permanents to extra cards. This converts permanents to extra Chroma tokens.
  - 23/01/2026: Added nonland clause to both abilities and added Expeditioner sub-type
  - 20/02/2025: Rework design to be a recursion engine for Expeditioners with the quality of effect increasing with the number of Chroma tokens invested.
+ - 24/02/2025: Drop Expeditioner targeting restrictions. Lore-wise this is supposed to represent (Paintress) Maelle's newfound ability to "resurrect" Expeditioners, but there nothing that says she can't resurrect *other* things as well.
 
 ## Chromatic Vines
 
@@ -696,7 +697,7 @@ Although the citizens of Lumière always hope for the current Expedition to succ
 ## Expedition 34 Mage
 
 ```
-URW
+(R/W)U
 Creature - Human Expeditioner Wizard
 {2}{W}: Tap target creature.
 {2}{U}: Put a stun counter on target creature.
@@ -712,6 +713,7 @@ When this creature dies, create a Chroma token. (It's an artifact with "{T}, Sac
 
  - In the game, Expedition 34 was focused on an elemental strategy to exploit weaknesses in Nevrons. This strategy worked until they encountered Nevrons with no elemental weaknesses, at which point this expedition promptly failed.
  - Mechanically gone with a multi-color wizard with an appropriate on-color activated ability with standard Expeditioner death bonus.
+ - 24/02/2026: Cost changed from URW to (R/W)U to improve playability in Limited.
 
 ## Expedition 41
 
@@ -1378,7 +1380,7 @@ Creature - Grandis
 ```
 WU
 Creature - Grandis
-Vigilance
+Vigilance (Attacking doesn't cause this creature to tap.)
 {1}{W/U}, {T}: Tap target creature.
 ---
 "Contrary to what some believe, guard duty is quite rewarding. I find it meditative and instructional."
@@ -1535,6 +1537,8 @@ Draw a card for each basic land type among lands you control and discard three c
 Sorcery - Gradient
 This spell costs {1} less to cast if you control a painter.
 Exile target nonland permanent.
+---
+With one small gesture, the Nevron soon dissipated into a bloom of gold petals.
 ```
 
 [card implementation](../custom/cards/l/leave_this_canvas.txt)

@@ -1,7 +1,7 @@
 [Name]
 Hexga
 [ManaCost]
-2
+1
 R
 R
 [Types]
@@ -32,3 +32,4 @@ Sandfall Interactive
  - Thus it has an Elemental sub-type.
  - Comes in with a shield counter to convey tankiness.
  - Double strike maps to its 2/3-hit combo it does in-game.
+ - 24/02/2026: Cost reduced from 2RR to 1RR

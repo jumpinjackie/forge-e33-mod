@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 19/2/2026 12:32:38 pm
+> Last generated: 23/2/2026 4:39:05 pm
 
 ## A Rock for François
 
@@ -599,6 +599,8 @@ Artifact Creature - Gestral
 This creature’s power and toughness are each equal to the number of Gestrals on the battlefield.
 This creature can't block.
 This creature can only attack alone.
+---
+The older the brush, the less broad its strokes.
 
 */*
 ```
@@ -635,6 +637,8 @@ Whenever this creature attacks, it gets +2/+0 until end of turn for each other a
 1
 Artifact Creature - Gestral
 Whenever this creature deals damage to a player, you may put a Gestral permanent card from your hand onto the battlefield.
+---
+"Gotta train hard and get back to my old physique!"
 
 1/1
 ```

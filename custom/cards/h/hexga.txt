@@ -1,5 +1,5 @@
 Name:Hexga
-ManaCost:2 R R
+ManaCost:1 R R
 Types:Creature Nevron Elemental
 PT:2/2
 K:Double Strike

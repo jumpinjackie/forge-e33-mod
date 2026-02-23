@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 18/2/2026 11:10:12 am
+> Last generated: 23/2/2026 4:39:05 pm
 
 ## A Life to Love (Farewell)
 
@@ -34,6 +34,11 @@ Any damage dealt to you is dealt to this creature instead.
  - I'm taking the word Acceptance literally (or is it figuratively?) and gone with a creature that "accepts" all damage that would've gone your way.
  - 28/12/2025: Made shield counter ability require a tap in its activation cost.
  - 14/01/2026: Reduced cost from 2WW to 2W and increased shield cost from [2W, T] to [4W, T]
+
+
+### Rulings
+
+ - Combat damage to you is one "unit" of damage absorbed by one shield counter. One or more creatures that deal double strike damage to you is two "unit"s of such damage and will kill this creature if it does not have at least 2 shield counters on it.
 
 ## Alicia's Birthday Party
 
@@ -692,7 +697,6 @@ Exhaust — Sacrifice a Forest: Put two +1/+1 counters and a Reach counter on th
 1W
 Creature - Nevron
 When this creature enters, put a verse counter on it if {G} was spent to cast this spell and put a rage counter if {R} was spent to cast this spell.
-As this creature enters, choose a creature type.
 Other creatures you control get +1/+1 if this creature has a verse counter.
 Other creatures you control have haste if this creature has a rage counter.
 ---
@@ -707,4 +711,5 @@ Other creatures you control have haste if this creature has a rage counter.
 
  - In the game, the Unfinished Troubador can be found in the Stone Quarry. It wants you to "teach" it how to play music, which consists of a parry challenge by parrying the "bad" notes and taking in the "good" notes. Passing the challenge will reward you with a picto.
  - Modeled as a bear that can fulfill one of its Troubador "roles" if you spend the right colors of mana on it.
+ - 24/02/2026: Drop creature type prompt which did nothing.
 

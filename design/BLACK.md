@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 18/2/2026 11:10:12 am
+> Last generated: 23/2/2026 4:39:05 pm
 
 ## Axon Offering
 
@@ -512,7 +512,7 @@ When this creature dies, target opponent creates a Lumina token. (It's an artifa
 2BB
 Creature - Nevron Horror
 Devoid (This card has no color.)
-Trample, Lifelink
+Trample, lifelink
 This creature's power and toughness are each equal to 3 plus the number of Human creature cards in all graveyards.
 When this creature dies, target opponent creates a Lumina token. (It's an artifact with "{T}, Sacrifice this artifact: Scry 1.")
 

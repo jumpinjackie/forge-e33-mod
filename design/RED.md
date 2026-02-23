@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 18/2/2026 11:10:12 am
+> Last generated: 23/2/2026 4:39:05 pm
 
 ## Anger
 
@@ -104,6 +104,8 @@ Create a Lumina token. (It's an artifact with "{T}, Sacrifice this artifact: Scr
 Kindred Sorcery - Expeditioner
 Earth Rising deals 2 damage to each creature without flying and each player.
 Luminous — Earth Rising deals 3 damage to each creature without flying and each player instead if you control at least three Lumina tokens.
+---
+The land violently convulsed under the feet of Lune's enemies.
 ```
 
 [card implementation](../custom/cards/e/earth_rising.txt)
@@ -340,7 +342,7 @@ At the beginning of each upkeep, count the number of permanents. If the number i
 ## Hexga
 
 ```
-2RR
+1RR
 Creature - Nevron Elemental
 Double strike
 This creature enters with a shield counter on it. (If it would be dealt damage or destroyed, remove a shield counter from it instead.)
@@ -358,6 +360,7 @@ When this creature dies, target opponent creates a Lumina token. (It's an artifa
  - Thus it has an Elemental sub-type.
  - Comes in with a shield counter to convey tankiness.
  - Double strike maps to its 2/3-hit combo it does in-game.
+ - 24/02/2026: Cost reduced from 2RR to 1RR
 
 ## Last-Ditch Effort
 

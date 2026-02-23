@@ -1,7 +1,7 @@
 Name:Chromatic Reclamation
 ManaCost:G W
 Types:Kindred Enchantment Expeditioner
-A:AB$ ChangeZone | Cost$ Sac<1/Chroma.token> | TgtPrompt$ Choose target Expeditioner card in your graveyard | ValidTgts$ Expeditioner.YouCtrl | Origin$ Graveyard | Destination$ Library | SpellDescription$ Put target Expeditioner card from your graveyard to the top of your library.
-A:AB$ ChangeZone | Cost$ Sac<2/Chroma.token> | Origin$ Graveyard | Destination$ Hand | TgtPrompt$ Select target Expeditioner card in your graveyard | ValidTgts$ Expeditioner.YouCtrl | SpellDescription$ Return target Expeditioner card from your graveyard to your hand.
-A:AB$ ChangeZone | Cost$ Sac<3/Chroma.token> | Origin$ Graveyard | Destination$ Battlefield | TgtPrompt$ Choose target Nevron permanent card in your graveyard | ValidTgts$ Permanent.Expeditioner+YouCtrl | SpellDescription$ Put target Expeditioner permanent card from your graveyard to the battlefield.
-Oracle:Sacrifice a Chroma token: Put target Expeditioner card from your graveyard to the top of your library.\nSacrifice two Chroma tokens: Return target Expeditioner card from your graveyard to your hand.\nSacrifice three Chroma tokens: Put target Expeditioner permanent card from your graveyard to the battlefield.
+A:AB$ ChangeZone | Cost$ Sac<1/Chroma.token> | TgtPrompt$ Choose target card in your graveyard | ValidTgts$ Card.YouCtrl | Origin$ Graveyard | Destination$ Library | SpellDescription$ Put target card from your graveyard to the top of your library.
+A:AB$ ChangeZone | Cost$ Sac<2/Chroma.token> | Origin$ Graveyard | Destination$ Hand | TgtPrompt$ Select target card in your graveyard | ValidTgts$ Card.YouCtrl | SpellDescription$ Return target card from your graveyard to your hand.
+A:AB$ ChangeZone | Cost$ Sac<3/Chroma.token> | Origin$ Graveyard | Destination$ Battlefield | TgtPrompt$ Choose target Nevron permanent card in your graveyard | ValidTgts$ Permanent.YouCtrl | SpellDescription$ Put target permanent card from your graveyard to the battlefield.
+Oracle:Sacrifice a Chroma token: Put target card from your graveyard to the top of your library.\nSacrifice two Chroma tokens: Return target card from your graveyard to your hand.\nSacrifice three Chroma tokens: Put target permanent card from your graveyard to the battlefield.

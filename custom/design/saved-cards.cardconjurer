@@ -21428,7 +21428,7 @@
             "artY": 0.03553660270078181,
             "artZoom": 1.609,
             "artRotate": "0",
-            "setSymbolSource": "http://localhost:4242/img/setSymbols/official/pz1-u.svg",
+            "setSymbolSource": "http://localhost:4242/img/setSymbols/official/pz1-r.svg",
             "setSymbolX": 0.8706467661691543,
             "setSymbolY": 0.5707178393745558,
             "setSymbolZoom": 0.34700000000000003,
@@ -21605,7 +21605,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Sacrifice a Chroma token: Put target Expeditioner card from your graveyard to the top of your library.\nSacrifice two Chroma tokens: Return target Expeditioner card from your graveyard to your hand.\nSacrifice three Chroma tokens: Put target Expeditioner permanent card from your graveyard to the battlefield.{flavor}“Hmm. It’s old chroma, not pure. It won’t be like bringing the two of you back, but... we could use it in other ways.”\n—Maelle",
+                    "text": "Sacrifice a Chroma token: Put target card from your graveyard to the top of your library.\nSacrifice two Chroma tokens: Return target card from your graveyard to your hand.\nSacrifice three Chroma tokens: Put target permanent card from your graveyard to the battlefield.{flavor}“Hmm. It’s old chroma, not pure. It won’t be like bringing the two of you back, but... we could use it in other ways.”\n—Maelle",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
@@ -21626,7 +21626,7 @@
                 }
             },
             "infoNumber": "2025",
-            "infoRarity": "U",
+            "infoRarity": "R",
             "infoSet": "E33",
             "infoLanguage": "EN",
             "infoArtist": "Sandfall Interactive",
@@ -39854,9 +39854,9 @@
                 }
             ],
             "artSource": "https://jumpinjackie.github.io/e33-reference-art/images/cards/expedition_34_mage.jpg",
-            "artX": 0.07611940298507462,
-            "artY": 0.11300639658848614,
-            "artZoom": 1.442,
+            "artX": -0.013432835820895522,
+            "artY": 0.10945273631840796,
+            "artZoom": 1.6219999999999999,
             "artRotate": "0",
             "setSymbolSource": "http://localhost:4242/img/setSymbols/official/pz1-u.svg",
             "setSymbolX": 0.8706467661691543,
@@ -39999,7 +39999,7 @@
             "text": {
                 "mana": {
                     "name": "Mana Cost",
-                    "text": "U R W",
+                    "text": "RW U",
                     "y": 0.0613,
                     "width": 0.9292,
                     "height": 0.03380952380952381,
@@ -77171,7 +77171,7 @@
             "text": {
                 "mana": {
                     "name": "Mana Cost",
-                    "text": "2 R R",
+                    "text": "1 R R",
                     "y": 0.0613,
                     "width": 0.9292,
                     "height": 0.03380952380952381,
@@ -142006,7 +142006,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "When this creature enters, put a verse counter on it if {G} was spent to cast this spell and put a rage counter if {R} was spent to cast this spell.\nAs this creature enters, choose a creature type.\nOther creatures you control get +1/+1 if this creature has a verse counter.\nOther creatures you control have haste if this creature has a rage counter.{flavor}“Teach me... how to play.”",
+                    "text": "When this creature enters, put a verse counter on it if {G} was spent to cast this spell and put a rage counter if {R} was spent to cast this spell.\nOther creatures you control get +1/+1 if this creature has a verse counter.\nOther creatures you control have haste if this creature has a rage counter.{flavor}“Teach me... how to play.”",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,

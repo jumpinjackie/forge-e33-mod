@@ -6,9 +6,8 @@ Human
 Expeditioner
 Wizard
 [ManaCost]
+RW
 U
-R
-W
 [Rarity]
 U
 [Artist]
@@ -31,3 +30,4 @@ planeswalker-removal
 [DesignNotes]
  - In the game, Expedition 34 was focused on an elemental strategy to exploit weaknesses in Nevrons. This strategy worked until they encountered Nevrons with no elemental weaknesses, at which point this expedition promptly failed.
  - Mechanically gone with a multi-color wizard with an appropriate on-color activated ability with standard Expeditioner death bonus.
+ - 24/02/2026: Cost changed from URW to (R/W)U to improve playability in Limited.
