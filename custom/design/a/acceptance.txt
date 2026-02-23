@@ -26,6 +26,8 @@ SVar:DmgSelf:DB$ ReplaceEffect | VarName$ Affected | VarValue$ Self | VarType$ C
 A:AB$ PutCounter | Cost$ 4 W T | CounterType$ SHIELD | CounterNum$ 1 | SpellDescription$ Put a shield counter on ~.
 [Cycle]
 The five stages of Grief
+[Rulings]
+ - Combat damage to you is one "unit" of damage absorbed by one shield counter. One or more creatures that deal double strike damage to you is two "unit"s of such damage and will kill this creature if it does not have at least 2 shield counters on it.
 [DesignNotes]
  - No in-game basis, but Grief is such a central theme of Expedition 33 that having a cycle dedicated to the 5 stages is a total flavor nuke.
  - I'm taking the word Acceptance literally (or is it figuratively?) and gone with a creature that "accepts" all damage that would've gone your way.
