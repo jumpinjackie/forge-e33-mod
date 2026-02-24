@@ -78389,7 +78389,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "This land enters tapped unless you control two or fewer other lands.\n{T}: Add {R} or {W}.{flavor}Welcome to our own private Arena. The Arena in the Gestral Village was boring so we created our own.\n- Gestral Pot",
+                    "text": "This land enters tapped unless you control two or fewer other lands.\n{T}: Add {R} or {W}.{flavor}“Welcome to our own private Arena. The Arena in the Gestral Village was boring so we created our own.”\n—Gestral Pot",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
@@ -78425,7 +78425,12 @@
             "infoSet": "E33",
             "infoLanguage": "EN",
             "infoArtist": "Sandfall Interactive",
-            "infoNote": "Proxy, Not for Sale"
+            "infoNote": "Proxy, Not for Sale",
+            "serialNumber": "",
+            "serialTotal": "",
+            "serialX": "",
+            "serialY": "",
+            "serialScale": ""
         }
     },
     {
@@ -99838,7 +99843,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "{T}: Add {C}.\n{5}, {T}, Exile this land: Target creature’s owner shuffles it into their library.{flavor}Tell me, which weapon should I wield?\n- Unfinished Chalier",
+                    "text": "{T}: Add {C}.\n{5}, {T}, Exile this land: Target creature’s owner shuffles it into their library.{flavor}“Tell me, which weapon should I wield?”\n—Unfinished Chalier",
                     "x": 0.086,
                     "y": 0.6325515280739161,
                     "width": 0.828,
@@ -149249,13 +149254,13 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Each land is a Forest in addition to its other land types.{flavor}Careful, some Expeditioners died here.\n- Verso",
+                    "text": "Each land is a Forest in addition to its other land types.{flavor}“Careful, some Expeditioners died here.”\n—Verso",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
                     "height": 0.2875,
                     "size": 0.0362,
-                    "fontSize": 0
+                    "fontSize": "-2"
                 },
                 "pt": {
                     "name": "Power/Toughness",
