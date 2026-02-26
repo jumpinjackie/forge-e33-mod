@@ -12,15 +12,14 @@ U
 Sandfall Interactive
 [Oracle]
 (As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
-I — Destroy target Nevron. Create a Food token.
+I — Destroy target creature.
 II — Create 2 Food tokens.
 III — Until end of turn, Food tokens you control gain "{2}, Sacrifice this artifact: Target creature deals 3 damage to itself"
 [ForgeScript]
 K:Chapter:3:DBChapter1,DBChapter2,DBChapter3
-SVar:DBChapter1:DB$ Destroy | ValidTgts$ Nevron | TgtPrompt$ Select target Nevron | SubAbility$ DBFood | SpellDescription$ Destroy target Nevron. Create a Food token.
+SVar:DBChapter1:DB$ Destroy | ValidTgts$ Creature | TgtPrompt$ Select target Creature | SpellDescription$ Destroy target creature.
 SVar:DBChapter2:DB$ Token | TokenAmount$ 2 | TokenScript$ c_a_food_sac | TokenOwner$ You | SpellDescription$ Create 2 Food tokens.
 SVar:DBChapter3:DB$ AnimateAll | ValidCards$ Food.YouCtrl+token | Abilities$ AbFoodPoison | SpellDescription$ Until end of turn, Food tokens you control gain "{2}, Sacrifice this artifact: Target creature deals 3 damage to itself"
-SVar:DBFood:DB$ Token | TokenAmount$ 1 | TokenScript$ c_a_food_sac | TokenOwner$ You
 SVar:AbFoodPoison:AB$ DealDamage | Cost$ 2 Sac<1/CARDNAME> | ValidTgts$ Creature | TgtPrompt$ Select target creature | DamageSource$ Targeted | NumDmg$ 3 | SpellDescription$ Target creature deals 3 damage to itself.
 DeckHas:Ability$Counters
 [RelatedTokens]
@@ -34,3 +33,4 @@ creature-removal
  - "Food poisoning" ability adapted from Asmoranomardicadaistinaculdacar's ability
  - 1/1/2026: Make the food poisoning ability cost {1} and sac.
  - 14/01/2026: Increased food poisioning activation from {1} to {2}
+ - 27/02/2026: Changed chapter 1 to straight creature kill. Mild flavor loss, but should improve playability. Does not compromise the main story told by the card: A bunch of Expeditioners suffering food poisoning.
