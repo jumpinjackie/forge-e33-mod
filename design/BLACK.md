@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 23/2/2026 4:39:05 pm
+> Last generated: 26/2/2026 7:27:36 pm
 
 ## Axon Offering
 
@@ -103,7 +103,7 @@ Put target creature card from a graveyard onto the battlefield under your contro
 ## Clea's Chromatic Mastery
 
 ```
-2B
+1B
 Sorcery
 Search your library for a Nevron or Gradient card, reveal it, put it into your hand, then shuffle.
 ---
@@ -116,6 +116,7 @@ Search your library for a Nevron or Gradient card, reveal it, put it into your h
 
  - A Nevron tutor to support Nevron tribal strategies
  - 18/01/2026: Allow tutoring for Nevron or Gradient spells instead of just Nevrons.
+ - 25/02/2026: Reduced cost from 2B to 1B
 
 
 ### Rulings

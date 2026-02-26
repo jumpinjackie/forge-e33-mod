@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 23/2/2026 4:39:05 pm
+> Last generated: 26/2/2026 8:09:10 pm
 
 ## A Storm is Coming
 
@@ -178,10 +178,13 @@ Maelle: "Ooh dark. Sophie would approve."
 ```
 1RWB
 Creature - Nevron Giant
+Reach
 Eats party member — When this creature enters, exile another target creature.
 When this creature leaves the battlefield, return the exiled card to the battlefield under its owner's control.
 Multi-hit combo — {2}{R}: This creature gains double strike until end of turn.
 Spits miasma — {2}{B}, {T}: This creature deals 2 damage to target creature. Put a stun counter on that creature.
+---
+Its appetite is just as big.
 
 4/4
 ```
@@ -196,6 +199,7 @@ Spits miasma — {2}{B}, {T}: This creature deals 2 damage to target creature. P
    - 3/4/5-hit combos: Double strike
    - Spits miasma: A shock and stun on target creature.
  - 21/01/2026: Added Giant sub-type.
+ - 25/02/2026: Added reach
 
 ## Braseleur
 
@@ -802,7 +806,7 @@ When this creature dies, create a Chroma token.
 BG
 Enchantment - Saga
 (As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
-I — Destroy target Nevron. Create a Food token.
+I — Destroy target creature.
 II — Create 2 Food tokens.
 III — Until end of turn, Food tokens you control gain "{2}, Sacrifice this artifact: Target creature deals 3 damage to itself"
 ```
@@ -815,6 +819,7 @@ III — Until end of turn, Food tokens you control gain "{2}, Sacrifice this art
  - "Food poisoning" ability adapted from Asmoranomardicadaistinaculdacar's ability
  - 1/1/2026: Make the food poisoning ability cost {1} and sac.
  - 14/01/2026: Increased food poisioning activation from {1} to {2}
+ - 27/02/2026: Changed chapter 1 to straight creature kill. Mild flavor loss, but should improve playability. Does not compromise the main story told by the card: A bunch of Expeditioners suffering food poisoning.
 
 
 ### Rulings
@@ -2004,6 +2009,8 @@ When this creature dies, create a Chroma token.
 ```
 WB
 Legendary Creature - Painter Avatar
+Flash
+When Painted Alicia enters, target player can’t cast spells and creatures can’t attack this turn.
 Activated abilities of Expeditioners, Chroma, Lumina and Pictos cannot be activated.
 ---
 Her silence is deafening.
@@ -2770,6 +2777,11 @@ Target creature you control becomes a copy of target creature until end of turn.
  - This card is a flavorful translation of Painted Alicia's internal monologue as a temporary creature copy effect (to represent the desire to be someone else).
  - Name was chosen for maximum cromulence.
     - Vicarious: (adjective) Experienced or felt by empathy with or imaginary participation in the life of another person.
+
+
+### Rulings
+
+You are allowed to have a creature copy itself, as nonsensical as such a play may be (this is a Forge-imposed constraint where we can't choose a creature other than the targeted one for cloning)
 
 ## Void Meteors
 

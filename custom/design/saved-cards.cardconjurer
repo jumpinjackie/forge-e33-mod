@@ -5361,10 +5361,10 @@
                     ]
                 }
             ],
-            "artSource": "https://cards.scryfall.io/art_crop/front/c/8/c82ca741-cf8e-4f53-bb71-dcf80f149346.jpg?1581708509",
-            "artX": 0.07661691542288557,
-            "artY": 0.1122956645344705,
-            "artZoom": 2.766,
+            "artSource": "https://jumpinjackie.github.io/e33-reference-art/images/cards/anger.jpg",
+            "artX": -0.06716417910447761,
+            "artY": 0.11300639658848614,
+            "artZoom": 1.6219999999999999,
             "artRotate": "0",
             "setSymbolSource": "http://localhost:4242/img/setSymbols/official/pz1-u.svg",
             "setSymbolX": 0.8706467661691543,
@@ -5550,7 +5550,7 @@
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
-                    "height": 0.26297085998578534,
+                    "height": 0.2874911158493248,
                     "size": 0.0362,
                     "fontSize": 0
                 },
@@ -5572,7 +5572,7 @@
             "infoRarity": "U",
             "infoSet": "E33",
             "infoLanguage": "EN",
-            "infoArtist": "Svetlin Velinov",
+            "infoArtist": "Google Gemini",
             "infoNote": "Proxy, Not for Sale",
             "serialNumber": "",
             "serialTotal": "",
@@ -14050,11 +14050,11 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "{i}Eats party member{/i} — When this creature enters, exile another target creature.\nWhen this creature leaves the battlefield, return the exiled card to the battlefield under its owner’s control.\n{i}Multi-hit combo{/i} — {2}{R}: This creature gains double strike until end of turn.\n{i}Spits miasma{/i} — {2}{B}, {T}: This creature deals 2 damage to target creature. Put a stun counter on that creature.",
+                    "text": "Reach\n{i}Eats party member{/i} — When this creature enters, exile another target creature.\nWhen this creature leaves the battlefield, return the exiled card to the battlefield under its owner’s control.\n{i}Multi-hit combo{/i} — {2}{R}: This creature gains double strike until end of turn.\n{i}Spits miasma{/i} — {2}{B}, {T}: This creature deals 2 damage to target creature. Put a stun counter on that creature.{flavor}Its appetite is just as big.",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
-                    "height": 0.2875,
+                    "height": 0.2874911158493248,
                     "size": 0.0362
                 },
                 "pt": {
@@ -18363,11 +18363,11 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Untap equipped creature during each other player’s untap step.\nEquip {2}\nLearn Picto 3 (Sacrifice three Lumina tokens: Create a token copy of this equipment attached to target creature you control. Activate this ability only if you control no token copies of this equipment.)",
+                    "text": "As long as this equipment is attached to a creature you control, untap that creature and all noncreature permanents you control during each other player’s untap step.\nEquip {2}\nLearn Picto 3 (Sacrifice three Lumina tokens: Create a token copy of this equipment attached to target creature you control. Activate this ability only if you control no token copies of this equipment.)",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
-                    "height": 0.27398720682302774,
+                    "height": 0.2874911158493248,
                     "size": 0.0362
                 },
                 "pt": {
@@ -23424,7 +23424,7 @@
             "text": {
                 "mana": {
                     "name": "Mana Cost",
-                    "text": "2 B",
+                    "text": "1 B",
                     "y": 0.0613,
                     "width": 0.9292,
                     "height": 0.03380952380952381,
@@ -23464,7 +23464,7 @@
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
-                    "height": 0.27185501066098083,
+                    "height": 0.2874911158493248,
                     "size": 0.0362
                 },
                 "pt": {
@@ -44920,7 +44920,7 @@
                 },
                 "ability0": {
                     "name": "Ability 1",
-                    "text": "Destroy target Nevron. Create a Food token.",
+                    "text": "Destroy target creature.",
                     "x": 0.1334,
                     "y": 0.2896,
                     "width": 0.35,
@@ -102976,7 +102976,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Activated abilities of Expeditioners, Chroma, Lumina and Pictos cannot be activated.{flavor}Her silence is deafening.",
+                    "text": "Flash\nWhen Painted Alicia enters, target player can’t cast spells and creatures can’t attack this turn.\nActivated abilities of Expeditioners, Chroma, Lumina and Pictos cannot be activated.{flavor}Her silence is deafening.",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,

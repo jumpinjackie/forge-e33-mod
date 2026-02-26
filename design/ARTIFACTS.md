@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 23/2/2026 4:39:05 pm
+> Last generated: 26/2/2026 8:27:27 pm
 
 ## A Rock for François
 
@@ -157,7 +157,7 @@ Trample
 ```
 3
 Artifact - Picto Equipment
-Untap equipped creature during each other player's untap step.
+As long as this equipment is attached to a creature you control, untap that creature and all noncreature permanents you control during each other player’s untap step.
 Equip {2}
 Learn Picto 3 (Sacrifice three Lumina tokens: Create a token copy of this equipment attached to target creature you control. Activate this ability only if you control no token copies of this equipment.)
 ```
@@ -168,6 +168,12 @@ Learn Picto 3 (Sacrifice three Lumina tokens: Create a token copy of this equipm
 
  - In the game, Cheater allows a character to play (take turns) twice.
  - Easy mechanical map to untapping equipped creature on other's turns.
+ - 27/02/2026: Increased power level by also untapping all noncreature permanents you control, but only if the equipment is attached.
+
+
+### Rulings
+
+ - Equipment must be attached to a creature for the untap effect to happen.
 
 ## Chroma Catalyst
 
