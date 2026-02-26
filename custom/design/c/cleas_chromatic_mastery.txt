@@ -1,7 +1,7 @@
 [Name]
 Clea's Chromatic Mastery
 [ManaCost]
-2
+1
 B
 [Types]
 Sorcery
@@ -21,3 +21,4 @@ DeckHints:Type$Nevron|Gradient
 [DesignNotes]
  - A Nevron tutor to support Nevron tribal strategies
  - 18/01/2026: Allow tutoring for Nevron or Gradient spells instead of just Nevrons.
+ - 25/02/2026: Reduced cost from 2B to 1B
