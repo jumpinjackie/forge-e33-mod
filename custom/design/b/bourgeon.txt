@@ -14,11 +14,18 @@ U
 [PT]
 4/4
 [Oracle]
+Reach
 Eats party member — When ~ enters, exile another target creature.
 When ~ leaves the battlefield, return the exiled card to the battlefield under its owner's control.
 Multi-hit combo — {2}{R}: ~ gains double strike until end of turn.
 Spits miasma — {2}{B}, {T}: ~ deals 2 damage to target creature. Put a stun counter on that creature.
+[AbilityWords]
+Multi-hit combo
+Spits miasma
+[FlavorText]
+Its appetite is just as big.
 [ForgeScript]
+K:Reach
 T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigExile | TriggerDescription$ When CARDNAME enters, exile another target creature.
 T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Any | ValidCard$ Card.Self | Execute$ TrigReturn | TriggerDescription$ When CARDNAME leaves the battlefield, return the exiled card to the battlefield under its owner's control.
 A:AB$ Pump | Cost$ 2 R | Defined$ Self | KW$ Double Strike | SpellDescription$ ~ gains double strike until end of turn.
@@ -39,3 +46,4 @@ creature-removal
    - 3/4/5-hit combos: Double strike
    - Spits miasma: A shock and stun on target creature.
  - 21/01/2026: Added Giant sub-type.
+ - 25/02/2026: Added reach
