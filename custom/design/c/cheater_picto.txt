@@ -11,13 +11,16 @@ R
 [Artist]
 Sandfall Interactive
 [Oracle]
-Untap equipped creature during each other player's untap step.
+As long as this equipment is attached to a creature you control, untap that creature and all noncreature permanents you control during each other player’s untap step.
 Equip {2}
 $PICTO_REPLICATE_ABILITY(3)
 [ForgeScript]
 K:Equip:2
-S:Mode$ Continuous | Affected$ Creature.EquippedBy | AddHiddenKeyword$ CARDNAME untaps during each other player's untap step. | Description$ Untap equipped creature during each other player's untap step.
+S:Mode$ UntapOtherPlayer | ValidCard$ Permanent.nonCreature+YouCtrl,Creature.EquippedBy | IsPresent$ Card.Self+AttachedTo Creature | Description$ As long as this equipment is attached to a creature you control, untap that creature and all noncreature permanents you control during each other player’s untap step.
 $PICTO_REPLICATE_ABILITY(3)
+[Rulings]
+ - Equipment must be attached to a creature for the untap effect to happen.
 [DesignNotes]
  - In the game, Cheater allows a character to play (take turns) twice.
  - Easy mechanical map to untapping equipped creature on other's turns.
+ - 27/02/2026: Increased power level by also untapping all noncreature permanents you control, but only if the equipment is attached.
