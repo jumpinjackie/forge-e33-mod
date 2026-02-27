@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 26/2/2026 8:09:10 pm
+> Last generated: 27/2/2026 8:56:31 pm
 
 ## A Storm is Coming
 
@@ -756,6 +756,7 @@ When this creature dies, create a Chroma token.
 
  - Modeled drunkeness as temporary high power / low toughness
  - The expeditioner depicted in the art is actually dead, but without any context seeing the body is next to a crate of booze, it can easily be interpreted that the Expeditioner is absolutely drunk and passed out.
+ - 28/02/2026: Above note no longer relevant as this depiciton was now generated wtih Google Gemini.
 
 ## Expedition 53 Herbalist
 
