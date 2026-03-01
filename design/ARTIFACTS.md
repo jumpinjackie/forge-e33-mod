@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 26/2/2026 8:27:27 pm
+> Last generated: 1/3/2026 1:48:45 pm
 
 ## A Rock for François
 
@@ -706,6 +706,8 @@ This artifact enters tapped.
 Artifact Creature - Gestral
 Haste (This creature can attack and {T} as soon as it comes under your control.)
 When this creature enters, reveal the top four cards of your library. Put all Gestral cards revealed this way into your hand and the rest on the bottom of your library in any order.
+---
+One down, more to follow.
 
 3/2
 ```
@@ -769,6 +771,8 @@ Artifact Creature - Gestral
 This creature enters with a charge counter on it.
 Sacrifice a Chroma token: Put a charge counter on this creature. Activate this ability only as a sorcery and only if this creature has less than three charge counters.
 {2}, {T}: Target creature gets +1/+1 until end of turn for each charge counter on this creature.
+---
+"Harder! Better! Faster! Stronger! Let's show these kids how we engineer around here!"
 
 1/2
 ```

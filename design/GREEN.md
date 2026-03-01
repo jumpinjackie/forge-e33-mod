@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 19/2/2026 12:32:38 pm
+> Last generated: 1/3/2026 1:48:45 pm
 
 ## Abbest
 
@@ -459,7 +459,7 @@ When this creature enters and whenever it attacks, it explores. (Reveal the top 
 ```
 1G
 Creature - Nevron
-First Strike.
+First strike.
 When this creature dies, target opponent creates a Lumina token. (It's an artifact with "{T}, Sacrifice this artifact: Scry 1.")
 
 2/2

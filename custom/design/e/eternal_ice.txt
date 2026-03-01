@@ -13,6 +13,8 @@ Sandfall Interactive
 [Oracle]
 Enchant permanent.
 Enchanted permanent doesn't untap during its controller's untap step and its activated abilities can't be activated.
+[FlavorText]
+Warmth is fleeting. Cold is eternal.
 [ForgeScript]
 K:Enchant:Permanent
 R:Event$ Untap | ActiveZones$ Battlefield | ValidCard$ Permanent.EnchantedBy | ValidStepTurnToController$ You | Layer$ CantHappen | Description$ Enchanted permanent doesn't untap during its controller's untap step.

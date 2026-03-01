@@ -47,8 +47,8 @@ creature-removal
 board-wipe
 [Rulings]
  - The "Lune can't have 4 stain counters on her" restriction means any triggered ability that would add stain counters will only add stain counters up to that limit. For example.
-    - If Lune has 2 stain counters and you cast a 3+ mana value instant or sorcery. Lune will get 2 additional stain counters.
-    - If Lune has 4 stain counters and you cast any 1+ mana value instant or sorcery. Lune will get 0 additional stain counters.
+    - If Lune has 2 stain counters and you cast a 3+ color instant or sorcery. Lune will get 2 additional stain counters.
+    - If Lune has 4 stain counters and you cast any 1+ color instant or sorcery. Lune will get 0 additional stain counters.
     - You may activate a stain counter consuming ability in response to the stain counter adding trigger.
 [DesignNotes]
  - This was one of the hardest cards to design because Lune is a veritable "Jack of all trades" in terms of abilities in-game. Also we have to somehow emulate her stain gimmick in a way that doesn't look too out of flavor.

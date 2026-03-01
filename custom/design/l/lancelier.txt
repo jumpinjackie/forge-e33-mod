@@ -13,7 +13,7 @@ Sandfall Interactive
 [PT]
 2/2
 [Oracle]
-First Strike.
+First strike.
 $NEVRON_DEATH_ABILITY_TEXT
 [ForgeScript]
 K:First Strike

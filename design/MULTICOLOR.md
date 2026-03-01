@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 27/2/2026 8:56:31 pm
+> Last generated: 1/3/2026 1:48:45 pm
 
 ## A Storm is Coming
 
@@ -1688,8 +1688,8 @@ Elemental Genesis — {T}, Remove four stain counters from Lune: Lune deals 4 da
 ### Rulings
 
  - The "Lune can't have 4 stain counters on her" restriction means any triggered ability that would add stain counters will only add stain counters up to that limit. For example.
-    - If Lune has 2 stain counters and you cast a 3+ mana value instant or sorcery. Lune will get 2 additional stain counters.
-    - If Lune has 4 stain counters and you cast any 1+ mana value instant or sorcery. Lune will get 0 additional stain counters.
+    - If Lune has 2 stain counters and you cast a 3+ color instant or sorcery. Lune will get 2 additional stain counters.
+    - If Lune has 4 stain counters and you cast any 1+ color instant or sorcery. Lune will get 0 additional stain counters.
     - You may activate a stain counter consuming ability in response to the stain counter adding trigger.
 
 ## Maelle, Child of Lumière // Maelle, The Reawakened Paintress
@@ -1960,6 +1960,8 @@ Whenever a nontoken Nevron creature dies, exile it with a Foot counter.
 My, what lovely feet! — Monoco has activated abilities of all Nevrons in exile with a Foot counter on them. Monoco has flying as long as an exiled Nevron creature with a Foot counter has flying. The same is true for first strike, double strike, deathtouch, haste, hexproof, indestructible, lifelink, menace, reach, trample and vigilance.
 {1}{G}, {T}: Monoco fights target creature.
 {2}{W}: Untap Monoco.
+---
+"Owowow."
 
 4/4
 ```
@@ -2029,6 +2031,7 @@ Her silence is deafening.
     - And a Silence effect for the cost of 3 chroma tokens.
  - 4/11/2025: Exchanged abiltiies with human Alicia. Replaced Nevrons with Expeditioners for the null rod effect.
  - 16/01/2026: Changed creature type from "Painter God" to "Painter Avatar"
+ - 27/02/2026: Gave it flash and Orim's Chant ETB to improve playability.
 
 ## Painted Clea, the Regent
 
@@ -2243,7 +2246,7 @@ Flying. Ward {3}.
 Absorbs all APs — {2}{U}: Tap target creature and put a stun counter on it. Put a charge counter on Serpenphare.
 Absorbed too many APs, explodes — {4}{R}, Remove X charge counters from Serpenphare: Serpenphare deals X damage to each creature.
 ---
-An omnipresent feature of the continent skies. A reminder that before one can even reach The Monolith, one must get past Serpenphare.
+An omnipresent feature of the continent skies. A reminder that before one can even reach The Monolith, one must get past the Serpenphare.
 
 7/7
 ```
@@ -2589,7 +2592,6 @@ If an opponent would create a Lumina token, you create a Lumina token instead.
 Sacrifice a Lumina token: Add one mana of any color.
 Sacrifice a Nevron: Add two mana of any one color.
 {2}{B/G}, {T}: Return target permanent card from your graveyard to your hand.
-
 
 4/4
 ```

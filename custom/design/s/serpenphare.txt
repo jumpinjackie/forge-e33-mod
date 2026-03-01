@@ -23,7 +23,7 @@ Absorbed too many APs, explodes — {4}{R}, Remove X charge counters from ~: ~ d
 Absorbs all APs
 Absorbed too many APs, explodes
 [FlavorText]
-An omnipresent feature of the continent skies. A reminder that before one can even reach The Monolith, one must get past Serpenphare.
+An omnipresent feature of the continent skies. A reminder that before one can even reach The Monolith, one must get past the Serpenphare.
 [ForgeScript]
 K:Flying
 K:Ward:3

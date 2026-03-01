@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 18/2/2026 11:10:12 am
+> Last generated: 1/3/2026 1:48:45 pm
 
 ## Blade's Graveyard (Concealed Courtyard)
 
@@ -599,7 +599,9 @@ This land enters tapped unless you control a Nevron or Painter.
 Legendary Land
 {T}: Add {C}.
 {T}: Add one mana of any color. The Hauler does not untap during your next untap step.
-{7}: The Hauler becomes an 8/8 Axon colorless creature with Trample until end of turn. It's still a land.
+{7}: The Hauler becomes an 8/8 Axon colorless creature with trample until end of turn. It's still a land.
+---
+Anchored by burden.
 ```
 
 [card implementation](../custom/cards/t/the_hauler.txt)

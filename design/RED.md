@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 23/2/2026 4:39:05 pm
+> Last generated: 1/3/2026 1:48:45 pm
 
 ## Anger
 
@@ -182,7 +182,7 @@ Creature - Human Expeditioner
 {2}{R}, {T}: Destroy target nonbasic land.
 When this creature dies, create a Chroma token. (It's an artifact with "{T}, Sacrifice this artifact: Add one mana of any color. Spend this mana only to cast a Nevron, Gestral or Expeditioner spell.")
 ---
-People who say "paper beats rock" have never used explosives!
+"Paper doesn't beat rock. Explosives beats rock!"
 
 1/3
 ```

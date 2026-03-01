@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 18/2/2026 11:10:12 am
+> Last generated: 1/3/2026 1:48:45 pm
 
 ## An Advantage!
 
@@ -222,6 +222,8 @@ When this creature enters, counter target spell and draw a card.
 Enchantment - Aura
 Enchant permanent.
 Enchanted permanent doesn't untap during its controller's untap step and its activated abilities can't be activated.
+---
+Warmth is fleeting. Cold is eternal.
 ```
 
 [card implementation](../custom/cards/e/eternal_ice.txt)

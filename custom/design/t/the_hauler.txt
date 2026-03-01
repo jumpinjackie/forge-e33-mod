@@ -12,7 +12,9 @@ Sandfall Interactive
 [Oracle]
 {T}: Add {C}.
 {T}: Add one mana of any color. The Hauler does not untap during your next untap step.
-{7}: The Hauler becomes an 8/8 Axon colorless creature with Trample until end of turn. It's still a land.
+{7}: The Hauler becomes an 8/8 Axon colorless creature with trample until end of turn. It's still a land.
+[FlavorText]
+Anchored by burden.
 [ForgeScript]
 A:AB$ Mana | Cost$ T | Produced$ C | SpellDescription$ Add {C}.
 A:AB$ Mana | Cost$ T | Produced$ Any | SubAbility$ DBStayTapped | SpellDescription$ Add one mana of any color. CARDNAME does not untap during your next untap step.
