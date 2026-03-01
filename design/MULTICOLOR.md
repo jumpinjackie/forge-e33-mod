@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 1/3/2026 1:48:45 pm
+> Last generated: 1/3/2026 2:05:38 pm
 
 ## A Storm is Coming
 
@@ -2242,7 +2242,7 @@ Foretell {1}{W/U} (During your turn, you may pay {2} and exile this card from yo
 ```
 5UR
 Legendary Creature - Nevron Serpent
-Flying. Ward {3}.
+Flying, ward {3}
 Absorbs all APs — {2}{U}: Tap target creature and put a stun counter on it. Put a charge counter on Serpenphare.
 Absorbed too many APs, explodes — {4}{R}, Remove X charge counters from Serpenphare: Serpenphare deals X damage to each creature.
 ---

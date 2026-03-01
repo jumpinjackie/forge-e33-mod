@@ -118658,7 +118658,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Flying. Ward {3}.\n{i}Absorbs all APs{/i} — {2}{U}: Tap target creature and put a stun counter on it. Put a charge counter on Serpenphare.\n{i}Absorbed too many APs, explodes{/i} — {4}{R}, Remove X charge counters from Serpenphare: Serpenphare deals X damage to each creature.{flavor}An omnipresent feature of the continent skies. A reminder that before one can even reach The Monolith, one must get past the Serpenphare.",
+                    "text": "Flying, ward {3}\n{i}Absorbs all APs{/i} — {2}{U}: Tap target creature and put a stun counter on it. Put a charge counter on Serpenphare.\n{i}Absorbed too many APs, explodes{/i} — {4}{R}, Remove X charge counters from Serpenphare: Serpenphare deals X damage to each creature.{flavor}An omnipresent feature of the continent skies. A reminder that before one can even reach The Monolith, one must get past the Serpenphare.",
                     "x": 0.086,
                     "y": 0.6325515280739161,
                     "width": 0.828,
