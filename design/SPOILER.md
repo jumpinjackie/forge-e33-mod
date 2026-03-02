@@ -300,10 +300,10 @@
 | <center>Gestral Token</center> | <center>Human Expeditioner Token</center> | <center>Lumina Token</center> |
 | ![](../custom/pics/tokens/E33/c_a_map_sac_explore.jpg) | ![](../custom/pics/tokens/E33/b_0_0_nevron_army.jpg) | ![](../custom/pics/tokens/E33/c_1_1_nevron.jpg) |
 | <center>Map Token</center> | <center>Nevron Army Token</center> | <center>Nevron Token</center> |
-| ![](../custom/pics/tokens/E33/b_0_1_osquios_mask.jpg) | ![](../custom/pics/tokens/E33/w_1_1_party_guest.jpg) | ![](../custom/pics/tokens/E33/c_1_1_pot_nevron.jpg) |
-| <center>Osquio's Mask</center> | <center>Party Guest Token</center> | <center>Pot Nevron Token</center> |
-| ![](../custom/pics/tokens/E33/c_a_romanifos_balloon.jpg) | ![](../custom/pics/tokens/E33/wb_3_3_shadow_dualliste.jpg) | ![](../custom/pics/tokens/E33/a_1_1_toy.jpg) |
-| <center>Romanifo's Balloon</center> | <center>Shadow Dualliste Token</center> | <center>Toy Token</center> |
+| ![](../custom/pics/tokens/E33/b_0_1_osquios_mask.jpg) | ![](../custom/pics/tokens/E33/c_1_1_pot_nevron.jpg) | ![](../custom/pics/tokens/E33/c_a_romanifos_balloon.jpg) |
+| <center>Osquio's Mask</center> | <center>Pot Nevron Token</center> | <center>Romanifo's Balloon</center> |
+| ![](../custom/pics/tokens/E33/wb_3_3_shadow_dualliste.jpg) | ![](../custom/pics/tokens/E33/a_1_1_toy.jpg) |   |
+| <center>Shadow Dualliste Token</center> | <center>Toy Token</center> |   |
 ## Clair Obscur: Expedition 33 Commander (E3C) [45/45 cards]
 
 > This set is not yet finalized. This set is now in the game/color balancing phase and cards may be removed or replaced as a result.
