@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 1/3/2026 1:48:45 pm
+> Last generated: 2/3/2026 12:53:29 pm
 
 ## An Advantage!
 
@@ -38,26 +38,6 @@ When this creature dies, create a Chroma token. (It's an artifact with "{T}, Sac
 
  - In the game's prologue, Antoine can be found at the Expedition Festival. Answer his quiz successfully and you'll get a festival token as a reward.
  - Given his extensive historical knowledge, it's an easy mechanical map to something that triggers off of casting historic spells, in the case: Card draw.
-
-## Bound by Chains
-
-```
-3U
-Kindred Enchantment - Nevron
-Lands don't untap during their controllers' untap steps.
-At the beginning of each player's upkeep, that player untaps a land they control.
----
-The chains of Grief can be hard to break for some.
-```
-
-[card implementation](../custom/cards/b/bound_by_chains.txt)
-
-### Design Notes
-
- - In the game, various Nevrons have an attack, which if not parried or dodged will apply a bound status on the attack recipient. A bound party member visually looks like someone tethered to the ground with chains.
- - I've gone with a 1:1 copy of Rising Waters to solidify the Crippling Tsunami Prison archetype and to boost the Blue Skies archetype as something that can captialize on tempo gains.
-    - I would've gone with a nickname reprint, but to my knowledge Forge only lets you nickname cards in the source card script (the card from Nemesis) which is too invasive.
-    - 26/01/2026: Even though we've figured out how to do nickname reprints in a non-invasive manner. We're sticking with a functional reprint for better internal set synergy.
 
 ## Breaking Moment
 

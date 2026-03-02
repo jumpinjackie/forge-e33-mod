@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 1/3/2026 1:48:45 pm
+> Last generated: 2/3/2026 12:53:29 pm
 
 ## Anger
 
@@ -41,22 +41,6 @@ When this creature dies, you may have this creature deal 2 damage to target crea
 ### Notes
 
  - Obligatory spot removal in commander.
-
-## Chromatic Inversion
-
-```
-1R
-Instant
-Switch target creature's power and toughness until end of turn.
-Draw a card.
-```
-
-[card implementation](../custom/cards/c/chromatic_inversion.txt)
-
-### Design Notes
-
- - In the game, a party member can have an inverted status in battle. A member with inverted status cannot heal. Any attempt to heal the member results in damage being taken instead.
- - We've mechanically translated this to a P/T switch. ie. About Face, but with a cantrip bonus.
 
 ## Crustal Crush
 

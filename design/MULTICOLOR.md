@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 1/3/2026 2:05:38 pm
+> Last generated: 2/3/2026 12:53:29 pm
 
 ## A Storm is Coming
 
@@ -70,26 +70,6 @@ Each player who has cast a non-Painter, non-Gradient spell this turn can’t cas
  - 6/10/2025: Meld is back on the menu! Got it to work finally! Also extended null rod effect to Chroma and Lumina tokens.
  - 3/11/2025: Exchanged abilities with human Alicia. Canonist exemption changed from Nevrons/Gradient to Painters/Gradient. Reduce Chroma sac activation cost from 3 to 2 tokens.
  - 12/11/2025: Dropped the silencing activated ability as it makes no thematic sense to pay in tokens that don't exist in the "real world" that Alicia is in. Using straight mana payment then raises game balancing concerns around what is the appropriate cost. Better to just drop the ability.
-
-## Aline's Return
-
-```
-WB
-Sorcery
-Destroy target Axon or Nevron.
-Cycling {2} ({2}, Discard this card: Draw a card.)
----
-"Aline, you’re going to kill yourself! It’s too soon for you to return to any Canvas!"
-—Renoir
-```
-
-[card implementation](../custom/cards/a/alines_return.txt)
-
-### Design Notes
-
- - In the game, during the final boss battle with Renoir, Aline momentarily returns to the Canvas to swing the battle to the party's favor.
- - Mapped to targeted Axon/Nevron kill.
- - Added cycling to offset its marginality.
 
 ## Barbasucette
 
@@ -388,26 +368,6 @@ Summons Nevrons — At the beginning of your upkeep, choose one —
  - Expected ways to dispatch Clea are sweepers at any speed, instant-speed removal on opponent's turn (once summoning sickness is gone) or baiting her to attack into a lethal single or gang block.
  - The weird wording around Clea Unleashed having "shields down" is due to the fact that there is no precedence of any creature gaining keywords during an opponent's turn, so there is very likely no such support in Forge. However, we can work around this limitation by inverting the situation, by having the default position be having Hexproof and Indestructible and at the beginning of the controller's upkeep, she loses said keywords until end of turn (which allows us to copy the debuff logic from Shadowspear). This allows us to preserve the original intent, at the small expense of text readability.
  - 16/01/2026: Changed creature type from "Painter God" to "Painter Avatar"
-
-## Closure
-
-```
-1(W/B)
-Instant
-Exile all graveyards. You gain 1 life for each creature card exiled this way.
-Draw a card.
----
-"For the sake of the living, we must part with the dead."
-—Renoir
-```
-
-[card implementation](../custom/cards/c/closure.txt)
-
-### Design Notes
-
- - Describes the moment in Verso's ending where he is truly laid to rest and the canvas is destroyed.
- - Obvious graveyard exile effect to indicate the finality of this moment. What's dead is dead and should be laid to rest.
- - 5/06/2026: Added lifegain for each creature exiled.
 
 ## Contortionniste
 
@@ -718,24 +678,6 @@ When this creature dies, create a Chroma token. (It's an artifact with "{T}, Sac
  - In the game, Expedition 34 was focused on an elemental strategy to exploit weaknesses in Nevrons. This strategy worked until they encountered Nevrons with no elemental weaknesses, at which point this expedition promptly failed.
  - Mechanically gone with a multi-color wizard with an appropriate on-color activated ability with standard Expeditioner death bonus.
  - 24/02/2026: Cost changed from URW to (R/W)U to improve playability in Limited.
-
-## Expedition 41
-
-```
-1BR
-Enchantment - Saga
-(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
-I, II - Destroy target Nevron.
-III — Destroy all Nevrons. Create a Lumina token for each Nevron destroyed this way.
-```
-
-[card implementation](../custom/cards/e/expedition_41.txt)
-
-### Design Notes
-
- - Journal is a story of expeditioners engaged in a competition to see who can kill the most Nevrons.
- - Obvious mechanical map to just killing Nevrons, and more Nevrons.
- - 28/12/2025: Fixed final chapter not granting Lumina tokens.
 
 ## Expedition 47 Drunkard
 
@@ -1130,27 +1072,6 @@ Gold Rank - As long as there are five or more quest counters on this enchantment
  - All minigames are modeled as "quest" enchantments originating from Zendikar block and use the same terminology (charging with quest counters based on certain conditions with some payoff at the end once you reach a certain number of quest counters).
  - Went with a simple creature entering as the trigger condition, with 3 different "ranks" of various buffs as payoffs.
 
-## Gestral Parkour Challenge
-
-```
-(W/R)
-Enchantment
-Whenever a Human you control enters, you may put a quest counter on this enchantment.
-As long as this enchantment as two or more quest counters, creatures you control gain vigilance.
-As long as this enchantment as three or more quest counters, creatures you control gain prowess.
----
-"If I were a 2-year-old human, at what age would I gommage? ... You're probably right, I can't count anyway."
-—Un-named Gestral
-```
-
-[card implementation](../custom/cards/g/gestral_parkour_challenge.txt)
-
-### Design Notes
-
- - In the game, the Gestral Parkour Challenge is 1 of 5 challenge minigames. This minigame in particular requires clearing an obstacle course and answering a riddle at the end.
- - All minigames are modeled as "quest" enchantments originating from Zendikar block and use the same terminology (charging with quest counters based on certain conditions with some payoff at the end once you reach a certain number of quest counters).
- - Made the enter trigger human only to make this more Expeditioner-aligned.
-
 ## Gestral Raft Volleyball Challenge
 
 ```
@@ -1476,23 +1397,6 @@ Overcharge — {T}, Remove X charge counters from Gustave: Gustave deals X damag
  - 23/09/2025: It may look a bit odd to have blue color identity but no actual abilities that cost blue mana. I added the blue color identity strictly for flavor purposes because he's an engineer and engineers are almost always a blue color identity.
  - 13/10/2025: Dropped the marking shot ability due to text box budget constraints having seen this card for the first time in CardConjurer.
  - 14/02/2026: Reorder mana symbols for consistency with actual cards with hybrd/regular pip combinations
-
-## Jar of Candy
-
-```
-GU
-Artifact - Food
-Flash
-{2}, {T}, Sacrifice this artifact: Create a blue Aura enchantment token named Barbapapa attached to target creature. The token has enchant creature and “Enchanted creature has base power 1. When enchanted creature deals combat damage, sacrifice this Aura.”
-{2}, {T}, Sacrifice this artifact: You gain 3 life.
-```
-
-[card implementation](../custom/cards/j/jar_of_candy.txt)
-
-### Design Notes
-
- - In the game, Jars of Candy are scattered throughout Verso's drafts. These are basically breakable loot containers.
- - Modeled as a food token that can flash in and be popped for a Barbapapa debuff.
 
 ## Lampmaster
 
@@ -2719,26 +2623,6 @@ Phantom Stars — {4}{W}, {T}, Remove X rank counters from Verso: Verso deals X 
  - "Phantom Stars" ultimate is paid in rank counters for game balance purposes. In game, none of Verso's abilities cost him is rank.
  - 21/01/2026: Changed "Phantom Stars" ultimate to only target up to 2 creatures instead of all creatures target opponent controls.
  - 14/02/2026: Reorder mana symbols for consistency with actual cards with hybrd/regular pip combinations
-
-## Verso's Composition
-
-```
-GW
-Enchantment
-At the beginning of your upkeep, you may put a verse counter on this enchantment.
-Sacrifice this enchantment: Target creature gets +X/+X and lifelink until end of turn, where X is the number of verse counters on this enchantment.
----
-Maelle: "What song was that? I feel like I know it."
-Verso: "Yeah, it’s an old song I used to play to my sister."
-Maelle: "Can you play another?"
-```
-
-[card implementation](../custom/cards/v/versos_composition.txt)
-
-### Design Notes
-
- - In the game, during one of the camp cutscenes, Verso plays some tunes on his piano.
- - Modeled on War Dance, with a lifelink bonus attached.
 
 ## Verso's Sky Train
 

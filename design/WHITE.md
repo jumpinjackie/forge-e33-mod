@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 23/2/2026 4:39:05 pm
+> Last generated: 2/3/2026 12:53:29 pm
 
 ## A Life to Love (Farewell)
 
@@ -39,24 +39,6 @@ Any damage dealt to you is dealt to this creature instead.
 ### Rulings
 
  - Combat damage to you is one "unit" of damage absorbed by one shield counter. One or more creatures that deal double strike damage to you is two "unit"s of such damage and will kill this creature if it does not have at least 2 shield counters on it.
-
-## Alicia's Birthday Party
-
-```
-2WW
-Enchantment
-When this enchantment enters, create two 1/1 white Human creature tokens named Party Guest.
-Whenever a Human creature you control enters, create a Food token. (It's an artifact with "{2}, {T}, Sacrifice this token: You gain 3 life.")
-{2}, Sacrifice this enchantment: Draw a card.
-```
-
-[card implementation](../custom/cards/a/alicias_birthday_party.txt)
-
-### Design Notes
-
- - In the game, one of Maelle's nightmare visions is of a birthday party with Gustave and Verso as guests.
- - Gone with an enchantment that brings in some party guests.
- - The more guests (humans) arrive, the more food becomes available.
 
 ## All Set
 
@@ -383,27 +365,6 @@ Whenever a creature dies, create a Lumina token and you gain 1 life. (It's an ar
  - In the game, after defeating the Dualliste, the party find a special tree at Verso's recommendation where Maelle buries Gustave's remains.
  - Card depicts this moment.
  - 19/01/2026: Added Lumina token bonus on creature death.
-
-## Healing Light
-
-```
-XW
-Kindred Sorcery - Expeditioner
-Each player gains twice X life.
-Luminous — Put a shield counter on up to one target creature you control and draw a card if you control at least three Lumina tokens.
----
-"Please survive!"
-—Maelle
-```
-
-[card implementation](../custom/cards/h/healing_light.txt)
-
-### Design Notes
-
- - In the game, Healing Light is one of Lune's abilities that heals an ally.
- - Easy mechanical translation to life gain, but with a twist. It's symmetrical for a reason: As an enabler for The 67th Gommage.
-    - Thus a card like this will not only help buy extra turns to get you to 6 mana to cast The 67th gommage, but also to get your opponent to 33 life or above.
- - 27/11/2025: Added Luminous bonus.
 
 ## Light the Path
 
