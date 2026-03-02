@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 2/3/2026 12:53:29 pm
+> Last generated: 2/3/2026 2:04:43 pm
 
 ## A Rock for François
 
@@ -848,27 +848,6 @@ Haymaker — {2}: Julien gains trample until end of turn.
     - Combo Jab: Easy. A flurry of strikes. Ergo. Double Strike
     - Uppercut: Julien's punches are so strong that an uppercut would launch his opponent into the air (in my mind). Hence, the momentary flying after being dealt 2 damage (if it survives that punch!)
     - Haymaker: Interpreted as a really heavy punch and trample is a suitable way to convey such heaviness
-
-## Letter from Alicia
-
-```
-1
-Legendary Artifact - Clue
-When Letter from Alicia enters, scry 2.
-When Letter from Alicia is put into a graveyard from the battlefield, creatures can’t attack this turn.
-{2}, Sacrifice Letter from Alicia: Draw a card.
----
-"Brother, I tire of the conflicts and deceptions that plague our family and theirs. So I entrust you with this letter. Whether you give it to her is up to you."
-—Alicia
-```
-
-[card implementation](../custom/cards/l/letter_from_alicia.txt)
-
-### Design Notes
-
- - In the game, Painted Alicia hands a letter to Verso to be delivered to Maelle, but at the conclusion of Act 2 he opens it and reads it for himself, revealing the true intentions of The Paintress that the party had just defeated.
- - Given the letter is about Painted Alicia's desire for this conflict to end, I've mapped this to a momentary "peacekeeper" effect.
- - A letter follows the archetype of a Clue Artifact, thus it's a clue.
 
 ## Limonsol, Matchmaker
 

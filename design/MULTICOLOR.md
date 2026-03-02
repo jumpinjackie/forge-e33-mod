@@ -1,23 +1,6 @@
 # Cards
 
-> Last generated: 2/3/2026 12:53:29 pm
-
-## A Storm is Coming
-
-```
-
-Kindred Sorcery - Expeditioner
-Suspend 1 - {U}{R} (Rather than cast this card from your hand, pay {U}{R} and exile it with one time counter on it. At the beginning of your upkeep, remove a time counter. When the last is removed, you may cast it without paying its mana cost.)
-A Storm is Coming deals 3 damage to any target.
-Create a Lumina token. (It's an artifact with "{T}, Sacrifice this artifact: Scry 1.")
-```
-
-[card implementation](../custom/cards/a/a_storm_is_coming.txt)
-
-### Design Notes
-
- - In the game, this is one of Lune's quotes during battle
- - Lighting bolt with suspend to convey the "storm is coming". Lumina reward as standard with any Expeditioner spell
+> Last generated: 2/3/2026 2:37:55 pm
 
 ## Aberration
 
@@ -636,28 +619,6 @@ Summons minions — {2}{G}{G}, {T}: Create two 1/1 green Nevron creature tokens 
 
  - In the game, Évêque is the first boss, encountered at the end of Spring Meadows.
 
-## Expedition 32 Trainees
-
-```
-1(W/U)
-Creature - Human Expeditioner
-Training (Whenever this creature attacks with another creature with greater power, put a +1/+1 counter on this creature.)
-When this creature dies, create a Chroma token.
----
-Although the citizens of Lumière always hope for the current Expedition to succeed, trainees operate with the understanding that success is never guaranteed, that they will be next in line and must plan accordingly.
-
-2/3
-```
-
-[card implementation](../custom/cards/e/expedition_32_trainees.txt)
-
-### Design Notes
-
- - In the game, upon the defeat of The Paintress, the party triumphantly returns to Lumière. The next group of Expeditioners are among those welcoming back the party and wanting to pick their minds on how they did the impossible.
- - This card depicts such Expeditioners.
- - Training was already an existing mechanic, so this creature uses that.
- - 21/01/2026: Color-shifted from white to white/blue hybrid.
-
 ## Expedition 34 Mage
 
 ```
@@ -901,28 +862,6 @@ When this creature dies, create a Chroma token. (It's an artifact with "{T}, Sac
  - Card represents some of the Airship crew.
  - This is our heavy-hitter for an all-flyers strategy.
  - 12/11/2025: Renamed from Expedition 78 Aircrew to Expedition 78 Airship
-
-## Expedition 81 Interpreter
-
-```
-2(W/U)
-Creature - Human Expeditioner Wizard
-You may choose not to untap this creature during your untap step.
-Nevron Whisperer — {2}, {T}: Gain control of target Nevron creature for as long as this creature remains tapped.
-When this creature dies, create a Chroma token.
----
-"Gregoire is, as usual, deeply suspicious, but this could change our entire understanding of Nevrons and the Paintre-"
-
-1/2
-```
-
-[card implementation](../custom/cards/e/expedition_81_interpreter.txt)
-
-### Design Notes
-
- - In the game, Expedition 81 was the first expedition to ever communicate with a Nevron.
- - This card represents someone who has mastered the ability to communicate with Nevron.
- - Mechanically translated to taking control of Nevrons with a Vedalken Shackles style effect.
 
 ## Expedition Festival
 
@@ -1530,28 +1469,6 @@ Fuse (You may cast one or both halves of this card from your hand.)
  - Design based solely on Esquie's quote in his Act 3 conversation with Sciel.
  - Lost: Clearly a send back to library effect
  - Found: An Argivian Find, but only targets artifacts (rocks)
-
-## Lumièrian Apprentice
-
-```
-1(W/U)
-Creature - Human Citizen
-Whenever another non-Human creature enters, investigate. (Create a Clue token. It's an artifact with "{2}, Sacrifice this artifact: Draw a card.")
----
-He eagerly absorbs the knowledge given to him, for he knows when his time comes, it will be a valuable resource.
-
-1/3
-```
-
-[card implementation](../custom/cards/l/lumierian_apprentice.txt)
-
-### Design Notes
-
- - In the game, some of the children/teenagers of Lumière are apprentices of Expeditioners, absorbing as much knowledge passed down to them should they fail and they will eventually become Expeditioners themselves and need to take up the mantle.
- - Modeled their "curiosity" as giving you clues whenever a "foreign" creature type enters the battlefield.
- - One of the rare humans in this set that are not Expeditioners.
- - 21/01/2026: Color-shifted from white to white/blue hybrid.
- - 26/01/2026: Changed clue trigger from non-Expeditioner to non-Human as investigating when a Human (that's not an Expeditioner) enters is non-sensical from a flavor perspective.
 
 ## Lune, Charting a Path
 

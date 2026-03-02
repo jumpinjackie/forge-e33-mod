@@ -238,7 +238,7 @@ Cards implemented: 440
 [x] Lancelier
 [x] Last Stand of Expedition 33
 [x] Leave this Canvas!
-[x] Letter from Alicia
+[ ] Letter from Alicia
 [x] Light the Path
 [x] Lightning Dance
 [x] Limonsol, Matchmaker

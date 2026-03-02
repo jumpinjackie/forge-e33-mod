@@ -20,12 +20,12 @@ Type=Custom
 76 R Damn @Lucas Graciano
 84 R Deflecting Swat @rk post
 92 M Doubling Season @Chuck Lukacs
-156 C Farseek @Hristo D. Chukov
-157 C Feed the Swarm @Andrey Kuzinskiy
-158 U Fellwar Stone @John Avon
-160 U Final Parting @Sandfall Interactive
-173 R Shivan Reef @Sandfall Interactive ${"flavorName": "Frozen Hearts"}
-217 C Growth Spiral @Seb McKinnon
+157 C Farseek @Hristo D. Chukov
+158 C Feed the Swarm @Andrey Kuzinskiy
+159 U Fellwar Stone @John Avon
+161 U Final Parting @Sandfall Interactive
+174 R Shivan Reef @Sandfall Interactive ${"flavorName": "Frozen Hearts"}
+218 C Growth Spiral @Seb McKinnon
 261 M Mana Drain @Raymond Swanland
 271 U Mask of Memory @Sandfall Interactive
 276 R Mirage Mirror @Craig J Spearing

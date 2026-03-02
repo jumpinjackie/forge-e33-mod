@@ -102,103 +102,103 @@ Type=Custom
 123 C Expedition 54 Dissident @Google Gemini
 124 U Expedition 55 Drummer @Google Gemini
 125 U Expedition 55 Trumpeter @Google Gemini
-126 C Expedition 57 Siege Engine @Sandfall Interactive
-127 C Expedition 57 Siege Engineer @Google Gemini
-128 U Expedition 59 @Sandfall Interactive
-129 U Expedition 59 Chef @Google Gemini
-130 U Expedition 60 @Sandfall Interactive
-131 C Expedition 60 Messenger @Google Gemini
-132 U Expedition 62 Hunter @Sandfall Interactive
-133 C Expedition 63 Driver @Sandfall Interactive
-134 U Expedition 64 Radio @Sandfall Interactive
-135 U Expedition 67 Blastminer @Sandfall Interactive
-136 U Expedition 67 Demolitions Expert @Sandfall Interactive
-137 C Expedition 68 Navigator @Google Gemini
-138 U Expedition 69 @Sandfall Interactive
-139 C Expedition 69 Explorer @Google Gemini
-140 C Expedition 69 Mountaineer @Google Gemini
-141 C Expedition 69 Surveyor @Google Gemini
-142 R Expedition 70 @Sandfall Interactive
-143 R Expedition 78 @Sandfall Interactive
-144 U Expedition 78 Airship @Sandfall Interactive
-145 U Expedition 81 Interpreter @Google Gemini
-146 R Expedition Camp @Sandfall Interactive
-147 R Expedition Festival @Sandfall Interactive
-148 U Expedition Flag @Sandfall Interactive
-149 U Expedition Flotilla @Sandfall Interactive
-150 U Expedition Journal @Sandfall Interactive
-151 U Expedition Recruiter @Sandfall Interactive
-152 C Expeditioner Uniform @Sandfall Interactive
-153 C Face Adversity @Sandfall Interactive
-155 C Familial Bonding @Sandfall Interactive
-161 C Finesse // Grace @Sandfall Interactive
-163 R Florian, Lumière Doomsayer @Sandfall Interactive
-164 U Florrie @Sandfall Interactive
-165 R Flying Casino @Sandfall Interactive
-166 U Flying Waters @Sandfall Interactive
-168 C Forest @Alayna Danner
-169 R Forgotten Battlefield @Sandfall Interactive
-170 C Fortune's Fury @Sandfall Interactive
-171 R François, Waiting for Clea @Sandfall Interactive
-172 C Franctale @Sandfall Interactive
-174 U Full Deck @Sandfall Interactive
-175 U Gargant @Sandfall Interactive
-176 C Gault @Sandfall Interactive
-177 R Gestral Arena @Sandfall Interactive
-178 U Gestral Ascension Challenge @Sandfall Interactive
-179 C Gestral Bazaar @Sandfall Interactive
-180 C Gestral Bodyguard @Sandfall Interactive
-181 U Gestral Climbing Challenge @Sandfall Interactive
-182 C Gestral Doctor @Sandfall Interactive
-183 U Gestral Elder @Sandfall Interactive
-185 R Gestral Fighter @Sandfall Interactive
-186 U Gestral Foot Race Challenge @Sandfall Interactive
-187 U Gestral Kid @Sandfall Interactive
-188 U Gestral Merchant @Sandfall Interactive
-189 C Gestral Pot @Sandfall Interactive
-190 U Gestral Raft Volleyball Challenge @Sandfall Interactive
-191 U Gestral Ringleader @Sandfall Interactive
-192 U Gestral Seesaw Challenge @Sandfall Interactive
-193 R Gestral Village @Sandfall Interactive
-194 C Gestral Villager @Sandfall Interactive
-195 U Gestral Volleyball Strike @Sandfall Interactive
-196 C Gestral Warrior @Sandfall Interactive
-197 U Gestral Worker @Sandfall Interactive
-198 U Get Out Of My Way! @Sandfall Interactive
-199 R Giant Sapling @Sandfall Interactive
-200 U Glaise @Sandfall Interactive
-201 U Glass Cannon Picto @Sandfall Interactive
-202 R Glimpse of Humanity @Sandfall Interactive
-203 R Glissando @Sandfall Interactive
-204 R Goblu @Sandfall Interactive
-205 U Gold Chevalière @Sandfall Interactive
-206 M Golgra, Gestral Chef @Sandfall Interactive
-207 M Gommage @Sandfall Interactive
-208 C Grandis Cleaner @Sandfall Interactive
-209 R Grandis Fashionist @Sandfall Interactive
-210 C Grandis Fighter @Sandfall Interactive
-211 C Grandis Guard @Sandfall Interactive
-212 U Grandis Merchant @Sandfall Interactive
-213 C Grandis Scout @Sandfall Interactive
-214 U Greatsword Cultist @Sandfall Interactive
-216 R Grosse Tête @Sandfall Interactive
-218 R Gustave, Lumière Engineer @Sandfall Interactive
-219 C Gustave's Burial @Sandfall Interactive
-220 U Gustave's Insight @Sandfall Interactive
-221 R Gustave's Journal @Sandfall Interactive
-222 U Half-baked Lifeguard @Sandfall Interactive
-223 C Here's Your Card! @Google Gemini
-224 U Hexga @Sandfall Interactive
-225 U Hiding the Canvas @Sandfall Interactive
-226 C Ice Lance @Sandfall Interactive
-227 C Island @Eddie Mendoza
-228 C Jar @Sandfall Interactive
-229 R Julien Tiny Head @Sandfall Interactive
-230 R Lampmaster @Sandfall Interactive
-231 C Lancelier @Sandfall Interactive
-232 R Last Stand of Expedition 33 @Sandfall Interactive
-234 R Leave this Canvas! @Sandfall Interactive
-235 U Letter from Alicia @Sandfall Interactive
+126 U Expedition 56 Trapper @Google Gemini
+127 C Expedition 57 Siege Engine @Sandfall Interactive
+128 C Expedition 57 Siege Engineer @Google Gemini
+129 U Expedition 59 @Sandfall Interactive
+130 U Expedition 59 Chef @Google Gemini
+131 U Expedition 60 @Sandfall Interactive
+132 C Expedition 60 Messenger @Google Gemini
+133 U Expedition 62 Hunter @Sandfall Interactive
+134 C Expedition 63 Driver @Sandfall Interactive
+135 U Expedition 64 Radio @Sandfall Interactive
+136 U Expedition 67 Blastminer @Sandfall Interactive
+137 U Expedition 67 Demolitions Expert @Sandfall Interactive
+138 C Expedition 68 Navigator @Google Gemini
+139 U Expedition 69 @Sandfall Interactive
+140 C Expedition 69 Explorer @Google Gemini
+141 C Expedition 69 Mountaineer @Google Gemini
+142 C Expedition 69 Surveyor @Google Gemini
+143 R Expedition 70 @Sandfall Interactive
+144 R Expedition 78 @Sandfall Interactive
+145 U Expedition 78 Airship @Sandfall Interactive
+146 U Expedition 81 Interpreter @Google Gemini
+147 R Expedition Camp @Sandfall Interactive
+148 R Expedition Festival @Sandfall Interactive
+149 U Expedition Flag @Sandfall Interactive
+150 U Expedition Flotilla @Sandfall Interactive
+151 U Expedition Journal @Sandfall Interactive
+152 U Expedition Recruiter @Sandfall Interactive
+153 C Expeditioner Uniform @Sandfall Interactive
+154 C Face Adversity @Sandfall Interactive
+156 C Familial Bonding @Sandfall Interactive
+162 C Finesse // Grace @Sandfall Interactive
+164 R Florian, Lumière Doomsayer @Sandfall Interactive
+165 U Florrie @Sandfall Interactive
+166 R Flying Casino @Sandfall Interactive
+167 U Flying Waters @Sandfall Interactive
+169 C Forest @Alayna Danner
+170 R Forgotten Battlefield @Sandfall Interactive
+171 C Fortune's Fury @Sandfall Interactive
+172 R François, Waiting for Clea @Sandfall Interactive
+173 C Franctale @Sandfall Interactive
+175 U Full Deck @Sandfall Interactive
+176 U Gargant @Sandfall Interactive
+177 C Gault @Sandfall Interactive
+178 R Gestral Arena @Sandfall Interactive
+179 U Gestral Ascension Challenge @Sandfall Interactive
+180 C Gestral Bazaar @Sandfall Interactive
+181 C Gestral Bodyguard @Sandfall Interactive
+182 U Gestral Climbing Challenge @Sandfall Interactive
+183 C Gestral Doctor @Sandfall Interactive
+184 U Gestral Elder @Sandfall Interactive
+186 R Gestral Fighter @Sandfall Interactive
+187 U Gestral Foot Race Challenge @Sandfall Interactive
+188 U Gestral Kid @Sandfall Interactive
+189 U Gestral Merchant @Sandfall Interactive
+190 C Gestral Pot @Sandfall Interactive
+191 U Gestral Raft Volleyball Challenge @Sandfall Interactive
+192 U Gestral Ringleader @Sandfall Interactive
+193 U Gestral Seesaw Challenge @Sandfall Interactive
+194 R Gestral Village @Sandfall Interactive
+195 C Gestral Villager @Sandfall Interactive
+196 U Gestral Volleyball Strike @Sandfall Interactive
+197 C Gestral Warrior @Sandfall Interactive
+198 U Gestral Worker @Sandfall Interactive
+199 U Get Out Of My Way! @Sandfall Interactive
+200 R Giant Sapling @Sandfall Interactive
+201 U Glaise @Sandfall Interactive
+202 U Glass Cannon Picto @Sandfall Interactive
+203 R Glimpse of Humanity @Sandfall Interactive
+204 R Glissando @Sandfall Interactive
+205 R Goblu @Sandfall Interactive
+206 U Gold Chevalière @Sandfall Interactive
+207 M Golgra, Gestral Chef @Sandfall Interactive
+208 M Gommage @Sandfall Interactive
+209 C Grandis Cleaner @Sandfall Interactive
+210 R Grandis Fashionist @Sandfall Interactive
+211 C Grandis Fighter @Sandfall Interactive
+212 C Grandis Guard @Sandfall Interactive
+213 U Grandis Merchant @Sandfall Interactive
+214 C Grandis Scout @Sandfall Interactive
+215 U Greatsword Cultist @Sandfall Interactive
+217 R Grosse Tête @Sandfall Interactive
+219 R Gustave, Lumière Engineer @Sandfall Interactive
+220 C Gustave's Burial @Sandfall Interactive
+221 U Gustave's Insight @Sandfall Interactive
+222 R Gustave's Journal @Sandfall Interactive
+223 U Half-baked Lifeguard @Sandfall Interactive
+224 C Here's Your Card! @Google Gemini
+225 U Hexga @Sandfall Interactive
+226 U Hiding the Canvas @Sandfall Interactive
+227 C Ice Lance @Sandfall Interactive
+228 C Island @Eddie Mendoza
+229 C Jar @Sandfall Interactive
+230 R Julien Tiny Head @Sandfall Interactive
+231 R Lampmaster @Sandfall Interactive
+232 C Lancelier @Sandfall Interactive
+233 R Last Stand of Expedition 33 @Sandfall Interactive
+235 R Leave this Canvas! @Sandfall Interactive
 236 R Licornapieds @Sandfall Interactive
 237 C Licorne @Sandfall Interactive
 238 C Light the Path @Sandfall Interactive
@@ -374,13 +374,13 @@ Type=Custom
 83 C Deceptive Landscape @Erikas Perl
 85 C Demand Answers @Sandfall Interactive
 94 U Death Pits of Rath @Sandfall Interactive ${"flavorName": "Dualliste's Lair"}
-154 R Yavimaya, Cradle of Growth @Sandfall Interactive ${"flavorName": "Falling Leaves"}
-159 U Field of Ruin @Chris Ostrowski
-162 U Ominous Cemetery @Sandfall Interactive ${"flavorName": "Floating Cemetery"}
-167 C Foreboding Landscape @Erikas Perl
-184 U Grand Melee @Sandfall Interactive ${"flavorName": "Gestral Fight Club"}
-215 M Grief @Campbell White
-233 U Last-Ditch Effort @Sandfall Interactive
+155 R Yavimaya, Cradle of Growth @Sandfall Interactive ${"flavorName": "Falling Leaves"}
+160 U Field of Ruin @Chris Ostrowski
+163 U Ominous Cemetery @Sandfall Interactive ${"flavorName": "Floating Cemetery"}
+168 C Foreboding Landscape @Erikas Perl
+185 U Grand Melee @Sandfall Interactive ${"flavorName": "Gestral Fight Club"}
+216 M Grief @Campbell White
+234 U Last-Ditch Effort @Sandfall Interactive
 244 R Blooming Marsh @Sandfall Interactive ${"flavorName": "Lost Woods"}
 248 R Rishadan Port @Sandfall Interactive ${"flavorName": "Lumière Harbor"}
 298 C Painted Bluffs @Mark Poole

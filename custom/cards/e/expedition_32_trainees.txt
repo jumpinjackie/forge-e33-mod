@@ -1,5 +1,5 @@
 Name:Expedition 32 Trainees
-ManaCost:1 WU
+ManaCost:1 W
 Types:Creature Human Expeditioner
 PT:2/3
 K:Training

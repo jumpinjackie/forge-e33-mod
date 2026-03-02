@@ -1,6 +1,24 @@
 # Cards
 
-> Last generated: 2/3/2026 12:53:29 pm
+> Last generated: 2/3/2026 2:28:47 pm
+
+## A Storm is Coming
+
+```
+
+Kindred Sorcery - Expeditioner
+Suspend 1 - {R} (Rather than cast this card from your hand, pay {R} and exile it with one time counter on it. At the beginning of your upkeep, remove a time counter. When the last is removed, you may cast it without paying its mana cost.)
+A Storm is Coming deals 3 damage to any target.
+Create a Lumina token. (It's an artifact with "{T}, Sacrifice this artifact: Scry 1.")
+```
+
+[card implementation](../custom/cards/a/a_storm_is_coming.txt)
+
+### Design Notes
+
+ - In the game, this is one of Lune's quotes during battle
+ - Lighting bolt with suspend to convey the "storm is coming". Lumina reward as standard with any Expeditioner spell
+ - 3/03/2026: Color-shifted to red.
 
 ## Anger
 

@@ -1,5 +1,5 @@
 Name:Expedition 81 Interpreter
-ManaCost:2 WU
+ManaCost:2 U
 Types:Creature Human Expeditioner Wizard
 PT:1/2
 K:You may choose not to untap CARDNAME during your untap step.

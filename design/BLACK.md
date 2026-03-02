@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 2/3/2026 12:53:29 pm
+> Last generated: 2/3/2026 2:04:43 pm
 
 ## Axon Offering
 
@@ -194,6 +194,30 @@ When this creature dies, target opponent creates a Lumina token. (It's an artifa
 
  - A land with a blighted counter only gets destroyed when tapped if an instance of Échassier is on the battlefield. If there are no instances, the land is not destroyed when tapped.
  - A creature with a blighted counter only has base toughness 1 if an instance of Échassier is on the battlefield. If there are no instances, the creature has its originally printed toughness.
+
+## Expedition 56 Trapper
+
+```
+2B
+Creature - Human Expeditioner Scout
+Flash
+If an opponent had a Painter or Nevron permanent enter the battlefield under their control this turn, you may pay {B} rather than pay this spell's mana cost.
+{B}, {T}: Tap target creature.
+When this creature dies, create a Chroma token.
+---
+“She looks human, but I know she’s a monster. She refuses to speak, but I’ll make her talk. And then I will feed her to a Nevron. Then the Paintress can take me, I don’t care, nothing matters. I will have justice!”
+
+3/2
+```
+
+[card implementation](../custom/cards/e/expedition_56_trapper.txt)
+
+### Design Notes
+
+ - In the game, the journal of Expedition 56 tells the story of an extremely vengeful Expeditioner capturing Painted Alicia after her comrades were killed by Painted Renoir.
+ - Card depicts this member.
+ - Gone with a creature-based version of a Zendikar trap with the trap trigger being a Painter or Nevron entering.
+ - Most existing printed trappers have a creature tap ability. So she gets the same ability here.
 
 ## Expedition 62 Hunter
 
