@@ -1,0 +1,13 @@
+Name:Expedition 56 Trapper
+ManaCost:2 B
+Types:Creature Human Expeditioner Scout
+PT:3/2
+K:Flash
+S:Mode$ AlternativeCost | ValidSA$ Spell.Self | EffectZone$ All | Cost$ B | CheckSVar$ TrapCondition | Description$ If an opponent had a Painter or Nevron permanent enter the battlefield under their control this turn, you may pay {B} rather than pay this spell's mana cost.
+A:AB$ Tap | Cost$ B T | ValidTgts$ Creature | SpellDescription$ Tap target creature.
+SVar:TrapCondition:Count$ThisTurnEntered_Battlefield_Permanent.Painter+OppCtrl/Plus.NevronCount
+SVar:NevronCount:Count$ThisTurnEntered_Battlefield_Permanent.Nevron+OppCtrl
+T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Card.Self | Execute$ TrigToken | TriggerDescription$ When CARDNAME dies, create a Chroma token
+SVar:TrigToken:DB$ Token | TokenScript$ c_a_chroma | TokenOwner$ You | TokenAmount$ 1
+DeckHints:Type$Expeditioner
+Oracle:Flash\nIf an opponent had a Painter or Nevron permanent enter the battlefield under their control this turn, you may pay {B} rather than pay this spell's mana cost.\n{B}, {T}: Tap target creature.\nWhen this creature dies, create a Chroma token.

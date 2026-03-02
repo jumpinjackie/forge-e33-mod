@@ -1,0 +1,36 @@
+[Name]
+Expedition 56 Trapper
+[ManaCost]
+2
+B
+[Types]
+Creature
+Human
+Expeditioner
+Scout
+[Rarity]
+U
+[Artist]
+Google Gemini
+[PT]
+3/2
+[Oracle]
+Flash
+If an opponent had a Painter or Nevron permanent enter the battlefield under their control this turn, you may pay {B} rather than pay this spell's mana cost.
+{B}, {T}: Tap target creature.
+$EXPEDITIONER_DEATH_ABILITY_TEXT
+[FlavorText]
+“She looks human, but I know she’s a monster. She refuses to speak, but I’ll make her talk. And then I will feed her to a Nevron. Then the Paintress can take me, I don’t care, nothing matters. I will have justice!”
+[ForgeScript]
+K:Flash
+S:Mode$ AlternativeCost | ValidSA$ Spell.Self | EffectZone$ All | Cost$ B | CheckSVar$ TrapCondition | Description$ If an opponent had a Painter or Nevron permanent enter the battlefield under their control this turn, you may pay {B} rather than pay this spell's mana cost.
+A:AB$ Tap | Cost$ B T | ValidTgts$ Creature | SpellDescription$ Tap target creature.
+SVar:TrapCondition:Count$ThisTurnEntered_Battlefield_Permanent.Painter+OppCtrl/Plus.NevronCount
+SVar:NevronCount:Count$ThisTurnEntered_Battlefield_Permanent.Nevron+OppCtrl
+$EXPEDITIONER_DEATH_ABILITY
+DeckHints:Type$Expeditioner
+[DesignNotes]
+ - In the game, the journal of Expedition 56 tells the story of an extremely vengeful Expeditioner capturing Painted Alicia after her comrades were killed by Painted Renoir.
+ - Card depicts this member.
+ - Gone with a creature-based version of a Zendikar trap with the trap trigger being a Painter or Nevron entering.
+ - Most existing printed trappers have a creature tap ability. So she gets the same ability here.
