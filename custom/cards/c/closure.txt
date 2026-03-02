@@ -1,9 +1,0 @@
-Name:Closure
-ManaCost:1 WB
-Types:Instant
-A:SP$ ChangeZoneAll | ChangeType$ Card | Origin$ Graveyard | Destination$ Exile | AILogic$ ExileGraveyards | RememberChanged$ True | SubAbility$ DBLifeGain | SpellDescription$ Exile all graveyards.
-SVar:DBLifeGain:DB$ GainLife | LifeAmount$ X | SubAbility$ DBDraw
-SVar:DBDraw:DB$ Draw | SubAbility$ DBCleanup
-SVar:DBCleanup:DB$ Cleanup | ClearRemembered$ True
-SVar:X:Remembered$Valid Creature
-Oracle:Exile all graveyards. You gain 1 life for each creature card exiled this way.\nDraw a card.
