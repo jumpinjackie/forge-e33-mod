@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 23/2/2026 4:39:05 pm
+> Last generated: 2/3/2026 2:28:47 pm
 
 ## A Life to Love (Farewell)
 
@@ -39,24 +39,6 @@ Any damage dealt to you is dealt to this creature instead.
 ### Rulings
 
  - Combat damage to you is one "unit" of damage absorbed by one shield counter. One or more creatures that deal double strike damage to you is two "unit"s of such damage and will kill this creature if it does not have at least 2 shield counters on it.
-
-## Alicia's Birthday Party
-
-```
-2WW
-Enchantment
-When this enchantment enters, create two 1/1 white Human creature tokens named Party Guest.
-Whenever a Human creature you control enters, create a Food token. (It's an artifact with "{2}, {T}, Sacrifice this token: You gain 3 life.")
-{2}, Sacrifice this enchantment: Draw a card.
-```
-
-[card implementation](../custom/cards/a/alicias_birthday_party.txt)
-
-### Design Notes
-
- - In the game, one of Maelle's nightmare visions is of a birthday party with Gustave and Verso as guests.
- - Gone with an enchantment that brings in some party guests.
- - The more guests (humans) arrive, the more food becomes available.
 
 ## All Set
 
@@ -254,6 +236,29 @@ Vigilance
  - In the game, the Danseuse Teacher is an unfinished Nevron that rewards you with a costume if you can beat her parry challenge.
  - Is white as that's the color we've designated for unfinished Nevrons.
 
+## Expedition 32 Trainees
+
+```
+1W
+Creature - Human Expeditioner
+Training (Whenever this creature attacks with another creature with greater power, put a +1/+1 counter on this creature.)
+When this creature dies, create a Chroma token.
+---
+Although the citizens of Lumière always hope for the current Expedition to succeed, trainees operate with the understanding that success is never guaranteed, that they will be next in line and must plan accordingly.
+
+2/3
+```
+
+[card implementation](../custom/cards/e/expedition_32_trainees.txt)
+
+### Design Notes
+
+ - In the game, upon the defeat of The Paintress, the party triumphantly returns to Lumière. The next group of Expeditioners are among those welcoming back the party and wanting to pick their minds on how they did the impossible.
+ - This card depicts such Expeditioners.
+ - Training was already an existing mechanic, so this creature uses that.
+ - 21/01/2026: Color-shifted from white to white/blue hybrid.
+ - 3/03/2026: Color-shifted from white/blue hybrid back to white.
+
 ## Expedition 49
 
 ```
@@ -384,27 +389,6 @@ Whenever a creature dies, create a Lumina token and you gain 1 life. (It's an ar
  - Card depicts this moment.
  - 19/01/2026: Added Lumina token bonus on creature death.
 
-## Healing Light
-
-```
-XW
-Kindred Sorcery - Expeditioner
-Each player gains twice X life.
-Luminous — Put a shield counter on up to one target creature you control and draw a card if you control at least three Lumina tokens.
----
-"Please survive!"
-—Maelle
-```
-
-[card implementation](../custom/cards/h/healing_light.txt)
-
-### Design Notes
-
- - In the game, Healing Light is one of Lune's abilities that heals an ally.
- - Easy mechanical translation to life gain, but with a twist. It's symmetrical for a reason: As an enabler for The 67th Gommage.
-    - Thus a card like this will not only help buy extra turns to get you to 6 mana to cast The 67th gommage, but also to get your opponent to 33 life or above.
- - 27/11/2025: Added Luminous bonus.
-
 ## Light the Path
 
 ```
@@ -440,6 +424,29 @@ With her newfound powers, Maelle brought back the spirits of Expeditions past to
 
  - Primarily designed to support the Crippling Tsunami Prison strategy
  - 7/11/2025: Changed flashback cost from saccing 2 Chroma tokens to 2 Lumina tokens.
+
+## Lumièrian Apprentice
+
+```
+1W
+Creature - Human Citizen
+Whenever another non-Human creature enters, investigate. (Create a Clue token. It's an artifact with "{2}, Sacrifice this artifact: Draw a card.")
+---
+He eagerly absorbs the knowledge given to him, for he knows when his time comes, it will be a valuable resource.
+
+1/3
+```
+
+[card implementation](../custom/cards/l/lumierian_apprentice.txt)
+
+### Design Notes
+
+ - In the game, some of the children/teenagers of Lumière are apprentices of Expeditioners, absorbing as much knowledge passed down to them should they fail and they will eventually become Expeditioners themselves and need to take up the mantle.
+ - Modeled their "curiosity" as giving you clues whenever a "foreign" creature type enters the battlefield.
+ - One of the rare humans in this set that are not Expeditioners.
+ - 21/01/2026: Color-shifted from white to white/blue hybrid.
+ - 26/01/2026: Changed clue trigger from non-Expeditioner to non-Human as investigating when a Human (that's not an Expeditioner) enters is non-sensical from a flavor perspective.
+ - 3/03/2026: Color-shifted from white/blue hybrid back to white.
 
 ## Path to Exile
 

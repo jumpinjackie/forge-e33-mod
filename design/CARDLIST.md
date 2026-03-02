@@ -29,7 +29,7 @@ From this list, card designs are spawned from it, which will eventually form the
 
 ## Card Name List
 
-Cards implemented: 455
+Cards implemented: 440
 
 [x] - Card is implemented or in development, [C] - Card is a commander reprint, [R] - Card is a regular reprint, [N] - Card is a nickname reprint, [Z] - Card is a nickname reprint for commander [ ] - Card is not implemented
 
@@ -41,7 +41,7 @@ Cards implemented: 455
 [x] Aberration
 [x] Acceptance
 [x] Alicia Dessendre, Silenced by Fire
-[x] Alicia's Birthday Party
+[ ] Alicia's Birthday Party
 [x] All Set
 [x] Amandine, Fashion Stylist
 [x] An Advantage!
@@ -63,7 +63,7 @@ Cards implemented: 455
 [x] Blanche, the Unfinished Creation
 [N] Boat Graveyard
 [x] Boucheclier
-[x] Bound by Chains
+[ ] Bound by Chains
 [x] Bourgeon
 [x] Braseleur
 [x] Breaking Moment
@@ -83,14 +83,14 @@ Cards implemented: 455
 [ ] Chroma is Flowing
 [x] Chroma Prison
 [ ] Chroma Trap
-[x] Chromatic Inversion
+[ ] Chromatic Inversion
 [x] Chromatic Petrification
 [x] Chromatic Reclamation
 [x] Clair
 [x] Clair Obscur
 [ ] Clea Dessendre, Seeking Vengeance
 [x] Clea's Chromatic Mastery
-[x] Closure
+[ ] Closure
 [x] Colette, Trinket Dealer
 [Z] Crimson Forest
 [x] Crippling Tsunami
@@ -131,7 +131,7 @@ Cards implemented: 455
 [x] Expedition 34 Mage
 [x] Expedition 35 Bridge
 [x] Expedition 40 Glider
-[x] Expedition 41
+[ ] Expedition 41
 [x] Expedition 43 Submersible
 [x] Expedition 47 Drunkard
 [ ] Expedition 48
@@ -200,7 +200,7 @@ Cards implemented: 455
 [x] Gestral Foot Race Challenge
 [x] Gestral Kid
 [ ] Gestral Lackey
-[x] Gestral Parkour Challenge
+[ ] Gestral Parkour Challenge
 [x] Gestral Pot
 [x] Gestral Raft Volleyball Challenge
 [x] Gestral Ringleader
@@ -226,8 +226,8 @@ Cards implemented: 455
 [ ] Gustave's Ingenuity
 [x] Gustave's Insight
 [x] Gustave's Journal
-[x] Healing Light
-[x] Healing Tint
+[ ] Healing Light
+[ ] Healing Tint
 [x] Here's Your Card!
 [x] Hexga
 [x] Ice Lance
@@ -238,7 +238,7 @@ Cards implemented: 455
 [x] Lancelier
 [x] Last Stand of Expedition 33
 [x] Leave this Canvas!
-[x] Letter from Alicia
+[ ] Letter from Alicia
 [x] Light the Path
 [x] Lightning Dance
 [x] Limonsol, Matchmaker
@@ -287,7 +287,7 @@ Cards implemented: 455
 [x] Ono-Puncho
 [x] Ophelie, Lumière Florist
 [x] Orphelin
-[x] Paint Cage
+[ ] Paint Cage
 [x] Paint Spike
 [x] Painted Alicia, Eternally Suffering
 [ ] Painted Clea, the Mistress
@@ -344,7 +344,7 @@ Cards implemented: 455
 [x] Surcease
 [x] Tall Gestral
 [x] Terraquake
-[x] The 67th Gommage
+[ ] The 67th Gommage
 [x] The Curator // Renoir, Dessendre Patriarch
 [x] The Fate of the Canvas
 [x] The Fracture

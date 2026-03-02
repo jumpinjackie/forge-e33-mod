@@ -1,23 +1,6 @@
 # Cards
 
-> Last generated: 1/3/2026 2:05:38 pm
-
-## A Storm is Coming
-
-```
-
-Kindred Sorcery - Expeditioner
-Suspend 1 - {U}{R} (Rather than cast this card from your hand, pay {U}{R} and exile it with one time counter on it. At the beginning of your upkeep, remove a time counter. When the last is removed, you may cast it without paying its mana cost.)
-A Storm is Coming deals 3 damage to any target.
-Create a Lumina token. (It's an artifact with "{T}, Sacrifice this artifact: Scry 1.")
-```
-
-[card implementation](../custom/cards/a/a_storm_is_coming.txt)
-
-### Design Notes
-
- - In the game, this is one of Lune's quotes during battle
- - Lighting bolt with suspend to convey the "storm is coming". Lumina reward as standard with any Expeditioner spell
+> Last generated: 2/3/2026 2:37:55 pm
 
 ## Aberration
 
@@ -70,26 +53,6 @@ Each player who has cast a non-Painter, non-Gradient spell this turn can’t cas
  - 6/10/2025: Meld is back on the menu! Got it to work finally! Also extended null rod effect to Chroma and Lumina tokens.
  - 3/11/2025: Exchanged abilities with human Alicia. Canonist exemption changed from Nevrons/Gradient to Painters/Gradient. Reduce Chroma sac activation cost from 3 to 2 tokens.
  - 12/11/2025: Dropped the silencing activated ability as it makes no thematic sense to pay in tokens that don't exist in the "real world" that Alicia is in. Using straight mana payment then raises game balancing concerns around what is the appropriate cost. Better to just drop the ability.
-
-## Aline's Return
-
-```
-WB
-Sorcery
-Destroy target Axon or Nevron.
-Cycling {2} ({2}, Discard this card: Draw a card.)
----
-"Aline, you’re going to kill yourself! It’s too soon for you to return to any Canvas!"
-—Renoir
-```
-
-[card implementation](../custom/cards/a/alines_return.txt)
-
-### Design Notes
-
- - In the game, during the final boss battle with Renoir, Aline momentarily returns to the Canvas to swing the battle to the party's favor.
- - Mapped to targeted Axon/Nevron kill.
- - Added cycling to offset its marginality.
 
 ## Barbasucette
 
@@ -389,26 +352,6 @@ Summons Nevrons — At the beginning of your upkeep, choose one —
  - The weird wording around Clea Unleashed having "shields down" is due to the fact that there is no precedence of any creature gaining keywords during an opponent's turn, so there is very likely no such support in Forge. However, we can work around this limitation by inverting the situation, by having the default position be having Hexproof and Indestructible and at the beginning of the controller's upkeep, she loses said keywords until end of turn (which allows us to copy the debuff logic from Shadowspear). This allows us to preserve the original intent, at the small expense of text readability.
  - 16/01/2026: Changed creature type from "Painter God" to "Painter Avatar"
 
-## Closure
-
-```
-1(W/B)
-Instant
-Exile all graveyards. You gain 1 life for each creature card exiled this way.
-Draw a card.
----
-"For the sake of the living, we must part with the dead."
-—Renoir
-```
-
-[card implementation](../custom/cards/c/closure.txt)
-
-### Design Notes
-
- - Describes the moment in Verso's ending where he is truly laid to rest and the canvas is destroyed.
- - Obvious graveyard exile effect to indicate the finality of this moment. What's dead is dead and should be laid to rest.
- - 5/06/2026: Added lifegain for each creature exiled.
-
 ## Contortionniste
 
 ```
@@ -676,28 +619,6 @@ Summons minions — {2}{G}{G}, {T}: Create two 1/1 green Nevron creature tokens 
 
  - In the game, Évêque is the first boss, encountered at the end of Spring Meadows.
 
-## Expedition 32 Trainees
-
-```
-1(W/U)
-Creature - Human Expeditioner
-Training (Whenever this creature attacks with another creature with greater power, put a +1/+1 counter on this creature.)
-When this creature dies, create a Chroma token.
----
-Although the citizens of Lumière always hope for the current Expedition to succeed, trainees operate with the understanding that success is never guaranteed, that they will be next in line and must plan accordingly.
-
-2/3
-```
-
-[card implementation](../custom/cards/e/expedition_32_trainees.txt)
-
-### Design Notes
-
- - In the game, upon the defeat of The Paintress, the party triumphantly returns to Lumière. The next group of Expeditioners are among those welcoming back the party and wanting to pick their minds on how they did the impossible.
- - This card depicts such Expeditioners.
- - Training was already an existing mechanic, so this creature uses that.
- - 21/01/2026: Color-shifted from white to white/blue hybrid.
-
 ## Expedition 34 Mage
 
 ```
@@ -718,24 +639,6 @@ When this creature dies, create a Chroma token. (It's an artifact with "{T}, Sac
  - In the game, Expedition 34 was focused on an elemental strategy to exploit weaknesses in Nevrons. This strategy worked until they encountered Nevrons with no elemental weaknesses, at which point this expedition promptly failed.
  - Mechanically gone with a multi-color wizard with an appropriate on-color activated ability with standard Expeditioner death bonus.
  - 24/02/2026: Cost changed from URW to (R/W)U to improve playability in Limited.
-
-## Expedition 41
-
-```
-1BR
-Enchantment - Saga
-(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
-I, II - Destroy target Nevron.
-III — Destroy all Nevrons. Create a Lumina token for each Nevron destroyed this way.
-```
-
-[card implementation](../custom/cards/e/expedition_41.txt)
-
-### Design Notes
-
- - Journal is a story of expeditioners engaged in a competition to see who can kill the most Nevrons.
- - Obvious mechanical map to just killing Nevrons, and more Nevrons.
- - 28/12/2025: Fixed final chapter not granting Lumina tokens.
 
 ## Expedition 47 Drunkard
 
@@ -960,28 +863,6 @@ When this creature dies, create a Chroma token. (It's an artifact with "{T}, Sac
  - This is our heavy-hitter for an all-flyers strategy.
  - 12/11/2025: Renamed from Expedition 78 Aircrew to Expedition 78 Airship
 
-## Expedition 81 Interpreter
-
-```
-2(W/U)
-Creature - Human Expeditioner Wizard
-You may choose not to untap this creature during your untap step.
-Nevron Whisperer — {2}, {T}: Gain control of target Nevron creature for as long as this creature remains tapped.
-When this creature dies, create a Chroma token.
----
-"Gregoire is, as usual, deeply suspicious, but this could change our entire understanding of Nevrons and the Paintre-"
-
-1/2
-```
-
-[card implementation](../custom/cards/e/expedition_81_interpreter.txt)
-
-### Design Notes
-
- - In the game, Expedition 81 was the first expedition to ever communicate with a Nevron.
- - This card represents someone who has mastered the ability to communicate with Nevron.
- - Mechanically translated to taking control of Nevrons with a Vedalken Shackles style effect.
-
 ## Expedition Festival
 
 ```
@@ -1129,27 +1010,6 @@ Gold Rank - As long as there are five or more quest counters on this enchantment
  - In the game, the Gestral Foot Race Challenge is 1 of 5 challenge minigames. This minigame in particular requires clearing an obstacle course in under a certain amount of time. There are 3 ranks the player can achieve based on how fast they cleared the course.
  - All minigames are modeled as "quest" enchantments originating from Zendikar block and use the same terminology (charging with quest counters based on certain conditions with some payoff at the end once you reach a certain number of quest counters).
  - Went with a simple creature entering as the trigger condition, with 3 different "ranks" of various buffs as payoffs.
-
-## Gestral Parkour Challenge
-
-```
-(W/R)
-Enchantment
-Whenever a Human you control enters, you may put a quest counter on this enchantment.
-As long as this enchantment as two or more quest counters, creatures you control gain vigilance.
-As long as this enchantment as three or more quest counters, creatures you control gain prowess.
----
-"If I were a 2-year-old human, at what age would I gommage? ... You're probably right, I can't count anyway."
-—Un-named Gestral
-```
-
-[card implementation](../custom/cards/g/gestral_parkour_challenge.txt)
-
-### Design Notes
-
- - In the game, the Gestral Parkour Challenge is 1 of 5 challenge minigames. This minigame in particular requires clearing an obstacle course and answering a riddle at the end.
- - All minigames are modeled as "quest" enchantments originating from Zendikar block and use the same terminology (charging with quest counters based on certain conditions with some payoff at the end once you reach a certain number of quest counters).
- - Made the enter trigger human only to make this more Expeditioner-aligned.
 
 ## Gestral Raft Volleyball Challenge
 
@@ -1477,23 +1337,6 @@ Overcharge — {T}, Remove X charge counters from Gustave: Gustave deals X damag
  - 13/10/2025: Dropped the marking shot ability due to text box budget constraints having seen this card for the first time in CardConjurer.
  - 14/02/2026: Reorder mana symbols for consistency with actual cards with hybrd/regular pip combinations
 
-## Jar of Candy
-
-```
-GU
-Artifact - Food
-Flash
-{2}, {T}, Sacrifice this artifact: Create a blue Aura enchantment token named Barbapapa attached to target creature. The token has enchant creature and “Enchanted creature has base power 1. When enchanted creature deals combat damage, sacrifice this Aura.”
-{2}, {T}, Sacrifice this artifact: You gain 3 life.
-```
-
-[card implementation](../custom/cards/j/jar_of_candy.txt)
-
-### Design Notes
-
- - In the game, Jars of Candy are scattered throughout Verso's drafts. These are basically breakable loot containers.
- - Modeled as a food token that can flash in and be popped for a Barbapapa debuff.
-
 ## Lampmaster
 
 ```
@@ -1626,28 +1469,6 @@ Fuse (You may cast one or both halves of this card from your hand.)
  - Design based solely on Esquie's quote in his Act 3 conversation with Sciel.
  - Lost: Clearly a send back to library effect
  - Found: An Argivian Find, but only targets artifacts (rocks)
-
-## Lumièrian Apprentice
-
-```
-1(W/U)
-Creature - Human Citizen
-Whenever another non-Human creature enters, investigate. (Create a Clue token. It's an artifact with "{2}, Sacrifice this artifact: Draw a card.")
----
-He eagerly absorbs the knowledge given to him, for he knows when his time comes, it will be a valuable resource.
-
-1/3
-```
-
-[card implementation](../custom/cards/l/lumierian_apprentice.txt)
-
-### Design Notes
-
- - In the game, some of the children/teenagers of Lumière are apprentices of Expeditioners, absorbing as much knowledge passed down to them should they fail and they will eventually become Expeditioners themselves and need to take up the mantle.
- - Modeled their "curiosity" as giving you clues whenever a "foreign" creature type enters the battlefield.
- - One of the rare humans in this set that are not Expeditioners.
- - 21/01/2026: Color-shifted from white to white/blue hybrid.
- - 26/01/2026: Changed clue trigger from non-Expeditioner to non-Human as investigating when a Human (that's not an Expeditioner) enters is non-sensical from a flavor perspective.
 
 ## Lune, Charting a Path
 
@@ -2719,26 +2540,6 @@ Phantom Stars — {4}{W}, {T}, Remove X rank counters from Verso: Verso deals X 
  - "Phantom Stars" ultimate is paid in rank counters for game balance purposes. In game, none of Verso's abilities cost him is rank.
  - 21/01/2026: Changed "Phantom Stars" ultimate to only target up to 2 creatures instead of all creatures target opponent controls.
  - 14/02/2026: Reorder mana symbols for consistency with actual cards with hybrd/regular pip combinations
-
-## Verso's Composition
-
-```
-GW
-Enchantment
-At the beginning of your upkeep, you may put a verse counter on this enchantment.
-Sacrifice this enchantment: Target creature gets +X/+X and lifelink until end of turn, where X is the number of verse counters on this enchantment.
----
-Maelle: "What song was that? I feel like I know it."
-Verso: "Yeah, it’s an old song I used to play to my sister."
-Maelle: "Can you play another?"
-```
-
-[card implementation](../custom/cards/v/versos_composition.txt)
-
-### Design Notes
-
- - In the game, during one of the camp cutscenes, Verso plays some tunes on his piano.
- - Modeled on War Dance, with a lifelink bonus attached.
 
 ## Verso's Sky Train
 

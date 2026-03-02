@@ -314,95 +314,32 @@
                     "masks": []
                 },
                 {
-                    "name": "Red Pip",
-                    "src": "/img/frames/m15/ciPips/r.svg",
-                    "masks": [
-                        {
-                            "src": "/img/frames/m15/ciPips/secondHalf.svg",
-                            "name": "Second Half"
-                        }
-                    ],
-                    "complementary": 5
-                },
-                {
-                    "name": "Blue Pip",
-                    "src": "/img/frames/m15/ciPips/u.svg",
-                    "masks": [
-                        {
-                            "src": "/img/frames/m15/ciPips/firstHalf.svg",
-                            "name": "First Half"
-                        }
-                    ],
-                    "complementary": 5
-                },
-                {
-                    "name": "Multicolored Frame",
-                    "src": "/img/frames/m15/regular/m15FrameM.png",
+                    "name": "Red Frame",
+                    "src": "/img/frames/m15/regular/m15FrameR.png",
                     "masks": []
                 },
                 {
-                    "name": "Artifact Frame",
-                    "src": "/img/frames/m15/regular/m15FrameA.png",
-                    "masks": [
-                        {
-                            "src": "/img/frames/m15/regular/m15MaskPinline.png",
-                            "name": "Pinline"
-                        }
+                    "name": "Red Pip",
+                    "src": "/img/frames/m15/ciPips/r.svg",
+                    "masks": [],
+                    "complementary": [
+                        5
                     ]
                 },
                 {
-                    "name": "Artifact Frame",
-                    "src": "/img/frames/m15/regular/m15FrameA.png",
-                    "masks": [
-                        {
-                            "src": "/img/frames/m15/regular/m15MaskType.png",
-                            "name": "Type"
-                        }
-                    ]
-                },
-                {
-                    "name": "Artifact Frame",
-                    "src": "/img/frames/m15/regular/m15FrameA.png",
-                    "masks": [
-                        {
-                            "src": "/img/frames/m15/regular/m15MaskTitle.png",
-                            "name": "Title"
-                        }
-                    ]
-                },
-                {
-                    "name": "Artifact Frame",
-                    "src": "/img/frames/m15/regular/m15FrameA.png",
-                    "masks": [
-                        {
-                            "src": "/img/frames/m15/regular/m15MaskRules.png",
-                            "name": "Rules"
-                        }
-                    ]
-                },
-                {
-                    "name": "Land Frame",
-                    "src": "/img/frames/m15/regular/m15FrameL.png",
-                    "masks": [
-                        {
-                            "src": "/img/frames/m15/regular/m15MaskFrame.png",
-                            "name": "Frame"
-                        }
-                    ]
-                },
-                {
-                    "name": "Land Frame",
-                    "src": "/img/frames/m15/regular/m15FrameL.png",
-                    "masks": [
-                        {
-                            "src": "/img/frames/m15/regular/m15MaskBorder.png",
-                            "name": "Border"
-                        }
-                    ]
+                    "name": "Color Identity Pip Base",
+                    "src": "/img/frames/m15/ciPips/base.png",
+                    "bounds": {
+                        "x": 0.0767,
+                        "y": 0.5748,
+                        "width": 0.0467,
+                        "height": 0.0334
+                    },
+                    "masks": []
                 }
             ],
             "artSource": "https://jumpinjackie.github.io/e33-reference-art/images/cards/a_storm_is_coming.jpg",
-            "artX": 0.07711442786069651,
+            "artX": 0.07661691542288557,
             "artY": 0.031627576403695803,
             "artZoom": 1.6640000000000001,
             "artRotate": "0",
@@ -573,7 +510,7 @@
                 "type": {
                     "name": "Type",
                     "text": "Kindred Sorcery - Expeditioner",
-                    "x": 0.12338308457711443,
+                    "x": 0.0854,
                     "y": 0.5664,
                     "width": 0.8292,
                     "height": 0.0543,
@@ -583,10 +520,10 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Suspend 1 - {U}{R} (Rather than cast this card from your hand, pay {U}{R} and exile it with one time counter on it. At the beginning of your upkeep, remove a time counter. When the last is removed, you may cast it without paying its mana cost.)\nA Storm is Coming deals 3 damage to any target.\nCreate a Lumina token. (It’s an artifact with “{T}, Sacrifice this artifact: Scry 1.”)",
+                    "text": "Suspend 1 - {R} (Rather than cast this card from your hand, pay {R} and exile it with one time counter on it. At the beginning of your upkeep, remove a time counter. When the last is removed, you may cast it without paying its mana cost.)\nA Storm is Coming deals 3 damage to any target.\nCreate a Lumina token. (It’s an artifact with “{T}, Sacrifice this artifact: Scry 1.”)",
                     "x": 0.086,
                     "y": 0.6303,
-                    "width": 0.828,
+                    "width": 0.7980099502487562,
                     "height": 0.2875,
                     "size": 0.0362
                 },
@@ -39890,8 +39827,8 @@
                     "masks": []
                 },
                 {
-                    "name": "Blue Power/Toughness",
-                    "src": "/img/frames/m15/regular/m15PTU.png",
+                    "name": "White Power/Toughness",
+                    "src": "/img/frames/m15/regular/m15PTW.png",
                     "bounds": {
                         "x": 0.7573,
                         "y": 0.8848,
@@ -39901,25 +39838,15 @@
                     "masks": []
                 },
                 {
-                    "name": "Blue Frame",
-                    "src": "/img/frames/m15/regular/m15FrameU.png",
-                    "masks": [
-                        {
-                            "src": "/img/frames/maskRightHalf.png",
-                            "name": "Right Half"
-                        }
-                    ]
-                },
-                {
                     "name": "White Frame",
                     "src": "/img/frames/m15/regular/m15FrameW.png",
                     "masks": []
                 }
             ],
             "artSource": "https://jumpinjackie.github.io/e33-reference-art/images/cards/expedition_32_trainees.png",
-            "artX": 0.035323383084577116,
-            "artY": 0.057569296375266525,
-            "artZoom": 2.8989999999999996,
+            "artX": 0.06368159203980099,
+            "artY": 0.0824449182658138,
+            "artZoom": 2.43,
             "artRotate": "0",
             "setSymbolSource": "http://localhost:4242/img/setSymbols/official/pz1-c.svg",
             "setSymbolX": 0.8701492537313433,
@@ -40062,7 +39989,7 @@
             "text": {
                 "mana": {
                     "name": "Mana Cost",
-                    "text": "1 WU",
+                    "text": "1 W",
                     "y": 0.0613,
                     "width": 0.9292,
                     "height": 0.03380952380952381,
@@ -40072,8 +39999,7 @@
                     "shadowX": -0.001,
                     "shadowY": 0.0029,
                     "manaCost": true,
-                    "manaSpacing": 0,
-                    "fontSize": 0
+                    "manaSpacing": 0
                 },
                 "title": {
                     "name": "Title",
@@ -40084,8 +40010,7 @@
                     "height": 0.0543,
                     "oneLine": true,
                     "font": "belerenb",
-                    "size": 0.0381,
-                    "fontSize": 0
+                    "size": 0.0381
                 },
                 "type": {
                     "name": "Type",
@@ -40096,8 +40021,7 @@
                     "height": 0.0543,
                     "oneLine": true,
                     "font": "belerenb",
-                    "size": 0.0324,
-                    "fontSize": 0
+                    "size": 0.0324
                 },
                 "rules": {
                     "name": "Rules Text",
@@ -40106,8 +40030,7 @@
                     "y": 0.6303,
                     "width": 0.828,
                     "height": 0.2875,
-                    "size": 0.0362,
-                    "fontSize": 0
+                    "size": 0.0362
                 },
                 "pt": {
                     "name": "Power/Toughness",
@@ -40119,8 +40042,7 @@
                     "size": 0.0372,
                     "font": "belerenbsc",
                     "oneLine": true,
-                    "align": "center",
-                    "fontSize": 0
+                    "align": "center"
                 }
             },
             "infoNumber": "2025",
@@ -44461,6 +44383,313 @@
                 }
             },
             "infoNumber": "2025",
+            "infoRarity": "U",
+            "infoSet": "E33",
+            "infoLanguage": "EN",
+            "infoArtist": "Google Gemini",
+            "infoNote": "Proxy, Not for Sale",
+            "serialNumber": "",
+            "serialTotal": "",
+            "serialX": "",
+            "serialY": "",
+            "serialScale": ""
+        }
+    },
+    {
+        "key": "Expedition 56 Trapper",
+        "data": {
+            "width": 2010,
+            "height": 2814,
+            "marginX": 0.044,
+            "marginY": 0.02857142857142857,
+            "frames": [
+                {
+                    "name": "Black Extension",
+                    "src": "/img/frames/margins/blackBorderExtension.png",
+                    "bounds": {
+                        "x": -0.044,
+                        "y": -0.02857142857142857,
+                        "width": 1.088,
+                        "height": 1.0571428571428572
+                    },
+                    "masks": []
+                },
+                {
+                    "name": "Black Power/Toughness",
+                    "src": "/img/frames/m15/regular/m15PTB.png",
+                    "masks": [],
+                    "bounds": {
+                        "height": 0.0733,
+                        "width": 0.188,
+                        "x": 0.7573,
+                        "y": 0.8848
+                    }
+                },
+                {
+                    "name": "Black Frame",
+                    "src": "/img/frames/m15/regular/m15FrameB.png",
+                    "masks": [
+                        {
+                            "src": "/img/frames/m15/regular/m15MaskPinline.png",
+                            "name": "Pinline"
+                        }
+                    ]
+                },
+                {
+                    "name": "Black Frame",
+                    "src": "/img/frames/m15/regular/m15FrameB.png",
+                    "masks": [
+                        {
+                            "src": "/img/frames/m15/regular/m15MaskType.png",
+                            "name": "Type"
+                        }
+                    ]
+                },
+                {
+                    "name": "Black Frame",
+                    "src": "/img/frames/m15/regular/m15FrameB.png",
+                    "masks": [
+                        {
+                            "src": "/img/frames/m15/regular/m15MaskTitle.png",
+                            "name": "Title"
+                        }
+                    ]
+                },
+                {
+                    "name": "Black Frame",
+                    "src": "/img/frames/m15/regular/m15FrameB.png",
+                    "masks": [
+                        {
+                            "src": "/img/frames/m15/regular/m15MaskRules.png",
+                            "name": "Rules"
+                        }
+                    ]
+                },
+                {
+                    "name": "Black Frame",
+                    "src": "/img/frames/m15/regular/m15FrameB.png",
+                    "masks": [
+                        {
+                            "src": "/img/frames/m15/regular/m15MaskFrame.png",
+                            "name": "Frame"
+                        }
+                    ]
+                },
+                {
+                    "name": "Black Frame",
+                    "src": "/img/frames/m15/regular/m15FrameB.png",
+                    "masks": [
+                        {
+                            "src": "/img/frames/m15/regular/m15MaskBorder.png",
+                            "name": "Border"
+                        }
+                    ]
+                }
+            ],
+            "artSource": "https://jumpinjackie.github.io/e33-reference-art/images/cards/expedition_56_trapper.jpg",
+            "artX": 0.012935323383084577,
+            "artY": 0.09381663113006397,
+            "artZoom": 1.6,
+            "artRotate": "0",
+            "setSymbolSource": "http://localhost:4242/img/setSymbols/official/pz1-u.svg",
+            "setSymbolX": 0.8706467661691543,
+            "setSymbolY": 0.5707178393745558,
+            "setSymbolZoom": 0.34700000000000003,
+            "watermarkSource": "http://localhost:4242/img/blank.png",
+            "watermarkX": 0.33880597014925373,
+            "watermarkY": 0.6609808102345416,
+            "watermarkZoom": 649,
+            "watermarkLeft": "#b79d58",
+            "watermarkRight": "none",
+            "watermarkOpacity": 0.4,
+            "version": "m15Regular",
+            "manaSymbols": [],
+            "infoYear": "2026",
+            "margins": true,
+            "bottomInfoTranslate": {
+                "x": 0,
+                "y": 0
+            },
+            "bottomInfoRotate": 0,
+            "bottomInfoZoom": 1,
+            "bottomInfoColor": "white",
+            "onload": null,
+            "hideBottomInfoBorder": false,
+            "showsFlavorBar": true,
+            "bottomInfo": {
+                "midLeft": {
+                    "text": "{elemidinfo-set} • {elemidinfo-language}  {savex}{fontbelerenbsc}{fontsize3}{upinline1}￮{savex2}{elemidinfo-artist}",
+                    "x": 0.0647,
+                    "y": 0.9548,
+                    "width": 0.8707,
+                    "height": 0.0171,
+                    "oneLine": true,
+                    "font": "gothammedium",
+                    "size": 0.0171,
+                    "color": "white",
+                    "outlineWidth": 0.003,
+                    "name": "midLeft"
+                },
+                "topLeft": {
+                    "text": "{elemidinfo-number}",
+                    "x": 0.0647,
+                    "y": 0.9377,
+                    "width": 0.8707,
+                    "height": 0.0171,
+                    "oneLine": true,
+                    "font": "gothammedium",
+                    "size": 0.0171,
+                    "color": "white",
+                    "outlineWidth": 0.003,
+                    "name": "topLeft"
+                },
+                "note": {
+                    "text": "{loadx2}{elemidinfo-note}",
+                    "x": 0.0647,
+                    "y": 0.9377,
+                    "width": 0.8707,
+                    "height": 0.0171,
+                    "oneLine": true,
+                    "font": "gothammedium",
+                    "size": 0.0171,
+                    "color": "white",
+                    "outlineWidth": 0.003,
+                    "name": "note"
+                },
+                "rarity": {
+                    "text": "{loadx}{elemidinfo-rarity}",
+                    "x": 0.0647,
+                    "y": 0.9377,
+                    "width": 0.8707,
+                    "height": 0.0171,
+                    "oneLine": true,
+                    "font": "gothammedium",
+                    "size": 0.0171,
+                    "color": "white",
+                    "outlineWidth": 0.003,
+                    "name": "rarity"
+                },
+                "bottomLeft": {
+                    "text": "NOT FOR SALE",
+                    "x": 0.0647,
+                    "y": 0.9719,
+                    "width": 0.8707,
+                    "height": 0.0143,
+                    "oneLine": true,
+                    "font": "gothammedium",
+                    "size": 0.0143,
+                    "color": "white",
+                    "outlineWidth": 0.003
+                },
+                "wizards": {
+                    "name": "wizards",
+                    "text": "{ptshift0,0.0172}™ & © {elemidinfo-year} Wizards of the Coast",
+                    "x": 0.0647,
+                    "y": 0.9377,
+                    "width": 0.8707,
+                    "height": 0.0167,
+                    "oneLine": true,
+                    "font": "mplantin",
+                    "size": 0.0162,
+                    "color": "white",
+                    "align": "right",
+                    "outlineWidth": 0.003
+                },
+                "bottomRight": {
+                    "text": "{ptshift0,0.0172}CardConjurer.com",
+                    "x": 0.0647,
+                    "y": 0.9548,
+                    "width": 0.8707,
+                    "height": 0.0143,
+                    "oneLine": true,
+                    "font": "mplantin",
+                    "size": 0.0143,
+                    "color": "white",
+                    "align": "right",
+                    "outlineWidth": 0.003
+                }
+            },
+            "artBounds": {
+                "x": 0.0767,
+                "y": 0.1129,
+                "width": 0.8476,
+                "height": 0.4429
+            },
+            "setSymbolBounds": {
+                "x": 0.9213,
+                "y": 0.591,
+                "width": 0.12,
+                "height": 0.041,
+                "vertical": "center",
+                "horizontal": "right"
+            },
+            "watermarkBounds": {
+                "x": 0.5,
+                "y": 0.7762,
+                "width": 0.75,
+                "height": 0.2305
+            },
+            "text": {
+                "mana": {
+                    "name": "Mana Cost",
+                    "text": "2 B",
+                    "y": 0.0613,
+                    "width": 0.9292,
+                    "height": 0.03380952380952381,
+                    "oneLine": true,
+                    "size": 0.043345543345543344,
+                    "align": "right",
+                    "shadowX": -0.001,
+                    "shadowY": 0.0029,
+                    "manaCost": true,
+                    "manaSpacing": 0
+                },
+                "title": {
+                    "name": "Title",
+                    "text": "Expedition 56 Trapper",
+                    "x": 0.0854,
+                    "y": 0.0522,
+                    "width": 0.8292,
+                    "height": 0.0543,
+                    "oneLine": true,
+                    "font": "belerenb",
+                    "size": 0.0381
+                },
+                "type": {
+                    "name": "Type",
+                    "text": "Creature - Human Expeditioner Scout",
+                    "x": 0.0854,
+                    "y": 0.5664,
+                    "width": 0.8292,
+                    "height": 0.0543,
+                    "oneLine": true,
+                    "font": "belerenb",
+                    "size": 0.0324,
+                    "fontSize": "-2"
+                },
+                "rules": {
+                    "name": "Rules Text",
+                    "text": "Flash\nIf an opponent had a Painter or Nevron permanent enter the battlefield under their control this turn, you may pay {B} rather than pay this spell’s mana cost.\n{B}, {T}: Tap target creature.\nWhen this creature dies, create a Chroma token.{flavor}“She looks human, but I know she’s a monster. She refuses to speak, but I’ll make her talk. And then I will feed her to a Nevron. Then the Paintress can take me, I don’t care, nothing matters. I will have justice!”",
+                    "x": 0.086,
+                    "y": 0.6303,
+                    "width": 0.8139303482587065,
+                    "height": 0.28429282160625446,
+                    "size": 0.0362
+                },
+                "pt": {
+                    "name": "Power/Toughness",
+                    "text": "3/2",
+                    "x": 0.7928,
+                    "y": 0.902,
+                    "width": 0.1367,
+                    "height": 0.0372,
+                    "size": 0.0372,
+                    "font": "belerenbsc",
+                    "oneLine": true,
+                    "align": "center"
+                }
+            },
+            "infoNumber": "2026",
             "infoRarity": "U",
             "infoSet": "E33",
             "infoLanguage": "EN",
@@ -50265,109 +50494,26 @@
                     "masks": []
                 },
                 {
-                    "name": "Multicolored Power/Toughness",
-                    "src": "/img/frames/m15/regular/m15PTM.png",
-                    "masks": [],
+                    "name": "Blue Power/Toughness",
+                    "src": "/img/frames/m15/regular/m15PTU.png",
                     "bounds": {
-                        "height": 0.0733,
-                        "width": 0.188,
                         "x": 0.7573,
-                        "y": 0.8848
-                    }
+                        "y": 0.8848,
+                        "width": 0.188,
+                        "height": 0.0733
+                    },
+                    "masks": []
                 },
                 {
                     "name": "Blue Frame",
                     "src": "/img/frames/m15/regular/m15FrameU.png",
-                    "masks": [
-                        {
-                            "src": "/img/frames/m15/regular/m15MaskPinline.png",
-                            "name": "Pinline"
-                        },
-                        {
-                            "src": "/img/frames/maskRightHalf.png",
-                            "name": "Right Half"
-                        }
-                    ]
-                },
-                {
-                    "name": "White Frame",
-                    "src": "/img/frames/m15/regular/m15FrameW.png",
-                    "masks": [
-                        {
-                            "src": "/img/frames/m15/regular/m15MaskPinline.png",
-                            "name": "Pinline"
-                        }
-                    ]
-                },
-                {
-                    "name": "Multicolored Frame",
-                    "src": "/img/frames/m15/regular/m15FrameM.png",
-                    "masks": [
-                        {
-                            "src": "/img/frames/m15/regular/m15MaskType.png",
-                            "name": "Type"
-                        }
-                    ]
-                },
-                {
-                    "name": "Multicolored Frame",
-                    "src": "/img/frames/m15/regular/m15FrameM.png",
-                    "masks": [
-                        {
-                            "src": "/img/frames/m15/regular/m15MaskTitle.png",
-                            "name": "Title"
-                        }
-                    ]
-                },
-                {
-                    "name": "Blue Frame",
-                    "src": "/img/frames/m15/regular/m15FrameU.png",
-                    "masks": [
-                        {
-                            "src": "/img/frames/m15/regular/m15MaskRules.png",
-                            "name": "Rules"
-                        },
-                        {
-                            "src": "/img/frames/maskRightHalf.png",
-                            "name": "Right Half"
-                        }
-                    ]
-                },
-                {
-                    "name": "White Frame",
-                    "src": "/img/frames/m15/regular/m15FrameW.png",
-                    "masks": [
-                        {
-                            "src": "/img/frames/m15/regular/m15MaskRules.png",
-                            "name": "Rules"
-                        }
-                    ]
-                },
-                {
-                    "name": "Multicolored Frame",
-                    "src": "/img/frames/m15/regular/m15FrameM.png",
-                    "masks": [
-                        {
-                            "src": "/img/frames/m15/regular/m15MaskFrame.png",
-                            "name": "Frame"
-                        }
-                    ]
-                },
-                {
-                    "name": "Multicolored Frame",
-                    "src": "/img/frames/m15/regular/m15FrameM.png",
-                    "masks": [
-                        {
-                            "src": "/img/frames/m15/regular/m15MaskBorder.png",
-                            "name": "Border"
-                        }
-                    ]
+                    "masks": []
                 }
             ],
             "artSource": "https://jumpinjackie.github.io/e33-reference-art/images/cards/expedition_81_interpreter.jpg",
-            "artX": -0.039303482587064675,
-            "artY": 0.07249466950959488,
-            "artZoom": 1.7309999999999999,
+            "artX": -0.03781094527363184,
+            "artY": 0.05614783226723525,
+            "artZoom": 1.755,
             "artRotate": "0",
             "setSymbolSource": "http://localhost:4242/img/setSymbols/official/pz1-u.svg",
             "setSymbolX": 0.8706467661691543,
@@ -50510,7 +50656,7 @@
             "text": {
                 "mana": {
                     "name": "Mana Cost",
-                    "text": "2 WU",
+                    "text": "2 U",
                     "y": 0.0613,
                     "width": 0.9292,
                     "height": 0.03380952380952381,
@@ -87475,8 +87621,8 @@
                     "masks": []
                 },
                 {
-                    "name": "Blue Power/Toughness",
-                    "src": "/img/frames/m15/regular/m15PTU.png",
+                    "name": "White Power/Toughness",
+                    "src": "/img/frames/m15/regular/m15PTW.png",
                     "bounds": {
                         "x": 0.7573,
                         "y": 0.8848,
@@ -87484,16 +87630,6 @@
                         "height": 0.0733
                     },
                     "masks": []
-                },
-                {
-                    "name": "Blue Frame",
-                    "src": "/img/frames/m15/regular/m15FrameU.png",
-                    "masks": [
-                        {
-                            "src": "/img/frames/maskRightHalf.png",
-                            "name": "Right Half"
-                        }
-                    ]
                 },
                 {
                     "name": "White Frame",
@@ -87647,7 +87783,7 @@
             "text": {
                 "mana": {
                     "name": "Mana Cost",
-                    "text": "1 WU",
+                    "text": "1 W",
                     "y": 0.0613,
                     "width": 0.9292,
                     "height": 0.03380952380952381,

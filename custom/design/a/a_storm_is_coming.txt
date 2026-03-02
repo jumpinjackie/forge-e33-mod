@@ -3,7 +3,6 @@ A Storm is Coming
 [ManaCost]
 no cost
 [ColorIdentity]
-blue
 red
 [Types]
 Kindred
@@ -14,11 +13,11 @@ C
 [Artist]
 Google Gemini
 [Oracle]
-Suspend 1 - {U}{R} (Rather than cast this card from your hand, pay {U}{R} and exile it with one time counter on it. At the beginning of your upkeep, remove a time counter. When the last is removed, you may cast it without paying its mana cost.)
+Suspend 1 - {R} (Rather than cast this card from your hand, pay {R} and exile it with one time counter on it. At the beginning of your upkeep, remove a time counter. When the last is removed, you may cast it without paying its mana cost.)
 ~ deals 3 damage to any target.
 Create a Lumina token. $LUMINA_REMINDER_TEXT
 [ForgeScript]
-K:Suspend:1:U R
+K:Suspend:1:R
 A:SP$ DealDamage | ValidTgts$ Any | NumDmg$ 3 | SubAbility$ DBToken | SpellDescription$ CARDNAME deals 3 damage to any target.
 SVar:DBToken:DB$ Token | TokenAmount$ 1 | TokenOwner$ You | TokenScript$ c_a_lumina
 [RelatedTokens]
@@ -29,3 +28,4 @@ lumina-generator
 [DesignNotes]
  - In the game, this is one of Lune's quotes during battle
  - Lighting bolt with suspend to convey the "storm is coming". Lumina reward as standard with any Expeditioner spell
+ - 3/03/2026: Color-shifted to red.

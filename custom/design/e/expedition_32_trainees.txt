@@ -2,7 +2,7 @@
 Expedition 32 Trainees
 [ManaCost]
 1
-WU
+W
 [Types]
 Creature
 Human
@@ -26,3 +26,4 @@ Sandfall Interactive
  - This card depicts such Expeditioners.
  - Training was already an existing mechanic, so this creature uses that.
  - 21/01/2026: Color-shifted from white to white/blue hybrid.
+ - 3/03/2026: Color-shifted from white/blue hybrid back to white.

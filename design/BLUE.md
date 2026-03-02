@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 1/3/2026 1:48:45 pm
+> Last generated: 2/3/2026 2:37:55 pm
 
 ## An Advantage!
 
@@ -38,26 +38,6 @@ When this creature dies, create a Chroma token. (It's an artifact with "{T}, Sac
 
  - In the game's prologue, Antoine can be found at the Expedition Festival. Answer his quiz successfully and you'll get a festival token as a reward.
  - Given his extensive historical knowledge, it's an easy mechanical map to something that triggers off of casting historic spells, in the case: Card draw.
-
-## Bound by Chains
-
-```
-3U
-Kindred Enchantment - Nevron
-Lands don't untap during their controllers' untap steps.
-At the beginning of each player's upkeep, that player untaps a land they control.
----
-The chains of Grief can be hard to break for some.
-```
-
-[card implementation](../custom/cards/b/bound_by_chains.txt)
-
-### Design Notes
-
- - In the game, various Nevrons have an attack, which if not parried or dodged will apply a bound status on the attack recipient. A bound party member visually looks like someone tethered to the ground with chains.
- - I've gone with a 1:1 copy of Rising Waters to solidify the Crippling Tsunami Prison archetype and to boost the Blue Skies archetype as something that can captialize on tempo gains.
-    - I would've gone with a nickname reprint, but to my knowledge Forge only lets you nickname cards in the source card script (the card from Nemesis) which is too invasive.
-    - 26/01/2026: Even though we've figured out how to do nickname reprints in a non-invasive manner. We're sticking with a functional reprint for better internal set synergy.
 
 ## Breaking Moment
 
@@ -324,6 +304,29 @@ III — Sacrifice all Airships you control. Create a Chroma token for each Airsh
 
  - Journal is a story of expeditioners stealing a bunch of Airships to escape Lumière.
  - This is a top-end payoff for an all-flyers strategy
+
+## Expedition 81 Interpreter
+
+```
+2U
+Creature - Human Expeditioner Wizard
+You may choose not to untap this creature during your untap step.
+Nevron Whisperer — {2}, {T}: Gain control of target Nevron creature for as long as this creature remains tapped.
+When this creature dies, create a Chroma token.
+---
+"Gregoire is, as usual, deeply suspicious, but this could change our entire understanding of Nevrons and the Paintre-"
+
+1/2
+```
+
+[card implementation](../custom/cards/e/expedition_81_interpreter.txt)
+
+### Design Notes
+
+ - In the game, Expedition 81 was the first expedition to ever communicate with a Nevron.
+ - This card represents someone who has mastered the ability to communicate with Nevron.
+ - Mechanically translated to taking control of Nevrons with a Vedalken Shackles style effect.
+ - 3/03/2026: Color-shifted from white/blue hybrid to blue.
 
 ## François, Waiting for Clea
 

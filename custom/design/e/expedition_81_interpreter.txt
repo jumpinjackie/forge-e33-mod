@@ -2,7 +2,7 @@
 Expedition 81 Interpreter
 [ManaCost]
 2
-WU
+U
 [Types]
 Creature
 Human
@@ -32,3 +32,4 @@ creature-stealer
  - In the game, Expedition 81 was the first expedition to ever communicate with a Nevron.
  - This card represents someone who has mastered the ability to communicate with Nevron.
  - Mechanically translated to taking control of Nevrons with a Vedalken Shackles style effect.
+ - 3/03/2026: Color-shifted from white/blue hybrid to blue.

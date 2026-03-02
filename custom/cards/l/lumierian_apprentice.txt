@@ -1,5 +1,5 @@
 Name:Lumièrian Apprentice
-ManaCost:1 WU
+ManaCost:1 W
 Types:Creature Human Citizen
 PT:1/3
 T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Creature.Other+nonHuman | TriggerZones$ Battlefield | Execute$ TrigInvestigate | TriggerDescription$ Whenever another non-Human creature enters, investigate.

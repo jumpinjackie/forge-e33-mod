@@ -1,6 +1,24 @@
 # Cards
 
-> Last generated: 1/3/2026 1:48:45 pm
+> Last generated: 2/3/2026 2:28:47 pm
+
+## A Storm is Coming
+
+```
+
+Kindred Sorcery - Expeditioner
+Suspend 1 - {R} (Rather than cast this card from your hand, pay {R} and exile it with one time counter on it. At the beginning of your upkeep, remove a time counter. When the last is removed, you may cast it without paying its mana cost.)
+A Storm is Coming deals 3 damage to any target.
+Create a Lumina token. (It's an artifact with "{T}, Sacrifice this artifact: Scry 1.")
+```
+
+[card implementation](../custom/cards/a/a_storm_is_coming.txt)
+
+### Design Notes
+
+ - In the game, this is one of Lune's quotes during battle
+ - Lighting bolt with suspend to convey the "storm is coming". Lumina reward as standard with any Expeditioner spell
+ - 3/03/2026: Color-shifted to red.
 
 ## Anger
 
@@ -41,22 +59,6 @@ When this creature dies, you may have this creature deal 2 damage to target crea
 ### Notes
 
  - Obligatory spot removal in commander.
-
-## Chromatic Inversion
-
-```
-1R
-Instant
-Switch target creature's power and toughness until end of turn.
-Draw a card.
-```
-
-[card implementation](../custom/cards/c/chromatic_inversion.txt)
-
-### Design Notes
-
- - In the game, a party member can have an inverted status in battle. A member with inverted status cannot heal. Any attempt to heal the member results in damage being taken instead.
- - We've mechanically translated this to a P/T switch. ie. About Face, but with a cantrip bonus.
 
 ## Crustal Crush
 

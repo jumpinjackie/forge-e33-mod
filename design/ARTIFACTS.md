@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 1/3/2026 1:48:45 pm
+> Last generated: 2/3/2026 2:04:43 pm
 
 ## A Rock for François
 
@@ -366,28 +366,6 @@ Artifact - Food
 
  - If you "food poison" a creature with protection it will deal 0 damage to itself if it is the color it has protection from. So if targeting a Gault (green, has pro-green) or Rocher (red, has pro-red), it will deal 0 damage to itself.
 
-## Esquie's Wine Compartment
-
-```
-2
-Legendary Artifact - Food
-Esquie's Wine Compartment enters with five wine counters on it.
-Remove a wine counter from Esquie's Wine Compartment: Target creature you control gets +1/-1 until end of turn. You gain 1 life.
-{2}, {T}, Sacrifice Esquie's Wine Compartment: You gain 3 life.
----
-"I stored my personal stash inside him. All excellent vintages. I don’t normally share, but I suppose tonight deserves an exception."
-—Verso
-```
-
-[card implementation](../custom/cards/e/esquies_wine_compartment.txt)
-
-### Design Notes
-
- - In the game, after slaying the two Axons and acquiring enough Chroma for The Curator to forge the Barrier Breaker, the party congregates at camp, amazed that the possibility that they can actually now take down The Paintress. It was at this moment that Sciel reveals a terrible secret to the rest of the party: That Esquie has a hidden compartment for storing wine. Everybody (except Maelle) have some wine to celebrate the occasion.
- - The temporary +1/-1 is my attempt to model drunkeness.
- - Wine is technically food/nourishment, so it falls under the Food classifier and has the standard Food token ability.
- - 11/02/2026: Color-shifted from green to artifacts.
-
 ## Expedition 50 Ferris Wheel
 
 ```
@@ -498,15 +476,6 @@ Lune: "...And lay the trail, for the ones who come after"
  - Same rulings as Clash of the Eikons, so repeated here for reference:
    - Removing lore counters won't cause a previous chapter ability to trigger. If lore counters are removed from a Saga, the appropriate chapter abilities will trigger again when the Saga receives more lore counters.
    - Putting a lore counter on a Saga will usually cause its next chapter ability to trigger. If it already has a number of lore counters on it that's greater than or equal to its final chapter number, however, no chapter abilities trigger.
-
-## Expedition Map
-
-> This card is a reprint
-[Scryfall](https://scryfall.com/search?q=Expedition%20Map)
-
-### Notes
-
- - Easy on-flavor reprint.
 
 ## Expeditioner Uniform
 
@@ -858,24 +827,6 @@ He spends some time writing in his journal. He writes about how dangerous the Ne
 
  - Also triggers for non-creature Nevrons 
 
-## Healing Tint
-
-```
-2
-Artifact
-Sacrifice this artifact: Target player gains 5 life.
-Luminous — Sacrifice this artifact: Target player gains 10 life. Activate this ability only if you control at least three Lumina tokens.
-```
-
-[card implementation](../custom/cards/h/healing_tint.txt)
-
-### Design Notes
-
- - In the game, health tints restore party member HP during a battle or outside of battle when not near an Expedition flag.
- - Another enabler for Lumina token strategies
- - 26/10/2025: Made lifegain targeted to support The 67th Gommage strategy
- - 6/11/2025: Renamed from "Health Tint"
-
 ## Julien Tiny Head
 
 ```
@@ -897,27 +848,6 @@ Haymaker — {2}: Julien gains trample until end of turn.
     - Combo Jab: Easy. A flurry of strikes. Ergo. Double Strike
     - Uppercut: Julien's punches are so strong that an uppercut would launch his opponent into the air (in my mind). Hence, the momentary flying after being dealt 2 damage (if it survives that punch!)
     - Haymaker: Interpreted as a really heavy punch and trample is a suitable way to convey such heaviness
-
-## Letter from Alicia
-
-```
-1
-Legendary Artifact - Clue
-When Letter from Alicia enters, scry 2.
-When Letter from Alicia is put into a graveyard from the battlefield, creatures can’t attack this turn.
-{2}, Sacrifice Letter from Alicia: Draw a card.
----
-"Brother, I tire of the conflicts and deceptions that plague our family and theirs. So I entrust you with this letter. Whether you give it to her is up to you."
-—Alicia
-```
-
-[card implementation](../custom/cards/l/letter_from_alicia.txt)
-
-### Design Notes
-
- - In the game, Painted Alicia hands a letter to Verso to be delivered to Maelle, but at the conclusion of Act 2 he opens it and reads it for himself, revealing the true intentions of The Paintress that the party had just defeated.
- - Given the letter is about Painted Alicia's desire for this conflict to end, I've mapped this to a momentary "peacekeeper" effect.
- - A letter follows the archetype of a Clue Artifact, thus it's a clue.
 
 ## Limonsol, Matchmaker
 
@@ -1147,24 +1077,6 @@ Whenever Ono-Puncho is dealt damage, return it to its owner's hand.
 ### Rulings
 
  - If Ono-Puncho receives lethal damage, state-based effects will send it to the graveyard and any pending rescue triggers will fizzle.
-
-## Paint Cage
-
-```
-2
-Artifact
-When this artifact enters or is put into a graveyard from the battlefield, choose one —
-• Draw a card.
-• Create a Lumina token. (It's an artifact with "{T}, Sacrifice this artifact: Scry 1.")
-```
-
-[card implementation](../custom/cards/p/paint_cage.txt)
-
-### Design Notes
-
- - In the game, a Paint Cage is something that can be "cracked open" for loot.
- - Ichor Wellspring has similar looks and flavor, so it was chosen for this.
- - 14/01/2026: No longer a nickname reprint of Ichor Wellspring. Instead this is now a near-functional reprint wtih the draw a card trigger now a modal between draw a card and creating a Lumina token.
 
 ## Paint Spike
 

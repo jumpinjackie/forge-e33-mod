@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 26/2/2026 7:27:36 pm
+> Last generated: 2/3/2026 2:04:43 pm
 
 ## Axon Offering
 
@@ -194,6 +194,30 @@ When this creature dies, target opponent creates a Lumina token. (It's an artifa
 
  - A land with a blighted counter only gets destroyed when tapped if an instance of Échassier is on the battlefield. If there are no instances, the land is not destroyed when tapped.
  - A creature with a blighted counter only has base toughness 1 if an instance of Échassier is on the battlefield. If there are no instances, the creature has its originally printed toughness.
+
+## Expedition 56 Trapper
+
+```
+2B
+Creature - Human Expeditioner Scout
+Flash
+If an opponent had a Painter or Nevron permanent enter the battlefield under their control this turn, you may pay {B} rather than pay this spell's mana cost.
+{B}, {T}: Tap target creature.
+When this creature dies, create a Chroma token.
+---
+“She looks human, but I know she’s a monster. She refuses to speak, but I’ll make her talk. And then I will feed her to a Nevron. Then the Paintress can take me, I don’t care, nothing matters. I will have justice!”
+
+3/2
+```
+
+[card implementation](../custom/cards/e/expedition_56_trapper.txt)
+
+### Design Notes
+
+ - In the game, the journal of Expedition 56 tells the story of an extremely vengeful Expeditioner capturing Painted Alicia after her comrades were killed by Painted Renoir.
+ - Card depicts this member.
+ - Gone with a creature-based version of a Zendikar trap with the trap trigger being a Painter or Nevron entering.
+ - Most existing printed trappers have a creature tap ability. So she gets the same ability here.
 
 ## Expedition 62 Hunter
 
@@ -604,27 +628,6 @@ If you control a painter, Destroy target creature if it has mana value 4 or less
  - Another excuse to put a perfectly cromulent word into card form.
  - Dictionary defn: To put to an end.
  - Easy map to creature kill. Go with Fatal Push, but the higher targeting bonus comes from controlling a painter.
-
-## The 67th Gommage
-
-```
-4BB
-Legendary Sorcery
-(You may cast a legendary sorcery only if you control a legendary creature or planeswalker.)
-Each player with 33 or more life loses the game.
----
-Gustave: "I'm here."
-Sophie: "I know. I know."
-```
-
-[card implementation](../custom/cards/t/the_67th_gommage.txt)
-
-### Design Notes
-
- - This is meant to flavorfully and mechanically represent the moment Renoir triggers the 67th gommage, erasing every human 33 years and older.
- - Except in our case, instead of humans, it's players and instead of age its life total. Basically this card is just another excuse to weave in a thematic and flavorful use of the number 33.
- - Further playtesting may reveal the truth, but I don't believe the win condition is *that easy* to achieve. It goes against the general plan of victory for most decks, which is to get your opponent to 0 or less life. So having to get your opponent to above a certain life total to enable the victory condition is at least a unique angle.
- - 29/12/2025: It has come to my attention that this card is most likely hideously degenerate in Commander since player's starting life totals are 40 and your commander is always legendary that you can call up anytime before putting this spell on the stack. This card was not designed with commander in mind. Current stance regarding this card in commander is a "gentleman's agreement" to never put this card in any deck.
 
 ## Twisted Lumière Citizen
 

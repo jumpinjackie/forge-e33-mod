@@ -22,10 +22,6 @@ The WUBRG mana ability is not preventatively disabled if you don't meet the acti
 
 I am being prompted for the mode before the enrage trigger goes on the stack, I kind of expected the prompt to happen on trigger resolution. And the trigger description on the stack is the full modal prompt and not the choice made. Not sure if it ultimately matters because it behaviourally works as expected.
 
-## Jar of Candy
-
- - AI does not want to use Barbpapa debuff
-
 ## Licornapieds
 
  - AI does not want to use Barbpapa debuff

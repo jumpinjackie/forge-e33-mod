@@ -4,7 +4,7 @@ Lumièrian Apprentice
 Lumierian Apprentice
 [ManaCost]
 1
-WU
+W
 [PT]
 1/3
 [Types]
@@ -28,3 +28,4 @@ SVar:TrigInvestigate:DB$ Investigate
  - One of the rare humans in this set that are not Expeditioners.
  - 21/01/2026: Color-shifted from white to white/blue hybrid.
  - 26/01/2026: Changed clue trigger from non-Expeditioner to non-Human as investigating when a Human (that's not an Expeditioner) enters is non-sensical from a flavor perspective.
+ - 3/03/2026: Color-shifted from white/blue hybrid back to white.
