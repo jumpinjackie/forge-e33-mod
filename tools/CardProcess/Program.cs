@@ -772,7 +772,14 @@ public class CardMasterDesign
     public string? Bucket { get; set; }
     public string? MulticolorSubBucket { get; set; }
 
-    public int? DraftScore => FrontFull?.DraftScore;
+    public int? DraftScore => FaceType switch
+    {
+        CardFaceType.SplitRoom => SplitLeft?.DraftScore ?? SplitRight?.DraftScore,
+        CardFaceType.SplitFuse => SplitLeft?.DraftScore ?? SplitRight?.DraftScore,
+        CardFaceType.DoubleFaced => FrontFull?.DraftScore ?? BackFull?.DraftScore,
+        CardFaceType.Meld => FrontFull?.DraftScore ?? MeldTarget?.DraftScore,
+        _ => FrontFull?.DraftScore   
+    };
 
     public string? OracleTextFull
     {
