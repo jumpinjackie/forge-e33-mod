@@ -23,6 +23,8 @@ $EXPEDITIONER_DEATH_ABILITY
 DeckHints:Type$Expeditioner|Rebel
 [Artist]
 Google Gemini
+[DraftScore]
+86
 [DesignNotes]
  - Vanilla bear wtih Rebel sub-type (as a synonmym of dissent)
  - 26/01/2026: To improve playability, added the Rebel chain tutoring ability but can also get Expeditioners.

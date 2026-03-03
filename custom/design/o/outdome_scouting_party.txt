@@ -26,6 +26,8 @@ Landfall
 T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Land.YouCtrl | TriggerZones$ Battlefield | Execute$ DBFlower | TriggerDescription$ Whenever a land you control enters, create a Flower token. (It’s an artifact with “{T}, Sacrifice this artifact: Add {U}, {R} or {G}.”)
 SVar:DBFlower:DB$ Token | TokenAmount$ 1 | TokenScript$ c_a_flower | TokenOwner$ You | SpellDescription$ Treasure
 $EXPEDITIONER_DEATH_ABILITY
+[DraftScore]
+80
 [DesignNotes]
  - In the game, during one of Verso's camp conversations with Sciel, she was asked about how she met her husband, Pierre. She met him through asking his Outdome team for plant samples.
  - This card depicts one of these Outdome teams.

@@ -18,6 +18,8 @@ Whenever ~ is dealt damage, return it to its owner's hand.
 [ForgeScript]
 T:Mode$ DamageDoneOnce | Execute$ TrigBounce | ValidTarget$ Card.Self | TriggerZones$ Battlefield | TriggerDescription$ Whenever ~ is dealt damage, return it to its owner's hand.
 SVar:TrigBounce:DB$ ChangeZone | Defined$ Self | Origin$ Battlefield | Destination$ Hand
+[DraftScore]
+82
 [Artist]
 Sandfall Interactive
 [Rulings]

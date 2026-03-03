@@ -27,6 +27,8 @@ T:Mode$ Always | TriggerZones$ Battlefield | IsPresent$ Card.Self+counters_EQ0_G
 SVar:TrigSac:DB$ Sacrifice
 [Tags]
 board-wipe
+[DraftScore]
+86
 [DesignNotes]
  - In the game, The Monolith is where The Paintress resides and is an everlasting reminder to the humans of Lumière that time is running out.
  - For lore accuracy, this would've been 100 counters instead of 10, but that simply takes way too long in MTG "game time". A game is lucky to reach 50 turns, let alone 100! Reducing it to 10 sacrifices lore accuracy, but retains mechanical accuracy of something that's constantly counting down and wiping out everything older than that number.

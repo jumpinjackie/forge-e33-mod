@@ -30,6 +30,8 @@ A:AB$ DealDamage | Cost$ 4 R Sac<1/CARDNAME> | ValidTgts$ Creature | TgtPrompt$ 
 $NEVRON_DEATH_ABILITY
 [Artist]
 Sandfall Interactive
+[DraftScore]
+84
 [Tags]
 creature-removal
 [DesignNotes]

@@ -22,6 +22,8 @@ DeckHints:Type$Nevron|Gestral|Painter|Expeditioner|Picto
 [Tags]
 mana-fixer
 mana-rock
+[DraftScore]
+79
 [Rulings]
  - Does not affect permanents that are reprints or nicknamed reprints.
 [DesignNotes]

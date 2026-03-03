@@ -23,6 +23,8 @@ SVar:Targeting:Dies
 $NEVRON_DEATH_ABILITY
 [Tags]
 flyer
+[DraftScore]
+70
 [DesignNotes]
  - In the game, Volester is one of the lower-tier enemies with flying that has a weak point in its chest.
  - Like Démineur, gave this one a Skulking Ghost sac effect to emphasize its weakness to targeted attacks.

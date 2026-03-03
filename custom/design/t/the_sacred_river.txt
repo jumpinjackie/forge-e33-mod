@@ -21,6 +21,8 @@ A:AB$ ChangeZone | Cost$ 5 T | ReduceCost$ X | Origin$ Graveyard | Destination$ 
 SVar:X:Count$Compare Y GE1.2.0
 SVar:Y:Count$Valid Creature.YouCtrl+namedGolgra; Gestral Chef
 DeckHints:Type$Gestral | Name$Golgra, Gestral Chef
+[DraftScore]
+85
 [DesignNotes]
  - In the game, the Sacred River is a place where Gestrals can be resurrected.
  - Per game lore and rules established by Golgra, you need to be "in a queue" to get a Gestral resurrection, but if you're in favor with Golgra you could get a discount and "jump the queue". So I've gone with a regrowth ability with a discount if you have Golgra on the battlefield.

@@ -20,6 +20,8 @@ Sandfall Interactive
 combat-trick
 [Rulings]
 You are allowed to have a creature copy itself, as nonsensical as such a play may be (this is a Forge-imposed constraint where we can't choose a creature other than the targeted one for cloning)
+[DraftScore]
+72
 [DesignNotes]
  - In the game, before entering Stone Wave Cliffs, Maelle requests the party set up camp and rest. That night, Painted Alicia encounters Maelle while asleep, and begins an internal monologue about how she is envious of Maelle's situation of not knowing that she is actually the real Alicia painted over, not bearing the scars and torment that her painted counterpart has to endure in perpetuity.
  - This card is a flavorful translation of Painted Alicia's internal monologue as a temporary creature copy effect (to represent the desire to be someone else).

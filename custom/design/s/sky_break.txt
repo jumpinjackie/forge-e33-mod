@@ -33,6 +33,8 @@ SVar:Y:Count$Valid Creature
 [Tags]
 creature-removal
 planeswalker-removal
+[DraftScore]
+80
 [Rulings]
  - You nominate a target creature for the "deals X damage ability" as part of putting the spell on the stack. It will only then deal X damage to said creature on resolution if you spent {R} on the spell.
 [DesignNotes]

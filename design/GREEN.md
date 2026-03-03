@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 1/3/2026 1:48:45 pm
+> Last generated: 3/3/2026 10:06:10 am
 
 ## Abbest
 
@@ -594,7 +594,7 @@ When this creature dies, target opponent creates a Lumina token. (It's an artifa
 
 ### Design Notes
 
- - Vanilla Nevron
+ - Vanilla Nevron. Jumping mapped to momentary reach.
 
 ## Revitalization
 

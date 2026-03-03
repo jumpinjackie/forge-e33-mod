@@ -33,6 +33,8 @@ A:AB$ ChangeZone | Cost$ 2 BG T | Origin$ Graveyard | Destination$ Hand | ValidT
 DeckHints:Type$Nevron
 [RelatedTokens]
 c_a_lumina
+[DraftScore]
+88
 [Tags]
 lumina-generator
 [DesignNotes]

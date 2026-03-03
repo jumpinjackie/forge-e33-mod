@@ -24,6 +24,8 @@ $EXPEDITIONER_DEATH_ABILITY_TEXT_LONG
 K:Flying
 S:Mode$ CantBlockBy | ValidAttacker$ Creature.withoutFlying | ValidBlocker$ Creature.Self | Description$ CARDNAME can block only creatures with flying.
 $EXPEDITIONER_DEATH_ABILITY
+[DraftScore]
+85
 [Tags]
 flyer
 [DesignNotes]

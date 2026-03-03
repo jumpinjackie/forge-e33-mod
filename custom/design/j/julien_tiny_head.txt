@@ -28,6 +28,8 @@ A:AB$ DealDamage | Cost$ 2 T | ValidTgts$ Creature | TgtPrompt$ Select target cr
 SVar:DBFly:DB$ Pump | Defined $Targeted | KW$ Flying
 [Tags]
 creature-removal
+[DraftScore]
+85
 [DesignNotes]
  - In the game, Julien is a boxing-style fighter in the Hidden Gestral Arena
  - Julien has several moves which we've mechanically translated:

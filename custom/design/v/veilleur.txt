@@ -25,6 +25,8 @@ S:Mode$ Continuous | Affected$ Creature.counters_GE1_BLIGHT | EffectZone$ Battle
 $NEVRON_DEATH_ABILITY
 [Artist]
 Sandfall Interactive
+[DraftScore]
+70
 [DesignNotes]
  - In the game, Veilleurs can be found in The Reacher and Renoir's Drafts.
  - It's main gimmick is inflicting the blight debuff which perma-reduces a characters HP bar by a fixed percentage. Translated to the same blightning ability as Échassier.

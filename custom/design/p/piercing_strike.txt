@@ -26,6 +26,8 @@ S:Mode$ ReduceCost | ValidCard$ Card.Self | Type$ Spell | Amount$ 1 | EffectZone
 A:SP$ Destroy | ValidTgts$ Creature | TgtPrompt$ Select target creature | SpellDescription$ Destroy target creature.
 [Tags]
 creature-removal
+[DraftScore]
+80
 [DesignNotes]
  - This is meant to flavorfully and mechanically represent Painted Renoir's killing blow to Gustave.
  - 13/10/2025: Removed Devoid.

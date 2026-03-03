@@ -29,6 +29,8 @@ DeckHints:Type$Gestral
 [RelatedTokens]
 a_1_1_gestral
 c_a_chroma
+[DraftScore]
+85
 [DesignNotes]
  - This is the Gestral (Siege-Gang Commander / Deranged Hermit)
  - Should have one more ability at least. Further abilities TBD.

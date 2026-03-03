@@ -25,6 +25,8 @@ K:Cycling:2
 A:SP$ PumpAll | ValidCards$ Creature.nonNevron+nonPainter | NumAtt$ -2 | NumDef$ -2 | IsCurse$ True | SpellDescription$ All non-Nevron, non-Painter creatures get -2/-2 until end of turn.
 [Tags]
 board-wipe
+[DraftScore]
+80
 [DesignNotes]
  - This symbolizes the moment after the prologue when Expedition 33 lands at Dark Shores, encounter Painted Renoir and proceed to have all but 5 members be wiped out by P.Renoir and his cohort of Nevrons.
  - Another mini-sweeper to give Nevron tribal decks some fight against "go wide" strategies.

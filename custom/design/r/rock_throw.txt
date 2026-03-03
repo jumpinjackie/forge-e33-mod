@@ -22,6 +22,8 @@ Sandfall Interactive
  - Tapping an untapped creature you control is part of the Kicker cost. You cannot play with Kicker if you don't pay {2} extra and have an untapped creature to tap.
 [Tags]
 creature-removal
+[DraftScore]
+72
 [DesignNotes]
  - In the game, Gustave has a penchant for throwing rocks.
  - To give green some bones in spot removal for draft/limited, this is a shock for creatures that can be upgraded in damage.

@@ -28,6 +28,8 @@ SVar:DBVigilance:DB$ PutCounter | ValidTgts$ Creature | CounterNum$ 1 | CounterT
 Sandfall Interactive
 [Tags]
 combat-trick
+[DraftScore]
+72
 [DesignNotes]
  - In the game, an Unfinished Chalier can be found in the Floating Cemetery. It asks you which weapon it should arm itself which, after which it challenges you to combat. Upon defeating it, it will ask you to finish the job. Finishing the job, it will reward you with a picto beforehand. Failure to do that, it will finish the job by itself and you will get no reward.
  - Modeled this as just a Nevron with a modal sac ability. One mode for each weapon.

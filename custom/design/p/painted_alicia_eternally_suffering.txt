@@ -28,6 +28,8 @@ SVar:CantAttackWhenKicked:DB$ Effect | Name$ Painted Alicia's Effect — No Atta
 SVar:CantBeCast:Mode$ CantBeCast | ValidCard$ Card | Caster$ Player.IsRemembered | Description$ Target player can't cast spells this turn.
 SVar:CantAttack:Mode$ CantAttack | ValidCard$ Creature | Description$ Creatures can't attack this turn.
 S:Mode$ CantBeActivated | AffectedZone$ Battlefield | ValidCard$ Expeditioner,Chroma,Lumina,Pictos | ValidSA$ Activated | Description$ Activated abilities of Chroma, Lumina, Nevrons and Pictos cannot be activated.
+[DraftScore]
+84
 [DesignNotes]
  - In the game, Painted Alicia is the painted counterpart of Alicia
  - Thematically gone with another variant of silence effects to mirror her human counterpart.

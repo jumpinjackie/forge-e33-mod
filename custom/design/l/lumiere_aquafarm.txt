@@ -29,6 +29,8 @@ c_a_food_sac
 mana-fixer
 [Rulings]
  - Counts non-creatures Expeditioners as well.
+[DraftScore]
+82
 [DesignNotes]
  - In the game, Gustave lead the Aquafarm project which ensured the food supply for the city of Lumière.
  - This gives us an opportunity to add another dual land to this set.

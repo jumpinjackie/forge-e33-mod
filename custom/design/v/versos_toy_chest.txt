@@ -21,6 +21,8 @@ A:AB$ PutCounter | Cost$ 1 Sac<1/Toy> | CounterType$ TOY | CounterNum$ 1 | Spell
 a_1_1_toy
 [Rulings]
  - You can sacrifice nontoken permanents with a sub-type of Toy.
+[DraftScore]
+72
 [DesignNotes]
  - In the game a Toy Chest can be found in Verso's Treehouse in Verso's Drafts.
  - This card depicts this artifact.

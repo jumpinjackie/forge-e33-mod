@@ -24,6 +24,8 @@ c_a_lumina
 Sandfall Interactive
 [Tags]
 lumina-generator
+[DraftScore]
+80
 [DesignNotes]
  - In the game, Verso's Treehouse can be found in Verso's Drafts.
  - Clearly a land that taps for green mana. Because it's perched on a tree, it clearly can grant another creature reach.

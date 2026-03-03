@@ -25,6 +25,8 @@ With one small gesture, the Nevron soon dissipated into a bloom of gold petals.
 creature-removal
 artifact-removal
 enchantment-removal
+[DraftScore]
+90
 [DesignNotes]
  - One of Maelle's quotes as she's about to gommage some sorry Nevron out of existence.
  - Painter bonus because this is a painter's power.

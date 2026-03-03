@@ -24,5 +24,7 @@ SVar:TrigDig:DB$ Dig | DigNum$ 4 | Reveal$ True | ChangeNum$ All | ChangeValid$ 
 DeckHints:Type$Gestral
 [Rulings]
  - Counts any non-creature Gestrals
+[DraftScore]
+75
 [DesignNotes]
  - Gestral version of Goblin Ringleader. A Gestral tribal deck needs at least one card that can provide raw card advantage. This is that card.

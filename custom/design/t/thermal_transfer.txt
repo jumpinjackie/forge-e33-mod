@@ -26,6 +26,8 @@ SVar:DBToken:DB$ Token | TokenAmount$ 1 | TokenOwner$ You | TokenScript$ c_a_lum
 lumina-generator
 creature-removal
 planeswalker-removal
+[DraftScore]
+75
 [Rulings]
  - You nominate a target bolt ability as part of putting the spell on the stack. It will only then bolt said target on resolution if you spent {R} on the spell.
 [DesignNotes]

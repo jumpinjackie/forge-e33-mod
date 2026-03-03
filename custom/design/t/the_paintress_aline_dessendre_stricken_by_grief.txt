@@ -27,6 +27,8 @@ Heals an Expeditioner
 creature-removal
 artifact-removal
 enchantment-removal
+[DraftScore]
+88
 [FlavorText]
 "Arrogant Man. I taught him to Paint. And he seeks to use my creations against me?"
 [Artist]

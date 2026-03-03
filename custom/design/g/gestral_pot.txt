@@ -28,6 +28,8 @@ A:AB$ Mana | Cost$ T | Produced$ C | SpellDescription$ Add {C}.
 A:AB$ Animate | Cost$ 2 | Defined$ Self | Power$ 2 | Toughness$ 2 | Types$ Artifact,Creature,Gestral | RemoveCreatureTypes$ True | SpellDescription$ CARDNAME becomes a 2/2 Gestral artifact creature until end of turn.
 [Tags]
 mana-rock
+[DraftScore]
+75
 [DesignNotes]
  - Gestral version of Guardian Idol.
  - A mana rock to support the Gestral tribal strategy, while providing some extra offensive punch if required.

@@ -24,6 +24,8 @@ SVar:TrigLumina:DB$ Token | TokenAmount$ 1 | TokenOwner$ You | TokenScript$ c_a_
 c_a_lumina
 [Tags]
 lumina-generator
+[DraftScore]
+80
 [DesignNotes]
  - Another tutor to enable the Expeditioner tribal strategy / Expeditioner spell toolbox.
  - 12/11/2025: Rework as a life-gaining impulse with a token generating Luminous bonus.

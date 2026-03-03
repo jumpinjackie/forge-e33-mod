@@ -20,6 +20,8 @@ SVar:LuminaRewardTrigger:Mode$ ChangesZone | Origin$ Battlefield | Destination$ 
 SVar:TrigToken:DB$ Token | TokenScript$ c_a_chroma | TokenOwner$ You | TokenAmount$ 1
 [RelatedTokens]
 c_a_chroma
+[DraftScore]
+72
 [DesignNotes]
  - "Painting isn't about verisimilitude, it's about essence. The truth of who they are." -Verso
  - Such a perfectly cromulent word needs its own card.

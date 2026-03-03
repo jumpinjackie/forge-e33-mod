@@ -21,6 +21,8 @@ SVar:ChooseColor:DB$ ChooseColor | Defined$ You | AILogic$ MostProminentInComput
 A:AB$ Mana | Cost$ T | Produced$ Chosen | SpellDescription$ Add one mana of the chosen color.
 [Tags]
 mana-fixer
+[DraftScore]
+80
 [DesignNotes]
  - In the game, the Twilight Quarry is an area where a collectible record can be found
  - Another land to provide mana fixing

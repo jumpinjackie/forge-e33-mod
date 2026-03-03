@@ -26,6 +26,8 @@ Sandfall Interactive
 lumina-generator
 creature-removal
 combat-trick
+[DraftScore]
+78
 [DesignNotes]
  - Flavorful (based on art) [removal / combat trick] reprint
  - 14/01/2026: Renamed from Band Together to Face Adversity so we can tack on a Lumina token bonus.

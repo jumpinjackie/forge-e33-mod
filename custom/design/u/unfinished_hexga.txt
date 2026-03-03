@@ -22,6 +22,8 @@ T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Land |
 SVar:TrigCounter:DB$ PutCounter | CounterNum$ 1 | CounterType$ CRYSTAL
 [Artist]
 Sandfall Interactive
+[DraftScore]
+78
 [DesignNotes]
  - In the game, an Unfinished Hexga can be found at the Stone Wave Cliffs. It wants you to find three rock crystals and install them on its back. Doing so will reward you with a picto.
  - Modeled this an an undercosted beater that can't attack or block until it has 3 crystal counters (the rock crystal). Triggered on land drops as finding the rock crytals in the video game requires *exploring*.

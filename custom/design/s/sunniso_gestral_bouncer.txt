@@ -19,6 +19,8 @@ U
 A:AB$ ChangeZone | Cost$ 5 T | ValidTgts$ Creature | Origin$ Battlefield | Destination$ Hand | SpellDescription$ Return target creature to its owner's hand.
 [Artist]
 Sandfall Interactive
+[DraftScore]
+84
 [Tags]
 creature-removal
 [DesignNotes]

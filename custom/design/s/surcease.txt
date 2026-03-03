@@ -19,6 +19,8 @@ DeckHints:Type$Painter
 Sandfall Interactive
 [Tags]
 creature-removal
+[DraftScore]
+78
 [DesignNotes]
  - "I know what he'll say, but this is the first time I've felt any surcease" - Aline's journal.
  - Another excuse to put a perfectly cromulent word into card form.

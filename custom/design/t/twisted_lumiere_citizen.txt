@@ -23,6 +23,8 @@ You may have ~ enter as a copy of any nonlegendary Expeditioner creature on the 
 [ForgeScript]
 K:ETBReplacement:Copy:DBCopy:Optional
 SVar:DBCopy:DB$ Clone | Choices$ Creature.Expeditioner+nonLegendary | AddTypes$ Human & Nevron & Citizen | SetColor$ Black | SpellDescription$ You may have ~ enter as a copy of any nonlegendary Expeditioner creature on the battlefield, except it is black and is a Human Nevron Citizen in addition to its other types
+[DraftScore]
+65
 [DesignNotes]
  - In Act 3 of the game, Renoir (now free) summons an assortment of Nevrons, including twisted copies of the citizens of Lumière to carry out his mission of destroying the canvas.
  - Easy mechanical map to a clone/copy effect, but for flavor purposes, will only clone a nonlegendary Expeditioner.
