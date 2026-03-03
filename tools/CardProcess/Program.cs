@@ -2104,7 +2104,7 @@ public class GenAllCommand : BaseCommand
         await GenerateEditionAsync(cards, editionsDir, designDir, stdout);
 
         // 4. Generate bugs (from GenBugsCommand)
-        await GenerateBugsAsync(cards, OutputDir, stdout);
+        await GenerateBugsAsync(cards, designDir, OutputDir, stdout);
 
         // 5. Generate card name list
         await GenerateCardListAsync(cards, designDir, OutputDir, stdout);
@@ -2251,7 +2251,7 @@ public class GenAllCommand : BaseCommand
         );
     }
 
-    private async Task GenerateBugsAsync(SortedDictionary<string, CardMasterDesign> cards, DirectoryInfo outputDir, TextWriter stdout)
+    private async Task GenerateBugsAsync(SortedDictionary<string, CardMasterDesign> cards, DirectoryInfo designDir, DirectoryInfo outputDir, TextWriter stdout)
     {
         await stdout.WriteLineAsync("Generating bugs file...");
         var bugsFile = Path.Combine(outputDir.FullName, "BUGS.md");
@@ -2259,6 +2259,10 @@ public class GenAllCommand : BaseCommand
 
         await sw.WriteLineAsync("# General");
         await sw.WriteLineAsync();
+
+        var genBugsFile = Path.Combine(designDir.FullName, "GENERAL_BUGS.md");
+        await sw.WriteLineAsync(File.ReadAllText(genBugsFile));
+
         await sw.WriteLineAsync("# Card-specific");
         await sw.WriteLineAsync();
 
