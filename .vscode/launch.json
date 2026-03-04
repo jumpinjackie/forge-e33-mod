@@ -53,6 +53,21 @@
             "cwd": "${workspaceFolder}/tools/CardProcess",
             "console": "internalConsole",
             "stopAtEntry": false
+        },
+        {
+            "name": "Debug CardProcess commander-validate",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceFolder}/tools/CardProcess/bin/Debug/net9.0/CardProcess.dll",
+            "args": [
+                "commander-validate",
+                "--base-directory",
+                "${workspaceFolder}/decks/commander"
+            ],
+            "cwd": "${workspaceFolder}/tools/CardProcess",
+            "console": "internalConsole",
+            "stopAtEntry": false
         }
     ]
 }

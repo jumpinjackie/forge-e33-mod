@@ -778,7 +778,7 @@ public class CardMasterDesign
         CardFaceType.SplitFuse => SplitLeft?.DraftScore ?? SplitRight?.DraftScore,
         CardFaceType.DoubleFaced => FrontFull?.DraftScore ?? BackFull?.DraftScore,
         CardFaceType.Meld => FrontFull?.DraftScore ?? MeldTarget?.DraftScore,
-        _ => FrontFull?.DraftScore   
+        _ => FrontFull?.DraftScore
     };
 
     public string? OracleTextFull
@@ -3680,12 +3680,166 @@ public class StatsCommand : BaseCommand
     }
 }
 
+/// <summary>
+/// Validates that no card name overlaps exist across commander decks
+/// </summary>
+[CliCommand(Name = "commander-validate", Description = "Validate that no card name overlaps exist across commander decks")]
+public class CommanderValidateCommand : BaseCommand
+{
+    [CliOption(Required = true, Description = "The directory containing the commander decks")]
+    public override required DirectoryInfo BaseDirectory { get; set; }
+
+    [CliOption(Required = false, Description = "If false, exit 0 even when duplicates are found")]
+    public bool FailOnDuplicates { get; set; } = true;
+    protected override async Task<int> ExecuteAsync(CliContext context, TextWriter stdout, TextWriter stderr)
+    {
+        var decks = new Dictionary<string, List<string>>();
+        try
+        {
+            await stdout.WriteLineAsync($"Validating commander decks in: {BaseDirectory}");
+            var files = Directory.EnumerateFiles(BaseDirectory.FullName, "*.txt").OrderBy(p => p).ToArray();
+            if (files.Length == 0)
+            {
+                await stderr.WriteLineAsync($"No .txt deck files found in: {BaseDirectory.FullName}");
+                return 2;
+            }
+            foreach (var path in files)
+            {
+                await stdout.WriteLineAsync($"Processing: {Path.GetFileName(path)}");
+                var deckName = Path.GetFileNameWithoutExtension(path);
+                var cardsInDeck = new List<string>();
+                using var sr = new StreamReader(path);
+                string? line;
+                string currentSection = "Main";
+                while ((line = await sr.ReadLineAsync()) is not null)
+                {
+                    var trimmed = line.Trim();
+                    if (string.IsNullOrWhiteSpace(trimmed))
+                        continue;
+                    if (trimmed.StartsWith("//"))
+                        continue;
+                    if (trimmed.StartsWith("[") && trimmed.EndsWith("]"))
+                    {
+                        currentSection = trimmed.Trim('[', ']');
+                        continue;
+                    }
+                    var parts = trimmed.Split(new[] { ' ' }, 2);
+                    if (parts.Length > 0)
+                    {
+                        string? cardName = null;
+                        if (parts.Length == 2)
+                        {
+                            /*
+                            if (parts[1].Contains(" // "))
+                            {
+                                var idx = parts[1].IndexOf(" // ");
+                                var first = parts[1].Substring(0, idx).Trim();
+                                var second = parts[1].Substring(idx + 4).Trim();
+                                if (!string.IsNullOrEmpty(first))
+                                    cardsInDeck.Add(first);
+                                if (!string.IsNullOrEmpty(second))
+                                    cardsInDeck.Add(second);
+                            }
+                            */
+                            cardName = parts[1].Trim();
+                        }
+                        else
+                        {
+                            cardName = parts[0].Trim();
+                        }
+                        if (!string.IsNullOrEmpty(cardName) && cardName != "//")
+                            cardsInDeck.Add(cardName);
+                    }
+                }
+                decks[deckName] = cardsInDeck;
+            }
+            await stdout.WriteLineAsync("");
+            await stdout.WriteLineAsync("=== Checking for duplicate card names ===");
+            await stdout.WriteLineAsync("");
+            var basicLands = new HashSet<string> { "Forest", "Island", "Mountain", "Plains", "Swamp" };
+            var commanderCards = new Dictionary<string, HashSet<string>>();
+            var seenCards = new Dictionary<string, HashSet<string>>();
+            foreach (var (deckName, cards) in decks)
+            {
+                foreach (var cardName in cards)
+                {
+                    var tokens = cardName.Trim().Split("|");
+                    var norm = tokens[0];
+                    var set = tokens[1];
+                    if (basicLands.Contains(norm))
+                        continue;
+                    if (string.IsNullOrEmpty(norm) || norm == "//")
+                        continue;
+                    if (!seenCards.TryGetValue(norm, out var deckSet))
+                    {
+                        deckSet = new HashSet<string>();
+                        seenCards[norm] = deckSet;
+                    }
+                    if (!deckSet.Contains(deckName))
+                    {
+                        deckSet.Add(deckName);
+                    }
+                    if (set == "E3C")
+                    {
+                        if (!commanderCards.TryGetValue(deckName, out var cc))
+                        {
+                            commanderCards[deckName] = new();
+                            cc = commanderCards[deckName];
+                        }
+                        cc.Add(norm);
+                    }
+                }
+            }
+            var duplicates = seenCards.Where(c => c.Value.Count > 1).ToList();
+            if (duplicates.Count > 0)
+            {
+                await stdout.WriteLineAsync("=== Duplicate Card Names ===");
+                await stdout.WriteLineAsync("");
+                foreach (var (duplicateName, deckSet) in duplicates)
+                {
+                    await stdout.WriteLineAsync($"- \"{duplicateName}\":");
+                    foreach (var deck in deckSet.ToList())
+                    {
+                        await stdout.WriteLineAsync($"  - {deck}");
+                    }
+                    await stdout.WriteLineAsync("");
+                }
+                await stdout.WriteLineAsync($"=== Total duplicate card names: {duplicates.Count} ===");
+                await stderr.WriteLineAsync("Validation failed: overlapping card names detected");
+                return FailOnDuplicates ? 1 : 0;
+            }
+            else
+            {
+                await stdout.WriteLineAsync("=== No overlapping card names found ===");
+                await stdout.WriteLineAsync("=== Commander cards used amongst decks ===");
+                foreach (var (deckName, cc) in commanderCards)
+                {
+                    await stdout.WriteLineAsync("In deck: " + deckName + " (" + cc.Count +")");
+                    foreach (var name in cc.OrderBy(s => s))
+                    {
+                        await stdout.WriteLineAsync("  - " + name);
+                    }
+                }
+                await stdout.WriteLineAsync("");
+                await stdout.WriteLineAsync("All decks are valid.");
+                return 0;
+            }
+        }
+        catch (Exception ex)
+        {
+            await stderr.WriteLineAsync($"Error: {ex.Message}");
+            return 2;
+        }
+    }
+}
+
 [CliCommand(
     Children = [
         typeof(GenAllCommand),
         typeof(StatsCommand),
         typeof(CardConjurerValidateCommand),
-        typeof(LocalCardConjurerCommand)
+        typeof(LocalCardConjurerCommand),
+        typeof(CommanderValidateCommand)
     ]
 )]
 public class RootCommand { }
