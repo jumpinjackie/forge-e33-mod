@@ -16,7 +16,7 @@ Sandfall Interactive
 [Oracle]
 This spell costs {1} less to cast if you control a Gestral.
 ~ enters with a shield counter.
-Strikes with its dead partner — {2}, Sacrifice a Nevron: ~ deals damage equal to the sacrificed Nevron's mana value to target creature.
+Strikes with its dead partner — {2}, Sacrifice a Nevron: ~ deals damage equal to the sacrificed Nevron's mana value to target creature or planeswalker.
 Slams its shield — {R}{R}, {T}, Remove a shield counter from ~: ~ deals 4 damage to any target.
 When ~ dies, target opponent creates a Lumina token.
 [AbilityWords]
@@ -28,7 +28,7 @@ Slams its shield
 [ForgeScript]
 K:etbCounter:SHIELD:1
 S:Mode$ ReduceCost | ValidCard$ Card.Self | Type$ Spell | Amount$ 1 | EffectZone$ All | IsPresent$ Gestral.YouCtrl | Description$ This spell costs {1} less to cast if you control a Gestral.
-A:AB$ DealDamage | Cost$ 2 Sac<1/Nevron> | ValidTgts$ Creature | TgtPrompt$ Select target creature | NumDmg$ X | SpellDescription$ ~ deals damage equal to the sacrificed Nevron's mana value to target creature.
+A:AB$ DealDamage | Cost$ 2 Sac<1/Nevron> | ValidTgts$ Creature | TgtPrompt$ Select target creature or planeswalker | NumDmg$ X | SpellDescription$ ~ deals damage equal to the sacrificed Nevron's mana value to target creature or planeswalker.
 A:AB$ DealDamage | Cost$ R R T SubCounter<1/SHIELD> | ValidTgts$ Any | TgtPrompt$ Select any target | NumDmg$ 4 | SpellDescription$ ~ deals 4 damage to any target.
 T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Card.Self | Execute$ TrigToken | TriggerDescription$ When this creature dies, target opponent creates a Lumina token.
 SVar:TrigToken:DB$ Token | TokenAmount$ 1 | ValidTgts$ Opponent | TokenOwner$ Targeted | TokenScript$ c_a_lumina
@@ -43,3 +43,4 @@ creature-removal
 [DesignNotes]
  - Unlike other Sakapatates, this one *DOES NOT* try to do a last minute suicide move to do some damage before it goes.
  - 21/10/2025: Added Gestral alliance cost reduction
+ - 5/03/2026: Changed "Strikes with its dead partner" ability to also target planeswalkers

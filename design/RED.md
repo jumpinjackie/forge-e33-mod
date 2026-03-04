@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 4/3/2026 2:23:32 pm
+> Last generated: 4/3/2026 3:31:21 pm
 
 ## A Storm is Coming
 
@@ -542,7 +542,7 @@ When this creature dies, you may have this creature deal 3 damage divided as you
 Creature - Nevron
 This spell costs {1} less to cast if you control a Gestral.
 This creature enters with a shield counter.
-Strikes with its dead partner — {2}, Sacrifice a Nevron: This creature deals damage equal to the sacrificed Nevron's mana value to target creature.
+Strikes with its dead partner — {2}, Sacrifice a Nevron: This creature deals damage equal to the sacrificed Nevron's mana value to target creature or planeswalker.
 When this creature dies, target opponent creates a Lumina token.
 When this creature dies, you may have this creature deal 2 damage to each non-Nevron creature.
 
@@ -555,6 +555,7 @@ When this creature dies, you may have this creature deal 2 damage to each non-Ne
 
  - Like other Sakapatates, it will try to do a last minute suicide move to do some damage before it goes.
  - 21/10/2025: Added Gestral alliance cost reduction
+ - 5/03/2026: Changed "Strikes with its dead partner" ability to also target planeswalkers
 
 ## Rocher
 
@@ -618,7 +619,7 @@ Luminous — Thunderfall deals 4 damage instead if you control at least three Lu
 Creature - Nevron
 This spell costs {1} less to cast if you control a Gestral.
 This creature enters with a shield counter.
-Strikes with its dead partner — {2}, Sacrifice a Nevron: This creature deals damage equal to the sacrificed Nevron's mana value to target creature.
+Strikes with its dead partner — {2}, Sacrifice a Nevron: This creature deals damage equal to the sacrificed Nevron's mana value to target creature or planeswalker.
 Slams its shield — {R}{R}, {T}, Remove a shield counter from this creature: This creature deals 4 damage to any target.
 When this creature dies, target opponent creates a Lumina token.
 ---
@@ -634,6 +635,7 @@ When this creature dies, target opponent creates a Lumina token.
 
  - Unlike other Sakapatates, this one *DOES NOT* try to do a last minute suicide move to do some damage before it goes.
  - 21/10/2025: Added Gestral alliance cost reduction
+ - 5/03/2026: Changed "Strikes with its dead partner" ability to also target planeswalkers
 
 ## Waiting for Clea to Play
 

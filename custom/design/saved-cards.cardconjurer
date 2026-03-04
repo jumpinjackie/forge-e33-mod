@@ -117009,7 +117009,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "This spell costs {1} less to cast if you control a Gestral.\nThis creature enters with a shield counter.\n{i}Strikes with its dead partner{/i} — {2}, Sacrifice a Nevron: This creature deals damage equal to the sacrificed Nevron’s mana value to target creature.\nWhen this creature dies, target opponent creates a Lumina token.\nWhen this creature dies, you may have this creature deal 2 damage to each non-Nevron creature.",
+                    "text": "This spell costs {1} less to cast if you control a Gestral.\nThis creature enters with a shield counter.\n{i}Strikes with its dead partner{/i} — {2}, Sacrifice a Nevron: This creature deals damage equal to the sacrificed Nevron’s mana value to target creature or planeswalker.\nWhen this creature dies, target opponent creates a Lumina token.\nWhen this creature dies, you may have this creature deal 2 damage to each non-Nevron creature.",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
@@ -134406,44 +134406,96 @@
                 },
                 {
                     "name": "Multicolored Legend Crown",
-                    "src": "/img/frames/m15/transform/crowns/regular/m.png",
+                    "src": "/img/frames/m15/crowns/m15CrownM.png",
                     "masks": [],
                     "bounds": {
-                        "x": 0.0274,
-                        "y": 0.0191,
+                        "height": 0.1667,
                         "width": 0.9454,
-                        "height": 0.1667
-                    },
-                    "complementary": [
-                        16
-                    ]
+                        "x": 0.0274,
+                        "y": 0.0191
+                    }
                 },
                 {
                     "name": "Legend Crown Border Cover",
                     "src": "/img/black.png",
+                    "masks": [],
                     "bounds": {
-                        "x": 0.0394,
-                        "y": 0.0277,
+                        "height": 0.0177,
                         "width": 0.9214,
-                        "height": 0.0177
-                    },
-                    "masks": []
+                        "x": 0.0394,
+                        "y": 0.0277
+                    }
                 },
                 {
                     "name": "Multicolored Power/Toughness",
                     "src": "/img/frames/m15/regular/m15PTM.png",
+                    "masks": [],
                     "bounds": {
-                        "x": 0.7573,
-                        "y": 0.8848,
+                        "height": 0.0733,
                         "width": 0.188,
-                        "height": 0.0733
-                    },
-                    "masks": []
+                        "x": 0.7573,
+                        "y": 0.8848
+                    }
                 },
                 {
                     "name": "Multicolored Frame",
-                    "src": "/img/frames/m15/transform/regular/frontM.png",
-                    "masks": []
+                    "src": "/img/frames/m15/regular/m15FrameM.png",
+                    "masks": [
+                        {
+                            "src": "/img/frames/m15/regular/m15MaskPinline.png",
+                            "name": "Pinline"
+                        }
+                    ]
+                },
+                {
+                    "name": "Multicolored Frame",
+                    "src": "/img/frames/m15/regular/m15FrameM.png",
+                    "masks": [
+                        {
+                            "src": "/img/frames/m15/regular/m15MaskType.png",
+                            "name": "Type"
+                        }
+                    ]
+                },
+                {
+                    "name": "Multicolored Frame",
+                    "src": "/img/frames/m15/regular/m15FrameM.png",
+                    "masks": [
+                        {
+                            "src": "/img/frames/m15/regular/m15MaskTitle.png",
+                            "name": "Title"
+                        }
+                    ]
+                },
+                {
+                    "name": "Multicolored Frame",
+                    "src": "/img/frames/m15/regular/m15FrameM.png",
+                    "masks": [
+                        {
+                            "src": "/img/frames/m15/regular/m15MaskRules.png",
+                            "name": "Rules"
+                        }
+                    ]
+                },
+                {
+                    "name": "Multicolored Frame",
+                    "src": "/img/frames/m15/regular/m15FrameM.png",
+                    "masks": [
+                        {
+                            "src": "/img/frames/m15/regular/m15MaskFrame.png",
+                            "name": "Frame"
+                        }
+                    ]
+                },
+                {
+                    "name": "Multicolored Frame",
+                    "src": "/img/frames/m15/regular/m15FrameM.png",
+                    "masks": [
+                        {
+                            "src": "/img/frames/m15/regular/m15MaskBorder.png",
+                            "name": "Border"
+                        }
+                    ]
                 }
             ],
             "artSource": "https://jumpinjackie.github.io/e33-reference-art/images/cards/the_curator.jpg",
@@ -134628,7 +134680,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "{i}Picto Reinforcement{/i} — {2}{U}, {T}: Create two Lumina tokens.\n{i}Upgrades your weapons{/i} — {2}{WG}, {T}: Distribute two +1/+1 counters among one or two target creatures.\n{i}Latent skill activation{/i} — {3}{B}, {T}, Tap an untapped Expeditioner creature you control: Destroy target creature.\nWhen The Curator dies, return it to the battlefield transformed under it’s owner’s control.{flavor}“What is he?” asked a curious Lune. “I’m not sure, he doesn’t really talk.” replied Maelle.",
+                    "text": "{i}Picto Reinforcement{/i} — {2}{U}, {T}: Create two Lumina tokens.\n{i}Upgrades your weapons{/i} — {2}{WG}, {T}: Distribute two +1/+1 counters among one or two target creatures.\n{i}Latent skill activation{/i} — {3}{B}, {T}, Tap an untapped creature you control: Destroy target creature.\nWhen The Curator dies, return it to the battlefield transformed under it’s owner’s control.{flavor}“What is he?” asked a curious Lune. “I’m not sure, he doesn’t really talk.” replied Maelle.",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
@@ -142945,7 +142997,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "This spell costs {1} less to cast if you control a Gestral.\nThis creature enters with a shield counter.\n{i}Strikes with its dead partner{/i} — {2}, Sacrifice a Nevron: This creature deals damage equal to the sacrificed Nevron’s mana value to target creature.\n{i}Slams its shield{/i} — {R}{R}, {T}, Remove a shield counter from this creature: This creature deals 4 damage to any target.\nWhen this creature dies, target opponent creates a Lumina token.{flavor}“INTRUDER ALERT! INTRUDER ALERT! Send forth the ULTIMATE WEAPON!”\n—Tropa",
+                    "text": "This spell costs {1} less to cast if you control a Gestral.\nThis creature enters with a shield counter.\n{i}Strikes with its dead partner{/i} — {2}, Sacrifice a Nevron: This creature deals damage equal to the sacrificed Nevron’s mana value to target creature or planeswalker.\n{i}Slams its shield{/i} — {R}{R}, {T}, Remove a shield counter from this creature: This creature deals 4 damage to any target.\nWhen this creature dies, target opponent creates a Lumina token.{flavor}“INTRUDER ALERT! INTRUDER ALERT! Send forth the ULTIMATE WEAPON!”\n—Tropa",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
