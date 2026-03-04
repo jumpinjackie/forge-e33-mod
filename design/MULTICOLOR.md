@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 2/3/2026 2:37:55 pm
+> Last generated: 4/3/2026 12:30:12 pm
 
 ## Aberration
 
@@ -332,7 +332,7 @@ Nevron spells you cast cost {1} less to cast.
 4UB
 Legendary Creature - Painter Avatar
 Projects disturbing Chroma — Hexproof, indestructible
-At the beginning your upkeep, Clea Unleashed loses hexproof and indestructible until end of turn.
+At the beginning of your upkeep, Clea Unleashed loses hexproof and indestructible until end of turn.
 Summons Nevrons — At the beginning of your upkeep, choose one —
 • Search your library for a Nevron card and put it onto the battlefield.
 • Create a token that's a copy of target nonlegendary Nevron creature you control, except it has haste. Sacrifice it at the beginning of the next end step.

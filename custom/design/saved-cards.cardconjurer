@@ -23102,7 +23102,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "{i}Projects disturbing Chroma{/i} — Hexproof, indestructible\nAt the beginning your upkeep, Clea Unleashed loses hexproof and indestructible until end of turn.\n{i}Summons Nevrons{/i} — At the beginning of your upkeep, choose one —\n• Search your library for a Nevron card and put it onto the battlefield.\n• Create a token that’s a copy of target nonlegendary Nevron creature you control, except it has haste. Sacrifice it at the beginning of the next end step.",
+                    "text": "{i}Projects disturbing Chroma{/i} — Hexproof, indestructible\nAt the beginning of your upkeep, Clea Unleashed loses hexproof and indestructible until end of turn.\n{i}Summons Nevrons{/i} — At the beginning of your upkeep, choose one —\n• Search your library for a Nevron card and put it onto the battlefield.\n• Create a token that’s a copy of target nonlegendary Nevron creature you control, except it has haste. Sacrifice it at the beginning of the next end step.",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
@@ -26414,6 +26414,306 @@
             "infoSet": "E3C",
             "infoLanguage": "EN",
             "infoArtist": "Zack Stella",
+            "infoNote": "Proxy, Not for Sale",
+            "serialNumber": "",
+            "serialTotal": "",
+            "serialX": "",
+            "serialY": "",
+            "serialScale": ""
+        }
+    },
+    {
+        "key": "Crib Swap",
+        "data": {
+            "width": 2010,
+            "height": 2814,
+            "marginX": 0.044,
+            "marginY": 0.02857142857142857,
+            "frames": [
+                {
+                    "name": "Black Extension",
+                    "src": "/img/frames/margins/blackBorderExtension.png",
+                    "bounds": {
+                        "x": -0.044,
+                        "y": -0.02857142857142857,
+                        "width": 1.088,
+                        "height": 1.0571428571428572
+                    },
+                    "masks": []
+                },
+                {
+                    "name": "White Frame",
+                    "src": "/img/frames/m15/regular/m15FrameW.png",
+                    "masks": [
+                        {
+                            "src": "/img/frames/m15/regular/m15MaskPinline.png",
+                            "name": "Pinline"
+                        }
+                    ]
+                },
+                {
+                    "name": "White Frame",
+                    "src": "/img/frames/m15/regular/m15FrameW.png",
+                    "masks": [
+                        {
+                            "src": "/img/frames/m15/regular/m15MaskType.png",
+                            "name": "Type"
+                        }
+                    ]
+                },
+                {
+                    "name": "White Frame",
+                    "src": "/img/frames/m15/regular/m15FrameW.png",
+                    "masks": [
+                        {
+                            "src": "/img/frames/m15/regular/m15MaskTitle.png",
+                            "name": "Title"
+                        }
+                    ]
+                },
+                {
+                    "name": "White Frame",
+                    "src": "/img/frames/m15/regular/m15FrameW.png",
+                    "masks": [
+                        {
+                            "src": "/img/frames/m15/regular/m15MaskRules.png",
+                            "name": "Rules"
+                        }
+                    ]
+                },
+                {
+                    "name": "White Frame",
+                    "src": "/img/frames/m15/regular/m15FrameW.png",
+                    "masks": [
+                        {
+                            "src": "/img/frames/m15/regular/m15MaskFrame.png",
+                            "name": "Frame"
+                        }
+                    ]
+                },
+                {
+                    "name": "White Frame",
+                    "src": "/img/frames/m15/regular/m15FrameW.png",
+                    "masks": [
+                        {
+                            "src": "/img/frames/m15/regular/m15MaskBorder.png",
+                            "name": "Border"
+                        }
+                    ]
+                }
+            ],
+            "artSource": "https://cards.scryfall.io/art_crop/front/3/1/31704e73-5168-4880-be9b-ae32b2197d35.jpg?1717190272",
+            "artX": 0.07661691542288557,
+            "artY": 0.11300639658848614,
+            "artZoom": 2.7260000000000004,
+            "artRotate": "0",
+            "setSymbolSource": "http://localhost:4242/img/setSymbols/official/cmd-u.svg",
+            "setSymbolX": 0.8736318407960199,
+            "setSymbolY": 0.5707178393745558,
+            "setSymbolZoom": 0.177,
+            "watermarkSource": "http://localhost:4242/img/blank.png",
+            "watermarkX": 0.33880597014925373,
+            "watermarkY": 0.6609808102345416,
+            "watermarkZoom": 649,
+            "watermarkLeft": "#b79d58",
+            "watermarkRight": "none",
+            "watermarkOpacity": 0.4,
+            "version": "ubRegular",
+            "manaSymbols": [],
+            "infoYear": "2026",
+            "margins": true,
+            "bottomInfoTranslate": {
+                "x": 0,
+                "y": 0
+            },
+            "bottomInfoRotate": 0,
+            "bottomInfoZoom": 1,
+            "bottomInfoColor": "white",
+            "onload": null,
+            "hideBottomInfoBorder": false,
+            "showsFlavorBar": true,
+            "bottomInfo": {
+                "midLeft": {
+                    "text": "{elemidinfo-set} • {elemidinfo-language}  {savex}{fontbelerenbsc}{fontsize3}{upinline1}￮{savex2}{elemidinfo-artist}",
+                    "x": 0.0647,
+                    "y": 0.9548,
+                    "width": 0.8707,
+                    "height": 0.0171,
+                    "oneLine": true,
+                    "font": "gothammedium",
+                    "size": 0.0171,
+                    "color": "white",
+                    "outlineWidth": 0.003,
+                    "name": "midLeft"
+                },
+                "topLeft": {
+                    "text": "{elemidinfo-number}",
+                    "x": 0.0647,
+                    "y": 0.9377,
+                    "width": 0.8707,
+                    "height": 0.0171,
+                    "oneLine": true,
+                    "font": "gothammedium",
+                    "size": 0.0171,
+                    "color": "white",
+                    "outlineWidth": 0.003,
+                    "name": "topLeft"
+                },
+                "note": {
+                    "text": "{loadx2}{elemidinfo-note}",
+                    "x": 0.0647,
+                    "y": 0.9377,
+                    "width": 0.8707,
+                    "height": 0.0171,
+                    "oneLine": true,
+                    "font": "gothammedium",
+                    "size": 0.0171,
+                    "color": "white",
+                    "outlineWidth": 0.003,
+                    "name": "note"
+                },
+                "rarity": {
+                    "text": "{loadx}{elemidinfo-rarity}",
+                    "x": 0.0647,
+                    "y": 0.9377,
+                    "width": 0.8707,
+                    "height": 0.0171,
+                    "oneLine": true,
+                    "font": "gothammedium",
+                    "size": 0.0171,
+                    "color": "white",
+                    "outlineWidth": 0.003,
+                    "name": "rarity"
+                },
+                "bottomLeft": {
+                    "text": "NOT FOR SALE",
+                    "x": 0.0647,
+                    "y": 0.9719,
+                    "width": 0.8707,
+                    "height": 0.0143,
+                    "oneLine": true,
+                    "font": "gothammedium",
+                    "size": 0.0143,
+                    "color": "white",
+                    "outlineWidth": 0.003
+                },
+                "wizards": {
+                    "name": "wizards",
+                    "text": "{ptshift0,0.0172}™ & © {elemidinfo-year} Wizards of the Coast",
+                    "x": 0.0647,
+                    "y": 0.9377,
+                    "width": 0.8707,
+                    "height": 0.0167,
+                    "oneLine": true,
+                    "font": "mplantin",
+                    "size": 0.0162,
+                    "color": "white",
+                    "align": "right",
+                    "outlineWidth": 0.003
+                },
+                "bottomRight": {
+                    "text": "{ptshift0,0.0172}CardConjurer.com",
+                    "x": 0.0647,
+                    "y": 0.9548,
+                    "width": 0.8707,
+                    "height": 0.0143,
+                    "oneLine": true,
+                    "font": "mplantin",
+                    "size": 0.0143,
+                    "color": "white",
+                    "align": "right",
+                    "outlineWidth": 0.003
+                }
+            },
+            "artBounds": {
+                "x": 0.0767,
+                "y": 0.1129,
+                "width": 0.8476,
+                "height": 0.4429
+            },
+            "setSymbolBounds": {
+                "x": 0.9263681592039801,
+                "y": 0.591,
+                "width": 0.12,
+                "height": 0.041,
+                "vertical": "center",
+                "horizontal": "right"
+            },
+            "watermarkBounds": {
+                "x": 0.5,
+                "y": 0.7762,
+                "width": 0.75,
+                "height": 0.2305
+            },
+            "text": {
+                "mana": {
+                    "name": "Mana Cost",
+                    "text": "2 W",
+                    "y": 0.06254442075337598,
+                    "width": 0.9273631840796019,
+                    "height": 0.03380952380952381,
+                    "oneLine": true,
+                    "size": 0.04304029304029304,
+                    "align": "right",
+                    "shadowX": -0.001,
+                    "shadowY": 0.0029,
+                    "manaCost": true,
+                    "manaSpacing": 0,
+                    "fontSize": 0
+                },
+                "title": {
+                    "name": "Title",
+                    "text": "Crib Swap",
+                    "x": 0.08358208955223881,
+                    "y": 0.05152807391613362,
+                    "width": 0.8292,
+                    "height": 0.0543,
+                    "oneLine": true,
+                    "font": "belerenb",
+                    "size": 0.0381,
+                    "fontSize": 0
+                },
+                "type": {
+                    "name": "Type",
+                    "text": "Kindred Instant — Shapeshifter",
+                    "x": 0.08358208955223881,
+                    "y": 0.5643212508884151,
+                    "width": 0.8292,
+                    "height": 0.0543,
+                    "oneLine": true,
+                    "font": "belerenb",
+                    "size": 0.0324,
+                    "fontSize": 0
+                },
+                "rules": {
+                    "name": "Rules Text",
+                    "text": "Changeling (This card is every creature type.)\nExile target creature. Its controller creates a 1/1 colorless Shapeshifter creature token with changeling.",
+                    "x": 0.086,
+                    "y": 0.6325515280739161,
+                    "width": 0.828,
+                    "height": 0.2875,
+                    "size": 0.0362,
+                    "fontSize": 0
+                },
+                "pt": {
+                    "name": "Power/Toughness",
+                    "text": "",
+                    "x": 0.7928,
+                    "y": 0.902,
+                    "width": 0.1367,
+                    "height": 0.0372,
+                    "size": 0.0372,
+                    "font": "belerenbsc",
+                    "oneLine": true,
+                    "align": "center",
+                    "fontSize": 0
+                }
+            },
+            "infoNumber": "2026",
+            "infoRarity": "R",
+            "infoSet": "E3C",
+            "infoLanguage": "EN",
+            "infoArtist": "Michele Giorgi",
             "infoNote": "Proxy, Not for Sale",
             "serialNumber": "",
             "serialTotal": "",
@@ -32680,6 +32980,306 @@
             "infoSet": "E33",
             "infoLanguage": "EN",
             "infoArtist": "Sandfall Interactive",
+            "infoNote": "Proxy, Not for Sale",
+            "serialNumber": "",
+            "serialTotal": "",
+            "serialX": "",
+            "serialY": "",
+            "serialScale": ""
+        }
+    },
+    {
+        "key": "Distant Melody",
+        "data": {
+            "width": 2010,
+            "height": 2814,
+            "marginX": 0.044,
+            "marginY": 0.02857142857142857,
+            "frames": [
+                {
+                    "name": "Black Extension",
+                    "src": "/img/frames/margins/blackBorderExtension.png",
+                    "bounds": {
+                        "x": -0.044,
+                        "y": -0.02857142857142857,
+                        "width": 1.088,
+                        "height": 1.0571428571428572
+                    },
+                    "masks": []
+                },
+                {
+                    "name": "Blue Frame",
+                    "src": "/img/frames/m15/regular/m15FrameU.png",
+                    "masks": [
+                        {
+                            "src": "/img/frames/m15/regular/m15MaskPinline.png",
+                            "name": "Pinline"
+                        }
+                    ]
+                },
+                {
+                    "name": "Blue Frame",
+                    "src": "/img/frames/m15/regular/m15FrameU.png",
+                    "masks": [
+                        {
+                            "src": "/img/frames/m15/regular/m15MaskType.png",
+                            "name": "Type"
+                        }
+                    ]
+                },
+                {
+                    "name": "Blue Frame",
+                    "src": "/img/frames/m15/regular/m15FrameU.png",
+                    "masks": [
+                        {
+                            "src": "/img/frames/m15/regular/m15MaskTitle.png",
+                            "name": "Title"
+                        }
+                    ]
+                },
+                {
+                    "name": "Blue Frame",
+                    "src": "/img/frames/m15/regular/m15FrameU.png",
+                    "masks": [
+                        {
+                            "src": "/img/frames/m15/regular/m15MaskRules.png",
+                            "name": "Rules"
+                        }
+                    ]
+                },
+                {
+                    "name": "Blue Frame",
+                    "src": "/img/frames/m15/regular/m15FrameU.png",
+                    "masks": [
+                        {
+                            "src": "/img/frames/m15/regular/m15MaskFrame.png",
+                            "name": "Frame"
+                        }
+                    ]
+                },
+                {
+                    "name": "Blue Frame",
+                    "src": "/img/frames/m15/regular/m15FrameU.png",
+                    "masks": [
+                        {
+                            "src": "/img/frames/m15/regular/m15MaskBorder.png",
+                            "name": "Border"
+                        }
+                    ]
+                }
+            ],
+            "artSource": "https://cards.scryfall.io/art_crop/front/f/1/f1d7e8c9-0936-47eb-8996-309e7a7edcad.jpg?1767730161",
+            "artX": 0.07661691542288557,
+            "artY": 0.11300639658848614,
+            "artZoom": 2.7260000000000004,
+            "artRotate": "0",
+            "setSymbolSource": "http://localhost:4242/img/setSymbols/official/cmd-c.svg",
+            "setSymbolX": 0.8736318407960199,
+            "setSymbolY": 0.5707178393745558,
+            "setSymbolZoom": 0.177,
+            "watermarkSource": "http://localhost:4242/img/blank.png",
+            "watermarkX": 0.33880597014925373,
+            "watermarkY": 0.6609808102345416,
+            "watermarkZoom": 649,
+            "watermarkLeft": "#b79d58",
+            "watermarkRight": "none",
+            "watermarkOpacity": 0.4,
+            "version": "ubRegular",
+            "manaSymbols": [],
+            "infoYear": "2026",
+            "margins": true,
+            "bottomInfoTranslate": {
+                "x": 0,
+                "y": 0
+            },
+            "bottomInfoRotate": 0,
+            "bottomInfoZoom": 1,
+            "bottomInfoColor": "white",
+            "onload": null,
+            "hideBottomInfoBorder": false,
+            "showsFlavorBar": true,
+            "bottomInfo": {
+                "midLeft": {
+                    "text": "{elemidinfo-set} • {elemidinfo-language}  {savex}{fontbelerenbsc}{fontsize3}{upinline1}￮{savex2}{elemidinfo-artist}",
+                    "x": 0.0647,
+                    "y": 0.9548,
+                    "width": 0.8707,
+                    "height": 0.0171,
+                    "oneLine": true,
+                    "font": "gothammedium",
+                    "size": 0.0171,
+                    "color": "white",
+                    "outlineWidth": 0.003,
+                    "name": "midLeft"
+                },
+                "topLeft": {
+                    "text": "{elemidinfo-number}",
+                    "x": 0.0647,
+                    "y": 0.9377,
+                    "width": 0.8707,
+                    "height": 0.0171,
+                    "oneLine": true,
+                    "font": "gothammedium",
+                    "size": 0.0171,
+                    "color": "white",
+                    "outlineWidth": 0.003,
+                    "name": "topLeft"
+                },
+                "note": {
+                    "text": "{loadx2}{elemidinfo-note}",
+                    "x": 0.0647,
+                    "y": 0.9377,
+                    "width": 0.8707,
+                    "height": 0.0171,
+                    "oneLine": true,
+                    "font": "gothammedium",
+                    "size": 0.0171,
+                    "color": "white",
+                    "outlineWidth": 0.003,
+                    "name": "note"
+                },
+                "rarity": {
+                    "text": "{loadx}{elemidinfo-rarity}",
+                    "x": 0.0647,
+                    "y": 0.9377,
+                    "width": 0.8707,
+                    "height": 0.0171,
+                    "oneLine": true,
+                    "font": "gothammedium",
+                    "size": 0.0171,
+                    "color": "white",
+                    "outlineWidth": 0.003,
+                    "name": "rarity"
+                },
+                "bottomLeft": {
+                    "text": "NOT FOR SALE",
+                    "x": 0.0647,
+                    "y": 0.9719,
+                    "width": 0.8707,
+                    "height": 0.0143,
+                    "oneLine": true,
+                    "font": "gothammedium",
+                    "size": 0.0143,
+                    "color": "white",
+                    "outlineWidth": 0.003
+                },
+                "wizards": {
+                    "name": "wizards",
+                    "text": "{ptshift0,0.0172}™ & © {elemidinfo-year} Wizards of the Coast",
+                    "x": 0.0647,
+                    "y": 0.9377,
+                    "width": 0.8707,
+                    "height": 0.0167,
+                    "oneLine": true,
+                    "font": "mplantin",
+                    "size": 0.0162,
+                    "color": "white",
+                    "align": "right",
+                    "outlineWidth": 0.003
+                },
+                "bottomRight": {
+                    "text": "{ptshift0,0.0172}CardConjurer.com",
+                    "x": 0.0647,
+                    "y": 0.9548,
+                    "width": 0.8707,
+                    "height": 0.0143,
+                    "oneLine": true,
+                    "font": "mplantin",
+                    "size": 0.0143,
+                    "color": "white",
+                    "align": "right",
+                    "outlineWidth": 0.003
+                }
+            },
+            "artBounds": {
+                "x": 0.0767,
+                "y": 0.1129,
+                "width": 0.8476,
+                "height": 0.4429
+            },
+            "setSymbolBounds": {
+                "x": 0.9263681592039801,
+                "y": 0.591,
+                "width": 0.12,
+                "height": 0.041,
+                "vertical": "center",
+                "horizontal": "right"
+            },
+            "watermarkBounds": {
+                "x": 0.5,
+                "y": 0.7762,
+                "width": 0.75,
+                "height": 0.2305
+            },
+            "text": {
+                "mana": {
+                    "name": "Mana Cost",
+                    "text": "3 U",
+                    "y": 0.06254442075337598,
+                    "width": 0.9273631840796019,
+                    "height": 0.03380952380952381,
+                    "oneLine": true,
+                    "size": 0.04304029304029304,
+                    "align": "right",
+                    "shadowX": -0.001,
+                    "shadowY": 0.0029,
+                    "manaCost": true,
+                    "manaSpacing": 0,
+                    "fontSize": 0
+                },
+                "title": {
+                    "name": "Title",
+                    "text": "Distant Melody",
+                    "x": 0.08358208955223881,
+                    "y": 0.05152807391613362,
+                    "width": 0.8292,
+                    "height": 0.0543,
+                    "oneLine": true,
+                    "font": "belerenb",
+                    "size": 0.0381,
+                    "fontSize": 0
+                },
+                "type": {
+                    "name": "Type",
+                    "text": "Sorcery",
+                    "x": 0.08358208955223881,
+                    "y": 0.5643212508884151,
+                    "width": 0.8292,
+                    "height": 0.0543,
+                    "oneLine": true,
+                    "font": "belerenb",
+                    "size": 0.0324,
+                    "fontSize": 0
+                },
+                "rules": {
+                    "name": "Rules Text",
+                    "text": "Choose a creature type. Draw a card for each permanent you control of that type.{flavor}The wiles of Sirène are not confined to her coliseum.",
+                    "x": 0.086,
+                    "y": 0.6325515280739161,
+                    "width": 0.828,
+                    "height": 0.28073916133617627,
+                    "size": 0.0362,
+                    "fontSize": 0
+                },
+                "pt": {
+                    "name": "Power/Toughness",
+                    "text": "",
+                    "x": 0.7928,
+                    "y": 0.902,
+                    "width": 0.1367,
+                    "height": 0.0372,
+                    "size": 0.0372,
+                    "font": "belerenbsc",
+                    "oneLine": true,
+                    "align": "center",
+                    "fontSize": 0
+                }
+            },
+            "infoNumber": "2026",
+            "infoRarity": "R",
+            "infoSet": "E3C",
+            "infoLanguage": "EN",
+            "infoArtist": "Warren Mahy",
             "infoNote": "Proxy, Not for Sale",
             "serialNumber": "",
             "serialTotal": "",
@@ -56413,6 +57013,306 @@
                 "x": 0.1,
                 "width": 0.3947
             }
+        }
+    },
+    {
+        "key": "Firdoch Core",
+        "data": {
+            "width": 2010,
+            "height": 2814,
+            "marginX": 0.044,
+            "marginY": 0.02857142857142857,
+            "frames": [
+                {
+                    "name": "Black Extension",
+                    "src": "/img/frames/margins/blackBorderExtension.png",
+                    "bounds": {
+                        "x": -0.044,
+                        "y": -0.02857142857142857,
+                        "width": 1.088,
+                        "height": 1.0571428571428572
+                    },
+                    "masks": []
+                },
+                {
+                    "name": "Artifact Frame",
+                    "src": "/img/frames/m15/regular/m15FrameA.png",
+                    "masks": [
+                        {
+                            "src": "/img/frames/m15/regular/m15MaskPinline.png",
+                            "name": "Pinline"
+                        }
+                    ]
+                },
+                {
+                    "name": "Artifact Frame",
+                    "src": "/img/frames/m15/regular/m15FrameA.png",
+                    "masks": [
+                        {
+                            "src": "/img/frames/m15/regular/m15MaskType.png",
+                            "name": "Type"
+                        }
+                    ]
+                },
+                {
+                    "name": "Artifact Frame",
+                    "src": "/img/frames/m15/regular/m15FrameA.png",
+                    "masks": [
+                        {
+                            "src": "/img/frames/m15/regular/m15MaskTitle.png",
+                            "name": "Title"
+                        }
+                    ]
+                },
+                {
+                    "name": "Artifact Frame",
+                    "src": "/img/frames/m15/regular/m15FrameA.png",
+                    "masks": [
+                        {
+                            "src": "/img/frames/m15/regular/m15MaskRules.png",
+                            "name": "Rules"
+                        }
+                    ]
+                },
+                {
+                    "name": "Artifact Frame",
+                    "src": "/img/frames/m15/regular/m15FrameA.png",
+                    "masks": [
+                        {
+                            "src": "/img/frames/m15/regular/m15MaskFrame.png",
+                            "name": "Frame"
+                        }
+                    ]
+                },
+                {
+                    "name": "Artifact Frame",
+                    "src": "/img/frames/m15/regular/m15FrameA.png",
+                    "masks": [
+                        {
+                            "src": "/img/frames/m15/regular/m15MaskBorder.png",
+                            "name": "Border"
+                        }
+                    ]
+                }
+            ],
+            "artSource": "https://cards.scryfall.io/art_crop/front/8/e/8e45cd37-bf97-4742-978d-96f96ed653cd.jpg?1767872077",
+            "artX": 0.07661691542288557,
+            "artY": 0.11300639658848614,
+            "artZoom": 2.7260000000000004,
+            "artRotate": "0",
+            "setSymbolSource": "http://localhost:4242/img/setSymbols/official/cmd-c.svg",
+            "setSymbolX": 0.8736318407960199,
+            "setSymbolY": 0.5707178393745558,
+            "setSymbolZoom": 0.177,
+            "watermarkSource": "http://localhost:4242/img/blank.png",
+            "watermarkX": 0.33880597014925373,
+            "watermarkY": 0.6609808102345416,
+            "watermarkZoom": 649,
+            "watermarkLeft": "#b79d58",
+            "watermarkRight": "none",
+            "watermarkOpacity": 0.4,
+            "version": "ubRegular",
+            "manaSymbols": [],
+            "infoYear": "2026",
+            "margins": true,
+            "bottomInfoTranslate": {
+                "x": 0,
+                "y": 0
+            },
+            "bottomInfoRotate": 0,
+            "bottomInfoZoom": 1,
+            "bottomInfoColor": "white",
+            "onload": null,
+            "hideBottomInfoBorder": false,
+            "showsFlavorBar": true,
+            "bottomInfo": {
+                "midLeft": {
+                    "text": "{elemidinfo-set} • {elemidinfo-language}  {savex}{fontbelerenbsc}{fontsize3}{upinline1}￮{savex2}{elemidinfo-artist}",
+                    "x": 0.0647,
+                    "y": 0.9548,
+                    "width": 0.8707,
+                    "height": 0.0171,
+                    "oneLine": true,
+                    "font": "gothammedium",
+                    "size": 0.0171,
+                    "color": "white",
+                    "outlineWidth": 0.003,
+                    "name": "midLeft"
+                },
+                "topLeft": {
+                    "text": "{elemidinfo-number}",
+                    "x": 0.0647,
+                    "y": 0.9377,
+                    "width": 0.8707,
+                    "height": 0.0171,
+                    "oneLine": true,
+                    "font": "gothammedium",
+                    "size": 0.0171,
+                    "color": "white",
+                    "outlineWidth": 0.003,
+                    "name": "topLeft"
+                },
+                "note": {
+                    "text": "{loadx2}{elemidinfo-note}",
+                    "x": 0.0647,
+                    "y": 0.9377,
+                    "width": 0.8707,
+                    "height": 0.0171,
+                    "oneLine": true,
+                    "font": "gothammedium",
+                    "size": 0.0171,
+                    "color": "white",
+                    "outlineWidth": 0.003,
+                    "name": "note"
+                },
+                "rarity": {
+                    "text": "{loadx}{elemidinfo-rarity}",
+                    "x": 0.0647,
+                    "y": 0.9377,
+                    "width": 0.8707,
+                    "height": 0.0171,
+                    "oneLine": true,
+                    "font": "gothammedium",
+                    "size": 0.0171,
+                    "color": "white",
+                    "outlineWidth": 0.003,
+                    "name": "rarity"
+                },
+                "bottomLeft": {
+                    "text": "NOT FOR SALE",
+                    "x": 0.0647,
+                    "y": 0.9719,
+                    "width": 0.8707,
+                    "height": 0.0143,
+                    "oneLine": true,
+                    "font": "gothammedium",
+                    "size": 0.0143,
+                    "color": "white",
+                    "outlineWidth": 0.003
+                },
+                "wizards": {
+                    "name": "wizards",
+                    "text": "{ptshift0,0.0172}™ & © {elemidinfo-year} Wizards of the Coast",
+                    "x": 0.0647,
+                    "y": 0.9377,
+                    "width": 0.8707,
+                    "height": 0.0167,
+                    "oneLine": true,
+                    "font": "mplantin",
+                    "size": 0.0162,
+                    "color": "white",
+                    "align": "right",
+                    "outlineWidth": 0.003
+                },
+                "bottomRight": {
+                    "text": "{ptshift0,0.0172}CardConjurer.com",
+                    "x": 0.0647,
+                    "y": 0.9548,
+                    "width": 0.8707,
+                    "height": 0.0143,
+                    "oneLine": true,
+                    "font": "mplantin",
+                    "size": 0.0143,
+                    "color": "white",
+                    "align": "right",
+                    "outlineWidth": 0.003
+                }
+            },
+            "artBounds": {
+                "x": 0.0767,
+                "y": 0.1129,
+                "width": 0.8476,
+                "height": 0.4429
+            },
+            "setSymbolBounds": {
+                "x": 0.9263681592039801,
+                "y": 0.591,
+                "width": 0.12,
+                "height": 0.041,
+                "vertical": "center",
+                "horizontal": "right"
+            },
+            "watermarkBounds": {
+                "x": 0.5,
+                "y": 0.7762,
+                "width": 0.75,
+                "height": 0.2305
+            },
+            "text": {
+                "mana": {
+                    "name": "Mana Cost",
+                    "text": "3",
+                    "y": 0.06254442075337598,
+                    "width": 0.9273631840796019,
+                    "height": 0.03380952380952381,
+                    "oneLine": true,
+                    "size": 0.04304029304029304,
+                    "align": "right",
+                    "shadowX": -0.001,
+                    "shadowY": 0.0029,
+                    "manaCost": true,
+                    "manaSpacing": 0,
+                    "fontSize": 0
+                },
+                "title": {
+                    "name": "Title",
+                    "text": "Firdoch Core",
+                    "x": 0.08358208955223881,
+                    "y": 0.05152807391613362,
+                    "width": 0.8292,
+                    "height": 0.0543,
+                    "oneLine": true,
+                    "font": "belerenb",
+                    "size": 0.0381,
+                    "fontSize": 0
+                },
+                "type": {
+                    "name": "Type",
+                    "text": "Kindred Artifact — Shapeshifter",
+                    "x": 0.08358208955223881,
+                    "y": 0.5643212508884151,
+                    "width": 0.8292,
+                    "height": 0.0543,
+                    "oneLine": true,
+                    "font": "belerenb",
+                    "size": 0.0324,
+                    "fontSize": 0
+                },
+                "rules": {
+                    "name": "Rules Text",
+                    "text": "Changeling (This card is every creature type.)\n{T}: Add one mana of any color.\n{4}: This artifact becomes a 4/4 artifact creature until end of turn.",
+                    "x": 0.086,
+                    "y": 0.6325515280739161,
+                    "width": 0.828,
+                    "height": 0.2875,
+                    "size": 0.0362,
+                    "fontSize": 0
+                },
+                "pt": {
+                    "name": "Power/Toughness",
+                    "text": "",
+                    "x": 0.7928,
+                    "y": 0.902,
+                    "width": 0.1367,
+                    "height": 0.0372,
+                    "size": 0.0372,
+                    "font": "belerenbsc",
+                    "oneLine": true,
+                    "align": "center",
+                    "fontSize": 0
+                }
+            },
+            "infoNumber": "2026",
+            "infoRarity": "R",
+            "infoSet": "E3C",
+            "infoLanguage": "EN",
+            "infoArtist": "Jason A. Engle",
+            "infoNote": "Proxy, Not for Sale",
+            "serialNumber": "",
+            "serialTotal": "",
+            "serialX": "",
+            "serialY": "",
+            "serialScale": ""
         }
     },
     {
@@ -90695,6 +91595,334 @@
         }
     },
     {
+        "key": "Maelstrom Pulse",
+        "data": {
+            "width": 2010,
+            "height": 2814,
+            "marginX": 0.044,
+            "marginY": 0.02857142857142857,
+            "frames": [
+                {
+                    "name": "Black Extension",
+                    "src": "/img/frames/margins/blackBorderExtension.png",
+                    "bounds": {
+                        "x": -0.044,
+                        "y": -0.02857142857142857,
+                        "width": 1.088,
+                        "height": 1.0571428571428572
+                    },
+                    "masks": []
+                },
+                {
+                    "name": "Green Frame",
+                    "src": "/img/frames/m15/regular/m15FrameG.png",
+                    "masks": [
+                        {
+                            "src": "/img/frames/m15/regular/m15MaskPinline.png",
+                            "name": "Pinline"
+                        },
+                        {
+                            "src": "/img/frames/maskRightHalf.png",
+                            "name": "Right Half"
+                        }
+                    ]
+                },
+                {
+                    "name": "Black Frame",
+                    "src": "/img/frames/m15/regular/m15FrameB.png",
+                    "masks": [
+                        {
+                            "src": "/img/frames/m15/regular/m15MaskPinline.png",
+                            "name": "Pinline"
+                        }
+                    ]
+                },
+                {
+                    "name": "Multicolored Frame",
+                    "src": "/img/frames/m15/regular/m15FrameM.png",
+                    "masks": [
+                        {
+                            "src": "/img/frames/m15/regular/m15MaskType.png",
+                            "name": "Type"
+                        }
+                    ]
+                },
+                {
+                    "name": "Multicolored Frame",
+                    "src": "/img/frames/m15/regular/m15FrameM.png",
+                    "masks": [
+                        {
+                            "src": "/img/frames/m15/regular/m15MaskTitle.png",
+                            "name": "Title"
+                        }
+                    ]
+                },
+                {
+                    "name": "Green Frame",
+                    "src": "/img/frames/m15/regular/m15FrameG.png",
+                    "masks": [
+                        {
+                            "src": "/img/frames/m15/regular/m15MaskRules.png",
+                            "name": "Rules"
+                        },
+                        {
+                            "src": "/img/frames/maskRightHalf.png",
+                            "name": "Right Half"
+                        }
+                    ]
+                },
+                {
+                    "name": "Black Frame",
+                    "src": "/img/frames/m15/regular/m15FrameB.png",
+                    "masks": [
+                        {
+                            "src": "/img/frames/m15/regular/m15MaskRules.png",
+                            "name": "Rules"
+                        }
+                    ]
+                },
+                {
+                    "name": "Multicolored Frame",
+                    "src": "/img/frames/m15/regular/m15FrameM.png",
+                    "masks": [
+                        {
+                            "src": "/img/frames/m15/regular/m15MaskFrame.png",
+                            "name": "Frame"
+                        }
+                    ]
+                },
+                {
+                    "name": "Multicolored Frame",
+                    "src": "/img/frames/m15/regular/m15FrameM.png",
+                    "masks": [
+                        {
+                            "src": "/img/frames/m15/regular/m15MaskBorder.png",
+                            "name": "Border"
+                        }
+                    ]
+                }
+            ],
+            "artSource": "https://cards.scryfall.io/art_crop/front/d/3/d351c901-103b-460f-9d01-6e4d4b25cac8.jpg?1561929932",
+            "artX": 0.07711442786069651,
+            "artY": 0.1122956645344705,
+            "artZoom": 2.766,
+            "artRotate": "0",
+            "setSymbolSource": "http://localhost:4242/img/setSymbols/official/cmd-r.svg",
+            "setSymbolX": 0.8736318407960199,
+            "setSymbolY": 0.5707178393745558,
+            "setSymbolZoom": 0.177,
+            "watermarkSource": "http://localhost:4242/img/blank.png",
+            "watermarkX": 0.33880597014925373,
+            "watermarkY": 0.6609808102345416,
+            "watermarkZoom": 649,
+            "watermarkLeft": "#b79d58",
+            "watermarkRight": "none",
+            "watermarkOpacity": 0.4,
+            "version": "ubRegular",
+            "manaSymbols": [],
+            "infoYear": "2026",
+            "margins": true,
+            "bottomInfoTranslate": {
+                "x": 0,
+                "y": 0
+            },
+            "bottomInfoRotate": 0,
+            "bottomInfoZoom": 1,
+            "bottomInfoColor": "white",
+            "onload": null,
+            "hideBottomInfoBorder": false,
+            "showsFlavorBar": true,
+            "bottomInfo": {
+                "midLeft": {
+                    "text": "{elemidinfo-set} • {elemidinfo-language}  {savex}{fontbelerenbsc}{fontsize3}{upinline1}￮{savex2}{elemidinfo-artist}",
+                    "x": 0.0647,
+                    "y": 0.9548,
+                    "width": 0.8707,
+                    "height": 0.0171,
+                    "oneLine": true,
+                    "font": "gothammedium",
+                    "size": 0.0171,
+                    "color": "white",
+                    "outlineWidth": 0.003,
+                    "name": "midLeft"
+                },
+                "topLeft": {
+                    "text": "{elemidinfo-number}",
+                    "x": 0.0647,
+                    "y": 0.9377,
+                    "width": 0.8707,
+                    "height": 0.0171,
+                    "oneLine": true,
+                    "font": "gothammedium",
+                    "size": 0.0171,
+                    "color": "white",
+                    "outlineWidth": 0.003,
+                    "name": "topLeft"
+                },
+                "note": {
+                    "text": "{loadx2}{elemidinfo-note}",
+                    "x": 0.0647,
+                    "y": 0.9377,
+                    "width": 0.8707,
+                    "height": 0.0171,
+                    "oneLine": true,
+                    "font": "gothammedium",
+                    "size": 0.0171,
+                    "color": "white",
+                    "outlineWidth": 0.003,
+                    "name": "note"
+                },
+                "rarity": {
+                    "text": "{loadx}{elemidinfo-rarity}",
+                    "x": 0.0647,
+                    "y": 0.9377,
+                    "width": 0.8707,
+                    "height": 0.0171,
+                    "oneLine": true,
+                    "font": "gothammedium",
+                    "size": 0.0171,
+                    "color": "white",
+                    "outlineWidth": 0.003,
+                    "name": "rarity"
+                },
+                "bottomLeft": {
+                    "text": "NOT FOR SALE",
+                    "x": 0.0647,
+                    "y": 0.9719,
+                    "width": 0.8707,
+                    "height": 0.0143,
+                    "oneLine": true,
+                    "font": "gothammedium",
+                    "size": 0.0143,
+                    "color": "white",
+                    "outlineWidth": 0.003
+                },
+                "wizards": {
+                    "name": "wizards",
+                    "text": "{ptshift0,0.0172}™ & © {elemidinfo-year} Wizards of the Coast",
+                    "x": 0.0647,
+                    "y": 0.9377,
+                    "width": 0.8707,
+                    "height": 0.0167,
+                    "oneLine": true,
+                    "font": "mplantin",
+                    "size": 0.0162,
+                    "color": "white",
+                    "align": "right",
+                    "outlineWidth": 0.003
+                },
+                "bottomRight": {
+                    "text": "{ptshift0,0.0172}CardConjurer.com",
+                    "x": 0.0647,
+                    "y": 0.9548,
+                    "width": 0.8707,
+                    "height": 0.0143,
+                    "oneLine": true,
+                    "font": "mplantin",
+                    "size": 0.0143,
+                    "color": "white",
+                    "align": "right",
+                    "outlineWidth": 0.003
+                }
+            },
+            "artBounds": {
+                "x": 0.0767,
+                "y": 0.1129,
+                "width": 0.8476,
+                "height": 0.4429
+            },
+            "setSymbolBounds": {
+                "x": 0.9263681592039801,
+                "y": 0.591,
+                "width": 0.12,
+                "height": 0.041,
+                "vertical": "center",
+                "horizontal": "right"
+            },
+            "watermarkBounds": {
+                "x": 0.5,
+                "y": 0.7762,
+                "width": 0.75,
+                "height": 0.2305
+            },
+            "text": {
+                "mana": {
+                    "name": "Mana Cost",
+                    "text": "1 B G",
+                    "y": 0.06254442075337598,
+                    "width": 0.9273631840796019,
+                    "height": 0.03380952380952381,
+                    "oneLine": true,
+                    "size": 0.04304029304029304,
+                    "align": "right",
+                    "shadowX": -0.001,
+                    "shadowY": 0.0029,
+                    "manaCost": true,
+                    "manaSpacing": 0,
+                    "fontSize": 0
+                },
+                "title": {
+                    "name": "Title",
+                    "text": "Maelstrom Pulse",
+                    "x": 0.08358208955223881,
+                    "y": 0.05152807391613362,
+                    "width": 0.8292,
+                    "height": 0.0543,
+                    "oneLine": true,
+                    "font": "belerenb",
+                    "size": 0.0381,
+                    "fontSize": 0
+                },
+                "type": {
+                    "name": "Type",
+                    "text": "Sorcery",
+                    "x": 0.08358208955223881,
+                    "y": 0.5643212508884151,
+                    "width": 0.8292,
+                    "height": 0.0543,
+                    "oneLine": true,
+                    "font": "belerenb",
+                    "size": 0.0324,
+                    "fontSize": 0
+                },
+                "rules": {
+                    "name": "Rules Text",
+                    "text": "Destroy target nonland permanent and all other permanents with the same name as that permanent.{flavor}A family dispute, turned into a cataclysmic event.",
+                    "x": 0.086,
+                    "y": 0.6325515280739161,
+                    "width": 0.8388059701492537,
+                    "height": 0.2874911158493248,
+                    "size": 0.0362,
+                    "fontSize": 0
+                },
+                "pt": {
+                    "name": "Power/Toughness",
+                    "text": "",
+                    "x": 0.7928,
+                    "y": 0.902,
+                    "width": 0.1367,
+                    "height": 0.0372,
+                    "size": 0.0372,
+                    "font": "belerenbsc",
+                    "oneLine": true,
+                    "align": "center",
+                    "fontSize": 0
+                }
+            },
+            "infoNumber": "2026",
+            "infoRarity": "R",
+            "infoSet": "E3C",
+            "infoLanguage": "EN",
+            "infoArtist": "John Avon",
+            "infoNote": "Proxy, Not for Sale",
+            "serialNumber": "",
+            "serialTotal": "",
+            "serialX": "",
+            "serialY": "",
+            "serialScale": ""
+        }
+    },
+    {
         "key": "Mana Drain",
         "data": {
             "width": 2010,
@@ -95535,7 +96763,7 @@
         }
     },
     {
-        "key": "Mirage Mirror",
+        "key": "Mirror Entity",
         "data": {
             "width": 2010,
             "height": 2814,
@@ -95554,8 +96782,19 @@
                     "masks": []
                 },
                 {
-                    "name": "Artifact Frame",
-                    "src": "/img/frames/m15/regular/m15FrameA.png",
+                    "name": "White Power/Toughness",
+                    "src": "/img/frames/m15/regular/m15PTW.png",
+                    "masks": [],
+                    "bounds": {
+                        "height": 0.0733,
+                        "width": 0.188,
+                        "x": 0.7573,
+                        "y": 0.8848
+                    }
+                },
+                {
+                    "name": "White Frame",
+                    "src": "/img/frames/m15/regular/m15FrameW.png",
                     "masks": [
                         {
                             "src": "/img/frames/m15/regular/m15MaskPinline.png",
@@ -95564,8 +96803,8 @@
                     ]
                 },
                 {
-                    "name": "Artifact Frame",
-                    "src": "/img/frames/m15/regular/m15FrameA.png",
+                    "name": "White Frame",
+                    "src": "/img/frames/m15/regular/m15FrameW.png",
                     "masks": [
                         {
                             "src": "/img/frames/m15/regular/m15MaskType.png",
@@ -95574,8 +96813,8 @@
                     ]
                 },
                 {
-                    "name": "Artifact Frame",
-                    "src": "/img/frames/m15/regular/m15FrameA.png",
+                    "name": "White Frame",
+                    "src": "/img/frames/m15/regular/m15FrameW.png",
                     "masks": [
                         {
                             "src": "/img/frames/m15/regular/m15MaskTitle.png",
@@ -95584,8 +96823,8 @@
                     ]
                 },
                 {
-                    "name": "Artifact Frame",
-                    "src": "/img/frames/m15/regular/m15FrameA.png",
+                    "name": "White Frame",
+                    "src": "/img/frames/m15/regular/m15FrameW.png",
                     "masks": [
                         {
                             "src": "/img/frames/m15/regular/m15MaskRules.png",
@@ -95594,8 +96833,8 @@
                     ]
                 },
                 {
-                    "name": "Artifact Frame",
-                    "src": "/img/frames/m15/regular/m15FrameA.png",
+                    "name": "White Frame",
+                    "src": "/img/frames/m15/regular/m15FrameW.png",
                     "masks": [
                         {
                             "src": "/img/frames/m15/regular/m15MaskFrame.png",
@@ -95604,8 +96843,8 @@
                     ]
                 },
                 {
-                    "name": "Artifact Frame",
-                    "src": "/img/frames/m15/regular/m15FrameA.png",
+                    "name": "White Frame",
+                    "src": "/img/frames/m15/regular/m15FrameW.png",
                     "masks": [
                         {
                             "src": "/img/frames/m15/regular/m15MaskBorder.png",
@@ -95614,13 +96853,13 @@
                     ]
                 }
             ],
-            "artSource": "https://cards.scryfall.io/art_crop/front/2/9/29148d7e-b398-4e19-a29e-d9a660ad5016.jpg?1562793459",
-            "artX": 0.07661691542288557,
+            "artSource": "https://cards.scryfall.io/art_crop/front/2/2/220d3897-c4b9-4920-8dd8-209776ab038a.jpg?1771846004",
+            "artX": 0.07611940298507462,
             "artY": 0.11300639658848614,
             "artZoom": 2.7260000000000004,
             "artRotate": "0",
             "setSymbolSource": "http://localhost:4242/img/setSymbols/official/cmd-r.svg",
-            "setSymbolX": 0.8736318407960199,
+            "setSymbolX": 0.8686567164179104,
             "setSymbolY": 0.5707178393745558,
             "setSymbolZoom": 0.177,
             "watermarkSource": "http://localhost:4242/img/blank.png",
@@ -95630,7 +96869,7 @@
             "watermarkLeft": "#b79d58",
             "watermarkRight": "none",
             "watermarkOpacity": 0.4,
-            "version": "ubRegular",
+            "version": "m15Regular",
             "manaSymbols": [],
             "infoYear": "2025",
             "margins": true,
@@ -95744,7 +96983,7 @@
                 "height": 0.4429
             },
             "setSymbolBounds": {
-                "x": 0.9263681592039801,
+                "x": 0.9213,
                 "y": 0.591,
                 "width": 0.12,
                 "height": 0.041,
@@ -95760,12 +96999,12 @@
             "text": {
                 "mana": {
                     "name": "Mana Cost",
-                    "text": "{3}",
-                    "y": 0.06254442075337598,
-                    "width": 0.9273631840796019,
+                    "text": "2 W",
+                    "y": 0.0613,
+                    "width": 0.9292,
                     "height": 0.03380952380952381,
                     "oneLine": true,
-                    "size": 0.04304029304029304,
+                    "size": 0.043345543345543344,
                     "align": "right",
                     "shadowX": -0.001,
                     "shadowY": 0.0029,
@@ -95775,9 +97014,9 @@
                 },
                 "title": {
                     "name": "Title",
-                    "text": "Mirage Mirror",
-                    "x": 0.08358208955223881,
-                    "y": 0.05152807391613362,
+                    "text": "Mirror Entity",
+                    "x": 0.0854,
+                    "y": 0.0522,
                     "width": 0.8292,
                     "height": 0.0543,
                     "oneLine": true,
@@ -95787,9 +97026,9 @@
                 },
                 "type": {
                     "name": "Type",
-                    "text": "Artifact",
-                    "x": 0.08358208955223881,
-                    "y": 0.5643212508884151,
+                    "text": "Creature — Shapeshifter",
+                    "x": 0.0854,
+                    "y": 0.5664,
                     "width": 0.8292,
                     "height": 0.0543,
                     "oneLine": true,
@@ -95799,17 +97038,17 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "{2}: This artifact becomes a copy of target artifact, creature, enchantment, or land until end of turn.{flavor}“Art can be a Window and art can be a Mirror. And great art. Great art is both. Son, you’ll never be a true artist if there’s always a mask between you and the viewer, especially when the viewer is you...”",
+                    "text": "Changeling (This card is every creature type.)\n{X}: Until end of turn, creatures you control have base power and toughness X/X and gain all creature types.{flavor}“Art can be a Window and art can be a Mirror. And great art. Great art is both. Son, you’ll never be a true artist if there’s always a mask between you and the viewer, especially when the viewer is you...”",
                     "x": 0.086,
-                    "y": 0.6325515280739161,
-                    "width": 0.828,
-                    "height": 0.2875,
+                    "y": 0.6303,
+                    "width": 0.8169154228855722,
+                    "height": 0.2874911158493248,
                     "size": 0.0362,
                     "fontSize": 0
                 },
                 "pt": {
                     "name": "Power/Toughness",
-                    "text": "",
+                    "text": "1/1",
                     "x": 0.7928,
                     "y": 0.902,
                     "width": 0.1367,
@@ -95825,7 +97064,7 @@
             "infoRarity": "R",
             "infoSet": "E3C",
             "infoLanguage": "EN",
-            "infoArtist": "Craig J Spearing",
+            "infoArtist": "Thomas Toye",
             "infoNote": "Proxy, Not for Sale",
             "serialNumber": "",
             "serialTotal": "",
@@ -111899,6 +113138,317 @@
         }
     },
     {
+        "key": "Realmwalker",
+        "data": {
+            "width": 2010,
+            "height": 2814,
+            "marginX": 0.044,
+            "marginY": 0.02857142857142857,
+            "frames": [
+                {
+                    "name": "Black Extension",
+                    "src": "/img/frames/margins/blackBorderExtension.png",
+                    "bounds": {
+                        "x": -0.044,
+                        "y": -0.02857142857142857,
+                        "width": 1.088,
+                        "height": 1.0571428571428572
+                    },
+                    "masks": []
+                },
+                {
+                    "name": "Green Power/Toughness",
+                    "src": "/img/frames/m15/regular/m15PTG.png",
+                    "masks": [],
+                    "bounds": {
+                        "height": 0.0733,
+                        "width": 0.188,
+                        "x": 0.7573,
+                        "y": 0.8848
+                    }
+                },
+                {
+                    "name": "Green Frame",
+                    "src": "/img/frames/m15/regular/m15FrameG.png",
+                    "masks": [
+                        {
+                            "src": "/img/frames/m15/regular/m15MaskPinline.png",
+                            "name": "Pinline"
+                        }
+                    ]
+                },
+                {
+                    "name": "Green Frame",
+                    "src": "/img/frames/m15/regular/m15FrameG.png",
+                    "masks": [
+                        {
+                            "src": "/img/frames/m15/regular/m15MaskType.png",
+                            "name": "Type"
+                        }
+                    ]
+                },
+                {
+                    "name": "Green Frame",
+                    "src": "/img/frames/m15/regular/m15FrameG.png",
+                    "masks": [
+                        {
+                            "src": "/img/frames/m15/regular/m15MaskTitle.png",
+                            "name": "Title"
+                        }
+                    ]
+                },
+                {
+                    "name": "Green Frame",
+                    "src": "/img/frames/m15/regular/m15FrameG.png",
+                    "masks": [
+                        {
+                            "src": "/img/frames/m15/regular/m15MaskRules.png",
+                            "name": "Rules"
+                        }
+                    ]
+                },
+                {
+                    "name": "Green Frame",
+                    "src": "/img/frames/m15/regular/m15FrameG.png",
+                    "masks": [
+                        {
+                            "src": "/img/frames/m15/regular/m15MaskFrame.png",
+                            "name": "Frame"
+                        }
+                    ]
+                },
+                {
+                    "name": "Green Frame",
+                    "src": "/img/frames/m15/regular/m15FrameG.png",
+                    "masks": [
+                        {
+                            "src": "/img/frames/m15/regular/m15MaskBorder.png",
+                            "name": "Border"
+                        }
+                    ]
+                }
+            ],
+            "artSource": "https://cards.scryfall.io/art_crop/front/c/8/c8212667-7e18-42a5-9f36-4f8a6ad12f83.jpg?1631050788",
+            "artX": 0.07661691542288557,
+            "artY": 0.11300639658848614,
+            "artZoom": 2.7260000000000004,
+            "artRotate": "0",
+            "setSymbolSource": "http://localhost:4242/img/setSymbols/official/cmd-r.svg",
+            "setSymbolX": 0.8736318407960199,
+            "setSymbolY": 0.5707178393745558,
+            "setSymbolZoom": 0.177,
+            "watermarkSource": "http://localhost:4242/img/blank.png",
+            "watermarkX": 0.33880597014925373,
+            "watermarkY": 0.6609808102345416,
+            "watermarkZoom": 649,
+            "watermarkLeft": "#b79d58",
+            "watermarkRight": "none",
+            "watermarkOpacity": 0.4,
+            "version": "ubRegular",
+            "manaSymbols": [],
+            "infoYear": "2026",
+            "margins": true,
+            "bottomInfoTranslate": {
+                "x": 0,
+                "y": 0
+            },
+            "bottomInfoRotate": 0,
+            "bottomInfoZoom": 1,
+            "bottomInfoColor": "white",
+            "onload": null,
+            "hideBottomInfoBorder": false,
+            "showsFlavorBar": true,
+            "bottomInfo": {
+                "midLeft": {
+                    "text": "{elemidinfo-set} • {elemidinfo-language}  {savex}{fontbelerenbsc}{fontsize3}{upinline1}￮{savex2}{elemidinfo-artist}",
+                    "x": 0.0647,
+                    "y": 0.9548,
+                    "width": 0.8707,
+                    "height": 0.0171,
+                    "oneLine": true,
+                    "font": "gothammedium",
+                    "size": 0.0171,
+                    "color": "white",
+                    "outlineWidth": 0.003,
+                    "name": "midLeft"
+                },
+                "topLeft": {
+                    "text": "{elemidinfo-number}",
+                    "x": 0.0647,
+                    "y": 0.9377,
+                    "width": 0.8707,
+                    "height": 0.0171,
+                    "oneLine": true,
+                    "font": "gothammedium",
+                    "size": 0.0171,
+                    "color": "white",
+                    "outlineWidth": 0.003,
+                    "name": "topLeft"
+                },
+                "note": {
+                    "text": "{loadx2}{elemidinfo-note}",
+                    "x": 0.0647,
+                    "y": 0.9377,
+                    "width": 0.8707,
+                    "height": 0.0171,
+                    "oneLine": true,
+                    "font": "gothammedium",
+                    "size": 0.0171,
+                    "color": "white",
+                    "outlineWidth": 0.003,
+                    "name": "note"
+                },
+                "rarity": {
+                    "text": "{loadx}{elemidinfo-rarity}",
+                    "x": 0.0647,
+                    "y": 0.9377,
+                    "width": 0.8707,
+                    "height": 0.0171,
+                    "oneLine": true,
+                    "font": "gothammedium",
+                    "size": 0.0171,
+                    "color": "white",
+                    "outlineWidth": 0.003,
+                    "name": "rarity"
+                },
+                "bottomLeft": {
+                    "text": "NOT FOR SALE",
+                    "x": 0.0647,
+                    "y": 0.9719,
+                    "width": 0.8707,
+                    "height": 0.0143,
+                    "oneLine": true,
+                    "font": "gothammedium",
+                    "size": 0.0143,
+                    "color": "white",
+                    "outlineWidth": 0.003
+                },
+                "wizards": {
+                    "name": "wizards",
+                    "text": "{ptshift0,0.0172}™ & © {elemidinfo-year} Wizards of the Coast",
+                    "x": 0.0647,
+                    "y": 0.9377,
+                    "width": 0.8707,
+                    "height": 0.0167,
+                    "oneLine": true,
+                    "font": "mplantin",
+                    "size": 0.0162,
+                    "color": "white",
+                    "align": "right",
+                    "outlineWidth": 0.003
+                },
+                "bottomRight": {
+                    "text": "{ptshift0,0.0172}CardConjurer.com",
+                    "x": 0.0647,
+                    "y": 0.9548,
+                    "width": 0.8707,
+                    "height": 0.0143,
+                    "oneLine": true,
+                    "font": "mplantin",
+                    "size": 0.0143,
+                    "color": "white",
+                    "align": "right",
+                    "outlineWidth": 0.003
+                }
+            },
+            "artBounds": {
+                "x": 0.0767,
+                "y": 0.1129,
+                "width": 0.8476,
+                "height": 0.4429
+            },
+            "setSymbolBounds": {
+                "x": 0.9263681592039801,
+                "y": 0.591,
+                "width": 0.12,
+                "height": 0.041,
+                "vertical": "center",
+                "horizontal": "right"
+            },
+            "watermarkBounds": {
+                "x": 0.5,
+                "y": 0.7762,
+                "width": 0.75,
+                "height": 0.2305
+            },
+            "text": {
+                "mana": {
+                    "name": "Mana Cost",
+                    "text": "2 G",
+                    "y": 0.06254442075337598,
+                    "width": 0.9273631840796019,
+                    "height": 0.03380952380952381,
+                    "oneLine": true,
+                    "size": 0.04304029304029304,
+                    "align": "right",
+                    "shadowX": -0.001,
+                    "shadowY": 0.0029,
+                    "manaCost": true,
+                    "manaSpacing": 0,
+                    "fontSize": 0
+                },
+                "title": {
+                    "name": "Title",
+                    "text": "Realmwalker",
+                    "x": 0.08358208955223881,
+                    "y": 0.05152807391613362,
+                    "width": 0.8292,
+                    "height": 0.0543,
+                    "oneLine": true,
+                    "font": "belerenb",
+                    "size": 0.0381,
+                    "fontSize": 0
+                },
+                "type": {
+                    "name": "Type",
+                    "text": "Creature — Shapeshifter",
+                    "x": 0.08358208955223881,
+                    "y": 0.5643212508884151,
+                    "width": 0.8292,
+                    "height": 0.0543,
+                    "oneLine": true,
+                    "font": "belerenb",
+                    "size": 0.0324,
+                    "fontSize": 0
+                },
+                "rules": {
+                    "name": "Rules Text",
+                    "text": "Changeling (This card is every creature type.)\nAs this creature enters, choose a creature type.\nYou may look at the top card of your library any time.\nYou may cast creature spells of the chosen type from the top of your library.",
+                    "x": 0.086,
+                    "y": 0.6325515280739161,
+                    "width": 0.828,
+                    "height": 0.28073916133617627,
+                    "size": 0.0362,
+                    "fontSize": 0
+                },
+                "pt": {
+                    "name": "Power/Toughness",
+                    "text": "2/3",
+                    "x": 0.7928,
+                    "y": 0.902,
+                    "width": 0.1367,
+                    "height": 0.0372,
+                    "size": 0.0372,
+                    "font": "belerenbsc",
+                    "oneLine": true,
+                    "align": "center",
+                    "fontSize": 0
+                }
+            },
+            "infoNumber": "2026",
+            "infoRarity": "R",
+            "infoSet": "E3C",
+            "infoLanguage": "EN",
+            "infoArtist": "Zack Stella",
+            "infoNote": "Proxy, Not for Sale",
+            "serialNumber": "",
+            "serialTotal": "",
+            "serialX": "",
+            "serialY": "",
+            "serialScale": ""
+        }
+    },
+    {
         "key": "Reaper Cultist",
         "data": {
             "width": 2010,
@@ -126883,6 +128433,28 @@
                     "masks": []
                 },
                 {
+                    "name": "Artifact Legend Crown",
+                    "src": "/img/frames/m15/crowns/m15CrownA.png",
+                    "masks": [],
+                    "bounds": {
+                        "height": 0.1667,
+                        "width": 0.9454,
+                        "x": 0.0274,
+                        "y": 0.0191
+                    }
+                },
+                {
+                    "name": "Legend Crown Border Cover",
+                    "src": "/img/black.png",
+                    "masks": [],
+                    "bounds": {
+                        "height": 0.0177,
+                        "width": 0.9214,
+                        "x": 0.0394,
+                        "y": 0.0277
+                    }
+                },
+                {
                     "name": "Artifact Power/Toughness",
                     "src": "/img/frames/m15/regular/m15PTA.png",
                     "masks": [],
@@ -141092,6 +142664,306 @@
             "infoSet": "E33",
             "infoLanguage": "EN",
             "infoArtist": "Sandfall Interactive",
+            "infoNote": "Proxy, Not for Sale",
+            "serialNumber": "",
+            "serialTotal": "",
+            "serialX": "",
+            "serialY": "",
+            "serialScale": ""
+        }
+    },
+    {
+        "key": "Unclaimed Territory",
+        "data": {
+            "width": 2010,
+            "height": 2814,
+            "marginX": 0.044,
+            "marginY": 0.02857142857142857,
+            "frames": [
+                {
+                    "name": "Black Extension",
+                    "src": "/img/frames/margins/blackBorderExtension.png",
+                    "bounds": {
+                        "x": -0.044,
+                        "y": -0.02857142857142857,
+                        "width": 1.088,
+                        "height": 1.0571428571428572
+                    },
+                    "masks": []
+                },
+                {
+                    "name": "Multicolored Land Frame",
+                    "src": "/img/frames/m15/regular/lm.png",
+                    "masks": [
+                        {
+                            "src": "/img/frames/m15/regular/m15MaskPinline.png",
+                            "name": "Pinline"
+                        }
+                    ]
+                },
+                {
+                    "name": "Multicolored Frame",
+                    "src": "/img/frames/m15/regular/m15FrameM.png",
+                    "masks": [
+                        {
+                            "src": "/img/frames/m15/regular/m15MaskType.png",
+                            "name": "Type"
+                        }
+                    ]
+                },
+                {
+                    "name": "Multicolored Frame",
+                    "src": "/img/frames/m15/regular/m15FrameM.png",
+                    "masks": [
+                        {
+                            "src": "/img/frames/m15/regular/m15MaskTitle.png",
+                            "name": "Title"
+                        }
+                    ]
+                },
+                {
+                    "name": "Multicolored Land Frame",
+                    "src": "/img/frames/m15/regular/lm.png",
+                    "masks": [
+                        {
+                            "src": "/img/frames/m15/regular/m15MaskRules.png",
+                            "name": "Rules"
+                        }
+                    ]
+                },
+                {
+                    "name": "Land Frame",
+                    "src": "/img/frames/m15/regular/m15FrameL.png",
+                    "masks": [
+                        {
+                            "src": "/img/frames/m15/regular/m15MaskFrame.png",
+                            "name": "Frame"
+                        }
+                    ]
+                },
+                {
+                    "name": "Land Frame",
+                    "src": "/img/frames/m15/regular/m15FrameL.png",
+                    "masks": [
+                        {
+                            "src": "/img/frames/m15/regular/m15MaskBorder.png",
+                            "name": "Border"
+                        }
+                    ]
+                }
+            ],
+            "artSource": "https://cards.scryfall.io/art_crop/front/8/0/80c6fc30-04bf-40aa-9db1-28da2c7b2249.jpg?1562918868",
+            "artX": 0.07661691542288557,
+            "artY": 0.11300639658848614,
+            "artZoom": 2.7260000000000004,
+            "artRotate": "0",
+            "setSymbolSource": "http://localhost:4242/img/setSymbols/official/cmd-u.svg",
+            "setSymbolX": 0.8736318407960199,
+            "setSymbolY": 0.5707178393745558,
+            "setSymbolZoom": 0.177,
+            "watermarkSource": "http://localhost:4242/img/blank.png",
+            "watermarkX": 0.33880597014925373,
+            "watermarkY": 0.6609808102345416,
+            "watermarkZoom": 649,
+            "watermarkLeft": "#b79d58",
+            "watermarkRight": "none",
+            "watermarkOpacity": 0.4,
+            "version": "ubRegular",
+            "manaSymbols": [],
+            "infoYear": "2026",
+            "margins": true,
+            "bottomInfoTranslate": {
+                "x": 0,
+                "y": 0
+            },
+            "bottomInfoRotate": 0,
+            "bottomInfoZoom": 1,
+            "bottomInfoColor": "white",
+            "onload": null,
+            "hideBottomInfoBorder": false,
+            "showsFlavorBar": true,
+            "bottomInfo": {
+                "midLeft": {
+                    "text": "{elemidinfo-set} • {elemidinfo-language}  {savex}{fontbelerenbsc}{fontsize3}{upinline1}￮{savex2}{elemidinfo-artist}",
+                    "x": 0.0647,
+                    "y": 0.9548,
+                    "width": 0.8707,
+                    "height": 0.0171,
+                    "oneLine": true,
+                    "font": "gothammedium",
+                    "size": 0.0171,
+                    "color": "white",
+                    "outlineWidth": 0.003,
+                    "name": "midLeft"
+                },
+                "topLeft": {
+                    "text": "{elemidinfo-number}",
+                    "x": 0.0647,
+                    "y": 0.9377,
+                    "width": 0.8707,
+                    "height": 0.0171,
+                    "oneLine": true,
+                    "font": "gothammedium",
+                    "size": 0.0171,
+                    "color": "white",
+                    "outlineWidth": 0.003,
+                    "name": "topLeft"
+                },
+                "note": {
+                    "text": "{loadx2}{elemidinfo-note}",
+                    "x": 0.0647,
+                    "y": 0.9377,
+                    "width": 0.8707,
+                    "height": 0.0171,
+                    "oneLine": true,
+                    "font": "gothammedium",
+                    "size": 0.0171,
+                    "color": "white",
+                    "outlineWidth": 0.003,
+                    "name": "note"
+                },
+                "rarity": {
+                    "text": "{loadx}{elemidinfo-rarity}",
+                    "x": 0.0647,
+                    "y": 0.9377,
+                    "width": 0.8707,
+                    "height": 0.0171,
+                    "oneLine": true,
+                    "font": "gothammedium",
+                    "size": 0.0171,
+                    "color": "white",
+                    "outlineWidth": 0.003,
+                    "name": "rarity"
+                },
+                "bottomLeft": {
+                    "text": "NOT FOR SALE",
+                    "x": 0.0647,
+                    "y": 0.9719,
+                    "width": 0.8707,
+                    "height": 0.0143,
+                    "oneLine": true,
+                    "font": "gothammedium",
+                    "size": 0.0143,
+                    "color": "white",
+                    "outlineWidth": 0.003
+                },
+                "wizards": {
+                    "name": "wizards",
+                    "text": "{ptshift0,0.0172}™ & © {elemidinfo-year} Wizards of the Coast",
+                    "x": 0.0647,
+                    "y": 0.9377,
+                    "width": 0.8707,
+                    "height": 0.0167,
+                    "oneLine": true,
+                    "font": "mplantin",
+                    "size": 0.0162,
+                    "color": "white",
+                    "align": "right",
+                    "outlineWidth": 0.003
+                },
+                "bottomRight": {
+                    "text": "{ptshift0,0.0172}CardConjurer.com",
+                    "x": 0.0647,
+                    "y": 0.9548,
+                    "width": 0.8707,
+                    "height": 0.0143,
+                    "oneLine": true,
+                    "font": "mplantin",
+                    "size": 0.0143,
+                    "color": "white",
+                    "align": "right",
+                    "outlineWidth": 0.003
+                }
+            },
+            "artBounds": {
+                "x": 0.0767,
+                "y": 0.1129,
+                "width": 0.8476,
+                "height": 0.4429
+            },
+            "setSymbolBounds": {
+                "x": 0.9263681592039801,
+                "y": 0.591,
+                "width": 0.12,
+                "height": 0.041,
+                "vertical": "center",
+                "horizontal": "right"
+            },
+            "watermarkBounds": {
+                "x": 0.5,
+                "y": 0.7762,
+                "width": 0.75,
+                "height": 0.2305
+            },
+            "text": {
+                "mana": {
+                    "name": "Mana Cost",
+                    "text": "",
+                    "y": 0.06254442075337598,
+                    "width": 0.9273631840796019,
+                    "height": 0.03380952380952381,
+                    "oneLine": true,
+                    "size": 0.04304029304029304,
+                    "align": "right",
+                    "shadowX": -0.001,
+                    "shadowY": 0.0029,
+                    "manaCost": true,
+                    "manaSpacing": 0,
+                    "fontSize": 0
+                },
+                "title": {
+                    "name": "Title",
+                    "text": "Unclaimed Territory",
+                    "x": 0.08358208955223881,
+                    "y": 0.05152807391613362,
+                    "width": 0.8292,
+                    "height": 0.0543,
+                    "oneLine": true,
+                    "font": "belerenb",
+                    "size": 0.0381,
+                    "fontSize": 0
+                },
+                "type": {
+                    "name": "Type",
+                    "text": "Land",
+                    "x": 0.08358208955223881,
+                    "y": 0.5643212508884151,
+                    "width": 0.8292,
+                    "height": 0.0543,
+                    "oneLine": true,
+                    "font": "belerenb",
+                    "size": 0.0324,
+                    "fontSize": 0
+                },
+                "rules": {
+                    "name": "Rules Text",
+                    "text": "As this land enters, choose a creature type.\n{T}: Add {C}.\n{T}: Add one mana of any color. Spend this mana only to cast a creature spell of the chosen type.",
+                    "x": 0.086,
+                    "y": 0.6325515280739161,
+                    "width": 0.828,
+                    "height": 0.28073916133617627,
+                    "size": 0.0362,
+                    "fontSize": 0
+                },
+                "pt": {
+                    "name": "Power/Toughness",
+                    "text": "",
+                    "x": 0.7928,
+                    "y": 0.902,
+                    "width": 0.1367,
+                    "height": 0.0372,
+                    "size": 0.0372,
+                    "font": "belerenbsc",
+                    "oneLine": true,
+                    "align": "center",
+                    "fontSize": 0
+                }
+            },
+            "infoNumber": "2026",
+            "infoRarity": "R",
+            "infoSet": "E3C",
+            "infoLanguage": "EN",
+            "infoArtist": "Dimitar Marinski",
             "infoNote": "Proxy, Not for Sale",
             "serialNumber": "",
             "serialTotal": "",
