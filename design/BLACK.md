@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 2/3/2026 2:04:43 pm
+> Last generated: 4/3/2026 2:23:32 pm
 
 ## Axon Offering
 
@@ -122,15 +122,6 @@ Search your library for a Nevron or Gradient card, reveal it, put it into your h
 ### Rulings
 
  - Can tutor for non-creature Nevrons (there are some permanent cards in this set with that sub-type)
-
-## Damn
-
-> This card is a reprint
-[Scryfall](https://scryfall.com/search?q=Damn)
-
-### Notes
-
- - Obligatory Commander spot removal / board wipe.
 
 ## Depression
 
@@ -262,24 +253,6 @@ Whenever two or more creatures of the chosen type attacks, target opponent loses
  - In the game, inside Verso's Treehouse in Verso's Drafts, there are various artpieces depicting Verso interacting with various family members. One of them is him bonding with his father, Renoir.
  - Mapped to an opponent syphon trigger when two or more creatures of the same type (same family) attack.
  - 16/01/2026: Added card draw to the trigger.
-
-## Feed the Swarm
-
-> This card is a reprint
-[Scryfall](https://scryfall.com/search?q=Feed%20the%20Swarm)
-
-### Notes
-
- - Obligatory Commander spot removal.
-
-## Final Parting
-
-> This card is a reprint
-[Scryfall](https://scryfall.com/search?q=Final%20Parting)
-
-### Notes
-
- - This is a quote-driven commander reprint. A quote from the game, looking for a suitable on-theme card to attach to.
 
 ## Grief
 

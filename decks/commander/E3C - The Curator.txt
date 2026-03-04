@@ -38,7 +38,7 @@
 1 Échassier|E33
 1 Évêque|E33
 // Sweepers
-1 Farewell|E3C
+1 A Life to Love|E3C
 1 Gommage|E33
 1 The Fracture|E33
 1 Austere Command|E3C

@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 2/3/2026 2:28:47 pm
+> Last generated: 4/3/2026 2:23:32 pm
 
 ## A Storm is Coming
 
@@ -79,15 +79,6 @@ Create a Lumina token. (It's an artifact with "{T}, Sacrifice this artifact: Scr
  - In the game, this is one of Lune's skills.
  - Obviously a mountain/rock based attack so gone with Mine Collapse but with Expeditioner alignment and relaxed timing restrictions for the alt cost.
  - 16/01/2026: Added Lumina token bonus.
-
-## Deflecting Swat
-
-> This card is a reprint
-[Scryfall](https://scryfall.com/search?q=Deflecting%20Swat)
-
-### Notes
-
- - Commander staple
 
 ## Demand Answers
 

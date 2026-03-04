@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 2/3/2026 2:28:47 pm
+> Last generated: 4/3/2026 2:23:32 pm
 
 ## A Life to Love (Farewell)
 
@@ -215,6 +215,15 @@ When this creature dies, target opponent creates a Lumina token. (It's an artifa
  - 13/10/2025: Removed Devoid.
  - 21/01/2026: Increased shield counter activation cost from 1W to 3W
  - 3/02/2026: Added Horror sub-type.
+
+## Crib Swap
+
+> This card is a reprint
+[Scryfall](https://scryfall.com/search?q=Crib%20Swap)
+
+### Notes
+
+ - Relevant tribal spot removal
 
 ## Danseuse Teacher
 
@@ -447,6 +456,15 @@ He eagerly absorbs the knowledge given to him, for he knows when his time comes,
  - 21/01/2026: Color-shifted from white to white/blue hybrid.
  - 26/01/2026: Changed clue trigger from non-Expeditioner to non-Human as investigating when a Human (that's not an Expeditioner) enters is non-sensical from a flavor perspective.
  - 3/03/2026: Color-shifted from white/blue hybrid back to white.
+
+## Mirror Entity
+
+> This card is a reprint
+[Scryfall](https://scryfall.com/search?q=Mirror%20Entity)
+
+### Notes
+
+ - Useful changeling pseudo-lord
 
 ## Path to Exile
 

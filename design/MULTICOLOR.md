@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 4/3/2026 12:30:12 pm
+> Last generated: 4/3/2026 2:23:32 pm
 
 ## Aberration
 
@@ -1300,15 +1300,6 @@ When this creature dies, target opponent creates a Lumina token. (It's an artifa
  - In the game, Greatsword Cultists are found in the Stone Wave Cliffs
  - Main gimmick being captured is shielding herself at the expense of great self-inflicted suffering.
 
-## Growth Spiral
-
-> This card is a reprint
-[Scryfall](https://scryfall.com/search?q=Growth%20Spiral)
-
-### Notes
-
- - Obligatory commander ramp.
-
 ## Gustave, Lumière Engineer
 
 ```
@@ -1564,6 +1555,15 @@ Human and Gradient spells you cast cost {1} less to cast.
  - 3/11/2025: Abilities changed due to CardConjurer constraints. Removed single human reanimation ability. The 2 expeditioner generation ability moved to +1 loyalty. Cost discount expanded to cover Gradient spells too.
  - Hybrid mana pip is used where the color identity pip is because this particular planeswalker frame does not support color identity pips for some reason.
  - 17/11/2025: Remove hybrid mana pip and replaced with color identity pip as I figured out how to place it in CardConjurer
+
+## Maelstrom Pulse
+
+> This card is a reprint
+[Scryfall](https://scryfall.com/search?q=Maelstrom%20Pulse)
+
+### Notes
+
+ - Useful spot removal in commander
 
 ## Manor Entrance // Manor Hidden Room
 
@@ -1931,15 +1931,6 @@ Counterattack — When this creature is dealt combat damage, it deals that amoun
 
  - Multicolor spells will trigger the fire/ice counter addition if red or blue is one of the colors involved.
  - If targeted by a multicolor spell that is both blue and red, both fire and ice counter abilities will trigger and you choose the order to stack them.
-
-## Primal Empathy
-
-> This card is a reprint
-[Scryfall](https://scryfall.com/search?q=Primal%20Empathy)
-
-### Notes
-
- - Another case of a quote from the game looking for a suitable reprint to attach itself to.
 
 ## Putrefy
 

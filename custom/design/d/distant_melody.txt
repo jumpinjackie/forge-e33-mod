@@ -1,0 +1,21 @@
+[Name]
+Distant Melody
+[ManaCost]
+3
+U
+[IsReprint]
+true
+[IsCommander]
+true
+[Rarity]
+C
+[Types]
+Sorcery
+[Oracle]
+Choose a creature type. Draw a card for each permanent you control of that type.
+[FlavorText]
+The wiles of Sirène are not confined to her coliseum.
+[Artist]
+Warren Mahy
+[DesignNotes]
+ - Useful commander card draw

@@ -1,0 +1,20 @@
+[Name]
+Unclaimed Territory
+[ManaCost]
+no cost
+[IsReprint]
+true
+[IsCommander]
+true
+[Rarity]
+U
+[Types]
+Land
+[Oracle]
+As this land enters, choose a creature type.
+{T}: Add {C}.
+{T}: Add one mana of any color. Spend this mana only to cast a creature spell of the chosen type.
+[Artist]
+Dimitar Marinski
+[DesignNotes]
+ - Useful mana fixing land for commander

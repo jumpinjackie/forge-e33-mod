@@ -1,0 +1,22 @@
+[Name]
+Maelstrom Pulse
+[ManaCost]
+1
+B
+G
+[IsReprint]
+true
+[IsCommander]
+true
+[Rarity]
+R
+[Types]
+Sorcery
+[Oracle]
+Destroy target nonland permanent and all other permanents with the same name as that permanent.
+[FlavorText]
+A family dispute, turned into a cataclysmic event.
+[Artist]
+John Avon
+[DesignNotes]
+ - Useful spot removal in commander

@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 3/3/2026 10:06:10 am
+> Last generated: 4/3/2026 2:23:32 pm
 
 ## Abbest
 
@@ -118,6 +118,15 @@ Splice onto Expeditioner Instant or Sorcery {G} (As you cast an Expeditioner Ins
 ### Rulings
 
  - Any valid splice target is a Kindred Instant or Kindred Sorcery with a sub-type of Expeditioner
+
+## Chomping Changeling
+
+> This card is a reprint
+[Scryfall](https://scryfall.com/search?q=Chomping%20Changeling)
+
+### Notes
+
+ - Relevant tribal spot removal
 
 ## Chorale
 
@@ -595,6 +604,15 @@ When this creature dies, target opponent creates a Lumina token. (It's an artifa
 ### Design Notes
 
  - Vanilla Nevron. Jumping mapped to momentary reach.
+
+## Realmwalker
+
+> This card is a reprint
+[Scryfall](https://scryfall.com/search?q=Realmwalker)
+
+### Notes
+
+ - Useful adaptable tribal value engine
 
 ## Revitalization
 

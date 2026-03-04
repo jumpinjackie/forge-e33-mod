@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 2/3/2026 2:37:55 pm
+> Last generated: 4/3/2026 2:23:32 pm
 
 ## An Advantage!
 
@@ -98,15 +98,6 @@ When this creature dies, create a Chroma token. (It's an artifact with "{T}, Sac
  - In the game's prologue, Colette can be found at the Expedition Festival. You can trade her a festival token for an old key, which unlocks a gate in Old Lumiere where a Fracture Survivor journal can be found.
  - Since she deals with all things artifacts and trinkets, gone with a mashup of Etherium Sculptor and a Riddlesmith looting trigger.
 
-## Counterspell
-
-> This card is a reprint
-[Scryfall](https://scryfall.com/search?q=Counterspell)
-
-### Notes
-
- - Obligatory counter for commander.
-
 ## Crippling Tsunami
 
 ```
@@ -194,6 +185,15 @@ When this creature enters, counter target spell and draw a card.
 
  - No in-game basis, but Grief is such a central theme of Expedition 33 that having a cycle dedicated to the 5 stages is a total flavor nuke.
  - Denial is the first stage. Just on name-basis alone this is clearly a Mystic Snake like creature.
+
+## Distant Melody
+
+> This card is a reprint
+[Scryfall](https://scryfall.com/search?q=Distant%20Melody)
+
+### Notes
+
+ - Useful commander card draw
 
 ## Eternal Ice
 
@@ -532,15 +532,6 @@ At the beginning of each end step, remove all flying counters on this creature.
 ### Rulings
 
  - The Barbapapa debuff is not optional. You must enchant a creature with it (even if it is one of your own)
-
-## Mana Drain
-
-> This card is a reprint
-[Scryfall](https://scryfall.com/search?q=Mana%20Drain)
-
-### Notes
-
- - Obligatory Commander counter.
 
 ## Rip Apart Reality
 

@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 2/3/2026 2:04:43 pm
+> Last generated: 4/3/2026 2:23:32 pm
 
 ## A Rock for François
 
@@ -506,6 +506,15 @@ Equip {1}
 ### Notes
 
  - Obligatory commander mana rock.
+
+## Firdoch Core
+
+> This card is a reprint
+[Scryfall](https://scryfall.com/search?q=Firdoch%20Core)
+
+### Notes
+
+ - Useful commander tribal mana rock
 
 ## Florrie
 
@@ -1025,15 +1034,6 @@ Tap three creatures you control: Untap Matthieu.
  - Has the word "Colossus" in its name, so therefore it's the big fatty Gestral of the set.
  - Modeled mostly on Phyrexian Colossus, but with Trample, downgraded Super-Menace to Menace and changed the untap cost to tapping 3 other creatures instead of life payment.
  - Yes, it can be Lackey'd out, but I can accept the variance on that line and also needing 3 other creatures to untap it will keep this line grounded.
-
-## Mirage Mirror
-
-> This card is a reprint
-[Scryfall](https://scryfall.com/search?q=Mirage%20Mirror)
-
-### Notes
-
- - Another reprint for commander that a memorable quote was looking to attach itself to.
 
 ## Noco, The Greatest Merchant
 

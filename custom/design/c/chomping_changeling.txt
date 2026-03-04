@@ -1,0 +1,23 @@
+[Name]
+Chomping Changeling
+[ManaCost]
+2
+G
+[IsReprint]
+true
+[IsCommander]
+true
+[Rarity]
+U
+[Types]
+Creature
+Shapeshifter
+[Oracle]
+Changeling (This card is every creature type.)
+When this creature enters, destroy up to one target artifact or enchantment.
+[PT]
+1/2
+[Artist]
+Jeff Laubenstein
+[DesignNotes]
+ - Relevant tribal spot removal

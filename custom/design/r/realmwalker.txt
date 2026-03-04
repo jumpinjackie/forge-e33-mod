@@ -1,0 +1,25 @@
+[Name]
+Realmwalker
+[ManaCost]
+2
+G
+[IsReprint]
+true
+[IsCommander]
+true
+[Rarity]
+R
+[Types]
+Creature
+Shapeshifter
+[Oracle]
+Changeling (This card is every creature type.)
+As this creature enters, choose a creature type.
+You may look at the top card of your library any time.
+You may cast creature spells of the chosen type from the top of your library.
+[PT]
+2/3
+[Artist]
+Zack Stella
+[DesignNotes]
+ - Useful adaptable tribal value engine

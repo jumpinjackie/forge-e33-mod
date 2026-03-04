@@ -1,0 +1,22 @@
+[Name]
+Crib Swap
+[ManaCost]
+2
+W
+[IsReprint]
+true
+[IsCommander]
+true
+[Rarity]
+U
+[Types]
+Kindred
+Instant
+Shapeshifter
+[Oracle]
+Changeling (This card is every creature type.)
+Exile target creature. Its controller creates a 1/1 colorless Shapeshifter creature token with changeling.
+[Artist]
+Michelle Giorgi
+[DesignNotes]
+ - Relevant tribal spot removal

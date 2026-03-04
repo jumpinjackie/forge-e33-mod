@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 1/3/2026 1:48:45 pm
+> Last generated: 4/3/2026 2:23:32 pm
 
 ## Blade's Graveyard (Concealed Courtyard)
 
@@ -782,6 +782,15 @@ This land enters tapped. As it enters, choose a color.
 ### Notes
 
  - Easy common mana fixing for limited and smoothes out manabases for Commander.
+
+## Unclaimed Territory
+
+> This card is a reprint
+[Scryfall](https://scryfall.com/search?q=Unclaimed%20Territory)
+
+### Notes
+
+ - Useful mana fixing land for commander
 
 ## Verso's Drafts
 

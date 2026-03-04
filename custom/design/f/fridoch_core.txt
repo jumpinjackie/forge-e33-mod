@@ -1,0 +1,22 @@
+[Name]
+Firdoch Core
+[ManaCost]
+3
+[IsReprint]
+true
+[IsCommander]
+true
+[Rarity]
+C
+[Types]
+Kindred
+Artifact
+Shapeshifter
+[Oracle]
+Changeling (This card is every creature type.)
+{T}: Add one mana of any color.
+{4}: This artifact becomes a 4/4 artifact creature until end of turn.
+[Artist]
+Jason A. Engle
+[DesignNotes]
+ - Useful commander tribal mana rock

@@ -1,0 +1,25 @@
+[Name]
+Mirror Entity
+[ManaCost]
+2
+W
+[IsReprint]
+true
+[IsCommander]
+true
+[Rarity]
+R
+[Types]
+Creature
+Shapeshifter
+[Oracle]
+Changeling (This card is every creature type.)
+{X}: Until end of turn, creatures you control have base power and toughness X/X and gain all creature types.
+[FlavorText]
+“Art can be a Window and art can be a Mirror. And great art. Great art is both. Son, you’ll never be a true artist if there’s always a mask between you and the viewer, especially when the viewer is you...”
+[PT]
+1/1
+[Artist]
+Thomas Toye
+[DesignNotes]
+ - Useful changeling pseudo-lord
