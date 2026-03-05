@@ -134406,96 +134406,44 @@
                 },
                 {
                     "name": "Multicolored Legend Crown",
-                    "src": "/img/frames/m15/crowns/m15CrownM.png",
+                    "src": "/img/frames/m15/transform/crowns/regular/m.png",
                     "masks": [],
                     "bounds": {
-                        "height": 0.1667,
-                        "width": 0.9454,
                         "x": 0.0274,
-                        "y": 0.0191
-                    }
+                        "y": 0.0191,
+                        "width": 0.9454,
+                        "height": 0.1667
+                    },
+                    "complementary": [
+                        16
+                    ]
                 },
                 {
                     "name": "Legend Crown Border Cover",
                     "src": "/img/black.png",
-                    "masks": [],
                     "bounds": {
-                        "height": 0.0177,
-                        "width": 0.9214,
                         "x": 0.0394,
-                        "y": 0.0277
-                    }
+                        "y": 0.0277,
+                        "width": 0.9214,
+                        "height": 0.0177
+                    },
+                    "masks": []
                 },
                 {
                     "name": "Multicolored Power/Toughness",
                     "src": "/img/frames/m15/regular/m15PTM.png",
-                    "masks": [],
                     "bounds": {
-                        "height": 0.0733,
-                        "width": 0.188,
                         "x": 0.7573,
-                        "y": 0.8848
-                    }
+                        "y": 0.8848,
+                        "width": 0.188,
+                        "height": 0.0733
+                    },
+                    "masks": []
                 },
                 {
                     "name": "Multicolored Frame",
-                    "src": "/img/frames/m15/regular/m15FrameM.png",
-                    "masks": [
-                        {
-                            "src": "/img/frames/m15/regular/m15MaskPinline.png",
-                            "name": "Pinline"
-                        }
-                    ]
-                },
-                {
-                    "name": "Multicolored Frame",
-                    "src": "/img/frames/m15/regular/m15FrameM.png",
-                    "masks": [
-                        {
-                            "src": "/img/frames/m15/regular/m15MaskType.png",
-                            "name": "Type"
-                        }
-                    ]
-                },
-                {
-                    "name": "Multicolored Frame",
-                    "src": "/img/frames/m15/regular/m15FrameM.png",
-                    "masks": [
-                        {
-                            "src": "/img/frames/m15/regular/m15MaskTitle.png",
-                            "name": "Title"
-                        }
-                    ]
-                },
-                {
-                    "name": "Multicolored Frame",
-                    "src": "/img/frames/m15/regular/m15FrameM.png",
-                    "masks": [
-                        {
-                            "src": "/img/frames/m15/regular/m15MaskRules.png",
-                            "name": "Rules"
-                        }
-                    ]
-                },
-                {
-                    "name": "Multicolored Frame",
-                    "src": "/img/frames/m15/regular/m15FrameM.png",
-                    "masks": [
-                        {
-                            "src": "/img/frames/m15/regular/m15MaskFrame.png",
-                            "name": "Frame"
-                        }
-                    ]
-                },
-                {
-                    "name": "Multicolored Frame",
-                    "src": "/img/frames/m15/regular/m15FrameM.png",
-                    "masks": [
-                        {
-                            "src": "/img/frames/m15/regular/m15MaskBorder.png",
-                            "name": "Border"
-                        }
-                    ]
+                    "src": "/img/frames/m15/transform/regular/frontM.png",
+                    "masks": []
                 }
             ],
             "artSource": "https://jumpinjackie.github.io/e33-reference-art/images/cards/the_curator.jpg",
