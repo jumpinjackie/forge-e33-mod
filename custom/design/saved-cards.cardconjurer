@@ -3591,7 +3591,7 @@
                 },
                 "ability1": {
                     "name": "Ability 2",
-                    "text": "Aline Dessendre, Stricken by Grief deals X damage to target creature or planeswalker and you gain X life, where X is the number of Chromas you control.",
+                    "text": "Aline Dessendre deals X damage to up to one target creature or planeswalker and you gain X life, where X is the number of Chromas you control.",
                     "x": 0.18,
                     "y": 0.6950000000000001,
                     "width": 0.7467,
