@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 4/3/2026 2:23:32 pm
+> Last generated: 7/3/2026 9:54:24 am
 
 ## A Life to Love (Farewell)
 
@@ -216,14 +216,14 @@ When this creature dies, target opponent creates a Lumina token. (It's an artifa
  - 21/01/2026: Increased shield counter activation cost from 1W to 3W
  - 3/02/2026: Added Horror sub-type.
 
-## Crib Swap
+## Cleansing Nova
 
 > This card is a reprint
-[Scryfall](https://scryfall.com/search?q=Crib%20Swap)
+[Scryfall](https://scryfall.com/search?q=Cleansing%20Nova)
 
 ### Notes
 
- - Relevant tribal spot removal
+ - Flavorful sweeper for commander on name basis.
 
 ## Danseuse Teacher
 

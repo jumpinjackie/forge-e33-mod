@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 4/3/2026 3:31:21 pm
+> Last generated: 7/3/2026 9:54:24 am
 
 ## Aberration
 
@@ -933,6 +933,15 @@ When this creature dies, create a Chroma token.
 ### Rulings
 
  - Naming the card happens on resolution, so you may scry or surveil in response to the "predict" trigger on the stack.
+
+## Fractured Identity
+
+> This card is a reprint
+[Scryfall](https://scryfall.com/search?q=Fractured%20Identity)
+
+### Notes
+
+ - Flavorful spot removal for commander on name basis.
 
 ## Full Deck
 

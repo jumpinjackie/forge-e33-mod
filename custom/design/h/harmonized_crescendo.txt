@@ -1,0 +1,23 @@
+[Name]
+Harmonized Crescendo
+[ManaCost]
+4
+U
+U
+[Types]
+Instant
+[Oracle]
+Convoke {i}(Your creatures can help cast this spell. Each creature you tap while casting this spell pays for {1} or one mana of that creature’s color.){/i}
+Choose a creature type. Draw a card for each permanent you control of that type.
+[FlavorText]
+Sirène’s wiles can sway even the most hardened of minds.
+[IsReprint]
+true
+[IsCommander]
+true
+[Rarity]
+R
+[Artist]
+Tyler Walpole
+[DesignNotes]
+ - Useful tribal card draw for commander.

@@ -304,47 +304,51 @@
 | <center>Osquio's Mask</center> | <center>Pot Nevron Token</center> | <center>Romanifo's Balloon</center> |
 | ![](../custom/pics/tokens/E33/wb_3_3_shadow_dualliste.jpg) | ![](../custom/pics/tokens/E33/a_1_1_toy.jpg) |   |
 | <center>Shadow Dualliste Token</center> | <center>Toy Token</center> |   |
-## Clair Obscur: Expedition 33 Commander (E3C) [44/44 cards]
+## Clair Obscur: Expedition 33 Commander (E3C) [51/51 cards]
 
 > This set is not yet finalized. This set is now in the game/color balancing phase and cards may be removed or replaced as a result.
 
 - White: 6/6 cards
-- Blue: 1/1 cards
+- Blue: 2/2 cards
 - Red: 1/1 cards
-- Green: 5/5 cards
-- Multicolor: 6/6 cards
-- Artifacts: 19/19 cards
-- Lands: 6/6 cards
+- Green: 6/6 cards
+- Multicolor: 7/7 cards
+- Artifacts: 21/21 cards
+- Lands: 8/8 cards
 
 | | | |
 |---|---|---|
-| ![](../custom/pics/cards/E3C/A%20Life%20to%20Love.full.jpg) | ![](../custom/pics/cards/E3C/Austere%20Command.full.jpg) | ![](../custom/pics/cards/E3C/Crib%20Swap.full.jpg) |
-| <center>[A Life to Love (Farewell)](WHITE.md#a-life-to-love-farewell)</center> | <center>[Austere Command](WHITE.md#austere-command)</center> | <center>[Crib Swap](WHITE.md#crib-swap)</center> |
+| ![](../custom/pics/cards/E3C/A%20Life%20to%20Love.full.jpg) | ![](../custom/pics/cards/E3C/Austere%20Command.full.jpg) | ![](../custom/pics/cards/E3C/Cleansing%20Nova.full.jpg) |
+| <center>[A Life to Love (Farewell)](WHITE.md#a-life-to-love-farewell)</center> | <center>[Austere Command](WHITE.md#austere-command)</center> | <center>[Cleansing Nova](WHITE.md#cleansing-nova)</center> |
 | ![](../custom/pics/cards/E3C/Mirror%20Entity.full.jpg) | ![](../custom/pics/cards/E3C/Path%20to%20Exile.full.jpg) | ![](../custom/pics/cards/E3C/Swords%20to%20Plowshares.full.jpg) |
 | <center>[Mirror Entity](WHITE.md#mirror-entity)</center> | <center>[Path to Exile](WHITE.md#path-to-exile)</center> | <center>[Swords to Plowshares](WHITE.md#swords-to-plowshares)</center> |
-| ![](../custom/pics/cards/E3C/Distant%20Melody.full.jpg) | ![](../custom/pics/cards/E3C/Chaos%20Warp.full.jpg) | ![](../custom/pics/cards/E3C/Chomping%20Changeling.full.jpg) |
-| <center>[Distant Melody](BLUE.md#distant-melody)</center> | <center>[Chaos Warp](RED.md#chaos-warp)</center> | <center>[Chomping Changeling](GREEN.md#chomping-changeling)</center> |
-| ![](../custom/pics/cards/E3C/Cultivate.full.jpg) | ![](../custom/pics/cards/E3C/Doubling%20Season.full.jpg) | ![](../custom/pics/cards/E3C/Farseek.full.jpg) |
-| <center>[Cultivate](GREEN.md#cultivate)</center> | <center>[Doubling Season](GREEN.md#doubling-season)</center> | <center>[Farseek](GREEN.md#farseek)</center> |
-| ![](../custom/pics/cards/E3C/Realmwalker.full.jpg) | ![](../custom/pics/cards/E3C/Abrupt%20Decay.full.jpg) | ![](../custom/pics/cards/E3C/Bedevil.full.jpg) |
-| <center>[Realmwalker](GREEN.md#realmwalker)</center> | <center>[Abrupt Decay](MULTICOLOR.md#abrupt-decay)</center> | <center>[Bedevil](MULTICOLOR.md#bedevil)</center> |
+| ![](../custom/pics/cards/E3C/Distant%20Melody.full.jpg) | ![](../custom/pics/cards/E3C/Harmonized%20Crescendo.full.jpg) | ![](../custom/pics/cards/E3C/Chaos%20Warp.full.jpg) |
+| <center>[Distant Melody](BLUE.md#distant-melody)</center> | <center>[Harmonized Crescendo](BLUE.md#harmonized-crescendo)</center> | <center>[Chaos Warp](RED.md#chaos-warp)</center> |
+| ![](../custom/pics/cards/E3C/Chomping%20Changeling.full.jpg) | ![](../custom/pics/cards/E3C/Cultivate.full.jpg) | ![](../custom/pics/cards/E3C/Descendants%27%20Path.full.jpg) |
+| <center>[Chomping Changeling](GREEN.md#chomping-changeling)</center> | <center>[Cultivate](GREEN.md#cultivate)</center> | <center>[Descendants' Path](GREEN.md#descendants-path)</center> |
+| ![](../custom/pics/cards/E3C/Doubling%20Season.full.jpg) | ![](../custom/pics/cards/E3C/Farseek.full.jpg) | ![](../custom/pics/cards/E3C/Realmwalker.full.jpg) |
+| <center>[Doubling Season](GREEN.md#doubling-season)</center> | <center>[Farseek](GREEN.md#farseek)</center> | <center>[Realmwalker](GREEN.md#realmwalker)</center> |
+| ![](../custom/pics/cards/E3C/Abrupt%20Decay.full.jpg) | ![](../custom/pics/cards/E3C/Bedevil.full.jpg) | ![](../custom/pics/cards/E3C/Fractured%20Identity.full.jpg) |
+| <center>[Abrupt Decay](MULTICOLOR.md#abrupt-decay)</center> | <center>[Bedevil](MULTICOLOR.md#bedevil)</center> | <center>[Fractured Identity](MULTICOLOR.md#fractured-identity)</center> |
 | ![](../custom/pics/cards/E3C/Maelstrom%20Pulse.full.jpg) | ![](../custom/pics/cards/E3C/Mortify.full.jpg) | ![](../custom/pics/cards/E3C/Putrefy.full.jpg) |
 | <center>[Maelstrom Pulse](MULTICOLOR.md#maelstrom-pulse)</center> | <center>[Mortify](MULTICOLOR.md#mortify)</center> | <center>[Putrefy](MULTICOLOR.md#putrefy)</center> |
 | ![](../custom/pics/cards/E3C/Void%20Rend.full.jpg) | ![](../custom/pics/cards/E3C/Arcane%20Signet.full.jpg) | ![](../custom/pics/cards/E3C/Chromatic%20Lantern.full.jpg) |
 | <center>[Void Rend](MULTICOLOR.md#void-rend)</center> | <center>[Arcane Signet](ARTIFACTS.md#arcane-signet)</center> | <center>[Chromatic Lantern](ARTIFACTS.md#chromatic-lantern)</center> |
 | ![](../custom/pics/cards/E3C/Commander%27s%20Sphere.full.jpg) | ![](../custom/pics/cards/E3C/Fellwar%20Stone.full.jpg) | ![](../custom/pics/cards/E3C/Firdoch%20Core.full.jpg) |
 | <center>[Commander's Sphere](ARTIFACTS.md#commanders-sphere)</center> | <center>[Fellwar Stone](ARTIFACTS.md#fellwar-stone)</center> | <center>[Firdoch Core](ARTIFACTS.md#firdoch-core)</center> |
-| ![](../custom/pics/cards/E3C/Mask%20of%20Memory.full.jpg) | ![](../custom/pics/cards/E3C/Patchwork%20Banner.full.jpg) | ![](../custom/pics/cards/E3C/Sol%20Ring.full.jpg) |
-| <center>[Mask of Memory](ARTIFACTS.md#mask-of-memory)</center> | <center>[Patchwork Banner](ARTIFACTS.md#patchwork-banner)</center> | <center>[Sol Ring](ARTIFACTS.md#sol-ring)</center> |
-| ![](../custom/pics/cards/E3C/Talisman%20of%20Conviction.full.jpg) | ![](../custom/pics/cards/E3C/Talisman%20of%20Creativity.full.jpg) | ![](../custom/pics/cards/E3C/Talisman%20of%20Curiosity.full.jpg) |
-| <center>[Talisman of Conviction](ARTIFACTS.md#talisman-of-conviction)</center> | <center>[Talisman of Creativity](ARTIFACTS.md#talisman-of-creativity)</center> | <center>[Talisman of Curiosity](ARTIFACTS.md#talisman-of-curiosity)</center> |
-| ![](../custom/pics/cards/E3C/Talisman%20of%20Dominance.full.jpg) | ![](../custom/pics/cards/E3C/Talisman%20of%20Hierarchy.full.jpg) | ![](../custom/pics/cards/E3C/Talisman%20of%20Impulse.full.jpg) |
-| <center>[Talisman of Dominance](ARTIFACTS.md#talisman-of-dominance)</center> | <center>[Talisman of Hierarchy](ARTIFACTS.md#talisman-of-hierarchy)</center> | <center>[Talisman of Impulse](ARTIFACTS.md#talisman-of-impulse)</center> |
-| ![](../custom/pics/cards/E3C/Talisman%20of%20Indulgence.full.jpg) | ![](../custom/pics/cards/E3C/Talisman%20of%20Progress.full.jpg) | ![](../custom/pics/cards/E3C/Talisman%20of%20Resilience.full.jpg) |
-| <center>[Talisman of Indulgence](ARTIFACTS.md#talisman-of-indulgence)</center> | <center>[Talisman of Progress](ARTIFACTS.md#talisman-of-progress)</center> | <center>[Talisman of Resilience](ARTIFACTS.md#talisman-of-resilience)</center> |
-| ![](../custom/pics/cards/E3C/Talisman%20of%20Unity.full.jpg) | ![](../custom/pics/cards/E3C/Thought%20Vessel.full.jpg) | ![](../custom/pics/cards/E3C/Command%20Tower.full.jpg) |
-| <center>[Talisman of Unity](ARTIFACTS.md#talisman-of-unity)</center> | <center>[Thought Vessel](ARTIFACTS.md#thought-vessel)</center> | <center>[Command Tower](LANDS.md#command-tower)</center> |
-| ![](../custom/pics/cards/E3C/Crimson%20Forest.full.jpg) | ![](../custom/pics/cards/E3C/Frozen%20Hearts.full.jpg) | ![](../custom/pics/cards/E3C/Sinister%20Cave.full.jpg) |
-| <center>[Crimson Forest (Karplusan Forest)](LANDS.md#crimson-forest-karplusan-forest)</center> | <center>[Frozen Hearts (Shivan Reef)](LANDS.md#frozen-hearts-shivan-reef)</center> | <center>[Sinister Cave (Sulfurous Springs)](LANDS.md#sinister-cave-sulfurous-springs)</center> |
-| ![](../custom/pics/cards/E3C/The%20Meadows.full.jpg) | ![](../custom/pics/cards/E3C/Unclaimed%20Territory.full.jpg) |   |
-| <center>[The Meadows (Brushland)](LANDS.md#the-meadows-brushland)</center> | <center>[Unclaimed Territory](LANDS.md#unclaimed-territory)</center> |   |
+| ![](../custom/pics/cards/E3C/Gathering%20Stone.full.jpg) | ![](../custom/pics/cards/E3C/Icon%20of%20Ancestry.full.jpg) | ![](../custom/pics/cards/E3C/Mask%20of%20Memory.full.jpg) |
+| <center>[Gathering Stone](ARTIFACTS.md#gathering-stone)</center> | <center>[Icon of Ancestry](ARTIFACTS.md#icon-of-ancestry)</center> | <center>[Mask of Memory](ARTIFACTS.md#mask-of-memory)</center> |
+| ![](../custom/pics/cards/E3C/Patchwork%20Banner.full.jpg) | ![](../custom/pics/cards/E3C/Sol%20Ring.full.jpg) | ![](../custom/pics/cards/E3C/Talisman%20of%20Conviction.full.jpg) |
+| <center>[Patchwork Banner](ARTIFACTS.md#patchwork-banner)</center> | <center>[Sol Ring](ARTIFACTS.md#sol-ring)</center> | <center>[Talisman of Conviction](ARTIFACTS.md#talisman-of-conviction)</center> |
+| ![](../custom/pics/cards/E3C/Talisman%20of%20Creativity.full.jpg) | ![](../custom/pics/cards/E3C/Talisman%20of%20Curiosity.full.jpg) | ![](../custom/pics/cards/E3C/Talisman%20of%20Dominance.full.jpg) |
+| <center>[Talisman of Creativity](ARTIFACTS.md#talisman-of-creativity)</center> | <center>[Talisman of Curiosity](ARTIFACTS.md#talisman-of-curiosity)</center> | <center>[Talisman of Dominance](ARTIFACTS.md#talisman-of-dominance)</center> |
+| ![](../custom/pics/cards/E3C/Talisman%20of%20Hierarchy.full.jpg) | ![](../custom/pics/cards/E3C/Talisman%20of%20Impulse.full.jpg) | ![](../custom/pics/cards/E3C/Talisman%20of%20Indulgence.full.jpg) |
+| <center>[Talisman of Hierarchy](ARTIFACTS.md#talisman-of-hierarchy)</center> | <center>[Talisman of Impulse](ARTIFACTS.md#talisman-of-impulse)</center> | <center>[Talisman of Indulgence](ARTIFACTS.md#talisman-of-indulgence)</center> |
+| ![](../custom/pics/cards/E3C/Talisman%20of%20Progress.full.jpg) | ![](../custom/pics/cards/E3C/Talisman%20of%20Resilience.full.jpg) | ![](../custom/pics/cards/E3C/Talisman%20of%20Unity.full.jpg) |
+| <center>[Talisman of Progress](ARTIFACTS.md#talisman-of-progress)</center> | <center>[Talisman of Resilience](ARTIFACTS.md#talisman-of-resilience)</center> | <center>[Talisman of Unity](ARTIFACTS.md#talisman-of-unity)</center> |
+| ![](../custom/pics/cards/E3C/Thought%20Vessel.full.jpg) | ![](../custom/pics/cards/E3C/Command%20Tower.full.jpg) | ![](../custom/pics/cards/E3C/Crimson%20Forest.full.jpg) |
+| <center>[Thought Vessel](ARTIFACTS.md#thought-vessel)</center> | <center>[Command Tower](LANDS.md#command-tower)</center> | <center>[Crimson Forest (Karplusan Forest)](LANDS.md#crimson-forest-karplusan-forest)</center> |
+| ![](../custom/pics/cards/E3C/Fabled%20Passage.full.jpg) | ![](../custom/pics/cards/E3C/Frozen%20Hearts.full.jpg) | ![](../custom/pics/cards/E3C/Path%20of%20Ancestry.full.jpg) |
+| <center>[Fabled Passage](LANDS.md#fabled-passage)</center> | <center>[Frozen Hearts (Shivan Reef)](LANDS.md#frozen-hearts-shivan-reef)</center> | <center>[Path of Ancestry](LANDS.md#path-of-ancestry)</center> |
+| ![](../custom/pics/cards/E3C/Sinister%20Cave.full.jpg) | ![](../custom/pics/cards/E3C/The%20Meadows.full.jpg) | ![](../custom/pics/cards/E3C/Unclaimed%20Territory.full.jpg) |
+| <center>[Sinister Cave (Sulfurous Springs)](LANDS.md#sinister-cave-sulfurous-springs)</center> | <center>[The Meadows (Brushland)](LANDS.md#the-meadows-brushland)</center> | <center>[Unclaimed Territory](LANDS.md#unclaimed-territory)</center> |

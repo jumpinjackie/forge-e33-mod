@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 4/3/2026 2:23:32 pm
+> Last generated: 7/3/2026 9:54:24 am
 
 ## An Advantage!
 
@@ -415,6 +415,15 @@ Look at the top five cards of your library. Put two of them into your hand and t
 ### Design Notes
 
  - Stock Up with expeditioner benefits
+
+## Harmonized Crescendo
+
+> This card is a reprint
+[Scryfall](https://scryfall.com/search?q=Harmonized%20Crescendo)
+
+### Notes
+
+ - Useful tribal card draw for commander.
 
 ## Hiding the Canvas
 

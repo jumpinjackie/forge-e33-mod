@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 4/3/2026 2:23:32 pm
+> Last generated: 7/3/2026 9:54:24 am
 
 ## Blade's Graveyard (Concealed Courtyard)
 
@@ -184,6 +184,15 @@ Land
 
  - Can target non-creature Expeditioners.
  - The Expeditioner you target loses any counters on it as part of zone transition so you can't stack +1/+1 counters by repeatedly targeting the same Expeditioner on every activation.
+
+## Fabled Passage
+
+> This card is a reprint
+[Scryfall](https://scryfall.com/search?q=Fabled%20Passage)
+
+### Notes
+
+ - Mana fixing land for commander.
 
 ## Falling Leaves (Yavimaya, Cradle of Growth)
 
@@ -466,6 +475,15 @@ Land
 ### Notes
 
  - Has "Painted" in its name, color fixes. Easy on-flavor reprint candidate.
+
+## Path of Ancestry
+
+> This card is a reprint
+[Scryfall](https://scryfall.com/search?q=Path%20of%20Ancestry)
+
+### Notes
+
+ - Mana fixing land for commander.
 
 ## Perilous Landscape
 

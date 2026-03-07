@@ -13,39 +13,46 @@ Type=Custom
 46 R Chaos Warp @Trevor Claxton
 49 U Chomping Changeling @Jeff Laubenstein
 55 R Chromatic Lantern @Jung Park
-66 C Command Tower @Alayna Danner
-67 C Commander's Sphere @Justyna Dura
-70 U Crib Swap @Michelle Giorgi
+65 R Cleansing Nova @Sandfall Interactive
+67 C Command Tower @Alayna Danner
+68 C Commander's Sphere @Justyna Dura
 71 R Karplusan Forest @Sandfall Interactive ${"flavorName": "Crimson Forest"}
 76 C Cultivate @Anthony Palumbo
-89 C Distant Melody @Warren Mahy
-92 M Doubling Season @Chuck Lukacs
-157 C Farseek @Hristo D. Chukov
-158 U Fellwar Stone @John Avon
-161 C Firdoch Core @Jason A. Engle
-173 R Shivan Reef @Sandfall Interactive ${"flavorName": "Frozen Hearts"}
-259 R Maelstrom Pulse @John Avon
-269 U Mask of Memory @Sandfall Interactive
-274 R Mirror Entity @Thomas Toye
-280 U Mortify @Sandfall Interactive
-300 U Patchwork Banner @Sarah Finnigan
-301 U Path to Exile @Google Gemini
-313 U Putrefy @Clint Cearley
-317 R Realmwalker @Zack Stella
-347 R Sulfurous Springs @Sandfall Interactive ${"flavorName": "Sinister Cave"}
-353 U Sol Ring @Piotr Dura
-366 U Swords to Plowshares @Google Gemini
-367 U Talisman of Conviction @Lindsey Look
-368 U Talisman of Creativity @Lindsey Look
-369 U Talisman of Curiosity @Lindsey Look
-370 U Talisman of Dominance @Mike Dringenberg
-371 U Talisman of Hierarchy @Lindsey Look
-372 U Talisman of Impulse @Mike Dringenberg
-373 U Talisman of Indulgence @Mike Dringenberg
-374 U Talisman of Progress @Mike Dringenberg
-375 U Talisman of Resilience @Lindsey Look
-376 U Talisman of Unity @Mike Dringenberg
-387 R Brushland @Sandfall Interactive ${"flavorName": "The Meadows"}
-398 C Thought Vessel @rk post
-409 U Unclaimed Territory @Dimitar Marinski
-433 R Void Rend @Justyna Dura
+88 R Descendants' Path @Terese Nielsen
+90 C Distant Melody @Warren Mahy
+93 M Doubling Season @Chuck Lukacs
+155 R Fabled Passage @Bruce Brenneise
+159 C Farseek @Hristo D. Chukov
+160 U Fellwar Stone @John Avon
+163 C Firdoch Core @Jason A. Engle
+173 R Fractured Identity @Sandfall Interactive
+176 R Shivan Reef @Sandfall Interactive ${"flavorName": "Frozen Hearts"}
+179 U Gathering Stone @Paolo Parente
+226 R Harmonized Crescendo @Tyler Walpole
+231 R Icon of Ancestry @Ivan Dedov
+265 R Maelstrom Pulse @John Avon
+275 U Mask of Memory @Sandfall Interactive
+280 R Mirror Entity @Thomas Toye
+286 U Mortify @Sandfall Interactive
+306 U Patchwork Banner @Sarah Finnigan
+307 C Path of Ancestry @Alayna Danner
+308 U Path to Exile @Google Gemini
+320 U Putrefy @Clint Cearley
+324 R Realmwalker @Zack Stella
+354 R Sulfurous Springs @Sandfall Interactive ${"flavorName": "Sinister Cave"}
+360 U Sol Ring @Piotr Dura
+373 U Swords to Plowshares @Google Gemini
+374 U Talisman of Conviction @Lindsey Look
+375 U Talisman of Creativity @Lindsey Look
+376 U Talisman of Curiosity @Lindsey Look
+377 U Talisman of Dominance @Mike Dringenberg
+378 U Talisman of Hierarchy @Lindsey Look
+379 U Talisman of Impulse @Mike Dringenberg
+380 U Talisman of Indulgence @Mike Dringenberg
+381 U Talisman of Progress @Mike Dringenberg
+382 U Talisman of Resilience @Lindsey Look
+383 U Talisman of Unity @Mike Dringenberg
+394 R Brushland @Sandfall Interactive ${"flavorName": "The Meadows"}
+405 C Thought Vessel @rk post
+416 U Unclaimed Territory @Dimitar Marinski
+440 R Void Rend @Justyna Dura

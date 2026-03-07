@@ -1,0 +1,18 @@
+[Name]
+Fabled Passage
+[ManaCost]
+no cost
+[Types]
+Land
+[Oracle]
+{T}, Sacrifice this land: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle. Then if you control four or more lands, untap that land.
+[IsReprint]
+true
+[IsCommander]
+true
+[Rarity]
+R
+[Artist]
+Bruce Brenneise
+[DesignNotes]
+ - Mana fixing land for commander.

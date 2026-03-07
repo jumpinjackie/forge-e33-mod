@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 4/3/2026 2:23:32 pm
+> Last generated: 7/3/2026 9:54:24 am
 
 ## A Rock for François
 
@@ -536,6 +536,15 @@ Legendary Artifact - Rock
  - In this set, Florrie is 1 of 4 legendary "Rock" artifacts which will grant benefits to other cards if this or other members of the quartet are in play, just like Urza's Tower, Mine and Power Plant become more powerful when all of them are in play, I am trying to go for a similar outcome with this quartet.
     - Mechanically, Islandwalk is the closet ability to swimming
 
+## Gathering Stone
+
+> This card is a reprint
+[Scryfall](https://scryfall.com/search?q=Gathering%20Stone)
+
+### Notes
+
+ - Value engine for commander.
+
 ## Gestral Bodyguard
 
 ```
@@ -835,6 +844,15 @@ He spends some time writing in his journal. He writes about how dangerous the Ne
 ### Rulings
 
  - Also triggers for non-creature Nevrons 
+
+## Icon of Ancestry
+
+> This card is a reprint
+[Scryfall](https://scryfall.com/search?q=Icon%20of%20Ancestry)
+
+### Notes
+
+ - Value engine for commander.
 
 ## Julien Tiny Head
 

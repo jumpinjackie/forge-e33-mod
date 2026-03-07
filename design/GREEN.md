@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 4/3/2026 2:23:32 pm
+> Last generated: 7/3/2026 9:54:24 am
 
 ## Abbest
 
@@ -156,6 +156,15 @@ When this creature dies, target opponent creates a Lumina token. (It's an artifa
 ### Notes
 
  - Obligatory commander staple.
+
+## Descendants' Path
+
+> This card is a reprint
+[Scryfall](https://scryfall.com/search?q=Descendants%27%20Path)
+
+### Notes
+
+ - Value engine for commander.
 
 ## Doubling Season
 
