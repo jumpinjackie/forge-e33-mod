@@ -1,94 +1,102 @@
 [Main]
+// Creatures
 1 Acceptance|E33
+1 Alicenisa, Gestral Siren|E33
 1 Alicia Dessendre, Silenced by Fire|E33
-1 All Suns' Dawn|E33
-1 Crippling Tsunami|E33
+1 Chomping Changeling|E3C
 1 Denial|E33
 1 Dominique Giant Feet|E33
-1 Doubling Season|E3C
 1 Esquie, Friend of Verso|E33
 1 Expedition 34 Mage|E33
-1 Expedition 35 Bridge|E33
+1 Expedition 54 Dissident|E33
 1 Expedition 55 Drummer|E33
 1 Expedition 62 Hunter|E33
 1 Expedition 67 Blastminer|E33
 1 Expedition 67 Demolitions Expert|E33
-1 Expedition 68 Navigator|E33
-1 Expedition 69|E33
 1 Expedition 69 Surveyor|E33
-1 Expedition 70|E33
 1 Expedition Recruiter|E33
-1 Florian, Lumière Doomsayer|E33
 1 François, Waiting for Clea|E33
+1 Gestral Villager|E33
 1 Golgra, Gestral Chef|E33
 1 Grandis Merchant|E33
-1 Gustave's Burial|E33
 1 Gustave, Lumière Engineer|E33
 1 Julien Tiny Head|E33
+1 Lorieniso, Gestral Musician|E33
 1 Lune, Charting a Path|E33
 1 Maelle, Child of Lumière|E33
-1 Marked!|E33
-1 Mask of Memory|E3C
 1 Monoco, Collector of Feet|E33
 1 Ophelie, Lumière Florist|E33
-1 Repaint|E33
+1 Outdome Scouting Party|E33
 1 Romanifo, the Half-baked|E33
-1 Rush Picto|E33
 1 Sciel, Grieving for Many|E33
-1 Shot Picto|E33
-1 Swift Counter|E33
-1 The Greatest Expedition in History|E33
 1 Verso, Who Guards Truth With Lies|E33
-1 When One Falls // We Continue|E33
-1 Cultivate|E3C
-1 Farseek|E3C
 // Sweepers
-1 Sky Break|E33
-1 Glimpse of Humanity|E33
+1 Elemental Trick|E33
 1 Death Stare|E33
+1 Glimpse of Humanity|E33
+1 Sky Break|E33
 1 The Fate of the Canvas|E33
 // Spot Removal
-1 Elemental Trick|E33
 1 Full Deck|E33
 1 Leave this Canvas!|E33
+1 Maelstrom Pulse|E3C
 1 Mortify|E3C
 1 Path to Exile|E3C
 1 Rally the Expeditioners|E33
 1 Swords to Plowshares|E3C
-// Mana Rocks
-1 Expedition Flag|E33
+// Utility
+1 Chromatic Reclamation|E33
+1 Crippling Tsunami|E33
+1 Expedition 35 Bridge|E33
+1 Expedition 70|E33
+1 Expedition Festival|E33
+1 Harmonized Crescendo|E3C
+1 Icon of Ancestry|E3C
+1 Mask of Memory|E3C
+1 Shot Picto|E33
+1 Swift Counter|E33
+1 Tomorrow Comes|E33
+// Mana Rocks / Ramp
 1 Chroma Catalyst|E33
 1 Chromatic Lantern|E3C
 1 Energy Tint|E33
+1 Expedition 69|E33
+1 Expedition Flag|E33
+1 Talisman of Conviction|E3C
 1 Talisman of Creativity|E3C
 1 Talisman of Curiosity|E3C
-1 Talisman of Hierarchy|E3C
+1 Talisman of Progress|E3C
 1 Talisman of Unity|E3C
 // Lands
-1 Crushing Cavern|E33
+1 Blade's Graveyard|E33
 1 Command Tower|E3C
-1 Crimson Forest|E3C
+1 Contaminated Landscape|E33
+1 Boat Graveyard|E33
+1 Crushing Cavern|E33
+1 Deceptive Landscape|E33
+1 Esquie's Nest|E33
 1 Expedition Camp|E33
+1 Falling Leaves|E33
 1 Flying Waters|E33
 1 Dark Gestral Arena|E33
+1 Crimson Forest|E3C
 1 Lumière Aquafarm|E33
 1 Lumière Opera House|E33
 1 Lumière, The Last Bastion|E33
 1 Monoco's Station|E33
-1 Esquie's Nest|E33
-1 Ominous Cemetery|E33
+1 Floating Cemetery|E33
 1 Sirène's Coliseum|E33
-1 Stone Wave Cliffs|E33
 1 Spring Meadows|E33
-1 Falling Leaves|E33
+1 Stone Wave Cliffs|E33
 1 The Indigo Tree|E33
+1 The Meadows|E3C
+1 Twisted Landscape|E33
 1 Verso's Drafts|E33
 1 Verso's Treehouse|E33
-4 Swamp|E33
-5 Plains|E33
-2 Mountain|E33
-5 Island|E33
 2 Forest|E33
-
+4 Island|E33
+1 Mountain|E33
+2 Plains|E33
+2 Swamp|E33
 [Commander]
 1 The Paintress|E33

@@ -1,32 +1,25 @@
 [Main]
+// Creatures
 1 Aberration|E33
 1 Bourgeon|E33
 1 Bénisseur|E33
-1 Chroma Barrier|E33
-1 Chromatic Rebirth|E33
-1 Clea Dessendre, the Mistress|E33
 1 Clea Unleashed|E33
-1 Clea's Chromatic Mastery|E33
 1 Contortionniste|E33
 1 Danseuse|E33
-1 Dessendre Family Portrait|E33
 1 Duollistes|E33
 1 Glissando|E33
 1 Goblu|E33
 1 Grosse Tête|E33
 1 Lampmaster|E33
-1 Manor Entrance // Manor Hidden Room|E33
-1 Nevron Pecking Order|E33
+1 Mirror Entity|E3C
 1 Osquio, Ruler Of All The Trains|E33
 1 Painted Alicia, Eternally Suffering|E33
 1 Painted Clea, the Regent|E33
 1 Painted Renoir, Aline's Enforcer|E33
+1 Realmwalker|E3C
 1 Renoir's Creation|E33
-1 Renoir's Will|E33
-1 Revive Tint|E33
 1 Robust Sakapatate|E33
 1 Serpenphare|E33
-1 Shrine to The Paintress|E33
 1 Simon, Consort of Clea|E33
 1 Sirène, Who Plays With Wonder|E33
 1 Sprong|E33
@@ -37,53 +30,67 @@
 1 Unfinished Troubador|E33
 1 Échassier|E33
 1 Évêque|E33
+// Planeswalkers
+1 Clea Dessendre, the Mistress|E33
 // Sweepers
 1 A Life to Love|E3C
+1 Cleansing Nova|E3C
 1 Gommage|E33
 1 The Fracture|E33
-1 Austere Command|E3C
-1 Massacre at Dark Shores|E33
-// Spot removal
+// Spot Removal
+1 Bedevil|E3C
 1 Chaos Warp|E3C
 1 Chroma Prison|E33
-1 Chromatic Petrification|E33
-1 Bedevil|E3C
 1 Piercing Strike|E33
 1 Putrefy|E3C
-1 Surcease|E33
 1 Terminate|E33
 1 Void Meteors|E33
 1 Void Rend|E3C
-// Mana Rocks
-1 Sol Ring|E3C
-1 Lumière Flower Stand|E33
+// Utility
+1 Chroma Barrier|E33
+1 Clea's Chromatic Mastery|E33
+1 Distant Melody|E3C
+1 Gathering Stone|E3C
+1 Nevron Pecking Order|E33
+1 Renoir's Will|E33
+1 Revive Tint|E33
+1 Shrine to The Paintress|E33
+// Mana Rocks / Ramp
 1 Arcane Signet|E3C
+1 Fellwar Stone|E3C
+1 Firdoch Core|E3C
 1 Patchwork Banner|E3C
+1 Sol Ring|E3C
 1 Talisman of Dominance|E3C
+1 Talisman of Hierarchy|E3C
 1 Talisman of Impulse|E3C
 1 Talisman of Indulgence|E3C
 1 Talisman of Resilience|E3C
 // Lands
+1 Bountiful Landscape|E33
+1 Endless Tower|E33
+1 Fabled Passage|E3C
+1 Field of Ruin|E33
+1 Frozen Heart|E3C
+1 Painted Bluffs|E33
+1 Path of Ancestry|E3C
+1 Seething Landscape|E33
+1 Shattered Landscape|E33
+1 Sinister Cave|E3C
+1 Sunless Cliffs|E33
 1 The Hauler|E33
 1 The Monolith|E33
 1 The Monolith Interior|E33
 1 The Reacher|E33
-1 Sunless Cliffs|E33
-1 Yellow Harvest|E33
-1 Endless Tower|E33
-1 Field of Ruin|E33
-1 Painted Bluffs|E33
-1 Seething Landscape|E33
-1 Shattered Landscape|E33
-1 Frozen Hearts|E3C
-1 Sinister Cave|E3C
+1 Tranquil Landscape|E33
 1 Twilight Quarry|E33
+1 Unclaimed Territory|E3C
 1 The Root of All Evil|E33
 1 Visages|E33
-4 Forest|E33
-4 Island|E33
+2 Forest|E33
+2 Island|E33
+4 Mountain|E33
 4 Plains|E33
-5 Mountain|E33
 5 Swamp|E33
 [Commander]
 1 The Curator|E33
