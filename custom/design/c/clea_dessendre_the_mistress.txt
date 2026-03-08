@@ -41,6 +41,7 @@ artifact-removal
 enchantment-removal
 [Rulings]
  - When using the -4 ability, your token copy will have a sub-type of Nevron.
+ - If you have any permanent with Changeling in play, the Amass Nevrons 2 ability will give it two +1/+1 counters instead of making a Nevron Army token, since Changeling means the permanent will already have a sub-type of Army.
 [Bugs]
  - When using the -4 ability on a non-creature permanent, the token copy does not appear to have the Nevron sub-type.
 [DesignNotes]
