@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 7/3/2026 9:54:24 am
+> Last generated: 8/3/2026 2:53:09 pm
 
 ## Blade's Graveyard (Concealed Courtyard)
 
@@ -175,7 +175,7 @@ Land
 ### Design Notes
 
  - In the game, the party can set up camp in the overworld to upgrade their equipment and replenish party health.
- - I envision this card as a "refuge" for Expeditioners ala. Safe Haven, so I've gone with a blink effect to signify the Expeditioner taking refuge and it coming back with a +1/+1 counter to signify it having ugpraded some of their equipment.
+ - I envision this card as a "refuge" for Expeditioners ala. Safe Haven, so I've gone with a blink effect to signify the Expeditioner taking refuge and it coming back with a +1/+1 counter to signify it having upgraded some of their equipment.
  - Intentionally worded to allow blinking of any Expeditioner *permanent*
  - 1/1/2026: Fixed targeting prompt
 
@@ -371,6 +371,7 @@ The Aquafarm project ensured that Lumière would have a plentiful supply of food
  - Obviously expeditioner aligned so they get a ETB tapped sidestep.
  - It's a farm so obviously needs a Food token generating ability.
  - The concept art was chosen as it looked abstract enough in its depiction that it could be interpreted as a hydroponic farm which better fits the description of an Aquafarm that supplies food. Whereas its in-game depiction is clearly a rooftop greenhouse, that grows only flowers and not food.
+ - Aforementioned art choice now moot since depiction is now generated with Gemini.
 
 
 ### Rulings

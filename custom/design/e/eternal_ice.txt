@@ -26,4 +26,4 @@ enchantment-removal
 nonbasic-hate
 [DesignNotes]
  - In the game, Eternal Ice is a quest item obtained after defeating the Gargant.
- - Went with standard blue pin-down effect for limited/draft
+ - Card design is solely based on the name with no thematic/mechanical association with the quest item. Went with standard blue pin-down effect for limited/draft.

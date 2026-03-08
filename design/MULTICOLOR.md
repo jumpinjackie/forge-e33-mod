@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 7/3/2026 9:54:24 am
+> Last generated: 8/3/2026 2:53:09 pm
 
 ## Aberration
 
@@ -325,6 +325,7 @@ Nevron spells you cast cost {1} less to cast.
 ### Rulings
 
  - When using the -4 ability, your token copy will have a sub-type of Nevron.
+ - If you have any permanent with Changeling in play, the Amass Nevrons 2 ability will give it two +1/+1 counters instead of making a Nevron Army token, since Changeling means the permanent will already have a sub-type of Army.
 
 ## Clea Unleashed
 

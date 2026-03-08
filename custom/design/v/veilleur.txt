@@ -29,7 +29,7 @@ Sandfall Interactive
 70
 [DesignNotes]
  - In the game, Veilleurs can be found in The Reacher and Renoir's Drafts.
- - It's main gimmick is inflicting the blight debuff which perma-reduces a characters HP bar by a fixed percentage. Translated to the same blightning ability as Échassier.
+ - It's main gimmick is inflicting the blight debuff which perma-reduces a characters HP bar by a fixed percentage. Translated to the same blight ability as Échassier.
  - Gave it Deathtouch to match its blighting nature.
  - 20/01/2026: Added AI targeting hints
  - 3/02/2026: Reduce cost from 4B to 3B and PT from 4/4 to 3/4

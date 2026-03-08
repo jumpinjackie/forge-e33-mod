@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 7/3/2026 9:54:24 am
+> Last generated: 8/3/2026 2:53:09 pm
 
 ## An Advantage!
 
@@ -211,7 +211,7 @@ Warmth is fleeting. Cold is eternal.
 ### Design Notes
 
  - In the game, Eternal Ice is a quest item obtained after defeating the Gargant.
- - Went with standard blue pin-down effect for limited/draft
+ - Card design is solely based on the name with no thematic/mechanical association with the quest item. Went with standard blue pin-down effect for limited/draft.
 
 ## Expedition 40 Glider
 
@@ -255,7 +255,7 @@ Crew 2
 
 ### Design Notes
 
- - In the game, Expedition 43 tried using Submarines to traverse the continent without encountering Nevrons. This ended in failure when they were wiped out by Serpenphare.
+ - In the game, Expedition 43 tried using Submarines to traverse the continent without encountering Nevrons. This ended in failure when they were wiped out by the Serpenphare.
  - Easy mechanical map to a vehicle. Mostly adapted from Silent Submersible.
 
 ## Expedition 68 Navigator
@@ -592,7 +592,7 @@ If {G} was spent on this spell, you gain 2 life for each creature on the battlef
 
 ### Rulings
 
- - You nominate a target creature for the "deals X damage ability" as part of putting the spell on the stack. It will only then deal X damage to said creature on resolution if you spent {R} on the spell.
+ - You nominate a target for the "deals X damage ability" as part of putting the spell on the stack. It will only then deal X damage to said target on resolution if you spent {R} on the spell.
 
 ## Spreading Seas
 
