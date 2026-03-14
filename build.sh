@@ -17,15 +17,32 @@ echo "ROOT: $ROOT"
 echo "FORGE_DIR: $FORGE_DIR"
 echo "PICS_DIR: $PICS_DIR"
 
+# File-based dotnet scripts require .NET SDK 10+
+if ! command -v dotnet >/dev/null 2>&1; then
+  echo "Error: dotnet SDK not found in PATH. Install .NET SDK 10.0 or higher." >&2
+  exit 1
+fi
+
+DOTNET_VERSION="$(dotnet --version 2>/dev/null || true)"
+DOTNET_MAJOR="${DOTNET_VERSION%%.*}"
+case "$DOTNET_MAJOR" in
+  ''|*[!0-9]*)
+    echo "Error: Unable to parse 'dotnet --version' output: ${DOTNET_VERSION:-<empty>}. Expected .NET SDK 10.0 or higher." >&2
+    exit 1
+    ;;
+esac
+
+if [ "$DOTNET_MAJOR" -lt 10 ]; then
+  echo "Error: .NET SDK 10.0 or higher is required for 'dotnet run --file'. Found: $DOTNET_VERSION" >&2
+  exit 1
+fi
+
 # Run CardProcess to regenerate design files
-if [ -d "$ROOT/tools/CardProcess" ]; then
+if [ -f "$ROOT/card_process.cs" ]; then
   echo "Running CardProcess..."
-  cd "$ROOT/tools/CardProcess"
-  # run the dotnet tool from the project directory (like pushd/popd + dotnet run in the batch file)
-  dotnet run -- genall --base-directory "$ROOT/custom" --output-dir "$ROOT/design" --linkify-captions --image-base-url "$IMG_BASE_URL"
-  cd "$ROOT"
+  dotnet run --file "$ROOT/card_process.cs" -- genall --base-directory "$ROOT/custom" --output-dir "$ROOT/design" --linkify-captions --image-base-url "$IMG_BASE_URL"
 else
-  echo "Warning: $ROOT/tools/CardProcess not found; skipping CardProcess step." >&2
+  echo "Warning: $ROOT/card_process.cs not found; skipping CardProcess step." >&2
 fi
 
 # Ensure base Forge directories

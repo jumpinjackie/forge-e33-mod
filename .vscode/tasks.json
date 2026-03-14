@@ -6,10 +6,13 @@
             "command": "dotnet",
             "type": "process",
             "args": [
-                "build",
-                "${workspaceFolder}/tools/CardProcess/CardProcess.csproj",
-                "/property:GenerateFullPaths=true",
-                "/consoleloggerparameters:NoSummary"
+                "run",
+                "--file",
+                "${workspaceFolder}/card_process.cs",
+                "--",
+                "cardconjurer",
+                "--base-directory",
+                "${workspaceFolder}/custom"
             ],
             "problemMatcher": "$msCompile",
             "group": {

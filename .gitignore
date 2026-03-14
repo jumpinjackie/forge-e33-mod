@@ -1,3 +1,4 @@
 bin
 obj
 custom/dist
+.cardprocess-out

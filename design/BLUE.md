@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 8/3/2026 2:53:09 pm
+> Last generated: 14/3/2026 1:39:08 pm
 
 ## An Advantage!
 
@@ -407,7 +407,7 @@ Kindred Sorcery - Expeditioner
 Gustave's Insight has flash as long as you control an Expeditioner.
 Look at the top five cards of your library. Put two of them into your hand and the rest on the bottom of your library in any order.
 ---
-"Enjoying my uselessness of today and readying my usefulness for tomorrow."
+"I'm enjoying my uselessness of today, and readying my usefulness for tomorrow."
 ```
 
 [card implementation](../custom/cards/g/gustaves_insight.txt)

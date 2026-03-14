@@ -1,4 +1,13 @@
-﻿using System.Diagnostics;
+#!/usr/bin/env dotnet
+#:property TargetFramework=net10.0
+#:property PublishAot=false
+#:property AssemblyName=CardProcess
+#:property OutputPath=./.cardprocess-out/
+#:property AppendTargetFrameworkToOutputPath=false
+#:property AppendRuntimeIdentifierToOutputPath=false
+#:package DotMake.CommandLine@2.8.1
+
+using System.Diagnostics;
 using System.Globalization;
 using System.IO;
 using System.Text;

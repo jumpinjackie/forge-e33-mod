@@ -17,7 +17,7 @@ This is a fan project and is not affiliated with Sandfall Interactive or Wizards
 
 ## From source
 
-> NOTE: You will need to have the .net SDK 9.0 or higher installed as both scripts will be building the CardProcess pre-processor tool.
+> NOTE: You will need .NET SDK 10.0 or higher installed to run the `card_process.cs` file-based pre-processor tool.
 
 1. Install forge (latest stable or snapshot release)
 2. Git clone this repo
@@ -61,7 +61,7 @@ If you want to run a custom cube draft with this set, assuming you installed the
 
 ## From source
 
-> NOTE: You will need to have the .net SDK 9.0 or higher installed as both scripts will be building the CardProcess pre-processor tool.
+> NOTE: You will need .NET SDK 10.0 or higher installed to run the `card_process.cs` file-based pre-processor tool.
 
 1. Install Cockatrice
 2. Git clone this repo
