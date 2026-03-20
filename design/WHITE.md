@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 8/3/2026 2:53:09 pm
+> Last generated: 20/3/2026 1:49:24 am
 
 ## A Life to Love (Farewell)
 
@@ -348,7 +348,7 @@ When this creature dies, create a Chroma token.
 
 ### Design Notes
 
- - Vanilla bear wtih Rebel sub-type (as a synonmym of dissent)
+ - Vanilla bear with Rebel sub-type (as a synonym of dissent)
  - 26/01/2026: To improve playability, added the Rebel chain tutoring ability but can also get Expeditioners.
 
 ## Expedition Recruiter
@@ -492,7 +492,7 @@ Create a Lumina token. (It's an artifact with "{T}, Sacrifice this artifact: Scr
 
  - In the game, this is one of Maelle's skills
  - Roil's Retribution fits the bill (in both flavor and mechanics), so it was chosen as a nickname reprint for this.
- - 21/01/2026: Converted to a functional reprint of Roil's Retirbution (instead of a nicknamed reprint) so we can add an Expeditioner sub-type and tack on a Lumina token bonus.
+ - 21/01/2026: Converted to a functional reprint of Roil's Retribution (instead of a nicknamed reprint) so we can add an Expeditioner sub-type and tack on a Lumina token bonus.
 
 ## Perfect Dodge
 
@@ -694,7 +694,7 @@ When this creature enters, draw a card if {U} was spent to cast it, you gain 3 l
 
 ### Design Notes
 
- - In the game, an Unfinished Jar can be found in Spring Meadows. It wants you to find something (resin) to light its lamp. Doing so will reward you wtih a healing tint shard.
+ - In the game, an Unfinished Jar can be found in Spring Meadows. It wants you to find something (resin) to light its lamp. Doing so will reward you with a healing tint shard.
  - Modeled this as a "vanilla" Nevron that "lights up" with extra abilities and beneficial ETB triggers if you spend extra colors of mana (the light) on it. If you can spend all 5 colors of mana on it, you get the full suite of benefits.
 
 ## Unfinished Portier

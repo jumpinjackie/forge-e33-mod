@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 7/3/2026 9:54:24 am
+> Last generated: 20/3/2026 1:49:24 am
 
 ## A Rock for François
 
@@ -100,7 +100,7 @@ Learn Picto 2
      - Combo: Gives double strike
      - Energizing: Gives Chroma token when equipped creature attacks
  - The station mechanic from Edge of Eternities has given us the ideal template to base this card implementation from as the buffs and abilities granted based on counter type follow the same pattern as buffs and abilities based on the number of charge counters in the station mechanic, only we're more finicky about the specific type of counter.
- - This is a slight deviation from the video game lore as we're effectively smushing 3 (in-game depicted) Pictos into one. But we are doing this for a good reason. Pictos indvidually are somewhat dull when translated to MTG mechanics. The replication gimmick is unique, but it ultimately still is just provides some basic buff or combat-related ability. This modal design allows us to strategically choose the best buffs/abilities for any given situation, with the replication ability allowing one to cover all bases ability-wise.
+ - This is a slight deviation from the video game lore as we're effectively smushing 3 (in-game depicted) Pictos into one. But we are doing this for a good reason. Pictos individually are somewhat dull when translated to MTG mechanics. The replication gimmick is unique, but it ultimately still is just provides some basic buff or combat-related ability. This modal design allows us to strategically choose the best buffs/abilities for any given situation, with the replication ability allowing one to cover all bases ability-wise.
  - 11/11/2025: Made energizing counter mode also reward a Lumina token.
 
 ## Barrier Breaker (Blackblade Reforged)
@@ -386,7 +386,7 @@ Crew 4
 ### Design Notes
 
  - In the game, Expedition 50 built a giant ferris wheel to traverse the waters of the continent, but Serpenphare stopped their progression.
- - This card depicts this contraption. Clearly a vehicle with fatty stats. The weakness to blue creatures in combat is a nod to Serpenphare being the wheel's achillies' heel.
+ - This card depicts this contraption. Clearly a vehicle with fatty stats. The weakness to blue creatures in combat is a nod to Serpenphare being the wheel's Achilles' heel.
 
 ## Expedition 64 Radio
 
@@ -787,7 +787,7 @@ Learn Picto 2 (Sacrifice two Lumina tokens: Create a token copy of this equipmen
 
 ### Design Notes
 
- - In the game, Glass Cannon lets a chacter deal 25% more damage, but take 25% more damage as well.
+ - In the game, Glass Cannon lets a character deal 25% more damage, but take 25% more damage as well.
  - Mapped to creature power pump at the expense of its toughness.
  - Granted defender exemption to incentivize equipping to Walls and other high toughness creatures that likely have defender.
  - 12/11/2025: Could not get the variable P/T pump to work, so gone with a flat 6/1 base P/T that conveys the same intent.
@@ -1207,7 +1207,7 @@ Whenever another nontoken Gestral creature you control enters, create a Chroma t
  - 6/10/2025: Gone with a Chroma rewarding ability.
  - 13/10/2025: Formerly known as Sastro, the Concerned
  - 22/10/2025: Fixed chroma bonus triggering on any nontoken creature
- - 27/01/2026: Updated shield abiliry to require tapping and can only target other gestrals.
+ - 27/01/2026: Updated shield ability to require tapping and can only target other gestrals.
 
 ## Shot Picto
 
@@ -1474,7 +1474,7 @@ Legendary Artifact - Rock
 
  - In the game Urrie is a quest item which will grant Esquie the ability to dive when swimming in the Continent overworld
  - In this set, Urrie is 1 of 4 legendary "Rock" artifacts which will grant benefits to other cards if this or other members of the quartet are in play, just like Urza's Tower, Mine and Power Plant become more powerful when all of them are in play, I am trying to go for a similar outcome with this quartet.
-    - Mechanically, my line of thought is diving > digging > Surveiling.
+    - Mechanically, my line of thought is diving > digging > Surveilling.
  - 29/12/2025: Changed from Surveil 2 to Surveil 1 and cost from {1} to {2}
 
 ## Verso's Toy Chest

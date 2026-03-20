@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 8/3/2026 2:53:09 pm
+> Last generated: 20/3/2026 1:49:24 am
 
 ## Aberration
 
@@ -133,7 +133,7 @@ Maelle: "Ooh dark. Sophie would approve."
 
  - In the game's prologue, Gustave reunites with Sophie on the day of her gommage. It is undoubtedly a bittersweet reunion.
  - The base template is Family Reunion, it was a case of how best to weave in the "Bittersweet" aspect.
- - Gone with an enchantment that triggers an oppoent discard and life loss (the Bittersweet part)
+ - Gone with an enchantment that triggers an opponent discard and life loss (the Bittersweet part)
  - The "Family Reunion" part is an ability activated through saccing the enchantment.
 
 ## Bourgeon
@@ -203,7 +203,7 @@ Some rules can be bent, some can be broken.
 
 ### Design Notes
 
- - In the game, Breaking Rules is one of Maelle's abiliites.
+ - In the game, Breaking Rules is one of Maelle's abilities.
  - For the card, I've disregarded all thematic/mechanical associations and designed the card only based on the name. We need cheap artifact/enchantment hate in this set, and the name fits the bill for what I'm after, so I've turned this to a variant of Overload that can also hit enchantments.
  - 14/01/2026: Added Lumina token bonus on resolution.
 
@@ -224,7 +224,7 @@ Enchanted permanent becomes an artifact and loses all abilities.
 ### Design Notes
 
  - Represents the effect inflicted on a good bunch of previous Expeditioners that turned them into statues with their Chroma trapped within.
- - I orignally wanted this to turn into a "do nothing" artifact, but I think the "Enchant creature" restriction means this is a nonbo and the aura immediately "falls off". Will revisit later with "Enchant permanent" to see if this gives my desired result.
+ - I originally wanted this to turn into a "do nothing" artifact, but I think the "Enchant creature" restriction means this is a nonbo and the aura immediately "falls off". Will revisit later with "Enchant permanent" to see if this gives my desired result.
     - Until then, I've gone with a 0/1 artifact creature.
     - 23/09/2025: Now enchanting permanents so we can achieve the "inert artifact" effect. A slight flavor loss since this can now target more than just creatures, but I am more after the petrification effect than it needing to only target creatures
 
@@ -316,7 +316,7 @@ Nevron spells you cast cost {1} less to cast.
     - -2: She can conjure up any Nevron
     - -4: She is known to have the unique ability of "painting over" other's creations. Modeled as exile with Nevron clone copy.
     - -10: She is a shrewd manipulator
- - 26/11/2025: Made her -2 loyalty only tutor up Nevron creatures, so that Clea's Chromatic Mastery acutally does something unique (tutor up any Nevron card, not just creatures)
+ - 26/11/2025: Made her -2 loyalty only tutor up Nevron creatures, so that Clea's Chromatic Mastery actually does something unique (tutor up any Nevron card, not just creatures)
  - 14/12/2025: Changed her +2 loyalty to Amass a black Nevron army instead of creating a 1/1 Nevron to mix things up.
  - 27/01/2026: Increased cost from 2UB to 3UB
  - 28/01/2026: Renamed from "Clea Dessendre, Seeking Vengeance" to "Clea Dessendre, the Mistress"
@@ -506,7 +506,7 @@ When Esquie attacks, if it is saddled, choose one —
 ### Design Notes
 
  - In the game, Esquie is the character the rest of the party rides on to travel across the Continent overworld.
- - In the game, Esquie gains additional powers through consuming the rocks, Florrie (swimming), Dorrie (smash thorugh coral barriers), Soarrie (flying) and Urrie (diving)
+ - In the game, Esquie gains additional powers through consuming the rocks, Florrie (swimming), Dorrie (smash through coral barriers), Soarrie (flying) and Urrie (diving)
  - Mechanically, it makes 100% sense this should be a Mount artifact creature with Saddle
     - Because I want to enable an "Urzatron" strategy with the 4 legendary rocks, I am deviating from lore by having these 4 rocks grant extra abilities to Esquie when on the battlefield instead of sacrificing them to Esquie to give them these abilities
     - Mechanically I've interpreted Esquies abilities as:
@@ -536,7 +536,7 @@ If you control a card named Urrie, you may put a land card from your hand onto t
 
  - In the game, at the Stone Wave Cliffs, the party witnesses some of Esquie's power by effortlessly taking down a giant Bourgeon.
  - Gone with a bolt with various rock-boosted bonuses to flesh out the Rock Urzatron archetype.
- - Mild thematic mismatch in terms of bonuses given based on the given rock as the rocks are primarly combat-based buffs for Esquie (if you follow the lore to the letter). But if we want the Rock Urzatron archetype to be viable, we need some utility-based payoffs for assembling the quartet, so this is an acceptable thematic compromise.
+ - Mild thematic mismatch in terms of bonuses given based on the given rock as the rocks are primarily combat-based buffs for Esquie (if you follow the lore to the letter). But if we want the Rock Urzatron archetype to be viable, we need some utility-based payoffs for assembling the quartet, so this is an acceptable thematic compromise.
 
 ## Esquie's Embrace
 
@@ -658,9 +658,9 @@ When this creature dies, create a Chroma token.
 
 ### Design Notes
 
- - Modeled drunkeness as temporary high power / low toughness
+ - Modeled drunkenness as temporary high power / low toughness
  - The expeditioner depicted in the art is actually dead, but without any context seeing the body is next to a crate of booze, it can easily be interpreted that the Expeditioner is absolutely drunk and passed out.
- - 28/02/2026: Above note no longer relevant as this depiciton was now generated wtih Google Gemini.
+ - 28/02/2026: Above note no longer relevant as this depiction was now generated with Google Gemini.
 
 ## Expedition 53 Herbalist
 
@@ -723,7 +723,7 @@ III — Until end of turn, Food tokens you control gain "{2}, Sacrifice this art
  - Journal is a story of Expeditioners making the fatal mistake of eating dead nevrons for sustenance
  - "Food poisoning" ability adapted from Asmoranomardicadaistinaculdacar's ability
  - 1/1/2026: Make the food poisoning ability cost {1} and sac.
- - 14/01/2026: Increased food poisioning activation from {1} to {2}
+ - 14/01/2026: Increased food poisoning activation from {1} to {2}
  - 27/02/2026: Changed chapter 1 to straight creature kill. Mild flavor loss, but should improve playability. Does not compromise the main story told by the card: A bunch of Expeditioners suffering food poisoning.
 
 
@@ -754,8 +754,8 @@ When this creature dies, create a Chroma token.
  - This card represents the genius who suggested such an idea.
  - Has strong mechanical similarity to Asmoranomardicadaistinaculdacar so has the same "food poisoning" ability.
  - 5/10/2025: Reduced cost from 2(B/G) to 1(B/G)
- - 1/1/2026: Made food poisioning cost {1} and sac and make it targeting non-Nevron creatures to avoid this being able to machine gun an entire board of low-tier Nevrons.
- - 14/01/2026: Increased food poisioning activation from {1} to {2}
+ - 1/1/2026: Made food poisoning cost {1} and sac and make it targeting non-Nevron creatures to avoid this being able to machine gun an entire board of low-tier Nevrons.
+ - 14/01/2026: Increased food poisoning activation from {1} to {2}
 
 
 ### Rulings
@@ -779,7 +779,7 @@ III — Un-modified creatures you control gain vigilance, menace, trample and +3
 
  - Journal is a story of expeditioners who almost succeeded in their mission through raw human strength and discovered the true enemy is not The Paintress, but someone underneath the Monolith, but this realization came too late as they were claimed by the Gommage before this discovery could be relayed back the citizens of Lumière.
  - Mechanically mapped to giving various offensive buffs to un-modified creatures with an overrun with extras on the final chapter. Only buffs un-modified creatures because these giga-chads don't have use for pithy things like clothing and armor.
- - 30/09/2025: Changed from 1RG to 2WG, double strike -> vigilance, hexproof -> menance. Original card was too powerful wtih "go wide" strategies
+ - 30/09/2025: Changed from 1RG to 2WG, double strike -> vigilance, hexproof -> menace. Original card was too powerful with "go wide" strategies
 
 ## Expedition 63 Driver
 
@@ -1059,7 +1059,7 @@ As long as this enchantment has four or more quest counters on it, creatures you
 ### Design Notes
 
  - In the game, the Gestral Seesaw Challenge is 1 of 2 challenge minigames in Verso's Drafts. In this minigame you must time jumps on a seesaw.
- - This enchantment grows quest counters from you flying creatures entering or attacking. The see-saw effect is acheived by this enchantment losing quest counters from opponents doing the same thing with their flyers.
+ - This enchantment grows quest counters from you flying creatures entering or attacking. The see-saw effect is achieved by this enchantment losing quest counters from opponents doing the same thing with their flyers.
  - The final payoff is lord P/T buff.
  - 14/02/2026: Changed final payoff to be a +2/+2 buff.
 
@@ -1171,7 +1171,7 @@ Absorbs Flowers — Whenever a Flower token leaves the battlefield, choose one �
     - Added reach. 
     - Removed Red/Blue Flower tokens and gone with just a Flower token to which is a temur mana rock. There's not enough text box budget to mention two different tokens and the triggering off of both of them. 
     - Changed Flower leave triggers to a (mandatory) modal choice off of any flower token leaving. This was because Forge does not seem to acknowledge token leave triggers of a specific token name.
-       - The shield and +1/+1 counter abiliies from the blue/red flower tokens have been moved here.
+       - The shield and +1/+1 counter abilities from the blue/red flower tokens have been moved here.
 
 
 ### Rulings
@@ -1216,7 +1216,7 @@ Exile X target nonland permanents with mana value X or higher that aren’t lege
  - In the game, the Gommage is a yearly event where people above a certain age (indicated on the Monolith) are erased from existence. It is also a gradient attack power that Maelle gains in the late game that can deal extreme singular damage.
  - Mechanically, this is easily a mass exile effect. It spares legendaries and Nevrons as this event only affects the humans of the continent.
  - Has painter's discount as this is clearly a power wielded by the painters.
- - 26/11/2025: It has come to my attention that this name is already taken in French (for the English card: Blot Out). However since, this is an English printing and that this is a custom set, there is no collsion issues with this card in Forge.
+ - 26/11/2025: It has come to my attention that this name is already taken in French (for the English card: Blot Out). However since, this is an English printing and that this is a custom set, there is no collision issues with this card in Forge.
  - 21/01/2026: Removed painter's discount and changed the design from mass-exile to an X spell that takes out X nonland permanents with mana value X or higher. This adds extra skill in determining an appropriate value for X. Low values for X will guarantee something you want gets hit, but you can only probably hit 1 or 2 targets. Higher values of X reduce candidate targets, but you can hit more of them.
 
 
@@ -1336,7 +1336,7 @@ Overcharge — {T}, Remove X charge counters from Gustave: Gustave deals X damag
  - Finally, overcharge (the ability we're all building towards) in the game deals high lightning damage based on the number of charges. Translated this to an X damage ability to a creature and its controller (where X is the number of charge counters removed).
  - 23/09/2025: It may look a bit odd to have blue color identity but no actual abilities that cost blue mana. I added the blue color identity strictly for flavor purposes because he's an engineer and engineers are almost always a blue color identity.
  - 13/10/2025: Dropped the marking shot ability due to text box budget constraints having seen this card for the first time in CardConjurer.
- - 14/02/2026: Reorder mana symbols for consistency with actual cards with hybrd/regular pip combinations
+ - 14/02/2026: Reorder mana symbols for consistency with actual cards with hybrid/regular pip combinations
 
 ## Lampmaster
 
@@ -1416,7 +1416,7 @@ At the beginning of each end step, remove all flying counters on Licornapieds.
 
 ### Design Notes
 
- - In the game, Licornapieds is an optional boss in Verso's Drafts. They have the appearance of a Licorne fused wtih a Machinepieds.
+ - In the game, Licornapieds is an optional boss in Verso's Drafts. They have the appearance of a Licorne fused with a Machinepieds.
  - The ability suite is very similar to that of Dominique Giant Feet, so has the same abilities but with adjusted costs plus a Barbapapa debuff ETB + Trample + Double Strike
 
 
@@ -1502,7 +1502,7 @@ Elemental Genesis — {T}, Remove four stain counters from Lune: Lune deals 4 da
         - Red: The Wildfire ability
         - Green/White: The Tree of Life ability
     - The Elemental Genesis "ultimate" requires no extra mana cost because getting to 4 stain counters is enough investment already.
- - 26/12/2025: Figured out a way to implement a max 4 stain counter limit to match her video game counterpart. Due to limitations on expressing this "4 stain counters max" constraint in Forge, I expect that this limit can be easily cicumvented through other means in Forge (ie. Alternate ways of putting stain counters that are not Lune's triggered ability) and I can live with that. The intent in *paper* play is definitely 4 stain counters max, no ifs or buts. No shenanigans with Doubling Season or other counter replicators.
+ - 26/12/2025: Figured out a way to implement a max 4 stain counter limit to match her video game counterpart. Due to limitations on expressing this "4 stain counters max" constraint in Forge, I expect that this limit can be easily circumvented through other means in Forge (ie. Alternate ways of putting stain counters that are not Lune's triggered ability) and I can live with that. The intent in *paper* play is definitely 4 stain counters max, no ifs or buts. No shenanigans with Doubling Season or other counter replicators.
  - 21/01/2026: Changed "Elemental Genesis" ultimate from targeting 4 targets to 2 targets.
  - 14/02/2026: Replaced Wildfire ability with Rebirth. Changed cost from RGWU to 1(G/W)UR
 
@@ -1860,7 +1860,7 @@ Her silence is deafening.
  - Thematically gone with another variant of silence effects to mirror her human counterpart.
     - In this case, an Ethersworn Canonist with Nevron/Painter bias.
     - And a Silence effect for the cost of 3 chroma tokens.
- - 4/11/2025: Exchanged abiltiies with human Alicia. Replaced Nevrons with Expeditioners for the null rod effect.
+ - 4/11/2025: Exchanged abilities with human Alicia. Replaced Nevrons with Expeditioners for the null rod effect.
  - 16/01/2026: Changed creature type from "Painter God" to "Painter Avatar"
  - 27/02/2026: Gave it flash and Orim's Chant ETB to improve playability.
 
@@ -1884,7 +1884,7 @@ Sacrifice a Nevron: Draw a card.
 ### Design Notes
 
  - In the game, Painted Clea was painted by Aline, but was then repainted over by the real Clea and re-purposed to be what amounts to an endless "Nevron factory"
- - Mechanically, Painted Clea is our Nevorn lord, so I've gone with an assortment of "build around" abilities.
+ - Mechanically, Painted Clea is our Nevron lord, so I've gone with an assortment of "build around" abilities.
     - Nevron cost reduction
     - Nevron P/T buffs
     - Ability to put out Nevron tokens automatically every upkeep
@@ -2031,8 +2031,8 @@ Our Sacrifice - {1}{B}{B}, {T}, Pay X life: Up to two target creatures each get 
 
 ### Design Notes
 
- - Sciel is a kind, emphatheic, nurturing character that specializes in weapons and attacks that deal dark damage. Clearly an Orzhov color identity.
- - In the game, Sciel's attacks build up foretell, which can then be consumed later on for even more powerful attacks. We are using Foretell in the literal sense by re-using the existing Foretell mechanic by having Sciel granting all nonland cards in your hand to be foretelled.
+ - Sciel is a kind, empathetic, nurturing character that specializes in weapons and attacks that deal dark damage. Clearly an Orzhov color identity.
+ - In the game, Sciel's attacks build up foretell, which can then be consumed later on for even more powerful attacks. We are using Foretell in the literal sense by re-using the existing Foretell mechanic by having Sciel granting all nonland cards in your hand to be foretold.
  - Marking Card is just a creature ping that puts a marked counter on it. A creature with a marked counter will be a magnet for more damage.
  - Grim Harvest deals dark damage heals allies. Translated to a creature bolt that also gives you life.
  - Intervention in the game lets an ally play immediately and gain 4 AP. Translated to untapping a creature and giving you a Chroma token.
@@ -2241,7 +2241,7 @@ Stendhal deals 33 damage to target creature or planeswalker.
  - Taken another chance to weave in a use of the number 33 by dealing that much to a creature or planeswalker. When you absolutely need to kill something, accept no substitute.
  - Has devoid because it deals extreme void damage in-game.
  - Has Affinity for Lumina (tokens) to not only make casting this easier, but also as a nod to the pictos/lumina investment required in-game to make Stendhal deal damage in the millions.
- - I orignally had thoughts about making it targeting players as well, but with some side-mission you must take to unlock the ability to target players (whether by suspend or mana payment requirements), but decided against that as this set already has 2 single-handed "you win the game if certain conditions are met" cards. That's enough, we don't need another one. However, this does A+B combo win the game with another card (if you can find it!).
+ - I originally had thoughts about making it targeting players as well, but with some side-mission you must take to unlock the ability to target players (whether by suspend or mana payment requirements), but decided against that as this set already has 2 single-handed "you win the game if certain conditions are met" cards. That's enough, we don't need another one. However, this does A+B combo win the game with another card (if you can find it!).
  - 5/02/2026: Added Expeditioner sub-type.
 
 ## Terminate
@@ -2334,7 +2334,7 @@ The city of Lumière was uprooted and flung into the ocean. Soon after, The Mono
 ### Design Notes
 
  - In the game, The Fracture is a cataclysmic event which marks the appearance of The Monolith and sets in motion the annual yearly gommage.
- - Mechanically, this event itself is only catalclysmic in terms of the continent landscape, while there may have been human casualties in this event, this event was more about the altered landscape of the continent, thus it is clear that this event should be a non-basic land mass destruction effect like Ruination (non-basic so it doesn't become a strictly better Armageddon and to reward players who play basic lands).
+ - Mechanically, this event itself is only cataclysmic in terms of the continent landscape, while there may have been human casualties in this event, this event was more about the altered landscape of the continent, thus it is clear that this event should be a non-basic land mass destruction effect like Ruination (non-basic so it doesn't become a strictly better Armageddon and to reward players who play basic lands).
      - The tutoring effect for The Monolith thematically maps to the appearance of The Monolith in the game.
  - 5/11/2025: NOTE the explicit unicode left and right double-quotes around the number 100 in the flavor text. This is intentional as it is to workaround a CardConjurer bug that improperly surrounds 100 with a pair of left unicode double quotes if you use regular ascii double quotes. DO NOT EDIT THIS unless you are going to rewrite the entire flavor text.
  - 21/01/2026: Color-shifted to white to white/red hybrid
@@ -2541,7 +2541,7 @@ Phantom Stars — {4}{W}, {T}, Remove X rank counters from Verso: Verso deals X 
  - Added an assortment of buffs and abilities that are conditional on the number of rank counters.
  - "Phantom Stars" ultimate is paid in rank counters for game balance purposes. In game, none of Verso's abilities cost him is rank.
  - 21/01/2026: Changed "Phantom Stars" ultimate to only target up to 2 creatures instead of all creatures target opponent controls.
- - 14/02/2026: Reorder mana symbols for consistency with actual cards with hybrd/regular pip combinations
+ - 14/02/2026: Reorder mana symbols for consistency with actual cards with hybrid/regular pip combinations
 
 ## Verso's Sky Train
 

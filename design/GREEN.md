@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 7/3/2026 9:54:24 am
+> Last generated: 20/3/2026 1:49:24 am
 
 ## Abbest
 
@@ -46,7 +46,7 @@ When this creature dies, target opponent creates a Lumina token. (It's an artifa
 
 ### Design Notes
 
- - Another vanila Nevron. Flying because these things are hard to hit with melee attacks in the actual game.
+ - Another vanilla Nevron. Flying because these things are hard to hit with melee attacks in the actual game.
  - 23/09/2025: Move color identity from white/green to red/green to make way for White Nevrons.
  - 13/10/2025: Removed Devoid.
  - 13/12/2025: Changed cost from 1{RG}{RG} to {RG}{RG}
@@ -345,7 +345,7 @@ When this creature dies, create a Chroma token.
 ### Design Notes
 
  - In the game, Expedition 69 were responsible for most of the grappling points installed throughout the continent. Obviously then, members of this expeditions have a strong exploration theme.
- - For this card, I've gone with a land ramp effect with a surveil attack trigger to sell the Surveyor > Surveiling.
+ - For this card, I've gone with a land ramp effect with a surveil attack trigger to sell the Surveyor > Surveilling.
  - 19/02/2026: Reduce cost from 3G to 2G
 
 ## Face Adversity
@@ -411,7 +411,7 @@ When this creature dies, target opponent creates a Lumina token. (It's an artifa
 ### Design Notes
 
  - In the game, Gaults can be found in Yellow Harvest.
- - Vanilla Nevron with protection from green, since in the game it aborbs damage from any earth (green) attacks.
+ - Vanilla Nevron with protection from green, since in the game it absorbs damage from any earth (green) attacks.
 
 ## Gestral Climbing Challenge
 
@@ -637,7 +637,7 @@ Luminous — If you control three or more Lumina tokens, also return up to one t
 ### Design Notes
 
  - In the game, this is Lune's healing ability.
- - No mechanical relation. We've just re-approriated the name for a green regrowth-style spell.
+ - No mechanical relation. We've just re-appropriated the name for a green regrowth-style spell.
  - 23/11/2025: Rework the card so that the base is regrowing a creature card, with the additional regrowth of a non-creature card being a Luminous bonus.
 
 ## Rock Throw

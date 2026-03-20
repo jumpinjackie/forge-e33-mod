@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 14/3/2026 1:39:08 pm
+> Last generated: 20/3/2026 1:49:24 am
 
 ## An Advantage!
 
@@ -439,7 +439,7 @@ Exile target nonland permanent and put three time counters on it. If it doesn't 
 
 ### Design Notes
 
- - In the game, Alicia concots a plan to hide Verso's canvas first before entering and attempting to help expel Aline out of the canvas. Clea approves of her clever idea.
+ - In the game, Alicia concocts a plan to hide Verso's canvas first before entering and attempting to help expel Aline out of the canvas. Clea approves of her clever idea.
  - Gone with a card similar to Suspend (from MH2) but bumped up the cost to 1U and allow targeting any nonland permanent and suspending them for 3 time counters.
 
 ## Ice Lance
@@ -578,7 +578,7 @@ If {G} was spent on this spell, you gain 2 life for each creature on the battlef
 
 ### Design Notes
 
- - In the game, Sky Break is a level 3 gradient attack for Lune. It deals extreme damage to all enemies in a single hit with elemental damage type determined by the most prominent Stain that Lune currently has. Can also break enemmies, stunning them.
+ - In the game, Sky Break is a level 3 gradient attack for Lune. It deals extreme damage to all enemies in a single hit with elemental damage type determined by the most prominent Stain that Lune currently has. Can also break enemies, stunning them.
  - Mechanically, we've gone with the tap and stun as the base effect, with extra effects based on what colors of mana (stains) you spent on the spell.
     - Red is damage
     - White is exile

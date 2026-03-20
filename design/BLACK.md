@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 8/3/2026 2:53:09 pm
+> Last generated: 20/3/2026 1:49:24 am
 
 ## Axon Offering
 
@@ -48,7 +48,7 @@ When this creature dies, target opponent creates a Lumina token. (It's an artifa
 ### Design Notes
 
  - In the game, Chaliers can be found in the Forgotten Battlefield.
- - Vanilla Nevron. Could not determine approporiate color/elemental affinity so it's colorless.
+ - Vanilla Nevron. Could not determine appropriate color/elemental affinity so it's colorless.
  - 12/11/2025: Made it green and gave it a shield counter to emphasize its tough armored exterior.
  - 13/12/2025: Upon reviewing this enemy in game in a new DLC playthrough, made it black, changed cost to 2B and P/T to 3/2 and removed shield counter.
  - 3/02/2026: Changed cost from 2B to 1B and PT from 3/2 to 2/2. Added smashing jump ability.
@@ -457,7 +457,7 @@ Sends waves of Chroma — {B}{B}, {T}, Sacrifice X Chromas: Up to two target cre
 
 ### Design Notes
 
- - In the game, Painted Renoir is the primary antagnoist until his boss battle near the end of Act 2.
+ - In the game, Painted Renoir is the primary antagonist until his boss battle near the end of Act 2.
  - Vanish ability is an edict instead of exile just to balance things out. Not everything can be an exile ability even though it makes the most thematic sense.
  - Most of Painted Renoir's attacks in his boss fight is pretty unremarkable (in terms of mechanical translation). So the main gimmick we're replicating is its symbiotic link to the Dark Beast, who appears in his 2nd phase and instantly heals him. We mapped this to a symbiotic relationship akin to Minsc & Boo with P. Renoir being Minsc and the Dark Beast being Boo.
     - The beast healing him, we mapped to giving P.Renoir indestructible while Dark Chromatic Beast token is in your control.
@@ -522,7 +522,7 @@ When this creature dies, target opponent creates a Lumina token. (It's an artifa
 ### Design Notes
 
  - In the game, Creation is a high-tier Nevron that starts appearing in Act 3.
- - Named Renoir's Creation instead of Creation to reduce the possbility of name-squatting by real cards in the future.
+ - Named Renoir's Creation instead of Creation to reduce the possibility of name-squatting by real cards in the future.
  - The variable P/T is a nod to the creature's design in the video game. It is *literally* composed of Expeditioner corpses so it makes logical sense to have P/T based off of Expeditioner creature cards across all graveyards.
  - This should have Devoid (because its attacks deal void damage), but the Devoid frame in CardConjurer is transparent, requiring the art for this to be in portrait orientation where the subject is predominantly in the top-half. No such depiction can be sourced as all the possible candidates are in landscape. If we can source a depiction of this Nevron in portrait with the required constraints, then we'll add in Devoid.
  - 28/12/2025: Now has Devoid (thanks photo mode for letting me get a portrait-sized snap!)

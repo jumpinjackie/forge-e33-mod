@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 8/3/2026 2:53:09 pm
+> Last generated: 20/3/2026 1:49:24 am
 
 ## Blade's Graveyard (Concealed Courtyard)
 
@@ -338,7 +338,7 @@ Land - Town
 ### Design Notes
 
  - In the game, this is the home of the Gestrals.
- - A sol land for Gestral tribal decks. Due to their artifact nature, Gestrals are significantly easier to cast (unlike Eldrazi which require explicit coloress-pip producing lands), so where applicable, costs have increased, but this card is a bone thrown to to this deck to allow for some acceleration.
+ - A sol land for Gestral tribal decks. Due to their artifact nature, Gestrals are significantly easier to cast (unlike Eldrazi which require explicit colorless-pip producing lands), so where applicable, costs have increased, but this card is a bone thrown to to this deck to allow for some acceleration.
 
 ## Lost Woods (Blooming Marsh)
 
