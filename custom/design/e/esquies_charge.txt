@@ -31,4 +31,4 @@ planeswalker-removal
 [DesignNotes]
  - In the game, at the Stone Wave Cliffs, the party witnesses some of Esquie's power by effortlessly taking down a giant Bourgeon.
  - Gone with a bolt with various rock-boosted bonuses to flesh out the Rock Urzatron archetype.
- - Mild thematic mismatch in terms of bonuses given based on the given rock as the rocks are primarly combat-based buffs for Esquie (if you follow the lore to the letter). But if we want the Rock Urzatron archetype to be viable, we need some utility-based payoffs for assembling the quartet, so this is an acceptable thematic compromise.
+ - Mild thematic mismatch in terms of bonuses given based on the given rock as the rocks are primarily combat-based buffs for Esquie (if you follow the lore to the letter). But if we want the Rock Urzatron archetype to be viable, we need some utility-based payoffs for assembling the quartet, so this is an acceptable thematic compromise.

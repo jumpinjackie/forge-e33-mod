@@ -22,5 +22,5 @@ creature-removal
 artifact-removal
 enchantment-removal
 [DesignNotes]
- - In the game, Alicia concots a plan to hide Verso's canvas first before entering and attempting to help expel Aline out of the canvas. Clea approves of her clever idea.
+ - In the game, Alicia concocts a plan to hide Verso's canvas first before entering and attempting to help expel Aline out of the canvas. Clea approves of her clever idea.
  - Gone with a card similar to Suspend (from MH2) but bumped up the cost to 1U and allow targeting any nonland permanent and suspending them for 3 time counters.

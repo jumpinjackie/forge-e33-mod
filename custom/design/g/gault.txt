@@ -20,4 +20,4 @@ K:Protection from green
 $NEVRON_DEATH_ABILITY
 [DesignNotes]
  - In the game, Gaults can be found in Yellow Harvest.
- - Vanilla Nevron with protection from green, since in the game it aborbs damage from any earth (green) attacks.
+ - Vanilla Nevron with protection from green, since in the game it absorbs damage from any earth (green) attacks.

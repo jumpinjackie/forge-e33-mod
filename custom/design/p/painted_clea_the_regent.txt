@@ -36,7 +36,7 @@ c_1_1_nevron
 100
 [DesignNotes]
  - In the game, Painted Clea was painted by Aline, but was then repainted over by the real Clea and re-purposed to be what amounts to an endless "Nevron factory"
- - Mechanically, Painted Clea is our Nevorn lord, so I've gone with an assortment of "build around" abilities.
+ - Mechanically, Painted Clea is our Nevron lord, so I've gone with an assortment of "build around" abilities.
     - Nevron cost reduction
     - Nevron P/T buffs
     - Ability to put out Nevron tokens automatically every upkeep

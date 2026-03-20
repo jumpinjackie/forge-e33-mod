@@ -23,6 +23,6 @@ $EXPEDITIONER_DEATH_ABILITY
 [Artist]
 Sandfall Interactive
 [DesignNotes]
- - Modeled drunkeness as temporary high power / low toughness
+ - Modeled drunkenness as temporary high power / low toughness
  - The expeditioner depicted in the art is actually dead, but without any context seeing the body is next to a crate of booze, it can easily be interpreted that the Expeditioner is absolutely drunk and passed out.
- - 28/02/2026: Above note no longer relevant as this depiciton was now generated wtih Google Gemini.
+ - 28/02/2026: Above note no longer relevant as this depiction was now generated with Google Gemini.

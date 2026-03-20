@@ -25,4 +25,4 @@ DeckHas:Ability$Counters
 [DesignNotes]
  - Journal is a story of expeditioners who almost succeeded in their mission through raw human strength and discovered the true enemy is not The Paintress, but someone underneath the Monolith, but this realization came too late as they were claimed by the Gommage before this discovery could be relayed back the citizens of Lumière.
  - Mechanically mapped to giving various offensive buffs to un-modified creatures with an overrun with extras on the final chapter. Only buffs un-modified creatures because these giga-chads don't have use for pithy things like clothing and armor.
- - 30/09/2025: Changed from 1RG to 2WG, double strike -> vigilance, hexproof -> menance. Original card was too powerful wtih "go wide" strategies
+ - 30/09/2025: Changed from 1RG to 2WG, double strike -> vigilance, hexproof -> menace. Original card was too powerful with "go wide" strategies

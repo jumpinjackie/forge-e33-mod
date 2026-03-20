@@ -43,8 +43,8 @@ c_a_chroma
 [Tags]
 creature-removal
 [DesignNotes]
- - Sciel is a kind, emphatheic, nurturing character that specializes in weapons and attacks that deal dark damage. Clearly an Orzhov color identity.
- - In the game, Sciel's attacks build up foretell, which can then be consumed later on for even more powerful attacks. We are using Foretell in the literal sense by re-using the existing Foretell mechanic by having Sciel granting all nonland cards in your hand to be foretelled.
+ - Sciel is a kind, empathetic, nurturing character that specializes in weapons and attacks that deal dark damage. Clearly an Orzhov color identity.
+ - In the game, Sciel's attacks build up foretell, which can then be consumed later on for even more powerful attacks. We are using Foretell in the literal sense by re-using the existing Foretell mechanic by having Sciel granting all nonland cards in your hand to be foretold.
  - Marking Card is just a creature ping that puts a marked counter on it. A creature with a marked counter will be a magnet for more damage.
  - Grim Harvest deals dark damage heals allies. Translated to a creature bolt that also gives you life.
  - Intervention in the game lets an ally play immediately and gain 4 AP. Translated to untapping a creature and giving you a Chroma token.

@@ -37,4 +37,4 @@ c_a_chroma
  - 6/10/2025: Gone with a Chroma rewarding ability.
  - 13/10/2025: Formerly known as Sastro, the Concerned
  - 22/10/2025: Fixed chroma bonus triggering on any nontoken creature
- - 27/01/2026: Updated shield abiliry to require tapping and can only target other gestrals.
+ - 27/01/2026: Updated shield ability to require tapping and can only target other gestrals.
