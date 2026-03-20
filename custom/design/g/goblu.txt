@@ -59,4 +59,4 @@ creature-removal
     - Added reach. 
     - Removed Red/Blue Flower tokens and gone with just a Flower token to which is a temur mana rock. There's not enough text box budget to mention two different tokens and the triggering off of both of them. 
     - Changed Flower leave triggers to a (mandatory) modal choice off of any flower token leaving. This was because Forge does not seem to acknowledge token leave triggers of a specific token name.
-       - The shield and +1/+1 counter abiliies from the blue/red flower tokens have been moved here.
+       - The shield and +1/+1 counter abilities from the blue/red flower tokens have been moved here.

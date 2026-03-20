@@ -22,7 +22,7 @@ $PICTO_REPLICATE_ABILITY(2)
 [DraftScore]
 90
 [DesignNotes]
- - In the game, Glass Cannon lets a chacter deal 25% more damage, but take 25% more damage as well.
+ - In the game, Glass Cannon lets a character deal 25% more damage, but take 25% more damage as well.
  - Mapped to creature power pump at the expense of its toughness.
  - Granted defender exemption to incentivize equipping to Walls and other high toughness creatures that likely have defender.
  - 12/11/2025: Could not get the variable P/T pump to work, so gone with a flat 6/1 base P/T that conveys the same intent.

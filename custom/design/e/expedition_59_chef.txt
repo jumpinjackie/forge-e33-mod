@@ -38,5 +38,5 @@ creature-removal
  - This card represents the genius who suggested such an idea.
  - Has strong mechanical similarity to Asmoranomardicadaistinaculdacar so has the same "food poisoning" ability.
  - 5/10/2025: Reduced cost from 2(B/G) to 1(B/G)
- - 1/1/2026: Made food poisioning cost {1} and sac and make it targeting non-Nevron creatures to avoid this being able to machine gun an entire board of low-tier Nevrons.
- - 14/01/2026: Increased food poisioning activation from {1} to {2}
+ - 1/1/2026: Made food poisoning cost {1} and sac and make it targeting non-Nevron creatures to avoid this being able to machine gun an entire board of low-tier Nevrons.
+ - 14/01/2026: Increased food poisoning activation from {1} to {2}

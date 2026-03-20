@@ -25,7 +25,7 @@ DeckHas:Ability$Graveyard
 luminous
 [DesignNotes]
  - In the game, this is Lune's healing ability.
- - No mechanical relation. We've just re-approriated the name for a green regrowth-style spell.
+ - No mechanical relation. We've just re-appropriated the name for a green regrowth-style spell.
  - 23/11/2025: Rework the card so that the base is regrowing a creature card, with the additional regrowth of a non-creature card being a Luminous bonus.
 [Bugs]
  - The graveyard view closes after being prompted to choose a creature card and you are being prompted for a non-creature card. Re-opening the graveyard view lets you pick the non-creature card. Probably a Forge bug.

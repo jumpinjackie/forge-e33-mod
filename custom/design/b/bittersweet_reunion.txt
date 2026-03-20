@@ -30,5 +30,5 @@ combat-trick
 [DesignNotes]
  - In the game's prologue, Gustave reunites with Sophie on the day of her gommage. It is undoubtedly a bittersweet reunion.
  - The base template is Family Reunion, it was a case of how best to weave in the "Bittersweet" aspect.
- - Gone with an enchantment that triggers an oppoent discard and life loss (the Bittersweet part)
+ - Gone with an enchantment that triggers an opponent discard and life loss (the Bittersweet part)
  - The "Family Reunion" part is an ability activated through saccing the enchantment.

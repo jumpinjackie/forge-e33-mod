@@ -32,5 +32,5 @@ creature-removal
  - Journal is a story of Expeditioners making the fatal mistake of eating dead nevrons for sustenance
  - "Food poisoning" ability adapted from Asmoranomardicadaistinaculdacar's ability
  - 1/1/2026: Make the food poisoning ability cost {1} and sac.
- - 14/01/2026: Increased food poisioning activation from {1} to {2}
+ - 14/01/2026: Increased food poisoning activation from {1} to {2}
  - 27/02/2026: Changed chapter 1 to straight creature kill. Mild flavor loss, but should improve playability. Does not compromise the main story told by the card: A bunch of Expeditioners suffering food poisoning.

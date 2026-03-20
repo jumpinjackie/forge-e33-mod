@@ -28,6 +28,6 @@ DeckHints:Keyword$Flying
 Gestral Challenge Minigames
 [DesignNotes]
  - In the game, the Gestral Seesaw Challenge is 1 of 2 challenge minigames in Verso's Drafts. In this minigame you must time jumps on a seesaw.
- - This enchantment grows quest counters from you flying creatures entering or attacking. The see-saw effect is acheived by this enchantment losing quest counters from opponents doing the same thing with their flyers.
+ - This enchantment grows quest counters from you flying creatures entering or attacking. The see-saw effect is achieved by this enchantment losing quest counters from opponents doing the same thing with their flyers.
  - The final payoff is lord P/T buff.
  - 14/02/2026: Changed final payoff to be a +2/+2 buff.

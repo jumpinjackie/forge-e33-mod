@@ -27,4 +27,4 @@ lumina-generator
 [DesignNotes]
  - In the game, this is one of Maelle's skills
  - Roil's Retribution fits the bill (in both flavor and mechanics), so it was chosen as a nickname reprint for this.
- - 21/01/2026: Converted to a functional reprint of Roil's Retirbution (instead of a nicknamed reprint) so we can add an Expeditioner sub-type and tack on a Lumina token bonus.
+ - 21/01/2026: Converted to a functional reprint of Roil's Retribution (instead of a nicknamed reprint) so we can add an Expeditioner sub-type and tack on a Lumina token bonus.

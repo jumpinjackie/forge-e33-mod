@@ -35,6 +35,6 @@ S:Mode$ CantBeActivated | AffectedZone$ Battlefield | ValidCard$ Expeditioner,Ch
  - Thematically gone with another variant of silence effects to mirror her human counterpart.
     - In this case, an Ethersworn Canonist with Nevron/Painter bias.
     - And a Silence effect for the cost of 3 chroma tokens.
- - 4/11/2025: Exchanged abiltiies with human Alicia. Replaced Nevrons with Expeditioners for the null rod effect.
+ - 4/11/2025: Exchanged abilities with human Alicia. Replaced Nevrons with Expeditioners for the null rod effect.
  - 16/01/2026: Changed creature type from "Painter God" to "Painter Avatar"
  - 27/02/2026: Gave it flash and Orim's Chant ETB to improve playability.
