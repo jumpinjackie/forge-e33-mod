@@ -1,6 +1,6 @@
 Name:Robust Sakapatate
 ManaCost:3 R
-Types:Creature Nevron
+Types:Artifact Creature Nevron Construct
 PT:3/3
 K:etbCounter:SHIELD:1
 S:Mode$ ReduceCost | ValidCard$ Card.Self | Type$ Spell | Amount$ 1 | EffectZone$ All | IsPresent$ Gestral.YouCtrl | Description$ This spell costs {1} less to cast if you control a Gestral.

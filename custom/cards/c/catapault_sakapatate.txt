@@ -1,6 +1,6 @@
 Name:Catapault Sakapatate
 ManaCost:1 R
-Types:Creature Nevron
+Types:Artifact Creature Nevron Construct
 PT:2/2
 S:Mode$ ReduceCost | ValidCard$ Card.Self | Type$ Spell | Amount$ 1 | EffectZone$ All | IsPresent$ Gestral.YouCtrl | Description$ This spell costs {1} less to cast if you control a Gestral.
 T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Card.Self | OptionalDecider$ You | Execute$ TrigDeath | TriggerDescription$ When this creature dies, you may have this creature deal 2 damage to target creature.

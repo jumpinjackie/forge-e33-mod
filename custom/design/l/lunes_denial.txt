@@ -16,11 +16,15 @@ Lune with an extended open hand, dissipates some magical attack.
 [Oracle]
 You may sacrifice two Lumina tokens rather than pay this spell's mana cost.
 Counter target spell unless its controller pays {2}.
+{i}Luminous{/i} — If you control at least three Lumina tokens, instead counter target spell unless its controller pays {X}, where X is 2 plus the number of Lumina tokens you control.
 [FlavorText]
 "Not today!"
 [ForgeScript]
 S:Mode$ AlternativeCost | ValidSA$ Spell.Self | EffectZone$ All | Cost$ Sac<2/Lumina> | Description$ You may sacrifice two Lumina tokens rather than pay this spell's mana cost.
-A:SP$ Counter | TargetType$ Spell | TgtPrompt$ Select target spell | ValidTgts$ Card | UnlessCost$ 2 | SpellDescription$ Counter target spell unless its controller pays {2}.
+A:SP$ Counter | TargetType$ Spell | TgtPrompt$ Select target spell | ValidTgts$ Card | UnlessCost$ X | SpellDescription$ Counter target spell unless its controller pays {2}.
+SVar:LuminaTotal:Count$Valid Lumina.YouCtrl
+SVar:XLumina:SVar$LuminaTotal/Plus.2
+SVar:X:Count$Compare LuminaTotal GE3.XLumina.2
 [DesignNotes]
  - Mandatory soft-counter with thematic uniqueness
  - 18/10/2025: Replaced Lumina bonus with a Lumina sac alternate cost for extra surprise factor.

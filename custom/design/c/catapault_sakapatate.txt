@@ -4,8 +4,10 @@ Catapault Sakapatate
 1
 R
 [Types]
+Artifact
 Creature
 Nevron
+Construct
 [Rarity]
 C
 [Artist]
@@ -31,4 +33,5 @@ creature-removal
  - In the game, when you defeat a Catapault Sakapatate, it will try to do a last minute suicide move to do some damage before it goes.
  - Represented mechanically here as a simple shock-creature-on-death trigger.
  - 13/10/2025: Removed Devoid.
- - 21/10/2025: Added Gestral alliance cost reduction
+ - 21/10/2025: Added Gestral alliance cost reduction.
+ - 22/03/2026: Made into an Artifact Creature and added Construct sub-type.

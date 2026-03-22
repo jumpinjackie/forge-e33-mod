@@ -16585,8 +16585,8 @@
                     ]
                 },
                 {
-                    "name": "Red Frame",
-                    "src": "/img/frames/m15/regular/m15FrameR.png",
+                    "name": "Artifact Frame",
+                    "src": "/img/frames/m15/regular/m15FrameA.png",
                     "masks": [
                         {
                             "src": "/img/frames/m15/regular/m15MaskFrame.png",
@@ -16595,8 +16595,8 @@
                     ]
                 },
                 {
-                    "name": "Red Frame",
-                    "src": "/img/frames/m15/regular/m15FrameR.png",
+                    "name": "Artifact Frame",
+                    "src": "/img/frames/m15/regular/m15FrameA.png",
                     "masks": [
                         {
                             "src": "/img/frames/m15/regular/m15MaskBorder.png",
@@ -16606,9 +16606,9 @@
                 }
             ],
             "artSource": "https://jumpinjackie.github.io/e33-reference-art/images/cards/catapault_sakapatate.jpg",
-            "artX": -0.2671641791044776,
-            "artY": 0.031982942430703626,
-            "artZoom": 1.5930000000000002,
+            "artX": -0.050746268656716415,
+            "artY": 0.11300639658848614,
+            "artZoom": 1.1540000000000001,
             "artRotate": "0",
             "setSymbolSource": "http://localhost:4242/img/setSymbols/official/pz1-c.svg",
             "setSymbolX": 0.8701492537313433,
@@ -16776,7 +16776,7 @@
                 },
                 "type": {
                     "name": "Type",
-                    "text": "Creature - Nevron",
+                    "text": "Artifact Creature - Nevron Construct",
                     "x": 0.0854,
                     "y": 0.5664,
                     "width": 0.8292,
@@ -51048,17 +51048,17 @@
                     "x": 0.1334,
                     "y": 0.2896,
                     "width": 0.35,
-                    "height": 0.2843,
+                    "height": 0.2914,
                     "size": 0.0305,
                     "fontSize": "-10"
                 },
                 "ability1": {
                     "name": "Ability 2",
-                    "text": "Search your library for an Expeditioner permanent, put it onto the battlefield, then shuffle.",
+                    "text": "Search your library for an Expeditioner permanent card, put it onto the battlefield, then shuffle.",
                     "x": 0.1334,
-                    "y": 0.5739000000000001,
+                    "y": 0.581,
                     "width": 0.35,
-                    "height": 0.2132,
+                    "height": 0.2669,
                     "size": 0.0305,
                     "fontSize": "-10"
                 },
@@ -51066,7 +51066,7 @@
                     "name": "Ability 3",
                     "text": "",
                     "x": 0.1334,
-                    "y": 0.7871000000000001,
+                    "y": 0.8479,
                     "width": 0.35,
                     "height": 0,
                     "size": 0.0305,
@@ -51076,7 +51076,7 @@
                     "name": "Ability 4",
                     "text": "",
                     "x": 0.1334,
-                    "y": 0.7871000000000001,
+                    "y": 0.8479,
                     "width": 0.35,
                     "height": 0,
                     "size": 0.0305
@@ -92095,7 +92095,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "You may sacrifice two Lumina tokens rather than pay this spell’s mana cost.\nCounter target spell unless its controller pays {2}.{flavor}“Not today!”",
+                    "text": "You may sacrifice two Lumina tokens rather than pay this spell’s mana cost.\nCounter target spell unless its controller pays {2}.\n{i}Luminous{/i} — If you control at least three Lumina tokens, instead counter target spell unless its controller pays {X}, where X is 2 plus the number of Lumina tokens you control.{flavor}“Not today!”",
                     "x": 0.086,
                     "y": 0.6325515280739161,
                     "width": 0.828,
@@ -105689,7 +105689,7 @@
                 },
                 "type": {
                     "name": "Type",
-                    "text": "Creature - Nevron",
+                    "text": "Creature - Nevron Scarecrow",
                     "x": 0.0854,
                     "y": 0.5664,
                     "width": 0.8292,
@@ -105987,7 +105987,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Trample\n{i}Summons his little friends{/i} — {2}{B}{B}, {T}: Create three 0/1 black Toy artifact creature tokens named Osquio’s Mask with Flying and “Sacrifice this creature: It deals 1 damage to any target. You gain 1 life.“\n{i}Time for a spin spin{/i} — When Osquio dies, return it to the battlefield transformed under it’s owner’s control.{flavor}“WARRIORS OF LEGEND! Prepare. For. Annihilation!”",
+                    "text": "Trample\n{i}Summons his little friends{/i} — {2}{B}{B}, {T}: Create three 0/1 black Toy artifact creature tokens named Osquio’s Mask with Flying and “Sacrifice this creature: It deals 1 damage to any target. You gain 1 life.”\n{i}Time for a spin spin{/i} — When Osquio dies, return it to the battlefield transformed under it’s owner’s control.{flavor}“WARRIORS OF LEGEND! Prepare. For. Annihilation!”",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.8208955223880597,
@@ -114987,8 +114987,8 @@
                     ]
                 },
                 {
-                    "name": "Red Frame",
-                    "src": "/img/frames/m15/regular/m15FrameR.png",
+                    "name": "Artifact Frame",
+                    "src": "/img/frames/m15/regular/m15FrameA.png",
                     "masks": [
                         {
                             "src": "/img/frames/m15/regular/m15MaskFrame.png",
@@ -114997,8 +114997,8 @@
                     ]
                 },
                 {
-                    "name": "Red Frame",
-                    "src": "/img/frames/m15/regular/m15FrameR.png",
+                    "name": "Artifact Frame",
+                    "src": "/img/frames/m15/regular/m15FrameA.png",
                     "masks": [
                         {
                             "src": "/img/frames/m15/regular/m15MaskBorder.png",
@@ -115178,7 +115178,7 @@
                 },
                 "type": {
                     "name": "Type",
-                    "text": "Creature - Nevron",
+                    "text": "Artifact Creature - Nevron Construct",
                     "x": 0.0854,
                     "y": 0.5664,
                     "width": 0.8292,
@@ -118935,8 +118935,8 @@
                     ]
                 },
                 {
-                    "name": "Red Frame",
-                    "src": "/img/frames/m15/regular/m15FrameR.png",
+                    "name": "Artifact Frame",
+                    "src": "/img/frames/m15/regular/m15FrameA.png",
                     "masks": [
                         {
                             "src": "/img/frames/m15/regular/m15MaskFrame.png",
@@ -118945,8 +118945,8 @@
                     ]
                 },
                 {
-                    "name": "Red Frame",
-                    "src": "/img/frames/m15/regular/m15FrameR.png",
+                    "name": "Artifact Frame",
+                    "src": "/img/frames/m15/regular/m15FrameA.png",
                     "masks": [
                         {
                             "src": "/img/frames/m15/regular/m15MaskBorder.png",
@@ -119126,7 +119126,7 @@
                 },
                 "type": {
                     "name": "Type",
-                    "text": "Creature - Nevron",
+                    "text": "Artifact Creature - Nevron Construct",
                     "x": 0.0854,
                     "y": 0.5664,
                     "width": 0.8292,
@@ -144871,8 +144871,8 @@
                     ]
                 },
                 {
-                    "name": "Red Frame",
-                    "src": "/img/frames/m15/regular/m15FrameR.png",
+                    "name": "Artifact Frame",
+                    "src": "/img/frames/m15/regular/m15FrameA.png",
                     "masks": [
                         {
                             "src": "/img/frames/m15/regular/m15MaskFrame.png",
@@ -144881,8 +144881,8 @@
                     ]
                 },
                 {
-                    "name": "Red Frame",
-                    "src": "/img/frames/m15/regular/m15FrameR.png",
+                    "name": "Artifact Frame",
+                    "src": "/img/frames/m15/regular/m15FrameA.png",
                     "masks": [
                         {
                             "src": "/img/frames/m15/regular/m15MaskBorder.png",
@@ -145062,7 +145062,7 @@
                 },
                 "type": {
                     "name": "Type",
-                    "text": "Creature - Nevron",
+                    "text": "Artifact Creature - Nevron Construct",
                     "x": 0.0854,
                     "y": 0.5664,
                     "width": 0.8292,

@@ -5,8 +5,10 @@ Ultimate Sakapatate
 R
 R
 [Types]
+Artifact
 Creature
 Nevron
+Construct
 [Rarity]
 R
 [Artist]
@@ -42,5 +44,6 @@ creature-removal
 79
 [DesignNotes]
  - Unlike other Sakapatates, this one *DOES NOT* try to do a last minute suicide move to do some damage before it goes.
- - 21/10/2025: Added Gestral alliance cost reduction
- - 5/03/2026: Changed "Strikes with its dead partner" ability to also target planeswalkers
+ - 21/10/2025: Added Gestral alliance cost reduction.
+ - 5/03/2026: Changed "Strikes with its dead partner" ability to also target planeswalkers.
+ - 22/03/2026: Made into an Artifact Creature and added Construct sub-type.

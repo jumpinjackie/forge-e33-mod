@@ -6,6 +6,7 @@ R
 [Types]
 Creature
 Nevron
+Scarecrow
 [PT]
 1/3
 [Rarity]
@@ -21,3 +22,4 @@ Sandfall Interactive
 [DesignNotes]
  - In the game, Orphelin can be found in The Reacher.
  - Main gimmick is multi-strike attacks with various tools, ergo: Double Strike.
+ - 22/03/2026: Added Scarecrow sub-type (they certainly look like them!)

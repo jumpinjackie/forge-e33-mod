@@ -1,6 +1,6 @@
 Name:Ranger Sakapatate
 ManaCost:2 R
-Types:Creature Nevron
+Types:Artifact Creature Nevron Construct
 PT:3/2
 S:Mode$ ReduceCost | ValidCard$ Card.Self | Type$ Spell | Amount$ 1 | EffectZone$ All | IsPresent$ Gestral.YouCtrl | Description$ This spell costs {1} less to cast if you control a Gestral.
 A:AB$ DealDamage | Cost$ 2 R T | ValidTgts$ Creature | TgtPrompt$ Select target creature | NumDmg$ 1 | SubAbility$ TrigStun | SpellDescription$ CARDNAME deals 1 damage to target creature.

@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 20/3/2026 1:49:24 am
+> Last generated: 22/3/2026 8:25:12 am
 
 ## An Advantage!
 
@@ -486,6 +486,7 @@ Whenever enchanted creature deals damage to an opponent, choose one —
 Kindred Instant - Expeditioner
 You may sacrifice two Lumina tokens rather than pay this spell's mana cost.
 Counter target spell unless its controller pays {2}.
+{i}Luminous{/i} — If you control at least three Lumina tokens, instead counter target spell unless its controller pays {X}, where X is 2 plus the number of Lumina tokens you control.
 ---
 "Not today!"
 ```

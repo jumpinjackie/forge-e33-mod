@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 4/3/2026 3:31:21 pm
+> Last generated: 22/3/2026 8:25:12 am
 
 ## A Storm is Coming
 
@@ -34,7 +34,7 @@ Create a Lumina token. (It's an artifact with "{T}, Sacrifice this artifact: Scr
 
 ```
 1R
-Creature - Nevron
+Artifact Creature - Nevron Construct
 This spell costs {1} less to cast if you control a Gestral.
 When this creature dies, target opponent creates a Lumina token.
 When this creature dies, you may have this creature deal 2 damage to target creature.
@@ -49,7 +49,8 @@ When this creature dies, you may have this creature deal 2 damage to target crea
  - In the game, when you defeat a Catapault Sakapatate, it will try to do a last minute suicide move to do some damage before it goes.
  - Represented mechanically here as a simple shock-creature-on-death trigger.
  - 13/10/2025: Removed Devoid.
- - 21/10/2025: Added Gestral alliance cost reduction
+ - 21/10/2025: Added Gestral alliance cost reduction.
+ - 22/03/2026: Made into an Artifact Creature and added Construct sub-type.
 
 ## Chaos Warp
 
@@ -456,7 +457,7 @@ When this creature dies, create a Chroma token.
 
 ```
 1R
-Creature - Nevron
+Creature - Nevron Scarecrow
 Double strike
 When this creature dies, target opponent creates a Lumina token. (It's an artifact with "{T}, Sacrifice this artifact: Scry 1.")
 
@@ -469,6 +470,7 @@ When this creature dies, target opponent creates a Lumina token. (It's an artifa
 
  - In the game, Orphelin can be found in The Reacher.
  - Main gimmick is multi-strike attacks with various tools, ergo: Double Strike.
+ - 22/03/2026: Added Scarecrow sub-type (they certainly look like them!)
 
 ## Persuasive Argument
 
@@ -518,7 +520,7 @@ When this creature dies, target opponent creates a Lumina token. (It's an artifa
 
 ```
 2R
-Creature - Nevron
+Artifact Creature - Nevron Construct
 This spell costs {1} less to cast if you control a Gestral.
 Attacks with its mighty sword — {R}, {T}: This creature deals 1 damage to target creature, put a stun counter on it.
 Gestral Volleyball — {1}{R}, Sacrifice a Gestral: This creature deals 2 damage to any target.
@@ -534,12 +536,13 @@ When this creature dies, you may have this creature deal 3 damage divided as you
 
  - Like other Sakapatates, it will try to do a last minute suicide move to do some damage before it goes.
  - 21/10/2025: Added Gestral alliance cost reduction and Gestral volleyball fling ability since this is the one participating in the Gestral volleyball minigame.
+ - 22/03/2026: Made into an Artifact Creature and added Construct sub-type.
 
 ## Robust Sakapatate
 
 ```
 3R
-Creature - Nevron
+Artifact Creature - Nevron Construct
 This spell costs {1} less to cast if you control a Gestral.
 This creature enters with a shield counter.
 Strikes with its dead partner — {2}, Sacrifice a Nevron: This creature deals damage equal to the sacrificed Nevron's mana value to target creature or planeswalker.
@@ -554,8 +557,9 @@ When this creature dies, you may have this creature deal 2 damage to each non-Ne
 ### Design Notes
 
  - Like other Sakapatates, it will try to do a last minute suicide move to do some damage before it goes.
- - 21/10/2025: Added Gestral alliance cost reduction
- - 5/03/2026: Changed "Strikes with its dead partner" ability to also target planeswalkers
+ - 21/10/2025: Added Gestral alliance cost reduction.
+ - 5/03/2026: Changed "Strikes with its dead partner" ability to also target planeswalkers.
+ - 22/03/2026: Made into an Artifact Creature and added Construct sub-type.
 
 ## Rocher
 
@@ -616,7 +620,7 @@ Luminous — Thunderfall deals 4 damage instead if you control at least three Lu
 
 ```
 3RR
-Creature - Nevron
+Artifact Creature - Nevron Construct
 This spell costs {1} less to cast if you control a Gestral.
 This creature enters with a shield counter.
 Strikes with its dead partner — {2}, Sacrifice a Nevron: This creature deals damage equal to the sacrificed Nevron's mana value to target creature or planeswalker.
@@ -634,8 +638,9 @@ When this creature dies, target opponent creates a Lumina token.
 ### Design Notes
 
  - Unlike other Sakapatates, this one *DOES NOT* try to do a last minute suicide move to do some damage before it goes.
- - 21/10/2025: Added Gestral alliance cost reduction
- - 5/03/2026: Changed "Strikes with its dead partner" ability to also target planeswalkers
+ - 21/10/2025: Added Gestral alliance cost reduction.
+ - 5/03/2026: Changed "Strikes with its dead partner" ability to also target planeswalkers.
+ - 22/03/2026: Made into an Artifact Creature and added Construct sub-type.
 
 ## Waiting for Clea to Play
 

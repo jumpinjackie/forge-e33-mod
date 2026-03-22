@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 20/3/2026 1:49:24 am
+> Last generated: 22/3/2026 8:25:12 am
 
 ## Aberration
 
@@ -831,7 +831,7 @@ When this creature dies, create a Chroma token.
 Enchantment - Saga
 (As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
 I, II — Search your library for an Expeditioner card, reveal it and put it into your hand, then shuffle.
-III — Search your library for an Expeditioner permanent, put it onto the battlefield, then shuffle.
+III — Search your library for an Expeditioner permanent card, put it onto the battlefield, then shuffle.
 ```
 
 [card implementation](../custom/cards/e/expedition_70.txt)
@@ -840,6 +840,7 @@ III — Search your library for an Expeditioner permanent, put it onto the battl
 
  - Journal is a story of an Expedition that made it inside the Monolith in the final few days of their lifetimes and installing grapple points for those who come after.
  - 21/09/2025: This is an enabler engine for Expeditioner tribal strategies
+ - 22/03/2026: Fixed up Chapter 3 oracle text
 
 ## Expedition 78 Airship
 
