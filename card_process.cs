@@ -492,7 +492,7 @@ public class CardFaceDesign
         sb.Replace("$CHROMA_REMINDER_TEXT", "(It's an artifact with \"{T}, Sacrifice this artifact: Add one mana of any color. Spend this mana only to cast a Nevron, Gestral or Expeditioner spell.\")");
         sb.Replace("$LUMINA_REMINDER_TEXT", "(It's an artifact with \"{T}, Sacrifice this artifact: Scry 1.\")");
         sb.Replace("$EXPEDITIONER_TOKEN_TEXT", "\"When this creature dies, create a Chroma token.\"");
-        sb.Replace("$EXPEDITIONER_DEATH_ABILITY_TEXT", "When this creature dies, create a Chroma token.");
+        sb.Replace("$EXPEDITIONER_DEATH_ABILITY_TEXT", "When " + thisName + " dies, create a Chroma token.");
         sb.Replace("$STORM_REMINDER_TEXT", "(When you cast this spell, copy it for each spell cast before it this turn. You may choose new targets for the copies.)");
 
         // Handle parameterized PICTO_REPLICATE_ABILITY and PICTO_REPLICATE_ABILITY_SHORT at the end after all other replacements

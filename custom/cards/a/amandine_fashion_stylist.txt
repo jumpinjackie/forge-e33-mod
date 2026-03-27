@@ -7,4 +7,4 @@ SVar:WindwalkerAttach:DB$ Attach | Object$ ParentTarget | ValidTgts$ Creature.Yo
 T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Card.Self | Execute$ TrigToken | TriggerDescription$ When CARDNAME dies, create a Chroma token
 SVar:TrigToken:DB$ Token | TokenScript$ c_a_chroma | TokenOwner$ You | TokenAmount$ 1
 DeckHints:Type$Equipment
-Oracle:{W}, {T}: Attach target Equipment you control to target creature you control.\nWhen this creature dies, create a Chroma token. (It's an artifact with "{T}, Sacrifice this artifact: Add one mana of any color. Spend this mana only to cast a Nevron, Gestral or Expeditioner spell.")
+Oracle:{W}, {T}: Attach target Equipment you control to target creature you control.\nWhen Amandine dies, create a Chroma token. (It's an artifact with "{T}, Sacrifice this artifact: Add one mana of any color. Spend this mana only to cast a Nevron, Gestral or Expeditioner spell.")
