@@ -25,16 +25,15 @@ SVar:DBChapter2:DB$ AnimateAll | ValidCards$ Creature.YouCtrl+withFlying | Trigg
 SVar:TrigConnect:Mode$ DamageDone | ValidSource$ Card.Self | ValidTarget$ Opponent | OptionalDecider$ You | Execute$ TrigDraw | TriggerDescription$ Whenever this creature deals damage to an opponent, draw a card.
 SVar:TrigDraw:DB$ Draw | Defined$ You | NumCards$ 1 | SpellDescription$ Draw a card.
 SVar:DBChapter3:DB$ SacrificeAll | ValidCards$ Airship.YouCtrl | RememberSacrificed$ True | Optional$ True | SubAbility$ DBChroma | SpellDescription$ Sacrifice all Airships you control. Create a Chroma token for each Airship sacrificed.
-SVar:DBChroma:DB$ Token | TokenAmount$ MakeX | TokenOwner$ You | TokenScript$ c_a_lumina | SubAbility$ DBCleanup
+SVar:DBChroma:DB$ Token | TokenAmount$ MakeX | TokenOwner$ You | TokenScript$ c_a_chroma | SubAbility$ DBCleanup
 SVar:DBCleanup:DB$ Cleanup | ClearRemembered$ True
 SVar:MakeX:Remembered$Amount
 DeckHas:Ability$Counters
 DeckHints:Keyword$Flying
 [RelatedTokens]
 u_5_5_airship
-c_a_lumina
-[Tags]
-lumina-generator
+c_a_chroma
 [DesignNotes]
  - Journal is a story of expeditioners stealing a bunch of Airships to escape Lumière.
  - This is a top-end payoff for an all-flyers strategy
+ - 26/03/2026: Fixed incorrect token generation (it was generating Lumina tokens instead of Chroma tokens)

@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 22/3/2026 8:25:12 am
+> Last generated: 26/3/2026 9:04:47 am
 
 ## An Advantage!
 
@@ -304,6 +304,7 @@ III — Sacrifice all Airships you control. Create a Chroma token for each Airsh
 
  - Journal is a story of expeditioners stealing a bunch of Airships to escape Lumière.
  - This is a top-end payoff for an all-flyers strategy
+ - 26/03/2026: Fixed incorrect token generation (it was generating Lumina tokens instead of Chroma tokens)
 
 ## Expedition 81 Interpreter
 
