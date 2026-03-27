@@ -4879,7 +4879,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "{W}, {T}: Attach target Equipment you control to target creature you control.\nWhen this creature dies, create a Chroma token. (It’s an artifact with “{T}, Sacrifice this artifact: Add one mana of any color. Spend this mana only to cast a Nevron, Gestral or Expeditioner spell.”){flavor}“Oh hey handsome, perfect timing. I’m styling everyone before we ship out. Gotta look sharp when we hit the Paintress, eh?”",
+                    "text": "{W}, {T}: Attach target Equipment you control to target creature you control.\nWhen Amandine dies, create a Chroma token. (It’s an artifact with “{T}, Sacrifice this artifact: Add one mana of any color. Spend this mana only to cast a Nevron, Gestral or Expeditioner spell.”){flavor}“Oh hey handsome, perfect timing. I’m styling everyone before we ship out. Gotta look sharp when we hit the Paintress, eh?”",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
@@ -6414,7 +6414,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Whenever you cast a historic spell, draw a card. (Artifacts, legendaries, and Sagas are historic.)\nWhen this creature dies, create a Chroma token. (It’s an artifact with “{T}, Sacrifice this artifact: Add one mana of any color. Spend this mana only to cast a Nevron, Gestral or Expeditioner spell.”){flavor}“Ahem. I hereby offically end our feud. With your departure, Lumière loses a brilliant light. And a good friend ...”",
+                    "text": "Whenever you cast a historic spell, draw a card. (Artifacts, legendaries, and Sagas are historic.)\nWhen Antoine dies, create a Chroma token. (It’s an artifact with “{T}, Sacrifice this artifact: Add one mana of any color. Spend this mana only to cast a Nevron, Gestral or Expeditioner spell.”){flavor}“Ahem. I hereby offically end our feud. With your departure, Lumière loses a brilliant light. And a good friend ...”",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
@@ -24823,7 +24823,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Whenever you cast an artifact spell, you may draw a card. If you do, discard a card.\nArtifact spells you cast cost {1} less to cast.\nWhen this creature dies, create a Chroma token. (It’s an artifact with “{T}, Sacrifice this artifact: Add one mana of any color. Spend this mana only to cast a Nevron, Gestral or Expeditioner spell.”){flavor}“Hello there, Gustave. Perhaps one of these artifacts may prove useful to your mission?”",
+                    "text": "Whenever you cast an artifact spell, you may draw a card. If you do, discard a card.\nArtifact spells you cast cost {1} less to cast.\nWhen Colette dies, create a Chroma token. (It’s an artifact with “{T}, Sacrifice this artifact: Add one mana of any color. Spend this mana only to cast a Nevron, Gestral or Expeditioner spell.”){flavor}“Hello there, Gustave. Perhaps one of these artifacts may prove useful to your mission?”",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
@@ -36670,10 +36670,10 @@
             "artY": -0.026297085998578537,
             "artZoom": 1.526,
             "artRotate": "0",
-            "setSymbolSource": "http://localhost:4242/img/setSymbols/official/pz1-r.svg",
-            "setSymbolX": 0.8706467661691543,
+            "setSymbolSource": "http://localhost:4242/img/setSymbols/official/cmd-r.svg",
+            "setSymbolX": 0.8686567164179104,
             "setSymbolY": 0.5707178393745558,
-            "setSymbolZoom": 0.34700000000000003,
+            "setSymbolZoom": 0.177,
             "watermarkSource": "http://localhost:4242/img/blank.png",
             "watermarkX": 0.33880597014925373,
             "watermarkY": 0.6609808102345416,
@@ -36849,7 +36849,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "When Emma enters, support 2. (Put a +1/+1 counter on each of up to two target creatures.)\nYou may look at the top card of your library any time.\nYou may cast Expeditioner spells from the top of your library.",
+                    "text": "When Emma enters, support 2. (Put a +1/+1 counter on each of up to two target creatures.)\nYou may look at the top card of your library any time.\nYou may cast Expeditioner spells from the top of your library.\nWhen Emma dies, create a Chroma token.{flavor}“This is the definition of a fool’s quest and my brother’s not usually a fool.”",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
@@ -36871,7 +36871,7 @@
             },
             "infoNumber": "2026",
             "infoRarity": "R",
-            "infoSet": "E33",
+            "infoSet": "E3C",
             "infoLanguage": "EN",
             "infoArtist": "Sandfall Interactive",
             "infoNote": "Proxy, Not for Sale",
@@ -40378,7 +40378,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "{W}{U}, {T}: Target noncreature artifact becomes a copy of target creature until end of turn, except it is an artifact in addition to its other types.\nWhen this creature dies, create a Chroma token. (It’s an artifact with “{T}, Sacrifice this artifact: Add one mana of any color. Spend this mana only to cast a Nevron, Gestral or Expeditioner spell.”){flavor}“I just finished my sculpture of the legendary Esquie. This may be my life’s finest work, yet not a single soul seems to care. How could I make it better?”",
+                    "text": "{W}{U}, {T}: Target noncreature artifact becomes a copy of target creature until end of turn, except it is an artifact in addition to its other types.\nWhen Estelle dies, create a Chroma token. (It’s an artifact with “{T}, Sacrifice this artifact: Add one mana of any color. Spend this mana only to cast a Nevron, Gestral or Expeditioner spell.”){flavor}“I just finished my sculpture of the legendary Esquie. This may be my life’s finest work, yet not a single soul seems to care. How could I make it better?”",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
@@ -48671,6 +48671,294 @@
             "infoLanguage": "EN",
             "infoArtist": "Sandfall Interactive",
             "infoNote": "Proxy, Not for Sale",
+            "serialNumber": "",
+            "serialTotal": "",
+            "serialX": "",
+            "serialY": "",
+            "serialScale": ""
+        }
+    },
+    {
+        "key": "Expedition 67",
+        "data": {
+            "width": 2010,
+            "height": 2814,
+            "marginX": 0.044,
+            "marginY": 0.02857142857142857,
+            "frames": [
+                {
+                    "name": "Black Extension",
+                    "src": "/img/frames/margins/blackBorderExtension.png",
+                    "bounds": {
+                        "x": -0.044,
+                        "y": -0.02857142857142857,
+                        "width": 1.088,
+                        "height": 1.0571428571428572
+                    },
+                    "masks": []
+                },
+                {
+                    "name": "Multicolored Frame",
+                    "src": "/img/frames/saga/nyx/m.png",
+                    "masks": []
+                }
+            ],
+            "artSource": "https://jumpinjackie.github.io/e33-reference-art/images/cards/expedition_67.jpg",
+            "artX": 0.4293532338308458,
+            "artY": 0.1122956645344705,
+            "artZoom": 1.483,
+            "artRotate": "0",
+            "setSymbolSource": "http://localhost:4242/img/setSymbols/official/pz1-r.svg",
+            "setSymbolX": 0.8756218905472637,
+            "setSymbolY": 0.8550106609808102,
+            "setSymbolZoom": 0.32299999999999995,
+            "watermarkSource": "http://localhost:4242/img/blank.png",
+            "watermarkX": 0.1253731343283582,
+            "watermarkY": 0.3482587064676617,
+            "watermarkZoom": 713,
+            "watermarkLeft": "#b79d58",
+            "watermarkRight": "none",
+            "watermarkOpacity": 0.4,
+            "version": "sagaNyx",
+            "manaSymbols": [],
+            "infoYear": "2026",
+            "margins": true,
+            "bottomInfoTranslate": {
+                "x": 0,
+                "y": 0
+            },
+            "bottomInfoRotate": 0,
+            "bottomInfoZoom": 1,
+            "bottomInfoColor": "white",
+            "onload": "/js/frames/versionSaga.js",
+            "hideBottomInfoBorder": false,
+            "showsFlavorBar": true,
+            "bottomInfo": {
+                "midLeft": {
+                    "text": "{elemidinfo-set} • {elemidinfo-language}  {savex}{fontbelerenbsc}{fontsize3}{upinline1}￮{savex2}{elemidinfo-artist}",
+                    "x": 0.0647,
+                    "y": 0.9548,
+                    "width": 0.8707,
+                    "height": 0.0171,
+                    "oneLine": true,
+                    "font": "gothammedium",
+                    "size": 0.0171,
+                    "color": "white",
+                    "outlineWidth": 0.003,
+                    "name": "midLeft"
+                },
+                "topLeft": {
+                    "text": "{elemidinfo-number}",
+                    "x": 0.0647,
+                    "y": 0.9377,
+                    "width": 0.8707,
+                    "height": 0.0171,
+                    "oneLine": true,
+                    "font": "gothammedium",
+                    "size": 0.0171,
+                    "color": "white",
+                    "outlineWidth": 0.003,
+                    "name": "topLeft"
+                },
+                "note": {
+                    "text": "{loadx2}{elemidinfo-note}",
+                    "x": 0.0647,
+                    "y": 0.9377,
+                    "width": 0.8707,
+                    "height": 0.0171,
+                    "oneLine": true,
+                    "font": "gothammedium",
+                    "size": 0.0171,
+                    "color": "white",
+                    "outlineWidth": 0.003,
+                    "name": "note"
+                },
+                "rarity": {
+                    "text": "{loadx}{elemidinfo-rarity}",
+                    "x": 0.0647,
+                    "y": 0.9377,
+                    "width": 0.8707,
+                    "height": 0.0171,
+                    "oneLine": true,
+                    "font": "gothammedium",
+                    "size": 0.0171,
+                    "color": "white",
+                    "outlineWidth": 0.003,
+                    "name": "rarity"
+                },
+                "bottomLeft": {
+                    "text": "NOT FOR SALE",
+                    "x": 0.0647,
+                    "y": 0.9719,
+                    "width": 0.8707,
+                    "height": 0.0143,
+                    "oneLine": true,
+                    "font": "gothammedium",
+                    "size": 0.0143,
+                    "color": "white",
+                    "outlineWidth": 0.003
+                },
+                "wizards": {
+                    "name": "wizards",
+                    "text": "{ptshift0,0.0172}™ & © {elemidinfo-year} Wizards of the Coast",
+                    "x": 0.0647,
+                    "y": 0.9377,
+                    "width": 0.8707,
+                    "height": 0.0167,
+                    "oneLine": true,
+                    "font": "mplantin",
+                    "size": 0.0162,
+                    "color": "white",
+                    "align": "right",
+                    "outlineWidth": 0.003
+                },
+                "bottomRight": {
+                    "text": "{ptshift0,0.0172}CardConjurer.com",
+                    "x": 0.0647,
+                    "y": 0.9548,
+                    "width": 0.8707,
+                    "height": 0.0143,
+                    "oneLine": true,
+                    "font": "mplantin",
+                    "size": 0.0143,
+                    "color": "white",
+                    "align": "right",
+                    "outlineWidth": 0.003
+                }
+            },
+            "artBounds": {
+                "x": 0.5,
+                "y": 0.1124,
+                "width": 0.4247,
+                "height": 0.7253
+            },
+            "setSymbolBounds": {
+                "x": 0.9227,
+                "y": 0.8739,
+                "width": 0.12,
+                "height": 0.0381,
+                "vertical": "center",
+                "horizontal": "right"
+            },
+            "watermarkBounds": {
+                "x": 0.3027,
+                "y": 0.4748,
+                "width": 0.3547,
+                "height": 0.6767
+            },
+            "text": {
+                "mana": {
+                    "name": "Mana Cost",
+                    "text": "B R",
+                    "y": 0.0613,
+                    "width": 0.9292,
+                    "height": 0.03380952380952381,
+                    "oneLine": true,
+                    "size": 0.043345543345543344,
+                    "align": "right",
+                    "shadowX": -0.001,
+                    "shadowY": 0.0029,
+                    "manaCost": true,
+                    "manaSpacing": 0
+                },
+                "title": {
+                    "name": "Title",
+                    "text": "Expedition 67",
+                    "x": 0.0854,
+                    "y": 0.0522,
+                    "width": 0.8292,
+                    "height": 0.0543,
+                    "oneLine": true,
+                    "font": "belerenb",
+                    "size": 0.0381
+                },
+                "type": {
+                    "name": "Type",
+                    "text": "Enchantment - Saga",
+                    "x": 0.0854,
+                    "y": 0.8481,
+                    "width": 0.8292,
+                    "height": 0.0543,
+                    "oneLine": true,
+                    "font": "belerenb",
+                    "size": 0.0324
+                },
+                "ability0": {
+                    "name": "Ability 1",
+                    "text": "Put a fuse counter on target nonland permanent.",
+                    "x": 0.1334,
+                    "y": 0.2896,
+                    "width": 0.35,
+                    "height": 0.1748,
+                    "size": 0.0305
+                },
+                "ability1": {
+                    "name": "Ability 2",
+                    "text": "Put a fuse counter on up to two target nonland permanents.",
+                    "x": 0.1334,
+                    "y": 0.46440000000000003,
+                    "width": 0.35,
+                    "height": 0.209,
+                    "size": 0.0305
+                },
+                "ability2": {
+                    "name": "Ability 3",
+                    "text": "Destroy all permanents with fuse counters on them.",
+                    "x": 0.1334,
+                    "y": 0.6734,
+                    "width": 0.35,
+                    "height": 0.1748,
+                    "size": 0.0305
+                },
+                "ability3": {
+                    "name": "Ability 4",
+                    "text": "",
+                    "x": 0.1334,
+                    "y": 0.8482000000000001,
+                    "width": 0.35,
+                    "height": 0,
+                    "size": 0.0305
+                },
+                "reminder": {
+                    "name": "Reminder Text",
+                    "text": "{i}(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)",
+                    "x": 0.0867,
+                    "y": 0.1129,
+                    "width": 0.404,
+                    "height": 0.1772,
+                    "size": 0.03,
+                    "shadowColor": "white"
+                },
+                "pt": {
+                    "name": "Power/Toughness",
+                    "text": "",
+                    "x": 0.8267,
+                    "y": 0.8585714285714285,
+                    "width": 0.0967,
+                    "height": 0.0372,
+                    "size": 0.0372,
+                    "font": "belerenbsc",
+                    "oneLine": true,
+                    "align": "center"
+                }
+            },
+            "infoNumber": "2026",
+            "infoRarity": "R",
+            "infoSet": "E33",
+            "infoLanguage": "EN",
+            "infoArtist": "Google Gemini",
+            "infoNote": "Proxy, Not for Sale",
+            "saga": {
+                "abilities": [
+                    "1",
+                    "1",
+                    "1",
+                    "0"
+                ],
+                "count": 3,
+                "x": 0.1,
+                "width": 0.3947
+            },
             "serialNumber": "",
             "serialTotal": "",
             "serialX": "",
@@ -58561,7 +58849,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "At the beginning of your upkeep, choose a card name then reveal the top card of your library. If that card has the chosen name, put it into your hand. Otherwise, put it into your graveyard.\n{2}{U}, {T}: Scry 2.\n{2}{B}, {T}: Surveil 2.\nWhen this creature dies, create a Chroma token.{flavor}“The Paintress is going to punish you! You blasphemers. The Gommage is our fault! We brought this upon ourselves. Because we dared to defy her!”",
+                    "text": "At the beginning of your upkeep, choose a card name then reveal the top card of your library. If that card has the chosen name, put it into your hand. Otherwise, put it into your graveyard.\n{2}{U}, {T}: Scry 2.\n{2}{B}, {T}: Surveil 2.\nWhen Florian dies, create a Chroma token.{flavor}“The Paintress is going to punish you! You blasphemers. The Gommage is our fault! We brought this upon ourselves. Because we dared to defy her!”",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
@@ -103097,7 +103385,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "{T}, Sacrifice a Chroma token: Draw a card.\nWhen this creature dies, create a Chroma token.{flavor}“I know, how about showing me a dance of love and sorrow? I am also the official painter of the Opera. Will you help me? If you inspire me, you may become the main painting of Lumière’s Opera.”",
+                    "text": "{T}, Sacrifice a Chroma token: Draw a card.\nWhen Nicolas dies, create a Chroma token.{flavor}“I know, how about showing me a dance of love and sorrow? I am also the official painter of the Opera. Will you help me? If you inspire me, you may become the main painting of Lumière’s Opera.”",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
@@ -103292,7 +103580,7 @@
             "artY": 0.01279317697228145,
             "artZoom": 1.6769999999999998,
             "artRotate": "0",
-            "setSymbolSource": "http://localhost:4242/img/setSymbols/official/pz1-r.svg",
+            "setSymbolSource": "http://localhost:4242/img/setSymbols/official/pz1-u.svg",
             "setSymbolX": 0.8706467661691543,
             "setSymbolY": 0.5707178393745558,
             "setSymbolZoom": 0.34700000000000003,
@@ -105394,7 +105682,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "{T}: Create a Flower token. (It’s an artifact with “{T}, Sacrifice this artifact: Add {U}, {R} or {G}.”)\nWhen this creature dies, create a Chroma token.{flavor}“Hi Gustave. You’re back. Did you want to pick out a different flower?”",
+                    "text": "{T}: Create a Flower token. (It’s an artifact with “{T}, Sacrifice this artifact: Add {U}, {R} or {G}.”)\nWhen Ophelie dies, create a Chroma token. (It’s an artifact with “{T}, Sacrifice this artifact: Add one mana of any color. Spend this mana only to cast a Nevron, Gestral or Expeditioner spell.”){flavor}“Hi Gustave. You’re back. Did you want to pick out a different flower?”",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
@@ -116472,10 +116760,10 @@
                 },
                 "ability0": {
                     "name": "Ability 1",
-                    "text": "Whenever a Nevron you control dies, draw a card and each opponent discards a card.",
+                    "text": "Whenever a Nevron creature you control dies, draw a card and create a Chroma Token.",
                     "x": 0.136,
                     "y": 0.6239,
-                    "width": 0.7830845771144279,
+                    "width": 0.7907000000000001,
                     "height": 0.0853,
                     "size": 0.0353,
                     "fontSize": "-32"
@@ -136756,7 +137044,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "{i}Picto Reinforcement{/i} — {2}{U}, {T}: Create two Lumina tokens.\n{i}Upgrades your weapons{/i} — {2}{WG}, {T}: Distribute two +1/+1 counters among one or two target creatures.\n{i}Latent skill activation{/i} — {3}{B}, {T}, Tap an untapped creature you control: Destroy target creature.\nWhen The Curator dies, return it to the battlefield transformed under it’s owner’s control.{flavor}“What is he?” asked a curious Lune. “I’m not sure, he doesn’t really talk.” replied Maelle.",
+                    "text": "{i}Picto Reinforcement{/i} — {2}{U}, {T}: Create two Lumina tokens.\n{i}Upgrades your weapons{/i} — {2}{WG}, {T}: Distribute two +1/+1 counters among one or two target creatures.\n{i}Latent skill activation{/i} — {3}{B}, {T}: Tap another target creature you control. Put your choice of a counter from among menace, deathtouch, and lifelink on that creature.\nWhen The Curator dies, return it to the battlefield transformed under it’s owner’s control.{flavor}“What is he?” asked a curious Lune. “I’m not sure, he doesn’t really talk.” replied Maelle.",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
