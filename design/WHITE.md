@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 20/3/2026 1:49:24 am
+> Last generated: 27/3/2026 2:08:47 pm
 
 ## A Life to Love (Farewell)
 
@@ -67,7 +67,7 @@ Foretell {2}{W}
 1W
 Legendary Creature - Human Citizen
 {W}, {T}: Attach target Equipment you control to target creature you control.
-When this creature dies, create a Chroma token. (It's an artifact with "{T}, Sacrifice this artifact: Add one mana of any color. Spend this mana only to cast a Nevron, Gestral or Expeditioner spell.")
+When Amandine dies, create a Chroma token. (It's an artifact with "{T}, Sacrifice this artifact: Add one mana of any color. Spend this mana only to cast a Nevron, Gestral or Expeditioner spell.")
 ---
 "Oh hey handsome, perfect timing. I’m styling everyone before we ship out. Gotta look sharp when we hit the Paintress, eh?"
 

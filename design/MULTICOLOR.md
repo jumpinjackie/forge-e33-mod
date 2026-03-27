@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 22/3/2026 8:25:12 am
+> Last generated: 27/3/2026 2:16:05 pm
 
 ## Aberration
 
@@ -484,6 +484,36 @@ Choose one or more —
  - In the game, Elemental Genesis is one of Lune's skills. It deals damage in each element and generates the corresponding stain if damage was critical.
  - Translated to a super-modal spell with one on-color mode for each of the 4 colors. Each mode also adds one mana of the corresponding color as a nod to the stain generation per element.
 
+## Emma, Lumière Chief Councilor
+
+```
+1WU
+Legendary Creature - Human Advisor
+When Emma enters, support 2. (Put a +1/+1 counter on each of up to two target creatures.)
+You may look at the top card of your library any time.
+You may cast Expeditioner spells from the top of your library.
+When Emma dies, create a Chroma token.
+---
+"This is the definition of a fool’s quest and my brother’s not usually a fool."
+
+1/4
+```
+
+[card implementation](../custom/cards/e/emma_lumiere_chief_councilor.txt)
+
+### Design Notes
+
+ - In the game, Emma is Gustave's sister and the Chief Councilor of Lumière. At the Expedition Festival, she implores Gustave to stay in Lumière instead of embarking on what is most likely a one-way trip.
+ - As the base set is "locked in" as of 28/03/2026, this is a commander-specific card to bolster The Paintress precon.
+ - Gone with a suite of abilities that best convey rallying support for the Expedition:
+    - A support ETB.
+    - Ability to play Expeditioners off the top of your library.
+
+
+### Rulings
+
+ - Can cast non-creature spells off the top of your library as long as it has the Expeditioner sub-type.
+
 ## Esquie, Friend of Verso
 
 ```
@@ -583,7 +613,7 @@ Esquie: "I heard you, so I came."
 1WU
 Legendary Creature - Human Citizen Artificer
 {W}{U}, {T}: Target noncreature artifact becomes a copy of target creature until end of turn, except it is an artifact in addition to its other types.
-When this creature dies, create a Chroma token. (It's an artifact with "{T}, Sacrifice this artifact: Add one mana of any color. Spend this mana only to cast a Nevron, Gestral or Expeditioner spell.")
+When Estelle dies, create a Chroma token. (It's an artifact with "{T}, Sacrifice this artifact: Add one mana of any color. Spend this mana only to cast a Nevron, Gestral or Expeditioner spell.")
 ---
 "I just finished my sculpture of the legendary Esquie. This may be my life’s finest work, yet not a single soul seems to care. How could I make it better?"
 
@@ -916,7 +946,7 @@ Legendary Creature - Human Cleric Citizen
 At the beginning of your upkeep, choose a card name then reveal the top card of your library. If that card has the chosen name, put it into your hand. Otherwise, put it into your graveyard.
 {2}{U}, {T}: Scry 2.
 {2}{B}, {T}: Surveil 2.
-When this creature dies, create a Chroma token.
+When Florian dies, create a Chroma token.
 ---
 "The Paintress is going to punish you! You blasphemers. The Gommage is our fault! We brought this upon ourselves. Because we dared to defy her!"
 
@@ -1825,7 +1855,7 @@ My, what lovely feet! — Monoco has activated abilities of all Nevrons in exile
 WU
 Legendary Creature - Human Painter Citizen
 {T}, Sacrifice a Chroma token: Draw a card.
-When this creature dies, create a Chroma token.
+When Nicolas dies, create a Chroma token.
 ---
 "I know, how about showing me a dance of love and sorrow? I am also the official painter of the Opera. Will you help me? If you inspire me, you may become the main painting of Lumière’s Opera."
 
@@ -2261,7 +2291,7 @@ Stendhal deals 33 damage to target creature or planeswalker.
 Legendary Creature - Painter Spirit
 Picto Reinforcement — {2}{U}, {T}: Create two Lumina tokens.
 Upgrades your weapons — {2}{G/W}, {T}: Distribute two +1/+1 counters among one or two target creatures.
-Latent skill activation — {3}{B}, {T}, Tap an untapped creature you control: Destroy target creature.
+Latent skill activation — {3}{B}, {T}: Tap another target creature you control. Put your choice of a counter from among menace, deathtouch, and lifelink on that creature.
 When The Curator dies, return it to the battlefield transformed under it’s owner’s control.
 
 4/5
@@ -2272,7 +2302,7 @@ Transforms into:
 ```
 
 Legendary Planeswalker - Renoir
-Whenever a Nevron you control dies, draw a card and each opponent discards a card.
+Whenever a Nevron you control dies, draw a card and create a Chroma token.
 [+2]: Reveal the top card of your library. If it is a Nevron, Painter or Gradient card, put it into your hand.
 [-4]: Return target Nevron card from your graveyard to the battlefield.
 [-10]: Exile all non-Nevron, non-Painter creatures.
@@ -2293,6 +2323,9 @@ Whenever a Nevron you control dies, draw a card and each opponent discards a car
  - 25/01/2026: Tweaked exert wording/cost to exert a tapped Expeditioner creature you control. Although 701.39b states that a permanent can be exerted even if it's not tapped, this does nothing for us in terms of gameplay and flavor.
  - 7/02/2026: Dropped exert requirement so Latent Skill Activation is now just tapping an untapped Expeditioner creature you control. Even though exerting an already tapped creature work in Forge, it is just plain awkward and exerting adds extra mental burden (to remember to not untap) on paper.
  - 5/03/2026: Dropped Expeditioner requirement on Latent Skill Activation ability
+ - 27/03/2026: Reworked some abilities for better commander balance:
+    - Front face: Changed "Latent Skill Activation" from destroying a creature to granting a keyword counter to the tapped creature from a 3 black-aligned keyword abilities (menace, lifelink, deathtouch). Repeatable creature kill is too powerful in commander playtesting, especially when you can reliably repeatedly point it at the opposing commander, increasing their commander tax each time. Granting keyword counters at least preserves the semantics of the flavor label we've assigned to this ability. Deathtouch being one of the 3 possible keywords lets us maintain the ability to kill creatures, but at least this approach requires the combat step with extra constraints.
+    - Back face: Changed Nevron death trigger so that instead of each opponent discarding a card, you create a Chroma token. Having each opponent discarding a card per Nevron death sounds like a recipe for every opponent just ganging up on you.
 
 
 ### Rulings

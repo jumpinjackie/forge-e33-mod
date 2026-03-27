@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 26/3/2026 9:04:47 am
+> Last generated: 27/3/2026 2:08:47 pm
 
 ## An Advantage!
 
@@ -25,7 +25,7 @@ Draw a card at the beginning of the next turn's upkeep.
 1U
 Legendary Creature - Human Citizen
 Whenever you cast a historic spell, draw a card. (Artifacts, legendaries, and Sagas are historic.)
-When this creature dies, create a Chroma token. (It's an artifact with "{T}, Sacrifice this artifact: Add one mana of any color. Spend this mana only to cast a Nevron, Gestral or Expeditioner spell.")
+When Antoine dies, create a Chroma token. (It's an artifact with "{T}, Sacrifice this artifact: Add one mana of any color. Spend this mana only to cast a Nevron, Gestral or Expeditioner spell.")
 ---
 "Ahem. I hereby offically end our feud. With your departure, Lumière loses a brilliant light. And a good friend ..."
 
@@ -84,7 +84,7 @@ When this creature dies, target opponent creates a Lumina token. (It's an artifa
 Legendary Creature - Human Citizen
 Whenever you cast an artifact spell, you may draw a card. If you do, discard a card.
 Artifact spells you cast cost {1} less to cast.
-When this creature dies, create a Chroma token. (It's an artifact with "{T}, Sacrifice this artifact: Add one mana of any color. Spend this mana only to cast a Nevron, Gestral or Expeditioner spell.")
+When Colette dies, create a Chroma token. (It's an artifact with "{T}, Sacrifice this artifact: Add one mana of any color. Spend this mana only to cast a Nevron, Gestral or Expeditioner spell.")
 ---
 "Hello there, Gustave. Perhaps one of these artifacts may prove useful to your mission?"
 

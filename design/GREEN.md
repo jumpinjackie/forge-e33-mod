@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 20/3/2026 1:49:24 am
+> Last generated: 27/3/2026 2:08:47 pm
 
 ## Abbest
 
@@ -544,7 +544,7 @@ Even in an artificial painted world, there is a natural order.
 1G
 Legendary Creature - Human Citizen
 {T}: Create a Flower token. (It’s an artifact with “{T}, Sacrifice this artifact: Add {U}, {R} or {G}.”)
-When this creature dies, create a Chroma token.
+When Ophelie dies, create a Chroma token. (It's an artifact with "{T}, Sacrifice this artifact: Add one mana of any color. Spend this mana only to cast a Nevron, Gestral or Expeditioner spell.")
 ---
 "Hi Gustave. You’re back. Did you want to pick out a different flower?"
 
