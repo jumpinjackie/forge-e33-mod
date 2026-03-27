@@ -2218,27 +2218,36 @@ public class GenAllCommand : BaseCommand
         var cardList = new StringBuilder();
         var reprintList = new StringBuilder();
         var cmdrList = new StringBuilder();
+
+        static void AppendEditionEntry(StringBuilder builder, int number, string name, CardMasterDesign card, bool useNicknameFlavor)
+        {
+            if (useNicknameFlavor && card.NicknameFor is not null)
+            {
+                builder.AppendLine($"{number} {card.Rarity} {card.NicknameFor} @{card.GetArtist()} ${{\"flavorName\": \"{name}\"}}");
+                return;
+            }
+
+            var entryName = (card.FaceType == CardFaceType.Meld || card.FaceType == CardFaceType.DoubleFaced)
+                ? card.FrontFull!.Name
+                : name;
+            builder.AppendLine($"{number} {card.Rarity} {entryName} @{card.GetArtist()}");
+        }
+
         foreach (var (name, card) in cards)
         {
-            if (card.IsReprint) // NOTE: Our commander sheet is all reprints, there are no "designed for commander" cards in this set. Hence why it's going down the reprint code path.
+            if (card.IsCommander)
             {
-                var sbList = card.IsCommander ? cmdrList : reprintList;
-
-                var nicknamed = card.NicknameFor;
-                if (nicknamed is not null)
-                    sbList.AppendLine($"{collectorNum} {card.Rarity} {nicknamed} @{card.GetArtist()} ${{\"flavorName\": \"{name}\"}}");
-                else
-                    sbList.AppendLine($"{collectorNum} {card.Rarity} {name} @{card.GetArtist()}");
+                AppendEditionEntry(cmdrList, collectorNum, name, card, card.IsReprint);
+            }
+            else if (card.IsReprint)
+            {
+                AppendEditionEntry(reprintList, collectorNum, name, card, true);
             }
             else
             {
-                if (card.FaceType == CardFaceType.Meld || card.FaceType == CardFaceType.DoubleFaced) // Meld/DFC cards only care about the front face name
-                    cardList.AppendLine(
-                        $"{collectorNum} {card.Rarity} {card.FrontFull.Name} @{card.GetArtist()}"
-                    );
-                else
-                    cardList.AppendLine($"{collectorNum} {card.Rarity} {name} @{card.GetArtist()}");
+                AppendEditionEntry(cardList, collectorNum, name, card, false);
             }
+
             collectorNum++;
         }
 
