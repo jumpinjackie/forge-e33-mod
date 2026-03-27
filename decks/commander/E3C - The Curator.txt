@@ -71,7 +71,7 @@
 1 Endless Tower|E33
 1 Fabled Passage|E3C
 1 Field of Ruin|E33
-1 Frozen Heart|E3C
+1 Frozen Hearts|E3C
 1 Painted Bluffs|E33
 1 Path of Ancestry|E3C
 1 Seething Landscape|E33
@@ -87,6 +87,7 @@
 1 Unclaimed Territory|E3C
 1 The Root of All Evil|E33
 1 Visages|E33
+1 Yellow Harvest|E33
 2 Forest|E33
 2 Island|E33
 4 Mountain|E33

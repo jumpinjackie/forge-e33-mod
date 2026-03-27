@@ -2,10 +2,10 @@
 // Creatures
 1 Acceptance|E33
 1 Alicenisa, Gestral Siren|E33
-1 Alicia Dessendre, Silenced by Fire|E33
 1 Chomping Changeling|E3C
 1 Denial|E33
 1 Dominique Giant Feet|E33
+1 Emma, Lumière Chief Councilor|E3C
 1 Esquie, Friend of Verso|E33
 1 Expedition 34 Mage|E33
 1 Expedition 54 Dissident|E33
