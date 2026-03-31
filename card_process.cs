@@ -15,6 +15,7 @@ using System.Text.RegularExpressions;
 using System.Text.Json;
 using System.Text.Json.Nodes;
 using System.Net;
+using System.Xml;
 using DotMake.CommandLine;
 using Microsoft.VisualBasic;
 
@@ -2079,6 +2080,9 @@ public class GenAllCommand : BaseCommand
     [CliOption(Required = false, Description = "(cockatrice) The base URL for card images")]
     public string? ImageBaseUrl { get; set; }
 
+    [CliOption(Required = false, Description = "(MPCFill) The number of basics per color to include in the fill order (default: 25)")]
+    public int? MpcFillBasicsPerColor { get; set; }
+
     protected override async Task<int> ExecuteAsync(
         CliContext context,
         TextWriter stdout,
@@ -2129,6 +2133,9 @@ public class GenAllCommand : BaseCommand
 
         // Generate SPOILER.md containing a 3-column table of card and token images
         await GenerateSpoilerAsync(cards, tokens, BaseDirectory, OutputDir, stdout, stderr);
+
+        // Generate MPCFill XML order
+        await GenerateMpcFillOrderAsync(cards, tokens, BaseDirectory, OutputDir, stdout, stderr);
 
         await stdout.WriteLineAsync("All generation tasks completed successfully!");
 
@@ -2595,6 +2602,200 @@ public class GenAllCommand : BaseCommand
         return text.Replace("&", "&amp;").Replace("<", "&lt;").Replace(">", "&gt;").Replace("\"", "&quot;").Replace("'", "&apos;");
     }
 
+    private async Task GenerateMpcFillOrderAsync(SortedDictionary<string, CardMasterDesign> cards, SortedDictionary<string, TokenDefinition> tokens, DirectoryInfo baseDirectory, DirectoryInfo outputDir, TextWriter stdout, TextWriter stderr)
+    {
+        try
+        {
+            _ = tokens;
+
+            Directory.CreateDirectory(outputDir.FullName);
+            var outputPath = Path.Combine(outputDir.FullName, "MPCFillOrder.xml");
+            var tokenAllocationsPath = Path.Combine(baseDirectory.FullName, "design", "mpc_token_allocations.csv");
+
+            var settings = new XmlWriterSettings
+            {
+                Async = true,
+                Indent = true,
+                Encoding = new UTF8Encoding(false)
+            };
+
+            var frontEntries = new List<(string id, string name, string query)>();
+            var backEntries = new List<(string id, string name, string query)>();
+
+            var bucketOrder = new[] { "COLORLESS", "WHITE", "BLUE", "BLACK", "RED", "GREEN", "MULTICOLOR", "ARTIFACTS", "LANDS" };
+
+            foreach (var (imageName, card) in EnumerateCardsInSpoilerOrder(false))
+            {
+                // Basic lands are output at the end
+                var (isBasic, _) = card.IsBasicLand();
+                if (isBasic)
+                    continue;
+                AddCardFrontAndDefaultBack("E33", imageName);
+            }
+
+            if (File.Exists(tokenAllocationsPath))
+            {
+                var lines = await File.ReadAllLinesAsync(tokenAllocationsPath);
+                foreach (var rawLine in lines.Skip(1))
+                {
+                    if (string.IsNullOrWhiteSpace(rawLine))
+                        continue;
+
+                    var cols = rawLine.Split(',');
+                    if (cols.Length < 3)
+                    {
+                        await stderr.WriteLineAsync($"Skipping malformed token allocation row: {rawLine}");
+                        continue;
+                    }
+
+                    if (!int.TryParse(cols[0].Trim(), out var qty) || qty <= 0)
+                    {
+                        await stderr.WriteLineAsync($"Skipping token allocation with invalid quantity: {rawLine}");
+                        continue;
+                    }
+
+                    var tokenFront = cols[1].Trim();
+                    var tokenBack = cols[2].Trim();
+                    for (var i = 0; i < qty; i++)
+                    {
+                        frontEntries.Add(($"./tokens/E33/{tokenFront}.jpg", $"{tokenFront}.jpg", NormalizeQuery(tokenFront.Replace("_", ""))));
+                        backEntries.Add(($"./tokens/E33/{tokenBack}.jpg", $"{tokenBack}.jpg", NormalizeQuery(tokenBack.Replace("_", ""))));
+                    }
+                }
+            }
+            else
+            {
+                await stderr.WriteLineAsync($"Token allocation file not found: {tokenAllocationsPath}");
+            }
+
+            foreach (var (imageName, _) in EnumerateCardsInSpoilerOrder(true))
+            {
+                AddCardFrontAndDefaultBack("E3C", imageName);
+            }
+
+            // Add basic lands at the end
+            foreach (var (imageName, card) in EnumerateCardsInSpoilerOrder(false))
+            {
+                var (isBasic, _) = card.IsBasicLand();
+                if (!isBasic)
+                    continue;
+                var qty = MpcFillBasicsPerColor ?? 25;
+                for (int i = 0; i < qty; i++)
+                {
+                    AddCardFrontAndDefaultBack("E33", imageName);
+                }
+            }
+
+            await using var fs = new FileStream(outputPath, FileMode.Create, FileAccess.Write, FileShare.None);
+            await using var xw = XmlWriter.Create(fs, settings);
+
+            await xw.WriteStartDocumentAsync();
+            await xw.WriteStartElementAsync(null, "order", null);
+
+            await xw.WriteStartElementAsync(null, "details", null);
+            await xw.WriteElementStringAsync(null, "quantity", null, frontEntries.Count.ToString(CultureInfo.InvariantCulture));
+            await xw.WriteElementStringAsync(null, "stock", null, "(S30) Standard Smooth");
+            await xw.WriteElementStringAsync(null, "foil", null, "false");
+            await xw.WriteEndElementAsync(); // details
+
+            await WriteCardListAsync(xw, "fronts", frontEntries);
+            await WriteCardListAsync(xw, "backs", backEntries);
+
+            await xw.WriteEndElementAsync(); // order
+            await xw.WriteEndDocumentAsync();
+            await xw.FlushAsync();
+
+            await stdout.WriteLineAsync($"Generated MPC fill order: {outputPath} ({frontEntries.Count} slots)");
+
+            static async Task WriteCardListAsync(XmlWriter writer, string elementName, List<(string id, string name, string query)> entries)
+            {
+                await writer.WriteStartElementAsync(null, elementName, null);
+                for (var slot = 0; slot < entries.Count; slot++)
+                {
+                    var (id, name, query) = entries[slot];
+                    await writer.WriteStartElementAsync(null, "card", null);
+                    await writer.WriteElementStringAsync(null, "id", null, id);
+                    await writer.WriteElementStringAsync(null, "sourceType", null, "Local File");
+                    await writer.WriteElementStringAsync(null, "slots", null, slot.ToString(CultureInfo.InvariantCulture));
+                    await writer.WriteElementStringAsync(null, "name", null, name);
+                    await writer.WriteElementStringAsync(null, "query", null, query);
+                    await writer.WriteEndElementAsync();
+                }
+
+                await writer.WriteEndElementAsync();
+            }
+
+            IEnumerable<(string imageName, CardMasterDesign card)> EnumerateCardsInSpoilerOrder(bool isCommander)
+            {
+                var grouped = cards
+                    .Where(c => c.Value.IsCommander == isCommander)
+                    .GroupBy(c => c.Value.Bucket);
+
+                foreach (var bucket in bucketOrder)
+                {
+                    var group = grouped.FirstOrDefault(g => string.Equals(g.Key, bucket, StringComparison.Ordinal));
+                    if (group is null)
+                        continue;
+
+                    var ordered = bucket == "LANDS"
+                        ? group.OrderBy(c => c.Value.IsBasicLand().isBasic ? 1 : 0).ThenBy(c => c.Key)
+                        : group.OrderBy(c => c.Key);
+
+                    foreach (var (name, card) in ordered)
+                    {
+                        foreach (var imageName in card.GetImageNames())
+                        {
+                            yield return (imageName, card);
+                        }
+                    }
+                }
+            }
+
+            static string BuildCardId(string setCode, string imageName) => $"./cards/{setCode}/{imageName}";
+
+            static string BuildCardName(string imageName)
+            {
+                if (imageName.EndsWith(".full.jpg", StringComparison.OrdinalIgnoreCase))
+                    return imageName.Replace(".full.jpg", ".jpeg", StringComparison.OrdinalIgnoreCase);
+
+                return imageName;
+            }
+
+            static string NormalizeQuery(string value)
+            {
+                var normalized = value.Normalize(NormalizationForm.FormD);
+                var sb = new StringBuilder();
+                foreach (var ch in normalized)
+                {
+                    var cat = CharUnicodeInfo.GetUnicodeCategory(ch);
+                    if (cat != UnicodeCategory.NonSpacingMark)
+                        sb.Append(ch);
+                }
+
+                var withoutDiacritics = sb.ToString().Normalize(NormalizationForm.FormC);
+                withoutDiacritics = Regex.Replace(withoutDiacritics, "\\.(full\\.)?(jpg|jpeg|png)$", string.Empty, RegexOptions.IgnoreCase);
+                withoutDiacritics = withoutDiacritics.Replace("_", " ").Trim();
+                withoutDiacritics = Regex.Replace(withoutDiacritics, "\\s+", " ");
+
+                return withoutDiacritics.ToLowerInvariant();
+            }
+
+            void AddCardFrontAndDefaultBack(string setCode, string imageName)
+            {
+                var id = BuildCardId(setCode, imageName);
+                var name = BuildCardName(imageName);
+                var query = NormalizeQuery(name);
+
+                frontEntries.Add((id, name, query));
+                backEntries.Add(("./__CARD_BACK__.jpg", "__CARD_BACK__.jpeg", "cardback"));
+            }
+        }
+        catch (Exception ex)
+        {
+            await stderr.WriteLineAsync($"Failed to generate MPCFillOrder.xml: {ex.Message}");
+        }
+    }
+    
     private async Task GenerateSpoilerAsync(SortedDictionary<string, CardMasterDesign> cards, SortedDictionary<string, TokenDefinition> tokens, DirectoryInfo baseDirectory, DirectoryInfo outputDir, TextWriter stdout, TextWriter stderr)
     {
         try
