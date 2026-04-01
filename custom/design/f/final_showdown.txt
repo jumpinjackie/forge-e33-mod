@@ -1,0 +1,30 @@
+[Name]
+Final Showdown
+[ManaCost]
+2
+R
+W
+[Rarity]
+U
+[Types]
+Instant
+[Oracle]
+Untap all creatures. Creatures target opponent controls attack this turn if able.
+[FlavorText]
+Renoir acknowledged their pleas and arguments, and that did not change anything. The time for negotiations was over. If the Expedition wanted to save the canvas, they will have to fight for it.
+[ForgeScript]
+A:SP$ UntapAll | ValidCards$ Creature | SubAbility$ BaitAttack
+SVar:BaitAttack:DB$ Effect | ValidTgts$ Opponent | StaticAbilities$ AttackThisTurn | RememberObjects$ Targeted | SpellDescription$ Creatures target opponent controls attack this turn if able.
+SVar:AttackThisTurn:Mode$ MustAttack | ValidCreature$ Creature.RememberedPlayerCtrl | Description$ Creatures target opponent controls attack this turn if able.
+[RelatedTokens]
+c_a_lumina
+[Artist]
+Sandfall Interactive
+[Tags]
+creature-removal
+combat-trick
+[DraftScore]
+85
+[DesignNotes]
+ - In the game, before the final boss battle with Renoir, Maelle pleads with him to spare the canvas as it is no longer necessary since Aline has been expelled from the Canvas. Her plea falls on deaf ears.
+ - Modelled as a combat trick that breaks up a board stalemate or defensive position by forcing a combat situation.

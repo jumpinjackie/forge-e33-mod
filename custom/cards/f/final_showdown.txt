@@ -1,0 +1,7 @@
+Name:Final Showdown
+ManaCost:2 R W
+Types:Instant
+A:SP$ UntapAll | ValidCards$ Creature | SubAbility$ BaitAttack
+SVar:BaitAttack:DB$ Effect | ValidTgts$ Opponent | StaticAbilities$ AttackThisTurn | RememberObjects$ Targeted | SpellDescription$ Creatures target opponent controls attack this turn if able.
+SVar:AttackThisTurn:Mode$ MustAttack | ValidCreature$ Creature.RememberedPlayerCtrl | Description$ Creatures target opponent controls attack this turn if able.
+Oracle:Untap all creatures. Creatures target opponent controls attack this turn if able.
