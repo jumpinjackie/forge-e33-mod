@@ -1,0 +1,24 @@
+[Name]
+Intervening Parry
+[ManaCost]
+W
+U
+[Types]
+Instant
+[Rarity]
+C
+[Artist]
+Sandfall Interactive
+[Oracle]
+Split second (As long as this spell is on the stack, players can’t cast spells or activate abilities that aren’t mana abilities.)
+Target creature gets +2/+2 until end of turn.
+[FlavorText]
+Just as Painted Renoir was about to strike the killing blow to Maelle, his blade clashed with a blade of a mysterious figure who suddenly appeared in front of her.
+[ForgeScript]
+K:Split second
+A:SP$ Pump | ValidTgts$ Creature | NumAtt$ +2 | NumDef$ +2 | SpellDescription$ Target creature gets +2/+2 until end of turn.
+[Tags]
+combat-trick
+[DesignNotes]
+ - In the game, shortly after killing Gustave, Painted Renoir sets his sights on Maelle, as he was ready to land the killing blow, Verso swiftly intervenes and parries his strike.
+ - Card depicts this moment. Standard creature pump, but with split second to emphasize the speed of the act.

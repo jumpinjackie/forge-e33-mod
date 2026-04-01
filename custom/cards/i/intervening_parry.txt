@@ -1,0 +1,6 @@
+Name:Intervening Parry
+ManaCost:W U
+Types:Instant
+K:Split second
+A:SP$ Pump | ValidTgts$ Creature | NumAtt$ +2 | NumDef$ +2 | SpellDescription$ Target creature gets +2/+2 until end of turn.
+Oracle:Split second (As long as this spell is on the stack, players can’t cast spells or activate abilities that aren’t mana abilities.)\nTarget creature gets +2/+2 until end of turn.
