@@ -1,0 +1,27 @@
+[Name]
+Final Comfort
+[ManaCost]
+GW
+U
+[Types]
+Enchantment
+[Rarity]
+U
+[Oracle]
+At the beginning of your upkeep, if you have 10 or less life, choose one —
+• You gain 1 life.
+• Create a Chroma token.
+• Create a Lumina token.
+[FlavorText]
+Like his real life counterpart, Verso’s painted facsimile once again gave his sister reassurance in his final moments. “You’ve got his incredible power to paint. You’ll never suffer a life you don’t want. You’re ok.”
+[ForgeScript]
+T:Mode$ Phase | Phase$ Upkeep | ValidPlayer$ You | TriggerZones$ Battlefield | LifeTotal$ You | LifeAmount$ LE10 | Execute$ TrigCharm | TriggerDescription$ At the beginning of your upkeep, if you have 10 or less life, ABILITY
+SVar:TrigCharm:DB$ Charm | Choices$ DBLifeGain,DBChroma,DBLumina
+SVar:DBLifeGain:DB$ GainLife | Defined$ You | LifeAmount$ 1 | SpellDescription$ You gain 1 life.
+SVar:DBChroma:DB$ Token | TokenAmount$ 1 | TokenOwner$ You | TokenScript$ c_a_chroma | SpellDescription$ Create a Chroma token.
+SVar:DBLumina:DB$ Token | TokenAmount$ 1 | TokenOwner$ You | TokenScript$ c_a_lumina | SpellDescription$ Create a Lumina token.
+[Artist]
+Sandfall Interactive
+[DesignNotes]
+ - In the game, if you chose Verso's ending, he defeats Maelle and cradles her gommaging body offering her comforting words as she is being expelled from the canvas.
+ - Card modelled on Convalescence, but expanded life gain to a modal decision.

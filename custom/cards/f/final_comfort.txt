@@ -1,0 +1,9 @@
+Name:Final Comfort
+ManaCost:GW U
+Types:Enchantment
+T:Mode$ Phase | Phase$ Upkeep | ValidPlayer$ You | TriggerZones$ Battlefield | LifeTotal$ You | LifeAmount$ LE10 | Execute$ TrigCharm | TriggerDescription$ At the beginning of your upkeep, if you have 10 or less life, ABILITY
+SVar:TrigCharm:DB$ Charm | Choices$ DBLifeGain,DBChroma,DBLumina
+SVar:DBLifeGain:DB$ GainLife | Defined$ You | LifeAmount$ 1 | SpellDescription$ You gain 1 life.
+SVar:DBChroma:DB$ Token | TokenAmount$ 1 | TokenOwner$ You | TokenScript$ c_a_chroma | SpellDescription$ Create a Chroma token.
+SVar:DBLumina:DB$ Token | TokenAmount$ 1 | TokenOwner$ You | TokenScript$ c_a_lumina | SpellDescription$ Create a Lumina token.
+Oracle:At the beginning of your upkeep, if you have 10 or less life, choose one —\n• You gain 1 life.\n• Create a Chroma token.\n• Create a Lumina token.
