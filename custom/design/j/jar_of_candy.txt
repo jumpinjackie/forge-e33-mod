@@ -1,0 +1,29 @@
+[Name]
+Jar of Candy
+[ManaCost]
+G
+U
+[Rarity]
+C
+[Types]
+Artifact
+Food
+[Oracle]
+Flash
+{3}, {T}: Create a blue Aura enchantment token named Barbapapa attached to target creature. The token has enchant creature and “Enchanted creature has base power 1. When enchanted creature deals combat damage, sacrifice this Aura.”
+{2}, {T}, Sacrifice this artifact: You gain 3 life.
+[ForgeScript]
+K:Flash
+# TODO: Is there an AI hint to get it to target our creatures (preferring highest power)?
+A:AB$ Token | Cost$ 3 T | TokenAmount$ 1 | TokenScript$ u_barbapapa | TokenOwner$ You | AttachedTo$ Targeted | ValidTgts$ Creature | TgtPrompt$ Select target creature to attach Barbapapa Token | AILogic$ Curse | SpellDescription$ Create a blue Aura enchantment token named Barbapapa attached to target creature. The token has enchant creature and “Enchanted creature has base power 1. When enchanted creature deals combat damage, sacrifice this Aura.”
+A:AB$ GainLife | Cost$ 2 T Sac<1/CARDNAME> | LifeAmount$ 3 | SpellDescription$ You gain 3 life.
+[RelatedTokens]
+u_barbapapa
+[Artist]
+Sandfall Interactive
+[Bugs]
+ - AI does not want to use Barbpapa debuff
+[DesignNotes]
+ - In the game, Jars of Candy are scattered throughout Verso's drafts. These are basically breakable loot containers.
+ - Modeled as a food token that can flash in and be popped for a Barbapapa debuff.
+ - 1/04/2026: Re-introduced card back into base set with the barbapapa debuff being a permanent activated ability.
