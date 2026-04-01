@@ -11,8 +11,6 @@ Legendary
 Creature
 Human
 Advisor
-[IsCommander]
-true
 [Rarity]
 R
 [PT]
