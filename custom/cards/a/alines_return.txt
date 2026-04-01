@@ -1,0 +1,10 @@
+Name:Aline's Return
+ManaCost:3 GW B
+Types:Sorcery
+K:Cycling:2
+S:Mode$ ReduceCost | ValidCard$ Card.Self | Type$ Spell | Amount$ 3 | EffectZone$ All | ValidTarget$ Creature.Axon,Creature.Nevron | Description$ This spell costs {3} less to cast if it targets an Axon or Nevron.
+A:SP$ Destroy | ValidTgts$ Creature | TgtPrompt$ Select target creature | RememberLKI$ True | SubAbility$ DBLifeGain | SpellDescription$ Destroy target creature. If that creature was an Axon or Nevron, you gain 3 life and draw a card.
+SVar:DBLifeGain:DB$ GainLife | ConditionDefined$ RememberedLKI | ConditionPresent$ Card.Axon,Card.Nevron | Defined$ You | LifeAmount$ 3 | SubAbility$ DBDraw
+SVar:DBDraw:DB$ Draw | ConditionDefined$ RememberedLKI | ConditionPresent$ Card.Axon,Card.Nevron | NumCards$ 1 | Defined$ You | SubAbility$ DBCleanup
+SVar:DBCleanup:DB$ Cleanup | ClearRemembered$ True
+Oracle:This spell costs {3} less to cast if it targets an Axon or Nevron.\nDestroy target creature. If that creature was an Axon or Nevron, you gain 3 life and draw a card.\nCycling {2} ({2}, Discard this card: Draw a card.)

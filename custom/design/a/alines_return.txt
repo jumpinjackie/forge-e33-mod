@@ -1,0 +1,33 @@
+[Name]
+Aline's Return
+[Types]
+Sorcery
+[ManaCost]
+3
+GW
+B
+[Rarity]
+C
+[Oracle]
+This spell costs {3} less to cast if it targets an Axon or Nevron.
+Destroy target creature. If that creature was an Axon or Nevron, you gain 3 life and draw a card.
+Cycling {2} ({2}, Discard this card: Draw a card.)
+[FlavorText]
+Aline, you’re going to kill yourself! It’s too soon for you to return to any Canvas!
+- Renoir
+[ForgeScript]
+K:Cycling:2
+S:Mode$ ReduceCost | ValidCard$ Card.Self | Type$ Spell | Amount$ 3 | EffectZone$ All | ValidTarget$ Creature.Axon,Creature.Nevron | Description$ This spell costs {3} less to cast if it targets an Axon or Nevron.
+A:SP$ Destroy | ValidTgts$ Creature | TgtPrompt$ Select target creature | RememberLKI$ True | SubAbility$ DBLifeGain | SpellDescription$ Destroy target creature. If that creature was an Axon or Nevron, you gain 3 life and draw a card.
+SVar:DBLifeGain:DB$ GainLife | ConditionDefined$ RememberedLKI | ConditionPresent$ Card.Axon,Card.Nevron | Defined$ You | LifeAmount$ 3 | SubAbility$ DBDraw
+SVar:DBDraw:DB$ Draw | ConditionDefined$ RememberedLKI | ConditionPresent$ Card.Axon,Card.Nevron | NumCards$ 1 | Defined$ You | SubAbility$ DBCleanup
+SVar:DBCleanup:DB$ Cleanup | ClearRemembered$ True
+[Artist]
+Sandfall Interactive
+[Tags]
+creature-removal
+[DesignNotes]
+ - In the game, during the final boss battle with Renoir, Aline momentarily returns to the Canvas to swing the battle to the party's favor.
+ - Mapped to targeted Axon/Nevron kill.
+ - Added cycling to offset its marginality.
+ - 1/04/2026: Re-introduced back into base set. Cost changed from WB to 3(G/W)B. Made it general purpose creature kill with a massive bonus when targeting Painter/Nevron creatures.
