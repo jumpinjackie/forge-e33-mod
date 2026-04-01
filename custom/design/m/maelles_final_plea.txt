@@ -1,0 +1,23 @@
+[Name]
+Maelle's Final Plea
+[ManaCost]
+R
+G
+W
+[Types]
+Instant
+[Rarity]
+C
+[Oracle]
+One or two target creatures each get +2/+1, lifelink and trample until end of turn.
+[FlavorText]
+Maelle had hoped to reason with her father, that by expelling Maman out of the canvas that it was no longer necessary to erase the canvas. Her pleas fell on deaf ears.
+[ForgeScript]
+A:SP$ Pump | TargetMin$ 1 | TargetMax$ 2 | NumAtt$ +2 | NumDef$ +1 | KW$ Lifelink & Trample | ValidTgts$ Creature | TgtPrompt$ Select one or two target creatures | SpellDescription$ One or two target creatures each get +2/+1, lifelink and trample until end of turn.
+[Artist]
+Sandfall Interactive
+[Tags]
+combat-trick
+[DesignNotes]
+ - In the game, before the final boss battle with Renoir, Maelle pleads with him to spare the canvas as it is no longer necessary since Aline has been expelled from the Canvas. Her plea falls on deaf ears.
+ - Plea is synonymous with Appeal and existing cards with the word "Appeal" in this context are creature pump. So this is a creature pump with extras to justify the Naya color cost.
