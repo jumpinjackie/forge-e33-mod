@@ -1,0 +1,8 @@
+Name:Pain Transfer
+ManaCost:R W
+Types:Instant
+A:SP$ Pump | ValidTgts$ Creature | TargetMin$ 2 | TargetMax$ 2 | TargetUnique$ True | SubAbility$ DBChoose | StackDescription$ SpellDescription | SpellDescription$ Choose two target creatures. Prevent the next 3 damage that would be dealt to one of those creatures. Pain Transfer deals 3 damage to the other.
+SVar:DBChoose:DB$ ChooseCard | DefinedCards$ Targeted | Mandatory$ True | ChoiceTitle$ Choose one to prevent damage | Amount$ 1 | SubAbility$ DBPrevent | StackDescription$ None
+SVar:DBPrevent:DB$ PreventDamage | Defined$ ChosenCard | Amount$ 3 | SubAbility$ DBDamage | StackDescription$ None
+SVar:DBDamage:DB$ DealDamage | Defined$ Targeted.!ChosenCard | NumDmg$ 3
+Oracle:Choose two target creatures. Prevent the next 3 damage that would be dealt to one of those creatures. Pain Transfer deals 3 damage to the other.
