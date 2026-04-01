@@ -1,0 +1,9 @@
+Name:Lune's Contingency
+ManaCost:1 GW U
+Types:Instant
+A:SP$ Charm | Choices$ DBCounter,DBRegrowth,DBClue,DBBuff | CharmNum$ 2
+SVar:DBCounter:DB$ Counter | TargetType$ Spell | TgtPrompt$ Select target noncreature spell | ValidTgts$ Card.nonCreature | SpellDescription$ Counter target noncreature spell.
+SVar:DBRegrowth:DB$ ChangeZone | Origin$ Graveyard | Destination$ Hand | TgtPrompt$ Select target card in your graveyard | ValidTgts$ Card.YouCtrl | SpellDescription$ Return target card from your graveyard to your hand.
+SVar:DBClue:DB$ Token | TokenAmount$ 2 | TokenOwner$ You | TokenScript$ c_a_clue_draw | SpellDescription$ Create two Clue tokens.
+SVar:DBBuff:DB$ PutCounter | ValidTgts$ Creature | CounterType$ P1P1 | CounterNum$ 2 | TargetMin$ 1 | TargetMax$ 2 | DividedAsYouChoose$ 2 | SpellDescription$ Distribute two +1/+1 counters among one or two target creatures.
+Oracle:Choose two —\n• Counter target noncreature spell.\n• Return target card from your graveyard to your hand.\n• Create two Clue tokens.\n• Distribute two +1/+1 counters among one or two target creatures.
