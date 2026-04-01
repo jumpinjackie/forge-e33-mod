@@ -1,0 +1,29 @@
+[Name]
+Renoir's Bargain
+[ManaCost]
+4
+B
+R
+[Types]
+Sorcery
+[Rarity]
+R
+[Artist]
+Sandfall Interactive
+[Oracle]
+Target opponent chooses a number. You may have this spell deal that much damage to that player. If you don’t, you may have that player discard that many cards. If you don’t, that player sacrifices all but that many permanents of their choice.
+[FlavorText]
+“I know it seems absurd to offer oblivion as recompense, but perhaps that’s the outcome we both desire.”
+[ForgeScript]
+A:SP$ ChooseNumber | ValidTgts$ Opponent | AILogic$ Damnation | Notify$ True | SubAbility$ DBChoice | SpellDescription$ Target opponent chooses a number. You may have this spell deal that much damage to that player. If you don’t, you may have that player discard that many cards. If you don’t, that player sacrifices all but that many permanents of their choice.
+SVar:DBChoice:DB$ GenericChoice | Choices$ DBDamage,DBDiscard,DBSac
+SVar:DBDamage:DB$ DealDamage | Defined$ ParentTarget | NumDmg$ X | SpellDescription$ This spell deal that much damage to that player.
+SVar:DBDiscard:DB$ Discard | Defined$ ParentTarget | NumCards$ X | Mode$ TgtChoose | SpellDescription$ That player discards that many cards.
+SVar:DBSac:DB$ Sacrifice | Defined$ ParentTarget | SacValid$ Permanent | Amount$ Y | SpellDescription$ That player sacrifices all but that many permanents.
+SVar:X:Count$ChosenNumber
+SVar:Y:SVar$W/LimitMin.0
+SVar:W:SVar$Z/Minus.X
+SVar:Z:Count$Valid Permanent.TargetedPlayerCtrl
+[DesignNotes]
+ - In the game, at the start of Act 3, the real Renoir reveals his true self and meets his painted son for the first time (as real Renoir). He offers his apologies for the suffering his family dispute has wrought and offers to end it by erasing the canvas.
+ - This card was all about the quote in the flavor text. Modelled on Choice of Damnations, which perfectly matches the "Choose your own doom" motif we're trying to go for with this card.
