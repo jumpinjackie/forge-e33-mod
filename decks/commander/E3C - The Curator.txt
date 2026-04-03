@@ -38,6 +38,7 @@
 1 Gommage|E33
 1 The Fracture|E33
 // Spot Removal
+1 Anguished Unmaking|E3C
 1 Bedevil|E3C
 1 Chaos Warp|E3C
 1 Chroma Prison|E33
@@ -90,7 +91,7 @@
 1 Yellow Harvest|E33
 2 Forest|E33
 2 Island|E33
-4 Mountain|E33
+3 Mountain|E33
 4 Plains|E33
 5 Swamp|E33
 [Commander]

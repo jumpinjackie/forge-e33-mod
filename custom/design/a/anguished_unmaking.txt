@@ -1,0 +1,22 @@
+[Name]
+Anguished Unmaking
+[ManaCost]
+1
+W
+B
+[Types]
+Instant
+[Oracle]
+Exile target nonland permanent. You lose 3 life.
+[FlavorText]
+As Simon started handed over his blade and started to gommage, he wrought a faint smile, knowing he will meet his love once again.
+[IsReprint]
+true
+[IsCommander]
+true
+[Rarity]
+R
+[Artist]
+Sandfall Interactive
+[DesignNotes]
+ - Staple commander removal. Flavorful candidate based on reference art.
