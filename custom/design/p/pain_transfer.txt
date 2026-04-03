@@ -18,6 +18,7 @@ SVar:DBPrevent:DB$ PreventDamage | Defined$ ChosenCard | Amount$ 3 | SubAbility$
 SVar:DBDamage:DB$ DealDamage | Defined$ Targeted.!ChosenCard | NumDmg$ 3
 [Tags]
 combat-trick
+creature-removal
 [DesignNotes]
  - In the game, after the first battle with Painted Renoir at Old Lumiere concludes, Painted Renoir and Verso clash their weapons and in that moment, everything turns monochrome and freezes. In that moment Maelle (still able to move) sees and meets Painted Alicia. Painted Alicia unmasks herself and grabs Maelle's hand, at that moment Maelle can hear the screams of a dying man in a fire.
  - Card depicts this moment. Gone with a combat trick that prevents damage to one creature and deals that same amount to another creature (the transfer of pain)

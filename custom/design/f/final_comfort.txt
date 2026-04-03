@@ -22,6 +22,8 @@ SVar:DBChroma:DB$ Token | TokenAmount$ 1 | TokenOwner$ You | TokenScript$ c_a_ch
 SVar:DBLumina:DB$ Token | TokenAmount$ 1 | TokenOwner$ You | TokenScript$ c_a_lumina | SpellDescription$ Create a Lumina token.
 [Artist]
 Sandfall Interactive
+[Tags]
+lumina-generator
 [DesignNotes]
  - In the game, if you chose Verso's ending, he defeats Maelle and cradles her gommaging body offering her comforting words as she is being expelled from the canvas.
  - Card modelled on Convalescence, but expanded life gain to a modal decision.

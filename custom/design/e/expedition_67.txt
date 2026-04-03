@@ -21,6 +21,11 @@ SVar:DBChapter1:DB$ PutCounter | CounterType$ FUSE | CounterNum$ 1 | ValidTgts$ 
 SVar:DBChapter2:DB$ PutCounter | CounterType$ FUSE | CounterNum$ 1 | ValidTgts$ Permanent.nonLand | TargetMin$ 0 | TargetMax$ 2 | | TgtPrompt$ Select up to two target nonland permanents | SpellDescription$ Put a fuse counter on up to two target nonland permanents.
 SVar:DBChapter3:DB$ DestroyAll | Cost$ 2 T Sac<1/CARDNAME> | ValidCards$ Permanent.counters_GE1_FUSE | SpellDescription$ Destroy each permanent with a fuse counter on it.
 DeckHas:Ability$Counters
+[Tags]
+creature-removal
+artifact-removal
+enchantment-removal
+planeswalker-removal
 [DesignNotes]
  - Expedition 67 was all about using explosives to blow stuff up.
  - Saga therefore is a simple "timebomb" where the first 2 chapters "plants the bombs" on the permanents you want gone by Chapter 3. The number of targets chosen approximates the min desirable number of permanents you want to take out with a [Powder Keg / Engineered Explosives / Ratched Bomb / Filigree Sylex] at 2 counters.
