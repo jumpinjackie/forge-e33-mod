@@ -9,7 +9,6 @@
 
 using System.Diagnostics;
 using System.Globalization;
-using System.IO;
 using System.Text;
 using System.Text.RegularExpressions;
 using System.Text.Json;
@@ -17,7 +16,6 @@ using System.Text.Json.Nodes;
 using System.Net;
 using System.Xml;
 using DotMake.CommandLine;
-using Microsoft.VisualBasic;
 
 await Cli.RunAsync<RootCommand>(args);
 
@@ -2135,7 +2133,7 @@ public class GenAllCommand : BaseCommand
         await GenerateSpoilerAsync(cards, tokens, BaseDirectory, OutputDir, stdout, stderr);
 
         // Generate MPCFill XML order
-        await GenerateMpcFillOrderAsync(cards, tokens, BaseDirectory, OutputDir, stdout, stderr);
+        await GenerateMpcFillOrderAsync(cards, tokens, BaseDirectory, stdout, stderr);
 
         await stdout.WriteLineAsync("All generation tasks completed successfully!");
 
@@ -2602,14 +2600,15 @@ public class GenAllCommand : BaseCommand
         return text.Replace("&", "&amp;").Replace("<", "&lt;").Replace(">", "&gt;").Replace("\"", "&quot;").Replace("'", "&apos;");
     }
 
-    private async Task GenerateMpcFillOrderAsync(SortedDictionary<string, CardMasterDesign> cards, SortedDictionary<string, TokenDefinition> tokens, DirectoryInfo baseDirectory, DirectoryInfo outputDir, TextWriter stdout, TextWriter stderr)
+    private async Task GenerateMpcFillOrderAsync(SortedDictionary<string, CardMasterDesign> cards, SortedDictionary<string, TokenDefinition> tokens, DirectoryInfo baseDirectory, TextWriter stdout, TextWriter stderr)
     {
         try
         {
             _ = tokens;
 
-            Directory.CreateDirectory(outputDir.FullName);
-            var outputPath = Path.Combine(outputDir.FullName, "MPCFillOrder.xml");
+            var distDir = Path.Combine(this.BaseDirectory.FullName, "dist");
+            Directory.CreateDirectory(distDir);
+            var outputPath = Path.Combine(distDir, "MPCFillOrder.xml");
             var tokenAllocationsPath = Path.Combine(baseDirectory.FullName, "design", "mpc_token_allocations.csv");
 
             var settings = new XmlWriterSettings
