@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 27/3/2026 2:16:05 pm
+> Last generated: 3/4/2026 8:01:54 am
 
 ## Aberration
 
@@ -53,6 +53,28 @@ Each player who has cast a non-Painter, non-Gradient spell this turn can’t cas
  - 6/10/2025: Meld is back on the menu! Got it to work finally! Also extended null rod effect to Chroma and Lumina tokens.
  - 3/11/2025: Exchanged abilities with human Alicia. Canonist exemption changed from Nevrons/Gradient to Painters/Gradient. Reduce Chroma sac activation cost from 3 to 2 tokens.
  - 12/11/2025: Dropped the silencing activated ability as it makes no thematic sense to pay in tokens that don't exist in the "real world" that Alicia is in. Using straight mana payment then raises game balancing concerns around what is the appropriate cost. Better to just drop the ability.
+
+## Aline's Return
+
+```
+3(G/W)B
+Sorcery
+This spell costs {3} less to cast if it targets an Axon or Nevron.
+Destroy target creature. If that creature was an Axon or Nevron, you gain 3 life and draw a card.
+Cycling {2} ({2}, Discard this card: Draw a card.)
+---
+Aline, you’re going to kill yourself! It’s too soon for you to return to any Canvas!
+- Renoir
+```
+
+[card implementation](../custom/cards/a/alines_return.txt)
+
+### Design Notes
+
+ - In the game, during the final boss battle with Renoir, Aline momentarily returns to the Canvas to swing the battle to the party's favor.
+ - Mapped to targeted Axon/Nevron kill.
+ - Added cycling to offset its marginality.
+ - 1/04/2026: Re-introduced back into base set. Cost changed from WB to 3(G/W)B. Made it general purpose creature kill with a massive bonus when targeting Painter/Nevron creatures.
 
 ## Barbasucette
 
@@ -832,6 +854,24 @@ When this creature dies, create a Chroma token. (It's an artifact with "{T}, Sac
  - In the game, Expedition 63 employed the use of automobiles to traverse the continent. This expedition failed when their vehicles crashed into a Nevron for driving too fast.
  - This card models such a driver.
 
+## Expedition 67
+
+```
+BR
+Enchantment - Saga
+(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
+I — Put a fuse counter on target nonland permanent.
+II — Put a fuse counter on up to two target nonland permanents.
+III — Destroy each permanent with a fuse counter on it.
+```
+
+[card implementation](../custom/cards/e/expedition_67.txt)
+
+### Design Notes
+
+ - Expedition 67 was all about using explosives to blow stuff up.
+ - Saga therefore is a simple "timebomb" where the first 2 chapters "plants the bombs" on the permanents you want gone by Chapter 3. The number of targets chosen approximates the min desirable number of permanents you want to take out with a [Powder Keg / Engineered Explosives / Ratched Bomb / Filigree Sylex] at 2 counters.
+
 ## Expedition 67 Demolitions Expert
 
 ```
@@ -915,6 +955,63 @@ Luminous — Draw X cards if you control at least three Lumina tokens.
  - Gone with variable lifegain, like Festival of Trokin with a creature token Luminous bonus.
  - 18/02/2026: Reworked the card for greater power level. It's now variable life gain + token creation with the Luminous bonus of variable card draw. This still lines up thematically, as it can be explained flavor-wise as a final gathering of Expeditioners (create X tokens), enjoying their last banquet in the city (gain X life) and doing final preparations before departure (draw X cards)
 
+## Expeditioner's Grave
+
+```
+2BG
+Enchantment
+Whenever a nontoken Human or Expeditioner creature dies, put a death counter on this enchantment.
+{4}{B}{G}, Exile this enchantment: Return up to X target Human or Expeditioner creature cards from your graveyard onto the battlefield, where X is the number of death counters on this enchantment. You gain X life. Activate only as a Sorcery.
+---
+The Sadness Vale marks the final resting place for Expedition 39.
+```
+
+[card implementation](../custom/cards/e/expeditioners_grave.txt)
+
+### Design Notes
+
+ - In the game, a graveyard exists in the Sadness Vale of Visages marked with various mask headstones. It is believed the members of Expedition 39 were buried here.
+ - Gone with an enchantment that can bank human/expeditioner deaths that can be cashed in later for a mass reanimation.
+ - Exile part of cost to prevent recursion.
+ - Sorcery speed to make the mass reanimation moment predictable.
+
+## Final Comfort
+
+```
+(G/W)U
+Enchantment
+At the beginning of your upkeep, if you have 10 or less life, choose one —
+• You gain 1 life.
+• Create a Chroma token.
+• Create a Lumina token.
+---
+Like his real life counterpart, Verso’s painted facsimile once again gave his sister reassurance in his final moments. “You’ve got his incredible power to paint. You’ll never suffer a life you don’t want. You’re ok.”
+```
+
+[card implementation](../custom/cards/f/final_comfort.txt)
+
+### Design Notes
+
+ - In the game, if you chose Verso's ending, he defeats Maelle and cradles her gommaging body offering her comforting words as she is being expelled from the canvas.
+ - Card modelled on Convalescence, but expanded life gain to a modal decision.
+
+## Final Showdown
+
+```
+2RW
+Instant
+Untap all creatures. Creatures target opponent controls attack this turn if able.
+---
+Renoir acknowledged their pleas and arguments, and that did not change anything. The time for negotiations was over. If the Expedition wanted to save the canvas, they will have to fight for it.
+```
+
+[card implementation](../custom/cards/f/final_showdown.txt)
+
+### Design Notes
+
+ - In the game, before the final boss battle with Renoir, Maelle pleads with him to spare the canvas as it is no longer necessary since Aline has been expelled from the Canvas. Her plea falls on deaf ears.
+ - Modelled as a combat trick that breaks up a board stalemate or defensive position by forcing a combat situation.
+
 ## Finesse // Grace
 
 ```
@@ -973,7 +1070,7 @@ When Florian dies, create a Chroma token.
 
 ### Notes
 
- - Flavorful spot removal for commander on name basis.
+ - Flavorful spot removal for on name basis.
 
 ## Full Deck
 
@@ -1369,6 +1466,42 @@ Overcharge — {T}, Remove X charge counters from Gustave: Gustave deals X damag
  - 13/10/2025: Dropped the marking shot ability due to text box budget constraints having seen this card for the first time in CardConjurer.
  - 14/02/2026: Reorder mana symbols for consistency with actual cards with hybrid/regular pip combinations
 
+## Intervening Parry
+
+```
+WU
+Instant
+Split second (As long as this spell is on the stack, players can’t cast spells or activate abilities that aren’t mana abilities.)
+Target creature gets +2/+2 until end of turn.
+---
+Just as Painted Renoir was about to strike the killing blow to Maelle, his blade clashed with a blade of a mysterious figure who suddenly appeared in front of her.
+```
+
+[card implementation](../custom/cards/i/intervening_parry.txt)
+
+### Design Notes
+
+ - In the game, shortly after killing Gustave, Painted Renoir sets his sights on Maelle, as he was ready to land the killing blow, Verso swiftly intervenes and parries his strike.
+ - Card depicts this moment. Standard creature pump, but with split second to emphasize the speed of the act.
+
+## Jar of Candy
+
+```
+GU
+Artifact - Food
+Flash
+{3}, {T}: Create a blue Aura enchantment token named Barbapapa attached to target creature. The token has enchant creature and “Enchanted creature has base power 1. When enchanted creature deals combat damage, sacrifice this Aura.”
+{2}, {T}, Sacrifice this artifact: You gain 3 life.
+```
+
+[card implementation](../custom/cards/j/jar_of_candy.txt)
+
+### Design Notes
+
+ - In the game, Jars of Candy are scattered throughout Verso's drafts. These are basically breakable loot containers.
+ - Modeled as a food token that can flash in and be popped for a Barbapapa debuff.
+ - 1/04/2026: Re-introduced card back into base set with the barbapapa debuff being a permanent activated ability.
+
 ## Lampmaster
 
 ```
@@ -1545,6 +1678,27 @@ Elemental Genesis — {T}, Remove four stain counters from Lune: Lune deals 4 da
     - If Lune has 4 stain counters and you cast any 1+ color instant or sorcery. Lune will get 0 additional stain counters.
     - You may activate a stain counter consuming ability in response to the stain counter adding trigger.
 
+## Lune's Contingency
+
+```
+1(G/W)U
+Instant
+Choose two —
+• Counter target noncreature spell.
+• Return target card from your graveyard to your hand.
+• Create two Clue tokens.
+• Distribute two +1/+1 counters among one or two target creatures.
+---
+“What are you working on?” enquired Sciel. “Contingency plans” said Lune, “Expedition 32 will need every bit of information we have”
+```
+
+[card implementation](../custom/cards/l/lunes_contingency.txt)
+
+### Design Notes
+
+ - In the game, after losing Gustave at the Stone Wave Cliffs, the remainder of the Party sets up camp. Sensing likely failure of the Expedition, Lune starts setting up contingency plans for the next Expedition.
+ - Gone with a super-flexible modal.
+
 ## Maelle, Child of Lumière // Maelle, The Reawakened Paintress
 
 ```
@@ -1596,6 +1750,23 @@ Human and Gradient spells you cast cost {1} less to cast.
  - 3/11/2025: Abilities changed due to CardConjurer constraints. Removed single human reanimation ability. The 2 expeditioner generation ability moved to +1 loyalty. Cost discount expanded to cover Gradient spells too.
  - Hybrid mana pip is used where the color identity pip is because this particular planeswalker frame does not support color identity pips for some reason.
  - 17/11/2025: Remove hybrid mana pip and replaced with color identity pip as I figured out how to place it in CardConjurer
+
+## Maelle's Final Plea
+
+```
+RGW
+Instant
+One or two target creatures each get +2/+1, lifelink and trample until end of turn.
+---
+Maelle had hoped to reason with her father, that by expelling Maman out of the canvas that it was no longer necessary to erase the canvas. Her pleas fell on deaf ears.
+```
+
+[card implementation](../custom/cards/m/maelles_final_plea.txt)
+
+### Design Notes
+
+ - In the game, before the final boss battle with Renoir, Maelle pleads with him to spare the canvas as it is no longer necessary since Aline has been expelled from the Canvas. Her plea falls on deaf ears.
+ - Plea is synonymous with Appeal and existing cards with the word "Appeal" in this context are creature pump. So this is a creature pump with extras to justify the Naya color cost.
 
 ## Maelstrom Pulse
 
@@ -1869,6 +2040,46 @@ When Nicolas dies, create a Chroma token.
  - In the game's prologue, Nicolas (if spoken to) asks you (Gustave) do dodge Sophie's attacks to inspire him with this painting. This is really just a thinly veiled tutorial on dodging attacks.
  - Mapped inspiration to saccing chroma tokens (Chroma being the "paint/lifeforce" of this world) for card draw.
 
+## Noco & Monoco the Third
+
+```
+GW
+Legendary Creature - Dog
+Vigilance
+Whenever an artifact enters, you gain 1 life.
+Whenever Noco & Monoco the Third attacks, choose one —
+• Dig — Surveil 1.
+• Fetch! — Return target artifact card from your graveyard to your hand.
+---
+Man’s best friend has a successor.
+
+2/2
+```
+
+[card implementation](../custom/cards/n/noco_&_monoco_the_third.txt)
+
+### Design Notes
+
+ - In the game, Noco & Monoco the Third are the family dogs of the Dessendre Family. They can be found lying on a dog bed in the real manor during the Act2 - Act3 intermission.
+ - Just a "bear" with as many doggo-related abilities.
+
+## Pain Transfer
+
+```
+RW
+Instant
+Choose two target creatures. Prevent the next 3 damage that would be dealt to one of those creatures. Pain Transfer deals 3 damage to the other.
+---
+With a simple touch, Maelle briefly experienced the trauma and anguish that Painted Alicia suffers eternally.
+```
+
+[card implementation](../custom/cards/p/pain_transfer.txt)
+
+### Design Notes
+
+ - In the game, after the first battle with Painted Renoir at Old Lumiere concludes, Painted Renoir and Verso clash their weapons and in that moment, everything turns monochrome and freezes. In that moment Maelle (still able to move) sees and meets Painted Alicia. Painted Alicia unmasks herself and grabs Maelle's hand, at that moment Maelle can hear the screams of a dying man in a fire.
+ - Card depicts this moment. Gone with a combat trick that prevents damage to one creature and deals that same amount to another creature (the transfer of pain)
+
 ## Painted Alicia, Eternally Suffering
 
 ```
@@ -2019,6 +2230,23 @@ When this creature dies, target opponent creates a Lumina token. (It's an artifa
  - Vanilla placeholder Nevron
  - 13/10/2025: Removed Devoid.
  - 13/12/2025: Set P/T to 2/2, changed cost from 2WB to WB, added flying and first strike.
+
+## Renoir's Bargain
+
+```
+4BR
+Sorcery
+Target opponent chooses a number. You may have this spell deal that much damage to that player. If you don’t, you may have that player discard that many cards. If you don’t, that player sacrifices all but that many permanents of their choice.
+---
+“I know it seems absurd to offer oblivion as recompense, but perhaps that’s the outcome we both desire.”
+```
+
+[card implementation](../custom/cards/r/renoirs_bargain.txt)
+
+### Design Notes
+
+ - In the game, at the start of Act 3, the real Renoir reveals his true self and meets his painted son for the first time (as real Renoir). He offers his apologies for the suffering his family dispute has wrought and offers to end it by erasing the canvas.
+ - This card was all about the quote in the flavor text. Modelled on Choice of Damnations, which perfectly matches the "Choose your own doom" motif we're trying to go for with this card.
 
 ## Repaint
 
@@ -2576,6 +2804,26 @@ Phantom Stars — {4}{W}, {T}, Remove X rank counters from Verso: Verso deals X 
  - "Phantom Stars" ultimate is paid in rank counters for game balance purposes. In game, none of Verso's abilities cost him is rank.
  - 21/01/2026: Changed "Phantom Stars" ultimate to only target up to 2 creatures instead of all creatures target opponent controls.
  - 14/02/2026: Reorder mana symbols for consistency with actual cards with hybrid/regular pip combinations
+
+## Verso's Composition
+
+```
+GW
+Enchantment
+At the beginning of your upkeep, you may put a verse counter on this enchantment.
+Sacrifice this enchantment: Target creature gets +X/+X and lifelink until end of turn, where X is the number of verse counters on this enchantment.
+---
+Maelle: What song was that? I feel like I know it.
+Verso: Yeah, it’s an old song I used to play to my sister.
+Maelle: Can you play another?
+```
+
+[card implementation](../custom/cards/v/versos_composition.txt)
+
+### Design Notes
+
+ - In the game, during one of the camp cutscenes, Verso plays some tunes on his piano.
+ - Modeled on War Dance, with a lifelink bonus attached.
 
 ## Verso's Sky Train
 
