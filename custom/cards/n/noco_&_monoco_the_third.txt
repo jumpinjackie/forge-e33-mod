@@ -1,0 +1,12 @@
+Name:Noco & Monoco the Third
+ManaCost:G W
+Types:Legendary Creature Dog
+PT:2/2
+K:Vigilance
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Artifact | TriggerZones$ Battlefield | Execute$ TrigGainLife | TriggerDescription$ Whenever an artifact enters, you gain 1 life.
+SVar:TrigGainLife:DB$ GainLife | Defined$ You | LifeAmount$ 1
+T:Mode$ Attacks | ValidCard$ Card.Self | Execute$ TrigChoose | TriggerZones$ Battlefield | OptionalDecider$ You | TriggerDescription$ When CARDNAME attacks, ABILITY
+SVar:TrigChoose:DB$ Charm | Choices$ DBSurveil,DBFetch | CharmNum$ 1
+SVar:DBSurveil:DB$ Surveil | Amount$ 1 | SpellDescription$ Surveil 1.
+SVar:DBFetch:DB$ ChangeZone | Origin$ Graveyard | Destination$ Hand | TgtPrompt$ Choose target artifact in your graveyard | ValidTgts$ Artifact.YouCtrl | SpellDescription$ Return target artifact card from your graveyard to your hand.
+Oracle:Vigilance\nWhenever an artifact enters, you gain 1 life.\nWhenever Noco & Monoco the Third attacks, choose one —\n• Dig — Surveil 1.\n• Fetch! — Return target artifact card from your graveyard to your hand.
