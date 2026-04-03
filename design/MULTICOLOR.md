@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 3/4/2026 8:17:04 am
+> Last generated: 3/4/2026 8:43:06 am
 
 ## Aberration
 
@@ -1766,7 +1766,7 @@ Maelle had hoped to reason with her father, that by expelling Maman out of the c
 
 ### Notes
 
- - Useful spot removal in commander
+ - Flavorful reprint and useful spot removal.
 
 ## Manor Entrance // Manor Hidden Room
 
@@ -2795,26 +2795,6 @@ Phantom Stars — {4}{W}, {T}, Remove X rank counters from Verso: Verso deals X 
  - "Phantom Stars" ultimate is paid in rank counters for game balance purposes. In game, none of Verso's abilities cost him is rank.
  - 21/01/2026: Changed "Phantom Stars" ultimate to only target up to 2 creatures instead of all creatures target opponent controls.
  - 14/02/2026: Reorder mana symbols for consistency with actual cards with hybrid/regular pip combinations
-
-## Verso's Composition
-
-```
-GW
-Enchantment
-At the beginning of your upkeep, you may put a verse counter on this enchantment.
-Sacrifice this enchantment: Target creature gets +X/+X and lifelink until end of turn, where X is the number of verse counters on this enchantment.
----
-Maelle: What song was that? I feel like I know it.
-Verso: Yeah, it’s an old song I used to play to my sister.
-Maelle: Can you play another?
-```
-
-[card implementation](../custom/cards/v/versos_composition.txt)
-
-### Design Notes
-
- - In the game, during one of the camp cutscenes, Verso plays some tunes on his piano.
- - Modeled on War Dance, with a lifelink bonus attached.
 
 ## Verso's Sky Train
 

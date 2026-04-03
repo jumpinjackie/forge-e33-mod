@@ -5,7 +5,7 @@
 1 Chomping Changeling|E3C
 1 Denial|E33
 1 Dominique Giant Feet|E33
-1 Emma, Lumière Chief Councilor|E3C
+1 Emma, Lumière Chief Councilor|E33
 1 Esquie, Friend of Verso|E33
 1 Expedition 34 Mage|E33
 1 Expedition 54 Dissident|E33
@@ -39,7 +39,7 @@
 // Spot Removal
 1 Full Deck|E33
 1 Leave this Canvas!|E33
-1 Maelstrom Pulse|E3C
+1 Maelstrom Pulse|E33
 1 Mortify|E3C
 1 Path to Exile|E3C
 1 Rally the Expeditioners|E33

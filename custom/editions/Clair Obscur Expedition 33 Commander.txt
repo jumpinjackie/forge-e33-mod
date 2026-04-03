@@ -22,7 +22,6 @@ Type=Custom
 178 U Gathering Stone @Paolo Parente
 225 R Harmonized Crescendo @Tyler Walpole
 230 R Icon of Ancestry @Ivan Dedov
-268 R Maelstrom Pulse @John Avon
 278 U Mask of Memory @Sandfall Interactive
 283 R Mirror Entity @Thomas Toye
 289 U Mortify @Sandfall Interactive
@@ -46,4 +45,4 @@ Type=Custom
 389 U Talisman of Unity @Mike Dringenberg
 400 R Brushland @Sandfall Interactive ${"flavorName": "The Meadows"}
 421 U Unclaimed Territory @Dimitar Marinski
-446 R Void Rend @Justyna Dura
+445 R Void Rend @Justyna Dura

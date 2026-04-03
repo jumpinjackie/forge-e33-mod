@@ -6,8 +6,6 @@ B
 G
 [IsReprint]
 true
-[IsCommander]
-true
 [Rarity]
 R
 [Types]
@@ -19,4 +17,4 @@ A family dispute, turned into a cataclysmic event.
 [Artist]
 John Avon
 [DesignNotes]
- - Useful spot removal in commander
+ - Flavorful reprint and useful spot removal.
