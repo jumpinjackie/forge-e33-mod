@@ -133,7 +133,7 @@ Type=Custom
 150 U Expedition Journal @Sandfall Interactive
 151 U Expedition Recruiter @Sandfall Interactive
 152 C Expeditioner Uniform @Sandfall Interactive
-153 R Expeditioner's Grave @
+153 R Expeditioner's Grave @Sandfall Interactive
 155 C Face Adversity @Sandfall Interactive
 157 C Familial Bonding @Sandfall Interactive
 160 U Final Comfort @Sandfall Interactive
@@ -224,7 +224,7 @@ Type=Custom
 258 U Lumièrian Apprentice @Sandfall Interactive
 259 U Lumina Converter @Sandfall Interactive
 260 R Lune, Charting a Path @Sandfall Interactive
-261 C Lune's Contingency @Sandfall Interactive
+261 U Lune's Contingency @Sandfall Interactive
 262 U Lune's Curiosity @Sandfall Interactive
 263 C Lune's Denial @Google Gemini
 264 C Luster @Sandfall Interactive
@@ -264,7 +264,7 @@ Type=Custom
 302 C Orphelin @Sandfall Interactive
 303 M Osquio, Ruler Of All The Trains @Sandfall Interactive
 304 U Outdome Scouting Party @Google Gemini
-305 C Pain Transfer @
+305 C Pain Transfer @Sandfall Interactive
 306 U Paint Spike @Sandfall Interactive
 307 R Painted Alicia, Eternally Suffering @Sandfall Interactive
 309 R Painted Clea, the Regent @Sandfall Interactive

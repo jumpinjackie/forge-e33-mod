@@ -13,8 +13,8 @@ This spell costs {3} less to cast if it targets an Axon or Nevron.
 Destroy target creature. If that creature was an Axon or Nevron, you gain 3 life and draw a card.
 Cycling {2} ({2}, Discard this card: Draw a card.)
 [FlavorText]
-Aline, you’re going to kill yourself! It’s too soon for you to return to any Canvas!
-- Renoir
+"Aline, you’re going to kill yourself! It’s too soon for you to return to any Canvas!"
+—Renoir
 [ForgeScript]
 K:Cycling:2
 S:Mode$ ReduceCost | ValidCard$ Card.Self | Type$ Spell | Amount$ 3 | EffectZone$ All | ValidTarget$ Creature.Axon,Creature.Nevron | Description$ This spell costs {3} less to cast if it targets an Axon or Nevron.

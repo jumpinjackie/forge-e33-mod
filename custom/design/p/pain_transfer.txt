@@ -16,6 +16,8 @@ A:SP$ Pump | ValidTgts$ Creature | TargetMin$ 2 | TargetMax$ 2 | TargetUnique$ T
 SVar:DBChoose:DB$ ChooseCard | DefinedCards$ Targeted | Mandatory$ True | ChoiceTitle$ Choose one to prevent damage | Amount$ 1 | SubAbility$ DBPrevent | StackDescription$ None
 SVar:DBPrevent:DB$ PreventDamage | Defined$ ChosenCard | Amount$ 3 | SubAbility$ DBDamage | StackDescription$ None
 SVar:DBDamage:DB$ DealDamage | Defined$ Targeted.!ChosenCard | NumDmg$ 3
+[Artist]
+Sandfall Interactive
 [Tags]
 combat-trick
 creature-removal

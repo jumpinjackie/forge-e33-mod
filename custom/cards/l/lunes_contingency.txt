@@ -1,6 +1,6 @@
 Name:Lune's Contingency
 ManaCost:1 GW U
-Types:Instant
+Types:Kindred Instant Expeditioner
 A:SP$ Charm | Choices$ DBCounter,DBRegrowth,DBClue,DBBuff | CharmNum$ 2
 SVar:DBCounter:DB$ Counter | TargetType$ Spell | TgtPrompt$ Select target noncreature spell | ValidTgts$ Card.nonCreature | SpellDescription$ Counter target noncreature spell.
 SVar:DBRegrowth:DB$ ChangeZone | Origin$ Graveyard | Destination$ Hand | TgtPrompt$ Select target card in your graveyard | ValidTgts$ Card.YouCtrl | SpellDescription$ Return target card from your graveyard to your hand.

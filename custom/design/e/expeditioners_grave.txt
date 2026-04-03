@@ -19,6 +19,8 @@ SVar:TrigCounter:DB$ PutCounter | CounterType$ DEATH | CounterNum$ 1
 A:AB$ ChangeZone | Cost$ 4 B G Exile<1/CARDNAME> | SorcerySpeed$ True | TargetMin$ 0 | TargetMax$ X | ValidTgts$ Creature.YouOwn+Human,Creature.YouOwn+Expeditioner | TgtPrompt$ Select X target outlaw creatures in your graveyard | Origin$ Graveyard | Destination$ Battlefield | SpellDescription$ Return up to X target Human or Expeditioner creature cards from your graveyard onto the battlefield, where X is the number of death counters on this enchantment. You gain X life. Activate only as a Sorcery.
 SVar:X:Count$CardCounters.DEATH
 DeckHints:Type$Human|Expeditioner
+[Artist]
+Sandfall Interactive
 [Tags]
 reanimation
 [DesignNotes]

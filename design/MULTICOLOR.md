@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 3/4/2026 9:16:05 am
+> Last generated: 3/4/2026 6:05:52 pm
 
 ## Aberration
 
@@ -54,8 +54,8 @@ This spell costs {3} less to cast if it targets an Axon or Nevron.
 Destroy target creature. If that creature was an Axon or Nevron, you gain 3 life and draw a card.
 Cycling {2} ({2}, Discard this card: Draw a card.)
 ---
-Aline, you’re going to kill yourself! It’s too soon for you to return to any Canvas!
-- Renoir
+"Aline, you’re going to kill yourself! It’s too soon for you to return to any Canvas!"
+—Renoir
 ```
 
 [card implementation](../custom/cards/a/alines_return.txt)
@@ -1682,7 +1682,7 @@ Elemental Genesis — {T}, Remove four stain counters from Lune: Lune deals 4 da
 
 ```
 1(G/W)U
-Instant
+Kindred Instant - Expeditioner
 Choose two —
 • Counter target noncreature spell.
 • Return target card from your graveyard to your hand.

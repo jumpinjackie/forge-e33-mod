@@ -5,9 +5,11 @@ Lune's Contingency
 GW
 U
 [Types]
+Kindred
 Instant
+Expeditioner
 [Rarity]
-C
+U
 [Artist]
 Sandfall Interactive
 [Oracle]
