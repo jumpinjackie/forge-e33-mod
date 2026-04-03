@@ -1,0 +1,25 @@
+[Name]
+Expeditioner's Grave
+[Types]
+Enchantment
+[ManaCost]
+2
+B
+G
+[Rarity]
+R
+[Oracle]
+Whenever a nontoken Human or Expeditioner creature dies, put a death counter on this enchantment.
+{4}{B}{G}, Exile this enchantment: Return up to X target Human or Expeditioner creature cards from your graveyard onto the battlefield, where X is the number of death counters on this enchantment. You gain X life. Activate only as a Sorcery.
+[FlavorText]
+The Sadness Vale marks the final resting place for Expedition 39.
+[ForgeScript]
+T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Creature.Human+!token,Creature.Expeditioner+!token | TriggerZones$ Battlefield | Execute$ TrigCounter | TriggerDescription$ Whenever a nontoken Human or Expeditioner creature dies, put a death counter on this enchantment.
+SVar:TrigCounter:DB$ PutCounter | CounterType$ DEATH | CounterNum$ 1
+A:AB$ ChangeZone | Cost$ 4 B G Exile<1/CARDNAME> | SorcerySpeed$ True | TargetMin$ 0 | TargetMax$ X | ValidTgts$ Creature.YouOwn+Human,Creature.YouOwn+Expeditioner | TgtPrompt$ Select X target outlaw creatures in your graveyard | Origin$ Graveyard | Destination$ Battlefield | SpellDescription$ Return up to X target Human or Expeditioner creature cards from your graveyard onto the battlefield, where X is the number of death counters on this enchantment. You gain X life. Activate only as a Sorcery.
+SVar:X:Count$CardCounters.DEATH
+[DesignNotes]
+ - In the game, a graveyard exists in the Sadness Vale of Visages marked with various mask headstones. It is believed the members of Expedition 39 were buried here.
+ - Gone with an enchantment that can bank human/expeditioner deaths that can be cashed in later for a mass reanimation.
+ - Exile part of cost to prevent recursion.
+ - Sorcery speed to make the mass reanimation moment predictable.
