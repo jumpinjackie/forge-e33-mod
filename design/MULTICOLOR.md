@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 3/4/2026 8:43:06 am
+> Last generated: 3/4/2026 9:16:05 am
 
 ## Aberration
 
@@ -66,6 +66,15 @@ Aline, you’re going to kill yourself! It’s too soon for you to return to any
  - Mapped to targeted Axon/Nevron kill.
  - Added cycling to offset its marginality.
  - 1/04/2026: Re-introduced back into base set. Cost changed from WB to 3(G/W)B. Made it general purpose creature kill with a massive bonus when targeting Painter/Nevron creatures.
+
+## Anguished Unmaking
+
+> This card is a reprint
+[Scryfall](https://scryfall.com/search?q=Anguished%20Unmaking)
+
+### Notes
+
+ - Staple commander removal. Flavorful candidate based on reference art.
 
 ## Barbasucette
 
