@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 20/3/2026 1:49:24 am
+> Last generated: 3/4/2026 8:17:04 am
 
 ## A Rock for François
 
@@ -227,15 +227,6 @@ Luminous — {T}: Add one mana of any color. Activate this ability only if you c
 ### Notes
 
  - Staple commander mana rock.
-
-## Commander's Sphere
-
-> This card is a reprint
-[Scryfall](https://scryfall.com/search?q=Commander%27s%20Sphere)
-
-### Notes
-
- - Obligatory commander mana rock.
 
 ## Death Picto
 
@@ -1446,15 +1437,6 @@ Verso's childhood canvas. Where we used to play ... Where he painted Esquie and 
 ### Rulings
 
  - Does not affect permanents that are reprints or nicknamed reprints.
-
-## Thought Vessel
-
-> This card is a reprint
-[Scryfall](https://scryfall.com/search?q=Thought%20Vessel)
-
-### Notes
-
- - Obligatory Commander mana rock.
 
 ## Urrie
 

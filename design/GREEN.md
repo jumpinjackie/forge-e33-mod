@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 27/3/2026 2:08:47 pm
+> Last generated: 3/4/2026 8:17:04 am
 
 ## Abbest
 
@@ -147,33 +147,6 @@ When this creature dies, target opponent creates a Lumina token. (It's an artifa
  - 5/10/2025: Switched PT from 1/2 to 2/1 for more offensive punch.
  - 13/10/2025: Removed Devoid.
  - 21/01/2026: Color-shifted from red/green hybrid to green.
-
-## Cultivate
-
-> This card is a reprint
-[Scryfall](https://scryfall.com/search?q=Cultivate)
-
-### Notes
-
- - Obligatory commander staple.
-
-## Descendants' Path
-
-> This card is a reprint
-[Scryfall](https://scryfall.com/search?q=Descendants%27%20Path)
-
-### Notes
-
- - Value engine for commander.
-
-## Doubling Season
-
-> This card is a reprint
-[Scryfall](https://scryfall.com/search?q=Doubling%20Season)
-
-### Notes
-
- - Commander staple.
 
 ## Expedition 00 Tracker
 
@@ -366,15 +339,6 @@ Any adversity can be overcome, if we face it together.
  - Flavorful (based on art) [removal / combat trick] reprint
  - 14/01/2026: Renamed from Band Together to Face Adversity so we can tack on a Lumina token bonus.
  - 26/01/2026: Updated flavor text.
-
-## Farseek
-
-> This card is a reprint
-[Scryfall](https://scryfall.com/search?q=Farseek)
-
-### Notes
-
- - Easy on-flavor reprint.
 
 ## Franctale
 

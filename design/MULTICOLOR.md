@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 3/4/2026 8:01:54 am
+> Last generated: 3/4/2026 8:17:04 am
 
 ## Aberration
 
@@ -22,15 +22,6 @@ When this creature dies, target opponent creates a Lumina token.
  - Just a vanilla placeholder for now until I have figured out some suitable abilities for it
  - 13/10/2025: Removed Devoid.
  - 21/01/2026: Added Horror sub-type.
-
-## Abrupt Decay
-
-> This card is a reprint
-[Scryfall](https://scryfall.com/search?q=Abrupt%20Decay)
-
-### Notes
-
- - Staple commander spot removal.
 
 ## Alicia Dessendre, Silenced by Fire
 

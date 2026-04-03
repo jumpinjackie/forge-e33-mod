@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 27/3/2026 2:08:47 pm
+> Last generated: 3/4/2026 8:17:04 am
 
 ## A Life to Love (Farewell)
 
@@ -80,15 +80,6 @@ When Amandine dies, create a Chroma token. (It's an artifact with "{T}, Sacrific
 
  - In the game's prologue, Amandine can be found at the Expedition Festival. You can trade her a festival token for a haircut.
  - Mechanically translated fashion to equipment, hence Amandine main ability is being able to attach equipment to other creatures.
-
-## Austere Command
-
-> This card is a reprint
-[Scryfall](https://scryfall.com/search?q=Austere%20Command)
-
-### Notes
-
- - Staple commander board wipe
 
 ## Blanche, the Unfinished Creation
 
