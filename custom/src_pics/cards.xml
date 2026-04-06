@@ -1,0 +1,3379 @@
+<order>
+    <details>
+        <quantity>612</quantity>
+        <stock>(S30) Standard Smooth</stock>
+        <foil>false</foil>
+    </details>
+    <fronts>
+        <card>
+            <id>./cards/E33/Jar.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>0</slots>
+            <name>Jar.jpeg</name>
+            <query>jar</query>
+        </card>
+        <card>
+            <id>./cards/E33/Petank.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>1</slots>
+            <name>Petank.jpeg</name>
+            <query>petank</query>
+        </card>
+        <card>
+            <id>./cards/E33/Acceptance.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>2</slots>
+            <name>Acceptance.jpeg</name>
+            <query>acceptance</query>
+        </card>
+        <card>
+            <id>./cards/E33/All Set.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>3</slots>
+            <name>All Set.jpeg</name>
+            <query>all set</query>
+        </card>
+        <card>
+            <id>./cards/E33/Amandine, Fashion Stylist.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>4</slots>
+            <name>Amandine, Fashion Stylist.jpeg</name>
+            <query>amandine fashion stylist</query>
+        </card>
+        <card>
+            <id>./cards/E33/Blanche, the Unfinished Creation.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>5</slots>
+            <name>Blanche, the Unfinished Creation.jpeg</name>
+            <query>blanche unfinished creation</query>
+        </card>
+        <card>
+            <id>./cards/E33/Bruler &amp; Cruler, Nevron Blacksmiths.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>6</slots>
+            <name>Bruler &amp; Cruler, Nevron Blacksmiths.jpeg</name>
+            <query>bruler cruler nevron blacksmiths</query>
+        </card>
+        <card>
+            <id>./cards/E33/Ceramic Chevaliere.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>7</slots>
+            <name>Ceramic Chevaliere.jpeg</name>
+            <query>ceramic chevaliere</query>
+        </card>
+        <card>
+            <id>./cards/E33/Chroma Barrier.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>8</slots>
+            <name>Chroma Barrier.jpeg</name>
+            <query>chroma barrier</query>
+        </card>
+        <card>
+            <id>./cards/E33/Chroma Prison.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>9</slots>
+            <name>Chroma Prison.jpeg</name>
+            <query>chroma prison</query>
+        </card>
+        <card>
+            <id>./cards/E33/Clair.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>10</slots>
+            <name>Clair.jpeg</name>
+            <query>clair</query>
+        </card>
+        <card>
+            <id>./cards/E33/Danseuse Teacher.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>11</slots>
+            <name>Danseuse Teacher.jpeg</name>
+            <query>danseuse teacher</query>
+        </card>
+        <card>
+            <id>./cards/E33/Expedition 32 Trainees.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>12</slots>
+            <name>Expedition 32 Trainees.jpeg</name>
+            <query>expedition trainees</query>
+        </card>
+        <card>
+            <id>./cards/E33/Expedition 49.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>13</slots>
+            <name>Expedition 49.jpeg</name>
+            <query>expedition</query>
+        </card>
+        <card>
+            <id>./cards/E33/Expedition 49 Healer.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>14</slots>
+            <name>Expedition 49 Healer.jpeg</name>
+            <query>expedition healer</query>
+        </card>
+        <card>
+            <id>./cards/E33/Expedition 49 Protector.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>15</slots>
+            <name>Expedition 49 Protector.jpeg</name>
+            <query>expedition protector</query>
+        </card>
+        <card>
+            <id>./cards/E33/Expedition 54 Dissident.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>16</slots>
+            <name>Expedition 54 Dissident.jpeg</name>
+            <query>expedition dissident</query>
+        </card>
+        <card>
+            <id>./cards/E33/Expedition Recruiter.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>17</slots>
+            <name>Expedition Recruiter.jpeg</name>
+            <query>expedition recruiter</query>
+        </card>
+        <card>
+            <id>./cards/E33/Gustave's Burial.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>18</slots>
+            <name>Gustave's Burial.jpeg</name>
+            <query>gustaves burial</query>
+        </card>
+        <card>
+            <id>./cards/E33/Light the Path.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>19</slots>
+            <name>Light the Path.jpeg</name>
+            <query>light path</query>
+        </card>
+        <card>
+            <id>./cards/E33/Lumiere Assault.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>20</slots>
+            <name>Lumiere Assault.jpeg</name>
+            <query>lumiere assault</query>
+        </card>
+        <card>
+            <id>./cards/E33/Lumierian Apprentice.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>21</slots>
+            <name>Lumierian Apprentice.jpeg</name>
+            <query>lumierian apprentice</query>
+        </card>
+        <card>
+            <id>./cards/E33/Payback.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>22</slots>
+            <name>Payback.jpeg</name>
+            <query>payback</query>
+        </card>
+        <card>
+            <id>./cards/E33/Perfect Dodge.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>23</slots>
+            <name>Perfect Dodge.jpeg</name>
+            <query>perfect dodge</query>
+        </card>
+        <card>
+            <id>./cards/E33/Sciel's Intervention.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>24</slots>
+            <name>Sciel's Intervention.jpeg</name>
+            <query>sciels intervention</query>
+        </card>
+        <card>
+            <id>./cards/E33/Second Thoughts.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>25</slots>
+            <name>Second Thoughts.jpeg</name>
+            <query>second thoughts</query>
+        </card>
+        <card>
+            <id>./cards/E33/Sibling Overwatch.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>26</slots>
+            <name>Sibling Overwatch.jpeg</name>
+            <query>sibling overwatch</query>
+        </card>
+        <card>
+            <id>./cards/E33/Unfinished Benisseur.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>27</slots>
+            <name>Unfinished Benisseur.jpeg</name>
+            <query>unfinished benisseur</query>
+        </card>
+        <card>
+            <id>./cards/E33/Unfinished Bourgeon.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>28</slots>
+            <name>Unfinished Bourgeon.jpeg</name>
+            <query>unfinished bourgeon</query>
+        </card>
+        <card>
+            <id>./cards/E33/Unfinished Chalier.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>29</slots>
+            <name>Unfinished Chalier.jpeg</name>
+            <query>unfinished chalier</query>
+        </card>
+        <card>
+            <id>./cards/E33/Unfinished Demineur.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>30</slots>
+            <name>Unfinished Demineur.jpeg</name>
+            <query>unfinished demineur</query>
+        </card>
+        <card>
+            <id>./cards/E33/Unfinished Hexga.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>31</slots>
+            <name>Unfinished Hexga.jpeg</name>
+            <query>unfinished hexga</query>
+        </card>
+        <card>
+            <id>./cards/E33/Unfinished Jar.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>32</slots>
+            <name>Unfinished Jar.jpeg</name>
+            <query>unfinished jar</query>
+        </card>
+        <card>
+            <id>./cards/E33/Unfinished Portier.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>33</slots>
+            <name>Unfinished Portier.jpeg</name>
+            <query>unfinished portier</query>
+        </card>
+        <card>
+            <id>./cards/E33/Unfinished Troubador.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>34</slots>
+            <name>Unfinished Troubador.jpeg</name>
+            <query>unfinished troubador</query>
+        </card>
+        <card>
+            <id>./cards/E33/An Advantage!.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>35</slots>
+            <name>An Advantage!.jpeg</name>
+            <query>an advantage</query>
+        </card>
+        <card>
+            <id>./cards/E33/Antoine, Lumiere Historian.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>36</slots>
+            <name>Antoine, Lumiere Historian.jpeg</name>
+            <query>antoine lumiere historian</query>
+        </card>
+        <card>
+            <id>./cards/E33/Breaking Moment.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>37</slots>
+            <name>Breaking Moment.jpeg</name>
+            <query>breaking moment</query>
+        </card>
+        <card>
+            <id>./cards/E33/Bruler.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>38</slots>
+            <name>Bruler.jpeg</name>
+            <query>bruler</query>
+        </card>
+        <card>
+            <id>./cards/E33/Colette, Trinket Dealer.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>39</slots>
+            <name>Colette, Trinket Dealer.jpeg</name>
+            <query>colette trinket dealer</query>
+        </card>
+        <card>
+            <id>./cards/E33/Crippling Tsunami.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>40</slots>
+            <name>Crippling Tsunami.jpeg</name>
+            <query>crippling tsunami</query>
+        </card>
+        <card>
+            <id>./cards/E33/Cruler.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>41</slots>
+            <name>Cruler.jpeg</name>
+            <query>cruler</query>
+        </card>
+        <card>
+            <id>./cards/E33/Demineur.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>42</slots>
+            <name>Demineur.jpeg</name>
+            <query>demineur</query>
+        </card>
+        <card>
+            <id>./cards/E33/Denial.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>43</slots>
+            <name>Denial.jpeg</name>
+            <query>denial</query>
+        </card>
+        <card>
+            <id>./cards/E33/Eternal Ice.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>44</slots>
+            <name>Eternal Ice.jpeg</name>
+            <query>eternal ice</query>
+        </card>
+        <card>
+            <id>./cards/E33/Expedition 40 Glider.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>45</slots>
+            <name>Expedition 40 Glider.jpeg</name>
+            <query>expedition glider</query>
+        </card>
+        <card>
+            <id>./cards/E33/Expedition 43 Submersible.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>46</slots>
+            <name>Expedition 43 Submersible.jpeg</name>
+            <query>expedition submersible</query>
+        </card>
+        <card>
+            <id>./cards/E33/Expedition 68 Navigator.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>47</slots>
+            <name>Expedition 68 Navigator.jpeg</name>
+            <query>expedition navigator</query>
+        </card>
+        <card>
+            <id>./cards/E33/Expedition 78.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>48</slots>
+            <name>Expedition 78.jpeg</name>
+            <query>expedition</query>
+        </card>
+        <card>
+            <id>./cards/E33/Expedition 81 Interpreter.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>49</slots>
+            <name>Expedition 81 Interpreter.jpeg</name>
+            <query>expedition interpreter</query>
+        </card>
+        <card>
+            <id>./cards/E33/Francois, Waiting for Clea.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>50</slots>
+            <name>Francois, Waiting for Clea.jpeg</name>
+            <query>francois waiting for clea</query>
+        </card>
+        <card>
+            <id>./cards/E33/Gestral Ascension Challenge.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>51</slots>
+            <name>Gestral Ascension Challenge.jpeg</name>
+            <query>gestral ascension challenge</query>
+        </card>
+        <card>
+            <id>./cards/E33/Grandis Fashionist.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>52</slots>
+            <name>Grandis Fashionist.jpeg</name>
+            <query>grandis fashionist</query>
+        </card>
+        <card>
+            <id>./cards/E33/Gustave's Insight.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>53</slots>
+            <name>Gustave's Insight.jpeg</name>
+            <query>gustaves insight</query>
+        </card>
+        <card>
+            <id>./cards/E33/Hiding the Canvas.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>54</slots>
+            <name>Hiding the Canvas.jpeg</name>
+            <query>hiding canvas</query>
+        </card>
+        <card>
+            <id>./cards/E33/Ice Lance.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>55</slots>
+            <name>Ice Lance.jpeg</name>
+            <query>ice lance</query>
+        </card>
+        <card>
+            <id>./cards/E33/Lune's Curiosity.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>56</slots>
+            <name>Lune's Curiosity.jpeg</name>
+            <query>lunes curiosity</query>
+        </card>
+        <card>
+            <id>./cards/E33/Lune's Denial.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>57</slots>
+            <name>Lune's Denial.jpeg</name>
+            <query>lunes denial</query>
+        </card>
+        <card>
+            <id>./cards/E33/Luster.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>58</slots>
+            <name>Luster.jpeg</name>
+            <query>luster</query>
+        </card>
+        <card>
+            <id>./cards/E33/Machinepieds.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>59</slots>
+            <name>Machinepieds.jpeg</name>
+            <query>machinepieds</query>
+        </card>
+        <card>
+            <id>./cards/E33/Rip Apart Reality.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>60</slots>
+            <name>Rip Apart Reality.jpeg</name>
+            <query>rip apart reality</query>
+        </card>
+        <card>
+            <id>./cards/E33/Sky Break.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>61</slots>
+            <name>Sky Break.jpeg</name>
+            <query>sky break</query>
+        </card>
+        <card>
+            <id>./cards/E33/Spreading Seas.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>62</slots>
+            <name>Spreading Seas.jpeg</name>
+            <query>spreading seas</query>
+        </card>
+        <card>
+            <id>./cards/E33/Swift Counter.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>63</slots>
+            <name>Swift Counter.jpeg</name>
+            <query>swift counter</query>
+        </card>
+        <card>
+            <id>./cards/E33/The Search for Esquie's Rocks.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>64</slots>
+            <name>The Search for Esquie's Rocks.jpeg</name>
+            <query>search for esquies rocks</query>
+        </card>
+        <card>
+            <id>./cards/E33/Thermal Transfer.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>65</slots>
+            <name>Thermal Transfer.jpeg</name>
+            <query>thermal transfer</query>
+        </card>
+        <card>
+            <id>./cards/E33/Verisimilitude.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>66</slots>
+            <name>Verisimilitude.jpeg</name>
+            <query>verisimilitude</query>
+        </card>
+        <card>
+            <id>./cards/E33/Verso's Musical Training.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>67</slots>
+            <name>Verso's Musical Training.jpeg</name>
+            <query>versos musical training</query>
+        </card>
+        <card>
+            <id>./cards/E33/Axon Offering.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>68</slots>
+            <name>Axon Offering.jpeg</name>
+            <query>axon offering</query>
+        </card>
+        <card>
+            <id>./cards/E33/Blot Out.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>69</slots>
+            <name>Blot Out.jpeg</name>
+            <query>blot out</query>
+        </card>
+        <card>
+            <id>./cards/E33/Chalier.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>70</slots>
+            <name>Chalier.jpeg</name>
+            <query>chalier</query>
+        </card>
+        <card>
+            <id>./cards/E33/Chapelier.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>71</slots>
+            <name>Chapelier.jpeg</name>
+            <query>chapelier</query>
+        </card>
+        <card>
+            <id>./cards/E33/Chromatic Rebirth.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>72</slots>
+            <name>Chromatic Rebirth.jpeg</name>
+            <query>chromatic rebirth</query>
+        </card>
+        <card>
+            <id>./cards/E33/Clea's Chromatic Mastery.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>73</slots>
+            <name>Clea's Chromatic Mastery.jpeg</name>
+            <query>cleas chromatic mastery</query>
+        </card>
+        <card>
+            <id>./cards/E33/Depression.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>74</slots>
+            <name>Depression.jpeg</name>
+            <query>depression</query>
+        </card>
+        <card>
+            <id>./cards/E33/Dualliste's Lair.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>75</slots>
+            <name>Dualliste's Lair.jpeg</name>
+            <query>duallistes lair</query>
+        </card>
+        <card>
+            <id>./cards/E33/Echassier.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>76</slots>
+            <name>Echassier.jpeg</name>
+            <query>echassier</query>
+        </card>
+        <card>
+            <id>./cards/E33/Expedition 56 Trapper.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>77</slots>
+            <name>Expedition 56 Trapper.jpeg</name>
+            <query>expedition trapper</query>
+        </card>
+        <card>
+            <id>./cards/E33/Expedition 62 Hunter.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>78</slots>
+            <name>Expedition 62 Hunter.jpeg</name>
+            <query>expedition hunter</query>
+        </card>
+        <card>
+            <id>./cards/E33/Familial Bonding.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>79</slots>
+            <name>Familial Bonding.jpeg</name>
+            <query>familial bonding</query>
+        </card>
+        <card>
+            <id>./cards/E33/Grief.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>80</slots>
+            <name>Grief.jpeg</name>
+            <query>grief</query>
+        </card>
+        <card>
+            <id>./cards/E33/Here's Your Card!.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>81</slots>
+            <name>Here's Your Card!.jpeg</name>
+            <query>heres your card</query>
+        </card>
+        <card>
+            <id>./cards/E33/Maelle's Nightmare.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>82</slots>
+            <name>Maelle's Nightmare.jpeg</name>
+            <query>maelles nightmare</query>
+        </card>
+        <card>
+            <id>./cards/E33/Massacre at Dark Shores.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>83</slots>
+            <name>Massacre at Dark Shores.jpeg</name>
+            <query>massacre at dark shores</query>
+        </card>
+        <card>
+            <id>./cards/E33/Momentary Revelation.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>84</slots>
+            <name>Momentary Revelation.jpeg</name>
+            <query>momentary revelation</query>
+        </card>
+        <card>
+            <id>./cards/E33/Noir.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>85</slots>
+            <name>Noir.jpeg</name>
+            <query>noir</query>
+        </card>
+        <card>
+            <id>./cards/E33/Obscur.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>86</slots>
+            <name>Obscur.jpeg</name>
+            <query>obscur</query>
+        </card>
+        <card>
+            <id>./cards/E33/Osquio, Ruler Of All The Trains.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>87</slots>
+            <name>Osquio, Ruler Of All The Trains.jpeg</name>
+            <query>osquio ruler of all trains</query>
+        </card>
+        <card>
+            <id>./cards/E33/Osquio, Ultimate Cake Eater Of The Universe.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>88</slots>
+            <name>Osquio, Ultimate Cake Eater Of The Universe.jpeg</name>
+            <query>osquio ultimate cake eater of universe</query>
+        </card>
+        <card>
+            <id>./cards/E33/Painted Renoir, Aline's Enforcer.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>89</slots>
+            <name>Painted Renoir, Aline's Enforcer.jpeg</name>
+            <query>painted renoir alines enforcer</query>
+        </card>
+        <card>
+            <id>./cards/E33/Piercing Strike.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>90</slots>
+            <name>Piercing Strike.jpeg</name>
+            <query>piercing strike</query>
+        </card>
+        <card>
+            <id>./cards/E33/Ramasseur.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>91</slots>
+            <name>Ramasseur.jpeg</name>
+            <query>ramasseur</query>
+        </card>
+        <card>
+            <id>./cards/E33/Renoir's Creation.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>92</slots>
+            <name>Renoir's Creation.jpeg</name>
+            <query>renoirs creation</query>
+        </card>
+        <card>
+            <id>./cards/E33/Renoir's Will.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>93</slots>
+            <name>Renoir's Will.jpeg</name>
+            <query>renoirs will</query>
+        </card>
+        <card>
+            <id>./cards/E33/Simon's Second Wind.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>94</slots>
+            <name>Simon's Second Wind.jpeg</name>
+            <query>simons second wind</query>
+        </card>
+        <card>
+            <id>./cards/E33/Steel Chevaliere.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>95</slots>
+            <name>Steel Chevaliere.jpeg</name>
+            <query>steel chevaliere</query>
+        </card>
+        <card>
+            <id>./cards/E33/Surcease.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>96</slots>
+            <name>Surcease.jpeg</name>
+            <query>surcease</query>
+        </card>
+        <card>
+            <id>./cards/E33/Twisted Lumiere Citizen.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>97</slots>
+            <name>Twisted Lumiere Citizen.jpeg</name>
+            <query>twisted lumiere citizen</query>
+        </card>
+        <card>
+            <id>./cards/E33/Unmask.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>98</slots>
+            <name>Unmask.jpeg</name>
+            <query>unmask</query>
+        </card>
+        <card>
+            <id>./cards/E33/Veilleur.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>99</slots>
+            <name>Veilleur.jpeg</name>
+            <query>veilleur</query>
+        </card>
+        <card>
+            <id>./cards/E33/Verso's Burden.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>100</slots>
+            <name>Verso's Burden.jpeg</name>
+            <query>versos burden</query>
+        </card>
+        <card>
+            <id>./cards/E33/Very Very Cool Gestral.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>101</slots>
+            <name>Very Very Cool Gestral.jpeg</name>
+            <query>very very cool gestral</query>
+        </card>
+        <card>
+            <id>./cards/E33/A Storm is Coming.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>102</slots>
+            <name>A Storm is Coming.jpeg</name>
+            <query>a storm is coming</query>
+        </card>
+        <card>
+            <id>./cards/E33/Anger.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>103</slots>
+            <name>Anger.jpeg</name>
+            <query>anger</query>
+        </card>
+        <card>
+            <id>./cards/E33/Catapault Sakapatate.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>104</slots>
+            <name>Catapault Sakapatate.jpeg</name>
+            <query>catapault sakapatate</query>
+        </card>
+        <card>
+            <id>./cards/E33/Crustal Crush.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>105</slots>
+            <name>Crustal Crush.jpeg</name>
+            <query>crustal crush</query>
+        </card>
+        <card>
+            <id>./cards/E33/Demand Answers.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>106</slots>
+            <name>Demand Answers.jpeg</name>
+            <query>demand answers</query>
+        </card>
+        <card>
+            <id>./cards/E33/Earth Rising.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>107</slots>
+            <name>Earth Rising.jpeg</name>
+            <query>earth rising</query>
+        </card>
+        <card>
+            <id>./cards/E33/Entering the Canvas.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>108</slots>
+            <name>Entering the Canvas.jpeg</name>
+            <query>entering canvas</query>
+        </card>
+        <card>
+            <id>./cards/E33/Expedition 57 Siege Engine.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>109</slots>
+            <name>Expedition 57 Siege Engine.jpeg</name>
+            <query>expedition siege engine</query>
+        </card>
+        <card>
+            <id>./cards/E33/Expedition 57 Siege Engineer.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>110</slots>
+            <name>Expedition 57 Siege Engineer.jpeg</name>
+            <query>expedition siege engineer</query>
+        </card>
+        <card>
+            <id>./cards/E33/Expedition 67 Blastminer.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>111</slots>
+            <name>Expedition 67 Blastminer.jpeg</name>
+            <query>expedition blastminer</query>
+        </card>
+        <card>
+            <id>./cards/E33/Fortune's Fury.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>112</slots>
+            <name>Fortune's Fury.jpeg</name>
+            <query>fortunes fury</query>
+        </card>
+        <card>
+            <id>./cards/E33/Gestral Bazaar.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>113</slots>
+            <name>Gestral Bazaar.jpeg</name>
+            <query>gestral bazaar</query>
+        </card>
+        <card>
+            <id>./cards/E33/Gestral Fight Club.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>114</slots>
+            <name>Gestral Fight Club.jpeg</name>
+            <query>gestral fight club</query>
+        </card>
+        <card>
+            <id>./cards/E33/Gestral Volleyball Strike.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>115</slots>
+            <name>Gestral Volleyball Strike.jpeg</name>
+            <query>gestral volleyball strike</query>
+        </card>
+        <card>
+            <id>./cards/E33/Get Out Of My Way!.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>116</slots>
+            <name>Get Out Of My Way!.jpeg</name>
+            <query>get out of my way</query>
+        </card>
+        <card>
+            <id>./cards/E33/Grosse Tete.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>117</slots>
+            <name>Grosse Tete.jpeg</name>
+            <query>grosse tete</query>
+        </card>
+        <card>
+            <id>./cards/E33/Half-baked Lifeguard.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>118</slots>
+            <name>Half-baked Lifeguard.jpeg</name>
+            <query>half baked lifeguard</query>
+        </card>
+        <card>
+            <id>./cards/E33/Hexga.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>119</slots>
+            <name>Hexga.jpeg</name>
+            <query>hexga</query>
+        </card>
+        <card>
+            <id>./cards/E33/Last-Ditch Effort.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>120</slots>
+            <name>Last-Ditch Effort.jpeg</name>
+            <query>last ditch effort</query>
+        </card>
+        <card>
+            <id>./cards/E33/Lightning Dance.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>121</slots>
+            <name>Lightning Dance.jpeg</name>
+            <query>lightning dance</query>
+        </card>
+        <card>
+            <id>./cards/E33/Marked!.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>122</slots>
+            <name>Marked!.jpeg</name>
+            <query>marked</query>
+        </card>
+        <card>
+            <id>./cards/E33/Monsieur Frappe.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>123</slots>
+            <name>Monsieur Frappe.jpeg</name>
+            <query>monsieur frappe</query>
+        </card>
+        <card>
+            <id>./cards/E33/Mutinous Expedition 48 Soldier.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>124</slots>
+            <name>Mutinous Expedition 48 Soldier.jpeg</name>
+            <query>mutinous expedition soldier</query>
+        </card>
+        <card>
+            <id>./cards/E33/Orphelin.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>125</slots>
+            <name>Orphelin.jpeg</name>
+            <query>orphelin</query>
+        </card>
+        <card>
+            <id>./cards/E33/Persuasive Argument.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>126</slots>
+            <name>Persuasive Argument.jpeg</name>
+            <query>persuasive argument</query>
+        </card>
+        <card>
+            <id>./cards/E33/Potier.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>127</slots>
+            <name>Potier.jpeg</name>
+            <query>potier</query>
+        </card>
+        <card>
+            <id>./cards/E33/Ranger Sakapatate.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>128</slots>
+            <name>Ranger Sakapatate.jpeg</name>
+            <query>ranger sakapatate</query>
+        </card>
+        <card>
+            <id>./cards/E33/Robust Sakapatate.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>129</slots>
+            <name>Robust Sakapatate.jpeg</name>
+            <query>robust sakapatate</query>
+        </card>
+        <card>
+            <id>./cards/E33/Rocher.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>130</slots>
+            <name>Rocher.jpeg</name>
+            <query>rocher</query>
+        </card>
+        <card>
+            <id>./cards/E33/Terraquake.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>131</slots>
+            <name>Terraquake.jpeg</name>
+            <query>terraquake</query>
+        </card>
+        <card>
+            <id>./cards/E33/Thunderfall.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>132</slots>
+            <name>Thunderfall.jpeg</name>
+            <query>thunderfall</query>
+        </card>
+        <card>
+            <id>./cards/E33/Ultimate Sakapatate.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>133</slots>
+            <name>Ultimate Sakapatate.jpeg</name>
+            <query>ultimate sakapatate</query>
+        </card>
+        <card>
+            <id>./cards/E33/Waiting for Clea to Play.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>134</slots>
+            <name>Waiting for Clea to Play.jpeg</name>
+            <query>waiting for clea to play</query>
+        </card>
+        <card>
+            <id>./cards/E33/Abbest.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>135</slots>
+            <name>Abbest.jpeg</name>
+            <query>abbest</query>
+        </card>
+        <card>
+            <id>./cards/E33/All Suns' Dawn.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>136</slots>
+            <name>All Suns' Dawn.jpeg</name>
+            <query>all suns dawn</query>
+        </card>
+        <card>
+            <id>./cards/E33/Ballet.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>137</slots>
+            <name>Ballet.jpeg</name>
+            <query>ballet</query>
+        </card>
+        <card>
+            <id>./cards/E33/Bargaining.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>138</slots>
+            <name>Bargaining.jpeg</name>
+            <query>bargaining</query>
+        </card>
+        <card>
+            <id>./cards/E33/Boucheclier.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>139</slots>
+            <name>Boucheclier.jpeg</name>
+            <query>boucheclier</query>
+        </card>
+        <card>
+            <id>./cards/E33/Cache Discovery.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>140</slots>
+            <name>Cache Discovery.jpeg</name>
+            <query>cache discovery</query>
+        </card>
+        <card>
+            <id>./cards/E33/Chorale.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>141</slots>
+            <name>Chorale.jpeg</name>
+            <query>chorale</query>
+        </card>
+        <card>
+            <id>./cards/E33/Expedition 00 Tracker.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>142</slots>
+            <name>Expedition 00 Tracker.jpeg</name>
+            <query>expedition tracker</query>
+        </card>
+        <card>
+            <id>./cards/E33/Expedition 35 Bridge.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>143</slots>
+            <name>Expedition 35 Bridge.jpeg</name>
+            <query>expedition bridge</query>
+        </card>
+        <card>
+            <id>./cards/E33/Expedition 55 Drummer.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>144</slots>
+            <name>Expedition 55 Drummer.jpeg</name>
+            <query>expedition drummer</query>
+        </card>
+        <card>
+            <id>./cards/E33/Expedition 60 Messenger.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>145</slots>
+            <name>Expedition 60 Messenger.jpeg</name>
+            <query>expedition messenger</query>
+        </card>
+        <card>
+            <id>./cards/E33/Expedition 69.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>146</slots>
+            <name>Expedition 69.jpeg</name>
+            <query>expedition</query>
+        </card>
+        <card>
+            <id>./cards/E33/Expedition 69 Explorer.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>147</slots>
+            <name>Expedition 69 Explorer.jpeg</name>
+            <query>expedition explorer</query>
+        </card>
+        <card>
+            <id>./cards/E33/Expedition 69 Mountaineer.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>148</slots>
+            <name>Expedition 69 Mountaineer.jpeg</name>
+            <query>expedition mountaineer</query>
+        </card>
+        <card>
+            <id>./cards/E33/Expedition 69 Surveyor.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>149</slots>
+            <name>Expedition 69 Surveyor.jpeg</name>
+            <query>expedition surveyor</query>
+        </card>
+        <card>
+            <id>./cards/E33/Face Adversity.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>150</slots>
+            <name>Face Adversity.jpeg</name>
+            <query>face adversity</query>
+        </card>
+        <card>
+            <id>./cards/E33/Franctale.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>151</slots>
+            <name>Franctale.jpeg</name>
+            <query>franctale</query>
+        </card>
+        <card>
+            <id>./cards/E33/Gault.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>152</slots>
+            <name>Gault.jpeg</name>
+            <query>gault</query>
+        </card>
+        <card>
+            <id>./cards/E33/Gestral Climbing Challenge.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>153</slots>
+            <name>Gestral Climbing Challenge.jpeg</name>
+            <query>gestral climbing challenge</query>
+        </card>
+        <card>
+            <id>./cards/E33/Grandis Fighter.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>154</slots>
+            <name>Grandis Fighter.jpeg</name>
+            <query>grandis fighter</query>
+        </card>
+        <card>
+            <id>./cards/E33/Grandis Scout.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>155</slots>
+            <name>Grandis Scout.jpeg</name>
+            <query>grandis scout</query>
+        </card>
+        <card>
+            <id>./cards/E33/Lancelier.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>156</slots>
+            <name>Lancelier.jpeg</name>
+            <query>lancelier</query>
+        </card>
+        <card>
+            <id>./cards/E33/Nevron Disguise.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>157</slots>
+            <name>Nevron Disguise.jpeg</name>
+            <query>nevron disguise</query>
+        </card>
+        <card>
+            <id>./cards/E33/Nevron Pecking Order.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>158</slots>
+            <name>Nevron Pecking Order.jpeg</name>
+            <query>nevron pecking order</query>
+        </card>
+        <card>
+            <id>./cards/E33/Ophelie, Lumiere Florist.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>159</slots>
+            <name>Ophelie, Lumiere Florist.jpeg</name>
+            <query>ophelie lumiere florist</query>
+        </card>
+        <card>
+            <id>./cards/E33/Outdome Scouting Party.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>160</slots>
+            <name>Outdome Scouting Party.jpeg</name>
+            <query>outdome scouting party</query>
+        </card>
+        <card>
+            <id>./cards/E33/Playing with Monoco.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>161</slots>
+            <name>Playing with Monoco.jpeg</name>
+            <query>playing with monoco</query>
+        </card>
+        <card>
+            <id>./cards/E33/Portier.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>162</slots>
+            <name>Portier.jpeg</name>
+            <query>portier</query>
+        </card>
+        <card>
+            <id>./cards/E33/Revitalization.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>163</slots>
+            <name>Revitalization.jpeg</name>
+            <query>revitalization</query>
+        </card>
+        <card>
+            <id>./cards/E33/Rock Throw.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>164</slots>
+            <name>Rock Throw.jpeg</name>
+            <query>rock throw</query>
+        </card>
+        <card>
+            <id>./cards/E33/Sapling.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>165</slots>
+            <name>Sapling.jpeg</name>
+            <query>sapling</query>
+        </card>
+        <card>
+            <id>./cards/E33/Shrine to The Paintress.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>166</slots>
+            <name>Shrine to The Paintress.jpeg</name>
+            <query>shrine to paintress</query>
+        </card>
+        <card>
+            <id>./cards/E33/Volester.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>167</slots>
+            <name>Volester.jpeg</name>
+            <query>volester</query>
+        </card>
+        <card>
+            <id>./cards/E33/Aberration.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>168</slots>
+            <name>Aberration.jpeg</name>
+            <query>aberration</query>
+        </card>
+        <card>
+            <id>./cards/E33/Alicia Dessendre, Silenced by Fire.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>169</slots>
+            <name>Alicia Dessendre, Silenced by Fire.jpeg</name>
+            <query>alicia dessendre silenced by fire</query>
+        </card>
+        <card>
+            <id>./cards/E33/Aline's Return.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>170</slots>
+            <name>Aline's Return.jpeg</name>
+            <query>alines return</query>
+        </card>
+        <card>
+            <id>./cards/E33/Barbasucette.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>171</slots>
+            <name>Barbasucette.jpeg</name>
+            <query>barbasucette</query>
+        </card>
+        <card>
+            <id>./cards/E33/Benisseur.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>172</slots>
+            <name>Benisseur.jpeg</name>
+            <query>benisseur</query>
+        </card>
+        <card>
+            <id>./cards/E33/Bittersweet Reunion.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>173</slots>
+            <name>Bittersweet Reunion.jpeg</name>
+            <query>bittersweet reunion</query>
+        </card>
+        <card>
+            <id>./cards/E33/Bourgeon.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>174</slots>
+            <name>Bourgeon.jpeg</name>
+            <query>bourgeon</query>
+        </card>
+        <card>
+            <id>./cards/E33/Braseleur.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>175</slots>
+            <name>Braseleur.jpeg</name>
+            <query>braseleur</query>
+        </card>
+        <card>
+            <id>./cards/E33/Breaking Rules.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>176</slots>
+            <name>Breaking Rules.jpeg</name>
+            <query>breaking rules</query>
+        </card>
+        <card>
+            <id>./cards/E33/Chromatic Petrification.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>177</slots>
+            <name>Chromatic Petrification.jpeg</name>
+            <query>chromatic petrification</query>
+        </card>
+        <card>
+            <id>./cards/E33/Chromatic Reclamation.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>178</slots>
+            <name>Chromatic Reclamation.jpeg</name>
+            <query>chromatic reclamation</query>
+        </card>
+        <card>
+            <id>./cards/E33/Chromatic Vines.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>179</slots>
+            <name>Chromatic Vines.jpeg</name>
+            <query>chromatic vines</query>
+        </card>
+        <card>
+            <id>./cards/E33/Clair Obscur.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>180</slots>
+            <name>Clair Obscur.jpeg</name>
+            <query>clair obscur</query>
+        </card>
+        <card>
+            <id>./cards/E33/Clea Dessendre, the Mistress.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>181</slots>
+            <name>Clea Dessendre, the Mistress.jpeg</name>
+            <query>clea dessendre mistress</query>
+        </card>
+        <card>
+            <id>./cards/E33/Clea Unleashed.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>182</slots>
+            <name>Clea Unleashed.jpeg</name>
+            <query>clea unleashed</query>
+        </card>
+        <card>
+            <id>./cards/E33/Contortionniste.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>183</slots>
+            <name>Contortionniste.jpeg</name>
+            <query>contortionniste</query>
+        </card>
+        <card>
+            <id>./cards/E33/Danseuse.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>184</slots>
+            <name>Danseuse.jpeg</name>
+            <query>danseuse</query>
+        </card>
+        <card>
+            <id>./cards/E33/Death Stare.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>185</slots>
+            <name>Death Stare.jpeg</name>
+            <query>death stare</query>
+        </card>
+        <card>
+            <id>./cards/E33/Dualliste.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>186</slots>
+            <name>Dualliste.jpeg</name>
+            <query>dualliste</query>
+        </card>
+        <card>
+            <id>./cards/E33/Duollistes.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>187</slots>
+            <name>Duollistes.jpeg</name>
+            <query>duollistes</query>
+        </card>
+        <card>
+            <id>./cards/E33/Elemental Trick.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>188</slots>
+            <name>Elemental Trick.jpeg</name>
+            <query>elemental trick</query>
+        </card>
+        <card>
+            <id>./cards/E33/Emma, Lumiere Chief Councilor.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>189</slots>
+            <name>Emma, Lumiere Chief Councilor.jpeg</name>
+            <query>emma lumiere chief councilor</query>
+        </card>
+        <card>
+            <id>./cards/E33/Esquie, Friend of Verso.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>190</slots>
+            <name>Esquie, Friend of Verso.jpeg</name>
+            <query>esquie friend of verso</query>
+        </card>
+        <card>
+            <id>./cards/E33/Esquie's Charge.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>191</slots>
+            <name>Esquie's Charge.jpeg</name>
+            <query>esquies charge</query>
+        </card>
+        <card>
+            <id>./cards/E33/Esquie's Embrace.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>192</slots>
+            <name>Esquie's Embrace.jpeg</name>
+            <query>esquies embrace</query>
+        </card>
+        <card>
+            <id>./cards/E33/Esquie's Rescue.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>193</slots>
+            <name>Esquie's Rescue.jpeg</name>
+            <query>esquies rescue</query>
+        </card>
+        <card>
+            <id>./cards/E33/Estelle, Lumiere Sculptor.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>194</slots>
+            <name>Estelle, Lumiere Sculptor.jpeg</name>
+            <query>estelle lumiere sculptor</query>
+        </card>
+        <card>
+            <id>./cards/E33/Eveque.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>195</slots>
+            <name>Eveque.jpeg</name>
+            <query>eveque</query>
+        </card>
+        <card>
+            <id>./cards/E33/Expedition 34 Mage.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>196</slots>
+            <name>Expedition 34 Mage.jpeg</name>
+            <query>expedition mage</query>
+        </card>
+        <card>
+            <id>./cards/E33/Expedition 47 Drunkard.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>197</slots>
+            <name>Expedition 47 Drunkard.jpeg</name>
+            <query>expedition drunkard</query>
+        </card>
+        <card>
+            <id>./cards/E33/Expedition 53 Herbalist.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>198</slots>
+            <name>Expedition 53 Herbalist.jpeg</name>
+            <query>expedition herbalist</query>
+        </card>
+        <card>
+            <id>./cards/E33/Expedition 55 Trumpeter.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>199</slots>
+            <name>Expedition 55 Trumpeter.jpeg</name>
+            <query>expedition trumpeter</query>
+        </card>
+        <card>
+            <id>./cards/E33/Expedition 59.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>200</slots>
+            <name>Expedition 59.jpeg</name>
+            <query>expedition</query>
+        </card>
+        <card>
+            <id>./cards/E33/Expedition 59 Chef.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>201</slots>
+            <name>Expedition 59 Chef.jpeg</name>
+            <query>expedition chef</query>
+        </card>
+        <card>
+            <id>./cards/E33/Expedition 60.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>202</slots>
+            <name>Expedition 60.jpeg</name>
+            <query>expedition</query>
+        </card>
+        <card>
+            <id>./cards/E33/Expedition 63 Driver.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>203</slots>
+            <name>Expedition 63 Driver.jpeg</name>
+            <query>expedition driver</query>
+        </card>
+        <card>
+            <id>./cards/E33/Expedition 67.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>204</slots>
+            <name>Expedition 67.jpeg</name>
+            <query>expedition</query>
+        </card>
+        <card>
+            <id>./cards/E33/Expedition 67 Demolitions Expert.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>205</slots>
+            <name>Expedition 67 Demolitions Expert.jpeg</name>
+            <query>expedition demolitions expert</query>
+        </card>
+        <card>
+            <id>./cards/E33/Expedition 70.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>206</slots>
+            <name>Expedition 70.jpeg</name>
+            <query>expedition</query>
+        </card>
+        <card>
+            <id>./cards/E33/Expedition 78 Airship.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>207</slots>
+            <name>Expedition 78 Airship.jpeg</name>
+            <query>expedition airship</query>
+        </card>
+        <card>
+            <id>./cards/E33/Expedition Festival.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>208</slots>
+            <name>Expedition Festival.jpeg</name>
+            <query>expedition festival</query>
+        </card>
+        <card>
+            <id>./cards/E33/Expeditioner's Grave.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>209</slots>
+            <name>Expeditioner's Grave.jpeg</name>
+            <query>expeditioners grave</query>
+        </card>
+        <card>
+            <id>./cards/E33/Final Comfort.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>210</slots>
+            <name>Final Comfort.jpeg</name>
+            <query>final comfort</query>
+        </card>
+        <card>
+            <id>./cards/E33/Final Showdown.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>211</slots>
+            <name>Final Showdown.jpeg</name>
+            <query>final showdown</query>
+        </card>
+        <card>
+            <id>./cards/E33/FinesseGrace.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>212</slots>
+            <name>FinesseGrace.jpeg</name>
+            <query>finessegrace</query>
+        </card>
+        <card>
+            <id>./cards/E33/Florian, Lumiere Doomsayer.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>213</slots>
+            <name>Florian, Lumiere Doomsayer.jpeg</name>
+            <query>florian lumiere doomsayer</query>
+        </card>
+        <card>
+            <id>./cards/E33/Fractured Identity.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>214</slots>
+            <name>Fractured Identity.jpeg</name>
+            <query>fractured identity</query>
+        </card>
+        <card>
+            <id>./cards/E33/Full Deck.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>215</slots>
+            <name>Full Deck.jpeg</name>
+            <query>full deck</query>
+        </card>
+        <card>
+            <id>./cards/E33/Gargant.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>216</slots>
+            <name>Gargant.jpeg</name>
+            <query>gargant</query>
+        </card>
+        <card>
+            <id>./cards/E33/Gestral Foot Race Challenge.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>217</slots>
+            <name>Gestral Foot Race Challenge.jpeg</name>
+            <query>gestral foot race challenge</query>
+        </card>
+        <card>
+            <id>./cards/E33/Gestral Raft Volleyball Challenge.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>218</slots>
+            <name>Gestral Raft Volleyball Challenge.jpeg</name>
+            <query>gestral raft volleyball challenge</query>
+        </card>
+        <card>
+            <id>./cards/E33/Gestral Seesaw Challenge.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>219</slots>
+            <name>Gestral Seesaw Challenge.jpeg</name>
+            <query>gestral seesaw challenge</query>
+        </card>
+        <card>
+            <id>./cards/E33/Giant Sapling.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>220</slots>
+            <name>Giant Sapling.jpeg</name>
+            <query>giant sapling</query>
+        </card>
+        <card>
+            <id>./cards/E33/Glaise.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>221</slots>
+            <name>Glaise.jpeg</name>
+            <query>glaise</query>
+        </card>
+        <card>
+            <id>./cards/E33/Glimpse of Humanity.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>222</slots>
+            <name>Glimpse of Humanity.jpeg</name>
+            <query>glimpse of humanity</query>
+        </card>
+        <card>
+            <id>./cards/E33/Glissando.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>223</slots>
+            <name>Glissando.jpeg</name>
+            <query>glissando</query>
+        </card>
+        <card>
+            <id>./cards/E33/Goblu.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>224</slots>
+            <name>Goblu.jpeg</name>
+            <query>goblu</query>
+        </card>
+        <card>
+            <id>./cards/E33/Gold Chevaliere.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>225</slots>
+            <name>Gold Chevaliere.jpeg</name>
+            <query>gold chevaliere</query>
+        </card>
+        <card>
+            <id>./cards/E33/Gommage.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>226</slots>
+            <name>Gommage.jpeg</name>
+            <query>gommage</query>
+        </card>
+        <card>
+            <id>./cards/E33/Grandis Cleaner.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>227</slots>
+            <name>Grandis Cleaner.jpeg</name>
+            <query>grandis cleaner</query>
+        </card>
+        <card>
+            <id>./cards/E33/Grandis Guard.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>228</slots>
+            <name>Grandis Guard.jpeg</name>
+            <query>grandis guard</query>
+        </card>
+        <card>
+            <id>./cards/E33/Grandis Merchant.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>229</slots>
+            <name>Grandis Merchant.jpeg</name>
+            <query>grandis merchant</query>
+        </card>
+        <card>
+            <id>./cards/E33/Greatsword Cultist.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>230</slots>
+            <name>Greatsword Cultist.jpeg</name>
+            <query>greatsword cultist</query>
+        </card>
+        <card>
+            <id>./cards/E33/Gustave, Lumiere Engineer.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>231</slots>
+            <name>Gustave, Lumiere Engineer.jpeg</name>
+            <query>gustave lumiere engineer</query>
+        </card>
+        <card>
+            <id>./cards/E33/Intervening Parry.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>232</slots>
+            <name>Intervening Parry.jpeg</name>
+            <query>intervening parry</query>
+        </card>
+        <card>
+            <id>./cards/E33/Jar of Candy.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>233</slots>
+            <name>Jar of Candy.jpeg</name>
+            <query>jar of candy</query>
+        </card>
+        <card>
+            <id>./cards/E33/Lampmaster.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>234</slots>
+            <name>Lampmaster.jpeg</name>
+            <query>lampmaster</query>
+        </card>
+        <card>
+            <id>./cards/E33/Last Stand of Expedition 33.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>235</slots>
+            <name>Last Stand of Expedition 33.jpeg</name>
+            <query>last stand of expedition</query>
+        </card>
+        <card>
+            <id>./cards/E33/Leave this Canvas!.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>236</slots>
+            <name>Leave this Canvas!.jpeg</name>
+            <query>leave this canvas</query>
+        </card>
+        <card>
+            <id>./cards/E33/Licornapieds.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>237</slots>
+            <name>Licornapieds.jpeg</name>
+            <query>licornapieds</query>
+        </card>
+        <card>
+            <id>./cards/E33/Licorne.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>238</slots>
+            <name>Licorne.jpeg</name>
+            <query>licorne</query>
+        </card>
+        <card>
+            <id>./cards/E33/LostFound.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>239</slots>
+            <name>LostFound.jpeg</name>
+            <query>lostfound</query>
+        </card>
+        <card>
+            <id>./cards/E33/Lune, Charting a Path.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>240</slots>
+            <name>Lune, Charting a Path.jpeg</name>
+            <query>lune charting a path</query>
+        </card>
+        <card>
+            <id>./cards/E33/Lune's Contingency.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>241</slots>
+            <name>Lune's Contingency.jpeg</name>
+            <query>lunes contingency</query>
+        </card>
+        <card>
+            <id>./cards/E33/Maelle, Child of Lumiere.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>242</slots>
+            <name>Maelle, Child of Lumiere.jpeg</name>
+            <query>maelle child of lumiere</query>
+        </card>
+        <card>
+            <id>./cards/E33/Maelle, The Reawakened Paintress.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>243</slots>
+            <name>Maelle, The Reawakened Paintress.jpeg</name>
+            <query>maelle reawakened paintress</query>
+        </card>
+        <card>
+            <id>./cards/E33/Maelle's Final Plea.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>244</slots>
+            <name>Maelle's Final Plea.jpeg</name>
+            <query>maelles final plea</query>
+        </card>
+        <card>
+            <id>./cards/E33/Maelstrom Pulse.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>245</slots>
+            <name>Maelstrom Pulse.jpeg</name>
+            <query>maelstrom pulse</query>
+        </card>
+        <card>
+            <id>./cards/E33/Manor EntranceManor Hidden Room.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>246</slots>
+            <name>Manor EntranceManor Hidden Room.jpeg</name>
+            <query>manor entrancemanor hidden room</query>
+        </card>
+        <card>
+            <id>./cards/E33/Manor Fire.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>247</slots>
+            <name>Manor Fire.jpeg</name>
+            <query>manor fire</query>
+        </card>
+        <card>
+            <id>./cards/E33/Manor GreenhouseManor Gallery.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>248</slots>
+            <name>Manor GreenhouseManor Gallery.jpeg</name>
+            <query>manor greenhousemanor gallery</query>
+        </card>
+        <card>
+            <id>./cards/E33/Manor KitchenManor Cellar.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>249</slots>
+            <name>Manor KitchenManor Cellar.jpeg</name>
+            <query>manor kitchenmanor cellar</query>
+        </card>
+        <card>
+            <id>./cards/E33/Manor LibraryManor Fireplace.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>250</slots>
+            <name>Manor LibraryManor Fireplace.jpeg</name>
+            <query>manor librarymanor fireplace</query>
+        </card>
+        <card>
+            <id>./cards/E33/Mask Keeper.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>251</slots>
+            <name>Mask Keeper.jpeg</name>
+            <query>mask keeper</query>
+        </card>
+        <card>
+            <id>./cards/E33/Mesmeric Deception.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>252</slots>
+            <name>Mesmeric Deception.jpeg</name>
+            <query>mesmeric deception</query>
+        </card>
+        <card>
+            <id>./cards/E33/Mime.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>253</slots>
+            <name>Mime.jpeg</name>
+            <query>mime</query>
+        </card>
+        <card>
+            <id>./cards/E33/Moissoneusse.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>254</slots>
+            <name>Moissoneusse.jpeg</name>
+            <query>moissoneusse</query>
+        </card>
+        <card>
+            <id>./cards/E33/Monoco, Collector of Feet.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>255</slots>
+            <name>Monoco, Collector of Feet.jpeg</name>
+            <query>monoco collector of feet</query>
+        </card>
+        <card>
+            <id>./cards/E33/Nicolas, Seeking Inspiration.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>256</slots>
+            <name>Nicolas, Seeking Inspiration.jpeg</name>
+            <query>nicolas seeking inspiration</query>
+        </card>
+        <card>
+            <id>./cards/E33/Noco &amp; Monoco the Third.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>257</slots>
+            <name>Noco &amp; Monoco the Third.jpeg</name>
+            <query>noco monoco third</query>
+        </card>
+        <card>
+            <id>./cards/E33/Pain Transfer.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>258</slots>
+            <name>Pain Transfer.jpeg</name>
+            <query>pain transfer</query>
+        </card>
+        <card>
+            <id>./cards/E33/Painted Alicia, Eternally Suffering.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>259</slots>
+            <name>Painted Alicia, Eternally Suffering.jpeg</name>
+            <query>painted alicia eternally suffering</query>
+        </card>
+        <card>
+            <id>./cards/E33/Painted Clea, the Regent.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>260</slots>
+            <name>Painted Clea, the Regent.jpeg</name>
+            <query>painted clea regent</query>
+        </card>
+        <card>
+            <id>./cards/E33/Painting Workshop.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>261</slots>
+            <name>Painting Workshop.jpeg</name>
+            <query>painting workshop</query>
+        </card>
+        <card>
+            <id>./cards/E33/Pelerin.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>262</slots>
+            <name>Pelerin.jpeg</name>
+            <query>pelerin</query>
+        </card>
+        <card>
+            <id>./cards/E33/Rally the Expeditioners.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>263</slots>
+            <name>Rally the Expeditioners.jpeg</name>
+            <query>rally expeditioners</query>
+        </card>
+        <card>
+            <id>./cards/E33/Reaper Cultist.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>264</slots>
+            <name>Reaper Cultist.jpeg</name>
+            <query>reaper cultist</query>
+        </card>
+        <card>
+            <id>./cards/E33/Renoir's Bargain.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>265</slots>
+            <name>Renoir's Bargain.jpeg</name>
+            <query>renoirs bargain</query>
+        </card>
+        <card>
+            <id>./cards/E33/Repaint.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>266</slots>
+            <name>Repaint.jpeg</name>
+            <query>repaint</query>
+        </card>
+        <card>
+            <id>./cards/E33/Sciel, Grieving for Many.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>267</slots>
+            <name>Sciel, Grieving for Many.jpeg</name>
+            <query>sciel grieving for many</query>
+        </card>
+        <card>
+            <id>./cards/E33/Seal of Approval.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>268</slots>
+            <name>Seal of Approval.jpeg</name>
+            <query>seal of approval</query>
+        </card>
+        <card>
+            <id>./cards/E33/Serpenphare.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>269</slots>
+            <name>Serpenphare.jpeg</name>
+            <query>serpenphare</query>
+        </card>
+        <card>
+            <id>./cards/E33/Shrine Destruction.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>270</slots>
+            <name>Shrine Destruction.jpeg</name>
+            <query>shrine destruction</query>
+        </card>
+        <card>
+            <id>./cards/E33/Simon, Consort of Clea.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>271</slots>
+            <name>Simon, Consort of Clea.jpeg</name>
+            <query>simon consort of clea</query>
+        </card>
+        <card>
+            <id>./cards/E33/Simon, The Divergent Star.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>272</slots>
+            <name>Simon, The Divergent Star.jpeg</name>
+            <query>simon divergent star</query>
+        </card>
+        <card>
+            <id>./cards/E33/Sirene, Who Plays With Wonder.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>273</slots>
+            <name>Sirene, Who Plays With Wonder.jpeg</name>
+            <query>sirene who plays with wonder</query>
+        </card>
+        <card>
+            <id>./cards/E33/Sprong.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>274</slots>
+            <name>Sprong.jpeg</name>
+            <query>sprong</query>
+        </card>
+        <card>
+            <id>./cards/E33/Stalact.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>275</slots>
+            <name>Stalact.jpeg</name>
+            <query>stalact</query>
+        </card>
+        <card>
+            <id>./cards/E33/Stendhal.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>276</slots>
+            <name>Stendhal.jpeg</name>
+            <query>stendhal</query>
+        </card>
+        <card>
+            <id>./cards/E33/Terminate.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>277</slots>
+            <name>Terminate.jpeg</name>
+            <query>terminate</query>
+        </card>
+        <card>
+            <id>./cards/E33/The Curator.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>278</slots>
+            <name>The Curator.jpeg</name>
+            <query>curator</query>
+        </card>
+        <card>
+            <id>./cards/E33/Renoir, Dessendre Patriarch.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>279</slots>
+            <name>Renoir, Dessendre Patriarch.jpeg</name>
+            <query>renoir dessendre patriarch</query>
+        </card>
+        <card>
+            <id>./cards/E33/The Fate of the Canvas.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>280</slots>
+            <name>The Fate of the Canvas.jpeg</name>
+            <query>fate of canvas</query>
+        </card>
+        <card>
+            <id>./cards/E33/The Fracture.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>281</slots>
+            <name>The Fracture.jpeg</name>
+            <query>fracture</query>
+        </card>
+        <card>
+            <id>./cards/E33/The Greatest Expedition in History.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>282</slots>
+            <name>The Greatest Expedition in History.jpeg</name>
+            <query>greatest expedition in history</query>
+        </card>
+        <card>
+            <id>./cards/E33/The Paintress.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>283</slots>
+            <name>The Paintress.jpeg</name>
+            <query>paintress</query>
+        </card>
+        <card>
+            <id>./cards/E33/Aline Dessendre, Stricken by Grief.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>284</slots>
+            <name>Aline Dessendre, Stricken by Grief.jpeg</name>
+            <query>aline dessendre stricken by grief</query>
+        </card>
+        <card>
+            <id>./cards/E33/The Scavenger.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>285</slots>
+            <name>The Scavenger.jpeg</name>
+            <query>scavenger</query>
+        </card>
+        <card>
+            <id>./cards/E33/Tisseur.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>286</slots>
+            <name>Tisseur.jpeg</name>
+            <query>tisseur</query>
+        </card>
+        <card>
+            <id>./cards/E33/Tomorrow Comes.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>287</slots>
+            <name>Tomorrow Comes.jpeg</name>
+            <query>tomorrow comes</query>
+        </card>
+        <card>
+            <id>./cards/E33/TortureNurture.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>288</slots>
+            <name>TortureNurture.jpeg</name>
+            <query>torturenurture</query>
+        </card>
+        <card>
+            <id>./cards/E33/Troubador.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>289</slots>
+            <name>Troubador.jpeg</name>
+            <query>troubador</query>
+        </card>
+        <card>
+            <id>./cards/E33/Verso, Who Guards Truth With Lies.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>290</slots>
+            <name>Verso, Who Guards Truth With Lies.jpeg</name>
+            <query>verso who guards truth with lies</query>
+        </card>
+        <card>
+            <id>./cards/E33/Verso's Sky Train.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>291</slots>
+            <name>Verso's Sky Train.jpeg</name>
+            <query>versos sky train</query>
+        </card>
+        <card>
+            <id>./cards/E33/Vicarious Envy.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>292</slots>
+            <name>Vicarious Envy.jpeg</name>
+            <query>vicarious envy</query>
+        </card>
+        <card>
+            <id>./cards/E33/Void Meteors.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>293</slots>
+            <name>Void Meteors.jpeg</name>
+            <query>void meteors</query>
+        </card>
+        <card>
+            <id>./cards/E33/WheeWhoo.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>294</slots>
+            <name>WheeWhoo.jpeg</name>
+            <query>wheewhoo</query>
+        </card>
+        <card>
+            <id>./cards/E33/When One FallsWe Continue.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>295</slots>
+            <name>When One FallsWe Continue.jpeg</name>
+            <query>when one fallswe continue</query>
+        </card>
+        <card>
+            <id>./cards/E33/A Rock for Francois.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>296</slots>
+            <name>A Rock for Francois.jpeg</name>
+            <query>a rock for francois</query>
+        </card>
+        <card>
+            <id>./cards/E33/Alicenisa, Gestral Siren.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>297</slots>
+            <name>Alicenisa, Gestral Siren.jpeg</name>
+            <query>alicenisa gestral siren</query>
+        </card>
+        <card>
+            <id>./cards/E33/Attack Lifesteal Picto.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>298</slots>
+            <name>Attack Lifesteal Picto.jpeg</name>
+            <query>attack lifesteal picto</query>
+        </card>
+        <card>
+            <id>./cards/E33/Attack Picto.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>299</slots>
+            <name>Attack Picto.jpeg</name>
+            <query>attack picto</query>
+        </card>
+        <card>
+            <id>./cards/E33/Barrier Breaker.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>300</slots>
+            <name>Barrier Breaker.jpeg</name>
+            <query>barrier breaker</query>
+        </card>
+        <card>
+            <id>./cards/E33/Berrami, Collector of Journals.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>301</slots>
+            <name>Berrami, Collector of Journals.jpeg</name>
+            <query>berrami collector of journals</query>
+        </card>
+        <card>
+            <id>./cards/E33/Bertrand Big Hands.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>302</slots>
+            <name>Bertrand Big Hands.jpeg</name>
+            <query>bertrand big hands</query>
+        </card>
+        <card>
+            <id>./cards/E33/Cheater Picto.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>303</slots>
+            <name>Cheater Picto.jpeg</name>
+            <query>cheater picto</query>
+        </card>
+        <card>
+            <id>./cards/E33/Chroma Catalyst.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>304</slots>
+            <name>Chroma Catalyst.jpeg</name>
+            <query>chroma catalyst</query>
+        </card>
+        <card>
+            <id>./cards/E33/Chroma Filter.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>305</slots>
+            <name>Chroma Filter.jpeg</name>
+            <query>chroma filter</query>
+        </card>
+        <card>
+            <id>./cards/E33/Death Picto.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>306</slots>
+            <name>Death Picto.jpeg</name>
+            <query>death picto</query>
+        </card>
+        <card>
+            <id>./cards/E33/Dessendre Family Portrait.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>307</slots>
+            <name>Dessendre Family Portrait.jpeg</name>
+            <query>dessendre family portrait</query>
+        </card>
+        <card>
+            <id>./cards/E33/Dominique Giant Feet.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>308</slots>
+            <name>Dominique Giant Feet.jpeg</name>
+            <query>dominique giant feet</query>
+        </card>
+        <card>
+            <id>./cards/E33/Dorrie.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>309</slots>
+            <name>Dorrie.jpeg</name>
+            <query>dorrie</query>
+        </card>
+        <card>
+            <id>./cards/E33/Energy Tint.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>310</slots>
+            <name>Energy Tint.jpeg</name>
+            <query>energy tint</query>
+        </card>
+        <card>
+            <id>./cards/E33/Esquie's Magic Mushrooms.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>311</slots>
+            <name>Esquie's Magic Mushrooms.jpeg</name>
+            <query>esquies magic mushrooms</query>
+        </card>
+        <card>
+            <id>./cards/E33/Expedition 50 Ferris Wheel.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>312</slots>
+            <name>Expedition 50 Ferris Wheel.jpeg</name>
+            <query>expedition ferris wheel</query>
+        </card>
+        <card>
+            <id>./cards/E33/Expedition 64 Radio.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>313</slots>
+            <name>Expedition 64 Radio.jpeg</name>
+            <query>expedition radio</query>
+        </card>
+        <card>
+            <id>./cards/E33/Expedition Flag.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>314</slots>
+            <name>Expedition Flag.jpeg</name>
+            <query>expedition flag</query>
+        </card>
+        <card>
+            <id>./cards/E33/Expedition Flotilla.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>315</slots>
+            <name>Expedition Flotilla.jpeg</name>
+            <query>expedition flotilla</query>
+        </card>
+        <card>
+            <id>./cards/E33/Expedition Journal.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>316</slots>
+            <name>Expedition Journal.jpeg</name>
+            <query>expedition journal</query>
+        </card>
+        <card>
+            <id>./cards/E33/Expeditioner Uniform.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>317</slots>
+            <name>Expeditioner Uniform.jpeg</name>
+            <query>expeditioner uniform</query>
+        </card>
+        <card>
+            <id>./cards/E33/Florrie.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>318</slots>
+            <name>Florrie.jpeg</name>
+            <query>florrie</query>
+        </card>
+        <card>
+            <id>./cards/E33/Gestral Bodyguard.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>319</slots>
+            <name>Gestral Bodyguard.jpeg</name>
+            <query>gestral bodyguard</query>
+        </card>
+        <card>
+            <id>./cards/E33/Gestral Doctor.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>320</slots>
+            <name>Gestral Doctor.jpeg</name>
+            <query>gestral doctor</query>
+        </card>
+        <card>
+            <id>./cards/E33/Gestral Elder.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>321</slots>
+            <name>Gestral Elder.jpeg</name>
+            <query>gestral elder</query>
+        </card>
+        <card>
+            <id>./cards/E33/Gestral Fighter.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>322</slots>
+            <name>Gestral Fighter.jpeg</name>
+            <query>gestral fighter</query>
+        </card>
+        <card>
+            <id>./cards/E33/Gestral Kid.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>323</slots>
+            <name>Gestral Kid.jpeg</name>
+            <query>gestral kid</query>
+        </card>
+        <card>
+            <id>./cards/E33/Gestral Merchant.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>324</slots>
+            <name>Gestral Merchant.jpeg</name>
+            <query>gestral merchant</query>
+        </card>
+        <card>
+            <id>./cards/E33/Gestral Pot.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>325</slots>
+            <name>Gestral Pot.jpeg</name>
+            <query>gestral pot</query>
+        </card>
+        <card>
+            <id>./cards/E33/Gestral Ringleader.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>326</slots>
+            <name>Gestral Ringleader.jpeg</name>
+            <query>gestral ringleader</query>
+        </card>
+        <card>
+            <id>./cards/E33/Gestral Villager.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>327</slots>
+            <name>Gestral Villager.jpeg</name>
+            <query>gestral villager</query>
+        </card>
+        <card>
+            <id>./cards/E33/Gestral Warrior.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>328</slots>
+            <name>Gestral Warrior.jpeg</name>
+            <query>gestral warrior</query>
+        </card>
+        <card>
+            <id>./cards/E33/Gestral Worker.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>329</slots>
+            <name>Gestral Worker.jpeg</name>
+            <query>gestral worker</query>
+        </card>
+        <card>
+            <id>./cards/E33/Glass Cannon Picto.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>330</slots>
+            <name>Glass Cannon Picto.jpeg</name>
+            <query>glass cannon picto</query>
+        </card>
+        <card>
+            <id>./cards/E33/Golgra, Gestral Chef.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>331</slots>
+            <name>Golgra, Gestral Chef.jpeg</name>
+            <query>golgra gestral chef</query>
+        </card>
+        <card>
+            <id>./cards/E33/Gustave's Journal.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>332</slots>
+            <name>Gustave's Journal.jpeg</name>
+            <query>gustaves journal</query>
+        </card>
+        <card>
+            <id>./cards/E33/Julien Tiny Head.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>333</slots>
+            <name>Julien Tiny Head.jpeg</name>
+            <query>julien tiny head</query>
+        </card>
+        <card>
+            <id>./cards/E33/Limonsol, Matchmaker.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>334</slots>
+            <name>Limonsol, Matchmaker.jpeg</name>
+            <query>limonsol matchmaker</query>
+        </card>
+        <card>
+            <id>./cards/E33/Lorieniso, Gestral Musician.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>335</slots>
+            <name>Lorieniso, Gestral Musician.jpeg</name>
+            <query>lorieniso gestral musician</query>
+        </card>
+        <card>
+            <id>./cards/E33/Lost Gestral.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>336</slots>
+            <name>Lost Gestral.jpeg</name>
+            <query>lost gestral</query>
+        </card>
+        <card>
+            <id>./cards/E33/Lumiere Flower Stand.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>337</slots>
+            <name>Lumiere Flower Stand.jpeg</name>
+            <query>lumiere flower stand</query>
+        </card>
+        <card>
+            <id>./cards/E33/Lumiere Trashcan.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>338</slots>
+            <name>Lumiere Trashcan.jpeg</name>
+            <query>lumiere trashcan</query>
+        </card>
+        <card>
+            <id>./cards/E33/Lumina Converter.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>339</slots>
+            <name>Lumina Converter.jpeg</name>
+            <query>lumina converter</query>
+        </card>
+        <card>
+            <id>./cards/E33/Manor Door.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>340</slots>
+            <name>Manor Door.jpeg</name>
+            <query>manor door</query>
+        </card>
+        <card>
+            <id>./cards/E33/Matthieu the Colossus.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>341</slots>
+            <name>Matthieu the Colossus.jpeg</name>
+            <query>matthieu colossus</query>
+        </card>
+        <card>
+            <id>./cards/E33/Noco, The Greatest Merchant.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>342</slots>
+            <name>Noco, The Greatest Merchant.jpeg</name>
+            <query>noco greatest merchant</query>
+        </card>
+        <card>
+            <id>./cards/E33/Ono-Puncho.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>343</slots>
+            <name>Ono-Puncho.jpeg</name>
+            <query>ono puncho</query>
+        </card>
+        <card>
+            <id>./cards/E33/Paint Spike.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>344</slots>
+            <name>Paint Spike.jpeg</name>
+            <query>paint spike</query>
+        </card>
+        <card>
+            <id>./cards/E33/Revive Tint.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>345</slots>
+            <name>Revive Tint.jpeg</name>
+            <query>revive tint</query>
+        </card>
+        <card>
+            <id>./cards/E33/Romanifo, the Half-baked.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>346</slots>
+            <name>Romanifo, the Half-baked.jpeg</name>
+            <query>romanifo half baked</query>
+        </card>
+        <card>
+            <id>./cards/E33/Rush Picto.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>347</slots>
+            <name>Rush Picto.jpeg</name>
+            <query>rush picto</query>
+        </card>
+        <card>
+            <id>./cards/E33/Sastro, Gestral Guardian.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>348</slots>
+            <name>Sastro, Gestral Guardian.jpeg</name>
+            <query>sastro gestral guardian</query>
+        </card>
+        <card>
+            <id>./cards/E33/Shot Picto.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>349</slots>
+            <name>Shot Picto.jpeg</name>
+            <query>shot picto</query>
+        </card>
+        <card>
+            <id>./cards/E33/Soarrie.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>350</slots>
+            <name>Soarrie.jpeg</name>
+            <query>soarrie</query>
+        </card>
+        <card>
+            <id>./cards/E33/Sunniso, Gestral Bouncer.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>351</slots>
+            <name>Sunniso, Gestral Bouncer.jpeg</name>
+            <query>sunniso gestral bouncer</query>
+        </card>
+        <card>
+            <id>./cards/E33/Tall Gestral.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>352</slots>
+            <name>Tall Gestral.jpeg</name>
+            <query>tall gestral</query>
+        </card>
+        <card>
+            <id>./cards/E33/The Gingerbread Door.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>353</slots>
+            <name>The Gingerbread Door.jpeg</name>
+            <query>gingerbread door</query>
+        </card>
+        <card>
+            <id>./cards/E33/The World Canvas.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>354</slots>
+            <name>The World Canvas.jpeg</name>
+            <query>world canvas</query>
+        </card>
+        <card>
+            <id>./cards/E33/Urrie.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>355</slots>
+            <name>Urrie.jpeg</name>
+            <query>urrie</query>
+        </card>
+        <card>
+            <id>./cards/E33/Verso's Toy Chest.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>356</slots>
+            <name>Verso's Toy Chest.jpeg</name>
+            <query>versos toy chest</query>
+        </card>
+        <card>
+            <id>./cards/E33/Blade's Graveyard.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>357</slots>
+            <name>Blade's Graveyard.jpeg</name>
+            <query>blades graveyard</query>
+        </card>
+        <card>
+            <id>./cards/E33/Boat Graveyard.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>358</slots>
+            <name>Boat Graveyard.jpeg</name>
+            <query>boat graveyard</query>
+        </card>
+        <card>
+            <id>./cards/E33/Bountiful Landscape.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>359</slots>
+            <name>Bountiful Landscape.jpeg</name>
+            <query>bountiful landscape</query>
+        </card>
+        <card>
+            <id>./cards/E33/Contaminated Landscape.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>360</slots>
+            <name>Contaminated Landscape.jpeg</name>
+            <query>contaminated landscape</query>
+        </card>
+        <card>
+            <id>./cards/E33/Crushing Cavern.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>361</slots>
+            <name>Crushing Cavern.jpeg</name>
+            <query>crushing cavern</query>
+        </card>
+        <card>
+            <id>./cards/E33/Dark Gestral Arena.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>362</slots>
+            <name>Dark Gestral Arena.jpeg</name>
+            <query>dark gestral arena</query>
+        </card>
+        <card>
+            <id>./cards/E33/Dark Shores.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>363</slots>
+            <name>Dark Shores.jpeg</name>
+            <query>dark shores</query>
+        </card>
+        <card>
+            <id>./cards/E33/Deceptive Landscape.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>364</slots>
+            <name>Deceptive Landscape.jpeg</name>
+            <query>deceptive landscape</query>
+        </card>
+        <card>
+            <id>./cards/E33/Endless Tower.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>365</slots>
+            <name>Endless Tower.jpeg</name>
+            <query>endless tower</query>
+        </card>
+        <card>
+            <id>./cards/E33/Esquie's Nest.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>366</slots>
+            <name>Esquie's Nest.jpeg</name>
+            <query>esquies nest</query>
+        </card>
+        <card>
+            <id>./cards/E33/Expedition Camp.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>367</slots>
+            <name>Expedition Camp.jpeg</name>
+            <query>expedition camp</query>
+        </card>
+        <card>
+            <id>./cards/E33/Falling Leaves.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>368</slots>
+            <name>Falling Leaves.jpeg</name>
+            <query>falling leaves</query>
+        </card>
+        <card>
+            <id>./cards/E33/Field of Ruin.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>369</slots>
+            <name>Field of Ruin.jpeg</name>
+            <query>field of ruin</query>
+        </card>
+        <card>
+            <id>./cards/E33/Floating Cemetery.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>370</slots>
+            <name>Floating Cemetery.jpeg</name>
+            <query>floating cemetery</query>
+        </card>
+        <card>
+            <id>./cards/E33/Flying Casino.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>371</slots>
+            <name>Flying Casino.jpeg</name>
+            <query>flying casino</query>
+        </card>
+        <card>
+            <id>./cards/E33/Flying Waters.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>372</slots>
+            <name>Flying Waters.jpeg</name>
+            <query>flying waters</query>
+        </card>
+        <card>
+            <id>./cards/E33/Foreboding Landscape.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>373</slots>
+            <name>Foreboding Landscape.jpeg</name>
+            <query>foreboding landscape</query>
+        </card>
+        <card>
+            <id>./cards/E33/Forgotten Battlefield.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>374</slots>
+            <name>Forgotten Battlefield.jpeg</name>
+            <query>forgotten battlefield</query>
+        </card>
+        <card>
+            <id>./cards/E33/Gestral Arena.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>375</slots>
+            <name>Gestral Arena.jpeg</name>
+            <query>gestral arena</query>
+        </card>
+        <card>
+            <id>./cards/E33/Gestral Village.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>376</slots>
+            <name>Gestral Village.jpeg</name>
+            <query>gestral village</query>
+        </card>
+        <card>
+            <id>./cards/E33/Lost Woods.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>377</slots>
+            <name>Lost Woods.jpeg</name>
+            <query>lost woods</query>
+        </card>
+        <card>
+            <id>./cards/E33/Lumiere Aquafarm.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>378</slots>
+            <name>Lumiere Aquafarm.jpeg</name>
+            <query>lumiere aquafarm</query>
+        </card>
+        <card>
+            <id>./cards/E33/Lumiere Harbor.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>379</slots>
+            <name>Lumiere Harbor.jpeg</name>
+            <query>lumiere harbor</query>
+        </card>
+        <card>
+            <id>./cards/E33/Lumiere Opera House.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>380</slots>
+            <name>Lumiere Opera House.jpeg</name>
+            <query>lumiere opera house</query>
+        </card>
+        <card>
+            <id>./cards/E33/Lumiere, The Last Bastion.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>381</slots>
+            <name>Lumiere, The Last Bastion.jpeg</name>
+            <query>lumiere last bastion</query>
+        </card>
+        <card>
+            <id>./cards/E33/Manor Gardens.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>382</slots>
+            <name>Manor Gardens.jpeg</name>
+            <query>manor gardens</query>
+        </card>
+        <card>
+            <id>./cards/E33/Monoco's Station.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>383</slots>
+            <name>Monoco's Station.jpeg</name>
+            <query>monocos station</query>
+        </card>
+        <card>
+            <id>./cards/E33/Painted Bluffs.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>384</slots>
+            <name>Painted Bluffs.jpeg</name>
+            <query>painted bluffs</query>
+        </card>
+        <card>
+            <id>./cards/E33/Perilous Landscape.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>385</slots>
+            <name>Perilous Landscape.jpeg</name>
+            <query>perilous landscape</query>
+        </card>
+        <card>
+            <id>./cards/E33/Renoir's Drafts.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>386</slots>
+            <name>Renoir's Drafts.jpeg</name>
+            <query>renoirs drafts</query>
+        </card>
+        <card>
+            <id>./cards/E33/Seething Landscape.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>387</slots>
+            <name>Seething Landscape.jpeg</name>
+            <query>seething landscape</query>
+        </card>
+        <card>
+            <id>./cards/E33/Shattered Landscape.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>388</slots>
+            <name>Shattered Landscape.jpeg</name>
+            <query>shattered landscape</query>
+        </card>
+        <card>
+            <id>./cards/E33/Sheltering Landscape.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>389</slots>
+            <name>Sheltering Landscape.jpeg</name>
+            <query>sheltering landscape</query>
+        </card>
+        <card>
+            <id>./cards/E33/Sirene's Coliseum.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>390</slots>
+            <name>Sirene's Coliseum.jpeg</name>
+            <query>sirenes coliseum</query>
+        </card>
+        <card>
+            <id>./cards/E33/Sky Island.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>391</slots>
+            <name>Sky Island.jpeg</name>
+            <query>sky island</query>
+        </card>
+        <card>
+            <id>./cards/E33/Spring Meadows.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>392</slots>
+            <name>Spring Meadows.jpeg</name>
+            <query>spring meadows</query>
+        </card>
+        <card>
+            <id>./cards/E33/Stone Wave Cliffs.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>393</slots>
+            <name>Stone Wave Cliffs.jpeg</name>
+            <query>stone wave cliffs</query>
+        </card>
+        <card>
+            <id>./cards/E33/Sunless Cliffs.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>394</slots>
+            <name>Sunless Cliffs.jpeg</name>
+            <query>sunless cliffs</query>
+        </card>
+        <card>
+            <id>./cards/E33/The Hauler.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>395</slots>
+            <name>The Hauler.jpeg</name>
+            <query>hauler</query>
+        </card>
+        <card>
+            <id>./cards/E33/The Indigo Tree.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>396</slots>
+            <name>The Indigo Tree.jpeg</name>
+            <query>indigo tree</query>
+        </card>
+        <card>
+            <id>./cards/E33/The Monolith.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>397</slots>
+            <name>The Monolith.jpeg</name>
+            <query>monolith</query>
+        </card>
+        <card>
+            <id>./cards/E33/The Monolith Interior.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>398</slots>
+            <name>The Monolith Interior.jpeg</name>
+            <query>monolith interior</query>
+        </card>
+        <card>
+            <id>./cards/E33/The Reacher.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>399</slots>
+            <name>The Reacher.jpeg</name>
+            <query>reacher</query>
+        </card>
+        <card>
+            <id>./cards/E33/The Root of All Evil.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>400</slots>
+            <name>The Root of All Evil.jpeg</name>
+            <query>root of all evil</query>
+        </card>
+        <card>
+            <id>./cards/E33/The Sacred River.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>401</slots>
+            <name>The Sacred River.jpeg</name>
+            <query>sacred river</query>
+        </card>
+        <card>
+            <id>./cards/E33/Tranquil Landscape.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>402</slots>
+            <name>Tranquil Landscape.jpeg</name>
+            <query>tranquil landscape</query>
+        </card>
+        <card>
+            <id>./cards/E33/Twilight Quarry.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>403</slots>
+            <name>Twilight Quarry.jpeg</name>
+            <query>twilight quarry</query>
+        </card>
+        <card>
+            <id>./cards/E33/Twisted Landscape.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>404</slots>
+            <name>Twisted Landscape.jpeg</name>
+            <query>twisted landscape</query>
+        </card>
+        <card>
+            <id>./cards/E33/Verso's Drafts.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>405</slots>
+            <name>Verso's Drafts.jpeg</name>
+            <query>versos drafts</query>
+        </card>
+        <card>
+            <id>./cards/E33/Verso's Treehouse.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>406</slots>
+            <name>Verso's Treehouse.jpeg</name>
+            <query>versos treehouse</query>
+        </card>
+        <card>
+            <id>./cards/E33/Visages.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>407</slots>
+            <name>Visages.jpeg</name>
+            <query>visages</query>
+        </card>
+        <card>
+            <id>./cards/E33/He Who Guards Truth With Lies.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>408</slots>
+            <name>He Who Guards Truth With Lies.jpeg</name>
+            <query>he who guards truth with lies</query>
+        </card>
+        <card>
+            <id>./cards/E33/White Sands.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>409</slots>
+            <name>White Sands.jpeg</name>
+            <query>white sands</query>
+        </card>
+        <card>
+            <id>./cards/E33/Yellow Harvest.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>410</slots>
+            <name>Yellow Harvest.jpeg</name>
+            <query>yellow harvest</query>
+        </card>
+        <card>
+            <id>./tokens/E33/c_a_lumina.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>411,412,413,414,415,416,417,418,419,420</slots>
+            <name>c_a_lumina.jpeg</name>
+            <query>calumina</query>
+        </card>
+        <card>
+            <id>./tokens/E33/u_barbapapa.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>421,422</slots>
+            <name>u_barbapapa.jpeg</name>
+            <query>ubarbapapa</query>
+        </card>
+        <card>
+            <id>./tokens/E33/c_a_chroma.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>423,424,425,426,427</slots>
+            <name>c_a_chroma.jpeg</name>
+            <query>cachroma</query>
+        </card>
+        <card>
+            <id>./tokens/E33/b_4_4_dark_chromatic_beast.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>428</slots>
+            <name>b_4_4_dark_chromatic_beast.jpeg</name>
+            <query>bdarkchromaticbeast</query>
+        </card>
+        <card>
+            <id>./tokens/E33/c_a_food_sac.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>429,430,431,432,433</slots>
+            <name>c_a_food_sac.jpeg</name>
+            <query>cafoodsac</query>
+        </card>
+        <card>
+            <id>./tokens/E33/g_2_2_franctales_head.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>434</slots>
+            <name>g_2_2_franctales_head.jpeg</name>
+            <query>gfranctaleshead</query>
+        </card>
+        <card>
+            <id>./tokens/E33/c_a_map_sac_explore.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>435,436</slots>
+            <name>c_a_map_sac_explore.jpeg</name>
+            <query>camapsacexplore</query>
+        </card>
+        <card>
+            <id>./tokens/E33/c_1_1_nevron.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>437,438,439,440,441</slots>
+            <name>c_1_1_nevron.jpeg</name>
+            <query>cnevron</query>
+        </card>
+        <card>
+            <id>./tokens/E33/b_0_1_osquios_mask.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>442,443,444</slots>
+            <name>b_0_1_osquios_mask.jpeg</name>
+            <query>bosquiosmask</query>
+        </card>
+        <card>
+            <id>./cards/E3C/A Life to Love.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>445</slots>
+            <name>A Life to Love.jpeg</name>
+            <query>a life to love</query>
+        </card>
+        <card>
+            <id>./cards/E3C/Cleansing Nova.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>446</slots>
+            <name>Cleansing Nova.jpeg</name>
+            <query>cleansing nova</query>
+        </card>
+        <card>
+            <id>./cards/E3C/Mirror Entity.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>447</slots>
+            <name>Mirror Entity.jpeg</name>
+            <query>mirror entity</query>
+        </card>
+        <card>
+            <id>./cards/E3C/Path to Exile.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>448</slots>
+            <name>Path to Exile.jpeg</name>
+            <query>path to exile</query>
+        </card>
+        <card>
+            <id>./cards/E3C/Swords to Plowshares.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>449</slots>
+            <name>Swords to Plowshares.jpeg</name>
+            <query>swords to plowshares</query>
+        </card>
+        <card>
+            <id>./cards/E3C/Distant Melody.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>450</slots>
+            <name>Distant Melody.jpeg</name>
+            <query>distant melody</query>
+        </card>
+        <card>
+            <id>./cards/E3C/Harmonized Crescendo.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>451</slots>
+            <name>Harmonized Crescendo.jpeg</name>
+            <query>harmonized crescendo</query>
+        </card>
+        <card>
+            <id>./cards/E3C/Chaos Warp.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>452</slots>
+            <name>Chaos Warp.jpeg</name>
+            <query>chaos warp</query>
+        </card>
+        <card>
+            <id>./cards/E3C/Chomping Changeling.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>453</slots>
+            <name>Chomping Changeling.jpeg</name>
+            <query>chomping changeling</query>
+        </card>
+        <card>
+            <id>./cards/E3C/Realmwalker.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>454</slots>
+            <name>Realmwalker.jpeg</name>
+            <query>realmwalker</query>
+        </card>
+        <card>
+            <id>./cards/E3C/Anguished Unmaking.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>455</slots>
+            <name>Anguished Unmaking.jpeg</name>
+            <query>anguished unmaking</query>
+        </card>
+        <card>
+            <id>./cards/E3C/Bedevil.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>456</slots>
+            <name>Bedevil.jpeg</name>
+            <query>bedevil</query>
+        </card>
+        <card>
+            <id>./cards/E3C/Mortify.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>457</slots>
+            <name>Mortify.jpeg</name>
+            <query>mortify</query>
+        </card>
+        <card>
+            <id>./cards/E3C/Putrefy.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>458</slots>
+            <name>Putrefy.jpeg</name>
+            <query>putrefy</query>
+        </card>
+        <card>
+            <id>./cards/E3C/Void Rend.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>459</slots>
+            <name>Void Rend.jpeg</name>
+            <query>void rend</query>
+        </card>
+        <card>
+            <id>./cards/E3C/Arcane Signet.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>460</slots>
+            <name>Arcane Signet.jpeg</name>
+            <query>arcane signet</query>
+        </card>
+        <card>
+            <id>./cards/E3C/Chromatic Lantern.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>461</slots>
+            <name>Chromatic Lantern.jpeg</name>
+            <query>chromatic lantern</query>
+        </card>
+        <card>
+            <id>./cards/E3C/Fellwar Stone.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>462</slots>
+            <name>Fellwar Stone.jpeg</name>
+            <query>fellwar stone</query>
+        </card>
+        <card>
+            <id>./cards/E3C/Firdoch Core.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>463</slots>
+            <name>Firdoch Core.jpeg</name>
+            <query>firdoch core</query>
+        </card>
+        <card>
+            <id>./cards/E3C/Gathering Stone.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>464</slots>
+            <name>Gathering Stone.jpeg</name>
+            <query>gathering stone</query>
+        </card>
+        <card>
+            <id>./cards/E3C/Icon of Ancestry.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>465</slots>
+            <name>Icon of Ancestry.jpeg</name>
+            <query>icon of ancestry</query>
+        </card>
+        <card>
+            <id>./cards/E3C/Mask of Memory.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>466</slots>
+            <name>Mask of Memory.jpeg</name>
+            <query>mask of memory</query>
+        </card>
+        <card>
+            <id>./cards/E3C/Patchwork Banner.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>467</slots>
+            <name>Patchwork Banner.jpeg</name>
+            <query>patchwork banner</query>
+        </card>
+        <card>
+            <id>./cards/E3C/Sol Ring.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>468</slots>
+            <name>Sol Ring.jpeg</name>
+            <query>sol ring</query>
+        </card>
+        <card>
+            <id>./cards/E3C/Talisman of Conviction.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>469</slots>
+            <name>Talisman of Conviction.jpeg</name>
+            <query>talisman of conviction</query>
+        </card>
+        <card>
+            <id>./cards/E3C/Talisman of Creativity.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>470</slots>
+            <name>Talisman of Creativity.jpeg</name>
+            <query>talisman of creativity</query>
+        </card>
+        <card>
+            <id>./cards/E3C/Talisman of Curiosity.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>471</slots>
+            <name>Talisman of Curiosity.jpeg</name>
+            <query>talisman of curiosity</query>
+        </card>
+        <card>
+            <id>./cards/E3C/Talisman of Dominance.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>472</slots>
+            <name>Talisman of Dominance.jpeg</name>
+            <query>talisman of dominance</query>
+        </card>
+        <card>
+            <id>./cards/E3C/Talisman of Hierarchy.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>473</slots>
+            <name>Talisman of Hierarchy.jpeg</name>
+            <query>talisman of hierarchy</query>
+        </card>
+        <card>
+            <id>./cards/E3C/Talisman of Impulse.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>474</slots>
+            <name>Talisman of Impulse.jpeg</name>
+            <query>talisman of impulse</query>
+        </card>
+        <card>
+            <id>./cards/E3C/Talisman of Indulgence.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>475</slots>
+            <name>Talisman of Indulgence.jpeg</name>
+            <query>talisman of indulgence</query>
+        </card>
+        <card>
+            <id>./cards/E3C/Talisman of Progress.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>476</slots>
+            <name>Talisman of Progress.jpeg</name>
+            <query>talisman of progress</query>
+        </card>
+        <card>
+            <id>./cards/E3C/Talisman of Resilience.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>477</slots>
+            <name>Talisman of Resilience.jpeg</name>
+            <query>talisman of resilience</query>
+        </card>
+        <card>
+            <id>./cards/E3C/Talisman of Unity.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>478</slots>
+            <name>Talisman of Unity.jpeg</name>
+            <query>talisman of unity</query>
+        </card>
+        <card>
+            <id>./cards/E3C/Command Tower.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>479</slots>
+            <name>Command Tower.jpeg</name>
+            <query>command tower</query>
+        </card>
+        <card>
+            <id>./cards/E3C/Crimson Forest.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>480</slots>
+            <name>Crimson Forest.jpeg</name>
+            <query>crimson forest</query>
+        </card>
+        <card>
+            <id>./cards/E3C/Fabled Passage.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>481</slots>
+            <name>Fabled Passage.jpeg</name>
+            <query>fabled passage</query>
+        </card>
+        <card>
+            <id>./cards/E3C/Frozen Hearts.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>482</slots>
+            <name>Frozen Hearts.jpeg</name>
+            <query>frozen hearts</query>
+        </card>
+        <card>
+            <id>./cards/E3C/Path of Ancestry.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>483</slots>
+            <name>Path of Ancestry.jpeg</name>
+            <query>path of ancestry</query>
+        </card>
+        <card>
+            <id>./cards/E3C/Sinister Cave.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>484</slots>
+            <name>Sinister Cave.jpeg</name>
+            <query>sinister cave</query>
+        </card>
+        <card>
+            <id>./cards/E3C/The Meadows.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>485</slots>
+            <name>The Meadows.jpeg</name>
+            <query>meadows</query>
+        </card>
+        <card>
+            <id>./cards/E3C/Unclaimed Territory.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>486</slots>
+            <name>Unclaimed Territory.jpeg</name>
+            <query>unclaimed territory</query>
+        </card>
+        <card>
+            <id>./cards/E33/Forest.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>487,488,489,490,491,492,493,494,495,496,497,498,499,500,501,502,503,504,505,506,507,508,509,510,511</slots>
+            <name>Forest.jpeg</name>
+            <query>forest</query>
+        </card>
+        <card>
+            <id>./cards/E33/Island.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>512,513,514,515,516,517,518,519,520,521,522,523,524,525,526,527,528,529,530,531,532,533,534,535,536</slots>
+            <name>Island.jpeg</name>
+            <query>island</query>
+        </card>
+        <card>
+            <id>./cards/E33/Mountain.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>537,538,539,540,541,542,543,544,545,546,547,548,549,550,551,552,553,554,555,556,557,558,559,560,561</slots>
+            <name>Mountain.jpeg</name>
+            <query>mountain</query>
+        </card>
+        <card>
+            <id>./cards/E33/Plains.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>562,563,564,565,566,567,568,569,570,571,572,573,574,575,576,577,578,579,580,581,582,583,584,585,586</slots>
+            <name>Plains.jpeg</name>
+            <query>plains</query>
+        </card>
+        <card>
+            <id>./cards/E33/Swamp.full.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>587,588,589,590,591,592,593,594,595,596,597,598,599,600,601,602,603,604,605,606,607,608,609,610,611</slots>
+            <name>Swamp.jpeg</name>
+            <query>swamp</query>
+        </card>
+    </fronts>
+    <backs>
+        <card>
+            <id>./__CARD_BACK__.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,131,132,133,134,135,136,137,138,139,140,141,142,143,144,145,146,147,148,149,150,151,152,153,154,155,156,157,158,159,160,161,162,163,164,165,166,167,168,169,170,171,172,173,174,175,176,177,178,179,180,181,182,183,184,185,186,187,188,189,190,191,192,193,194,195,196,197,198,199,200,201,202,203,204,205,206,207,208,209,210,211,212,213,214,215,216,217,218,219,220,221,222,223,224,225,226,227,228,229,230,231,232,233,234,235,236,237,238,239,240,241,242,243,244,245,246,247,248,249,250,251,252,253,254,255,256,257,258,259,260,261,262,263,264,265,266,267,268,269,270,271,272,273,274,275,276,277,278,279,280,281,282,283,284,285,286,287,288,289,290,291,292,293,294,295,296,297,298,299,300,301,302,303,304,305,306,307,308,309,310,311,312,313,314,315,316,317,318,319,320,321,322,323,324,325,326,327,328,329,330,331,332,333,334,335,336,337,338,339,340,341,342,343,344,345,346,347,348,349,350,351,352,353,354,355,356,357,358,359,360,361,362,363,364,365,366,367,368,369,370,371,372,373,374,375,376,377,378,379,380,381,382,383,384,385,386,387,388,389,390,391,392,393,394,395,396,397,398,399,400,401,402,403,404,405,406,407,408,409,410,445,446,447,448,449,450,451,452,453,454,455,456,457,458,459,460,461,462,463,464,465,466,467,468,469,470,471,472,473,474,475,476,477,478,479,480,481,482,483,484,485,486,487,488,489,490,491,492,493,494,495,496,497,498,499,500,501,502,503,504,505,506,507,508,509,510,511,512,513,514,515,516,517,518,519,520,521,522,523,524,525,526,527,528,529,530,531,532,533,534,535,536,537,538,539,540,541,542,543,544,545,546,547,548,549,550,551,552,553,554,555,556,557,558,559,560,561,562,563,564,565,566,567,568,569,570,571,572,573,574,575,576,577,578,579,580,581,582,583,584,585,586,587,588,589,590,591,592,593,594,595,596,597,598,599,600,601,602,603,604,605,606,607,608,609,610,611</slots>
+            <name>__CARD_BACK__.jpeg</name>
+            <query>cardback</query>
+        </card>
+        <card>
+            <id>./tokens/E33/c_a_blood_draw.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>411,412</slots>
+            <name>c_a_blood_draw.jpeg</name>
+            <query>cablooddraw</query>
+        </card>
+        <card>
+            <id>./tokens/E33/wb_3_3_shadow_dualliste.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>413,414</slots>
+            <name>wb_3_3_shadow_dualliste.jpeg</name>
+            <query>wbshadowdualliste</query>
+        </card>
+        <card>
+            <id>./tokens/E33/ur_2_2_danseuse_clone.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>415,416</slots>
+            <name>ur_2_2_danseuse_clone.jpeg</name>
+            <query>urdanseuseclone</query>
+        </card>
+        <card>
+            <id>./tokens/E33/a_1_1_gestral.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>417,418,419,420</slots>
+            <name>a_1_1_gestral.jpeg</name>
+            <query>agestral</query>
+        </card>
+        <card>
+            <id>./tokens/E33/c_1_1_pot_nevron.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>421,422</slots>
+            <name>c_1_1_pot_nevron.jpeg</name>
+            <query>cpotnevron</query>
+        </card>
+        <card>
+            <id>./tokens/E33/c_a_flower.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>423,424,425,426</slots>
+            <name>c_a_flower.jpeg</name>
+            <query>caflower</query>
+        </card>
+        <card>
+            <id>./tokens/E33/b_0_0_nevron_army.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>427</slots>
+            <name>b_0_0_nevron_army.jpeg</name>
+            <query>bnevronarmy</query>
+        </card>
+        <card>
+            <id>./tokens/E33/u_5_5_airship.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>428</slots>
+            <name>u_5_5_airship.jpeg</name>
+            <query>uairship</query>
+        </card>
+        <card>
+            <id>./tokens/E33/g_1_1_abbest_nevron.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>429,430,431,432,433</slots>
+            <name>g_1_1_abbest_nevron.jpeg</name>
+            <query>gabbestnevron</query>
+        </card>
+        <card>
+            <id>./tokens/E33/c_a_romanifos_balloon.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>434</slots>
+            <name>c_a_romanifos_balloon.jpeg</name>
+            <query>caromanifosballoon</query>
+        </card>
+        <card>
+            <id>./tokens/E33/c_a_clue_draw.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>435,436</slots>
+            <name>c_a_clue_draw.jpeg</name>
+            <query>cacluedraw</query>
+        </card>
+        <card>
+            <id>./tokens/E33/w_1_1_human_expeditioner.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>437,438,439,440,441</slots>
+            <name>w_1_1_human_expeditioner.jpeg</name>
+            <query>whumanexpeditioner</query>
+        </card>
+        <card>
+            <id>./tokens/E33/a_1_1_toy.jpg</id>
+            <sourceType>Local File</sourceType>
+            <slots>442,443,444</slots>
+            <name>a_1_1_toy.jpeg</name>
+            <query>atoy</query>
+        </card>
+    </backs>
+    <cardback/>
+</order>
