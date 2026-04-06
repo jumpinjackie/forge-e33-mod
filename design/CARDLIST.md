@@ -1,5 +1,7 @@
 # About
 
+> The set is now finalized. If we ever want to do a "DLC" expansion, we can revisit this section for unused card names + ideas
+
 This is our master card name list. All ideas and card designs start from a card name. Card names can come from any source in Expedition 33:
 
  * It could refer to a character in the game
@@ -88,7 +90,7 @@ Cards implemented: 452
 [x] Chromatic Reclamation
 [x] Clair
 [x] Clair Obscur
-[ ] Clea Dessendre, Seeking Vengeance
+[x] Clea Dessendre, the Mistress
 [x] Clea's Chromatic Mastery
 [ ] Closure
 [x] Colette, Trinket Dealer
@@ -199,7 +201,6 @@ Cards implemented: 452
 [x] Gestral Fighter
 [x] Gestral Foot Race Challenge
 [x] Gestral Kid
-[ ] Gestral Lackey
 [ ] Gestral Parkour Challenge
 [x] Gestral Pot
 [x] Gestral Raft Volleyball Challenge
@@ -252,7 +253,7 @@ Cards implemented: 452
 [x] Lumière Opera House
 [x] Lumière, The Last Bastion
 [x] Lumière Trashcan
-[ ] Lumierian Apprentice
+[x] Lumièrian Apprentice
 [x] Lumina Converter
 [x] Lune, Charting a Path
 [x] Lune's Curiosity
@@ -290,7 +291,7 @@ Cards implemented: 452
 [ ] Paint Cage
 [x] Paint Spike
 [x] Painted Alicia, Eternally Suffering
-[ ] Painted Clea, the Mistress
+[x] Painted Clea, the Regent
 [ ] Painted Love
 [x] Painted Renoir, Aline's Enforcer
 [x] Painting Workshop

@@ -2,8 +2,6 @@
 
 > SPOILER WITHIN A SPOILER: Before you scroll down, please note that the cards in this set will spoil characters, plot, events and moments in the Expedition 33 video game. It is recommended you play through the video game first before continuing. If you don't want to be spoiled on video game plot/characters/events/etc, play through the game first and come back later. You have been warned!
 
-> This set is not yet finalized. This set is now in the game/color balancing phase and cards may be removed or replaced as a result.
-
 ## Clair Obscur: Expedition 33 (E33) [410/410 cards]
 - Colorless: 2/2 cards
 - White: 33/33 cards
@@ -13,7 +11,7 @@
 - Green: 33/33 cards
 - Multicolor: 124/124 cards
 - Artifacts: 61/61 cards
-- Lands: 58/58 cards
+- Lands (including basics): 58/58 cards
 
 | | | |
 |---|---|---|

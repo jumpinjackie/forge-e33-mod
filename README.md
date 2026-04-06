@@ -13,7 +13,7 @@ This is a fan project and is not affiliated with Sandfall Interactive or Wizards
 
 # Installing (for Forge)
 
-> Forge is only recommended for playing against AI opponents. My attempts to get Forge multiplayer working have been absolute failures. Cockatrice is the recommended app if you want multiplayer magic with this set.
+> Forge is only recommended for playing against AI opponents. My attempts to get Forge multiplayer working have been absolute failures. Circumstances may change in the future, but for now Cockatrice is the recommended app if you want multiplayer magic with this set.
 
 ## From source
 
@@ -95,8 +95,6 @@ If you want to run a custom cube draft with this set, assuming you installed the
 
 # Set overview
 
-> IMPORTANT: This set is in the process of development. It has not received any stringent playtesting, expect broken stuff, expect underpowered stuff, expect unintended interactions and everything in between!
-
 To see what cards are in this set, check out the various design docs which detail every card and the design motivation behind them.
 
 > SPOILER ALERT: Plot and character spoilers galore when discussing design motivations for most cards. If you don't want to be spoiled, perhaps play through and finish the video game first and come back later :-)
@@ -120,13 +118,13 @@ To see what cards are in this set, check out the various design docs which detai
 
 # Known issues
 
- * [Current List](/design/BUGS.md)
+ * [Current List of Forge bugs](/design/BUGS.md)
 
 # AI Content Disclosure
 
 Artwork for most cards are (c) Sandfall Interactive (thanks for adding Photo Mode to make this job so easy!).
 
-Where we have cards that have no in-game artistic depictions or the in-game depiction is sub-par, the artwork for such cards was generated with Google Gemini, using character/fashion/scene references from the video game where possible.
+Where we have cards that have no in-game artistic depictions or the in-game depiction is sub-par, the artwork for such cards was generated with Google Gemini and Stable Diffusion, using character/fashion/scene references from the video game where possible.
 
 All cards in this set properly credit/attribute the relevant artists so you know which ones use AI artwork and which ones don't, if it wasn't clear enough already.
 

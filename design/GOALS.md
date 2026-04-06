@@ -11,6 +11,27 @@ The design of this set has several goals:
 
 # Design Considerations
 
+## Creature Type and Mechanical Design Constraints
+
+Unfortunately the world of Expedition 33 is not very diverse in terms of creature types (blame the painter's lack of originality!).
+
+Practically speaking there are only 4 tribes we have to work with:
+
+ * Humans/Expeditioners
+ * Nevrons
+ * Gestrals
+ * Grandis
+
+Humans at least allows us to bring in "backup" in the form of reprints of human creatures from other sets. We don't have that luxury with Nevrons or Gestrals.
+
+We could use an existing creature type as a proxy for Nevrons and Gestrals, but that would be a flavor/thematic fail in my opinion. So as a result, we will proceed with what is essentially a new "parasitic" creature type (as there is very little external set synergy/interaction beyond Changelings) so we must ensure that this set provides sufficient quantity of Nevron and Gestral creature cards to build a tribal deck around.
+
+Grandis is on this list just for completeness, but in practical terms there isn't enough Grandis creatures to be able to build a dedicated tribal deck, so these creatures will need some compelling abilities to be playable.
+
+This is doubly compounded by the fact that creatures are the strategic backbone of any magic set, so we need these creatures to perform double-duty of not only providing a sufficiently deep pool to build a deck around in constructed, but deep enough to build a deck around in limited/draft environments as well.
+
+On a similar tangent, the lore/flavor of the game overrides whatever default color pie mechanical assumptions you may have. This may mean that creatures may end up with mechanics that are outside of its usual color.
+
 ## Real Proxy Printing
 
 It is hoped that this entire set is printable through [makeplayingcards](https://www.makeplayingcards.com/), so as a result the design of the set is such that the required cards for the set, its tokens and "basic land" selection for supporting cube drafts and/or commander decks is enough to fit at or under the maximum 612 card deck size supported by MPC.
@@ -47,7 +68,7 @@ There are no "designed for commander" cards in this set. Thus the commander subs
 
 ## Constructed
 
-Constructed is only supported in digital form through Forge.
+Constructed is only supported in digital form through Forge and Cockatrice.
 
 It is not practical to support for paper as that would require us to print at least 4 copies of certain cards and our 612 deck size constraint is not practical to support this.
 
