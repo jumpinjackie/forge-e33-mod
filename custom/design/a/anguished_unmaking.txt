@@ -9,7 +9,7 @@ Instant
 [Oracle]
 Exile target nonland permanent. You lose 3 life.
 [FlavorText]
-As Simon started handed over his blade and started to gommage, he wrought a faint smile, knowing he will meet his love once again.
+As Simon handed over his blade and started to gommage, he wrought a faint smile, knowing he will meet his love once again.
 [IsReprint]
 true
 [IsCommander]

@@ -5794,7 +5794,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Exile target nonland permanent. You lose 3 life.{flavor}As Simon started handed over his blade and started to gommage, he wrought a faint smile, knowing he will meet his love once again.",
+                    "text": "Exile target nonland permanent. You lose 3 life.{flavor}As Simon handed over his blade and started to gommage, he wrought a faint smile, knowing he will meet his love once again.",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
