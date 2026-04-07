@@ -16,5 +16,9 @@ Destroy target nonland permanent and all other permanents with the same name as 
 A family dispute, turned into a cataclysmic event.
 [Artist]
 John Avon
+[Tags]
+creature-removal
+artifact-removal
+enchantment-removal
 [DesignNotes]
  - Flavorful reprint and useful spot removal.
