@@ -95496,7 +95496,7 @@
                 "ability0": {
                     "name": "Ability 1",
                     "text": "Human and Gradient spells you cast cost {1} less to cast.\n\n{right60}Create a Chroma token.",
-                    "x": 0.15024875621890546,
+                    "x": 0.14925373134328357,
                     "y": 0.5581,
                     "width": 0.7467,
                     "height": 0.1421,
@@ -95505,7 +95505,7 @@
                 },
                 "ability1": {
                     "name": "Ability 2",
-                    "text": "Create two 1/1 white Human Expeditioner tokens with “When this creature dies, create a Chroma token“",
+                    "text": "Create two 1/1 white Human Expeditioner tokens with “When this creature dies, create a Chroma token”",
                     "x": 0.18,
                     "y": 0.7002,
                     "width": 0.7467,
