@@ -2891,8 +2891,6 @@ public class GenAllCommand : BaseCommand
                     }
                     spoilerWriter.WriteLine($"## Clair Obscur: Expedition 33 Commander (E3C) [{totalCardsWithImages}/{totalCards} cards]");
                     spoilerWriter.WriteLine();
-                    spoilerWriter.WriteLine("> This set is not yet finalized. This set is now in the game/color balancing phase and cards may be removed or replaced as a result.");
-                    spoilerWriter.WriteLine();
                     var bucketOrder = new[] { "COLORLESS", "WHITE", "BLUE", "BLACK", "RED", "GREEN", "MULTICOLOR", "ARTIFACTS", "LANDS" };
                     foreach (var bucket in bucketOrder)
                     {

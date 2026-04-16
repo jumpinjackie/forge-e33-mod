@@ -314,8 +314,6 @@
 | <center>Shadow Dualliste Token</center> | <center>Toy Token</center> |   |
 ## Clair Obscur: Expedition 33 Commander (E3C) [42/42 cards]
 
-> This set is not yet finalized. This set is now in the game/color balancing phase and cards may be removed or replaced as a result.
-
 - White: 5/5 cards
 - Blue: 2/2 cards
 - Red: 1/1 cards
