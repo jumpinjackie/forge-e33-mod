@@ -134,8 +134,6 @@ Defines the draft ranking of this card. 100 = Bombastic 1st pick always, 0 = Abs
 
 This data is used to build the draft rankings file in Forge to (hopefully) guide/assist AI in cube drafts with this set.
 
-> The rankings file doesn't quite work as expected atm. For one thing, a card with DraftScore = 100 gets translated to 50. I have to study to the draft ranking code in forge to gain a better understanding of how to make DraftScore = 100 be that same value come draft time in Forge.
-
 Not used in any other contexts.
 
 ### Tags (`[Tags]`)

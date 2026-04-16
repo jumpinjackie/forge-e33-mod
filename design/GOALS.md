@@ -5,7 +5,7 @@ The design of this set has several goals:
  1. To mechanically and flavorfully capture and represent the lore, setting, events, characters and bestiary from the Expedition 33 video game.
     - A big part of this is revisiting the approach of storyboard-like and character-centric art direction of sets during the Weatherlight Saga (ie. Tempest, Urza, Mercadian, Invasion blocks). If you've ever played with cards from this era, the cards in the set can read like a visual novel/comic on art and flavor text alone. You didn't need cards with [STORY SPOTLIGHT] stamped on it like a big neon sign saying "Hey guys here's the lore you wanted!". What does that mean for us with this set? If there is a cool or notable piece of art, screenshot, moment or quote in the game, we want to make a card for it.
  2. All rules are enforceable through Forge to rapidly faciliate design/prototyping/playtesting and helps keep us grounded in our card ideas.
- 3. To be a self-contained draftable cube for up to 4 players. Additional players would require bringing in extra real basic lands and having to sleeve up the cards so that proxy cards and real basic lands can be safely mixed in.
+ 3. To be a self-contained draftable cube for up to 4 players with the basic lands provided. Additional players would require bringing in extra real basic lands and having to sleeve up the cards so that proxy cards and real basic lands can be safely mixed in.
  4. To be a self-contained card pool that can compose into at least 2 100-card commander decks.
  5. The cards can be played as-is without sleeves (as Richard Garfield intended), so the set will include enough basic lands and supporting cards in the "reprint sheet" to round out the set.
 
@@ -34,7 +34,7 @@ On a similar tangent, the lore/flavor of the game overrides whatever default col
 
 ## Real Proxy Printing
 
-It is hoped that this entire set is printable through [makeplayingcards](https://www.makeplayingcards.com/), so as a result the design of the set is such that the required cards for the set, its tokens and "basic land" selection for supporting cube drafts and/or commander decks is enough to fit at or under the maximum 612 card deck size supported by MPC.
+It is intended that this entire set is printable through [makeplayingcards](https://www.makeplayingcards.com/), so as a result the design of the set is such that the required cards for the set, its tokens and "basic land" selection for supporting cube drafts and/or commander decks is enough to fit at or under the maximum 612 card deck size supported by MPC.
 
 All card images will be produced with CardConjurer.
 
@@ -46,7 +46,7 @@ To retain the ability to play unsleeved, Double-faced and Meld cards that would 
 
 ## Emphasize Top-down design (flavor comes first). Reuse and remix existing mechanics.
 
-While a ready to print set is the final goal, our development and design of the set is through digital prototyping and playtesting through Forge. As such, we cannot intrinsic behaviours as that would require updating Forge's rule engine to support that. In terms of keywords we strongly prefer to express new mechanics through ability words. Sometimes for the sake of brevity, we may introduce new "virtual" keywords, whose implementation in Forge can be expressed through regular activated/triggered abilities. "Learn Picto X" is one such virtual keyword that is implemented as a regular activated ability in Forge.
+While a ready to print set is the final goal, our development and design of the set is through digital prototyping and playtesting through Forge. As such, we cannot introduce intrinsic keywords or behaviours as that would require updating Forge's rule engine to support that. In terms of keywords we strongly prefer to express new mechanics through ability words. Sometimes for the sake of brevity, we may introduce new "virtual" keywords, whose implementation in Forge can be expressed through regular activated/triggered abilities. "Learn Picto X" is one such virtual keyword that is implemented as a regular activated ability in Forge.
 
 That does not mean we can't make something unique under these constraints. The 30+ years of MTG design space gives us a rich tapestry of existing mechanics to pool from to reuse and remix to our needs.
 
