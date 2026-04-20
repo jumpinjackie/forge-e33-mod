@@ -116,6 +116,10 @@ To see what cards are in this set, check out the various design docs which detai
  * [Set Mechanics](/design/MECHANICS.md)
  * [Deck Archetypes](/design/ARCHETYPES.md)
 
+# Printing this set with MPC (MakePlayingCards)
+
+ * [Instructions](/docs/MPC.md)
+
 # Known issues
 
  * [Current List of Forge bugs](/design/BUGS.md)
