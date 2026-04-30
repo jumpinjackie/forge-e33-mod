@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 20/3/2026 1:49:24 am
+> Last generated: 30/4/2026 11:30:17 am
 
 ## Blade's Graveyard (Concealed Courtyard)
 
@@ -568,7 +568,7 @@ This land enters tapped unless you control a Nevron or Painter.
 ### Design Notes
 
  - In the game, this is the home of Sirène, one of the Axons.
- - Modelled on Grand Coliseum with drawbacks removed if you are Nevron/Painter aligned.
+ - Modeled on Grand Coliseum with drawbacks removed if you are Nevron/Painter aligned.
 
 ## Sky Island (Botanical Sanctum)
 

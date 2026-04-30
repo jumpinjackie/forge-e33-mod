@@ -24,4 +24,4 @@ planeswalker-removal
 [Artist]
 Sandfall Interactive
 [DesignNotes]
- - Flavorful spot removal for on name basis.
+ - Flavorful spot removal on name basis alone. Maelle lives a fractured identity of being repainted Alicia. Verso lives a fractured identity of a painted copy of his deceased self.

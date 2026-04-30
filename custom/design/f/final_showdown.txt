@@ -27,4 +27,4 @@ combat-trick
 85
 [DesignNotes]
  - In the game, before the final boss battle with Renoir, Maelle pleads with him to spare the canvas as it is no longer necessary since Aline has been expelled from the Canvas. Her plea falls on deaf ears.
- - Modelled as a combat trick that breaks up a board stalemate or defensive position by forcing a combat situation.
+ - Modeled as a combat trick that breaks up a board stalemate or defensive position by forcing a combat situation.

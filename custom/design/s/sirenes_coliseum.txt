@@ -30,4 +30,4 @@ DeckHints:Type$Nevron|Painter
 mana-fixer
 [DesignNotes]
  - In the game, this is the home of Sirène, one of the Axons.
- - Modelled on Grand Coliseum with drawbacks removed if you are Nevron/Painter aligned.
+ - Modeled on Grand Coliseum with drawbacks removed if you are Nevron/Painter aligned.

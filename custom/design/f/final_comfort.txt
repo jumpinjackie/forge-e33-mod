@@ -26,4 +26,4 @@ Sandfall Interactive
 lumina-generator
 [DesignNotes]
  - In the game, if you chose Verso's ending, he defeats Maelle and cradles her gommaging body offering her comforting words as she is being expelled from the canvas.
- - Card modelled on Convalescence, but expanded life gain to a modal decision.
+ - Card modeled on Convalescence, but expanded life gain to a modal decision.

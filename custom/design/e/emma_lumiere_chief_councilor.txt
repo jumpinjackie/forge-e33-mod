@@ -38,3 +38,4 @@ Sandfall Interactive
  - Gone with a suite of abilities that best convey rallying support for the Expedition:
     - A support ETB.
     - Ability to play Expeditioners off the top of your library.
+ - 1/4/2026: Moved Emma to base set as MPC order optimization freed up some base set slots.

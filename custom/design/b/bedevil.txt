@@ -19,4 +19,4 @@ R
 [Artist]
 Fang Xinyu
 [DesignNotes]
- - Obligatory commander ramp.
+ - Obligatory commander spot removal.

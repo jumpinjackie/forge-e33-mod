@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 3/4/2026 6:05:52 pm
+> Last generated: 30/4/2026 11:30:17 am
 
 ## Aberration
 
@@ -108,7 +108,7 @@ Candy shields — Sacrifice a Food: Put a shield counter on this creature.
 
 ### Notes
 
- - Obligatory commander ramp.
+ - Obligatory commander spot removal.
 
 ## Bénisseur
 
@@ -530,6 +530,7 @@ When Emma dies, create a Chroma token.
  - Gone with a suite of abilities that best convey rallying support for the Expedition:
     - A support ETB.
     - Ability to play Expeditioners off the top of your library.
+ - 1/4/2026: Moved Emma to base set as MPC order optimization freed up some base set slots.
 
 
 ### Rulings
@@ -993,7 +994,7 @@ Like his real life counterpart, Verso’s painted facsimile once again gave his 
 ### Design Notes
 
  - In the game, if you chose Verso's ending, he defeats Maelle and cradles her gommaging body offering her comforting words as she is being expelled from the canvas.
- - Card modelled on Convalescence, but expanded life gain to a modal decision.
+ - Card modeled on Convalescence, but expanded life gain to a modal decision.
 
 ## Final Showdown
 
@@ -1010,7 +1011,7 @@ Renoir acknowledged their pleas and arguments, and that did not change anything.
 ### Design Notes
 
  - In the game, before the final boss battle with Renoir, Maelle pleads with him to spare the canvas as it is no longer necessary since Aline has been expelled from the Canvas. Her plea falls on deaf ears.
- - Modelled as a combat trick that breaks up a board stalemate or defensive position by forcing a combat situation.
+ - Modeled as a combat trick that breaks up a board stalemate or defensive position by forcing a combat situation.
 
 ## Finesse // Grace
 
@@ -1070,7 +1071,7 @@ When Florian dies, create a Chroma token.
 
 ### Notes
 
- - Flavorful spot removal for on name basis.
+ - Flavorful spot removal on name basis alone. Maelle lives a fractured identity of being repainted Alicia. Verso lives a fractured identity of a painted copy of his deceased self.
 
 ## Full Deck
 
@@ -1560,6 +1561,7 @@ With one small gesture, the Nevron soon dissipated into a bloom of gold petals.
 ### Design Notes
 
  - One of Maelle's quotes as she's about to gommage some sorry Nevron out of existence.
+    - 30/04/2026: I think I misheard the quote. She actually says "Get out of this canvas!". Nevertheless the name is cool enough to stay as-is.
  - Painter bonus because this is a painter's power.
 
 ## Licornapieds
@@ -1796,7 +1798,7 @@ When you unlock this door, return target creature card from your graveyard to th
 
 ### Design Notes
 
- - In the game, the Manor entrance is there the expedition flag is to save. There is room that is hidden behind a painting that is accessible by jumping through the painting.
+ - In the game, the Manor entrance is where the expedition flag is located to save. There is room that is hidden behind a painting that is accessible by jumping through the painting.
  - Gone with an effect to cheat a creature into play with each side represent a different way to cheat said creature into play.
 
 ## Manor Fire
@@ -2246,7 +2248,7 @@ Target opponent chooses a number. You may have this spell deal that much damage 
 ### Design Notes
 
  - In the game, at the start of Act 3, the real Renoir reveals his true self and meets his painted son for the first time (as real Renoir). He offers his apologies for the suffering his family dispute has wrought and offers to end it by erasing the canvas.
- - This card was all about the quote in the flavor text. Modelled on Choice of Damnations, which perfectly matches the "Choose your own doom" motif we're trying to go for with this card.
+ - This card was all about the quote in the flavor text. Modeled on Choice of Damnations, which perfectly matches the "Choose your own doom" motif we're trying to go for with this card.
 
 ## Repaint
 
@@ -2405,7 +2407,7 @@ The Expedition is removed from the canvas — {T}, Remove a foreboding counter f
     - Mapped "The dead are removed from the canvas" to a "Rest in Peace" continuous exile effect. Is in line with what happens when any of your party members die in combat (they are immediately erased).
     - Mapped "The Expedition is removed from the canvas" as a mass exile effect that spares only Simon and one of opponent's creatures. This is the ability spent with the foreboding counter.
  - 13/12/2025: "Simon, The Divergent Star" is now the name of the v2.0 Simon boss in the Endless Tower with the new DLC. Not changing the name of the back half as this name had existed long before the release of this DLC (it existed as a song title in the OST).
- - 5/02/2026: Removed Trample from back half.
+ - 5/02/2026: Removed Trample from back half as Trample + Double Strike is a dangerously powerful combination on high P/T creatures.
 
 ## Sirène, Who Plays With Wonder
 
@@ -2928,8 +2930,8 @@ Fuse (You may cast one or both halves of this card from your hand.)
 
  - In the game. "When one falls, we continue" is the expeditioner's motto. To strive onwards and continue, no matter what setbacks.
  - Mechanically:
-    - "When one falls" evokes in my mind an effect akin to Second Sunrise, so I've based it on that but scoped to Expeditioners
+    - "When One falls" evokes in my mind an effect akin to Second Sunrise, so I've based it on that but scoped to Expeditioners
     - "We continue" evokes in my mind a Time Walk effect.
  - 23/09/2025: I will most likely change the "When One Falls" side to be a straight mass Expeditioner reanimation effect instead of one that only reanimates those that died this turn, which would make it more of a game-swinging bomb when cast fused, because if you are able to resolve this fused, you deserve to win the game at that point.
- - 3/10/2025: Changed "When one Falls" side to a straight mass Expeditioner reanimation effect and bumped cost from 3W to 4W
+ - 3/10/2025: Changed "When One Falls" side to a straight mass Expeditioner reanimation effect and bumped cost from 3W to 4W
 

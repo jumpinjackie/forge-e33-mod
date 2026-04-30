@@ -29,4 +29,5 @@ enchantment-removal
 90
 [DesignNotes]
  - One of Maelle's quotes as she's about to gommage some sorry Nevron out of existence.
+    - 30/04/2026: I think I misheard the quote. She actually says "Get out of this canvas!". Nevertheless the name is cool enough to stay as-is.
  - Painter bonus because this is a painter's power.
