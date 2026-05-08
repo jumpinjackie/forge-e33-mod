@@ -3295,6 +3295,32 @@ public class CardConjurerValidateCommand : BaseCommand
                     continue;
                 }
 
+                // Check infoSet maps correctly from IsCommander.
+                // IsCommander=true => E3C, otherwise (false/null) => E33.
+                var expectedInfoSet = design.IsCommander ? "E3C" : "E33";
+                if (!data.TryGetProperty("infoSet", out var infoSetObj) || infoSetObj.ValueKind != System.Text.Json.JsonValueKind.String)
+                {
+                    if (!hasWarnings)
+                        await stdout.WriteLineAsync($"WARNING: infoSet mismatches found in card: {cardFaceName}");
+                    await stdout.WriteLineAsync("  infoSet:");
+                    await stdout.WriteLineAsync("    CC .data.infoSet: (missing or non-string)");
+                    await stdout.WriteLineAsync($"    Expected from design IsCommander={design.IsCommander}: {expectedInfoSet}");
+                    hasWarnings = true;
+                }
+                else
+                {
+                    var ccInfoSet = infoSetObj.GetString() ?? string.Empty;
+                    if (!string.Equals(ccInfoSet, expectedInfoSet, StringComparison.OrdinalIgnoreCase))
+                    {
+                        if (!hasWarnings)
+                            await stdout.WriteLineAsync($"WARNING: infoSet mismatches found in card: {cardFaceName}");
+                        await stdout.WriteLineAsync("  infoSet:");
+                        await stdout.WriteLineAsync($"    CC .data.infoSet: {ccInfoSet}");
+                        await stdout.WriteLineAsync($"    Expected from design IsCommander={design.IsCommander}: {expectedInfoSet}");
+                        hasWarnings = true;
+                    }
+                }
+
                 // Check mana cost
                 if (!isNicknamed &&
                     cardFace?.ManaCost != null &&
