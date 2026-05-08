@@ -22,6 +22,8 @@ Man’s best friend has a successor.
 [AbilityWords]
 Dig
 Fetch!
+[Artist]
+Sandfall Interactive
 [ForgeScript]
 K:Vigilance
 T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Artifact | TriggerZones$ Battlefield | Execute$ TrigGainLife | TriggerDescription$ Whenever an artifact enters, you gain 1 life.
