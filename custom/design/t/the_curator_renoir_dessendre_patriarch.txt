@@ -25,6 +25,12 @@ Upgrades your weapons
 Latent skill activation
 [DraftScore]
 89
+[StorySection]
+3. Act I
+[StoryOrder]
+9
+[StoryBlurb]
+After re-uniting with Maelle, a mysterious figure appears. Maelle explains how he has helped her while in the Manor.
 [FlavorText]
 "What is he?" asked a curious Lune. "I'm not sure, he doesn't really talk." replied Maelle.
 [Tags]

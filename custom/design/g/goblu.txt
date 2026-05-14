@@ -48,6 +48,12 @@ c_a_flower
 [Tags]
 combat-trick
 creature-removal
+[StorySection]
+3. Act I
+[StoryOrder]
+11
+[StoryBlurb]
+Near the Flying Waters exit, Gustave sees a flower which reminds him of Sophie. After he plucks the flower from its base, the party is ambushed by an enraged Goblu.
 [Rulings]
  - The modal ability triggers off of a Flower Token leaving the battlefield. If you sac a Flower Token as part of paying for a spell, the modal ability will go on the stack above the spell you paid for upon completing payment for that spell.
 [DesignNotes]
