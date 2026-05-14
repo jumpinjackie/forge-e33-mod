@@ -3233,7 +3233,7 @@ public class GenAllCommand : BaseCommand
             using var writer = new StreamWriter(storySpoilerPath, false, Encoding.UTF8);
             await writer.WriteLineAsync("# Story Spoiler");
             await writer.WriteLineAsync();
-            await writer.WriteLineAsync("> Story-ordered visual spoiler based on [StorySection], [StoryOrder], and [StoryBlurb] metadata.");
+            await writer.WriteLineAsync("> The story of Expedition 33 as told through the cards in this set. Inspired by the [Remember the Weatherlight series of articles on MTGSalvation](https://www.mtgsalvation.com/articles/49526-remember-the-weatherlight-part-1-come-sail-away)");
             await writer.WriteLineAsync();
 
             if (storyEntries.Count == 0)

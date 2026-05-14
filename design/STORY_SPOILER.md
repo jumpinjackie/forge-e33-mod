@@ -1,6 +1,6 @@
 ﻿# Story Spoiler
 
-> Story-ordered visual spoiler based on [StorySection], [StoryOrder], and [StoryBlurb] metadata.
+> The story of Expedition 33 as told through the cards in this set. Inspired by the [Remember the Weatherlight series of articles on MTGSalvation](https://www.mtgsalvation.com/articles/49526-remember-the-weatherlight-part-1-come-sail-away)
 
 ## 1. Before the Prologue
 
