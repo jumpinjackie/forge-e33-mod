@@ -40,6 +40,12 @@ DeckHints:Type$Gestral
  - 19/12/2025: Renamed from Golgra, Gestral Chief to Golgra, Gestral Chef as that is indeed what other Gestrals refer to her as.
 [Tags]
 lord
+[StorySection]
+3. Act I
+[StoryOrder]
+14
+[StoryBlurb]
+Once in the village, the party meet Golgra, the "chef" of the village. The party enquires how to traverse the waters to reach the Paintress. Golgra suggests the party meet Esquie and tells the party you need a password to enter Esquie's Nest. But Golgra refuses to let weaklings visit Esquie, so she demands the party members fight in the Legendary Tournament to get the password.
 [Bugs]
 I am being prompted for the mode before the enrage trigger goes on the stack, I kind of expected the prompt to happen on trigger resolution. And the trigger description on the stack is the full modal prompt and not the choice made. Not sure if it ultimately matters because it behaviourally works as expected.
 [DraftScore]

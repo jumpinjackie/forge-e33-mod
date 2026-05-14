@@ -52,3 +52,9 @@ DeckNeeds:Name$Soarrie|Florrie|Urrie|Dorrie
 Getting the same ordering issue on the Uro modal trigger as Golgra.
 [DraftScore]
 86
+[StorySection]
+3. Act I
+[StoryOrder]
+21
+[StoryBlurb]
+Esquie makes a spectacular entrance to greet the party. Esquie requires a rock named Florrie to swim. He requests the party get this rock from his archnemesis ... next door.

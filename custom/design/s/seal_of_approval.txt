@@ -22,6 +22,12 @@ SVar:RemoveEffect:DB$ ChangeZone | Origin$ Command | Destination$ Exile
 DeckHints:Type$Artifact|Saga|Legendary
 [Artist]
 Sandfall Interactive
+[StorySection]
+3. Act I
+[StoryOrder]
+19
+[StoryBlurb]
+Sciel gives her glowing endorsement of Gustave "shouting the password as loud as you can" to get access to Esquie's Nest.
 [DesignNotes]
  - In the game, Sciel gives her "glowing endorsement" of Gustave for "shouting the password as loud as you can" to get access to Esquie's Nest.
  - This card 100% based on the "Sciel of Approval" meme/pun.

@@ -42,6 +42,12 @@ c_a_chroma
 93
 [Tags]
 creature-removal
+[StorySection]
+3. Act I
+[StoryOrder]
+16
+[StoryBlurb]
+The "mysterious new warrior" turned out to be Sciel, who got separated from the party at Dark Shores and made it to the Gestral Village separately, seemingly content to live out her remaining life fighting Gestrals until the party reunited.
 [DesignNotes]
  - Sciel is a kind, empathetic, nurturing character that specializes in weapons and attacks that deal dark damage. Clearly an Orzhov color identity.
  - In the game, Sciel's attacks build up foretell, which can then be consumed later on for even more powerful attacks. We are using Foretell in the literal sense by re-using the existing Foretell mechanic by having Sciel granting all nonland cards in your hand to be foretold.

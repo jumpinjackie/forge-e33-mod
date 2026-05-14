@@ -20,6 +20,12 @@ SVar:ArenaFight:DB$ Fight | Defined$ ParentTarget | ValidTgts$ Creature | Target
 DeckHints:Type$Gestral
 [Tags]
 creature-removal
+[StorySection]
+3. Act I
+[StoryOrder]
+15
+[StoryBlurb]
+The party enter the Legendary Tournament. After defeating all the Gestral challengers, Limonsol sets up a match against a mysterious new warrior.
 [DesignNotes]
  - In the game, the Gestral Village has an arena where Gestrals fight. Sciel was discovered to be competing here.
  - Gestral loves to fight. So naturally a Gestral Arena should have an ability that lets a Gestral fight someone else.

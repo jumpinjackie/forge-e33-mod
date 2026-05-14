@@ -24,6 +24,12 @@ SVar:X:Count$xPaid
 SVar:DBToken:DB$ Token | TokenAmount$ 1 | TokenOwner$ You | TokenScript$ c_a_lumina
 [Tags]
 lumina-generator
+[StorySection]
+3. Act I
+[StoryOrder]
+18
+[StoryBlurb]
+Under peer pressure, Gustave "volunteers" to shout the required password.
 [DesignNotes]
  - In the game, this is the "password" Golgra passed down to the Expeditioners to get past the Gestral guards at Esquie's Nest
  - Mechanically, it make sense (and is hilarious) to make Gestrals unable to block.
