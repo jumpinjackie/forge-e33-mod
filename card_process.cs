@@ -3145,12 +3145,65 @@ public class GenAllCommand : BaseCommand
             var missingImages = new List<string>();
             var storyEntries = new List<(string section, double order, string name, string blurb, string imagePath)>();
 
+            void TryAddStoryEntry(string? section, double? order, string? blurb, string displayName, string imageFileName, string picsDir)
+            {
+                if (section is null || blurb is null || !order.HasValue)
+                    return;
+
+                var imgPath = Path.Combine(picsDir, imageFileName);
+                if (File.Exists(imgPath))
+                    storyEntries.Add((section, order.Value, displayName, blurb, imgPath));
+                else
+                    missingImages.Add(displayName);
+            }
+
             foreach (var card in cards.Values)
             {
+                var picsDir = card.IsCommander ? cmdrCardsPicsDir : baseCardsPicsDir;
+
+                if (card.FaceType is CardFaceType.DoubleFaced)
+                {
+                    TryAddStoryEntry(
+                        card.FrontFull?.StorySection,
+                        card.FrontFull?.StoryOrder,
+                        card.FrontFull?.StoryBlurb,
+                        card.FrontFull?.Name ?? card.Name,
+                        (card.FrontFull?.InvariantName ?? card.FrontFull?.Name ?? card.Name) + ".full.jpg",
+                        picsDir);
+
+                    TryAddStoryEntry(
+                        card.BackFull?.StorySection,
+                        card.BackFull?.StoryOrder,
+                        card.BackFull?.StoryBlurb,
+                        card.BackFull?.Name ?? card.Name,
+                        (card.BackFull?.InvariantName ?? card.BackFull?.Name ?? card.Name) + ".full.jpg",
+                        picsDir);
+                    continue;
+                }
+
+                if (card.FaceType is CardFaceType.Meld)
+                {
+                    TryAddStoryEntry(
+                        card.FrontFull?.StorySection,
+                        card.FrontFull?.StoryOrder,
+                        card.FrontFull?.StoryBlurb,
+                        card.FrontFull?.Name ?? card.Name,
+                        (card.FrontFull?.InvariantName ?? card.FrontFull?.Name ?? card.Name) + ".full.jpg",
+                        picsDir);
+
+                    TryAddStoryEntry(
+                        card.MeldTarget?.StorySection,
+                        card.MeldTarget?.StoryOrder,
+                        card.MeldTarget?.StoryBlurb,
+                        card.MeldTarget?.Name ?? card.Name,
+                        (card.MeldTarget?.InvariantName ?? card.MeldTarget?.Name ?? card.Name) + ".full.jpg",
+                        picsDir);
+                    continue;
+                }
+
                 if (card.StorySection is null || card.StoryBlurb is null || !card.StoryOrder.HasValue)
                     continue;
 
-                var picsDir = card.IsCommander ? cmdrCardsPicsDir : baseCardsPicsDir;
                 foreach (var imgName in card.GetImageNames())
                 {
                     var imgPath = Path.Combine(picsDir, imgName);
