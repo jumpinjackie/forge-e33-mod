@@ -48,8 +48,10 @@
 
 | | | |
 |---|---|---|
-| ![](../custom/pics/cards/E33/Spring%20Meadows.full.jpg) | ![](../custom/pics/cards/E33/Second%20Thoughts.full.jpg) | ![](../custom/pics/cards/E33/Lune%27s%20Denial.full.jpg) |
+| ![](../custom/pics/cards/E33/Spring%20Meadows.full.jpg) | ![](../custom/pics/cards/E33/Second%20Thoughts.full.jpg) | ![](../custom/pics/cards/E33/Lune%2C%20Charting%20a%20Path.full.jpg) |
 | <center>Gustave, still alive wakes up in Spring Meadows. He gathers his bearings and seeks to find any other surviving Expedition members.</center> | <center>Gustave eventually finds his fellow Expeditioners ... all dead. Feeling immense despair at his current predicament, he conjures up his pistol and considers the unthinkable, until he hears a familiar voice.</center> | <center>"You do that, we both die"<br/>Lune finds Gustave just in time and tried to snap him out of his depressive stupor.</center> |
-| ![](../custom/pics/cards/E33/Lumina%20Converter.full.jpg) | ![](../custom/pics/cards/E33/The%20Indigo%20Tree.full.jpg) | ![](../custom/pics/cards/E33/Flying%20Waters.full.jpg) |
-| <center>After slaying their first Nevron, Gustave whips out his Lumina Converter to see if theory meets practice.</center> | <center>Gustave and Lune finally arrive at their designated rallying point. There they find a clue as to where they need to go next.</center> | <center>Gustave and Lune finally reach "the weird corals"</center> |
+| ![](../custom/pics/cards/E33/Lumina%20Converter.full.jpg) | ![](../custom/pics/cards/E33/The%20Indigo%20Tree.full.jpg) | ![](../custom/pics/cards/E33/Eveque.full.jpg) |
+| <center>After slaying their first Nevron, Gustave whips out his Lumina Converter to see if theory meets practice.</center> | <center>Gustave and Lune finally arrive at their designated rallying point. There they find a clue as to where they need to go next.</center> | <center>As they leave Spring Meadows, Gustave and Lune encounter their first major boss Nevron.</center> |
+| ![](../custom/pics/cards/E33/Flying%20Waters.full.jpg) |   |   |
+| <center>Gustave and Lune finally reach "the weird corals"</center> |   |   |
 

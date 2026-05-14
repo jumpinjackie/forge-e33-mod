@@ -25,13 +25,6 @@ A:SP$ Counter | TargetType$ Spell | TgtPrompt$ Select target spell | ValidTgts$ 
 SVar:LuminaTotal:Count$Valid Lumina.YouCtrl
 SVar:XLumina:SVar$LuminaTotal/Plus.2
 SVar:X:Count$Compare LuminaTotal GE3.XLumina.2
-[StorySection]
-3. Act I
-[StoryOrder]
-3
-[StoryBlurb]
-"You do that, we both die"
-Lune finds Gustave just in time and tried to snap him out of his depressive stupor.
 [DesignNotes]
  - Mandatory soft-counter with thematic uniqueness
  - 18/10/2025: Replaced Lumina bonus with a Lumina sac alternate cost for extra surprise factor.
