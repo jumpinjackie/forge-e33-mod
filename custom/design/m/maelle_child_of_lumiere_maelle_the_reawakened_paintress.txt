@@ -23,7 +23,7 @@ reanimation
 [StorySection]
 2. Prologue
 [StoryOrder]
-1.5
+2.5
 [StoryBlurb]
 Gustave is approached by Maelle, who tells him he should catch up with Sophie.
 [PT]

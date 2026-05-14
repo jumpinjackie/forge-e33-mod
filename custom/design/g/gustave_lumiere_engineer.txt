@@ -48,7 +48,7 @@ creature-removal
 [StorySection]
 2. Prologue
 [StoryOrder]
-0.5
+1.5
 [StoryBlurb]
 We are introduced to Gustave.
 [DesignNotes]
