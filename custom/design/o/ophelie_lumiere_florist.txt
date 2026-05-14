@@ -31,6 +31,12 @@ c_a_flower
 90
 [Tags]
 mana-dork
+[StorySection]
+2. Prologue
+[StoryOrder]
+7
+[StoryBlurb]
+On the way to the Harbor, Gustave meets up with Ophelie. She asks him if he's interested in any more flowers.
 [DesignNotes]
  - In the game, Ophelie operates a stand in the Lumière flower market.
  - Easy map to a creature that makes Flower tokens.

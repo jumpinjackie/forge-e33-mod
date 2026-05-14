@@ -27,6 +27,12 @@ $EXPEDITIONER_DEATH_ABILITY
 DeckHints:Type$Artifact
 [Artist]
 Sandfall Interactive
+[StorySection]
+2. Prologue
+[StoryOrder]
+5
+[StoryBlurb]
+On the way to the Harbor, Sophie meets Estelle who seeks advice on how to improve her sculpture of the legendary Esquie.
 [Rulings]
  - Can target artifact tokens (as long as they are not creatures)
 [DesignNotes]

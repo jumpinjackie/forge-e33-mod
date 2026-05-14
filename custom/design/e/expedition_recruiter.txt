@@ -25,6 +25,12 @@ T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.S
 SVar:TrigChange:DB$ ChangeZone | Origin$ Library | Destination$ Hand | ChangeType$ Card.Expeditioner | ChangeNum$ 1 | ShuffleNonMandatory$ True
 $EXPEDITIONER_DEATH_ABILITY
 DeckHints:Type$Expeditioner
+[StorySection]
+2. Prologue
+[StoryOrder]
+6
+[StoryBlurb]
+On the way to the Harbor, Gustave and Sophie walk past Alan and Catherine, who are trying to recruit volunteers for the next Expedition.
 [Rulings]
  - Can tutor for any card that has the sub-type of Expeditioner.
 [DesignNotes]

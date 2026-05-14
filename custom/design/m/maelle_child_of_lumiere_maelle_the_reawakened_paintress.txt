@@ -20,6 +20,12 @@ creature-removal
 artifact-removal
 enchantment-removal
 reanimation
+[StorySection]
+2. Prologue
+[StoryOrder]
+1.5
+[StoryBlurb]
+Gustave is approached by Maelle, who tells him he should catch up with Sophie.
 [PT]
 3/3
 [Oracle]
