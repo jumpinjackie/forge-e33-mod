@@ -25,6 +25,12 @@ c_1_1_nevron
 Sandfall Interactive
 [DraftScore]
 90
+[StorySection]
+3. Act I
+[StoryOrder]
+28
+[StoryBlurb]
+As the party travel through the Stone Wave Cliffs, they discover a shrine to the Paintress.
 [DesignNotes]
  - In the game, the Shrine can be found at Stone Wave Cliffs, prompting the discussion referenced in the flavor text.
  - Nevron variant of Honden of Life's Web.

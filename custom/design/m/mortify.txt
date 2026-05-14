@@ -19,6 +19,12 @@ true
 U
 [Artist]
 Sandfall Interactive
+[StorySection]
+3. Act I
+[StoryOrder]
+37
+[StoryBlurb]
+Banished to an unknown void, Maelle witnesses a conversation between two voices. The male voice gives her comforting assurance and tells her to stay put and sends her back to The Continent.
 [DesignNotes]
  - Staple commander removal.
  - 3/2/2026: Art was chosen simply because Maelle's expression at that point in time is basically mortification at what has just transpired.

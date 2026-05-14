@@ -17,6 +17,12 @@ true
 mana-fixer
 [Cycle]
 Enemy Fast Duals
+[StorySection]
+3. Act I
+[StoryOrder]
+25
+[StoryBlurb]
+The party finally reach Stone Wave Cliffs.
 [DesignNotes]
  - In the game, a Stone Wave Cliffs is the final area of Act 1.
  - Gone with nickname reprint of Stormcarved Coast.

@@ -31,6 +31,12 @@ a_1_1_gestral
 c_a_chroma
 [DraftScore]
 85
+[StorySection]
+3. Act I
+[StoryOrder]
+23
+[StoryBlurb]
+At the party approaches the Stone Wave Cliffs, Maelle requests the party set up camp. At the camp, Gustave meets Sastro, who is looking for lost Gestrals.
 [DesignNotes]
  - This is the Gestral (Siege-Gang Commander / Deranged Hermit)
  - Should have one more ability at least. Further abilities TBD.

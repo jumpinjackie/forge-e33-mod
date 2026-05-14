@@ -28,6 +28,12 @@ Sandfall Interactive
 [Tags]
 creature-removal
 planeswalker-removal
+[StorySection]
+3. Act I
+[StoryOrder]
+27
+[StoryBlurb]
+Esquie, floating nearby, senses that Florrie is close. Soon, a giant Bourgeon appears and the party is amazed at the ease at which Esquie takes down this Bourgeon.
 [DesignNotes]
  - In the game, at the Stone Wave Cliffs, the party witnesses some of Esquie's power by effortlessly taking down a giant Bourgeon.
  - Gone with a bolt with various rock-boosted bonuses to flesh out the Rock Urzatron archetype.

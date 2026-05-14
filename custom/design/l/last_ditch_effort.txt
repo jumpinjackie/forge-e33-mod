@@ -17,6 +17,12 @@ Sandfall Interactive
 [Tags]
 creature-removal
 planeswalker-removal
+[StorySection]
+3. Act I
+[StoryOrder]
+34
+[StoryBlurb]
+Gustave, sensing the odds slipping away, goes for a desperation overcharge attack against the white-haired man.
 [DesignNotes]
  - In the game, after Gustave was mortally wounded by Painted Renoir at the Stone Wave Cliffs, he charges up his Overcharge move as a desperate measure to inflict some damage.
  - Flavorful reprint depicting this moment.

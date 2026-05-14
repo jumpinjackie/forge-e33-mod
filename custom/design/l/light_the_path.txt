@@ -20,6 +20,12 @@ SVar:DBDraw:DB$ Draw | NumCards$ 1 | Defined$ You
 Sandfall Interactive
 [Tags]
 combat-trick
+[StorySection]
+3. Act I
+[StoryOrder]
+29
+[StoryBlurb]
+As the party enter a cave tunnel, it starts to light up.
 [DesignNotes]
  - Inspired by a screenshot I captured from a DLC run in Stone Wave Cliffs
  - 6/02/2026: Added Foretell to increase cards in set with Foretell and add more mystery to what a Foretold card could be.

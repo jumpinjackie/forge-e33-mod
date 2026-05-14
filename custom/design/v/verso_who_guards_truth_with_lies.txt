@@ -45,6 +45,12 @@ Sandfall Interactive
 92
 [Tags]
 creature-removal
+[StorySection]
+3. Act I
+[StoryOrder]
+40
+[StoryBlurb]
+The mysterious individual who saved Maelle at the Stone Wave Cliffs, meets the remaining party and introduces himself as Verso. He also reveals the identity of the white-haired man as Renoir.
 [DesignNotes]
  - The main gimmick we want to mechanically capture is his rank. Rank is gained from dealing damage and is lost on taking damage.
  - Easy map to gain/loss of rank counters on dealing damage/taking damage. For game balance, Verso will lose all rank counters on a single hit.
