@@ -36,6 +36,12 @@ Google Gemini
 nonbasic-hate
 [Rulings]
  - A land with a charted counter is an Island for as long as any instance of this creature (real or token copy) is on the battlefield. The moment there are no instances, the effect wears off and the land is no longer an Island.
+[StorySection]
+1. Before the Prologue
+[StoryOrder]
+7
+[StoryBlurb]
+Expedition 68 set sail for the Continent, but were struck by powerful storms.
 [DesignNotes]
  - Navigator ability mapped to map token generation
  - 17/01/2026: Added "Spreading Seas" ETB to check nonbasics.

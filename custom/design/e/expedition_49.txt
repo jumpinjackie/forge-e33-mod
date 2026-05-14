@@ -22,6 +22,12 @@ SVar:DBChapter2:DB$ PutCounterAll | ValidCards$ Creature.YouCtrl | CounterType$ 
 SVar:DBChapter3:DB$ PumpAll | ValidCards$ Creature.YouCtrl | KW$ Indestructible | SpellDescription$ Creatures you control gain indestructible until end of turn.
 SVar:X:Count$Valid Creature/Times.2
 DeckHas:Ability$Counters
+[StorySection]
+1. Before the Prologue
+[StoryOrder]
+15
+[StoryBlurb]
+Expedition 49 employed strong defense/healing tactics, but soon learned real quick that defense is nothing without good offense.
 [DesignNotes]
  - Journal is about expeditioners who carried out their mission through strong defense/healing tactics, which proves to be their downfall as their weak offensive capabilities prove to be ineffective against the Nevrons.
  - Easy mechanical map to life gain and defensive buffs.

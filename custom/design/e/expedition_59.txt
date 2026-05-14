@@ -28,6 +28,12 @@ c_a_food_sac
 creature-removal
 [Rulings]
  - If you "food poison" a creature with protection it will deal 0 damage to itself if it is the color it has protection from. So if targeting a Gault (green, has pro-green) or Rocher (red, has pro-red), it will deal 0 damage to itself.
+[StorySection]
+1. Before the Prologue
+[StoryOrder]
+14
+[StoryBlurb]
+Someone in Expedition 59 suggested eating Nevrons for sustenance. Everybody proceeded to get food poisoning.
 [DesignNotes]
  - Journal is a story of Expeditioners making the fatal mistake of eating dead nevrons for sustenance
  - "Food poisoning" ability adapted from Asmoranomardicadaistinaculdacar's ability

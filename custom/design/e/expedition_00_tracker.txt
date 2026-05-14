@@ -21,6 +21,12 @@ $EXPEDITIONER_DEATH_ABILITY_TEXT_LONG
 A:AB$ Dig | Cost$ 4 G T | DigNum$ 4 | ChangeNum$ 1 | Optional$ True | ChangeValid$ Expeditioner | RestRandomOrder$ True | SpellDescription$ Look at the top four cards of your library. You may reveal an Expeditioner card from among them and put it into your hand. Put the rest on the bottom of your library in a random order.
 $EXPEDITIONER_DEATH_ABILITY
 DeckHints:Type$Expeditioner
+[StorySection]
+1. Before the Prologue
+[StoryOrder]
+3
+[StoryBlurb]
+The city of Lumière sent out a search party to look for survivors.
 [DesignNotes]
  - In the game, Expedition 00 was the first "search and rescue" team to find any survivors of The Fracture.
  - Gone with a variant of Brightwood Tracker

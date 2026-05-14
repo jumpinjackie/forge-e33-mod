@@ -25,6 +25,12 @@ K:Islandwalk
 T:Mode$ DamageDone | ValidSource$ Card.Self | ValidTarget$ Player,Planeswalker | CombatDamage$ True | Execute$ TrigDraw | TriggerDescription$ Whenever CARDNAME deals combat damage to a player or planeswalker, draw a card.
 SVar:TrigDraw:DB$ Draw | Defined$ You | NumCards$ 1
 K:Crew:2
+[StorySection]
+1. Before the Prologue
+[StoryOrder]
+16
+[StoryBlurb]
+Expedition 43 used submersibles to reach the Paintress. This ended in failure when they were all wiped out by the Serpenphare. 
 [DesignNotes]
  - In the game, Expedition 43 tried using Submarines to traverse the continent without encountering Nevrons. This ended in failure when they were wiped out by the Serpenphare.
  - Easy mechanical map to a vehicle. Mostly adapted from Silent Submersible.
