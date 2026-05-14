@@ -27,6 +27,12 @@ SVar:DBPump:DB$ PumpAll | ValidCards$ Creature.YouCtrl | NumAtt$ +1 | NumDef$ +1
 SVar:DBHexproof:DB$ PumpAll | ValidCards$ Creature.YouCtrl | KW$ Hexproof | SpellDescription$ Creatures you control gain hexproof until end of turn. (They can't be the targets of spells or abilities your opponents control.)
 [Tags]
 combat-trick
+[StorySection]
+2. Prologue
+[StoryOrder]
+3
+[StoryBlurb]
+On the eve of her Gommage, Gustave reunites with Sophie, his former girlfriend.
 [DesignNotes]
  - In the game's prologue, Gustave reunites with Sophie on the day of her gommage. It is undoubtedly a bittersweet reunion.
  - The base template is Family Reunion, it was a case of how best to weave in the "Bittersweet" aspect.

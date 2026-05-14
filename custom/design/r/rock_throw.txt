@@ -24,6 +24,12 @@ Sandfall Interactive
 creature-removal
 [DraftScore]
 72
+[StorySection]
+2. Prologue
+[StoryOrder]
+2
+[StoryBlurb]
+We are introduced to Gustave. He has a penchant for throwing rocks.
 [DesignNotes]
  - In the game, Gustave has a penchant for throwing rocks.
  - To give green some bones in spot removal for draft/limited, this is a shock for creatures that can be upgraded in damage.

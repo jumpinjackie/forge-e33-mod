@@ -27,6 +27,12 @@ SVar:DBDraw:DB$ Draw | NumCards$ 1
 [Tags]
 board-wipe
 nonbasic-hate
+[StorySection]
+1. Before the Prologue
+[StoryOrder]
+1
+[StoryBlurb]
+In the "Real World", the Writers set fire to the Dessendre family Manor. Verso Dessendre dies in the fire.
 [DesignNotes]
  - In the game, this is the event that took Verso's life and started Aline's cycle of grief, made Alicia a pariah, started Clea's war against the writers and Renoir's attempts to get Aline out of the canvas, tearing the Dessendre family apart.
  - A basic foil for room strategies with a cantrip so it's not entirely useless when not facing against room strategies.
