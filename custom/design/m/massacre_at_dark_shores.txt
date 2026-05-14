@@ -32,7 +32,7 @@ board-wipe
 [StoryOrder]
 22
 [StoryBlurb]
-Their surpise soon turned to horror as the mysterious figure decapitates their leader (Alan) and Nevrons soon appears out of the woodwork and massacred most of the crew.
+Their surprise soon turned to horror as the mysterious figure decapitates their leader (Alan) and Nevrons soon appears out of the woodwork and massacred most of the crew.
 [DesignNotes]
  - This symbolizes the moment after the prologue when Expedition 33 lands at Dark Shores, encounter Painted Renoir and proceed to have all but 5 members be wiped out by P.Renoir and his cohort of Nevrons.
  - Another mini-sweeper to give Nevron tribal decks some fight against "go wide" strategies.

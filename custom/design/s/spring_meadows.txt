@@ -24,7 +24,7 @@ Allied Fast Duals
 [StoryOrder]
 1
 [StoryBlurb]
-Gustave, still alive wakes up in Spring Meadows. He gathers his bearings and seeks to find any other surviving Expedition members.
+Gustave, still alive, wakes up in Spring Meadows. He gathers his bearings and seeks to find any other surviving Expedition members.
 [DesignNotes]
  - In the game, Spring Meadows is the opening area of Act 1.
  - Gone with nickname reprint of Razorverge Thicket.
