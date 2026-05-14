@@ -3,8 +3,8 @@ ManaCost:3 U
 Types:Instant
 K:Fuse
 AlternateMode:Split
-A:SP$ ChangeZone | ValidTgts$ Permanent.nonLand | TgtPrompt$ Select target nonland permanent | Origin$ Battlefield | Destination$ Library | LibraryPosition$ -1 | SpellDescription$ Put target nonland permanent on the bottom of it's owner's library.
-Oracle:Put target nonland permanent on the bottom of its owner’s library.\nFuse (You may cast one or both halves of this card from your hand.)
+A:SP$ ChangeZone | ValidTgts$ Permanent.nonLand | TgtPrompt$ Select target nonland permanent | AlternativeDecider$ TargetedOwner | Origin$ Battlefield | Destination$ Library | LibraryPosition$ 2 | DestinationAlternative$ Library | LibraryPositionAlternative$ -1 | StackDescription$ {p:TargetedOwner} puts {c:Targeted} into their library third from the top or on the bottom. | SpellDescription$ The owner of target nonland permanent puts it into their library third from the top or on the bottom.
+Oracle:The owner of target nonland permanent puts it into their library third from the top or on the bottom.\nFuse (You may cast one or both halves of this card from your hand.)
 
 ALTERNATE
 

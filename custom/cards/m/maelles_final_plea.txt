@@ -1,5 +1,5 @@
 Name:Maelle's Final Plea
-ManaCost:R G W
+ManaCost:1 RG W
 Types:Instant
 A:SP$ Pump | TargetMin$ 1 | TargetMax$ 2 | NumAtt$ +2 | NumDef$ +1 | KW$ Lifelink & Trample | ValidTgts$ Creature | TgtPrompt$ Select one or two target creatures | SpellDescription$ One or two target creatures each get +2/+1, lifelink and trample until end of turn.
 Oracle:One or two target creatures each get +2/+1, lifelink and trample until end of turn.

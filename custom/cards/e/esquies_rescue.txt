@@ -2,6 +2,7 @@ Name:Esquie's Rescue
 ManaCost:G U
 Types:Instant
 A:SP$ ChangeZone | ValidTgts$ Creature | TgtPrompt$ Select target creature | Origin$ Battlefield | Destination$ Hand | SubAbility$ DBGainLife | SpellDescription$ Return target creature to its owner's hand.
-SVar:DBGainLife:DB$ GainLife | LifeAmount$ 3 | SubAbility$ DBToken | SpellDescription$ You gain 3 life.
-SVar:DBToken:DB$ Token | TokenAmount$ 1 | TokenOwner$ You | TokenScript$ c_a_lumina
-Oracle:Return target creature to its owner’s hand. You gain 3 life.\nCreate a Lumina token. (It's an artifact with "{T}, Sacrifice this artifact: Scry 1.")
+SVar:DBGainLife:DB$ GainLife | LifeAmount$ 3 | SubAbility$ TrigDraw | ConditionPresent$ Permanent.Rock+YouCtrl | ConditionCompare$ GE1 | SpellDescription$ You gain 3 life.
+SVar:TrigDraw:DB$ Draw | ConditionPresent$ Permanent.Rock+YouCtrl | ConditionCompare$ GE1 | SubAbility$ DBChangeZone
+SVar:DBChangeZone:DB$ ChangeZone | Origin$ Hand | Destination$ Battlefield | ChangeType$ Land | ChangeNum$ 1 | Optional$ You | ConditionPresent$ Permanent.Rock+YouCtrl | ConditionCompare$ GE1
+Oracle:Return target creature to its owner’s hand. You gain 3 life.\nIf you control a Rock permanent, draw a card, then you may put a land card from your hand onto the battlefield.

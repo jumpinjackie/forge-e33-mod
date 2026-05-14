@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 30/4/2026 11:30:17 am
+> Last generated: 14/5/2026 12:12:31 pm
 
 ## Aberration
 
@@ -615,7 +615,7 @@ Whenever enchanted creature attacks, if you control a card named Urrie, draw a c
 GU
 Instant
 Return target creature to its owner’s hand. You gain 3 life.
-Create a Lumina token. (It's an artifact with "{T}, Sacrifice this artifact: Scry 1.")
+If you control a Rock permanent, draw a card, then you may put a land card from your hand onto the battlefield.
 ---
 Sciel: "It was you. You saved me. Back then. Wait, but how?"
 Esquie: "I heard your tears."
@@ -862,7 +862,7 @@ BR
 Enchantment - Saga
 (As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
 I — Put a fuse counter on target nonland permanent.
-II — Put a fuse counter on up to two target nonland permanents.
+II — Put a fuse counter on up to two target nonland permanents with mana value 3 or less.
 III — Destroy each permanent with a fuse counter on it.
 ```
 
@@ -872,6 +872,7 @@ III — Destroy each permanent with a fuse counter on it.
 
  - Expedition 67 was all about using explosives to blow stuff up.
  - Saga therefore is a simple "timebomb" where the first 2 chapters "plants the bombs" on the permanents you want gone by Chapter 3. The number of targets chosen approximates the min desirable number of permanents you want to take out with a [Powder Keg / Engineered Explosives / Ratched Bomb / Filigree Sylex] at 2 counters.
+ - 14/05/2026: Put targeting restrictions (by mana value) on Chapter 2 so that one can't just take out the 3 best permanents by Chapter 3.
 
 ## Expedition 67 Demolitions Expert
 
@@ -1192,6 +1193,26 @@ As long as this enchantment has four or more quest counters on it, creatures you
  - The final payoff is lord P/T buff.
  - 14/02/2026: Changed final payoff to be a +2/+2 buff.
 
+## Get Out Of This Canvas!
+
+```
+1WB
+Sorcery - Gradient
+This spell costs {1} less to cast if you control a painter.
+Exile target nonland permanent.
+---
+With one small gesture, the Nevron soon dissipated into a bloom of gold petals.
+```
+
+[card implementation](../custom/cards/g/get_out_of_this_canvas.txt)
+
+### Design Notes
+
+ - One of Maelle's quotes as she's about to gommage some sorry Nevron out of existence.
+    - 30/04/2026: I think I misheard the quote. She actually says "Get out of this canvas!". Nevertheless the name is cool enough to stay as-is.
+ - Painter bonus because this is a painter's power.
+ - 14/05/2026: Renamed from "Leave This Canvas!" to "Get Out Of This Canvas!" for reasons stated on 30/04/2026
+
 ## Giant Sapling
 
 ```
@@ -1445,9 +1466,9 @@ When this creature dies, target opponent creates a Lumina token. (It's an artifa
 1(U/R)W
 Legendary Creature - Human Expeditioner
 Whenever Gustave becomes untapped, attacks or blocks, put a charge counter on him.
-From Fire — {W}{R},{T}: Gustave deals 3 damage to target creature, you gain 3 life.
+From Fire — {W}{R}, {T}: Gustave deals 3 damage to target creature, you gain 3 life.
 Strike Storm — {W}{R}: Gustave gains double-strike until end of turn, put two charge counters on him. Activate only once per turn.
-Overcharge — {T}, Remove X charge counters from Gustave: Gustave deals X damage to target creature and that creature's controller.
+Overcharge — {U/R}, {T}, Remove X charge counters from Gustave: Gustave deals X damage to target creature and that creature's controller. Draw a card.
 ---
 "For those who come after."
 
@@ -1466,6 +1487,7 @@ Overcharge — {T}, Remove X charge counters from Gustave: Gustave deals X damag
  - 23/09/2025: It may look a bit odd to have blue color identity but no actual abilities that cost blue mana. I added the blue color identity strictly for flavor purposes because he's an engineer and engineers are almost always a blue color identity.
  - 13/10/2025: Dropped the marking shot ability due to text box budget constraints having seen this card for the first time in CardConjurer.
  - 14/02/2026: Reorder mana symbols for consistency with actual cards with hybrid/regular pip combinations
+ - 14/05/2026: Added {U/R} cost to Overcharge ultimate so blue mana has textbox participation. Also added card draw bonus.
 
 ## Intervening Parry
 
@@ -1510,7 +1532,7 @@ Flash
 Legendary Creature - Nevron Horror
 Flying. Ward {3}
 Ball of Light — {2}{W}, {T}: Tap up to three target creatures. They lose all abilities until end of turn.
-Sword of Light — {2}{W}{B}, {T}: Separate creatures target opponent controls into two separate piles. That opponent chooses a pile. Destroy all creatures in that pile. Creatures in the other pile have base toughess 1 until end of turn.
+Sword of Light — {2}{W}{B}, {T}: Separate creatures target opponent controls into two separate piles. That opponent chooses a pile. Destroy all creatures in that pile. Creatures in the other pile have base toughness 1 until end of turn.
 
 4/4
 ```
@@ -1524,6 +1546,7 @@ Sword of Light — {2}{W}{B}, {T}: Separate creatures target opponent controls i
     - Translated to an effect that taps multiple creatures and giving them temporarily humility.
  - Sword of Light: In the game, The Lampmaster creates a large blade from light and swings it four times, dealing massive damage to the whole party and inflicting Blight.
     - Translated to a Fact or Fiction style "split into 2 piles" effect where opponent choose the pile to be destroyed and the other pile will all have toughness of 1 until end of turn (which is how I interpret the blight effect).
+ - 14/05/2026: Fix typo in Sword of Light ability.
 
 ## Last Stand of Expedition 33
 
@@ -1544,25 +1567,6 @@ Draw a card for each basic land type among lands you control and discard three c
  - In the game, when your main party dies in battle, you have an option to send in the reserve team. If you do, the game acknowledges your reserve team as "The Last Stand of Expedition 33"
  - Gone with a variant of Last Stand, but based the bonuses on domain count.
  - Wording is somewhat verbose, but no pre-existing domain card does this, so I'm playing it safe.
-
-## Leave this Canvas!
-
-```
-1WB
-Sorcery - Gradient
-This spell costs {1} less to cast if you control a painter.
-Exile target nonland permanent.
----
-With one small gesture, the Nevron soon dissipated into a bloom of gold petals.
-```
-
-[card implementation](../custom/cards/l/leave_this_canvas.txt)
-
-### Design Notes
-
- - One of Maelle's quotes as she's about to gommage some sorry Nevron out of existence.
-    - 30/04/2026: I think I misheard the quote. She actually says "Get out of this canvas!". Nevertheless the name is cool enough to stay as-is.
- - Painter bonus because this is a painter's power.
 
 ## Licornapieds
 
@@ -1619,7 +1623,7 @@ Rainbow arc beams - {1}{R}, {T}: This creature deals 1 damage to target creature
 Lost
 3U
 Instant
-Put target nonland permanent on the bottom of its owner’s library.
+The owner of target nonland permanent puts it into their library third from the top or on the bottom.
 
 Found
 W
@@ -1636,17 +1640,18 @@ Fuse (You may cast one or both halves of this card from your hand.)
  - Design based solely on Esquie's quote in his Act 3 conversation with Sciel.
  - Lost: Clearly a send back to library effect
  - Found: An Argivian Find, but only targets artifacts (rocks)
+ - 14/05/2026: Rework Lost half to be more like Deem Inferior, with the permanent's owner deciding where in their library it should get sent to.
 
 ## Lune, Charting a Path
 
 ```
-1(G/W)UR
+1(U/R)GW
 Legendary Creature - Human Expeditioner Wizard
 Lune can't have more than four stain counters on her.
 Whenever you cast an instant or sorcery spell, draw a card and put a stain counter on Lune for each of that spell's colors.
 Tree of Life — {1}{G}, {T}, Remove a stain counter from Lune: Return target nonland, noncreature card from your graveyard to your hand. You gain 3 life.
 Rebirth — {1}{W}, {T}, Remove two stain counters from Lune: Return target creature card with mana value 4 or less from your graveyard onto the battlefield.
-Elemental Genesis — {T}, Remove four stain counters from Lune: Lune deals 4 damage to each of up to two targets.
+Elemental Genesis — {G/W}{U/R}, {T}, Remove four stain counters from Lune: Lune deals 4 damage to each of up to two targets.
 ---
 "As long as even one of us stands, our fight is not over."
 
@@ -1671,6 +1676,7 @@ Elemental Genesis — {T}, Remove four stain counters from Lune: Lune deals 4 da
  - 26/12/2025: Figured out a way to implement a max 4 stain counter limit to match her video game counterpart. Due to limitations on expressing this "4 stain counters max" constraint in Forge, I expect that this limit can be easily circumvented through other means in Forge (ie. Alternate ways of putting stain counters that are not Lune's triggered ability) and I can live with that. The intent in *paper* play is definitely 4 stain counters max, no ifs or buts. No shenanigans with Doubling Season or other counter replicators.
  - 21/01/2026: Changed "Elemental Genesis" ultimate from targeting 4 targets to 2 targets.
  - 14/02/2026: Replaced Wildfire ability with Rebirth. Changed cost from RGWU to 1(G/W)UR
+ - 14/05/2026: Reworked mana cost to 1(U/R)GW so Naya and Bant colors can use her full ability suite while retaining her 4-color identity. Added {G/W}{U/R} cost to her Elemental Genesis ultimate in a mild retraction of my previous comments around this particular ability. We needed some ability to sink blue or red mana into to justify her 4-color identity, and this ability was it.
 
 
 ### Rulings
@@ -1756,7 +1762,7 @@ Human and Gradient spells you cast cost {1} less to cast.
 ## Maelle's Final Plea
 
 ```
-RGW
+1(R/G)W
 Instant
 One or two target creatures each get +2/+1, lifelink and trample until end of turn.
 ---
@@ -1769,6 +1775,7 @@ Maelle had hoped to reason with her father, that by expelling Maman out of the c
 
  - In the game, before the final boss battle with Renoir, Maelle pleads with him to spare the canvas as it is no longer necessary since Aline has been expelled from the Canvas. Her plea falls on deaf ears.
  - Plea is synonymous with Appeal and existing cards with the word "Appeal" in this context are creature pump. So this is a creature pump with extras to justify the Naya color cost.
+ - 14/05/2026: Changed cost from RGW to 1(R/G)W. Strict Naya colors was a bit too much for what this spell was offering.
 
 ## Maelstrom Pulse
 

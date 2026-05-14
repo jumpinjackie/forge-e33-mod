@@ -1,4 +1,4 @@
-Name:Leave this Canvas!
+Name:Get Out Of This Canvas!
 ManaCost:1 W B
 Types:Sorcery Gradient
 S:Mode$ ReduceCost | ValidCard$ Card.Self | Type$ Spell | Amount$ 1 | EffectZone$ All | IsPresent$ Painter.YouCtrl | Description$ This spell costs {1} less to cast if you control a painter.

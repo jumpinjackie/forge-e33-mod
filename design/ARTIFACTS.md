@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 3/4/2026 8:17:04 am
+> Last generated: 14/5/2026 12:12:31 pm
 
 ## A Rock for François
 
@@ -814,7 +814,7 @@ Enrage — Whenever Golgra is dealt damage, choose one —
 
 ```
 2
-Legendary Artifact
+Legendary Artifact - Book
 When Gustave's Journal enters, create a Lumina token.
 Whenever a Nevron dies, put a study counter on Gustave's Journal.
 {2}, {T}, Remove X study counters from Gustave's Journal: Draw X cards.
@@ -830,6 +830,7 @@ He spends some time writing in his journal. He writes about how dangerous the Ne
  - Mechanically, I went with an artifact that charges up with every Nevron kill, that can be cashed in later down the road for extra cards.
  - 28/09/2025: Reduced cost from 4 to 3
  - 14/01/2026: Reduced cost from 3 to 2 and added Lumina token ETB
+ - 14/05/2026: Added Book sub-type for flavor purposes.
 
 
 ### Rulings

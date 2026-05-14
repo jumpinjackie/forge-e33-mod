@@ -1,6 +1,6 @@
 Name:Gustave's Journal
 ManaCost:2
-Types:Legendary Artifact
+Types:Legendary Artifact Book
 T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigToken | TriggerDescription$ When CARDNAME enters, create a Lumina token.
 SVar:TrigToken:DB$ Token | TokenAmount$ 1 | TokenOwner$ You | TokenScript$ c_a_lumina
 T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Nevron | TriggerZones$ Battlefield | Execute$ TrigPutStudyCounter | TriggerDescription$ Whenever a Nevron dies, put a study counter on CARDNAME.

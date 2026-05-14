@@ -5,6 +5,7 @@ Gustave's Journal
 [Types]
 Legendary
 Artifact
+Book
 [Rarity]
 R
 [Artist]
@@ -33,3 +34,4 @@ lumina-generator
  - Mechanically, I went with an artifact that charges up with every Nevron kill, that can be cashed in later down the road for extra cards.
  - 28/09/2025: Reduced cost from 4 to 3
  - 14/01/2026: Reduced cost from 3 to 2 and added Lumina token ETB
+ - 14/05/2026: Added Book sub-type for flavor purposes.

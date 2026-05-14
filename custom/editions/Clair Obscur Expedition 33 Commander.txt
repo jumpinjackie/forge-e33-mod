@@ -21,8 +21,8 @@ Type=Custom
 163 C Firdoch Core @Jason A. Engle
 176 R Shivan Reef @Sandfall Interactive ${"flavorName": "Frozen Hearts"}
 179 U Gathering Stone @Paolo Parente
-226 R Harmonized Crescendo @Tyler Walpole
-231 R Icon of Ancestry @Ivan Dedov
+227 R Harmonized Crescendo @Tyler Walpole
+232 R Icon of Ancestry @Ivan Dedov
 279 U Mask of Memory @Sandfall Interactive
 284 R Mirror Entity @Thomas Toye
 290 U Mortify @Sandfall Interactive

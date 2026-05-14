@@ -3,7 +3,7 @@ ManaCost:B R
 Types:Enchantment Saga
 K:Chapter:3:DBChapter1,DBChapter2,DBChapter3
 SVar:DBChapter1:DB$ PutCounter | CounterType$ FUSE | CounterNum$ 1 | ValidTgts$ Permanent.nonLand | TgtPrompt$ Select target nonland permanent | SpellDescription$ Put a fuse counter on target nonland permanent.
-SVar:DBChapter2:DB$ PutCounter | CounterType$ FUSE | CounterNum$ 1 | ValidTgts$ Permanent.nonLand | TargetMin$ 0 | TargetMax$ 2 | | TgtPrompt$ Select up to two target nonland permanents | SpellDescription$ Put a fuse counter on up to two target nonland permanents.
+SVar:DBChapter2:DB$ PutCounter | CounterType$ FUSE | CounterNum$ 1 | ValidTgts$ Permanent.nonLand+cmcLE3 | TargetMin$ 0 | TargetMax$ 2 | | TgtPrompt$ Select up to two target nonland permanents | SpellDescription$ Put a fuse counter on up to two target nonland permanents with mana value 3 or less.
 SVar:DBChapter3:DB$ DestroyAll | Cost$ 2 T Sac<1/CARDNAME> | ValidCards$ Permanent.counters_GE1_FUSE | SpellDescription$ Destroy each permanent with a fuse counter on it.
 DeckHas:Ability$Counters
-Oracle:(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)\nI — Put a fuse counter on target nonland permanent.\nII — Put a fuse counter on up to two target nonland permanents.\nIII — Destroy each permanent with a fuse counter on it.
+Oracle:(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)\nI — Put a fuse counter on target nonland permanent.\nII — Put a fuse counter on up to two target nonland permanents with mana value 3 or less.\nIII — Destroy each permanent with a fuse counter on it.

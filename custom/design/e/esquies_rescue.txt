@@ -9,7 +9,7 @@ Instant
 C
 [Oracle]
 Return target creature to its owner’s hand. You gain 3 life.
-Create a Lumina token. $LUMINA_REMINDER_TEXT
+If you control a Rock permanent, draw a card, then you may put a land card from your hand onto the battlefield.
 [Artist]
 Sandfall Interactive
 [FlavorText]
@@ -19,8 +19,9 @@ Sciel: "From so far away?"
 Esquie: "I heard you, so I came."
 [ForgeScript]
 A:SP$ ChangeZone | ValidTgts$ Creature | TgtPrompt$ Select target creature | Origin$ Battlefield | Destination$ Hand | SubAbility$ DBGainLife | SpellDescription$ Return target creature to its owner's hand.
-SVar:DBGainLife:DB$ GainLife | LifeAmount$ 3 | SubAbility$ DBToken | SpellDescription$ You gain 3 life.
-SVar:DBToken:DB$ Token | TokenAmount$ 1 | TokenOwner$ You | TokenScript$ c_a_lumina
+SVar:DBGainLife:DB$ GainLife | LifeAmount$ 3 | SubAbility$ TrigDraw | ConditionPresent$ Permanent.Rock+YouCtrl | ConditionCompare$ GE1 | SpellDescription$ You gain 3 life.
+SVar:TrigDraw:DB$ Draw | ConditionPresent$ Permanent.Rock+YouCtrl | ConditionCompare$ GE1 | SubAbility$ DBChangeZone
+SVar:DBChangeZone:DB$ ChangeZone | Origin$ Hand | Destination$ Battlefield | ChangeType$ Land | ChangeNum$ 1 | Optional$ You | ConditionPresent$ Permanent.Rock+YouCtrl | ConditionCompare$ GE1
 [RelatedTokens]
 c_a_lumina
 [Tags]

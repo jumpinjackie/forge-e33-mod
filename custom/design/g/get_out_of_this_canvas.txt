@@ -1,5 +1,5 @@
 [Name]
-Leave this Canvas!
+Get Out Of This Canvas!
 [ManaCost]
 1
 W
@@ -31,3 +31,4 @@ enchantment-removal
  - One of Maelle's quotes as she's about to gommage some sorry Nevron out of existence.
     - 30/04/2026: I think I misheard the quote. She actually says "Get out of this canvas!". Nevertheless the name is cool enough to stay as-is.
  - Painter bonus because this is a painter's power.
+ - 14/05/2026: Renamed from "Leave This Canvas!" to "Get Out Of This Canvas!" for reasons stated on 30/04/2026

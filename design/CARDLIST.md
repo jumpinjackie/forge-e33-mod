@@ -238,7 +238,7 @@ Cards implemented: 452
 [x] Lampmaster
 [x] Lancelier
 [x] Last Stand of Expedition 33
-[x] Leave this Canvas!
+[ ] Leave this Canvas!
 [ ] Letter from Alicia
 [x] Light the Path
 [x] Lightning Dance

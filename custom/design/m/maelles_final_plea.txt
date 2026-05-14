@@ -1,8 +1,8 @@
 [Name]
 Maelle's Final Plea
 [ManaCost]
-R
-G
+1
+RG
 W
 [Types]
 Instant
@@ -21,3 +21,4 @@ combat-trick
 [DesignNotes]
  - In the game, before the final boss battle with Renoir, Maelle pleads with him to spare the canvas as it is no longer necessary since Aline has been expelled from the Canvas. Her plea falls on deaf ears.
  - Plea is synonymous with Appeal and existing cards with the word "Appeal" in this context are creature pump. So this is a creature pump with extras to justify the Naya color cost.
+ - 14/05/2026: Changed cost from RGW to 1(R/G)W. Strict Naya colors was a bit too much for what this spell was offering.

@@ -172,41 +172,41 @@ Type=Custom
 200 C Gestral Warrior @Sandfall Interactive
 201 U Gestral Worker @Sandfall Interactive
 202 U Get Out Of My Way! @Sandfall Interactive
-203 R Giant Sapling @Sandfall Interactive
-204 U Glaise @Sandfall Interactive
-205 U Glass Cannon Picto @Sandfall Interactive
-206 R Glimpse of Humanity @Sandfall Interactive
-207 R Glissando @Sandfall Interactive
-208 R Goblu @Sandfall Interactive
-209 U Gold Chevalière @Sandfall Interactive
-210 M Golgra, Gestral Chef @Sandfall Interactive
-211 M Gommage @Sandfall Interactive
-212 C Grandis Cleaner @Sandfall Interactive
-213 R Grandis Fashionist @Sandfall Interactive
-214 C Grandis Fighter @Sandfall Interactive
-215 C Grandis Guard @Sandfall Interactive
-216 U Grandis Merchant @Sandfall Interactive
-217 C Grandis Scout @Sandfall Interactive
-218 U Greatsword Cultist @Sandfall Interactive
-220 R Grosse Tête @Sandfall Interactive
-221 R Gustave, Lumière Engineer @Sandfall Interactive
-222 C Gustave's Burial @Sandfall Interactive
-223 U Gustave's Insight @Sandfall Interactive
-224 R Gustave's Journal @Sandfall Interactive
-225 U Half-baked Lifeguard @Sandfall Interactive
-227 C Here's Your Card! @Google Gemini
-228 U Hexga @Sandfall Interactive
-229 U Hiding the Canvas @Sandfall Interactive
-230 C Ice Lance @Sandfall Interactive
-232 C Intervening Parry @Sandfall Interactive
-233 C Island @Eddie Mendoza
-234 C Jar @Sandfall Interactive
-235 C Jar of Candy @Sandfall Interactive
-236 R Julien Tiny Head @Sandfall Interactive
-237 R Lampmaster @Sandfall Interactive
-238 C Lancelier @Sandfall Interactive
-239 R Last Stand of Expedition 33 @Sandfall Interactive
-241 R Leave this Canvas! @Sandfall Interactive
+203 R Get Out Of This Canvas! @Sandfall Interactive
+204 R Giant Sapling @Sandfall Interactive
+205 U Glaise @Sandfall Interactive
+206 U Glass Cannon Picto @Sandfall Interactive
+207 R Glimpse of Humanity @Sandfall Interactive
+208 R Glissando @Sandfall Interactive
+209 R Goblu @Sandfall Interactive
+210 U Gold Chevalière @Sandfall Interactive
+211 M Golgra, Gestral Chef @Sandfall Interactive
+212 M Gommage @Sandfall Interactive
+213 C Grandis Cleaner @Sandfall Interactive
+214 R Grandis Fashionist @Sandfall Interactive
+215 C Grandis Fighter @Sandfall Interactive
+216 C Grandis Guard @Sandfall Interactive
+217 U Grandis Merchant @Sandfall Interactive
+218 C Grandis Scout @Sandfall Interactive
+219 U Greatsword Cultist @Sandfall Interactive
+221 R Grosse Tête @Sandfall Interactive
+222 R Gustave, Lumière Engineer @Sandfall Interactive
+223 C Gustave's Burial @Sandfall Interactive
+224 U Gustave's Insight @Sandfall Interactive
+225 R Gustave's Journal @Sandfall Interactive
+226 U Half-baked Lifeguard @Sandfall Interactive
+228 C Here's Your Card! @Google Gemini
+229 U Hexga @Sandfall Interactive
+230 U Hiding the Canvas @Sandfall Interactive
+231 C Ice Lance @Sandfall Interactive
+233 C Intervening Parry @Sandfall Interactive
+234 C Island @Eddie Mendoza
+235 C Jar @Sandfall Interactive
+236 C Jar of Candy @Sandfall Interactive
+237 R Julien Tiny Head @Sandfall Interactive
+238 R Lampmaster @Sandfall Interactive
+239 C Lancelier @Sandfall Interactive
+240 R Last Stand of Expedition 33 @Sandfall Interactive
 242 R Licornapieds @Sandfall Interactive
 243 C Licorne @Sandfall Interactive
 244 C Light the Path @Sandfall Interactive
@@ -255,7 +255,7 @@ Type=Custom
 293 U Nevron Disguise @Sandfall Interactive
 294 R Nevron Pecking Order @Sandfall Interactive
 295 U Nicolas, Seeking Inspiration @Sandfall Interactive
-296 U Noco & Monoco the Third @
+296 U Noco & Monoco the Third @Sandfall Interactive
 297 U Noco, The Greatest Merchant @Sandfall Interactive
 298 U Noir @Sandfall Interactive
 299 U Obscur @Sandfall Interactive
@@ -393,8 +393,8 @@ Type=Custom
 169 C Foreboding Landscape @Erikas Perl
 173 R Fractured Identity @Sandfall Interactive
 188 U Grand Melee @Sandfall Interactive ${"flavorName": "Gestral Fight Club"}
-219 M Grief @Campbell White
-240 U Last-Ditch Effort @Sandfall Interactive
+220 M Grief @Campbell White
+241 U Last-Ditch Effort @Sandfall Interactive
 250 R Blooming Marsh @Sandfall Interactive ${"flavorName": "Lost Woods"}
 254 R Rishadan Port @Sandfall Interactive ${"flavorName": "Lumière Harbor"}
 269 R Maelstrom Pulse @John Avon
