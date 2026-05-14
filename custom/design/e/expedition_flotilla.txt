@@ -28,7 +28,7 @@ Sandfall Interactive
 [StorySection]
 2. Prologue
 [StoryOrder]
-20
+19.5
 [StoryBlurb]
 With final preparations made, Expedition 33 departs Lumière for The Continent.
 [DesignNotes]
