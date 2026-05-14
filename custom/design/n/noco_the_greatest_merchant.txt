@@ -26,7 +26,7 @@ DeckHas:Ability$Discard
 [StoryOrder]
 10
 [StoryBlurb]
-Upon exiting the Manor, the party is confronted by Noco, one of the fabled Gestrals that Lune has been fascinated with ever seen one in person, until now. Noco suggests to the party that they meet Golgra at the Gestral Village.
+Upon exiting the Manor, the party is confronted by Noco, one of the fabled Gestrals that Lune has been fascinated with, but never seen one in person, until now. Noco suggests to the party that they meet Golgra at the Gestral Village.
 [Artist]
 Sandfall Interactive
 [DesignNotes]
