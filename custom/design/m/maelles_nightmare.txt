@@ -19,5 +19,11 @@ Target opponent reveals their hand. You choose either an Expeditioner card or a 
 "What is this?!"
 [ForgeScript]
 A:SP$ Discard | ValidTgts$ Opponent | Mode$ RevealYouChoose | DiscardValid$ Card.Expeditioner,Card.nonCreature+nonLand | NumCards$ 1 | SpellDescription$ Target opponent reveals their hand. You choose either an Expeditioner card or a noncreature, nonland card from it. That player discards that card.
+[StorySection]
+3. Act I
+[StoryOrder]
+12
+[StoryBlurb]
+After leaving Flying Waters, the party set up camp. Maelle experiences nightmares.
 [DesignNotes]
  - Duress with an ability to hit Expeditioner cards of any kind

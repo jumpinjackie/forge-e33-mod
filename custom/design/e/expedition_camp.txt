@@ -27,6 +27,12 @@ combat-trick
 [Rulings]
  - Can target non-creature Expeditioners.
  - The Expeditioner you target loses any counters on it as part of zone transition so you can't stack +1/+1 counters by repeatedly targeting the same Expeditioner on every activation.
+[StorySection]
+3. Act I
+[StoryOrder]
+5.7
+[StoryBlurb]
+On the way to Flying Waters, Lune suggests to set up camp.
 [DesignNotes]
  - In the game, the party can set up camp in the overworld to upgrade their equipment and replenish party health.
  - I envision this card as a "refuge" for Expeditioners ala. Safe Haven, so I've gone with a blink effect to signify the Expeditioner taking refuge and it coming back with a +1/+1 counter to signify it having upgraded some of their equipment.

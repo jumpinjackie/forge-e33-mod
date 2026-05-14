@@ -27,7 +27,7 @@ lumina-generator
 [StorySection]
 3. Act I
 [StoryOrder]
-5
+5.5
 [StoryBlurb]
 Gustave and Lune finally arrive at their designated rallying point. There they find a clue as to where they need to go next.
 [DesignNotes]
