@@ -97,7 +97,7 @@ public class CardFaceDesign
 
     public string? StoryBlurb { get; set; }
 
-    public int? StoryOrder { get; set; }
+    public double? StoryOrder { get; set; }
 
     internal void Apply(string propertyName, IEnumerable<string> buffer)
     {
@@ -184,7 +184,7 @@ public class CardFaceDesign
                 StoryBlurb = string.Join("\n", buffer);
                 break;
             case nameof(StoryOrder):
-                if (int.TryParse(string.Join(" ", buffer), out var storyOrder))
+                if (double.TryParse(string.Join(" ", buffer), NumberStyles.Float, CultureInfo.InvariantCulture, out var storyOrder))
                     StoryOrder = storyOrder;
                 break;
             case nameof(ExtraNotes):
@@ -603,7 +603,7 @@ public class TokenDefinition
 
     public string? StoryBlurb { get; set; }
 
-    public int? StoryOrder { get; set; }
+    public double? StoryOrder { get; set; }
 
     public string? TypeLine => Types is not null ? string.Join(" ", Types) : null;
 
@@ -679,7 +679,7 @@ public class TokenDefinition
             }
             else if (line.StartsWith("StoryOrder:"))
             {
-                if (int.TryParse(line.Substring("StoryOrder:".Length).Trim(), out var storyOrder))
+                if (double.TryParse(line.Substring("StoryOrder:".Length).Trim(), NumberStyles.Float, CultureInfo.InvariantCulture, out var storyOrder))
                     token.StoryOrder = storyOrder;
             }
             else if (!string.IsNullOrWhiteSpace(line))
@@ -842,7 +842,7 @@ public class CardMasterDesign
         _ => FrontFull?.StoryBlurb
     };
 
-    public int? StoryOrder => FaceType switch
+    public double? StoryOrder => FaceType switch
     {
         CardFaceType.SplitRoom => SplitLeft?.StoryOrder ?? SplitRight?.StoryOrder,
         CardFaceType.SplitFuse => SplitLeft?.StoryOrder ?? SplitRight?.StoryOrder,
@@ -3143,7 +3143,7 @@ public class GenAllCommand : BaseCommand
             var tokensPicsDir = Path.Combine(picsBase, "tokens", "E33");
 
             var missingImages = new List<string>();
-            var storyEntries = new List<(string section, int order, string name, string blurb, string imagePath)>();
+            var storyEntries = new List<(string section, double order, string name, string blurb, string imagePath)>();
 
             foreach (var card in cards.Values)
             {
@@ -3211,7 +3211,7 @@ public class GenAllCommand : BaseCommand
                 }
             }
 
-            static void WriteStorySpoilerTable(StreamWriter spoilerWriter, List<(string section, int order, string name, string blurb, string imagePath)> entries, DirectoryInfo outputDir)
+            static void WriteStorySpoilerTable(StreamWriter spoilerWriter, List<(string section, double order, string name, string blurb, string imagePath)> entries, DirectoryInfo outputDir)
             {
                 const int Columns = 3;
                 spoilerWriter.WriteLine("| | | |");

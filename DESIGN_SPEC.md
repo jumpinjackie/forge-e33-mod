@@ -158,7 +158,7 @@ Sorting is lexicographic by this value.
 
 Defines this card's order within its `[StorySection]` in `STORY_SPOILER.md`.
 
-Must be an integer.
+Can be an integer or decimal value (for example `10.5`) to allow inserting cards between existing entries without renumbering everything.
 
 ### Story Blurb (`[StoryBlurb]`)
 
@@ -185,7 +185,7 @@ Not used in any other context.
 Token files can optionally include story metadata using key-value lines instead of bracketed properties:
 
  - `StorySection:<section>`
- - `StoryOrder:<integer>`
+ - `StoryOrder:<number>`
  - `StoryBlurb:<caption>`
 
 Tokens with these fields set are also included in `STORY_SPOILER.md`.
