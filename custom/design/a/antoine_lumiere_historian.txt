@@ -25,6 +25,12 @@ $EXPEDITIONER_DEATH_ABILITY_TEXT_LONG
 T:Mode$ SpellCast | ValidCard$ Card.Historic | ValidActivatingPlayer$ You | Execute$ TrigDraw | TriggerZones$ Battlefield | TriggerDescription$ Whenever you cast a historic spell, draw a card. (Artifacts, legendaries, and Sagas are historic.)
 SVar:TrigDraw:DB$ Draw | NumCards$ 1
 $EXPEDITIONER_DEATH_ABILITY
+[StorySection]
+2. Prologue
+[StoryOrder]
+19
+[StoryBlurb]
+At the festival, Gustave meets Antoine, his professional rival for the last time.
 [DesignNotes]
  - In the game's prologue, Antoine can be found at the Expedition Festival. Answer his quiz successfully and you'll get a festival token as a reward.
  - Given his extensive historical knowledge, it's an easy mechanical map to something that triggers off of casting historic spells, in the case: Card draw.

@@ -30,7 +30,7 @@ Sandfall Interactive
 [StoryOrder]
 10
 [StoryBlurb]
-Near the Harbor, Sophie encounters a Mime. It attacks (and you are introduced to your first battle)
+Near the Harbor, Sophie encounters a Mime. It attacks (and you are introduced to your first tutorial battle on breaking enemies)
 [DesignNotes]
  - In the game, Mimes are special enemies encountered throughout the continent. Defeating them awards special loot.
  - You would think that mimes, that mimic things would have a blue color identity (the color of illusion and mimicry), but none of its ability set map to anything blue. So it is flavorfully a boros creature.

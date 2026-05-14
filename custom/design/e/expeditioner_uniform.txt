@@ -25,6 +25,12 @@ DeckHints:Type$Human
 Sandfall Interactive
 [Tags]
 lumina-generator
+[StorySection]
+2. Prologue
+[StoryOrder]
+13
+[StoryBlurb]
+Sophie hands Gustave his Expedition uniform. She wants him to wear it before the Gommage begins.
 [DesignNotes]
  - In the game's prologue, Sophie hands Gustave an Expeditioner uniform she made. She wants to see him wearing the uniform before the Gommage.
  - Gone with an equipment that applies type-changing and mild buffs if the wearer is a human. Also has an explore attack trigger, to go with the expedition/exploration theme.

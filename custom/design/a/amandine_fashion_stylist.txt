@@ -24,6 +24,12 @@ A:AB$ Pump | Cost$ W T | ValidTgts$ Equipment.YouCtrl | TgtPrompt$ Select target
 SVar:WindwalkerAttach:DB$ Attach | Object$ ParentTarget | ValidTgts$ Creature.YouCtrl | TgtPrompt$ Select target creature you control
 $EXPEDITIONER_DEATH_ABILITY
 DeckHints:Type$Equipment
+[StorySection]
+2. Prologue
+[StoryOrder]
+18
+[StoryBlurb]
+At the festival, Amandine offers Gustave a haircut.
 [DesignNotes]
  - In the game's prologue, Amandine can be found at the Expedition Festival. You can trade her a festival token for a haircut.
  - Mechanically translated fashion to equipment, hence Amandine main ability is being able to attach equipment to other creatures.

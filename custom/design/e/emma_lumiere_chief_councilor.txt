@@ -32,6 +32,12 @@ $EXPEDITIONER_DEATH_ABILITY
 Sandfall Interactive
 [Rulings]
  - Can cast non-creature spells off the top of your library as long as it has the Expeditioner sub-type.
+[StorySection]
+2. Prologue
+[StoryOrder]
+16
+[StoryBlurb]
+Emma arrives at the Festival, imploring her brother (Gustave) to stay in Lumière instead of going on this Expedition.
 [DesignNotes]
  - In the game, Emma is Gustave's sister and the Chief Councilor of Lumière. At the Expedition Festival, she implores Gustave to stay in Lumière instead of embarking on what is most likely a one-way trip.
  - As the base set is "locked in" as of 28/03/2026, this is a commander-specific card to bolster The Paintress precon.
