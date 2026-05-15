@@ -85,6 +85,12 @@
 
 | | | |
 |---|---|---|
-| ![](../custom/pics/cards/E33/Gustave%27s%20Journal.full.jpg) |   |   |
-| <center>After introducing himself, Verso sees Maelle alone, still grieving over Gustave's death and hands her his journal.</center> |   |   |
+| ![](../custom/pics/cards/E33/Gustave%27s%20Journal.full.jpg) | ![](../custom/pics/cards/E33/Forgotten%20Battlefield.full.jpg) | ![](../custom/pics/cards/E33/Expedition%2057%20Siege%20Engine.full.jpg) |
+| <center>After introducing himself, Verso sees Maelle alone, still grieving over Gustave's death and hands her his journal.</center> | <center>With Esquie's new swimming abilities, the party reach the Forgotten Battlefield.</center> | <center>Traversing the Forgotten Battlefield, the party encounters the wreckage of many siege engines.</center> |
+| ![](../custom/pics/cards/E33/Dualliste%27s%20Lair.full.jpg) | ![](../custom/pics/cards/E33/Dualliste.full.jpg) | ![](../custom/pics/cards/E33/Gustave%27s%20Burial.full.jpg) |
+| <center>After clearing the Forgotten Battlefield, that party approach a bridge. At this point Maelle is overwhelmed by the amount of death she has witnessed. While the rest of the party try to console her, they are ambushed by the Dualliste, collapsing the bridge they're stading on as a result. The party falls down to the pit below, a pit of blood and literal death.</center> | <center>The party defeat the Dualliste and successfully escape the death pit.</center> | <center>After escaping the death pit, the party arrive at a suitable location to bury Gustave's remains. The party members say their last goodbyes before moving on.</center> |
+| ![](../custom/pics/cards/E33/Lune%27s%20Contingency.full.jpg) | ![](../custom/pics/cards/E33/Monoco%27s%20Station.full.jpg) | ![](../custom/pics/cards/E33/Monoco%2C%20Collector%20of%20Feet.full.jpg) |
+| <center>Shortly after at camp, Lune prepares contingency plans in the event the Expedition fails.</center> | <center>The party finally reach Monoco's Station. but Monoco is nowhere to be found. Verso senses an ambush.</center> | <center>From out of nowhere, Monoco pounces but Verso senses him and swiftly parries his incoming strike. Verso remarks that Monoco is "slow as ever". Monoco praises Verso's still-sharp reflexes.</center> |
+| ![](../custom/pics/cards/E33/Stalact.full.jpg) | ![](../custom/pics/cards/E33/Persuasive%20Argument.full.jpg) |   |
+| <center>Monoco challenges the party to defeat the Stalact that just appeared. This battle introduces Gradient Attacks. After the battle Monoco demonstrates his unique gift: The ability to transform into other Nevrons by collecting their feet.</center> | <center>Monoco asked where the party was heading to. Verso replied "Old Lumiere" and Monoco immediately noped out after hearing that. Verso reminds him that there will be a lot of fighting, and with that one statement Monoco joins the party.</center> |   |
 

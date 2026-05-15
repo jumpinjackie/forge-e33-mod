@@ -20,6 +20,12 @@ A:AB$ Mana | Cost$ T | Produced$ Combo U R | IsPresent$ Gestral.YouCtrl,Grandis.
 DeckHints:Type$Gestral|Grandis
 [Tags]
 mana-fixer
+[StorySection]
+4. Act II
+[StoryOrder]
+7
+[StoryBlurb]
+The party finally reach Monoco's Station. but Monoco is nowhere to be found. Verso senses an ambush.
 [DesignNotes]
  - In the game, Monoco's Station is situated in an icy and mountainous region of the continent.
  - Therefore this should clearly be a blue/red dual land.

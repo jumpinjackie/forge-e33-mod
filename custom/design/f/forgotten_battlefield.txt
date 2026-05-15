@@ -23,6 +23,12 @@ DeckHints:Type$Nevron
 —Carla, Expedition 57
 [Rulings]
  - Can target non-creature Nevrons.
+[StorySection]
+4. Act II
+[StoryOrder]
+2
+[StoryBlurb]
+With Esquie's new swimming abilities, the party reach the Forgotten Battlefield.
 [DesignNotes]
  - In the game, the Forgotten Battlefield is one of the areas the Expedition 33 crew must traverse to reach Monoco's Station.
  - Volrath's Stronghold for Nevrons
