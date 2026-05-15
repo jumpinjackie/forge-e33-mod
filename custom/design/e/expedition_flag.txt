@@ -27,6 +27,12 @@ Sandfall Interactive
 lord
 mana-rock
 lumina-generator
+[StorySection]
+4. Act II
+[StoryOrder]
+33
+[StoryBlurb]
+Having slain The Paintress, the party did the symbolic gesture of planting their expedition flag at the summit of the Monolith before returning back to Lumière and back to a hero's welcome.
 [DesignNotes]
  - In the game, Expedition flags are save points scattered throughout the continent laid down by previous Expeditions.
  - Gone with an Expeditioner-focused variant of Patchwork Banner.

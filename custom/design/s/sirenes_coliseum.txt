@@ -28,6 +28,12 @@ DeckHints:Type$Nevron|Painter
 97
 [Tags]
 mana-fixer
+[StorySection]
+4. Act II
+[StoryOrder]
+21
+[StoryBlurb]
+With one Axon down, the party heads to Sirène's Coliseum to slay Sirène, the other Axon.
 [DesignNotes]
  - In the game, this is the home of Sirène, one of the Axons.
  - Modeled on Grand Coliseum with drawbacks removed if you are Nevron/Painter aligned.

@@ -22,6 +22,12 @@ S:Mode$ CantAttackUnless | ValidCard$ Creature | Target$ You | Cost$ Sac<1/Chrom
 A:AB$ Token | Cost$ 3 | Activator$ Player | TokenAmount$ 1 | TokenScript$ c_a_chroma | TokenOwner$ You | SpellDescription$ Create a Chroma tokens.
 [RelatedTokens]
 c_a_chroma
+[StorySection]
+4. Act II
+[StoryOrder]
+28
+[StoryBlurb]
+Armed with the Barrier Breaker, Maelle pierces the barrier.
 [DesignNotes]
  - In the game, the Chroma Barrier protects The Monolith from external intrusion. Only Expedition 70, 60 and 33 have successfully breached this barrier.
  - I've mechanically mapped this to a Ghostly Prison style effect, but the attacking tax is Chroma counters.

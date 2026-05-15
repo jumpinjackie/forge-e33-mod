@@ -23,6 +23,12 @@ c_a_chroma
 Sandfall Interactive
 [Tags]
 creature-removal
+[StorySection]
+4. Act II
+[StoryOrder]
+19
+[StoryBlurb]
+Having slain the first Axon, Lune offers the Axon heart to The Curator. But he insists that Maelle do the offering instead.
 [DesignNotes]
  - In the game, after slaying the first of two Axons, a cutscene plays at camp where its heart is offered by Lune to The Curator, but he insists that Maelle do the offering instead.
  - Gone with an Innocent Blood mutual creature sac effect, but with a Chroma bonus (as a "reward" for the sacrifice)

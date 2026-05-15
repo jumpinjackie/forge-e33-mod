@@ -29,6 +29,12 @@ artifact-removal
 enchantment-removal
 [DraftScore]
 88
+[StorySection]
+4. Act II
+[StoryOrder]
+31
+[StoryBlurb]
+Having defeated Painted Renoir, the party reach the summit of the Monolith. There they finally meet The Paintress face-to-face.
 [FlavorText]
 "Arrogant Man. I taught him to Paint. And he seeks to use my creations against me?"
 [Artist]

@@ -35,7 +35,7 @@ creature-stealer
 [StoryOrder]
 10
 [StoryBlurb]
-Monoco asked where the party was heading to. Verso replied "Old Lumiere" and Monoco immediately noped out after hearing that. Verso reminds him that there will be a lot of fighting, and with that one statement Monoco joins the party.
+Monoco asked where the party was heading to. Verso replied "Old Lumière" and Monoco immediately noped out after hearing that. Verso reminds him that there will be a lot of fighting, and with that one statement Monoco joins the party.
 [DesignNotes]
  - In the game, Verso makes a persuasive argument that convinces Monoco to join the party.
  - The card design is completely based on this conversation, and the easiest thing that comes to mind is a standard red temp creature spell.

@@ -23,6 +23,12 @@ SVar:DBDraw:DB$ Draw | Defined$ You | NumCards$ 1
 Sandfall Interactive
 [Tags]
 combat-trick
+[StorySection]
+4. Act II
+[StoryOrder]
+23
+[StoryBlurb]
+Upon confronting Sirène, she mesmerizes the party with visions and memories of their loved ones. However, Verso had no such memories or attachments and saw straight through her ruse.
 [DesignNotes]
  - In the game, upon confronting Sirène, she mesmerizes the party with visions and memories of their loved ones. However, Verso had no such memories or attachments and saw straight through her ruse.
  - This cards depicts this moment.

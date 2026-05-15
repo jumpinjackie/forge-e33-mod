@@ -21,6 +21,12 @@ DeckHas:Ability$Graveyard
 DeckHints:Ability$Delirium
 [Artist]
 Sandfall Interactive
+[StorySection]
+4. Act II
+[StoryOrder]
+20
+[StoryBlurb]
+After Maelle offers the Axon heart to The Curator, he momentarily flashes into a vision of Renoir.
 [DesignNotes]
  - In the game, after Maelle offers the heart of the first slain Axon to The Curator, he momentarily reveals his true form (Renoir) to Maelle.
  - Gone with a functional reprint of Resentful Revelation but with a different flashback cost.

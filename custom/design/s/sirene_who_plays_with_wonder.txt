@@ -36,6 +36,12 @@ Sandfall Interactive
 The Axons
 [Tags]
 creature-stealer
+[StorySection]
+4. Act II
+[StoryOrder]
+24
+[StoryBlurb]
+Having seen her ruse had no effect on Verso, Sirène broke the illusion and the 2nd Axon battle begins.
 [Rulings]
  - Colorless is not a color, so spending Colorless mana on "The Grand Ballet Begins" ability does not contribute to the amount of Ballet tokens generated.
 [DesignNotes]

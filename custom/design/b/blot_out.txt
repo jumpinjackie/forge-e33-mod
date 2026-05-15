@@ -18,6 +18,12 @@ Sandfall Interactive
 [Tags]
 creature-removal
 planeswalker-removal
+[StorySection]
+4. Act II
+[StoryOrder]
+35
+[StoryBlurb]
+The gommage wave hits Lumière, everybody except for Verso, Monoco and Esquie dissipates into blooms of flower petals.
 [DesignNotes]
  - It turns out the French name for this card is ... Gommage!
  - And in another case of serendipity, the actual ability of exiling the creature/planeswalker with the highest mana value (ergo: age) happens to be also super on-flavor. What a coincidence!
