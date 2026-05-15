@@ -45,7 +45,7 @@ creature-removal
 [StoryOrder]
 21
 [StoryBlurb]
-There, a mysterious figure appears and approaches the shocked Expedition party, surprised an old man who is not gommaged is in front of them.
+There, a mysterious white-haired man appears and approaches the shocked Expedition party, surprised an old man who is not gommaged is in front of them.
 [DesignNotes]
  - In the game, Painted Renoir is the primary antagonist until his boss battle near the end of Act 2.
  - Vanish ability is an edict instead of exile just to balance things out. Not everything can be an exile ability even though it makes the most thematic sense.
