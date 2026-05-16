@@ -26,7 +26,7 @@ board-wipe
 [StoryOrder]
 2
 [StoryBlurb]
-Seeing what Verso has done. Lune could do nothing but stare at Verso for the betrayal he just wrought.
+Seeing what Verso has done, Lune could do nothing but stare at Verso for the betrayal he just wrought.
 [DesignNotes]
  - In the game, upon choosing Verso's ending Lune was powerless to stop the destruction of the canvas. All she could do was give Verso the most mortifying stare for the betrayal he just wrought.
  - Nicknamed reprint of Gaze of Granite. Originally thought about it being a commander reprint, but opted for a main set reprint, just so that we have a sweeper in Golgari colors.

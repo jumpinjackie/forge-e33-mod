@@ -143,7 +143,7 @@
 | | | |
 |---|---|---|
 | ![](../custom/pics/cards/E33/Final%20Comfort.full.jpg) | ![](../custom/pics/cards/E33/Death%20Stare.full.jpg) | ![](../custom/pics/cards/E3C/A%20Life%20to%20Love.full.jpg) |
-| <center>Verso defeats Maelle. As she starts to gommage away, Verso cradles her and offers some words of comfort.</center> | <center>Seeing what Verso has done. Lune could do nothing but stare at Verso for the betrayal he just wrought.</center> | <center>Back in the "Real World", the Dessendre family reunites at Verso's grave and bid their last farewell.</center> |
+| <center>Verso defeats Maelle. As she starts to gommage away, Verso cradles her and offers some words of comfort.</center> | <center>Seeing what Verso has done, Lune could do nothing but stare at Verso for the betrayal he just wrought.</center> | <center>Back in the "Real World", the Dessendre family reunites at Verso's grave and bid their last farewell.</center> |
 
 ## 7b. Epilogue: Maelle's Ending
 
