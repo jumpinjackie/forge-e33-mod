@@ -38,6 +38,6 @@ creature-removal
 [StoryOrder]
 5
 [StoryBlurb]
-As they leave Spring Meadows, Gustave and Lune find another Expeditioner (Leo), but he is immediately impaled by the first major boss of this game.
+As they leave Spring Meadows, Gustave and Lune find another Expeditioner (Leo), but he is immediately impaled by the first major boss of this game, thus beginning the first boss fight.
 [DesignNotes]
  - In the game, Évêque is the first boss, encountered at the end of Spring Meadows.
