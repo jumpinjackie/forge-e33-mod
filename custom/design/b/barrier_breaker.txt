@@ -21,6 +21,12 @@ Blackblade Reforged
 —Lune, to The Curator
 [Artist]
 Sandfall Interactive
+[StorySection]
+4. Act II
+[StoryOrder]
+25
+[StoryBlurb]
+With both Axon hearts acquired and offered. The Curator forges the Barrier Breaker, a weapon that can pierce the barrier protecting the Monolith.
 [DesignNotes]
  - In the game, the Barrier Breaker is forged by The Curator once you've defeated Sirene and Visages. With this weapon, the party was finally able to breach the barrier protecting the Monolith.
  - Gone with nickname reprint of Blackblade Reforged as it has high commander playability, though this is not an explicit commander reprint.

@@ -31,6 +31,12 @@ Sandfall Interactive
 c_a_lumina
 [Tags]
 lumina-generator
+[StorySection]
+4. Act II
+[StoryOrder]
+27
+[StoryBlurb]
+After receiving Painted Alicia's letter, Painted Renoir also appears. He did not come to fight, he came to persuade Verso to reconsider what he and his party are about to do.
 [DesignNotes]
  - In the game, Burden is one of Verso's skills. It transfers all status effects on various members of your party onto Verso himself.
  - Gone with 1:1 reprint of Treacherous Link.

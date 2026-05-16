@@ -148,6 +148,24 @@ This property is to primarily assist the `stats` command in `CardProcess` and be
 
 Extra metadata to indicate if this card is part of a cycle. Does not affect gameplay.
 
+### Story Section (`[StorySection]`)
+
+Defines the section heading this card appears under in `STORY_SPOILER.md` (for example `Prologue`, `Act 1`, etc).
+
+Sorting is lexicographic by this value.
+
+### Story Order (`[StoryOrder]`)
+
+Defines this card's order within its `[StorySection]` in `STORY_SPOILER.md`.
+
+Can be an integer or decimal value (for example `10.5`) to allow inserting cards between existing entries without renumbering everything.
+
+### Story Blurb (`[StoryBlurb]`)
+
+Defines the caption text shown under this card's image in `STORY_SPOILER.md`.
+
+Cards must define all three story metadata fields (`[StorySection]`, `[StoryOrder]`, `[StoryBlurb]`) to be included in the story spoiler output.
+
 ### Enters Tapped (`[EntersTapped]`)
 
 Cockatrice metadata that indicates if this card enters tapped. Only apply for cards that enter tapped unconditionally.
@@ -161,6 +179,16 @@ Cockatrice metadata that indicates related tokens for a given card. This is to g
 One line per token. Must use the forge token script name.
 
 Not used in any other context.
+
+### Token Story Metadata
+
+Token files can optionally include story metadata using key-value lines instead of bracketed properties:
+
+ - `StorySection:<section>`
+ - `StoryOrder:<number>`
+ - `StoryBlurb:<caption>`
+
+Tokens with these fields set are also included in `STORY_SPOILER.md`.
 
 #### General Notes / Tips
 

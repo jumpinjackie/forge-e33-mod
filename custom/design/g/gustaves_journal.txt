@@ -28,7 +28,13 @@ c_a_lumina
 [Tags]
 lumina-generator
 [Rulings]
- - Also triggers for non-creature Nevrons 
+ - Also triggers for non-creature Nevrons
+[StorySection]
+4. Act II
+[StoryOrder]
+1
+[StoryBlurb]
+After introducing himself, Verso sees Maelle alone, still grieving over Gustave's death and hands her his journal.
 [DesignNotes]
  - In the game, whenever at camp Gustave (and later Maelle) writes down their experiences in the expedition thus far. It has been said (and lamented by many gamers) that this should have been represented as an in-game bestiary of all the Nevrons you have encountered.
  - Mechanically, I went with an artifact that charges up with every Nevron kill, that can be cashed in later down the road for extra cards.

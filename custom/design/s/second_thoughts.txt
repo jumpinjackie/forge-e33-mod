@@ -19,6 +19,12 @@ C
 Sandfall Interactive
 [Tags]
 creature-removal
+[StorySection]
+3. Act I
+[StoryOrder]
+2
+[StoryBlurb]
+Gustave eventually finds his fellow Expeditioners ... all dead. Feeling immense despair at his current predicament, he conjures up his pistol and considers the unthinkable, until he hears a familiar voice.
 [DesignNotes]
  - Another case of a quote from the game looking for a suitable reprint to attach itself to.
  - Useful spot removal in limited/draft.

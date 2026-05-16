@@ -44,6 +44,12 @@ enchantment-removal
  - If you have any permanent with Changeling in play, the Amass Nevrons 2 ability will give it two +1/+1 counters instead of making a Nevron Army token, since Changeling means the permanent will already have a sub-type of Army.
 [Bugs]
  - When using the -4 ability on a non-creature permanent, the token copy does not appear to have the Nevron sub-type.
+[StorySection]
+5. Intermission - A Glimpse in the past: Monolith Year 49
+[StoryOrder]
+4
+[StoryBlurb]
+Clea appears from behind Verso's canvas and explains the situation to her sister (ie. An exposition dump that explains everything)
 [DesignNotes]
  - Planeswalker Clea's abilities map to her purported abilities in-game:
     - +2: She is a prolific Nevron creating machine

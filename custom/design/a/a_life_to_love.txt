@@ -22,5 +22,11 @@ Choose one or more —
 • Exile all graveyards.
 [Artist]
 Sandfall Interactive
+[StorySection]
+7a. Epilogue: Verso's Ending
+[StoryOrder]
+3
+[StoryBlurb]
+Back in the "Real World", the Dessendre family reunites at Verso's grave and bid their last farewell.
 [DesignNotes]
  - Staple commander board wipe

@@ -23,6 +23,12 @@ SVar:DBStayTapped:DB$ Effect | ReplacementEffects$ DontUntap | RememberObjects$ 
 SVar:DontUntap:Event$ Untap | ValidCard$ Card.IsRemembered | ValidStepTurnToController$ Player.Activator | Layer$ CantHappen | Description$ EFFECTSOURCE doesn't untap during your next untap step.
 [Tags]
 mana-fixer
+[StorySection]
+2. Prologue
+[StoryOrder]
+20
+[StoryBlurb]
+The Expedition flotilla makes landfall at the Dark Shores. The crew disembark.
 [DesignNotes]
  - In the game this is the place where most of Expedition 33 got massacred and later in the game is a place where high-tier Nevrons are and is a great XP farming location in the late game.
  - Mechanically I went with a dimir dual with extra benefits for Nevrons.

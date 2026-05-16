@@ -93,6 +93,12 @@ public class CardFaceDesign
 
     public string[]? Cycle { get; set; }
 
+    public string? StorySection { get; set; }
+
+    public string? StoryBlurb { get; set; }
+
+    public double? StoryOrder { get; set; }
+
     internal void Apply(string propertyName, IEnumerable<string> buffer)
     {
         switch (propertyName)
@@ -170,6 +176,16 @@ public class CardFaceDesign
                 break;
             case nameof(Cycle):
                 Cycle = buffer.ToArray();
+                break;
+            case nameof(StorySection):
+                StorySection = string.Join(" ", buffer);
+                break;
+            case nameof(StoryBlurb):
+                StoryBlurb = string.Join("\n", buffer);
+                break;
+            case nameof(StoryOrder):
+                if (double.TryParse(string.Join(" ", buffer), NumberStyles.Float, CultureInfo.InvariantCulture, out var storyOrder))
+                    StoryOrder = storyOrder;
                 break;
             case nameof(ExtraNotes):
             case "Rulings":
@@ -583,6 +599,12 @@ public class TokenDefinition
 
     public string[]? Colors { get; set; }
 
+    public string? StorySection { get; set; }
+
+    public string? StoryBlurb { get; set; }
+
+    public double? StoryOrder { get; set; }
+
     public string? TypeLine => Types is not null ? string.Join(" ", Types) : null;
 
     public string? OracleTextFull => Oracle is not null ? string.Join("\n", Oracle) : null;
@@ -646,6 +668,19 @@ public class TokenDefinition
             else if (line.StartsWith("Colors:"))
             {
                 token.Colors = line.Substring(7).Split(' ', StringSplitOptions.RemoveEmptyEntries);
+            }
+            else if (line.StartsWith("StorySection:"))
+            {
+                token.StorySection = line.Substring("StorySection:".Length).Trim();
+            }
+            else if (line.StartsWith("StoryBlurb:"))
+            {
+                token.StoryBlurb = line.Substring("StoryBlurb:".Length).Trim();
+            }
+            else if (line.StartsWith("StoryOrder:"))
+            {
+                if (double.TryParse(line.Substring("StoryOrder:".Length).Trim(), NumberStyles.Float, CultureInfo.InvariantCulture, out var storyOrder))
+                    token.StoryOrder = storyOrder;
             }
             else if (!string.IsNullOrWhiteSpace(line))
             {
@@ -787,6 +822,33 @@ public class CardMasterDesign
         CardFaceType.DoubleFaced => FrontFull?.DraftScore ?? BackFull?.DraftScore,
         CardFaceType.Meld => FrontFull?.DraftScore ?? MeldTarget?.DraftScore,
         _ => FrontFull?.DraftScore
+    };
+
+    public string? StorySection => FaceType switch
+    {
+        CardFaceType.SplitRoom => SplitLeft?.StorySection ?? SplitRight?.StorySection,
+        CardFaceType.SplitFuse => SplitLeft?.StorySection ?? SplitRight?.StorySection,
+        CardFaceType.DoubleFaced => FrontFull?.StorySection ?? BackFull?.StorySection,
+        CardFaceType.Meld => FrontFull?.StorySection ?? MeldTarget?.StorySection,
+        _ => FrontFull?.StorySection
+    };
+
+    public string? StoryBlurb => FaceType switch
+    {
+        CardFaceType.SplitRoom => SplitLeft?.StoryBlurb ?? SplitRight?.StoryBlurb,
+        CardFaceType.SplitFuse => SplitLeft?.StoryBlurb ?? SplitRight?.StoryBlurb,
+        CardFaceType.DoubleFaced => FrontFull?.StoryBlurb ?? BackFull?.StoryBlurb,
+        CardFaceType.Meld => FrontFull?.StoryBlurb ?? MeldTarget?.StoryBlurb,
+        _ => FrontFull?.StoryBlurb
+    };
+
+    public double? StoryOrder => FaceType switch
+    {
+        CardFaceType.SplitRoom => SplitLeft?.StoryOrder ?? SplitRight?.StoryOrder,
+        CardFaceType.SplitFuse => SplitLeft?.StoryOrder ?? SplitRight?.StoryOrder,
+        CardFaceType.DoubleFaced => FrontFull?.StoryOrder ?? BackFull?.StoryOrder,
+        CardFaceType.Meld => FrontFull?.StoryOrder ?? MeldTarget?.StoryOrder,
+        _ => FrontFull?.StoryOrder
     };
 
     public string? OracleTextFull
@@ -1301,6 +1363,9 @@ public class CardMasterDesign
                 case "[DraftScore]":
                 case "[Tags]":
                 case "[Cycle]":
+                case "[StorySection]":
+                case "[StoryBlurb]":
+                case "[StoryOrder]":
                     // Apply the collected buffer for the previous property name
                     if (activePropertyName != null)
                     {
@@ -2131,6 +2196,9 @@ public class GenAllCommand : BaseCommand
 
         // Generate SPOILER.md containing a 3-column table of card and token images
         await GenerateSpoilerAsync(cards, tokens, BaseDirectory, OutputDir, stdout, stderr);
+
+        // Generate STORY_SPOILER.md containing cards/tokens in story order
+        await GenerateStorySpoilerAsync(cards, tokens, BaseDirectory, OutputDir, stdout, stderr);
 
         // Generate MPCFill XML order
         await GenerateMpcFillOrderAsync(cards, tokens, BaseDirectory, stdout, stderr);
@@ -3061,6 +3129,187 @@ public class GenAllCommand : BaseCommand
         catch (Exception ex)
         {
             await stderr.WriteLineAsync($"Failed to write SPOILER.md: {ex.Message}");
+        }
+    }
+
+    private async Task GenerateStorySpoilerAsync(SortedDictionary<string, CardMasterDesign> cards, SortedDictionary<string, TokenDefinition> tokens, DirectoryInfo baseDirectory, DirectoryInfo outputDir, TextWriter stdout, TextWriter stderr)
+    {
+        try
+        {
+            await stdout.WriteLineAsync("Generating story spoiler...");
+            var picsBase = Path.Combine(baseDirectory.FullName, "pics");
+            var baseCardsPicsDir = Path.Combine(picsBase, "cards", "E33");
+            var cmdrCardsPicsDir = Path.Combine(picsBase, "cards", "E3C");
+            var tokensPicsDir = Path.Combine(picsBase, "tokens", "E33");
+
+            var missingImages = new List<string>();
+            var storyEntries = new List<(string section, double order, string name, string blurb, string imagePath)>();
+
+            void TryAddStoryEntry(string? section, double? order, string? blurb, string displayName, string imageFileName, string picsDir)
+            {
+                if (section is null || blurb is null || !order.HasValue)
+                    return;
+
+                var imgPath = Path.Combine(picsDir, imageFileName);
+                if (File.Exists(imgPath))
+                    storyEntries.Add((section, order.Value, displayName, blurb, imgPath));
+                else
+                    missingImages.Add(displayName);
+            }
+
+            foreach (var card in cards.Values)
+            {
+                var picsDir = card.IsCommander ? cmdrCardsPicsDir : baseCardsPicsDir;
+
+                if (card.FaceType is CardFaceType.DoubleFaced)
+                {
+                    TryAddStoryEntry(
+                        card.FrontFull?.StorySection,
+                        card.FrontFull?.StoryOrder,
+                        card.FrontFull?.StoryBlurb,
+                        card.FrontFull?.Name ?? card.Name,
+                        (card.FrontFull?.InvariantName ?? card.FrontFull?.Name ?? card.Name) + ".full.jpg",
+                        picsDir);
+
+                    TryAddStoryEntry(
+                        card.BackFull?.StorySection,
+                        card.BackFull?.StoryOrder,
+                        card.BackFull?.StoryBlurb,
+                        card.BackFull?.Name ?? card.Name,
+                        (card.BackFull?.InvariantName ?? card.BackFull?.Name ?? card.Name) + ".full.jpg",
+                        picsDir);
+                    continue;
+                }
+
+                if (card.FaceType is CardFaceType.Meld)
+                {
+                    TryAddStoryEntry(
+                        card.FrontFull?.StorySection,
+                        card.FrontFull?.StoryOrder,
+                        card.FrontFull?.StoryBlurb,
+                        card.FrontFull?.Name ?? card.Name,
+                        (card.FrontFull?.InvariantName ?? card.FrontFull?.Name ?? card.Name) + ".full.jpg",
+                        picsDir);
+
+                    TryAddStoryEntry(
+                        card.MeldTarget?.StorySection,
+                        card.MeldTarget?.StoryOrder,
+                        card.MeldTarget?.StoryBlurb,
+                        card.MeldTarget?.Name ?? card.Name,
+                        (card.MeldTarget?.InvariantName ?? card.MeldTarget?.Name ?? card.Name) + ".full.jpg",
+                        picsDir);
+                    continue;
+                }
+
+                if (card.StorySection is null || card.StoryBlurb is null || !card.StoryOrder.HasValue)
+                    continue;
+
+                foreach (var imgName in card.GetImageNames())
+                {
+                    var imgPath = Path.Combine(picsDir, imgName);
+                    if (File.Exists(imgPath))
+                        storyEntries.Add((card.StorySection, card.StoryOrder.Value, card.Name, card.StoryBlurb, imgPath));
+                    else
+                        missingImages.Add(card.Name);
+                }
+            }
+
+            foreach (var token in tokens.Values)
+            {
+                if (token.StorySection is null || token.StoryBlurb is null || !token.StoryOrder.HasValue)
+                    continue;
+
+                if (token.Filename is null)
+                    continue;
+
+                var imgPath = Path.Combine(tokensPicsDir, token.Filename + ".jpg");
+                if (File.Exists(imgPath))
+                    storyEntries.Add((token.StorySection, token.StoryOrder.Value, token.Name ?? token.Filename, token.StoryBlurb, imgPath));
+                else
+                    missingImages.Add(token.Name ?? token.Filename);
+            }
+
+            var storySpoilerPath = Path.Combine(outputDir.FullName, "STORY_SPOILER.md");
+            using var writer = new StreamWriter(storySpoilerPath, false, Encoding.UTF8);
+            await writer.WriteLineAsync("# Story Spoiler");
+            await writer.WriteLineAsync();
+            await writer.WriteLineAsync("> The story of Expedition 33 as told through the cards in this set. Inspired by the [Remember the Weatherlight series of articles on MTGSalvation](https://www.mtgsalvation.com/articles/49526-remember-the-weatherlight-part-1-come-sail-away)");
+            await writer.WriteLineAsync();
+
+            if (storyEntries.Count == 0)
+            {
+                await writer.WriteLineAsync("No story metadata entries with matching images were found.");
+            }
+            else
+            {
+                foreach (var sectionGroup in storyEntries
+                    .OrderBy(e => e.section, StringComparer.OrdinalIgnoreCase)
+                    .ThenBy(e => e.order)
+                    .ThenBy(e => e.name, StringComparer.OrdinalIgnoreCase)
+                    .GroupBy(e => e.section))
+                {
+                    await writer.WriteLineAsync($"## {sectionGroup.Key}");
+                    await writer.WriteLineAsync();
+                    WriteStorySpoilerTable(writer, sectionGroup.ToList(), outputDir);
+                    await writer.WriteLineAsync();
+                }
+            }
+
+            if (missingImages.Any())
+            {
+                await stdout.WriteLineAsync("Story spoiler entries missing images:");
+                foreach (var name in missingImages.Distinct(StringComparer.OrdinalIgnoreCase).OrderBy(n => n, StringComparer.OrdinalIgnoreCase))
+                {
+                    await stdout.WriteLineAsync("  " + name);
+                }
+            }
+
+            static void WriteStorySpoilerTable(StreamWriter spoilerWriter, List<(string section, double order, string name, string blurb, string imagePath)> entries, DirectoryInfo outputDir)
+            {
+                const int Columns = 3;
+                spoilerWriter.WriteLine("| | | |");
+                spoilerWriter.WriteLine("|---|---|---|");
+
+                for (int i = 0; i < entries.Count; i += Columns)
+                {
+                    var imageRow = new string[Columns];
+                    var captionRow = new string[Columns];
+
+                    for (int c = 0; c < Columns; c++)
+                    {
+                        var idx = i + c;
+                        if (idx < entries.Count)
+                        {
+                            var entry = entries[idx];
+                            var rel = Path.GetRelativePath(outputDir.FullName, entry.imagePath).Replace("\\", "/");
+                            var encodedRel = string.Join("/", rel.Split('/').Select(seg => Uri.EscapeDataString(seg)));
+                            imageRow[c] = $"![]({encodedRel})";
+                            captionRow[c] = $"<center>{EscapeTableCell(entry.blurb)}</center>";
+                        }
+                        else
+                        {
+                            imageRow[c] = " ";
+                            captionRow[c] = " ";
+                        }
+                    }
+
+                    spoilerWriter.WriteLine($"| {string.Join(" | ", imageRow)} |");
+                    spoilerWriter.WriteLine($"| {string.Join(" | ", captionRow)} |");
+                }
+            }
+
+            static string EscapeTableCell(string text)
+            {
+                return text
+                    .Replace("|", "\\|")
+                    .Replace("\r\n", "<br/>")
+                    .Replace("\n", "<br/>")
+                    .Replace("\r", "<br/>");
+            }
+        }
+        catch (Exception ex)
+        {
+            await stderr.WriteLineAsync($"Failed to write STORY_SPOILER.md: {ex.Message}");
         }
     }
 

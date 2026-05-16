@@ -37,6 +37,12 @@ DeckHints:Name$Clea Dessendre, the Mistress
 97
 [Tags]
 creature-removal
+[StorySection]
+3. Act I
+[StoryOrder]
+22
+[StoryBlurb]
+François, supremely annoyed at his lair being intruded by "hooligans", battles the party. Upon his defeat, he surrenders "Florrie" only for Esquie to discover it is fake and that the real Florrie is at the Stone Wave Cliffs. Esquie joins the party to go get Florrie.
 [Rulings]
  - Affinity for Clea Planeswalkers means it costs {1} less for each Planeswalker you control with a sub-type of "Clea". There is only one Clea Planeswalker in this set (Clea Dessendre, the Mistress), so at most this will only cost {1} less.
 [DesignNotes]

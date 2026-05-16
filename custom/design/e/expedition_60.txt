@@ -22,6 +22,12 @@ SVar:DBChapter1:DB$ PumpAll | ValidCards$ Creature.YouCtrl+!modified | KW$ Vigil
 SVar:DBChapter2:DB$ PumpAll | ValidCards$ Creature.YouCtrl+!modified | KW$ Vigilance & Menace | SpellDescription$ Un-modified creatures you control gain vigilance and menace until end of turn.
 SVar:DBChapter3:DB$ PumpAll | ValidCards$ Creature.YouCtrl+!modified | KW$ Vigilance & Menace & Trample | NumAtt$ +3 | NumDef$ +3 | SpellDescription$ Un-modified creatures you control gain vigilance, menace, trample and +3/+3 until end of turn.
 DeckHas:Ability$Counters
+[StorySection]
+1. Before the Prologue
+[StoryOrder]
+11
+[StoryBlurb]
+The legendary Expedition 60 made it all the way to the Monolith and confronted the Paintress through the sheer power of their mighty muscles. It is there they learned of the true threat which lied beneath the Monolith.
 [DesignNotes]
  - Journal is a story of expeditioners who almost succeeded in their mission through raw human strength and discovered the true enemy is not The Paintress, but someone underneath the Monolith, but this realization came too late as they were claimed by the Gommage before this discovery could be relayed back the citizens of Lumière.
  - Mechanically mapped to giving various offensive buffs to un-modified creatures with an overrun with extras on the final chapter. Only buffs un-modified creatures because these giga-chads don't have use for pithy things like clothing and armor.

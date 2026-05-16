@@ -22,6 +22,12 @@ A:AB$ ChangeZone | Cost$ Sac<2/Chroma.token> | Origin$ Graveyard | Destination$ 
 A:AB$ ChangeZone | Cost$ Sac<3/Chroma.token> | Origin$ Graveyard | Destination$ Battlefield | TgtPrompt$ Choose target Nevron permanent card in your graveyard | ValidTgts$ Permanent.YouCtrl | SpellDescription$ Put target permanent card from your graveyard to the battlefield.
 [Artist]
 Sandfall Interactive
+[StorySection]
+6. Act III
+[StoryOrder]
+7
+[StoryBlurb]
+After Maelle explains everything to the rest of the party, they formulate a plan: Harvest the trapped chroma of all the fallen Expeditioners to assemble a spirit army to engage Renoir's forces back at Lumière.
 [DesignNotes]
  - Intended to be a combo engine, just like Expedition 35 Bridge converts permanents to extra cards. This converts permanents to extra Chroma tokens.
  - 23/01/2026: Added nonland clause to both abilities and added Expeditioner sub-type

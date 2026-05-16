@@ -20,6 +20,12 @@ A:AB$ UnlockDoor | Cost$ 2 T | Mode$ LockOrUnlock | ValidTgts$ Room.YouCtrl | Tg
 DeckHints:Type$Room
 [Tags]
 mana-rock
+[StorySection]
+3. Act I
+[StoryOrder]
+7
+[StoryBlurb]
+Gustave and Lune finally find the "door inside a hut". Upon approaching the door, they are immediately sucked in.
 [DesignNotes]
  - In the game, there are various doors scattered throughout the continent that warps you to various rooms in the Manor, unlocking some previously inaccessible rooms in the process.
  - This clearly mechanically maps to an artifact that can lock/unlock rooms ala. Keys to the House

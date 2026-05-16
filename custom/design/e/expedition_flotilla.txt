@@ -25,6 +25,12 @@ SVar:TrigDraw:DB$ Draw | NumCards$ 1
 DeckHints:Type$Expeditioner
 [Artist]
 Sandfall Interactive
+[StorySection]
+2. Prologue
+[StoryOrder]
+19.5
+[StoryBlurb]
+With final preparations made, Expedition 33 departs Lumière for The Continent.
 [DesignNotes]
  - Depicts the ship Expedition 33 departs from Lumière in. Modeled on Adrestia.
  - 1/1/2026: Drop creature type that was causing it to always be a creature without needing to crew it.

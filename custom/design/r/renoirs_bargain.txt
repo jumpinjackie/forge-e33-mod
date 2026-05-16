@@ -24,6 +24,12 @@ SVar:X:Count$ChosenNumber
 SVar:Y:SVar$W/LimitMin.0
 SVar:W:SVar$Z/Minus.X
 SVar:Z:Count$Valid Permanent.TargetedPlayerCtrl
+[StorySection]
+6. Act III
+[StoryOrder]
+4
+[StoryBlurb]
+Renoir meets his painted son for the first time (as real Renoir). He offers his apologies for the suffering his family dispute has wrought and offers to end it by erasing the canvas.
 [DesignNotes]
  - In the game, at the start of Act 3, the real Renoir reveals his true self and meets his painted son for the first time (as real Renoir). He offers his apologies for the suffering his family dispute has wrought and offers to end it by erasing the canvas.
  - This card was all about the quote in the flavor text. Modeled on Choice of Damnations, which perfectly matches the "Choose your own doom" motif we're trying to go for with this card.

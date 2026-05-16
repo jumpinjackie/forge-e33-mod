@@ -21,6 +21,12 @@ SVar:DrawSlowtrip:DB$ Draw | NumCards$ 1 | Defined$ You
 c_a_lumina
 [Tags]
 lumina-generator
+[StorySection]
+4. Act II
+[StoryOrder]
+13
+[StoryBlurb]
+Lune finds the journal for Expedition 58 and discovers a shocking truth about Verso.
 [DesignNotes]
  - In the game, a quote often said by Lune when loot is discovered.
  - A basic enabler of Lumina token ramping strategies

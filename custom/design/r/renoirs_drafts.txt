@@ -27,6 +27,12 @@ Sandfall Interactive
 reanimation
 [DraftScore]
 80
+[StorySection]
+1. Before the Prologue
+[StoryOrder]
+12
+[StoryBlurb]
+Expedition 60 sent a messenger back to Lumière to relay the news of the true threat, while the rest of the Expedition went to the bottom of the Monolith to face the true enemy.
 [DesignNotes]
  - In the game, Renoir's Drafts is an optional endgame area full of high-tier enemies and is an excellent XP/Loot farming location.
  - Gone with a functional reprint of Tomb Fortress from 40K with Nevron reanimation constraint.

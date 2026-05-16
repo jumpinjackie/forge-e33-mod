@@ -24,6 +24,12 @@ SVar:TrigDraw:DB$ Draw | NumCards$ 1
 DeckNeeds:Name$Soarrie|Florrie|Urrie|Dorrie
 [Artist]
 Sandfall Interactive
+[StorySection]
+3. Act I
+[StoryOrder]
+39
+[StoryBlurb]
+Back at camp. Esquie offers a distraught Maelle a soft embrace.
 [DesignNotes]
  - In the game, Esquie consoles Maelle after the death of Gustave and offers her a comforting embrace.
  - Another aura with rock-boosted bonuses to bolster the Rock Urzatron archetype.

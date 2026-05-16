@@ -19,6 +19,12 @@ Sandfall Interactive
 [FlavorText]
 "This mask can't hurt me. Because it is me."
 —Sciel
+[StorySection]
+4. Act II
+[StoryOrder]
+18
+[StoryBlurb]
+In his dying throes, the Mask Keeper unleashes a flurry of masks. Every party member is suffocated with a mask, except for Sciel, who exclaims why these masks can't hurt her, before landing the killing blow.
 [DesignNotes]
  - Utility equipment for Commander.
  - Chosen solely to be able to use this flavor text.

@@ -28,6 +28,12 @@ SVar:DBClue:DB$ Token | TokenAmount$ 2 | TokenOwner$ You | TokenScript$ c_a_clue
 SVar:DBBuff:DB$ PutCounter | ValidTgts$ Creature | CounterType$ P1P1 | CounterNum$ 2 | TargetMin$ 1 | TargetMax$ 2 | DividedAsYouChoose$ 2 | SpellDescription$ Distribute two +1/+1 counters among one or two target creatures.
 [Tags]
 combat-trick
+[StorySection]
+4. Act II
+[StoryOrder]
+6.5
+[StoryBlurb]
+Shortly after at camp, Lune prepares contingency plans in the event the Expedition fails.
 [DesignNotes]
  - In the game, after losing Gustave at the Stone Wave Cliffs, the remainder of the Party sets up camp. Sensing likely failure of the Expedition, Lune starts setting up contingency plans for the next Expedition.
  - Gone with a super-flexible modal.

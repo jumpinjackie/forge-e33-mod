@@ -22,6 +22,12 @@ A:AB$ Pump | Cost$ 2 T | ValidTgts$ Creature.YouCtrl | TgtPrompt$ Choose target 
 SVar:ArenaFight:DB$ Fight | Defined$ ParentTarget | ValidTgts$ Creature | TargetUnique$ True | TgtPrompt$ Choose another target creature
 [Tags]
 creature-removal
+[StorySection]
+3. Act I
+[StoryOrder]
+14.5
+[StoryBlurb]
+The party meet Limonsol to set up some fights in the Legendary Tournament.
 [DesignNotes]
  - In the game, Limonsol sets up fights in the Gestral Arena
  - Mechanically, I just repeated Gestral Arena and gave him a fight ability

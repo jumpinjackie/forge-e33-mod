@@ -20,5 +20,11 @@ true
 R
 [Artist]
 Sandfall Interactive
+[StorySection]
+4. Act II
+[StoryOrder]
+34
+[StoryBlurb]
+While the rest of the party celebrated the defeat of the Paintress, Verso opened Alicia's letter for Maelle. It is then that Verso realized what they had just done. The Paintress was not the enemy and by slaying her, they just accelerated their own demise. A gommaging nova blasts forth from the Monolith.
 [DesignNotes]
  - Flavorful sweeper for commander on name basis.

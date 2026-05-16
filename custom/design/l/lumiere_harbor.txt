@@ -20,6 +20,12 @@ Sandfall Interactive
 —Sophie
 [Tags]
 nonbasic-hate
+[StorySection]
+2. Prologue
+[StoryOrder]
+11
+[StoryBlurb]
+Gustave and Sophie finally arrive at the Harbor.
 [DesignNotes]
  - In the game, the harbor of Lumière is where the population congregate to witness the yearly Gommage.
  - Easy nicknamed reprint of Rishadan Port. Due to the heavy ratio of non-basic lands in this set, we need anything that can check them.

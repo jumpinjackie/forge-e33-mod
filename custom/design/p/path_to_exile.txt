@@ -17,5 +17,11 @@ true
 U
 [Artist]
 Google Gemini
+[StorySection]
+3. Act I
+[StoryOrder]
+39.5
+[StoryBlurb]
+The mysterious individual who saved Maelle at the Stone Wave Cliffs, meets the remaining party and introduces himself and offering to join. He also reveals the identity of the white-haired man as Renoir. When asked how he has an Expeditioner uniform, the mysterious individual explains he was part of Expedition 00 and is immortal. He explains his motivations for wanting to join.
 [DesignNotes]
  - Obligatory spot removal in Commander

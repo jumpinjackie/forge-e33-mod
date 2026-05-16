@@ -47,6 +47,13 @@ creature-removal
 board-wipe
 [DraftScore]
 80
+[StorySection]
+3. Act I
+[StoryOrder]
+3
+[StoryBlurb]
+"You do that, we both die"
+Lune finds Gustave just in time and snaps him out of his depressive stupor.
 [Rulings]
  - The "Lune can't have 4 stain counters on her" restriction means any triggered ability that would add stain counters will only add stain counters up to that limit. For example.
     - If Lune has 2 stain counters and you cast a 3+ color instant or sorcery. Lune will get 2 additional stain counters.

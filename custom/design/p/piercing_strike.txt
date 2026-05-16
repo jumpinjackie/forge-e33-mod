@@ -28,6 +28,12 @@ A:SP$ Destroy | ValidTgts$ Creature | TgtPrompt$ Select target creature | SpellD
 creature-removal
 [DraftScore]
 80
+[StorySection]
+3. Act I
+[StoryOrder]
+32
+[StoryBlurb]
+Maelle suggests Gustave throw another rock. While Gustave looks for a suitable rock, the sound of the white-haired man's walking stick echoes ominously. Just a Gustave finds a suitable rock, he is mortally wounded by the white-haired man.
 [DesignNotes]
  - This is meant to flavorfully and mechanically represent Painted Renoir's killing blow to Gustave.
  - 13/10/2025: Removed Devoid.

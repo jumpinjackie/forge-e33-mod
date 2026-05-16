@@ -45,6 +45,12 @@ SVar:X:Count$xPaid
 92
 [Tags]
 creature-removal
+[StorySection]
+2. Prologue
+[StoryOrder]
+1.5
+[StoryBlurb]
+We are introduced to Gustave.
 [DesignNotes]
  - Key mechanical gimmick we want to replicate from the game is his overcharge ability, which obviously requires charge build up. We had a choice between energy counters or charge counters. We settled on charge counters as energy counters are a global resource, whereas charge counters would be a resource localized to Gustave himself.
  - Marking shot is just a creature ping that puts a marked counter on it. A creature with a marked counter will be a magnet for more damage.

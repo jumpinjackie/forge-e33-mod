@@ -23,6 +23,12 @@ DeckNeeds:Name$Dorrie|Florrie|Urrie
 DeckHints:Name$Esquie's Charge|Esquie's Embrace|Esquie, Friend of Verso
 [Cycle]
 Esquie's Pet Rocks
+[StorySection]
+4. Act II
+[StoryOrder]
+32
+[StoryBlurb]
+Having defeated her 1st phase, The Paintress transfers to her giant form to continue the battle. Sensing their current position is not safe, Verso "re-discovers" Soarrie, giving Esquie's the power of flight and takes the party airborne.
 [DesignNotes]
  - In the game Soarrie is a quest item which will grant Esquie the ability to fly
  - In this set, Soarrie is 1 of 4 legendary "Rock" artifacts which will grant benefits to other cards if this or other members of the quartet are in play, just like Urza's Tower, Mine and Power Plant become more powerful when all of them are in play, I am trying to go for a similar outcome with this quartet.

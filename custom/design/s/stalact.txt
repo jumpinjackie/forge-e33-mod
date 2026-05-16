@@ -39,6 +39,12 @@ SVar:DBDraw:DB$ Draw | NumCards$ 1 | Defined$ You
 Sandfall Interactive
 [Tags]
 creature-removal
+[StorySection]
+4. Act II
+[StoryOrder]
+9
+[StoryBlurb]
+Monoco challenges the party to defeat the Stalact that just appeared. This battle introduces Gradient Attacks. After the battle Monoco demonstrates his unique gift: The ability to transform into other Nevrons by collecting their feet.
 [Rulings]
  - Multicolor spells will trigger the fire/ice counter addition if red or blue is one of the colors involved.
  - If targeted by a multicolor spell that is both blue and red, both fire and ice counter abilities will trigger and you choose the order to stack them.

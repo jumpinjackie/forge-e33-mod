@@ -26,6 +26,12 @@ creature-removal
 artifact-removal
 enchantment-removal
 planeswalker-removal
+[StorySection]
+1. Before the Prologue
+[StoryOrder]
+8
+[StoryBlurb]
+Expedition 67 specialized in the use of explosives and made it all the way to Sirène's coliseum, but ran out of explosives and fell to Sirène's trance.
 [DesignNotes]
  - Expedition 67 was all about using explosives to blow stuff up.
  - Saga therefore is a simple "timebomb" where the first 2 chapters "plants the bombs" on the permanents you want gone by Chapter 3. The number of targets chosen approximates the min desirable number of permanents you want to take out with a [Powder Keg / Engineered Explosives / Ratched Bomb / Filigree Sylex] at 2 counters.

@@ -35,6 +35,12 @@ flyer
 board-wipe
 [DraftScore]
 90
+[StorySection]
+3. Act I
+[StoryOrder]
+30
+[StoryBlurb]
+At the end of the lit path, they are confronted by the Lampmaster. The Act 1 final boss.
 [DesignNotes]
  - In the game, this is the final boss of Act 1.
  - Ball of Light: In the game The Lampmaster gathers light energy in a sphere and then releases it as a horizontal wave, inflicting Silence upon contact.

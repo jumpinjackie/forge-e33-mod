@@ -20,6 +20,12 @@ Verso: "Because it's private and it's painful. And it's none of your business. I
 Lune: "Lying by omission is still lying."
 [Artist]
 Sandfall Interactive
+[StorySection]
+4. Act II
+[StoryOrder]
+15
+[StoryBlurb]
+Back at camp, after having failed to secure the heart of the Paintress at Old Lumière, Lune has a pointed interrogation with Verso about his relationship with Painted Renoir. Thanks to notes found in the Expedition 58 journal, the party devise a plan B to breach the barrier protecting the Monolith: By slaying two of the Axons and capturing their hearts so that The Curator can forge the Barrier Breaker weapon.
 [DesignNotes]
  - In the game, after failing to secure the heart of The Paintress at Old Lumière the party regroups at camp and Lune starts asking probing questions at Verso about his relationship with Renoir.
  - There was already a card with this name with some decent utility, so this is another flavorful reprint.

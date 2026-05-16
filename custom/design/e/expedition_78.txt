@@ -33,6 +33,12 @@ DeckHints:Keyword$Flying
 [RelatedTokens]
 u_5_5_airship
 c_a_chroma
+[StorySection]
+1. Before the Prologue
+[StoryOrder]
+4
+[StoryBlurb]
+A group of Expeditioners steal a bunch of Airships to take on the Paintress.
 [DesignNotes]
  - Journal is a story of expeditioners stealing a bunch of Airships to escape Lumière.
  - This is a top-end payoff for an all-flyers strategy

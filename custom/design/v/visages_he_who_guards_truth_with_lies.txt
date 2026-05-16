@@ -19,6 +19,12 @@ Remove a Seething, Jovial and Sorrowful counter from ~: Transform ~.
 Sandfall Interactive
 [Cycle]
 The Axons
+[StorySection]
+4. Act II
+[StoryOrder]
+16
+[StoryBlurb]
+The party reaches Visages Island to slay the Axon there. To weaken the Axon, the party finds and defeats the 3 masks.
 [ForgeScript]
 A:AB$ Mana | Cost$ T | Produced$ C | SpellDescription$ Add {C}.
 A:AB$ PutCounter | Cost$ 2 R T | Defined$ Self | CounterType$ SEETHING | CounterNum$ 1 | SpellDescription$ Put a Seething counter on ~.

@@ -27,6 +27,12 @@ SVar:OblivionRing:TRUE
 creature-removal
 artifact-removal
 enchantment-removal
+[StorySection]
+3. Act I
+[StoryOrder]
+35
+[StoryBlurb]
+Gustave loses his mechanical arm with the overcharge attack. Seeing that his attack had no effect on the white-haired man, he is resigned to his fate, while Maelle trapped and powerless, looks on in horror.
 [DesignNotes]
  - Oblivion Ring variant #234898572343
  - This represents the barrier that Painted Renoir traps Maelle in at the Stone Wave Cliffs.

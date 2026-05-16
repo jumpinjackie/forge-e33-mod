@@ -44,6 +44,12 @@ A:AB$ PutCounter | Cost$ SubCounter<1/SADNESS> | CounterType$ STUN | CounterNum$
 Sandfall Interactive
 [DraftScore]
 90
+[StorySection]
+4. Act II
+[StoryOrder]
+17
+[StoryBlurb]
+After defeating Visages, the Mask Keeper reveals himself to be the true Axon.
 [DesignNotes]
  - In the game, The Mask Keeper is the true Axon behind Visages.
  - Main gimmick I am capturing here is the 3 masks that grant him various buffs every turn, represented in card form as counters.

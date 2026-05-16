@@ -19,6 +19,12 @@ Death Pits of Rath
 U
 [Artist]
 Sandfall Interactive
+[StorySection]
+4. Act II
+[StoryOrder]
+4
+[StoryBlurb]
+After clearing the Forgotten Battlefield, that party approach a bridge. At this point Maelle is overwhelmed by the amount of death she has witnessed. While the rest of the party try to console her, they are ambushed by the Dualliste, collapsing the bridge they're stading on as a result. The party falls down to the pit below, a pit of blood and literal death.
 [DesignNotes]
  - In the game, the party falls into a pit of Expeditioner corpses where they encounter a boss fight with Dualliste.
  - Flavorful nickname reprint of Death Pits of Rath. Downshifted to uncommon.

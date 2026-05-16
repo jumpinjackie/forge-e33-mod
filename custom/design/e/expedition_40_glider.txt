@@ -26,6 +26,12 @@ S:Mode$ CantBlockBy | ValidAttacker$ Creature.withoutFlying | ValidBlocker$ Crea
 $EXPEDITIONER_DEATH_ABILITY
 [Tags]
 flyer
+[StorySection]
+1. Before the Prologue
+[StoryOrder]
+17
+[StoryBlurb]
+Expedition 40 tried to enter the Monolith by flying/gliding through the barrier, but got gommaged crossing the barrier.
 [DesignNotes]
  - In the game, the journal of Expedition 40 details the story of trying to enter The Monolith by flying through the barrier. Those who tried got gommaged.
  - This card represents the poor bastards who tried.

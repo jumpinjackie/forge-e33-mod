@@ -27,6 +27,12 @@ A:AB$ Draw | Cost$ 2 Sac<1/CARDNAME> | NumCards$ 1 | SpellDescription$ Draw a ca
 c_a_chroma
 [Artist]
 Sandfall Interactive
+[StorySection]
+2. Prologue
+[StoryOrder]
+8
+[StoryBlurb]
+On the way to the harbor, Gustave and Sophie walk past an innocuous trashcan. Nothing to see here. Move along.
 [DesignNotes]
  - In the game's prologue, this innocuous trashcan housed a citizen who believed that by hiding in this trashcan that he would be safe from erasure. That was not the case.
  - Just a joke artifact with the same expeditioner death ability.

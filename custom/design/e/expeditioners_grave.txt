@@ -23,6 +23,12 @@ DeckHints:Type$Human|Expeditioner
 Sandfall Interactive
 [Tags]
 reanimation
+[StorySection]
+4. Act II
+[StoryOrder]
+17
+[StoryBlurb]
+On the way to face and defeat the Sadness mask, the party encounter a graveyard marked with various mask headstones.
 [DesignNotes]
  - In the game, a graveyard exists in the Sadness Vale of Visages marked with various mask headstones. It is believed the members of Expedition 39 were buried here.
  - Gone with an enchantment that can bank human/expeditioner deaths that can be cashed in later for a mass reanimation.

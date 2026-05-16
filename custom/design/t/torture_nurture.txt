@@ -15,6 +15,12 @@ Maelle ending scene where she has paint streaming down her eyes, signalling that
 Target creature gets -2/-2 until end of turn. It's controller loses 2 life.
 [Tags]
 creature-removal
+[StorySection]
+7b. Epilogue: Maelle's Ending
+[StoryOrder]
+2
+[StoryBlurb]
+As Verso hesitates to begin his performance, we cut to Maelle, who now has paint streaming down her eyes, signalling that the canvas has now taken hold of her. The cycle begins anew.
 [ForgeScript]
 K:Fuse
 AlternateMode:Split

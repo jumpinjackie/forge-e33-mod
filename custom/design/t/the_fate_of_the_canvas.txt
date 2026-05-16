@@ -32,6 +32,13 @@ Sandfall Interactive
 [Tags]
 board-wipe
 reanimation
+[StorySection]
+6. Act III
+[StoryOrder]
+15
+[StoryBlurb]
+"It's time to stop painting"
+Having seen Renoir's visions of Aline and what staying in this canvas has done to her, Verso takes up the mantle of destroying the canvas. Maelle confonts him and this moment represents the point of no return, with two possible endings.
 [DesignNotes]
  - In the game, this is the final point of no return that culminates in one of the two possible endings of the game.
  - Simply mechanically translated to a mass reset or mass resurrection.

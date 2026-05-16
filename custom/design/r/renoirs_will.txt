@@ -22,6 +22,13 @@ SVar:GraveToExile:Event$ Moved | ActiveZones$ Command | Destination$ Graveyard |
 SVar:Exile:DB$ ChangeZone | Hidden$ True | Origin$ All | Destination$ Exile | Defined$ ReplacedCard
 SVar:PlayMain1:ALWAYS
 DeckHints:Type$Nevron|Gradient
+[StorySection]
+6. Act III
+[StoryOrder]
+5
+[StoryBlurb]
+"It's time to go home"
+Renoir summons various Nevrons to do his final bidding. Maelle flees Lumière with the rest of the party.
 [DesignNotes]
  - The card symbolizes the moment that Renoir was finally free from the bottom of the Monolith upon the defeat of The Paintress and Aline was expelled from the canvas and now had free reign to carry out his will: To destroy the canvas.
  - So mechanically, we've gone with a variation of Yawgmoth's Will, but with extra restrictions on the type of cards that can be replayed, allowing us to keep the same mana cost.

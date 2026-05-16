@@ -33,5 +33,11 @@ SVar:Dorrie:Count$Valid Artifact.YouCtrl+namedDorrie/LimitMax.1
 DeckNeeds:Name$Soarrie|Florrie|Urrie|Dorrie
 [Tags]
 mana-fixer
+[StorySection]
+3. Act I
+[StoryOrder]
+20
+[StoryBlurb]
+The party arrive at Esquie's Nest, but Esquie is nowhere to be found.
 [Bugs]
 The WUBRG mana ability is not preventatively disabled if you don't meet the activation condition. The ability however will (correctly) not add WUBRG if you don't meet the activation condition.

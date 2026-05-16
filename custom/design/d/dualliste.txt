@@ -32,6 +32,12 @@ Sandfall Interactive
 89
 [Rulings]
  - If Dualliste successfully deals double strike damage, you will get 2 blood tokens each combat, one for first strike damage, one for regular damage.
+[StorySection]
+4. Act II
+[StoryOrder]
+5
+[StoryBlurb]
+The party defeat the Dualliste and successfully escape the death pit.
 [DesignNotes]
  - In the game, Dualliste is a mid-game boss of Act 2.
  - Since the boss battle is in a death pit with a knee-deep pool of blood, all his abilities revolve around blood tokens.

@@ -21,6 +21,12 @@ Sandfall Interactive
 [Tags]
 combat-trick
 creature-removal
+[StorySection]
+4. Act II
+[StoryOrder]
+14
+[StoryBlurb]
+Shortly after the battle with Painted Renoir, Maelle tries to strike Painted Renoir with no effect, Painted Renoir goes for another killing blow only to be parried by Verso. The world freezes monochrome after this clash of blades, but Maelle herself is not frozen. At the moment the Manor door opens and Painted Alicia (the masked woman) meets Maelle face-to-face. She unmasks herself and grabs Maelle's left hand. At that moment, memories of the Manor fire start flooding into Maelle. Shortly afterwards, the Manor disappears.
 [DesignNotes]
  - In the game, after the first battle with Painted Renoir at Old Lumiere concludes, Painted Renoir and Verso clash their weapons and in that moment, everything turns monochrome and freezes. In that moment Maelle (still able to move) sees and meets Painted Alicia. Painted Alicia unmasks herself and grabs Maelle's hand, at that moment Maelle can hear the screams of a dying man in a fire.
  - Card depicts this moment. Gone with a combat trick that prevents damage to one creature and deals that same amount to another creature (the transfer of pain)

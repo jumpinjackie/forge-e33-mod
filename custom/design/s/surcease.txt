@@ -21,6 +21,12 @@ Sandfall Interactive
 creature-removal
 [DraftScore]
 78
+[StorySection]
+3. Act I
+[StoryOrder]
+36
+[StoryBlurb]
+After killing Gustave, the white-haired man confronts Maelle and banishes her out of this plane of existence.
 [DesignNotes]
  - "I know what he'll say, but this is the first time I've felt any surcease" - Aline's journal.
  - Another excuse to put a perfectly cromulent word into card form.

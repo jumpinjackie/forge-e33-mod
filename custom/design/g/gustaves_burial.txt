@@ -25,6 +25,12 @@ Sandfall Interactive
 c_a_lumina
 [Tags]
 lumina-generator
+[StorySection]
+4. Act II
+[StoryOrder]
+6
+[StoryBlurb]
+After escaping the death pit, the party arrive at a suitable location to bury Gustave's remains. The party members say their last goodbyes before moving on.
 [DesignNotes]
  - In the game, after defeating the Dualliste, the party find a special tree at Verso's recommendation where Maelle buries Gustave's remains.
  - Card depicts this moment.

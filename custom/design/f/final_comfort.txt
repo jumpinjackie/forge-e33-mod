@@ -24,6 +24,12 @@ SVar:DBLumina:DB$ Token | TokenAmount$ 1 | TokenOwner$ You | TokenScript$ c_a_lu
 Sandfall Interactive
 [Tags]
 lumina-generator
+[StorySection]
+7a. Epilogue: Verso's Ending
+[StoryOrder]
+1
+[StoryBlurb]
+Verso defeats Maelle. As she starts to gommage away, Verso cradles her and offers some words of comfort.
 [DesignNotes]
  - In the game, if you chose Verso's ending, he defeats Maelle and cradles her gommaging body offering her comforting words as she is being expelled from the canvas.
  - Card modeled on Convalescence, but expanded life gain to a modal decision.

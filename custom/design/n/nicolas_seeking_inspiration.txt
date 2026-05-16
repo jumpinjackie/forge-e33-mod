@@ -25,6 +25,12 @@ $EXPEDITIONER_DEATH_ABILITY_TEXT
 [ForgeScript]
 A:AB$ Draw | Cost$ T Sac<1/Chroma> | NumCards$ 1 | SpellDescription$ Draw a card.
 $EXPEDITIONER_DEATH_ABILITY
+[StorySection]
+2. Prologue
+[StoryOrder]
+8.25
+[StoryBlurb]
+On the way to the Harbor, Gustave meets Nicolas. He is seeking inspiration for a painting and wants you to dodge some of Sophie's attacks to inspire him.
 [DesignNotes]
  - In the game's prologue, Nicolas (if spoken to) asks you (Gustave) do dodge Sophie's attacks to inspire him with this painting. This is really just a thinly veiled tutorial on dodging attacks.
  - Mapped inspiration to saccing chroma tokens (Chroma being the "paint/lifeforce" of this world) for card draw.

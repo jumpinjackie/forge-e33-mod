@@ -26,6 +26,12 @@ A:AB$ Token | Cost$ T Sac<1/Nevron.YouCtrl/a Nevron you control> | TokenAmount$ 
 c_a_lumina
 [Tags]
 lumina-generator
+[StorySection]
+3. Act I
+[StoryOrder]
+4
+[StoryBlurb]
+After slaying their first Nevron, Gustave whips out his Lumina Converter to see if theory meets practice.
 [DesignNotes]
  - In the game, the Lumina Converter is a device invented by Gustave that gives Expedition 33 the edge over previous expeditions.
  - Utility artifact to support a Lumina token strategy. Inspired by Power Conduit.

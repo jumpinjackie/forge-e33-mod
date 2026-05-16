@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 14/5/2026 12:12:31 pm
+> Last generated: 15/5/2026 9:26:45 am
 
 ## A Rock for François
 
@@ -835,7 +835,7 @@ He spends some time writing in his journal. He writes about how dangerous the Ne
 
 ### Rulings
 
- - Also triggers for non-creature Nevrons 
+ - Also triggers for non-creature Nevrons
 
 ## Icon of Ancestry
 

@@ -23,5 +23,11 @@ enchantment-removal
 planeswalker-removal
 [Artist]
 Sandfall Interactive
+[StorySection]
+6. Act III
+[StoryOrder]
+2
+[StoryBlurb]
+Maelle re-unites with Verso. Verso wonders whom she should be addressed as. She prefers "Maelle".
 [DesignNotes]
  - Flavorful spot removal on name basis alone. Maelle lives a fractured identity of being repainted Alicia. Verso lives a fractured identity of a painted copy of his deceased self.

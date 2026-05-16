@@ -109,6 +109,7 @@ To see what cards are in this set, check out the various design docs which detai
  * [Red](/design/RED.md)
  * [White](/design/WHITE.md)
  * [Visual Spoiler](/design/SPOILER.md)
+    * [Story Spoiler (the story of Expedition 33 as told by the cards in the set)](/design/STORY_SPOILER.md)
 
 # Other design notes
 

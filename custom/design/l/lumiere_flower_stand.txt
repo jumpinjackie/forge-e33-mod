@@ -27,6 +27,12 @@ Sandfall Interactive
 mana-rock
 [DraftScore]
 70
+[StorySection]
+2. Prologue
+[StoryOrder]
+3
+[StoryBlurb]
+As Gustave walks Sophie through to the Harbor, they walk past a flower stand operated by Tiffanie.
 [DesignNotes]
  - In the game, the town of Lumière has several market stands in the town square. Tiffanie operates one of these stands and sells flowers.
  - Just wanted another card to get extra usage out of Flower tokens (besides Goblu)

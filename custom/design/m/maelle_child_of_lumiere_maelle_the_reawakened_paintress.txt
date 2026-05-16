@@ -20,6 +20,12 @@ creature-removal
 artifact-removal
 enchantment-removal
 reanimation
+[StorySection]
+2. Prologue
+[StoryOrder]
+2.5
+[StoryBlurb]
+Gustave is approached by Maelle, who tells him he should catch up with Sophie.
 [PT]
 3/3
 [Oracle]
@@ -76,6 +82,12 @@ DeckHints:Type$Human
 [RelatedTokens]
 c_a_chroma
 w_1_1_human_expeditioner
+[StorySection]
+6. Act III
+[StoryOrder]
+1
+[StoryBlurb]
+Maelle re-appears in the canvas, this time with memories of Alicia and her painter powers.
 [DesignNotes]
  - In the game, Maelle is Alicia painted over and reborn when she enters the canvas. After the ending of Act 2, Maelle is gommaged and returns with the memories of Alicia coming back and her paintress origins and powers re-discovered.
  - Mechanically, it's no-brainer we have to represent (Act 3) Maelle as a planeswalker and that we use the Meld mechanic to combine Alicia and (pre-Act 3) Maelle into this planeswalker.

@@ -33,6 +33,12 @@ A:AB$ Surveil | Cost$ 2 B T | Amount$ 2 | SpellDescription$ Surveil 2.
 $EXPEDITIONER_DEATH_ABILITY
 [Artist]
 Sandfall Interactive
+[StorySection]
+2. Prologue
+[StoryOrder]
+9
+[StoryBlurb]
+Near the harbor, Gustave bumps into Florian who is babbling on about the end of days.
 [Rulings]
  - Naming the card happens on resolution, so you may scry or surveil in response to the "predict" trigger on the stack.
 [DesignNotes]

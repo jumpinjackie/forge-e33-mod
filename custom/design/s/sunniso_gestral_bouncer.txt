@@ -23,6 +23,12 @@ Sandfall Interactive
 84
 [Tags]
 creature-removal
+[StorySection]
+3. Act I
+[StoryOrder]
+17
+[StoryBlurb]
+After acquiring the password from Golgra, the party heads to Esquie's Nest. There they meet Sunniso at the entrance, who asks for the password.
 [DesignNotes]
  - In the game, Sunniso is guarding the entrance to Esquie's Nest.
  - Given existing precedent (Waterfront Bouncer), this clearly should have a creature bounce ability. However since bouncing is natively a blue ability, and we've determined Gestrals to be artifact creatures, the bounce ability here is costed at a premium to compensate for its out-of-color-flavor-ness.

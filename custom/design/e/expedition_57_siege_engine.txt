@@ -20,5 +20,11 @@ Trample
 K:Trample
 [Artist]
 Sandfall Interactive
+[StorySection]
+4. Act II
+[StoryOrder]
+3
+[StoryBlurb]
+Traversing the Forgotten Battlefield, the party encounters the wreckage of many siege engines.
 [DesignNotes]
  - Vanilla trampling artifact creature. No chroma death bonus because it's not a human.

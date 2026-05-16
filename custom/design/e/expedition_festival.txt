@@ -30,6 +30,12 @@ w_1_1_human_expeditioner
 Sandfall Interactive
 [Tags]
 luminous
+[StorySection]
+2. Prologue
+[StoryOrder]
+15
+[StoryBlurb]
+Gustave arrives at the Expedition Festival to drown out his sorrows with alcohol and prepare for the upcoming expedition.
 [DesignNotes]
  - In the game's prologue, the Expedition Festival happens after the gommage, where the crew of Expedition 33 drink away their sorrows, say goodbye to their loved ones and do final preparations before departing for the Continent.
  - Gone with variable lifegain, like Festival of Trokin with a creature token Luminous bonus.

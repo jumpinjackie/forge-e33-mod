@@ -34,6 +34,12 @@ Sandfall Interactive
 95
 [Tags]
 creature-removal
+[StorySection]
+4. Act II
+[StoryOrder]
+22
+[StoryBlurb]
+On the way to confront Sirène, the party encounters Tisseur (this is an optional boss fight and defeating Tisseur will make the Sirène boss fight easier)
 [DesignNotes]
  - In the game, Tisseur is an optional boss in Sirène's Coliseum. Defeating it will make the upcoming boss fight against Sirène much easier.
  - Made it an artifact creature as it clearly has artificial instead of organic nature. It looks like a thread spindle with a head and arms attached to it. Nothing organic about that!
