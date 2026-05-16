@@ -138,3 +138,17 @@
 | ![](../custom/pics/cards/E33/Final%20Showdown.full.jpg) | ![](../custom/pics/cards/E33/Aline%27s%20Return.full.jpg) | ![](../custom/pics/cards/E33/The%20Fate%20of%20the%20Canvas.full.jpg) |
 | <center>With all attempts to negotiate failing, the final boss fight begins.</center> | <center>With the party losing will to fight after Renoir keeps regenerating, Aline suddenly returns to the canvas and swings the tide of battle back in their favor. (In reality, your party is probably OP and over-levelled at this point if you did not go straight to Lumière after Act 3 commences, so this is merely a plot convenience)</center> | <center>"It's time to stop painting"<br/>Having seen Renoir's visions of Aline and what staying in this canvas has done to her, Verso takes up the mantle of destroying the canvas. Maelle confonts him and this moment represents the point of no return, with two possible endings.</center> |
 
+## 7a. Epilogue: Verso's Ending
+
+| | | |
+|---|---|---|
+| ![](../custom/pics/cards/E33/Final%20Comfort.full.jpg) | ![](../custom/pics/cards/E33/Death%20Stare.full.jpg) | ![](../custom/pics/cards/E3C/A%20Life%20to%20Love.full.jpg) |
+| <center>Verso defeats Maelle. As she starts to gommage away, Verso cradles her and offers some words of comfort.</center> | <center>Seeing what Verso has done. Lune could do nothing but stare at Verso for the betrayal he just wrought.</center> | <center>Back in the "Real World", the Dessendre family reunites and Verso's grave and bid their last farewell.</center> |
+
+## 7b. Epilogue: Maelle's Ending
+
+| | | |
+|---|---|---|
+| ![](../custom/pics/cards/E33/Lumiere%20Opera%20House.full.jpg) | ![](../custom/pics/cards/E33/TortureNurture.full.jpg) |   |
+| <center>Maelle resurrects everybody. The citizens of Lumière congregate at the opera house to watch Verso's piano performance.</center> | <center>As Verso hesitates to begin his performance, we cut to Maelle, who now has paint streaming down here eyes, signalling that the canvas has now taken hold of her. The cycle begins anew.</center> |   |
+

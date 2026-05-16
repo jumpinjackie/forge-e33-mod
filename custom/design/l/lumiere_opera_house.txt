@@ -23,6 +23,12 @@ SVar:TrigPutCounter:DB$ PutCounter | Defined$ Self | CounterType$ VERSE | Counte
 A:AB$ Mana | Cost$ T | Produced$ C | SpellDescription$ Add {C}.
 A:AB$ PumpAll | Cost$ T SubCounter<2/VERSE> | ValidCards$ Creature.Expeditioner+YouCtrl | NumAtt$ +1 | NumDef$ +1 | SpellDescription$ Expeditioner creatures you control get +1/+1 until end of turn.
 DeckHints:Type$Expeditioner
+[StorySection]
+7b. Epilogue: Maelle's Ending
+[StoryOrder]
+1
+[StoryBlurb]
+Maelle resurrects everybody. The citizens of Lumière congregate at the opera house to watch Verso's piano performance.
 [DesignNotes]
  - In the game, in Maelle's ending. Verso plays piano at the Lumière Opera House (forever and ever?)
  - Mechanically speaking, music generally translates to creature buffs (see almost any "Anthem" card printed), so I went with a land that grows verse counters that can be spent to momentarily buff your force.
