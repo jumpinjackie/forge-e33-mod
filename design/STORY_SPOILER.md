@@ -150,5 +150,5 @@
 | | | |
 |---|---|---|
 | ![](../custom/pics/cards/E33/Lumiere%20Opera%20House.full.jpg) | ![](../custom/pics/cards/E33/TortureNurture.full.jpg) |   |
-| <center>Maelle resurrects everybody. The citizens of Lumière congregate at the opera house to watch Verso's piano performance.</center> | <center>As Verso hesitates to begin his performance, we cut to Maelle, who now has paint streaming down here eyes, signalling that the canvas has now taken hold of her. The cycle begins anew.</center> |   |
+| <center>Maelle defeats Verso and resurrects everybody. The citizens of Lumière congregate at the opera house to watch Verso's piano performance.</center> | <center>As Verso hesitates to begin his performance, we cut to Maelle, who now has paint streaming down here eyes, signalling that the canvas has now taken hold of her. The cycle begins anew.</center> |   |
 

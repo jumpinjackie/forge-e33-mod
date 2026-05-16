@@ -28,7 +28,7 @@ DeckHints:Type$Expeditioner
 [StoryOrder]
 1
 [StoryBlurb]
-Maelle resurrects everybody. The citizens of Lumière congregate at the opera house to watch Verso's piano performance.
+Maelle defeats Verso and resurrects everybody. The citizens of Lumière congregate at the opera house to watch Verso's piano performance.
 [DesignNotes]
  - In the game, in Maelle's ending. Verso plays piano at the Lumière Opera House (forever and ever?)
  - Mechanically speaking, music generally translates to creature buffs (see almost any "Anthem" card printed), so I went with a land that grows verse counters that can be spent to momentarily buff your force.
