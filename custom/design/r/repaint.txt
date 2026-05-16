@@ -17,6 +17,12 @@ Return target card you own from exile to your hand.
 —Verso
 [ForgeScript]
 A:SP$ ChangeZone | Cost$ 1 W Sac<3/Chroma.token/chroma token(s)> | Origin$ Exile | Destination$ Hand | TgtPrompt$ Select target card in exile | ValidTgts$ Card.YouCtrl | SpellDescription$ Return target card from exile to your hand.
+[StorySection]
+6. Act III
+[StoryOrder]
+6
+[StoryBlurb]
+With Verso's guidance, Maelle resurrects Lune and Sciel.
 [DesignNotes]
  - This is meant to represent (paintress) Maelle's new-found ability to resurrect the citizens of Lumière provided she has some of their Chroma, as demonstrated by being able to bring back Lune and Sciel after their gommage.
  - Mechanically this means we can also bring back cards from exile.

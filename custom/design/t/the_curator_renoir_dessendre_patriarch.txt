@@ -80,6 +80,12 @@ A:AB$ ChangeZoneAll | Cost$ SubCounter<10/LOYALTY> | Planeswalker$ True | Ultima
 board-wipe
 [Rulings]
  - In commander, if this creature is your commander. You may opt to transform The Curator on death instead of sending it back to the Command zone.
+[StorySection]
+6. Act III
+[StoryOrder]
+3
+[StoryBlurb]
+With Aline out of the canvas, The Curator reverts to (real) Renoir.
 [DesignNotes]
  - In the game, The Curator is an ally to Expedition 33, until Act 3 where he is revealed to be the real Renoir.
  - Abilities drawn from various abilities he offers at camp.

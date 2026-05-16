@@ -7,7 +7,7 @@
 | | | |
 |---|---|---|
 | ![](../custom/pics/cards/E33/Manor%20Fire.full.jpg) | ![](../custom/pics/cards/E33/The%20Fracture.full.jpg) | ![](../custom/pics/cards/E33/Expedition%2000%20Tracker.full.jpg) |
-| <center>In the "Real World", the Writers set fire to the Dessendre family Manor. Verso Dessendre dies in the fire, sending Aline Dessendre into a spiral of Grief.</center> | <center>Renoir and Aline's conflict resulted in The Fracture, a cataclysmic event that flung the city of Lumière into the ocean coincided with the appearance of The Monolith.</center> | <center>The city of Lumière sent out a search party to look for survivors.</center> |
+| <center>In the "Real World", the Writers set fire to the Dessendre family Manor. Verso Dessendre dies in the fire, sending Aline Dessendre into a spiral of Grief. She retreats to Verso's canvas.</center> | <center>Renoir enters Verso's canvas to get her out. Renoir and Aline's conflict resulted in The Fracture, a cataclysmic event that flung the city of Lumière into the ocean coincided with the appearance of The Monolith.</center> | <center>The city of Lumière sent out a search party to look for survivors.</center> |
 | ![](../custom/pics/cards/E33/Expedition%2078.full.jpg) | ![](../custom/pics/cards/E33/Expedition%2070.full.jpg) | ![](../custom/pics/cards/E33/Expedition%2069.full.jpg) |
 | <center>A group of Expeditioners steal a bunch of Airships to take on the Paintress.</center> | <center>Expedition 70 marked the first expedition that made it to the Monolith interior. However they ran out of time and spent their final days, setting up grapple points in various places for those who come after.</center> | <center>Expedition 69 dedicated their mission towards mapping, surveying and installing grapple points throughout the continent.</center> |
 | ![](../custom/pics/cards/E33/Expedition%2068%20Navigator.full.jpg) | ![](../custom/pics/cards/E33/Expedition%2067.full.jpg) | ![](../custom/pics/cards/E33/Expedition%2064%20Radio.full.jpg) |
@@ -111,4 +111,30 @@
 | <center>Having defeated her 1st phase, The Paintress transfers to her giant form to continue the battle. Sensing their current position is not safe, Verso "re-discovers" Soarrie, giving Esquie's the power of flight and takes the party airborne.</center> | <center>Having slain The Paintress, the party did the symbolic gesture of planting their expedition flag at the summit of the Monolith before returning back to Lumière and back to a hero's welcome.</center> | <center>While the rest of the party celebrated the defeat of the Paintress, Verso opened Alicia's letter for Maelle. It is then that Verso realized what they had just done. The Paintress was not the enemy and by slaying her, they just accelerated their own demise. A gommaging nova blasts forth from the Monolith.</center> |
 | ![](../custom/pics/cards/E33/Blot%20Out.full.jpg) |   |   |
 | <center>The gommage wave hits Lumière, everybody except for Verso, Monoco and Esquie dissipates into blooms of flower petals.</center> |   |   |
+
+## 5. Intermission - A Glimpse in the past: Monolith Year 49
+
+| | | |
+|---|---|---|
+| ![](../custom/pics/cards/E33/Alicia%20Dessendre%2C%20Silenced%20by%20Fire.full.jpg) | ![](../custom/pics/cards/E33/Noco%20%26%20Monoco%20the%20Third.full.jpg) | ![](../custom/pics/cards/E33/The%20World%20Canvas.full.jpg) |
+| <center>Alicia wakes up from her nightmare about the Manor fire. Clea senses she's awake and calls for her presence at Renoir's Atelier.</center> | <center>On her way to Renoir's Atelier, she walks past the family pets.</center> | <center>Alicia enters Renoir's Atelier, and sees her parents (Renoir and Aline) frozen in front of Verso's canvas.</center> |
+| ![](../custom/pics/cards/E33/Clea%20Dessendre%2C%20the%20Mistress.full.jpg) | ![](../custom/pics/cards/E33/Hiding%20the%20Canvas.full.jpg) | ![](../custom/pics/cards/E33/Entering%20the%20Canvas.full.jpg) |
+| <center>Clea appears from behind Verso's canvas and explains the situation to her sister (ie. An exposition dump that explains everything)</center> | <center>Alicia suggests that they hide the canvas to prevent Aline from finding it once she is expelled. Clea concurs and is impressed with her idea.</center> | <center>Alicia enters Verso's canvas to help Renoir expel Aline out of it.</center> |
+| ![](../custom/pics/cards/E33/Chromatic%20Rebirth.full.jpg) |   |   |
+| <center>Alicia is overwhelmed and trapped by Aline's chroma and is "reborn" as Maelle.</center> |   |   |
+
+## 6. Act III
+
+| | | |
+|---|---|---|
+| ![](../custom/pics/cards/E33/Maelle%2C%20The%20Reawakened%20Paintress.full.jpg) | ![](../custom/pics/cards/E33/Fractured%20Identity.full.jpg) | ![](../custom/pics/cards/E33/Renoir%2C%20Dessendre%20Patriarch.full.jpg) |
+| <center>Maelle re-appears in the canvas, this time with memories of Alicia and her painter powers.</center> | <center>Maelle re-unites with Verso. Verso wonders whom she should be addressed as. She prefers "Maelle".</center> | <center>With Aline out of the canvas, The Curator reverts to (real) Renoir.</center> |
+| ![](../custom/pics/cards/E33/Renoir%27s%20Bargain.full.jpg) | ![](../custom/pics/cards/E33/Renoir%27s%20Will.full.jpg) | ![](../custom/pics/cards/E33/Repaint.full.jpg) |
+| <center>Renoir meets his painted son for the first time (as real Renoir). He offers his apologies for the suffering his family dispute has wrought and offers to end it by erasing the canvas.</center> | <center>"It's time to go home"<br/>Renoir summons various Nevrons to do his final bidding.</center> | <center>With Verso's guidance, Maelle resurrects Lune and Sciel.</center> |
+| ![](../custom/pics/cards/E33/Chromatic%20Reclamation.full.jpg) | ![](../custom/pics/cards/E33/Chromatic%20Petrification.full.jpg) | ![](../custom/pics/cards/E33/The%20Greatest%20Expedition%20in%20History.full.jpg) |
+| <center>After Maelle explains everything to the rest of the party, they formulate a plan: Harvest the trapped chroma of all the fallen Expeditioners to assemble a spirit army to engage Renoir's forces back at Lumière.</center> | <center>Maelle extracts chroma from fallen Expeditioners.</center> | <center>With Maelle's army assembled, the party set sights for Lumière.</center> |
+| ![](../custom/pics/cards/E33/Lumiere%20Assault.full.jpg) | ![](../custom/pics/cards/E33/Rally%20the%20Expeditioners.full.jpg) | ![](../custom/pics/cards/E33/Maelle%27s%20Final%20Plea.full.jpg) |
+| <center>The party arrive at Lumière harbor.</center> | <center>"Tomorrow comes"<br/>Maelle gives the signal to commence the assault.</center> | <center>The party confront Renoir at the tower. Maelle pleads with father to spare the canvas, to no avail.</center> |
+| ![](../custom/pics/cards/E33/Final%20Showdown.full.jpg) | ![](../custom/pics/cards/E33/Aline%27s%20Return.full.jpg) | ![](../custom/pics/cards/E33/The%20Fate%20of%20the%20Canvas.full.jpg) |
+| <center>With all attempts to negotiate failing, the final boss fight begins.</center> | <center>With the party losing will to fight after Renoir keeps regenerating, Aline suddenly returns to the canvas and swings the tide of battle back in their favor. (In reality, your party is probably OP and over-levelled at this point if you did not go straight to Lumière after Act 3 commences, so this is merely a plot convenience)</center> | <center>"It's time to stop painting"<br/>Having seen Renoir's visions of Aline and what staying in this canvas has done to her, Verso takes up the mantle of destroying the canvas. Maelle confonts him and this moment represents the point of no return, with two possible endings.</center> |
 

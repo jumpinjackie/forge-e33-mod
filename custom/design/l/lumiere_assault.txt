@@ -31,6 +31,12 @@ w_1_1_human_expeditioner
 Sandfall Interactive
 [Tags]
 luminous
+[StorySection]
+6. Act III
+[StoryOrder]
+10
+[StoryBlurb]
+The party arrive at Lumière harbor.
 [DesignNotes]
  - Primarily designed to support the Crippling Tsunami Prison strategy
  - 7/11/2025: Changed flashback cost from saccing 2 Chroma tokens to 2 Lumina tokens.

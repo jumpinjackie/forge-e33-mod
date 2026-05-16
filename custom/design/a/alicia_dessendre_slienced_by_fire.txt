@@ -22,6 +22,12 @@ S:Mode$ CantBeCast | ValidCard$ Card.nonPainter+nonGradient | Caster$ Player | N
 DeckHints:Name$Maelle, Child of Lumière
 MeldPair:Maelle, Child of Lumière
 AlternateMode:Meld
+[StorySection]
+5. Intermission - A Glimpse in the past: Monolith Year 49
+[StoryOrder]
+1
+[StoryBlurb]
+Alicia wakes up from her nightmare about the Manor fire. Clea senses she's awake and calls for her presence at Renoir's Atelier.
 [DesignNotes]
  - Gone with a targeted (Null Rod / Cursed Totem) effect to mechanically emphasize the "silence"
  - The real gimmick is melding with Maelle, Child of Lumière. Meld is 100% the mechanic to sell the transformation

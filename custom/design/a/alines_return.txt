@@ -26,6 +26,12 @@ SVar:DBCleanup:DB$ Cleanup | ClearRemembered$ True
 Sandfall Interactive
 [Tags]
 creature-removal
+[StorySection]
+6. Act III
+[StoryOrder]
+14
+[StoryBlurb]
+With the party losing will to fight after Renoir keeps regenerating, Aline suddenly returns to the canvas and swings the tide of battle back in their favor. (In reality, your party is probably OP and over-levelled at this point if you did not go straight to Lumière after Act 3 commences, so this is merely a plot convenience)
 [DesignNotes]
  - In the game, during the final boss battle with Renoir, Aline momentarily returns to the Canvas to swing the battle to the party's favor.
  - Mapped to targeted Axon/Nevron kill.

@@ -21,6 +21,12 @@ Sandfall Interactive
 creature-removal
 artifact-removal
 enchantment-removal
+[StorySection]
+5. Intermission - A Glimpse in the past: Monolith Year 49
+[StoryOrder]
+5
+[StoryBlurb]
+Alicia suggests that they hide the canvas to prevent Aline from finding it once she is expelled. Clea concurs and is impressed with her idea.
 [DesignNotes]
  - In the game, Alicia concocts a plan to hide Verso's canvas first before entering and attempting to help expel Aline out of the canvas. Clea approves of her clever idea.
  - Gone with a card similar to Suspend (from MH2) but bumped up the cost to 1U and allow targeting any nonland permanent and suspending them for 3 time counters.

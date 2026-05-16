@@ -32,6 +32,13 @@ w_1_1_human_expeditioner
 [Tags]
 creature-removal
 combat-trick
+[StorySection]
+6. Act III
+[StoryOrder]
+11
+[StoryBlurb]
+"Tomorrow comes"
+Maelle gives the signal to commence the assault.
 [DesignNotes]
  - In the game, this symbolizes the moment where re-awakened Maelle arrives in Lumière with party and resurrected Expeditioners to commence the final assault.
  - Made this a variant of Rally the Monastery with Expeditioner-aligned benefits.

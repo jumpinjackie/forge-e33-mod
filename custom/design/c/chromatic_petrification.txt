@@ -23,6 +23,12 @@ S:Mode$ Continuous | Affected$ Creature.EnchantedBy | AddType$ Artifact | Remove
 creature-removal
 artifact-removal
 enchantment-removal
+[StorySection]
+6. Act III
+[StoryOrder]
+8
+[StoryBlurb]
+Maelle extracts chroma from fallen Expeditioners.
 [DesignNotes]
  - Represents the effect inflicted on a good bunch of previous Expeditioners that turned them into statues with their Chroma trapped within.
  - I originally wanted this to turn into a "do nothing" artifact, but I think the "Enchant creature" restriction means this is a nonbo and the aura immediately "falls off". Will revisit later with "Enchant permanent" to see if this gives my desired result.

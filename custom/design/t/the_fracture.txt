@@ -27,7 +27,7 @@ nonbasic-hate
 [StoryOrder]
 2
 [StoryBlurb]
-Renoir and Aline's conflict resulted in The Fracture, a cataclysmic event that flung the city of Lumière into the ocean coincided with the appearance of The Monolith.
+Renoir enters Verso's canvas to get her out. Renoir and Aline's conflict resulted in The Fracture, a cataclysmic event that flung the city of Lumière into the ocean coincided with the appearance of The Monolith.
 [DesignNotes]
  - In the game, The Fracture is a cataclysmic event which marks the appearance of The Monolith and sets in motion the annual yearly gommage.
  - Mechanically, this event itself is only cataclysmic in terms of the continent landscape, while there may have been human casualties in this event, this event was more about the altered landscape of the continent, thus it is clear that this event should be a non-basic land mass destruction effect like Ruination (non-basic so it doesn't become a strictly better Armageddon and to reward players who play basic lands).
