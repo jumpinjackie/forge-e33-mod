@@ -23,7 +23,7 @@ combat-trick
 [StoryOrder]
 12
 [StoryBlurb]
-The party confront Renoir at the tower. Maelle pleads with father to spare the canvas, to no avail.
+The party confront Renoir at the tower. Maelle pleads with her father to spare the canvas, to no avail.
 [DesignNotes]
  - In the game, before the final boss battle with Renoir, Maelle pleads with him to spare the canvas as it is no longer necessary since Aline has been expelled from the Canvas. Her plea falls on deaf ears.
  - Plea is synonymous with Appeal and existing cards with the word "Appeal" in this context are creature pump. So this is a creature pump with extras to justify the Naya color cost.

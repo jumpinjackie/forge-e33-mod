@@ -27,7 +27,7 @@ c_a_chroma
 [StoryOrder]
 28
 [StoryBlurb]
-Armed with the Barrier Breaker, Maelle pierces the barrier.
+Armed with the Barrier Breaker, Maelle pierces the barrier protecting the Monolith from external intrusion.
 [DesignNotes]
  - In the game, the Chroma Barrier protects The Monolith from external intrusion. Only Expedition 70, 60 and 33 have successfully breached this barrier.
  - I've mechanically mapped this to a Ghostly Prison style effect, but the attacking tax is Chroma counters.

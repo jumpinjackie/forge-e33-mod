@@ -31,7 +31,7 @@ creature-removal
 [StoryOrder]
 14
 [StoryBlurb]
-With the party losing will to fight after Renoir keeps regenerating, Aline suddenly returns to the canvas and swings the tide of battle back in their favor. (In reality, your party is probably OP and over-levelled at this point if you did not go straight to Lumière after Act 3 commences, so this is merely a plot convenience). Renoir is defeated shortly afterwards.
+With the party losing the will to fight after Renoir keeps regenerating, Aline suddenly returns to the canvas and swings the tide of battle back in their favor. (In reality, your party is probably OP and over-levelled at this point if you did not go straight to Lumière after Act 3 commences, so this is merely a plot convenience). Renoir is defeated shortly afterwards.
 [DesignNotes]
  - In the game, during the final boss battle with Renoir, Aline momentarily returns to the Canvas to swing the battle to the party's favor.
  - Mapped to targeted Axon/Nevron kill.
