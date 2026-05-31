@@ -21,6 +21,12 @@ A:AB$ Draw | Cost$ 2 Sac<1/CARDNAME> | NumCards$ 1 | SpellDescription$ Draw a ca
 DeckHints:Type$Saga
 [Artist]
 Sandfall Interactive
+[StorySection]
+3. Act I
+[StoryOrder]
+4.3
+[StoryBlurb]
+Besides the Unfinished Jar, Gustave discovers the first (of many) Expedition journals. This journal was from Expedition 81.
 [Rulings]
  - Same rulings as Clash of the Eikons, so repeated here for reference:
    - Removing lore counters won't cause a previous chapter ability to trigger. If lore counters are removed from a Saga, the appropriate chapter abilities will trigger again when the Saga receives more lore counters.

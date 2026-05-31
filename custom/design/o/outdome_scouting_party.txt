@@ -28,6 +28,12 @@ SVar:DBFlower:DB$ Token | TokenAmount$ 1 | TokenScript$ c_a_flower | TokenOwner$
 $EXPEDITIONER_DEATH_ABILITY
 [DraftScore]
 80
+[StorySection]
+1. Before the Prologue
+[StoryOrder]
+17.4
+[StoryBlurb]
+Sciel met her husband Pierre after requesting plant samples from his outdome team.
 [DesignNotes]
  - In the game, during one of Verso's camp conversations with Sciel, she was asked about how she met her husband, Pierre. She met him through asking his Outdome team for plant samples.
  - This card depicts one of these Outdome teams.

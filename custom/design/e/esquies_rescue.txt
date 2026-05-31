@@ -27,6 +27,12 @@ c_a_lumina
 [Tags]
 lumina-generator
 creature-removal
+[StorySection]
+1. Before the Prologue
+[StoryOrder]
+17.5
+[StoryBlurb]
+Around Monolith Year 39, shortly after the accidental death of her husband, Pierre, a devastated Sciel attempted suicide by drowning herself in the ocean. Esquie heard her tears, dragged her unconscious body from the water, and placed her safely on the docks of Lumière. When they would meet years later, Esquie refers to her as "my terrible swimmer friend".
 [DesignNotes]
  - In the game, Sciel discovers that Esquie saved her from drowning in the past, thus explaining why he referred to her as "my poor swimmer friend"
  - Modeled as a bounce spell with various bonuses stapled on.

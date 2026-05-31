@@ -24,6 +24,12 @@ SVar:TrigLifelink:DB$ PutCounter | CounterNum$ 1 | CounterType$ Lifelink | Condi
 Sandfall Interactive
 [DraftScore]
 70
+[StorySection]
+3. Act I
+[StoryOrder]
+4.1
+[StoryBlurb]
+Lune and Gustave discover some footholds established by a previous Expedition. They climb up, go through a small opening to discover a Nevron that is not actually hostile (this is the first of many "unfinished" Nevrons you can encounter across the continent. Spare them all (ie. complete their side-quests) and you will get big rewards when you find Blanche.)
 [DesignNotes]
  - In the game, an Unfinished Jar can be found in Spring Meadows. It wants you to find something (resin) to light its lamp. Doing so will reward you with a healing tint shard.
  - Modeled this as a "vanilla" Nevron that "lights up" with extra abilities and beneficial ETB triggers if you spend extra colors of mana (the light) on it. If you can spend all 5 colors of mana on it, you get the full suite of benefits.

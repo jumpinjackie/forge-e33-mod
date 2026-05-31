@@ -42,6 +42,12 @@ c_a_lumina
 creature-removal
 [DraftScore]
 79
+[StorySection]
+3. Act I
+[StoryOrder]
+12.5
+[StoryBlurb]
+After reaching the Ancient Sanctuary and making it through waves of Sakapatates, the party is near the entrance of the Gestral Village. At that moment, the Gestrals unleash their ultimate weapon.
 [DesignNotes]
  - Unlike other Sakapatates, this one *DOES NOT* try to do a last minute suicide move to do some damage before it goes.
  - 21/10/2025: Added Gestral alliance cost reduction.

@@ -25,6 +25,12 @@ SVar:TrigDraw:DB$ Draw | Defined$ You | NumCards$ 1
 R:Event$ Untap | ActiveZones$ Battlefield | ValidCard$ Permanent.EnchantedBy | ValidStepTurnToController$ You | Layer$ CantHappen | Description$ Enchanted permanent doesn't untap during its controller's untap step.
 [Tags]
 nonbasic-hate
+[StorySection]
+3. Act I
+[StoryOrder]
+4.2
+[StoryBlurb]
+Around the Unfinished Jar, Lune and Gustave observe the after-effects of The Fracture, many decades after.
 [DesignNotes]
  - In the game, various building ruins in Spring Meadows (and possibly other areas) have large vines growing out of them and constricting them.
  - Envisioned this as an extra check for nonbasics.
