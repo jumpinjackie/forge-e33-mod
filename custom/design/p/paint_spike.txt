@@ -11,7 +11,7 @@ U
 [PT]
 0/4
 [Oracle]
-Defender.
+Defender (This creature can't attack.)
 When ~ enters, draw a card.
 When ~ dies, choose one —
 • Create a Chroma token.

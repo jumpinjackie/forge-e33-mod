@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 15/5/2026 9:26:45 am
+> Last generated: 31/5/2026 10:18:28 am
 
 ## A Rock for François
 
@@ -1093,7 +1093,7 @@ Whenever Ono-Puncho is dealt damage, return it to its owner's hand.
 ```
 2
 Artifact Creature - Wall
-Defender.
+Defender (This creature can't attack.)
 When this creature enters, draw a card.
 When this creature dies, choose one —
 • Create a Chroma token.

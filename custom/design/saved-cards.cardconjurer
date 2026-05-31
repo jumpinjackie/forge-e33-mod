@@ -110248,7 +110248,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Defender.\nWhen this creature enters, draw a card.\nWhen this creature dies, choose one —\n• Create a Chroma token.\n• Create a Lumina token.{flavor}“There must be some good loot behind there!”",
+                    "text": "Defender (This creature can’t attack.)\nWhen this creature enters, draw a card.\nWhen this creature dies, choose one —\n• Create a Chroma token.\n• Create a Lumina token.{flavor}“There must be some good loot behind there!”",
                     "x": 0.086,
                     "y": 0.6325515280739161,
                     "width": 0.828,

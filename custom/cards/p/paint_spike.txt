@@ -9,4 +9,4 @@ T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ 
 SVar:TrigChoose:DB$ Charm | Choices$ DBChroma,DBLumina | CharmNum$ 1
 SVar:DBChroma:DB$ Token | TokenAmount$ 1 | TokenOwner$ You | TokenScript$ c_a_chroma | SpellDescription$ Create a Chroma token.
 SVar:DBLumina:DB$ Token | TokenAmount$ 1 | TokenOwner$ You | TokenScript$ c_a_lumina | SpellDescription$ Create a Lumina token.
-Oracle:Defender.\nWhen this creature enters, draw a card.\nWhen this creature dies, choose one —\n• Create a Chroma token.\n• Create a Lumina token.
+Oracle:Defender (This creature can't attack.)\nWhen this creature enters, draw a card.\nWhen this creature dies, choose one —\n• Create a Chroma token.\n• Create a Lumina token.
