@@ -157,7 +157,7 @@ Cards implemented: 452
 [x] Expedition 67 Demolitions Expert
 [x] Expedition 68 Navigator
 [x] Expedition 69
-[x] Expedition 69 Explorer
+[ ] Expedition 69 Explorer
 [x] Expedition 69 Mountaineer
 [x] Expedition 69 Surveyor
 [x] Expedition 70

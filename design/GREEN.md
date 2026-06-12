@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 3/4/2026 8:17:04 am
+> Last generated: 12/6/2026 1:51:45 pm
 
 ## Abbest
 
@@ -258,25 +258,6 @@ III — Search your library for a land card, put it onto the battlefield, then s
  - Journal is thematically the same as Expedition 70: a story of exploring everywhere and installing grapple points for those who come after.
  - The one puts more emphasis on the exploration (ie. Land/mana ramp)
 
-## Expedition 69 Explorer
-
-```
-G
-Creature - Human Expeditioner
-Sacrifice a Chroma token: Search your library for a basic land card, reveal it, put it into your hand, then shuffle.
-Sacrifice two Chroma tokens: You may put a basic land from your hand onto the battlefield tapped.
-When this creature dies, create a Chroma token. (It's an artifact with "{T}, Sacrifice this artifact: Add one mana of any color. Spend this mana only to cast a Nevron, Gestral or Expeditioner spell.")
-
-1/1
-```
-
-[card implementation](../custom/cards/e/expedition_69_explorer.txt)
-
-### Design Notes
-
- - In the game, Expedition 69 were responsible for most of the grappling points installed throughout the continent. Obviously then, members of this expeditions have a strong exploration theme.
- - For this card, gone with a one drop that can ramp out extra land drops if they have surplus chroma tokens.
-
 ## Expedition 69 Mountaineer
 
 ```
@@ -339,6 +320,29 @@ Any adversity can be overcome, if we face it together.
  - Flavorful (based on art) [removal / combat trick] reprint
  - 14/01/2026: Renamed from Band Together to Face Adversity so we can tack on a Lumina token bonus.
  - 26/01/2026: Updated flavor text.
+
+## Fleur, Intrepid Explorer
+
+```
+2G
+Legendary Creature - Human Expeditioner
+You may play an additional land on each of your turns.
+{1}{G}, {T}: Choose target land card in your graveyard. You may play it this turn.
+{1}{G}, Sacrifice a land: Draw a card.
+When Fleur dies, create a Chroma token.
+---
+"Step by step, handhold by handhold, each Expedition carries the next one forward."
+
+2/3
+```
+
+[card implementation](../custom/cards/f/fleur_intrepid_explorer.txt)
+
+### Design Notes
+
+ - Fleur is a member of Expedition 69. The expedition was responsible for most of the grappling points installed throughout the continent.
+ - This was a last-minute addition to Green to boost that color's power level. An obvious "build around me" value engine.
+ - Replaces Expedition 69 Explorer from earlier iterations of this set.
 
 ## Franctale
 

@@ -1,7 +1,7 @@
 [Main]
 4 Earth Rising|E33
 4 Expedition 69|E33
-4 Leave this Canvas!|E33
+4 Get Out Of This Canvas!|E33
 4 Manor Greenhouse // Manor Gallery|E33
 4 Manor Kitchen // Manor Cellar|E33
 4 Manor Library // Manor Fireplace|E33

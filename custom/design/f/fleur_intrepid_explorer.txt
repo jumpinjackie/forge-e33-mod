@@ -1,0 +1,35 @@
+[Name]
+Fleur, Intrepid Explorer
+[InvariantName]
+Fleur, Intrepid Explorer
+[ManaCost]
+2
+G
+[Types]
+Legendary
+Creature
+Human
+Expeditioner
+[Rarity]
+R
+[PT]
+2/3
+[Oracle]
+You may play an additional land on each of your turns.
+{1}{G}, {T}: Choose target land card in your graveyard. You may play it this turn.
+{1}{G}, Sacrifice a land: Draw a card.
+$EXPEDITIONER_DEATH_ABILITY_TEXT
+[FlavorText]
+"Step by step, handhold by handhold, each Expedition carries the next one forward."
+[ForgeScript]
+S:Mode$ Continuous | Affected$ You | AdjustLandPlays$ 1 | Description$ You may play an additional land on each of your turns.
+A:AB$ Play | Cost$ 1 G T | TgtZone$ Graveyard | ValidTgts$ Land.YouCtrl | TgtPrompt$ Choose target land card from your graveyard | Optional$ True | SpellDescription$ Choose target land card in your graveyard. You may play it this turn.
+A:AB$ Draw | Cost$ 1 G Sac<1/Land> | SpellDescription$ Draw a card
+$EXPEDITIONER_DEATH_ABILITY
+[Artist]
+Google Gemini
+[Rulings]
+[DesignNotes]
+ - Fleur is a member of Expedition 69. The expedition was responsible for most of the grappling points installed throughout the continent.
+ - This was a last-minute addition to Green to boost that color's power level. An obvious "build around me" value engine.
+ - Replaces Expedition 69 Explorer from earlier iterations of this set.

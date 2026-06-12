@@ -1,0 +1,10 @@
+Name:Fleur, Intrepid Explorer
+ManaCost:2 G
+Types:Legendary Creature Human Expeditioner
+PT:2/3
+S:Mode$ Continuous | Affected$ You | AdjustLandPlays$ 1 | Description$ You may play an additional land on each of your turns.
+A:AB$ Play | Cost$ 1 G T | TgtZone$ Graveyard | ValidTgts$ Land.YouCtrl | TgtPrompt$ Choose target land card from your graveyard | Optional$ True | SpellDescription$ Choose target land card in your graveyard. You may play it this turn.
+A:AB$ Draw | Cost$ 1 G Sac<1/Land> | SpellDescription$ Draw a card
+T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Card.Self | Execute$ TrigToken | TriggerDescription$ When CARDNAME dies, create a Chroma token
+SVar:TrigToken:DB$ Token | TokenScript$ c_a_chroma | TokenOwner$ You | TokenAmount$ 1
+Oracle:You may play an additional land on each of your turns.\n{1}{G}, {T}: Choose target land card in your graveyard. You may play it this turn.\n{1}{G}, Sacrifice a land: Draw a card.\nWhen Fleur dies, create a Chroma token.

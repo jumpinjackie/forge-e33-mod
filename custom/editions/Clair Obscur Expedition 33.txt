@@ -119,26 +119,26 @@ Type=Custom
 136 U Expedition 67 Demolitions Expert @Sandfall Interactive
 137 C Expedition 68 Navigator @Google Gemini
 138 U Expedition 69 @Sandfall Interactive
-139 C Expedition 69 Explorer @Google Gemini
-140 C Expedition 69 Mountaineer @Google Gemini
-141 C Expedition 69 Surveyor @Google Gemini
-142 R Expedition 70 @Sandfall Interactive
-143 R Expedition 78 @Sandfall Interactive
-144 U Expedition 78 Airship @Sandfall Interactive
-145 U Expedition 81 Interpreter @Google Gemini
-146 R Expedition Camp @Sandfall Interactive
-147 R Expedition Festival @Sandfall Interactive
-148 U Expedition Flag @Sandfall Interactive
-149 U Expedition Flotilla @Sandfall Interactive
-150 U Expedition Journal @Sandfall Interactive
-151 U Expedition Recruiter @Sandfall Interactive
-152 C Expeditioner Uniform @Sandfall Interactive
-153 R Expeditioner's Grave @Sandfall Interactive
-155 C Face Adversity @Sandfall Interactive
-157 C Familial Bonding @Sandfall Interactive
-160 U Final Comfort @Sandfall Interactive
-161 U Final Showdown @Sandfall Interactive
-162 C Finesse // Grace @Sandfall Interactive
+139 C Expedition 69 Mountaineer @Google Gemini
+140 C Expedition 69 Surveyor @Google Gemini
+141 R Expedition 70 @Sandfall Interactive
+142 R Expedition 78 @Sandfall Interactive
+143 U Expedition 78 Airship @Sandfall Interactive
+144 U Expedition 81 Interpreter @Google Gemini
+145 R Expedition Camp @Sandfall Interactive
+146 R Expedition Festival @Sandfall Interactive
+147 U Expedition Flag @Sandfall Interactive
+148 U Expedition Flotilla @Sandfall Interactive
+149 U Expedition Journal @Sandfall Interactive
+150 U Expedition Recruiter @Sandfall Interactive
+151 C Expeditioner Uniform @Sandfall Interactive
+152 R Expeditioner's Grave @Sandfall Interactive
+154 C Face Adversity @Sandfall Interactive
+156 C Familial Bonding @Sandfall Interactive
+159 U Final Comfort @Sandfall Interactive
+160 U Final Showdown @Sandfall Interactive
+161 C Finesse // Grace @Sandfall Interactive
+163 R Fleur, Intrepid Explorer @Google Gemini
 165 R Florian, Lumière Doomsayer @Sandfall Interactive
 166 U Florrie @Sandfall Interactive
 167 R Flying Casino @Sandfall Interactive
@@ -387,8 +387,8 @@ Type=Custom
 81 C Deceptive Landscape @Erikas Perl
 82 C Demand Answers @Sandfall Interactive
 91 U Death Pits of Rath @Sandfall Interactive ${"flavorName": "Dualliste's Lair"}
-156 R Yavimaya, Cradle of Growth @Sandfall Interactive ${"flavorName": "Falling Leaves"}
-159 U Field of Ruin @Chris Ostrowski
+155 R Yavimaya, Cradle of Growth @Sandfall Interactive ${"flavorName": "Falling Leaves"}
+158 U Field of Ruin @Chris Ostrowski
 164 U Ominous Cemetery @Sandfall Interactive ${"flavorName": "Floating Cemetery"}
 169 C Foreboding Landscape @Erikas Perl
 173 R Fractured Identity @Sandfall Interactive

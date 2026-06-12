@@ -16,9 +16,9 @@ Type=Custom
 67 C Command Tower @Alayna Danner
 70 R Karplusan Forest @Sandfall Interactive ${"flavorName": "Crimson Forest"}
 87 C Distant Melody @Warren Mahy
-154 R Fabled Passage @Bruce Brenneise
-158 U Fellwar Stone @John Avon
-163 C Firdoch Core @Jason A. Engle
+153 R Fabled Passage @Bruce Brenneise
+157 U Fellwar Stone @John Avon
+162 C Firdoch Core @Jason A. Engle
 176 R Shivan Reef @Sandfall Interactive ${"flavorName": "Frozen Hearts"}
 179 U Gathering Stone @Paolo Parente
 227 R Harmonized Crescendo @Tyler Walpole
