@@ -4,10 +4,9 @@ Types:Creature Human Expeditioner Cleric
 PT:2/2
 T:Mode$ TokenCreated | ValidPlayer$ You | ValidToken$ Chroma | Execute$ TrigGainLife | TriggerZones$ Battlefield | TriggerDescription$ Whenever you create a Chroma token, you gain 2 life.
 SVar:TrigGainLife:DB$ GainLife | Defined$ You | LifeAmount$ 2
-A:AB$ PreventDamage | Cost$ 2 T | ValidTgts$ Any | Amount$ X | SpellDescription$ Prevent the next X damage that would be dealt to any target this turn, where X is the number of Chroma and Lumina tokens you control.
+A:AB$ PreventDamage | Cost$ W T | ValidTgts$ Any | Amount$ X | SpellDescription$ Prevent the next X damage that would be dealt to any target this turn, where X is the number of Chroma tokens you control plus 1.
 SVar:ChrTotal:Count$Valid Chroma.YouCtrl
-SVar:LumTotal:Count$Valid Lumina.YouCtrl
-SVar:X:SVar$ChrTotal/Plus.LumCtrl
+SVar:X:SVar$ChrTotal/Plus.1
 T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Card.Self | Execute$ TrigToken | TriggerDescription$ When CARDNAME dies, create a Chroma token
 SVar:TrigToken:DB$ Token | TokenScript$ c_a_chroma | TokenOwner$ You | TokenAmount$ 1
-Oracle:Whenever you create a Chroma token, you gain 2 life.\n{2}, {T}: Prevent the next X damage that would be dealt to any target this turn, where X is the number of Chroma and Lumina tokens you control.\nWhen this creature dies, create a Chroma token.
+Oracle:Whenever you create a Chroma token, you gain 2 life.\n{W}, {T}: Prevent the next X damage that would be dealt to any target this turn, where X is the number of Chroma tokens you control plus 1.\nWhen this creature dies, create a Chroma token.

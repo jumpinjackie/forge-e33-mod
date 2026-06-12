@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 14/5/2026 12:12:31 pm
+> Last generated: 12/6/2026 11:06:31 am
 
 ## A Life to Love (Farewell)
 
@@ -283,7 +283,7 @@ III — Creatures you control gain indestructible until end of turn.
 2W
 Creature - Human Expeditioner Cleric
 Whenever you create a Chroma token, you gain 2 life.
-{2}, {T}: Prevent the next X damage that would be dealt to any target this turn, where X is the number of Chroma and Lumina tokens you control.
+{W}, {T}: Prevent the next X damage that would be dealt to any target this turn, where X is the number of Chroma tokens you control plus 1.
 When this creature dies, create a Chroma token.
 ---
 "For our allies who come after, sadly our lives may have proven that defense is both absolutely necessary and wholly insufficient."
@@ -299,6 +299,7 @@ When this creature dies, create a Chroma token.
  - In the game, Expedition 49 employed strong defensive and healing tactics against Nevrons which proved ineffective as their offensive capabilities were really weak.
  - Easy mechanical map to a creature with life gain and damage prevention abilities.
  - 14/05/2026: Changed lifegain trigger to 2 life and trigger only from Chroma token creation. Lumina was not discovered until Expedition 34 (at least 15 years later), so it makes no sense from a lore perspective that this should trigger lifegain from Lumina tokens.
+ - 12/06/2026: Changed damage prevention to only count Chroma tokens. Lumina was not discovered until Expedition 34 (at least 15 years later), so it makes no sense lore-wise to also count Lumina tokens.
 
 ## Expedition 49 Protector
 
