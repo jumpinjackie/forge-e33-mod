@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 12/6/2026 1:51:45 pm
+> Last generated: 20/6/2026 4:03:00 pm
 
 ## Abbest
 
@@ -324,11 +324,11 @@ Any adversity can be overcome, if we face it together.
 ## Fleur, Intrepid Explorer
 
 ```
-2G
+1G
 Legendary Creature - Human Expeditioner
 You may play an additional land on each of your turns.
 {1}{G}, {T}: Choose target land card in your graveyard. You may play it this turn.
-{1}{G}, Sacrifice a land: Draw a card.
+{2}, Sacrifice a land: Draw a card.
 When Fleur dies, create a Chroma token.
 ---
 "Step by step, handhold by handhold, each Expedition carries the next one forward."
@@ -343,6 +343,7 @@ When Fleur dies, create a Chroma token.
  - Fleur is a member of Expedition 69. The expedition was responsible for most of the grappling points installed throughout the continent.
  - This was a last-minute addition to Green to boost that color's power level. An obvious "build around me" value engine.
  - Replaces Expedition 69 Explorer from earlier iterations of this set.
+ - 21/06/2026: Reduced cost from 2G to 1G and changed the land sac ability from 1G to 2
 
 ## Franctale
 

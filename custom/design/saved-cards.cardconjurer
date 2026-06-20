@@ -60655,7 +60655,7 @@
             "text": {
                 "mana": {
                     "name": "Mana Cost",
-                    "text": "2 G",
+                    "text": "1 G",
                     "y": 0.0613,
                     "width": 0.9292,
                     "height": 0.03380952380952381,
@@ -60692,7 +60692,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "You may play an additional land on each of your turns.\n{1}{G}, {T}: Choose target land card in your graveyard. You may play it this turn.\n{1}{G}, Sacrifice a land: Draw a card.\nWhen Fleur dies, create a Chroma token.{flavor}“Step by step, handhold by handhold, each Expedition carries the next one forward.”",
+                    "text": "You may play an additional land on each of your turns.\n{1}{G}, {T}: Choose target land card in your graveyard. You may play it this turn.\n{2}, Sacrifice a land: Draw a card.\nWhen Fleur dies, create a Chroma token.{flavor}“Step by step, handhold by handhold, each Expedition carries the next one forward.”",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
