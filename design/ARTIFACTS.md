@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 31/5/2026 10:18:28 am
+> Last generated: 20/6/2026 6:20:05 pm
 
 ## A Rock for François
 
@@ -1392,7 +1392,7 @@ Reach (This creature can block creatures with flying.)
 5
 Legendary Artifact - Food
 When The Gingerbread Door enters, each player creates a Food token.
-Creatures with power greater than the number of Foods on the battlefield can’t attack.
+Creatures with power greater than the number of Foods on the battlefield can’t attack or block.
 {2}, {T}, Sacrifice this artifact: You gain 3 life.
 ---
 "A group of five? A yummy looking cake! We have what is needed. NOW LET’S PARTYYYYY-"
@@ -1407,6 +1407,7 @@ Creatures with power greater than the number of Foods on the battlefield can’t
  - It's an obstacle so it's clearly an artifact of the Ensnaring Bridge kind.
  - Instead of counting cards in hand, we count foods on the battlefield (to flavorfully approximate the "you need 3 slices of cake to unlock this door" condition)
  - To give opponents a fighting chance with this in play, a food token is granted on ETB to each player. That way combat is not hard-locked out. 1/2-power creatures can still swing for the fences, but they could be swinging into fatties that can't currently attack, so there's a fine balancing act at play.
+ - 21/06/2026: Extended restrictions to cover blocking as well.
 
 
 ### Rulings
