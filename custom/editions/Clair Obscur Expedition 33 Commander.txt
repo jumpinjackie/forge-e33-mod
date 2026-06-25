@@ -8,21 +8,21 @@ Type=Custom
 1 R Farewell @Sandfall Interactive ${"flavorName": "A Life to Love"}
 15 R Anguished Unmaking @Sandfall Interactive
 17 C Arcane Signet @Constantin Marin
-25 R Bedevil @Fang Xinyu
-46 R Chaos Warp @Trevor Claxton
-49 U Chomping Changeling @Jeff Laubenstein
-55 R Chromatic Lantern @Jung Park
-65 R Cleansing Nova @Sandfall Interactive
-67 C Command Tower @Alayna Danner
-70 R Karplusan Forest @Sandfall Interactive ${"flavorName": "Crimson Forest"}
-87 C Distant Melody @Warren Mahy
-153 R Fabled Passage @Bruce Brenneise
-157 U Fellwar Stone @John Avon
-162 C Firdoch Core @Jason A. Engle
-176 R Shivan Reef @Sandfall Interactive ${"flavorName": "Frozen Hearts"}
-179 U Gathering Stone @Paolo Parente
-227 R Harmonized Crescendo @Tyler Walpole
-232 R Icon of Ancestry @Ivan Dedov
+26 R Bedevil @Fang Xinyu
+47 R Chaos Warp @Trevor Claxton
+50 U Chomping Changeling @Jeff Laubenstein
+56 R Chromatic Lantern @Jung Park
+66 R Cleansing Nova @Sandfall Interactive
+68 C Command Tower @Alayna Danner
+71 R Karplusan Forest @Sandfall Interactive ${"flavorName": "Crimson Forest"}
+88 C Distant Melody @Warren Mahy
+154 R Fabled Passage @Bruce Brenneise
+158 U Fellwar Stone @John Avon
+163 C Firdoch Core @Jason A. Engle
+177 R Shivan Reef @Sandfall Interactive ${"flavorName": "Frozen Hearts"}
+180 U Gathering Stone @Paolo Parente
+228 R Harmonized Crescendo @Tyler Walpole
+233 R Icon of Ancestry @Ivan Dedov
 279 U Mask of Memory @Sandfall Interactive
 284 R Mirror Entity @Thomas Toye
 290 U Mortify @Sandfall Interactive

@@ -1,0 +1,10 @@
+Name:Baguette Weapon
+ManaCost:2
+Types:Artifact Food Equipment
+S:Mode$ Continuous | Affected$ Creature.EquippedBy | AddPower$ 2 | AddToughness$ 2 | AddKeyword$ First Strike | Description$ Equipped creature gets +2/+2 and has first strike.
+A:AB$ GainLife | Cost$ 2 T Sac<1/CARDNAME> | LifeAmount$ 3 | SpellDescription$ You gain 3 life.
+T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Card.AttachedBy | Execute$ TrigResurrect | OptionalDecider$ You | TriggerDescription$ Second chance — When equipped creature dies, you may choose to sacrifice this Equipment. If you do, return this creature to the battlefield tapped and you gain 3 life.
+SVar:TrigResurrect:AB$ ChangeZone | Cost$ Sac<1/CARDNAME> | Origin$ Graveyard | Destination$ Battlefield | Tapped$ True | Defined$ TriggeredNewCardLKICopy | SubAbility$ TrigFoodGain
+SVar:TrigFoodGain:DB$ GainLife | LifeAmount$ 3
+K:Equip:3
+Oracle:Equipped creature gets +2/+2 and has first strike.\n{2}, {T}, Sacrifice this Equipment: You gain 3 life.\nSecond chance — When equipped creature dies, you may choose to sacrifice this Equipment. If you do, return this creature to the battlefield tapped and you gain 3 life.\nEquip {3}

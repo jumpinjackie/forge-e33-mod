@@ -1,0 +1,39 @@
+[Name]
+Baguette Weapon
+[ManaCost]
+2
+[Types]
+Artifact
+Food
+Equipment
+[Rarity]
+U
+[Artist]
+Google Gemini
+[Oracle]
+Equipped creature gets +2/+2 and has first strike.
+{2}, {T}, Sacrifice this Equipment: You gain 3 life.
+Second chance — When equipped creature dies, you may choose to sacrifice this Equipment. If you do, return this creature to the battlefield tapped and you gain 3 life.
+Equip {3}
+[AbilityWords]
+Second chance
+[ForgeScript]
+S:Mode$ Continuous | Affected$ Creature.EquippedBy | AddPower$ 2 | AddToughness$ 2 | AddKeyword$ First Strike | Description$ Equipped creature gets +2/+2 and has first strike.
+A:AB$ GainLife | Cost$ 2 T Sac<1/CARDNAME> | LifeAmount$ 3 | SpellDescription$ You gain 3 life.
+T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Card.AttachedBy | Execute$ TrigResurrect | OptionalDecider$ You | TriggerDescription$ Second chance — When equipped creature dies, you may choose to sacrifice this Equipment. If you do, return this creature to the battlefield tapped and you gain 3 life.
+SVar:TrigResurrect:AB$ ChangeZone | Cost$ Sac<1/CARDNAME> | Origin$ Graveyard | Destination$ Battlefield | Tapped$ True | Defined$ TriggeredNewCardLKICopy | SubAbility$ TrigFoodGain
+SVar:TrigFoodGain:DB$ GainLife | LifeAmount$ 3
+K:Equip:3
+[DraftScore]
+85
+[Rulings]
+ - If you use the standard food sac ability, you lose the ability to give the equipped creature Second Chance. If you trigger Second Chance, there is no priority window to use the standard food sac ability while resolving the Second Chance trigger. All this is to say that there are no possible scenarios where you can double milk the "gain 3 life".
+[DesignNotes]
+ - In the game, the Baguette is an unlockable weapon that is only obtainable in New Game+. You can obtain this weapon in the Prologue from the bread basket in front of Mathilde's Boulangerie, after meeting with Sophie. A Festival Token must be exchanged for it (so you need to keep at least one from a previous playthrough)
+ - Obviously a Food Equipment, so has the automatic lifegain activated ability given to every food sub-type Permanent.
+ - We are trying to flavorfully capture all aspects of the video game into cardboard form, even the goofy/joke aspects, so this is a perfect candidate for inclusion into the set.
+ - Equipment abilities generally map to the bonuses the weapon confers in game:
+    - "Play first" (lvl 20 bonus) mapped to first strike.
+    - "Second chance" (lvl 10 bonus) mapped to a one-shot reanimation + small lifegain on death by saccing this equipment (eating the baguette)
+    - "Auto Death" (lvl 4 bonus) not mapped. So just a straight P/T buff that most equipment grant.
+ - This is a late last-minute addition and replaces Intervening Parry

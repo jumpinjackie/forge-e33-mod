@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 14/5/2026 12:12:31 pm
+> Last generated: 25/6/2026 10:34:15 am
 
 ## Aberration
 
@@ -1488,24 +1488,6 @@ Overcharge — {U/R}, {T}, Remove X charge counters from Gustave: Gustave deals 
  - 13/10/2025: Dropped the marking shot ability due to text box budget constraints having seen this card for the first time in CardConjurer.
  - 14/02/2026: Reorder mana symbols for consistency with actual cards with hybrid/regular pip combinations
  - 14/05/2026: Added {U/R} cost to Overcharge ultimate so blue mana has textbox participation. Also added card draw bonus.
-
-## Intervening Parry
-
-```
-WU
-Instant
-Split second (As long as this spell is on the stack, players can’t cast spells or activate abilities that aren’t mana abilities.)
-Target creature gets +2/+2 until end of turn.
----
-Just as Painted Renoir was about to strike the killing blow to Maelle, his blade clashed with a blade of a mysterious figure who suddenly appeared in front of her.
-```
-
-[card implementation](../custom/cards/i/intervening_parry.txt)
-
-### Design Notes
-
- - In the game, shortly after killing Gustave, Painted Renoir sets his sights on Maelle, as he was ready to land the killing blow, Verso swiftly intervenes and parries his strike.
- - Card depicts this moment. Standard creature pump, but with split second to emphasize the speed of the act.
 
 ## Jar of Candy
 

@@ -29,6 +29,7 @@ Sandfall Interactive
 [StoryOrder]
 39
 [StoryBlurb]
+Having been sent back to The Continent, the surprised white-haired man prepares to land a killing blow to Maelle, only for the blow to be parried by a mysterious individual, who grants the party safe passage to retreat.
 Back at camp. Esquie offers a distraught Maelle a soft embrace.
 [DesignNotes]
  - In the game, Esquie consoles Maelle after the death of Gustave and offers her a comforting embrace.

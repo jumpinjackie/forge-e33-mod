@@ -8484,7 +8484,7 @@
                 },
                 "type": {
                     "name": "Type",
-                    "text": "Artifact — Food Equipment",
+                    "text": "Artifact - Food Equipment",
                     "x": 0.0854,
                     "y": 0.5664,
                     "width": 0.8292,
@@ -8495,7 +8495,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Equipped creature has +2/+2 and first strike.\n{2}, {T}, Sacrifice this Equipment: You gain 3 life.\n{i}Second chance{/i} — When equipped creature dies, you may choose to sacrifice this Equipment and gain 3 life. If you do, return this creature to the battlefield tapped.\nEquip {2}",
+                    "text": "Equipped creature gets +2/+2 and has first strike.\n{2}, {T}, Sacrifice this Equipment: You gain 3 life.\n{i}Second chance{/i} — When equipped creature dies, you may choose to sacrifice this Equipment. If you do, return this creature to the battlefield tapped and you gain 3 life.\nEquip {3}",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
@@ -116095,7 +116095,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Split Second (As long as this spell is on the stack, players can’t cast spells or activate abilities that aren’t mana abilities.)\nThis spell costs {1} less to cast if you control a painter.\nThis spell costs {1} less to cast if it targets an Expeditioner.\nDestroy target creature.{flavor}“Like I always say, it’s not about the rock, it’s more about th-”",
+                    "text": "Split second (As long as this spell is on the stack, players can’t cast spells or activate abilities that aren’t mana abilities.)\nThis spell costs {1} less to cast if you control a painter.\nThis spell costs {1} less to cast if it targets an Expeditioner.\nDestroy target creature.{flavor}“Like I always say, it’s not about the rock, it’s more about th-”",
                     "x": 0.086,
                     "y": 0.6325515280739161,
                     "width": 0.828,

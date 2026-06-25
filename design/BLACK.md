@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 20/3/2026 1:49:24 am
+> Last generated: 25/6/2026 10:19:48 am
 
 ## Axon Offering
 
@@ -470,7 +470,7 @@ Sends waves of Chroma — {B}{B}, {T}, Sacrifice X Chromas: Up to two target cre
 ```
 3B
 Instant - Gradient
-Split Second (As long as this spell is on the stack, players can’t cast spells or activate abilities that aren’t mana abilities.)
+Split second (As long as this spell is on the stack, players can’t cast spells or activate abilities that aren’t mana abilities.)
 This spell costs {1} less to cast if you control a painter.
 This spell costs {1} less to cast if it targets an Expeditioner.
 Destroy target creature.

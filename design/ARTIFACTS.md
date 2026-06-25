@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 20/6/2026 6:20:05 pm
+> Last generated: 25/6/2026 10:39:22 am
 
 ## A Rock for François
 
@@ -102,6 +102,35 @@ Learn Picto 2
  - The station mechanic from Edge of Eternities has given us the ideal template to base this card implementation from as the buffs and abilities granted based on counter type follow the same pattern as buffs and abilities based on the number of charge counters in the station mechanic, only we're more finicky about the specific type of counter.
  - This is a slight deviation from the video game lore as we're effectively smushing 3 (in-game depicted) Pictos into one. But we are doing this for a good reason. Pictos individually are somewhat dull when translated to MTG mechanics. The replication gimmick is unique, but it ultimately still is just provides some basic buff or combat-related ability. This modal design allows us to strategically choose the best buffs/abilities for any given situation, with the replication ability allowing one to cover all bases ability-wise.
  - 11/11/2025: Made energizing counter mode also reward a Lumina token.
+
+## Baguette Weapon
+
+```
+2
+Artifact - Food Equipment
+Equipped creature gets +2/+2 and has first strike.
+{2}, {T}, Sacrifice this Equipment: You gain 3 life.
+Second chance — When equipped creature dies, you may choose to sacrifice this Equipment. If you do, return this creature to the battlefield tapped and you gain 3 life.
+Equip {3}
+```
+
+[card implementation](../custom/cards/b/baguette_weapon.txt)
+
+### Design Notes
+
+ - In the game, the Baguette is an unlockable weapon that is only obtainable in New Game+. You can obtain this weapon in the Prologue from the bread basket in front of Mathilde's Boulangerie, after meeting with Sophie. A Festival Token must be exchanged for it (so you need to keep at least one from a previous playthrough)
+ - Obviously a Food Equipment, so has the automatic lifegain activated ability given to every food sub-type Permanent.
+ - We are trying to flavorfully capture all aspects of the video game into cardboard form, even the goofy/joke aspects, so this is a perfect candidate for inclusion into the set.
+ - Equipment abilities generally map to the bonuses the weapon confers in game:
+    - "Play first" (lvl 20 bonus) mapped to first strike.
+    - "Second chance" (lvl 10 bonus) mapped to a one-shot reanimation + small lifegain on death by saccing this equipment (eating the baguette)
+    - "Auto Death" (lvl 4 bonus) not mapped. So just a straight P/T buff that most equipment grant.
+ - This is a late last-minute addition and replaces Intervening Parry
+
+
+### Rulings
+
+ - If you use the standard food sac ability, you lose the ability to give the equipped creature Second Chance. If you trigger Second Chance, there is no priority window to use the standard food sac ability while resolving the Second Chance trigger. All this is to say that there are no possible scenarios where you can double milk the "gain 3 life".
 
 ## Barrier Breaker (Blackblade Reforged)
 
