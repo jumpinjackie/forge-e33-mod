@@ -2063,17 +2063,20 @@ public abstract class BaseCommand
             throw new InvalidOperationException("Design dir not found");
 
         var cards = new SortedDictionary<string, CardMasterDesign>();
-        foreach (var scriptFile in Directory.EnumerateFiles(designDir.FullName, "*.txt", SearchOption.AllDirectories))
+        foreach (var subDir in designDir.GetDirectories())
         {
-            //if (!scriptFile.EndsWith("when_one_falls_we_continue.txt"))
-            //    continue;
-            if (!silent)
-                await stdout.WriteLineAsync($"Processing: {scriptFile}");
-            var card = await CardMasterDesign.ReadAsync(this.BaseDirectory, scriptFile);
-            if (card.IsValid())
-                cards.Add(card.Name, card);
-            else
-                await stderr.WriteLineAsync($"Card script ({card.Name}) not valid! ({string.Join(", ", card.InvalidReasons)})");
+            foreach (var scriptFile in Directory.EnumerateFiles(subDir.FullName, "*.txt", SearchOption.AllDirectories))
+            {
+                //if (!scriptFile.EndsWith("when_one_falls_we_continue.txt"))
+                //    continue;
+                if (!silent)
+                    await stdout.WriteLineAsync($"Processing: {scriptFile}");
+                var card = await CardMasterDesign.ReadAsync(this.BaseDirectory, scriptFile);
+                if (card.IsValid())
+                    cards.Add(card.Name, card);
+                else
+                    await stderr.WriteLineAsync($"Card script ({card.Name}) not valid! ({string.Join(", ", card.InvalidReasons)})");
+            }
         }
 
         await stdout.WriteLineAsync($"Read: {cards.Count} cards");
@@ -2146,6 +2149,9 @@ public class GenAllCommand : BaseCommand
     [CliOption(Required = false, Description = "(MPCFill) The number of basics per color to include in the fill order (default: 25)")]
     public int? MpcFillBasicsPerColor { get; set; }
 
+    [CliOption(Required = false, Description = "(MPCFill) Path to a .txt file of card names (one per line) to filter the MPC fill order")]
+    public FileInfo? MpcCardFilter { get; set; }
+
     protected override async Task<int> ExecuteAsync(
         CliContext context,
         TextWriter stdout,
@@ -2201,7 +2207,25 @@ public class GenAllCommand : BaseCommand
         await GenerateStorySpoilerAsync(cards, tokens, BaseDirectory, OutputDir, stdout, stderr);
 
         // Generate MPCFill XML order
-        await GenerateMpcFillOrderAsync(cards, tokens, BaseDirectory, stdout, stderr);
+        HashSet<string>? mpcCardFilter = null;
+        if (this.MpcCardFilter is not null)
+        {
+            if (!this.MpcCardFilter.Exists)
+            {
+                await stderr.WriteLineAsync($"MPCFill filter file not found: {this.MpcCardFilter.FullName}");
+                return 1;
+            }
+            mpcCardFilter = new HashSet<string>(StringComparer.OrdinalIgnoreCase);
+            var filterLines = await File.ReadAllLinesAsync(this.MpcCardFilter.FullName);
+            foreach (var filterLine in filterLines)
+            {
+                var trimmed = filterLine.Trim();
+                if (!string.IsNullOrWhiteSpace(trimmed))
+                    mpcCardFilter.Add(trimmed);
+            }
+            await stdout.WriteLineAsync($"MPCFill filter loaded: {mpcCardFilter.Count} card names from {this.MpcCardFilter.Name}");
+        }
+        await GenerateMpcFillOrderAsync(cards, tokens, BaseDirectory, mpcCardFilter, stdout, stderr);
 
         await stdout.WriteLineAsync("All generation tasks completed successfully!");
 
@@ -2665,7 +2689,7 @@ public class GenAllCommand : BaseCommand
         return text.Replace("&", "&amp;").Replace("<", "&lt;").Replace(">", "&gt;").Replace("\"", "&quot;").Replace("'", "&apos;");
     }
 
-    private async Task GenerateMpcFillOrderAsync(SortedDictionary<string, CardMasterDesign> cards, SortedDictionary<string, TokenDefinition> tokens, DirectoryInfo baseDirectory, TextWriter stdout, TextWriter stderr)
+    private async Task GenerateMpcFillOrderAsync(SortedDictionary<string, CardMasterDesign> cards, SortedDictionary<string, TokenDefinition> tokens, DirectoryInfo baseDirectory, HashSet<string>? cardNameFilter, TextWriter stdout, TextWriter stderr)
     {
         try
         {
@@ -2688,65 +2712,108 @@ public class GenAllCommand : BaseCommand
 
             var bucketOrder = new[] { "COLORLESS", "WHITE", "BLUE", "BLACK", "RED", "GREEN", "MULTICOLOR", "ARTIFACTS", "LANDS" };
 
-            foreach (var (imageName, card) in EnumerateCardsInSpoilerOrder(false))
+            if (cardNameFilter is not null)
             {
-                // Basic lands are output at the end
-                var (isBasic, _) = card.IsBasicLand();
-                if (isBasic)
-                    continue;
-                AddCardFrontAndDefaultBack("E33", imageName);
-            }
+                // Filtered mode: only include cards matching the filter list.
+                // No tokens, no basic land multipliers, no separate commander pass.
+                var matchedNames = new HashSet<string>(StringComparer.OrdinalIgnoreCase);
 
-            if (File.Exists(tokenAllocationsPath))
-            {
-                var lines = await File.ReadAllLinesAsync(tokenAllocationsPath);
-                foreach (var rawLine in lines.Skip(1))
+                foreach (var bucket in bucketOrder)
                 {
-                    if (string.IsNullOrWhiteSpace(rawLine))
-                        continue;
+                    var cardsInBucket = cards.Values
+                        .Where(c => string.Equals(c.Bucket, bucket, StringComparison.Ordinal))
+                        .OrderBy(c => c.Name);
 
-                    var cols = rawLine.Split(',');
-                    if (cols.Length < 3)
+                    foreach (var card in cardsInBucket)
                     {
-                        await stderr.WriteLineAsync($"Skipping malformed token allocation row: {rawLine}");
-                        continue;
-                    }
+                        var matchesFilter = cardNameFilter.Contains(card.Name);
+                        if (!matchesFilter && card.InvariantName is not null)
+                            matchesFilter = cardNameFilter.Contains(card.InvariantName);
 
-                    if (!int.TryParse(cols[0].Trim(), out var qty) || qty <= 0)
-                    {
-                        await stderr.WriteLineAsync($"Skipping token allocation with invalid quantity: {rawLine}");
-                        continue;
-                    }
+                        if (!matchesFilter)
+                            continue;
 
-                    var tokenFront = cols[1].Trim();
-                    var tokenBack = cols[2].Trim();
-                    for (var i = 0; i < qty; i++)
-                    {
-                        frontEntries.Add(($"./tokens/E33/{tokenFront}.jpg", $"{tokenFront}.jpg", NormalizeQuery(tokenFront.Replace("_", ""))));
-                        backEntries.Add(($"./tokens/E33/{tokenBack}.jpg", $"{tokenBack}.jpg", NormalizeQuery(tokenBack.Replace("_", ""))));
+                        matchedNames.Add(card.Name);
+                        if (card.InvariantName is not null)
+                            matchedNames.Add(card.InvariantName);
+
+                        var setCode = card.IsCommander ? "E3C" : "E33";
+                        foreach (var imageName in card.GetImageNames())
+                        {
+                            AddCardFrontAndDefaultBack(setCode, imageName);
+                        }
                     }
+                }
+
+                // Report unmatched filter names
+                foreach (var filterName in cardNameFilter)
+                {
+                    if (!matchedNames.Contains(filterName))
+                        await stderr.WriteLineAsync($"MPCFill filter: card name not found: '{filterName}'");
                 }
             }
             else
             {
-                await stderr.WriteLineAsync($"Token allocation file not found: {tokenAllocationsPath}");
-            }
-
-            foreach (var (imageName, _) in EnumerateCardsInSpoilerOrder(true))
-            {
-                AddCardFrontAndDefaultBack("E3C", imageName);
-            }
-
-            // Add basic lands at the end
-            foreach (var (imageName, card) in EnumerateCardsInSpoilerOrder(false))
-            {
-                var (isBasic, _) = card.IsBasicLand();
-                if (!isBasic)
-                    continue;
-                var qty = MpcFillBasicsPerColor ?? 25;
-                for (int i = 0; i < qty; i++)
+                foreach (var (imageName, card) in EnumerateCardsInSpoilerOrder(false))
                 {
+                    // Basic lands are output at the end
+                    var (isBasic, _) = card.IsBasicLand();
+                    if (isBasic)
+                        continue;
                     AddCardFrontAndDefaultBack("E33", imageName);
+                }
+
+                if (File.Exists(tokenAllocationsPath))
+                {
+                    var lines = await File.ReadAllLinesAsync(tokenAllocationsPath);
+                    foreach (var rawLine in lines.Skip(1))
+                    {
+                        if (string.IsNullOrWhiteSpace(rawLine))
+                            continue;
+
+                        var cols = rawLine.Split(',');
+                        if (cols.Length < 3)
+                        {
+                            await stderr.WriteLineAsync($"Skipping malformed token allocation row: {rawLine}");
+                            continue;
+                        }
+
+                        if (!int.TryParse(cols[0].Trim(), out var qty) || qty <= 0)
+                        {
+                            await stderr.WriteLineAsync($"Skipping token allocation with invalid quantity: {rawLine}");
+                            continue;
+                        }
+
+                        var tokenFront = cols[1].Trim();
+                        var tokenBack = cols[2].Trim();
+                        for (var i = 0; i < qty; i++)
+                        {
+                            frontEntries.Add(($"./tokens/E33/{tokenFront}.jpg", $"{tokenFront}.jpg", NormalizeQuery(tokenFront.Replace("_", ""))));
+                            backEntries.Add(($"./tokens/E33/{tokenBack}.jpg", $"{tokenBack}.jpg", NormalizeQuery(tokenBack.Replace("_", ""))));
+                        }
+                    }
+                }
+                else
+                {
+                    await stderr.WriteLineAsync($"Token allocation file not found: {tokenAllocationsPath}");
+                }
+
+                foreach (var (imageName, _) in EnumerateCardsInSpoilerOrder(true))
+                {
+                    AddCardFrontAndDefaultBack("E3C", imageName);
+                }
+
+                // Add basic lands at the end
+                foreach (var (imageName, card) in EnumerateCardsInSpoilerOrder(false))
+                {
+                    var (isBasic, _) = card.IsBasicLand();
+                    if (!isBasic)
+                        continue;
+                    var qty = MpcFillBasicsPerColor ?? 25;
+                    for (int i = 0; i < qty; i++)
+                    {
+                        AddCardFrontAndDefaultBack("E33", imageName);
+                    }
                 }
             }
 

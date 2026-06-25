@@ -37,10 +37,30 @@ if [ "$DOTNET_MAJOR" -lt 10 ]; then
   exit 1
 fi
 
+# Parse optional --mpc-card-filter argument
+MPC_CARD_FILTER=""
+MPC_FILTER_ARG=""
+while [ $# -gt 0 ]; do
+  case "$1" in
+    --mpc-card-filter)
+      if [ $# -lt 2 ]; then
+        echo "Error: --mpc-card-filter requires a path argument" >&2
+        exit 1
+      fi
+      MPC_CARD_FILTER="$2"
+      MPC_FILTER_ARG="--mpc-card-filter $2"
+      shift 2
+      ;;
+    *)
+      shift
+      ;;
+  esac
+done
+
 # Run CardProcess to regenerate design files
 if [ -f "$ROOT/card_process.cs" ]; then
   echo "Running CardProcess..."
-  dotnet run --file "$ROOT/card_process.cs" -- genall --base-directory "$ROOT/custom" --output-dir "$ROOT/design" --linkify-captions --image-base-url "$IMG_BASE_URL"
+  dotnet run --file "$ROOT/card_process.cs" -- genall --base-directory "$ROOT/custom" --output-dir "$ROOT/design" --linkify-captions --image-base-url "$IMG_BASE_URL" $MPC_FILTER_ARG
 else
   echo "Warning: $ROOT/card_process.cs not found; skipping CardProcess step." >&2
 fi
