@@ -52,6 +52,13 @@ That does not mean we can't make something unique under these constraints. The 3
 
 We can easily create something unique by introducing some new sub-types, token and counter types and have cards that interact with these new types. The open-ended nature of most MTG mechanics means we can remix them to interact with these new types as well.
 
+The emphasis on "flavor first" design means the resulting cube may deviate from normal cube expectations, such as:
+
+ - It may have ratios of expected types of cards in a draftable set be skewed from what is expected for a set of this size.
+ - It may lack any well-defined "draft archetypes"
+
+We'll chalk these "shortcomings" as part of the charm and challenge in cube drafting this set.
+
 ## Commander
 
 It is expected that the 2 100-card commander decks will be:
