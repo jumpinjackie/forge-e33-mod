@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 30/4/2026 11:30:17 am
+> Last generated: 25/6/2026 10:19:48 am
 
 ## Blade's Graveyard (Concealed Courtyard)
 
@@ -703,6 +703,7 @@ It bears the twisted memories of lands previously visited.
 ### Rulings
 
  - If you target The Reacher with the copy ability, it will become the copy of The Reacher with 0 sky counters. If you choose to keep this copy as part of the legend rule, it will then be an 8/8 land creature that can block, and is ready to attack on your next turn.
+ - If you decline to use the copy ability when it enters, you also lose the ability to copy another land (and this triggered ability) at the beginning of your upkeep going forward.
 
 ## The Reacher
 
