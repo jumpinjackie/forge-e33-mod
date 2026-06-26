@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 26/6/2026 1:37:16 pm
+> Last generated: 26/6/2026 1:42:08 pm
 
 ## Aberration
 
@@ -1513,7 +1513,7 @@ Flash
 ```
 4WB
 Legendary Creature - Nevron Horror
-Flying. Ward {3}
+Flying, ward {3}
 Ball of Light — {2}{W}, {T}: Tap up to three target creatures. They lose all abilities until end of turn.
 Sword of Light — {2}{W}{B}, {T}: Separate creatures target opponent controls into two separate piles. That opponent chooses a pile. Destroy all creatures in that pile. Creatures in the other pile have base toughness 1 until end of turn.
 
