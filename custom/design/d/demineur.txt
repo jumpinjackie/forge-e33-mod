@@ -14,7 +14,7 @@ Sandfall Interactive
 [PT]
 1/1
 [Oracle]
-Flying.
+Flying
 When this creature becomes the target of a spell or ability an opponent controls, sacrifice it.
 $NEVRON_DEATH_ABILITY_TEXT
 [ForgeScript]

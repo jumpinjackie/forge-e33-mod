@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 22/3/2026 8:25:12 am
+> Last generated: 26/6/2026 1:36:10 pm
 
 ## A Storm is Coming
 
@@ -214,7 +214,7 @@ Foretell {R} (During your turn, you may pay {2} and exile this card from your ha
 ```
 4R
 Kindred Enchantment - Gestral Aura
-Enchant Land
+Enchant land
 Enchanted land has “{T}, Discard a card: Draw a card.”
 ---
 "Yahoo! I can sell stuff! You gots Chroma, yeh?"

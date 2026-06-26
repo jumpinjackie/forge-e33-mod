@@ -12,7 +12,7 @@ Sandfall Interactive
 [ArtNotes]
 A member of Expedition 33 performs an attack that puts the enemy Nevron into a stunned state.
 [Oracle]
-Enchant Creature.
+Enchant creature
 When ~ enters, create a Lumina token. $LUMINA_REMINDER_TEXT
 Whenever enchanted creature deals damage to an opponent, choose one —
 • Return up to one target creature to its owner's hand.

@@ -15,7 +15,9 @@ Sandfall Interactive
 [PT]
 3/4
 [Oracle]
-Flash. Ward {2}. Reach.
+Flash
+Ward {2}
+Reach
 Grows Flowers — At the beginning of your upkeep, create a Flower token (It's an artifact with "{T}, Sacrifice this artifact: Add {U}, {R} or {G}.")
 Absorbs Flowers — Whenever a Flower token leaves the battlefield, choose one —
 • ~ deals 1 damage to any target.
@@ -38,9 +40,6 @@ SVar:TrigPump:DB$ PutCounter | ValidTgts$ Creature | TgtPrompt$ Select target cr
 SVar:TrigShield:DB$ PutCounter | ValidTgts$ Creature | TgtPrompt$ Select target creature | CounterType$ SHIELD | CounterNum$ 1 | SpellDescription$ Put a shield counter on target creature.
 SVar:TrigDraw:DB$ Draw | Defined$ You | NumCards$ 1 | SpellDescription$ Draw a card.
 DeckHints:Name$Ophelie, Lumière Florist|Lumière Flower Stand
-[FlavorText]
-"Gustave, wait! It seems peaceful, as long as we don't touch the flowers."
-—Lune
 [RelatedTokens]
 c_a_flower
 [DraftScore]
@@ -66,3 +65,4 @@ Near the Flying Waters exit, Gustave sees a flower which reminds him of Sophie. 
     - Removed Red/Blue Flower tokens and gone with just a Flower token to which is a temur mana rock. There's not enough text box budget to mention two different tokens and the triggering off of both of them. 
     - Changed Flower leave triggers to a (mandatory) modal choice off of any flower token leaving. This was because Forge does not seem to acknowledge token leave triggers of a specific token name.
        - The shield and +1/+1 counter abilities from the blue/red flower tokens have been moved here.
+ - 26/06/2026: Fixed type-setting in Oracle text. We had to drop the flavor text as a result.

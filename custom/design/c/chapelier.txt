@@ -13,7 +13,7 @@ Sandfall Interactive
 [PT]
 2/2
 [Oracle]
-Flying.
+Flying
 ~ enters with a mask counter.
 Remove a mask counter from ~: Target creature loses all abilities until end of turn.
 Exhaust on death - When this creature dies, tap target creature an opponent controls, put a stun counter on it. (If a permanent with a stun counter would become untapped, remove one from it instead.)

@@ -1,18 +1,37 @@
 Axon Offering
 Baguette Weapon
+Ballet
+Breaking Moment
+Breaking Rules
+Bénisseur
+Chapelier
+Chorale
+Chromatic Petrification
+Contortionniste
+Démineur
+Esquie, Friend of Verso
 Esquie's Rescue
+Eternal Ice
+Expedition 40 Glider
+Expedition 43 Submersible
 Expedition 49 Healer
 Expedition 55 Drummer
 Expedition 67
+Expedition 67 Demolitions Expert
 Expedition 70
 Expeditioner's Grave
 Fleur, Intrepid Explorer
+Gault
+Gestral Bazaar
 Get Out Of This Canvas!
+Goblu
 Gustave, Lumiere Engineer
 Gustave's Journal
 Lampmaster
+Lancelier
 Lost // Found
 Lune, Charting a Path
+Lune's Curiosity
 Maelle, The Reawakened Paintress
 Maelle's Final Plea
 Noco & Monoco the Third
@@ -20,4 +39,5 @@ Paint Spike
 Piercing Strike
 Potier
 The Gingerbread Door
+The Scavenger
 Vicarious Envy

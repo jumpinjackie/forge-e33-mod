@@ -14,7 +14,7 @@ Sandfall Interactive
 [PT]
 3/1
 [Oracle]
-Flying.
+Flying
 This creature can block only creatures with flying.
 $EXPEDITIONER_DEATH_ABILITY_TEXT_LONG
 [FlavorText]

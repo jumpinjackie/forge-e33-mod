@@ -12,7 +12,7 @@ Sandfall Interactive
 [ArtNotes]
 At camp, Lune's astonishment at two halves of Verso alive and talking to her.
 [Oracle]
-Enchant Creature.
+Enchant creature
 Whenever enchanted creature deals damage to an opponent, choose one —
 • Draw a card
 • Create a Lumina token

@@ -13,7 +13,7 @@ Sandfall Interactive
 [PT]
 2/1
 [Oracle]
-Flying.
+Flying
 $NEVRON_DEATH_ABILITY_TEXT
 [ForgeScript]
 K:Flying

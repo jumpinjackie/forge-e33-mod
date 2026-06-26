@@ -11,4 +11,4 @@ SVar:DBBounce:DB$ ChangeZone | ValidTgts$ Creature | TargetsWithDefinedControlle
 SVar:DBTap:DB$ Tap | ValidTgts$ Creature | TgtPrompt$ Select target creature | TargetMin$ 0 | TargetMax$ 1 | SubAbility$ DBPutCounter | SpellDescription$ Tap up to one target creature and put a stun counter on it.
 SVar:DBPutCounter:DB$ PutCounter | Defined$ Targeted | CounterType$ STUN | CounterNum$ 1
 SVar:PlayMain1:TRUE
-Oracle:Enchant Creature.\nWhen this Aura enters, create a Lumina token. (It's an artifact with "{T}, Sacrifice this artifact: Scry 1.")\nWhenever enchanted creature deals damage to an opponent, choose one —\n• Return up to one target creature to its owner's hand.\n• Tap up to one target creature and put a stun counter on it.
+Oracle:Enchant creature\nWhen this Aura enters, create a Lumina token. (It's an artifact with "{T}, Sacrifice this artifact: Scry 1.")\nWhenever enchanted creature deals damage to an opponent, choose one —\n• Return up to one target creature to its owner's hand.\n• Tap up to one target creature and put a stun counter on it.

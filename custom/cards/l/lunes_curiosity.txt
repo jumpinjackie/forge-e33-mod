@@ -9,4 +9,4 @@ SVar:DBDraw:DB$ Draw | Defined$ You | NumCards$ 1 | SpellDescription$ Draw a car
 SVar:DBLumina:DB$ Token | TokenAmount$ 1 | TokenOwner$ You | TokenScript$ c_a_lumina | SpellDescription$ Create a Lumina token.
 SVar:DBChroma:DB$ Token | TokenAmount$ 1 | TokenOwner$ You | TokenScript$ c_a_chroma | SpellDescription$ Create a Chroma token.
 SVar:PlayMain1:TRUE
-Oracle:Enchant Creature.\nWhenever enchanted creature deals damage to an opponent, choose one —\n• Draw a card\n• Create a Lumina token\n• Create a Chroma token
+Oracle:Enchant creature\nWhenever enchanted creature deals damage to an opponent, choose one —\n• Draw a card\n• Create a Lumina token\n• Create a Chroma token

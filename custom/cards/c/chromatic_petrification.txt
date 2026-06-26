@@ -3,4 +3,4 @@ ManaCost:W B
 Types:Enchantment Aura
 K:Enchant:Permanent
 S:Mode$ Continuous | Affected$ Creature.EnchantedBy | AddType$ Artifact | RemoveType$ Creature | RemoveAllAbilities$ True | Description$ Enchanted permanent becomes an artifact and loses all abilities.
-Oracle:Enchant permanent.\nEnchanted permanent becomes an artifact and loses all abilities.
+Oracle:Enchant permanent\nEnchanted permanent becomes an artifact and loses all abilities.

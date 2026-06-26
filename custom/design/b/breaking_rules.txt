@@ -11,7 +11,7 @@ C
 [Artist]
 Sandfall Interactive
 [Oracle]
-Kicker {2}.
+Kicker {2}
 Destroy target artifact or enchantment with mana value 2 lor less.
 If this spell was kicked, destroy that artifact or enchantment if its mana value is 5 or less instead.
 Create a Lumina token. $LUMINA_REMINDER_TEXT

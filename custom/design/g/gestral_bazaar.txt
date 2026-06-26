@@ -11,7 +11,7 @@ Aura
 [Rarity]
 C
 [Oracle]
-Enchant Land
+Enchant land
 Enchanted land has “{T}, Discard a card: Draw a card.”
 [FlavorText]
 "Yahoo! I can sell stuff! You gots Chroma, yeh?"

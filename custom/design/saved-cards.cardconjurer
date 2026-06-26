@@ -8746,7 +8746,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Flying.\nWhen this creature dies, target opponent creates a Lumina token. (It’s an artifact with “{T}, Sacrifice this artifact: Scry 1.”)",
+                    "text": "Flying\nWhen this creature dies, target opponent creates a Lumina token. (It’s an artifact with “{T}, Sacrifice this artifact: Scry 1.”)",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
@@ -15211,7 +15211,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Enchant Creature.\nWhen this Aura enters, create a Lumina token. (It’s an artifact with “{T}, Sacrifice this artifact: Scry 1.”)\nWhenever enchanted creature deals damage to an opponent, choose one —\n• Return up to one target creature to its owner’s hand.\n• Tap up to one target creature and put a stun counter on it.",
+                    "text": "Enchant creature\nWhen this Aura enters, create a Lumina token. (It’s an artifact with “{T}, Sacrifice this artifact: Scry 1.”)\nWhenever enchanted creature deals damage to an opponent, choose one —\n• Return up to one target creature to its owner’s hand.\n• Tap up to one target creature and put a stun counter on it.",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
@@ -15461,7 +15461,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Kicker {2}.\nDestroy target artifact or enchantment with mana value 2 lor less.\nIf this spell was kicked, destroy that artifact or enchantment if its mana value is 5 or less instead.\nCreate a Lumina token. (It’s an artifact with “{T}, Sacrifice this artifact: Scry 1.”){flavor}Some rules can be bent, some can be broken.",
+                    "text": "Kicker {2}\nDestroy target artifact or enchantment with mana value 2 lor less.\nIf this spell was kicked, destroy that artifact or enchantment if its mana value is 5 or less instead.\nCreate a Lumina token. (It’s an artifact with “{T}, Sacrifice this artifact: Scry 1.”){flavor}Some rules can be bent, some can be broken.",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
@@ -16781,7 +16781,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Vigilance.\n{i}Summons protective bubbles{/i} — This creature enters with a shield counter on it.\n{i}Bubbles are shielding enemies{/i} — {2}{G}, {T}: Put a shield counter on target creature you control.\n{i}Launches projectiles from its hat{/i} — {2}{R}, {T}: This creature deals 2 damage to target attacking creature. Put a stun counter on it.\nWhen this creature dies, target opponent creates a Lumina token.",
+                    "text": "Vigilance\n{i}Summons protective bubbles{/i} — This creature enters with a shield counter on it.\n{i}Bubbles are shielding enemies{/i} — {2}{G}, {T}: Put a shield counter on target creature you control.\n{i}Launches projectiles from its hat{/i} — {2}{R}, {T}: This creature deals 2 damage to target attacking creature. Put a stun counter on it.\nWhen this creature dies, target opponent creates a Lumina token.",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
@@ -18600,7 +18600,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Flying.\nThis creature enters with a mask counter.\nRemove a mask counter from this creature: Target creature loses all abilities until end of turn.\n{i}Exhaust on death{/i} - When this creature dies, tap target creature an opponent controls, put a stun counter on it. (If a permanent with a stun counter would become untapped, remove one from it instead.)\nWhen this creature dies, target opponent creates a Lumina token.",
+                    "text": "Flying\nThis creature enters with a mask counter.\nRemove a mask counter from this creature: Target creature loses all abilities until end of turn.\n{i}Exhaust on death{/i} - When this creature dies, tap target creature an opponent controls, put a stun counter on it. (If a permanent with a stun counter would become untapped, remove one from it instead.)\nWhen this creature dies, target opponent creates a Lumina token.",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
@@ -19452,7 +19452,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Flying.\nWhen this creature dies, target opponent creates a Lumina token. (It’s an artifact with “{T}, Sacrifice this artifact: Scry 1.”)",
+                    "text": "Flying\nWhen this creature dies, target opponent creates a Lumina token. (It’s an artifact with “{T}, Sacrifice this artifact: Scry 1.”)",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
@@ -22148,7 +22148,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Enchant permanent.\nEnchanted permanent becomes an artifact and loses all abilities.{flavor}“The expeditioners, the ones killed by Nevrons. Gustave noticed their Chroma remains in their bodies. They never dissipated, like the Gommage.”\n—Lune",
+                    "text": "Enchant permanent\nEnchanted permanent becomes an artifact and loses all abilities.{flavor}“The expeditioners, the ones killed by Nevrons. Gustave noticed their Chroma remains in their bodies. They never dissipated, like the Gommage.”\n—Lune",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
@@ -27587,7 +27587,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Lifelink.\n{i}Impales its target{/i} — When this creature enters, choose one —\n• Destroy up to one target creature with mana value 3 or less.\n• Tap up to one target creature and put a stun counter on it.\nWhen this creature dies, target opponent creates a Lumina token. (It’s an artifact with “{T}, Sacrifice this artifact: Scry 1.”)",
+                    "text": "Lifelink\n{i}Impales its target{/i} — When this creature enters, choose one —\n• Destroy up to one target creature with mana value 3 or less.\n• Tap up to one target creature and put a stun counter on it.\nWhen this creature dies, target opponent creates a Lumina token. (It’s an artifact with “{T}, Sacrifice this artifact: Scry 1.”)",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
@@ -37097,7 +37097,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Flying.\nWhen this creature becomes the target of a spell or ability an opponent controls, sacrifice it.\nWhen this creature dies, target opponent creates a Lumina token. (It’s an artifact with “{T}, Sacrifice this artifact: Scry 1.”)",
+                    "text": "Flying\nWhen this creature becomes the target of a spell or ability an opponent controls, sacrifice it.\nWhen this creature dies, target opponent creates a Lumina token. (It’s an artifact with “{T}, Sacrifice this artifact: Scry 1.”)",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
@@ -39370,7 +39370,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Saddle 2.\nEsquie has Islandwalk as long as you control a card named Florrie.\nEsquie has Flying as long as you control a card named Soarrie.\nEsquie has Trample as long as you control a card named Dorrie.\nWhen Esquie attacks, if you control a card named Urrie, Surveil 2.\nWhen Esquie attacks, if it is saddled, choose one —\n• Draw a card.\n• Put a land card from your hand onto the battlefield.",
+                    "text": "Esquie has Islandwalk as long as you control a card named Florrie.\nEsquie has Flying as long as you control a card named Soarrie.\nEsquie has Trample as long as you control a card named Dorrie.\nWhen Esquie attacks, if you control a card named Urrie, Surveil 2.\nWhen Esquie attacks, if it is saddled, choose one —\n• Draw a card.\n• Put a land card from your hand onto the battlefield.\nSaddle 2",
                     "x": 0.086,
                     "y": 0.6325515280739161,
                     "width": 0.828,
@@ -41914,7 +41914,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Enchant permanent.\nEnchanted permanent doesn’t untap during its controller’s untap step and its activated abilities can’t be activated.{flavor}Warmth is fleeting. Cold is eternal.",
+                    "text": "Enchant permanent\nEnchanted permanent doesn’t untap during its controller’s untap step and its activated abilities can’t be activated.{flavor}Warmth is fleeting. Cold is eternal.",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
@@ -43380,7 +43380,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Flying.\nThis creature can block only creatures with flying.\nWhen this creature dies, create a Chroma token. (It’s an artifact with “{T}, Sacrifice this artifact: Add one mana of any color. Spend this mana only to cast a Nevron, Gestral or Expeditioner spell.”){flavor}“They were on a clean glide to the Monolith when they flew into the some sort of barrier and just ... gommaged away.”\n—Avril, Expedition 40",
+                    "text": "Flying\nThis creature can block only creatures with flying.\nWhen this creature dies, create a Chroma token. (It’s an artifact with “{T}, Sacrifice this artifact: Add one mana of any color. Spend this mana only to cast a Nevron, Gestral or Expeditioner spell.”){flavor}“They were on a clean glide to the Monolith when they flew into the some sort of barrier and just ... gommaged away.”\n—Avril, Expedition 40",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
@@ -43974,7 +43974,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Islandwalk.\nWhenever this vehicle deals combat damage to a player or planeswalker, draw a card.\nCrew 2{flavor}“The Paintress must be laughing. Diverting the resources of the entire Engineering and Defence divisions to construct those subs.”\n—Sabine, Expedition 43",
+                    "text": "Islandwalk\nWhenever this vehicle deals combat damage to a player or planeswalker, draw a card.\nCrew 2{flavor}“The Paintress must be laughing. Diverting the resources of the entire Engineering and Defence divisions to construct those subs.”\n—Sabine, Expedition 43",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
@@ -50818,7 +50818,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Flash.\nWhen this creature enters, destroy target creature or artifact.\nWhen this creature dies, create a Chroma token.{flavor}“We’re out of explosives, but we’ve made enough holes in this place to reach that giant woman in the centre.”\n—Luc, Expedition 67",
+                    "text": "Flash\nWhen this creature enters, destroy target creature or artifact.\nWhen this creature dies, create a Chroma token.{flavor}“We’re out of explosives, but we’ve made enough holes in this place to reach that giant woman in the centre.”\n—Luc, Expedition 67",
                     "x": 0.086,
                     "y": 0.6325515280739161,
                     "width": 0.828,
@@ -66324,7 +66324,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Protection from green.\nWhen this creature dies, target opponent creates a Lumina token. (It’s an artifact with “{T}, Sacrifice this artifact: Scry 1.”)",
+                    "text": "Protection from green\nWhen this creature dies, target opponent creates a Lumina token. (It’s an artifact with “{T}, Sacrifice this artifact: Scry 1.”)",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
@@ -67558,7 +67558,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Enchant Land\nEnchanted land has “{T}, Discard a card: Draw a card.”{flavor}“Yahoo! I can sell stuff! You gots Chroma, yeh?“\n—Delsitra",
+                    "text": "Enchant land\nEnchanted land has “{T}, Discard a card: Draw a card.”{flavor}“Yahoo! I can sell stuff! You gots Chroma, yeh?“\n—Delsitra",
                     "x": 0.086,
                     "y": 0.6325515280739161,
                     "width": 0.828,
@@ -76018,10 +76018,10 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Flash. Ward {2}. Reach.\n{i}Grows Flowers{/i} — At the beginning of your upkeep, create a Flower token (It’s an artifact with “{T}, Sacrifice this artifact: Add {U}, {R} or {G}.”)\n{i}Absorbs Flowers{/i} — Whenever a Flower token leaves the battlefield, choose one —\n• Goblu deals 1 damage to any target.\n• Put a +1/+1 counter on target creature.\n• Put a shield counter on target creature.\n• Draw a card.{flavor}“Gustave, wait! It seems peaceful, as long as we don’t touch the flowers.”\n—Lune",
+                    "text": "Flash\nWard {2}\nReach\n{i}Grows Flowers{/i} — At the beginning of your upkeep, create a Flower token (It’s an artifact with “{T}, Sacrifice this artifact: Add {U}, {R} or {G}.”)\n{i}Absorbs Flowers{/i} — Whenever a Flower token leaves the battlefield, choose one —\n• Goblu deals 1 damage to any target.\n• Put a +1/+1 counter on target creature.\n• Put a shield counter on target creature.\n• Draw a card.",
                     "x": 0.086,
                     "y": 0.6303,
-                    "width": 0.828,
+                    "width": 0.8194029850746268,
                     "height": 0.2875,
                     "size": 0.0362
                 },
@@ -87836,7 +87836,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "First strike.\nWhen this creature dies, target opponent creates a Lumina token. (It’s an artifact with “{T}, Sacrifice this artifact: Scry 1.”)",
+                    "text": "First strike\nWhen this creature dies, target opponent creates a Lumina token. (It’s an artifact with “{T}, Sacrifice this artifact: Scry 1.”)",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
@@ -95217,7 +95217,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Enchant Creature.\nWhenever enchanted creature deals damage to an opponent, choose one —\n• Draw a card\n• Create a Lumina token\n• Create a Chroma token{flavor}“Do you heal from the top or the bottom? Or do you have to bring the halves together? Hey, can you control the process?”",
+                    "text": "Enchant creature\nWhenever enchanted creature deals damage to an opponent, choose one —\n• Draw a card\n• Create a Lumina token\n• Create a Chroma token{flavor}“Do you heal from the top or the bottom? Or do you have to bring the halves together? Hey, can you control the process?”",
                     "x": 0.086,
                     "y": 0.6325515280739161,
                     "width": 0.828,
@@ -145252,7 +145252,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Ward {2}.\nWhen The Scavenger enters, return target permanent card with mana value 3 or less from your graveyard to tbe battlefield.\nIf an opponent would create a Lumina token, you create a Lumina token instead.\nSacrifice a Lumina token: Add one mana of any color.\nSacrifice a Nevron: Add two mana of any one color.\n{2}{B/G}, {T}: Return target permanent card from your graveyard to your hand.",
+                    "text": "Ward {2}\nWhen The Scavenger enters, return target permanent card with mana value 3 or less from your graveyard to tbe battlefield.\nIf an opponent would create a Lumina token, you create a Lumina token instead.\nSacrifice a Lumina token: Add one mana of any color.\nSacrifice a Nevron: Add two mana of any one color.\n{2}{B/G}, {T}: Return target permanent card from your graveyard to your hand.",
                     "x": 0.086,
                     "y": 0.6325515280739161,
                     "width": 0.828,

@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 27/3/2026 2:08:47 pm
+> Last generated: 26/6/2026 1:36:10 pm
 
 ## An Advantage!
 
@@ -44,7 +44,7 @@ When Antoine dies, create a Chroma token. (It's an artifact with "{T}, Sacrifice
 ```
 U
 Enchantment - Aura
-Enchant Creature.
+Enchant creature
 When this Aura enters, create a Lumina token. (It's an artifact with "{T}, Sacrifice this artifact: Scry 1.")
 Whenever enchanted creature deals damage to an opponent, choose one —
 • Return up to one target creature to its owner's hand.
@@ -147,7 +147,7 @@ When this creature dies, target opponent creates a Lumina token. (It's an artifa
 ```
 U
 Creature - Nevron
-Flying.
+Flying
 When this creature becomes the target of a spell or ability an opponent controls, sacrifice it.
 When this creature dies, target opponent creates a Lumina token. (It's an artifact with "{T}, Sacrifice this artifact: Scry 1.")
 
@@ -200,7 +200,7 @@ When this creature enters, counter target spell and draw a card.
 ```
 2U
 Enchantment - Aura
-Enchant permanent.
+Enchant permanent
 Enchanted permanent doesn't untap during its controller's untap step and its activated abilities can't be activated.
 ---
 Warmth is fleeting. Cold is eternal.
@@ -218,7 +218,7 @@ Warmth is fleeting. Cold is eternal.
 ```
 2U
 Creature - Human Expeditioner
-Flying.
+Flying
 This creature can block only creatures with flying.
 When this creature dies, create a Chroma token. (It's an artifact with "{T}, Sacrifice this artifact: Add one mana of any color. Spend this mana only to cast a Nevron, Gestral or Expeditioner spell.")
 ---
@@ -241,7 +241,7 @@ When this creature dies, create a Chroma token. (It's an artifact with "{T}, Sac
 ```
 2U
 Artifact - Expeditioner Vehicle
-Islandwalk.
+Islandwalk
 Whenever this vehicle deals combat damage to a player or planeswalker, draw a card.
 Crew 2
 ---
@@ -464,7 +464,7 @@ Create a Lumina token. (It's an artifact with "{T}, Sacrifice this artifact: Scr
 ```
 U
 Enchantment - Aura
-Enchant Creature.
+Enchant creature
 Whenever enchanted creature deals damage to an opponent, choose one —
 • Draw a card
 • Create a Lumina token

@@ -13,4 +13,4 @@ SVar:DBDraw:DB$ Draw | Defined$ You | SpellDescription$ Draw a card.
 SVar:DBLand:DB$ ChangeZone | Origin$ Hand | Destination$ Battlefield | ChangeType$ Land | ChangeNum$ 1 | SpellDescription$ Put a land card from your hand onto the battlefield.
 K:Saddle:2
 DeckNeeds:Name$Soarrie|Florrie|Urrie|Dorrie
-Oracle:Saddle 2.\nEsquie has Islandwalk as long as you control a card named Florrie.\nEsquie has Flying as long as you control a card named Soarrie.\nEsquie has Trample as long as you control a card named Dorrie.\nWhen Esquie attacks, if you control a card named Urrie, Surveil 2.\nWhen Esquie attacks, if it is saddled, choose one —\n• Draw a card.\n• Put a land card from your hand onto the battlefield.
+Oracle:Esquie has Islandwalk as long as you control a card named Florrie.\nEsquie has Flying as long as you control a card named Soarrie.\nEsquie has Trample as long as you control a card named Dorrie.\nWhen Esquie attacks, if you control a card named Urrie, Surveil 2.\nWhen Esquie attacks, if it is saddled, choose one —\n• Draw a card.\n• Put a land card from your hand onto the battlefield.\nSaddle 2

@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 25/6/2026 10:19:48 am
+> Last generated: 26/6/2026 1:36:10 pm
 
 ## Axon Offering
 
@@ -58,7 +58,7 @@ When this creature dies, target opponent creates a Lumina token. (It's an artifa
 ```
 2B
 Creature - Nevron
-Flying.
+Flying
 This creature enters with a mask counter.
 Remove a mask counter from this creature: Target creature loses all abilities until end of turn.
 Exhaust on death - When this creature dies, tap target creature an opponent controls, put a stun counter on it. (If a permanent with a stun counter would become untapped, remove one from it instead.)

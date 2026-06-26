@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 25/6/2026 10:34:15 am
+> Last generated: 26/6/2026 1:37:16 pm
 
 ## Aberration
 
@@ -115,7 +115,7 @@ Candy shields — Sacrifice a Food: Put a shield counter on this creature.
 ```
 2RG
 Creature - Nevron
-Vigilance.
+Vigilance
 Summons protective bubbles — This creature enters with a shield counter on it.
 Bubbles are shielding enemies — {2}{G}, {T}: Put a shield counter on target creature you control.
 Launches projectiles from its hat — {2}{R}, {T}: This creature deals 2 damage to target attacking creature. Put a stun counter on it.
@@ -213,7 +213,7 @@ When this creature dies, target opponent creates a Lumina token.
 ```
 (W/G)
 Kindred Instant - Expeditioner
-Kicker {2}.
+Kicker {2}
 Destroy target artifact or enchantment with mana value 2 lor less.
 If this spell was kicked, destroy that artifact or enchantment if its mana value is 5 or less instead.
 Create a Lumina token. (It's an artifact with "{T}, Sacrifice this artifact: Scry 1.")
@@ -234,7 +234,7 @@ Some rules can be bent, some can be broken.
 ```
 WB
 Enchantment - Aura
-Enchant permanent.
+Enchant permanent
 Enchanted permanent becomes an artifact and loses all abilities.
 ---
 "The expeditioners, the ones killed by Nevrons. Gustave noticed their Chroma remains in their bodies. They never dissipated, like the Gommage."
@@ -380,7 +380,7 @@ Summons Nevrons — At the beginning of your upkeep, choose one —
 ```
 1UB
 Creature - Nevron Horror
-Lifelink.
+Lifelink
 Impales its target — When this creature enters, choose one —
 • Destroy up to one target creature with mana value 3 or less.
 • Tap up to one target creature and put a stun counter on it.
@@ -542,7 +542,6 @@ When Emma dies, create a Chroma token.
 ```
 3GU
 Legendary Artifact Creature - Toy Mount
-Saddle 2.
 Esquie has Islandwalk as long as you control a card named Florrie.
 Esquie has Flying as long as you control a card named Soarrie.
 Esquie has Trample as long as you control a card named Dorrie.
@@ -550,6 +549,7 @@ When Esquie attacks, if you control a card named Urrie, Surveil 2.
 When Esquie attacks, if it is saddled, choose one —
 • Draw a card.
 • Put a land card from your hand onto the battlefield.
+Saddle 2
 
 6/6
 ```
@@ -568,6 +568,7 @@ When Esquie attacks, if it is saddled, choose one —
         - Flying - Flying
         - Diving - Surveil on attack
  - Because this is a Mount creature with Saddle, I've given it the Uro (draw a card or put a land) triggered ability as the saddle attacking bonus.
+ - 26/06/2026: Fixed type-setting in Oracle text.
 
 ## Esquie's Charge
 
@@ -879,7 +880,7 @@ III — Destroy each permanent with a fuse counter on it.
 ```
 2BR
 Creature - Human Expeditioner
-Flash.
+Flash
 When this creature enters, destroy target creature or artifact.
 When this creature dies, create a Chroma token.
 ---
@@ -1295,16 +1296,15 @@ Summons Ballets to attack the Expedition — {T}: Create a 1/1 green Nevron crea
 ```
 GUR
 Legendary Creature - Nevron
-Flash. Ward {2}. Reach.
+Flash
+Ward {2}
+Reach
 Grows Flowers — At the beginning of your upkeep, create a Flower token (It's an artifact with "{T}, Sacrifice this artifact: Add {U}, {R} or {G}.")
 Absorbs Flowers — Whenever a Flower token leaves the battlefield, choose one —
 • Goblu deals 1 damage to any target.
 • Put a +1/+1 counter on target creature.
 • Put a shield counter on target creature.
 • Draw a card.
----
-"Gustave, wait! It seems peaceful, as long as we don't touch the flowers."
-—Lune
 
 3/4
 ```
@@ -1322,6 +1322,7 @@ Absorbs Flowers — Whenever a Flower token leaves the battlefield, choose one �
     - Removed Red/Blue Flower tokens and gone with just a Flower token to which is a temur mana rock. There's not enough text box budget to mention two different tokens and the triggering off of both of them. 
     - Changed Flower leave triggers to a (mandatory) modal choice off of any flower token leaving. This was because Forge does not seem to acknowledge token leave triggers of a specific token name.
        - The shield and +1/+1 counter abilities from the blue/red flower tokens have been moved here.
+ - 26/06/2026: Fixed type-setting in Oracle text. We had to drop the flavor text as a result.
 
 
 ### Rulings
@@ -2662,7 +2663,7 @@ At the beginning of your upkeep, create a Chroma token.
 ```
 2BG
 Legendary Creature - Nevron
-Ward {2}.
+Ward {2}
 When The Scavenger enters, return target permanent card with mana value 3 or less from your graveyard to tbe battlefield.
 If an opponent would create a Lumina token, you create a Lumina token instead.
 Sacrifice a Lumina token: Add one mana of any color.

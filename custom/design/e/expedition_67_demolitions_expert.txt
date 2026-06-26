@@ -15,7 +15,7 @@ Sandfall Interactive
 [PT]
 2/2
 [Oracle]
-Flash.
+Flash
 When this creature enters, destroy target creature or artifact.
 $EXPEDITIONER_DEATH_ABILITY_TEXT
 [FlavorText]

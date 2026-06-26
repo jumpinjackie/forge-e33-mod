@@ -13,7 +13,7 @@ Sandfall Interactive
 [PT]
 3/2
 [Oracle]
-Protection from green.
+Protection from green
 $NEVRON_DEATH_ABILITY_TEXT
 [ForgeScript]
 K:Protection from green

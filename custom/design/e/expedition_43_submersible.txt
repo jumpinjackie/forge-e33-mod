@@ -14,7 +14,7 @@ Sandfall Interactive
 [PT]
 2/3
 [Oracle]
-Islandwalk.
+Islandwalk
 Whenever ~ deals combat damage to a player or planeswalker, draw a card.
 Crew 2
 [FlavorText]

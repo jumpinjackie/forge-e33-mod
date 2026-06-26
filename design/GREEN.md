@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 20/6/2026 4:03:00 pm
+> Last generated: 26/6/2026 1:36:10 pm
 
 ## Abbest
 
@@ -36,7 +36,7 @@ When this creature dies, target opponent creates a Lumina token. (It's an artifa
 ```
 1G
 Creature - Nevron
-Flying.
+Flying
 When this creature dies, target opponent creates a Lumina token. (It's an artifact with "{T}, Sacrifice this artifact: Scry 1.")
 
 2/2
@@ -133,7 +133,7 @@ Splice onto Expeditioner Instant or Sorcery {G} (As you cast an Expeditioner Ins
 ```
 1G
 Creature - Nevron
-Flying.
+Flying
 When this creature dies, target opponent creates a Lumina token. (It's an artifact with "{T}, Sacrifice this artifact: Scry 1.")
 
 2/1
@@ -369,7 +369,7 @@ Kicks its head — {T}: Create a 2/2 green Turtle artifact creature token named 
 ```
 2G
 Creature - Nevron
-Protection from green.
+Protection from green
 When this creature dies, target opponent creates a Lumina token. (It's an artifact with "{T}, Sacrifice this artifact: Scry 1.")
 
 3/2
@@ -446,7 +446,7 @@ When this creature enters and whenever it attacks, it explores. (Reveal the top 
 ```
 1G
 Creature - Nevron
-First strike.
+First strike
 When this creature dies, target opponent creates a Lumina token. (It's an artifact with "{T}, Sacrifice this artifact: Scry 1.")
 
 2/2
