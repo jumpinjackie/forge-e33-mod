@@ -2726,21 +2726,98 @@ public class GenAllCommand : BaseCommand
 
                     foreach (var card in cardsInBucket)
                     {
-                        var matchesFilter = cardNameFilter.Contains(card.Name);
-                        if (!matchesFilter && card.InvariantName is not null)
-                            matchesFilter = cardNameFilter.Contains(card.InvariantName);
+                        // Determine which faces match the filter
+                        var combinedMatches = cardNameFilter.Contains(card.Name)
+                            || (card.InvariantName is not null && cardNameFilter.Contains(card.InvariantName));
 
-                        if (!matchesFilter)
+                        bool FaceNameMatches(CardFaceDesign? face) =>
+                            face?.Name is not null && cardNameFilter.Contains(face.Name)
+                            || face?.InvariantName is not null && cardNameFilter.Contains(face.InvariantName);
+
+                        var frontMatches = FaceNameMatches(card.FrontFull);
+                        var backMatches = FaceNameMatches(card.BackFull);
+                        var meldMatches = FaceNameMatches(card.MeldTarget);
+                        var leftMatches = FaceNameMatches(card.SplitLeft);
+                        var rightMatches = FaceNameMatches(card.SplitRight);
+
+                        // For single-image cards (Regular, SplitFuse, SplitRoom), any match
+                        // on combined or face names includes the card's single image.
+                        // For multi-image cards (DFC, Meld), only include the matching face(s).
+                        bool anyMatch;
+                        if (card.FaceType == CardFaceType.Meld)
+                        {
+                            // If the combined name matched, include both faces (backward compat)
+                            if (combinedMatches) { frontMatches = true; meldMatches = true; }
+                            anyMatch = frontMatches || meldMatches;
+                        }
+                        else if (card.FaceType == CardFaceType.DoubleFaced)
+                        {
+                            if (combinedMatches) { frontMatches = true; backMatches = true; }
+                            anyMatch = frontMatches || backMatches;
+                        }
+                        else
+                        {
+                            anyMatch = combinedMatches || frontMatches || backMatches
+                                || meldMatches || leftMatches || rightMatches;
+                        }
+
+                        if (!anyMatch)
                             continue;
 
-                        matchedNames.Add(card.Name);
-                        if (card.InvariantName is not null)
-                            matchedNames.Add(card.InvariantName);
+                        // Track all matched names for the unmatched-filter-names report
+                        if (combinedMatches)
+                        {
+                            matchedNames.Add(card.Name);
+                            if (card.InvariantName is not null)
+                                matchedNames.Add(card.InvariantName);
+                        }
+                        if (frontMatches)
+                        {
+                            if (card.FrontFull?.Name is not null) matchedNames.Add(card.FrontFull.Name);
+                            if (card.FrontFull?.InvariantName is not null) matchedNames.Add(card.FrontFull.InvariantName);
+                        }
+                        if (backMatches)
+                        {
+                            if (card.BackFull?.Name is not null) matchedNames.Add(card.BackFull.Name);
+                            if (card.BackFull?.InvariantName is not null) matchedNames.Add(card.BackFull.InvariantName);
+                        }
+                        if (meldMatches)
+                        {
+                            if (card.MeldTarget?.Name is not null) matchedNames.Add(card.MeldTarget.Name);
+                            if (card.MeldTarget?.InvariantName is not null) matchedNames.Add(card.MeldTarget.InvariantName);
+                        }
+                        if (leftMatches)
+                        {
+                            if (card.SplitLeft?.Name is not null) matchedNames.Add(card.SplitLeft.Name);
+                            if (card.SplitLeft?.InvariantName is not null) matchedNames.Add(card.SplitLeft.InvariantName);
+                        }
+                        if (rightMatches)
+                        {
+                            if (card.SplitRight?.Name is not null) matchedNames.Add(card.SplitRight.Name);
+                            if (card.SplitRight?.InvariantName is not null) matchedNames.Add(card.SplitRight.InvariantName);
+                        }
 
                         var setCode = card.IsCommander ? "E3C" : "E33";
-                        foreach (var imageName in card.GetImageNames())
+
+                        if (card.FaceType == CardFaceType.Meld || card.FaceType == CardFaceType.DoubleFaced)
                         {
-                            AddCardFrontAndDefaultBack(setCode, imageName);
+                            // Only include images for faces that matched the filter
+                            if (frontMatches && card.FrontFull is not null)
+                                AddCardFrontAndDefaultBack(setCode,
+                                    (card.FrontFull.InvariantName ?? card.FrontFull.Name) + ".full.jpg");
+                            if (card.FaceType == CardFaceType.Meld && meldMatches && card.MeldTarget is not null)
+                                AddCardFrontAndDefaultBack(setCode,
+                                    (card.MeldTarget.InvariantName ?? card.MeldTarget.Name) + ".full.jpg");
+                            if (card.FaceType == CardFaceType.DoubleFaced && backMatches && card.BackFull is not null)
+                                AddCardFrontAndDefaultBack(setCode,
+                                    (card.BackFull.InvariantName ?? card.BackFull.Name) + ".full.jpg");
+                        }
+                        else
+                        {
+                            foreach (var imageName in card.GetImageNames())
+                            {
+                                AddCardFrontAndDefaultBack(setCode, imageName);
+                            }
                         }
                     }
                 }
