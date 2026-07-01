@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 26/6/2026 1:42:08 pm
+> Last generated: 1/7/2026 10:51:18 am
 
 ## Aberration
 
@@ -2577,7 +2577,7 @@ Life keeps forcing cruel choices.
 3(R/W)
 Legendary Sorcery
 (You may cast a legendary sorcery only if you control a legendary creature or planeswalker.)
-Destroy all non-basic lands.
+Destroy all nonbasic lands.
 Search your library for a card named The Monolith, put it onto the battlefield and shuffle.
 ---
 The city of Lumière was uprooted and flung into the ocean. Soon after, The Monolith appeared, bearing the number “100”. Nobody at the time knew what this number meant.

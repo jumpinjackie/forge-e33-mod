@@ -12,7 +12,7 @@ R
 Sandfall Interactive
 [Oracle]
 (You may cast a legendary sorcery only if you control a legendary creature or planeswalker.)
-Destroy all non-basic lands.
+Destroy all nonbasic lands.
 Search your library for a card named The Monolith, put it onto the battlefield and shuffle.
 [FlavorText]
 The city of Lumière was uprooted and flung into the ocean. Soon after, The Monolith appeared, bearing the number “100”. Nobody at the time knew what this number meant.
