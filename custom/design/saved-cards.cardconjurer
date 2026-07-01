@@ -100667,7 +100667,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Enchant Creature\nFlash\nIf a source would deal damage to enchanted creature, it deals double that damage to that creature instead.\nWhen this Aura is put into a graveyard from the battlefield, return it to its owner’s hand.",
+                    "text": "Flash\nEnchant creature\nIf a source would deal damage to enchanted creature, it deals double that damage to that creature instead.\nWhen this Aura is put into a graveyard from the battlefield, return it to its owner’s hand.",
                     "x": 0.086,
                     "y": 0.6325515280739161,
                     "width": 0.828,

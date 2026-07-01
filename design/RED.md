@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 26/6/2026 1:36:10 pm
+> Last generated: 1/7/2026 10:18:21 am
 
 ## A Storm is Coming
 
@@ -396,8 +396,8 @@ Luminous — Draw a card if you control at least three Lumina tokens.
 ```
 R
 Kindred Enchantment - Expeditioner Aura
-Enchant Creature
 Flash
+Enchant creature
 If a source would deal damage to enchanted creature, it deals double that damage to that creature instead.
 When this Aura is put into a graveyard from the battlefield, return it to its owner's hand.
 ```

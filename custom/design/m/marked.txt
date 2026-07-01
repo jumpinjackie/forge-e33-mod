@@ -10,8 +10,8 @@ Aura
 [Rarity]
 U
 [Oracle]
-Enchant Creature
 Flash
+Enchant creature
 If a source would deal damage to enchanted creature, it deals double that damage to that creature instead.
 When ~ is put into a graveyard from the battlefield, return it to its owner's hand.
 [ForgeScript]
