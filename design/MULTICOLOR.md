@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 6/7/2026 12:15:31 pm
+> Last generated: 6/7/2026 12:26:17 pm
 
 ## Aberration
 
@@ -279,7 +279,7 @@ Sacrifice three Chroma tokens: Put target permanent card from your graveyard to 
 2(G/W)
 Enchantment - Aura
 This spell costs {1} less to cast if it targets a nonbasic land.
-Enchant Land
+Enchant land
 When this Aura enters, draw a card.
 Enchanted land does not untap during its controller’s untap step.
 ---

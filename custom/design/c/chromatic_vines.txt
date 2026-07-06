@@ -12,7 +12,7 @@ C
 Sandfall Interactive
 [Oracle]
 This spell costs {1} less to cast if it targets a nonbasic land.
-Enchant Land
+Enchant land
 When this Aura enters, draw a card.
 Enchanted land does not untap during its controller’s untap step.
 [FlavorText]
