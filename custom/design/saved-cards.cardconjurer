@@ -65718,7 +65718,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "{i}Freezes{/i} — {2}{U}, {T}: Tap target creature and put a stun counter on it.\n{i}Lands a series of punches{/i} — {1}{R}: Gargant gains double strike until end of turn.\nWhenever Gargant is dealt damage from a red source, remove all counters from it and put a fire counter on it.\nWhenever Gargant is dealt damage from a blue source, remove all counters from it and put an ice counter on it.\nGargant has protection from red as long as it has a fire counter on it and protection from blue as long as it has an ice counter on it.",
+                    "text": "{i}Freezes{/i} — {2}{U}, {T}: Tap target creature. You may put a stun counter on it. If you do, put a stun counter on Gargant.\n{i}Lands a series of punches{/i} — {1}{R}: Gargant gains double strike until end of turn.\nWhenever Gargant is dealt damage from a red source, remove all counters from it and put a fire counter on it.\nWhenever Gargant is dealt damage from a blue source, remove all counters from it and put an ice counter on it.\nGargant has protection from red as long as it has a fire counter on it and protection from blue as long as it has an ice counter on it.",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,

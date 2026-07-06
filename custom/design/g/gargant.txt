@@ -14,14 +14,14 @@ Giant
 [Rarity]
 U
 [Oracle]
-Freezes — {2}{U}, {T}: Tap target creature and put a stun counter on it.
+Freezes — {2}{U}, {T}: Tap target creature. You may put a stun counter on it. If you do, put a stun counter on ~.
 Lands a series of punches — {1}{R}: ~ gains double strike until end of turn.
 Whenever ~ is dealt damage from a red source, remove all counters from it and put a fire counter on it.
 Whenever ~ is dealt damage from a blue source, remove all counters from it and put an ice counter on it.
 ~ has protection from red as long as it has a fire counter on it and protection from blue as long as it has an ice counter on it.
 [ForgeScript]
-A:AB$ Tap | Cost$ 2 U T | TgtPrompt$ Choose target creature | ValidTgts$ Creature | SubAbility$ DBCounter | SpellDescription$ Tap target creature and put a stun counter on it.
-SVar:DBCounter:DB$ PutCounter | Defined$ Targeted | CounterType$ Stun | CounterNum$ 1
+A:AB$ Tap | Cost$ 2 U T | ValidTgts$ Creature | SubAbility$ DBCounter | SpellDescription$ Tap target creature. You may put a stun counter on it. If you do, put a stun counter on CARDNAME. (If a permanent with a stun counter would become untapped, remove one from it instead.)
+SVar:DBCounter:DB$ PutCounter | UnlessCost$ AddCounter<1/Stun/Card.targetedBy/stun counter on targeted creature> | UnlessPayer$ You | UnlessSwitched$ True | Defined$ Self | CounterNum$ 1 | CounterType$ Stun
 A:AB$ Pump | Cost$ 1 R | Defined$ Self | KW$ Double Strike | SpellDescription$ ~ gains double strike until end of turn.
 T:Mode$ DamageDoneOnce | Execute$ TrigRemoveAllCountersBeforeFire | ValidTarget$ Card.Self | ValidSource$ Card.Red | TriggerZones$ Battlefield | TriggerDescription$ Whenever this creature is dealt damage from a red source, remove all counters from it and put a fire counter on it.
 T:Mode$ DamageDoneOnce | Execute$ TrigRemoveAllCountersBeforeIce | ValidTarget$ Card.Self | ValidSource$ Card.Blue | TriggerZones$ Battlefield | TriggerDescription$ Whenever this creature is dealt damage from a blue source, remove all counters from it and put an ice counter on it.
@@ -43,3 +43,4 @@ Sandfall Interactive
  - In the game, Gargant is a boss in Frozen Hearts.
  - Rather than transcribe its abilities 1:1 like other Nevrons, I've gone for something different here and only tried to mechanically capture its "flip-flop" elemental immunity.
  - 21/01/2026: Added Giant sub-type.
+ - 6/7/2026: For power level reasons, made stun portion of freeze ability optional and if chosen, will mutually stun ala. Sanctuary Wall

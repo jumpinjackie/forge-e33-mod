@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 6/7/2026 1:11:53 pm
+> Last generated: 6/7/2026 1:35:50 pm
 
 ## Aberration
 
@@ -1115,7 +1115,7 @@ Foretell {U}{B} (During your turn, you may pay {2} and exile this card from your
 ```
 3UR
 Legendary Creature - Nevron Giant
-Freezes — {2}{U}, {T}: Tap target creature and put a stun counter on it.
+Freezes — {2}{U}, {T}: Tap target creature. You may put a stun counter on it. If you do, put a stun counter on Gargant.
 Lands a series of punches — {1}{R}: Gargant gains double strike until end of turn.
 Whenever Gargant is dealt damage from a red source, remove all counters from it and put a fire counter on it.
 Whenever Gargant is dealt damage from a blue source, remove all counters from it and put an ice counter on it.
@@ -1131,6 +1131,7 @@ Gargant has protection from red as long as it has a fire counter on it and prote
  - In the game, Gargant is a boss in Frozen Hearts.
  - Rather than transcribe its abilities 1:1 like other Nevrons, I've gone for something different here and only tried to mechanically capture its "flip-flop" elemental immunity.
  - 21/01/2026: Added Giant sub-type.
+ - 6/7/2026: For power level reasons, made stun portion of freeze ability optional and if chosen, will mutually stun ala. Sanctuary Wall
 
 
 ### Rulings

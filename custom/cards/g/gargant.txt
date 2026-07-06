@@ -2,8 +2,8 @@ Name:Gargant
 ManaCost:3 U R
 Types:Legendary Creature Nevron Giant
 PT:2/6
-A:AB$ Tap | Cost$ 2 U T | TgtPrompt$ Choose target creature | ValidTgts$ Creature | SubAbility$ DBCounter | SpellDescription$ Tap target creature and put a stun counter on it.
-SVar:DBCounter:DB$ PutCounter | Defined$ Targeted | CounterType$ Stun | CounterNum$ 1
+A:AB$ Tap | Cost$ 2 U T | ValidTgts$ Creature | SubAbility$ DBCounter | SpellDescription$ Tap target creature. You may put a stun counter on it. If you do, put a stun counter on CARDNAME. (If a permanent with a stun counter would become untapped, remove one from it instead.)
+SVar:DBCounter:DB$ PutCounter | UnlessCost$ AddCounter<1/Stun/Card.targetedBy/stun counter on targeted creature> | UnlessPayer$ You | UnlessSwitched$ True | Defined$ Self | CounterNum$ 1 | CounterType$ Stun
 A:AB$ Pump | Cost$ 1 R | Defined$ Self | KW$ Double Strike | SpellDescription$ CARDNAME gains double strike until end of turn.
 T:Mode$ DamageDoneOnce | Execute$ TrigRemoveAllCountersBeforeFire | ValidTarget$ Card.Self | ValidSource$ Card.Red | TriggerZones$ Battlefield | TriggerDescription$ Whenever this creature is dealt damage from a red source, remove all counters from it and put a fire counter on it.
 T:Mode$ DamageDoneOnce | Execute$ TrigRemoveAllCountersBeforeIce | ValidTarget$ Card.Self | ValidSource$ Card.Blue | TriggerZones$ Battlefield | TriggerDescription$ Whenever this creature is dealt damage from a blue source, remove all counters from it and put an ice counter on it.
@@ -13,4 +13,4 @@ SVar:DBFire:DB$ PutCounter | Defined$ Self | CounterType$ FIRE | CounterNum$ 1
 SVar:DBIce:DB$ PutCounter | Defined$ Self | CounterType$ ICE | CounterNum$ 1
 S:Mode$ Continuous | Affected$ Card.Self+counters_GE1_FIRE | AddKeyword$ Protection from red | Description$ CARDNAME has protection from red as long as it has a fire counter on it.
 S:Mode$ Continuous | Affected$ Card.Self+counters_GE1_ICE | AddKeyword$ Protection from blue | Description$ CARDNAME has protection from blue as long as it has an ice counter on it.
-Oracle:Freezes — {2}{U}, {T}: Tap target creature and put a stun counter on it.\nLands a series of punches — {1}{R}: Gargant gains double strike until end of turn.\nWhenever Gargant is dealt damage from a red source, remove all counters from it and put a fire counter on it.\nWhenever Gargant is dealt damage from a blue source, remove all counters from it and put an ice counter on it.\nGargant has protection from red as long as it has a fire counter on it and protection from blue as long as it has an ice counter on it.
+Oracle:Freezes — {2}{U}, {T}: Tap target creature. You may put a stun counter on it. If you do, put a stun counter on Gargant.\nLands a series of punches — {1}{R}: Gargant gains double strike until end of turn.\nWhenever Gargant is dealt damage from a red source, remove all counters from it and put a fire counter on it.\nWhenever Gargant is dealt damage from a blue source, remove all counters from it and put an ice counter on it.\nGargant has protection from red as long as it has a fire counter on it and protection from blue as long as it has an ice counter on it.
