@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 6/7/2026 12:26:17 pm
+> Last generated: 6/7/2026 12:48:33 pm
 
 ## Aberration
 
@@ -405,8 +405,8 @@ When this creature dies, target opponent creates a Lumina token. (It's an artifa
 ```
 2UR
 Creature - Nevron
-{2}{R}, {T}: This creature deals 2 damage to target creature.
-{2}{U}, {T}: Tap target creature. Put a stun counter on it.
+{2}{R}, {T}: This creature deals 1 damage to any target.
+{2}{U}, {T}: Tap target creature.
 When this creature dies, if you control no creatures, put two 2/2 blue and red Nevron creature tokens named Danseuse Clone into play.
 When this creature dies, target opponent creates a Lumina token.
 
@@ -424,6 +424,9 @@ When this creature dies, target opponent creates a Lumina token.
     - For the clone ability, I preserved the original triggering condition but went against making token copies as that seemed really degenerate as the cloning trigger would also pass on to the tokens.
  - 13/10/2025: Removed Devoid.
  - 13/12/2025: Increased activated ability costs by {2}
+ - 6/7/2026: Rework abilities for power level
+   - Repeatable creature shock changed to any target ping
+   - Tap and stun changed to just creature tapping
 
 ## Death Stare (Gaze of Granite)
 

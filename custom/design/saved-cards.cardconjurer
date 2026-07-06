@@ -30361,7 +30361,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "{2}{R}, {T}: This creature deals 2 damage to target creature.\n{2}{U}, {T}: Tap target creature. Put a stun counter on it.\nWhen this creature dies, if you control no creatures, put two 2/2 blue and red Nevron creature tokens named Danseuse Clone into play.\nWhen this creature dies, target opponent creates a Lumina token.",
+                    "text": "{2}{R}, {T}: This creature deals 1 damage to any target.\n{2}{U}, {T}: Tap target creature.\nWhen this creature dies, if you control no creatures, put two 2/2 blue and red Nevron creature tokens named Danseuse Clone into play.\nWhen this creature dies, target opponent creates a Lumina token.",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
