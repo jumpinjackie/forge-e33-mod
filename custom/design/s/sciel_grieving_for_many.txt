@@ -18,8 +18,8 @@ Sandfall Interactive
 [Oracle]
 Each nonland card in your hand without foretell has foretell. Its foretell cost is equal to its mana cost reduced by {2}.
 Whenever you foretell a card, you gain 2 life.
-Twilight Slash - {W}{B},{T}: Sciel deals 2 damage to target creature, you gain 2 life.
-Intervention - {W}{W},{T}: Untap target creature. Create a Chroma token.
+Twilight Slash - {X}{W}{B}, {T}: ~ deals X damage to target creature and you gain X life. X cannot be greater than the number of foretold cards you own in exile.
+Intervention - {W}{W}, {T}: Untap target creature. Create a Chroma token.
 Our Sacrifice - {1}{B}{B}, {T}, Pay X life: Up to two target creatures each get -X/-X until end of turn.
 [AbilityWords]
 Twilight Slash
@@ -30,12 +30,14 @@ Our Sacrifice
 [ForgeScript]
 S:Mode$ Continuous | Affected$ Card.nonLand+YouOwn+withoutForetell | AffectedZone$ Hand | AddKeyword$ Foretell | Description$ Each nonland card in your hand without foretell has foretell. Its foretell cost is equal to its mana cost reduced by {2}. (During your turn, you may pay {2} and exile it from your hand face down. Cast it on a later turn for its foretell cost.)
 T:Mode$ Foretell | ValidPlayer$ You | Execute$ DBGainLife | TriggerZones$ Battlefield | TriggerDescription$ Whenever you foretell a card, you gain 2 life.
-A:AB$ DealDamage | Cost$ W B T | ValidTgts$ Creature | NumDmg$ 2 | SubAbility$ DBGainLife | SpellDescription$ CARDNAME deals 2 damage to target creature, you gain 2 life.
+A:AB$ DealDamage | Cost$ X W B T | ValidTgts$ Creature | NumDmg$ X | XMax$ XForetold | SubAbility$ DBSyphonLife | SpellDescription$ CARDNAME deals X damage to target creature and you gain X life. X cannot be greater than the number of foretold cards you own in exile.
 A:AB$ Untap | Cost$ W W T | ValidTgts$ Creature | TgtPrompt$ Select target creature | SubAbility$ DBCreateChroma | SpellDescription$ Untap target creature. Create a Chroma token.
 A:AB$ Pump | Cost$ 1 B B T PayLife<X> | ValidTgts$ Creature | TargetMin$ 0 | TargetMax$ 2 | NumAtt$ -X | NumDef$ -X | SpellDescription$ Up to two target creatures each get -X/-X until end of turn.
 SVar:DBGainLife:DB$ GainLife | LifeAmount$ 2
+SVar:DBSyphonLife:DB$ GainLife | LifeAmount$ X
 SVar:DBCreateChroma:DB$ Token | TokenScript$ c_a_chroma | TokenOwner$ You | TokenAmount$ 1
 SVar:X:Count$xPaid
+SVar:XForetold:Count$ValidExile Card.foretold+YouOwn
 [RelatedTokens]
 c_a_chroma
 [DraftScore]
@@ -57,3 +59,4 @@ The "mysterious new warrior" turned out to be Sciel, who got separated from the 
  - Our Sacrifice in the game deals extreme dark damage to all enemies, absorbing allies' health to deal more damage. Translated to paying X life to -X/-X an opponent's board.
  - 13/10/2025: Dropped the marking card ability due to text box budget constraints having seen this card for the first time in CardConjurer.
  - 21/01/2026: Changed "Our Sacrifice" ultimate to only target up to 2 creatures instead of all creatures target opponent controls.
+ - 7/7/2026: Changed "Twilight Slash" to deal X damage, where X is the number of foretold cards you own in exile. This adjusts the power level of the ability to require some upfront resource investment (foretelling cards first) instead of having a repeatable creature shock + lifegain for a flat mana cost. Also add X to the mana cost so that the cost scales with the amount of foretold cards, but the X is max capped to the amount of foretold cards so it doesn't get out of control.

@@ -80881,7 +80881,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Whenever Gustave becomes untapped, attacks or blocks, put a charge counter on him.\n{i}From Fire{/i} — {W}{R}, {T}: Gustave deals 3 damage to target creature, you gain 3 life.\n{i}Strike Storm{/i} — {W}{R}: Gustave gains double-strike until end of turn, put two charge counters on him. Activate only once per turn.\n{i}Overcharge{/i} — {U/R}, {T}, Remove X charge counters from Gustave: Gustave deals X damage to target creature and that creature’s controller. Draw a card.{flavor}“For those who come after.”",
+                    "text": "Whenever Gustave becomes untapped, attacks or blocks, put a charge counter on him.\n{i}From Fire{/i} — {W}{R}, {T}, Remove two charge counters from Gustave: He deals 3 damage to target creature, you gain 3 life.\n{i}Strike Storm{/i} — {W}{R}: Gustave gains double-strike until end of turn, put two charge counters on him. Activate only once per turn.\n{i}Overcharge{/i} — {U/R}, {T}, Remove X charge counters from Gustave: He deals X damage to target creature and that creature’s controller. Draw a card.{flavor}“For those who come after.”",
                     "x": 0.086,
                     "y": 0.6325515280739161,
                     "width": 0.828,
@@ -126267,7 +126267,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Each nonland card in your hand without foretell has foretell. Its foretell cost is equal to its mana cost reduced by {2}.\nWhenever you foretell a card, you gain 2 life.\n{i}Twilight Slash{/i} - {W}{B},{T}: Sciel deals 2 damage to target creature, you gain 2 life.\n{i}Intervention{/i} - {W}{W},{T}: Untap target creature. Create a Chroma token.\n{i}Our Sacrifice{/i} - {1}{B}{B}, {T}, Pay X life: Up to two target creatures each get -X/-X until end of turn.{flavor}“Death is a friend who will welcome me home”",
+                    "text": "Each nonland card in your hand without foretell has foretell. Its foretell cost is equal to its mana cost reduced by {2}.\nWhenever you foretell a card, you gain 2 life.\n{i}Twilight Slash{/i} - {X}{W}{B}, {T}: Sciel deals X damage to target creature and you gain X life. X cannot be greater than the number of foretold cards you own in exile.\n{i}Intervention{/i} - {W}{W}, {T}: Untap target creature. Create a Chroma token.\n{i}Our Sacrifice{/i} - {1}{B}{B}, {T}, Pay X life: Up to two target creatures each get -X/-X until end of turn.{flavor}“Death is a friend who will welcome me home”",
                     "x": 0.086,
                     "y": 0.6325515280739161,
                     "width": 0.828,

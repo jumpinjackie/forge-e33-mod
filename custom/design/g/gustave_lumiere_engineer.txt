@@ -19,9 +19,9 @@ Sandfall Interactive
 3/3
 [Oracle]
 Whenever Gustave becomes untapped, attacks or blocks, put a charge counter on him.
-From Fire — {W}{R}, {T}: Gustave deals 3 damage to target creature, you gain 3 life.
+From Fire — {W}{R}, {T}, Remove two charge counters from Gustave: He deals 3 damage to target creature, you gain 3 life.
 Strike Storm — {W}{R}: Gustave gains double-strike until end of turn, put two charge counters on him. Activate only once per turn.
-Overcharge — {U/R}, {T}, Remove X charge counters from Gustave: Gustave deals X damage to target creature and that creature's controller. Draw a card.
+Overcharge — {U/R}, {T}, Remove X charge counters from Gustave: He deals X damage to target creature and that creature's controller. Draw a card.
 [AbilityWords]
 From Fire
 Strike Storm
@@ -32,7 +32,7 @@ Overcharge
 T:Mode$ Attacks | ValidCard$ Card.Self | TriggerZones$ Battlefield | Execute$ DBCharge | TriggerDescription$ Whenever CARDNAME attacks, put a charge counter on him.
 T:Mode$ Blocks | ValidCard$ Card.Self | TriggerZones$ Battlefield | Execute$ DBCharge | TriggerDescription$ Whenever CARDNAME blocks, put a charge counter on him.
 T:Mode$ Untaps | ValidCard$ Card.Self | TriggerZones$ Battlefield | Execute$ DBCharge | TriggerDescription$ Whenever CARDNAME becomes untapped, put a charge counter on him.
-A:AB$ DealDamage | Cost$ W R T | ValidTgts$ Creature | NumDmg$ 3 | SubAbility$ DBGainLife | SpellDescription$ CARDNAME deals 3 damage to target creature, you gain 3 life.
+A:AB$ DealDamage | Cost$ W R T SubCounter<2/CHARGE> | ValidTgts$ Creature | NumDmg$ 3 | SubAbility$ DBGainLife | SpellDescription$ CARDNAME deals 3 damage to target creature, you gain 3 life.
 A:AB$ Pump | Cost$ W R | KW$ Double Strike | SubAbility$ DBChargeTwice | ActivationLimit$ 1 | SpellDescription$ CARDNAME gains double-strike until ene of turn, put two charge counters on him. Activate this ability only once per turn.
 A:AB$ DealDamage | Cost$ UR T SubCounter<X/CHARGE> | ValidTgts$ Creature | NumDmg$ X | SubAbility$ DBDamageController | SpellDescription$ CARDNAME deals X damage to target creature and that creature's controller. Draw a card.
 SVar:DBCharge:DB$ PutCounter | Defined$ Self | CounterType$ CHARGE | CounterNum$ 1
@@ -61,3 +61,4 @@ We are introduced to Gustave.
  - 13/10/2025: Dropped the marking shot ability due to text box budget constraints having seen this card for the first time in CardConjurer.
  - 14/02/2026: Reorder mana symbols for consistency with actual cards with hybrid/regular pip combinations
  - 14/05/2026: Added {U/R} cost to Overcharge ultimate so blue mana has textbox participation. Also added card draw bonus.
+ - 7/7/2026: Tweak "From Fire" ability to require 2 charge counter payment in addition to its other costs.

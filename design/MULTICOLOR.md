@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 6/7/2026 1:46:24 pm
+> Last generated: 6/7/2026 2:53:46 pm
 
 ## Aberration
 
@@ -1481,9 +1481,9 @@ When this creature dies, target opponent creates a Lumina token. (It's an artifa
 1(U/R)W
 Legendary Creature - Human Expeditioner
 Whenever Gustave becomes untapped, attacks or blocks, put a charge counter on him.
-From Fire — {W}{R}, {T}: Gustave deals 3 damage to target creature, you gain 3 life.
+From Fire — {W}{R}, {T}, Remove two charge counters from Gustave: He deals 3 damage to target creature, you gain 3 life.
 Strike Storm — {W}{R}: Gustave gains double-strike until end of turn, put two charge counters on him. Activate only once per turn.
-Overcharge — {U/R}, {T}, Remove X charge counters from Gustave: Gustave deals X damage to target creature and that creature's controller. Draw a card.
+Overcharge — {U/R}, {T}, Remove X charge counters from Gustave: He deals X damage to target creature and that creature's controller. Draw a card.
 ---
 "For those who come after."
 
@@ -1503,6 +1503,7 @@ Overcharge — {U/R}, {T}, Remove X charge counters from Gustave: Gustave deals 
  - 13/10/2025: Dropped the marking shot ability due to text box budget constraints having seen this card for the first time in CardConjurer.
  - 14/02/2026: Reorder mana symbols for consistency with actual cards with hybrid/regular pip combinations
  - 14/05/2026: Added {U/R} cost to Overcharge ultimate so blue mana has textbox participation. Also added card draw bonus.
+ - 7/7/2026: Tweak "From Fire" ability to require 2 charge counter payment in addition to its other costs.
 
 ## Jar of Candy
 
@@ -2283,8 +2284,8 @@ Return target card you own from exile to your hand.
 Legendary Creature - Human Expeditioner
 Each nonland card in your hand without foretell has foretell. Its foretell cost is equal to its mana cost reduced by {2}.
 Whenever you foretell a card, you gain 2 life.
-Twilight Slash - {W}{B},{T}: Sciel deals 2 damage to target creature, you gain 2 life.
-Intervention - {W}{W},{T}: Untap target creature. Create a Chroma token.
+Twilight Slash - {X}{W}{B}, {T}: Sciel deals X damage to target creature and you gain X life. X cannot be greater than the number of foretold cards you own in exile.
+Intervention - {W}{W}, {T}: Untap target creature. Create a Chroma token.
 Our Sacrifice - {1}{B}{B}, {T}, Pay X life: Up to two target creatures each get -X/-X until end of turn.
 ---
 "Death is a friend who will welcome me home"
@@ -2304,6 +2305,7 @@ Our Sacrifice - {1}{B}{B}, {T}, Pay X life: Up to two target creatures each get 
  - Our Sacrifice in the game deals extreme dark damage to all enemies, absorbing allies' health to deal more damage. Translated to paying X life to -X/-X an opponent's board.
  - 13/10/2025: Dropped the marking card ability due to text box budget constraints having seen this card for the first time in CardConjurer.
  - 21/01/2026: Changed "Our Sacrifice" ultimate to only target up to 2 creatures instead of all creatures target opponent controls.
+ - 7/7/2026: Changed "Twilight Slash" to deal X damage, where X is the number of foretold cards you own in exile. This adjusts the power level of the ability to require some upfront resource investment (foretelling cards first) instead of having a repeatable creature shock + lifegain for a flat mana cost. Also add X to the mana cost so that the cost scales with the amount of foretold cards, but the X is max capped to the amount of foretold cards so it doesn't get out of control.
 
 ## Seal of Approval
 
