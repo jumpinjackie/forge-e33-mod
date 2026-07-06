@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 25/6/2026 10:19:48 am
+> Last generated: 6/7/2026 3:16:47 pm
 
 ## Blade's Graveyard (Concealed Courtyard)
 
@@ -702,7 +702,8 @@ It bears the twisted memories of lands previously visited.
 
 ### Rulings
 
- - If you target The Reacher with the copy ability, it will become the copy of The Reacher with 0 sky counters. If you choose to keep this copy as part of the legend rule, it will then be an 8/8 land creature that can block, and is ready to attack on your next turn.
+ - If you target The Reacher with the triggered copy ability, it will become the copy of The Reacher with 0 sky counters. If you choose to keep this copy as part of the legend rule, it will then be an 8/8 land creature that can block, and is ready to attack on your next turn.
+    - However, if you play The Monolith Interior and choose to copy The Reacher as it enters, it will enter as a copy with 7 sky counters, then the legend rule kicks in and you must choose the copy to keep.
  - If you decline to use the copy ability when it enters, you also lose the ability to copy another land (and this triggered ability) at the beginning of your upkeep going forward.
 
 ## The Reacher
@@ -737,7 +738,7 @@ Whenever a creature you control with flying attacks, remove a sky counter from T
 
 ### Rulings
 
- - If you copy this land with The Monolith Interior's copy ability. That land will become a copy of The Reacher with 0 sky counters. If you choose to keep this copy as part of the legend rule, it will then be an 8/8 land creature that can block, and is ready to attack on your next turn.
+ - If you copy this land with The Monolith Interior's triggered copy ability. That land will become a copy of The Reacher with 0 sky counters. If you choose to keep this copy as part of the legend rule, it will then be an 8/8 land creature that can block, and is ready to attack on your next turn.
 
 ## The Root of All Evil (Urborg, Tomb of Yawgmoth)
 
