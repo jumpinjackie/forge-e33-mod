@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 6/7/2026 1:35:50 pm
+> Last generated: 6/7/2026 1:41:08 pm
 
 ## Aberration
 
@@ -1230,6 +1230,9 @@ With one small gesture, the Nevron soon dissipated into a bloom of gold petals.
 Legendary Creature - Nevron
 At the beginning of your upkeep, put a crush counter on Giant Sapling.
 Exhaust — Remove three crush counters from Giant Sapling: Giant Sapling deals 6 damage to each creature without flying. (Activate each exhaust ability only once)
+---
+“It's an ambush.”
+—Verso
 
 7/7
 ```

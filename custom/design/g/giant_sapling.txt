@@ -15,6 +15,9 @@ R
 [Oracle]
 At the beginning of your upkeep, put a crush counter on ~.
 Exhaust — Remove three crush counters from Giant Sapling: Giant Sapling deals 6 damage to each creature without flying. (Activate each exhaust ability only once)
+[FlavorText]
+“It's an ambush.”
+—Verso
 [ForgeScript]
 T:Mode$ Phase | Phase$ Upkeep | ValidPlayer$ You | TriggerZones$ Battlefield | Execute$ TrigAddCounter | TriggerDescription$ At the beginning of your upkeep, remove a crush counter. When ~ has no crush counters, it deals 6 damage to each creature without flying.
 SVar:TrigAddCounter:DB$ PutCounter | Defined$ Self | CounterType$ CRUSH | CounterNum$ 1
