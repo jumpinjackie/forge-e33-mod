@@ -14582,7 +14582,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Reach\n{i}Eats party member{/i} — When this creature enters, exile another target creature.\nWhen this creature leaves the battlefield, return the exiled card to the battlefield under its owner’s control.\n{i}Multi-hit combo{/i} — {2}{R}: This creature gains double strike until end of turn.\n{i}Spits miasma{/i} — {2}{B}, {T}: This creature deals 2 damage to target creature. Put a stun counter on that creature.{flavor}Its appetite is just as big.",
+                    "text": "Reach\n{i}Eats party member{/i} — When this creature enters, exile another target creature.\nWhen this creature leaves the battlefield, return the exiled card to the battlefield under its owner’s control.\n{i}Multi-hit combo{/i} — {2}{R}: This creature gains double strike until end of turn.\n{i}Spits miasma{/i} — {2}{B}, {T}, Exert this creature: This creature deals 2 damage to target creature. Put a stun counter on that creature.{flavor}Its appetite is just as big.",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,

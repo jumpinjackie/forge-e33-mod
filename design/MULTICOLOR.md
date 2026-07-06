@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 1/7/2026 10:51:18 am
+> Last generated: 6/7/2026 12:15:31 pm
 
 ## Aberration
 
@@ -167,7 +167,7 @@ Reach
 Eats party member — When this creature enters, exile another target creature.
 When this creature leaves the battlefield, return the exiled card to the battlefield under its owner's control.
 Multi-hit combo — {2}{R}: This creature gains double strike until end of turn.
-Spits miasma — {2}{B}, {T}: This creature deals 2 damage to target creature. Put a stun counter on that creature.
+Spits miasma — {2}{B}, {T}, Exert this creature: This creature deals 2 damage to target creature. Put a stun counter on that creature.
 ---
 Its appetite is just as big.
 
@@ -185,6 +185,7 @@ Its appetite is just as big.
    - Spits miasma: A shock and stun on target creature.
  - 21/01/2026: Added Giant sub-type.
  - 25/02/2026: Added reach
+ - 6/7/2026: Added exertion to "Spits Miasma" ability to curb power level (repeatable creature shock + stun is a tad too powerful)
 
 ## Braseleur
 
