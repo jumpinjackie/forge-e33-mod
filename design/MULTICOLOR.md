@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 6/7/2026 1:41:08 pm
+> Last generated: 6/7/2026 1:46:24 pm
 
 ## Aberration
 
@@ -1443,6 +1443,8 @@ Creature - Grandis
 {2}, {T}: Create a Lumina token.
 {3}, {T}: Put a +1/+1 counter on target creature.
 {4}, {T}: Put a shield counter on target creature.
+---
+"Retrieve the Eternal Ice and, for a fair price, I will use it to augment your defenses. What say you?"
 
 1/3
 ```

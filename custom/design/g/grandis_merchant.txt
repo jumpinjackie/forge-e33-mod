@@ -15,6 +15,8 @@ U
 {2}, {T}: Create a Lumina token.
 {3}, {T}: Put a +1/+1 counter on target creature.
 {4}, {T}: Put a shield counter on target creature.
+[FlavorText]
+"Retrieve the Eternal Ice and, for a fair price, I will use it to augment your defenses. What say you?"
 [ForgeScript]
 A:AB$ Draw | Cost$ T | NumCards$ 1 | SpellDescription$ Draw a card, then discard a card. | SubAbility$ DBDiscard
 SVar:DBDiscard:DB$ Discard | Defined$ You | Mode$ TgtChoose | NumCards$ 1

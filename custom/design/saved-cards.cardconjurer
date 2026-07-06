@@ -78944,7 +78944,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "{T}: Draw a card, then discard a card.\n{2}, {T}: Create a Lumina token.\n{3}, {T}: Put a +1/+1 counter on target creature.\n{4}, {T}: Put a shield counter on target creature.",
+                    "text": "{T}: Draw a card, then discard a card.\n{2}, {T}: Create a Lumina token.\n{3}, {T}: Put a +1/+1 counter on target creature.\n{4}, {T}: Put a shield counter on target creature.{flavor}“Retrieve the Eternal Ice and, for a fair price, I will use it to augment your defenses. What say you?”",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
