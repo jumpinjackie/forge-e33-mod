@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 6/7/2026 12:48:33 pm
+> Last generated: 6/7/2026 1:11:53 pm
 
 ## Aberration
 
@@ -666,8 +666,11 @@ When Estelle dies, create a Chroma token. (It's an artifact with "{T}, Sacrifice
 3RG
 Legendary Creature - Nevron
 Évêque enters with a shield counter. (If it would be dealt damage or destroyed, remove a shield counter from it instead.)
-Casts a spell — {2}{R}, {T}: Évêque deals 2 damage to target creature.
+Casts a spell — {2}{R}, {T}, Exert Évêque: It deals 2 damage to target creature.
 Summons minions — {2}{G}{G}, {T}: Create two 1/1 green Nevron creature tokens named Abbest.
+---
+“Fall back!”
+—Lune
 
 4/4
 ```
@@ -677,6 +680,7 @@ Summons minions — {2}{G}{G}, {T}: Create two 1/1 green Nevron creature tokens 
 ### Design Notes
 
  - In the game, Évêque is the first boss, encountered at the end of Spring Meadows.
+ - 6/7/2026: Tweaked "Casts a spell" ability to require exertion to curb power level (repeatable creature shocks need some drawback)
 
 ## Expedition 34 Mage
 

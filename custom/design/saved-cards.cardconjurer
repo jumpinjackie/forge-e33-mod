@@ -160648,7 +160648,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Évêque enters with a shield counter. (If it would be dealt damage or destroyed, remove a shield counter from it instead.)\n{i}Casts a spell{/i} — {2}{R}, {T}: Évêque deals 2 damage to target creature.\n{i}Summons minions{/i} — {2}{G}{G}, {T}: Create two 1/1 green Nevron creature tokens named Abbest.",
+                    "text": "Évêque enters with a shield counter. (If it would be dealt damage or destroyed, remove a shield counter from it instead.)\n{i}Casts a spell{/i} — {2}{R}, {T}, Exert Évêque: It deals 2 damage to target creature.\n{i}Summons minions{/i} — {2}{G}{G}, {T}: Create two 1/1 green Nevron creature tokens named Abbest.{flavor}“Fall back!”\n—Lune",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
