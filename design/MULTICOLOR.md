@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 6/7/2026 2:53:46 pm
+> Last generated: 8/7/2026 10:50:18 am
 
 ## Aberration
 
@@ -2448,9 +2448,9 @@ A Widow Ballet Charms — Sacrifice four creature tokens named Ballet: Gain cont
 1UBR
 Legendary Creature - Nevron
 Multi-strike combo — {R}{R}: Sprong gains double strike until end of turn.
-Sabotages the expedition — {U}{U}, {T}: Tap target creature and put a stun counter on it.
+Sabotages the expedition — {U}{U}, {T}: Tap target creature. You may put a stun counter on it. If you do, put a stun counter on Sprong.
 Charges Extermination Boom — {2}: Put a charge counter on Sprong.
-Extermination Boom — {B}{B}, {T}, Remove X charge counters from Sprong: Sprong deals X damage divided as you choose among any number of target creatures.
+Extermination Boom — {B}{B}, {T}, Remove X charge counters from Sprong: It deals X damage to target creature or planeswalker.
 
 5/5
 ```
@@ -2461,6 +2461,9 @@ Extermination Boom — {B}{B}, {T}, Remove X charge counters from Sprong: Sprong
 
  - In the game, Sprong is an optional overworld boss.
  - Grixis color identity chosen so double strike could be flavorfully woven in to its ability suite. Other abilities are on-flavor for their respective colors.
+ - 8/7/2026: Game balancing adjustments
+    - Sabotages the expedition downgraded to a regular tap with the stun option being optional and mutual (ala. Sanctuary Wall)
+    - Extermination Boom now only targets a single creature (or planeswalker), otherwise this is a straight up Masticore-tier creature machine gun without a Masticore-tier drawback.
 
 ## Stalact
 

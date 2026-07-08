@@ -134152,11 +134152,11 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "{i}Multi-strike combo{/i} — {R}{R}: Sprong gains double strike until end of turn.\n{i}Sabotages the expedition{/i} — {U}{U}, {T}: Tap target creature and put a stun counter on it.\n{i}Charges Extermination Boom{/i} — {2}: Put a charge counter on Sprong.\n{i}Extermination Boom{/i} — {B}{B}, {T}, Remove X charge counters from Sprong: Sprong deals X damage divided as you choose among any number of target creatures.",
+                    "text": "{i}Multi-strike combo{/i} — {R}{R}: Sprong gains double strike until end of turn.\n{i}Sabotages the expedition{/i} — {U}{U}, {T}: Tap target creature. You may put a stun counter on it. If you do, put a stun counter on Sprong.\n{i}Charges Extermination Boom{/i} — {2}: Put a charge counter on Sprong.\n{i}Extermination Boom{/i} — {B}{B}, {T}, Remove X charge counters from Sprong: It deals X damage to target creature or planeswalker.",
                     "x": 0.086,
                     "y": 0.6303,
-                    "width": 0.828,
-                    "height": 0.2771855010660981,
+                    "width": 0.8278606965174129,
+                    "height": 0.28429282160625446,
                     "size": 0.0362
                 },
                 "pt": {
