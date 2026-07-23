@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 26/6/2026 1:36:10 pm
+> Last generated: 23/7/2026 12:24:57 pm
 
 ## An Advantage!
 
@@ -64,7 +64,7 @@ Whenever enchanted creature deals damage to an opponent, choose one —
 ```
 2U
 Creature - Nevron
-This creature gets +2/+2 and Ward {2} if you control a creature named Cruler.
+This creature gets +1/+2 and ward {1} if you control a creature named Cruler.
 When this creature dies, target opponent creates a Lumina token. (It's an artifact with "{T}, Sacrifice this artifact: Scry 1.")
 
 3/2
@@ -76,6 +76,7 @@ When this creature dies, target opponent creates a Lumina token. (It's an artifa
 
  - In the game, Bruler is generally in a party with Cruler. Thus I've gone with giving Bruler a buff if you also control Cruler
  - 13/10/2025: Removed Devoid.
+ - 23/07/2025: Scaled back pair bonus to +1/+2 and ward 1
 
 ## Colette, Trinket Dealer
 
@@ -128,7 +129,7 @@ Tap an untapped Expeditioner you control: Tap target land.
 2U
 Creature - Nevron
 This creature enters with a shield counter on it. (If it would be dealt damage or destroyed, remove a shield counter from it instead.)
-This creature gets +2/+2 and Ward {2} if you control a creature named Bruler.
+This creature gets +2/+1 and ward {1} if you control a creature named Bruler.
 When this creature dies, target opponent creates a Lumina token. (It's an artifact with "{T}, Sacrifice this artifact: Scry 1.")
 
 2/3
@@ -141,6 +142,7 @@ When this creature dies, target opponent creates a Lumina token. (It's an artifa
  - The other half of Bruler. Thus like Cruler, decided to give the same buff if the other half is present.
  - 13/10/2025: Removed Devoid.
  - 21/10/2025: Added ETB with shield counter to match its character sheet.
+ - 23/07/2025: Scaled back pair bonus to +2/+1 and ward 1
 
 ## Démineur
 

@@ -15767,7 +15767,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "This creature gets +2/+2 and Ward {2} if you control a creature named Cruler.\nWhen this creature dies, target opponent creates a Lumina token. (It’s an artifact with “{T}, Sacrifice this artifact: Scry 1.”)",
+                    "text": "This creature gets +1/+2 and ward {1} if you control a creature named Cruler.\nWhen this creature dies, target opponent creates a Lumina token. (It’s an artifact with “{T}, Sacrifice this artifact: Scry 1.”)",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
@@ -28837,7 +28837,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "This creature enters with a shield counter on it. (If it would be dealt damage or destroyed, remove a shield counter from it instead.)\nThis creature gets +2/+2 and Ward {2} if you control a creature named Bruler.\nWhen this creature dies, target opponent creates a Lumina token. (It’s an artifact with “{T}, Sacrifice this artifact: Scry 1.”)",
+                    "text": "This creature enters with a shield counter on it. (If it would be dealt damage or destroyed, remove a shield counter from it instead.)\nThis creature gets +2/+1 and ward {1} if you control a creature named Bruler.\nWhen this creature dies, target opponent creates a Lumina token. (It’s an artifact with “{T}, Sacrifice this artifact: Scry 1.”)",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
