@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 26/6/2026 1:36:10 pm
+> Last generated: 23/7/2026 11:48:27 am
 
 ## Axon Offering
 
@@ -216,7 +216,8 @@ When this creature dies, create a Chroma token.
 BB
 Creature - Human Expeditioner Ranger
 When this creature enters, destroy up to one target Nevron creature.
-{2}{B}, {T}: Target creature gets -2/-2 until end of turn.
+{B}, {T}: Target creature gets -1/-1 until end of turn.
+Whenever a Nevron dies, draw a card. This ability only triggers once each turn.
 When this creature dies, create a Chroma token.
 ---
 "Oh, I hear a big Nev coming, they count for double. If I kill it quick I can boost my score."
@@ -233,6 +234,12 @@ When this creature dies, create a Chroma token.
  - Mechanically translated to a creature with creature killing abilities and standard Expeditioner death bonus.
  - 21/01/2026: Added Ranger sub-type and fix ETB targeting.
  - 3/02/2026: Reduce cost from 1BB to BB
+ - 23/07/2026: Reduce -2/-2 ability to -1/-1 and change activation cost to [B, T]. Also add a once-per-turn Nevron death trigger to draw a card to lean in more on the "racking up the score" theme the flavor text implies.
+
+
+### Rulings
+
+ - Nevron death trigger will trigger on any Nevron permanent dying, not just creatures.
 
 ## Familial Bonding
 

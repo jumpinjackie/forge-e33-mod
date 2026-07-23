@@ -4,7 +4,9 @@ Types:Creature Human Expeditioner Ranger
 PT:2/2
 T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ DBDestroy | TriggerDescription$ When CARDNAME enters, destroy up to one target Nevron creature.
 SVar:DBDestroy:DB$ Destroy | ValidTgts$ Creature.Nevron | TgtPrompt$ Select target Nevron creature | TargetMin$ 0 | TargetMax$ 1
-A:AB$ Pump | Cost$ 2 B T | ValidTgts$ Creature | TgtPrompt$ Select target creature | NumAtt$ -2 | NumDef$ -2 | SpellDescription$ Target creature gets -2/-2 until end of turn.
+A:AB$ Pump | Cost$ B T | ValidTgts$ Creature | TgtPrompt$ Select target creature | NumAtt$ -2 | NumDef$ -2 | SpellDescription$ Target creature gets -1/-1 until end of turn.
+T:Mode$ ChangesZone | Origin$ Battlefield | ValidCard$ Nevron | Destination$ Graveyard | TriggerZones$ Battlefield | ActivationLimit$ 1 | Execute$ TrigDraw | TriggerDescription$ Whenever a Nevron dies, draw a card. This ability only triggers once each turn.
+SVar:TrigDraw:DB$ Draw | NumCards$ 1
 T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Card.Self | Execute$ TrigToken | TriggerDescription$ When CARDNAME dies, create a Chroma token
 SVar:TrigToken:DB$ Token | TokenScript$ c_a_chroma | TokenOwner$ You | TokenAmount$ 1
-Oracle:When this creature enters, destroy up to one target Nevron creature.\n{2}{B}, {T}: Target creature gets -2/-2 until end of turn.\nWhen this creature dies, create a Chroma token.
+Oracle:When this creature enters, destroy up to one target Nevron creature.\n{B}, {T}: Target creature gets -1/-1 until end of turn.\nWhenever a Nevron dies, draw a card. This ability only triggers once each turn.\nWhen this creature dies, create a Chroma token.

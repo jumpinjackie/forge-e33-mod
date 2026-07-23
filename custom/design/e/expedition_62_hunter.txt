@@ -16,7 +16,8 @@ Sandfall Interactive
 2/2
 [Oracle]
 When this creature enters, destroy up to one target Nevron creature.
-{2}{B}, {T}: Target creature gets -2/-2 until end of turn.
+{B}, {T}: Target creature gets -1/-1 until end of turn.
+Whenever a Nevron dies, draw a card. This ability only triggers once each turn.
 When this creature dies, create a Chroma token.
 [FlavorText]
 "Oh, I hear a big Nev coming, they count for double. If I kill it quick I can boost my score."
@@ -24,7 +25,9 @@ When this creature dies, create a Chroma token.
 [ForgeScript]
 T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ DBDestroy | TriggerDescription$ When ~ enters, destroy up to one target Nevron creature.
 SVar:DBDestroy:DB$ Destroy | ValidTgts$ Creature.Nevron | TgtPrompt$ Select target Nevron creature | TargetMin$ 0 | TargetMax$ 1
-A:AB$ Pump | Cost$ 2 B T | ValidTgts$ Creature | TgtPrompt$ Select target creature | NumAtt$ -2 | NumDef$ -2 | SpellDescription$ Target creature gets -2/-2 until end of turn.
+A:AB$ Pump | Cost$ B T | ValidTgts$ Creature | TgtPrompt$ Select target creature | NumAtt$ -2 | NumDef$ -2 | SpellDescription$ Target creature gets -1/-1 until end of turn.
+T:Mode$ ChangesZone | Origin$ Battlefield | ValidCard$ Nevron | Destination$ Graveyard | TriggerZones$ Battlefield | ActivationLimit$ 1 | Execute$ TrigDraw | TriggerDescription$ Whenever a Nevron dies, draw a card. This ability only triggers once each turn.
+SVar:TrigDraw:DB$ Draw | NumCards$ 1
 T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Card.Self | Execute$ TrigToken | TriggerDescription$ When CARDNAME dies, create a Chroma token
 SVar:TrigToken:DB$ Token | TokenScript$ c_a_chroma | TokenOwner$ You | TokenAmount$ 1
 [RelatedTokens]
@@ -33,8 +36,11 @@ c_a_chroma
 creature-removal
 [DraftScore]
 75
+[Rulings]
+ - Nevron death trigger will trigger on any Nevron permanent dying, not just creatures.
 [DesignNotes]
  - In the game, Expedition 62 made Nevron hunting into a game, with members constantly trying to outscore each other in Nevron kills.
  - Mechanically translated to a creature with creature killing abilities and standard Expeditioner death bonus.
  - 21/01/2026: Added Ranger sub-type and fix ETB targeting.
  - 3/02/2026: Reduce cost from 1BB to BB
+ - 23/07/2026: Reduce -2/-2 ability to -1/-1 and change activation cost to [B, T]. Also add a once-per-turn Nevron death trigger to draw a card to lean in more on the "racking up the score" theme the flavor text implies.
