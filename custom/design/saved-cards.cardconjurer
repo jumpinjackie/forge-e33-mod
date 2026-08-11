@@ -127211,10 +127211,10 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "When this enchantment enters, draw a card.\nSacrifice this enchantment: The next historic spell you cast costs {1} less to cast. (Artifacts, legendaries, and Sagas are historic.)\nForetell {1}{W/U} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)",
+                    "text": "When this enchantment enters, draw a card.\nSacrifice this enchantment: The next historic spell you cast can’t be countered. (Artifacts, legendaries, and Sagas are historic.)\nForetell {1}{W/U} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)",
                     "x": 0.086,
                     "y": 0.6303,
-                    "width": 0.828,
+                    "width": 0.827363184079602,
                     "height": 0.2875,
                     "size": 0.0362
                 },

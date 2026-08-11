@@ -9,16 +9,15 @@ C
 Enchantment
 [Oracle]
 When ~ enters, draw a card.
-Sacrifice ~: The next historic spell you cast costs {1} less to cast. (Artifacts, legendaries, and Sagas are historic.)
+Sacrifice ~: The next historic spell you cast can't be countered. (Artifacts, legendaries, and Sagas are historic.)
 Foretell {1}{W/U} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)
 [ForgeScript]
 K:Foretell:1 WU
 T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigDraw | TriggerDescription$ When ~ enters, draw a card.
 SVar:TrigDraw:DB$ Draw | Defined$ You | NumCards$ 1
-A:AB$ Effect | Cost$ Sac<1/CARDNAME> | StaticAbilities$ ReduceCost | Triggers$ TrigCastSpell | Duration$ Permanent | SpellDescription$ The next Historic spell you cast costs {2} less to cast.
-SVar:ReduceCost:Mode$ ReduceCost | Type$ Spell | Activator$ You | ValidCard$ Card.Historic | Amount$ 1 | Description$ The next Historic spell you cast costs {1} less to cast.
-SVar:TrigCastSpell:Mode$ SpellCast | ValidCard$ Card.Historic | ValidActivatingPlayer$ You | TriggerZones$ Command | Execute$ RemoveEffect | Static$ True
-SVar:RemoveEffect:DB$ ChangeZone | Origin$ Command | Destination$ Exile
+A:AB$ DelayedTrigger | Cost$ Sac<1/CARDNAME> | Mode$ SpellCast | ValidCard$ Card.Historic | ValidActivatingPlayer$ You | Execute$ DBEffect | ThisTurn$ True | Static$ True | SpellDescription$ The next historic spell you cast can't be countered.
+SVar:DBEffect:DB$ Effect | ReplacementEffects$ AntiMagic | RememberObjects$ TriggeredCard | ForgetOnMoved$ Stack
+SVar:AntiMagic:Event$ Counter | ValidCard$ Card.IsRemembered | ValidSA$ Spell | Layer$ CantHappen | Description$ This spell can't be countered.
 DeckHints:Type$Artifact|Saga|Legendary
 [Artist]
 Sandfall Interactive
@@ -33,3 +32,4 @@ Sciel gives her glowing endorsement of Gustave "shouting the password as loud as
  - This card 100% based on the "Sciel of Approval" meme/pun.
  - 21/01/2026: Color-shifted from white to white/blue hybrid.
  - 6/02/2026: Added Foretell
+ - 6/08/2026: Changed sac ability to grant the next historic spell uncounterability. Since [approval > permission to do X] and in MTG lingo, permission generally means "this spell is allowed to resolve", though in this case we are forcing the matter through uncounterability.

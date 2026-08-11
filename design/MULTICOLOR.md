@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 8/7/2026 10:50:18 am
+> Last generated: 11/8/2026 11:18:44 am
 
 ## Aberration
 
@@ -2313,7 +2313,7 @@ Our Sacrifice - {1}{B}{B}, {T}, Pay X life: Up to two target creatures each get 
 2(W/U)
 Enchantment
 When this enchantment enters, draw a card.
-Sacrifice this enchantment: The next historic spell you cast costs {1} less to cast. (Artifacts, legendaries, and Sagas are historic.)
+Sacrifice this enchantment: The next historic spell you cast can't be countered. (Artifacts, legendaries, and Sagas are historic.)
 Foretell {1}{W/U} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)
 ```
 
@@ -2325,6 +2325,7 @@ Foretell {1}{W/U} (During your turn, you may pay {2} and exile this card from yo
  - This card 100% based on the "Sciel of Approval" meme/pun.
  - 21/01/2026: Color-shifted from white to white/blue hybrid.
  - 6/02/2026: Added Foretell
+ - 6/08/2026: Changed sac ability to grant the next historic spell uncounterability. Since [approval > permission to do X] and in MTG lingo, permission generally means "this spell is allowed to resolve", though in this case we are forcing the matter through uncounterability.
 
 ## Serpenphare
 

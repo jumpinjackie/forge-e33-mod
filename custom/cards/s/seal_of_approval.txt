@@ -4,9 +4,8 @@ Types:Enchantment
 K:Foretell:1 WU
 T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigDraw | TriggerDescription$ When CARDNAME enters, draw a card.
 SVar:TrigDraw:DB$ Draw | Defined$ You | NumCards$ 1
-A:AB$ Effect | Cost$ Sac<1/CARDNAME> | StaticAbilities$ ReduceCost | Triggers$ TrigCastSpell | Duration$ Permanent | SpellDescription$ The next Historic spell you cast costs {2} less to cast.
-SVar:ReduceCost:Mode$ ReduceCost | Type$ Spell | Activator$ You | ValidCard$ Card.Historic | Amount$ 1 | Description$ The next Historic spell you cast costs {1} less to cast.
-SVar:TrigCastSpell:Mode$ SpellCast | ValidCard$ Card.Historic | ValidActivatingPlayer$ You | TriggerZones$ Command | Execute$ RemoveEffect | Static$ True
-SVar:RemoveEffect:DB$ ChangeZone | Origin$ Command | Destination$ Exile
+A:AB$ DelayedTrigger | Cost$ Sac<1/CARDNAME> | Mode$ SpellCast | ValidCard$ Card.Historic | ValidActivatingPlayer$ You | Execute$ DBEffect | ThisTurn$ True | Static$ True | SpellDescription$ The next historic spell you cast can't be countered.
+SVar:DBEffect:DB$ Effect | ReplacementEffects$ AntiMagic | RememberObjects$ TriggeredCard | ForgetOnMoved$ Stack
+SVar:AntiMagic:Event$ Counter | ValidCard$ Card.IsRemembered | ValidSA$ Spell | Layer$ CantHappen | Description$ This spell can't be countered.
 DeckHints:Type$Artifact|Saga|Legendary
-Oracle:When this enchantment enters, draw a card.\nSacrifice this enchantment: The next historic spell you cast costs {1} less to cast. (Artifacts, legendaries, and Sagas are historic.)\nForetell {1}{W/U} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)
+Oracle:When this enchantment enters, draw a card.\nSacrifice this enchantment: The next historic spell you cast can't be countered. (Artifacts, legendaries, and Sagas are historic.)\nForetell {1}{W/U} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)
