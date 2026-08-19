@@ -1,11 +1,11 @@
 Axon Offering
 Baguette Weapon
 Ballet
+Bénisseur
 Bourgeon
 Breaking Moment
 Breaking Rules
 Bruler
-Bénisseur
 Chapelier
 Chorale
 Chromatic Petrification
@@ -15,9 +15,10 @@ Contortionniste
 Cruler
 Danseuse
 Démineur
-Esquie, Friend of Verso
 Esquie's Rescue
+Esquie, Friend of Verso
 Eternal Ice
+Évêque
 Expedition 40 Glider
 Expedition 43 Submersible
 Expedition 49 Healer
@@ -26,7 +27,6 @@ Expedition 62 Hunter
 Expedition 67
 Expedition 67 Demolitions Expert
 Expedition 70
-Expeditioner's Grave
 Fleur, Intrepid Explorer
 Gargant
 Gault
@@ -34,19 +34,19 @@ Gestral Bazaar
 Get Out Of My Way!
 Get Out Of This Canvas!
 Giant Sapling
-Grandis Merchant
 Goblu
-Gustave, Lumière Engineer
+Grandis Merchant
 Gustave's Journal
+Gustave, Lumière Engineer
 Lampmaster
 Lancelier
 Lost // Found
-Lune, Charting a Path
 Lune's Curiosity
-Maelle, The Reawakened Paintress
+Lune, Charting a Path
 Maelle's Final Plea
+Maelle, The Reawakened Paintress
 Marked!
-Noco & Monoco the Third
+Orphelin
 Paint Spike
 Piercing Strike
 Potier
@@ -57,4 +57,3 @@ The Fracture
 The Gingerbread Door
 The Scavenger
 Vicarious Envy
-Évêque
