@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 11/8/2026 11:18:44 am
+> Last generated: 19/8/2026 3:08:33 pm
 
 ## Aberration
 
@@ -117,8 +117,8 @@ Candy shields — Sacrifice a Food: Put a shield counter on this creature.
 Creature - Nevron
 Vigilance
 Summons protective bubbles — This creature enters with a shield counter on it.
-Bubbles are shielding enemies — {2}{G}, {T}: Put a shield counter on target creature you control.
-Launches projectiles from its hat — {2}{R}, {T}: This creature deals 2 damage to target attacking creature. Put a stun counter on it.
+Bubbles are shielding enemies — {3}{G}, {T}: Put a shield counter on target creature you control.
+Launches projectiles from its hat — {3}{R}, {T}: This creature deals 2 damage to target attacking creature. Put a stun counter on it.
 When this creature dies, target opponent creates a Lumina token.
 
 4/4
@@ -133,6 +133,7 @@ When this creature dies, target opponent creates a Lumina token.
  - 13/10/2025: Removed Devoid and pivoted to WG instead of WR.
  - 21/10/2025: Granted a series of defensive abilities
  - 4/11/2025: Change color identity from WG to GR. All abilities costing white mana now cost red.
+ - 20/08/2026: Increased activation costs from 2G to 3G and 2R to 3R respectively.
 
 ## Bittersweet Reunion
 

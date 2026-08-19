@@ -16781,7 +16781,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Vigilance\n{i}Summons protective bubbles{/i} — This creature enters with a shield counter on it.\n{i}Bubbles are shielding enemies{/i} — {2}{G}, {T}: Put a shield counter on target creature you control.\n{i}Launches projectiles from its hat{/i} — {2}{R}, {T}: This creature deals 2 damage to target attacking creature. Put a stun counter on it.\nWhen this creature dies, target opponent creates a Lumina token.",
+                    "text": "Vigilance\n{i}Summons protective bubbles{/i} — This creature enters with a shield counter on it.\n{i}Bubbles are shielding enemies{/i} — {3}{G}, {T}: Put a shield counter on target creature you control.\n{i}Launches projectiles from its hat{/i} — {3}{R}, {T}: This creature deals 2 damage to target attacking creature. Put a stun counter on it.\nWhen this creature dies, target opponent creates a Lumina token.",
                     "x": 0.086,
                     "y": 0.6303,
                     "width": 0.828,
@@ -49257,7 +49257,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "When this creature enters, destroy up to one target Nevron creature.\n{2}{B}, {T}: Target creature gets -2/-2 until end of turn.\nWhen this creature dies, create a Chroma token.{flavor}“Oh, I hear a big Nev coming, they count for double. If I kill it quick I can boost my score.”\n—Virgile, Expedition 62",
+                    "text": "When this creature enters, destroy up to one target Nevron creature.\n{B}, {T}: Target creature gets -1/-1 until end of turn.\nWhenever a Nevron dies, draw a card. This ability only triggers once each turn.\nWhen this creature dies, create a Chroma token.{flavor}“Oh, I hear a big Nev coming, they count for double. If I kill it quick I can boost my score.”\n—Virgile, Expedition 62",
                     "x": 0.086,
                     "y": 0.6325515280739161,
                     "width": 0.828,
@@ -107816,7 +107816,7 @@
                 },
                 "rules": {
                     "name": "Rules Text",
-                    "text": "Ward {2}\nThis creature enters with a shield counter. (If it would be dealt damage or destroyed, remove a shield counter from it instead.)\n{i}Gathers dark chroma{/i} — {4}{B}, {T}: Tap up to two target creatures.\n{i}Summons dark spear{/i} — {2}{B}, {T}: This creature deals 2 damage to target creature. You gain 2 life.\nWhen this creature dies, target opponent creates a Lumina token.",
+                    "text": "Ward {2}\nThis creature enters with a shield counter.\n{i}Gathers dark chroma{/i} — {4}{B}, {T}: Tap up to two target creatures.\n{i}Summons dark spear{/i} — {2}{B}, {T}: This creature deals 2 damage to target attacking or blocking creature. You gain 2 life.\nWhen this creature dies, target opponent creates a Lumina token.",
                     "x": 0.086,
                     "y": 0.6325515280739161,
                     "width": 0.828,

@@ -1,6 +1,6 @@
 # Cards
 
-> Last generated: 23/7/2026 11:48:27 am
+> Last generated: 19/8/2026 3:08:33 pm
 
 ## Axon Offering
 
@@ -355,9 +355,9 @@ Flashback—{1}{B}, Pay 4 life. (You may cast this card from your graveyard for 
 3BB
 Creature - Nevron Horror
 Ward {2}
-This creature enters with a shield counter. (If it would be dealt damage or destroyed, remove a shield counter from it instead.)
+This creature enters with a shield counter.
 Gathers dark chroma — {4}{B}, {T}: Tap up to two target creatures.
-Summons dark spear — {2}{B}, {T}: This creature deals 2 damage to target creature. You gain 2 life.
+Summons dark spear — {2}{B}, {T}: This creature deals 2 damage to target attacking or blocking creature. You gain 2 life.
 When this creature dies, target opponent creates a Lumina token.
 
 4/4
@@ -380,6 +380,7 @@ When this creature dies, target opponent creates a Lumina token.
  - 1/1/2026: Fixed missing lifegain in "Summons dark spear" ability
  - 21/01/2026: Added Horror sub-type.
  - 3/02/2026: Reduce cost from 4BB to 3BB
+ - 20/08/2026: Added "attacking or blocking" restriction to the "Summons dark spear" ability.
 
 ## Obscur
 

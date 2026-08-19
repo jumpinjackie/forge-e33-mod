@@ -18,8 +18,8 @@ Sandfall Interactive
 [Oracle]
 Vigilance
 Summons protective bubbles — ~ enters with a shield counter on it.
-Bubbles are shielding enemies — {2}{G}, {T}: Put a shield counter on target creature you control.
-Launches projectiles from its hat — {2}{R}, {T}: ~ deals 2 damage to target attacking creature. Put a stun counter on it.
+Bubbles are shielding enemies — {3}{G}, {T}: Put a shield counter on target creature you control.
+Launches projectiles from its hat — {3}{R}, {T}: ~ deals 2 damage to target attacking creature. Put a stun counter on it.
 $NEVRON_DEATH_ABILITY_TEXT_SHORT
 [AbilityWords]
 Summons protective bubbles
@@ -28,8 +28,8 @@ Launches projectiles from its hat
 [ForgeScript]
 K:Vigilance
 K:etbCounter:SHIELD:1
-A:AB$ PutCounter | Cost$ 2 G T | ValidTgts$ Creature.YouCtrl | CounterType$ SHIELD | CounterNum$ 1 | SpellDescription$ Put a shield counter on target creature you control.
-A:AB$ DealDamage | Cost$ 2 R T | ValidTgts$ Creature.attacking | TgtPrompt$ Select target attacking creature | NumDmg$ 2 | SubAbility$ DBStun | SpellDescription$ ~ deals 2 damage to target attacking creature. Put a stun counter on it.
+A:AB$ PutCounter | Cost$ 3 G T | ValidTgts$ Creature.YouCtrl | CounterType$ SHIELD | CounterNum$ 1 | SpellDescription$ Put a shield counter on target creature you control.
+A:AB$ DealDamage | Cost$ 3 R T | ValidTgts$ Creature.attacking | TgtPrompt$ Select target attacking creature | NumDmg$ 2 | SubAbility$ DBStun | SpellDescription$ ~ deals 2 damage to target attacking creature. Put a stun counter on it.
 SVar:DBStun:DB$ PutCounter | ValidCards$ Targeted | CounterType$ STUN | CounterNum$ 1
 $NEVRON_DEATH_ABILITY
 [Tags]
@@ -40,3 +40,4 @@ creature-removal
  - 13/10/2025: Removed Devoid and pivoted to WG instead of WR.
  - 21/10/2025: Granted a series of defensive abilities
  - 4/11/2025: Change color identity from WG to GR. All abilities costing white mana now cost red.
+ - 20/08/2026: Increased activation costs from 2G to 3G and 2R to 3R respectively.
