@@ -13,6 +13,8 @@ true
 U
 [NicknameFor]
 Ominous Cemetery
+[DraftScore]
+70
 [Artist]
 Sandfall Interactive
 [Tags]

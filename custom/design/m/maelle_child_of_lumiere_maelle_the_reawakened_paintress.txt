@@ -20,6 +20,8 @@ creature-removal
 artifact-removal
 enchantment-removal
 reanimation
+[DraftScore]
+70
 [StorySection]
 2. Prologue
 [StoryOrder]

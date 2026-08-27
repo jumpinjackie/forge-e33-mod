@@ -21,6 +21,8 @@ Sandfall Interactive
 [Tags]
 combat-trick
 creature-removal
+[DraftScore]
+70
 [StorySection]
 4. Act II
 [StoryOrder]

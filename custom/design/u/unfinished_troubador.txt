@@ -22,6 +22,8 @@ SVar:TrigVerse:DB$ PutCounter | CounterNum$ 1 | CounterType$ VERSE | ConditionMa
 SVar:TrigRage:DB$ PutCounter | CounterNum$ 1 | CounterType$ RAGE | ConditionManaSpent$ R
 S:Mode$ Continuous | Affected$ Creature.Other+YouCtrl | IsPresent$ Card.Self+counters_GE1_VERSE | AddPower$ 1 | AddToughness$ 1 | Description$ Other creatures you control get +1/+1 if ~ has a verse counter.
 S:Mode$ Continuous | Affected$ Creature.Other+YouCtrl | IsPresent$ Card.Self+counters_GE1_RAGE | AddKeyword$ Haste | Description$ Other creatures you control have haste if ~ has a rage counter.
+[DraftScore]
+60
 [Artist]
 Sandfall Interactive
 [Tags]

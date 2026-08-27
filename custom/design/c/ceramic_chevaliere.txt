@@ -20,6 +20,8 @@ $NEVRON_DEATH_ABILITY_TEXT
 [ForgeScript]
 K:First strike
 $NEVRON_DEATH_ABILITY
+[DraftScore]
+55
 [Artist]
 Sandfall Interactive
 [DesignNotes]

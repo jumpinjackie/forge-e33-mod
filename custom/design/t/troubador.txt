@@ -25,6 +25,8 @@ S:Mode$ Continuous | Affected$ Creature.Nevron+Other+YouCtrl | AddPower$ 1 | Add
 S:Mode$ Continuous | Affected$ Nevron.YouCtrl | AddKeyword$ Haste | Description$ Nevrons you control have haste.
 $NEVRON_DEATH_ABILITY
 DeckHints:Type$Nevron
+[DraftScore]
+55
 [Tags]
 lord
 [DesignNotes]

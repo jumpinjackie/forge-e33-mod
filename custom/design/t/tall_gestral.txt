@@ -16,6 +16,8 @@ Reach (This creature can block creatures with flying.)
 "If I'm lucky, I'll become a weapon for a Sakapatate!"
 [ForgeScript]
 K:Reach
+[DraftScore]
+59
 [Artist]
 Sandfall Interactive
 [DesignNotes]

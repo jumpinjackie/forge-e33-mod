@@ -20,6 +20,8 @@ SVar:DBToken:DB$ Token | TokenAmount$ 1 | TokenOwner$ You | TokenScript$ c_a_lum
 U
 [Artist]
 Sandfall Interactive
+[DraftScore]
+65
 [Tags]
 creature-removal
 combat-trick

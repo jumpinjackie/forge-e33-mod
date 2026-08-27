@@ -16,6 +16,8 @@ Vigilance
 "Do not be concerned for us. For we have faced every hardship imaginable."
 [ForgeScript]
 K:Vigilance
+[DraftScore]
+58
 [Artist]
 Sandfall Interactive
 [DesignNotes]

@@ -27,6 +27,8 @@ $EXPEDITIONER_DEATH_ABILITY
 [Tags]
 creature-removal
 planeswalker-removal
+[DraftScore]
+68
 [StorySection]
 1. Before the Prologue
 [StoryOrder]

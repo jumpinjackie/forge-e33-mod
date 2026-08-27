@@ -26,6 +26,8 @@ A:SP$ DamageAll | ValidCards$ Creature.withoutFlying,Planeswalker | ValidPlayers
 SVar:X:Count$Valid Land.nonBasic/Times.2
 SVar:TrigDraw:DB$ Draw | NumCards$ 1 | ConditionCheckSVar$ Y | ConditionSVarCompare$ GE3 | SpellDescription$ Draw a card if you control at least three Lumina tokens.
 SVar:Y:Count$Valid Lumina.YouCtrl
+[DraftScore]
+70
 [Tags]
 luminous
 board-wipe

@@ -30,6 +30,8 @@ w_1_1_human_expeditioner
 Sandfall Interactive
 [Tags]
 luminous
+[DraftScore]
+80
 [StorySection]
 2. Prologue
 [StoryOrder]

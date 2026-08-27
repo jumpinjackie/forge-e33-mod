@@ -17,6 +17,8 @@ T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.S
 SVar:TrigStick:DB$ PutCounter | CounterType$ STICK | CounterNum$ 1 | ValidTgts$ Creature
 A:AB$ Pump | Cost$ Sac<1/CARDNAME> | ValidTgts$ Creature.YouCtrl | TgtPrompt$ Select target creature you control | NumAtt$ +2 | NumDef$ +2 | SubAbility$ DBFight | SpellDescription$ Target creature you control gets +2/+2 until end of turn. Then that creature fights target creature with a stick counter on it.
 SVar:DBFight:DB$ Fight | Defined$ ParentTarget | ValidTgts$ Creature.counters_GE1_STICK | TgtPrompt$ Choose target creature with a stick counter on it.
+[DraftScore]
+60
 [Artist]
 Sandfall Interactive
 [Cycle]

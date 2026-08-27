@@ -21,6 +21,8 @@ Lune knew she was powerless to stop what was happening. All she could do in that
 Sandfall Interactive
 [Tags]
 board-wipe
+[DraftScore]
+90
 [StorySection]
 7a. Epilogue: Verso's Ending
 [StoryOrder]

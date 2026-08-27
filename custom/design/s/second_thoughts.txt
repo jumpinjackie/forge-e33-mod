@@ -19,6 +19,8 @@ C
 Sandfall Interactive
 [Tags]
 creature-removal
+[DraftScore]
+60
 [StorySection]
 3. Act I
 [StoryOrder]
