@@ -1,13 +1,6 @@
-# forge-e33-mod
+# e33-custom-set
 
-This a mod for [Forge](https://github.com/Card-Forge/forge) and a custom set for [Cockatrice](https://cockatrice.github.io/) based on the video game [Clair Obscur: Expedition 33](https://store.steampowered.com/app/1903340/Clair_Obscur_Expedition_33/).
-
-This mod is multi-faceted and consists of:
-
- * [Current Focus] A new custom expansion set for Forge and Cockatrice with cards inspired by the lore, story, flavor, characters and mechanics from the video game.
- * A music mod for Forge to replace the built-in menu/battle music with a curated selection of tracks from the video game OST. Basically streamlining [these instructions](https://gist.github.com/jumpinjackie/a1e2ee5c7da29bf444b0e76870ad1f97)
- * [Maybe in the future, if I'm still motivated] A custom [Forge quest mode](https://github.com/Card-Forge/forge?tab=readme-ov-file#-quest-modes) focused solely on the enemies and bosses of Expedition 33 with decks only from this custom set.
- * [In the long distant future maybe, if I'm really really motivated] A custom [Forge adventure mode](https://github.com/Card-Forge/forge?tab=readme-ov-file#-adventure-mode) plane focused solely on the world, enemies and bosses of Expedition 33 with decks only from this custom set.
+This a custom MTG set for [Forge](https://github.com/Card-Forge/forge) and [Cockatrice](https://cockatrice.github.io/) with cards inspired by the lore, story, flavor, characters and mechanics from the video game [Clair Obscur: Expedition 33](https://store.steampowered.com/app/1903340/Clair_Obscur_Expedition_33/).
 
 This is a fan project and is not affiliated with Sandfall Interactive or Wizards of the Coast.
 
@@ -56,6 +49,8 @@ This is a fan project and is not affiliated with Sandfall Interactive or Wizards
 ![commander battle](screenshot_battle.png)
 
 If you want to run a custom cube draft with this set, assuming you installed the `E33_Cube.dck` and `E33_Cube.draft` files to the correct directories, follow [these instructions](docs/FORGE_CUBE.md)
+
+For a more immersive experience (of re-living the video game in card game form) you can add music from the video game into Forge [with these instructions](https://gist.github.com/jumpinjackie/a1e2ee5c7da29bf444b0e76870ad1f97)
 
 # Installing (for Cockatrice)
 
