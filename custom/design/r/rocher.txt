@@ -18,6 +18,8 @@ $NEVRON_DEATH_ABILITY_TEXT
 [ForgeScript]
 K:Protection from red
 $NEVRON_DEATH_ABILITY
+[DraftScore]
+45
 [DesignNotes]
  - In the game, Rochers can be found in the Stone Wave Cliffs
  - Gave pro red as a nod to its resistance to fire attacks in game.

@@ -26,6 +26,8 @@ SVar:TrigChangeZone:DB$ ChangeZone | Origin$ Graveyard | Destination$ Hand | Def
 Sandfall Interactive
 [Tags]
 combat-trick
+[DraftScore]
+68
 [DesignNotes]
  - In the game, marked is a status effect that causes the recipient to receive 50% more damage on the next hit.
  - Mechanically mapped to an aura that doubles any damage dealt to enchanted creature.

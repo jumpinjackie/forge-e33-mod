@@ -20,5 +20,7 @@ John Avon
 creature-removal
 artifact-removal
 enchantment-removal
+[DraftScore]
+85
 [DesignNotes]
  - Flavorful reprint and useful spot removal.

@@ -29,6 +29,8 @@ T:Mode$ Always | TriggerZones$ Battlefield | IsPresent$ Card.Self+counters_GE3_Q
 SVar:TrigSac:DB$ Sacrifice
 [Tags]
 board-wipe
+[DraftScore]
+70
 [DesignNotes]
  - In the game, Grosse Tête is a boss whose gimmick is repeatedly bouncing and slamming the ground.
  - It starts off with 2 consecutive strikes and repeats, adding 2 consecutive strikes each time.

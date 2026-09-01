@@ -26,5 +26,7 @@ SVar:DBHexproof:DB$ Pump | ValidTgts$ Creature | TgtPrompt$ Select target creatu
 Sandfall Interactive
 [Tags]
 combat-trick
+[DraftScore]
+48
 [DesignNotes]
  - Draft/limited filler to round out the creature roster. Gave flash for combat trickiness.

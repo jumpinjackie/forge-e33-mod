@@ -22,6 +22,8 @@ SVar:GraveToExile:Event$ Moved | ActiveZones$ Command | Destination$ Graveyard |
 SVar:Exile:DB$ ChangeZone | Hidden$ True | Origin$ All | Destination$ Exile | Defined$ ReplacedCard
 SVar:PlayMain1:ALWAYS
 DeckHints:Type$Nevron|Gradient
+[DraftScore]
+65
 [StorySection]
 6. Act III
 [StoryOrder]

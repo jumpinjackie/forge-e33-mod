@@ -39,6 +39,8 @@ luminous
 15.9
 [StoryBlurb]
 The "mysterious new warrior" makes a grand entrance.
+[DraftScore]
+60
 [DesignNotes]
  - In the game, this is one of Sciel's quotes during battle.
  - Design-wise fully leaned in on the pun and based it around using "your deck" to take out any creature, if you can afford to mill the number of cards required.

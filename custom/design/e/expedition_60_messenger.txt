@@ -33,6 +33,8 @@ Google Gemini
 13
 [StoryBlurb]
 While the rest of Expedition 60 went to the bottom of the Monolith to face the real enemy, William was assigned to send the message of the true enemy back to the citizens of Lumière. Unfortunately, he could not out-race the Gommage and could not make it back in time.
+[DraftScore]
+60
 [DesignNotes]
  - Depicts the member of the gigachad expedition that almost made it back to Lumière to relay the message about the true enemy.
  - The clue token left behind represents the expedition journal.

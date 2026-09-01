@@ -22,6 +22,8 @@ A:AB$ Mana | Cost$ 1 T | Produced$ Any | SpellDescription$ Add one mana of any c
 "Expeditioners, eh? You're a fun looking bunch. Unless you try to cause problems. Then we'll beat you up. Which will be fun for me, but not for you."
 [Tags]
 mana-dork
+[DraftScore]
+70
 [DesignNotes]
  - Just a vanilla Gestral to round out a Gestral tribal deck and to round out the creature roster for draft/limited
  - 19/02/2026: Converted to a mana dork that's basically a creature version of Painted Bluffs

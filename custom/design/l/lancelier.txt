@@ -18,6 +18,8 @@ $NEVRON_DEATH_ABILITY_TEXT
 [ForgeScript]
 K:First Strike
 $NEVRON_DEATH_ABILITY
+[DraftScore]
+51
 [DesignNotes]
  - Another generic vanilla Nevron to round out the creature roster for limited/draft.
  - In game, Lancelier's wield a lance. So clearly this should have First Strike.

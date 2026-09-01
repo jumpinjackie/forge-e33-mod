@@ -28,6 +28,8 @@ A:AB$ GainControl | Cost$ 2 T | ValidTgts$ Creature.Nevron | TgtPrompt$ Select t
 $EXPEDITIONER_DEATH_ABILITY
 [Tags]
 creature-stealer
+[DraftScore]
+70
 [DesignNotes]
  - In the game, Expedition 81 was the first expedition to ever communicate with a Nevron.
  - This card represents someone who has mastered the ability to communicate with Nevron.

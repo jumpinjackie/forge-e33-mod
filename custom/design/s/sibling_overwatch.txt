@@ -24,6 +24,8 @@ SVar:RPrevent:Event$ DamageDone | Prevent$ True | ValidTarget$ Card.IsRemembered
 Sandfall Interactive
 [Tags]
 combat-trick
+[DraftScore]
+60
 [Cycle]
 Verso's Treehouse Artworks
 [DesignNotes]

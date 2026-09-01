@@ -18,6 +18,8 @@ K:Fuse
 AlternateMode:Split
 A:SP$ ChangeZone | ValidTgts$ Permanent.nonLand | TgtPrompt$ Select target nonland permanent | AlternativeDecider$ TargetedOwner | Origin$ Battlefield | Destination$ Library | LibraryPosition$ 2 | DestinationAlternative$ Library | LibraryPositionAlternative$ -1 | StackDescription$ {p:TargetedOwner} puts {c:Targeted} into their library third from the top or on the bottom. | SpellDescription$ The owner of target nonland permanent puts it into their library third from the top or on the bottom.
 ALTERNATE:FUSE
+[DraftScore]
+56
 [Name]
 Found
 [ManaCost]

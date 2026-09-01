@@ -19,6 +19,8 @@ Luminous
 [ForgeScript]
 A:AB$ ChangeZone | Cost$ 1 T Sac<1/CARDNAME> | Origin$ Graveyard | Destination$ Hand | TgtPrompt$ Select target creature card in your graveyard | ValidTgts$ Creature.YouCtrl | SpellDescription$ Return target creature card from your graveyard to your hand.
 A:AB$ ChangeZone | Cost$ 3 T Sac<1/CARDNAME> | Origin$ Graveyard | Destination$ Battlefield | Tapped$ True | TgtPrompt$ Select target creature card in your graveyard | ValidTgts$ Creature.YouCtrl | IsPresent$ Lumina.YouCtrl | PresentCompare$ GE3 | SpellDescription$ Return target creature card from your graveyard to the battlefield tapped. Activate this ability only if you control at least three Lumina tokens.
+[DraftScore]
+50
 [Tags]
 luminous
 [DesignNotes]

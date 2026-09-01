@@ -48,6 +48,8 @@ Monoco challenges the party to defeat the Stalact that just appeared. This battl
 [Rulings]
  - Multicolor spells will trigger the fire/ice counter addition if red or blue is one of the colors involved.
  - If targeted by a multicolor spell that is both blue and red, both fire and ice counter abilities will trigger and you choose the order to stack them.
+[DraftScore]
+45
 [DesignNotes]
  - Has the same "flip-flop" elemental immunity as its big brother (Gargant), so has the same flip-flop protection.
  - 21/01/2026: Added Beast sub-type.

@@ -22,6 +22,8 @@ K:Trample
 K:Menace
 R:Event$ Untap | ValidCard$ Card.Self | ValidStepTurnToController$ You | Layer$ CantHappen | Description$ CARDNAME doesn't untap during your untap step.
 A:AB$ Untap | Cost$ tapXType<3/Creature.YouCtrl> | SpellDescription$ Untap CARDNAME.
+[DraftScore]
+70
 [DesignNotes]
  - In the game, Matthieu is one of the gestral fighters in the Gestral Village Arena.
  - Has the word "Colossus" in its name, so therefore it's the big fatty Gestral of the set.

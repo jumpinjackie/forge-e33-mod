@@ -22,6 +22,8 @@ SVar:STPump:Mode$ Continuous | AffectedZone$ Battlefield | Affected$ Creature.Yo
 SVar:X:Count$Valid Permanent
 [Artist]
 Sandfall Interactive
+[DraftScore]
+57
 [Rulings]
  - If you get the +1/+1 bonus, it does not go away if the permanent count changes later on in the turn.
 [DesignNotes]

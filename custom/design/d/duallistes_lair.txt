@@ -19,6 +19,8 @@ Death Pits of Rath
 U
 [Artist]
 Sandfall Interactive
+[DraftScore]
+70
 [StorySection]
 4. Act II
 [StoryOrder]

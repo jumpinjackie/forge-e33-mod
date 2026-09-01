@@ -21,6 +21,8 @@ A:AB$ Surveil | Cost$ 2 T | Amount$ 1 | SpellDescription$ Surveil 1.
 A:AB$ Draw | Cost$ 1 Sac<1/CARDNAME> | NumCards$ 1 | SpellDescription$ Draw a card.
 DeckNeeds:Name$Dorrie|Florrie|Soarrie
 DeckHints:Name$Esquie's Charge|Esquie's Embrace|Esquie, Friend of Verso
+[DraftScore]
+50
 [Cycle]
 Esquie's Pet Rocks
 [DesignNotes]

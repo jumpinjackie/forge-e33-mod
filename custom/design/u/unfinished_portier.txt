@@ -18,6 +18,8 @@ A:AB$ PutCounter | Cost$ Sac<1/Forest> | CounterNum$ 2 | CounterType$ P1P1 | Sub
 SVar:DBFlying:DB$ PutCounter | CounterNum$ 1 | CounterType$ Reach
 [Artist]
 Sandfall Interactive
+[DraftScore]
+60
 [DesignNotes]
  - In the game, the Unfinished Portier can be found in the Esoteric Ruins. It appears as its "weak point" missing a body, returning a set of wooden boards to it will "complete" it to a regular Portier.
  - Modeled as a tiny Nevron that can be "converted" to a regular Portier by saccing a Forest. Because a Forest is ... a source of wood!

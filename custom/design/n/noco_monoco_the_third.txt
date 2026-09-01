@@ -32,6 +32,8 @@ T:Mode$ Attacks | ValidCard$ Card.Self | Execute$ TrigChoose | TriggerZones$ Bat
 SVar:TrigChoose:DB$ Charm | Choices$ DBSurveil,DBFetch | CharmNum$ 1
 SVar:DBSurveil:DB$ Surveil | Amount$ 1 | SpellDescription$ Surveil 1.
 SVar:DBFetch:DB$ ChangeZone | Origin$ Graveyard | Destination$ Hand | TgtPrompt$ Choose target artifact in your graveyard | ValidTgts$ Artifact.YouCtrl | SpellDescription$ Return target artifact card from your graveyard to your hand.
+[DraftScore]
+50
 [StorySection]
 5. Intermission - A Glimpse in the past: Monolith Year 49
 [StoryOrder]

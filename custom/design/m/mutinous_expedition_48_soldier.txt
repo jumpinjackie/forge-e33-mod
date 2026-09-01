@@ -32,6 +32,8 @@ SVar:TrigToken:DB$ Token | TokenScript$ c_a_chroma | TokenOwner$ You | TokenAmou
 —Vincent, Expedition 48
 [RelatedTokens]
 c_a_chroma
+[DraftScore]
+40
 [DesignNotes]
  - In the game, Expedition 48 was an expedition fraught with Mutiny and Treachery.
  - The mutinous nature has been captured with this creature joining the other side when one of your Expeditioner compatriots dies.

@@ -36,6 +36,8 @@ DeckHints:Type$Gestral
 c_a_lumina
 [Tags]
 creature-removal
+[DraftScore]
+70
 [DesignNotes]
  - Like other Sakapatates, it will try to do a last minute suicide move to do some damage before it goes.
  - 21/10/2025: Added Gestral alliance cost reduction.

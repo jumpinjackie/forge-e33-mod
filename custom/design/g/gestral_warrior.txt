@@ -18,6 +18,8 @@ Sandfall Interactive
 "You’re a twig on my path to Gestral hero-ing. Get out of my sight."
 [ForgeScript]
 K:CARDNAME can't attack or block alone.
+[DraftScore]
+50
 [DesignNotes]
  - In the game, Gestral Warriors reside in the Gestral Village.
  - Gestral version of Mogg Flunkies.

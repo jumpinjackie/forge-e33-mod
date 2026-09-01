@@ -18,6 +18,8 @@ $NEVRON_DEATH_ABILITY_TEXT
 [ForgeScript]
 K:Flash
 $NEVRON_DEATH_ABILITY
+[DraftScore]
+55
 [DesignNotes]
  - Currently a vanilla placeholder Nevron. Abilities TBD
  - 13/10/2025: Removed Devoid.
